@@ -1,38 +1,30 @@
 ---
-title: Guía para autores
+title: Guía para traductores
 layout: blank
 redirect_from:
  - /new-lesson-workflow
- - /author-guidelines
+ - /translator-guidelines
 skip_validation: true
 ---
 
-# Guía para autores
+# Guía para traductores
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
-<h2 class="noclear">Paso 1: <a href="#paso-1-proponer-una-nueva-leccion">Proponer una nueva lección </a></h2>
-<h2 class="noclear">Paso 2: <a href="#paso-2-escribir-y-dar-formato-a-una-nueva-leccion">Escribir y dar formato a una nueva lección</a></h2>
-<h2 class="noclear">Paso 3: <a href="#paso-3-enviar-una-nueva-leccion">Enviar una nueva lección</a></h2>
+<h2 class="noclear">Paso 1: <a href="#paso-1-proponer-una-nueva-traduccion">Proponer una nueva traducción </a></h2>
+<h2 class="noclear">Paso 2: <a href="#paso-2-escribir-y-dar-formato-a-una-nueva-traduccion">Escribir y dar formato a una nueva traducción</a></h2>
+<h2 class="noclear">Paso 3: <a href="#paso-3-enviar-una-nueva-traduccion">Enviar una nueva traducción</a></h2>
 
 
-Estas directrices han sido desarrolladas para ayudarte a entender el proceso de creación de un tutorial para *Programming Historian* en Español. Incluyen detalles prácticos sobre el proceso de redacción de un tutorial, así como indicaciones sobre el flujo de trabajo y el proceso de revisión entre pares. Si en algún momento hay algo que no te queda claro, por favor envía un correo electrónico a {% include managing-editor.html lang=page.lang %}.
+Estas directrices han sido desarrolladas para ayudarte a entender el proceso de traducción de un tutorial para *Programming Historian* en Español. Incluyen detalles prácticos sobre el proceso de traducción de un tutorial, así como indicaciones sobre el flujo de trabajo y el proceso de revisión entre pares. Si en algún momento hay algo que no te queda claro, por favor envía un correo electrónico a {% include managing-editor.html lang=page.lang %}.
 
-## Paso 1: Proponer una nueva lección
+## Paso 1: Proponer una nueva traducción
 
-<div class="alert alert-success">
-Aceptamos tutoriales relevantes para las humanidades, dirigidos a cualquier nivel de aptitud técnica y experiencia, que se centren en un problema o proceso, que puedan ser sostenibles a largo plazo y que estén dirigidos a una audiencia global. El alcance y la longitud del tutorial han de corresponderse con la complejidad de la tarea que se enseña. Los tutoriales no deben exceder las 8.000 palabras (incluyendo el código) sin el permiso explícito del editor, el que se otorgará únicamente en circunstancias excepcionales. Esperamos que la mayoría de las lecciones tengan entre 4.000 y 6.000 palabras. Si resulta pertinente, puede que solicitemos dividir en varios tutoriales las lecciones más largas.
-</div>
+Si quieres traducir una lección, por favor, revisa la lista de [traducciones pendientes](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/es/lista-de-traducciones.md) y ponte en contacto con {% include managing-editor.html lang=page.lang %}. Buscamos traducciones rigurosas, de lectura amena y que, además, tengan en cuenta el contexto de América Latina y España, así como los recursos que se encuentra disponibles actualmente en lengua española.
 
-Si tienes una idea para una nueva lección, completa el [formulario de propuestas](/assets/forms/Lesson.Query.Form.txt) y envíalo a {% include managing-editor.html lang=page.lang %}.
-
-Para tener una idea de lo que publicamos, consulta nuestras [lecciones ya publicadas]({{site.baseurl}}/es/lecciones), lee nuestra [guía para revisores]({{site.baseurl}}/es/guia-para-revisores) o explora [las lecciones actualmente en desarrollo](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/lecciones). Animamos el envío de propuestas de lecciones sobre temas ya cubiertos o en desarrollo, siempre que la lección nueva haga una contribución propia.
-
-A fin de que nuestras lecciones sean sostenibles a largo plazo, se sugiere proponer tutoriales que no dependan de un programa o de una interfaz específica que no haya demostrado ser estable en el tiempo. De lo contrario, los tutoriales necesitarían cambios con cada actualización. En aras de una mayor conservación, es mejor enseñar conceptos que a ‘hacer clic sobre un botón X’. Asimismo, se espera que los tutoriales no se centren en documentar cómo utilizar un determinado programa/aplicación/interfaz, sino que muestren cómo abordar un caso de estudio propio de las humanidades a través de esa(s) herramienta(s).
-
-Tras la aprobación de tu propuesta, crearemos una página en el [sitio de envíos](https://github.com/programminghistorian/ph-submissions/issues) con el título provisional y los objetivos de la lección. Esto sirve para documentar el progreso realizado durante la escritura de la lección. Para asegurar la publicación oportuna, te pedimos que entregues tu texto al cabo de 90 días tras la aprobación. Durante este período de 90 días, tu punto de contacto será la jefe de redacción o el editor o editora que se haya asignado para acompañarte durante el proceso.
+Una vez aceptada tu propuesta y para asegurar la publicación oportuna, te pedimos que entregues tu traducción al cabo de 90 días tras la aprobación. Durante este período de 90 días, tu punto de contacto será la jefa de redacción o el editor o editora que haya sido asignada para acompañarte durante el proceso.
 
 ## Paso 2: Escribir y formatear el tutorial
-Esta guía de estilo define un conjunto de normas para ser utilizadas al crear lecciones en español para *Programming Historian*. Al seguir estos lineamientos nos ayudas a asegurar que el contenido sea consistente y accesible.
+Esta guía de estilo define un conjunto de normas para ser utilizadas al traducir lecciones al español para *Programming Historian*. Al seguir estos lineamientos nos ayudas a asegurar que el contenido sea consistente y accesible.
 
 La guía contempla tres secciones, que deben ser leídas antes y después de la escritura:
 
@@ -41,46 +33,28 @@ La guía contempla tres secciones, que deben ser leídas antes y después de la 
 * C. Guía de formato
 
 ## A. Estilo y audiencia
-Esta primera sección se ocupa de cuestiones de estilo generales que te ayudarán a tomar decisiones que satisfagan las necesidades de nuestra audiencia y editores. Incluimos información básica sobre el estilo y el tono, el acceso abierto y los valores del código abierto, información sobre la escritura para una audiencia global, la escritura sostenible y la toma de decisiones inteligentes sobre los datos utilizados en las lecciones. Lee esta sección cuando planifiques tu lección y vuelve a leerla antes de enviarla para asegurarte de que el tutorial cumple con estos requisitos.
+Esta primera sección se ocupa de cuestiones de estilo generales que te ayudarán a tomar decisiones que satisfagan las necesidades de nuestra audiencia y editores. Incluimos información básica sobre el estilo y el tono, el acceso abierto y los valores del código abierto, información sobre la escritura para una audiencia global, la escritura sostenible y la toma de decisiones inteligentes sobre los datos utilizados en las lecciones. Lee esta sección antes de traducir la lección. Vuelve a leerla antes de enviarla para asegurarte de que el tutorial cumple con estos requisitos.
 
 ### Lenguaje y estilo
-*	Los tutoriales no deben exceder las 8.000 palabras (incluyendo el código).
 *	Mantén un tono formal, pero accesible.
 *	Habla con tu lector en segunda persona singular (tú).
 *	Procura escribir de un modo comprensible y adecuado para hablantes de español de distintas zonas geográficas.
 *	Refiérete a tu escrito como "tutorial" o "lección", no como "artículo".
 
-### Código abierto, acceso abierto
-*Programming Historian* está comprometido con los valores del código abierto. Todas las lecciones deben usar lenguajes de programación y software de código abierto siempre que sea posible. Esta política tiene por objeto reducir al mínimo los costos para todas las partes y permitir el mayor nivel de participación posible.
-
-Una vez aprobada tu lección, aceptas que se publique bajo licencia Creative Commons "[CC-BY](https://creativecommons.org/licenses/by/4.0/deed.es)".
-
 ### Escribe para una audiencia global
-*Programming Historian* es leído por personas que viven en todo el mundo. Es por ello que debes tomar medidas para que tu lección sea accesible para el mayor número de personas posible. Las siguientes directrices te ayudarán a enfrentar una audiencia global:
+*Programming Historian* es leído por personas que viven en todo el mundo. Es por ello que debes tomar medidas para que tu traducción sea accesible para el mayor número de personas posible. Las siguientes directrices te ayudarán a enfrentar una audiencia global:
 
-*	Escribe para alguien que no vive en tu país o que no comparte tus creencias.
-
-*	**Términos técnicos:** siempre deben estar vinculados a [Wikipedia](https://es.wikipedia.org/), a un diccionario fiable o a un sitio web sostenible, en primera instancia. Un término técnico es cualquier palabra que una persona en la calle puede no conocer o entender. Idealmente, estas fuentes deben estar en español.
-*	**Referencias culturales**: las menciones a personas, organizaciones o detalles históricos deben acompañarse siempre con información contextual. No hay que suponer ningún conocimiento previo, incluso de referencias culturales ampliamente conocidas (por ejemplo, [The Beatles](https://es.wikipedia.org/wiki/The_Beatles)). Utiliza términos genéricos en lugar de marcas comerciales (pañuelo desechable en lugar de Kleenex, por ejemplo). Los enlaces a [Wikipedia](https://es.wikipedia.org/) deben ser usados tanto como sea necesario. Ten en cuenta también que algunos eventos históricos a veces reciben diferentes nombres según el país.
-*	**Modismos**: Evita bromas, juegos de palabras, expresiones idiomáticas, sarcasmo, emojis, jerga, términos exclusivos de tu variante lingüística o vocabulario más difícil de lo necesario.
-*	**Geografía**: cuando hagas referencia a lugares, sé específico. ¿"Noroeste" significa Brasil? ¿India? ¿África? Escribe siempre el nombre completo del área la primera vez que la menciones.
-*	**Multilingüismo**: al elegir los métodos o instrumentos, ten en cuenta a lectores y lectoras multilingües, especialmente en el caso de los métodos de análisis textual, que pueden no ser compatibles con otros conjuntos de caracteres o que solo pueden proporcionar resultados sólidos cuando se utilizan en textos en inglés. Cuando sea posible, elige enfoques que tengan documentación multilingüe o proporciona referencias multilingües para su lectura posterior. Esto ayudará a nuestros traductores en el futuro.
-*	**Lenguaje racial y étnico**: usa la terminología racial cuidadosamente y con especificidad. Los términos históricos que ya no se utilizan deben usarse solo en su contexto histórico y solo cuando sea necesario. Usa los términos raciales como adjetivos y no como sustantivos: personas blancas en lugar de "blancos", una mujer asiática en lugar de "una asiática". Ten en cuenta que los términos pueden entenderse de manera diferente en distintos países y que lo que has aprendido como un uso correcto o sensible puede ser culturalmente específico de tu país (por ejemplo, no todas las personas de ascendencia africana son "afroamericanos". Algunos de ellos son africanos, o negros británicos, o caribeños, etc.). Asimismo, las personas del Reino Unido entenderán el término "asiático" (India, Pakistán, Bangladesh) de manera diferente a las de América del Norte (por ejemplo, China, Japón, Vietnam, Tailandia).
-*	**Representaciones visuales**: elije las fuentes primarias, imágenes, figuras y capturas de pantalla, teniendo en cuenta una audiencia global.
-
-### Escritura sostenible
-*Programming Historian* publica lecciones pensando en el largo plazo. Por favor, sigue estas directrices sobre sostenibilidad cuando escribas:
-
- *	**Tan general como sea posible, pero no más**: concéntrate en las metodologías y generalidades, no en los programas informáticos/interfaces específicos (por ejemplo, de ser posible, evita decir a los usuarios que "hagan clic en el botón X", que podría ser diferente en versiones futuras).
- * **Reducir la dependencia de elementos insostenibles**: utiliza capturas de pantalla con moderación y con un propósito claro. Las interfaces cambian con frecuencia y los futuros lectores podrían confundirse si su versión no se ve exactamente igual. Elije los enlaces externos teniendo en cuenta el futuro. ¿Cambia a menudo el sitio al que se enlaza? ¿Existirá dentro de diez años?
- * **Especifica las versiones si son importantes**: sé claro acerca de los detalles específicos de las versiones utilizadas en caso de que sean necesarios para poder seguir la lección. Por ejemplo, ¿se necesita Python v.3 o cualquier versión estará bien? ¿Funciona con cualquier versión de Java? ¿Habrá problemas si se usa una versión de R anterior a 3.5?
- * **Refiérete a la documentación**: haz referencia a documentación fiable cuando sea posible. Proporciona una guía general sobre cómo encontrar la documentación en caso de que sea probable que haya nuevas versiones en el futuro.
- * **Copias de datos**: todos los datos utilizados en las lecciones deben ser publicados en los servidores de *Programming Historian* junto con tu lección. Asegúrete de tener el derecho legal de publicar una copia de cualquier dato utilizado. Los archivos de datos deben utilizar formatos abiertos, no dependientes de un software particular.
-
-Consulta nuestra [política de retirada de lecciones]({{site.baseurl}}/es/politica-retirada-lecciones) para información sobre cómo el equipo editorial maneja las lecciones que se han vuelto obsoletas.
+*	Escribe teniendo en cuenta que la lección será leída por hispanoablantes de distintas regiones y culturas.
+* **Datos:** si es posible deben ser traducidos. En algunos casos, quienes traducen la lección han decidido modificarlos para adaptar la lección al español. Un caso de esto es la lección [Introducción a Topic Modeling y MALLET](/es/lecciones/topic-modeling-y-mallet), en que se cambió el corpus utilizado en la lección original por uno en español. Esto fue posible ya que no afectaba mayormente el texto del tutorial. En otros casos, se ha preferido traducir los datos (por ejemplo, traducir los nombres de variables y observaciones de un dataframe).
+*	**Términos técnicos:** siempre deben estar vinculados a [Wikipedia](https://es.wikipedia.org/), a un diccionario fiable o a un sitio web sostenible, en primera instancia. Un término técnico es cualquier palabra que una persona en la calle puede no conocer o entender. Si la lección original tiene vínculos en inglés, busca un equivalente en español para incluir en la traducción.  
+*	**Referencias culturales**: es probable que la lección contenga enlaces para dar contexto a las referencias culturales. Busca versiones en español para incluir en la lección traducida. Si hay referencias que consideres que necesitan una explicación adicional para el público hispanoparlante, inclúyela como nota.
+*	**Lenguaje racial y étnico**: use la terminología racial cuidadosamente y con especificidad. Los términos históricos que ya no se utilizan deben usarse solo en su contexto histórico y solo cuando sea necesario. Usa los términos raciales como adjetivos y no como sustantivos: personas blancas en lugar de "blancos", una mujer asiática en lugar de "una asiática". Ten en cuenta que los términos pueden entenderse de manera diferente en distintos países y que lo que has aprendido como un uso correcto o sensible puede ser culturalmente específico de tu país (por ejemplo, no todas las personas de ascendencia africana son "afroamericanos". Algunos de ellos son africanos, o negros británicos, o caribeños, etc.). Asimismo, las personas del Reino Unido entenderán el término "asiático" (India, Pakistán, Bangladesh) de manera diferente a las de América del Norte (por ejemplo, China, Japón, Vietnam, Tailandia).
+* **Expresiones idiomáticas**: muchas expresiones no son traducibles de manera literal. En esos casos, propón una traducción que permita entender el sentido de la expresión original. Por ejemplo: _it’s raining cats and dogs_ > _está lloviendo a cántaros_.
+* **Repetición léxica en traducciones desde el inglés**: en español tenemos la flexibilidad de poder omitir el sujeto, ya que por contexto (marcas de persona, género y número) se suele entender a qué nos estamos refiriendo. Es importar tener esto en cuenta en traducciones desde el inglés para evitar que el texto sea repetitivo. Por ejemplo, _The first argument is the name of the data frame. The second and subsequent arguments are the expressions that filter the data frame._ > _El primer argumento es el nombre del data frame. El segundo y los subsiguientes son las expresiones para filtrarlo_.
+* **Modos y tiempos verbales en traducciones desde el inglés**: el español tiene mayor variedad de conjugaciones verbales que el inglés. Al traducir, por lo tanto, se debe priorizar la forma verbal que sea mejor para expresar el sentido del fragmento en español, no la que parezca ser literal del inglés. Es importante tener en cuenta esto en particular con el subjuntivo en español. Por ejemplo: _This doesn't imply that you have a good model and it certainly doesn't imply that the model is "true"_ > _Esto no implica que_ tengas _un buen modelo y, ciertamente, no implica que el modelo_ sea _"verdadero"_.
 
 ## B. Pautas específicas de escritura
-En esta segunda sección se abordan cuestiones más específicas del estilo de escritura, como qué palabras utilizar, cómo usar la puntuación o qué formato utilizar para fechas y números. Lee esta sección antes y después de escribir tu borrador.
+En esta segunda sección se abordan cuestiones más específicas del estilo de escritura, como qué palabras utilizar, cómo usar la puntuación o qué formato utilizar para fechas y números. Lee esta sección antes de hacer la traducción, ya que este tipo de lineamientos no son iguales en todos los idiomas, por eso es importante que los tengas en cuenta. Vuelve a leerlos al terminar para chequear que tu texto se ajusta a ellos.
 
 ### Fechas y hora
  *	Para siglos, utiliza números romanos. Evita frases centradas en lo nacional, como "el largo siglo XVIII", que tienen un significado específico para los especialistas británicos del siglo XVIII, pero para nadie más.
@@ -92,21 +66,16 @@ En esta segunda sección se abordan cuestiones más específicas del estilo de e
 
 ### Números
  *	Se escriben con palabras los números:
-    * que pueden expresarse en una sola palabra (del cero al veintinueve, las decenas como treinta, cuarenta, etc.) y las centenas (cien, doscientos, etc.)
-    * los números redondos que pueden expresarse en dos palabras (quinientos mil, etc)
-    * los números que se expresan en dos palabras unidas por una conjunción y hasta noventa y nueve.
-   En caso de que tengas dos referencias numéricas que supongan distintos formatos, elige uno solo para ser consistente (cinco manzanas y ciento diez naranjas; 5 manzanas y 110 naranjas).
+   - que pueden expresarse en una sola palabra (del cero al veintinueve, las decenas como treinta, cuarenta, etc.) y las centenas (cien, doscientos, etc.)
+   - los números redondos que pueden expresarse en dos palabras (quinientos mil, etc)
+   - los números que se expresan en dos palabras unidas por una conjunción y hasta noventa y nueve.
+   En caso de que tengas dos referencias numéricas que supongan distintos formatos, elige uno solo para ser consistente (cinco manzanas y cien naranjas; 5 manzanas y 110 naranjas).
  *	Al escribir números de más de cuatro cifras sepáralas en grupos de tres dígitos desde la derecha dejando un espacio (no puntos ni comas). Por ejemplo, 32 904, no 32904, 32.904 o 32.904. Excepciones: años, páginas, versos, portales de vías urbanas, apartados de correos, números de artículos legales, decretos o leyes.
- *  Para separar la parte entera de la decimal debe usarse la coma (1,5)
+ *  Para separar la parte entera de la decimal debe usarse la coma (1,5). Esto no aplica para código escrito en algún lenguaje de programación, ya que muchas veces estos se rigen por el criterio para la lengua inglesa (que usa punto como separador de coma).
  *	Usa numerales para hacer referencia a versiones (versión 5 o v.5).
- *	Al referirte a porcentajes, utiliza el símbolo % con numerales y la expresión _por ciento_ cuando escribes el cifra con palabras (por ejemplo, _5%_ o _cinco por ciento_. No _5 porciento_ o _cinco %_). En porcentajes inferiores a 1, agrega un cero antes de la coma decimal (0,05%).
+ *	Al referirte a porcentajes, utiliza el símbolo % con numerales y la expresión _por ciento_ cuando escribes el cifra con palabras (por ejemplo, _5%_ o _cinco por ciento_. No _5 porciento_ o _cinco %_). En porcentajes inferiores a 1, agrega un cero antes de la coma decimal (0,05%)
  *	Utiliza el [formato LaTeX para fórmulas matemáticas](https://davidhamann.de/2017/06/12/latex-cheat-sheet/).
  *	Para unidades de medida utiliza el sistema métrico.
-
-### Encabezados
-Los encabezados no deben contener código en línea o un formato de estilo como negrita, cursiva o de código.
-Los encabezados siempre deben preceder inmediatamente al texto del cuerpo. No pongas después de un encabezado una advertencia u otro encabezamiento sin un texto introductorio o descriptivo.
-
 
 ### Listas
 Típicamente, usamos listas numeradas y listas con viñetas. Los elementos de la lista comienzan con mayúscula. Los elementos de la lista deben ser tratados como elementos separados y no deben ser encadenados con puntuación o conjunciones.
@@ -173,18 +142,15 @@ La pauta es usarlas con moderación en la prosa corriente. Reglas específicas:
 
 
 ### Referencias
-*	En la mayoría de los casos, lo más apropiado es incluir un enlace más que una nota final.
+*	Si existe una versión en español de alguna de las referencias utilizadas en la lección, incluye esa.
 *	Asegúrate de que las frases vinculadas tengan un significado semántico. No enlaces términos que son significativos solo para usuarios videntes como "haz clic aquí".
 *	Toda la literatura tradicional y académica debe incluirse como nota al final, en lugar de como enlace.
-*	Si estás escribiendo un tutorial de "análisis", debes referirte a la literatura académica publicada.
 *	Los superíndices de las notas finales deben ir dentro de la puntuación final: así². No afuera: así.²
-*	Utiliza el sistema de "Notas y Bibliografía" que se encuentra en el [Manual Chicago 17a edición](https://uc3m.libguides.com/guias_tematicas/citas_bibliograficas/chicago) para las notas al final.
+*	Utiliza el sistema de "Notas y Bibliografía" que se encuentra en el [Manual Chicago Manual 17a edición](https://uc3m.libguides.com/guias_tematicas/citas_bibliograficas/chicago) para las notas al final.
 *	Cuando se mencione por primera vez una obra publicada, incluye el nombre del autor (incluyendo el primer nombre). Por ejemplo, «Puedes encontrar más información en *The Elements of Typographic Style* de Robert Bringhurst» o «Para más información, consulta *The Elements of Typographic Style* de Robert Bringhurt». En las referencias posteriores, usa solo el título del libro. Los nombres de los autores pueden ser acortados a apellidos solo a partir de su segunda mención.
 *	Las notas finales no pueden contener solo una URL.
     *	(Correcto): Grove, John. "Calhoun and Conservative Reform." *American Political Thought* 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
     *	(Incorrecto): https://doi.org/10.1086/680389.
-
-
 
 ### Lenguaje inclusivo y no discriminatorio
 En Programming Historian nos comprometemos a publicar tutoriales que no reproduzcan lenguaje sexista y discriminador. Te pedimos que tengas en cuenta las siguientes recomendaciones:
@@ -200,12 +166,10 @@ Por ejemplo, "la audiencia", en vez de "los lectores"; "el parlamento" en vez de
 
 
 ## C. Guía de formato
-Esta última sección abarca cuestiones de formato para el envío de tu lección. Lee esta sección antes y después de escribir tu borrador. Si te equivocas en alguno de estos elementos, podrás corregirlo cuando publiquemos un avance en línea de tu lección al comienzo del proceso de revisión de pares.
+Esta última sección abarca cuestiones de formato para el envío de tu traducción. Lee esta sección antes y después de escribir tu borrador. Si te equivocas en alguno de estos elementos, podrás corregirlo cuando publiquemos un avance en línea de tu lección al comienzo del proceso de revisión de pares.
 
 ### Escribe en Markdown
-Todas las lecciones deben ser escritas en [Markdown](https://es.wikipedia.org/wiki/Markdown). Se ha proporcionado una plantilla para escribir las lecciones.
-
-* [Descarga la plantilla para lecciones en español (.md)]({{site.baseurl}}/es/plantilla-leccion.md).
+Todas las lecciones deben ser escritas en [Markdown](https://es.wikipedia.org/wiki/Markdown). Tu editor/a te indicará dónde puedes encontrar el archivo de la lección original para que trabajes sobre él.
 
 Markdown es un lenguaje de marcado que se crea mejor con un editor de texto. MS Word y Open Office NO son editores de texto y deben ser evitados. Recomendamos [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://en.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/),  [Notepad++](https://notepad-plus-plus.org/download) o [Sublime Text](https://www.sublimetext.com/).
 Para una introducción sencilla a Markdown puedes ver la lección [Introducción a Markdown]({{site.baseurl}}/es/lecciones/introduccion-a-markdown) o la referencia concisa [GitHub Guide to Markdown](https://help.github.com/es/github/writing-on-github/basic-writing-and-formatting-syntax).
@@ -215,6 +179,7 @@ Tu lección debe ser guardada en formato .md. El nombre del archivo de tu lecci�
  *	Un nombre corto, en minúsculas, descriptivo y que dé una clara indicación del contenido de la lección (por ejemplo, introduccion-a-markdown.md).
  *	No utilices espacios ni guiones bajos en el nombre del archivo; utiliza guiones.
  *	Utiliza un nombre de archivo rico en palabras clave que incluyan las tecnologías o métodos usados en la lección (por ejemplo, Python o Análisis de Sentimientos).
+ * No utilices caracteres especiales, como tildes o ñ.
 
 ### Negrita, cursiva y subrayado
 Para asegurar la consistencia de las lecciones, sigue las siguientes directrices de formato de texto:
@@ -233,7 +198,7 @@ Para asegurar la consistencia de las lecciones, sigue las siguientes directrices
  *	No se utiliza.
 
 ### Alertas y advertencias
-Si quieres incluir un aparte o una advertencia, puedes utilizar el siguiente bloque de código:
+Si quieres incluir un aparte o una advertencia, puedes hacerlo con el siguiente código:
 
 ```
 <div class="alert alert-warning">
@@ -241,23 +206,24 @@ Si quieres incluir un aparte o una advertencia, puedes utilizar el siguiente blo
 </div>
 ```
 
+Este tipo de recurso puede ser útil para advertir a la audiencia sobre posibles dificultades o resultados diferentes producto de usar un sistema operativo, herramienta o datos en español. 
+
 ### Figuras e imágenes
-Las imágenes pueden ayudar a tu audiencia a entender los pasos de la lección, pero no deben ser usadas como decoración. Si deseas utilizar imágenes en tu lección, etiquétalas secuencialmente siguiendo el patrón: `nombre-leccion1.jpg`, `nombre.leccion2.jpg`, etc. Refiérete a ellas en el texto como "Figura 1", "Figura 2" y así sucesivamente. Todas las figuras deben venir con una leyenda concisa y notas finales cuando sea apropiado. Debes tener el derecho legal para publicar cualquier imagen que incluyas en tu lección.
+Las imágenes pueden ayudar a tu audiencia a entender los pasos de la lección, pero no deben ser usadas como decoración. Si la lección que vas a traducir tiene imágenes, verás que estas están etiquetadas secuencialmente siguiendo el patrón `nombre-leccion1.jpg`, `nombre-leccion2.jpg`, etc., y que en el texto son referidas como "Figura 1", "Figura 2", y así sucesivamente. Si decides incluir versiones en español de esas mismas imágenes (por ejemplo, porque tradujiste los datos o existe versión en español de la interfaz de la herramienta utilizada), estas deben seguir su propia numeración correlativa, es decir, `nombre-traduccion1.jpg`, `nombre-traduccion2.jpg`. Todas las figuras deben venir con una leyenda concisa y notas finales cuando sea apropiado. Debes tener el derecho legal para publicar cualquier imagen que incluyas.
 
 Utiliza formatos de archivos amigables para la web, como .png o .jpg, y reduce las imágenes grandes a un máximo de 840 px en el lado más largo. Esto es importante para lectores en países con velocidades de Internet más lentas.
 
-Las imágenes deben guardarse en una carpeta con el mismo nombre que el archivo .md de la lección.
+Las imágenes deben guardarse en una carpeta con el mismo nombre que el archivo .md de la lección. El editor o editora asignada a tu lección te ayudará a subir las imágenes cuando las envíes.
 
-Para insertar una imagen en tu texto, utiliza el siguiente formato:
+Para insertar una imagen en tu texto, se utiliza el siguiente formato. Salvo que agregues una imagen adicional, solo correspondería traducir el pie de foto. Si agregas versiones traducidas de las imágenes existentes, no olvides cambiar el nombre del archivo con la imagen.
 
 {% raw %}
 ``` markdown
-{% include figure.html filename="NOMBRE-ARCHIVO-IMAGEN" caption="PIE DE FOTO UTILIZANDO \"ESCAPED\" QUOTES" %}
+{% include figure.html filename="NOMBRE-ARCHIVO-IMAGEN" caption="PIE DE FOTO UTILIZANDO COMILLAS \"ESCAPADAS\"" %}
 ```
 {% endraw %}
 
-Ten en cuenta que las comillas internas en el pie de foto deben escaparse con una barra invertida, como en el ejemplo anterior. Es posible que las imágenes no aparezcan en las vistas previas de la lección, pero tu editor/a se asegurará de que se reproduzcan correctamente cuando esta se publique.
-
+Ten en cuenta que las comillas internas en el pie de foto deben escaparse con una barra invertida, como en el ejemplo anterior. Es posible que las imágenes no aparezcan en las vistas previas de la lección, pero tu editor/a se asegurará de que se reproduzcan correctamente cuando esta se  publique.
 
 ### Ejemplos de código
 Las líneas de código deben tener un formato que las distinga claramente de la prosa:
@@ -291,47 +257,47 @@ Sigue las mejores prácticas para escribir tu código:
 `break`, `else`, `for`, `FALSE`, `function`, `if`, `in`, `Inf`, `NA`, `NA_character_`, `NA_complex_`, `NA_integer_`, `NA_real_`, `NaN`, `next`, `NULL`, `repeat`, `TRUE`, `while`, `...` y `..1`, `..2`, etc.
 
 
-## Paso 3: Enviando una nueva lección
+## Paso 3: Enviando una nueva traducción
 
-Una vez que tu archivo ha sido preparado de acuerdo con las especificaciones anteriores, ¡ya puedes enviárnoslo! Te sugerimos, de todos modos, que pidas al menos a dos personas que prueben tu lección y te den su opinión. Es muy importante que pruebes que es posible seguir el tutorial desde distintos sistemas operativos sin problema. Esto permitirá al equipo editorial centrarse en que produzcas una lección lo más sólida posible.
+Una vez que tu archivo ha sido preparado de acuerdo con las especificaciones anteriores, ¡ya puedes enviárnoslo! Te sugerimos, de todos modos, que pidas a un par de personas que lean tu traducción y te den su opinión.
 
-En el GitHub de [Programming Historian](https://github.com/programminghistorian) mantemos dos repositorios (es decir, dos sitios en donde almacenar archivos y carpetas). Por un lado, el repositorio [jekyll](https://github.com/programminghistorian/jekyll), que contiene los archivos a los que se accede a través del navegador [web](/es). Por el otro, el repositorio llamado [ph-submissions](https://github.com/programminghistorian/ph-submissions), que es donde se realiza el proceso de edición de las lecciones.
+En el GitHub de [Programming Historian](https://github.com/programminghistorian) en GitHub mantenemos dos repositorios (es decir, dos sitios en donde almacenar archivos y carpetas). Por un lado, el repositorio [jekyll](https://github.com/programminghistorian/jekyll), que contiene los archivos a los que se accede a través del navegador [web](/es). Por el otro, el repositorio [ph-submissions](https://github.com/programminghistorian/ph-submissions), que es donde se realiza el proceso de edición de las lecciones originales y traducciones.
 
-Debes enviar tu lección a través de una correo electrónico a tu editor/a, quien se encargará de subir todos los materiales al repositorio correspondiente en [GitHub](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/lecciones).
+Debes enviar tu traducción a través de una correo electrónico a tu editor/a, quien se encargará de subir todos los materiales al repositorio correspondiente en [GitHub](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/traducciones).
 
-1. **Obtener acceso**: crea una [cuenta gratuita en GitHub](https://github.com/join). Envía tu nombre de usuario de GitHub a tu editor/a, quien te dará acceso al sitio de envíos. Si bien no harás la carga inicial en GitHub, necesitarás acceso para el proceso de revisión.
-2. **Prepara los materiales**: si tu lección incluye imágenes, asegúrate que todos los archivos están nombrados según las convenciones explicadas más arriba. Las imágenes debes enviarlas en una sola carpeta comprimida. Si tu lección incluye archivos de datos, estos deben ser enviados en otra carpeta comprimida.
+1. **Obtener acceso**: crea una [cuenta gratuita en GitHub](https://github.com/join). Envía tu nombre de usuario de GitHub a tu editor/a, quien te dará acceso al sitio de envíos. Si bien no serás tú quien haga la carga inicial, necesitarás acceso para el proceso de revisión.
+2. **Prepara los materiales**: si tu traducción incluye imágenes adicionales a las que tenía originalmente la lección, asegúrate que todos los archivos están nombrados según las convenciones explicadas más arriba. Las imágenes debes enviarlas en una sola carpeta comprimida. Si tu lección incluye archivos de datos traducidos, estos deben ser enviados en otra carpeta comprimida.
 3. **Envía un correo electrónico a tu editor/a**: hazle saber a tu editor/a que tienes todo listo para el envío de tu lección. Este correo electrónico debe incluir el archivo .md de la lección y las carpetas comprimidas con las imágenes y datos, si corresponde.
 4. **Únete a la conversación**: tu editor/a subirá los archivos a nuestro [repositorio de envíos](https://github.com/programminghistorian/ph-submissions) y hará algunos cambios iniciales para asegurarse de que todo funciona bien. Además, abrirá un "ticket de revisión" para tu lección en la sección de *[issues](https://github.com/programminghistorian/ph-submissions/issues)* de ese repositorio.
 5. **Realiza las revisiones**: si bien la carga inicial de tu lección en el repositorio `ph-submissions` será realizada por tu editor/a, el proceso editorial requerirá que hagas modificaciones. Todas las ediciones posteriores deben ser hechas directamente por ti en ese repositorio para asegurarnos de que estás trabajando en la última versión del archivo.
 
 ## El proceso de revisión de pares
 
-Tu editor/a comprobará que tus archivos se hayan cargado y formateado correctamente. En esta etapa se te enviará un enlace de vista previa donde se evidenciará cualquier error de formato para que puedas corregirlo. Las modificaciones debes hacerlas en el archivo .md de tu lección, que se encuentra en el [repositorio de propuesta de lecciones](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/lecciones).
+Tu editor comprobará que tus archivos se hayan cargado y formateado correctamente. En esta etapa se te enviará un enlace de vista previa donde se evidenciará cualquier error de formato para que puedas corregirlo. Las modificaciones debes hacerla en el archivo .md de tu traducción, que se encuentra en el [repositorio de propuesta de lecciones](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/traducciones).
 
-La revisión de pares se registrará en un "[ticket](https://github.com/programminghistorian/ph-submissions/issues)" de GitHub, que actúa como una discusión abierta en el tablero de mensajes. Ten en cuenta que nuestra revisión de pares se realiza en público y se mantiene a disposición del público como un registro permanente del proceso editorial. Si tienes alguna preocupación o deseas solicitar una revisión cerrada, ponte en contacto con tu editor/a.
+La revisión de pares se registrará en un ["ticket"](https://github.com/programminghistorian/ph-submissions/issues) que actúa como una discusión abierta en el tablero de mensajes. Ten en cuenta que nuestra revisión de pares se realiza en público y se mantiene a disposición del público como un registro permanente. Si tienes alguna preocupación o deseas solicitar una revisión cerrada, ponte en contacto con tu editor/a.
 
 El proceso de revisión por pares normalmente se realiza en tres etapas:
 
-1) Tu editor/a leerá y probará cuidadosamente tu lección, proporcionando una primera ronda de retroalimentación a la que se te pedirá que respondas. El propósito de esta primera ronda de retroalimentación es asegurarse de que tu lección responde a las necesidades de la audiencia de *Programming Historian* y de que los revisores externos reciban una lección que funcione. Normalmente se te dará un mes para responder a esta primera revisión.
+1) Tu editor/a leerá y probará cuidadosamente tu traducción, proporcionando una primera ronda de retroalimentación a la que se te pedirá que respondas. El propósito de esta primera ronda de retroalimentación es asegurarse de que tu lección responde a las necesidades de la audiencia de *Programming Historian* y de que los revisores externos reciban una traducción que funcione. Normalmente se te dará un mes para responder a esta primera revisión.
 
-2) Tu editor/a abrirá la lección para una revisión formal de pares. Esto incluirá al menos dos revisores que serán contactados por tu editor/a. La revisión también puede incluir comentarios de la comunidad más amplia, que son bienvenidos para contribuir con sus puntos de vista. Por lo general, tratamos de pedir a los revisores que aporten sus comentarios en el plazo de un mes, pero a veces circunstancias imprevistas hacen que esto no sea posible. Tu editor debe dejarte claro que no debes responder a las sugerencias de cambios hasta después de que se hayan publicado ambas y que el editor haya resumido y dado instrucciones claras para seguir adelante. En algunos casos esto puede ser una sugerencia para revisar sustancialmente o repensar la lección. En otros casos será cuestión de hacer algunos cambios menores. En función de los comentarios de la revisión de pares y de la naturaleza de las cuestiones planteadas, puede ser necesario revisar el tutorial más de una vez. En todo momento tu editor se esforzará porque tengas claros los pasos necesarios para que la lección sea publicable. Siempre tendrás la opción de retirarte del proceso de revisión si así lo deseas.
+2) Tu editor/a abrirá la traducción para una revisión formal de pares. Esto incluirá al menos dos revisores que serán contactados por tu editor/a. La revisión también puede incluir comentarios de la comunidad más amplia, que son bienvenidos para contribuir con sus puntos de vista. Por lo general, tratamos de pedir a los revisores que aporten sus comentarios en el plazo de un mes, pero a veces circunstancias imprevistas hacen que esto no sea posible. Tu editor/a debe dejarte claro que no debes responder a las sugerencias de cambios hasta después de que se hayan publicado ambas revisiones y que el editor haya resumido y dado instrucciones claras para seguir adelante. En algunos casos esto puede ser una sugerencia para revisar sustancialmente o repensar la lección. En otros casos será cuestión de hacer algunos cambios menores. En función de los comentarios de la revisión de pares y de la naturaleza de las cuestiones planteadas, puede ser necesario revisar el tutorial más de una vez. En todo momento tu editor/a se esforzará porque tengas claros los pasos necesarios para que la lección sea publicable. Siempre tendrás la opción de retirarte del proceso de revisión si así lo deseas.
 
-3) Una vez que editor/a y revisores estén conformes con el texto, tu editor/a recomendará la publicación a la jefa de redacción, quien leerá el tutorial para asegurarse de que cumpla con los lineamientos y estándares de esta Guía. En algunos casos, esta etapa puede considerar revisiones adicionales o edición de estilo para que el artículo se ajuste a nuestras normas de publicación. Si la jefa de redacción está satisfecha con tu lección, esta será trasladada al repositorio que aloja el sitio web de Programming Historian para su publicación. Tu editor/a te informará de cualquier información adicional que se requiera en esta etapa (por ejemplo, cómo quieres que aparezca tu nombre y afiliación institucional en la lección).
+3) Una vez que tu editor/a y revisores aprueben el texto, el editor recomendará la publicación a la jefa de redacción, quien leerá el tutorial para asegurarse de que cumpla con los lineamientos y estándares de esta Guía. En algunos casos, esta etapa puede considerar revisiones adicionales o edición de estilo para que el artículo se ajuste a nuestras normas de publicación. Si la jefa de redacción está satisfecha con tu lección, esta será trasladada al repositorio donde se aloja el sitio web de Programming Historian para su publicación. Tu editor/a te informará de cualquier información adicional que se requiera en esta etapa.
 
 Puede resultarte útil leer nuestra [Guía para editores](/es/guia-editor), donde se detalla nuestro proceso editorial.
 
-Si en algún momento no tienes seguridad sobre cuál es tu papel en ese momento o de lo que debes hacer a continuación, publica una pregunta en el ticket de revisión de tu lección. Nuestro equipo editorial responderá lo antes posible. Nos esforzamos por responder a todas las preguntas en unos pocos días.
+Si en algún momento tienes dudas de tu papel o de lo que debes hacer a continuación, publica una pregunta en el ticket de revisión de tu traducción. Nuestro equipo editorial responderá lo antes posible. Nos esforzamos por responder a todas las preguntas en unos pocos días.
 
 ### Haznos responsables
 
-Nuestro equipo voluntario trabaja duro para proporcionar a autores y autoras una revisión entre pares rigurosa, colegiada y eficiente. Sin embargo, reconocemos que hay momentos en que las expectativas pueden no cumplirse. Queremos que quienes participan en este proceso se sientan con el poder de exigirnos altos estándares. Si, por cualquier razón, sientes que has sido tratado/a injustamente, que el proceso te parece confuso, que la revisión se ha retrasado innecesariamente, que un revisor ha sido grosero, que tu editor/a no ha sido lo suficientemente receptivo/a o tienes cualquier otra inquietud, por favor, déjanos saber para que podamos abordarlo de manera proactiva.
+Nuestro equipo voluntario trabaja duro para proporcionar a traductores y traductoras una revisión entre pares rigurosa, colegiada y eficiente. Sin embargo, reconocemos que hay momentos en que las expectativas pueden no cumplirse. Queremos que quienes participan del proceso se sientan con el poder de exigirnos altos estándares. Si, por cualquier razón, sientes que recibiste un trato injusto, que el proceso se volvió confuso, que la revisión se ha retrasado innecesariamente, que recibiste un trato grosero por parte de los revisores, que tu editor/a no ha sido lo suficientemente receptivo/a o tienes cualquier otra inquietud, por favor, háznoslo saber para que podamos abordarlo de manera proactiva.
 
 Plantear una preocupación NO afectará negativamente el resultado de tu revisión de pares, incluso si se trata de una revisión de pares en curso.
 
 Para plantear una preocupación, por favor contacta a una de las siguientes personas, según te resulte más cómodo:
 
-* El editor o editora de tu lección
+* El/la editor/a de tu lección
 * La [jefa de redacción](/es/equipo-de-proyecto)
 * Nuestra ombudsperson independiente, [Silvia Gutiérrez de la Torre](/es/equipo-de-proyecto)
 
