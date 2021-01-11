@@ -149,7 +149,7 @@ El **editor** debe sugerir un nombre para el archivo de la traducción o lecció
 - No introduzcas espacios en el nombre del archivo; en su lugar utiliza guiones.
 - La extensión del arhivo debe ser `.md` con el objetivo de que GitHub genere una visualización provisional de la lección.
 
-Una vez hayas escogido el nombre del archivo, utiliza el mismo nombre para crear un directorio nuevo en [imágenes](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images); esta nueva carpeta contendrá las imágenes de la lección. Si la lección contiene archivos con datos, haz lo mismo pero en la carpeta [assets](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets) del repositio GitHub de *The Programming Historian en español*. Por favor, ten en cuenta que, en el caso de las traducciones donde el traductor no modifica imágenes o datos, estos ya están alojados.
+Una vez hayas escogido el nombre del archivo, utiliza el mismo nombre para crear un directorio nuevo en [imágenes](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images); esta nueva carpeta contendrá las imágenes de la lección. Si la lección contiene archivos con datos, haz lo mismo pero en la carpeta [assets](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets) del repositorio GitHub de *The Programming Historian en español*. Por favor, ten en cuenta que, en el caso de las traducciones donde el traductor no modifica imágenes o datos, estos ya están alojados.
 
 ### B) Revisar el etiquetado Markdown
 
@@ -157,7 +157,7 @@ Los autores y traductores deben asegurarse de que utilizan Markdown de manera ap
 
 Puedes comprobar con facilidad si todo es correcto accediendo a la visualización generada en GitHub: https://github.com/PH-espagnol/borradores/tree/master/lecciones/NOMBRE-DEL-ARCHIVO-AQUÍ (nota: sin extensión .md).
 
-Si la visualización no funciona, hazlo saber a Víctor Gayo (en español), quien trabajará con Matthew Lincoln para diagnosticarlo. Si lo haces en inglés, dirígete directamente con Matthew Lincoln.
+Si la visualización no funciona, hazlo saber al equipo técnico.
 
 ### C) Revisar la sostenibilidad e internacionalización
 
@@ -353,7 +353,7 @@ Una vez que se le haya dado la palabra de que al jefe de redacción ha publicado
 - Retuitear nuestros tuits sobre la lección (darle al `like`no es suficiente).
 - Promocionar la lección en presentaciones y publicaciones.
 - Enlazar a la lección en entradas de blog.
-- Añadir la lección a algunos recursos colaborativos como Wikipedia u otros plataformas.
+- Añadir la lección a algunos recursos colaborativos como Wikipedia u otras plataformas.
 
 ¡Por favor, no abandones la lección a su suerte! Ya hemos realizado el trabajo, así que asegurémosnos que ha valido la pena.
 
@@ -371,7 +371,7 @@ Sus opciones son:
 
 A) Siga nuestras ["Making Technical Contributions" guidelines](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions) que utiliza el sitio web de github GUI.
 
-B) La manera más fácil de publicar el texto es utilizar git en tu terminal de línea de comandos. Las siguientes instrucciones presuponen que ya has clonado en tu ordenador los repositorios jekyll y ph-submissions/es (si no es así, nuestra [introducción a GitHub](/lessons/getting-started-with-github-desktop) puedes ser útil). Si tienes alguna duda puedes contactar con Matthew Lincoln (en inglés) para que te ayude, o en español a través de Víctor Gayol.
+B) La manera más fácil de publicar el texto es utilizar git en tu terminal de línea de comandos. Las siguientes instrucciones presuponen que ya has clonado en tu ordenador los repositorios jekyll y ph-submissions/es (si no es así, nuestra [introducción a GitHub](/lessons/getting-started-with-github-desktop) puedes ser útil). Si tienes alguna duda puedes contactar al equipo técnico.
 
 1. Sitúate en el director local de tu repositorio `ph-submissions/es`.
 2. Introduce `git pull` para descargar los últimos cambios en tu ordenador (o `sync` si utilizas GitHub Desktop).

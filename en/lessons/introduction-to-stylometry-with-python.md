@@ -47,6 +47,10 @@ At the end of this lesson, we will have examined the following topics:
 * How to use relatively advanced data structures, including [dictionaries](https://en.wikipedia.org/wiki/Data_dictionary) of [strings](https://en.wikipedia.org/wiki/String_(computer_science)) and dictionaries of dictionaries, in [Python](https://en.wikipedia.org/wiki/Python_(programming_language)).
 * The basics of the [Natural Languate Toolkit](https://www.nltk.org/) (NLTK), a popular Python module dedicated to [natural language processing](https://en.wikipedia.org/wiki/Natural-language_processing).
 
+<div class="alert alert-warning">
+Please note that the code in this lesson has been designed to run sequentially. Should you want to bypass Mendenhall's method, for example, and move straight to Kilgariff's or Burrows', please make sure to copy-paste the preprocessing code found in the description of Menenhall's characteristic curves into your own code block. Otherwise, you will not be able to match the results presented here. 
+</div>
+
 ## Prior Reading
 
 If you do not have experience with the Python programming language or are finding examples in this tutorial difficult, the author recommends you read the lessons on [Working with Text Files in Python](/lessons/working-with-text-files) and [Manipulating Strings in Python](/lessons/manipulating-strings-in-python). Please note, that those lessons were written in Python version 2 whereas this one uses Python version 3. The differences in [syntax](https://en.wikipedia.org/wiki/Syntax) between the two versions of the language can be subtle. If you are confused at any time, follow the examples as written in this lesson and use the other lessons as background material. (More precisely, the code in this tutorial was written using [Python 3.6.4](https://www.python.org/downloads/release/python-364/); the [f-string construct](https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals) in the line `with open(f'data/federalist_{filename}.txt') as f:`, for example, requires Python 3.6 or a more recent version of the language.)

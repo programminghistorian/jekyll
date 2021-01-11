@@ -17,16 +17,23 @@ The Programming Historian is a volunteer-driven project. We are committed to ope
 
 The project is grateful for the following support:
 
-- Web development is supported by the [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) and the [Andrew W. Mellon Foundation](https://mellon.org/) [2018-Present]
+- Our [Institutional Partner Programme](support-us#institutional-partner-programme) members:
+  - [KU Leuven Libraries](https://bib.kuleuven.be/) [2020-Present]
+  - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library) [2020-Present]
+  - [University of Sussex Library](https://www.sussex.ac.uk/library/) [2020-Present]
+  - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/) [2020-Present]
+  - [Western University Library](https://www.lib.uwo.ca/) [2020-Present]
+
+- DOI infrastructure is supported by the [University of Sussex Library](https://www.sussex.ac.uk/library/) [2020-Present].
+- Web development is supported by the [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) and the [Andrew W. Mellon Foundation](https://mellon.org/) [2018-2020].
 - Ongoing hosting support from the Roy Rosenzweig Center for New Media ([RRCHNM](http://chnm.gmu.edu/)) [2011-Present].
 - Funding to support the project "The Programming Historian: developing and sustaining impact in the Global South" provided by the [ESRC Impact Accelerator Account, University of Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/) [2019]. 
 - Funding to support the development of a style guide provided by the [School of Humanities, University of Hertfordshire](https://www.herts.ac.uk/study/schools-of-study/humanities) [2019].
 - Funding to support establishing the Programming Historian as a legal entity provided by the [School of History, Art History and Philosophy, University of Sussex](http://www.sussex.ac.uk/hahp/) [2019]. 
 - Funding for a writing workshop in Bogota, Colombia, supported by the [British Academy](https://www.britac.ac.uk/) [2018].
 - Seed funding and project management support from the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) [2011-2013].
-- Our founding [Patreon](https://www.patreon.com/theprogramminghistorian) subscribers Rachel Murphy ('Subscriber' tier), Miriam Posner ('Sponsor' tier), and Tim Hitchcock ('Patron' tier). We would particularly like to thank the following 'Patron' tier [Patreon](https://www.patreon.com/theprogramminghistorian) subscribers: Tim Hitchcock, Shawn Graham, Jeff Blackadar.
-- Our [Institutional Partner Programme](en/support-us#institutional-partner-programme) members:
-  - [KU Leuven Libraries](https://bib.kuleuven.be/) (2020-)
+- Our founding [Patreon](https://www.patreon.com/theprogramminghistorian) subscribers Rachel Murphy ('Subscriber' tier), Miriam Posner ('Sponsor' tier), and Tim Hitchcock ('Patron' tier). We would particularly like to thank the following 'Patron' tier [Patreon](https://www.patreon.com/theprogramminghistorian) subscribers: Tim Hitchcock, Shawn Graham, Jeff Blackadar, Jodi Burkett, Michael Piotrowski, Mark Edwin Peterson, Nickoal Eichmann-Kalwara.
+
 
 ## Donate to Us
 

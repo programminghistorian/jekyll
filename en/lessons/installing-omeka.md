@@ -46,7 +46,7 @@ If you open an account with a VPS provider, you'll first want to create a virtua
 
 Now that you have a running server, connect to it with an SSH client. This is sometimes as simple as opening a terminal and typing `ssh root@hostname`, where `hostname` is your server address. Consult your host's documentation for instructions for logging on via SSH. Here is a sampling of guides for VPS hosts:
 
- * [Digital Ocean: How To Connect To Your Droplet with SSH](https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh)
+ * [Digital Ocean: How To Connect To Your Droplet with SSH](https://www.digitalocean.com/docs/droplets/how-to/connect-with-ssh)
  * [Amazon Web Services: Connecting to Your Linux Instance Using SSH](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
 
 And here are a few guides for shared hosts:

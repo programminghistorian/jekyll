@@ -11,9 +11,10 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * William J. Turkel et Alan MacEachern, [_The Programming Historian_](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) 1ère édition (Network in Canadian History &amp; Environment: 2007-2008).
 
 ## Comptes-rendus
+* Björn Ekström, Elisa Tattersall Wallin and Hana Marčetić, '[_Programming Historian_: Novice-friendly tutorials on digital methods](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1508542&dswid=7551)', _Tidskrift för ABM_, Vol. 5, no 1 (2020), pp. 71-75.
 * Dries Daems, '[A Review and Roadmap of Online Learning Platforms and Tutorials in Digital Archaeology](https://doi.org/10.1017/aap.2019.47)', _Advances in Archaeological Practice_, vol. 8, issue 1 (2020),  pp. 87-92.
 * Priscila Pilatowsky Goñi, '[Reseña a The programming historian](http://revistas.uned.es/index.php/RHD/article/view/22420)', _Revista de Humanidades Digitales_, vol. 2 (2018).
-* Lincoln Mullen, '[Review of the Programming Historian](http://jah.oxfordjournals.org/content/103/1/299.2.full)', _The Journal of American History_, vol. 103, no. 1 (2016), pp. 299-301.
+* Lincoln Mullen, '[Review of the Programming Historian](https://academic.oup.com/jah/article-abstract/103/1/299/1751315)', _The Journal of American History_, vol. 103, no. 1 (2016), pp. 299-301.
 * Cameron Blevins, '[Review of the Programming Historian](http://jitp.commons.gc.cuny.edu/review-of-the-programming-historian/)', _The Journal of Interactive Technology & Pedagogy_, vol. 8 (2015).
 
 ## Publications scientifiques
@@ -23,7 +24,14 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Fred Gibbs, ['Editorial Sustainability and Open Peer Review at Programming Historian',](http://web.archive.org/web/20180713014622/http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian) _DH Commons_, Vol. 1 (2015).
 * Shawn Graham, Ian Milligan et Scott Weingart, [_Exploring Big Historical Data: The Historian's Macroscope_](http://www.themacroscope.org/2.0/), (Imperial College Press, 2015).
 
+## Rapports
+* Penny Andrews et l'équipe du Programming Historian, ['The Programming Historian: developing and sustaining impact in the Global South'](http://doi.org/10.5281/zenodo.3813763) (2020).
+
 ## Ateliers et manifestations
+* Joshua Ortiz Baco, Daniel Alves, Jimmy Medeiros, Luis Ferla, '[Programming Historian em português](https://www.youtube.com/watch?v=bt-OaMW2Fr4)' au _I Jornada Nacional de Humanidades Digitais_, IBICT (13 octobre 2020).
+* Adam Crymble, 'Documenting Your Digital Methods', University of Edinburgh, United Kingdom (27 mai 2020).
+* Adam Crymble & Jessica Parr, 'Programming Historian Silent Disco', University of Edinburgh, United Kingdom (18 mai 2020).
+* Adam Crymble, 'Do You Need to Learn Programming?', University of Edinburgh, United Kingdom (14 mai 2020).
 * Adam Crymble, 'Python for Humanists', University of London, United Kingdom (31 octobre 2019).
 * Víctor Gayol, 'Introducción a la Historia Digital - The Programming Historian en español', Maestría en Estudios históricos Interdisciplinarios, División de Ciencias Sociales y Humanidades, Universidad de Guanajuato, México (1-5 October 2018).
 * Adam Crymble, Maria José Afanador Llach, José Antonio Motilla, 'Digital Humanities Skills for Latin American Scholarship', Université de los Andes, Bogotá, Colombie (1-3 août 2018) - a reçu le financement de la British Academy.

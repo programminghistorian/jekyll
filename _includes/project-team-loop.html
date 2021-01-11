@@ -27,9 +27,30 @@ is used both on project-team.md as well as es/equipo-de-proyecto.md
 {% include contact-info.html name=member.name %}
 {% endfor %}
 
+### Programming Historian em portugu&ecirc;s
+{% assign portuguesemembers = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'portuguese'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in portuguesemembers %}
+{% include contact-info.html name=member.name %}
+{% endfor %}
+
 ### ProgHist Ltd
 {% assign proghistmembers = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'proghist'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
 {% for member in proghistmembers %}
+{% include contact-info.html name=member.name %}
+{% endfor %}
+
+{% assign techlead = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'technical-lead'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in techlead %}
+{% include contact-info.html name=member.name %}
+{% endfor %}
+
+{% assign globallead = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'global-lead'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in globallead %}
+{% include contact-info.html name=member.name %}
+{% endfor %}
+
+{% assign commslead = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'communication-manager'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in commslead %}
 {% include contact-info.html name=member.name %}
 {% endfor %}
 

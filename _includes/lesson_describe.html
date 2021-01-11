@@ -9,7 +9,6 @@ lesson-slug.html computes the correct lesson slug, and then this include determi
 {% endcomment %}
 
 <div class="lesson-description clearfix">
-
   {% if lesson.original %}
     {% assign canonical_slug = lesson.original %}
   {% else %}
@@ -23,7 +22,9 @@ lesson-slug.html computes the correct lesson slug, and then this include determi
   <h3 class="above-title">{{ include.authors }}</h3>
   <a href="{{ lesson.url }}"><h2 class="title">{{ lesson.title }}</h2></a>
 
-  <p class="abstract">{{ lesson.abstract | markdownify }}</p>
+  <p class="abstract">
+    {{ lesson.abstract | markdownify | remove: '<p>' | remove: '</p>'}}
+  </p>
 
   {% comment %}
  Activity and topic are hidden via CSS as a hack to let JS sorting by activity and topic work. Note that the date sort is based on translation date first, falling back to publication date.
@@ -32,5 +33,14 @@ lesson-slug.html computes the correct lesson slug, and then this include determi
   <span class="topics">{{ lesson.topics | join: ' '}}</span>
   <span class="date">{% if lesson.translation_date %}{{ lesson.translation_date }}{% else %}{{ lesson.date }}{% endif %}</span>
   <span class="difficulty">{{ lesson.difficulty }}</span>
+  <!-- Uncomment if you want to include lesson content for List.JS -->
+  <!-- <span id="{{lesson.url}}-content" class="content"
+    style="display: none;">{{ lesson.content | markdownify | strip_html }}</span> -->
+  <span id="{{lesson.url}}-score" class="score"
+    style="display: none;">0</span>
+  <p id="{{lesson.url}}-search_results" class="search_results"
+    style="display: none;"></p>
+  
+
 
 </div>

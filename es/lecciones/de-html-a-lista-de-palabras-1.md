@@ -109,6 +109,7 @@ Crea un nuevo archivo llamado *obo.py* y guárdalo en tu carpeta *programming-hi
 # obo.py
 
 def quitarEtiquetas(contenidoPagina):
+    contenidoPagina = str(contenidoPagina)
     lugarInicio = contenidoPagina.find("<p>")
     lugarFin = contenidoPagina.rfind("<br/>")
 

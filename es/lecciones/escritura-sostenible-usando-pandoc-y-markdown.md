@@ -305,7 +305,7 @@ bibliography: proyecto.bib
 Esto le dice a Pandoc que busque tu bibliografía en el archivo `proyecto.bib` dentro del mismo directorio de tu archivo `principal.md`. Veamos si esto trabaja. Guarda tu archivo, ve a la ventana de terminal y ejecuta:
 
 ```
-$ pandoc principal.docx --filter pandoc-citeproc -o principal.md
+$ pandoc principal.md --filter pandoc-citeproc -o principal.docx
 ```
 
 El filtro "pandoc-citeproc" compila todas tus etiquetas de citas. El resultado debe ser un archivo de MS Word formateado decentemente. Si tienes instalado LaTeX, conviértelo a .pdf utilizando la misma sintaxis para mejores resultados. No te preocupes si las cosas no aparecen exactamente de la manera que tú quisieras -recuerda que vas a afinar el formato de todo una vez y más tarde, lo más cerca posible del momento de la publicación. Por ahora solamente estamos creando borradores basados en valores por defecto.

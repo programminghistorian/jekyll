@@ -18,6 +18,7 @@ translation-reviewer:
 - Antoine Champigny
 - François Dominic Laramée
 translation_date: 2019-06-19
+original: corpus-analysis-with-antconc
 difficulty: 1
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/240
 activity: analyzing
@@ -95,7 +96,7 @@ Comme vous pouvez l'imaginer, il peut être assez fastidieux de constituer un co
 Plutôt que de construire un corpus un document à la fois, nous allons utiliser un corpus préparé de critiques de films positives et négatives, emprunté au [_Natural Language Processing Toolkit_](http://www.nltk.org/). Le corpus des critiques de films de la NLTK compte 2000 critiques, organisées par résultats positifs et négatifs ; aujourd'hui, nous allons aborder un petit sous-ensemble d'entre eux (200 positifs, 200 négatifs).
 
 
-La construction de corpus est un sous-domaine à part entière. Voir "[_Representativeness in Corpus Design_](http://llc.oxfordjournals.org/content/8/4/243.abstract)", _Literary and Linguistic Computing_, 8 (4) : 243-257 et [_Developing Linguistic Corpora : a Guide to Good Practice_](http://www.amazon.com/Developing-Linguistic-Corpora-Practice-Guides/dp/1842172050/ref=sr_1_1_1) pour plus d'informations.
+La construction de corpus est un sous-domaine à part entière. Voir "[_Representativeness in Corpus Design_](https://academic.oup.com/dsh/article-abstract/8/4/243/928942)", _Literary and Linguistic Computing_, 8 (4) : 243-257 et [_Developing Linguistic Corpora : a Guide to Good Practice_](http://www.amazon.com/Developing-Linguistic-Corpora-Practice-Guides/dp/1842172050/ref=sr_1_1_1) pour plus d'informations.
 
 
 

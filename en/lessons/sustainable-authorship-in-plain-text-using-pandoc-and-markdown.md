@@ -604,7 +604,7 @@ file, under the same directory as your `main.md`. Let's see if this
 works. Save your file, switch to the terminal window and run:
 
 ```
-$ pandoc main.docx --filter pandoc-citeproc -o main.md
+$ pandoc main.md --filter pandoc-citeproc -o main.docx
 ```
 
 The "pandoc-citeproc" filter will parse any citation tags found in your document. The result
@@ -725,32 +725,16 @@ with academic journal design based on GitHub and
 [readthedocs.org](http://readthedocs.org) (tools usually used for technical
 documentation).
 
-[^1]:  Don't worry if you don't understand some of of this terminology yet!
+[^1]: Don't worry if you don't understand some of of this terminology yet!
 
-[^2]:  The source files for this document can be [downloaded from
-GitHub](https://github.com/dhcolumbia/pandoc-workflow). Use the "raw" option when viewing in
-GitHub to see the source Markdown. The authors would like to thank Alex Gil and his colleagues
-from Columbia's Digital Humanities Center, and the participants of openLab at the Studio in the
-Butler library for testing the code in this tutorial on a variety of platforms.
+[^2]: The source files for this document can be [downloaded from GitHub](https://github.com/dhcolumbia/pandoc-workflow). Use the "raw" option when viewing in GitHub to see the source Markdown. The authors would like to thank Alex Gil and his colleagues from Columbia's Digital Humanities Center, and the participants of openLab at the Studio in the Butler library for testing the code in this tutorial on a variety of platforms.
 
-[^3]:  See Charlie Stross's excellent discussion of this topic in [Why Microsoft Word Must
-Die](http://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html).
+[^3]: See Charlie Stross's excellent discussion of this topic in [Why Microsoft Word Must Die](http://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html).
 
-[^4]:  Note that the .bib extension may be "registered" to Zotero in your operating system.
-That means when you click on a .bib file it is likely that Zotero will be called to open it,
-whereas we want to open it within a text editor. Eventually, you may want to associate the .bib
-extension with your text editor.
+[^4]: Note that the .bib extension may be "registered" to Zotero in your operating system. That means when you click on a .bib file it is likely that Zotero will be called to open it, whereas we want to open it within a text editor. Eventually, you may want to associate the .bib extension with your text editor.
 
-[^5]:  There are no good solutions for directly arriving at MS Word from LaTeX.
+[^5]: There are no good solutions for directly arriving at MS Word from LaTeX.
 
-[^6]:  It is a good idea to get into the habit of not using spaces in folder or file names.
-Dashes or underscores instead of spaces in your filenames ensure lasting cross-platform
-compatibility.
+[^6]: It is a good idea to get into the habit of not using spaces in folder or file names. Dashes or underscores instead of spaces in your filenames ensure lasting cross-platform compatibility.
 
-[^7]:  Thanks to [@njbart](https://github.com/njbart) for the correction. In response to our
-original suggestion, `Some sentence that needs citation.^[@fyfe_digital_2011 argues that too.]`
-[he writes](https://github.com/programminghistorian/jekyll/issues/46#issuecomment-59219906):
-"This is not recommended since it keeps you from switching easily between footnote and
-author-date styles. Better use the \[corrected\] (no circumflex, no final period inside the
-square braces, and the final punctuation of the text sentence after the square braces; with
-footnote styles, pandoc automatically adjusts the position of the final punctuation)."
+[^7]: Thanks to [@njbart](https://github.com/njbart) for the correction. In response to our original suggestion, `Some sentence that needs citation.^[@fyfe_digital_2011 argues that too.]` [he writes](https://github.com/programminghistorian/jekyll/issues/46#issuecomment-59219906): "This is not recommended since it keeps you from switching easily between footnote and author-date styles. Better use the \[corrected\] (no circumflex, no final period inside the square braces, and the final punctuation of the text sentence after the square braces; with footnote styles, pandoc automatically adjusts the position of the final punctuation)."

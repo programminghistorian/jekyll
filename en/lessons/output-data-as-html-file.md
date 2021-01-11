@@ -19,6 +19,8 @@ abstract: "This lesson takes the frequency pairs created in the 'Counting
 Frequencies' lesson and outputs them to an HTML file."
 next: keywords-in-context-using-n-grams
 previous: creating-and-viewing-html-files-with-python
+series_total: 15 lessons
+sequence: 12
 python_warning: false
 redirect_from: /lessons/output-data-as-html-file
 avatar_alt: A woman wearing an elaborate dress accompanied by two putti
@@ -171,7 +173,7 @@ def wrapStringInHTMLMac(program, url, body):
 
     now = datetime.datetime.today().strftime("%Y%m%d-%H%M%S")
     filename = program + '.html'
-    f = open(filename,'wb')
+    f = open(filename,'w')
 
     wrapper = """<html>
     <head>

@@ -44,8 +44,6 @@ match the new entry you made in `_data/snippets.yml`
             role="menuitem">{{site.data.snippets.menu-about-research[page.lang].title}}</a>
           <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-about-privacy[page.lang].link}}"
             role="menuitem">{{site.data.snippets.menu-about-privacy[page.lang].title}}</a>
-          <a class="dropdown-item" href="{{ site.data.snippets.menu-translation-concordance[page.lang].link}}"
-            role="menuitem">{{site.data.snippets.menu-translation-concordance[page.lang].title}}</a>
         </div>
       </li>
 
@@ -81,11 +79,6 @@ match the new entry you made in `_data/snippets.yml`
           <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-lesson-requests[page.lang].link}}"
             role="menuitem">{{site.data.snippets.menu-lesson-requests[page.lang].title}}</a>
           <a class="dropdown-item"
-            href="{{site.baseurl}}{{site.data.snippets.menu-contribute-retirement[page.lang].link}}"
-            role="menuitem">{{site.data.snippets.menu-contribute-retirement[page.lang].title}}</a>
-          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-support[page.lang].link}}"
-            role="menuitem">{{site.data.snippets.menu-contribute-support[page.lang].title}}</a>
-          <a class="dropdown-item"
             href="{{site.baseurl}}{{site.data.snippets.menu-contribute-technical[page.lang].link}}"
             role="menuitem">{{site.data.snippets.menu-contribute-technical[page.lang].title}}</a>
         </div>
@@ -96,10 +89,25 @@ match the new entry you made in `_data/snippets.yml`
           role="menuitem">{{site.data.snippets.menu-lessons[page.lang].title}}</a>
       </li>
 
+      <li class="nav-item dropdown mobile-drop" role="menu">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false" role="button">
+          {{site.data.snippets.menu-support-us[page.lang]}}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+        <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-support-ipp[page.lang].link}}"
+          role="menuitem">{{site.data.snippets.menu-support-ipp[page.lang].title}}</a>
+        <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-support-individual[page.lang].link}}"
+          role="menuitem">{{site.data.snippets.menu-support-individual[page.lang].title}}</a>
+        <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-support-supporters[page.lang].link}}"
+          role="menuitem">{{site.data.snippets.menu-support-supporters[page.lang].title}}</a>
+      </li>
+      
       <li class="nav-item" role="menuitem">
         <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-blog[page.lang].link}}"
           role="menuitem">{{site.data.snippets.menu-blog[page.lang].title}}</a>
       </li>
+     
 
       {% comment %}
       This tries to find the correct corresponding link to give to the language switching buttons in the upper right of

@@ -30,10 +30,11 @@ avatar_alt: Dibujo de un pavo real con sus plumas extendidas.
 doi: 10.46430/phes0041
 ---
 
+<div class="alert alert-warning">
+Se ha reportado un problema con las instrucciones de esta lección. Se advierte a los lectores que, en su estado actual, no es posible completarla debido a cambios en la tecnología utilizada que están más allá del control de su autor. Actualmente estamos investigando formas de solucionar este problema, por lo que agradecemos tu paciencia. 18 de agosto de 2020. 
+</div>
+
 {% include toc.html %}
-
-
-
 
 ## Introducción
 

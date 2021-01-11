@@ -133,6 +133,11 @@ Home Page
   .fr-back {
     background-color: {{ site.data.snippets.background_color.fr }};
   }
+  
+  .pt-back {
+    background-color: {{ site.data.snippets.background_color.pt }};
+  }
+
 
   .sitewide-alert {
     position: relative;
@@ -316,6 +321,74 @@ Lessons Index
     background-color:#ededed;
   }
 
+  /*****************
+    SEARCH
+  *****************/
+
+  .search-input {
+    width:55%;
+    clear:both;
+    margin-bottom:1rem;
+    background-color:#fefefe;
+    color:#666;
+    border:1px solid #999;
+    font: .9rem/1.1rem 'Open Sans',
+    sans-serif;
+    padding: .4rem .6rem;
+    border-radius: 3px;
+    display:inline-block;
+    text-transform:uppercase;
+    text-decoration: none;
+  }
+
+  #search-button,
+  #enable-search-button {
+    background-color: #efefef;
+    color: rgb(153, 143, 143);
+    width: 35%;
+    font: .9rem/1.1rem 'Open Sans',
+    sans-serif;
+    padding: .4rem .6rem;
+    border: none;
+    border-radius: 3px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 767px) {
+    /* phones */
+    #search-button,
+    #enable-search-button {
+      width: 80%;
+    }
+  }
+
+
+  #search-info-button {
+    padding: 0.5rem;
+    color: rgb(153, 143, 143);
+  }
+
+  #search-info {
+    display: none;
+    height:0px;
+    background:#efefef;
+    overflow:hidden;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+  }
+
+  #search-info.visible {
+    display: block;
+    height: fit-content;
+    height: -moz-max-content;
+    padding: 10px;
+    margin-top: 10px;
+  }
 
   /*****************
     SORT BUTTONS
@@ -426,11 +499,6 @@ Lessons Index
     clear:none;
   }
 
-  p.abstract {
-    font: .8rem/1.2rem 'Open Sans', sans-serif;
-    margin:0;
-  }
-
   .list .date,
   .lesson-description .activity,
   .lesson-description .topics,
@@ -438,7 +506,20 @@ Lessons Index
     display: none;
   }
 
-
+  #pre-loader {
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    transition: opacity 0.3s linear;
+    background: rgba(211, 211, 211, 0.8);
+  }
 /* =============================================================================
 Top Navigation Bar
 ========================================================================== */

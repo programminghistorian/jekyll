@@ -116,7 +116,7 @@ If you are using a Mac and receive an error message that the file is from an “
 
 ## Data
 
-Throughout this lesson you will work with historical documents from the [First International Conference of Labour Statisticians](https://ilostat.ilo.org/resources/methods/icls/icls-documents/) from 1923. The data of all past conferences is provided by the [International Labour Organization (ILO)](https://www.ilo.org/global/about-the-ilo/history/lang--en/index.htm) and is [publicly available](https://www.ilo.org/public/libdoc/ilo/ILO-SR/).
+Throughout this lesson you will work with historical documents from the [First International Conference of Labour Statisticians](https://web.archive.org/web/20200606003222/https://ilostat.ilo.org/resources/methods/icls/icls-documents/) from 1923. The data of all past conferences is provided by the [International Labour Organization (ILO)](https://www.ilo.org/global/about-the-ilo/history/lang--en/index.htm) and is [publicly available](https://www.ilo.org/public/libdoc/ilo/ILO-SR/).
 
 To make it easier for you to navigate through the file system and create folders, here are some basic commands of the Bash Command Line:
 
@@ -158,7 +158,7 @@ Always make a backup copy of your data before using the commands in this course.
 
 # Assessing Your PDF(s)
 
-In order to make this lesson as realistic as possible, you will be guided by a concrete historical case study. The study draws on the extensive collection of the [International Labour Organization (ILO)](https://ilostat.ilo.org/resources/methods/icls/icls-documents/), in particular the sources of the First International Conference of Labour Statisticians.
+In order to make this lesson as realistic as possible, you will be guided by a concrete historical case study. The study draws on the extensive collection of the [International Labour Organization (ILO)](http://web.archive.org/web/20200606003222/https://ilostat.ilo.org/resources/methods/icls/icls-documents/), in particular the sources of the First International Conference of Labour Statisticians.
 
 You are interested in what topics were discussed by the labour statisticians. For this purpose you will want to analyze all available documents of this conference using Topic Modelling. This assumes that all documents are available in plain text.
 

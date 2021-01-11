@@ -447,4 +447,4 @@ UK Data Archive, 'Documenting your Data'
   [platform agnostic]: http://en.wikipedia.org/wiki/Cross-platform
   [Markdown]: http://en.wikipedia.org/wiki/Markdown
   [Komodo Edit]: http://komodoide.com/komodo-edit/
-  [Text Wrangler]: https://itunes.apple.com/gb/app/id404010395?mt=12
+  [Text Wrangler]: https://www.barebones.com/products/textwrangler/

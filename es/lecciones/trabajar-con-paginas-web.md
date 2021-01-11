@@ -102,7 +102,7 @@ Si estudiamos el URL podemos aprender varias cosas. En primer lugar, OBO fue esc
 
 Tómate unos minutos para ver la página del proceso contra Benjamin Bowsey. No estamos muy interesados en lo que dice la relatoría sino en la información que proporciona la página. Al final de la misma notarás que hay un enlace [View as XML] que te lleva a una versión de la página del texto profusamente etiquetado con [XML] que es muy útil para cierto tipo de investigaciones. También puedes ver un escaneo del [documento original] que fue transcrito para hacer construir esta fuente.
 
-Ahora vamos a tratar de abrir la página usando Python. Copia el siguiente programa en Komodo Edit y guárdalo como `abre-paginaweb.py` Cuando ejecutes el programa abrirá la página del proceso judicial, leerá (`read`) su contenido en una cadena de texto de Python llamada `contenidoWeb` y luego te mostrará mediante `print` los primeros trescientos caracteres de la cadena en el panel de salida de comando. Usa el comando de Firefox `Herramientas -> Desarrollador web -> Código fuente de esta página` (Ctrl-U) para verificar que la fuente de la página de ese URL es la misma fuente que tu programa recupera. Consulta la biblioteca de referencias de Python para saber más de [urllib2].
+Ahora vamos a tratar de abrir la página usando Python. Copia el siguiente programa en Komodo Edit y guárdalo como `abre-paginaweb.py` Cuando ejecutes el programa abrirá la página del proceso judicial, leerá (`read`) su contenido en una cadena de texto de Python llamada `contenidoWeb` y luego te mostrará mediante `print` los primeros trescientos caracteres de la cadena en el panel de salida de comando. Usa el comando de Firefox `Herramientas -> Desarrollador web -> Código fuente de esta página` (Ctrl-U) para verificar que la fuente de la página de ese URL es la misma fuente que tu programa recupera. Consulta la biblioteca de referencias de Python para saber más de [urllib].
 
 ``` python
 # abre-paginaweb.py
@@ -123,7 +123,7 @@ Estas cinco líneas de código logran mucho rápidamente. Vamos a detenernos un 
 
 *url* contiene el URL de la página web que queremos descargar. En este caso, el juicio contra Benjamien Bowsey.
 
-En la línea siguiente invocamos a la función `urlopen` que está almacenada en un módulo de Python llamado `urllib2.py` y le hemos pedido a esa función que abra el sitio web en el URL que le especificamos. Entonces, guardamos el resultado de ese proceso en una variable denominada *respuesta*. Esta variable contiene una versión abierta del sitio web solicitado.
+En la línea siguiente invocamos a la función `urlopen` que está almacenada en un módulo de Python llamado `urllib.py` y le hemos pedido a esa función que abra el sitio web en el URL que le especificamos. Entonces, guardamos el resultado de ese proceso en una variable denominada *respuesta*. Esta variable contiene una versión abierta del sitio web solicitado.
 
 Utilizamos entonces el método `read`, que ya usamos anteriormente, para copiar el contenido de esa página web abierta en una nueva variable llamada *contenidoWeb*.
 
@@ -182,5 +182,5 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 [View as XML]: http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes
 [XML]: https://es.wikipedia.org/wiki/Extensible_Markup_Language
 [documento original]: http://www.oldbaileyonline.org/images.jsp?doc=178006280084
-[urllib2]: https://docs.python.org/2/library/urllib2.html
+[urllib]: https://docs.python.org/3/library/urllib.html
 [zip]: /assets/python-es-lecciones1.zip
