@@ -155,7 +155,7 @@ menu-contribute-write:
     title: Author Guidelines
     link: /en/author-guidelines
   es:
-    title: Guía para autores y traductores
+    title: Guía para autores
     link: /es/guia-para-autores
   fr:
     title: Consignes aux auteurs
@@ -169,7 +169,7 @@ menu-contribute-translate:
     link: /en/translator-guidelines
   es:
     title: Guía para traductores
-    link: es/guia-para-traductores
+    link: /es/guia-para-traductores
   fr:
     title: Consignes aux traducteurs
     link: /fr/consignes-traducteurs
