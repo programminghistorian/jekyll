@@ -26,7 +26,7 @@ An automatically-generated list of page translation relationships across our pub
 {% endfor %}
 </table>
 
-{% assign original_pages = site.pages | where_exp: "item", "item.name != 'redirect.html'" | where_exp: "item", "item.name != 'redirects.json'" | where_exp: "item", "item.name != 'index.md'" | where_exp: "item", "item.original == nil" | where_exp: "item", "item.layout != 'lesson'" | where_exp: "item", "item.layout != 'post'" | where_exp: "item", "item.skip_concordance != true" %}
+{% assign original_pages = site.pages | where_exp: "item", "item.name != 'redirect.html'" | where_exp: "item", "item.name != 'redirects.json'" | where_exp: "item", "item.name != 'index.md'" | where_exp: "item", "item.original == nil" | where_exp: "item", "item.layout != 'lesson'" | where_exp: "item", "item.layout != 'post'" | where_exp: "item", "item.skip_concordance != true" | where_exp: "item", "item.title != nil"%}
 
 ## Other pages
 
