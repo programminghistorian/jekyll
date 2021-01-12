@@ -36,20 +36,26 @@ Una vez se ha aceptado una propuesta de lección, el editor aclarará al autor c
 A continuación, el editor creará un *issue* en el [repositorio de GitHub](https://github.com/programminghistorian/ph-submissions/issues)    con la etiqueta “proposals” para las nuevas lecciones. La plantilla viene incluida por defecto en el *issue*, pero también se puede copiar el texto que se encuentra más abajo.
 
 	*The Programming historian* ha recibido una propuesta de lección con el título provisional ‘Título provisional de la lección’ por parte de ‘Nombre del autor o autores’. Los objetivos de la lección son:
-
+	
 	- objetivo nº1
 	- objetivo nº2
 	- objetivo nº3
-
+	
 	A fin de promover una publicación a tiempo, se ha acordado que la lección se entregará en un plazo de [90 days por defecto o más tarde si se ha establecido así con el autor]. El autor o autores contactará con antelación con el editor si no puede cumplir con la fecha de entrega y necesita una ampliación.
-
+	
 	Si la lección no es entregada en la [fecha acordada], el editor intentará contactar con el autor o autores de la lección. Si no recibe noticias, el ticket se cerrará. Éste podrá abrirse en el futuro a petición del autor o autores.
-
+	
 	El principal contacto para esta lección es [nombre del editor]. Si se produce algún problema, el autor puede contactar con nuestros ’ombudsperson' (Silvia Gutiérrez De la Torre - http://programminghistorian.org/es/equipo-de-proyecto).
 
 Este texto, sin embargo, puede editarse y adaptarse a las necesidades para reflejar más objetivos o lo que se ha negociado entre el editor y el autor.
 
-Una vez la lección haya sido entregada, el editor creará un ticket de revisión para la lección y cerrará el *issue* correspondiente a la propuesta inicial.
+Cuando los materiales de la lección estén listos para su envío, los autores se pondrán en contacto con su editor/a asignado/a, cuyo trabajo será subirlos al [repositorio de envíos de ph](https://github.com/programminghistorian/ph-submissions) después de realizar una primera verificación para garantizar que no haya problemas importantes con los metadatos.
+
+1. **Subir la lección**: el archivo de la lección debe subirse en la carpeta para lecciones o traducciones. Si necesitas ayuda, dirígete a las [instrucciones de Github](https://help.github.com/articles/adding-a-file-to-a-repository/).
+2. **Subir imágenes**: si la lección contiene imágenes, aseguráte de que todos los archivos sigan las convenciones para nombres de figuras e imágenes en la [guía para autores](/es/guia-para-autores). Quien edita la lección debe crear una carpeta para las imágenes en el [directorio *images*](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). Esta carpeta debe tener el mismo nombre que el archivo de la lección. Carga las imágenes en la carpeta.
+3. **Subir archivos datos**: si la lección incluye archivos de datos, estos deben ser subidos a una carpeta con el mismo nombre del archivo de la lección en el [directorio *assets.*](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets) 
+
+Después de subir todo, el/la editor/a debe comprobar que la carga de archivos recibe una marca verde de aprobación en [la historia del repositorio](https://github.com/programminghistorian/ph-submissions/commits/gh-pages). Si la marca no es verde, algo fue mal y entonces se debe consultar la [wiki](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions#checking-travis-for-errors) para tratar de subsanar los errores existentes. Una vez que se haya cargado correctamente la lección, el/la editor/a creará un ticket de revisión para la lección y cerrará el *issue* de la propuesta. A partir de aquí, esta misma persona debe asegurarse de que el/la autor/a trabaje con la última versión de la lección en el repositorio y cargar los cambios directamente en GitHub.
 
 ### Revisión por pares en abierto
 
