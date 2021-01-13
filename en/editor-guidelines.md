@@ -93,7 +93,7 @@ Your first comment on the message board for a given tutorial review should use o
 ```
 The Programming Historian has received the following tutorial on '[LESSON TITLE]' by [AUTHOR GITHUB USERNAME]. This lesson is now under review and can be read at:
 
-http://programminghistorian.github.io/ph-submissions/en/[URL to lesson, preceded by /lessons/ or /translations/ as appropriate]
+http://programminghistorian.github.io/ph-submissions/en/["lessons" or "translations"]/[URL to lesson]
 
 I will act as editor for the review process. My role is to solicit two reviews from the community and to manage the discussions, which should be held here on this forum. I have already read through the lesson and provided feedback, to which the author has responded.
 
