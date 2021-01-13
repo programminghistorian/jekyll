@@ -52,7 +52,7 @@ O editor é incentivado a ajustar o texto para refletir quaisquer metas ou requi
 
 Quando os materiais da lição estiverem prontos para envio, o autor entrará em contato com o editor designado, cujo trabalho será enviá-los para o [repositório de submissões](https://github.com/programminghistorian/ph-submissions) após a primeira verificação para garantir que não haja problemas importantes de metadados.
 
-1. **Carregar a lição**: a lição em si deve ser enviada para a [pasta de lições](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). Se precisar de ajuda, consulte as [instruções do GitHub](https://help.github.com/articles/adding-a-file-to-a-repository/).
+1. **Carregar a lição**: a lição em si deve ser enviada para a subpasta apropriada (dependendo se é uma lição original ou uma tradução) da [pasta de lições](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/pt) dentro da pasta de idioma correspondente na raiz do repositório ph-submissions. Se precisar de ajuda, consulte as [instruções do GitHub](https://help.github.com/articles/adding-a-file-to-a-repository/).
 2. **Carregar imagens**: se a lição incluir imagens, certifique-se de que todos os arquivos sejam nomeados de acordo com as convenções de nomenclatura especificadas nas [diretrizes para autores](/directrizes-autor). O editor deve criar uma pasta para as imagens no [diretório de imagens](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). Esta pasta deve ter o mesmo nome do ficheiro da lição. Faça upload das imagens para esta pasta.
 3. **Carregar dados**: se a lição incluir ficheiros de dados, eles devem ser enviados para uma pasta com nome semelhante no [diretório de recursos](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets).
 
@@ -93,7 +93,7 @@ O primeiro comentário no quadro de mensagens para uma revisão da proposta deve
 ```
 O Programming Historian em português recebeu a proposta sobre '[TÍTULO DA LIÇÃO]' do autor [USERNAME NO GITHUB DO AUTOR]. Esta lição está agora em revisão e pode ser lida em:
 
-http://programminghistorian.github.io/ph-submissions/lessons/[URL to lesson]
+http://programminghistorian.github.io/ph-submissions/pt/["licoes" ou "traducoes"]/[URL da lição]
 
 Eu serei o editor no processo de revisão. O meu papel é solicitar duas revisões da comunidade e gerir as discussões, que devem ser realizadas aqui neste fórum. Eu já li a lição e forneci feedback, ao qual o autor respondeu.
 
@@ -150,12 +150,12 @@ Os autores são responsáveis por verificar se a lição foi processada corretam
 
 Esta verificação pode ser feita rapidamente na pré-visualização da versão compilada da página. Disponível em:
 
-`http://programminghistorian.github.io/ph-submissions/lessons/FILENAME-HERE`  (atenção que não tem .md no fim)
+`http://programminghistorian.github.io/ph-submissions/pt/licoes/NOME-DO-FICHEIRO-AQUI` (atenção que não tem .md no fim)
 
-Se não funcionar, informe Matthew Lincoln e ele tentará solucionar.
+Observe que se for uma tradução, você substituirá "licoes" por "traducoes". Se não funcionar, informe a equipa técnica e ela tentará solucionar.
 
 ### C) Revisão para a sustentabilidade e internacionalização
-Para aumentar a longevidade das lições os editores do _Programming Historian em português_ devem fazer uma revisão de sustentabilidade, como parte da verificação final. Cada proposta é diferente e algumas destas áreas podem não ser aplicáveis​​. Tendo em conta o nível de dificuldade de cada lição e o público-alvo, os editores devem usar estas questões como orientação para garantir que as lições sejam o mais sustentável possível desde a data de publicação.
+Para aumentar a longevidade das lições os editores do _Programming Historian em português_ devem fazer uma revisão de sustentabilidade, como parte da verificação final. Cada proposta é diferente e algumas destas áreas podem não ser aplicáveis. Tendo em conta o nível de dificuldade de cada lição e o público-alvo, os editores devem usar estas questões como orientação para garantir que as lições sejam o mais sustentável possível desde a data de publicação.
 
 - Todas as versões e dependências de software estão descritas na introdução da lição;
 - Sempre que possível os datasets para a lição estão claramente identificados e alojados no _Programming Historian em português_;
