@@ -52,7 +52,7 @@ The editor is encouraged to adjust the issue text to reflect any additional goal
 
 When the lesson materials are ready for submission, the author will contact their assigned editor, whose job will be to upload them to the [ph-submissions repository](https://github.com/programminghistorian/ph-submissions) after first checking to ensure that there are no major metadata issues. 
 
-1. **Uploading the Lesson**: the lesson itself should be uploaded to the [lessons folder](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). If you need help, see [GitHub's instructions](https://help.github.com/articles/adding-a-file-to-a-repository/).
+1. **Uploading the Lesson**: the lesson itself should be uploaded to the appropriate subfolder (depending on whether it is an original lesson or a translation) of the [lessons folder](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/en) within the corresponding language folder in the root of the ph-submissions repository. If you need help, see [GitHub's instructions](https://help.github.com/articles/adding-a-file-to-a-repository/).
 2. **Uploading Images**: if the lesson includes images, make sure all of the files are named according to the naming conventions specified in the [author guidelines](/author-guidelines). The editor should create a folder for the images in the  [images directory](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). This folder should have the same name as the lesson filename. Upload the images to this folder.
 3. **Uploading Data**: if the lesson includes data files, they should be uploaded to a similarly named folder in the [assets directory](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets).
 
@@ -93,7 +93,7 @@ Your first comment on the message board for a given tutorial review should use o
 ```
 The Programming Historian has received the following tutorial on '[LESSON TITLE]' by [AUTHOR GITHUB USERNAME]. This lesson is now under review and can be read at:
 
-http://programminghistorian.github.io/ph-submissions/lessons/[URL to lesson]
+http://programminghistorian.github.io/ph-submissions/en/["lessons" or "translations"]/[URL to lesson]
 
 I will act as editor for the review process. My role is to solicit two reviews from the community and to manage the discussions, which should be held here on this forum. I have already read through the lesson and provided feedback, to which the author has responded.
 
@@ -148,9 +148,9 @@ Authors are responsible for checking that their lesson has rendered properly in 
 
 You can quickly check that everything looks correct on a lesson submission by looking at the rendered version of the page. It will be found at:
 
-`http://programminghistorian.github.io/ph-submissions/lessons/FILENAME-HERE`  (note - no .md at the end)
+`http://programminghistorian.github.io/ph-submissions/en/lessons/FILENAME-HERE`  (note - no .md at the end)
 
-If that doesn't work, let the technical team know, and they will try to diagnose it.
+Note that if it is a translation you would substitute "translations" for "lessons". If that doesn't work, let the technical team know, and they will try to diagnose it.
 
 ### C) Sustainability & Internationalization Review
 To increase the lifespan of our lessons, _Programming Historian_ editors should complete a sustainability review as a part of their final checklist. Every submission is different and some of these areas may not be applicable to all submissions. Keeping in mind the difficulty level of each lesson and its intended audience, editors should use these areas as guidelines to ensure that lessons are as sustainable as possible from the date of publication.

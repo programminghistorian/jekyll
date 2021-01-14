@@ -82,15 +82,15 @@ Quand une leçon est soumise, le rédacteur ou la rédactrice doit ouvrir un nou
 Votre premier commentaire sur le ticket d'évaluation d'un tutoriel doit être calqué sur le modèle de celui qui explique le rôle du rédacteur et de la rédactrice, décrit la procédure de l'évaluation ainsi que les options qui se présentent au cas improbable où des problèmes surgiraient. Merci d'adapter [le modèle](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/.github/ISSUE_TEMPLATE), qui devrait apparaître automatiquement lors de l'ouverture d'un nouveau ticket, de la manière qui correspond:
 
 ```
-Le Programming Historian en français a reçu le tutoriel intitulé '[TITRE DE LA LEÇON]' par [NOM D'UTILISATEUR/UTILISATRICE GITHUB DE L'AUTEUR(E)]. La leçon préparée par [NOM D'UTILISATEUR/UTILISATRICE GITHUB DU TRADUCTEUR OU DE LA TRADUCTRICE]) est actuellement en cours d'évaluation et peut être consultée ici:
+Le Programming Historian en français a reçu la leçon (ou la traduction de la leçon) intitulée '[TITRE DE LA LEÇON]' par [NOM D'UTILISATEUR/UTILISATRICE GITHUB DE L'AUTEUR(E)] ou, s'il s'agit d'une traduction, traduite par [NOM D'UTILISATEUR/UTILISATRICE GITHUB DU TRADUCTEUR OU DE LA TRADUCTRICE]). La leçon (ou la traduction) est actuellement en cours d'évaluation et peut être consultée ici:
 
-http://programminghistorian.github.io/ph-submissions/lessons/[URL to lesson]
+http://programminghistorian.github.io/ph-submissions/fr/["lecons"ou "traductions"/[NOM-DE-FICHIER-ICI]
 
 J'exercerai le rôle de rédacteur/rédactrice lors de la procédure de l'évaluation. Cela implique de solliciter deux évaluations par la communauté et de gérer les discussions qui auront lieu sur ce forum. J'ai déjà fait une lecture critique de la leçon puis un retour auquel l'auteur(e) a répondu.
 
 Les membres de la communauté plus large sont aussi invités de fournir une critique constructive via ce fil de messages, après avoir pris connaissance de nos consignes aux évaluateurs et évaluatrices (/fr/consignes-evaluateurs) et accepté notre politique contre le harcèlement (cf. ci-dessous). Nous demandons que toute nouvelle évaluation cesse après que la seconde, parmi celles qui ont été formellement sollicitées, a été déposée, pour que l'auteur(e) puisse se concentrer sur les révisions à faire. Lorsque cela est le cas, je prendrai soin de l'indiquer dans le fil de discussion.
 
-Je vais essayer de garder la discussion ouverte ici sur Github. Si quelqu'un a besoin de discuter en privé, merci de m'envoyer un courriel. Il y a toujours la possibilité de vous adresser à @mpuren ou à @fdlaramee si vous souhaitez que notre équipe de médiation intervienne.
+Je vais essayer de garder la discussion ouverte ici sur Github. Si quelqu'un a besoin de discuter en privé, merci de m'envoyer un courriel. Il y a toujours la possibilité de vous adresser à notre dispositif de médiation, si vous le souhaitez.
 
 Politique contre le harcèlement.
 _
@@ -138,7 +138,7 @@ Les auteur(e)s ont la responsabilité de vérifier que la syntaxe de leur leçon
 
 Vous pouvez vérifier rapidement si tout se présente correctement au cours de la soumission en consultant la version du fichier qui s'affiche sur :
 
-`http://programminghistorian.github.io/ph-submissions/fr/lecons/NOM-DU-FICHIER-ICI`  (attention, pas d'extension .md à la fin)
+`http://programminghistorian.github.io/ph-submissions/fr/lecons/NOM-DE-FICHIER-ICI`, s'il s'agit d'une leçon originale; ou sur `http://programminghistorian.github.io/ph-submissions/fr/traductions/NOM-DE-FICHIER-ICI`, s'il s'agit d'une traduction (attention, pas d'extension .md à la fin).
 
 Si cela ne marche pas, merci d'en informer notre équipe technique qui s'occupera du problème.
 
@@ -274,20 +274,21 @@ Pour illustrer nos leçons, nous utilisons des images anciennes qui nous semblen
 
 Ci-dessous quelques sites pour chercher des images:
 
- - The [British Library](https://www.flickr.com/photos/britishlibrary)
- - The [Internet Archive Book Images](https://www.flickr.com/photos/internetarchivebookimages)
- - The [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
- - The [Library of Congress Maps](http://www.loc.gov/maps/collections)
  - [Gallica](https://gallica.bnf.fr)
  - [Europeana](https://www.europeana.eu)
+ - The [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
+ - The [British Library](https://www.flickr.com/photos/britishlibrary)
+ - The [Internet Archive Book Images](https://www.flickr.com/photos/internetarchivebookimages)
+ - The [Library of Congress Maps](http://www.loc.gov/maps/collections)
+
 
 Merci de prendre soin de trouver une image dont le style est proche de celles déjà utilisées, donc pas de photographie, mais plutôt une image d'illustration de livre, de taille minimale de 200x200 pixels, sans restriction de droits de copyright. Merci de faire attention à ce que les images ne heurtent pas les sensibilités et, en conformité à notre [engagement en faveur de la diversité](/posts/PH-commitment-to-diversity), qu'elles ne reproduisent pas de stéréotypes sexistes ou raciaux.
 
-Par la suite, il faut sauvegarder l'image originale. Le nom du fichier doit être le même que celui de la leçon correpospondante, et donc correspondre aussi au slug de son URL, suivi de `-original` à la fin. Le fichier doit être en format `.png`. Prenant pour exemple la leçon “Cleaning Data with OpenRefine”, le texte (slug) de son URL est `cleaning-data-with-openrefine`, par conséquent le nom de fichier de l'image de la leçon doit être `cleaning-data-with-openrefine-original.png`.
+Par la suite, il faut sauvegarder l'image originale. Le nom du fichier doit être le même que celui de la leçon correpospondante, et donc correspondre aussi au slug de son URL, suivi de `-original` à la fin. Le fichier doit être en format `.png`. Prenant pour exemple la leçon “Cleaning Data with OpenRefine”, le texte (slug) de son URL est `cleaning-data-with-openrefine`, par conséquent le nom de fichier de l'image de la leçon doit être `cleaning-data-with-openrefine-original.png`. 
 
 Il faut ensuite créer une nouvelle copie de l'image. Découpez-la en carré en préservant l'essentiel de la représentation puis modifiez la résolution en 200x200 pixels et convertissez-la en mode niveaux de gris. Si besoin, faites des réajustements pour que l'image soit conforme à celles des autres leçons au niveau de la luminosité ou des contrastes. Cette nouvelle image doit être sauvegardée dans un fichier nommé selon le texte de l'URL de la leçon sans oublier que **le format doit être en png**. Pour reprendre notre exemple précédent, le nom de ce fichier serait donc `cleaning-data-with-openrefine.png`.
 
-Le fichier de l'image originale doit être téléchargé dans le répertoire [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals), celui de l'image modifiée dans le répertoire [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery).
+Le fichier de l'image originale doit être téléchargé dans le répertoire [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals), celui de l'image modifiée dans le répertoire [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery). Notez que, s'il s'agit d'une traduction, aucune démarche n'est nécessaire quant à l'image originale. 
 
 ### 5) Prévenir le rédacteur ou la rédactrice en chef pour publier
 
