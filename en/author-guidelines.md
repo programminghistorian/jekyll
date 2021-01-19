@@ -297,14 +297,13 @@ Follow best practice in writing your code:
 
 Double-check that your lesson file has been prepared to the above specifications. Once you are satisfied, we strongly recommend that you ask at least two people to try your tutorial and provide feedback. This will help you make improvements that mean our peer reviewers can focus on helping you produce the strongest possible lesson.
 
-You are ready to submit the lesson for peer review. Submissions are made to our peer review site on [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
+You are ready to submit the lesson for peer review. Submissions are made by emailing materials to your editor so they can upload them to our peer review site on [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
 
-1. **Getting Access**: create a [free Github account](https://github.com/join). Email your Github username to your editor who will give you upload access to our submission site. Let the editor know the file name of your lesson and if you have any images or data files accompanying your tutorial.
-3. **Uploading your Lesson**: once your editor confirms you have been granted access to the site, upload your lesson to the [lessons folder](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). If you need help, see [GitHub's instructions](https://help.github.com/articles/adding-a-file-to-a-repository/).
-4. **Uploading Images**: if your lesson includes images, make sure all of the files are named according to the naming conventions specified above. Your editor will have created a folder for you to upload your images in the  [images directory](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). This folder should have the same name as your lesson filename. Upload your images to this folder. If you don't see it, please contact your editor and wait for instructions.
-5. **Uploading Data**: if your lesson includes data files, they should similarly be uploaded to a similarly named folder in the [assets directory](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets).
-6. **Email your editor** to let them know that you have uploaded your files.
-
+1. **Getting Access**: create a [free Github account](https://github.com/join). Email your Github username to your editor who will give you upload access to our submission site. Let the editor know the file name of your lesson and if you have any images or data files accompanying your tutorial. You will not do the initial upload to GitHub, but you will need access to post subsequent revisions.
+2. **Prepare your materials**: if your lesson includes images, make sure all of the files are named according to the naming conventions specified above.These images should be submitted in a single, compressed folder. If your lesson includes data files, they should be submitted in another compressed folder.
+3. **Email your editor**: let your editor know that you are ready to submit your lesson. This email should include the lesson file as well as the image and assets folders if applicable.
+4. **Join the conversation**: the editor will upload your files to our [submissions repository](https://github.com/programminghistorian/ph-submissions) and make any necessary, initial changes to them. They will also open a review ticket for your lesson.
+5. **Make revisions**: the initial lesson upload will be carried out by your assigned editor, but the editorial process will require that you make further changes. All subsequent revisions should be made by the author directly to the files in our submissions repository to ensure you are working from the latest version of the lesson file.
 
 ## The Peer Review Process
 

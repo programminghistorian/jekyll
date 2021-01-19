@@ -17,6 +17,9 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), United Kingdom
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), United Kingdom
 - [Western University Library](https://www.lib.uwo.ca/), Canada
+- [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), United Kingdom
+- [Corporation for Digital Scholarship](https://digitalscholar.org/), United States
+- [Université du Luxembourg](https://www.c2dh.uni.lu/), Luxembourg
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
@@ -51,6 +54,7 @@ We also publicly thank all of our 'Patron' supporters:
 - Mark Edwin Peterson
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
+- Dimitra Koutla
 
 ## Management of Donations and Sponsorship
 

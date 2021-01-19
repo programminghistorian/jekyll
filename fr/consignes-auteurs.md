@@ -27,9 +27,9 @@ Nous acceptons des tutoriels :
 La portée et la longueur du tutoriel doivent être appropriés à la complexité de la tâche qui y est expliquée. La longueur des tutoriels ne doit pas excéder 8,000 mots (en incluant le code source) à moins que le rédacteur ou la rédactrice n'en ait explicitement donné la permission. Celle-ci sera uniquement accordée dans des circonstances exceptionnelles. Nous demandons que la longueur des leçons soit en général comprise entre 4,000 et 6,000 mots. Les leçons plus longues pourront être divisées en plusieurs tutoriels.
 </div>
 
-Vous pouvez avoir une meilleure idée de ce que nous publions en consultant nos [leçons publiées], en lisant nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs.html), ainsi qu'aux [traducteurs et traductrices](/fr/consignes-traducteurs), ou encore en parcourant les [leçons en cours de développement](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). Nous vous encourageons à proposer des leçons sur des sujets déjà traités ou en en cours de développement, à condition que la nouvelle leçon apporte sa propre contribution originale au traitement d'un sujet donné.
+Vous pouvez avoir une meilleure idée de ce que nous publions en consultant nos [leçons en ligne](/fr/lecons/), en lisant nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs), ou encore en parcourant les [leçons en cours de développement](https://github.com/programminghistorian/ph-submissions/issues). Il existe en outre des sujets sur lesquels le *Programming Historian en français* est [particulièrement intéressé à recevoir des propositions](/fr/appel-contributions). Nous vous encourageons à proposer des leçons sur des sujets déjà traités ou en en cours de développement, à condition que la nouvelle leçon apporte sa propre contribution originale au traitement d'un sujet donné.
 
-Afin d'assurer la pérennité de nos leçons, les auteur(e)s doivent s'efforcer de soumettre des leçons qui ne sont pas complètement dépendantes de logiciels spécifiques ou d'interfaces utilisateurs. Ces leçons vont à coup sûr souffrir d'instabilité et vont avoir besoin de révisions substantielles lorsque sort une nouvelle version du logiciel ou de l'interface. Enseigner des concepts, plutôt que demander de 'cliquer sur le bouton _x_', facilite la rédaction et la publication de tutoriels pérennes.
+Afin d'assurer la pérennité de nos leçons, les auteur(e)s doivent s'efforcer de soumettre des leçons qui ne sont pas complètement dépendantes de logiciels spécifiques ou d'interfaces utilisateurs. Ces leçons vont à coup sûr souffrir d'instabilité et vont avoir besoin de révisions substantielles lorsque sort une nouvelle version du logiciel ou de l'interface. Enseigner des concepts, plutôt que demander de "cliquer sur le bouton _x_", facilite la rédaction et la publication de tutoriels pérennes.
 
 Une fois que votre proposition est acceptée, un rédacteur ou une rédactrice va créer un ticket "Proposition" dans notre [dépôt de soumissions](https://github.com/programminghistorian/ph-submissions/issues) avec le titre provisoire de la leçon et les objectifs pédagogiques proposés. Ce ticket sert à signaler le travail en cours alors que vous êtes en train de rédiger votre leçon. Pour éviter d'accumuler les retards, nous vous demandons de soumettre votre leçon dans les 90 jours suivant l'acceptation de votre proposition.
 
@@ -50,7 +50,7 @@ Que vous choisissiez un éditeur de texte ou un autre - cela n'a pas vraiment d'
 ### Mettre en forme les notes de bas de page
 Nous vous demandons de bien vouloir utiliser le style [Chicago Manual of Style](https://fr.wikipedia.org/wiki/The_Chicago_Manual_of_Style) pour mettre en forme les notes de bas de page.
 
-### Choisir un nom facile à trouver
+### Nommer le fichier
 Nommez le fichier de votre nouvelle leçon en respectant les conseils suivants :
 
 -   Utilisez des minuscules et choisissez un nom court mais parlant. Ce nom de fichier deviendra le [slug] de l'URL de la leçon quand elle sera publiée. Par exemple, le titre de la leçon intitulée "Débuter avec Markdown" a le slug suivant : `debuter-avec-markdown` et l'URL : `https://programminghistorian.org/en/lessons/debuter-avec-markdown`. Pensez à regarder des leçons existantes pour plus d'exemples concrets.
@@ -92,8 +92,8 @@ Pour créer le bloc YAML pour votre leçon, vous devez **copier et coller le tex
 **Toutes les nouvelles leçons doivent être écrites en Markdown.** Markdown est un langage de balisage que l'on écrit très facilement avec un éditeur de texte (comme expliqué ci-dessus, n'utilisez pas un traitement de texte comme Word ou Open Office).  Les [GitHub Pages] sont générées par [Jekyll](http://jekyllrb.com/), qui convertit automatiquement les fichiers Markdown dans des pages HTML que vous pouvez trouver sur le site Web. Cette page est elle-même écrite en Markdown, comme vous pouvez le voir en regardant [le texte brut sur Github].
 
 Pour une introduction en douceur à Markdown, consultez:
-- [Getting Started with Markdown]({{site.baseurl}}/en/lessons/getting-started-with-markdown), un tutoriel du *Programming Historian* écrit par Sarah Simpkin
-- ou le guide [GitHub Guide to Markdown].
+- [Débuter avec Markdown]({{site.baseurl}}/fr/lecons/debuter-avec-markdown), un tutoriel du *Programming Historian* écrit par Sarah Simpkin
+- ou le [guide de GitHub sur Markdown].
 
 <div class="alert alert-warning">
   Avant de continuer, assurez vous que vous comprenez comment utiliser la syntaxe Markdown pour du formatage basique comme la mise en valeur des en-têtes, la mise en gras du texte, l'utilisation de l'italique, l'ajout de liens, la mise en forme des paragraphes, et la création de listes.
@@ -236,52 +236,52 @@ Online*`).
 -----
 
 ## Soumettre une nouvelle leçon
-Une fois que votre leçon a été préparée en suivant les consignes données ci-dessus, vous êtes prêt(e) à la soumettre !
+Une fois que votre leçon a été préparée en suivant les consignes données ci-dessus, nous vous conseillons de la faire relire et éventuellement d'apporter des corrections pour l'améliorer. Ainsi, l'évaluation ouverte par les pairs que nous allons organiser par la suite pourra se concentrer sur le fond, plutôt que sur la forme, afin de vous aider à produire la version la plus solide possible de votre leçon.   
 
-Nous avons une [page-projet pour le Programming Historian](https://github.com/programminghistorian) sur GitHub, où nous maintenons deux dépôts (un dépôt ou *repository* est un endroit destiné à stocker les fichiers et les dossiers reliés - on peut les voir comme les dossiers que vous avez sur votre ordinateur). L'un d'entre eux s'appelle [jekyll](https://github.com/programminghistorian/jekyll) et héberge le code source du site visible à cette adresse <http://programminghistorian.org/>. L'autre dépôt s'appelle [ph-submissions].
+Lorsque vous êtes prêt(e) à la soumettre, merci d'envoyer tous les fichiers (texte, images, données...) au rédacteur ou à la rédactrice en charge du suivi éditorial de votre leçon, qui les téléversera pour vous dans notre dépôt dédié à l'évaluation par les pairs sur [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/fr/lecons). Voici comment procéder de votre côté: 
 
-Nous souhaitons que les auteurs soumettent directement les leçons en les ajoutant au dépôt [ph-submissions]. Grâce aux fonctionnalités offertes par Github, vous pouvez utiliser l'action *glisser-déposer* pour télécharger des fichiers. En tant que nouvel(le) auteur(e), voilà les étapes que vous allez devoir suivre :
-
-1. Créer un [compte gratuit sur Github](https://github.com/join). Cela prend environ 30 secondes.
-2. Envoyer un message à votre rédacteur ou rédactrice avec votre nouveau nom d'utilisateur ou utilisatrice Github et le nom/slug du fichier de votre leçon (assurez vous d'avoir suivi les règles de nommage exposées ci-dessus). Votre rédacteur ou rédactrice va ensuite vous ajouter comme **collaborateur ou collaboratrice** dans le dépôt [ph-submissions]. Vous allez alors pouvoir directement faire des changements dans le dépôt [ph-submissions], comme ajouter, modifier, supprimer ou renommer des fichiers. Le rédacteur ou la rédactrice va également créer un dossier avec le même nom que votre leçon dans le dossier "images". (Si vous avez d'autres types de fichiers de données que vous souhaitez associer à votre tutoriel, parlez en à votre rédacteur ou rédactrice).
-3. Une fois informé que vous avez été ajouté(e) en tant que collaborateur ou collaboratrice au dépôt, rendez vous dans le [dossier des leçons](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons) du dépôt [ph-submissions]. Ensuite, faites un glisser-déposer avec votre fichier en Markdown depuis votre ordinateur vers la fenêtre de votre navigateur. (Si vous avez besoin d'aide, consultez les [instructions fournies par Github](https://help.github.com/articles/adding-a-file-to-a-repository/)). Maintenant cliquez sur le bouton vert "Commit Changes" ; vous n'avez pas besoin de changer le message qui s'affiche par défaut.
-4. Vous avez probablement des images qui accompagnent votre leçon. Soyez sûr(e) que tous les fichiers images sont nommés de manière appropriée, en accord avec les conventions de nommage spécifiées ci-dessus. Rendez vous dans le [dossier des images](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images) dans le dépôt [ph-submissions]. Cliquez sur le dossier avec le même nom que votre leçon (que votre rédacteur ou rédactrice a dû créer pour vous ; si vous ne le voyez pas, prenez contact avec la personne et attendez de recevoir ses instructions). Une fois que vous êtes dans le bon dossier, faites un glisser-déposer de tous vos fichiers images de votre ordinateur vers la fenêtre de votre navigateur, comme vous l'avez fait lors de l'étape 3. Vous ne pouvez pas déposer un dossier contenant vos images, mais vous pouvez déposer plusieurs fichiers en une fois.
-5. Vous pouvez avoir un aperçu de votre leçon en ligne ! Attendez quelques minutes (voire moins) pour que Github convertisse votre fichier Markdown en HTML et en fasse une page web visible en ligne. Ensuite, rendez vous à l'adresse suivante : `http://programminghistorian.github.io/ph-submissions/lessons/NOM-DE-VOTRE-LEÇON` (mais remplacez NOM-DE-VOTRE-LEÇON par le nom de votre fichier).
-6. Faites savoir à votre rédacteur ou votre rédactrice que vous avez téléchargé les fichiers de votre leçon dans le dépôt [ph-submissions]. Même si une notification l'en informant a dû lui être envoyée, nous préférons nous assurer que rien peut être omis.
-
-<div class="alert alert-info">
-Si vous avez l'habitude d'utiliser git et Github en ligne de commande, vous pouvez également soumettre votre leçon et vos images comme une *pull request* au dépôt `ph-submission` et la fusionner vous-même après y avoir été ajouté en tant que collaborateur(trice). <b>Nous vous demandons de ne pas soumettre des leçons par [pull request] au dépôt principal Jekyll</b> de manière à ce que nous puissions fournir des aperçus en ligne des leçons en cours de relecture.
-</div>
-
-## La leçon a été soumise ! Et maintenant ?
-Pour savoir ce qui va arriver à votre leçon après sa soumission, sentez-vous libre de consulter nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs), qui détaillent notre processus de révision et de publication. Vous pouvez retrouver les étapes les plus importantes ci-dessous.
-
-L'étape la plus immédiate consiste en la création par votre rédacteur ou rédactrice d'un [ticket](https://github.com/programminghistorian/ph-submissions/issues) pour la leçon téléchargée dans le dépôt [ph-submissions], contenant un lien vers celle-ci (dont vous avez pu avoir un aperçu lors de l'étape 5). Le rédacteur ou la rédactrice et au moins deux personnes chargées de l'évaluation sur son invitation vont poster leurs commentaires pour cette "issue".
-
-### Attendre les commentaires d'évaluation
-Nous essayons de finaliser le processus de relecture dans un délai de quatre semaines ; mais il peut parfois arriver que nous prenions du retard, ou que les personnes impliquées dans le processus de relecture soient très occupées, et cela peut prendre plus de temps que prévu.
-
-Afin de promouvoir l'évaluation ouverte par les pairs et le développement d'un environnement académique ouvert, nous encourageons les discussions à rester sur Github. Toutefois, nous souhaitons également que vous vous sentiez à l'aise avec le processus de relecture ; sentez vous libre d'[envoyer directement un message à votre rédacteur ou rédactrice](/fr/equipe-projet), ou de contacter notre médiatrice, [Hélène Huet](/fr/equipe-projet).
+1. **Obtenir accès à notre dépôt d'évaluation**: pour cela il suffit de créer un [compte gratuit sur Github](https://github.com/join) et le communiquer à votre rédacteur ou rédactrice, qui va ensuite vous ajouter comme **collaborateur ou collaboratrice** dans le dépôt [ph-submissions]. Ce n'est pas à vous de faire le téléversement initial des fichiers, mais l'accès au dépôt est nécessaire pour que vous puissiez par la suite apporter des modifications et des mises à jour. 
+2. **Préparer ses fichiers**: vous avez probablement des images qui accompagnent votre leçon. Merci de vérifier que tous les fichiers images sont nommés de manière appropriée, en accord avec les [conventions de nommage spécifiées ci-dessus]. Ces fichiers doivent nous parvenir dans un dossier unique compressé. Si vous avez en plus des fichiers de données, merci de nous envoyer ces fichiers aussi dans un dossier compressé distinct.
+3. **Envoyer un message électronique**: informez votre rédacteur ou rédactrice que vous êtes prêt(e) à soumettre votre leçon, en joignant le fichier de celle-ci et, le cas échéant, les dossiers des fichiers images et données. 
+4. **Participer à la discussion**: le rédacteur ou la rédactrice en charge du suivi éditorial de votre leçon déposera vos fichiers dans notre [dépôt de soumissions](https://github.com/programminghistorian/ph-submissions) en faisant quelques premières modifications si nécessaire (métadonnées, syntaxe Markdown etc). Ensuite, un ticket sera ouvert pour l'évaluation ouverte de votre leçon, pendant laquelle vous avez la possibilité d'échanger avec celles et ceux qui participent au processus.
+5. **Apporter des modifications**: si le dépôt initial des fichiers est fait par votre rédacteur ou rédactrice assigné(e), le processus éditorial peut néanmoins entraîner le besoin d'apporter des modifications supplémentaires de votre côté. Toutes les révisions se font directement par les auteur(e)s sur les fichiers versés dans notre dépôt pour avoir la certitude que vous travaillez sur la version la plus récente du fichier de la leçon.
 
 
-### Répondre aux commentaires
-Les personnes chargées du suivi éditorial et de l'évaluation vont très probablement vous suggérer des modifications sur le ticket concernant votre leçon. Le rédacteur ou la rédactrice vous dira clairement quelles sont les modifications indispensables, quelles sont les modifications optionnelles et lesquelles peuvent être mises de côté.
+## Le processus de l'évaluation ouverte par les pairs
+Une fois que votre rédacteur ou rédactrice assigné(e) aura déposé et formaté vos fichiers de manière appropriée, vous recevrez un lien de prévisualisation de la leçon qui vous permettra de vérifier aussi de votre côté que tout se présente correctement; si ce n'est pas le cas, vous pouvez apporter des corrections. 
 
-Vous pouvez modifier vos fichiers sur Github, en suivant [ces instructions](https://help.github.com/articles/editing-files-in-your-repository/).
+L'évaluation par les pairs a lieu dans le cadre d'un [ticket](https://github.com/programminghistorian/ph-submissions/issues) Github qui prend ainsi la forme d'un forum de discussion ouverte. Merci de garder à l'esprit que l'évaluation par les pairs se fait publiquement et qu'elle reste disponible à la consultation publique; le ticket en est l'enregistrement. Si pour quelque raison que ce soit vous n'êtes pas à l'aise ou souhaitez une évaluation par les pairs non publique, merci de prendre contact avec votre rédacteur ou rédactrice assigné(e). 
 
-Vos révisions doivent être finalisées sous 4 semaines après avoir reçu les consignes de votre rédacteur ou rédactrice concernant les réponses à donner à la suite de l'évaluation par les pairs. Il s'agit de s'assurer ainsi que les leçons sont publiées dans un délai convenable et ne prennent pas du retard inutilement. Si vous pensez que vous allez avoir des difficultés à respecter ce délai, vous devez contacter votre rédacteur ou rédactrice pour choisir une date plus appropriée.
+Le processus de l'évaluation se passe habituellement en trois étapes:
 
-Si, à n'importe quel moment, vous n'êtes pas sûr(e) de votre rôle ou de ce que l'on attend de vous, sentez vous libre d'envoyer un message à votre rédacteur/rédactrice ou, encore mieux, de poster votre question sur l'issue concernant votre leçon. Un autre membre de l'équipe de rédaction peut la voir et vous répondre à la place de votre rédacteur/rédactrice. Vous devez comprendre que nous pouvons prendre quelques jours pour vous répondre, mais nous espérons que les améliorations apportées à votre texte sauront récompenser votre patience.
+1) Le rédacteur ou la rédactrice assigné(e) à votre leçon en fait une première lecture attentive en en testant les manipulations proposées. Vous êtes à ce stade susceptible de recevoir un premier retour qui pourrait solliciter votre réponse. L'objectif de ce premier retour est de se garantir la pertinence de votre leçon pour le lectorat du *Programming Historian en français* et qu'elle est fonctionnelle avant d'être proposée à l'évaluation externe. Vous avez normalement un mois pour répondre à cette première évaluation. 
 
-### Faire savoir à votre rédacteur ou rédactrice que vous avez terminé
-Une fois que vous avez terminé de répondre aux commentaires, faites le savoir à votre rédacteur ou rédactrice. Si vous ne l'avez pas déjà fait, envoyez 2 ou 3 lignes de biographie, qui apparaîtront à la fin de votre leçon, suivant ainsi le modèle des autres leçons.
+2) Ensuite, votre rédacteur ou  rédactrice assigné(e) propose la leçon à l'évaluation formelle par les pairs. Cela implique l'invitation d'au moins deux évaluateurs ou évaluatrices externes, mais potentiellement aussi la participation d'une communauté plus large, car tout commentaire est bienvenu (pourvu que les règles de bonne conduite, explicités dans le ticket, soient observées). En général, nous accordons aux évaluateurs et évaluatrices un délai d'un mois pour fournir leurs commentaires, il peut néanmoins arriver que ce délai ne soit pas respecté pour des raisons indépendantes de la volonté des personnes impliquées au processus. Vous devez attendre l'ensemble des relectures et les instructions consécutives de votre rédacteur our rédactrice assigné(e) avant d'aller plus loin. Parfois il peut s'agir de simples suggestions d'apporter certaines modifications, mais il peut aussi être question de révisions majeures ou de repenser la leçon. Selon les évaluations des pairs et la nature des questions soulevées, il se peut que vous ayez à réviser le tutoriel plus qu'une fois. Toufois, votre rédacteur ou rédactrice assignée(e) veillera à ce que vous receviez une ligne directrice claire pour que la leçon soit publiée. Par ailleurs, il est toujours possible de retirer votre leçon du processus de l'évaluation, si tel est votre choix.   
 
-Ensuite, le comité éditorial du *Programming Historian en français* va rapidement relire votre leçon et la déplacer du dépôt `ph-submissions` vers le dépôt `jekyll`, et mettre à jour notre répertoire des leçons.
+3) Au bout de ce processus, si tous les critères sont remplis, votre rédacteur ou rédactrice assignée(e) donne le feu vert pour la publication. C'est ensuite au rédacteur ou à la rédactrice en chef de relire la leçon pour s'assurer de sa conformité aux consignes aux auteur(e)s et aux standards du *Programming Historian*. Parfois des révisions et des corrections supplémentaires peuvent être nécessaires à ce stade pour que la leçon puisse être publiée. Une fois que le rédacteur ou la rédactrice en chef juge la version révisée satisfaisante, la leçon peut être publiée. Votre rédacteur ou rédactrice assigné(e) vous fournira toute information nécessaire à ce stade. 
 
-Félicitations ! Vous avez publié une leçon pour le *Programming Historian en français*!
+N'hésitez pas à consulter nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs) afin de vous familiariser avec notre processus de révision et de publication.
+
+Si jamais vous êtes dans l'incertitude sur comment procéder, n'hésitez pas à poster votre question sur le ticket d'évaluation, un membre de notre équipe vous apportera des réponses dans les délais les plus brefs possible. Nous faisons de notre mieux pour répondre au bout de quelques jours.
+
+### Nous interpeller
+
+Notre équipe de bénévoles fait de son possible pour garantir l'évaluation rigoureuse, collégiale et efficace des auteur(e)s par les pairs. Toutefois, il peut y avoir des failles, c'est pourquoi nous souhaitons que les auteur(e)s nous aident à maintenir un haut niveau de service. Si, pour quelque raison que ce soit, vous estimez ne pas avoir été traité(e) correctement, ou ne comprenez pas trop quel est votre rôle ou ce qu’on attend de vous, ou encore si vous considérez que l'évaluation présente des retards injustifiés ou que quelqu'un a été rude avec vous, enfin, pour quel autre souci que ce soit, n'hésitez pas à nous en tenir informés afin que nous puissions agir. 
+
+Exprimer des réserves n'a AUCUN impact négatif sur le processus et le résultat de l'évaluation par les pairs. 
+
+Pour ce faire, vous avez plusieurs points d'entrée - sentez-vous libre de contacter la personne avec laquelle vous êtes le plus à l'aise: 
+
+* votre rédacteur ou rédactrice assigné(e); 
+* le rédacteur ou la rédactrice en chef;
+* notre médiatrice indépendante ([Hélène Huet](mailto:hhuet@ufl.edu).
+
+Nous oeuvrons pour que tout se passe au mieux pour vous, mais si jamais vous estimez vous trouver dans une situation peu confortable, nous vous remercions de nous aider à y remédier et à améliorer les choses. 
 
 
-  [page wiki des leçons en cours de développement]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
+
+
+
   [consignes aux évaluateurs et évaluatrices]: /fr/consignes-evaluateurs.html
   [leçons publiées]: /fr/lecons
   [TextWrangler]: http://www.barebones.com/products/textwrangler/
@@ -289,7 +289,7 @@ Félicitations ! Vous avez publié une leçon pour le *Programming Historian en 
   [équipe-projet]: /fr/equipe-projet.html
   [slug]: https://en.wikipedia.org/wiki/Semantic_URL#Slug
   [YAML]: https://fr.wikipedia.org/wiki/YAML
-  [Guide GitHub pour Markdown]: https://guides.github.com/features/mastering-markdown/
+  [guide de GitHub sur Markdown]: https://guides.github.com/features/mastering-markdown/
   [les bases de Markdown]: https://help.github.com/articles/markdown-basics
   [Github Flavored Markdown]: https://help.github.com/articles/github-flavored-markdown
   [le texte brut sur Github]: https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/en/author-guidelines.md
@@ -303,7 +303,7 @@ Félicitations ! Vous avez publié une leçon pour le *Programming Historian en 
   [GitHub pour Mac]: https://mac.github.com/
   [GitHub pour Windows]: https://windows.github.com/
   [créer un compte sur Github]: https://help.github.com/articles/signing-up-for-a-new-github-account/
-  [conventions de nommage décrites ci-dessus]: #choisissez-le-nom-de-vos-fichiers
+  [conventions de nommage spécifiées ci-dessus]: #nommer-le-fichier
   [pull requests en attente dans notre dépôt]: https://github.com/programminghistorian/jekyll/pulls
   [guides GitHub]: https://guides.github.com/activities/forking/
   [réaliser un fork]: https://help.github.com/articles/fork-a-repo/
@@ -313,4 +313,5 @@ Félicitations ! Vous avez publié une leçon pour le *Programming Historian en 
   [ph-submissions]: https://github.com/programminghistorian/ph-submissions
 
   {% comment %}Anchor in line 306: Needs to be checked for: a) slug: does not seem to correspond to a subtitle, in the text there is only "Utilisez des noms de fichiers compréhensibles" b) where it is/will be inserted in the text{% endcomment %}
+  {% comment %}Hopefully resolved after some changes. Sofia, 12/12/20{% endcomment %}
 

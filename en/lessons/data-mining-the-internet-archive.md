@@ -680,6 +680,6 @@ from the fields, the possibilities can multiply rapidly!
   [functions that it provides for working with MARC XML records]: https://github.com/edsu/pymarc/blob/master/pymarc/marcxml.py
   [Counting Frequencies]: /lessons/counting-frequencies
   [Google Maps lesson]: /lessons/googlemaps-googleearth
-  [Wordle word cloud]: http://www.wordle.net/
+  [Wordle word cloud]: https://web.archive.org/web/20201205135940/http://www.wordle.net/
   [cleaning of your data]: /lessons/cleaning-ocrd-text-with-regular-expressions
   [Installing Python Modules with pip]: /lessons/installing-python-modules-pip

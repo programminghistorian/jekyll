@@ -155,7 +155,7 @@ menu-contribute-write:
     title: Author Guidelines
     link: /en/author-guidelines
   es:
-    title: Guía para autores y traductores
+    title: Guía para autores
     link: /es/guia-para-autores
   fr:
     title: Consignes aux auteurs
@@ -167,6 +167,9 @@ menu-contribute-translate:
   en:
     title: Translator Guidelines
     link: /en/translator-guidelines
+  es:
+    title: Guía para traductores
+    link: /es/guia-para-traductores
   fr:
     title: Consignes aux traducteurs
     link: /fr/consignes-traducteurs
@@ -575,7 +578,7 @@ donation-banner:
     en: |
       <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Donate to <i>The Programming Historian</i> today!</a></h2>
     es: |
-      <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">¡Dona ahora a <i>The Programming Historian</i>!</a></h2>
+      <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">¡Haz una donación a <i>The Programming Historian</i>!</a></h2>
     fr: |
       <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Vous pouvez faire une donation au <i>Programming Historian</i></a></h2>
     pt: |

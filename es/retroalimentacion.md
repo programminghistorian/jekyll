@@ -22,11 +22,11 @@ Gracias por tomarte el tiempo de advertirnos de un problema o de sugerir un camb
 
 Contacta a <a href="mailto:vgayol@colmich.edu.mx">Víctor Gayol</a>, <a href="mailto:mariajose@neogranadina.org">Maria José Afanador-Llach</a> o a <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a>. Puedes encontrar más sobre el equipo editorial en [Equipo de proyecto](./equipo-de-proyecto.html).
 
-También nos puedes encontar en Twitter en [@ProgHist](https://twitter.com/proghist).
+También nos puedes encontrar en Twitter en [@ProgHist](https://twitter.com/proghist).
 
 ## Opción 2: inicia un "Issue" en GitHub
 
-Primero, si no tienes una ya,[abre una cuenta personal gratis en GitHub](https://help.github.com/articles/signing-up-for-a-new-github-account). Si ya tienes una cuenta inicia sesión.
+Primero, si no tienes una ya, [abre una cuenta personal gratis en GitHub](https://help.github.com/articles/signing-up-for-a-new-github-account). Si ya tienes una cuenta inicia sesión.
 
 Después ve a la [página de "issues"](https://github.com/programminghistorian/jekyll/issues?state=open) de nuestro Repositorio.
 

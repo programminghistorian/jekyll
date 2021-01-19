@@ -25,13 +25,13 @@ Para el equipo de _The Programming Historian en español_ revisar una traducció
 ## Política antiacoso
 Queremos exponer los principios que rigen _The Programming Historian en español_, así como toda la correspondencia accesible en nuestros fórums entre los revisores, los autores, los editores y otros colaboradores.
 
-_The Programming Historian en español_ tiene como objetivo ofrecer, por un lado, un entorno abierto a la comunidad en el reine la libertad para analizar ideas, hacer preguntas, sugerir cambios o pedir aclaraciones. Por el otro, quiere ser un espacio libre de acoso y violencia hacia cualquiera de los participantes con independencia de su género, identidad, orientación sexual, capacidades, físico, raza, edad, religión o nivel de conocimiento. No toleraremos ningún tipo de acoso, humillación o ataque personal por parte de los colaboradores. Quien, a discreción del equipo editorail, viole este principio será expulsado del proyecto. Si alguna de las partes es testigo o considera que ha sido víctima de un abuso, se recomienda contactar a uno de nuestros mediadores ([Antonio Rojas, Víctor Gayol o Maria José Afanador-Llach](/project-team)).
+_The Programming Historian en español_ tiene como objetivo ofrecer, por un lado, un entorno abierto a la comunidad en el que reine la libertad para analizar ideas, hacer preguntas, sugerir cambios o pedir aclaraciones. Por el otro, quiere ser un espacio libre de acoso y violencia hacia cualquiera de los participantes con independencia de su género, identidad, orientación sexual, capacidades, físico, raza, edad, religión o nivel de conocimiento. No toleraremos ningún tipo de acoso, humillación o ataque personal por parte de los colaboradores. Quien, a discreción del equipo editorial, viole este principio será expulsado del proyecto. Si alguna de las partes es testigo o considera que ha sido víctima de un abuso, se recomienda contactar a uno de nuestros mediadores ([Antonio Rojas, Víctor Gayol o Maria José Afanador-Llach](/project-team)).
 
 ¡Gracias por ayudarnos a crear un espacio seguro para todos y todas!
 
 ## Colaboración, no juicio
 
-Nuestro proceso de revisión es un poco distinto del considerado "tradicional". No solicitamos una revisión para juzgar si un tutorial es suficientemente "bueno"; por el contrario, creemos que los revisores juegan un papel fundalmental para crear recursos de manera colaborativa, productiva y sostenible. Cuando una traducción o un tutorial entra en un nuestro flujo de trabajo, nuestro objetivo es hacer todo lo posible para que los recursos sean útiles y se publiquen en un tiempo razonable.
+Nuestro proceso de revisión es un poco distinto del considerado "tradicional". No solicitamos una revisión para juzgar si un tutorial es suficientemente "bueno"; por el contrario, creemos que los revisores juegan un papel fundamental para crear recursos de manera colaborativa, productiva y sostenible. Cuando una traducción o un tutorial entra en nuestro flujo de trabajo, nuestro objetivo es hacer todo lo posible para que los recursos sean útiles y se publiquen en un tiempo razonable.
 
 ## Críticas constructivas
 
@@ -51,13 +51,13 @@ A menos que nos indiques lo contario, tu nombre aparecerá como revisor en la p�
 
 El estilo informal de _The Programming Historian en español_ puede dar la impresión de que las lecciones son fáciles de traducir o escribir. En realidad, traducir o escribir un buen tutorial exige un esfuerzo tan grande (o mayor) como el necesario para crear un artículo académico.
 
-A continuacion, destacamos una serie de cuestiones que como revisor deberías tener en cuenta. Algunas serán más relevantes que otras en función del tema, el público objetivo o la dificultad del tutorial. No se trata de una lista exhaustiva y tampoco pedimos que los revisores respondan a cada una de las cuestiones sino que nos proporcionen una orientación general.
+A continuación, destacamos una serie de cuestiones que como revisor deberías tener en cuenta. Algunas serán más relevantes que otras en función del tema, el público objetivo o la dificultad del tutorial. No se trata de una lista exhaustiva y tampoco pedimos que los revisores respondan a cada una de las cuestiones sino que nos proporcionen una orientación general.
 
 ### Destinatario
 
 Si has ojeado algunos de los tutoriales de _The Programming Historian en español_, te habrás dado cuenta de que no tenemos un destinatario estándar para todas las lecciones. Algunos tutoriales son para principiantes, otros requieren conocimientos técnicos, e incluso algunos están dirigidos a usuarios experimentados que necesitan resolver un problema muy específico. ¡Nos gusta la variedad!
 
-Aunque cada lección mantenga el estilo de su autor (o traductor), queremos que todas lecciones sean legibles y estén escritas en un registro homogéneo.
+Aunque cada lección mantenga el estilo de su autor (o traductor), queremos que todas las lecciones sean legibles y estén escritas en un registro homogéneo.
 
 ### Traducciones
 
@@ -92,7 +92,7 @@ Por lo que respecta a las lecciones nuevas, queremos que las explicaciones técn
 - ¿Los objetivos y las habilidades previas que se necesitan se exponen de manera clara al inicio del tutorial?
 - ¿Las habilidades derivadas del tutorial son útiles?
 - ¿Las capturas de pantalla y diagramas ilustran los pasos más importantes del tutorial?
-- ¿Las secciones y títulos de sección son claros y guían la lector?
+- ¿Las secciones y títulos de sección son claros y guían al lector?
 
 ### Beneficios
 
@@ -121,4 +121,4 @@ Para aumentar la vida útil de nuestras lecciones, los revisores deben tener en 
 
 ## Cómo enviar tu revisión
 
-Gestionamos todo el proces de revisión, tanto de traducciones como de lecciones nuevas, a través de GitHub. Cuando una traducción o una lección nueva esté lista para ser revisada, un miembro del equipo editorial te facilitará un enlace para que puedas leerlo y un enlace al repositorio en donde podrás publicar tus comentarios. Las conversaciones tienen lugar en GitHub, un entorno gratuito y social, por lo que tendrás que registrate con una cuenta propia para publicar tus comentarios. Te animamos a mantener todas las conversaciones en Github pero ocasionalmente puedes enviar un correo electónico al editor si necesitas comunicarle algo en privado.
+Gestionamos todo el proceso de revisión, tanto de traducciones como de lecciones nuevas, a través de GitHub. Cuando una traducción o una lección nueva esté lista para ser revisada, un miembro del equipo editorial te facilitará un enlace para que puedas leerlo y un enlace al repositorio en donde podrás publicar tus comentarios. Las conversaciones tienen lugar en GitHub, un entorno gratuito y social, por lo que tendrás que registrate con una cuenta propia para publicar tus comentarios. Te animamos a mantener todas las conversaciones en Github pero ocasionalmente puedes enviar un correo electónico al editor si necesitas comunicarle algo en privado.
