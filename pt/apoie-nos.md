@@ -32,6 +32,8 @@ O projecto agradece os seguintes apoios:
   - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/) (2020-...)
   - [Western University](https://www.uwo.ca/) (2020-...)
   - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/) (2020-...)
+  - [Université du Luxembourg](https://www.c2dh.uni.lu/) (2020-...)
+
   
 ## Doações
 
