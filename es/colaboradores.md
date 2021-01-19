@@ -20,6 +20,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [Western University Library](https://www.lib.uwo.ca/), Canadá
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
+- [Université du Luxembourg](https://www.c2dh.uni.lu/), Luxemburgo
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 
