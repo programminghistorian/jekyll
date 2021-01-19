@@ -1,12 +1,12 @@
 ---
 layout: blank
-title: Nuestras Colaboradores
+title: Nuestros colaboradores
 redirect_from: /colaboradores
 ---
 
 # Nuestros colaboradores
 
-*The Programming Historian en español* agradece su apoyo a nuestros seguidores pasados y actuales por permitirnos ofrecer estos recursos al mundo, de forma gratuita en el punto de acceso a los lectores en cualquier lugar.
+*The Programming Historian en español* agradece su apoyo a nuestros seguidores pasados y actuales por permitirnos ofrecer estos recursos al mundo, de forma gratuita en el punto de acceso a lectores en cualquier lugar.
 
 
 ## Instituciones asociadas
