@@ -253,7 +253,7 @@ menu-support-ipp:
     link: /en/ipp
   es:
     title: Programa de Instituciones Asociadas
-    link: /es/apoyanos#programa-de-instituciones-asociadas
+    link: /es/pia
   fr:
     title: Partenariat institutionnel
     link: /fr/nous-soutenir#partenariat-institutionnel
@@ -264,7 +264,7 @@ menu-support-individual:
     link: /en/individual
   es: 
     title: Apóyanos - Donaciones
-    link: /es/apoyanos#donaciones
+    link: /es/donaciones
   fr:
     title: Nous soutenir - Donations
     link: /fr/nous-soutenir#donations
@@ -275,7 +275,7 @@ menu-support-supporters:
     link: /en/supporters
   es:
     title: Colaboradores
-    link: /es/apoyanos#colaboradores
+    link: /es/colaboradores
   fr:
     title: Nos soutiens
     link: /fr/nous-soutenir#nos-soutiens
