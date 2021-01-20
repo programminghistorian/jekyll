@@ -345,7 +345,7 @@ Check the submission preview for any errors or failures to meet our publication 
 
 You need to request a new DOI for the lesson following the steps described in the [Wiki](https://github.com/programminghistorian/jekyll/wiki/How-to-Request-a-new-DOI).
 
-This part of the process should not take you more than one or two days, depending on the time difference you have with the UK (UTC +1). You can start next steps while you wait, but note that builds will initially fail until the DOI has been added to the lesson metadata.
+This part of the process should not take you more than one or two days, depending on the time difference you have with the UK (UTC). You can start next steps while you wait, but note that builds will initially fail until the DOI has been added to the lesson metadata.
 
 ## 3) Move the Files
 
