@@ -421,6 +421,6 @@ Se a compilação falhou, será necessário consultar os logs para ver qual a ra
 
 - Como parte das suas operações normais, o Travis CI ocasionalmente retorna e verifica novamente links antigos em todo o site, incluindo lições antigas. Portanto, pode aparecer um erro causado não pela lição nova, mas por outra página. Se for possível compreender como corrigir imediatamente os erros, basta fazer a correcção e aguardar por uma nova compilação. Se não for possível fazer todas as correcções necessárias para todos os links identificados com erros, depois de verificar que nenhum vem da nova lição, basta [criar uma nova questão](https://github.com/programminghistorian/jekyll/issues/new) para que alguém da equipe técnica possa analisar o problema.
 
-## 6) Informar o Editor-chefe
+## 6) Informar o Editor
 
-Depois da lição estar publicada, deve informar o editor-chefe e verificar que a lição foi adicionada ao bot do twitter.
+Depois da lição estar publicada, deve informar o editor e verificar que a lição foi adicionada ao bot do twitter.
