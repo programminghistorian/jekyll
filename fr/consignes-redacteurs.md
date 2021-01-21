@@ -142,7 +142,7 @@ Vous pouvez vérifier rapidement si tout se présente correctement au cours de l
 
 Si cela ne marche pas, merci d'en informer notre équipe technique qui s'occupera du problème.
 
-### C) Vérifier la pérennité et de l'ouverture internationale
+### C) Vérifier la pérennité et l'ouverture internationale
 
 Pour augmenter la durée de vie de nos leçons, les rédacteurs et rédactrices du _Programming Historian en français_ doivent vérifier que sont réunies certaines conditions qui garantissent la pérennité de la leçon. Certes, les mêmes critères ne peuvent pas nécessairement s'appliquer à tous les dépôts, vu que chaque cas est différent. Toutefois, en tenant compte du niveau de difficulté de chaque leçon et du public auquel il s'adresse, les rédacteurs et les rédactrices peuvent s'appuyer sur les critères suivants pour s'assurer de la longévité des leçons après la date de leur publication.
 
@@ -327,9 +327,13 @@ Le rédacteur ou la rédactrice en chef a la responsabilité de déposer les fic
 
 ## 1) Parcourir l'aperçu de la soumission
 
-Vérifier l'aperçu de la soumission pour repérer des erreurs manifestes, comme des problèmes d'affichage des images ou de formattage. Prévenez-en, le cas échéant, le rédacteur ou la rédactrice en charge de la leçon pour les corriger.
+Vérifiez l'aperçu de la soumission pour repérer des erreurs manifestes, comme des problèmes d'affichage des images ou de formattage. Prévenez-en, le cas échéant, le rédacteur ou la rédactrice en charge de la leçon pour les corriger.
 
-## 2) Transférer les fichiers
+## 2) Solliciter un identifiant DOI
+
+Prenez soin de solliciter un nouveau DOI pour la leçon selon les instructions du Wiki. L'obtenir ne devrait pas vous prendre plus d'un jour ou deux, en fonction du décalage horaire entre votre pays de résidence et le Royaume-Uni (UTC +1). Vous pouvez commencer à réaliser les étapes suivantes en attendant, sachez toutefois que le processus de modification de la page (build) échouera tant que le DOI n'aura pas été ajouté aux metadonnées.
+
+## 3) Transférer les fichiers
 
 Le rédacteur ou la rédactrice aurait dû vous laisser une liste claire, dans le ticket de la soumission, avec les fichiers à être publiés. Si ce n'est pas le cas, demandez que cela s'arrange avant d'aller plus loin.  The editor should have left you a clear list of files that need to be published on the submission ticket. If they have not done so, ask them to fix it before proceeding.
 
@@ -354,7 +358,7 @@ Après le transfert de la leçon dans le répertoire `jekyll`, il faudra aussi a
 4. Copier le dossier qui contient les images de la leçon publiée depuis `images/` vers `images/published/`.
 5. Exécuter les commandes `git add`, `git commit` et `git push` pour finaliser toutes les modifications.
 
-## 3) Vérifier les liens et les en-tête en YAML
+## 4) Vérifier les liens et les en-tête en YAML
 
 Une fois que vous aurez soumis vos modifications à la branche `gh-pages` du dépôt du [programminghistorian][ph_repo], le site web sera automatiquement testé par [Travis CI] ([Continuous Integration]).
 Cette procédure teste trois choses. D'abord, que tout le code en YAML et markdown peut être parsé. Ensuite, que tous les hyperliens du site web pointent vers des pages valides et opérationnelles. Enfin, que les liens internes pointant vers des pages du _Programming Historian_ sont des liens relatifs qui commencent par `/` plutôt que par `https://programminghistorian.org/`
@@ -391,6 +395,6 @@ Si votre compilation a échoué, il est nécessaire de consulter l'historique po
 
 [créer un nouveau ticket]: https://github.com/programminghistorian/jekyll/issues/new
 
-## 4) Tenir au courant le rédacteur ou la rédactrice en charge du suivi éditorial de la leçon
+## 5) Tenir au courant le rédacteur ou la rédactrice en charge du suivi éditorial de la leçon
 
 Lorsque la leçon a été publiée, merci d'en informer le rédacteur ou la rédactrice qui en a assuré le suivi éditorial.

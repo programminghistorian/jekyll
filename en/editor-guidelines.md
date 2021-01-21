@@ -341,7 +341,13 @@ The Managing Editor is responsible for carefully checking the lesson to make sur
 
 Check the submission preview for any errors or failures to meet our publication guidelines. Refer any issues back to the editor.
 
-## 2) Move the Files
+## 2) Request DOI
+
+You need to request a new DOI for the lesson following the steps described in the [Wiki](https://github.com/programminghistorian/jekyll/wiki/How-to-Request-a-new-DOI).
+
+This part of the process should not take you more than one or two days, depending on the time difference you have with the UK (UTC). You can start next steps while you wait, but note that builds will initially fail until the DOI has been added to the lesson metadata.
+
+## 3) Move the Files
 
 The editor should have left you a clear list of files that need to be published on the submission ticket. If they have not done so, ask them to fix it before proceeding.
 
@@ -365,7 +371,7 @@ After the lesson has been moved to the `jekyll` repository, you'll also need to 
 4. Move the image folder containing the images for the now published lesson from `images/` to `images/published/`.
 5. Use `git add`, `git commit`, and `git push` to finalize all the changes (or follow the Making Technical Contributions instructions: https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions)
 
-## 3) Add the author bio to ph_authors.yml
+## 4) Add the author bio to ph_authors.yml
 
 If the lesson has been written by a new author, the managing editor should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). Follow the syntax for the examples already included there, using the bio that the editor provided you:
 
@@ -379,7 +385,7 @@ If the lesson has been written by a new author, the managing editor should add i
           at the University of Saskatchewan.
 ```
 
-## 4) Confirm all links and YAML headers are functioning correctly
+## 5) Confirm all links and YAML headers are functioning correctly
 
 Once you push your changes on to the `gh-pages` branch of the [programminghistorian][ph_repo] repository, the site will be automatically tested by [Travis CI] ([Continuous Integration]).
 This test process checks three things: first, that all YAML and markdown code is parseable; second, that all the hyperlinks on the site point to valid, operational pages; and third, that internal links to pages on the _Programming Historian_ are all relative links that start with `/` rather than `https://programminghistorian.org/`
@@ -416,6 +422,6 @@ If your build has errored, you will need to consult the build logs to see what i
 
 [create a new issue]: https://github.com/programminghistorian/jekyll/issues/new
 
-## 5) Inform the Editor
+## 6) Inform the Editor
 
 Once the lesson has been published, inform the editor and ensure they have added the lesson to the twitter bot pipeline.

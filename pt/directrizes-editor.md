@@ -343,7 +343,13 @@ O Editor-chefe é responsável por verificar cuidadosamente a lição e garantir
 
 Verificar a pré-visualização da proposta quanto a erros ou falhas de acordo com as orientações de publicação. Qualquer problema deve ser remetido ao editor.
 
-## 2) Mover os ficheiros
+## 2) Solicitar o DOI
+
+O editor precisa solicitar um novo DOI para a lição seguindo os passos descritos no [Wiki](https://github.com/programminghistorian/jekyll/wiki/How-to-Request-a-new-DOI).
+
+Esta parte do processo não deve levar mais de um ou dois dias, dependendo da diferença de horário com o Reino Unido. O editor pode iniciar as próximas etapas enquanto espera, mas deve notar que as verificações da página inicialmente falharão até que o DOI seja adicionado aos metadados da lição.
+
+## 3) Mover os ficheiros
 
 O editor deve ter deixado uma lista clara dos ficheiros que precisam de ser publicados na thread de submissão. Se não estiver, é preciso pedir que corrijam antes de continuar.
 
@@ -367,7 +373,7 @@ Após a lição ter sido colocada para o repositório `jekyll`, também é neces
  4. Mover a pasta que contém as imagens da lição agora publicada de `images/` para `images/published/`.
  5. Usar comandos `git add`, `git commit` e `git push` para finalizar todas as alterações (ou seguir as orientações para contribuições técnicas: https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions).
 
-## 3) Adicionar a biografia do autor a ph_authors.yml
+## 4) Adicionar a biografia do autor a ph_authors.yml
 
 Se a lição foi escrita por um autor novo, o editor-chefe deve adicionar informações sobre o autor à [lista de autores](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). É para seguir a sintaxe dos exemplos já colocados, usando a biografia fornecida pelo editor:
 
@@ -381,7 +387,7 @@ Se a lição foi escrita por um autor novo, o editor-chefe deve adicionar inform
           da Universidade do Algarve.
 ```
 
-## 4) Confirmar se todos os links e cabeçalhos YAML funcionam corretamente
+## 5) Confirmar se todos os links e cabeçalhos YAML funcionam corretamente
 
 Depois de enviar as alterações para o ramo `gh-pages` do repositório [programminghistorian](https://github.com/programminghistorian/jekyll), o site será automaticamente testado pelo [Travis CI](https://travis-ci.org)([Continuous Integration](https://www.thoughtworks.com/continuous-integration)).
 O processo de teste verifica três coisas: primeiro, se todo o código YAML e markdown está legível; segundo, que todos os hiperlinks apontam para páginas operacionais válidas; e terceiro, que os links internos para páginas no *Programming Historian em português* são todos links relativos que começam com / em vez de https://programminghistorian.org/pt.
@@ -415,6 +421,6 @@ Se a compilação falhou, será necessário consultar os logs para ver qual a ra
 
 - Como parte das suas operações normais, o Travis CI ocasionalmente retorna e verifica novamente links antigos em todo o site, incluindo lições antigas. Portanto, pode aparecer um erro causado não pela lição nova, mas por outra página. Se for possível compreender como corrigir imediatamente os erros, basta fazer a correcção e aguardar por uma nova compilação. Se não for possível fazer todas as correcções necessárias para todos os links identificados com erros, depois de verificar que nenhum vem da nova lição, basta [criar uma nova questão](https://github.com/programminghistorian/jekyll/issues/new) para que alguém da equipe técnica possa analisar o problema.
 
-## 5) Informar o Editor
+## 6) Informar o Editor
 
 Depois da lição estar publicada, deve informar o editor e verificar que a lição foi adicionada ao bot do twitter.

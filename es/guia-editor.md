@@ -363,19 +363,23 @@ Una vez que se le haya dado la palabra de que al jefe de redacción ha publicado
 
 ¡Por favor, no abandones la lección a su suerte! Ya hemos realizado el trabajo, así que asegurémosnos que ha valido la pena.
 
-## Jefe de redacción - Lista de verificación
+## Jefe/a de redacción - Lista de verificación
 
 ### 1) Haz una lectura rápida
 
-Compruebe la vista previa de la presentación para ver si hay errores obvios como imágenes rotas o formato extraño. Informar al editor de cualquier error, que son responsables de ser arreglados.
+Comprueba la vista previa de la presentación para ver si hay errores obvios como imágenes rotas o formato extraño. Informa al editor de cualquier error, quien es responsables de arreglarlos.
 
-### 2) Mueve el archivo
+### 2) Solicita el DOI
 
-El editor de gestión es responsable de mover los archivos al sitio web principal a través de una 'pull request'. Esta es también una oportunidad para el editor de gestión para familiarizarse con la nueva lección, y para comprobar rápidamente que todo se ve bien.
+Solicita un nuevo DOI para la lección siguiendo los pasos descritos en el [Wiki](https://github.com/programminghistorian/jekyll/wiki/How-to-Request-a-new-DOI). Esta parte del proceso no debería demorar más de uno o dos días, dependiendo de la diferencia horaria que tengas con el Reino Unido (UTC). Puedes avanzar con los siguientes pasos mientras esperas la respuesta, pero ten en cuenta que el build fallará mientras el DOI no sea añadido a los metadatos de la lección.
 
-Sus opciones son:
+### 3) Mueve los archivos
 
-A) Siga nuestras ["Making Technical Contributions" guidelines](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions) que utiliza el sitio web de github GUI.
+El jefe o jefa de redacción es responsable de mover los archivos al sitio web principal a través de un 'pull request'. Esta es también una oportunidad para familiarizarte con la nueva lección, y para comprobar rápidamente que todo se ve bien.
+
+Las opciones son:
+
+A) Sigue nuestra guía para ["hacer contribuciones técnicas"](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions), que utiliza el sitio web de GitHub.
 
 B) La manera más fácil de publicar el texto es utilizar git en tu terminal de línea de comandos. Las siguientes instrucciones presuponen que ya has clonado en tu ordenador los repositorios jekyll y ph-submissions/es (si no es así, nuestra [introducción a GitHub](/lessons/getting-started-with-github-desktop) puedes ser útil). Si tienes alguna duda puedes contactar al equipo técnico.
 
@@ -393,7 +397,7 @@ Después de haber movido la lección al repositorio local de `jekyll` tendrás a
 4. Mueve el directorio de imágenes que contiene las imágenes de la lección ya publicada de `images/` a `images/published/`.
 5. Utiliza `git add`, `git commit`, y `git push` para finalizar todos los cambios (o sigue las instrucciones "Making technical contributions": https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions).
 
-### 3) Añade la biografía del autor a ph_authors.yml
+### 4) Añade la biografía del autor a ph_authors.yml
 Si la lección ha sido escrita por un nuevo autor, el jefe de redacción debe añadir información sobre el autor al directorio [autores](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml) del sitio. Sigue la sintaxis de los ejemplos ya incluidos, utilizando la biografía que el editor le proporcionó:
 
 ```yaml
@@ -404,7 +408,7 @@ Si la lección ha sido escrita por un nuevo autor, el jefe de redacción debe a�
        Jim Clifford es profesor ayudante en el Departamento de Historia de la Universidad de Saskatchewan.
 ```
 
-### 4) Confirma que todos los enlaces y encabezados YAML funcionen correctamente
+### 5) Confirma que todos los enlaces y encabezados YAML funcionen correctamente
 Una vez que envíes tus cambios a la rama `gh-pages` del repositorio de [Programminghistorian][ph_repo], el sitio será comprobado automáticamente por [Travis CI] ([Continuous Integration]).
 
 Este proceso comprueba tres cosas: primero, que todo el código de YAML y markdown sea compilable; segundo, que todos los hipervínculos del sitio apunten a páginas válidas y en funcionamiento; por último, que todos los hipervínculos internos a otras páginas de _The Programming Historian en español_ son relativos y empiezan con una barra lateral `/` en lugar de `https://programminghistorian.org/es`.
