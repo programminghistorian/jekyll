@@ -24,13 +24,17 @@ O projecto agradece os seguintes apoios:
 - Financiamento para apoiar o estabelecimento do *Programming Historian* como uma entidade legal facultado pela [School of History, Art History and Philosophy, University of Sussex](http://www.sussex.ac.uk/hahp/) [2019].
 - Financiamento de um workshop de escrita em Bogotá, Colômbia, apoiado pela [British Academy](https://www.britac.ac.uk/) [2018].
 - Apoio inicial financeiro e de gestão de projeto da *Network in Canadian History & Environment* ([NiCHE](http://niche-canada.org/)) [2011-2013].
-- Os nossos subscritores fundadores do [Patreon](https://www.patreon.com/theprogramminghistorian) Rachel Murphy (nível 'Subscriber'), Miriam Posner (nível 'Sponsor') e Tim Hitchcock (nível 'Patron'). Gostaríamos especialmente de agradecer aos seguintes subscritores do *Programming Historian* de nível [Patreon](https://www.patreon.com/theprogramminghistorian): Tim Hitchcock, Shawn Graham, Jeff Blackadar, Jodi Burkett, Michael Piotrowski, Mark Edwin Peterson, Nickoal Eichmann-Kalwara, Bruno Magalhães.
+- Os nossos subscritores fundadores do [Patreon](https://www.patreon.com/theprogramminghistorian) Rachel Murphy (nível 'Subscriber'), Miriam Posner (nível 'Sponsor') e Tim Hitchcock (nível 'Patron'). Gostaríamos especialmente de agradecer aos seguintes subscritores do *Programming Historian* de nível [Patreon](https://www.patreon.com/theprogramminghistorian): Tim Hitchcock, Shawn Graham, Jeff Blackadar, Jodi Burkett, Michael Piotrowski, Mark Edwin Peterson, Nickoal Eichmann-Kalwara, Bruno Magalhães, Dimitra Koutla.
 - Os membros do nosso [Programa de Parceiros Institucionais](en/support-us#institutional-partner-programme):
   - [KU Leuven Libraries](https://bib.kuleuven.be/) (2020-...)
   - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library) (2020-...)
   - [University of Sussex Library](https://www.sussex.ac.uk/library/) (2020-...)
   - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/) (2020-...)
   - [Western University](https://www.uwo.ca/) (2020-...)
+  - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos (2020-...)
+  - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/) (2020-...)
+  - [Université du Luxembourg](https://www.c2dh.uni.lu/) (2020-...)
+
   
 ## Doações
 

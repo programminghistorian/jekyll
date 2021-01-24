@@ -23,6 +23,10 @@ Le projet est reconnaissant pour leur soutien à:
   - La [bibliothèque de l'Université du Sussex](https://www.sussex.ac.uk/library/) [2020-actuellement]
   - Le [Centre for Data, Culture and Society de l'Université d'Édimbourg](https://www.cdcs.ed.ac.uk/) [2020-actuellement]
   - La [bibliothèque de l'Université Western](https://www.lib.uwo.ca/) [2020-actuellement]
+  - [Corporation for Digital Scholarship](https://digitalscholar.org/), États Unis [2020-actuellement]
+  - La [Centre for Digital Humanities de l'University College London](https://www.ucl.ac.uk/digital-humanities/) [2020-actuellement]
+  - L'[Université du Luxembourg](https://www.c2dh.uni.lu/) [2020-actuellement]
+
   
 - La [bibliothèque de l'Université du Sussex](https://www.sussex.ac.uk/library/) pour la réalisation d'une infrastructure d'attribution d'identifiants DOI [2020-actuellement].
 - [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) et [Andrew W. Mellon Foundation](https://mellon.org/) pour soutenir notre développement web [2018-2020].
@@ -32,7 +36,7 @@ Le projet est reconnaissant pour leur soutien à:
 - La [faculté d'histoire, d'histoire de l'art et de philosophie de l'Université du Sussex](http://www.sussex.ac.uk/hahp/) pour le financement des efforts du Programming Historian de se doter d'un statut juridique [2019].
 - La [British Academy](https://www.britac.ac.uk/) pour le financement d'un atelier d'écriture à Bogota en Colombie [2018].
 - Le Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) pour le soutien de projet émergent et de gestion de projet [2011-2013].
-- Nos donateurs fondateurs [Patreon](https://www.patreon.com/theprogramminghistorian) Rachel Murphy (niveau "Abonné"), Miriam Posner (niveau "Parrain/Marraine") et Tim Hitchcock (niveau "Mécène"). Nous souhaitons remercier tout particulièrement les donateurs de niveau "Mécène" suivants: Tim Hitchcock, Shawn Graham, Jeff Blackadar, Jodi Burkett, Michael Piotrowski, Mark Edwin Peterson, Nickoal Eichmann-Kalwara, Bruno Magalhães.
+- Nos donateurs fondateurs [Patreon](https://www.patreon.com/theprogramminghistorian) Rachel Murphy (niveau "Abonné"), Miriam Posner (niveau "Parrain/Marraine") et Tim Hitchcock (niveau "Mécène"). Nous souhaitons remercier tout particulièrement les donateurs de niveau "Mécène" suivants: Tim Hitchcock, Shawn Graham, Jeff Blackadar, Jodi Burkett, Michael Piotrowski, Mark Edwin Peterson, Nickoal Eichmann-Kalwara, Bruno Magalhães, Dimitra Koutla.
 
  
 ## Donations
