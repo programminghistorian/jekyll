@@ -468,6 +468,11 @@ translation-editors:
   es: traducción editada por
   fr: suivi de traduction par
   pt: tradução editada por
+lesson-testers:
+  en: tested by
+  es: 
+  fr: 
+  pt: 
 published:
   en: published
   es: publicado
@@ -488,6 +493,11 @@ retired-date:
   es: retirada
   fr: retrait
   pt: retirado
+tested-date:
+  en: tested
+  es: 
+  fr: 
+  pt: 
 difficulty:
   en: difficulty
   es: dificultad
