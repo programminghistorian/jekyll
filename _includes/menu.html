@@ -28,7 +28,6 @@ match the new entry you made in `_data/snippets.yml`
   </button>
   <a class="navbar-brand" href="{{site.baseurl}}{{site.data.snippets.menu-home[page.lang]}}">The Programming
     Historian</a>
-    {% include contrast-toggle.html %}
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="nav navbar-nav ml-auto w-100 justify-content-end" role="menubar">
       <li class="nav-item dropdown mobile-drop" role="menu">
@@ -133,9 +132,37 @@ match the new entry you made in `_data/snippets.yml`
           {% endfor %}
         </div>
       </li>
+      <li class="nav-item" id="low-contrast-button">
+        <div class="btn-group">
+          <a class="btn btn-secondary nav-link" role="button">
+            <i class="fas fa-moon"></i>
+          </a>
+        </div>
+      </li>
     </ul>
   </div>
   <!--</div>-->
 </nav>
 
 <nav class="hide-print print-header navbar-brand">The Programming Historian </nav>
+
+<script>
+  function setTheme(currentTheme) {
+    themeButton.className = currentTheme === 'day' ? "fas fa-moon" : "fas fa-sun";
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    sessionStorage.setItem('theme', currentTheme);
+  }
+
+  const themeButton = document.getElementById('low-contrast-button').getElementsByTagName('i')[0];
+
+  let theme = sessionStorage.getItem('theme') === null ? 'day' : sessionStorage.getItem('theme');
+
+  setTheme(theme);
+
+  document.getElementById('low-contrast-button').onclick = function(event){
+    theme = document.getElementById('low-contrast-button').getElementsByTagName('i')[0].className.includes('moon') ?
+    'night' : 'day';
+    setTheme(theme);
+  }
+
+</script>
