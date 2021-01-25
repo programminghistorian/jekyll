@@ -158,13 +158,13 @@ As you look at the output, you will see that machine translation and OCR require
 
 The results for Example One demonstrate how important the quality of the input image is. The image from Example One is both skewed and has significant noise. The presence of speckles, dark streaks, and broken lettering make it difficult for the program to classify letters. The skew makes it difficult for the program to recognize lines of text. The combination of the two sources of error produces a very poor transcription. 
 
-{% include figure.html filename="http://programminghistorian.github.io/ph-submissions/images/OCR-and-Machine-Translation/OCR-and-Machine-Translation-1.jpg" caption="Figure 1: Our transcription of Example One" %}
+{% include figure.html filename="OCR-and-Machine-Translation-1.jpg" caption="Figure 1: Our transcription of Example One" %}
 
 The results for Example Two demonstrate that even with a good image, your initial transcription and translation will still contain errors. Example Two has some errant handwriting, but is generally free of noise and is not skewed. Even if the conversion of the image into text has relatively few errors, machines may not understand how to correctly translate every word. For example, the translation of Example Two's second page has the erroneous translation, "The party's connection to the owls." (see Figure 2) This error comes from the abbreviation "сов." is short for "советский" (Soviet). However, the translator recognized the abbreviation as "сов" for owl. A human reader could recognize the period as a sign that the word is an abbreviation and fill in the rest of the word based on context. Even though the OCR program correctly transcribed the period, the translator did not understand what to do with it. 
 
-{% include figure.html filename="http://programminghistorian.github.io/ph-submissions/images/OCR-and-Machine-Translation/OCR-and-Machine-Translation-2.jpg" caption="Figure 2: The owl sentence in Russian" %}
+{% include figure.html filename="OCR-and-Machine-Translation-2.jpg" caption="Figure 2: The owl sentence in Russian" %}
 
-{% include figure.html filename="http://programminghistorian.github.io/ph-submissions/images/OCR-and-Machine-Translation/OCR-and-Machine-Translation-2-5.jpg" caption="Figure 3: The owl sentence is translated" %}
+{% include figure.html filename="OCR-and-Machine-Translation-2-5.jpg" caption="Figure 3: The owl sentence is translated" %}
 
 Another problem in the translation are the hyphens. While Tesseract correctly transcribed the hyphens, neither Tesseract nor Yandex understood their purpose. While the hyphen tells the reader to follow the word onto the next line, both programs treated the two halves as separate words. Obviously you can delete the hyphens individually, but that is tedious. One way to deal with this is to create a a short regular expression script to [(See the Programming Historial “Cleaning OCR’d Text with Regular Expressions” tutorial.)](/en/lessons/cleaning-ocrd-text-with-regular-expressions) to delete the hyphen and join the two lines.
 
@@ -176,13 +176,13 @@ If a sentence ends in a hyphen, the following `sed` script below will delete the
 
 ```sed -e :a -e '/-$/N; s/-\n//; ta' INPUT.txt```
 
-{% include figure.html filename="http://programminghistorian.github.io/ph-submissions/images/OCR-and-Machine-Translation/OCR-and-Machine-Translation-3.jpg" caption="Figure 4: Our passage after a little editing" %}
+{% include figure.html filename="OCR-and-Machine-Translation-3.jpg" caption="Figure 4: Our passage after a little editing" %}
 
 Much like the other commands shown previously, you can keep a list of `sed` commands in a longer script and apply them to other documents you OCR. 
 
 After making the above edits, put your edited transcription back through the translation API. Look at the improvement to the sentence about owls. You can see how a few edits can radically improve the quality of our translations. 
 
-{% include figure.html filename="http://programminghistorian.github.io/ph-submissions/images/OCR-and-Machine-Translation/OCR-and-Machine-Translation-4.jpg" caption="Firgure 5: The improved translation" %}
+{% include figure.html filename="OCR-and-Machine-Translation-4.jpg" caption="Firgure 5: The improved translation" %}
  
 # Other Possibilities with Scripting and ImageMagick 
 
@@ -222,7 +222,7 @@ convert $fl -despeckle -despeckle -despeckle -despeckle -despeckle $fl
 This script will take the provided file name and perform the `despeckle` operation on it five times. The output will replace the original input file. As before, make sure the you are in the correct [working directory](https://en.wikipedia.org/wiki/Working_directory) as the file you specify must be in your working directory. 
 
 The following figure illustrates what Example One will look like after cropping, deskewing, and repeated despeckling:
-{% include figure.html filename="http://programminghistorian.github.io/ph-submissions/images/OCR-and-Machine-Translation/OCR-and-Machine-Translation-5-resize.jpg" caption="Figure 6: The new and improved version of Example One" %}
+{% include figure.html filename="OCR-and-Machine-Translation-5-resize.jpg" caption="Figure 6: The new and improved version of Example One" %}
 
 ## Organize your documents
 Scripting can also help you organize your documents. For example, a common problem for archival work is managing and organizing the thousands of images taken during an archival trip. Perhaps the biggest problem is cataloguing files by archival location. Digital cameras and smartphones assign photos a filename that looks something like `IMG_XXXX.JPG`. This filename does not tell you where that picture came from or what it contains. Instead, you might want each picture to be labeled according to the archive where it was taken. You can use a file's [metadata](https://en.wikipedia.org/wiki/Metadata) to write a script that renames files according to their archive. 
