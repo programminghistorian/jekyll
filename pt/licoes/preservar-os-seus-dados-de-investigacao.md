@@ -27,7 +27,7 @@ abstract: "Esta lição irá sugerir maneiras pelas quais os historiadores podem
 redirect_from: /lessons/preserving-your-research-data
 original: preserving-your-research-data
 avatar_alt: A large barrel
-
+doi: 10.46430/phpt0001
 ---
 
 {% include toc.html %}
