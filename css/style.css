@@ -1006,14 +1006,14 @@ a {
 
 /*Simple css to style it like a toggle switch*/
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
   /* phones */
   #low-contrast-button {
     margin-left: 0;
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 991.98px) {
   /* screens */
   #low-contrast-button {
     margin-left: 1em;
