@@ -28,24 +28,19 @@ skip_concordance: true
 		</item>
 		{% endfor %}
 
-				{% assign pages = site.pages | where:'layout','lesson'| where: 'lang', 'en' | sort:'date' | reverse %}
+{% for lang in site.data.snippets.language-list %}
+				{% assign pages = site.pages | where:'layout','lesson'| where: 'lang', lang | sort:'date' | reverse %}
 				{% for page in pages limit:10 %}
 						{% include feed-item.html %}
 				{% endfor %}
+{% endfor %}
 
-				{% assign pages = site.pages | where:'layout','lesson'|  where:'lang','es' | sort:'translation_date' | reverse %}
+{% for lang in site.data.snippets.language-list %}
+				{% assign pages = site.pages | where:'layout','lesson'|  where:'lang',lang | sort:'translation_date' | reverse %}
 				{% for page in pages limit:10 %}
 						{% include feed-item.html %}
 				{% endfor %}
+{% endfor %}
 
-				{% assign pages = site.pages | where:'layout','lesson'|  where:'lang','fr' | sort:'translation_date' | reverse %}
-				{% for page in pages limit:10 %}
-						{% include feed-item.html %}
-				{% endfor %}
-
-				{% assign pages = site.pages | where:'layout','lesson'|  where:'lang','pt' | sort:'translation_date' | reverse %}
-				{% for page in pages limit:10 %}
-						{% include feed-item.html %}
-				{% endfor %}
 	</channel>
 </rss>
