@@ -10,7 +10,7 @@ original: lesson-requests
 
 # Solicitações para nova lição
 
-O Conselho Editorial do Programming Historian em português gostaria de receber os seguintes tópicos de lições originais de potenciais autores. Qualquer pessoa interessada deve antes consultar as Diretrizes do autor [Directrizes para autores](/pt/directrizes-autores) para obter mais informações:  
+O Conselho Editorial do Programming Historian em português gostaria de receber os seguintes tópicos de lições originais de potenciais autores. Qualquer pessoa interessada deve antes consultar as Diretrizes do autor [Directrizes para autores](/pt/directrizes-autor) para obter mais informações:  
 
 1. Como aplicar métodos de agrupamento espacial de dados geográficos?
 
