@@ -61,5 +61,5 @@ Independente da forma como gostaria de se envolver no projeto, pode sempre envia
 
 Obrigado pela sua ajuda em melhorar o _Programming Historian em português_!
 
- [submissions]: {{site.baseurl}}/directrizes-autor
- [reviewers]: {{site.baseurl}}/directrizes-revisor
+ [submissions]: {{site.baseurl}}/pt/directrizes-autor
+ [reviewers]: {{site.baseurl}}/pt/directrizes-revisor

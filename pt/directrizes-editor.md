@@ -19,7 +19,7 @@ Obrigado por editar uma lição para o *Programming Historian em português*. So
 
 
 
-Incentivamos sempre potenciais autores ou tradutores de lições a apresentar as suas ideias antes de começarem a escrever. Se uma proposta não é adequada para o *Programming Historian em português*, o papel do editor é informar o autor antes que ele tenha escrito a lição completa. Queremos com isto poupar o tempo e a energia de todos. Uma vez conversado com o autor e encorajadas as suas ideias, o objetivo é apoiar o autor até que a lição esteja pronta para publicar. O objetivo é ajudá-lo da forma mais eficiente possível e com directrizes claras. Para isso pode ser útil conhecer as nossas [diretrizes para autores](/directrizes-autor).
+Incentivamos sempre potenciais autores ou tradutores de lições a apresentar as suas ideias antes de começarem a escrever. Se uma proposta não é adequada para o *Programming Historian em português*, o papel do editor é informar o autor antes que ele tenha escrito a lição completa. Queremos com isto poupar o tempo e a energia de todos. Uma vez conversado com o autor e encorajadas as suas ideias, o objetivo é apoiar o autor até que a lição esteja pronta para publicar. O objetivo é ajudá-lo da forma mais eficiente possível e com directrizes claras. Para isso pode ser útil conhecer as nossas [diretrizes para autores](/pt/directrizes-autor).
 
 ### Espaços seguros
 O *Programming Historian em português* compromete-se em manter um espaço seguro para a troca de ideias, onde todos possam falar sem medo de assédio ou abuso. O editor desempenha um papel fundamental ao garantir a tolerância neste espaço. O trabalho inclui reforçar permanentemente a nossa política anti-assédio. Se for preciso ajuda, basta perguntar a um dos outros editores ou à ombudsperson do PH (a indicar). Para saber mais, pode ler sobre o [compromisso com espaços seguros](/posts/PH-commitment-to-diversity) no blog do projeto.
@@ -53,7 +53,7 @@ O editor é incentivado a ajustar o texto para refletir quaisquer metas ou requi
 Quando os materiais da lição estiverem prontos para envio, o autor entrará em contato com o editor designado, cujo trabalho será enviá-los para o [repositório de submissões](https://github.com/programminghistorian/ph-submissions) após a primeira verificação para garantir que não haja problemas importantes de metadados.
 
 1. **Carregar a lição**: a lição em si deve ser enviada para a subpasta apropriada (dependendo se é uma lição original ou uma tradução) da [pasta de lições](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/pt) dentro da pasta de idioma correspondente na raiz do repositório ph-submissions. Se precisar de ajuda, consulte as [instruções do GitHub](https://help.github.com/articles/adding-a-file-to-a-repository/).
-2. **Carregar imagens**: se a lição incluir imagens, certifique-se de que todos os arquivos sejam nomeados de acordo com as convenções de nomenclatura especificadas nas [diretrizes para autores](/directrizes-autor). O editor deve criar uma pasta para as imagens no [diretório de imagens](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). Esta pasta deve ter o mesmo nome do ficheiro da lição. Faça upload das imagens para esta pasta.
+2. **Carregar imagens**: se a lição incluir imagens, certifique-se de que todos os arquivos sejam nomeados de acordo com as convenções de nomenclatura especificadas nas [diretrizes para autores](/pt/directrizes-autor). O editor deve criar uma pasta para as imagens no [diretório de imagens](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). Esta pasta deve ter o mesmo nome do ficheiro da lição. Faça upload das imagens para esta pasta.
 3. **Carregar dados**: se a lição incluir ficheiros de dados, eles devem ser enviados para uma pasta com nome semelhante no [diretório de recursos](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets).
 
 Após o upload, o editor deve verificar o [histórico de commits do repositório](https://github.com/programminghistorian/ph-submissions/commits/gh-pages) para garantir que o upload recebeu uma marca de seleção verde. Se não, algo deu errado e o [wiki](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions#checking-travis-for-errors) deve ser consultado para solucionar os erros. Após o envio bem sucedido da lição, o editor criará um ticket de revisão para a lição e fechará o issue da proposta. A partir daqui o editor deve garantir que o autor trabalha a partir da versão mais recente da lição no repositório e carrega as alterações diretamente no GitHub.
@@ -61,7 +61,7 @@ Após o upload, o editor deve verificar o [histórico de commits do repositório
 ### Revisão por pares aberta
 O *Programming Historian em português* usa um modelo de revisão por pares aberta. Embora acreditando que isto incentiva a civilidade e a partilha produtiva de ideias, os autores têm o direito (e tem que ser respeitado) de solicitar uma revisão por pares fechada. Há muitas razões pelas quais alguém pode hesitar em participar numa revisão aberta e queremos que os autores escolham a opção com que se sentem mais confortáveis.
 
-Antes de solicitar revisões externas, o editor deve ler e experimentar o tutorial da lição e usar da sua experiência com o Programming Historian em português para ajudar o autor a fazer melhorias (se necessário). Não se espera que o editor seja um especialista no conteúdo da lição, esse é o papel dos [revisores](/directrizes-revisor).
+Antes de solicitar revisões externas, o editor deve ler e experimentar o tutorial da lição e usar da sua experiência com o Programming Historian em português para ajudar o autor a fazer melhorias (se necessário). Não se espera que o editor seja um especialista no conteúdo da lição, esse é o papel dos [revisores](/pt/directrizes-revisor).
 
 O editor deve ter uma visão geral para a sustentabilidade da lição e garantir que estão identificadas as versões, dependências e requisitos do software, as capturas de tela estão limitadas às necessárias para concluir a lição e que existe referência à documentação do próprio software (se disponível e apropriada). Os editores também devem garantir que as lições evitem, na medida do possível, instruções específicas do software, como "Clique com o botão direito do mouse no ícone x para aceder ao menu x", e sim favorecer visões gerais metodológicas. A [lista de validação editorial](#c-sustainability-review) contém mais detalhes sobre práticas de sustentabilidade do Programming Historian em português.
 
@@ -82,7 +82,7 @@ Para cada potencial revisor que for contactado, independemente da sua resposta, 
 
 Por favor, coloque as datas com o formato: `mm/dd/aaaa`
 
-Ao convidar revisores, o editor deve fornecer as [diretrizes para revisores](/directrizes-revisor) e um prazo para concluir a revisão (geralmente um mês) para garantir a publicação eficiente da lição.
+Ao convidar revisores, o editor deve fornecer as [diretrizes para revisores](/pt/directrizes-revisor) e um prazo para concluir a revisão (geralmente um mês) para garantir a publicação eficiente da lição.
 
 Quando a lição for submetida, o editor abrirá uma nova 'issue' no nosso [repositório de questões do GitHub](https://github.com/programminghistorian/ph-submissions/issues) onde irá ocorrer a revisão aberta. Este quadro de mensagens permite que todos acompanhem a conversa. Todos os envolvidos (autor, editor e os revisores) devem ter uma conta gratuita no GitHub.
 
@@ -127,7 +127,7 @@ Com o resumo das revisões e todas as instruções finais, convém lembrar o aut
 
 ## Processo técnico de revisão - Lista de verificação editorial
 
-A revisão por pares é realizada no nosso [repositório de submissões](https://github.com/programminghistorian/ph-submissions). Instruções completas sobre como fazer o upload dos ficheiros, incluindo os formatos dos ficheiros e orientações para a formatação, podem ser encontradas nas [directrizes para os autores](/directrizes-autor), que estarão sempre atualizadas. É bom estar familiarizado com estas etapas e consultá-las sempre que necessário. Se for preciso ajuda, não hesite em enviar um [email diretamente para outro editor](/equipe).
+A revisão por pares é realizada no nosso [repositório de submissões](https://github.com/programminghistorian/ph-submissions). Instruções completas sobre como fazer o upload dos ficheiros, incluindo os formatos dos ficheiros e orientações para a formatação, podem ser encontradas nas [directrizes para os autores](/pt/directrizes-autor), que estarão sempre atualizadas. É bom estar familiarizado com estas etapas e consultá-las sempre que necessário. Se for preciso ajuda, não hesite em enviar um [email diretamente para outro editor](/pt/equipe).
 
 Existem áreas em que o editor deve intervir do ponto de vista técnico. Estas são:
 
@@ -146,7 +146,7 @@ Depois de escolher um nome para o ficheiro da lição, o mesmo será usado para 
 
 ### B) Verificação inicial da pontuação Markdown
 
-Os autores são responsáveis por verificar se a lição foi processada corretamente no Markdown. Se as regras de sintaxe tiverem sido seguidas não devem aparecer problemas. Se algum símbolo de Markdown aparecer na página é porque existe algum erro. Instruções detalhadas sobre sintaxe do Markdown estão disponíveis nas nossas [diretrizes para o autor](/directrizes-autor).
+Os autores são responsáveis por verificar se a lição foi processada corretamente no Markdown. Se as regras de sintaxe tiverem sido seguidas não devem aparecer problemas. Se algum símbolo de Markdown aparecer na página é porque existe algum erro. Instruções detalhadas sobre sintaxe do Markdown estão disponíveis nas nossas [diretrizes para o autor](/pt/directrizes-autor).
 
 Esta verificação pode ser feita rapidamente na pré-visualização da versão compilada da página. Disponível em:
 
@@ -184,7 +184,7 @@ Se uma lição usar um sistema de nomeação de imagem seqüencial, é possível
 
 Independentemente de como as imagens são nomeadas (semântica ou sequencialmente), elas devem ser colocadas num subdiretório no diretório `images`. O subdiretório deve ser nomeado usando o mesmo slug de URL usado para nomear a lição. Verifique se as imagens estão em formatos compatíveis com a Web, como PNG ou JPEG, e dimensionadas adequadamente (em termos de pixels e bytes).
 
-Instruções completas sobre como adicionar imagens estão disponíveis nas [Diretrizes para o autor](/directrizes-autor).
+Instruções completas sobre como adicionar imagens estão disponíveis nas [Diretrizes para o autor](/pt/directrizes-autor).
 
 ### E) Verificar datasets
 
@@ -285,7 +285,7 @@ difficulty: 2
 
 ### 4) Encontrar uma imagem para representar a lição
 
-Representamos as lições usando uma imagem antiga que consideramos capturar alguns elementos da tarefa descrita no tutorial. O exemplo de todas as lições pode ser visto no [diretório principal das lições](/lições/). Estas imagens são selecionadas pelos editores.
+Representamos as lições usando uma imagem antiga que consideramos capturar alguns elementos da tarefa descrita no tutorial. O exemplo de todas as lições pode ser visto no [diretório principal das lições](/pt/licoes/). Estas imagens são selecionadas pelos editores.
 
 Aqui estão alguns locais para procurar imagens para a lição:
 
@@ -294,7 +294,7 @@ Aqui estão alguns locais para procurar imagens para a lição:
  - [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
-É preciso verificar se a imagem corresponde ao estilo das anteriores (deve ser uma imagem de livro, não uma fotografia), ter pelo menos 200 pixels em ambas as dimensões e não ter restrições de direitos de autor. A imagem não pode ser ofensiva e, seguir o nosso [compromisso com a diversidade](/posts/compromissodePHcomadiversidade). Convém encontrar algo que não perpetue estereótipos ou tenha uma mensagem subliminar de machismo ou superioridade branca.
+É preciso verificar se a imagem corresponde ao estilo das anteriores (deve ser uma imagem de livro, não uma fotografia), ter pelo menos 200 pixels em ambas as dimensões e não ter restrições de direitos de autor. A imagem não pode ser ofensiva e deve seguir o nosso [compromisso com a diversidade (em inglês)](/posts/PH-commitment-to-diversity). Convém encontrar algo que não perpetue estereótipos ou tenha uma mensagem subliminar de machismo ou superioridade branca.
 
 É necessário salvar a imagem original. O nome do ficheiro deve ser correspondente com a slug da URL da lição seguido de original no final e o tipo de ficheiro deve ser .png. Por exemplo, a lição “Cleaning Data with OpenRefine” possui o slug da URL `cleaning-data-with-openrefine`, portanto o nome do ficheiro da imagem original deve ser `cleaning-data-with-openrefine-original.png`.
 

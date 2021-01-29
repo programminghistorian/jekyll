@@ -10,7 +10,7 @@ original: about
 ## Revisto por pares
 Todos os tutoriais do _Programming Historian em Português_ são rigorosamente revistos por pares, sob a supervisão de um dos nossos editores. A revisão envolve uma colaboração próxima com o editor da lição para garantir que atenda aos objetivos estabelecidos e que todos os conceitos sejam bem explicados para um leitor não especialista, antes do tutorial ser enviado para revisores externos.
 
-O processo de revisão é um componente essencial de um esforço colaborativo, produtivo e sustentável de académicos e pesquisadores que ensinam e aprendem uns com os outros. Assim que um tutorial inicia o nosso [fluxo editorial]({{site.baseurl}}/directrizes-autor), fazemos todo o esforço para garantir que ele seja o mais útil possível e que seja publicado em um período de tempo razoável. Consulte as nossas [diretrizes para revisores]({{site.baseurl}}/directrizes-revisor) para mais informação.
+O processo de revisão é um componente essencial de um esforço colaborativo, produtivo e sustentável de académicos e pesquisadores que ensinam e aprendem uns com os outros. Assim que um tutorial inicia o nosso [fluxo editorial]({{site.baseurl}}/pt/directrizes-autor), fazemos todo o esforço para garantir que ele seja o mais útil possível e que seja publicado em um período de tempo razoável. Consulte as nossas [diretrizes para revisores]({{site.baseurl}}/pt/directrizes-revisor) para mais informação.
 
 
 ## Código Aberto
@@ -33,7 +33,7 @@ A equipe do _Programming Historian em Português_ está empenhada com a diversid
 
 The _Programming Historian_ é um projeto internacional impulsionado por voluntários, cujas atividades financeiras são administradas pela ProgHist Limited, uma empresa sem fins lucrativos limitada por uma garantia registrada na Inglaterra, com o Número de Empresa [12192946](https://beta.companieshouse.gov.uk/company/12192946). É um projeto publicado pelo _Conselho Editorial do Programming Historian_.
 
-Veja a página ['Apoie o projeto']({{site.baseurl}}/apoie-nos) para uma lista dos nossos financiadores e apoios.
+Veja a página ['Apoie o projeto']({{site.baseurl}}/pt/apoie-nos) para uma lista dos nossos financiadores e apoios.
 
 
 ## História do Projeto
