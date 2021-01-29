@@ -1,9 +1,9 @@
 ---
 title: Preservar os seus dados de investigação
 layout: lesson
-slug: preservar-os-seus-dados-de-investigação
+slug: preservar-os-seus-dados-de-investigacao
 date: 2014-04-30
-translation_date: 2020-11-16
+translation_date: 2021-01-29
 authors:
 - James Baker
 reviewers:
