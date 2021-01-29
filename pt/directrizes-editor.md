@@ -294,7 +294,7 @@ Aqui estão alguns locais para procurar imagens para a lição:
  - [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
-É preciso verificar se a imagem corresponde ao estilo das anteriores (deve ser uma imagem de livro, não uma fotografia), ter pelo menos 200 pixels em ambas as dimensões e não ter restrições de direitos de autor. A imagem não pode ser ofensiva e, seguir o nosso [compromisso com a diversidade](/posts/compromissodePHcomadiversidade). Convém encontrar algo que não perpetue estereótipos ou tenha uma mensagem subliminar de machismo ou superioridade branca.
+É preciso verificar se a imagem corresponde ao estilo das anteriores (deve ser uma imagem de livro, não uma fotografia), ter pelo menos 200 pixels em ambas as dimensões e não ter restrições de direitos de autor. A imagem não pode ser ofensiva e deve seguir o nosso [compromisso com a diversidade (em inglês)](/posts/PH-commitment-to-diversity). Convém encontrar algo que não perpetue estereótipos ou tenha uma mensagem subliminar de machismo ou superioridade branca.
 
 É necessário salvar a imagem original. O nome do ficheiro deve ser correspondente com a slug da URL da lição seguido de original no final e o tipo de ficheiro deve ser .png. Por exemplo, a lição “Cleaning Data with OpenRefine” possui o slug da URL `cleaning-data-with-openrefine`, portanto o nome do ficheiro da imagem original deve ser `cleaning-data-with-openrefine-original.png`.
 
