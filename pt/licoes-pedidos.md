@@ -10,13 +10,13 @@ original: lesson-requests
 
 # Solicitações para nova lição
 
-O Conselho Editorial do Programming Historian em português gostaria de receber os seguintes tópicos de lições originais de potenciais autores. Qualquer pessoa interessada deve antes consultar as Diretrizes do autor [Directrizes para autores](/pt/directrizes-autor) para obter mais informações:  
+O Conselho Editorial do _Programming Historian em português_ gostaria de receber os seguintes tópicos de lições originais de potenciais autores ou traduções de lições já existentes nas versões inglesa, espanhola ou francesa. Qualquer pessoa interessada deve antes consultar as [Directrizes para autores](/pt/directrizes-autor) para obter mais informações:  
 
 1. Como aplicar métodos de agrupamento espacial de dados geográficos?
 
     Temos um ótimo conjunto de lições introdutórias para mapeamento de dados geográficos.  Embora sejam boas para ensinar a criar visualizações, ainda não permitem o aprofundamento em técnicas de análise mais avançadas. Uma das lições mais úteis aborda a aplicação de algoritmos de agrupamento (análise de cluster), que identificam grupos lógicos de pontos individuais no espaço geográfico. Útil para tirar conclusões sobre qualquer tema, do comércio à migração. Mas, como em todas as análises, é um espaço repleto de armadilhas para os não iniciados. Procuramos uma boa introdução que destaque os pontos fortes e os desafios dessa forma de análise.
 
-2. Como saber se a análise de rede é significativa?
+2. Como saber se a análise de redes é significativa?
 
     Temos solicitado lições deste tipo, porém ainda não recebemos uma versão completa. Já conseguimos ensinar a criar um ótimo diagrama de redes, como avançamos para o próximo passo e tiramos conclusões significativas? Trata-se de começar com a elaboração de um gráfico e mudar para o modo de análise. Se puder ajudar nossos leitores a dar esse passo, queremos ouvi-lo.
 
