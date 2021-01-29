@@ -20,7 +20,7 @@ translation-reviewer:
 - Maria Guedes
 - Elizabeth Freire
 difficulty: 1
-review-ticket: programminghistorian/ph-submissions/issues/319
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/319
 activity: sustaining
 topics: [data-management]
 abstract: "Esta lição irá sugerir maneiras pelas quais os historiadores podem documentar e estruturar os seus dados de pesquisa, a fim de garantir que continuem sendo acessíveis no futuro."
