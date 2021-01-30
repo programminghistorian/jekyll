@@ -21,7 +21,7 @@ Uma última palavra de agradecimento a todos os participantes no nosso [Programa
 
 Não queríamos perder a notícia de que, além disso, *Programming Historian em português* nasceu no 25º aniversário do aparecimento da primeira página em Português:
 
-<img src="/images/blog/first-web-in-portuguese.png" alt="Capture of the first website available in Portuguese with a map of Portugal, from 1996" title="*“[«Home Page" de Portugal ](https://arquivo.pt/wayback/19961013145852/http:/s700.uminho.pt/homepage-pt.html)*"/> 
+<img src="/images/blog/first-web-in-portuguese.png" alt="Capture of the first website available in Portuguese with a map of Portugal, from 1996" title="Home Page de Portugal"/> 
 
 *Imagem: Captura de ecrã da “[«Home Page» de Portugal / Portugal Home Page](https://arquivo.pt/wayback/19961013145852/http:/s700.uminho.pt/homepage-pt.html)”, 1996. Página mais antiga da Internet portuguesa com referência a Portugal preservada no Arquivo da Web Portuguesa – [Arquivo.PT](https://arquivo.pt/).* 
 
