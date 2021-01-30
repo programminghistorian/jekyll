@@ -230,7 +230,7 @@ Para inserir uma imagem no seu texto, use o seguinte formato:
 
 {% raw %}
 ``` markdown
-{% include figure.html filename="IMAGE-FILENAME" caption="YOUR CAPTION USING \"ESCAPED\" QUOTES" %}
+{% include figure.html filename="NOME-DO-FICHEIRO-DE-IMAGEM" caption="A LEGENDA USANDO \"BARRAS\" PARA SALTAR ASPAS INTERNAS" %}
 ```
 {% endraw %}
 
@@ -275,14 +275,13 @@ Recomendamos estas práticas ao escrever o código:
 
 Verificar se o ficheiro da lição está de acordo com as especificações acima. Quando terminado, é altamente recomendável pedir a pelo menos duas pessoas para ler a lição e experimentar o tutorial, para dar feedback e garantir que é entendido por todos. Desta maneira ajuda os revisores a concentrarem-se em produzir uma lição tão consistente quanto possível.
 
-Se a lição está pronta a submeter, segue-se a revisão por pares. As submissões são feitas no site de revisão por pares no [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
+Se a lição está pronta a submeter, segue-se a revisão por pares. As submissões são feitas enviando materiais por e-mail para o editor, para que ele possa carregá-los no nosso site de revisão por pares no [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
 
-1. **Acesso ao GitHub**: criar uma [conta gratuita](https://github.com/join). Envie o seu nome de usuário ao editor, que lhe dará acesso ao nosso repositório. Informar o editor do nome do ficheiro da lição e se possui imagens ou ficheiros de dados que acompanham o tutorial.
-3. **Enviar a lição**: depois do editor confirmar o acesso ao site, é necessário colocar a lição na [pasta das lições](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). Em caso de dúvida  consultar as [instruções do GitHub](https://help.github.com/articles/adding-a-file-to-a-repository/).
-4. **Enviar imagens**: se a lição incluir imagens, verifique se todos os ficheiros foram nomeados de acordo com as regras especificadas acima. O editor deve ter criado uma pasta para fazer o upload na [diretório de imagens](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). Esta pasta deve ter o mesmo nome do ficheiro da lição. Carregue as imagens nesta pasta. Caso não visualize a pasta, entre em contato com o editor e aguarde instruções.
-5. **Enviar dados**: se a lição incluir ficheiros de dados, estes devem ser colocados da mesma forma que as imagens. Deverá existir uma pasta com o nome da lição no [diretório assets](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets).
-6. **Enviar um email ao editor** para que ele saiba que os ficheiros foram enviados.
-
+1. **Obter acesso**: criar uma [conta gratuita](https://github.com/join). Enviar o nome de usuário Github para o editor, que dará acesso de upload ao nosso site de submissões. Informar o editor do nome do ficheiro da lição e se há imagens ou ficheiros de dados que acompanhem o tutorial. O autor não fará o upload inicial para o GitHub, mas precisará de acesso para postar revisões subsequentes.
+2. **Preparar os materiais**: se a lição incluir imagens, certificar-se de que todos os ficheiros estão nomeados de acordo com as convenções de nomenclatura especificadas acima. Essas imagens devem ser enviadas numa única pasta compactada. Se a lição incluir ficheiros de dados, eles devem ser enviados noutra pasta compactada.
+3. **Enviar um e-mail ao editor**: informar o editor de que está pronto para enviar a lição. Este e-mail deve incluir o ficheiro da lição, bem como as pastas de imagens e recursos, se aplicável.
+4. **Juntar-se à conversa**: o editor irá enviar os ficheiros para o nosso [diretório de submissões](https://github.com/programminghistorian/ph-submissions) e fazer as alterações iniciais necessárias. O editor abrirá também um ticket de revisão para a lição.
+5. **Fazer revisões**: o upload da lição inicial será realizado pelo editor designado, mas o processo editorial exigirá que o autor faça outras alterações. Todas as revisões subsequentes devem ser feitas pelo autor diretamente nos ficheiros do nosso repositório de submissões para garantir que se esteja a trabalhar com a versão mais recente do ficheiro da lição.
 
 ## O processo de revisão por pares
 
@@ -298,7 +297,7 @@ O processo de revisão por pares normalmente tem três etapas:
 
 3) Quando o editor e revisores estiverem satisfeitos com a lição, o editor recomendará a publicação ao Editor Chefe, que irá ler e garantir que corresponde às Directrizes para Autores e aos padrões do *Programming Historian*. Em alguns casos, podem haver revisões adicionais ou edições nesta fase para alinhar a peça aos padrões de publicação. Se o Editor Chefe estiver satisfeito com a lição, ela será copiada para o site online. Quando isto acontecer o editor irá comunicar se qualquer informação adicional for necessária nesta fase.
 
-Pode ser útil ler as [directrizes para editores](pt/directrizes-editor), que apresentam mais detalhes sobre todo o processo  editorial.
+Pode ser útil ler as [directrizes para editores](/pt/directrizes-editor), que apresentam mais detalhes sobre todo o processo editorial.
 
 Se, a qualquer momento, tiver dúvidas do seu papel ou o que fazer a seguir, basta publicar a pergunta na discussão da revisão por pares. Qualquer um dos nossos editores responderá assim que possível. A equipa esforça-se por responder a todas as perguntas dentro de poucos dias.
 

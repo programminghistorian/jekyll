@@ -113,11 +113,11 @@ python interpreter you care to use.
 If you prefer to install pip using the windows command line, navigate to
 whatever directory you’ve placed python and get-pip.py. For this
 example, we’ll assume this directory is python27, so we’ll use the
-command C:\\\>cd python27. Once you are in this directory, run the
+command C:\\\>cd python27. Once you are in this directory, to install pip run the
 command
 
 ``` bash
-python get-pip.py to install pip
+python get-pip.py
 ```
 
 If you want more information or help with a weird error message, check out the [StackOverflow

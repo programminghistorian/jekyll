@@ -107,6 +107,8 @@
       New Mexico.
     es: |
       Fred Gibbs es profesor de Historia en la Universidad de Nuevo México.
+    fr: |
+      Fred Gibbs est professeur d'histoire à l'Université du Nouveau-Mexique.
     pt: |
       Fred Gibbs é professor assistente de História na University of New Mexico.
 
@@ -1641,17 +1643,17 @@
   orcid: 0000-0002-3541-8197
   team: true
   team_start: 2020
-  institution: Universidade Nova de Lisboa
+  institution: Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa
   sortname: Alves
   affiliation:
     en: |
-      Universidade Nova de Lisboa, Portugal.
+      Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
     pt: |
-      Universidade Nova de Lisboa, Portugal.
+      Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
     es: |
-      Universidade Nova de Lisboa, Portugal.
+      Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
     fr: |
-      Universidade Nova de Lisboa, Portugal.
+      Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
   bio:
     en: |
       Daniel Alves is Assistant Professor in the Department of History and researcher at the Institute of Contemporary History, both at NOVA-FCSH, Universidade Nova de Lisboa. He coordinates the Digital Humanities Lab at NOVA-FCSH.
@@ -1813,17 +1815,17 @@
   github: daniellesanchesDH
   team: true
   team_start: 2020
-  institution: Universidade Nova de Lisboa
+  institution: Fundação Getúlio Vargas
   sortname: Sanches
   affiliation:
     en: |
-        University Nova de Lisboa, Portugal.
+        Fundação Getúlio Vargas, Brasil.
     pt: |
-        Universidade Nova de Lisboa, Portugal.
+        Fundação Getúlio Vargas, Brasil.
     es: |
-        Universidad Nova de Lisboa, Portugal.
+        Fundação Getúlio Vargas, Brasil.
     fr: |
-        Université nouvelle de Lisbonne, Portugal.
+        Fundação Getúlio Vargas, Brasil.
   bio:
     en: |
         Danielle Sanches holds a PhD in History of Science from the EHESS/Paris and is a collaborator researcher at the Digital Humanities Laboratory (LabHD) at NOVA-FCSH, at University Nova de Lisboa, Portugal.

@@ -50,7 +50,13 @@ The main editorial contact for this lesson is [EDITOR USERNAME]. If there are an
 
 The editor is encouraged to adjust the issue text to reflect any additional goals or requirements agreed upon between the author(s) and editor.
 
-Upon successful submission of the lesson, the editor will create a review ticket for the lesson and close the proposal issue.
+When the lesson materials are ready for submission, the author will contact their assigned editor, whose job will be to upload them to the [ph-submissions repository](https://github.com/programminghistorian/ph-submissions) after first checking to ensure that there are no major metadata issues. 
+
+1. **Uploading the Lesson**: the lesson itself should be uploaded to the appropriate subfolder (depending on whether it is an original lesson or a translation) of the [lessons folder](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/en) within the corresponding language folder in the root of the ph-submissions repository. If you need help, see [GitHub's instructions](https://help.github.com/articles/adding-a-file-to-a-repository/).
+2. **Uploading Images**: if the lesson includes images, make sure all of the files are named according to the naming conventions specified in the [author guidelines](/author-guidelines). The editor should create a folder for the images in the  [images directory](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). This folder should have the same name as the lesson filename. Upload the images to this folder.
+3. **Uploading Data**: if the lesson includes data files, they should be uploaded to a similarly named folder in the [assets directory](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets).
+
+After uploading, the editor should check the [commit history for the repository](https://github.com/programminghistorian/ph-submissions/commits/gh-pages) to ensure that their upload received a green check mark. If not, something went wrong and the [wiki](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions#checking-travis-for-errors) should be consulted for troubleshooting the errors. Upon successful submission of the lesson, the editor will create a review ticket for the lesson and close the proposal issue. From here on, the editor should ensure that the author work from the latest version of the lesson in the repository and upload changes directly to GitHub themselves. 
 
 ### Open Peer Review
 The *Programming Historian* uses a model of open peer review, while we believe this helps maintain civility and the productive sharing of ideas, authors have the right (and we have a requirement to respect that right) to request a closed peer review. There are many reasons why someone might be hesitant to engage in an open review and we encourage authors to always pursue the option with which they are most comfortable.
@@ -87,7 +93,7 @@ Your first comment on the message board for a given tutorial review should use o
 ```
 The Programming Historian has received the following tutorial on '[LESSON TITLE]' by [AUTHOR GITHUB USERNAME]. This lesson is now under review and can be read at:
 
-http://programminghistorian.github.io/ph-submissions/lessons/[URL to lesson]
+http://programminghistorian.github.io/ph-submissions/en/["lessons" or "translations"]/[URL to lesson]
 
 I will act as editor for the review process. My role is to solicit two reviews from the community and to manage the discussions, which should be held here on this forum. I have already read through the lesson and provided feedback, to which the author has responded.
 
@@ -142,9 +148,9 @@ Authors are responsible for checking that their lesson has rendered properly in 
 
 You can quickly check that everything looks correct on a lesson submission by looking at the rendered version of the page. It will be found at:
 
-`http://programminghistorian.github.io/ph-submissions/lessons/FILENAME-HERE`  (note - no .md at the end)
+`http://programminghistorian.github.io/ph-submissions/en/lessons/FILENAME-HERE`  (note - no .md at the end)
 
-If that doesn't work, let the technical team know, and they will try to diagnose it.
+Note that if it is a translation you would substitute "translations" for "lessons". If that doesn't work, let the technical team know, and they will try to diagnose it.
 
 ### C) Sustainability & Internationalization Review
 To increase the lifespan of our lessons, _Programming Historian_ editors should complete a sustainability review as a part of their final checklist. Every submission is different and some of these areas may not be applicable to all submissions. Keeping in mind the difficulty level of each lesson and its intended audience, editors should use these areas as guidelines to ensure that lessons are as sustainable as possible from the date of publication.
@@ -335,7 +341,13 @@ The Managing Editor is responsible for carefully checking the lesson to make sur
 
 Check the submission preview for any errors or failures to meet our publication guidelines. Refer any issues back to the editor.
 
-## 2) Move the Files
+## 2) Request DOI
+
+You need to request a new DOI for the lesson following the steps described in the [Wiki](https://github.com/programminghistorian/jekyll/wiki/How-to-Request-a-new-DOI).
+
+This part of the process should not take you more than one or two days, depending on the time difference you have with the UK (UTC). You can start next steps while you wait, but note that builds will initially fail until the DOI has been added to the lesson metadata.
+
+## 3) Move the Files
 
 The editor should have left you a clear list of files that need to be published on the submission ticket. If they have not done so, ask them to fix it before proceeding.
 
@@ -359,7 +371,7 @@ After the lesson has been moved to the `jekyll` repository, you'll also need to 
 4. Move the image folder containing the images for the now published lesson from `images/` to `images/published/`.
 5. Use `git add`, `git commit`, and `git push` to finalize all the changes (or follow the Making Technical Contributions instructions: https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions)
 
-## 3) Add the author bio to ph_authors.yml
+## 4) Add the author bio to ph_authors.yml
 
 If the lesson has been written by a new author, the managing editor should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). Follow the syntax for the examples already included there, using the bio that the editor provided you:
 
@@ -373,7 +385,7 @@ If the lesson has been written by a new author, the managing editor should add i
           at the University of Saskatchewan.
 ```
 
-## 4) Confirm all links and YAML headers are functioning correctly
+## 5) Confirm all links and YAML headers are functioning correctly
 
 Once you push your changes on to the `gh-pages` branch of the [programminghistorian][ph_repo] repository, the site will be automatically tested by [Travis CI] ([Continuous Integration]).
 This test process checks three things: first, that all YAML and markdown code is parseable; second, that all the hyperlinks on the site point to valid, operational pages; and third, that internal links to pages on the _Programming Historian_ are all relative links that start with `/` rather than `https://programminghistorian.org/`
@@ -410,6 +422,6 @@ If your build has errored, you will need to consult the build logs to see what i
 
 [create a new issue]: https://github.com/programminghistorian/jekyll/issues/new
 
-## 5) Inform the Editor
+## 6) Inform the Editor
 
 Once the lesson has been published, inform the editor and ensure they have added the lesson to the twitter bot pipeline.

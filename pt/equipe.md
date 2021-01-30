@@ -5,7 +5,7 @@ original: project-team
 ---
 
 # Equipe do Projeto
-Por favor, envie a mensagem em primeira instância para:
+Por favor, envie uma mensagem em primeira instância para:
 
 {% include managing-editor-loop.html %}
 

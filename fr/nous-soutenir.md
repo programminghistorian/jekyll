@@ -23,7 +23,10 @@ Le projet est reconnaissant pour leur soutien à:
   - La [bibliothèque de l'Université du Sussex](https://www.sussex.ac.uk/library/) [2020-actuellement]
   - Le [Centre for Data, Culture and Society de l'Université d'Édimbourg](https://www.cdcs.ed.ac.uk/) [2020-actuellement]
   - La [bibliothèque de l'Université Western](https://www.lib.uwo.ca/) [2020-actuellement]
+  - [Corporation for Digital Scholarship](https://digitalscholar.org/), États Unis [2020-actuellement]
   - La [Centre for Digital Humanities de l'University College London](https://www.ucl.ac.uk/digital-humanities/) [2020-actuellement]
+  - L'[Université du Luxembourg](https://www.c2dh.uni.lu/) [2020-actuellement]
+
   
 - La [bibliothèque de l'Université du Sussex](https://www.sussex.ac.uk/library/) pour la réalisation d'une infrastructure d'attribution d'identifiants DOI [2020-actuellement].
 - [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) et [Andrew W. Mellon Foundation](https://mellon.org/) pour soutenir notre développement web [2018-2020].

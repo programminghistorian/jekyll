@@ -83,10 +83,10 @@ Como en los sistemas operativos anteriores, la manera más fácil de instalar pi
 
 Una vez guardes el archivo, necesitas ejecutarlo, lo cual puedes hacer de dos maneras. Si prefieres utilizar tu intérprete de Python, solamente haz click con el botón derecho sobre el archivo `get-pip.py` y selecciona "abrir con" y luego selecciona el intérprete de Python que suelas utilizar.
 
-Si prefieres instalar pip utilizando la terminal de línea de comandos, navega al directorio en el que pusiste Python y obtén `get-pip.py`. Para este ejemplo asumimos el directorio `python27`, así que usa el comando `C:\>cd python27`. Una vez que estés en este directorio, ejecuta el comando:
+Si prefieres instalar pip utilizando la terminal de línea de comandos, navega al directorio en el que pusiste Python y obtén `get-pip.py`. Para este ejemplo asumimos el directorio `python27`, así que usa el comando `C:\>cd python27`. Una vez que estés en este directorio, para instalar pip ejecuta el comando:
 
 ```bash
-python get-pip.py to install pip
+python get-pip.py
 ```
 
 Si buscas más información consulta la página de [StackOverflow][] que parece estar actualizada de manera regular.
