@@ -8,6 +8,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+
+      - name: 💎 setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+
       - name: Build jekyll site
         uses: helaili/jekyll-action@v2
         with:
@@ -20,20 +26,20 @@ jobs:
       #     github_token: ${{ secrets.GITHUB_TOKEN }}
       #     branch: ${{ github.ref }}
 
-      - name: Check HTML
-        uses: chabad360/htmlproofer@master
-        with:
-          directory: "./_site"
-          # The directory to scan
-          arguments: 
-            --assume-extension \
-            --empty-alt-ignore \
-            --alt-ignore '/.*/' \
-            --file-ignore '/.+/assets/.*/','/.+/retired/.*/', '/.+/retirada/.*/', '/.+/retrait/.*/' \
-            --timeframe '30d' \
-            --only-4xx \
-            --http-status-ignore 429,403,400 \
-            --url-ignore '/http://www.gutenberg.org/*/','/https://github.com/programminghistorian/jekyll/(commits|blob)/*/','/\#/',"/espanol/","/deprecated/",'/collection.britishmuseum.org/','/analytics.hathitrust.org/','/fr.wikipedia.org/wiki/'
+      # - name: Check HTML
+      #   uses: chabad360/htmlproofer@master
+      #   with:
+      #     directory: "./_site"
+      #     # The directory to scan
+      #     arguments: 
+      #       --assume-extension \
+      #       --empty-alt-ignore \
+      #       --alt-ignore '/.*/' \
+      #       --file-ignore '/.+/assets/.*/','/.+/retired/.*/', '/.+/retirada/.*/', '/.+/retrait/.*/' \
+      #       --timeframe '30d' \
+      #       --only-4xx \
+      #       --http-status-ignore 429,403,400 \
+      #       --url-ignore '/http://www.gutenberg.org/*/','/https://github.com/programminghistorian/jekyll/(commits|blob)/*/','/\#/',"/espanol/","/deprecated/",'/collection.britishmuseum.org/','/analytics.hathitrust.org/','/fr.wikipedia.org/wiki/'
           # The arguments to pass to HTMLProofer
 
       # - name: Push changes (not PR)
