@@ -1,13 +1,38 @@
 ---
 skip_concordance: true
 ---
+/* =============================================================================
+Color Styles
+========================================================================== */
+
+:root {
+  --primary-color: #302AE6;
+  --secondary-color: #536390;
+  --primary-header-color: #333;
+  --secondary-header-color: #fff;
+  --font-color: #666;
+  --secondary-font-color: #eee;
+  --bg-color: #fff;
+  --secondary-bg-color: #27b;
+  --tertiary-bg-color: #289;
+  --heading-color: #292922;
+}
+
+[data-theme="night"] {
+  --primary-color: #9A97F3;
+  --secondary-color: #818cab;
+  --primary-header-color: #e1e1ff;
+  --font-color: #fff;
+  --bg-color: #161625;
+  --heading-color: #818cab;
+}
 
 @media screen {
 
   body {
     font-family: 'Quattrocento', Verdana, sans-serif;
     font-size:16px;
-    background-color:#ffffff;
+    background-color: var(--bg-color);
   }
 
   .container {
@@ -58,13 +83,13 @@ Home Page
 
   .home-block {
     padding:3rem 0;
-    color:#666;
+    color: var(--font-color);
   }
 
   .home-block h2 {
     margin:0;
     font-size:2.8rem;
-    color:#333;
+    color: var(--primary-header-color);
     text-align:center;
   }
 
@@ -81,12 +106,12 @@ Home Page
   }
 
   .home-stripe-1 {
-    color:#eee;
-    background:#27b;
+    color: var(--secondary-font-color);
+    background: var(--secondary-bg-color);
   }
 
   .home-stripe-1 h2, .home-stripe-2 h2 {
-    color:#fff;
+    color: var(--secondary-header-color);
   }
 
   .home-stripe-1 a:visited, .home-stripe-1 a:link {
@@ -95,7 +120,7 @@ Home Page
 
   .home-stripe-2 {
     color:#fff;
-    background:#289;
+    background:var(--tertiary-bg-color);
   }
 
   .home-stripe-2 a:visited, .home-stripe-2 a:link {
@@ -153,7 +178,7 @@ Lesson Headers
     padding:0;
     font-family:'Roboto', sans-serif;
     color:#ccc;
-    background: #efefef;
+    background: var(--bg-color);
     border-top:1px solid #333;
     border-bottom:1px solid #333;
     text-align:left;
@@ -175,7 +200,7 @@ Lesson Headers
   header h2 {
     font-family:'Roboto', sans-serif;
     font-size:1.2rem;
-    color:#333;
+    color: var(--primary-header-color);
     margin: 1.5rem 0 1.5rem 0rem;
     text-align:left;
   }
@@ -185,7 +210,7 @@ Lesson Headers
     text-transform:uppercase;
     font-variant:small-caps;
     letter-spacing:80%;
-    color:#666;
+    color: var(--font-color);
     margin:.3rem 0 0 0;
     padding:0;
   }
@@ -206,7 +231,7 @@ Lesson Headers
 
   header .header-abstract {
     font: 1rem/1.4rem 'Roboto', sans-serif;
-    color:#666;
+    color: var(--font-color);
     margin:1rem 0;
   }
 
@@ -234,7 +259,7 @@ Lesson Headers
 
   header .peer-review, header .open-license {
     font-size: 0.9rem;
-    color: #666;
+    color: var(--font-color);
     margin: 0;
   }
 
@@ -448,7 +473,7 @@ Lessons Index
    h2.results-title {
      margin:1rem 0;
      font: 1.6rem/2rem 'Roboto Condensed';
-     color:#666;
+     color: var(--font-color);
      text-transform:uppercase;
    }
 
@@ -673,6 +698,7 @@ Lesson Typography
     margin-bottom:1.5rem;
     letter-spacing:-.03rem;
     text-align:center;
+    color: var(--primary-header-color)
   }
 
   h2 {
@@ -786,14 +812,14 @@ Figures
     font-family:'Roboto Condensed';
     font-weight: 600;
     font-size:1.2rem;
-    color: #666;
+    color: var(--font-color);
     text-transform:uppercase;
   }
 
   .author-description p, .suggested-citation-text p {
     font-size:0.9rem;
     font-family:'Open Sans';
-    color: #666;
+    color: var(--font-color);
   }
 
   /* =============================================================================
@@ -971,30 +997,18 @@ Footer
   }
 }
 
-:root {
-    --primary-color: #302AE6;
-    --secondary-color: #536390;
-    --font-color: #424242;
-    --bg-color: #fff;
-    --heading-color: #292922;
-}
-
-[data-theme="night"] {
-    --primary-color: #9A97F3;
-    --secondary-color: #818cab;
-    --font-color: #e1e1ff;
-    --bg-color: #161625;
-    --heading-color: #818cab;
-}
-
 body {
     background-color: var(--bg-color);
     color: var(--font-color);
 }
 
-h1 {
+/* h1 {
     color: var(--secondary-color);
-}
+} */
+
+/* h2, p {
+  color: var(--font-color);
+} */
 
 a {
     color: var(--primary-color);
