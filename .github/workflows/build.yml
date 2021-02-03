@@ -15,9 +15,9 @@ jobs:
           ruby-version: 2.6
 
       - name: Jekyll build
-      run: |
-        bundle install
-        bundle exec jekyll build
+        run: |
+          bundle install
+          bundle exec jekyll build
 
       # - name: Push changes
       #   uses: ad-m/github-push-action@master
