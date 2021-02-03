@@ -1,0 +1,50 @@
+name: Build Programming Historian
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Build jekyll site
+      - uses: helaili/jekyll-action@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        build_only: true
+
+      # - name: Push changes
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     branch: ${{ github.ref }}
+
+      - name: Check HTML
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: "./_site"
+          # The directory to scan
+          arguments: 
+            --assume-extension \
+            --empty-alt-ignore \
+            --alt-ignore '/.*/' \
+            --file-ignore '/.+/assets/.*/','/.+/retired/.*/', '/.+/retirada/.*/', '/.+/retrait/.*/' \
+            --timeframe '30d' \
+            --only-4xx \
+            --http-status-ignore 429,403,400 \
+            --url-ignore '/http://www.gutenberg.org/*/','/https://github.com/programminghistorian/jekyll/(commits|blob)/*/','/\#/',"/espanol/","/deprecated/",'/collection.britishmuseum.org/','/analytics.hathitrust.org/','/fr.wikipedia.org/wiki/'
+          # The arguments to pass to HTMLProofer
+
+      # - name: Push changes (not PR)
+      #   if: github.event_name != 'pull_request'
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     branch: ${{ github.ref }}
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Push changes (PR)
+      #   if: github.event_name == 'pull_request'
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     branch: refs/heads/${{ github.head_ref }}
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
