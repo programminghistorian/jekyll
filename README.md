@@ -2,7 +2,7 @@
 ---
 This is the main repository for the _Programming Historian_ (<http://programminghistorian.org>), where we keep the files for the live website. 
 
-For tutorials in submission, please see: [_Programming Historian Submissions_](https://github.com/programminghistorian/zoe).
+For tutorials in submission, please see: [_Programming Historian Submissions_](https://github.com/programminghistorian/ph-submissions).
 
 If you have suggestions for the site or project, please click on the [Issues Tab](https://github.com/programminghistorian/jekyll/issues) above, and click [New Issue](https://github.com/programminghistorian/jekyll/issues/new) to describe your idea. Please note this will be public. If you would like to correspond with us privately, please contact [one of the current managing editors listed on our Project Team page](https://programminghistorian.org/en/project-team).
 
