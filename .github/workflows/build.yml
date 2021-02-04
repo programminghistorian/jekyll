@@ -1,6 +1,8 @@
 name: build_programming_historian
 
-on: [push]
+on:
+  pull_request:
+    types: [ assigned, opened, synchronize, reopened, closed ]
 
 jobs:
   build:
@@ -40,7 +42,7 @@ jobs:
         timeout-minutes: 1
 
       - name: Trigger next workflow
-        if: success() && github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
+        if: success() && github.event.action == 'closed'
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
