@@ -219,7 +219,7 @@ At the top of your Python module, you're going to want to import some python mod
 
 2. Also: `from pprint import pprint`. `pprint` is just a pretty-printer for python objects like lists and dictionaries. You'll want it because python dictionaries are much easier to read if they are formatted.
 
-3. And: `from collections import Counter`. We'll want this for the [Find and normalize footnote markers and texts](#footnotes) section below. This is not really necessary, but we'll do some counting that would require a lot of lines of fiddly code and this will save us the trouble. The collections module has lots of deep magic in it and is well worth getting familiar with. (Again, see Doug Hellmann's PyMOTW for the [collections](http://pymotw.com/2/collections/index.html#module-collections) module. I should also point out that his book [*The Python Standard Library By Example*](http://doughellmann.com/pages/python-standard-library-by-example.html) is one well worth having.)
+3. And: `from collections import Counter`. We'll want this for the [Find and normalize footnote markers and texts](#footnotes) section below. This is not really necessary, but we'll do some counting that would require a lot of lines of fiddly code and this will save us the trouble. The collections module has lots of deep magic in it and is well worth getting familiar with. (Again, see Doug Hellmann's PyMOTW for the [collections](http://pymotw.com/2/collections/index.html#module-collections) module. I should also point out that his book [*The Python Standard Library By Example*](https://doughellmann.com/books/the-python-3-standard-library-by-example/) is one well worth having.)
 
 ## A very brief review of regular expressions as they are implemented in python
 
