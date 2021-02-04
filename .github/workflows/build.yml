@@ -1,4 +1,4 @@
-name: Build Programming Historian
+name: build_programming_historian
 
 on: [push]
 
