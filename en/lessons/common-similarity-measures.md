@@ -33,7 +33,7 @@ Statistical measures of similarity allow scholars to think computationally about
 
 ## Suggested Prior Skills
 
-Though this lesson is primarily geared toward understanding the underlying principles of these calculations, it does assume some familiarity with the Python programming language. Code for this tutorial is written in Python3.6 and uses the Pandas (v0.25.3) and SciPy (v1.3.3) libraries to calculate distances, though it's possible to calculate these same distances using other libraries and other programming languages. For the text processing tasks, you will also use scikit-learn (v0.21.2). I recommend you work through [the *Programming Historian*'s introductory Python lessons](/en/lessons/introduction-and-installation/zoe) if you are not already familiar with Python.
+Though this lesson is primarily geared toward understanding the underlying principles of these calculations, it does assume some familiarity with the Python programming language. Code for this tutorial is written in Python3.6 and uses the Pandas (v0.25.3) and SciPy (v1.3.3) libraries to calculate distances, though it's possible to calculate these same distances using other libraries and other programming languages. For the text processing tasks, you will also use scikit-learn (v0.21.2). I recommend you work through [the *Programming Historian*'s introductory Python lessons](/en/lessons/introduction-and-installation) if you are not already familiar with Python.
 
 ## Installation and Setup
 
