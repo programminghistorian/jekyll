@@ -39,15 +39,12 @@ jobs:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         timeout-minutes: 1
 
-      # - name: Push changes (not PR)
-      #   if: github.event_name != 'pull_request'
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     branch: ${{ github.ref }}
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      # - name: Push changes (PR)
-      #   if: github.event_name == 'pull_request'
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     branch: refs/heads/${{ github.head_ref }}
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Trigger next workflow
+        if: success() && github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: programminghistorian/search-index
+          event-type: trigger-search-build
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+
