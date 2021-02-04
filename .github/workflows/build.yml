@@ -24,15 +24,7 @@ jobs:
         with:
           directory: "./_site"
           # The directory to scan
-          arguments: 
-            --assume-extension \
-            --empty-alt-ignore \
-            --alt-ignore '/.*/' \
-            --file-ignore '/.+/assets/.*/','/.+/retired/.*/', '/.+/retirada/.*/', '/.+/retrait/.*/' \
-            --timeframe '30d' \
-            --only-4xx \
-            --http-status-ignore 429,403,400 \
-            --url-ignore '/http://www.gutenberg.org/*/','/https://github.com/programminghistorian/jekyll/(commits|blob)/*/','/\#/',"/espanol/","/deprecated/",'/collection.britishmuseum.org/','/analytics.hathitrust.org/','/fr.wikipedia.org/wiki/'
+          arguments: --assume-extension --empty-alt-ignore --alt-ignore '/.*/' --file-ignore '/.+/assets/.*/','/.+/retired/.*/', '/.+/retirada/.*/', '/.+/retrait/.*/' --timeframe '30d' --only-4xx --http-status-ignore 429,403,400 --url-ignore '/http://www.gutenberg.org/*/','/https://github.com/programminghistorian/jekyll/(commits|blob)/*/','/\#/',"/espanol/","/deprecated/",'/collection.britishmuseum.org/','/analytics.hathitrust.org/','/fr.wikipedia.org/wiki/'
           # The arguments to pass to HTMLProofer
 
       # - name: Push changes (not PR)
