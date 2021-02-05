@@ -43,9 +43,10 @@ Estamos muy agradecidos a todos los patrocinadores individuales que contribuyen 
 
 - Rachel Murphy ('Subscriptor')
 - Miriam Posner ('Sponsor')
+- Laura Gayle Green ('Educator')
 - Tim Hitchcock ('Macenas')
 
-En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Mecenas':
+En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Mecenas' y 'Educator':
 
 - Tim Hitchcock
 - Shawn Graham
@@ -56,6 +57,8 @@ En particular, agradecemos la contribución de los siguientes suscriptores de Pa
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 - Dimitra Koutla
+- Laura Gayle Green ('Educator')
+- Rebecca Kahn ('Educator')
 
 ## Administración de donaciones y patrocinios
 
