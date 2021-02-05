@@ -318,7 +318,7 @@ issn:
   en: 2397-2068
   es: 2517-5769
   fr: 2631-9462
-  pt: PENDENTE
+  pt: 2753-9296
 
 # site footer
 footer:
@@ -330,7 +330,7 @@ footer:
     fr: |
       _The Programming Historian en français_ (ISSN: 2631-9462) est publié sous licence [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.fr).
     pt: |
-      _The Programming Historian em português_ (ISSN: PENDENTE) é publicado com uma licença [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.pt).
+      _The Programming Historian em português_ (ISSN: 2753-9296) é publicado com uma licença [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.pt).
   financial:
     en: |
       This project is administered by ProgHist Limited, Company Number [12192946](https://beta.companieshouse.gov.uk/company/12192946).
