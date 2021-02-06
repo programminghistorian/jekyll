@@ -86,7 +86,7 @@ three quotation marks (see below).
 ``` python
 # write-html.py
 
-f = open('helloworld.html','wb')
+f = open('helloworld.html','w')
 
 message = """<html>
 <head></head>
@@ -136,7 +136,7 @@ want something inside the directory (rather than the directory itself).
 # write-html-2-mac.py
 import webbrowser
 
-f = open('helloworld.html','wb')
+f = open('helloworld.html','w')
 
 message = """<html>
 <head></head>
@@ -161,7 +161,7 @@ filename path correctly.
 
 import webbrowser
 
-f = open('helloworld.html','wb')
+f = open('helloworld.html','w')
 
 message = """<html>
 <head></head>

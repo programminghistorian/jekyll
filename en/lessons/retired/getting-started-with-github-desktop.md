@@ -106,7 +106,7 @@ Using version control has become pretty well established in some scientific disc
 
 * [The Programming Historian](https://github.com/programminghistorian/jekyll) which uses GitHub in the work-flow of managing the [journal](https://github.com/programminghistorian/jekyll/issues), [lessons](/author-guidelines) and [producing the site.](/posts/how-we-moved-to-github)
 * [Python Programming for the Humanities](https://github.com/fbkarsdorp/python-course) is a tutorial introducing the Python programming language.
-* [ProfHacker](http://chronicle.com/blogs/profhacker/tag/github) has posts on various projects on using GitHub in an academic context.
+* [ProfHacker](https://www.chronicle.com/search?q=github) has posts on various projects on using GitHub in an academic context.
 
 New projects pop up regularly and many open source tools which you may use in for digital humanities will be hosted on GitHub, so understanding GitHub may also be useful for using these tools more easily.
 
@@ -339,6 +339,6 @@ GitHub Desktop offers an easy way of getting started with GitHub and version con
 * [Atlassian](https://www.atlassian.com/git/tutorials): Some in-depth but clear tutorials on using git. There is a focus on explaining the differences between git and other version control systems which may not be relevant but will help you understand the inner workings of git in greater detail.
 * [Pro Git](https://git-scm.com/book/en/v2): A book on Git. Begins with the basics and later covers more advanced usage of Git.
 * For [students](https://education.github.com/pack) and [researchers](https://github.com/blog/1840-improving-github-for-science) GitHub offers free private repositories. These repositories may be useful for early drafts of work or for managing notes which are never intended to becoming public. Note: it might not be a good idea to store things which are very sensitive on GitHub even in a private repository.
-* [ProfHacker](http://chronicle.com/blogs/profhacker/tag/github) has posts on various projects on using GitHub in an academic context.
+* [ProfHacker](https://www.chronicle.com/search?q=github) has posts on various projects on using GitHub in an academic context.
 * [GitHub, Academia, and Collaborative Writing](https://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing) discusses using GitHub for collaborative writing.
 * [Introduction to the Bash Command Line](/lessons/intro-to-bash) introduces the command line which will be useful preparation for using GitHub on the command line.

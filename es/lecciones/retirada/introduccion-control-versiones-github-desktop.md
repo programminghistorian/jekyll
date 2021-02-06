@@ -110,7 +110,7 @@ Utilizar un control de versiones se ha consolidado en algunas disciplinas cient�
 
 * [The Programming Historian en español](https://github.com/programminghistorian/jekyll) utiliza GitHub en su flujo de trabajo para gestionar la [revista](https://github.com/programminghistorian/jekyll/issues), las [lecciones](/es/guia-para-autores) y para producir la [web](/posts/how-we-moved-to-github).
 * [Python Programming for the Humanities](https://github.com/fbkarsdorp/python-course) es un tutorial introductorio sobre el lenguaje de programación Python.
-* [ProfHacker](http://chronicle.com/blogs/profhacker/tag/github) ha publicado varias entradas de blog sobre proyectos que usan GitHub en un contexto académico.
+* [ProfHacker](https://www.chronicle.com/search?q=github) ha publicado varias entradas de blog sobre proyectos que usan GitHub en un contexto académico.
 
 Nuevos proyectos surgen de manera constante y muchas de las herramientas que utilizas en las humanidades digitales se hospedan en GitHub; por este motivo, GitHub puede ser útil para utilizar con mayor facilidad alguna de estas herramientas.
 
