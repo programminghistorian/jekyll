@@ -1,0 +1,24 @@
+# Proposta de nova lição para o Programming Historian
+
+Se estiver interessado em escrever uma lição e enviá-la ao Programming Historian, preencha este formulário para fornecer ao Conselho Editorial detalhes suficientes para comentar a sua ideia. Se tiver dificuldades com o formulário, pode entrar em contato com o nosso Editor-chefe diretamente: 
+
+Inglês: Sarah Melton (sarah.melton@bc.edu)
+Espanhol: Riva Quiroga (riva.quiroga@uc.cl)
+Francês: Sofia Papastamkou (spapastamkou@gmail.com)
+Português: Daniel Alves (dra@fcsh.unl.pt)
+
+## Sobre o autor
+1. Nome
+2. Email
+
+## Informação sobre a lição
+3. Língua de submissão (apagar o que não interessa) Inglês / Espanhol / Francês / Português
+4. Título porposto para a lição
+5. Resumo da lição (3-4 frases)
+6. Descrição do estudo de caso (detalhes sobre o problema histórico usado como exemplo na lição)
+7. Objectivos de aprendizagem (entre 2-3)
+8. Fase de pesquisa mais adequada para caracterizar a lição (apagar o que não interessa) Obter / Transformar / Analisar / Apresentar / Preservar
+9. Área de pesquisa mais relevante para a lição (apagar o que não interessa) APIs / python / gestão de dados / manipulação de dados / leitura distante / instalação / dados linkados abertos / mapeamento / análise de redes / web scraping / publicação digital / outra
+10. Data de submissão previsível
+11. A lição ira usar tecnologia de acesso aberto e os dados não terão custos para os leitores? Sim / Não
+12. Outros comentários para o Editor
