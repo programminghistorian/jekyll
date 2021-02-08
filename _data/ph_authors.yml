@@ -1815,17 +1815,17 @@
   github: daniellesanchesDH
   team: true
   team_start: 2020
-  institution: Fundação Getúlio Vargas
+  institution: Fundação Getulio Vargas
   sortname: Sanches
   affiliation:
     en: |
-        Fundação Getúlio Vargas, Brasil.
+        Fundação Getulio Vargas, Brasil.
     pt: |
-        Fundação Getúlio Vargas, Brasil.
+        Fundação Getulio Vargas, Brasil.
     es: |
-        Fundação Getúlio Vargas, Brasil.
+        Fundação Getulio Vargas, Brasil.
     fr: |
-        Fundação Getúlio Vargas, Brasil.
+        Fundação Getulio Vargas, Brasil.
   bio:
     en: |
         Danielle Sanches holds a PhD in History of Science from the EHESS/Paris and is a collaborator researcher at the Digital Humanities Laboratory (LabHD) at NOVA-FCSH, at University Nova de Lisboa, Portugal.
@@ -1956,3 +1956,35 @@
         placeholder
     pt: |
         Andrew Akhlaghi é candidato a doutoramento no Departamento de História da University of Texas at Austin, especializado em Médio Oriente e humanidades digitais.
+
+- name: Jimmy Medeiros
+  twitter: jimmy_medeiros
+  email: jimmy.medeiros@fgv.br
+  url: "https://cpdoc.fgv.br/equipe/JimmyMedeiros"
+  github: JimmyMedeiros82
+  team: true
+  team_start: 2020
+  institution: Fundação Getulio Vargas
+  sortname: Medeiros
+  affiliation:
+    en: |
+        Fundação Getulio Vargas, Brasil.
+    pt: |
+        Fundação Getulio Vargas, Brasil.
+    es: |
+        Fundación Getulio Vargas, Brasil.
+    fr: |
+        Fundação Getulio Vargas, Brasil.
+  bio:
+    en: |
+        Jimmy Medeiros holds a PhD in Public Policy, Strategy and Development from UFRJ, Researcher at the School of Social Sciences FGV CPDOC and teaches at the Post-Graduation in History, Politics and Cultural Property at FGV and at the undergraduate course in Social Sciences at FGV.
+    pt: |
+        Jimmy Medeiros é doutor em Políticas Públicas, Estratégia e Desenvlvimento pela UFRJ, Pesquisador Pleno na Escola de Ciências Sociais FGV CPDOC e professor no Porgrama de Pós-graduação em História, Política e Bens Culturais da FGV e no curso de graduação em Ciências Sociais da FGV.
+    es: |
+        Jimmy Medeiros es Doctor en Políticas Públicas, Estrategia y Desarrollo de la UFRJ, Investigador de la Facultad de Ciencias Sociales FGV CPDOC y profesor del Programa de Posgrado en Historia, Política y Bienes Culturales de la FGV y de grado en Ciencias Sociales de la FGV.
+    fr: |
+        Jimmy Medeiros est docteur en politique publique, stratégie et développement de l'UFRJ, chercheur titulaire à l'École des sciences sociales FGV CPDOC. Il enseigne dans le programme d'études supérieures en histoire, politique et biens culturels à la FGV, et les sciences sociales en premier cycle à la FGV.
+  team_roles:
+    - portuguese
+    - editorial
+  status: volunteer
