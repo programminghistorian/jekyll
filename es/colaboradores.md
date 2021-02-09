@@ -46,7 +46,7 @@ Estamos muy agradecidos a todos los patrocinadores individuales que contribuyen 
 - Laura Gayle Green ('Educator')
 - Tim Hitchcock ('Macenas')
 
-En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Mecenas' y 'Educator':
+En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Mecenas' y 'Educador(a)':
 
 - Tim Hitchcock
 - Shawn Graham
@@ -57,8 +57,8 @@ En particular, agradecemos la contribución de los siguientes suscriptores de Pa
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 - Dimitra Koutla
-- Laura Gayle Green ('Educator')
-- Rebecca Kahn ('Educator')
+- Laura Gayle Green ('educadora')
+- Rebecca Kahn ('educadora')
 
 ## Administración de donaciones y patrocinios
 
