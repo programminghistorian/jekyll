@@ -41,11 +41,12 @@ Organizaciones que han o continúan brindando apoyo en forma de contribución en
 
 Estamos muy agradecidos a todos los patrocinadores individuales que contribuyen al proyecto con donaciones en [Patreon](https://www.patreon.com/theprogramminghistorian) o [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url). Nos gustaría reconocer especialmente a quienes inauguraron cada uno de los niveles en Patreon:
 
-- Rachel Murphy ('Subscriptor')
-- Miriam Posner ('Sponsor')
-- Tim Hitchcock ('Macenas')
+- Rachel Murphy ('Suscripción')
+- Miriam Posner ('Aprendizaje')
+- Laura Gayle Green ('Educación')
+- Tim Hitchcock ('Patrocinio')
 
-En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Mecenas':
+En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Patrocinio' y 'Educación':
 
 - Tim Hitchcock
 - Shawn Graham
@@ -56,6 +57,8 @@ En particular, agradecemos la contribución de los siguientes suscriptores de Pa
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 - Dimitra Koutla
+- Laura Gayle Green ('Educación')
+- Rebecca Kahn ('Educación')
 
 ## Administración de donaciones y patrocinios
 
