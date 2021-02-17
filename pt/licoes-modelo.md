@@ -1,131 +1,130 @@
-# Programming Historian English Language Lesson Template
+# Modelo de Lições em Português do Programming Historian
 
-This file can be used as a template for writing your lesson. It includes information and guidelines on formatting which supplement but do not replace the author's guidelines (https://programminghistorian.org/en/author-guidelines)
+Este ficheiro pode ser utilizado como modelo para escrever a sua lição. Inclui informação e diretrizes sobre formatação que são complementares (mas não substituem) as diretrizes para autores (https://programminghistorian.org/pt/directrizes-autor).
 
-## Some Important Reminders:
+## Alguns lembretes importantes:
 
-*	Tutorials should not exceed 8,000 words (including code).
-*	Keep your tone formal but accessible.
-*	Talk to your reader in the second person (you).
-*	Adopt a widely-used version of English (British, Canadian, Indian, South African etc).
-*	The piece of writing is a "tutorial" or a "lesson" and not an "article".
-*  Adopt open source principles
-*  Write for a global audience
-*  Write sustainably
+*	Os tutoriais não devem exceder as 8,000 palavras (incluindo código).
+*	Adote uma linguagem formal, mas acessível.
+*	Dirija-se ao leitor na segunda pessoa do plural (você).
+*	Estará a escrever um "tutorial" ou uma "lição", mas não um "artigo". 
+* Adote os princípios de código aberto.
+* Escreva para uma audiência ampla.
+* Escreva de forma sustentável.
 
-# Lesson Metadata
+# Metadados das lições
 
-**Delete everything above this line when ready to submit your lesson**.
+**Apague tudo o que está acima desta linha quando estiver pronto a submeter a lição**.
 
-title: YOUR TITLE HERE
-collection: lessons
-layout: lesson
-slug: LEAVE BLANK
-date: LEAVE BLANK
-translation_date: LEAVE BLANK
-authors:
-- FORENAME SURNAME 1
-- FORENAME SURNAME 2, etc
-reviewers:
-- LEAVE BLANK
-editors:
-- LEAVE BLANK
-translator:
-- FORENAME SURNAME 1
-- FORENAME SURNAME 2, etc
-translation-editor:
-- LEAVE BLANK
-translation-reviewer:
-- LEAVE BLANK
-original: LEAVE BLANK
-review-ticket: LEAVE BLANK
-difficulty: LEAVE BLANK
-activity: LEAVE BLANK
-topics: LEAVE BLANK
-abstract: LEAVE BLANK
+título: O SEU TÍTULO AQUI
+coleção: lições
+layout: lição
+slug: DEIXAR EM BRANCO
+data: DEIXAR EM BRANCO
+data_traducao: DEIXAR EM BRANCO
+autores:
+- PRIMEIRO NOME APELIDO 1
+- PRIMEIRO NOME APELIDO 2, etc
+revisores:
+- DEIXAR EM BRANCO
+editores:
+- DEIXAR EM BRANCO
+tradutor:
+- PRIMEIRO NOME APELIDO 1
+- PRIMEIRO NOME APELIDO 2, etc
+tradutor-editor:
+- DEIXAR EM BRANCO
+tradutor-revisor:
+- DEIXAR EM BRANCO
+original: DEIXAR EM BRANCO
+ticket-revisao: DEIXAR EM BRANCO
+dificuldade: DEIXAR EM BRANCO
+atividade: DEIXAR EM BRANCO
+tópicos: DEIXAR EM BRANCO
+resumo: LEAVE BLANK
 ---
 
-# A Table of Contents
+# Índice
 
-Include the following short code to automatically generate a table of contents for your lesson (mandatory).
+Inclua o código curto seguinte para gerar automaticamente um índice analítico para a sua lição (obrigatório).
 
 {% include toc.html %}
 
 --
 
-## Some Markdown Formatting Examples:
+## Alguns exemplos de formatação em Markdown:
 
-# First Level Heading
-## Second Level Heading
-### Third Level Heading
-#### Fourth Level Heading
+# Primeiro nível do cabeçalho
+## Segundo nível do cabeçalho
+### Terceiro nível do cabeçalho
+#### Quarto nível do cabeçalho
 
 
-### Font Formatting
-**bold text**
-*italic text*
-`reserved words` (eg "for loop", or "myData.csv")
+### Formatação da fonte
+**texto em negrito**
+*texto em itálico*
+`palavras reservadas` (ex: "for loop", ou  "myData.csv")
 
 ### Links
 
-Create [a link to *Programming Historian*](http://programminghistorian.org) using the format in this sentence. Ensure linked phrases are semantically meaningful. Do not link terms that are meaningful only to sighted users such as "click here".
+Criar [um link para o *Programming Historian*](https://programminghistorian.org/pt/) utilizando o formato desta frase. Assegure-se que as frases linkadas têm um significado semântico válido. Não link termos com significado apenas para usuários com visão, como por exemplo, "clique aqui".
 
-### Inserting Images:
+### Inserir imagens
 
-Copy this short-code to insert an image. Replace words in all caps with your image information (eg, Figure1.jpg). Captions should include sequential image numbering (eg "Figure 1: ..."). 
+Copie este código curto para inserir uma imagem. Substitua todas as palavras em maiúsculas com a sua informação sobre a imagem (ex: Figura1.jpg). As legendas devem incluir uma numeração sequencial (ex: "Figura 1: ..."). 
 
-{% include figure.html filename="IMAGE-FILENAME" caption="CAPTION TO IMAGE" %}
+{% include figure.html filename="IMAGEM-NOMEFICHEIRO" caption="LEGENDA DA IMAGEM" %}
 
-### Alerts and Warnings
+### Alertas e Avisos
 
-If you want to include an aside or a warning to readers, you can set it apart from the main text:
+Se quiser incluir um aparte ou um aviso aos leitores, pode separá-lo do texto principal:
 
 <div class="alert alert-warning">
- Be sure that you follow directions carefully!
+ Assegure-se que segue as indicações atentamente!
 </div>
 
-It will appear in a coloured box and can be useful for drawing attention to particular warnings.
+Este aparecerá numa caixa colorida, podendo ser útil para chamar a atenção para avisos particulares. 
 
-### A Sample Unordered List
+### Uma amostra de lista não ordenada
 
-* Here is an item
-* Here is another item
-* Here is the final item
+* Aqui está um item
+* Aqui está outro item
+* Aqui está o item final
 
-### A Sample Ordered List
+### Uma amostra de lista ordenada
 
-1. Here is an item
-2. Here is another item
-3. Here is the final item
+1. Aqui está um item
+2. Aqui está outro item
+3. Aqui está o item final
 
-###A Sample Table
+###Uma amostra de tabela
 
-| Heading 1 | Heading 2 | Heading 3 |
+| Cabeçalho 1 | Cabeçalho 2 | Cabeçalho 3 |
 | --------- | --------- | --------- |
-| Row 1, column 1 | Row 1, column 2 | Row 1, column 3|
-| Row 2, column 1 | Row 2, column 2 | Row 2, column 3|
-| Row 3, column 1 | Row 3, column 2 | Row 3, column 3|
-Table 1: This table contains...
+| Linha 1, coluna 1 | Linha 1, coluna 2 | Linha 1, coluna 3|
+| Linha 2, coluna 1 | Linha 2, coluna 2 | Linha 2, coluna 3|
+| Linha 3, coluna 1 | Linha 3, coluna 2 | Linha 3, coluna 3|
+Tabela 1: Esta tabela contem...
 
-### Referencing
+### Referências
 
-*	Links rather than endnotes may be appropriate in most cases.
-*	Ensure linked phrases are semantically meaningful. Do not link terms that are meaningful only to sighted users such as "click here".
-*	All traditionally published and academic literature should be end-noted rather than linked.
-*	If you are writing an "analysis" tutorial, you must refer to published scholarly literature.
-*	Endnote superscripts should be outside the final punctuation like this.[^1] Not inside like this[^1].
-*	Use the "Notes and Bibliography" system found in the [The Chicago Manual of Style, 17th Edition](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html) for endnotes.
+*	Na maior parte dos casos é mais apropriada a utilização de links do que de notas de fim.
+*	Certifique-se que as frases linkadas têm um significado semântico válido. Não link termos com significado apenas para usuários com visão, tais como "clique aqui". 
+*	Os trabalhos publicados ou a literatura académica devem ser referenciados em nota de fim (e não através de link). 
+*	Se está a escrever um tutorial de "análise", deve referenciar literatura académica publicada. 
+*	A indicação de nota de fim no texto deve ficar depois da pontuação final, como aqui .[^1] Não dentro da mesma, como como aqui [^1].
+*	Nas notas de fim, utilize o sistema de "Notas e Bibliografia" do [The Chicago Manual of Style, 17th Edition](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html).
 
-#### An End Note:
+#### Uma nota final
 
-This is some text.[^1]
-This is some more text.[^2]
+Isto é algum texto.[^1]
+Isto é mais algum texto.[^2]
 
-##### Endnotes
-[^1]: Properly formatted citation using Chicago Manual of Style
-[^2]: Properly formatted citation using Chicago Manual of Style
+##### Notas de fim
+[^1]: Citação devidamente formatada segundo o Chicago Manual of Style
+[^2]: Citação devidamente formatada segundo o Chicago Manual of Style
 
 
 # Further Questions?
 
-Your assigned editor or the managing editor would be happy to answer any questions you may have.
+O seu editor ou o gestor editorial poderá ajudá-lo a responder às questões que possa ter. 
