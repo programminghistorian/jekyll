@@ -112,7 +112,7 @@ Tabela 1: Esta tabela contem...
 *	Certifique-se que as frases linkadas têm um significado semântico válido. Não link termos com significado apenas para usuários com visão, tais como "clique aqui". 
 *	Os trabalhos publicados ou a literatura académica devem ser referenciados em nota de fim (e não através de link). 
 *	Se está a escrever um tutorial de "análise", deve referenciar literatura académica publicada. 
-*	A indicação de nota de fim no texto deve ficar depois da pontuação final, como aqui .[^1] Não dentro da mesma, como como aqui [^1].
+*	A indicação de nota de fim no texto deve ficar depois da pontuação final, como aqui .[^1] Não dentro da mesma, como aqui [^1].
 *	Nas notas de fim, utilize o sistema de "Notas e Bibliografia" do [The Chicago Manual of Style, 17th Edition](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html).
 
 #### Uma nota final
