@@ -1,21 +1,21 @@
-# Programming Historian English Language Lesson Template
+# Modelo de Lições em Português do Programming Historian
 
-This file can be used as a template for writing your lesson. It includes information and guidelines on formatting which supplement but do not replace the author's guidelines (https://programminghistorian.org/en/author-guidelines)
+Este ficheiro pode ser utilizado como modelo para escrever a sua lição. Inclui informação e diretrizes sobre formatação que são complementares (mas não substituem) as diretrizes para autores (https://programminghistorian.org/pt/directrizes-autor).
 
-## Some Important Reminders:
+## Alguns lembretes importantes:
 
-*	Tutorials should not exceed 8,000 words (including code).
-*	Keep your tone formal but accessible.
-*	Talk to your reader in the second person (you).
-*	Adopt a widely-used version of English (British, Canadian, Indian, South African etc).
-*	The piece of writing is a "tutorial" or a "lesson" and not an "article".
-*  Adopt open source principles
-*  Write for a global audience
-*  Write sustainably
+*	Os tutoriais não devem exceder as 8,000 palavras (incluindo código).
+*	Adote uma linguagem formal, mas acessível.
+*	Dirija-se ao leitor na segunda pessoa do plural (você).
+*	Adote uma forma de escrita do português que tenha em conta um público amplo (no Brasil e em Portugal, mas também noutros países de expressão oficial portuguesa).
+*	Estará a escrever um "tutorial" ou uma "lição", mas não um "artigo".
+* Adote os princípios de código aberto.
+* Escreva para uma audiência ampla (global).
+* Escreva de forma sustentável.
 
-# Lesson Metadata
+# Metadados das lições
 
-**Delete everything above this line when ready to submit your lesson**.
+**Apague tudo o que está acima desta linha quando estiver pronto a submeter a lição**.
 
 title: O SEU TÍTULO
 collection: lessons
