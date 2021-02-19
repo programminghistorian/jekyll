@@ -1,47 +1,48 @@
-# Modelo de Lições em Português do Programming Historian
+# Programming Historian English Language Lesson Template
 
-Este ficheiro pode ser utilizado como modelo para escrever a sua lição. Inclui informação e diretrizes sobre formatação que são complementares (mas não substituem) as diretrizes para autores (https://programminghistorian.org/pt/directrizes-autor).
+This file can be used as a template for writing your lesson. It includes information and guidelines on formatting which supplement but do not replace the author's guidelines (https://programminghistorian.org/en/author-guidelines)
 
-## Alguns lembretes importantes:
+## Some Important Reminders:
 
-*	Os tutoriais não devem exceder as 8,000 palavras (incluindo código).
-*	Adote uma linguagem formal, mas acessível.
-*	Dirija-se ao leitor na segunda pessoa do plural (você).
-*	Estará a escrever um "tutorial" ou uma "lição", mas não um "artigo". 
-* Adote os princípios de código aberto.
-* Escreva para uma audiência ampla.
-* Escreva de forma sustentável.
+*	Tutorials should not exceed 8,000 words (including code).
+*	Keep your tone formal but accessible.
+*	Talk to your reader in the second person (you).
+*	Adopt a widely-used version of English (British, Canadian, Indian, South African etc).
+*	The piece of writing is a "tutorial" or a "lesson" and not an "article".
+*  Adopt open source principles
+*  Write for a global audience
+*  Write sustainably
 
-# Metadados das lições
+# Lesson Metadata
 
-**Apague tudo o que está acima desta linha quando estiver pronto a submeter a lição**.
+**Delete everything above this line when ready to submit your lesson**.
 
-título: O SEU TÍTULO AQUI
-coleção: lições
-layout: lição
+title: O SEU TÍTULO
+collection: lessons
+layout: lesson
 slug: DEIXAR EM BRANCO
-data: DEIXAR EM BRANCO
-data_traducao: DEIXAR EM BRANCO
-autores:
+date: DEIXAR EM BRANCO
+translation_date: DEIXAR EM BRANCO
+authors:
 - PRIMEIRO NOME APELIDO 1
 - PRIMEIRO NOME APELIDO 2, etc
-revisores:
+reviewers:
 - DEIXAR EM BRANCO
-editores:
+editors:
 - DEIXAR EM BRANCO
-tradutor:
+translator:
 - PRIMEIRO NOME APELIDO 1
 - PRIMEIRO NOME APELIDO 2, etc
-tradutor-editor:
+translation-editor:
 - DEIXAR EM BRANCO
-tradutor-revisor:
+translation-reviewer:
 - DEIXAR EM BRANCO
 original: DEIXAR EM BRANCO
-ticket-revisao: DEIXAR EM BRANCO
-dificuldade: DEIXAR EM BRANCO
-atividade: DEIXAR EM BRANCO
-tópicos: DEIXAR EM BRANCO
-resumo: LEAVE BLANK
+review-ticket: DEIXAR EM BRANCO
+difficulty: DEIXAR EM BRANCO
+activity: DEIXAR EM BRANCO
+topics: DEIXAR EM BRANCO
+abstract: DEIXAR EM BRANCO
 ---
 
 # Índice
