@@ -1957,7 +1957,8 @@
     pt: |
         Andrew Akhlaghi é candidato a doutoramento no Departamento de História da University of Texas at Austin, especializado em Médio Oriente e humanidades digitais.
 
-- name: Jimmy Medeiros
+  
+  - name: Jimmy Medeiros
   twitter: jimmy_medeiros
   email: jimmy.medeiros@fgv.br
   url: "https://cpdoc.fgv.br/equipe/JimmyMedeiros"
@@ -1986,5 +1987,35 @@
         Jimmy Medeiros est docteur en politique publique, stratégie et développement de l'UFRJ, chercheur titulaire à l'École des sciences sociales FGV CPDOC. Il enseigne dans le programme d'études supérieures en histoire, politique et biens culturels à la FGV, et les sciences sociales en premier cycle à la FGV.
   team_roles:
     - portuguese
+    - editorial
+  status: volunteer
+  
+- name: Matthias Gille Levenson
+  twitter: 
+  email: matthias.gille-levenson@casadevelazquez.org
+  url: "https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html"
+  github: matgille
+  team: true
+  team_start: 2021
+  institution: ENS Lyon / Casa de Velázquez
+  sortname: Gille
+  affiliation:
+    en: |
+        École Normale Supérieure de Lyon / Casa de Velázquez
+    pt: |
+        École Normale Supérieure de Lyon / Casa de Velázquez
+    es: |
+        École Normale Supérieure de Lyon / Casa de Velázquez
+    fr: |
+        École Normale Supérieure de Lyon / Casa de Velázquez
+  bio:
+    en: |
+        Matthias Gille Levenson is a PhD candidate in medieval castilian philology at the École Normale Supérieure de Lyon. He is currently a scientific member of the Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques in Madrid.
+    es: |
+        Matthias Gille Levenson es doctorando en filología medieval castellana en la École Normale Supérieure de Lyon, y es actualmente miembro científico de la Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques.
+    fr: |
+        Matthias Gille Levenson est doctorant en philologie médiévale castillane à l'École Normale Supérieure de Lyon, et membre scientifique de la Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques.
+  team_roles:
+    - french
     - editorial
   status: volunteer
