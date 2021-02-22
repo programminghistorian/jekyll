@@ -26,7 +26,7 @@ En rejoignant notre programme de partenariat institutionnel, votre établissemen
 | 1,000 GBP  | 150 GBP  |
 | 1,300 USD  | 200 USD  |
 
-Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en janvier de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à  <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
+Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en janvier de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
 
 ## Avantages du partenariat
 
@@ -34,10 +34,10 @@ Joindre le programme de Partenariat institutionnel vous donnera accès aux avant
 
 - Une invitation à notre [assemblée générale annuelle](https://beta.companieshouse.gov.uk/company/12192946) en tant que membre consultatif (une personne par Partenaire).
 - La ventilation annuelle des dépenses de ProgHist Ltd.
-- Reconnaissance explicite de votre contribution dans la section Nos soutiens.
+- La reconnaissance explicite de votre contribution dans la section Nos soutiens.
 - Le droit de souligner ce partenariat dans les activités de promotion de votre institution.
-- Ad hoc advice from our team on running an open access publication, implementing multilingual publishing workflows, or adapting _Programming Historian_ articles for a workshop environment (on request, not including formal consultancy). 
-- Pour les bibliothèques partenaires: une liste d’articles publiés par toutes les versions du Programming Historian (sur demande).
+- Des conseils ad hoc de notre équipe sur la gestion d'une publication en libre accès, la mise en œuvre de processus de publication multilingue ou l'adaptation d'articles du _Programming Historian_ pour un cadre d'atelier (consultation informelle sur demande). 
+- Pour les bibliothèques partenaires: une liste d’articles publiés par toutes les versions du _Programming Historian_ (sur demande).
 
 
 ## Vous inscrire
@@ -68,18 +68,18 @@ En envoyant une requête de Partenariat institutionnel, merci de noter que vous 
 2. Vous êtes autorisé à engager des dépenses au nom de l'institution pour laquelle vous soumettez une demande.
 3. Une fois qu'un mode de paiement est défini et que les paiements sont reclamés, vous concluez un accord juridiquement contraignant pour les montants indiqués.
 
-All memberships are subject to the approval of The *Programming Historian* Project Team. The *Programming Historian* is an international volunteer-driven project whose financial activities are administered by ProgHist Limited, a Not for Profit Company Limited by Guarantee that is registered in England, Company Number 12192946. The purpose of the *Programming Historian* is to advance the education of the public in the humanities in particular in the use of digital tools and techniques and to promote research for the public benefit in all aspects of that subject and to publish the useful results.  
+Toutes les adhésions se font sous réserve de l'approbation de l'équipe du *Programming Historian*. Le *Programming Historian* est un projet international géré par des bénévoles; ses ressources financières sont administrées ProgHist Limited, un organisme à but non lucratif à responsabilité limitée par garantie enregistré en Angleterre (no. de compagnie 12192946). L'objectif du *Programming Historian* est de promouvoir l'éducation du public dans le domaine des sciences humaines, et plus particulièrement dans l'utilisation des outils et techniques numériques, de soutenir la recherche au profit du public dans toutes ses composantes et d'en publier les résultats qui en découlent.
 
-## Want to Discuss?
+## Échangez avec nous
 
-We'd be happy to have a conversation about what we do and how we use your support. <a href="mailto:programminghistorian@gmail.com">Drop us a line</a> and we can arrange a virtual cup of coffee or tea.
+Nous serions ravis de discuter avec vous de notre projet et de ce que votre soutien nous permet d'accomplir. <a href="mailto:programminghistorian@gmail.com">Écrivez-nous</a> afin de planifier une rencontre virtuelle.
 
 
-## Frequently Asked Questions
+## Foire aux questions
 
-1. What budgets do other institutions draw this contribution from?
- - Some of our partners have dedicated 'Open Access' budgets to support work such as ours. Others have 'Development' budgets or draw upon training budgets and then use our materials for training workshops. We are also able to invoice your contribution as either a subscription or a donation, as best suits your circumstances.
-2. Can you provide usage statistics for my university?
- - No, we don't track users in that way, and we don't have a sign-in system for readers.
-3. Will my contribution be used on a publication of my choice?
- - Sponsors contribute to the shared infrastructure used across all of our publications. By becoming an IPP sponsor, you strengthen the resources in your chosen language, as well as those across our offering.
+1. Comment les institutions financent-elles leur contribution?
+ - Certains de nos Partnaires ont des budgets dédiés aux ressources en accès libre qui leur permettent de soutenir le genre de travail que nous faisons. D'autres ont des bugets de 'développement', ou se servent de budgets de formation pour ensuite offrir des ateliers basés sur nos leçons. Nous sommes également en mesure de facturer votre contribution en tant qu'abonnement ou don, selon votre préférence.
+2. Pouvez-vous fournir des statistiques d'utilisation pour mon université ?
+ - Non, nous ne comptabilisons pas ce genre de données d'utilisation et n'avons pas non plus de système de connexion.
+3. Ma contribution peut elle être dédiée à une publication de mon choix?
+ - Les partenaires contribuent à l'infrastructure commune à toutes nos publications. En participants au Partenariat institutionnel, vous renforcez les ressources dans la langue de votre choix, ainsi que celles de l'ensemble de notre offre.
