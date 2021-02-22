@@ -4,13 +4,13 @@ title: Donations
 redirect_from: /donations
 ---
 
-# Individual Supporters
+# Donations individuelles
 
 <img src="{{site.baseurl}}/images/supporters-individual.png" class="garnish rounded float-left" />
 
-Thank you for your interest supporting *Programming Historian*. Individual donors are vital for enabling our continued work, and for helping us to keep our content free to readers around the world. With one in three of our readers living in low and middle income countries, you're also helping to level the playing field, ensuring everyone is empowered to master technology and put it to good use, no matter where they live.
+Merci de votre intérêt à contribuer au *Programming Historian*. Les donations individuelles sont essentielles à la poursuite de notre travail et nous aident à maintenir la gratuité de notre contenu pour un public international. Comme un tiers de notre lectorat vit dans un pays à faible ou moyen revenu, vous contribuez également à l'égalité des chances, en veillant à ce que tous et toutes puissent maîtriser la technologie et en faire bon usage, peu importe leur lieu de résidence.
 
-Your support directly enables the infrastructure that keeps our publications together. That means our volunteers can devote their time to maintaining our growing suite of lessons, and ensuring that new lessons are built to stand the test of time.
+Votre soutien contribue directement à l'infrastructure qui assure la cohésion de nos publications. Cela permet à nos bénévoles de consacrer leur temps à maintenir notre corpus croissant de leçons et à veiller à ce que les nouvelles leçons soient conçues pour résister à l'épreuve du temps.
 
 # Ongoing Support
 
