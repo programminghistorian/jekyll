@@ -82,4 +82,4 @@ Nous serions ravis de discuter avec vous de notre projet et de ce que votre sout
 2. Pouvez-vous fournir des statistiques d'utilisation pour mon université ?
  - Non, nous ne comptabilisons pas ce genre de données d'utilisation et n'avons pas non plus de système de connexion.
 3. Ma contribution peut elle être dédiée à une publication de mon choix?
- - Les partenaires contribuent à l'infrastructure commune à toutes nos publications. En participants au Partenariat institutionnel, vous renforcez les ressources dans la langue de votre choix, ainsi que celles de l'ensemble de notre offre.
+ - Les partenaires contribuent à l'infrastructure commune à toutes nos publications. En participant au Partenariat institutionnel, vous renforcez les ressources dans la langue de votre choix, ainsi que celles de l'ensemble de notre offre.
