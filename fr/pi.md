@@ -68,7 +68,7 @@ En envoyant une requête de Partenariat institutionnel, merci de noter que vous 
 2. Vous êtes autorisé à engager des dépenses au nom de l'institution pour laquelle vous soumettez une demande.
 3. Une fois qu'un mode de paiement est défini et que les paiements sont reclamés, vous concluez un accord juridiquement contraignant pour les montants indiqués.
 
-Toutes les adhésions se font sous réserve de l'approbation de l'équipe du *Programming Historian*. Le *Programming Historian* est un projet international géré par des bénévoles; ses ressources financières sont administrées ProgHist Limited, un organisme à but non lucratif à responsabilité limitée par garantie enregistré en Angleterre (no. de compagnie 12192946). L'objectif du *Programming Historian* est de promouvoir l'éducation du public dans le domaine des sciences humaines, et plus particulièrement dans l'utilisation des outils et techniques numériques, de soutenir la recherche au profit du public dans toutes ses composantes et d'en publier les résultats qui en découlent.
+Toutes les adhésions se font sous réserve de l'approbation de l'équipe du *Programming Historian*. Le *Programming Historian* est un projet international géré par des bénévoles; ses ressources financières sont administrées ProgHist Limited, un organisme à but non lucratif à responsabilité limitée par garantie enregistré en Angleterre (no. de compagnie 12192946). L'objectif du *Programming Historian* est de promouvoir l'éducation du public dans le domaine des sciences humaines, et plus particulièrement dans l'utilisation des outils et techniques numériques, de soutenir la recherche au profit du public dans toutes ses composantes et de publier les résultats qui en découlent.
 
 ## Échangez avec nous
 
