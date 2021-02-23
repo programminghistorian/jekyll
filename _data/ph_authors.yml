@@ -1989,6 +1989,39 @@
     - editorial
   status: volunteer
   
+  - name: Matthias Gille Levenson
+  twitter: 
+  email: matthias.gille-levenson@casadevelazquez.org
+  url: "https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html"
+  orcid: 0000-0001-9488-5986
+  github: matgille
+  team: true
+  team_start: 2021
+  institution: ENS Lyon / Casa de Velázquez
+  sortname: Gille
+  affiliation:
+    en: |
+        École Normale Supérieure de Lyon, France / Casa de Velázquez, Spain.
+    pt: |
+        École Normale Supérieure de Lyon, França / Casa de Velázquez, Espanha.
+    es: |
+        École Normale Supérieure de Lyon, Francia / Casa de Velázquez, España.
+    fr: |
+        École Normale Supérieure de Lyon, France / Casa de Velázquez, Espagne.
+  bio:
+    en: |
+        Matthias Gille Levenson is a PhD candidate in medieval castilian philology at the École Normale Supérieure de Lyon. He is currently a scientific member of the Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques in Madrid.
+    pt: |
+        Matthias Gille Levenson é doutorando em filologia castelhana medieval na École Normale Supérieure de Lyon. Atualmente é membro científico da Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques de Madrid.
+    es: |
+        Matthias Gille Levenson es doctorando en filología medieval castellana en la École Normale Supérieure de Lyon, y es actualmente miembro científico de la Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques.
+    fr: |
+        Matthias Gille Levenson est doctorant en philologie médiévale castillane à l'École Normale Supérieure de Lyon, et membre scientifique de la Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques.
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
+  
   - name: Gwenaëlle Patat
   email: gwenaelle.patat@gmail.com
   twitter: InsSalom5
