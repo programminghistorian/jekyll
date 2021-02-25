@@ -1,3 +1,8 @@
+---
+title: Plantilla para lecciones
+layout: blank
+original: lesson-template
+---
 # Plantilla para lecciones de Programming Historian en español
 
 Este archivo puede ser utilizado como plantilla para desarrollar tu lección. Contiene algunas indicaciones de formato que complementan **pero no remplazan** las orientaciones de la [Guía para autores](/es/guia-para-autores).
