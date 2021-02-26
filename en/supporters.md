@@ -58,6 +58,7 @@ We also publicly thank all of our 'Patron' and 'Educator' supporters:
 - Dimitra Koutla
 - Laura Gayle Green (Educator)
 - Rebecca Kahn (Educator)
+- Sarah Melton (Educator)
 
 ## Management of Donations and Sponsorship
 

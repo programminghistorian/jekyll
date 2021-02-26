@@ -59,6 +59,7 @@ En particular, agradecemos la contribución de los siguientes suscriptores de Pa
 - Dimitra Koutla
 - Laura Gayle Green ('Educación')
 - Rebecca Kahn ('Educación')
+- Sarah Melton ('Educación')
 
 ## Administración de donaciones y patrocinios
 
