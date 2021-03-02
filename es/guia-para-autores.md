@@ -23,7 +23,7 @@ Estas directrices han sido desarrolladas para ayudarte a entender el proceso de 
 Aceptamos tutoriales relevantes para las humanidades, dirigidos a cualquier nivel de aptitud técnica y experiencia, que se centren en un problema o proceso, que puedan ser sostenibles a largo plazo y que estén dirigidos a una audiencia global. El alcance y la longitud del tutorial han de corresponderse con la complejidad de la tarea que se enseña. Los tutoriales no deben exceder las 8.000 palabras (incluyendo el código) sin el permiso explícito del editor, el que se otorgará únicamente en circunstancias excepcionales. Esperamos que la mayoría de las lecciones tengan entre 4.000 y 6.000 palabras. Si resulta pertinente, puede que solicitemos dividir en varios tutoriales las lecciones más largas.
 </div>
 
-Si tienes una idea para una nueva lección, completa el [formulario de propuestas](/assets/forms/Lesson.Query.Form.txt) y envíalo a {% include managing-editor.html lang=page.lang %}.
+Si tienes una idea para una nueva lección, completa el [formulario de propuestas](/assets/forms/Formulario.Consulta.Leccion.txt) y envíalo a {% include managing-editor.html lang=page.lang %}.
 
 Para tener una idea de lo que publicamos, consulta nuestras [lecciones ya publicadas]({{site.baseurl}}/es/lecciones), lee nuestra [guía para revisores]({{site.baseurl}}/es/guia-para-revisores) o explora [las lecciones actualmente en desarrollo](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/lecciones). Animamos el envío de propuestas de lecciones sobre temas ya cubiertos o en desarrollo, siempre que la lección nueva haga una contribución propia.
 
@@ -142,7 +142,7 @@ La pauta es usarlas con moderación en la prosa corriente. Reglas específicas:
 *	**Títulos**: los encabezados y títulos de libros llevan mayúscula en la primera letra del título: »Preparando los datos para el análisis»; *El orgullo y la pasión*.
 *	**Siempre con mayúscula inicial**:
     *	**Nombre propios**: William J. Turkel – a menos que la persona elija deletrear su nombre de otra manera (por ejemplo "bell hooks").
-    *	**Organizaciones, organismos, entidades, partidos políticos, etc**: Museo de Arte Moderno, Casa de Cervantes, Biblioteca Nacional, Agencia Nacional de Tierras, Naciones Unidades. Las palabras de función dentro del nombre no llevan mayúsculas en estos casos. 
+    *	**Organizaciones, organismos, entidades, partidos políticos, etc**: Museo de Arte Moderno, Casa de Cervantes, Biblioteca Nacional, Agencia Nacional de Tierras, Naciones Unidades. Las palabras de función dentro del nombre no llevan mayúsculas en estos casos.
     *	**Días festivos y festivales**: Diwali, Hanukkah, Eid-Ul-Adha, Día de los Muertos.
 *	**A veces o solo parcialmente en mayúsculas**:
     *	**Lugares**: capitales de países, regiones, zonas reconocibles (por ejemplo, el Oriente Medio, Senegal). Minúsculas para los puntos cardinales, a excepción de cuando son utilizados como parte del nombre de un lugar (para llegar al Polo Norte, dirigirse al norte). Otros ejemplos son: el noreste de Kenya, el sur del Brasil, el oeste, el oeste del Canadá, el extremo oriental, el Asia sudoriental, América Central, América Latina.
