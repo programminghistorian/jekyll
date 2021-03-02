@@ -16,7 +16,8 @@ translator:
 - HD CAICYT Lab team
 - Gimena del Rio Riande
 - Nidia Hernández
-- Romina De León, Gabriel Calarco
+- Romina De León
+- Gabriel Calarco
 - Raffaele Viglianti
 translation-editor:
 - Joshua G. Ortiz Baco
