@@ -542,11 +542,11 @@ Ahora que ya sabes cómo añadir páginas y publicaciones, en esta sección move
 
 6. Haz clic en el botón “Commit to gh-pages” en la sección inferior izquierda de la ventana de la aplicación.
 
-{% include figure.html filename="building-static-sites-with-jekyll-github-pages-25.png" caption="Haz clic en el botón \"Commit to gh-pages\"" %}
+{% include figure.html filename="building-static-sites-with-jekyll-github-pages-25.png" caption="Haz clic en el botón _Commit to gh-pages_" %}
 
 7. Haz clic en el botón “Publish” en la sección superior derecha.
 
-{% include figure.html filename="building-static-sites-with-jekyll-github-pages-26.png" caption="Haz clic en el botón \"Publish\"" %}
+{% include figure.html filename="building-static-sites-with-jekyll-github-pages-26.png" caption="Haz clic en el botón _Publish_" %}
 
 8. En la ventana emergente, deja todo como está y haz clic en el botón “Publish repository” en la sección inferior derecha (puede que tu ventana no muestre las opciones relativas a repositorios privados que se muestran en la captura de pantalla).
 
