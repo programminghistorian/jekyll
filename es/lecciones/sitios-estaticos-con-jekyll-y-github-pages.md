@@ -639,7 +639,7 @@ Puedes visitar estos sitios para más documentación, inspiración y para aprend
 * [Documentación oficial de Jekyll](https://jekyllrb.com/docs/home/)
 * Jekyll tiene links a recursos "no oficiales" sobre su funcionamiento en Windows: [https://jekyll-windows.juthilo.com/](http://jekyll-windows.juthilo.com/) y [https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/)
 * [https://help.github.com/articles/using-jekyll-with-pages/](https://help.github.com/articles/using-jekyll-with-pages/)
-* Amanda Visconti, ["Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)"](https://literaturegeek.com/2015-12-08-WhyJekyllGitHub/)
+* Amanda Visconti, ["Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)"](https://literaturegeek.com/2015/12/08/WhyJekyllGitHub)
 * Alex Gil, ["How (and Why) to Generate a Static Website Using Jekyll, Part 1"](https://chronicle.com/blogs/profhacker/jekyll1/60913)
 * Eduardo Bouças, ["An Introduction to Static Site Generators"](https://davidwalsh.name/introduction-static-site-generators)
 * [Guía de estilo de Jekyll](https://ben.balter.com/jekyll-style-guide/)
