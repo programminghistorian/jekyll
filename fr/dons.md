@@ -30,7 +30,7 @@ Pour 5 $, 10 $, ou 15 $ par mois, vous pourrez faire partie de la liste sans ces
 
 # Dons ponctuels
 
-Des dons ponctuels peuvent être envoyés au Programming Historian via [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), transfert bancaire (Lloyds Bank account number 55263268, sort code 30-96-26), ou par chèque (à l'ordre de ‘ProgHist Ltd’, envoyé par la poste à ‘Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH’). Si vous souhaitez faire un don par virement bancaire ou par chèque, nous vous remercions de nous écrire à l'adresse suivante <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> afin de vous présenter et de nous indiquer pourquoi vous avez choisi de soutenir notre projet.
+Des dons ponctuels peuvent être envoyés au Programming Historian via [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), transfert bancaire (Lloyds Bank no. de compte 55263268, 'sort code' 30-96-26), ou par chèque (à l'ordre de ‘ProgHist Ltd’, envoyé par la poste à ‘Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH’). Si vous souhaitez faire un don par virement bancaire ou par chèque, nous vous remercions de nous écrire à l'adresse suivante <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> afin de vous présenter et de nous indiquer pourquoi vous avez choisi de soutenir notre projet.
 
 # Soutien opérationnel
 
