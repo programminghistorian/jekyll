@@ -4,7 +4,7 @@ collection: lessons
 layout: lesson
 slug: sitios-estaticos-con-jekyll-y-github-pages
 date: 2016-04-18
-translation_date: 2020-03-01
+translation_date: 2021-03-01
 authors:
 - Amanda Visconti
 reviewers:
@@ -392,7 +392,7 @@ Ya tenemos un sitio web básico privado, accesible únicamente en nuestra comput
 
    El archivo `_config.yml` es un archivo "destinado a configuraciones que afectan a todo tu blog, valores que se espera que configures una sola vez y rara vez necesites volver editar más tarde" (como dice en el archivo). `_config.yml` es donde se puede definir el nombre del sitio web y compartir información como la dirección de email que queremos asociar al sitio y otras configuraciones básicas que desees que estén disponibles en todo el sitio web (cuentas de redes sociales, por ejemplo).
 
-   La extensión ``.yml` refiere a cómo fue escrito el archivo usando [YAML](https://es.wikipedia.org/wiki/YAML) (acrónimo de _YAML Ain't Markup Language_, "YAML no es un lenguaje de marcado"). YAML es un modo de escribir datos que es a la vez fácil de escribir y de leer para los humanos y fácil de interpretar para las máquinas. No es necesario profundizar en YAML aquí, pero es importante dejar el formato del archivo `_config.yml` en su estado original aunque modifiquemos el contenido (por ej., el título del sitio debe quedar en una línea diferente del email).
+   La extensión `.yml` refiere a cómo fue escrito el archivo usando [YAML](https://es.wikipedia.org/wiki/YAML) (acrónimo de _YAML Ain't Markup Language_, "YAML no es un lenguaje de marcado"). YAML es un modo de escribir datos que es a la vez fácil de escribir y de leer para los humanos y fácil de interpretar para las máquinas. No es necesario profundizar en YAML aquí, pero es importante dejar el formato del archivo `_config.yml` en su estado original aunque modifiquemos el contenido (por ej., el título del sitio debe quedar en una línea diferente del email).
 
 3. Puedes cambiar el texto en este archivo, guardarlo y luego ver tu sitio web local en un navegador para ver los cambios. **Es necesario tener en cuenta que los cambios en `_config.yml`**, a diferencia del resto de los archivos del sitio web, no se mostrarán si se realizan mientras el sitio web se está ejecutando. Para ver los cambios implementados en este archivo en particular, debes realizarlos mientras el sitio web no se está ejecutando *o* después de realizar cambios en `_config.yml`, detener y luego ejecutar el sitio de vuelta. (Los cambios en el archivo `_config.yml` quedan fuera de la capacidad de refrescar el sitio porque este archivo se puede usar para declarar la estructura de los enlaces del sitio y alterarlos mientras el sitio se está ejecutando podría provocar daños.)
 
@@ -554,7 +554,7 @@ Ahora que ya sabes cómo añadir páginas y publicaciones, en esta sección move
 
 9.  Haz clic en el botón “Sync” que se encuentra en la sección superior derecha.
 
-{% include figure.html filename="building-static-sites-with-jekyll-github-pages-28.png" caption="Haz clic en el botón \"sync\"" %}
+{% include figure.html filename="building-static-sites-with-jekyll-github-pages-28.png" caption="Haz clic en el botón _sync_" %}
 
 **Para usuarios de Windows**
 
