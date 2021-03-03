@@ -20,6 +20,7 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), United Kingdom
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), United States
 - [Université du Luxembourg](https://www.c2dh.uni.lu/), Luxembourg
+- [Software Sustainability Institute](https://www.software.ac.uk/), United Kingdom
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
