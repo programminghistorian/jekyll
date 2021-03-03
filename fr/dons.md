@@ -21,7 +21,7 @@ Votre soutien contribue directement à l'infrastructure qui assure la cohésion 
   <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
 </svg>
 </div>
-Pour 5 $, 10 $, ou 15 $ par mois, vous pourrez faire partie de la liste sans cesse grandissante de nos mécènes <a href="https://www.patreon.com/join/theprogramminghistorian">Patreon</a>. En vous joignant à nos mécènes de Patreon, vous permettrez à notre équipe de planifier ses activités futures et de développer sa gamme de publications sur les humanités et les compétences numériques.
+Pour 5 $, 10 $, ou 15 $ par mois, vous pourrez faire partie de la liste sans cesse grandissante de nos donateurs <a href="https://www.patreon.com/join/theprogramminghistorian">Patreon</a>. En vous joignant à nos donateurs Patreon, vous permettrez à notre équipe de planifier ses activités futures et de développer sa gamme de publications sur les humanités et les compétences numériques.
 
 <p>&nbsp;</p>
 <p><a href="https://www.patreon.com/theprogramminghistorian"><img src="{{site.baseurl}}/images/patreonbutton.png" alt="Nous Soutenir Patreon button" class="mx-auto d-block" /></a></p>
