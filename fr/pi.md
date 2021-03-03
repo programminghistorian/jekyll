@@ -34,7 +34,7 @@ Joindre le programme de Partenariat institutionnel vous donnera accès aux avant
 
 - Une invitation à notre [assemblée générale annuelle](https://beta.companieshouse.gov.uk/company/12192946) en tant que membre consultatif (une personne par Partenaire).
 - La ventilation annuelle des dépenses de ProgHist Ltd.
-- La reconnaissance explicite de votre contribution dans la section Nos soutiens.
+- La reconnaissance explicite de votre contribution dans la section [Nos soutiens](nos-soutiens).
 - Le droit de souligner ce partenariat dans les activités de promotion de votre institution.
 - Des conseils ad hoc de notre équipe sur la gestion d'une publication en libre accès, la mise en œuvre de processus de publication multilingue ou l'adaptation d'articles du _Programming Historian_ pour un cadre d'atelier (consultation informelle sur demande). 
 - Pour les bibliothèques partenaires: une liste d’articles publiés par toutes les versions du _Programming Historian_ (sur demande).
@@ -65,7 +65,7 @@ Si vous souhaitez devenir Partenaire institutionnel, veuillez contacter <a href=
 En envoyant une requête de Partenariat institutionnel, merci de noter que vous vous conformez aux conditions suivantes:
 
 1. Vous devez être autorisé(e) à représenter l'institution pour laquelle vous faites une requête.
-2. Vous êtes autorisé à engager des dépenses au nom de l'institution pour laquelle vous soumettez une demande.
+2. Vous êtes autorisé(e) à engager des dépenses au nom de l'institution pour laquelle vous soumettez une demande.
 3. Une fois qu'un mode de paiement est défini et que les paiements sont reclamés, vous concluez un accord juridiquement contraignant pour les montants indiqués.
 
 Toutes les adhésions se font sous réserve de l'approbation de l'équipe du *Programming Historian*. Le *Programming Historian* est un projet international géré par des bénévoles; ses ressources financières sont administrées par ProgHist Limited, un organisme à but non lucratif à responsabilité limitée par garantie enregistré en Angleterre (no. de compagnie 12192946). L'objectif du *Programming Historian* est de promouvoir l'éducation du public dans le domaine des sciences humaines, et plus particulièrement dans l'utilisation des outils et techniques numériques, de soutenir la recherche au profit du public dans toutes ses composantes et de publier les résultats qui en découlent.
@@ -82,4 +82,4 @@ Nous serions ravis de discuter avec vous de notre projet et de ce que votre sout
 2. Pouvez-vous fournir des statistiques d'utilisation pour mon université ?
  - Non, nous ne comptabilisons pas ce genre de données d'utilisation et n'avons pas non plus de système de connexion.
 3. Ma contribution peut elle être dédiée à une publication de mon choix?
- - Les partenaires contribuent à l'infrastructure commune à toutes nos publications. En participant au Partenariat institutionnel, vous renforcez les ressources dans la langue de votre choix, ainsi que celles de l'ensemble de notre offre.
+ - Les Partenaires contribuent à l'infrastructure commune à toutes nos publications. En participant au Partenariat institutionnel, vous renforcez les ressources dans la langue de votre choix, ainsi que celles de l'ensemble de notre offre.
