@@ -15,7 +15,7 @@ Nous vous remercions de l'intérêt que vous portez au programme de Partenariat 
 
 Le *Programming Historian* est une organisation à but non-lucratif qui publie de la recherche en libre accès sur la voie dorée (*gold open access*).
 
-En rejoignant notre programme de partenariat institutionnel, votre établissement peut soutenir un projet d'envergure mondiale. Un tiers de nos lecteurs vivent dans des pays à faibles et moyens revenus, et ce nombre ne cesse d'augmenter.
+En rejoignant notre programme de Partenariat institutionnel, votre établissement peut soutenir un projet d'envergure mondiale. Un tiers de nos lecteurs vivent dans des pays à faibles et moyens revenus, et ce nombre ne cesse d'augmenter.
 
 | Tarifs de partenariat  | Tarifs échelonnés pour [les pays éligibles à l'APD](http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/listecad.htm)  |
 |---|---|
