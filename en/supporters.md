@@ -36,6 +36,7 @@ Organizations that have or continue to give support ranging from in kind service
 - The British Academy [Writing Workshops funding scheme](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/), United Kingdom [2018].
 - The dSHARP lab at Carnegie Mellon University sponsored by the Andrew W. Mellon Foundation, United States [2018-2020].
 - The Network in Canadian History & Environment, Canada [2011-2013].
+- The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/) [2021].
 
 ## Individual Supporters
 
