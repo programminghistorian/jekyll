@@ -8,7 +8,7 @@ redirect_from: /donations
 
 <img src="{{site.baseurl}}/images/supporters-individual.png" class="garnish rounded float-left" />
 
-Merci de votre intérêt à contribuer au *Programming Historian*. Les dons individuels sont essentiels à la poursuite de notre travail et nous aident à maintenir la gratuité de notre contenu pour un public international. Comme un tiers de notre lectorat vit dans un pays à faible ou moyen revenu, vous contribuez également à l'égalité des chances, en veillant à ce que tous et toutes puissent maîtriser la technologie et en faire bon usage, peu importe leur lieu de résidence.
+Merci de votre intérêt à contribuer au *Programming Historian*. Les dons individuels sont essentiels à la poursuite de notre travail et nous aident à maintenir la gratuité de notre contenu pour un public international. Comme un tiers de notre lectorat vit dans des pays à faible ou moyen revenu, vous contribuez également à l'égalité des chances, en veillant à ce que tous et toutes puissent maîtriser la technologie et en faire bon usage, peu importe leur lieu de résidence.
 
 Votre soutien contribue directement à l'infrastructure qui assure la cohésion de nos publications. Cela permet à nos bénévoles de consacrer leur temps à maintenir notre corpus croissant de leçons et à veiller à ce que les nouvelles leçons soient conçues pour résister à l'épreuve du temps.
 
