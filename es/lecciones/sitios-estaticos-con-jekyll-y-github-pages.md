@@ -52,7 +52,7 @@ doi: 10.46430/phes0050
 
 ## ¿Qué son los sitios estáticos, Jekyll, etc. y por qué deberían importarme? <a id="section0"></a>
 
-Este tutorial se basa en la [Documentación oficial de Jekyll](https://jekyllrb.com/docs/home/) escrita por la comunidad de Jekyll. Revisa la sección ["Leer más"](#sección9-3) al final de la lección si deseas profundizar más sobre estos temas.
+Este tutorial se basa en la [Documentación oficial de Jekyll](https://jekyllrb.com/docs/home/) escrita por la comunidad de Jekyll. Revisa la sección ["Leer más"](#section9-3) al final de la lección si deseas profundizar más sobre estos temas.
 
 ### Sitios dinámicos, sitios estáticos y Jekyll <a id="section0-1"></a>
 
@@ -92,7 +92,7 @@ Opciones como [Drupal](https://www.drupal.com/), [WordPress](https://wordpress.o
 
 - **Alojamiento gratuito:** Si bien muchas herramientas de sitios web como Drupal, WordPress y Omeka son gratuitas, alojarlas (pagar a alguien para que muestre los archivos de tu sitio web a los visitantes del sitio) puede costar dinero.
 
-- **Control de versiones:** Hospedar en GitHub Pages significa que tu sitio está vinculado a la interfaz visual de GitHub para el control de versiones de git, por lo que puede realizarse un seguimiento de los cambios en tu sitio y, si fuera necesario, volver al estado anterior de cualquier publicación de blog, o página. Esto incluye archivos cargados que tal vez desees almacenar en el sitio, como programas de estudio y publicaciones antiguas (el control de versiones se explicó [con más detalle anteriormente](#sección0-1)).
+- **Control de versiones:** Hospedar en GitHub Pages significa que tu sitio está vinculado a la interfaz visual de GitHub para el control de versiones de git, por lo que puede realizarse un seguimiento de los cambios en tu sitio y, si fuera necesario, volver al estado anterior de cualquier publicación de blog, o página. Esto incluye archivos cargados que tal vez desees almacenar en el sitio, como programas de estudio y publicaciones antiguas (el control de versiones se explicó [con más detalle anteriormente](#section0-1)).
 
 - **Seguridad:** No hay una base de datos a la que haya que proteger de posibles ataques maliciosos.
 
@@ -152,7 +152,7 @@ La aplicación GitHub Desktop facilita la actualización del sitio web luego de 
 
 Es necesario descargar e instalar un editor de texto para realizar pequeñas personalizaciones al código de nuestro sitio Jekyll. Algunas buenas opciones gratuitas incluyen [jEdit](https://www.jedit.org), [Atom](https://atom.io/), [SublimeText](https://www.sublimetext.com/3), [Notepad ++](https://notepad-plus-plus.org/) para Windows o [BBedit](http://www.barebones.com/products/bbedit) para Mac. Los procesadores de texto, como Microsoft Word o WordPad, no son una buena opción porque es fácil olvidar cómo formatear y guardar el archivo; es posible agregar accidentalmente formatos y caracteres extra y/o invisibles que pueden generar problemas en el sitio. Por eso es mejor usar programas que puedan guardar lo que escribimos como texto plano (por ejemplo, HTML o Markdown).
 
-*Opcional:* Consulta la sección ["Creación en Markdown"](#sección5-2) más abajo, para más información sobre un programa de edición específico en Markdown, que también puedes instalar cuando ya estemos en la etapa de crear páginas web y/o publicaciones (posts) de blog.
+*Opcional:* Consulta la sección ["Creación en Markdown"](#section5-2) más abajo, para más información sobre un programa de edición específico en Markdown, que también puedes instalar cuando ya estemos en la etapa de crear páginas web y/o publicaciones (posts) de blog.
 
 ### Línea de comandos <a id="section1-4"></a>
 
@@ -461,7 +461,7 @@ Si te interesa un editor de Markdown, puedes utilizar uno como [Typora](http://w
 
 ### Creación de páginas <a id="section5-3"></a>
 
-1. Para ver una página existente en tu sitio web (creada por defecto en tu sitio web de Jekyll [con el resto de los archivos](#sección3)), navega hasta la carpeta de tu sitio web y abre el archivo `about.md` en un editor de texto (por ej. TextWrangler) o en un editor de Markdown (p. ej. Typora). Allí verás el archivo creado como "Acerca de (About)". Puedes hacer clic en el enlace "Acerca de", situado en la parte superior derecha de la página web, y podrás observar cómo aparece la página web que crea el archivo en un navegador.
+1. Para ver una página existente en tu sitio web (creada por defecto en tu sitio web de Jekyll [con el resto de los archivos](#section3)), navega hasta la carpeta de tu sitio web y abre el archivo `about.md` en un editor de texto (por ej. TextWrangler) o en un editor de Markdown (p. ej. Typora). Allí verás el archivo creado como "Acerca de (About)". Puedes hacer clic en el enlace "Acerca de", situado en la parte superior derecha de la página web, y podrás observar cómo aparece la página web que crea el archivo en un navegador.
 
 2. El material entre guiones \--- se llama "front matter" (*al abrir el archivo en un editor de Markdown este puede aparecer sobre un fondo gris en lugar de entre guiones*). Este apartado le dice a tu sitio si el contenido posterior debe formatearse como página o entrada de blog, el título de la entrada, la fecha y la hora en que fue publicada, y cualquier categoría que quieras que aparezca en la entrada o la página.
 
@@ -471,7 +471,7 @@ Si te interesa un editor de Markdown, puedes utilizar uno como [Typora](http://w
    - **title:** Cámbialo al título deseado (a diferencia de las entradas, no hay comillas alrededor del título). En la siguiente captura de pantalla, se ha agregado una página con el título "Resume".
    - **permalink:** Cambia el texto entre las dos barras diagonales por la palabra (o frase, ¡pero necesitarás usar guiones y no espacios!) que desees que continúe la URL principal de tu sitio para llegar a la página. Por ejemplo, **enlace permanente:/about/** ubica la página en `localhost:4000/yourwebsitefoldername/about/`.
 
-3. El espacio debajo del segundo guión del texto preliminar (o debajo del recuadro gris si usa un editor Markdown) es donde debes escribir el contenido de tu página, usando [el formato Markdown descrito anteriormente](#sección5-1)
+3. El espacio debajo del segundo guión del texto preliminar (o debajo del recuadro gris si usa un editor Markdown) es donde debes escribir el contenido de tu página, usando [el formato Markdown descrito anteriormente](#section5-1)
 
 4. Para crear una nueva página además de la existente "Acerca de (About)" (que puede ser personalizada o eliminada), crea una copia del archivo `about.md` en la misma carpeta (la principal del sitio web) y cambia el nombre al título que desees, utilizando guiones en lugar de espacios (por ejemplo, `resume.md` o `contact-me.md`). También cambia el título, el enlace permanente en el texto preliminar del archivo y el contenido. La nueva página debe aparecer automáticamente en el menú principal en el encabezado del sitio:
 
@@ -498,7 +498,7 @@ Como referencia, puedes consultar [un ejemplo de página](http://amandavisconti.
    - **title:** Cambia "Welcome to Jekyll!" a cualquier título que desees para tu nueva entrada (manteniendo las comillas alrededor del título). La norma es hacer que el título sea igual que las palabras en el nombre del archivo (excepto con espacios añadidos y mayúsculas). Así es como aparecerá el título en la página web de la publicación.
    - **date:** Cambia esto cuando desees que la publicación muestre fecha y hora de publicación, asegurándote que coincida con la fecha que forma parte del nombre del archivo. (La fecha *y* hora deben ser pasadas, para que tu publicación aparezca).
    - **categories:** Elimina, por ahora, las palabras "jekyll update (actualización de jekyll)", y no agregues aquí nada más, ya que el tema actual no las utiliza y desordena las URL de las publicaciones. (*Otros temas pueden usar este campo para ordenar las publicaciones de blog por categorías*.)
-   - **El espacio debajo del segundo \--- (o debajo del recuadro gris si usa un editor Markdown)** es donde debes escribir el contenido de tu post, usando [el formato Markdown descrito anteriormente](#sección5-1)
+   - **El espacio debajo del segundo \--- (o debajo del recuadro gris si usa un editor Markdown)** es donde debes escribir el contenido de tu post, usando [el formato Markdown descrito anteriormente](#section5-1)
 
    Después de guardar el archivo, deberías poder ver tu segunda entrada en la página principal de tu sitio, y al hacer clic en el enlace, debería ir a la página de la entrada:
 
