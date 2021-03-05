@@ -50,7 +50,6 @@ Joindre le programme de Partenariat institutionnel vous donnera accès aux avant
 </div>
 
 Si vous souhaitez devenir Partenaire institutionnel, veuillez contacter <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>, en indiquant "Programme de Partenariat institutionnel" dans la ligne d'objet. Dans votre message, vous pouvez inclure des documents internes tels que vos formulaires d'inscription de fournisseurs. Votre message devrait aussi inclure les informations suivantes:
-<div>
 
 <ul>
 <li>Votre nom</li>
