@@ -256,7 +256,7 @@ menu-support-ipp:
     link: /es/pia
   fr:
     title: Partenariat institutionnel
-    link: /fr/nous-soutenir#partenariat-institutionnel
+    link: /fr/pi
   pt: 
 menu-support-individual:
   en:
@@ -267,7 +267,7 @@ menu-support-individual:
     link: /es/donaciones
   fr:
     title: Nous soutenir - Donations
-    link: /fr/nous-soutenir#donations
+    link: /fr/dons
   pt: 
 menu-support-supporters:
   en:
@@ -278,7 +278,7 @@ menu-support-supporters:
     link: /es/colaboradores
   fr:
     title: Nos soutiens
-    link: /fr/nous-soutenir#nos-soutiens
+    link: /fr/nos-soutens
   pt:
 menu-lang:
   es:
