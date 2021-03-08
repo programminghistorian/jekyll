@@ -4,7 +4,7 @@ title: Nos Soutiens
 redirect_from: /nos-soutiens
 ---
 
-# Nos Soutiens
+# Nos soutiens
 
 Le Programming Historian est reconnaissant envers ses contributeurs passés et actuels d'avoir permis de mettre ces ressources à la disposition du monde entier en libre accès.
 
