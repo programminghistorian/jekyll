@@ -211,8 +211,8 @@ menu-contribute-support-donate:
     title: Apóyanos - Donaciones
     link: /es/apoyanos#donaciones
   fr:
-    title: Nous soutenir - Donations
-    link: /fr/nous-soutenir#donations
+    title: Dons individuels
+    link: /fr/nous-soutenir#dons
   pt:
     title: Apoie-nos - Doações
     link: /pt/apoie-nos#doacoes
@@ -257,10 +257,8 @@ menu-support-ipp:
     link: /es/pia
   fr:
     title: Partenariat institutionnel
-    link: /fr/nous-soutenir#partenariat-institutionnel
-  pt:
-    title: Programa de Parceiros Institucionais
-    link: /pt/apoie-nos#programa-de-parceiros-institucionais
+    link: /fr/pi
+  pt: 
 menu-support-individual:
   en:
     title: Individual Supporters
@@ -269,11 +267,9 @@ menu-support-individual:
     title: Apóyanos - Donaciones
     link: /es/donaciones
   fr:
-    title: Nous soutenir - Donations
-    link: /fr/nous-soutenir#donations
-  pt:
-    title: Apoie-nos - Doações
-    link: /pt/apoie-nos#doa%C3%A7%C3%B5es
+    title: Dons individuels
+    link: /fr/dons
+  pt: 
 menu-support-supporters:
   en:
     title: Our Supporters
@@ -283,7 +279,7 @@ menu-support-supporters:
     link: /es/colaboradores
   fr:
     title: Nos soutiens
-    link: /fr/nous-soutenir#nos-soutiens
+    link: /fr/nos-soutiens
   pt:
     title: Apoiadores
     link: /pt/apoie-nos#apoiadores
@@ -587,7 +583,7 @@ donation-banner:
     es: |
       <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">¡Haz una donación a <i>The Programming Historian</i>!</a></h2>
     fr: |
-      <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Vous pouvez faire une donation au <i>Programming Historian</i></a></h2>
+      <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Vous pouvez faire un don au <i>Programming Historian</i></a></h2>
     pt: |
       <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Pode fazer uma doação ao <i>Programming Historian</i></a></h2>
 

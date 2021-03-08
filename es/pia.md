@@ -2,6 +2,7 @@
 layout: blank
 title: Programa de Instituciones Asociadas
 redirect_from: /pia
+redirect_from: /es/apoyanos
 
 ---
 
@@ -20,9 +21,9 @@ Al unirte a nuestro Programa de Instituciones Asociadas, tu institución estará
 | Tasas de asociación | Tasas para [países AOD](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm) |
 | ------------------- | ------------------------------------------------------------ |
 | £1,000 GBP          | £150 GBP                                                     |
-| $1,300 USD          | £200 USD                                                     |
-| €1,200 EUR          | £175 EUR                                                     |
-| $1,700 CAD          |                                                              |
+| $1,300 USD          | $200 USD                                                     |
+| €1,200 EUR          | €175 EUR                                                     |
+| $1,700 CAD          | $275 CAD                                                     |
 
 Las tasas vencen anualmente a partir de la fecha del primer pago y se establecen en enero de cada año. Para una estimación en otra moneda, envía un correo electrónico a <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
 

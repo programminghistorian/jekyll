@@ -12,7 +12,7 @@ The Programming Historian is grateful to our past and current supporters for ena
 ## Institutional Partners
 Contributers to our [Institutional Partner Programme](support-us#institutional-partner-programme).
 
-- [KU Leuven Libraries](https://bib.kuleuven.be/), Belgium
+- [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Belgium
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library), United Kingdom
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), United Kingdom
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), United Kingdom
@@ -60,7 +60,10 @@ We also publicly thank all of our 'Patron' and 'Educator' supporters:
 - Dimitra Koutla
 - Laura Gayle Green (Educator)
 - Rebecca Kahn (Educator)
+<<<<<<< HEAD
 - Sarah Melton (Educator)
+=======
+>>>>>>> badf90c49b5bcbaf0ac9aca7f7d927243156ce13
 
 ## Management of Donations and Sponsorship
 
