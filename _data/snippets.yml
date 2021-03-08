@@ -580,7 +580,7 @@ donation-banner:
     es: |
       <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">¡Haz una donación a <i>The Programming Historian</i>!</a></h2>
     fr: |
-      <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Vous pouvez faire une donation au <i>Programming Historian</i></a></h2>
+      <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Vous pouvez faire un don au <i>Programming Historian</i></a></h2>
     pt: |
       <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Pode fazer uma doação ao <i>Programming Historian</i></a></h2>
 
