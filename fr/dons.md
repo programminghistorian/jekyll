@@ -34,4 +34,4 @@ Des dons ponctuels peuvent être envoyés au Programming Historian via [Paypal](
 
 # Soutien opérationnel
 
-Si vous travaillez pour une organisation qui serait intéressée à contribuer au succès du *Programming Historian*, veuillez contacter notre [programme de Partenariat institutionel](ipp), qui fournit un soutien essentiel à notre travail.
+Si vous travaillez pour une organisation qui serait intéressée à contribuer au succès du *Programming Historian*, veuillez contacter notre [programme de Partenariat institutionel]({{site.baseurl}}/fr/pi), qui fournit un soutien essentiel à notre travail.
