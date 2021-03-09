@@ -29,6 +29,7 @@ Agradecemos consultas de posibles contribuidores del [Programa de Instituciones 
 
 Organizaciones que han o continúan brindando apoyo en forma de contribución en especie hasta financiamiento específico para proyectos.
 
+- The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Reino Unido [2021].
 - University of Sussex, Reino Unido:
     - University of Sussex Library [2020-Presente]
     - School of History, Art History and Philosophy, University of Sussex [2019]
@@ -37,7 +38,6 @@ Organizaciones que han o continúan brindando apoyo en forma de contribución en
 - The British Academy [Writing Workshops funding scheme](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/), Reino Unido [2018].
 - dSHARP lab at Carnegie Mellon University patrocinado por the Andrew W. Mellon Foundation, Estados Unidos [2018-2020].
 - The Network in Canadian History & Environment, Canadá [2011-2013].
-- The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Reino Unido [2021].
 
 ## Colaboradores individuales
 
