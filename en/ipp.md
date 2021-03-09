@@ -2,7 +2,7 @@
 layout: blank
 title: Institutional Partnership Programme
 redirect_from: /ipp
-redirect_from: /en/support-us
+
 ---
 
 
