@@ -2,6 +2,7 @@
 layout: blank
 title: Individual Supporters
 redirect_from: /individual
+redirect_from: /en/support-us
 ---
 
 # Individual Supporters
