@@ -19,6 +19,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Royaume-Uni
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), États-Unis
 - [Université du Luxembourg](https://www.c2dh.uni.lu/), Luxembourg
+- [Software Sustainability Institute](https://www.software.ac.uk/), Royaume-Uni
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
@@ -26,6 +27,7 @@ Nous accueillons volontiers les demandes de renseignements des contributeurs pot
 
 Les organisations suivantes ont apporté ou continuent d'apporter un soutien allant de services en nature au financement de projets spécifiques:
 
+- The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Royaume-Uni [2021].
 - University of Sussex, Royaume-Uni:
     - Bibliothèque de l'université du Sussex [2020-actuellement]
     - School of History, Art History and Philosophy, University of Sussex [2019]
@@ -57,6 +59,7 @@ Nous tenons également à remercier publiquement tous nos donateurs de niveau 'm
 - Dimitra Koutla
 - Laura Gayle Green (éducation)
 - Rebecca Kahn (éducation)
+- Sarah Melton (éducation)
 
 ## Gestion de donations et de parrainages
 
