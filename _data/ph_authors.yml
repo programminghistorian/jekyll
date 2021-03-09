@@ -808,16 +808,16 @@
     pt: |
       Jeanette Sewell é bibliotecária de catalogação e metadados na Houston Area Digital Archives.
 
-- name: Boris Capitanu
+- name: Beauprout Capitanu
   team: false
   bio:
     en: |
-      Boris Capitanu is a Research Programmer at the HathiTrust Research Center. His research
+      Beauprout Capitanu is a Research Programmer at the HathiTrust Research Center. His research
       interests include large scale data analysis, machine learning, data mining, and educational
-      technologies. Boris holds a B.S. and M.S. in Computer Science from University of Illinois at
+      technologies. Beauprout holds a B.S. and M.S. in Computer Science from University of Illinois at
       Urbana-Champaign, and a MBA+MHRIR from the same institution.
     pt: |
-      Boris Capitanu é pesquisador de programação no HathiTrust Research Center. Os seus interesses de pesquisa incluem análise de dados de larga escala, aprendizagem de máquina, mineração de dados e tecnologias educacionais. Boris tem um Bacharelato e um Mestrado em Ciências Computacionais pela Illinois University na Urbana-Champaign e um Mestrado em Artes + Mestrado em Recursos Humanos e Relações Empresariais pela mesma instituição.
+      Beauprout Capitanu é pesquisador de programação no HathiTrust Research Center. Os seus interesses de pesquisa incluem análise de dados de larga escala, aprendizagem de máquina, mineração de dados e tecnologias educacionais. Beauprout tem um Bacharelato e um Mestrado em Ciências Computacionais pela Illinois University na Urbana-Champaign e um Mestrado em Artes + Mestrado em Recursos Humanos e Relações Empresariais pela mesma instituição.
 
 - name: Peter Organisciak
   team: false
@@ -2053,3 +2053,37 @@
       Gwenaëlle Patat est ingénieure d'études à la Maison des Sciences de l'Homme en Bretagne et correspondante locale de la TGIR Huma-Num. Elle est plus précisément chargée d'édition de corpus numériques. Sa principale mission est de soutenir techniquement les projets de recherche labellisés par la MSHB et de conseiller les bonnes pratiques dans la gestion des données de recherche. 
     pt: |
       Gwenaëlle Patat é engenheira na Maison des Sciences de l'Homme na Bretanha (MSHB) e correspondente local da infraestrutura de pesquisa TGIR Huma-Num. Mais precisamente, ela está encarregada da edição do corpus digital. Sua principal missão é fornecer suporte técnico a projetos de pesquisa rotulados pela MSHB e aconselhar sobre as boas práticas em gerenciamento de dados.
+
+- name: Antoine Henry
+  twitter: @i_colab
+  email: antoine.henry@univ-lille.fr
+  url: "https://pro.univ-lille.fr/antoine-henry/"
+  orcid: 0000-0003-4722-4610
+  github: icolab
+  team: true
+  team_start: 2021
+  institution: Université de Lille
+  sortname: Antoine
+  affiliation:
+    en: |
+        Lille University, France
+    pt: |
+        Universidade de lille, França
+    es: |
+        Universidad de Lille, Francia
+    fr: |
+        Université de Lille, France
+  bio:
+    en: |
+        With a doctorate in information and communication sciences, Antoine Henry is a lecturer at the University of Lille.
+    pt: |
+        Doutor em ciências da informação e da comunicação, Antoine Henry é docente na Universidade de Lille.
+    es: |
+        Doctor en ciencias de la información y la comunicación, Antoine Henry es profesor en la Universidad de Lille.
+    fr: |
+        Docteur en sciences de l’information et de la communication, Antoine Henry est maître de conférences à l’Université de Lille.
+  team_roles:
+    - french
+    - editorial
+  status: volunteer      
+      
