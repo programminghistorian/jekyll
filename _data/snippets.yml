@@ -3,6 +3,7 @@ language-list:
   - en
   - es
   - fr
+  - pt
 
 # top nav bar
 menu-home:
@@ -226,7 +227,7 @@ menu-lessons:
     title: Leçons
     link: /fr/lecons
   pt:
-    title: Liçóes
+    title: Lições
     link: /pt/licoes
 menu-blog:
   en:
@@ -246,7 +247,7 @@ menu-support-us:
   en: Support Us
   es: Apóyanos
   fr: Nous soutenir
-  pt:
+  pt: Apoie-nos
 menu-support-ipp:
   en:
     title: Institutional Partnership Programme
@@ -257,7 +258,9 @@ menu-support-ipp:
   fr:
     title: Partenariat institutionnel
     link: /fr/nous-soutenir#partenariat-institutionnel
-  pt: 
+  pt:
+    title: Programa de Parceiros Institucionais
+    link: /pt/apoie-nos#programa-de-parceiros-institucionais
 menu-support-individual:
   en:
     title: Individual Supporters
@@ -268,7 +271,9 @@ menu-support-individual:
   fr:
     title: Nous soutenir - Donations
     link: /fr/nous-soutenir#donations
-  pt: 
+  pt:
+    title: Apoie-nos - Doações
+    link: /pt/apoie-nos#doa%C3%A7%C3%B5es
 menu-support-supporters:
   en:
     title: Our Supporters
@@ -280,6 +285,8 @@ menu-support-supporters:
     title: Nos soutiens
     link: /fr/nous-soutenir#nos-soutiens
   pt:
+    title: Apoiadores
+    link: /pt/apoie-nos#apoiadores
 menu-lang:
   es:
     title: es
@@ -311,7 +318,7 @@ issn:
   en: 2397-2068
   es: 2517-5769
   fr: 2631-9462
-  pt: PENDENTE
+  pt: 2753-9296
 
 # site footer
 footer:
@@ -323,7 +330,7 @@ footer:
     fr: |
       _The Programming Historian en français_ (ISSN: 2631-9462) est publié sous licence [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.fr).
     pt: |
-      _The Programming Historian em português_ (ISSN: PENDENTE) é publicado com uma licença [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.pt).
+      _The Programming Historian em português_ (ISSN: 2753-9296) é publicado com uma licença [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.pt).
   financial:
     en: |
       This project is administered by ProgHist Limited, Company Number [12192946](https://beta.companieshouse.gov.uk/company/12192946).
@@ -664,7 +671,7 @@ volume-start:
   en: 2012
   es: 2017
   fr: 2019
-  pt: 2020
+  pt: 2021
 suggested-citation:
   en: Suggested Citation
   es: Cita sugerida

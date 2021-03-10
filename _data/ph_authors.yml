@@ -150,8 +150,9 @@
   email: vgayol@colmich.edu.mx
   twitter: victor_gayol
   github: vgayolrs
-  team: true
+  team: false
   team_start: 2016
+  team_end: 2020
   institution: El Colegio de Michoacán
   sortname: Gayol
   orcid: 0000-0002-2442-3193
@@ -184,8 +185,9 @@
   email: rojas.castro.antonio@gmail.com
   twitter: RojasCastroA
   github: arojascastro
-  team: true
+  team: false
   team_start: 2016
+  team_end: 2020
   institution: Berlin-Brandenburgische Akademie der Wissenschaften
   sortname: Rojas Castro
   orcid: 0000-0002-8916-4997
@@ -1190,8 +1192,9 @@
   twitter: fdlaramee
   url: "http://www.francoisdominiclaramee.com"
   email: fdl@francoisdominiclaramee.com
-  team: true
+  team: false
   team_start: 2018
+  team_end: 2020
   sortname: Laramée
   orcid: 0000-0001-5542-3754
   institution: University of Ottawa
@@ -1640,17 +1643,17 @@
   orcid: 0000-0002-3541-8197
   team: true
   team_start: 2020
-  institution: Universidade Nova de Lisboa
+  institution: Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa
   sortname: Alves
   affiliation:
     en: |
-      Universidade Nova de Lisboa, Portugal.
+      Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
     pt: |
-      Universidade Nova de Lisboa, Portugal.
+      Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
     es: |
-      Universidade Nova de Lisboa, Portugal.
+      Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
     fr: |
-      Universidade Nova de Lisboa, Portugal.
+      Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
   bio:
     en: |
       Daniel Alves is Assistant Professor in the Department of History and researcher at the Institute of Contemporary History, both at NOVA-FCSH, Universidade Nova de Lisboa. He coordinates the Digital Humanities Lab at NOVA-FCSH.
@@ -1812,17 +1815,17 @@
   github: daniellesanchesDH
   team: true
   team_start: 2020
-  institution: Universidade Nova de Lisboa
+  institution: Fundação Getulio Vargas
   sortname: Sanches
   affiliation:
     en: |
-        University Nova de Lisboa, Portugal.
+        Fundação Getulio Vargas, Brasil.
     pt: |
-        Universidade Nova de Lisboa, Portugal.
+        Fundação Getulio Vargas, Brasil.
     es: |
-        Universidad Nova de Lisboa, Portugal.
+        Fundação Getulio Vargas, Brasil.
     fr: |
-        Université nouvelle de Lisbonne, Portugal.
+        Fundação Getulio Vargas, Brasil.
   bio:
     en: |
         Danielle Sanches holds a PhD in History of Science from the EHESS/Paris and is a collaborator researcher at the Digital Humanities Laboratory (LabHD) at NOVA-FCSH, at University Nova de Lisboa, Portugal.
@@ -1953,3 +1956,100 @@
         placeholder
     pt: |
         Andrew Akhlaghi é candidato a doutoramento no Departamento de História da University of Texas at Austin, especializado em Médio Oriente e humanidades digitais.
+
+- name: Jimmy Medeiros
+  twitter: jimmy_medeiros
+  email: jimmy.medeiros@fgv.br
+  url: "https://cpdoc.fgv.br/equipe/JimmyMedeiros"
+  github: JimmyMedeiros82
+  team: true
+  team_start: 2020
+  institution: Fundação Getulio Vargas
+  sortname: Medeiros
+  affiliation:
+    en: |
+        Fundação Getulio Vargas, Brasil.
+    pt: |
+        Fundação Getulio Vargas, Brasil.
+    es: |
+        Fundación Getulio Vargas, Brasil.
+    fr: |
+        Fundação Getulio Vargas, Brasil.
+  bio:
+    en: |
+        Jimmy Medeiros holds a PhD in Public Policy, Strategy and Development from UFRJ, Researcher at the School of Social Sciences FGV CPDOC and teaches at the Post-Graduation in History, Politics and Cultural Property at FGV and at the undergraduate course in Social Sciences at FGV.
+    pt: |
+        Jimmy Medeiros é doutor em Políticas Públicas, Estratégia e Desenvlvimento pela UFRJ, Pesquisador Pleno na Escola de Ciências Sociais FGV CPDOC e professor no Porgrama de Pós-graduação em História, Política e Bens Culturais da FGV e no curso de graduação em Ciências Sociais da FGV.
+    es: |
+        Jimmy Medeiros es Doctor en Políticas Públicas, Estrategia y Desarrollo de la UFRJ, Investigador de la Facultad de Ciencias Sociales FGV CPDOC y profesor del Programa de Posgrado en Historia, Política y Bienes Culturales de la FGV y de grado en Ciencias Sociales de la FGV.
+    fr: |
+        Jimmy Medeiros est docteur en politique publique, stratégie et développement de l'UFRJ, chercheur titulaire à l'École des sciences sociales FGV CPDOC. Il enseigne dans le programme d'études supérieures en histoire, politique et biens culturels à la FGV, et les sciences sociales en premier cycle à la FGV.
+  team_roles:
+    - portuguese
+    - editorial
+  status: volunteer
+  
+- name: Matthias Gille Levenson
+  twitter: 
+  email: matthias.gille-levenson@casadevelazquez.org
+  url: "https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html"
+  orcid: 0000-0001-9488-5986
+  github: matgille
+  team: true
+  team_start: 2021
+  institution: ENS Lyon / Casa de Velázquez
+  sortname: Gille
+  affiliation:
+    en: |
+        École Normale Supérieure de Lyon, France / Casa de Velázquez, Spain.
+    pt: |
+        École Normale Supérieure de Lyon, França / Casa de Velázquez, Espanha.
+    es: |
+        École Normale Supérieure de Lyon, Francia / Casa de Velázquez, España.
+    fr: |
+        École Normale Supérieure de Lyon, France / Casa de Velázquez, Espagne.
+  bio:
+    en: |
+        Matthias Gille Levenson is a PhD candidate in medieval castilian philology at the École Normale Supérieure de Lyon. He is currently a scientific member of the Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques in Madrid.
+    pt: |
+        Matthias Gille Levenson é doutorando em filologia castelhana medieval na École Normale Supérieure de Lyon. Atualmente é membro científico da Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques de Madrid.
+    es: |
+        Matthias Gille Levenson es doctorando en filología medieval castellana en la École Normale Supérieure de Lyon, y es actualmente miembro científico de la Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques.
+    fr: |
+        Matthias Gille Levenson est doctorant en philologie médiévale castillane à l'École Normale Supérieure de Lyon, et membre scientifique de la Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques.
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
+  
+- name: Gwenaëlle Patat
+  email: gwenaelle.patat@gmail.com
+  twitter: InsSalom5
+  github: InesSalome
+  orcid: 0000-0002-8520-3485
+  team: true
+  team_start: 2021
+  institution: MSHB (Maison des Sciences de l'Homme en Bretagne)
+  sortname: Patat
+  affiliation:
+    en: |
+      Maison des Sciences de l'Homme en Bretagne (MSHB, Rennes), France
+    es: |
+      Maison des Sciences de l'Homme en Bretagne (MSHB, Rennes), Francia
+    fr: |
+      Maison des Sciences de l'Homme en Bretagne (MSHB, Rennes), France
+    pt: |
+      Maison des Sciences de l'Homme en Bretagne (MSHB, Rennes), França
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
+  bio:
+    en: |
+      Gwenaëlle Patat is engineer at the Maison des Sciences de l'Homme en Bretagne and research infrastructure Huma-Num's representative. She is more precisely in charge of editing digital corpora. Her principal mission is to technically support research project labellised by the MSHB and to encourage the best practices about managing research data. 
+    es: |
+      Gwenaëlle Patat es ingeniera en la Maison des Sciences de l'Homme en Bretaña y representante local de la infraestructura para la investigación Huma-Num. Específicamente, está encargada de la edición de corpus digitales. Su principal misión es apoyar los proyectos de investigación certificados por la MSHB y aconsejar sobre buenas prácticas para la gestión de los datos. 
+    fr: |
+      Gwenaëlle Patat est ingénieure d'études à la Maison des Sciences de l'Homme en Bretagne et correspondante locale de la TGIR Huma-Num. Elle est plus précisément chargée d'édition de corpus numériques. Sa principale mission est de soutenir techniquement les projets de recherche labellisés par la MSHB et de conseiller les bonnes pratiques dans la gestion des données de recherche. 
+    pt: |
+      Gwenaëlle Patat é engenheira na Maison des Sciences de l'Homme na Bretanha (MSHB) e correspondente local da infraestrutura de pesquisa TGIR Huma-Num. Mais precisamente, ela está encarregada da edição do corpus digital. Sua principal missão é fornecer suporte técnico a projetos de pesquisa rotulados pela MSHB e aconselhar sobre as boas práticas em gerenciamento de dados.

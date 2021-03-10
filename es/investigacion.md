@@ -47,7 +47,9 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 de mayo, 2015).
 
 ### Carteles, conferencias y presentaciones
-* Brandon Walsh, '[The Programming Historian and Editorial Process in Digital Publishing](http://walshbr.com/blog/the-programming-historian-and-editorial-process-in-digital-publishing/)', Modern Languages Association Conference 2021, 7-10 enero, 2021. 
+* Brandon Walsh, '[The Programming Historian and Editorial Process in Digital Publishing](http://walshbr.com/blog/the-programming-historian-and-editorial-process-in-digital-publishing/)', Modern Languages Association Conference 2021, 7-10 enero, 2021.  
+* Sofia Papastamkou, François Dominic Laramée, Martin Grandjean, '[Le Programming Historian en français: quelles ressources éducatives libres pour les méthodes numériques ?](https://zenodo.org/record/3819954)', *Humanistica 2020*, Bordeaux, France, 12-14 mayo 2020.   
+* Sofia Papastamkou, 'A Beating Heart of Digital History: The Programming Historian', [Teaching Digital History Workshop](https://cas.au.dk/center-for-digital-history-aarhus/events/show/artikel/teaching-digital-history-workshop-a-one-day-seminar/), Center for Digital History Aarhus, University of Aarhus, Dinamarca, 23 octubre 2019.  
 * Sofia Papastamkou, Antonio Rojas Castro & Anna-Maria Sichani, '[Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French Speaking DH Communities](https://dev.clariah.nl/files/dh2019/boa/1207.html)', Digital Humanities Conference 2019, Utrecht,
 Países Bajos, 9-12 julio, 2019.
 * Jennifer Isasi, Antonio Rojas y Anna-Maria Sichani, 'Data science and the language question in digital humanities pedagogy: the example of the Programming Historian', *EADH 2018*, National University of Ireland, Galway (9 diciembre 2018).
@@ -78,6 +80,7 @@ Países Bajos, 9-12 julio, 2019.
 
 ### Proyectos que utilizan *The Programming Historian*
 
+* Eva Pfanzelter, "<a href="https://www.newseye.eu/resources/educational-material/syllabi-and-teaching-material-for-universities/syllabus-digitale-geschichtswissenschaft/">Syllabus: Introduction to Digital Practice in the Historical Sciences</a>", History Curriculum, University of Innsbruck, Austria, <em>NewsEye H2020 Project</em> (2021).
 * Kelly Fitzpatrick, "<a href="https://lil.law.harvard.edu/blog/2019/11/12/getting-started-with-caselaw-access-project-data/">Caselaw Access Project</a>", <em>Harvard Law School</em> (2019).
 * Paul Spence, Renata Brandao, "<a href="https://languageacts.org/digital-mediations/event/writing-sprint/call-proposals/">Digital Modern Languages Writing Sprint</a>", <em>Language Acts and Worldmaking</em> (2019).
 * James Baker, Caitlin Moore, Ernesto Priego, Raquel Alegre, Jez Cope, Ludi Price, Owen Stephens, Daniel van Strien, Greg Wilson, '[Library Carpentry: software skills training for library professionals]', _Liber Quarterly: The Journal of the Association of European Research Libraries_, 26(3) (2016).

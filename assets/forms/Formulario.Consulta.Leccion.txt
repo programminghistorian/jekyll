@@ -5,13 +5,14 @@ Si estás interesado en escribir un tutorial y enviarlo a Programming Historian,
 Inglés: Sarah Melton (sarah.melton@bc.edu)
 Español: Riva Quiroga (riva.quiroga@uc.cl)
 Francés: Sofia Papastamkou (spapastamkou@gmail.com)
+Portugués: Daniel Alves (dra@fcsh.unl.pt)
 
 ## Acerca de ti
 1. Nombre
 2. Correo electrónico
 
 ## Metadatos del tutorial
-3. Idioma del envío (elimina según corresponda) English / Español / Français
+3. Idioma del envío (elimina según corresponda) English / Español / Français / Portugués
 4. Título propuesto para el tutorial
 5. Resumen del tutorial (3-4 oraciones)
 6. Descripción del caso de estudio (detalles sobre el problema histórico utilizado como ejemplo)

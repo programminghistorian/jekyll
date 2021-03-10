@@ -20,6 +20,7 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), United Kingdom
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), United States
 - [Université du Luxembourg](https://www.c2dh.uni.lu/), Luxembourg
+- [Software Sustainability Institute](https://www.software.ac.uk/), United Kingdom
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
@@ -35,16 +36,18 @@ Organizations that have or continue to give support ranging from in kind service
 - The British Academy [Writing Workshops funding scheme](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/), United Kingdom [2018].
 - The dSHARP lab at Carnegie Mellon University sponsored by the Andrew W. Mellon Foundation, United States [2018-2020].
 - The Network in Canadian History & Environment, Canada [2011-2013].
+- The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), United Kingdom [2021].
 
 ## Individual Supporters
 
 We are grateful to our many dozens of individual sponsors who contribute through [Patreon](https://www.patreon.com/theprogramminghistorian) or [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url) donations. We particularly want to acknowledge our founding Patreon subscribers at each tier level:
 
 - Rachel Murphy ('Subscriber')
-- Miriam Posner ('Sponsor')
+- Miriam Posner ('Apprentice')
+- Laura Gayle Green ('Educator')
 - Tim Hitchcock ('Patron')
 
-We also publicly thank all of our 'Patron' supporters:
+We also publicly thank all of our 'Patron' and 'Educator' supporters:
 
 - Tim Hitchcock
 - Shawn Graham
@@ -55,6 +58,9 @@ We also publicly thank all of our 'Patron' supporters:
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 - Dimitra Koutla
+- Laura Gayle Green (Educator)
+- Rebecca Kahn (Educator)
+- Sarah Melton (Educator)
 
 ## Management of Donations and Sponsorship
 

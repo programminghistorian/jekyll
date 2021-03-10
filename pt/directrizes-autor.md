@@ -23,7 +23,7 @@ Procuramos lições relevantes para as Humanidades sobre um problema ou processo
 O âmbito e extensão da lição devem ser adequados à  complexidade da tarefa, mas não devem ter mais de 8.000 palavras (incluindo códigos). Lições mais curtas são bem-vindas. Lições mais longas podem precisar de ser divididas.
 </div>
 
-Se tem uma ideia para uma nova lição preencha o [formulário de proposta de lição](/assets/forms/Lesson.Query.Form.txt) e envie para {% include managing-editor.html lang=page.lang %}.
+Se tem uma ideia para uma nova lição preencha o [formulário de proposta de lição](/assets/forms/formulario.proposta.licao.txt) e envie para {% include managing-editor.html lang=page.lang %}.
 
 Para ter uma ideia do que publicamos consulte as [lições publicadas]({{site.baseurl}}/pt/licoes), leia as nossas [orientações para revisores]({{site.baseurl}}/pt/directrizes-revisor) ou navegue pelas [lições em desenvolvimento](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
 
@@ -230,7 +230,7 @@ Para inserir uma imagem no seu texto, use o seguinte formato:
 
 {% raw %}
 ``` markdown
-{% include figure.html filename="IMAGE-FILENAME" caption="YOUR CAPTION USING \"ESCAPED\" QUOTES" %}
+{% include figure.html filename="NOME-DO-FICHEIRO-DE-IMAGEM" caption="A LEGENDA USANDO \"BARRAS\" PARA SALTAR ASPAS INTERNAS" %}
 ```
 {% endraw %}
 
@@ -297,7 +297,7 @@ O processo de revisão por pares normalmente tem três etapas:
 
 3) Quando o editor e revisores estiverem satisfeitos com a lição, o editor recomendará a publicação ao Editor Chefe, que irá ler e garantir que corresponde às Directrizes para Autores e aos padrões do *Programming Historian*. Em alguns casos, podem haver revisões adicionais ou edições nesta fase para alinhar a peça aos padrões de publicação. Se o Editor Chefe estiver satisfeito com a lição, ela será copiada para o site online. Quando isto acontecer o editor irá comunicar se qualquer informação adicional for necessária nesta fase.
 
-Pode ser útil ler as [directrizes para editores](pt/directrizes-editor), que apresentam mais detalhes sobre todo o processo  editorial.
+Pode ser útil ler as [directrizes para editores](/pt/directrizes-editor), que apresentam mais detalhes sobre todo o processo editorial.
 
 Se, a qualquer momento, tiver dúvidas do seu papel ou o que fazer a seguir, basta publicar a pergunta na discussão da revisão por pares. Qualquer um dos nossos editores responderá assim que possível. A equipa esforça-se por responder a todas as perguntas dentro de poucos dias.
 
