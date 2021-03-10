@@ -16,6 +16,10 @@ Color Styles
   --secondary-bg-color: #27b;
   --tertiary-bg-color: #289;
   --heading-color: #292922;
+  --above-title-color: #999;
+  --a-hover-active-color: #555;
+  --header-lesson-color: #f5f5f5;
+  --header-helpers-color: #ccc;
 }
 
 [data-theme="night"] {
@@ -25,6 +29,10 @@ Color Styles
   --font-color: #fff;
   --bg-color: #161625;
   --heading-color: #818cab;
+  --above-title-color: #e1e1ff;
+  --a-hover-active-color: #9A97F3;
+  --header-lesson-color: #171f24;
+  --header-helpers-color: #444444;
 }
 
 @media screen {
@@ -187,7 +195,8 @@ Lesson Headers
   header .container-fluid {
     margin:0;
     padding:1rem;
-    background: #f5f5f5;
+    background: var(--header-lesson-color);
+    ;
   }
 
   header h1 {
@@ -237,8 +246,8 @@ Lesson Headers
 
   header .header-helpers {
     clear:both;
-    background:#ccc;
-    color:#fff;
+    background:var(--header-helpers-color);
+    color: #fff;
     border-top:1px solid #999;
     border-bottom:1px solid #999;
   }
@@ -513,7 +522,7 @@ Lessons Index
   .above-title {
     margin:0 0 .2rem 0;
     font: .8rem/1rem 'Roboto Condensed';
-    color:#999;
+    color:var(--above-title-color);
     text-transform:uppercase;
     clear:none;
   }
@@ -669,8 +678,8 @@ Lesson Typography
 
   a:link {color: #38c;}
   a:visited {color: #39a;}
-  a:hover {color: #555;}
-  a:active {color: #555;}
+  a:hover {color: var(--a-hover-active-color);}
+  a:active {color: var(--a-hover-active-color);}
 
   b, strong { font-weight: bold; }
 
@@ -797,7 +806,7 @@ Figures
     margin-top:.5rem;
     font-family:'Open Sans';
     font-size:0.8em;
-    color: #666;
+    color: var(--font-color);
     display:block;
     caption-side: bottom;
   }
