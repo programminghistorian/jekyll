@@ -1,8 +1,9 @@
 ---
 layout: blank
 title: Partenariat Institutionnele
-redirect_from: /pi
-redirect_from: /fr/nous-soutenir
+redirect_from: 
+- /pi
+- /fr/nous-soutenir
 ---
 
 
