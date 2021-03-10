@@ -32,19 +32,6 @@ jobs:
           arguments: --assume-extension --empty-alt-ignore --alt-ignore '/.*/' --file-ignore '/.+/assets/.*/','/.+/retired/.*/', '/.+/retirada/.*/', '/.+/retrait/.*/' --timeframe '30d' --only-4xx --http-status-ignore 429,403,400 --url-ignore '/http://www.gutenberg.org/*/','/https://github.com/programminghistorian/jekyll/(commits|blob)/*/','/\#/',"/espanol/","/deprecated/",'/collection.britishmuseum.org/','/analytics.hathitrust.org/','/fr.wikipedia.org/wiki/'
           # The arguments to pass to HTMLProofer
 
-      # - name: Deploy to Netlify
-      #   if : github.event.action != 'closed'
-      #   uses: nwtgck/actions-netlify@v1.1
-      #   with:
-      #     publish-dir: './_site'
-      #     production-branch: gh-pages
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
-      #     deploy-message: "Deploy from GitHub Actions"
-      #   env:
-      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-      #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-      #   timeout-minutes: 1
-
       - name: Trigger next workflow
         if: success() && github.event.action == 'closed'
         uses: peter-evans/repository-dispatch@v1
