@@ -5,6 +5,7 @@ If you are interested in writing a lesson and submitting it to the Programming H
 English: Sarah Melton (sarah.melton@bc.edu)
 Spanish: Riva Quiroga (riva.quiroga@uc.cl)
 French: Sofia Papastamkou (spapastamkou@gmail.com)
+Portuguese: Daniel Alves (dra@fcsh.unl.pt)
 
 
 ## About You
@@ -12,7 +13,7 @@ French: Sofia Papastamkou (spapastamkou@gmail.com)
 2. Your email address
 
 ## Lesson Metadata
-3. Submission Langauge (delete as appropriate) English / Español / Français
+3. Submission Langauge (delete as appropriate) English / Español / Français / Portuguese
 4. Proposed Lesson Title
 5. Lesson Abstract (3-4 sentences)
 6. Case Study Description (details about your historical example problem)

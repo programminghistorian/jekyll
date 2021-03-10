@@ -55,7 +55,7 @@ A etapa seguinte mais importante é que seu editor crie um ticket para a nova tr
 ### Aguardar comentários do revisor
 O nosso objetivo é concluir o processo de revisão dentro de quatro semanas, mas às vezes ocorrem atrasos ou as pessoas ficam ocupadas, pelo que o processo pode demorar mais do que esperávamos.
 
-Seguindo os ideais da investigação académica pública e de revisão aberta por pares, incentivamos as discussões a permanecer no GitHub, para serem abertas a todos. No entanto, também queremos que todos se sintam confortáveis com o processo. Se precisar de discutir algo em particular, não hesite em enviar um [e-mail diretamente ao seu editor](/project-team) ou entre em contato com o nosso mediador (Luís Ferla).
+Seguindo os ideais da investigação académica pública e de revisão aberta por pares, incentivamos as discussões a permanecer no GitHub, para serem abertas a todos. No entanto, também queremos que todos se sintam confortáveis com o processo. Se precisar de discutir algo em particular, não hesite em enviar um [e-mail diretamente ao seu editor](/pt/equipe#programming-historian-em-português) ou entre em [contato com o nosso mediador independente](/pt/equipe#programming-historian-em-português).
 
 ### Responder aos comentários
 YO editor e os revisores provavelmente farão algumas sugestões de melhoria no ticket da sua tradução. O editor deve esclarecer quais sugestões são essenciais, quais são opcionais e quais podem ser deixadas de lado.

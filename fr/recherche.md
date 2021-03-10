@@ -46,7 +46,9 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, Université d'Edimbourg (26 mai 2015).
 
 ## Posters, présentations et conférences invitées
-* Brandon Walsh, '[The Programming Historian and Editorial Process in Digital Publishing](http://walshbr.com/blog/the-programming-historian-and-editorial-process-in-digital-publishing/)', Modern Languages Association Conference 2021, 7-10 janvier 2021. 
+* Brandon Walsh, '[The Programming Historian and Editorial Process in Digital Publishing](http://walshbr.com/blog/the-programming-historian-and-editorial-process-in-digital-publishing/)', Modern Languages Association Conference 2021, 7-10 janvier 2021.  
+* Sofia Papastamkou, François Dominic Laramée, Martin Grandjean, '[Le Programming Historian en français: quelles ressources éducatives libres pour les méthodes numériques ?](https://zenodo.org/record/3819954)', *Humanistica 2020*, Bordeaux, France, 12-14 mai 2020.   
+* Sofia Papastamkou, 'A Beating Heart of Digital History: The Programming Historian', [Atelier Teaching Digital History](https://cas.au.dk/center-for-digital-history-aarhus/events/show/artikel/teaching-digital-history-workshop-a-one-day-seminar/), Center for Digital History Aarhus, Université d'Aarhus, Danemark, 23 Octobre 2019.    
 * Sofia Papastamkou, Antonio Rojas Castro & Anna-Maria Sichani, '[Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French Speaking DH Communities](https://dev.clariah.nl/files/dh2019/boa/1207.html)', Conférence Digital Humanities 2019, Utrecht, Pays-Bas, 9-12 juillet 2019.
 * Jennifer Isasi, Antonio Rojas et Anna-Maria Sichani, 'Data science and the language question in digital humanities pedagogy: the example of the Programming Historian', *EADH 2018*, National University of Ireland, Galway, 9 décembre 2018.
 * Afanador, Maria José. 'The Programming Historian en español: estrategias y retos para la construcción de una comunidad global de humanidades digitales.' Conférence DH2018, Mexico, Méxique (juin 2018).
@@ -73,6 +75,7 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 
 ## Projets utilisant le Programming Historian
+* Eva Pfanzelter, "<a href="https://www.newseye.eu/resources/educational-material/syllabi-and-teaching-material-for-universities/syllabus-digitale-geschichtswissenschaft/">Syllabus: Introduction to Digital Practice in the Historical Sciences</a>", Université d'Innsbruck, Autriche <em>Projet H2020 NewsEye</em> (2021).
 * Kelly Fitzpatrick, "<a href="https://lil.law.harvard.edu/blog/2019/11/12/getting-started-with-caselaw-access-project-data/">Caselaw Access Project</a>", <em>Harvard Law School</em> (2019).
 * Paul Spence, Renata Brandao, "<a href="https://languageacts.org/digital-mediations/event/writing-sprint/call-proposals/">Digital Modern Languages Writing Sprint</a>", <em>Language Acts and Worldmaking</em> (2019).
 * James Baker, Caitlin Moore, Ernesto Priego, Raquel Alegre, Jez Cope, Ludi Price, Owen Stephens, Daniel van Strien, Greg Wilson, '[Library Carpentry: software skills training for library professionals](https://www.liberquarterly.eu/articles/10176/)', _Liber Quarterly: The Journal of the Association of European Research Libraries_, 26(3) (2016).

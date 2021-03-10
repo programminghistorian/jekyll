@@ -22,12 +22,12 @@ Obrigado por editar uma lição para o *Programming Historian em português*. So
 Incentivamos sempre potenciais autores ou tradutores de lições a apresentar as suas ideias antes de começarem a escrever. Se uma proposta não é adequada para o *Programming Historian em português*, o papel do editor é informar o autor antes que ele tenha escrito a lição completa. Queremos com isto poupar o tempo e a energia de todos. Uma vez conversado com o autor e encorajadas as suas ideias, o objetivo é apoiar o autor até que a lição esteja pronta para publicar. O objetivo é ajudá-lo da forma mais eficiente possível e com directrizes claras. Para isso pode ser útil conhecer as nossas [diretrizes para autores](/pt/directrizes-autor).
 
 ### Espaços seguros
-O *Programming Historian em português* compromete-se em manter um espaço seguro para a troca de ideias, onde todos possam falar sem medo de assédio ou abuso. O editor desempenha um papel fundamental ao garantir a tolerância neste espaço. O trabalho inclui reforçar permanentemente a nossa política anti-assédio. Se for preciso ajuda, basta perguntar a um dos outros editores ou à ombudsperson do PH (a indicar). Para saber mais, pode ler sobre o [compromisso com espaços seguros](/posts/PH-commitment-to-diversity) no blog do projeto.
+O *Programming Historian em português* compromete-se em manter um espaço seguro para a troca de ideias, onde todos possam falar sem medo de assédio ou abuso. O editor desempenha um papel fundamental ao garantir a tolerância neste espaço. O trabalho inclui reforçar permanentemente a nossa política anti-assédio. Se for preciso ajuda, basta perguntar a um dos [outros editores ou ao nosso mediador independente](/pt/equipe#programming-historian-em-português). Para saber mais, pode ler sobre o [compromisso com espaços seguros](/posts/PH-commitment-to-diversity) no blog do projeto.
 
 ### Política anti-assédio
 Esta é uma declaração dos princípios do *Programming Historian em português* onde são definidas as expectativas para o tom e estilo de toda a comunicação entre revisores, autores, editores e participantes dos nossos fóruns públicos.
 
-O *Programming Historian em português* dedica-se a criar um ambiente académico aberto em que os membros da comunidade podem examinar em liberdade e detalhadamente ideias, fazer perguntas, sugestões ou pedir esclarecimentos. Este espaço tem que ser livre de assédio para todos no projeto, independentemente do género, identidade e expressão de género, orientação sexual, deficiência, aparência física, raça, idade ou religião ou experiência técnica. Não é tolerado de nenhuma forma qualquer assédio ou ataque *ad hominem* a membros da comunidade. Os membros que violarem estas regras podem ser expulsos da comunidade, por avaliação do conselho editorial. Se alguém testemunhar ou sentir que foi vítima das atividades descritas acima, deve entrar em contato com a ombudsperson do PH (a indicar). Obrigado por nos ajudar a criar um espaço seguro.
+O *Programming Historian em português* dedica-se a criar um ambiente académico aberto em que os membros da comunidade podem examinar em liberdade e detalhadamente ideias, fazer perguntas, sugestões ou pedir esclarecimentos. Este espaço tem que ser livre de assédio para todos no projeto, independentemente do género, identidade e expressão de género, orientação sexual, deficiência, aparência física, raça, idade ou religião ou experiência técnica. Não é tolerado de nenhuma forma qualquer assédio ou ataque *ad hominem* a membros da comunidade. Os membros que violarem estas regras podem ser expulsos da comunidade, por avaliação do conselho editorial. Se alguém testemunhar ou sentir que foi vítima das atividades descritas acima, deve entrar em [contato com o nosso mediador independente](/pt/equipe#programming-historian-em-português). Obrigado por nos ajudar a criar um espaço seguro.
 
 ### Acompanhar as lições propostas
 Depois que uma proposta de lição receber "sinal verde" da equipa editorial e ter um editor atribuído, este trabalha com o autor para definir os objetivos da lição e acordar um prazo de submissão. O prazo recomendado é de 90 dias a contar do início da conversa editorial, embora possa ser ajustado, se necessário.
@@ -45,7 +45,7 @@ Para promover uma publicação rápida deste importante tópico, foi acordada a 
 
 Se a lição não for enviada até [DATA ACORDADA], o editor tentará entrar em contato com o(s) autor(es). Se não for recebida uma atualização, a issue será encerrada. Mas poderá ser reaberta no futuro, a pedido do(s) autor(es).
 
-O contato editorial principal desta lição é [USERNAME DO EDITOR]. Se houver alguma preocupação dos autores, eles podem entrar em contato com a ombudsperson do PH (a indicar).
+O contato editorial principal desta lição é [USERNAME DO EDITOR]. Se houver alguma preocupação dos autores, eles podem entrar em contato com o nosso mediador independente.
 ```
 
 O editor é incentivado a ajustar o texto para refletir quaisquer metas ou requisitos adicionais acordados com o(s) autor(es).
@@ -99,14 +99,14 @@ Eu serei o editor no processo de revisão. O meu papel é solicitar duas revisõ
 
 Os membros da comunidade em geral também são convidados a oferecer feedback construtivo que deve ser publicado neste canal, mas é solicitado que leiam primeiro as diretrizes para revisores (/directrizes-revisor) e sigam a nossa política anti-assédio (abaixo). Pedimos que todas as revisões parem após o envio da segunda revisão formal para que o autor possa concentrar-se no ajuste da lição. Eu farei um anúncio neste tópico quando isso ocorrer.
 
-Vou me esforçar para manter a conversa aberta aqui no GitHub, mas se alguém sentir a necessidade de discutir algo em particular, pode entrar em contato comigo, ou pode sempre recorrer para a nossa ombudsperson (a indicar) se achar necessário.
+Vou me esforçar para manter a conversa aberta aqui no GitHub, mas se alguém sentir a necessidade de discutir algo em particular, pode entrar em contato comigo, ou pode sempre recorrer para o nosso mediador independente se achar necessário.
 
 Política anti-assédio
 _
 
 Esta é uma declaração de princípios do *Programming Historian em português* e define o tom e estilo de toda a comunicação entre revisores, autores, editores e participantes.
 
-O *Programming Historian em português* dedica-se a criar um ambiente académico aberto em que os membros da comunidade podem examinar em liberdade e detalhadamente ideias, fazer perguntas, sugestões ou pedir esclarecimentos. Este espaço tem que ser livre de assédio para todos no projeto, independentemente do género, identidade e expressão de género, orientação sexual, deficiência, aparência física, raça, idade, religião ou experiência técnica. Não é tolerado qualquer assédio ou ataque *ad hominem* a membros da comunidade de nenhuma forma. Os membros que violarem estas regras podem ser expulsos da comunidade, por avaliação do conselho editorial. Se alguém testemunhar ou sentir que foi vítima das atividades descritas acima, entre em contato com a nossa ombudsperson (a indicar). Obrigado por nos ajudar a criar um espaço seguro.
+O *Programming Historian em português* dedica-se a criar um ambiente académico aberto em que os membros da comunidade podem examinar em liberdade e detalhadamente ideias, fazer perguntas, sugestões ou pedir esclarecimentos. Este espaço tem que ser livre de assédio para todos no projeto, independentemente do género, identidade e expressão de género, orientação sexual, deficiência, aparência física, raça, idade, religião ou experiência técnica. Não é tolerado qualquer assédio ou ataque *ad hominem* a membros da comunidade de nenhuma forma. Os membros que violarem estas regras podem ser expulsos da comunidade, por avaliação do conselho editorial. Se alguém testemunhar ou sentir que foi vítima das atividades descritas acima, entre em contato com o nosso mediador independente. Obrigado por nos ajudar a criar um espaço seguro.
 ```
 
 ### Orientar a conversa

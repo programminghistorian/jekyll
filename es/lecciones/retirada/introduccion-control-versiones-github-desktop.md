@@ -110,7 +110,7 @@ Utilizar un control de versiones se ha consolidado en algunas disciplinas cient�
 
 * [The Programming Historian en español](https://github.com/programminghistorian/jekyll) utiliza GitHub en su flujo de trabajo para gestionar la [revista](https://github.com/programminghistorian/jekyll/issues), las [lecciones](/es/guia-para-autores) y para producir la [web](/posts/how-we-moved-to-github).
 * [Python Programming for the Humanities](https://github.com/fbkarsdorp/python-course) es un tutorial introductorio sobre el lenguaje de programación Python.
-* [ProfHacker](http://chronicle.com/blogs/profhacker/tag/github) ha publicado varias entradas de blog sobre proyectos que usan GitHub en un contexto académico.
+* [ProfHacker](https://www.chronicle.com/search?q=github) ha publicado varias entradas de blog sobre proyectos que usan GitHub en un contexto académico.
 
 Nuevos proyectos surgen de manera constante y muchas de las herramientas que utilizas en las humanidades digitales se hospedan en GitHub; por este motivo, GitHub puede ser útil para utilizar con mayor facilidad alguna de estas herramientas.
 
@@ -331,6 +331,6 @@ GitHub Desktop es una forma sencilla de aprender a controlar versiones con GitHu
 * [Atlassian](https://www.atlassian.com/git/tutorials): contiene tutoriales más avanzados (pero fáciles de entender) de Git. Ponen el acento en las diferencias entre Git y otros controles de versiones; esto puede no ser relevante para ti pero te ayudará a comprender el funcionamiento de Git de manera más detallada.
 * [Pro Git](https://git-scm.com/book/en/v2): un libro exclusivamente sobre Git. Empieza con el funcionamiento básico y luego pasa a tratar asuntos más avanzados de Git.
 * Para [estudiantes](https://education.github.com/pack) e [investigadores](https://github.com/blog/1840-improving-github-for-science) GitHub ofrece repositorios privados sin pagar por una suscripción. Estos repositorios pueden ser útiles para borradores o notas que no queremos publicar. Nota: no es muy aconsejable guardar contenido delicado incluso en un repositorio privado en GitHub.
-* [ProfHacker](http://chronicle.com/blogs/profhacker/tag/github) tiene varias entradas sobre proyectos que utilizan GitHub en el contexto académico.
+* [ProfHacker](https://web.archive.org/web/20170716182645/http://www.chronicle.com/blogs/profhacker/tag/github) tiene varias entradas sobre proyectos que utilizan GitHub en el contexto académico.
 * [GitHub, Academia, and Collaborative Writing](https://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing) reflexioina sobre el uso de GitHub para la escritura colaborativa.
 * La lección [Introducción a Bash](/lessons/intro-to-bash) te permitirá aprender más sobre la línea de comandos, muy útil para utilizar GitHub.

@@ -23,7 +23,7 @@ Procuramos lições relevantes para as Humanidades sobre um problema ou processo
 O âmbito e extensão da lição devem ser adequados à  complexidade da tarefa, mas não devem ter mais de 8.000 palavras (incluindo códigos). Lições mais curtas são bem-vindas. Lições mais longas podem precisar de ser divididas.
 </div>
 
-Se tem uma ideia para uma nova lição preencha o [formulário de proposta de lição](/assets/forms/Lesson.Query.Form.txt) e envie para {% include managing-editor.html lang=page.lang %}.
+Se tem uma ideia para uma nova lição preencha o [formulário de proposta de lição](/assets/forms/formulario.proposta.licao.txt) e envie para {% include managing-editor.html lang=page.lang %}.
 
 Para ter uma ideia do que publicamos consulte as [lições publicadas]({{site.baseurl}}/pt/licoes), leia as nossas [orientações para revisores]({{site.baseurl}}/pt/directrizes-revisor) ou navegue pelas [lições em desenvolvimento](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
 

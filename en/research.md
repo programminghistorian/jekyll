@@ -5,7 +5,7 @@ redirect_from: /research
 ---
 
 # Project Scholarship
-The project team and members of the wider community are involved in a number of scholarly initiatives related to our work here at The _Programming Historian_. These include events, journal articles, reviews (of us by the community), and posters. If you are conducting academic research using this project please {% include managing-editor.html lang=page.lang %}.
+The project team and members of the wider community are involved in a number of scholarly initiatives related to our work here at The _Programming Historian_. These include events, journal articles, reviews (of us by the community), and posters. If you are conducting academic research using this project please contact {% include managing-editor.html lang=page.lang %}.
 
 ## Original Programming Historian
 * William J. Turkel and Alan MacEachern, [_The Programming Historian_](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) 1st edition (Network in Canadian History &amp; Environment: 2007-2008).
@@ -46,7 +46,9 @@ The project team and members of the wider community are involved in a number of 
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 May 2015).
 
 ## Posters, Conference Papers, & Invited Talks
-* Brandon Walsh, '[The Programming Historian and Editorial Process in Digital Publishing](http://walshbr.com/blog/the-programming-historian-and-editorial-process-in-digital-publishing/)', Modern Languages Association Conference 2021, 7-10 January, 2021. 
+* Brandon Walsh, '[The Programming Historian and Editorial Process in Digital Publishing](http://walshbr.com/blog/the-programming-historian-and-editorial-process-in-digital-publishing/)', Modern Languages Association Conference 2021, 7-10 January, 2021.  
+* Sofia Papastamkou, François Dominic Laramée, Martin Grandjean, '[Le Programming Historian en français: quelles ressources éducatives libres pour les méthodes numériques ?](https://zenodo.org/record/3819954)', *Humanistica 2020 Conference*, Bordeaux, France, 12-14 May 2020.   
+* Sofia Papastamkou, 'A Beating Heart of Digital History: The Programming Historian', [Teaching Digital History Workshop](https://cas.au.dk/center-for-digital-history-aarhus/events/show/artikel/teaching-digital-history-workshop-a-one-day-seminar/), Center for Digital History Aarhus, University of Aarhus, Denmark, 23 October 2019. 
 * Sofia Papastamkou, Antonio Rojas Castro & Anna-Maria Sichani, '[Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French Speaking DH Communities](https://dev.clariah.nl/files/dh2019/boa/1207.html)', Digital Humanities Conference 2019, Utrecht, Netherlands, 9-12 July, 2019.
 * Jennifer Isasi, Antonio Rojas & Anna-Maria Sichani, 'Data science and the language question in digital humanities pedagogy: the example of the Programming Historian', *EADH 2018*, National University of Ireland, Galway, 9 December 2018.
 * Afanador, Maria José. 'The Programming Historian en español: estrategias y retos para la construcción de una comunidad global de humanidades digitales.' Ponencia presentada en la Conferencia de Humanidades Digitales DH2018, Ciudad de México, México, (2018, junio).
@@ -72,6 +74,7 @@ The project team and members of the wider community are involved in a number of 
 * Víctor Gayol, '*The Programming Historian* en español', *Blog de Humanidades Digitales*, March 17, 2017, <http://humanidadesdigitales.net/blog/2017/03/17/the-programming-historian-en-espanol/>.
 
 ## Projects Using the Programming Historian
+* Eva Pfanzelter, "<a href="https://www.newseye.eu/resources/educational-material/syllabi-and-teaching-material-for-universities/syllabus-digitale-geschichtswissenschaft/">Syllabus: Introduction to Digital Practice in the Historical Sciences</a>", History Curriculum, University of Innsbruck, Austria, <em>NewsEye H2020 Project</em> (2021).
 * Kelly Fitzpatrick, "<a href="https://lil.law.harvard.edu/blog/2019/11/12/getting-started-with-caselaw-access-project-data/">Caselaw Access Project</a>", <em>Harvard Law School</em> (2019).
 * Paul Spence, Renata Brandao, "<a href="https://languageacts.org/digital-mediations/event/writing-sprint/call-proposals/">Digital Modern Languages Writing Sprint</a>", <em>Language Acts and Worldmaking</em> (2019).
 * James Baker, Caitlin Moore, Ernesto Priego, Raquel Alegre, Jez Cope, Ludi Price, Owen Stephens, Daniel van Strien, Greg Wilson, '[Library Carpentry: software skills training for library professionals](https://www.liberquarterly.eu/articles/10176/)', _Liber Quarterly: The Journal of the Association of European Research Libraries_, 26(3) (2016).
