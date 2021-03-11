@@ -4,7 +4,6 @@ title: Individual Supporters
 redirect_from:
 - /individual
 - /en/support-us
-
 ---
 
 # Individual Supporters
