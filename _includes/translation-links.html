@@ -20,7 +20,6 @@ Those 0+ page objects are saved to the variable `translation_candidates` availab
         {% if other_page.redirect_from contains target_slug or other_page.name == target_name %}
             {% assign translation_source = other_page %}
             {% break %}
-    <!-- {% assign translation_source = site.pages | where: "name", target_name | first %} -->
         {% endif %}
     {% endfor %}
    
