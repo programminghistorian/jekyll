@@ -1,7 +1,10 @@
 ---
 layout: blank
 title: Colaboradores individuales
-redirect_from: /donaciones
+redirect_from:
+- donaciones
+- /es/apoyanos
+
 ---
 
 # Colaboradores individuales
