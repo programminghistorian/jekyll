@@ -3,7 +3,6 @@ layout: blank
 title: Programa de Instituciones Asociadas
 redirect_from: 
 - /pia
-- /es/apoyanos
 
 ---
 
