@@ -1,7 +1,10 @@
 ---
 layout: blank
 title: Dons
-redirect_from: /donations
+redirect_from: 
+- dons
+- /fr/nous-soutenir
+
 ---
 
 # Dons individuels
