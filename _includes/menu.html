@@ -137,7 +137,6 @@ match the new entry you made in `_data/snippets.yml`
           <label class="theme-switch">
             <input type="checkbox">
             <span class="slider round">
-              <i class="fas fa-moon"></i>
             </span>
           </label>
         </div>
@@ -150,22 +149,20 @@ match the new entry you made in `_data/snippets.yml`
 <nav class="hide-print print-header navbar-brand">The Programming Historian </nav>
 
 <script>
+  const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
   function setTheme(currentTheme) {
-    themeButton.className = currentTheme === 'day' ? "fas fa-moon" : "fas fa-sun";
     document.documentElement.setAttribute('data-theme', currentTheme);
     sessionStorage.setItem('theme', currentTheme);
   }
-
-  const themeButton = document.getElementById('low-contrast-button').getElementsByTagName('i')[0];
-
+  
   let theme = sessionStorage.getItem('theme') === null ? 'day' : sessionStorage.getItem('theme');
 
-  setTheme(theme);
+  toggleSwitch.checked = theme === 'night' ? true : false;
 
-  document.getElementById('low-contrast-button').onclick = function(event){
-    theme = document.getElementById('low-contrast-button').getElementsByTagName('i')[0].className.includes('moon') ?
-    'night' : 'day';
-    setTheme(theme);
-  }
+  setTheme(theme);
+  
+  toggleSwitch.addEventListener('change', function(e){
+    setTheme(e.target.checked ? 'night': 'day')
+  }, false);
 
 </script>

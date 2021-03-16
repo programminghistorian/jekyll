@@ -1033,6 +1033,8 @@ a {
   /* phones */
   #low-contrast-button {
     margin-left: 0;
+    margin: auto;
+    padding: 10px;
   }
 }
 
@@ -1040,6 +1042,8 @@ a {
   /* screens */
   #low-contrast-button {
     margin-left: 1em;
+    padding: 0;
+    /* margin:inherit; */
   }
 }
 
@@ -1058,7 +1062,7 @@ a {
   display: inline-block;
   height: 34px;
   position: relative;
-  width: 100px;
+  width: 60px;
 }
 
 .theme-switch input {
@@ -1079,20 +1083,27 @@ a {
 .slider:before {
   background-color: #fff;
   bottom: 4px;
-  content: "";
+  content: "\f185";
   height: 26px;
   left: 4px;
   position: absolute;
   transition: .4s;
   width: 26px;
+  font-family: "Font Awesome 5 Free";
+  padding-top: 1px;
+  vertical-align: middle;
+  font-weight: 900;
+  display: inline-block;
+  color: #666;
 }
 
 input:checked+.slider {
-  background-color: #66bb6a;
+  background-color: #888888;
 }
 
 input:checked+.slider:before {
   transform: translateX(26px);
+  content: "\f186";
 }
 
 .slider.round {
