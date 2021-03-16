@@ -21,6 +21,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
 - [Université du Luxembourg](https://www.c2dh.uni.lu/), Luxemburgo
+- [Software Sustainability Institute](https://www.software.ac.uk/), Reino Unido
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 
@@ -36,6 +37,7 @@ Organizaciones que han o continúan brindando apoyo en forma de contribución en
 - The British Academy [Writing Workshops funding scheme](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/), Reino Unido [2018].
 - dSHARP lab at Carnegie Mellon University patrocinado por the Andrew W. Mellon Foundation, Estados Unidos [2018-2020].
 - The Network in Canadian History & Environment, Canadá [2011-2013].
+- The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Reino Unido [2021].
 
 ## Colaboradores individuales
 

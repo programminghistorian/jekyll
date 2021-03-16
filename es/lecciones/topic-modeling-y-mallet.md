@@ -311,7 +311,7 @@ La carpeta `sample data` en el directorio de MALLET (`C:\mallet\sample-data`) te
 Para ver un ejemplo desarrollado de *topic modeling* basado en materiales obtenidos de páginas web, véase [Mining the Open Web with Looted
 Heritage Draft](http://electricarchaeology.ca/2012/06/08/mining-the-open-web-with-looted-heritage-draft/).
 
-Puedes reutilizar los datos tomándolos de [Figshare.com](http://figshare.com/articles/looted_heritage_reports_txt.zip/91828) donde están incluidos algunos archivos `.txt`. Cada uno de los ficheros `.txt` contiene una noticia individual.
+Puedes reutilizar los datos tomándolos de [Figshare.com](https://ndownloader.figshare.com/files/90972) donde están incluidos algunos archivos `.txt`. Cada uno de los ficheros `.txt` contiene una noticia individual.
 
 - Para amplia información adicional y una bibliografía sobre *topic modeling* podrías empezar con el [Guided Tour to Topic Modeling](http://www.scottbot.net/HIAL/?p=19113) de Scott Weingart.
 - Una discusión importante sobre la interpretación del significado de los tópicos es '[Topic modeling made just simple enough](http://tedunderwood.wordpress.com/2012/04/07/topic-modeling-made-just-simple-enough/)' de Ted Underwood.
