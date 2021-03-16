@@ -270,11 +270,7 @@ If you get a permissions error at this point, entering `usr/local/bin/gem instal
 
     `gem install jekyll bundler`
 
-Don't forget to wait until the command prompt appears again to move to the next step. If this command makes you an error because you don't have the write permissions, you can enter the following instead :
-
-     `sudo gem install jekyll bundler`
-   
-In general, adding *sudo* at the beginning of a command line is the solution to launch it with administrator's rights. 
+Don't forget to wait until the command prompt appears again to move to the next step. 
 
 4. Your site's public URL will take the form http://amandavisconti.github.io/JekyllDemo/, with *amandavisconti* being the author's GitHub username and *JekyllDemo* the name of the site I entered at this step (*an option to purchase and use your own [custom URL](#section7-2) is possible, but not covered in this lesson*). **Lowercase and uppercase website names do *not* point to the same website automatically**, so unlike my *JekyllDemo* example you might wish to pick an all-lowercase name to make sure people who hear about the site tend to type its URL correctly.
 
