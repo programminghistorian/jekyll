@@ -18,7 +18,7 @@ match the new entry you made in `_data/snippets.yml`
 
 {% include translation-links.html %}
 
-<nav class="hide-screen navbar navbar-toggleable-sm navbar-dark bg-dark"
+<nav class="hide-screen navbar navbar-toggleable-md navbar-dark bg-dark"
   style="background-color: {{ site.data.snippets.background_color[page.lang] }}" role="navigation">
   <!--<div class="container">-->
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -132,9 +132,37 @@ match the new entry you made in `_data/snippets.yml`
           {% endfor %}
         </div>
       </li>
+      <li class="nav-item" id="low-contrast-button">
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch">
+            <input type="checkbox">
+            <span class="slider round">
+            </span>
+          </label>
+        </div>
+      </li>
     </ul>
   </div>
   <!--</div>-->
 </nav>
 
 <nav class="hide-print print-header navbar-brand">The Programming Historian </nav>
+
+<script>
+  const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+  function setTheme(currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    sessionStorage.setItem('theme', currentTheme);
+  }
+  
+  let theme = sessionStorage.getItem('theme') === null ? 'day' : sessionStorage.getItem('theme');
+
+  toggleSwitch.checked = theme === 'night' ? true : false;
+
+  setTheme(theme);
+  
+  toggleSwitch.addEventListener('change', function(e){
+    setTheme(e.target.checked ? 'night': 'day')
+  }, false);
+
+</script>
