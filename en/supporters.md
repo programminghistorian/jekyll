@@ -12,7 +12,7 @@ The Programming Historian is grateful to our past and current supporters for ena
 ## Institutional Partners
 Contributers to our [Institutional Partner Programme](support-us#institutional-partner-programme).
 
-- [KU Leuven Libraries](https://bib.kuleuven.be/), Belgium
+- [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Belgium
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library), United Kingdom
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), United Kingdom
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), United Kingdom
@@ -28,6 +28,7 @@ We welcome enquiries from prospective [Institutional Partner Programme](ipp) con
 
 Organizations that have or continue to give support ranging from in kind services, to project-specific funding.
 
+- The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), United Kingdom [2021].
 - The University of Sussex, United Kingdom:
     - University of Sussex Library [2020-Present]
     - School of History, Art History and Philosophy, University of Sussex [2019]
@@ -36,7 +37,6 @@ Organizations that have or continue to give support ranging from in kind service
 - The British Academy [Writing Workshops funding scheme](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/), United Kingdom [2018].
 - The dSHARP lab at Carnegie Mellon University sponsored by the Andrew W. Mellon Foundation, United States [2018-2020].
 - The Network in Canadian History & Environment, Canada [2011-2013].
-- The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), United Kingdom [2021].
 
 ## Individual Supporters
 

@@ -10,7 +10,7 @@ bundle exec jekyll build && bundle exec htmlproofer ./_site \
   --timeframe '30d' \
   --only-4xx \
   --http-status-ignore 429,403,400 \
-  --url-ignore '/http://www.gutenberg.org/*/','/https://github.com/programminghistorian/jekyll/(commits|blob)/*/','/\#/',"/espanol/","/deprecated/",'/collection.britishmuseum.org/','/analytics.hathitrust.org/','/fr.wikipedia.org/wiki/'
+  --url-ignore '/http://www.gutenberg.org/*/','/https://github.com/programminghistorian/jekyll/(commits|blob)/*/','/\#/',"/espanol/","/deprecated/",'/collection.britishmuseum.org/','/analytics.hathitrust.org/','/fr.wikipedia.org/wiki/','https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf'
 
 # The folllowing comments docuemnt what each line of that build script does.
 
