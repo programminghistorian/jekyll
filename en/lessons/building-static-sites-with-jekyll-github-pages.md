@@ -252,7 +252,7 @@ If you get a permissions error at this point, entering `usr/local/bin/gem instal
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-5.png" caption="The magnifying glass icon that lets you search a Mac computer is in the top right of your computer screen" %}
 
-   On Macs, a search box will appear in the middle of the screen; type in "GitHub", then double-click on the "GitHub" option that appears under "Folders" to reveal the GitHub folder in Finder (this may look slightly different on Windows, but should function the same).
+   On Macs, a search box will appear in the middle of the screen; type in "GitHub", then double-click on the "GitHub" option that appears under "Folders" to reveal the GitHub folder in Finder (this may look slightly different on Windows, but should function the same). The folder can be named like the application ("Github Desktop").
 
    Note that on some computers, this folder is instead labeled "GitHub for Macs" and may not show up on a search; if the previous steps didn't locate a GitHub folder for you, navigate to Library > Application Support in Finder and check if a "GitHub for Mac" folder is located there. You can alternatively press the Option key while clicking the Finder Go menu to see the "Library" folder for your username.
 
@@ -270,7 +270,7 @@ If you get a permissions error at this point, entering `usr/local/bin/gem instal
 
     `gem install jekyll bundler`
 
-Don't forget to wait until the command prompt appears again to move to the next step.
+Don't forget to wait until the command prompt appears again to move to the next step. 
 
 4. Your site's public URL will take the form http://amandavisconti.github.io/JekyllDemo/, with *amandavisconti* being the author's GitHub username and *JekyllDemo* the name of the site I entered at this step (*an option to purchase and use your own [custom URL](#section7-2) is possible, but not covered in this lesson*). **Lowercase and uppercase website names do *not* point to the same website automatically**, so unlike my *JekyllDemo* example you might wish to pick an all-lowercase name to make sure people who hear about the site tend to type its URL correctly.
 
