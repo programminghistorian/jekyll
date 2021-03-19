@@ -18,12 +18,13 @@ Gracias por tu interés en el Programa de Instituciones Asociadas, la principal 
 
 Al unirte a nuestro Programa de Instituciones Asociadas, tu institución estará apoyando a un proyecto con un enfoque global, ya que un tercio de nuestros lectores vive en países de ingresos bajos y medios y ese número sigue creciendo. 
 
-| Tasas de asociación | Tasas para [países AOD](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm) |
-| ------------------- | ------------------------------------------------------------ |
-| £1,000 GBP          | £150 GBP                                                     |
-| $1,300 USD          | $200 USD                                                     |
-| €1,200 EUR          | €175 EUR                                                     |
-| $1,700 CAD          | $275 CAD                                                     |
+Tasas de asociación :
+| Paises de alto ingreso | Paises de ingreso medio | [países AOD](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm) |
+| --- | --- | --- |
+| £1,000 GBP  | £400 GBP | £150 GBP     |
+| $1,300 USD  | $600 USD | $200 USD     |
+| €1,200 EUR  | €500 EUR | €175 EUR     |
+| $1,700 CAD  | $700 CAD | $275 CAD     |
 
 Las tasas vencen anualmente a partir de la fecha del primer pago y se establecen en enero de cada año. Para una estimación en otra moneda, envía un correo electrónico a <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
 
