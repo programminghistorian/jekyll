@@ -18,7 +18,8 @@ Le *Programming Historian* est une organisation à but non-lucratif qui publie d
 
 En rejoignant notre programme de Partenariat institutionnel, votre établissement peut soutenir un projet d'envergure mondiale. Un tiers de nos lecteurs vivent dans des pays à faibles et moyens revenus, et ce nombre ne cesse d'augmenter.
 
-Tarifs de partenariat 
+Tarifs de partenariat
+
 | Pays à revenu supérieur | Pays à revenu intermédiaire | Tarifs échelonnés pour [les pays éligibles à l'APD](http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/listecad.htm)  |
 |---|---|---|
 | 1,200 EUR  | $500 EUR | 175 EUR  |
