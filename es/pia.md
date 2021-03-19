@@ -19,6 +19,7 @@ Gracias por tu interés en el Programa de Instituciones Asociadas, la principal 
 Al unirte a nuestro Programa de Instituciones Asociadas, tu institución estará apoyando a un proyecto con un enfoque global, ya que un tercio de nuestros lectores vive en países de ingresos bajos y medios y ese número sigue creciendo. 
 
 Tasas de asociación :
+
 | Paises de alto ingreso | Paises de ingreso medio | [países AOD](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm) |
 | --- | --- | --- |
 | £1,000 GBP  | £400 GBP | £150 GBP     |
