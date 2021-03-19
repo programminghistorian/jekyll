@@ -18,6 +18,7 @@ Thank you for your interest in the Institutional Partnership Programme, which pr
 Joining our Institutional Partner Programme allows your institution to support a globally focused project. One third of our readers live in low and middle income countries, and that number continues to grow.
 
 Partnership Rates:
+
 | Upper Income Countries  | Middle Income Countries | [ODA eligible countries](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm)  |
 |---|---|---|
 | £1,000 GBP  | £400 GBP | £150 GBP  |
