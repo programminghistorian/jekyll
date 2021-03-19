@@ -18,13 +18,15 @@ Le *Programming Historian* est une organisation à but non-lucratif qui publie d
 
 En rejoignant notre programme de Partenariat institutionnel, votre établissement peut soutenir un projet d'envergure mondiale. Un tiers de nos lecteurs vivent dans des pays à faibles et moyens revenus, et ce nombre ne cesse d'augmenter.
 
-| Tarifs de partenariat  | Tarifs échelonnés pour [les pays éligibles à l'APD](http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/listecad.htm)  |
-|---|---|
-| 1,200 EUR  | 175 EUR  |
-| 1,200 CHF  | 175 CHF  |
-| 1,700 CAD  | 275 CAD  | 
-| 1,000 GBP  | 150 GBP  |
-| 1,300 USD  | 200 USD  |
+Tarifs de partenariat 
+| Pays à revenu supérieur | Pays à revenu intermédiaire | Tarifs échelonnés pour [les pays éligibles à l'APD](http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/listecad.htm)  |
+|---|---|---|
+| 1,200 EUR  | $500 EUR | 175 EUR  |
+| 1,200 CHF  | $500 CHF | 175 CHF  |
+| 1,700 CAD  | $700 CAD | 275 CAD  | 
+| 1,000 GBP  | $400 GBP | 150 GBP  |
+| 1,300 USD  | $600 USD | 200 USD  |
+
 
 Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en janvier de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
 
