@@ -21,6 +21,9 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), United States
 - [Université du Luxembourg](https://www.c2dh.uni.lu/), Luxembourg
 - [Software Sustainability Institute](https://www.software.ac.uk/), United Kingdom
+- [Princeton University](https://www.princeton.edu/), United States
+- [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), United States
+- [READ COOP](https://readcoop.eu/), Austria
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
