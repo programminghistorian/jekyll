@@ -20,7 +20,7 @@ En rejoignant notre programme de Partenariat institutionnel, votre établissemen
 
 Tarifs de partenariat
 
-| Pays à revenu supérieur | Pays à revenu intermédiaire | Tarifs échelonnés pour [les pays éligibles à l'APD](http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/listecad.htm)  |
+| Pays à revenu élevé | Pays à revenu intermédiaire | Pays à faible revenu et moins avancés [éligibles à l'APD](http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/listecad.htm)  |
 |---|---|---|
 | 1 200 EUR  | 500 EUR | 175 EUR  |
 | 1 200 CHF  | 500 CHF | 175 CHF  |
