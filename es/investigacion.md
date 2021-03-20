@@ -18,6 +18,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Investigación publicada
 
+* Adam Crymble, [_Technology &amp; the Historian: Transformations in the Digital Age_](https://www.press.uillinois.edu/books/catalog/57hxp7wr9780252043710.html), (University of Illinois Press, 2021).
 * Anna-Maria Sichani, James Baker, Maria José Afanador Llach, and Brandon Walsh, [‘Diversity and Inclusion in Digital Scholarship and Pedagogy: The Case of The Programming Historian’](https://doi.org/10.1629/uksg.465), _Insights_, (2019).
 * Katrina Navickas and Adam Crymble, ['From Chartist Newspaper to Digital Map of Grass-roots Meetings, 1841-44: Documenting Workflows'](http://www.tandfonline.com/doi/full/10.1080/13555502.2017.1301179), _Journal of Victorian Culture_, (2017).
 * Adam Crymble, ['Identifying and Removing Gender Barriers in Open Learning Communities: The Programming Historian'], _Blended Learning in Practice_, (2016), 49-60. [[pre-print pdf](/researchpapers/openLearningCommunities2016.pdf)]
@@ -29,6 +30,8 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Penny Andrews and the Programming Historian, ['The Programming Historian: developing and sustaining impact in the Global South'](http://doi.org/10.5281/zenodo.3813763) (2020).
 
 ### Talleres y eventos
+
+* Adam Crymble, 'Teach Digital History Well', UCL, United Kingdom (29 April 2021).
 * Joshua Ortiz Baco, Daniel Alves, Jimmy Medeiros, Luis Ferla, '[Programming Historian em português](https://www.youtube.com/watch?v=bt-OaMW2Fr4)' en _I Jornada Nacional de Humanidades Digitais_, IBICT, Brasil (13 de octubre 2020).
 * Adam Crymble, 'Documenting Your Digital Methods', University of Edinburgh, United Kingdom (27 de mayo 2020).
 * Adam Crymble & Jessica Parr, 'Programming Historian Silent Disco', University of Edinburgh, United Kingdom (18 de mayo 2020).
