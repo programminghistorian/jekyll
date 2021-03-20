@@ -189,6 +189,16 @@ The guideline is to use them sparingly in the running prose. Specific rules:
 *	Endnotes should not just contain a URL.
     *	(Correct): Grove, John. "Calhoun and Conservative Reform." *American Political Thought* 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
     *	(Incorrect): https://doi.org/10.1086/680389
+* In order to cite software, which requires citation as a condition of use within a lesson, please provide as much as possible from the information below, following the general "Notes and Bibliography” system found in the Chicago Manual of Style, 17th Edition for endnotes:
+    *	author
+    * product name
+    * version number
+    * year of publication
+    * URL or DOI
+
+  Eg. The Pandas Development Team. *pandas-dev/pandas: Pandas*. v. 1.2.3 (2020). https://doi.org/10.5281/zenodo.3509134
+
+  Please check each software official webpage or documentation for authors guidelines about how to cite their work (eg. https://pandas.pydata.org/about/citing.html, https://www.tidyverse.org/blog/2019/11/tidyverse-1-3-0/#citing-the-tidyverse).
 
 
 ### Challenging Words Explained
