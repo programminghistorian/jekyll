@@ -17,12 +17,14 @@ Thank you for your interest in the Institutional Partnership Programme, which pr
 
 Joining our Institutional Partner Programme allows your institution to support a globally focused project. One third of our readers live in low and middle income countries, and that number continues to grow.
 
-| Partnership rates  | Banded rates for [ODA eligible countries](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm)  |
-|---|---|
-| £1,000 GBP  | £150 GBP  |
-| $1,300 USD  | $200 USD  |
-| €1,200 EUR  | €175 EUR  |
-| $1,700 CAD  | $275 CAD  | 
+Partnership Rates:
+
+| Upper Income Countries  | Middle Income Countries | [ODA eligible countries](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm)  |
+|---|---|---|
+| £1,000 GBP  | £400 GBP | £150 GBP  |
+| $1,300 USD  | $600 USD | $200 USD  |
+| €1,200 EUR  | €500 EUR | €175 EUR  |
+| $1,700 CAD  | $700 CAD | $275 CAD  | 
 
 Rates are due annually from the date of first payment and are set in January each year. For a quote in another currency please email <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
 
