@@ -22,7 +22,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Software Sustainability Institute](https://www.software.ac.uk/), Royaume-Uni
 - [Princeton University](https://www.princeton.edu/), États-Unis
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), États-Unis
-- [READ COOP](https://readcoop.eu/), Autriche
+- [Transkribus - READ COOP](https://readcoop.eu/), Autriche
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 

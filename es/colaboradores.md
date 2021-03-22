@@ -24,7 +24,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [Software Sustainability Institute](https://www.software.ac.uk/), Estados Unidos
 - [Princeton University](https://www.princeton.edu/), Estados Unidos
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos
-- [READ COOP](https://readcoop.eu/), Austria
+- [Transkribus - READ COOP](https://readcoop.eu/), Austria
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 
