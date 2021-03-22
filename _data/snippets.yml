@@ -127,17 +127,17 @@ menu-lesson-requests:
     link: /pt/licoes-pedidos
 menu-contribute-feedback:
   en:
-    title: Feedback
+    title: Report a bug
     link: /en/feedback
   es:
-    title: Sugerencias
+    title: Reporta un error
     link: /es/retroalimentacion
   fr:
-    title: Votre avis
+    title: Signaler une erreur
     link: /fr/reaction
   pt:
-    title: Feedback
-    link: /pt/feedback
+    title: Reportar um erro
+    link: /pt/reportar-um-erro
 menu-contribute-review:
   en:
     title: Reviewer Guidelines
