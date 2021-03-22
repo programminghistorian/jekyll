@@ -37,7 +37,7 @@ O projecto agradece os seguintes apoios:
   - [Software Sustainability Institute](https://software.ac.uk/), Reino Unido
   - [Princeton University](https://www.princeton.edu/), Estados Unidos
   - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos
-  - [READ COOP](https://readcoop.eu/), Austria
+  - [Transkribus - READ COOP](https://readcoop.eu/), Austria
 
   
 ## Doações
