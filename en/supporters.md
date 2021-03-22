@@ -23,7 +23,7 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 - [Software Sustainability Institute](https://www.software.ac.uk/), United Kingdom
 - [Princeton University](https://www.princeton.edu/), United States
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), United States
-- [READ COOP](https://readcoop.eu/), Austria
+- [Transkribus - READ COOP](https://readcoop.eu/), Austria
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
