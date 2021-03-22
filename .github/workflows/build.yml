@@ -1,0 +1,56 @@
+name: build_programming_historian
+
+on:
+  pull_request:
+    types: [ assigned, opened, synchronize, reopened, closed ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: 💎 setup ruby
+        if : github.event.action != 'closed'
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+
+      - name: Jekyll build
+        if : github.event.action != 'closed'
+        run: |
+          bundle install
+          bundle exec jekyll build
+
+      - name: Check HTML
+        uses: chabad360/htmlproofer@master
+        if : github.event.action != 'closed'
+        with:
+          directory: "./_site"
+          # The directory to scan
+          arguments: --assume-extension --empty-alt-ignore --alt-ignore '/.*/' --file-ignore '/.+/assets/.*/','/.+/retired/.*/', '/.+/retirada/.*/', '/.+/retrait/.*/' --timeframe '30d' --only-4xx --http-status-ignore 429,403,400 --url-ignore '/http://www.gutenberg.org/*/','/https://github.com/programminghistorian/jekyll/(commits|blob)/*/','/\#/',"/espanol/","/deprecated/",'/collection.britishmuseum.org/','/analytics.hathitrust.org/','/fr.wikipedia.org/wiki/','https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf'
+          # The arguments to pass to HTMLProofer
+
+      # - name: Deploy to Netlify
+      #   if : github.event.action != 'closed'
+      #   uses: nwtgck/actions-netlify@v1.1
+      #   with:
+      #     publish-dir: './_site'
+      #     production-branch: gh-pages
+      #     github-token: ${{ secrets.GITHUB_TOKEN }}
+      #     deploy-message: "Deploy from GitHub Actions"
+      #   env:
+      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      #   timeout-minutes: 1
+
+      - name: Trigger next workflow
+        if: success() && github.event.action == 'closed'
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: programminghistorian/search-index
+          event-type: trigger-search-build
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+

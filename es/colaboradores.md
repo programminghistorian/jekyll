@@ -21,6 +21,10 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
 - [Université du Luxembourg](https://www.c2dh.uni.lu/), Luxemburgo
+- [Software Sustainability Institute](https://www.software.ac.uk/), Estados Unidos
+- [Princeton University](https://www.princeton.edu/), Estados Unidos
+- [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos
+- [READ COOP](https://readcoop.eu/), Austria
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 
@@ -28,6 +32,7 @@ Agradecemos consultas de posibles contribuidores del [Programa de Instituciones 
 
 Organizaciones que han o continúan brindando apoyo en forma de contribución en especie hasta financiamiento específico para proyectos.
 
+- The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Reino Unido [2021].
 - University of Sussex, Reino Unido:
     - University of Sussex Library [2020-Presente]
     - School of History, Art History and Philosophy, University of Sussex [2019]
@@ -41,11 +46,12 @@ Organizaciones que han o continúan brindando apoyo en forma de contribución en
 
 Estamos muy agradecidos a todos los patrocinadores individuales que contribuyen al proyecto con donaciones en [Patreon](https://www.patreon.com/theprogramminghistorian) o [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url). Nos gustaría reconocer especialmente a quienes inauguraron cada uno de los niveles en Patreon:
 
-- Rachel Murphy ('Subscriptor')
-- Miriam Posner ('Sponsor')
-- Tim Hitchcock ('Macenas')
+- Rachel Murphy ('Suscripción')
+- Miriam Posner ('Aprendizaje')
+- Laura Gayle Green ('Educación')
+- Tim Hitchcock ('Patrocinio')
 
-En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Mecenas':
+En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Patrocinio' y 'Educación':
 
 - Tim Hitchcock
 - Shawn Graham
@@ -56,6 +62,9 @@ En particular, agradecemos la contribución de los siguientes suscriptores de Pa
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 - Dimitra Koutla
+- Laura Gayle Green ('Educación')
+- Rebecca Kahn ('Educación')
+- Sarah Melton ('Educación')
 
 ## Administración de donaciones y patrocinios
 

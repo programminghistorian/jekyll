@@ -1,10 +1,11 @@
-﻿# Proposition de tutoriel pour le Programming Historian
+## Proposition de tutoriel pour le Programming Historian
 
 Si vous souhaitez écrire un tutoriel et le soumettre au Programming Historian, merci de remplir cette fiche en fournissant toutes les informations qui permettront au comité éditorial de discuter de votre idée. Pour toute question sur ce formulaire, merci de contacter directement notre rédacteur ou rédactrice en chef:
 
 Anglais: Sarah Melton (sarah.melton@bc.edu)
 Espagnol: Riva Quiroga (riva.quiroga@uc.cl)
 Français: Sofia Papastamkou (spapastamkou@gmail.com)
+Portugais: Daniel Alves (dra@fcsh.unl.pt)
 
 
 ## Vous
@@ -12,7 +13,7 @@ Français: Sofia Papastamkou (spapastamkou@gmail.com)
 2. Votre adresse électronique
 
 ## Métadonnées de la leçon
-3. Langue (rayer la mention inutile) anglais / espagnol / français
+3. Langue (rayer la mention inutile) anglais / espagnol / français / portugais
 4. Titre proposé
 5. Résumé (3-4 phrases)
 6. Description d'étude de cas (détails sur la question historique utilisée comme example)

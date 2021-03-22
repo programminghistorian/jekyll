@@ -12,7 +12,7 @@ The Programming Historian is grateful to our past and current supporters for ena
 ## Institutional Partners
 Contributers to our [Institutional Partner Programme](support-us#institutional-partner-programme).
 
-- [KU Leuven Libraries](https://bib.kuleuven.be/), Belgium
+- [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Belgium
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library), United Kingdom
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), United Kingdom
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), United Kingdom
@@ -20,6 +20,10 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), United Kingdom
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), United States
 - [Université du Luxembourg](https://www.c2dh.uni.lu/), Luxembourg
+- [Software Sustainability Institute](https://www.software.ac.uk/), United Kingdom
+- [Princeton University](https://www.princeton.edu/), United States
+- [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), United States
+- [READ COOP](https://readcoop.eu/), Austria
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
@@ -27,6 +31,7 @@ We welcome enquiries from prospective [Institutional Partner Programme](ipp) con
 
 Organizations that have or continue to give support ranging from in kind services, to project-specific funding.
 
+- The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), United Kingdom [2021].
 - The University of Sussex, United Kingdom:
     - University of Sussex Library [2020-Present]
     - School of History, Art History and Philosophy, University of Sussex [2019]
@@ -41,10 +46,11 @@ Organizations that have or continue to give support ranging from in kind service
 We are grateful to our many dozens of individual sponsors who contribute through [Patreon](https://www.patreon.com/theprogramminghistorian) or [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url) donations. We particularly want to acknowledge our founding Patreon subscribers at each tier level:
 
 - Rachel Murphy ('Subscriber')
-- Miriam Posner ('Sponsor')
+- Miriam Posner ('Apprentice')
+- Laura Gayle Green ('Educator')
 - Tim Hitchcock ('Patron')
 
-We also publicly thank all of our 'Patron' supporters:
+We also publicly thank all of our 'Patron' and 'Educator' supporters:
 
 - Tim Hitchcock
 - Shawn Graham
@@ -55,6 +61,9 @@ We also publicly thank all of our 'Patron' supporters:
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 - Dimitra Koutla
+- Laura Gayle Green (Educator)
+- Rebecca Kahn (Educator)
+- Sarah Melton (Educator)
 
 ## Management of Donations and Sponsorship
 

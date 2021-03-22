@@ -423,7 +423,7 @@ bitty step at a time.
     "PDF Miner Module"
   [Patterns App]: http://krillapps.com/patterns/
     "Patterns App for RegEx Experimentation"
-  [cheat sheet]: http://www.addedbytes.com/cheat-sheets/regular-expressions-cheat-sheet/
+  [cheat sheet]: https://cheatography.com/davechild/cheat-sheets/regular-expressions/
     "Reg Ex Cheat Sheet"
   [another tester tool]: http://www.pythonregex.com/
     "Python Regex Tester"
