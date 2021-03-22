@@ -20,7 +20,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [Western University Library](https://www.lib.uwo.ca/), Canadá
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
-- [Université du Luxembourg](https://www.c2dh.uni.lu/), Luxemburgo
+- [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxemburgo
 - [Software Sustainability Institute](https://www.software.ac.uk/), Estados Unidos
 - [Princeton University](https://www.princeton.edu/), Estados Unidos
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos
