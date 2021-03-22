@@ -39,7 +39,7 @@ Procuramos traduções rigorosas e legíveis que tenham em conta os contextos de
 
 <img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-right" />
 
-Agradecemos pelo [feedback](/pt/feedback.html) de qualquer aspecto do _Programming Historian em português_. Diga-nos o que podemos fazer para tornar o projeto melhor!
+Agradecemos pelo [feedback](/pt/reportar-um-erro) de qualquer aspecto do _Programming Historian em português_. Diga-nos o que podemos fazer para tornar o projeto melhor!
 
 Estamos especialmente gratos por dicas sobre lições que apresentam links quebrados. À medida que os URLs mudam e que novas versões de software e plataformas são lançadas, as lições desenvolvem falhas ao longo do tempo. Por favor, ajude-nos a manter o _Programming Historian em português_ atualizado, comunicando quando encontrar erros.
 
