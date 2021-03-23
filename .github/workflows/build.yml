@@ -1,28 +1,32 @@
+# This is the name of the workflow that will show up in Github Actions Tab
 name: build_programming_historian
 
+# This is where we specify when to automatically run our action. In this case we want to run it on pull_requests and specific triggers. You can read more about these event triggers in the Github Docs https://docs.github.com/en/actions/reference/events-that-trigger-workflows
 on:
   pull_request:
     types: [ assigned, opened, synchronize, reopened, closed ]
 
+# This is where we list all of our jobs that will run in the build sequence
 jobs:
   build:
+    # First we specify build platform and then checkout the repository
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
+    # Next we setup our installation of Ruby but only if the PR event is not closing the PR (don't need to build twice since Github builds on merge to gh-pages).
       - name: 💎 setup ruby
         if : github.event.action != 'closed'
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.6
-
+    # We then check if we can build our Jekyll site (all this logic is built-in with Jekyll and this prevents us from merging in any syntax errors).  
       - name: Jekyll build
         if : github.event.action != 'closed'
         run: |
           bundle install
           bundle exec jekyll build
-
+    # Next we check all the links in our site to make sure we aren't pushing up broken links.
       - name: Check HTML
         uses: chabad360/htmlproofer@master
         if : github.event.action != 'closed'
@@ -31,7 +35,7 @@ jobs:
           # The directory to scan
           arguments: --assume-extension --empty-alt-ignore --alt-ignore '/.*/' --file-ignore '/.+/assets/.*/','/.+/retired/.*/', '/.+/retirada/.*/', '/.+/retrait/.*/' --timeframe '30d' --only-4xx --http-status-ignore 429,403,400 --url-ignore '/http://www.gutenberg.org/*/','/https://github.com/programminghistorian/jekyll/(commits|blob)/*/','/\#/',"/espanol/","/deprecated/",'/collection.britishmuseum.org/','/analytics.hathitrust.org/','/fr.wikipedia.org/wiki/','https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf'
           # The arguments to pass to HTMLProofer
-
+    # Finally if we are successful in building, we trigger a rebuild of our search index in the search-index repository
       - name: Trigger next workflow
         if: success() && github.event.action == 'closed'
         uses: peter-evans/repository-dispatch@v1
