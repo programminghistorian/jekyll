@@ -1,13 +1,46 @@
 ---
 skip_concordance: true
 ---
+/* =============================================================================
+Color Styles
+========================================================================== */
+
+:root {
+  --primary-color: #302AE6;
+  --secondary-color: #536390;
+  --primary-header-color: #333;
+  --secondary-header-color: #fff;
+  --font-color: #666;
+  --secondary-font-color: #eee;
+  --bg-color: #fff;
+  --secondary-bg-color: #27b;
+  --tertiary-bg-color: #289;
+  --heading-color: #292922;
+  --above-title-color: #999;
+  --a-hover-active-color: #555;
+  --header-lesson-color: #f5f5f5;
+  --header-helpers-color: #ccc;
+}
+
+[data-theme="night"] {
+  --primary-color: #9A97F3;
+  --secondary-color: #818cab;
+  --primary-header-color: #e1e1ff;
+  --font-color: #fff;
+  --bg-color: #161625;
+  --heading-color: #818cab;
+  --above-title-color: #e1e1ff;
+  --a-hover-active-color: #9A97F3;
+  --header-lesson-color: #171f24;
+  --header-helpers-color: #444444;
+}
 
 @media screen {
 
   body {
     font-family: 'Quattrocento', Verdana, sans-serif;
     font-size:16px;
-    background-color:#ffffff;
+    background-color: var(--bg-color);
   }
 
   .container {
@@ -58,13 +91,13 @@ Home Page
 
   .home-block {
     padding:3rem 0;
-    color:#666;
+    color: var(--font-color);
   }
 
   .home-block h2 {
     margin:0;
     font-size:2.8rem;
-    color:#333;
+    color: var(--primary-header-color);
     text-align:center;
   }
 
@@ -81,12 +114,12 @@ Home Page
   }
 
   .home-stripe-1 {
-    color:#eee;
-    background:#27b;
+    color: var(--secondary-font-color);
+    background: var(--secondary-bg-color);
   }
 
   .home-stripe-1 h2, .home-stripe-2 h2 {
-    color:#fff;
+    color: var(--secondary-header-color);
   }
 
   .home-stripe-1 a:visited, .home-stripe-1 a:link {
@@ -95,7 +128,7 @@ Home Page
 
   .home-stripe-2 {
     color:#fff;
-    background:#289;
+    background:var(--tertiary-bg-color);
   }
 
   .home-stripe-2 a:visited, .home-stripe-2 a:link {
@@ -153,7 +186,7 @@ Lesson Headers
     padding:0;
     font-family:'Roboto', sans-serif;
     color:#ccc;
-    background: #efefef;
+    background: var(--bg-color);
     border-top:1px solid #333;
     border-bottom:1px solid #333;
     text-align:left;
@@ -162,7 +195,8 @@ Lesson Headers
   header .container-fluid {
     margin:0;
     padding:1rem;
-    background: #f5f5f5;
+    background: var(--header-lesson-color);
+    ;
   }
 
   header h1 {
@@ -175,7 +209,7 @@ Lesson Headers
   header h2 {
     font-family:'Roboto', sans-serif;
     font-size:1.2rem;
-    color:#333;
+    color: var(--primary-header-color);
     margin: 1.5rem 0 1.5rem 0rem;
     text-align:left;
   }
@@ -185,7 +219,7 @@ Lesson Headers
     text-transform:uppercase;
     font-variant:small-caps;
     letter-spacing:80%;
-    color:#666;
+    color: var(--font-color);
     margin:.3rem 0 0 0;
     padding:0;
   }
@@ -206,14 +240,14 @@ Lesson Headers
 
   header .header-abstract {
     font: 1rem/1.4rem 'Roboto', sans-serif;
-    color:#666;
+    color: var(--font-color);
     margin:1rem 0;
   }
 
   header .header-helpers {
     clear:both;
-    background:#ccc;
-    color:#fff;
+    background:var(--header-helpers-color);
+    color: #fff;
     border-top:1px solid #999;
     border-bottom:1px solid #999;
   }
@@ -234,7 +268,7 @@ Lesson Headers
 
   header .peer-review, header .open-license {
     font-size: 0.9rem;
-    color: #666;
+    color: var(--font-color);
     margin: 0;
   }
 
@@ -448,7 +482,7 @@ Lessons Index
    h2.results-title {
      margin:1rem 0;
      font: 1.6rem/2rem 'Roboto Condensed';
-     color:#666;
+     color: var(--font-color);
      text-transform:uppercase;
    }
 
@@ -488,7 +522,7 @@ Lessons Index
   .above-title {
     margin:0 0 .2rem 0;
     font: .8rem/1rem 'Roboto Condensed';
-    color:#999;
+    color:var(--above-title-color);
     text-transform:uppercase;
     clear:none;
   }
@@ -644,8 +678,8 @@ Lesson Typography
 
   a:link {color: #38c;}
   a:visited {color: #39a;}
-  a:hover {color: #555;}
-  a:active {color: #555;}
+  a:hover {color: var(--a-hover-active-color);}
+  a:active {color: var(--a-hover-active-color);}
 
   b, strong { font-weight: bold; }
 
@@ -673,6 +707,7 @@ Lesson Typography
     margin-bottom:1.5rem;
     letter-spacing:-.03rem;
     text-align:center;
+    color: var(--primary-header-color)
   }
 
   h2 {
@@ -771,7 +806,7 @@ Figures
     margin-top:.5rem;
     font-family:'Open Sans';
     font-size:0.8em;
-    color: #666;
+    color: var(--font-color);
     display:block;
     caption-side: bottom;
   }
@@ -786,14 +821,14 @@ Figures
     font-family:'Roboto Condensed';
     font-weight: 600;
     font-size:1.2rem;
-    color: #666;
+    color: var(--font-color);
     text-transform:uppercase;
   }
 
   .author-description p, .suggested-citation-text p {
     font-size:0.9rem;
     font-family:'Open Sans';
-    color: #666;
+    color: var(--font-color);
   }
 
   /* =============================================================================
@@ -969,4 +1004,112 @@ Footer
     font-family: 'Crete Round', serif;
     border-bottom: 1px solid lightgrey;
   }
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+/* h1 {
+    color: var(--secondary-color);
+} */
+
+/* h2, p {
+  color: var(--font-color);
+} */
+
+a {
+    color: var(--primary-color);
+}
+
+#results-value {
+  color: var(--heading-color);
+}
+
+/*Simple css to style it like a toggle switch*/
+
+@media (max-width: 991.98px) {
+  /* phones */
+  #low-contrast-button {
+    margin-left: 0;
+    margin: auto;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 991.98px) {
+  /* screens */
+  #low-contrast-button {
+    margin-left: 1em;
+    padding: 0;
+    /* margin:inherit; */
+  }
+}
+
+/*Simple css to style it like a toggle switch*/
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.theme-switch-wrapper em {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "\f185";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+  font-family: "Font Awesome 5 Free";
+  padding-top: 1px;
+  vertical-align: middle;
+  font-weight: 900;
+  display: inline-block;
+  color: #666;
+}
+
+input:checked+.slider {
+  background-color: #888888;
+}
+
+input:checked+.slider:before {
+  transform: translateX(26px);
+  content: "\f186";
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
