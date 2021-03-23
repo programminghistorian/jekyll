@@ -11,9 +11,10 @@ reviewers:
 layout: lesson
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/286
 difficulty: 2
-activity: analyze
+activity: analyzing
 topics: [distant-reading]
 abstract: "Esta lección te enseña una forma de obtener y analizar datos sobre las emociones y los sentimientos de una narración"
+avatar_alt: "Grabado de tres rostros expresando distintas emociones"
 doi: 10.46430/phes0051
 ---
 
