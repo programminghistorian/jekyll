@@ -421,7 +421,7 @@ simple_plot(sentimientos_valencia)
 
 > Asegúrate de tener suficiente espacio en el bloque de visualización de gráficos en R para que se genere el gráfico. De no hacerlo, verás el error: Error in plot.new() : figure margins too large
 
-<img src="/images/analisis-de-sentimientos-r/miau_sentimientos.png alt="Evolución de las emociones a lo largo del texto"/>
+<img src="/images/analisis-de-sentimientos-r/miau_sentimientos.png" alt="Evolución de las emociones a lo largo del texto"/>
 
 Así, en este caso podemos interpretar que la novela *Miau* comienza de forma neutral, continúa con algunos momentos alegres durante la primera parte, nos encontramos con situaciones negativas en el resto de la novela, y finaliza de manera negativa, tal como lo indica la oración que utilizamos al comienzo de la lección. Cualquiera que haya leído la novela puede corroborar esta sensación de desesperación por parte del protagonista.
 
