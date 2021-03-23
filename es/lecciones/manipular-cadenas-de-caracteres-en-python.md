@@ -30,6 +30,8 @@ topics: [python]
 abstract: "Esta lección es una rápida introducción a técnicas de manipulación de cadenas de caracteres (o strings) en Python."
 avatar_alt: Grabado de un joven tocando una guitarra
 doi: 10.46430/phes0018
+sequence: 6
+series_total: 14
 ---
 
 {% include toc.html %}

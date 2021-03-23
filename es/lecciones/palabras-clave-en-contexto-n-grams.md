@@ -31,6 +31,8 @@ topics: [python]
 abstract: "Esta lección retoma los pares de frecuencias recolectados en [Contar frecuencias de palabras][] y crea una salida de datos en HTML."
 avatar_alt: Grabado de mujer, con expresión de sorpresa en la cara, dejando caer una botella de ginebra y una botella de ron.
 doi: 10.46430/phes0021
+sequence: 13
+series_total: 14
 ---
 
 {% include toc.html %}
