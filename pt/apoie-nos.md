@@ -24,16 +24,20 @@ O projecto agradece os seguintes apoios:
 - Financiamento para apoiar o estabelecimento do *Programming Historian* como uma entidade legal facultado pela [School of History, Art History and Philosophy, University of Sussex](http://www.sussex.ac.uk/hahp/) [2019].
 - Financiamento de um workshop de escrita em Bogotá, Colômbia, apoiado pela [British Academy](https://www.britac.ac.uk/) [2018].
 - Apoio inicial financeiro e de gestão de projeto da *Network in Canadian History & Environment* ([NiCHE](http://niche-canada.org/)) [2011-2013].
-- Os nossos subscritores fundadores do [Patreon](https://www.patreon.com/theprogramminghistorian) Rachel Murphy (nível 'subscrição'), Miriam Posner (nível 'aprendizagem'), Laura Gayle Green (nível 'educação'), e Tim Hitchcock (nível 'patrocínio'). Gostaríamos especialmente de agradecer aos seguintes subscritores do *Programming Historian* de nível [Patreon](https://www.patreon.com/theprogramminghistorian): Tim Hitchcock, Shawn Graham, Jeff Blackadar, Jodi Burkett, Michael Piotrowski, Mark Edwin Peterson, Nickoal Eichmann-Kalwara, Bruno Magalhães, Dimitra Koutla, Laura Gayle Green ('educação'), Rebecca Kahn ('educação').
-- Os membros do nosso [Programa de Parceiros Institucionais](en/support-us#institutional-partner-programme):
-  - [KU Leuven Libraries](https://bib.kuleuven.be/) (2020-...)
-  - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library) (2020-...)
-  - [University of Sussex Library](https://www.sussex.ac.uk/library/) (2020-...)
-  - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/) (2020-...)
-  - [Western University](https://www.uwo.ca/) (2020-...)
-  - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos (2020-...)
-  - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/) (2020-...)
-  - [Université du Luxembourg](https://www.c2dh.uni.lu/) (2020-...)
+- Os nossos subscritores fundadores do [Patreon](https://www.patreon.com/theprogramminghistorian) Rachel Murphy (nível 'subscrição'), Miriam Posner (nível 'aprendizagem'), Laura Gayle Green (nível 'educação'), e Tim Hitchcock (nível 'patrocínio'). Gostaríamos especialmente de agradecer aos seguintes subscritores do *Programming Historian* de nível [Patreon](https://www.patreon.com/theprogramminghistorian): Tim Hitchcock, Shawn Graham, Jeff Blackadar, Jodi Burkett, Michael Piotrowski, Mark Edwin Peterson, Nickoal Eichmann-Kalwara, Bruno Magalhães, Dimitra Koutla, Laura Gayle Green ('educação'), Rebecca Kahn ('educação'), Sarah Melton, ('educação').
+<!-- - Os membros do nosso [Programa de Parceiros Institucionais](en/support-us#institutional-partner-programme): -->
+  - [KU Leuven Libraries](https://bib.kuleuven.be/), Bélgica
+  - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library), Reino Unido
+  - [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
+  - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
+  - [Western University](https://www.uwo.ca/), Canadá
+  - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
+  - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido
+  - [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxemburgo
+  - [Software Sustainability Institute](https://software.ac.uk/), Reino Unido
+  - [Princeton University](https://www.princeton.edu/), Estados Unidos
+  - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos
+  - [Transkribus - READ COOP](https://readcoop.eu/), Austria
 
   
 ## Doações

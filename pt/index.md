@@ -24,14 +24,14 @@ original: index
 <div class="home-block ">
 <div class="container">
 <h2>Ensine</h2>
-	<p>Use o <i>Programming Historian em português</i> nas suas aulas ou workshops! Por favor, <a href="feedback.html">contate-nos</a> sobre como podemos melhorar as nossas lições de acordo com as suas necessidades ou caso tenha problemas na utilização de alguma.</p>
+	<p>Use o <i>Programming Historian em português</i> nas suas aulas ou workshops! Por favor, <a href="reportar-um-erro">contate-nos</a> sobre como podemos melhorar as nossas lições de acordo com as suas necessidades ou caso tenha problemas na utilização de alguma.</p>
 </div>
 </div>
 
 <div class="home-block home-stripe-2">
 <div class="container">
 <h2>Contribua</h2>
-<p><a href="directrizes-autor.html">Escreva uma lição</a>, junte-se à nossa <a href="directrizes-revisor">equipe de revisores</a>, <a href="feedback.html">dê o seu feedback</a>. Estamos sempre interessados em ouvir os nossos leitores!</p>
+<p><a href="directrizes-autor.html">Escreva uma lição</a>, junte-se à nossa <a href="directrizes-revisor">equipe de revisores</a>, <a href="reportar-um-erro">dê o seu feedback</a>. Estamos sempre interessados em ouvir os nossos leitores!</p>
 </div>
 </div>
 

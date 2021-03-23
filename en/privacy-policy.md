@@ -57,3 +57,11 @@ This cookie is used by Google Analytics to determine the visitor session times o
 `__utmc`
 
 This cookie is used by Google Analytics in conjunction with `__utmb` to determine visitor sessions. Unlike `__utmb`, this cookie does not have an expiry date. It determines whether a new session should be created based on whether you have previously closed your browser, re-opened it and come back to the website.
+
+## Session Data
+
+To enable day or night mode on our site, *The Programming Historian* uses session storage to know your theme preference. Session storage is not a cookie, but instead uses web storage objects that are only available in your current tab of your broswer. 
+
+What this means is that if you select our night theme, and either navigate within our site; refresh a page within your tab; or leave our site and come back within the same tab, we will be able to keep your theme preference active. However, if you open a new window or tab, you will see that we default back to our day theme, since the session storage does not persist between browser windows or tabs. 
+
+You can read more about session storage in the [Mozilla Web Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage), but the most important thing to know is that **we do not** persist this session data in any database and it only exists in your browser.

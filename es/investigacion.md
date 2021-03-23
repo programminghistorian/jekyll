@@ -18,6 +18,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Investigación publicada
 
+* Adam Crymble, [_Technology &amp; the Historian: Transformations in the Digital Age_](https://www.press.uillinois.edu/books/catalog/57hxp7wr9780252043710.html), (University of Illinois Press, 2021).
 * Anna-Maria Sichani, James Baker, Maria José Afanador Llach, and Brandon Walsh, [‘Diversity and Inclusion in Digital Scholarship and Pedagogy: The Case of The Programming Historian’](https://doi.org/10.1629/uksg.465), _Insights_, (2019).
 * Katrina Navickas and Adam Crymble, ['From Chartist Newspaper to Digital Map of Grass-roots Meetings, 1841-44: Documenting Workflows'](http://www.tandfonline.com/doi/full/10.1080/13555502.2017.1301179), _Journal of Victorian Culture_, (2017).
 * Adam Crymble, ['Identifying and Removing Gender Barriers in Open Learning Communities: The Programming Historian'], _Blended Learning in Practice_, (2016), 49-60. [[pre-print pdf](/researchpapers/openLearningCommunities2016.pdf)]
@@ -29,6 +30,8 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Penny Andrews and the Programming Historian, ['The Programming Historian: developing and sustaining impact in the Global South'](http://doi.org/10.5281/zenodo.3813763) (2020).
 
 ### Talleres y eventos
+
+* Adam Crymble, 'Teach Digital History Well', UCL, United Kingdom (29 de abril, 2021).
 * Joshua Ortiz Baco, Daniel Alves, Jimmy Medeiros, Luis Ferla, '[Programming Historian em português](https://www.youtube.com/watch?v=bt-OaMW2Fr4)' en _I Jornada Nacional de Humanidades Digitais_, IBICT, Brasil (13 de octubre 2020).
 * Adam Crymble, 'Documenting Your Digital Methods', University of Edinburgh, United Kingdom (27 de mayo 2020).
 * Adam Crymble & Jessica Parr, 'Programming Historian Silent Disco', University of Edinburgh, United Kingdom (18 de mayo 2020).
@@ -49,7 +52,8 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 ### Carteles, conferencias y presentaciones
 * Brandon Walsh, '[The Programming Historian and Editorial Process in Digital Publishing](http://walshbr.com/blog/the-programming-historian-and-editorial-process-in-digital-publishing/)', Modern Languages Association Conference 2021, 7-10 enero, 2021.  
 * Sofia Papastamkou, François Dominic Laramée, Martin Grandjean, '[Le Programming Historian en français: quelles ressources éducatives libres pour les méthodes numériques ?](https://zenodo.org/record/3819954)', *Humanistica 2020*, Bordeaux, France, 12-14 mayo 2020.   
-* Sofia Papastamkou, 'A Beating Heart of Digital History: The Programming Historian', [Teaching Digital History Workshop](https://cas.au.dk/center-for-digital-history-aarhus/events/show/artikel/teaching-digital-history-workshop-a-one-day-seminar/), Center for Digital History Aarhus, University of Aarhus, Dinamarca, 23 octubre 2019.  
+* Sofia Papastamkou, 'A Beating Heart of Digital History: The Programming Historian', [Teaching Digital History Workshop](https://cas.au.dk/center-for-digital-history-aarhus/events/show/artikel/teaching-digital-history-workshop-a-one-day-seminar/), Center for Digital History Aarhus, University of Aarhus, Dinamarca, 23 octubre 2019.
+* Jennifer Isasi, Maria José Afanador y Antonio Rojas Castro, 'Retos en la producción de tutoriales de HD en contexto hispanohablantes', Conferencia ACH 2019, The Association for Computers and the Humanities, Pittsburgh, 23 al 26 de julio, 2019, Pittsburgh.   
 * Sofia Papastamkou, Antonio Rojas Castro & Anna-Maria Sichani, '[Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French Speaking DH Communities](https://dev.clariah.nl/files/dh2019/boa/1207.html)', Digital Humanities Conference 2019, Utrecht,
 Países Bajos, 9-12 julio, 2019.
 * Jennifer Isasi, Antonio Rojas y Anna-Maria Sichani, 'Data science and the language question in digital humanities pedagogy: the example of the Programming Historian', *EADH 2018*, National University of Ireland, Galway (9 diciembre 2018).
@@ -68,6 +72,8 @@ Países Bajos, 9-12 julio, 2019.
 * Víctor Gayol, ‘The Programming Historian en español’, Blog de Humanidades Digitales, marzo 17, 2017, http://humanidadesdigitales.net/blog/2017/03/17/the-programming-historian-en-espanol/.
 
 ### Editoriales
+
+* Anuka Mohanpuhr, 'Publishing in the digital humanities remains a space exclusive to non-English speakers, experts say' _The Stanford Daily_, 10 de marzo, 2021, <https://www.stanforddaily.com/2021/03/10/publishing-in-the-digital-humanities-remains-a-space-exclusive-to-non-english-speakers-experts-say/>.
 * Matthew Lincoln, 'Multilingual Jekyll: How The Programming Historian Does That', *matthewlincoln.net*, 1 de marzo 2020, <https://matthewlincoln.net/2020/03/01/multilingual-jekyll.html>.
 * Martin Dröge, 'Rezension zu The Programming Historian', _H-Soz-Kult_, 31.08.2019, <https://www.hsozkult.de/webreview/id/rezwww-184>.
 * Sue Levine, 'The Early-Stage Ph.D.'s Guide to Summer', _Inside Higher Education_, 10 en junio 2019, <https://www.insidehighered.com/advice/2019/06/10/professional-development-and-careers-activities-phd-students-can-pursue-over>.
