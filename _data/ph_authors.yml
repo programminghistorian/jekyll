@@ -2088,9 +2088,9 @@
   status: volunteer
   
 - name: Ricardo M Pimenta
-  twitter: @RicardoMPimenta
+  twitter: RicardoMPimenta
   email: ricardopimenta@ibict.br
-  url: http://www.larhud.ibict.br
+  url: "http://www.larhud.ibict.br"
   institution: Instituto Brasileiro de Informação em Ciência e Tecnologia
   sortname: Pimenta
   team: true
