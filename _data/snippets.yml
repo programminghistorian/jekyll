@@ -258,7 +258,9 @@ menu-support-ipp:
   fr:
     title: Partenariat institutionnel
     link: /fr/pi
-  pt: 
+  pt:
+    title: Programa de Parceiros Institucionais
+    link: /pt/apoie-nos#programa-de-parceiros-institucionais
 menu-support-individual:
   en:
     title: Individual Supporters
@@ -270,6 +272,8 @@ menu-support-individual:
     title: Dons individuels
     link: /fr/dons
   pt: 
+    title: Doações
+    link: /pt/apoie-nos#doações
 menu-support-supporters:
   en:
     title: Our Supporters
