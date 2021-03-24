@@ -112,19 +112,6 @@ menu-contribute-overview:
   pt:
     title: Contribuições
     link: /pt/contribua
-menu-lesson-requests:
-  en:
-    title: Lesson Requests
-    link: /en/lesson-requests
-  es:
-    title: Solicitud de lecciones
-    link: /es/solicitud-lecciones
-  fr:
-    title: Appel à contributions
-    link: /fr/appel-contributions
-  pt:
-    title: Pedidos de lições
-    link: /pt/licoes-pedidos
 menu-contribute-feedback:
   en:
     title: Report a bug
