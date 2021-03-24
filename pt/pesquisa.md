@@ -18,6 +18,8 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 * Cameron Blevins, '[Review of the Programming Historian](http://jitp.commons.gc.cuny.edu/review-of-the-programming-historian/)', _The Journal of Interactive Technology & Pedagogy_, vol. 8 (2015).
 
 ## Pesquisa publicada
+
+* Adam Crymble, [_Technology &amp; the Historian: Transformations in the Digital Age_](https://www.press.uillinois.edu/books/catalog/57hxp7wr9780252043710.html), (University of Illinois Press, 2021).
 * Anna-Maria Sichani, James Baker, Maria José Afanador Llach, and Brandon Walsh, [‘Diversity and Inclusion in Digital Scholarship and Pedagogy: The Case of The Programming Historian’](https://doi.org/10.1629/uksg.465), _Insights_, (2019).
 * Katrina Navickas and Adam Crymble, ['From Chartist Newspaper to Digital Map of Grass-roots Meetings, 1841-44: Documenting Workflows'](http://www.tandfonline.com/doi/full/10.1080/13555502.2017.1301179), _Journal of Victorian Culture_, (2017).
 * Adam Crymble, ['Identifying and Removing Gender Barriers in Open Learning Communities: The Programming Historian'](http://researchprofiles.herts.ac.uk/portal/files/10476604/Blip_2016_Autumn_2016_Final_Autumn_2016.pdf), _Blended Learning in Practice_, (2016), 49-60. [[pre-print pdf](/researchpapers/openLearningCommunities2016.pdf)]
@@ -28,6 +30,8 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 * Penny Andrews and the Programming Historian, ['The Programming Historian: developing and sustaining impact in the Global South'](https://zenodo.org/record/3813763#.XvoVqShKhPY) (2020).
 
 ## Workshops & Eventos
+
+* Adam Crymble, 'Teach Digital History Well', UCL, United Kingdom (29 de Abril de 2021).
 * Joshua Ortiz Baco, Daniel Alves, Jimmy Medeiros, Luis Ferla, '[Programming Historian em português](https://www.youtube.com/watch?v=bt-OaMW2Fr4)' in _I Jornada Nacional de Humanidades Digitais_, IBICT (13 de Outubro de 2020).
 * Adam Crymble, 'Python for Humanists', University of London, United Kingdom (31 de Outubro de 2019).
 * Víctor Gayol, 'Introducción a la Historia Digital - The Programming Historian en español', Maestría en Estudios históricos Interdisciplinarios, División de Ciencias Sociales y Humanidades, Universidad de Guanajuato, México (1-5 de Outubro de 2018).
@@ -61,6 +65,8 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 * Adam Crymble, 'The Programming Historian 2', _Digital Humanities 2012_, Hamburg (Julho 2012).
 
 ## Mídia & Contribuições dos Mídias
+
+* Anuka Mohanpuhr, 'Publishing in the digital humanities remains a space exclusive to non-English speakers, experts say' _The Stanford Daily_, 10 de Março 2021, <https://www.stanforddaily.com/2021/03/10/publishing-in-the-digital-humanities-remains-a-space-exclusive-to-non-english-speakers-experts-say/>.
 * Matthew Lincoln, 'Multilingual Jekyll: How The Programming Historian Does That', *matthewlincoln.net*, 1 Março 2020, <https://matthewlincoln.net/2020/03/01/multilingual-jekyll.html>.
 * Martin Dröge, 'Rezension zu The Programming Historian', _H-Soz-Kult_, 31 de Agosto, 2019, <https://www.hsozkult.de/webreview/id/rezwww-184>.
 * Sue Levine, 'The Early-Stage Ph.D.'s Guide to Summer', _Inside Higher Education_, 10 de Junho, 2019, <https://www.insidehighered.com/advice/2019/06/10/professional-development-and-careers-activities-phd-students-can-pursue-over>.

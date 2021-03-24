@@ -18,11 +18,11 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Western University Library](https://www.lib.uwo.ca/), Canada
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Royaume-Uni
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), États-Unis
-- [Université du Luxembourg](https://www.c2dh.uni.lu/), Luxembourg
+- [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxembourg
 - [Software Sustainability Institute](https://www.software.ac.uk/), Royaume-Uni
 - [Princeton University](https://www.princeton.edu/), États-Unis
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), États-Unis
-- [READ COOP](https://readcoop.eu/), Autriche
+- [Transkribus - READ COOP](https://readcoop.eu/), Autriche
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 

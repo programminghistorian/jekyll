@@ -33,11 +33,11 @@ O projecto agradece os seguintes apoios:
   - [Western University](https://www.uwo.ca/), Canadá
   - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
   - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido
-  - [Université du Luxembourg](https://www.c2dh.uni.lu/), Luxemburgo
+  - [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxemburgo
   - [Software Sustainability Institute](https://software.ac.uk/), Reino Unido
   - [Princeton University](https://www.princeton.edu/), Estados Unidos
   - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos
-  - [READ COOP](https://readcoop.eu/), Austria
+  - [Transkribus - READ COOP](https://readcoop.eu/), Austria
 
   
 ## Doações
