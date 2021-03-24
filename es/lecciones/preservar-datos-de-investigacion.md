@@ -21,7 +21,6 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/55
 layout: lesson
 difficulty: 1
 original: preserving-your-research-data
-redirect_from: /es/lessons/preserving-your-research-data
 activity: sustaining
 topics: [data-management]
 abstract: "Esta lección te sugerirá formas en las que los historiadores pueden documentar y estructurar sus datos de investigación con el fin de asegurar que permanecerán útiles en el futuro."
