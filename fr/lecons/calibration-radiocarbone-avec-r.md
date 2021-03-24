@@ -6,7 +6,7 @@ slug: calibration-radiocarbone-avec-r
 authors:
 - Nicolas Frerebeau
 - Brice Lebrun
-date: 2021-03-20
+date: 2021-03-24
 reviewers:
 - Guillaume Florent
 - Lizzie Scholtus
