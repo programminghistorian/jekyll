@@ -475,7 +475,7 @@ lesson-testers:
   en: tested by
   es:
   fr: 
-  pt: 
+  pt: testado por
 published:
   en: published
   es: publicado
@@ -500,7 +500,7 @@ tested-date:
   en: tested
   es:
   fr: 
-  pt: 
+  pt: testado
 difficulty:
   en: difficulty
   es: dificultad
