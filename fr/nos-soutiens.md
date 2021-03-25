@@ -23,7 +23,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Princeton University](https://www.princeton.edu/), États-Unis
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), États-Unis
 - [Transkribus - READ COOP](https://readcoop.eu/), Autriche
-- [RStudio](https://rstudio.com/)
+- [RStudio, PBC](https://rstudio.com/), États-Unis
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
