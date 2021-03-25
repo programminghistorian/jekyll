@@ -88,7 +88,7 @@ Seuls deux paramètres sont nécessaires pour caractériser la distribution des 
 
 Ainsi, si on exprime l'incertitude d'un âge conventionnel en fonction de l'écart-type, il y a 68 % de chances que l'intervalle à \\(1\sigma\\) contienne l'âge conventionnel vrai. De même, l'intervalle à \\(2\sigma\\) a 95 % de chances de contenir l'âge conventionnel vrai. L'intervalle à \\(1\sigma\\) est moins dispersé, mais a moins de chance d'être juste qu'à \\(2\sigma\\) : la plage de valeurs retenues est plus resserrée, mais elle a moins de chance de contenir l'âge conventionnel vrai.
 
-{% include figure.html filename="gauss-1.png" caption="Figure 3 : Loi normale de moyenne 0 et d'écart-type 1 avec les plage de normalité aux niveaux de confiance 68 %, 95 % et 99 %. La distribution des valeurs est telle que la dispersion est symétrique autour de la tendance centrale." %}
+{% include figure.html filename="gauss-1.png" caption="Figure 3 : Loi normale de moyenne 0 et d'écart-type 1 avec les plages de normalité aux niveaux de confiance 68 %, 95 % et 99 %. La distribution des valeurs est telle que la dispersion est symétrique autour de la tendance centrale." %}
 
 L'approche la plus élémentaire pour la calibration d'un âge radiocarbone consiste à intercepter la courbe de calibration entre les bornes d'incertitude (\\(t - \Delta t\\) et \\(t + \Delta t\\) dans le cas à \\(1\sigma\\)) pour obtenir l'intervalle d'âges calendaires correspondants. Ceci est illustré par la figure 4, qui présente la calibration d'un âge conventionnel par interception d'une courbe de calibration (train plein) dont l'incertitude est figurée par un bandeau gris. Les âges conventionnels et calendaires sont figurés à \\(1\sigma\\) (bandes noir) et à \\(2\sigma\\) (bandes hachurées).
 
@@ -369,7 +369,7 @@ summary(ages_ech234, prob = 0.95)
 ## 3 Ech. 4      670   682 to 653     NA to NA
 ```
 
-Certains des âges calibrés à 95 % appartiennent à l'union de plusieurs intervalles HPD. La fonction `hpdi()` permet de calculer les intervalles HPD pour chaque âge calibrés (attention, `hpdi()` renvoie des âges exprimés en années cal BP) et la probabilité associée à chaque intervalle :
+Certains des âges calibrés à 95 % appartiennent à l'union de plusieurs intervalles HPD. La fonction `hpdi()` permet de calculer les intervalles HPD pour chaque âge calibré (attention, `hpdi()` renvoie des âges exprimés en années cal BP) et la probabilité associée à chaque intervalle :
 
 
 ```r
