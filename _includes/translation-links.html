@@ -16,13 +16,15 @@ Those 0+ page objects are saved to the variable `translation_candidates` availab
     {% assign target_slug = page.original %}
     {% assign target_name = target_slug | append: ".md" %}
     
-    {% for other_page in site.pages %}
-        {% if other_page.redirect_from contains target_slug or other_page.name == target_name %}
-            {% assign translation_source = other_page %}
-            {% break %}
-        {% endif %}
-    {% endfor %}
-   
+    {% assign translation_source = site.pages | where: "name", target_name | first %}
+    {% if translation_source == nil %}
+        {% for other_page in site.pages %}
+            {% if other_page.redirect_from contains target_slug or other_page.name == target_name %}
+                {% assign translation_source = other_page %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
 {% else %}
 
 {% assign target_slug = page.name | remove_first: ".md" %}
