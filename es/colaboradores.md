@@ -25,7 +25,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [Princeton University](https://www.princeton.edu/), Estados Unidos
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria
-- [RStudio](https://rstudio.com/)
+- [RStudio, PBC](https://rstudio.com/), Estados Unidos
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 
