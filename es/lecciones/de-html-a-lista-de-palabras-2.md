@@ -23,7 +23,6 @@ layout: lesson
 next: normalizar-datos
 previous: de-html-a-lista-de-palabras-1
 original: from-html-to-list-of-words-2
-redirect_from: /es/lessons/from-html-to-list-of-words-2
 python_warning: false
 difficulty: 2
 activity: transforming

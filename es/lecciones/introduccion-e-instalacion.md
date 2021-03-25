@@ -25,7 +25,6 @@ activity: transforming
 topics: [python, get-ready]
 abstract: "Esta primera lección de nuestra sección sobre recursos en línea está diseñada para introducirte en el tema y preparar tu computadora para comenzar a programar. Nos enfocaremos en la instalación del software necesario para hacerlo –que es software libre y de buena reputación-, y finalmente te ayudaremos a dar una probadita en programación (como dicen en inglés: “get your toes wet”), con unos programas sencillos que producen resultados inmediatos."
 original: introduction-and-installation
-redirect_from: /es/lessons/introduction-and-installation
 avatar_alt: Grabado de una serpiente de cascabel
 doi: 10.46430/phes0016
 ---

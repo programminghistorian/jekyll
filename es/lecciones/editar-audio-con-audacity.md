@@ -19,7 +19,6 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/134
 layout: lesson
 original: editing-audio-with-audacity
-redirect_from: /es/lessons/editing-audio-with-audacity
 difficulty: 1
 activity: transforming
 topics: [data-manipulation]
