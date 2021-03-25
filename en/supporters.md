@@ -24,6 +24,7 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 - [Princeton University](https://www.princeton.edu/), United States
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), United States
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria
+- [RStudio](https://rstudio.com/)
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
