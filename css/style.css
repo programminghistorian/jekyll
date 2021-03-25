@@ -20,6 +20,7 @@ Color Styles
   --a-hover-active-color: #555;
   --header-lesson-color: #f5f5f5;
   --header-helpers-color: #ccc;
+  --blockquote-color: #eeeeee;
 }
 
 [data-theme="night"] {
@@ -33,6 +34,7 @@ Color Styles
   --a-hover-active-color: #9A97F3;
   --header-lesson-color: #171f24;
   --header-helpers-color: #444444;
+  --blockquote-color: #535353;
 }
 
 @media screen {
@@ -683,7 +685,17 @@ Lesson Typography
 
   b, strong { font-weight: bold; }
 
-  blockquote { margin: 1em 2em; padding: 0 1em 0 1em; font-style: italic; border:1px solid #666; background: #eeeeee;}
+  blockquote { 
+    margin: 1em 2em; 
+    padding: 0 1em 0 1em; 
+    font-style: italic; 
+    border:1px solid #666; 
+    background: var(--blockquote-color);
+  }
+  
+  blockquote p{
+    margin-top: 1rem;
+  }
 
   hr {
     display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 2em 0; padding: 0; }
