@@ -22,7 +22,6 @@ layout: lesson
 next: de-html-a-lista-de-palabras-1
 previous: trabajar-con-paginas-web
 original: manipulating-strings-in-python
-redirect_from: /es/lessons/manipulating-strings-in-python
 python_warning: false
 difficulty: 2
 activity: transforming

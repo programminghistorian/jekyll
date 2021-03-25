@@ -24,7 +24,6 @@ layout: lesson
 topics: [data-management]
 abstract: "En esta lección se ofrece una introducción a Markdown, un lenguaje de marcado con sintaxis en texto plano para generar textos con formato. Descubrirás el porqué se utiliza, cómo dar formato a los archivos de Markdown y cómo obtener una vista previa en la web de los documentos formados con Markdown."
 original: getting-started-with-markdown
-redirect_from: /es/lessons/getting-started-with-markdown
 avatar_alt: Tipografía de varias consonantes
 doi: 10.46430/phes0014
 ---
