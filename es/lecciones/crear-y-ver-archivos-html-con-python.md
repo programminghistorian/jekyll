@@ -22,7 +22,6 @@ layout: lesson
 next: salida-de-datos-como-archivo-html
 previous: contar-frecuencias
 original: creating-and-viewing-html-files-with-python
-redirect_from: /es/lessons/creating-and-viewing-html-files-with-python
 difficulty: 2
 activity: presenting
 topics: [python, website]

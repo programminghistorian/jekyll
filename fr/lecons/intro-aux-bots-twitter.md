@@ -14,12 +14,12 @@ editors:
 - Jessica Parr
 translator:
 - Géraldine Castel
-translation-editor: 
+translation-editor:
 - Sofia Papastamkou
 translation-reviewer:
 - Antoine Courtin
 - Sylvain Machefert
-- Alix Chagué 
+- Alix Chagué
 translation_date: 2020-05-09
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/256
@@ -37,7 +37,7 @@ Cette leçon explique comment créer des bots basiques sur Twitter à l’aide d
 
 ## Pourquoi des bots?
 Pour être exact, un bot Twitter est un logiciel permettant de contrôler automatiquement un compte Twitter. Lorsque des centaines de bots sont créés et tweetent plus ou moins le même message, ils peuvent façonner le discours sur Twitter, ce qui influence ensuite le discours d’autres médias. Des bots de ce type [peuvent même être perçus comme des sources crédibles d’information](http://www.sciencedirect.com/science/article/pii/S0747563213003129). Des projets tels que [Documenting the Now](http://www.docnow.io/) mettent au point des outils qui permettent aux chercheur(e)s de créer et d’interroger des archives de réseaux sociaux en ligne à propos d’événements récents qui comprennent très probablement un bon nombre de messages générés par des bots. Dans ce tutoriel, je veux montrer comment construire un bot Twitter basique afin que des historiens et des historiennes, ayant connaissance de leur fonctionnement, puissent plus facilement les repérer dans des archives et, peut-être, même les neutraliser grâce à leurs propres bots.
- 
+
 Mais je crois aussi qu’il y a de la place en histoire et dans les humanités numériques de façon plus large pour un travail créatif, expressif, voire artistique. Les historiens et les historiennes qui connaissent la programmation peuvent profiter des possibilités offertes par les médias numériques pour monter des créations, autrement impossibles à réaliser pour nous émouvoir, nous inspirer, nous interpeller. Il y a de la place pour de la satire, il y a de la place pour commenter. Comme Mark Sample, je crois qu’il y a besoin de &laquo; [bots de conviction](https://medium.com/@samplereality/a-protest-bot-is-a-bot-so-specific-you-cant-mistake-it-for-bullshit-90fe10b7fbaa)&raquo;.
 Ce sont des bots de contestation, des bots si pointus et pertinents, qu’il devient impossible de les prendre pour autre chose par erreur. Selon Sample, il faudrait que de tels bots soient:
 
@@ -57,7 +57,7 @@ J'aimerais voir plus de bots de contestation, des bots nous plaçant face à des
 
 _À lui tout seul, every3minutes justifie la création d’un bot en histoire_.
 
-Pour entamer la réflexion, voici quelques suggestions de personnes qui m’ont répondu sur Twitter lorsque j’ai demandé à quoi pourraient ressembler des bots de conviction en histoire et archéologie: 
+Pour entamer la réflexion, voici quelques suggestions de personnes qui m’ont répondu sur Twitter lorsque j’ai demandé à quoi pourraient ressembler des bots de conviction en histoire et archéologie:
 
 > - un bot qui tweeterait des images en haute résolution issues du patrimoine culturel rendues inaccessibles par des visionneuses en mosaïque et des appropriations de droits d’auteur frauduleuses de la part des institutions où elles se trouvent ?
 — Ryan Baumann (@ryanfb) 22 avril 2017
@@ -74,7 +74,7 @@ Pour entamer la réflexion, voici quelques suggestions de personnes qui m’ont 
 > - à chaque fois que quelqu’un dirait « depuis la nuit des temps, les humains ont », un bot qui répondrait automatiquement CONNERIES.
 — Colleen Morgan (@clmorgan) 22 avril 2017
 
-> - un bot qui imaginerait la réaction d’Afghans, d’Irakiens, de Syriens, de Yéménites lorsque des membres de leur famille sont tués dans des attaques de drones. 
+> - un bot qui imaginerait la réaction d’Afghans, d’Irakiens, de Syriens, de Yéménites lorsque des membres de leur famille sont tués dans des attaques de drones.
 — Cory Taylor (@CoryTaylor_) 22 avril 2017
 
 Dans la mesure où beaucoup de données historiques en ligne sont disponibles en format [JSON](http://json.org/), en cherchant un peu, vous devriez en trouver à utiliser avec votre bot.
@@ -121,7 +121,7 @@ Nous pouvons mélanger les symboles et du texte dans notre bot. Si nous configur
 ```
 ("endroit" est le _symbole_ (notre variable) et "dans un pot" etc… sont les _règles_ (les valeurs de la variable) qui le remplacent)
 
-Dans les phrases de notre brainstorming, nous n'avons jamais utilisé l'expression "sur le bord de la fenêtre", mais une fois que nous avons identifié "dans un pot", d'autres équivalences possibles surgissent. Notre bot va par la suite utiliser ces _symboles_ pour faire des phrases. Les symboles - dans notre cas: "être" et "endroit" - sont comme nos improvisations de type madlib où il fallait une liste de noms, d'adverbes et ainsi de suite. Imaginons alors transmettre à notre bot l’expression suivante : 
+Dans les phrases de notre brainstorming, nous n'avons jamais utilisé l'expression "sur le bord de la fenêtre", mais une fois que nous avons identifié "dans un pot", d'autres équivalences possibles surgissent. Notre bot va par la suite utiliser ces _symboles_ pour faire des phrases. Les symboles - dans notre cas: "être" et "endroit" - sont comme nos improvisations de type madlib où il fallait une liste de noms, d'adverbes et ainsi de suite. Imaginons alors transmettre à notre bot l’expression suivante :
 ```
 "Je #être# #endroit#"
 
@@ -211,7 +211,7 @@ N'oubliez pas que votre bot apparaîtra sur le fil d'autres personnes. Le potent
 
 Vous pouvez certes associer un bot à votre propre compte Twitter. Toutefois, si vous ne voulez pas qu'un bot tweete _en votre_nom_ ou _pour vous_, créez un nouveau compte Twitter. Pour ce faire, Twitter vous demande une adresse e-mail. Vous pouvez utiliser une nouvelle adresse ou, si vous avez un compte Gmail, vous pouvez utiliser l'astuce `+tag`, c'est-à-dire qu'au lieu de `nomdecompte` sur @gmail, vous utilisez `nomdecompte+twitterbot` sur @gmail. Twitter l’acceptera comme une adresse électronique distincte de votre adresse habituelle.
 
-Normalement, quand on construit un bot Twitter, il faut créer [une application sur Twitter en tant que développeur ou développeuse](https://developer.twitter.com/en/apps)), obtenir les clés d'accès d'utilisateur/utilisatrice de l'API (Application Programming Interface, il s'agit de l'interface de programmation applicative), ainsi que le *token* (jeton). Ensuite, il faudrait programmer l'authentification pour que Twitter sache que le programme essayant d'accéder à la plate-forme est autorisé.
+Normalement, quand on construit un bot Twitter, il faut créer [une application sur Twitter en tant que développeur ou développeuse](https://developer.twitter.com/)), obtenir les clés d'accès d'utilisateur/utilisatrice de l'API (Application Programming Interface, il s'agit de l'interface de programmation applicative), ainsi que le *token* (jeton). Ensuite, il faudrait programmer l'authentification pour que Twitter sache que le programme essayant d'accéder à la plate-forme est autorisé.
 
 Heureusement, nous n'avons pas à faire tout cela, puisque George Buckenham a créé le site d'hébergement de bot [Cheap Bots Done Quick](http://cheapbotsdonequick.com/) (ce site web montre également la grammaire source en JSON pour un certain nombre de bots différents, ce qui peut vous donner des idées). Une fois que vous avez créé le compte Twitter de votre bot et que vous y êtes connecté, allez sur Cheap Bots Done Quick et cliquez sur le bouton `Sign in with Twitter`(*Connexion avec Twitter*). Le site vous redirigera vers Twitter pour approuver l'autorisation, puis vous ramènera à Cheap Bots Done Quick.
 
@@ -276,7 +276,7 @@ Cette fonctionnalité ne serait probablement pas très utile dans le cas d'un bo
 
 }
 
-``` 
+```
 
 Un autre exemple un peu plus complexe est le numéro 5 sur le site du tutoriel de Kate Compton à l'adresse [http://www.crystalcodepalace.com/traceryTut.html](http://www.crystalcodepalace.com/traceryTut.html) :
 
@@ -325,7 +325,7 @@ Tout en bas de la page, vous pouvez tester vos mentions en écrivant un exemple 
 {% include figure.html filename="bot-lesson-response.png" caption="Tester la réponse du bot" %}
 
 ## Graphiques SVG
-Puisque le [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics) est un format de données qui décrit la géométrie d'un graphique vectoriel, Tracery peut être utilisé pour réaliser un travail plutôt artistique. Par exemple, il existe le bot [Tiny Space Adventure](https://twitter.com/TinyAdv) qui dessine un champ d'étoiles, un vaisseau spatial et un descriptif. Sa grammaire [peut être consultée ici](https://pastebin.com/YYtZnzZ0). Pour que le format SVG soit généré correctement, il est d'une importance capitale d'avoir paramétré correctement Tracery. N'hésitez donc pas de prendre comme modèle le code source du [bot softlandscapes](http://cheapbotsdonequick.com/source/softlandscapes) qui commence par définir le texte critique qui délimite le SVG : 
+Puisque le [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics) est un format de données qui décrit la géométrie d'un graphique vectoriel, Tracery peut être utilisé pour réaliser un travail plutôt artistique. Par exemple, il existe le bot [Tiny Space Adventure](https://twitter.com/TinyAdv) qui dessine un champ d'étoiles, un vaisseau spatial et un descriptif. Sa grammaire [peut être consultée ici](https://pastebin.com/YYtZnzZ0). Pour que le format SVG soit généré correctement, il est d'une importance capitale d'avoir paramétré correctement Tracery. N'hésitez donc pas de prendre comme modèle le code source du [bot softlandscapes](http://cheapbotsdonequick.com/source/softlandscapes) qui commence par définir le texte critique qui délimite le SVG :
 
 ```
 "origin2": ["#preface##defs##bg##mountains##clouds##ending#"],
@@ -348,7 +348,7 @@ Les bots qui génèrent du SVG dépassent le cadre de cette leçon, mais une ét
 À proprement parler, il ne s'agit plus de bots, mais comme la musique peut être écrite en texte, on peut utiliser Tracery pour composer de la musique et utiliser d'autres bibliothèques pour convertir cette notation en fichiers Midi. Pour aller plus loin, vous pouvez consulter [cet article-ci](http://www.codingblocks.net/videos/generating-music-in-javascript/) et mon [propre retour d'expérience](https://electricarchaeology.ca/2017/04/07/tracery-continues-to-be-awesome/).
 
 # Autres tutoriels et ressources sur les bots
-**En anglais:** 
+**En anglais:**
 
 - Zach Whalen, [How to make a Twitter Bot with Google Spreadsheets](http://www.zachwhalen.net/posts/how-to-make-a-twitter-bot-with-google-spreadsheets-version-04/), site web de Zach Whalen, http://www.zachwhalen.net/, 7 mai 2015
 - [Tracery & Twitterbots](http://cmuems.com/2015b/tracery-twitterbots/)
@@ -361,12 +361,12 @@ Enfin, voici une liste de bots fonctionnant avec Tracery tenue à jour par Compt
 
 **En français (N.D.L.R.: il s'agit de notes ajoutées à la version traduite):**
 
-- Antoine Courtin, [#BotInfocom](https://medium.com/@seeksanusername/botinfocom-1a89605c0953), *Medium.com/@seeksanusername/*, 11 décembre 2016. 
+- Antoine Courtin, [#BotInfocom](https://medium.com/@seeksanusername/botinfocom-1a89605c0953), *Medium.com/@seeksanusername/*, 11 décembre 2016.
 
 # Exemples de bots en français
 **Avec un compte Twitter dédié**
 
-- [Bot de sept lieues](https://www.cafedefaune.org/ougepro/bot-de-sept-lieues): un bot voyageur qui raconte ses découvertes faites dans des contrées imaginaires. 
+- [Bot de sept lieues](https://www.cafedefaune.org/ougepro/bot-de-sept-lieues): un bot voyageur qui raconte ses découvertes faites dans des contrées imaginaires.
 - [EnvoisdeRomeBot](https://twitter.com/envoisdeRomeBot): un bot de valorisation d'une base de données patrimoniales.
 - [Le bot de 7 lieux](https://twitter.com/lebotde7lieux): un bot qui explore les données géolocalisées de Wikidata.
 - [Mémoire de la guerre d'Espagne - Bot](https://twitter.com/memo_guerra_bot): un bot de mémoire sur la Guerre d'Espagne qui liste les noms recensés de ses victimes.
@@ -374,7 +374,7 @@ Enfin, voici une liste de bots fonctionnant avec Tracery tenue à jour par Compt
 **Émis à partir du compte d'utilisateur du créateur du bot**
 
 - Le [GallicaBot](https://twitter.com/search?q=GallicaBot&src=typed_query&f=live) d'Olivier Jacquot qui tweete les titres d'ouvrages en accès libre disponibles sur la bibliothèque [Gallica](https://gallica.bnf.fr/).
-- Le [#BotInfoCom ](https://twitter.com/search?q=%23botInfocom&src=typd&f=live) d'Antoine Courtin, un bot qui simule des titres d'articles (imaginaires) en sciences de l'information et de la communication. 
+- Le [#BotInfoCom ](https://twitter.com/search?q=%23botInfocom&src=typd&f=live) d'Antoine Courtin, un bot qui simule des titres d'articles (imaginaires) en sciences de l'information et de la communication.
 
 # Références
 Compton, K., Kybartas, B., Mateas, M.: Tracery: « An author-focused generative text tool » dans *Proceedings of the 8th International Conference on Interactive Digital Storytelling*, pp. 154–161 (2015).
