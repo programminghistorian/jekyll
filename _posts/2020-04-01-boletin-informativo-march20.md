@@ -62,7 +62,7 @@ Gracias a nuestra red de autores, revisores y editores, continuamos publicando l
 
 ## Colabora
 
-¿Usas *Programming Historian* y quieres colaborar? Siempre estamos buscando nuevas lecciones e incluso tenemos algunas [solicitudes de lecciones](https://programminghistorian.org/es/solicitud-lecciones). También puedes contactarnos con tu propia [idea para una lección](https://programminghistorian.org/es/guia-para-autores) o una traducción, o indicar tu interés para [revisar lecciones](https://programminghistorian.org/es/guia-para-revisores).
+¿Usas *Programming Historian* y quieres colaborar? Siempre estamos buscando nuevas lecciones y puedes contactarnos con tu propia [idea para una lección](https://programminghistorian.org/es/guia-para-autores) o una traducción, o indicar tu interés para [revisar lecciones](https://programminghistorian.org/es/guia-para-revisores).
 
 Para ayudarnos a hacer que nuestro trabajo sea más sostenible y continuar siendo líderes en lecciones multilingües de métodos digitales en acceso abierto, ¡también puede unirte a nuestra lista de [suscriptores de Patreon](https://www.patreon.com/theprogramminghistorian)!
 
