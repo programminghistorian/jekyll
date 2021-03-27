@@ -63,7 +63,7 @@ Grâce à notre réseau d'auteur(e)s, relecteurs et relectrices, et rédacteurs 
 
 ## Collaborez avec nous!
 
-Vous utilisez le *Programming Historian* et vous souhaitez collaborer avec nous? Nous sommes toujours à la recherche de nouvelles leçons et nous avons même formulé quelques [demandes spécifiques](https://programminghistorian.org/fr/appel-contributions). Vous pouvez également nous contacter avec [votre propre proposition de tutoriel](https://programminghistorian.org/fr/consignes-auteurs) ou de traduction, ou vous manifester si vous souhaitez en [évaluer](https://programminghistorian.org/fr/consignes-evaluateurs) un ou plusieurs.
+Vous utilisez le *Programming Historian* et vous souhaitez collaborer avec nous? Nous sommes toujours à la recherche de nouvelles leçons et vous pouvez nous contacter avec [votre propre proposition de tutoriel](https://programminghistorian.org/fr/consignes-auteurs) ou de traduction, ou vous manifester si vous souhaitez en [évaluer](https://programminghistorian.org/fr/consignes-evaluateurs) un ou plusieurs.
 Pour nous aider à pérenniser notre travail et à continuer d'occuper une place de choix dans le domaine des tutoriels multilangues sur les méthodes numériques en libre accès, vous pouvez également vous inscrire à notre liste d'abonnés [Patreon]() dès maintenant!
 
 L'équipe du *Programming Historian* souhaite à nos lecteurs et lectrices de l'hémisphère Sud un joyeux début d'automne, à ceux et à celles de l'hémisphère Nord un bon printemps! Surtout, faites attention et prenez soin de vous.
