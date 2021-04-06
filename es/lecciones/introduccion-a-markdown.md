@@ -51,7 +51,7 @@ Los archivos en Markdown se guardan con la extensión `.md` y se pueden abrir en
 
 En este tutorial vamos a practicar la sintaxis de Markdown en el navegador usando [StackEdit](https://stackedit.io/). Podrás introducir texto formado en Markdown a la izquierda e inmediatamente ver la versión traducida junto a él a la derecha.
 
-Dado que todas las lecciones de *The Programming Historian* están escritas en Markdown, también podemos examinar sus archivos en StackEdit. Copia el texto en formato markdown de la lección [Introducción a la línea de comandos en Bash](es/lecciones/introduccion-a-bash) en el siguiente enlace: 
+Dado que todas las lecciones de *The Programming Historian* están escritas en Markdown, también podemos examinar sus archivos en StackEdit. Copia el texto en formato markdown de la lección [Introducción a la línea de comandos en Bash](/es/lecciones/introduccion-a-bash) en el siguiente enlace: 
 
 ```
 https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/es/lecciones/introduccion-a-bash.md
