@@ -17,6 +17,7 @@ O *Programming Historian* é um projecto impulsionado por voluntários. Estamos 
 
 O projecto agradece os seguintes apoios:
 
+- [Fundação Getulio Vargas](https://portal.fgv.br), "Literacia digital: modelando competências digitais para humanistas e cientistas sociais", Brasil [2021-2022].
 - O desenvolvimento Web é suportado pelo [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) e pela [Andrew W. Mellon Foundation](https://mellon.org/) [2018-...]
 - Apoio contínuo de hospedagem na web pelo *Roy Rosenzweig Center for New Media* ([RRCHNM](http://chnm.gmu.edu/)) [2011-...].
 - Financiamento para apoiar o projeto "The Programming Historian: developing and sustaining impact in the Global South" proporcionado pela [ESRC Impact Accelerator Account, University of Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/) [2019].
