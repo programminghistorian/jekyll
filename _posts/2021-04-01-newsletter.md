@@ -8,7 +8,7 @@ categories: posts
 
 <img src="/images/blog/ph-banner-4lang.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
 
-We are already three months into 2021 and it is time to recap on what *Programming Historian* has been working on. No hemos parado de recibir lecciones originales. Nous avons édité la première leçon en français.  E continuamos trabalhando muito para trazer mais lições em português.
+We are already three months into 2021 and it is time to recap on what *Programming Historian* has been working on. No hemos parado de recibir lecciones originales. Nous avons édité la première leçon originale en français.  E continuamos trabalhando muito para trazer mais lições em português.
 
 As usual, none of these achievements would have been possible without the support of our communities around the globe, and the wide host of volunteer editors and collaborators of the journals. To all of you, **Thank you, gracias, merci e obrigados**. 
 
@@ -45,7 +45,7 @@ Have you seen our new lessons? Hemos seguido publicando. Nous avons plusieurs no
 - [Análisis de sentimientos en R con 'syuzhet'](https://programminghistorian.org/es/lecciones/analisis-de-sentimientos-r) de Jennifer Isasi te enseña una forma de obtener y analizar datos sobre las emociones y los sentimientos de una narración. 
 - [Installation de bibliothèques Python avec pip](https://programminghistorian.org/fr/lecons/installation-modules-python-pip) par Fred Gibbs et traduit par Lucas Terriel, il explique l’une des méthodes les plus courantes utilisant pip.
 
-- [Calibrer des âges radiocarbone avec R](https://programminghistorian.org/fr/lecons/calibration-radiocarbone-avec-r) par Nicolas Frerebeau et Brice Lebrun c'est a première leçon originale en français! Cette leçon explique pas à pas comment réaliser la calibration d’un ensemble de dates et comment explorer et présenter les résultats avec R.
+- [Calibrer des âges radiocarbone avec R](https://programminghistorian.org/fr/lecons/calibration-radiocarbone-avec-r) par Nicolas Frerebeau et Brice Lebrun est notre première leçon originale en français! Cette leçon explique pas à pas comment réaliser la calibration d’un ensemble de dates et comment explorer et présenter les résultats avec R.
 - [Preservar os seus dados de investigação](https://programminghistorian.org/pt/licoes/preservar-os-seus-dados-de-investigacao) por James Baker e traduzido por Márcia T. Cavalcanti irá sugerir maneiras pelas quais os historiadores podem documentar e estruturar os seus dados de pesquisa, a fim de garantir que continuem sendo acessíveis no futuro.
 
 Do you have an idea for a lesson? Drop us a line!
@@ -71,7 +71,7 @@ In order for us to be able to better address the needs of our community, Adam Cr
 
 ## Nouveaux membres/novos membros
 
-Notre comité de rédaction continue d’évoluer et de croître dans plusieurs directions. Nous avons recruté trois nouveaux rédacteurs pour l’édition en francais de la revue. Veuillez vous joindre à nous pour accueillir Antoine Henry de Lille University, Gwenaëlle Patat da Maison des Sciences de l'Homme en Bretagne et Matthias Gille Levenson de l'École Normale Supérieure de Lyon. Bienvenue à toutes et à tous!
+Notre comité de rédaction continue d’évoluer et de croître dans plusieurs directions. Nous avons recruté trois nouveaux rédacteurs pour l’édition en francais de la revue. Veuillez vous joindre à nous pour accueillir Antoine Henry de Université de Lille, Gwenaëlle Patat de la Maison des Sciences de l'Homme en Bretagne et Matthias Gille Levenson de l'École Normale Supérieure de Lyon. Bienvenue à toutes et à tous!
 
 A equipa em português está a receber muitas propostas e adicionou também um novo membro ao seu grupo. Assim, gostaríamos de dar as boas-vindas a Ricardo Pimenta! Ele vai ajudar no projeto de trazer o *PH* para a sala de aula no Brasil e em Portugal.
 
@@ -91,7 +91,7 @@ We will address the issues that we can fix ourselves and seek help for those for
 
 A year ago, and before leaving the team, Matthew Lincoln wrote a blogpost about one of the ways in which one can [produce a complex multilingual static site using Jekyll and GitHub pages](https://matthewlincoln.net/2020/03/01/multilingual-jekyll.html). The post was nominated for the Best DH Blog Post or Series of Posts category in the Digital Humanities Awards 2020. Unfortunately, it didn't win, but the nomination showed how important this resource is for the DH community. And congratulations to [the winners](http://dhawards.org/dhawards2020/results/)!
 
-Jennifer Isasi, *PH* comms manager and editor, was nominated and elected to be part of the 2021-2025 Executive Council for [The Association for Computers and the Humanities](https://ach.org). ¡Felicidades, Jennifer! And we would also like to congratulate Kim Gallon and Lorena Gauthereau, who will also part of the Executive Council. 
+Jennifer Isasi, *PH* comms manager and editor, was nominated and elected to be part of the 2021-2025 Executive Council for [The Association for Computers and the Humanities](https://ach.org). ¡Felicidades, Jennifer! And we would also like to congratulate Kim Gallon and Lorena Gauthereau, who will also be part of the Executive Council. 
 
 And last but not least, we would like to offer our biggest congratulations to Adam Crymble for the publication of his book [*Technology & the Historian: Transformations of the Digital Age*](https://www.combinedacademic.co.uk/9780252085697/technology-and-the-historian/), in which he offers an overview of histories and philosophies of the field of History, separating issues relevant to historians from activities in the broader digital humanities movement. We can't wait to read it. 
 
