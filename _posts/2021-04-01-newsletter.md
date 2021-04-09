@@ -30,7 +30,7 @@ Finalmente, el 25 de marzo, nuestras editoras Jennifer Isasi y Riva Quiroga pres
 
 We are not stopping there with our public outreach. We have more events already lined up:
 
-On April 12th, *Programming Historian* team convenes in a panel at [Global Digital Humanities Symposium 2021](https://msuglobaldh.org/) to present its achievements and challenges in their inclusive, four-language journal initiative. During this session the presenters will focus on the strategies each journal has adopted to bring digital scholarship methods to a global audience that will reach 1,5 million just in 2020. In turn, this will serve as an overview of the changes the journal has undergone in its twelve-year history in order to become the flagship journal in DH methods.
+On April 12th, *Programming Historian* team convenes in a panel at [Global Digital Humanities Symposium 2021](https://msuglobaldh.org/) to present its achievements and challenges in their inclusive, four-language journal initiative. During this session the presenters will focus on the strategies each journal has adopted to bring digital scholarship methods to a global audience that reached 1,5 million just in 2020. In turn, this will serve as an overview of the changes the journal has undergone in its twelve-year history in order to become the flagship journal in DH methods.
 
 And on April 29, Adam Crymble is offering [a free *Programming Historian* teaching workshop](https://www.eventbrite.co.uk/e/teach-digital-history-well-tickets-141954926005) to celebrate the launch of his new book, [*Technology & the Historian: Transformations of the Digital Age*](https://www.combinedacademic.co.uk/9780252085697/technology-and-the-historian/). He will offer practical classroom-ready solutions that bring together history and technology for students today.  
 
@@ -87,7 +87,7 @@ In a similar line, Brandon Walsh has started an accessibilty audit to address se
 
 We will address the issues that we can fix ourselves and seek help for those for which  we are lacking expertise on.  
 
-## Acknoledgments
+## Acknowledgments
 
 A year ago, and before leaving the team, Matthew Lincoln wrote a blogpost about one of the ways in which one can [produce a complex multilingual static site using Jekyll and GitHub pages](https://matthewlincoln.net/2020/03/01/multilingual-jekyll.html). The post was nominated for the Best DH Blog Post or Series of Posts category in the Digital Humanities Awards 2020. Unfortunately, it didn't win, but the nomination showed how important this resource is for the DH community. And congratulations to [the winners](http://dhawards.org/dhawards2020/results/)!
 
