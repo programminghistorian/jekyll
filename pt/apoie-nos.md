@@ -40,6 +40,8 @@ O projecto agradece os seguintes apoios:
   - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos
   - [Transkribus - READ COOP](https://readcoop.eu/), Austria
   - [RStudio, PBC](https://rstudio.com/), Estados Unidos
+  - [CESTA, Stanford University](https://cesta.stanford.edu/), Estados Unidos
+  - [University of Waterloo](https://uwaterloo.ca/), Canadá
   
 ## Doações
 

@@ -24,6 +24,8 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), États-Unis
 - [Transkribus - READ COOP](https://readcoop.eu/), Autriche
 - [RStudio, PBC](https://rstudio.com/), États-Unis
+- [CESTA, Stanford University](https://cesta.stanford.edu/), États-Unis
+- [University of Waterloo](https://uwaterloo.ca/), Canada
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
