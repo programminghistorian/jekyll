@@ -25,6 +25,8 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), United States
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria
 - [RStudio, PBC](https://rstudio.com/), United States
+- [CESTA, Stanford University](https://cesta.stanford.edu/), United States
+- [University of Waterloo](https://uwaterloo.ca/), Canada
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
