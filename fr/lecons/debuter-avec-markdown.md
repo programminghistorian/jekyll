@@ -51,21 +51,19 @@ L'utilisation de la syntaxe Markdown vous permettra de produire des fichiers à 
 ## La syntaxe Markdown
 Les fichiers Markdown portent l'extension `.md`. Il est possible de les ouvrir avec un éditeur de texte comme TextEdit, Notepad++, Sublime Text ou Vim. Plusieurs sites web et des plateformes de publication proposent des éditeurs de texte en ligne et/ou des extensions pour insérer du texte avec la syntaxe Markdown.
 
-Dans ce tutoriel, nous allons pratiquer la syntaxe Markdown directement depuis notre navigateur préféré en utilisant l'éditeur en ligne [StackEdit](https://stackedit.io) (*N.D.L.R. pour la traduction en français. La leçon a été écrite en utilisant la version 4 de StackEdit qui est maintenant désuète. Des instructions sur la version 5 sont disponibles ci-dessous*). Cet éditeur de traitement vous permet d'insérer du texte formaté en Markdown à gauche et en avoir le rendu directement à côté, à droite.
+Dans ce tutoriel, nous allons pratiquer la syntaxe Markdown directement depuis notre navigateur préféré en utilisant l'éditeur en ligne [StackEdit](https://stackedit.io). Cet éditeur de traitement vous permet d'insérer du texte formaté en Markdown à gauche et en avoir le rendu directement à côté, à droite.
 
-Puisque toutes les leçons du Programming Historian sont écrites en Markdown, nous pouvons aussi explorer ces fichiers avec StackEdit. Une fois sur la fenêtre de [l'éditeur StackEdit](https://stackedit.io/app), cliquer sur `#` en haut à gauche pour accéder au menu, choisir `Import from URL` (*Importer URL*) puis coller l'URL suivante pour faire apparaître la leçon "Préserver ses données de recherche":
+Puisque toutes les leçons du Programming Historian sont écrites en Markdown, nous pouvons aussi explorer ces fichiers avec StackEdit. Ainsi, l'URL suivante fait apparaître la leçon "Préserver ses données de recherche" en Markdown:
 
 ```
 https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/fr/lecons/preserver-ses-donnees-de-recherche.md
 ```
 
-> N.D.L.R. pour la traduction en français: la version 4 de StackEdit étant désormais désuète, afin de reproduire l'étape de l'exercice décrite ci-dessus, merci de tenir compte des changements suivants apportés à la version 5. Cette version ne proposant plus l'importation d'un fichier depuis une URL, au moins deux options s'offrent à vous:
-> 1) À partir de l'adresse indiquée ci-dessus, copiez l'ensemble du texte puis collez-le dans le panneau de gauche de l'éditeur de StackEdit qui se trouve désormais [ici](https://stackedit.io/app#).
-> 2) À partir de l'adresse indiquée ci-dessus, copiez l'ensemble du texte puis collez-le dans un nouveau fichier en utilisant un éditeur de texte de votre choix. Sauvegardez ce fichier en format .md sur votre poste de travail et rendez-vous sur l'éditeur de StackEdit accessible désormais [ici](https://stackedit.io/app#). Cliquez sur `#`, en haut **à droite** cette fois, pour accéder au menu puis choisissez `Import Markdown` (*Importer Markdown*). Spécifiez le chemin pour accéder au fichier que vous avez stocké en local, puis ouvrez-le.*
+Une fois sur la fenêtre de [l'éditeur StackEdit](https://stackedit.io/app#), à partir de l'adresse indiquée ci-dessus, copiez l'ensemble du texte puis collez-le dans le panneau de gauche de l'éditeur. Si vous le préférez, après avoir copié le texte, vous pouvez aussi le coller dans un nouveau fichier en utilisant un éditeur de texte de votre choix puis le sauvegarder en format .md sur votre poste de travail. Ensuite, rendez-vous sur l'éditeur de StackEdit et cliquez sur `#`, en haut **à droite**, pour accéder au menu puis choisissez `Import Markdown` (*Importer Markdown*). Spécifiez le chemin pour accéder au fichier que vous avez stocké en local, puis ouvrez-le.*
 
 Vous remarquez que, même si la fénêtre à droite offre un rendu plus élégant du texte, le fichier initial en Markdown, à gauche, reste bien lisible.
 
-Maintenant, démarrons notre leçon pour rédiger notre propre syntaxe Markdown. Veuillez créer un nouveau document dans StackEdit en cliquant sur l'icône en haut à droite (*N.D.L.R. Attention, si vous êtes sur StackEdit version 5, l'icône se trouve en haut à gauche*) et en choisissant `New Document` (*Nouveau document*). Vous pouvez introduire un titre pour le document dans la boîte de texte en haut de la page.
+Maintenant, démarrons notre leçon pour rédiger notre propre syntaxe Markdown. Veuillez créer un nouveau document dans StackEdit en cliquant sur l'icône en haut à gauche et en choisissant `New Document` (*Nouveau document*). Vous pouvez introduire un titre pour le document dans la boîte de texte en haut de la page.
 
 ### En-têtes
 Il y a quatre niveaux d'en-têtes disponibles en Markdown; ils sont indiqués par le nombre de `#` précédant le texte de l'en-tête. Merci de copier et coller les exemples suivants dans la boîte de texte à gauche.
