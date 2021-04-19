@@ -8,13 +8,13 @@ categories: posts
 
 <img src="/images/blog/ph-banner-4lang.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
 
-We are already three months into 2021 and it is time to recap on what *Programming Historian* has been working on. No hemos parado de recibir lecciones originales. Nous avons édité la première leçon originale en français.  E continuamos trabalhando muito para trazer mais lições em português.
+We are already three months and a half into 2021 and it is time to recap on what *Programming Historian* has been working on. No hemos parado de recibir lecciones originales. Nous avons édité la première leçon originale en français.  E continuamos trabalhando muito para trazer mais lições em português.
 
 As usual, none of these achievements would have been possible without the support of our communities around the globe, and the wide host of volunteer editors and collaborators of the journals. To all of you, **Thank you, gracias, merci e obrigados**. 
 
 ## Public Outreach 
 
-These three months have been specially busy with virtual events, as we have presented our work on *Programming Historian* in different venues all over. Nos gustaría en especial felicitar y agradecer a nuestra editora Riva Quiroga su gran esfuerzo en marzo, pues ha participado en casi todos estos eventos. 
+These first months of the year have been specially busy with virtual events, as we have presented our work on *Programming Historian* in different venues all over. Nos gustaría en especial felicitar y agradecer a nuestra editora Riva Quiroga su gran esfuerzo en marzo, pues ha participado en casi todos estos eventos. 
 
 Early in January, Brandon Walsh presented our project at the Modern Languages Association Conference 2021. His talk, ‘[The Programming Historian and Editorial Process in Digital Publishing](http://walshbr.com/blog/the-programming-historian-and-editorial-process-in-digital-publishing/)’ focused on the technical side or how we use GitHub for the editorial process to submit and edit new lessons or translations for publication. 
 
@@ -24,17 +24,17 @@ A few days later, on March 10th, Riva presented on the "Multilingual Digital Hum
 
 Our global team members Sofia Papastamkou, Jessica Parr and Riva Quiroga presented at NewsEye’s International Conference. Their paper was titled "Challenges for Digital Literacy in the Humanities: The Open, Community-Based and Multilinguistic Approach of *The Programming Historian*" and centered on the community we have formed to make digital methods available to more people in the world. 
 
-Finalmente, el 25 de marzo, nuestras editoras Jennifer Isasi y Riva Quiroga presentaron el proyecto a la Red INTELE (Infraestructura de Tecnologías del Lenguaje) de España. Con "*Programming Historian*: Un proyecto colaborativo para poner la programación al alcance de los humanistas" dieron buena razón de las directrices éticas que guían el proceso editorial en la revista y mostraron un ejemplo de cómo preparar una lección para su publicación. La charla quedó grabada en video y podéis verla en la [colección de webinarios de INTELE](http://ixa2.si.ehu.eus/intele/?q=webinars). 
+El 25 de marzo, nuestras editoras Jennifer Isasi y Riva Quiroga presentaron el proyecto a la Red INTELE (Infraestructura de Tecnologías del Lenguaje) de España. Con "*Programming Historian*: Un proyecto colaborativo para poner la programación al alcance de los humanistas" dieron buena razón de las directrices éticas que guían el proceso editorial en la revista y mostraron un ejemplo de cómo preparar una lección para su publicación. La charla quedó grabada en video y podéis verla en la [colección de webinarios de INTELE](http://ixa2.si.ehu.eus/intele/?q=webinars). 
+
+On April 12th, *Programming Historian* team convened in a panel at [Global Digital Humanities Symposium 2021](https://msuglobaldh.org/) to present its achievements and challenges in our inclusive, four-language journal initiative. During this session the presenters focused on the strategies each journal has adopted to bring digital scholarship methods to a global audience that reached 1,5 million in 2020. In turn, it served as an overview of the changes the journal has undergone in its twelve-year history in order to become the flagship journal in DH methods. The audience responded positively to the presentation and asked about the addition of new languages.
 
 ### Upcoming events
 
 We are not stopping there with our public outreach. We have more events already lined up:
 
-On April 12th, *Programming Historian* team convenes in a panel at [Global Digital Humanities Symposium 2021](https://msuglobaldh.org/) to present its achievements and challenges in their inclusive, four-language journal initiative. During this session the presenters will focus on the strategies each journal has adopted to bring digital scholarship methods to a global audience that reached 1,5 million just in 2020. In turn, this will serve as an overview of the changes the journal has undergone in its twelve-year history in order to become the flagship journal in DH methods.
-
 And on April 29, Adam Crymble is offering [a free *Programming Historian* teaching workshop](https://www.eventbrite.co.uk/e/teach-digital-history-well-tickets-141954926005) to celebrate the launch of his new book, [*Technology & the Historian: Transformations of the Digital Age*](https://www.combinedacademic.co.uk/9780252085697/technology-and-the-historian/). He will offer practical classroom-ready solutions that bring together history and technology for students today.  
 
-We hope to see you at these events!
+We hope to see you at this event!
 
 ## Lessons/lecciones/leçons/lições
 
@@ -44,7 +44,6 @@ Have you seen our new lessons? Hemos seguido publicando. Nous avons plusieurs no
 - [Creación de sitios estáticos con Jekyll y GitHub Pages](https://programminghistorian.org/es/lecciones/sitios-estaticos-con-jekyll-y-github-pages) de Amanda Visconti ha sido traducida por el equipo HD CAICYT Lab, Gimena del Rio Riande, Nidia Hernández, Romina De León, Gabriel Calarco y Raffaele Viglianti, y te ayudará a crear un sitio web seguro completamente gratuito, fácil de mantener y sobre el que tendrás control total, como un blog académico, un sitio web de proyectos o un portafolio en línea.
 - [Análisis de sentimientos en R con 'syuzhet'](https://programminghistorian.org/es/lecciones/analisis-de-sentimientos-r) de Jennifer Isasi te enseña una forma de obtener y analizar datos sobre las emociones y los sentimientos de una narración. 
 - [Installation de bibliothèques Python avec pip](https://programminghistorian.org/fr/lecons/installation-modules-python-pip) par Fred Gibbs et traduit par Lucas Terriel, il explique l’une des méthodes les plus courantes utilisant pip.
-
 - [Calibrer des âges radiocarbone avec R](https://programminghistorian.org/fr/lecons/calibration-radiocarbone-avec-r) par Nicolas Frerebeau et Brice Lebrun est notre première leçon originale en français! Cette leçon explique pas à pas comment réaliser la calibration d’un ensemble de dates et comment explorer et présenter les résultats avec R.
 - [Preservar os seus dados de investigação](https://programminghistorian.org/pt/licoes/preservar-os-seus-dados-de-investigacao) por James Baker e traduzido por Márcia T. Cavalcanti irá sugerir maneiras pelas quais os historiadores podem documentar e estruturar os seus dados de pesquisa, a fim de garantir que continuem sendo acessíveis no futuro.
 
@@ -62,6 +61,8 @@ So far in 2021, we got six sign-ups to contribute to our [Institutional Partner 
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), United States
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria
 - [RStudio](https://rstudio.com/), PBC, United States
+- [CESTA](https://cesta.stanford.edu/), Stanford University, United States
+- [University of Waterloo](https://uwaterloo.ca/), Canada
 
 On the individual side of things, we are also grateful to the many dozens of sponsors who support our project  through a monthly contribution on [Patreon](https://www.patreon.com/theprogramminghistorian) or one-time [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url) donations. 
 
