@@ -2119,12 +2119,12 @@
   status: volunteer 
   
 - name: Célian RINGWALD
-  twitter: "@ringwald_c"
+  twitter: ringwald_c
   email: celian.ringwald@hotmail.fr
   github: datalogism
   team: true
   team_start: 2021
-  sortname: Célian
+  sortname: Ringwald
   affiliation:
     en: |
         Lyon University, France
@@ -2134,6 +2134,13 @@
         Universidad de Lyon, Francia
     fr: |
         Université de Lyon, France
+  bio:
+    en: |
+      Célian RINGWALD has a master’s degree in data science and a master's degree in digital humanities from Université Lyon 2, currently looking for a thesis project
+    fr: |
+      Célian Ringwald est diplomé d'un master en Sciences de la données et d'un master en Humanités Numériques de l'Université de Lyon 2, actuellement à la recherche d'un projet de thèse
+    es: | 
+    pt: |
   team_roles:
     - french
     - editorial
