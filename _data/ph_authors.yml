@@ -2116,8 +2116,29 @@
   team_roles:
     - portuguese
     - editorial
-  status: volunteer      
-      
+  status: volunteer 
+  
+- name: Célian RINGWALD
+  twitter: "@ringwald_c"
+  email: celian.ringwald@hotmail.fr
+  github: datalogism
+  team: true
+  team_start: 2021
+  sortname: Célian
+  affiliation:
+    en: |
+        Lyon University, France
+    pt: |
+        Universidade de Lyon, França
+    es: |
+        Universidad de Lyon, Francia
+    fr: |
+        Université de Lyon, France
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
+  
 - name: Nicolas Frerebeau
   team: false
   orcid: 0000-0001-5759-4944
