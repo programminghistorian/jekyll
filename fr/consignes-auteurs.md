@@ -79,18 +79,59 @@ Le *Programming Historian en français* s'efforce de publier des leçons qui son
 
 ### Règles typographiques  
 <!-- Ici il y a du texte en EN, à voir si pertinent de le traduite ou de mettre une accroche spécifique-->
-#### Dates and Time 
+#### Dates et heures
 <!--Gwen-->   
+* Les siècles doivent s'écrire en chiffres romains en petite capitale avec le "e" final en exposant, par exemple <span style="font-variant:small-caps;">XVIII</span><sup>e</sup> siècle.
+
+* La mention des décennies, plus particulièrement usitée pour le <span style="font-variant:small-caps;">XX</span><sup>e</sup> siècle, peuvent s'écrire soit en toutes lettres (les années trente), soit en donnant tous les chiffres de l’année (les années 1930).
+
+* On n’abrège pas les millésimes pour les intervalles de dates. On privilègie donc l'écriture des intervalles sous la forme "1854-1864".
+
+* Pour les dates écrites au format numérique, repecter la norme ISO 8601:2004 (AAAA-MM-JJ).
+
+* Pour marquer les dates avant ou après Jésus-Christ, abréger sous la forme "av. J.-C." ou "apr. J.-C.".
+
+* Pour les heures, plusieurs options sont possibles :
+	* écrire les mentions "heures", minutes" et "secondes" en toutes lettres (10 heures 10 minutes)
+	* écrire toutes les mentions "heures" (h), minutes" (min) et "secondes" (s) en abrégé (10 h 10 min), avec un espace insécable entre l'abrévation et le chiffre
+	* écrire au format numérique avec un double point précédé d'un espace insécable (16 :10)
+
 
 #### Les chiffres et les nombres 
 
    
 <!--Sofia--> 
 #### En-têtes
-<!--Gwen-->    
+<!--Gwen--> 
+Les en-têtes ne doivent pas faire appel à des polices de caractères spécifiques ou à des propriétés telles que l'italique ou le gras.
+
+Les titres doivent immédiatement précédés le corps du texte de l'en-tête.
+
+Ne pas faire suivre un titre d’une mise en garde ou d’un autre titre sans un court texte introductif ou descriptif.
+
 
 #### Listes   
 <!--Gwen-->  
+Nous utilisons les listes à puces ou à nombres. Les items de listes doivent être limités à une phrase. Ils sont traités comme des entités séparées et ne doivent pas être enchaînées avec de la ponctuation et des conjonctions. 
+
+Ne pas écrire:
+
+* Voici un item, et
+* voici un autre item; et
+* voici le derner item.
+
+Écrire:
+
+* Voici un item
+* Voici un autre item
+* Voici un dernier item
+	
+Ou bien écrire:
+
+1. Voici un item
+2. Voici un autre item
+3. Voici un dernier item
+
 
 #### Ponctuation  
 <!--Sofia--> 
