@@ -105,7 +105,7 @@ Le *Programming Historian en français* s'efforce de publier des leçons qui son
 <!--Gwen--> 
 Les en-têtes ne doivent pas faire appel à des polices de caractères spécifiques ou à des propriétés telles que l'italique ou le gras.
 
-Les titres doivent immédiatement précédés le corps du texte de l'en-tête.
+Les titres doivent immédiatement précéder le corps du texte de l'en-tête.
 
 Ne pas faire suivre un titre d’une mise en garde ou d’un autre titre sans un court texte introductif ou descriptif.
 
