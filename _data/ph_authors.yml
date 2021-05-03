@@ -2116,8 +2116,37 @@
   team_roles:
     - portuguese
     - editorial
-  status: volunteer      
-      
+  status: volunteer 
+  
+- name: Célian Ringwald
+  twitter: ringwald_c
+  email: celian.ringwald@hotmail.fr
+  github: datalogism
+  team: true
+  team_start: 2021
+  sortname: Ringwald
+  affiliation:
+    en: |
+        Lyon University, France
+    pt: |
+        Universidade de Lyon, França
+    es: |
+        Universidad de Lyon, Francia
+    fr: |
+        Université de Lyon, France
+  bio:
+    en: |
+      Célian Ringwald has a master’s degree in data science and a master's degree in digital humanities from Université Lyon 2
+    fr: |
+      Célian Ringwald est diplomé d'un master 2 en Sciences de la données et d'un master 2 en Humanités Numériques de l'Université de Lyon 2
+    es: | 
+      Célian Ringwald tiene una maestría en Ciencia de Datos y una maestría en Humanidades Digitales de la Université Lyon 2
+    pt: |
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
+  
 - name: Nicolas Frerebeau
   team: false
   orcid: 0000-0001-5759-4944
@@ -2139,5 +2168,5 @@
     fr: |
       Brice Lebrun est ingénieur de recherche en géochronologie à l'Institut de recherche sur les Archéomatériaux – Centre de recherche en physique appliquée à l’archéologie (IRAMAT-CRP2A UMR 5060, CNRS/Université Bordeaux Montaigne).
     es: |
-    
+      
     pt: |  
