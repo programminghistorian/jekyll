@@ -32,14 +32,14 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 ## Ateliers et manifestations
 
-* Adam Crymble, 'Teach Digital History Well', UCL, United Kingdom (29 avril 2021).
-* * Silvia Gutiérrez, Jairo Melo & Riva Quiroga, ['Datos Abiertos y Humanidades Digitales'](https://github.com/programminghistorian/opendataday-2021), _Open Data Day 2021_, virtual (6 mars 2021).
+* Adam Crymble, 'Teach Digital History Well', UCL, Royaume-Uni (29 avril 2021).
+* Silvia Gutiérrez, Jairo Melo & Riva Quiroga, ['Datos Abiertos y Humanidades Digitales'](https://github.com/programminghistorian/opendataday-2021), _Open Data Day 2021_, présentation virtuelle (6 mars 2021).
 * Joshua Ortiz Baco, Daniel Alves, Jimmy Medeiros, Luis Ferla, '[Programming Historian em português](https://www.youtube.com/watch?v=bt-OaMW2Fr4)' au _I Jornada Nacional de Humanidades Digitais_, IBICT (13 octobre 2020).
-* Adam Crymble, 'Documenting Your Digital Methods', University of Edinburgh, United Kingdom (27 mai 2020).
-* Adam Crymble & Jessica Parr, 'Programming Historian Silent Disco', University of Edinburgh, United Kingdom (18 mai 2020).
-* Adam Crymble, 'Do You Need to Learn Programming?', University of Edinburgh, United Kingdom (14 mai 2020).
-* Adam Crymble, 'Python for Humanists', University of London, United Kingdom (31 octobre 2019).
-* Víctor Gayol, 'Introducción a la Historia Digital - The Programming Historian en español', Maestría en Estudios históricos Interdisciplinarios, División de Ciencias Sociales y Humanidades, Universidad de Guanajuato, México (1-5 October 2018).
+* Adam Crymble, 'Documenting Your Digital Methods', Université d'Edimbourg, Royaume-Uni (27 mai 2020).
+* Adam Crymble & Jessica Parr, 'Programming Historian Silent Disco', Université d'Edimbourg,  Royaume-Uni (18 mai 2020).
+* Adam Crymble, 'Do You Need to Learn Programming?', Université d'Edimbourg, Royaume-Uni (14 mai 2020).
+* Adam Crymble, 'Python for Humanists', Université de Londres, Royaume-Uni (31 octobre 2019).
+* Víctor Gayol, 'Introducción a la Historia Digital - The Programming Historian en español', Maestría en Estudios históricos Interdisciplinarios, División de Ciencias Sociales y Humanidades, Universidad de Guanajuato, México (1-5 octobre 2018).
 * Adam Crymble, Maria José Afanador Llach, José Antonio Motilla, 'Digital Humanities Skills for Latin American Scholarship', Université de los Andes, Bogotá, Colombie (1-3 août 2018) - a reçu le financement de la British Academy.
 * Victor Gayol, 'Introducción a las Ciencias Sociales y Humanidades Digitales. The Programming Historian en español – COLMICH', El Colegio de Michoacán (septembre 2017)
 * Fred Gibbs, 'Digital History @UM: The Programming Historian', Université de Michigan (27 janvier 2017).
@@ -52,10 +52,10 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, Université d'Edimbourg (26 mai 2015).
 
 ## Posters, présentations et conférences invitées
-* Adam Crymble, 'Facilitating Making in Digital Humanities', The Archaeology of Making, University of London, Royaume-Uni, 5 mai 2021.
+* Adam Crymble, 'Facilitating Making in Digital Humanities', The Archaeology of Making, Université de Londres, Royaume-Uni, 5 mai 2021.
 * Daniel Alves, Jennifer Isasi, Sarah Melton, Sofia Papastamkou, Jessica Parr, Riva Quiroga, Nabeel Siddiqui, Brandon Walsh, 'The Programming Historian: A Global Case Study in Multilingual Open Access and DH Tutelage/Instruction' (panel), _Global Digital Humanities Symposium_, Michigan State University, East Lansing, USA, 12 avril, 2021.
 * Jennifer Isasi & Riva Quiroga, ['_Programming Historian_: Un proyecto colaborativo para poner la programación al alcance de los humanistas'](http://ixa2.si.ehu.eus/intele/?q=webinars), _INTELE : INfraestructura de TEcnologías del LEnguaje_, España, 25 mars, 2021.
-*  Sofia Papastamkou, Jessica Parr & Riva Quiroga, 'Challenges for Digital Literacy in the Humanities: The Open, Community-Based and Multilinguistic Approach of _The Programming Historian_', NewsEye’s International Conference, Europe, 17 mars, 2021.
+*  Sofia Papastamkou, Jessica Parr & Riva Quiroga, 'Challenges for Digital Literacy in the Humanities: The Open, Community-Based and Multilinguistic Approach of _The Programming Historian_', NewsEye’s International Conference, France, 17 mars, 2021.
 * Riva Quiroga, ['Multilingual Digital Humanites'](https://mediacentral.ucl.ac.uk/Play/59506), Digital Humanities Long View Seminar, UCLDH, UK & CESTA, USA, 10 mars, 2021.
 * Brandon Walsh, '[The Programming Historian and Editorial Process in Digital Publishing](http://walshbr.com/blog/the-programming-historian-and-editorial-process-in-digital-publishing/)', Modern Languages Association Conference 2021, 7-10 janvier 2021.  
 * Sofia Papastamkou, François Dominic Laramée, Martin Grandjean, '[Le Programming Historian en français: quelles ressources éducatives libres pour les méthodes numériques ?](https://zenodo.org/record/3819954)', *Humanistica 2020*, Bordeaux, France, 12-14 mai 2020.   
