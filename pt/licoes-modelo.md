@@ -1,6 +1,11 @@
+---
+title: Modelo de Lições
+layout: blank
+original: lesson-template
+---
 # Modelo de Lições em Português do Programming Historian
 
-Este ficheiro pode ser utilizado como modelo para escrever a sua lição. Inclui informação e diretrizes sobre formatação que são complementares (mas não substituem) as diretrizes para autores (https://programminghistorian.org/pt/directrizes-autor).
+Este ficheiro pode ser utilizado como modelo para escrever a sua lição. Inclui informação e diretrizes sobre formatação que são complementares (mas não substituem) as diretrizes para autores (/pt/directrizes-autor).
 
 ## Alguns lembretes importantes:
 
@@ -68,7 +73,7 @@ Inclua o código curto seguinte para gerar automaticamente um índice analítico
 
 ### Links
 
-Criar [um link para o *Programming Historian*](https://programminghistorian.org/pt/) utilizando o formato desta frase. Assegure-se que as frases linkadas têm um significado semântico válido. Não link termos com significado apenas para usuários com visão, como por exemplo, "clique aqui".
+Criar [um link para o *Programming Historian*](/pt/) utilizando o formato desta frase. Assegure-se que as frases linkadas têm um significado semântico válido. Não link termos com significado apenas para usuários com visão, como por exemplo, "clique aqui".
 
 ### Inserir imagens
 
