@@ -48,7 +48,7 @@ O projecto agradece os seguintes apoios:
 As doações individuais para o *Programming Historian* são vitais para aumentar, melhorar e manter o nosso trabalho. Aceitamos donativos pontuais e regulares:
 
 - Doações regulares ao se tornar apoiador do *Programming Historian* via [Patreon](https://www.patreon.com/theprogramminghistorian).
-- Doações únicas podem ser feitas ao Programming Historian via Paypal, transferência bancária (Lloyds Bank, número de conta 55263268, código bancário 30-96-26), ou cheque (à ordem de 'ProgHist Ltd' e enviado para ‘Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH’). Para doações através de transferência bancária e cheque, ficaríamos gratos se escrevesse para o e-mail <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> para sabermos quem é e por que decidiu apoiar o nosso trabalho.
+- Doações únicas podem ser feitas ao Programming Historian via Paypal, transferência bancária (Lloyds Bank, número de conta 55263268, código bancário 30-96-26), ou cheque (à ordem de 'ProgHist Ltd' e enviado para ‘The Programming Historian, c/o West & Berry, Mocatta House, Trafalgar Place, Brighton, United Kingdom, BN1 4DU’). Para doações através de transferência bancária e cheque, ficaríamos gratos se escrevesse para o e-mail <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> para sabermos quem é e por que decidiu apoiar o nosso trabalho.
 
 ## Programa de Parceiros Institucionais
 
