@@ -1,9 +1,3 @@
----
-title: Lesson Template
-layout: blank
-redirect_from: /lesson-template
----
-
 # Programming Historian English Language Lesson Template
 
 This file can be used as a template for writing your lesson. It includes information and guidelines on formatting which supplement but do not replace the author's guidelines (/en/author-guidelines)

@@ -1,8 +1,3 @@
----
-title: Modelo de Lições
-layout: blank
-original: lesson-template
----
 # Modelo de Lições em Português do Programming Historian
 
 Este ficheiro pode ser utilizado como modelo para escrever a sua lição. Inclui informação e diretrizes sobre formatação que são complementares (mas não substituem) as diretrizes para autores (/pt/directrizes-autor).
