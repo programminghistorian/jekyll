@@ -10,30 +10,25 @@ skip_validation: true
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
 <h2 class="noclear"> Étape 1 : <a href="#proposer-une-nouvelle-leçon">Proposer une nouvelle leçon</a></h2>
 <h2 class="noclear">Étape 2 : <a href="#rédaction-et-mise-en-forme">Rédaction et mise en forme</a></h2>
-<h2 class="noclear">Étape 3 : <a href="#soumettre-une-nouvelle-leçon">Soumettre une nouvelle leçon</a></h2>
+<h2 class="noclear">Étape 3 : <a href="#soumettre-une-nouvelle-leçon">Soumettre une nouvelle leçon</a></h2>  
+
+
+Ces consignes ont été développées pour vous permettre de comprendre comment s'organise l'écriture d'un tutoriel pour le *Programming Historian en français*. Elles fournissement des détails pratiques, des informations sur la philosophie de la revue, ses workflows et l'évaluation ouverte par les pairs. Si pour quelque raison que ce soit elle nous vous paraissent pas claires, n'hésitez pas à contacter le rédacteur ou la rédactrice en chef {% include managing-editor.html lang=page.lang %}.  
 
 ## Proposer une nouvelle leçon
-Si vous avez une idée pour une nouvelle leçon ou si vous avez déjà rédigé un tutoriel qui, selon vous, pourrait être adapté au *Programming Historian en français*, merci de compléter un [formulaire de proposition](/assets/forms/Formulaire.Tutoriel.txt) et contacter {% include managing-editor.html lang=page.lang %} pour discuter de votre idée. En prenant contact avec l'équipe au tout début du processus, il vous sera plus facile d'élaborer votre leçon -- et plus particulièrement d'identifier le lectorat cible et le niveau de compétence attendu - et de vous associer au rédacteur ou à la rédactrice avec le plus d'expérience sur les thèmes que vous abordez.
 
 <div class="alert alert-success">
-Nous acceptons des tutoriels :
-<ul>
-<li>pertinents pour les humanités;</li>
-<li>adaptés à n'importe quel niveau de compétence et d'expérience technique;</li>
-<li>concernant un problème ou un processus particulier;</li>
-<li>pérennes dans le long terme;</li>
-<li>et s'adressant à un public international.</li>
-</ul>
-La portée et la longueur du tutoriel doivent être appropriés à la complexité de la tâche qui y est expliquée. La longueur des tutoriels ne doit pas excéder 8,000 mots (en incluant le code source) à moins que le rédacteur ou la rédactrice n'en ait explicitement donné la permission. Celle-ci sera uniquement accordée dans des circonstances exceptionnelles. Nous demandons que la longueur des leçons soit en général comprise entre 4,000 et 6,000 mots. Les leçons plus longues pourront être divisées en plusieurs tutoriels.
+Nous vous invitons à nous soumettre des tutoriels pertinents pour les sciences humaines et sociales, qui portent sur un problème de recherche ou un processus particulier, et qui sont adaptés à n'importe quel niveau de compétence et d'expérience technique. Les tutoriels ont vocation à être pérennes dans le long terme et doivent s'adresser à un public international.
+La portée et la longueur du tutoriel doivent être appropriés à la complexité de la tâche qui y est expliquée. La longueur des tutoriels ne doit pas excéder 8000 mots (en incluant le code source) et nous encourageons la soumission de leçons plus courtes. Celles qui seraient plus longues sont susceptibles d'être divisées en plusieurs tutoriels.
 </div>
 
-Vous pouvez avoir une meilleure idée de ce que nous publions en consultant nos [leçons en ligne](/fr/lecons/), en lisant nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs), ou encore en parcourant les [leçons en cours de développement](https://github.com/programminghistorian/ph-submissions/issues). Nous vous encourageons à proposer des leçons sur des sujets déjà traités ou en en cours de développement, à condition que la nouvelle leçon apporte sa propre contribution originale au traitement d'un sujet donné.
+Si vous avez une idée pour une nouvelle leçon, merci de compléter un [formulaire de proposition](/assets/forms/Formulaire.Tutoriel.txt) et contacter {% include managing-editor.html lang=page.lang %} pour discuter de votre idée.
 
-Afin d'assurer la pérennité de nos leçons, les auteur(e)s doivent s'efforcer de soumettre des leçons qui ne sont pas complètement dépendantes de logiciels spécifiques ou d'interfaces utilisateurs. Ces leçons vont à coup sûr souffrir d'instabilité et vont avoir besoin de révisions substantielles lorsque sort une nouvelle version du logiciel ou de l'interface. Enseigner des concepts, plutôt que demander de "cliquer sur le bouton _x_", facilite la rédaction et la publication de tutoriels pérennes.
+Vous pouvez avoir une meilleure idée de ce que nous publions en consultant nos [leçons en ligne](/fr/lecons/), en lisant nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs), ou encore en parcourant les [leçons en cours de développement](https://github.com/programminghistorian/ph-submissions/issues).
+<!--
+Afin d'assurer la pérennité de nos leçons, les auteur(e)s doivent s'efforcer de soumettre des leçons qui ne sont pas complètement dépendantes de logiciels spécifiques ou d'interfaces utilisateurs. Ces leçons vont à coup sûr souffrir d'instabilité et vont avoir besoin de révisions substantielles lorsque sort une nouvelle version du logiciel ou de l'interface. Enseigner des concepts, plutôt que demander de "cliquer sur le bouton _x_", facilite la rédaction et la publication de tutoriels pérennes.-->
 
-Une fois que votre proposition est acceptée, un rédacteur ou une rédactrice va créer un ticket "Proposition" dans notre [dépôt de soumissions](https://github.com/programminghistorian/ph-submissions/issues) avec le titre provisoire de la leçon et les objectifs pédagogiques proposés. Ce ticket sert à signaler le travail en cours alors que vous êtes en train de rédiger votre leçon. Pour éviter d'accumuler les retards, nous vous demandons de soumettre votre leçon dans les 90 jours suivant l'acceptation de votre proposition.
-
------
+Une fois que votre proposition est acceptée, nous allons créer un ticket "Proposition" dans notre [dépôt de soumissions](https://github.com/programminghistorian/ph-submissions/issues) avec le titre provisoire de la leçon et les objectifs pédagogiques proposés. Ce ticket sert à signaler le travail en cours alors que vous êtes en train de rédiger votre leçon. Pour éviter d'accumuler les retards, nous vous demandons de soumettre votre leçon dans les 90 jours suivant l'acceptation de votre proposition.
 
 ## Rédaction et mise en forme
 Cette section présente notre charte éditoriale. En en respectant les principes, vous nous aidez à conserver la cohérence des contenus du *Programming Historian en français*.  
@@ -45,7 +40,8 @@ Elle comprend trois parties:
 * Règles de mise en forme  
 
 ### Règles de rédaction  
-<!--ici j'ai changé le niveau d'arborescence en comparaison avec la page en EN, cela faisait bizarre de maintenir cette partie au niveau 2, car elle dépend d'une partie niveau 2 aussi)-->  
+<!--dans cette partie j'ai changé le niveau d'arborescence en comparaison avec la page en EN, cela faisait bizarre de maintenir cette partie au niveau 2, car elle dépend d'une partie niveau 2 aussi)-->  
+Cette partie aborde des questions générales de style pour vous aider à mieux répondre aux attentes de notre lectorat et de notre équipe éditoriale. Elle fournit des informations élémentaires sur le style et le ton à adopter lors de la rédaction, les valeurs de libre accès et de logiciel libre, la nécessité de s'adresser à un lectorat international, l'enjeu d'une écriture durable, et les choix à faire quant aux données mobilisées dans les leçons. Nous vous conseillons de bien lire cette partie lorsque vous vous projettez dans l'écriture d'une leçon puis de la relire avant de soumettre votre texte pour avoir la certitude que voous en avez tenu compte.    
 
 #### Language and Style  
 
