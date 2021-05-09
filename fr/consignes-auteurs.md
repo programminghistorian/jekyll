@@ -81,7 +81,7 @@ Le *Programming Historian en français* s'efforce de publier des leçons qui son
 <!-- Ici il y a du texte en EN, à voir si pertinent de le traduite ou de mettre une accroche spécifique-->
 #### Dates et heures
 <!--Gwen-->   
-* Les siècles doivent s'écrire en chiffres romains en petite capitale avec le "e" final en exposant, par exemple <span style="font-variant:small-caps;">XVIII</span><sup>e</sup> siècle.
+* Les siècles doivent s'écrire en chiffres romains, si possible en petites capitales, avec le "e" final en exposant, par exemple <span style="font-variant:small-caps;">XVIII</span><sup>e</sup> siècle.
 
 * La mention des décennies, plus particulièrement usitée pour le <span style="font-variant:small-caps;">XX</span><sup>e</sup> siècle, peuvent s'écrire soit en toutes lettres (les années trente), soit en donnant tous les chiffres de l’année (les années 1930).
 
@@ -91,10 +91,11 @@ Le *Programming Historian en français* s'efforce de publier des leçons qui son
 
 * Pour marquer les dates avant ou après Jésus-Christ, abréger sous la forme "av. J.-C." ou "apr. J.-C.".
 
-* Pour les heures, plusieurs options sont possibles :
-	* écrire les mentions "heures", minutes" et "secondes" en toutes lettres (10 heures 10 minutes)
-	* écrire toutes les mentions "heures" (h), minutes" (min) et "secondes" (s) en abrégé (10 h 10 min), avec un espace insécable entre l'abrévation et le chiffre
+* Pour les heures, deux options sont possibles :
+	* écrire toutes les mentions "heures" (h), minutes" (min) et "secondes" (s) en abrégé (10&nbsp;h&nbsp;10 min), avec un espace insécable (indiqué comme ceci en HTML : ``` &nbsp; ```) entre l'abrévation et le chiffre
 	* écrire au format numérique avec un double point précédé d'un espace insécable (16 :10)
+
+* Pour indiquer les durées, écrire les mentions "heures", minutes" et "secondes" en toutes lettres (10 heures 10 minutes).
 
 
 #### Les chiffres et les nombres 
