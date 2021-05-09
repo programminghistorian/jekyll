@@ -94,10 +94,18 @@ Le *Programming Historian en français* s'efforce de publier des leçons qui son
 * Pour indiquer les durées, écrire les mentions "heures", minutes" et "secondes" en toutes lettres (10 heures 10 minutes).
 
 
-#### Les chiffres et les nombres 
-
-   
+#### Les nombres 
 <!--Sofia--> 
+ * Écrire les nombres en lettres de 1 à 16 (un à seize) et en chiffres les nombres supérieurs. 
+ * Écrire le(s) nombre(s) commençant une phrase en toutes lettres; toutes les variétés de la langue française sont acceptées (par exemple, *septante* ou *soixante-dix* pour 70) 
+ * Si deux nombres sont cités dans une phrase, dont l'un devrait s'écrire en lettre et l'autre en chiffres, écrire tous les deux préférablement en chiffres ou, si le contexte oblige, tous les deux en lettres (par exemple, *nous avons fusionné 3 des 26 colonnes de notre tableau*; ou *Trois des vingt-six colonnes de notre tableau ont été fusionnées*; nous éviterons donc de mélanger les formes dans une même phrase. Le plus important est de se fixer un règle et de s'y tenir.  
+ *	Écrire les nombres en chiffres dans les tableaux et les formules statistiques et techniques du texte.
+ *	Utiliser l'espace insécable pour séparer les nombres en tranches de trois chiffres, lorsqu'il s'agit de grands nombres, tant dans la partie des entiers que dans celle des décimales (par exemple, *31 589*, *4,321 078*). Pour les nombres composés de quatre chiffres, cela est facultatif et nous préférerons la formule sans espace insécable (*3200* plutôt que *3 200*). En revanche, les numéros, les dates et tout autre chiffre ayant une fonction de numérotation ne se séparent pas.  
+ *	Écrire les nombres en chiffres pour indiquer les versions (*version 5* ou *v.5*), les poids et mesures, les pourcentages, les fractions et nombres décimaux, les sommes (par exemple, 55 %, 17 °C, 200 €).
+ *	Pour exprimer le pourcentage, écrire le nombre accompagné du signe % séparés par un espace insécable; écrire le pourcentage en toutes lettres (*pour cent*) seulement au début d'une phrase. 
+ *	Écrire les formules mathématiques en syntaxe [LaTeX](https://fr.wikibooks.org/wiki/LaTeX/%C3%89crire_des_math%C3%A9matiques).
+   
+
 #### En-têtes
 <!--Gwen--> 
 Les en-têtes ne doivent pas faire appel à des polices de caractères spécifiques ou à des propriétés telles que l'italique ou le gras.
