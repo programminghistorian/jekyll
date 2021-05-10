@@ -68,8 +68,6 @@ match the new entry you made in `_data/snippets.yml`
             role="menuitem">{{site.data.snippets.menu-contribute-translate[page.lang].title}}</a>
           <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-edit[page.lang].link}}"
             role="menuitem">{{site.data.snippets.menu-contribute-edit[page.lang].title}}</a>
-          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-lesson-requests[page.lang].link}}"
-            role="menuitem">{{site.data.snippets.menu-lesson-requests[page.lang].title}}</a>
           <a class="dropdown-item"
             href="{{site.baseurl}}{{site.data.snippets.menu-contribute-technical[page.lang].link}}"
             role="menuitem">{{site.data.snippets.menu-contribute-technical[page.lang].title}}</a>
@@ -107,7 +105,6 @@ match the new entry you made in `_data/snippets.yml`
       that link will be added. If no translation/translation_source for this page is found for a given language, then
       the default "home page" link for that language is used instead.
       {% endcomment %}
-
       {% assign all_translations = translation_candidates | push: translation_source %}
 
       <li class="nav-item">

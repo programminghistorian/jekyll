@@ -17,6 +17,7 @@ O *Programming Historian* é um projecto impulsionado por voluntários. Estamos 
 
 O projecto agradece os seguintes apoios:
 
+- [Escola de Ciências Sociais FGV CPDOC](https://portal.fgv.br), "Literacia digital: modelando competências digitais para humanistas e cientistas sociais", Brasil [2021-2022].
 - O desenvolvimento Web é suportado pelo [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) e pela [Andrew W. Mellon Foundation](https://mellon.org/) [2018-...]
 - Apoio contínuo de hospedagem na web pelo *Roy Rosenzweig Center for New Media* ([RRCHNM](http://chnm.gmu.edu/)) [2011-...].
 - Financiamento para apoiar o projeto "The Programming Historian: developing and sustaining impact in the Global South" proporcionado pela [ESRC Impact Accelerator Account, University of Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/) [2019].
@@ -38,14 +39,16 @@ O projecto agradece os seguintes apoios:
   - [Princeton University](https://www.princeton.edu/), Estados Unidos
   - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos
   - [Transkribus - READ COOP](https://readcoop.eu/), Austria
-
+  - [RStudio, PBC](https://rstudio.com/), Estados Unidos
+  - [CESTA, Stanford University](https://cesta.stanford.edu/), Estados Unidos
+  - [University of Waterloo](https://uwaterloo.ca/), Canadá
   
 ## Doações
 
 As doações individuais para o *Programming Historian* são vitais para aumentar, melhorar e manter o nosso trabalho. Aceitamos donativos pontuais e regulares:
 
 - Doações regulares ao se tornar apoiador do *Programming Historian* via [Patreon](https://www.patreon.com/theprogramminghistorian).
-- Doações únicas podem ser feitas ao Programming Historian via Paypal, transferência bancária (Lloyds Bank, número de conta 55263268, código bancário 30-96-26), ou cheque (à ordem de 'ProgHist Ltd' e enviado para ‘Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH’). Para doações através de transferência bancária e cheque, ficaríamos gratos se escrevesse para o e-mail <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> para sabermos quem é e por que decidiu apoiar o nosso trabalho.
+- Doações únicas podem ser feitas ao Programming Historian via Paypal, transferência bancária (Lloyds Bank, número de conta 55263268, código bancário 30-96-26), ou cheque (à ordem de 'ProgHist Ltd' e enviado para ‘The Programming Historian, c/o West & Berry, Mocatta House, Trafalgar Place, Brighton, United Kingdom, BN1 4DU’). Para doações através de transferência bancária e cheque, ficaríamos gratos se escrevesse para o e-mail <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> para sabermos quem é e por que decidiu apoiar o nosso trabalho.
 
 ## Programa de Parceiros Institucionais
 

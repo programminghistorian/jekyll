@@ -22,7 +22,6 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/51
 layout: lesson
 previous: palabras-clave-en-contexto-n-grams
 original: output-keywords-in-context-in-html-file
-redirect_from: /es/lessons/output-keywords-in-context-in-html-file
 python_warning: false
 difficulty: 2
 activity: presenting

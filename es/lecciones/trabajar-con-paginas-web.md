@@ -29,7 +29,6 @@ abstract: "Esta lección muestra qué es un Localizador de recursos uniforme (Un
 next: manipular-cadenas-de-caracteres-en-python
 previous: reutilizacion-de-codigo-y-modularidad
 original: working-with-web-pages
-redirect_from: /es/lessons/working-with-web-pages
 python_warning: false
 avatar_alt: Grabado de una mujer y un hombre de pies.
 doi: 10.46430/phes0029

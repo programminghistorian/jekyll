@@ -68,6 +68,6 @@ Thanks to our network of authors, reviewers and editors, we continue to publish 
 
 ## Collaborate!
 
-Do you use *Programming Historian* and want to collaborate? We are always looking for new lessons and we even have a few [lesson requests](https://programminghistorian.org/en/lesson-requests). You can also contact us with your own [idea for a lesson](https://programminghistorian.org/en/author-guidelines) or a translation, or indicate your interest to [peer-review lessons](https://programminghistorian.org/en/reviewer-guidelines).
+Do you use *Programming Historian* and want to collaborate? We are always looking for new lessons and you can contact us with your own [idea for a lesson](https://programminghistorian.org/en/author-guidelines) or a translation, or indicate your interest to [peer-review lessons](https://programminghistorian.org/en/reviewer-guidelines).
 
 To help us make our work more sustainable and to continue being leaders in multilingual open access digital methods lessons, you can also join our [Patreon subscriber list](https://www.patreon.com/theprogramminghistorian) now!

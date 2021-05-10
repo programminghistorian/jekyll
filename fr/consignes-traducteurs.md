@@ -68,7 +68,7 @@ Pour ce faire, vous avez plusieurs points d'entrée et sentez-vous libre de cont
 
 * votre rédacteur ou rédactrice assigné(e); 
 * le rédacteur ou la rédactrice en chef;
-* notre médiatrice indépendante ([Dr Hélène Huet](mailto:hhuet@ufl.edu).
+* notre médiatrice indépendante ([Dr Hélène Huet](mailto:hhuet@ufl.edu)).
 
 Nous oeuvrons pour que tout se passe au mieux pour vous, mais si jamais vous estimez vous trouver dans une situation peu confortable, nous vous remercions de nous aider à y remédier et à améliorer les choses. 
 
@@ -82,6 +82,6 @@ Pour ce faire, vous avez plusieurs points d'entrée et sentez-vous libre de cont
 
 * votre rédacteur ou rédactrice assigné(e); 
 * le rédacteur ou la rédactrice en chef;
-* notre médiatrice indépendante ([Dr Hélène Huet](mailto:hhuet@ufl.edu).
+* notre médiatrice indépendante ([Dr Hélène Huet](mailto:hhuet@ufl.edu)).
 
 Nous oeuvrons pour que tout se passe au mieux pour vous, mais si jamais vous estimez vous trouver dans une situation peu confortable, nous vous remercions de nous aider à y remédier et à améliorer les choses. 
