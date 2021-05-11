@@ -464,7 +464,7 @@ translation-editors:
   pt: tradução editada por
 lesson-testers:
   en: tested by
-  es:
+  es: testeado por
   fr: test par
   pt: testado por
 published:
@@ -489,7 +489,7 @@ retired-date:
   pt: retirado
 tested-date:
   en: tested
-  es:
+  es: testeado
   fr: test
   pt: testado
 difficulty:
