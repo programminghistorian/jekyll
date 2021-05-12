@@ -20,7 +20,7 @@ translation-reviewer:
 - Bruno Martins
 - Rômulo Predes
 difficulty: 2
-review-ticket https://github.com/programminghistorian/ph-submissions/issues/318
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/318
 activity: presenting
 topics: [python]
 abstract: "Esta lição é uma introdução ao HTML e as páginas da web que ele estrutura."
