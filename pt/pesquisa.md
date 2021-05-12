@@ -33,7 +33,7 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 ## Workshops & Eventos
 
 * Adam Crymble, 'Teach Digital History Well', UCL, United Kingdom (29 de Abril de 2021).
-* Silvia Gutiérrez, Jairo Melo & Riva Quiroga, ['Datos Abiertos y Humanidades Digitales'](https://github.com/programminghistorian/opendataday-2021), in _Open Data Day 2021_, virtual (6 março 2021).
+* Silvia Gutiérrez, Jairo Melo & Riva Quiroga, ['Datos Abiertos y Humanidades Digitales'](https://github.com/programminghistorian/opendataday-2021), in _Open Data Day 2021_, virtual (6 Março 2021).
 * Joshua Ortiz Baco, Daniel Alves, Jimmy Medeiros, Luis Ferla, '[Programming Historian em português](https://www.youtube.com/watch?v=bt-OaMW2Fr4)' in _I Jornada Nacional de Humanidades Digitais_, IBICT (13 de Outubro de 2020).
 * Adam Crymble, 'Python for Humanists', University of London, United Kingdom (31 de Outubro de 2019).
 * Víctor Gayol, 'Introducción a la Historia Digital - The Programming Historian en español', Maestría en Estudios históricos Interdisciplinarios, División de Ciencias Sociales y Humanidades, Universidad de Guanajuato, México (1-5 de Outubro de 2018).
