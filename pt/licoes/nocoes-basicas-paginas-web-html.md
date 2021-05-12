@@ -30,7 +30,7 @@ series_total: 15 lessons
 sequence: 2
 original: viewing-html-files
 avatar_alt: Uma mulher ouvindo um homem através de uma trombeta de ouvido
-doi: brevemente disponível
+doi: 10.46430/phpt0002
 ---
 
 {% include toc.html %}
