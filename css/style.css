@@ -1136,7 +1136,8 @@ input:checked+.slider:before {
   width: 1px;
 }
 
-div.card div.media-body.p-3 h3{
+div.card div.media-body.p-3 h2{
   font-size:1.2rem;
   margin-top:1.8rem;
+  letter-spacing: normal;
 }
