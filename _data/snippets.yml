@@ -462,6 +462,11 @@ translation-editors:
   es: traducción editada por
   fr: suivi de traduction par
   pt: tradução editada por
+lesson-testers:
+  en: tested by
+  es: testeado por
+  fr: test par
+  pt: testado por
 published:
   en: published
   es: publicado
@@ -482,6 +487,11 @@ retired-date:
   es: retirada
   fr: retrait
   pt: retirado
+tested-date:
+  en: tested
+  es: testeado
+  fr: test
+  pt: testado
 difficulty:
   en: difficulty
   es: dificultad
@@ -490,12 +500,12 @@ difficulty:
 next-lesson:
   en: next lesson
   es: siguiente lección
-  fr: lesson suivante
+  fr: leçon suivante
   pt: próxima lição
 previous-lesson:
   en: previous lesson
   es: lección anterior
-  fr: lesson précédente
+  fr: leçon précédente
   pt: lição anterior
 series-previous-note:
   en: This lesson is part of a series. You might want to check out the
