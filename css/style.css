@@ -221,7 +221,7 @@ Lesson Headers
     text-transform:uppercase;
     font-variant:small-caps;
     letter-spacing:80%;
-    color: var(--font-color);
+    color: #565656;
     margin:.3rem 0 0 0;
     padding:0;
   }
