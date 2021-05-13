@@ -182,9 +182,9 @@ Leituras sugeridas
 
 -   [Non-Programmer's Tutorial for Python 3/Hello, World][]
 
-  [Instalação em Mac]: lessons/mac-installation
-  [Instalação em Windows]: lessons/windows-installation
-  [Instalação em Linux]: lessons/linux-installation
+  [Instalação em Mac]: https://programminghistorian.org/lessons/mac-installation
+  [Instalação em Windows]: https://programminghistorian.org/lessons/windows-installation
+  [Instalação em Linux]: https://programminghistorian.org/lessons/linux-installation
   [print]: https://docs.python.org/2/reference/simple_stmts.html#the-print-statement
   [palavra reservada]: http://docs.python.org/release/2.5.4/ref/keywords.html
   [File Objects]: https://docs.python.org/2/library/stdtypes.html#bltin-file-objects
