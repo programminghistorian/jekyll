@@ -93,7 +93,7 @@ Utilizarás el comando `print` de esta forma en los casos en los que se quiera g
 
 ```python
 #archivo-salida.py
-f = open ('holamundo.txt','wb')
+f = open ('holamundo.txt','w')
 f.write('hola mundo')
 f.close()
 ```
