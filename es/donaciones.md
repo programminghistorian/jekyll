@@ -32,7 +32,7 @@ Por 5, 10 o 15 dólares al mes, puedes unirte a la lista de patrocinadores indiv
 
 # Donaciones puntuales
 
-Puedes hacer donaciones puntuales a *Programming Historian* por [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), transferencia bancaria (número de cuenta de Lloyds Bank 55263268, código bancario 30-96-26) o con un cheque a nombre de “ProgHist Ltd” enviado a la dirección: ‘The Programming Historian, c/o West & Berry, Mocatta House, Trafalgar Place, Brighton, United Kingdom, BN1 4DU’. En caso de donativos por transferencia bancaria o cheque, solicitamos que envíes un correo <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> para que nos cuentes sobre ti y por qué decidiste apoyar nuestro trabajo.
+Puedes hacer donaciones puntuales a *Programming Historian* por [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), transferencia bancaria (número de cuenta de Lloyds Bank 55263268, código bancario 30-96-26) o con un cheque a nombre de “ProgHist Ltd” enviado a la dirección: ‘Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH’. En caso de donativos por transferencia bancaria o cheque, solicitamos que envíes un correo <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> para que nos cuentes sobre ti y por qué decidiste apoyar nuestro trabajo.
 
 # Apoyo institucional
 

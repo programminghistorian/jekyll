@@ -122,7 +122,7 @@ nom `file-output.py`.
 
 ``` python
 # file-output.py
-f = open('helloworld.txt','wb')
+f = open('helloworld.txt','w')
 f.write('hello world')
 f.close()
 ```

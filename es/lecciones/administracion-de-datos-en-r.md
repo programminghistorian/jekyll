@@ -479,7 +479,7 @@ Este tutorial debería darte una idea de cómo organizar y manipular tus datos e
 
 * [R para Análisis Científicos Reproducibles](https://swcarpentry.github.io/r-novice-gapminder-es/) de Software Carpentry (2018) tiene más información sobre cómo utilizar `dplyr` para tus datos.
 
-* Para aprender más sobre el paquete 'ggplot2' puedes consultar la sección "[Visualización de datos](https://es.r4ds.hadley.nz/visualización-de-datos.html)" en el libro _R para Ciencia de Datos_ de Hadley Wickham y Garrett Grolemund.
+* Esta "[Guía rápida de visualización de datos con ggplot2](https://www.rstudio.com/wp-content/uploads/2016/12/ggplot2-cheatsheet-2.1-Spanish.pdf)" u hoja de referencia de ggplot2 (*cheatheet*) tiene un buen resumen de las funciones del paquete para la visualización de datos. La proporciona y actualiza el equipo de RStudio (2016).
 
 * Tanto la *[Guía  para  la  Presentación  de  Gráficos  Estadísticos](https://www.inei.gob.pe/media/MenuRecursivo/metodologias/libro.pdf),* del Instituto  Nacional  de Estadística e Informática (2009) así como la [*Gramática de las gráficas: Pistas para mejorar las representaciones de datos*](http://academica-e.unavarra.es/bitstream/handle/2454/15785/Gramática.pdf?sequence=1) de Joaquín Sevilla Moróder ofrecen explicaciones de cómo presentar tus datos y errores a evitar.
 

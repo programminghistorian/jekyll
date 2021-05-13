@@ -153,7 +153,7 @@ def envuelveCadenaenHTMLWindows(programa, url, body):
     ahora = datetime.datetime.today().strftime("%Y%m%d-%H%M%S")
 
     nombreArchivo = programa + '.html'
-    f = open(nombreArchivo,'wb')
+    f = open(nombreArchivo,'w')
 
     wrapper = """<html>
     <head>
