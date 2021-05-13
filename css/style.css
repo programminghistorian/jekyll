@@ -574,7 +574,7 @@ Top Navigation Bar
 
   .btn-group > .btn-secondary {
     border-color: #333333;
-    background-color: #888888;
+    background-color: #6f6f6f;
   }
 
   .lang {
@@ -1154,4 +1154,10 @@ div.author-info h2.author-name, div.citation-info h2.suggested-citation-header{
   text-transform: uppercase;
   margin-top: 1.4rem;
   letter-spacing: normal;
+}
+
+.btn.disabled, .btn:disabled {
+  opacity: 1;
+  text-decoration: underline !important;
+  font-weight: bold;
 }
