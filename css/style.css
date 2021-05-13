@@ -13,8 +13,8 @@ Color Styles
   --font-color: #666;
   --secondary-font-color: #eee;
   --bg-color: #fff;
-  --secondary-bg-color: #27b;
-  --tertiary-bg-color: #289;
+  --secondary-bg-color: #194c75;
+  --tertiary-bg-color: #1a6875;
   --heading-color: #292922;
   --above-title-color: #999;
   --a-hover-active-color: #555;
@@ -125,7 +125,7 @@ Home Page
   }
 
   .home-stripe-1 a:visited, .home-stripe-1 a:link {
-    color:#6bf;
+    color:#72c0ff;
   }
 
   .home-stripe-2 {
@@ -134,7 +134,7 @@ Home Page
   }
 
   .home-stripe-2 a:visited, .home-stripe-2 a:link {
-    color:#6cd;
+    color:#74ebff;
   }
 
   .home-image {
@@ -678,7 +678,7 @@ Lesson Typography
 
   a {text-decoration:none;}
 
-  a:link {color: #38c;}
+  a:link {color: #2e7ab7;}
   a:visited {color: #39a;}
   a:hover {color: var(--a-hover-active-color);}
   a:active {color: var(--a-hover-active-color);}
@@ -1156,8 +1156,14 @@ div.author-info h2.author-name, div.citation-info h2.suggested-citation-header{
   letter-spacing: normal;
 }
 
+/* modifies the language selector for contrast improvement*/
+
 .btn.disabled, .btn:disabled {
   opacity: 1;
   text-decoration: underline !important;
   font-weight: bold;
+}
+
+.badge-success{
+  background-color: #026d02;
 }
