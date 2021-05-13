@@ -28,7 +28,7 @@ previous: nocoes-basicas-paginas-web-html
 python_warning: false
 original: working-with-text-files
 avatar_alt: Homem de óculos lendo um livro de alfabeto
-doi: brevemente disponível
+doi: 10.46430/phpt0003
 ---
 
 {% include toc.html %}
