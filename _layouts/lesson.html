@@ -140,6 +140,19 @@ All lesson metadata and alerts should follow the convention of pulling appropria
               </ul>
             </div>
             {% endif %}
+
+            {% if page.lesson-tester %}
+            <div>
+              <h3>{{site.data.snippets.lesson-testers[page.lang]}}</h3>
+              <ul>
+                {% for lesson-tester-name in page.lesson-tester %}
+                {% assign lesson-tester = site.data.ph_authors | where: "name", lesson-tester-name | first %}
+                <li>{{ lesson-tester-name }}{% if lesson-tester.orcid %}
+                  {% include orcid.html author = lesson-tester %}{% endif %}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
           </div>
         </div>
       </div> <!-- end row -->
@@ -166,6 +179,12 @@ All lesson metadata and alerts should follow the convention of pulling appropria
           <div class="metarow">
             <h4>{{site.data.snippets.modified[page.lang]}}</h4> <span
               id="modified-date">{{ page.date | date:"%Y-%m-%d" }}</span>
+          </div>
+          {% endif %}
+          {% if page.tested_date %}
+          <div class="metarow">
+            <h4>{{site.data.snippets.tested-date[page.lang]}}</h4> <span
+              id="tested-date">{{ page.tested_date | date:"%Y-%m-%d" }}</span>
           </div>
           {% endif %}
           <div class="metarow">
