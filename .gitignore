@@ -1,8 +1,0 @@
-_site/*
-.jekyll-metadata
-.DS_Store
-tmp/
-
-/vendor
-.bundle/
-.vscode/
