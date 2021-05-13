@@ -16,7 +16,7 @@ lesson-slug.html computes the correct lesson slug, and then this include determi
   {% endif %}
 
   <div class="lesson-image">
-    <a href="{{ lesson.url }}"><img class="rounded" src="/gallery/{{ canonical_slug }}.png"></a>
+    <a href="{{ lesson.url }}"><img class="rounded" src="/gallery/{{ canonical_slug }}.png" alt="{{ lesson.avatar_alt }}"></a>
   </div>
 
   <h3 class="above-title">{{ include.authors }}</h3>
