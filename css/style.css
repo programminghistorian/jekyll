@@ -1125,3 +1125,33 @@ input:checked+.slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/* hidden text for image links and other controls so as to accommodate screen readers*/
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* hacking some header stylings because we were cheating around accessible structuring to get the design we wanted */
+
+div.card div.media-body.p-3 h2{
+  font-size:1.2rem;
+  margin-top:1.8rem;
+  letter-spacing: normal;
+}
+
+div.author-info h2.author-name, div.citation-info h2.suggested-citation-header{
+  font-family: 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--font-color);
+  text-transform: uppercase;
+  margin-top: 1.4rem;
+  letter-spacing: normal;
+}
