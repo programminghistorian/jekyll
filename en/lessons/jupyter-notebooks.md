@@ -156,7 +156,7 @@ Converting published & updated dates for Italian fanfic into days of the week.
 
 When you're editing a cell, you can use Ctrl + Z (Win) or Command + Z (Mac) to undo changes that you've made. Each cell retains its own edit history; even if you move to a different cell and make edits there, you can subsequently click back on the first cell and undo your earlier changes there, without losing the changes to the second cell.
 
-To leave editing mode and "run" this cell (for a Markdown cell, this doesn't *do* anything, just moves you further down the notebook), you can click <i class="fa-step-forward fa"></i> in the toolbar or press Ctrl+Enter (Ctrl+Return on Mac). If you want to resume editing it later, you can either double-click it, or select the cell (which will show a vertical blue line on the left once it's selected) by clicking it once, and then hitting the Enter (Win) or Return (Mac) key. To leave editing mode, you can click <i class="fa-step-forward fa"></i> in the toolbar or press Ctrl+Enter (Ctrl+Return on Mac). If you want to run your current cell and add a new cell (by default, a code cell) immediately below it, you can press Alt+Enter (Option+Enter on Mac).
+To leave editing mode and "run" this cell (for a Markdown cell, this doesn't *do* anything, just moves you further down the notebook), you can click <i class="fas fa-play"></i> in the toolbar or press Ctrl+Enter (Ctrl+Return on Mac). If you want to resume editing it later, you can either double-click it, or select the cell (which will show a vertical blue line on the left once it's selected) by clicking it once, and then hitting the Enter (Win) or Return (Mac) key. To leave editing mode, you can click <i class="fas fa-play"></i> in the toolbar or press Ctrl+Enter (Ctrl+Return on Mac). If you want to run your current cell and add a new cell (by default, a code cell) immediately below it, you can press Alt+Enter (Option+Enter on Mac).
 
 Next, you need to figure out how to do the conversion. Searching for relevant terms may lead you to [this StackOverflow discussion](https://stackoverflow.com/questions/2265357/parse-date-string-and-change-format), and the first answer involves using the *datetime* Python module. As a first step, you need to import *datetime*, using a code cell. You also know that your input file is a CSV, so you should import the *csv* module as well.
 
@@ -196,7 +196,7 @@ with open('ph-jupyter-notebook-example.csv') as f:
         print(row)
 ```
 
-Clicking the <i class="fa-step-forward fa"></i> button in the toolbar when you have a Code cell selected executes the code inside the cell. (If you try running this code after you've run the import statements, you'll see an error: "ValueError: time data '1/7/18' does not match format '%d/%m/%Y'". Don't worry -- we'll debug this next.)
+Clicking the <i class="fas fa-play"></i> button in the toolbar when you have a Code cell selected executes the code inside the cell. (If you try running this code after you've run the import statements, you'll see an error: "ValueError: time data '1/7/18' does not match format '%d/%m/%Y'". Don't worry -- we'll debug this next.)
 
 After you run a code cell, a number will appear in brackets to the left of the cell. This number indicates the order in which the cell was run. If you go back and run the cell again, the number is updated.
 
