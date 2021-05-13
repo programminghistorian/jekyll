@@ -23,7 +23,7 @@ difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/318
 activity: presenting
 topics: [python]
-abstract: "Esta lição é uma introdução ao HTML e as páginas da web que ele estrutura."
+abstract: "Esta lição é uma introdução ao HTML e às páginas da web que ele estrutura."
 next: trabalhando-ficheiros-texto-python
 previous: introducao-e-instalacao
 original: viewing-html-files
