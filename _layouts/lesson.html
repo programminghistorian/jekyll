@@ -260,7 +260,7 @@ All lesson metadata and alerts should follow the convention of pulling appropria
     {% endif %}
     {% assign vol_no = page_year | minus: vol_start | plus: 1 %}
 
-    <h5 class="suggested-citation-header">{{ site.data.snippets.suggested-citation[page.lang] }}</h5>
+    <h2 class="suggested-citation-header">{{ site.data.snippets.suggested-citation[page.lang] }}</h2>
     <div class="suggested-citation-text">
       <p class="suggested-citation-text">{% include author.html %},
         {{ site.data.snippets.title-open-quote[page.lang] }}{{ page.title | strip }}{{ site.data.snippets.title-close-quote[page.lang] }}{% if page.translator %}
