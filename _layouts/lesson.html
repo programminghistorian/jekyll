@@ -162,33 +162,33 @@ All lesson metadata and alerts should follow the convention of pulling appropria
       <div class="container expanded">
         <div class="d-flex flex-wrap flex-md-row flex-column justify-content-between">
           <div class="metarow">
-            <h4>{{site.data.snippets.published[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}
+            <h4>{{site.data.snippets.published[page.lang]}}</h4> | {{ page.date | date:"%Y-%m-%d" }}
           </div>
           {% if page.translation_date %}
           <div class="metarow">
-            <h4>{{site.data.snippets.translated-date[page.lang]}}</h4> <span
+            <h4>{{site.data.snippets.translated-date[page.lang]}}</h4> | <span
               id="translated-date">{{ page.translation_date | date:"%Y-%m-%d" }}</span>
           </div>
           {% endif %}
           {% if page.retired %}
           <div class="metarow">
-            <h4>{{site.data.snippets.retired-date[page.lang]}}</h4> <span
+            <h4>{{site.data.snippets.retired-date[page.lang]}}</h4> | <span
               id="retired-date">{{ page.retired_date | date:"%Y-%m-%d" }}</span>
           </div>
           {% else %}
           <div class="metarow">
-            <h4>{{site.data.snippets.modified[page.lang]}}</h4> <span
+            <h4>{{site.data.snippets.modified[page.lang]}}</h4> | <span
               id="modified-date">{{ page.date | date:"%Y-%m-%d" }}</span>
           </div>
           {% endif %}
           {% if page.tested_date %}
           <div class="metarow">
-            <h4>{{site.data.snippets.tested-date[page.lang]}}</h4> <span
+            <h4>{{site.data.snippets.tested-date[page.lang]}}</h4> | <span
               id="tested-date">{{ page.tested_date | date:"%Y-%m-%d" }}</span>
           </div>
           {% endif %}
           <div class="metarow">
-            <h4>{{site.data.snippets.difficulty[page.lang]}}</h4> {% include difficulty.html %}
+            <h4>{{site.data.snippets.difficulty[page.lang]}}</h4> | {% include difficulty.html %}
           </div>
           {% if page.doi %}
           <div class="metarow">

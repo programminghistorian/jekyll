@@ -1156,7 +1156,7 @@ div.author-info h2.author-name, div.citation-info h2.suggested-citation-header{
   letter-spacing: normal;
 }
 
-/* modifies the language selector for contrast improvement*/
+/* modifies the language selector for contrast improvement */
 
 .btn.disabled, .btn:disabled {
   opacity: 1;
@@ -1167,3 +1167,28 @@ div.author-info h2.author-name, div.citation-info h2.suggested-citation-header{
 .badge-success{
   background-color: #026d02;
 }
+
+header div.header-helpers ul li, header div.metarow {
+  color: #565656;
+}
+
+header h3{
+  text-decoration: underline;
+}
+
+div.alert.alert-success a{
+  color: #2b542c;
+}
+
+div.peer-review a, main header div.open-license a, div.donate a{
+  color: #205279;
+}
+
+div.highlight span.c1{
+  color: #56564d;
+}
+
+div.highlight .mi, div.highlight .nb, div.highlight .mf{
+  color: #008080;
+}
+
