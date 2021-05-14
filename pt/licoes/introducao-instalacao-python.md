@@ -24,7 +24,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/323
 activity: transforming
 topics: [python, get-ready]
 abstract: "Essa primeira lição em nossa seção para tratar de Fontes Online 
-é preparada para que você e o seu computador estejam preparados para iniciar na programação.
+é preparada para que você e o seu computador estejam prontos para se iniciarem na programação.
 Nós iremos nos concentrar em instalar os softwares necessários – todos livres e de boa reputação
 – e finalmente nós iremos te auxiliar a experimentar os primeiros passos na programação 
 para que você tenha resultados imediatos."
@@ -43,7 +43,7 @@ doi: 10.46430/phpt0004
 
 ## Objetivos da Lição
 
-Essa primeira lição na nossa seção sobre Fontes Online é preparada para que você e o seu computador estejam preparados para iniciar na programação.
+Essa primeira lição na nossa seção sobre Fontes Online é preparada para que você e o seu computador estejam preparados para se iniciarem na programação.
 Iremos focar na instalação do software necessário, livre e de boa reputação. Posteriormente, iremos auxiliar na experimentação com os primeiros passos na programação, para que você tenha resultados rápidos.
 
 Neste módulo de abertura, você irá instalar a [Linguagem de Programação Python][], o [analisador de HTML/XML Beautiful Soup][], e um editor de texto. 
@@ -54,7 +54,7 @@ Os ecrãns de exemplo mostrados aqui correspondem ao [Komodo Edit][], mas você 
 
 A linguagem de programação que usaremos nesta série de lições é Python, uma linguagem livre e de código aberto.  
 A menos que seja observado o contrário, usaremos a versão **Python 3** daqui em diante. 
-A versão 2 não é mais suportada mas ainda pode estar sendo usada em projetos ou lições mais antigas.
+A versão 2 não é mais suportada, mas ainda pode estar sendo usada em projetos ou lições mais antigas.
 
 [Python 3 tem algumas poucas diferenças na formatação](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html) (pense em regras gramaticais). Assim, fique atento se você encontrar exemplos online que ainda utilizam o Python 2. Esses exemplos podem não funcionar nas versões atuais do Python.
 
