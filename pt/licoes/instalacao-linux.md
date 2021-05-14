@@ -27,7 +27,7 @@ abstract: "Esta lição irá auxiliar na configuração de um ambiente de desenv
 python_warning: false
 original: linux-installation
 avatar_alt: Uma banda com três músicos
-doi: brevemente disponível
+doi: 10.46430/phpt0007
 ---
 
 {% include toc.html %}
