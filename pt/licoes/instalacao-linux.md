@@ -57,7 +57,7 @@ cd ~
 mkdir programming-historian
 ```
 
-## Instale o Komodo Editor
+## Instale o Komodo Edit
 
 O Komodo Edit é um editor livre e de código aberto, mas pode utilizar [outros editores][] se você preferir. Pode fazer o download directamente do [site do Komodo Edit][]. Uma vez que você tenha feito o download, faça a extração do ficheiro para a sua pasta pessoal e siga as instruções de instalação. Se você tiver seguido corretamente as instruções, abra a sua pasta pessoal, acesse a pasta `Komodo-Edit-11/bin` e finalmente clique no arquivo `komodo`.
 
