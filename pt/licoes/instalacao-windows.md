@@ -58,7 +58,7 @@ Ao iniciar o Komodo Edit, você deve visualizar um ecrã como o apresentado de s
 
 {% include figure.html filename="komodo-edit11-windows-main.png" caption="Komodo Edit no Windows" %}
 
-Se você não visualizar a barra de ferramentas (Toolbox) do lado direito, selecione a opção do menu `View -> Tabs -> Toolbox`. Não importa se o painel do seu projeto está aberto ou não. Invista algum tempo para se familiarizar com o layout do Komodo Editor. O ficheiro de ajuda é bastante completo. 
+Se você não visualizar a barra de ferramentas (Toolbox) do lado direito, selecione a opção do menu `View -> Tabs -> Toolbox`. Não importa se o painel do seu projeto está aberto ou não. Invista algum tempo para se familiarizar com o layout do Komodo Edit. O ficheiro de ajuda é bastante completo. 
 
 ### Configure o Komodo Edit
 
