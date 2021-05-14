@@ -1210,3 +1210,10 @@ div.highlight .mi, div.highlight .nb, div.highlight .mf{
 #search-button, #enable-search-button{
   color: #014c88;
 }
+table thead tr th a:link{
+color: #92cfff;
+}
+
+body div.container article div.alert.alert-info a{
+  color: #1e4f77;
+}
