@@ -57,7 +57,7 @@ Existem vários editores de texto que você pode utilizar para escrever, armazen
 
 Deve agora configurar o editor para que seja possível executar programas em Python.
 
-Se você não visualizar a barra de ferramentas (Toolbox) do lado direito, selecione a opção do menu `View -> Tabs -> Toolbox`. Na janela Toolbox, clique no ícone da engrenagem e selecione “`New Command…`“. Uma nova janela de diálogo irá abrir e você deve renomear o seu comando para “`Run Python`”. Fique a vontade para alterar também o ícone. Na caixa “`Command`”, digite:
+Se você não visualizar a barra de ferramentas (Toolbox) do lado direito, selecione a opção do menu `View -> Tabs -> Toolbox`. Na janela Toolbox, clique no ícone da engrenagem e selecione “`New Command…`”. Uma nova janela de diálogo irá abrir e você deve renomear o seu comando para “`Run Python`”. Fique a vontade para alterar também o ícone. Na caixa “`Command`”, digite:
 
 ``` python
 %(python3) %f
