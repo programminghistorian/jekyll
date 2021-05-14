@@ -23,8 +23,8 @@ difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/318
 activity: presenting
 topics: [python]
-abstract: "Esta lição é uma introdução ao HTML e as páginas da web que ele estrutura."
-next: manipulando-arquivos-texto
+abstract: "Esta lição é uma introdução ao HTML e às páginas da web que ele estrutura."
+next: trabalhando-ficheiros-texto-python
 previous: introducao-e-instalacao
 original: viewing-html-files
 avatar_alt: Uma mulher ouvindo um homem através de uma trombeta de ouvido
@@ -35,8 +35,6 @@ doi: 10.46430/phpt0002
 
 
 
-
-## "Olá mundo" em HTML
 
 ## Visualizando arquivos HTML
 
@@ -76,7 +74,7 @@ O ficheiro HTML mais simples consiste em *tags* que indicam o início e o fim de
 </html>
 ```
 
-Você pode tentar criar algum código HTML. Com o seu editor de texto, crie um novo ficheiro.  Copie o código abaixo no editor. A primeira linha diz ao navegador qual o tipo do ficheiro. A *tag* `html` tem a direção do texto definida como `ltr` (da esquerda para a direita), e ainda a propriedade `lang` (idioma) definida como português. A *tag* `title` no cabeçalho do documento HTML contém informação que geralmente é exibida na barra superior de uma janela quando a página está sendo visualizada, e nas abas do Firefox.
+Você pode tentar criar algum código HTML. Com o seu editor de texto, crie um novo ficheiro. Copie o código abaixo no editor. A primeira linha diz ao navegador qual o tipo do ficheiro. A *tag* `html` tem a direção do texto definida como `ltr` (da esquerda para a direita), e ainda a propriedade `lang` (idioma) definida como português. A *tag* `title` no cabeçalho do documento HTML contém informação que geralmente é exibida na barra superior de uma janela quando a página está sendo visualizada, e nas abas do Firefox.
 
 
 ``` xml
