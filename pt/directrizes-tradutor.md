@@ -6,7 +6,7 @@ skip_validation: true
 ---
 
 # Directrizes para Tradutores
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 <h2 class="noclear">Step 1: <a href="#propor-a-tradução-de-uma-lição">Propor a tradução de uma lição</a></h2>
 <h2 class="noclear">Step 2: <a href="#traduzir-uma-lição">Escrever e formatar uma tradução</a></h2>
 <h2 class="noclear">Step 3: <a href="#submeter-uma-lição-traduzida">Submeter uma lição traduzida</a></h2>

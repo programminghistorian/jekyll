@@ -9,7 +9,7 @@ redirect_from:
 
 # Individual Supporters
 
-<img src="{{site.baseurl}}/images/supporters-individual.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/supporters-individual.png" class="garnish rounded float-left" alt="{{ site.data.snippets.supporters-individual-image-alt[page.lang] }}"/>
 
 Thank you for your interest supporting *Programming Historian*. Individual donors are vital for enabling our continued work, and for helping us to keep our content free to readers around the world. With one in three of our readers living in low and middle income countries, you're also helping to level the playing field, ensuring everyone is empowered to master technology and put it to good use, no matter where they live.
 

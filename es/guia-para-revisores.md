@@ -7,7 +7,7 @@ original: reviewer-guidelines
 
 # Guía para revisores
 
-<img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.reviewer-image-alt[page.lang] }}"/>
 
 Esta guía pretende responder preguntas frecuentes y ayudar a los revisores a comprender mejor su rol durante el proceso editorial.
 

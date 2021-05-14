@@ -6,7 +6,7 @@ skip_validation: true
 ---
 
 # Consignes aux traducteurs et aux traductrices
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 <h2 class="noclear">Étape 1: <a href="#proposer-la-traduction-dune-leçon">Proposer la traduction d'une leçon </a></h2>
 <h2 class="noclear">Étape 2: <a href="#traduire-une-leçon-et-la-mettre-en-page">Traduire une leçon et la mettre en page</a></h2>
 <h2 class="noclear">Étape 3: <a href="#soumettre-la-leçon-traduite">Soumettre la leçon traduite</a></h2>
