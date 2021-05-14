@@ -16,7 +16,7 @@ Color Styles
   --secondary-bg-color: #194c75;
   --tertiary-bg-color: #1a6875;
   --heading-color: #292922;
-  --above-title-color: #999;
+  --above-title-color: #757575;
   --a-hover-active-color: #555;
   --header-lesson-color: #f5f5f5;
   --header-helpers-color: #ccc;
@@ -1163,11 +1163,12 @@ div.author-info h2.author-name, div.citation-info h2.suggested-citation-header{
   text-decoration: underline !important;
   font-weight: bold;
 }
-
+/* modifies contrast on team page */
 .badge-success{
   background-color: #026d02;
 }
 
+/* correcting accessibility issues on lesson pages */
 header div.header-helpers ul li, header div.metarow {
   color: #565656;
 }
@@ -1192,3 +1193,20 @@ div.highlight .mi, div.highlight .nb, div.highlight .mf{
   color: #008080;
 }
 
+/* accessibility corrections on lessons index page */
+
+.activities li{
+  background-color: #2b74af;
+}
+
+.activities li.current{
+  background-color: #014c88;
+}
+
+.topics li{
+  color: #014c88;
+}
+
+#search-button, #enable-search-button{
+  color: #014c88;
+}
