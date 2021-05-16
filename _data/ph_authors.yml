@@ -2170,3 +2170,17 @@
     es: |
       
     pt: |  
+
+- name: Simon Hengchen
+  team: false
+  orcid: 0000-0002-8453-7221
+  bio:
+      en: |
+          Simon Hengchen is a postdoctoral researcher in NLP.
+
+- name: Matteo Romanello 
+  team: false
+  orcid: 0000-0002-7406-6286
+  bio:
+      en: |
+          Matteo Romanello is Lecturer at the University of Lausanne in Ancient Greek literature and computational research.
