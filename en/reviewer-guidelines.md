@@ -7,7 +7,7 @@ redirect_from: /reviewer-guidelines
 
 # Reviewer Guidelines
 
-<img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.reviewer-image-alt[page.lang] }}" />
 
 Reviewing for the _Programming Historian_ is a great way to learn new technical skills and engage with the digital humanities community. We go out of our way to make sure our reviewers get credit and recognition for their work. Because reviewers directly contribute to significantly improving lessons, you can take pride in that your work helps thousands of readers.
 

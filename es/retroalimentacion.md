@@ -7,7 +7,7 @@ original: feedback
 
 # Agradecemos sus comentarios
 
-<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
 
 ¿Has seguido meticulosamente las instrucciones de una lección y aún así has encontrado algún fallo o error? Gracias por tomarte el tiempo de reportar un problema con una de nuestras lecciones. ¡Tu ayuda es crucial para ayudarnos a mantener las mejores lecciones posibles!
 
@@ -22,7 +22,7 @@ Primero, si no tienes una ya, [abre una cuenta personal gratis en GitHub](https:
 
 Después ve a la [página de "issues"](https://github.com/programminghistorian/jekyll/issues?state=open) de nuestro Repositorio. Crea un nuevo "issue" con un título descriptivo y danos toda la información que puedas siguiendo las indicaciones que proporcionamos. 
 
-![](https://cloud.githubusercontent.com/assets/1126864/3697100/52b37768-139e-11e4-816e-c3eee5516997.png)
+<img src="https://cloud.githubusercontent.com/assets/1126864/3697100/52b37768-139e-11e4-816e-c3eee5516997.png" class="full-width rounded" alt="{{ site.data.snippets.open-an-issue-on-github-image-alt[page.lang] }}"/>
 
 Para más información sobre los "issues", lee la guía de GitHub en [Mastering Issues](https://guides.github.com/features/issues/).
 

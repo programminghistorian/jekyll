@@ -774,3 +774,48 @@ front-image-alt:
   es: Imagen de Scientific American que muestra a una mujer trabajando en una máquina contadora eléctrica.
   fr: Image de Scientific American montrant une femme utilisant une compteuse de billets.
   pt: Imagem da Scientific American de uma mulher a usar uma máquina de contagem elétrica.
+write-a-lesson-image-alt:
+  en: A woman at a desk writing.
+  es: Una mujer escribiendo en un escritorio.
+  fr: Une femme à son bureau en train d'écrire. 
+  pt: Uma mulher numa mesa escrevendo.
+editor-guidelines-image-alt:
+  en: Two men discussing a book.
+  es: Dos hombres hablando sobre un libro.
+  fr: Deux hommes en train de discuter d'un livre.
+  pt: Dois homens discutindo um livro.
+translator-image-alt:
+  en: An outdoor scene with a horse, river, and person fishing.
+  es: Una escena con un caballo, un río y una persona pescando. 
+  fr: Scène d'extérieur avec un cheval et un pêcheur en rivière. 
+  pt: Uma cena ao ar livre com um cavalo, um rio e uma pessoa pescando.
+feedback-image-alt:
+  en: A man reading a book.
+  es: Un hombre leyendo un libro. 
+  fr: Un homme en train de lire un livre.
+  pt: Um homem lendo um livro.
+library-catalogue-image-alt:
+  en: A book, hourglass, and assorted objects on a table.
+  es: Un libro, un reloj de arena y otros objetos en una mesa.
+  fr: Un livre, un sablier et divers objets posés sur une table. 
+  pt: Um livro, uma ampulheta e vários objetos numa mesa. 
+open-an-issue-on-github-image-alt:
+  en: Screenshot of GitHub issue tracker with arrow pointing towards the button to contribute a new issue at top right.
+  es: Captura de pantalla del seguimiento de tickets de GitHub con una flecha señalando el botón para contribuir con un nuevo ticket arriba a la derecha.
+  fr: Capture d'écran de l'interface de Github avec une flèche rouge pointant vers le bouton qui permet d'ouvrir un nouveau ticket en haut à droite. 
+  pt: Captura de tela do rastreador de problemas do GitHub, com uma seta apontando para o botão para contribuir com uma nova questão no canto superior direito. 
+reviewer-image-alt:
+  en: Pair of readers reviewing a note.
+  es: Dos lectores revisando una nota. 
+  fr: Des lecteurs en train de reviser une note. 
+  pt: Par de leitores revendo uma nota.
+supporters-ipp-image-alt:
+  en: A bird with a nest filled with eggs.
+  es: Un pájaro con un nido lleno de huevos.
+  fr: Un oiseau et sa niche remplie d'oeufs. 
+  pt: Um pássaro com um ninho cheio de ovos.
+supporters-individual-image-alt:
+  en: A bird sitting on a branch while another bird flies nearby.
+  es: Un pájaro en una rama con otro pájaro volando cerca.
+  fr: Un oiseau posé sur une branche pendant qu'un autre vole à côté. 
+  pt: Um pássaro sentado num galho enquanto outro pássaro voa próximo.

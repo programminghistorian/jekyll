@@ -6,7 +6,7 @@ original: feedback
 
 # Agradecemos o _Feedback_
 
-<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
 
 Seguiu as instruções em uma lição meticulosamente e ainda assim encontrou um erro? Obrigado por reservar um tempo para relatar um problema com uma de nossas lições. Oseu contributo é crucial para nos ajudar a manter as melhores lições possíveis! 
 
@@ -23,7 +23,7 @@ Em seguida, vá até à [página de questões](https://github.com/programminghis
 
 Crie uma nova questão com um título descritivo e preencha o máximo de informações que puder, seguindo o aviso que fornecemos. 
 
-<img src="https://cloud.githubusercontent.com/assets/1126864/3697100/52b37768-139e-11e4-816e-c3eee5516997.png" class="full-width rounded" />
+<img src="https://cloud.githubusercontent.com/assets/1126864/3697100/52b37768-139e-11e4-816e-c3eee5516997.png" class="full-width rounded" alt="{{ site.data.snippets.open-an-issue-on-github-image-alt[page.lang] }}"/>
 
 Para mais informação sobre as questões no GitHub, consulte o Guia GitHub sobre [Mastering Issues](https://guides.github.com/features/issues/).
 

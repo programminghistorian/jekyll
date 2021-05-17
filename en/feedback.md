@@ -10,7 +10,7 @@ redirect_from:
 
 # We Appreciate Your Feedback
 
-<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
 
 Have you followed the instructions in a lesson meticulously and still run into an error? Thank you for taking the time to report a problem with one of our lessons. Your assistance is crucial for helping us maintain the best possible lessons!
 
@@ -27,7 +27,7 @@ Then, go to the [issues page](https://github.com/programminghistorian/jekyll/iss
 
 Create a new issue with a descriptive title and completing as much information as you can give following the prompt we provide.
 
-<img src="https://cloud.githubusercontent.com/assets/1126864/3697100/52b37768-139e-11e4-816e-c3eee5516997.png" class="full-width rounded" />
+<img src="https://cloud.githubusercontent.com/assets/1126864/3697100/52b37768-139e-11e4-816e-c3eee5516997.png" class="full-width rounded" alt="{{ site.data.snippets.open-an-issue-on-github-image-alt[page.lang] }}"/>
 
 For more information about GitHub issues, read the GitHub Guide on [Mastering Issues](https://guides.github.com/features/issues/).
 
