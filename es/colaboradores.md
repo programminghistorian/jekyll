@@ -28,6 +28,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [RStudio, PBC](https://rstudio.com/), Estados Unidos
 - [CESTA, Stanford University](https://cesta.stanford.edu/), Estados Unidos
 - [University of Waterloo](https://uwaterloo.ca/), Canadá
+- [READ-COOP](https://readcoop.eu/), Austria
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 
