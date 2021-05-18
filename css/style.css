@@ -13,10 +13,10 @@ Color Styles
   --font-color: #666;
   --secondary-font-color: #eee;
   --bg-color: #fff;
-  --secondary-bg-color: #27b;
-  --tertiary-bg-color: #289;
+  --secondary-bg-color: #194c75;
+  --tertiary-bg-color: #1a6875;
   --heading-color: #292922;
-  --above-title-color: #999;
+  --above-title-color: #757575;
   --a-hover-active-color: #555;
   --header-lesson-color: #f5f5f5;
   --header-helpers-color: #ccc;
@@ -125,7 +125,7 @@ Home Page
   }
 
   .home-stripe-1 a:visited, .home-stripe-1 a:link {
-    color:#6bf;
+    color:#72c0ff;
   }
 
   .home-stripe-2 {
@@ -134,7 +134,7 @@ Home Page
   }
 
   .home-stripe-2 a:visited, .home-stripe-2 a:link {
-    color:#6cd;
+    color:#74ebff;
   }
 
   .home-image {
@@ -221,7 +221,7 @@ Lesson Headers
     text-transform:uppercase;
     font-variant:small-caps;
     letter-spacing:80%;
-    color: var(--font-color);
+    color: #565656;
     margin:.3rem 0 0 0;
     padding:0;
   }
@@ -574,7 +574,7 @@ Top Navigation Bar
 
   .btn-group > .btn-secondary {
     border-color: #333333;
-    background-color: #888888;
+    background-color: #6f6f6f;
   }
 
   .lang {
@@ -678,7 +678,7 @@ Lesson Typography
 
   a {text-decoration:none;}
 
-  a:link {color: #38c;}
+  a:link {color: #2e7ab7;}
   a:visited {color: #39a;}
   a:hover {color: var(--a-hover-active-color);}
   a:active {color: var(--a-hover-active-color);}
@@ -1154,4 +1154,68 @@ div.author-info h2.author-name, div.citation-info h2.suggested-citation-header{
   text-transform: uppercase;
   margin-top: 1.4rem;
   letter-spacing: normal;
+}
+
+/* modifies the language selector for contrast improvement */
+
+.btn.disabled, .btn:disabled {
+  opacity: 1;
+  text-decoration: underline !important;
+  font-weight: bold;
+}
+/* modifies contrast on team page */
+.badge-success{
+  background-color: #026d02;
+}
+
+/* correcting accessibility issues on lesson pages */
+header div.header-helpers ul li, header div.metarow {
+  color: #565656;
+}
+
+header h3{
+  text-decoration: underline;
+}
+
+div.alert.alert-success a{
+  color: #2b542c;
+}
+
+div.peer-review a, main header div.open-license a, div.donate a{
+  color: #205279;
+}
+
+div.highlight span.c1{
+  color: #56564d;
+}
+
+div.highlight .mi, div.highlight .nb, div.highlight .mf{
+  color: #008080;
+}
+
+/* accessibility corrections on lessons index page */
+
+.activities li{
+  background-color: #2b74af;
+}
+
+.activities li.current{
+  background-color: #014c88;
+}
+
+.topics li{
+  color: #014c88;
+}
+
+#search-button, #enable-search-button{
+  color: #014c88;
+}
+
+/* support us pages contrast fixes*/
+
+table thead tr th a:link{
+color: #92cfff;
+}
+body div.container article div.alert.alert-info a{
+  color: #1e4f77;
 }
