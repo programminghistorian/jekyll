@@ -27,6 +27,7 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 - [RStudio, PBC](https://rstudio.com/), United States
 - [CESTA, Stanford University](https://cesta.stanford.edu/), United States
 - [University of Waterloo](https://uwaterloo.ca/), Canada
+- [READ-COOP](https://readcoop.eu/), Austria
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
