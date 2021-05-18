@@ -26,6 +26,8 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [RStudio, PBC](https://rstudio.com/), États-Unis
 - [CESTA, Stanford University](https://cesta.stanford.edu/), États-Unis
 - [University of Waterloo](https://uwaterloo.ca/), Canada
+- [READ-COOP](https://readcoop.eu/), L'Autriche
+
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
