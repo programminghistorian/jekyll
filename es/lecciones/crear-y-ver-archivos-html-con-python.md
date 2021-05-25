@@ -29,6 +29,8 @@ abstract: "Aquí aprenderás cómo crear archivos HTML con scripts de Python, y 
 avatar_alt: Grabado en blanco y negro de un niño sentado en un taburete sujetando un dibujo de una persona con una espada.
 python_warning: false
 doi: 10.46430/phes0003
+sequence: 11
+series_total: 14
 ---
 
 {% include toc.html %}

@@ -30,6 +30,8 @@ topics: [python]
 abstract: "En esa lección aprenderás los comandos de Python que son necesarios para implementar la segunda parte del algoritmo que comenzamos en la lección 'De HTML a lista de palabras (parte 1)'."
 avatar_alt: Grabado de un hombre vestido de militar y otro hombre por detrás del primero que parece tener la intención de tropezarlo.
 doi: 10.46430/phes0006
+sequence: 8
+series_total: 14
 ---
 
 {% include toc.html %}
