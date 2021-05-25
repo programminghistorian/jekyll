@@ -13,13 +13,14 @@ Color Styles
   --font-color: #666;
   --secondary-font-color: #eee;
   --bg-color: #fff;
-  --secondary-bg-color: #27b;
-  --tertiary-bg-color: #289;
+  --secondary-bg-color: #194c75;
+  --tertiary-bg-color: #1a6875;
   --heading-color: #292922;
-  --above-title-color: #999;
+  --above-title-color: #757575;
   --a-hover-active-color: #555;
   --header-lesson-color: #f5f5f5;
   --header-helpers-color: #ccc;
+  --blockquote-color: #eeeeee;
 }
 
 [data-theme="night"] {
@@ -33,6 +34,7 @@ Color Styles
   --a-hover-active-color: #9A97F3;
   --header-lesson-color: #171f24;
   --header-helpers-color: #444444;
+  --blockquote-color: #535353;
 }
 
 @media screen {
@@ -123,7 +125,7 @@ Home Page
   }
 
   .home-stripe-1 a:visited, .home-stripe-1 a:link {
-    color:#6bf;
+    color:#72c0ff;
   }
 
   .home-stripe-2 {
@@ -132,7 +134,7 @@ Home Page
   }
 
   .home-stripe-2 a:visited, .home-stripe-2 a:link {
-    color:#6cd;
+    color:#74ebff;
   }
 
   .home-image {
@@ -219,7 +221,7 @@ Lesson Headers
     text-transform:uppercase;
     font-variant:small-caps;
     letter-spacing:80%;
-    color: var(--font-color);
+    color: #565656;
     margin:.3rem 0 0 0;
     padding:0;
   }
@@ -572,7 +574,7 @@ Top Navigation Bar
 
   .btn-group > .btn-secondary {
     border-color: #333333;
-    background-color: #888888;
+    background-color: #6f6f6f;
   }
 
   .lang {
@@ -676,14 +678,24 @@ Lesson Typography
 
   a {text-decoration:none;}
 
-  a:link {color: #38c;}
+  a:link {color: #2e7ab7;}
   a:visited {color: #39a;}
   a:hover {color: var(--a-hover-active-color);}
   a:active {color: var(--a-hover-active-color);}
 
   b, strong { font-weight: bold; }
 
-  blockquote { margin: 1em 2em; padding: 0 1em 0 1em; font-style: italic; border:1px solid #666; background: #eeeeee;}
+  blockquote { 
+    margin: 1em 2em; 
+    padding: 0 1em 0 1em; 
+    font-style: italic; 
+    border:1px solid #666; 
+    background: var(--blockquote-color);
+  }
+  
+  blockquote p{
+    margin-top: 1rem;
+  }
 
   hr {
     display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 2em 0; padding: 0; }
@@ -1112,4 +1124,98 @@ input:checked+.slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+/* hidden text for image links and other controls so as to accommodate screen readers*/
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* hacking some header stylings because we were cheating around accessible structuring to get the design we wanted */
+
+div.card div.media-body.p-3 h2{
+  font-size:1.2rem;
+  margin-top:1.8rem;
+  letter-spacing: normal;
+}
+
+div.author-info h2.author-name, div.citation-info h2.suggested-citation-header{
+  font-family: 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--font-color);
+  text-transform: uppercase;
+  margin-top: 1.4rem;
+  letter-spacing: normal;
+}
+
+/* modifies the language selector for contrast improvement */
+
+.btn.disabled, .btn:disabled {
+  opacity: 1;
+  text-decoration: underline !important;
+  font-weight: bold;
+}
+/* modifies contrast on team page */
+.badge-success{
+  background-color: #026d02;
+}
+
+/* correcting accessibility issues on lesson pages */
+header div.header-helpers ul li, header div.metarow {
+  color: #565656;
+}
+
+header h3{
+  text-decoration: underline;
+}
+
+div.alert.alert-success a{
+  color: #2b542c;
+}
+
+div.peer-review a, main header div.open-license a, div.donate a{
+  color: #205279;
+}
+
+div.highlight span.c1{
+  color: #56564d;
+}
+
+div.highlight .mi, div.highlight .nb, div.highlight .mf{
+  color: #008080;
+}
+
+/* accessibility corrections on lessons index page */
+
+.activities li{
+  background-color: #2b74af;
+}
+
+.activities li.current{
+  background-color: #014c88;
+}
+
+.topics li{
+  color: #014c88;
+}
+
+#search-button, #enable-search-button{
+  color: #014c88;
+}
+
+/* support us pages contrast fixes*/
+
+table thead tr th a:link{
+color: #92cfff;
+}
+body div.container article div.alert.alert-info a{
+  color: #1e4f77;
 }

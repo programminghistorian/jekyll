@@ -23,7 +23,6 @@ layout: lesson
 next: palabras-clave-en-contexto-n-grams
 previous: crear-y-ver-archivos-html-con-python
 original: output-data-as-html-file
-redirect_from: /es/lessons/output-data-as-html-file
 python_warning: false
 difficulty: 2
 activity: transforming

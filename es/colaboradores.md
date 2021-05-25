@@ -25,6 +25,9 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [Princeton University](https://www.princeton.edu/), Estados Unidos
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria
+- [RStudio, PBC](https://rstudio.com/), Estados Unidos
+- [CESTA, Stanford University](https://cesta.stanford.edu/), Estados Unidos
+- [University of Waterloo](https://uwaterloo.ca/), Canadá
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 
@@ -32,6 +35,7 @@ Agradecemos consultas de posibles contribuidores del [Programa de Instituciones 
 
 Organizaciones que han o continúan brindando apoyo en forma de contribución en especie hasta financiamiento específico para proyectos.
 
+- [Escola de Ciências Sociais FGV CPDOC](https://portal.fgv.br), "Literacia digital: modelando competências digitais para humanistas e cientistas sociais", Brasil [2021-2022].
 - The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Reino Unido [2021].
 - University of Sussex, Reino Unido:
     - University of Sussex Library [2020-Presente]

@@ -68,8 +68,6 @@ match the new entry you made in `_data/snippets.yml`
             role="menuitem">{{site.data.snippets.menu-contribute-translate[page.lang].title}}</a>
           <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-edit[page.lang].link}}"
             role="menuitem">{{site.data.snippets.menu-contribute-edit[page.lang].title}}</a>
-          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-lesson-requests[page.lang].link}}"
-            role="menuitem">{{site.data.snippets.menu-lesson-requests[page.lang].title}}</a>
           <a class="dropdown-item"
             href="{{site.baseurl}}{{site.data.snippets.menu-contribute-technical[page.lang].link}}"
             role="menuitem">{{site.data.snippets.menu-contribute-technical[page.lang].title}}</a>
@@ -78,7 +76,7 @@ match the new entry you made in `_data/snippets.yml`
 
       <li class="nav-item" role="menuitem">
         <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-lessons[page.lang].link}}"
-          role="menuitem">{{site.data.snippets.menu-lessons[page.lang].title}}</a>
+          role="link">{{site.data.snippets.menu-lessons[page.lang].title}}</a>
       </li>
 
       <li class="nav-item dropdown mobile-drop" role="menu">
@@ -97,7 +95,7 @@ match the new entry you made in `_data/snippets.yml`
       
       <li class="nav-item" role="menuitem">
         <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-blog[page.lang].link}}"
-          role="menuitem">{{site.data.snippets.menu-blog[page.lang].title}}</a>
+          role="link">{{site.data.snippets.menu-blog[page.lang].title}}</a>
       </li>
      
 
@@ -107,11 +105,10 @@ match the new entry you made in `_data/snippets.yml`
       that link will be added. If no translation/translation_source for this page is found for a given language, then
       the default "home page" link for that language is used instead.
       {% endcomment %}
-
       {% assign all_translations = translation_candidates | push: translation_source %}
 
-      <li class="nav-item">
-        <div class="btn-group" role="group" aria-label="Language selector">
+      <li class="nav-item" role="menu">
+        <div class="btn-group" role="menuitem" aria-label="Language selector">
           {% for lang in site.data.snippets.language-list %}
 
           {% if page.lang == lang %}
@@ -132,11 +129,12 @@ match the new entry you made in `_data/snippets.yml`
           {% endfor %}
         </div>
       </li>
-      <li class="nav-item" id="low-contrast-button">
+      <li class="nav-item" id="low-contrast-button" role="menu">
         <div class="theme-switch-wrapper">
-          <label class="theme-switch">
-            <input type="checkbox">
+          <label class="theme-switch" role="menuitem">
+            <input type="checkbox" role="menuitemcheckbox">
             <span class="slider round">
+              <span class="visually-hidden">night mode toggle</span>
             </span>
           </label>
         </div>

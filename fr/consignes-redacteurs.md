@@ -9,7 +9,7 @@ original: editor-guidelines
 Cette page fournit des instructions détaillées aux rédacteurs et rédactrices qui apportent leur concours lors de l'évaluation par les pairs dans le cadre du *Programming Historian en français*.
 
 ## Le rôle du rédacteur et de la rédactrice
-Nous vous remercions d'assurer le travail éditorial pour une leçon du *Programming Historian en français*, nous vous savons gré pour vos efforts. Ce guide a comme objectif de garantir la cohérence et la qualité de la collaboration entre auteur(e)s, rédacteurs/rédactrices et évaluateurs/évaluatrices avec le *Programming Historian en français*. Pour toute question qui porte sur les consignes, merci de contacter par courriel un des membres du conseil éditorial ou de poser une question sur notre espace dédié sur [Github](https://github.com/programminghistorian/jekyll/issues). Merci de le faire aussi si vous jugez que ces consignes doivent être améliorées ou mis à jour.
+Nous vous remercions d'assurer le travail éditorial pour une leçon du *Programming Historian en français*, nous vous savons gré pour vos efforts. Ce guide a comme objectif de garantir la cohérence et la qualité de la collaboration entre auteur(e)s, rédacteurs/rédactrices et évaluateurs/évaluatrices avec le *Programming Historian en français*. Pour toute question qui porte sur les consignes, merci de contacter par courriel un des membres du conseil éditorial ou de poser une question sur notre espace dédié sur [Github](https://github.com/programminghistorian/jekyll/issues). Merci de le faire aussi si vous jugez que ces consignes doivent être améliorées ou mises à jour.
 
 {% include toc.html %}
 
@@ -21,7 +21,7 @@ Le *Programming Historian en français* s'engage à fournir un espace sûr pour 
 ### Politique contre le harcèlement
 Vous trouverez ci-dessous les principes du *Programming Historian en français* qui doivent inspirer les échanges entre évaluateurs et évaluatrices, auteur(e)s, rédacteurs et rédactrices, ainsi que toute personne contribuant à nos forums publics.
 
-Le *Programming Historian en français* tient à garantir un environnement académique ouvert à la communauté, qui offre la pleine liberté d'explorer minutieusement des idées, poser des questions, faire des suggestions ou demander des clarifications. Il fournit aussi un espace libre de toute discrimination envers les personnes contribuant au projet, indépendamment du genre, de l'orientation sexuelle, des situations d'handicap, de l'apparence physique, de la masse corporelle, de l'origine, de l'âge, de la religion ou de l'expérience technique. Nous ne tolérons aucune forme d'harcélement ou d'attaque personnelle contre les membres de la communauté. Les personnes qui violent ces règles sont susceptibles d'être expulsées de la communauté à la discrétion du conseil éditorial. Toute personne en mesure de témoigner de tels comportements ou qui en est la victime peut contacter notre médiatrice [Hélène Huet](/fr/equipe-projet). Merci de nous aider à créer un espace d'échange et de discussion sûr.
+Le *Programming Historian en français* tient à garantir un environnement académique ouvert à la communauté, qui offre la pleine liberté d'explorer minutieusement des idées, poser des questions, faire des suggestions ou demander des clarifications. Il fournit aussi un espace libre de toute discrimination envers les personnes contribuant au projet, indépendamment du genre, de l'orientation sexuelle, des situations d'handicap, de l'apparence physique, de la masse corporelle, de l'origine, de l'âge, de la religion ou de l'expérience technique. Nous ne tolérons aucune forme de harcèlement ou d'attaque personnelle contre les membres de la communauté. Les personnes qui violent ces règles sont susceptibles d'être expulsées de la communauté à la discrétion du conseil éditorial. Toute personne en mesure de témoigner de tels comportements ou qui en est la victime peut contacter notre médiatrice [Hélène Huet](/fr/equipe-projet). Merci de nous aider à créer un espace d'échange et de discussion sûr.
 
 ### Suivi des leçons proposées
 Lorsqu'une proposition de leçon reçoit le feu vert par l'équipe éditoriale, un rédacteur ou une rédactrice lui est assigné(e) pour mener un travail en commun avec l'auteur(e) dans le but de définir des objectifs clairs pour la leçon et de fixer un délai de publication. Habituellement, nous recommandons de respecter un délai de 90 jours à partir du moment où les discussions sont entamées, mais ce délai peut être réajusté si nécessaire.
@@ -29,13 +29,13 @@ Lorsqu'une proposition de leçon reçoit le feu vert par l'équipe éditoriale, 
 Le rédacteur ou la rédactrice doit alors créer un nouveau ticket intitulé "Proposition de leçon" dans le [dépôt des soumissions sur Github](https://github.com/programminghistorian/ph-submissions/issues) en le signalant avec l'étiquette "proposal". Le texte par défaut à utiliser comme introduction se trouve dans le gabarit du ticket ou alors il peut être copié ci-dessous.
 
 ```
-Le Programming Historian en français a reçu la propoposition suivante d'une leçon intitulée 'TITRE PROVISOIRE DE LA LEÇON' de la part de NOM(S) D'AUTEUR(E-S). Les principaux objectifs pédagogiques envisagés sont:
+Le Programming Historian en français a reçu la proposition suivante d'une leçon intitulée 'TITRE PROVISOIRE DE LA LEÇON' de la part de NOM(S) D'AUTEUR(E-S). Les principaux objectifs pédagogiques envisagés sont:
 
 - principal objectif pédagogique no 1
 - principal objectif pédagogique no 2
 - principal objectif pédagogique no 3 (ajouter plus si besoin)
 
-Pour s'assurer d'une rapide publication sur ce sujet d'importance, nous nous sommes mis d'accord sur une date de dépôt qui ne dépasse pas [90 JOURS PAR DÉFAUT OU PLUS SI AGRÉÉ PAR LE(LA) REDACTEUR(TRICE)]. Les auteur(e)s sont d'accord pour contater le(la) rédacteur(trice) en avance s'ils ont besoin de revoir le délai.
+Pour s'assurer d'une rapide publication sur ce sujet d'importance, nous nous sommes mis d'accord sur une date de dépôt qui ne dépasse pas [90 JOURS PAR DÉFAUT OU PLUS SI AGRÉÉ PAR LE(LA) REDACTEUR(TRICE)]. Les auteur(e)s sont d'accord pour contacter le(la) rédacteur(trice) en avance s'ils ont besoin de revoir le délai.
 
 Si la leçon n'est pas déposée d'ici le [DATE AGRÉÉE], le rédacteur ou la rédactrice tentera de contacter les auteur(e)s. Sans mise à jour de leur part, ce ticket sera clos, il peut toutefois être à nouveau ouvert sur demande des auteur(e)s.
 
@@ -49,7 +49,7 @@ Lorsque les fichiers de la leçon (texte et, le cas échéant, images et donnée
 2. **Téléverser des images**: si des images accompagnent la leçon (ou la traduction), assurez-vous que le nommage des fichiers est conforme aux règles spécifiées dans les [consignes aux auteur(e)s](/fr/consignes-auteurs). C'est au rédacteur ou à la rédactrice - vous!- de créer un sous-répertoire spécifique aux images de la leçon dans le [répertoire des images](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). Ce sous-répertoire doit être nommé exactement de la même manière que le fichier de la leçon. Téléversez ensuite les fichiers images dans ce sous-répertoire. 
 3. **Téléverser des données**: si la leçon est accompagnée de fichiers de données, ces fichiers doivent être téléversés dans un sous-répertoire créé dans le [répertoire ```assets```](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets) et nommé exactement de la même manière que le fichier de la leçon.
 
-Après le téléversement, le rédacteur ou la rédactrice assigné(e) doit vérifier [l'historique des contributions (*commits*) au dépôt](https://github.com/programminghistorian/ph-submissions/commits/gh-pages) pour vérifier que le téléversement a bien réussi. Si ce n'est pas le cas, merci de consulter le [wiki](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions#checking-travis-for-errors) pour détecter l'erreur et résoudre le problème. Lorsque la soumission de la leçon (ou de la treduction) aura été achevée, le rédacteur ou la rédactrice assigné(e) crée un ticket d'évaluation en fermant celui de la proposition. À partir de cette étape, votre rôle implique aussi de veiller à ce que l'auteur(e) (ou le traducteur) travaille sur cette version de la leçon (ou de la traduction) et contribue directement ses modifications au dépôt Github.
+Après le téléversement, le rédacteur ou la rédactrice assigné(e) doit vérifier [l'historique des contributions (*commits*) au dépôt](https://github.com/programminghistorian/ph-submissions/commits/gh-pages) pour vérifier que le téléversement a bien réussi. Si ce n'est pas le cas, merci de consulter le [wiki](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions#checking-travis-for-errors) pour détecter l'erreur et résoudre le problème. Lorsque la soumission de la leçon (ou de la traduction) aura été achevée, le rédacteur ou la rédactrice assigné(e) crée un ticket d'évaluation en fermant celui de la proposition. À partir de cette étape, votre rôle implique aussi de veiller à ce que l'auteur(e) (ou le traducteur) travaille sur cette version de la leçon (ou de la traduction) et contribue directement ses modifications au dépôt Github.
 
 ### Évaluation ouverte par les pairs
 Le *Programming Historian en français* pratique l'évaluation ouverte par les pairs. Si notre conviction est bien que ce système garantit la qualité des rapports et le partage productif des idées, les auteurs ont toutefois le droit, que nous devons respecter, de solliciter une procédure fermée d'évaluation par les pairs. Une personne peut être réservée vis-à-vis d'une évaluation ouverte pour plusieurs raisons et, de notre côté, nous encourageons les auteur(e)s à choisir l'option qui leur convient le mieux.
@@ -75,7 +75,7 @@ Pour les dates, merci d'utiliser le format `mm/jj/aaaa`.
 
 Lorsque la proposition est faite aux candidat(e)s, le rédacteur ou la rédactrice doit mettre à leur disposition nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs) et fixer le délai pour compléter l'évaluation (habituellement un mois) pour que le tutoriel puisse être publié à temps.
 
-Quand une leçon est soumise, le rédacteur ou la rédactrice doit ouvrir un nouveau ticket sur notre [dépôt de soumissions sur Github](https://github.com/programminghistorian/ph-submissions/issues). C'est là que va se passer l'évaluation ouverte, puisque des messages qui peuvent être postés via l'interface permettent à tout un chacun de suivre la discussion. Pour cela, il est nécessaire pour toutes les parties prenantes d'avoir un compte Github gratuite.
+Quand une leçon est soumise, le rédacteur ou la rédactrice doit ouvrir un nouveau ticket sur notre [dépôt de soumissions sur Github](https://github.com/programminghistorian/ph-submissions/issues). C'est là que va se passer l'évaluation ouverte, puisque des messages qui peuvent être postés via l'interface permettent à tout un chacun de suivre la discussion. Pour cela, il est nécessaire pour toutes les parties prenantes d'avoir un compte Github gratuit.
 
 ### Le commentaire initial
 
@@ -168,7 +168,7 @@ Les rédacteurs et les rédactrices doivent travailler en étroite collaboration
 
 Toutes les images doivent porter des noms de fichiers cohérents qui décrivent ce qu'elles représentent. Si une leçon comporte un grand nombre d'images qui se succèdent, l'ordre peut être important (par exemple, une série de prises d'écran). Dans ce cas, il est conseillé d'appliquer un système de nommage de fichiers séquentiel, en utilisant dans l'idéal le nom de fichier de la leçon (ou alors une version abrégée si le titre est trop long), numéroté dans chaque cas pour indiquer l'image (par exemple, `counting-frequencies-1.png`, `counting-frequencies-2.png` et ainsi de suite).
 
-Si une leçon utilise un système de nommage d'images séquentiel, il est possible que la numérotation des images se modifie pendant la procédure d'évaluation par les pairs. Avant la publication d'une leçon, nous demandons que tous les noms de fichiers soient mis à jour avec les bons numéros de d'images. Le cas échéante, cela facilite aussi la future mise à jour des leçons. Merci de nous aider, de cette manière, à assurer la pérennité du *Programming Historian en français*.
+Si une leçon utilise un système de nommage d'images séquentiel, il est possible que la numérotation des images se modifie pendant la procédure d'évaluation par les pairs. Avant la publication d'une leçon, nous demandons que tous les noms de fichiers soient mis à jour avec les bons numéros de d'images. Le cas échéant, cela facilite aussi la future mise à jour des leçons. Merci de nous aider, de cette manière, à assurer la pérennité du *Programming Historian en français*.
 
 Nonobstant le type de nommage des images, sémantique ou séquentiel, celles-ci doivent être placées dans un sous-répertoire du répertoire `images`. Ce dossier doit être nommé suivant le nom du fichier et de l'URL de la leçon. Merci de vous assurer que les images ont des formats appropriés pour une publication sur le web tel que PNG ou JPEG et ont les bonnes dimensions (à la fois en pixels et en bytes).
 
@@ -186,7 +186,7 @@ Si l'ensemble des actifs à téléverser sur Zenodo dépasse les 25 Mo, tous les
 
 ### F) Vérifier les vidéos et les gifs
 
-L'utilisation de vidéos et de gifs n'est pas vraiement recommandée car elle peut générer plusieurs problèmes. Par exemple, cela prend beaucoup de temps et d'énergie de demander des modifications sur une vidéo pendant la procédure d'évaluation par les pairs. Il est par ailleurs impossible pour l'équipe de rédaction d'effectuer des mises à jour au fil des années pour que la vidéo reste actuelle. En outre, les vidéos nécessitent aussi l'administration d'une chaîne distincte sur YouTube. Enfin, elles ne sont pas imprimables, or beaucoup de nos lecteurs utilisent des copies en PDF ou [des imprimés du *Programming Historian*](https://zenodo.org/record/49873#.V0lazGaGa7o). Dans ces conditions, les vidéos devraient être utilisées SEULEMENT lorsque cela s'avère absolument nécessaire.
+L'utilisation de vidéos et de gifs n'est pas vraiment recommandée car elle peut générer plusieurs problèmes. Par exemple, cela prend beaucoup de temps et d'énergie de demander des modifications sur une vidéo pendant la procédure d'évaluation par les pairs. Il est par ailleurs impossible pour l'équipe de rédaction d'effectuer des mises à jour au fil des années pour que la vidéo reste actuelle. En outre, les vidéos nécessitent aussi l'administration d'une chaîne distincte sur YouTube. Enfin, elles ne sont pas imprimables, or beaucoup de nos lecteurs utilisent des copies en PDF ou [des imprimés du *Programming Historian*](https://zenodo.org/record/49873#.V0lazGaGa7o). Dans ces conditions, les vidéos devraient être utilisées SEULEMENT lorsque cela s'avère absolument nécessaire.
 
 Si un tutoriel contient une vidéo, celle-ci doit être hébergée sur notre chaîne YouTube. À ce jour, cette dernière n'est pas configurée, merci donc d'envoyer un courriel au reste de l'équipe de rédaction lorsque vous recevez une vidéo. Une copie de sauvegarde du fichier devrait aussi être placée dans notre dépôt Github, suivant les mêmes principes de nommage et de stockage qui sont valables pour les images et les données, décrites plus haut, pour faire partie du répertoire 'assets':
 - `/assets/SLUG-DE-LA-LECON/NOM-DE-FICHIER-ICI-3`
@@ -211,7 +211,7 @@ Si l'auteur(e) de la leçon apparaît pour la première fois, il appartient au r
 
 **L'espace blanc est important**, merci donc de faire attention à ce que l'indentation suive le reste des exemples.
 
-Indiquer l'identifiant `orcid`n'est pas obligatoire, nous vous encourageons toutefois fortement de le faire, si les auteur(e)s en ont créé un dans le répertoire ORCID (https://orcid.org/). **Néanmoins, merci de prendre soin d'utiliser un identifiant ORCID fourni explicitement par l'auteur(e). Évitez par conséquent de le faire sans la confirmation préalable de l'auteur(e) qu'il s'agit du bon identifiant.**
+Indiquer l'identifiant `orcid` n'est pas obligatoire, nous vous encourageons toutefois fortement de le faire, si les auteur(e)s en ont créé un dans le répertoire ORCID (https://orcid.org/). **Néanmoins, merci de prendre soin d'utiliser un identifiant ORCID fourni explicitement par l'auteur(e). Évitez par conséquent de le faire sans la confirmation préalable de l'auteur(e) qu'il s'agit du bon identifiant.**
 
 ### 2) Ajouter une table de matières à la leçon
 
@@ -284,7 +284,7 @@ Ci-dessous quelques sites pour chercher des images:
 
 Merci de prendre soin de trouver une image dont le style est proche de celles déjà utilisées, donc pas de photographie, mais plutôt une image d'illustration de livre, de taille minimale de 200x200 pixels, sans restriction de droits de copyright. Merci de faire attention à ce que les images ne heurtent pas les sensibilités et, en conformité à notre [engagement en faveur de la diversité](/posts/PH-commitment-to-diversity), qu'elles ne reproduisent pas de stéréotypes sexistes ou raciaux.
 
-Par la suite, il faut sauvegarder l'image originale. Le nom du fichier doit être le même que celui de la leçon correpospondante, et donc correspondre aussi au slug de son URL, suivi de `-original` à la fin. Le fichier doit être en format `.png`. Prenant pour exemple la leçon “Cleaning Data with OpenRefine”, le texte (slug) de son URL est `cleaning-data-with-openrefine`, par conséquent le nom de fichier de l'image de la leçon doit être `cleaning-data-with-openrefine-original.png`. 
+Par la suite, il faut sauvegarder l'image originale. Le nom du fichier doit être le même que celui de la leçon correspondante, et donc correspondre aussi au slug de son URL, suivi de `-original` à la fin. Le fichier doit être en format `.png`. Prenant pour exemple la leçon “Cleaning Data with OpenRefine”, le texte (slug) de son URL est `cleaning-data-with-openrefine`, par conséquent le nom de fichier de l'image de la leçon doit être `cleaning-data-with-openrefine-original.png`. 
 
 Il faut ensuite créer une nouvelle copie de l'image. Découpez-la en carré en préservant l'essentiel de la représentation puis modifiez la résolution en 200x200 pixels et convertissez-la en mode niveaux de gris. Si besoin, faites des réajustements pour que l'image soit conforme à celles des autres leçons au niveau de la luminosité ou des contrastes. Cette nouvelle image doit être sauvegardée dans un fichier nommé selon le texte de l'URL de la leçon sans oublier que **le format doit être en png**. Pour reprendre notre exemple précédent, le nom de ce fichier serait donc `cleaning-data-with-openrefine.png`.
 
@@ -296,10 +296,10 @@ Le rédacteur ou la rédactrice en chef est en charge de la publication de la le
 
 - du fichier .md de la leçon;
 - du répertoire de fichiers supplémentaires le cas échéant (images, données etc)
-- Les icônes de gallerie
+- Les icônes de galerie
 - Une bio d'auteur(e) si la personne apparaît pour la première fois
 
-Mise à part la bio, le reste des éléments devrait exister sous forme de fichiers dans le dépôt `ph-submissions`. La bio peut être inserée directement dans le ticket.
+Mise à part la bio, le reste des éléments devrait exister sous forme de fichiers dans le dépôt `ph-submissions`. La bio peut être insérée directement dans le ticket.
 
 ### 6) Intégrer votre leçon dans notre bot Twitter
 La campagne de promotion sur Twitter, dont les étapes sont décrites ci-dessous, utilise aussi un bot pour faire une communication régulière sur les leçons plus anciennes. Pour y ajouter une nouvelle, vous remplissez une ligne dans [ce fichier](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=1625380994). Normalement, tous les membres de l'équipe éditoriale doivent pouvoir modifier le tableur. En cas de problème, merci de faire un courriel au groupe Google. Il vous faut ajouter une nouvelle ligne pour votre leçon ) la fin du fichier avec les champs suivants:
@@ -327,7 +327,7 @@ Le rédacteur ou la rédactrice en chef a la responsabilité de déposer les fic
 
 ## 1) Parcourir l'aperçu de la soumission
 
-Vérifiez l'aperçu de la soumission pour repérer des erreurs manifestes, comme des problèmes d'affichage des images ou de formattage. Prévenez-en, le cas échéant, le rédacteur ou la rédactrice en charge de la leçon pour les corriger.
+Vérifiez l'aperçu de la soumission pour repérer des erreurs manifestes, comme des problèmes d'affichage des images ou de formatage. Prévenez-en, le cas échéant, le rédacteur ou la rédactrice en charge de la leçon pour les corriger.
 
 ## 2) Solliciter un identifiant DOI
 

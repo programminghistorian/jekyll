@@ -24,6 +24,9 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 - [Princeton University](https://www.princeton.edu/), United States
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), United States
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria
+- [RStudio, PBC](https://rstudio.com/), United States
+- [CESTA, Stanford University](https://cesta.stanford.edu/), United States
+- [University of Waterloo](https://uwaterloo.ca/), Canada
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
@@ -31,6 +34,7 @@ We welcome enquiries from prospective [Institutional Partner Programme](ipp) con
 
 Organizations that have or continue to give support ranging from in kind services, to project-specific funding.
 
+- [Escola de Ciências Sociais FGV CPDOC](https://portal.fgv.br), "Literacia digital: modelando competências digitais para humanistas e cientistas sociais", Brazil [2021-2022].
 - The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), United Kingdom [2021].
 - The University of Sussex, United Kingdom:
     - University of Sussex Library [2020-Present]

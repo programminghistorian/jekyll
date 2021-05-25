@@ -325,21 +325,21 @@ En résumé, il vaut la peine de réfléchir :
 
 ## Ressources supplémentaires pour ce tutoriel
 #### En anglais
-[Une courte bibliographie sur la linguistique des corpus][43].
-[Une version plus détaillée de ce tutoriel, en supposant que vous n'avez aucune connaissance en informatique.](http://hfroehli.ch/workshops/getting-started-with-antconc/)
+[Une courte bibliographie sur la linguistique des corpus][43].  
+[Une version plus détaillée de ce tutoriel, en supposant que vous n'avez aucune connaissance en informatique.](http://hfroehli.ch/workshops/getting-started-with-antconc/)  
 
 #### En français (notes de la version traduite)
-[Page AntConc de EduTech Wiki de l'UNIGE](http://edutechwiki.unige.ch/fr/AntConc#)
-[Page AntConc sur le site Exploration de corpus : outils et pratiques](http://explorationdecorpus.corpusecrits.huma-num.fr/antconc/)
-[Tutoriel AntConc du CID-ENS Lyon](http://cid.ens-lyon.fr/ac_article.asp?fic=antconc.asp)
+[Page AntConc de EduTech Wiki de l'UNIGE](http://edutechwiki.unige.ch/fr/AntConc#)    
+[Page AntConc sur le site Exploration de corpus : outils et pratiques](http://explorationdecorpus.corpusecrits.huma-num.fr/antconc/)    
+[Tutoriel AntConc du CID-ENS Lyon](http://cid.ens-lyon.fr/ac_article.asp?fic=antconc.asp)    
 
-En France, des outils similaires à AntConc ont été dévéloppés dans le cadre de la textométrie, de la lexicométrie, et de la logométrie, souvent par des historien(ne)s. On peut nommer notamment [Hyperbase](http://ancilla.unice.fr/), [Iramuteq](http://iramuteq.org/), [Lexico](http://www.lexi-co.com/) ou [TXM](http://textometrie.ens-lyon.fr/?lang=fr). Merci de consulter également: Bénédicte Pincemin, ["Sept logiciels de textométrie"](https://halshs.archives-ouvertes.fr/halshs-01843695/document), 2018.
+En France, des outils similaires à AntConc ont été dévéloppés dans le cadre de la textométrie, de la lexicométrie, et de la logométrie, souvent par des historien(ne)s. On peut nommer notamment [Hyperbase](http://ancilla.unice.fr/), [Iramuteq](http://iramuteq.org/), [Lexico](http://www.lexi-co.com/) ou [TXM](http://textometrie.ens-lyon.fr/?lang=fr). Merci de consulter également: Bénédicte Pincemin, ["Sept logiciels de textométrie"](https://halshs.archives-ouvertes.fr/halshs-01843695/document), 2018.  
 
 #### Bibliographie non-exhaustive
 
-Ludovic Lebart et André Salem, [*Statistique textuelle*](http://lexicometrica.univ-paris3.fr/livre/st94/st94-tdm.html), 1994.
-Damon Mayaffre, ["L’entrelacement lexical des textes. Cooccurrences et lexicométrie"](https://hal.archives-ouvertes.fr/hal-00553808), _Journées de linguistique de corpus_, 2008, p. 91-102.
-[La cooccurrence, du fait statistique au fait textuel](https://journals.openedition.org/corpus/2183), _Corpus_, 11, 2012, numéro coordonné par Damon Mayaffre et Jean-Marie Viprey.
+Ludovic Lebart et André Salem, [*Statistique textuelle*](http://lexicometrica.univ-paris3.fr/livre/st94/st94-tdm.html), 1994.    
+Damon Mayaffre, ["L’entrelacement lexical des textes. Cooccurrences et lexicométrie"](https://hal.archives-ouvertes.fr/hal-00553808), _Journées de linguistique de corpus_, 2008, p. 91-102.  
+[La cooccurrence, du fait statistique au fait textuel](https://journals.openedition.org/corpus/2183), _Corpus_, 11, 2012, numéro coordonné par Damon Mayaffre et Jean-Marie Viprey.  
 
 [41]: http://www.lexically.net/downloads/version6/HTML/index.html?keyness_definition.htm
 [43]: http://hfroehlich.wordpress.com/2014/05/11/intro-bibliography-corpus-linguistics/

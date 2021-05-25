@@ -7,7 +7,7 @@ original: feedback
 
 # Vos commentaires sont les bienvenus
 
-<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
 
 
 Vous avez suivi méticuleusement les instructions d'une leçon et avez tout de même rencontré une erreur? Merci de prendre le temps de signaler celle-ci ou de proposer un changement. Votre aide est cruciale pour nous aider à continuer d'offrir les meilleures leçons possible!
@@ -25,7 +25,7 @@ Rendez-vous ensuite sur la [page rassemblant les "issues"](https://github.com/pr
 
 Créez vous une nouvelle "issue" en utilisant un titre clair, et fournissez le plus d'informations possible au sujet du problème que vous avez identifié en suivant le message guide que nous fournissons.
 
-<img src="https://cloud.githubusercontent.com/assets/1126864/3697100/52b37768-139e-11e4-816e-c3eee5516997.png" class="full-width rounded" />
+<img src="https://cloud.githubusercontent.com/assets/1126864/3697100/52b37768-139e-11e4-816e-c3eee5516997.png" class="full-width rounded" alt="{{ site.data.snippets.open-an-issue-on-github-image-alt[page.lang] }}"/>
 
 Pour plus d'informations sur les "issues" GitHub, vous pouvez lire le guide GitHub [Mastering Issues](https://guides.github.com/features/issues/).
 

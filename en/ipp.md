@@ -9,7 +9,7 @@ redirect_from: /ipp
 
 # Institutional Partner Programme
 
-<img src="{{site.baseurl}}/images/supporters-ipp.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/supporters-ipp.png" class="garnish rounded float-left" alt="{{ site.data.snippets.supporters-ipp-image-alt[page.lang] }}"/>
 
 Thank you for your interest in the Institutional Partnership Programme, which provides the core support for the *Programming Historian*'s award winning open access publications. We cannot do our work without your valued support.
 

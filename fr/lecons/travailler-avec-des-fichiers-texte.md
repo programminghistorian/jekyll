@@ -285,13 +285,13 @@ du code. Celle-ci est déjà disponible en anglais
 Lectures recommandées
 ---------------------
 
--   [Non-Programmer’s Tutorial for Python 2.6/Hello, World][]
+-   [Non-Programmer’s Tutorial for Python 3/Hello, World][]
 
   [Pour Mac]: /en/lessons/mac-installation
-  [Pour Windows]: /en/lessons/windows-installation
+  [Pour Windows]: /fr/lecons/installation-windows-py
   [Pour Linux]: /en/lessons/linux-installation
   [print]: https://docs.python.org/fr/2.7/library/functions.html#prin
   [mot réservé]: https://docs.python.org/fr/2.7/reference/lexical_analysis.html#keywords
   [File Objects]: https://docs.python.org/fr/2.7/glossary.html#term-file-object
-  [Non-Programmer’s Tutorial for Python 2.6/Hello, World]: http://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_2.6/Hello,_World
+  [Non-Programmer’s Tutorial for Python 3/Hello, World]: https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Hello,_World 
 

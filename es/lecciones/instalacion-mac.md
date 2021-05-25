@@ -22,7 +22,6 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/36
 avatar_alt: Tres hombres tocando instrumentos musicales
 layout: lesson
 original: mac-installation
-redirect_from: /es/lessons/mac-installation
 difficulty: 1
 activity: transforming
 topics: [get-ready, python]

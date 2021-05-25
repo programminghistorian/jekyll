@@ -18,7 +18,6 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/142
 original: intro-to-linked-data
-redirect_from: /es/lessons/intro-to-linked-data
 layout: lesson
 difficulty: 1
 activity: acquiring
