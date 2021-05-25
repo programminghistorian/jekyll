@@ -2169,4 +2169,25 @@
       Brice Lebrun est ingénieur de recherche en géochronologie à l'Institut de recherche sur les Archéomatériaux – Centre de recherche en physique appliquée à l’archéologie (IRAMAT-CRP2A UMR 5060, CNRS/Université Bordeaux Montaigne).
     es: |
       
-    pt: |  
+    pt: |
+
+- name: Simon Hengchen
+  team: false
+  orcid: 0000-0002-8453-7221
+  bio:
+      en: |
+          Simon Hengchen is a postdoctoral researcher in NLP.
+
+- name: Matteo Romanello 
+  team: false
+  orcid: 0000-0002-7406-6286
+  bio:
+      en: |
+          Matteo Romanello is Lecturer at the University of Lausanne in Ancient Greek literature and computational research.
+
+- name: Halle Burns
+  team: false
+  orcid: 0000-0003-2346-2876
+  bio:
+    en: |
+       Halle Burns is an assistant professor in the University Libraries at the University of Nevada, Las Vegas. She is also a certified instructor with The Carpentries, an international organization that teaches coding and data science skills to researchers. 

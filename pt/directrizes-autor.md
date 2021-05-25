@@ -7,7 +7,7 @@ original: author-guidelines
 
 # Directrizes para Autores
 
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 <h2 class="noclear">Etapa 1: <a href="#etapa-1-propor-uma-nova-lição">Propor uma nova lição</a></h2>
 <h2 class="noclear">Etapa 2: <a href="#etapa-2-escrever-e-formatar-uma-nova-lição">Escrever e formatar uma nova lição</a></h2>
 <h2 class="noclear">Etapa 3: <a href="#etapa-3-submeter-uma-nova-lição">Submeter uma nova lição</a></h2>

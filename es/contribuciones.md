@@ -10,7 +10,7 @@ _The Programming Historian en español_ es posible gracias al esfuerzo de volunt
 
 ## Traduce una lección
 
-<img src="/images/translator.png" class="garnish rounded float-right" />
+<img src="/images/translator.png" class="garnish rounded float-right" alt="{{ site.data.snippets.translator-image-alt[page.lang] }}"/>
 
 Si tienes dominio de más de uno de nuestros idiomas (francés, español, inglés), puedes ponerte en contacto con nosotros para traducir una lección ya publicada en _The programming Historian_ de un idioma a otro. De esta manera nos ayudarás en nuestra contribucion en las comunidades de humanidades digitales en español y francés, y profundizarás en un lenguaje, método o tecnología.
 
@@ -19,7 +19,7 @@ Si te interesa colaborar, consulta nuestras [instrucciones para autores y traduc
 
 ## Escribe una lección
 
-<img src="/images/author-sm.png" class="garnish rounded float-right" />
+<img src="/images/author-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}" />
 
 También aceptamos envíos de [nuevas lecciones] por parte de los autores.
 
@@ -31,7 +31,7 @@ Si quieres proponer una lección (escrita por ti o por otra persona), envía un 
 
 ## Conviértete en editor
 
-<img src="/gallery/editor-guidelines.png" class="garnish rounded float-right" />
+<img src="/gallery/editor-guidelines.png" class="garnish rounded float-right" alt="{{ site.data.snippets.editor-guidelines-image-alt[page.lang] }}" />
 
 
 Nuestro Consejo editorial ayuda a facilitar el proceso de revisión y trabaja con los autores de manera estrecha para mejorar las lecciones. Nuestra [Guía para editores] está pensada para asegurar que todos (editores, revisores, miembros de la comunidad) tengan una experiencia justa y coherente durante el proceso de revisión.
@@ -40,7 +40,7 @@ En el futuro, de manera ocasional, publicaremos anuncios buscando más editores.
 
 ## Envía tus comentarios e informa sobre errores
 
-<img src="/images/reader-sm.png" class="garnish rounded float-right" />
+<img src="/images/reader-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}" />
 
 
 Nos gustaría recibir tus [comentarios] sobre cualquier aspecto de _The Programming Historian en español_. ¡Queremos mejorar nuestro trabajo!
@@ -50,7 +50,7 @@ Agradecemos de manera especial alertas sobre lecciones que no funcionan. A medid
 
 ## Añádenos a tu catálogo de biblioteca
 
-<img src="/images/library-catalogue.png" class="garnish float-right" />
+<img src="/images/library-catalogue.png" class="garnish float-right" alt="{{ site.data.snippets.library-catalogue-image-alt[page.lang] }}" />
 
 
 _The Programming Historian_ está registrado en WorldCat en ([español](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results)), en ([inglés](http://www.worldcat.org/title/programming-historian/oclc/951537099)), y en ([francés](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842)).

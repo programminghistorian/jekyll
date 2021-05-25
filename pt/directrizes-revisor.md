@@ -7,7 +7,7 @@ original: reviewer-guidelines
 
 # Diretrizes para Revisores
 
-<img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.reviewer-image-alt[page.lang] }}"/>
 
 O processo de revisão do _Programming Historian em português_ é uma excelente forma de aprender novas competências técnicas e de se envolver com a comunidade das humanidades digitais. Fazemos todo o possível para garantir que os nossos revisores recebam crédito e reconhecimento pelo seu trabalho. Como os revisores contribuem directamente para melhorar significativamente as lições, eles podem ter orgulho que o seu trabalho irá ajudar milhares de leitores.
 
