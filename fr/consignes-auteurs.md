@@ -165,7 +165,7 @@ Les majuscules sont aussi concernées par les accents, le tréma ou la cédille,
 	* Les mots "Secrétariat" et "Département" prennent une majuscule (exemple : "le Département d’économie de Sciences Po").
 	* Pour les établissements d’enseignement, s'ils sont d’importance nationale, on met une majuscule au premier substantif et à l'éventuel adjectif qui le précède (exemple : "le Collège de France"). S'il est d’importance régionale ou locale, les noms communs s'écrivent en minuscules, et on ajoute une majuscule aux noms propres qui l'identifie (exemple : "université Paris-Descartes").
 	* Le mot faculté ne prend la majuscule initiale que lorsqu'il désigne le corps médical. De même, le mot université ne prend la majuscule initiale que lorsqu'il désigne le corps enseignant. Les disciplines ne prennent pas de majuscule (exemple : "la faculté des lettres et sciences humaines").
-	* Pour les agences, commissions, établissements publics, organisme non-gouvernemental, la majuscule est placé sur le terme générique par lequel commence le nom officiel d’une institution, d’une administration, d’un service de l’État ou d’un organisme international, de même qu’à l’adjectif qui le précède (exemple : "l’Union postale universelle").
+	* Pour les agences, commissions, établissements publics, organisme non-gouvernemental, la majuscule est placée sur le terme générique par lequel commence le nom officiel d’une institution, d’une administration, d’un service de l’État ou d’un organisme international, de même qu’à l’adjectif qui le précède (exemple : "l’Union postale universelle").
 
 * Les cérémonies et festivités prennent une majuscule (exemple : "la Semaine Sainte"). 
 
@@ -184,7 +184,7 @@ Les majuscules sont aussi concernées par les accents, le tréma ou la cédille,
 * Pour les livres sacrés, les mots "Bible", "Écriture" et "Évangile" prennent une majuscule s’ils désignent le recueil de textes religieux, ainsi que les mots « Ancien Testament », « Nouveau Testament » et « Coran ». Le mot "bible" perd toutefois sa majuscule quand il désigne un livre faisant autorité.
 
 * Dans le cas de métiers, les noms des fonctions, de charges ou de titres civils ou militaires ne prennent pas de majuscules, sauf pour :
-	* Les titre ayant eu un seul détenteur assimilable à un nom propre (exemple : "le Duce").
+	* Les titres ayant eu un seul détenteur assimilable à un nom propre (exemple : "le Duce").
 	* La désignation d’une personne précise, auquel cas pas il faut éviter de créer une ambiguïté dans le texte pour l'antonomase (exemple : "le Général" pour le général de Gaulle).
 	* Les titres honorifiques (exemple : "Sa Majesté").
 
@@ -193,6 +193,8 @@ Les majuscules sont aussi concernées par les accents, le tréma ou la cédille,
 * Les saisons s'écrivent en minuscules.
 
 * Les monnaies ne prennent pas de majuscules. 
+
+Pour plus de précisions, vous pouvez consulter la banque de dépannage linguistique de l'Office québécois de la langue française, avec une liste de l'emploi de la majuscule pour des [types de dénominations](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?th=1&th_id=280) et une autre pour les [noms particuliers](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?th=1&th_id=281). 
 
 
 #### Écriture inclusive  
