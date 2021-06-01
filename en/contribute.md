@@ -14,7 +14,7 @@ The _Programming Historian_ runs on the far-from-endless energy of volunteers, a
 
 Writing a tutorial is one of the best ways to teach yourself particular skills and actively engage in the digital humanities community.
 
-We don't simply accept or reject articles like traditional journals. Our editors collaborate with you to help craft your essay to be as clear and as useful as possible--a great way to improve your technical writing skills. Please read more about our [submission process][submissions].
+We don't simply accept or reject articles like traditional journals. Our editors collaborate with you to help craft your essay to be as clear and as useful as possible--a great way to improve your technical writing skills. Please read more about our [submission process][{{site.baseurl}}/en/submissions].
 
 If you'd like to propose a lesson (for you or for someone else to write), email {% include managing-editor.html lang=page.lang %}.
 
