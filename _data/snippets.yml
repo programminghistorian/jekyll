@@ -311,11 +311,11 @@ issn:
 footer:
   license:
     en: |
-      _The Programming Historian_ (ISSN: 2397-2068) is released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license.
+      The _Programming Historian_ (ISSN: 2397-2068) is released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license.
     es: |
       _The Programming Historian en español_ (ISSN: 2517-5769) se publica con una licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.es).
     fr: |
-      _The Programming Historian en français_ (ISSN: 2631-9462) est publié sous licence [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.fr).
+      Le _Programming Historian en français_ (ISSN: 2631-9462) est publié sous licence [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.fr).
     pt: |
       _The Programming Historian em português_ (ISSN: 2753-9296) é publicado com uma licença [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.pt).
   financial:
