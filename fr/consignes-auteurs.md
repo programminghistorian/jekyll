@@ -77,19 +77,19 @@ Le *Programming Historian en français* s'efforce de publier des leçons qui son
 <!-- Ici il y a du texte en EN, à voir si pertinent de le traduite ou de mettre une accroche spécifique-->
 #### Dates et heures
 <!--Gwen-->   
-* Les siècles doivent s'écrire en chiffres romains, si possible en petites capitales, avec le "e" final en exposant, par exemple <span style="font-variant:small-caps;">XVIII</span><sup>e</sup> siècle.
+* Les siècles doivent s'écrire en chiffres romains, si possible en petites capitales ( HTML : ``` <span style="font-variant:small-caps;"> ```), avec le "e" final en exposant, par exemple <span style="font-variant:small-caps;">XVIII</span><sup>e</sup> siècle.
 
-* La mention des décennies, plus particulièrement usitée pour le <span style="font-variant:small-caps;">XX</span><sup>e</sup> siècle, peuvent s'écrire soit en toutes lettres (les années trente), soit en donnant tous les chiffres de l’année (les années 1930).
+* La mention des décennies, plus particulièrement usitée pour le <span style="font-variant:small-caps;">XX</span><sup>e</sup> siècle, peut se formaliser soit en toutes lettres (les années trente), soit en donnant tous les chiffres de l’année (les années 1930).
 
-* On n’abrège pas les millésimes pour les intervalles de dates. On privilègie donc l'écriture des intervalles sous la forme "1854-1864".
+* On n’abrège pas les millésimes pour les intervalles de dates. On privilègie donc l'écriture des intervalles sous la forme "1854-1864" par exemple.
 
 * Pour les dates écrites au format numérique, repecter la norme ISO 8601:2004 (AAAA-MM-JJ).
 
 * Pour marquer les dates avant ou après Jésus-Christ, abréger sous la forme "av. J.-C." ou "apr. J.-C.".
 
-* Pour les heures, deux options sont possibles :
-	* écrire toutes les mentions "heures" (h), minutes" (min) et "secondes" (s) en abrégé (10&nbsp;h&nbsp;10 min), avec un espace insécable (indiqué comme ceci en HTML : ``` &nbsp; ```) entre l'abrévation et le chiffre
-	* écrire au format numérique avec un double point précédé d'un espace insécable (16 :10)
+* Pour les heures, deux options sont envisageables :
+	* écrire toutes les mentions "heures" (h), "minutes" (min) et "secondes" (s) en abrégé (10&nbsp;h&nbsp;10&nbsp;min), avec un espace insécable (indiqué comme ceci en HTML : ``` &nbsp; ```) entre l'abrévation et le chiffre
+	* écrire au format numérique avec un double point précédé d'un espace insécable (16&nbsp;:10)
 
 * Pour indiquer les durées, écrire les mentions "heures", minutes" et "secondes" en toutes lettres (10 heures 10 minutes).
 
