@@ -117,7 +117,7 @@ Ne pas faire suivre un titre d’une mise en garde ou d’un autre titre sans un
 
 #### Listes   
 <!--Gwen-->  
-Nous utilisons les listes à puces ou à nombres. Les items de listes doivent être limités à une phrase. Ils sont traités comme des entités séparées et ne doivent pas être enchaînées avec de la ponctuation et des conjonctions. 
+Nous utilisons les listes à puces ou à nombres. Les items de listes doivent être limités à une phrase. Ils sont traités comme des entités séparées et ne doivent pas être enchaînés avec de la ponctuation et des conjonctions. 
 
 Ne pas écrire:
 
