@@ -151,48 +151,48 @@ Les majuscules, à utiliser avec parcimonie dans la prose courante, peuvent se d
 
 Les majuscules sont aussi concernées par les accents, le tréma ou la cédille, même dans le cas des abréviations, mais pas pour les sigles et les acronymes. Les différents cas décrits ci-dessous résument les particularités dans l'usage des majuscules en français. 
 
-* Les titres :
+* Le cas des **titres** :
 	* Si le titre ne débute pas par un article défini (le, la, les), seul le mot initial prend la majuscule (exemple : *Une saison en enfer*).
 	* Si le titre débute par un article défini (le, la, les), ou bien seul l’article prend une majuscule, ou bien l'article et le premier substantif, ainsi que les adjectifs et adverbes qui précèdent le substantif (exemple : *Les Liaisons dangereuses*). Si le titre contient une comparaison ou une symétrie, l'article défini prend une majuscule ainsi que chaque terme mis en symétrie (exemple : *La Belle et la Bête*).
-	* Si nous sommes confrontés à des titres doubles séparés par la conjonction "ou", les règles ci-dessus s'appliquent à chacune des deux parties du titre. Cependant, l'article défini débutant la seconde partie perd la majuscule (exemple : *Le Mariage de Figaro ou la Folle Journée*).
+	* Si nous sommes face à des titres doubles séparés par la conjonction "ou", les règles ci-dessus s'appliquent à chacune des deux parties du titre. Cependant, l'article défini débutant la seconde partie perd la majuscule (exemple : *Le Mariage de Figaro ou la Folle Journée*).
 
-* Les noms propres
+* Les cas toujours en majuscule :
+	* Les **noms propres**
+	* Les **cérémonies et festivités** (exemple : "la Semaine Sainte")
+	* Les **évènements historiques**, car ils sont assimilés à des noms propres (exemple : "la Fronde")
+	* Les **livres sacrés**. Les mots "Bible", "Écriture" et "Évangile" prennent une majuscule s’ils désignent le recueil de textes religieux, ainsi que les mots « Ancien Testament », « Nouveau Testament » ou « Coran ». Le mot "bible" perd toutefois sa majuscule quand il désigne un livre faisant autorité.
 
-* Les organisations artistiques, culturelles ou gouvernementales, les institutions et établissements :
-	* Pour les organismes d’État uniques, la majuscule s'applique au permier mot nécessaire à l’identification, et à l’adjectif qui précède (exemple : "le Conseil constitutionnel"). 
-	* Pour les organismes d’État non-uniques, conserver les minuscules, sauf lorsque les substantifs et les éventuels adjectifs qui les précédent font office de nom propre (exemple : "le ministère des Affaires étrangères").
-	* Pour les régimes politiques, s'ils désignent implicitement un pays ou une époque, ils prennent une majuscule, ainsi que l'adjectif qui précède (exemple : "la Restauration"). Ils conservent toutefois une minsucule quand ils désignent directement un type de régime politique (exemple : "rétablir la république"), ou bien quand ils sont accompagnés d'un nom propre (exemple : la république de Weimar).
-	* Les mots "Secrétariat" et "Département" prennent une majuscule (exemple : "le Département d’économie de Sciences Po").
-	* Pour les établissements d’enseignement, s'ils sont d’importance nationale, on met une majuscule au premier substantif et à l'éventuel adjectif qui le précède (exemple : "le Collège de France"). S'il est d’importance régionale ou locale, les noms communs s'écrivent en minuscules, et on ajoute une majuscule aux noms propres qui l'identifie (exemple : "université Paris-Descartes").
-	* Le mot faculté ne prend la majuscule initiale que lorsqu'il désigne le corps médical. De même, le mot université ne prend la majuscule initiale que lorsqu'il désigne le corps enseignant. Les disciplines ne prennent pas de majuscule (exemple : "la faculté des lettres et sciences humaines").
-	* Pour les agences, commissions, établissements publics, organisme non-gouvernemental, la majuscule est placée sur le terme générique par lequel commence le nom officiel d’une institution, d’une administration, d’un service de l’État ou d’un organisme international, de même qu’à l’adjectif qui le précède (exemple : "l’Union postale universelle").
+* Les cas partiellement en majuscule :
+	
+	* Les **organisations artistiques, culturelles ou gouvernementales**, les **institutions et établissements** :
+		* Pour les organismes d’État uniques, la majuscule s'applique au permier mot nécessaire à l’identification, et à l’adjectif qui précède (exemple : "le Conseil constitutionnel"). 
+		* Pour les organismes d’État non-uniques, conserver les minuscules, sauf lorsque les substantifs et les éventuels adjectifs qui les précédent font office de nom propre (exemple : "le ministère des Affaires étrangères").
+		* Pour les régimes politiques, s'ils désignent implicitement un pays ou une époque, ils prennent une majuscule, ainsi que l'adjectif qui précède (exemple : "la Restauration"). Ils conservent toutefois une minsucule quand ils désignent directement un type de régime politique (exemple : "rétablir la république"), ou bien quand ils sont accompagnés d'un nom propre (exemple : la république de Weimar).
+		* Les mots "Secrétariat" et "Département" prennent une majuscule (exemple : "le Département d’économie de Sciences Po").
+		* Pour les établissements d’enseignement, s'ils sont d’importance nationale, on met une majuscule au premier substantif et à l'éventuel adjectif qui le précède (exemple : "le Collège de France"). S'il est d’importance régionale ou locale, les noms communs s'écrivent en minuscules, et on ajoute une majuscule aux noms propres qui l'identifie (exemple : "université Paris-Descartes").
+		* Le mot faculté ne prend la majuscule initiale que lorsqu'il désigne le corps médical. De même, le mot université ne prend la majuscule initiale que lorsqu'il désigne le corps enseignant. Les disciplines ne prennent pas de majuscule (exemple : "la faculté des lettres et sciences humaines").
+		* Pour les agences, commissions, établissements publics, organisme non-gouvernemental, la majuscule est placée sur le terme générique par lequel commence le nom officiel d’une institution, d’une administration, d’un service de l’État ou d’un organisme international, de même qu’à l’adjectif qui le précède (exemple : "l’Union postale universelle").
 
-* Les cérémonies et festivités prennent une majuscule (exemple : "la Semaine Sainte"). 
+	* Les **lieux** : 
+		* Les noms de pays, provinces, régions, ou villes prennent une majsucule, mais pas les adjectifs adjoints aux noms propres (exemple : "l'Italie méridioniale"), sauf s’ils font office de noms propres (exemple : "le Grand Nord").
+		* Les noms communs d’entités géographiques restent en minuscules (exemple : la mer). Si les noms communs d’entités géographiques sont suivis par un nom qualifiant, seul ce dernier a une majuscule (exemple : "le golfe du Lion"). De même pour les monuments ou les jardins (exemple : "la tour Eiffel").
+		* Les lieux désignant un produit connu devenu nom commun ne prennent pas de majuscules (exemple : "un bourgogne").
+		* Les planètes, les étoiles et les signes du zodiaque prennent toujours une majuscule.
 
-* Différentes règles s'appliquent pour les lieux : 
-	- Les noms de pays, provinces, régions, ou villes prennent une majsucule, mais pas les adjectifs adjoints aux noms propres (exemple : "l'Italie méridioniale"), sauf s’ils font office de noms propres (exemple : "le Grand Nord").
-	- Les noms communs d’entités géographiques restent en minuscules (exemple : la mer). Si les noms communs d’entités géographiques sont suivis par un nom qualifiant, seul ce dernier a une majuscule (exemple : "le golfe du Lion"). De même pour les monuments ou les jardins (exemple : "la tour Eiffel").
-	-  Les lieux désignant un produit connu devenu nom commun ne prennent pas de majuscules (exemple : "un bourgogne").
-	-  Les planètes, les étoiles et les signes du zodiaque prennent toujours une majuscule.
+	* En ce qui concerne les mots relevanat de la **religion**, on met une majuscule quand on désigne l’institution ou l’ensemble des fidèles (exemple : "Église", "Ouma"), mais le bâtiment religieux s'écrit avec uen minuscule. On met une majuscule pour les mots "Dieu", "Jésus" et leurs synonymes et équivalents comme "le Verbe", "le Créateur", "Allah", "Bouddha", etc. Le mot "saint" ne prend pas de majuscule quand il désigne un personnage (exemple : "saint François d'Assises"), mais il faut en mettre une quand il fait partie d'un nom propre (exemple : "Saint Louis") ou d'un nom propre composé (exemple "l’île Saint-Louis").
 
-* Les évènements historiques prennent une majuscule car ils sont assimilés à des noms propres (exemple : "la Fronde").
+	* Dans le cas de métiers, les **noms des fonctions, de charges ou de titres civils ou militaires** ne prennent pas de majuscules, sauf pour :
+		* Les titres ayant eu un seul détenteur assimilable à un nom propre (exemple : "le Duce").
+		* La désignation d’une personne précise, auquel cas pas il faut éviter de créer une ambiguïté dans le texte pour l'antonomase (exemple : "le Général" pour le général de Gaulle).
+		* Les titres honorifiques (exemple : "Sa Majesté").
 
-* Les noms de doctrines, qu'elles soient religieuses, philosophiques, artistiques ou politiques, restent en minuscules (exemple : "l'existentialisme"), de même que ceux qui s’en réclament (exemple : "les hindous"), mais la majuscule est de mise pour ceux devenus des noms propres (exemple : "la Nouvelle Vague").
+	* Pour les **comités, rapports et enquêtes**, on met une majuscule au terme (Programme, Projet, Plan, ...) suivi d’un adjectif ou d’un complément quand il est compris dans le nom officiel d’une activité (exemple : "le Plan vert"). Il prend toutefois une minuscule quand le nom officiel de l’activité est placé en apposition (exemple : "le plan Marshall").
 
-* En ce qui concerne la religion, on met une majuscule quand on désigne l’institution ou l’ensemble des fidèles (exemple : "Église", "Ouma"), mais le bâtiment religieux s'écrit avec uen minuscule. On met une majuscule pour les mots "Dieu", "Jésus" et leurs synonymes et équivalents comme "le Verbe", "le Créateur", "Allah", "Bouddha". Le mot "saint" ne prend pas de majuscule quand il désigne un personnage (exemple : "saint François d'Assises"), mais il faut en mettre une quand il fait partie d'un nom propre (exemple : "Saint Louis") ou d'un nom propre composé (exemple "l’île Saint-Louis").
+* Les cas toujours en minuscule : 
 
-* Pour les livres sacrés, les mots "Bible", "Écriture" et "Évangile" prennent une majuscule s’ils désignent le recueil de textes religieux, ainsi que les mots « Ancien Testament », « Nouveau Testament » et « Coran ». Le mot "bible" perd toutefois sa majuscule quand il désigne un livre faisant autorité.
-
-* Dans le cas de métiers, les noms des fonctions, de charges ou de titres civils ou militaires ne prennent pas de majuscules, sauf pour :
-	* Les titres ayant eu un seul détenteur assimilable à un nom propre (exemple : "le Duce").
-	* La désignation d’une personne précise, auquel cas pas il faut éviter de créer une ambiguïté dans le texte pour l'antonomase (exemple : "le Général" pour le général de Gaulle).
-	* Les titres honorifiques (exemple : "Sa Majesté").
-
-* Pour les comités, rapports et enquêtes, on met une majuscule au terme (Programme, Projet, Plan, ...) suivi d’un adjectif ou d’un complément quand il est compris dans le nom officiel d’une activité (exemple : "le Plan vert"). Il prend toutefois une minuscule quand le nom officiel de l’activité est placé en apposition (exemple : "le plan Marshall").
-
-* Les saisons s'écrivent en minuscules.
-
-* Les monnaies ne prennent pas de majuscules. 
+	* Les noms de **doctrines**, qu'elles soient religieuses, philosophiques, artistiques ou politiques (exemple : "l'existentialisme") ; de même pour ceux qui s’en réclament (exemple : "les hindous"), mais la majuscule est de mise pour ceux devenus des noms propres (exemple : "la Nouvelle Vague")
+	* Les **saisons** (exemple : "le printemps")
+	* Les **monnaies** (exemple : "trois livres tournois")
 
 Pour plus de précisions, vous pouvez consulter la banque de dépannage linguistique de l'Office québécois de la langue française, avec une liste de l'emploi de la majuscule pour des [types de dénominations](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?th=1&th_id=280) et une autre pour les [noms particuliers](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?th=1&th_id=281). 
 
