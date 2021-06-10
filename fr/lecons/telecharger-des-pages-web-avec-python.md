@@ -138,8 +138,8 @@ Dans le texte affiché en sortie, vous remarquerez la présence de certains él�
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<title>Browse - Central Criminal Court</title>
-	<meta http-equiv="content-type" content= >
-    ```
+	<meta http-equiv="content-type" content= 
+```
 
 La transcription du procès elle-même apparaît beaucoup plus bas dans la page. Ce que vous voyez ici fait partie de l'en-tête du document. Ce n'est pas exactement ce dont nous avons besoin pour mener de la recherche historique, mais ne vous découragez pas&#x202F;: vous apprendrez bientôt comment mettre de côté ces marques de balisage et extraire le contenu dont vous avez besoin.
 
