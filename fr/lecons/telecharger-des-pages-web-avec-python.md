@@ -106,7 +106,7 @@ Essayons maintenant d'ouvrir cette page en Python. Copiez le programme suivant d
 
 ``` python
 # open-webpage.py
-# NOTE : l'archive zip que vous pouvez télécharger contient une version
+# NOTE\&#x202F;: l'archive zip que vous pouvez télécharger contient une version
 # anglophone de ce code, fonctionnellement identique
 
 import urllib.request, urllib.error, urllib.parse
