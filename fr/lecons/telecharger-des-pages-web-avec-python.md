@@ -149,7 +149,7 @@ Si vous savez déjà comment [écrire des fichiers textes en Python](https://pro
 
 ``` python
 # save-webpage.py
-# NOTE&#x202F;: l'archive zip que vous pouvez télécharger contient une version anglophone de ce code, fonctionnellement identique
+# NOTE : l'archive zip que vous pouvez télécharger contient une version anglophone de ce code, fonctionnellement identique
 
 import urllib.request, urllib.error, urllib.parse
 
