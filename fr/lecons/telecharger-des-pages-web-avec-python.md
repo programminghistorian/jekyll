@@ -41,7 +41,7 @@ doi: 10.46430/phfr0017
 
 ## Objectifs de la leçon
 
-Cette leçon présente les URL (un acronyme tiré de l'anglais *Uniform Resource Locator*) et explique comment utiliser Python pour télécharger et sauvegarder le contenu d'une page Web sur votre poste de travail.
+Cette leçon présente les URL (un acronyme tiré de l'anglais *Uniform Resource Locator* soit localisateur uniforme de ressource) et explique comment utiliser Python pour télécharger et sauvegarder le contenu d'une page Web sur votre poste de travail.
 
 ### À propos des URL
 
@@ -147,7 +147,7 @@ Si vous savez déjà comment [écrire des fichiers textes en Python](/fr/lecons/
 
 ``` python
 # save-webpage.py
-# NOTE : l'archive zip que vous pouvez télécharger contient une version anglophone de ce code, fonctionnellement identique
+# NOTE DU TRADUCTEUR : l'archive zip que vous pouvez télécharger contient une version anglophone de ce code, fonctionnellement identique
 
 import urllib.request, urllib.error, urllib.parse
 
@@ -161,11 +161,11 @@ f.write(contenu_web)
 f.close
 ```
 
-Maintenant que vous savez comment sauvegarder une page web dans un fichier, pourriez-vous écrire un programme capable de télécharger toute une collection de pages? Pourriez-vous parcourir une liste de codes d'identification de procès, par exemple, et sauvegarder des copies locales de chacune des pages correspondantes? Oui. Vous apprendrez notamment à faire cela dans [Downloading Multiple Records Using Query Strings](https://programminghistorian.org/en/lessons/downloading-multiple-records-using-query-strings), que nous vous recommandons d'étudier lorsque vous aurez maîtrisé la présente série de leçons d'introduction.
+Maintenant que vous savez comment sauvegarder une page web dans un fichier, pourriez-vous écrire un programme capable de télécharger toute une collection de pages? Pourriez-vous parcourir une liste de codes d'identification de procès, par exemple, et sauvegarder des copies locales de chacune des pages correspondantes? Oui. Vous apprendrez notamment à faire cela dans la leçon [Downloading Multiple Records Using Query Strings](https://programminghistorian.org/en/lessons/downloading-multiple-records-using-query-strings), que nous vous recommandons d'étudier lorsque vous aurez maîtrisé la présente série de leçons d'introduction.
 
 ## Lectures recommandées
 
--   Lutz, Mark. “Ch. 4 &#x202F;: Introducing Python Object Types”, *Learning Python* (O’Reilly, 1999).
+-   Lutz, Mark. “Ch. 4&#x202F;: Introducing Python Object Types”, *Learning Python* (O’Reilly, 1999).
 
 ### Synchronisation du code
 
