@@ -119,7 +119,7 @@ print(contenu_web[0:300])
 
 Ces quelques lignes de code accomplissent un travail considérable en un rien de temps. Prenons un moment pour nous assurer que tout est bien clair et que nous maîtrisons bien le rôle de chacun des blocs qui permettent à ce programme de bien remplir sa mission.
 
-Nous avons nous-même instancié les variables *url*, *reponse* et *conteu_web*.
+Nous avons nous-même instancié les variables *url*, *reponse* et *contenu_web*.
 
 *url* contient l'URL de la page que nous voulons télécharger. Dans le cas qui nous concerne, il s'agit de la transcription du procès de Benjamin Bowsey.
 
@@ -143,7 +143,7 @@ La transcription du procès elle-même apparaît beaucoup plus bas dans la page.
 
 ## Sauvegarder une copie locale d'une page web
 
-Si vous savez déjà comment [écrire des fichiers textes en Python](https://programminghistorian.org/fr/lecons/travailler-avec-des-fichiers-texte), il est assez facile de modifier le programme ci-dessus pour qu'il sauvegarde les données enregistrées dans *contenu_web* dans un fichier sur votre poste de travail plutôt que de l'afficher à l'écran. Copiez le programme ci-dessous dans votre éditeur de texte, sauvegardez-le dans un fichier nommé `save-webpage.py` et exécutez celui-ci. Utilisez ensuite la commande `Fichier -> Ouvrir un fichier` de Firefox, ou son équivalent dans votre propre navigateur, pour ouvrir le fichier que le programme `save-webpage.py` vient de créer sur votre poste de travail (`obo-t17800628-33.html`) et vérifiez que le résultat correspond bien à la page du procès Bowsey que vous avez consultée en ligne un peu plus tôt.
+Si vous savez déjà comment [écrire des fichiers textes en Python](/fr/lecons/travailler-avec-des-fichiers-texte), il est assez facile de modifier le programme ci-dessus pour qu'il sauvegarde les données enregistrées dans *contenu_web* dans un fichier sur votre poste de travail plutôt que de l'afficher à l'écran. Copiez le programme ci-dessous dans votre éditeur de texte, sauvegardez-le dans un fichier nommé `save-webpage.py` et exécutez celui-ci. Utilisez ensuite la commande `Fichier -> Ouvrir un fichier` de Firefox, ou son équivalent dans votre propre navigateur, pour ouvrir le fichier que le programme `save-webpage.py` vient de créer sur votre poste de travail (`obo-t17800628-33.html`) et vérifiez que le résultat correspond bien à la page du procès Bowsey que vous avez consultée en ligne un peu plus tôt.
 
 ``` python
 # save-webpage.py
