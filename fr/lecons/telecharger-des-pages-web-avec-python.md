@@ -78,7 +78,7 @@ https://www.oldbaileyonline.org/search.jsp?form=searchHomePage&_divs_fulltext=ar
 ```
 
 Le code qui suit le "?" englobe les paramètres de recherche. Pour en savoir plus sur la manière de construire des requêtes, consultez la leçon [Downloading Multiple Records Using Query
-Strings](https://programminghistorian.org/en/lessons/downloading-multiple-records-using-query-strings) (en anglais).
+Strings](/en/lessons/downloading-multiple-records-using-query-strings) (en anglais).
 
 ## Ouvrir des URL en Python
 
