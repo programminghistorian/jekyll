@@ -13,7 +13,7 @@ editors:
 - Miriam Posner
 translator:
 - François Dominic Laramée
-translation_date: 2020-05-28
+translation_date: 2021-06-10
 translation-editor:
 - Marie-Christine Boucher
 translation-reviewer:
@@ -21,18 +21,16 @@ translation-reviewer:
 - Célian Ringwald
 difficulty: 2
 original: working-with-web-pages
-exclude_from_check:
-  - review-ticket
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/364
 activity: acquiring
 topics: [python]
 abstract: "Cette leçon présente les URL et explique comment utiliser Python pour télécharger et sauvegarder le contenu d'une page Web sur votre poste de travail."
-next: manipulating-strings-in-python
+next: manipuler-chaines-caracteres-python
 previous: code-reuse-and-modularity
 categories: [lessons, python, original-ph]
 python_warning: false
-redirect_from: /lessons/working-with-web-pages
 avatar_alt: Un homme de grande taille et une femme de petite taille
-doi: TBA
+doi: 10.46430/phfr0017
 ---
 
 {% include toc.html %}
