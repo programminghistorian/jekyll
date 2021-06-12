@@ -25,8 +25,6 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/364
 activity: acquiring
 topics: [python]
 abstract: "Cette leçon présente les URL et explique comment utiliser Python pour télécharger et sauvegarder le contenu d'une page Web sur votre poste de travail."
-next: manipuler-chaines-caracteres-python
-previous: code-reuse-and-modularity
 categories: [lessons, python, original-ph]
 python_warning: false
 avatar_alt: Un homme de grande taille et une femme de petite taille
