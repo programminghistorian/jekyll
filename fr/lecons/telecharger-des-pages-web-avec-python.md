@@ -161,7 +161,7 @@ f.write(contenu_web)
 f.close
 ```
 
-Maintenant que vous savez comment sauvegarder une page web dans un fichier, pourriez-vous écrire un programme capable de télécharger toute une collection de pages? Pourriez-vous parcourir une liste de codes d'identification de procès, par exemple, et sauvegarder des copies locales de chacune des pages correspondantes? Oui. Vous apprendrez notamment à faire cela dans la leçon [Downloading Multiple Records Using Query Strings](https://programminghistorian.org/en/lessons/downloading-multiple-records-using-query-strings), que nous vous recommandons d'étudier lorsque vous aurez maîtrisé la présente série de leçons d'introduction.
+Maintenant que vous savez comment sauvegarder une page web dans un fichier, pourriez-vous écrire un programme capable de télécharger toute une collection de pages? Pourriez-vous parcourir une liste de codes d'identification de procès, par exemple, et sauvegarder des copies locales de chacune des pages correspondantes? Oui. Vous apprendrez notamment à faire cela dans la leçon [Downloading Multiple Records Using Query Strings](/en/lessons/downloading-multiple-records-using-query-strings), que nous vous recommandons d'étudier lorsque vous aurez maîtrisé la présente série de leçons d'introduction.
 
 ## Lectures recommandées
 
@@ -171,4 +171,4 @@ Maintenant que vous savez comment sauvegarder une page web dans un fichier, pour
 
 Pour bien suivre la progression de la présente série de leçons, il est important que vous disposiez des bons fichiers et des bons programmes dans votre répertoire "programming-historian". À la fin de chacune des leçons, vous pourrez télécharger une archive zip "programming-historian" à jour pour vous assurer d'avoir accès au code source nécessaire.
 
--   programming-historian-1 ([zip](https://programminghistorian.org/assets/python-lessons1.zip))
+-   programming-historian-1 ([zip](/assets/python-lessons1.zip))
