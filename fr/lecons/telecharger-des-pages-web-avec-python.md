@@ -39,7 +39,7 @@ doi: 10.46430/phfr0017
 
 ## Objectifs de la leçon
 
-Cette leçon présente les URL (un acronyme tiré de l'anglais *Uniform Resource Locator* soit localisateur uniforme de ressource) et explique comment utiliser Python pour télécharger et sauvegarder le contenu d'une page Web sur votre poste de travail.
+Cette leçon présente les URL (un acronyme tiré de l'anglais *Uniform Resource Locator*, soit localisateur uniforme de ressource) et explique comment utiliser Python pour télécharger et sauvegarder le contenu d'une page Web sur votre poste de travail.
 
 ### À propos des URL
 
@@ -75,8 +75,7 @@ Enfin, certaines pages web vous permettent d'envoyer des requêtes au serveur. *
 https://www.oldbaileyonline.org/search.jsp?form=searchHomePage&_divs_fulltext=arsenic&kwparse=and&_persNames_surname=&_persNames_given=&_persNames_alias=&_offences_offenceCategory_offenceSubcategory=&_verdicts_verdictCategory_verdictSubcategory=&_punishments_punishmentCategory_punishmentSubcategory=&_divs_div0Type_div1Type=&fromMonth=&fromYear=&toMonth=&toYear=&ref=&submit.x=0&submit.y=0
 ```
 
-Le code qui suit le "?" englobe les paramètres de recherche. Pour en savoir plus sur la manière de construire des requêtes, consultez la leçon [Downloading Multiple Records Using Query
-Strings](/en/lessons/downloading-multiple-records-using-query-strings) (en anglais).
+Le code qui suit le "?" englobe les paramètres de recherche. Pour en savoir plus sur la manière de construire des requêtes, consultez la leçon [Downloading Multiple Records Using Query Strings](/en/lessons/downloading-multiple-records-using-query-strings) (en anglais).
 
 ## Ouvrir des URL en Python
 
@@ -86,7 +85,7 @@ Voici un exemple qui exploite le genre de fichier que vous risquez de rencontrer
 
 {% include figure.html filename="old-bailey.png" caption="Page d'accueil du site Old Bailey Online" %}
 
-Pour les besoins de cet exemple, nous allons obtenir la transcription du procès de Benjamin Bowsey, un homme noir ('black moor' dans le texte) reconnu coupable d'avoir troublé la paix pendant les [Gordon Riots][] de 1780. L'URL de cette transcription est&#x202F;:
+Pour les besoins de cet exemple, nous allons obtenir la transcription du procès de Benjamin Bowsey, un homme noir ('black moor' dans le texte) reconnu coupable d'avoir troublé la paix pendant les [Gordon Riots][https://fr.wikipedia.org/wiki/Gordon_Riots] de 1780. L'URL de cette transcription est&#x202F;:
 
 ``` xml
 http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
