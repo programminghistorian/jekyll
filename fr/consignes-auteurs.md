@@ -75,6 +75,8 @@ Le *Programming Historian en français* s'efforce de publier des leçons qui son
 
 ### Règles typographiques  
 <!-- Ici il y a du texte en EN, à voir si pertinent de le traduite ou de mettre une accroche spécifique-->
+Cette partie se concentre davantage sur des conventions d'écriture à propos des dates, des nombres, des en-têtes, des listes, de l'usage des majuscules ou de la ponctuation, ainsi que de l'application de l'écriture inclusive. Vous pouvez vous y référer avant et après l'écriture de votre brouillon. 
+
 #### Dates et heures
 <!--Gwen-->   
 * Les siècles doivent s'écrire en chiffres romains, si possible en petites capitales ( HTML : ``` <span style="font-variant:small-caps;"> ```), avec le "e" final en exposant, par exemple <span style="font-variant:small-caps;">XVIII</span><sup>e</sup> siècle.
