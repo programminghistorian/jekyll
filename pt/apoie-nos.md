@@ -42,6 +42,7 @@ O projecto agradece os seguintes apoios:
   - [RStudio, PBC](https://rstudio.com/), Estados Unidos
   - [CESTA, Stanford University](https://cesta.stanford.edu/), Estados Unidos
   - [University of Waterloo](https://uwaterloo.ca/), Canadá
+  - [Universidad de los Andes](https://uniandes.edu.co/), Colômbia
   
 ## Doações
 
