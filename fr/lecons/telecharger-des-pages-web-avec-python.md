@@ -85,7 +85,7 @@ Voici un exemple qui exploite le genre de fichier que vous risquez de rencontrer
 
 {% include figure.html filename="old-bailey.png" caption="Page d'accueil du site Old Bailey Online" %}
 
-Pour les besoins de cet exemple, nous allons obtenir la transcription du procès de Benjamin Bowsey, un homme noir ('black moor' dans le texte) reconnu coupable d'avoir troublé la paix pendant les [Gordon Riots][https://fr.wikipedia.org/wiki/Gordon_Riots] de 1780. L'URL de cette transcription est&#x202F;:
+Pour les besoins de cet exemple, nous allons obtenir la transcription du procès de Benjamin Bowsey, un homme noir ('black moor' dans le texte) reconnu coupable d'avoir troublé la paix pendant les [Gordon Riots](https://fr.wikipedia.org/wiki/Gordon_Riots) de 1780. L'URL de cette transcription est&#x202F;:
 
 ``` xml
 http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
