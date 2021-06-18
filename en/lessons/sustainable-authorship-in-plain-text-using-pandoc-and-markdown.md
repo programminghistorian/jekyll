@@ -8,7 +8,7 @@ authors:
 editors:
 - Fred Gibbs
 lesson-testers: 
-- Pao-Chuan, Ma
+- Pao-Chuan Ma
 tested-date: 2021-06-10
 difficulty: 2
 activity: sustaining
