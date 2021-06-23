@@ -28,6 +28,9 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 - [CESTA, Stanford University](https://cesta.stanford.edu/), United States
 - [University of Waterloo](https://uwaterloo.ca/), Canada
 - [Universidad de los Andes](https://uniandes.edu.co/), Colombia
+- [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Denmark
+- [Aarhus University Library](https://library.au.dk/), Denmark
+- [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Denmark
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
