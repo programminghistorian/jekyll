@@ -43,6 +43,9 @@ O projecto agradece os seguintes apoios:
   - [CESTA, Stanford University](https://cesta.stanford.edu/), Estados Unidos
   - [University of Waterloo](https://uwaterloo.ca/), Canadá
   - [Universidad de los Andes](https://uniandes.edu.co/), Colômbia
+  - [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Dinamarca
+  - [Aarhus University Library](https://library.au.dk/), Dinamarca
+  - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca
   
 ## Doações
 
