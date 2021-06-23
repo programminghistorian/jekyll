@@ -27,6 +27,9 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [CESTA, Stanford University](https://cesta.stanford.edu/), États-Unis
 - [University of Waterloo](https://uwaterloo.ca/), Canada
 - [Universidad de los Andes](https://uniandes.edu.co/), Colombie
+- [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Danemark
+- [Aarhus University Library](https://library.au.dk/), Danemark
+- [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Danemark
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
