@@ -70,6 +70,7 @@ En particular, agradecemos la contribución de los siguientes suscriptores de Pa
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 - Dimitra Koutla
+- Ben Akrigg
 - Laura Gayle Green ('Educación')
 - Rebecca Kahn ('Educación')
 - Sarah Melton ('Educación')
