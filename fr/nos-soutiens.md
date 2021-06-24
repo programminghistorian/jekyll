@@ -68,6 +68,7 @@ Nous tenons également à remercier publiquement tous nos donateurs de niveau 'm
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 - Dimitra Koutla
+- Ben Akrigg
 - Laura Gayle Green (éducation)
 - Rebecca Kahn (éducation)
 - Sarah Melton (éducation)
