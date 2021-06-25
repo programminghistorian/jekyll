@@ -18,6 +18,8 @@ The project team and members of the wider community are involved in a number of 
 * Cameron Blevins, '[Review of the Programming Historian](http://jitp.commons.gc.cuny.edu/review-of-the-programming-historian/)', _The Journal of Interactive Technology & Pedagogy_, vol. 8 (2015).
 
 ## Published Research
+
+* Adam Crymble and Maria José Afanador Llach, ‘The Globally Unequal Promise of Digital Tools for History: UK and Colombia Case Study’ in Adele Nye (ed.) Teaching History for the Contemporary World (Springer, 2021), 85-98.
 * Daniel Alves, ['Ensinar Humanidades Digitais sem as Humanidades Digitais: um olhar a partir das licenciaturas em História'](http://www.latec.ufrj.br/revistas/index.php?journal=educaonline&page=article&op=view&path[]=1176), _Revista EducaOnline_, v. 15, n. 2 (2021).
 * Adam Crymble, [_Technology &amp; the Historian: Transformations in the Digital Age_](https://www.press.uillinois.edu/books/catalog/57hxp7wr9780252043710.html), (University of Illinois Press, 2021).
 * Anna-Maria Sichani, James Baker, Maria José Afanador Llach, and Brandon Walsh, [‘Diversity and Inclusion in Digital Scholarship and Pedagogy: The Case of The Programming Historian’](https://doi.org/10.1629/uksg.465), _Insights_, (2019).
