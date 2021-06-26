@@ -17,6 +17,7 @@ O *Programming Historian* é um projecto impulsionado por voluntários. Estamos 
 
 O projecto agradece os seguintes apoios:
 
+- UCL, Faculty of Arts & Humanities, Reino Unido [2021].
 - [Escola de Ciências Sociais FGV CPDOC](https://portal.fgv.br), "Literacia digital: modelando competências digitais para humanistas e cientistas sociais", Brasil [2021-2022].
 - O desenvolvimento Web é suportado pelo [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) e pela [Andrew W. Mellon Foundation](https://mellon.org/) [2018-...]
 - Apoio contínuo de hospedagem na web pelo *Roy Rosenzweig Center for New Media* ([RRCHNM](http://chnm.gmu.edu/)) [2011-...].
