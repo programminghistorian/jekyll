@@ -10,14 +10,15 @@ authors:
 reviewers:
 - Jennifer Isasi
 - Basthian Medina
-editor:
+editors:
 - Riva Quiroga
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/330
 difficulty: 2
-activity: analyze
+activity: analyzing
 topics:
 - distant-reading
 abstract: "En esta lección aprenderás a visualizar y animar temporalmente datos históricos almacenados en forma de tabla."
+avatar_alt: "Una mano llevando una botella."
 doi: 10.46430/phes0052
 ---
 
@@ -47,7 +48,7 @@ En esta lección te mostraremos una de las tantas formas en que se pueden analiz
 
 # Requisitos
 
-Esta lección requiere que cuentes con nociones básicas de R, que tratan las lecciones [Datos tabulares en R](https://programminghistorian.org/es/lecciones/datos-tabulares-en-r) de Trayn Dewar y [Administración de datos en R](https://programminghistorian.org/es/lecciones/administracion-de-datos-en-r) de Nabeel Siddiqui.
+Esta lección requiere que cuentes con nociones básicas de R, que tratan las lecciones [Datos tabulares en R](/es/lecciones/datos-tabulares-en-r) de Trayn Dewar y [Administración de datos en R](/es/lecciones/administracion-de-datos-en-r) de Nabeel Siddiqui.
 
 Además de R, deberás tener instalado el entorno de desarrollo [RStudio]
 (https://www.rstudio.com/products/rstudio/download/#download). Si no lo tienes aún, [en este video](https://www.youtube.com/watch?v=Nmu4WPdJBRo) encontrarás una guía sobre cómo descargarlo e instalarlo.
@@ -72,7 +73,7 @@ Este documento fue transformado en un conjunto de datos procesables cuantitativa
 | 20/01/1959 | Lomas | bomba | vias ffcc | ferrocarril |
 | 20/01/1959 | Matanza | bomba | vias ffcc | ferrocarril |
 
-Para esta lección utilizaremos la tabla correspondiente a los atentados en cinco ciudades de Argentina durante 1959, la que se encuentra disponible en el archivo [atentados1959.xlsx](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/assets/visualizacion-y-animacion-de-tablas-historicas-con-R/atentados1959.xlsx)
+Para esta lección utilizaremos la tabla correspondiente a los atentados en cinco ciudades de Argentina durante 1959, la que se encuentra disponible en el archivo [atentados1959.xlsx](/assets/visualizacion-y-animacion-de-tablas-historicas-con-R/atentados1959.xlsx)
 
 
 # Tratamiento y limpieza de los datos con R
