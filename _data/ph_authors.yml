@@ -2191,3 +2191,9 @@
   bio:
     en: |
        Halle Burns is an assistant professor in the University Libraries at the University of Nevada, Las Vegas. She is also a certified instructor with The Carpentries, an international organization that teaches coding and data science skills to researchers. 
+
+- name: Marcelo Raimundo 
+  team: false
+  bio:
+      es: |
+        Marcelo Raimundo es profesor e investigador de la Universidad Nacional de La Plata y se dedica al análisis histórico de la conflictividad obrera.
