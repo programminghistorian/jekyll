@@ -229,7 +229,7 @@ Os links embutidos são escritos colocando o texto do link entre colchetes prime
 
 **Isso é renderizado como:**
 
-Para mais tutoriais, por favor visite o [Programming Historian em português](https://programminghistorian.org/pt/)
+Para mais tutoriais, por favor visite o [Programming Historian em português](/pt/)
 
 Os links de referência são úteis para notas de rodapé e podem manter seu documento de texto simples mais organizado. Eles são escritos com um conjunto adicional de colchetes para estabelecer um rótulo de ID de link.
 
@@ -243,7 +243,7 @@ Você deve então adicionar o URL a outra parte do documento:
 
 Um exemplo é o website do [Programming Historian em português][1]
 
-[1]: http://programminghistorian.org/pt/ "The Programming Historian em português"
+[1]: /pt/ "The Programming Historian em português"
 
 
 ### Imagens
