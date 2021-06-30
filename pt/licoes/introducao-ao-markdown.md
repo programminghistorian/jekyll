@@ -241,7 +241,7 @@ Você deve então adicionar o URL a outra parte do documento:
 
 **Isso é renderizado como:**
 
-Um exemplo é o website do [Programming Historian em português][1]
+Um exemplo é o website do [_Programming Historian em português_][1]
 
 [1]: /pt/ "The Programming Historian em português"
 
@@ -311,7 +311,7 @@ Para especificar o alinhamento de cada coluna, dois pontos `:` podem ser adicion
 
 
 ## Limitações do Markdown
-Embora o Markdown esteja se tornando cada vez mais popular, principalmente para estilizar documentos que podem ser visualizados na web, muitas pessoas e editores ainda esperam documentos tradicionais do Word, PDFs e outros formatos de arquivo. Isso pode ser atenuado parcialmente com ferramentas de conversão de linha de comandos, como o [Pandoc] (http://johnmacfarlane.net/pandoc/); no entanto, certos recursos do processador de texto, como o controle de alterações, ainda não são suportados. Visite a lição do Programming Historian (em inglês) de título [Sustainable authorship in plain text using Pandoc and Markdown](/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) para obter mais informações sobre Pandoc.
+Embora o Markdown esteja se tornando cada vez mais popular, principalmente para estilizar documentos que podem ser visualizados na web, muitas pessoas e editores ainda esperam documentos tradicionais do Word, PDFs e outros formatos de arquivo. Isso pode ser atenuado parcialmente com ferramentas de conversão de linha de comandos, como o [Pandoc](http://johnmacfarlane.net/pandoc/); no entanto, certos recursos do processador de texto, como o controle de alterações, ainda não são suportados. Visite a lição do Programming Historian (em inglês) de título [Sustainable authorship in plain text using Pandoc and Markdown](/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) para obter mais informações sobre Pandoc.
 
 
 ## Conclusão
