@@ -225,7 +225,7 @@ Os links podem ser escritos em dois estilos.
 
 Os links embutidos são escritos colocando o texto do link entre colchetes primeiro e, em seguida, incluindo a URL e o texto alternativo opcional entre parêntesis curvos.
 
-`Para mais tutoriais, por favor visite o [Programming Historian em português](https://programminghistorian.org/pt/).`
+`Para mais tutoriais, por favor visite o [Programming Historian em português](/pt/).`
 
 **Isso é renderizado como:**
 
