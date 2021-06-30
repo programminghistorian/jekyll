@@ -25,7 +25,7 @@ topics: [data-management]
 abstract: "Nesta lição é apresentado o Markdown, uma sintaxe baseada em texto simples para formatação de documentos. É explicado porque ele é usado, como formatar ficheiros Markdown e como pré-visualizar documentos formatados em Markdown na web."
 original: getting-started-with-markdown
 avatar_alt: Letras ornamentadas num manual tipográfico
-doi: brevemente disponível
+doi: 10.46430/phpt0008
 ---
 
 {% include toc.html %}
