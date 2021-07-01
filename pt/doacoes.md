@@ -16,9 +16,16 @@ O seu suporte contribui diretamente para manter a infraestrutura de divulgação
 
 # Doações regulares
 
+<div class="alert alert-info">
+<div class="float-left">
+	<svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-credit-card" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+  <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
+</svg>
+</div>
+  
 Com doações de $5, $10 ou $15 por mês, você consegue ingressar em nossa crescente lista de apoiadores individuais via [Patreon](https://www.patreon.com/join/theprogramminghistorian). Ao se juntar aos nossos apoiadores regulares via Patreon, você permite que nossa equipe planeje ações futuras e aumente nosso conjunto de lições dedicadas às humanidades digitais e ao desenvolvimento de competências digitais.
 
-[![Support us on Patreon button](/images/patreonbutton.png)](https://www.patreon.com/theprogramminghistorian)
 
 # Doações pontuais
 
