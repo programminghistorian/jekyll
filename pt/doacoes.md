@@ -18,7 +18,7 @@ O seu suporte contribui diretamente para manter a infraestrutura de divulgação
 
 Com doações de $5, $10 ou $15 por mês, você consegue ingressar em nossa crescente lista de apoiadores individuais via [Patreon](https://www.patreon.com/join/theprogramminghistorian). Ao se juntar aos nossos apoiadores regulares via Patreon, você permite que nossa equipe planeje ações futuras e aumente nosso conjunto de lições dedicadas às humanidades digitais e ao desenvolvimento de competências digitais.
 
-[![Support us on Patreon button](https://programminghistorian.org/images/patreonbutton.png)](https://www.patreon.com/theprogramminghistorian)
+[![Support us on Patreon button](/images/patreonbutton.png)](https://www.patreon.com/theprogramminghistorian)
 
 # Doações pontuais
 
