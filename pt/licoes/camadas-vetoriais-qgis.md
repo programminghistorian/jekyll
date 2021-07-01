@@ -60,7 +60,7 @@ Abra o ficheiro que você salvou no final da da lição [instalar o QGIS 2.0 e a
 
 Desmarque todas essas camadas, exceto 'PEI_placenames', 'coastline_polygon' e 'PEI_CumminsMap1927'. 
 
-{% include figure.html filename="pei1.png" caption="Figura 1: Clique para ver a imagem em tamanho real." %}
+{% include figure.html filename="pei1.png" caption="Figura 1" %}
 
 Agora vamos adicionar um segundo mapa histórico como uma camada raster.
 
@@ -89,7 +89,7 @@ Depois de selecionar 'Nova Camada Shapefile', aparece uma janela intitulada 'Nov
 
 -   Na categoria 'Tipo', 'ponto' já está selecionado. Clique no botão 'Especificar CRS' e selecione 'NAD83 (CSRS98) / Prince Edward Isl. Estereográfico (EPSG: 2291)' e, em seguida, clique em OK (para obter informações sobre como entender e selecionar a zona UTM: [https://lib.uwaterloo.ca/locations/umd/digital/clump_classes.html](https://lib.uwaterloo.ca/locations/umd/digital/clump_classes.html)
 
-{% include figure.html filename="Figura6.jpg" caption="Figura 6: Clique para ver a imagem em tamanho real." %}
+{% include figure.html filename="Figura6.jpg" caption="Figura 6" %}
 
 Retornando à janela 'Nova Camada vetorial', iremos criar alguns atributos. Para criar o primeiro atributo:  
 
