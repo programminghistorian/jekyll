@@ -28,8 +28,7 @@ topics: [mapping]
 abstract: "Nesta lição, aprenderá como criar camadas vetoriais com base em mapas históricos digitalizados."
 original: vector-layers-qgis
 avatar_alt: Mapa de ruas da cidade
-doi:
-
+doi: A INDICAR
 ---
 
 {% include toc.html %}
@@ -40,17 +39,17 @@ doi:
 
 ## Objetivos da lição
 
-Nesta lição, aprenderá como criar camadas vetoriais com base em mapas históricos digitalizados. [Na introdução ao Google Maps e Google Earth](https://programminghistorian.org/en/lessons/googlemaps-googleearth), usou camadas vetoriais e criou atributos no Google Earth. Faremos o mesmo nesta lição, embora num nível mais avançado, usando o software QGIS.
+Nesta lição, aprenderá como criar camadas vetoriais com base em mapas históricos digitalizados. [Na introdução ao Google Maps e Google Earth](/en/lessons/googlemaps-googleearth) (em inglês), usou camadas vetoriais e criou atributos no Google Earth. Faremos o mesmo nesta lição, embora num nível mais avançado, usando o software QGIS.
 
-As camadas vetoriais (ou shapefiles) são, junto com as camadas raster, um dos dois tipos básicos de estruturas de armazenamento de dados. As camadas vetoriais usam as três feições<sup>1</sup> básicos do SIG (Sistema de Informações Geográficas) - pontos, linhas e polígonos - para representar aspectos do mundo real em formato digital. Pontos podem ser usados para representar locais específicos, como cidades, edifícios, eventos, etc. (a escala do seu mapa determinará o que você representa como um ponto - no mapa de uma província, uma cidade seria um ponto, enquanto no mapa de uma cidade, um edifício pode ser um ponto). Linhas podem representar estradas, rios, canais, ferrovias etc. Polígonos (formas fechadas) são usados para representar objetos mais complexos, como os limites de um lago, país, divisão administrativa ou eleitoral etc. (novamente, a escala afetará sua escolha - grandes edifícios num mapa de pormenor de uma cidade podem ser melhor representados como polígonos do que como pontos).
+As camadas vetoriais (ou shapefiles) são, junto com as camadas raster, um dos dois tipos básicos de estruturas de armazenamento de dados. As camadas vetoriais usam as três feições<sup>1</sup> básicas do SIG (Sistema de Informações Geográficas) - pontos, linhas e polígonos - para representar aspectos do mundo real em formato digital. Pontos podem ser usados para representar locais específicos, como cidades, edifícios, eventos, etc. (a escala do seu mapa determinará o que você representa como um ponto - no mapa de uma província, uma cidade seria um ponto, enquanto no mapa de uma cidade, um edifício pode ser um ponto). Linhas podem representar estradas, rios, canais, ferrovias etc. Polígonos (formas fechadas) são usados para representar objetos mais complexos, como os limites de um lago, país, divisão administrativa ou eleitoral etc. (novamente, a escala afetará sua escolha - grandes edifícios num mapa de pormenor de uma cidade podem ser melhor representados como polígonos do que como pontos).
 
-Nesta lição, você criará shapefiles (que são um formato de armazenamento de dados vetoriais) para representar o desenvolvimento histórico de comunidades e estradas na Ilha Prince Edward. Cada shapefile pode ser criado como um dos três tipos de feições: ponto, linha, polígono (embora essas feições não possam ser misturadas em um shapefile). Cada feição que você cria em um shapefile possui um conjunto correspondente de atributos, que são armazenados numa tabela de atributos. Você criará feições e aprenderá como modificá-las, o que envolve não apenas a criação visual dos três tipos de feições, mas também a modificação de seus atributos. Para fazer isso, usaremos os ficheiros da lição [instalar o QGIS 2.0 e adicionaremos camadas](https://programminghistorian.org/en/lessons/qgis-layers) referentes à Ilha Prince Edward.  
+Nesta lição, você criará shapefiles (que são um formato de armazenamento de dados vetoriais) para representar o desenvolvimento histórico de comunidades e estradas na Ilha Prince Edward. Cada shapefile pode ser criado como um dos três tipos de feições: ponto, linha, polígono (embora essas feições não possam ser misturadas em um shapefile). Cada feição que você cria em um shapefile possui um conjunto correspondente de atributos, que são armazenados numa tabela de atributos. Você criará feições e aprenderá como modificá-las, o que envolve não apenas a criação visual dos três tipos de feições, mas também a modificação de seus atributos. Para fazer isso, usaremos os ficheiros da lição [instalar o QGIS 2.0 e adicionaremos camadas](/en/lessons/qgis-layers) (em inglês) referentes à Ilha Prince Edward.  
 
 ## Começando
 
-Comece por descarregar o [mapa PEI_Holland](https://programminghistorian.org/assets/PEI_HollandMap1798_compLZW.tif) para a pasta do projeto.  
+Comece por descarregar o [mapa PEI_Holland](/assets/PEI_HollandMap1798_compLZW.tif) para a pasta do projeto.  
 
-Abra o ficheiro que você salvou no final da da lição [instalar o QGIS 2.0 e adicionar camadas](https://programminghistorian.org/en/lessons/qgis-layers). Deve ter as seguintes camadas na aba Camadas:
+Abra o ficheiro que você salvou no final da da lição [instalar o QGIS 2.0 e adicionar camadas](/en/lessons/qgis-layers) (em inglês). Deve ter as seguintes camadas na aba Camadas:
 
 -   PEI\_placenames
 -   PEI\_highway
@@ -76,7 +75,7 @@ Agora vamos adicionar um segundo mapa histórico como uma camada raster.
 
 Nas etapas anteriores, você selecionou e desmarcou camadas na janela 'Camadas' marcando e desmarcando as caixas ao lado delas. Essas camadas são organizadas em ordem decrescente de visibilidade. Ou seja, a camada superior é a camada superior da janela do visualizador (desde que esteja selecionada). Você pode arrastar as camadas para cima e para baixo na janela de camadas para alterar a ordem em que ficarão visíveis na janela de visualização. A camada raster 'litoral_polygon' não está visível no momento porque está abaixo das camadas 'PEI_HollandMap1798' e 'PEI_Cummins1927'. Em geral, é melhor manter as camadas vetoriais acima das camadas raster.
 
-Desmarque 'PEI_Cummins1927' para que a única camada restante seja 'PEI_HollandMap1798'. Observe que o mapa aparece torto na tela; isso ocorre porque já foi georreferenciado pelos redatores da lição para coincidir com as camadas vetoriais de SIG. Saiba mais sobre georreferenciamento em [georreferenciamento no QGIS 2.0](https://programminghistorian.org/en/lessons/georeferencing-qgis).
+Desmarque 'PEI_Cummins1927' para que a única camada restante seja 'PEI_HollandMap1798'. Observe que o mapa aparece torto na tela; isso ocorre porque já foi georreferenciado pelos redatores da lição para coincidir com as camadas vetoriais de SIG. Saiba mais sobre georreferenciamento em [georreferenciamento no QGIS 2.0](/en/lessons/georeferencing-qgis) (em inglês).
 
 {% include figure.html filename="pei4.png" caption="Figura 4" %}
 
