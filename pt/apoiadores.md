@@ -10,9 +10,9 @@ redirect_from:
 
 O _Programming Historian_ é grato aos nossos apoiadores anteriores e atuais por nos permitirem oferecer esses recursos para o mundo, gratuitamente e acessível aos leitores de qualquer lugar.
 
-## Parceiros Institucionais[institutional-partners](https://programminghistorian.org/en/supporters#institutional-partners)
+## Parceiros Institucionais
 
-Contribuintes para o nosso [Programa de Parceria Institucional](https://programminghistorian.org/en/support-us#institutional-partner-programme).
+Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 
 -   [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Bélgica
 -   [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library), Reino Unido
@@ -34,9 +34,9 @@ Contribuintes para o nosso [Programa de Parceria Institucional](https://programm
 -   [Aarhus University Library](https://library.au.dk/), Dinamarca
 -   [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca
 
-Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](https://programminghistorian.org/pt/ppi).
+Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
-## Apoiadores adicionais [additional-supporters](https://programminghistorian.org/en/supporters#additional-supporters)
+## Apoiadores adicionais
 
 Organizações que contribuíram ou continuam a dar apoio em forma de serviços, em espécie e até financiamento para projetos específicos.
 
@@ -77,6 +77,6 @@ Também agradecemos publicamente a todos os nossos apoiadores ‘Patrono’ e �
 -   Rebecca Kahn (Educator)
 -   Sarah Melton (Educator)
 
-## Gestão de Doações e Patrocínios [management-of-donations-and-sponsorship](https://programminghistorian.org/en/supporters#management-of-donations-and-sponsorship)
+## Gestão de Doações e Patrocínios
 
-Doações e patrocínios são gerenciados por [Dr. James Baker](https://github.com/drjwbaker) em nome de [Project Team of The Programming Historian](https://programminghistorian.org/en/project-team).
+Doações e patrocínios são gerenciados por [Dr. James Baker](https://github.com/drjwbaker) em nome de [Project Team of The Programming Historian](pt/equipe).
