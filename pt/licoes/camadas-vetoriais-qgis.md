@@ -116,7 +116,7 @@ Observe que uma camada chamada 'Assentamentos' agora aparece na janela 'Camadas'
 
 {% include figure.html filename="Figura8.jpg" caption="Figura 8" %}
 
-Desmarque todas as camadas, exceto 'Assentamentos'. A janela de visualização agora está em branco, pois não criamos nenhum dado. Agora criaremos novos dados do '<mark>PEI_CumminsMap1927' e do 'PEI_HollandMap 1798{c:red}texto vermelho.{/c}</mark>' para mostrar o aumento da ocupação entre o final do século XVIII e o início do século XX. 
+Desmarque todas as camadas, exceto 'Assentamentos'. A janela de visualização agora está em branco, pois não criamos nenhum dado. Agora criaremos novos dados do 'PEI_CumminsMap1927' e do 'PEI_HollandMap 1798' para mostrar o aumento da ocupação entre o final do século XVIII e o início do século XX. 
 
 -   Nós começaremos com o mapa mais recente e, portanto, geralmente mais preciso. Selecione novamente (ou seja,  marque as caixas ao lado) 'coast_polygon' e 'PEI_CumminsMap1927'.
 -   Na janela de visualização, aumente o 'Zoom' em 'Charlottetown' (dica: 'Charlottetown' fica perto do meio da ilha no lado sul, na confluência de três rios).
@@ -154,7 +154,7 @@ Na costa norte do 'lote 39', entre 'Britain's Pond' e 'St. Peters Bay', colocare
 -   'Havre-St-Pierre' foi o primeiro assentamento acadiano da ilha, mas está desabitado desde a deportação dos acadianos em 1758.
 
 -   Com o cursor do mouse (em formato de cruz), clique em 'Havre-St. Pierre'. Na 'tabela de Atributos' que aparece, coloque 'Havre-St-Pierre' no campo 'Assentamento', coloque '1720' no campo 'Ano' e '1758' em 'Ano_Final'. Clique 'OK'.
--   
+ 
 {% include figure.html filename="pei13.png" caption="Figura 13" %}
 
 Agora vamos criar outra camada vetorial: um vetor linha. Clique em 'Camada' -> 'Nova' -> 'Nova Camada Shapefile'. A janela 'Nova Camada Vetorial' aparecerá (na categoria 'Tipo', no topo, selecione 'Linha')  
