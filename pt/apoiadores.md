@@ -52,7 +52,7 @@ Organizações que contribuíram ou continuam a dar apoio em forma de serviços,
 -   The dSHARP lab at Carnegie Mellon University sponsored by the Andrew W. Mellon Foundation, Estados Unidos [2018-2020].
 -   The Network in Canadian History & Environment, Canadá [2011-2013].
 
-## Apoiadores Individuais [individual-supporters](https://programminghistorian.org/en/supporters#individual-supporters)
+## Apoiadores Individuais
 
 Somos gratos às nossas dezenas de patrocinadores individuais que contribuem com doações por meio do [Patreon](https://www.patreon.com/theprogramminghistorian) ou [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&installed_button_id=7BGHUZRVS4LYL&source=url). Em particular, queremos reconhecer nossos assinantes fundadores do Patreon em cada nível:
 
