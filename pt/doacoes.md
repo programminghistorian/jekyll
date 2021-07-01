@@ -8,7 +8,7 @@ redirect_from:
 
 # Apoiadores individuais
 
-![Um pássaro sentado num galho enquanto outro pássaro voa nas proximidades.](/images/supporters-individual.png)
+<img src="{{site.baseurl}}/images/supporters-individual.png" class="garnish rounded float-left" alt="{{ site.data.snippets.supporters-individual-image-alt[page.lang] }}"/>
 
 Obrigado pelo seu interesse em apoiar o _Programming Historian_. Os doadores individuais são vitais para permitir a continuidade do nosso trabalho e para nos ajudar a manter o nosso conteúdo gratuito para leitores de todo o mundo. Cerca de um em cada três dos nossos leitores vivem em países de renda baixa e média, portanto, você também estará ajudando a equalizar o acesso ao conhecimento e as competências para o campo, garantindo que todos tenham autonomia para dominar a tecnologia e colocá-la em bom uso, não importa onde estiverem.
 
@@ -26,4 +26,4 @@ Doações únicas podem ser feitas para o _Programming Historian_ via [Paypal](h
 
 # Suporte Organizacional
 
-Se você trabalha em uma organização que tem interesse em contribuir para o sucesso do _Programming Historian_, encaminhe-os para o nosso [Programa de Parceiros Institucionais](/pt/ipp), que fornece suporte crucial para o nosso trabalho.
+Se você trabalha em uma organização que tem interesse em contribuir para o sucesso do _Programming Historian_, encaminhe-os para o nosso [Programa de Parceiros Institucionais](/pt/ppi), que fornece suporte crucial para o nosso trabalho.
