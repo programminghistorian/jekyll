@@ -8,7 +8,7 @@ redirect_from:
 
 # Apoiadores individuais
 
-![Um pássaro sentado num galho enquanto outro pássaro voa nas proximidades.](https://programminghistorian.org/images/supporters-individual.png)
+![Um pássaro sentado num galho enquanto outro pássaro voa nas proximidades.](/images/supporters-individual.png)
 
 Obrigado pelo seu interesse em apoiar o _Programming Historian_. Os doadores individuais são vitais para permitir a continuidade do nosso trabalho e para nos ajudar a manter o nosso conteúdo gratuito para leitores de todo o mundo. Cerca de um em cada três dos nossos leitores vivem em países de renda baixa e média, portanto, você também estará ajudando a equalizar o acesso ao conhecimento e as competências para o campo, garantindo que todos tenham autonomia para dominar a tecnologia e colocá-la em bom uso, não importa onde estiverem.
 
