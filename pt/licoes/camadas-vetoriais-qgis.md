@@ -28,7 +28,7 @@ topics: [mapping]
 abstract: "Nesta lição, aprenderá como criar camadas vetoriais com base em mapas históricos digitalizados."
 original: vector-layers-qgis
 avatar_alt: Mapa de ruas da cidade
-doi: A INDICAR
+doi: 10.46430/phpt0009
 ---
 
 {% include toc.html %}
