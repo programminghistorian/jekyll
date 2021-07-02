@@ -67,7 +67,7 @@ Teremos prazer em conversar sobre o que fazemos e como usamos o seu apoio. [Envi
        -   Alguns de nossos parceiros dedicaram orçamentos de "Acesso aberto" para apoiar trabalhos como o nosso. Outros têm orçamentos de "Desenvolvimento" ou utilizam orçamentos de treinamento e, em seguida, usam nossos materiais para workshops de treinamento. Também podemos cobrar sua contribuição como uma assinatura ou uma doação, conforme melhor se adapte às suas circunstâncias.
     
 2.  Você pode fornecer estatísticas de uso para a minha universidade?
-        -   Não, não rastreamos os usuários dessa forma e não temos um sistema de login para leitores.
+       -   Não, não rastreamos os usuários dessa forma e não temos um sistema de login para leitores.
 
 3.  A minha contribuição será usada em uma publicação de minha escolha?
        -   Os patrocinadores contribuem para a infraestrutura compartilhada usada em todas as nossas publicações. Ao se tornar um patrocinador do PPI, você fortalece os recursos no idioma escolhido, bem como em toda a nossa oferta.
