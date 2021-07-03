@@ -369,8 +369,8 @@ Existem várias maneiras de executar um *pull request* para publicar os ficheiro
 Após a lição ter sido colocada para o repositório `jekyll`, também é necessário guardar a lição submetida no repositório` ph-submissions`.
  
  1. Ir ao diretório `ph-submissions`na máquina local.
- 2. Adicionar uma nova linha ao cabeçalho YAML da lição agora publicada: `redirect_from: "/lessons/LESSON-SLUG"`
- 3. Mover a lição agora publicada de `lessons/` para `lessons/published/`.
+ 2. Adicionar uma nova linha ao cabeçalho YAML da lição agora publicada: `redirect_from: "/licoes/SLUG-DA-LICAO"`
+ 3. Mover a lição agora publicada de `pt/licoes/originais/` ou `pt/licoes/traducoes/` para `pt/licoes/publicadas/`.
  4. Mover a pasta que contém as imagens da lição agora publicada de `images/` para `images/published/`.
  5. Usar comandos `git add`, `git commit` e `git push` para finalizar todas as alterações (ou seguir as orientações para contribuições técnicas: https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions).
 
