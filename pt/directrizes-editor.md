@@ -93,7 +93,7 @@ O primeiro comentário no quadro de mensagens para uma revisão da proposta deve
 ```
 O Programming Historian em português recebeu a proposta sobre '[TÍTULO DA LIÇÃO]' do autor [USERNAME NO GITHUB DO AUTOR]. Esta lição está agora em revisão e pode ser lida em:
 
-http://programminghistorian.github.io/ph-submissions/pt/["licoes" ou "traducoes"]/[URL da lição]
+http://programminghistorian.github.io/ph-submissions/pt/licoes/["originais" ou "traducoes"]/[NOME-DO-FICHEIRO-AQUI]
 
 Eu serei o editor no processo de revisão. O meu papel é solicitar duas revisões da comunidade e gerir as discussões, que devem ser realizadas aqui neste fórum. Eu já li a lição e forneci feedback, ao qual o autor respondeu.
 
