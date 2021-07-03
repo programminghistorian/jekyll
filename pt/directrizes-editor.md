@@ -138,7 +138,7 @@ O **Editor** deve sugerir um nome para o novo ficheiro de lição que esteja em 
 - nome curto, mas descritivo (o nome acabará por ser parte do URL da lição quando estiver publicada);
 - Um bom URL é semelhante a um bom slide do powerpoint, é fácil de lembrar e dá informação sobre a lição. Os URLs das lições têm a seguinte estrutura: `https://programminghistorian.org/pt/licoes/NOME-DO-FICHEIRO-AQUI`;
 - Nunca colocar espaços no nome do ficheiro, use hífens;
-- Não musar acentos ou pontuação no nome do ficheiro;
+- Não usar acentos, cedilhas e caracteres especiais no nome do ficheiro;
 - A extensão do ficheiro deve ser `.md` para que o GitHub consiga apresentar uma pré-visualização da lição.
 
 Este nome utilizado no link é chamado de slug no contexto da publicação web. Para além de servir de referência na construção do URL da lição, serve também de referência para estabelecer a ligação com os ficheiros anexos.
