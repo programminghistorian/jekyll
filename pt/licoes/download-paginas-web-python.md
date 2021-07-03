@@ -90,7 +90,7 @@ http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
 
 Estudando a URL, podemos verificar algumas coisas. Primeiro, o site é programado em JSP (*JavaServer Pages*, uma linguagem de programação para a *web* cujo resultado é um ficheiro HTML). Segundo, é possível acessar registros de julgamentos individuais fazendo uso de *query strings*. Cada registro recebe um número único (*id=t* na URL), formado a partir da data da sessão de julgamento no formato (*AAAAMMDD*) e o número do julgamento naquela sessão do tribunal. Neste caso, *33*. Caso as duas ocorrências de `33` sejam trocadas por `34` no link acima, o seu navegador o encaminhará ao próximo julgamento. Infelizmente, nem todos os sites possuem URLs tão acessíveis e confiáveis quanto essa.
 
-{% include figure.html filename="bowsey-trial-page.png" caption="Transcrição do Julgamento de Trial Benjamin Bowsey, 1780" %}
+{% include figure.html filename="bowsey-trial-page.png" caption="Transcrição do julgamento de Benjamin Bowsey, 1780" %}
 
 Observe a página do julgamento de Benjamin Bowsey. Mais importante do que o conteúdo são os elementos presentes na página. Note o link [View as XML](http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes) na parte inferior. Esse link apresenta uma versão repleta de marcações no texto que podem ser úteis para certos tipos de pesquisa. O [documento original digitalizado](http://www.oldbaileyonline.org/images.jsp?doc=178006280084) do julgamento também pode ser acessado.
 
@@ -163,15 +163,4 @@ Se é possível salvar um único ficheiro dessa maneira, seria possível escreve
 Para acompanhar futuras lições, é importante ter os ficheiros e programas corretos no seu diretório “programming-historian”. Ao final de cada lição, é possível baixar o ficheiro zip “programming-historian” para ter certeza de que o ficheiro correto está sendo utilizado.
 
 -   programming-historian-1 ([zip](/assets/python-lessons1.zip))
-
-### Sobre os autores
-
-William J. Turkel é professor de História na University of Western Ontario.
-
-Adam Crymble, University College London.
-
-### Citação sugerida
-
-William J. Turkel and Adam Crymble, "Downloading Web Pages with Python," The Programming Historian 1 (2012), https://doi.org/10.46430/phen0021.
-
 
