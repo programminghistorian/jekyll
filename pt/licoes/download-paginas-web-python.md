@@ -21,7 +21,7 @@ translation-reviewer:
 - Daniel Alves
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/360
-activity: acquire
+activity: acquiring
 topics: [python]
 abstract: "Esta lição apresenta o conceito de *Localizador Uniforme de Recursos* (URL em inglês) e explica como usar o Python para fazer o download de uma página *Web* no seu disco local."
 original: working-with-web-pages
