@@ -729,18 +729,18 @@ about-the:
   en: About the
   es: Acerca
   fr: À propos
-  pt: Sobre os(as)
+  pt: Sobre
 the-authors:
   singular:
     en: author
     es: del autor
     fr: de l'auteur(e)
-    pt: autor(a)
+    pt: o(a) autor(a)
   plural:
     en: authors
     es: de los autores
     fr: des auteur(e)s
-    pt: autores(as)
+    pt: os(as) autores(as)
 
 # Home Page
 project-summary:
