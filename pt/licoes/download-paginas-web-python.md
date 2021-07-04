@@ -26,7 +26,7 @@ topics: [python]
 abstract: "Esta lição apresenta o conceito de *Localizador Uniforme de Recursos* (URL em inglês) e explica como usar o Python para fazer o download de uma página *Web* no seu disco local."
 original: working-with-web-pages
 avatar_alt: Um homem alto ao lado de uma mulher baixa
-doi: A INDICAR
+doi: 10.46430/phpt0010
 ---
 
 
