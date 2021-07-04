@@ -237,14 +237,26 @@ Les majuscules sont aussi concernées par les accents, le tréma ou la cédille,
 	* Les **saisons** (exemple : "le printemps")
 	* Les **monnaies** (exemple : "trois livres tournois")
 
-Pour plus de précisions, vous pouvez consulter la banque de dépannage linguistique de l'Office québécois de la langue française, avec une liste de l'emploi de la majuscule pour des [types de dénominations](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?th=1&th_id=280) et une autre pour les [noms particuliers](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?th=1&th_id=281). 
+Pour plus de précisions, vous pouvez consulter la banque de dépannage linguistique de l'Office québécois de la langue française, avec une liste de l'emploi de la majuscule pour des [types de dénominations](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?th=1&th_id=280) et une autre pour les [noms particuliers](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?th=1&th_id=281).  
+
+#### Références bibliographiques  
+*   Mobiliser des hyperliens dans le texte plutôt que d'insérer des notes de fin peut convenir dans la plupart de cas.   
+*   La phrase source d'un hyperlien doit être sémantique, éviter par conséquent des phrases du type "cliquer ici".
+*   Utiliser des notes de fin pour renvoyer aux références bibliographiques académiques, qu'elles soient électroniques ou publiées sur papier. 
+*   Si votre tutoriel a vocation d'être un tutoriel d'analyse (cf. [l'index des leçons](https://programminghistorian.org/fr/lecons/?activity=analyzing)), vous devez vous référer à la littérature savante publiée du domaine. 
+*   Pour signaler une note de fin, placer le chiffre en exposant (appel de note) à l'endroit souhaité sans espacement après le mot. Le cas échéant, veiller à ce qu'il précède un point de ponctuation et non pas qu'il le suive. Par exemple, pour insérer une note de fin imaginaire dans cette phrase, le chiffre en exposant doit se placer avant le point final comme ceci². Mais il ne peut pas être placé de cette manière.²
+*   Pour les notes de fin, merci d'utiliser le style de citation [*The Chicago Manual of Style*, 17e édition](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html). Vous pouvez consulter des exemples de ce style en français sur le site web de la revue *[Humanités numériques](https://journals.openedition.org/revuehn/278#tocto1n6)*.  
+*  Lorsque vous mentionnez un travail publié dans le texte, fournissez le nom complet de l'auteur(e) la première fois que vous le faites. Par exemple:
+    * Vous pouvez trouver plus d'informations sur ce sujet dans _Histoire et linguistique_ de Régine Robin.
+    * Pour en savoir plus, merci de consulter l'ouvrage de Régine Robin _Histoire et linguistique_. 
+Si vous vous référez à nouveau au même ouvrage, vous pouvez par la suite fournir seulement le titre de l'ouvrage. Veillez à ne pas vous référer à un auteur avec son seul nom de famille que si vous renvoyez à ses travaux de manière répétée.  
+*  Les notes de fin doivent fournir une référence complète et non pas renvoyer seulement à une URL.
+    *   (Note complète): Marine Riguet et Mohamed Amine Boukhaled, « La correspondance de motifs, un outil pour l’analyse du discours ? », *Humanités numériques*, no. 1 (2020), https://doi.org/10.4000/revuehn.312
+    *   (Note incomplète): Voir https://doi.org/10.4000/revuehn.312  
 
 
 #### Écriture inclusive  
 Nous appliquons l'écriture inclusive suivant les consignes de l'Office québécois de la langue française sur la [formation des noms féminins](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?Th=1&Th_id=358&niveau=) et la [rédaction épicène](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?Th=2&t1=&id=3912), mises en place en 2002, ainsi que du [Guide d’aide à la féminisation des noms de métiers, titres, grades et fonctions](https://www.vie-publique.fr/sites/default/files/rapport/pdf/994001174.pdf), publié par l'Institut national de la langue française en 1999. Ces deux textes quasi-officiels se recoupent largement et constituent des guides de base pour l'équipe du _Programming Historian en français_. En revanche, nous ne faisons pas recours à l'utilisation du point médian (ou point milieu) ou de tirets. Ainsi, nous éviterons d'écrire "les historien·ne· s" ou "les historien-ne-s"; nous privilégions à la place "les historiens et historiennes" ou encore "les historien(ne)s", pour éviter la répétition de "et".  
-
-#### Challenging Words Explained 
-<!--- à voir si une telle partie est utile en français; cela peut rassembler tout et rien-->    
 
 ### Utiliser le texte brut
 Parce que notre site est hébergé avec [GitHub Pages](https://pages.github.com), **votre leçon doit être écrite en texte brut**, en utilisant un éditeur de texte de votre choix. *Les éditeurs de texte se distinguent clairement des traitements de texte traditionnels comme Microsoft Word*. Nous recommandons d'utiliser [Atom](https://atom.io/), qui est disponible sous Mac ou Windows. Les utilisateurs de Mac peuvent également envisager d'utiliser [TextWrangler] ou TextEdit (qui est fourni avec macOS). Les utilisateurs de Windows peuvent envisager d'utiliser [Notepad++].
