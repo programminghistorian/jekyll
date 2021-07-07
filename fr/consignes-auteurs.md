@@ -92,7 +92,7 @@ Cette partie se concentre davantage sur des conventions d'écriture à propos de
 
 #### Dates et heures
 <!--Gwen-->   
-* Les siècles doivent s'écrire en chiffres romains, si possible en petites capitales ( HTML : ``` <span style="font-variant:small-caps;"> ```), avec le "e" final en exposant, par exemple <span style="font-variant:small-caps;">XVIII</span><sup>e</sup> siècle.
+* Les siècles doivent s'écrire en chiffres romains, si possible en petites capitales ( HTML : ``` <span style="font-variant:small-caps;"> ```), avec le "e" final en exposant ( HTML : ``` <sup> ```), par exemple <span style="font-variant:small-caps;">XVIII</span><sup>e</sup> siècle.
 
 * La mention des décennies, plus particulièrement usitée pour le <span style="font-variant:small-caps;">XX</span><sup>e</sup> siècle, peut se formaliser soit en toutes lettres (les années trente), soit en donnant tous les chiffres de l’année (les années 1930).
 
