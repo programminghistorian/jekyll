@@ -2196,3 +2196,34 @@
   bio:
       es: |
         Marcelo Raimundo es profesor e investigador de la Universidad Nacional de La Plata y se dedica al análisis histórico de la conflictividad obrera.
+
+- name: Anisa Hawes
+  github: Anisa-ProgHist
+  email: anisa.hawes@icloud.com
+  twitter: AnisaHawes
+  url: "anisahawes.github.io/about"
+  team: true
+  team_start: 2021
+  institution: Programming Historian, UK
+  sortname: Hawes
+  affiliation:
+    en: |
+      Programming Historian, UK
+    es: |
+      Programming Historian, Reigno Unido
+    fr: |
+      Programming Historian, Royaume-Uni
+    pt: |
+      Programming Historian, Reino Unido
+  bio:
+    en: |
+      Anisa Hawes, Programming Historian.
+    es: |
+      Anisa Hawes, Programming Historian.
+    fr: |
+      Anisa Hawes, Programming Historian.
+    pt: |
+      Anisa Hawes, Programming Historian.
+  team_roles:
+    - proghist
+  status: institutionally-supported
