@@ -14,13 +14,13 @@
   definition:
     en: First point of contact for authors with lesson ideas
     es: Primer contacto para autores con ideas de lecciones
-    fr: Premier contact pour les auteurs souhaitant proposer une lesson
+    fr: Premier contact pour les auteur(e)s souhaitant proposer une lesson
     pt: Primeiro contacto para os autores com ideias para lições
 - type: editorial
   label:
     en: Editor
     es: Editor(a)
-    fr: Rédacteur
+    fr: Rédacteur/rédactrice
     pt: Editor(a)
   definition:
     en: Responsible for editorial work resulting in the review and publication of lessons
@@ -167,7 +167,7 @@
   label:
     en: Institutionally Supported
     es: Apoyado por su institución
-    fr: Soutenu institutionnellement
+    fr: Soutenu(e) institutionnellement
     pt: Apoiado institucionalmente
   definition:
     en: This member's time on the project is either directly or indirectly supported by their employer.
