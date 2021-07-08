@@ -6,6 +6,8 @@ layout: post
 categories: posts 
 ---
 
+<img src="/avatars/anisa-hawes.png" alt="portrait of our new Digital Humanities Publishing Assistant"/>
+
 This week, I’ve joined the *Programming Historian* team as Digital Humanities Publishing Assistant. 
 
 I’m looking forward to supporting the publishing workflow by contributing to lesson maintenance, identifying and fixing bugs, training new editorial team members, and writing project documentation.
