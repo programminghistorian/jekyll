@@ -1,6 +1,6 @@
 ---
 layout: base
-title: The Programming Historian em português
+title: O Programming Historian em português
 original: index
 ---
 <div class="container" style="text-align:center">
@@ -9,7 +9,7 @@ original: index
 
 <div class="home-block">
 	<div class="container">
-		<h2>The Programming Historian em português</h2>
+		<h2>O Programming Historian em português</h2>
 		<p>Publicamos tutoriais acessíveis para iniciantes, revistos por pares, que ajudam os humanistas a aprender uma ampla gama de ferramentas digitais, técnicas e metodologias de trabalho, para facilitar a pesquisa e o ensino. Temos o compromisso de promover uma comunidade diversificada e inclusiva de editores, escritores e leitores.</p>
 	</div>
 </div>

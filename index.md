@@ -1,6 +1,6 @@
 ---
 layout: base
-title: The Programming Historian
+title: Programming Historian
 ---
 
 <div class="container">
