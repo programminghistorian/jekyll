@@ -6,7 +6,7 @@ layout: post
 categories: posts 
 ---
 
-<img src="/avatars/anisa-hawes.png" alt="portrait of our new Digital Humanities Publishing Assistant"/>
+<p><figure><img src="/avatars/anisa-hawes.png" alt="portrait of our new Digital Humanities Publishing Assistant"/><figcaption> portrait of our new Digital Humanities Publishing Assistant</figcaption> </figure></p>
 
 This week, I’ve joined the *Programming Historian* team as Digital Humanities Publishing Assistant. 
 
