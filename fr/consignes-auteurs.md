@@ -9,38 +9,254 @@ skip_validation: true
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 <h2 class="noclear"> Étape 1 : <a href="#proposer-une-nouvelle-leçon">Proposer une nouvelle leçon</a></h2>
-<h2 class="noclear">Étape 2 : <a href="#écrire-une-nouvelle-leçon">Écrire et mettre en forme une nouvelle leçon</a></h2>
-<h2 class="noclear">Étape 3 : <a href="#soumettre-une-nouvelle-leçon">Soumettre une nouvelle leçon</a></h2>
+<h2 class="noclear">Étape 2 : <a href="#rédaction-et-mise-en-forme">Rédaction et mise en forme</a></h2>
+<h2 class="noclear">Étape 3 : <a href="#soumettre-une-nouvelle-leçon">Soumettre une nouvelle leçon</a></h2>  
+
+
+Ces consignes ont été développées pour vous permettre de comprendre comment s'organise l'écriture d'un tutoriel pour le *Programming Historian en français*. Elles fournissement des détails pratiques, des informations sur la philosophie de la revue, ses workflows et l'évaluation ouverte par les pairs. Si pour quelque raison que ce soit elle nous vous paraissent pas claires, n'hésitez pas à contacter le rédacteur ou la rédactrice en chef {% include managing-editor.html lang=page.lang %}.  
 
 ## Proposer une nouvelle leçon
-Si vous avez une idée pour une nouvelle leçon ou si vous avez déjà rédigé un tutoriel qui, selon vous, pourrait être adapté au *Programming Historian en français*, merci de compléter un [formulaire de proposition](/assets/forms/Formulaire.Tutoriel.txt) et contacter {% include managing-editor.html lang=page.lang %} pour discuter de votre idée. En prenant contact avec l'équipe au tout début du processus, il vous sera plus facile d'élaborer votre leçon -- et plus particulièrement d'identifier le lectorat cible et le niveau de compétence attendu - et de vous associer au rédacteur ou à la rédactrice avec le plus d'expérience sur les thèmes que vous abordez.
 
 <div class="alert alert-success">
-Nous acceptons des tutoriels :
-<ul>
-<li>pertinents pour les humanités;</li>
-<li>adaptés à n'importe quel niveau de compétence et d'expérience technique;</li>
-<li>concernant un problème ou un processus particulier;</li>
-<li>pérennes dans le long terme;</li>
-<li>et s'adressant à un public international.</li>
-</ul>
-La portée et la longueur du tutoriel doivent être appropriés à la complexité de la tâche qui y est expliquée. La longueur des tutoriels ne doit pas excéder 8,000 mots (en incluant le code source) à moins que le rédacteur ou la rédactrice n'en ait explicitement donné la permission. Celle-ci sera uniquement accordée dans des circonstances exceptionnelles. Nous demandons que la longueur des leçons soit en général comprise entre 4,000 et 6,000 mots. Les leçons plus longues pourront être divisées en plusieurs tutoriels.
+Nous vous invitons à nous soumettre des tutoriels pertinents pour les sciences humaines et sociales, qui portent sur un problème de recherche ou un processus particulier, et qui sont adaptés à n'importe quel niveau de compétence et d'expérience technique. Les tutoriels ont vocation à être pérennes dans le long terme et doivent s'adresser à un public international.
+La portée et la longueur du tutoriel doivent être appropriés à la complexité de la tâche qui y est expliquée. La longueur des tutoriels ne doit pas excéder 8000 mots (en incluant le code source) et nous encourageons la soumission de leçons plus courtes. Celles qui seraient plus longues sont susceptibles d'être divisées en plusieurs tutoriels.
 </div>
 
-Vous pouvez avoir une meilleure idée de ce que nous publions en consultant nos [leçons en ligne](/fr/lecons/), en lisant nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs), ou encore en parcourant les [leçons en cours de développement](https://github.com/programminghistorian/ph-submissions/issues). Nous vous encourageons à proposer des leçons sur des sujets déjà traités ou en en cours de développement, à condition que la nouvelle leçon apporte sa propre contribution originale au traitement d'un sujet donné.
+Si vous avez une idée pour une nouvelle leçon, merci de compléter un [formulaire de proposition](/assets/forms/Formulaire.Tutoriel.txt) et contacter {% include managing-editor.html lang=page.lang %} pour discuter de votre idée.
 
-Afin d'assurer la pérennité de nos leçons, les auteur(e)s doivent s'efforcer de soumettre des leçons qui ne sont pas complètement dépendantes de logiciels spécifiques ou d'interfaces utilisateurs. Ces leçons vont à coup sûr souffrir d'instabilité et vont avoir besoin de révisions substantielles lorsque sort une nouvelle version du logiciel ou de l'interface. Enseigner des concepts, plutôt que demander de "cliquer sur le bouton _x_", facilite la rédaction et la publication de tutoriels pérennes.
+Vous pouvez avoir une meilleure idée de ce que nous publions en consultant nos [leçons en ligne](/fr/lecons/), en lisant nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs), ou encore en parcourant les [leçons en cours de développement](https://github.com/programminghistorian/ph-submissions/issues).
+<!--
+Afin d'assurer la pérennité de nos leçons, les auteur(e)s doivent s'efforcer de soumettre des leçons qui ne sont pas complètement dépendantes de logiciels spécifiques ou d'interfaces utilisateurs. Ces leçons vont à coup sûr souffrir d'instabilité et vont avoir besoin de révisions substantielles lorsque sort une nouvelle version du logiciel ou de l'interface. Enseigner des concepts, plutôt que demander de "cliquer sur le bouton _x_", facilite la rédaction et la publication de tutoriels pérennes.-->
 
-Une fois que votre proposition est acceptée, un rédacteur ou une rédactrice va créer un ticket "Proposition" dans notre [dépôt de soumissions](https://github.com/programminghistorian/ph-submissions/issues) avec le titre provisoire de la leçon et les objectifs pédagogiques proposés. Ce ticket sert à signaler le travail en cours alors que vous êtes en train de rédiger votre leçon. Pour éviter d'accumuler les retards, nous vous demandons de soumettre votre leçon dans les 90 jours suivant l'acceptation de votre proposition.
+Une fois que votre proposition est acceptée, nous allons créer un ticket "Proposition" dans notre [dépôt de soumissions](https://github.com/programminghistorian/ph-submissions/issues) avec le titre provisoire de la leçon et les objectifs pédagogiques proposés. Ce ticket sert à signaler le travail en cours alors que vous êtes en train de rédiger votre leçon. Pour éviter d'accumuler les retards, nous vous demandons de soumettre votre leçon dans les 90 jours suivant l'acceptation de votre proposition.
 
------
+## Rédaction et mise en forme
+Cette section présente notre charte éditoriale. En en respectant les principes, vous nous aidez à conserver la cohérence des contenus du *Programming Historian en français*.  
 
-## Écrire une nouvelle leçon
-Le *Programming Historian en français* est hébergé par [GitHub](http://github.com), qui est une plateforme gratuite permettant de sauvegarder des fichiers et de suivre l'historique de leurs révisions. La plupart du temps, Github est utilisé pour stocker des fichiers de code de programmation, mais c'est aussi une excellente solution pour maintenir une ressource en libre accès comme le *Programming Historian en français*. Plus spécifiquement, notre site utilise [GitHub Pages] pour traiter un ensemble de fichiers de texte brut et les transformer en un site internet élégant.
+Elle comprend trois parties:  
 
-Cela signifie que nous demandons aux auteur(e)s de respecter les consignes détaillées ci-dessous pour écrire leurs leçons. Celles-ci sont non seulement stylistiques, mais aussi nécessaires pour assurer le bon fonctionnement de notre plateforme de publication. Si nos exigences vous semblent difficiles à respecter, **nous sommes là pour vous aider à vous familiariser avec le processus de publication et à apprendre à utiliser, au fur et à mesure de vos avancées, les technologies nécessaires**.
+* Règles de rédaction  
+* Règles typographiques  
+* Règles de mise en forme  
 
-Gardez à l'esprit que ce projet est basé sur le volontariat, et que nous avons donc besoin que vous fassiez bien attention à tous ces détails.
+### Règles de rédaction  
+<!--dans cette partie j'ai changé le niveau d'arborescence en comparaison avec la page en EN, cela faisait bizarre de maintenir cette partie au niveau 2, car elle dépend d'une partie niveau 2 aussi)-->  
+Cette partie aborde des questions générales de style pour vous aider à mieux répondre aux attentes de notre lectorat et de notre équipe éditoriale. Elle fournit des informations élémentaires sur le style et le ton à adopter lors de la rédaction, les valeurs de libre accès et de logiciel libre, la nécessité de s'adresser à un lectorat international, l'enjeu d'une écriture durable, et les choix à faire quant aux données mobilisées dans les leçons. Nous vous conseillons de bien lire cette partie lorsque vous vous projettez dans l'écriture d'une leçon puis de la relire avant de soumettre votre texte pour avoir la certitude que voous en avez tenu compte.    
+
+#### Language and Style  
+
+#### Open Source, Open Access  
+
+### Écrire pour un public international
+
+Le lectorat du *Programming Historian en français* vient du monde entier et travaille au sein d'environnements culturels variés. De plus, les leçons des différentes publications du *Programming Historian* sont progressivement traduites depuis 2017, et ce, dans différentes combinaisons linguistiques. Nous avons d'ailleurs comme objectif d'en arriver à traduire toutes nos leçons dans la langue de chacune de nos publications, peu importe la langue de l'original.
+
+**Comme nous reconnaissons que toutes les méthodes et outils ne sont pas pleinement accessibles à un public international**, les auteur(e)s peuvent et doivent écrire leurs leçons de façon à ce qu'elles soient accessibles à autant de personnes que possible. **Nous vous prions donc de bien vouloir respecter les conseils suivants en cours de rédaction** :
+
+- Multilinguisme: Lorsque vous choisissez vos méthodes et outils, essayez de les choisir en gardant à l'esprit les lecteurs et lectrices multilingues. Cela est particulièrement important lorsque l'on travaille sur des méthodes d'analyse des textes, ou lorsque les utilisateurs et les utilisatrices souhaiteraient travailler avec des ensembles de caractères différents (par exemple, caractères accentués, non-latins, etc.). Quand cela est possible, choisissez des méthodes et des outils qui disposent de documentation multilingue. Dans le cas contraire, essayez d'ajouter, autant que faire se peut, des références multilingues à la fin de votre tutoriel.
+- Représentations visuelles: Quand vous choisissez des images et des sources primaires, quand vous produisez des illustrations, ou quand vous faites des copies d'écran, pensez à la manière dont celles-ci vont être perçues par un public international.
+- Langage: Au cours de la rédaction, évitez les plaisanteries, les références culturelles, les calembours, les jeux de mots, les expressions idiomatiques, le sarcasme, les emojis ou une syntaxe qui serait plus compliquée que nécessaire. Ne prenez aucune connaissance générale ou référence populaire pour acquis: les mentions de personnes, d'organisations, ou de détails historiques doivent toujours être accompagnées d'informations contextuelles. N'hésitez pas à ajouter des liens vers Wikipédia. N'oubliez pas que les événements historiques portent souvent des noms différents d'un pays à l'autre. Utilisez des termes génériques plutôt que des marques de commerce. Gardez en tête le fait que vos lecteurs et lectrices ne vivent pas nécessairement dans le même pays que vous et qu'ils ne parlent pas la même variété de langue. Écrivez pour quelqu'un qui ne vit pas dans votre pays ou ne partage pas vos croyances. 
+- Références à la race ou à l'origine ethnique: Utilisez cette terminologie avec prudence et spécificité. Les termes historiques qui ne sont plus en usage ne doivent être utilisés que dans leur contexte historique et seulement si nécessaire. Utilisez les termes raciaux comme des adjectifs et non comme des noms - des "personnes blanches" plutôt que des "blancs", une "femme asiatique" plutôt qu'une "asiatique". Sachez que les termes peuvent être compris différemment selon les pays et que ce que vous savez être acceptable ou, au contraire, inapproprié peut être culturellement spécifique à votre pays. En anglais, par exemple, les lecteurs du Royaume-Uni comprendront le terme "asiatique" (Inde, Pakistan, Bangladesh) différemment de ceux d'Amérique du Nord (Chine, Japon, Vietnam, Thaïlande).
+- Géographie: Lorsque vous faites référence à des lieux, soyez précis. La "côte atlantique", c'est celle de la France? Du Sénégal? Du Canada? Parlez-vous des Cantons de l'Est de la Belgique ou de ceux du Québec? Veillez aussi à toujours écrire le nom complet d'une région lors de la première mention.
+- Termes techniques : Faites référence à Wikipédia, à un dictionnaire fiable ou à un site Web durable lorsque vous introduisez des termes techniques. Un terme technique est un mot qu'un citoyen moyen peut ne pas connaître ou comprendre.
+
+Contactez le rédacteur ou la rédactrice en charge du suivi éditorial si vous avez besoin de conseils sur n'importe quel de ces points. Les tutoriels qui ne peuvent pas respecter ces consignes ne seront pas traduits, mais ils sont les bienvenus afin d'être envisagés pour une publication en une seule langue.
+
+<!--(plusieurs éléments ici reprennent la partie Ecrire pour un public international, cf. ci-dessous en la réorganisant. Il va falloir la concevoir avec à l'esprit un lectorat francophone) -->  
+
+<!--### Écrire pour un public international
+
+Les lecteurs et les lectrices du *Programming Historian en français* viennent du monde entier et travaillent au sein d'environnements culturels variés. Pour qu'un public international puisse être touché, un certain nombre de nos publications sont accessibles dans plus d'une langue depuis 2017. Nous avons également pour but de traduire tous nos tutoriels. **Comme nous reconnaissons que toutes les méthodes et outils ne sont pas pleinement accessibles à un public international**, les auteur(e)s peuvent et doivent écrire leurs leçons de façon à ce qu'elles soient accessibles à autant de personnes que possible. **Nous vous prions donc de bien vouloir respecter les conseils suivants lorsque vous écrivez votre tutoriel** :
+
+- Lorsque vous choisissez vos méthodes et outils, essayez de les choisir en gardant à l'esprit que les tous les lecteurs et toutes les lectrices ne parlent pas tous et toutes la même langue. Cela est particulièrement important lorsque l'on travaille sur des méthodes d'analyse des textes, ou lorsque les utilisateurs et les utilisatrices souhaiteraient travailler avec des ensembles de caractères différents (par exemple, caractères accentués, non-latins, etc.).
+- Quand vous choisissez des images et des sources primaires, quand vous produisez des illustrations, ou quand vous faites des copies d'écran, pensez à la manière dont celles-ci vont être vues par un public international.
+- Au cours de la rédaction, évitez les plaisanteries, les références culturelles, les calembours, les jeux de mots, les expressions idiomatiques, le sarcasme, les emojis ou une syntaxe qui serait plus compliquée que nécessaire. Les mentions de personnes, d'organisations, ou de détails historiques doivent toujours être accompagnées d'informations contextuelles. Vous devez constamment penser au fait que vos lecteurs et lectrices ne vivent pas toujours dans le même pays que vous et qu'ils ne parlent pas la même langue.
+- Dans les exemples de codes source ou les métadonnées, utilisez des formats standards, reconnus au niveau international, pour les dates et les heures ([ISO 8601:2004](https://www.iso.org/fr/standard/40874.html)). Dans votre texte, restez bien conscient(e) des différences culturelles existantes dans la représentations des dates et des heures. Ces différence pourraient en effet causer de la confusion.
+- Quand cela est possible, choisissez des méthodes et des outils qui disposent de documentation multilingue. Dans le cas contraire, essayez d'ajouter, autant que faire se peut, des références multilingues à la fin de votre tutoriel.
+
+Contactez le rédacteur ou la rédactrice en charge du suivi éditorial si vous avez besoin de conseils sur n'importe quel de ces points. Les tutoriels qui ne peuvent pas respecter ces consignes ne seront pas traduits, mais ils sont les bienvenus afin d'être envisagés pour une publication en une seule langue. -->   
+
+#### Écrire de manière durable  
+<!-- La partie correspondante en anglais a été remaniée: il faudrait comparer et voir s'il est pertinent de modifier celle-ci--> 
+Le *Programming Historian en français* s'efforce de publier des leçons qui sont utiles à notre lectorat dans l'immédiat. Les auteur(e)s doivent consulter notre [politique de retrait des leçons]({{site.baseurl}}/fr/politique-retrait-lecons), qui décrit comment l'équipe éditoriale du *Programming Historian en français* gère les leçons qui sont devenues obsolètes. Pour assurer la création de leçons pérennes, nous vous demandons de garder à l'esprit un certain nombre de consignes lors de leur rédaction :
+
+- Au lieu de vous concentrer sur des logiciels en particulier, axez de préférence votre leçon sur les méthodologies, et sur une présentation plus générale des outils.
+- Si votre leçon peut tirer profit de la documentation d'un logiciel existant, envisagez de diriger votre lectorat vers cette documentation plutôt que de la répéter dans votre leçon. Et, au lieu d'ajouter un lien vers les ressources concernant un logiciel développé par une entreprise - ressources qui, en général, changent très souvent -, vous pouvez fournir des conseils généraux sur la manière dont vos lecteurs et lectrices peuvent trouver la documentation.
+- Limitez l'usage d'images spécifiques à la version du logiciel présenté, à moins que cela ne soit requis pour suivre votre leçon.
+- Vérifiez tous les liens externes de façon à vous assurer qu'ils sont à jour.
+- Les données nécessaires pour suivre une leçon doivent être hébergées avec notre site Internet.  
+
+### Règles typographiques  
+<!-- Ici il y a du texte en EN, à voir si pertinent de le traduire ou de mettre une accroche spécifique-->
+Cette partie se concentre davantage sur des conventions d'écriture à propos des dates, des nombres, des en-têtes, des listes, de l'usage des majuscules ou de la ponctuation, ainsi que de l'application de l'écriture inclusive. Vous pouvez vous y référer avant et après l'écriture de votre brouillon. 
+
+#### Dates et heures
+<!--Gwen-->   
+* Les siècles doivent s'écrire en chiffres romains, si possible en petites capitales ( HTML : ``` <span style="font-variant:small-caps;"> ```), avec le "e" final en exposant ( HTML : ``` <sup> ```), par exemple <span style="font-variant:small-caps;">XVIII</span><sup>e</sup> siècle.
+
+* La mention des décennies, plus particulièrement usitée pour le <span style="font-variant:small-caps;">XX</span><sup>e</sup> siècle, peut se formaliser soit en toutes lettres (les années trente), soit en donnant tous les chiffres de l’année (les années 1930).
+
+* On n’abrège pas les millésimes pour les intervalles de dates. On privilègie donc l'écriture des intervalles sous la forme "1854-1864" par exemple.
+
+* Pour les dates écrites au format numérique, repecter la norme ISO 8601:2004 (AAAA-MM-JJ).
+
+* Pour marquer les dates avant ou après Jésus-Christ, abréger sous la forme "av. J.-C." ou "apr. J.-C.".
+
+* Pour les heures, deux options sont envisageables :
+	* écrire toutes les mentions "heures" (h), "minutes" (min) et "secondes" (s) en abrégé (10&nbsp;h&nbsp;10&nbsp;min), avec un espace insécable (indiqué comme ceci en HTML : ``` &nbsp; ```) entre l'abrévation et le chiffre
+	* écrire au format numérique avec un double point précédé d'un espace insécable (16&nbsp;:10)
+
+* Pour indiquer les durées, écrire les mentions "heures", minutes" et "secondes" en toutes lettres (10 heures 10 minutes).
+
+
+#### Les nombres 
+<!--Sofia--> 
+ * Écrire les nombres en lettres de 1 à 16 (un à seize) et en chiffres les nombres supérieurs. 
+ * Écrire le(s) nombre(s) commençant une phrase en toutes lettres; toutes les variétés de la langue française sont acceptées (par exemple, *septante* ou *soixante-dix* pour 70) 
+ * Si deux nombres sont cités dans une phrase, dont l'un devrait s'écrire en lettres et l'autre en chiffres, écrire tous les deux préférablement en chiffres ou, si le contexte oblige, tous les deux en lettres (par exemple, *nous avons fusionné 3 des 26 colonnes de notre tableau*; ou *Trois des vingt-six colonnes de notre tableau ont été fusionnées*; nous éviterons donc de mélanger les formes dans une même phrase. Le plus important est de se fixer une règle et de s'y tenir.  
+ *	Écrire les nombres en chiffres dans les tableaux et les formules statistiques et techniques du texte.
+ *	Utiliser l'espace insécable pour séparer les nombres en tranches de trois chiffres, lorsqu'il s'agit de grands nombres, tant dans la partie des entiers que dans celle des décimales (par exemple, *31 589*, *4,321 078*). Pour les nombres composés de quatre chiffres, cela est facultatif et nous préférerons la formule sans espace insécable (*3200* plutôt que *3 200*). En revanche, les numéros, les dates et tout autre chiffre ayant une fonction de numérotation ne se séparent pas.  
+ *	Écrire les nombres en chiffres pour indiquer les versions (*version 5* ou *v.5*), les poids et mesures, les pourcentages, les fractions et nombres décimaux, les sommes (par exemple, 55 %, 17 °C, 200 €).
+ *	Pour exprimer le pourcentage, écrire le nombre accompagné du signe % séparés par un espace insécable; écrire le pourcentage en toutes lettres (*pour cent*) seulement au début d'une phrase. 
+ *	Écrire les formules mathématiques en syntaxe [LaTeX](https://fr.wikibooks.org/wiki/LaTeX/%C3%89crire_des_math%C3%A9matiques).
+   
+
+#### En-têtes
+<!--Gwen--> 
+Les en-têtes ne doivent pas faire appel à des polices de caractères spécifiques ou à des propriétés telles que l'italique ou le gras.
+
+Les titres doivent immédiatement précéder le corps du texte de l'en-tête.
+
+Ne pas faire suivre un titre d’une mise en garde ou d’un autre titre sans un court texte introductif ou descriptif.
+
+
+#### Listes   
+<!--Gwen-->  
+Nous utilisons les listes à puces ou à nombres. Les items de listes doivent être limités à une phrase. Ils sont traités comme des entités séparées et ne doivent pas être enchaînés avec de la ponctuation et des conjonctions. 
+
+Ne pas écrire:
+
+* Voici un item, et
+* voici un autre item; et
+* voici le derner item.
+
+Écrire:
+
+* Voici un item
+* Voici un autre item
+* Voici un dernier item
+	
+Ou bien écrire:
+
+1. Voici un item
+2. Voici un autre item
+3. Voici un dernier item
+
+
+#### Ponctuation  
+<!--Sofia-->  
+* **Abréviations**: concernant les [abréviations proprement dites](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?Th=1&Th_id=153&niveau=), merci d'en limiter l'utilisation pour éviter de rendre le texte difficilement compréhensible. Pour des abréviations spécifiques, tels [les sigles et les acronymes](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?Th=1&Th_id=157&niveau=), commencer par donner la signification lors du premier emploi dans le texte et la faire suivre par l'abréviation entre parenthèses; par la suite, utiliser uniquement la forme abrégée. Par exemple, après avoir évoqué l'Union européenne (UE) une première fois, écrire par la suite seulement l'UE. Préférer d'écrire les sigles sans points abréviatifs et en majuscules non accentués: OCDE pour Organisation de coopération et de développement économiques, CNRS pour Centre national de la recherche scientifique... 
+* **Esperluette ou perluète**: ne pas l'utiliser comme conjonction de coordination à la place de "et" pour joindre deux noms communs, mais seulement lorsque référence est faite à des [noms d’entreprises entre deux patronymes, prénoms ou initiales](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3330). 
+<!-- * **Apostrophe**: J'ai omis l'apostrophe car son fonctionnement est différent de l'angais et plutôt simlple en française (marquer l'élision avec notamment les articles) --> 
+* **Parenthèses / crochets**: pour éviter de décharger du texte accessoire entre parenthèses, tels les commentaires, les précisions etc., il vaut mieux utiliser des virgules ou des tirets. Utiliser néanmoins systématiquement les parenthèses pour apporter des précisions sur des termes techniques en anglais, par exemple des éléments de l'interface d'un logiciel ou de code, lorsque vous fournissez la traduction en français dans le texte.  
+* **Deux-points**: l'utiliser pour introduire des listes, du texte explicatif, des définitions, des citations, du discours direct, sans attribuer le majuscule au premier mot de la phrase qui suit le deux-points. Ce signe est précédé d'un espace insécable. Voici quelques exemples : 
+    *  Cette incertitude résulte de la combinaison des différentes sources d’erreur au sein du laboratoire : il s’agit d’une incertitude aléatoire inhérente à la mesure.
+    *  Nous sommes d'accord avec Tim Berners-Lee pour dire : "We want raw data now!"
+    *  La conservation des données de la recherche dans un format numérique a clairement des avantages par rapport au précédent format physique : elles peuvent être parcourues et fouillées, hébergées d’une façon qui permette un accès depuis de nombreux endroits, fusionnées ou croisées avec d’autres données de la recherche.
+* **Virgule**: s'en servir pour juxtaposer des mots qui ont la même fonction, séparer des phrases, ou encore pour encadrer du texte qu'il serait possible de soustraire, à la place des parenthèses. Voici quelques exemples: 
+    * Trois méthodes sont abordées: les courbes caractéristiques de composition de Mendenhall, la méthode du khi carré de Kilgariff et, enfin, la méthode du Delta de John Burrows.
+    * Si vous ne voulez pas inclure une option de tri, vous pouvez l’ignorer.
+    * Les expressions régulières, ou “regex” pour faire court, sont une façon de définir un motif qui peut s’appliquer à une séquence d’éléments.   
+* **Tiret**: utiliser une paire de tirets pour introduire une précision, un commentaire etc., comme il est possible de faire avec des parenthèses ou des virgules. Préférer les tirets lorsqu'il s'agit de mettre en valeur la partie en question. Au milieu du texte, utiliser une paire de tirets, en revanche, si la précision intervient à la fin d'une phrase, elle est introduite par un tiret et suivie par un point. Espacer avant et après le tiret.
+* **Points de suspension**, soit les trois points alignés l'un après l'autre sans espace entre eux. Leur usage marque en général l'inaccompli, une phrase laissée en suspens ou encore le silence. Les utiliser pour condenser une phrase trop longue ou pour éviter d'énumérer plusieurs éléments l'un après l'autre. Vous pouvez consulter des exemples d'emploi des points de suspension [ici](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3396).  
+* **Point d'exclamation**: l'utiliser pour marquer une exclamation, une interjection, une intepellation, par exemple: "Je suis une plante en pot. C’est vraiment ennuyeux!" **Ceci est un commentaire visible pour le brouillon: se pose la question d'une espace insécable à mettre avant (France) ou pas (Québec, Belgique); en Suisse l'espace insécable est préconisée mais de fait elle n'est pas utilisée.**   
+*  **Point**: Ne pas hésiter à l'utiliser fréquemment pour construire des phrases courtes et pertinentes, plutôt que des phrases longues et compliquées. Cela permet d'obtenir un texte percutant et facile à comprendre. Vous pouvez employer le point pour marquer la fin d'une phrase (point final), mais aussi pour abréger un mot (point abréviatif), pour écrire, par exemple, "fig. 1" à la place de "figure 1". En revanche, n'utilisez pas le point abréviatif dans l'écriture de sigles: "les données statistiques de l'Insee", "Bibliothèque et Archives nationales du Québec (BAnQ) conserve le patrimoine documentaire québécois", "la base de données de recherche du Fonds national suisse (FNS)".  
+* **Trait d'union**: Il s'agit d'un tiret court qui n'est ni précédé ni suivi par une espace, sauf il s'agit d'exprimer des horaires. Ne pas confondre son usage avec celui du tiret. Le trait d'union est employé pour joindre de différents mots et créer ainsi de nouvelles unités, notamment des mots composés. Il peut aussi servir de liaison grammaticale lors de l'inversion pronominale. 
+    *  Mots composés: le trait d'union sert de lien qui joint deux ou plusieurs mots pour en créer un nouveau (chef-lieu, mot-valise, petit-dejeuner, tête-à-tête...). Pour les mots composés d'une préposition ou d'un adverbe (contre, entre, hors, mal, non, par, quasi, sous), merci de consulter [le tableau synthétique de l'Office québécois de la langue française](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?Th=2&t1=&id=4337).
+    *  Toponymes: dans une dénomination composée, tous les éléments sauf l’article initial sont liés entre eux par des traits d’union. Pensez à la ville de La-Roche-en-Ardenne en Belgique ou encore au quartier Val-Bélair de la ville de Québec, appartenant à l'arrondissement de La Haute-Saint-Charles.   
+    * Noms de personnes: le trait d'union s'emploie pour lier des prénoms ou des noms composés tels Jean-Paul Benzécri, Brigitte Escofier-Cordier...    
+    * Points cardinaux: les points cardinaux composés sont liés par un trait d'union, comme par exemple, pour indiquer une orientation nord-ouest ou le Sud-Est des États-Unis etc.
+    *  Écriture des nombres: dans les nombres composés, tous les numéraux, adjectifs et noms, ainsi que la conjonction "et", sont reliés par un trait d'union. Par exemple, trois-mille-dix-sept, quarante-et-un, sept-cent-soixante-et-un. 
+    *  Écriture des fractions: elle suit, naturellement, l'écriture valable pour les nombres et l'utilisation du trait d'union a aussi le mérité de désambiguïser. Ainsi, écrire trente-et-un tiers renvoie à 31/3, tandis que trente et un tiers à 30 + 1/3.
+    * Inversion pronominale: lors de l'inversion du verbe et du pronom dans une phrase interrogative ou impérative, le trait d'union marque le lien entre ces deux éléments. Voici quelques exemples tirés de nos tutoriels: 
+        * Assurez-vous de rester dans ce répertoire de travail courant et d’y sauvegarder tout le travail que vous réaliserez en suivant le tutoriel. 
+        * Rappelez-vous, encore une fois, que la construction de corpus est un sous-domaine à part entière.
+        * Essayez d’appuyer sur le bouton jaune *Trier*. Que se passe-t-il maintenant ?
+* **Guillemets français**: ils sont utilisés pour entourer un discours rapporté (citation, discours direct) ou pour indiquer de manière distincte un ou plusieurs mots (par exemple, un terme ou une phrase dans une autre langue). Une espace insécable suit le quillemet ouvrant et précéde le guillemet fermant. Des phrases entre guillemets peuvent s'imbriquer; dans ce cas, la première est placée entre guillemets français, la deuxième entre guillemets anglais doubles (doubles apostrophes dont la première paire est inversée), la troisième entre guillemets anglais simples (une paire d'apostrophes dont la première est inversée). Il est à noter que les guillemets anglais sont accolés aux mots qu'ils entourent. 
+
+#### Usage des majuscules 
+<!--Gwen-->  
+Les majuscules, à utiliser avec parcimonie dans la prose courante, peuvent se diviser en trois catégories :
+
+* Les majuscules de position (en début de phrase ou à chaque alinéa dans une liste énumérative)
+* Les majuscules de signification pour supprimer une ambiguïté
+* Les majuscules elliptiques pour distinguer les noms propres des noms communs
+
+Les majuscules sont aussi concernées par les accents, le tréma ou la cédille, même dans le cas des abréviations, mais pas pour les sigles et les acronymes. Les différents cas décrits ci-dessous résument les particularités dans l'usage des majuscules en français. 
+
+* Le cas des **titres** :
+	* Si le titre ne débute pas par un article défini (le, la, les), seul le mot initial prend la majuscule (exemple : *Une saison en enfer*).
+	* Si le titre débute par un article défini (le, la, les), ou bien seul l’article prend une majuscule, ou bien l'article et le premier substantif, ainsi que les adjectifs et adverbes qui précèdent le substantif (exemple : *Les Liaisons dangereuses*). Si le titre contient une comparaison ou une symétrie, l'article défini prend une majuscule ainsi que chaque terme mis en symétrie (exemple : *La Belle et la Bête*).
+	* Si nous sommes face à des titres doubles séparés par la conjonction "ou", les règles ci-dessus s'appliquent à chacune des deux parties du titre. Cependant, l'article défini débutant la seconde partie perd la majuscule (exemple : *Le Mariage de Figaro ou la Folle Journée*).
+
+* Les cas toujours en majuscule :
+	* Les **noms propres**
+	* Les **cérémonies et festivités** (exemple : "la Semaine Sainte")
+	* Les **évènements historiques**, car ils sont assimilés à des noms propres (exemple : "la Fronde")
+	* Les **livres sacrés**. Les mots "Bible", "Écriture" et "Évangile" prennent une majuscule s’ils désignent le recueil de textes religieux, ainsi que les mots « Ancien Testament », « Nouveau Testament » ou « Coran ». Le mot "bible" perd toutefois sa majuscule quand il désigne un livre faisant autorité.
+
+* Les cas partiellement en majuscule :
+	
+	* Les **organisations artistiques, culturelles ou gouvernementales**, les **institutions et établissements** :
+		* Pour les organismes d’État uniques, la majuscule s'applique au permier mot nécessaire à l’identification, et à l’adjectif qui précède (exemple : "le Conseil constitutionnel"). 
+		* Pour les organismes d’État non-uniques, conserver les minuscules, sauf lorsque les substantifs et les éventuels adjectifs qui les précédent font office de nom propre (exemple : "le ministère des Affaires étrangères").
+		* Pour les régimes politiques, s'ils désignent implicitement un pays ou une époque, ils prennent une majuscule, ainsi que l'adjectif qui précède (exemple : "la Restauration"). Ils conservent toutefois une minsucule quand ils désignent directement un type de régime politique (exemple : "rétablir la république"), ou bien quand ils sont accompagnés d'un nom propre (exemple : la république de Weimar).
+		* Les mots "Secrétariat" et "Département" prennent une majuscule (exemple : "le Département d’économie de Sciences Po").
+		* Pour les établissements d’enseignement, s'ils sont d’importance nationale, on met une majuscule au premier substantif et à l'éventuel adjectif qui le précède (exemple : "le Collège de France"). S'il est d’importance régionale ou locale, les noms communs s'écrivent en minuscules, et on ajoute une majuscule aux noms propres qui l'identifie (exemple : "université Paris-Descartes").
+		* Le mot faculté ne prend la majuscule initiale que lorsqu'il désigne le corps médical. De même, le mot université ne prend la majuscule initiale que lorsqu'il désigne le corps enseignant. Les disciplines ne prennent pas de majuscule (exemple : "la faculté des lettres et sciences humaines").
+		* Pour les agences, commissions, établissements publics, organisme non-gouvernemental, la majuscule est placée sur le terme générique par lequel commence le nom officiel d’une institution, d’une administration, d’un service de l’État ou d’un organisme international, de même qu’à l’adjectif qui le précède (exemple : "l’Union postale universelle").
+
+	* Les **lieux** : 
+		* Les noms de pays, provinces, régions, ou villes prennent une majsucule, mais pas les adjectifs adjoints aux noms propres (exemple : "l'Italie méridioniale"), sauf s’ils font office de noms propres (exemple : "le Grand Nord").
+		* Les noms communs d’entités géographiques restent en minuscules (exemple : la mer). Si les noms communs d’entités géographiques sont suivis par un nom qualifiant, seul ce dernier a une majuscule (exemple : "le golfe du Lion"). De même pour les monuments ou les jardins (exemple : "la tour Eiffel").
+		* Les lieux désignant un produit connu devenu nom commun ne prennent pas de majuscules (exemple : "un bourgogne").
+		* Les planètes, les étoiles et les signes du zodiaque prennent toujours une majuscule.
+
+	* En ce qui concerne les mots relevanat de la **religion**, on met une majuscule quand on désigne l’institution ou l’ensemble des fidèles (exemple : "Église", "Ouma"), mais le bâtiment religieux s'écrit avec uen minuscule. On met une majuscule pour les mots "Dieu", "Jésus" et leurs synonymes et équivalents comme "le Verbe", "le Créateur", "Allah", "Bouddha", etc. Le mot "saint" ne prend pas de majuscule quand il désigne un personnage (exemple : "saint François d'Assises"), mais il faut en mettre une quand il fait partie d'un nom propre (exemple : "Saint Louis") ou d'un nom propre composé (exemple "l’île Saint-Louis").
+
+	* Dans le cas de métiers, les **noms des fonctions, de charges ou de titres civils ou militaires** ne prennent pas de majuscules, sauf pour :
+		* Les titres ayant eu un seul détenteur assimilable à un nom propre (exemple : "le Duce").
+		* La désignation d’une personne précise, auquel cas pas il faut éviter de créer une ambiguïté dans le texte pour l'antonomase (exemple : "le Général" pour le général de Gaulle).
+		* Les titres honorifiques (exemple : "Sa Majesté").
+
+	* Pour les **comités, rapports et enquêtes**, on met une majuscule au terme (Programme, Projet, Plan, ...) suivi d’un adjectif ou d’un complément quand il est compris dans le nom officiel d’une activité (exemple : "le Plan vert"). Il prend toutefois une minuscule quand le nom officiel de l’activité est placé en apposition (exemple : "le plan Marshall").
+
+* Les cas toujours en minuscule : 
+
+	* Les noms de **doctrines**, qu'elles soient religieuses, philosophiques, artistiques ou politiques (exemple : "l'existentialisme") ; de même pour ceux qui s’en réclament (exemple : "les hindous"), mais la majuscule est de mise pour ceux devenus des noms propres (exemple : "la Nouvelle Vague")
+	* Les **saisons** (exemple : "le printemps")
+	* Les **monnaies** (exemple : "trois livres tournois")
+
+Pour plus de précisions, vous pouvez consulter la banque de dépannage linguistique de l'Office québécois de la langue française, avec une liste de l'emploi de la majuscule pour des [types de dénominations](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?th=1&th_id=280) et une autre pour les [noms particuliers](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?th=1&th_id=281).  
+
+#### Références bibliographiques  
+*   Mobiliser des hyperliens dans le texte plutôt que d'insérer des notes de fin peut convenir dans la plupart de cas.   
+*   La phrase source d'un hyperlien doit être sémantique, éviter par conséquent des phrases du type "cliquer ici".
+*   Utiliser des notes de fin pour renvoyer aux références bibliographiques académiques, qu'elles soient électroniques ou publiées sur papier. 
+*   Si votre tutoriel a vocation d'être un tutoriel d'analyse (cf. [l'index des leçons](https://programminghistorian.org/fr/lecons/?activity=analyzing)), vous devez vous référer à la littérature savante publiée du domaine. 
+*   Pour signaler une note de fin, placer le chiffre en exposant (appel de note) à l'endroit souhaité sans espacement après le mot. Le cas échéant, veiller à ce qu'il précède un point de ponctuation et non pas qu'il le suive. Par exemple, pour insérer une note de fin imaginaire dans cette phrase, le chiffre en exposant doit se placer avant le point final comme ceci². Mais il ne peut pas être placé de cette manière.²
+*   Pour les notes de fin, merci d'utiliser le style de citation [*The Chicago Manual of Style*, 17e édition](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html). Vous pouvez consulter des exemples de ce style en français sur le site web de la revue *[Humanités numériques](https://journals.openedition.org/revuehn/278#tocto1n6)*.  
+*  Lorsque vous mentionnez un travail publié dans le texte, fournissez le nom complet de l'auteur(e) la première fois que vous le faites. Par exemple:
+    * Vous pouvez trouver plus d'informations sur ce sujet dans _Histoire et linguistique_ de Régine Robin.
+    * Pour en savoir plus, merci de consulter l'ouvrage de Régine Robin _Histoire et linguistique_. 
+Si vous vous référez à nouveau au même ouvrage, vous pouvez par la suite fournir seulement le titre de l'ouvrage. Veillez à ne pas vous référer à un auteur avec son seul nom de famille que si vous renvoyez à ses travaux de manière répétée.  
+*  Les notes de fin doivent fournir une référence complète et non pas renvoyer seulement à une URL.
+    *   (Note complète): Marine Riguet et Mohamed Amine Boukhaled, « La correspondance de motifs, un outil pour l’analyse du discours ? », *Humanités numériques*, no. 1 (2020), https://doi.org/10.4000/revuehn.312
+    *   (Note incomplète): Voir https://doi.org/10.4000/revuehn.312  
+
+
+#### Écriture inclusive  
+Nous appliquons l'écriture inclusive suivant les consignes de l'Office québécois de la langue française sur la [formation des noms féminins](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?Th=1&Th_id=358&niveau=) et la [rédaction épicène](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?Th=2&t1=&id=3912), mises en place en 2002, ainsi que du [Guide d’aide à la féminisation des noms de métiers, titres, grades et fonctions](https://www.vie-publique.fr/sites/default/files/rapport/pdf/994001174.pdf), publié par l'Institut national de la langue française en 1999. Ces deux textes quasi-officiels se recoupent largement et constituent des guides de base pour l'équipe du _Programming Historian en français_. En revanche, nous ne faisons pas recours à l'utilisation du point médian (ou point milieu) ou de tirets. Ainsi, nous éviterons d'écrire "les historien·ne· s" ou "les historien-ne-s"; nous privilégions à la place "les historiens et historiennes" ou encore "les historien(ne)s", pour éviter la répétition de "et".  
 
 ### Utiliser le texte brut
 Parce que notre site est hébergé avec [GitHub Pages](https://pages.github.com), **votre leçon doit être écrite en texte brut**, en utilisant un éditeur de texte de votre choix. *Les éditeurs de texte se distinguent clairement des traitements de texte traditionnels comme Microsoft Word*. Nous recommandons d'utiliser [Atom](https://atom.io/), qui est disponible sous Mac ou Windows. Les utilisateurs de Mac peuvent également envisager d'utiliser [TextWrangler] ou TextEdit (qui est fourni avec macOS). Les utilisateurs de Windows peuvent envisager d'utiliser [Notepad++].
@@ -98,28 +314,6 @@ Pour une introduction en douceur à Markdown, consultez:
 <div class="alert alert-warning">
   Avant de continuer, assurez vous que vous comprenez comment utiliser la syntaxe Markdown pour du formatage basique comme la mise en valeur des en-têtes, la mise en gras du texte, l'utilisation de l'italique, l'ajout de liens, la mise en forme des paragraphes, et la création de listes.
 </div>
-
-### Écrire de manière durable
-Le *Programming Historian en français* s'efforce de publier des leçons qui sont utiles à notre lectorat dans l'immédiat. Les auteur(e)s doivent consulter notre [politique de retrait des leçons]({{site.baseurl}}/fr/politique-retrait-lecons), qui décrit comment l'équipe éditoriale du *Programming Historian en français* gère les leçons qui sont devenues obsolètes. Pour assurer la création de leçons pérennes, nous vous demandons de garder à l'esprit un certain nombre de consignes lors de leur rédaction :
-
-- Au lieu de vous concentrer sur des logiciels en particulier, axez de préférence votre leçon sur les méthodologies, et sur une présentation plus générale des outils.
-- Si votre leçon peut tirer profit de la documentation d'un logiciel existant, envisagez de diriger votre lectorat vers cette documentation plutôt que de la répéter dans votre leçon. Et, au lieu d'ajouter un lien vers les ressources concernant un logiciel développé par une entreprise - ressources qui, en général, changent très souvent -, vous pouvez fournir des conseils généraux sur la manière dont vos lecteurs et lectrices peuvent trouver la documentation.
-- Limitez l'usage d'images spécifiques à la version du logiciel présenté, à moins que cela ne soit requis pour suivre votre leçon.
-- Vérifiez tous les liens externes de façon à vous assurer qu'ils sont à jour.
-- Les données nécessaires pour suivre une leçon doivent être hébergées avec notre site Internet.
-
-
-### Écrire pour un public international
-
-Les lecteurs et les lectrices du *Programming Historian en français* viennent du monde entier et travaillent au sein d'environnements culturels variés. Pour qu'un public international puisse être touché, un certain nombre de nos publications sont accessibles dans plus d'une langue depuis 2017. Nous avons également pour but de traduire tous nos tutoriels. **Comme nous reconnaissons que toutes les méthodes et outils ne sont pas pleinement accessibles à un public international**, les auteur(e)s peuvent et doivent écrire leurs leçons de façon à ce qu'elles soient accessibles à autant de personnes que possible. **Nous vous prions donc de bien vouloir respecter les conseils suivants lorsque vous écrivez votre tutoriel** :
-
-- Lorsque vous choisissez vos méthodes et outils, essayez de les choisir en gardant à l'esprit que les tous les lecteurs et toutes les lectrices ne parlent pas tous et toutes la même langue. Cela est particulièrement important lorsque l'on travaille sur des méthodes d'analyse des textes, ou lorsque les utilisateurs et les utilisatrices souhaiteraient travailler avec des ensembles de caractères différents (par exemple, caractères accentués, non-latins, etc.).
-- Quand vous choisissez des images et des sources primaires, quand vous produisez des illustrations, ou quand vous faites des copies d'écran, pensez à la manière dont celles-ci vont être vues par un public international.
-- Au cours de la rédaction, évitez les plaisanteries, les références culturelles, les calembours, les jeux de mots, les expressions idiomatiques, le sarcasme, les emojis ou une syntaxe qui serait plus compliquée que nécessaire. Les mentions de personnes, d'organisations, ou de détails historiques doivent toujours être accompagnées d'informations contextuelles. Vous devez constamment penser au fait que vos lecteurs et lectrices ne vivent pas toujours dans le même pays que vous et qu'ils ne parlent pas la même langue.
-- Dans les exemples de codes source ou les métadonnées, utilisez des formats standards, reconnus au niveau international, pour les dates et les heures ([ISO 8601:2004](https://www.iso.org/fr/standard/40874.html)). Dans votre texte, restez bien conscient(e) des différences culturelles existantes dans la représentations des dates et des heures. Ces différence pourraient en effet causer de la confusion.
-- Quand cela est possible, choisissez des méthodes et des outils qui disposent de documentation multilingue. Dans le cas contraire, essayez d'ajouter, autant que faire se peut, des références multilingues à la fin de votre tutoriel.
-
-Contactez le rédacteur ou la rédactrice en charge du suivi éditorial si vous avez besoin de conseils sur n'importe quel de ces points. Les tutoriels qui ne peuvent pas respecter ces consignes ne seront pas traduits, mais ils sont les bienvenus afin d'être envisagés pour une publication en une seule langue.
 
 ### Utiliser des en-têtes pour marquer le début d'une section
 Nous nous efforçons de publier des leçons faciles à suivre, grâce à l'utilisation systématique d'en-têtes de section dans le corps des textes. Au moment où vous créez votre leçon, les en-têtes de section vont vous aider à visualiser et à vérifier la structure de cette dernière. Évitez les longues sections de texte sans en-têtes, celles-ci peuvent en effet devenir très difficiles à suivre.
