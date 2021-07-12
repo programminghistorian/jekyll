@@ -1,4 +1,3 @@
-```markdown
 ---
 title: Mid Year Newsletter for 2021
 authors: 
