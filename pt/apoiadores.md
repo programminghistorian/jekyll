@@ -76,6 +76,7 @@ Também agradecemos publicamente a todos os nossos apoiadores ‘Patrono’ e �
 -   Laura Gayle Green (Educator)
 -   Rebecca Kahn (Educator)
 -   Sarah Melton (Educator)
+-   Laurissa Stokes (Educator)
 
 ## Gestão de Doações e Patrocínios
 
