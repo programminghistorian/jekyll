@@ -75,6 +75,7 @@ En particular, agradecemos la contribución de los siguientes suscriptores de Pa
 - Laura Gayle Green ('Educación')
 - Rebecca Kahn ('Educación')
 - Sarah Melton ('Educación')
+- Laurissa Stokes ('Educación')
 
 ## Administración de donaciones y patrocinios
 
