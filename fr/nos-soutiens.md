@@ -73,6 +73,7 @@ Nous tenons également à remercier publiquement tous nos donateurs de niveau 'm
 - Laura Gayle Green (éducation)
 - Rebecca Kahn (éducation)
 - Sarah Melton (éducation)
+- Laurissa Stokes (éducation)
 
 ## Gestion de donations et de parrainages
 
