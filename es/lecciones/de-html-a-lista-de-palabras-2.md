@@ -177,7 +177,7 @@ adentro = 1
 Y cada vez que has necesitado leer o escribir a un archivo, has utilizado un controlador de archivo especial como *f* en el ejemplo siguiente:
 
 ``` python
-f = open('holamundo.txt','wb')
+f = open('holamundo.txt','w')
 f.write('hola mundo')
 f.close()
 ```

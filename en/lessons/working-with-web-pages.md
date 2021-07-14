@@ -232,7 +232,7 @@ url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-3
 response = urllib.request.urlopen(url)
 webContent = response.read()
 
-f = open('obo-t17800628-33.html', 'wb')
+f = open('obo-t17800628-33.html', 'w')
 f.write(webContent)
 f.close
 ```
