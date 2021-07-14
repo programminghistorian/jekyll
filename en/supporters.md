@@ -74,6 +74,7 @@ We also publicly thank all of our 'Patron' and 'Educator' supporters:
 - Laura Gayle Green (Educator)
 - Rebecca Kahn (Educator)
 - Sarah Melton (Educator)
+- Laurissa Stokes (Educator)
 
 ## Management of Donations and Sponsorship
 
