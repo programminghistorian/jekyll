@@ -51,7 +51,7 @@ If you are using a code editor such as Sublime Text, to import the folder you co
 
 We're going to start with a plain comma-separated values (CSV) data file and create a web map from it.
 
-[The data file can be downloaded here.] (/assets/mapping-with-python-leaflet/census.csv). You can grab this by either opening the link in your browser and saving the page, or you can use the curl command from your command line:
+[The data file can be downloaded here]({{ site.baseurl }}/assets/mapping-with-python-leaflet/census.csv). You can grab this by either opening the link in your browser and saving the page, or you can use the curl command from your command line:
 
 ```curl -O https://programminghistorian.org/assets/mapping-with-python-leaflet/census.csv```
 
