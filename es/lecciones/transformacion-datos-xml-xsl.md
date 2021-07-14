@@ -514,7 +514,6 @@ Para eliminar la sangría del texto, necesitarás hacerte cargo directo del espa
 ## Bibliografía recomendada por el traductor
 
 - Hunter, David *et al*. *Beginning XML*. Indianapolis: Wiley Publishing, 2007 (cuarta edición). Impreso.
-- Riley, Jenn. [*Understanding Metadata: What is Metadata, and What is For?*](https://www.niso.org/publications/understanding-metadata-2017) NISO, 2017. Web.
 - Tennison, Jeni. *Beginning XSLT 2.0. From Novice to Professional*. Nueva York: Apress, 2005. Impreso.
 
 ## Notas del traductor
