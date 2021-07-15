@@ -34,7 +34,7 @@ As usual, none of these achievements would have been possible without the suppor
 
 We are so grateful to our new institutional supporters. [The Royal Danish Library / Copenhagen University Library](https://www.kb.dk/), the [Aarhus University Library](https://library.au.dk/) and [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), all of Denmark, joined hands to support *Programming Historian* starting in mid 2021. A la par, la [Universidad de los Andes](https://uniandes.edu.co/) en Colombia, a través de su Facultad de Artes y Humanidades se ha convertido en la primera institución latinoamericana asociada a *Programming Historian.*
 
-And this year, we are receiving support in other forms as well. La [Escola de Ciências Sociais FGV CPDOC do Brasil](https://portal.fgv.br/), está financiando nosoo projeto através de  “Literacia digital: modelando competências digitais para humanistas e cientistas sociais” durante 2021-2022. We would also like to thank the Faculty of Arts & Humanities of UCL for their generosity as we have enjoyed [the assistanse of two graduate students](https://programminghistorian.org/posts/ucl-placement-2021) that evaluated our accessibility and sustainability plans.
+And this year, we are receiving support in other forms as well. La [Escola de Ciências Sociais FGV CPDOC do Brasil](https://portal.fgv.br/), está financiando nosoo projeto através de  “Literacia digital: modelando competências digitais para humanistas e cientistas sociais” durante 2021-2022. We would also like to thank the Faculty of Arts & Humanities at UCL for their generosity as we have enjoyed [the assistance of two graduate students](https://programminghistorian.org/posts/ucl-placement-2021) who evaluated our accessibility and sustainability plans.
 
 ## New Member
 
@@ -43,4 +43,3 @@ We are very happy to welcome our first employee in *Programming Historian* after
 ---
 
 To learn about the work we did in the first trimestre of 2021, we invite you to read our [First Newsletter in 2021](https://programminghistorian.org/posts/newsletter). 
-
