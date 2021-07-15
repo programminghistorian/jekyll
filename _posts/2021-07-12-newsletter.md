@@ -42,4 +42,4 @@ We are very happy to welcome our first employee in *Programming Historian* after
 
 ---
 
-To learn about the work we did in the first trimestre of 2021, we invite you to read our [First Newsletter in 2021](https://programminghistorian.org/posts/newsletter). 
+To learn about the work we did in the first trimester of 2021, we invite you to read our [First Newsletter in 2021](https://programminghistorian.org/posts/newsletter). 
