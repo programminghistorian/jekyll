@@ -183,7 +183,16 @@ La pauta es usarlas con moderación en la prosa corriente. Reglas específicas:
 *	Las notas finales no pueden contener solo una URL.
     *	(Correcto): Grove, John. "Calhoun and Conservative Reform." *American Political Thought* 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
     *	(Incorrecto): https://doi.org/10.1086/680389.
+* Es necesario citar todo el software utilizado. Entrega todo la información posible siguiendo las sugerencias de la sección "Notas y Bibliografía" del Manual Chicago 17a edición.
+    *	autores
+    * nombre del producto
+    * número de la versión
+    * año de publicación
+    * URL o DOI
 
+      Ejemplo: The Pandas Development Team. *pandas-dev/pandas: Pandas*. v. 1.2.3 (2020). https://doi.org/10.5281/zenodo.3509134
+
+      Simpre revisa el sitio web o la documentación oficial del software que utilizaste, ya que en muchos casos sus autores explicitan cómo prefieren que su trabajo sea citado  (por ejemplo, https://pandas.pydata.org/about/citing.html, https://www.tidyverse.org/blog/2019/11/tidyverse-1-3-0/#citing-the-tidyverse).
 
 
 ### Lenguaje inclusivo y no discriminatorio
