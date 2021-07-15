@@ -38,7 +38,7 @@ And this year, we are receiving support in other forms as well. La [Escola de Ci
 
 ## New Member
 
-We are very happy to welcome our first employee in *Programming Historian* after only two years of becoming a legal entity. Anisa Hawes joined as the Digital Humanities Publishing Assistant to support several tasks such as lesson maintenance and bug fixing, and to help train new members.  You can learn more about her in [her own blog post](https://programminghistorian.org/posts/anisa-welcome). Welcome Anisa! 
+We are very happy to welcome our first employee of *Programming Historian* after only two years since becoming a legal entity. Anisa Hawes joined as the Digital Humanities Publishing Assistant to support several tasks such as lesson maintenance and bug fixing, and to help train new members.  You can learn more about her in [her own blog post](https://programminghistorian.org/posts/anisa-welcome). Welcome Anisa! 
 
 ---
 
