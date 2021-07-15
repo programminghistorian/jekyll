@@ -334,6 +334,10 @@ You may find it helpful to read our [editor guidelines](/editor-guidelines), whi
 
 If at any point you are unsure of your role or what to do next, post a question to the peer review issue. One of our editors will respond as soon as possible. We endeavour to respond to all queries within a few days.
 
+### What happens after your lesson is published?
+
+Occasionally, we receive feedback from users who have encountered an error while completing one of our lessons. If this happens, our Publishing Assistant will open an Issue on GitHub, then carry out an assessment to confirm whether the error reported represents a problem caused by the user (editing the lesson's code or changing its dataset, for example) or a problem within the lesson itself. If the latter, our Publishing Assistant will re-test the relevant part(s) of the lesson and undertake research to identify a fix. As part of this Lesson Maintenance process, we may contact you alongside other members of the *Programming Historian* team to ask for advice. In the case that no fix can be found, we will propose adding a warning to the lesson explaining that some users may encounter an error. Where possible, the warning should include links to further reading, empowering users to identify a solution themselves.
+
 ### Holding Us to Account
 
 Our team of volunteers works hard to provide a rigourous, collegial, and efficient peer review for authors. However, we recognize that there are times when we may fall short of expectations. We want authors to feel empowered to hold us to high standards. If, for whatever reason, you feel that you have been treated unfairly, that you are unhappy or confused by the process, that the review process has been unnecessarily delayed, that a reviewer has been rude, that your editor has not been responsive enough, or have any other concern, please bring it to our attention so we can address it proactively.
