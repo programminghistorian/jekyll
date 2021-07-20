@@ -10,9 +10,9 @@ skip_validation: true
 # Guía para autores
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
-<h2 class="noclear">Paso 1: <a href="#paso-1-proponer-una-nueva-leccion">Proponer una nueva lección </a></h2>
-<h2 class="noclear">Paso 2: <a href="#paso-2-escribir-y-dar-formato-a-una-nueva-leccion">Escribir y dar formato a una nueva lección</a></h2>
-<h2 class="noclear">Paso 3: <a href="#paso-3-enviar-una-nueva-leccion">Enviar una nueva lección</a></h2>
+<h2 class="noclear">Paso 1: <a href="#paso-1-proponer-una-nueva-lección">Proponer una nueva lección </a></h2>
+<h2 class="noclear">Paso 2: <a href="#paso-2-escribir-y-formatear-el-tutorial">Escribir y dar formato a una nueva lección</a></h2>
+<h2 class="noclear">Paso 3: <a href="#paso-3-enviando-una-nueva-lección">Enviar una nueva lección</a></h2>
 
 
 Estas directrices han sido desarrolladas para ayudarte a entender el proceso de creación de un tutorial para *Programming Historian* en Español. Incluyen detalles prácticos sobre el proceso de redacción de un tutorial, así como indicaciones sobre el flujo de trabajo y el proceso de revisión entre pares. Si en algún momento hay algo que no te queda claro, por favor envía un correo electrónico a {% include managing-editor.html lang=page.lang %}.
@@ -124,8 +124,8 @@ Con estilo:
 * Acá está el último ítem
 
 ### Puntuación
- *	**Abreviaturas, acrónimos y siglas**: escribe la palabra completa la primera vez que la utilizas, por ejemplo, «Humanidades Digitales (HD)». Las siglas son invariables cuando se enunician en plural («las ONG») y adoptan el género de la palabra que constituye el núcleo de la expresión abreviada, que normalmente ocupa el primer lugar en la denominación: el FMI, por el «Fondo» Monetario Internacional; la OEA, por la «Organización» de Estados Americanos. Las siglas se escriben sin puntos o espacios en blanco como separación: RAE, OEA, etc. (no R.A.E. u O E A). Normalmente se escriben en mayúscula todas las letras que componen una sigla (OCDE, APA, ISO) y, en ese caso, no llevan nunca tilde, incluso en casos en que la norma ortográfica indicaría su uso (como en CIA).
- *	**Paréntesis**: se usa para insertar en un enunciado una información complementaria o aclaratoria, ej: El dijo: «Cuando lo acaben (el túnel) revolucionará la forma de viajar» or «Ella dijo goodbye (adios)». Ubica el punto fuera del paréntesis de cierre si lo que está dentro de él no es una oración completa (como este caso). (Una oración independiente, en cambio, lleva el punto final antes del paréntesis de cierre.)
+ *	**Abreviaturas, acrónimos y siglas**: escribe la palabra completa la primera vez que la utilizas, por ejemplo, "Humanidades Digitales (HD)". Las siglas son invariables cuando se enunician en plural ("las ONG") y adoptan el género de la palabra que constituye el núcleo de la expresión abreviada, que normalmente ocupa el primer lugar en la denominación: el FMI, por el "Fondo" Monetario Internacional; la OEA, por la "Organización" de Estados Americanos. Las siglas se escriben sin puntos o espacios en blanco como separación: RAE, OEA, etc. (no R.A.E. u O E A). Normalmente se escriben en mayúscula todas las letras que componen una sigla (OCDE, APA, ISO) y, en ese caso, no llevan nunca tilde, incluso en casos en que la norma ortográfica indicaría su uso (como en CIA).
+ *	**Paréntesis**: se usa para insertar en un enunciado una información complementaria o aclaratoria, ej: El dijo: "Cuando lo acaben (el túnel) revolucionará la forma de viajar" o "Ella dijo goodbye (adios)". Ubica el punto fuera del paréntesis de cierre si lo que está dentro de él no es una oración completa (como este caso). (Una oración independiente, en cambio, lleva el punto final antes del paréntesis de cierre.)
  *	**Dos puntos**: se utilizan para introducir listas, ejemplificaciones, aclaraciones, citas textuales, etc., como en estos ejemplos:
     *	El comité recomienda: ampliar las horas de licencia hasta la medianoche; permitir a los niños en los locales con licencia; relajar los controles de planificación en los nuevos establecimientos públicos.
     *	Después de dos puntos va minúscula: así es como lo hacemos.
@@ -134,12 +134,12 @@ Con estilo:
  *	**Puntos suspensivos**: van pegados a la palabra que los precede y separados de la que los sigue. Cuando se utilizan para condensar una cita directa, van entre paréntesis o corchetes.
  *	**Signos de exclamación**: se utilizan al comienzo y al final de la exclamación.
  *	**Punto**: se escribe punto después de las abreviaturas, pero no de las siglas o acrónimos.
- *	**Comillas angulares**: en los textos impresos, se recomienda utilizar en primera instancia las comillas angulares « », (ejemplo: «Antonio me dijo: “Vaya ‘cacharro’ que se ha comprado Julián”»). Se reservan los otros tipos para cuando se debe entrecomiilar un texto ya entrecomillado.
+ *	**Comillas**: se utilizan en primera instancia las comillas altas o inglesas (""). En caso de que se requiera entrecomillar un texto ya entrecomillado, se utilizan las comillas simples (''). 
 
 ### Mayúsculas
 La pauta es usarlas con moderación en la prosa corriente. Reglas específicas:
 
-*	**Títulos**: los encabezados y títulos de libros llevan mayúscula en la primera letra del título: »Preparando los datos para el análisis»; *El orgullo y la pasión*.
+*	**Títulos**: los encabezados y títulos de libros llevan mayúscula en la primera letra del título: "Preparando los datos para el análisis""; *El orgullo y la pasión*.
 *	**Siempre con mayúscula inicial**:
     *	**Nombre propios**: William J. Turkel – a menos que la persona elija deletrear su nombre de otra manera (por ejemplo "bell hooks").
     *	**Organizaciones, organismos, entidades, partidos políticos, etc**: Museo de Arte Moderno, Casa de Cervantes, Biblioteca Nacional, Agencia Nacional de Tierras, Naciones Unidades. Las palabras de función dentro del nombre no llevan mayúsculas en estos casos.
@@ -179,7 +179,7 @@ La pauta es usarlas con moderación en la prosa corriente. Reglas específicas:
 *	Si estás escribiendo un tutorial de "análisis", debes referirte a la literatura académica publicada.
 *	Los superíndices de las notas finales deben ir dentro de la puntuación final: así². No afuera: así.²
 *	Utiliza el sistema de "Notas y Bibliografía" que se encuentra en el [Manual Chicago 17a edición](https://uc3m.libguides.com/guias_tematicas/citas_bibliograficas/chicago) para las notas al final.
-*	Cuando se mencione por primera vez una obra publicada, incluye el nombre del autor (incluyendo el primer nombre). Por ejemplo, «Puedes encontrar más información en *The Elements of Typographic Style* de Robert Bringhurst» o «Para más información, consulta *The Elements of Typographic Style* de Robert Bringhurt». En las referencias posteriores, usa solo el título del libro. Los nombres de los autores pueden ser acortados a apellidos solo a partir de su segunda mención.
+*	Cuando se mencione por primera vez una obra publicada, incluye el nombre del autor (incluyendo el primer nombre). Por ejemplo, "Puedes encontrar más información en *The Elements of Typographic Style* de Robert Bringhurst" o "Para más información, consulta *The Elements of Typographic Style* de Robert Bringhurt". En las referencias posteriores, usa solo el título del libro. Los nombres de los autores pueden ser acortados a apellidos solo a partir de su segunda mención.
 *	Las notas finales no pueden contener solo una URL.
     *	(Correcto): Grove, John. "Calhoun and Conservative Reform." *American Political Thought* 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
     *	(Incorrecto): https://doi.org/10.1086/680389.
