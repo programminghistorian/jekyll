@@ -23,7 +23,6 @@ activity: transforming
 topics: [data-manipulation]
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/162
 original: transforming-xml-with-xsl
-redirect_from: /es/lessons/transforming-xml-with-xsl
 layout: lesson
 abstract: "Con este tutorial aprenderás a convertir un conjunto de datos históricos procedentes de una base de datos XML (ya sea un solo documento o varios documentos interconectados) en otros formatos más adecuados para presentar (tablas, listas) o exponer información (párrafos)."
 avatar_alt: Dibujo de un pavo real con sus plumas extendidas.
@@ -515,7 +514,7 @@ Para eliminar la sangría del texto, necesitarás hacerte cargo directo del espa
 ## Bibliografía recomendada por el traductor
 
 - Hunter, David *et al*. *Beginning XML*. Indianapolis: Wiley Publishing, 2007 (cuarta edición). Impreso.
-- Riley, Jenn. [*Understanding Metadata: What is Metadata, and What is For?*](https://www.niso.org/publications/understanding-metadata-2017) NISO, 2017. Web.
+- Riley, Jenn. [*Understanding Metadata: What is Metadata, and What is For?*](https://www.niso.org/node/12366) NISO, 2017. Web
 - Tennison, Jeni. *Beginning XSLT 2.0. From Novice to Professional*. Nueva York: Apress, 2005. Impreso.
 
 ## Notas del traductor

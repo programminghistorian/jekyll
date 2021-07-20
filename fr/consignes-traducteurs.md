@@ -6,7 +6,7 @@ skip_validation: true
 ---
 
 # Consignes aux traducteurs et aux traductrices
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 <h2 class="noclear">Étape 1: <a href="#proposer-la-traduction-dune-leçon">Proposer la traduction d'une leçon </a></h2>
 <h2 class="noclear">Étape 2: <a href="#traduire-une-leçon-et-la-mettre-en-page">Traduire une leçon et la mettre en page</a></h2>
 <h2 class="noclear">Étape 3: <a href="#soumettre-la-leçon-traduite">Soumettre la leçon traduite</a></h2>
@@ -68,7 +68,7 @@ Pour ce faire, vous avez plusieurs points d'entrée et sentez-vous libre de cont
 
 * votre rédacteur ou rédactrice assigné(e); 
 * le rédacteur ou la rédactrice en chef;
-* notre médiatrice indépendante ([Dr Hélène Huet](mailto:hhuet@ufl.edu).
+* notre médiatrice indépendante ([Dr Hélène Huet](mailto:hhuet@ufl.edu)).
 
 Nous oeuvrons pour que tout se passe au mieux pour vous, mais si jamais vous estimez vous trouver dans une situation peu confortable, nous vous remercions de nous aider à y remédier et à améliorer les choses. 
 
@@ -82,6 +82,6 @@ Pour ce faire, vous avez plusieurs points d'entrée et sentez-vous libre de cont
 
 * votre rédacteur ou rédactrice assigné(e); 
 * le rédacteur ou la rédactrice en chef;
-* notre médiatrice indépendante ([Dr Hélène Huet](mailto:hhuet@ufl.edu).
+* notre médiatrice indépendante ([Dr Hélène Huet](mailto:hhuet@ufl.edu)).
 
 Nous oeuvrons pour que tout se passe au mieux pour vous, mais si jamais vous estimez vous trouver dans une situation peu confortable, nous vous remercions de nous aider à y remédier et à améliorer les choses. 

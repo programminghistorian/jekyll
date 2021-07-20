@@ -23,7 +23,6 @@ layout: lesson
 next: crear-y-ver-archivos-html-con-python
 previous: normalizar-datos
 original: counting-frequencies
-redirect_from: /es/lessons/counting-frequencies
 difficulty: 2
 activity: analyzing
 topics: [python]
@@ -31,6 +30,8 @@ abstract: "Contar la frecuencia de palabras específicas en una lista puede prov
 python_warning: false
 avatar_alt: Boceto de un hombre sentado fumando una pipa y pájaros alrededor
 doi: 10.46430/phes0001
+sequence: 10
+series_total: 14
 ---
 
 {% include toc.html %}

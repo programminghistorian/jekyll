@@ -24,9 +24,8 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/319
 activity: sustaining
 topics: [data-management]
 abstract: "Esta lição irá sugerir maneiras pelas quais os historiadores podem documentar e estruturar os seus dados de pesquisa, a fim de garantir que continuem sendo acessíveis no futuro."
-redirect_from: /lessons/preserving-your-research-data
 original: preserving-your-research-data
-avatar_alt: A large barrel
+avatar_alt: Um barril grande
 doi: 10.46430/phpt0001
 ---
 

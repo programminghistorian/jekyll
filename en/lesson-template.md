@@ -1,6 +1,6 @@
 # Programming Historian English Language Lesson Template
 
-This file can be used as a template for writing your lesson. It includes information and guidelines on formatting which supplement but do not replace the author's guidelines (https://programminghistorian.org/en/author-guidelines)
+This file can be used as a template for writing your lesson. It includes information and guidelines on formatting which supplement but do not replace the author's guidelines (/en/author-guidelines)
 
 ## Some Important Reminders:
 
@@ -68,7 +68,7 @@ Include the following short code to automatically generate a table of contents f
 
 ### Links
 
-Create [a link to *Programming Historian*](http://programminghistorian.org) using the format in this sentence. Ensure linked phrases are semantically meaningful. Do not link terms that are meaningful only to sighted users such as "click here".
+Create [a link to *Programming Historian*](/) using the format in this sentence. Ensure linked phrases are semantically meaningful. Do not link terms that are meaningful only to sighted users such as "click here".
 
 ### Inserting Images:
 

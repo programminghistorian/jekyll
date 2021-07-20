@@ -23,13 +23,14 @@ layout: lesson
 next: trabajar-con-archivos-de-texto
 previous: introduccion-e-instalacion
 original: viewing-html-files
-redirect_from: /es/lessons/viewing-html-files
 difficulty: 2
 activity: presenting
 topics: [python]
 abstract: "Esta lección te introduce a las estructuras de HTML y de páginas web."
 avatar_alt: Grabado de un hombre hablando a una mujer.
 doi: 10.46430/phes0030
+sequence: 2
+series_total: 14
 ---
 
 {% include toc.html %}

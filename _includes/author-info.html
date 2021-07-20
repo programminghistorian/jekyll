@@ -5,7 +5,7 @@
 {% assign authorCount = page.authors | size %}
 
 <div class="author-info">
-    <h5 class="author-name">{{ site.data.snippets.about-the[page.lang] }} {% if authorCount == 1 %}{{ site.data.snippets.the-authors.singular[page.lang] }}{% else %}{{ site.data.snippets.the-authors.plural[page.lang] }}{% endif %}</h5>
+    <h2 class="author-name">{{ site.data.snippets.about-the[page.lang] }} {% if authorCount == 1 %}{{ site.data.snippets.the-authors.singular[page.lang] }}{% else %}{{ site.data.snippets.the-authors.plural[page.lang] }}{% endif %}</h2>
 </div>
 <div class="author-description">
   {% for author in page.authors %}

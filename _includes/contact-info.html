@@ -15,7 +15,7 @@
 {% endcomment %}
 {% assign avatar = member.name | slugify: "latin" %}
 <div class="col-3">
-  <img class="rounded-circle" src="{{site.baseurl}}/avatars/{{avatar}}.png">
+  <img class="rounded-circle" src="{{site.baseurl}}/avatars/{{avatar}}.png" alt="{{ member.name }}">
 </div>
 
 <div class="col-9">
@@ -43,16 +43,16 @@ List subteams within the larger editorial team
 {% endcomment %}
 <p>
 	{% if member.url %}
-		<a href="{{member.url}}"><i class="fa fa-home fa-lg"></i></a>
+		<a href="{{member.url}}"><i class="fa fa-home fa-lg"></i><span class="visually-hidden">{{ member.url }}</span></a>
 	{% endif %}
 	{% if member.email %}
-		<a href="mailto:{{member.email}}"><i class="fa fa-envelope-square fa-lg" ></i></a>
+		<a href="mailto:{{member.email}}"><i class="fa fa-envelope-square fa-lg" ></i><span class="visually-hidden">{{ member.email }}</span></a>
 	{% endif %}
 	{% if member.twitter %}
-		<a href="http://twitter.com/{{member.twitter}}"><i class="fab fa-twitter-square fa-lg"></i></a>
+		<a href="http://twitter.com/{{member.twitter}}"><i class="fab fa-twitter-square fa-lg"></i><span class="visually-hidden">{{ member.twitter }}</span></a>
 	{% endif %}
 	{% if member.github %}
-		<a href="http://github.com/{{member.github}}"><i class="fab fa-github-square fa-lg"></i></a>
+		<a href="http://github.com/{{member.github}}"><i class="fab fa-github-square fa-lg"></i><span class="visually-hidden">{{ member.github }}</span></a>
 	{% endif %}
 	{% if member.orcid %}
 		{% include orcid.html author=member %}

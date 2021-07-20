@@ -22,7 +22,6 @@ layout: lesson
 next: de-html-a-lista-de-palabras-1
 previous: trabajar-con-paginas-web
 original: manipulating-strings-in-python
-redirect_from: /es/lessons/manipulating-strings-in-python
 python_warning: false
 difficulty: 2
 activity: transforming
@@ -30,6 +29,8 @@ topics: [python]
 abstract: "Esta lección es una rápida introducción a técnicas de manipulación de cadenas de caracteres (o strings) en Python."
 avatar_alt: Grabado de un joven tocando una guitarra
 doi: 10.46430/phes0018
+sequence: 6
+series_total: 14
 ---
 
 {% include toc.html %}

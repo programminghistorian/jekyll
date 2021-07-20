@@ -24,7 +24,6 @@ layout: lesson
 next: contar-frecuencias
 previous: de-html-a-lista-de-palabras-2
 original: normalizing-data
-redirect_from: /es/lessons/normalizing-data
 python_warning: false
 difficulty: 2
 activity: transforming
@@ -32,6 +31,8 @@ topics: [python]
 abstract: "En esta lección haremos que la lista que creamos en'De HTML a lista de palabras (parte 2)' sea más fácil de analizar al “normalizar” los datos."
 avatar_alt: Ilustración de dos personas caminando agarradas del brazo.
 doi: 10.46430/phes0020
+sequence: 9
+series_total: 14
 ---
 
 {% include toc.html %}

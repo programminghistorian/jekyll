@@ -7,7 +7,7 @@ original: author-guidelines
 
 # Directrizes para Autores
 
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 <h2 class="noclear">Etapa 1: <a href="#etapa-1-propor-uma-nova-lição">Propor uma nova lição</a></h2>
 <h2 class="noclear">Etapa 2: <a href="#etapa-2-escrever-e-formatar-uma-nova-lição">Escrever e formatar uma nova lição</a></h2>
 <h2 class="noclear">Etapa 3: <a href="#etapa-3-submeter-uma-nova-lição">Submeter uma nova lição</a></h2>
@@ -25,7 +25,7 @@ O âmbito e extensão da lição devem ser adequados à  complexidade da tarefa,
 
 Se tem uma ideia para uma nova lição preencha o [formulário de proposta de lição](/assets/forms/formulario.proposta.licao.txt) e envie para {% include managing-editor.html lang=page.lang %}.
 
-Para ter uma ideia do que publicamos consulte as [lições publicadas]({{site.baseurl}}/pt/licoes), leia as nossas [orientações para revisores]({{site.baseurl}}/pt/directrizes-revisor) ou navegue pelas [lições em desenvolvimento](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
+Para ter uma ideia do que publicamos consulte as [lições publicadas]({{site.baseurl}}/pt/licoes), leia as nossas [orientações para revisores]({{site.baseurl}}/pt/directrizes-revisor) ou navegue pelas [lições em desenvolvimento](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/pt/licoes).
 
 Se a sua proposta for aceite, um editor criará uma página "Proposta" no nosso [website de submissões](https://github.com/programminghistorian/ph-submissions/issues) com o título da lição, mesmo que seja apenas um rascunho, e com os objetivos propostos. Isto serve para acompanhar o trabalho em andamento. Para garantir a publicação em tempo útil, os autores devem enviar a sua proposta de lição no prazo de 90 dias.
 
@@ -125,7 +125,7 @@ Ou:
 3. Aqui está o item final
 
 ### Pontuação
- *	**Abreviação**: escrever todas as palavras na primeira pessoa. União Europeia (UE) e depois UE. Não utilize pontos ou espaços entre as iniciais: BBC, PhD, mph, 4am, etc.
+ *	**Abreviação**: escrever todas as palavras por extenso, na primeira menção. União Europeia (UE) e depois UE. Não utilize pontos ou espaços entre as iniciais: BBC, PhD, mph, 4am, etc.
  *	**Ampersand**: em geral, não utilize um ampersand (eitza ou sinal tironiano) no lugar da conjunção aditiva "e" a menos que se refira a uma empresa ou publicação que a utilize: P&O, Past & Present.
  *	**Aspas/Parênteses**: é melhor usar vírgulas ou travessões. Utilizar parênteses para introduzir explicações numa citação direta, por exemplo: Ele disse: "Quando terminado (o túnel) vai revolucionar a viagem" ou "Ela disse adiós (adeus)". Coloque reticências ou um ponto final fora da aspa final se o material dentro não for uma frase. (Mas uma frase independente tem um ponto final antes do parêntese de fechamento).
  *	**Dois pontos**: utilizar para introduzir listas, tabulações, textos, como em:
@@ -185,7 +185,7 @@ Todas as lições devem ser escritas em [Markdown](https://en.wikipedia.org/wiki
 * [Faça o download do template de lição em português (.md).]({{site.baseurl}}/pt/licoes-modelo.md).
 
 Markdown é uma linguagem de marcação que é mais fácil de trabalhar num editor de texto. O MS Word e o Open Office NÃO são editores de texto e devem ser evitados. Recomendamos [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://en.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/) ou [Notepad++](https://notepad-plus-plus.org/download).
-Para uma primeira introdução à formatação do Markdown, consultar [Introdução ao Markdown (em inglês)]({{site.baseurl}}/en/lessons/getting-started-with-markdown), ou uma explicação mais breve em [Guia de Markdown do GitHub](https://guides.github.com/features/mastering-markdown/).
+Para uma primeira introdução à formatação do Markdown, consultar [Introdução ao Markdown]({{site.baseurl}}/pt/licoes/introducao-ao-markdown), ou uma explicação mais breve em [Guia de Markdown do GitHub](https://guides.github.com/features/mastering-markdown/).
 
 A lição deve ser guardada no formato .md. O nome do ficheiro da lição torna-se parte do URL da lição. Portanto, deve ser nomeado de acordo com as seguintes regras:
 

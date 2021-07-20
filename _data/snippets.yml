@@ -112,32 +112,19 @@ menu-contribute-overview:
   pt:
     title: Contribuições
     link: /pt/contribua
-menu-lesson-requests:
-  en:
-    title: Lesson Requests
-    link: /en/lesson-requests
-  es:
-    title: Solicitud de lecciones
-    link: /es/solicitud-lecciones
-  fr:
-    title: Appel à contributions
-    link: /fr/appel-contributions
-  pt:
-    title: Pedidos de lições
-    link: /pt/licoes-pedidos
 menu-contribute-feedback:
   en:
-    title: Feedback
+    title: Report a bug
     link: /en/feedback
   es:
-    title: Sugerencias
+    title: Reporta un error
     link: /es/retroalimentacion
   fr:
-    title: Votre avis
+    title: Signaler une erreur
     link: /fr/reaction
   pt:
-    title: Feedback
-    link: /pt/feedback
+    title: Reportar um erro
+    link: /pt/reportar-um-erro
 menu-contribute-review:
   en:
     title: Reviewer Guidelines
@@ -258,7 +245,9 @@ menu-support-ipp:
   fr:
     title: Partenariat institutionnel
     link: /fr/pi
-  pt: 
+  pt:
+    title: Programa de Parceria Institucional
+    link: /pt/ppi
 menu-support-individual:
   en:
     title: Individual Supporters
@@ -270,6 +259,8 @@ menu-support-individual:
     title: Dons individuels
     link: /fr/dons
   pt: 
+    title: Apoiadores individuais
+    link: /pt/doacoes
 menu-support-supporters:
   en:
     title: Our Supporters
@@ -281,8 +272,8 @@ menu-support-supporters:
     title: Nos soutiens
     link: /fr/nos-soutiens
   pt:
-    title: Apoiadores
-    link: /pt/apoie-nos#apoiadores
+    title: Nossos Apoiadores
+    link: /pt/apoiadores
 menu-lang:
   es:
     title: es
@@ -471,6 +462,11 @@ translation-editors:
   es: traducción editada por
   fr: suivi de traduction par
   pt: tradução editada por
+lesson-testers:
+  en: tested by
+  es: testeado por
+  fr: test par
+  pt: testado por
 published:
   en: published
   es: publicado
@@ -491,6 +487,11 @@ retired-date:
   es: retirada
   fr: retrait
   pt: retirado
+tested-date:
+  en: tested
+  es: testeado
+  fr: test
+  pt: testado
 difficulty:
   en: difficulty
   es: dificultad
@@ -499,12 +500,12 @@ difficulty:
 next-lesson:
   en: next lesson
   es: siguiente lección
-  fr: lesson suivante
+  fr: leçon suivante
   pt: próxima lição
 previous-lesson:
   en: previous lesson
   es: lección anterior
-  fr: lesson précédente
+  fr: leçon précédente
   pt: lição anterior
 series-previous-note:
   en: This lesson is part of a series. You might want to check out the
@@ -734,12 +735,12 @@ the-authors:
     en: author
     es: del autor
     fr: de l'auteur(e)
-    pt: autor(a)
+    pt: o(a) autor(a)
   plural:
     en: authors
     es: de los autores
     fr: des auteur(e)s
-    pt: autores(as)
+    pt: os(as) autores(as)
 
 # Home Page
 project-summary:
@@ -767,3 +768,54 @@ managing_editor:
   es: Riva Quiroga
   fr: Sofia Papastamkou
   pt: Daniel Alves
+
+front-image-alt:
+  en: Image from Scientific American of a woman at an Electrical Counting Machine.
+  es: Imagen de Scientific American que muestra a una mujer trabajando en una máquina contadora eléctrica.
+  fr: Image de Scientific American montrant une femme utilisant une compteuse de billets.
+  pt: Imagem da Scientific American de uma mulher a usar uma máquina de contagem elétrica.
+write-a-lesson-image-alt:
+  en: A woman at a desk writing.
+  es: Una mujer escribiendo en un escritorio.
+  fr: Une femme à son bureau en train d'écrire. 
+  pt: Uma mulher numa mesa escrevendo.
+editor-guidelines-image-alt:
+  en: Two men discussing a book.
+  es: Dos hombres hablando sobre un libro.
+  fr: Deux hommes en train de discuter d'un livre.
+  pt: Dois homens discutindo um livro.
+translator-image-alt:
+  en: An outdoor scene with a horse, river, and person fishing.
+  es: Una escena con un caballo, un río y una persona pescando. 
+  fr: Scène d'extérieur avec un cheval et un pêcheur en rivière. 
+  pt: Uma cena ao ar livre com um cavalo, um rio e uma pessoa pescando.
+feedback-image-alt:
+  en: A man reading a book.
+  es: Un hombre leyendo un libro. 
+  fr: Un homme en train de lire un livre.
+  pt: Um homem lendo um livro.
+library-catalogue-image-alt:
+  en: A book, hourglass, and assorted objects on a table.
+  es: Un libro, un reloj de arena y otros objetos en una mesa.
+  fr: Un livre, un sablier et divers objets posés sur une table. 
+  pt: Um livro, uma ampulheta e vários objetos numa mesa. 
+open-an-issue-on-github-image-alt:
+  en: Screenshot of GitHub issue tracker with arrow pointing towards the button to contribute a new issue at top right.
+  es: Captura de pantalla del seguimiento de tickets de GitHub con una flecha señalando el botón para contribuir con un nuevo ticket arriba a la derecha.
+  fr: Capture d'écran de l'interface de Github avec une flèche rouge pointant vers le bouton qui permet d'ouvrir un nouveau ticket en haut à droite. 
+  pt: Captura de tela do rastreador de problemas do GitHub, com uma seta apontando para o botão para contribuir com uma nova questão no canto superior direito. 
+reviewer-image-alt:
+  en: Pair of readers reviewing a note.
+  es: Dos lectores revisando una nota. 
+  fr: Des lecteurs en train de reviser une note. 
+  pt: Par de leitores revendo uma nota.
+supporters-ipp-image-alt:
+  en: A bird with a nest filled with eggs.
+  es: Un pájaro con un nido lleno de huevos.
+  fr: Un oiseau et sa niche remplie d'oeufs. 
+  pt: Um pássaro com um ninho cheio de ovos.
+supporters-individual-image-alt:
+  en: A bird sitting on a branch while another bird flies nearby.
+  es: Un pájaro en una rama con otro pájaro volando cerca.
+  fr: Un oiseau posé sur une branche pendant qu'un autre vole à côté. 
+  pt: Um pássaro sentado num galho enquanto outro pássaro voa próximo.

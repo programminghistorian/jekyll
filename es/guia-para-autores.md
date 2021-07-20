@@ -9,7 +9,7 @@ skip_validation: true
 
 # Guía para autores
 
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 <h2 class="noclear">Paso 1: <a href="#paso-1-proponer-una-nueva-leccion">Proponer una nueva lección </a></h2>
 <h2 class="noclear">Paso 2: <a href="#paso-2-escribir-y-dar-formato-a-una-nueva-leccion">Escribir y dar formato a una nueva lección</a></h2>
 <h2 class="noclear">Paso 3: <a href="#paso-3-enviar-una-nueva-leccion">Enviar una nueva lección</a></h2>

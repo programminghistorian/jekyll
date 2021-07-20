@@ -10,7 +10,7 @@ O _Programming Historian em português_ funciona através da energia inesgotáve
 
 ## Escreva uma nova lição
 
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" />
+<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 
 Escrever um tutorial é uma das melhores formas de se ensinar competências específicas e de se envolver ativamente na comunidade das humanidades digitais.
 
@@ -20,7 +20,7 @@ Se desejar propor uma lição (escrita por si ou para outra pessoa escrever), en
 
 ## Edite lições
 
-<img src="{{site.baseurl}}/gallery/editor-guidelines.png" class="garnish rounded float-right" />
+<img src="{{site.baseurl}}/gallery/editor-guidelines.png" class="garnish rounded float-right" alt="{{ site.data.snippets.editor-guidelines-image-alt[page.lang] }}"/>
 
 Os membros do nosso conselho editorial ajudam a facilitar a revisão por pares e trabalham em estreita colaboração com os autores para melhorar as suas lições. As [nossas diretrizes para editores](directrizes-editor) visam assegurar que todos, desde os autores aos revisores, passando pelos membros da comunidade em geral, recebam uma experiência justa e consistente durante a revisão por pares.
 
@@ -28,7 +28,7 @@ Periodicamente, podemos anunciar a procura de mais editores.
 
 ## Traduza uma lição
 
-<img src="{{site.baseurl}}/images/translator.png" class="garnish rounded float-right" />
+<img src="{{site.baseurl}}/images/translator.png" class="garnish rounded float-right" alt="{{ site.data.snippets.translator-image-alt[page.lang] }}"/>
 
 Se você é fluente em mais do que um dos idiomas de publicação (francês, inglês, espanhol, português), está convidado a entrar em contato conosco para traduzir de um idioma para o outro uma das lições do _Programming Historian_ já publicadas. Isto irá ajudar-nos a criar comunidades multilingues de humanidades digitais e a desenvolver o seu idioma, método e competências tecnológicas.
 
@@ -37,15 +37,15 @@ Procuramos traduções rigorosas e legíveis que tenham em conta os contextos de
 
 ## Dê a sua opinião ou comunique problemas
 
-<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-right" />
+<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
 
-Agradecemos pelo [feedback](/pt/feedback.html) de qualquer aspecto do _Programming Historian em português_. Diga-nos o que podemos fazer para tornar o projeto melhor!
+Agradecemos pelo [feedback](/pt/reportar-um-erro) de qualquer aspecto do _Programming Historian em português_. Diga-nos o que podemos fazer para tornar o projeto melhor!
 
 Estamos especialmente gratos por dicas sobre lições que apresentam links quebrados. À medida que os URLs mudam e que novas versões de software e plataformas são lançadas, as lições desenvolvem falhas ao longo do tempo. Por favor, ajude-nos a manter o _Programming Historian em português_ atualizado, comunicando quando encontrar erros.
 
 ## Nos adicione ao seu Catálogo de Bibliotecas
 
-<img src="{{site.baseurl}}/images/library-catalogue.png" class="garnish float-right" />
+<img src="{{site.baseurl}}/images/library-catalogue.png" class="garnish float-right" alt="{{ site.data.snippets.library-catalogue-image-alt[page.lang] }}"/>
 
 Este projeto é a nossa tentativa de demonstrar que a publicação acadêmica pode e deve ser de acesso aberto. Por favor, ajude-nos a divulgar essa mensagem e a proporcionar o maior acesso possível a este recurso, solicitando ao bibliotecário que inclua o projeto no catálogo da sua biblioteca.
 

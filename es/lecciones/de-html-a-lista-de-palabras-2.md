@@ -23,7 +23,6 @@ layout: lesson
 next: normalizar-datos
 previous: de-html-a-lista-de-palabras-1
 original: from-html-to-list-of-words-2
-redirect_from: /es/lessons/from-html-to-list-of-words-2
 python_warning: false
 difficulty: 2
 activity: transforming
@@ -31,6 +30,8 @@ topics: [python]
 abstract: "En esa lección aprenderás los comandos de Python que son necesarios para implementar la segunda parte del algoritmo que comenzamos en la lección 'De HTML a lista de palabras (parte 1)'."
 avatar_alt: Grabado de un hombre vestido de militar y otro hombre por detrás del primero que parece tener la intención de tropezarlo.
 doi: 10.46430/phes0006
+sequence: 8
+series_total: 14
 ---
 
 {% include toc.html %}
@@ -176,7 +177,7 @@ adentro = 1
 Y cada vez que has necesitado leer o escribir a un archivo, has utilizado un controlador de archivo especial como *f* en el ejemplo siguiente:
 
 ``` python
-f = open('holamundo.txt','wb')
+f = open('holamundo.txt','w')
 f.write('hola mundo')
 f.close()
 ```

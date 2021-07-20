@@ -9,7 +9,7 @@ skip_validation: true
 
 # Author Guidelines
 
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 <h2 class="noclear">Step 1: <a href="#step-1-proposing-a-new-lesson">Proposing a New Lesson</a></h2>
 <h2 class="noclear">Step 2: <a href="#step-2-writing-a-new-lesson">Writing and Formatting a New Lesson</a></h2>
 <h2 class="noclear">Step 3: <a href="#step-3-submitting-a-new-lesson">Submitting a New Lesson</a></h2>  
@@ -87,7 +87,7 @@ This second section covers more specific matters of writing style, such as which
 
 ### Dates and Time
  *	For centuries, use eighteenth century not 18th century. Avoid national-centric phrases such as "long eighteenth century" which have specific meaning to British eighteenth century specialists, but not to anyone else.
- *	For decades, write the 1950s (not "the 1950s" or "the fifties").
+ *	For decades, write the 1950s (not "the 50s" or "the fifties").
  *	Compress date sequences as follows; 1816-17, 1856-9, 1854-64.
  *	For dates written in numeric form, use the format YYYY-MM-DD, which conforms to the standard ISO 8601:2004. This avoids ambiguity.
  *	Use BCE/CE not BC/AD for dates (eg 325BCE).
@@ -280,7 +280,7 @@ Lines of code should be formatted to distinguish them clearly from prose:
 ```
 They will look like this
 ```
-` and this ` respectively.
+`and this` respectively.
 
 --
 Follow best practice in writing your code:

@@ -140,6 +140,19 @@ All lesson metadata and alerts should follow the convention of pulling appropria
               </ul>
             </div>
             {% endif %}
+
+            {% if page.lesson-tester %}
+            <div>
+              <h3>{{site.data.snippets.lesson-testers[page.lang]}}</h3>
+              <ul>
+                {% for lesson-tester-name in page.lesson-tester %}
+                {% assign lesson-tester = site.data.ph_authors | where: "name", lesson-tester-name | first %}
+                <li>{{ lesson-tester-name }}{% if lesson-tester.orcid %}
+                  {% include orcid.html author = lesson-tester %}{% endif %}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
           </div>
         </div>
       </div> <!-- end row -->
@@ -149,27 +162,33 @@ All lesson metadata and alerts should follow the convention of pulling appropria
       <div class="container expanded">
         <div class="d-flex flex-wrap flex-md-row flex-column justify-content-between">
           <div class="metarow">
-            <h4>{{site.data.snippets.published[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}
+            <h4>{{site.data.snippets.published[page.lang]}}</h4> | {{ page.date | date:"%Y-%m-%d" }}
           </div>
           {% if page.translation_date %}
           <div class="metarow">
-            <h4>{{site.data.snippets.translated-date[page.lang]}}</h4> <span
+            <h4>{{site.data.snippets.translated-date[page.lang]}}</h4> | <span
               id="translated-date">{{ page.translation_date | date:"%Y-%m-%d" }}</span>
           </div>
           {% endif %}
           {% if page.retired %}
           <div class="metarow">
-            <h4>{{site.data.snippets.retired-date[page.lang]}}</h4> <span
+            <h4>{{site.data.snippets.retired-date[page.lang]}}</h4> | <span
               id="retired-date">{{ page.retired_date | date:"%Y-%m-%d" }}</span>
           </div>
           {% else %}
           <div class="metarow">
-            <h4>{{site.data.snippets.modified[page.lang]}}</h4> <span
+            <h4>{{site.data.snippets.modified[page.lang]}}</h4> | <span
               id="modified-date">{{ page.date | date:"%Y-%m-%d" }}</span>
           </div>
           {% endif %}
+          {% if page.tested_date %}
           <div class="metarow">
-            <h4>{{site.data.snippets.difficulty[page.lang]}}</h4> {% include difficulty.html %}
+            <h4>{{site.data.snippets.tested-date[page.lang]}}</h4> | <span
+              id="tested-date">{{ page.tested_date | date:"%Y-%m-%d" }}</span>
+          </div>
+          {% endif %}
+          <div class="metarow">
+            <h4>{{site.data.snippets.difficulty[page.lang]}}</h4> | {% include difficulty.html %}
           </div>
           {% if page.doi %}
           <div class="metarow">
@@ -260,7 +279,7 @@ All lesson metadata and alerts should follow the convention of pulling appropria
     {% endif %}
     {% assign vol_no = page_year | minus: vol_start | plus: 1 %}
 
-    <h5 class="suggested-citation-header">{{ site.data.snippets.suggested-citation[page.lang] }}</h5>
+    <h2 class="suggested-citation-header">{{ site.data.snippets.suggested-citation[page.lang] }}</h2>
     <div class="suggested-citation-text">
       <p class="suggested-citation-text">{% include author.html %},
         {{ site.data.snippets.title-open-quote[page.lang] }}{{ page.title | strip }}{{ site.data.snippets.title-close-quote[page.lang] }}{% if page.translator %}

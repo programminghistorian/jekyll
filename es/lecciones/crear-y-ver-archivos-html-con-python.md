@@ -22,7 +22,6 @@ layout: lesson
 next: salida-de-datos-como-archivo-html
 previous: contar-frecuencias
 original: creating-and-viewing-html-files-with-python
-redirect_from: /es/lessons/creating-and-viewing-html-files-with-python
 difficulty: 2
 activity: presenting
 topics: [python, website]
@@ -30,6 +29,8 @@ abstract: "Aquí aprenderás cómo crear archivos HTML con scripts de Python, y 
 avatar_alt: Grabado en blanco y negro de un niño sentado en un taburete sujetando un dibujo de una persona con una espada.
 python_warning: false
 doi: 10.46430/phes0003
+sequence: 11
+series_total: 14
 ---
 
 {% include toc.html %}

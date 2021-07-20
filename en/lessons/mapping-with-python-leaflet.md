@@ -51,7 +51,7 @@ If you are using a code editor such as Sublime Text, to import the folder you co
 
 We're going to start with a plain comma-separated values (CSV) data file and create a web map from it.
 
-[The data file can be downloaded here.] (/assets/mapping-with-python-leaflet/census.csv). You can grab this by either opening the link in your browser and saving the page, or you can use the curl command from your command line:
+[The data file can be downloaded here](/assets/mapping-with-python-leaflet/census.csv). You can grab this by either opening the link in your browser and saving the page, or you can use the curl command from your command line:
 
 ```curl -O https://programminghistorian.org/assets/mapping-with-python-leaflet/census.csv```
 
@@ -96,7 +96,7 @@ pip install pandas
 ```
 Note: We are installing numpy, python-dateutil, and pytz because pandas [requires them](http://pandas.pydata.org/pandas-docs/stable/install.html#dependencies).
 
-For Windows, you may need to install Microsoft Visual C++ Compiler for Python (for 2.7, you can download it from [Microsoft](http://www.microsoft.com/en-us/download/details.aspx?id=44266)). Set the environmental variables to recognize python and pip from the command line:
+For Windows, you may need to install [Microsoft Visual C++ Compiler for Python](https://wiki.python.org/moin/WindowsCompilers). Set the environmental variables to recognize python and pip from the command line:
 
 ```
 setx  PATH "%PATH%;C:\Python27"
