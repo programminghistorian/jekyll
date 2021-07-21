@@ -14,8 +14,18 @@ Definimos erros/bugs como: "Um erro em um programa de computador que produz um r
 
 Primeiro, pedimos que você verifique o nosso [rastreador de questões](https://github.com/programminghistorian/jekyll/issues?q=is%3Aissue+is%3Aopen+label%3Abug) se alguém já sinalizou o erro e, nesse caso, deixe um comentário nessa questão. Se o problema não foi relatado, siga uma destas opções:
 
-## Opção 1: Abrir uma questão no GitHub
-Este é o modo preferido para lidar com o _feedback_ pois todos os editores vão poder ver e responder à sua questão.
+## Opção 1: Envie um email
+
+Envie um email para o/a nosso/a [Assistente de Publicação](mailto:anisa.hawes@icloud.com).
+
+Inclua as seguintes informações na sua mensagem:
+
+- O título completo da lição
+- O sistema que está a usar (Mac, Linux, Windows)
+- Números da versão do software relevante que está a usar
+- As etapas exatas que executou e que causaram o problema
+ 
+## Opção 2: Abrir uma questão no GitHub
 
 Primeiro, se ainda não tem, [crie uma conta gratuita e pessoal no GitHub](https://help.github.com/articles/signing-up-for-a-new-github-account). Se já tem uma conta faça _login_.
 
@@ -27,13 +37,9 @@ Crie uma nova questão com um título descritivo e preencha o máximo de informa
 
 Para mais informação sobre as questões no GitHub, consulte o Guia GitHub sobre [Mastering Issues](https://guides.github.com/features/issues/).
 
-## Opção 2: Faça um _Pull Request_
 Se acredita que sabe como resolver um problema numa lição, considere bifurcar o nosso repositório e fazer um _pull request_.
 
 Para mais informações sobre _pull requests_, consulte o Guia GitHub sobre [Forking Projects](https://guides.github.com/activities/forking/) ou o tutorial de Rich Jones's sobre [How to GitHub](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).
-
-## Opção 3: Envie um email
-Se não está familiarizado com o GitHub, também pode enviar um e-mail para {% include managing-editor.html lang=page.lang %} ou outros membros da nossa [Equipe do Projeto](/pt/equipe.html).
 
 ## Recursos adicionais sobre o Git e o GitHub
 
