@@ -69,6 +69,7 @@ Upon acceptance, you agree to publish your lesson under a Creative Commons "[CC-
 *	**Multi-lingual**: when choosing methods or tools, make choices with multi-lingual readers in mind – especially for textual analysis methods, which may not support other character sets or may only provide intellectually robust results when used on English texts. Where possible, choose approaches that have multi-lingual documentation, or provide multi-lingual references for further reading. This will help our translators.
 *	**Racial and Ethnic Language**: use racial terminology carefully and with specificity. Historic terms no longer in use should be used only in their historical context and only when necessary. Use racial terms as adjectives and not nouns: white people rather than "whites", an Asian woman rather than "an Asian". Be aware that terms may be understood differently in different countries and what you have learned to be correct or sensitive may be culturally specific to your country (eg, not all people with African ancestry are "African Americans". Some of them are African, or black British, or Caribbean, etc). Likewise, readers in the UK will understand "Asian" (India, Pakistan, Bangladesh) differently than those in North America (eg China, Japan, Vietnam, Thailand).
 *	**Visual Representations**: choose primary sources, images, figures, and screen shots, considering how they will present themselves to a global audience.
+* **Computing resources**: if your lesson requires relatively substantial computing resources, include an alert warning after the Table of Contents to inform the readers. Please be specific and translate the requirements into real terms (e.g. "You need at least 8GB of RAM to finish this lesson", "This lesson uses large files (up to 2GB)", etc. ). State if readers need admin access to install software. 
 
 ### Sustainable Writing
 *Programming Historian* publishes lessons for the long-term. Please follow these sustainability guidelines when writing:
@@ -189,6 +190,16 @@ The guideline is to use them sparingly in the running prose. Specific rules:
 *	Endnotes should not just contain a URL.
     *	(Correct): Grove, John. "Calhoun and Conservative Reform." *American Political Thought* 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
     *	(Incorrect): https://doi.org/10.1086/680389
+* In order to cite software, which requires citation as a condition of use within a lesson, please provide as much as possible from the information below, following the general "Notes and Bibliography” system found in the Chicago Manual of Style, 17th Edition for endnotes:
+    *	author
+    * product name
+    * version number
+    * year of publication
+    * URL or DOI
+
+  Eg. The Pandas Development Team. *pandas-dev/pandas: Pandas*. v. 1.2.3 (2020). https://doi.org/10.5281/zenodo.3509134
+
+  Please check each software official webpage or documentation for authors guidelines about how to cite their work (eg. https://pandas.pydata.org/about/citing.html, https://www.tidyverse.org/blog/2019/11/tidyverse-1-3-0/#citing-the-tidyverse).
 
 
 ### Challenging Words Explained
@@ -322,6 +333,10 @@ The peer review process normally happens in 3 stages:
 You may find it helpful to read our [editor guidelines](/editor-guidelines), which detail our editorial process.
 
 If at any point you are unsure of your role or what to do next, post a question to the peer review issue. One of our editors will respond as soon as possible. We endeavour to respond to all queries within a few days.
+
+### What happens after your lesson is published?
+
+Occasionally, we receive feedback from users who have encountered an error while completing one of our lessons. If this happens, our Publishing Assistant will open an Issue on GitHub, then carry out an assessment to confirm whether the error reported represents a problem caused by the user (editing the lesson's code or changing its dataset, for example) or a problem within the lesson itself. If the latter, our Publishing Assistant will re-test the relevant part(s) of the lesson and undertake research to identify a fix. As part of this Lesson Maintenance process, we may contact you alongside other members of the *Programming Historian* team to ask for advice. In the case that no fix can be found, we will propose adding a warning to the lesson explaining that some users may encounter an error. Where possible, the warning should include links to further reading, empowering users to identify a solution themselves.
 
 ### Holding Us to Account
 

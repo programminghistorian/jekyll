@@ -106,4 +106,4 @@ Países Bajos, 9-12 julio, 2019.
 ['pre-print pdf']: /researchpapers/openLearningCommunities2016.pdf
 [Editorial Sustainability and Open Peer Review at Programming Historian]: http://web.archive.org/web/20180713014622/http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian
 ['Digital Project Consultations']: https://dhatasa2015.wordpress.com/
-[Library Carpentry: software skills training for library professionals]: https://www.liberquarterly.eu/articles/10176/
+[Library Carpentry: software skills training for library professionals]: https://liberquarterly.eu/article/view/10847
