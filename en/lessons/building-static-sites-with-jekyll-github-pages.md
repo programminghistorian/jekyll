@@ -196,7 +196,10 @@ Don't forget to wait until the command prompt appears again to type the followin
 
 `gem install rubygems-update`
 
-If you get a permissions error at this point, entering `echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile` followed by `source ~/.bash_profile` instead of the command above may help.
+If you get a permissions error at this point, setting `GEM_HOME` to your user directory may help. Try entering 
+`echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc` 
+`echo 'export GEM_HOME=$HOME/gems' >> ~/.bashrc` 
+`echo 'export PATH=$HOME/gems/bin:$PATH' >> ~/.bashrc` followed by `source ~/.bashrc`.
 
 ### NodeJS <a id="section2-4"></a>
 
