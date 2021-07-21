@@ -8,11 +8,11 @@ original: feedback
 
 <img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
 
-Seguiu as instruções em uma lição meticulosamente e ainda assim encontrou um erro? Obrigado por reservar um tempo para relatar um problema com uma de nossas lições. Oseu contributo é crucial para nos ajudar a manter as melhores lições possíveis! 
+Seguiu as instruções de uma lição meticulosamente e ainda assim encontrou um erro? Obrigado por reservar um tempo para relatar um problema com uma de nossas lições. O seu contributo é crucial para nos ajudar a manter as melhores lições possíveis! 
 
 Definimos erros/bugs como: "Um erro em um programa de computador que produz um resultado inesperado ou que se comporta de forma diferente das instruções numa lição." Observe que não podemos atender a erros causados pelo usuário ao editar o código ou alterar materiais (conjuntos de dados, ficheiros de entrada, etc.) 
 
-Primeiro, pedimos que você verifique o nosso [rastreador de questões](https://github.com/programminghistorian/jekyll/issues?q=is%3Aissue+is%3Aopen+label%3Abug) se alguém já sinalizou o erro e, nesse caso, deixe um comentário nessa questão. Se o problema não foi relatado, siga uma destas opções:
+Primeiro, pedimos que você verifique no nosso [rastreador de questões](https://github.com/programminghistorian/jekyll/issues?q=is%3Aissue+is%3Aopen+label%3Abug) se alguém já sinalizou o erro e, nesse caso, deixe um comentário nessa questão. Se o problema não foi relatado, siga uma destas opções:
 
 ## Opção 1: Envie um email
 
