@@ -235,11 +235,15 @@ En la línea de comandos, ingresa:
 
 `brew install ruby`
 
-(Si estás utilizando el sistema operativo Catalina, puede que recibas un error de permisos luego de instalar Ruby. Puedes arreglar esto incluyendo la dirección de Gems en tu sistema. Ingresa el siguiente comando: export `GEM_HOME="$HOME/.gem"`)
-
 Espera hasta que el prompt vuelva a aparecer para ingresar el siguiente comando:
 
 `gem install rubygems-update`
+
+En caso de recibir un error de permisos luego de instalar Ruby, incluye la dirección de Gems en tu sistema. Prueba lo siguiente:
+
+`echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc` 
+`echo 'export GEM_HOME=$HOME/gems' >> ~/.bashrc` 
+`echo 'export PATH=$HOME/gems/bin:$PATH' >> ~/.bashrc` followed by `source ~/.bashrc`.
 
 ### NodeJS <a id="section2-4"></a>
 
