@@ -3,6 +3,7 @@ title: Introdução ao Omeka.net
 slug: introducao-omeka-net
 layout: lesson
 date: 2016-02-17
+translation_date: 2021-06-07
 authors:
 - Miriam Posner
 editors:
@@ -15,8 +16,6 @@ translation-reviewer:
 - Ângela Pité
 - Rômulo Predes
 difficulty: 1
-exclude_from_check:
-  - reviewers
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/379
 activity: presenting
 topics: [website]
