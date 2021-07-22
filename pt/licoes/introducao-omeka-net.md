@@ -16,6 +16,8 @@ translation-reviewer:
 - Ângela Pité
 - Rômulo Predes
 difficulty: 1
+exclude_from_check:
+  - reviewers
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/379
 activity: presenting
 topics: [website]
