@@ -264,6 +264,10 @@ N'hésitez pas à consulter nos [consignes aux évaluateurs et évaluatrices](/f
 
 Si jamais vous êtes dans l'incertitude sur comment procéder, n'hésitez pas à poster votre question sur le ticket d'évaluation, un membre de notre équipe vous apportera des réponses dans les délais les plus brefs possible. Nous faisons de notre mieux pour répondre au bout de quelques jours.
 
+
+###
+
+
 ### Nous interpeller
 
 Notre équipe de bénévoles fait de son possible pour garantir l'évaluation rigoureuse, collégiale et efficace des auteur(e)s par les pairs. Toutefois, il peut y avoir des failles, c'est pourquoi nous souhaitons que les auteur(e)s nous aident à maintenir un haut niveau de service. Si, pour quelque raison que ce soit, vous estimez ne pas avoir été traité(e) correctement, ou ne comprenez pas trop quel est votre rôle ou ce qu’on attend de vous, ou encore si vous considérez que l'évaluation présente des retards injustifiés ou que quelqu'un a été rude avec vous, enfin, pour quel autre souci que ce soit, n'hésitez pas à nous en tenir informés afin que nous puissions agir. 
