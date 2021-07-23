@@ -301,6 +301,8 @@ Pode ser útil ler as [directrizes para editores](/pt/directrizes-editor), que a
 
 Se, a qualquer momento, tiver dúvidas do seu papel ou o que fazer a seguir, basta publicar a pergunta na discussão da revisão por pares. Qualquer um dos nossos editores responderá assim que possível. A equipa esforça-se por responder a todas as perguntas dentro de poucos dias.
 
+###
+
 ### Responsabilidade da equipe
 
 A equipe de voluntários trabalha intensamente para fazer uma revisão rigorosa, académica e eficiente aos autores. No entanto, reconhecemos que há momentos em que pode ficar abaixo das expectativas. Queremos que os autores se sintam à vontade para nos ajudar a manter o padrão. Se, por qualquer motivo, sentir que foi tratado injustamente, está insatisfeito ou confuso com o processo, se o processo foi adiado desnecessariamente, ou um revisor foi rude e o editor não respondeu de acordo, ou mesmo se tiver qualquer outra preocupação, chame a atenção da equipa para que se possa resolver rapidamente.
