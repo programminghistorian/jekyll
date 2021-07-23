@@ -35,7 +35,7 @@ doi: 10.46430/phpt0011
 
 O [Omeka.net](http://www.omeka.net) facilita a criação de websites para mostrar coleções de itens.  
 
-## Cadastre-se em uma conta do Omeka 
+## Cadastre-se numa conta do Omeka 
 
 {% include figure.html filename="intro-omeka-net-1.png" caption="Cadastre-se na conta de teste" %}
 
@@ -47,7 +47,7 @@ Entre em www.omeka.net e clique em **Sign Up** (Cadastre-se). Escolha o Plano de
 
 Depois de clicar no link no seu e-mail, clique em **Add a Site** (Adicionar um site). 
 
-Preencha a informação sobre a URL do seu site, o título que quer usar e a descrição que preferir. Clique em **Add Your New Site** (Adicione um novo site). 
+Preencha a informação sobre o URL do seu site, o título que quer usar e a descrição que preferir. Clique em **Add Your New Site** (Adicione o seu novo site). 
 
 ## Você tem um novo site do Omeka!
 
@@ -68,14 +68,14 @@ Esse é o seu site vazio do Omeka esperando para ser preenchido. Para retornar a
 
 O seu site do Omeka vem com plugins que oferecem funções adicionais. Precisamos ativá-los. Para fazer isso, clique no item **Plugins** no menu, no canto superior direito. Na página seguinte, clique no botão **Install** (Instalar) em **Exhibit Builder** (construtor de exposições) (deixe as opções como estão na página seguinte) e em **Simple Pages** (Páginas simples). 
 
-## Configurando o seu site para  português (nota da tradução) 
+## Configurar o seu site para  português (nota da tradução) 
 
-A configuração padrão do Omeka é em inglês, porém, há como mudarmos a língua do seu site para português (pt-BR e pt-PT) através de um Plugin. Para realizar essa configuração, siga os passos a seguir: 
+A configuração padrão do Omeka é em inglês. Porém, podemos mudar a língua do seu site para português (pt-BR e pt-PT) através de um Plugin. Para realizar essa configuração, siga os passos a seguir: 
 
 1. Clique em **Manage Site** (Administrar Site) no Menu Principal.  
-2. Clique em Plugins no menu superior, ou acesse os Plugins através do link `https://nome_do_seu_site.omeka.net/admin/plugins`, sendo `nome_do_seu_site` o nome escolhido para o seu site. 
+2. Clique em Plugins no menu superior ou acesse os Plugins através do link `https://nome_do_seu_site.omeka.net/admin/plugins`, sendo `nome_do_seu_site` o nome escolhido para o seu site. 
 
-3. Encontre o  Plugin **Locale** e clique no botão **Install** (Instalar). Ao clicar, a sua tela ficará parecida com a imagem abaixo 
+3. Encontre o  Plugin **Locale** e clique no botão **Install** (Instalar). Ao clicar, a sua tela ficará parecida com a imagem abaixo.
 
 4. Ao clicar em instalar, aparecerá uma página com as opções de tradução. Escolha **Português - Brasil (pt_BR)** ou **Português - Portugal (pt_PT)**. 
 
@@ -85,7 +85,7 @@ A configuração padrão do Omeka é em inglês, porém, há como mudarmos a lí
 
 Agora, o seu site e o painel de controle estarão em português.   
 
-## Trocando temas 
+## Trocar temas 
 
 {% include figure.html filename="intro-omeka-net-7.png" caption="Página de Configuração dos Temas" %}
 
@@ -95,7 +95,7 @@ O Omeka permite que a aparência do site público seja alterada por meio dos tem
 
 {% include figure.html filename="intro-omeka-net-8.png" caption="Vista pública com o novo tema" %}
 
-Confira o seu novo tema e volte para o seu painel de controle. É possível retornar para o seu antigo tema, continuar com esse, ou selecionar uma das outras opções. 
+Confira o seu novo tema e volte para o seu painel de controle. É possível retornar para o seu antigo tema, continuar com esse ou selecionar uma das outras opções. 
 
 
 ## Adicione um item 
@@ -118,15 +118,15 @@ Para adicionar múltiplos campos - por exemplo, se você quiser adicionar vário
 
 {% include figure.html filename="intro-omeka-net-11.png" caption="O que é isto?" %}
 
-Eu estou a criar um registro de item para o meu cachorro, Boris. Mas eu estou a descrever o Boris _ele mesmo_ ou uma _fotografia_ do Boris? No caso da primeira opção, o **Criador** seria... bem, suponho que isso dependa das suas crenças religiosas. Se é o segundo caso, o criador seria Brad Wallace, quem tirou a foto. 
+Eu estou a criar um registo de item para o meu cachorro, Boris. Mas eu estou a descrever o Boris _ele mesmo_ ou uma _fotografia_ do Boris? No caso da primeira opção, o **Criador** seria... bem, suponho que isso dependa das suas crenças religiosas. Se é o segundo caso, o criador seria Brad Wallace, quem tirou a foto. 
 
 A decisão sobre descrever um objeto ou a representação de um objeto é sua. Uma vez que tenha decidido, seja consistente. 
 
-## Anexe um ficheiro ao registro do seu item 
+## Anexe um ficheiro ao registo do seu item 
 
 {% include figure.html filename="intro-omeka-net-12.png" caption="Adicionando ficheiros a um item" %}
 
-Uma vez que terminamos de adicionar os metadados do Dublin Core, podemos anexar um ficheiro ao registro do seu item clicando em **Arquivos** (Ficheiros em PT_PT / Files), no topo do formulário de Dublin Core. (Não é necessário clicar em **Adicionar Item** antes de fazer isso; o Omeka irá salvar automaticamente essa informação). Podemos adicionar múltiplos ficheiros, mas saiba que o plano Básico apenas vem com 500 MB de espaço de armazenamento. 
+Uma vez que terminamos de adicionar os metadados do Dublin Core, podemos anexar um ficheiro ao registo do seu item clicando em **Arquivos** (Ficheiros em PT_PT / Files), no topo do formulário de Dublin Core. (Não é necessário clicar em **Adicionar Item** antes de fazer isso; o Omeka irá salvar automaticamente essa informação). Podemos adicionar múltiplos ficheiros, mas saiba que o plano Básico apenas vem com 500 MB de espaço de armazenamento. 
 
 Tendo adicionado o ficheiro ou os ficheiros, podemos adicionar **Tags** (Etiquetas em PT_PT) clicando no botão. Também podemos clicar em **Metadados** (Meta-dados do Tipo de Item em PT_PT / Item Type Metadata) para escolher a tipologia - pessoa, lugar, animal, vegetal, mineral - do seu item. Se não encontrar um tipo de item apropriado para o seu item, não se preocupe. Nós podemos adicionar um novo tipo de item depois. 
 
@@ -142,7 +142,7 @@ Esta lista contém todos os itens que foram adicionados. Se o item não fosse p�
 
 {% include figure.html filename="intro-omeka-net-14.png" caption="Página de Item, vista de administrador" %}
 
-Pode parecer, mas essa página não é o que um usuário não-cadastrado irá ver quando ele navegar para a página do seu item. Para ver o que um usuário veria, clique no botão azul **Ver a Página Pública**, à direita. (Ou você pode editar o item clicando em **Editar** na direita). 
+Pode parecer, mas essa página não é o que um usuário não-cadastrado irá ver quando navegar para a página do seu item. Para ver o que um usuário veria, clique no botão azul **Ver a Página Pública**, à direita. (Ou você pode editar o item clicando em **Editar** na direita). 
 
 ## Esta é a página pública para o seu item 
 
@@ -158,11 +158,11 @@ Isso é o que o usuário geral verá se ele navegar pela sua página.
 
 ## Insira informações sobre a sua coleção 
 
-{% include figure.html filename="intro-omeka-net-17.png" caption="Adicionar metadados de coleção" %}
+{% include figure.html filename="intro-omeka-net-17.png" caption="Adicionar metadados da coleção" %}
 
 No Omeka, os metadados são fundamentais! Insira alguma informação sobre a sua nova coleção e lembre-se de clicar no botão **Público** perto do fim da página. Então salve a coleção.  
 
-## Adicione itens na sua coleção
+## Adicione itens à sua coleção
 
 {% include figure.html filename="intro-omeka-net-18.png" caption="Clique na caixa seleção de cada item para editar" %}
 
@@ -180,9 +180,9 @@ Na página Editar Itens (Editar Itens em Lote em PT_PT), selecione a Coleção �
 
 Retorne para o seu site público. Se clicarmos na aba de **Ver Coleções** (Explorar as Colecções em PT_PT) na face pública do seu site, deverá  haver agora uma nova coleção contendo os itens que foram identificados. 
 
-Agora que alguns itens foram adicionados e agrupados em uma coleção, dedique algum tempo para editar ainda mais o seu site. Ele está começando a tomar forma agora que há tanto itens individuais como unidades temáticas, mas o Omeka pode fazer ainda mais. Nós iremos falar sobre isso numa próxima lição. 
+Agora que alguns itens foram adicionados e agrupados numa coleção, dedique algum tempo para editar ainda mais o seu site. Ele está a começar a tomar forma agora que há tanto itens individuais como unidades temáticas, mas o Omeka pode fazer ainda mais. Iremos falar sobre isso numa próxima lição. 
 
 ## Recursos Adicionais 
 
-A equipe do Omeka compilou ótimos recursos nas [páginas de ajuda (em inglês)](http://info.omeka.net/) do software. 
+A equipe do Omeka compilou ótimos recursos nas [páginas de ajuda](http://info.omeka.net/)(em inglês) do software. 
 
