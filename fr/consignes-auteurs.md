@@ -8,9 +8,9 @@ skip_validation: true
 # Consignes aux auteur(e)s
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
-<h2 class="noclear"> Étape 1&#x202F;: <a href="#proposer-une-nouvelle-leçon">Proposer une nouvelle leçon</a></h2>
-<h2 class="noclear">Étape 2&#x202F;: <a href="#rédaction-et-mise-en-forme">Rédaction et mise en forme</a></h2>
-<h2 class="noclear">Étape 3&#x202F;: <a href="#soumettre-une-nouvelle-leçon">Soumettre une nouvelle leçon</a></h2>  
+<h2 class="noclear"> Étape 1&#x202F;: <a href="#proposer-une-nouvelle-leçon">proposer une nouvelle leçon</a></h2>
+<h2 class="noclear">Étape 2&#x202F;: <a href="#rédaction-et-mise-en-forme">pédaction et mise en forme</a></h2>
+<h2 class="noclear">Étape 3&#x202F;: <a href="#soumettre-une-nouvelle-leçon">soumettre une nouvelle leçon</a></h2>  
 
 
 Ces consignes ont été développées pour vous permettre de comprendre comment s'organise l'écriture d'un tutoriel pour le *Programming Historian en français*. Elles fournissent des détails pratiques, des informations sur la philosophie de la revue, ses workflows et l'évaluation ouverte par les pairs. Si pour quelque raison que ce soit elles nous vous paraissent pas claires, n'hésitez pas à contacter notre rédacteur / rédactrice en chef {% include managing-editor.html lang=page.lang %}.  
@@ -30,22 +30,27 @@ Afin d'assurer la pérennité de nos leçons, les auteur(e)s doivent s'efforcer 
 
 Une fois que votre proposition est acceptée, nous allons créer un ticket "Proposition" dans notre [dépôt de soumissions](https://github.com/programminghistorian/ph-submissions/issues?q=is%3Aissue+is%3Aopen+label%3Aproposal) avec le titre provisoire de la leçon et les objectifs pédagogiques proposés. Ce ticket sert à signaler le travail en cours alors que vous êtes en train de rédiger votre leçon. Pour éviter d'accumuler les retards, nous vous demandons de soumettre votre leçon dans les 90 jours suivant l'acceptation de votre proposition. Pendant cette période, votre point de contact sera notre rédactrice en chef ou un autre membre de l'équipe désigné par celle-ci.
 
-## Rédaction et mise en forme
-Cette section présente notre charte éditoriale. En en respectant les principes, vous nous aidez à conserver la cohérence des contenus du *Programming Historian en français*.  
+## Étape 2&#x202F;: rédaction et mise en forme
+Ce guide de style présente notre approche et notre charte éditoriale à l'attention des auteur(e)s. En en respectant les principes, vous nous aidez à conserver la cohérence des contenus du *Programming Historian en français*.  
 
-Elle comprend trois parties:  
+La section comprend trois parties, que nous vous remercions de lire avant de et après avoir écrit votre contribution#x202F;:  
 
-* Règles de rédaction  
-* Règles typographiques  
-* Règles de mise en forme  
+* A. Style de rédaction et public ciblé  
+* B. Règles typographiques  
+* C. Règles de mise en forme  
 
-### Règles de rédaction  
-<!--dans cette partie j'ai changé le niveau d'arborescence en comparaison avec la page en EN, cela faisait bizarre de maintenir cette partie au niveau 2, car elle dépend d'une partie niveau 2 aussi)-->  
-Cette partie aborde des questions générales de style pour vous aider à mieux répondre aux attentes de notre lectorat et de notre équipe éditoriale. Elle fournit des informations élémentaires sur le style et le ton à adopter lors de la rédaction, les valeurs de libre accès et de logiciel libre, la nécessité de s'adresser à un lectorat international, l'enjeu d'une écriture durable, et les choix à faire quant aux données mobilisées dans les leçons. Nous vous conseillons de bien lire cette partie lorsque vous vous projettez dans l'écriture d'une leçon puis de la relire avant de soumettre votre texte pour avoir la certitude que voous en avez tenu compte.    
+### Style de rédaction  
+Cette partie aborde des questions générales de style pour vous aider à mieux répondre aux attentes de notre lectorat et de notre équipe éditoriale. Elle fournit des informations élémentaires sur le style et le ton à adopter lors de la rédaction, l'engagement en faveur du libre accès et des logiciels libres, la nécessité de s'adresser à un lectorat international, l'enjeu d'une écriture durable, et les choix à faire quant aux données mobilisées dans les leçons. Nous vous conseillons de bien lire cette partie lorsque vous vous projettez dans l'écriture d'une leçon puis de la relire avant de soumettre votre texte pour avoir la certitude que vous en avez tenu compte.    
 
-#### Language and Style  
+#### Langue et style  
+*	Les tutoriels ne doivent pas excéder 8000 mots (y compris le code).
+*	Veillez à garder un ton formel mais accessible.
+*	Nous vous conseillons d'utiliser la deuxième personne du pluriel (*vous*) pour vous adresser à votre lectorat. 
+*	Merci de veiller à ce que votre français soit compréhensible dans tout l'espace francophone. 
+*	Souvenez-vous que vous rédigez un tutoriel ou une leçon, mais pas un article académique.   
 
-#### Open Source, Open Access  
+#### Open Source, Open Access
+Le *Programming Historian en français* adhère aux principes de l’open source. Toutes les leçons doivent utiliser des langages de programmation et des logiciels libres dans la mesure du possible. Cela minimise les coûts pour toutes les parties impliquées dans la création et la réception des leçons et garantit une participation aussi large que possible.   
 
 ### Écrire pour un public international
 
