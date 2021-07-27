@@ -8,14 +8,14 @@ skip_validation: true
 # Consignes aux auteur(e)s
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
-<h2 class="noclear"> Étape 1 : <a href="#proposer-une-nouvelle-leçon">Proposer une nouvelle leçon</a></h2>
-<h2 class="noclear">Étape 2 : <a href="#rédaction-et-mise-en-forme">Rédaction et mise en forme</a></h2>
-<h2 class="noclear">Étape 3 : <a href="#soumettre-une-nouvelle-leçon">Soumettre une nouvelle leçon</a></h2>  
+<h2 class="noclear"> Étape 1&#x202F;: <a href="#proposer-une-nouvelle-leçon">Proposer une nouvelle leçon</a></h2>
+<h2 class="noclear">Étape 2&#x202F;: <a href="#rédaction-et-mise-en-forme">Rédaction et mise en forme</a></h2>
+<h2 class="noclear">Étape 3&#x202F;: <a href="#soumettre-une-nouvelle-leçon">Soumettre une nouvelle leçon</a></h2>  
 
 
-Ces consignes ont été développées pour vous permettre de comprendre comment s'organise l'écriture d'un tutoriel pour le *Programming Historian en français*. Elles fournissement des détails pratiques, des informations sur la philosophie de la revue, ses workflows et l'évaluation ouverte par les pairs. Si pour quelque raison que ce soit elle nous vous paraissent pas claires, n'hésitez pas à contacter le rédacteur ou la rédactrice en chef {% include managing-editor.html lang=page.lang %}.  
+Ces consignes ont été développées pour vous permettre de comprendre comment s'organise l'écriture d'un tutoriel pour le *Programming Historian en français*. Elles fournissent des détails pratiques, des informations sur la philosophie de la revue, ses workflows et l'évaluation ouverte par les pairs. Si pour quelque raison que ce soit elles nous vous paraissent pas claires, n'hésitez pas à contacter notre rédacteur / rédactrice en chef {% include managing-editor.html lang=page.lang %}.  
 
-## Proposer une nouvelle leçon
+## Étape 1&#x202F;: proposer une nouvelle leçon
 
 <div class="alert alert-success">
 Nous vous invitons à nous soumettre des tutoriels pertinents pour les sciences humaines et sociales, qui portent sur un problème de recherche ou un processus particulier, et qui sont adaptés à n'importe quel niveau de compétence et d'expérience technique. Les tutoriels ont vocation à être pérennes dans le long terme et doivent s'adresser à un public international.
@@ -28,7 +28,7 @@ Vous pouvez avoir une meilleure idée de ce que nous publions en consultant nos 
 <!--
 Afin d'assurer la pérennité de nos leçons, les auteur(e)s doivent s'efforcer de soumettre des leçons qui ne sont pas complètement dépendantes de logiciels spécifiques ou d'interfaces utilisateurs. Ces leçons vont à coup sûr souffrir d'instabilité et vont avoir besoin de révisions substantielles lorsque sort une nouvelle version du logiciel ou de l'interface. Enseigner des concepts, plutôt que demander de "cliquer sur le bouton _x_", facilite la rédaction et la publication de tutoriels pérennes.-->
 
-Une fois que votre proposition est acceptée, nous allons créer un ticket "Proposition" dans notre [dépôt de soumissions](https://github.com/programminghistorian/ph-submissions/issues) avec le titre provisoire de la leçon et les objectifs pédagogiques proposés. Ce ticket sert à signaler le travail en cours alors que vous êtes en train de rédiger votre leçon. Pour éviter d'accumuler les retards, nous vous demandons de soumettre votre leçon dans les 90 jours suivant l'acceptation de votre proposition.
+Une fois que votre proposition est acceptée, nous allons créer un ticket "Proposition" dans notre [dépôt de soumissions](https://github.com/programminghistorian/ph-submissions/issues?q=is%3Aissue+is%3Aopen+label%3Aproposal) avec le titre provisoire de la leçon et les objectifs pédagogiques proposés. Ce ticket sert à signaler le travail en cours alors que vous êtes en train de rédiger votre leçon. Pour éviter d'accumuler les retards, nous vous demandons de soumettre votre leçon dans les 90 jours suivant l'acceptation de votre proposition. Pendant cette période, votre point de contact sera notre rédactrice en chef ou un autre membre de l'équipe désigné par celle-ci.
 
 ## Rédaction et mise en forme
 Cette section présente notre charte éditoriale. En en respectant les principes, vous nous aidez à conserver la cohérence des contenus du *Programming Historian en français*.  
@@ -159,7 +159,7 @@ Ou bien écrire:
 * **Esperluette ou perluète**: ne pas l'utiliser comme conjonction de coordination à la place de "et" pour joindre deux noms communs, mais seulement lorsque référence est faite à des [noms d’entreprises entre deux patronymes, prénoms ou initiales](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3330). 
 <!-- * **Apostrophe**: J'ai omis l'apostrophe car son fonctionnement est différent de l'angais et plutôt simlple en française (marquer l'élision avec notamment les articles) --> 
 * **Parenthèses / crochets**: pour éviter de décharger du texte accessoire entre parenthèses, tels les commentaires, les précisions etc., il vaut mieux utiliser des virgules ou des tirets. Utiliser néanmoins systématiquement les parenthèses pour apporter des précisions sur des termes techniques en anglais, par exemple des éléments de l'interface d'un logiciel ou de code, lorsque vous fournissez la traduction en français dans le texte.  
-* **Deux-points**: l'utiliser pour introduire des listes, du texte explicatif, des définitions, des citations, du discours direct, sans attribuer le majuscule au premier mot de la phrase qui suit le deux-points. Ce signe est précédé d'un espace insécable. Voici quelques exemples : 
+* **Deux-points**: l'utiliser pour introduire des listes, du texte explicatif, des définitions, des citations, du discours direct, sans attribuer le majuscule au premier mot de la phrase qui suit le deux-points. Ce signe est précédé d'une espace insécable. Voici quelques exemples : 
     *  Cette incertitude résulte de la combinaison des différentes sources d’erreur au sein du laboratoire : il s’agit d’une incertitude aléatoire inhérente à la mesure.
     *  Nous sommes d'accord avec Tim Berners-Lee pour dire : "We want raw data now!"
     *  La conservation des données de la recherche dans un format numérique a clairement des avantages par rapport au précédent format physique : elles peuvent être parcourues et fouillées, hébergées d’une façon qui permette un accès depuis de nombreux endroits, fusionnées ou croisées avec d’autres données de la recherche.
