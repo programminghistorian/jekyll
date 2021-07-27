@@ -3,6 +3,7 @@ title: Introducción a la codificación de textos en TEI (parte 1)
 collection: lessons
 layout: lesson
 slug: introduccion-a-tei-1
+date: 2021-07-27
 authors:
   - Nicolás Vaughan
 editors:
@@ -12,13 +13,13 @@ reviewers:
   - Iñaki Cano
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/366
 difficulty: 2
-activity: transformimg
+activity: transforming
 topics:
 - data-manipulation
 - website
 abstract: "Esta lección (la primera de dos partes) te enseña los rudimentos de TEI-XML para codificar textos."
 doi: 10.46430/phes0053
-avatar_alt: Grabado de un corte transversal de suelo con sus etiquetas corrspondientes. 
+avatar_alt: Grabado de un corte transversal de suelo con sus etiquetas corrspondientes.
 ---
 
 {% include toc.html %}
@@ -82,7 +83,7 @@ Ese uso del marcado tiene como finalidad principal la visualización del texto, 
 
 Comprender la diferencia entre entre marcado de visualización (como el de Markdown) y marcado semántico (o estructural, como el que veremos a continuación en TEI) es crucial para entender el objetivo de la codificación de textos. Cuando marcamos un fragmento de texto para codificarlo, lo hacemos sin importarnos en principio cómo fue representado originalmente ni cómo pueda ser eventualmente representado en el futuro. Nos interesa únicamente la función semántica o estructural que un texto particular tenga. Por eso debemos procurar identificar con precisión las funciones o categorías de los textos, dejando de lado, en la medida de lo posible, el modo como son mostrados en el papel o la pantalla.
 
-Aclaremos mejor esto volviendo a nuestro ejemplo inicial. Supongamos que en el texto digitalizado del que partimos los nombres propios aparecen siempre impresos en [letra versalita](https://es.wikipedia.org/wiki/Versalita), como en el siguiente fragmento: 
+Aclaremos mejor esto volviendo a nuestro ejemplo inicial. Supongamos que en el texto digitalizado del que partimos los nombres propios aparecen siempre impresos en [letra versalita](https://es.wikipedia.org/wiki/Versalita), como en el siguiente fragmento:
 
 {% include figure.html filename="introduccion-a-tei-1-07.png" caption="Fragmento corto de texto digitalizado de _Don Quijote_" %}
 
@@ -104,7 +105,7 @@ XML y TEI son lenguajes de marcado y en eso se diferencian de los lenguajes de p
 
 ## XML
 
-En esta lección no entraremos en detalle en la sintaxis y el funcionamiento de XML. Recomendamos, por lo tanto, que el lector le dé una mirada a 
+En esta lección no entraremos en detalle en la sintaxis y el funcionamiento de XML. Recomendamos, por lo tanto, que el lector le dé una mirada a
 [esta otra lección](/es/lecciones/transformacion-datos-xml-xsl) para más información sobre XML, así como a la bibliografía y referencias sugeridas al final de esta lección.
 
 Por ahora solo debemos saber que todo documento XML debe cumplir dos reglas básicas para ser válido:
@@ -235,7 +236,7 @@ Supongamos que queremos codificar el *Quijote* de Cervantes, partiendo de [esta 
 </teiHeader>
 ```
 
-Esta es la información mínima para identificar el documento codificado. Nos dice el título y autor del texto, el responsable de la codificación y la fuente de donde se tomó dicho texto. 
+Esta es la información mínima para identificar el documento codificado. Nos dice el título y autor del texto, el responsable de la codificación y la fuente de donde se tomó dicho texto.
 
 Sin embargo, es posible —y a veces es deseable— especificar más detalladamente los metadatos del documento. Por ejemplo, consideremos esta otra versión del `<teiHeader>` para el mismo texto:
 
@@ -349,7 +350,7 @@ Veamos, por ejemplo, el siguiente esquema:
 </text>
 ```
 
-Aunque TEI nos permita codificar exhaustivamente muchos de los aspectos y propiedades de un texto, en ocasiones no nos interesan todos ellos. Es más, el proceso de codificación puede extenderse innecesariamente en el tiempo si codificamos elementos que nunca vamos a aprovechar en una eventual transformación. Por ejemplo, si estamos codificando el texto de una edición impresa, puede ocurrir que las divisiones de línea en los párrafos no sean relevantes para nuestra codificación. 
+Aunque TEI nos permita codificar exhaustivamente muchos de los aspectos y propiedades de un texto, en ocasiones no nos interesan todos ellos. Es más, el proceso de codificación puede extenderse innecesariamente en el tiempo si codificamos elementos que nunca vamos a aprovechar en una eventual transformación. Por ejemplo, si estamos codificando el texto de una edición impresa, puede ocurrir que las divisiones de línea en los párrafos no sean relevantes para nuestra codificación.
 
 En ese caso podemos ignorarlas y quedarnos solo con las divisiones de párrafo, sin descender más allá de ellas. O quizás sintamos la tentación de codificar sistemáticamente todas las fechas y los nombres de lugares (con los elementos [`<date>`](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html) y [`<placeName>`](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-placeName.html), respectivamente) que aparezcan en nuestro texto objeto, aun cuando nunca los aprovechemos posteriormente. Hacerlo no es un error, desde luego, pero quizás perdamos tiempo valioso en ello.
 
@@ -358,7 +359,7 @@ En suma, podríamos formular la "regla de oro" de la codificación así: codifiq
 ## Conclusiones
 En esta primera parte de la lección has aprendido:
 
-1. Qué significa códificar un texto 
+1. Qué significa códificar un texto
 2. Qué son los documentos XML y XML-TEI
 
 En la segunda parte, que pronto será publicada, verás en detalle dos ejemplos de codificación de textos.
@@ -380,4 +381,3 @@ En la segunda parte, que pronto será publicada, verás en detalle dos ejemplos 
 - La página [TTHUB](https://tthub.io) contiene una excelente ["Introducción a la Text Encoding Initiative"](https://tthub.io/aprende/introduccion-a-tei/) por Susanna Allés Torrent (2019).
 
 - Una lección introductoria de Programming Hstorian a XML y las transformaciones XSL es [*Transformación de datos con XML y XSL para su reutilización*](/es/lecciones/transformacion-datos-xml-xsl), de M. H. Beals.
-
