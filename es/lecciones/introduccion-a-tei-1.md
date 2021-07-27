@@ -65,7 +65,7 @@ Escribe `Xml complete` en el campo de búsqueda:
 
 Finalmente haz clic en "Install":
 
-{% include figure.html filename="introduccion-a-tei-1-04.png" caption="Instalar \"XML Complete\" en VS Code" %}
+{% include figure.html filename="introduccion-a-tei-1-04.png" caption="Instalar XML Complete" en VS Code" %}
 
 La extensión XML Complete nos permite, entre otras cosas, validar formalmente documentos XML. Si hay un error formal —por ejemplo si hemos olvidado cerrar una etiqueta—, VS Code nos lo mostrará en la barra de abajo:
 
