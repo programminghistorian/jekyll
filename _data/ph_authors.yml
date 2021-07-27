@@ -2227,3 +2227,9 @@
     - proghist
     - archive
   status: institutionally-supported
+
+- name: Nicolás Vaughan 
+  team: false
+  bio:
+      es: |
+        Nicolás Vaughan es profesor asociado del Departamento de Humanidades y Literatura de la Universidad de los Andes, en Bogotá, Colombia, donde también enseña en la Maestría en Humanidades Digitales. Es doctor en filosofía medieval de la Universidad de Oxford.
