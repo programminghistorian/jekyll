@@ -28,6 +28,10 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [RStudio, PBC](https://rstudio.com/), Estados Unidos
 - [CESTA, Stanford University](https://cesta.stanford.edu/), Estados Unidos
 - [University of Waterloo](https://uwaterloo.ca/), Canadá
+- [Universidad de los Andes](https://uniandes.edu.co/), Colombia
+- [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Dinamarca
+- [Aarhus University Library](https://library.au.dk/), Dinamarca
+- [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 
@@ -35,6 +39,7 @@ Agradecemos consultas de posibles contribuidores del [Programa de Instituciones 
 
 Organizaciones que han o continúan brindando apoyo en forma de contribución en especie hasta financiamiento específico para proyectos.
 
+- UCL, Faculty of Arts & Humanities, Reino Unido [2021].
 - [Escola de Ciências Sociais FGV CPDOC](https://portal.fgv.br), "Literacia digital: modelando competências digitais para humanistas e cientistas sociais", Brasil [2021-2022].
 - The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Reino Unido [2021].
 - University of Sussex, Reino Unido:
@@ -66,9 +71,11 @@ En particular, agradecemos la contribución de los siguientes suscriptores de Pa
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 - Dimitra Koutla
+- Ben Akrigg
 - Laura Gayle Green ('Educación')
 - Rebecca Kahn ('Educación')
 - Sarah Melton ('Educación')
+- Laurissa Stokes ('Educación')
 
 ## Administración de donaciones y patrocinios
 

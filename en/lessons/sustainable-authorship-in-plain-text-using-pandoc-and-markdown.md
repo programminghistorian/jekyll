@@ -7,6 +7,9 @@ authors:
 - Grant Wythoff
 editors:
 - Fred Gibbs
+lesson-testers: 
+- Pao-Chuan Ma
+tested-date: 2021-06-10
 difficulty: 2
 activity: sustaining
 topics: [website, data-management]
@@ -703,7 +706,7 @@ and often free of cost. From the standalone ones, we liked
 have recently emerged that provide slick, graphic interfaces for
 collaborative writing and version tracking using Markdown. These
 include: [prose.io](http://prose.io),
-[Authorea](http://www.authorea.com), [Penflip](http://www.penflip.com),
+[Authorea](http://www.authorea.com),
 [Draft](http://www.draftin.com), and
 [StackEdit](https://stackedit.io).
 

@@ -246,8 +246,8 @@ menu-support-ipp:
     title: Partenariat institutionnel
     link: /fr/pi
   pt:
-    title: Programa de Parceiros Institucionais
-    link: /pt/apoie-nos#programa-de-parceiros-institucionais
+    title: Programa de Parceria Institucional
+    link: /pt/ppi
 menu-support-individual:
   en:
     title: Individual Supporters
@@ -259,8 +259,8 @@ menu-support-individual:
     title: Dons individuels
     link: /fr/dons
   pt: 
-    title: Doações
-    link: /pt/apoie-nos#doações
+    title: Apoiadores individuais
+    link: /pt/doacoes
 menu-support-supporters:
   en:
     title: Our Supporters
@@ -272,8 +272,8 @@ menu-support-supporters:
     title: Nos soutiens
     link: /fr/nos-soutiens
   pt:
-    title: Apoiadores
-    link: /pt/apoie-nos#apoiadores
+    title: Nossos Apoiadores
+    link: /pt/apoiadores
 menu-lang:
   es:
     title: es
@@ -735,12 +735,12 @@ the-authors:
     en: author
     es: del autor
     fr: de l'auteur(e)
-    pt: autor(a)
+    pt: o(a) autor(a)
   plural:
     en: authors
     es: de los autores
     fr: des auteur(e)s
-    pt: autores(as)
+    pt: os(as) autores(as)
 
 # Home Page
 project-summary:

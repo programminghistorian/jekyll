@@ -286,7 +286,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth):
     response = urllib.request.urlopen(url)
     webContent = response.read()
     filename = 'search-result'
-    f = open(filename + ".html", 'wb')
+    f = open(filename + ".html", 'w')
     f.write(webContent)
     f.close
 ```
@@ -469,7 +469,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         response = urllib.request.urlopen(url)
         webContent = response.read()
         filename = 'search-result' + str(startValue)
-        f = open(filename + ".html", 'wb')
+        f = open(filename + ".html", 'w')
         f.write(webContent)
         f.close
 
@@ -564,7 +564,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         #save the result to the new directory
         filename = 'search-result' + str(startValue)
 
-        f = open(filename + ".html", 'wb')
+        f = open(filename + ".html", 'w')
         f.write(webContent)
         f.close
 
@@ -645,7 +645,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         response = urllib.request.urlopen(url)
         webContent = response.read()
         filename = cleanQuery + '/' + 'search-result' + str(startValue)
-        f = open(filename + ".html", 'wb')
+        f = open(filename + ".html", 'w')
         f.write(webContent)
         f.close
 
@@ -830,7 +830,7 @@ def getIndivTrials(query):
         filePath = pjoin(cleanQuery, filename)
 
         #save the file
-        f = open(filePath, 'wb')
+        f = open(filePath, 'w')
         f.write(webContent)
         f.close
 
@@ -881,7 +881,7 @@ def getIndivTrials(query):
         filePath = pjoin(cleanQuery, filename)
 
         #save the file
-        f = open(filePath, 'wb')
+        f = open(filePath, 'w')
         f.write(webContent)
         f.close
 
@@ -926,7 +926,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         response = urllib.request.urlopen(url)
         webContent = response.read()
         filename = cleanQuery + '/' + 'search-result' + str(startValue)
-        f = open(filename + ".html", 'wb')
+        f = open(filename + ".html", 'w')
         f.write(webContent)
         f.close
 
@@ -1091,7 +1091,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         response = urllib.request.urlopen(url)
         webContent = response.read()
         filename = cleanQuery + '/' + 'search-result' + str(startValue)
-        f = open(filename + ".html", 'wb')
+        f = open(filename + ".html", 'w')
         f.write(webContent)
         f.close
 
@@ -1141,7 +1141,7 @@ def getIndivTrials(query):
             filePath = pjoin(cleanQuery, filename)
 
             #save the file
-            f = open(filePath, 'wb')
+            f = open(filePath, 'w')
             f.write(webContent)
             f.close
         except urllib.error.URLError:

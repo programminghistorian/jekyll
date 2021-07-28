@@ -350,7 +350,6 @@
   team_roles:
     - proghist
     - finance-manager
-    - archive
   status: institutionally-supported
 
 - name: Amanda Morton
@@ -1501,7 +1500,6 @@
   team_roles:
     - spanish
     - editorial
-    - new-pub-manager
   status: volunteer
 
 - name: Armando Luza
@@ -2191,3 +2189,47 @@
   bio:
     en: |
        Halle Burns is an assistant professor in the University Libraries at the University of Nevada, Las Vegas. She is also a certified instructor with The Carpentries, an international organization that teaches coding and data science skills to researchers. 
+
+- name: Marcelo Raimundo 
+  team: false
+  bio:
+      es: |
+        Marcelo Raimundo es profesor e investigador de la Universidad Nacional de La Plata y se dedica al análisis histórico de la conflictividad obrera.
+
+- name: Anisa Hawes
+  github: Anisa-ProgHist
+  email: anisa.hawes@icloud.com
+  twitter: AnisaHawes
+  url: "https://anisahawes.github.io/about/"
+  team: true
+  team_start: 2021
+  institution: Programming Historian, UK
+  sortname: Hawes
+  affiliation:
+    en: |
+      Programming Historian, UK
+    es: |
+      Programming Historian, Reigno Unido
+    fr: |
+      Programming Historian, Royaume-Uni
+    pt: |
+      Programming Historian, Reino Unido
+  bio:
+    en: |
+      Anisa Hawes, Programming Historian.
+    es: |
+      Anisa Hawes, Programming Historian.
+    fr: |
+      Anisa Hawes, Programming Historian.
+    pt: |
+      Anisa Hawes, Programming Historian.
+  team_roles:
+    - proghist
+    - archive
+  status: institutionally-supported
+
+- name: Nicolás Vaughan 
+  team: false
+  bio:
+      es: |
+        Nicolás Vaughan es profesor asociado del Departamento de Humanidades y Literatura de la Universidad de los Andes, en Bogotá, Colombia, donde también enseña en la Maestría en Humanidades Digitales. Es doctor en filosofía medieval de la Universidad de Oxford.

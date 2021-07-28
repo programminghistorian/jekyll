@@ -27,6 +27,9 @@ abstract: "Esta primera lección de nuestra sección sobre recursos en línea es
 original: introduction-and-installation
 avatar_alt: Grabado de una serpiente de cascabel
 doi: 10.46430/phes0016
+next: ver-archivos-html
+sequence: 1
+series_total: 14
 ---
 
 {% include toc.html %}
