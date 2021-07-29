@@ -265,7 +265,9 @@ N'hésitez pas à consulter nos [consignes aux évaluateurs et évaluatrices](/f
 Si jamais vous êtes dans l'incertitude sur comment procéder, n'hésitez pas à poster votre question sur le ticket d'évaluation, un membre de notre équipe vous apportera des réponses dans les délais les plus brefs possible. Nous faisons de notre mieux pour répondre au bout de quelques jours.
 
 
-###
+### Que se passe-t-il une fois votre leçon publiée?
+
+Il nous arrive de recevoir des retours de notre lectorat nous signalant des erreurs dans nos leçons. Le cas échéant, notre assistante éditoriale va ouvrir un ticket sur GitHub pour confirmer si l'erreur signalée est due à une mauvaise manipulation de l'utilisateur ou de l'utilisatrice (modification du code, du jeu de données...) ou à un problème de la leçon. Dans ce dernier cas, notre assistante éditoriale va tester à nouveau la leçon et chercher une solution. Dans le cadre de ce processus de maintenance de nos leçons, nous pouvons être amenés à vous contacter aussi pour solliciter votre avis. Si une solution est impossible à trouver, nous proposerons de faire afficher un avertissement expliquant que certain(e)s de nos utilisateurs et utilisatrices pourraient rencontrer des problèmes. Lorsque cela est possible, l'avertissement devrait inclure des liens vers des ressources qui pourraient permettre aux utilisateurs et utilisatrices de trouver une solution.
 
 
 ### Nous interpeller
