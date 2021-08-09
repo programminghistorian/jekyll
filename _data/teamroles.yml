@@ -95,17 +95,6 @@
     es: Responsable del archivo del proyecto
     fr: Responsable de l'archive du projet
     pt: Responsável por gerir o arquivo do projeto
-- type: ed-manager
-  label:
-    en: Education Manager
-    es: Mánager de educación
-    fr: Responsable pédagogique
-    pt: Gestor educacioonal
-  definition:
-    en: Responsible for the overall education aspect of the project
-    es: Responsable del aspecto educativo general del proyecto
-    fr: Responsable des aspects pédagogiques du projet
-    pt: Responsável pela área educativa do projeto
 - type: finance-manager
   label:
     en: Finance Manager
