@@ -285,7 +285,7 @@ Se a lição está pronta a submeter, segue-se a revisão por pares. As submiss�
 
 ## O processo de revisão por pares
 
-Depois do editor verificar se os  ficheiros estão carregados e formatados da forma correta, será enviado um link para a pré-visualização da lição, onde quaisquer erros de formatação serão evidentes e ainda podem ser corrigidos.
+Depois do editor verificar se os ficheiros estão carregados e formatados da forma correta, será enviado um link para a pré-visualização da lição, onde quaisquer erros de formatação serão evidentes e ainda podem ser corrigidos.
 
 Todo o processo de revisão por pares estará registado num "[ticket do Github](https://github.com/programminghistorian/ph-submissions/issues)", que funciona como um quadro de mensagens de discussão aberta. Esteja ciente que o processo de revisão é feito em público e permanece disponível como um registo permanente da revisão por pares. Se houver alguma dúvida ou preferir uma revisão fechada, entre em contato com o editor.
 
@@ -300,6 +300,10 @@ O processo de revisão por pares normalmente tem três etapas:
 Pode ser útil ler as [directrizes para editores](/pt/directrizes-editor), que apresentam mais detalhes sobre todo o processo editorial.
 
 Se, a qualquer momento, tiver dúvidas do seu papel ou o que fazer a seguir, basta publicar a pergunta na discussão da revisão por pares. Qualquer um dos nossos editores responderá assim que possível. A equipa esforça-se por responder a todas as perguntas dentro de poucos dias.
+
+### O que acontece depois da lição ser publicada?
+
+Ocasionalmente, recebemos feedback de usuários que encontraram um erro ao concluir uma de nossas lições. Se isso acontecer, o/a nosso/a Assistente de Publicação abrirá um ticket no GitHub e, em seguida, realizará uma avaliação para confirmar se o erro relatado representa um problema causado pelo usuário (editar o código da lição ou alterar o seu conjunto de dados, por exemplo) ou um problema dentro da lição em si. Neste último caso, o/a nosso/a Assistente de Publicação testará novamente a(s) parte(s) relevante(s) da lição e fará pesquisas para identificar uma correção. Como parte deste processo de manutenção da lição, podemos contatá-lo junto com outros membros da equipe do _Programming Historian_ para pedir conselhos. Caso nenhuma correção seja encontrada, proporemos adicionar um aviso à lição explicando que alguns usuários podem encontrar um erro. Sempre que possível, o aviso deve incluir links para leituras adicionais, permitindo que os usuários identifiquem eles próprios uma solução. 
 
 ### Responsabilidade da equipe
 
