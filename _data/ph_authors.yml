@@ -2233,3 +2233,35 @@
   bio:
       es: |
         Nicolás Vaughan es profesor asociado del Departamento de Humanidades y Literatura de la Universidad de los Andes, en Bogotá, Colombia, donde también enseña en la Maestría en Humanidades Digitales. Es doctor en filosofía medieval de la Universidad de Oxford.
+
+- name: Tiago Sousa Garcia
+  team: true
+  team_start: 2021
+  institution: Programming Historian
+  github: tiagosousagarcia
+  email: tiagosousagarcia@gmail.com
+  twitter: tiagosousagarci
+  url: "https://tiagosousagarcia.co.uk/"
+  sortname: Sousa Garcia
+  orcid: 0000-0001-5694-7285
+  affiliation:
+    en: |
+      Programming Historian, UK
+    es: |
+      Programming Historian, Reigno Unido
+    fr: |
+      Programming Historian, Royaume-Uni
+    pt: |
+      Programming Historian, Reino Unido
+  bio:
+    en: |
+      Tiago Sousa Garcia is an early modernist and digital humanist, specialising in early modern translation and textual encoding.
+    es: |
+      Tiago Sousa Garcia es un especialista en literatura renacentista y humanidades digitales, particularmente en traducción y codificación de textos.
+    fr: |
+      Tiago Sousa Garcia est un spécialiste en littérature de la Renaissance et en humanités numériques, notamment en traduction et en codage de textes.
+    pt: |
+      Tiago Sousa Garcia é um especialista em literatura do Renascimento e humanidades digitais, particularmente em tradução e codificação textual.
+  team_roles:
+    - proghist
+  status: institutionally-supported
