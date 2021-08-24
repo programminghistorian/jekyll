@@ -734,8 +734,9 @@
   twitter: walshbr
   email: walsh.brandon.michael@gmail.com
   url: "http://walshbr.com/"
-  team: true
+  team: false
   team_start: 2017
+  team_end: 2021
   institution: University of Virginia
   sortname: Walsh
   affiliation:
