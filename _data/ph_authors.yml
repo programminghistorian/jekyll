@@ -1794,7 +1794,7 @@
         Temple University, Estados Unidos.
   bio:
     en: |
-      Alex Wermer-Colan is the Digital Humanities Postdoctoral Fellow at Temple University Libraries' Loretta C. Duckworth Scholars Studio.
+      Alex Wermer-Colan is the Digital Scholarship Coordinator at Temple University Libraries' Loretta C. Duckworth Scholars Studio.
     es: |
       Alex Wermer-Colan es becario postdoctoral en Humanidades Digitales en el Loretta C. Duckworth Scholars Studio de la Biblioteca de la Universidad de Temple.
     fr: |
@@ -1802,8 +1802,9 @@
     pt: |
       Alex Wermer-Colan é Bolseiro de Pós-Doutorado em Humanidades Digitais na Biblioteca Loretta C. Duckworth Scholars Studio da Temple University.
   team_roles:
-    - editorial
-    - english
+      - english
+      - editorial
+      - technical
   status: volunteer
 
 - name: Danielle Sanches
