@@ -1,6 +1,6 @@
 ---
 title: Report a bug
-date: 07-11-2015
+date: 16-07-2021
 layout: blank
 redirect_from:
  - /report-issue.html
@@ -18,28 +18,32 @@ We define bugs as: "An error in a computer program that produces an unexpected r
 
 First, we ask that you check on our [issue tracker](https://github.com/programminghistorian/jekyll/issues?q=is%3Aissue+is%3Aopen+label%3Abug) if someone has already flagged the problem and, in such case, that you leave a comment. If the issue has not been reported, follow one of these options:
 
-## Option 1: Open an Issue on GitHub
-This is our preferred way of handling feedback because all our editors are able to see and respond to your issue.
+## Option 1: Email
+
+Send an email to our [Publishing Assistant](mailto:anisa.hawes@icloud.com).
+
+Please include the following information in your message:
+
+- The full title of the lesson
+- The system you are using (Mac, Linux, Windows)
+- Version numbers of the relevant software you are using
+- The exact steps you took that caused the problem
+
+## Option 2: Open an Issue on GitHub
 
 First, [sign up for a free, personal GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account) if you don't already have one. Log in if you already have an account.
 
-Then, go to the [issues page](https://github.com/programminghistorian/jekyll/issues?state=open) for our Repository.
+Then, go to the [issues page](https://github.com/programminghistorian/jekyll/issues?state=open) of our Repository.
 
-Create a new issue with a descriptive title and completing as much information as you can give following the prompt we provide.
+Create a new issue with a descriptive title and complete as much information as you can, following the prompts we provide.
 
 <img src="https://cloud.githubusercontent.com/assets/1126864/3697100/52b37768-139e-11e4-816e-c3eee5516997.png" class="full-width rounded" alt="{{ site.data.snippets.open-an-issue-on-github-image-alt[page.lang] }}"/>
 
 For more information about GitHub issues, read the GitHub Guide on [Mastering Issues](https://guides.github.com/features/issues/).
 
-
-## Option 2: Make a Pull Request
 If you believe you know how to fix the problem in the lesson, you may wish to consider forking our repository and making a pull request.
 
-For more information on pull requests, see the GitHub Guide on [Forking Projects](https://guides.github.com/activities/forking/) or Rich Jones's tutorial on [How to GitHub](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).
-
-
-## Option 3: Email or Tweet
-If you are not familiarized at all with GitHub, you can also send an email to {% include managing-editor.html lang=page.lang %} or one of the other members of our [Project Team](project-team.html). 
+For more information about pull requests, see the GitHub Guide on [Forking Projects](https://guides.github.com/activities/forking/) or Rich Jones's tutorial on [How to GitHub](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).
 
 ## Further Resources on Git and GitHub
 

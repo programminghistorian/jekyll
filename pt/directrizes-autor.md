@@ -25,7 +25,7 @@ O âmbito e extensão da lição devem ser adequados à  complexidade da tarefa,
 
 Se tem uma ideia para uma nova lição preencha o [formulário de proposta de lição](/assets/forms/formulario.proposta.licao.txt) e envie para {% include managing-editor.html lang=page.lang %}.
 
-Para ter uma ideia do que publicamos consulte as [lições publicadas]({{site.baseurl}}/pt/licoes), leia as nossas [orientações para revisores]({{site.baseurl}}/pt/directrizes-revisor) ou navegue pelas [lições em desenvolvimento](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
+Para ter uma ideia do que publicamos consulte as [lições publicadas]({{site.baseurl}}/pt/licoes), leia as nossas [orientações para revisores]({{site.baseurl}}/pt/directrizes-revisor) ou navegue pelas [lições em desenvolvimento](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/pt/licoes).
 
 Se a sua proposta for aceite, um editor criará uma página "Proposta" no nosso [website de submissões](https://github.com/programminghistorian/ph-submissions/issues) com o título da lição, mesmo que seja apenas um rascunho, e com os objetivos propostos. Isto serve para acompanhar o trabalho em andamento. Para garantir a publicação em tempo útil, os autores devem enviar a sua proposta de lição no prazo de 90 dias.
 
@@ -125,7 +125,7 @@ Ou:
 3. Aqui está o item final
 
 ### Pontuação
- *	**Abreviação**: escrever todas as palavras na primeira pessoa. União Europeia (UE) e depois UE. Não utilize pontos ou espaços entre as iniciais: BBC, PhD, mph, 4am, etc.
+ *	**Abreviação**: escrever todas as palavras por extenso, na primeira menção. União Europeia (UE) e depois UE. Não utilize pontos ou espaços entre as iniciais: BBC, PhD, mph, 4am, etc.
  *	**Ampersand**: em geral, não utilize um ampersand (eitza ou sinal tironiano) no lugar da conjunção aditiva "e" a menos que se refira a uma empresa ou publicação que a utilize: P&O, Past & Present.
  *	**Aspas/Parênteses**: é melhor usar vírgulas ou travessões. Utilizar parênteses para introduzir explicações numa citação direta, por exemplo: Ele disse: "Quando terminado (o túnel) vai revolucionar a viagem" ou "Ela disse adiós (adeus)". Coloque reticências ou um ponto final fora da aspa final se o material dentro não for uma frase. (Mas uma frase independente tem um ponto final antes do parêntese de fechamento).
  *	**Dois pontos**: utilizar para introduzir listas, tabulações, textos, como em:
@@ -185,7 +185,7 @@ Todas as lições devem ser escritas em [Markdown](https://en.wikipedia.org/wiki
 * [Faça o download do template de lição em português (.md).]({{site.baseurl}}/pt/licoes-modelo.md).
 
 Markdown é uma linguagem de marcação que é mais fácil de trabalhar num editor de texto. O MS Word e o Open Office NÃO são editores de texto e devem ser evitados. Recomendamos [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://en.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/) ou [Notepad++](https://notepad-plus-plus.org/download).
-Para uma primeira introdução à formatação do Markdown, consultar [Introdução ao Markdown (em inglês)]({{site.baseurl}}/en/lessons/getting-started-with-markdown), ou uma explicação mais breve em [Guia de Markdown do GitHub](https://guides.github.com/features/mastering-markdown/).
+Para uma primeira introdução à formatação do Markdown, consultar [Introdução ao Markdown]({{site.baseurl}}/pt/licoes/introducao-ao-markdown), ou uma explicação mais breve em [Guia de Markdown do GitHub](https://guides.github.com/features/mastering-markdown/).
 
 A lição deve ser guardada no formato .md. O nome do ficheiro da lição torna-se parte do URL da lição. Portanto, deve ser nomeado de acordo com as seguintes regras:
 
@@ -285,7 +285,7 @@ Se a lição está pronta a submeter, segue-se a revisão por pares. As submiss�
 
 ## O processo de revisão por pares
 
-Depois do editor verificar se os  ficheiros estão carregados e formatados da forma correta, será enviado um link para a pré-visualização da lição, onde quaisquer erros de formatação serão evidentes e ainda podem ser corrigidos.
+Depois do editor verificar se os ficheiros estão carregados e formatados da forma correta, será enviado um link para a pré-visualização da lição, onde quaisquer erros de formatação serão evidentes e ainda podem ser corrigidos.
 
 Todo o processo de revisão por pares estará registado num "[ticket do Github](https://github.com/programminghistorian/ph-submissions/issues)", que funciona como um quadro de mensagens de discussão aberta. Esteja ciente que o processo de revisão é feito em público e permanece disponível como um registo permanente da revisão por pares. Se houver alguma dúvida ou preferir uma revisão fechada, entre em contato com o editor.
 
@@ -300,6 +300,10 @@ O processo de revisão por pares normalmente tem três etapas:
 Pode ser útil ler as [directrizes para editores](/pt/directrizes-editor), que apresentam mais detalhes sobre todo o processo editorial.
 
 Se, a qualquer momento, tiver dúvidas do seu papel ou o que fazer a seguir, basta publicar a pergunta na discussão da revisão por pares. Qualquer um dos nossos editores responderá assim que possível. A equipa esforça-se por responder a todas as perguntas dentro de poucos dias.
+
+### O que acontece depois da lição ser publicada?
+
+Ocasionalmente, recebemos feedback de usuários que encontraram um erro ao concluir uma de nossas lições. Se isso acontecer, o/a nosso/a Assistente de Publicação abrirá um ticket no GitHub e, em seguida, realizará uma avaliação para confirmar se o erro relatado representa um problema causado pelo usuário (editar o código da lição ou alterar o seu conjunto de dados, por exemplo) ou um problema dentro da lição em si. Neste último caso, o/a nosso/a Assistente de Publicação testará novamente a(s) parte(s) relevante(s) da lição e fará pesquisas para identificar uma correção. Como parte deste processo de manutenção da lição, podemos contatá-lo junto com outros membros da equipe do _Programming Historian_ para pedir conselhos. Caso nenhuma correção seja encontrada, proporemos adicionar um aviso à lição explicando que alguns usuários podem encontrar um erro. Sempre que possível, o aviso deve incluir links para leituras adicionais, permitindo que os usuários identifiquem eles próprios uma solução. 
 
 ### Responsabilidade da equipe
 

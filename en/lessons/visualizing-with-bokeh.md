@@ -122,7 +122,7 @@ pip install pandas bokeh pyproj
 To get the exact versions used to write this tutorial (note: these may not be the most recent versions of each python package) you can pass the following version numbers to `pip`.
 
 ```python
-pip install pandas==0.23.1 bokeh==0.13.0 pyproj==1.9.5.1
+pip install "pandas>=1.2.0,<1.2.3" "bokeh>=2.0.0,<2.3.0" "pyproj>=3.0,<3.0.1"
 ```
 
 ## Running Code Examples
@@ -379,7 +379,7 @@ After the imports, we set our `output_file`  and load the thor_wwii.csv file int
 We now need to get from the 170,000+ records of individual missions to one record per attacking country with the total munitions dropped.
 
 ```python
-grouped = df.groupby('COUNTRY_FLYING_MISSION')['TOTAL_TONS', 'TONS_HE', 'TONS_IC', 'TONS_FRAG'].sum()
+grouped = df.groupby('COUNTRY_FLYING_MISSION')[['TOTAL_TONS', 'TONS_HE', 'TONS_IC', 'TONS_FRAG']].sum()
 ```
 Pandas lets us do this in a single line of code by using the `groupby` dataframe method. This method accepts a column by which to group the data and one or more aggregating methods that tell Pandas how to group the data together. The output is a new dataframe.
 
@@ -675,38 +675,42 @@ We'll also be using functions imported from the `pyproj` library. Since our coor
 {% include alert.html text="If your own dataset has place names, but not latitude and longitude, don't worry! You can find ways to easily get coordinates from place names in Programming Historian's [Geocoding Historical Data using QGIS](/lessons/geocoding-qgis) or [Web Mapping with Python and Leaflet](/lessons/mapping-with-python-leaflet#geocoding-with-python)." %}
 
 ```python
-#target_locations.py
+# target_locations.py
 import pandas as pd
 from bokeh.plotting import figure, output_file, show
 from bokeh.models import ColumnDataSource, Range1d
 from bokeh.layouts import layout
 from bokeh.palettes import Spectral3
-from bokeh.tile_providers import CARTODBPOSITRON
-from pyproj import Proj, transform
+from bokeh.tile_providers import get_provider
+from pyproj import Transformer
 output_file('mapping_targets.html')
 
-#helper function to convert lat/long to easting/northing for mapping
-#this relies on functions from the pyproj library
+# helper function to convert lat/long to easting/northing for mapping
+# this relies on functions from the pyproj library
+
+
 def LongLat_to_EN(long, lat):
     try:
-      easting, northing = transform(
-        Proj(init='epsg:4326'), Proj(init='epsg:3857'), long, lat)
-      return easting, northing
+        transformer = Transformer.from_crs('epsg:4326', 'epsg:3857')
+        easting, northing = transformer.transform(long, lat)
+        return easting, northing
     except:
-      return None, None
+        return None, None
 
-df = pd.read_csv('thor_wwii.csv')
-#helper to convert all lat/long to webmercator and stores in new column
-df['E'], df['N'] = zip(*df.apply(lambda x: LongLat_to_EN(x['TGT_LONGITUDE'], x['TGT_LATITUDE']), axis=1))
+
+df = pd.read_csv("thor_wwii.csv")
+
+
+df['E'], df['N'] = zip(
+    *df.apply(lambda x: LongLat_to_EN(x['TGT_LONGITUDE'], x['TGT_LATITUDE']), axis=1)))
 ```
 
 The boilerplate imports and our conversion function are defined. Next, we load our data and apply our conversion function to create new E and N columns that store our Web Mercator easting and northing.
 
 ```python
-grouped = df.groupby(['E', 'N'])['TONS_IC',
-'TONS_FRAG'].sum().reset_index()
+grouped = df.groupby(['E', 'N'])[['TONS_IC', 'TONS_FRAG']].sum().reset_index()
 
-filter = grouped['TONS_FRAG']!=0
+filter = grouped['TONS_FRAG'] != 0
 grouped = grouped[filter]
 
 source = ColumnDataSource(grouped)
@@ -728,7 +732,9 @@ p = figure(x_range=Range1d(left, right), y_range=Range1d(bottom, top))
 To set bounds for our map, we'll set a minimum and maximum value for our plot's `x_range` and `y_range`. We use the `Range1D` object, which represents bounded 1-dimensional data in Bokeh.
 
 ```python
-p.add_tile(CARTODBPOSITRON)
+provider = get_provider('CARTODBPOSITRON')
+p.add_tile(provider)
+
 p.circle(x='E', y='N', source=source, line_color='grey', fill_color='yellow')
 
 p.axis.visible = False

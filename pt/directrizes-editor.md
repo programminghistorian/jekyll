@@ -93,7 +93,7 @@ O primeiro comentário no quadro de mensagens para uma revisão da proposta deve
 ```
 O Programming Historian em português recebeu a proposta sobre '[TÍTULO DA LIÇÃO]' do autor [USERNAME NO GITHUB DO AUTOR]. Esta lição está agora em revisão e pode ser lida em:
 
-http://programminghistorian.github.io/ph-submissions/pt/["licoes" ou "traducoes"]/[URL da lição]
+http://programminghistorian.github.io/ph-submissions/pt/licoes/["originais" ou "traducoes"]/[NOME-DO-FICHEIRO-AQUI]
 
 Eu serei o editor no processo de revisão. O meu papel é solicitar duas revisões da comunidade e gerir as discussões, que devem ser realizadas aqui neste fórum. Eu já li a lição e forneci feedback, ao qual o autor respondeu.
 
@@ -138,6 +138,7 @@ O **Editor** deve sugerir um nome para o novo ficheiro de lição que esteja em 
 - nome curto, mas descritivo (o nome acabará por ser parte do URL da lição quando estiver publicada);
 - Um bom URL é semelhante a um bom slide do powerpoint, é fácil de lembrar e dá informação sobre a lição. Os URLs das lições têm a seguinte estrutura: `https://programminghistorian.org/pt/licoes/NOME-DO-FICHEIRO-AQUI`;
 - Nunca colocar espaços no nome do ficheiro, use hífens;
+- Não usar acentos, cedilhas e caracteres especiais no nome do ficheiro;
 - A extensão do ficheiro deve ser `.md` para que o GitHub consiga apresentar uma pré-visualização da lição.
 
 Este nome utilizado no link é chamado de slug no contexto da publicação web. Para além de servir de referência na construção do URL da lição, serve também de referência para estabelecer a ligação com os ficheiros anexos.
@@ -150,9 +151,9 @@ Os autores são responsáveis por verificar se a lição foi processada corretam
 
 Esta verificação pode ser feita rapidamente na pré-visualização da versão compilada da página. Disponível em:
 
-`http://programminghistorian.github.io/ph-submissions/pt/licoes/NOME-DO-FICHEIRO-AQUI` (atenção que não tem .md no fim)
+`http://programminghistorian.github.io/ph-submissions/pt/licoes/originais/NOME-DO-FICHEIRO-AQUI` (atenção que não tem .md no fim)
 
-Observe que se for uma tradução, você substituirá "licoes" por "traducoes". Se não funcionar, informe a equipa técnica e ela tentará solucionar.
+Observe que se for uma tradução, você substituirá "originais" por "traducoes". Se não funcionar, informe a equipa técnica e ela tentará solucionar.
 
 ### C) Revisão para a sustentabilidade e internacionalização
 Para aumentar a longevidade das lições os editores do _Programming Historian em português_ devem fazer uma revisão de sustentabilidade, como parte da verificação final. Cada proposta é diferente e algumas destas áreas podem não ser aplicáveis. Tendo em conta o nível de dificuldade de cada lição e o público-alvo, os editores devem usar estas questões como orientação para garantir que as lições sejam o mais sustentável possível desde a data de publicação.
@@ -280,7 +281,7 @@ difficulty: 2
 2. Adicionar o(s) novo(s) tópico(s) em /_data/topics.yml, seguindo o formato dos existentes (atenção que os tópicos não podem ter espaços – quando necessário usar hífens).
 3. Editar o ficheiro /js/lessonfilter.js para garantir que o botão de filtro funciona para o novo tópico. Dentro ficheiro basta procurar o trecho de código de dez linhas que começa com `$ ('# filter-api')`, copiar e colar o mesmo trecho  de código, mas substituindo "api" pelo novo tópico nas *duas* vezes que aparece.
 - **abstract (resumo)** basta uma descrição de 1 a 3 frases do que a lição permite aprender. Tente evitar vocabulário técnico, pois estes resumos podem conduzir académicos sem conhecimento técnico a experimentar algo novo.
-- **slug** deve ter o caminho para a lição no site público do Programming Historian. Tal como indicado acima representa o texto hifenizado que aparece a seguir a programaçãohistorian.org/lessons/ no link da lição (por exemplo, construção-sites-estáticos-com-páginas-jekyll-github)".
+- **slug** deve ter o caminho para a lição no site público do Programming Historian. Tal como indicado acima representa o texto hifenizado que aparece a seguir a pprogramminghistorian.org/pt/licoes/ no link da lição (por exemplo, introducao-ao-markdown)".
 - **date (data)** A data da lição deve ser atualizada para a data em que a proposta foi colocada no repositório Jekyll principal.
 
 ### 4) Encontrar uma imagem para representar a lição
@@ -368,8 +369,8 @@ Existem várias maneiras de executar um *pull request* para publicar os ficheiro
 Após a lição ter sido colocada para o repositório `jekyll`, também é necessário guardar a lição submetida no repositório` ph-submissions`.
  
  1. Ir ao diretório `ph-submissions`na máquina local.
- 2. Adicionar uma nova linha ao cabeçalho YAML da lição agora publicada: `redirect_from: "/lessons/LESSON-SLUG"`
- 3. Mover a lição agora publicada de `lessons/` para `lessons/published/`.
+ 2. Adicionar uma nova linha ao cabeçalho YAML da lição agora publicada: `redirect_from: "/licoes/SLUG-DA-LICAO"`
+ 3. Mover a lição agora publicada de `pt/licoes/originais/` ou `pt/licoes/traducoes/` para `pt/licoes/publicadas/`.
  4. Mover a pasta que contém as imagens da lição agora publicada de `images/` para `images/published/`.
  5. Usar comandos `git add`, `git commit` e `git push` para finalizar todas as alterações (ou seguir as orientações para contribuições técnicas: https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions).
 
@@ -389,18 +390,14 @@ Se a lição foi escrita por um autor novo, o editor-chefe deve adicionar inform
 
 ## 5) Confirmar se todos os links e cabeçalhos YAML funcionam corretamente
 
-Depois de enviar as alterações para o ramo `gh-pages` do repositório [programminghistorian](https://github.com/programminghistorian/jekyll), o site será automaticamente testado pelo [Travis CI](https://travis-ci.org)([Continuous Integration](https://www.thoughtworks.com/continuous-integration)).
+Depois de enviar as alterações para o ramo `gh-pages` do repositório [programminghistorian](https://github.com/programminghistorian/jekyll), o site será automaticamente testado pelo GitHub Actions.
 O processo de teste verifica três coisas: primeiro, se todo o código YAML e markdown está legível; segundo, que todos os hiperlinks apontam para páginas operacionais válidas; e terceiro, que os links internos para páginas no *Programming Historian em português* são todos links relativos que começam com / em vez de https://programminghistorian.org/pt.
 
 [ph_repo]: https://github.com/programminghistorian/jekyll
 
-[Travis CI]: https://travis-ci.org
-
-[Continuous Integration]: https://www.thoughtworks.com/continuous-integration
-
 Executamos estes testes principalmente para assegurar que as URLs que em algum momento funcionaram ainda funcionam, pois muitas vezes as páginas externas da Web são movidas para novos endereços ou são inativadas.
 Também é uma boa forma detectar pequenos erros de digitação que podem escapar a autores, editores e revisores. 
-O status destes testes (geralmente chamado de "Status de Compilação (Build status)" no Travis CI e no GitHub) pode ser visto na [página do repositório do _Programming Historian_][ph_repo] ao clicar em "Commits" no canto superior esquerdo do menu de "Code".
+O status destes testes (geralmente chamado de "Status de Compilação (Build status)" no GitHub) pode ser visto na [página do repositório do _Programming Historian_][ph_repo] ao clicar em "Commits" no canto superior esquerdo do menu de "Code".
 
 ![GitHub commit menu location](/images/editor-guidelines/gh_commits_location_screen.png)
 
@@ -414,12 +411,12 @@ Se a compilação falhou, será necessário consultar os logs para ver qual a ra
 
 1. Clicar no X vermelho para o commit mais recente (o mais próximo da parte superior da página) e depois clicar no link "Details".
 ![Travis details location](/images/editor-guidelines/commit_list_screen.png)
-2. Isto irá conduzir à página de log da compilação no Travis CI. Os logs de compilação geralmente têm várias centenas de linhas, mas as informações de erro que é necessário ter atenção estarão na parte inferior. Para isso, basta clicar no pequeno círculo cinza no canto superior direito da janela do log para ser levado lá.
-![The top of the Travis CI build screen](/images/editor-guidelines/travis_top_screen.png)
-3. Podem ser encontrados dois tipos de erro: primeiro, se uma página estiver com um campo YAML obrigatório vazio (por exemplo, se uma lição não tiver o campo editors preenchidos), este estará marcado de vermelho. Os links com falha também serão listados de vermelho, agrupados pela página em que apareceram. Se algum dos links da nova lição estiver na origem do erro, é necessário verificar novamente se não há erros de digitação. Depois de feitas as correções necessárias e ter sido feito commit das alterações no repositório, é necessário colocar o Travis CI a executar testes novamente.
-![Locating error details in Travis CI build results](/images/editor-guidelines/travis_bottom_screen.png)
+2. Isto irá conduzir à página de log da compilação no GitHub Actions. Os logs de compilação geralmente têm várias centenas de linhas, mas as informações de erro que é necessário ter atenção estarão na parte inferior. Para isso, basta clicar no pequeno círculo cinza no canto superior direito da janela do log para ser levado lá.
+![The top of the GitHub Actions build screen](/images/editor-guidelines/travis_top_screen.png)
+3. Podem ser encontrados dois tipos de erro: primeiro, se uma página estiver com um campo YAML obrigatório vazio (por exemplo, se uma lição não tiver o campo editors preenchidos), este estará marcado de vermelho. Os links com falha também serão listados de vermelho, agrupados pela página em que apareceram. Se algum dos links da nova lição estiver na origem do erro, é necessário verificar novamente se não há erros de digitação. Depois de feitas as correções necessárias e ter sido feito commit das alterações no repositório, é necessário colocar o GitHub Actions a executar testes novamente.
+![Locating error details in GitHub Actions build results](/images/editor-guidelines/travis_bottom_screen.png)
 
-- Como parte das suas operações normais, o Travis CI ocasionalmente retorna e verifica novamente links antigos em todo o site, incluindo lições antigas. Portanto, pode aparecer um erro causado não pela lição nova, mas por outra página. Se for possível compreender como corrigir imediatamente os erros, basta fazer a correcção e aguardar por uma nova compilação. Se não for possível fazer todas as correcções necessárias para todos os links identificados com erros, depois de verificar que nenhum vem da nova lição, basta [criar uma nova questão](https://github.com/programminghistorian/jekyll/issues/new) para que alguém da equipe técnica possa analisar o problema.
+- Como parte das suas operações normais, o GitHub Actions ocasionalmente retorna e verifica novamente links antigos em todo o site, incluindo lições antigas. Portanto, pode aparecer um erro causado não pela lição nova, mas por outra página. Se for possível compreender como corrigir imediatamente os erros, basta fazer a correcção e aguardar por uma nova compilação. Se não for possível fazer todas as correcções necessárias para todos os links identificados com erros, depois de verificar que nenhum vem da nova lição, basta [criar uma nova questão](https://github.com/programminghistorian/jekyll/issues/new) para que alguém da equipe técnica possa analisar o problema.
 
 ## 6) Informar o Editor
 

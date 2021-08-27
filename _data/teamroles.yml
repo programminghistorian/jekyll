@@ -14,13 +14,13 @@
   definition:
     en: First point of contact for authors with lesson ideas
     es: Primer contacto para autores con ideas de lecciones
-    fr: Premier contact pour les auteurs souhaitant proposer une lesson
+    fr: Premier contact pour les auteur(e)s souhaitant proposer une lesson
     pt: Primeiro contacto para os autores com ideias para lições
 - type: editorial
   label:
     en: Editor
     es: Editor(a)
-    fr: Rédacteur
+    fr: Rédacteur/rédactrice
     pt: Editor(a)
   definition:
     en: Responsible for editorial work resulting in the review and publication of lessons
@@ -95,17 +95,6 @@
     es: Responsable del archivo del proyecto
     fr: Responsable de l'archive du projet
     pt: Responsável por gerir o arquivo do projeto
-- type: ed-manager
-  label:
-    en: Education Manager
-    es: Mánager de educación
-    fr: Responsable pédagogique
-    pt: Gestor educacioonal
-  definition:
-    en: Responsible for the overall education aspect of the project
-    es: Responsable del aspecto educativo general del proyecto
-    fr: Responsable des aspects pédagogiques du projet
-    pt: Responsável pela área educativa do projeto
 - type: finance-manager
   label:
     en: Finance Manager
@@ -150,17 +139,6 @@
     es: Coordinar nuevas iniciativas globales, así como tratar de mejorar la diversidad cultural y lingüística del equipo, de nuestras lecciones y de la participación en Humanidades Digitales en general.
     fr: En charge de nouvelles initiatives à vocation globale, de la diversité culturelle et linguistique de l'équipe et des leçons, et de la participation aux humanités numériques en général.
     pt: Responsável por coordenar novas iniciativas globais, assim como por alargar a diversidade cultural e linguística da equipe, das lições e da participação no movimento das Humanidades Digitais em geral.
-- type: new-pub-manager
-  label:
-    en: New Publications Manager
-    es: Mánager de publicaciones nuevas
-    fr: Responsable des nouvelles publications
-    pt: Gestor de novas publicações
-  definition:
-    en: Coordinates the process for creating new publications and facilitates communication with other Programming Historian teams.
-    es: Coordina el proceso de creación de publicaciones nuevas y facilita la comunicación con el resto de los equipos de Programming Historian.
-    fr: Responsable de la création de nouvelles publications et assure la communication avec les autres équipes du Programming Historian.
-    pt: Coordena o processo para a criação de novas publicações e facilita a comunicação entre equipes do Programming Historian.
 
 # Status
 - type: volunteer
@@ -178,7 +156,7 @@
   label:
     en: Institutionally Supported
     es: Apoyado por su institución
-    fr: Soutenu institutionnellement
+    fr: Soutenu(e) institutionnellement
     pt: Apoiado institucionalmente
   definition:
     en: This member's time on the project is either directly or indirectly supported by their employer.

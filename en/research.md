@@ -18,6 +18,9 @@ The project team and members of the wider community are involved in a number of 
 * Cameron Blevins, '[Review of the Programming Historian](http://jitp.commons.gc.cuny.edu/review-of-the-programming-historian/)', _The Journal of Interactive Technology & Pedagogy_, vol. 8 (2015).
 
 ## Published Research
+
+* Adam Crymble and Maria José Afanador Llach, ‘The Globally Unequal Promise of Digital Tools for History: UK and Colombia Case Study’ in Adele Nye (ed.) _Teaching History for the Contemporary World_ (Springer, 2021), 85-98.
+* Daniel Alves, 'Ensinar Humanidades Digitais sem as Humanidades Digitais: um olhar a partir das licenciaturas em História', _Revista EducaOnline_, v. 15, n. 2 (2021).
 * Adam Crymble, [_Technology &amp; the Historian: Transformations in the Digital Age_](https://www.press.uillinois.edu/books/catalog/57hxp7wr9780252043710.html), (University of Illinois Press, 2021).
 * Anna-Maria Sichani, James Baker, Maria José Afanador Llach, and Brandon Walsh, [‘Diversity and Inclusion in Digital Scholarship and Pedagogy: The Case of The Programming Historian’](https://doi.org/10.1629/uksg.465), _Insights_, (2019).
 * Katrina Navickas and Adam Crymble, ['From Chartist Newspaper to Digital Map of Grass-roots Meetings, 1841-44: Documenting Workflows'](http://www.tandfonline.com/doi/full/10.1080/13555502.2017.1301179), _Journal of Victorian Culture_, (2017).
@@ -31,6 +34,7 @@ The project team and members of the wider community are involved in a number of 
 ## Workshops & Events
 
 * Adam Crymble, 'Teach Digital History Well', UCL, United Kingdom (29 April 2021).
+* Silvia Gutiérrez, Jairo Melo & Riva Quiroga, ['Datos Abiertos y Humanidades Digitales'](https://github.com/programminghistorian/opendataday-2021), in _Open Data Day 2021_, virtual (6 March 2021).
 * Joshua Ortiz Baco, Daniel Alves, Jimmy Medeiros, Luis Ferla, '[Programming Historian em português](https://www.youtube.com/watch?v=bt-OaMW2Fr4)' in _I Jornada Nacional de Humanidades Digitais_, IBICT (13 October 2020).
 * Adam Crymble, 'Documenting Your Digital Methods', University of Edinburgh, United Kingdom (27 May 2020).
 * Adam Crymble & Jessica Parr, 'Programming Historian Silent Disco', University of Edinburgh, United Kingdom (18 May 2020).
@@ -49,10 +53,15 @@ The project team and members of the wider community are involved in a number of 
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 May 2015).
 
 ## Posters, Conference Papers, & Invited Talks
+* Adam Crymble, 'Facilitating Making in Digital Humanities', The Archaeology of Making, University of London, 5 May 2021.
+* Daniel Alves, Jennifer Isasi, Sarah Melton, Sofia Papastamkou, Jessica Parr, Riva Quiroga, Nabeel Siddiqui, Brandon Walsh, 'The Programming Historian: A Global Case Study in Multilingual Open Access and DH Tutelage/Instruction' (panel), _Global Digital Humanities Symposium_, Michigan State University, East Lansing, USA, 12 April, 2021.
+* Jennifer Isasi & Riva Quiroga, ['_Programming Historian_: Un proyecto colaborativo para poner la programación al alcance de los humanistas'](http://ixa2.si.ehu.eus/intele/?q=webinars), _INTELE : INfraestructura de TEcnologías del LEnguaje_, Spain, 25 March, 2021.
+*  Sofia Papastamkou, Jessica Parr & Riva Quiroga, 'Challenges for Digital Literacy in the Humanities: The Open, Community-Based and Multilinguistic Approach of _The Programming Historian_', NewsEye’s International Conference, Europe, 17 March, 2021.
+* Riva Quiroga, ['Multilingual Digital Humanites'](https://mediacentral.ucl.ac.uk/Play/59506), Digital Humanities Long View Seminar, UCLDH, UK & CESTA, USA, 10 March, 2021.
 * Brandon Walsh, '[The Programming Historian and Editorial Process in Digital Publishing](http://walshbr.com/blog/the-programming-historian-and-editorial-process-in-digital-publishing/)', Modern Languages Association Conference 2021, 7-10 January, 2021.  
 * Sofia Papastamkou, François Dominic Laramée, Martin Grandjean, '[Le Programming Historian en français: quelles ressources éducatives libres pour les méthodes numériques ?](https://zenodo.org/record/3819954)', *Humanistica 2020 Conference*, Bordeaux, France, 12-14 May 2020.   
 * Sofia Papastamkou, 'A Beating Heart of Digital History: The Programming Historian', [Teaching Digital History Workshop](https://cas.au.dk/center-for-digital-history-aarhus/events/show/artikel/teaching-digital-history-workshop-a-one-day-seminar/), Center for Digital History Aarhus, University of Aarhus, Denmark, 23 October 2019. 
-* Jennifer Isasi, Maria José Afanador y Antonio Rojas Castro, 'Retos en la producción de tutoriales de HD en contexto hispanohablantes', Conferencia ACH 2019, The Association for Computers and the Humanities, Pittsburgh, 23-26 july, 2019, Pittsburgh.
+* Jennifer Isasi, Maria José Afanador y Antonio Rojas Castro, 'Retos en la producción de tutoriales de HD en contexto hispanohablantes', Conferencia ACH 2019, The Association for Computers and the Humanities, Pittsburgh, USA, 23-26 July, 2019.
 * Sofia Papastamkou, Antonio Rojas Castro & Anna-Maria Sichani, '[Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French Speaking DH Communities](https://dev.clariah.nl/files/dh2019/boa/1207.html)', Digital Humanities Conference 2019, Utrecht, Netherlands, 9-12 July, 2019.
 * Jennifer Isasi, Antonio Rojas & Anna-Maria Sichani, 'Data science and the language question in digital humanities pedagogy: the example of the Programming Historian', *EADH 2018*, National University of Ireland, Galway, 9 December 2018.
 * Afanador, Maria José. 'The Programming Historian en español: estrategias y retos para la construcción de una comunidad global de humanidades digitales.' Ponencia presentada en la Conferencia de Humanidades Digitales DH2018, Ciudad de México, México, (2018, junio).
@@ -83,4 +92,4 @@ The project team and members of the wider community are involved in a number of 
 * Eva Pfanzelter, "<a href="https://www.newseye.eu/resources/educational-material/syllabi-and-teaching-material-for-universities/syllabus-digitale-geschichtswissenschaft/">Syllabus: Introduction to Digital Practice in the Historical Sciences</a>", History Curriculum, University of Innsbruck, Austria, <em>NewsEye H2020 Project</em> (2021).
 * Kelly Fitzpatrick, "<a href="https://lil.law.harvard.edu/blog/2019/11/12/getting-started-with-caselaw-access-project-data/">Caselaw Access Project</a>", <em>Harvard Law School</em> (2019).
 * Paul Spence, Renata Brandao, "<a href="https://languageacts.org/digital-mediations/event/writing-sprint/call-proposals/">Digital Modern Languages Writing Sprint</a>", <em>Language Acts and Worldmaking</em> (2019).
-* James Baker, Caitlin Moore, Ernesto Priego, Raquel Alegre, Jez Cope, Ludi Price, Owen Stephens, Daniel van Strien, Greg Wilson, '[Library Carpentry: software skills training for library professionals](https://www.liberquarterly.eu/articles/10176/)', _Liber Quarterly: The Journal of the Association of European Research Libraries_, 26(3) (2016).
+* James Baker, Caitlin Moore, Ernesto Priego, Raquel Alegre, Jez Cope, Ludi Price, Owen Stephens, Daniel van Strien, Greg Wilson, '[Library Carpentry: software skills training for library professionals](https://liberquarterly.eu/article/view/10847)', _Liber Quarterly: The Journal of the Association of European Research Libraries_, 26(3) (2016).
