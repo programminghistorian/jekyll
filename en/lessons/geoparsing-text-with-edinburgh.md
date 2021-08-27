@@ -385,4 +385,5 @@ Claire Grover and Richard Tobin (2014). A Gazetteer and Georeferencing for Histo
 
 Claire Grover, Richard Tobin, Kate Byrne, Matthew Woollard, James Reid, Stuart Dunn, and Julian Ball (2010). Use of the Edinburgh Geoparser for georeferencing digitised historical collections. Philosophical Transactions of the Royal Society A. [[pdf](http://homepages.inf.ed.ac.uk/grover/papers/PTRS-A-2010-Grover-3875-89.pdf)]
 
-Leif Isaksen, Elton Barker, Eric C. Kansa and Kate Byrne. 2011b. Googling Ancient Places. In Proceedings of Digital Humanities 2011 (DH2011), Stanford, CA, June 2011. [[html](http://dh2011abstracts.stanford.edu/xtf/view?docId=tei/ab-349.xml)]
+Leif Isaksen, Elton Barker, Eric C. Kansa, Kate Byrne (2012). GAP: A NeoGeo Approach to Classical Resources. Leonardo 45 (1): 82–83. [[pdf](https://direct.mit.edu/leon/article/45/1/82/46956/GAP-A-NeoGeo-Approach-to-Classical-Resources#.U48IuXWx15Q)]
+
