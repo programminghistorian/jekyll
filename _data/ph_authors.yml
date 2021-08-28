@@ -2230,14 +2230,10 @@
     - archive
   status: institutionally-supported
 
-- name: Nicolás Vaughan 
-  team: false
-  bio:
-
 - name: Nicolás Vaughan
   github: nivaca
   email: nivaca@fastmail.com
-  url: "http://nicolasvaughan.org"
+  url: "https://nicolasvaughan.org"
   team: true
   team_start: 2021
   institution: Universidad de los Andes, Colombia
