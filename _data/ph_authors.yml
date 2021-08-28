@@ -2231,10 +2231,36 @@
   status: institutionally-supported
 
 - name: Nicolás Vaughan 
-  team: false
+  github: nivaca
+  email: nivaca@fastmail.com
+  url: "http://nicolasvaughan.org"
+  team: true
+  team_start: 2021
+  institution: Universidad de los Andes, Colombia
+  sortname: Vaughan
+  affiliation:
+    en: |
+      University of los Andes, Colombia.
+    es: |
+      Universidad de los Andes, Colombia.
+    fr: |
+      Université de los Andes, Colombie.
+    pt: |
+      Universidad de los Andes, Colômbia.
   bio:
-      es: |
-        Nicolás Vaughan es profesor asociado del Departamento de Humanidades y Literatura de la Universidad de los Andes, en Bogotá, Colombia, donde también enseña en la Maestría en Humanidades Digitales. Es doctor en filosofía medieval de la Universidad de Oxford.
+    en: |
+      Nicolás Vaughan is an associate professor of medieval literature and digital humanities at the Universidad de los Andes, Bogotá (Colombia).
+    es: |
+      Nicolás Vaughan es profesor asociado de literatura medieval y humanidades digitales en la Universidad de los Andes, en Bogotá (Colombia).
+    fr: |
+      Nicolás Vaughan est professeur associé de littérature médiévale et d'humanités numériques à l'Universidad de los Andes, Bogotá (Colombie).
+    pt: |
+      Nicolás Vaughan é professor associado de literatura medieval e humanidades digitais na Universidad de los Andes, Bogotá (Colômbia).
+  team_roles:
+    - spanish
+    - editorial
+  status: volunteer    
+        
 
 - name: Tiago Sousa Garcia
   team: true
