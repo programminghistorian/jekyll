@@ -2292,3 +2292,34 @@
   team_roles:
     - proghist
   status: institutionally-supported
+
+- name: Isabelle Gribomont
+  email: isabelle.gribomont@liverpool.ac.uk
+  twitter: IsaGribomont
+  github: isag91
+  team: true
+  team_start: 2021
+  institution: University of Liverpool
+  sortname: Gribomont
+  team_roles:
+    - spanish
+    - editorial
+  status: volunteer
+  affiliation:
+    en: |
+      University of Liverpool, United Kingdom
+    es: |
+      Universidad de Liverpool, Reino Unido
+    fr: |
+      University of Liverpool, Royaume-Uni
+    pt: |
+      Universidade de Liverpool, Reino Unido
+  bio:
+    en: |
+       Isabelle Gribomont is a postdoctoral researcher in Digital Humanities at the University of Liverpool (United Kingdom).
+    es: |
+       Isabelle Gribomont es investigadora postdoctoral en humanidades digitales en la universidad de Liverpool (Reino Unido).
+    fr: |
+       Isabelle Gribomont est chercheuse postdoctorale en humanités numériques à l'université de Liverpool (Royaume-Uni).
+    pt: |
+       Isabelle Gribomont é pesquisadora de pós-doutorado em Humanidades Digitais na universidade de Liverpool (Reino Unido).
