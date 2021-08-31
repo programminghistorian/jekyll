@@ -32,6 +32,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Dinamarca
 - [Aarhus University Library](https://library.au.dk/), Dinamarca
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca
+- [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Reino Unido
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 
