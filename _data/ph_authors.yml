@@ -321,7 +321,7 @@
 - name: James Baker
   team: true
   team_start: 2017
-  institution: University of Sussex
+  institution: University of Southampton
   github: drjwbaker
   email: james.baker@sussex.ac.uk
   twitter: j_w_baker
@@ -330,13 +330,13 @@
   orcid: 0000-0002-2682-6922
   affiliation:
     en: |
-      University of Sussex, UK
+      University of Southampton, UK
     es: |
-      University of Sussex, Reino Unido
+      University of Southampton, Reino Unido
     fr: |
-      University of Sussex, Royaume-Uni
+      University of Southampton, Royaume-Uni
     pt: |
-      University of Sussex, Reino Unido
+      University of Southampton, Reino Unido
   bio:
     en: |
       James Baker is a Senior Lecturer in Digital History and Archives at the University of Sussex
@@ -1394,17 +1394,17 @@
   url: "http://zoeleblanc.com"
   team: true
   team_start: 2018
-  institution: Princeton University
+  institution: University of Illinois
   sortname: LeBlanc
   affiliation:
     en: |
-      Princeton University, USA.
+      University of Illinois Urbana-Champaign, USA.
     es: |
-      Princeton University, Estados Unidos.
+      University of Illinois Urbana-Champaign, Estados Unidos.
     fr: |
-      Princeton University, Etats-Unis.
+      University of Illinois Urbana-Champaign, Etats-Unis.
     pt: |
-      Princeton University, Estados Unidos da América.
+      University of Illinois Urbana-Champaign, Estados Unidos da América.
   bio:
     en: |
       Zoe LeBlanc is a Postdoctoral Associate and Weld Fellow at the Center for Digital Humanities, Princeton University.
@@ -2079,12 +2079,9 @@
   status: volunteer
   
 - name: Ricardo M Pimenta
-  twitter: RicardoMPimenta
-  email: ricardopimenta@ibict.br
-  url: "http://www.larhud.ibict.br"
   institution: Instituto Brasileiro de Informação em Ciência e Tecnologia
   sortname: Pimenta
-  team: true
+  team: false
   orcid: 0000-0002-1612-4126
   affiliation:
     en: |
@@ -2104,10 +2101,7 @@
       Ricardo M Pimenta Es investigador 2 del CNPq (beca de productividad) y fue Joven Científico de Nuestro Estado FAPERJ (2018 - 2020). Investigador titular del Instituto Brasileño de Información en Ciencia y Tecnología (IBICT) del Ministerio de Ciencia, Tecnología e Innovación (MCTI). Profesor titular del Programa de Posgrado en Ciencias de la Información (PPGCI/IBICT-UFRJ). Historiador graduado (2003) por la Universidad de Gama Filho - UGF con postgrado en Historia de Brasil (2005) por la Universidad Cândido Mendes - UCAM. Tiene una maestría en Memoria Social y Documento (2006) por la Universidad Federal del Estado de Río de Janeiro - UNIRIO, y un doctorado en Memoria Social (2010) por la misma institución, con pasantía doctoral (2007 - 2008) en la École des Hautes Études en Sciences Sociales - EHESS de París. Es líder del Grupo de Investigación en Memoria y Sociedad de la Información (http://www.meso.ibict.br), registrado en el directorio del CNPq y coordinador del Laboratorio en Red de Humanidades Digitales del IBICT (Larhud/COEPE/IBICT). Actualmente es editor asociado (América Latina y África) de la revista International Journal of Humanities and Arts Computing (IJHAC, antes History and Computing). También es coordinador de la red de humanidades GoFAIR.
     fr: |
       Ricardo M Pimenta est chercheur 2 du CNPq (bourse de productivité) et a été Jeune Scientifique de notre Etat FAPERJ (2018 - 2020). Chercheur titulaire à l'Institut brésilien de l'information en science et technologie (IBICT) du ministère des sciences, de la technologie et de l'innovation (MCTI). Professeur permanent du Programme d'études supérieures en sciences de l'information (PPGCI/IBICT-UFRJ). Historien diplômé (2003) de l'Université Gama Filho - UGF avec un diplôme de troisième cycle en histoire du Brésil (2005) de l'Université Cândido Mendes - UCAM. Il est titulaire d'un master en mémoire sociale et document (2006) de l'Université fédérale de l'État de Rio de Janeiro - UNIRIO, et d'un doctorat en mémoire sociale (2010) de la même institution, avec un stage doctoral (2007 - 2008) à l'École des Hautes Études en Sciences Sociales - EHESS de Paris. Il est responsable du groupe de recherche Mémoire et société de l'information (http://www.meso.ibict.br), inscrit dans l'annuaire du CNPq et coordinateur du Laboratoire Réseau des Humanités Numériques de l'IBICT (Larhud/COEPE/IBICT). Il est actuellement rédacteur en chef adjoint (Amérique latine et Afrique) de l'International Journal of Humanities and Arts Computing (IJHAC, anciennement History and Computing). Il est également le coordinateur du réseau GoFAIR Humanities.
-  team_roles:
-    - portuguese
-    - editorial
-  status: volunteer 
+
   
 - name: Célian Ringwald
   twitter: ringwald_c
