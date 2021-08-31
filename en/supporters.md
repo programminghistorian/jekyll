@@ -31,6 +31,7 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 - [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Denmark
 - [Aarhus University Library](https://library.au.dk/), Denmark
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Denmark
+- [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), United Kingdom
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
