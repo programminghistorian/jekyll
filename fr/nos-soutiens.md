@@ -30,6 +30,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Danemark
 - [Aarhus University Library](https://library.au.dk/), Danemark
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Danemark
+- [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Royaume-Uni
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
