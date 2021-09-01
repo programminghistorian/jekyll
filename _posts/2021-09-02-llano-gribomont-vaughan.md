@@ -1,4 +1,3 @@
-```
 ---
 title: Isabelle Gribomont, Nicolás Llano y Nicolás Vaughan se unen al equipo de Programming Historian en español 
 authors:
@@ -6,8 +5,6 @@ authors:
 layout: post
 categories: posts
 ---
-```
-
 
 
 <p><figure><img src="/avatars/isabelle-gribomont.png" alt="Imagen de perfil de Isabelle Gribomont" style="width:200px;"/><img src="/avatars/nicolas-llano.png" alt="Imagen de perfil de Nicolás Llano" style="width:200px;"/><img src="/avatars/nicolas-vaughan.png" alt="Imagen de perfil Nicolás Vaughan" style="width:200px;"/><figcaption>
