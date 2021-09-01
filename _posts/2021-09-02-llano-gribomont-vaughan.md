@@ -18,5 +18,4 @@ Isabelle Gribomont obtuvo su doctorado en estudios hispánicos en la universidad
 
 Nicolás Vaughan es doctor en filosofía medieval de la Universidad de Oxford (Reino Unido). Es profesor asociado del Departamento de Humanidades y Literatura, de la Universidad de los Andes (Bogotá, Colombia), donde también enseña en la [Maestría en Humanidades Digitales](https://posgradosfacartes.uniandes.edu.co/programas/humanidades-digitales/). Sus intereses de investigación son las ediciones digitales en línea, especialmente de autores de la Edad Media. Es editor adjunto de la edición crítica de la [Ordinatio](https://scta.lombardpress.org/text?resourceid=http://scta.info/resource/wodehamordinatio) del filósofo medieval Adam de Wodeham, un proyecto de código y acceso abierto del [Scholastic Commentaries and Texts Archive (SCTA).](https://scta.info/)
 
-
-
+De parte de todo el equipo queremos agradecer su interés en este proyecto, ¡bienvenidos!
