@@ -330,14 +330,20 @@ bins = unique(quantile(var, seq(0,1,length.out=8)))
 interv = findInterval(var, bins)
 County_Aggregate_Data$People_Urban <-interv
 
-p <- plot_ly(
-  County_Aggregate_Data, x = ~((AV0AA1990/10000)/CountMembers), y = ~BD5AA1990,
-  # Hover text:
-  text = ~paste("AVG Incom: ",BD5AA1990 , '$<br>County:', COUNTY.y,'$<br>State:', STATENAM,'$<br>Members:', CountMembers), size = ~AV0AA1990, color = ~People_Urban,
-  textfont = list(color = '#000000', size = 16)) %>%
-  layout(title = 'Members and Income, Size=Population',
-         xaxis = list(title = 'Members per 10k population'),
-         yaxis = list(title = 'Income'))
+p <- plot_ly(County_Aggregate_Data, type = "scatter", mode = "markers") %>%
+    add_trace(x = ~(AV0AA1990/10000)/CountMembers,
+              y = ~BD5AA1990,
+              size = ~AV0AA1990,
+              color = ~People_Urban,
+              text = ~paste("AVG Incom: ",BD5AA1990 ,
+                            '$<br>County:', COUNTY.y,
+                            '$<br>State:', STATENAM,
+                            '$<br>Members:', CountMembers),
+              hoverinfo = "text") %>%
+    layout(title = 'Members and Income, Size=Population',
+           xaxis = list(title = 'Members per 10k population'),
+           yaxis = list(title = 'Income'),
+           hoverlabel = list(font = list(size = 16)))
 
 p
 ```
