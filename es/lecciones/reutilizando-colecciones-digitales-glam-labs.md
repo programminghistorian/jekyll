@@ -468,22 +468,6 @@ En este tutorial se han introducido varios ejemplos de reutilización de colecci
 
 Las instituciones GLAM se están adaptando al nuevo entorno proporcionando colecciones aptas para el procesamiento por computador. Los Labs en el seno de las instituciones GLAM desempeñan un papel fundamental en este sentido para promover las colecciones digitales y su reutilización de forma innovadora. La Comunidad Internacional GLAM Labs ha fomentado la creación de Labs por todo el mundo; sin embargo, se observa una escasez de Labs en los países hispanohablates, lo que limita el potencial y la reutilización de las colecciones digitales en español. Además, todavía es posible mejorar en lo que respecta a las licencias para proporcionar colecciones digitales libres de derechos, como también a la publicación de ejemplos y prototipos de uso. En ese sentido, los Jupyter Notebooks pueden promover la creación de prototipos basados en métodos de investigación de Humanidades Digitales facilitando su reproducibilidad en entornos basados en la nube.
 
-
-## Notas
-
-[^1]: Candela, Gustavo, María Dolores Sáez, María Pilar Escobar y Manuel Marco-Such. *hibernator11/notebook-ph: Release 1* v1.0 (2021). https://doi.org/10.5281/zenodo.5340157
-
-[^2]: Summers, Ed. *pymarc* v4.0.0 (2020). https://pymarc.readthedocs.io/en/stable/
-
-[^3]: The Pandas Development Team. *pandas-dev/pandas: Pandas.* v.1.2.2 (2020). https://doi.org/10.5281/zenodo.4524629
-
-[^4]: Filipe, Martin Journois, Frank, Rob Story, James Gardiner, Halfdan Rump, Andrew Bird, et al. *Python-visualization/folium:* v0.10.1 (2019). https://doi.org/10.5281/zenodo.3559751.
-
-[^5]: Thomas A Caswell, Michael Droettboom, John Hunter, Eric Firing, Antony Lee, Jody Klymak, David Stansby, et al. *Matplotlib/matplotlib* v2.2.4 (2019). https://doi.org/10.5281/zenodo.2669103.
-
-
-
-
 ## Glosario
 <dl>
   <dt><strong>Collections as data</strong></dt>
@@ -517,3 +501,17 @@ Las instituciones GLAM se están adaptando al nuevo entorno proporcionando colec
   <dt><strong>URI (del inglés Universal Resource Identifier)</strong></dt>
   <dd>Identificador uniforme de recursos para la web.</dd>
 </dl>
+
+
+
+## Notas
+
+[^1]: Candela, Gustavo, María Dolores Sáez, María Pilar Escobar y Manuel Marco-Such. *hibernator11/notebook-ph: Release 1* v1.0 (2021). https://doi.org/10.5281/zenodo.5340157
+
+[^2]: Summers, Ed. *pymarc* v4.0.0 (2020). https://pymarc.readthedocs.io/en/stable/
+
+[^3]: The Pandas Development Team. *pandas-dev/pandas: Pandas.* v.1.2.2 (2020). https://doi.org/10.5281/zenodo.4524629
+
+[^4]: Filipe, Martin Journois, Frank, Rob Story, James Gardiner, Halfdan Rump, Andrew Bird, et al. *Python-visualization/folium:* v0.10.1 (2019). https://doi.org/10.5281/zenodo.3559751.
+
+[^5]: Thomas A Caswell, Michael Droettboom, John Hunter, Eric Firing, Antony Lee, Jody Klymak, David Stansby, et al. *Matplotlib/matplotlib* v2.2.4 (2019). https://doi.org/10.5281/zenodo.2669103.
