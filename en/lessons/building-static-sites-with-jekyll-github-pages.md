@@ -91,6 +91,10 @@ This tutorial should be usable by both Mac and Windows users. Jekyll can also wo
 
 Jekyll isn't officially supported for Windows, which means none of the official Jekyll documentation (the pages that walk you through setting up Jekyll and what its different pieces do, which you could consult instead of or in addition to this lesson) addresses Windows use. I've used [David Burela's Windows instructions]( https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/) to note the places in the ["Installing Dependencies" section](#section2) when Windows users should do something different; the rest of the lesson should work the same for both Mac and Windows users, though note that screenshots throughout the lesson are all from a Mac (so thing may look slightly different for a Windows user).
 
+<div class="alert alert-warning">
+Some users of macOS Catalina and macOS Big Sur have reported encountering difficulties installing Ruby & Ruby Gems. This lesson pre-dates the release of those operating systems, but the code supplied here has been adapted to offer a possible solution. Users who continue to face issues, may find <a href="https://github.com/monfresh/install-ruby-on-macos">this script</a> useful. 
+</div>   
+
 ### GitHub user account <a id="section1-1"></a>
 
 *A GitHub user account will let you host your website (make it available for others to visit) for free on GitHub (we'll cover how in a later step). As a bonus, it will also let you keep track of versions of the website and its writing as it grows or changes over time.*
