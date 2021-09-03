@@ -70,7 +70,7 @@ If you are looking nationally prior to 1990, the county-level data is often your
 
 
 ## Reading the Data
-We start by loading in the selected data. The data for this tutorial can be [dowloaded here](/assets/geospatial-data-analysis/Archive.zip). Once downloaded place all the files in a folder labeled data inside your working directory in R. We are going to create a variable and read in our data from our variable directory to it. Once run, the `County_Aggregate_Data` variable will contain the data and geographic information that we will analyze:
+We start by loading in the selected data. The data for this tutorial can be [dowloaded here](/assets/geospatial-data-analysis/data.zip). Once downloaded place all the files in a folder labeled data inside your working directory in R. We are going to create a variable and read in our data from our variable directory to it. Once run, the `County_Aggregate_Data` variable will contain the data and geographic information that we will analyze:
 
 ```r
 County_Aggregate_Data <- st_read("./data/County1990ussm/")
