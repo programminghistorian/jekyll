@@ -89,11 +89,7 @@ Everything this lesson has you install is a standard and trusted web development
 
 This tutorial should be usable by both Mac and Windows users. Jekyll can also work for Linux; this tutorial uses the GitHub Desktop software (Mac and Windows only) for simplicity, but Linux users will need to use git over the command line instead (not covered here).
 
-Jekyll isn't officially supported for Windows, which means none of the official Jekyll documentation (the pages that walk you through setting up Jekyll and what its different pieces do, which you could consult instead of or in addition to this lesson) addresses Windows use. I've used [David Burela's Windows instructions]( https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/) to note the places in the ["Installing Dependencies" section](#section2) when Windows users should do something different; the rest of the lesson should work the same for both Mac and Windows users, though note that screenshots throughout the lesson are all from a Mac (so thing may look slightly different for a Windows user).
-
-<div class="alert alert-warning">
-Some users of macOS Catalina and macOS Big Sur have reported encountering difficulties installing Ruby & Ruby Gems. This lesson pre-dates the release of those operating systems, but the code supplied here has been adapted to offer a possible solution. Users who continue to face issues, may find <a href="https://github.com/monfresh/install-ruby-on-macos">this script</a> useful. 
-</div>   
+Jekyll isn't officially supported for Windows, which means none of the official Jekyll documentation (the pages that walk you through setting up Jekyll and what its different pieces do, which you could consult instead of or in addition to this lesson) addresses Windows use. I've used [David Burela's Windows instructions]( https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/) to note the places in the ["Installing Dependencies" section](#section2) when Windows users should do something different; the rest of the lesson should work the same for both Mac and Windows users, though note that screenshots throughout the lesson are all from a Mac (so thing may look slightly different for a Windows user). 
 
 ### GitHub user account <a id="section1-1"></a>
 
@@ -204,6 +200,10 @@ If you get a permissions error at this point, setting `GEM_HOME` to your user di
 `echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc` 
 `echo 'export GEM_HOME=$HOME/gems' >> ~/.bashrc` 
 `echo 'export PATH=$HOME/gems/bin:$PATH' >> ~/.bashrc` followed by `source ~/.bashrc`.
+
+<div class="alert alert-warning">
+Some users of macOS Catalina and macOS Big Sur have reported encountering difficulties installing Ruby & Ruby Gems. This lesson pre-dates the release of those operating systems, but the code supplied here has been adapted to offer a possible solution. Users who continue to face issues, may find <a href="https://github.com/monfresh/install-ruby-on-macos">this script</a> useful. 
+</div>  
 
 ### NodeJS <a id="section2-4"></a>
 
