@@ -178,11 +178,11 @@ the instructions appropriate for you below:
     is by setting the environment variable. If you moved the program to
     a new location, you'd have to change the variable.
 
-To create an environment variable in Windows 10, click Start (Windows icon) or press the Windows key on your keyboard then type 'Control Panel'. Within Control Panel, select System and Security.  In System and Security, type 'Advanced' into the search field (upper right) and choose 'View advanced system settings' from the results. (Figures 1,2,3). Click new and type `MALLET_HOME` in the variable name
-box. It must be like this – all caps, with an underscore – since that is
+To create an environment variable in Windows 10, click Start (Windows icon) or press the Windows key on your keyboard then type 'Control Panel'. Within Control Panel, select System and Security.  In System and Security, type 'Advanced' into the search field (upper right) and choose 'View advanced system settings' from the results. In the pop-up dialogue box, click 'Environmental Variables'. Next, click 'New' and type `MALLET_HOME` in the variable name
+box (Figures 1,2,3). It must be like this – all caps, with an underscore – since that is
 the shortcut that the programmer built into the program and all of its
 subroutines. Then type the exact path (location) of where you unzipped
-MALLET in the variable value, e.g., `c:\mallet`.
+MALLET in the variable value, e.g., `c:\mallet`. 
 
 To see if you have been successful, please read on to the next section.
 
