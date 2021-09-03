@@ -243,7 +243,12 @@ En caso de recibir un error de permisos luego de instalar Ruby, incluye la direc
 
 `echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc` 
 `echo 'export GEM_HOME=$HOME/gems' >> ~/.bashrc` 
-`echo 'export PATH=$HOME/gems/bin:$PATH' >> ~/.bashrc` followed by `source ~/.bashrc`.
+`echo 'export PATH=$HOME/gems/bin:$PATH' >> ~/.bashrc` seguido de `source ~/.bashrc`.
+
+<div class="alert alert-warning">
+Algunas personas que utilizan macOS Catalina y macOS Big Sur han reportado dificultades para instalar Ruby y Ruby Gems. Si bien esta lección fue publicada antes de la aparición de esos sistemas operativos, el código compartido aquí ha sido adaptado para ofrecer una posible solución. Si sigues encontrando problemas, <a href="https://github.com/monfresh/install-ruby-on-macos">estas indicaciones (en inglés)</a> podrían ser de utilidad. 
+</div> 
+
 
 ### NodeJS <a id="section2-4"></a>
 
