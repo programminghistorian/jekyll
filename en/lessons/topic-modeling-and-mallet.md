@@ -178,9 +178,7 @@ the instructions appropriate for you below:
     is by setting the environment variable. If you moved the program to
     a new location, you'd have to change the variable.
 
-To create an environment variable in Windows 7, click on your
-`Start Menu -> Control Panel -> System -> Advanced System Settings`
-(Figures 1,2,3). Click new and type `MALLET_HOME` in the variable name
+To create an environment variable in Windows 10, click Start (Windows icon) or press the Windows key on your keyboard then type 'Control Panel'. Within Control Panel, select System and Security.  In System and Security, type 'Advanced' into the search field (upper right) and choose 'View advanced system settings' from the results. (Figures 1,2,3). Click new and type `MALLET_HOME` in the variable name
 box. It must be like this – all caps, with an underscore – since that is
 the shortcut that the programmer built into the program and all of its
 subroutines. Then type the exact path (location) of where you unzipped
