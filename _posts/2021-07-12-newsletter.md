@@ -6,8 +6,6 @@ layout: post
 categories: posts
 ---
 
-```
-
 <img src="/images/blog/ph-banner-4lang.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
 
   Summer or Winter time is here and at *Programming Historian* we continue to work hard to offer our readers throughout the world lessons on digital methods in different languages. No hemos parado de recibir lecciones originales en español. Nous avons édité et publié une nouvelle traduction.  E continuamos trabalhando muito para trazer mais lições em português.
@@ -43,5 +41,3 @@ We are very happy to welcome our first employee of *Programming Historian* after
 ---
 
 To learn about the work we did in the first trimester of 2021, we invite you to read our [First Newsletter in 2021](https://programminghistorian.org/posts/newsletter). 
-
-```
