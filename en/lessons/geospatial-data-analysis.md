@@ -70,7 +70,7 @@ If you are looking nationally prior to 1990, the county-level data is often your
 
 
 ## Reading the Data
-We start by loading in the selected data. The data for this tutorial can be [dowloaded here](/assets/geospatial-data-analysis/Archive.zip). Once downloaded place all the files in a folder labeled data inside your working directory in R. We are going to create a variable and read in our data from our variable directory to it. Once run, the `County_Aggregate_Data` variable will contain the data and geographic information that we will analyze:
+We start by loading in the selected data. The data for this tutorial can be [dowloaded here](/assets/geospatial-data-analysis/data.zip). Once downloaded place all the files in a folder labeled data inside your working directory in R. We are going to create a variable and read in our data from our variable directory to it. Once run, the `County_Aggregate_Data` variable will contain the data and geographic information that we will analyze:
 
 ```r
 County_Aggregate_Data <- st_read("./data/County1990ussm/")
@@ -330,14 +330,20 @@ bins = unique(quantile(var, seq(0,1,length.out=8)))
 interv = findInterval(var, bins)
 County_Aggregate_Data$People_Urban <-interv
 
-p <- plot_ly(
-  County_Aggregate_Data, x = ~((AV0AA1990/10000)/CountMembers), y = ~BD5AA1990,
-  # Hover text:
-  text = ~paste("AVG Incom: ",BD5AA1990 , '$<br>County:', COUNTY.y,'$<br>State:', STATENAM,'$<br>Members:', CountMembers), size = ~AV0AA1990, color = ~People_Urban,
-  textfont = list(color = '#000000', size = 16)) %>%
-  layout(title = 'Members and Income, Size=Population',
-         xaxis = list(title = 'Members per 10k population'),
-         yaxis = list(title = 'Income'))
+p <- plot_ly(County_Aggregate_Data, type = "scatter", mode = "markers") %>%
+    add_trace(x = ~(AV0AA1990/10000)/CountMembers,
+              y = ~BD5AA1990,
+              size = ~AV0AA1990,
+              color = ~People_Urban,
+              text = ~paste("AVG Incom: ",BD5AA1990 ,
+                            '$<br>County:', COUNTY.y,
+                            '$<br>State:', STATENAM,
+                            '$<br>Members:', CountMembers),
+              hoverinfo = "text") %>%
+    layout(title = 'Members and Income, Size=Population',
+           xaxis = list(title = 'Members per 10k population'),
+           yaxis = list(title = 'Income'),
+           hoverlabel = list(font = list(size = 16)))
 
 p
 ```
