@@ -30,9 +30,9 @@ Il nous arrive de temps en temps de faire des appels pour recruter des membres p
 
 <img src="{{site.baseurl}}/images/translator.png" class="garnish rounded float-right" alt="{{ site.data.snippets.translator-image-alt[page.lang] }}"/>
 
-Si vous parlez couramment plus d'une des langues dans lesquelles le _Programming Historian_ paraît (français, anglais, espagnol), nous vous invitons à prendre contact avec nous pour traduire une des leçons publiées d'une langue à une autre. Cela nous aidera à être partie prenante dans les communautés des humanités numériques hispanophone et francophone et vous permettra de renforcer vos compétences linguistiques, méthodologiques et techniques.
+Si vous parlez couramment plus d'une des langues dans lesquelles le _Programming Historian_ paraît (français, anglais, espagnol, portugais), nous vous invitons à prendre contact avec nous pour traduire une des leçons publiées d'une langue à une autre. Cela nous aidera à être partie prenante dans les communautés des humanités numériques hispanophone et francophone et vous permettra de renforcer vos compétences linguistiques, méthodologiques et techniques.
 
-Nous recherchons des traductions rigoureuses et lisibles qui tiennent compte des contextes de recherche hispanophone et francophone et des ressources disponibles dans nos communauté respectives. Si cela vous intéresse de collaborer avec nous, merci de consulter nos [consignes aux auteur(e)s et traducteurs/traductrices](/fr/consignes-auteurs.html).
+Nous recherchons des traductions rigoureuses et lisibles qui tiennent compte des contextes de recherche hispanophone, francophone et lusophone, et des ressources disponibles dans nos communautés respectives. Si cela vous intéresse de collaborer avec nous, merci de consulter nos [consignes aux auteur(e)s et traducteurs/traductrices](/fr/consignes-auteurs.html).
 
 ## Faire un retour ou signaler un problème
 
