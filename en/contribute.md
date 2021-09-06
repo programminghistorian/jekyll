@@ -32,9 +32,9 @@ From time to time we may advertise that we are seeking more editors.
 
 <img src="{{site.baseurl}}/images/translator.png" class="garnish rounded float-right" alt="{{ site.data.snippets.translator-image-alt[page.lang] }}"/>
 
-If you are fluent in more than one of our publication languages (French, English, Spanish), you are invited to get in touch with us about translating one of our published Programming Historian lessons from one language to another. This will help us to assist building multilingual digital humanities communities, and to build your language, method, and technological skills.
+If you are fluent in more than one of our publication languages (French, English, Spanish, Portuguese), you are invited to get in touch with us about translating one of our published Programming Historian lessons from one language to another. This will help us to assist building multilingual digital humanities communities, and to build your language, method, and technological skills.
 
-We are seeking rigorous and readable translations that take into account the Spanish-language and the French-language research contexts and the resources available in our respective communities. If you are interested in collaborating, consult our instructions for authors and translators [in Spanish](/es/guia-para-autores.html) and [in French](/fr/consignes-auteurs.html).
+We are seeking rigorous and readable translations that take into account the Spanish-language, the French-language and the Portuguese-language research contexts and the resources available in our respective communities. If you are interested in collaborating, consult our instructions for authors and translators [in Spanish](/es/guia-para-autores.html), [in French](/fr/consignes-auteurs.html) and [in Portuguese](/pt/directrizes-autor.html).
 
 ## Provide feedback or report problems
 
