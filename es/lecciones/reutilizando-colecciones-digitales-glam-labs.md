@@ -26,8 +26,6 @@ doi: 10.46430/phes0054
 
 {% include toc.html %}
 
-# Reutilizar colecciones digitales: GLAM Labs
-
 ## Objetivos de la lección
 Esta lección muestra cómo reutilizar colecciones digitales publicadas por instituciones de patrimonio cultural y tiene como objetivos principales los siguientes:
 
