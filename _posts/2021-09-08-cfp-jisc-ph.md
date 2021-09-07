@@ -1,10 +1,9 @@
 ---
 title: Call for Papers for Computational analysis skills for large-scale humanities data
 authors: 
--James Baker
+- James Baker
 layout: post
 categories: posts
-
 ---
 
 **The Programming Historian invites proposals of new tutorials dealing with computational analysis of large-scale digital collections, as a part of a special series developed in partnership with the National Archives and Jisc.**
