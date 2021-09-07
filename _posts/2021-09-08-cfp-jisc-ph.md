@@ -1,9 +1,10 @@
 ---
-title: Call for Papers: Computational analysis skills for large-scale humanities data
+title: Call for Papers for Computational analysis skills for large-scale humanities data
 authors: 
 -James Baker
 layout: post
 categories: posts
+
 ---
 
 **The Programming Historian invites proposals of new tutorials dealing with computational analysis of large-scale digital collections, as a part of a special series developed in partnership with the National Archives and Jisc.**
@@ -67,7 +68,5 @@ Other useful sources of data include:
 
 This call for papers is supported by the project ‘Programming Historian publications: developing computational skills for digital collections’, a partnership between Jisc, the *Programming Historian*, and [The National Archives](https://nationalarchives.gov.uk/archives-sector/projects-and-programmes/plugged-in-powered-up/). For more information on the partnership see the [partnership announcement](https://digitisation.jiscinvolve.org/wp/2021/07/23/are-you-a-researcher-wanting-to-boost-your-skills-in-working-with-digital-collections/).
 
-```html
 <img src="/images/jisc-na-ph-banner.png" alt="Logo images of JISC, the UK National Archives and Programming Historian"/>
-```
 
