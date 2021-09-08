@@ -2,11 +2,18 @@
 title: Call for Papers for Computational analysis skills for large-scale humanities data
 authors: 
 - James Baker
+- Anna-Maria Sichani
 layout: post
 categories: posts
 ---
 
 **The Programming Historian invites proposals of new tutorials dealing with computational analysis of large-scale digital collections, as a part of a special series developed in partnership with the National Archives and Jisc.**
+
+**O Programming Historian convida à apresentação de novos tutoriais relacionados com a análise computacional de coleções digitais em grande escala, como parte de uma série especial desenvolvida em parceria com os National Archives e o Jisc.**
+
+**Le Programming Historian lance un appel à contributions pour de nouveaux tutoriels qui traitent de l'analyse computationnelle de grands corpus de collections numériques, dans le cadre d'une série spéciale développée en partenariat avec les Archives nationales du Rayaume-Uni (The National Archives) et l'organisation Jisc.**
+
+**Programming Historian los invita a presentar propuestas para lecciones nuevas relacionadas con el análisis computacional de colecciones digitales a gran escala, como parte de la serie especial desarrollada en colaboración con los National Archives y Jisc.**
 
 Scholarly research has changed thanks to the proliferation of digital collections and the rapid emergence of computational methodologies and tools. 
 
@@ -14,7 +21,14 @@ Awareness of digital methods is growing within the humanities. However, there is
 
 To address these challenges, [The National Archives](https://www.nationalarchives.gov.uk/) (a leading national archive), [Jisc](https://www.jisc.ac.uk/) (an established provider of digital services for higher education), and the [Programming Historian](https://programminghistorian.org/) (a publisher of multilingual tutorials that support humanists in learning digital tools and methods) have formed a partnership that aims to publish a series of articles to aid humanities researchers wishing to use digital tools and methods in their analysis of large-scale digital collections.
 
-As a result of this partnership we are delighted to invite authors to submit proposals for article-length tutorials on the computational analysis of large-scale digital collections. We anticipate that proposed articles will seek to achieve *one or more* of the following:Teach humanities scholars how to solve humanities problems related to working with digital data;Use digital collections as test beds for explaining a computational technique, and/or workflow;Show how a computational methodology or technique can be applied to a digital collection in order to generate initial findings it as a precursor to in-depth research;Demystify ‘big data’ analysis techniques for a humanities audience;Describe methods that advance humanities research questions through the analysis of large-scale digital collections;Demonstrate ‘[Minimal Computing](http://go-dh.github.io/mincomp/about/)’ approaches to the analysis of large-scale digital collections and thereby meet the needs of scholars working ‘under some set of significant constraints of hardware, software, education, network capacity, power, or other factors’.
+As a result of this partnership we are delighted to invite authors to submit proposals for article-length tutorials on the computational analysis of large-scale digital collections. We anticipate that proposed articles will seek to achieve *one or more* of the following:
+
+- Teach humanities scholars how to solve humanities problems related to working with digital data;
+- Use digital collections as test beds for explaining a computational technique, and/or workflow;
+- Show how a computational methodology or technique can be applied to a digital collection in order to generate initial findings it as a precursor to in-depth research;
+- Demystify ‘big data’ analysis techniques for a humanities audience;
+- Describe methods that advance humanities research questions through the analysis of large-scale digital collections;
+- Demonstrate ‘[Minimal Computing](http://go-dh.github.io/mincomp/about/)’ approaches to the analysis of large-scale digital collections and thereby meet the needs of scholars working ‘under some set of significant constraints of hardware, software, education, network capacity, power, or other factors’.
 
 Examples of the kind of large-scale collections that would be in scope are digitised texts, email archives, social media data, web archives, bibliographic datasets, image collections, and catalogue data. This is not exhaustive, however, and no type of large-scale research collection is *a priori* excluded.
 
