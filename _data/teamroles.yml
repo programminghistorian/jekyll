@@ -84,17 +84,6 @@
     es: Responsable de la coordinación del equipo de comunicación
     fr: Responsable de la coordination de l'équipe de communication
     pt: Responsável por coordenar os esforços da equipe de comunicação
-- type: archive
-  label:
-    en: Archivist
-    es: Archivista
-    fr: Archiviste
-    pt: Arquivista
-  definition:
-    en: Responsible for archiving the project
-    es: Responsable del archivo del proyecto
-    fr: Responsable de l'archive du projet
-    pt: Responsável por gerir o arquivo do projeto
 - type: finance-manager
   label:
     en: Finance Manager
