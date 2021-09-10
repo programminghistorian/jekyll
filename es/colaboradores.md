@@ -43,6 +43,7 @@ Organizaciones que han o continúan brindando apoyo en forma de contribución en
 - Jisc & The National Archives (Reino Unido), '[Programming Historian publications: developing computational skills for digital collections](https://research.jiscinvolve.org/wp/2021/07/23/boost-your-skills-in-working-with-digital-collections/)' [2021-2022].
 - UCL, Faculty of Arts & Humanities, Reino Unido [2021].
 - [Escola de Ciências Sociais FGV CPDOC](https://portal.fgv.br), "Literacia digital: modelando competências digitais para humanistas e cientistas sociais", Brasil [2021-2022].
+- Fundação para a Ciência e Tecnologia, a través de su programa especializado '[Verão com Ciência 2021](https://www.fct.pt/apoios/veraocomciencia/index.phtml.pt)', Portugal [septiembre 2021]
 - The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Reino Unido [2021].
 - University of Sussex, Reino Unido:
     - University of Sussex Library [2020-Presente]
