@@ -2314,7 +2314,38 @@
        Isabelle Gribomont est chercheuse postdoctorale en humanités numériques à l'université de Liverpool (Royaume-Uni).
     pt: |
        Isabelle Gribomont é pesquisadora de pós-doutorado em Humanidades Digitais na universidade de Liverpool (Reino Unido).
-
+       
+- name: Nicolás Llano
+  email: llano.nicolas@gmail.com
+  twitter: enetreseles
+  github: nllano
+  team: true
+  team_start: 2021
+  institution: Instituto Brasileiro de Ensino, Desenvolvimento e Pesquisa
+  sortname: Llano
+  affiliation:
+    en: |
+      Brazilian Institute of Education, Development and Research, Brazil
+    es: |
+      Instituto Brasilero de Enseñanza, Desarrollo e Investigación, Brasil
+    fr: |
+      Institut Brésilien d'enseignement, de développement et de recherche, Brésil
+    pt: |
+      Instituto Brasileiro de Ensino, Desenvolvimento e Pesquisa, Brasil
+  bio:
+    en: |
+       Nicolás Llano holds a PhD in Communication Sciences (Sao Paulo University, Brazil), and is a student of the MBA Data Journalism programm at IDP (Brasil).
+    es: |
+       Nicolás Llano es Doctor en Ciencias de la Comunicación (Universidad de São Paulo, Brasil), y estudiante del programa MBA Periodismo de Datos del IDP (Brasil).
+    fr: |
+       Nicolás Llano est docteur en sciences de la communication (Université de São Paulo, Brésil) et est un étudiant du programme MBA Journalisme de données à l'IDP (Brésil).
+    pt: |
+       Nicolás Llano é Doutor em Ciências da Comunicação (Universidade de São Paulo, Brasil), e estudante do programa MBA Jornalismo de Datos no IDP (Brasil)       
+  team_roles:
+    - spanish
+    - editorial
+  status: volunteer
+  
 - name: Gustavo Candela
   orcid: 0000-0001-6122-0777
   team: false
