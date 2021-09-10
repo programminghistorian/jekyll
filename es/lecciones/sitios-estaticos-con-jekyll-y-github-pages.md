@@ -241,6 +241,8 @@ Espera hasta que el prompt vuelva a aparecer para ingresar el siguiente comando:
 
 En caso de recibir un error de permisos luego de instalar Ruby, incluye la dirección de Gems en tu sistema. Prueba lo siguiente:
 
+`echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc` 
+`echo 'export GEM_HOME=$HOME/gems' >> ~/.bashrc` 
 `echo 'export PATH=$HOME/gems/bin:$PATH' >> ~/.bashrc` seguido de `source ~/.bashrc`.
 
 <div class="alert alert-warning">
