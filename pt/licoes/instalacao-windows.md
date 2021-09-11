@@ -42,7 +42,7 @@ doi: 10.46430/phpt0006
 
 ## Instale o Python 3
 
-Você ainda pode ter o Python 2 na sua máquina. Como essa versão do Python foi descontinuada no fim de 2019, é importante que você instale o Python 3. Faça o download da versão mais estável da linguagem de programação Python (Version 3.8 de Novembro de 2019) e instale o software a partir do [Site do Python][].
+Você ainda pode ter o Python 2 na sua máquina. Como essa versão do Python foi descontinuada no fim de 2019, é importante que você instale o Python 3. Faça o download da versão mais estável da linguagem de programação Python (Version 3.8 de Novembro de 2019) e instale o software a partir do [site do Python][].
 
 ## Crie um diretório
 
@@ -151,8 +151,8 @@ No seu ecrã, você verá algo como:
 
 Agora que você e o seu computador estão preparados, podemos seguir para tarefas mais interessantes. Se você está seguindo as lições do Python, a nossa sugestão é que você tente a próxima lição ‘[Noções básicas de páginas web e HTML][]‘
 
-  [Python website]: https://www.python.org/downloads/windows/
+  [site do Python]: https://www.python.org/downloads/windows/
   [outros editores]: https://wiki.python.org/moin/PythonEditors/
-  [Web Site do Komodo Edit]: https://www.activestate.com/products/komodo-edit/
+  [site do Komodo Edit]: https://www.activestate.com/products/komodo-ide/downloads/edit/
   [UTF-8]: http://en.wikipedia.org/wiki/UTF-8
   [Noções básicas de páginas web e HTML]: nocoes-basicas-paginas-web-html
