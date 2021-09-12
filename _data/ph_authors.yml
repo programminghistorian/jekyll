@@ -2169,6 +2169,8 @@
   bio:
       en: |
           Simon Hengchen is a postdoctoral researcher in NLP.
+      fr: |
+          Simon Hengchen est chercheur postdoctoral en TAL.
 
 - name: Matteo Romanello 
   team: false
@@ -2176,6 +2178,9 @@
   bio:
       en: |
           Matteo Romanello is Lecturer at the University of Lausanne in Ancient Greek literature and computational research.
+      fr: |          
+          Matteo Romanello est maître de conférences à l'Université de Lausanne en littérature grecque ancienne et humanités computationnelles.
+          
 
 - name: Halle Burns
   team: false
