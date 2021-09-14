@@ -59,7 +59,7 @@ mkdir programming-historian
 
 ## Instale o Komodo Edit
 
-O Komodo Edit é um editor livre e de código aberto, mas pode utilizar [outros editores][] se você preferir. Pode fazer o download directamente do [site do Komodo Edit][]. Uma vez que você tenha feito o download, faça a extração do ficheiro para a sua pasta pessoal e siga as instruções de instalação. Se você tiver seguido corretamente as instruções, abra a sua pasta pessoal, acesse a pasta `Komodo-Edit-11/bin` e finalmente clique no arquivo `komodo`.
+O Komodo Edit é um editor livre e de código aberto, mas pode utilizar [outros editores][] se você preferir. Pode fazer o download directamente do [site do Komodo Edit][]. Uma vez que você tenha feito o download, faça a extração do ficheiro para a sua pasta pessoal e siga as instruções de instalação. Se você tiver seguido corretamente as instruções, abra a sua pasta pessoal, acesse a pasta `Komodo-Edit-12/bin` e finalmente clique no arquivo `komodo`.
 
 ### Faça um comando “Run Python” no Komodo Edit
 
@@ -133,5 +133,5 @@ Agora que você e o seu computador estão preparados, podemos seguir para tarefa
 nossa sugestão é que você tente a próxima lição ‘[Noções básicas de páginas web e HTML][]‘
 
   [outros editores]: https://wiki.python.org/moin/PythonEditors/
-  [Web Site do Komodo Edit]: https://www.activestate.com/products/komodo-edit/
+  [site do Komodo Edit]: https://www.activestate.com/products/komodo-ide/downloads/edit/
   [Noções básicas de páginas web e HTML]: nocoes-basicas-paginas-web-html
