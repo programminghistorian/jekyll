@@ -50,6 +50,7 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 de Maio de 2015).
 
 ## Pósteres, Artigos em conferências & Palestras convidadas
+* Anna-Maria Sichani, ‘[Sustaining communities in Digital Humanities: diversity, collaboration, and capacity building in digital scholarship and pedagogy](https://2021.dhbenelux.org/schedule/)’, DH Benelux, Leiden, 2 Junho 2021.
 * Adam Crymble, 'Facilitating Making in Digital Humanities', The Archaeology of Making, University of London, Reino Unido, 5 Maio 2021.
 * Daniel Alves, Jennifer Isasi, Sarah Melton, Sofia Papastamkou, Jessica Parr, Riva Quiroga, Nabeel Siddiqui, Brandon Walsh, 'The Programming Historian: A Global Case Study in Multilingual Open Access and DH Tutelage/Instruction' (panel), _Global Digital Humanities Symposium_, Michigan State University, East Lansing, USA, 12 Abril, 2021.
 * Jennifer Isasi & Riva Quiroga, ['_Programming Historian_: Un proyecto colaborativo para poner la programación al alcance de los humanistas'](http://ixa2.si.ehu.eus/intele/?q=webinars), _INTELE : INfraestructura de TEcnologías del LEnguaje_, España, 25 Março, 2021.
