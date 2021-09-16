@@ -68,7 +68,7 @@ Si no está visible el panel de Caja de Herramientas (Toolbox) a la derecha de l
 Ahora bien, una vez descargado e instalado el editor es necesario configurarlo para que puedas correr los programas de Python. En la ventana de la derecha (caja de herramientas o Toolbox) hay que hacer clic en el icono de engranaje y seleccionar "`New Command…`" Esta acción abre una nueva ventana de diálogo. Ahí se deberá renombrar como "`Ejecutar Python`". En el campo activo "`Command`" deberás escribir:
 
 ``` python
-%(python) %f
+%(python3) %f
 ```
 
 Y en el campo activo "`Start in`" debes escribir:
