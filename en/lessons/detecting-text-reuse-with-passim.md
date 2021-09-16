@@ -66,7 +66,7 @@ Note that installing Passim on Windows is more arduous than macOS or Linux. As a
 # Installing Passim
 
 Installing Passim requires installing the following software:
-- [Java JDK (version 8)](https://www.oracle.com/ch-de/java/technologies/javase/javase-jdk8-downloads.html)
+- [Java JDK (version 8)](https://www.oracle.com/java/technologies/downloads/#java8)
 - [Scala Build Tool (SBT)](https://www.scala-sbt.org/)
 - [Apache Spark](https://spark.apache.org/)
 
