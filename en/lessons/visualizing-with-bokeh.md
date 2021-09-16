@@ -129,7 +129,7 @@ pip install "pandas>=1.2.0,<1.2.3" "bokeh>=2.0.0,<2.3.0" "pyproj>=3.0,<3.0.1"
 
 <div class="alert alert-info">
 
-At this point in the lesson, you have a choice of two ways to experiment with "Running Code Examples". You can either proceed in the command line and do the coding by hand, or run the Jupyter notebook provided <a href=“/assets/visualizing-with-bokeh/visualizing-with-bokeh.ipynb”>here</a>. Beginners who simply want to get a sense of how the code  operates, rather than write it themselves, may find the Jupyter notebook option especially helpful.
+At this point in the lesson, you have a choice of two ways to experiment with "Running Code Examples". You can either proceed in the command line and do the coding by hand, or run the Jupyter notebook provided <a href="/assets/visualizing-with-bokeh/visualizing-with-bokeh.ipynb">here</a>. Beginners who simply want to get a sense of how the code  operates, rather than write it themselves, may find the Jupyter notebook option especially helpful.
 
 </div>
 
