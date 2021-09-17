@@ -34,7 +34,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 ### Talleres y eventos
 
 * Adam Crymble, 'Teach Digital History Well', UCL, United Kingdom (29 de abril, 2021).
-* Silvia Gutiérrez, Jairo Melo & Riva Quiroga, ['Datos Abiertos y Humanidades Digitales' (https://github.com/programminghistorian/opendataday-2021), in _Open Data Day 2021_, virtual (6 March 2021).
+* Silvia Gutiérrez, Jairo Melo & Riva Quiroga, ['Datos Abiertos y Humanidades Digitales'](https://github.com/programminghistorian/opendataday-2021), in _Open Data Day 2021_, virtual (6 March 2021).
 * Joshua Ortiz Baco, Daniel Alves, Jimmy Medeiros, Luis Ferla, '[Programming Historian em português](https://www.youtube.com/watch?v=bt-OaMW2Fr4)' en _I Jornada Nacional de Humanidades Digitais_, IBICT, Brasil (13 de octubre 2020).
 * Adam Crymble, 'Documenting Your Digital Methods', University of Edinburgh, United Kingdom (27 de mayo 2020).
 * Adam Crymble & Jessica Parr, 'Programming Historian Silent Disco', University of Edinburgh, United Kingdom (18 de mayo 2020).
