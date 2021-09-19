@@ -25,7 +25,7 @@ topics: [website]
 abstract: "Agora que nós adicionamos itens no seu site do Omeka e agrupamos os itens em coleções, estamos prontos para o próximo passo: levar os seus usuários a explorar os itens recolhidos."
 original: creating-an-omeka-exhibit
 avatar_alt: Sala ornamentada cheia de pinturas penduradas em estilo salão
-doi: A INDICAR
+doi: 10.46430/phpt0012
 ---
 
 {% include toc.html %}
