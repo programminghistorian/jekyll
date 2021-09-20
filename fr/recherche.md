@@ -53,8 +53,11 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, Université d'Edimbourg (26 mai 2015).
 
 ## Posters, présentations et conférences invitées
+* Nabeel Siddiqui, '[In the Open: The Programming Historian and the Challenges Globally Distributed Learning](https://www.sedc.ac.in/uploads/latest-events/digital-huminities-session-20.pdf)', Seshadripuram Evening Degree College, Bangalore, Inde, 29 juin 2021.
+* Anna-Maria Sichani, ‘[Sustaining communities in Digital Humanities: diversity, collaboration, and capacity building in digital scholarship and pedagogy](https://2021.dhbenelux.org/schedule/), DH Benelux, Leyde, 2 juin 2021.
 * Adam Crymble, 'Facilitating Making in Digital Humanities', The Archaeology of Making, Université de Londres, Royaume-Uni, 5 mai 2021.
-* Daniel Alves, Jennifer Isasi, Sarah Melton, Sofia Papastamkou, Jessica Parr, Riva Quiroga, Nabeel Siddiqui, Brandon Walsh, 'The Programming Historian: A Global Case Study in Multilingual Open Access and DH Tutelage/Instruction' (panel), _Global Digital Humanities Symposium_, Michigan State University, East Lansing, USA, 12 avril, 2021.
+* Daniel Alves, Jennifer Isasi, Sarah Melton, Sofia Papastamkou, Jessica Parr, Riva Quiroga, Nabeel Siddiqui, Brandon Walsh, '[The Programming Historian: A Global Case Study in Multilingual Open Access and DH Tutelage/Instruction](https://msuglobaldh.org/abstracts/#programming-historian)' (panel), _Global Digital Humanities Symposium_, Michigan State University, East Lansing, USA, 12 avril, 2021.
+* Jessica Parr, '[Cambridge Cultural Heritage Data School: Final plenary](https://www.cdh.cam.ac.uk/events/cambridge-cultural-heritage-data-school-final-plenary)', University of Cambridge, Royaume-Uni, 30 mars 2021.
 * Jennifer Isasi & Riva Quiroga, ['_Programming Historian_: Un proyecto colaborativo para poner la programación al alcance de los humanistas'](http://ixa2.si.ehu.eus/intele/?q=webinars), _INTELE : INfraestructura de TEcnologías del LEnguaje_, España, 25 mars, 2021.
 *  Sofia Papastamkou, Jessica Parr & Riva Quiroga, 'Challenges for Digital Literacy in the Humanities: The Open, Community-Based and Multilinguistic Approach of _The Programming Historian_', NewsEye’s International Conference, France, 17 mars, 2021.
 * Riva Quiroga, ['Multilingual Digital Humanites'](https://mediacentral.ucl.ac.uk/Play/59506), Digital Humanities Long View Seminar, UCLDH, UK & CESTA, USA, 10 mars, 2021.

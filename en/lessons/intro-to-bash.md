@@ -207,15 +207,15 @@ If you do not have wget installed, download the text itself using your browser. 
 
 you see
 
->> -rw-r--r--+ 1 ianmilligan1  staff   3.1M  1 May 10:03 pg2600.txt
+>> -rw-r--r--+ 1 ianmilligan1  staff   3.1M  1 May 10:03 2600-0.txt
 
 You can read the text within this file in a few different ways. First, you can tell our computer that you want to read it using the standard program that you use to open text files. By default, this may be TextEdit on OS X or Notepad in Windows. To open a file, just type
 
-`open pg2600.txt`
+`open 2600-0.txt`
 
 on OS X, or
 
-`explorer pg2600.txt`
+`explorer 2600-0.txt`
 
 in Windows.
 
@@ -223,29 +223,29 @@ This selects the default program to open that type of file, and opens it.
 
 However, you often want to just work on the command line without leaving it. You can read files within this environment as well. To try this, type:
 
-`cat pg2600.txt`
+`cat 2600-0.txt`
 
 The terminal window erupts and *War and Peace* cascades by. That's great, in theory, but you can't really make any sense of that amount of text? Instead, you may want to just look at the first or the last bit of the file.
 
-`head pg2600.txt`
+`head 2600-0.txt`
 
 Provides a view of the first ten lines, whereas
 
-`tail pg2600.txt`
+`tail 2600-0.txt`
 
-provides a perspective on the last ten lines. This is a good way to quickly determine the contents of the file. You could add a command to change the amount of lines displayed: `head -20 pg2600.txt`, for example, would show the first twenty lines.
+provides a perspective on the last ten lines. This is a good way to quickly determine the contents of the file. You could add a command to change the amount of lines displayed: `head -20 2600-0.txt`, for example, would show the first twenty lines.
 
 You may also want to change the file name to something more descriptive. You can 'move' it to a new name by typing
 
-`mv pg2600.txt tolstoy.txt`
+`mv 2600-0.txt tolstoy.txt`
 
 Afterwards, when you perform a `ls` command, you will see that it is now `tolstoy.txt`. Had you wanted to duplicate it, you could also have run the copy command by typing
 
-`cp pg2600.txt tolstoy.txt`
+`cp 2600-0.txt tolstoy.txt`
 
 you will revisit these commands shortly.
 
-Now that you have used several new commands, it's time for another trick. Hit the up arrow on your keyboard. Notice that `cp pg2600.txt tolstoy.txt` appears before your cursor. You can continue pressing the up arrow to cycle through your previous commands. The down arrow cycles back toward your most recent command.
+Now that you have used several new commands, it's time for another trick. Hit the up arrow on your keyboard. Notice that `cp 2600-0.txt tolstoy.txt` appears before your cursor. You can continue pressing the up arrow to cycle through your previous commands. The down arrow cycles back toward your most recent command.
 
 After having read and renamed several files, you may wish to bring their text together into one file. To combine, or concatenate, two or more files, you can use the `cat` command. First, let's duplicate the Tolstoy file ( `cp tolstoy.txt tolstoy2.txt`). Now that you have two copies of *War and Peace*, let's put them together to make an **even longer** book.
 
