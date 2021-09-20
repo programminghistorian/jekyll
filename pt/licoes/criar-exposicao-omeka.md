@@ -33,25 +33,25 @@ doi: 10.46430/phpt0012
 
 
 
-Agora que nós [adicionamos itens no seu site do Omeka](/en/lessons/up-and-running-with-omeka) (em inglês) e agrupamos os itens em coleções, estamos prontos para o próximo passo: levar os seus usuários a explorar os itens recolhidos. 
+Agora que [adicionamos itens no seu site do Omeka](/en/lessons/up-and-running-with-omeka) (em inglês) e agrupamos os itens em coleções, estamos prontos para o próximo passo: levar os seus usuários a explorar os itens recolhidos. 
 
 ## Antes de começar: mapeie a sua exposição 
 
-É importante pensar na exposição antes de começar a criá-la. Como iremos criar seções e páginas, é necessário planejar os argumentos que queremos fazer, e como pretendemos fazê-los. Na presente lição, eu usei o exemplo dos meus cachorros. Mas e se eu estivesse discutindo, por exemplo, filmes mudos? As minhas seções poderiam ser temáticas (comédias, romances, dramas), cronológicas (primeiros filmes do cinema mudo, período transicional, era clássica) ou estilísticas (modernista, impressionista, narrativa). Tudo depende da mensagem que eu quero transmitir para quem visitar o site. Podemos fazer um esquema da exposição, mostrando onde queremos colocar cada recurso digital. 
+É importante pensar na exposição antes de começar a criá-la. Como iremos criar seções e páginas, é necessário planejar os argumentos que queremos fazer, e como pretendemos fazê-los. Na presente lição, usei o exemplo dos meus cachorros. Mas e se eu estivesse discutindo, por exemplo, filmes mudos? As minhas seções poderiam ser temáticas (comédias, romances, dramas), cronológicas (primeiros filmes do cinema mudo, período transicional, era clássica) ou estilísticas (modernista, impressionista, narrativa). Tudo depende da mensagem que eu quero transmitir para quem visitar o site. Podemos fazer um esquema da exposição, mostrando onde queremos colocar cada recurso digital. 
 
 ## Adicionar uma exposição 
 
 {% include figure.html filename="criarexpo1.png" caption="Criar uma página de exposição" %}
 
-A coleção é uma lista de objetos. Uma exposição é um tour guiado pelos seus itens com textos descritivos e layouts customizados. Para criar uma, clique na aba **Exposições** e depois em **Adicionar uma exposição**. Preencha o formulário na parte superior da página. Um **slug** é um nome da sua exposição, legível por uma máquina, que fará parte do seu URL. 
+A coleção é uma lista de objetos. Uma exposição é um _tour_ guiado pelos seus itens com textos descritivos e _layouts_ customizados. Para criar uma, clique na aba **Exposições** e depois em **Adicionar uma exposição**. Preencha o formulário na parte superior da página. Um **slug** é um nome da sua exposição, legível por uma máquina, que fará parte do seu URL. 
 
-Nota da tradução: para configurar o Omeka.net internamente para a língua portuguesa, siga as instruções disponíveis nesse [tutorial.](/pt/licoes/introducao-omeka-net#configurar-o-seu-site-para--portugu%C3%AAs-nota-da-tradu%C3%A7%C3%A3o)
+Nota da tradução: para configurar o Omeka.net internamente para a língua portuguesa, siga as instruções disponíveis neste [tutorial.](/pt/licoes/introducao-omeka-net#configurar-o-seu-site-para--portugu%C3%AAs-nota-da-tradu%C3%A7%C3%A3o)
 
 ## Adicionar uma página
 
-Páginas são onde inserimos os itens na exposição. Uma exposição pode ter múltiplas páginas, e é possível arrastar e soltar para reorganizar a sua ordem, até mesmo transformando algumas páginas em subseções de outras.
+Páginas são onde inserimos os itens na exposição. Uma exposição pode ter múltiplas páginas e é possível arrastar e soltar para reorganizar a sua ordem, até mesmo transformando algumas páginas em subseções de outras.
 
-Clique no botão verde "Adicionar Página". Na próxima janela, preencheremos algumas informações e escolheremos um layout para a página da exposição. 
+Clique no botão verde "Adicionar Página". Na próxima janela, preencheremos algumas informações e escolheremos um _layout_ para a página da exposição. 
 
 ## Adicione um bloco de conteúdo na página 
 
