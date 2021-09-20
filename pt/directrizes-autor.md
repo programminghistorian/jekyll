@@ -20,7 +20,7 @@ Estas directrizes foram desenvolvidas para ajudar a entender o processo de cria�
 <div class="alert alert-success">
 Procuramos lições relevantes para as Humanidades sobre um problema ou processo que sejam sustentáveis a longo prazo e dirigidos a um público geral, com qualquer nível de aptidão técnica e experiência.
 
-O âmbito e extensão da lição devem ser adequados à  complexidade da tarefa, mas não devem ter mais de 8.000 palavras (incluindo códigos-fonte). Lições mais curtas são bem-vindas. Lições mais longas podem precisar de ser divididas.
+O âmbito e extensão da lição devem ser adequados à  complexidade da tarefa, mas não devem ter mais de 8.000 palavras (incluindo códigos). Lições mais curtas são bem-vindas. Lições mais longas podem precisar de ser divididas.
 </div>
 
 Se tem uma ideia para uma nova lição preencha o [formulário de proposta de lição](/assets/forms/formulario.proposta.licao.txt) e envie para {% include managing-editor.html lang=page.lang %}.
