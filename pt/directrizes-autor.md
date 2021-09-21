@@ -78,7 +78,7 @@ O *Programming historian em português* publica lições que estarão disponíve
  *	**Referir documentação**: direcione os leitores para documentação de confiança sempre que possível. Forneça uma orientação geral sobre como encontrar a documentação futuramente, para o caso de aparecerem novas versões no futuro.
  *	**Cópias de dados**: todos os dados usados nas lições devem ser publicados com a lição nos servidores do *Programming Historian em português*. O direito legal de utilizar e publicar os dados deve estar assegurado. Os ficheiros de dados devem ser em formatos abertos.
 
-Os autores devem consultar a [política de remoção das lições]({{site.baseurl}}/pt/licoes-politica-remocao) para obter informações sobre como a equipa editorial administra as lições que se tornam desatualizadas.
+Os autores devem consultar a [política de remoção das lições]({{site.baseurl}}/pt/licoes-politica-remocao) para obter informações sobre como a equipe editorial administra as lições que se tornam desatualizadas.
 
 ## B. Directrizes específicas de estilo
 Esta segunda seção é sobre questões mais específicas de estilo de escrita, tais como quais palavras usar, como utilizar a pontuação ou que formato adotar para datas ou números. Leia esta seção antes e depois de escrever seu texto.
@@ -299,15 +299,15 @@ O processo de revisão por pares normalmente tem três etapas:
 
 Pode ser útil ler as [directrizes para editores](/pt/directrizes-editor), que apresentam mais detalhes sobre todo o processo editorial.
 
-Se, a qualquer momento, tiver dúvidas do seu papel ou o que fazer a seguir, basta publicar a pergunta na discussão da revisão por pares. Qualquer um dos nossos editores responderá assim que possível. A equipa esforça-se por responder a todas as perguntas dentro de poucos dias.
+Se, a qualquer momento, tiver dúvidas do seu papel ou o que fazer a seguir, basta publicar a pergunta na discussão da revisão por pares. Qualquer um dos nossos editores responderá assim que possível. A equipe esforça-se por responder a todas as perguntas dentro de poucos dias.
 
 ### O que acontece depois da lição ser publicada?
 
-Ocasionalmente, recebemos feedback de usuários que encontraram um erro ao concluir uma de nossas lições. Se isso acontecer, o/a nosso/a Assistente de Publicação abrirá um ticket no GitHub e, em seguida, realizará uma avaliação para confirmar se o erro relatado representa um problema causado pelo usuário (editar o código da lição ou alterar o seu conjunto de dados, por exemplo) ou um problema dentro da lição em si. Neste último caso, o/a nosso/a Assistente de Publicação testará novamente a(s) parte(s) relevante(s) da lição e fará pesquisas para identificar uma correção. Como parte deste processo de manutenção da lição, podemos contatá-lo juntamente com outros membros da equipa do _Programming Historian_ para pedir conselhos. Caso nenhuma correção seja encontrada, proporemos adicionar um aviso à lição explicando que alguns usuários podem encontrar um erro. Sempre que possível, o aviso deve incluir links para leituras adicionais, permitindo que os usuários identifiquem eles próprios uma solução. 
+Ocasionalmente, recebemos feedback de usuários que encontraram um erro ao concluir uma de nossas lições. Se isso acontecer, o/a nosso/a Assistente de Publicação abrirá um ticket no GitHub e, em seguida, realizará uma avaliação para confirmar se o erro relatado representa um problema causado pelo usuário (editar o código da lição ou alterar o seu conjunto de dados, por exemplo) ou um problema dentro da lição em si. Neste último caso, o/a nosso/a Assistente de Publicação testará novamente a(s) parte(s) relevante(s) da lição e fará pesquisas para identificar uma correção. Como parte deste processo de manutenção da lição, podemos contatá-lo juntamente com outros membros da equipe do _Programming Historian_ para pedir conselhos. Caso nenhuma correção seja encontrada, proporemos adicionar um aviso à lição explicando que alguns usuários podem encontrar um erro. Sempre que possível, o aviso deve incluir links para leituras adicionais, permitindo que os usuários identifiquem eles próprios uma solução. 
 
-### Responsabilidade da equipa
+### Responsabilidade da equipe
 
-A equipa de voluntários trabalha intensamente para fazer uma revisão rigorosa, académica e eficiente para aos autores. No entanto, reconhecemos que há momentos em que podemos ficar abaixo das expectativas. Queremos que os autores se sintam à vontade para nos ajudar a manter os nossos padrões elevados. Se, por qualquer motivo, sentir que foi tratado injustamente, está insatisfeito ou confuso com o processo, se o processo foi adiado desnecessariamente, ou um revisor foi rude e o editor não respondeu de acordo, ou mesmo se tiver qualquer outra preocupação, chame a atenção da equipa para que se possa resolver rapidamente.
+A equipe de voluntários trabalha intensamente para fazer uma revisão rigorosa, académica e eficiente para aos autores. No entanto, reconhecemos que há momentos em que podemos ficar abaixo das expectativas. Queremos que os autores se sintam à vontade para nos ajudar a manter os nossos padrões elevados. Se, por qualquer motivo, sentir que foi tratado injustamente, está insatisfeito ou confuso com o processo, se o processo foi adiado desnecessariamente, ou um revisor foi rude e o editor não respondeu de acordo, ou mesmo se tiver qualquer outra preocupação, chame a atenção da equipe para que se possa resolver rapidamente.
 
 Apresentar uma questão NÃO afetará o resultado da revisão por pares - mesmo que ainda esteja a decorrer.
 
