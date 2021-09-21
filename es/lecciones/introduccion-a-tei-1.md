@@ -115,7 +115,7 @@ Por ahora solo debemos saber que todo documento XML debe cumplir dos reglas bás
 
 ## Validación sintáctica de documentos XML
 
-Podemos saber si un documento XML es sintácticamente válido con ayuda de nuestro editor de texto (VS Code con la extensión XML Complete). También, en Internet puedes encontrar aplicaciones gratuitas de validación, por ejemplo, (https://codebeautify.org/xmlvalidator)[https://codebeautify.org/xmlvalidator] o  (https://www.xmlvalidation.com)[https://www.xmlvalidation.com].
+Podemos saber si un documento XML es sintácticamente válido con ayuda de nuestro editor de texto (VS Code con la extensión XML Complete). También, en Internet puedes encontrar aplicaciones gratuitas de validación, por ejemplo, [https://codebeautify.org/xmlvalidator](https://codebeautify.org/xmlvalidator) o  [https://www.xmlvalidation.com](https://www.xmlvalidation.com).
 
 Si copiamos y pegamos el último ejemplo en este último enlace (o si subimos el archivo correspondiente), nos arrojará el siguiente error:
 
