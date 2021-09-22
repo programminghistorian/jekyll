@@ -66,7 +66,7 @@ You should feel comfortable using the command line of your computer. Windows use
 
 ### Windows 10
 
-Some components of the unix-based open source software used in this lesson do not run on Windows systems natively. Fortunately, since the Windows 10 Fall Creators Update there is a workaround. Open [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/getting-started/starting-windows-powershell) as administrator and run `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`. Install [Ubuntu 18.04 LTS](https://www.microsoft.com/store/apps/9N9TNGVNDL3Q) from the Microsoft Store. To [initialize](https://web.archive.org/web/20210416060940/https://docs.microsoft.com/en-us/windows/wsl/install-win10) the Windows Subsystem for Linux (WSL) click on the Ubuntu tile in the Start Menu and create a user account.[^1]
+Some components of the unix-based open source software used in this lesson do not run on Windows systems natively. Fortunately, since the Windows 10 Fall Creators Update there is a workaround. Open [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/getting-started/starting-windows-powershell) as administrator and run `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`. Install [Ubuntu 18.04 LTS](https://www.microsoft.com/store/apps/9N9TNGVNDL3Q) from the Microsoft Store. To [initialize](https://docs.microsoft.com/en-us/windows/wsl/) the Windows Subsystem for Linux (WSL) click on the Ubuntu tile in the Start Menu and create a user account.[^1]
 
 <div class="alert alert-warning">
 
