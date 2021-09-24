@@ -67,7 +67,7 @@ Note that upon email with the subject line "Institutional Partners Programme" yo
 2. You are authorized to commit to expenditure of the institution whose name you enter.
 3. Once a method of payment is agreed and funds requested you will enter a legally binding agreement for the amounts specified.
 
-All memberships are subject to the approval of The *Programming Historian* Project Team. The *Programming Historian* is an international volunteer-driven project whose financial activities are administered by ProgHist Limited, a Not for Profit Company Limited by Guarantee that is registered in England, Company Number 12192946. The purpose of the *Programming Historian* is to advance the education of the public in the humanities in particular in the use of digital tools and techniques and to promote research for the public benefit in all aspects of that subject and to publish the useful results.  
+All memberships are subject to the approval of The *Programming Historian* Project Team. The *Programming Historian* is an international volunteer-driven project whose financial activities are administered by ProgHist Ltd, a charity registered in England and Wales ([1195875](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5181272/charity-overview)) and incorporated in England and Wales as a company limited by guarantee ([12192946](https://find-and-update.company-information.service.gov.uk/company/12192946)). The purpose of the *Programming Historian* is to advance the education of the public in the humanities in particular in the use of digital tools and techniques and to promote research for the public benefit in all aspects of that subject and to publish the useful results.  
 
 ## Want to Discuss?
 
