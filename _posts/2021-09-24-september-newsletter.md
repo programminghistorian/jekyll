@@ -1,7 +1,8 @@
 ---
 title: September Newsletter
 authors: 
-- Jennifer Isasi and Anisa Hawes
+- Jennifer Isasi
+- Anisa Hawes
 layout: post
 
 categories: posts
