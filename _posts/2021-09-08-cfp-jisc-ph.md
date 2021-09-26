@@ -76,8 +76,78 @@ Other useful sources of data include:
 - The GeoCities special collection at the Internet Archive (https://archive.org/web/geocities.php)
 - The Enron email corpus (https://www.cs.cmu.edu/~enron/)
 - Library of Congress Web Archive datasets (https://labs.loc.gov/work/experiments/webarchive-datasets/)
+- The GeoCities archive at Arquivo.pt (https://arquivo.pt/searchGeocities/)
+- The Portuguese Web Archive Arquivo.pt through its API tools (https://www.arquivo.pt/api)
 
 
+---
+# Frequently Asked Questions (FAQ)
+
+## Why does the Call for Papers focuses on large-scale data?
+
+We believe there is an appetite for learning how to work with large-scale (or big) data in the humanities and a lack of resources that teach people how to do so. The aim of this call for papers is to remedy that gap.
+
+## Does my lesson need to make use of JISC/TNA datasets?
+
+No. There is absolutely no obligation to use datasets offered by JISC or TNA, and lessons that use them will have no preferential treatment in the selection process.
+
+## What should I do if I have more than one idea I would like to submit?
+
+If you drop us a line at proghist.data.cfp@gmail.com, we'd be happy to give you some feedback as to which idea would be better suited for the call.
+
+## Where can I find guidance for writing my lesson?
+
+You can read the [*Programming Historian* Author Guidelines](https://programminghistorian.org/en/author-guidelines), which are available in all four of our languages. You can also read the [Editor](https://programminghistorian.org/en/editor-guidelines) and [Reviewer](https://programminghistorian.org/en/reviewer-guidelines) guidelines to get a sense of what we are looking for in a *Programming Historian* lesson.
+
+## How will I know you have received my application?
+
+We will reply to your email application within two working days, acknowledging its receipt.
+
+## What is the selection criteria?
+
+Proposals will be selected based on well they fit the remit of the call (the computational analysis of large-scale digital collections), and their originality in relation to other *Programming Historian* lessons (that is, your lesson can overlap and build upon existing lessons, but should not simply repeat its methods on a large dataset).
+
+## Who makes up the selection panel?
+
+The panel is constituted by members of *The Programming Historian* and representatives from JISC and TNA.
+
+## When will I hear if my lesson has been accepted?
+
+We aim to inform all applicants of the outcome of their proposals by Monday **25th of October 2021**.
+
+## Can I appeal the decision?
+
+The panel decision is final and there is no appeal process. However, keep in mind that this call will only result in (up to) seven accepted lessons and the decision is not, therefore, a reflection on the quality of your proposal, but rather of its suitability to the call.
+
+## Can I still publish my lesson in The Programming Historian even if it hasn't been selected for this call?
+
+Yes! In fact, we encourage you to do so. If your proposal is not selected but you would still like to submit it for publication, follow the [regular proposal submission process](https://programminghistorian.org/en/author-guidelines#step-1-proposing-a-new-lesson), also available in [French](https://programminghistorian.org/fr/consignes-auteurs#proposer-une-nouvelle-le%C3%A7on), [Spanish](https://programminghistorian.org/es/guia-para-autores#paso-1-proponer-una-nueva-lecci%C3%B3n), and [Portuguese](https://programminghistorian.org/pt/directrizes-autor#etapa-1-propor-uma-nova-li%C3%A7%C3%A3o). 
+
+## Are you able to take personal circumstances (e.g. parental leave) into account for deadlines?
+
+We understand that not everyone has the same time availability and that this might have an impact on the deadlines we sketched above. If your proposal is accepted, get in touch and we will try to find an agreement that works for everyone.
+
+## Will I need to translate (or arrange for the translation) of the lesson myself?
+
+No. If your proposal is accepted, we will find someone to translate your work into another of *The Programming Historian*'s languages.
+
+## Do I need a GitHub account or to learn Markdown?
+
+All of our publication workflow happens on GitHub, so you will need a GitHub account and a basic understanding of the platform. Similarly, all our articles are written in Markdown - which is surprisingly simple and, if you need an extra hand, there is a [*Programming Historian* lesson](https://programminghistorian.org/en/lessons/getting-started-with-markdown) to help you with it.
+
+## Why is the peer review process open?
+
+Transparency is an important value of *The Programming Historian*. Our entire workflow is openly available, and that includes the peer review process. In keeping this normally secretive process open, we aim to foster an environment in which the review is as supportive and useful as possible. Read more about our peer review process in the [Author Guidelines](https://programminghistorian.org/en/author-guidelines#the-peer-review-process).
+
+## What should I do if my dataset is too big?
+
+We encourage all of our authors to think about the sustainability and reproducibility of their lessons. In the particular case of this call, those concerns might have an impact on their dataset which might be too large (occupying a large amount of storage) or their processing too resource-intensive (as is the case for many AI methodologies). If you think your dataset might be too big, consider providing only the minimum subset of data necessary to demonstrate your method. 
+
+## Can I make use of cloud services (e.g. Google Colab or Kaggle) for data processing in my lesson?
+
+The sustainability of our lessons is very important to *The Programming Historian* and, as a rule, we tend to advise our authors not to base a lesson on an external service that might not be available a few years from the date of publication. Whenever possible, we prefer that our readers be able to work with any software that can be locally installed or configured on their machine. Given the nature of this call, however, this might not be possible: if that is the case for you, get in touch with us and we will discuss the situation in order to to reach the best result for your lesson and for our readers.
+
+---
 
 This call for papers is supported by the project ‘Programming Historian publications: developing computational skills for digital collections’, a partnership between Jisc, the *Programming Historian*, and [The National Archives](https://nationalarchives.gov.uk/archives-sector/projects-and-programmes/plugged-in-powered-up/). For more information on the partnership see the [partnership announcement](https://digitisation.jiscinvolve.org/wp/2021/07/23/are-you-a-researcher-wanting-to-boost-your-skills-in-working-with-digital-collections/).
 
