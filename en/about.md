@@ -30,7 +30,7 @@ The _Programming Historian_ team is committed to diversity, and we insist on a h
 
 ## Funding & Ownership
 
-The Programming Historian is an international volunteer-driven project whose financial activities are administered by ProgHist Limited, a Not for Profit Company Limited by Guarantee that is registered in England, Company Number [12192946](https://beta.companieshouse.gov.uk/company/12192946). It is published by the _Editorial Board of the Programming Historian_. 
+The Programming Historian is an international volunteer-driven project whose financial activities are administered by ProgHist Ltd, a charity registered in England and Wales ([1195875](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5181272/charity-overview)) and incorporated in England and Wales as a company limited by guarantee ([12192946](https://find-and-update.company-information.service.gov.uk/company/12192946)). It is published by the _Editorial Board of the Programming Historian_. 
 
 For a list of our funders and supports, see the ['Support Us']({{site.baseurl}}/support-us) page
 

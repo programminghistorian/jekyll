@@ -54,7 +54,7 @@ Tenha em atenção que ao enviar o e-mail com o assunto “Institutional Partner
 2.  Está autorizado a se comprometer com as despesas da instituição que representa.
 3.  Depois do método de pagamento ser acordado e os fundos solicitados, assumirá um contrato juridicamente vinculativo para os valores especificados.
 
-O Conselho Editorial do _Programming Historian_ reserva-se o direito de rejeitar fundos de qualquer organização ou indivíduo por qualquer motivo. O _Programming Historian_ é um projeto internacional dirigido por voluntários, cujas atividades financeiras são administradas pela ProgHist Limited, uma empresa limitada por garantia sem fins lucrativos, registrada na Inglaterra, com o número de empresa 12192946.
+O Conselho Editorial do _Programming Historian_ reserva-se o direito de rejeitar fundos de qualquer organização ou indivíduo por qualquer motivo. O _Programming Historian_ é um projeto internacional impulsionado por voluntários, cujas atividades financeiras são administradas pela ProgHist Limited, uma instituição de caridade registada na Inglaterra e País de Gales com o número ([1195875](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5181272/charity-overview)) e constituída como uma empresa limitada por garantia, na Inglaterra e no País de Gales, com o número ([12192946](https://find-and-update.company-information.service.gov.uk/company/12192946)).
 O objetivo do _Programming Historian_ é desenvolver a educação do público na área das Humanidades, em particular no uso de ferramentas e técnicas digitais, e promover a pesquisa em benefício do público em todos os aspectos desse assunto, bem como publicar resultados significativos.
 
 ## Quer conversar?
