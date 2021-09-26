@@ -2378,3 +2378,37 @@
   bio:
       es: |
         Manuel Marco Such es profesor titular en el Departamento de Lenguajes y Sistemas Informáticos de la Universidad de Alicante, España.
+
+- name: Eric Brasil
+  twitter: ericbrasiln
+  email: profericbrasil@unilab.edu.br
+  url: "https://ericbrasiln.github.io"
+  github: ericbrasiln
+  orcid: 0000-0001-5067-847
+  team: true
+  team_start: 2021
+  institution: Universidade da Integração Internacional da Lusofonia Afro-brasileira
+  sortname: Brasil
+  affiliation:
+    en: |
+      Instituto de Humanidades e Letras, Universidade da Integração Internacional da Lusofonia Afro-brasileira, Brazil
+    pt: |
+      Instituto de Humanidades e Letras, Universidade da Integração Internacional da Lusofonia Afro-brasileira, Brasil
+    es: |
+      Instituto de Humanidades e Letras, Universidade da Integração Internacional da Lusofonia Afro-brasileira, Brasil
+    fr: |
+      Instituto de Humanidades e Letras, Universidade da Integração Internacional da Lusofonia Afro-brasileira, Brésil
+  bio:
+    en: |
+      Eric Brasil is a professor at the Institute of Humanities and Languages at University of International Integration of Afro-Brazilian Lusophony (IHLM-UNILAB) and member of the Digital Humanities Laboratory of the Federal University of Bahia (LABHDUFBA).
+    pt: |
+      Eric Brasil é professor do Instituto de Humanidades e Letras na Universidade da Integração Internacional da Lusofonia Afro-brasileira (IHLM/UNILAB) e membro do Laboratório de Humanidades Digitais da Universidade Federal da Bahia (LABHDUFBA).
+    es: |
+      Eric Brasil es profesor del Instituto de Humanidades y Letras de la Universidad de Integración Internacional de la Lusofonía Afrobrasileña (IHLM / UNILAB) y miembro del Laboratorio de Humanidades Digitales de la Universidad Federal de Bahía (LABHDUFBA).
+    fr: |
+      Eric Brasil est professeur à l'Institut des sciences humaines et des lettres de l'Université d'intégration internationale de la lusophonie afro-brésilienne (IHLM/UNILAB) et membre du Laboratoire d'humanités numériques de l'Université fédérale de Bahia (LABHDUFBA).
+  team_roles:
+    - portuguese
+    - editorial
+  status: volunteer
+  
