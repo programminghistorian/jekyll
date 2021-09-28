@@ -174,7 +174,7 @@ La pauta es usarlas con moderación en la prosa corriente. Reglas específicas:
 
 ### Referencias
 *	En la mayoría de los casos, lo más apropiado es incluir un enlace más que una nota final.
-*	Asegúrate de que las frases vinculadas tengan un significado semántico. No enlaces términos que son significativos solo para usuarios videntes como "haz clic aquí".
+*	Asegúrate de que las frases vinculadas tengan un significado definido. No enlaces términos que son significativos solo para usuarios videntes como "haz clic aquí".
 *	Toda la literatura tradicional y académica debe incluirse como nota al final, en lugar de como enlace.
 *	Si estás escribiendo un tutorial de "análisis", debes referirte a la literatura académica publicada.
 *	Los superíndices de las notas finales deben ir dentro de la puntuación final: así². No afuera: así.²

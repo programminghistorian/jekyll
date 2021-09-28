@@ -143,7 +143,7 @@ La pauta es usarlas con moderación en la prosa corriente. Reglas específicas:
 
 ### Referencias
 *	Si existe una versión en español de alguna de las referencias utilizadas en la lección, incluye esa.
-*	Asegúrate de que las frases vinculadas tengan un significado semántico. No enlaces términos que son significativos solo para usuarios videntes como "haz clic aquí".
+*	Asegúrate de que las frases vinculadas tengan un significado definido. No enlaces términos que son significativos solo para usuarios videntes como "haz clic aquí".
 *	Toda la literatura tradicional y académica debe incluirse como nota al final, en lugar de como enlace.
 *	Los superíndices de las notas finales deben ir dentro de la puntuación final: así². No afuera: así.²
 *	Utiliza el sistema de "Notas y Bibliografía" que se encuentra en el [Manual Chicago Manual 17a edición](https://uc3m.libguides.com/guias_tematicas/citas_bibliograficas/chicago) para las notas al final.
