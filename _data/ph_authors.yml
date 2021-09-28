@@ -2077,31 +2077,6 @@
     - editorial
   status: volunteer
   
-- name: Ricardo M Pimenta
-  institution: Instituto Brasileiro de Informação em Ciência e Tecnologia
-  sortname: Pimenta
-  team: false
-  orcid: 0000-0002-1612-4126
-  affiliation:
-    en: |
-      IBICT/UFRJ, Rio de Janeiro, Brazil
-    pt: |
-      IBICT/UFRJ, Rio de Janeiro, Brasil
-    es: |
-      IBICT/UFRJ, Río de Janeiro, Brasil
-    fr: |
-      IBICT/UFRJ, Rio de Janeiro, Brésil
-  bio:
-    en: |
-      Ricardo M Pimenta is researcher 2 of CNPq (productivity scholarship) and was Young Scientist of Our State FAPERJ (2018 - 2020). Titular Researcher at the Brazilian Institute of Information in Science and Technology (IBICT) of the Ministry of Science, Technology and Innovation (MCTI).  Permanent Professor of the Graduate Program in Information Science (PPGCI/IBICT-UFRJ). Historian graduated (2003) from Gama Filho University - UGF with post-graduation in History of Brazil (2005) from Cândido Mendes University - UCAM. He holds a Master's degree in Social Memory and Document (2006) from the Federal University of the State of Rio de Janeiro - UNIRIO, and PhD in Social Memory (2010) from the same institution, with doctoral internship (2007 - 2008) at the École des Hautes Études en Sciences Sociales - EHESS of Paris. He is the leader of the Memory and Information Society Research Group (http://www.meso.ibict.br), registered in the CNPq directory and coordinator of the Digital Humanities Networked Laboratory of IBICT (Larhud/COEPE/IBICT). He is currently Associate Editor (Latin America and Africa) of the International Journal of Humanities and Arts Computing (IJHAC, formerly History and Computing). He is also the coordinator of the GoFAIR Humanities network.
-    pt: |
-      Ricardo M Pimenta é pesquisador 2 do CNPq (bolsa de produtividade) e foi Jovem Cientista do Nosso Estado FAPERJ (2018 - 2020). Pesquisador Titular do Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT) do Ministério da Ciência, Tecnologia e Inovação (MCTI). Professor Permanente do Programa de Pós-graduação em Ciência da Informação (PPGCI/IBICT-UFRJ). Historiador graduado (2003) pela Universidade Gama Filho - UGF com pós-graduação em História do Brasil (2005) pela Universidade Cândido Mendes - UCAM. Possui mestrado em Memória Social e Documento (2006) pela Universidade Federal do Estado do Rio de Janeiro - UNIRIO, e doutorado em Memória Social (2010) pela mesma instituição, com estágio doutoral (2007 - 2008) na École des Hautes Études en Sciences Sociales - EHESS de Paris. É líder do Grupo de Pesquisa Memória e Sociedade da Informação (http://www.meso.ibict.br), registrado no diretório do CNPq e coordenador do Laboratório em Rede de Humanidades Digitais do IBICT (Larhud/COEPE/IBICT). Atualmente é Editor Associado (América Latina e África) da  International Journal of Humanities and Arts Computing (IJHAC, antiga History and Computing). É também coordenador da rede GoFAIR Humanidades.
-    es: |
-      Ricardo M Pimenta Es investigador 2 del CNPq (beca de productividad) y fue Joven Científico de Nuestro Estado FAPERJ (2018 - 2020). Investigador titular del Instituto Brasileño de Información en Ciencia y Tecnología (IBICT) del Ministerio de Ciencia, Tecnología e Innovación (MCTI). Profesor titular del Programa de Posgrado en Ciencias de la Información (PPGCI/IBICT-UFRJ). Historiador graduado (2003) por la Universidad de Gama Filho - UGF con postgrado en Historia de Brasil (2005) por la Universidad Cândido Mendes - UCAM. Tiene una maestría en Memoria Social y Documento (2006) por la Universidad Federal del Estado de Río de Janeiro - UNIRIO, y un doctorado en Memoria Social (2010) por la misma institución, con pasantía doctoral (2007 - 2008) en la École des Hautes Études en Sciences Sociales - EHESS de París. Es líder del Grupo de Investigación en Memoria y Sociedad de la Información (http://www.meso.ibict.br), registrado en el directorio del CNPq y coordinador del Laboratorio en Red de Humanidades Digitales del IBICT (Larhud/COEPE/IBICT). Actualmente es editor asociado (América Latina y África) de la revista International Journal of Humanities and Arts Computing (IJHAC, antes History and Computing). También es coordinador de la red de humanidades GoFAIR.
-    fr: |
-      Ricardo M Pimenta est chercheur 2 du CNPq (bourse de productivité) et a été Jeune Scientifique de notre Etat FAPERJ (2018 - 2020). Chercheur titulaire à l'Institut brésilien de l'information en science et technologie (IBICT) du ministère des sciences, de la technologie et de l'innovation (MCTI). Professeur permanent du Programme d'études supérieures en sciences de l'information (PPGCI/IBICT-UFRJ). Historien diplômé (2003) de l'Université Gama Filho - UGF avec un diplôme de troisième cycle en histoire du Brésil (2005) de l'Université Cândido Mendes - UCAM. Il est titulaire d'un master en mémoire sociale et document (2006) de l'Université fédérale de l'État de Rio de Janeiro - UNIRIO, et d'un doctorat en mémoire sociale (2010) de la même institution, avec un stage doctoral (2007 - 2008) à l'École des Hautes Études en Sciences Sociales - EHESS de Paris. Il est responsable du groupe de recherche Mémoire et société de l'information (http://www.meso.ibict.br), inscrit dans l'annuaire du CNPq et coordinateur du Laboratoire Réseau des Humanités Numériques de l'IBICT (Larhud/COEPE/IBICT). Il est actuellement rédacteur en chef adjoint (Amérique latine et Afrique) de l'International Journal of Humanities and Arts Computing (IJHAC, anciennement History and Computing). Il est également le coordinateur du réseau GoFAIR Humanities.
-
-  
 - name: Célian Ringwald
   twitter: ringwald_c
   email: celian.ringwald@hotmail.fr
@@ -2127,6 +2102,7 @@
     es: | 
       Célian Ringwald tiene una maestría en Ciencia de Datos y una maestría en Humanidades Digitales de la Université Lyon 2
     pt: |
+      Célian Ringwald é mestre em Ciência de Dados e mestre em Humanidades Digitais pela Université Lyon 2
   team_roles:
     - french
     - editorial
@@ -2143,6 +2119,7 @@
     es: | 
       Nicolas Frerebeau es arqueólogo en el Centro de Investigaciones y Estudios para el Arte Prehistórico Emile Cartaihac (CNRS/Universidad de Toulouse, Francia). 
     pt: |
+      Nicolas Frerebeau é arqueólogo do Centre de Recherche et d'Études pour l'Art Préhistorique - Émile Cartailhac (CNRS/Universidade de Toulouse, França). 
   
 - name: Brice Lebrun
   team: false
@@ -2155,6 +2132,7 @@
     es: |
       
     pt: |
+      Brice Lebrun é Engenheiro de Pesquisa em Geocronologia no Institut de recherche sur les Archéomatériaux – Centre de recherche en physique appliquée à l’archéologie (CNRS/Universidade de Bordeaux Montaigne, França). 
 
 - name: Simon Hengchen
   team: false
@@ -2371,3 +2349,37 @@
   bio:
       es: |
         Manuel Marco Such es profesor titular en el Departamento de Lenguajes y Sistemas Informáticos de la Universidad de Alicante, España.
+
+- name: Eric Brasil
+  twitter: ericbrasiln
+  email: profericbrasil@unilab.edu.br
+  url: "https://ericbrasiln.github.io"
+  github: ericbrasiln
+  orcid: 0000-0001-5067-847
+  team: true
+  team_start: 2021
+  institution: Universidade da Integração Internacional da Lusofonia Afro-brasileira
+  sortname: Brasil
+  affiliation:
+    en: |
+      Instituto de Humanidades e Letras, Universidade da Integração Internacional da Lusofonia Afro-brasileira, Brazil
+    pt: |
+      Instituto de Humanidades e Letras, Universidade da Integração Internacional da Lusofonia Afro-brasileira, Brasil
+    es: |
+      Instituto de Humanidades e Letras, Universidade da Integração Internacional da Lusofonia Afro-brasileira, Brasil
+    fr: |
+      Instituto de Humanidades e Letras, Universidade da Integração Internacional da Lusofonia Afro-brasileira, Brésil
+  bio:
+    en: |
+      Eric Brasil is a professor at the Institute of Humanities and Languages at University of International Integration of Afro-Brazilian Lusophony (IHLM-UNILAB) and member of the Digital Humanities Laboratory of the Federal University of Bahia (LABHDUFBA).
+    pt: |
+      Eric Brasil é professor do Instituto de Humanidades e Letras na Universidade da Integração Internacional da Lusofonia Afro-brasileira (IHLM/UNILAB) e membro do Laboratório de Humanidades Digitais da Universidade Federal da Bahia (LABHDUFBA).
+    es: |
+      Eric Brasil es profesor del Instituto de Humanidades y Letras de la Universidad de Integración Internacional de la Lusofonía Afrobrasileña (IHLM / UNILAB) y miembro del Laboratorio de Humanidades Digitales de la Universidad Federal de Bahía (LABHDUFBA).
+    fr: |
+      Eric Brasil est professeur à l'Institut des sciences humaines et des lettres de l'Université d'intégration internationale de la lusophonie afro-brésilienne (IHLM/UNILAB) et membre du Laboratoire d'humanités numériques de l'Université fédérale de Bahia (LABHDUFBA).
+  team_roles:
+    - portuguese
+    - editorial
+  status: volunteer
+  
