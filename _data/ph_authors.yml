@@ -2350,6 +2350,14 @@
       es: |
         Manuel Marco Such es profesor titular en el Departamento de Lenguajes y Sistemas Informáticos de la Universidad de Alicante, España.
 
+- name: Thomas Jurczyk 
+  team: false
+  orcid: 0000-0002-5943-2305
+  team: false
+  bio:
+      en: |
+            Thomas Jurczyk is a German historian and religious studies' scholar based in Bochum (GER)
+
 - name: Eric Brasil
   twitter: ericbrasiln
   email: profericbrasil@unilab.edu.br
