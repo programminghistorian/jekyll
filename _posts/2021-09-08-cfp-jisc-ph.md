@@ -109,7 +109,7 @@ Proposals will be selected based on well they fit the remit of the call (the com
 
 ## Who makes up the selection panel?
 
-The panel is constituted by members of *The Programming Historian* and representatives from JISC and TNA.
+The panel is likely to be constituted by members of *The Programming Historian* and representatives from Jisc and TNA (though the exact composition is to be decided).
 
 ## When will I hear if my lesson has been accepted?
 
