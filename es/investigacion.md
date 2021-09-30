@@ -53,6 +53,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 de mayo, 2015).
 
 ### Carteles, conferencias y presentaciones
+* Jessica Parr y Nabeel Siddiqui, '_Programming Historian_ and the Challenges of Globally Distributed Learning', [Sharing Digitally: Seminar on Digital Tools and Infrastructures](https://www.lvivcenter.org/en/conferences/sharing-digitally-2/), Center for Urban History, Leópolis, Ucrania, 29 septiembre 2021.
 * Nabeel Siddiqui, '[In the Open: The Programming Historian and the Challenges Globally Distributed Learning](https://www.sedc.ac.in/uploads/latest-events/digital-huminities-session-20.pdf)', Seshadripuram Evening Degree College, Bangalore, India, 29 junio 2021.
 * Anna-Maria Sichani, ‘[Sustaining communities in Digital Humanities: diversity, collaboration, and capacity building in digital scholarship and pedagogy](https://2021.dhbenelux.org/schedule/)’, DH Benelux, Leiden, 2 junio 2021.
 * Adam Crymble, 'Facilitating Making in Digital Humanities', The Archaeology of Making, University of London, Reino Unido, 5 mayo 2021.
@@ -83,7 +84,7 @@ Países Bajos, 9-12 julio, 2019.
 * Víctor Gayol, ‘The Programming Historian en español’, Blog de Humanidades Digitales, marzo 17, 2017, http://humanidadesdigitales.net/blog/2017/03/17/the-programming-historian-en-espanol/.
 
 ### Editoriales
-
+* Brandon Walsh, ‘Lessons from The Programming Historian’, *walshbr.com*, 17 septiembre 2021, <https://walshbr.com/blog/lessons-from-the-programming-historian/>.
 * Anuka Mohanpuhr, 'Publishing in the digital humanities remains a space exclusive to non-English speakers, experts say' _The Stanford Daily_, 10 de marzo, 2021, <https://www.stanforddaily.com/2021/03/10/publishing-in-the-digital-humanities-remains-a-space-exclusive-to-non-english-speakers-experts-say/>.
 * Matthew Lincoln, 'Multilingual Jekyll: How The Programming Historian Does That', *matthewlincoln.net*, 1 de marzo 2020, <https://matthewlincoln.net/2020/03/01/multilingual-jekyll.html>.
 * Martin Dröge, 'Rezension zu The Programming Historian', _H-Soz-Kult_, 31.08.2019, <https://www.hsozkult.de/webreview/id/rezwww-184>.
