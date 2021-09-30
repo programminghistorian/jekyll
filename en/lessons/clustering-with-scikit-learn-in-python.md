@@ -17,7 +17,7 @@ difficulty: 3
 activity: analyzing
 topics: [python, data-manipulation]
 avatar_alt: Microscope images of bacteria
-doi: 10.46430/phen0092
+doi: 10.46430/phen0094
 abstract: This tutorial demonstrates how to apply clustering algorithms with Python to a dataset with two concrete use cases. The first example uses clustering to identify meaningful groups of Greco-Roman authors based on their publications and their reception. The second use case applies clustering algorithms to textual data in order to discover thematic groups. After finishing this tutorial, you will be able to use clustering in Python with Scikit-learn applied to your own data, adding an invaluable method to your toolbox for exploratory data analysis.
 ---
 
