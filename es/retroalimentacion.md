@@ -39,4 +39,4 @@ Para más información sobre "pull requests", visita la guía de GitHub en [Fork
 
 ## Más recursos sobre Git y GitHub
 
-Utilizar Git y GitHub puede ser razonablemente simple una vez adquieras práctica. Si estás interesado en aprender más y contribuir, el sitio de [GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/) es un buen sitio para empezar. También puedes revisar la guía de [Inicio Rápido](https://docs.github.com/es/github/get-started/quickstart) que está disponible en español. 
+Utilizar Git y GitHub puede ser razonablemente simple una vez adquieras práctica. Si estás interesado en aprender más y contribuir, el sitio de [GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/) es un buen sitio para empezar. También puedes revisar la guía de [Inicio Rápido](https://docs.github.com/es/get-started/quickstart) que está disponible en español. 
