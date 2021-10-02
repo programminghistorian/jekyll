@@ -24,8 +24,6 @@ retirement-reason: |
 avatar_alt: A soup tureen
 doi: 10.46430/phen0008
 ---
-{% include alert.html text='The Programming Historian editors do their best to maintain lessons as minor issues inevitably arise. However, since publication, changes to either the underlying technologies or principles used by this lesson have been substantial, to the point where the editors have decided not to further update it. The lesson may still prove a useful learning tool and a snapshot into the techniques of digital history when it was published, but we cannot guarantee all elements will continue to work as intended.' %}
-
 {% include toc.html %}
 
 
