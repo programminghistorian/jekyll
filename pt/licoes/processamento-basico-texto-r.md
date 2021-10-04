@@ -813,7 +813,7 @@ qplot(metadados$year, sapply(palavras, length)) + labs(x = "Ano", y = "Número d
  
 Isto cria um gráfico como este:
 
-![Number of words in each State of the Union Address plotted by year.](https://programminghistorian.org/images/basic-text-processing-in-r/sotu-number-of-words.jpg)Número de palavras em cada discursos do Estado da União por ano.
+![Number of words in each State of the Union Address plotted by year.](/images/basic-text-processing-in-r/sotu-number-of-words.jpg)Número de palavras em cada discursos do Estado da União por ano.
 
 Parece que a maioria dos discursos aumentaram de 1790 a 1850 e depois aumentaram novamente no final do século XIX. A duração diminuiu drasticamente em torno da Primeira Guerra Mundial, com alguns pontos discrepantes espalhados ao longo do século XX.
 
@@ -829,7 +829,7 @@ qplot(metadados$year, sapply(palavras, length), color = metadados$sotu_type) + l
  
 Isto produz o seguinte gráfico:
 
-![Number of words in each State of the Union Address plotted by year, with color denoting whether it was a written or oral message.](https://programminghistorian.org/images/basic-text-processing-in-r/sotu-number-of-words-and-type.jpg)Número de palavras em cada discurso do Estado da União organizado por ano e com a cor denotando se tratava-se de um discurso escrito ou oral
+![Number of words in each State of the Union Address plotted by year, with color denoting whether it was a written or oral message.](/images/basic-text-processing-in-r/sotu-number-of-words-and-type.jpg)Número de palavras em cada discurso do Estado da União organizado por ano e com a cor denotando se tratava-se de um discurso escrito ou oral
  
 
 Vemos que o aumento no século XIX foi quando os discursos se tornaram documentos escritos e que a queda drástica foi quando Woodrow Wilson (28º Presidente dos Estados Unidos, entre 1913 e 1921) rompeu com a tradição e deu seu discurso sobre o Estado da União oralmente no Congresso. Os pontos discrepantes que vimos anteriormente eram discursos proferidos por escrito após a Segunda Guerra Mundial.
@@ -901,7 +901,7 @@ qplot(metadados$year, mediana_comprimento_frases) + labs(x = "Ano", y = "Mediana
 
 ```
 
-  ![Median sentence length for each State of the Union Address.](https://programminghistorian.org/images/basic-text-processing-in-r/sotu-sentence-length.jpg)Duração mediana das frases por discurso do Estado da União  
+  ![Median sentence length for each State of the Union Address.](/images/basic-text-processing-in-r/sotu-sentence-length.jpg)Duração mediana das frases por discurso do Estado da União  
 
 O gráfico nos mostra uma forte tendência geral de frases mais curtas nos dois séculos do corpus. Lembre-se que alguns discursos no final da segunda metade do século XX eram longos e escritos, muito parecidos com os do século XIX. É particularmente interessante que estes não se destaquem em se tratando de mediana do comprimento das frases.
 
@@ -914,7 +914,7 @@ Para tornar esse padrão ainda mais explícito, é possível adicionar uma linha
 qplot(metadados$year, mediana_comprimento_frases) + geom_smooth() + labs(x = "Ano", y = "Mediana do comprimento das frases")
 
 ```
- ![Median sentence length for each State of the Union Address, with a smoothing line.](https://programminghistorian.org/images/basic-text-processing-in-r/sotu-sentence-length-smooth.jpg)Comprimento mediano de cada discurso do Estado da União com uma linha de tendência
+ ![Median sentence length for each State of the Union Address, with a smoothing line.](/images/basic-text-processing-in-r/sotu-sentence-length-smooth.jpg)Comprimento mediano de cada discurso do Estado da União com uma linha de tendência
  
 
 As linhas de tendência são um ótimo complemento aos gráficos. Elas possuem a função dupla de mostrar a tendência geral dos dados no tempo enquanto destacam pontos atípicos ou periféricos.
