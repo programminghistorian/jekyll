@@ -29,6 +29,7 @@ avatar_alt: Crianças com livros junto a uma biblioteca itinerante
 doi: A INDICAR
 ---
 
+{% include toc.html %}
 
 ## Objetivos
 
@@ -727,11 +728,7 @@ Isto deveria nos dar o seguinte resultado:
 
 Esta linha capta tudo sobre o discurso? É evidente que não. O processamento de texto nunca substituirá a leitura atenta de um texto, mas ajuda a dar um resumo de alto nível das questões discutidas ("risadas" aparecem aqui porque as reações do público são anotadas no texto do discurso). Este resumo é útil de várias maneiras. Pode fornecer um título ad-hoc ou resumo para um documento que não tenha estas informações; pode servir para lembrar aos leitores que leram ou ouviram o discurso quais foram os principais temas discutidos nele; e compilar vários resumos com uma única ação pode mostrar padrões em grande escala que muitas vezes se perdem em grandes corpus. É a este último uso que recorremos agora ao aplicar as técnicas desta seção a um grupo maior de discursos do Estado da União.
 
-  
-
 # Análise dos discursos do Estado da União de 1790 a 2016
-
-  
 
 ## Carregar o corpus
 
