@@ -26,7 +26,7 @@ topics: [distant-reading]
 abstract: "Aprenda a usar o R para analisar padrões de alto nível em textos, aplicar métodos estilométricos ao longo do tempo e entre autores, assim como a usar métodos para resumir informações para descrever um corpus"
 original: basic-text-processing-in-r
 avatar_alt: Crianças com livros junto a uma biblioteca itinerante
-doi: A INDICAR
+doi: 10.46430/phpt0013
 ---
 
 {% include toc.html %}
