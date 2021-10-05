@@ -220,7 +220,7 @@ Now that we know how our clustering algorithms generally work and which methods 
 
 Before starting with the clustering, we will explore the data by loading `DNP_ancient_authors.csv` into Python with *pandas*. Next, we will print out the first five rows and look at some information and overview statistics about each dataset using pandas' `info()` and `describe()` methods.
 
-```Python
+```python
 import pandas as pd
 
 # load the authors dataset that has been stored as a .csv files in a folder called "data" in the same directory as the Jupyter Notebook
@@ -237,7 +237,7 @@ print(df_authors.describe())
 ```
 The output of the `info()` method should look like this:
 
-```Python
+```python
 <class 'pandas.core.frame.DataFrame'>
 Index: 238 entries, Achilles Tatius of Alexandria to Zosimus
 Data columns (total 8 columns):
@@ -259,7 +259,7 @@ As we can see, our data consists of 238 entries of type integer. Next, we will e
 
 The output of `df_authors.describe()` should look like this:
 
-```Python
+```python
 word_count	modern_translations	known_works	manuscripts	early_editions	early_translations	modern_editions	commentaries
 count	238.000000	238.000000	238.000000	238.000000	238.000000	238.000000	238.000000	238.000000
 mean	904.441176	12.970588	4.735294	4.512605	5.823529	4.794118	10.399160	3.815126
@@ -275,7 +275,7 @@ We can see that the standard deviation and the mean values vary significantly be
 
 Furthermore, we have an significant standard deviation in almost every column and a vast difference between the 75th percentile value and the maximum value, particularly in the `word_count` column. This indicates that we might have some noise in our dataset, and it might be necessary to get rid of the noisy data points before we continue with our analysis. Therefore, we only keep those data points in our data frame with a word count within the 90th percentile range.
 
-```Python
+```python
 ninety_quantile = df_authors["word_count"].quantile(0.9)
 df_authors = df_authors[df_authors["word_count"] <= ninety_quantile]
 ```
@@ -284,7 +284,7 @@ df_authors = df_authors[df_authors["word_count"] <= ninety_quantile]
 
 Before we start with the actual clustering process, we first import all the necessary libraries and write a couple of functions that will help us to plot our results during the analysis. We will also use these functions and imports during the second case study in this tutorial (analyzing the *Religion* abstracts data). Thus, if you decide to skip the analysis of the ancient authors data, you still need to import these functions and libraries to execute the code in the second part of this tutorial.
 
-```Python
+```python
 from sklearn.preprocessing import StandardScaler as SS # z-score standardization 
 from sklearn.cluster import KMeans, DBSCAN # clustering algorithms
 from sklearn.decomposition import PCA # dimensionality reduction
@@ -300,7 +300,7 @@ from yellowbrick.cluster import SilhouetteVisualizer
 
 The following function will help us to plot (and save) the silhouette plots.
 
-```Python
+```python
 def silhouettePlot(range_, data):
     '''
     we will use this function to plot a silhouette plot that helps us to evaluate the cohesion in clusters (k-means only)
@@ -321,7 +321,7 @@ def silhouettePlot(range_, data):
 
 The next function will help us to plot (and save) the elbow plots.
 
-```Python
+```python
 def elbowPlot(range_, data, figsize=(10,10)):
     '''
     the elbow plot function helps to figure out the right amount of clusters for a dataset
@@ -346,7 +346,7 @@ def elbowPlot(range_, data, figsize=(10,10)):
 
 The next function assists us in finding the right eps value when using DBSCAN.
 
-```Python
+```python
 def findOptimalEps(n_neighbors, data):
     '''
     function to find optimal eps distance when using DBSCAN; based on this article: https://towardsdatascience.com/machine-learning-clustering-dbscan-determine-the-optimal-value-for-epsilon-eps-python-example-3100091cfbc
@@ -363,7 +363,7 @@ The last function `progressiveFeatureSelection()` implements a basic algorithm t
 
 The algorithm is inspired by [this discussion on stackexchange.com](https://perma.cc/K5PD-GQPQ). Yet, don't worry too much about this implementation; there are better solutions for feature selection algorithms out there, as shown in [in Manoranjan Dash and Huan Liu's paper 'Feature Selection for Clustering'](https://perma.cc/3HQR-RL27) and [Salem Alelyani, Jiliang Tang, and Huan Liu's 'Feature Selection for Clustering: A Review'](https://perma.cc/25Y9-NS94). However, most of the potential algorithms for feature selection in an unsupervised context are not implemented in scikit-learn, which is why I have decided to implement one myself, albeit basic.
 
-```Python
+```python
 def progressiveFeatureSelection(df, n_clusters=3, max_features=4,):
     '''
     very basic implementation of an algorithm for feature selection (unsupervised clustering); inspired by this post: https://datascience.stackexchange.com/questions/67040/how-to-do-feature-selection-for-clustering-and-implement-it-in-python
@@ -411,7 +411,7 @@ Note that we have selected n=3 clusters as default for the *k*-means instance in
 ## 3. Standardizing the DNP Ancient Authors Dataset
 Next, we initialize scikit-learn's `StandardScaler()` to standardize our data. We apply scikit-learn's [`StandardScaler()`](https://perma.cc/36NS-WUJT) (z-score) to cast the mean of the columns to approximately zero and the standard deviation to one, to account for the huge differences between the `word_count` and the other columns in `df_ancient_authors.csv`.
 
-```Python
+```python
 scaler = SS()
 DNP_authors_standardized = scaler.fit_transform(df_authors)
 df_authors_standardized = pd.DataFrame(DNP_authors_standardized, columns=["word_count_standardized", "modern_translations_standardized", "known_works_standardized", "manuscripts_standardized", "early_editions_standardized", "early_translations_standardized", "modern_editions_standardized", "commentaries_standardized"])
@@ -421,13 +421,13 @@ df_authors_standardized = df_authors_standardized.set_index(df_authors.index)
 
 If you were to cluster the entire `DNP_ancient_authors.csv` with *k*-means, you would not find any reasonable clusters in the dataset. This is frequently the case when working with real-world data. However, in such cases, it might be pertinent to search for subsets of features that help us to structure the data. As we are only dealing with ten features, we could theoretically do this manually. However, because we have already implemented a basic algorithm to help us find potentially interesting combinations of features, we can also use our `progressiveFeatureSelection()` function. In this tutorial, we will search for three features that might be interesting to look at. Yet, feel free to try out different `max_features` with the `progressiveFeatureSelection()` function (as well as `n_clusters`). The selection of only three features (as well as n=3 clusters for the *k*-means instance) was a random choice which unexpectedly led to some exciting results; however, this does not mean that there are no other promising combinations which might be worth examining. 
 
-```Python
+```python
 selected_features = progressiveFeatureSelection(df_authors_standardized, max_features=3, n_clusters=3)
 ```
 
 Running this function, it turns out that the three features `known_works_standardized`, `commentaries_standardized`, and `modern_editions_standardized` might be worth considering when trying to cluster our data. Thus, we next create a new data frame with only these three features.
 
-```Python
+```python
 df_standardized_sliced = df_authors_standardized[selected_features]
 ```
 
@@ -435,7 +435,7 @@ df_standardized_sliced = df_authors_standardized[selected_features]
 
 We will now apply the elbow method and then use silhouette plots to obtain an impression of how many clusters we should choose to analyze our dataset. We will check for two to ten clusters. Note, however, that the feature selection was also made with a pre-defined *k*-means algorithm using n=3 clusters. Thus, our three selected features might already tend towards this number of clusters.
 
-```Python
+```python
 elbowPlot(range(1,11), df_standardized_sliced)
 ```
 
@@ -445,7 +445,7 @@ The elbow plot looks like this:
 
 Looking at the elbow plot indeed shows us that we find an “elbow” at n=3 as well as n=5 clusters. Yet, it is still quite challenging to decide whether to use three, four, five, or even six clusters. Therefore, we should also look at the silhouette plots.
 
-```Python
+```python
 silhouettePlot(range(3,9), df_standardized_sliced)
 ```
 
@@ -464,7 +464,7 @@ PCA can be used to reduce high-dimensional datasets for computational reasons. Y
 
 Before using PCA and plotting the results, we will instantiate a *k*-means instance with n=5 clusters and a `random_state` of 42. The latter parameter allows us to reproduce our results. 42 is an arbitrary choice here that refers to ["Hitchhiker's Guide to the Galaxy"](https://perma.cc/33RA-4ZS9), but you can choose whichever number you like.
 
-```Python
+```python
 kmeans = KMeans(n_clusters=5, random_state=42)
 cluster_labels = kmeans.fit_predict(df_standardized_sliced)
 df_standardized_sliced["clusters"] = cluster_labels
@@ -528,7 +528,7 @@ The second section of this tutorial will deal with textual data, namely all abst
 ## 1. Loading the Dataset & Exploratory Data Analysis
 Using a similar method as that used to analyze the `DNP_ancient_authors.csv` dataset, we will first load the `RELIGION_abstracts.csv` into our program and look at some summary statistics.
 
-```Python
+```python
 df_abstracts = pd.read_csv("data/RELIGION_abstracts.csv").drop(columns="Unnamed: 0")
 df_abstracts.info()
 df_abstracts.describe()
@@ -536,7 +536,7 @@ df_abstracts.describe()
 
 The result of the `describe()` method should print out something like this:
 
-```Python
+```python
 title	abstract	link	volume
 count	701	701	701	701
 unique	701	701	701	40
@@ -554,7 +554,7 @@ In order to process the textual data with clustering algorithms, we need to conv
 
 As an optional step, I have implemented a function called `lemmatizeAbstracts()` that groups, or ‘lemmatizes’ the abstracts using [spaCy](https://perma.cc/RTM6-8B27). Considering that we are not interested in stylistic similarities between the abstracts, this step helps to reduce the overall amount of features (words) in our dataset. As part of the lemmatization function, we also clean the text of all punctuation and other noise such as brackets. In the following analysis, we will continue working with the lemmatized version of the abstracts. However, you can also keep using the original texts and skip the lemmatization, although this might lead to different results.
 
-```Python
+```python
 # lemmatization (optional step)
 import spacy
 import re
@@ -581,7 +581,7 @@ I have decided to save the new lemmatized version of our abstracts as `RELIGION_
 
 The first step is to instantiate our TF-IDF model by passing it the `argument` to ignore stop words, such as "the," "a," etc. The second step is rather similar to the training of our *k*-means instance in the previous part: We are passing the abstracts from our dataset to the vectorizer in order to convert them to machine-readable vectors. For the moment, we are not passing any additional arguments. Finally, we create a new pandas DataFrame object based on the TF-IDF matrix of our textual data.
 
-```Python
+```python
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 tfidf = TfidfVectorizer(stop_words="english")
@@ -594,7 +594,7 @@ To do so, we first create a new version of our TF-IDF vectorized data. This time
 
 Secondly, we are also using the *Principal Component Analysis* (PCA), this time to reduce the dimensionality of the dataset from 250 to 10 dimensions. 
 
-```Python
+```python
 # creating a new TF-IDF matrix
 tfidf = TfidfVectorizer(stop_words="english", ngram_range=(1,2), max_features=250, strip_accents="unicode", min_df=10, max_df=200)
 tfidf_religion_array = tfidf.fit_transform(df_abstracts["abstract_lemma"])
@@ -605,7 +605,7 @@ df_abstracts_tfidf.describe()
 ## 3. Dimensionality Reduction Using PCA
 As mentioned above, let us next apply `PCA()` to caste the dimension from d=250 to d=10 to account for the *curse of dimensionality* when using *k*-means. Similar to the selection of n=3 `max_features` during the analysis of our ancient authors dataset, setting the dimensionality to d=10 was a random choice that happened to produce promising results. However, feel free to play around with these parameters while conducting a more elaborate hyperparameter tuning. Maybe you can find values for these parameters that result in an even more effective clustering of the data. For instance, you might want to use a [scree plot](https://perma.cc/PYZ5-6QAV) to figure out the optimal number of principal components in PCA, which works quite similarly to our elbow method in the context of *k*-means.
 
-```Python
+```python
 # using PCA to reduce the dimensionality
 pca = PCA(n_components=10, whiten=False, random_state=42)
 abstracts_pca = pca.fit_transform(df_abstracts_tfidf)
@@ -619,7 +619,7 @@ Next, we try to find a reasonable method for clustering the abstracts using *k*-
 
 As we can see, there is no real elbow in our plot this time. This might imply that there are no big clusters in our `RELIGION_abstracts.csv` dataset. But is it likely that a journal such as *Religion* that covers a vast spectrum of phenomena (which are all, of course, related to religion) only comprises a few thematic clusters? Probably not. Therefore, let us continue by skipping the silhouette score plots (which are most likely of no value with such a huge number of clusters) and just train a *k*-means instance with n=100 clusters and assess the results.
 
-```Python
+```python
 kmeans = KMeans(n_clusters=100, random_state=42)
 abstracts_labels = kmeans.fit_predict(df_abstracts_pca)
 df_abstracts_labeled = df_abstracts.copy()
@@ -628,7 +628,7 @@ df_abstracts_labeled["cluster"] = abstracts_labels
 
 We will next evaluate the results by printing out some article titles of randomly chosen clusters. For instance, when analyzing the titles in cluster 75, we can perceive that all articles in this cluster are related to Theravāda Buddhism, Karma, and their perception in "the West":
 
-```Python
+```python
 df_abstracts_labeled[df_abstracts_labeled["cluster"] == 75][["title", "cluster"]]
 ```
 
@@ -641,7 +641,7 @@ df_abstracts_labeled[df_abstracts_labeled["cluster"] == 75][["title", "cluster"]
 
 Cluster 15 includes articles related to the body and its destruction:
 
-```Python
+```python
 df_abstracts_labeled[df_abstracts_labeled["cluster"] == 15][["title", "cluster"]]
 ```
 
@@ -654,7 +654,7 @@ df_abstracts_labeled[df_abstracts_labeled["cluster"] == 15][["title", "cluster"]
 
 To be fair, other clusters are harder to interpret. A good example is cluster 84. Yet, even in the case of cluster 84 there still seems to be a pattern, namely that almost all articles are related to famous scholars and works in the study of religion, such as Durkheim, Tylor, Otto, Said, etc.
 
-```Python
+```python
 df_abstracts_labeled[df_abstracts_labeled["cluster"] == 84][["title", "cluster"]]
 ```
 
@@ -684,7 +684,7 @@ We will be using the d=10 reduced version of our `RELIGION_abstracts.csv` datase
 
 The first step will be to use our `findOptimalEps()` function to figure out which eps value is most suitable for our data.
 
-```Python
+```python
 findOptimalEps(2, df_abstracts_tfidf)
 ```
 
@@ -694,7 +694,7 @@ As can be seen in figure 11, the eps-plotting suggests choosing an eps value bet
 
 We are selecting 0.2 as eps value and train a DBSCAN instance.
 
-```Python
+```python
 dbscan = DBSCAN(eps=0.2, metric="euclidean")
 dbscan_labels = dbscan.fit_predict(df_abstracts_pca)
 df_abstracts_dbscan = df_abstracts.copy()
@@ -706,7 +706,7 @@ As we can see when looking at the DBSCAN results in our Jupyter notebook, using 
 
 Its shortcomings aside, the current version of our DBSCAN instance does give some promising insights, for example with cluster 3, which collects articles related to gender and women in different religions:
 
-```Python
+```python
 df_abstracts_dbscan[df_abstracts_dbscan["cluster"] == 1][["title", "cluster"]]
 ```
 
@@ -727,7 +727,7 @@ df_abstracts_dbscan[df_abstracts_dbscan["cluster"] == 1][["title", "cluster"]]
 
 Cluster 2, on the other hand, seems to be related to belief and atheism:
 
-```Python
+```python
 df_abstracts_dbscan[df_abstracts_dbscan["cluster"] == 2][["title", "cluster"]]
 ```
 
