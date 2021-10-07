@@ -78,6 +78,7 @@ We also publicly thank all of our 'Patron' and 'Educator' supporters:
 - Rebecca Kahn (Educator)
 - Sarah Melton (Educator)
 - Laurissa Stokes (Educator)
+- Monica Berti (Educator)
 
 ## Management of Donations and Sponsorship
 
