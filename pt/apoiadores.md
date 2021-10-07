@@ -80,6 +80,7 @@ Também agradecemos publicamente a todos os nossos apoiadores ‘Patrono’ e �
 -   Rebecca Kahn (Educator)
 -   Sarah Melton (Educator)
 -   Laurissa Stokes (Educator)
+-   Monica Berti (Educator)
 
 ## Gestão de Doações e Patrocínios
 
