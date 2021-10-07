@@ -77,6 +77,7 @@ Nous tenons également à remercier publiquement tous nos donateurs de niveau 'm
 - Rebecca Kahn (éducation)
 - Sarah Melton (éducation)
 - Laurissa Stokes (éducation)
+- Monica Berti (éducation)
 
 ## Gestion de donations et de parrainages
 
