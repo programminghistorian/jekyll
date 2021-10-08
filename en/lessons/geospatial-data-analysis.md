@@ -35,7 +35,7 @@ This tutorial will introduce scholars to some of these techniques for processing
 Specifically, this tutorial is going to use a membership list--with addresses--from a para-religious organization in America (PTL Ministries) and downloadable geographic data to assess population characteristics that could provide insights into an organization that is often characterized as more rural and less wealthy, alongside a host of other characteristics. The tutorial will then visualize and analyze this data to assess possible insights. This process will provide the basic tools and understandings that will allow scholars to assess other events and organizations that have geographic data. From this, you should be able to discover or challenge understandings of historical events using geospatial analysis.
 
 ## Pre-requisites
-The work for this lesson will be done in R and R Studio, an open source statistical package used by data scientists, statisticians and other researchers. We are using R, because it is a widely-used open source tool that will allow us to both visualize and analyze our data using a multitude of methods that can be expanded upon quite easily. Some background knowledge of the software and statistics will be helpful. For introductions to R, I recommend the [r-basics](/lessons/r-basics-with-tabular-data) tutorial  and the more comprehensive [Digital History Methods in R](http://lincolnmullen.com/projects/dh-r2/) as starting points. There are many other services such as this [MOOC](https://www.coursera.org/learn/r-programming) and [DataCamp](https://www.datacamp.com/) that can introduce beginners to R's broader functionality. [UCLA](http://www.ats.ucla.edu/stat/r/default.htm) also has a nice introduction.[^1] While this tutorial will attempt to step through the entire process in R, basic knowledge of R is needed. The tutorial also assumes users will have some knowledge about the event you are observing which you will use later as a means to test and contest assumptions.
+The work for this lesson will be done in R and R Studio, an open source statistical package used by data scientists, statisticians and other researchers. We are using R, because it is a widely-used open source tool that will allow us to both visualize and analyze our data using a multitude of methods that can be expanded upon quite easily. Some background knowledge of the software and statistics will be helpful. For introductions to R, I recommend the [r-basics](/lessons/r-basics-with-tabular-data) tutorial  and the more comprehensive [Computational Historical Thinking](https://dh-r.lincolnmullen.com) as starting points. There are many other services such as this [MOOC](https://www.coursera.org/learn/r-programming) and [DataCamp](https://www.datacamp.com/) that can introduce beginners to R's broader functionality. [UCLA](http://www.ats.ucla.edu/stat/r/default.htm) also has a nice introduction.[^1] While this tutorial will attempt to step through the entire process in R, basic knowledge of R is needed. The tutorial also assumes users will have some knowledge about the event you are observing which you will use later as a means to test and contest assumptions.
 
 
 ## Lesson Goals
@@ -70,7 +70,7 @@ If you are looking nationally prior to 1990, the county-level data is often your
 
 
 ## Reading the Data
-We start by loading in the selected data. The data for this tutorial can be [dowloaded here](/assets/geospatial-data-analysis/Archive.zip). Once downloaded place all the files in a folder labeled data inside your working directory in R. We are going to create a variable and read in our data from our variable directory to it. Once run, the `County_Aggregate_Data` variable will contain the data and geographic information that we will analyze:
+We start by loading in the selected data. The data for this tutorial can be [dowloaded here](/assets/geospatial-data-analysis/data.zip). Once downloaded place all the files in a folder labeled data inside your working directory in R. We are going to create a variable and read in our data from our variable directory to it. Once run, the `County_Aggregate_Data` variable will contain the data and geographic information that we will analyze:
 
 ```r
 County_Aggregate_Data <- st_read("./data/County1990ussm/")
@@ -330,14 +330,20 @@ bins = unique(quantile(var, seq(0,1,length.out=8)))
 interv = findInterval(var, bins)
 County_Aggregate_Data$People_Urban <-interv
 
-p <- plot_ly(
-  County_Aggregate_Data, x = ~((AV0AA1990/10000)/CountMembers), y = ~BD5AA1990,
-  # Hover text:
-  text = ~paste("AVG Incom: ",BD5AA1990 , '$<br>County:', COUNTY.y,'$<br>State:', STATENAM,'$<br>Members:', CountMembers), size = ~AV0AA1990, color = ~People_Urban,
-  textfont = list(color = '#000000', size = 16)) %>%
-  layout(title = 'Members and Income, Size=Population',
-         xaxis = list(title = 'Members per 10k population'),
-         yaxis = list(title = 'Income'))
+p <- plot_ly(County_Aggregate_Data, type = "scatter", mode = "markers") %>%
+    add_trace(x = ~(AV0AA1990/10000)/CountMembers,
+              y = ~BD5AA1990,
+              size = ~AV0AA1990,
+              color = ~People_Urban,
+              text = ~paste("AVG Incom: ",BD5AA1990 ,
+                            '$<br>County:', COUNTY.y,
+                            '$<br>State:', STATENAM,
+                            '$<br>Members:', CountMembers),
+              hoverinfo = "text") %>%
+    layout(title = 'Members and Income, Size=Population',
+           xaxis = list(title = 'Members per 10k population'),
+           yaxis = list(title = 'Income'),
+           hoverlabel = list(font = list(size = 16)))
 
 p
 ```

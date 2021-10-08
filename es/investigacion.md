@@ -34,7 +34,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 ### Talleres y eventos
 
 * Adam Crymble, 'Teach Digital History Well', UCL, United Kingdom (29 de abril, 2021).
-* * Silvia Gutiérrez, Jairo Melo & Riva Quiroga, ['Datos Abiertos y Humanidades Digitales' (https://github.com/programminghistorian/opendataday-2021), in _Open Data Day 2021_, virtual (6 March 2021).
+* Silvia Gutiérrez, Jairo Melo & Riva Quiroga, ['Datos Abiertos y Humanidades Digitales'](https://github.com/programminghistorian/opendataday-2021), in _Open Data Day 2021_, virtual (6 March 2021).
 * Joshua Ortiz Baco, Daniel Alves, Jimmy Medeiros, Luis Ferla, '[Programming Historian em português](https://www.youtube.com/watch?v=bt-OaMW2Fr4)' en _I Jornada Nacional de Humanidades Digitais_, IBICT, Brasil (13 de octubre 2020).
 * Adam Crymble, 'Documenting Your Digital Methods', University of Edinburgh, United Kingdom (27 de mayo 2020).
 * Adam Crymble & Jessica Parr, 'Programming Historian Silent Disco', University of Edinburgh, United Kingdom (18 de mayo 2020).
@@ -53,8 +53,12 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 de mayo, 2015).
 
 ### Carteles, conferencias y presentaciones
+* Jessica Parr y Nabeel Siddiqui, '_Programming Historian_ and the Challenges of Globally Distributed Learning', [Sharing Digitally: Seminar on Digital Tools and Infrastructures](https://www.lvivcenter.org/en/conferences/sharing-digitally-2/), Center for Urban History, Leópolis, Ucrania, 29 septiembre 2021.
+* Nabeel Siddiqui, '[In the Open: The Programming Historian and the Challenges Globally Distributed Learning](https://www.sedc.ac.in/uploads/latest-events/digital-huminities-session-20.pdf)', Seshadripuram Evening Degree College, Bangalore, India, 29 junio 2021.
+* Anna-Maria Sichani, ‘[Sustaining communities in Digital Humanities: diversity, collaboration, and capacity building in digital scholarship and pedagogy](https://2021.dhbenelux.org/schedule/)’, DH Benelux, Leiden, 2 junio 2021.
 * Adam Crymble, 'Facilitating Making in Digital Humanities', The Archaeology of Making, University of London, Reino Unido, 5 mayo 2021.
-* Daniel Alves, Jennifer Isasi, Sarah Melton, Sofia Papastamkou, Jessica Parr, Riva Quiroga, Nabeel Siddiqui, Brandon Walsh, 'The Programming Historian: A Global Case Study in Multilingual Open Access and DH Tutelage/Instruction' (panel), _Global Digital Humanities Symposium_, Michigan State University, East Lansing, USA, 12 abril, 2021.
+* Daniel Alves, Jennifer Isasi, Sarah Melton, Sofia Papastamkou, Jessica Parr, Riva Quiroga, Nabeel Siddiqui, Brandon Walsh, '[The Programming Historian: A Global Case Study in Multilingual Open Access and DH Tutelage/Instruction](https://msuglobaldh.org/abstracts/#programming-historian)' (panel), _Global Digital Humanities Symposium_, Michigan State University, East Lansing, USA, 12 abril, 2021.
+* Jessica Parr, '[Cambridge Cultural Heritage Data School: Final plenary](https://www.cdh.cam.ac.uk/events/cambridge-cultural-heritage-data-school-final-plenary)', University of Cambridge, Reino Unido, 30 marzo 2021.
 * Jennifer Isasi & Riva Quiroga, ['_Programming Historian_: Un proyecto colaborativo para poner la programación al alcance de los humanistas'](http://ixa2.si.ehu.eus/intele/?q=webinars), _INTELE : INfraestructura de TEcnologías del LEnguaje_, España, 25 marzo, 2021.
 *  Sofia Papastamkou, Jessica Parr & Riva Quiroga, 'Challenges for Digital Literacy in the Humanities: The Open, Community-Based and Multilinguistic Approach of _The Programming Historian_', NewsEye’s International Conference, Europa, 17 marzo, 2021.
 * Riva Quiroga, ['Multilingual Digital Humanites'](https://mediacentral.ucl.ac.uk/Play/59506), Digital Humanities Long View Seminar, UCLDH, UK & CESTA, USA, 10 marzo, 2021.
@@ -80,7 +84,7 @@ Países Bajos, 9-12 julio, 2019.
 * Víctor Gayol, ‘The Programming Historian en español’, Blog de Humanidades Digitales, marzo 17, 2017, http://humanidadesdigitales.net/blog/2017/03/17/the-programming-historian-en-espanol/.
 
 ### Editoriales
-
+* Brandon Walsh, ‘Lessons from The Programming Historian’, *walshbr.com*, 17 septiembre 2021, <https://walshbr.com/blog/lessons-from-the-programming-historian/>.
 * Anuka Mohanpuhr, 'Publishing in the digital humanities remains a space exclusive to non-English speakers, experts say' _The Stanford Daily_, 10 de marzo, 2021, <https://www.stanforddaily.com/2021/03/10/publishing-in-the-digital-humanities-remains-a-space-exclusive-to-non-english-speakers-experts-say/>.
 * Matthew Lincoln, 'Multilingual Jekyll: How The Programming Historian Does That', *matthewlincoln.net*, 1 de marzo 2020, <https://matthewlincoln.net/2020/03/01/multilingual-jekyll.html>.
 * Martin Dröge, 'Rezension zu The Programming Historian', _H-Soz-Kult_, 31.08.2019, <https://www.hsozkult.de/webreview/id/rezwww-184>.

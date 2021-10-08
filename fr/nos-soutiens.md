@@ -41,6 +41,7 @@ Les organisations suivantes ont apporté ou continuent d'apporter un soutien all
 - Jisc & The National Archives (Royaume-Uni), '[Programming Historian publications: developing computational skills for digital collections](https://research.jiscinvolve.org/wp/2021/07/23/boost-your-skills-in-working-with-digital-collections/)' [2021-2022].
 - UCL, Faculty of Arts & Humanities, Royaume-Uni [2021].
 - [Escola de Ciências Sociais FGV CPDOC](https://portal.fgv.br), "Literacia digital: modelando competências digitais para humanistas e cientistas sociais", Brésil [2021-2022].
+- Fundação para a Ciência e Tecnologia, à travers le programme de soutien '[Verão com Ciência 2021](https://www.fct.pt/apoios/veraocomciencia/index.phtml.pt)', Portugal [September 2021]
 - The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Royaume-Uni [2021].
 - University of Sussex, Royaume-Uni:
     - Bibliothèque de l'université du Sussex [2020-actuellement]
@@ -76,6 +77,7 @@ Nous tenons également à remercier publiquement tous nos donateurs de niveau 'm
 - Rebecca Kahn (éducation)
 - Sarah Melton (éducation)
 - Laurissa Stokes (éducation)
+- Monica Berti (éducation)
 
 ## Gestion de donations et de parrainages
 

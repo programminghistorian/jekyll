@@ -45,7 +45,7 @@ Each row in the THOR dataset contains information on a single mission or bombing
 
 For this tutorial, we'll use a modified version of the WWII THOR dataset. The original, full-version of the dataset consists of 62 columns of information digitized from the paper forms. To make this dataset more manageable for our purposes, this has been reduced to 19 columns that include core mission information and bombing data. These columns are discussed below when we first load the data. The unabridged dataset is available for download [here](https://data.world/datamil/world-war-ii-thor-data).
 
-The dataset used in this tutorial is contained in [thor_wwii.csv](https://raw.githubusercontent.com/programminghistorian/ph-submissions/gh-pages/assets/visualizing-with-bokeh/thor_wwii.csv). This file is required to complete most of the examples below.
+The dataset used in this tutorial is contained in [thor_wwii.csv](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/visualizing-with-bokeh/thor_wwii.csv). This file is required to complete most of the examples below.
 
 We'll use Bokeh and Pandas to address some of the following questions:
 
@@ -126,6 +126,13 @@ pip install "pandas>=1.2.0,<1.2.3" "bokeh>=2.0.0,<2.3.0" "pyproj>=3.0,<3.0.1"
 ```
 
 ## Running Code Examples
+
+<div class="alert alert-info">
+
+At this point in the lesson, you have a choice of two ways to experiment with "Running Code Examples". You can either proceed in the command line and do the coding by hand, or run the Jupyter notebook provided <a href="https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/visualizing-with-bokeh/visualizing-with-bokeh.ipynb">here</a>. Beginners who simply want to get a sense of how the code  operates, rather than write it themselves, may find the Jupyter notebook option especially helpful.
+
+</div>
+
 It is easiest first to create a single directory and save each code example as a *.py* within it. When you are ready to run the code file, navigate to this directory in your command prompt and make sure your virtual environment is activated. Remember that you can always activate the environment with the following command appropriate for your operating system.
 ```python
 source activate bokeh-env #For Linux/MacOS
@@ -138,7 +145,7 @@ Within the virtual environment, you can run your code by typing:
 python filename.py
 ```
 
-A Jupyter Notebook containing the code used in this tutorial is also [available](https://raw.githubusercontent.com/programminghistorian/ph-submissions/gh-pages/assets/visualizing-with-bokeh/visualizing-with-bokeh.ipynb) in case you prefer to work through the tutorial without installing a virtual environment. You can learn more about Jupyter Notebook [here](http://jupyter.org). If you have created a virtual environment using Miniconda, as discussed above, you can install Jupyter Notebook in the environment by typing `conda install jupyter`
+A Jupyter Notebook containing the code used in this tutorial is also [available](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/visualizing-with-bokeh/visualizing-with-bokeh.ipynb) in case you prefer to work through the tutorial without installing a virtual environment. You can learn more about Jupyter Notebook [here](http://jupyter.org). If you have created a virtual environment using Miniconda, as discussed above, you can install Jupyter Notebook in the environment by typing `conda install jupyter`
 
 # The Basics of Bokeh
 
