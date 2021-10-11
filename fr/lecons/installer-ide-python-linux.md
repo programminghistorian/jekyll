@@ -89,7 +89,7 @@ Dans votre éditeur de texte, créer un nouveau fichier, puis copiez-collez les 
 print('hello world')
 ```
 
-La commande ```Run Python File``` vous permet d'exécuter votre programme. Si vous utilisez un autre éditeur de texte, il proposera sûrement une fonctionnalité similaire. Si tout c'est bien passé, le résultat devrait ressembler à cela (cliquez sur l'image pour l'agrandir):
+La commande ```Run Python File``` vous permet d'exécuter votre programme. Si vous utilisez un autre éditeur de texte, il proposera sûrement une fonctionnalité similaire. Si tout c'est bien passé, le résultat devrait ressembler à cela:
 
 {% include figure.html caption="hello world dans Komodo Edit sur Linux" filename="komodo-edit-output-linux.png" %}
 
