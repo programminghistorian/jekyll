@@ -25,7 +25,7 @@ topics: [get-ready, python]
 abstract: "Cette leçon vous montrera comment installer un environnement de développement pour Python sur un ordinateur exécutant le système d'exploitation Linux."
 original: linux-installation
 avatar_alt: Une bande de trois musiciens
-doi: 
+doi: 10.46430/phfr0019 
 ---
 
 {% include toc.html %}
