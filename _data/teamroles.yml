@@ -14,7 +14,7 @@
   definition:
     en: First point of contact for authors with lesson ideas
     es: Primer contacto para autores con ideas de lecciones
-    fr: Premier contact pour les auteur(e)s souhaitant proposer une lesson
+    fr: Premier contact pour les auteur(e)s souhaitant proposer une leçon
     pt: Primeiro contacto para os autores com ideias para lições
 - type: editorial
   label:
@@ -25,7 +25,7 @@
   definition:
     en: Responsible for editorial work resulting in the review and publication of lessons
     es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones
-    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons
+    fr: Responsable du travail éditorial pour l'évaluation et la publication des leçons
     pt: Responsável pelo trabalho editorial para a revisão e publicação das lições
 - type: ombuds
   label:
