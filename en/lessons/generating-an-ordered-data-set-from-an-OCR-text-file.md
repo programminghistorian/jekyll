@@ -97,7 +97,7 @@ You can see from the scan that each charter has the following metadata associate
 * Frequently a collection of in-text numbered footnote markers, whose text appears at the bottom of each page, sequentially numbered, and restarting from 1 on each new page.
 * The Latin text of the charter itself
 
-This is typical of such resources, though editorial conventions will vary widely. The point is: this is an __ordered__ data set, not just a great big string of characters. With some fairly straightforward Python scripts, we can turn our OCR output into an ordered data set, in this case, a [python dictionary](https://docs.python.org/2/tutorial/datastructures.html#dictionaries), __before__ we start trying to proofread the Latin charter texts. With such an ordered data set in hand, we can do proofreading, and potentially many other kinds of tasks, much more effectively.
+This is typical of such resources, though editorial conventions will vary widely. The point is: this is an __ordered__ data set, not just a great big string of characters. With some fairly straightforward Python scripts, we can turn our OCR output into an ordered data set, in this case, a [python dictionary](https://docs.python.org/3.7/tutorial/datastructures.html#dictionaries), __before__ we start trying to proofread the Latin charter texts. With such an ordered data set in hand, we can do proofreading, and potentially many other kinds of tasks, much more effectively.
 
 So, the aim of this tutorial is to take a plain text file, like the OCR output above and turn it into a python dictionary with fields for the Latin text of the charter and for each of the metadata elements mentioned above:
 
@@ -160,25 +160,40 @@ These strings are not regular enough to reliably find with regular expressions; 
 
 
 ```python
+'''
+Code ripped from https://www.datacamp.com/community/tutorials/fuzzy-string-python
+'''
 def lev(seq1, seq2):
-    """ Return Levenshtein distance metric
-    (ripped from http://pydoc.net/Python/Whoosh/2.3.2/whoosh.support.levenshtein/)
-     """
-    oneago = None
-    thisrow = range(1, len(seq2) + 1) + [0]
-    for x in xrange(len(seq1)):
-        twoago, oneago, thisrow = oneago, thisrow, [0] * len(seq2) + [x + 1]
+    """ levenshtein_ratio_and_distance:
+        For all i and j, distance[i,j] will contain the Levenshtein
+        distance between the first i characters of s and the
+        first j characters of t
+    """
+    # Initialize matrix of zeros
+    rows = len(seq1)+1
+    cols = len(seq2)+1
+    distance = np.zeros((rows,cols),dtype = int)
 
-        for y in xrange(len(seq2)):
-            delcost = oneago[y] + 1
-            addcost = thisrow[y - 1] + 1
-            subcost = oneago[y - 1] + (seq1[x] != seq2[y])
-            thisrow[y] = min(delcost, addcost, subcost)
-            # This block deals with transpositions
-            if (x > 0 and y > 0 and seq1[x] == seq2[y - 1]
-                and seq1[x-1] == seq2[y] and seq1[x] != seq2[y]):
-                thisrow[y] = min(thisrow[y], twoago[y - 2] + 1)
-    return thisrow[len(seq2) - 1]
+    # Populate matrix of zeros with the indeces of each character of both strings
+    for i in range(1, rows):
+        for k in range(1,cols):
+            distance[i][0] = i
+            distance[0][k] = k
+
+    # Iterate over the matrix to compute the cost of deletions,insertions and/or substitutions    
+    for col in range(1, cols):
+        for row in range(1, rows):
+            if seq1[row-1] == seq2[col-1]:
+                cost = 0 # If the characters are the same in the two strings in a given position [i,j] then the cost is 0
+            else:
+                # In order to align the results with those of the Python Levenshtein package, if we choose to calculate the ratio
+                # the cost of a substitution is 2. If we calculate just distance, then the cost of a substitution is 1.
+                cost = 1
+            distance[row][col] = min(distance[row-1][col] + 1,      # Cost of deletions
+                                 distance[row][col-1] + 1,          # Cost of insertions
+                                 distance[row-1][col-1] + cost)     # Cost of substitutions
+
+    return distance[row][col]
 ```
 
 Again, this is some pretty sophisticated programming, but for our purposes all we need to know is that the `lev()` function takes two strings as parameters and returns a number that indicates the 'string distance' between them, or, how many changes had to be made to turn the first string into the second. So: `lev("fizz", "buzz")` returns '2'
@@ -219,7 +234,7 @@ At the top of your Python module, you're going to want to import some python mod
 
 2. Also: `from pprint import pprint`. `pprint` is just a pretty-printer for python objects like lists and dictionaries. You'll want it because python dictionaries are much easier to read if they are formatted.
 
-3. And: `from collections import Counter`. We'll want this for the [Find and normalize footnote markers and texts](#footnotes) section below. This is not really necessary, but we'll do some counting that would require a lot of lines of fiddly code and this will save us the trouble. The collections module has lots of deep magic in it and is well worth getting familiar with. (Again, see Doug Hellmann's PyMOTW for the [collections](http://pymotw.com/2/collections/index.html#module-collections) module. I should also point out that his book [*The Python Standard Library By Example*](https://doughellmann.com/books/the-python-3-standard-library-by-example/) is one well worth having.)
+3. And: `from collections import Counter`. We'll want this for the [Find and normalize footnote markers and texts](#footnotes) section below. This is not really necessary, but we'll do some counting that would require a lot of lines of fiddly code and this will save us the trouble. The collections module has lots of deep magic in it and is well worth getting familiar with. (Again, see Doug Hellmann's PyMOTW for the [collections](https://pymotw.com/3/collections/index.html) module. I should also point out that his book [*The Python Standard Library By Example*](https://doughellmann.com/books/the-python-3-standard-library-by-example/) is one well worth having.)
 
 ## A very brief review of regular expressions as they are implemented in python
 
@@ -228,7 +243,7 @@ L.T. O'Hara's [introduction](/lessons/cleaning-ocrd-text-with-regular-expression
 1. `re.compile()` creates a regular expression object that has a number of methods. You should be familiar with `.match()`, and `.search()`, but also `.findall()` and `.finditer()`
 2. Bear in mind the difference between `.match()` and `.search()`: `.match()` will only match at the __beginning__ of a line, whereas `.search()` will match anywhere in the line __but then it stops__, it'll __only__ return the first match it finds.
 3. `.match()` and `.search()` return match objects. To retrieve the matched string you need `mymatch.group(0)`. If your compiled regular expression has grouping parentheses in it (like our 'slug' regex below), you can retrieve those substrings of the matched string using `mymatch.group(1)` etc.
-4. `.findall()` and `.finditer()` will return __all__ occurrences of the matched string; `.findall()` returns them as a list of strings, but .finditer() returns an __iterator of match objects__. (read the docs on the method [.finditer()](https://docs.python.org/2/library/re.html#re.finditer).)
+4. `.findall()` and `.finditer()` will return __all__ occurrences of the matched string; `.findall()` returns them as a list of strings, but .finditer() returns an __iterator of match objects__. (read the docs on the method [.finditer()](hhttps://docs.python.org/3.7/library/re.html#re.finditer).)
 
 
 
@@ -239,7 +254,7 @@ We'll start with a single file of OCR output. We will iteratively generate new, 
 The code in this tutorial is highly edited; it is __not__ comprehensive. As you continue to refine your input files, you will write lots of little *ad hoc* scripts to check on the efficacy of what you've done so far. Versioning will ensure that such experimentation will not destroy any progress that you've made.
 
 ## A note on how to deploy the code in this tutorial:
-The code in this tutorial is for Python 2.7.x, Python 3 is quite a different animal.
+The code in this tutorial is for Python 3.
 
 When you write code in a text file and then execute it, either at the command line, or from within your text editor or IDE, the Python interpreter executes the code line by line, from top to bottom. So, often the code on the bottom of the page will depend on code above it.
 
@@ -310,7 +325,7 @@ for line in GScriba:
         # If we increment a variable 'n' to count the number of headers we've found,
         # then the value of that variable should be our page number.
         n += 1
-        print "recto: %s %s" % (recto_lev_score, line)
+        print(f"recto: {recto_lev_score} {line}")
 
         # Once we've figured out our optimal 'lev' score, we can 'uncomment'
         # all these `fout.write()` lines to write out our new text file,
@@ -320,13 +335,13 @@ for line in GScriba:
         #fout.write("~~~~~ PAGE %d ~~~~~\n\n" % n)
     elif verso_lev_score < 26 :
         n += 1
-        print "verso: %s %s" % (verso_lev_score, line)
+        print(f"verso: {verso_lev_score} {line}")
         #fout.write("~~~~~ PAGE %d ~~~~~\n\n" % n)
     else:
         #fout.write(line)
         pass
 
-print n
+print(n)
 ```
 
 There's a lot of calculation going on in the `lev()` function. It isn't very efficient to call it on every line in our text, so this might take some time, depending on how long our text is. We've only got 803 charters in vol. 1. That's a pretty small number. If it takes 30 seconds, or even a minute, to run our script, so be it.
@@ -398,11 +413,11 @@ for line in GScriba:
             # translate the roman to the arabic and it should be equal to n.
             if n != rom2ar(rnum):
                 # if it's not, then alert us
-                print "%d, there's a charter roman numeral missing?, because line number %d reads: %s" % (n, GScriba.index(line), line)
+                print(f"{n}, there's a charter roman numeral missing?, because line number {GScriba.index(line)} reads: {line}")
                 # then set 'n' to the right number
                 n = rom2ar(rnum)
         except KeyError:
-            print n, "KeyError, line number ", GScriba.index(line), " reads: ", line
+            print(f"{n}, KeyError, line number {GScriba.index(line)} reads: {line}")
 ```
 
 Since we know how many charters there should be. At the end of our loop, the value of n should be the same as the number of charters. And, in any iteration of the loop, if the value of n does not correspond to the next successive charter number, then we know we've got a problem somewhere, and the print statements should help us find it.
@@ -428,7 +443,7 @@ for line in GScriba:
     if romstr.match(line):
         rnum = line.strip().strip('.')
         num = rom2ar(rnum)
-        fout.write("[~~~~ GScriba_%s :::: %d ~~~~]\n" % (rnum, num))
+        fout.write(f"[~~~~ GScriba_{rnum} :::: {num} ~~~~]\n")
     else:
         fout.write(line)
 ```
@@ -519,12 +534,12 @@ for x in i:
 
     # chno should equal n + 1, if it doesn't, report to us
     if chno != n + 1:
-        print "problem in charter: %d" % (n + 1) #NB: this will miss consecutive problems.
+        print(f"problem in charter: {(n + 1)}") #NB: this will miss consecutive problems.
     # then set n to the right charter number
     n = chno
 
 # print out the number of summary lines we found
-print "number of italian summaries: ", num_firstlines
+print(f"number of italian summaries: {num_firstlines}")
 ```
 
 Again, run the script repeatedly until all the Italian Summary lines are present and correct, then save your input file with a new name and use it the input file for the next bit:
@@ -559,7 +574,7 @@ for line in GScriba:
 
             # if there are fn markers that do not appear exactly twice,
             # then report the page number to us
-            if 1 in c.values(): print pgno, pgfnlist
+            if 1 in c.values(): print(pgno, pgfnlist)
 
             # then reset our list to empty
             pgfnlist = []
@@ -578,7 +593,7 @@ Our `Counter` is a very handy special data structure. We know that we want each 
 ```python
 >>> l = [1,2,3,1,3]
 >>> c = Counter(l)
->>> print c
+>>> print(c)
 Counter({1: 2, 3: 2, 2: 1})
 ```
 
@@ -587,7 +602,7 @@ So if for a given page we get a list of footnote markers like this `[1,2,3,1,3]`
 ```python
 >>> l = [1,2,3,1,3]
 >>> c = Counter(l)
->>> print c.values()
+>>> print(c.values())
 [2, 1, 2]
 ```
 
@@ -723,9 +738,9 @@ for ch in charters:
         line2 = txt[1]
         if line2 and ']' not in line2:
             n += 1
-            print "charter: %d\ntext, line 1: %s\ntext, line 2: %s" % (ch, line1, line2)
+            print(f"charter: {ch}\ntext, line 1: {line1}\ntext, line 2: {line2}")
     except:
-        print ch, "oops" # to pass the charters from the missing page 214
+        print(ch, "oops") # to pass the charters from the missing page 214 # to pass the charters from the missing page 214
 ```
 
 > Note: The `try: except:` blocks are made necessary by the fact that in my OCR output, the data for pg 214 somehow got missed out. This often happens. Scanning or photographing each page of a 600 page book is tedious in the extreme. It's very easy to skip a page. You will inevitably have anomalies like this in your text that you will have to isolate and work around. The Python `try: except:` pattern makes this easy. Python is also very helpful here in that you can do a lot more in the `except:` clause beyond just printing "oops". You could call a function that performs a whole separate operation on those anomalous bits.
@@ -741,7 +756,7 @@ for ch in charters:
         d['summary'] = d['text'].pop(0).strip()
         d['marginal'] = d['text'].pop(0).strip()
     except IndexError: # this will report that the charters on p 214 are missing
-        print "missing charter ", ch
+        print(f"missing charter {ch}")
 ```
 
 ## Assign footnotes to their respective charters and add to dictionary
@@ -799,7 +814,8 @@ for line in GScriba:
                 # fill in the appropriate empty field.
                 fndict[text]['fntext'] = re.sub('\(\d+\)', '', line).strip()
             except KeyError:
-                print "printer's error? ", "pgno:", pgno, line
+                print("printer's error? ", "pgno:", pgno, line)
+
 ```
 
 Note that the `try: except:` blocks come to the rescue again here. The loop above kept breaking because in 3 instances it emerged that there existed footnotes at the bottom of a page for which there were no markers within the text. This was an editorial oversight in the published edition, not an OCR error. The result was that when I tried to address the non-existent entry in `fndict`, I got a `KeyError`. My `except:` clause allowed me to find and look at the error, and determine that the error was in the original and nothing I could do anything about, so when generating the final version of `charters` I replaced the `print` statement with `pass`. Texts made by humans are messy; no getting around it. `try: except:` exists to deal with that reality.
@@ -826,15 +842,15 @@ for ch in charters:
         i = summary_date.finditer(d['summary'])
         dt = list(i)[-1] # Always the last parenthetical expression, in case there is more than one.
         if dt.group(2).strip() not in ital2int.keys():
-            print "chno. %d fix the month %s" % (d['chno'], dt.group(2))
+            print(f"chno. {d['chno']} fix the month {dt.group(2)}")
     except:
-        print d['chno'], "The usual suspects ", sys.exc_info()[:2]
+        print(d['chno'], "The usual suspects ", sys.exc_info()[:2])
 ```
-> Note: When using `try/except` blocks, you should usually trap __specific__ errors in the except clause, like `ValueError` and the like; however, in _ad hoc_ scripts like this, using `sys.exc_info` is a quick and dirty way to get information about any exception that may be raised. (The [sys](http://pymotw.com/2/sys/index.html#module-sys) module is full of such stuff, useful for debugging)
+> Note: When using `try/except` blocks, you should usually trap __specific__ errors in the except clause, like `ValueError` and the like; however, in _ad hoc_ scripts like this, using `sys.exc_info` is a quick and dirty way to get information about any exception that may be raised. (The [sys](https://pymotw.com/3/sys/index.html) module is full of such stuff, useful for debugging)
 
 Once you're satisfied that all the parenthetical date expressions are present and correct, and conform to your regular expression, you can parse them and add them to your data structure as dates rather than just strings. For this you can use the `datetime` module.
 
-This module is part of the standard library, is a deep subject, and ought to be the subject of its own tutorial, given the importance of dates for historians. As with a lot of other python modules, a good introduction is Doug Hellmann's [PyMOTW](http://pymotw.com/2/datetime/)(module of the week). An even more able extension library is [mxDateTime](http://www.egenix.com/products/python/mxBase/mxDateTime/). Suffice it here to say that the `datetime.date` module expects parameters like this:
+This module is part of the standard library, is a deep subject, and ought to be the subject of its own tutorial, given the importance of dates for historians. As with a lot of other python modules, a good introduction is Doug Hellmann's [PyMOTW](https://pymotw.com/3/datetime/index.html)(module of the week). An even more able extension library is [mxDateTime](http://www.egenix.com/products/python/mxBase/mxDateTime/). Suffice it here to say that the `datetime.date` module expects parameters like this:
 
 ```python
 >>> from datetime import date
@@ -880,14 +896,14 @@ for ch in charters:
         dt = charters[ch]['date']
         christmas = datetime.date(1160,12,25)
         if abs(dt - christmas) < week * 3:
-            print "chno: %s, date: %s" % (charters[ch]['chno'], dt)
+            print(f"chno: {charters[ch]['chno']}, date: {dt}")
     except:
         pass # avoid this idiom in production code
 ```
 
 Which will give us this result:
 
-```python
+```terminal
 chno: 790, date: 1160-12-14
 chno: 791, date: 1160-12-15
 chno: 792, date: 1161-01-01
@@ -941,7 +957,7 @@ Print out our resulting dictionary using `pprint(charters)` and you'll see somet
 }
 ```
 
-Printing out your Python dictionary as a literal string is not a bad thing to do. For a text this size, the resulting file is perfectly manageable, can be mailed around usefully and read into a python repl session very simply using `eval()`, or pasted directly into a Python module file. On the other hand, if you want an even more reliable way to serialize it in an exclusively Python context, look into [`Pickle`](https://docs.python.org/2/library/pickle.html). If you need to move it to some other context, JavaScript for example, or some `RDF` triple stores, Python's [`json`](https://docs.python.org/2/library/json.html#module-json) module will translate effectively. If you have to get some kind of XML output, I will be very sorry for you, but the [`lxml`](http://lxml.de/) python module may ease the pain a little.
+Printing out your Python dictionary as a literal string is not a bad thing to do. For a text this size, the resulting file is perfectly manageable, can be mailed around usefully and read into a python repl session very simply using `eval()`, or pasted directly into a Python module file. On the other hand, if you want an even more reliable way to serialize it in an exclusively Python context, look into [`Pickle`](https://docs.python.org/3.7/library/pickle.html). If you need to move it to some other context, JavaScript for example, or some `RDF` triple stores, Python's [`json`](https://docs.python.org/3.7/library/json.html#module-json) module will translate effectively. If you have to get some kind of XML output, I will be very sorry for you, but the [`lxml`](http://lxml.de/) python module may ease the pain a little.
 
 ## Order from disorder, huzzah.
 Now that we have an ordered data structure, we can do many things with it. As a very simple example, let's append some code that just prints `charters` out as html for display on a web-site:
@@ -1006,7 +1022,7 @@ for x in charters:
 
         # `string % dictionary` is a neat trick for html templating
         # that makes use of python's string interpolation syntax
-        # see: http://www.diveintopython.net/html_processing/dictionary_based_string_formatting.html
+        # see: https://docs.python.org/3/tutorial/inputoutput.html#the-string-format-method
 
         fout.write("\n\n")
     except:
