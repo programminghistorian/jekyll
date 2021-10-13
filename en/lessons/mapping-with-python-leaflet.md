@@ -172,7 +172,7 @@ To use a geolocator, import them and assign a variable name (in this case we use
 import geopy
 import pandas
 from geopy.geocoders import Nominatim, GoogleV3
-# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+# versions used: geopy 2.2.0, pandas 1.3.3, python 3.7.5
 
 def main():
   io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
@@ -234,7 +234,7 @@ def main():
   def get_longitude(x):
     return x.longitude
 
-  geolocator = Nominatim()
+  geolocator = Nominatim(user_agent="email@email.com")
   # geolocator = GoogleV3()
   # uncomment the geolocator you want to use
 
@@ -268,8 +268,8 @@ namecolumn=str(sys.argv[2])
 def main():
   io = pandas.read_csv(inputfile, index_col=None, header=0, sep=",")
 
-	def get_latitude(x):
-    return x.latitude
+def get_latitude(x):
+  return x.latitude
 
   def get_longitude(x):
     return x.longitude
@@ -305,7 +305,7 @@ The error will look like this if you use the Nominatim geocoder:
 
 To address the timeout error, you could add the parameter ```timeout```, which specifies the time, in seconds, to wait for the geocoding service to respond before raising a geopy.exc.GeocoderTimedOut exception. So your geolocator declaration will look like this:
 
-```geolocator = Nominatim(timeout=5)```
+```geolocator = Nominatim(user_agent="email@email.com", timeout=5)```
 
 ## Transforming Data with Python
 
@@ -376,7 +376,6 @@ def main():
     return x.longitude
 
   # geolocator = Nominatim(timeout=5)
-  geolocator = GoogleV3(timeout=5)
   # uncomment the geolocator you want to use
   # change the timeout value if you get a timeout error, for instance, geolocator = Nominatim(timeout=60)
   io['helper'] = io['Area_Name'].map(str) + " " + io['Country'].map(str)
