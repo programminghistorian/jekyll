@@ -7,6 +7,11 @@ layout: post
 categories: posts
 ---
 
+> # This Call for Papers is now **closed**
+> Many thanks to all of those who showed an interest in our first Call for Papers, and especially those who submitted proposals for exciting new lessons. Keep an eye out for the results of this initiative in 2022.
+
+---
+
 **The Programming Historian invites proposals of new tutorials dealing with computational analysis of large-scale digital collections, as a part of a special series developed in partnership with the National Archives and Jisc.**
 
 **O Programming Historian convida à apresentação de novos tutoriais relacionados com a análise computacional de coleções digitais em grande escala, como parte de uma série especial desenvolvida em parceria com os National Archives e o Jisc.**
