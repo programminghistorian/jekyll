@@ -13,12 +13,12 @@ categories: posts
 
 ## Event Details
 
-**Date**: 18 November 2021. 
-**Time**: 11am-12:30pm London time.
-**Format**: Online Workshop.
-**Language of Instruction**: English
-**Price**: Free, sponsored by Institute of Historical Research.
-**Sign Up Link**: [Eventbrite Signup Link](https://www.eventbrite.co.uk/e/training-the-teacher-giving-your-first-digital-history-workshop-tickets-175644646867)
+* **Date**: 18 November 2021. 
+* **Time**: 11am-12:30pm London time.
+* **Format**: Online Workshop.
+* **Language of Instruction**: English
+* **Price**: Free, sponsored by Institute of Historical Research.
+* **Sign Up Link**: [Eventbrite Signup Link](https://www.eventbrite.co.uk/e/training-the-teacher-giving-your-first-digital-history-workshop-tickets-175644646867)
 
 Learn how you can use Programming Historian to teach digital humanities skills to your students.
 
