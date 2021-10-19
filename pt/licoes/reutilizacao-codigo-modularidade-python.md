@@ -24,7 +24,7 @@ activity: transforming
 topics: [python]
 abstract: "Programas de computador podem se tornar longos, pesados e confusos sem mecanismos especiais para gerenciar a complexidade. Esta lição mostrará como reutilizar partes do seu código escrevendo funções e dividindo seus programas em módulos, a fim de mantê-los concisos e fáceis de serem depurados."
 original: code-reuse-and-modularity
-avatar_alt: Three caricature heads
+avatar_alt: Três cabeças de caricatura
 doi: A INDICAR
 
 ---
