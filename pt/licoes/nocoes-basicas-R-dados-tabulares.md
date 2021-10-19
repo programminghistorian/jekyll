@@ -25,7 +25,7 @@ abstract: "Esta lição ensina uma maneira de analisar rapidamente grandes volum
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/398
 original: r-basics-with-tabular-data
 avatar_alt: Letra R ornamentada e ilustrada
-doi: A INDICAR
+doi: 10.46430/phpt0015
 ---
 
 
@@ -44,7 +44,7 @@ Este tutorial não pressupõe nenhum conhecimento prévio do R. Ele percorrerá 
 
 R é ideal para analisar conjuntos de dados de grande dimensão que levariam muito tempo para serem processados manualmente. Depois de entendida a forma como se escrevem algumas funções básicas e como importar ficheiros de dados próprios, é possível analisar e visualizar os dados de forma rápida e eficiente.
 
-Embora R seja uma ótima ferramenta para dados tabulares, pode-se achar mais útil utilizar outras abordagens para analisar fontes não tabulares (tais como transcrições de jornais). Caso possua interesse em estudar estes tipos de fontes, dê uma olhada em algumas das outras grandes lições do [The Programming Historian](https://programminghistorian.org/pt/).
+Embora R seja uma ótima ferramenta para dados tabulares, pode-se achar mais útil utilizar outras abordagens para analisar fontes não tabulares (tais como transcrições de jornais). Caso possua interesse em estudar estes tipos de fontes, dê uma olhada em algumas das outras grandes lições do [The Programming Historian](/pt/).
 
 ## Instalar R
 
