@@ -8,9 +8,9 @@ skip_validation: true
 # Consignes aux auteur(e)s
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
-<h2 class="noclear"> Étape 1&#x202F;: <a href="#proposer-une-nouvelle-leçon">proposer une nouvelle leçon</a></h2>
-<h2 class="noclear">Étape 2&#x202F;: <a href="#rédaction-et-mise-en-forme">pédaction et mise en forme</a></h2>
-<h2 class="noclear">Étape 3&#x202F;: <a href="#soumettre-une-nouvelle-leçon">soumettre une nouvelle leçon</a></h2>  
+<h2 class="noclear"> Étape 1&#x202F;: <a href="#etape-1-proposer-une-nouvelle-leçon">proposer une nouvelle leçon</a></h2>
+<h2 class="noclear">Étape 2&#x202F;: <a href="#etape-2-rédaction-et-mise-en-forme">pédaction et mise en forme</a></h2>
+<h2 class="noclear">Étape 3&#x202F;: <a href="#etape-3-soumettre-une-nouvelle-leçon">soumettre une nouvelle leçon</a></h2>  
 
 
 Ces consignes ont été développées pour vous permettre de comprendre comment s'organise l'écriture d'un tutoriel pour le *Programming Historian en français*. Elles fournissent des détails pratiques, des informations sur la philosophie de la revue, ses workflows et l'évaluation ouverte par les pairs. Si pour quelque raison que ce soit elles nous vous paraissent pas claires, n'hésitez pas à contacter notre rédacteur / rédactrice en chef {% include managing-editor.html lang=page.lang %}.  
@@ -25,10 +25,8 @@ La portée et la longueur du tutoriel doivent être appropriés à la complexit�
 Si vous avez une idée pour une nouvelle leçon, merci de compléter un [formulaire de proposition](/assets/forms/Formulaire.Tutoriel.txt) et contacter {% include managing-editor.html lang=page.lang %} pour discuter de votre idée.
 
 Vous pouvez avoir une meilleure idée de ce que nous publions en consultant nos [leçons en ligne](/fr/lecons/), en lisant nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs), ou encore en parcourant les [leçons en cours de développement](https://github.com/programminghistorian/ph-submissions/issues).
-<!--
-Afin d'assurer la pérennité de nos leçons, les auteur(e)s doivent s'efforcer de soumettre des leçons qui ne sont pas complètement dépendantes de logiciels spécifiques ou d'interfaces utilisateurs. Ces leçons vont à coup sûr souffrir d'instabilité et vont avoir besoin de révisions substantielles lorsque sort une nouvelle version du logiciel ou de l'interface. Enseigner des concepts, plutôt que demander de "cliquer sur le bouton _x_", facilite la rédaction et la publication de tutoriels pérennes.-->
 
-Une fois que votre proposition est acceptée, nous allons créer un ticket "Proposition" dans notre [dépôt de soumissions](https://github.com/programminghistorian/ph-submissions/issues?q=is%3Aissue+is%3Aopen+label%3Aproposal) avec le titre provisoire de la leçon et les objectifs pédagogiques proposés. Ce ticket sert à signaler le travail en cours alors que vous êtes en train de rédiger votre leçon. Pour éviter d'accumuler les retards, nous vous demandons de soumettre votre leçon dans les 90 jours suivant l'acceptation de votre proposition. Pendant cette période, votre point de contact sera notre rédactrice en chef ou un autre membre de l'équipe désigné par celle-ci.
+Une fois que votre proposition est acceptée, nous allons créer un ticket &laquo;&#x202F;Proposition&#x202F;&raquo; dans notre [dépôt de soumissions](https://github.com/programminghistorian/ph-submissions/issues?q=is%3Aissue+is%3Aopen+label%3Aproposal) avec le titre provisoire de la leçon et les objectifs pédagogiques proposés. Ce ticket sert à signaler le travail en cours alors que vous êtes en train de rédiger votre leçon. Pour éviter d'accumuler les retards, nous vous demandons de soumettre votre leçon dans les 90 jours suivant l'acceptation de votre proposition. Pendant cette période, votre point de contact sera notre rédactrice en chef ou un autre membre de l'équipe désigné par celle-ci.
 
 ## Étape 2&#x202F;: rédaction et mise en forme
 Ce guide de style présente notre approche et notre charte éditoriale à l'attention des auteur(e)s. En en respectant les principes, vous nous aidez à conserver la cohérence des contenus du *Programming Historian en français*.  
@@ -39,10 +37,10 @@ La section comprend trois parties, que nous vous remercions de lire avant d'écr
 * B. Règles typographiques  
 * C. Règles de mise en forme  
 
-### Style de rédaction  
+## A. Style de rédaction et public ciblé  
 Cette partie aborde des questions générales de style pour vous aider à mieux répondre aux attentes de notre lectorat et de notre équipe éditoriale. Elle fournit des informations élémentaires sur le style et le ton à adopter lors de la rédaction, l'engagement en faveur du libre accès et des logiciels libres, la nécessité de s'adresser à un lectorat international, le besoin d'écrire un texte qui puisse durer dans le temps, et les choix à faire quant aux données mobilisées dans les leçons. Nous vous conseillons de bien lire cette partie lorsque vous vous projettez dans l'écriture d'une leçon puis de la relire avant de soumettre votre texte pour avoir la certitude que vous en avez tenu compte.    
 
-#### Langue et style  
+### Langue et style  
 *	Les tutoriels ne doivent pas excéder 8000 mots (y compris le code)
 *	Veillez à garder un ton formel mais accessible
 *	Nous vous conseillons d'utiliser la deuxième personne du pluriel (*vous*) pour vous adresser à votre lectorat 
@@ -51,11 +49,10 @@ Cette partie aborde des questions générales de style pour vous aider à mieux 
 
 À tout moment, en cas de doute, vous pouvez vous adresser au membre de notre équipe qui assure le suivi éditorial de votre leçon pour obtenir plus de clarifications, si nécesaire.    
 
-#### Open source, libre accès
+### Open source, libre accès
 Le *Programming Historian en français* adhère aux principes de l’open source et du libre accès. Toutes les leçons doivent utiliser des langages de programmation et des logiciels à code source ouvert et libres dans la mesure du possible. Cela minimise les coûts pour toutes les parties impliquées dans la création et la réception des leçons et garantit leur utilisation la plus large possible.   
 
-#### Écrire pour un public international
-
+### Écrire pour un public international
 Le lectorat du *Programming Historian* vient du monde entier et travaille au sein d'environnements culturels variés. Merci de garder à l'esprit que le *Programming Historian en français* s'adresse à tous les pays francophones et que, de plus, votre leçon est susceptible d'être traduite dans l'une des langues de nos différentes publications. C'est pourquoi les auteur(e)s doivent veiller à écrire leurs leçons de façon à ce qu'elles soient accessibles à un lectorat diversifié. Merci donc de faire preuve d'un esprit large et de faire attention aux conseils suivants&#x202F;:
 
 - Soyez conscient(e) de la diversité de votre lectorat qui peut ne pas venir de votre pays ou partager les mêmes croyances que vous. 
@@ -69,7 +66,7 @@ Le lectorat du *Programming Historian* vient du monde entier et travaille au sei
 - Termes techniques&#x202F;: merci d'insérer un lien pointant à Wikipédia, à un dictionnaire fiable ou à un site web pérenne lorsque vous introduisez des termes techniques dans votre texte. Par &laquo;&#x202F;terme technique&#x202F;&raquo; nous entendons tout mot qu'un(e) citoyen(ne) moyen(ne) peut ne pas connaître ou comprendre.
 - Environnement technique et logiciel&#x202F;: si votre leçon nécessite l'installation de plusieurs composantes logicielles ou l'utilisation de ressources considérables, merci d'en prévenir les lecteurs et lectrices au tout début de la leçon (après le sommaire). Merci de donner des indications précises en expliquant pourquoi, par exemple:&laquo;&#x202F; vous aurez besoin d'au moins 8GB de mémoire RAM disponibles pour achever cette leçon&#x202F;&raquo; ou &laquo;&#x202F;cette leçon utilise des fichiers volumineux de l'ordre de 2GB&#x202F;&raquo;. Précisez aussi, le cas échéant, si l'installation de logiciels nécessite de disposer des droits d'administration.     
 
-#### Écrire de manière durable  
+### Écrire de manière durable  
 Le *Programming Historian en français* s'efforce de publier des leçons qui restent utiles à notre lectorat sur le long terme. Pour assurer la création de leçons pérennes, nous vous demandons de garder à l'esprit un certain nombre de consignes lors de leur rédaction :
 
 - **Rester à un niveau général le plus possible sans aller au-delà**&#x202F;: axez davantage votre leçon sur les méthodologies et sur une présentation plus générale des outils, plutôt qu'aux détails de l'utilisation de tel logiciel ou de telle interface. Il vaut mieux éviter de guider les lecteurs et les lectrices pour montrer comment cliquer sur tel ou tel bouton qui risque d'être obsolète dans de futures versions.
@@ -80,11 +77,11 @@ Le *Programming Historian en français* s'efforce de publier des leçons qui res
 Les auteur(e)s doivent consulter notre [politique de retrait des leçons]({{site.baseurl}}/fr/politique-retrait-lecons), qui décrit comment l'équipe éditoriale du *Programming Historian en français* gère les leçons qui sont devenues obsolètes. 
 
 
-### Règles typographiques  
+## B. Règles typographiques  
 <!-- Ici il y a du texte en EN, à voir si pertinent de le traduire ou de mettre une accroche spécifique-->
 Cette partie se concentre davantage sur des conventions d'écriture à propos des dates, des nombres, des en-têtes, des listes, de l'usage des majuscules ou de la ponctuation, ainsi que de l'application de l'écriture inclusive. Vous pouvez vous y référer avant et après l'écriture de votre brouillon. 
 
-#### Dates et heures
+### Dates et heures
 * Les siècles doivent s'écrire en chiffres romains, si possible en petites capitales (code HTML&#x202F;: ``` <span style="font-variant:small-caps;"> ```), avec le &laquo;&#x202F;e&raquo;&#x202F; final en exposant (code HTML&#x202F;: ``` <sup> ```), par exemple <span style="font-variant:small-caps;">XVIII</span><sup>e</sup> siècle.
 
 * La mention des décennies, plus particulièrement usitée pour le <span style="font-variant:small-caps;">XX</span><sup>e</sup> siècle, peut se formaliser soit en toutes lettres (les années trente), soit en donnant tous les chiffres de l’année (les années 1930).
@@ -102,7 +99,7 @@ Cette partie se concentre davantage sur des conventions d'écriture à propos de
 * Pour indiquer les durées, écrire les mentions &laquo;&#x202F;heures&raquo;&#x202F;, &laquo;&#x202F;minutes&raquo;&#x202F; et &laquo;&#x202F;secondes&raquo;&#x202F; en toutes lettres (10 heures 10 minutes).
 
 
-#### Les nombres 
+### Nombres 
  * Écrire les nombres en lettres de 1 à 16 (un à seize) et en chiffres les nombres supérieurs. 
  * Écrire le(s) nombre(s) commençant une phrase en toutes lettres; toutes les variétés de la langue française sont acceptées (par exemple, *septante* ou *soixante-dix* pour 70) 
  * Si deux nombres sont cités dans une phrase, dont l'un devrait s'écrire en lettres et l'autre en chiffres, écrire tous les deux préférablement en chiffres ou, si le contexte oblige, tous les deux en lettres (par exemple, *nous avons fusionné 3 des 26 colonnes de notre tableau*; ou *Trois des vingt-six colonnes de notre tableau ont été fusionnées*; nous éviterons donc de mélanger les formes dans une même phrase. Le plus important est de se fixer une règle et de s'y tenir.  
@@ -113,7 +110,7 @@ Cette partie se concentre davantage sur des conventions d'écriture à propos de
  *	Écrire les formules mathématiques en syntaxe [LaTeX](https://fr.wikibooks.org/wiki/LaTeX/%C3%89crire_des_math%C3%A9matiques).
    
 
-#### En-têtes 
+### En-têtes 
 Les en-têtes ne doivent pas faire appel à des polices de caractères spécifiques ou à des propriétés telles que *l'italique* ou **le gras**.
 
 Les titres doivent immédiatement précéder le corps du texte de l'en-tête.
@@ -121,7 +118,7 @@ Les titres doivent immédiatement précéder le corps du texte de l'en-tête.
 Ne pas faire suivre un titre d’une mise en garde ou d’un autre titre sans un court texte introductif ou descriptif.
 
 
-#### Listes     
+### Listes     
 Nous utilisons les listes à puces ou à nombres. Les items de listes doivent être limités à une phrase. Ils sont traités comme des entités séparées et ne doivent pas être enchaînés avec de la ponctuation et des conjonctions. 
 
 Ne pas écrire:
@@ -143,7 +140,7 @@ Ou bien écrire:
 3. Voici un dernier item
 
 
-#### Ponctuation   
+### Ponctuation   
 * **Abréviations**&#x202F;: concernant les [abréviations proprement dites](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?Th=1&Th_id=153&niveau=), merci d'en limiter l'utilisation pour éviter de rendre le texte difficilement compréhensible. Pour des abréviations spécifiques, tels [les sigles et les acronymes](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?Th=1&Th_id=157&niveau=), commencer par donner la signification lors du premier emploi dans le texte et la faire suivre par l'abréviation entre parenthèses&#x202F;; par la suite, utiliser uniquement la forme abrégée. Par exemple, après avoir évoqué l'Union européenne (UE) une première fois, écrire par la suite seulement l'UE. Préférer d'écrire les sigles sans points abréviatifs et en majuscules non accentués&#x202F;: OCDE pour Organisation de coopération et de développement économiques, CNRS pour Centre national de la recherche scientifique... 
 * **Esperluette ou perluète**&#x202F;: ne pas l'utiliser comme conjonction de coordination à la place de "et" pour joindre deux noms communs, mais seulement lorsque référence est faite à des [noms d’entreprises entre deux patronymes, prénoms ou initiales](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3330). 
 * **Parenthèses / crochets**&#x202F;: pour éviter de décharger du texte accessoire entre parenthèses, tels les commentaires, les précisions etc., il vaut mieux utiliser des virgules ou des tirets. Utiliser néanmoins systématiquement les parenthèses pour apporter des précisions sur des termes techniques en anglais, par exemple des éléments de l'interface d'un logiciel ou de code, lorsque vous fournissez la traduction en français dans le texte.  
@@ -172,7 +169,7 @@ Ou bien écrire:
         * Essayez d’appuyer sur le bouton jaune *Trier*. Que se passe-t-il maintenant ?
 * **Guillemets français**&#x202F;: ils sont utilisés pour entourer un discours rapporté (citation, discours direct) ou pour indiquer de manière distincte un ou plusieurs mots (par exemple, un terme ou une phrase dans une autre langue). Une espace insécable suit le guillemet ouvrant et précéde le guillemet fermant &laquo;&#x202F;comme ici&raquo;&#x202F;. Des phrases entre guillemets peuvent s'imbriquer&#x202F;; dans ce cas, la première est placée entre guillemets français, la deuxième entre guillemets anglais doubles (doubles apostrophes), la troisième entre guillemets anglais simples (une paire d'apostrophes). Il est à noter que les guillemets anglais sont accolés aux mots qu'ils entourent. 
 
-#### Usage des majuscules  
+### Usage des majuscules  
 Les majuscules, à utiliser avec parcimonie dans la prose courante, peuvent se diviser en trois catégories&#x202F;:
 
 * Les majuscules de position (en début de phrase ou à chaque alinéa dans une liste énumérative)
@@ -226,7 +223,7 @@ Les majuscules sont aussi concernées par les accents, le tréma ou la cédille,
 
 Pour plus de précisions, vous pouvez consulter la banque de dépannage linguistique de l'Office québécois de la langue française, avec une liste de l'emploi de la majuscule pour des [types de dénominations](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?th=1&th_id=280) et une autre pour les [noms particuliers](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?th=1&th_id=281).  
 
-#### Références bibliographiques  
+### Références bibliographiques  
 *   Mobiliser des hyperliens dans le texte plutôt que d'insérer des notes de fin peut convenir dans la plupart de cas.   
 *   La phrase source d'un hyperlien doit être sémantique, éviter par conséquent des phrases du type &laquo;&#x202F;cliquer ici&raquo;&#x202F;.
 *   Utiliser des notes de fin pour renvoyer aux références bibliographiques académiques, qu'elles soient électroniques ou publiées sur papier. 
@@ -244,13 +241,13 @@ Si vous vous référez à nouveau au même ouvrage, vous pouvez par la suite fou
     * Julien Barnier *et al.*. *Scatterd3*, version 1.0.1 (2021). GPL. https://cran.r-project.org/web/packages/scatterD3/index.html (en note de fin)
 	* Barnier, Julien, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. *Scatterd3* (version 1.0.1). GPL. 2021.  https://cran.r-project.org/web/packages/scatterD3/index.html (en référence bibliographique)
 
-#### Écriture inclusive  
+### Écriture inclusive  
 Nous appliquons l'écriture inclusive suivant les consignes de l'Office québécois de la langue française sur la [formation des noms féminins](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?Th=1&Th_id=358&niveau=) et la [rédaction épicène](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?Th=2&t1=&id=3912), mises en place en 2002, ainsi que du [Guide d’aide à la féminisation des noms de métiers, titres, grades et fonctions](https://www.vie-publique.fr/sites/default/files/rapport/pdf/994001174.pdf), publié par l'Institut national de la langue française en 1999. Ces deux textes se recoupent largement et constituent des guides de base pour l'équipe du _Programming Historian en français_. En revanche, nous ne faisons pas recours à l'utilisation du point médian (ou point milieu) ou de tirets. Ainsi, nous évitons d'écrire &laquo;&#x202F;les historien·ne·s&raquo;&#x202F; ou &laquo;&#x202F;les historien-ne-s&raquo;&#x202F;; nous privilégions à la place &laquo;&#x202F;les historiens et historiennes&raquo;&#x202F; ou encore &laquo;&#x202F;les historien(ne)s&raquo;&#x202F;, pour éviter d'alourdir le texte. De même, nous pouvons faire recours à l'emploi d'un nom collectif, en parlant, par exemple, du lectorat du *Programming Historian* plutôt que des lecteurs et des lectrices ou des utilisateurs et des utilisatrices.    
 
-### Mise en forme
+## C. Mise en forme
 Cette section finale couvre les questions de mise en forme nécessaires pour soumettre une leçon. Merci de la lire attentivement aussi bien avant de vous lancer dans l'écriture qu'après avoir achevé votre première version. En cas d'erreur, vous pouvez toujours apporter des corrections au début du processus d'évaluation par les pairs à l'aide d'une prévisualisation de votre leçon.  
 
-#### Écrire en Markdown 
+### Écrire en Markdown 
 Toutes les leçons doivent être écrites en [Markdown](https://fr.wikipedia.org/wiki/Markdown). En voici un modèle que vous pouvez utiliser pour écrire votre leçon&#x202F;:
 - (lien fichier )
 Markdown est un langage de balisage. Vous pouvez l'écrire facilement en utilisant un éditeur de texte de votre choix. Attention, Microsoft Word et Open Office, qui ne sont pas des éditeurs mais des traitements de texte, sont à éviter. Nous recommandons plutôt l'utilisation des éditeurs suivants&#x202F;: [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://fr.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/) ou [Notepad++](https://notepad-plus-plus.org/downloads/). Si besoin, vous pouvez consulter notre leçon introductive [Débuter avec Markdown](/fr/lecons/debuter-avec-markdown).
