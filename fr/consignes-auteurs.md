@@ -316,10 +316,10 @@ Un bloc de code multilignes s'affiche de cette manière
 --
 Merci de suivre les bonnes pratiques pour écrire votre code&#x202F;:
 
-*	**Noms de variables et de fonctions**: variable names should be nouns (eg "counter") and function names should be verbs (eg "createFile"). Choose names that are concise and meaningful. You may use [snake_case](https://en.wikipedia.org/wiki/Snake_case) or [camelCase](https://en.wikipedia.org/wiki/Camel_case), but be consistent.
-*	**User Commands**: when writing about text you want the reader to replace with their own information, use FULL CAPS and enclose by ` backticks ` (eg, \`USERNAME HERE\`).
-*	**Filenames**: filenames that you ask your reader to create or use should be enclosed in `backticks` when mentioned in the text and should include their file extension. Choose names that are concise and meaningful. You may use [snake_case](https://en.wikipedia.org/wiki/Snake_case) or [camelCase](https://en.wikipedia.org/wiki/Camel_case), but be consistent (eg, `data.txt`, `cleanData.py` etc).
-*	**Reserved Words**: words that are part of a programming language should always be formatted as `code` using `back-ticks` in the running prose. A list of reserved words in common programming languages include:
+*	**Noms de variables et de fonctions**&#x202F;: préférez l'utilisation de noms pour nommer les variables (par exemple, "counter" ou compteur) et de verbes pour nommer les fonctions (par exemple, "createFile" ou creerFichier). Veillez à ne pas utiliser des signes diacritiques ou tout autre caractère qui, selon le langage que vous utilisez, pourrait provoquer des ambivalences dans la phase d'analyse syntaxique du programme. Choisissez des noms concis et signifiants sans diacritiques. Vous pouvez utiliser la convention de nommage de votre préférence, [snake_case](https://fr.wikipedia.org/wiki/Snake_case) ou [camelCase](https://fr.wikipedia.org/wiki/Camel_case), mais veillez à appliquer la même du début à la fin.
+*	**Commande utilisateur**&#x202F;: lorsque vous souhaitez que vos lecteurs renseignent avec leurs propres informations une portion de texte, utilisez des MAJUSCULES entourés d'une paire `d'accents graves`, par exemple \`NOM D'UTILISATEUR ICI\`.
+*	**Noms de fichiers**&#x202F;: les noms de fichiers que vous demandez aux utilisateurs de créer ou d'utiliser doivent être entourés d'une paire `d'accents graves` dans le texte et écrits avec leur extension. Choisissez des noms de fichiers concis et signifiants sans diacritiques. Vous pouvez utiliser la convention de nommage de votre préférence, [snake_case](https://fr.wikipedia.org/wiki/Snake_case) ou [camelCase](https://fr.wikipedia.org/wiki/Camel_case), mais veillez à appliquer la même du début à la fin, par exemple `donnees.txt`, `nettoyerDonnees.py` etc).
+*	**Mots réservés**&#x202F;: les [mots réservés](https://fr.wikibooks.org/wiki/Cat%C3%A9gorie:Mots_r%C3%A9serv%C3%A9s) d'un langage de programmation doivent toujours être balisés comme du `code` dans un texte en utilisant une paire `d'accents graves`. Ci-dessous une liste des mots réservés de langages de programmation courants&#x202F;:
 
 #### JavaScript:
 
@@ -335,193 +335,32 @@ Merci de suivre les bonnes pratiques pour écrire votre code&#x202F;:
 `break`, `else`, `for`, `FALSE`, `function`, `if`, `in`, `Inf`, `NA`, `NA_character_`, `NA_complex_`, `NA_integer_`, `NA_real_`, `NaN`, `next`, `NULL`, `repeat`, `TRUE`, `while`.
 
 
-### Nommer le fichier
-Nommez le fichier de votre nouvelle leçon en respectant les conseils suivants :
+## Étape 3&#x202F;: Soumettre une nouvelle leçon
 
--   Utilisez des minuscules et choisissez un nom court mais parlant. Ce nom de fichier deviendra le [slug] de l'URL de la leçon quand elle sera publiée. Par exemple, le titre de la leçon intitulée "Débuter avec Markdown" a le slug suivant : `debuter-avec-markdown` et l'URL : `https://programminghistorian.org/en/lessons/debuter-avec-markdown`. Pensez à regarder des leçons existantes pour plus d'exemples concrets.
--   Votre "slug" sera référencé plus tard de la manière suivante : LEÇON-SLUG.
--   Pensez à la manière dont des lecteur(trice)s potentiel(le)s pourraient chercher quelque chose de similaire à votre leçon. Un "slug" riche de mots-clés est une bonne manière de capter le trafic des moteurs de recherche.
--   N'utilisez pas d'espaces ou de tirets bas `(_)` dans le nom du fichier ; utilisez plutôt les traits d'union `(-)`.
--   L'extension du nom du fichier doit être `.md` (markdown).
-
-
-### Ajouter des métadonnées
-Notre plateforme de publication, [GitHub Pages], dépend d'en-têtes spéciales, qui doivent être insérées dans chaque fichier de leçon en texte brut. Ces en-têtes sont appelées blocs liminaires [YAML], et c'est grâce à ces dernières que la leçon s'affiche correctement sur notre site internet. Ces blocs consistent en des champs (comme "titre" et "auteurs") appariés avec des valeurs (comme "Fouiller les données dans l'Internet Archive Collection" et "Caleb McDaniel"). Vous n'avez pas besoin de comprendre en quoi consiste YAML et comment cela fonctionne, mais **vous devez inclure un bloc YAML au début de votre leçon**.
-
-Pour créer le bloc YAML pour votre leçon, vous devez **copier et coller le texte suivant dans votre fichier texte**, et changer les métadonnées correspondantes. Il doit apparaître au tout début de votre fichier, et *doit être suivi d'une ligne vide*. Laissez vide le champ "reviewers" pour l'instant.
-
-     ---
-    title: |
-       Débuter avec le Topic-Modelling et MALLET
-    authors:
-    - Ian Milligan
-    - Shawn Graham
-    - Scott Weingart
-    date: 2014-03-03
-    reviewers:
-    layout: lesson
-    ---
-
-<div class="alert alert-danger">
-  <h4 class="alert heading">Notes importantes concernant YAML</h4>
-  <ul>
-    <li>Conservez \| dans le champ titre comme indiqué ; indentez le titre avec une tabulation sur la ligne suivante </li>
-    <li> Utilisez le format "liste" indiqué ci-dessus pour le champ auteur, même s'il n'y a qu'un seul auteur</li>
-    <li>Assurez-vous qu'il n'y a pas d'espaces superflus dans votre en-tête</li>
-    <li> Le bloc YAML doit être suivi par une ligne vide après les trois tirets <code>---</code></li>
-  </ul>
-</div>
-
-
-### Écrire en Markdown
-**Toutes les nouvelles leçons doivent être écrites en Markdown.** Markdown est un langage de balisage que l'on écrit très facilement avec un éditeur de texte (comme expliqué ci-dessus, n'utilisez pas un traitement de texte comme Word ou Open Office).  Les [GitHub Pages] sont générées par [Jekyll](http://jekyllrb.com/), qui convertit automatiquement les fichiers Markdown dans des pages HTML que vous pouvez trouver sur le site Web. Cette page est elle-même écrite en Markdown, comme vous pouvez le voir en regardant [le texte brut sur Github].
-
-Pour une introduction en douceur à Markdown, consultez:
-- [Débuter avec Markdown]({{site.baseurl}}/fr/lecons/debuter-avec-markdown), un tutoriel du *Programming Historian* écrit par Sarah Simpkin
-- ou le [guide de GitHub sur Markdown].
-
-<div class="alert alert-warning">
-  Avant de continuer, assurez vous que vous comprenez comment utiliser la syntaxe Markdown pour du formatage basique comme la mise en valeur des en-têtes, la mise en gras du texte, l'utilisation de l'italique, l'ajout de liens, la mise en forme des paragraphes, et la création de listes.
-</div>
-
-### Utiliser des en-têtes pour marquer le début d'une section
-Nous nous efforçons de publier des leçons faciles à suivre, grâce à l'utilisation systématique d'en-têtes de section dans le corps des textes. Au moment où vous créez votre leçon, les en-têtes de section vont vous aider à visualiser et à vérifier la structure de cette dernière. Évitez les longues sections de texte sans en-têtes, celles-ci peuvent en effet devenir très difficiles à suivre.
-
-**Ne rendez pas vos sections visibles** en mettant votre texte **en gras** ou en *italique*. Vous devez utilisez le niveau de titre approprié (que vous pouvez mettre en forme de manière systématique dans le corps du texte). À moins que votre leçon ne soit particulièrement courte, vous allez avoir besoin d'un moins 3 niveaux différents.
-
-Bien qu'il y ait plusieurs manières de créer des en-têtes de section avec Markdown, nous vous demandons d'utiliser la notation `#` dans vos en-têtes. Le titre de premier niveau est indiqué avec \# ; le niveau de titre suivant avec \#\#, et ainsi de suite :
-
-    # Titre 1
-    ## Titre 2
-    ### Titre 3
-    #### Titre 4
-
-Il apparaissent ainsi sur le site Internet :
-# Titre 1
-## Titre 2
-### Titre 3
-#### Titre 4
-Si vous utilisez les en-têtes de section de manière adéquate, vous allez aussi aider les personnes chargées du suivi éditorial et de la relecture de votre leçon à en évaluer plus facilement la structure générale.
-
-### Alertes
-Si vous voulez attirer l'attention sur quelque chose qui n'est pas essentiel pour suivre votre leçon, mais qui est suffisamment important pour être mentionné (ou qui peut être utile pour une partie de votre lectorat), vous pouvez le dissocier du texte principal de votre leçon en utilisant notre [mise en forme d'alerte](https://v4-alpha.getbootstrap.com/components/alerts/) (emprunté à Bootstrap).
-
-Pour ce faire, vous avez besoin d'utiliser du langage HTML de la façon suivante :
-
-``` html
-<div class="alert alert-warning">
-  Assurez vous de suivre attentivement les consignes !
-</div>
-```
-Sur le site web, le texte va se présenter ainsi :
-
-<div class="alert alert-warning">
- Assurez vous de suivre attentivement les consignes !
-</div>
-
-### Règles de mise en forme spéciales
-Comme n'importe quelle autre revue, le *Programming Historian en français* a lui aussi un style "maison" que les auteur(e)s doivent suivre pour garantir la cohérence des leçons. Mais, contrairement à d'autres revues, ne pas respecter ces règles de mise en forme peut avoir pour conséquence que vos leçons ne s'affichent pas correctement sur notre site web et qu'elles restent donc invisibles.
-
-### Illustrations
-Quels que soient leur longueur ou leur niveau de difficulté, toutes les leçons peuvent tirer avantage des images, particulièrement les copies d'écran qui illustrent ce que les lecteurs et lectrices doivent voir au fur et à mesure de leur avancée dans le tutoriel. Les captures d'écran permettent non seulement de savoir si une leçon nous intéresse d'un simple coup d'œil, mais elles servent également à rassurer les utilisateurs et les utilisatrices. Et, bien sûr, les images peuvent vous éviter de multiplier les longues descriptions dans votre texte.
-
-
-#### Créer un dossier
-Tout d'abord, créez un dossier dans lequel vous allez stocker tous vos fichiers images. Le nom du dossier doit être le même que le `SLUG-DE-LA-LEÇON` que vous avez choisi pour le nom de votre fichier. Le rédacteur ou la rédactrice responsable de votre leçon peut vous assister en téléchargeant vos images dans le dépôt `ph-submissions` au moment où vous soumettez votre leçon.
-
-#### Utiliser des noms de fichiers compréhensibles
-Il y a deux façons de nommer vos fichiers. Une option consiste à utiliser des noms de fichier cohérents, et sémantiquement signifiants, qui indiquent clairement ce sur quoi porte l'image. Une autre option consiste à les nommer de manière séquentielle, en utilisant le même "slug" de leçon (ou une abréviation si le "slug" est trop long), suivi par un chiffre indiquant de quelle illustration il s'agit. Par exemple :
-`counting-frequencies-1.png`, `counting-frequencies-2.png`, et ainsi de suite.)
-
-#### Utilisez des tailles et des formats standard
-Assurez vous que les images sont des formats adaptés pour le Web, comme PNG ou JPEG, et dans des tailles appropriées (à la fois en termes de pixels et de bytes).
-
-#### Inclure des images
-À chaque fois que vous souhaitez insérer une image, utilisez la ligne de code suivante dans votre leçon :
-
-{% raw %}
-``` markdown
-{% include figure.html filename="IMAGE-FILENAME" caption="VOTRE TITRE, AVEC \"CODE D'ÉCHAPPEMENT\" POUR LES GUILLEMETS" %}
-```
-{% endraw %}
-
-Vous allez avoir besoin de renseigner le `NOM-DU-FICHIER-IMAGE` et la `Légende de l'image` en fonction de votre leçon et de l'image. Vous pouvez également avoir besoin d'utiliser du balisage Markdown pour la légende, par exemple pour mettre le texte en gras ou en italique.
-
-Quand le Markdown est traité par notre système, cette ligne va automatiquement produire du HTML qui va ressembler à ceci :
-
-``` html
-<figure>
-    <a href="/images/LEÇON-SLUG/NOM-DU-FICHIER-IMAGE">
-       <img src="/images/LEÇON-SLUG/NOM-DU-FICHIER-IMAGE" alt="Légende de l'image">
-    </a>
-<figcaption>
-    Légende de l'image
-</figcaption>
-</figure>
-```
-
-<div class="alert alert-warning">
- N'oubliez pas que les guillemets à l'intérieur des titres des figures doivent être échappés à l'aide d'une barre oblique inverse, comme dans l'exemple ci-dessus. Il est important de noter que, lorsque les images sont encodées de cette manière, elles ne sont pas visibles dans la pré-visualisation sur Github ou dans d'autres programmes de pré-visualisation pour Markdown mais que votre éditeur s'assurera qu'elles soient affichées correctement lorsque la leçon sera publiée.
-</div>
-
-
-### Notes de bas de page
-Pour ajouter des notes de bas de page à votre texte, ajoutez un marqueur de la note dans le corps du texte de la façon suivante :
-
-	Voilà du texte. [^1]Encore du texte. [^note de bas de page]
-
-Comme vous pouvez le voir, le marqueur est entre crochets, et peut être composé de chiffres ou de lettres, du moment qu'il débute par le signe diacritique "accent circonflexe" (`^`)
-
-Ensuite, vous devez préciser quel texte correspond au marqueur de la note, idéalement à la fin de votre fichier. Pour définir une note de bas de page, vous allez reproduire la syntaxe du marqueur, ajouter les deux-points, et taper la note de bas de page :
-
-    [^1]: Une définition *idote* de la note
-
-    [^endnote]: Regarde, j'ai fait une note de bas de page !
-
-Pour en savoir plus sur la manière dont fonctionne cette syntaxe, regardez les [instructions complètes](http://kramdown.gettalong.org/syntax.html#footnotes) pour la fonctionnalité "note de bas de page".
-
-
-### Blocs de code
-Si vous voulez inclure du code source dans une leçon, ou si vous voulez montrer le résultat d'un programme informatique, utilisez ce que l'on appelle un *bloc de code*. Sur une nouvelle ligne, utilisez 3 accents graves (`` ` ``) pour ouvrir un bloc de code, suivi du langage de votre code (par exemple  `python` ou `html`). Ensuite collez votre code source, et quand vous avez terminé, fermez le bloc de code avec 3 accents graves.
-
-	``` python
-	print 'hello world'
-	```
-Le code sera visible en ligne de la façon suivante :
-``` python
-print 'hello world'
-```
-
-### Mettre en avant des parties du texte
-Essayez d'utiliser les accents graves (`` ` `` ) pour afficher des lignes de codes dans le corps du texte et dans les noms de fichiers. Pour mettre en valeur d'autres types d'information, utilisez 2 astérisques (`* `) comme dans `*client*`, `*protocole*`, `*Le Old Bailey
-Online*`).
-
------
-
-## Soumettre une nouvelle leçon
-Une fois que votre leçon a été préparée en suivant les consignes données ci-dessus, nous vous conseillons de la faire relire et éventuellement d'apporter des corrections pour l'améliorer. Ainsi, l'évaluation ouverte par les pairs que nous allons organiser par la suite pourra se concentrer sur le fond, plutôt que sur la forme, afin de vous aider à produire la version la plus solide possible de votre leçon.   
+Une fois que vous avez vérifié que votre leçon a été préparée en suivant les consignes données ci-dessus, nous vous conseillons de la faire relire et éventuellement d'apporter des corrections pour l'améliorer. Ainsi, l'évaluation ouverte par les pairs que nous allons organiser par la suite pourra se concentrer sur le fond, plutôt que sur la forme, afin de vous aider à produire la version la plus solide possible de votre leçon.   
 
 Lorsque vous êtes prêt(e) à la soumettre, merci d'envoyer tous les fichiers (texte, images, données...) au rédacteur ou à la rédactrice en charge du suivi éditorial de votre leçon, qui les téléversera pour vous dans notre dépôt dédié à l'évaluation par les pairs sur [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/fr/lecons). Voici comment procéder de votre côté: 
 
 1. **Obtenir accès à notre dépôt d'évaluation**: pour cela il suffit de créer un [compte gratuit sur Github](https://github.com/join) et le communiquer à votre rédacteur ou rédactrice, qui va ensuite vous ajouter comme **collaborateur ou collaboratrice** dans le dépôt [ph-submissions]. Ce n'est pas à vous de faire le téléversement initial des fichiers, mais l'accès au dépôt est nécessaire pour que vous puissiez par la suite apporter des modifications et des mises à jour. 
-2. **Préparer ses fichiers**: vous avez probablement des images qui accompagnent votre leçon. Merci de vérifier que tous les fichiers images sont nommés de manière appropriée, en accord avec les [conventions de nommage spécifiées ci-dessus]. Ces fichiers doivent nous parvenir dans un dossier unique compressé. Si vous avez en plus des fichiers de données, merci de nous envoyer ces fichiers aussi dans un dossier compressé distinct.
+2. **Préparer vos fichiers**: vous avez probablement des images qui accompagnent votre leçon. Merci de vérifier que tous les fichiers images sont nommés de manière appropriée, en accord avec les [conventions de nommage spécifiées ci-dessus]. Ces fichiers doivent nous parvenir dans un dossier unique compressé. Si vous avez en plus des fichiers de données, merci de nous envoyer ces fichiers aussi dans un dossier compressé distinct.
 3. **Envoyer un message électronique**: informez votre rédacteur ou rédactrice que vous êtes prêt(e) à soumettre votre leçon, en joignant le fichier de celle-ci et, le cas échéant, les dossiers des fichiers images et données. 
 4. **Participer à la discussion**: le rédacteur ou la rédactrice en charge du suivi éditorial de votre leçon déposera vos fichiers dans notre [dépôt de soumissions](https://github.com/programminghistorian/ph-submissions) en faisant quelques premières modifications si nécessaire (métadonnées, syntaxe Markdown etc). Ensuite, un ticket sera ouvert pour l'évaluation ouverte de votre leçon, pendant laquelle vous avez la possibilité d'échanger avec celles et ceux qui participent au processus.
 5. **Apporter des modifications**: si le dépôt initial des fichiers est fait par votre rédacteur ou rédactrice assigné(e), le processus éditorial peut néanmoins entraîner le besoin d'apporter des modifications supplémentaires de votre côté. Toutes les révisions se font directement par les auteur(e)s sur les fichiers versés dans notre dépôt pour avoir la certitude que vous travaillez sur la version la plus récente du fichier de la leçon.
 
 
 ## Le processus de l'évaluation ouverte par les pairs
-Une fois que votre rédacteur ou rédactrice assigné(e) aura déposé et formaté vos fichiers de manière appropriée, vous recevrez un lien de prévisualisation de la leçon qui vous permettra de vérifier aussi de votre côté que tout se présente correctement; si ce n'est pas le cas, vous pouvez apporter des corrections. 
 
-L'évaluation par les pairs a lieu dans le cadre d'un [ticket](https://github.com/programminghistorian/ph-submissions/issues) Github qui prend ainsi la forme d'un forum de discussion ouverte. Merci de garder à l'esprit que l'évaluation par les pairs se fait publiquement et qu'elle reste disponible à la consultation publique; le ticket en est l'enregistrement. Si pour quelque raison que ce soit vous n'êtes pas à l'aise ou souhaitez une évaluation par les pairs non publique, merci de prendre contact avec votre rédacteur ou rédactrice assigné(e). 
+Une fois que votre rédacteur ou rédactrice assigné(e) aura déposé et formaté vos fichiers de manière appropriée, vous recevrez un lien de prévisualisation de la leçon qui vous permettra de vérifier aussi de votre côté que tout se présente correctement&#x202F;; si ce n'est pas le cas, vous pouvez apporter des corrections. 
 
-Le processus de l'évaluation se passe habituellement en trois étapes:
+L'évaluation par les pairs a lieu dans le cadre d'un [ticket](https://github.com/programminghistorian/ph-submissions/issues) Github qui prend ainsi la forme d'un forum de discussion ouverte. Merci de garder à l'esprit que l'évaluation par les pairs se fait publiquement et qu'elle reste disponible à la consultation publique&#x202F;; le ticket en est l'enregistrement. Si pour quelque raison que ce soit vous n'êtes pas à l'aise ou souhaitez une évaluation par les pairs non publique, merci de prendre contact avec votre rédacteur ou rédactrice assigné(e). 
+
+Le processus de l'évaluation se passe habituellement en trois étapes&#x202F;:
 
 1) Le rédacteur ou la rédactrice assigné(e) à votre leçon en fait une première lecture attentive en en testant les manipulations proposées. Vous êtes à ce stade susceptible de recevoir un premier retour qui pourrait solliciter votre réponse. L'objectif de ce premier retour est de se garantir la pertinence de votre leçon pour le lectorat du *Programming Historian en français* et qu'elle est fonctionnelle avant d'être proposée à l'évaluation externe. Vous avez normalement un mois pour répondre à cette première évaluation. 
 
 2) Ensuite, votre rédacteur ou  rédactrice assigné(e) propose la leçon à l'évaluation formelle par les pairs. Cela implique l'invitation d'au moins deux évaluateurs ou évaluatrices externes, mais potentiellement aussi la participation d'une communauté plus large, car tout commentaire est bienvenu (pourvu que les règles de bonne conduite, explicités dans le ticket, soient observées). En général, nous accordons aux évaluateurs et évaluatrices un délai d'un mois pour fournir leurs commentaires, il peut néanmoins arriver que ce délai ne soit pas respecté pour des raisons indépendantes de la volonté des personnes impliquées au processus. Vous devez attendre l'ensemble des relectures et les instructions consécutives de votre rédacteur our rédactrice assigné(e) avant d'aller plus loin. Parfois il peut s'agir de simples suggestions d'apporter certaines modifications, mais il peut aussi être question de révisions majeures ou de repenser la leçon. Selon les évaluations des pairs et la nature des questions soulevées, il se peut que vous ayez à réviser le tutoriel plus qu'une fois. Toufois, votre rédacteur ou rédactrice assignée(e) veillera à ce que vous receviez une ligne directrice claire pour que la leçon soit publiée. Par ailleurs, il est toujours possible de retirer votre leçon du processus de l'évaluation, si tel est votre choix.   
 
-3) Au bout de ce processus, si tous les critères sont remplis, votre rédacteur ou rédactrice assignée(e) donne le feu vert pour la publication. C'est ensuite au rédacteur ou à la rédactrice en chef de relire la leçon pour s'assurer de sa conformité aux consignes aux auteur(e)s et aux standards du *Programming Historian*. Parfois des révisions et des corrections supplémentaires peuvent être nécessaires à ce stade pour que la leçon puisse être publiée. Une fois que le rédacteur ou la rédactrice en chef juge la version révisée satisfaisante, la leçon peut être publiée. Votre rédacteur ou rédactrice assigné(e) vous fournira toute information nécessaire à ce stade. 
+3) Au bout de ce processus, si tous les critères sont remplis, votre rédacteur ou rédactrice assignée(e) donne le feu vert pour la publication. C'est ensuite au rédacteur ou à la rédactrice en chef de relire la leçon pour s'assurer de sa conformité aux consignes aux auteur(e)s et aux standards du *Programming Historian*. Parfois des révisions et des corrections supplémentaires peuvent être nécessaires à ce stade pour que la leçon puisse être publiée. Une fois que le rédacteur ou la rédactrice en chef juge la version révisée satisfaisante, la leçon peut être mise en ligne. Votre rédacteur ou rédactrice assigné(e) vous fournira toute information nécessaire à ce stade. 
 
 N'hésitez pas à consulter nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs) afin de vous familiariser avec notre processus de révision et de publication.
 
@@ -533,11 +372,11 @@ Notre équipe de bénévoles fait de son possible pour garantir l'évaluation ri
 
 Exprimer des réserves n'a AUCUN impact négatif sur le processus et le résultat de l'évaluation par les pairs. 
 
-Pour ce faire, vous avez plusieurs points d'entrée - sentez-vous libre de contacter la personne avec laquelle vous êtes le plus à l'aise: 
+Pour ce faire, vous avez plusieurs points d'entrée - sentez-vous libre de contacter la personne avec laquelle vous êtes le plus à l'aise&#x202F;: 
 
-* votre rédacteur ou rédactrice assigné(e); 
-* le rédacteur ou la rédactrice en chef;
-* notre médiatrice indépendante ([Hélène Huet](mailto:hhuet@ufl.edu).
+* votre rédacteur ou rédactrice assigné(e) 
+* le rédacteur ou la rédactrice en chef
+* notre médiatrice indépendante ([Hélène Huet](mailto:hhuet@ufl.edu)
 
 Nous oeuvrons pour que tout se passe au mieux pour vous, mais si jamais vous estimez vous trouver dans une situation peu confortable, nous vous remercions de nous aider à y remédier et à améliorer les choses. 
 
@@ -575,6 +414,5 @@ Nous oeuvrons pour que tout se passe au mieux pour vous, mais si jamais vous est
   [GitHub Pages]: https://pages.github.com
   [ph-submissions]: https://github.com/programminghistorian/ph-submissions
 
-  {% comment %}Anchor in line 306: Needs to be checked for: a) slug: does not seem to correspond to a subtitle, in the text there is only "Utilisez des noms de fichiers compréhensibles" b) where it is/will be inserted in the text{% endcomment %}
-  {% comment %}Hopefully resolved after some changes. Sofia, 12/12/20{% endcomment %}
+ 
 
