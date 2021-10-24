@@ -8,13 +8,13 @@ skip_validation: true
 # Consignes aux auteur(e)s
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
-<h2 class="noclear"> Étape 1&#x202F;: <a href="#etape-1-proposer-une-nouvelle-leçon">proposer une nouvelle leçon</a></h2>
-<h2 class="noclear">Étape 2&#x202F;: <a href="#etape-2-rédaction-et-mise-en-forme">rédaction et mise en forme</a></h2>
-<h2 class="noclear">Étape 3&#x202F;: <a href="#etape-3-soumettre-une-nouvelle-leçon">soumettre une nouvelle leçon</a></h2>  
+<h2 class="noclear"> Étape 1: <a href="#étape-1-proposer-une-nouvelle-leçon">proposer une nouvelle leçon</a></h2>
+<h2 class="noclear">Étape 2: <a href="#étape-2-rédaction-et-mise-en-forme">rédaction et mise en forme</a></h2>
+<h2 class="noclear">Étape 3: <a href="#étape-3-soumettre-une-nouvelle-leçon">soumettre une nouvelle leçon</a></h2>  
 
 Ces consignes ont été développées pour vous permettre de comprendre comment s'organise l'écriture d'un tutoriel pour le *Programming Historian en français*. Elles fournissent des détails pratiques, des informations sur la philosophie de la revue, ses workflows et l'évaluation ouverte par les pairs. Si pour quelque raison que ce soit elles nous vous paraissent pas claires, n'hésitez pas à contacter notre rédacteur / rédactrice en chef {% include managing-editor.html lang=page.lang %}.  
 
-## Étape 1&#x202F;: proposer une nouvelle leçon
+## Étape 1: proposer une nouvelle leçon
 
 <div class="alert alert-success">
 Nous vous invitons à nous soumettre des tutoriels pertinents pour les sciences humaines et sociales, qui portent sur un problème de recherche ou un processus particulier, et qui sont adaptés à n'importe quel niveau de compétence et d'expérience technique. Les tutoriels ont vocation à être pérennes dans le long terme et doivent s'adresser à un public international.
@@ -27,7 +27,7 @@ Vous pouvez avoir une meilleure idée de ce que nous publions en consultant nos 
 
 Une fois que votre proposition est acceptée, nous allons créer un ticket &laquo;&#x202F;Proposition&#x202F;&raquo; dans notre [dépôt de soumissions](https://github.com/programminghistorian/ph-submissions/issues?q=is%3Aissue+is%3Aopen+label%3Aproposal) avec le titre provisoire de la leçon et les objectifs pédagogiques proposés. Ce ticket sert à signaler le travail en cours alors que vous êtes en train de rédiger votre leçon. Pour éviter d'accumuler les retards, nous vous demandons de soumettre votre leçon dans les 90 jours suivant l'acceptation de votre proposition. Pendant cette période, votre point de contact sera notre rédactrice en chef ou un autre membre de l'équipe désigné par celle-ci.
 
-## Étape 2&#x202F;: rédaction et mise en forme
+## Étape 2: rédaction et mise en forme
 
 Ce guide de style présente notre approche et notre charte éditoriale à l'attention des auteur(e)s. En en respectant les principes, vous nous aidez à conserver la cohérence des contenus du *Programming Historian en français*.  
 
@@ -339,7 +339,7 @@ Merci de suivre les bonnes pratiques pour écrire votre code&#x202F;:
 `break`, `else`, `for`, `FALSE`, `function`, `if`, `in`, `Inf`, `NA`, `NA_character_`, `NA_complex_`, `NA_integer_`, `NA_real_`, `NaN`, `next`, `NULL`, `repeat`, `TRUE`, `while`.
 
 
-## Étape 3&#x202F;: Soumettre une nouvelle leçon
+## Étape 3: soumettre une nouvelle leçon
 
 Une fois que vous avez vérifié que votre leçon a été préparée en suivant les consignes données ci-dessus, nous vous conseillons de la faire relire et éventuellement d'apporter des corrections pour l'améliorer. Ainsi, l'évaluation ouverte par les pairs que nous allons organiser par la suite pourra se concentrer sur le fond, plutôt que sur la forme, afin de vous aider à produire la version la plus solide possible de votre leçon.   
 
