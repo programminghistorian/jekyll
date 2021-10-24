@@ -26,6 +26,11 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [RStudio, PBC](https://rstudio.com/), États-Unis
 - [CESTA, Stanford University](https://cesta.stanford.edu/), États-Unis
 - [University of Waterloo](https://uwaterloo.ca/), Canada
+- [Universidad de los Andes](https://uniandes.edu.co/), Colombie
+- [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Danemark
+- [Aarhus University Library](https://library.au.dk/), Danemark
+- [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Danemark
+- [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Royaume-Uni
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
@@ -33,7 +38,10 @@ Nous accueillons volontiers les demandes de renseignements des contributeurs pot
 
 Les organisations suivantes ont apporté ou continuent d'apporter un soutien allant de services en nature au financement de projets spécifiques:
 
+- Jisc & The National Archives (Royaume-Uni), '[Programming Historian publications: developing computational skills for digital collections](https://research.jiscinvolve.org/wp/2021/07/23/boost-your-skills-in-working-with-digital-collections/)' [2021-2022].
+- UCL, Faculty of Arts & Humanities, Royaume-Uni [2021].
 - [Escola de Ciências Sociais FGV CPDOC](https://portal.fgv.br), "Literacia digital: modelando competências digitais para humanistas e cientistas sociais", Brésil [2021-2022].
+- Fundação para a Ciência e Tecnologia, à travers le programme de soutien '[Verão com Ciência 2021](https://www.fct.pt/apoios/veraocomciencia/index.phtml.pt)', Portugal [September 2021]
 - The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Royaume-Uni [2021].
 - University of Sussex, Royaume-Uni:
     - Bibliothèque de l'université du Sussex [2020-actuellement]
@@ -64,9 +72,12 @@ Nous tenons également à remercier publiquement tous nos donateurs de niveau 'm
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 - Dimitra Koutla
+- Ben Akrigg
 - Laura Gayle Green (éducation)
 - Rebecca Kahn (éducation)
 - Sarah Melton (éducation)
+- Laurissa Stokes (éducation)
+- Monica Berti (éducation)
 
 ## Gestion de donations et de parrainages
 

@@ -368,7 +368,7 @@ Diameter uses a simple command: `nx.diameter(G)`. However, running this command 
 
 {% include figure.html filename="exploring-and-analyzing-network-data-with-python-1.png" caption="Force-directed network visualization of the Quaker data, created in Gephi" %}
 
-Since there is no shortest path between nodes of one component and nodes of another, `nx.diameter()` returns the "not connected" error. You can remedy this by first finding out if your Graph "is connected" (i.e. all one component) and, if not connected, finding the largest component and calculating diameter on that component alone. Here's the code:
+Since there is no available path between nodes of one component and nodes of another, `nx.diameter()` returns the "not connected" error. You can remedy this by first finding out if your Graph "is connected" (i.e. all one component) and, if not connected, finding the largest component and calculating diameter on that component alone. Here's the code:
 
 ```python
 # If your Graph has more than one component, this will return False:

@@ -10,7 +10,7 @@ Le _Programming Historian en français_ est porté par des volontaires. Leur én
 
 ## Écrire une nouvelle leçon
 
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" />
+<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 
 Écrire un tutoriel est l'un des meilleurs moyens pour acquérir des compétences spécifiques et être partie prenante dans la communauté des humanités numériques.
 
@@ -20,7 +20,7 @@ Si vous souhaitez proposer une leçon, que vous en soyez l'auteur(e) ou pas, mer
 
 ## Assurer le suivi éditorial d'une leçon
 
-<img src="{{site.baseurl}}/gallery/editor-guidelines.png" class="garnish rounded float-right" />
+<img src="{{site.baseurl}}/gallery/editor-guidelines.png" class="garnish rounded float-right" alt="{{ site.data.snippets.editor-guidelines-image-alt[page.lang] }}"/>
 
 Les membres de notre comité éditorial apportent leur concours lors de l'évaluation par les pairs et travaillent avec les auteur(e)s pour améliorer leurs leçons. Nos [consignes aux rédacteurs et rédactrices][redacteurs] visent à ce que tout se passe au mieux, lors de l'évaluation par les pairs, pour tout le monde, auteur(e)s, évaluateurs et évaluatrices, et plus largement pour les membres de la communauté.
 
@@ -28,15 +28,15 @@ Il nous arrive de temps en temps de faire des appels pour recruter des membres p
 
 ## Traduire une leçon
 
-<img src="{{site.baseurl}}/images/translator.png" class="garnish rounded float-right" />
+<img src="{{site.baseurl}}/images/translator.png" class="garnish rounded float-right" alt="{{ site.data.snippets.translator-image-alt[page.lang] }}"/>
 
-Si vous parlez couramment plus d'une des langues dans lesquelles le _Programming Historian_ paraît (français, anglais, espagnol), nous vous invitons à prendre contact avec nous pour traduire une des leçons publiées d'une langue à une autre. Cela nous aidera à être partie prenante dans les communautés des humanités numériques hispanophone et francophone et vous permettra de renforcer vos compétences linguistiques, méthodologiques et techniques.
+Si vous parlez couramment plus d'une des langues dans lesquelles le _Programming Historian_ paraît (français, anglais, espagnol, portugais), nous vous invitons à prendre contact avec nous pour traduire une des leçons publiées d'une langue à une autre. Cela nous aidera à être partie prenante dans les communautés des humanités numériques hispanophone et francophone et vous permettra de renforcer vos compétences linguistiques, méthodologiques et techniques.
 
-Nous recherchons des traductions rigoureuses et lisibles qui tiennent compte des contextes de recherche hispanophone et francophone et des ressources disponibles dans nos communauté respectives. Si cela vous intéresse de collaborer avec nous, merci de consulter nos [consignes aux auteur(e)s et traducteurs/traductrices](/fr/consignes-auteurs.html).
+Nous recherchons des traductions rigoureuses et lisibles qui tiennent compte des contextes de recherche hispanophone, francophone et lusophone, et des ressources disponibles dans nos communautés respectives. Si cela vous intéresse de collaborer avec nous, merci de consulter nos [consignes aux auteur(e)s et traducteurs/traductrices](/fr/consignes-auteurs.html).
 
 ## Faire un retour ou signaler un problème
 
-<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-right" />
+<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
 
 Nous vous invitons à nous faire des [retours d'expérience](/fr/reaction.html) sur tout aspect du _Programming Historian en français_. D'avance merci de nous aider à améliorer le projet.
 
@@ -45,7 +45,7 @@ Nous apprécions tout particulièrement les informations reçues sur les liens c
 
 ## Nous ajouter dans le catalogue de votre bibliothèque
 
-<img src="{{site.baseurl}}/images/library-catalogue.png" class="garnish float-right" />
+<img src="{{site.baseurl}}/images/library-catalogue.png" class="garnish float-right" alt="{{ site.data.snippets.library-catalogue-image-alt[page.lang] }}"/>
 
 
 Ce projet est notre démonstration de ce que l'édition scientifique en accès libre peut et doit être. Merci de nous aider à disséminer le message  et à fournir le plus large accès possible à cette ressource en demandant à votre bibliothèque d'enregister le projet dans son catalogue.

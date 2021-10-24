@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 ### This script is entirely self-contained. Change the filename suffix to .py
 ### and you can run it at the command line like this:
 ### python Roman_to_Arabic.py
@@ -19,21 +16,21 @@ def rom2ar(rom):
     roman.reverse()
     decimal = [roman_codec[ch] for ch in roman]
     result = 0
-    print "For Roman Numeral: ", rom.upper(), "\nlist of roman characters translated to arabic equvalents,\n then reversed: ", decimal, "\n"
+    print(f"For Roman Numeral: {rom.upper()}\nlist of roman characters translated to arabic equvalents,\nthen reversed: {decimal}\n")
     while len(decimal):
         act = decimal.pop()
-        print "decimal.pop() yields: ", act
+        print(f"decimal.pop() yields: {act}")
         if len(decimal) and act < max(decimal):
             act = -act
-            print "current result: %d + %d = %d\nnegative because %d is less than the maximum value in the list which is: %d" % (result, act, result + act, abs(act), max(decimal))
+            print(f"current result: {result} + {act} = {result + act}\nnegative because {abs(act)} is less than the maximum value in the list which is: {max(decimal)}")
         else:
-            print "current result: %d + %d = %d" % (result, act, result + act)
-        print "our decimal list is now: ", decimal, "\n\n"
+            print(f"current result: {result} + {act} = {result + act}")
+        print(f"our decimal list is now: {decimal}\n\n")
         result += act
-        print "LOOP!"
+        print("LOOP!")
 
     return result
     
 
-print rom2ar("mmcdlxxxix")
-print "Brilliant, huh?"
+print(rom2ar("mmcdlxxxix"))
+print("Brilliant, huh?")

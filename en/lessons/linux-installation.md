@@ -110,7 +110,7 @@ print('hello world')
 
 The “*Run Python File*” command allows you to execute your program.
 If you chose another text editor, it might provide similar functionality.
-If all went well, it should look something like this (Click on the image to see a full-size copy):
+If all went well, it should look something like this:
 
 {% include figure.html caption="hello world in Komodo Edit on Linux" filename="komodo-edit-output-linux.png" %}
 

@@ -246,8 +246,8 @@ menu-support-ipp:
     title: Partenariat institutionnel
     link: /fr/pi
   pt:
-    title: Programa de Parceiros Institucionais
-    link: /pt/apoie-nos#programa-de-parceiros-institucionais
+    title: Programa de Parceria Institucional
+    link: /pt/ppi
 menu-support-individual:
   en:
     title: Individual Supporters
@@ -259,8 +259,8 @@ menu-support-individual:
     title: Dons individuels
     link: /fr/dons
   pt: 
-    title: Doações
-    link: /pt/apoie-nos#doações
+    title: Apoiadores individuais
+    link: /pt/doacoes
 menu-support-supporters:
   en:
     title: Our Supporters
@@ -272,8 +272,8 @@ menu-support-supporters:
     title: Nos soutiens
     link: /fr/nos-soutiens
   pt:
-    title: Apoiadores
-    link: /pt/apoie-nos#apoiadores
+    title: Nossos Apoiadores
+    link: /pt/apoiadores
 menu-lang:
   es:
     title: es
@@ -311,22 +311,22 @@ issn:
 footer:
   license:
     en: |
-      _The Programming Historian_ (ISSN: 2397-2068) is released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license.
+      The _Programming Historian_ (ISSN: 2397-2068) is released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license.
     es: |
       _The Programming Historian en español_ (ISSN: 2517-5769) se publica con una licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.es).
     fr: |
-      _The Programming Historian en français_ (ISSN: 2631-9462) est publié sous licence [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.fr).
+      Le _Programming Historian en français_ (ISSN: 2631-9462) est publié sous licence [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.fr).
     pt: |
       _The Programming Historian em português_ (ISSN: 2753-9296) é publicado com uma licença [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.pt).
   financial:
     en: |
-      This project is administered by ProgHist Limited, Company Number [12192946](https://beta.companieshouse.gov.uk/company/12192946).
+      This project is administered by ProgHist Ltd, Charity Number [1195875](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5181272/charity-overview) and Company Number [12192946](https://find-and-update.company-information.service.gov.uk/company/12192946).
     es: |
-      Este proyecto es administrado por ProgHist Limited, con número de compañía [12192946](https://beta.companieshouse.gov.uk/company/12192946).
+      Este proyecto es administrado por ProgHist Ltd, organización benéfica número [1195875](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5181272/charity-overview) y número de compañía [12192946](https://find-and-update.company-information.service.gov.uk/company/12192946).
     fr: |
-        Ce projet est administré par ProgHist Limited, no d'immatriculation [12192946](https://beta.companieshouse.gov.uk/company/12192946).
+        Ce projet est administré par ProgHist Ltd, no d'organisation caritative [1195875](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5181272/charity-overview) et no de compagnie [12192946](https://find-and-update.company-information.service.gov.uk/company/12192946).
     pt: |
-        Este projeto é administrado pelo ProgHist Limited, número de companhia [12192946](https://beta.companieshouse.gov.uk/company/12192946).
+      Este projeto é administrado pelo ProgHist Ltd, com o número de instituição de caridade [1195875](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5181272/charity-overview) e número de companhia [12192946](https://find-and-update.company-information.service.gov.uk/company/12192946).
 
   gh-hosted:
     en: Hosted on GitHub
@@ -462,6 +462,11 @@ translation-editors:
   es: traducción editada por
   fr: suivi de traduction par
   pt: tradução editada por
+lesson-testers:
+  en: tested by
+  es: testeado por
+  fr: test par
+  pt: testado por
 published:
   en: published
   es: publicado
@@ -482,6 +487,11 @@ retired-date:
   es: retirada
   fr: retrait
   pt: retirado
+tested-date:
+  en: tested
+  es: testeado
+  fr: test
+  pt: testado
 difficulty:
   en: difficulty
   es: dificultad
@@ -490,12 +500,12 @@ difficulty:
 next-lesson:
   en: next lesson
   es: siguiente lección
-  fr: lesson suivante
+  fr: leçon suivante
   pt: próxima lição
 previous-lesson:
   en: previous lesson
   es: lección anterior
-  fr: lesson précédente
+  fr: leçon précédente
   pt: lição anterior
 series-previous-note:
   en: This lesson is part of a series. You might want to check out the
@@ -557,22 +567,22 @@ donate:
 donation-alert:
   en: |
     ## Donate today!
-    Great Open Access tutorials cost money to produce. Join the growing number of people [supporting _The Programming Historian_](https://www.patreon.com/theprogramminghistorian) so we can continue to share knowledge free of charge.
+    Great Open Access tutorials cost money to produce. Join the growing number of people [supporting _Programming Historian_](https://www.patreon.com/theprogramminghistorian) so we can continue to share knowledge free of charge.
   es: |
     ## ¡Haz una donación!
-    Producir buenos tutoriales de acceso abierto cuesta dinero. Únete al creciente número de personas que [apoya a _The Programming Historian_](https://www.patreon.com/theprogramminghistorian) para que podamos continuar compartiendo conocimientos de forma gratuita.
+    Producir buenos tutoriales de acceso abierto cuesta dinero. Únete al creciente número de personas que [apoya a _Programming Historian_](https://www.patreon.com/theprogramminghistorian) para que podamos continuar compartiendo conocimientos de forma gratuita.
   fr: |
     ## Vous pouvez faire une donation
     Les tutoriels de qualité en accès libre ont un coût de production. Vous pouvez [rejoindre celles et ceux qui soutiennent le _Programming Historian_](https://www.patreon.com/theprogramminghistorian) et contribuer au libre partage des savoirs.
   pt: |
     ## Faça uma doação!
-    Tutoriais de qualidade em acesso aberto têm custos de produção. Junte-se ao crescente número de pessoas que [apoia o _The Programming Historian_](https://www.patreon.com/theprogramminghistorian) para que possamos continuar a partilhar o conhecimento gratuitamente.
+    Tutoriais de qualidade em acesso aberto têm custos de produção. Junte-se ao crescente número de pessoas que [apoia o _Programming Historian_](https://www.patreon.com/theprogramminghistorian) para que possamos continuar a partilhar o conhecimento gratuitamente.
 
 donation-banner:
     en: |
-      <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Donate to <i>The Programming Historian</i> today!</a></h2>
+      <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Donate to <i>Programming Historian</i> today!</a></h2>
     es: |
-      <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">¡Haz una donación a <i>The Programming Historian</i>!</a></h2>
+      <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">¡Haz una donación a <i>Programming Historian</i>!</a></h2>
     fr: |
       <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Vous pouvez faire un don au <i>Programming Historian</i></a></h2>
     pt: |
@@ -593,7 +603,7 @@ retired-definition:
   en: |
     The Programming Historian editors do their best to maintain lessons as minor issues inevitably arise. However, since publication, changes to either the underlying technologies or principles used by this lesson have been substantial, to the point where the editors have decided not to further update it. The lesson may still prove a useful learning tool and a snapshot into the techniques of digital history when it was published, but we cannot guarantee all elements will continue to work as intended.
   es: |
-    Los editores de The Programming Historian hacen todo lo posible para mantener las lecciones a medida que surgen inevitablemente problemas menores. Sin embargo, desde la publicación, los cambios en las tecnologías subyacentes o los principios utilizados en esta lección han sido sustanciales, hasta el punto de que los editores han decidido no actualizarla más. Es posible que la lección siga siendo una herramienta de aprendizaje útil y una instantánea de las técnicas de la historia digital cuando se publicó, pero no podemos garantizar que todos los elementos sigan funcionando como estaba previsto.
+    Los editores de Programming Historian hacen todo lo posible para mantener las lecciones a medida que surgen inevitablemente problemas menores. Sin embargo, desde la publicación, los cambios en las tecnologías subyacentes o los principios utilizados en esta lección han sido sustanciales, hasta el punto de que los editores han decidido no actualizarla más. Es posible que la lección siga siendo una herramienta de aprendizaje útil y una instantánea de las técnicas de la historia digital cuando se publicó, pero no podemos garantizar que todos los elementos sigan funcionando como estaba previsto.
   fr: |
     Les rédacteurs et rédactrices du Programming Historian font tout leur possible pour maintenir les leçons en ligne car de petits problèmes peuvent survenir. Toutefois, depuis sa parution, soit les technologies soit les principes mobilisés par cette leçon ont subi de tels changements qu'il a été décidé de ne plus le mettre à jour. Cette leçon peut encore s'avérer un outil d'apprentissage utile ou encore offrir un aperçu des techniques utilisées en histoire numérique au moment de sa publication, néanmoins nous ne sommes pas en mesure de garantir que dans son ensemble elle reste aussi efficace que prévu.
   pt: |
@@ -655,10 +665,10 @@ suggested-citation:
   fr: Pour citer
   pt: Citação sugerida
 journal-title:
-  en: The Programming Historian
-  es: The Programming Historian en español
-  fr: The Programming Historian en français
-  pt: The Programming Historian em português
+  en: Programming Historian
+  es: Programming Historian en español
+  fr: Programming Historian en français
+  pt: Programming Historian em português
 journal-subtitle: # ENGLISH ONLY FOR NOW, DO NOT TRANSLATE
   en: The initial English version
 title-open-quote:
@@ -725,12 +735,12 @@ the-authors:
     en: author
     es: del autor
     fr: de l'auteur(e)
-    pt: autor(a)
+    pt: o(a) autor(a)
   plural:
     en: authors
     es: de los autores
     fr: des auteur(e)s
-    pt: autores(as)
+    pt: os(as) autores(as)
 
 # Home Page
 project-summary:
@@ -744,17 +754,68 @@ project-summary:
     Publicamos tutoriais acessíveis, avaliados por pares, que ajudam os humanistas a aprender uma ampla gama de ferramentas digitais, técnicas computacionais e metodologias de trabalho que facilitam a pesquisa e o ensino.
 enter:
   en: Enter
-  es: Entrar
-  fr: Entrez
-  pt: Entrar
+  es: Acceder a
+  fr: Accéder au
+  pt: Entrar no
 background_color:
   en: "#444444"
   es: "#535D7F"
   fr: "#3D7C81"
-  pt: "#d6b664"
+  pt: "rgb(136 104 20)"
 
 managing_editor:
   en: Sarah Melton
   es: Riva Quiroga
   fr: Sofia Papastamkou
   pt: Daniel Alves
+
+front-image-alt:
+  en: Image from Scientific American of a woman at an Electrical Counting Machine.
+  es: Imagen de Scientific American que muestra a una mujer trabajando en una máquina contadora eléctrica.
+  fr: Image de Scientific American montrant une femme utilisant une compteuse de billets.
+  pt: Imagem da Scientific American de uma mulher a usar uma máquina de contagem elétrica.
+write-a-lesson-image-alt:
+  en: A woman at a desk writing.
+  es: Una mujer escribiendo en un escritorio.
+  fr: Une femme à son bureau en train d'écrire. 
+  pt: Uma mulher numa mesa escrevendo.
+editor-guidelines-image-alt:
+  en: Two men discussing a book.
+  es: Dos hombres hablando sobre un libro.
+  fr: Deux hommes en train de discuter d'un livre.
+  pt: Dois homens discutindo um livro.
+translator-image-alt:
+  en: An outdoor scene with a horse, river, and person fishing.
+  es: Una escena con un caballo, un río y una persona pescando. 
+  fr: Scène d'extérieur avec un cheval et un pêcheur en rivière. 
+  pt: Uma cena ao ar livre com um cavalo, um rio e uma pessoa pescando.
+feedback-image-alt:
+  en: A man reading a book.
+  es: Un hombre leyendo un libro. 
+  fr: Un homme en train de lire un livre.
+  pt: Um homem lendo um livro.
+library-catalogue-image-alt:
+  en: A book, hourglass, and assorted objects on a table.
+  es: Un libro, un reloj de arena y otros objetos en una mesa.
+  fr: Un livre, un sablier et divers objets posés sur une table. 
+  pt: Um livro, uma ampulheta e vários objetos numa mesa. 
+open-an-issue-on-github-image-alt:
+  en: Screenshot of GitHub issue tracker with arrow pointing towards the button to contribute a new issue at top right.
+  es: Captura de pantalla del seguimiento de tickets de GitHub con una flecha señalando el botón para contribuir con un nuevo ticket arriba a la derecha.
+  fr: Capture d'écran de l'interface de Github avec une flèche rouge pointant vers le bouton qui permet d'ouvrir un nouveau ticket en haut à droite. 
+  pt: Captura de tela do rastreador de problemas do GitHub, com uma seta apontando para o botão para contribuir com uma nova questão no canto superior direito. 
+reviewer-image-alt:
+  en: Pair of readers reviewing a note.
+  es: Dos lectores revisando una nota. 
+  fr: Des lecteurs en train de reviser une note. 
+  pt: Par de leitores revendo uma nota.
+supporters-ipp-image-alt:
+  en: A bird with a nest filled with eggs.
+  es: Un pájaro con un nido lleno de huevos.
+  fr: Un oiseau et sa niche remplie d'oeufs. 
+  pt: Um pássaro com um ninho cheio de ovos.
+supporters-individual-image-alt:
+  en: A bird sitting on a branch while another bird flies nearby.
+  es: Un pájaro en una rama con otro pájaro volando cerca.
+  fr: Un oiseau posé sur une branche pendant qu'un autre vole à côté. 
+  pt: Um pássaro sentado num galho enquanto outro pássaro voa próximo.

@@ -33,7 +33,7 @@
     en: |
       University College London, UK
     es: |
-      University College London, Reigno Unido
+      University College London, Reino Unido
     fr: |
       University College London, Royaume-Uni
     pt: |
@@ -49,7 +49,7 @@
       Adam Crymble, University College London.
   team_roles:
     - proghist
-  status: volunteer
+  status: institutionally-supported
 
 - name: Caleb McDaniel
   team: false
@@ -321,36 +321,34 @@
 - name: James Baker
   team: true
   team_start: 2017
-  institution: University of Sussex
+  institution: University of Southampton
   github: drjwbaker
-  email: james.baker@sussex.ac.uk
+  email: j.w.baker@soton.ac.uk
   twitter: j_w_baker
   url: "https://cradledincaricature.com/"
   sortname: Baker
   orcid: 0000-0002-2682-6922
   affiliation:
     en: |
-      University of Sussex, UK
+      University of Southampton, UK
     es: |
-      University of Sussex, Reigno Unido
+      University of Southampton, Reino Unido
     fr: |
-      University of Sussex, Royaume-Uni
+      University of Southampton, Royaume-Uni
     pt: |
-      University of Sussex, Reino Unido
+      University of Southampton, Reino Unido
   bio:
     en: |
-      James Baker is a Senior Lecturer in Digital History and Archives at the University of Sussex
-      and a historian of interactions between people and things.
+      James Baker is Director of Digital Humanities at the University of Southampton.
     es: |
-      James Baker es profesor titular en Historia Digital y Archivos en la Universidad de Sussex; su línea de investigación es el cruce histórico de personas y objetos.
+      James Baker es el Director de Humanidades Digitales en la Universidad de Southampton.
     fr: |
-      James Baker est maître de conférences en histoire numérique et en archivistique à l'Université du Sussex; il est spécialiste en histoire des interactions entre personnes et objets.
+      James Baker est directeur des humanités numériques à l'Université de Southampton.
     pt: |
-      James Baker é professor de História Digital e Arquivos na University of Sussex e estuda as interações entre pessoas e objetos.
+      James Baker é Diretor de Humanidades Digitais da University of Southampton.
   team_roles:
     - proghist
     - finance-manager
-    - archive
   status: institutionally-supported
 
 - name: Amanda Morton
@@ -735,8 +733,9 @@
   twitter: walshbr
   email: walsh.brandon.michael@gmail.com
   url: "http://walshbr.com/"
-  team: true
+  team: false
   team_start: 2017
+  team_end: 2021
   institution: University of Virginia
   sortname: Walsh
   affiliation:
@@ -995,7 +994,7 @@
     en: |
       University of Sussex, UK
     es: |
-      University of Sussex, Reigno Unido
+      University of Sussex, Reino Unido
     fr: |
       University of Sussex, Royaume-Uni
     pt: |
@@ -1013,7 +1012,6 @@
     - english
     - editorial
     - proghist
-    - ed-manager
     - technical
   status: volunteer
 
@@ -1288,7 +1286,6 @@
     - managing
     - french
     - proghist
-    - global
   status: volunteer
   bio:
     en: |
@@ -1395,17 +1392,17 @@
   url: "http://zoeleblanc.com"
   team: true
   team_start: 2018
-  institution: Princeton University
+  institution: University of Illinois
   sortname: LeBlanc
   affiliation:
     en: |
-      Princeton University, USA.
+      University of Illinois Urbana-Champaign, USA.
     es: |
-      Princeton University, Estados Unidos.
+      University of Illinois Urbana-Champaign, Estados Unidos.
     fr: |
-      Princeton University, Etats-Unis.
+      University of Illinois Urbana-Champaign, Etats-Unis.
     pt: |
-      Princeton University, Estados Unidos da América.
+      University of Illinois Urbana-Champaign, Estados Unidos da América.
   bio:
     en: |
       Zoe LeBlanc is a Postdoctoral Associate and Weld Fellow at the Center for Digital Humanities, Princeton University.
@@ -1469,7 +1466,6 @@
     - managing
     - spanish
     - proghist
-    - global
   status: volunteer
 
 - name: Joshua G. Ortiz Baco
@@ -1501,7 +1497,6 @@
   team_roles:
     - spanish
     - editorial
-    - new-pub-manager
   status: volunteer
 
 - name: Armando Luza
@@ -1796,16 +1791,17 @@
         Temple University, Estados Unidos.
   bio:
     en: |
-      Alex Wermer-Colan is the Digital Humanities Postdoctoral Fellow at Temple University Libraries' Loretta C. Duckworth Scholars Studio.
+      Alex Wermer-Colan is the Digital Scholarship Coordinator at Temple University Libraries' Loretta C. Duckworth Scholars Studio.
     es: |
-      Alex Wermer-Colan es becario postdoctoral en Humanidades Digitales en el Loretta C. Duckworth Scholars Studio de la Biblioteca de la Universidad de Temple.
+      Alex Wermer-Colan es coordinador de estudios digitales en el Loretta C. Duckworth Scholars Studio de la Biblioteca de la Universidad de Temple.
     fr: |
-      Alex Wermer-Colan est chercheur postdoctoral en humanités numériques au Loretta C. Duckworth Scholars Studio des bibliothèques de l'Université Temple.
+      Alex Wermer-Colan est coordinateur des études numériques au Loretta C. Duckworth Scholars Studio des bibliothèques de l'Université Temple.
     pt: |
-      Alex Wermer-Colan é Bolseiro de Pós-Doutorado em Humanidades Digitais na Biblioteca Loretta C. Duckworth Scholars Studio da Temple University.
+      Alex Wermer-Colan é responsável pelos Estudos Digitais na Biblioteca Loretta C. Duckworth Scholars Studio da Temple University.
   team_roles:
-    - editorial
-    - english
+      - english
+      - editorial
+      - technical
   status: volunteer
 
 - name: Danielle Sanches
@@ -1873,12 +1869,8 @@
   status: volunteer
 
 - name: Sylvia Fernández Quintanilla
-  twitter: sferna109
-  email: sferna109@gmail.com
-  url: "https://sylviafernandezq.wordpress.com/"
   github: sferna109
-  team: true
-  team_start: 2020
+  team: false
   institution: University of Kansas
   sortname: Fernández
   affiliation:
@@ -1899,10 +1891,6 @@
         Sylvia Fernández es doctora en Español con una especialidad en Literatura de la Frontera México-Estados Unidos de la Universidad de Houston y es becaria posdoctoral en Humanidades Digitales y Públicas en el Hall Center for the Humanities y el Instituto de Investigación Digital en Humanidades (IDRH) de la Universidad de Kansas.
     fr: |
         Sylvia Fernández est docteure en études hispaniques spécialiste de la littérature sur la frontière américano-mexicaine de l'Université de Houston. Elle est chercheuse en sciences humaines numériques au Hall Center for the Humanities et à l'Institut de recherche numérique en sciences humaines (IDRH) à l'Université du Kansas.  team_roles:
-  team_roles:
-    - english
-    - editorial
-  status: volunteer
 
 - name: Luis Ferla
   email: ferla@unifesp.br
@@ -2087,37 +2075,37 @@
     - editorial
   status: volunteer
   
-- name: Ricardo M Pimenta
-  twitter: RicardoMPimenta
-  email: ricardopimenta@ibict.br
-  url: "http://www.larhud.ibict.br"
-  institution: Instituto Brasileiro de Informação em Ciência e Tecnologia
-  sortname: Pimenta
+- name: Célian Ringwald
+  twitter: ringwald_c
+  email: celian.ringwald@hotmail.fr
+  github: datalogism
   team: true
-  orcid: 0000-0002-1612-4126
+  orcid: 0000-0002-7302-9037
+  team_start: 2021
+  sortname: Ringwald
   affiliation:
     en: |
-      IBICT/UFRJ, Rio de Janeiro, Brazil
+        Lyon University, France
     pt: |
-      IBICT/UFRJ, Rio de Janeiro, Brasil
+        Universidade de Lyon, França
     es: |
-      IBICT/UFRJ, Río de Janeiro, Brasil
+        Universidad de Lyon, Francia
     fr: |
-      IBICT/UFRJ, Rio de Janeiro, Brésil
+        Université de Lyon, France
   bio:
     en: |
-      Ricardo M Pimenta is researcher 2 of CNPq (productivity scholarship) and was Young Scientist of Our State FAPERJ (2018 - 2020). Titular Researcher at the Brazilian Institute of Information in Science and Technology (IBICT) of the Ministry of Science, Technology and Innovation (MCTI).  Permanent Professor of the Graduate Program in Information Science (PPGCI/IBICT-UFRJ). Historian graduated (2003) from Gama Filho University - UGF with post-graduation in History of Brazil (2005) from Cândido Mendes University - UCAM. He holds a Master's degree in Social Memory and Document (2006) from the Federal University of the State of Rio de Janeiro - UNIRIO, and PhD in Social Memory (2010) from the same institution, with doctoral internship (2007 - 2008) at the École des Hautes Études en Sciences Sociales - EHESS of Paris. He is the leader of the Memory and Information Society Research Group (http://www.meso.ibict.br), registered in the CNPq directory and coordinator of the Digital Humanities Networked Laboratory of IBICT (Larhud/COEPE/IBICT). He is currently Associate Editor (Latin America and Africa) of the International Journal of Humanities and Arts Computing (IJHAC, formerly History and Computing). He is also the coordinator of the GoFAIR Humanities network.
-    pt: |
-      Ricardo M Pimenta é pesquisador 2 do CNPq (bolsa de produtividade) e foi Jovem Cientista do Nosso Estado FAPERJ (2018 - 2020). Pesquisador Titular do Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT) do Ministério da Ciência, Tecnologia e Inovação (MCTI). Professor Permanente do Programa de Pós-graduação em Ciência da Informação (PPGCI/IBICT-UFRJ). Historiador graduado (2003) pela Universidade Gama Filho - UGF com pós-graduação em História do Brasil (2005) pela Universidade Cândido Mendes - UCAM. Possui mestrado em Memória Social e Documento (2006) pela Universidade Federal do Estado do Rio de Janeiro - UNIRIO, e doutorado em Memória Social (2010) pela mesma instituição, com estágio doutoral (2007 - 2008) na École des Hautes Études en Sciences Sociales - EHESS de Paris. É líder do Grupo de Pesquisa Memória e Sociedade da Informação (http://www.meso.ibict.br), registrado no diretório do CNPq e coordenador do Laboratório em Rede de Humanidades Digitais do IBICT (Larhud/COEPE/IBICT). Atualmente é Editor Associado (América Latina e África) da  International Journal of Humanities and Arts Computing (IJHAC, antiga History and Computing). É também coordenador da rede GoFAIR Humanidades.
-    es: |
-      Ricardo M Pimenta Es investigador 2 del CNPq (beca de productividad) y fue Joven Científico de Nuestro Estado FAPERJ (2018 - 2020). Investigador titular del Instituto Brasileño de Información en Ciencia y Tecnología (IBICT) del Ministerio de Ciencia, Tecnología e Innovación (MCTI). Profesor titular del Programa de Posgrado en Ciencias de la Información (PPGCI/IBICT-UFRJ). Historiador graduado (2003) por la Universidad de Gama Filho - UGF con postgrado en Historia de Brasil (2005) por la Universidad Cândido Mendes - UCAM. Tiene una maestría en Memoria Social y Documento (2006) por la Universidad Federal del Estado de Río de Janeiro - UNIRIO, y un doctorado en Memoria Social (2010) por la misma institución, con pasantía doctoral (2007 - 2008) en la École des Hautes Études en Sciences Sociales - EHESS de París. Es líder del Grupo de Investigación en Memoria y Sociedad de la Información (http://www.meso.ibict.br), registrado en el directorio del CNPq y coordinador del Laboratorio en Red de Humanidades Digitales del IBICT (Larhud/COEPE/IBICT). Actualmente es editor asociado (América Latina y África) de la revista International Journal of Humanities and Arts Computing (IJHAC, antes History and Computing). También es coordinador de la red de humanidades GoFAIR.
+      Célian Ringwald has a master’s degree in data science and a master's degree in digital humanities from Université Lyon 2
     fr: |
-      Ricardo M Pimenta est chercheur 2 du CNPq (bourse de productivité) et a été Jeune Scientifique de notre Etat FAPERJ (2018 - 2020). Chercheur titulaire à l'Institut brésilien de l'information en science et technologie (IBICT) du ministère des sciences, de la technologie et de l'innovation (MCTI). Professeur permanent du Programme d'études supérieures en sciences de l'information (PPGCI/IBICT-UFRJ). Historien diplômé (2003) de l'Université Gama Filho - UGF avec un diplôme de troisième cycle en histoire du Brésil (2005) de l'Université Cândido Mendes - UCAM. Il est titulaire d'un master en mémoire sociale et document (2006) de l'Université fédérale de l'État de Rio de Janeiro - UNIRIO, et d'un doctorat en mémoire sociale (2010) de la même institution, avec un stage doctoral (2007 - 2008) à l'École des Hautes Études en Sciences Sociales - EHESS de Paris. Il est responsable du groupe de recherche Mémoire et société de l'information (http://www.meso.ibict.br), inscrit dans l'annuaire du CNPq et coordinateur du Laboratoire Réseau des Humanités Numériques de l'IBICT (Larhud/COEPE/IBICT). Il est actuellement rédacteur en chef adjoint (Amérique latine et Afrique) de l'International Journal of Humanities and Arts Computing (IJHAC, anciennement History and Computing). Il est également le coordinateur du réseau GoFAIR Humanities.
+      Célian Ringwald est diplomé d'un master 2 en Sciences de la données et d'un master 2 en Humanités Numériques de l'Université de Lyon 2
+    es: | 
+      Célian Ringwald tiene una maestría en Ciencia de Datos y una maestría en Humanidades Digitales de la Université Lyon 2
+    pt: |
+      Célian Ringwald é mestre em Ciência de Dados e mestre em Humanidades Digitais pela Université Lyon 2
   team_roles:
-    - portuguese
+    - french
     - editorial
-  status: volunteer      
-      
+  status: volunteer
+  
 - name: Nicolas Frerebeau
   team: false
   orcid: 0000-0001-5759-4944
@@ -2129,6 +2117,7 @@
     es: | 
       Nicolas Frerebeau es arqueólogo en el Centro de Investigaciones y Estudios para el Arte Prehistórico Emile Cartaihac (CNRS/Universidad de Toulouse, Francia). 
     pt: |
+      Nicolas Frerebeau é arqueólogo do Centre de Recherche et d'Études pour l'Art Préhistorique - Émile Cartailhac (CNRS/Universidade de Toulouse, França). 
   
 - name: Brice Lebrun
   team: false
@@ -2139,5 +2128,264 @@
     fr: |
       Brice Lebrun est ingénieur de recherche en géochronologie à l'Institut de recherche sur les Archéomatériaux – Centre de recherche en physique appliquée à l’archéologie (IRAMAT-CRP2A UMR 5060, CNRS/Université Bordeaux Montaigne).
     es: |
-    
-    pt: |  
+      
+    pt: |
+      Brice Lebrun é Engenheiro de Pesquisa em Geocronologia no Institut de recherche sur les Archéomatériaux – Centre de recherche en physique appliquée à l’archéologie (CNRS/Universidade de Bordeaux Montaigne, França). 
+
+- name: Simon Hengchen
+  team: false
+  orcid: 0000-0002-8453-7221
+  bio:
+      en: |
+          Simon Hengchen is a postdoctoral researcher in NLP.
+      fr: |
+          Simon Hengchen est chercheur postdoctoral en TAL.
+
+- name: Matteo Romanello 
+  team: false
+  orcid: 0000-0002-7406-6286
+  bio:
+      en: |
+          Matteo Romanello is Lecturer at the University of Lausanne in Ancient Greek literature and computational research.
+      fr: |          
+          Matteo Romanello est maître de conférences à l'Université de Lausanne en littérature grecque ancienne et humanités computationnelles.
+          
+
+- name: Halle Burns
+  team: false
+  orcid: 0000-0003-2346-2876
+  bio:
+    en: |
+       Halle Burns is an assistant professor in the University Libraries at the University of Nevada, Las Vegas. She is also a certified instructor with The Carpentries, an international organization that teaches coding and data science skills to researchers. 
+
+- name: Marcelo Raimundo 
+  team: false
+  bio:
+      es: |
+        Marcelo Raimundo es profesor e investigador de la Universidad Nacional de La Plata y se dedica al análisis histórico de la conflictividad obrera.
+
+- name: Anisa Hawes
+  github: Anisa-ProgHist
+  email: anisa.hawes@icloud.com
+  twitter: AnisaHawes
+  url: "https://anisahawes.github.io/about/"
+  team: true
+  team_start: 2021
+  institution: Programming Historian, UK
+  sortname: Hawes
+  affiliation:
+    en: |
+      Programming Historian, UK
+    es: |
+      Programming Historian, Reino Unido
+    fr: |
+      Programming Historian, Royaume-Uni
+    pt: |
+      Programming Historian, Reino Unido
+  bio:
+    en: |
+      Anisa Hawes is Programming Historian's Digital Humanities Publishing Assistant. 
+    es: |
+      Anisa Hawes, Programming Historian.
+    fr: |
+      Anisa Hawes, Programming Historian.
+    pt: |
+      Anisa Hawes, Programming Historian.
+  team_roles:
+    - proghist
+  status: institutionally-supported
+
+- name: Nicolás Vaughan
+  github: nivaca
+  email: nivaca@fastmail.com
+  url: "https://nicolasvaughan.org"
+  team: true
+  team_start: 2021
+  institution: Universidad de los Andes, Colombia
+  sortname: Vaughan
+  affiliation:
+    en: |
+      University of los Andes, Colombia
+    es: |
+      Universidad de los Andes, Colombia
+    fr: |
+      Université de los Andes, Colombie
+    pt: |
+      Universidad de los Andes, Colômbia
+  bio:
+    en: |
+      Nicolás Vaughan is an associate professor of medieval literature and digital humanities at the Universidad de los Andes, Bogotá (Colombia).
+    es: |
+      Nicolás Vaughan es profesor asociado del Departamento de Humanidades y Literatura de la Universidad de los Andes, en Bogotá, Colombia, donde también enseña en la Maestría en Humanidades Digitales. Es doctor en filosofía medieval de la Universidad de Oxford.
+    fr: |
+      Nicolás Vaughan est professeur associé de littérature médiévale et d'humanités numériques à l'Universidad de los Andes, Bogotá (Colombie).
+    pt: |
+      Nicolás Vaughan é professor associado de literatura medieval e humanidades digitais na Universidad de los Andes, Bogotá (Colômbia).
+  team_roles:
+    - spanish
+    - editorial
+  status: volunteer
+
+- name: Tiago Sousa Garcia
+  team: true
+  team_start: 2021
+  institution: Programming Historian
+  github: tiagosousagarcia
+  email: tiagosousagarcia@gmail.com
+  twitter: tiagosousagarci
+  url: "https://tiagosousagarcia.co.uk/"
+  sortname: Sousa Garcia
+  orcid: 0000-0001-5694-7285
+  affiliation:
+    en: |
+      Programming Historian, UK
+    es: |
+      Programming Historian, Reino Unido
+    fr: |
+      Programming Historian, Royaume-Uni
+    pt: |
+      Programming Historian, Reino Unido
+  bio:
+    en: |
+      Tiago Sousa Garcia is an early modernist and digital humanist, specialising in early modern translation and textual encoding.
+    es: |
+      Tiago Sousa Garcia es especialista en literatura renacentista y humanidades digitales, particularmente en traducción y codificación de textos.
+    fr: |
+      Tiago Sousa Garcia est un spécialiste en littérature de la Renaissance et en humanités numériques, notamment en traduction et en codage de textes.
+    pt: |
+      Tiago Sousa Garcia é um especialista em literatura do Renascimento e humanidades digitais, particularmente em tradução e codificação textual.
+  team_roles:
+    - proghist
+  status: institutionally-supported
+
+- name: Isabelle Gribomont
+  email: isabelle.gribomont@liverpool.ac.uk
+  twitter: IsaGribomont
+  github: isag91
+  team: true
+  team_start: 2021
+  institution: University of Liverpool
+  sortname: Gribomont
+  team_roles:
+    - spanish
+    - editorial
+  status: volunteer
+  affiliation:
+    en: |
+      University of Liverpool, United Kingdom
+    es: |
+      Universidad de Liverpool, Reino Unido
+    fr: |
+      University of Liverpool, Royaume-Uni
+    pt: |
+      Universidade de Liverpool, Reino Unido
+  bio:
+    en: |
+       Isabelle Gribomont is a postdoctoral researcher in Digital Humanities at the University of Liverpool (United Kingdom).
+    es: |
+       Isabelle Gribomont es investigadora postdoctoral en humanidades digitales en la universidad de Liverpool (Reino Unido).
+    fr: |
+       Isabelle Gribomont est chercheuse postdoctorale en humanités numériques à l'université de Liverpool (Royaume-Uni).
+    pt: |
+       Isabelle Gribomont é pesquisadora de pós-doutorado em Humanidades Digitais na universidade de Liverpool (Reino Unido).
+       
+- name: Nicolás Llano
+  email: llano.nicolas@gmail.com
+  twitter: enetreseles
+  github: nllano
+  team: true
+  team_start: 2021
+  institution: Instituto Brasileiro de Ensino, Desenvolvimento e Pesquisa
+  sortname: Llano
+  affiliation:
+    en: |
+      Brazilian Institute of Education, Development and Research, Brazil
+    es: |
+      Instituto Brasilero de Enseñanza, Desarrollo e Investigación, Brasil
+    fr: |
+      Institut Brésilien d'enseignement, de développement et de recherche, Brésil
+    pt: |
+      Instituto Brasileiro de Ensino, Desenvolvimento e Pesquisa, Brasil
+  bio:
+    en: |
+       Nicolás Llano holds a PhD in Communication Sciences (Sao Paulo University, Brazil), and is a student of the MBA Data Journalism programm at IDP (Brasil).
+    es: |
+       Nicolás Llano es Doctor en Ciencias de la Comunicación (Universidad de São Paulo, Brasil), y estudiante del programa MBA Periodismo de Datos del IDP (Brasil).
+    fr: |
+       Nicolás Llano est docteur en sciences de la communication (Université de São Paulo, Brésil) et est un étudiant du programme MBA Journalisme de données à l'IDP (Brésil).
+    pt: |
+       Nicolás Llano é Doutor em Ciências da Comunicação (Universidade de São Paulo, Brasil), e estudante do programa MBA Jornalismo de Datos no IDP (Brasil)       
+  team_roles:
+    - spanish
+    - editorial
+  status: volunteer
+  
+- name: Gustavo Candela
+  orcid: 0000-0001-6122-0777
+  team: false
+  bio:
+      es: |
+        Gustavo Candela es profesor asociado en la Universidad de Alicante, España. Es doctor en Informática y miembro de la Comunidad Internacional GLAM Labs.
+
+- name: María Dolores Sáez
+  orcid: 0000-0003-1996-2974
+  team: false
+  bio:
+      es: |
+        María Dolores Sáez Fernández es Ingeniera Técnica en Informática de Gestión por la Universidad de Alicante, realizó el Máster en Desarrollo de Aplicaciones y Servicios Web y actualmente se encuentra cursando el Doctorado en Informática.
+
+- name: María Pilar Escobar
+  orcid: 0000-0002-7705-5224
+  team: false
+  bio:
+      es: |
+        María Pilar Escobar es Doctora en Informática por la Universidad de Alicante, España. Las principales áreas de investigación son sistemas de información para bibliotecas digitales, recuperación de información y web semántica.
+
+- name: Manuel Marco Such
+  orcid: 0000-0002-4145-0521
+  team: false
+  bio:
+      es: |
+        Manuel Marco Such es profesor titular en el Departamento de Lenguajes y Sistemas Informáticos de la Universidad de Alicante, España.
+
+- name: Thomas Jurczyk 
+  team: false
+  orcid: 0000-0002-5943-2305
+  team: false
+  bio:
+      en: |
+            Thomas Jurczyk is a German historian and religious studies' scholar based in Bochum (GER)
+
+- name: Eric Brasil
+  twitter: ericbrasiln
+  email: profericbrasil@unilab.edu.br
+  url: "https://ericbrasiln.github.io"
+  github: ericbrasiln
+  orcid: 0000-0001-5067-847
+  team: true
+  team_start: 2021
+  institution: Universidade da Integração Internacional da Lusofonia Afro-brasileira
+  sortname: Brasil
+  affiliation:
+    en: |
+      Instituto de Humanidades e Letras, Universidade da Integração Internacional da Lusofonia Afro-brasileira, Brazil
+    pt: |
+      Instituto de Humanidades e Letras, Universidade da Integração Internacional da Lusofonia Afro-brasileira, Brasil
+    es: |
+      Instituto de Humanidades e Letras, Universidade da Integração Internacional da Lusofonia Afro-brasileira, Brasil
+    fr: |
+      Instituto de Humanidades e Letras, Universidade da Integração Internacional da Lusofonia Afro-brasileira, Brésil
+  bio:
+    en: |
+      Eric Brasil is a professor at the Institute of Humanities and Languages at University of International Integration of Afro-Brazilian Lusophony (IHLM-UNILAB) and member of the Digital Humanities Laboratory of the Federal University of Bahia (LABHDUFBA).
+    pt: |
+      Eric Brasil é professor do Instituto de Humanidades e Letras na Universidade da Integração Internacional da Lusofonia Afro-brasileira (IHLM/UNILAB) e membro do Laboratório de Humanidades Digitais da Universidade Federal da Bahia (LABHDUFBA).
+    es: |
+      Eric Brasil es profesor del Instituto de Humanidades y Letras de la Universidad de Integración Internacional de la Lusofonía Afrobrasileña (IHLM / UNILAB) y miembro del Laboratorio de Humanidades Digitales de la Universidad Federal de Bahía (LABHDUFBA).
+    fr: |
+      Eric Brasil est professeur à l'Institut des sciences humaines et des lettres de l'Université d'intégration internationale de la lusophonie afro-brésilienne (IHLM/UNILAB) et membre du Laboratoire d'humanités numériques de l'Université fédérale de Bahia (LABHDUFBA).
+  team_roles:
+    - portuguese
+    - editorial
+  status: volunteer
+  

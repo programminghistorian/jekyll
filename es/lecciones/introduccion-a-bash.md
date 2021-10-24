@@ -240,7 +240,7 @@ Después, cuando ejecutes el comando `ls`, verás que ahora se llama `tolstoi.tx
 
 Volveremos sobre este comando en breve.
 
-Ahora que has utilizado varios comandos nuevos, es hora de aprender otro truco. Pulsa la flecha hacia arriba en tu teclado. Observa que `cp pg2600.txt tolstoi.txt` aparece delante del cursor. Puedes continuar pulsando la flecha hacia arriba para recorrer los comandos anteriores. La flecha hacia abajo retrocede hacia el comando más reciente.
+Ahora que has utilizado varios comandos nuevos, es hora de aprender otro truco. Pulsa la flecha hacia arriba en tu teclado. Observa que `cp 2600-0.txt tolstoi.txt` aparece delante del cursor. Puedes continuar pulsando la flecha hacia arriba para recorrer los comandos anteriores. La flecha hacia abajo retrocede hacia el comando más reciente.
 
 Después de haber leído y renombrado varios archivos, es posible que quieras reunir tu texto en uno solo. Para combinar o concatenar dos a más archivos, puedes utilizar el comando `cat`. Primero, vamos a duplicar el archivo Tolstoi (`cp tolstoi.txt tolstoi2.txt`). Ahora que tienes dos copias de *Guerra y Paz*, vamos a ponerlas juntas para hacer un libro **aún más largo**.
 

@@ -7,7 +7,7 @@ original: reviewer-guidelines
 
 # Consignes aux évaluateurs et évaluatrices
 
-<img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.reviewer-image-alt[page.lang] }}"/>
 
 Devenir évaluateur(trice) pour le _Programming Historian en français_ est une excellente manière d'acquérir de nouvelles compétences techniques et de vous insérer dans la communauté des humanités numériques. Nous faisons tout notre possible pour nous assurer que les évaluateurs et les évaluatrices reçoivent crédit et reconnaissance pour leur travail. Parce qu'en tant évaluateur(trice), vous contribuez directement à améliorer de manière significative la qualité des leçons, vous pouvez être fier(ère) de votre travail qui aide ainsi des milliers de lecteurs et de lectrices.
 

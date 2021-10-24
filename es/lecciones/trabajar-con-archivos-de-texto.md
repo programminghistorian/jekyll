@@ -29,6 +29,8 @@ topics: [python]
 abstract: "En esta lección aprenderás a manipular archivos de texto utilizando Python."
 avatar_alt: Dibujo de un señor leyendo el abecedario.
 doi: 10.46430/phes0028
+sequence: 3
+series_total: 14
 ---
 
 {% include toc.html %}
@@ -93,7 +95,7 @@ Utilizarás el comando `print` de esta forma en los casos en los que se quiera g
 
 ```python
 #archivo-salida.py
-f = open ('holamundo.txt','wb')
+f = open ('holamundo.txt','w')
 f.write('hola mundo')
 f.close()
 ```

@@ -26,7 +26,7 @@ match the new entry you made in `_data/snippets.yml`
     aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="{{site.baseurl}}{{site.data.snippets.menu-home[page.lang]}}">The Programming
+  <a class="navbar-brand" href="{{site.baseurl}}{{site.data.snippets.menu-home[page.lang]}}">Programming
     Historian</a>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="nav navbar-nav ml-auto w-100 justify-content-end" role="menubar">
@@ -76,7 +76,7 @@ match the new entry you made in `_data/snippets.yml`
 
       <li class="nav-item" role="menuitem">
         <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-lessons[page.lang].link}}"
-          role="menuitem">{{site.data.snippets.menu-lessons[page.lang].title}}</a>
+          role="link">{{site.data.snippets.menu-lessons[page.lang].title}}</a>
       </li>
 
       <li class="nav-item dropdown mobile-drop" role="menu">
@@ -95,7 +95,7 @@ match the new entry you made in `_data/snippets.yml`
       
       <li class="nav-item" role="menuitem">
         <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-blog[page.lang].link}}"
-          role="menuitem">{{site.data.snippets.menu-blog[page.lang].title}}</a>
+          role="link">{{site.data.snippets.menu-blog[page.lang].title}}</a>
       </li>
      
 
@@ -107,8 +107,8 @@ match the new entry you made in `_data/snippets.yml`
       {% endcomment %}
       {% assign all_translations = translation_candidates | push: translation_source %}
 
-      <li class="nav-item">
-        <div class="btn-group" role="group" aria-label="Language selector">
+      <li class="nav-item" role="menu">
+        <div class="btn-group" role="menuitem" aria-label="Language selector">
           {% for lang in site.data.snippets.language-list %}
 
           {% if page.lang == lang %}
@@ -129,11 +129,12 @@ match the new entry you made in `_data/snippets.yml`
           {% endfor %}
         </div>
       </li>
-      <li class="nav-item" id="low-contrast-button">
+      <li class="nav-item" id="low-contrast-button" role="menu">
         <div class="theme-switch-wrapper">
-          <label class="theme-switch">
-            <input type="checkbox">
+          <label class="theme-switch" role="menuitem">
+            <input type="checkbox" role="menuitemcheckbox">
             <span class="slider round">
+              <span class="visually-hidden">night mode toggle</span>
             </span>
           </label>
         </div>
@@ -143,7 +144,7 @@ match the new entry you made in `_data/snippets.yml`
   <!--</div>-->
 </nav>
 
-<nav class="hide-print print-header navbar-brand">The Programming Historian </nav>
+<nav class="hide-print print-header navbar-brand">Programming Historian </nav>
 
 <script>
   const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');

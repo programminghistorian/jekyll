@@ -74,7 +74,7 @@ Ten en cuenta que al enviar el correo electrónico con el asunto “Programa de 
 
    
 
-Todas las membresías están sujetas a la aprobación del equipo de *Programming Historian*. *Programming Historian* es un proyecto internacional impulsado por voluntarios cuyas actividades son administradas por ProgHist Limitada, una compañía sin fines de lucro que se encuentra registrada en Inglaterra con el número 12192946. El propósito de Programming Historian es hacer avanzar la educación del público en las Humanidades, en particular en el uso de de herramientas y técnicas digitales, promover investigación para el bien público en este ámbito y publicar resultados significativos.
+Todas las membresías están sujetas a la aprobación del equipo de *Programming Historian*. *Programming Historian* es un proyecto internacional impulsado por un equipo voluntario. Sus actividades financieras son administradas por ProgHist Ltd, una organización benéfica registrada en Inglaterra y Gales ([1195875](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5181272/charity-overview)) y constituida en esos mismos países como una compañía limitada por garantía ([12192946](https://beta.companieshouse.gov.uk/company/12192946)). El propósito de Programming Historian es hacer avanzar la educación del público en las Humanidades, en particular, en el uso de de herramientas y técnicas digitales, promover investigación para el bien público en este ámbito y publicar resultados significativos.
 
 ## ¿Quieres hacer una consulta?
 

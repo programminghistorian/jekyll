@@ -290,7 +290,7 @@ store your downloaded files in.
 Now, run the following Wget command:
 
 ``` bash
-wget –i Jefferson.txt –r --no-parent -nd –w 2 –A .jpg, .jpeg --limit-rate=100k
+wget -i Jefferson.txt -r --no-parent -nd -w 2 -A .jpg, .jpeg --limit-rate=100k
 ```
 
 Voila, after a bit of waiting, you will have 1487 pages of presidential

@@ -7,10 +7,17 @@ skip_validation: true
 
 # Consignes aux auteur(e)s
 
+<<<<<<< HEAD
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
 <h2 class="noclear"> Étape 1&#x202F;: <a href="#etape-1-proposer-une-nouvelle-leçon">proposer une nouvelle leçon</a></h2>
 <h2 class="noclear">Étape 2&#x202F;: <a href="#etape-2-rédaction-et-mise-en-forme">pédaction et mise en forme</a></h2>
 <h2 class="noclear">Étape 3&#x202F;: <a href="#etape-3-soumettre-une-nouvelle-leçon">soumettre une nouvelle leçon</a></h2>  
+=======
+<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
+<h2 class="noclear"> Étape 1 : <a href="#proposer-une-nouvelle-leçon">Proposer une nouvelle leçon</a></h2>
+<h2 class="noclear">Étape 2 : <a href="#écrire-une-nouvelle-leçon">Écrire et mettre en forme une nouvelle leçon</a></h2>
+<h2 class="noclear">Étape 3 : <a href="#soumettre-une-nouvelle-leçon">Soumettre une nouvelle leçon</a></h2>
+>>>>>>> gh-pages
 
 
 Ces consignes ont été développées pour vous permettre de comprendre comment s'organise l'écriture d'un tutoriel pour le *Programming Historian en français*. Elles fournissent des détails pratiques, des informations sur la philosophie de la revue, ses workflows et l'évaluation ouverte par les pairs. Si pour quelque raison que ce soit elles nous vous paraissent pas claires, n'hésitez pas à contacter notre rédacteur / rédactrice en chef {% include managing-editor.html lang=page.lang %}.  
@@ -372,6 +379,12 @@ Le processus de l'évaluation se passe habituellement en trois étapes&#x202F;:
 N'hésitez pas à consulter nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs) afin de vous familiariser avec notre processus de révision et de publication.
 
 Si jamais vous êtes dans l'incertitude sur comment procéder, n'hésitez pas à poster votre question sur le ticket d'évaluation, un membre de notre équipe vous apportera des réponses dans les délais les plus brefs possible. Nous faisons de notre mieux pour répondre au bout de quelques jours.
+
+
+### Que se passe-t-il une fois votre leçon publiée?
+
+Il nous arrive de recevoir des retours de notre lectorat nous signalant des erreurs dans nos leçons. Le cas échéant, notre assistante éditoriale va ouvrir un ticket sur GitHub pour confirmer si l'erreur signalée est due à une mauvaise manipulation de l'utilisateur ou de l'utilisatrice (modification du code, du jeu de données...) ou à un problème de la leçon. Dans ce dernier cas, notre assistante éditoriale va tester à nouveau la leçon et chercher une solution. Dans le cadre de ce processus de maintenance de nos leçons, nous pouvons être amenés à vous contacter aussi pour solliciter votre avis. Si une solution est impossible à trouver, nous proposerons de faire afficher un avertissement expliquant que certain(e)s de nos utilisateurs et utilisatrices pourraient rencontrer des problèmes. Lorsque cela est possible, l'avertissement devrait inclure des liens vers des ressources qui pourraient permettre aux utilisateurs et utilisatrices de trouver une solution.
+
 
 ### Nous interpeller
 

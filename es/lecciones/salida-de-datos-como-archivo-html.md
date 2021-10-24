@@ -30,6 +30,8 @@ topics: [python, website]
 abstract: "Esta lección toma los pares de frecuencia creados en 'Contar frecuencias de palabras con Python' y crea una salida de datos a un archivo HTML."
 avatar_alt: Grabado de mujer y dos niños.
 doi: 10.46430/phes0025
+sequence: 12
+series_total: 14
 ---
 
 {% include toc.html %}
@@ -153,7 +155,7 @@ def envuelveCadenaenHTMLWindows(programa, url, body):
     ahora = datetime.datetime.today().strftime("%Y%m%d-%H%M%S")
 
     nombreArchivo = programa + '.html'
-    f = open(nombreArchivo,'wb')
+    f = open(nombreArchivo,'w')
 
     wrapper = """<html>
     <head>

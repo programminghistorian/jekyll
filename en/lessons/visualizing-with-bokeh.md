@@ -45,7 +45,7 @@ Each row in the THOR dataset contains information on a single mission or bombing
 
 For this tutorial, we'll use a modified version of the WWII THOR dataset. The original, full-version of the dataset consists of 62 columns of information digitized from the paper forms. To make this dataset more manageable for our purposes, this has been reduced to 19 columns that include core mission information and bombing data. These columns are discussed below when we first load the data. The unabridged dataset is available for download [here](https://data.world/datamil/world-war-ii-thor-data).
 
-The dataset used in this tutorial is contained in [thor_wwii.csv](https://raw.githubusercontent.com/programminghistorian/ph-submissions/gh-pages/assets/visualizing-with-bokeh/thor_wwii.csv). This file is required to complete most of the examples below.
+The dataset used in this tutorial is contained in [thor_wwii.csv](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/visualizing-with-bokeh/thor_wwii.csv). This file is required to complete most of the examples below.
 
 We'll use Bokeh and Pandas to address some of the following questions:
 
@@ -122,10 +122,17 @@ pip install pandas bokeh pyproj
 To get the exact versions used to write this tutorial (note: these may not be the most recent versions of each python package) you can pass the following version numbers to `pip`.
 
 ```python
-pip install pandas==0.23.1 bokeh==0.13.0 pyproj==1.9.5.1
+pip install "pandas>=1.2.0,<1.2.3" "bokeh>=2.0.0,<2.3.0" "pyproj>=3.0,<3.0.1"
 ```
 
 ## Running Code Examples
+
+<div class="alert alert-info">
+
+At this point in the lesson, you have a choice of two ways to experiment with "Running Code Examples". You can either proceed in the command line and do the coding by hand, or run the Jupyter notebook provided <a href="https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/visualizing-with-bokeh/visualizing-with-bokeh.ipynb">here</a>. Beginners who simply want to get a sense of how the code  operates, rather than write it themselves, may find the Jupyter notebook option especially helpful.
+
+</div>
+
 It is easiest first to create a single directory and save each code example as a *.py* within it. When you are ready to run the code file, navigate to this directory in your command prompt and make sure your virtual environment is activated. Remember that you can always activate the environment with the following command appropriate for your operating system.
 ```python
 source activate bokeh-env #For Linux/MacOS
@@ -138,7 +145,7 @@ Within the virtual environment, you can run your code by typing:
 python filename.py
 ```
 
-A Jupyter Notebook containing the code used in this tutorial is also [available](https://raw.githubusercontent.com/programminghistorian/ph-submissions/gh-pages/assets/visualizing-with-bokeh/visualizing-with-bokeh.ipynb) in case you prefer to work through the tutorial without installing a virtual environment. You can learn more about Jupyter Notebook [here](http://jupyter.org). If you have created a virtual environment using Miniconda, as discussed above, you can install Jupyter Notebook in the environment by typing `conda install jupyter`
+A Jupyter Notebook containing the code used in this tutorial is also [available](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/visualizing-with-bokeh/visualizing-with-bokeh.ipynb) in case you prefer to work through the tutorial without installing a virtual environment. You can learn more about Jupyter Notebook [here](http://jupyter.org). If you have created a virtual environment using Miniconda, as discussed above, you can install Jupyter Notebook in the environment by typing `conda install jupyter`
 
 # The Basics of Bokeh
 
@@ -379,7 +386,7 @@ After the imports, we set our `output_file`  and load the thor_wwii.csv file int
 We now need to get from the 170,000+ records of individual missions to one record per attacking country with the total munitions dropped.
 
 ```python
-grouped = df.groupby('COUNTRY_FLYING_MISSION')['TOTAL_TONS', 'TONS_HE', 'TONS_IC', 'TONS_FRAG'].sum()
+grouped = df.groupby('COUNTRY_FLYING_MISSION')[['TOTAL_TONS', 'TONS_HE', 'TONS_IC', 'TONS_FRAG']].sum()
 ```
 Pandas lets us do this in a single line of code by using the `groupby` dataframe method. This method accepts a column by which to group the data and one or more aggregating methods that tell Pandas how to group the data together. The output is a new dataframe.
 
@@ -675,38 +682,42 @@ We'll also be using functions imported from the `pyproj` library. Since our coor
 {% include alert.html text="If your own dataset has place names, but not latitude and longitude, don't worry! You can find ways to easily get coordinates from place names in Programming Historian's [Geocoding Historical Data using QGIS](/lessons/geocoding-qgis) or [Web Mapping with Python and Leaflet](/lessons/mapping-with-python-leaflet#geocoding-with-python)." %}
 
 ```python
-#target_locations.py
+# target_locations.py
 import pandas as pd
 from bokeh.plotting import figure, output_file, show
 from bokeh.models import ColumnDataSource, Range1d
 from bokeh.layouts import layout
 from bokeh.palettes import Spectral3
-from bokeh.tile_providers import CARTODBPOSITRON
-from pyproj import Proj, transform
+from bokeh.tile_providers import get_provider
+from pyproj import Transformer
 output_file('mapping_targets.html')
 
-#helper function to convert lat/long to easting/northing for mapping
-#this relies on functions from the pyproj library
+# helper function to convert lat/long to easting/northing for mapping
+# this relies on functions from the pyproj library
+
+
 def LongLat_to_EN(long, lat):
     try:
-      easting, northing = transform(
-        Proj(init='epsg:4326'), Proj(init='epsg:3857'), long, lat)
-      return easting, northing
+        transformer = Transformer.from_crs('epsg:4326', 'epsg:3857')
+        easting, northing = transformer.transform(long, lat)
+        return easting, northing
     except:
-      return None, None
+        return None, None
 
-df = pd.read_csv('thor_wwii.csv')
-#helper to convert all lat/long to webmercator and stores in new column
-df['E'], df['N'] = zip(*df.apply(lambda x: LongLat_to_EN(x['TGT_LONGITUDE'], x['TGT_LATITUDE']), axis=1))
+
+df = pd.read_csv("thor_wwii.csv")
+
+
+df['E'], df['N'] = zip(
+    *df.apply(lambda x: LongLat_to_EN(x['TGT_LONGITUDE'], x['TGT_LATITUDE']), axis=1)))
 ```
 
 The boilerplate imports and our conversion function are defined. Next, we load our data and apply our conversion function to create new E and N columns that store our Web Mercator easting and northing.
 
 ```python
-grouped = df.groupby(['E', 'N'])['TONS_IC',
-'TONS_FRAG'].sum().reset_index()
+grouped = df.groupby(['E', 'N'])[['TONS_IC', 'TONS_FRAG']].sum().reset_index()
 
-filter = grouped['TONS_FRAG']!=0
+filter = grouped['TONS_FRAG'] != 0
 grouped = grouped[filter]
 
 source = ColumnDataSource(grouped)
@@ -728,7 +739,9 @@ p = figure(x_range=Range1d(left, right), y_range=Range1d(bottom, top))
 To set bounds for our map, we'll set a minimum and maximum value for our plot's `x_range` and `y_range`. We use the `Range1D` object, which represents bounded 1-dimensional data in Bokeh.
 
 ```python
-p.add_tile(CARTODBPOSITRON)
+provider = get_provider('CARTODBPOSITRON')
+p.add_tile(provider)
+
 p.circle(x='E', y='N', source=source, line_color='grey', fill_color='yellow')
 
 p.axis.visible = False
