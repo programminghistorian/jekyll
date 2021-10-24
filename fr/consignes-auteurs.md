@@ -12,7 +12,7 @@ skip_validation: true
 <h2 class="noclear">Étape 2: <a href="#étape-2-rédaction-et-mise-en-forme">rédaction et mise en forme</a></h2>
 <h2 class="noclear">Étape 3: <a href="#étape-3-soumettre-une-nouvelle-leçon">soumettre une nouvelle leçon</a></h2>  
 
-Ces consignes ont été développées pour vous permettre de comprendre comment s'organise l'écriture d'un tutoriel pour le *Programming Historian en français*. Elles fournissent des détails pratiques, des informations sur la philosophie de la revue, ses workflows et l'évaluation ouverte par les pairs. Si pour quelque raison que ce soit elles nous vous paraissent pas claires, n'hésitez pas à contacter notre rédacteur / rédactrice en chef {% include managing-editor.html lang=page.lang %}.  
+Ces consignes ont été développées pour vous permettre de comprendre comment s'organise l'écriture d'un tutoriel pour le *Programming Historian en français*. Elles fournissent des détails pratiques, des informations sur la philosophie de la revue, ses workflows et l'évaluation ouverte par les pairs. Si pour quelque raison que ce soit elles nous vous paraissent pas claires, n'hésitez pas à contacter notre rédacteur/rédactrice en chef {% include managing-editor.html lang=page.lang %}.  
 
 ## Étape 1: proposer une nouvelle leçon
 
@@ -173,10 +173,11 @@ L'utilisation d'une espace insécable fine avant le point d'exclamation est reco
 * **Guillemets français**&#x202F;: ils sont utilisés pour entourer un discours rapporté (citation, discours direct) ou pour indiquer de manière distincte un ou plusieurs mots (par exemple, un terme ou une phrase dans une autre langue). Une espace insécable suit le guillemet ouvrant et précéde le guillemet fermant &laquo;&#x202F;comme ici&#x202F;&raquo;. Des phrases entre guillemets peuvent s'imbriquer&#x202F;; dans ce cas, la première est placée entre guillemets français, la deuxième entre guillemets anglais doubles (doubles apostrophes), la troisième entre guillemets anglais simples (une paire d'apostrophes). Il est à noter que les guillemets anglais sont accolés aux mots qu'ils entourent.
 
 #### Règles d'espacement avant/après les principaux signes de ponctuation et autres symboles
-Les règles typographiques ne coïncident pas toujours entièrement entre les différents pays francophones, bien qu'elles se recoupent dans leurs grandes lignes. Merci de retenir que nous conseillons l'utilisation de l'espace insécable avec les guillemets français, devant le symbole de pourcentage et devant le deux-points. Aussi, d'insérer si possible l'espace insécable fine devant le point-virgule, le point d’exclamation et le point d’interrogation, si votre éditeur de texte le permet ou à l'aide des codes suivants:
-	* `&nbsp;` ou `&#x00A0;` pour l'espace insécable
-	* `&#x202F;` pour l'espace insécable fine
-Merci de vous référer aux [recommandations sur l'espacement](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?t1=1&id=2039) de l'Office québécois de la langue française.
+Les règles typographiques ne coïncident pas toujours entièrement entre les différents pays francophones, bien qu'elles se recoupent dans leurs grandes lignes. Merci de retenir que nous conseillons l'utilisation de l'espace insécable avec les guillemets français, devant le symbole de pourcentage et devant le deux-points. Aussi, d'insérer si possible l'espace insécable fine devant le point-virgule, le point d’exclamation et le point d’interrogation, si votre éditeur de texte le permet ou à l'aide des codes suivants&#x202F;:
+* `&nbsp;` ou `&#x00A0;` pour l'espace insécable
+* `&#x202F;` pour l'espace insécable fine
+
+Merci de vous référer aux [recommandations sur l'espacement](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?t1=1&id=2039) de l'Office québécois de la langue française. 
 
 ### Usage des majuscules  
 Les majuscules, à utiliser avec parcimonie dans la prose courante, peuvent se diviser en trois catégories&#x202F;:
@@ -238,7 +239,7 @@ Pour plus de précisions, vous pouvez consulter la banque de dépannage linguist
 *   Utiliser des notes de fin pour renvoyer aux références bibliographiques académiques, qu'elles soient électroniques ou publiées sur papier. 
 *   Si votre tutoriel a vocation d'être un tutoriel d'analyse (cf. [l'index des leçons](https://programminghistorian.org/fr/lecons/?activity=analyzing)), vous devez vous référer à la littérature savante publiée du domaine. 
 *   Pour signaler une note de fin, placer le chiffre en exposant (appel de note) à l'endroit souhaité sans espacement après le mot. Le cas échéant, veiller à ce qu'il précède un point de ponctuation et non pas qu'il le suive. Par exemple, pour insérer une note de fin imaginaire dans cette phrase, le chiffre en exposant doit se placer avant le point final comme ceci². Mais il ne peut pas être placé de cette manière.²
-*   Pour les notes de fin, merci d'utiliser le style de citation [*The Chicago Manual of Style*, 17e édition](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html).
+*   Pour les notes de fin, merci d'utiliser le style de citation [*The Chicago Manual of Style*, 17e édition](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html) adapté aux règles typographiques de la langue française.
 *  Lorsque vous mentionnez un travail publié dans le texte, fournissez le nom complet de l'auteur(e) la première fois que vous le faites. Par exemple:
     * Vous pouvez trouver plus d'informations sur ce sujet dans _Histoire et linguistique_ de Régine Robin.
     * Pour en savoir plus, merci de consulter l'ouvrage de Régine Robin _Histoire et linguistique_. 
@@ -258,7 +259,8 @@ Cette section finale couvre les questions de mise en forme nécessaires pour sou
 
 ### Écrire en Markdown 
 Toutes les leçons doivent être écrites en [Markdown](https://fr.wikipedia.org/wiki/Markdown). En voici un modèle que vous pouvez utiliser pour écrire votre leçon&#x202F;:
-- (lien fichier )
+- (lien fichier)  
+
 Markdown est un langage de balisage. Vous pouvez l'écrire facilement en utilisant un éditeur de texte de votre choix. Attention, Microsoft Word et Open Office, qui ne sont pas des éditeurs mais des traitements de texte, sont à éviter. Nous recommandons plutôt l'utilisation des éditeurs suivants&#x202F;: [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://fr.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/) ou [Notepad++](https://notepad-plus-plus.org/downloads/). Si besoin, vous pouvez consulter notre leçon introductive [Débuter avec Markdown](/fr/lecons/debuter-avec-markdown).
 
 Votre leçon doit être sauvegardée dans un fichier en format .md. Le nom de fichier définit l'URL de la leçon publiée, c'est pourquoi vous devez le nommer&#x202F;:
@@ -274,12 +276,11 @@ Votre leçon doit être sauvegardée dans un fichier en format .md. Le nom de fi
 
 #### Caractères en italique
 - Les italiques sont utilisés pour indiquer des titres, des films, des émissions de télévision, des peintures, des chansons, des albums, des sites web. 
-- Ne jamais utiliser les italiques pour indiquer les noms d'entreprises (par exemple, Facebook, Twitter...)
-Never use italics for business names (the Facebook website is owned by Facebook).
+- Ne jamais utiliser les italiques pour indiquer les noms d'entreprises (par exemple, Facebook, Twitter...).
 - La mise en italique se produit en utilisant *des paires d'astérisques*. 
 
 #### Caractères surlignés 
-Les caractères surligns ne sont pas utilisés. 
+Les caractères surlignés ne sont pas utilisés. 
 
 ### Alertes, messages importants
 Si vous souhaitez attirer l'attention des lecteurs, vous pouvez ajouter un bloc à part dans le texte&#x202F;:
@@ -320,7 +321,7 @@ Un bloc de code multilignes s'affiche de cette manière
 --
 Merci de suivre les bonnes pratiques pour écrire votre code&#x202F;:
 
-*	**Noms de variables et de fonctions**&#x202F;: préférez l'utilisation de noms pour nommer les variables (par exemple, "counter" ou compteur) et de verbes pour nommer les fonctions (par exemple, "createFile" ou creerFichier). Veillez à ne pas utiliser des signes diacritiques ou tout autre caractère qui, selon le langage que vous utilisez, pourrait provoquer des ambivalences dans la phase d'analyse syntaxique du programme. Choisissez des noms concis et signifiants sans diacritiques. Vous pouvez utiliser la convention de nommage de votre préférence, [snake_case](https://fr.wikipedia.org/wiki/Snake_case) ou [camelCase](https://fr.wikipedia.org/wiki/Camel_case), mais veillez à appliquer la même du début à la fin.
+*	**Noms de variables et de fonctions**&#x202F;: préférez l'utilisation de noms pour nommer les variables (par exemple, counter ou compteur) et de verbes pour nommer les fonctions (par exemple, createFile ou creerFichier). Veillez à ne pas utiliser des signes diacritiques ou tout autre caractère qui, selon le langage que vous utilisez, pourrait provoquer des ambivalences dans la phase d'analyse syntaxique du programme. Choisissez des noms concis et signifiants sans diacritiques. Vous pouvez utiliser la convention de nommage de votre préférence, [snake_case](https://fr.wikipedia.org/wiki/Snake_case) ou [camelCase](https://fr.wikipedia.org/wiki/Camel_case), mais veillez à appliquer la même du début à la fin.
 *	**Commande utilisateur**&#x202F;: lorsque vous souhaitez que vos lecteurs renseignent avec leurs propres informations une portion de texte, utilisez des MAJUSCULES entourés d'une paire `d'accents graves`, par exemple \`NOM D'UTILISATEUR ICI\`.
 *	**Noms de fichiers**&#x202F;: les noms de fichiers que vous demandez aux utilisateurs de créer ou d'utiliser doivent être entourés d'une paire `d'accents graves` dans le texte et écrits avec leur extension. Choisissez des noms de fichiers concis et signifiants sans diacritiques. Vous pouvez utiliser la convention de nommage de votre préférence, [snake_case](https://fr.wikipedia.org/wiki/Snake_case) ou [camelCase](https://fr.wikipedia.org/wiki/Camel_case), mais veillez à appliquer la même du début à la fin, par exemple `donnees.txt`, `nettoyerDonnees.py` etc).
 *	**Mots réservés**&#x202F;: les [mots réservés](https://fr.wikibooks.org/wiki/Cat%C3%A9gorie:Mots_r%C3%A9serv%C3%A9s) d'un langage de programmation doivent toujours être balisés comme du `code` dans un texte en utilisant une paire `d'accents graves`. Ci-dessous une liste des mots réservés de langages de programmation courants&#x202F;:
@@ -386,43 +387,6 @@ Pour ce faire, vous avez plusieurs points d'entrée - sentez-vous libre de conta
 
 * votre rédacteur ou rédactrice assigné(e) 
 * le rédacteur ou la rédactrice en chef
-* notre médiatrice indépendante ([Hélène Huet](mailto:hhuet@ufl.edu)
+* notre médiatrice indépendante ([Hélène Huet](mailto:hhuet@ufl.edu))
 
 Nous oeuvrons pour que tout se passe au mieux pour vous, mais si jamais vous estimez vous trouver dans une situation peu confortable, nous vous remercions de nous aider à y remédier et à améliorer les choses. 
-
-
-
-
-
-  [consignes aux évaluateurs et évaluatrices]: /fr/consignes-evaluateurs.html
-  [leçons publiées]: /fr/lecons
-  [TextWrangler]: http://www.barebones.com/products/textwrangler/
-  [Notepad++]: https://notepad-plus-plus.org/
-  [équipe-projet]: /fr/equipe-projet.html
-  [slug]: https://en.wikipedia.org/wiki/Semantic_URL#Slug
-  [YAML]: https://fr.wikipedia.org/wiki/YAML
-  [guide de GitHub sur Markdown]: https://guides.github.com/features/mastering-markdown/
-  [les bases de Markdown]: https://help.github.com/articles/markdown-basics
-  [Github Flavored Markdown]: https://help.github.com/articles/github-flavored-markdown
-  [le texte brut sur Github]: https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/en/author-guidelines.md
-  [éléments fournis par HTML5]: http://html5doctor.com/the-figure-figcaption-elements/
-  [exemple de pré-visualisation avec images ici]: https://github.com/programminghistorian/jekyll/commit/476f6d466d7dc4c36048954d2e1f309a597a4b87#diff-f61eee270fe5a122a0163ebf0e2f8725L28
-  [version "live" ici]: /lessons/automated-downloading-with-wget#lesson-goals
-  [tableau de syntaxe étendu]: http://kramdown.gettalong.org/syntax.html#tables
-  [pandoc]: http://johnmacfarlane.net/pandoc/
-  [fenced code blocks]: https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks
-  [pull request]: https://help.github.com/articles/using-pull-requests/
-  [GitHub pour Mac]: https://mac.github.com/
-  [GitHub pour Windows]: https://windows.github.com/
-  [créer un compte sur Github]: https://help.github.com/articles/signing-up-for-a-new-github-account/
-  [conventions de nommage spécifiées ci-dessus]: #nommer-le-fichier
-  [pull requests en attente dans notre dépôt]: https://github.com/programminghistorian/jekyll/pulls
-  [guides GitHub]: https://guides.github.com/activities/forking/
-  [réaliser un fork]: https://help.github.com/articles/fork-a-repo/
-  [tutoriels indépendants]: https://gun.io/blog/how-to-github-fork-branch-and-pull-request/
-  [Git pour les philosophes]: https://github.com/rzach/git4phi
-  [GitHub Pages]: https://pages.github.com
-  [ph-submissions]: https://github.com/programminghistorian/ph-submissions
-
- 
-
