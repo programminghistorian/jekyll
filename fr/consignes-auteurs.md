@@ -310,9 +310,7 @@ Vous pouvez insérer une image dans votre texte à l'aide de cette syntaxe&#x202
 ``` markdown
 {% include figure.html filename="IMAGE-FILENAME" caption="VOTRE TITRE, AVEC \"CODE D'ÉCHAPPEMENT\" POUR LES GUILLEMETS" %}
 ```
-
-Note that internal quotation marks in your caption must be escaped with a backslash, as in the example above. Images may not appear in previews of your lesson, but your editor will ensure they render properly when the lesson is published.
-
+{% endraw %}
 
 N'oubliez pas que les guillemets à l'intérieur des titres des figures doivent être échappés à l'aide d'une barre oblique inverse, comme dans l'exemple ci-dessus. Il est important de noter que, lorsque les images sont encodées de cette manière, elles ne sont pas visibles dans la prévisualisation de votre leçon, mais votre rédacteur ou rédactrice s'assurera qu'elles soient affichées correctement lorsque la leçon sera publiée.
 
