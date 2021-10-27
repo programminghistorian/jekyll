@@ -2,6 +2,7 @@
 title: Cleaning Data with OpenRefine
 layout: lesson
 date: 2013-08-05
+tested_date: 2021-09-10
 authors:
 - Seth van Hooland
 - Ruben Verborgh
