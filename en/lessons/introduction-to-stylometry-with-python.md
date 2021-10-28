@@ -67,7 +67,7 @@ To work through this lesson, you will need to download and unzip the archive of 
 
 This lesson uses the following Python language versions and [libraries](https://en.wikipedia.org/wiki/Library_(computing)):
 
-* [Python 3.x](https://www.python.org/downloads/) - the latest stable version is recommended
+* [Python 3.x](https://www.python.org/downloads/) - the latest stable version is recommended.
 * [nltk](https://www.nltk.org/) - Natural Language Toolkit, usually abbreviated `nltk`.
 * [matplotlib](https://matplotlib.org/)
 
