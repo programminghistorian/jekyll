@@ -259,8 +259,7 @@ Nous appliquons l'écriture inclusive suivant les consignes de l'Office québéc
 Cette section finale couvre les questions de mise en forme nécessaires pour soumettre une leçon. Merci de la lire attentivement aussi bien avant de vous lancer dans l'écriture qu'après avoir achevé votre première version. En cas d'erreur, vous pouvez toujours apporter des corrections au début du processus d'évaluation par les pairs à l'aide d'une prévisualisation de votre leçon.  
 
 ### Écrire en Markdown 
-Toutes les leçons doivent être écrites en [Markdown](https://fr.wikipedia.org/wiki/Markdown). En voici un modèle que vous pouvez utiliser pour écrire votre leçon&#x202F;:
-- (lien fichier)  
+Toutes les leçons doivent être écrites en [Markdown](https://fr.wikipedia.org/wiki/Markdown). Nous fournissons [un modèle que vous pouvez utiliser pour écrire votre leçon]({{site.baseurl}}/fr/modele-tuto.md).  
 
 Markdown est un langage de balisage. Vous pouvez l'écrire facilement en utilisant un éditeur de texte de votre choix. Attention, Microsoft Word et Open Office, qui ne sont pas des éditeurs mais des traitements de texte, sont à éviter. Nous recommandons plutôt l'utilisation des éditeurs suivants&#x202F;: [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://fr.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/) ou [Notepad++](https://notepad-plus-plus.org/downloads/). Si besoin, vous pouvez consulter notre leçon introductive [Débuter avec Markdown](/fr/lecons/debuter-avec-markdown).
 
