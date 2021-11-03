@@ -6,7 +6,7 @@ original: research
 
 ## Producción académica sobre el proyecto
 
-El equipo del proyecto y los miembros de la comunidad en general están involucrados en una serie de iniciativas académicas relacionadas con nuestro trabajo aquí en *The Programming Historian*. Estas iniciativas incluyen eventos, artículos en revistas académicas, reseñas (de nosotros por la comunidad) y carteles. Si tú estás desarrollando una investigación académica usando los materiales de este proyecto, por favor contacta con nuestra Jefa de redacción {% include managing-editor.html lang=page.lang %}.
+El equipo del proyecto y los miembros de la comunidad en general están involucrados en una serie de iniciativas académicas relacionadas con nuestro trabajo aquí en *The Programming Historian*. Estas iniciativas incluyen eventos, artículos en revistas académicas, reseñas (de nosotros por la comunidad) y carteles. Si tú estás desarrollando una investigación académica usando los materiales de este proyecto, por favor contacta con nuestra asistente de publicación <a href="mailto:anisa.hawes@icloud.com">Anisa Hawes</a>.
 
 ### Reseñas
 * Björn Ekström, Elisa Tattersall Wallin and Hana Marčetić, '[_Programming Historian_: Novice-friendly tutorials on digital methods](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1508542&dswid=7551)', _Tidskrift för ABM_, Vol. 5, no 1 (2020), pp. 71-75.

@@ -5,7 +5,7 @@ redirect_from: /research
 ---
 
 # Project Scholarship
-The project team and members of the wider community are involved in a number of scholarly initiatives related to our work here at The _Programming Historian_. These include events, journal articles, reviews (of us by the community), and posters. If you are conducting academic research using this project please contact {% include managing-editor.html lang=page.lang %}.
+The project team and members of the wider community are involved in a number of scholarly initiatives related to our work here at The _Programming Historian_. These include events, journal articles, reviews (of us by the community), and posters. If you are conducting academic research using this project please contact our publishing assistant <a href="mailto:anisa.hawes@icloud.com">Anisa Hawes</a>.
 
 ## Original Programming Historian
 * William J. Turkel and Alan MacEachern, [_The Programming Historian_](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) 1st edition (Network in Canadian History &amp; Environment: 2007-2008).
