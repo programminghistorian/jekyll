@@ -5,7 +5,7 @@ original: research
 ---
 
 # Production académique autour du projet
-L'équipe du projet et les membres de la communauté plus large qui la compose sont impliqués dans de nombreuses autres initiatives en lien avec avec le _Programming Historian_. Il s'agit notamment de manifestations scientifiques, d'articles de revues, de comptes-rendus du projet effectués par la communauté, de posters. Si vous menez des recherches académiques en s'appuyant sur notre projet, merci de contacter {% include managing-editor.html lang=page.lang %}.
+L'équipe du projet et les membres de la communauté plus large qui la compose sont impliqués dans de nombreuses autres initiatives en lien avec avec le _Programming Historian_. Il s'agit notamment de manifestations scientifiques, d'articles de revues, de comptes-rendus du projet effectués par la communauté, de posters. Si vous menez des recherches académiques en s'appuyant sur notre projet, merci de contacter notre assistante de publication [Anisa Hawes](anisa.hawes@icloud.com).
 
 ## Édition originale du Programming Historian
 * William J. Turkel et Alan MacEachern, [_The Programming Historian_](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) 1ère édition (Network in Canadian History &amp; Environment: 2007-2008).
