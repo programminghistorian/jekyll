@@ -201,7 +201,7 @@ sum(Air49)
 
 Therefore, the total number of passengers in 1949 was approximately 1,520,000.
 
-Finally, the 'length()' funciton makes it possible to discern the number of items in a vector:
+Finally, the 'length()' function makes it possible to discern the number of items in a vector:
 
 ```
 length(Air49)
