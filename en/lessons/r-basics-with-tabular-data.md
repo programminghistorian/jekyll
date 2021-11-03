@@ -112,7 +112,7 @@ R can do more than just simple arithmetic. You can create [objects](https://en.w
 
 R is case sensitive, so be careful that you use the same notation when you use the variables you have assigned (or named) in other actions. See Rasmus Bååth's article, [The State of Naming Conventions in R](https://journal.r-project.org/archive/2012-2/RJournal_2012-2_Baaaath.pdf), for more information on how to best name variables.
 
-To remove a variable from the console, type `rm()` with the variable you want to get rid of inside the brackets, and press *Enter*. To see all of the variables you have assigned, type `ls()` into the console and press *Enter* Ð this will help you avoid using the same name for multiple variables. This is also important because R stores all of the objects you create in its memory, so even if you cannot see a variable named `x` in the console, it may have been created before and you could accidentally overwrite it when assigning another variable.
+To remove a variable from the console, type `rm()` with the variable you want to get rid of inside the brackets, and press *Enter*. To see all of the variables you have assigned, type `ls()` into the console and press *Enter* - this will help you avoid using the same name for multiple variables. This is also important because R stores all of the objects you create in its memory, so even if you cannot see a variable named `x` in the console, it may have been created before and you could accidentally overwrite it when assigning another variable.
 
 Here is the list of variables we have created so far:
 
@@ -201,7 +201,7 @@ sum(Air49)
 
 Therefore, the total number of passengers in 1949 was approximately 1,520,000.
 
-Finally, the 'length()' funciton makes it possible to discern the number of items in a vector:
+Finally, the 'length()' function makes it possible to discern the number of items in a vector:
 
 ```
 length(Air49)
