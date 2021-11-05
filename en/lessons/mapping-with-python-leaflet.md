@@ -117,7 +117,7 @@ Now we're going to start building our script. We're going to go through the scri
 import geopy
 import pandas
 from geopy.geocoders import Nominatim
-# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+# versions used: geopy 2.2.0, pandas 1.3.3, python 3.7.5
 ```
 
 In the code above, we are importing the different Python libraries that we will need to use later on in our script.  We import geopy, specifically the geopy.geocoders that we will call on later which is [Nominatim](https://wiki.openstreetmap.org/wiki/Nominatim) and [Google Maps V3 API](https://developers.google.com/maps/documentation/geocoding/start), and we import pandas.
@@ -128,7 +128,7 @@ Then you want to create a function main() that reads your input CSV.
 import geopy
 import pandas
 from geopy.geocoders import Nominatim
-# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+# versions used: geopy 2.2.0, pandas 1.3.3, python 3.7.5
 
 def main():
 	io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
@@ -143,7 +143,7 @@ Next, we anticipate that when we geocode the csv we will get points in the forma
 ```python
 import geopy
 import pandas
-# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+# versions used: geopy 2.2.0, pandas 1.3.3, python 3.7.5
 
 def main():
   io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
@@ -192,7 +192,7 @@ Finally, using pandas you want to create a column in your spreadsheet called 'la
 import geopy
 import pandas
 from geopy.geocoders import Nominatim
-# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+# versions used: geopy 2.2.0, pandas 1.3.3, python 3.7.5
 
 def main():
   io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
@@ -219,7 +219,7 @@ To finish off your code, it's good practice to make your python modular, that wa
 import geopy
 import pandas
 from geopy.geocoders import Nominatim
-# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+# versions used: geopy 2.2.0, pandas 1.3.3, python 3.7.5
 
 def main():
   io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
@@ -254,7 +254,7 @@ _Tip 1: If you want to pass the filenames from the command line rather than chan
 import geopy, sys
 import pandas
 from geopy.geocoders import Nominatim
-# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+# versions used: geopy 2.2.0, pandas 1.3.3, python 3.7.5
 
 inputfile=str(sys.argv[1])
 namecolumn=str(sys.argv[2])
