@@ -78,11 +78,11 @@ GDAL and check the box beside it, and click OK.
     purposes of this example, and to keep things as simple as possible,
     don't reload your existing project but instead start a new project.
 -   Set up the [Coordinate Reference System](http://en.wikipedia.org/wiki/Spatial_reference_system) (CRS) correctly (see
-    [Installing QGIS 2.0 and adding Layers](/lessons/qgis-layers) for a reminder)
+    [Installing QGIS 2.0 and adding Layers](en/lessons/qgis-layers) for a reminder)
 -   Save this new project (under File menu, select Save Project) and
     call it 'georeferencing.'
 -   Add the 'coastline\_polygon' layer (see [Installing QGIS 2.0 and
-    adding Layers](/lessons/qgis-layers) for a reminder)
+    adding Layers](en/lessons/qgis-layers) for a reminder)
 
 ## Open the Necessary GIS Layers
 
@@ -122,7 +122,7 @@ referred to as 'Lots' in PEI. Hence the file name
 {% include figure.html filename="geo41.png" caption="Figure 4" %}
 
 For more information on adding and visualizing layers see [Installing
-QGIS 2.0 and adding Layers](/lessons/qgis-layers).
+QGIS 2.0 and adding Layers](en/lessons/qgis-layers).
 
 {% include figure.html filename="geo51.png" caption="Figure 5" %}
 
@@ -306,7 +306,7 @@ use this feature to give the new raster a different reference system.
 
 Now that you have a newly georeferenced map in your GIS you can explore
 the layer, adjust the transparency, contrast and brightness, and go back
-through [Creating New Vector Layers in QGIS](/lessons/vector-layers-qgis) to digitize some of the
+through [Creating New Vector Layers in QGIS](en/lessons/vector-layers-qgis) to digitize some of the
 historical information that you have created. For instance, this
 georeferenced map of PEI shows the locations of all homes in 1863,
 including the name of the head of household. By assigning points on the
