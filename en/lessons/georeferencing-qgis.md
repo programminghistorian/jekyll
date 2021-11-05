@@ -44,7 +44,7 @@ georeferencing is one of our most commonly used tools. The technique
 uses a series of control points to give a two-dimensional object like a
 paper map the real world coordinates it needs to align with the
 three-dimensional features of the earth in GIS software (in [Intro to
-Google Maps and Google Earth][] we saw an 'overlay' which is a Google
+Google Maps and Google Earth](/lessons/googlemaps-googleearth) we saw an 'overlay' which is a Google
 Earth shortcut version of georeferencing).
 
 Georeferencing a historical map requires a knowledge of both the
@@ -56,7 +56,7 @@ Entering control points in a GIS is easy, but behind the scenes,
 georeferencing uses complex transformation and compression processes.
 These are used to correct the distortions and inaccuracies found in many
 historical maps and stretch the maps so that they fit geographic
-coordinates. In cartography this is known as [rubber-sheeting][] because
+coordinates. In cartography this is known as [rubber-sheeting](http://en.wikipedia.org/wiki/Rubbersheeting) because
 it treats the map as if it were made of rubber and the control points as
 if they were tacks 'pinning' the historical document to a three
 dimensional surface like the globe.
@@ -77,12 +77,12 @@ GDAL and check the box beside it, and click OK.
 -   At this point, you need to shut down and relaunch QGIS. For the
     purposes of this example, and to keep things as simple as possible,
     don't reload your existing project but instead start a new project.
--   Set up the [Coordinate Reference System][] (CRS) correctly (see
-    [Installing QGIS 2.0 and adding Layers][] for a reminder)
+-   Set up the [Coordinate Reference System](http://en.wikipedia.org/wiki/Spatial_reference_system) (CRS) correctly (see
+    [Installing QGIS 2.0 and adding Layers](/lessons/qgis-layers) for a reminder)
 -   Save this new project (under File menu, select Save Project) and
     call it 'georeferencing.'
 -   Add the 'coastline\_polygon' layer (see [Installing QGIS 2.0 and
-    adding Layers][] for a reminder)
+    adding Layers](/lessons/qgis-layers) for a reminder)
 
 ## Open the Necessary GIS Layers
 
@@ -99,9 +99,7 @@ given names but rather a lot number in 1764, so they are usually
 referred to as 'Lots' in PEI. Hence the file name
 'lot\_township\_polygon'.
 
--   Navigate to the link below in your web browser, read/accept the
-    license agreement, and then download the following (they will ask
-    for your name and email before you can download the file).
+-   Navigate to the link below in your web browser and download the file.
 
 <http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP>
 
@@ -124,7 +122,7 @@ referred to as 'Lots' in PEI. Hence the file name
 {% include figure.html filename="geo41.png" caption="Figure 4" %}
 
 For more information on adding and visualizing layers see [Installing
-QGIS 2.0 and adding Layers][].
+QGIS 2.0 and adding Layers](/lessons/qgis-layers).
 
 {% include figure.html filename="geo51.png" caption="Figure 5" %}
 
@@ -143,8 +141,8 @@ select it.
 {% include figure.html filename="geo71.png" caption="Figure 7" %}
 
 -   Find the file titled 'PEI\_LakeMap1863.jpg' on your computer and
-    select Open (the file [can be downloaded here][] or in its original
-    location at the [Island Imagined][] online map repository)
+    select Open (the file [can be downloaded here](https://geospatialhistorian.files.wordpress.com/2013/02/pei_lakemap1863.jpg) or in its original
+    location at the [Island Imagined](https://islandimagined.ca/islandora/object/imagined:208687) online map repository)
 -   You will be prompted to define this layer's coordinate system. In
     the Filter box search for '2291′, then in the box below select
     'NAD83(CSRS98) / Prince Edward …'
@@ -180,7 +178,7 @@ Some tips for choosing control points:
     made.
 -   Check that your control points did not change location over time.
     Roads were often re-routed, and even houses and other buildings were
-    moved, especially [in Atlantic Canada][]!
+    moved, especially [in Atlantic Canada](http://books.google.ca/books?id=TqCNZYXWXAUC&dq=tilting&source=gbs_navlinks_s)!
 
 *Add your first control point:*
 
@@ -248,13 +246,13 @@ compress the image.
 
 Most of these settings can be left as default: linear transformation
 type, nearest neighbour resampling method, and LZW compression. (The
-[world file][] is not necessary, unless you want to georeference the
+[world file](http://en.wikipedia.org/wiki/World_file) is not necessary, unless you want to georeference the
 same image again in another GIS or if someone else needs to georeference
 the image and does not have access to your GIS data, coordinate
 reference system, etc.) The target SRS is not important, but you could
 use this feature to give the new raster a different reference system.
 
--   Assign a folder for your new georeferenced raster file. [Tif][] is
+-   Assign a folder for your new georeferenced raster file. [Tif](http://en.wikipedia.org/wiki/Tagged_Image_File_Format) is
     the default format for rasters georeferenced in QGIS.
 -   Be aware that a Tif file is going to be much larger than your original map,
 	even with LZW compression, so make sure you have adequate space if you are
@@ -263,7 +261,7 @@ use this feature to give the new raster a different reference system.
 	georeferenced raster file while maintaining a high enough resolution for
 	legibility is to crop out only the area needed for the map project. In this
 	case, a lower resolution option is also available from the [Island
-	Imagined][] online map repository.)
+	Imagined](https://islandimagined.ca/islandora/object/imagined:208687) online map repository.)
 -   Leave the target resolution at the default
 -   You can select 'Use 0 transparency when needed' to eliminate black
     spaces around the edges of the map, but this is not necessary and
@@ -308,7 +306,7 @@ use this feature to give the new raster a different reference system.
 
 Now that you have a newly georeferenced map in your GIS you can explore
 the layer, adjust the transparency, contrast and brightness, and go back
-through [Creating New Vector Layers in QGIS][] to digitize some of the
+through [Creating New Vector Layers in QGIS](/lessons/vector-layers-qgis) to digitize some of the
 historical information that you have created. For instance, this
 georeferenced map of PEI shows the locations of all homes in 1863,
 including the name of the head of household. By assigning points on the
@@ -324,20 +322,4 @@ over a DEM (digital elevation model) to give it a hillshade terrain or
 3D effect and perform a 'fly-over' of PEI homes in the nineteenth
 century.
 
-*This lesson is part of the [Geospatial Historian][].*
-
-  [Intro to Google Maps and Google Earth]: /lessons/googlemaps-googleearth
-  [rubber-sheeting]: http://en.wikipedia.org/wiki/Rubbersheeting
-  [National Topographic System Maps]: http://maps.library.utoronto.ca/datapub/digital/3400s_63_1929/maptile/Halifax/googlemaps.html
-  [1]: http://maps.library.utoronto.ca/datapub/PEI/NTS/west/
-  [2]: http://maps.library.utoronto.ca/datapub/PEI/NTS/east/
-  [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
-  [Installing QGIS 2.0 and adding Layers]: /lessons/qgis-layers
-  [can be downloaded here]: http://geospatialhistorian.files.wordpress.com/2013/02/pei_lakemap1863.jpg
-  <!--- [Island Imagined]: http://www.islandimagined.ca/fedora/repository/imagined%3A208687 --->
-  [Island Imagined]: https://web.archive.org/web/20180922004858/http://www.islandimagined.ca:80/fedora/repository/imagined:208687
-  [in Atlantic Canada]: http://books.google.ca/books?id=TqCNZYXWXAUC&dq=tilting&source=gbs_navlinks_s
-  [world file]: http://en.wikipedia.org/wiki/World_file
-  [Tif]: http://en.wikipedia.org/wiki/Tagged_Image_File_Format
-  [Creating New Vector Layers in QGIS]: /lessons/vector-layers-qgis
-  [Geospatial Historian]: http://geospatialhistorian.wordpress.com/
+*This lesson is part of the [Geospatial Historian](http://geospatialhistorian.wordpress.com/).*
