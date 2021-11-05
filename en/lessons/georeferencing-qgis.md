@@ -141,7 +141,7 @@ select it.
 {% include figure.html filename="geo71.png" caption="Figure 7" %}
 
 -   Find the file titled 'PEI\_LakeMap1863.jpg' on your computer and
-    select Open (the file [can be downloaded here](http://geospatialhistorian.files.wordpress.com/2013/02/pei_lakemap1863.jpg) or in its original
+    select Open (the file [can be downloaded here](https://geospatialhistorian.files.wordpress.com/2013/02/pei_lakemap1863.jpg) or in its original
     location at the [Island Imagined](https://islandimagined.ca/islandora/object/imagined:208687) online map repository)
 -   You will be prompted to define this layer's coordinate system. In
     the Filter box search for '2291′, then in the box below select
