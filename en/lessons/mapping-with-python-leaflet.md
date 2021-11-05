@@ -156,15 +156,15 @@ def get_longitude(x):
 ```
 Next, select the geolocator you want to use.  Here we're creating two geolocators: Open Street Map's Nominatim and Google's Geocoding API.  Here's a quick comparison:
 
-| Geolocator                       | Nominatim()                                                                 | GoogleV3()                                                                          |
-| -------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| affiliation                      | OpenStreetMap                                                               | Google                                                                              |
-| application use                  | single-threaded applications, can only run geolocator one process at a time | can upgrade for better performance                                                  |
-| capabilities for app development | can geocode based on user-input                                             | only geocodes static addresses (Google's non-static geocoding service not in geopy) |
-| request limit                    | 1 request/s or timeout                                                      | 5 requests/s, 2500/day                                                              |
-| performance test on census data  | 33.5s                                                                       | 11.6s                                                                               |
+| Geolocator                       | Nominatim()                                                                 | 
+| -------------------------------- | --------------------------------------------------------------------------- |
+| affiliation                      | OpenStreetMap                                                               | 
+| application use                  | single-threaded applications, can only run geolocator one process at a time | 
+| capabilities for app development | can geocode based on user-input                                             | 
+| request limit                    | 1 request/s or timeout                                                      | 
+| performance test on census data  | 33.5s                                                                       | 
 
-You can also choose a different geolocator from the list found in [the geopy documentation](http://geopy.readthedocs.org/). For more information about choosing geolocators, you can follow the discussion in the [geopy repository on Github](https://github.com/geopy/geopy/issues/90).
+You can also choose a different geolocator from the list found in [the geopy documentation](http://geopy.readthedocs.org/). GoogleV3 is a geocoder compatible with geopy, it is a reliable geolocator choice because of their large geographic data coverage. However, since July 2018 an API key is required, and you need to enable billing in Google Cloud to use it. For more information about choosing geolocators, you can follow the discussion in the [geopy repository on Github](https://github.com/geopy/geopy/issues/90).
 
 To use a geolocator, import them and assign a variable name (in this case we use the name geolocator):
 
