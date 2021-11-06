@@ -15,11 +15,11 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/366
 difficulty: 2
 activity: transforming
 topics:
-- data-manipulation
-- website
+  - data-manipulation
+  - website
 abstract: "Esta lección (la primera de dos partes) te enseña los rudimentos de TEI-XML para codificar textos."
 doi: 10.46430/phes0053
-avatar_alt: Grabado de un corte transversal de suelo con sus etiquetas corrspondientes.
+avatar_alt: Grabado de un corte transversal de suelo con sus etiquetas correspondientes.
 ---
 
 {% include toc.html %}
@@ -380,4 +380,4 @@ En la segunda parte, que pronto será publicada, verás en detalle dos ejemplos 
 
 - La página [TTHUB](https://tthub.io) contiene una excelente ["Introducción a la Text Encoding Initiative"](https://tthub.io/aprende/introduccion-a-tei/) por Susanna Allés Torrent (2019).
 
-- Una lección introductoria de Programming Hstorian a XML y las transformaciones XSL es [*Transformación de datos con XML y XSL para su reutilización*](/es/lecciones/transformacion-datos-xml-xsl), de M. H. Beals.
+- Una lección introductoria de Programming Historian a XML y las transformaciones XSL es [*Transformación de datos con XML y XSL para su reutilización*](/es/lecciones/transformacion-datos-xml-xsl), de M. H. Beals.
