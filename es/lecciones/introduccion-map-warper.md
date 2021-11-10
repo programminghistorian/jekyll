@@ -5,6 +5,7 @@ authors:
    - Anthony Picón Rodríguez
    - Miguel Cuadros
 date: 2020-07-11
+tested_date: 2021-11-02
 reviewers:
 - José Luis Losada
 - Riva Quiroga
