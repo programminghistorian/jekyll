@@ -23,6 +23,10 @@ doi: 10.46430/phes0048
 
 {% include toc.html %}
 
+<div class="alert alert-info" role="alert">
+    A partir de abril de 2021, <a href="https://www.nypl.org/digital-research/projects/map-warper">la NYPL dejará de actualizar Mapwarper</a>, y este quedará archivado. Esto significa que todas las vistas incorporadas (embedded) que utilicen Mapwarper dejarán de funcionar una vez que la página sea archivada. Sin embargo, todas las contribuciones y datos han sido guardadas por la Biblioteca para usos e investigaciones futuras.
+</div>
+
 ## La herramienta de Map Warper
 
 [Map Warper](https://mapwarper.net/) es una herramienta de código abierto, acceso libre, desarrollada y soportada, desde 2008, por [Tim Waters](https://thinkwhere.wordpress.com/), para georreferenciar y visualizar imágenes de áreas geográficas sin necesidad de instalar un programa informático. La herramienta es implementada en distintos proyectos digitales, de distintas instituciones del mundo y utilizada por diversos profesionales no especializados en el campo de la cartografía.
@@ -71,6 +75,11 @@ En este paso se añaden los metadatos a la imagen cargada. Si bien esto es opcio
 La pestaña “Metadata” visualiza la información cumplimentada en la etapa de Upload Map y Edit. Se recomienda vincular la mayor cantidad de información del recurso compartido, para que otros usuarios de la herramienta cuenten con datos sobre el contenido.
 
 ## Georreferenciación
+
+<div class="alert alert-warning" role="alert">
+  Desde que Mapwarper fue archivado por la NYPL, ya no es posible añadir un mapa base.
+</div>
+
 En este tutorial explicaremos el proceso de georreferenciación con el [Mapa Cafetero de la República de Colombia](http://catalogoenlinea.bibliotecanacional.gov.co/custom/web/content/mapoteca/fmapoteca_984_figac_16/fmapoteca_984_figac_16.html) de la Mapoteca Digital de la Biblioteca Nacional de Colombia. El documento cartográfico lo publicó la Federación Nacional de Cafeteros de Colombia en 1933, en una época en donde el café era la industria agrícola rectora de la economía colombiana, como resultado del primer censo cafetero del país realizado en 1932.
 
 Recordamos que en caso de no tener cargada cartografía alguna, se podrá utilizar los mapas del siguiente listado, y en caso de recurrir al [listado](/assets/map-warper.csv) resaltar el mapa seleccionado en el interior del listado.
@@ -165,6 +174,11 @@ Esta pestaña permite visualizar los resultados ejecutados del paso *Rectify*. E
 
 ## Visualización
 ### Exportar
+
+<div class="alert alert-warning" role="alert">
+  Desde que Mapwarper fue archivado por la NYPL, los siguientes formatos de exportación ya no están disponibles: Tiles, Bibliographic Links, Bibliographic.
+</div>
+
 La pestaña *Export* permite descargar el mapa georreferenciado en diferentes formatos estándar para su visualización en Sistemas de Información Geográfica (SIG). Los formatos que permite exportar la herramienta se agrupan en tres categorías:
 
 - Images: GeoTiff, PNG rectificado. Estos formatos agregan coordenadas geográficas y un sistema de proyección al documento cartográfico, permitiendo enlazar el documento georreferenciado a un SIG. Se recomienda utilizar estos formatos para trabajar en computadoras sin conectividad o baja conectividad a Internet.
