@@ -115,8 +115,7 @@ to execute your program. If you are using BBEdit, click on the
 “\#!” button and Run. If all went well, it should look something like
 this:
 
-![BBEdit-hello-world](https://raw.githubusercontent.com/programminghistorian/jekyll/bc4c0f1398f54adb1add6bb156756212c28e8f78/images/BBEdit-hello-world.png)
-“Hello World” in Python on a Mac
+{% include figure.html filename="BBEdit-hello-world.png" caption="\“Hello World\” in Python on a Mac"%}
 
 ### Interacting with a Python shell
 
@@ -151,8 +150,7 @@ print('hello world')
 
 On your screen, it will look more like this:
 
-![hello world terminal on a Mac](https://raw.githubusercontent.com/programminghistorian/jekyll/bc4c0f1398f54adb1add6bb156756212c28e8f78/images/hello-world-terminal.png)
-Python Shell in Mac Terminal
+{% include figure.html filename="hello-world-terminal.png" caption="Python Shell in Mac Terminal" %}
 
 Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
