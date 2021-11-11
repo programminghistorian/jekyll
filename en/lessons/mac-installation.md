@@ -115,7 +115,7 @@ to execute your program. If you are using BBEdit, click on the
 “\#!” button and Run. If all went well, it should look something like
 this:
 
-{% include figure.html filename="BBEdit-hello-world.png" caption="\"Hello World\" in Python on a Mac"%}
+{% include figure.html filename="BBEdit-hello-world.png" caption=" \"Hello World\" in Python on a Mac"%}
 
 ### Interacting with a Python shell
 
