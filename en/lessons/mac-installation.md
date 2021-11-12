@@ -49,7 +49,7 @@ drive.
 
 There are many text editors that you can use to write, store, and run Python commands. Komodo Edit is the one used in this lesson. It is a free and open source code editor. If you prefer to use
 another editor, there are many [other text editing options][]. Some of our
-testers prefer a program called [TextWrangler][]. Which you use is up to
+testers prefer a program called [BBEdit][]. Which you use is up to
 you, but for the sake of consistency in our lessons, we will be using
 Komodo Edit. You can download a copy of Komodo Edit from the [Komodo
 Edit website][]. Install it from the `.DMG` file
@@ -111,12 +111,11 @@ print('hello world')
 ```
 
 Your chosen text editor should have a “`Run`” button that will allow you
-to execute your program. If you are using TextWrangler, click on the
+to execute your program. If you are using BBEdit, click on the
 “\#!” button and Run. If all went well, it should look something like
 this:
 
-![TextWrangler-hello-world](https://raw.githubusercontent.com/programminghistorian/jekyll/bc4c0f1398f54adb1add6bb156756212c28e8f78/images/TextWrangler-hello-world.png)
-“Hello World” in Python on a Mac
+{% include figure.html filename="BBEdit-hello-world.png" caption="'Hello World' in Python on a Mac" %}
 
 ### Interacting with a Python shell
 
@@ -151,8 +150,7 @@ print('hello world')
 
 On your screen, it will look more like this:
 
-![hello world terminal on a Mac](https://raw.githubusercontent.com/programminghistorian/jekyll/bc4c0f1398f54adb1add6bb156756212c28e8f78/images/hello-world-terminal.png)
-Python Shell in Mac Terminal
+{% include figure.html filename="hello-world-terminal.png" caption="Python Shell in Mac Terminal" %}
 
 Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
@@ -162,6 +160,6 @@ order, we suggest you next try '[Understanding Web Pages and HTML][].'
   [Python website]: http://www.python.org/
   [Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/
   [other text editing options]: http://wiki.python.org/moin/PythonEditors/
-  [TextWrangler]: http://www.barebones.com/products/textwrangler/
+  [BBEdit]: https://www.barebones.com/products/bbedit/
   [Komodo Edit website]: http://www.activestate.com/komodo-edit
   [Understanding Web Pages and HTML]: /lessons/viewing-html-files

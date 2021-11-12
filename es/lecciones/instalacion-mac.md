@@ -53,7 +53,7 @@ Descarga la más reciente versión de [Beautiful Soup] y cópiala en el director
 
 ### Instalar Komodo Edit
 
-Komodo Edit es un editor de texto que sirve para programación, es *software* libre y de código fuente abierto. Pero como se indicó en la introducción, se pueden utilizar [otras opciones de editores de texto]. Algunos colegas prefieren un programa llamado [TextWrangler]. El que decidas utilizar queda a gusto tuyo, pero en aras de conservar la coherencia en estas lecciones se utilizará aquí como ejemplo Komodo Edit. Puedes descargar una copia libre del editor desde el [sitio web de Komodo Edit]. Se puede descargar desde el sitio web de Komodo e instalar fácilmente desde el archivo `.DMG`.
+Komodo Edit es un editor de texto que sirve para programación, es *software* libre y de código fuente abierto. Pero como se indicó en la introducción, se pueden utilizar [otras opciones de editores de texto]. Algunos colegas prefieren un programa llamado [BBEdit]. El que decidas utilizar queda a gusto tuyo, pero en aras de conservar la coherencia en estas lecciones se utilizará aquí como ejemplo Komodo Edit. Puedes descargar una copia libre del editor desde el [sitio web de Komodo Edit]. Se puede descargar desde el sitio web de Komodo e instalar fácilmente desde el archivo `.DMG`.
 
 #### Inicia Komodo Edit
 
@@ -95,13 +95,13 @@ print('hola mundo')
 ```
 El editor de texto que seleccionaste debe tener un botón "`run`" que te permitirá ejecutar tu programa. Por ejemplo, si estás utilizando TextWrangler, haz clic en el botón "`#!`" para ejecutarlo. Si todo funciona bien (es posible que no, con lo cual habrá que revisar las diversas instalaciones y configuraciones), deberás ver algo como sigue:
 
-{% include figure.html filename="TextWrangler-hello-world.png" caption="'Hello World' en Python en una Mac" %}
+{% include figure.html filename="BBEdit-hola-mundo.png" caption="'Hola Mundo' en Python en una Mac" %}
 
 ### Interactuar con el intérprete de comandos (*shell*) de Python
 
 Otra manera de interactuar con un intérprete es usando lo que se conoce como *shell* o intérprete de comandos. Se puede escribir en una declaración y oprimir la tecla Enter, y el *shell* responderá a tus comandos. Utilizar un *shell* es una excelente forma de comprobar que la construcción de tus declaraciones es adecuada al asegurarte que hace lo que tu piensas que debería hacer. Esto se puede hacer de maneras un tanto distintas en las diversas plataformas (Mac, Windows o Linux).
 
-Puedes ejecutar un *shell* de Python iniciando Terminal. En la Mac, abre el Finder, haz doble click en  `Aplicaciones -> Utilidades -> Terminal`. Escribe "`python`" en la ventana que se abre en tu pantalla y oprime la tecla Enter. Ante el *shell prompt* de Python escribe:
+Puedes ejecutar un *shell* de Python iniciando Terminal. En la Mac, abre el Finder, haz doble click en  `Aplicaciones -> Utilidades -> Terminal`. Escribe "`python3`" en la ventana que se abre en tu pantalla y oprime la tecla Enter. Ante el *shell prompt* de Python escribe:
 
 ```python
 print('Hola Mundo')
@@ -122,7 +122,7 @@ print('Hola Mundo')
 
 En la pantalla de tu computadora aparecerá de esta manera:
 
-{% include figure.html filename="hello-world-terminal.png" caption="Intérprete de comandos de Python en Terminal de Mac" %}
+{% include figure.html filename="hola-mundo-terminal.png" caption="Intérprete de comandos de Python en Terminal de Mac" %}
 
 Para salir del shell de Python en Terminal debes escribir en el prompt shell:
 
@@ -137,6 +137,6 @@ Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos 
 [sitio web de Python]: https://www.python.org
 [Beautiful Soup]: https://www.crummy.com/software/BeautifulSoup/
 [otras opciones de editores de texto]: https://wiki.python.org/moin/PythonEditors/
-[TextWrangler]: http://www.barebones.com/products/textwrangler/
+[BBEdit]: https://www.barebones.com/products/bbedit/
 [sitio web de Komodo Edit]: http://komodoide.com/komodo-edit/
 [Para entender páginas web y HTML]: /es/lecciones/ver-archivos-html
