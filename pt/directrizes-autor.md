@@ -42,7 +42,7 @@ Estas estão organizadas em três seções que devem ser lidas antes e depois de
 * C. Directrizes de formatação
 
 ## A. Estilo e público
-Esta primeira seção trata de questões gerais sobre o estilo, que ajudarão a tomar decisões que tenham em conta as necessidades do público e dos editores. Temos informações básicas sobre o estilo e o tom da lição, acesso aberto e valores de código aberto, informações sobre como escrever  para um público geral, sustentabilidade das lições e escolhas inteligentes sobre as fontes de dados a utilizar. Leia esta seção quando planejar a lição e, novamente, antes de a enviar para garantir que cumpre os requisitos.
+Esta primeira seção trata de questões gerais sobre o estilo, que ajudarão a tomar decisões que tenham em conta as necessidades do público e dos editores. Temos informações básicas sobre o estilo e o tom da lição, acesso aberto e valores de código aberto, informações sobre como escrever para um público geral, sustentabilidade das lições e escolhas inteligentes sobre as fontes de dados a utilizar. Leia esta seção quando planejar a lição e, novamente, antes de a enviar para garantir que cumpre os requisitos.
 
 ### Idioma e estilo
 *	As lições não devem exceder 8.000 palavras (incluindo código).
@@ -54,12 +54,12 @@ Esta primeira seção trata de questões gerais sobre o estilo, que ajudarão a 
 ### Código aberto, Acesso aberto
 O *Programming Historian em português* está comprometido com os valores de código aberto. Todas as lições devem usar linguagens de programação e softwares livres sempre que possível. O objetivo é minimizar os custos e permitir aumentar a participação o máximo possível.
 
-Depois da lição ser aceita, o autor deve concordar com a sua publicação sob uma licença Creative Commons "[CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en)".
+Depois da lição ser aceite, o autor deve concordar com a sua publicação sob uma licença Creative Commons "[CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en)".
 
 ### Escrever para um público geral
 Os leitores do *Programming historian* vivem em todo o mundo. Os autores podem e devem tomar medidas para escrever a lição de forma acessível para o maior número de pessoas possível. Siga estas directrizes gerais:
 
-*	Escrever para alguém que não mora no mesmo país ou que não partilha das mesmas crenças.
+*	Escreva para alguém que não more no mesmo país ou que não partilhe das mesmas crenças.
 
 *	**Termos técnicos:**  devem ser sempre apresentados com um link para a [Wikipedia](https://www.wikipedia.org/), para um dicionário de confiança ou site sustentável em primeira instância. Um termo técnico é qualquer palavra que não seja do conhecimento geral das pessoas, algo que alguém possa não conhecer ou entender.
 *	**Referências Culturais**: referências a pessoas, organizações ou detalhes históricos devem sempre vir com informações de contexto. Não se pode assumir que o leitor tem conhecimento prévio, mesmo de referências culturais  muito conhecidas (como os [Beatles](https://en.wikipedia.org/wiki/The_Beatles)). É melhor utilizar termos genéricos ao invés de marcas comerciais (lencinhos em vez de Kleenex). Os links para a [Wikipedia](https://www.wikipedia.org/) devem ser usados para contexto. Esteja ciente de que eventos históricos muitas vezes têm nomes diferentes em países diferentes.
@@ -73,9 +73,9 @@ Os leitores do *Programming historian* vivem em todo o mundo. Os autores podem e
 O *Programming historian em português* publica lições que estarão disponíveis a longo prazo e que sejam sustentáveis. Por favor, siga estas directrizes de sustentabilidade ao escrever:
 
  *	**Ser tão geral quanto possível, mas não demasiado**: foque em metodologias e generalidades, não em detalhes do software/interface (por exemplo, evite dizer aos usuários para "clicar no botão X", que podem ser diferentes em versões futuras).
- *	**Diminuir a dependência de elementos insustentáveis**: usar um número moderado de capturas de tela. As interfaces dos programas mudam com frequência e os futuros leitores podem ficar confusos quando não corresponder à versão deles. Escolher links externos com preocupações futuras em mente. O website muda com frequência? Será que existirá  daqui a dez anos?
- *	**Especificar as versões se importantes**: ser claro sobre qualquer detalhe específico da versão que os leitores precisarão saber para acompanhar a lição. Por exemplo, é necessário ser Python v.2 ou qualquer versão serve?
- *	**Referir documentação**: direcionar os leitores para documentação de confiança sempre que possível. Fornecer uma orientação geral sobre como encontrar a documentação futuramente, para o caso de aparecerem novas versões no futuro.
+ *	**Diminuir a dependência de elementos insustentáveis**: use um número moderado de capturas de tela. As interfaces dos programas mudam com frequência e os futuros leitores podem ficar confusos quando não corresponder à versão deles. Escolha links externos com preocupações futuras em mente. O website muda com frequência? Será que existirá  daqui a dez anos?
+ *	**Especificar as versões se importantes**: seja claro sobre qualquer detalhe específico da versão que os leitores precisarão saber para acompanhar a lição. Por exemplo, é necessário ser Python v.2 ou qualquer versão serve?
+ *	**Referir documentação**: direcione os leitores para documentação de confiança sempre que possível. Forneça uma orientação geral sobre como encontrar a documentação futuramente, para o caso de aparecerem novas versões no futuro.
  *	**Cópias de dados**: todos os dados usados nas lições devem ser publicados com a lição nos servidores do *Programming Historian em português*. O direito legal de utilizar e publicar os dados deve estar assegurado. Os ficheiros de dados devem ser em formatos abertos.
 
 Os autores devem consultar a [política de remoção das lições]({{site.baseurl}}/pt/licoes-politica-remocao) para obter informações sobre como a equipe editorial administra as lições que se tornam desatualizadas.
@@ -84,27 +84,27 @@ Os autores devem consultar a [política de remoção das lições]({{site.baseur
 Esta segunda seção é sobre questões mais específicas de estilo de escrita, tais como quais palavras usar, como utilizar a pontuação ou que formato adotar para datas ou números. Leia esta seção antes e depois de escrever seu texto.
 
 ### Datas e Tempo
- *	Para os séculos, usar século XVIII e não século dezoito ou século 18. Evite frases centradas no nacional, como "longo século dezoito", que têm significado específico para os especialistas do século dezoito britânico, mas não para qualquer outra pessoa.
- *	Para décadas, escrever “década de 50” ou “década de 1950” (não “1950s”, "os 1950s" ou "os cinquenta").
- *	Não comprimir sequências de datas: usar 1816-1819 em vez de 1816-19 ou 1816-9.
- *	Para datas escritas em forma numérica, utilizar o formato AAAA-MM-DD, que está em conformidade com a norma ISO 8601:2004. Isso evita ambiguidade.
- *	Usar AC/DC e não BCE/CE ou BC/AD para datas (ex. 325 AC).
- *	Usar 17 horas ou 17:30 em vez de 5pm ou 5:30pm. 
+ *	Para os séculos, use século XVIII e não século dezoito ou século 18. Evite frases centradas no contexto nacional, como "longo século dezoito", que têm significado específico para os especialistas do século dezoito britânico, mas não para qualquer outra pessoa.
+ *	Para décadas, escreva “década de 50” ou “década de 1950” (não “1950s”, "os 1950s" ou "os cinquenta").
+ *	Não comprima sequências de datas: use 1816-1819 em vez de 1816-19 ou 1816-9.
+ *	Para datas escritas em forma numérica, utilize o formato AAAA-MM-DD, que está em conformidade com a norma ISO 8601:2004. Isso evita ambiguidade.
+ *	Use AC/DC e não BCE/CE ou BC/AD para datas (ex. 325 AC).
+ *	Use 17 horas ou 17:30 em vez de 5pm ou 5:30pm. 
 
 ### Números
- *	Escrever por extenso os números de um a nove.
- *	Usar um formato consistente se o limite acima for cruzado em uma única frase (cinco maçãs e cem laranjas; 5 maçãs e 100 laranjas).
- *	Utilizar pontos entre grupos de três dígitos em grandes números (32.904 e não 32904). Exceções: números de páginas, endereços, entre aspas, etc.
- *	Usar numerais para versões (versão 5 ou v.5) ou valores reais (por exemplo, 5%, 7″, $6.00).
- *	Usar sempre o símbolo % com numerais ao invés da palavra “por cento” e verificar  se o número está fechado: 0,05%.
- *	Usar a formatação LaTeX para fórmulas matemáticas.
- *	Para unidades de medida, usar o sistema métrico.
+ *	Escreva por extenso os números de um a nove.
+ *	Use um formato consistente se o limite acima for cruzado em uma única frase (cinco maçãs e cem laranjas; 5 maçãs e 100 laranjas).
+ *	Utilize pontos entre grupos de três dígitos em grandes números (32.904 e não 32904). Exceções: números de páginas, endereços, entre aspas, etc.
+ *	Use numerais para versões (versão 5 ou v.5) ou valores reais (por exemplo, 5%, 7″, $6.00).
+ *	Use sempre o símbolo % com numerais ao invés da palavra “por cento” e verifique  se o número está fechado: 0,05%.
+ *	Use a formatação LaTeX para fórmulas matemáticas.
+ *	Para unidades de medida, use o sistema métrico.
 
 ### Cabeçalhos 
-Os cabeçalhos não devem conter fontes de código embutido ou formatação de estilo como negrito ou itálico. Devem sempre preceder imediatamente o corpo do texto. Não colocar a seguir ao título um aviso ou outro título sem antes inserir uma nota introdutória.
+Os cabeçalhos não devem conter fontes de código embutido ou formatação de estilo como negrito ou itálico. Devem sempre preceder imediatamente o corpo do texto. Não coloque a seguir ao título um aviso ou outro título sem antes inserir uma nota introdutória.
 
 ### Listas
-Normalmente, utilizamos listas numeradas e listas com marcadores. Os itens das listas são limitados a frases. Devem ser tratados como itens separados, não aparecendo junto de pontuação ou conjunções.
+Normalmente, utilizamos listas numeradas e listas com marcadores. Os itens das listas são limitados a frases. Devem ser tratados como itens separados, sem pontuação ou conjunções.
 
 NÃO faz parte do estilo:
 
@@ -125,28 +125,28 @@ Ou:
 3. Aqui está o item final
 
 ### Pontuação
- *	**Abreviação**: escrever todas as palavras por extenso, na primeira menção. União Europeia (UE) e depois UE. Não utilize pontos ou espaços entre as iniciais: BBC, PhD, mph, 4am, etc.
+ *	**Abreviação**: escreva todas as palavras por extenso, na primeira menção. União Europeia (UE) e depois UE. Não utilize pontos ou espaços entre as iniciais: BBC, PhD, mph, 4am, etc.
  *	**Ampersand**: em geral, não utilize um ampersand (eitza ou sinal tironiano) no lugar da conjunção aditiva "e" a menos que se refira a uma empresa ou publicação que a utilize: P&O, Past & Present.
- *	**Aspas/Parênteses**: é melhor usar vírgulas ou travessões. Utilizar parênteses para introduzir explicações numa citação direta, por exemplo: Ele disse: "Quando terminado (o túnel) vai revolucionar a viagem" ou "Ela disse adiós (adeus)". Coloque reticências ou um ponto final fora da aspa final se o material dentro não for uma frase. (Mas uma frase independente tem um ponto final antes do parêntese de fechamento).
- *	**Dois pontos**: utilizar para introduzir listas, tabulações, textos, como em:
+ *	**Parênteses/Parênteses Retos/Chaves**: é melhor usar vírgulas ou travessões. Utilize parênteses para introduzir explicações numa citação direta, por exemplo: Ele disse: "Quando terminado (o túnel) vai revolucionar a viagem" ou "Ela disse adiós (adeus)". Coloque reticências ou um ponto final fora do parêntese final se o material dentro não for uma frase. (Mas uma frase independente tem um ponto final antes do parêntese de fechamento.)
+ *	**Dois pontos**: utilize para introduzir listas, tabulações, textos, como em:
     *	O comitê recomenda: estender o horário de licenciamento até à meia-noite; permitir que as crianças estejam em locais licenciados; relaxar o controlo de planeamento em novas casas públicas.
-    *	Utilizar após o nome de um orador para uma frase inteira citada: o Sr. James Sherwood, presidente da Sealink, disse: "Nós temos..."
-    *	Iniciar em minúscula a primeira letra após os dois pontos: é assim que nós fazemos.
+    *	Utilize após o nome de um orador para citar uma frase inteira: o Sr. James Sherwood, presidente da Sealink, disse: "Nós temos..."
+    *	Inicie em minúscula a primeira letra após os dois pontos: é assim que nós fazemos.
  *	**Vírgula**: vírgula sequencial (esta, aquela e a outra).
  *	**Travessão**: útil para usar ao invés de vírgulas, mas não mais do que um par por frase.
- *	**Reticências**: três pontos separados das palavras anteriores e seguintes por um espaço (... ). Use para condensar uma citação direta (assim a citação "as pessoas sentadas nesta sala de reunião merecem um acordo melhor" torna-se "as pessoas... merecem um acordo melhor").
- *	**Ponto de exclamação**: usar somente no final de uma citação direta quando estiver claro que a observação é exclamativa, por exemplo "Eu odeio a intolerância!"
+ *	**Reticências**: três pontos separados das palavras anteriores e seguintes por um espaço ( ... ). Use para condensar uma citação direta (assim a citação "as pessoas sentadas nesta sala de reunião merecem um acordo melhor" torna-se "as pessoas ... merecem um acordo melhor").
+ *	**Ponto de exclamação**: use somente no final de uma citação direta quando estiver claro que a observação é exclamativa, por exemplo "Eu odeio a intolerância!"
  *	**Ponto final**: as frases devem ser curtas, claras e diretas. Mas não coloque pontos entre as iniciais, após o título do status (Mx, Dr) ou entre abreviações (EU).
- *	**Hífen**: usar para evitar ambiguidade ou para formar uma única ideia a partir de duas ou mais palavras:
+ *	**Hífen**: use para evitar ambiguidade ou para formar uma única ideia a partir de duas ou mais palavras:
     *	Para frações: dois-terços.
     *	Para a maior parte das palavras que começam com anti ou neo.
     *	Para alguns títulos (diretor-geral, secretário-geral, mas não para Procurador Geral,  coordenador geral etc.). A regra é adotar o uso da autoridade conforme ela mesma criou.
- *	**Aspas**: usar aspas retas "..." ou '..' (e não aspas curvas) para citações diretas. Usar tanto as aspas simples quanto as aspas duplas, mas seja consistente. 
+ *	**Aspas**: use aspas retas "..." ou '...' (e não aspas curvas) para citações diretas. Usar tanto as aspas simples quanto as aspas duplas, mas seja consistente. 
 
 ### Maiúsculas
 A orientação é que seja utilizada com moderação no texto em prosa. Regras específicas: 
 
-*	**Em títulos**: cabeçalhos e títulos de livros devem usar maiúsculas para iniciar as palavras: "Preparar os Dados para Análise"; *Não Serás um Estranho*, etc.
+*	**Em títulos**: cabeçalhos e títulos de livros devem usar maiúsculas para iniciar nomes, pronomes, verbos, advérbios e adjetivos, mas não artigos e preposições : "Preparar os Dados para Análise"; *Não Serás um Estranho*, etc.
 *	**Sempre em maiúscula**:
     *	**Nomes Próprios**: William J. Turkel – a não ser que a pessoa escolha que o seu nome seja escrito de outra forma (ex. "bell hooks").
     *	**Organizações Culturais, Artísticas e Governamentais, etc**: Museu da Imagem e do Som, Casa de Anne Frank, Agency for Global Media, Nações Unidas. 
@@ -164,20 +164,20 @@ A orientação é que seja utilizada com moderação no texto em prosa. Regras e
     *	**Moedas**: euro, dólar, libra, real, etc.
 
 ### Referências
-*	Links, em vez de notas de fim, podem ser apropriados na maioria dos casos.
-*	Certificar-se que as frases com links são semanticamente significativas. Não link termos significativos apenas para usuários com visão, como "clique aqui".
-*	Toda a literatura tradicionalmente publicada e académica deve ser anotada no final em vez de fornecido um link.
+*	Links, em vez de notas de fim, podem ser adequados na maioria dos casos.
+*	Certifique-se que as frases com links são semanticamente significativas. Não link termos significativos apenas para leitores com visão, como "clique aqui".
+*	Toda a literatura tradicionalmente publicada e académica deve ser incluída em notas de fim, em vez de fornecido um link.
 *	Se escrever um tutorial de "análise", deve consultar a literatura académica publicada.
 *	Os sobrescritos da nota de fim devem estar fora da pontuação final desta forma.² Não dentro desta forma².
 *	Usar o sistema de "Notas e Bibliografia" do [*The Chicago Manual of Style*, 17th Edition](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html) para notas de fim. 
 *	Na primeira menção a um trabalho publicado, incluir o nome do autor (primeiro/sobrenome). Por exemplo, "Pode encontrar mais informações em *The Elements of Typographic Style* de Robert Bringhurst," ou "Para obter mais informações, consulte *The Elements of Typographic Style* de Robert Bringhurst." Nas referências subsequentes, basta usar o título do livro. Os nomes dos autores podem ser encurtados para sobrenome apenas no uso subsequente.
-*	As notas de fim não devem conter apenas uma URL.
+*	As notas de fim não devem conter apenas um URL.
     *	(Correto): Grove, John. "Calhoun and Conservative Reform." American Political Thought 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
     *	(Incorreto): https://doi.org/10.1086/680389
 
 
 ## C. Directrizes de formatação
-Esta seção final aborda questões de formatação para envio. Leia esta seção antes e depois de escrever o seu rascunho. Se errar alguns destes elementos, poderá corrigi-los quando publicarmos uma visualização online da lição no início do processo de revisão por pares.
+Esta seção final aborda questões de formatação para a submissão. Leia esta seção antes e depois de escrever o seu rascunho. Se errar alguns destes elementos, poderá corrigi-los quando publicarmos uma visualização online da lição no início do processo de revisão por pares.
 
 ### Escrever em Markdown
 Todas as lições devem ser escritas em [Markdown](https://en.wikipedia.org/wiki/Markdown). Existe um template para as lições.
@@ -189,9 +189,9 @@ Para uma primeira introdução à formatação do Markdown, consultar [Introduç
 
 A lição deve ser guardada no formato .md. O nome do ficheiro da lição torna-se parte do URL da lição. Portanto, deve ser nomeado de acordo com as seguintes regras:
 
- *	Um nome descritivo, minúsculo e em minúsculas que forneça uma indicação clara do conteúdo da lição (por exemplo: introducao-ao-markdown.md).
- *	Não usar espaços ou sublinhados no nome do ficheiro; usar hífens.
- * Não usar acentos, cedilhas e caracteres especiais no nome do ficheiro.
+ *	Um nome descritivo, curto e em minúsculas que forneça uma indicação clara do conteúdo da lição (por exemplo: introducao-ao-markdown.md).
+ *	Não use espaços ou sublinhados no nome do ficheiro; use hífens.
+ *  Não use acentos, cedilhas e caracteres especiais no nome do ficheiro.
  *	O nome do ficheiro deve ser rico em palavras-chave que incluam as principais tecnologias ou metodologias (por exemplo, Python ou Análise de sentimentos).
 
 ### Negrito, itálico e sublinhado
@@ -203,8 +203,8 @@ Para garantir coerência entre as lições, siga as seguintes diretrizes de form
 
 #### Itálico
  *	Usar para títulos de livros, filmes, programas de TV, pinturas, músicas, álbuns e sites.
- *	Nunca em nomes de empresas (o site Facebook é de propriedade do Facebook).
- *	Não usar itálico em títulos, mesmo que se refiram ao título de um livro.
+ *	Nunca em nomes de empresas (o site *Facebook* é de propriedade do Facebook).
+ *	Não usar itálico em cabeçalhos, mesmo que se refiram ao título de um livro.
  *	Itálico é formatado usando *\*asteriscos únicos\**.
 
 #### Sublinhado
@@ -273,13 +273,13 @@ Recomendamos estas práticas ao escrever o código:
 
 ## Etapa 3: submeter uma nova lição
 
-Verificar se o ficheiro da lição está de acordo com as especificações acima. Quando terminado, é altamente recomendável pedir a pelo menos duas pessoas para ler a lição e experimentar o tutorial, para dar feedback e garantir que é entendido por todos. Desta maneira ajuda os revisores a concentrarem-se em produzir uma lição tão consistente quanto possível.
+Verifique se o ficheiro da lição está de acordo com as especificações acima. Quando terminado, é altamente recomendável pedir a pelo menos duas pessoas para ler a lição e experimentar o tutorial, para dar feedback e garantir que é entendido por todos. Desta maneira ajuda os revisores a concentrarem-se em ajudá-lo a produzir uma lição tão consistente quanto possível.
 
 Se a lição está pronta a submeter, segue-se a revisão por pares. As submissões são feitas enviando materiais por e-mail para o editor, para que ele possa carregá-los no nosso site de revisão por pares no [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
 
-1. **Obter acesso**: criar uma [conta gratuita](https://github.com/join). Enviar o nome de usuário Github para o editor, que dará acesso de upload ao nosso site de submissões. Informar o editor do nome do ficheiro da lição e se há imagens ou ficheiros de dados que acompanhem o tutorial. O autor não fará o upload inicial para o GitHub, mas precisará de acesso para postar revisões subsequentes.
-2. **Preparar os materiais**: se a lição incluir imagens, certificar-se de que todos os ficheiros estão nomeados de acordo com as convenções de nomenclatura especificadas acima. Essas imagens devem ser enviadas numa única pasta compactada. Se a lição incluir ficheiros de dados, eles devem ser enviados noutra pasta compactada.
-3. **Enviar um e-mail ao editor**: informar o editor de que está pronto para enviar a lição. Este e-mail deve incluir o ficheiro da lição, bem como as pastas de imagens e recursos, se aplicável.
+1. **Obter acesso**: crie uma [conta gratuita](https://github.com/join). Envie o nome de usuário Github para o editor, que dará acesso de upload ao nosso site de submissões. Informe o editor do nome do ficheiro da lição e se há imagens ou ficheiros de dados que acompanhem o tutorial. O autor não fará o upload inicial para o GitHub, mas precisará de acesso para postar revisões subsequentes.
+2. **Preparar os materiais**: se a lição incluir imagens, certificar-se de que todos os ficheiros estão nomeados de acordo com as convenções de nomenclatura especificadas acima. Essas imagens devem ser enviadas numa única pasta compactada. Se a lição incluir ficheiros de dados, estes devem ser enviados noutra pasta compactada.
+3. **Enviar um e-mail ao editor**: informe o editor de que está pronto para enviar a lição. Este e-mail deve incluir o ficheiro da lição, bem como as pastas de imagens e recursos, se aplicável.
 4. **Juntar-se à conversa**: o editor irá enviar os ficheiros para o nosso [diretório de submissões](https://github.com/programminghistorian/ph-submissions) e fazer as alterações iniciais necessárias. O editor abrirá também um ticket de revisão para a lição.
 5. **Fazer revisões**: o upload da lição inicial será realizado pelo editor designado, mas o processo editorial exigirá que o autor faça outras alterações. Todas as revisões subsequentes devem ser feitas pelo autor diretamente nos ficheiros do nosso repositório de submissões para garantir que se esteja a trabalhar com a versão mais recente do ficheiro da lição.
 
@@ -291,23 +291,23 @@ Todo o processo de revisão por pares estará registado num "[ticket do Github](
 
 O processo de revisão por pares normalmente tem três etapas:
 
-1) O editor da lição irá ler e testar a lição cuidadosamente, fornecendo uma primeira ronda de *feedback* que é necessário responder. O objetivo é garantir que a lição atende às necessidades dos leitores do *Programming Historian*, e que os revisores externos recebem uma lição que funciona. Normalmente tem um mês para responder a esta primeira revisão.
+1) O editor da lição irá ler e testar a lição cuidadosamente, fornecendo uma primeira ronda de *feedback* a que é necessário responder. O objetivo é garantir que a lição atende às necessidades dos leitores do *Programming Historian*, e que os revisores externos recebem uma lição que funciona. Normalmente tem um mês para responder a esta primeira revisão.
 
-2) O editor abrirá a lição para a revisão formal por pares. Serão nomeados dois revisores convidados pelo editor, mas a comunidade também é convidada a participar se quiser. Geralmente, é pedido que os revisores dêem os seus comentários dentro de um mês, mas às vezes imprevistos podem levar a atrasos. O editor deve deixar claro que não deverá responder às revisões até que as duas estejam publicadas e o editor já tenha feito um resumo com instruções claras sobre como avançar. Às vezes, pode incluir a sugestão para repensar substancialmente a lição, outras vezes, será uma questão de fazer pequenas alterações. Dependendo dos comentários da revisão por pares e da natureza dos problemas levantados, pode ser preciso rever o tutorial mais do que uma vez, mas o editor tem como missão garantir que o caminho para a publicação esteja claro e bem definido. A qualquer momento pode pedir para sair do processo de revisão, se assim o desejar.
+2) O editor abrirá a lição para a revisão formal por pares. Serão nomeados dois revisores convidados pelo editor, mas a comunidade também é convidada a participar se quiser. Geralmente, é pedido que os revisores dêem os seus comentários dentro de um mês, mas às vezes imprevistos podem levar a atrasos. O editor deve deixar claro que não deverá responder às revisões até que as duas estejam publicadas e o editor já tenha feito um resumo com instruções claras sobre como avançar. Às vezes, pode incluir a sugestão para repensar substancialmente a lição, outras vezes, será uma questão de fazer pequenas alterações. Dependendo dos comentários da revisão por pares e da natureza dos problemas levantados, pode ser preciso rever o tutorial mais do que uma vez, mas o editor tem como missão garantir que o caminho para a publicação seja claro e bem definido. A qualquer momento pode pedir para sair do processo de revisão, se assim o desejar.
 
 3) Quando o editor e revisores estiverem satisfeitos com a lição, o editor recomendará a publicação ao Editor Chefe, que irá ler e garantir que corresponde às Directrizes para Autores e aos padrões do *Programming Historian*. Em alguns casos, podem haver revisões adicionais ou edições nesta fase para alinhar a peça aos padrões de publicação. Se o Editor Chefe estiver satisfeito com a lição, ela será copiada para o site online. Quando isto acontecer o editor irá comunicar se qualquer informação adicional for necessária nesta fase.
 
 Pode ser útil ler as [directrizes para editores](/pt/directrizes-editor), que apresentam mais detalhes sobre todo o processo editorial.
 
-Se, a qualquer momento, tiver dúvidas do seu papel ou o que fazer a seguir, basta publicar a pergunta na discussão da revisão por pares. Qualquer um dos nossos editores responderá assim que possível. A equipa esforça-se por responder a todas as perguntas dentro de poucos dias.
+Se, a qualquer momento, tiver dúvidas do seu papel ou o que fazer a seguir, basta publicar a pergunta na discussão da revisão por pares. Qualquer um dos nossos editores responderá assim que possível. A equipe esforça-se por responder a todas as perguntas dentro de poucos dias.
 
 ### O que acontece depois da lição ser publicada?
 
-Ocasionalmente, recebemos feedback de usuários que encontraram um erro ao concluir uma de nossas lições. Se isso acontecer, o/a nosso/a Assistente de Publicação abrirá um ticket no GitHub e, em seguida, realizará uma avaliação para confirmar se o erro relatado representa um problema causado pelo usuário (editar o código da lição ou alterar o seu conjunto de dados, por exemplo) ou um problema dentro da lição em si. Neste último caso, o/a nosso/a Assistente de Publicação testará novamente a(s) parte(s) relevante(s) da lição e fará pesquisas para identificar uma correção. Como parte deste processo de manutenção da lição, podemos contatá-lo junto com outros membros da equipe do _Programming Historian_ para pedir conselhos. Caso nenhuma correção seja encontrada, proporemos adicionar um aviso à lição explicando que alguns usuários podem encontrar um erro. Sempre que possível, o aviso deve incluir links para leituras adicionais, permitindo que os usuários identifiquem eles próprios uma solução. 
+Ocasionalmente, recebemos feedback de usuários que encontraram um erro ao concluir uma de nossas lições. Se isso acontecer, o/a nosso/a Assistente de Publicação abrirá um ticket no GitHub e, em seguida, realizará uma avaliação para confirmar se o erro relatado representa um problema causado pelo usuário (editar o código da lição ou alterar o seu conjunto de dados, por exemplo) ou um problema dentro da lição em si. Neste último caso, o/a nosso/a Assistente de Publicação testará novamente a(s) parte(s) relevante(s) da lição e fará pesquisas para identificar uma correção. Como parte deste processo de manutenção da lição, podemos contatá-lo juntamente com outros membros da equipe do _Programming Historian_ para pedir conselhos. Caso nenhuma correção seja encontrada, proporemos adicionar um aviso à lição explicando que alguns usuários podem encontrar um erro. Sempre que possível, o aviso deve incluir links para leituras adicionais, permitindo que os usuários identifiquem eles próprios uma solução. 
 
 ### Responsabilidade da equipe
 
-A equipe de voluntários trabalha intensamente para fazer uma revisão rigorosa, académica e eficiente aos autores. No entanto, reconhecemos que há momentos em que pode ficar abaixo das expectativas. Queremos que os autores se sintam à vontade para nos ajudar a manter o padrão. Se, por qualquer motivo, sentir que foi tratado injustamente, está insatisfeito ou confuso com o processo, se o processo foi adiado desnecessariamente, ou um revisor foi rude e o editor não respondeu de acordo, ou mesmo se tiver qualquer outra preocupação, chame a atenção da equipa para que se possa resolver rapidamente.
+A equipe de voluntários trabalha intensamente para fazer uma revisão rigorosa, académica e eficiente para aos autores. No entanto, reconhecemos que há momentos em que podemos ficar abaixo das expectativas. Queremos que os autores se sintam à vontade para nos ajudar a manter os nossos padrões elevados. Se, por qualquer motivo, sentir que foi tratado injustamente, está insatisfeito ou confuso com o processo, se o processo foi adiado desnecessariamente, ou um revisor foi rude e o editor não respondeu de acordo, ou mesmo se tiver qualquer outra preocupação, chame a atenção da equipe para que se possa resolver rapidamente.
 
 Apresentar uma questão NÃO afetará o resultado da revisão por pares - mesmo que ainda esteja a decorrer.
 
