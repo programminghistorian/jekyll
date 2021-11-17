@@ -25,7 +25,7 @@ topics: [python]
 abstract: "Esta lição é uma breve introdução às técnicas de manipulação de strings com Python"
 original: manipulating-strings-in-python
 avatar_alt: Um homem a tocar guitarra
-doi: A INDICAR
+doi: 10.46430/phpt0016
 ---
 
 {% include toc.html %}
