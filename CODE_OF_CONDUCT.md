@@ -1,4 +1,4 @@
-# Programming Historian Code of Conduct / Código de Conducta / Code de Conduite / Código de Conduta
+# _Programming Historian_ Codes of Conduct
 
 The *Programming Historian* does not have a single code of conduct. Rather we have a range of documents that represent our dedication to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutinize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board.
 
