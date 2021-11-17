@@ -31,6 +31,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Aarhus University Library](https://library.au.dk/), Danemark
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Danemark
 - [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Royaume-Uni
+- [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Allemagne
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
