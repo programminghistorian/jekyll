@@ -78,7 +78,7 @@ La pestaña “Metadata” visualiza la información cumplimentada en la etapa d
 ## Georreferenciación
 
 <div class="alert alert-warning" role="alert">
-  Desde que Mapwarper fue archivado por la NYPL, ya no es posible añadir un mapa base.
+  En la versión de Map Warper que se encuentra actualmente disponible ya no es posible añadir un mapa base.
 </div>
 
 En este tutorial explicaremos el proceso de georreferenciación con el [Mapa Cafetero de la República de Colombia](http://catalogoenlinea.bibliotecanacional.gov.co/custom/web/content/mapoteca/fmapoteca_984_figac_16/fmapoteca_984_figac_16.html) de la Mapoteca Digital de la Biblioteca Nacional de Colombia. El documento cartográfico lo publicó la Federación Nacional de Cafeteros de Colombia en 1933, en una época en donde el café era la industria agrícola rectora de la economía colombiana, como resultado del primer censo cafetero del país realizado en 1932.
@@ -177,7 +177,7 @@ Esta pestaña permite visualizar los resultados ejecutados del paso *Rectify*. E
 ### Exportar
 
 <div class="alert alert-warning" role="alert">
-  Desde que Mapwarper fue archivado por la NYPL, los siguientes formatos de exportación ya no están disponibles: Tiles, Bibliographic Links, Bibliographic.
+  En la versión de Map Warper que se encuentra actualmente disponible los siguientes formatos de exportación ya no están disponibles: Tiles, Bibliographic Links, Bibliographic.
 </div>
 
 La pestaña *Export* permite descargar el mapa georreferenciado en diferentes formatos estándar para su visualización en Sistemas de Información Geográfica (SIG). Los formatos que permite exportar la herramienta se agrupan en tres categorías:
