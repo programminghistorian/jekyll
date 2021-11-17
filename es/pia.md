@@ -23,7 +23,7 @@ Tasas de asociación :
 | Paises de alto ingreso | Paises de ingreso medio | [países AOD](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm) |
 | --- | --- | --- |
 | £1,000 GBP  | £400 GBP | £150 GBP     |
-| $1,300 USD  | $600 USD | $200 USD     |
+| $1,400 USD  | $600 USD | $200 USD     |
 | €1,200 EUR  | €500 EUR | €175 EUR     |
 | $1,700 CAD  | $700 CAD | $275 CAD     |
 
