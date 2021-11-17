@@ -24,10 +24,6 @@ doi: 10.46430/phes0048
 
 {% include toc.html %}
 
-<div class="alert alert-info" role="alert">
-    A partir de abril de 2021, <a href="https://www.nypl.org/digital-research/projects/map-warper">la NYPL dejará de actualizar Mapwarper</a>, y este quedará archivado. Esto significa que todas las vistas incorporadas (embedded) que utilicen Mapwarper dejarán de funcionar una vez que la página sea archivada. Sin embargo, todas las contribuciones y datos han sido guardadas por la Biblioteca para usos e investigaciones futuras.
-</div>
-
 ## La herramienta de Map Warper
 
 [Map Warper](https://mapwarper.net/) es una herramienta de código abierto, acceso libre, desarrollada y soportada, desde 2008, por [Tim Waters](https://thinkwhere.wordpress.com/), para georreferenciar y visualizar imágenes de áreas geográficas sin necesidad de instalar un programa informático. La herramienta es implementada en distintos proyectos digitales, de distintas instituciones del mundo y utilizada por diversos profesionales no especializados en el campo de la cartografía.
