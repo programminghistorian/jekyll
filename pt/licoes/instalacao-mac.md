@@ -50,7 +50,7 @@ Para que você se organize, o ideal é que você tenha um diretório (i.e., past
 
 ## Instale um editor de texto
 
-Existem vários editores de texto que você pode utilizar para escrever, armazenar e executar comandos em Python. O Komodo Edit é o utilizado nesta lição, correspondendo a um editor gratuito e de código aberto. Mas existem [outros editores][] se você preferir. Por exemplo, alguns dos nossos colaboradores preferem o programa [TextWrangler][]. Você pode escolher qual editor mas, para manter a consistência entre as lições, nós iremos utilizar o Komodo Edit. Você pode fazer o download diretamente do [site do Komodo Edit][]. Faça a instalação a partir do ficheiro `.DMG`
+Existem vários editores de texto que você pode utilizar para escrever, armazenar e executar comandos em Python. O Komodo Edit é o utilizado nesta lição, correspondendo a um editor gratuito e de código aberto. Mas existem [outros editores][] se você preferir. Por exemplo, alguns dos nossos colaboradores preferem o programa [BBEdit][]. Você pode escolher qual editor mas, para manter a consistência entre as lições, nós iremos utilizar o Komodo Edit. Você pode fazer o download diretamente do [site do Komodo Edit][]. Faça a instalação a partir do ficheiro `.DMG`
 
 
 #### Faça um comando “Run Python” no Komodo Edit
@@ -93,9 +93,9 @@ No seu editor de texto, crie um novo ficheiro, entre o seguinte programa de duas
 print('Olá Mundo')
 ```
 
-O comando “*Run Python*” permite que você execute o seu programa. Se você escolheu um outro editor, este deve ter uma funcionalidade semelhante. Se está a usar o TextWrangler, clique em “#!” e no botão *Run*. Se tudo correu bem, o ecrã deverá mostrar algo como apresentado de seguida:
+O comando “*Run Python*” permite que você execute o seu programa. Se você escolheu um outro editor, este deve ter uma funcionalidade semelhante. Se está a usar o BBEdit, clique em “#!” e no botão *Run*. Se tudo correu bem, o ecrã deverá mostrar algo como apresentado de seguida:
 
-{% include figure.html filename="TextWrangler-hello-world.png" caption="Olá Mundo em Python no Mac" %}
+{% include figure.html filename="BBEdit-ola-mundo.png" caption="Olá Mundo em Python no Mac" %}
 
 ## Interagindo com a linha de comandos do Python
 
@@ -123,7 +123,7 @@ print('Olá Mundo')
 
 No seu ecrã, você verá algo como:
 
-{% include figure.html filename="hello-world-terminal.png" caption="Olá Mundo em Python no Terminal do Mac" %}
+{% include figure.html filename="ola-mundo-terminal.png" caption="Olá Mundo em Python no Terminal do Mac" %}
 
 Agora que você e o seu computador estão preparados, podemos seguir para tarefas mais interessantes. Se você está seguindo as lições do Python, a nossa sugestão é que tente a próxima lição ‘[Noções básicas de páginas web e HTML][]‘
 
@@ -131,6 +131,6 @@ Agora que você e o seu computador estão preparados, podemos seguir para tarefa
   [site do Python]: https://www.python.org/downloads/mac-osx/
   [Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/
   [outros editores]: https://wiki.python.org/moin/PythonEditors/
-  [TextWrangler]: http://www.barebones.com/products/textwrangler/
+  [BBEdit]: https://www.barebones.com/products/bbedit/
   [site do Komodo Edit]: https://www.activestate.com/products/komodo-ide/downloads/edit/
   [Noções básicas de páginas web e HTML]: nocoes-basicas-paginas-web-html

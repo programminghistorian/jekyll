@@ -116,8 +116,8 @@ Now we're going to start building our script. We're going to go through the scri
 ```python
 import geopy
 import pandas
-from geopy.geocoders import Nominatim, GoogleV3
-# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+from geopy.geocoders import Nominatim
+# versions used: geopy 2.2.0, pandas 1.3.3, python 3.7.5
 ```
 
 In the code above, we are importing the different Python libraries that we will need to use later on in our script.  We import geopy, specifically the geopy.geocoders that we will call on later which is [Nominatim](https://wiki.openstreetmap.org/wiki/Nominatim) and [Google Maps V3 API](https://developers.google.com/maps/documentation/geocoding/start), and we import pandas.
@@ -127,8 +127,8 @@ Then you want to create a function main() that reads your input CSV.
 ```python
 import geopy
 import pandas
-from geopy.geocoders import Nominatim, GoogleV3
-# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+from geopy.geocoders import Nominatim
+# versions used: geopy 2.2.0, pandas 1.3.3, python 3.7.5
 
 def main():
 	io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
@@ -143,7 +143,7 @@ Next, we anticipate that when we geocode the csv we will get points in the forma
 ```python
 import geopy
 import pandas
-# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+# versions used: geopy 2.2.0, pandas 1.3.3, python 3.7.5
 
 def main():
   io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
@@ -156,23 +156,23 @@ def get_longitude(x):
 ```
 Next, select the geolocator you want to use.  Here we're creating two geolocators: Open Street Map's Nominatim and Google's Geocoding API.  Here's a quick comparison:
 
-| Geolocator                       | Nominatim()                                                                 | GoogleV3()                                                                          |
-| -------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| affiliation                      | OpenStreetMap                                                               | Google                                                                              |
-| application use                  | single-threaded applications, can only run geolocator one process at a time | can upgrade for better performance                                                  |
-| capabilities for app development | can geocode based on user-input                                             | only geocodes static addresses (Google's non-static geocoding service not in geopy) |
-| request limit                    | 1 request/s or timeout                                                      | 5 requests/s, 2500/day                                                              |
-| performance test on census data  | 33.5s                                                                       | 11.6s                                                                               |
+| Geolocator                       | Nominatim()                                                                 | 
+| -------------------------------- | --------------------------------------------------------------------------- |
+| affiliation                      | OpenStreetMap                                                               | 
+| application use                  | single-threaded applications, can only run geolocator one process at a time | 
+| capabilities for app development | can geocode based on user-input                                             | 
+| request limit                    | 1 request/s or timeout                                                      | 
+| performance test on census data  | 33.5s                                                                       | 
 
-You can also choose a different geolocator from the list found in [the geopy documentation](http://geopy.readthedocs.org/). Generally, GoogleV3 is a reliable geolocator choice because of their large geographic data coverage and generous quotas. For more information about choosing geolocators, you can follow the discussion in the [geopy repository on Github](https://github.com/geopy/geopy/issues/90).
+You can also choose a different geolocator from the list found in [the geopy documentation](http://geopy.readthedocs.org/). GoogleV3 is a geocoder compatible with geopy, it is a reliable geolocator choice because of their large geographic data coverage. However, since July 2018 an API key is required, and you need to enable billing in Google Cloud to use it. For more information about choosing geolocators, you can follow the discussion in the [geopy repository on Github](https://github.com/geopy/geopy/issues/90).
 
 To use a geolocator, import them and assign a variable name (in this case we use the name geolocator):
 
 ```python
 import geopy
 import pandas
-from geopy.geocoders import Nominatim, GoogleV3
-# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+from geopy.geocoders import Nominatim
+# versions used: geopy 2.2.0, pandas 1.3.3, python 3.7.5
 
 def main():
   io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
@@ -184,8 +184,6 @@ def main():
     return x.longitude
 
 geolocator = Nominatim()
-# geolocator = GoogleV3()
-# uncomment the geolocator you want to use
 ```
 
 Finally, using pandas you want to create a column in your spreadsheet called 'latitude'.  The script will read the existing 'Area_Name' data column, run the geopy [geolocator](http://geopy.readthedocs.io/en/latest/#module-geopy.geocoders) on the column using pandas' [apply function](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.apply.html), and generate a latitude coordinate in that column.  The same transformation will occur in the 'longitude' column.  Once this is finished it will output a new CSV file with those two columns:
@@ -193,8 +191,8 @@ Finally, using pandas you want to create a column in your spreadsheet called 'la
 ```python
 import geopy
 import pandas
-from geopy.geocoders import Nominatim, GoogleV3
-# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+from geopy.geocoders import Nominatim
+# versions used: geopy 2.2.0, pandas 1.3.3, python 3.7.5
 
 def main():
   io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
@@ -206,8 +204,6 @@ def main():
     return x.longitude
 
   geolocator = Nominatim()
-  # geolocator = GoogleV3()
-  # uncomment the geolocator you want to use
 
   geolocate_column = io['Area_Name'].apply(geolocator.geocode)
   io['latitude'] = geolocate_column.apply(get_latitude)
@@ -222,8 +218,8 @@ To finish off your code, it's good practice to make your python modular, that wa
 ```python
 import geopy
 import pandas
-from geopy.geocoders import Nominatim, GoogleV3
-# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+from geopy.geocoders import Nominatim
+# versions used: geopy 2.2.0, pandas 1.3.3, python 3.7.5
 
 def main():
   io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
@@ -234,9 +230,7 @@ def main():
   def get_longitude(x):
     return x.longitude
 
-  geolocator = Nominatim()
-  # geolocator = GoogleV3()
-  # uncomment the geolocator you want to use
+  geolocator = Nominatim(user_agent="email@email.com")
 
   geolocate_column = io['Area_Name'].apply(geolocator.geocode)
   io['latitude'] = geolocate_column.apply(get_latitude)
@@ -259,8 +253,8 @@ _Tip 1: If you want to pass the filenames from the command line rather than chan
 ```python
 import geopy, sys
 import pandas
-from geopy.geocoders import Nominatim, GoogleV3
-# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+from geopy.geocoders import Nominatim
+# versions used: geopy 2.2.0, pandas 1.3.3, python 3.7.5
 
 inputfile=str(sys.argv[1])
 namecolumn=str(sys.argv[2])
@@ -268,15 +262,13 @@ namecolumn=str(sys.argv[2])
 def main():
   io = pandas.read_csv(inputfile, index_col=None, header=0, sep=",")
 
-	def get_latitude(x):
-    return x.latitude
+def get_latitude(x):
+  return x.latitude
 
   def get_longitude(x):
     return x.longitude
 
   geolocator = Nominatim()
-  # geolocator = GoogleV3()
-  # uncomment the geolocator you want to use
 
   geolocate_column = io[namecolumn].apply(geolocator.geocode)
   io['latitude'] = geolocate_column.apply(get_latitude)
@@ -292,12 +284,7 @@ To run your python script your command would look like this:
 ```python geocoder.py census-historic-population-borough.csv Area_Name```
 
 _Tip 2:
-If you run geocoder.py too many times you might get a timeout error. The error will look like this if you use the GoogleV3 geocoder:_
-
-```
-'The given key has gone over the requests limit in the 24'
-geopy.exc.GeocoderQuotaExceeded: The given key has gone over the requests limit in the 24 hour period or has submitted too many requests in too short a period of time.
-```
+If you run geocoder.py too many times you might get a timeout error._
 
 The error will look like this if you use the Nominatim geocoder:
 
@@ -305,7 +292,7 @@ The error will look like this if you use the Nominatim geocoder:
 
 To address the timeout error, you could add the parameter ```timeout```, which specifies the time, in seconds, to wait for the geocoding service to respond before raising a geopy.exc.GeocoderTimedOut exception. So your geolocator declaration will look like this:
 
-```geolocator = Nominatim(timeout=5)```
+```geolocator = Nominatim(user_agent="email@email.com", timeout=5)```
 
 ## Transforming Data with Python
 
@@ -361,7 +348,7 @@ Your final script should look like this:
 ```python
 import geopy, sys
 import pandas
-from geopy.geocoders import Nominatim, GoogleV3
+from geopy.geocoders import Nominatim
 
 inputfile=str(sys.argv[1])
 # namecolumn=str(sys.argv[2])
@@ -376,7 +363,6 @@ def main():
     return x.longitude
 
   # geolocator = Nominatim(timeout=5)
-  geolocator = GoogleV3(timeout=5)
   # uncomment the geolocator you want to use
   # change the timeout value if you get a timeout error, for instance, geolocator = Nominatim(timeout=60)
   io['helper'] = io['Area_Name'].map(str) + " " + io['Country'].map(str)
