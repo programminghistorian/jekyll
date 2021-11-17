@@ -20,7 +20,7 @@ Al unirte a nuestro Programa de Instituciones Asociadas, tu institución estará
 
 Tasas de asociación :
 
-| Paises de alto ingreso | Paises de ingreso medio | [países AOD](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm) |
+| Países de alto ingreso | Países de ingreso medio | [Países AOD](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm) |
 | --- | --- | --- |
 | £1000 GBP  | £400 GBP | £150 GBP     |
 | $1400 USD  | $600 USD | $200 USD     |
