@@ -301,7 +301,7 @@ import urllib.request, urllib.error, urllib.parse, obo
 url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
 
 response = urllib.request.urlopen(url)
-html = response.read()
+html = response.read().decode('UTF-8')
 text = obo.stripTags(html)
 wordlist = text.split()
 
