@@ -113,7 +113,7 @@ import urllib.request, urllib.error, urllib.parse
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 respuesta = urllib.request.urlopen(url)
-contenidoWeb = respuesta.read()
+contenidoWeb = respuesta.read().decode('UTF-8')
 
 print(contenidoWeb[0:300])
 ```
@@ -154,7 +154,7 @@ import urllib.request, urllib.error, urllib.parse
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 respuesta = urllib.request.urlopen(url)
-contenidoWeb = respuesta.read()
+contenidoWeb = respuesta.read().decode('UTF-8')
 
 f = open('obo-t17800628-33.html', 'w')
 f.write(contenidoWeb)
