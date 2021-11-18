@@ -156,6 +156,7 @@ url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-3
 respuesta = urllib.request.urlopen(url)
 contenidoWeb = respuesta.read().decode('UTF-8')
 
+
 f = open('obo-t17800628-33.html', 'w')
 f.write(contenidoWeb)
 f.close
