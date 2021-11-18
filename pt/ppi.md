@@ -23,7 +23,7 @@ Taxas de adesão:
 | €1.200 EUR | €500 EUR | €175 EUR |
 | $7.000 BRA | $2.800 BRA | $1.000 BRA |
 | £1.000 GBP | £400 GBP | £150 GBP |
-| $1.300 USD | $600 USD | $200 USD |
+| $1.400 USD | $600 USD | $200 USD |
 | $1.700 CAD | $700 CAD | $275 CAD |
 
 As taxas são anuais e consideramos a contagem a partir da data do primeiro pagamento. Os valores são definidos em Janeiro de cada ano. Para uma cotação em outra moeda, por favor, envie um e-mail para [Dr. James Baker](mailto:programminghistorian@gmail.com).

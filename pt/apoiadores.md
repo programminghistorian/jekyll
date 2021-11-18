@@ -34,6 +34,7 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 -   [Aarhus University Library](https://library.au.dk/), Dinamarca
 -   [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca
 -   [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Reino Unido
+-   [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Alemanha
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
