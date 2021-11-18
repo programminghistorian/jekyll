@@ -165,7 +165,7 @@ Puesto que este es un texto manuscrito, será importante que tengamos en cuenta 
 Usaremos para ello el elemento de autocerrado [`<lb/>`](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-lb.html) ("line break" o salto de línea).[^3]
 Empecemos, pues, a codificar el primer `<div>`:
 
-```
+```XML
 <div type="saludos">
   <p>
     <lb n="1"/>Saludos de Salvador Da.
@@ -208,7 +208,7 @@ El conjunto de una abreviatura y su expansión deben ponerse dentro de un elemen
 
 Todo el `<div>` quedaría entonces así:
 
-```
+```XML
 <div type="saludos">
   <p>
     <lb n="1"/>Saludos de
@@ -744,7 +744,7 @@ La imagen de la página 59 (disponible libremente en la [Biblioteca Digital Sole
 {% include figure.html filename="introduccion-a-tei-2-03.png" caption="Imagen del manuscrito 'Pequeño manual del estudiante de historia universal' de Soledad Acosta de Samper, tomo 1, p. 59" %}
 
 
-## El <teiHeader>
+## El <teiHeader\>
 En este caso el `<teiHeader>` de nuestro documento será el siguiente:
 
 ```XML
@@ -785,7 +785,7 @@ Por otro lado, puesto que nuestro texto objeto es un manuscrito cuyo lugar y fec
 
 
 
-## El <text>
+## El <text\>
 
 Con respecto al cuerpo del texto —que se encuentra contenido en el elemento `<text>` del documento, como ya hemos visto—, lo primero que haremos será identificar los tipos de texto según su función estructural.
 A primera vista podemos hallar ocho tipos básicos, ilustrados con colores y números en la siguiente imagen:
@@ -1323,7 +1323,7 @@ El [código completo](https://raw.githubusercontent.com/programminghistorian/ph-
 Aunque VS Code nos dice que nuestro código es sintácticamente válido en XML, podemos verificar que también es semánticamente válido en TEI con ayuda del [TBE Validation Service](https://teibyexample.org/tools/TBEvalidator.htm):
 
 
-{% include figure.html filename="introduccion-a-tei-2-05.png" caption="Validación TEI del código del manuscrito de Soledad Acosta" %}
+{% include figure.html filename="introduccion-a-tei-2-05.png" caption="Validación TEI del código del manuscrito de Soledad Acosta en TBE Validation Service. El color verde indica que la validación fue exitosa. Si hubiese algún error, aparecería un mensaje en color rojo" %}
 
 
 
