@@ -26,7 +26,7 @@ Tarifs de partenariat
 | 1 200 CHF  | 500 CHF | 175 CHF  |
 | 1 700 CAD  | 700 CAD | 275 CAD  | 
 | 1 000 GBP  | 400 GBP | 150 GBP  |
-| 1 300 USD  | 600 USD | 200 USD  |
+| 1 400 USD  | 600 USD | 200 USD  |
 
 
 Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en janvier de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
