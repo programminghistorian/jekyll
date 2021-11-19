@@ -3,12 +3,12 @@
 ### python chiffres_romains_arabes.py
 
 def rom2ar(rom):
-    """ From the Python tutor mailing list:
-    János Juhász janos.juhasz at VELUX.com
-    returns arabic equivalent of a Roman numeral
+    """ Issu de la liste de diffusion du tuteur en Python:
+    János Juhász janos.juhasz à VELUX.com
+    retourne l'équivalent arabe d'un chiffre romain
     
-    This is really a bit of brilliance, so I sprinkled it with
-    print statements to demonstrate why it works.
+    La fonction est vraiment brillante, donc je l'ai parsemée d'instructions
+    print pour montrer pourquoi elle fonctionne.
     """
     roman_codec = {'M':1000, 'D':500, 'C':100, 'L':50, 'X':10, 'V':5, 'I':1}
     roman = rom.upper()
@@ -16,21 +16,21 @@ def rom2ar(rom):
     roman.reverse()
     decimal = [roman_codec[ch] for ch in roman]
     result = 0
-    print(f"For Roman Numeral: {rom.upper()}\nlist of roman characters translated to arabic equvalents,\nthen reversed: {decimal}\n")
+    print(f"Pour le chiffre romain: {rom.upper()}\nliste des caractères romains traduits dans leurs équivalents arabes,\nalors à l'envers: {decimal}\n")
     while len(decimal):
         act = decimal.pop()
-        print(f"decimal.pop() yields: {act}")
+        print(f"decimal.pop() retourne: {act}")
         if len(decimal) and act < max(decimal):
             act = -act
-            print(f"current result: {result} + {act} = {result + act}\nnegative because {abs(act)} is less than the maximum value in the list which is: {max(decimal)}")
+            print(f"résultat en cours: {result} + {act} = {result + act}\nnégatif car {abs(act)} est inférieur à la valeur maximale de la liste qui est: {max(decimal)}")
         else:
-            print(f"current result: {result} + {act} = {result + act}")
-        print(f"our decimal list is now: {decimal}\n\n")
+            print(f"résultat en cours: {result} + {act} = {result + act}")
+        print(f"notre liste de chiffres décimaux équivaut maintenant à: {decimal}\n\n")
         result += act
-        print("LOOP!")
+        print("BOUCLE!")
 
     return result
     
 
 print(rom2ar("mmcdlxxxix"))
-print("Brilliant, huh?")
+print("Brillant, n'est-ce pas ?")
