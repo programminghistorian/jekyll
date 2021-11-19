@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pequeño manual del estudiante de historia universal, tomo 1, p.59</title>
+        <author>Soledad Acosta de Samper</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Nicolás Vaughan</publisher>
+        <pubPlace>Bogotá, Colombia</pubPlace>
+        <date>2021</date>
+        <availability>
+          <p>Esta es una obra de acceso abierto licenciada bajo una licencia Creative Commons Attribution 4.0 International.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Soledad Acosta de Samper</author>
+            <title>Pequeño manual del estudiante de historia universal, tomo 1, p.59</title>
+            <imprint>
+              <pubPlace>Sin lugar</pubPlace>
+              <date>Sin fecha</date>
+            </imprint>
+          </monogr>
+          <ref target="https://soledadacosta.uniandes.edu.co/items/show/408"/>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="SAS">
+        <persName>Soledad Acosta de Samper</persName>
+      </person>
+      <person xml:id="BNC">
+        <name>Biblioteca Nacional de Colombia</name>
+      </person>
+    </listPerson>
+  </standOff>
+  <text xml:lang="es" hand="#SAS">
+    <body>
+      <pb n="59"/>
+      <div>
+        <ab hand="#SAS">47</ab>
+        <ab hand="#BNC">59</ab>
+      </div>
+      <div>
+        <lb n="1"/><head>4</head>
+        <p>
+          <note type="estructural" place="margen-izquierdo">
+            La historia antes del Diluvio
+          </note>
+          <lb n="2"/>Misterio de la Historia de la humanidad
+          <lb n="3"/>antes del Diluvio universal, puesto que el <subst><del><gap quantity="1" unit="palabra"/></del><add>histo
+            <lb n="4" break="no"/>riador</add></subst> <add place="arriba">reconocido</add> más antiguo —<persName>Moisés</persName>— encierra todo
+          <lb n="5"/>aquel tiempo transcurrido <unclear>enteros</unclear> cortos acá
+          <lb n="6"/>justos. Se ha calculado que solo duró 1659 a
+          <lb n="7" break="no"/>ños, <choice><orig>segun</orig><reg>según</reg></choice> unos y 2,000 según otros. Como los
+          <lb n="8"/>hombres gozaban de una longevidad extra
+          <lb n="9" break="no"/>ordinaria
+          <note type="aclaratoria" place="margen-inferior">
+            Los años de <persName>Mathusalem</persName> fueron 965 y los de <persName>Lamech</persName> 777.
+            (<bibl>
+              <title>
+                <choice>
+                  <orig>Genesis</orig>
+                  <reg>Génesis</reg>
+                </choice>
+              </title>
+              Cap. V, ver. 27-29
+            </bibl>)
+          </note>
+          naturalmente alcanzaban <choice><orig>á</orig><reg>a</reg></choice> per
+          <lb n="10" break="no"/>feccionarse muchísimo, y como sus <unclear>conveinen
+            <lb n="11" break="no"/>tas</unclear> fueron asombrosas<corr>,</corr> se llenaron de soberbia, y
+          <lb n="12"/>esa soberbia se convirtió en corrupción y esta
+          <subst>
+            <del>
+              <gap quantity="7" unit="líneas" reason="ilegible"/>
+            </del>
+            <add>
+              <lb n="13"/>en completa perversión, leemos en el <title><choice><orig>Genesis</orig><reg>Génesis</reg></choice></title> (2)
+              <lb n="14"/>
+              <cit>
+                <quote>
+                  Y había gigantes sobre la tierra en aque
+                  <lb n="15" break="no"/>llos días .... poderosos desde la <choice><orig>antigue</orig><reg>antigüe</reg></choice>
+                  <lb n="16" break="no"/>dad, varones de fama ... Y viendo Dios que
+                  <lb n="17"/>era mucha la malicia de los hombres,
+                  <lb n="18"/>y que todos los pensamientos del corazón<sic>,</sic>
+                  <lb n="19"/>eran inclinados al mal en todo tiempo, y entonces
+                </quote>
+                <note type="bibliográfica" place="margen-inferior">
+                  <bibl>
+                    <title>
+                      <choice>
+                        <sic>Genesis</sic>
+                        <corr>Génesis</corr>
+                      </choice>
+                    </title>
+                    Cap. VI<corr>,</corr> ver. 4, 5, 6, 7
+                  </bibl>
+                </note>
+              </cit>
+            </add>
+          </subst>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

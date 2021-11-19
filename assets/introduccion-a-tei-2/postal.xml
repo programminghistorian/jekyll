@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Postal a Antonio Luna del 14 de mayo de 1926</title>
+        <author>Federico García Lorca</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Nicolás Vaughan</publisher>
+        <pubPlace>Bogotá, Colombia</pubPlace>
+        <date>2021</date>
+        <availability>
+          <p>Esta es una obra de acceso abierto licenciada bajo una licencia Creative Commons Attribution 4.0 International.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Federico García Lorca</author>
+            <title>Postal a Antonio Luna</title>
+            <imprint>
+              <pubPlace>Cadaqués, Barcelona</pubPlace>
+              <date>1926</date>
+            </imprint>
+          </monogr>
+          <ref target="https://commons.wikimedia.org/wiki/File:Postal_de_Federico_a_Antonio_de_Luna.jpg"/>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="spa">
+    <body>
+      <div type="saludos">
+        <p>
+          <lb n="1"/>Saludos de
+          <persName>
+            Salvador
+            <choice>
+              <abbr>Da.</abbr>
+              <expan>Dalí</expan>
+            </choice>
+          </persName>
+        </p>
+      </div>
+      <div type="mensaje">
+        <p>
+          <lb n="1"/>Querido <persName>Antonito</persName>:
+          <choice>
+            <orig>Enmedio</orig>
+            <expan>En medio</expan>
+          </choice>
+          de
+          <lb n="2"/>un ambiente delicioso de mar,
+          <lb n="3"/>
+          <choice>
+            <orig>fotografos</orig>
+            <expan>fotógrafos</expan>
+          </choice>
+          y cuadros cubistas<corr>,</corr>
+          <lb n="4"/>te saludo y te abrazo.
+          <lb n="5"/>
+          <persName>
+            <choice>
+              <orig>Dali</orig>
+              <reg>Dalí</reg>
+            </choice>
+          </persName>
+          y yo preparamos una
+          <lb n="6"/>cosa que estará <foreign xml:lang="cat"><choice><sic>moll</sic><corr>molt</corr></choice> bé</foreign>.
+          <lb n="7"/>Una cosa <foreign xml:lang="cat"><choice><sic>moll</sic><corr>molt</corr></choice> bonic</foreign>.
+          <lb n="8"/>Sin darme cuenta me he
+          <lb n="9"/>impuesto en el
+          <choice>
+            <orig>Catalan</orig>
+            <reg>catalán</reg>
+          </choice>.
+          <lb n="10"/>
+          <choice>
+            <orig>Adios</orig>
+            <reg>Adiós</reg>
+          </choice>
+          <persName>Antonio</persName>. Saluda a tu padre.
+          <lb n="11"/>Y
+          <choice>
+            <orig>saludate tu</orig>
+            <reg>salúdate tú</reg>
+          </choice>
+          con mi mejor <hi rend="underline">inalterable</hi>
+          <lb n="12"/>amistad. ¡Has visto lo que han hecho con <persName>Paquito</persName>! (Silencio)
+        </p>
+        <closer>
+          <signed><persName>Federico</persName></signed>
+        </closer>
+      </div>
+      <div type="dirección">
+        <opener>
+          <address>
+            <addrLine>
+              <choice>
+                <abbr>
+                  Sr<corr>.</corr>
+                </abbr>
+                <expan>Señor</expan>
+              </choice>
+              <choice>
+                <abbr>D.</abbr>
+                <expan>Don</expan>
+              </choice>
+              <persName>Antonio Luna</persName>
+            </addrLine>
+            <addrLine>
+              Acera de <unclear>Dairo</unclear> 62
+            </addrLine>
+            <addrLine>
+              <placeName>Granada</placeName>
+            </addrLine>
+          </address>
+        </opener>
+      </div>
+      <div type="estampillas">
+        <ab>
+          <stamp>Tarjeta Postal</stamp>
+          <stamp>Correspondencia</stamp>
+          <stamp><unclear>Barcelona</unclear></stamp>
+          <stamp><gap/></stamp>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>
