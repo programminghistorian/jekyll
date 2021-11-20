@@ -587,7 +587,7 @@ Como puede verse, hemos decidido no transcribir en mayúsculas estos textos pues
 
 ## Código completo del documento
 
-El [código completo](https://raw.githubusercontent.com/programminghistorian/ph-submissions/gh-pages/assets/introduccion-a-tei-2/postal.xml) del documento TEI de la postal es el siguiente:
+El [código completo](https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/introduccion-a-tei-2/postal.xml) del documento TEI de la postal es el siguiente:
 
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -1202,7 +1202,7 @@ El código de toda la citación será entonces el siguiente:
 
 ## Código completo del documento
 
-El [código completo](https://raw.githubusercontent.com/programminghistorian/ph-submissions/gh-pages/assets/introduccion-a-tei-2/Acosta.xml) del documento TEI del fragmento de Soledad Acosta es este:
+El [código completo](https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/introduccion-a-tei-2/Acosta.xml) del documento TEI del fragmento de Soledad Acosta es este:
 
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
