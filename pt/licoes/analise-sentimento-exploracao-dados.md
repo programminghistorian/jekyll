@@ -26,7 +26,7 @@ activity: analyzing
 topics: [distant-reading]
 abstract: "Nesta lição, você aprenderá a conduzir uma 'análise de sentimento' em textos e a interpretar os resultados. Esta é uma forma de análise exploratória de dados baseada no processamento de linguagem natural (PLN). Você aprenderá a instalar todos os softwares apropriados e a construir um programa reutilizável que pode ser aplicado aos seus próprios textos. (Nota do tradutor: Devido à falta de uma biblioteca de código que funcione bem com os textos em português, optamos por manter os textos dos exercícios na língua original.)"
 avatar_alt: Um homem sorridente e um homem rabugento
-doi: A INDICAR
+doi: 10.46430/phpt0017
 ---
 
 {% include toc.html %}
