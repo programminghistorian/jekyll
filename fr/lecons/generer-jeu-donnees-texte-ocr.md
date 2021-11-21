@@ -246,12 +246,12 @@ Si vous avez besoin d'importer des modules faisant partie de la bibliothèque st
     >Quand elles se retrouvent confrontées à un problème, certaines personnes se disent&#x202F;: &laquo;&#x202F;Je n'ai qu'à utiliser les expressions régulières&#x202F;!&#x202F;&raquo; Elles se retrouvent alors avec deux problèmes.
 
 
-    (Je vous recommande une nouvelle fois de jeter un coup d’œil à la présentation de L.T. O’Hara ici sur le site du Programming Historian [Cleaning OCR’d text with Regular Expressions](https://programminghistorian.org/en/lessons/cleaning-ocrd-text-with-regular-expressions))
+    (Je vous recommande une nouvelle fois de jeter un coup d’œil à la présentation de L.T. O’Hara ici sur le site du Programming Historian [Cleaning OCR’d text with Regular Expressions](/en/lessons/cleaning-ocrd-text-with-regular-expressions))
 
 
 2. Vous devrez réaliser l'import d'une bibliothèque Python qui nous sera utile&#x202F;: `from pprint import pprint`. Il s'agit d'un outil de formatage pour les objets Python comme les listes et les dictionnaires. Vous en aurez besoin parce que les dictionnaires Python sont beaucoup plus faciles à lire s’ils sont formatés.
 
-3. L'import `from collections import Counter` nous sera utile pour la section [Identifier les notes de bas de page à l'aide d'une expression régulière](https://programminghistorian.org/en/lessons/generer-jeu-donnees-texte-ocr#identifier-notes-bas-de-page) que nous aborderons juste après. Ce n’est pas vraiment nécessaire, mais nous allons faire des opérations de comptage qui exigeraient beaucoup de lignes de code et cela nous épargnera du temps. Le module des collections a beaucoup d'utilité et vaut la peine qu'on se familiarise avec. Encore une fois, voir la présentation Pymotw de Doug Hellmann concernant le module des [collections](https://docs.python.org/fr/3/library/collections.html). Je souligne également que son livre [The Python Standard Library By Example](https://doughellmann.com/blog/the-python-standard-library-by-example/) vaut le coût.
+3. L'import `from collections import Counter` nous sera utile pour la section [Identifier les notes de bas de page à l'aide d'une expression régulière](/en/lessons/generer-jeu-donnees-texte-ocr#identifier-notes-bas-de-page) que nous aborderons juste après. Ce n’est pas vraiment nécessaire, mais nous allons faire des opérations de comptage qui exigeraient beaucoup de lignes de code et cela nous épargnera du temps. Le module des collections a beaucoup d'utilité et vaut la peine qu'on se familiarise avec. Encore une fois, voir la présentation Pymotw de Doug Hellmann concernant le module des [collections](https://docs.python.org/fr/3/library/collections.html). Je souligne également que son livre [The Python Standard Library By Example](https://doughellmann.com/blog/the-python-standard-library-by-example/) vaut le coût.
 
 ## Un petit aperçu des expressions régulières telles qu'elles sont implémentées en Python
 
