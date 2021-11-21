@@ -14,7 +14,7 @@ translator:
 - Antoine Gourlay
 translation-editor: 
 - Gwenaëlle Patat
-translation-reviewers:
+translation-reviewer:
 - Floriane Chiffoleau
 - Jean-Luc Mirepoix
 original: generating-an-ordered-data-set-from-an-OCR-text-file
