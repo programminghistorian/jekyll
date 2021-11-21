@@ -33,6 +33,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [Aarhus University Library](https://library.au.dk/), Dinamarca
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca
 - [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Reino Unido
+- [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Alemania
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 

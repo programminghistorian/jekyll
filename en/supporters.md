@@ -32,6 +32,7 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 - [Aarhus University Library](https://library.au.dk/), Denmark
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Denmark
 - [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), United Kingdom
+- [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Germany
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 

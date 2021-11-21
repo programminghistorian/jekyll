@@ -72,6 +72,11 @@ Once you have filled in your desired parameters, you have three options to proce
 The "Create Dataset" option will freeze the parameters and create an exportable dataset. "Start over" will reset your parameters and also return you to the dataset selection page.
 
 ## Exporting the Dataset
+
+<div class="alert alert-info">
+    TweetSets export options have changed since this lesson's last update. Users should select one dataset at a time to export. Nodes and edges files for mentions are available for selected full datasets and more will be available over time. (November 2021)
+</div>  
+    
 To continue on, press "Create Dataset", at which point you will need to provide a name. This distinguishes this dataset from others you create on the site, so make it something descriptive.
 
 {% include figure.html filename="naming-dataset.png" caption="The site prompts you for a name." %}

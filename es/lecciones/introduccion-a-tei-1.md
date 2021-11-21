@@ -362,7 +362,7 @@ En esta primera parte de la lección has aprendido:
 1. Qué significa códificar un texto
 2. Qué son los documentos XML y XML-TEI
 
-En la segunda parte, que pronto será publicada, verás en detalle dos ejemplos de codificación de textos.
+En [la segunda parte](/es/lecciones/introduccion-a-tei-2) verás en detalle dos ejemplos de codificación de textos.
 
 ## Referencias recomendadas
 
