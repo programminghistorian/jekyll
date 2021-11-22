@@ -5,7 +5,7 @@ slug: analise-sentimento-exploracao-dados
 date: 2018-01-15
 translation_date: 2021-06-14
 authors:
-- Zoë Wilkinson Saldaña
+- Zo&#235; Wilkinson Salda&#241;a
 reviewers:
 - Anandi Silva Knuppel
 - Puteri Zarina Megat Khalid
@@ -50,7 +50,7 @@ Em 1977, o matemático John Tukey descreveu a análise exploratória de dados co
 
 > “A menos que o detetive encontre pistas, o juiz ou júri não terá como julgar. Caso a análise exploratória de dados não revele indícios, geralmente quantitativos, é provável que se considere não haver nada a ser comprovado. ” (Tukey 1977: 3, tradução livre)
 
-##  Explorando Texto com Análise de Sentimento
+## Explorando Texto com Análise de Sentimento
 
 Quando confrontado com um corpus promissor, porém muito grande, como o pesquisador pode encontrar aquilo de mais importante, que pode levar às descobertas de pesquisa mais interessantes?
 
@@ -108,7 +108,7 @@ Para usar VADER e word_tokenize, primeiro precisamos baixar e instalar alguns da
 
 Para instalar a análise de sentimento e o tokenizador de palavras que usaremos neste tutorial, escreva um novo script em Python com as três linhas a seguir:
 
-```
+```python
 import nltk
 nltk.download('vader_lexicon')
 nltk.download('punkt')
@@ -135,7 +135,7 @@ Você pode salvar este arquivo como `“installation.py”`. Se você não tiver
 Leia o seguinte trecho:
 
 
-```
+```python
 “Like you, I am getting very frustrated with this process. I am genuinely trying to be as reasonable as possible. I am not trying to “hold up” the deal at the last minute. I’m afraid that I am being asked to take a fairly large leap of faith after this company (I don’t mean the two of you – I mean Enron) has screwed me and the people who work for me.”
 ```
 
@@ -147,14 +147,14 @@ Vamos calcular as pontuações de sentimento para este e-mail usando o VADER par
 
 Primeiro, temos que dizer ao Python onde o código NLTK para a análise de sentimento VADER está localizado. No início do nosso arquivo, importaremos o código do VADER:
 
-```
+```python
 # primeiro, importamos os módulos relevantes da biblioteca NLTK
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 ```
 
 Também devemos habilitar o Python para usar este código com nosso conjunto particular de código. Embora tenhamos todas as instruções de que precisamos na biblioteca NLTK, o Python gosta de agrupar essas instruções em um único `objeto` (nossa ferramenta de Análise de Sentimentos) que nosso programa pode acessar. *SentimentIntensityAnalyzer* é uma `classe`, que é um “modelo” que instrui o Python a construir um `objeto` com um conjunto especial de `funções` e `variáveis`. No nosso caso, queremos construir um único `objeto`: nosso analisador de sentimento, que segue este “modelo”. Para fazer isso, executamos *SentimentIntensityAnalyzer( )* e atribuímos a saída - nosso novo analisador de sentimento - a uma variável, que chamaremos de *‘sid’*.
 
-```
+```python
 # em seguida, inicializamos o VADER para que possamos usá-lo em nosso script Python
 sid = SentimentIntensityAnalyzer()
 ```
@@ -163,7 +163,7 @@ Fazendo isso, fornecemos à nossa nova variável *sid* todos os recursos do cód
 
 Em seguida, precisamos armazenar o texto que queremos analisar em um lugar que o *sid* possa acessar. Em Python, podemos armazenar uma única sequência de texto como uma variável de `string` (Nota do tradutor: Optamos por manter a palavra 'string' como no original em inglês para facilitar o entendimento de seu uso mais comum em códigos ['str']).
 
-```
+```python
 # a variável 'message_text' agora contém o texto que iremos analisar.
 
 message_text = '''Like you, I am getting very frustrated with this process. I am genuinely trying to be as reasonable as possible. I am not trying to "hold up" the deal at the last minute. I'm afraid that I am being asked to take a fairly large leap of faith after this company (I don't mean the two of you -- I mean Enron) has screwed me and the people who work for me.'''
@@ -177,7 +177,7 @@ Para fazer isso, o texto *(message_text)* deve ser inserido na ferramenta *(sid)
 
 Queremos ter certeza de capturar a saída de sid.polarity_scores () atribuindo-a a uma variável que chamaremos de *scores*:
 
-```
+```python
 print(message_text)
 
 # Utilizar método polarity_scores no sid e passar dentro dele o message_text produz um dicionário com pontuações negativas, neutras, positivas e compostas para o texto de entrada
@@ -191,7 +191,7 @@ Para imprimir cada `chave` e `valor` armazenado no dicionário, precisamos de um
 
 Aqui está o código para imprimir cada par de `valores-chave` dentro da variável de pontuação (score):
 
-```
+```python
 # Aqui, percorremos as chaves contidas nas pontuações (pos, neu, neg e pontuações compostas) e imprimimos os pares de valores-chave na tela para digitação classificada (pontuações):
 for key in sorted(scores):
       print('{0}: {1}, '.format(key, scores[key]), end='')
@@ -199,7 +199,7 @@ for key in sorted(scores):
 
 Aqui está todo o código em um único programa:
 
-```
+```python
 # primeiro, importamos os módulos relevantes da biblioteca NLTK
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
@@ -226,7 +226,7 @@ Salve seu arquivo Python. Agora estamos prontos para executar o código. Usando 
 
 O resultado deve ser semelhante a este:
 
-```
+```python
 Like you, I am getting very frustrated with this process. I am genuinely trying to be as reasonable as possible. I am not trying to "hold up" the deal at the last minute. I'm afraid that I am being asked to take a fairly large leap of faith after this company (I don't mean the two of you -- I mean Enron) has screwed me and the people who work for me.
 
 compound: -0.3804, neg: 0.093, neu: 0.836, pos: 0.071,
@@ -245,14 +245,14 @@ Desafio: tente substituir o conteúdo de *message_text* pelas seguintes cadeias 
 
 Texto 1:
 
-```
+```python
 Looks great.  I think we should have a least 1 or 2 real time traders in Calgary.
 ```
 
 Texto 2:
 
 
-```
+```python
 I think we are making great progress on the systems side.  I would like to
 set a deadline of November 10th to have a plan on all North American projects
 (I'm ok if fundementals groups are excluded) that is signed off on by
@@ -274,7 +274,7 @@ Quando analisado por meio da ferramenta de análise de sentimento VADER, o texto
 
 Nesta seção, apresentaremos a você o processo de seleção do escopo de análise para nossa ferramenta de análise de sentimento. Considere os seguintes dados brutos pertencentes a um e-mail de 3 de outubro de 2000 escrito por Jeffrey Shankman, então presidente de mercados globais da Enron (Quinn, 2006):
 
-```
+```python
 Message-ID: <3764632.1075857565248.JavaMail.evans@thyme>
 Date: Mon, 23 Oct 2000 09:14:00 -0700 (PDT)
 From: jeffrey.shankman@enron.com
@@ -320,7 +320,7 @@ Como discutimos acima, a análise de sentimento não fornece uma saída objetiva
 
 Primeiro, vamos considerar uma abordagem no nível da mensagem, na qual analisamos a mensagem como um único bloco:
 
-```
+```python
 # Continue with the same code the previous section, but replace the *message_text* variable with the new e-mail text:
 
 message_text = '''It seems to me we are in the middle of no man's land with respect to the  following:  Opec production speculation, Mid east crisis and renewed  tensions, US elections and what looks like a slowing economy (?), and no real weather anywhere in the world. I think it would be most prudent to play  the markets from a very flat price position and try to day trade more aggressively. I have no intentions of outguessing Mr. Greenspan, the US. electorate, the Opec ministers and their new important roles, The Israeli and Palestinian leaders, and somewhat importantly, Mother Nature.  Given that, and that we cannot afford to lose any more money, and that Var seems to be a problem, let's be as flat as possible. I'm ok with spread risk  (not front to backs, but commodity spreads). The morning meetings are not inspiring, and I don't have a real feel for  everyone's passion with respect to the markets.  As such, I'd like to ask  John N. to run the morning meetings on Mon. and Wed.  Thanks. Jeff'''
@@ -330,7 +330,7 @@ message_text = '''It seems to me we are in the middle of no man's land with resp
 
 Substitua `sentimento.py` pelo código acima, salve-o e execute-o. A saída deve ser semelhante a esta:
 
-```
+```python
 It seems to me we are in the middle of no man's land with respect to the following:  Opec production speculation, Mid east crisis and renewed tensions, US elections and what looks like a slowing economy  (?),  and no real weather anywhere in the world.  I think it would be most prudent to play the markets from a very flat price position and try to day trade more aggressively.  I have no intentions of outguessing Mr. Greenspan, the US. electorate, the Opec ministers and their new important roles, The Israeli and Palestinian leaders, and somewhat importantly, Mother Nature.  Given that, and that we cannot afford to lose any more money, and that Var seems to be a problem, let's be as flat as possible. I'm ok with spread risk  (not front to backs, but commodity spreads).  The morning meetings are not inspiring, and I don't have a real feel for everyone's passion with respect to the markets.  As such, I'd like to ask John N. to run the morning meetings on Mon. and Wed. Thanks. Jeff
 compound: 0.889, neg: 0.096, neu: 0.765, pos: 0.14,
 ```
@@ -344,7 +344,7 @@ Felizmente, o NLTK oferece uma coleção de ferramentas para dividir o texto em 
 
 Agora podemos reescrever o script de análise de sentimento para analisar cada frase separadamente:
 
-```
+```python
 # Abaixo está o código de análise de sentimento reescrito para uma análise por frase
 # observe o novo módulo -- word_tokenize!
 import nltk.data
@@ -378,7 +378,7 @@ for sentence in sentences:
 
 O resultado deve ser semelhante a este:
 
-```
+```python
 It seems to me we are in the middle of no man's land with respect to the  following:  Opec production speculation, Mid east crisis and renewed  tensions, US elections and what looks like a slowing economy (?
 compound: -0.5267, neg: 0.197, neu: 0.68, pos: 0.123,
 ), and no real weather anywhere in the world.
