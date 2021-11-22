@@ -1,6 +1,5 @@
 ---
 title: Análise de sentimento para exploração de dados
-collection: lessons
 layout: lesson
 slug: analise-sentimento-exploracao-dados
 date: 2018-01-15
@@ -24,7 +23,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/375
 difficulty: 2
 activity: analyzing
 topics: [distant-reading]
-abstract: "Nesta lição, você aprenderá a conduzir uma 'análise de sentimento' em textos e a interpretar os resultados. Esta é uma forma de análise exploratória de dados baseada no processamento de linguagem natural (PLN). Você aprenderá a instalar todos os softwares apropriados e a construir um programa reutilizável que pode ser aplicado aos seus próprios textos. (Nota do tradutor: Devido à falta de uma biblioteca de código que funcione bem com os textos em português, optamos por manter os textos dos exercícios na língua original.)"
+abstract: "Nesta lição, você aprenderá a conduzir uma 'análise de sentimento' em textos e a interpretar os resultados. Esta é uma forma de análise exploratória de dados baseada no processamento de linguagem natural (PLN). Você aprenderá a instalar todos os softwares apropriados e a construir um programa reutilizável que pode ser aplicado aos seus próprios textos."
 avatar_alt: Um homem sorridente e um homem rabugento
 doi: 10.46430/phpt0017
 ---
@@ -40,6 +39,8 @@ Esta lição usa a análise de sentimento como base para uma análise explorató
 * Utilizar Python e o Natural Language Processing Toolkit (NLTK) para gerar medidas de sentimento para um texto.
 * Avaliar criticamente os resultados da análise de sentimento e ajustar os parâmetros e a metodologia conforme necessário.
 * Identificar as próximas etapas para continuar o aprendizado sobre análise exploratória de dados e abordagens programáticas para dados qualitativos.
+
+Nota do tradutor: Devido à falta de uma biblioteca de código que funcione bem com os textos em português, optamos por manter os textos dos exercícios na língua original.
 
 ## O que é análise exploratória de dados?
 
