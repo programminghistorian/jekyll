@@ -28,6 +28,7 @@ Tarifs de partenariat
 | 1 000 GBP  | 400 GBP | 150 GBP  |
 | 1 400 USD  | 600 USD | 200 USD  |
 
+Si votre institution a les moyens de nous offrir un plus grand soutien encore, nous accueillons également des partenariats à notre niveau Gold. Les tarifs du partenariat niveau Gold sont d'un montant de 3 600 EUR, 3 600 CHF, 5 100 CAD, 3 000 GBP, 4 200 USD. 
 
 Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en janvier de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
 
