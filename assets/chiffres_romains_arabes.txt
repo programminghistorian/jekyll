@@ -1,0 +1,36 @@
+### Ce script est entièrement autonome. Changez l'extension du nom de fichier en .py
+### et vous pourrez l'exécuter en ligne de commande comme cela:
+### python chiffres_romains_arabes.py
+
+def rom2ar(rom):
+    """ Issu de la liste de diffusion du tuteur en Python:
+    János Juhász janos.juhasz à VELUX.com
+    retourne l'équivalent arabe d'un chiffre romain
+    
+    La fonction est vraiment brillante, donc je l'ai parsemée d'instructions
+    print pour montrer pourquoi elle fonctionne.
+    """
+    roman_codec = {'M':1000, 'D':500, 'C':100, 'L':50, 'X':10, 'V':5, 'I':1}
+    roman = rom.upper()
+    roman = list(roman)
+    roman.reverse()
+    decimal = [roman_codec[ch] for ch in roman]
+    result = 0
+    print(f"Pour le chiffre romain: {rom.upper()}\nliste des caractères romains traduits dans leurs équivalents arabes,\nalors à l'envers: {decimal}\n")
+    while len(decimal):
+        act = decimal.pop()
+        print(f"decimal.pop() retourne: {act}")
+        if len(decimal) and act < max(decimal):
+            act = -act
+            print(f"résultat en cours: {result} + {act} = {result + act}\nnégatif car {abs(act)} est inférieur à la valeur maximale de la liste qui est: {max(decimal)}")
+        else:
+            print(f"résultat en cours: {result} + {act} = {result + act}")
+        print(f"notre liste de chiffres décimaux équivaut maintenant à: {decimal}\n\n")
+        result += act
+        print("BOUCLE!")
+
+    return result
+    
+
+print(rom2ar("mmcdlxxxix"))
+print("Brillant, n'est-ce pas ?")
