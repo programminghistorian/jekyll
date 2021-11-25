@@ -1462,10 +1462,6 @@ De acuerdo con [la documentación de TEI](https://tei-c.org/release/doc/tei-p5-d
 [^11]: Más exactamente, OxGarage los transformó en elementos `<span class="foreign">` que, de acuerdo con el [CSS](https://www.tei-c.org/release/xml/tei/stylesheet/tei.css) vinculado en el documento xHTML tienen la propiedad `font-style:italic`. En ese sentido, si un lector competente en CSS lo quisiera, podría asignarle otras propiedades CSS a este u otros elementos resultantes de la conversión. Sin embargo, esto no es necesario para producir un resultado relativamente agradable.
 
 
-# Acerca del autor
-Nicolás Vaughan es profesor asociado del Departamento de Humanidades y Literatura de la Universidad de los Andes, en Bogotá (Colombia), donde también enseña en las Maestrías en Humanidades Digitales y en Estudios Clásicos. Es doctor en filosofía medieval de la Universidad de Oxford.
-
-
 <!---
 ; LocalWords:  TEI XML autocerrado
 %%% Local Variables:
