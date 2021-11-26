@@ -145,7 +145,7 @@ the web page. Copy this code into the `obo.py` module.
 def webPageToText(url):
     import urllib.request, urllib.error, urllib.parse
     response = urllib.request.urlopen(url)
-    html = response.read()
+    html = response.read().decode('UTF-8')
     text = stripTags(html).lower()
     return text
 ```

@@ -214,7 +214,7 @@ import urllib.request, urllib.error, urllib.parse, obo
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 respuesta = urllib.request.urlopen(url)
-html = respuesta.read()
+html = respuesta.read().decode('UTF-8')
 texto = obo.quitarEtiquetas(html)
 listaPalabras = texto.split()
 
