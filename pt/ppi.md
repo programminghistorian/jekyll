@@ -26,6 +26,8 @@ Taxas de adesão:
 | $1.400 USD | $600 USD | $200 USD |
 | $1.700 CAD | $700 CAD | $275 CAD |
 
+Se a sua instituição tem recursos para nos oferecer um suporte ainda maior, também damos as boas-vindas a parcerias no nosso nível Gold. As taxas de parceria do nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD.
+
 As taxas são anuais e consideramos a contagem a partir da data do primeiro pagamento. Os valores são definidos em Janeiro de cada ano. Para uma cotação em outra moeda, por favor, envie um e-mail para [Dr. James Baker](mailto:programminghistorian@gmail.com).
 
 ## Benefícios da adesão
