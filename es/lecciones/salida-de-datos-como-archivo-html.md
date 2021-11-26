@@ -102,7 +102,7 @@ Vamos a convertir en funciones algo del código que ya hemos escrito. Uno de ell
 def paginaWebATexto(url):
     import urllib.request, urllib.error, urllib.parse
     respuesta = urllib.request.urlopen(url)
-    html = respuesta.read()
+    html = respuesta.read().decode('UTF-8')
     texto = quitarEtiquetas(html).lower()
     return texto
 ```

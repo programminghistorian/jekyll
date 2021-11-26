@@ -284,7 +284,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth):
 
     #download the page and save the result.
     response = urllib.request.urlopen(url)
-    webContent = response.read()
+    webContent = response.read().decode('UTF-8')
     filename = 'search-result'
     f = open(filename + ".html", 'w')
     f.write(webContent)
@@ -467,7 +467,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 
         #download the page and save the result.
         response = urllib.request.urlopen(url)
-        webContent = response.read()
+        webContent = response.read().decode('UTF-8')
         filename = 'search-result' + str(startValue)
         f = open(filename + ".html", 'w')
         f.write(webContent)
@@ -559,7 +559,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 
         #download the page and save the result.
         response = urllib.request.urlopen(url)
-        webContent = response.read()
+        webContent = response.read().decode('UTF-8')
 
         #save the result to the new directory
         filename = 'search-result' + str(startValue)
@@ -643,7 +643,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 
         #download the page and save the result.
         response = urllib.request.urlopen(url)
-        webContent = response.read()
+        webContent = response.read().decode('UTF-8')
         filename = cleanQuery + '/' + 'search-result' + str(startValue)
         f = open(filename + ".html", 'w')
         f.write(webContent)
@@ -823,7 +823,7 @@ def getIndivTrials(query):
 
         #download the page
         response = urllib.request.urlopen(url)
-        webContent = response.read()
+        webContent = response.read().decode('UTF-8')
 
         #create the filename and place it in the new directory
         filename = items + '.html'
@@ -874,7 +874,7 @@ def getIndivTrials(query):
 
         #download the page
         response = urllib.request.urlopen(url)
-        webContent = response.read()
+        webContent = response.read().decode('UTF-8')
 
         #create the filename and place it in the new directory
         filename = items + '.html'
@@ -924,7 +924,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 
         #download the page and save the result.
         response = urllib.request.urlopen(url)
-        webContent = response.read()
+        webContent = response.read().decode('UTF-8')
         filename = cleanQuery + '/' + 'search-result' + str(startValue)
         f = open(filename + ".html", 'w')
         f.write(webContent)
@@ -1025,7 +1025,7 @@ failed to download to our new list, `failedAttempts`
 
         try:
             response = urllib2.urlopen(url)
-            webContent = response.read()
+            webContent = response.read().decode('UTF-8')
 
             #create the filename and place it in the new "trials" directory
             filename = items + '.html'
@@ -1089,7 +1089,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 
         #download the page and save the result.
         response = urllib.request.urlopen(url)
-        webContent = response.read()
+        webContent = response.read().decode('UTF-8')
         filename = cleanQuery + '/' + 'search-result' + str(startValue)
         f = open(filename + ".html", 'w')
         f.write(webContent)
@@ -1134,7 +1134,7 @@ def getIndivTrials(query):
         socket.setdefaulttimeout(10)
         try:
             response = urllib.request.urlopen(url)
-            webContent = response.read()
+            webContent = response.read().decode('UTF-8')
 
             #create the filename and place it in the new directory
             filename = items + '.html'

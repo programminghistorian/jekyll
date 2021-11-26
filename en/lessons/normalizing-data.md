@@ -118,7 +118,7 @@ import urllib.request, urllib.error, urllib.parse, obo
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 response = urllib.request.urlopen(url)
-html = str(response.read())
+html = str(response.read().decode('UTF-8'))
 text = obo.stripTags(html).lower() #add the string method here.
 wordlist = text.split()
 
@@ -227,7 +227,7 @@ import urllib.request, urllib.error, urllib.parse, obo
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 response = urllib.request.urlopen(url)
-html = response.read()
+html = response.read().decode('UTF-8')
 text = obo.stripTags(html).lower()
 wordlist = obo.stripNonAlphaNum(text)
 
