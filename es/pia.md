@@ -22,10 +22,10 @@ Tasas de asociación :
 
 | Países de alto ingreso | Países de ingreso medio | [Países AOD](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm) |
 | --- | --- | --- |
-| £1000 GBP  | £400 GBP | £150 GBP     |
-| $1400 USD  | $600 USD | $200 USD     |
-| €1200 EUR  | €500 EUR | €175 EUR     |
-| $1700 CAD  | $700 CAD | $275 CAD     |
+| £1.000 GBP  | £400 GBP | £150 GBP     |
+| $1.400 USD  | $600 USD | $200 USD     |
+| €1.200 EUR  | €500 EUR | €175 EUR     |
+| $1.700 CAD  | $700 CAD | $275 CAD     |
 
 Si tu institución tiene recursos para apoyarnos con una cantidad mayor, también agradecemos aportaciones de Instituciones Asociadas en nuestro nivel Gold. Las tarifas de Gold Tier Partnership son £3.000 GBP, $4.200 USD, €3.600 EUR, $5.100 CAD.
 
