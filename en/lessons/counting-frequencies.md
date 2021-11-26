@@ -254,7 +254,7 @@ import urllib.request, urllib.error, urllib.parse, obo
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 response = urllib.request.urlopen(url)
-html = response.read()
+html = response.read().decode('UTF-8')
 text = obo.stripTags(html).lower()
 wordlist = obo.stripNonAlphaNum(text)
 dictionary = obo.wordListToFreqDict(wordlist)
@@ -376,7 +376,7 @@ import obo
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 response = urllib.request.urlopen(url)
-html = response.read()
+html = response.read().decode('UTF-8')
 text = obo.stripTags(html).lower()
 fullwordlist = obo.stripNonAlphaNum(text)
 wordlist = obo.removeStopwords(fullwordlist, obo.stopwords)
