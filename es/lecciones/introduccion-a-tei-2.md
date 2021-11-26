@@ -1163,9 +1163,6 @@ Como puede verse, todo el `<bibl>` va entre paréntesis, exactamente como aparec
 
 
 
-
-
-
 #### Nota bibliográfica (texto 8)
 
 Como vimos antes, la autora nos ha proporcionado amablemente la información bibliográfica para la cita del *Génesis* contenida en las líneas 14-19.
@@ -1197,7 +1194,6 @@ El código de toda la citación será entonces el siguiente:
   </note>
 </cit>
 ```
-
 
 
 ## Código completo del documento
@@ -1321,7 +1317,6 @@ El [código completo](https://raw.githubusercontent.com/programminghistorian/jek
 ```
 
 Aunque VS Code nos dice que nuestro código es sintácticamente válido en XML, podemos verificar que también es semánticamente válido en TEI con ayuda del [TBE Validation Service](https://teibyexample.org/tools/TBEvalidator.htm):
-
 
 {% include figure.html filename="introduccion-a-tei-2-05.png" caption="Validación TEI del código del manuscrito de Soledad Acosta en TBE Validation Service. El color verde indica que la validación fue exitosa. Si hubiese algún error, aparecería un mensaje en color rojo" %}
 
