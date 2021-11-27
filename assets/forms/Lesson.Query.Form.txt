@@ -13,7 +13,7 @@ Portuguese: Daniel Alves (dra@fcsh.unl.pt)
 2. Your email address
 
 ## Lesson Metadata
-3. Submission Langauge (delete as appropriate) English / Español / Français / Portuguese
+3. Submission Language (delete as appropriate) English / Español / Français / Portuguese
 4. Proposed Lesson Title
 5. Lesson Abstract (3-4 sentences)
 6. Case Study Description (details about your historical example problem)
