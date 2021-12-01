@@ -60,7 +60,7 @@ La consola es donde escribirás los comandos. Para limpiar la pantalla inicial, 
 
 Antes de trabajar con tus propios datos, ayuda que te hagas una idea del funcionamiento de R usando los grupos de datos que éste incluye. Puedes buscar en los grupos de datos ejecutando <code class="highlighter-rouge">data()</code> en la consola. Esto mostrará una lista de todos los grupos de datos disponibles en una ventana aparte; la lista incluye los títulos de todos los grupos de datos además de una pequeña descripción de la información de cada uno.
 
-Echa un vistazo al grupo de datos de <code class="highlighter-rouge">AirPassengers</code> en la consola[^1]. Esto cargará el grupo de datos en la consola. Para ver los datos, escribe <code class="highlighter-rouge">AirPassengers</code> en la siguiente línea y pulsa 'Intro'. Esto cargará una tabla mostrando el número de pasajeros que volaron en aerolíneas internacionales entre enero de 1949 y diciembre de 1960, en unidades de mil. Deberías poder ver:
+Primero, necesitas cargar el dataset <code class="highlighter-rouge">AirPassengers</code>[^1] en la sesión de R. Escribe `data(AirPassengers)` y pulsa *Intro*. Para ver el dataset, escribe `AirPassengers` en la siguiente línea de código y pulsa *Intro*. Esto imprimirá o mostrará una tabla con el número de pasajeros que voló en aerolíneas internacionacionales entre enero de 1949 y diciembre de 1960, en miles. Deberías poder ver:
 
 ```
 > data(AirPassengers)
