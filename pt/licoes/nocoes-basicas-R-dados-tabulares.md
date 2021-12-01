@@ -63,7 +63,7 @@ O console é onde se digitam os comandos. Para limpar a tela inicial, vá para '
 
 Antes de trabalhar com dados próprios, usar os conjuntos de dados já incorporados ajuda a ter uma noção de como R funciona. É possível pesquisar nos conjuntos de dados inserindo <code class="highlighter-rouge">data()</code> no console. Isto mostrará a lista de todos os conjuntos de dados disponíveis em uma janela separada. Essa lista inclui os títulos de todos os diferentes conjuntos de dados, bem como uma breve descrição sobre as informações em cada um deles.
 
-Dê uma olhada no conjunto de dados <code class="highlighter-rouge">AirPassengers</code> digitando <code class="highlighter-rouge">AirPassengers</code> na próxima linha do console^[1] e pressionando Enter. Isto irá carregar o conjunto de dados e gerar uma tabela mostrando o número de passageiros (em milhares) que voaram em companhias aéreas internacionais entre janeiro de 1949 e dezembro de 1960. Deve aparecer:
+No exemplo abaixo iremos primeiro carregar o conjunto de dados <code class="highlighter-rouge">AirPassengers</code> na sua sessão R digitando <code class="highlighter-rouge">data(AirPassengers)</code> na próxima linha do console^[1] e pressionando Enter. Para visualizar o conjunto de dados, digite apenas <code class="highlighter-rouge">AirPassengers</code> na próxima linha e pressione Enter novamente. Isso imprimirá uma tabela mostrando o número de passageiros que voaram em companhias aéreas internacionais entre janeiro de 1949 e dezembro de 1960, em milhares. Você deverá ver:
 
 ```
 > data(AirPassengers)
