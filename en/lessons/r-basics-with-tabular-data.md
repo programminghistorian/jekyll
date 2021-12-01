@@ -60,7 +60,6 @@ Before working with your own data, it helps to get a sense of how R works by usi
 First, you need to load the AirPassengers data set into your R session. Type `data(AirPassengers)` and hit *Enter*[^1]. To view the data set, type in `AirPassengers` on the next line and hit *Enter* again. This will print a table showing the number of passengers who flew on international airlines between January 1949 and December 1960, in thousands. You should see:
 
 ```
-> data()
 > data(AirPassengers)
 > AirPassengers
      Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
