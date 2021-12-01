@@ -57,10 +57,11 @@ The console is where you will type commands. To clear the initial screen, go to 
 
 Before working with your own data, it helps to get a sense of how R works by using the built-in data sets. You can search through the data sets by entering `data()` into the console. This will bring up the list of all of the available data sets in a separate window. This list includes the titles of all of the different data sets as well as a short description about the information in each one.
 
-Take a look at the AirPassengers data set. To load the AirPassengers data set into your console, type `AirPassengers` and hit *Enter*[^1]. This will bring up a table showing the number of passengers who flew on international airlines between January 1949 and December 1960, in thousands. You should see:
+First, you need to load the AirPassengers data set into your console. Type `data(AirPassengers)` and hit *Enter*[^1]. To view the data set, type in `AirPassengers` on the next line and hit *Enter* again. This will print a table showing the number of passengers who flew on international airlines between January 1949 and December 1960, in thousands. You should see:
 
 ```
 > data()
+> data(AirPassengers)
 > AirPassengers
      Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
 1949 112 118 132 129 121 135 148 148 136 119 104 118
