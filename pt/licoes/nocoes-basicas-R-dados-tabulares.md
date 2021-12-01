@@ -66,7 +66,6 @@ Antes de trabalhar com dados próprios, usar os conjuntos de dados já incorpora
 Dê uma olhada no conjunto de dados <code class="highlighter-rouge">AirPassengers</code> digitando <code class="highlighter-rouge">AirPassengers</code> na próxima linha do console^[1] e pressionando Enter. Isto irá carregar o conjunto de dados e gerar uma tabela mostrando o número de passageiros (em milhares) que voaram em companhias aéreas internacionais entre janeiro de 1949 e dezembro de 1960. Deve aparecer:
 
 ```
-> data()
 > data(AirPassengers)
 > AirPassengers
      Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
