@@ -60,10 +60,10 @@ La consola es donde escribirás los comandos. Para limpiar la pantalla inicial, 
 
 Antes de trabajar con tus propios datos, ayuda que te hagas una idea del funcionamiento de R usando los grupos de datos que éste incluye. Puedes buscar en los grupos de datos ejecutando <code class="highlighter-rouge">data()</code> en la consola. Esto mostrará una lista de todos los grupos de datos disponibles en una ventana aparte; la lista incluye los títulos de todos los grupos de datos además de una pequeña descripción de la información de cada uno.
 
-Echa un vistazo al grupo de datos de <code class="highlighter-rouge">AirPassengers</code> en la consola[^1]. Esto cargará el grupo de datos en la consola. Para ver los datos, escribe <code class="highlighter-rouge">AirPassengers</code> en la siguiente línea y pulsa 'Intro'. Esto cargará una tabla mostrando el número de pasajeros que volaron en aerolíneas internacionales entre enero de 1949 y diciembre de 1960, en unidades de mil. Escribe <code class="highlighter-rouge">data(AirPassengers)</code> en la consola y pulsa 'Intro'. En la siguiente línea, escribe <code class="highlighter-rouge">AirPassengers</code> y pulsa 'Intro' de nuevo. Deberías poder ver:
+Echa un vistazo al grupo de datos de <code class="highlighter-rouge">AirPassengers</code> en la consola[^1]. Esto cargará el grupo de datos en la consola. Para ver los datos, escribe <code class="highlighter-rouge">AirPassengers</code> en la siguiente línea y pulsa 'Intro'. Esto cargará una tabla mostrando el número de pasajeros que volaron en aerolíneas internacionales entre enero de 1949 y diciembre de 1960, en unidades de mil. Deberías poder ver:
 
 ```
-> data(AirPassengers)
+> data()
 > AirPassengers
      Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
 1949 112 118 132 129 121 135 148 148 136 119 104 118
