@@ -63,7 +63,6 @@ Antes de trabajar con tus propios datos, ayuda que te hagas una idea del funcion
 Echa un vistazo al grupo de datos de <code class="highlighter-rouge">AirPassengers</code> en la consola[^1]. Esto cargará el grupo de datos en la consola. Para ver los datos, escribe <code class="highlighter-rouge">AirPassengers</code> en la siguiente línea y pulsa 'Intro'. Esto cargará una tabla mostrando el número de pasajeros que volaron en aerolíneas internacionales entre enero de 1949 y diciembre de 1960, en unidades de mil. Deberías poder ver:
 
 ```
-> data()
 > data(AirPassengers)
 > AirPassengers
      Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
