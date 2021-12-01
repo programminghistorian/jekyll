@@ -64,6 +64,7 @@ Echa un vistazo al grupo de datos de <code class="highlighter-rouge">AirPassenge
 
 ```
 > data()
+> data(AirPassengers)
 > AirPassengers
      Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
 1949 112 118 132 129 121 135 148 148 136 119 104 118
