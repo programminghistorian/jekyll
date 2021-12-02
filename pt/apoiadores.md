@@ -83,6 +83,7 @@ Também agradecemos publicamente a todos os nossos apoiadores ‘Patrono’ e �
 -   Sarah Melton (Educator)
 -   Laurissa Stokes (Educator)
 -   Monica Berti (Educator)
+-   Mike Bess
 
 ## Gestão de Doações e Patrocínios
 
