@@ -80,6 +80,7 @@ Nous tenons également à remercier publiquement tous nos donateurs de niveau 'm
 - Sarah Melton (éducation)
 - Laurissa Stokes (éducation)
 - Monica Berti (éducation)
+- Mike Bess
 
 ## Gestion de donations et de parrainages
 
