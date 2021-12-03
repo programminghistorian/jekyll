@@ -18,6 +18,11 @@ We define bugs as: "An error in a computer program that produces an unexpected r
 
 First, we ask that you check on our [issue tracker](https://github.com/programminghistorian/jekyll/issues?q=is%3Aissue+is%3Aopen+label%3Abug) if someone has already flagged the problem and, in such case, that you leave a comment. If the issue has not been reported, follow one of these options:
 
+<div class="alert alert-success">
+Please, do not create a Pull Request with the correction.
+</div>
+
+
 ## Option 1: Email
 
 Send an email to our [Publishing Assistant](mailto:anisa.hawes@icloud.com).
@@ -41,9 +46,6 @@ Create a new issue with a descriptive title and complete as much information as 
 
 For more information about GitHub issues, read the GitHub Guide on [Mastering Issues](https://guides.github.com/features/issues/).
 
-If you believe you know how to fix the problem in the lesson, you may wish to consider forking our repository and making a pull request.
-
-For more information about pull requests, see the GitHub Guide on [Forking Projects](https://guides.github.com/activities/forking/) or Rich Jones's tutorial on [How to GitHub](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).
 
 ## Further Resources on Git and GitHub
 
