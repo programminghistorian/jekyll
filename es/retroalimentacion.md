@@ -16,7 +16,7 @@ Definimos errores o *bugs* como: "Un error en un programa informático que produ
 Antes de nada, te pedimos que consultes si alguien ya ha reportado el problema en [nuestro repositorio](https://github.com/programminghistorian/jekyll/issues?q=is%3Aissue+is%3Aopen+label%3Abug) y, en tal caso, que dejes un comentario. Si no se ha informado del problema, sigue una de estas opciones: 
 
 <div class="alert alert-info">
-Por favor, no abras un _Pull Request_ con la corrección.
+Por favor, no abras un "Pull Request" con la corrección.
 </div>
 
 ## Opción 1: Email
