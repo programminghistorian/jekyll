@@ -1163,9 +1163,6 @@ Como puede verse, todo el `<bibl>` va entre paréntesis, exactamente como aparec
 
 
 
-
-
-
 #### Nota bibliográfica (texto 8)
 
 Como vimos antes, la autora nos ha proporcionado amablemente la información bibliográfica para la cita del *Génesis* contenida en las líneas 14-19.
@@ -1197,7 +1194,6 @@ El código de toda la citación será entonces el siguiente:
   </note>
 </cit>
 ```
-
 
 
 ## Código completo del documento
@@ -1321,7 +1317,6 @@ El [código completo](https://raw.githubusercontent.com/programminghistorian/jek
 ```
 
 Aunque VS Code nos dice que nuestro código es sintácticamente válido en XML, podemos verificar que también es semánticamente válido en TEI con ayuda del [TBE Validation Service](https://teibyexample.org/tools/TBEvalidator.htm):
-
 
 {% include figure.html filename="introduccion-a-tei-2-05.png" caption="Validación TEI del código del manuscrito de Soledad Acosta en TBE Validation Service. El color verde indica que la validación fue exitosa. Si hubiese algún error, aparecería un mensaje en color rojo" %}
 
@@ -1460,10 +1455,6 @@ De acuerdo con [la documentación de TEI](https://tei-c.org/release/doc/tei-p5-d
     Esto podría ser importante si —por ejemplo— quisiéramos indicar que no existe claridad con respecto a la ubicación de los "llamados" a pie de página que anclan las notas (si la numeración no es clara, o si hay un número distinto de "llamados" y de notas, por ejemplo). Sin embargo, no haremos eso en la versión final de nuestro documento.
 
 [^11]: Más exactamente, OxGarage los transformó en elementos `<span class="foreign">` que, de acuerdo con el [CSS](https://www.tei-c.org/release/xml/tei/stylesheet/tei.css) vinculado en el documento xHTML tienen la propiedad `font-style:italic`. En ese sentido, si un lector competente en CSS lo quisiera, podría asignarle otras propiedades CSS a este u otros elementos resultantes de la conversión. Sin embargo, esto no es necesario para producir un resultado relativamente agradable.
-
-
-# Acerca del autor
-Nicolás Vaughan es profesor asociado del Departamento de Humanidades y Literatura de la Universidad de los Andes, en Bogotá (Colombia), donde también enseña en las Maestrías en Humanidades Digitales y en Estudios Clásicos. Es doctor en filosofía medieval de la Universidad de Oxford.
 
 
 <!---
