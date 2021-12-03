@@ -18,7 +18,7 @@ We define bugs as: "An error in a computer program that produces an unexpected r
 
 First, we ask that you check on our [issue tracker](https://github.com/programminghistorian/jekyll/issues?q=is%3Aissue+is%3Aopen+label%3Abug) if someone has already flagged the problem and, in such case, that you leave a comment. If the issue has not been reported, follow one of these options:
 
-<div class="alert alert-success">
+<div class="alert alert-info">
 Please, do not create a Pull Request with the correction.
 </div>
 
