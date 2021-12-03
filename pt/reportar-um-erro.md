@@ -14,6 +14,11 @@ Definimos erros/bugs como: "Um erro em um programa de computador que produz um r
 
 Primeiro, pedimos que você verifique no nosso [rastreador de questões](https://github.com/programminghistorian/jekyll/issues?q=is%3Aissue+is%3Aopen+label%3Abug) se alguém já sinalizou o erro e, nesse caso, deixe um comentário nessa questão. Se o problema não foi relatado, siga uma destas opções:
 
+<div class="alert alert-info">
+Por favor, não abra um "Pull Request" com a correção.
+</div>
+
+
 ## Opção 1: Envie um email
 
 Envie um email para o/a nosso/a [Assistente de Publicação](mailto:anisa.hawes@icloud.com).
@@ -36,10 +41,6 @@ Crie uma nova questão com um título descritivo e preencha o máximo de informa
 <img src="https://cloud.githubusercontent.com/assets/1126864/3697100/52b37768-139e-11e4-816e-c3eee5516997.png" class="full-width rounded" alt="{{ site.data.snippets.open-an-issue-on-github-image-alt[page.lang] }}"/>
 
 Para mais informação sobre as questões no GitHub, consulte o Guia GitHub sobre [Mastering Issues](https://guides.github.com/features/issues/).
-
-Se acredita que sabe como resolver um problema numa lição, considere bifurcar o nosso repositório e fazer um _pull request_.
-
-Para mais informações sobre _pull requests_, consulte o Guia GitHub sobre [Forking Projects](https://guides.github.com/activities/forking/) ou o tutorial de Rich Jones's sobre [How to GitHub](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).
 
 ## Recursos adicionais sobre o Git e o GitHub
 
