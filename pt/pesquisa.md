@@ -33,10 +33,13 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 
 ## Workshops & Eventos
 
-* Adam Crymble, 'Teach Digital History Well', UCL, United Kingdom (29 de Abril de 2021).
+* Adam Crymble & Anisa Hawes, ‘[Training the Teacher: Giving your first Digital History Workshop](https://www.history.ac.uk/our-century/centenary-events/training-teacher-giving-your-first-digital-history-workshop)’, Institute of Historical Research, Reino Unido (18 Novembro 2021).
+* Jennifer Isasi & Brandon Walsh, ‘[_Programming Historian_ Book Club](https://ach.org/blog/2021/09/13/fall-2021-programming-historian-book-club/)’, Association for Computers and the Humanities, Estados Unidos (Outubro - Novembro 2021).
+* _Programming Historian_ em português, ‘Verão com Ciência 2021’, Fundação para a Ciência e Tecnologia, Portugal (Setembro 2021).
+* Adam Crymble, 'Teach Digital History Well', UCL, Reino Unido (29 de Abril de 2021).
 * Silvia Gutiérrez, Jairo Melo & Riva Quiroga, ['Datos Abiertos y Humanidades Digitales'](https://github.com/programminghistorian/opendataday-2021), in _Open Data Day 2021_, virtual (6 Março 2021).
 * Joshua Ortiz Baco, Daniel Alves, Jimmy Medeiros, Luis Ferla, '[Programming Historian em português](https://www.youtube.com/watch?v=bt-OaMW2Fr4)' in _I Jornada Nacional de Humanidades Digitais_, IBICT (13 de Outubro de 2020).
-* Adam Crymble, 'Python for Humanists', University of London, United Kingdom (31 de Outubro de 2019).
+* Adam Crymble, 'Python for Humanists', University of London, Reino Unido (31 de Outubro de 2019).
 * Víctor Gayol, 'Introducción a la Historia Digital - The Programming Historian en español', Maestría en Estudios históricos Interdisciplinarios, División de Ciencias Sociales y Humanidades, Universidad de Guanajuato, México (1-5 de Outubro de 2018).
 * Adam Crymble, Maria José Afanador Llach, José Antonio Motilla, '[Digital Humanities Skills for Latin American Scholarship](https://zenodo.org/record/1473414)', Universidad de los Andes, Bogotá, Colombia (1-3 de Agosto de 2018) - funded by the British Academy.
 * Victor Gayol, 'Introducción a las Ciencias Sociales y Humanidades Digitales. The Programming Historian en español – COLMICH', El Colegio de Michoacán (Setembro de 2017).
@@ -50,6 +53,10 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 de Maio de 2015).
 
 ## Pósteres, Artigos em conferências & Palestras convidadas
+
+* Antonio Rojas Castro & Jennifer Isasi, ‘[Torre de Babel: Humanidades Digitales multilingües](http://ahlist.org/wp-content/uploads/2021/11/AHLIST-2021-PROGRAM_Virtual_FINAL.pdf)’, Association of History Literature Science and Technology (AHLiST), (19 Novembro 2021).
+* Sarah Melton, Joana Vieira Paulino, Nabeel Siddiqui & Riva Quiroga, ‘[_Programming Historian_: A Multilingual Open Access Publication](https://openpublishingfest.org/calendar.html#event-69/)’, Open Publishing Fest, (17 Novembro 2021).
+* Adam Crymble, 'Digital Humanities for the Visually Impaired: Programming Historian's Journey to Accessibility’, UCL, Reino Unido (17 Novembro 2021).
 * Jessica Parr e Nabeel Siddiqui, '_Programming Historian_ and the Challenges of Globally Distributed Learning', [Sharing Digitally: Seminar on Digital Tools and Infrastructures](https://www.lvivcenter.org/en/conferences/sharing-digitally-2/), Center for Urban History, Lviv, Ucrânia, 29 Setembro 2021.
 * Nabeel Siddiqui, '[In the Open: The Programming Historian and the Challenges Globally Distributed Learning](https://www.sedc.ac.in/uploads/latest-events/digital-huminities-session-20.pdf)', Seshadripuram Evening Degree College, Bengaluru, Índia, 29 Junho 2021.
 * Anna-Maria Sichani, ‘[Sustaining communities in Digital Humanities: diversity, collaboration, and capacity building in digital scholarship and pedagogy](https://2021.dhbenelux.org/schedule/)’, DH Benelux, Leiden, 2 Junho 2021.
