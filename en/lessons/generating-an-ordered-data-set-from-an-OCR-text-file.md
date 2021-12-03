@@ -166,8 +166,8 @@ Code ripped from https://www.datacamp.com/community/tutorials/fuzzy-string-pytho
 def lev(seq1, seq2):
     """ levenshtein_ratio_and_distance:
         For all i and j, distance[i,j] will contain the Levenshtein
-        distance between the first i characters of s and the
-        first j characters of t
+        distance between the first i characters of seq1 and the
+        first j characters of seq2
     """
     # Initialize matrix of zeros
     rows = len(seq1)+1
