@@ -47,7 +47,7 @@ We find that the graphical, web-based nature of TweetSets, however, makes it ide
 
 If you’re using TweetSets, click “Get Started” and you’ll be able to see a list of all of their existing datasets. Clicking the name of each set will give you more information on it, including its DOI, or [Digital Object Identifier](https://en.wikipedia.org/wiki/Digital_object_identifier), which allows you to reliably locate a digital object (and learn more about how it was created).
 
-When you have decided on the dataset you want to pull from, simply check the checkbox to the left. We’ve chosen a dataset focusing on Hurricane Irma a major storm in the 2017 Atlantic Hurricane Season.  As you can see, this will give us just over 17 million tweets as is. If you want to work with multiple datasets, follow the steps for downloading and hydrating each one separately.
+When you have decided on the dataset(s) you want to pull from, simply check the checkbox to the left. You can choose as many as you’d like. We’ve chosen two datasets focusing on Hurricanes Irma and Harvey, two major storms of the 2017 Atlantic Hurricane Season.  As you can see, this will give us just over 30 million tweets as is.
 
 {% include figure.html filename="dataset-selection.png" caption="Dataset Selection Page" %}
 
@@ -65,9 +65,7 @@ As you can see above, we’ve chosen to limit our dataset by two parameters. Fir
 
 {% include figure.html filename="parameters-3.png" caption="Selecting all geotagged tweets and the Action buttons section" %}
 
-Once you have filled in your desired parameters, select "Preview" to proceed. You will see a sample of the tweets based on your parameters, and, conveniently, the number of tweets your current parameters will return.  As you can see, the two parameters we chose have the added benefit of winnowing down the dataset from over seventeen million tweets to just under two thousand: much more manageable. This option is very helpful to make sure you are constructing a dataset that will work for your purposes before you actually go and download a bunch of data. With more advanced tools, you usually have to download and hydrate your data before being able to figure out what is in it. 
-
-You can also view some analytics about the dataset, such as the top users (most frequent tweet authors), top mentions, top hashtags, and top URLs. The first 1,000 rows of each of these lists is downloadable from this page.  
+Once you have filled in your desired parameters, you have three options to proceed. "Preview" will give you a sample of the tweets based on your parameters, and, conveniently, the number of tweets your current parameters will return.  As you can see, the two parameters we chose have the added benefit of winnowing down the dataset from over thirty million tweets to just over five thousand: much more manageable. This option is very helpful to make sure you are constructing a dataset that will work for your purposes before you actually go and download a bunch of data. With more advanced tools, you usually have to download and hydrate your data before being able to figure out what is in it.
 
 {% include figure.html filename="statistics.png" caption="Dataset Preview" %}
 
@@ -83,15 +81,15 @@ To continue on, press "Create Dataset", at which point you will need to provide 
 
 {% include figure.html filename="naming-dataset.png" caption="The site prompts you for a name." %}
 
-Next, select "Generate tweet IDs" and provide an email address so you can be notified when a dataset has been generated. (This can take some time for large datasets.) The file of tweet IDs which will be generated will look similar to other Twitter data files you may encounter from other sources.
+Now, you have the option to export (or not) four different aspects of data: by tweet IDs, mentions, top mentions, and top users. We’ll grab all of them and show you a few ways to work with them. This is also good because, regardless of where and how you get your data from Twitter, you will probably encounter data that looks like one of these files.
 
-{% include figure.html filename="downloads.png" caption="Download (and extract) the Tweet ID and Mentions files. Note the instructions for extracting .gz files." %}
+{% include figure.html filename="downloads.png" caption="Download (and extract) every .zip." %}
 
-{% include figure.html filename="exports.png" caption="After extraction, your file should look something like this. You might rename the files to indicate the nodes and edges files." %}
+{% include figure.html filename="exports.png" caption="After extraction, your files should look something like this." %}
 
 ## Hydrating
 
-Now that you have a set of tweet IDs, you can hydrate the file using the DocNow Hydrator, a free, open-source piece of hydration software found on [GitHub](https://github.com/DocNow/hydrator). On this page, scroll past all the source files to the Install heading, where you can find a link to prebuilt [releases](https://github.com/DocNow/hydrator/releases) of the software. Select the correct version for your machine and install.
+Now that you have a set of tweet IDs, you can hydrate the file using the DocNow Hydrator, a free, open-source piece of hydration software found on [GitHub](https://github.com/DocNow/hydrator). On this page, scroll past all the source files to the bottom, where you can find prebuilt versions of the software. Select the correct version for your machine and install.
 
 {% include figure.html filename="doc-now-download.png" caption="The prebuilt versions of the Hydrator on github." %}
 
@@ -131,27 +129,21 @@ All of these processes will probably include some light data work to format this
 
 You might have noticed we didn't get any latitude/longitude location information, but we did get a "place" column with less exact, textualized location information.  Non-coordinate location data needs to be [geocoded](https://en.wikipedia.org/wiki/Geocode), which in this case means using a geocoder to [geoparse](https://en.wikipedia.org/wiki/Toponym_Resolution#Geoparsing) the reported locations and assign lat/long values to them. Different programs do this to greater or lesser success.  [Tableau](https://www.tableau.com), for instance, has a hard time interpolating a set of locations if it's not at a consistent geographical level (city, state, etc.). For that reason, I generated latitude and longitude information with the Google geocoder following this *Programming Historian* [lesson](/en/lessons/mapping-with-python-leaflet), and then inputted that information into Tableau for mapping. There's plenty of good mapping [tools](https://digitalfellows.commons.gc.cuny.edu/2019/06/03/finding-the-right-tools-for-mapping/) out there that you can feel free to use: the key here is getting specific, accurate location information from the list of place names in the dataset.
 
-{% include figure.html filename="tableau-map.png" caption="A quick sketch of the &quot;place&quot; data in Tableau. The tweets are taken from just a few days surrounding the storm. One could perhaps argue that these maps show discourse around the storm forming equally in unaffected metro areas as places that fell in the storm's path." %}
+{% include figure.html filename="tableau-map.png" caption="A quick sketch of the &quot;place&quot; data in Tableau. The tweets are taken from just a few days surrounding each of the storms. One could perhaps argue that these maps show discourse around these storms forming equally in unaffected metro areas as places that fell storms' paths." %}
 
-TweetSets provides additional files from the Hurricane Irma dataset. These data files are available for the full dataset only, not our limited subset. To access the files for the full dataset, return to [TweetSets](https://tweetsets.library.gwu.edu) and select Hurricane Irma. Do not enter any criteria to limit the dataset (this means all tweets are included). Click Preview and then look at the available files. You can also go directly to the [full dataset page](https://tweetsets.library.gwu.edu/full-dataset/).  These additional files have some interesting information about the tweets. While the tweet IDs file focuses on specific tweets, the [nodes, edges, mentions](https://en.wikipedia.org/wiki/Glossary_of_graph_theory_terms), and users files give information on how these tweets fit together, and all these files can be correlated to create another robust, linked dataset.
-
-Download and extract the files. On a Windows computer, you can use an application such as [7-Zip](https://www.7-zip.org/) to uncompress files with a .gz exension. 
+We do, however, have a bunch of additional files that also have some interesting information. While the tweet IDs file focuses on specific tweets, the [nodes, edges, mentions](https://en.wikipedia.org/wiki/Glossary_of_graph_theory_terms), and users files give information on how these tweets fit together, and all these files can be correlated to create another robust, linked dataset.
 
 If you are unfamiliar with social network analysis, it might be worthwhile to check out one of Scott Weingart’s ["Demystifying Networks"](http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/) series to familiarize yourself with the basic linguistic and visual vocabularies. If you have done so, you will recognize that the TweetSets outputs show us some basic information that can be used to reconstruct a social network. The edges file shows us who is tweeting to whom; the nodes files associates user names with ID numbers; and the top mentions and users files do the same, but for the most actively mentioned and most actively tweeting users.
-
-The edges file is 13,856,080 lines, so too large to work with in Excel. For this lesson, we will work with only the first 1,000 lines of data in the file. The [Introduction to the Bash Command Line](/en/lessons/intro-to-bash) lesson describes how you can use a command-line interface to read parts of a file using commands such as `head`. We can read the first 1,001 lines (1,000 lines of data plus a header) of the file into a new file using the following command:
-
-`head -1001 edges.csv > edges1000.csv`
 
 ## One Simple (Software Agnostic) Way to Link your Data
 
 At this point, I’m going to cover a very useful data technique that can be employed in a wide variety of spreadsheet platforms (Excel, Google Sheets, Numbers, the open-source Libre Calc), for a wide variety of tasks.  I have used it in myriad roles: as a banker, an academic, an administrator, and for personal use. It is called VLOOKUP, which stands for “vertical look up,” and in essence, it makes Excel or other spreadsheet programs function relationally, linking data on unique identifiers. This is not to say that Excel can now be your new [SQL](https://en.wikipedia.org/wiki/SQL), but in limited cases when you need to connect two discrete spreadsheets, it’s an invaluable and easy trick.  We’re going to use it to flush out our TweetSets outputs so the data can be used to create a robust and informative social network graph.
 
-When we look at the edges file, we can see it is a series of observations, each consisting of two numbers. These are the ID numbers of Twitter users in this data set: the left column represents the account mentioned and the right one, the “tweeter.”  For those familiar with social network analysis (SNA) parlance, these would translate to the "target" and the "source." At this point, it’s hard to glean much meaningful information from this data, though, as all we have are numbers. VLOOKUP will help with that.
+When we look at the edges file, we can see it is a series of observations, each consisting of two numbers. These are the ID numbers of Twitter users in this data set: the left column represents the “tweeter,” and the right the “mention.”  For those familiar with social network analysis (SNA) parlance, these would translate to the "source" and "target." At this point, it’s hard to glean much meaningful information from this data, though, as all we have are numbers. VLOOKUP will help with that.
 
 {% include figure.html filename="preprocess-edges.png" caption="The edges file, preprocessing." %}
 
-When we open the file (I’ve done it in Excel, but the process is essentially identical in Numbers, Google Sheets, or other spreadsheet programs), it's possible that some of the longer user IDs have defaulted to scientific notation.  We can fix this easily by selecting all the data, going to the format section of the home tab, and selecting “Number.”  You might also see that some especially long IDs display as a series of #s.  You can also fix this easily by widening the cell, which will allow the full number to display. Finally, the “Decrease Decimal” button, just under the “Number” dropdown, is useful for rendering IDs as whole numbers if they’ve defaulted as decimals.  You might run into some of these issues with the other files we've downloaded, so keep these solutions in mind.
+When we open the file (I’ve done it in Excel, but the process is essentially identical in Numbers, Google Sheets, or other spreadsheet programs), we see that some of the longer user IDs have defaulted to scientific notation.  We can fix this easily by selecting all the data, going to the format section of the home tab, and selecting “Number.”  You might also see that some especially long IDs display as a series of #s.  You can also fix this easily by widening the cell, which will allow the full number to display. Finally, the “Decrease Decimal” button, just under the “Number” dropdown, is useful for rendering IDs as whole numbers if they’ve defaulted as decimals.  You might run into some of these issues with the other files we've downloaded, so keep these solutions in mind.
 
 {% include figure.html filename="format-as-numbers.png" caption="Format the figures as numbers to eliminate scientific notation." %}
 
@@ -159,11 +151,9 @@ When we open the file (I’ve done it in Excel, but the process is essentially i
 
 {% include figure.html filename="widen-columns.png" caption="Widening the columns will fix the issue of IDs displaying as series of #s." %}
 
-At this point, we just need to do some quick formatting work to prepare the sheet for the VLOOKUP. Add a column between the two numbers columns so we have space for our additional data to populate. I’ve renamed the columns, "target," "target_name," "source," and "source_name," loosely following SNA conventions. 
+At this point, we just need to do some quick formatting work to prepare the sheet for the VLOOKUP. Add a row at the top of the spreadsheet, and also between the two numbers columns so we can add some labels (useful but not necessary), and space for our additional data to populate. I’ve named the columns “source,” “source name,” “target,” and “target name,” loosely following SNA conventions. You’ll also want to open the “Top Users” and “Top Mentions” spreadsheets at this time.
 
-{% include figure.html filename="format-for-vlookup.png" caption="Add a column in the middle and insert the column names above. This will create target cells for the VLOOKUP outputs, and help us keep track of our data." %}
-
-You’ll also want to open the “nodes.csv” spreadsheet at this time. In order for us to use the nodes files in our formula, we need to sort the data by the first column, mention_user_ids. This will allow the VLOOKUP formula to accurately search the column. 
+{% include figure.html filename="format-for-vlookup.png" caption="Add a row at the top and a column in the middle, and insert the column names above. This will create target cells for the VLOOKUP outputs, and help us keep track of our data." %}
 
 Now that everything is formatted, click in the cell to the right of the column on which you want to perform the VLOOKUP.  I'm going to start the process with the target column because the people appearing in this column are mostly public figures, enabling me to show you my return values without worrying about privacy issues. You can start with this column or the source column: you'll perform the process on both.
 
@@ -175,19 +165,19 @@ Once you click on it, you should see a handy formula builder dialog box on the r
 
 {% include figure.html filename="vlookup-formula-builder.png" caption="The VLOOKUP formula builder provides fields for input values." %}
 
- Click in the "Lookup_value" field in the formula builder, then click on the letter at the top of the column of associated ID numbers. Essentially, this input is telling the software the unique ID it will use to link data in two separate spreadsheets. In my case that is column A, so I click on the letter "A" at the top of the column, selecting it in its entirety. You will see the software automatically enters the value "A:A" into the formula builder upon click.
+ Click in the "Lookup_value" field in the formula builder, then click on the letter at the top of the column of associated ID numbers. Essentially, this input is telling the software the unique ID it will use to link data in two separate spreadsheets. In my case that is column C, so I click on the letter "C" at the top of the column, selecting it in its entirety. You will see the software automatically enters the value "C:C" into the formula builder upon click.
 
 {% include figure.html filename="lookup-value.png" caption="The lookup value is the unique ID you want to match. In this case, it’s the target ID column. You can click on the letter at the top of the column to select it in its entirety." %}
 
-From here, we'll move our cursor down to the next dialog box, "Table_array". This refers to the field of values in the second spreadsheet we want the software to reference when linking our data. Once your cursor is in the dialog box, move over to the second spreadsheet--"nodes.csv" for the target column, "mention_user_ids" for the source--and click and drag to highlight the entire table. For larger datasets, all you need to highlight is the field spanning from the unique ID to the desired return value, but with our smaller dataset, that means the entire spreadsheet.  When you click back to the "edges" sheet, you'll see some complex syntax has populated.
+From here, we'll move our cursor down to the next dialog box, "Table_array". This refers to the field of values in the second spreadsheet we want the software to reference when linking our data. Once your cursor is in the dialog box, move over to the second spreadsheet--"top-mentions" for the target column, "top-users" for the source--and click and drag to highlight the entire table. For larger datasets, all you need to highlight is the field spanning from the unique ID to the desired return value, but with our smaller dataset, that means the entire spreadsheet.  When you click back to the "mention-edges" sheet, you'll see some complex syntax has populated.
 
 {% include figure.html filename="table-array.png" caption="Highlight all the values in the second spreadsheet." %}
 
-The final two inputs are easy, but I'll take a moment to explain what they mean. "Col_index_num" tells the software what value you want it to return.  We want the target name, which is in the second column of our table array, so we put the number "2". You'll need to adjust this as necessary with different datasets.  The "range_lookup" field tells the software whether the match for the lookup value needs to be exact.  "FALSE" tells it that it does.
+The final two inputs are easy, but I'll take a moment to explain what they mean. "Col_index_num" tells the software what value you want it to return.  We want the target name, which is in the third column of our table array, so we put the number "3". You'll need to adjust this as necessary with different datasets.  The "range_lookup" field tells the software whether the match for the lookup value needs to be exact.  "FALSE" tells it that it does.
 
 {% include figure.html filename="last-values.png" caption="All inputs completed. The &quot;Result&quot; at the bottom near the &quot;Done&quot; button will give you some idea if your inputs were correct.  If it looks alright, you can go ahead and click  &quot;Done&quot;." %}
 
-When you click "Done", you will see the first value populate in the cell. If you get an alert saying, "The formula you have entered may spill beyond the edges of the worksheet," then click Yes to insert the suggested formula. Note that the formula is still displayed in the formula box at the top, not the returned value. We’ll remedy this in a moment.  For now, you’ll want to hover over the black box in the lower right hand corner of this cell. Your cursor should change to a black plus sign when you do.  From there, click and drag the cell all the way down the column. When you get to the bottom of the sheet, you can release the mouse button, and you should see values populate for all the rows. This may take a while with larger datasets, but it’s pretty quick with this one.
+When you click "Done", you will see the first value populate in the cell.  Note that the formula is still displayed in the formula box at the top, not the returned value. We’ll remedy this in a moment.  For now, you’ll want to hover over the black box in the lower right hand corner of this cell. Your cursor should change to a black plus sign when you do.  From there, click and drag the cell all the way down the column. When you get to the bottom of the sheet, you can release the mouse button, and you should see values populate for all the rows. This may take a while with larger datasets, but it’s pretty quick with this one.
 
 {% include figure.html filename="first-return-value.png" caption="If you've done everything correctly, you'll see a return value in the cell you clicked on earlier, and the formula in the &quot;f<sub>x</sub>&quot; field." %}
 
