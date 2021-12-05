@@ -14,6 +14,7 @@ editors:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/348
 difficulty: 1
 activity: analyzing
+topics: [website]
 abstract: This lesson provides strategies for incorporating game creation into the classroom. The first half of the lesson discusses the challenges and benefits of teaching game creation while the second half includes a technical tutorial for Twine, an open source game creation tool.
 avatar_alt: An image of a knot with many ropes
 doi: 10.46430/phen0095
