@@ -125,8 +125,7 @@ In what follows I walk through creating a simple Twine game with six sections, o
 
 In the game I walk through below, the player character will move through her first day of a summer internship with a tech company. The game deals with several of the themes my students choose to write about, including workplace discrimination and the fatigue that comes from being a minority in the workplace. I have included [a more fleshed out version of this game](https://gkirilloff.itch.io/first-day-in-the-office), with additional sections and examples of Twine functionality, in the resources section. 
 
-You can create a successful Twine game using limited technical elements. However, there are some basic 
-s of game design that can turn a technically simple game into a narratively complex game. The game we will make is technically straightforward--it involves narrative and basic, text-based choices that the player can make. However, we will work to create choices that connect to the game's rhetorical goals. 
+You can create a successful Twine game using limited technical elements. However, there are some basics of game design that can turn a technically simple game into a narratively complex game. The game we will make is technically straightforward–it involves narrative and basic, text-based choices that the player can make. However, we will work to create choices that connect to the game's rhetorical goals. 
 
 ## Creating Your First Story
 To create your first game, which Twine will refer to as a "story", go to [Twine](http://twinery.org/) and click "Use it online." If it is your first time using Twine, there will be a basic introduction. Once you have read or skipped this introduction, Twine will take you to your story list. At first, this area will be largely empty. It will populate as you create more stories. To create your first story, click "+Story." 
@@ -365,7 +364,7 @@ To download your work, click the triangle at the bottom left hand corner of the 
 
 {% include figure.html filename="Figure13.jpg" caption="Figure 13. Uploading Your HTML File to Twine" %}
 
-It is possible to share your Twine game by distributing the HTML file. You can do this by emailing it, uploading it to a file hosting platform (like [DropBox](https://perma.cc/QT7S-R4LX), or hosting it online. You might consider uploading your Twine game to [Github](https://perma.cc/86RN-FS96), or to a game hosting platform like [itchio](https://perma.cc/M48Q-UELB).
+It is possible to share your Twine game by distributing the HTML file. You can do this by emailing it, uploading it to a file hosting platform (like [DropBox](https://perma.cc/QT7S-R4LX)), or hosting it online. You might consider uploading your Twine game to [Github](https://perma.cc/86RN-FS96), or to a game hosting platform like [itchio](https://perma.cc/M48Q-UELB).
 
 The fact that Twine games save as HTML files makes it easy to upload and view the "back-end" of games that you find inspirational in the browser version of Twine. This can be a great way to improve your Twine skills. 
 
