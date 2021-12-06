@@ -651,31 +651,32 @@
 
 - name: Sarah Melton
   github: svmelton
-  email: sarah.melton@bc.edu
+  email: sarah.melton1@gmail.com
   twitter: worldcatlady
   url: "http://sarahvmelton.com"
   team: true
   team_start: 2019
-  institution: Boston College
+  institution: Sourcegraph
   sortname: Melton
   affiliation:
     en: |
-      Boston College, USA.
+      Sourcegraph
     es: |
-      Boston College, Estados Unidos.
+      Sourcegraph
     fr: |
-      Boston College, États-Unis.
+      Sourcegraph
     pt: |
-      Boston College, Estados Unidos da América.
+      Sourcegraph
   bio:
     en: |
-      Sarah Melton is the Head of Digital Scholarship at Boston College.
-    es: |
-      Sarah Melton es la jefa de estudios digitales del Boston College.
-    fr: |
-      Sarah Melton est responsable des études numériques au Boston College.
-    pt: |
-      Sarah Melton é responsável pelos Estudos Digitais no Boston College.
+      Sarah Melton is a Developer Educator at Sourcegraph.
+    es: | 
+      Sarah Melton es Formadora de Programadores en Sourcegraph.
+    fr: | 
+      Sarah Melton est en charge de la production de ressources éducatives pour les développeurs/développeuses à Sourcegraph.
+    pt: | 
+      Sarah Melton é Formadora de Programadores de Software na Sourcegraph.
+   
   team_roles:
     - managing
     - english
@@ -2262,12 +2263,12 @@
   status: institutionally-supported
 
 - name: Isabelle Gribomont
-  email: isabelle.gribomont@liverpool.ac.uk
+  email: isabelle.gribomont@uclouvain.be
   twitter: IsaGribomont
   github: isag91
   team: true
   team_start: 2021
-  institution: University of Liverpool
+  institution: University of Louvain, Royal Library of Belgium
   sortname: Gribomont
   team_roles:
     - spanish
@@ -2275,22 +2276,22 @@
   status: volunteer
   affiliation:
     en: |
-      University of Liverpool, United Kingdom
+      University of Louvain, Belgium
     es: |
-      Universidad de Liverpool, Reino Unido
+      Universidad de Louvain, Bélgica
     fr: |
-      University of Liverpool, Royaume-Uni
+      Université catholique de Louvain, Belgique
     pt: |
-      Universidade de Liverpool, Reino Unido
+      Universidade de Louvain, Bélgica
   bio:
     en: |
-       Isabelle Gribomont is a postdoctoral researcher in Digital Humanities at the University of Liverpool (United Kingdom).
+       Isabelle Gribomont is a researcher in Digital Humanities at the University of Louvain and the Royal Library of Belgium (Belgium).
     es: |
-       Isabelle Gribomont es investigadora postdoctoral en humanidades digitales en la universidad de Liverpool (Reino Unido).
+       Isabelle Gribomont es investigadora en humanidades digitales en la Universidad de Louvain y la Biblioteca Real de Bélgica (Bélgica).
     fr: |
-       Isabelle Gribomont est chercheuse postdoctorale en humanités numériques à l'université de Liverpool (Royaume-Uni).
+       Isabelle Gribomont est chercheuse en humanités numériques à l'université catholique de Louvain et la Bibliothèque royale de Belgique (Belgique).
     pt: |
-       Isabelle Gribomont é pesquisadora de pós-doutorado em Humanidades Digitais na universidade de Liverpool (Reino Unido).
+       Isabelle Gribomont é pesquisadora em Humanidades Digitais na universidade de Louvain e na Biblioteca Real da Bélgica (Bélgica).
        
 - name: Nicolás Llano
   email: llano.nicolas@gmail.com
