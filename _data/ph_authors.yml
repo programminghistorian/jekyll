@@ -651,31 +651,26 @@
 
 - name: Sarah Melton
   github: svmelton
-  email: sarah.melton@bc.edu
+  email: sarah.melton1@gmail.com
   twitter: worldcatlady
   url: "http://sarahvmelton.com"
   team: true
   team_start: 2019
-  institution: Boston College
+  institution: Sourcegraph
   sortname: Melton
   affiliation:
     en: |
-      Boston College, USA.
+      Sourcegraph
     es: |
-      Boston College, Estados Unidos.
+      Sourcegraph
     fr: |
-      Boston College, États-Unis.
+      Sourcegraph
     pt: |
-      Boston College, Estados Unidos da América.
+      Sourcegraph
   bio:
     en: |
-      Sarah Melton is the Head of Digital Scholarship at Boston College.
-    es: |
-      Sarah Melton es la jefa de estudios digitales del Boston College.
-    fr: |
-      Sarah Melton est responsable des études numériques au Boston College.
-    pt: |
-      Sarah Melton é responsável pelos Estudos Digitais no Boston College.
+      Sarah Melton is a Developer Educator at Sourcegraph.
+   
   team_roles:
     - managing
     - english
