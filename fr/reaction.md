@@ -16,7 +16,7 @@ Nous définissons un bogue (ou *bug*) comme: "Une erreur dans un programme infor
 Jetez un coup d'oeil aux [tickets qui traitent les bugs](https://github.com/programminghistorian/jekyll/issues?q=is%3Aissue+is%3Aopen+label%3Abug) pour voir si le problème que vous avez identifié n'a pas déjà été signalé. Si c'est le cas, mais que vous souhaitez partager des informations complémentaires, laissez un commentaire sur le ticket en question. Si le problème n'a pas déjà été signalé, vous pouvez procéder d'une des façons suivantes:
 
 <div class="alert alert-info">
-S'il vous plaît, ne créez pas de "Pull Request" avec la correction.
+S'il vous plaît, ne créez pas de pull request avec la correction.
 </div>
 
 ## Option 1: Envoyez-nous un courriel 
