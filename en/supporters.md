@@ -34,6 +34,8 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 - [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), United Kingdom
 - [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Germany
 - [Purdue University](https://www.purdue.edu/), United States
+- [MIT Libraries](https://libraries.mit.edu/), United States
+- [University of Nebraska-Lincoln](https://www.unl.edu/), United States
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
