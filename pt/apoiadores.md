@@ -36,6 +36,8 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 -   [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Reino Unido
 -   [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Alemanha
 -   [Purdue University](https://www.purdue.edu/), Estados Unidos
+-   [MIT Libraries](https://libraries.mit.edu/), Estados Unidos
+-   [University of Nebraska-Lincoln](https://www.unl.edu/), Estados Unidos
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
