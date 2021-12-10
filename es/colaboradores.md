@@ -84,6 +84,7 @@ En particular, agradecemos la contribución de los siguientes suscriptores de Pa
 - Sarah Melton ('Educación')
 - Laurissa Stokes ('Educación')
 - Monica Berti ('Educación')
+- Ajit Balakrishnan
 
 ## Administración de donaciones y patrocinios
 
