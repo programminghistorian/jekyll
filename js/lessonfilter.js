@@ -63,7 +63,6 @@ function lunrSearch(searchString, idx, corpus, featureList, uri) {
 
   // Get lessons that contain search string using lunr index
   const results = idx.search(searchString);
-
   // Get lessons from corpus that contain the search string
   let docs = results.filter(result => corpus.some(doc => result.ref === doc.url)).map(result => {
     let doc = corpus.find(lesson => lesson.url === result.ref);
@@ -105,11 +104,12 @@ function lunrSearch(searchString, idx, corpus, featureList, uri) {
     let condition = params.topic ? topicsArray.includes(type) : item.values().activity == type;
     // return items in list that are in search results and filter if clicked
     return docs.find((doc) => {
-      if (doc.title === item.values().title) {
+      let title = doc.title.includes('&') ? doc.title.replace('&', '&amp;') : doc.title;
+      if (title === item.values().title) {
         // update score values for item
         item.values().score = doc.score;
         // Could simply to just do Object.keys(params) > 1 here but in case we add more URI values this will explicitly check for filters along with search
-        return ['topic', 'activity'].some(key => Object.keys(params).includes(key)) ? ((doc.title === item.values().title) && condition) : (doc.title === item.values().title);
+        return ['topic', 'activity'].some(key => Object.keys(params).includes(key)) ? ((title === item.values().title) && condition) : (title === item.values().title);
       }
 
     });
