@@ -2364,7 +2364,7 @@
   team: false   
   orcid: 0000-0003-2696-1419   
   bio:   
-      en: |   
+      en: |
             Gabi Kirilloff is an assistant professor in the Department of English at Texas Christian University.
 
 
@@ -2401,3 +2401,14 @@
     - editorial
   status: volunteer
   
+- name: Gimena del Río Riande
+  team: false
+  bio:
+      es: |
+        Gimena del Rio Riande es investigadora adjunta del Instituto de Investigaciones Bibliográficas y Crítica Textual (IIBICRIT, CONICET) y directora del laboratorio de Humanidades Digitales de CAICYT (CONICET, Argentina). Es directora de la Diplomatura en Humanidades Digitales (UCES), co-directora del master en Humanidades Digitales (UNED,), directora de la Revista de Humanidades Digitales (RHD) y presidenta de la Asociación Argentina de Humanidades Digitales (AAHD).
+
+- name: Gabriel Calarco
+  team: false
+  bio:
+      es: |
+        Gabriel Calarco es Licenciado en Letras por la Universidad de Buenos Aires (UBA) y se encuentra cursando el doctorado en Literatura en la misma universidad como becario del Instituto de Investigaciones Bibliográficas y Crítica Textual (IIBICRIT-CONICET). También se desempeña como docente en la Diplomatura de Humanidades Digitales (UCES) y como profesor de Literatura en el Nivel Medio.
