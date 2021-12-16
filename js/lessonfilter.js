@@ -104,12 +104,11 @@ function lunrSearch(searchString, idx, corpus, featureList, uri) {
     let condition = params.topic ? topicsArray.includes(type) : item.values().activity == type;
     // return items in list that are in search results and filter if clicked
     return docs.find((doc) => {
-      let title = doc.title.includes('&') ? doc.title.replace('&', '&amp;') : doc.title;
-      if (title === item.values().title) {
+      if (doc.title === item.values().title) {
         // update score values for item
         item.values().score = doc.score;
         // Could simply to just do Object.keys(params) > 1 here but in case we add more URI values this will explicitly check for filters along with search
-        return ['topic', 'activity'].some(key => Object.keys(params).includes(key)) ? ((title === item.values().title) && condition) : (title === item.values().title);
+        return ['topic', 'activity'].some(key => Object.keys(params).includes(key)) ? ((doc.title === item.values().title) && condition) : (doc.title === item.values().title);
       }
 
     });
