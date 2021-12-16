@@ -63,7 +63,6 @@ function lunrSearch(searchString, idx, corpus, featureList, uri) {
 
   // Get lessons that contain search string using lunr index
   const results = idx.search(searchString);
-
   // Get lessons from corpus that contain the search string
   let docs = results.filter(result => corpus.some(doc => result.ref === doc.url)).map(result => {
     let doc = corpus.find(lesson => lesson.url === result.ref);
