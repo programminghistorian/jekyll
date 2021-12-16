@@ -176,4 +176,4 @@ Suggested Readings
 
 -   [Python Basics][]
 
-  [Python Basics]: http://www.astro.ufl.edu/~warner/prog/python.html
+  [Python Basics]: https://users.astro.ufl.edu/~warner/prog/python.html

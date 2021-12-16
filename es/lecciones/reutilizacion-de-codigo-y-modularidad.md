@@ -116,4 +116,4 @@ Lecturas recomendadas:
 
 [modularidad]: https://es.wikipedia.org/wiki/Modularidad_(informática)
 [encapsulamiento]: https://es.wikipedia.org/wiki/Encapsulamiento_(informática)
-[Python Basics]: http://www.astro.ufl.edu/~warner/prog/python.html
+[Python Basics]: https://users.astro.ufl.edu/~warner/prog/python.html
