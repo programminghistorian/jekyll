@@ -33,7 +33,7 @@ The day before your colleague is due to give a seminar on *Slave Rebellions in t
 
 Or perhaps...
 
-You find an old copy of *Inscriptions of Roman Tripolitania* (1952) and wish that you could run a statistical analysis on the appearance of certain phrases in certain locations. Fortunately, King's College London has produced an extensive [e-version of the text](http://inslib.kcl.ac.uk/irt2009) with images, translations and location information. You can search through the material manually using the full-text search on the site, but curating the information you want, in the format you need to run an analysis, will take time.
+You find an old copy of *Inscriptions of Roman Tripolitania* (1952) and wish that you could run a statistical analysis on the appearance of certain phrases in certain locations. Fortunately, King's College London has produced an extensive [e-version of the text](https://irt.kcl.ac.uk/irt2009/) with images, translations and location information. You can search through the material manually using the full-text search on the site, but curating the information you want, in the format you need to run an analysis, will take time.
 
 Then again...
 
