@@ -24,7 +24,7 @@ Since our mid-year newsletter, we've published two new and original lessons in S
 [Introdução ao Omeka.net](https://programminghistorian.org/pt/licoes/introducao-omeka-net) por Miriam Posner e traduzido por Gabriela Kucuruza você aprenderá a criar sites na web para mostrar coleções de itens com o Omeka.net.
 
 
-## Reasearch and Outreach
+## Research and Outreach
 
 The months ahead at *Programming Historian* promise to be equally busy, and rewarding. Not only will we continue our work of publishing lessons that inspire scholars across the humanities to learn new technological skills and expand their digital knowledge, but we will also keep working hard to further our academic research, while engaging new audiences through imaginative outreach activities.
 
