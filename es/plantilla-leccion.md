@@ -6,33 +6,13 @@ Este archivo puede ser utilizado como plantilla para desarrollar tu lección. Co
 
 **Borra todo lo que está hasta esta línea cuando envíes tu lección**
 
-title: |
-  EL TÍTULO DE LA LECCIÓN
-collection: lessons
-layout: lesson
-slug: DEJAR EN BLANCO
-date: DEJAR EN BLANCO
-translation_date: DEJAR EN BLANCO
+---
+title: EL TÍTULO DE LA LECCIÓN  
+collection: lessons  
+layout: lesson  
 authors:
 - NOMBRE APELLIDO 1
 - NOMBRE APELLIDO 2, etc
-reviewers:
-- DEJAR EN BLANCO
-editors:
-- DEJAR EN BLANCO
-translator:
-- NOMBRE APELLIDO 1
-translation-editor:
-- DEJAR EN BLANCO
-translation-reviewer:
-- DEJAR EN BLANCO
-original: DEJAR EN BLANCO
-review-ticket: DEJAR EN BLANCO
-difficulty: DEJAR EN BLANCO
-activity: DEJAR EN BLANCO
-topics: DEJAR EN BLANCO
-abstract: DEJAR EN BLANCO
-doi: DEJAR EN BLANCO
 ---
 
 # Contenidos

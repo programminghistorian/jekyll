@@ -17,32 +17,13 @@ This file can be used as a template for writing your lesson. It includes informa
 
 **Delete everything above this line when ready to submit your lesson**.
 
-title: YOUR TITLE HERE
-collection: lessons
-layout: lesson
-slug: LEAVE BLANK
-date: LEAVE BLANK
-translation_date: LEAVE BLANK
+---
+title: YOUR TITLE HERE  
+collection: lessons  
+layout: lesson  
 authors:
 - FORENAME SURNAME 1
 - FORENAME SURNAME 2, etc
-reviewers:
-- LEAVE BLANK
-editors:
-- LEAVE BLANK
-translator:
-- FORENAME SURNAME 1
-- FORENAME SURNAME 2, etc
-translation-editor:
-- LEAVE BLANK
-translation-reviewer:
-- LEAVE BLANK
-original: LEAVE BLANK
-review-ticket: LEAVE BLANK
-difficulty: LEAVE BLANK
-activity: LEAVE BLANK
-topics: LEAVE BLANK
-abstract: LEAVE BLANK
 ---
 
 # A Table of Contents

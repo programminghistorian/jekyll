@@ -17,32 +17,13 @@ Vous pouvez utiliser ce fichier en tant que modèle pour écrire votre leçon. I
 
 **Au moment de la soumission de votre leçon, merci d'effacer tout ce qui précède cette ligne**.
 
-title: VOTRE TITRE
-collection: lessons
-layout: lesson
-slug: NE PAS REMPLIR
-date: NE PAS REMPLIR
-translation_date: NE PAS REMPLIR
+---
+title: VOTRE TITRE  
+collection: lessons  
+layout: lesson  
 authors:
 - PRÉNOM NOM 1
 - PRÉNOM NOM 2, etc
-reviewers:
-- NE PAS REMPLIR
-editors:
-- NE PAS REMPLIR
-translator:
-- PRÉNOM NOM 1
-- PRÉNOM NOM 2, etc
-translation-editor:
-- NE PAS REMPLIR
-translation-reviewer:
-- NE PAS REMPLIR
-original: NE PAS REMPLIR
-review-ticket: NE PAS REMPLIR
-difficulty: NE PAS REMPLIR
-activity: NE PAS REMPLIR
-topics: NE PAS REMPLIR
-abstract: NE PAS REMPLIR
 ---
 
 # Table de matières

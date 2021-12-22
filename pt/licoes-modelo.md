@@ -17,32 +17,13 @@ Este ficheiro pode ser utilizado como modelo para escrever a sua lição. Inclui
 
 **Apague tudo o que está acima desta linha quando estiver pronto a submeter a lição**.
 
-title: O SEU TÍTULO
-collection: lessons
-layout: lesson
-slug: DEIXAR EM BRANCO
-date: DEIXAR EM BRANCO
-translation_date: DEIXAR EM BRANCO
+---
+title: O SEU TÍTULO  
+collection: lessons  
+layout: lesson  
 authors:
 - PRIMEIRO NOME APELIDO 1
 - PRIMEIRO NOME APELIDO 2, etc
-reviewers:
-- DEIXAR EM BRANCO
-editors:
-- DEIXAR EM BRANCO
-translator:
-- PRIMEIRO NOME APELIDO 1
-- PRIMEIRO NOME APELIDO 2, etc
-translation-editor:
-- DEIXAR EM BRANCO
-translation-reviewer:
-- DEIXAR EM BRANCO
-original: DEIXAR EM BRANCO
-review-ticket: DEIXAR EM BRANCO
-difficulty: DEIXAR EM BRANCO
-activity: DEIXAR EM BRANCO
-topics: DEIXAR EM BRANCO
-abstract: DEIXAR EM BRANCO
 ---
 
 # Índice
