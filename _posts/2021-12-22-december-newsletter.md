@@ -10,15 +10,13 @@ categories: posts
 
 <img src="/images/blog/ph-banner-4lang.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>
 
-As we approach the end of 2021, we are in reflective mode. We're celebrating a long list of achievements: the launch of _Programming Historian em português_ in January, the arrival of our first paid  employee this July, the success of calls for new editors to join our Spanish and English teams, as well as a greatly enhanced directory of open access lessons that serve digital humanities scholars around the globe. This work would not have been possible without the support of our individual and institutional supporters, to whom we sincerely say thank you, merci, gracias, e obrigados. 
-
+As we approach the end of 2021, we are in reflective mode. We're celebrating a long list of achievements: the launch of _Programming Historian em português_ in January, the arrival of our first paid employee this July, the success of calls for new editors to join our Spanish and English teams, as well as a greatly enhanced directory of open access lessons that serve digital humanities scholars around the globe. This work would not have been possible without the support of our individual and institutional supporters, to whom we sincerely say thank you, merci, gracias, e obrigados. 
 
 We are also looking forward to 2022. We're excited about working with a growing community of scholars, educators and linguists to expand our lesson resources and further develop our educational outreach programme. Also to come during the next year, will be the 7 exciting new lessons on the subject of 'Computational analysis skills for large-scale humanities data', selected from proposals submitted this September as part of the open submission initiative we launched in collaboration with The National Archives and Jisc.
 
 ## New Lessons
 
 We are delighted to have published 10 new lessons since our last newsletter! 
-
 
 In English, Gabi Kirilloff's [Interactive Fiction in the Humanities Classroom: How to Create Interactive Text Games Using Twine](https://doi.org/10.46430/phen0095) which combines a discussion of the challenges and benefits of teaching game creation with a technical tutorial for Twine, an open source game creation tool. As well as [Clustering with Scikit-Learn in Python](https://doi.org/10.46430/phen0094) by Thomas Jurczyk which teaches readers how to apply clustering algorithms to analyse and explore their own datasets.  
 
@@ -31,13 +29,11 @@ Também, nós publicamos [Manipular strings com Python](https://doi.org/10.46430
 
 ## Research and Outreach
 
-
 We have had a busy few months in terms of outreach activities too. In November, Sarah Melton Riva Quiroga, Joana Vieira Paulino and Nabeel Siddiqui from our editorial team, spoke at [Open Publishing Fest](https://openpublishingfest.org/calendar.html#event-69/), where they discussed some of the unique challenges and opportunities we navigate to publish the _Programming Historian_ as an open access, multi-lingual journal. 
 
 Meanwhile, with support from the Institute of Historical Research, Adam Crymble and Anisa Hawes offered a free [workshop](https://www.history.ac.uk/our-century/centenary-events/training-teacher-giving-your-first-digital-history-workshop) aimed at history and humanities educators. They shared three different methods for integrating _Programming Historian_'s practical digital tutorials into university teaching, based on approaches developed at University College London, University of Edinburgh, and Universidad de los Andes, including remote and in-person delivery options. 
 
-Jennifer Isasi and Antonio Rojas Castro contributed to a roundtable discussion Torre de Babel on the subject of multi-lingual digital humanities at the Association of History Literature Science and Technology (AHLiST)'s International Interdisciplinary Conference, and have co-written an article titled "Sin equivalencia: Una reflexión sobre la traducción al español de recursos educativos abiertos" soon to be published in the journal _Hispania_.
-
+Jennifer Isasi and Antonio Rojas Castro contributed to a roundtable discussion Torre de Babel on the subject of multi-lingual digital humanities at [the Association of History Literature Science and Technology (AHLiST)'s International Interdisciplinary Conference](http://ahlist.org/wp-content/uploads/2021/11/AHLIST-2021-PROGRAM_Virtual_FINAL.pdf), and have co-written an article titled "Sin equivalencia: Una reflexión sobre la traducción al español de recursos educativos abiertos" soon to be published in the journal _Hispania_.
 
 ## New Supporters and Partnerships
 
@@ -45,19 +41,16 @@ As always, we would like to express our gratitude to our community of individual
 
 If [you](en/individual) or [your institution](/en/ipp) would like to find out more about how you can empower our work, please get in touch with [Dr James Baker](https://github.com/drjwbaker), who manages donations and sponsorship on behalf of [our Project Team](/en/project-team). 
 
-
 ## Team News
 
 This quarter, we welcome to Eric Brasil to our Portuguese editorial team. Eric is a Professor at the Institute of Humanities and Languages, University of International Integration of Afro-Brazilian Lusophony, Ceará, Brazil and is a senior researcher at the Laboratório de Humanidades Digitais da UFBA. Warm welcome, Eric – we're looking forward to collaborating with you!
 
-
 We say goodbye to Martin Grandjean, who has served as an editor on our French team between 2019-2021. Thank you, Martin, and best wishes with your next endeavours.
-
 
 ## News
 
-
 Lastly, with great pride, we announce that _Programming Historian_ is one of three recipients of [Coko's Open Publishing Award 2021](https://openpublishingawards.org/results/2021/index.html) in the Open Content category. Congratulations to all winners, and thank you, Coko, for recognising and celebrating the work that we do! 
 
+---
 
 With best wishes for a restful year-end break to all.
