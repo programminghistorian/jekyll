@@ -12,7 +12,7 @@ collection: lessons
 layout: lesson  
 authors:
 - NOMBRE APELLIDO 1
-- NOMBRE APELLIDO 1, etc
+- NOMBRE APELLIDO 2, etc
 ---
 
 # Contenidos
