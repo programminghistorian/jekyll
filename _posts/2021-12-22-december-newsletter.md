@@ -37,7 +37,7 @@ Jennifer Isasi and Antonio Rojas Castro contributed to a roundtable discussion T
 
 ## New Supporters and Partnerships
 
-As always, we would like to express our gratitude to our community of individual and institutional supporters. We're pleased to announce that Georg-August-Universität in Göttingen, Germany as well as Purdue University. MIT Libraries and the University of Nebraska-Lincoln in the United States have all joined our Institutional Partner Programme. Meanwhile, Monica Berti, Mike Bess, and Ajit Balakrishnan have generously pledged their support via our Patreon site. 
+As always, we would like to express our gratitude to our community of individual and institutional supporters. We're pleased to announce that Georg-August-Universität in Göttingen, Germany as well as Purdue University, MIT Libraries, and the University of Nebraska-Lincoln in the United States have all joined our Institutional Partner Programme. Meanwhile, Monica Berti, Mike Bess, and Ajit Balakrishnan have generously pledged their support via our Patreon site. 
 
 If [you](en/individual) or [your institution](/en/ipp) would like to find out more about how you can empower our work, please get in touch with [Dr James Baker](https://github.com/drjwbaker), who manages donations and sponsorship on behalf of [our Project Team](/en/project-team). 
 
