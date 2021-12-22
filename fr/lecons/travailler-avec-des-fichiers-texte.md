@@ -171,7 +171,7 @@ toto, Toto et TOTO seront trois variables différentes.
 
 Lorsque vous lancez le programme ci-dessus, la méthode `open` indique
 à votre ordinateur de créer un nouveau fichier `helloworld.txt` dans le
-répertoire où se trouve `file-output.py`. Le _paramètre **'**wb**'**_ spécifie que le
+répertoire où se trouve `file-output.py`. Le _paramètre **'**w**'**_ spécifie que le
 fichier ouvert est destiné à l'écriture (***w***rite) de contenus par Python.
 
 On notera que le nom de fichier et le paramètre sont entourés de guillemets,
