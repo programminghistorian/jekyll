@@ -99,7 +99,7 @@ Você usará `print` como indicado anteriormente nos casos em que deseja apresen
 
 ``` python
 # ficheiro-saida.py
-f = open('olamundo.txt','wb')
+f = open('olamundo.txt','w')
 f.write('olá mundo')
 f.close()
 ```
@@ -113,7 +113,7 @@ methods*). Em outras palavras, abrir, gravar, e fechar fazem algo com o objeto *
 
 Os nomes das variáveis Python também são *case-sensitive*, ou seja, diferenciam letras maiúsculas de minúsculas, o que significa que *foobar*, *Foobar* e *FOOBAR* seriam todas variáveis diferentes.
 
-Quando você executa o programa, o método `open` (abrir) vai dizer ao seu computador para criar um novo ficheiro de texto `olamundo.txt` na mesma pasta que você salvou o programa `ficheiro-saida.py`. O parâmetro *wb* diz que você pretende gravar conteúdo neste novo ficheiro usando Python.
+Quando você executa o programa, o método `open` (abrir) vai dizer ao seu computador para criar um novo ficheiro de texto `olamundo.txt` na mesma pasta que você salvou o programa `ficheiro-saida.py`. O parâmetro *w* diz que você pretende gravar conteúdo neste novo ficheiro usando Python.
 
 Observe que, como o nome do ficheiro e o parâmetro estão entre aspas simples, você sabe que ambos estão armazenados como *strings*; esquecer de incluir as aspas fará com que o seu programa falhe.
 
