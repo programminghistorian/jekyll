@@ -19,6 +19,7 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 
 ## Pesquisa publicada
 
+* Jennifer Isasi e Antonio Rojas Castro, ‘[¿Sin equivalencia? Una reflexión sobre la traducción al español de recursos educativos abiertos](https://muse.jhu.edu/article/842253)’, _Hispania_, 104, no. 4 (2021), 613-624.
 * Adam Crymble e Maria José Afanador Llach, ‘The Globally Unequal Promise of Digital Tools for History: UK and Colombia Case Study’ in Adele Nye (ed.) _Teaching History for the Contemporary World_ (Springer, 2021), 85-98.
 * Daniel Alves, ['Ensinar Humanidades Digitais sem as Humanidades Digitais: um olhar a partir das licenciaturas em História'](https://novaresearch.unl.pt/files/32228034/Ensinar_Humanidades_Digitais.pdf), _Revista EducaOnline_, v. 15, n. 2 (2021).
 * Adam Crymble, [_Technology &amp; the Historian: Transformations in the Digital Age_](https://www.press.uillinois.edu/books/catalog/57hxp7wr9780252043710.html), (University of Illinois Press, 2021).
