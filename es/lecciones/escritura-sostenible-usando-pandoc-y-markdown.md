@@ -326,7 +326,7 @@ csl: mla.csl
 Después simplemente utiliza la funcionalidad de Pandoc para transformar tu archivo de markdown a tu formato objetivo (.pdf o .docx):
 
 ```
-$ pandoc principal.md --filter pandoc-citeproc -o principal.pdf
+$ pandoc principal.md --citeproc -o principal.pdf
 ```
 
 ## Resumen
