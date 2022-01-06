@@ -326,7 +326,7 @@ csl: mla.csl
 Répétez ensuite la commande Pandoc pour lancer votre fichier Mardown dans le format cible désiré (.pdf ou .docx) :
 
 ```
-$ pandoc projet.md --filter pandoc-citeproc -o projet.pdf
+$ pandoc projet.md --citeproc -o projet.pdf
 ```
 
 Analysez la commande en anglais au fur et à mesure que vous la tapez. Dans ma tête, je traduis ce qui précède par quelque chose comme "Pandoc, prends mon fichier Markdown, passe-le dans un filtre de citation, et génère un fichier PDF." Lorsque vous vous familiariserez avec les feuilles de style de citation, pensez à ajouter vos fichiers .csl personnalisés pour les revues de votre domaine à l'archive du projet CSL, afin de rendre service à la communauté.
