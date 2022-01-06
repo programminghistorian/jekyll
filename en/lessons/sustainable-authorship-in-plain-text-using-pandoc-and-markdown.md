@@ -645,7 +645,7 @@ You then repeat the pandoc incantation to cast your markdown file into your targ
 or .docx):
 
 ```
-$ pandoc main.md --filter pandoc-citeproc -o main.pdf
+$ pandoc main.md --citeproc -o main.pdf
 ```
 
 Parse the command into English as you are typing. In my head, I translate the above into
