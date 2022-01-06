@@ -304,10 +304,10 @@ bibliography: projet.bib
 Cela indique à Pandoc de chercher votre bibliographie dans le fichier `projet.bib`, situé dans le même répertoire que votre fichier `projet.md`. Voyons si cela fonctionne. Sauvegardez votre fichier, passez à la fenêtre du terminal et exécutez cette commande :
 
 ```
-$ pandoc projet.md --filter pandoc-citeproc -o projet.docx
+$ pandoc projet.md --citeproc -o projet.docx
 ```
 
-Le filtre "pandoc-citeproc" analysera toutes les clés de citation trouvées dans votre document. Le résultat doit être un fichier MS Word correctement formaté. Si vous avez installé LaTeX, convertissez le fichier au format PDF en utilisant la même syntaxe pour un résultat plus élégant. Ne vous inquiétez pas si les choses ne sont pas encore tout à fait à votre goût - souvenez-vous que vous allez affiner le formatage d'un seul coup, plus tard dans le processus, au plus près possible du moment de la publication. Pour l'instant, nous ne faisons que créer des brouillons basés sur des valeurs par défauts convenables.
+Le filtre "citeproc" analysera toutes les clés de citation trouvées dans votre document. Le résultat doit être un fichier MS Word correctement formaté. Si vous avez installé LaTeX, convertissez le fichier au format PDF en utilisant la même syntaxe pour un résultat plus élégant. Ne vous inquiétez pas si les choses ne sont pas encore tout à fait à votre goût - souvenez-vous que vous allez affiner le formatage d'un seul coup, plus tard dans le processus, au plus près possible du moment de la publication. Pour l'instant, nous ne faisons que créer des brouillons basés sur des valeurs par défauts convenables.
 
 ## Changer de style de citation
 
