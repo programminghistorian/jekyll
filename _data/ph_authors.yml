@@ -1274,18 +1274,18 @@
   github: spapastamkou
   team: true
   team_start: 2018
-  institution: CNRS
+  institution: Luxembourg Centre for Contemporary and Digital History (C²DH)
   sortname: Papastamkou
   orcid: 0000-0002-5148-1348
   affiliation:
     en: |
-      Institut de recherches historiques du Septentrion (IRHiS, CNRS/University of Lille), France
+      Luxembourg Centre for Contemporary and Digital History (C²DH), University of Luxembourg
     es: |
-      Institut de recherches historiques du Septentrion (IRHiS, CNRS/Universidad de Lille), Francia
+      Luxembourg Centre for Contemporary and Digital History (C²DH), Universidad de Luxemburgo
     fr: |
-      Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille), France
+      Luxembourg Centre for Contemporary and Digital History (C²DH), Université du Luxembourg
     pt: |
-      Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille), França
+      Luxembourg Centre for Contemporary and Digital History (C²DH), Universidade do Luxemburgo
   team_roles:
     - managing
     - french
@@ -1293,14 +1293,13 @@
   status: volunteer
   bio:
     en: |
-      Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
-      She is currently assigned to the Institut de recherches historiques du Septentrion (IRHiS, CNRS/University of Lille).
+      Sofia Papastamkou is a Research Associate at the Luxembourg Centre for Contemporary and Digital History (C²DH).
     es: |
-      Sofia Papastamkou es historiadora e investigadora en Humanidades Digitales en el Centre national de la recherche scientifique (CNRS). Actualmente, su labor está asociada con el Institut de recherches historiques du Septentrion (IRHiS, CNRS/Universidad de Lille).
+      Sofia Papastamkou es investigadora en el Luxembourg Centre for Contemporary and Digital History (C²DH).
     fr: |
-      Sofia Papastamkou est docteure en histoire et ingénieure d'études en humanités numériques au CNRS. Elle est affectée à l'Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille)
+      Sofia Papastamkou est chercheuse postdoctorale au Luxembourg Centre for Contemporary and Digital History (C²DH). 
     pt: |
-      Sofia Papastamkou é historiadora e engenheira em Humanidades Digitais no Centre national de la recherche scientifique (CNRS). Atualmente, o seu trabalho está associado ao Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille).
+      Sofia Papastamkou é pesquisadora no Luxembourg Centre for Contemporary and Digital History (C²DH). 
 
 - name: Marie Puren
   team: false
