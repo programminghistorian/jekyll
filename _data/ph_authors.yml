@@ -1168,7 +1168,6 @@
   team_roles:
     - spanish
     - editorial
-    - communication-manager
     - technical
   status: institutionally-supported
 
