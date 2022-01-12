@@ -2083,8 +2083,9 @@
   team: true
   orcid: 0000-0002-7302-9037
   team_start: 2021
+  institution: Inria Sophia-Antipolis, France
   sortname: Ringwald
-  institution:
+  affiliation: 
     en: |
         Inria Sophia-Antipolis, France
     pt: |
