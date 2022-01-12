@@ -2085,6 +2085,7 @@
   team_start: 2021
   sortname: Ringwald
   affiliation:
+  # new affiliation : Inria Sophia-Antipolis
     en: |
         Lyon University, France
     pt: |
@@ -2098,6 +2099,7 @@
       Célian Ringwald has a master’s degree in data science and a master's degree in digital humanities from Université Lyon 2
     fr: |
       Célian Ringwald est diplomé d'un master 2 en Sciences de la données et d'un master 2 en Humanités Numériques de l'Université de Lyon 2
+      # new bio fr : Célian RINGWALD est ingénieur de recherche à l'INRIA au laboratoire Wimmics. Il est en charge de la maintenance et du developpement du chapitre français de DBpedia 
     es: | 
       Célian Ringwald tiene una maestría en Ciencia de Datos y una maestría en Humanidades Digitales de la Université Lyon 2
     pt: |
