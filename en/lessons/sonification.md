@@ -379,7 +379,7 @@ In this [sample file](/assets/sonification-jesuittopics.csv)(a topic model gener
 
 ### Practice
 
-Follow the initial tutorials that Sonic Pi provides until you get a feel for the interface and some of the possibilities. (These tutorials are also concatenated [here](https://gist.github.com/jwinder/e59be201082cca694df9); you can also listen to an interview with Sam Aaron, the creator of Sonic Pi, [here](https://devchat.tv/ruby-rogues/215-rr-sonic-pi-with-sam-aaron)). Then, in a new buffer (editor window), copy the following (again, the code snippets that follow will eventually be collated into a single script in your Sonic Pi buffer window):
+Follow the initial tutorials that Sonic Pi provides until you get a feel for the interface and some of the possibilities. (These tutorials are also concatenated [here](https://gist.github.com/jwinder/e59be201082cca694df9); you can also listen to an interview with Sam Aaron, the creator of Sonic Pi, [here](hhttps://devchat.cachefly.net/rubyrogues/RR215SonicPi.mp3?rss=true)). Then, in a new buffer (editor window), copy the following (again, the code snippets that follow will eventually be collated into a single script in your Sonic Pi buffer window):
 
 ```
 require 'csv'
