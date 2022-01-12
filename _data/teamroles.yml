@@ -73,17 +73,6 @@
     es: Responsable de las características técnicas respecto al contenido y la revisión por pares a nuestra comunidad
     fr: Responsable des aspects techniques rendant accessibles à notre communauté le contenu et l'évaluation par les pairs
     pt: Responsável pelos aspectos técnicos que asseguram o conteúdo e a revisão por pares para a nossa comunidade
-- type: communication-manager
-  label:
-    en: Communication Manager
-    es: Mánager de comunicación
-    fr: Responsable de la communication
-    pt: Gestor de comunicação
-  definition:
-    en: Responsible for coordinating efforts of the communication team
-    es: Responsable de la coordinación del equipo de comunicación
-    fr: Responsable de la coordination de l'équipe de communication
-    pt: Responsável por coordenar os esforços da equipe de comunicação
 - type: finance-manager
   label:
     en: Finance Manager
