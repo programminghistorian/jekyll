@@ -2085,15 +2085,14 @@
   team_start: 2021
   sortname: Ringwald
   affiliation:
-  # new affiliation : Inria Sophia-Antipolis
     en: |
-        Lyon University, France
+        Inria Sophia-Antipolis, France
     pt: |
-        Universidade de Lyon, França
+        Inria Sophia-Antipolis, França
     es: |
-        Universidad de Lyon, Francia
+        Inria Sophia-Antipolis, Francia
     fr: |
-        Université de Lyon, France
+        Inria Sophia-Antipolis, France
   bio:
     en: |
       Célian Ringwald is a research engineer at INRIA in the Wimmics laboratory. He is in charge of the maintenance and development of the French chapter of DBpedia.
