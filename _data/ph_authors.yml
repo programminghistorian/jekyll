@@ -1015,7 +1015,6 @@
     - english
     - editorial
     - proghist
-    - technical
   status: volunteer
 
 - name: Evan Peter Williamson
@@ -1168,7 +1167,6 @@
   team_roles:
     - spanish
     - editorial
-    - communication-manager
     - technical
   status: institutionally-supported
 
@@ -1274,18 +1272,18 @@
   github: spapastamkou
   team: true
   team_start: 2018
-  institution: CNRS
+  institution: Luxembourg Centre for Contemporary and Digital History (C²DH)
   sortname: Papastamkou
   orcid: 0000-0002-5148-1348
   affiliation:
     en: |
-      Institut de recherches historiques du Septentrion (IRHiS, CNRS/University of Lille), France
+      Luxembourg Centre for Contemporary and Digital History (C²DH), University of Luxembourg
     es: |
-      Institut de recherches historiques du Septentrion (IRHiS, CNRS/Universidad de Lille), Francia
+      Luxembourg Centre for Contemporary and Digital History (C²DH), Universidad de Luxemburgo
     fr: |
-      Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille), France
+      Luxembourg Centre for Contemporary and Digital History (C²DH), Université du Luxembourg
     pt: |
-      Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille), França
+      Luxembourg Centre for Contemporary and Digital History (C²DH), Universidade do Luxemburgo
   team_roles:
     - managing
     - french
@@ -1293,14 +1291,13 @@
   status: volunteer
   bio:
     en: |
-      Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
-      She is currently assigned to the Institut de recherches historiques du Septentrion (IRHiS, CNRS/University of Lille).
+      Sofia Papastamkou is a Research Associate at the Luxembourg Centre for Contemporary and Digital History (C²DH).
     es: |
-      Sofia Papastamkou es historiadora e investigadora en Humanidades Digitales en el Centre national de la recherche scientifique (CNRS). Actualmente, su labor está asociada con el Institut de recherches historiques du Septentrion (IRHiS, CNRS/Universidad de Lille).
+      Sofia Papastamkou es investigadora en el Luxembourg Centre for Contemporary and Digital History (C²DH).
     fr: |
-      Sofia Papastamkou est docteure en histoire et ingénieure d'études en humanités numériques au CNRS. Elle est affectée à l'Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille)
+      Sofia Papastamkou est chercheuse postdoctorale au Luxembourg Centre for Contemporary and Digital History (C²DH). 
     pt: |
-      Sofia Papastamkou é historiadora e engenheira em Humanidades Digitais no Centre national de la recherche scientifique (CNRS). Atualmente, o seu trabalho está associado ao Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille).
+      Sofia Papastamkou é pesquisadora no Luxembourg Centre for Contemporary and Digital History (C²DH). 
 
 - name: Marie Puren
   team: false
@@ -2086,25 +2083,26 @@
   team: true
   orcid: 0000-0002-7302-9037
   team_start: 2021
+  institution: Inria Sophia-Antipolis, France
   sortname: Ringwald
-  affiliation:
+  affiliation: 
     en: |
-        Lyon University, France
+        Inria Sophia-Antipolis, France
     pt: |
-        Universidade de Lyon, França
+        Inria Sophia-Antipolis, França
     es: |
-        Universidad de Lyon, Francia
+        Inria Sophia-Antipolis, Francia
     fr: |
-        Université de Lyon, France
+        Inria Sophia-Antipolis, France
   bio:
     en: |
-      Célian Ringwald has a master’s degree in data science and a master's degree in digital humanities from Université Lyon 2
+      Célian Ringwald is a research engineer at Inria Sophia-Antipolis in the Wimmics laboratory. He is in charge of the maintenance and development of the French chapter of DBpedia.
     fr: |
-      Célian Ringwald est diplomé d'un master 2 en Sciences de la données et d'un master 2 en Humanités Numériques de l'Université de Lyon 2
+      Célian Ringwald est ingénieur de recherche à l'Inria Sophia-Antipolis au laboratoire Wimmics. Il est en charge de la maintenance et du developpement du chapitre français de DBpedia.  
     es: | 
-      Célian Ringwald tiene una maestría en Ciencia de Datos y una maestría en Humanidades Digitales de la Université Lyon 2
+      Célian Ringwald es ingeniero investigador del Inria Sophia-Antipolis en el laboratorio Wimmics. Está a cargo del mantenimiento y desarrollo de la sección en francés de DBpedia.
     pt: |
-      Célian Ringwald é mestre em Ciência de Dados e mestre em Humanidades Digitais pela Université Lyon 2
+      Célian Ringwald é engenheiro pesquisador do Inria Sophia-Antipolis no laboratório Wimmics. Ele é responsável pela manutenção e desenvolvimento da versão em francês da DBpedia.
   team_roles:
     - french
     - editorial
