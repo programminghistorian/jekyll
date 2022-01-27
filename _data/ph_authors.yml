@@ -2410,3 +2410,36 @@
   bio:
       es: |
         Gabriel Calarco es Licenciado en Letras por la Universidad de Buenos Aires (UBA) y se encuentra cursando el doctorado en Literatura en la misma universidad como becario del Instituto de Investigaciones Bibliográficas y Crítica Textual (IIBICRIT-CONICET). También se desempeña como docente en la Diplomatura de Humanidades Digitales (UCES) y como profesor de Literatura en el Nivel Medio.
+
+- name: Firstname Surname
+  team: true
+  team_start: 2022
+  institution: Your Institution
+  github: githubhandle
+  email: address@email.com
+  twitter: twitterhandle
+  url: "https://website.com/"
+  sortname: Surname
+  orcid: 0000-0001-0002-0003
+  affiliation:
+    en: |
+      Your Institution, UK
+    es: |
+      Your Institution, Reino Unido
+    fr: |
+      Your Institution, Royaume-Uni
+    pt: |
+      Your Institution, Reino Unido
+  bio:
+    en: |
+      Your bio in Engliah.
+    es: |
+      Your bio en español.
+    fr: |
+      Your bio en français.
+    pt: |
+      Your bio em português.
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
