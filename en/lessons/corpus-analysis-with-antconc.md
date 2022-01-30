@@ -19,11 +19,12 @@ redirect_from: /lessons/corpus-analysis-with-antconc
 avatar_alt: Three large ornate bookcases
 doi: 10.46430/phen0043
 ---
+<div class="alert alert-info">
+In 2022, Laurence Anthony launched AntConc 4.0, a substantial upgrade to the AntConc software. While nearly all of the features remain the same, some practices described below have changed somewhat. If you are using a more recent version of AntConc than the one demonstrated below, please refer to guidance provided by Laurence Anthony's <a href="https://www.laurenceanthony.net/software/antconc/releases/AntConc403/help.pdf">help guide</a>. This is especially relevant for opening corpora using the new Corpus Manager tool. (January 2022)
+</div> 
 
 {% include toc.html %}
-<div class="alert alert-info">
-In 2022, Laurence Anthony launched AntConc 4.0, a substantial upgrade to the AntConc software. While nearly all of the features remain the same, some practices described below have changed somewhat. If you are using a more recent version of AntConc than the one demonstrated below, please refer to guidance provided by Laurence Anthony's [help guide](https://www.laurenceanthony.net/software/antconc/releases/AntConc403/help.pdf). This is especially relevant for opening corpora using the new Corpus Manager tool. (January 2022)
-</div> 
+
 
 
 
