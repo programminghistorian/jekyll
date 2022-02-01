@@ -27,6 +27,11 @@ avatar_alt: Grabado de una estantería con libros
 doi: 10.46430/phes0032
 ---
 
+<div class="alert alert-info">
+En 2022, Lauren Anthony sacó AntConc 4.0, una actualización importante del software AntConc. Aunque casi todas las funciones siguen siendo las mismas, algunas de las prácticas que se describen en esta lección han cambiado un poco. Si estás utilizando una versión más reciente de AntConc que la que se muestra a continuación, puedes consultar la <a href="https://www.laurenceanthony.net/software/antconc/releases/AntConc403/help.pdf">guía de ayuda</a> proporcionada por Laurence Anthony (solo disponible en inglés). Este aviso es especialmente relevante para abrir un corpus utilizando la nueva herramienta Corpus Manager (enero de 2022).
+</div>
+
+{% include toc.html %}
 
 ## Introducción
 
