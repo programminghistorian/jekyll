@@ -2534,6 +2534,40 @@
   status: volunteer
 
 
+- name: Scott Kleinman
+  team: true
+  team_start: 2022
+  institution: California State University, Northridge
+  github: https://github.com/scottkleinman
+  email: scottkleinman@csun.edu
+  twitter: sekleinman
+  url: https://scottkleinman.com/
+  sortname: Kleinman
+  orcid: 0000-0001-7477-1308
+  affiliation:
+    en: |
+      California State University, Northridge, USA
+    es: |
+      California State University, Northridge, Estados Unidos
+    fr: |
+      California State University, Northridge, États-Unis
+    pt: |
+      California State University, Northridge, Estados Unidos da América
+  bio:
+    en: |
+      Scott Kleinman is Professor of English and Director of the Center for Digital Humanities at California State University, Northridge.
+    es: |
+      Your bio en español.
+    fr: |
+      Your bio en français.
+    pt: |
+      Your bio em português.
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+
 - name: Firstname Surname
   team: true
   team_start: 2022
