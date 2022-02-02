@@ -2498,6 +2498,40 @@
     - english
     - editorial
   status: volunteer
+  
+  
+- name: Yann Ryan
+  team: true
+  team_start: 2022
+  institution: University of Helsinki
+  github: yann-ryan
+  email: yann.ryan@gmail.com
+  twitter: lievesofgrass
+  url: "https://yann-ryan.github.io/"
+  sortname: Surname
+  orcid: 0000-0003-1878-4838
+  affiliation:
+    en: |
+      University of Helsinki, Finland
+    es: |
+      Universidad de Helsinki, Finlandia
+    fr: |
+      Université de Helsinki, Finlande
+    pt: |
+      Universidade da Helsinki, Finlândia
+  bio:
+    en: |
+      Yann is a postdoctoral researcher working with the COMHIS computational history group at the University of Helsinki.
+    es: |
+      Your bio en español.
+    fr: |
+      Your bio en français.
+    pt: |
+      Your bio em português.
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
 
 
 - name: Firstname Surname
