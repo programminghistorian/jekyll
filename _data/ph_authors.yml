@@ -2566,3 +2566,37 @@
     - english
     - editorial
   status: volunteer
+  
+  - name: Giulia Taurino
+  team: true
+  team_start: 2022
+  institution: Northeastern University
+  github: giuliataurino
+  email: g.taurino@northeastern.edu
+  twitter: giulia_taurino
+  url: "https://www.khoury.northeastern.edu/people/giulia-taurino/"
+  sortname: Surname
+  orcid: 0000-0002-1065-840X
+  affiliation:
+    en: |
+      Northeastern University, US
+    es: |
+      Your Institution, Reino Unido
+    fr: |
+      Your Institution, Royaume-Uni
+    pt: |
+      Your Institution, Reino Unido
+  bio:
+    en: |
+      Giulia Taurino is a Postdoctoral Researcher at The Institute for Experiential AI (Northeastern University, Khoury College of Computer Science / Roux Institute), where she works on the development of AI toolkits for media research in collaboration with the NULab for Texts, Maps, and Networks and MIT Data + Feminism Lab.
+    es: |
+      Your bio en español.
+    fr: |
+      Your bio en français.
+    pt: |
+      Your bio em português.
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
