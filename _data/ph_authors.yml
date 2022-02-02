@@ -1027,16 +1027,39 @@
     pt: |
       Evan Peter Williamson é bibliotecário de uma infraestrutura digital na Biblioteca da University of Idaho. Trabalha com dados e serviços digitais para desenvolver projetos interessantes, workshops esclarecedores e serviços inovadores para a vida. Apesar do seu background em História de Arte, Estudos Clássicos e Arquivos, procura sempre estar envolvido em tudo o que é digital.
 
-- name: John R. Ladd
-  team: false
+- name: John Ladd
+  team: true
+  team_start: 2022
+  institution: Denison University
+  github: jrladd
+  email: hello@jrladd.com
+  twitter: johnrladd
+  url: "https://jrladd.com/"
+  sortname: Ladd
+  orcid: 0000-0002-5440-062X
+  affiliation:
+    en: |
+      Denison University, US
+    es: |
+      Your Institution, Reino Unido
+    fr: |
+      Your Institution, Royaume-Uni
+    pt: |
+      Your Institution, Reino Unido
   bio:
     en: |
-      John R. Ladd is a postdoctoral fellow in digital humanities at Northwestern University, where he teaches early modern studies and computational approaches to literature.
+      John Ladd is Visiting Assistant Professor in Data Analytics at Denison University, where he uses humanities approaches to data and network analysis to think about the long, interwoven histories of media and technology, especially in early modern literature. 
     es: |
-      John R. Ladd es investigador postdoctoral en humanidades digitales en la Universidad de Northwestern, donde enseña estudios de la modernidad temprana y enfoques computacionales a la literatura.
+      Your bio en español.
+    fr: |
+      Your bio en français.
     pt: |
-      John R. Ladd é doutorado em Literatura pela Washington University, em Saint Louis, e bolseiro de pós-doutoramento no projeto “Six Degrees of Francis Bacon” na Carnegie Mellon University.
-
+      Your bio em português.
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+  
 - name: Jessica Otis
   team: false
   bio:
