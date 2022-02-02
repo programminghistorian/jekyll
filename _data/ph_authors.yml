@@ -2467,6 +2467,39 @@
     - editorial
   status: volunteer
 
+- name: Rolando Rodriguez
+  team: true
+  team_start: 2022
+  institution: University of North Carolina at Chapel Hill
+  github: rolrodr
+  email: rolando@ad.unc.edu
+  twitter: bibliothiccario
+  url: "https://www.rolandorodriguez.dev"
+  sortname: Rodriguez
+  affiliation:
+    en: |
+      University of North Carolina at Chapel Hill, US.
+    es: |
+      Universidad de Norte Carolina en Chapel Hill, Estados Unidos.
+    fr: |
+      Université de North Carolina à Chapel Hill, États-Unis.
+    pt: |
+      Universidade da North Carolina em Chapel Hill, Estados Unidos da América.
+  bio:
+    en: |
+      Rolando is a MSIS candidate at University of North Carolina at Chapel Hill.
+    es: |
+      Your bio en español.
+    fr: |
+      Your bio en français.
+    pt: |
+      Your bio em português.
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+
 - name: Firstname Surname
   team: true
   team_start: 2022
