@@ -2426,7 +2426,7 @@
     es: |
       Liz Fischer es estudiante de doctoado en la Universidad de Texas en Austin.
     fr: |
-      Your bio en français.
+      Liz Fischer est doctorante à l'université du Texas à Austin. 
     pt: |
       Liz Fischer é estudante de doutoramento na Universidade do Texas em Austin.
   team_roles:
@@ -2454,13 +2454,13 @@
       Universidade da North Carolina em Chapel Hill, Estados Unidos da América.
   bio:
     en: |
-      Rolando is a MSIS candidate at University of North Carolina at Chapel Hill.
+      Rolando Rodriguez is a MSIS candidate at University of North Carolina at Chapel Hill.
     es: |
-      Rolando es candidato del MSIS en la Universidad de Carolina del Norte en Chapel Hill.
+      Rolando Rodriguez es candidato del MSIS en la Universidad de Carolina del Norte en Chapel Hill.
     fr: |
-      Your bio en français.
+      Rolando Rodriguez effectue un master en sciences d'information et de communication à l'université de Caroline du Nord à Chapel Hill. 
     pt: |
-      Rolando é estudante de Mestrado em Sistemas de Informação na Universidade da Carolina do Norte em Chapel Hill.
+      Rolando Rodriguez é estudante de Mestrado em Sistemas de Informação na Universidade da Carolina do Norte em Chapel Hill.
   team_roles:
     - english
     - editorial
@@ -2488,13 +2488,13 @@
       Universidade da Helsinki, Finlândia
   bio:
     en: |
-      Yann is a postdoctoral researcher working with the COMHIS computational history group at the University of Helsinki.
+      Yann Ryan is a postdoctoral researcher working with the COMHIS computational history group at the University of Helsinki.
     es: |
-      Yann es investigador postdoctoral en el grupo de historia computacional COMHIS de la Universidad de Helsinski.
+      Yann Ryan es investigador postdoctoral en el grupo de historia computacional COMHIS de la Universidad de Helsinski.
     fr: |
-      Your bio en français.
+      Yann Ryan est chercheur postdoctoral au sein du groupe d'histoire computationnelle COMHIS à l'université d'Helsinki.
     pt: |
-      Yann é um pesquisador de pós-doutoramento que trabalha com o grupo de história computacional COMHIS na Universidade de Helsínquia.
+      Yann Ryan é um pesquisador de pós-doutoramento que trabalha com o grupo de história computacional COMHIS na Universidade de Helsínquia.
   team_roles:
     - english
     - editorial
@@ -2526,7 +2526,7 @@
     es: |
       Scott Kleinman es profesor de inglés y director del Centro para Humanidades Digitales de California State University, Northridge.
     fr: |
-      Your bio en français.
+      Scott Kleinman est professeur d'études anglaises et directeur du Center for Digital Humanities à l'université d'État de Californie, Northridge.
     pt: |
       Scott Kleinman é Professor de Inglês e diretor do Center for Digital Humanities da Universidade do Estado da Califórnia, Northridge.
   team_roles:
@@ -2559,7 +2559,7 @@
     es: |
       John Ladd es Profesor Asistente Visitante de Análisis de Datos en la Universidad Denison, donde utiliza aproximaciones desde las humanidades para el análisis de datos y redes, con el fin de pensar sobre las historias largas y entrelazadas de los medios y la tecnología, con énfasis en la literatura moderna temprana.
     fr: |
-      Your bio en français.
+      John Ladd est Assistant Professor invité en Analyse de données à l'université Denison, où il applique des approches humanistes aux données et l'analyse de réseaux pour réfléchir l'histoire croisée des médias et de la technologie dans la longue durée en mettant l'accent sur la littérature moderne.  
     pt: |
       John Ladd é Professor Assistente Visitante em Análise de Dados na Universidade de Denison, onde usa abordagens de humanidades para dados e análise de rede para pensar sobre as longas e entrelaçadas histórias de media e tecnologia, especialmente na literatura da época moderna.
   team_roles:
@@ -2592,7 +2592,7 @@
     es: |
       Giulia Taurino es investigadora postdoctoral en el Instituto para IA Experencial (Northeastern University, Khoury College of Computer Science / Roux Institute), donde trabaja en el desarrollo de herramientas de IA para la investigación de los medios en colaboración con el NULab for Texts, Maps, and Networks and MIT Data + Feminism Lab.
     fr: |
-      Your bio en français.
+      Giulia Taurino est chercheuse postdoctorale à l'institut pour l'IA expérimentale à l'université Northeastern (Khoury College of Computer Science / Roux Institute), où elle travaille sur le développement de dispositifs en IA appliqués à la recherche en études de médias, en collaboration avec les labs NULab for Texts, Maps, and Networks et MIT Data + Feminism Lab.
     pt: |
       Giulia Taurino é pesquisadora de pós-doutoramento no The Institute for Experiential AI (Universidade de Northeastern, Khoury College of Computer Science / Roux Institute), onde trabalha no desenvolvimento de kits de ferramentas de IA para pesquisa de media em colaboração com o NULab for Texts, Maps, and Networks e o MIT Data + Feminism Lab.
 
