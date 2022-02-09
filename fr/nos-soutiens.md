@@ -83,6 +83,7 @@ Nous tenons également à remercier publiquement tous nos donateurs de niveau 'm
 - Laurissa Stokes (éducation)
 - Monica Berti (éducation)
 - Ajit Balakrishnan
+- Simon Mahony
 
 ## Gestion de donations et de parrainages
 
