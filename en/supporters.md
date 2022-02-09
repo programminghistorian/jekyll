@@ -84,6 +84,7 @@ We also publicly thank all of our 'Patron' and 'Educator' supporters:
 - Laurissa Stokes (Educator)
 - Monica Berti (Educator)
 - Ajit Balakrishnan
+- Simon Mahony
 
 ## Management of Donations and Sponsorship
 
