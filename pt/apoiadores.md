@@ -86,6 +86,7 @@ Também agradecemos publicamente a todos os nossos apoiadores ‘Patrono’ e �
 -   Laurissa Stokes (Educator)
 -   Monica Berti (Educator)
 -   Ajit Balakrishnan
+-   Simon Mahony
 
 ## Gestão de Doações e Patrocínios
 
