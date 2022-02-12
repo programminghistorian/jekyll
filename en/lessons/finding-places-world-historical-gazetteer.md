@@ -3,8 +3,7 @@ title: Finding places in text with the World Historical Gazeteer
 collection: lessons
 layout: lesson
 slug: finding-places-world-historical-gazetteer
-date:
-translation_date:
+date: 2022-02-11
 authors:
 - Susan Grunewald
 - Andrew Janco
