@@ -19,7 +19,7 @@ topics: [data-manipulation]
 abstract: Researchers often need to be able to search a corpus of texts for a defined list of terms and historians are often interested in certain places named in a text or texts. This lesson details how to programmatically search documents for a list of terms, including place names and then how to obtain coordinates and map historical place names with the World Historical Gazetteer.
 avatar_alt: An image of a globe with a Mercator projection
 doi: 10.46430/phen0096
-redirect_from: "/lessons/finding-places-world-historical-gazetteer"
+redirect_from: /lessons/finding-places-world-historical-gazetteer
 
 ---
 
