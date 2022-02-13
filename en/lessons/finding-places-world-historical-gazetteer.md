@@ -37,7 +37,7 @@ In this lesson, readers will use the Python [pathlib](https://perma.cc/442Q-MGN5
 Please note that the sample data and context of this lesson constitute an example of multilingual digital humanities. The memoir texts are in German, while the list of place names represent German transliterations of Russian names for places across the former Soviet Union circa 1941-56.
 
 ## 2. Historical example
-This lesson applies co-author Susan Grunewald's research and serves to demonstrate how her practical methods can be beneficial to historians. Grunewald mapped forced labor camps where German Prisoners of War (POWs) were held in the former Soviet Union during and after the Second World War. Her maps have been used to argue that contrary to popular memory, German POWs in the Soviet Union were sent more commonly to industrial and reconstruction projects in Western Russia rather than Siberia. Grunewald’s research went onto investigate whether POW memoirs gave a misrepresentation of Siberian captivity, which could have helped to create or promulgate this popular memory.
+This lesson applies co-author Susan Grunewald's research and serves to demonstrate how her practical methods can be beneficial to historians. Grunewald mapped forced labor camps where German Prisoners of War (POWs) were held in the former Soviet Union during and after the Second World War. Her maps have been used to argue that contrary to popular memory, German POWs in the Soviet Union were sent more commonly to industrial and reconstruction projects in Western Russia rather than Siberia. Grunewald’s research went on to investigate whether POW memoirs gave a misrepresentation of Siberian captivity, which could have helped to create or promulgate this popular memory.
 
 
 In this lesson, we will use a list of camp names to identify mentions of particular camps and their locations in POW memoirs. This data can then be mapped to demonstrate [Grunswald’s thesis](https://perma.cc/XBE9-VNDT) that not all direct mentions of places in POW memoirs were in Siberia.
@@ -59,7 +59,7 @@ Users can build their own gazetteer simply by listing places of importance for t
 [We have provided a sample gazetteer of German names for prisoner of war camps](https://perma.cc/5Z28-RBKV) for use with this lesson.
 
 ## 5. Finding Places in Text with Python
-From your computer’s perspective, text is nothing more than a sequence of characters. If you ask Python to iterate a snippet of text, you’ll notice that it returns just one letter at a time. Note that the index starts at 0, not 1 and that spaces are part of the sequence.
+From your computer’s perspective, text is nothing more than a sequence of characters. If you ask Python to iterate a snippet of text, you’ll notice that it returns just one letter at a time. Note that the index starts at 0, not 1, and that spaces are part of the sequence.
 
 ```python
 text = "Siberia has many rivers."
@@ -93,7 +93,7 @@ for index, char in enumerate(text):
 23 .
 ```
 
-When we ask Python to find the word “rivers,” in a larger text, it is specifically searching for a lower-case “r” followed by “i” “v” and so on. It returns a match only if it finds exactly the right letters in the right order.  When it makes a match, Python’s .find() function will return the location of the first character in the sequence. For example:
+When we ask Python to find the word “rivers,” in a larger text, it is specifically searching for a lower-case “r” followed by “i” “v” and so on. It returns a match only if it finds exactly the right letters in the right order.  When it makes a match, Python’s `.find()` function will return the location of the first character in the sequence. For example:
 
 ```python
 text = "Siberia has many rivers."
@@ -103,7 +103,7 @@ text.find("rivers")
 17
 ```
 
-Keep in mind that computers are very precise and picky.  Any messiness in the text will cause the word to be missed, so `text.find("Rivers")` returns -1, which means that the sequence “Rivers” (with an uppercase R) could not be found. You can also inadvertently match characters that are part of the sequence, but don’t represent a whole word.  Try `text.find("y riv")`.  You retrieve 15 matches because that is part of of the “y riv” sequence. So while it is present in the text, this isn’t a term that you’d normally set out to find.
+Keep in mind that computers are very precise and picky.  Any messiness in the text will cause the word to be missed, so `text.find("Rivers")` returns -1, which means that the sequence “Rivers” (with an uppercase R) could not be found. You can also inadvertently match characters that are part of the sequence, but don’t represent a whole word.  Try `text.find("y riv")`.  You retrieve 15 matches because that is part of the “y riv” sequence. So while it is present in the text, this isn’t a term that you’d normally set out to find.
 
 ## 6. Natural language processing
 
@@ -277,7 +277,7 @@ displacy.serve(doc, style="ent")
 ```python
 displacy.render(doc, jupyter=True, style="ent")
 ```
-With statistical models, you can also use displaCy to create a useful visualization of the relationships between words in the text. Just use style='dep' to generate this form of visualization.
+With statistical models, you can also use displaCy to create a useful visualization of the relationships between words in the text. Just use `style='dep'` to generate this form of visualization.
 
 ```python
 displacy.render(doc, jupyter=True, style="dep")
@@ -366,7 +366,7 @@ print('created: ', filename)
 ## 7. Uploading to the World Historical Gazetteer
 Now that we have a Linked Places TSV, we will upload it to the World Historical Gazetteer (WHG). The WHG is a fully web-based application. It indexes place names drawn from historical sources, adding temporal depth to a corpus of approximately 1.8 million modern records. This is especially useful for places which have changed names over time. By using the WHG, users can upload their data and rapidly find the coordinates of historical places (provided that the places are in the WHG index and have coordinates). As mentioned in the gazetteer section above, this service provides automatic geocoding that is suitable for use with historical data. Many common geocoding services including Google Maps, as well as those behind a paywall barrier such as ArcGIS, are unsuitable for historical research as they are based primarily upon 21st century information. They rarely support historical place name information beyond the most common instances. Additionally, the WHG also supports a multitude of languages. Finally, geocoding and basic mapping are achievable through a graphical user interface. This circumnavigates the need to use a script, to trace layers from maps in a different program, or create relational databases and table joins in GIS software.
 
-The WHG is free to use. To get started, register for an account and then sign in.
+The WHG is free to use. To get started, [register for an account](https://whgazetteer.org/accounts/signup/) and then sign in.
 
 {% include figure.html filename="FINDING-PLACES-WORLD-HISTORICAL-GAZETTEER2.JPG" caption="Figure 3: Register" %}
 
@@ -396,14 +396,14 @@ After pressing Start, you will be returned to the main “Reconciliation” tab.
 
 You will be taken to a new screen that asks you to match the place names in your TSV file with records in the WHG. You will be given a choice of potential matches on the right hand side of the screen. Hover over them and they will appear as green flashes on the map illustration screen. Your options are “closeMatch” or “no match”. You can only have one closeMatch per place so choose the one from the reconciliation area that best describes your place in question. It is also possible that none of the suggested matches are correct, and in that case select “no match”.   
 
->>> The more information you put into the LP-TSV format, such as country codes, the easier it will be to make these matches. The associated information from the LP-TSV upload will appear on the left hand side of the reconciliation screen to help you understand all of the information provided on the right hand side. If you are building your own dataset, it is worth taking the time to add a country codes (ccodes) column into the file you upload as well as aat type with the corresponding type (e.g. settlement, state, country).
+> The more information you put into the LP-TSV format, such as country codes, the easier it will be to make these matches. The associated information from the LP-TSV upload will appear on the left hand side of the reconciliation screen to help you understand all of the information provided on the right hand side. If you are building your own dataset, it is worth taking the time to add a country codes (ccodes) column into the file you upload as well as aat type with the corresponding type (e.g. settlement, state, country).
 
 Given the bare-bones nature of this upload, it will be a little harder to reconcile these matches. All of the results should originate from the countries that made up the former Soviet Union: Russia, Ukraine, Belarus, Estonia, Latvia, Lithuania, Moldova, Armenia, Azerbaijan, Georgia, Uzbekistan, Kazakhstan, Kyrgyzstan, Tajikistan, and Turkmenistan. To see this in action, let's start the reconciliation process. Our first review is for Jelabuga. It is indeed a close match for Yelabuga, which we note is a variant of Yelabuga being listed as "Jelabuga@de," confirming that Jelabuga is the German language variant of Yelabuga. We will select "closeMatch" and then "save," which will advance us to the next item for review.
 
 {% include figure.html filename="FINDING-PLACES-WORLD-HISTORICAL-GAZETTEER8.JPG" caption="Figure 9: closeMatch" %}
 
 
-The next location for review is Keller. We can tell that this example is no match because the suggested match is a place in Italy. As our data only concerns places in the former Soviet Union, we can save no match and quickly move on. Note that if you realize you've made a mistake, you can go back one previous save by pressing the "Undo last save" button on the top left of the "Reconciliation Review" screen.
+The next location for review is Keller. We can tell that this example is "no match" because the suggested match is a place in Italy. As our data only concerns places in the former Soviet Union, we can save "no match" and quickly move on. Note that if you realize you've made a mistake, you can go back one previous save by pressing the "Undo last save" button on the top left of the "Reconciliation Review" screen.
 
 {% include figure.html filename="FINDING-PLACES-WORLD-HISTORICAL-GAZETTEER9.JPG" caption="Figure 10: No Match" %}
 
