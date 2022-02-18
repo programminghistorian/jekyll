@@ -24,7 +24,7 @@ Não cobramos taxas de processamento de artigos (APCs) ou assinaturas para bibli
 
 O _Programming Historian em Português_ (ISSN {{ site.data.snippets.issn[page.lang] }}) está indexado no [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
 
-## Awards
+## Prémios
 O _Programming Historian_ ganhou vários prémios que reconhecem as suas conquistas nas esferas das publicações em acesso aberto e da pesquisa digital. Em 2016 a nossa versão em inglês ganhou o [Digital Humanities Awards](http://dhawards.org/dhawards2016/results/) na categoria de _Best Series of Posts_. No ano seguinte, em 2017, o _Programming Historian en español_ ganhou o mesmo louvor e, no ano seguinte, venceu a 'Mejor iniciativa formativa desarrollada durante el año 2018', [Humanidades Digitales Hispánicas Association](http://humanidadesdigitaleshispanicas.es/). Ganhámos o Canadian Social Knowledge Institute's Open Scholarship Award em 2020 e, em 2021, foi-nos atribuído o Coko Foundation's Open Publishing Award na categoria _Open Content_.
 
 ## Política de Diversidade
