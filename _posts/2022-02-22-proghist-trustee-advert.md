@@ -47,6 +47,7 @@ Informal queries can be made to Dr. Adam Crymble, Chair of ProgHist Ltd at progr
 
 
 ### Charity Details:
-Name: ProgHist Ltd
-Charity Number: [1195875](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5181272)
-Company Number: 12192946 England
+
+* Name: ProgHist Ltd
+* Charity Number: [1195875](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5181272)
+* Company Number: 12192946 England
