@@ -863,6 +863,10 @@ Figures
     color: #fff;
     font-weight: bold;
   }
+  
+  .table-wrapper {
+  overflow-x: scroll;
+  }
 
   tr:nth-child(even) {background-color: #f2f2f2}
 
