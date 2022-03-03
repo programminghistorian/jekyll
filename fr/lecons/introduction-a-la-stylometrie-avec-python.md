@@ -66,8 +66,7 @@ Ce tutoriel utilise un jeu de données et des logiciels que vous devrez téléch
 
 ### Le jeu de données
 
-Pour compléter les exercices de ce tutoriel, vous devrez télécharger et ouvrir l'archive des _Federalist Papers_ [.zip](https://github.com/programminghistorian/jekyll/tree/gh-pages/assets/introduction-to-stylometry-with-python) qui contient
-les 85 articles dont nous aurons besoin pour effectuer notre analyse. L'archive contient également le [livre électronique du Projet Gutenberg](http://www.gutenberg.org/cache/epub/1404/pg1404.txt) dont ces 85 documents ont été extraits. L'ouverture du fichier .zip créera un [répertoire](https://fr.wikipedia.org/wiki/R%C3%A9pertoire_(informatique)) nommé `data` dans votre répertoire de travail courant. Assurez-vous de rester dans ce répertoire de travail courant et d'y sauvegarder tout le travail que vous réaliserez en suivant le tutoriel.
+Pour compléter les exercices de ce tutoriel, vous devrez télécharger et ouvrir l'archive des _Federalist Papers_ [.zip](/assets/introduction-to-stylometry-with-python/stylometry-federalist.zip) qui contient les 85 articles dont nous aurons besoin pour effectuer notre analyse. L'archive contient également le [livre électronique du Projet Gutenberg](http://www.gutenberg.org/cache/epub/1404/pg1404.txt) dont ces 85 documents ont été extraits. L'ouverture du fichier .zip créera un [répertoire](https://fr.wikipedia.org/wiki/R%C3%A9pertoire_(informatique)) nommé `data` dans votre répertoire de travail courant. Assurez-vous de rester dans ce répertoire de travail courant et d'y sauvegarder tout le travail que vous réaliserez en suivant le tutoriel.
 
 ### Le logiciel
 
