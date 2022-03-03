@@ -166,7 +166,8 @@ la_red <- network(
   VinculosEstaticosPH,
   vertex.attr = AtributosVerticesPH,
   vertex.attrnames = c("id.vertice", "nombre", "region"), directed = FALSE,
-  bipartite = FALSE
+  bipartite = FALSE,
+  multiple - TRUE
 )
 plot(la_red)
 ```
