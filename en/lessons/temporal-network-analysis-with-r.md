@@ -183,7 +183,8 @@ thenetwork <- network(
   vertex.attr = PHVertexAttributes,
   vertex.attrnames = c("vertex.id", "name", "region"),
   directed = FALSE,
-  bipartite = FALSE
+  bipartite = FALSE,
+  multiple = TRUE
 )
 plot(thenetwork)
 ```
