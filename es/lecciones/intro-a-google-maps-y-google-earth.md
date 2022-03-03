@@ -319,7 +319,7 @@ históricos. Google Maps no te solicita que instale ningún programa y sus mapas
 guardados en la nube. Google Earth, en cambio, debe ser instalado y no funciona
 en la nube, aunque los mapas que crees pueden ser exportados.
 
--   Instala Google Earth: <http://www.google.com/earth/index.html>
+-   Instala Google Earth: <https://www.google.com/intl/eng/earth/versions/#earth-pro>
 
 -   Abre el programa y familiarízate con el globo terráqueo digital.
     Utiliza el menú para agregar y quitar capas de información. Esto es muy
@@ -386,6 +386,9 @@ en la nube, aunque los mapas que crees pueden ser exportados.
     [mapa de la vía marítima][] de Dan Macfarlane para esta parte del ejercicio).
 
 **Importar tu archivo KML en Google Earth**
+
+<div class="alert alert-info">
+</div>
 
 -   Descarga el archivo KML de Google Maps Engine Lite (como fue descripto
     arriba).
