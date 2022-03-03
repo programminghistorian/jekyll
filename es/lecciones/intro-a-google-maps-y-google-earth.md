@@ -388,6 +388,7 @@ en la nube, aunque los mapas que crees pueden ser exportados.
 **Importar tu archivo KML en Google Earth**
 
 <div class="alert alert-info">
+Las actualizaciones realizadas en Google Earth desde la publicación de esta lección en 2013 han tenido como consecuencia que aquellas personas utilizando Google Earth Pro Desktop v.7.3.4.8248 (64-bit) no puedan ver las vías marítimas que deberían aparecer en el archivo KML. <a href="https://github.com/programminghistorian/jekyll/issues/2456">Actualmente estamos explorando este problema</a>. (Marzo 2022)
 </div>
 
 -   Descarga el archivo KML de Google Maps Engine Lite (como fue descripto
