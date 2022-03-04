@@ -141,11 +141,11 @@ All lesson metadata and alerts should follow the convention of pulling appropria
             </div>
             {% endif %}
 
-            {% if page.lesson-tester %}
+            {% if page.lesson-testers %}
             <div>
               <h3>{{site.data.snippets.lesson-testers[page.lang]}}</h3>
               <ul>
-                {% for lesson-tester-name in page.lesson-tester %}
+                {% for lesson-tester-name in page.lesson-testers %}
                 {% assign lesson-tester = site.data.ph_authors | where: "name", lesson-tester-name | first %}
                 <li>{{ lesson-tester-name }}{% if lesson-tester.orcid %}
                   {% include orcid.html author = lesson-tester %}{% endif %}</li>
