@@ -50,11 +50,15 @@ Bloque de código para insertar imágenes:
 
 ### Ejemplo de una tabla:
 
+<div class="table-wrapper" markdown="block">
+
 | Encabezado 1 | Encabezado 2 | Encabezado 3 |
 | --------- | --------- | --------- |
 | Fila 1, columna 1 | Fila 1, columna 2 | Fila 1, columna 3|
 | Fila 2, columna 1 | Fila 2, columna 2 | Fila 2, columna 3|
 | Fila 3, columna 1 | Fila 3, columna 2 | Fila 3, columna 3|
+
+</div>
 
 ### Una nota a pie de página:
 
