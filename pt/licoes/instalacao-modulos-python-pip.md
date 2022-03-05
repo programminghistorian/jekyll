@@ -16,6 +16,8 @@ translation-editor:
 translation-reviewer:
 - Ian Araujo
 - Daniel Bonatto Seco
+exclude_from_check:
+  - editors
 difficulty: 1
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/441
 activity: acquiring
