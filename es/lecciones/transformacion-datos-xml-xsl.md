@@ -265,7 +265,7 @@ Los metadatos recogen la paginación de la noticia, la fecha de impresión, algu
  
 En 2015, la base de datos alcanzó las 350 noticias con metadatos. Aunque quizás algunos investigadores quieran acceder a toda la información, la mayoría están interesados en una porción de los datos como el año de publicación o el tema principal de la noticia. Gracias al uso de XSL, es posible filtrar la información innecesaria u ordenar el material de un modo que sea más útil para investigar. Por ejemplo, como imaginábamos en la introducción, quizás nos sería de utilidad preparar una lista de publicaciones o bien una tabla con las fechas, los títulos y la paginación de las noticias humorísticas contenidas en la base de datos. En ambos casos, podemos obtener los resultados sin muchos problemas utilizando hojas de estilo XSL. 
 
-Para empezar a trabajar con la base de datos *Scissors and Paste*, descarga el archivo [aquí](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/assets/scissorsandpaste-master.zip).
+Para empezar a trabajar con la base de datos *Scissors and Paste*, descarga el archivo [`master.zip`](/assets/transforming-xml-with-xsl/master.zip).
 Descomprime el archivo ZIP para obtener la carpeta llamada `scissorsandpaste-master`.
 Puedes descomprimirlo haciendo doble clic desde el explorador de archivos (en Windows, MacOS o Linux) o usando un programa especial para ello.
 
@@ -285,9 +285,10 @@ También encontrarás ahí los siguientes documentos:
 Al finalizar este tutorial, te recomendamos explorar las otras hojas de estilo XSL contenidas en la carpeta `Transformers` y los archivos generados con ellas; de esta manera podrás descubrir otras posibilidades y crear archivos adaptados a tus necesidades.
 
 La información contenida en el archivo `TEISAP.XML` ha sido codificada según las recomendaciones de la [Text-Encoding Initiative](https://tei-c.org/) (TEI), gran parte de la cual corresponde a los metadatos.
-Sin embargo, en este tutorial utilizaremos una versión simplificada que cubre los datos históricos más importantes.[^4]
 
-Ve a la carpeta `Outputs` y continúa hasta la carpeta `XML`. Adentro encontrarás una carpeta llamada `Simplified` que contiene el documento `SAPsimple_es.xml`.
+Sin embargo, en este tutorial utilizaremos una versión simplificada que cubre los datos históricos más importantes.[^4]
+Deberás descargar el archivo
+[`SAPsimple_es.xml`](/assets/transforming-xml-with-xsl/SAPsimple_es.xml).
 Haz una copia de él en la misma carpeta donde antes habías descomprimido el ejecutable de Saxon.
 Ahora ábrelo en el editor VSCode y examina su contenido.
 

@@ -242,7 +242,7 @@ The *Scissors and Paste Database* is a collaborative and growing collection of a
 
 As of 2015, the database contained over 350 individual articles, each with attached metadata. Although some researchers may need all of this information, most will only be interested in a subsection of the data---a particular year, theme or publication. By using XSL, these researchers can quickly filter out the information they do not need or re-arrange the material in the way that is most helpful for their project. For example, the module tutor in our introduction or a researcher who wants a simple table of the dates, publications and page numbers of humorous articles within the database. Both can be quickly created using XSL.
 
-To begin work with the Scissors and Paste Database, download the following ZIP archive: [Github repository](https://github.com/mhbeals/scissorsandpaste/archive/refs/heads/master.zip). 
+To begin work with the Scissors and Paste Database, download the following ZIP archive: [`master.zip`](/assets/transforming-xml-with-xsl/master.zip).
 Open the ZIP file and you will find a folder named **scissorsandpaste-master**.  Extract this folder by either using the extract button of your unzipping programme or by dragging and dropping the folder onto your desktop.
 
 This data package has three main items:
@@ -615,7 +615,7 @@ You can also create web pages by changing your `<xsl:output>` method to *html* a
 There are many more transformation commands that you can use to further customise your outputs.
 Some of these require the use of a 2.0 or 3.0 XSL processor, but the above should cover most of your day-to-day transformation needs.
 
-Once you are comfortable using the commands listed here, explore the `Transformers` folder of the *Scissors and Paste Database* to see further examples of how to transform XML structured data.
+Once you are comfortable using the commands listed here, explore the `Transformers` folder of the Scissors and Paste Database to see further examples of how to transform XML structured data.
 
 
 # Possible Solutions to the Exercises
