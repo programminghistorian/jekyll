@@ -19,10 +19,12 @@ avatar_alt: A peacock with a woman's head
 doi: 10.46430/phen0059
 ---
 
-<div class="alert alert-warning">
+<div class="alert alert-info">
 Due to recent changes in security policies of web browser, which can no longer execute XSL code from local sources, the original approach of this lesson has had to be rethought.
 This lesson was updated in March 2022 by Nicolás Vaughan.
 </div>
+
+{% include toc.html %}
 
 # Introduction
 
@@ -46,7 +48,8 @@ Unlike [Hypertext Markup Language (HTML)](https://en.wikipedia.org/wiki/HTML), w
 
 A database can be made up of one or more XML files and each file has the same basic structure. Each section, or layer, of the file is surrounded by a set of [elements](https://en.wikipedia.org/wiki/XSLT_elements). An element is, essentially, a category or name for the type of data you are providing. Like [Russian Nesting Dolls](https://en.wikipedia.org/wiki/Matryoshka_doll), each level of elements exists entirely within another one. The **top-level element** encloses the entire database. Each element within the top-level element is a **child** of that element. Likewise, the element surrounding a child element is called the **parent** element. 
 
-```XML
+```
+XML
 <top>
   <parent>
     <child></child>
@@ -56,7 +59,8 @@ A database can be made up of one or more XML files and each file has the same ba
 
 Depending on the rules of your database, every element can have a value (textual or numerical) as well as any number of child elements.
 
-```XML
+```
+XML
 <top> 
   <parent>
 	<child_1>value</child_1>
@@ -68,7 +72,8 @@ Depending on the rules of your database, every element can have a value (textual
 
 They can also have [attributes](https://en.wikipedia.org/wiki/Attribute_(computing)), which can be thought of as metadata for the element. Attributes can, for example, help you distinguish between different types of values without having to create a new type of element.
 
-```XML
+```
+XML
 <top>
   <name>
     <last>Crockett</last>
