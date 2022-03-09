@@ -275,7 +275,8 @@ Open the `SimplifiedSAP.xml` file in VSCode and examine it now.
 
 The first line of the XML database is:
 
-```XML
+```
+XML
 <?xml version="1.0" encoding="UTF-8"?>
 ```
 
@@ -313,7 +314,8 @@ Once again, make sure the file is saved in the same directory that contains both
 
 The first three lines of your XSL file should be the following:
 
-```XML
+```
+XML
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="text"/>
@@ -328,14 +330,16 @@ Finally, the third line tells your transformer what sort of output you would lik
 Every time you open an element `<element>` you will need to close it `</element>` (or however the element is named); otherwise you will receive an syntax error as the document is not well-formed. 
 Close your stylesheet by adding the following as the final line of your file:
 
-```XML
+```
+XML
 </xsl:stylesheet>
 ```
 
 The next part of your XSL stylesheet will be the main template, or formatting instructions, for your output.
 On a new line, directly underneath `<xsl:output method="text"/>` type
 
-```XML
+```
+XML
 <xsl:template match="/">
 
 </xsl:template>
@@ -349,7 +353,8 @@ However, using `root` may cause unexpected later on, so it is best practice to u
 
 Your file should now look like this:
 
-```XML
+```
+XML
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="text"/>
@@ -366,7 +371,8 @@ In between your template elements, type `<xsl:value-of select="root"/>` You do n
 
 Your `mystyle.xsl` file should look like this:
 
-```xml
+```
+xml
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="text"/>
@@ -419,7 +425,8 @@ Thus, pointing to element `<root>`  also selects elements `<id>`, `<title>` and 
 In order to select and print the value of a particular element, you simply need to replace `root` with its name. Let's try it.
 In your XSL stylesheet, replace `root` with `title` in the proper line:
 
-```XML
+```
+XML
 <xsl:value-of select="title"/>
 ```
 
@@ -434,7 +441,8 @@ It didn't work? That is because the XSL processor didn't know where to find the 
 `<title>` is not the top-level element, so we must explain to the XSL processor how to get to the element we mean. 
 This more specific direction is known as the [*XPATH*](https://en.wikipedia.org/wiki/XPath) of the element, and works in a similar way to the file paths on your computer. Replace `title` with `root/record/title`, like so;
 
-```XML
+```
+XML
 <xsl:value-of select="root/record/title"/>
 ```
 
@@ -458,7 +466,8 @@ After your `<xsl:value-of>`, add a new line that closes the `<xsl:for-each>` ele
 
 Your file should look like this now:
 
-```xml
+```
+xml
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="text"/>
@@ -488,7 +497,8 @@ Using `<xsl:text>` elements ensures that your text renders exactly the way you i
 
 The complete code of your XSL file is therefore the following:
 
-```XML
+```
+XML
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="text"/>
@@ -525,13 +535,15 @@ In an element, not all data is stored as its *content* (i.e., what is found betw
 Some data can be stored as the value of an *attribute* of that element. 
 For example the `<date>` element has an attribute called `when` with the value of the date of the article:
 
-```XML
+```
+XML
 <date when="1815-01-12"/>
 ```
 
 To print the value of `when` you will need to reference the attribute using `@when` (note the `@` before it):
 
-```XML
+```
+XML
 <xsl:value-of select="date/@when"/>
 ```
 
@@ -557,7 +569,8 @@ This instruction has several optional attributes that will dictate how your data
 It must be attributed in this order. 
 For example, to sort the element `<id>`, whose content is numerical, in reverse order, use:
 
-```XML
+```
+XML
 <xsl:sort select="id" order="descending" data-type="number"/>
 ```
 
@@ -579,7 +592,8 @@ If not, it will ignore these statements and move onto the next part of the templ
 
 For example, to print the *id* numbers of all the records from 1789, you would type:
 
-```XML
+```
+XML
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="text"/>
@@ -627,7 +641,8 @@ Once you are comfortable using the commands listed here, explore the `Transforme
 
 ## Introduction (Primary Source Reader)
 
-```XML
+```
+XML
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html"/>
@@ -674,7 +689,8 @@ If we had used `p` instead, we would not select anything, as there is no `text/p
 
 ## Exercise A
 
-```XML
+```
+XML
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="text"/>
@@ -689,7 +705,8 @@ If we had used `p` instead, we would not select anything, as there is no `text/p
 
 
 ## Exercise B
-```XML
+```
+XML
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="text"/>
@@ -704,7 +721,8 @@ If we had used `p` instead, we would not select anything, as there is no `text/p
 
 To remove the indentation preceding the ID number between brackets, you will need to take more direct control of your whitespace by using line-breaks before each ID number and paragraph, as seen below:
 
-```XML
+```
+XML
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="text"/>
@@ -717,7 +735,8 @@ To remove the indentation preceding the ID number between brackets, you will nee
 
 ## Exercise C
 
-```XML
+```
+XML
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="text"/>
@@ -736,7 +755,8 @@ You'll notice I used `&#32;` in between my two values. This is the HEX code for 
 
 ## Exercise D
 
-```XML
+```
+XML
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="text" />
@@ -755,7 +775,8 @@ You'll notice I used `&#32;` in between my two values. This is the HEX code for 
 
 ## Exercise E
 
-```XML
+```
+XML
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="text"/>
@@ -803,7 +824,8 @@ If the reader wishes to try this, they should change the value of the `@version`
 
 [^5]: Alternatively, you can replace that line with this code:
 
-```xml
+```
+xml
 <xsl:text>
 
 </xsl:text>
