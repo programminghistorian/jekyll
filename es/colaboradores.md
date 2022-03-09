@@ -38,6 +38,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [MIT Libraries](https://libraries.mit.edu/), Estados Unidos
 - [University of Nebraska-Lincoln](https://www.unl.edu/), Estados Unidos
 - [The National Archives](https://www.nationalarchives.gov.uk/), Reino Unido
+- [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 

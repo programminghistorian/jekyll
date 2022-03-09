@@ -39,6 +39,7 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 -   [MIT Libraries](https://libraries.mit.edu/), Estados Unidos
 -   [University of Nebraska-Lincoln](https://www.unl.edu/), Estados Unidos
 -   [The National Archives](https://www.nationalarchives.gov.uk/), Reino Unido
+-   [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
