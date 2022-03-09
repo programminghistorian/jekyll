@@ -215,6 +215,7 @@ java -jar saxon-he-11.2.jar -t
 For example, on Windows you will get:
 
 ```sh
+PS C:\Users\usuario\Downloads\SaxonHE11-2J> java -jar saxon-he-11.2.jar -t
 SaxonJ-HE 11.2 from Saxonica
 Java version 1.8.0_321
 No source file name
