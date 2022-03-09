@@ -29,7 +29,7 @@ avatar_alt: Dibujo de un pavo real con sus plumas extendidas.
 doi: 10.46430/phes0041
 ---
 
-<div class="alert alert-warning">
+<div class="alert alert-info">
 Debido a cambios recientes en las políticas de seguridad de los navegadores web, los cuales ya no pueden ejecutar código XSL de archivos locales, la aproximación original de esta lección ha tenido que ser replanteada. 
 Esta lección fue actualizada en marzo de 2022 por Nicolás Vaughan.
 </div>
