@@ -296,7 +296,7 @@ Ahora ábrelo en el editor VSCode y examina su contenido.
 
 La primera línea del archivo XML es la siguiente:
 
-```XML 
+```xml 
 <?xml version="1.0" encoding="UTF-8"?>
 ```
 
@@ -438,7 +438,7 @@ Por lo tanto, al apuntar al elemento `<raíz>`, obtenemos el texto contenido en 
 Si quieres seleccionar e imprimir el valor de un cierto elemento, sustituye el nombre `raíz` por el del elemento que quieras. Intentémoslo.
 En la hoja de estilos XSL, reemplaza `raíz` por `título` en la línea apropiada, así:
 
-```XML
+```xml
 <xsl:value-of select="título"/>
 ```
 
@@ -454,7 +454,7 @@ El elemento `<título>` no está situado en el nivel más alto de la jerarquía,
 El lenguaje con que se hace esto se conoce como [XPATH](https://es.wikipedia.org/wiki/XPath) y funciona de una manera similar al modo como se estructuran las rutas de las carpetas en un computador. 
 Sustituye `título` por `raíz/registro/título`. La hoja de estilos XSL quería entonces así:
 
-```XML
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="text"/>
@@ -518,7 +518,7 @@ El uso de elementos `<xsl:text>` garantiza que tu texto se visualizará exactame
 
 El código completo de nuestra hoja de estilos XSL será entonces este:
 
-```XML
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="text"/>
