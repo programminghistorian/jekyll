@@ -814,40 +814,28 @@ También es posible utilizar una coma o cualquier otro separador.
 
 # Notas
 
-## Notas de la traducción
+[^1]: Nota del traductor: Según [Wikipedia](https://es.wikipedia.org/wiki/Base_de_datos_XML), una base de datos XML es un programa "que da persistencia a datos almacenados en formato XML. Estos datos pueden ser interrogados, exportados y serializados". Pueden distinguirse dos tipos: bases de datos habilitadas (por ejemplo, una basee de datos relacional clásica que acepta XML como formato de entrada y salida) y bases de datos nativas (es decir, que utilizan documentos XML como unidad de almacenamiento) como [eXist](https://exist-db.org/exist/apps/homepage/index.html) o [BaseX](https://basex.org/). En este tutorial, sin embargo, la autora, a menudo, no distingue entre el continente (el programario) y el contenido de la base de datos XML (los documentos).
 
-[^1]: Según [Wikipedia](https://es.wikipedia.org/wiki/Base_de_datos_XML), una base de datos XML es un programa "que da persistencia a datos almacenados en formato XML. Estos datos pueden ser interrogados, exportados y serializados". Pueden distinguirse dos tipos: bases de datos habilitadas (por ejemplo, una basee de datos relacional clásica que acepta XML como formato de entrada y salida) y bases de datos nativas (es decir, que utilizan documentos XML como unidad de almacenamiento) como [eXist](https://exist-db.org/exist/apps/homepage/index.html) o [BaseX](https://basex.org/). En este tutorial, sin embargo, la autora, a menudo, no distingue entre el continente (el programario) y el contenido de la base de datos XML (los documentos).
+[^2]: Nota del traductor: La [Text Encoding Initiative](https://tei-c.org/release/doc/tei-p5-doc/de/html/SG.html#SG132) considera que un documento XML está bien formado cuando cumple tres reglas: (1) un solo elemento (o elemento raíz) contiene todo el documento; (2) todos los elementos están contenidos en el elemento raíz; y (3) las etiquetas de apertura y cierre marcan, respectivamente, el inicio y el fin de todos los elementos. Para más detalles sobre el funcionamiento de XML, aconsejamos consultar Hunter *et al*. (2007). 
 
-[^2]: La [Text Encoding Initiative](https://tei-c.org/release/doc/tei-p5-doc/de/html/SG.html#SG132) considera que un documento XML está bien formado cuando cumple tres reglas: (1) un solo elemento (o elemento raíz) contiene todo el documento; (2) todos los elementos están contenidos en el elemento raíz; y (3) las etiquetas de apertura y cierre marcan, respectivamente, el inicio y el fin de todos los elementos. Para más detalles sobre el funcionamiento de XML, aconsejamos consultar Hunter *et al*. (2007).
+[^3]: Nota del traductor: La National Information Standards Organization (NISO), nacida en Estados Unidos en 1983 en el ámbito de las bibliotecas, define los metadatos como "la información creada, almacenada y compartida para describir objetos y que nos permite interactuar con éstos a fin de obtener conocimiento" (Riley, 2017).
 
-[^3]: La National Information Standards Organization (NISO), nacida en Estados Unidos en 1983 en el ámbito de las bibliotecas, define los metadatos como "la información creada, almacenada y compartida para describir objetos y que nos permite interactuar con éstos a fin de obtener conocimiento" (Riley, 2017).
+[^4]: Nota del traductor: En la versión española de este tutorial, hemos traducido al español los nombres de los elementos (pero no su contenido) y hemos adaptado las instrucciones XSL para que coincidan con los utilizados en el archivo fuente (*input*). En adelante, daremos por sentado que estás utilizando el archivo XML *`SAPsimple_es.xml`*.
 
-[^4]: En la versión española de este tutorial, hemos traducido al español los nombres de los elementos (pero no su contenido) y hemos adaptado las instrucciones XSL para que coincidan con los utilizados en el archivo fuente (*input*). En adelante, daremos por sentado que estás utilizando el archivo XML *`SAPsimple_es.xml`*.
-
-[^5]: Más información en [Wikipedia](https://es.wikipedia.org/wiki/ISO_8601) y en la página web de [International Organization for Standardization](https://www.iso.org/home.html). ISO es una organización internacional fundada en 1947 y establecida en Ginebra que tiene por misión la creación y mantenimiento de estándares.
-
-
-## Notas de la actualización
+[^5]: Nota del traductor: Más información en [Wikipedia](https://es.wikipedia.org/wiki/ISO_8601) y en la página web de [International Organization for Standardization](https://www.iso.org/home.html). ISO es una organización internacional fundada en 1947 y establecida en Ginebra que tiene por misión la creación y mantenimiento de estándares.
 
 [^A1]: El lenguaje XSL tiene dos ramas: (1) *XSL Formatting Objects* (XSL:FO), que contiene instrucciones de formato para producir un documento PDF a partir de un documento XML; y (2) *Extensible Stylesheet Language Transformations* (XSLT), es contiene instrucciones para transformar un documento XML en otros documentos (XML, HTML, XHTML y texto plano). En este tutorial solo se discute la segunda.
 
-[^A2]: Otra posibilidad es que ubiquemos el ejecutable de Saxon en una carpeta que ya esté incluida en la variable global de sistema `PATH` (o que cambiemos dicha variable para que incluya la carpeta que hemos escogido para Saxon).
-  Quienes tengan interpes pueden consultar estas páginas que explican cómo hacerlo en [Windows](https://www.computerhope.com/issues/ch000549.htm),
-  [MacOS](https://stackoverflow.com/questions/22465332/setting-path-environment-variable-in-osx-permanently) y 
-  [Linux](https://opensource.com/article/17/6/set-path-linux).
+[^A2]: Otra posibilidad es que ubiquemos el ejecutable de Saxon en una carpeta que ya esté incluida en la variable global de sistema `PATH` (o que cambiemos dicha variable para que incluya la carpeta que hemos escogido para Saxon). Quienes tengan interés pueden consultar estas páginas que explican cómo hacerlo en [Windows](https://www.computerhope.com/issues/ch000549.htm), [MacOS](https://stackoverflow.com/questions/22465332/setting-path-environment-variable-in-osx-permanently) y [Linux](https://opensource.com/article/17/6/set-path-linux).
 
-[^A3]: Desde la versión 2.0 de XSLT, la instrucción `<xsl:value-of>` selecciona *todas* ocurrencias de la expresión en el documento XML. 
-  (Al respecto, véase [aquí](https://www.w3.org/TR/2021/REC-xslt20-20210330/#changes).)
-  Si quieres intentarlo, debes cambiar el valor del atributo `@version` de `1.0` a `2.0` (o a `3.0`) en la línea `<xsl:stylesheet version="1.0"      xmlns:xsl="http://www.w3.org/1999/XSL/Transform">` de la hoja de estilos XSL.
+[^A3]: Desde la versión 2.0 de XSLT, la instrucción `<xsl:value-of>` selecciona *todas* ocurrencias de la expresión en el documento XML. (Al respecto, véase [aquí](https://www.w3.org/TR/2021/REC-xslt20-20210330/#changes).) Si quieres intentarlo, debes cambiar el valor del atributo `@version` de `1.0` a `2.0` (o a `3.0`) en la línea `<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">` de la hoja de estilos XSL.
 
 [^A4]: En lugar de usar la entidad `&#xA;`, puedes reemplazar la línea con este código:
-
   ```xml
   <xsl:text>
 
   </xsl:text>
   ```
-
   (Fíjate en la línea en blanco como contenido del elemento `<xsl:text>`.) 
   Ambas expresiones son equivalentes, aunque esta segunda ocupa más espacio (y es más evidente) que la primera.
 
