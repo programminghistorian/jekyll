@@ -796,7 +796,7 @@ You'll notice I used `&#32;` in between my two values. This is the HEX code for 
 	[Linux](https://opensource.com/article/17/6/set-path-linux).)
 
 [^4]: As of XSLT version 2.0, the `<xsl:value-of>` statement selects *all* occurrences of the expression in the XML document. 
-(On this, see [here](https://www.w3.org/TR/2021/REC-xslt20-20210330/#changes).)
+	(On this, see [here](https://www.w3.org/TR/2021/REC-xslt20-20210330/#changes).)
 	If the reader wishes to try this, they should change the value of the `@version` attribute from `1.0` to `2.0` (or `3.0`) in the `<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">` line of the XSL stylesheet.
 
 [^5]: Alternatively, you can replace that line with this code:
