@@ -167,7 +167,7 @@ Sin embargo, para nuestros fines —y de hecho para la gran mayoría de proyecto
 Saxon-HE es una aplicación de Java (de hecho, su nombre técnico completo es "SaxonJ-HE").
 Eso significa que tu sistema operativo debe tener instalada una máquina virtual de Java (Java Virtual Machine o Java VM) para poder ejecutar Saxon-HE.
 La versión 11 de Saxon-HE, a la fecha la última, requiere por lo menos la versión Java SE 8 (JDK 1.8). 
-Debes asegurarte de que esté instala en nuestro sistema. 
+Debes asegurarte de que esté instalada en tu sistema. 
 Si no lo está, deberás instalarla tú mismo.
 
 Para verificar si ya lo está, deberás usar la línea de comandos de tu sistema operativo. 
@@ -207,17 +207,15 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.321-b07, mixed mode)
 ```
 
 Ahora bien, si la versión de Java es inferior a 1.8, o si simplemente no está instalado, deberás bajar e instalar la versión más reciente.
-Para ello, ve a la página oficial de descargas de Java, https://www.java.com/es/download/,
-y baja la versión apropiada a nuestro sistema operativo. 
+Para ello, ve a la página oficial de descargas de Java, https://www.java.com/es/download/, y baja la versión apropiada a nuestro sistema operativo. 
 Luego de instalarla, deberás reiniciar tu computador a fin de que las variables globales, que le informan al sistema dónde está el ejecutable de Java, hayan sido correctamente aplicadas.
 Hecho esto, verifica de nuevo en la línea de comandos la versión de Java.
-(Si ya hes instalado la versión más reciente y con todo te aparece un mensaje de error indicando que no está instalada, deberás ajustar manualmente la variable `PATH` en tu  sistema. 
+(Si ya has instalado la versión más reciente y con todo te aparece un mensaje de error indicando que no está instalada, deberás ajustar manualmente la variable `PATH` en tu  sistema. 
 Para ello, revisa [esta explicación](https://stackoverflow.com/questions/16811332/cannot-run-java-from-the-windows-powershell-command-prompt).)
 
 
 A continuación deberás descargar e instalar Saxon-HE. 
-Puede bajarlo del repositorio de SourceForge de Saxonica en
-esta dirección: 
+Puede bajarlo del repositorio de SourceForge de Saxonica en esta dirección: 
 https://sourceforge.net/projects/saxon/files/Saxon-HE/11/Java/
 Busca en la lista la versión más reciente. 
 (A la fecha de hoy esta es la versión 11.2.)
@@ -411,8 +409,7 @@ Si quieres guardar el texto que Saxon ha arrojado, debes usar el parámetro `-o:
 java -jar saxon-he-11.2.jar -xsl:miestilo.xsl -s:SAPsimple_es.xml -o:salida.txt
 ```
 
-(Ese será siempre el comando que debes correr en el terminal para transformar un XML por medio de una hoja de estilos XSLT. Deberás ejecutarlo *cada vez* que quieras realizar una transformación. 
-En otras palabras, no bastará con que hagas cambios en tu hoja de estilos para que se produzca la transformación; siempre deberás ejecutar Saxon para llevarla a cabo.)
+(Ese será siempre el comando que debes correr en el terminal para transformar un XML por medio de una hoja de estilos XSLT. Deberás ejecutarlo *cada vez* que quieras realizar una transformación. En otras palabras, no bastará con que hagas cambios en tu hoja de estilos para que se produzca la transformación; siempre deberás ejecutar Saxon para llevarla a cabo.)
 
 Ahora puedes abrir el archivo *salida.txt* en VSCode para inspeccionarlo.
 El resultado debería ser el texto con los saltos de línea existentes, pero *sin* los elementos XML, tal como se percibe en la siguiente imagen:
@@ -828,14 +825,13 @@ También es posible utilizar una coma o cualquier otro separador.
 
 [^A2]: Otra posibilidad es que ubiquemos el ejecutable de Saxon en una carpeta que ya esté incluida en la variable global de sistema `PATH` (o que cambiemos dicha variable para que incluya la carpeta que hemos escogido para Saxon). Quienes tengan interés pueden consultar estas páginas que explican cómo hacerlo en [Windows](https://www.computerhope.com/issues/ch000549.htm), [MacOS](https://stackoverflow.com/questions/22465332/setting-path-environment-variable-in-osx-permanently) y [Linux](https://opensource.com/article/17/6/set-path-linux).
 
-[^A3]: Desde la versión 2.0 de XSLT, la instrucción `<xsl:value-of>` selecciona *todas* ocurrencias de la expresión en el documento XML. (Al respecto, véase [aquí](https://www.w3.org/TR/2021/REC-xslt20-20210330/#changes).) Si quieres intentarlo, debes cambiar el valor del atributo `@version` de `1.0` a `2.0` (o a `3.0`) en la línea `<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">` de la hoja de estilos XSL.
+[^A3]: Desde la versión 2.0 de XSLT, la instrucción `<xsl:value-of>` selecciona *todas* las ocurrencias de la expresión en el documento XML. (Al respecto, véase [aquí](https://www.w3.org/TR/2021/REC-xslt20-20210330/#changes).) Si quieres intentarlo, debes cambiar el valor del atributo `@version` de `1.0` a `2.0` (o a `3.0`) en la línea `<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">` de la hoja de estilos XSL.
 
 [^A4]: En lugar de usar la entidad `&#xA;`, puedes reemplazar la línea con este código:
-  ```xml
-  <xsl:text>
-
-  </xsl:text>
-  ```
-  (Fíjate en la línea en blanco como contenido del elemento `<xsl:text>`.) 
-  Ambas expresiones son equivalentes, aunque esta segunda ocupa más espacio (y es más evidente) que la primera.
+    ```xml
+    <xsl:text>
+    </xsl:text>
+    ```
+    (Fíjate en la línea en blanco como contenido del elemento `<xsl:text>`.) 
+    Ambas expresiones son equivalentes, aunque esta segunda ocupa más espacio (y es más evidente) que la primera.
 
