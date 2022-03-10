@@ -786,26 +786,26 @@ You'll notice I used `&#32;` in between my two values. This is the HEX code for 
 [^1]: The XSL language has two branches: (1) *XSL Formatting Objects* (XSL:FO), which contains formatting instructions for producing a PDF document from an XML document; and (2) *Extensible Stylesheet Language Transformations* (XSLT), which contains instructions for transforming an XML document into other documents (XML, HTML, XHTML and plain text). In this tutorial only the second one is discussed.
 
 
-[^2]: If you have already installed the latest version and still get an error message that it is not installed, you will have to manually adjust the `PATH` variable on your system.
-See [this explanation](https://stackoverflow.com/questions/16811332/cannot-run-java-from-the-windows-powershell-command-prompt) for more details.
+[^2]: If you have already installed the latest version and still get an error message that it is not installed, you will have to manually adjust the `PATH` variable on your system. 
+	See [this explanation](https://stackoverflow.com/questions/16811332/cannot-run-java-from-the-windows-powershell-command-prompt) for more details.
 
 [^3]: An alternative solution is to place the Saxon executable in a folder that is already included in the `PATH` global system variable (or to change that variable to include the folder we have chosen for Saxon).
-However, such technical details are beyond the scope of this tutorial.
-(For those interested, see these pages on how to do this on [Windows](https://www.computerhope.com/issues/ch000549.htm),
-[MacOS](https://stackoverflow.com/questions/22465332/setting-path-environment-variable-in-osx-permanently) and
-[Linux](https://opensource.com/article/17/6/set-path-linux).)
+	However, such technical details are beyond the scope of this tutorial.
+	(For those interested, see these pages on how to do this on [Windows](https://www.computerhope.com/issues/ch000549.htm),
+	[MacOS](https://stackoverflow.com/questions/22465332/setting-path-environment-variable-in-osx-permanently) and
+	[Linux](https://opensource.com/article/17/6/set-path-linux).)
 
 [^4]: As of XSLT version 2.0, the `<xsl:value-of>` statement selects *all* occurrences of the expression in the XML document. 
 (On this, see [here](https://www.w3.org/TR/2021/REC-xslt20-20210330/#changes).)
-If the reader wishes to try this, they should change the value of the `@version` attribute from `1.0` to `2.0` (or `3.0`) in the `<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">` line of the XSL stylesheet.
+	If the reader wishes to try this, they should change the value of the `@version` attribute from `1.0` to `2.0` (or `3.0`) in the `<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">` line of the XSL stylesheet.
 
 [^5]: Alternatively, you can replace that line with this code:
 
-```xml
-<xsl:text>
+	```xml
+	<xsl:text>
 
-</xsl:text>
-```
+	</xsl:text>
+	```
 
-(Notice the blank line as the content of the `<xsl:text>` element.) 
-Both expressions are equivalent, although the latter takes up more space (and is more obvious) than the former.
+	(Notice the blank line as the content of the `<xsl:text>` element.) 
+	Both expressions are equivalent, although the latter takes up more space (and is more obvious) than the former.
