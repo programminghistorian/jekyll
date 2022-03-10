@@ -816,7 +816,7 @@ También es posible utilizar una coma o cualquier otro separador.
 
 ## Notas de la traducción
 
-[^1]:  Según [Wikipedia](https://es.wikipedia.org/wiki/Base_de_datos_XML), una base de datos XML es un programa "que da persistencia a datos almacenados en formato XML. Estos datos pueden ser interrogados, exportados y serializados". Pueden distinguirse dos tipos: bases de datos habilitadas (por ejemplo, una basee de datos relacional clásica que acepta XML como formato de entrada y salida) y bases de datos nativas (es decir, que utilizan documentos XML como unidad de almacenamiento) como [eXist](https://exist-db.org/exist/apps/homepage/index.html) o [BaseX](https://basex.org/). En este tutorial, sin embargo, la autora, a menudo, no distingue entre el continente (el programario) y el contenido de la base de datos XML (los documentos).
+[^1]: Según [Wikipedia](https://es.wikipedia.org/wiki/Base_de_datos_XML), una base de datos XML es un programa "que da persistencia a datos almacenados en formato XML. Estos datos pueden ser interrogados, exportados y serializados". Pueden distinguirse dos tipos: bases de datos habilitadas (por ejemplo, una basee de datos relacional clásica que acepta XML como formato de entrada y salida) y bases de datos nativas (es decir, que utilizan documentos XML como unidad de almacenamiento) como [eXist](https://exist-db.org/exist/apps/homepage/index.html) o [BaseX](https://basex.org/). En este tutorial, sin embargo, la autora, a menudo, no distingue entre el continente (el programario) y el contenido de la base de datos XML (los documentos).
 
 [^2]: La [Text Encoding Initiative](https://tei-c.org/release/doc/tei-p5-doc/de/html/SG.html#SG132) considera que un documento XML está bien formado cuando cumple tres reglas: (1) un solo elemento (o elemento raíz) contiene todo el documento; (2) todos los elementos están contenidos en el elemento raíz; y (3) las etiquetas de apertura y cierre marcan, respectivamente, el inicio y el fin de todos los elementos. Para más detalles sobre el funcionamiento de XML, aconsejamos consultar Hunter *et al*. (2007).
 
@@ -832,22 +832,22 @@ También es posible utilizar una coma o cualquier otro separador.
 [^A1]: El lenguaje XSL tiene dos ramas: (1) *XSL Formatting Objects* (XSL:FO), que contiene instrucciones de formato para producir un documento PDF a partir de un documento XML; y (2) *Extensible Stylesheet Language Transformations* (XSLT), es contiene instrucciones para transformar un documento XML en otros documentos (XML, HTML, XHTML y texto plano). En este tutorial solo se discute la segunda.
 
 [^A2]: Otra posibilidad es que ubiquemos el ejecutable de Saxon en una carpeta que ya esté incluida en la variable global de sistema `PATH` (o que cambiemos dicha variable para que incluya la carpeta que hemos escogido para Saxon).
-Los interesados pueden consultar estas páginas que explican cómo hacerlo en [Windows](https://www.computerhope.com/issues/ch000549.htm),
-[MacOS](https://stackoverflow.com/questions/22465332/setting-path-environment-variable-in-osx-permanently) y 
-[Linux](https://opensource.com/article/17/6/set-path-linux).
+  Quienes tengan interpes pueden consultar estas páginas que explican cómo hacerlo en [Windows](https://www.computerhope.com/issues/ch000549.htm),
+  [MacOS](https://stackoverflow.com/questions/22465332/setting-path-environment-variable-in-osx-permanently) y 
+  [Linux](https://opensource.com/article/17/6/set-path-linux).
 
 [^A3]: Desde la versión 2.0 de XSLT, la instrucción `<xsl:value-of>` selecciona *todas* ocurrencias de la expresión en el documento XML. 
-(Al respecto, véase [aquí](https://www.w3.org/TR/2021/REC-xslt20-20210330/#changes).)
-Si el lector desea intentarlo, debe cambiar el valor del atributo `@version` de `1.0` a `2.0` (o a `3.0`) en la línea `<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">` de la hoja de estilos XSL.
+  (Al respecto, véase [aquí](https://www.w3.org/TR/2021/REC-xslt20-20210330/#changes).)
+  Si quieres intentarlo, debes cambiar el valor del atributo `@version` de `1.0` a `2.0` (o a `3.0`) en la línea `<xsl:stylesheet version="1.0"      xmlns:xsl="http://www.w3.org/1999/XSL/Transform">` de la hoja de estilos XSL.
 
 [^A4]: En lugar de usar la entidad `&#xA;`, puedes reemplazar la línea con este código:
 
-```xml
-<xsl:text>
+  ```xml
+  <xsl:text>
 
-</xsl:text>
-```
+  </xsl:text>
+  ```
 
-(Fíjate en la línea en blanco como contenido del elemento `<xsl:text>`.) 
-Ambas expresiones son equivalentes, aunque esta segunda ocupa más espacio (y es más evidente) que la primera.
+  (Fíjate en la línea en blanco como contenido del elemento `<xsl:text>`.) 
+  Ambas expresiones son equivalentes, aunque esta segunda ocupa más espacio (y es más evidente) que la primera.
 
