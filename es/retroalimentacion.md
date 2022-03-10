@@ -20,7 +20,7 @@ Por favor, no abras un "Pull Request" con la corrección.
 </div>
 
 ## Opción 1: Email
-Envía un correo a nuestra [Asistente Editorial](mailto:anisa.hawes@icloud.com). Por favor incluye la siguiente información en tu mensaje:
+Envía un correo a nuestra [Asistente Editorial](mailto:admin@programminghistorian.org). Por favor incluye la siguiente información en tu mensaje:
 
 - El título completo de la lección
 - El sistema operativo que estás utilizando
