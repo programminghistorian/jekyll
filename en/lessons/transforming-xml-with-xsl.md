@@ -44,7 +44,7 @@ This tutorial will provide you with the ability to convert or transform historic
 # What is XML?
 
 The eXtensible Markup Language (XML) is a highly flexible method for encoding or structuring your data.
-Unlike [Hypertext Markup Language (HTML)](https://en.wikipedia.org/wiki/HTML), which has a set vocabulary, XML is extensible; it can be expanded to include whatever sections, sub-section, and sub-sub-sections you need in order to store your data in the way you wish.
+Unlike [Hypertext Markup Language (HTML)](https://en.wikipedia.org/wiki/HTML), which has a set vocabulary, XML is extensible; it can be expanded to include whatever sections, sub-sections, and sub-sub-sections you need in order to store your data in the way you wish.
 
 A database can be made up of one or more XML files and each file has the same basic structure. Each section, or layer, of the file is surrounded by a set of [elements](https://en.wikipedia.org/wiki/XSLT_elements). An element is, essentially, a category or name for the type of data you are providing. Like [Russian Nesting Dolls](https://en.wikipedia.org/wiki/Matryoshka_doll), each level of elements exists entirely within another one. The **top-level element** encloses the entire database. Each element within the top-level element is a **child** of that element. Likewise, the element surrounding a child element is called the **parent** element. 
 
@@ -126,9 +126,9 @@ When you become more comfortable with XML and XSL, and are ready to tackle more 
 Once you have installed VSCode on your system, you will need to install an **XSL processor**.
 There are several ways to use XSL stylesheets to transform your XML data:
 
-- either via the web browser, using an embedded simple XSL processor; or
-- via an XSL processor included in an XML program or editor; or
-- via a standalone XSL processor from the command line (or as a binding within another programming language).
+- via the web browser, using an embedded simple XSL processor
+- via an XSL processor included in an XML program or editor
+- via a standalone XSL processor from the command line (or as a binding within another programming language)
 
 
 Until recently, the first option would have been the most comfortable way to learn how to work with XSL.
@@ -192,7 +192,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.321-b07, mixed mode)
 ```
 
 Now, if the Java version is less than 1.8, or if it is simply not installed, you must download and install the latest version.
-To do this, go to the official Java download page, https://www.java.com/en/download/,
+To do this, go to the official Java download page, [https://www.java.com/en/download/](https://www.java.com/en/download/),
 and download the appropriate version for your operating system. 
 After installing it, you must reboot your system so that the global variables, which inform the system where the Java executable is, are applied.
 Once this is done, check the Java version again at the command line.[^2]
@@ -200,11 +200,11 @@ Once this is done, check the Java version again at the command line.[^2]
 
 Next you will need to download and install Saxon.
 Do this from the Saxonica SourceForge repository at this address:
-https://sourceforge.net/projects/saxon/files/Saxon-HE/11/Java/
+[https://sourceforge.net/projects/saxon/files/Saxon-HE/11/Java/](https://sourceforge.net/projects/saxon/files/Saxon-HE/11/Java/)
 Look for the most recent version in the list, which as of today is 11.2.
 Now download the `SaxonHE11-2J.zip` file (or the most recent one) and unzip it inside some folder on your computer.
 
-Next open the terminal *in that exact folder* and run the following command (bear in mind that the executable —`saxon-he-11.2.jar`— can be named different in you case):
+Next open the terminal *in that exact folder* and run the following command (bear in mind that the executable —`saxon-he-11.2.jar`— may be named differently in your case):
 
 ```sh
 java -jar saxon-he-11.2.jar -t
@@ -598,9 +598,9 @@ If you want to exclude year 1789, use `date/year!='1789'` instead. (`!=` means *
 ## Exercise E
 
 Using all you have learned so far, create a list of records from 1789, starting with the most recent, listing the id, title, and date of each record. 
-Separate the data elements with commas and place each record on it own line.
+Separate the data elements with commas and place each record on its own line.
 
-If you wish so, you can specify the output file to be a [Comma Separated Values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values) file, which can be opened and manipulated as a spreadsheet with Microsoft Excel or LibreOffice Calc.
+If you wish, you can specify the output file to be a [Comma Separated Values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values) file, which can be opened and manipulated as a spreadsheet with Microsoft Excel or LibreOffice Calc.
 To do this, simply specify it on the command line when you perform the transformation:
 
 ```sh
@@ -771,13 +771,13 @@ You'll notice I used `&#32;` in between my two values. This is the HEX code for 
 
 # Further Reading
 
-- Hunter, David *et al*. *Beginning XML*, 4th ed. Indianapolis, IN: Wiley, 2007. Print.
-- Kay, Michael, *XSLT 2.0 and XPATH 2.0: Programmer's Reference*. Indianapolis, IN: Wiley, 2011. Print.
-- Kelly, David J. *XSLT Jumpstarter: Level the Learning Curve and Put Your XML to Work*. Raleigh, NC: Peloria Press, May 2015. Print.
-- Mangano, Sal. *XSLT Cookbook*, 2nd ed. Sebstopol, CA: O'Reilly, 2006. Print.
-- Riley, Jenn. [*Understanding Metadata: What is Metadata, and What is For?*](https://www.niso.org/node/12366) NISO, 2017. Web
-- Tennison, Jeni. *Beginning XSLT 2.0. From Novice to Professional*. New York: Apress, 2005. Print.
-- Tidwell, Doug. *XSLT*, 2nd ed. Sebstopol, CA: O'Reilly, 2008. Print.
+- Hunter, David *et al*. *Beginning XML*, 4th ed. Indianapolis, IN: Wiley, 2007.
+- Kay, Michael, *XSLT 2.0 and XPATH 2.0: Programmer's Reference*. Indianapolis, IN: Wiley, 2011.
+- Kelly, David J. *XSLT Jumpstarter: Level the Learning Curve and Put Your XML to Work*. Raleigh, NC: Peloria Press, May 2015.
+- Mangano, Sal. *XSLT Cookbook*, 2nd ed. Sebstopol, CA: O'Reilly, 2006.
+- Riley, Jenn. [*Understanding Metadata: What is Metadata, and What is For?*](https://www.niso.org/node/12366) NISO, 2017.
+- Tennison, Jeni. *Beginning XSLT 2.0. From Novice to Professional*. New York: Apress, 2005.
+- Tidwell, Doug. *XSLT*, 2nd ed. Sebstopol, CA: O'Reilly, 2008.
 
 
 
