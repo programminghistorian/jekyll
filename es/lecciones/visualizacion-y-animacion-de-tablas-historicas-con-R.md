@@ -15,9 +15,7 @@ editors:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/330
 difficulty: 2
 activity: analyzing
-topics:
-- distant-reading
-- r
+topics: [distant-reading, r]
 abstract: "En esta lección aprenderás a visualizar y animar temporalmente datos históricos almacenados en forma de tabla."
 avatar_alt: "Una mano llevando una botella."
 doi: 10.46430/phes0052
