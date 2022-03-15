@@ -22,7 +22,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/164
 original: r-basics-with-tabular-data
 difficulty: 1
 activity: transforming
-topics: [data-manipulation]
+topics: [data-manipulation, r]
 abstract: "Esta lección te enseña una forma rápida de analizar grandes cantidades de datos en forma de tabla, haciendo la investigación más rápida y efectiva."
 avatar_alt: Grabado de la letra r al estilo de letra iluminada.
 doi: 10.46430/phes0034
