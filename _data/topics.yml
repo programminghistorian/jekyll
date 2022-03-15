@@ -131,13 +131,13 @@
     pt: "Como projetar e desenvolver um site, como uma exibição digital ou um blogue de pesquisa."
   
 - type: r
-   displayname:
+  displayname:
     en: "R"
     es: "R"
     fr: "R"
     pt: "R"
   description:
-    en: "Lessons teaching or using the R coding language"
+    en: "Lessons teaching or using the R coding language."
     es: "Lecciones con las que aprenderás a utilizar el lenguaje de programación R."
     fr: "Leçons enseignant ou utilisant le langage de programmation R."
     pt: "Lições que ensinam a utilizar ou que utilizam a linguagem de programação R."
