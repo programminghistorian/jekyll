@@ -129,3 +129,16 @@
     es: "Iníciate en el diseño y desarrollo de exposiciones o blogs de investigación."
     fr: "Concevoir et développer un site web pour une exposition numérique ou un blog de recherche."
     pt: "Como projetar e desenvolver um site, como uma exibição digital ou um blogue de pesquisa."
+  
+- type: r
+   displayname:
+    en: "R"
+    es: "R"
+    fr: "R"
+    pt: "R"
+  description:
+    en: "Lessons teaching or using the R coding language"
+    es: "Lecciones con las que aprenderás a utilizar el lenguaje de programación R."
+    fr: "Leçons enseignant ou utilisant le langage de programmation R."
+    pt: "Lições que ensinam a utilizar ou que utilizam a linguagem de programação R."
+  
