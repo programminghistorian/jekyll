@@ -20,7 +20,7 @@ translation-reviewer:
 - Romulo Predes
 difficulty: 1
 activity: transforming
-topics: [data-manipulation]
+topics: [data-manipulation, r]
 abstract: "Esta lição ensina uma maneira de analisar rapidamente grandes volumes de dados tabulares, tornando a pesquisa mais rápida e eficaz."
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/398
 original: r-basics-with-tabular-data
