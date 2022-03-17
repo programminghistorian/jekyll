@@ -25,7 +25,7 @@ Please, do not create a Pull Request with the correction.
 
 ## Option 1: Email
 
-Send an email to our [Publishing Assistant](mailto:anisa.hawes@icloud.com).
+Send an email to our [Publishing Assistant](mailto:admin@programminghistorian.org).
 
 Please include the following information in your message:
 
