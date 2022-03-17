@@ -278,7 +278,7 @@ Ci-dessous quelques sites pour chercher des images:
  - [Europeana](https://www.europeana.eu)
  - The [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - The [British Library](https://www.flickr.com/photos/britishlibrary)
- - The [Internet Archive Book Images](https://www.flickr.com/photos/internetarchivebookimages)
+ - The [Internet Archive Book Images](https://archive.org/details/bookimages)
  - The [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
 

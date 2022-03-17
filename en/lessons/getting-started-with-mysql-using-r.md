@@ -14,7 +14,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/153
 collection: lessons
 slug: getting-started-with-mysql-using-r
 activity: transforming
-topics: [data-manipulation, distant-reading]
+topics: [data-manipulation, distant-reading, r]
 abstract: "This lesson will help you store large amounts of historical data in a structured manner, search and filter that data, and visualize some of the data as a graph."
 redirect_from: /lessons/getting-started-with-mysql-using-r
 avatar_alt: A hand holding a newspaper
