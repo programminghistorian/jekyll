@@ -13,7 +13,7 @@ layout: lesson
 difficulty: 3
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/78
 activity: analyzing
-topics: [data-manipulation, network-analysis]
+topics: [data-manipulation, network-analysis, r]
 abstract: |
   This tutorial explains how to carry out and interpret a correspondence analysis, which can be used to identify relationships within categorical data.
 redirect_from: /lessons/correspondence-analysis-in-R
