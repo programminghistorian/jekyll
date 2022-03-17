@@ -289,7 +289,7 @@ We represent our lessons using an old image that we feel captures some element o
 Here are a few places to look for lesson images:
 
  - The [British Library](https://www.flickr.com/photos/britishlibrary)
- - The [Internet Archive Book Images](https://www.flickr.com/photos/internetarchivebookimages)
+ - The [Internet Archive Book Images](https://archive.org/details/bookimages)
  - The [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - The [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
