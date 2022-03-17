@@ -26,7 +26,7 @@ original: transforming-xml-with-xsl
 layout: lesson
 abstract: "Con este tutorial aprenderás a convertir un conjunto de datos históricos procedentes de una base de datos XML (ya sea un solo documento o varios documentos interconectados) en otros formatos más adecuados para presentar (tablas, listas) o exponer información (párrafos)."
 avatar_alt: Dibujo de un pavo real con sus plumas extendidas.
-doi: 10.46430/phes0041
+doi: 10.46430/phes0057
 ---
 
 <div class="alert alert-info">
