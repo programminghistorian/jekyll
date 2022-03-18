@@ -19,12 +19,10 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 -   [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
 -   [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
 -   [Western University Library](https://www.lib.uwo.ca/), Canadá
--   [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido
 -   [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
 -   [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxemburgo
 -   [Software Sustainability Institute](https://www.software.ac.uk/), Reino Unido
 -   [Princeton University](https://www.princeton.edu/), Estados Unidos
--   [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos
 -   [Transkribus - READ COOP](https://readcoop.eu/), Áustria
 -   [RStudio, PBC](https://rstudio.com/), Estados Unidos
 -   [CESTA, Stanford University](https://cesta.stanford.edu/), Estados Unidos
@@ -56,10 +54,11 @@ Organizações que contribuíram ou continuam a dar apoio em forma de serviços,
     -   University of Sussex Library [2020-presente]
     -   School of History, Art History and Philosophy, University of Sussex [2019]
     -   [ESRC Impact Accelerator Account, University of Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/), [2019].
--   The Roy Rosenzweig Center for New Media (RRCHNM), Estados Unidos [2011-presente].
 -   The British Academy [Writing Workshops funding scheme](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/), Reino Unido [2018].
 -   The dSHARP lab at Carnegie Mellon University sponsored by the Andrew W. Mellon Foundation, Estados Unidos [2018-2020].
 -   The Network in Canadian History & Environment, Canadá [2011-2013].
+-   [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos [2011-2022].
+-   [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido [2021-2022].
 
 ## Apoiadores Individuais
 

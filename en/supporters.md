@@ -10,19 +10,17 @@ The Programming Historian is grateful to our past and current supporters for ena
 
 
 ## Institutional Partners
-Contributers to our [Institutional Partner Programme](support-us#institutional-partner-programme).
+Contributors to our [Institutional Partner Programme](support-us#institutional-partner-programme).
 
 - [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Belgium
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library), United Kingdom
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), United Kingdom
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), United Kingdom
 - [Western University Library](https://www.lib.uwo.ca/), Canada
-- [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), United Kingdom
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), United States
 - [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxembourg
 - [Software Sustainability Institute](https://www.software.ac.uk/), United Kingdom
 - [Princeton University](https://www.princeton.edu/), United States
-- [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), United States
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria
 - [RStudio, PBC](https://rstudio.com/), United States
 - [CESTA, Stanford University](https://cesta.stanford.edu/), United States
@@ -54,10 +52,11 @@ Organizations that have or continue to give support ranging from in kind service
     - University of Sussex Library [2020-Present]
     - School of History, Art History and Philosophy, University of Sussex [2019]
     - [ESRC Impact Accelerator Account, University of Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/), [2019].
-- The Roy Rosenzweig Center for New Media (RRCHNM), United States [2011-Present]. 
 - The British Academy [Writing Workshops funding scheme](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/), United Kingdom [2018].
 - The dSHARP lab at Carnegie Mellon University sponsored by the Andrew W. Mellon Foundation, United States [2018-2020].
 - The Network in Canadian History & Environment, Canada [2011-2013].
+- [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), United States [2011-2022].
+- [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), United Kingdom [2021-2022].
 
 ## Individual Supporters
 
