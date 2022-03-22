@@ -26,7 +26,7 @@ topics: [data-manipulation]
 abstract: "Esta lição examinará como dados de investigação, quando organizados de maneira clara e previsível, podem ser contabilizados e minerados utilizando o shell do Unix."
 original: research-data-with-unix
 avatar_alt: Um diagrama de um mineiro classificando minério com um aparelho
-doi: A INDICAR
+doi: 10.46430/phpt0019
 ---
 
 {% include toc.html %}
