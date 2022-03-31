@@ -321,7 +321,6 @@ Puedes buscar imágenes en los recursos siguientes:
 
  - [Europeana](http://www.europeana.eu/portal/en)
  - [British Library](https://www.flickr.com/photos/britishlibrary)
- - [Internet Archive Book Images](https://archive.org/details/bookimages)
  - [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
