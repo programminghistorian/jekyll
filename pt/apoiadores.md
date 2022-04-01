@@ -32,12 +32,13 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 -   [Aarhus University Library](https://library.au.dk/), Dinamarca
 -   [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca
 -   [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Reino Unido
--   [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Alemanha
+-   [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Alemanhã
 -   [Purdue University](https://www.purdue.edu/), Estados Unidos
 -   [MIT Libraries](https://libraries.mit.edu/), Estados Unidos
 -   [University of Nebraska-Lincoln](https://www.unl.edu/), Estados Unidos
 -   [The National Archives](https://www.nationalarchives.gov.uk/), Reino Unido
 -   [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
+-   [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Alemanhã
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
