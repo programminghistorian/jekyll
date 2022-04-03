@@ -136,9 +136,9 @@ O [conjunto de dados de amostra](/assets/sonification-roman-data.csv) apresentad
 1,morphBox,
 ,areaPitch1,
 ```
-...para que os seus dados sigam imediatamente depois da última vírgula (como [esse exemplo](https://github.com/programminghistorian/ph-submissions/blob/ea3e6177c21483cd8c412ef538b5ec7043ed020b/assets/sonification-romancoindata-music.csv)). Salve o ficheiro com um nome útil como `sonsdasmoedas1.csv`.
+...para que os seus dados sigam imediatamente depois da última vírgula (como [esse exemplo](/assets/sonification-romancoindata-music.csv)). Salve o ficheiro com um nome útil como `sonsdasmoedas1.csv`.
 
-3. Acesse o site do [Musicalgorithms](http://musicalgorithms.org/3.0/index.html) (versão 3) e clique no botão "load" (carregar). No pop-up, clique no botão azul "load" (carregar) e selecione o ficheiro salvo no passo 2. O site carregará os seus materiais e exibirá uma marca de seleção verde se tiver sido carregado com êxito. Caso contrário, certifique-se de que os seus valores estejam separados por espaços e que sigam imediatamente a última vírgula no bloco de código na etapa 2. Também é possível tentar carregar o [ficheiro de demonstração desse tutorial](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/assets/sonification-romancoindata-music.csv) ao invés.
+3. Acesse o site do [Musicalgorithms](http://musicalgorithms.org/3.0/index.html) (versão 3) e clique no botão "load" (carregar). No pop-up, clique no botão azul "load" (carregar) e selecione o ficheiro salvo no passo 2. O site carregará os seus materiais e exibirá uma marca de seleção verde se tiver sido carregado com êxito. Caso contrário, certifique-se de que os seus valores estejam separados por espaços e que sigam imediatamente a última vírgula no bloco de código na etapa 2. Também é possível tentar carregar o [ficheiro de demonstração desse tutorial](/assets/sonification-romancoindata-music.csv) ao invés.
 
 {% include figure.html filename="sonif_4.png" caption="Clique em 'load' na tela principal para acessar essa caixa de diálogo. Então 'load csv'. (carregue o csv) Selecione o ficheiro; ele aparecerá na caixa. Então clique no botão 'load' (carregar)." %}
 
@@ -204,7 +204,7 @@ MIDITime é um pacote do python desenvolvido por [Reveal News (antes, Centro de 
 Enquanto a ferramenta Musicalgorithms tem uma interface mais ou menos intuitiva, quem pesquisa sacrifica a possibilidade de saber o que, exatamente, está acontecendo internamente.
 Em princípio, alguém poderia examinar o código subjacente para o pacote MIDITime para saber o que está acontecendo. Mais importante ainda, na ferramenta anterior não há nenhuma habilidade de contabilizar os dados em que os pontos estão distantes uns dos outros no tempo do relógio. MIDITime nos permite considerar que os nossos dados podem ser agrupados pelo tempo.
 
-Vamos supor que você tenha um diário histórico no qual você encaixou um [modelo de tópicos](http://programminghistorian.org/lessons/topic-modeling-and-mallet). A saída resultante pode ter entradas de diário como linhas, e a composição percentual de cada tópico contribui para essa entrada como colunas. Nesse caso, _ouvir_ esses valores pode te ajudar a entender os padrões de pensamento no diário de uma forma que a visualização como um gráfico pode não permitir. Outliers ou padrões musicais recorrentes poderiam se destacar ao serem ouvidos de um modo  que a gramática dos gráficos obscurece.  
+Vamos supor que você tenha um diário histórico no qual você encaixou um [modelo de tópicos](/en/lessons/topic-modeling-and-mallet). A saída resultante pode ter entradas de diário como linhas, e a composição percentual de cada tópico contribui para essa entrada como colunas. Nesse caso, _ouvir_ esses valores pode te ajudar a entender os padrões de pensamento no diário de uma forma que a visualização como um gráfico pode não permitir. Outliers ou padrões musicais recorrentes poderiam se destacar ao serem ouvidos de um modo  que a gramática dos gráficos obscurece.  
 
 ### Instalando o MIDITime
 Instalar MIDItime é simples com o [pip](/pt/licoes/instalacao-modulos-python-pip):
@@ -256,7 +256,7 @@ Você consegue fazer o seu computador tocar essa música? (Esse [material](http:
 **A propósito**, há uma especificação de ficheiro de texto para descrever música chamado [Notação ABC](https://pt.wikipedia.org/wiki/ABC_(nota%C3%A7%C3%A3o_musical)). Por enquanto, está além de nossa compreensão, mas alguém poderia escrever um script de sonificação em, por exemplo, uma planilha, mapeando valores para nomes de notas na especificação ABC (se você já usou um IF - THEN no Excel para converter notas percentuais em notas alfabéticas, terá uma noção de como isso pode ser feito) e então usando um site como [esse](http://trillian.mit.edu/~jc/music/abc/ABCcontrib.html) (em inglês) para converter a notação ABC em um ficheiro .mid.
 
 ### Inserindo os seus próprios dados
-[Esse ficheiro](https://github.com/programminghistorian/ph-submissions/blob/f1d5d1741941b615f6592a3fb8c97912e383797d/assets/sonification-diary.csv) é uma seleção do modelo de tópicos dos Diários de John Adams do [The Macroscope](http://themacroscope.org) (Explorando Grandes Dados Históricos: O Macroscópico do Historiador). Apenas os sinais mais fortes foram preservados através do arredondamento dos valores nas colunas para duas casas decimais (lembrando que 0.25, por exemplo, indica que aquele tópico está contribuindo para um quarto da composição daquela entrada do diário). Para obter esses dados em seu script de Python, eles devem ser formatados de uma maneira específica. A parte complicada é acertar o campo de data.
+[Esse ficheiro](/assets/sonification-diary.csv) é uma seleção do modelo de tópicos dos Diários de John Adams do [The Macroscope](http://themacroscope.org) (Explorando Grandes Dados Históricos: O Macroscópico do Historiador). Apenas os sinais mais fortes foram preservados através do arredondamento dos valores nas colunas para duas casas decimais (lembrando que 0.25, por exemplo, indica que aquele tópico está contribuindo para um quarto da composição daquela entrada do diário). Para obter esses dados em seu script de Python, eles devem ser formatados de uma maneira específica. A parte complicada é acertar o campo de data.
 
 _Para os propósitos desse tutorial, nós iremos deixar os nomes das variáveis sem alterações em relação ao script de amostra. O script de amostra foi desenvolvido com dados de um terremoto em mente; então onde diz 'magnitude' podemos pensar como '% composição do tópico.'_
 
@@ -387,7 +387,7 @@ Por que alguém iria querer fazer isso? Como progressivamente ficou evidente no 
 
 Aqui, eu ofereço simplesmente um trecho de código que possibilitará a importação dos seus dados, que aqui são simplesmente uma lista de valores salvos como csv. Estou em dívida com a bibliotecária da George Washington University, Laura Wrubel, que postou em [gist.github.com](https://gist.github.com/lwrubel) os experimentos dela de sonificação das transações de circulação de sua biblioteca.
 
-Nesse [ficheiro de amostra](https://github.com/programminghistorian/ph-submissions/blob/5c70b1442c723d6fa9cabcbb1fddef48ef59eb7f/assets/sonification-jesuittopics.csv) (um modelo de tópicos gerado do [Jesuit Relations](http://puffin.creighton.edu/jesuit/relations/), (Relações Jesuítas)), há dois tópicos. A primeira linha contem os cabeçalhos: topic1 (em PT-BR, tópico1), topic2 (em PT-BR, tópico2).
+Nesse [ficheiro de amostra](/assets/sonification-jesuittopics.csv) (um modelo de tópicos gerado do [Jesuit Relations](http://puffin.creighton.edu/jesuit/relations/), (Relações Jesuítas)), há dois tópicos. A primeira linha contem os cabeçalhos: topic1 (em PT-BR, tópico1), topic2 (em PT-BR, tópico2).
 
 ### Prática
 
