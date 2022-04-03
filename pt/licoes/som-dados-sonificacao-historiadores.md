@@ -55,9 +55,9 @@ Você verá que "sonificação" nos movimenta através do espectro partindo de s
 
 ### Dados de Exemplo
 
-+ [Dados sobre artefatos romanos](https://github.com/programminghistorian/ph-submissions/blob/ea3e6177c21483cd8c412ef538b5ec7043ed020b/assets/sonification-roman-data.csv)
-+ [Excerto do modelo de tópicos do diário de John Adams](https://github.com/programminghistorian/ph-submissions/blob/ea3e6177c21483cd8c412ef538b5ec7043ed020b/assets/sonification-diary.csv)
-+ [Excerto do modelo de tópicos das relações jesuíticas](https://github.com/programminghistorian/ph-submissions/blob/ea3e6177c21483cd8c412ef538b5ec7043ed020b/assets/sonification-jesuittopics.csv)
++ [Dados sobre artefatos romanos](/assets/sonification-roman-data.csv)
++ [Excerto do modelo de tópicos do diário de John Adams](/assets/sonification-diary.csv)
++ [Excerto do modelo de tópicos das relações jesuíticas](/assets/sonification-jesuittopics.csv)
 
 # Um pouco de contexto sobre  sonificação
 
@@ -127,9 +127,9 @@ _Não há forma 'certa' de representar os seus dados como som, ao menos não por
 Mas e o tempo? Dados históricos usualmente têm um ponto de inflexão, um distinto "tempo quando" algo aconteceu. Então, a quantidade de tempo entre dois pontos de dados precisa ser considerada. É nesse ponto que a nossa próxima ferramenta se torna bem útil, para quando nossos pontos de dados tiverem uma relação com outro espaço temporal. Começamos a nos mover de sonificação (pontos de dados) para música (relações entre pontos).
 
 ### Prática
-O [conjunto de dados de amostra](https://github.com/programminghistorian/ph-submissions/blob/ea3e6177c21483cd8c412ef538b5ec7043ed020b/assets/sonification-roman-data.csv) apresentado contém a contagem de moedas romanas na sua primeira coluna e a contagem de materiais romanos dos mesmos locais, conforme contido no banco de dados do Portable Antiquities Scheme (Esquema de Antiguidades Portáveis) do British Museum. A sonificação desses dados pode revelar ou acentuar aspectos da situação econômica ao longo da rua Watling, uma grande rota através da Britânia Romana. Esses pontos de dados estão organizados geograficamente do Noroeste ao Sudeste; então, na medida em que o som toca, nós estamos escutando movimento através do espaço. Cada nota representa outro passo no caminho.
+O [conjunto de dados de amostra](/assets/sonification-roman-data.csv) apresentado contém a contagem de moedas romanas na sua primeira coluna e a contagem de materiais romanos dos mesmos locais, conforme contido no banco de dados do Portable Antiquities Scheme (Esquema de Antiguidades Portáveis) do British Museum. A sonificação desses dados pode revelar ou acentuar aspectos da situação econômica ao longo da rua Watling, uma grande rota através da Britânia Romana. Esses pontos de dados estão organizados geograficamente do Noroeste ao Sudeste; então, na medida em que o som toca, nós estamos escutando movimento através do espaço. Cada nota representa outro passo no caminho.
 
-1. Abra o [dados-sonificação-romana.csv](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/assets/sonification-roman-data.csv) em uma tabela. Copie a primeira coluna em um editor de texto. Delete os finais das linhas de forma que os dados fiquem todos em uma linha única.
+1. Abra o [dados-sonificação-romana.csv](/assets/sonification-roman-data.csv) em uma tabela. Copie a primeira coluna em um editor de texto. Delete os finais das linhas de forma que os dados fiquem todos em uma linha única.
 2. Adicione a seguinte informação de coluna assim:
 ```
 # Of Voices, Text Area Name, Text Area Data
