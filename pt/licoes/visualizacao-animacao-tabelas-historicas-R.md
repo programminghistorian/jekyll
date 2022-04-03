@@ -1,6 +1,5 @@
 ---
 title: Visualização e animação de tabelas históricas com R
-collection: lessons
 layout: lesson
 slug: visualizacao-animacao-tabelas-historicas-R
 date: 2021-06-28
@@ -10,7 +9,7 @@ authors:
 reviewers:
 - Jennifer Isasi
 - Basthian Medina
-editor:
+editors:
 - Riva Quiroga
 translator:
 - Diana Rebelo Rodriguez 
