@@ -136,9 +136,9 @@ O [conjunto de dados de amostra](/assets/sonification-roman-data.csv) apresentad
 1,morphBox,
 ,areaPitch1,
 ```
-...para que os seus dados sigam imediatamente depois da última vírgula (como [esse exemplo](/assets/sonification-romancoindata-music.csv)). Salve o ficheiro com um nome útil como `sonsdasmoedas1.csv`.
+...para que os seus dados sigam imediatamente depois da última vírgula (como [esse exemplo](/assets/sonification-romancoin-data-music.csv)). Salve o ficheiro com um nome útil como `sonsdasmoedas1.csv`.
 
-3. Acesse o site do [Musicalgorithms](http://musicalgorithms.org/3.0/index.html) (versão 3) e clique no botão "load" (carregar). No pop-up, clique no botão azul "load" (carregar) e selecione o ficheiro salvo no passo 2. O site carregará os seus materiais e exibirá uma marca de seleção verde se tiver sido carregado com êxito. Caso contrário, certifique-se de que os seus valores estejam separados por espaços e que sigam imediatamente a última vírgula no bloco de código na etapa 2. Também é possível tentar carregar o [ficheiro de demonstração desse tutorial](/assets/sonification-romancoindata-music.csv) ao invés.
+3. Acesse o site do [Musicalgorithms](http://musicalgorithms.org/3.0/index.html) (versão 3) e clique no botão "load" (carregar). No pop-up, clique no botão azul "load" (carregar) e selecione o ficheiro salvo no passo 2. O site carregará os seus materiais e exibirá uma marca de seleção verde se tiver sido carregado com êxito. Caso contrário, certifique-se de que os seus valores estejam separados por espaços e que sigam imediatamente a última vírgula no bloco de código na etapa 2. Também é possível tentar carregar o [ficheiro de demonstração desse tutorial](/assets/sonification-romancoin-data-music.csv) ao invés.
 
 {% include figure.html filename="sonification-musicalgorithms-upload-4.png" caption="Clique em 'load' na tela principal para acessar essa caixa de diálogo. Então 'load csv'. (carregue o csv) Selecione o ficheiro; ele aparecerá na caixa. Então clique no botão 'load' (carregar)." %}
 
