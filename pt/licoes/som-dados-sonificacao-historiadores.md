@@ -25,7 +25,7 @@ topics: [distant-reading]
 abstract: "Existem inúmeras lições que o ajudarão a visualizar o passado, mas esta lição o ajudará a ouvir o passado."
 original: sonification
 avatar_alt: Um violino
-doi: A INDICAR
+doi: 10.46430/phpt0020
 ---
 
 # Introdução
