@@ -25,7 +25,7 @@ topics: [distant-reading, r]
 abstract: "Esta lição lhe mostrará como cruzar referências, produzir gráficos e animar um conjunto de dados históricos disponíveis numa tabela."
 original: visualizacion-y-animacion-de-tablas-historicas-con-R
 avatar_alt: "Uma mão carregando uma garrafa"
-doi: A INDICAR
+doi: 10.46430/phpt0021
 ---
 
 ## Conteúdos
