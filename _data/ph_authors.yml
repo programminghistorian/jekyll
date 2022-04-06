@@ -2155,9 +2155,7 @@
   bio:
       es: |
         Marcelo Raimundo es profesor e investigador de la Universidad Nacional de La Plata y se dedica al análisis histórico de la conflictividad obrera.
-      pt: |
-        Marcelo Raimundo é professor e pesquisador da Universidade Nacional de La Plata e dedica-se à análise histórica da conflitualidade trabalhista.
-    
+
 - name: Anisa Hawes
   github: anisa-hawes
   email: admin@programminghistorian.org
