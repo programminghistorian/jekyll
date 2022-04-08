@@ -1,5 +1,5 @@
 ---
-title: "Introduction à Heurist"
+title: Introduction à Heurist
 collection: lessons
 layout: lesson
 slug: introduction-a-heurist
@@ -17,10 +17,8 @@ translator:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/380
 difficulty: 2
 activity: transforming
-topics:
-- [data-manipulation]
-- [mapping]
-abstract: Ce tutoriel présente l'utilisation d'Heurist, un logiciel de gestion de base de données dédié aux sciences humaines et sociales. En s'appuyant sur un jeu de données de sites de fouilles archéologiques, il illustre le fonctionnement d'Heurist et ses fonctionnalités.
+topics: [data-manipulation, mapping]
+abstract: "Ce tutoriel présente l'utilisation d'Heurist, un logiciel de gestion de base de données dédié aux sciences humaines et sociales. En s'appuyant sur un jeu de données de sites de fouilles archéologiques, il illustre le fonctionnement d'Heurist et ses fonctionnalités."
 avatar_alt: Planisphères Célestes, Boreal et Austral, projetés sur le plan de l'Équateu
 doi: 10.46430/phfr0021
 ---
