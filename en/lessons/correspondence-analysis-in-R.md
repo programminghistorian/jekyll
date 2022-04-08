@@ -21,6 +21,7 @@ avatar_alt: Diagram of a cube with labeled edges
 doi: 10.46430/phen0062
 mathjax: true
 ---
+{% include toc.html %}
 
 Correspondence analysis (CA) produces a two or three dimensional plot based on relationships among two or more categories of data. These categories could be "members and clubs," "words and books" or "countries and trade agreements." For example, one club member could correspond to another club member based on the shared clubs that they belong to. Members who attend the same clubs probably have more in common than those who attend different clubs. In the same vein, clubs that share members are also likely to have more in common than clubs with different members.
 
@@ -185,7 +186,7 @@ plot(CA_trudeau)
 ```
 {% include figure.html caption="Correspondence analysis of Parliamentary Committees for 1st Session of Justin Trudeau Government" filename="figure3.png" %}
 
-Oh dear. Our data labels are not very readable right now. Even with the switch to abbreviations, the labels are overlapping. The [factoextra](https://cran.r-project.org/web/packages/factoextra/index.html) library has a repel feature that helps show things more clearly.
+Oh dear. Our data labels are not very readable right now. Even with the switch to abbreviations, the labels are overlapping. The [factoextra](https://cran.r-project.org/web/packages/factoextra/index.html)[^factoextra] library has a repel feature that helps show things more clearly.
 
 ```
 fviz_ca_biplot(CA_harper, repel = TRUE)
