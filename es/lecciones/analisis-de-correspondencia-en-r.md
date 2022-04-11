@@ -3,7 +3,8 @@ title: |
   Análisis de correspondencia para la investigación histórica usando R
 original: correspondence-analysis-in-R
 collection: lessons
-authors: Ryan Deschamps
+authors:
+  - Ryan Deschamps
 date: 2017-06-01
 reviewers:
   - Sandra van Ginhoven
@@ -14,7 +15,7 @@ difficulty: 3
 review-ticket:  https://github.com/programminghistorian/ph-submissions/issues/331
 activity: analyzing
 topics: [data-manipulation, network-analysis, r]
-translation_date: 2022-04-04
+translation_date: 2022-04-11
 translator:
 - Riva Quiroga
 - Basthian Medina
