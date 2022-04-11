@@ -61,7 +61,7 @@ Como preparación, se pueden revisar los siguientes tutoriales ya publicados en 
 
 El análisis de correspondencia, también llamado "escalamiento multidimensional" o "análisis de red bivariado", permite observar la interrelación de dos grupos en un gráfico bidimensional. Por ejemplo, fue reconocidamente utilizado por el sociólogo francés Pierre Bourdieu para mostrar cómo categorías sociales como ocupación influyen en la opinión política .[^leroux] Este tipo de análisis es especialmente poderoso como herramienta para encontrar patrones en conjuntos de datos de gran tamaño.
 
-El análisis de correspondencia funciona con cualquier tipo de datos categóricos (es decir, datos que han sido agrupados en categorías). Partamos con un ejemplo simple. Si quisieras entender el rol que los tratados de comercio internacionales han tenido en la interconexión entre las naciones del G8, [podrías crear una tabla para los países y las relaciones de libre comercio](/assets/analisis-de-correspondencia-en-r/NAFTA-es.csv) que han mantenido en un determinado período.
+El análisis de correspondencia funciona con cualquier tipo de datos categóricos (es decir, datos que han sido agrupados en categorías). Partamos con un ejemplo simple. Si quisieras entender el rol que los tratados de comercio internacionales han tenido en la interconexión entre las naciones del G8, [podrías crear una tabla para los países y las relaciones de libre comercio](/assets/correspondence-analysis-in-R/es-translation/NAFTA-es.csv) que han mantenido en un determinado período.
 
 En el siguiente ejemplo, se muestra una pequeña selección de tratados de comercio (en azul), que incluye el Espacio Económico Europeo (EEE), el Acuerdo Económico y Comercial Global entre la Unión Europea y Canadá (AECG), el Tratado de Libre Comercio de América del Norte (TLCAN), el Acuerdo Transpacífico de Cooperación Económica (TPP) y la  Asociación de Naciones del Sudeste Asiático (ASEAN), y su correspondencia con los países del G8. Los países (en rojo) se agrupan geográficamente: los países orientados hacia el Pacífico a la derecha, los países europeos a la izquierda y los norteamericanos al centro. Canadá y los EE.UU., de manera predecible, están juntos. Alemania, Italia, Francia y el Reino Unido pertenecen a los mismos dos acuerdos (AECG & EEE), por lo que se encuentran en el mismo punto.
 
@@ -128,15 +128,15 @@ library(factoextra)
 
 # leer el archivo csv y asignarlo a un objeto en R. Agregamos la opción de encoding a "UTF-8", ya que algunos apellidos tienen tilde.
 
-harper_df <- read.csv("https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/analisis-de-correspondencia-en.r/HarperCPC-es.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
+harper_df <- read.csv("https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/correspondence-analysis-in-R/es-translation/HarperCPC-es.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
 ```
 
 ## Los datos
 
 Los datos originales de la versión en inglés de este tutorial se encuentran archivados en [Zenodo](http://doi.org/10.5281/zenodo.889846), en caso de que quieras ver los datos brutos. Se han incluido en formato tabular también. En esta traducción al español trabajaremos sobre una versión traducida de los datos (no es necesario que descargues estos archivos de forma manual; los descargaremos directamente usando R):
 
-  1) [CPCs de Harper]({{ site.baseurl }}/assets/analisis-de-correpondencia-en-R/HarperCP-es.csv)
-  2) [CPCs de Trudeau]({{ site.baseurl }}/assets/analisis-de-correpondencia-en-R/TrudeauCP-es.csv)
+  1) [CPCs de Harper]({{ site.baseurl }}/assets/correspondence-analysis-in-R/es-translation/HarperCP-es.csv)
+  2) [CPCs de Trudeau]({{ site.baseurl }}/assets/correspondence-analysis-in-R/es-translation/TrudeauCP-es.csv)
 
 Revisemos una muestra de los datos de la primera sesión del gobierno de Stephen Harper. Las filas representan los comités y las columnas son los miembros específicos. Si un miembro pertenece a un comité, la celda tendrá un 1; si no pertenece, tendrá un 0.
 
@@ -191,7 +191,7 @@ Al ejecutar el código, deberías obtener un gráfico parecido a este:
 Procesemos los datos del gobierno de Trudeau de la misma manera:
 
 ```R
-trudeau <- read.csv("http://programminghistorian.org/assets/correspondence-analysis-in-R/TrudeauCP-es.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
+trudeau <- read.csv("http://programminghistorian.org/assets/correspondence-analysis-in-R/es-translation/TrudeauCP-es.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
 trudeau_tabla <- table(trudeau_df$abreviacion, trudeau_df$miembro)
 trudeau_tabla <- trudeau_tabla[,colSums(trudeau_tabla) > 1]
 AC_trudeau <- CA(trudeau_tabla)
