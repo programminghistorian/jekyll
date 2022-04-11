@@ -128,7 +128,7 @@ library(factoextra)
 
 # leer el archivo csv y asignarlo a un objeto en R. Agregamos la opción de encoding a "UTF-8", ya que algunos apellidos tienen tilde.
 
-harper_df <- read.csv("https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/correspondence-analysis-in-R/es-translation/HarperCPC-es.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
+harper_df <- read.csv("https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/correspondence-analysis-in-R/es-translation/HarperCP-es.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
 ```
 
 ## Los datos
@@ -168,7 +168,7 @@ Estructurada de otra manera (a través de una tabla de R), podemos ver que los c
 Nuestro _data frame_ `harper_df` está compuesto por el nombre completo de los comités y los nombres de los MP. Como algunos nombres de comités son muy largos para que se muestren bien en un gráfico (por ejemplo, "Recursos Humanos, Habilidades y Desarrollo Social y Situación de las Personas con Discapacidad"), usaremos las abreviaciones.
 
   ```
-  harper_tabla <- table(harper_df$abreviacion, harper_df$miembro)
+  harper_tabla <- table(harper_df$abreviatura, harper_df$miembro)
   ```
 
 La función `table` (tabla) permite crear un conjunto de datos tabulares cruzados a partir de dos categorías de un _data frame_. Como las columnas corresponden a cada MP y las filas a cada comité, cada celda contiene un 0 o un 1 dependiendo de si la conexión existe. Si miramos la asistencia real a cada reunión, podríamos agregar valores ponderados (por ejemplo, 5 para un MP que asiste a un comité 5 veces). Como regla de oro, se usan valores ponderados cuando las cantidades importan (cuando la gente invierte dinero, por ejemplo), y se usan ceros y unos cuando no.
@@ -191,8 +191,8 @@ Al ejecutar el código, deberías obtener un gráfico parecido a este:
 Procesemos los datos del gobierno de Trudeau de la misma manera:
 
 ```R
-trudeau <- read.csv("https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/correspondence-analysis-in-R/es-translation/TrudeauCP-es.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
-trudeau_tabla <- table(trudeau_df$abreviacion, trudeau_df$miembro)
+trudeau_df <- read.csv("https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/correspondence-analysis-in-R/es-translation/TrudeauCP-es.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
+trudeau_tabla <- table(trudeau_df$abreviatura, trudeau_df$miembro)
 trudeau_tabla <- trudeau_tabla[,colSums(trudeau_tabla) > 1]
 AC_trudeau <- CA(trudeau_tabla)
 plot(AC_trudeau, title = "Mapa de factores AC - Trudeau")
@@ -324,8 +324,8 @@ Para la historia de Canadá, este resultado hace sentido, considerando que Viole
 Quizás podríamos mirar algunos comités diferentes. Si sacamos "JUST", "INDN" y "EXTR", y los reemplazamos por "CINM" (Ciudadanía e Inmigración), "ETIC" (Ética y Acceso a la Información) y "RRHH" (Recursos Humanos), podemos tener finalmente una visión de la estructura de los comités parlamentarios en este contexto.
 
 ```
-trudeau_df3 <- trudeau_df[which(trudeau_df$abreviacion %in% c("SLUD", "CINM", "SMUJ", "ETIC", "FINA", "RRHH", "EQUI")),]
-trudeau_tabla3 <- table(trudeau_df3$abreviacion, trudeau_df3$miembro)
+trudeau_df3 <- trudeau_df[which(trudeau_df$abreviatura %in% c("SLUD", "CINM", "SMUJ", "ETIC", "FINA", "RRHH", "EQUI")),]
+trudeau_tabla3 <- table(trudeau_df3$abreviatura, trudeau_df3$miembro)
 trudeau_tabla3 <- trudeau_tabla3[, colSums(trudeau_tabla3) > 1] # remueve los únicos (singles) de nuevo
 AC_trudeau3 <- CA(trudeau_tabla3)
 plot(AC_trudeau3, title = "Mapa de factores AC - Trudeau")
