@@ -21,7 +21,7 @@ translator:
 - Basthian Medina
 translation-editor:
 - José Antonio Motilla
-translation-reviewers:
+translation-reviewer:
 - Silvia Gutiérrez
 - José Antonio Motilla 
 layout: lesson
