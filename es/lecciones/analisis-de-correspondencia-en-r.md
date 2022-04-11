@@ -191,7 +191,7 @@ Al ejecutar el código, deberías obtener un gráfico parecido a este:
 Procesemos los datos del gobierno de Trudeau de la misma manera:
 
 ```R
-trudeau <- read.csv("http://programminghistorian.org/assets/correspondence-analysis-in-R/es-translation/TrudeauCP-es.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
+trudeau <- read.csv("https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/correspondence-analysis-in-R/es-translation/TrudeauCP-es.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
 trudeau_tabla <- table(trudeau_df$abreviacion, trudeau_df$miembro)
 trudeau_tabla <- trudeau_tabla[,colSums(trudeau_tabla) > 1]
 AC_trudeau <- CA(trudeau_tabla)
