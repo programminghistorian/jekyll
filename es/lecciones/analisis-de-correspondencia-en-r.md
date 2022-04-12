@@ -27,7 +27,7 @@ translation-reviewer:
 layout: lesson
 mathjax: true
 abstract: |
-  Este tutorial explica cómo implementar y analizar un análisis de correspondencia, el que puede ser utilizado para identificar relaciones entre datos categóricos.
+  Este tutorial explica cómo implementar e interpretar un análisis de correspondencia, el que puede ser utilizado para identificar relaciones entre datos categóricos.
 avatar_alt: Diagrama de un cubo con aristas etiquetadas
 doi: 10.46430/phes0058
 ---
