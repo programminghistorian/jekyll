@@ -31,7 +31,7 @@ doi: A INDICAR
 
 # Objetivos
 
-Esta lição usa a metodologia de análise de sentimentos e emoções usando a linguagem de programação R para investigar documentos textuais de modo individual. Embora a lição não seja destinada a usuários avançados de R, é necessário que se tenha algum conhecimento dessa linguagem; assumimos que se tenha o R instalado e saiba como importar pacotes. Também recomendamos o download do RStudio. Se não estiver familiarizado com R, é melhor trabalhar primeiro através das lições [Processamento básico de texto em R](/pt/licoes/processamento-basico-texto-r), [Noções básicas de R com dados tabulares](/pt/licoes/nocoes-basicas-R-dados-tabulares) ou [Data Wrangling and Management in R](/en/lessons/data_wrangling_and_management_in_R) (em inglês). Ao final desta lição, o (a) pesquisador(a) será capaz de:
+Esta lição usa a metodologia de análise de sentimentos e emoções através da linguagem de programação R para investigar documentos textuais de modo individual. Embora a lição não seja destinada a usuários avançados de R, é necessário que se tenha algum conhecimento dessa linguagem; assumimos que se tenha o R instalado e saiba como importar pacotes. Também recomendamos o download do RStudio. Se não estiver familiarizado com R, é melhor trabalhar primeiro através das lições [Processamento básico de texto em R](/pt/licoes/processamento-basico-texto-r), [Noções básicas de R com dados tabulares](/pt/licoes/nocoes-basicas-R-dados-tabulares) ou [Data Wrangling and Management in R](/en/lessons/data_wrangling_and_management_in_R) (em inglês). Ao final desta lição, o(a) pesquisador(a) será capaz de:
 
 - Colocar perguntas de pesquisa com base na análise quantitativa de sentimentos em textos de tipo ensaístico e/ou narrativo.
 - Usar a linguagem de programação R, o ambiente RStudio e o pacote `syuzhet` com o dicionário NRC para gerar o indicador de sentimento de um texto em diferentes linguagens. 
@@ -48,13 +48,13 @@ Esta lição foi construída com a versão R 4.0.2, mas acreditamos que funciona
 
 A [análise dos sentimentos ou a mineração de opinião](https://myrabr.com/blog/analise-de-sentimento/) é utilizada para extrair automaticamente informações sobre a conotação negativa ou positiva da linguagem de um documento. Embora seja uma tarefa que vem sendo utilizada há muito tempo no campo do marketing ou da política, em estudos literários ainda é uma abordagem recente e não há um método único. Além disso, há a possibilidade de extrair a polaridade dos sentimentos e também das emoções.
 
-É importante especificar o que estamos procurando com os termos “sentimento” e “emoções”, pois eles são frequentemente usados de forma intercambiável, de modo geral, mas são diferentes. Para Antonio R. Damasio, as emoções são reações corporais instigantes de nosso corpo, determinadas por estímulos ambientais e derivadas do desenvolvimento da regulamentação biológica (12). Eles podem ser divididos em primários e secundários. Embora não haja um acordo final sobre o número de emoções básicas, geralmente são essas seis: raiva, alegria, repugnância, medo, tristeza e surpresa, embora Damasio considere esta última como sendo secundária. Além disso, no caso do sistema automático que utilizaremos, as emoções secundárias de antecipação e confiança também aparecem.
+É importante especificar o que estamos procurando com os termos “sentimento” e “emoções”, pois eles são frequentemente usados de forma intercambiável, de modo geral, mas são diferentes. Para Antonio R. Damasio, as emoções são reações corporais instigantes de nosso corpo, determinadas por estímulos ambientais e derivadas do desenvolvimento da regulamentação biológica (12). Elas podem ser divididas em primárias e secundárias. Embora não haja um acordo final sobre o número de emoções básicas, geralmente são seis: raiva, alegria, repugnância, medo, tristeza e surpresa, embora Damasio considere esta última como sendo secundária. Além disso, no caso do sistema automático que utilizaremos, as emoções secundárias de antecipação e confiança também aparecem.
 
-Por outro lado, podemos definir sentimento como a ação e o efeito de sentir uma emoção ou, em outras palavras, é o resultado do fato de que “quando um objeto, uma pessoa, uma situação ou um pensamento provoca em nós a emoção da alegria, começa um processo que pode concluir no sentimento de estar alegre ou feliz” (Pereira Zazo 32) porque é uma emoção positiva. Durante a lição faremos uma distinção entre os dois termos, pois usaremos o resultado do sentimento para ver sua evolução ao longo do texto e as emoções para ver o uso das palavras em geral.
+Por outro lado, podemos definir sentimento como a ação e o efeito de sentir uma emoção ou, em outras palavras, é o resultado do fato de que “quando um objeto, uma pessoa, uma situação ou um pensamento provoca em nós a emoção da alegria, começa um processo que pode concluir no sentimento de estar alegre ou feliz” (Pereira Zazo 32) porque é uma emoção positiva. Durante a lição faremos uma distinção entre os dois termos, pois usaremos o resultado do sentimento para ver a sua evolução ao longo do texto e as emoções para ver o uso das palavras em geral.
 
 ## Dicionário de léxicos NRC
 
-O pacote `syuzhet` funciona com quatro dicionários de sentimentos: Bing, Afinn, Stanford e NRC. Nesta lição, trabalharemos com este último, pois é o único disponível em vários idiomas, incluindo o português. Este vocabulário com valores de sentimentos negativos ou positivos e oito emoções foi desenvolvido por Saif M. Mohammad, um cientista do Conselho Nacional de Pesquisa do Canadá (NRC). O conjunto de dados foi construído manualmente através de pesquisas usando a técnica Maximum Difference Scaling ou MaxDiff, que avalia a preferência por uma série de alternativas (Mohammad e Turney). Assim, o léxico tem 14.182 palavras com as categorias de sentimentos positivos e negativos e as emoções de raiva, antecipação, repugnância, medo, alegria, tristeza, surpresa e confiança. Além disso, ele está disponível em mais de 100 idiomas (através de tradução automática).
+O pacote `syuzhet` funciona com quatro dicionários de sentimentos: Bing, Afinn, Stanford e NRC. Nesta lição, trabalharemos com este último, pois é o único disponível em vários idiomas, incluindo o português. Este vocabulário com valores de sentimentos negativos ou positivos e oito emoções foi desenvolvido por Saif M. Mohammad, um cientista do Conselho Nacional de Pesquisa do Canadá (NRC). O conjunto de dados foi construído manualmente através de pesquisas usando a técnica Maximum Difference Scaling ou MaxDiff, que avalia a preferência por uma série de alternativas (Mohammad e Turney). Assim, o léxico tem 14.182 palavras com as categorias de sentimentos positivos e negativos e as emoções de raiva, antecipação, repugnância, medo, alegria, tristeza, surpresa e confiança. Além disso, está disponível em mais de 100 idiomas (através de tradução automática).
 
 Seus termos de uso estabelecem que o vocabulário pode ser usado gratuitamente para fins de pesquisa, portanto, todos os dados estão disponíveis para download.
 
@@ -62,18 +62,18 @@ Se trabalhamos com o inglês, podemos interagir com as diferentes categorias no 
 
 ## Pacote `syuzhet`
 
-O [pacote `syuzhet`](https://cran.r-project.org/web/packages/syuzhet/vignettes/syuzhet-vignette.html) foi desenvolvido em 2015 por Matthew Jockers; que o mantém funcionando até hoje e continuamente apresenta novas versões (no momento da preparação desta lição, foi usada a versão de dezembro de 2017). Uma série de posts no blog acompanha o desenvolvimento do pacote, e estão disponíveis no blog do professor desde [5 de junho de 2014](http://www.matthewjockers.net/page/2/) (em inglês).
+O [pacote `syuzhet`](https://cran.r-project.org/web/packages/syuzhet/vignettes/syuzhet-vignette.html) foi desenvolvido em 2015 por Matthew Jockers; que o mantém funcionando até hoje e continuamente apresenta novas versões (no momento da preparação desta lição, foi usada a versão de dezembro de 2017). Uma série de posts no blog acompanham o desenvolvimento do pacote, e estão disponíveis no blog do professor desde [5 de junho de 2014](http://www.matthewjockers.net/page/2/) (em inglês).
 
 Naturalmente, o pacote foi desenvolvido com testes em textos escritos ou traduzidos para o inglês e não sem debate sobre sua utilidade, para atribuir valores a textos literários que muitas vezes são, por natureza, bastante subjetivos.  
 
 > Atenção: A lista de palavras do dicionário está sendo preparada em inglês como língua principal e os dados quantitativos atribuídos a cada palavra são o resultado da avaliação humana pelos participantes americanos. Portanto, vários fatores devem ser levados em consideração ao utilizar esta metodologia:
 >
-> -   O léxico em português é uma tradução direta realizada por tradução automática (estes sistemas já são muito confiáveis entre o inglês e o português, mas não em outros idiomas que o NRC afirma ser capaz de analisar, como, por exemplo, o basco).
+> -   O léxico em português é uma tradução direta realizada por tradução automática (estes sistemas já são muito confiáveis entre o inglês e o português, mas não em outros idiomas que o NRC afirma ser capaz de analisar como, por exemplo, o basco).
 > -   A pontuação de cada palavra, ou seja, a valência sentimental e emocional, tem um viés cultural e temporal que deve ser levado em conta, e um termo que pareceu positivo para os participantes da pesquisa pode nos parecer negativo.  
 > -   O uso desta metodologia não é recomendado para textos que são altamente metafóricos e simbólicos.
 > -   O método não vai captar a negação de um sentimento positivo como, por exemplo, a frase “Eu não estou feliz”.
 >
-> Seguindo o espírito de adaptabilidade das lições do *Programming Historian* a outras linguagens, foi decidido usar `syuzhet` em sua forma original, mas ao final da lição indicamos algumas funções avançadas para usar seu próprio dicionário de sentimentos com o mesmo pacote.
+> Seguindo o espírito de adaptabilidade das lições do *Programming Historian* a outras línguas, foi decidido usar `syuzhet` em sua forma original, mas ao final da lição indicamos algumas funções avançadas para usar seu próprio dicionário de sentimentos com o mesmo pacote.
 
 Como os resultados nos *dataframes* aparecerão em inglês, se achar necessário, dedique um momento para aprender esta tradução:
 
@@ -138,15 +138,15 @@ sentimentos_exemplo_df <- get_nrc_sentiment(exemplo_2, lang="portuguese")
 print(sentimentos_exemplo_df, row.names = exemplo_2)
 ```
 
-Como podemos ver nos resultados deste objeto tipo *data frame* ou tabela, cada palavra ou ficha tem um valor padrão de 0 nas dez colunas. Se houver um valor maior que 0, significa, em primeiro lugar, que este termo existe no dicionário NRC e, em segundo lugar, que tem um valor atribuído para alguma emoção e/ou sentimento. Neste exemplo, podemos ver que a palavra “amor” é entendida de forma positiva, ainda que represente tristeza (*sadness*). Por outro lado, a palavra “crise” possui uma conotação negativa muito forte, pois há menos margem para dúvidas.
+Como podemos ver nos resultados deste objeto tipo *data frame* ou tabela, cada palavra ou ficha tem um valor padrão de 0 nas dez colunas. Se houver um valor maior que 0 significa, em primeiro lugar, que este termo existe no dicionário NRC e, em segundo lugar, que tem um valor atribuído para alguma emoção e/ou sentimento. Neste exemplo, podemos ver que a palavra “amor” é entendida de forma positiva, ainda que represente tristeza (*sadness*). Por outro lado, a palavra “crise” possui uma conotação negativa muito forte, pois há menos margem para dúvidas.
 
-As possibilidades de explorar, analisar e visualizar estes resultados dependem em grande parte de suas habilidades de programação mas, acima de tudo, de sua questão de pesquisa. Para ajudar o pesquisador, nesta lição introdutória aprenderemos como analisar os dados utilizando várias formas de visualização.   
+As possibilidades de explorar, analisar e visualizar estes resultados dependem, em grande parte, das suas habilidades de programação mas, acima de tudo, da sua questão de pesquisa. Para ajudar o pesquisador, nesta lição introdutória aprenderemos como analisar os dados utilizando várias formas de visualização.   
 
 ## Pergunta de pesquisa
 
-Para essa lição, vamos utilizar o romance Dom Casmurro, escrito por [Machado de Assis](https://pt.wikipedia.org/wiki/Machado_de_Assis), publicado em 1899, de caráter realista e ambientado no Rio de Janeiro na segunda metade do século XIX. O protagonista e narrador é Bento Santiago (também conhecido como Bentinho ou Dom Casmurro), que apresenta relatos desde sua juventude até sua vida adulta, quando escreve. Nesse intervalo de tempo, ele passa por experiências como viver em um seminário e se preparar para ser Padre, mas também desistir dessa vida ao se apaixonar por Capitu. O enredo central da trama é o ciúme envolvido nessa relação.
+Para essa lição, vamos utilizar o romance Dom Casmurro, escrito por [Machado de Assis](https://pt.wikipedia.org/wiki/Machado_de_Assis), publicado em 1899, de caráter realista e ambientado no Rio de Janeiro na segunda metade do século XIX. O protagonista e narrador é Bento Santiago (também conhecido como Bentinho ou Dom Casmurro), que apresenta relatos desde a sua juventude até à sua vida adulta, quando escreve. Nesse intervalo de tempo passa por experiências como viver em um seminário e se preparar para ser Padre, mas também desistir dessa vida ao se apaixonar por Capitu. O enredo central da trama é o ciúme envolvido nessa relação.
 
-É possível observar a queda emocional desta trama ao se extrair automaticamente os valores de sentimento do romance? Ou, em outras palavras, nossa recepção dos ciúmes de Bentinho coincide com os resultados desse cálculo automático? Além disso, quais palavras são mais usadas na descrição das emoções do texto?
+É possível observar a queda emocional desta trama ao se extrair automaticamente os valores de sentimento do romance? Ou, em outras palavras, nossa recepção dos ciúmes de Bentinho coincide com os resultados desse cálculo automático? Além disso, quais são as palavras mais usadas na descrição das emoções do texto?
 
 
 # Obter valores de sentimentos e emoções
@@ -218,7 +218,7 @@ length(oracoes_vetor)
 
 ## Extração de dados com o NRC Sentiment Lexicon
 
-Agora podemos executar a função `get_nrc_sentiment` para obter os sentimentos no romance *Dom Casmurro*. Agora, como a função executa por padrão o vocabulário inglês, nós a escrevemos com o argumento “lang” (de *language*, ou idioma) para usar o vocabulário português (“portuguese”). Por sua vez, criamos um novo objeto para armazenar os dados extraídos. Este será um objeto do tipo *data frame*. Esta função procura a presença das oito emoções e dos dois sentimentos para cada palavra em nosso vetor, e atribui um número maior que 0 se elas existirem. Dependendo do desempenho de seu computador e de acordo com as características de nosso texto, este processo pode levar de 15 a 30 minutos.
+Agora podemos executar a função `get_nrc_sentiment` para obter os sentimentos no romance *Dom Casmurro*. Como a função executa por padrão o vocabulário inglês, nós a escrevemos com o argumento “lang” (de *language*, ou idioma) para usar o vocabulário português (“portuguese”). Por sua vez, criamos um novo objeto para armazenar os dados extraídos. Este será um objeto do tipo *data frame*. Esta função procura a presença das oito emoções e dos dois sentimentos para cada palavra em nosso vetor, e atribui um número maior que 0 se elas existirem. Dependendo do desempenho de seu computador e de acordo com as características de nosso texto, este processo pode levar de 15 a 30 minutos.
 
 ```R
 sentimentos_df <- get_nrc_sentiment(texto_palavras, lang="portuguese")
@@ -249,7 +249,7 @@ Quando o processo terminar, se desejarmos, podemos ler os resultados no novo obj
 
 ## Resumo do texto
 
-O que é interessante é ver um resumo de cada um dos valores que obtivemos utilizando a função geral `summary()`. Isto pode ser muito útil ao comparar vários textos, pois permite ver diferentes medidas, tais como a média dos resultados para cada uma das emoções e os dois sentimentos. Por exemplo, podemos ver que o romance *Dom Casmurro* é, em [média](https://pt.wikipedia.org/wiki/M%C3%A9dia) (*mean*), um pouco mais positivo (0,03892) do que negativo (0,03559). Mas se olharmos para as emoções, parece que a tristeza (0,02116) aparece em mais momentos do que a alegria (0,01593). Vários dos valores fornecidos pela função de resumo do texto aparecem com um valor igual a 0, incluindo a [mediana](https://pt.wikipedia.org/wiki/Mediana_(estat%C3%ADstica)) (*median*). Isto indica que poucas das palavras do romance aparecem no dicionário que estamos usando (NRC) ou, inversamente, que poucas das palavras têm uma atribuição de sentimento ou emoção no dicionário.
+O que é interessante é ver um resumo de cada um dos valores que obtivemos utilizando a função geral `summary()`. Isto pode ser muito útil ao comparar vários textos, pois permite ver diferentes medidas, tais como a média dos resultados para cada uma das emoções e os dois sentimentos. Por exemplo, podemos ver que o romance *Dom Casmurro* é, em [média](https://pt.wikipedia.org/wiki/M%C3%A9dia) (*mean*), um pouco mais positivo (0,03892) do que negativo (0,03559). Mas se olharmos para as emoções, parece que a tristeza (0,02116) aparece em mais momentos do que a alegria (0,01593). Vários dos valores fornecidos pela função de resumo do texto aparecem com um valor igual a 0, incluindo a [mediana](https://pt.wikipedia.org/wiki/Mediana_(estat%C3%ADstica)) (*median*). Isto indica que poucas palavras do romance aparecem no dicionário que estamos usando (NRC) ou, inversamente, que poucas têm uma atribuição de sentimento ou emoção no dicionário.
 
 ```R
 > summary(sentimentos_df)
@@ -269,7 +269,7 @@ O que é interessante é ver um resumo de cada um dos valores que obtivemos util
  Max.   :4.00000   Max.   :2.000000   Max.   :3.00000   Max.   :5.00000   Max.   :7.00000  
 ```
 
-> Parabéns! Já temos os resultados da análise de sentimentos! E agora, o que podemos fazer com esses números?
+> Parabéns! Já temos os resultados da análise de sentimentos! E, agora, o que podemos fazer com esses números?
 
 
 
@@ -277,7 +277,7 @@ O que é interessante é ver um resumo de cada um dos valores que obtivemos util
 
 ## Gráfico de barras
 
-Para ver quais emoções estão mais presentes no texto, a maneira mais simples é criar um *barplot*. Para isso, usamos a função `barplot()` com o resumo das colunas 1 a 8, ou seja, as colunas de raiva (*anger*), antecipação (*antecipation*), desgosto (*disgust*), medo (*fear*), alegria (*joy*), tristeza (*sadness*), surpresa (*surprise*) e confiança (*trust*). Os resultados obtidos vêm do processamento da função `prop.table()` dos resultados das oito colunas com cada uma das palavras da tabela.
+Para ver quais as emoções que estão mais presentes no texto, a maneira mais simples é criar um *barplot*. Para isso, usamos a função `barplot()` com o resumo das colunas 1 a 8, ou seja, as colunas de raiva (*anger*), antecipação (*antecipation*), desgosto (*disgust*), medo (*fear*), alegria (*joy*), tristeza (*sadness*), surpresa (*surprise*) e confiança (*trust*). Os resultados obtidos vêm do processamento da função `prop.table()` dos resultados das oito colunas com cada uma das palavras da tabela.
 
 > Para cada barra, todos os valores da coluna de emoções correspondentes são somados. Então, o resultado de todas as emoções que adicionamos na saída do gráfico é somado. No final, a soma de cada emoção é dividida pelo total de todas as colunas ou emoções. Isto não acrescenta as colunas negativas e positivas. [^1]
 
@@ -305,11 +305,11 @@ barplot(colSums(prop.table(sentimentos_df[, 1:8])))
 
 > Certifique-se de que há espaço suficiente na seção de exibição de gráficos do R para poder ver os nomes de cada coluna.
 
-Estas informações já indicam que as emoções de tristeza e confiança prevalecem mais do que as de desgosto ou surpresa. Mas quais palavras são usadas por Machado na expressão dessa tristeza? Com que frequência cada uma aparece no romance como um todo?
+Estas informações já indicam que as emoções de tristeza e confiança prevalecem mais do que as de desgosto ou surpresa. Mas quais são as palavras usadas por Machado na expressão dessa tristeza? Com que frequência cada uma aparece no romance como um todo?
 
 ## Contando o número de palavras com cada emoção
 
-A fim de realizar uma análise do texto, é muito interessante saber quais palavras são usadas com mais frequência no texto em relação à sua identificação com cada emoção. Para isso, primeiro temos que criar um objeto de caracteres com todas as palavras que tenham um valor maior que 0 na coluna “tristeza” (*sadness*). Para selecionar somente essa coluna, usamos o sinal de dólar após o nome do *data frame*:
+A fim de realizar uma análise do texto, é muito interessante saber quais são as palavras usadas com mais frequência no texto em relação à sua identificação com cada emoção. Para isso, primeiro temos que criar um objeto de caracteres com todas as palavras que tenham um valor maior que 0 na coluna “tristeza” (*sadness*). Para selecionar somente essa coluna, usamos o sinal de dólar após o nome do *data frame*:
 ```R
 palavras_tristeza <- texto_palavras[sentimentos_df$sadness > 0]
 ```
@@ -342,7 +342,7 @@ Dependendo do tipo de análise que se deseje fazer, tal resultado é eficiente. 
 
 ## Nuvem de emoções
 
-A fim de criar uma nuvem com as palavras que correspondem a cada emoção em *Dom Casmurro*, criaremos primeiro um vetor no qual armazenaremos todas as palavras que, nas colunas que indicamos após o símbolo `$`, têm um valor maior que 0. É gerado um novo objeto do tipo vetor, que contém um elemento para a lista de cada emoção.
+A fim de gerar uma nuvem com as palavras que correspondem a cada emoção em *Dom Casmurro*, criaremos primeiro um vetor no qual armazenaremos todas as palavras que, nas colunas que indicamos após o símbolo `$`, têm um valor maior que 0. É gerado um novo objeto do tipo vetor, que contém um elemento para a lista de cada emoção.
 
 Neste caso, devemos indicar novamente à função que temos caracteres acentuados se for uma máquina Windows.
 
@@ -406,7 +406,7 @@ Terms         tristeza felicidade raiva confiança
 ```
 
 
-Finalmente, podemos visualizar a nuvem de palavras que estamos acostumados a ver na mídia ou em estudos acadêmicos. O tamanho e a localização da palavra correspondem a sua maior ou menor ocorrência com valor emocional atribuído no texto. Primeiro executamos a função `set.seed()` para que quando reproduzirmos o resultado visual seja o mesmo que o nosso (se não o fizer, será o mesmo, mas as palavras aparecerão em posições diferentes). E para gerar a nuvem, vamos usar a função `comparison.cloud` do pacote `wordcloud`. Indicamos o objeto a representar, aqui ‘nuvem_tdm’, indicamos uma ordem não aleatória das palavras, atribuímos uma cor para cada grupo de palavras e damos tamanhos ao título e à escala geral, e atribuímos um número máximo de termos que serão exibidos.
+Finalmente, podemos visualizar a nuvem de palavras que estamos acostumados a ver na mídia ou em estudos académicos. O tamanho e a localização da palavra correspondem à sua maior ou menor ocorrência com valor emocional atribuído no texto. Primeiro, executamos a função `set.seed()` para que quando reproduzirmos o resultado visual seja o mesmo que o nosso (se não o fizer, será o mesmo, mas as palavras aparecerão em posições diferentes). E, para gerar a nuvem, vamos usar a função `comparison.cloud` do pacote `wordcloud`. Indicamos o objeto a representar, aqui ‘nuvem_tdm’, indicamos uma ordem não aleatória das palavras, atribuímos uma cor para cada grupo de palavras e damos tamanhos ao título e à escala geral, e atribuímos um número máximo de termos que serão exibidos.
 ```R
 set.seed(757) # pode ser qualquer número
 comparison.cloud(nuvem_tdm, random.order = FALSE,
@@ -414,11 +414,11 @@ comparison.cloud(nuvem_tdm, random.order = FALSE,
                  title.size = 1, max.words = 50, scale = c(2.5, 1), rot.per = 0.4)
 ```
 
-O resultado deve ser semelhante à imagem abaixo, mas a localização das palavras pode ser alterada uma vez que a figura é gerada segundo o tamanho da tela:
+O resultado deve ser semelhante à imagem abaixo, mas a localização das palavras pode ser diferente uma vez que a figura é gerada segundo o tamanho da tela:
 
 <img src="/images/analisis-de-sentimientos-r/analise-sentimento-R-syuzhet-02.png" alt="Nuvem das palavras mais frequentes correspondentes às emoções de tristeza, felicidade, raiva e confiança no romance Dom Casmurro de Machado de Assis."/>
 
-O que o resultado desta nuvem sugere? Ficamos impressionados com o aparecimento de palavras como “entre” no conjunto da tristeza e “cavalo” no conjunto da raiva. Este “disparate” está relacionado com o aviso já anunciado no início da lição. O vocabulário para análise de sentimentos que estamos usando aqui é traduzido do inglês usando um tradutor automático e não é “perfeito”.
+O que sugere o resultado desta nuvem? Ficamos impressionados com o aparecimento de palavras como “entre” no conjunto da tristeza e “cavalo” no conjunto da raiva. Este “disparate” está relacionado com o aviso já anunciado no início da lição. O vocabulário para análise de sentimentos que estamos usando aqui é traduzido do inglês, um tradutor automático que não é “perfeito”.
 
 # Visualizando a evolução dos sentimentos em um texto
 
@@ -428,7 +428,7 @@ Para complementar a leitura isolada das emoções, estudando a flutuação dos s
 sentimentos_valencia <- (sentimentos_df$negative * -1) + sentimentos_df$positive
 ```
 
-Finalmente, podemos gerar um gráfico com a função `simple_plot()` integrada no pacote `syuzhet` que nos dará duas imagens diferentes; a primeira tem todas as medidas que o algoritmo calcula e a segunda é uma normalização das mesmas. O eixo horizontal apresenta o texto em 100 fragmentos normalizados e o eixo vertical nos informa sobre a valência do sentimento no texto. Dependendo das características de seu computador, este gráfico pode levar até 20-30 minutos para ser gerado.
+Finalmente, podemos gerar um gráfico com a função `simple_plot()` integrada no pacote `syuzhet`, que nos dará duas imagens diferentes; a primeira, tem todas as medidas que o algoritmo calcula e, a segunda, é uma normalização das mesmas. O eixo horizontal apresenta o texto em 100 fragmentos normalizados e o eixo vertical nos informa sobre a valência do sentimento no texto. Dependendo das características de seu computador, este gráfico pode levar até 20-30 minutos para ser gerado.
 
 ```R
 simple_plot(sentimentos_valencia)
@@ -438,7 +438,7 @@ simple_plot(sentimentos_valencia)
 
 <img src="/images/analisis-de-sentimientos-r/analise-sentimento-R-syuzhet-03.png" alt="Evolução das emoções ao longo do texto"/>
 
-Assim, neste caso, podemos interpretar que o romance *Dom Casmurro* varia bastante entre momentos positivos e negativos. Ele começa de forma mais negativa, fica mais positivo, sendo seguido por um novo momento negativo e um segundo positivo (porém menos do que o primeiro) para um desfecho negativo. Qualquer pessoa que tenha lido o romance pode confirmar esta variação de sentimentos vivida pelo protagonista.
+Assim, neste caso, podemos interpretar que o romance *Dom Casmurro* varia bastante entre momentos positivos e negativos. Começa de forma mais negativa, fica mais positivo, sendo seguido por um novo momento negativo e um segundo positivo (porém menos do que o primeiro) para um desfecho negativo. Qualquer pessoa que tenha lido o romance pode confirmar esta variação de sentimentos vivida pelo protagonista.
 
 ## Salvar seus dados
 
@@ -452,9 +452,9 @@ Agora, pode começar a analisar seus próprios textos e compará-los uns com os 
 
 # Outras funcionalidades e suas limitações
 
-Talvez esteja trabalhando em um projeto onde já tem um dicionário de sentimentos criado, ou talvez precise personalizar o vocabulário e sua valência sentimental por razões culturais ou temporais, ou talvez esteja procurando melhorar os resultados traduzidos automaticamente do NRC usado aqui. Em qualquer um destes casos, a partir do final de 2020 também é possível usar o seu próprio conjunto de dados no *script* graças à função `custom` e realizar algumas das operações que foram aprendidas nesta lição.
+Talvez esteja trabalhando em um projeto onde já tem um dicionário de sentimentos criado, ou talvez precise personalizar o vocabulário e sua valência sentimental por razões culturais ou temporais, ou talvez esteja procurando melhorar os resultados traduzidos automaticamente do NRC usado aqui. Em qualquer um destes casos, a partir do final de 2020, também é possível usar o seu próprio conjunto de dados no *script* graças à função `custom` e realizar algumas das operações que foram aprendidas nesta lição.
 
-Para carregar seu próprio “dicionário de sentimentos”, é preciso primeiro criar (ou modificar) uma tabela contendo pelo menos uma coluna para palavras e uma coluna para sua valência, por exemplo:
+Para carregar seu próprio “dicionário de sentimentos”, é preciso primeiro criar (ou modificar) uma tabela contendo, pelo menos, uma coluna para palavras e uma coluna para sua valência, por exemplo:
 
 |word|value|
 |---|---|
@@ -480,7 +480,7 @@ plot(sentimentos_oracoes,
    xlab="emocoes", ylab = " "
   )
 ```
-Entretanto, tenha em mente que esta forma de análise será limitada e não será possível realizar as mesmas operações como explicado acima. Por exemplo, seguindo o modelo do exemplo, não conseguimos as informações sobre emoções, portanto não somos capaz de fazer uma nuvem de palavras.
+Entretanto, tenha em mente que esta forma de análise será limitada e não será possível realizar as mesmas operações como explicado acima. Por exemplo, seguindo o modelo do exemplo, não conseguimos as informações sobre emoções, portanto não somos capazes de fazer uma nuvem de palavras.
 
 # Referências
 Assis, Machado de. _Dom Casmurro_. São Paulo: Editora Ática, 1996.
