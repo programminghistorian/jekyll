@@ -17,6 +17,7 @@ translation-editor:
 translation-reviewer:
 - Ana Giulia Aldgeire
 - Ian Araujo
+original: analisis-de-sentimientos-r
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/467
 difficulty: 2
 activity: analyzing
@@ -33,9 +34,9 @@ doi: A INDICAR
 Esta lição usa a metodologia de análise de sentimentos e emoções usando a linguagem de programação R para investigar documentos textuais de modo individual. Embora a lição não seja destinada a usuários avançados de R, é necessário que se tenha algum conhecimento dessa linguagem; assumimos que se tenha o R instalado e saiba como importar pacotes. Também recomendamos o download do RStudio. Se não estiver familiarizado com R, é melhor trabalhar primeiro através das lições [Processamento básico de texto em R](/pt/licoes/processamento-basico-texto-r), [Noções básicas de R com dados tabulares](/pt/licoes/nocoes-basicas-R-dados-tabulares) ou [Data Wrangling and Management in R](/en/lessons/data_wrangling_and_management_in_R) (em inglês). Ao final desta lição, o (a) pesquisador(a) será capaz de:
 
 - Colocar perguntas de pesquisa com base na análise quantitativa de sentimentos em textos de tipo ensaístico e/ou narrativo.
--   Usar a linguagem de programação R, o ambiente RStudio e o pacote `syuzhet` com o dicionário NRC para gerar o indicador de sentimento de um texto em diferentes linguagens.    
--   Analisar criticamente os resultados do processamento de texto.    
--   Visualizar os dados gerais e sua evolução ao longo de um texto.
+- Usar a linguagem de programação R, o ambiente RStudio e o pacote `syuzhet` com o dicionário NRC para gerar o indicador de sentimento de um texto em diferentes linguagens. 
+- Analisar criticamente os resultados do processamento de texto.
+- Visualizar os dados gerais e sua evolução ao longo de um texto.
 
 Esta lição foi construída com a versão R 4.0.2, mas acreditamos que funcionará corretamente em versões futuras do programa.
 
@@ -124,6 +125,7 @@ bem                  0            0       0    0   0       0        0     0     
 ```
 
 > Nota de tradução: na lição original, os autores não explicaram o passo a passo para se obter esses resultados em um primeiro momento. Apesar de a lição explicar detalhadamente o processo, julguei ser interessante demonstrar aqui como obtive esses outputs:
+
 ```R
 exemplo <- "Contando aquela crise do meu amor adolescente, sinto uma coisa que não sei se explico bem, e é que as dores daquela quadra, a tal ponto se espiritualizaram com o tempo, que chegam a diluir-se no prazer. Não é claro isto, mas nem tudo é claro na vida ou nos livros. A verdade é que sinto um gosto particular em referir tal aborrecimento, quando é certo que ele me lembra outros que não quisera lembrar por nada."
 
@@ -144,8 +146,7 @@ As possibilidades de explorar, analisar e visualizar estes resultados dependem e
 
 Para essa lição, vamos utilizar o romance Dom Casmurro, escrito por [Machado de Assis](https://pt.wikipedia.org/wiki/Machado_de_Assis), publicado em 1899, de caráter realista e ambientado no Rio de Janeiro na segunda metade do século XIX. O protagonista e narrador é Bento Santiago (também conhecido como Bentinho ou Dom Casmurro), que apresenta relatos desde sua juventude até sua vida adulta, quando escreve. Nesse intervalo de tempo, ele passa por experiências como viver em um seminário e se preparar para ser Padre, mas também desistir dessa vida ao se apaixonar por Capitu. O enredo central da trama é o ciúme envolvido nessa relação.
 
-É possível observar a queda emocional desta trama ao se extrair automaticamente os valores de sentimento do romance? Ou, em outras palavras, nossa recepção dos ciúmes de Bentinho coincide com os resultados desse cálculo automático? Além disso, quais palavras são mais usadas na descrição das emoções do texto?  
-
+É possível observar a queda emocional desta trama ao se extrair automaticamente os valores de sentimento do romance? Ou, em outras palavras, nossa recepção dos ciúmes de Bentinho coincide com os resultados desse cálculo automático? Além disso, quais palavras são mais usadas na descrição das emoções do texto?
 
 
 # Obter valores de sentimentos e emoções
