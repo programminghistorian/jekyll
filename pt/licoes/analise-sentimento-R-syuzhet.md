@@ -24,7 +24,7 @@ activity: analyzing
 topics: [distant-reading, r]
 abstract: "Esta lição ensina uma maneira de obter e analisar dados sobre emoções e sentimentos em uma narrativa."
 avatar_alt: "Gravura com três rostos que expressam emoções distintas"
-doi: A INDICAR
+doi: 10.46430/phpt0022
 ---
 
 {% include toc.html %}
