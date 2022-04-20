@@ -674,12 +674,12 @@ journal-subtitle: # ENGLISH ONLY FOR NOW, DO NOT TRANSLATE
 title-open-quote:
   en: '"'
   es: '"'
-  fr: '« '
+  fr: '«&#x202F;'
   pt: '"'
 title-close-quote:
   en: ',"'
   es: '",'
-  fr: ' »,'
+  fr: '&#x202F;»,'
   pt: '",'
 available-lesson:
   en: Available in
