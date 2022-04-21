@@ -55,7 +55,9 @@ This first section is concerned with big-picture matters of style which will hel
 ### Open Source, Open Access
 *Programming Historian* is committed to open source values. All lessons must use open source programming languages and software whenever possible. This policy is meant to minimize costs for all parties, and to allow the greatest possible level of participation.
 
-Upon acceptance, you agree to publish your lesson under a Creative Commons "[CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en)" license.
+Authors retain copyright and grant the journal the right of first publication, with the work simultaneously licensed under the Creative Commons - Attribution 4.0 International [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) License.
+
+Authors have permission to publish and distribute their work online in institutional/disciplinary repositories or on their personal homepage.
 
 ### Write for a Global Audience
 *Programming Historian* readers live all around the world. Authors can and should take steps to write their lesson accessibly for as many people as possible. Follow these global-facing guidelines:
