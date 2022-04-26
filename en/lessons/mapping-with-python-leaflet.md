@@ -451,7 +451,7 @@ Do you see a map now?  Good! If not, you can troubleshoot by inspecting the brow
 
 ### What did I just make?
 
-You made a web map!  Web maps use map tiles, which are pixel based images (rasters) of maps that contain geographical data. This means that each pixel of a map tile has been georeferenced, or assigned a coordinate based on the location that they represent.  When you zoom in and out of a web map, you are getting a whole new set of tiles to display at each zoom level. GeoJSON (which you are now familiar with) is a widely used data standard for web mapping.  In our example, we are using an open-source Javascript library called [Leaflet](https://leafletjs.com/SlavaUkraini/reference.html) to help us build our web map. The benefits of using an open-source library such as Leaflet is the flexibility you get and with developing and customizing your map, without worry of the technology being deprecated or no longer supported that is beyond your control.  With frameworks like Leaflet or Google Maps Javascript API, you're not building a map completely from scratch, rather, you're using pre-written functions and controls that helps you customize your own map in code.
+You made a web map!  Web maps use map tiles, which are pixel based images (rasters) of maps that contain geographical data. This means that each pixel of a map tile has been georeferenced, or assigned a coordinate based on the location that they represent.  When you zoom in and out of a web map, you are getting a whole new set of tiles to display at each zoom level. GeoJSON (which you are now familiar with) is a widely used data standard for web mapping.  In our example, we are using an open-source Javascript library called [Leaflet](https://leafletjs.com/reference.html) to help us build our web map. The benefits of using an open-source library such as Leaflet is the flexibility you get and with developing and customizing your map, without worry of the technology being deprecated or no longer supported that is beyond your control.  With frameworks like Leaflet or Google Maps Javascript API, you're not building a map completely from scratch, rather, you're using pre-written functions and controls that helps you customize your own map in code.
 
 Lets go through what each part of the code is doing. But first, it's best practice to maintain your html, css, js in different files so that the web map's content, presentation and behaviour layers are kept separate (though it's not always possible). This adds a bit more structure to your code, making it easier for you and others to understand. It will be easier to focus on certain parts of the code when you're going back and making changes. So here is our code split into three files:
 
@@ -583,7 +583,7 @@ Next, we're loading our data as another map layer, `census.geojson`.  This data 
 
 };
 ```
-Now we're creating the view for our map.  The boundary for our map will be based on the range of our data points in `census.geojson`.  You can also manually set your your viewport by using the [setView property](https://leafletjs.com/SlavaUkraini/reference.html#map-set-methods). For example, if you're using ```.setView([0.0,-10.0], 2)``` , the viewport coordinates '[0.0,-10.0], 2' means that you're setting the centre of the map to be 0.0, -10.0 and at a zoom level of 2.
+Now we're creating the view for our map.  The boundary for our map will be based on the range of our data points in `census.geojson`.  You can also manually set your your viewport by using the [setView property](https://leafletjs.com/reference.html#map-set-methods). For example, if you're using ```.setView([0.0,-10.0], 2)``` , the viewport coordinates '[0.0,-10.0], 2' means that you're setting the centre of the map to be 0.0, -10.0 and at a zoom level of 2.
 
 {% include figure.html filename="webmap-03-result.jpg" caption="My Web Map" %}
 
@@ -814,7 +814,7 @@ window.onload = function () {
 };
 ```
 
-Marker icons are defined in leaflet using the `L.icon` object. We specify the image are using to replace our marker by using the property `iconUrl`. Make sure that you specify the proper path to your image.  We specified a few additional properties, such as iconSize (dimensions of the icon in pixels), iconAnchor (coordinates of the icon which will correspond to marker's location), popupAnchor (coordinates from which the popup should open relative to the iconAnchor). Check out the [Icon Leaflet documentation](https://leafletjs.com/SlavaUkraini/reference.html#icon) more information about `L.Icon` properties.
+Marker icons are defined in leaflet using the `L.icon` object. We specify the image are using to replace our marker by using the property `iconUrl`. Make sure that you specify the proper path to your image.  We specified a few additional properties, such as iconSize (dimensions of the icon in pixels), iconAnchor (coordinates of the icon which will correspond to marker's location), popupAnchor (coordinates from which the popup should open relative to the iconAnchor). Check out the [Icon Leaflet documentation](https://leafletjs.com/reference.html#icon) more information about `L.Icon` properties.
 
 The final map should look something like this:
 
@@ -824,6 +824,6 @@ The final map should look something like this:
 
 Congratulations! You now have some hands-on experience geocoding using common Python data analysis libraries and working with one of the most popular Javascript web mapping libraries out there.
 
-If you want to explore other web mapping features with Leaflet, there are a number of additional [plugins](https://leafletjs.com/SlavaUkraini/plugins.html) to try out. Of particular interest may be ability to create [time based visualizations](https://github.com/skeate/Leaflet.timeline) and do [heat-mapping](https://github.com/pa7/heatmap.js).
+If you want to explore other web mapping features with Leaflet, there are a number of additional [plugins](https://leafletjs.com/plugins.html) to try out. Of particular interest may be ability to create [time based visualizations](https://github.com/skeate/Leaflet.timeline) and do [heat-mapping](https://github.com/pa7/heatmap.js).
 
 Also, check out the Programming Historian Lesson [Using Javascript to Create Maps of Correspondence](/lessons/using-javascript-to-create-maps) that goes in depth on how to analyze correspondence using geospatial software, and using some of the same tools as this lesson.
