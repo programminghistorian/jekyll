@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/medium-owl.png" alt="Drawing of a Bay Owl" title="Bay Owl by J. Briois, c.1824. British Library Shelfmark: NHD 47/34"/>  
+<p><figure><img src="/images/blog/small-owl.png" alt="Drawing of a Bay Owl"/><figcaption>Bay Owl by J. Briois, c.1824. British Library Shelfmark: NHD 47/34</figcaption> </figure></p> 
 
 Employer: ProgHist Ltd, publisher of *Programming Historian*
 Salary: £26,000 (pro rata) + home office budget
