@@ -39,6 +39,8 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 -   [The National Archives](https://www.nationalarchives.gov.uk/), Reino Unido
 -   [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
 -   [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Alemanhã
+- [University of Bristol Library](http://www.bris.ac.uk/library/), Reino Unido
+- [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 

@@ -38,6 +38,8 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [The National Archives](https://www.nationalarchives.gov.uk/), Reino Unido
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
 - [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Alemania
+- [University of Bristol Library](http://www.bris.ac.uk/library/), Reino Unido
+- [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 

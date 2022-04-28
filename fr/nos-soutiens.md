@@ -36,6 +36,8 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [The National Archives](https://www.nationalarchives.gov.uk/), Royaume-Uni
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), États-Unis
 - [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Allemagne
+- [University of Bristol Library](http://www.bris.ac.uk/library/), Royaume-Uni
+- [University of Sheffield Library](https://www.sheffield.ac.uk/library), Royaume-Uni
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
