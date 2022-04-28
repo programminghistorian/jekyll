@@ -6,7 +6,12 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/ph-banner-4lang.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
+<img src="/images/blog/medium-owl.png" alt="Drawing of a Bay Owl" title="Bay Owl by J. Briois, c.1824. British Library Shelfmark: NHD 47/34"/>  
+
+Employer: ProgHist Ltd, publisher of *Programming Historian*
+Salary: £26,000 (pro rata) + home office budget
+Hours: 0.4 full time equivalent; open-ended contract
+Location : Remote home working; must be eligible to live and work in the UK
 
 *Programming Historian* is looking for an outstanding **Education and Community Lead** to join our global-facing digital humanities team in a remote part-time role, to support our multilingual publishing teams.
 
