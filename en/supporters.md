@@ -39,6 +39,7 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Germany
 - [University of Bristol Library](http://www.bris.ac.uk/library/), United Kingdom
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), United Kingdom
+- [School of Advanced Study, University of London](https://www.sas.ac.uk/), United Kingdom
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
@@ -89,6 +90,7 @@ We also publicly thank all of our 'Patron' and 'Educator' supporters:
 - Monica Berti (Educator)
 - Ajit Balakrishnan
 - Simon Mahony
+- Robert C.H. Sweeny
 
 ## Management of Donations and Sponsorship
 
