@@ -40,6 +40,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Alemania
 - [University of Bristol Library](http://www.bris.ac.uk/library/), Reino Unido
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido
+- [School of Advanced Study, University of London](https://www.sas.ac.uk/), Reino Unido
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 
@@ -90,6 +91,7 @@ En particular, agradecemos la contribución de los siguientes suscriptores de Pa
 - Monica Berti ('Educación')
 - Ajit Balakrishnan
 - Simon Mahony
+- Robert C.H. Sweeny
 
 ## Administración de donaciones y patrocinios
 
