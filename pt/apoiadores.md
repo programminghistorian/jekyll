@@ -41,6 +41,7 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 -   [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Alemanhã
 - [University of Bristol Library](http://www.bris.ac.uk/library/), Reino Unido
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido
+- [School of Advanced Study, University of London](https://www.sas.ac.uk/), Reino Unido
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
@@ -91,6 +92,7 @@ Também agradecemos publicamente a todos os nossos apoiadores ‘Patrono’ e �
 -   Monica Berti (Educator)
 -   Ajit Balakrishnan
 -   Simon Mahony
+-   Robert C.H. Sweeny
 
 ## Gestão de Doações e Patrocínios
 
