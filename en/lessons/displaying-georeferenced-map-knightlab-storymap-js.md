@@ -14,7 +14,7 @@ editors:
 - Alex Wermer-Colan
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/349
 difficulty: 2
-activity: present
+activity: presenting
 topics: [mapping]
 avatar_alt: Diagram of a globe, half with lat/lon grid, the other half decomposed into a network
 doi: 10.46430/phen0098
