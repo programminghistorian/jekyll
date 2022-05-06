@@ -36,11 +36,11 @@ Para este tutorial necesitarás los siguientes materiales y conocimientos:
 * Un texto de partida -digitalizado- y por lo menos una traducción de este. En este caso, alinearemos distintas traducciones de un documento que desde 1948 guía el quehacer y la convivencia humana en todos los ámbitos de la vida pública y privada, la [Declaración Universal de Derechos Humanos](https://es.wikipedia.org/wiki/Declaraci%C3%B3n_Universal_de_los_Derechos_Humanos): en [español](/assets/corpus-paralelo-lfaligner/DDHH_es.txt), [inglés](/assets/corpus-paralelo-lfaligner/DDHH_en.txt), [francés](/assets/corpus-paralelo-lfaligner/DDHH_fr.txt) y [portugués](/assets/corpus-paralelo-lfaligner/DDHH_pt.txt)
 * Conocimiento básico de las lenguas de traducción, ya que en algunos casos tendremos que modificar algunos de los segmentos alineados.
 
-Adicionalmente, podemos utilizar este programa para alinear distintas versiones de un texto en una misma lengua, lo que es útil para [análisis relacional](http://vocabularios.caicyt.gov.ar/portal/index.php?task=fetchTerm&arg=136&v=42), pero hay otras iniciativas que cumplen mejor con esta tarea como [Collatex](https://collatex.net/) o [Juxta](http://www.juxtasoftware.org/).
+Adicionalmente, podemos utilizar este programa para alinear distintas versiones de un texto en una misma lengua, lo que es útil para [análisis relacional](http://vocabularios.caicyt.gov.ar/portal/index.php?task=fetchTerm&arg=136&v=42), pero hay otras iniciativas que cumplen mejor con esta tarea como [Collatex](https://collatex.net/).
 
 Es importante ser sistemático con la clasificación de los documentos. El nombre de nuestros archivos txt debe acompañarse con el código que alude a la lengua del texto. Con ello aseguramos que la información con la que trabajamos siga convenciones oficiales que serán útiles a la hora de comunicar los resultados de nuestra investigación Para ello nos basaremos en el código [ISO 639-1](http://utils.mucattu.com/iso_639-1.html) que identifica a cada lengua con dos letras. Así, el español se identifica con *es*, el inglés con *en*, el francés con *fr* y el portugués con *pt*.
 
-Si trabajas con lenguas que no estén incluidas en ese código, puedes recurrir al código [ISO 639-3](https://www.ecured.cu/ISO_639-3) que utiliza descriptores de 3 letras y abarca la totalidad de las lenguas del mundo.
+Si trabajas con lenguas que no estén incluidas en ese código, puedes recurrir al código [ISO 639-3](https://es.wikipedia.org/wiki/ISO_639-3) que utiliza descriptores de 3 letras y abarca la totalidad de las lenguas del mundo.
 
 Como resultado final del procesamiento de los textos con LF Aligner obtendrás algo así:
 
