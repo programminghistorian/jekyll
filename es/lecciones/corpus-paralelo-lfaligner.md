@@ -40,7 +40,7 @@ Adicionalmente, podemos utilizar este programa para alinear distintas versiones 
 
 Es importante ser sistemático con la clasificación de los documentos. El nombre de nuestros archivos txt debe acompañarse con el código que alude a la lengua del texto. Con ello aseguramos que la información con la que trabajamos siga convenciones oficiales que serán útiles a la hora de comunicar los resultados de nuestra investigación Para ello nos basaremos en el código [ISO 639-1](http://utils.mucattu.com/iso_639-1.html) que identifica a cada lengua con dos letras. Así, el español se identifica con *es*, el inglés con *en*, el francés con *fr* y el portugués con *pt*.
 
-Si trabajas con lenguas que no estén incluidas en ese código, puedes recurrir al código [ISO 639-3](https://www.ecured.cu/ISO_639-3) que utiliza descriptores de 3 letras y abarca la totalidad de las lenguas del mundo.
+Si trabajas con lenguas que no estén incluidas en ese código, puedes recurrir al código [ISO 639-3](https://es.wikipedia.org/wiki/ISO_639-3) que utiliza descriptores de 3 letras y abarca la totalidad de las lenguas del mundo.
 
 Como resultado final del procesamiento de los textos con LF Aligner obtendrás algo así:
 
