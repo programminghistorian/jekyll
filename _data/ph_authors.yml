@@ -2625,3 +2625,17 @@
   bio:
       fr: |
           Vincent Paillusson est responsable informatique à l'École française d'Extrême-Orient. Il accompagne les chercheur(e)s et les services de documentation dans leurs projets numériques.
+
+- name: Erica Y. Hayes
+  team: false
+  orcid: 0000-0001-8601-9834
+  bio:
+      en: |
+          Erica Y. Hayes is a Digital Scholarship Librarian at Villanova University.
+
+- name: Mia Partlow
+  team: false
+  orcid: 0000-0002-9329-281X
+  bio:
+      en: |
+          Mia Partlow is a Resource Sharing Librarian at North Carolina State University.
