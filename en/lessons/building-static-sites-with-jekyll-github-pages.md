@@ -203,7 +203,7 @@ If you get a permissions error at this point, setting `GEM_HOME` to your user di
 `echo 'export PATH=$HOME/gems/bin:$PATH' >> ~/.bashrc` followed by `source ~/.bashrc`.
 
 <div class="alert alert-warning">
-Some users of macOS Catalina and macOS Big Sur have reported encountering difficulties installing Ruby & Ruby Gems. This lesson pre-dates the release of those operating systems, but the code supplied here has been adapted to offer a possible solution. Users who continue to face issues, may find <a href="https://github.com/monfresh/install-ruby-on-macos">this script</a> useful. 
+Some users of macOS Catalina and macOS Big Sur have reported encountering difficulties installing Ruby & Ruby Gems. This lesson pre-dates the release of those operating systems, but the code supplied here has been adapted to offer a possible solution.
 </div>  
 
 
