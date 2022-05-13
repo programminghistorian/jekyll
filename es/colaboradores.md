@@ -41,6 +41,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [University of Bristol Library](http://www.bris.ac.uk/library/), Reino Unido
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), Reino Unido
+- [University of Lancaster Library](https://www.lancaster.ac.uk/), Reino Unido
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 

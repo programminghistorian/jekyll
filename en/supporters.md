@@ -40,6 +40,7 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [University of Bristol Library](http://www.bris.ac.uk/library/), United Kingdom
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), United Kingdom
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), United Kingdom
+- [University of Lancaster Library](https://www.lancaster.ac.uk/), United Kingdom
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
