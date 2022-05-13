@@ -79,13 +79,16 @@ It will appear in a coloured box and can be useful for drawing attention to part
 2. Here is another item
 3. Here is the final item
 
-###A Sample Table
+### A Sample Table
+
+<div class="table-wrapper" markdown="block">
 
 | Heading 1 | Heading 2 | Heading 3 |
 | --------- | --------- | --------- |
 | Row 1, column 1 | Row 1, column 2 | Row 1, column 3|
 | Row 2, column 1 | Row 2, column 2 | Row 2, column 3|
 | Row 3, column 1 | Row 3, column 2 | Row 3, column 3|
+</div>
 Table 1: This table contains...
 
 ### Referencing

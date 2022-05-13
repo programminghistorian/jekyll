@@ -291,7 +291,6 @@ Representamos as lições usando uma imagem antiga que consideramos capturar alg
 Aqui estão alguns locais para procurar imagens para a lição:
 
  - [British Library](https://www.flickr.com/photos/britishlibrary)
- - [Internet Archive Book Images](https://www.flickr.com/photos/internetarchivebookimages)
  - [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - [Library of Congress Maps](http://www.loc.gov/maps/collections)
 

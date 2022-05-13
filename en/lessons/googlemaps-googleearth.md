@@ -304,7 +304,7 @@ your maps are saved in the cloud. Google Earth requires software
 installation and is not cloud-based, though maps you create can be
 exported.
 
--   Install Google Earth: <http://www.google.com/earth/index.html>
+-   Install Google Earth: <https://www.google.com/intl/eng/earth/versions/#earth-pro>
 -   Open the program and familiarize yourself with the digital globe.
     Use the menu to add and remove layers of information. This is very
     similar to how more advanced GIS programs work. You can add and
@@ -371,6 +371,10 @@ exported.
     exercise).
 
 **Bringing your KML file into Google Earth**
+
+<div class="alert alert-info">
+Updates to Google Earth since the publication of this lesson in 2013, mean that some users of Google Earth Pro Desktop v.7.3.4.8248 (64-bit) may find that they are unable to view the Seaway routes that should be featured in the the KML-file. <a href="https://github.com/programminghistorian/jekyll/issues/2456">We are investigating this issue</a>. (March 2022)
+</div>
 
 -   Download the KML file from Google Maps Engine Lite (as described
     above).

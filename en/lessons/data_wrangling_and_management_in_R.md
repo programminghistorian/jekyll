@@ -11,7 +11,7 @@ editors:
 difficulty: 2
 collection: lessons
 activity: transforming
-topics: [data-manipulation, data-management, distant-reading]
+topics: [data-manipulation, data-management, distant-reading, r]
 abstract: "This tutorial explores how scholars can organize 'tidy' data, understand R packages to manipulate data, and conduct basic data analysis."
 layout: lesson
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/60

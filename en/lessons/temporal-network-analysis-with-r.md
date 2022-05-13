@@ -9,8 +9,7 @@ reviewers:
 - Ryan Deschamps
 difficulty: 3
 activity: analyzing
-topics:
-- network-analysis
+topics: [network-analysis, r]
 editors:
 - Matthew Lincoln
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/179
@@ -183,7 +182,8 @@ thenetwork <- network(
   vertex.attr = PHVertexAttributes,
   vertex.attrnames = c("vertex.id", "name", "region"),
   directed = FALSE,
-  bipartite = FALSE
+  bipartite = FALSE,
+  multiple = TRUE
 )
 plot(thenetwork)
 ```

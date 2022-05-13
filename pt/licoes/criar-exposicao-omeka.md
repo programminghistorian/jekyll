@@ -41,7 +41,7 @@ Agora que [adicionamos itens no seu site do Omeka](/en/lessons/up-and-running-wi
 
 ## Adicionar uma exposição 
 
-{% include figure.html filename="criarexpo1.png" caption="Criar uma página de exposição" %}
+{% include figure.html filename="criar-exposicao-omeka_01.png" caption="Criar uma página de exposição" %}
 
 A coleção é uma lista de objetos. Uma exposição é um _tour_ guiado pelos seus itens com textos descritivos e _layouts_ customizados. Para criar uma, clique na aba **Exposições** e depois em **Adicionar uma exposição**. Preencha o formulário na parte superior da página. Um **slug** é um nome da sua exposição, legível por uma máquina, que fará parte do seu URL. 
 
@@ -55,7 +55,7 @@ Clique no botão verde "Adicionar Página". Na próxima janela, preencheremos al
 
 ## Adicione um bloco de conteúdo na página 
 
-{% include figure.html filename="criarexpo1.png" caption="Adicione os campos da página" %}
+{% include figure.html filename="criar-exposicao-omeka_02.png" caption="Adicione os campos da página" %}
 
 Na janela seguinte, há a opção para  **Título da página** e **Slug**. Preencha ambos. 
 
@@ -65,7 +65,7 @@ Clique na opção **Arquivo com Texto** e então em **Adicionar um novo bloco de
 
 ## Adicione conteúdo ao seu bloco de conteúdo 
 
-{% include figure.html filename="criarexpo2.png" caption="Adicione um item e um arquivo no seu bloco de conteúdo" %}
+{% include figure.html filename="criar-exposicao-omeka_03.png" caption="Adicione um item e um arquivo no seu bloco de conteúdo" %}
 
 Em **Bloco 1 (Arquivo com Texto)** clique no botão **Adicionar Item**.
 
@@ -77,6 +77,6 @@ Quando você terminar, clique no botão **Ver Página Pública** para ver como o
 
 ## Temos um site do Omeka! 
 
-{% include figure.html filename="criarexpo3.png" caption="Boris, o cachorro é um item da exposição" %}
+{% include figure.html filename="criar-exposicao-omeka_04.png" caption="Boris, o cachorro é um item da exposição" %}
 
 Agora o seu site tem itens, coleções e uma exposição - todas as unidades básicas de um site do Omeka! 

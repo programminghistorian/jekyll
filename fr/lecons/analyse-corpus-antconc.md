@@ -32,8 +32,9 @@ doi: 10.46430/phfr0001
 
 {% include toc.html %}
 
-
-
+<div class="alert alert-info">
+En 2022, Laurence Anthony a effectué une mise à jour conséquente qui a débouché sur la version 4.0 du logiciel Antconc. Si les caractéristiques principales du logiciel demeurent essentiellement les mêmes, il peut néanmoins y avoir des différences dans certaines des manipulations décrites ci-dessous. Par conséquent, si vous utilisez une version plus récente que celle mobilisée dans la leçon, merci de vous référer aux consignes fournies dans <a href="https://www.laurenceanthony.net/software/antconc/releases/AntConc403/help.pdf">le guide</a> rédigé par Laurence Anthony. Ceci peut être particulièrement utile pour ouvrir des corpus grâce à la nouvelle fonctionnalité Corpus Manager (janvier 2022). 
+</div>
 
 
 ## Introduction

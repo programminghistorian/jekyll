@@ -24,7 +24,7 @@ layout: lesson
 original: temporal-network-analysis-with-r
 difficulty: 3
 activity: analyzing
-topics: [network-analysis]
+topics: [network-analysis, r]
 abstract: "Aprende a utilizar R para analizar cómo cambian las redes a lo largo del tiempo."
 avatar_alt: Dibujo técnico
 doi: 10.46430/phes0042
@@ -166,7 +166,8 @@ la_red <- network(
   VinculosEstaticosPH,
   vertex.attr = AtributosVerticesPH,
   vertex.attrnames = c("id.vertice", "nombre", "region"), directed = FALSE,
-  bipartite = FALSE
+  bipartite = FALSE,
+  multiple - TRUE
 )
 plot(la_red)
 ```

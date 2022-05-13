@@ -79,13 +79,18 @@ Este aparecerá numa caixa colorida, podendo ser útil para chamar a atenção p
 2. Aqui está outro item
 3. Aqui está o item final
 
-###Uma amostra de tabela
+### Uma amostra de tabela
+
+<div class="table-wrapper" markdown="block">
 
 | Cabeçalho 1 | Cabeçalho 2 | Cabeçalho 3 |
 | --------- | --------- | --------- |
 | Linha 1, coluna 1 | Linha 1, coluna 2 | Linha 1, coluna 3|
 | Linha 2, coluna 1 | Linha 2, coluna 2 | Linha 2, coluna 3|
 | Linha 3, coluna 1 | Linha 3, coluna 2 | Linha 3, coluna 3|
+
+</div>
+
 Tabela 1: Esta tabela contem...
 
 ### Referências

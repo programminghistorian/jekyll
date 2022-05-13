@@ -31,6 +31,8 @@ avatar_alt: Appareil à plusieurs mécanismes interconnectés
 
 ---
 
+{% include toc.html %}
+
 # Une introduction aux bots Twitter avec Tracery
 
 Cette leçon explique comment créer des bots basiques sur Twitter à l’aide de la [grammaire générative Tracery](http://tracery.io) et du service [Cheap Bots Done Quick](http://cheapbotsdonequick.com/). Tracery est interopérable avec plusieurs langages de programmation et peut être intégrée dans des sites web, des jeux ou des bots. Vous pouvez en faire une copie (fork) sur github [ici](https://github.com/galaxykate/tracery/tree/tracery2).
@@ -351,7 +353,6 @@ Les bots qui génèrent du SVG dépassent le cadre de cette leçon, mais une ét
 **En anglais:**
 
 - Zach Whalen, [How to make a Twitter Bot with Google Spreadsheets](http://www.zachwhalen.net/posts/how-to-make-a-twitter-bot-with-google-spreadsheets-version-04/), site web de Zach Whalen, http://www.zachwhalen.net/, 7 mai 2015
-- [Tracery & Twitterbots](http://cmuems.com/2015b/tracery-twitterbots/)
 - Casey Bergman, [Keeping Up With the Scientific Literature using Twitterbots: The FlyPapers Experiment](https://caseybergman.wordpress.com/2014/02/24/keeping-up-with-the-scientific-literature-using-twitterbots-the-flypapers-experiment/) (et aussi [ce repository de Robert Lanfear sur Github](https://github.com/roblanf/phypapers)). Cette méthode consiste à collecter les flux RSS des articles de revues, puis à utiliser un service tel que [Dlvr.it](https://dlvrit.com/) pour rediriger les liens vers un compte Twitter.
 - Abandonnée: Stefan Bohacek propose des modèles de code pour différents types de bots sur le site de remixage de code Glitch.com. Si vous vous rendez sur sa page, vous verrez une liste de différents types de bots. Séléctionnez-en un, cliquez sur le bouton `remix` puis étudiez attentivement la documentation `README.md` qui s'affiche sur la page. Glitch nécessite une identification (login) via un compte Github ou Facebook.
 - Enfin, je suggère de rejoindre le groupe BotMakers Slack pour découvrir d'autres tutoriels, des personnes partageant les mêmes intérêts, et d'autres ressources : [Inscrivez-vous ici](https://botmakers.org).

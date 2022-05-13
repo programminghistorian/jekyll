@@ -1,0 +1,1 @@
+id	title	title_source	state	ccodes	start	end	variant	lat	lon	type	aat_type	notes

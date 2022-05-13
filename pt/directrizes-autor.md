@@ -54,7 +54,9 @@ Esta primeira seção trata de questões gerais sobre o estilo, que ajudarão a 
 ### Código aberto, Acesso aberto
 O *Programming Historian em português* está comprometido com os valores de código aberto. Todas as lições devem usar linguagens de programação e softwares livres sempre que possível. O objetivo é minimizar os custos e permitir aumentar a participação o máximo possível.
 
-Depois da lição ser aceite, o autor deve concordar com a sua publicação sob uma licença Creative Commons "[CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en)".
+Os autores mantêm os direitos autorais e concedem à revista o direito de primeira publicação, com o trabalho simultaneamente licenciado sob a Licença Creative Commons - Atribuição 4.0 Internacional [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt).
+
+Os autores têm permissão de publicar e distribuir o seu trabalho online em repositórios institucionais/disciplinares ou na sua página pessoal.
 
 ### Escrever para um público geral
 Os leitores do *Programming historian* vivem em todo o mundo. Os autores podem e devem tomar medidas para escrever a lição de forma acessível para o maior número de pessoas possível. Siga estas directrizes gerais:

@@ -21,7 +21,7 @@ Por favor, não abra um "Pull Request" com a correção.
 
 ## Opção 1: Envie um email
 
-Envie um email para o/a nosso/a [Assistente de Publicação](mailto:anisa.hawes@icloud.com).
+Envie um email para o/a nosso/a [Assistente de Publicação](mailto:admin@programminghistorian.org).
 
 Inclua as seguintes informações na sua mensagem:
 

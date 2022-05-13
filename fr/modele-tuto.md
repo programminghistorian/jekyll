@@ -86,13 +86,18 @@ Le message sera encadré et dans une couleur différente, il servira ainsi à at
 2. Voici un autre item
 3. Voici un dernier item
 
-###Comment formater un tableau
+### Comment formater un tableau
+
+<div class="table-wrapper" markdown="block">
 
 | en-tête 1 | en-tête 2 | en-tête 3 |
 | --------- | --------- | --------- |
 | ligne 1, colonne 1 | ligne 1, colonne 2 | ligne 1, colonne 3|
 | ligne 2, colonne 1 | ligne 2, colonne 2 | ligne 2, colonne 3|
 | ligne 3, colonne 1 | ligne 3, colonne 2 | ligne 3, colonne 3|
+
+</div>
+
 Tableau 1: Ce tableau contient...
 
 ### Références

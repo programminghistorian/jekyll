@@ -91,7 +91,7 @@
   description:
       en: "Mapping can be an effective way to visualize and interpret historical data. These lessons introduce historical geographic information systems (GIS) using open source software."
       es: "El mapeado puede ser una manera efectiva de visualizar e interpretar tus datos históricos. Estas lecciones te ayudarán a utilizar Sistemas de Información Geográfica de acceso abierto."
-      fr: "La cartographie peut fournir un moyen efficace pour visualiser et interpréter les données hisotoriques. Ces leçons initient aux systèmes d'information géographique (SIG) utilisant des logiciels ouverts."
+      fr: "La cartographie peut fournir un moyen efficace pour visualiser et interpréter les données historiques. Ces leçons initient aux systèmes d'information géographique (SIG) utilisant des logiciels ouverts."
       pt: "A cartografia pode fornecer um modo eficaz de visualizar e interpretar dados históricos. Estas lições ajudam a começar a utilizar os Sistemas de Informação Geográfica (SIG) Históricos, usando software de código aberto."
 
 - type: network-analysis
@@ -129,3 +129,16 @@
     es: "Iníciate en el diseño y desarrollo de exposiciones o blogs de investigación."
     fr: "Concevoir et développer un site web pour une exposition numérique ou un blog de recherche."
     pt: "Como projetar e desenvolver um site, como uma exibição digital ou um blogue de pesquisa."
+  
+- type: r
+  displayname:
+    en: "R"
+    es: "R"
+    fr: "R"
+    pt: "R"
+  description:
+    en: "Lessons teaching or using the R coding language."
+    es: "Lecciones con las que aprenderás a utilizar el lenguaje de programación R."
+    fr: "Leçons enseignant ou utilisant le langage de programmation R."
+    pt: "Lições que ensinam a utilizar ou que utilizam a linguagem de programação R."
+  

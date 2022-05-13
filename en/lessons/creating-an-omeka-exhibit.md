@@ -39,7 +39,7 @@ It pays to do some thinking before you launch into creating an exhibit. You'll b
 Add an exhibit
 --------------
 
-{% include figure.html filename="createoexhibit2.png" caption="Create an exhibit page" %}
+{% include figure.html filename="createoexhibit1.png" caption="Create an exhibit page" %}
 
 A collection is just a list of objects. An exhibit is a guided tour through your items, complete with descriptive text and customized layouts. To create one, click on the **Exhibits** tab and then **Add an exhibit**. Fill out the form on the top half of the page. A **slug** is a machine-readable name for your exhibit and will become part of your URL.
 

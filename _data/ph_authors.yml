@@ -521,8 +521,8 @@
       Jon Crump is an independent scholar and freelance digital humanist based in Seattle, Washington.
     pt: |
       Jon Crump é pesquisador independente e humanista digital freelancer sediado em Seattle, Washington.
-    fr: | 
-      Jon Crump est un chercheur indépendant et un praticien free-lance des humanités numériques installé à Seattle, Washington, États-Unis.  
+    fr: |
+      Jon Crump est un chercheur indépendant et un praticien free-lance des humanités numériques installé à Seattle, Washington, États-Unis.
 
 - name: Vilja Hulden
   team: false
@@ -656,27 +656,27 @@
   url: "http://sarahvmelton.com"
   team: true
   team_start: 2019
-  institution: Sourcegraph
+  institution: SproutSocial
   sortname: Melton
   affiliation:
     en: |
-      Sourcegraph
+      SproutSocial
     es: |
-      Sourcegraph
+      SproutSocial
     fr: |
-      Sourcegraph
+      SproutSocial
     pt: |
-      Sourcegraph
+      SproutSocial
   bio:
     en: |
-      Sarah Melton is a Developer Educator at Sourcegraph.
-    es: | 
-      Sarah Melton es Formadora de Programadores en Sourcegraph.
-    fr: | 
-      Sarah Melton est en charge de la production de ressources éducatives pour les développeurs/développeuses à Sourcegraph.
-    pt: | 
-      Sarah Melton é Formadora de Programadores de Software na Sourcegraph.
-   
+      Sarah Melton is a Product Education Strategist at SproutSocial.
+    es: |
+      Sarah Melton es Estratega de Educación de Producto en SproutSocial.
+    fr: |
+      Sarah Melton est responsable de la stratégie formation produit chez SproutSocial.
+    pt: |
+      Sarah Melton desenvolve a Estratégia de Produtos Educativos na SproutSocial.
+
   team_roles:
     - managing
     - english
@@ -1027,16 +1027,6 @@
     pt: |
       Evan Peter Williamson é bibliotecário de uma infraestrutura digital na Biblioteca da University of Idaho. Trabalha com dados e serviços digitais para desenvolver projetos interessantes, workshops esclarecedores e serviços inovadores para a vida. Apesar do seu background em História de Arte, Estudos Clássicos e Arquivos, procura sempre estar envolvido em tudo o que é digital.
 
-- name: John R. Ladd
-  team: false
-  bio:
-    en: |
-      John R. Ladd is a postdoctoral fellow in digital humanities at Northwestern University, where he teaches early modern studies and computational approaches to literature.
-    es: |
-      John R. Ladd es investigador postdoctoral en humanidades digitales en la Universidad de Northwestern, donde enseña estudios de la modernidad temprana y enfoques computacionales a la literatura.
-    pt: |
-      John R. Ladd é doutorado em Literatura pela Washington University, em Saint Louis, e bolseiro de pós-doutoramento no projeto “Six Degrees of Francis Bacon” na Carnegie Mellon University.
-
 - name: Jessica Otis
   team: false
   bio:
@@ -1062,6 +1052,8 @@
   bio:
     en: |
       Ryan Deschamps is a Postdoctoral Fellow at the University of Waterloo where he helps design unique tools for managing and studying web archives. His research interests include Canadian digital history, public policy, and quantitative methods in the social sciences.
+    es: |
+      Ryan Deschamps es postdoctorando en la Universidad de Waterloo, donde ayuda a diseñar herramientas únicas para el manejo y estudio de archivos web. Sus intereses de investigación incluyen la historia digital y política pública de Canadá, y los métodos cuantitativos en las Ciencias Sociales.
     pt: |
       Ryan Deschamps é bolseiro de pós-doutoramento pela University of Waterloo onde ajuda a desenhar ferramentas únicas para gerir e estudar arquivos da web. Os seus interesses de pesquisa incluem a história digital do Canadá, política pública e métodos quantitativos nas ciências sociais.
 
@@ -1295,9 +1287,9 @@
     es: |
       Sofia Papastamkou es investigadora en el Luxembourg Centre for Contemporary and Digital History (C²DH).
     fr: |
-      Sofia Papastamkou est chercheuse postdoctorale au Luxembourg Centre for Contemporary and Digital History (C²DH). 
+      Sofia Papastamkou est chercheuse postdoctorale au Luxembourg Centre for Contemporary and Digital History (C²DH).
     pt: |
-      Sofia Papastamkou é pesquisadora no Luxembourg Centre for Contemporary and Digital History (C²DH). 
+      Sofia Papastamkou é pesquisadora no Luxembourg Centre for Contemporary and Digital History (C²DH).
 
 - name: Marie Puren
   team: false
@@ -1932,13 +1924,13 @@
         placeholder
     pt: |
         O Scholars 'Lab é um laboratório comunitário na Biblioteca da University of Virginia para a prática de experiências académicas em todos os campos. O núcleo original desta lição foi desenvolvido com ampla contribuição dos membros da comunidade.
-        
+
 - name: Andrew Akhlaghi
   team: false
   orcid: 0000-0002-0824-3328
   bio:
     en: |
-        Andrew Akhlaghi is a PhD candidate in the Department of History at the University of Texas at Austin who specializes in the Middle East and digital humanities. 
+        Andrew Akhlaghi is a PhD candidate in the Department of History at the University of Texas at Austin who specializes in the Middle East and digital humanities.
     es: |
         placeholder
     fr: |
@@ -1977,9 +1969,9 @@
     - portuguese
     - editorial
   status: volunteer
-  
+
 - name: Matthias Gille Levenson
-  twitter: 
+  twitter:
   email: matthias.gille-levenson@casadevelazquez.org
   url: "https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html"
   orcid: 0000-0001-9488-5986
@@ -2010,7 +2002,7 @@
     - french
     - editorial
   status: volunteer
-  
+
 - name: Gwenaëlle Patat
   email: gwenaelle.patat@gmail.com
   twitter: InsSalom5
@@ -2035,11 +2027,11 @@
   status: volunteer
   bio:
     en: |
-      Gwenaëlle Patat is engineer at the Maison des Sciences de l'Homme en Bretagne and research infrastructure Huma-Num's representative. She is more precisely in charge of editing digital corpora. Her principal mission is to technically support research project labellised by the MSHB and to encourage the best practices about managing research data. 
+      Gwenaëlle Patat is engineer at the Maison des Sciences de l'Homme en Bretagne and research infrastructure Huma-Num's representative. She is more precisely in charge of editing digital corpora. Her principal mission is to technically support research project labellised by the MSHB and to encourage the best practices about managing research data.
     es: |
-      Gwenaëlle Patat es ingeniera en la Maison des Sciences de l'Homme en Bretaña y representante local de la infraestructura para la investigación Huma-Num. Específicamente, está encargada de la edición de corpus digitales. Su principal misión es apoyar los proyectos de investigación certificados por la MSHB y aconsejar sobre buenas prácticas para la gestión de los datos. 
+      Gwenaëlle Patat es ingeniera en la Maison des Sciences de l'Homme en Bretaña y representante local de la infraestructura para la investigación Huma-Num. Específicamente, está encargada de la edición de corpus digitales. Su principal misión es apoyar los proyectos de investigación certificados por la MSHB y aconsejar sobre buenas prácticas para la gestión de los datos.
     fr: |
-      Gwenaëlle Patat est ingénieure d'études à la Maison des Sciences de l'Homme en Bretagne et correspondante locale de la TGIR Huma-Num. Elle est plus précisément chargée d'édition de corpus numériques. Sa principale mission est de soutenir techniquement les projets de recherche labellisés par la MSHB et de conseiller les bonnes pratiques dans la gestion des données de recherche. 
+      Gwenaëlle Patat est ingénieure d'études à la Maison des Sciences de l'Homme en Bretagne et correspondante locale de la TGIR Huma-Num. Elle est plus précisément chargée d'édition de corpus numériques. Sa principale mission est de soutenir techniquement les projets de recherche labellisés par la MSHB et de conseiller les bonnes pratiques dans la gestion des données de recherche.
     pt: |
       Gwenaëlle Patat é engenheira na Maison des Sciences de l'Homme na Bretanha (MSHB) e correspondente local da infraestrutura de pesquisa TGIR Huma-Num. Mais precisamente, ela está encarregada da edição do corpus digital. Sua principal missão é fornecer suporte técnico a projetos de pesquisa rotulados pela MSHB e aconselhar sobre as boas práticas em gerenciamento de dados.
 
@@ -2075,7 +2067,7 @@
     - french
     - editorial
   status: volunteer
-  
+
 - name: Célian Ringwald
   twitter: ringwald_c
   email: celian.ringwald@hotmail.fr
@@ -2085,7 +2077,7 @@
   team_start: 2021
   institution: Inria Sophia-Antipolis, France
   sortname: Ringwald
-  affiliation: 
+  affiliation:
     en: |
         Inria Sophia-Antipolis, France
     pt: |
@@ -2098,8 +2090,8 @@
     en: |
       Célian Ringwald is a research engineer at Inria Sophia-Antipolis in the Wimmics laboratory. He is in charge of the maintenance and development of the French chapter of DBpedia.
     fr: |
-      Célian Ringwald est ingénieur de recherche à l'Inria Sophia-Antipolis au laboratoire Wimmics. Il est en charge de la maintenance et du developpement du chapitre français de DBpedia.  
-    es: | 
+      Célian Ringwald est ingénieur de recherche à l'Inria Sophia-Antipolis au laboratoire Wimmics. Il est en charge de la maintenance et du developpement du chapitre français de DBpedia.
+    es: |
       Célian Ringwald es ingeniero investigador del Inria Sophia-Antipolis en el laboratorio Wimmics. Está a cargo del mantenimiento y desarrollo de la sección en francés de DBpedia.
     pt: |
       Célian Ringwald é engenheiro pesquisador do Inria Sophia-Antipolis no laboratório Wimmics. Ele é responsável pela manutenção e desenvolvimento da versão em francês da DBpedia.
@@ -2107,7 +2099,7 @@
     - french
     - editorial
   status: volunteer
-  
+
 - name: Nicolas Frerebeau
   team: false
   orcid: 0000-0001-5759-4944
@@ -2115,24 +2107,24 @@
     en: |
       Nicolas Frerebeau is an archaeologist in the The Emile Cartailhac Prehistoric Art Research and Study Center (CNRS/University of Toulouse, France).
     fr: |
-      Nicolas Frerebeau est archéologue au Centre de Recherche et d'Études pour l'Art Préhistorique - Émile Cartailhac (MSHS Toulouse USR 3414, CNRS/Université de Toulouse). 
-    es: | 
-      Nicolas Frerebeau es arqueólogo en el Centro de Investigaciones y Estudios para el Arte Prehistórico Emile Cartaihac (CNRS/Universidad de Toulouse, Francia). 
+      Nicolas Frerebeau est archéologue au Centre de Recherche et d'Études pour l'Art Préhistorique - Émile Cartailhac (MSHS Toulouse USR 3414, CNRS/Université de Toulouse).
+    es: |
+      Nicolas Frerebeau es arqueólogo en el Centro de Investigaciones y Estudios para el Arte Prehistórico Emile Cartaihac (CNRS/Universidad de Toulouse, Francia).
     pt: |
-      Nicolas Frerebeau é arqueólogo do Centre de Recherche et d'Études pour l'Art Préhistorique - Émile Cartailhac (CNRS/Universidade de Toulouse, França). 
-  
+      Nicolas Frerebeau é arqueólogo do Centre de Recherche et d'Études pour l'Art Préhistorique - Émile Cartailhac (CNRS/Universidade de Toulouse, França).
+
 - name: Brice Lebrun
   team: false
   orcid: 0000-0001-7503-8685
   bio:
     en: |
-      Brice Lebrun is a Research Engineer in geochronology in the Archaeomaterials Research Institute - Center for Research in Physics Applied to Archeology (CNRS/University of Bordeaux Montaigne, France).  
+      Brice Lebrun is a Research Engineer in geochronology in the Archaeomaterials Research Institute - Center for Research in Physics Applied to Archeology (CNRS/University of Bordeaux Montaigne, France).
     fr: |
       Brice Lebrun est ingénieur de recherche en géochronologie à l'Institut de recherche sur les Archéomatériaux – Centre de recherche en physique appliquée à l’archéologie (IRAMAT-CRP2A UMR 5060, CNRS/Université Bordeaux Montaigne).
     es: |
-      
+
     pt: |
-      Brice Lebrun é Engenheiro de Pesquisa em Geocronologia no Institut de recherche sur les Archéomatériaux – Centre de recherche en physique appliquée à l’archéologie (CNRS/Universidade de Bordeaux Montaigne, França). 
+      Brice Lebrun é Engenheiro de Pesquisa em Geocronologia no Institut de recherche sur les Archéomatériaux – Centre de recherche en physique appliquée à l’archéologie (CNRS/Universidade de Bordeaux Montaigne, França).
 
 - name: Simon Hengchen
   team: false
@@ -2143,32 +2135,34 @@
       fr: |
           Simon Hengchen est chercheur postdoctoral en TAL.
 
-- name: Matteo Romanello 
+- name: Matteo Romanello
   team: false
   orcid: 0000-0002-7406-6286
   bio:
       en: |
           Matteo Romanello is Lecturer at the University of Lausanne in Ancient Greek literature and computational research.
-      fr: |          
+      fr: |
           Matteo Romanello est maître de conférences à l'Université de Lausanne en littérature grecque ancienne et humanités computationnelles.
-          
+
 
 - name: Halle Burns
   team: false
   orcid: 0000-0003-2346-2876
   bio:
     en: |
-       Halle Burns is an assistant professor in the University Libraries at the University of Nevada, Las Vegas. She is also a certified instructor with The Carpentries, an international organization that teaches coding and data science skills to researchers. 
+       Halle Burns is an assistant professor in the University Libraries at the University of Nevada, Las Vegas. She is also a certified instructor with The Carpentries, an international organization that teaches coding and data science skills to researchers.
 
-- name: Marcelo Raimundo 
+- name: Marcelo Raimundo
   team: false
   bio:
       es: |
         Marcelo Raimundo es profesor e investigador de la Universidad Nacional de La Plata y se dedica al análisis histórico de la conflictividad obrera.
+      pt: |
+        Marcelo Raimundo é professor e pesquisador da Universidade Nacional de La Plata e dedica-se à análise histórica da conflitualidade trabalhista.
 
 - name: Anisa Hawes
   github: anisa-hawes
-  email: anisa.hawes@icloud.com
+  email: admin@programminghistorian.org
   twitter: AnisaHawes
   url: "https://anisahawes.github.io/about/"
   team: true
@@ -2186,7 +2180,7 @@
       Programming Historian, Reino Unido
   bio:
     en: |
-      Anisa Hawes is Programming Historian's Digital Humanities Publishing Assistant. 
+      Anisa Hawes is Programming Historian's Digital Humanities Publishing Assistant.
     es: |
       Anisa Hawes, Programming Historian.
     fr: |
@@ -2290,7 +2284,7 @@
        Isabelle Gribomont est chercheuse en humanités numériques à l'université catholique de Louvain et la Bibliothèque royale de Belgique (Belgique).
     pt: |
        Isabelle Gribomont é pesquisadora em Humanidades Digitais na universidade de Louvain e na Biblioteca Real da Bélgica (Bélgica).
-       
+
 - name: Nicolás Llano
   email: llano.nicolas@gmail.com
   twitter: enetreseles
@@ -2316,12 +2310,12 @@
     fr: |
        Nicolás Llano est docteur en sciences de la communication (Université de São Paulo, Brésil) et est un étudiant du programme MBA Journalisme de données à l'IDP (Brésil).
     pt: |
-       Nicolás Llano é Doutor em Ciências da Comunicação (Universidade de São Paulo, Brasil), e estudante do programa MBA Jornalismo de Datos no IDP (Brasil)       
+       Nicolás Llano é Doutor em Ciências da Comunicação (Universidade de São Paulo, Brasil), e estudante do programa MBA Jornalismo de Datos no IDP (Brasil)
   team_roles:
     - spanish
     - editorial
   status: volunteer
-  
+
 - name: Gustavo Candela
   orcid: 0000-0001-6122-0777
   team: false
@@ -2350,7 +2344,7 @@
       es: |
         Manuel Marco Such es profesor titular en el Departamento de Lenguajes y Sistemas Informáticos de la Universidad de Alicante, España.
 
-- name: Thomas Jurczyk 
+- name: Thomas Jurczyk
   team: false
   orcid: 0000-0002-5943-2305
   team: false
@@ -2358,10 +2352,10 @@
       en: |
             Thomas Jurczyk is a German historian and religious studies' scholar based in Bochum (GER)
 
-- name: Gabi Kirilloff   
-  team: false   
-  orcid: 0000-0003-2696-1419   
-  bio:   
+- name: Gabi Kirilloff
+  team: false
+  orcid: 0000-0003-2696-1419
+  bio:
       en: |
             Gabi Kirilloff is an assistant professor in the Department of English at Texas Christian University.
 
@@ -2398,7 +2392,7 @@
     - portuguese
     - editorial
   status: volunteer
-  
+
 - name: Gimena del Río Riande
   team: false
   bio:
@@ -2410,3 +2404,224 @@
   bio:
       es: |
         Gabriel Calarco es Licenciado en Letras por la Universidad de Buenos Aires (UBA) y se encuentra cursando el doctorado en Literatura en la misma universidad como becario del Instituto de Investigaciones Bibliográficas y Crítica Textual (IIBICRIT-CONICET). También se desempeña como docente en la Diplomatura de Humanidades Digitales (UCES) y como profesor de Literatura en el Nivel Medio.
+
+- name: Liz Fischer
+  team: true
+  team_start: 2022
+  institution: University of Texas at Austin
+  github: lizfischer
+  email: lizzy.m.fischer@gmail.com
+  twitter: lizfischer0
+  url: "https://www.lizmfischer.com"
+  sortname: Fischer
+  orcid: 0000-0003-3749-094X
+  affiliation:
+    en: |
+      University of Texas at Austin, USA.
+    es: |
+      Universidad de Texas en Austin, Estados Unidos.
+    fr: |
+      Université du Texas à Austin, États-Unis.
+    pt: |
+      University of Texas em Austin, Estados Unidos da América.
+  bio:
+    en: |
+      Liz Fischer is a PhD student at the University of Texas at Austin.
+    es: |
+      Liz Fischer es estudiante de doctoado en la Universidad de Texas en Austin.
+    fr: |
+      Liz Fischer est doctorante à l'université du Texas à Austin.
+    pt: |
+      Liz Fischer é estudante de doutoramento na Universidade do Texas em Austin.
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+- name: Rolando Rodriguez
+  team: true
+  team_start: 2022
+  institution: University of North Carolina at Chapel Hill
+  github: rolrodr
+  email: rolando@ad.unc.edu
+  twitter: bibliothiccario
+  url: "https://rolandorodriguez.dev/"
+  sortname: Rodriguez
+  affiliation:
+    en: |
+      University of North Carolina at Chapel Hill, US.
+    es: |
+      Universidad de Carolina del Norte en Chapel Hill, Estados Unidos.
+    fr: |
+      Université de North Carolina à Chapel Hill, États-Unis.
+    pt: |
+      Universidade da North Carolina em Chapel Hill, Estados Unidos da América.
+  bio:
+    en: |
+      Rolando Rodriguez is a MSIS candidate at University of North Carolina at Chapel Hill.
+    es: |
+      Rolando Rodriguez es candidato del MSIS en la Universidad de Carolina del Norte en Chapel Hill.
+    fr: |
+      Rolando Rodriguez effectue un master en sciences d'information et de communication à l'université de Caroline du Nord à Chapel Hill.
+    pt: |
+      Rolando Rodriguez é estudante de Mestrado em Sistemas de Informação na Universidade da Carolina do Norte em Chapel Hill.
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+
+- name: Yann Ryan
+  team: true
+  team_start: 2022
+  institution: University of Helsinki
+  github: yann-ryan
+  email: yann.ryan@gmail.com
+  twitter: lievesofgrass
+  url: "https://yann-ryan.github.io/"
+  sortname: Ryan
+  orcid: 0000-0003-1878-4838
+  affiliation:
+    en: |
+      University of Helsinki, Finland
+    es: |
+      Universidad de Helsinki, Finlandia
+    fr: |
+      Université de Helsinki, Finlande
+    pt: |
+      Universidade da Helsinki, Finlândia
+  bio:
+    en: |
+      Yann Ryan is a postdoctoral researcher working with the COMHIS computational history group at the University of Helsinki.
+    es: |
+      Yann Ryan es investigador postdoctoral en el grupo de historia computacional COMHIS de la Universidad de Helsinski.
+    fr: |
+      Yann Ryan est chercheur postdoctoral au sein du groupe d'histoire computationnelle COMHIS à l'université d'Helsinki.
+    pt: |
+      Yann Ryan é um pesquisador de pós-doutoramento que trabalha com o grupo de história computacional COMHIS na Universidade de Helsínquia.
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+
+- name: Scott Kleinman
+  team: true
+  team_start: 2022
+  institution: California State University, Northridge
+  github: scottkleinman
+  email: scott.kleinman@csun.edu
+  twitter: sekleinman
+  url: https://scottkleinman.com/
+  sortname: Kleinman
+  orcid: 0000-0001-7477-1308
+  affiliation:
+    en: |
+      California State University, Northridge, USA
+    es: |
+      California State University, Northridge, Estados Unidos
+    fr: |
+      California State University, Northridge, États-Unis
+    pt: |
+      California State University, Northridge, Estados Unidos da América
+  bio:
+    en: |
+      Scott Kleinman is Professor of English and Director of the Center for Digital Humanities at California State University, Northridge.
+    es: |
+      Scott Kleinman es profesor de inglés y director del Centro para Humanidades Digitales de California State University, Northridge.
+    fr: |
+      Scott Kleinman est professeur d'études anglaises et directeur du Center for Digital Humanities à l'université d'État de Californie, Northridge.
+    pt: |
+      Scott Kleinman é Professor de Inglês e diretor do Center for Digital Humanities da Universidade do Estado da Califórnia, Northridge.
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+- name: John R. Ladd
+  team: true
+  team_start: 2022
+  institution: Denison University
+  github: jrladd
+  email: hello@jrladd.com
+  twitter: johnrladd
+  url: "https://jrladd.com/"
+  sortname: Ladd
+  orcid: 0000-0002-5440-062X
+  affiliation:
+    en: |
+      Denison University, US
+    es: |
+      Universidad Denison, Estados Unidos
+    fr: |
+      Denison University, États-Unis
+    pt: |
+      Denison University, Estados Unidos
+  bio:
+    en: |
+      John Ladd is Visiting Assistant Professor in Data Analytics at Denison University, where he uses humanities approaches to data and network analysis to think about the long, interwoven histories of media and technology, especially in early modern literature.
+    es: |
+      John Ladd es Profesor Asistente Visitante de Análisis de Datos en la Universidad Denison, donde utiliza aproximaciones desde las humanidades para el análisis de datos y redes, con el fin de pensar sobre las historias largas y entrelazadas de los medios y la tecnología, con énfasis en la literatura moderna temprana.
+    fr: |
+      John Ladd est Assistant Professor invité en Analyse de données à l'université Denison, où il applique des approches humanistes aux données et l'analyse de réseaux pour réfléchir l'histoire croisée des médias et de la technologie dans la longue durée en mettant l'accent sur la littérature moderne.
+    pt: |
+      John Ladd é Professor Assistente Visitante em Análise de Dados na Universidade de Denison, onde usa abordagens de humanidades para dados e análise de rede para pensar sobre as longas e entrelaçadas histórias de media e tecnologia, especialmente na literatura da época moderna.
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+- name: Giulia Taurino
+  team: true
+  team_start: 2022
+  institution: Northeastern University
+  github: giuliataurino
+  email: g.taurino@northeastern.edu
+  twitter: giulia_taurino
+  url: "https://www.khoury.northeastern.edu/people/giulia-taurino/"
+  sortname: Taurino
+  orcid: 0000-0002-1065-840X
+  affiliation:
+    en: |
+      Northeastern University, US
+    es: |
+      Northeastern University, Estados Unidos
+    fr: |
+      Northeastern University, États-Unis
+    pt: |
+      Northeastern University, Estados Unidos
+  bio:
+    en: |
+      Giulia Taurino is a Postdoctoral Researcher at The Institute for Experiential AI (Northeastern University, Khoury College of Computer Science / Roux Institute), where she works on the development of AI toolkits for media research in collaboration with the NULab for Texts, Maps, and Networks and MIT Data + Feminism Lab.
+    es: |
+      Giulia Taurino es investigadora postdoctoral en el Instituto para IA Experencial (Northeastern University, Khoury College of Computer Science / Roux Institute), donde trabaja en el desarrollo de herramientas de IA para la investigación de los medios en colaboración con el NULab for Texts, Maps, and Networks and MIT Data + Feminism Lab.
+    fr: |
+      Giulia Taurino est chercheuse postdoctorale à l'institut pour l'IA expérimentale à l'université Northeastern (Khoury College of Computer Science / Roux Institute), où elle travaille sur le développement de dispositifs en IA appliqués à la recherche en études de médias, en collaboration avec les labs NULab for Texts, Maps, and Networks et MIT Data + Feminism Lab.
+    pt: |
+      Giulia Taurino é pesquisadora de pós-doutoramento no The Institute for Experiential AI (Universidade de Northeastern, Khoury College of Computer Science / Roux Institute), onde trabalha no desenvolvimento de kits de ferramentas de IA para pesquisa de media em colaboração com o NULab for Texts, Maps, and Networks e o MIT Data + Feminism Lab.
+
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+- name: Susan Grunewald
+  team: false
+  orcid: 0000-0003-1275-4101
+  bio:
+      en: |
+          Susan Grunewald is the Digital History Postdoctoral Associate at the University of Pittsburgh World History.
+
+
+- name: Andrew Janco
+  team: false
+  orcid: 0000-0002-8872-9474
+  bio:
+      en: |
+          Andrew Janco is the Digital Scholarship Librarian at Haverford College.
+
+- name: Vincent Paillusson
+  team: false
+  bio:
+      fr: |
+          Vincent Paillusson est responsable informatique à l'École française d'Extrême-Orient. Il accompagne les chercheur(e)s et les services de documentation dans leurs projets numériques.

@@ -607,10 +607,10 @@ file, under the same directory as your `main.md`. Let's see if this
 works. Save your file, switch to the terminal window and run:
 
 ```
-$ pandoc main.md --filter pandoc-citeproc -o main.docx
+$ pandoc main.md --citeproc -o main.docx
 ```
 
-The "pandoc-citeproc" filter will parse any citation tags found in your document. The result
+The "citeproc" filter will parse any citation tags found in your document. The result
 should be a decently formatted MS Word file. If you have LaTeX installed, convert into .pdf
 using the same syntax for prettier results. Do not worry if things are not exactly the way you
 like them---remember, you are going to fine-tune the formatting all at once and at later time,
@@ -645,7 +645,7 @@ You then repeat the pandoc incantation to cast your markdown file into your targ
 or .docx):
 
 ```
-$ pandoc main.md --filter pandoc-citeproc -o main.pdf
+$ pandoc main.md --citeproc -o main.pdf
 ```
 
 Parse the command into English as you are typing. In my head, I translate the above into
