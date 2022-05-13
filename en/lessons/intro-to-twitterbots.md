@@ -23,6 +23,8 @@ avatar_alt: A device with several interlocking gears
 doi: 10.46430/phen0069
 ---
 
+{% include toc.html %}
+
 # An Introduction to Twitter Bots with Tracery
 
 This lesson explains how to create simple twitterbots using the [Tracery generative grammar](http://tracery.io) and the [Cheap Bots Done Quick](http://cheapbotsdonequick.com/) service. Tracery exists in multiple languages and can be integrated into websites, games, bots. You may fork it [on github here](https://github.com/galaxykate/tracery/tree/tracery2).
