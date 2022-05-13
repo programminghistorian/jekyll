@@ -42,7 +42,6 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 - [University of Bristol Library](http://www.bris.ac.uk/library/), Reino Unido
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), Reino Unido
-- [University of Lancaster Library](https://www.lancaster.ac.uk/), Reino Unido
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
