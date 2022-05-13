@@ -31,6 +31,8 @@ avatar_alt: Appareil à plusieurs mécanismes interconnectés
 
 ---
 
+{% include toc.html %}
+
 # Une introduction aux bots Twitter avec Tracery
 
 Cette leçon explique comment créer des bots basiques sur Twitter à l’aide de la [grammaire générative Tracery](http://tracery.io) et du service [Cheap Bots Done Quick](http://cheapbotsdonequick.com/). Tracery est interopérable avec plusieurs langages de programmation et peut être intégrée dans des sites web, des jeux ou des bots. Vous pouvez en faire une copie (fork) sur github [ici](https://github.com/galaxykate/tracery/tree/tracery2).
