@@ -23,6 +23,8 @@ avatar_alt: A device with several interlocking gears
 doi: 10.46430/phen0069
 ---
 
+{% include toc.html %}
+
 # An Introduction to Twitter Bots with Tracery
 
 This lesson explains how to create simple twitterbots using the [Tracery generative grammar](http://tracery.io) and the [Cheap Bots Done Quick](http://cheapbotsdonequick.com/) service. Tracery exists in multiple languages and can be integrated into websites, games, bots. You may fork it [on github here](https://github.com/galaxykate/tracery/tree/tracery2).
@@ -336,7 +338,6 @@ Strictly speaking, this is no longer about bots, but since music can be notated 
 # Other Bot Tutorials
 
 - Zach Whalen [How to make a Twitter Bot with Google Spreadsheets](http://www.zachwhalen.net/posts/how-to-make-a-twitter-bot-with-google-spreadsheets-version-04/)
-- More on Tracery & Twitterbots [http://cmuems.com/2015b/tracery-twitterbots/](http://cmuems.com/2015b/tracery-twitterbots/)
 - Casey Bergman, Keeping Up With the Scientific Literature using Twitterbots: The FlyPapers Experiment https://caseybergman.wordpress.com/2014/02/24/keeping-up-with-the-scientific-literature-using-twitterbots-the-flypapers-experiment/ also https://github.com/roblanf/phypapers ; in essence this method collects the RSS feed from journal articles, and then uses a service such as [Dlvr.it](https://dlvrit.com/) to push the links to a Twitter account.
 - Discontinued: Stefan Bohacek has posted the code templates for a number of different kinds of bots at the code remixing site Glitch.com. If you visit his page, you will see a list of different kinds of bots; click on the 'remix' button and then study the readme button carefully. Glitch requires a login via a Github or Facebook account.
 - Finally, I would suggest joining the BotMakers Slack group to find more tutorials, like-minded individuals, and further resources: [Sign up here](https://botmakers.org)
