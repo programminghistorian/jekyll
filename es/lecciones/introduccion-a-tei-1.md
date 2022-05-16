@@ -368,7 +368,7 @@ En [la segunda parte](/es/lecciones/introduccion-a-tei-2) verás en detalle dos 
 
 - La documentación completa de TEI (los *TEI Guidelines*) está disponible en [la página del consorcio](https://tei-c.org/guidelines/). Si  bien está dispónible en varios idiomas, solo está completa en inglés.
 
-- Una buena introducción (en inglés) a TEI es el libro *What Is the Text Encoding Initiative* de Lou Burnard, [disponible gratuitamente en línea](https://books.openedition.org/oep/426?lang=en).
+- Una buena introducción a TEI es el libro *¿Qué es la iniciativa de codificación de textos? Cómo añadir marcado inteligente a los recursos digitales* de Lou Burnard (Marsella: OpenEdition Press, 2012/2022) [disponible gratuitamente en línea](https://books.openedition.org/oep/15662).
 
 - Un buen tutorial para XML está disponible en: [https://www.w3schools.com/xml/](https://www.w3schools.com/xml/) y en: [https://www.tutorialspoint.com/xml/index.htm](https://www.tutorialspoint.com/xml/index.htm).
 
