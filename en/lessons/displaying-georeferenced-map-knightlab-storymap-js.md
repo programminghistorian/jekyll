@@ -1,9 +1,9 @@
 ---
-title: Displaying a georeferenced map in KnightLab’s StoryMap JS
+title: Displaying a Georeferenced Map in KnightLab’s StoryMap JS
 collection: lessons
 layout: lesson
 slug: displaying-georeferenced-map-knightlab-storymap-js
-date: 2022-06-05
+date: 2022-16-05
 authors:
 - Erica Y. Hayes
 - Mia Partlow
