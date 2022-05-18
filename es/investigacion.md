@@ -34,6 +34,9 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Talleres y eventos
 
+* Sofia Papastamkou, Hugues Pecout, Sébastien Rey-Coyrehourcq, Timothée Giraud, Gwenaëlle Patat, Margot Mellet, Servanne Monjour & Nicolas Sauret, ‘_Programming Historian en français_, Rzine, ... & Tutos : Faire communauté autour des dispositifs et des formats alternatifs du savoir’, [Colloque Humanistica 2022: Association francophone des humanités numériques](https://humanistica2022.sciencesconf.org/program/details), (18 mayo 2022).
+* Jennifer Isasi & Brandon Walsh with Gabi Kirilloff, ‘[_Programming Historian_ Workshop on Twine in the Classroom](https://ach.org/blog/2022/02/15/ach-programming-historian-workshop-on-twine-in-the-classroom/)’, Association for Computers and the Humanities, Estados Unidos (13 abril 2022).
+* Daniel Alves & Joana Vieira Paulino, ‘[O _Programming Historian em português_ e o ensino das Humanidades Digitais](https://www.letras.ulisboa.pt/pt/agenda/2-seminario-cecomp-hd-o-programming-historian-em-portugues-e-o-ensino-das-humanidades-digitais)’, 2.º Seminário CEComp-HD, Centro de Estudos Comparatistas da Faculdade de Letras, Universidade de Lisboa, Portugal, (23 marzo 2022).
 * Adam Crymble & Anisa Hawes, ‘[Training the Teacher: Giving your first Digital History Workshop](https://www.history.ac.uk/our-century/centenary-events/training-teacher-giving-your-first-digital-history-workshop)’, Institute of Historical Research, Reino Unido (18 noviembre 2021).
 * Jennifer Isasi & Brandon Walsh, ‘[_Programming Historian_ Book Club](https://ach.org/blog/2021/09/13/fall-2021-programming-historian-book-club/)’, Association for Computers and the Humanities, Estados Unidos (octubre - noviembre 2021).
 * _Programming Historian_ em português, ‘Verão com Ciência 2021’, Fundação para a Ciência e Tecnologia, Portugal (septiembre 2021).
@@ -57,6 +60,11 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 de mayo, 2015).
 
 ### Carteles, conferencias y presentaciones
+* Sofia Papastamkou, ‘Penser la pédagogie aux méthodes numériques au prisme de la reproductibilité: le cas du _Programming Historian_’, [Journées annuelles du réseau MATE-SHS: Recherche reproductible: regards croisés en sciences humaines et sociales](https://ja-mate2022.sciencesconf.org/resource/page/id/1), Paris, Francia, (17-18 mayo 2022).
+* Eric Brasil, ‘[Criação, manutenção e divulgação de projetos de História em meios digitais: git, GitHub e o _Programming Historian_](https://cpdoc.fgv.br/eventos/20052022)’, Escola de Cinências Sociais, Fundação Getúlio Vargas/Centro de Pesquisa e Documentação de História Contemporânea do Brasil, (16 mayo 2022).
+* Adam Crymble, 'Building Methods with the Global South' Research Methodology Conference, Coventry, Reino Unido, (20 abril 2022).
+* Adam Crymble, ‘[Trans-Atlantic Digital History and the Spatial Turn of Practice (as viewed from London)](https://ihrdighist.blogs.sas.ac.uk/2021/09/tuesday-29th-march-2022-dr-adam-crymble-ucl-trans-atlantic-digital-history/)’ Institute of Historical Research Digital History Seminar, London, Reino Unido, (29 marzo 2022).
+* Jennifer Isasi, ‘El flujo editorial en _Programming Historian en español_’ Edición Digital de Textos, Máster Universitario en Humanidades Digitales, Universidad Internacional de La Rioja, España, (2021-2022).
 * Antonio Rojas Castro & Jennifer Isasi, ‘[Torre de Babel: Humanidades Digitales multilingües](http://ahlist.org/wp-content/uploads/2021/11/AHLIST-2021-PROGRAM_Virtual_FINAL.pdf)’, Association of History Literature Science and Technology (AHLiST), (19 noviembre 2021).
 * Sarah Melton, Joana Vieira Paulino, Nabeel Siddiqui & Riva Quiroga, ‘[_Programming Historian_: A Multilingual Open Access Publication](https://openpublishingfest.org/calendar.html#event-69/)’, Open Publishing Fest, (17 noviembre 2021).
 * Adam Crymble, 'Digital Humanities for the Visually Impaired: Programming Historian's Journey to Accessibility’, UCL, Reino Unido (17 noviembre 2021).
