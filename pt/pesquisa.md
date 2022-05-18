@@ -34,6 +34,9 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 
 ## Workshops & Eventos
 
+* Sofia Papastamkou, Hugues Pecout, Sébastien Rey-Coyrehourcq, Timothée Giraud, Gwenaëlle Patat, Margot Mellet, Servanne Monjour & Nicolas Sauret, ‘Programming Historian en français, Rzine, ... & Tutos : Faire communauté autour des dispositifs et des formats alternatifs du savoir’, _[Colloque Humanistica 2022: Association francophone des humanités numériques](https://humanistica2022.sciencesconf.org/program/details)_, (18 Maio 2022).
+* Jennifer Isasi & Brandon Walsh with Gabi Kirilloff, ‘[Programming Historian Workshop on Twine in the Classroom](https://ach.org/blog/2022/02/15/ach-programming-historian-workshop-on-twine-in-the-classroom/)’, Association for Computers and the Humanities, Estados Unidos (13 Abril 2022).
+* Daniel Alves & Joana Vieira Paulino, ‘[O Programming Historian em português e o ensino das Humanidades Digitais](https://www.letras.ulisboa.pt/pt/agenda/2-seminario-cecomp-hd-o-programming-historian-em-portugues-e-o-ensino-das-humanidades-digitais)’, 2.º Seminário CEComp-HD, Centro de Estudos Comparatistas da Faculdade de Letras, Universidade de Lisboa, Portugal, (23 Março 2022).
 * Adam Crymble & Anisa Hawes, ‘[Training the Teacher: Giving your first Digital History Workshop](https://www.history.ac.uk/our-century/centenary-events/training-teacher-giving-your-first-digital-history-workshop)’, Institute of Historical Research, Reino Unido (18 Novembro 2021).
 * Jennifer Isasi & Brandon Walsh, ‘[_Programming Historian_ Book Club](https://ach.org/blog/2021/09/13/fall-2021-programming-historian-book-club/)’, Association for Computers and the Humanities, Estados Unidos (Outubro - Novembro 2021).
 * _Programming Historian_ em português, ‘Verão com Ciência 2021’, Fundação para a Ciência e Tecnologia, Portugal (Setembro 2021).
@@ -55,6 +58,11 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 
 ## Pósteres, Artigos em conferências & Palestras convidadas
 
+* Sofia Papastamkou, ‘Penser la pédagogie aux méthodes numériques au prisme de la reproductibilité: le cas du Programming Historian’, [_Journées annuelles du réseau MATE-SHS_: Recherche reproductible: regards croisés en sciences humaines et sociales](https://ja-mate2022.sciencesconf.org/resource/page/id/1), Paris, França, (17-18 Maio 2022).
+* Eric Brasil, ‘[Criação, manutenção e divulgação de projetos de História em meios digitais: git, GitHub e o _Programming Historian_](https://cpdoc.fgv.br/eventos/20052022)’, Escola de Cinências Sociais, Fundação Getúlio Vargas/Centro de Pesquisa e Documentação de História Contemporânea do Brasil, (16 Maio 2022).
+* Adam Crymble, 'Building Methods with the Global South' Research Methodology Conference, Coventry, Reino Unido, (20 Abril 2022).
+* Adam Crymble, ‘[Trans-Atlantic Digital History and the Spatial Turn of Practice (as viewed from London)](https://ihrdighist.blogs.sas.ac.uk/2021/09/tuesday-29th-march-2022-dr-adam-crymble-ucl-trans-atlantic-digital-history/)’ Institute of Historical Research Digital History Seminar, London, Reino Unido, (29 Março 2022).
+* Jennifer Isasi, ‘El flujo editorial en _Programming Historian en español_’ Edición Digital de Textos, Máster Universitario en Humanidades Digitales, Universidad Internacional de La Rioja, Espanha,(2021-2022).
 * Antonio Rojas Castro & Jennifer Isasi, ‘[Torre de Babel: Humanidades Digitales multilingües](http://ahlist.org/wp-content/uploads/2021/11/AHLIST-2021-PROGRAM_Virtual_FINAL.pdf)’, Association of History Literature Science and Technology (AHLiST), (19 Novembro 2021).
 * Sarah Melton, Joana Vieira Paulino, Nabeel Siddiqui & Riva Quiroga, ‘[_Programming Historian_: A Multilingual Open Access Publication](https://openpublishingfest.org/calendar.html#event-69/)’, Open Publishing Fest, (17 Novembro 2021).
 * Adam Crymble, 'Digital Humanities for the Visually Impaired: Programming Historian's Journey to Accessibility’, UCL, Reino Unido (17 Novembro 2021).
