@@ -76,7 +76,7 @@ You will require the following software:
 * Spreadsheet (Excel or Open Office)
 * a scientific calculator (or online equivalent)
 
-The [*R*](https://www.r-project.org/) programming language is a specialist language designed for statistical work. [*MASS*](https://www.rdocumentation.org/packages/MASS/versions/7.3-47) is an add-on code package for *R* that allows us to conduct certain advanced statistical processes very efficiently. *MASS* is short for "Modern Applied Statistics with S" and was written in 2002 by William Venables and Brian Ripley. There are many sets of instructions online for how to install *R* and *R* packages, including Taryn Dewar's tutorial on [R Basics with Tabular Data](/en/lessons/r-basics-with-tabular-data).
+The [*R*](https://www.r-project.org/) programming language is a specialist language designed for statistical work. [*MASS*](https://www.rdocumentation.org/packages/MASS/versions/7.3-57) is an add-on code package for *R* that allows us to conduct certain advanced statistical processes very efficiently. *MASS* is short for "Modern Applied Statistics with S" and was written in 2002 by William Venables and Brian Ripley. There are many sets of instructions online for how to install *R* and *R* packages, including Taryn Dewar's tutorial on [R Basics with Tabular Data](/en/lessons/r-basics-with-tabular-data).
 
 The tutorial also uses a spreadsheet programme, and a scientific calculator or software or a website that can replicate one. Your calculator should have at least the options highlighted yellow in Figure 2.
 
