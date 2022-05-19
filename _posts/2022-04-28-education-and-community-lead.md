@@ -11,7 +11,7 @@ categories: posts
 Employer: ProgHist Ltd, publisher of *Programming Historian*  
 Salary: £26,000 (pro rata) + home office budget  
 Hours: 0.4 full time equivalent; open-ended contract  
-Location : Remote home working; must be eligible to live and work in the UK  
+Location : Remote home working; the successful candidate must have permission to work in the UK by the start of their employment  
 
 *Programming Historian* is looking for an outstanding **Education and Community Lead** to join our global-facing digital humanities team in a remote part-time role, to support our multilingual publishing teams.
 
