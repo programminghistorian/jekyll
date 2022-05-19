@@ -6,7 +6,7 @@ redirect_from: /vacancies
 
 # Vacancies
 
-<img src="{{site.baseurl}}/images/blog/small-owl.png" class="garnish rounded float-none"/>
+<img src="{{site.baseurl}}/images/blog/small-owl.png" class="centerImage"/>
 
 ## Education and Community Lead
 
