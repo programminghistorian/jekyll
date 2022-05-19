@@ -4,7 +4,7 @@ layout: blank
 redirect_from: /vacancies
 ---
 
-# Education and Community Lead
+# Job Vacancy - Education and Community Lead
 
 - Employer: ProgHist Ltd, publisher of _Programming Historian_
 - Salary: £26,000 (pro rata) + home office budget
