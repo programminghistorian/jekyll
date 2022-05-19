@@ -229,7 +229,20 @@ menu-blog:
   pt:
     title: Blogue
     link: /blog
- 
+menu-vacancies:
+  en:
+    title: Vacancies
+    link: /vacancies
+  es: 
+    title: Vacantes
+    link: /vacancies
+  fr:
+    title: Postes vacants
+    link: /vacancies
+  pt: 
+    title: Vagas
+    link: /vacancies  
+    
 menu-support-us:
   en: Support Us
   es: Apóyanos
