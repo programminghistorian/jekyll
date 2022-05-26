@@ -43,6 +43,7 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), Reino Unido
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), Reino Unido
+- [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), China
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
