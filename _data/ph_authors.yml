@@ -142,7 +142,6 @@
   team_roles:
     - spanish
     - editorial
-    - project-manager-at-large
   status: volunteer
 
 - name: Víctor Gayol
@@ -1012,8 +1011,6 @@
     pt: |
       Anna-Maria Sichani é especialista em História Cultural e Literária e Humanista Digital. Atualmente, trabalha como investigadora em Comunicação e Media na University of Sussex.
   team_roles:
-    - english
-    - editorial
     - proghist
   status: volunteer
 
