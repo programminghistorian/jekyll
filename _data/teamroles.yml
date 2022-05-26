@@ -84,17 +84,6 @@
     es: Responsable de las finanzas del proyecto y la recaudación de fondos
     fr: Responsable du financement du projet et de la collecte de fonds
     pt: Responsável pelas finanças do projeto e pela captação de recursos
-- type: project-manager-at-large
-  label:
-    en: Project Manager at Large
-    es: Mánager de proyectos en general
-    fr: Chef de projet
-    pt: Gestor geral do projeto
-  definition:
-    en: Keeping the team focused on achieving its goals in a timely manner
-    es: Mantener al equipo enfocado en lograr sus objetivos de manera puntual
-    fr: Garder l'équipe concentrée sur la réalisation de ses objectifs à l'intérieur des délais prévus
-    pt: Responsável por manter a equipe focada em atingir os seus objetivos no tempo planeado
 - type: global-lead
   label:
     en: Global Lead
