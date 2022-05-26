@@ -376,6 +376,11 @@ footer:
     es: Concordancia de traducción
     fr: Concordance des traductions
     pt: Concordância das traduções
+  twitter:
+    en: Follow us on Twitter
+    es: Síganos en Twitter
+    fr: Suivez-nous sur Twitter
+    pt: Siga-nos no Twitter
 
 # lesson-index
 reset-button:
