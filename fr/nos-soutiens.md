@@ -40,6 +40,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Royaume-Uni
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), Royaume-Uni
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), Royaume-Uni
+- [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), Chine
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 

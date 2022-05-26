@@ -41,6 +41,7 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), United Kingdom
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), United Kingdom
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), United Kingdom
+- [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), China
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
