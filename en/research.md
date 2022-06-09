@@ -61,6 +61,8 @@ The project team and members of the wider community are involved in a number of 
 
 ## Posters, Conference Papers, & Invited Talks
 
+* Adam Crymble, 'Local Needs for Global Digital Scholarship', _Quo Vadis_, UCL, United Kingdom (9 June 2022).
+* Matthias Gille Levenson & Gwenaëlle Patat, ‘_Programming Historian en français_ : Faire communauté pour le partage de ressources éducatives libres sur les méthodes numériques en sciences humaines et sociales francophones’, [Colloque Humanistica 2022: Association francophone des humanités numériques](https://hal.archives-ouvertes.fr/hal-03672420),  Montreal, Canada (May 2022).
 * Sofia Papastamkou, 'Penser la pédagogie aux méthodes numériques au prisme de la reproductibilité: le cas du _Programming Historian_', [Journées annuelles du réseau MATE-SHS: Recherche reproductible: regards croisés en sciences humaines et sociales](https://ja-mate2022.sciencesconf.org/resource/page/id/1), Paris, France, (17-18 May 2022).
 * Eric Brasil, '[Criação, manutenção e divulgação de projetos de História em meios digitais: git, GitHub e o _Programming Historian_](https://cpdoc.fgv.br/eventos/20052022)', Escola de Cinências Sociais, Fundação Getúlio Vargas/Centro de Pesquisa e Documentação de História Contemporânea do Brasil, (16 May 2022).
 * Adam Crymble, 'Building Methods with the Global South' Research Methodology Conference, Coventry, United Kingdom, (20 April 2022).

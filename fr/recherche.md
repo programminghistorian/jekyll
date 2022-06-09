@@ -60,6 +60,8 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, Université d'Edimbourg (26 mai 2015).
 
 ## Posters, présentations et conférences invitées
+* Adam Crymble, 'Local Needs for Global Digital Scholarship', _Quo Vadis_, UCL, Royaume-Uni (9 juin 2022).
+* Matthias Gille Levenson & Gwenaëlle Patat, ‘_Programming Historian en français_ : Faire communauté pour le partage de ressources éducatives libres sur les méthodes numériques en sciences humaines et sociales francophones’, [Colloque Humanistica 2022: Association francophone des humanités numériques](https://hal.archives-ouvertes.fr/hal-03672420),  Montréal, Canada (mai 2022).
 * Sofia Papastamkou, ‘Penser la pédagogie aux méthodes numériques au prisme de la reproductibilité: le cas du _Programming Historian_’, [Journées annuelles du réseau MATE-SHS: Recherche reproductible: regards croisés en sciences humaines et sociales](https://ja-mate2022.sciencesconf.org/resource/page/id/1), Paris, France, (17-18 mai 2022).
 * Eric Brasil, ‘[Criação, manutenção e divulgação de projetos de História em meios digitais: git, GitHub e o _Programming Historian_](https://cpdoc.fgv.br/eventos/20052022)’, Escola de Cinências Sociais, Fundação Getúlio Vargas/Centro de Pesquisa e Documentação de História Contemporânea do Brasil, (16 mai 2022).
 * Adam Crymble, 'Building Methods with the Global South' Research Methodology Conference, Coventry, Royaume-Uni, (20 avril 2022).
