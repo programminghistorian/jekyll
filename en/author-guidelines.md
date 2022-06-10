@@ -59,6 +59,8 @@ Authors retain copyright and grant the journal the right of first publication, w
 
 Authors have permission to publish and distribute their work online in institutional/disciplinary repositories or on their personal homepage.
 
+We ask authors and translators to complete [a declaration form](/assets/forms/Authorial-copyright-and-publishing-rights.pdf) to acknowledge copyright and grant permission to publish.
+
 ### Write for a Global Audience
 *Programming Historian* readers live all around the world. Authors can and should take steps to write their lesson accessibly for as many people as possible. Follow these global-facing guidelines:
 
