@@ -19,6 +19,7 @@ abstract: "This lesson will help you set up an integrated development environmen
 redirect_from: /lessons/linux-installation
 avatar_alt: A band with three musicians
 doi: 10.46430/phen0011
+lesson-partners: [JISC, The National Archives]
 ---
 
 {% include toc.html %}

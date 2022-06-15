@@ -601,6 +601,15 @@ donation-banner:
     pt: |
       <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Pode fazer uma doação ao <i>Programming Historian</i></a></h2>
 
+
+# Partnership information, for when a lesson is the product of a specific partnership (i.e., PH/JISC/TNA)
+
+lesson-partners: 
+  en: This tutorial is part of a special series in partnership with
+  es: ES - This tutorial is part of a special series in partnership with
+  fr: FR - This tutorial is part of a special series in partnership with
+  pt: PT - This tutorial is part of a special series in partnership with
+
 # Included in the lesson.html layout when a lesson has been marked as retired, and is not to be displayed on the main directory.
 retired:
   en: This lesson has been retired

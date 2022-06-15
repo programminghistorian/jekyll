@@ -238,6 +238,29 @@ All lesson metadata and alerts should follow the convention of pulling appropria
     </div>
   {% endif %}
 
+  <!-- Check if lesson is the result of an institutional partnership -->
+
+  {% if page.lesson-partners %}
+    <div class="alert alert-info">
+      <p>
+        {{ site.data.snippets.lesson-partners[page.lang] }}
+        {% case page.lesson-partners.size %}
+          {% when 1 %}
+            {{ page.lesson-partners -}}
+          {% when 2 %}
+            {{ page.lesson-partners[0] }} {{site.data.snippets.and[page.lang]}} {{ page.lesson-partners[1] -}}
+          {% else %}
+            {% for partner in page.lesson-partners %}
+              {% if partner != page.lesson-partners.last %}
+                {{ partner -}}, 
+              {% else %}
+                {{site.data.snippets.and[page.lang]}} {{ partner -}}
+              {% endif -%}
+            {% endfor -%}
+      {% endcase -%}.</p>
+    </div>
+  {% endif %}
+
 
   {% if page.retired %}
   <div class="alert alert-warning">
