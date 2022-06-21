@@ -704,8 +704,8 @@ Na próxima parte da lição, vamos realizar consultas na tabela do banco de dad
 
 Faça o download dos ficheiros .csv para o seu diretório de trabalho do R. Esses ficheiros estão armazenados no GitHub, então faça o download da versão *Raw* dos ficheiros.
 
-1. [dados-amostra-jardim.csv](/assets/dados-amostra-jardim.csv) Esta é uma lista de artigos de periódicos galeses publicados durante a Primeira Guerra Mundial que correspondem aos termos de busca "*allotment*"(loteamento) e "*garden*"(jardim).
-2. [dados-amostra-submarino.csv](/assets/dados-amostra-submarino.csv) Esta é uma lista de artigos de periódicos galeses publicados durante a Primeira Guerra Mundial que correspondem aos termos de busca "*German*"(alemão) e "*submarine*"(submarino).
+1. [dados-amostra-jardim.csv](/assets/getting-started-with-mysql-using-r/dados-amostra-jardim.csv) Esta é uma lista de artigos de periódicos galeses publicados durante a Primeira Guerra Mundial que correspondem aos termos de busca "*allotment*"(loteamento) e "*garden*"(jardim).
+2. [dados-amostra-submarino.csv](/assets/getting-started-with-mysql-using-r/dados-amostra-submarino.csv) Esta é uma lista de artigos de periódicos galeses publicados durante a Primeira Guerra Mundial que correspondem aos termos de busca "*German*"(alemão) e "*submarine*"(submarino).
 
 No R, execute a função read.csv() e depois visualize o data frame com os dados amostrais.
 
