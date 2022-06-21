@@ -64,7 +64,7 @@ Este tutorial usa conjuntos de dados e software que você terá que baixar e ins
 
 ### O conjunto de dados ###
 
-Para trabalhar nesta lição, você precisará baixar e descompactar o ficheiro [.zip](/assets/dataset_estilometria.zip) contendo as 15 obras que compõem o *corpus* que será utilizado neste tutorial. As obras foram originalmente extraídas do [Projeto Gutenberg](https://www.gutenberg.org/browse/languages/pt). Ao descompactar o ficheiro, será criada uma pasta com o nome `dados`. Este será o seu [diretório de trabalho](https://en.wikipedia.org/wiki/Working_directory) e todo o trabalho deve ser salvo aqui durante a execução da lição.
+Para trabalhar nesta lição, você precisará baixar e descompactar o ficheiro [.zip](/assets/introduction-to-stylometry-with-python/dataset_estilometria.zip) contendo as 15 obras que compõem o *corpus* que será utilizado neste tutorial. As obras foram originalmente extraídas do [Projeto Gutenberg](https://www.gutenberg.org/browse/languages/pt). Ao descompactar o ficheiro, será criada uma pasta com o nome `dados`. Este será o seu [diretório de trabalho](https://en.wikipedia.org/wiki/Working_directory) e todo o trabalho deve ser salvo aqui durante a execução da lição.
 
 ### O software ###
 
