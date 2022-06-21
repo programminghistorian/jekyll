@@ -112,14 +112,14 @@ Depois que os componentes forem instalados, serão solicitadas as seguintes opç
 Selecione: **Developer Default** (Padrão do desenvolvedor). Esta opção *instala o MySQL Server e as ferramentas necessárias para o desenvolvimento da aplicação. Isto é útil se pretendes desenvolver aplicações para um servidor existente.* 
 (Ver abaixo)
 
-{% include figure.html filename="introducao-ao-mysql-e-r-1.png" caption="Configure o tipo de padrão do desenvolvedor" %}
+{% include figure.html filename="introducao-ao-mysql-e-r-1.PNG" caption="Configure o tipo de padrão do desenvolvedor" %}
 
 ###### 2. Verificar Requisitos
 
 Clique no botão **Execute** caso haja requisitos pendentes (*failing requirements*) listados na checagem de requisitos. A lista de requisitos pode ser diferente da mostrada aqui. Uma vez que o processo de executar instalar os requisitos pendentes, clique no botão *Next* .
 (Ver abaixo)
 
-{% include figure.html filename="introducao-ao-mysql-e-r-2.png" caption="Clique no botão *Execute* se necessário" %}
+{% include figure.html filename="introducao-ao-mysql-e-r-2.PNG" caption="Clique no botão *Execute* se necessário" %}
 
 ###### 3. Tipo e Rede (1)
 
@@ -310,7 +310,7 @@ Clique no botão **Add Account** e complete os detalhes para a nova conta de usu
 8. Clique em todas as opções de *Object Rights*: SELECT, INSERT, UPDATE, DELETE, EXECUTE, SHOW VIEW, como mostrado na imagem abaixo. (Este usuário precisará fazer muitas coisas posteriormente na lição, por isso, estamos lhe concendendo várias permissões.)
 9. Clique em **Apply**.
 
-{% include figure.html filename="introducao-ao-mysql-e-r-13.png" caption="Configurando permissões para a nova conta" %}
+{% include figure.html filename="introducao-ao-mysql-e-r-13.PNG" caption="Configurando permissões para a nova conta" %}
 
 ### Schema Privileges não exibidos corretamente
 
@@ -512,7 +512,7 @@ Nesta seção da lição, criaremos uma declaração no SQL para selecionar uma 
 
 2. Clique na imagem de relâmpago/raio na aba do SQL para executá-la. Deverá visualizar o título do artigo "THE LOST LUSITANIA." na grade de resultados. Ver abaixo. 
 
-{% include figure.html filename="introducao-ao-mysql-e-r-15" caption="Selecionando registros de uma tabela usando MySQL Workbench" %}
+{% include figure.html filename="introducao-ao-mysql-e-r-15.png" caption="Selecionando registros de uma tabela usando MySQL Workbench" %}
 
 Opcional: Modifique a declaração SELECT acima alterando os campos selecionados e execute novamente. Adicione mais de um campo para a declaração SELECT e execute:
 
