@@ -22,7 +22,7 @@ translation-reviewer:
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/445
 activity: analyzing
-topics: [distant-reading]
+topics: [distant-reading, python]
 abstract: "Nesta lição, aprenderá a realizar análises estilométricas e a determinar a autoria de textos. A lição cobre três métodos: Curvas Características de Composição de Mendenhall, Método Qui-Quadrado de Kilgariff e Método Delta de John Burrows."
 original: introduction-to-stylometry-with-python
 avatar_alt: Mulher a ler junto a uma pintura
