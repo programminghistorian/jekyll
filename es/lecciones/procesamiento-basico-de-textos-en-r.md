@@ -266,7 +266,7 @@ Vamos a aplicar las técnicas de la sección previa a un discurso del Estado de 
 Para hacer esto, vamos a combinar la función `readLines` (leer líneas) para cargar el texto en R y la función `paste` (pegar) para combinar todas las líneas en un único objeto. Vamos a crear la URL del archivo de texto usando la función `sprintf` puesto que este formato permitirá su fácil modificación para otras direcciones web[^7][^8].
 
 ```{r}
-base_url <- "https://programminghistorian.org/assets/basic-text-processing-in-r"
+base_url <- "https://github.com/programminghistorian/jekyll/tree/gh-pages/assets/basic-text-processing-in-r"
 url <- sprintf("%s/sotu_text/236.txt", base_url)
 texto <- paste(readLines(url), collapse = "\n")
 ```
