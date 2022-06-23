@@ -34,15 +34,15 @@ doi: 10.46430/phpt0024
 
 # Introdução
 
-[Estilometria](https://en.wikipedia.org/wiki/Stylometry) é o estudo quantitativo do estilo literário por meio de métodos de [leitura distante](https://en.wikipedia.org/wiki/Distant_reading) computacional. É baseado na observação de que os autores tendem a escrever de maneiras relativamente consistentes, reconhecíveis e únicas. Por exemplo:
+[Estilometria](https://perma.cc/NYH2-KWLA) é o estudo quantitativo do estilo literário por meio de métodos de [leitura distante](https://perma.cc/XK8J-F6ZF) computacional. É baseado na observação de que os autores tendem a escrever de maneiras relativamente consistentes, reconhecíveis e únicas. Por exemplo:
 
 * Cada pessoa tem seu próprio vocabulário único, às vezes rico, às vezes limitado. Embora um vocabulário mais amplo esteja geralmente associado à qualidade literária, nem sempre é esse o caso. Ernest Hemingway é famoso por usar um número surpreendentemente pequeno de palavras diferentes em sua escrita,[^1] o que não o impediu de ganhar o Prêmio Nobel de Literatura em 1954;
 * Algumas pessoas escrevem frases curtas, enquanto outras preferem blocos longos de texto compostos por muitas frases;
 * Não há duas pessoas que usem ponto-e-vírgulas, travessões e outras formas de pontuação exatamente da mesma maneira.
 
-As maneiras como os escritores usam pequenas [*function words*](https://en.wikipedia.org/wiki/Function_word), como artigos, preposições e conjunções, mostram-se particularmente reveladoras. Em uma pesquisa dos métodos estilométricos históricos e atuais, Efstathios Stamatatos aponta que as palavras funcionais são "usadas de maneira amplamente inconsciente pelos autores e são independentes do tópico"[^2]. Para a análise estilométrica, isso é muito vantajoso, visto que esse padrão inconsciente tende a variar menos no [*corpus*](https://pt.wikipedia.org/wiki/Corpus_lingu%C3%ADstico) de um autor do que seu vocabulário geral (e também é muito difícil para um pretenso falsificador copiar). As palavras funcionais também foram identificadas como marcadores importantes do gênero literário e da cronologia.
+As maneiras como os escritores usam pequenas [*function words*](https://perma.cc/284C-CNHD), como artigos, preposições e conjunções, mostram-se particularmente reveladoras. Em uma pesquisa dos métodos estilométricos históricos e atuais, Efstathios Stamatatos aponta que as palavras funcionais são "usadas de maneira amplamente inconsciente pelos autores e são independentes do tópico"[^2]. Para a análise estilométrica, isso é muito vantajoso, visto que esse padrão inconsciente tende a variar menos no [*corpus*](https://perma.cc/9XQ4-J4A5) de um autor do que seu vocabulário geral (e também é muito difícil para um pretenso falsificador copiar). As palavras funcionais também foram identificadas como marcadores importantes do gênero literário e da cronologia.
 
-Os pesquisadores têm usado a estilometria como uma ferramenta para estudar uma variedade de questões culturais. Por exemplo, uma quantidade considerável de pesquisas estudou as diferenças entre as maneiras como homens e mulheres escrevem[^3] ou sobre o que escrevem.[^4] Outros pesquisadores estudaram as maneiras como uma mudança repentina no estilo de escrita em um único texto pode indicar plágio[^5] e até mesmo a maneira como as letras dos músicos John Lennon e Paul McCartney se tornaram cada vez menos alegres e menos ativas à medida que os [Beatles](https://pt.wikipedia.org/wiki/The_Beatles) se aproximavam do fim de sua carreira de gravação na década de 1960.[^6]
+Os pesquisadores têm usado a estilometria como uma ferramenta para estudar uma variedade de questões culturais. Por exemplo, uma quantidade considerável de pesquisas estudou as diferenças entre as maneiras como homens e mulheres escrevem[^3] ou sobre o que escrevem.[^4] Outros pesquisadores estudaram as maneiras como uma mudança repentina no estilo de escrita em um único texto pode indicar plágio[^5] e até mesmo a maneira como as letras dos músicos John Lennon e Paul McCartney se tornaram cada vez menos alegres e menos ativas à medida que os [Beatles](https://perma.cc/DQ66-M79T) se aproximavam do fim de sua carreira de gravação na década de 1960.[^6]
 
 No entanto, uma das aplicações mais comuns da estilometria é na atribuição de autoria. Dado um texto anônimo, às vezes é possível inferir quem o escreveu medindo certas características, como o número médio de palavras por frase ou a propensão do autor de usar "todavia" em vez de "no entanto", e comparando as medidas com outros textos escritos pelo suposto autor. Este é o objetivo deste tutorial, onde a partir de um conjunto de obras clássicas de romancistas lusos e brasileiros do século XIX iremos comparar exemplares de suas obras com o estilo literário do conjunto de autores a fim de tentar inferir suas respectivas autorias (nota de tradução: foi decidido mudar o _corpus_ usado nesta lição para um que fosse culturalmente mais relevante para o público que fala e escreve português; foi mantida a restante estrutura da lição original, com excepção de ligeiras adaptações face à mudança do _corpus_).
 
@@ -51,12 +51,12 @@ No entanto, uma das aplicações mais comuns da estilometria é na atribuição 
 No final desta lição, teremos percorrido os seguintes tópicos:
 
 * Como aplicar vários métodos estilométricos para inferir a autoria de um texto anônimo ou conjunto de textos;
-* Como usar estruturas de dados relativamente avançadas, incluindo [dicionários](https://pt.wikipedia.org/wiki/Dicion%C3%A1rio_de_dados) de [strings](https://pt.wikipedia.org/wiki/Cadeia_de_caracteres) e dicionários de dicionários, em [Python](https://pt.wikipedia.org/wiki/Python);
-* O básico do [Natural Language Toolkit](https://www.nltk.org/) (NLTK), um módulo Python popular dedicado a [processamento de linguagem natural](https://pt.wikipedia.org/wiki/Processamento_de_linguagem_natural).
+* Como usar estruturas de dados relativamente avançadas, incluindo [dicionários](https://perma.cc/TTF4-SJ23) de [strings](https://perma.cc/7DCC-M9AT) e dicionários de dicionários, em [Python](https://perma.cc/Z82S-3L3M);
+* O básico do [Natural Language Toolkit](https://perma.cc/E7LZ-WECZ) (NLTK), um módulo Python popular dedicado a [processamento de linguagem natural](https://perma.cc/MFX4-LAVZ).
 
 ## Leitura prévia
 
-Se você não tem experiência com a linguagem de programação Python ou está tendo dificuldade nos exemplos apresentados neste tutorial, o autor recomenda que você leia as lições [Trabalhando com ficheiros de texto em Python](/pt/licoes/trabalhando-ficheiros-texto-python) e [Manipular Strings com Python](/pt/licoes/manipular-strings-python). Note que essas lições foram escritas em Python versão 2, enquanto esta usa Python versão 3. As diferenças de [sintaxe](https://pt.wikipedia.org/wiki/Sintaxe) entre as duas versões da linguagem podem ser sutis. Se você ficar em dúvida, siga os exemplos conforme descritos nesta lição e use as outras lições como material de apoio. (Este tutorial encontra-se atualizado até à versão [Python 3.8.5](https://www.python.org/downloads/release/python-385/); as [strings literais formatadas](https://docs.python.org/pt-br/3.6/whatsnew/3.6.html#whatsnew36-pep498) na linha `with open(f'data/pg{filename}.txt', encoding='utf-8') as f:`, por exemplo, requerem Python 3.6 ou uma versão mais recente da linguagem.) 
+Se você não tem experiência com a linguagem de programação Python ou está tendo dificuldade nos exemplos apresentados neste tutorial, o autor recomenda que você leia as lições [Trabalhando com ficheiros de texto em Python](/pt/licoes/trabalhando-ficheiros-texto-python) e [Manipular Strings com Python](/pt/licoes/manipular-strings-python). Note que essas lições foram escritas em Python versão 2, enquanto esta usa Python versão 3. As diferenças de [sintaxe](https://perma.cc/E5LQ-S65P) entre as duas versões da linguagem podem ser sutis. Se você ficar em dúvida, siga os exemplos conforme descritos nesta lição e use as outras lições como material de apoio. (Este tutorial encontra-se atualizado até à versão [Python 3.8.5](https://perma.cc/XCT2-Q4AT); as [strings literais formatadas](https://perma.cc/U6Q6-59V3) na linha `with open(f'data/pg{filename}.txt', encoding='utf-8') as f:`, por exemplo, requerem Python 3.6 ou uma versão mais recente da linguagem.) 
 
 ## Materiais requeridos
 
@@ -64,7 +64,7 @@ Este tutorial usa conjuntos de dados e software que você terá que baixar e ins
 
 ### O conjunto de dados ###
 
-Para trabalhar nesta lição, você precisará baixar e descompactar o ficheiro [.zip](/assets/introduction-to-stylometry-with-python/dataset_estilometria.zip) contendo as 15 obras que compõem o *corpus* que será utilizado neste tutorial. As obras foram originalmente extraídas do [Projeto Gutenberg](https://www.gutenberg.org/browse/languages/pt). Ao descompactar o ficheiro, será criada uma pasta com o nome `dados`. Este será o seu [diretório de trabalho](https://en.wikipedia.org/wiki/Working_directory) e todo o trabalho deve ser salvo aqui durante a execução da lição.
+Para trabalhar nesta lição, você precisará baixar e descompactar o ficheiro [.zip](/assets/introduction-to-stylometry-with-python/dataset_estilometria.zip) contendo as 15 obras que compõem o *corpus* que será utilizado neste tutorial. As obras foram originalmente extraídas do [Projeto Gutenberg](https://perma.cc/8GTT-3M9N). Ao descompactar o ficheiro, será criada uma pasta com o nome `dados`. Este será o seu [diretório de trabalho](https://perma.cc/9KVS-T3A5) e todo o trabalho deve ser salvo aqui durante a execução da lição.
 
 ### O software ###
 
@@ -78,26 +78,26 @@ Alguns desses módulos podem não estar pré-instalados em seu computador. Se vo
 
 ## Algumas notas sobre Independência Linguística
 
-Este tutorial aplica a análise estilométrica a um conjunto de textos em português (PT-PT e PT-BR) usando uma biblioteca Python chamada `nltk`. Muitas das funcionalidades fornecidas pelo `nltk` operam com outros idiomas. Contanto que um idioma forneça uma maneira clara de distinguir os limites de uma palavra, o `nltk` deve ter um bom desempenho. Idiomas como o chinês, para os quais não há distinção clara entre os limites das palavras, podem ser problemáticos. O autor original desta lição utilizou `nltk` com textos em francês sem nenhum problema; outros idiomas que usam [diacríticos](https://pt.wikipedia.org/wiki/Diacr%C3%ADtico), como espanhol e alemão, também devem funcionar bem com `nltk`. Consulte a [documentação do nltk](http://www.nltk.org/book/) para obter detalhes. 
+Este tutorial aplica a análise estilométrica a um conjunto de textos em português (PT-PT e PT-BR) usando uma biblioteca Python chamada `nltk`. Muitas das funcionalidades fornecidas pelo `nltk` operam com outros idiomas. Contanto que um idioma forneça uma maneira clara de distinguir os limites de uma palavra, o `nltk` deve ter um bom desempenho. Idiomas como o chinês, para os quais não há distinção clara entre os limites das palavras, podem ser problemáticos. O autor original desta lição utilizou `nltk` com textos em francês sem nenhum problema; outros idiomas que usam [diacríticos](https://perma.cc/7VGD-5968), como espanhol e alemão, também devem funcionar bem com `nltk`. Consulte a [documentação do nltk](https://perma.cc/S4EX-2DBT) para obter detalhes. 
 
-Apenas uma das tarefas neste tutorial requer código dependente do idioma. Para dividir um texto em um conjunto de palavras em uma língua diferente do inglês, você precisará especificar o idioma apropriado como um parâmetro para o [tokenizador](https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization) da biblioteca `nltk`, que usa o inglês como padrão. Isso será explicado no tutorial.
+Apenas uma das tarefas neste tutorial requer código dependente do idioma. Para dividir um texto em um conjunto de palavras em uma língua diferente do inglês, você precisará especificar o idioma apropriado como um parâmetro para o [tokenizador](https://perma.cc/NGM5-4MED) da biblioteca `nltk`, que usa o inglês como padrão. Isso será explicado no tutorial.
 
-Por fim, observe que algumas tarefas linguísticas, como [*part-of-speech tagging*](https://en.wikipedia.org/wiki/Part-of-speech_tagging), podem não ser suportadas pelo `nltk` em outros idiomas além do inglês. Este tutorial não cobre a aplicação de *part-of-speech tagging*. Se você precisar para os seus próprios projetos, consulte a [documentação do nltk](http://www.nltk.org/book/) para obter orientações.
+Por fim, observe que algumas tarefas linguísticas, como [*part-of-speech tagging*](https://perma.cc/L9SU-PS9D), podem não ser suportadas pelo `nltk` em outros idiomas além do inglês. Este tutorial não cobre a aplicação de *part-of-speech tagging*. Se você precisar para os seus próprios projetos, consulte a [documentação do nltk](https://perma.cc/S4EX-2DBT) para obter orientações.
 
 # O *corpus* - Contextualização
 
-No [exemplo original deste tutorial em inglês](/en/lessons/introduction-to-stylometry-with-python), utilizaram-se os [papéis federalistas](https://pt.wikipedia.org/wiki/O_Federalista) como um exemplo de aplicação de estilometria, utilizando as técnicas que serão apresentadas para inferir a autoria dos textos contestados dentro do conjunto de documentos que configura o *corpus*.[^7]
-Como na língua portuguesa não temos um conjunto de textos que possua estas mesmas características, no exemplo que apresentaremos traremos um total de 15 obras completas de 5 autores diferentes, três deles portugueses e dois brasileiros, todos romancistas do século XIX, disponibilizadas pelo [Projeto Gutenberg](https://www.gutenberg.org/about/). Utilizaremos duas obras de cada autor para definir seus respectivos estilos e uma terceira para constituir o conjunto de testes, para avaliarmos se as técnicas utilizadas realizarão a inferência correta de autoria através do grau de similariade de cada obra deste conjunto com o estilo obtido de cada autor.
+No [exemplo original deste tutorial em inglês](/en/lessons/introduction-to-stylometry-with-python), utilizaram-se os [papéis federalistas](https://perma.cc/DW5V-MH5W) como um exemplo de aplicação de estilometria, utilizando as técnicas que serão apresentadas para inferir a autoria dos textos contestados dentro do conjunto de documentos que configura o *corpus*.[^7]
+Como na língua portuguesa não temos um conjunto de textos que possua estas mesmas características, no exemplo que apresentaremos traremos um total de 15 obras completas de 5 autores diferentes, três deles portugueses e dois brasileiros, todos romancistas do século XIX, disponibilizadas pelo [Projeto Gutenberg](https://perma.cc/5PRR-TM3D). Utilizaremos duas obras de cada autor para definir seus respectivos estilos e uma terceira para constituir o conjunto de testes, para avaliarmos se as técnicas utilizadas realizarão a inferência correta de autoria através do grau de similariade de cada obra deste conjunto com o estilo obtido de cada autor.
 
 Os autores e obras utilizadas são os seguintes:
 
 | Autor | Obra 1 | Obra 2 | Obra 3 |
 | --------- | --------- | --------- | --------- |
-| [Machado de **Assis**](https://pt.wikipedia.org/wiki/Machado_de_Assis) (Brasil)| [Quincas Borba](https://www.gutenberg.org/ebooks/55682) (**55682**) | [Memorias Postumas de Braz Cubas](https://www.gutenberg.org/ebooks/54829) (**54829**) | [Dom Casmurro](https://www.gutenberg.org/ebooks/55752) (**55752**) |
-| [José de **Alencar**](https://pt.wikipedia.org/wiki/Jos%C3%A9_de_Alencar) (Brasil) | [Ubirajara](https://www.gutenberg.org/ebooks/38496) (**38496**) | [Cinco minutos](https://www.gutenberg.org/ebooks/44540) (**44540**) | [Como e porque sou romancista](https://www.gutenberg.org/ebooks/29040) (**29040**) |
-| [Camilo **Castelo Branco**](https://pt.wikipedia.org/wiki/Camilo_Castelo_Branco) (Portugal) | [Carlota Angela](https://www.gutenberg.org/ebooks/26025) (**26025**) | [Amor de Salvação](https://www.gutenberg.org/ebooks/26988) (**26988**) | [Amor de Perdição / Memórias duma Família](https://www.gutenberg.org/ebooks/16425) (**16425**) |
-| [António Feliciano de **Castilho**](https://pt.wikipedia.org/wiki/Ant%C3%B3nio_Feliciano_de_Castilho) (Portugal) | [A Chave do Enigma](https://www.gutenberg.org/ebooks/32002) (**32002**) | [A Primavera](https://www.gutenberg.org/ebooks/65021) (**65021**) | [O presbyterio da montanha](https://www.gutenberg.org/ebooks/28127) (**28127**) |
-| [Manuel Pinheiro **Chagas**](https://pt.wikipedia.org/wiki/Manuel_Pinheiro_Chagas) (Portugal) | [Historia alegre de Portugal](https://www.gutenberg.org/ebooks/29394) (**29394**) | [A Lenda da Meia-Noite](https://www.gutenberg.org/ebooks/23400) (**23400**) | [Astucias de Namorada, e Um melodrama em Santo Thyrso](https://www.gutenberg.org/ebooks/29342) (**29342**) |
+| [Machado de **Assis**](https://perma.cc/6BMU-UKZL) (Brasil)| [Quincas Borba](https://www.gutenberg.org/ebooks/55682) (**55682**) | [Memorias Postumas de Braz Cubas](https://www.gutenberg.org/ebooks/54829) (**54829**) | [Dom Casmurro](https://www.gutenberg.org/ebooks/55752) (**55752**) |
+| [José de **Alencar**](https://perma.cc/Y3Y2-VHJ5) (Brasil) | [Ubirajara](https://www.gutenberg.org/ebooks/38496) (**38496**) | [Cinco minutos](https://www.gutenberg.org/ebooks/44540) (**44540**) | [Como e porque sou romancista](https://www.gutenberg.org/ebooks/29040) (**29040**) |
+| [Camilo **Castelo Branco**](https://perma.cc/Q4AJ-VZBH) (Portugal) | [Carlota Angela](https://www.gutenberg.org/ebooks/26025) (**26025**) | [Amor de Salvação](https://www.gutenberg.org/ebooks/26988) (**26988**) | [Amor de Perdição / Memórias duma Família](https://www.gutenberg.org/ebooks/16425) (**16425**) |
+| [António Feliciano de **Castilho**](https://perma.cc/LZ9J-3H5Z) (Portugal) | [A Chave do Enigma](https://www.gutenberg.org/ebooks/32002) (**32002**) | [A Primavera](https://www.gutenberg.org/ebooks/65021) (**65021**) | [O presbyterio da montanha](https://www.gutenberg.org/ebooks/28127) (**28127**) |
+| [Manuel Pinheiro **Chagas**](https://perma.cc/8LU3-RADW) (Portugal) | [Historia alegre de Portugal](https://www.gutenberg.org/ebooks/29394) (**29394**) | [A Lenda da Meia-Noite](https://www.gutenberg.org/ebooks/23400) (**23400**) | [Astucias de Namorada, e Um melodrama em Santo Thyrso](https://www.gutenberg.org/ebooks/29342) (**29342**) |
 
 As partes destacadas do nome de cada autor indicam como os mesmos serão referenciados neste tutorial a partir deste ponto. Para os códigos utilizaremos o `EBook-No.` (número de referência da obra no Projeto Gutenberg), presente no nome dos ficheiros disponibilizados.
 
@@ -113,7 +113,7 @@ Em todas as abordagens acima mencionadas, utilizaremos os documentos das colunas
 
 # Preparando os dados para análise
 
-Antes de prosseguirmos com a análise estilométrica, precisamos carregar os ficheiros contendo todas as 15 obras em [estruturas de dados](https://pt.wikipedia.org/wiki/Estrutura_de_dados) na memória do computador.
+Antes de prosseguirmos com a análise estilométrica, precisamos carregar os ficheiros contendo todas as 15 obras em [estruturas de dados](https://perma.cc/P843-J4LB) na memória do computador.
 
 O primeiro passo neste processo é designar cada obra para o seu respectivo conjunto. Como cada obra está relacionada com o seu respectivo `EBook-No.`, podemos atribuir cada obra (valor) à chave do seu autor (ou a uma chave separada, se ela fizer parte da amostra de teste) usando um *dicionário* Python. O dicionário é um tipo de conjunto de dados composto de um número arbitrário de pares de chave-valor; neste caso, os nomes dos autores servirão como chaves (separados entre treino e teste), enquanto os `EBook-No.` das obras serão os valores associados a essas chaves.
 
@@ -134,7 +134,7 @@ ids_obras = {
 
 Os dicionários Python são muito flexíveis. Por exemplo, podemos acessar um valor específico *indexando* o dicionário com uma de suas chaves, podemos varrer o dicionário inteiro fazendo um loop em sua lista de chaves, etc. Faremos amplo uso desta funcionalidade à medida que avançarmos.
 
-A seguir, como estamos interessados no vocabulário de cada autor, definiremos uma breve [função](https://pt.wikipedia.org/wiki/M%C3%A9todo_(programa%C3%A7%C3%A3o)) em Python que irá criar uma longa lista de palavras em cada uma das obras atribuídas a um único autor. Isso será armazenado como uma [string](https://pt.wikipedia.org/wiki/Cadeia_de_caracteres). 
+A seguir, como estamos interessados no vocabulário de cada autor, definiremos uma breve [função](https://perma.cc/P8CA-Y43Q) em Python que irá criar uma longa lista de palavras em cada uma das obras atribuídas a um único autor. Isso será armazenado como uma [string](https://perma.cc/7DCC-M9AT). 
 Abra o seu ambiente de desenvolvimento Python escolhido. Se você não sabe como fazer isso, leia "Configurar um ambiente de desenvolvimento integrado para Python" ([Windows](/pt/licoes/instalacao-windows), [Linux](/pt/licoes/instalacao-linux), [Mac](/pt/licoes/instalacao-mac)) antes de prosseguir.
 
 ```python
@@ -156,7 +156,7 @@ def ler_ficheiros_para_string(ids_ficheiros):
     return '\n'.join(strings)
 ```
 
-Perceba que, dentro da função, temos também uma etapa de limpeza dos textos usando [expressões regulares](https://pt.wikipedia.org/wiki/Express%C3%A3o_regular). Isso foi necessário para este corpus específico pois as obras publicadas no Projeto Gutenberg possuem uma estrutura de cabeçalho e rodapé de [metadados](https://pt.wikipedia.org/wiki/Metadados) que não pode ser considerada na análise estilométrica, uma vez que não foram redigidas pelos autores analisados. A utilização de expressões regulares não faz parte do escopo deste tutorial, então limitaremo-nos a compreender que estamos utilizando a biblioteca `re` para capturar apenas o conjunto de caracteres entre os marcadores `*** START OF THIS PROJECT GUTENBERG [NOME DA OBRA] ***` e `*** END OF THIS PROJECT GUTENBERG [NOME DA OBRA] ***` presentes em cada documento do projeto. Para maiores dúvidas sobre a utilização de expressões regulares e da biblioteca `re`, consulte a [documentação](https://docs.python.org/pt-br/3/library/re.html).
+Perceba que, dentro da função, temos também uma etapa de limpeza dos textos usando [expressões regulares](https://perma.cc/DT3K-XUBG). Isso foi necessário para este corpus específico pois as obras publicadas no Projeto Gutenberg possuem uma estrutura de cabeçalho e rodapé de [metadados](https://perma.cc/E8P8-GKDR) que não pode ser considerada na análise estilométrica, uma vez que não foram redigidas pelos autores analisados. A utilização de expressões regulares não faz parte do escopo deste tutorial, então limitaremo-nos a compreender que estamos utilizando a biblioteca `re` para capturar apenas o conjunto de caracteres entre os marcadores `*** START OF THIS PROJECT GUTENBERG [NOME DA OBRA] ***` e `*** END OF THIS PROJECT GUTENBERG [NOME DA OBRA] ***` presentes em cada documento do projeto. Para maiores dúvidas sobre a utilização de expressões regulares e da biblioteca `re`, consulte a [documentação](https://perma.cc/JFP3-B4P4).
 
 Na sequência, construímos uma nova estrutura de dados chamando repetidamente a função `ler_ficheiros_para_string ()`, passando a ela uma lista diferente de documentos a cada vez. Armazenaremos os resultados em outro dicionário, este com nomes do autor/caso de teste como chaves e todo o texto dos respectivos documentos como valores. Para simplificar, iremos nos referir à string contendo uma lista de documentos como "corpus do autor".
 
@@ -292,7 +292,7 @@ A soma da diferença do documento Assis (teste) para o autor Castilho é 0.46876
 A soma da diferença do documento Assis (teste) para o autor Chagas é 0.3466043230715998
 ```
 
-Vamos colocar os resultados dos 5 testes em uma [matriz de confusão](https://pt.wikipedia.org/wiki/Matriz_de_confus%C3%A3o) (limitando a 4 casas decimais) para avaliarmos:
+Vamos colocar os resultados dos 5 testes em uma [matriz de confusão](https://perma.cc/K42B-NQSR) (limitando a 4 casas decimais) para avaliarmos:
 
 | | Assis | Alencar | Castelo Branco | Castilho | Chagas |
 | --------- | --------- | --------- | --------- | --------- | --------- |
@@ -308,14 +308,14 @@ Se não tivéssemos informações adicionais para trabalharmos, poderíamos infe
 
 # Segundo teste estilométrico: método qui-quadrado de Kilgariff
 
-Em um artigo de 2001, Adam Kilgarriff[^9] recomenda o uso da estatística qui-quadrado para determinar a autoria. Leitores familiarizados com métodos estatísticos podem se lembrar que o qui-quadrado às vezes é usado para testar se um conjunto de observações (digamos, as intenções dos eleitores conforme declarado em uma pesquisa) segue uma certa [distribuição de probabilidade](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_de_probabilidade) ou padrão. Não é isso que buscamos aqui. Em vez disso, simplesmente usaremos a estatística para medir a "distância" entre os vocabulários empregados em dois conjuntos de textos. Quanto mais semelhantes os vocabulários, mais provável é que o mesmo autor tenha escrito os textos em ambos os conjuntos. Isso pressupõe que o vocabulário de uma pessoa e os padrões de uso das palavras são relativamente constantes.
+Em um artigo de 2001, Adam Kilgarriff[^9] recomenda o uso da estatística qui-quadrado para determinar a autoria. Leitores familiarizados com métodos estatísticos podem se lembrar que o qui-quadrado às vezes é usado para testar se um conjunto de observações (digamos, as intenções dos eleitores conforme declarado em uma pesquisa) segue uma certa [distribuição de probabilidade](https://perma.cc/668N-9GPD) ou padrão. Não é isso que buscamos aqui. Em vez disso, simplesmente usaremos a estatística para medir a "distância" entre os vocabulários empregados em dois conjuntos de textos. Quanto mais semelhantes os vocabulários, mais provável é que o mesmo autor tenha escrito os textos em ambos os conjuntos. Isso pressupõe que o vocabulário de uma pessoa e os padrões de uso das palavras são relativamente constantes.
 
 Veja como aplicar a estatística para atribuição de autoria:
 
 * Pegue os corpora associados a dois autores;
 * Junte-os em um único corpus, maior;
 * Conte os tokens para cada uma das palavras que podem ser encontradas neste corpus maior;
-* Selecione as [`n`](https://pt.wikipedia.org/wiki/Amostra_(estat%C3%ADstica)) palavras mais comuns no corpus maior;
+* Selecione as [`n`](https://perma.cc/D9ND-3C83) palavras mais comuns no corpus maior;
 * Calcule quantos tokens dessas `n` palavras mais comuns esperaríamos encontrar em cada um dos dois corpora originais se fossem do mesmo autor. Isso significa simplesmente dividir o número de tokens que observamos no corpus combinado em dois valores, com base nos tamanhos relativos das contribuições dos dois autores para o corpus comum;
 * Calcule uma distância qui-quadrada somando, sobre as `n` palavras mais comuns, os _quadrados das diferenças entre os números reais de tokens encontrados no corpus de cada autor e os números esperados_, divididos pelos números esperados; A Figura 2 mostra a equação para a estatística qui-quadrado, onde C(i) representa o número observado de tokens para o recurso 'i' e E(i), o número esperado para esse recurso.
 
@@ -413,9 +413,9 @@ No entanto, o qui-quadrado ainda é um método pouco refinado. Por um lado, pala
  
 ## Uma nota sobre classes gramaticais
 
-Em alguns casos e idiomas, pode ser útil aplicar a marcação de [Part-of-speech (classes gramaticais)](https://pt.wikipedia.org/wiki/Classe_gramatical) aos tokens de palavras antes de contá-los, de modo que a mesma palavra usada como duas classes gramaticais diferentes possa contar como dois elementos diferentes (por exemplo, o termo "mais" sendo usado como substantivo ou como advérbio de intensidade). Esta lição não usa marcação de classes gramaticais, mas poderia refinar os resultados em estudos de caso mais complexos.
+Em alguns casos e idiomas, pode ser útil aplicar a marcação de [Part-of-speech (classes gramaticais)](https://perma.cc/ER5P-CFQE) aos tokens de palavras antes de contá-los, de modo que a mesma palavra usada como duas classes gramaticais diferentes possa contar como dois elementos diferentes (por exemplo, o termo "mais" sendo usado como substantivo ou como advérbio de intensidade). Esta lição não usa marcação de classes gramaticais, mas poderia refinar os resultados em estudos de caso mais complexos.
 
-Se você precisar aplicar a marcação de classe gramatical aos seus próprios dados, poderá fazer o download de marcadores para outros idiomas, para trabalhar com uma ferramenta de terceiros como [Tree Tagger](http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/), ou mesmo para treinar o seu próprio marcador, mas essas técnicas estão muito além do escopo da lição atual.
+Se você precisar aplicar a marcação de classe gramatical aos seus próprios dados, poderá fazer o download de marcadores para outros idiomas, para trabalhar com uma ferramenta de terceiros como [Tree Tagger](https://perma.cc/DG9G-S5T2), ou mesmo para treinar o seu próprio marcador, mas essas técnicas estão muito além do escopo da lição atual.
 
 # Terceiro teste estilométrico: método Delta de John Burrows (avançado)
 
@@ -429,7 +429,7 @@ O algoritmo original de Burrows pode ser resumido da seguinte forma:
 * Encontre as `n` palavras mais frequentes no corpus para usar como elementos;
 * Para cada uma dessas `n` características, calcule a participação de cada subcorpora dos `x` autores, como uma porcentagem do número total de palavras. Por exemplo, a palavra "ele" pode representar 4,72% das palavras no subcorpus do Autor A;
 * Em seguida, calcule a média e o desvio padrão desses `x` valores e use-os como a média oficial e o desvio padrão para esse elemento em todo o corpus. Em outras palavras, estaremos usando uma _média de médias_ em vez de calcular um único valor que represente a parcela de todo o corpus dado por cada palavra. Fazemos isso porque queremos evitar que um subcorpus maior tenha maior influência nos resultados a seu favor e defina a norma do corpus de tal forma que se espere que tudo se pareça com ele;
-* Para cada um dos `n` elementos e `x` subcorpora, calcule um [`z-score`](https://en.wikipedia.org/wiki/Standard_score) descrevendo o quão distante da norma do corpus está o uso desse elemento particular neste subcorpus específico. Para fazer isso, subtraia a "média das médias" de um dado elemento da frequência com que ela é encontrada no subcorpus e divida o resultado pelo seu desvio padrão. A Figura 3 mostra a equação de z-score para o elemento 'i', onde C(i) representa a frequência observada, a letra grega mu representa a média das médias e a letra grega sigma, o desvio padrão;
+* Para cada um dos `n` elementos e `x` subcorpora, calcule um [`z-score`](https://perma.cc/S2RH-LF9K) descrevendo o quão distante da norma do corpus está o uso desse elemento particular neste subcorpus específico. Para fazer isso, subtraia a "média das médias" de um dado elemento da frequência com que ela é encontrada no subcorpus e divida o resultado pelo seu desvio padrão. A Figura 3 mostra a equação de z-score para o elemento 'i', onde C(i) representa a frequência observada, a letra grega mu representa a média das médias e a letra grega sigma, o desvio padrão;
 
 {% include figure.html filename="stylometry-python-7.jpg" caption="Imagem 3: Equação para a estatística de z-score." %}
 
@@ -474,7 +474,7 @@ Uma amostra das palavras mais frequentes e suas respectivas ocorrências parece 
 
 ## Calculando elementos para cada subcorpus
 
-Vejamos as frequências de cada característica no subcorpus de cada candidato, como uma proporção do número total de tokens no subcorpus. Vamos calcular esses valores e armazená-los em um dicionário de dicionários, uma maneira conveniente de construir um [array bidimensional](https://en.wikipedia.org/wiki/Array_data_structure#Two-dimensional_arrays) em Python.
+Vejamos as frequências de cada característica no subcorpus de cada candidato, como uma proporção do número total de tokens no subcorpus. Vamos calcular esses valores e armazená-los em um dicionário de dicionários, uma maneira conveniente de construir um [array bidimensional](https://perma.cc/HR9K-24MG) em Python.
 
 ```python
 # Criar uma lista com os elementos e a estrutura principal de dados
@@ -626,7 +626,7 @@ Estilometria e/ou atribuição de autoria têm sido utilizadas em diversos conte
 * Maria Slautina e Mikhail Marusenko usam o reconhecimento de padrões em um conjunto de recursos sintáticos, gramaticais e lexicais, desde a contagem de palavras simples (com marcação de classe gramatical) a vários tipos de frases, a fim de estabelecer semelhanças estilísticas entre os textos medievais.[^14]
 * Ellen Jordan, Hugh Craig e Alexis Antonia examinam o caso de periódicos britânicos do século XIX, nos quais os artigos geralmente não eram assinados, para determinar o autor de quatro resenhas de trabalhos de ou sobre as irmãs Brontë.[^15] Este estudo de caso aplica uma versão inicial de outro método desenvolvido por John Burrows, o método Zeta, que se concentra nas palavras favoritas de um autor em vez de palavras de função comum.[^16]
 * Valérie Beaudoin e François Yvon analisaram 58 peças em verso dos dramaturgos franceses Corneille, Racine e Molière, descobrindo que as duas primeiras foram muito mais consistentes na maneira como estruturaram sua escrita do que as últimas.[^17]
-* Marcelo Luiz Brocardo, Issa Traore, Sherif Saad e Isaac Woungang aplicam [aprendizagem supervisionada](https://pt.wikipedia.org/wiki/Aprendizagem_supervisionada) e [modelos n-gram](https://pt.wikipedia.org/wiki/N-grama#Modelos_de_n_-gram) para determinar a autoria de mensagens curtas com um grande número de autores em potencial, como e-mails e tweets.[^18]
+* Marcelo Luiz Brocardo, Issa Traore, Sherif Saad e Isaac Woungang aplicam [aprendizagem supervisionada](https://perma.cc/7TAQ-JECD) e [modelos n-gram](https://perma.cc/X34K-5R9X) para determinar a autoria de mensagens curtas com um grande número de autores em potencial, como e-mails e tweets.[^18]
 * Moshe Koppel e Winter Yaron propõem o "método do impostor", que tenta determinar se dois textos foram escritos pelo mesmo autor, inserindo-os em um conjunto de textos escritos por falsos candidatos.[^19] Justin Anthony Stover _et al._ recentemente aplicou a técnica para determinar a autoria de um manuscrito do século II recém-descoberto.[^20]
 * Finalmente, uma equipe liderada por David I. Holmes estudou o caso peculiar de documentos escritos por um soldado da Guerra Civil ou por sua viúva que pode ter copiado intencionalmente seu estilo de escrita.[^21]
 
@@ -642,9 +642,9 @@ O artigo de Stamatatos citado anteriormente[^2] também contém uma pesquisa qua
 
 *Programming historians* que desejam explorar mais a estilometria podem fazer o download do pacote [Stylo](https://cran.r-project.org/web/packages/stylo/index.html),[^24] que se tornou um padrão _de facto_. Entre outras coisas, o pacote Stylo fornece uma implementação do método Delta, funcionalidade de extração de recursos e interfaces gráficas de usuário convenientes tanto para manipulação de dados quanto para produção de resultados visualmente atraentes. Observe que o Stylo é escrito em [R](https://www.r-project.org/), o que significa que você precisará do R instalado no seu computador para executá-lo, mas entre a interface gráfica do usuário e os tutoriais, pouco ou nenhum conhecimento prévio de programação R deve ser necessário.
 
-Leitores fluentes em francês interessados em explorar as implicações [epistemológicas](https://pt.wikipedia.org/wiki/Epistemologia) das interações entre métodos quantitativos e qualitativos na análise do estilo de escrita devem ler Clémence Jacquot.[^25]
+Leitores fluentes em francês interessados em explorar as implicações [epistemológicas](https://perma.cc/6DFE-QTWV) das interações entre métodos quantitativos e qualitativos na análise do estilo de escrita devem ler Clémence Jacquot.[^25]
 
-Surpreendentemente, os dados obtidos por meio de [reconhecimento ótico de caracteres](https://pt.wikipedia.org/wiki/Reconhecimento_%C3%B3tico_de_caracteres) (OCR) se mostraram adequados para fins de atribuição de autoria, mesmo quando os dados sofrem de altas taxas de erro de OCR.[^26]
+Surpreendentemente, os dados obtidos por meio de [reconhecimento ótico de caracteres](https://perma.cc/R9U6-TRGE) (OCR) se mostraram adequados para fins de atribuição de autoria, mesmo quando os dados sofrem de altas taxas de erro de OCR.[^26]
 
 Por fim, existe um [grupo Zotero](https://www.zotero.org/groups/643516/stylometry_bibliography/items) dedicado à estilometria, onde você pode encontrar muitas outras referências a métodos e estudos.
 
@@ -654,15 +654,15 @@ Agradecimentos a Stéfan Sinclair e Andrew Piper, em cujos seminários na Univer
 
 # Notas finais
 
-[^1]: Veja, por exemplo, Justin Rice, ["What Makes Hemingway Hemingway? A statistical analysis of the data behind Hemingway's style"]( https://www.litcharts.com/analitics/hemingway) 
+[^1]: Veja, por exemplo, Justin Rice, ["What Makes Hemingway Hemingway? A statistical analysis of the data behind Hemingway's style"](https://perma.cc/W8TR-UH6S) 
 
-[^2]: Efstathios Stamatatos, “A Survey of Modern Authorship Attribution Method,” _Journal of the American Society for Information Science and Technology_, vol. 60, no. 3 (December 2008), p. 538–56, citation on p. 540, https://doi.org/10.1002/asi.21001.
+[^2]: Efstathios Stamatatos, “A Survey of Modern Authorship Attribution Method,” _Journal of the American Society for Information Science and Technology_, vol. 60, no. 3 (December 2008), p. 538–56, citation on p. 540, [https://doi.org/10.1002/asi.21001](https://doi.org/10.1002/asi.21001).
 
-[^3]: Jan Rybicki, “Vive La Différence: Tracing the (Authorial) Gender Signal by Multivariate Analysis of Word Frequencies,” _Digital Scholarship in the Humanities_, vol. 31, no. 4 (December 2016), pp. 746–61, https://doi.org/10.1093/llc/fqv023. Sean G. Weidman e James O’Sullivan, “The Limits of Distinctive Words: Re-Evaluating Literature’s Gender Marker Debate,” _Digital Scholarship in the Humanities_, 2017, https://doi.org/10.1093/llc/fqx017.
+[^3]: Jan Rybicki, “Vive La Différence: Tracing the (Authorial) Gender Signal by Multivariate Analysis of Word Frequencies,” _Digital Scholarship in the Humanities_, vol. 31, no. 4 (December 2016), pp. 746–61, [https://doi.org/10.1093/llc/fqv023](https://doi.org/10.1093/llc/fqv023). Sean G. Weidman e James O’Sullivan, “The Limits of Distinctive Words: Re-Evaluating Literature’s Gender Marker Debate,” _Digital Scholarship in the Humanities_, 2017, [https://doi.org/10.1093/llc/fqx017](https://doi.org/10.1093/llc/fqx017).
 
-[^4]: Ted Underwood, David Bamman, e Sabrina Lee, “The Transformation of Gender in English-Language Fiction”, _Cultural Analytics_, Feb. 13, 2018, DOI: 10.7910/DVN/TEGMGI.
+[^4]: Ted Underwood, David Bamman, e Sabrina Lee, “The Transformation of Gender in English-Language Fiction”, _Cultural Analytics_, Feb. 13, 2018, [https://doi.org/10.22148/16.019](https://doi.org/10.22148/16.019).
 
-[^5]: Sven Meyer zu Eissen e Benno Stein, “Intrinsic Plagiarism Detection,” in _ECIR 2006_, edited by Mounia Lalmas, Andy MacFarlane, Stefan Rüger, Anastasios Tombros, Theodora Tsikrika, e Alexei Yavlinsky, Berlin, Heidelberg: Springer, 2006, pp. 565–69, https://doi.org/10.1007/11735106_66.
+[^5]: Sven Meyer zu Eissen e Benno Stein, “Intrinsic Plagiarism Detection,” in _ECIR 2006_, edited by Mounia Lalmas, Andy MacFarlane, Stefan Rüger, Anastasios Tombros, Theodora Tsikrika, e Alexei Yavlinsky, Berlin, Heidelberg: Springer, 2006, pp. 565–69, [https://doi.org/10.1007/11735106_66](https://doi.org/10.1007/11735106_66).
 
 [^6]: Cynthia Whissell, “Traditional and Emotional Stylometric Analysis of the Songs of Beatles Paul McCartney and John Lennon,” _Computers and the Humanities_, vol. 30, no. 3 (1996), pp. 257–65.
 
@@ -676,29 +676,29 @@ Agradecimentos a Stéfan Sinclair e Andrew Piper, em cujos seminários na Univer
 
 [^11]: Stefan Evert et al., "Understanding and explaining Delta measures for authorship attribution", _Digital Scholarship in the Humanities_, vol. 32, no. suppl_2 (2017), pp.  ii4-ii16.
 
-[^12]: José Calvo Tello, “Entendiendo Delta desde las Humanidades,” _Caracteres_, May 27 2016, http://revistacaracteres.net/revista/vol5n1mayo2016/entendiendo-delta/.
+[^12]: José Calvo Tello, “Entendiendo Delta desde las Humanidades,” [_Caracteres_, vol.5, no.1 (May 27 2016)](https://perma.cc/LNF3-QP8V), pp.140-176.
 
 [^13]: Javier de la Rosa and Juan Luis Suárez, “The Life of Lazarillo de Tormes and of His Machine Learning Adversities,” _Lemir_, vol. 20 (2016), pp. 373-438.
 
-[^14]: Maria Slautina e Mikhaïl Marusenko, “L’émergence du style, The emergence of style,” _Les Cahiers du numérique_, vol. 10, no. 4 (November 2014), pp. 179–215, https://doi.org/10.3166/LCN.10.4.179-215.
+[^14]: Maria Slautina e Mikhaïl Marusenko, “L’émergence du style, The emergence of style,” _Les Cahiers du numérique_, vol. 10, no. 4 (November 2014), pp. 179–215, [https://doi.org/10.3166/LCN.10.4.179-215](https://doi.org/10.3166/LCN.10.4.179-215).
 
 [^15]: Ellen Jordan, Hugh Craig, e Alexis Antonia, “The Brontë Sisters and the ‘Christian Remembrancer’: A Pilot Study in the Use of the ‘Burrows Method’ to Identify the Authorship of Unsigned Articles in the Nineteenth-Century Periodical Press,” _Victorian Periodicals Review_, vol. 39, no. 1 (2006), pp. 21–45.
 
-[^16]: John Burrows, “All the Way Through: Testing for Authorship in Different Frequency Strata,” _Literary and Linguistic Computing_, vol. 22, no. 1 (April 2007), pp. 27–47, https://doi.org/10.1093/llc/fqi067.
+[^16]: John Burrows, “All the Way Through: Testing for Authorship in Different Frequency Strata,” _Literary and Linguistic Computing_, vol. 22, no. 1 (April 2007), pp. 27–47, [https://doi.org/10.1093/llc/fqi067](https://doi.org/10.1093/llc/fqi067).
 
 [^17]: Valérie Beaudoin e François Yvon, “Contribution de La Métrique à La Stylométrie,” _JADT 2004: 7e Journées internationales d'Analyse statistique des Données Textuelles_, vol. 1, Louvain La Neuve, Presses Universitaires de Louvain, 2004, pp. 107–18.
 
-[^18]: Marcelo Luiz Brocardo, Issa Traore, Sherif Saad e Isaac Woungang, “Authorship Verification for Short Messages Using Stylometry,” _2013 International Conference on Computer, Information and Telecommunication Systems (CITS)_, 2013, https://doi.org/10.1109/CITS.2013.6705711.
+[^18]: Marcelo Luiz Brocardo, Issa Traore, Sherif Saad e Isaac Woungang, “Authorship Verification for Short Messages Using Stylometry,” _2013 International Conference on Computer, Information and Telecommunication Systems (CITS)_, 2013, [https://doi.org/10.1109/CITS.2013.6705711](https://doi.org/10.1109/CITS.2013.6705711).
 
-[^19]: Moshe Koppel e Winter Yaron, “Determining If Two Documents Are Written by the Same Author,” _Journal of the Association for Information Science and Technology_, vol. 65, no. 1 (October 2013), pp. 178–87, https://doi.org/10.1002/asi.22954.
+[^19]: Moshe Koppel e Winter Yaron, “Determining If Two Documents Are Written by the Same Author,” _Journal of the Association for Information Science and Technology_, vol. 65, no. 1 (October 2013), pp. 178–87, [https://doi.org/10.1002/asi.22954](https://doi.org/10.1002/asi.22954).
 
 [^20]: Justin Anthony Stover et al., "Computational authorship verification method attributes a new work to a major 2nd century African author", _Journal of the Association for Information Science and Technology_, vol. 67, no. 1 (2016), pp. 239–242.
 
 [^21]: David I. Holmes, Lesley J. Gordon, e Christine Wilson, "A widow and her soldier: Stylometry and the American Civil War", _Literary and Linguistic Computing_, vol. 16, no 4 (2001), pp. 403–420.
 
-[^22]: Patrick  Juola, “Authorship Attribution,” _Foundations and Trends in Information Retrieval_, vol. 1, no. 3 (2007), pp. 233–334, https://doi.org/10.1561/1500000005.
+[^22]: Patrick  Juola, “Authorship Attribution,” _Foundations and Trends in Information Retrieval_, vol. 1, no. 3 (2007), pp. 233–334, [https://doi.org/10.1561/1500000005](https://doi.org/10.1561/1500000005).
 
-[^23]: Moshe Koppel, Jonathan Schler, e Shlomo Argamon, “Computational Methods in Authorship Attribution,” _Journal of the Association for Information Science and Technology_. vol. 60, no. 1 (January 2009), pp. 9–26, https://doi.org/10.1002/asi.v60:1.
+[^23]: Moshe Koppel, Jonathan Schler, e Shlomo Argamon, “Computational Methods in Authorship Attribution,” _Journal of the Association for Information Science and Technology_. vol. 60, no. 1 (January 2009), pp. 9–26, [https://doi.org/10.1002/asi.v60:1](https://doi.org/10.1002/asi.v60:1).
 
 [^24]: Maciej Eder, Jan Rybicki, e Mike Kestemont, “Stylometry with R: A Package for Computational Text Analysis,” _The R Journal_, vol. 8, no. 1 (2016), pp. 107–21.
 
