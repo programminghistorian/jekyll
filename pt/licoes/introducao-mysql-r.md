@@ -38,7 +38,7 @@ A linguagem R permite realizar análises e armazenar dados sem que um banco de d
 - Quando os dados já estão armazenados num banco de dados relacional
 - Trabalhar com dados de entidades diferentes que são relacionados uns com os outros. Um exemplo seria um banco de dados de soldados de dois exércitos distintos que lutaram numa batalha, onde gostaríamos de saber qual esquadrão, pelotão, companhia e brigada cada soldado fazia parte.
 
-Uma breve discussão do tema pode ser encontrada no [*blog* de Jason A. French's](http://www.jason-french.com/blog/2014/07/03/using-r-with-mysql-databases/)[^1].
+Uma breve discussão do tema pode ser encontrada no [*blog* de Jason A. French's](hhttps://perma.cc/5VYV-L5PG)[^1].
 
 Ao final desta lição, será possível instalar um sistema de gerenciamento de banco de dados em seu computador, criar uma tabela de banco de dados, armazenar informações na tabela e realizar consultas dos dados. Na conclusão da lição, utilizaremos uma consulta do banco de dados para construir um gráfico. 
 
@@ -58,7 +58,7 @@ O MySQL é um banco de dados relacional usado para armazenar e consultar informa
 - Armazenar registros em tabelas
 - Consultar informações de tabelas
 
-Neste tutorial, construiremos um banco de dados de artigos de periódicos que contém palavras de uma busca numa hemeroteca digital. O script armazenará o título, a data publicada e a URL de cada artigo num banco de dados. Utilizaremos outro script para realizar consultas no banco de dados e procurar por padrões historicamente relevantes. Os dados de amostra serão fornecidos pelo arquivo de periódicos [Welsh Newspapers Online](http://newspapers.library.wales/). Estamos trabalhando com o objetivo de produzir uma lista de artigos à qual possamos consultar informações. Ao final da lição, vamos executar uma consulta para gerar um gráfico do número de artigos de periódicos no banco de dados, para verificar se há um padrão relevante. 
+Neste tutorial, construiremos um banco de dados de artigos de periódicos que contém palavras de uma busca numa hemeroteca digital. O script armazenará o título, a data publicada e a URL de cada artigo num banco de dados. Utilizaremos outro script para realizar consultas no banco de dados e procurar por padrões historicamente relevantes. Os dados de amostra serão fornecidos pelo arquivo de periódicos [Welsh Newspapers Online](https://perma.cc/9EHD-EVEX). Estamos trabalhando com o objetivo de produzir uma lista de artigos à qual possamos consultar informações. Ao final da lição, vamos executar uma consulta para gerar um gráfico do número de artigos de periódicos no banco de dados, para verificar se há um padrão relevante. 
 
 # Programas necessários
 
@@ -167,7 +167,7 @@ Com o ficheiro de instalação do My SQL Community Server baixado, clique duas v
 
 ###### 2. Guarde a senha temporária
 
-Siga as instruções para aceitar a licença e o local de instalação. **Importante: Uma senha temporária será solicitada. Guarde-a cuidadosamente.**  (Veja o exemplo abaixo.  Sua senha temporária será diferente da mostrada abaixo.) Se um erro for cometido, é possível remover o servidor instalado e reinstalá-lo, mas essa é uma pequena complicação. Um dos revisores dessa lição achou que [essa resposta do StackOverflow](https://stackoverflow.com/a/37524283) pode auxiliar nesta etapa.
+Siga as instruções para aceitar a licença e o local de instalação. **Importante: Uma senha temporária será solicitada. Guarde-a cuidadosamente.**  (Veja o exemplo abaixo.  Sua senha temporária será diferente da mostrada abaixo.) Se um erro for cometido, é possível remover o servidor instalado e reinstalá-lo, mas essa é uma pequena complicação. Um dos revisores dessa lição achou que [essa resposta do StackOverflow](https://perma.cc/J4Q5-SLK5) pode auxiliar nesta etapa.
 
 {% include figure.html filename="getting-started-with-mysql-18.png" caption="Senha temporária" %}
 
@@ -331,7 +331,7 @@ GRANT SELECT, INSERT, UPDATE, DELETE, EXECUTE, SHOW VIEW ON periodicos_resultado
 
 ### MySQL versão 8 e tipo de autenticação de usuário.
 
-Quando um usuário é criado no MySQL 8 Workbench o **Authentication Type** (tipo de autenticação) é configurado para o padrão **caching_sha2_password**. Esse tipo de autenticação causa um erro para o pacote R que usaremos para conectar o banco de dados mais tarde nesta lição. O erro é *Authentication plugin 'caching_sha2_password' cannot be loaded* e é descrito no [Stack Overflow](https://stackoverflow.com/questions/49194719/authentication-plugin-caching-sha2-password-cannot-be-loaded).
+Quando um usuário é criado no MySQL 8 Workbench o **Authentication Type** (tipo de autenticação) é configurado para o padrão **caching_sha2_password**. Esse tipo de autenticação causa um erro para o pacote R que usaremos para conectar o banco de dados mais tarde nesta lição. O erro é *Authentication plugin 'caching_sha2_password' cannot be loaded* e é descrito no [Stack Overflow](https://perma.cc/7NVR-TSYT).
 
 Para evitar esse erro, podemos modificar o tipo de autenticação do usuário para padrão (Standard). Para fazer isso, execute o seguinte comando na janela de *Query*:
 
@@ -347,7 +347,7 @@ Agora usaremos o RStudio para escrever um novo R Script e salvá-lo com o nome p
 
 Vá em File > New File > R Script e depois salve o novo ficheiro com o nome periodicos_resultados_pesquisa.R.
 
-Usaremos o pacote RMariaDB para realizar a conexão com o MySQL. (Se tiver curiosidade, a documentação para o pacote RMariaDB pode ser encontrada [aqui](https://cran.r-project.org/web/packages/RMariaDB/RMariaDB.pdf).)
+Usaremos o pacote RMariaDB para realizar a conexão com o MySQL. (Se tiver curiosidade, a documentação para o pacote RMariaDB pode ser encontrada [aqui](https://perma.cc/FX5P-DAW7).)
 
 Se não possui o pacote RMariaDB instalado (o que é provável, caso seja a primeira vez que usa o RStudio), instale-o utilizando o _console_ do RStudio. Após abrir o RStudio, copie e cole o seguinte para a janela da esquerda no >, e depois dê enter:
 
@@ -450,7 +450,7 @@ De maneira bem sucedida, a conexão com o banco de dados foi realizada utilizand
 
 # Armazenando dados numa tabela com o SQL
 
-Nesta seção da lição, criaremos uma declaração no SQL para inserir uma linha de dados no banco de dados sobre esse [artigo de periódico](http://newspapers.library.wales/view/4121281/4121288/94/). Iremos inserir primeiro o registro no MySQL Workbench e depois faremos isso no R.
+Nesta seção da lição, criaremos uma declaração no SQL para inserir uma linha de dados no banco de dados sobre esse [artigo de periódico](https://perma.cc/C8MR-WYV2). Iremos inserir primeiro o registro no MySQL Workbench e depois faremos isso no R.
 
 1. No MySQL Workbench, clique na imagem categorizada como SQL+ para criar uma nova aba para o SQL executar consultas (ou vá ao menu "File" e escolha a opção "New Query Tab"). 
 
@@ -915,9 +915,9 @@ Aqui abaixo está o gráfico que deveria aparecer:
 
 # Indo mais longe com o MySQL
 
-Se deseja colocar um banco de dados num website, uma maneira de fazê-lo é usando MySQL e a linguagem PHP para construir as páginas do site. Um exemplo deste tipo de website é o que construí para [buscar edições do "the Equity newspaper"](http://www.jeffblackadar.ca/graham_fellowship/corpus_entities_equity/). O livro de Larry Ullman's, *PHP and MySQL for Dynamic Web Sites*, aborda como configurar e conectar um banco de dados usando MySQL e PHP de uma maneira resistente à hackers.
+Se deseja colocar um banco de dados num website, uma maneira de fazê-lo é usando MySQL e a linguagem PHP para construir as páginas do site. Um exemplo deste tipo de website é o que construí para [buscar edições do "the Equity newspaper"](https://perma.cc/237N-DD9E). O livro de Larry Ullman's, *PHP and MySQL for Dynamic Web Sites*, aborda como configurar e conectar um banco de dados usando MySQL e PHP de uma maneira resistente à hackers.
 
-Para exemplos do uso de SQL para ordenar e agrupar dados, assim com também realizar cálculos, veja: [MySQL by Examples for Beginners](http://web.archive.org/web/20171228130133/https://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html) ou MySQL [Examples of Common Queries](https://dev.mysql.com/doc/refman/5.7/en/examples.html).
+Para exemplos do uso de SQL para ordenar e agrupar dados, assim com também realizar cálculos, veja: [MySQL by Examples for Beginners](http://web.archive.org/web/20171228130133/https://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html) ou MySQL [Examples of Common Queries](https://perma.cc/84HN-9DBL).
 
 # Conclusão
 
@@ -925,7 +925,7 @@ Espero que tenha obtido o conhecimento para configurar uma tabela de banco de da
 
 # Créditos
 
-Finalizei esta lição graças ao suporte do [George Garth Graham Undergraduate Digital History Research Fellowship](http://grahamresearchfellow.org/).
+Finalizei esta lição graças ao suporte do [George Garth Graham Undergraduate Digital History Research Fellowship](https://perma.cc/S7PP-FY5U).
 
 Agradeço à Drª. Amanda Visconti pelo suporte e orientação ao longo da preparação desta lição.
 
@@ -935,10 +935,10 @@ Ullman, L. 2005. *PHP and MySQL for Dynamic Web Sites, 2nd ed.* Berkeley, Calif:
 
 # Notas
 
-[^1]: Jason A. French, "Using R With MySQL Databases," blog (3 July 2014), [http://www.jason-french.com/blog/2014/07/03/using-r-with-mysql-databases/](http://www.jason-french.com/blog/2014/07/03/using-r-with-mysql-databases/).
+[^1]: Jason A. French, "Using R With MySQL Databases," blog (3 July 2014), [http://www.jason-french.com/blog/2014/07/03/using-r-with-mysql-databases/](https://perma.cc/5VYV-L5PG).
 
 [^2]: Taylor Arnold and Lauren Tilton, "Basic Text Processing in R," Programming Historian (27 March 2017), [tradução para português](/pt/licoes/processamento-basico-texto-r).
 
 [^3]: Taryn Dewar, "R Basics with Tabular Data," Programming Historian (05 September 2016), [tradução para português](/pt/licoes/nocoes-basicas-R-dados-tabulares).
 
-O script em R usado para recolher dados de amostra se encontra [aqui](https://github.com/jeffblackadar/getting-started-with-mysql/blob/master/newspaper-search-and-store.R).
+O script em R usado para recolher dados de amostra se encontra [aqui](https://perma.cc/87AE-LJRG).
