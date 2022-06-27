@@ -53,7 +53,7 @@ En étudiant **tf-idf**, vous découvrirez une méthode d'analyse textuelle que 
 
 ## Jeu de données
 
-Pour comprendre comment fonctionne **tf-idf**, prenons un exemple. J'ai donc préparé pour vous un jeu de données formé de 366 [nécrologies](https://perma.cc/73CL-ZKL3) historiques publiées dans le _New York Times_ et moissonnées sur le site [https://archive.nytimes.com/www.nytimes.com/learning/general/onthisday/]([https://archive.nytimes.com/www.nytimes.com/learning/general/onthisday/](https://perma.cc/R2V7-UBXX)) sur lequel, à chaque jour de l'année, le _New York Times_ mettait en vedette la nécrologie d'une personne dont c'était l'anniversaire de naissance.
+Pour comprendre comment fonctionne **tf-idf**, prenons un exemple. J'ai donc préparé pour vous un jeu de données formé de 366 [nécrologies](https://perma.cc/73CL-ZKL3) historiques publiées dans le _New York Times_ et moissonnées sur le site [https://archive.nytimes.com/www.nytimes.com/learning/general/onthisday/](https://perma.cc/R2V7-UBXX) sur lequel, à chaque jour de l'année, le _New York Times_ mettait en vedette la nécrologie d'une personne dont c'était l'anniversaire de naissance.
 
 Les fichiers requis pour suivre la leçon, dont ce jeu de données, peuvent être téléchargés [ici](/assets/tf-idf/lecon-fichiers.zip). Le jeu de données est assez petit pour que vous puissiez ouvrir et lire au moins quelques-uns des fichiers textes. Les données moissonnées sont également disponibles à deux endroits&#x202F;: 
 
