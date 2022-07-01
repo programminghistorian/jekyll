@@ -19,6 +19,7 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 
 ## Pesquisa publicada
 
+* Matthew Lincoln, Sarah Melton, Jennifer Isasi, François Dominic Laramée, '[Relocating Complexity: The Programming Historian and Multilingual Static Site Generation](http://www.digitalhumanities.org/dhq/vol/16/2/000585/000585.html)', _Digital Humanities Quarterly_ 16, 2 (2022).
 * Jennifer Isasi e Antonio Rojas Castro, ‘[¿Sin equivalencia? Una reflexión sobre la traducción al español de recursos educativos abiertos](https://muse.jhu.edu/article/842253)’, _Hispania_, 104, no. 4 (2021), 613-624.
 * Adam Crymble e Maria José Afanador Llach, ‘The Globally Unequal Promise of Digital Tools for History: UK and Colombia Case Study’ in Adele Nye (ed.) _Teaching History for the Contemporary World_ (Springer, 2021), 85-98.
 * Daniel Alves, ['Ensinar Humanidades Digitais sem as Humanidades Digitais: um olhar a partir das licenciaturas em História'](https://novaresearch.unl.pt/files/32228034/Ensinar_Humanidades_Digitais.pdf), _Revista EducaOnline_, v. 15, n. 2 (2021).
@@ -58,10 +59,12 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 
 ## Pósteres, Artigos em conferências & Palestras convidadas
 
+* Matthias Gille Levenson, Sofia Papastamkou & Célian Ringwald, '_Programming Historian_: un lieu de collaborations et d'interactions multiples', [DHNord 2022](https://www.meshs.fr/page/dhnord2022.5): Travailler en humanités numériques : collaborations, complémentarités et tensions, Lille, França, (22 Junho 2022).
 * Adam Crymble, 'Local Needs for Global Digital Scholarship', _Quo Vadis_, UCL, Reino Unido (9 Junho 2022).
 * Matthias Gille Levenson & Gwenaëlle Patat, ‘_Programming Historian en français_ : Faire communauté pour le partage de ressources éducatives libres sur les méthodes numériques en sciences humaines et sociales francophones’, [Colloque Humanistica 2022: Association francophone des humanités numériques](https://hal.archives-ouvertes.fr/hal-03672420),  Montreal, Canadá (Maio 2022).
+* Eric Brasil, '[Criação, manutenção e divulgação de projetos de História em meios digitais: git, GitHub e o _Programming Historian_](https://doi.org/10.5281/zenodo.6566754)’[[slides]](https://ericbrasiln.github.io/hdfgv/), [[video]](https://youtu.be/aJvjkSBETBw), Escola de Cinências Sociais, Fundação Getúlio Vargas/Centro de Pesquisa e Documentação de História Contemporânea do Brasil, (20 May 2022). 
 * Sofia Papastamkou, ‘Penser la pédagogie aux méthodes numériques au prisme de la reproductibilité: le cas du _Programming Historian_’, [Journées annuelles du réseau MATE-SHS: Recherche reproductible: regards croisés en sciences humaines et sociales](https://ja-mate2022.sciencesconf.org/resource/page/id/1), Paris, França, (17-18 Maio 2022).
-* Eric Brasil, ‘[Criação, manutenção e divulgação de projetos de História em meios digitais: git, GitHub e o _Programming Historian_](https://cpdoc.fgv.br/eventos/20052022)’, Escola de Cinências Sociais, Fundação Getúlio Vargas/Centro de Pesquisa e Documentação de História Contemporânea do Brasil, (16 Maio 2022).
+* Eric Brasil, ‘[Hemeroteca digital brasileira e a pesquisa histórica: reflexões sobre teoria e prática](https://doi.org/10.5281/zenodo.6568346)’ ([slides](https://ericbrasiln.github.io/hdufrn/), [video](https://youtu.be/Uu3I9_a2knc)), Laboratório História e Memória da Educação - LAHMED da UFRN, (17 Maio 2022). 
 * Adam Crymble, 'Building Methods with the Global South' Research Methodology Conference, Coventry, Reino Unido, (20 Abril 2022).
 * Adam Crymble, ‘[Trans-Atlantic Digital History and the Spatial Turn of Practice (as viewed from London)](https://ihrdighist.blogs.sas.ac.uk/2021/09/tuesday-29th-march-2022-dr-adam-crymble-ucl-trans-atlantic-digital-history/)’ Institute of Historical Research Digital History Seminar, London, Reino Unido, (29 Março 2022).
 * Jennifer Isasi, ‘El flujo editorial en _Programming Historian en español_’ Edición Digital de Textos, Máster Universitario en Humanidades Digitales, Universidad Internacional de La Rioja, Espanha,(2021-2022).
