@@ -20,9 +20,26 @@ In the event that an external image link has been provided, it will use that pat
 {% endif %}
 {% endif %}
 
-<figure>
+{% if include.alt %}
+  <figure class="figure">
+    <img src="{{ fullpath }}" alt="{{ include.alt }}">
+    <figcaption>
+      {{ include.caption | markdownify}}
+    </figcaption>
+  </figure>
+{% else %}
+  <figure>
+    <img src="{{ fullpath }}" alt="{{ include.caption }}">
+    <figcaption>
+      {{ include.caption | markdownify }}
+    </figcaption>
+  </figure>
+{% endif %}
+
+
+<!-- <figure>
     <img src="{{ fullpath }}" alt="{{ include.caption }}">
 <figcaption>
     {{ include.caption | markdownify }}
 </figcaption>
-</figure>
+</figure> -->
