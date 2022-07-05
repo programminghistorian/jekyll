@@ -1532,11 +1532,14 @@
 
 - name: Matthew J. Lavin
   team: false
+  orcid: 0000-0003-3867-9138
   bio:
     en: |
-      Matthew J. Lavin is a Clinical Assistant Professor of English and Director of the Digital Media Lab at the University of Pittsburgh. His current scholarship and teaching focus on book history, cultural analytics, turn-of-the-twentieth-century U.S. literature and culture.
+      Matthew J. Lavin is an Assistant Professor of Data Analytics specializing in Humanities Analytics at Denison University. His current scholarship focuses on book history, cultural analytics, and turn-of-the-twentieth-century U.S. literature and culture.
+    fr: | 
+      Matthew J. Lavin est Assistant Professor en analyse de données en sciences humaines à Denison University (Ohio, États-Unis). Ses recherches et enseignements portent sur l'histoire du livre, les cultural analytics et la littérature et la culture états-uniennes à l'aube du vingtième siècle. 
     pt: |
-      Matthew J. Lavin é professor assistente de Inglês e diretor do Digital Media Lab na University of Pittsburgh. A sua atual pesquisa e ensino focam-se na história do livro, análise cultural e literatura e cultura dos Estados Unidos da América na viragem para o século XX.
+      Matthew J. Lavin é professor assistente de análise de dados com especialização em Análise de Humanidades na Denison University. Suas pesquisas actuais têm como foco a história do livro, análise cultural e literatura e cultura dos Estados Unidos da América na virada para o século XX.
 
 - name: Go Sugimoto
   team: false
