@@ -28,7 +28,6 @@ python_warning: false
 original: linux-installation
 avatar_alt: Uma banda com três músicos
 doi: 10.46430/phpt0007
-lesson-partners: [jisc, tna]
 ---
 
 {% include toc.html %}
