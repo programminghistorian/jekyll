@@ -843,27 +843,26 @@
   url: "http://jessicaparr.org/"
   team: true
   team_start: 2017
-  institution: Simmons College
+  institution: Northeastern University
   sortname: Parr
   affiliation:
     en: |
-      Simmons College, USA.
+      Northeastern University, United States.
     es: |
-      Simmons College, Estados Unidos.
+      Northeastern University, Estados Unidos.
     fr: |
-      Simmons College, États-Unis.
-    en: |
-      Simmons College, Estados Unidos da América.
+      Northeastern University, États-Unis.
+    pt: |
+      Northeastern University, Estados Unidos.
   bio:
     en: |
-      Jessica Parr is a Lecturer in History at Simmons College (Boston).
-      She is a scholar of the early modern Atlantic.
+      Jessica Parr is a Professor of Digital Humanities in the History Department at Northeastern University, Boston, United States.
     es: |
-      Jessica Parr enseña en el Simmons College (Boston). Es especialista en la historia del mundo Atlántico moderno temprano.
+      Jessica Parr es profesora de humanidades digitales en el Departamento de Historia en la Northeastern University, Boston, Estados Unidos.
     fr: |
-      Jessica Parr est maîtresse de conférences au Simmons College à Boston et spécialiste du monde atlantique à l'époque moderne.
+      Jessica Parr est professeure en Humanités numériques au Département d'Histoire à la Northeastern University, Boston, États-Unis.
     pt: |
-      Jessica Parr é professora no Simmons College, em Boston, e especialista no mundo atlântico moderno.
+      Jessica Parr é professora de Humanidades Digitais no Departamento de História na Northeastern University, Boston, Estados Unidos.
   team_roles:
     - global-lead
   status: volunteer
