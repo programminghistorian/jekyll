@@ -145,11 +145,11 @@
   - type: machine-learning
   displayname:
     en: "Machine Learning"
-    es: "Aprendizaje automático"
+    es: "Aprendizaje automático" 
     fr: "Apprentissage automatique"
-    pt: "Aprendizado automático"
+    pt: "Aprendizagem automática"
   description:
     en: "Lessons focused on machine learning."
     es: "Lecciones enfocadas en el aprendizaje automático."
     fr: "Cours axés sur l'apprentissage automatique."
-    pt: "Aulas focadas em aprendizado automático."
+    pt: "Lições focadas em aprendizagem automática"
