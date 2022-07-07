@@ -53,9 +53,9 @@ Esta primera sección se ocupa de cuestiones de estilo generales que te ayudará
 ### Código abierto, acceso abierto
 *Programming Historian* está comprometido con los valores del código abierto. Todas las lecciones deben usar lenguajes de programación y software de código abierto siempre que sea posible. Esta política tiene por objeto reducir al mínimo los costos para todas las partes y permitir el mayor nivel de participación posible.
 
-Los autores conservan los derechos de autor y otorgan a la revista el derecho de primera publicación, licenciando simultáneamente la obra bajo Creative Commons - Atribución 4.0 Internacional [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es).
+Los autores conservan los derechos de autor y otorgan a la revista el derecho de primera publicación, licenciando simultáneamente la obra bajo Creative Commons - Atribución 4.0 Internacional [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es). Los autores tienen permiso para publicar y distribuir su trabajo en línea en repositorios institucionales/disciplinarios o en su cuenta personal.
 
-Los autores tienen permiso para publicar y distribuir su trabajo en línea en repositorios institucionales/disciplinarios o en su cuenta personal.
+Pedimos a los autores y traductores que completa [el formulario de declaración](/assets/forms/Derechos-de-autor-y-de-publicación.pdf) para reconocer los derechos de autor y conceder el permiso de publicación.
 
 ### Escribe para una audiencia global
 *Programming Historian* es leído por personas que viven en todo el mundo. Es por ello que debes tomar medidas para que tu lección sea accesible para el mayor número de personas posible. Las siguientes directrices te ayudarán a enfrentar una audiencia global:
