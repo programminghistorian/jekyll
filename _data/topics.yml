@@ -142,3 +142,14 @@
     fr: "Leçons enseignant ou utilisant le langage de programmation R."
     pt: "Lições que ensinam a utilizar ou que utilizam a linguagem de programação R."
   
+  - type: machine-learning
+  displayname:
+    en: "Machine Learning"
+    es: "Aprendizaje automático"
+    fr: "Apprentissage automatique"
+    pt: "Aprendizado automático"
+  description:
+    en: "Lessons focused on machine learning."
+    es: "Lecciones enfocadas en el aprendizaje automático."
+    fr: "Cours axés sur l'apprentissage automatique."
+    pt: "Aulas focadas em aprendizado automático."
