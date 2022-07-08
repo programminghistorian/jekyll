@@ -31,7 +31,6 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Denmark
 - [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), United Kingdom
 - [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Germany
-- [Purdue University](https://www.purdue.edu/), United States
 - [MIT Libraries](https://libraries.mit.edu/), United States
 - [University of Nebraska-Lincoln](https://www.unl.edu/), United States
 - [The National Archives](https://www.nationalarchives.gov.uk/), United Kingdom
@@ -42,6 +41,8 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), United Kingdom
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), United Kingdom
 - [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), China
+- [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, United Kingdom
+- [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), United Kingdom
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
