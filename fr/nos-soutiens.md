@@ -30,7 +30,6 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Danemark
 - [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Royaume-Uni
 - [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Allemagne
-- [Purdue University](https://www.purdue.edu/), États-Unis
 - [MIT Libraries](https://libraries.mit.edu/), États-Unis
 - [University of Nebraska-Lincoln](https://www.unl.edu/), États-Unis
 - [The National Archives](https://www.nationalarchives.gov.uk/), Royaume-Uni
@@ -41,6 +40,8 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), Royaume-Uni
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), Royaume-Uni
 - [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), Chine
+- [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, Royaume-Uni
+- [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), Royaume-Uni
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 

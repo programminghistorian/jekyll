@@ -33,7 +33,6 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 -   [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca
 -   [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Reino Unido
 -   [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Alemanhã
--   [Purdue University](https://www.purdue.edu/), Estados Unidos
 -   [MIT Libraries](https://libraries.mit.edu/), Estados Unidos
 -   [University of Nebraska-Lincoln](https://www.unl.edu/), Estados Unidos
 -   [The National Archives](https://www.nationalarchives.gov.uk/), Reino Unido
@@ -44,6 +43,8 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), Reino Unido
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), Reino Unido
 - [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), China
+- [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, Reino Unido
+- [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), Reino Unido
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
