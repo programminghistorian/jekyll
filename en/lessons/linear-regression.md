@@ -4,7 +4,8 @@ collection: lessons
 date: 2022-07-09
 output: pdf_document
 layout: lesson
-authors: Matthew J. Lavin
+authors:
+- Matthew J. Lavin
 reviewers:
 - Thomas Jurczyk
 - Rennie C Mapp
