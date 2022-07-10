@@ -13,7 +13,7 @@ editors:
 - James Baker
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/436
 difficulty: 3
-activity: [analyzing]
+activity: analyzing
 topics: [python]
 abstract: This lesson is the first of two that focus on an indispensable set of data analysis methods, logistic and linear regression. It provides an overview of linear regression and walks through running both algorithms in Python (using scikit-learn). The lesson also discusses interpreting the results of a regression model and some common pitfalls to avoid.
 mathjax: true
