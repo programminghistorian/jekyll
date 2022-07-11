@@ -1,5 +1,5 @@
 ---
-title: "Linear Regression Analysis with Scikit-Learn"
+title: "Linear Regression Analysis with Scikit-Learn (part 1)"
 collection: lessons
 date: 2022-07-09
 output: pdf_document
