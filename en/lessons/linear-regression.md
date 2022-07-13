@@ -1,7 +1,7 @@
 ---
-title: "Linear Regression Analysis with Scikit-Learn (part 1)"
+title: "Regression Analysis with Scikit-Learn (part 1 - Linear)"
 collection: lessons
-date: 2022-07-09
+date: 2022-07-13
 output: pdf_document
 layout: lesson
 authors:
@@ -15,7 +15,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/436
 difficulty: 3
 activity: analyzing
 topics: [python]
-abstract: This lesson is the first of two that focus on an indispensable set of data analysis methods, logistic and linear regression. It provides an overview of linear regression and walks through running both algorithms in Python (using scikit-learn). The lesson also discusses interpreting the results of a regression model and some common pitfalls to avoid.
+abstract: This lesson is the first of a two-part lesson focusing on an indispensable set of data analysis methods, logistic and linear regression. It provides an overview of linear regression and walks through running both algorithms in Python (using scikit-learn). The lesson also discusses interpreting the results of a regression model and some common pitfalls to avoid.
 mathjax: true
 avatar_alt: a washburn grinder
 doi: 10.46430/phen0099
