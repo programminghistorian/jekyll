@@ -161,7 +161,7 @@ Quando a senha *root* for solicitada, digite a senha criada na etapa *5. Account
 
 ###### 1. Instalação do MySQL Community Server
 
-Com o ficheiro de instalação do My SQL Community Server baixado, clique duas vezes no ficheiro para instalá-lo.  (Ver abaixo)
+Com o ficheiro de instalação do MySQL Community Server baixado, clique duas vezes no ficheiro para instalá-lo.  (Ver abaixo)
 
 {% include figure.html filename="introducao-ao-mysql-e-r-8.png" caption="Ficheiro de instalação" %}
 
