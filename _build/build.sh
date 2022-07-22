@@ -5,7 +5,8 @@
 bundle exec jekyll build && bundle exec htmlproofer ./_site \
   --assume-extension \
   --empty-alt-ignore \
-  --file-ignore "/assets/,/retired/,/retirada/,/retrait/,/posts/" \
+  --alt-ignore '/.*/' \
+  --file-ignore "/assets/,/retired/,/retirada/,/retrait/,/posts/"\
   --timeframe '30d' \
   --only-4xx \
   --http-status-ignore 429,403,400 \
