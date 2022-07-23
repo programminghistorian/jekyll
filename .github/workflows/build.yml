@@ -33,7 +33,7 @@ jobs:
         with:
           directory: "./_site"
           # The directory to scan
-          arguments: '--assume-extension --empty-alt-ignore --alt-ignore "/.*/" --file-ignore "/assets/,/retired/,/retirada/,/retrait/,/posts/" --timeframe "30d" --only-4xx --http-status-ignore 429,403,400 --url-ignore "/http://www.gutenberg.org/*/,/https://github.com/programminghistorian/jekyll/(commits|blob)/*/,/\#/,/espanol/,/deprecated/,/collection.britishmuseum.org/,/analytics.hathitrust.org/,/fr.wikipedia.org/wiki/,https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf"'
+          arguments: '--assume-extension --empty-alt-ignore --alt-ignore '/.*/' --file-ignore "/assets/,/retired/,/retirada/,/retrait/,/posts/" --timeframe '30d' --only-4xx --http-status-ignore 429,403,400 --url-ignore "/http://www.gutenberg.org/*/,/https://github.com/programminghistorian/jekyll/(commits|blob)/*/,/\#/,/espanol/,/deprecated/,/collection.britishmuseum.org/,/analytics.hathitrust.org/,/fr.wikipedia.org/wiki/,https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf" --allow-hash-href'
           # The arguments to pass to HTMLProofer
     # Finally if we are successful in building, we trigger a rebuild of our search index in the search-index repository
       - name: Trigger next workflow
