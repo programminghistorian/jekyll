@@ -28,7 +28,7 @@ jobs:
           bundle exec jekyll build
     # Next we check all the links in our site to make sure we aren't pushing up broken links.
       - name: Check HTML
-        uses: ZoeLeBlanc/htmlproofer@master
+        uses: zoeleblanc/htmlproofer@master
         if : github.event.action != 'closed'
         with:
           directory: "./_site"
