@@ -2,15 +2,18 @@
 
 # Build site, and then run htmlproofer to check for broken internal and external links
 
-bundle exec jekyll build && bundle exec htmlproofer ./_site \
-  --assume-extension \
-  --empty-alt-ignore \
-  --alt-ignore '/.*/' \
-  --file-ignore "/assets/,/retired/,/retirada/,/retrait/,/posts/"\
-  --timeframe '30d' \
-  --only-4xx \
-  --http-status-ignore 429,403,400 \
-  --url-ignore "/http://www.gutenberg.org/*/,/https://github.com/programminghistorian/jekyll/(commits|blob)/*/,/\#/,/espanol/,/deprecated/,/collection.britishmuseum.org/,/analytics.hathitrust.org/,/fr.wikipedia.org/wiki/,https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf"
+bundle exec jekyll build && htmlproofer _site --assume-extension --empty-alt-ignore --alt-ignore '/.*/' --file-ignore "/assets/,/retired/,/retirada/,/retrait/,/posts/" --timeframe '30d' --only-4xx --http-status-ignore 429,403,400 --url-ignore "/http://www.gutenberg.org/*/,/https://github.com/programminghistorian/jekyll/(commits|blob)/*/,/\#/,/espanol/,/deprecated/,/collection.britishmuseum.org/,/analytics.hathitrust.org/,/fr.wikipedia.org/wiki/,https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf" --allow-hash-href 
+
+## Updated version of htmlproofer commands (internal linking still doesn't work for some reason).
+# htmlproofer ./_site \
+#   --assume-extension ./_site \  
+#   --ignore-empty-alt \
+#   --ignore-files "/assets/,/retired/,/retirada/,/retrait/,/posts/"\
+#   --cache "{ \"timeframe\": { \"external\": \"30d\" } }" \
+#   --only-4xx \
+#   --ignore-status-codes 429,403,400 \
+#   --ignore-urls "/http://www.gutenberg.org/*/,/https://github.com/programminghistorian/jekyll/(commits|blob)/*/,/\#/,/espanol/,/deprecated/,/collection.britishmuseum.org/,/analytics.hathitrust.org/,/fr.wikipedia.org/wiki/,https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf" \
+
 
 # The folllowing comments docuemnt what each line of that build script does.
 
