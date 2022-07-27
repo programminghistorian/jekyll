@@ -25,7 +25,6 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 -   [Princeton University](https://www.princeton.edu/), Estados Unidos
 -   [Transkribus - READ COOP](https://readcoop.eu/), Áustria
 -   [RStudio, PBC](https://rstudio.com/), Estados Unidos
--   [CESTA, Stanford University](https://cesta.stanford.edu/), Estados Unidos
 -   [University of Waterloo](https://uwaterloo.ca/), Canadá
 -   [Universidad de los Andes](https://uniandes.edu.co/), Colômbia
 -   [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Dinamarca
