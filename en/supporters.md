@@ -23,7 +23,6 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [Princeton University](https://www.princeton.edu/), United States
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria
 - [RStudio, PBC](https://rstudio.com/), United States
-- [CESTA, Stanford University](https://cesta.stanford.edu/), United States
 - [University of Waterloo](https://uwaterloo.ca/), Canada
 - [Universidad de los Andes](https://uniandes.edu.co/), Colombia
 - [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Denmark
