@@ -43,6 +43,7 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), China
 - [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, United Kingdom
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), United Kingdom
+- [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), United Kingdom
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 

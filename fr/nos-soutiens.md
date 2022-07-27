@@ -42,6 +42,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), Chine
 - [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, Royaume-Uni
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), Royaume-Uni
+- [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), Royaume-Uni
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
