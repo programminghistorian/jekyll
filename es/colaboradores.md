@@ -24,7 +24,6 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [Princeton University](https://www.princeton.edu/), Estados Unidos
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria
 - [RStudio, PBC](https://rstudio.com/), Estados Unidos
-- [CESTA, Stanford University](https://cesta.stanford.edu/), Estados Unidos
 - [University of Waterloo](https://uwaterloo.ca/), Canadá
 - [Universidad de los Andes](https://uniandes.edu.co/), Colombia
 - [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Dinamarca
