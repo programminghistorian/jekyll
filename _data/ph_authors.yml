@@ -2638,3 +2638,32 @@
   bio:
       en: |
           Mia Partlow is a Resource Sharing Librarian at North Carolina State University.
+          
+- name: Gisele Almeida
+  github: GeeAlmeida
+  email: community@programminghistorian.org
+  team: true
+  team_start: 2022
+  institution: Programming Historian, UK
+  sortname: Almeida
+  affiliation:
+    en: |
+      Programming Historian, UK
+    es: |
+      Programming Historian, Reino Unido
+    fr: |
+      Programming Historian, Royaume-Uni
+    pt: |
+      Programming Historian, Reino Unido
+  bio:
+    en: |
+      Gisele Almeida is the Education and Community Lead at Programming Historian.
+    es: |
+      Gisele Almeida, Programming Historian.
+    fr: |
+      Gisele Almeida, Programming Historian.
+    pt: |
+      Gisele Almeida, Programming Historian.
+  team_roles:
+    - proghist
+  status: institutionally-supported          
