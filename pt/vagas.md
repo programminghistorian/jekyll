@@ -4,7 +4,7 @@ layout: blank
 original: vacancies
 ---
 
-# Poste vacant – Le/la rédacteur(ice) en chef du Programming Historian en français
+# Poste vacant – Rédacteur(ice) en chef du Programming Historian en français
 
 - Salaire : Volontaire
 - Horaires : ~0,5 jour par quinzaine
