@@ -28,6 +28,8 @@ previous: salida-palabras-clave-contexto-ngrams
 review-ticket:  https://github.com/programminghistorian/ph-submissions/issues/205
 avatar_alt: Figuras trabajando en una mina, empujando carros
 doi: 10.46430/phes0058
+sequence: 15
+series_total: 15
 ---
 
 {% include toc.html %}
