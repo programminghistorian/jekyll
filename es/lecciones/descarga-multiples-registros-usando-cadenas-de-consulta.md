@@ -26,7 +26,6 @@ topics: [web-scraping, python]
 abstract: "Descargar un solo registro de un sitio web es fácil, aunque la descarga de muchos registros a la vez –una necesidad cada vez más frecuente– es mucho más eficiente utilizando un lenguaje de programación como Python. En esta lección escribiremos un programa que descargará una serie de registros del Old Bailey Online usando criterios de búsqueda personalizada y los guardará en un directorio de nuestro equipo."
 previous: salida-palabras-clave-contexto-ngrams
 review-ticket:  https://github.com/programminghistorian/ph-submissions/issues/205
-python_warning: true
 avatar_alt: Figuras trabajando en una mina, empujando carros
 doi: 10.46430/phes0058
 ---
@@ -1206,7 +1205,7 @@ Si tienes interés en el *OBO*, el sitio cuenta con [una buena API y su document
     [La convención de Python](https://peps.python.org/pep-0008/) es *no* usar camelCase para sus nombres sino usar guiones bajos `_` para mejorar la legibilidad; en nuestro caso, `from_year`, `to_year`, `from_month`, `to_month`, etc.
 
 [^5]: La función `range` de Python crea una [secuencia inmutable de números](https://docs.python.org/3/library/stdtypes.html#typesseq-range) que puede ser usada como iterador en un bucle `for`.
-`range` toma un argumento obligatorio: el valor de parada. Este valor siempre es *una unidad menor que* el valor de parada.
+    `range` toma un argumento obligatorio: el valor de parada. Este valor siempre es *una unidad menor que* el valor de parada.
     El valor inicial de la secuencia es por defecto 0.
     Así, por ejemplo, `range(3)` creará la siguiente secuencia inmutable: `0, 1, 2`, puesto que 2 es una unidad menor que el valor de parada 3.
     `range` también puede tomar un valor inicial distinto como *primer* argumento de función (aunque es opcional).
