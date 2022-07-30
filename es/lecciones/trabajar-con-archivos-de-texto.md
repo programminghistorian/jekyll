@@ -30,7 +30,7 @@ abstract: "En esta lección aprenderás a manipular archivos de texto utilizando
 avatar_alt: Dibujo de un señor leyendo el abecedario.
 doi: 10.46430/phes0028
 sequence: 3
-series_total: 14
+series_total: 15
 ---
 
 {% include toc.html %}

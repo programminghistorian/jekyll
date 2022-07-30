@@ -29,7 +29,7 @@ avatar_alt: Grabado de una serpiente de cascabel
 doi: 10.46430/phes0016
 next: ver-archivos-html
 sequence: 1
-series_total: 14
+series_total: 15
 ---
 
 {% include toc.html %}

@@ -31,7 +31,7 @@ abstract: "En esa lección aprenderás los comandos de Python que son necesarios
 avatar_alt: Grabado de un hombre vestido de militar y otro hombre por detrás del primero que parece tener la intención de tropezarlo.
 doi: 10.46430/phes0006
 sequence: 8
-series_total: 14
+series_total: 15
 ---
 
 {% include toc.html %}

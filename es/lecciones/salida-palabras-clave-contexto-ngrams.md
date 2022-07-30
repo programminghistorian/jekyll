@@ -21,6 +21,7 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/51
 layout: lesson
 previous: palabras-clave-en-contexto-n-grams
+next: descarga-multiples-registros-usando-cadenas-de-consulta
 original: output-keywords-in-context-in-html-file
 python_warning: false
 difficulty: 2
@@ -30,7 +31,7 @@ abstract: "Esta lección se basa en 'Palabras clave en contexto (usando n-grams)
 avatar_alt: Grabado de un león, un oso y un mono caminando.
 doi: 10.46430/phes0026
 sequence: 14
-series_total: 14
+series_total: 15
 ---
 
 {% include toc.html %}
@@ -270,4 +271,3 @@ Esta lección marca el final de la serie de lecciones originales sobre Python. E
 [archivo zip de las lecciones anteriores]: /assets/python-es-lecciones8.zip
 [Salida de datos como archivo HTML]: /es/lecciones/salida-de-datos-como-archivo-html
 [zip sync]: /assets/python-es-lecciones9.zip
-

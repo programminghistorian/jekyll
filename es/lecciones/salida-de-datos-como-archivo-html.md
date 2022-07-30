@@ -31,7 +31,7 @@ abstract: "Esta lección toma los pares de frecuencia creados en 'Contar frecuen
 avatar_alt: Grabado de mujer y dos niños.
 doi: 10.46430/phes0025
 sequence: 12
-series_total: 14
+series_total: 15
 ---
 
 {% include toc.html %}

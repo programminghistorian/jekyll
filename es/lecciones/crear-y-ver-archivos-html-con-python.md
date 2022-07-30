@@ -30,7 +30,7 @@ avatar_alt: Grabado en blanco y negro de un niño sentado en un taburete sujetan
 python_warning: false
 doi: 10.46430/phes0003
 sequence: 11
-series_total: 14
+series_total: 15
 ---
 
 {% include toc.html %}
