@@ -107,7 +107,7 @@ XML e TEI são linguagens de marcação e nesse sentido se diferenciam das lingu
 
 ## XML
 
-Nesta lição, não entraremos em pormenores sobre a sintaxe e o funcionamento do XML. Recomendamos, portanto, que o leitor consulte [esta outra lição](/en/lessons/data-transformation-xml-xsl) (em inglês) para mais informações sobre XML, assim como a bibliografia e as referências sugeridas no final desta lição.
+Nesta lição, não entraremos em pormenores sobre a sintaxe e o funcionamento do XML. Recomendamos, portanto, que o leitor consulte [esta outra lição](/en/lessons/transforming-xml-with-xsl) (em inglês) para mais informações sobre XML, assim como a bibliografia e as referências sugeridas no final desta lição.
 
 Por enquanto, só precisamos de saber que cada documento XML deve obedecer a duas regras básicas para ser válido:
 
@@ -378,4 +378,4 @@ Nota de tradução: para a versão em português foi usado o texto *Memórias P�
 
 - A página [TTHUB](https://tthub.io) contém uma excelente ["Introducción a la Text Encoding Initiative"](https://tthub.io/aprende/introduccion-a-tei/) de Susanna Allés Torrent (2019).
 
-- Uma lição introdutória de Programming Historian sobre XML e as transformações XSL é [*Transformação de dados com XML e XSL para reutilização*](/es/publicadas/traducciones/transformacion-datos-xml-xsl), de M. H. Beals.
+- Uma lição introdutória de Programming Historian sobre XML e as transformações XSL é [*Transformação de dados com XML e XSL para reutilização*](/es/lecciones/transformacion-datos-xml-xsl), de M. H. Beals.
