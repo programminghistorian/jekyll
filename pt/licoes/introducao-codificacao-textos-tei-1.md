@@ -11,7 +11,7 @@ editors:
 reviewers:
 - Rocío Méndez
 - Iñaki Cano
-translators:
+translator:
 - Nicolás Llano
 translation-editor:
 - Eric Brasil
@@ -19,7 +19,7 @@ translation-reviewer:
 - Ana Salgado
 - Jorge Barbosa
 difficulty: 2
-activity: transformimg
+activity: transforming
 topics: [data-manipulation, website]
 abstract: "Com esta lição, (a primeira de duas partes) aprenderá as bases de TEI-XML para codificar textos"
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/470
