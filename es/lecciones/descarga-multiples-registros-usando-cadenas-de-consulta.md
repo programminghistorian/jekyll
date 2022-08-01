@@ -27,7 +27,7 @@ abstract: "Descargar un solo registro de un sitio web es fácil, aunque la desca
 previous: salida-palabras-clave-contexto-ngrams
 review-ticket:  https://github.com/programminghistorian/ph-submissions/issues/205
 avatar_alt: Figuras trabajando en una mina, empujando carros
-doi: 10.46430/phes0058
+doi: 10.46430/phes0059
 sequence: 15
 series_total: 15
 ---
