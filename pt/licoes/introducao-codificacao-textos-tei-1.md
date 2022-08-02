@@ -25,7 +25,7 @@ abstract: "Com esta lição, (a primeira de duas partes) aprenderá as bases de 
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/470
 original: introduccion-a-tei-1
 avatar_alt: Gravura de uma seção transversal do solo com as etiquetas correspondentes
-doi: A INDICAR
+doi: 10.46430/phpt0026
 ---
 
 {% include toc.html %}
