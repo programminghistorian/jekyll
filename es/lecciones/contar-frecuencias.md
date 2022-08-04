@@ -31,7 +31,7 @@ python_warning: false
 avatar_alt: Boceto de un hombre sentado fumando una pipa y pájaros alrededor
 doi: 10.46430/phes0001
 sequence: 10
-series_total: 14
+series_total: 15
 ---
 
 {% include toc.html %}
