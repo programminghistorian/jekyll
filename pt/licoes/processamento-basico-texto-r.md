@@ -429,8 +429,7 @@ Para tal, vamos combinar a função `readLines` (ler linhas) para carregar o tex
 
 ```{r}
 
-base_url <- "https://github.com/programminghistorian/jekyll/tree/gh-pages/assets/basic-text-processing-in-r
-"
+base_url <- "https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/basic-text-processing-in-r/"
 
 url <- sprintf("%s/sotu_text/236.txt", base_url)
 
