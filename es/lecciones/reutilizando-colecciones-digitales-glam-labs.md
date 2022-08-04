@@ -16,9 +16,7 @@ editors: Maria José Afanador-Llach
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/313
 difficulty: 3
 activity: transforming
-topics:
-- data-manipulation
-- python
+topics: [data-manipulation, python, lod]
 abstract: "Esta lección muestra cómo reutilizar colecciones digitales publicadas por instituciones de patrimonio cultural."
 avatar_alt: "Grabado que muestra a tres personas trabajando en un laboratorio alquímico"
 doi: 10.46430/phes0054
