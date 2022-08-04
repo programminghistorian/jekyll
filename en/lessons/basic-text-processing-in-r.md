@@ -283,7 +283,7 @@ Let us now apply the techniques from the previous section to an entire State of 
 To do so, we will combine the `readLines` function to read the text into R and the `paste` function to combine all of the lines into a single object. We will build the URL of the text file using the `sprintf` function as this format will make it easily modified to grab other addresses.[^3]
 
 ```{r}
-base_url <- "https://github.com/programminghistorian/jekyll/tree/gh-pages/assets/basic-text-processing-in-r"
+base_url <- "https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/basic-text-processing-in-r/"
 url <- sprintf("%s/sotu_text/236.txt", base_url)
 text <- paste(readLines(url), collapse = "\n")
 ```
