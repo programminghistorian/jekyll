@@ -2222,8 +2222,9 @@
   status: volunteer
 
 - name: Tiago Sousa Garcia
-  team: true
+  team: false
   team_start: 2021
+  team_end: 2022
   institution: Programming Historian
   github: tiagosousagarcia
   email: tiagosousagarcia@gmail.com
