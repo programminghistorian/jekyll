@@ -653,8 +653,9 @@
   email: sarah.melton1@gmail.com
   twitter: worldcatlady
   url: "http://sarahvmelton.com"
-  team: true
+  team: false
   team_start: 2019
+  team_end: 2022
   institution: SproutSocial
   sortname: Melton
   affiliation:
@@ -675,12 +676,6 @@
       Sarah Melton est responsable de la stratégie formation produit chez SproutSocial.
     pt: |
       Sarah Melton desenvolve a Estratégia de Produtos Educativos na SproutSocial.
-
-  team_roles:
-    - managing
-    - english
-    - proghist
-  status: volunteer
 
 - name: Sarah Simpkin
   team: false
@@ -1077,7 +1072,8 @@
     pt: |
       Peter Stockwell é pró-vice-chanceler para o Engajamento Global (Europa) e professor de Linguística Literária na University of Nottingham.
 
-- name: Beatrice Alex
+- name: Beatrice 
+
   team: false
   bio:
     en: |
@@ -1794,6 +1790,7 @@
       - english
       - editorial
       - technical
+      - managing
   status: volunteer
 
 - name: Danielle Sanches
