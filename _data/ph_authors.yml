@@ -653,9 +653,8 @@
   email: sarah.melton1@gmail.com
   twitter: worldcatlady
   url: "http://sarahvmelton.com"
-  team: false
+  team: true
   team_start: 2019
-  team_end: 2022
   institution: SproutSocial
   sortname: Melton
   affiliation:
@@ -676,6 +675,9 @@
       Sarah Melton est responsable de la stratégie formation produit chez SproutSocial.
     pt: |
       Sarah Melton desenvolve a Estratégia de Produtos Educativos na SproutSocial.
+  team_roles:
+    - proghist
+  status: volunteer
 
 - name: Sarah Simpkin
   team: false
