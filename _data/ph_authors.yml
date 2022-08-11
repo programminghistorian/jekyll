@@ -675,10 +675,7 @@
       Sarah Melton est responsable de la stratégie formation produit chez SproutSocial.
     pt: |
       Sarah Melton desenvolve a Estratégia de Produtos Educativos na SproutSocial.
-
   team_roles:
-    - managing
-    - english
     - proghist
   status: volunteer
 
@@ -1078,6 +1075,7 @@
       Peter Stockwell é pró-vice-chanceler para o Engajamento Global (Europa) e professor de Linguística Literária na University of Nottingham.
 
 - name: Beatrice Alex
+
   team: false
   bio:
     en: |
@@ -1794,6 +1792,7 @@
       - english
       - editorial
       - technical
+      - managing
   status: volunteer
 
 - name: Danielle Sanches
