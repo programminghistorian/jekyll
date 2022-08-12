@@ -35,6 +35,8 @@ The project team and members of the wider community are involved in a number of 
 
 ## Workshops & Events
 
+* James Baker, Paola Marchionni, Jo Pugh, Jon Reades, Yann Ryan, Chahan Vidal-Gorène, Peter Webster, & Jennie Williams, '_Developing computational skills for digital collections: a new Programming Historian series_', [DCDC22: Discovering Collections Discovering Communities](https://dcdcconference.com/), (11-15 July 2022).
+* Gisele Almeida & Anisa Hawes, '_History Past, Present & Future - The IHR Centenary Festival_', Institute of Historical Research & Senate House, United Kingdom, (15 July 2022).
 * Sofia Papastamkou, Hugues Pecout, Sébastien Rey-Coyrehourcq, Timothée Giraud, Gwenaëlle Patat, Margot Mellet, Servanne Monjour & Nicolas Sauret, '_Programming Historian en français_, Rzine, ... & Tutos : Faire communauté autour des dispositifs et des formats alternatifs du savoir’, [Colloque Humanistica 2022: Association francophone des humanités numériques](https://humanistica2022.sciencesconf.org/program/details), (18 May 2022).
 * Jennifer Isasi & Brandon Walsh with Gabi Kirilloff, ‘[_Programming Historian_ Workshop on Twine in the Classroom](https://ach.org/blog/2022/02/15/ach-programming-historian-workshop-on-twine-in-the-classroom/)’, Association for Computers and the Humanities, United States (13 April 2022).
 * Daniel Alves & Joana Vieira Paulino, ‘[O _Programming Historian em português_ e o ensino das Humanidades Digitais](https://www.letras.ulisboa.pt/pt/agenda/2-seminario-cecomp-hd-o-programming-historian-em-portugues-e-o-ensino-das-humanidades-digitais)’, 2.º Seminário CEComp-HD, Centro de Estudos Comparatistas da Faculdade de Letras, Universidade de Lisboa, Portugal, (23 March 2022).
