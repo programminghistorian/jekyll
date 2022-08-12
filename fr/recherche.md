@@ -35,6 +35,7 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 ## Ateliers et manifestations
 
+* Gisele Almeida & Anisa Hawes, '_History Past, Present & Future - The IHR Centenary Festival_', Institute of Historical Research & Senate House, Royaume-Uni, (15 juillet 2022).
 * Sofia Papastamkou, Hugues Pecout, Sébastien Rey-Coyrehourcq, Timothée Giraud, Gwenaëlle Patat, Margot Mellet, Servanne Monjour & Nicolas Sauret, ‘_Programming Historian en français_, Rzine, ... & Tutos: Faire communauté autour des dispositifs et des formats alternatifs du savoir’, [Colloque Humanistica 2022: Association francophone des humanités numériques](https://humanistica2022.sciencesconf.org/program/details), (18 mai 2022).
 * Jennifer Isasi & Brandon Walsh with Gabi Kirilloff, ‘[_Programming Historian_ Workshop on Twine in the Classroom](https://ach.org/blog/2022/02/15/ach-programming-historian-workshop-on-twine-in-the-classroom/)’, Association for Computers and the Humanities, États Unis (13 avril 2022).
 * Daniel Alves & Joana Vieira Paulino, ‘[O _Programming Historian em português_ e o ensino das Humanidades Digitais](https://www.letras.ulisboa.pt/pt/agenda/2-seminario-cecomp-hd-o-programming-historian-em-portugues-e-o-ensino-das-humanidades-digitais)’, 2.º Seminário CEComp-HD, Centro de Estudos Comparatistas da Faculdade de Letras, Universidade de Lisboa, Portugal, (23 mars 2022).
@@ -61,6 +62,7 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, Université d'Edimbourg (26 mai 2015).
 
 ## Posters, présentations et conférences invitées
+* James Baker, Paola Marchionni, Jo Pugh, Jon Reades, Yann Ryan, Chahan Vidal-Gorène, Peter Webster, & Jennie Williams, '_Developing computational skills for digital collections: a new Programming Historian series_', [DCDC22: Discovering Collections Discovering Communities](https://dcdcconference.com/), (11-15 juillet 2022).
 * Matthias Gille Levenson, Sofia Papastamkou & Célian Ringwald, '_Programming Historian_: un lieu de collaborations et d'interactions multiples', [DHNord 2022](https://www.meshs.fr/page/dhnord2022.5): Travailler en humanités numériques: collaborations, complémentarités et tensions, Lille, France, (22 juin 2022).
 * Adam Crymble, 'Local Needs for Global Digital Scholarship', _Quo Vadis_, UCL, Royaume-Uni (9 juin 2022).
 * Matthias Gille Levenson & Gwenaëlle Patat, ‘_Programming Historian en français_: Faire communauté pour le partage de ressources éducatives libres sur les méthodes numériques en sciences humaines et sociales francophones’, [Colloque Humanistica 2022: Association francophone des humanités numériques](https://hal.archives-ouvertes.fr/hal-03672420),  Montréal, Canada (mai 2022).
