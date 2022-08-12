@@ -45,6 +45,7 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 - [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, Reino Unido
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), Reino Unido
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), Reino Unido
+- [University of York](https://www.york.ac.uk/), Reino Unido
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
