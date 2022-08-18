@@ -3,8 +3,7 @@ title: "Computer Vision for the Humanities an introduction to deep learning for 
 collection: lessons
 layout: lesson
 slug: computer-vision-deep-learning-pt2
-date: 2020-01-26
-translation_date: YYYY-MM-DD
+date: 2022-08-17
 authors:
 - Daniel van Strien 
 - Kaspar Beelen
@@ -462,7 +461,7 @@ The `ImageDataLoaders.from_df` method produces something called `DataLoaders`. `
 
 ## Viewing our Loaded Data
 
-In [Part 1](/en/lessons/computer-vision-deep-learning-pt1), we saw an example of `show_batch`. This method allows you to preview some of your data and labels. We can pass `figsize` to control how large our displayed images are. 
+In [Part 1](/en/computer-vision-deep-learning-pt1), we saw an example of `show_batch`. This method allows you to preview some of your data and labels. We can pass `figsize` to control how large our displayed images are. 
 
 
 ```python

@@ -3,7 +3,7 @@ title: "Computer Vision for the Humanities: An Introduction to Deep Learning for
 collection: lessons
 layout: lesson
 slug: computer-vision-deep-learning-pt1
-date: 2021-01-26
+date: 2022-08-17
 translation_date: 2022-MM-DD
 authors:
   - Daniel van Strien
