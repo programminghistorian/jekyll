@@ -5,11 +5,11 @@ layout: lesson
 slug: computer-vision-deep-learning-pt2
 date: 2022-08-17
 authors:
-- Daniel van Strien 
-- Kaspar Beelen
-- Melvin Wevers
-- Thomas Smits
-- Katherine McDonough
+  - Daniel van Strien 
+  - Kaspar Beelen
+  - Melvin Wevers
+  - Thomas Smits
+  - Katherine McDonough
 reviewers:
   - Michael Black
   - Catherine DeRose

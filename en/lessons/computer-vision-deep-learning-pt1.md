@@ -4,7 +4,6 @@ collection: lessons
 layout: lesson
 slug: computer-vision-deep-learning-pt1
 date: 2022-08-17
-translation_date: 2022-MM-DD
 authors:
   - Daniel van Strien
   - Kaspar Beelen
@@ -26,7 +25,7 @@ mathjax: true
 avatar_alt: An illustration of a below camera on top of a wooden stand with a dark cloth.
 next: computer-vision-deep-learning-pt2
 series_total: 2 lessons
-sequence: 1
+sequence: 2
 doi: 10.46430/phen0101
 ---
 
