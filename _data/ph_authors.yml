@@ -265,14 +265,15 @@
 
 
 - name: Daniel van Strien
+  orcid: 0000-0003-1684-6556
   team: false
   bio:
     en: |
-      Daniel van Strien is a Library Science student at City University, London.
+      Daniel van Strien is Digital Curator for the Living with Machines project at the British Library, London.
     es: |
-      Daniel van Strien es estudiante de Biblioteconomía en la Universidad de la Ciudad, Londres.
+      Daniel van Strien es curador digital del proyecto Living with Machines en la Biblioteca Británica de Londres.
     pt: |
-      Daniel van Strien é estudante de Biblioteconomia na City University, Londres.
+      Daniel van Strien é curador digital do projeto Living with Machines na British Library, Londres.
 
 - name: Kim Pham
   team: false
@@ -2667,3 +2668,49 @@
   team_roles:
     - proghist
   status: institutionally-supported          
+
+- name: Thomas Smits
+  orcid: 0000-0001-8579-824X
+  team: false
+  bio:
+    en: |
+      Thomas Smits is a postdoc in the History of Bias Project at the University of Antwerp
+    pt: |
+      Thomas Smits é pós-doutor em History of Bias Project na Universidade de Antuérpia
+    es: |
+      Thomas Smits es un postdoctorado en el Proyecto de Historia del Sesgo en la Universidad de Amberes.
+
+- name: Kaspar Beelen
+  orcid: 0000-0001-7331-1174
+  team: false
+  bio:
+    en: |
+      Kaspar Beelen is Research Associate in Digital Humanities for the Living with Machines project.
+    es: |
+      Kaspar Beelen es investigador asociado en humanidades digitales para el proyecto Living with Machines.
+    pt: |
+      Kaspar Beelen é Pesquisador Associado em Humanidades Digitais para o projeto Living with Machines.
+
+- name: Katherine McDonough
+  team: false
+  orcid: 0000-0001-7506-1025
+  bio:
+    en: |
+      Katherine McDonough is Senior Research Associate in History on Living with Machines and UK PI on Machines Reading Maps at The Alan Turing Institute.
+    es: |
+      Katherine McDonough es investigadora asociada sénior en historia para el proyecto Living with Machines e investigadora principal para el proyecto Machines Reading Maps en The Alan Turing Institute.
+    pt: |
+      Katherine McDonough é Pesquisadora Associada Sênior em História para o projeto Living with Machines e Investigadora Principal do projeto Machines Reading Maps no The Alan Turing Institute.
+    fr: | 
+      Katherine McDonough est une chercheuse postdoctorale en histoire pour le project Living with Machines et la directrice du project Machines Reading Maps au Alan Turing Institute.
+
+- name: Melvin Wevers
+  orcid: 0000-0001-8177-4582
+  team: false
+  bio:
+    en: |
+      Melvin Wevers is Assistant Professor Digital Methods at the History Department of the University of Amsterdam.
+    pt: |
+      Melvin Wevers é Professor Assistente de Métodos Digitais no Departamento de História da Universidade de Amesterdão.
+    es: |
+      Melvin Wevers es Profesor Asistente de Métodos Digitales en el Departamento de Historia de la Universidad de Ámsterdam.
