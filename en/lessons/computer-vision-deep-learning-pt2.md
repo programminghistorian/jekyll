@@ -26,10 +26,13 @@ avatar_alt: A cropped illustration of a mechanical diagram of a machine with pip
 previous: computer-vision-deep-learning-pt1
 series_total: 2 lessons
 sequence: 1
-doi: TBD
+doi: 10.46430/phen0102
 ---
 
 {% include toc.html %}
+
+
+
 
 # Introduction 
 
