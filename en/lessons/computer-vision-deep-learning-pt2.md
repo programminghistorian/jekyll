@@ -25,7 +25,7 @@ mathjax: true
 avatar_alt: A cropped illustration of a mechanical diagram of a machine with pipes.
 previous: computer-vision-deep-learning-pt1
 series_total: 2 lessons
-sequence: 1
+sequence: 2
 doi: 10.46430/phen0102
 ---
 

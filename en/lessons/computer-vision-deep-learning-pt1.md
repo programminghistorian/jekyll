@@ -25,7 +25,7 @@ mathjax: true
 avatar_alt: An illustration of a below camera on top of a wooden stand with a dark cloth.
 next: computer-vision-deep-learning-pt2
 series_total: 2 lessons
-sequence: 2
+sequence: 1
 doi: 10.46430/phen0101
 ---
 
