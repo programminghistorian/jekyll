@@ -37,7 +37,7 @@ doi: 10.46430/phen0102
 
 # Introduction 
 
-This is the second part of a two-part lesson. This lesson seeks to build on the concepts introduced in [Part 1](/en/computer-vision-deep-learning-pt1) of this lesson. 
+This is the second part of a two-part lesson. This lesson seeks to build on the concepts introduced in [Part 1](/en/lessons/computer-vision-deep-learning-pt1) of this lesson. 
 ## Lesson aims
 
 In this part, we will go deeper into the topic by:
@@ -51,7 +51,7 @@ A particular focus of this lesson will be on how the fuzziness of concepts can t
 
 ## Lesson Set-Up
 
-We assume you have already done [Part 1](/en/computer-vision-deep-learning-pt1), which includes setup instructions. You can find the notebook version of this lesson on [Kaggle](https://perma.cc/9H6M-PDB6). Please see Part 1 of the lesson for more information on setting up and use this [Kaggle notebook](https://www.kaggle.com/davanstrien/02-programming-historian-deep-learning-pt2-ipynb).
+We assume you have already done [Part 1](/en/lessons/computer-vision-deep-learning-pt1), which includes setup instructions. You can find the notebook version of this lesson on [Kaggle](https://perma.cc/9H6M-PDB6). Please see Part 1 of the lesson for more information on setting up and use this [Kaggle notebook](https://www.kaggle.com/davanstrien/02-programming-historian-deep-learning-pt2-ipynb).
 
 ## The Deep Learning Pipeline
 
@@ -465,7 +465,7 @@ The `ImageDataLoaders.from_df` method produces something called `DataLoaders`. `
 
 ## Viewing our Loaded Data
 
-In [Part 1](/en/computer-vision-deep-learning-pt1), we saw an example of `show_batch`. This method allows you to preview some of your data and labels. We can pass `figsize` to control how large our displayed images are. 
+In [Part 1](/en/lessons/computer-vision-deep-learning-pt1), we saw an example of `show_batch`. This method allows you to preview some of your data and labels. We can pass `figsize` to control how large our displayed images are. 
 
 
 ```python
@@ -843,7 +843,7 @@ learn.lr_find()
 
 The learning rate plot looks different this time with loss plateauing before shooting up. Interpreting `lr_find` plots is not always straightforward, especially for a model that has been unfroze. Usually the best learning rate for a unfrozen model will be smaller than one used for the frozen model at the start of training. 
 
-The `fastai` library provides support for 'differential learning rates', which can be applied to various layers of our model. When looking at transfer learning in [the previous part of this lesson](/en/computer-vision-deep-learning-pt1), we saw that the lower layers of a network often learn 'fundamental' visual features, whilst later layers are more task specific. As a result, we may not want to update our model with a single learning rate, since we want the lower layers of the model to be updated more slowly than the end layers. A simple way of using different learning rates is to use the Python `slice` function. In this case, we'll try and pick a learning rate range where the model hasn't shot up yet. 
+The `fastai` library provides support for 'differential learning rates', which can be applied to various layers of our model. When looking at transfer learning in [the previous part of this lesson](/en/lessons/computer-vision-deep-learning-pt1), we saw that the lower layers of a network often learn 'fundamental' visual features, whilst later layers are more task specific. As a result, we may not want to update our model with a single learning rate, since we want the lower layers of the model to be updated more slowly than the end layers. A simple way of using different learning rates is to use the Python `slice` function. In this case, we'll try and pick a learning rate range where the model hasn't shot up yet. 
 
 We saw above how we can save a model that we have already trained - another way to do this is to use a 'callback'. [Callbacks](https://perma.cc/8XB7-V8QH) are sometimes used in programming to modify or change the behavior of some code. fastai includes a callback `SaveModelCallback` which, as the name suggests, will save the model. By default, it will save the best performing model during your training loop and load it at the end. We can also pass in the thing we want fastai to monitor to see things are improving.[^3] In this example, we'll pass in `f1_score`, since this is the metric we are trying to improve. 
 
