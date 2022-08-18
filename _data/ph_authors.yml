@@ -1683,6 +1683,9 @@
   team: false
   orcid: 0000-0001-6765-4146
   bio:
+    en:
+        |
+      Anthony Picón Rodríguez is a researcher at the Digital Laboratory of Architecture and Urbanism at the National University of Colombia, a librarian at the Digital Map Library at the National Library of Colombia, and manager of the Razón Cartográfico network.
     es: |
       Anthony Picón Rodríguez es investigador del Laboratorio Digital de Arquitectura y Urbanismo de la Universidad Nacional de Colombia, bibliotecario de la Mapoteca Digital en la Biblioteca Nacional de Colombia y gestor de la red Razón Cartográfica.
     pt: |
@@ -1692,6 +1695,8 @@
   team: false
   orcid:
   bio:
+    en: |
+      Miguel Cuadros is a Historian from the Industrial University of Santander and a Master of Arts in History, State University of New York (United States) and a professor at the Industrial University of Santander; He has teaching and research experience in topics related to cartography and geographic knowledge.
     es: |
       Miguel Cuadros es Historiador por Universidad Industrial de de Santander y Master of Arts in History, State University of New York (Estados Unidos) y docente en la Universidad Industrial de Santander; cuenta con experiencia docente e investigativa en temas relacionados con la cartografía y el conocimiento geográfico.
     pt: |
