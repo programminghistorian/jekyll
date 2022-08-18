@@ -415,7 +415,7 @@ Once a model has been created and data prepared, the training process can begin.
 
 4. The model changes internal parameters to try to do better next time. The loss function from the previous step returns a 'loss value', often just referred to as the 'loss', which is used by the model to update the weights.
 
-A 'learning rate' is used to determine how much a model should update based on the calculated loss. This is another one of the important variables that can be manipulated during the training process. In [part-two of this lesson](/en/computer-vision-deep-learning-pt1), we will see one potential way of trying to identify a suitable learning rate for your model.
+A 'learning rate' is used to determine how much a model should update based on the calculated loss. This is another one of the important variables that can be manipulated during the training process. In [Part 2 of this lesson](/en/computer-vision-deep-learning-pt1), we will see one potential way of trying to identify a suitable learning rate for your model.
 
 ## Validation Data
 
