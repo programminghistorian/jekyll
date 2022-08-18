@@ -1,5 +1,5 @@
 ---
-title: "Computer Vision for the Humanities an introduction to deep learning for image classification (part 2)"
+title: "Computer Vision for the Humanities: An Introduction to Deep Learning for Image Classification (Part 2)"
 collection: lessons
 layout: lesson
 slug: computer-vision-deep-learning-pt2
