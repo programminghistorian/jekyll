@@ -549,22 +549,22 @@ contents:
 lesson-difficulty:
   0:
     en: Very Low
-    es: Muy Bajo
+    es: Muy Baja
     fr: Très facile
     pt: Muito baixo
   1:
     en: Low
-    es: Bajo
+    es: Baja
     fr: Facile
     pt: Baixo
   2:
     en: Medium
-    es: Medio
+    es: Media
     fr: Moyen
     pt: Médio
   3:
     en: High
-    es: Alto
+    es: Alta
     fr: Difficile
     pt: Alto
 lesson:
