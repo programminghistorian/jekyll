@@ -28,7 +28,7 @@ activity: transforming
 topics: [mapping]
 abstract: "This lesson introduces you how to use Map Warper."
 avatar_alt: Image of a map of the Coffee Region of the Republic of Colombia.
-doi: TBD
+doi: 10.46430/phen0103
 ---
 
 {% include toc.html %}
