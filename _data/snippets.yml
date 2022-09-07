@@ -832,3 +832,28 @@ supporters-individual-image-alt:
   es: Un pájaro en una rama con otro pájaro volando cerca.
   fr: Un oiseau posé sur une branche pendant qu'un autre vole à côté. 
   pt: Um pássaro sentado num galho enquanto outro pássaro voa próximo.
+
+# Partnership information, for when a lesson is the product of a specific partnership (i.e., PH/JISC/TNA)
+# Content of 'lesson-partners' for each tutorial should be an array with the names of the partners, as they will appear to readers, i.e:
+# lesson-partners: [JISC, The National Archives] 
+lesson-partners: 
+  en: This tutorial is part of a special series in partnership with
+  es: ES - This tutorial is part of a special series in partnership with
+  fr: FR - This tutorial is part of a special series in partnership with
+  pt: PT - This tutorial is part of a special series in partnership with
+# Link to partnership page
+# Content of 'partnership-url' for each tutorial should be the address for the partnership page (sans .md), i.e.:
+# partnership-url: /jisc-tna-partnership
+partnership-url:
+  en:
+    blurb: To see other tutorials published as part of this partnership
+    clickable-text: click here
+  es:
+    blurb: ES - To see other tutorials published as part of this partnership
+    clickable-text: ES - click here
+  fr: 
+    blurb: FR - To see other tutorials published as part of this partnership
+    clickable-text: FR - click here
+  pt:
+    blurb: PT - To see other tutorials published as part of this partnership
+    clickable-text: PT - click here
