@@ -2714,3 +2714,11 @@
       Melvin Wevers é Professor Assistente de Métodos Digitais no Departamento de História da Universidade de Amesterdão.
     es: |
       Melvin Wevers es Profesor Asistente de Métodos Digitales en el Departamento de Historia de la Universidad de Ámsterdam.
+      
+      
+- name: Chantal Brousseau
+  team: false
+  orcid: 0000-0002-4649-059X
+  bio:
+    en: |
+      Chantal Brousseau is an MA candidate in the History and Data Science program at Carleton University. Her research focuses on applications of machine learning and computational creativity to the study of historical data.
