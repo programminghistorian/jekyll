@@ -15,7 +15,7 @@ skip_validation: true
 <h2 class="noclear">Paso 3: <a href="#paso-3-enviando-una-nueva-lección">Enviar una nueva lección</a></h2>
 
 
-Estas directrices han sido desarrolladas para ayudarte a entender el proceso de creación de un tutorial para *Programming Historian* en Español. Incluyen detalles prácticos sobre el proceso de redacción de un tutorial, así como indicaciones sobre el flujo de trabajo y el proceso de revisión entre pares. Si en algún momento hay algo que no te queda claro, por favor envía un correo electrónico a {% include managing-editor.html lang=page.lang %}.
+Estas directrices han sido desarrolladas para ayudarte a entender el proceso de creación de un tutorial para *Programming Historian* en Español. Incluyen detalles prácticos sobre el proceso de redacción de un tutorial, así como indicaciones sobre el flujo de trabajo y el proceso de revisión entre pares. Si en algún momento hay algo que no te queda claro, por favor [envía un correo electrónico a Jefe de redacción](mailto:espanol@programminghistorian.org).
 
 ## Paso 1: Proponer una nueva lección
 
@@ -23,7 +23,7 @@ Estas directrices han sido desarrolladas para ayudarte a entender el proceso de 
 Aceptamos tutoriales relevantes para las humanidades, dirigidos a cualquier nivel de aptitud técnica y experiencia, que se centren en un problema o proceso, que puedan ser sostenibles a largo plazo y que estén dirigidos a una audiencia global. El alcance y la longitud del tutorial han de corresponderse con la complejidad de la tarea que se enseña. Los tutoriales no deben exceder las 8.000 palabras (incluyendo el código) sin el permiso explícito del editor, el que se otorgará únicamente en circunstancias excepcionales. Esperamos que la mayoría de las lecciones tengan entre 4.000 y 6.000 palabras. Si resulta pertinente, puede que solicitemos dividir en varios tutoriales las lecciones más largas.
 </div>
 
-Si tienes una idea para una nueva lección, completa el [formulario de propuestas](/assets/forms/Formulario.Consulta.Leccion.txt) y envíalo a {% include managing-editor.html lang=page.lang %}.
+Si tienes una idea para una nueva lección, completa el [formulario de propuestas](/assets/forms/Formulario.Consulta.Leccion.txt) y [envíalo a Jefe de redacción](mailto:espanol@programminghistorian.org).
 
 Para tener una idea de lo que publicamos, consulta nuestras [lecciones ya publicadas]({{site.baseurl}}/es/lecciones), lee nuestra [guía para revisores]({{site.baseurl}}/es/guia-para-revisores) o explora [las lecciones actualmente en desarrollo](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/lecciones). Animamos el envío de propuestas de lecciones sobre temas ya cubiertos o en desarrollo, siempre que la lección nueva haga una contribución propia. Revisa nuestro documento de [Concordancia de Lecciones](https://docs.google.com/spreadsheets/d/1vrvZTygZLfQRoQildD667Xcgzhf_reQC8Nq4OD-BRIA/edit#gid=0) para ver qué métodos ya han sido cubiertos en nuestras lecciones publicadas o por publicar en alguno de los cuatro idiomas de Programming Historian.
 
