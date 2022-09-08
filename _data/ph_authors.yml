@@ -1307,8 +1307,9 @@
   email: marie.c.boucher@ggk.uni-giessen.de
   twitter: marie_c_boucher
   github: mariechristineb
-  team: true
+  team: false
   team_start: 2020
+  team_end: 2022
   institution: Justus-Liebig-Universität Gießen
   sortname: Boucher
   orcid: 0000-0002-2475-3184
