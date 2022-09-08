@@ -16,7 +16,7 @@ Escrever um tutorial é uma das melhores formas de se ensinar competências espe
 
 Simplesmente não aceitamos ou rejeitamos artigos como periódicos tradicionais. Os nossos editores vão acompanhar o processo para ajudar a elaborar a lição, para que esta seja o mais clara e útil possível. Essa é uma excelente forma de melhorar as suas capacidades de escrita sobre temas técnicos. Por favor, leia mais sobre o nosso [processo de submissão][submissions].
 
-Se desejar propor uma lição (escrita por si ou para outra pessoa escrever), envie um email para {% include managing-editor.html lang=page.lang %}.
+Se desejar propor uma lição (escrita por si ou para outra pessoa escrever), [envie um email ao Editor-Chefe](mailto:portugues@programminghistorian.org).
 
 ## Edite lições
 
@@ -57,7 +57,7 @@ A versão em Inglês do projeto está indexada no [Directory of Open Access Jour
 
 ## Envie uma sugestão
 
-Independente da forma como gostaria de se envolver no projeto, pode sempre enviar um email para {% include managing-editor.html lang=page.lang %} com comentários, perguntas, reclamações ou sugestões. Nós iremos nos esforçar para responder prontamente a todas as mensagens de email.
+Independente da forma como gostaria de se envolver no projeto, pode sempre [enviar um email ao Editor-Chefe](mailto:portugues@programminghistorian.org)  com comentários, perguntas, reclamações ou sugestões. Nós iremos nos esforçar para responder prontamente a todas as mensagens de email.
 
 Obrigado pela sua ajuda em melhorar o _Programming Historian em português_!
 
