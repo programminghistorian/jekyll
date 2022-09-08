@@ -2,10 +2,10 @@
 
 Se estiver interessado em escrever uma lição e enviá-la ao Programming Historian, preencha este formulário para fornecer ao Conselho Editorial detalhes suficientes para comentar a sua ideia. Se tiver dificuldades com o formulário, pode entrar em contato com o nosso Editor-chefe diretamente: 
 
-Inglês: Alex Wermer-Colan (alex.wermer-colan@temple.edu)
-Espanhol: Riva Quiroga (riva.quiroga@uc.cl)
-Francês: Sofia Papastamkou (spapastamkou@gmail.com)
-Português: Daniel Alves (dra@fcsh.unl.pt)
+Inglês: Alex Wermer-Colan (english@programminghistorian.org)
+Espanhol: Riva Quiroga (espanol@programminghistorian.org)
+Francês: Sofia Papastamkou (francais@programminghistorian.org)
+Português: Daniel Alves (portugues@programminghistorian.org)
 
 ## Sobre o autor
 1. Nome
