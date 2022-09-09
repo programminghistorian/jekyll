@@ -2,10 +2,10 @@
 
 Si vous souhaitez écrire un tutoriel et le soumettre au Programming Historian, merci de remplir cette fiche en fournissant toutes les informations qui permettront au comité éditorial de discuter de votre idée. Pour toute question sur ce formulaire, merci de contacter directement notre rédacteur ou rédactrice en chef:
 
-Anglais: Alex Wermer-Colan (alex.wermer-colan@temple.edu)
-Espagnol: Riva Quiroga (riva.quiroga@uc.cl)
-Français: Sofia Papastamkou (spapastamkou@gmail.com)
-Portugais: Daniel Alves (dra@fcsh.unl.pt)
+Anglais: Alex Wermer-Colan (english@programminghistorian.org)
+Espagnol: Riva Quiroga (espanol@programminghistorian.org)
+Français: Sofia Papastamkou (francais@programminghistorian.org)
+Portugais: Daniel Alves (portugues@programminghistorian.org)
 
 
 ## Vous

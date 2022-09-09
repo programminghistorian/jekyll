@@ -15,7 +15,7 @@ skip_validation: true
 <h2 class="noclear">Step 3: <a href="#step-3-submitting-a-new-lesson">Submitting a New Lesson</a></h2>  
 
 
-These guidelines have been developed to help you understand the process of creating a tutorial for the English *Programming Historian*. They include practical and philosophical details of the tutorial writing process, as well as an indication of the workflow and the peer review process. If at any time you are unclear, please email the managing editor, {% include managing-editor.html lang=page.lang %}.
+These guidelines have been developed to help you understand the process of creating a tutorial for the English *Programming Historian*. They include practical and philosophical details of the tutorial writing process, as well as an indication of the workflow and the peer review process. If at any time you are unclear, please [email the managing editor](mailto:english@programminghistorian.org).
 
 ## Step 1: Proposing a New Lesson
 
@@ -25,7 +25,7 @@ We welcome tutorials relevant to the humanities, pitched at any level of technic
 The scope and length of the tutorial should be appropriate to the complexity of the task. Tutorials should not exceed 8,000 words (including code). Shorter lessons are welcome. Longer lessons may need to be split into multiple tutorials.
 </div>
 
-If you have an idea for a new lesson, complete a lesson [proposal form](/assets/forms/Lesson.Query.Form.txt) and send it to {% include managing-editor.html lang=page.lang %}.
+If you have an idea for a new lesson, complete a lesson [proposal form](/assets/forms/Lesson.Query.Form.txt) and send it to [the managing editor](mailto:english@programminghistorian.org).
 
 You can get a sense of what we publish by looking through our [published lessons]({{site.baseurl}}/en/lessons), reading our [reviewer guidelines]({{site.baseurl}}/en/reviewer-guidelines) or browsing [lessons in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). Please also take a moment to check our [Lesson Concordance document](https://docs.google.com/spreadsheets/d/1vrvZTygZLfQRoQildD667Xcgzhf_reQC8Nq4OD-BRIA/edit#gid=0) to see which methods we have already covered in our published or forthcoming lessons. 
 

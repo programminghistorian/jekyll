@@ -16,7 +16,7 @@ Writing a tutorial is one of the best ways to teach yourself particular skills a
 
 We don't simply accept or reject articles like traditional journals. Our editors collaborate with you to help craft your essay to be as clear and as useful as possible--a great way to improve your technical writing skills. Please read more about our [submission process]({{site.baseurl}}/en/author-guidelines).
 
-If you'd like to propose a lesson (for you or for someone else to write), email {% include managing-editor.html lang=page.lang %}.
+If you'd like to propose a lesson (for you or for someone else to write), [email the managing editor](mailto:english@programminghistorian.org).
 
 
 ## Edit lessons
@@ -61,7 +61,7 @@ The English edition of the project is indexed by the [Directory of Open Access J
 
 ## Make a suggestion
 
-No matter how you'd like to be involved, you can always email {% include managing-editor.html lang=page.lang %} with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails promptly.
+No matter how you'd like to be involved, you can always [email the managing editor](mailto:english@programminghistorian.org) with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails promptly.
 
 
 Thanks for your help in improving the _Programming Historian_!

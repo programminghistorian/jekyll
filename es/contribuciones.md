@@ -27,7 +27,7 @@ Escribir un tutorial es una de las mejores maneras de profundizar en un método 
 
 Nuestro objetivo no es aceptar o rechazar artículos como una revista académica tradicional. Por el contrario, nuestro equipo editorial colaborará y te ayudará a mejorar la escritura de la lección y cómo plantearla de manera adecuada para que resulte clara y útil. Nuestro proceso de revisión contribuye a mejorar las lecciones y tu destreza a la hora de escribir sobre temas técnicos o especializados. Por favor, no dudes en leer más sobre el proceso de [envío].
 
-Si quieres proponer una lección (escrita por ti o por otra persona), envía un email a {% include managing-editor.html lang=page.lang %}.
+Si quieres proponer una lección (escrita por ti o por otra persona), [envía un email al Jefe de redacción](mailto:espanol@programminghistorian.org).
 
 ## Conviértete en editor
 
@@ -62,7 +62,7 @@ Este proyecto se propone demostrar cómo deben ser las publicaciones académicas
 
 ## O simplemente ponte en contacto con nosotros
 
-Si se te ocurren más formas de participación, siempre puedes escribirnos un email a {% include managing-editor.html lang=page.lang %} con comentarios, preguntas, quejas o sugerencias. Nos comprometemos a responder a todos los mensajes tan pronto como sea posible.
+Si se te ocurren más formas de participación, siempre puedes [escribirnos un email al Jefe de redacción](mailto:espanol@programminghistorian.org) con comentarios, preguntas, quejas o sugerencias. Nos comprometemos a responder a todos los mensajes tan pronto como sea posible.
 
 ¡Gracias por ayudarnos a mejorar _Programming Historian en español_!
 
