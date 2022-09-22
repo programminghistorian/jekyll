@@ -368,7 +368,7 @@ footer:
     pt: Subscrição RSS feed
   retirement: 
     en: Lesson retirement policy
-    es: Política de retirada de lecciones
+    es: Política de retiro de lecciones
     fr: Politique de retrait des leçons
     pt: Política de remoção de lições
   trans-concordance: 
@@ -607,7 +607,7 @@ donation-banner:
 # lesson-partners: [JISC, The National Archives] 
 lesson-partners: 
   en: This tutorial is part of a special series in partnership with
-  es: ES - This tutorial is part of a special series in partnership with
+  es: ES - Este tutorial es parte de una serie especial en colaboración con
   fr: FR - This tutorial is part of a special series in partnership with
   pt: PT - This tutorial is part of a special series in partnership with
 # Link to partnership page
@@ -618,8 +618,8 @@ partnership-url:
     blurb: To see other tutorials published as part of this partnership
     clickable-text: click here
   es:
-    blurb: ES - To see other tutorials published as part of this partnership
-    clickable-text: ES - click here
+    blurb: ES - Para ver otros tutoriales publicados como parte de esta colaboración
+    clickable-text: ES - haz clic aquí
   fr: 
     blurb: FR - To see other tutorials published as part of this partnership
     clickable-text: FR - click here
