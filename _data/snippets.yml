@@ -606,7 +606,7 @@ donation-banner:
 # Content of 'lesson-partners' for each tutorial should be an array with the names of the partners, as they will appear to readers, i.e:
 # lesson-partners: [JISC, The National Archives] 
 lesson-partners: 
-  en: This tutorial is part of a special series in partnership with
+  en: This lesson is part of a special series in partnership with
   es: ES - Esta lección es parte de una serie especial en colaboración con
   fr: FR - Cette leçon fait partie d'une série spéciale en partenariat avec
   pt: PT - Esta lição faz parte de uma série especial em parceria com
