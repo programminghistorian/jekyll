@@ -8,13 +8,16 @@ original: research
 
 El equipo del proyecto y los miembros de la comunidad en general están involucrados en una serie de iniciativas académicas relacionadas con nuestro trabajo aquí en *The Programming Historian*. Estas iniciativas incluyen eventos, artículos en revistas académicas, reseñas (de nosotros por la comunidad) y carteles. Si tú estás desarrollando una investigación académica usando los materiales de este proyecto, por favor contacta con nuestra asistente de publicación <a href="mailto:admin@programminghistorian.org">Anisa Hawes</a>.
 
+## *Programming Historian* original
+* William J. Turkel y Alan MacEachern, [_The Programming Historian_](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) 1a edición (Network in Canadian History &amp; Environment: 2007-2008).
+ 
 ### Reseñas
 * Björn Ekström, Elisa Tattersall Wallin and Hana Marčetić, '[_Programming Historian_: Novice-friendly tutorials on digital methods](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1508542&dswid=7551)', _Tidskrift för ABM_, Vol. 5, no 1 (2020), pp. 71-75.
 * Dries Daems, '[A Review and Roadmap of Online Learning Platforms and Tutorials in Digital Archaeology](https://doi.org/10.1017/aap.2019.47)', _Advances in Archaeological Practice_, vol. 8, issue 1 (2020),  pp. 87-92.
-* Priscila Pilatowsky Goñi, '[Reseña a The programming historian](https://web.archive.org/web/20200204025256/http://revistas.uned.es/index.php/RHD/article/view/22420/18522)', _Revista de Humanidades Digitales_, vol. 2 (2018).
+* Martin Dröge, '[Review of: The Programming Historian](https://www.hsozkult.de/webreview/id/rezwww-184)', _H-Soz-Kult_ (2019).
+* Priscila Pilatowsky Goñi, '[Reseña a The programming historian](https://revistas.uned.es/index.php/RHD/article/view/22420)', _Revista de Humanidades Digitales_, vol. 2 (2018).
 * Lincoln Mullen, '[Review of the Programming Historian]', *The Journal of American History*, vol. 103, no. 1 (2016), pp. 299-301.
 * Cameron Blevins, ‘[Review of the Programming Historian]’, *The Journal of Interactive Technology &amp; Pedagogy*, vol. 8 (2015).
-
 
 ### Investigación publicada
 
@@ -31,10 +34,13 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Reportes
 
+* Incllewsion and the Programming Historian, 'Initial Accessibility Testing: Summary of Findings', (2021).
 * Penny Andrews and the Programming Historian, ['The Programming Historian: developing and sustaining impact in the Global South'](http://doi.org/10.5281/zenodo.3813763) (2020).
+* Amy Kavanagh and the Programming Historian, 'Programming Historian – Access for visually impaired researchers', (n.d.).
 
 ### Talleres y eventos
 
+* Daniel Alves, Adam Crymble, Victor Gayol and Lucia Michielin, '[_Digital Humanities Roundtable: 'Where' affects 'How' we teach'_](https://www.eventbrite.co.uk/e/digital-humanities-roundtable-where-affects-how-we-teach-tickets-394224866187)', University College London, Reino Unido, (8 de septiembre 2022).
 * Gisele Almeida & Anisa Hawes, '_History Past, Present & Future - The IHR Centenary Festival_', Institute of Historical Research & Senate House, Reino Unido, (15 de julio 2022).
 * Sofia Papastamkou, Hugues Pecout, Sébastien Rey-Coyrehourcq, Timothée Giraud, Gwenaëlle Patat, Margot Mellet, Servanne Monjour & Nicolas Sauret, ‘_Programming Historian en français_, Rzine, ... & Tutos: Faire communauté autour des dispositifs et des formats alternatifs du savoir’, [Colloque Humanistica 2022: Association francophone des humanités numériques](https://humanistica2022.sciencesconf.org/program/details), (18 mayo 2022).
 * Jennifer Isasi & Brandon Walsh with Gabi Kirilloff, ‘[_Programming Historian_ Workshop on Twine in the Classroom](https://ach.org/blog/2022/02/15/ach-programming-historian-workshop-on-twine-in-the-classroom/)’, Association for Computers and the Humanities, Estados Unidos (13 abril 2022).
