@@ -32,9 +32,9 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Shawn Graham, Ian Milligan et Scott Weingart, [_Exploring Big Historical Data: The Historian's Macroscope_](http://www.themacroscope.org/2.0/), (Imperial College Press, 2015).
 
 ## Rapports
-* Incllewsion and the Programming Historian, 'Initial Accessibility Testing: Summary of Findings', (2021).
+* Incllewsion et l'équipe du Programming Historian, 'Initial Accessibility Testing: Summary of Findings', (2021).
 * Penny Andrews et l'équipe du Programming Historian, ['The Programming Historian: developing and sustaining impact in the Global South'](http://doi.org/10.5281/zenodo.3813763) (2020).
-* Amy Kavanagh et the Programming Historian, 'Programming Historian – Access for visually impaired researchers', (n.d.).
+* Amy Kavanagh et l'équipe du Programming Historian, 'Programming Historian – Access for visually impaired researchers', (n.d.).
 
 ## Ateliers et manifestations
 
