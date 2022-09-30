@@ -607,9 +607,9 @@ donation-banner:
 # lesson-partners: [JISC, The National Archives] 
 lesson-partners: 
   en: This lesson is part of a special series in partnership with
-  es: ES - Esta lección es parte de una serie especial en colaboración con
-  fr: FR - Cette leçon fait partie d'une série spéciale en partenariat avec
-  pt: PT - Esta lição faz parte de uma série especial em parceria com
+  es: Esta lección es parte de una serie especial en colaboración con
+  fr: Cette leçon fait partie d'une série spéciale en partenariat avec
+  pt: Esta lição faz parte de uma série especial em parceria com
 # Link to partnership page
 # Content of 'partnership-url' for each tutorial should be the address for the partnership page (sans .md), i.e.:
 # partnership-url: /jisc-tna-partnership
@@ -618,14 +618,14 @@ partnership-url:
     blurb: To browse other lessons in this series
     clickable-text: click here
   es:
-    blurb: ES - Para ver otras lecciones publicados como parte de esta colaboración
-    clickable-text: ES - haz clic aquí
+    blurb: Para ver otras lecciones publicados como parte de esta colaboración
+    clickable-text: haz clic aquí
   fr: 
-    blurb: FR - Pour consulter les autres leçons de cette série
-    clickable-text: FR - cliquez ici
+    blurb: Pour consulter les autres leçons de cette série
+    clickable-text: cliquez ici
   pt:
-    blurb: PT - Para consultar outras lições desta série
-    clickable-text: PT - clique aqui
+    blurb: Para consultar outras lições desta série
+    clickable-text: clique aqui
 
 # Included in the lesson.html layout when a lesson has been marked as retired, and is not to be displayed on the main directory.
 retired:
