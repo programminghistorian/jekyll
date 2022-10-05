@@ -16,7 +16,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/418
 difficulty: 2
 activity: analyzing
 topics: [python, data-manipulation]
-abstract: "This lesson is intended to teach you how to apply GPT-2, one of the largest existing language models, to a large-scale text corpus in order to produce automatically-written responses to prompts based on the contents of the corpora, allowing you to locate the broader themes and trends that emerge from within this body of work. This will be done by using a Python package implementation of GPT-2. In the process of learning this method of exploratory data analysis, you will also gain insight into common machine learning terminology and concepts that can be applied to similar techniques in other branches of machine learning. Beyond simply interrogating history, we will also interrogate the ethics of producing this form of research, from its greater impact on the environment to how even a single passage of text generated can be misinterpreted and recontextualized."
+abstract: "In this lesson, you will learn how to apply a Generative Pre-trained Transformer language model to a large-scale corpus so that you can locate broad themes and trends within written text."
 avatar_alt: Illustration of different types of magnifying glasses on a page of text.
 doi: 10.46430/phen0104 
 ---
