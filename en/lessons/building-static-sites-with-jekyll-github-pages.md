@@ -524,7 +524,7 @@ You can customize the current theme of your website by making changes to the fil
 
 Or, you can add in (and further customize, if desired) a theme already created by someone else by searching for "Jekyll themes" or trying one of these resources:
 
-- [Alex Gil's "Ed" theme for minimal digital editions](https://elotroalex.github.io/ed/) and [its documentation](https://elotroalex.github.io/ed/documentation) (free)
+- [Alex Gil's "Ed" theme for minimal digital editions](https://github.com/minicomp/ed/) and [its documentation](https://github.com/minicomp/ed/blob/main/documentation.md) (free)
 - [Rebecca Sutton Koeser's "Digital Edition" theme](https://github.com/emory-libraries-ecds/digitaledition-jekylltheme) (free)
 - The [Jekyll Themes](http://jekyllthemes.org/) directory (free)
 - [JekyllThemes.io](http://jekyllthemes.io/) (free and paid)
