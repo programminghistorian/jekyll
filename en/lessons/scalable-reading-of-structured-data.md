@@ -3,7 +3,6 @@ title: "Scalable Reading of Structured Data"
 collection: lessons
 layout: lesson
 slug: scalable-reading-of-structured-data
-redirect_from: "/lessons/scalable-reading-of-structured-data"
 date: 2022-10-04
 authors:
 - Max Odsbjerg Pedersen
