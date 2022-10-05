@@ -18,6 +18,7 @@ activity: analyzing
 topics: [python, data-manipulation]
 abstract: "In this lesson, you will learn how to apply a Generative Pre-trained Transformer language model to a large-scale corpus so that you can locate broad themes and trends within written text."
 avatar_alt: Illustration of different types of magnifying glasses on a page of text.
+lesson-partners: [JISC, The National Archives] 
 doi: 10.46430/phen0104 
 ---
 
