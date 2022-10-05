@@ -2715,10 +2715,38 @@
       Melvin Wevers é Professor Assistente de Métodos Digitais no Departamento de História da Universidade de Amesterdão.
     es: |
       Melvin Wevers es Profesor Asistente de Métodos Digitales en el Departamento de Historia de la Universidad de Ámsterdam.
-
-- name: Chantal Brousseau
+---
+- name: Max Odsbjerg Pedersen 
   team: false
-  orcid: 0000-0002-4649-059X
+  orcid: 0000-0001-9215-5605
   bio:
       en: |
-          Chantal Brousseau is an MA candidate in the History and Data Science program at Carleton University. Her research focuses on applications of machine learning and computational creativity to the study of historical data.
+          Max Odsbjerg Pedersen is an Information Specialist at Aarhus University Library at the Royal Danish Library
+
+- name: Josephine Møller Jensen
+  team: false
+  orcid: 
+  bio:
+      en: |
+          Josephine Møller Jensen is an MA student in the Department of History and Classical Studies, Aarhus University
+
+- name: Victor Harbo Johnston
+  team: false
+  orcid: 
+  bio:
+      en: |
+          Victor Harbo Johnston is an MA student in the Department of History and Classical Studies, Aarhus University
+
+- name: Alexander Ulrich Thygensen
+  team: false
+  orcid:
+  bio:
+      en: |
+          Alexander Ulrich Thygesen is a Ph.D. student in the Department of German and Roman Languages, Aarhus University
+
+- name: Helle Strandgaard Jensen
+  team: false
+  orcid: 0000-0002-8623-9586
+  bio:
+      en: |
+          Helle Strandgaard Jensen is Associate Professor of Contemporary Cultural History in the Department of History and Classical Studies, Aarhus University
