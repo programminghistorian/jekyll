@@ -598,7 +598,7 @@ El diseño visual de un sitio web es referido usualmente como el *tema* (aunque 
 
 Puedes personalizar el tema de tu sitio realizando cambios en los archivos que se encuentran en las carpetas `_sass` y `css`. (lamentablemente, en sus versiones más recientes, Jekyll comenzó a usar SASS en lugar de CSS, lo que hace que sea más difícil aprender a personalizarlas para los no-diseñadores). También puedes añadir (y luego personalizar, si lo deseas) un tema creado por alguien más, a los que puedes acceder realizando una búsqueda con el término "Jekyll themes" en alguno de los siguientes recursos:  
 
-- Tema ["Ed" para ediciones digitales mínimas](https://elotroalex.github.io/ed/), de Alex Gil  (gratis)
+- Tema ["Ed" para ediciones digitales mínimas](https://github.com/minicomp/ed/), de Alex Gil  (gratis)
 - Tema ["Digital Edition"](https://github.com/emory-libraries-ecds/digitaledition-jekylltheme), de Rebecca Sutton Koese (gratis)
 - El directorio de [Jekyll Themes](http://jekyllthemes.org/) (gratis)
 - [JekyllThemes.io](http://jekyllthemes.io/) (gratis y pago)
