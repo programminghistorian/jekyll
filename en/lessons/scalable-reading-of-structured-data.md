@@ -8,7 +8,7 @@ authors:
 - Max Odsbjerg Pedersen
 - Josephine Møller Jensen
 - Victor Harbo Johnston
-- Alexander Ulrich Thygelsen
+- Alexander Ulrich Thygesen
 - Helle Strandgaard Jensen
 reviewers:
 - Frédéric Clavert
@@ -25,8 +25,6 @@ doi: 10.46430/phen0103
 ---
 
 {% include toc.html %}
-
---
 
 # Lesson Aims
 

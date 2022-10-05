@@ -2670,7 +2670,6 @@
     - proghist
   status: institutionally-supported          
   
-  
 - name: Thomas Smits
   orcid: 0000-0001-8579-824X
   team: false
@@ -2681,6 +2680,7 @@
       Thomas Smits é pós-doutor em History of Bias Project na Universidade de Antuérpia
     es: |
       Thomas Smits es un postdoctorado en el Proyecto de Historia del Sesgo en la Universidad de Amberes.
+
 - name: Kaspar Beelen
   orcid: 0000-0001-7331-1174
   team: false
@@ -2691,6 +2691,7 @@
       Kaspar Beelen es investigador asociado en humanidades digitales para el proyecto Living with Machines.
     pt: |
       Kaspar Beelen é Pesquisador Associado em Humanidades Digitais para o projeto Living with Machines.
+
 - name: Katherine McDonough
   team: false
   orcid: 0000-0001-7506-1025
@@ -2704,7 +2705,6 @@
     fr: | 
       Katherine McDonough est une chercheuse postdoctorale en histoire pour le project Living with Machines et la directrice du project Machines Reading Maps au Alan Turing Institute.
       
-      
 - name: Melvin Wevers
   orcid: 0000-0001-8177-4582
   team: false
@@ -2715,38 +2715,35 @@
       Melvin Wevers é Professor Assistente de Métodos Digitais no Departamento de História da Universidade de Amesterdão.
     es: |
       Melvin Wevers es Profesor Asistente de Métodos Digitales en el Departamento de Historia de la Universidad de Ámsterdam.
----
+
 - name: Max Odsbjerg Pedersen 
   team: false
   orcid: 0000-0001-9215-5605
   bio:
-      en: |
-          Max Odsbjerg Pedersen is an Information Specialist at Aarhus University Library at the Royal Danish Library
+    en: |
+      Max Odsbjerg Pedersen is an Information Specialist at Aarhus University Library at the Royal Danish Library.
 
 - name: Josephine Møller Jensen
   team: false
-  orcid: 
   bio:
-      en: |
-          Josephine Møller Jensen is an MA student in the Department of History and Classical Studies, Aarhus University
+    en: |
+      Josephine Møller Jensen is an MA student in the Department of History and Classical Studies, Aarhus University.
 
 - name: Victor Harbo Johnston
   team: false
-  orcid: 
   bio:
-      en: |
-          Victor Harbo Johnston is an MA student in the Department of History and Classical Studies, Aarhus University
+    en: |
+      Victor Harbo Johnston is an MA student in the Department of History and Classical Studies, Aarhus University.
 
-- name: Alexander Ulrich Thygensen
+- name: Alexander Ulrich Thygesen
   team: false
-  orcid:
   bio:
-      en: |
-          Alexander Ulrich Thygesen is a Ph.D. student in the Department of German and Roman Languages, Aarhus University
+    en: |
+      Alexander Ulrich Thygesen is a Ph.D. student in the Department of German and Roman Languages, Aarhus University.
 
 - name: Helle Strandgaard Jensen
   team: false
   orcid: 0000-0002-8623-9586
   bio:
-      en: |
-          Helle Strandgaard Jensen is Associate Professor of Contemporary Cultural History in the Department of History and Classical Studies, Aarhus University
+    en: |
+      Helle Strandgaard Jensen is Associate Professor of Contemporary Cultural History in the Department of History and Classical Studies, Aarhus University.
