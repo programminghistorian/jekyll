@@ -3,7 +3,8 @@ title: "Scalable Reading of Structured Data"
 collection: lessons
 layout: lesson
 slug: scalable-reading-of-structured-data
-date: YYYY-MM-DD
+redirect_from: "/lessons/scalable-reading-of-structured-data"
+date: 2022-10-04
 authors:
 - Max Odsbjerg Pedersen
 - Josephine Møller Jensen
@@ -21,7 +22,7 @@ activity: analyzing
 topics: [api]
 abstract: In this lesson, you will be introduced to 'scalable reading' and how to apply this workflow to your analysis of structured data.
 avatar_alt: A set of magnifying glass
-doi: TBC
+doi: 10.46430/phen0103
 ---
 
 {% include toc.html %}
