@@ -130,7 +130,7 @@ If your web browser does not open automatically, Jupyter can be accessed by goin
 
 {% include figure.html filename="notebook-start.png" caption="A freshly started Jupyter notebook instance." %}
 
-Jupyter is now showing a directory structure from your home folder. Navigate to the lesson folder where you unzipped [lesson_files.zip](https://github.com/programminghistorian/ph-submissions/raw/gh-pages/assets/extracted-features-lesson_files.zip).
+Jupyter is now showing a directory structure from your home folder. Navigate to the lesson folder where you unzipped [lesson_files.zip](/assets/text-mining-with-extracted-features/extracted-features-lesson_files.zip).
 
 In the lesson folder, open `Start Here.pynb`: your first notebook!
 
