@@ -1,16 +1,16 @@
 ---
-title: Lecciones publicadas en colaboración con JISC y The National Archives
+title: Lecciones publicadas en colaboración con Jisc y The National Archives
 layout: blank
 redirect_from: /jisc-tna-partnership
 ---
 
-# Lecciones publicadas en colaboración con [JISC](https://www.jisc.ac.uk/) y [The National Archives](https://www.nationalarchives.gov.uk/)
+# Lecciones publicadas en colaboración con [Jisc](https://www.jisc.ac.uk/) y [The National Archives](https://www.nationalarchives.gov.uk/)
 
 <!-- Partnership blurb -->
-Esta lección es parte de una serie especial sobre análisis computacional a gran escala de colecciones digitales. Se publica con el generoso apoyo y colaboración de [Jisc](https://www.jisc.ac.uk/) y [The National Archives](https://www.nationalarchives.gov.uk/).
+Estas lecciones forman parte de una serie especial sobre análisis computacional a gran escala de colecciones digitales. Se publican con el generoso apoyo y colaboración de [Jisc](https://www.jisc.ac.uk/) y [The National Archives](https://www.nationalarchives.gov.uk/).
 
 <!-- Defines an array to find the lessons that are part of the partnership -->
-{% assign partnership = "JISC, The National Archives" | split: ", " %}
+{% assign partnership = "Jisc, The National Archives" | split: ", " %}
 
 <!-- Loops through the lessons to find the ones that are part of the partnership -->
 {% for lesson in site.pages %}
