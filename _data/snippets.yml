@@ -602,9 +602,9 @@ donation-banner:
       <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Pode fazer uma doação ao <i>Programming Historian</i></a></h2>
 
 
-# Partnership information, for when a lesson is the product of a specific partnership (i.e., PH/JISC/TNA)
+# Partnership information, for when a lesson is the product of a specific partnership (i.e., PH/Jisc/TNA)
 # Content of 'lesson-partners' for each tutorial should be an array with the names of the partners, as they will appear to readers, i.e:
-# lesson-partners: [JISC, The National Archives] 
+# lesson-partners: [Jisc, The National Archives] 
 lesson-partners: 
   en: This lesson is part of a special series in partnership with
   es: Esta lección es parte de una serie especial en colaboración con
