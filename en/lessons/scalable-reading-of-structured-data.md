@@ -21,6 +21,8 @@ activity: analyzing
 topics: [api]
 abstract: In this lesson, you will be introduced to 'scalable reading' and how to apply this workflow to your analysis of structured data.
 avatar_alt: A set of magnifying glass
+lesson-partners: [Jisc, The National Archives]
+partnership-url: /jisc-tna-partnership
 doi: 10.46430/phen0103
 ---
 
