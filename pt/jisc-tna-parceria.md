@@ -1,7 +1,7 @@
 ---
 title: Lições publicadas em parceria com Jisc e The National Archives
 layout: blank
-redirect_from: /jisc-tna-partnership
+original: jisc-tna-partnership
 ---
 
 # Lições publicadas em parceria com [Jisc](https://www.jisc.ac.uk/) e [The National Archives](https://www.nationalarchives.gov.uk/)

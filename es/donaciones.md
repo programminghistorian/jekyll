@@ -4,7 +4,7 @@ title: Colaboradores individuales
 redirect_from:
 - donaciones
 - /es/apoyanos
-
+original: individual
 ---
 
 # Colaboradores individuales

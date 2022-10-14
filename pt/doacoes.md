@@ -4,6 +4,7 @@ title: Apoiadores individuais
 redirect_from:
 - doacoes
 - /pt/apoie-nos
+original: individual
 ---
 
 # Apoiadores individuais

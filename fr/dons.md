@@ -4,7 +4,7 @@ title: Dons
 redirect_from: 
 - dons
 - /fr/nous-soutenir
-
+original: individual
 ---
 
 # Dons individuels

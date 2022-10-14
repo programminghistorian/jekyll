@@ -3,7 +3,7 @@ layout: blank
 title: Partenariat Institutionnele
 redirect_from: 
 - /pi
-
+original: ipp
 ---
 
 

@@ -1,9 +1,7 @@
 ---
 title: Guía para traductores
 layout: blank
-redirect_from:
- - /new-lesson-workflow
- - /translator-guidelines
+original: translator-guidelines
 skip_validation: true
 ---
 

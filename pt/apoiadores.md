@@ -4,6 +4,7 @@ title: Nossos Apoiadores
 redirect_from:
 - apoiadores
 - /pt/apoie-nos
+original: supporters
 ---
 
 # Nossos Apoiadores

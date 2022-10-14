@@ -4,6 +4,7 @@ title: Programa de Parceria Institucional
 redirect_from:
 - ppi
 - /pt/apoie-nos
+original: ipp
 ---
 
 # Programa de Parceria Institucional
