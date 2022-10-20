@@ -36,7 +36,7 @@ In this lesson, you will learn:
 -   The concept and practice of 'reactive programming', as implemented by Shiny applications. Specifically, you'll learn how you can use Shiny to 'listen' for certain inputs, and how they are connected to outputs displayed in your app.
 
 <div class="alert alert-info">
-Note that this lesson doesn't teach any coding in R, other than what's necessary to create the web application, nor does it cover publishing the finished application to the web. A basic knowledge of R, particularly using the <a href='/en/lessons/data_wrangling_and_management_in_R'>tidyverse </a>, would be very useful.
+Note that this lesson doesn't teach any coding in R, other than what's necessary to create the web application, nor does it cover publishing the finished application to the web. A basic knowledge of R, particularly using the <a href='/en/lessons/data_wrangling_and_management_in_R'>tidyverse</a>, would be very useful.
 </div>
 
 ### Graphical User Interfaces and the Digital Humanities  
