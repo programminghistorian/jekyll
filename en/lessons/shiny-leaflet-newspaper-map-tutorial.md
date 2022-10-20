@@ -106,7 +106,7 @@ First, however, you need to set up the correct programming environment and creat
 
 ### Install R and Rstudio
 
-Tp get started with this tutorial, you should install the latest versions of [R](https://cran.rstudio.com/) and [Rstudio](https://www.rstudio.com/products/rstudio/download/) on your local machine. The R programming language has a very popular IDE (Integrated Development Environment) called RStudio, which is often used alongside R, as it provides a large set of features to make coding in the language more convenient. We'll use RStudio throughout the lesson.
+To get started with this tutorial, you should install the latest versions of [R](https://cran.rstudio.com/) and [Rstudio](https://www.rstudio.com/products/rstudio/download/) on your local machine. The R programming language has a very popular IDE (Integrated Development Environment) called RStudio, which is often used alongside R, as it provides a large set of features to make coding in the language more convenient. We'll use RStudio throughout the lesson.
 
 Previous *Programming Historian* lessons have covered [working with R](/en/lessons/r-basics-with-tabular-data) and [working with the tidyverse](/en/lessons/data_wrangling_and_management_in_R). It would be useful to go through these lessons beforehand, to learn the basics of installing R and using the tidyverse for data wrangling.
 
@@ -310,7 +310,7 @@ The following code will create a slider with two draggable ends, set by default 
 sliderInput('years', 'Years', min = 1621, max = 2000, value = c(1700, 1750))
 ```
 
-Insert this code *between the parentheses of the `sidebarPanel = sidebarPanel( )` command* in your script. If you get lost or need to debug, take a look at [the finished code](#Final-code) provided at the end of this lesson.
+Insert this code between the parentheses of the `sidebarPanel = sidebarPanel( )` command in your script. If you get lost or need to debug, take a look at [the finished code](#Final-code) provided at the end of this lesson.
 
 At this point, run the application to see how the slider looks. You should see a grey panel on the left (the sidebar panel), containing the slider widget. If you hover over the slider, you'll notice that you can drag each end (to select a range size) and you can also drag the middle (which will move the entire slider over a window of the selected range size).
 
