@@ -36,7 +36,7 @@ In this lesson, you will learn:
 -   The concept and practice of 'reactive programming', as implemented by Shiny applications. Specifically, you'll learn how you can use Shiny to 'listen' for certain inputs, and how they are connected to outputs displayed in your app.
 
 <div class="alert alert-info">
-Note that this lesson doesn't teach any coding in R, other than what's necessary to create the web application, nor does it cover publishing the finished application to the web. A basic knowledge of R, particularly using the [tidyverse](/en/lessons/data_wrangling_and_management_in_R), would be very useful.
+Note that this lesson doesn't teach any coding in R, other than what's necessary to create the web application, nor does it cover publishing the finished application to the web. A basic knowledge of R, particularly using the <a href='/en/lessons/data_wrangling_and_management_in_R'>tidyverse </a>, would be very useful.
 </div>
 
 ### Graphical User Interfaces and the Digital Humanities  
@@ -76,9 +76,9 @@ The newspaper industry (and therefore the collection) grew from a tiny number of
 
 For this tutorial you will need to download two files: first, a title-level list of British and Irish newspapers (which will be referred to as the 'title list') and second, a helper dataset of place names and coordinates (which we'll refer to as the 'coordinates list') for matching the places found in the title list to locations on a map.
 
-1. To get the title list, visit the [British Library repository](https://bl.iro.bl.uk/concern/datasets/7da47fac-a759-49e2-a95a-26d49004eba8?locale=en). The list is available on the repository in two formats: either a .zip file containing a .csv and a readme, or as an Excel spreadsheet. For this lesson, we'll work with the .csv format. Download the .zip file, and unzip it. Alternatively, you can download a copy of the dataset used in this tutorial on Github. To download this file, just view the [raw](https://raw.githubusercontent.com/programminghistorian/ph-submissions/gh-pages/assets/shiny-leaflet-newspaper-map-tutorial-data/BritishAndIrishNewspapersTitleList_20191118.csv) version and save the page locally.
+1\. To get the title list, visit the [British Library repository](https://bl.iro.bl.uk/concern/datasets/7da47fac-a759-49e2-a95a-26d49004eba8?locale=en). The list is available on the repository in two formats: either a .zip file containing a .csv and a readme, or as an Excel spreadsheet. For this lesson, we'll work with the .csv format. Download the .zip file, and unzip it. Alternatively, you can download a copy of the dataset used in this tutorial on Github. To download this file, just view the [raw](https://raw.githubusercontent.com/programminghistorian/ph-submissions/gh-pages/assets/shiny-leaflet-newspaper-map-tutorial-data/BritishAndIrishNewspapersTitleList_20191118.csv) version and save the page locally.
 
-2. The coordinates list is also available on Github. To download this file of coordinates, just view the [raw](https://raw.githubusercontent.com/programminghistorian/ph-submissions/gh-pages/assets/shiny-leaflet-newspaper-map-tutorial-data/newspaper_coordinates.csv) version and likewise save the page locally.
+2\. The coordinates list is also available on Github. To download this file of coordinates, just view the [raw](https://raw.githubusercontent.com/programminghistorian/ph-submissions/gh-pages/assets/shiny-leaflet-newspaper-map-tutorial-data/newspaper_coordinates.csv) version and likewise save the page locally.
 
 ### Understanding the Title List  
 
@@ -142,17 +142,17 @@ The latest instructions and further details can be found on the [package Github 
 
 A Shiny application consists of a script file with a special, reserved filename, `app.R`, which tells R Studio to treat that script as an application and open it in a web browser when it is run. In this first section, you will create an application which will load the relevant libraries and datasets, and display a test 'Hello World' message. To do this, carry out the following steps:  
 
-1. Set up an Application Folder
+1\. Set up an Application Folder
 
 It's good practice to put all the necessary files for the application in their own folder, within the RStudio project. Do this by creating a new folder called 'newspaper-app' within the folder of the RStudio project you just created. Place the files you downloaded above (`BritishAndIrishNewspapersTitleList_20191118.csv` and `newspaper_coordinates.csv`) into this new folder.
 
-2. Make the app.R file.
+2\. Make the app.R file.
 
 With RStudio open, click File-\> New file -\> R Script. Use the menu or `command/ctrl + s` to save the file. Navigate to the new folder you've just created, and save the file there, entering `app.R` as the file name. You should now have the following files in the 'newspaper-app' folder you just created:
 
 {% include figure.html filename="shiny-leaflet-newspaper-map-tutorial-1.png" alt="Figure 1. A Screenshot of the R file pane, showing the files needed. There are three files in total, App.R, the british and Irish newspapers csv, and the newspaper coordinates csv." caption="Figure 1. Screenshot of application folder showing the files needed." %}
 
-3. Load the relevant libraries
+3\. Load the relevant libraries
 
 <div class="alert alert-warning">
 It's important to note that, unlike many tutorials, the code you're about to enter will not work if run line-by-line, but only when the enire `app.R` script itself is run from within RStudio.
@@ -167,7 +167,7 @@ library(sf)
 library(leaflet)
 ```
 
-4. Load the datasets  
+4\. Load the datasets  
 
 Next, the app should load the title list and coordinates list files as dataframes called `title_list` and `coordinates_list` respectively. Add the following line to your `app.R` script, which should be displayed in the top-left panel of RStudio. Note that because the working directory is different from your app directory, these commands will only work when you run the app itself.
 
@@ -182,15 +182,15 @@ coordinates_list = read_csv('newspaper_coordinates.csv')
 
 To turn this into a Shiny application, this `app.R` script needs three elements:
 
-1.   The **UI**, where the visual appearance of the app will be stored.
+1\.   The **UI**, where the visual appearance of the app will be stored.
 
-2.   The **server**, which will contain the code used.
+2\.   The **server**, which will contain the code used.
 
-3.  The command to run the application itself.
+3\.  The command to run the application itself.
 
 Next you'll create each of these in turn.
 
-1. Create an Empty UI Element
+1\. Create an Empty UI Element
 
 The UI is an element which will contain a number of special Shiny commands to define how the application will look. We'll examine the specific options below, but generally, you begin by specifying a page type, within which the various components of the UI are nested; then, a layout type, within that the specific layout elements; and finally within these, the various components of the app itself.
 
@@ -207,7 +207,7 @@ ui = fluidPage(
 ```    
 
 
-2. Create the Server Element
+2\. Create the Server Element
 
 Next up is the server part. The server is created as an R function with two arguments, `input` and `output` (you don't need to worry about what the input and output arguments do for now, as long as they are there).[^3] In R a function is made using the command `function(){}`, specifying the arguments in parentheses, and then the function code between curly braces. All the code for the logic of the application will live between these two curly braces.
 
@@ -217,7 +217,7 @@ Specify the server part using the following code:
 server = function(input, output){}
 ```    
 
-3. Add the command to run the application.
+3\. Add the command to run the application.
 
 Finally, add the command to run the application itself. This is another special Shiny command, `shinyApp()`, with the UI and server items you've just made as arguments.
 
@@ -360,15 +360,15 @@ map_df = reactive({
 
 This code performs the following functions:
 
-1. Filter the newspapers dataset using the command `filter()`, using the values from the `sliderInput` widget. These values are accessed using `input$<LABELNAME>`, which in this case is `input$years`, though there is a further complication to note. Remember you set the value of the `sliderInput` to a vector of length two, so that a range could be selected? The two numbers of this range are stored in `input$years[1]` and `input$years[2]`. These are the values which you need to access in order to filter the data. The `filter` function returns rows of a dataframe where a specified set of conditions are true: in this case, where the column `first_date_held` is greater than the first value, and lesser than the second.
+1\. Filter the newspapers dataset using the command `filter()`, using the values from the `sliderInput` widget. These values are accessed using `input$<LABELNAME>`, which in this case is `input$years`, though there is a further complication to note. Remember you set the value of the `sliderInput` to a vector of length two, so that a range could be selected? The two numbers of this range are stored in `input$years[1]` and `input$years[2]`. These are the values which you need to access in order to filter the data. The `filter` function returns rows of a dataframe where a specified set of conditions are true: in this case, where the column `first_date_held` is greater than the first value, and lesser than the second.
 
-2. `count()` on this filtered dataset to produce a dataframe of each city and a tally of the times they occur. Specify the name of the new column containing the tallies with the argument `name =`.
+2\. `count()` on this filtered dataset to produce a dataframe of each city and a tally of the times they occur. Specify the name of the new column containing the tallies with the argument `name =`.
 
-3. Perform a join (a type of merge which matches two dataframes together based on a common key) to merge the coordinates dataframe to the counts dataframe using `left_join()`. You should specify the key on which to join, which is `coverage_city`.
+3\. Perform a join (a type of merge which matches two dataframes together based on a common key) to merge the coordinates dataframe to the counts dataframe using `left_join()`. You should specify the key on which to join, which is `coverage_city`.
 
-4. There are a small number of newspaper titles without lat/long coordinates, which would cause an error when creating the geographic object. Filter these out with `filter(!is.na(lat) & !is.na(lng))`
+4\. There are a small number of newspaper titles without lat/long coordinates, which would cause an error when creating the geographic object. Filter these out with `filter(!is.na(lat) & !is.na(lng))`
 
-5. Finally, turn it into a simple features object, using `st_as_sf()`. To do this, specify the lat/long coordinates columns it should use using `coords`, and then use `st_set_crs` to set a coordinate reference system.[^4]
+5\. Finally, turn it into a simple features object, using `st_as_sf()`. To do this, specify the lat/long coordinates columns it should use using `coords`, and then use `st_set_crs` to set a coordinate reference system.[^4]
 
 This simple features dataframe can be accessed in any reactive context by Shiny using `map_df()` and can be used by multiple outputs at once: for example you could build an app which displays both a map and a bar chart, each using the same reactive object.
 
@@ -396,7 +396,7 @@ In turn, this `output$map` variable should be set to a Shiny `render*` function,
 
 The Leaflet map itself will be created within this. First, add the function `leaflet()`. Next, add the default tiles (the zoomable map images) using `addTiles()`. Next, set the default map position and zoom to Britain and Ireland using the command `setView(lng = -5, lat = 54, zoom = 5)`.
 
-###  Draw Points using the Reactive Dataframe.
+###  Draw Points using the Reactive Dataframe
 
 Pause here and run the application again. All being well, you should see an interactive map of Britain and Ireland to the right of the slider. You can zoom and scroll it, though not much else. It needs to be populated with points representing the count of titles from each place.
 
