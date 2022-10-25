@@ -5,11 +5,9 @@
   institution: Western University
   bio:
     en: |
-      William J. Turkel is Professor of History at the
-      University of Western Ontario.
+      William J. Turkel is Professor of History at the University of Western Ontario.
     es: |
-      William J. Turkel es profesor de Historia en la Universidad de Western
-      Ontario.
+      William J. Turkel es profesor de Historia en la Universidad de Western Ontario.
     fr: |
       William J. Turkel est professeur d'histoire à l'Université Western Ontario.
     pt: |
@@ -1535,8 +1533,8 @@
   bio:
     en: |
       Matthew J. Lavin is an Assistant Professor of Data Analytics specializing in Humanities Analytics at Denison University. His current scholarship focuses on book history, cultural analytics, and turn-of-the-twentieth-century U.S. literature and culture.
-    fr: | 
-      Matthew J. Lavin est Assistant Professor en analyse de données en sciences humaines à Denison University (Ohio, États-Unis). Ses recherches et enseignements portent sur l'histoire du livre, les cultural analytics et la littérature et la culture états-uniennes à l'aube du vingtième siècle. 
+    fr: |
+      Matthew J. Lavin est Assistant Professor en analyse de données en sciences humaines à Denison University (Ohio, États-Unis). Ses recherches et enseignements portent sur l'histoire du livre, les cultural analytics et la littérature et la culture états-uniennes à l'aube du vingtième siècle.
     pt: |
       Matthew J. Lavin é professor assistente de análise de dados com especialização em Análise de Humanidades na Denison University. Suas pesquisas actuais têm como foco a história do livro, análise cultural e literatura e cultura dos Estados Unidos da América na virada para o século XX.
 
@@ -1689,6 +1687,8 @@
       Anthony Picón Rodríguez es investigador del Laboratorio Digital de Arquitectura y Urbanismo de la Universidad Nacional de Colombia, bibliotecario de la Mapoteca Digital en la Biblioteca Nacional de Colombia y gestor de la red Razón Cartográfica.
     pt: |
       Anthony Picón Rodríguez é pesquisador do Laboratorio Digital de Arquitectura y Urbanismo da Universidad Nacional de Colombia, bibliotecário da Mapoteca Digital da Biblioteca Nacional da Colômbia e gestor da rede Razón Cartográfica.
+    en: |
+      Anthony Picón Rodríguez is a researcher at the Digital Laboratory of Architecture and Urbanism of the National University of Colombia, librarian of Digital Mapoteca at the National Library of Colombia and manager of the Cartographic Reason network.
 
 - name: Miguel Cuadros
   team: false
@@ -1698,6 +1698,8 @@
       Miguel Cuadros es Historiador por Universidad Industrial de de Santander y Master of Arts in History, State University of New York (Estados Unidos) y docente en la Universidad Industrial de Santander; cuenta con experiencia docente e investigativa en temas relacionados con la cartografía y el conocimiento geográfico.
     pt: |
       Miguel Cuadros é licenciado em História pela Universidad Industrial de Santander e mestre de História da Arte pela State University of New York (Estados Unidos da América). É professor na Universidad Industrial de Santander e conta com experiência de ensino e investigação sobre temas relacionados com cartografia e conhecimento geográfico.
+    en: |
+      Miguel Cuadros is a historian from the Industrial University of Santander and Master of Arts in History, State University of New York (United States) and Professor at the Industrial University of Santander. He has teaching and research experience in topics related to cartography and geographical knowledge.
 
 - name: Aracele Torres
   twitter: araceletorres
@@ -2640,7 +2642,7 @@
   bio:
       en: |
           Mia Partlow is a Resource Sharing Librarian at North Carolina State University.
-          
+
 - name: Gisele Almeida
   github: GeeAlmeida
   email: community@programminghistorian.org
@@ -2668,8 +2670,8 @@
       Gisele Almeida, Programming Historian.
   team_roles:
     - proghist
-  status: institutionally-supported          
-  
+  status: institutionally-supported
+
 - name: Thomas Smits
   orcid: 0000-0001-8579-824X
   team: false
@@ -2702,9 +2704,9 @@
       Katherine McDonough es investigadora asociada sénior en historia para el proyecto Living with Machines e investigadora principal para el proyecto Machines Reading Maps en The Alan Turing Institute.
     pt: |
       Katherine McDonough é Pesquisadora Associada Sênior em História para o projeto Living with Machines e Investigadora Principal do projeto Machines Reading Maps no The Alan Turing Institute.
-    fr: | 
+    fr: |
       Katherine McDonough est une chercheuse postdoctorale en histoire pour le project Living with Machines et la directrice du project Machines Reading Maps au Alan Turing Institute.
-      
+
 - name: Melvin Wevers
   orcid: 0000-0001-8177-4582
   team: false
@@ -2722,8 +2724,8 @@
   bio:
       en: |
           Chantal Brousseau is an MA candidate in the History and Data Science program at Carleton University. Her research focuses on applications of machine learning and computational creativity to the study of historical data.
-          
-- name: Max Odsbjerg Pedersen 
+
+- name: Max Odsbjerg Pedersen
   team: false
   orcid: 0000-0001-9215-5605
   bio:
@@ -2754,3 +2756,10 @@
   bio:
     en: |
       Helle Strandgaard Jensen is Associate Professor of Contemporary Cultural History in the Department of History and Classical Studies, Aarhus University.
+
+- name: Lorena Gauthereau
+  team: false
+  orcid: 0000-0002-7185-8982
+  bio:
+      en: |
+          Lorena Gauthereau is the Digital Projects Manager of Recovering the US Hispanic Literary Heritage at the University of Houston (UH).
