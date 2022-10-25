@@ -29,7 +29,7 @@ activity: transforming
 topics: [mapping]
 abstract: "This lesson introduces basic use of Map Warper for historical maps. It guides you from upload to export, demonstrating methods for georeferencing and producing visualizations."
 avatar_alt: Image of a map of the Coffee Region of the Republic of Colombia.
-doi: TBD
+doi: 10.46430/phen0106
 ---
 
 {% include toc.html %}
@@ -120,9 +120,9 @@ The interface is organized into the following tabs:
 ## Georeference your map
 In this section, you will georeference the uploaded map. Click on the "Rectify" tab; here you will find two windows: on the left is the uploaded map; on the right is the OpenStreetMap base map (this is the layer that provides the reference points for your uploaded map image). Below these windows, you will find the "Control Panel," which allows you to fine-tune your control points, and check their level of accuracy.
 
-![Layer icon](https://programminghistorian.github.io/jekyll/images/introduccion-map-warper/layer_switcher_maximize.png)**Layer** allows you to select a base layer from either OpenStreetMap or Mapbox Satellite. It also includes the **Overlay** function that allows you to superimpose your working map image (the North Carolina and South Carolina example or your own image) after confirming the georeference.
+![Layer icon](/images/introduccion-map-warper/layer_switcher_maximize.png)**Layer** allows you to select a base layer from either OpenStreetMap or Mapbox Satellite. It also includes the **Overlay** function that allows you to superimpose your working map image (the North Carolina and South Carolina example or your own image) after confirming the georeference.
 
-![basemap icon](https://programminghistorian.github.io/jekyll/images/introduccion-map-warper/addcustombasemap.png)**Add Custom Basemap** in the right box allows you to add another custom base layer in [XYZ Tiles format](https://perma.cc/AN6Z-XALE) (such as OpenStreetMap, Google Maps, Bing, [CARTO](https://perma.cc/WGZ9-HQ5U), [ESRI](https://perma.cc/DC2E-9PAM), [Stamen](https://perma.cc/7VLS-9LZZ), and other layers).
+![basemap icon](/images/introduccion-map-warper/addcustombasemap.png)**Add Custom Basemap** in the right box allows you to add another custom base layer in [XYZ Tiles format](https://perma.cc/AN6Z-XALE) (such as OpenStreetMap, Google Maps, Bing, [CARTO](https://perma.cc/WGZ9-HQ5U), [ESRI](https://perma.cc/DC2E-9PAM), [Stamen](https://perma.cc/7VLS-9LZZ), and other layers).
 
 You can also add the following georeferenced basemaps from Map Warper:
 
@@ -134,18 +134,18 @@ You can also add the following georeferenced basemaps from Map Warper:
 * Stamen Watercolor: https://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg
 ```
 
-![Control point icon](https://programminghistorian.github.io/jekyll/images/introduccion-map-warper/add_control_point.gif)**Add control point**, available in both boxes, allows you to add control points that associate points on the uploaded or selected map to the predetermined base layer.
+![Control point icon](/images/introduccion-map-warper/add_control_point.gif)**Add control point**, available in both boxes, allows you to add control points that associate points on the uploaded or selected map to the predetermined base layer.
 
-![Move control point icon](https://programminghistorian.github.io/jekyll/images/introduccion-map-warper/move_control_point.gif)**Move Control Point** permits you to move or relocate the control points and add them to both windows.
+![Move control point icon](/images/introduccion-map-warper/move_control_point.gif)**Move Control Point** permits you to move or relocate the control points and add them to both windows.
 
-![Move around map icon](https://programminghistorian.github.io/ph-submissions/images/introduction-map-warper/move_around_map.gif)**Move Around Map** lets you explore the maps in both windows without having to assign or move any control points. This is helpful for verifying the assigned control points.
+![Move around map icon](/images/introduction-map-warper/move_around_map.gif)**Move Around Map** lets you explore the maps in both windows without having to assign or move any control points. This is helpful for verifying the assigned control points.
 
-The lock between the two windows helps guide the assignment and movement of the control points. ![Zoom lock icon](https://programminghistorian.github.io/jekyll/images/introduccion-map-warper/Zoom_lock.png)The **Zoom lock** option allows you to zoom in on the maps in both windows simultaneously. This is useful to place and verify the control points. Clicking on the lock again will unlock it. ![Pan icon](https://programminghistorian.github.io/jekyll/images/introduccion-map-warper/lock_open.png)The **Pan** function allows you to pan to different sections of the images, separately.
+The lock between the two windows helps guide the assignment and movement of the control points. ![Zoom lock icon](/images/introduccion-map-warper/Zoom_lock.png)The **Zoom lock** option allows you to zoom in on the maps in both windows simultaneously. This is useful to place and verify the control points. Clicking on the lock again will unlock it. ![Pan icon](/images/introduccion-map-warper/lock_open.png)The **Pan** function allows you to pan to different sections of the images, separately.
 
 **Keyboard shortcuts** provides quick access to the following:
-* **p**: Keyboard activates **Add Control Point** ![Add control point icon](https://programminghistorian.github.io/jekyll/images/introduccion-map-warper/add_control_point.gif)
-* **d**: Keyboard activates  **Move Control Point** ![Move control point icon](https://programminghistorian.github.io/jekyll/images/introduccion-map-warper/move_control_point.gif)
-* **m**: Keyboard activates  **Move Around Map** ![Move around map icon](https://programminghistorian.github.io/jekyll/images/introduccion-map-warper/move_around_map.gif)
+* **p**: Keyboard activates **Add Control Point** ![Add control point icon](/images/introduccion-map-warper/add_control_point.gif)
+* **d**: Keyboard activates  **Move Control Point** ![Move control point icon](/images/introduccion-map-warper/move_control_point.gif)
+* **m**: Keyboard activates  **Move Around Map** ![Move around map icon](/images/introduccion-map-warper/move_around_map.gif)
 * **q**: Keyboard adds a control point in your cursor location.
 * **a**: Keyboard adds a control point in your cursor location in both windows.
 * **Enter**: Keyboard replaces the **Add Control Point** mouse click to confirm the position of the pin.
@@ -160,7 +160,7 @@ By clicking on **Add Control Point Manually** you can add a control point with X
 
 **Add Control Points from CSV** allows you to upload a .csv file to automate the georeferencing process. The first row must contain the Control Points table headers. The proceeding rows should contain data for the X, Y coordinates for the image (`X,Y`) and the destination (`Lon,Lat`), separated by commas.
 
-The following .csv example contains four columns, labeled ‘x’, ‘y’, ‘lon’ and ‘lat’ in four rows, including the headings. This is the same file as the one downloaded using the ![csv icon](https://programminghistorian.github.io/jekyll/images/introduccion-map-warper/csvicon.png) CSV icon button.
+The following .csv example contains four columns, labeled ‘x’, ‘y’, ‘lon’ and ‘lat’ in four rows, including the headings. This is the same file as the one downloaded using the ![csv icon](/images/introduccion-map-warper/csvicon.png) CSV icon button.
 
 ```
 x,y,lon,lat
@@ -211,9 +211,9 @@ Note: You will see there is an Error value for each control point. Map Warper us
 ## Cropping
 The **Crop** tab allows you to crop a section of the uploaded map. This is useful for dividing maps into composites. The display window integrates the following actions:  
 
-* ![Move around map icon](https://programminghistorian.github.io/jekyll/images/introduccion-map-warper/move_around_map.gif):  **Move around Map**
-* ![Polygon icon](https://programminghistorian.github.io/jekyll/images/introduccion-map-warper/Draw_new_polygon.gif): **Draw new polygon to mask**
-* ![Delete a polygon icon](https://programminghistorian.github.io/jekyll/images/introduccion-map-warper/delete_polygon.gif):  **Delete a polygon**
+* ![Move around map icon](/images/introduccion-map-warper/move_around_map.gif):  **Move around Map**
+* ![Polygon icon](/images/introduccion-map-warper/Draw_new_polygon.gif): **Draw new polygon to mask**
+* ![Delete a polygon icon](/images/introduccion-map-warper/delete_polygon.gif):  **Delete a polygon**
 
 Draw around the area you wish you keep. Then to apply the mask to the map, click "Mask Map!"
 
@@ -221,7 +221,7 @@ Draw around the area you wish you keep. Then to apply the mask to the map, click
 The **Align** tab allows you to organize several maps into a mosaic. This tool is good for connecting fragmented maps, aerial photographs, and other fragmented cartographic documents. Click "align map" to align the images.
 
 ## Preview
-This tab allows you to visualize the results of your work in the **Rectify** step. This is useful to continue the georeferencing step.  The display window also integrates the same tools: move, zoom, transparency, and **layer** ![Layer icon](https://programminghistorian.github.io/jekyll/images/introduccion-map-warper/layer_switcher_maximize.png).
+This tab allows you to visualize the results of your work in the **Rectify** step. This is useful to continue the georeferencing step.  The display window also integrates the same tools: move, zoom, transparency, and **layer** ![Layer icon](/images/introduccion-map-warper/layer_switcher_maximize.png).
 
 # Visualization
 
@@ -242,7 +242,7 @@ https://mapwarper.net/maps/tile/40217/{z}/{x}/{y}.png
 ```
 
 ## Activity
-The **Activity** tab maintains a summary of changes made to the map. The activity log includes the following fields: Time, User, Map, Activity summary, Version, and Further details. Any Map Warper user can monitor the changes to the map. Additionally, the ![RSS feed icon](https://programminghistorian.github.io/jekyll/images/introduccion-map-warper/rss.png) "RSS Feed" allows the user to download general information about all changes in .rss format.
+The **Activity** tab maintains a summary of changes made to the map. The activity log includes the following fields: Time, User, Map, Activity summary, Version, and Further details. Any Map Warper user can monitor the changes to the map. Additionally, the ![RSS feed icon](/images/introduccion-map-warper/rss.png) "RSS Feed" allows the user to download general information about all changes in .rss format.
 
 ## Comments
 The **Comments** tab allows users to aggregate comments about the map. This is an open channel that allows others to communicate with the user who shared the cartographic material. It is also a useful place to enrich the description and cataloging of the uploaded map. Make sure to click **add comment** to save.
