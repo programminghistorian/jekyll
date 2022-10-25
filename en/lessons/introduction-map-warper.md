@@ -138,7 +138,7 @@ You can also add the following georeferenced basemaps from Map Warper:
 
 ![Move control point icon](/images/introduccion-map-warper/move_control_point.gif)**Move Control Point** permits you to move or relocate the control points and add them to both windows.
 
-![Move around map icon](/images/introduction-map-warper/move_around_map.gif)**Move Around Map** lets you explore the maps in both windows without having to assign or move any control points. This is helpful for verifying the assigned control points.
+![Move around map icon](/images/introduccion-map-warper/move_around_map.gif)**Move Around Map** lets you explore the maps in both windows without having to assign or move any control points. This is helpful for verifying the assigned control points.
 
 The lock between the two windows helps guide the assignment and movement of the control points. ![Zoom lock icon](/images/introduccion-map-warper/Zoom_lock.png)The **Zoom lock** option allows you to zoom in on the maps in both windows simultaneously. This is useful to place and verify the control points. Clicking on the lock again will unlock it. ![Pan icon](/images/introduccion-map-warper/lock_open.png)The **Pan** function allows you to pan to different sections of the images, separately.
 
