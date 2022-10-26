@@ -2008,8 +2008,9 @@
   twitter: InsSalom5
   github: InesSalome
   orcid: 0000-0002-8520-3485
-  team: true
+  team: false
   team_start: 2021
+  team_end: 2022
   institution: MSHB (Maison des Sciences de l'Homme en Bretagne)
   sortname: Patat
   affiliation:
