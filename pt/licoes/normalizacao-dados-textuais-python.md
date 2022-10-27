@@ -1,9 +1,10 @@
 ---
 title: Normalização de Dados Textuais com Python
 layout: lesson
+collection: lessons
 slug: normalizacao-dados-textuais-python
 date: 2012-07-17
-translation_date: 2021-12-22
+translation_date: 2022-10-27
 authors:
 - William J. Turkel
 - Adam Crymble
@@ -34,18 +35,18 @@ doi: 10.46430/phpt0029
 
 ## Objetivos da Lição
 
-A lista que criámos na lição [De HTML para Lista de Palavras (parte 2)][] precisa ser normalizada antes de poder ser utilizada. Faremos isso através da aplicação de alguns métodos de string adicionais, bem como utilizando expressões regulares. Uma vez normalizados, estaremos aptos a analisar os nossos dados mais facilmente.
+A lista que criámos na lição [De HTML para Lista de Palavras (parte 2)](/pt/licoes/HTML-lista-palavras-2) precisa ser normalizada antes de poder ser utilizada. Faremos isso através da aplicação de alguns métodos de string adicionais, bem como utilizando expressões regulares. Uma vez normalizados, estaremos aptos a analisar os nossos dados mais facilmente.
 
 ## Ficheiros Necessários para esta Lição
 
 -   `html-to-list1.py`
 -   `obo.py`
 
-Caso não tenha esses ficheiros das lições anteriores, pode fazer o *download* de um [zip][].
+Caso não tenha esses ficheiros das lições anteriores, pode fazer o *download* de um [zip](/assets/python-lessons3.zip).
 
 ## Limpando a Lista
 
-Na lição [De HTML para Lista de Palavras (parte 2)][], escrevemos um programa em Python chamado `html-to-list1.py` que fazia o *download* de uma [página web][], removia a formatação HTML e os metadados e retornava uma lista de "palavras" como a apresentada abaixo. Tecnicamente, essas entidades são chamadas de "*tokens*" ao invés de "palavras". Elas incluem alguns elementos que, estritamente falando, não são palavras (como a abreviação &c. para "etcetera"). Elas também incluem elementos que podem ser considerados composições de mais de uma palavra. O possessivo "Akerman's", por exemplo, é ocasionalmente analisado por linguistas como duas palavras: "Akerman" e um marcador de posse. "o'clock" é uma palavra ou duas? E assim por diante.
+Na lição [De HTML para Lista de Palavras (parte 2)](/pt/licoes/HTML-lista-palavras-2), escrevemos um programa em Python chamado `html-to-list1.py` que fazia o *download* de uma [página web](https://perma.cc/8LM6-W39K), removia a formatação HTML e os metadados e retornava uma lista de "palavras" como a apresentada abaixo. Tecnicamente, essas entidades são chamadas de "*tokens*" ao invés de "palavras". Elas incluem alguns elementos que, estritamente falando, não são palavras (como a abreviação &c. para "etcetera"). Elas também incluem elementos que podem ser considerados composições de mais de uma palavra. O possessivo "Akerman's", por exemplo, é ocasionalmente analisado por linguistas como duas palavras: "Akerman" e um marcador de posse. "o'clock" é uma palavra ou duas? E assim por diante.
 
 Volte ao seu programa `html-to-list1.py` e certifique-se de que o seu resultado se assemelha ao seguinte:
 
@@ -56,7 +57,7 @@ Volte ao seu programa `html-to-list1.py` e certifique-se de que o seu resultado 
 
 Por si só, a habilidade de separar um documento em palavras não é muito útil, já que somos capazes de ler. Podemos usar o texto, no entanto, para executar tarefas que não são sempre possíveis sem *softwares* especiais. Começaremos calculando as frequências dos *tokens* e outras unidades linguísticas, uma forma clássica de mensurar textos. 
 
-Está claro que a nossa lista precisará de uma limpeza antes de conseguirmos utilizá-la para contar frequências. Em linha com as práticas estabelecidas em [De HTML para Lista de Palavras (parte 1)][], vamos tentar descrever o nosso algoritmo em português primeiro. Desejamos saber a frequência de cada palavra com sentido que aparece na transcrição do julgamento. Desse modo, as etapas envolvidas podem ser semelhantes a estas:
+Está claro que a nossa lista precisará de uma limpeza antes de conseguirmos utilizá-la para contar frequências. Em linha com as práticas estabelecidas em [De HTML para Lista de Palavras (parte 1)](/pt/licoes/HTML-lista-palavras-1), vamos tentar descrever o nosso algoritmo em português primeiro. Desejamos saber a frequência de cada palavra com sentido que aparece na transcrição do julgamento. Desse modo, as etapas envolvidas podem ser semelhantes a estas:
 
 - Converter todas as palavras para letras minúsculas de modo que "BENJAMIN" e "benjamin" sejam contabilizadas como a mesma palavra
 - Remover quaisquer caracteres estranhos ou incomuns
@@ -140,24 +141,14 @@ wordlist = obo.stripNonAlphaNum(text)
 print(wordlist)
 ```
 
-Ao executar o programa e verificar a saída no painel "Saída de Comando", verá que ele fez um bom trabalho. Esse código irá dividir formas hifenizadas como "coach-wheels" em duas palavras e irá transformar o possessivo "s" ou "o'clock" em palavras separadas ao perderem o apóstrofo. Ainda assim, o código faz uma aproximação boa o suficiente para os nossos objetivos e devemos agora passar para a contagem de frequências antes de tentar melhorá-lo. (Caso trabalhe com fontes em mais de um idioma, precisa aprender um pouco mais a respeito do padrão [Unicode][] e sobre o [suporte de Python][] a ele.)
+Ao executar o programa e verificar a saída no painel "Saída de Comando", verá que ele fez um bom trabalho. Esse código irá dividir formas hifenizadas como "coach-wheels" em duas palavras e irá transformar o possessivo "s" ou "o'clock" em palavras separadas ao perderem o apóstrofo. Ainda assim, o código faz uma aproximação boa o suficiente para os nossos objetivos e devemos agora passar para a contagem de frequências antes de tentar melhorá-lo. (Caso trabalhe com fontes em mais de um idioma, precisa aprender um pouco mais a respeito do padrão [Unicode](https://perma.cc/7ACH-KCDN) e sobre o [suporte de Python](https://web.archive.org/web/20180502053841/http://www.diveintopython.net/xml_processing/unicode.html) a ele.)
 
 ## Leituras Sugeridas
 
-Para praticar mais as Expressões Regulares, o capítulo 7 de "[Dive into Python][]" de Mark Pilgrim pode ser um tutorial útil.
+Para praticar mais as Expressões Regulares, o capítulo 7 de "[Dive into Python](https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html)" de Mark Pilgrim pode ser um tutorial útil.
 
 ## Sincronização de Código 
 
 Para acompanhar as lições futuras, é importante que tenha os ficheiros e programas corretos no seu diretório *programming historian*. Ao final de cada capítulo nesta série pode fazer o *download* do ficheiro zip do programming historian para garantir que possui o código correto. 
 
--   python-lessons4.zip ([zip sync][])
-
-  [De HTML para Lista de Palavras (2)]: /pt/licoes/HTML-lista-palavras-2
-  [página web]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
-  [De HTML para Lista de Palavras (1)]: /pt/licoes/HTML-lista-palavras-1
-  [Manipular strings com Python]: /pt/licoes/manipular-strings-python
-  [Unicode]: http://unicode.org/
-  [suporte de Python]: https://web.archive.org/web/20180502053841/http://www.diveintopython.net/xml_processing/unicode.html
-  [Dive into Python]: https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html
-  [zip]: /assets/python-lessons3.zip
-  [zip sync]: /assets/python-lessons4.zip
+-   python-lessons4.zip ([zip sync](/assets/python-lessons4.zip))
