@@ -53,7 +53,7 @@ In this tutorial you will georeference an 1860 map of [North Carolina and South 
 
 Before you begin georeferencing a scanned map, it is important to understand the locations depicted on the map, as well as the historic context of the map’s creation. Not all historic maps are good candidates for georeferencing. The map must include enough information to allow the user to confidently assign latitude and longitude coordinates or align it with a Geographic Information Systems (GIS) map using physical features. Often, you will need to research the location of historic places and features that no longer exist, and make an informed decision to identify their proper placement. Some maps may not have enough geographic information, and may become so warped when georeferenced that they become illegible or inaccurate.
 
-{% include figure.html filename="mapwarper_warped.png" caption="A map too warped to be used effectively" %}
+{% include figure.html filename="mapwarper_warped.png" caption="Figure 1: A map too warped to be used effectively" %}
 
 The [scale](https://perma.cc/LD2A-88X9), resolution, and [projection](https://perma.cc/CYD5-CCQM) of a scanned map are also important considerations when choosing a historic map to georeference. Small scale maps are generally not well-suited for highly detailed georeferencing and may cause problems with representing exact feature locations. When selecting or scanning a historic map for georeferencing, it is best to use a map that has been scanned at a high resolution (300 dpi or greater), so that you can easily see the features on the map when zooming in and out. It is also best practice to use the same projection as the historic map in order to minimize distortion. Georeferencing a map in the wrong projection can create a mismatch between the historical and current maps, stretching the lines, shapes, and the distance between objects. Map Warper does not provide an option to re-project your map data; if you are unable to achieve a legible map, or if you are measuring distance, you may need to use a more advanced GIS software, such as QGIS which will allow you to specify the map projections. For more details on best practices for georeferencing, see [Esri’s list of recommendations](https://perma.cc/GF85-4YF6).
 
@@ -73,7 +73,7 @@ This tutorial complements other *Programming Historian* lessons that reference t
 ## Create an Account
 Using your favorite browser, navigate to [https://mapwarper.net](https://mapwarper.net) and click on the "Create Account" tab in the upper right hand corner of the window. You can choose to log in using your Facebook, OpenstreetMap or GitHub account to facilitate the registration process.
 
-{% include figure.html filename="account.gif" caption="Create Account." %}
+{% include figure.html filename="account.gif" caption="Figure 2. Create Account." %}
 
 ## Upload Map
 On the Home page, click the green button labeled "Upload Map" to import your scanned map to Map Warper directly from your local file or linked from an online repository via a corresponding URL. During this step you can also start adding metadata to the material you will georeference.
@@ -115,7 +115,7 @@ The interface is organized into the following tabs:
 * **Preview:** shows your map overlaid on a modern base map
 * **Export:** gives you a variety of export options and formats
 
-{% include figure.html filename="mapwarper_showmap.png" caption="Map Warper interface." %}
+{% include figure.html filename="mapwarper_showmap.png" caption="Figure 3. Map Warper interface." %}
 
 ## Georeference your map
 In this section, you will georeference the uploaded map. Click on the "Rectify" tab; here you will find two windows: on the left is the uploaded map; on the right is the OpenStreetMap base map (this is the layer that provides the reference points for your uploaded map image). Below these windows, you will find the "Control Panel," which allows you to fine-tune your control points, and check their level of accuracy.
@@ -176,17 +176,17 @@ x,y,lon,lat
 3\. Once you feel comfortable moving around the maps, select your first control point. Start from the historic map and choose a location &mdash;for example, a city&mdash; that will be relatively easy to find.  
 4\. Then, click the green control point marker on the modern map and find the same location to match them up.  
 
-    {% include figure.html filename="mapwarper_controlpointsadded.png" caption="Match up your control points." %}
+    {% include figure.html filename="mapwarper_controlpointsadded.png" caption="Figure 4. Match up your control points." %}
 
 5\. If you do not click the Add Control Point button, the next time you click on a map, the control point you've added will move. This functionality gives you the flexibility to adjust your points while adding them, but can be confusing if you don’t realize that your point has moved because you didn’t click Add Control Point.
 
 6\. Add at least 4 or 5 points. Spreading the points out across your historic map and focusing on state borders, rivers, county lines, and major cities is a good strategy. If you need to delete a control point, click on "Control Points" in the Control Panel below the map.
 
-    {% include figure.html filename="mapwarper_controlpoints.png" caption="Select Control Points in the Control panel." %}
+    {% include figure.html filename="mapwarper_controlpoints.png" caption="Figure 5. Select Control Points in the Control panel." %}
 
 7\. Selecting Control Points will display all of the points you have added, and allow you to delete any points that you want to re-do. You can also change latitude and longitude points manually.
 
-    {% include figure.html filename="mapwarper_controlpoints_rmserrordelete.png" caption="Deleting control points and the RMS error." %}
+    {% include figure.html filename="mapwarper_controlpoints_rmserrordelete.png" caption="Figure 6. Deleting control points and the RMS error." %}
 
 <div class="alert alert-info">
 Note: You will see there is an Error value for each control point. Map Warper uses a Root Mean Square (RMS) error calculation to evaluate the transformation of the different control points. The RMS error provides a rough guide to how consistent your control points are to one another with reference to the map’s transformation, and it assesses how distorted your map will be. High RMS error values indicate that your control points are less consistent with one another, while a low RMS error value indicates more consistency and reduced distortion. It is generally recommended that you keep your error values low and replace or remove control points with high values. While the RMS error provides a good way to assess the transformation’s accuracy, you should always re-evaluate how well your scanned map matches up to the GIS modern map. For more information about RMS errors, please see Esri’s section on interpreting the root mean square error in their <a href="https://perma.cc/L4VD-VPVV">Overview of georeferencing</a>.
@@ -194,19 +194,19 @@ Note: You will see there is an Error value for each control point. Map Warper us
 
 8\. When you have enough points and think they are well-distributed across your historic map, click Warp Image! at the bottom of the page. Georeferencing maps takes practice. You may find that your rectified map creates an unreadable, warped map. We encourage you to try steps 7-9 again, taking into account best practices for georeferencing mentioned above, such as identifying major cities, roads, streams, and rivers that you can identify with confidence.
 
-    {% include figure.html filename="mapwarper_warpbutton.png" caption="Click Warp Image! to rectify your map." %}
+    {% include figure.html filename="mapwarper_warpbutton.png" caption="Figure 7. Click Warp Image! to rectify your map." %}
 
 9\. You will now see the map layered on top of the OpenStreetMap.
 
-    {% include figure.html filename="mapwarper_openstreetmap.png" caption="Georeferenced map in OpenStreetMap." %}
+    {% include figure.html filename="mapwarper_openstreetmap.png" caption="Figure 8. Georeferenced map in OpenStreetMap." %}
 
 10\. You can choose to view a satellite image base map or the regular OpenStreetMap layer we’ve been using.
 
-    {% include figure.html filename="mapwarper_satellite.png" caption="Georeferenced map in satellite view." %}
+    {% include figure.html filename="mapwarper_satellite.png" caption="Figure 9. Georeferenced map in satellite view." %}
 
 11\. Click the Preview tab for a larger view of the georeferenced map. Changing the transparency using the slider can give you a sense of how accurate your georeferencing has been applied.
 
-    {% include figure.html filename="mapwarper_preview.png" caption="Map Warper Preview." %}
+    {% include figure.html filename="mapwarper_preview.png" caption="Figure 10. Map Warper Preview." %}
 
 ## Cropping
 The **Crop** tab allows you to crop a section of the uploaded map. This is useful for dividing maps into composites. The display window integrates the following actions:  
