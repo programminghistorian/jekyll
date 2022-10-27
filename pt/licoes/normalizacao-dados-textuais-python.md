@@ -146,7 +146,7 @@ Ao executar o programa e verificar a saída no painel "Saída de Comando", verá
 
 Para praticar mais as Expressões Regulares, o capítulo 7 de "[Dive into Python][]" de Mark Pilgrim pode ser um tutorial útil.
 
-### Sincronização de Código 
+## Sincronização de Código 
 
 Para acompanhar as lições futuras, é importante que tenha os ficheiros e programas corretos no seu diretório *programming historian*. Ao final de cada capítulo nesta série pode fazer o *download* do ficheiro zip do programming historian para garantir que possui o código correto. 
 
