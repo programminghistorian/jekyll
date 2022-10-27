@@ -171,20 +171,20 @@ x,y,lon,lat
 
 ## Practice
 
-1. Click on the Rectify tab.
-2. Take a moment to move the map on the right to the North Carolina and South Carolina region. The arrows at the top of the screen move the map slightly to the north, south, east, and west, and are useful when you need to make small adjustments to the map. You can zoom in and out with the slider or with your trackpad/mouse. To move around a map, click the hand icon.
-3. Once you feel comfortable moving around the maps, select your first control point. Start from the historic map and choose a location &mdash;for example, a city&mdash; that will be relatively easy to find.
-4. Then, click the green control point marker on the modern map and find the same location to match them up.
+1\. Click on the Rectify tab.
+2\. Take a moment to move the map on the right to the North Carolina and South Carolina region. The arrows at the top of the screen move the map slightly to the north, south, east, and west, and are useful when you need to make small adjustments to the map. You can zoom in and out with the slider or with your trackpad/mouse. To move around a map, click the hand icon.
+3\. Once you feel comfortable moving around the maps, select your first control point. Start from the historic map and choose a location &mdash;for example, a city&mdash; that will be relatively easy to find.
+4\. Then, click the green control point marker on the modern map and find the same location to match them up.
 
     {% include figure.html filename="mapwarper_controlpointsadded.png" caption="Match up your control points." %}
 
-5. If you do not click the Add Control Point button, the next time you click on a map, the control point you've added will move. This functionality gives you the flexibility to adjust your points while adding them, but can be confusing if you don’t realize that your point has moved because you didn’t click Add Control Point.
+5\. If you do not click the Add Control Point button, the next time you click on a map, the control point you've added will move. This functionality gives you the flexibility to adjust your points while adding them, but can be confusing if you don’t realize that your point has moved because you didn’t click Add Control Point.
 
-6. Add at least 4 or 5 points. Spreading the points out across your historic map and focusing on state borders, rivers, county lines, and major cities is a good strategy. If you need to delete a control point, click on "Control Points" in the Control Panel below the map.
+6\. Add at least 4 or 5 points. Spreading the points out across your historic map and focusing on state borders, rivers, county lines, and major cities is a good strategy. If you need to delete a control point, click on "Control Points" in the Control Panel below the map.
 
     {% include figure.html filename="mapwarper_controlpoints.png" caption="Select Control Points in the Control panel." %}
 
-7. Selecting Control Points will display all of the points you have added, and allow you to delete any points that you want to re-do. You can also change latitude and longitude points manually.
+7\. Selecting Control Points will display all of the points you have added, and allow you to delete any points that you want to re-do. You can also change latitude and longitude points manually.
 
     {% include figure.html filename="mapwarper_controlpoints_rmserrordelete.png" caption="Deleting control points and the RMS error." %}
 
@@ -192,19 +192,19 @@ x,y,lon,lat
 Note: You will see there is an Error value for each control point. Map Warper uses a Root Mean Square (RMS) error calculation to evaluate the transformation of the different control points. The RMS error provides a rough guide to how consistent your control points are to one another with reference to the map’s transformation, and it assesses how distorted your map will be. High RMS error values indicate that your control points are less consistent with one another, while a low RMS error value indicates more consistency and reduced distortion. It is generally recommended that you keep your error values low and replace or remove control points with high values. While the RMS error provides a good way to assess the transformation’s accuracy, you should always re-evaluate how well your scanned map matches up to the GIS modern map. For more information about RMS errors, please see Esri’s section on interpreting the root mean square error in their <a href="https://perma.cc/L4VD-VPVV">Overview of georeferencing</a>.
 </div>
 
-8. When you have enough points and think they are well-distributed across your historic map, click Warp Image! at the bottom of the page. Georeferencing maps takes practice. You may find that your rectified map creates an unreadable, warped map. We encourage you to try steps 7-9 again, taking into account best practices for georeferencing mentioned above, such as identifying major cities, roads, streams, and rivers that you can identify with confidence.
+8\. When you have enough points and think they are well-distributed across your historic map, click Warp Image! at the bottom of the page. Georeferencing maps takes practice. You may find that your rectified map creates an unreadable, warped map. We encourage you to try steps 7-9 again, taking into account best practices for georeferencing mentioned above, such as identifying major cities, roads, streams, and rivers that you can identify with confidence.
 
     {% include figure.html filename="mapwarper_warpbutton.png" caption="Click Warp Image! to rectify your map." %}
 
-9. You will now see the map layered on top of the OpenStreetMap.
+9\. You will now see the map layered on top of the OpenStreetMap.
 
     {% include figure.html filename="mapwarper_openstreetmap.png" caption="Georeferenced map in OpenStreetMap." %}
 
-10. You can choose to view a satellite image base map or the regular OpenStreetMap layer we’ve been using.
+10\. You can choose to view a satellite image base map or the regular OpenStreetMap layer we’ve been using.
 
     {% include figure.html filename="mapwarper_satellite.png" caption="Georeferenced map in satellite view." %}
 
-11. Click the Preview tab for a larger view of the georeferenced map. Changing the transparency using the slider can give you a sense of how accurate your georeferencing has been applied.
+11\. Click the Preview tab for a larger view of the georeferenced map. Changing the transparency using the slider can give you a sense of how accurate your georeferencing has been applied.
 
     {% include figure.html filename="mapwarper_preview.png" caption="Map Warper Preview." %}
 
