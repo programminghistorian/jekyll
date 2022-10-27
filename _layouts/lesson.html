@@ -238,6 +238,40 @@ All lesson metadata and alerts should follow the convention of pulling appropria
     </div>
   {% endif %}
 
+  <!-- Check if lesson is the result of an institutional partnership -->
+  <!-- The logic is essentially the same as that of, for example, lessons which are part of a sequence -->
+  <!-- If the page contains the 'lesson-partners' YAML field -->
+  {% if page.lesson-partners %}
+    <!-- Creates an alert-info div -->
+    <div class="alert alert-info">
+      <p>
+        <!-- Inserts the snippet for the YAML field at snippets.yml -->
+        {{ site.data.snippets.lesson-partners[page.lang] }}
+        <!-- Adds the value of 'lesson-partners', with different cases for one, two or more partners -->
+        {% case page.lesson-partners.size %}
+          {% when 1 %}
+            {{ page.lesson-partners -}}
+          {% when 2 %}
+            {{ page.lesson-partners[0] }} {{site.data.snippets.and[page.lang]}} {{ page.lesson-partners[1] -}}
+          {% else %}
+            {% for partner in page.lesson-partners %}
+              {% if partner != page.lesson-partners.last %}
+                {{ partner -}}, 
+              {% else %}
+                {{site.data.snippets.and[page.lang]}} {{ partner -}}
+              {% endif -%}
+            {% endfor -%}
+      {% endcase -%}.
+
+      <!-- If the partnership has a dedicated webpage, based on the existence of partnership-url in the page -->
+      {% if page.partnership-url %}
+      <!-- Adds the snippet and creates the link based on the content of partnership-url -->
+      {{ site.data.snippets.partnership-url[page.lang].blurb }} <a href="{{ page.partnership-url }}">{{ site.data.snippets.partnership-url[page.lang].clickable-text -}}</a>.
+      {% endif %}
+      </p>
+    </div>
+  {% endif %}
+
 
   {% if page.retired %}
   <div class="alert alert-warning">

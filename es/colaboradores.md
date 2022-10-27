@@ -1,7 +1,9 @@
 ---
 layout: blank
 title: Nuestros colaboradores
-redirect_from: /colaboradores
+redirect_from: 
+ - /colaboradores
+original: supporters
 ---
 
 # Nuestros colaboradores

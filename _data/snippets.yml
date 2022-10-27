@@ -368,7 +368,7 @@ footer:
     pt: Subscrição RSS feed
   retirement: 
     en: Lesson retirement policy
-    es: Política de retirada de lecciones
+    es: Política de retiro de lecciones
     fr: Politique de retrait des leçons
     pt: Política de remoção de lições
   trans-concordance: 
@@ -600,6 +600,32 @@ donation-banner:
       <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Vous pouvez faire un don au <i>Programming Historian</i></a></h2>
     pt: |
       <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Pode fazer uma doação ao <i>Programming Historian</i></a></h2>
+
+
+# Partnership information, for when a lesson is the product of a specific partnership (i.e., PH/Jisc/TNA)
+# Content of 'lesson-partners' for each tutorial should be an array with the names of the partners, as they will appear to readers, i.e:
+# lesson-partners: [Jisc, The National Archives] 
+lesson-partners: 
+  en: This lesson is part of a special series in partnership with
+  es: Esta lección es parte de una serie especial en colaboración con
+  fr: Cette leçon fait partie d'une série spéciale en partenariat avec
+  pt: Esta lição faz parte de uma série especial em parceria com
+# Link to partnership page
+# Content of 'partnership-url' for each tutorial should be the address for the partnership page (sans .md), i.e.:
+# partnership-url: /jisc-tna-partnership
+partnership-url:
+  en:
+    blurb: To browse other lessons in this series
+    clickable-text: click here
+  es:
+    blurb: Para ver otras lecciones publicados como parte de esta colaboración
+    clickable-text: haz clic aquí
+  fr: 
+    blurb: Pour consulter les autres leçons de cette série
+    clickable-text: cliquez ici
+  pt:
+    blurb: Para consultar outras lições desta série
+    clickable-text: clique aqui
 
 # Included in the lesson.html layout when a lesson has been marked as retired, and is not to be displayed on the main directory.
 retired:

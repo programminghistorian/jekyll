@@ -76,7 +76,7 @@ A more detailed look at text analysis with Python is provided in the [Art of Lit
 
 # Download the Lesson Files
 
-To follow along, download [lesson_files.zip](https://github.com/programminghistorian/ph-submissions/raw/gh-pages/assets/extracted-features-lesson_files.zip) and unzip it to any directory you choose.
+To follow along, download [lesson_files.zip](/assets/text-mining-with-extracted-features/extracted-features-lesson_files.zip) and unzip it to any directory you choose.
 
 The lesson files include a sample of files from the HTRC Extracted Features dataset. After you learn to use the feature data in this lesson, you may want to work with the entirety of the dataset. The details on how to do this are described in [Appendix: rsync](#appendix-downloading-custom-files-via-rsync).
 
@@ -130,7 +130,7 @@ If your web browser does not open automatically, Jupyter can be accessed by goin
 
 {% include figure.html filename="notebook-start.png" caption="A freshly started Jupyter notebook instance." %}
 
-Jupyter is now showing a directory structure from your home folder. Navigate to the lesson folder where you unzipped [lesson_files.zip](https://github.com/programminghistorian/ph-submissions/raw/gh-pages/assets/extracted-features-lesson_files.zip).
+Jupyter is now showing a directory structure from your home folder. Navigate to the lesson folder where you unzipped [lesson_files.zip](/assets/text-mining-with-extracted-features/extracted-features-lesson_files.zip).
 
 In the lesson folder, open `Start Here.pynb`: your first notebook!
 

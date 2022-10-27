@@ -58,21 +58,21 @@
     fr: Responsable technique
     pt: Coordenador técnico
   definition:
-    en: Coordinates and trains members of the technical team
-    es: Coordina y forma a los integrantes del equipo técnico
-    fr: Coordonne et forme les membres de l'équipe technique
-    pt: Coordena e dá formação aos membros da equipa técnica
+    en: Oversees our publishing technical infrastructure and website
+    es: Supervisa nuestra infraestructura técnica de publicación y el sitio web
+    fr: Superviser l'infrastructure technique de l'édition et le site web
+    pt: Supervisiona a nossa infra-estrutura técnica editorial e o nosso website
 - type: technical
   label:
-    en: Technical Team
-    es: Equipo técnico
-    fr: Équipe technique
-    pt: Equipe técnica
+    en: Infrastructure Support Team
+    es: Equipo de apoyo a la infraestructura
+    fr: Équipe de soutien à l'infrastructure
+    pt: Equipa de Apoio às Infra-estruturas
   definition:
-    en: Responsible for the technical features that bring the content and peer review to our community
-    es: Responsable de las características técnicas respecto al contenido y la revisión por pares a nuestra comunidad
-    fr: Responsable des aspects techniques rendant accessibles à notre communauté le contenu et l'évaluation par les pairs
-    pt: Responsável pelos aspectos técnicos que asseguram o conteúdo e a revisão por pares para a nossa comunidade
+    en: Has provided valuable voluntary support, technical advice, or development of our website over an extended period
+    es: Ha prestado un valioso apoyo voluntario, asesoramiento técnico o desarrollo de nuestro sitio web durante un período prolongado
+    fr: A fourni un soutien bénévole précieux, des conseils techniques ou le développement de notre site web pendant une période prolongée
+    pt: Prestou valioso apoio voluntário, aconselhamento técnico ou desenvolvimento do nosso website durante um período prolongado
 - type: finance-manager
   label:
     en: Finance Manager
