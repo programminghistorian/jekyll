@@ -1,9 +1,10 @@
 ---
 title: De HTML para Lista de Palavras (parte 1)
 layout: lesson
+collection: lessons
 slug: HTML-lista-palavras-1
 date: 2012-07-17
-translation_date: 2021-12-19
+translation_date: 2022-10-27
 authors:
 - William J. Turkel
 - Adam Crymble
@@ -33,15 +34,15 @@ doi: 10.46430/phpt0027
 
 ## Objetivos da lição
 
-Nesta lição de duas partes, aprofundaremos o que aprendeu sobre o [Download de Páginas Web com Python](/pt/licoes/download-paginas-web-python), aprendendo como remover a *marcação HTML* de uma página web da [transcrição do julgamento criminal de Benjamin Bowsey em 1780][]. Faremos isso usando uma variedade de *operadores de string*, *métodos de string* e habilidades de leitura atenta. Introduziremos *looping* e *branching* de modo que os programas possam repetir tarefas e testar certas condições, tornando possível a separação do conteúdo das tags HTML. Finalmente, faremos a conversão do conteúdo de uma string longa para uma *lista de palavras*, que podem ser ordenadas, indexadas e contabilizadas posteriormente.
+Nesta lição de duas partes, aprofundaremos o que aprendeu sobre o [Download de Páginas Web com Python](/pt/licoes/download-paginas-web-python), aprendendo como remover a *marcação HTML* de uma página web da [transcrição do julgamento criminal de Benjamin Bowsey em 1780](https://perma.cc/8LM6-W39K). Faremos isso usando uma variedade de *operadores de string*, *métodos de string* e habilidades de leitura atenta. Introduziremos *looping* e *branching* de modo que os programas possam repetir tarefas e testar certas condições, tornando possível a separação do conteúdo das tags HTML. Finalmente, faremos a conversão do conteúdo de uma string longa para uma *lista de palavras*, que podem ser ordenadas, indexadas e contabilizadas posteriormente.
 
 ## O Desafio
 
-Para ter uma ideia mais clara da tarefa que temos pela frente, abra o ficheiro *obo-t17800628-33.html* que criou em [Download de Páginas Web com Python](/pt/licoes/download-paginas-web-python) (ou faça o [download e guarde a transcrição do julgamento][obo-t17800628-33.html] caso ainda não tenha uma cópia) e depois verifique o código-fonte do HTML clicando em *Ferramentas -> Ferramentas do Navegador -> Fonte da página* (para usuários do navegador Firefox). À medida que for olhando o código-fonte, notará que há tags HTML misturadas com texto. Caso não tenha experiência com HTML, recomendamos que faça o tutorial do W3 Schools [HTML][1] para se familiarizar com a marcação HTML. Se o seu trabalho frequentemente requer que remova a marcação HTML, certamente será útil entendê-la ao visualizá-la.
+Para ter uma ideia mais clara da tarefa que temos pela frente, abra o ficheiro *obo-t17800628-33.html* que criou em [Download de Páginas Web com Python](/pt/licoes/download-paginas-web-python) (ou faça o [download e guarde a transcrição do julgamento](/assets/obo-t17800628-33.html) caso ainda não tenha uma cópia) e depois verifique o código-fonte do HTML clicando em *Ferramentas -> Ferramentas do Navegador -> Fonte da página* (para usuários do navegador Firefox). À medida que for olhando o código-fonte, notará que há tags HTML misturadas com texto. Caso não tenha experiência com HTML, recomendamos que faça o tutorial do W3 Schools [HTML](http://www.w3schools.com/html/) para se familiarizar com a marcação HTML. Se o seu trabalho frequentemente requer que remova a marcação HTML, certamente será útil entendê-la ao visualizá-la.
 
 ## Ficheiros Necessários para esta Lição
 
--   *[obo-t17800628-33.html][]*
+-   *[obo-t17800628-33.html](/assets/obo-t17800628-33.html)*
 
 ## Idealizando um Algoritmo
 
@@ -83,7 +84,7 @@ Finalmente:
 
 ## Isolar o Conteúdo Desejado
 
-Os próximos passos utilizam os comandos de Python introduzidos na lição [Manipular strings com Python][] para implementar a primeira metade do algoritmo: remover todo o conteúdo antes da tag `<p>` e depois da tag `<br/>`. Para recapitular, o algoritmo era o seguinte:
+Os próximos passos utilizam os comandos de Python introduzidos na lição [Manipular strings com Python](/pt/licoes/manipular-strings-python) para implementar a primeira metade do algoritmo: remover todo o conteúdo antes da tag `<p>` e depois da tag `<br/>`. Para recapitular, o algoritmo era o seguinte:
 
 - Fazer o download do texto transcrito
 - Buscar no HTML e guardar a localização da primeira tag `<p>`
@@ -92,7 +93,7 @@ Os próximos passos utilizam os comandos de Python introduzidos na lição [Mani
 
 Para fazer isso, você utilizará o método de string 'find', o método .rfind() (que encontra a última correspondência de algo) e criará uma nova substring contendo apenas o conteúdo desejado entre essas posições de índice.
 
-Enquanto trabalha, desenvolverá ficheiros separados para armazenar o seu código. Um deles será chamado `obo.py` (para "Old Bailey Online"). Esse ficheiro conterá todo o código que deseja reutilizar; em outras palavras, `obo.py` é um módulo. Discutimos a ideia de módulo em [Reutilização de código e modularidade em Python][], quando salvamos nossas funções em `cumprimento.py`.
+Enquanto trabalha, desenvolverá ficheiros separados para armazenar o seu código. Um deles será chamado `obo.py` (para "Old Bailey Online"). Esse ficheiro conterá todo o código que deseja reutilizar; em outras palavras, `obo.py` é um módulo. Discutimos a ideia de módulo em [Reutilização de código e modularidade em Python](/pt/licoes/reutilizacao-codigo-modularidade-python), quando salvamos nossas funções em `cumprimento.py`.
 
 Crie um novo ficheiro chamado `obo.py` e armazene-o no seu diretório *programming-historian*. Utilizaremos esse ficheiro para manter cópias das funções necessárias para processar o The Old Bailey Online. Digite ou copie o código a seguir no seu ficheiro:
 
@@ -141,13 +142,4 @@ Leituras sugeridas
 
 Para acompanhar lições futuras, é importante ter os ficheiros e programas corretos no seu diretório “programming-historian”. No final de cada lição, é possível fazer o download do ficheiro zip “programming-historian” para ter a certeza de que o ficheiro correto está a ser utilizado. Observe que removemos os ficheiros desnecessários das lições anteriores. Seu diretório pode conter mais ficheiros e não há problema!
 
--   programming-historian-2 ([zip][])
-
-
-  [transcrição do julgamento criminal de Benjamin Bowsey em 1780]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
-  [HTML]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33-defend448&div=t17800628-33
-  [1]: http://www.w3schools.com/html/
-  [Manipular strings com Python]: /pt/licoes/manipular-strings-python
-  [Reutilização de código e modularidade em Python]: /pt/licoes/reutilizacao-codigo-modularidade-python
-  [zip]: /assets/python-lessons2.zip
-  [obo-t17800628-33.html]: /assets/obo-t17800628-33.html
+-   programming-historian-2 ([zip](/assets/python-lessons2.zip))
