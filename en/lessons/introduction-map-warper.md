@@ -171,10 +171,10 @@ x,y,lon,lat
 
 ## Practice
 
-1\. Click on the Rectify tab.
-2\. Take a moment to move the map on the right to the North Carolina and South Carolina region. The arrows at the top of the screen move the map slightly to the north, south, east, and west, and are useful when you need to make small adjustments to the map. You can zoom in and out with the slider or with your trackpad/mouse. To move around a map, click the hand icon.
-3\. Once you feel comfortable moving around the maps, select your first control point. Start from the historic map and choose a location &mdash;for example, a city&mdash; that will be relatively easy to find.
-4\. Then, click the green control point marker on the modern map and find the same location to match them up.
+1\. Click on the Rectify tab.  
+2\. Take a moment to move the map on the right to the North Carolina and South Carolina region. The arrows at the top of the screen move the map slightly to the north, south, east, and west, and are useful when you need to make small adjustments to the map. You can zoom in and out with the slider or with your trackpad/mouse. To move around a map, click the hand icon.  
+3\. Once you feel comfortable moving around the maps, select your first control point. Start from the historic map and choose a location &mdash;for example, a city&mdash; that will be relatively easy to find.  
+4\. Then, click the green control point marker on the modern map and find the same location to match them up.  
 
     {% include figure.html filename="mapwarper_controlpointsadded.png" caption="Match up your control points." %}
 
