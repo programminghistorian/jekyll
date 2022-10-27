@@ -252,7 +252,7 @@ Para acompanhar lições futuras, é importante ter os ficheiros e programas cor
 
 -   python-lessons3.zip ([zip sync][])
 
-  [De HTML para Lista de Palavras (parte 1)]: /pt/licoes/de-HTML-para-lista-de-palavras-1
+  [De HTML para Lista de Palavras (parte 1)]: /pt/licoes/HTML-lista-palavras-1
   [integer]: http://docs.python.org/2.4/lib/typesnumeric.html
   [types]: http://docs.python.org/3/library/types.html
   [zip]: /assets/python-lessons2.zip
