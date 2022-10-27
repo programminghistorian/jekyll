@@ -1,9 +1,10 @@
 ---
 title: De HTML para Lista de Palavras (parte 2)
 layout: lesson
+collection: lessons
 slug: HTML-lista-palavras-2
 date: 2012-07-17
-translation_date: 2021-12-19
+translation_date: 2022-10-27
 authors:
 - William J. Turkel
 - Adam Crymble
@@ -33,7 +34,7 @@ doi: 10.46430/phpt0028
 
 ## Objetivos da Lição
 
-Nesta lição aprenderá os comandos de Python necessários para implementar a segunda parte do algoritmo iniciado na lição [De HTML para Lista de Palavras (parte 1)][]. A primeira metade do algoritmo obtém o conteúdo de uma página HTML e salva apenas o conteúdo entre a primeira tag `<p>` e a última tag `<br/>`. A segunda metade do algoritmo faz o seguinte: 
+Nesta lição aprenderá os comandos de Python necessários para implementar a segunda parte do algoritmo iniciado na lição [De HTML para Lista de Palavras (parte 1)](/pt/licoes/HTML-lista-palavras-1). A primeira metade do algoritmo obtém o conteúdo de uma página HTML e salva apenas o conteúdo entre a primeira tag `<p>` e a última tag `<br/>`. A segunda metade do algoritmo faz o seguinte: 
 
 - Verifica cada caractere na string *pageContents*, um por um
 - Se o caractere for um colchete angular esquerdo (\<), estamos dentro de uma tag e deve-se ignorar os caracteres subsequentes
@@ -46,7 +47,7 @@ Nesta lição aprenderá os comandos de Python necessários para implementar a s
 - `obo.py`
 - `trial-content.py`
 
-Caso não possua estes ficheiros, pode fazer o download do python-lessons2.zip, um ficheiro ([zip][]) da última lição.
+Caso não possua estes ficheiros, pode fazer o download do python-lessons2.zip, um ficheiro ([zip](/assets/python-lessons2.zip)) da última lição.
 
 ## Repetição e Testagem em Python
 
@@ -161,7 +162,7 @@ Para testar a nossa nova função *stripTags*, pode executar `trial-content.py` 
 
 ## Listas em Python
 
-Agora que temos a habilidade de extrair texto bruto das páginas da web, provavelmente desejará obter esse texto em um formato que seja fácil de processar. Até agora, quando precisou armazenar informações em programas Python, geralmente usou strings. Houve algumas exceções, no entanto. Na função *stripTags*, também fez uso de um número inteiro ([integer][]) nomeado *inside* para armazenar 1 quando estivesse processando uma tag e 0 quando não fosse o caso. Atenção que pode executar operações matemáticas com inteiros, mas não pode armazenar frações ou números decimais em variáveis inteiras.
+Agora que temos a habilidade de extrair texto bruto das páginas da web, provavelmente desejará obter esse texto em um formato que seja fácil de processar. Até agora, quando precisou armazenar informações em programas Python, geralmente usou strings. Houve algumas exceções, no entanto. Na função *stripTags*, também fez uso de um número inteiro ([integer](https://perma.cc/JLD8-Z58G)) nomeado *inside* para armazenar 1 quando estivesse processando uma tag e 0 quando não fosse o caso. Atenção que pode executar operações matemáticas com inteiros, mas não pode armazenar frações ou números decimais em variáveis inteiras.
 
 
 ``` python
@@ -176,7 +177,7 @@ f.write('ola mundo')
 f.close()
 ```
 
-Um dos [tipos][types] de objeto mais úteis que o Python oferece, no entanto, é a *lista*, uma coleção ordenada de outros objetos (inclusive, potencialmente, outras listas). Converter uma string em uma lista de caracteres ou palavras é simples. Digite ou copie o código a seguir no seu editor de texto para verificar duas formas de atingir esse objetivo. Guarde o ficheiro como `string-para-lista.py` e execute-o. Compare as duas listas que são exibidas no painel da Saída de Comando e veja se consegue descobrir como o código funciona.
+Um dos [tipos](https://perma.cc/4577-CE4Q) de objeto mais úteis que o Python oferece, no entanto, é a *lista*, uma coleção ordenada de outros objetos (inclusive, potencialmente, outras listas). Converter uma string em uma lista de caracteres ou palavras é simples. Digite ou copie o código a seguir no seu editor de texto para verificar duas formas de atingir esse objetivo. Guarde o ficheiro como `string-para-lista.py` e execute-o. Compare as duas listas que são exibidas no painel da Saída de Comando e veja se consegue descobrir como o código funciona.
 
 ``` python
 # string-para-lista.py
@@ -196,7 +197,7 @@ wordlist = s2.split()
 print(wordlist)
 ```
 
-A primeira rotina utiliza um `for` *loop* para percorrer cada caractere na string *s1* e anexa o caractere ao final de *charlist*. A segunda rotina faz uso da operação *split* (dividir) para separar a string *s2* sempre que houver um espaço em branco (espaços, tabulações, [retornos de carro](https://pt.wikipedia.org/wiki/Retorno_de_carro) e caracteres semelhantes). Na verdade, é uma certa simplicação referir-se aos objetos da segunda lista como palavras. Tente mudar *s2* no programa acima para 'oi mundo!' e execute-o novamente. O que aconteceu com o ponto de exclamação? Note que precisará quardar as suas alterações antes de usar *Run Python* novamente.
+A primeira rotina utiliza um `for` *loop* para percorrer cada caractere na string *s1* e anexa o caractere ao final de *charlist*. A segunda rotina faz uso da operação *split* (dividir) para separar a string *s2* sempre que houver um espaço em branco (espaços, tabulações, [retornos de carro](https://perma.cc/T7DA-RG2L) e caracteres semelhantes). Na verdade, é uma certa simplicação referir-se aos objetos da segunda lista como palavras. Tente mudar *s2* no programa acima para 'oi mundo!' e execute-o novamente. O que aconteceu com o ponto de exclamação? Note que precisará quardar as suas alterações antes de usar *Run Python* novamente.
 
 Considerando tudo o que aprendeu até aqui, agora é capaz de abrir uma URL, fazer o download de uma página web e armazená-la numa string, remover o HTML e depois dividir o texto em uma lista de palavras. Tente executar o programa a seguir.
 
@@ -250,10 +251,4 @@ Simplesmente ter uma lista de palavras ainda não é muito vantajoso. Como seres
 
 Para acompanhar lições futuras, é importante ter os ficheiros e programas corretos no seu diretório “programming-historian”. No final de cada lição, é possível fazer o download do ficheiro zip “programming-historian” para ter a certeza de que o ficheiro correto está a ser utilizado. Observe que removemos os ficheiros desnecessários das lições anteriores. O seu diretório pode conter mais ficheiros e não há problema!
 
--   python-lessons3.zip ([zip sync][])
-
-  [De HTML para Lista de Palavras (parte 1)]: /pt/licoes/HTML-lista-palavras-1
-  [integer]: http://docs.python.org/2.4/lib/typesnumeric.html
-  [types]: http://docs.python.org/3/library/types.html
-  [zip]: /assets/python-lessons2.zip
-  [zip sync]: /assets/python-lessons3.zip
+-   python-lessons3.zip ([zip sync](/assets/python-lessons3.zip))
