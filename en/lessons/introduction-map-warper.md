@@ -206,7 +206,7 @@ Note: You will see there is an Error value for each control point. Map Warper us
 
 11\. Click the Preview tab for a larger view of the georeferenced map. Changing the transparency using the slider can give you a sense of how accurate your georeferencing has been applied.
 
-    {% include figure.html filename="mapwarper_preview.png" Screenshot of the Preview tab of Map Warper's interface, with the scanned historical map of North Carolina and South Carolina overlaid onto a contemporary 'base layer' map of the same geographical region, at the same scale. A slider bar at the bottom of the interface is adjusted from the leftmost position, slightly towards the right." caption="Figure 10. Map Warper Preview." %}
+    {% include figure.html filename="mapwarper_preview.png" alt="Screenshot of the Preview tab of Map Warper's interface, with the scanned historical map of North Carolina and South Carolina overlaid onto a contemporary 'base layer' map of the same geographical region, at the same scale. A slider bar at the bottom of the interface is adjusted from the leftmost position, slightly towards the right." caption="Figure 10. Map Warper Preview." %}
 
 ## Cropping
 The **Crop** tab allows you to crop a section of the uploaded map. This is useful for dividing maps into composites. The display window integrates the following actions:  
