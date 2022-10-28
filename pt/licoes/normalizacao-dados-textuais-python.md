@@ -66,7 +66,7 @@ Está claro que a nossa lista precisará de uma limpeza antes de conseguirmos ut
 
 ## Converter para Minúsculas
 
-Tipicamente tokens são convertidos em letras minúsculas ao contar frequências, então faremos isso através do método de string `lower` que foi introduzido em [Manipular strings com Python][]. Já que este é um método de string, devemos aplicá-lo à string `text` no programa `html-to-list1.py`. Ajuste `html-to-list1.py` adicionando a *string tag* `lower()` ao final da string `text`. 
+Tipicamente tokens são convertidos em letras minúsculas ao contar frequências, então faremos isso através do método de string `lower` que foi introduzido em [Manipular strings com Python](/pt/licoes/manipular-strings-python). Já que este é um método de string, devemos aplicá-lo à string `text` no programa `html-to-list1.py`. Ajuste `html-to-list1.py` adicionando a *string tag* `lower()` ao final da string `text`. 
 
 
 ``` python
