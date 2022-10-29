@@ -3,7 +3,7 @@ title: Saída de Dados como um Ficheiro HTML com Python
 layout: lesson
 slug: saida-dados-ficheiro-html-python
 date: 2012-07-17
-translation_date: 2022-01-14
+translation_date: 2022-10-31
 authors:
 - William J. Turkel
 - Adam Crymble
