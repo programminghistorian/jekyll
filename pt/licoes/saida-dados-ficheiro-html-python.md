@@ -20,7 +20,7 @@ translation-reviewer:
 - Ana Carolina Erthal
 - André Salvo
 difficulty: 2
-review-ticket: 
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/463
 activity: transforming
 topics: [python, website]
 abstract: "Esta lição usa os pares de frequência criados na lição ‘Contar Frequências de Palavras com Python’ e cria um ficheiro HTML com esses dados."
