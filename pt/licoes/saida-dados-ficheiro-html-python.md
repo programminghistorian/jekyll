@@ -209,12 +209,12 @@ obo.wrapStringInHTMLMac("html-to-freq-3", url, outstring)
 
 Note que intercalamos nossos pares palavra-frequência com a *tag* HTML de quebra `<br\>`, que atua como uma nova linha. Se tudo correu bem, deverá ver as mesmas frequências de palavra que calculou na última seção, desta vez na janela do navegador.
 
-### Leituras Sugeridas
+## Leituras Sugeridas
 
 -   Lutz, Learning Python
     -   Re-read and review Chs. 1-17
 
-### Sincronização de Código
+## Sincronização de Código
 
 Para acompanhar lições futuras, é importante ter os ficheiros e programas corretos no seu diretório “programming-historian”. Ao final de cada capítulo pode fazer o *download* do ficheiro zip "programming-historian" para garantir que possui o código correto. Caso esteja acompanhando com a versão para Mac / Linux, deve ter que abrir o ficheiro `obo.py` e mudar "file:///Users/username/Desktop/programming-historian/" para o caminho até o diretório no seu próprio computador.
 
