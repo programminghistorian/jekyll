@@ -50,7 +50,7 @@ Caso ainda não tenha feito o [tutorial de HTML do W3 Schools](http://www.w3scho
 
 ## "Olá mundo" em HTML usando Python
 
-Uma das ideias mais poderosas na ciência da computação é que um ficheiro que parece conter código sob uma perspectiva pode ser visto como dados sob outra. É possível, em outras palavras, escrever programas que manipulam outros programas. O que faremos a seguir é criar um ficheiro HTML que diz "Olá mundo!" usando Python. Faremos isso armazenando *tags* HTML em uma string multilinha de Python e quardando os conteúdos em um novo ficheiro. Esse ficheiro será armazenado com uma extensão `.html` ao invés de uma extensão `.txt`.
+Uma das ideias mais poderosas na ciência da computação é que um ficheiro que parece conter código sob uma perspectiva pode ser visto como dados sob outra. É possível, em outras palavras, escrever programas que manipulam outros programas. O que faremos a seguir é criar um ficheiro HTML que diz "Olá mundo!" usando Python. Faremos isso armazenando *tags* HTML em uma string multilinha de Python e guardando os conteúdos em um novo ficheiro. Esse ficheiro será armazenado com uma extensão `.html` ao invés de uma extensão `.txt`.
 
 Tipicamente um ficheiro HTML começa com uma [declaração do tipo de documento](http://www.w3schools.com/tags/tag_doctype.asp). Vimos isso ao escrever um programa HTML "Olá mundo!" em uma lição anterior. Para facilitar a leitura do nosso código, omitiremos o `doctype` neste exemplo. Lembre-se de que uma string multilinha é criada colocando o texto entre três aspas (veja abaixo):
 
