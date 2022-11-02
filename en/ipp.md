@@ -26,7 +26,7 @@ Partnership Rates:
 | €1,200 EUR  | €500 EUR | €175 EUR  |
 | $1,700 CAD  | $700 CAD | $275 CAD  | 
 
-If your institution has resource to offer us even greater support, we also welcome Partnerships at our Gold Tier. Gold Tier Partnership rates are £3,000 GBP / $4,200 USD / €3,600 EUR / $5,100 CAD.
+If your institution has resource to offer us even greater support, we also welcome Partnerships at our Gold Tier. Gold Tier Partnership rates are £3,000 GBP / $4,200 USD / €3,600 EUR / $5,100 CAD. Gold partners are offered two exclusive bespoke workshops per year for their students and researchers on how to get started using digital humanities tools. 
 
 Rates are due annually from the date of first payment and are set in January each year. For a quote in another currency please email <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
 
