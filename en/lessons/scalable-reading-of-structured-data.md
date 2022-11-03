@@ -165,7 +165,7 @@ Please be aware that your data will look slightly different to ours, as it was n
       scale_x_date(date_breaks = "1 day", date_labels = "%b %d") +
       scale_y_continuous(breaks = seq(0, 400, by = 50)) +
       theme(axis.text.x=element_text(angle=40, hjust=1)) +
-      labs(title = "Figure 1 - Daily tweets dispersed on whether or not they\ncontain #sesamestreet", y="Number of Tweets", x="Date", subtitle = "Period: 4 december 2021 - 13 december 2021", caption = "Total number of tweets: 2.413") +
+      labs(title = "Figure 1 - Daily tweets dispersed on whether or not they\ncontain #sesamestreet", y="Number of Tweets", x="Date", subtitle = "Period: 4 December 2021 - 13 December 2021", caption = "Total number of tweets: 2413") +
       guides(linetype = guide_legend(title = "Whether or not the\ntweet contains \n#sesamestreet"))
 
 {% include figure.html filename="scalable-reading-of-structured-data-1.png" alt="Plot that shows the distribution of harvested tweets from the 4th of December 2021 until the 13th of December 2021" caption="Daily tweets in the period from 4 December 2021 until 13 December 2021 dispersed on whether or not they contain '#sesamestreet'. The tweets from this period were collected by a freetext search on 'sesamestreet' without the hashtag. The total number of tweets returned was 2413." %}
@@ -272,31 +272,40 @@ In this part of the example, we demonstrate the workflow we used to investigate 
     ## 1 FALSE      0.892
     ## 2 TRUE     114.
 
-Using the code above, you group the dataset based on each tweet's status: verified = TRUE and non-verified = FALSE. After using the grouping function, all operations afterward will be done group-wide. In other words, all the tweets posted by non- verified accounts will be treated as one group, and all the tweets posted by verified accounts will be treated as another. The next step is to use the `summarise` function to calculate the mean of "favorite\_count" for within tweets from non-verified and verified accounts ("favorite" is the dataset's term for "like").
+Using the code above, you group the dataset based on each tweet's status: verified = TRUE and non-verified = FALSE. After using the grouping function, all operations afterward will be done group-wide. In other words, all the tweets posted by non- verified accounts will be treated as one group, and all the tweets posted by verified accounts will be treated as another. The next step is to use the `summarise` function to calculate the mean of "favorite_count" for within tweets from non-verified and verified accounts ("favorite" is the dataset's term for "like").
 
-In this next step, you add the result of the calculation above to a dataframe. Use a new column headed "interaction" to specify that it is "favorite\_count".
+In this next step you add the result from above to a dataframe and with a new column "interaction" where you specify that it is "favorite_count"
 
     interactions <- sesamestreet_data %>%
       group_by(verified) %>%
-      summarise(mean = mean(favorite_count)) %>%
+      summarise(gns = mean(favorite_count)) %>%
       mutate(interaction = "favorite_count")
 
-Using this method, you achieve a dataframe containing the mean values of the different interactions, which makes it possible to pass the data on to the ggplot-package for visualisation, which is done like this:
+In the next step you calculate the mean for retweets following the same method as you did with the favorite count:
+
+    interactions %>%
+      add_row(
+        sesamestreet_data %>%
+        group_by(verified) %>%
+        summarise(gns = mean(retweet_count), .groups = "drop") %>%
+        mutate(interaction = "retweet_count")) -> interactions
+        
+This way you get a dataframe with the means of the different interactions which makes it possible to pass it on to the ggplot-package for visualisation, which is done below. The visualisation looks a lot like the previous bar charts, but the difference here is `facet_wrap`, which creates three bar charts for each type of interaction:
 
     interactions  %>%
       ggplot(aes(x = verified, y = mean)) +
       geom_col() +
       facet_wrap(~interaction, nrow = 1) +
       labs(title = "Figure 4 - Means of different interaction count dispersed on the verified\nstatus in the sesammestreet dataset",
-           subtitle = "Period: Period: 4 December 2021 - 13 December 2021",
+           subtitle = "Period: 4 December 2021 - 13 December 2021",
            caption = "Total number of tweets: 2411",
            x = "Verified status",
            y = "Average of engagements counts") +
       scale_x_discrete(labels=c("FALSE" = "Not Verified", "TRUE" = "Verified"))
 
-The visualisation looks a lot like the previous bar charts, but the difference here is `facet_wrap`, which creates three bar charts for each type of interaction. The graph illustrates that tweets from verified accounts gets more attention than tweets from non-verified accounts. 
+The visualisation looks a lot like the previous bar charts, but the difference here is `facet_wrap`, which creates two bar charts for each type of interaction. The graph illustrates that tweets from verified accounts get more attention than tweets from non-verified accounts.
 
-{% include figure.html filename="scalable-reading-of-structured-data-3.png" alt="Bar chart that shows the average number of likes for tweets from non-verified and verified acocunts. The average for non-verified accounts is 1 and the average for verified accounts is approximately 108." caption="Means of different interaction count dispersed on verified status in the period from 4 December 2021 until 13 December 2021. The total number of tweets was 2435." %}
+{% include figure.html filename="scalable-reading-of-structured-data-3.png" alt="Bar chart that shows the average number of likes and retweets for tweets from non-verified and verified accounts. The average for non-verified accounts is 1 and the average for verified accounts is approximately 108." caption="Means of different interaction count dispersed on verified status in the period from 4 December 2021 until 13 December 2021. The total number of tweets was 2435." %}
 
 # Step 3: Reproducible and Systematic Selection of datapoints for Close Reading
 
