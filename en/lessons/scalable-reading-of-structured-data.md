@@ -274,7 +274,7 @@ In this part of the example, we demonstrate the workflow we used to investigate 
 
 Using the code above, you group the dataset based on each tweet's status: verified = TRUE and non-verified = FALSE. After using the grouping function, all operations afterward will be done group-wide. In other words, all the tweets posted by non- verified accounts will be treated as one group, and all the tweets posted by verified accounts will be treated as another. The next step is to use the `summarise` function to calculate the mean of "favorite_count" for within tweets from non-verified and verified accounts ("favorite" is the dataset's term for "like").
 
-In this next step you add the result from above to a dataframe and with a new column "interaction" where you specify that it is "favorite_count"
+In this next step you add the result of the calculation above to a dataframe. Use a new column headed "interaction" to specify that it is "favorite_count".
 
     interactions <- sesamestreet_data %>%
       group_by(verified) %>%
