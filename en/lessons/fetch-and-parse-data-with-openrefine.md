@@ -126,7 +126,7 @@ To make examining the HTML easier, click on the URL in *Column 1* to open the li
 In this case the sonnets page does not have distinctive semantic markup, but each poem is contained inside a single `<p>` element.
 Thus, if all the paragraphs are selected, the sonnets can be extracted from the group.
 
-{% include figure.html caption="Each sonnet is a \<p\> with lines separated by \<br /\>" filename="refine-sonnet-markup.png" %}
+{% include figure.html caption="Each sonnet is a \<p\> with lines separated by \<br />" filename="refine-sonnet-markup.png" %}
 
 On the *fetch* column, click on the menu arrow > *edit column* > *Add column based on this column*.
 Give the new column the name "parse", then click in the *Expression* text box.
@@ -245,8 +245,8 @@ The entities will be replaced with normal whitespace.
 [GREL array functions](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Array-Functions) provide a powerful way to manipulate text data and can be used to finish processing the sonnets.
 Any string value can be turned into an array using the `split()` function by providing the character or expression that separates the items (basically the opposite of `join()`).
 
-In the sonnets each line ends with `<br />`, providing a convenient separator for splitting.
-The expression `value.split("<br />")` will create an array of the lines of each sonnet.
+In the sonnets each line ends with `<br>`, providing a convenient separator for splitting.
+The expression `value.split("<br>")` will create an array of the lines of each sonnet.
 Index numbers and slices can then be used to populate new columns.
 Keep in mind that Refine will not output an array directly to a cell.
 Be sure to select one element from the array using an index number or convert it back to a string with `join()`.
@@ -258,8 +258,8 @@ Trim automatically removes all leading and trailing white space in a cell, an es
 Using these concepts, a single line can be extracted and trimmed to create clean columns representing the sonnet number and first line.
 Create two new columns from the *parse* column using these names and expressions:
 
-- "number", `value.split("<br />")[0].trim()`
-- "first", `value.split("<br />")[1].trim()`
+- "number", `value.split("<br>")[0].trim()`
+- "first", `value.split("<br>")[1].trim()`
 
 {% include figure.html caption="GREL split and trim" filename="refine-add-num-column.png" %}
 
@@ -271,18 +271,18 @@ From the *parse* column, create a new column named "text", and click in the *Exp
 A `forEach()` statement asks for an array, a variable name, and an expression applied to the variable.
 Following the form `forEach(array, variable, expression)`, construct the loop using these parameters:
 
-- array: `value.split("<br />")`, creates an array from the lines of the sonnet in each cell.
+- array: `value.split("<br>")`, creates an array from the lines of the sonnet in each cell.
 - variable: `line`, each item in the array is then represented as the variable (it could be anything, `v` is often used).
 - expression: `line.trim()`, each item is then evaluated separately with the specified expression. In this case, `trim()` cleans the white space from each sonnet line in the array.
 
-At this point, the statement should look like `forEach(value.split("<br />"), line, line.trim())` in the *Expression* box.
+At this point, the statement should look like `forEach(value.split("<br>"), line, line.trim())` in the *Expression* box.
 Notice that the *Preview* now shows an array where the first element is the sonnet number.
 Since the results of the `forEach()` are returned as a new array, additional array functions can be applied, such as slice and join.
 Add `slice(1)` to remove the sonnet number, and `join("\n")` to concatenate the lines in to a string value (`\n` is the symbol for new line in plain text).
 Thus, the final expression to extract and clean the full sonnet text is:
 
 ```
-forEach(value.split("<br />"), line, line.trim()).slice(1).join("\n")
+forEach(value.split("<br>"), line, line.trim()).slice(1).join("\n")
 ```
 
 {% include figure.html caption="GREL forEach expression" filename="refine-foreach.png" %}
@@ -291,7 +291,7 @@ Click "OK" to create the column.
 Following the same technique, add another new column from *parse* named "last" to represent the final couplet lines using:
 
 ```
-forEach(value.split("<br />"), line, line.trim()).slice(-3).join("\n")
+forEach(value.split("<br>"), line, line.trim()).slice(-3).join("\n")
 ```
 
 Finally, numeric columns can be added using the `length()` function.
@@ -417,19 +417,19 @@ GREL's `parseJson()` function allows us to select a key name to retrieve the cor
 Add a new column based on *fetch* with the name "items" and enter this expression:
 
 ```
-value.parseJson()['items'].join("|||")
+value.parseJson()['items'].join("^^^")
 ```
 
 {% include figure.html caption="parse json items" filename="refine-parse-items.png" %}
 
 Selecting `['items']` exposes the array of newspaper records nested inside the JSON response.
 The `join()` function concatenates the array with the given separator resulting in a string value.
-Since the newspaper records contain an OCR text field, the strange separator "|||" is necessary to ensure that it is unique and can be used to split the values.
+Since the newspaper records contain an OCR text field, the strange separator "^^^" is necessary to ensure that it is unique and can be used to split the values.
 
 ## Split Multivalued Cells
 
 With the individual newspapers isolated, separate rows can be created by splitting the cells.
-On the *items* column, select *Edit cells* >  *Split multivalued cells*, and enter the join used in the last step, `|||`.
+On the *items* column, select *Edit cells* >  *Split multivalued cells*, and enter the join used in the last step, `^^^`.
 After the operation, the top of the project table should read 20 rows.
 Clicking on Show as *records* should read 4, representing the original CSV rows.
 
@@ -460,6 +460,10 @@ Create a new column from *items* for each newspaper metadata element by parsing 
 - "city", `value.parseJson()['city'].join(", ")`
 - "lccn", `value.parseJson()['lccn']`
 - "text", `value.parseJson()['ocr_eng']`
+
+<div class="alert alert-info">
+Some users of this lesson have noted that a recent change to the output of OCR'ed text from the Library of Congress introduces unexpected line breaks in the text column. These can be removed using the Expression `value.replace("\n","")`. (Nov. 2022)
+</div>
 
 After the desired information is extracted, the *items* column can be removed by selecting *Edit column* > *Remove this column*.
 
