@@ -462,7 +462,7 @@ Create a new column from *items* for each newspaper metadata element by parsing 
 - "text", `value.parseJson()['ocr_eng']`
 
 <div class="alert alert-info">
-Some users of this lesson have noted that a recent change to the output of OCR'ed text from the Library of Congress introduces unexpected line breaks in the text column. These can be removed using the Expression `value.replace("\n","")`. (Nov. 2022)
+Some users of this lesson have noted that a recent change to the output of OCR'ed text from the Library of Congress introduces unexpected line breaks in the text column. These can be removed using the Expression <code>value.replace("\n","")</code>. (Nov. 2022)
 </div>
 
 After the desired information is extracted, the *items* column can be removed by selecting *Edit column* > *Remove this column*.
