@@ -25,7 +25,7 @@ doi: 10.46430/phen0067
 
 <div class="alert alert-warning"> 
 Readers have reported experiencing difficulties moving through this lesson. We have learned that it is now necessary to obtain an access token to use the Mapbox API. Even if users opt for the free tier, they must provide credit card details to proceed which presents a barrier to many of our users. We are reviewing our options for updating or adaptating this lesson. (Nov. 2022)
-<\div>
+</div>
 
 ## Introduction
 
