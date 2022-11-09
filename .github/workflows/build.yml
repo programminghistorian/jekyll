@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
     # Next we setup our installation of Ruby but only if the PR event is not closing the PR (don't need to build twice since Github builds on merge to gh-pages).
       - name: 💎 setup ruby
         if : github.event.action != 'closed'
