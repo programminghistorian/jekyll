@@ -2766,3 +2766,35 @@
           Lorena Gauthereau is the Digital Programs Manager for the US Latino Digital Humanities Center (USLDH)/Recovering the US Hispanic Literary Heritage Program at the University of Houston.
       es: |
           Lorena Gauthereau es Digital Programs Manager para el Centro de Humanidades Digitales US Latinos (USLDH) del Programa de la Recuperación del legado escrito de hispanos en los Estados Unidos, basado en la Universidad de Houston.
+
+- name: Marie Flesch
+  team: true
+  team_start: 2022
+  institution: ATILF, Université de Lorraine-CNRS
+  github: marie-flesch
+  email: marie.flesch@gmail.com
+  url: "https://sites.google.com/view/marie-flesch/"
+  sortname: Flesch
+  orcid: 0000-0003-2139-1517
+  affiliation:
+    en: |
+      ATILF, Université de Lorraine-CNRS, France.
+    es: |
+      ATILF, Université de Lorraine-CNRS, Francia.
+    fr: |
+      ATILF, Université de Lorraine-CNRS, France.
+    pt: |
+      ATILF, Université de Lorraine-CNRS, França.
+  bio:
+    en: |
+      
+    es: |
+      
+    fr: |
+      
+    pt: |
+    
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
