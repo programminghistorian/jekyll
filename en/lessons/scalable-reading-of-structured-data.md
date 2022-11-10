@@ -165,7 +165,7 @@ Please be aware that your data will look slightly different to ours, as it was n
       scale_x_date(date_breaks = "1 day", date_labels = "%b %d") +
       scale_y_continuous(breaks = seq(0, 400, by = 50)) +
       theme(axis.text.x=element_text(angle=40, hjust=1)) +
-      labs(title = "Figure 1 - Daily tweets dispersed on whether or not they\ncontain #sesamestreet", y="Number of Tweets", x="Date", subtitle = "Period: 4 December 2021 - 13 December 2021", caption = "Total number of tweets: 2413") +
+      labs(y="Number of Tweets", x="Date", caption = "Total number of tweets: 2413") +
       guides(linetype = guide_legend(title = "Whether or not the\ntweet contains \n#sesamestreet"))
 
 {% include figure.html filename="scalable-reading-of-structured-data-1.png" alt="Plot that shows the distribution of harvested tweets from the 4th of December 2021 until the 13th of December 2021" caption="Daily tweets in the period from 4 December 2021 until 13 December 2021 dispersed on whether or not they contain '#sesamestreet'. The tweets from this period were collected by a freetext search on 'sesamestreet' without the hashtag. The total number of tweets returned was 2413." %}
@@ -176,7 +176,7 @@ TRUE and one representing FALSE.
 The lines of code following the `geom_line()` argument tweaks the aesthetics of the visualisation. In this context, aesthetics describes the visual representation of data in your visualisation. `scale_linetype()`tells R what the lines should be labeled as. `scale_x_date()` and `scale_y_continuous()`
 changes the appearance of the x- and y-axis, respectively. Lastly, the `labs()` and `guides()` arguments are used to create descriptive text on the visualisation.
 
-Remember to change the titles in the code below to match your specific dataset (as we explained above, you are probably not doing this on the 13th December 2021). You'll find the titles under `labs()`.
+Remember to change the descriptive text within `labs()` to match your specific dataset. If you want to hard-code titles into your plot, you can add `title =` and `subtitle =` alongside the other labels.
 
 You should now have a graph depicting the timely dispersion of tweets in your dataset. This graph shows the distribution of tweets collected during the period under investigation. With the Sesame Street tweets, our graph shows that most tweets were tweeted without the #sesamestreet hashtag. Furthermore, two spikes can be located in the graph. There is a peak on the 6th of December and another on the 12th of December. This tells you that there has been more activity towards Sesame Street on Twitter during those two dates than during the other harvested dates. We will now proceed with the binary exploration of some of your dataset's distinctive features. We will now proceed with the binary exploration of some of your dataset's distinctive features.
 
@@ -247,8 +247,6 @@ The next step is to visualize this result. Here you use the "ggplot2" package to
       scale_x_discrete(labels=c("FALSE" = "Not Verified", "TRUE" = "Verified"))+
           labs(x = "Verified status",
           y = "Percentage",
-          title = "Figure 2 - Percentage of tweets coming from verified and non-verified\naccounts in the sesamestreet-dataset",
-          subtitle = "Period: 4 December 2021 - 13 December 2021",
           caption = "Total number of tweets: 2435") +
       theme(axis.text.y = element_text(angle = 14, hjust = 1))
 
@@ -296,9 +294,7 @@ This way you get a dataframe with the means of the different interactions which 
       ggplot(aes(x = verified, y = mean)) +
       geom_col() +
       facet_wrap(~interaction, nrow = 1) +
-      labs(title = "Figure 4 - Means of different interaction count dispersed on the verified\nstatus in the sesammestreet dataset",
-           subtitle = "Period: 4 December 2021 - 13 December 2021",
-           caption = "Total number of tweets: 2411",
+      labs(caption = "Total number of tweets: 2411",
            x = "Verified status",
            y = "Average of engagements counts") +
       scale_x_discrete(labels=c("FALSE" = "Not Verified", "TRUE" = "Verified"))
