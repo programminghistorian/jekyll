@@ -168,7 +168,7 @@ Please be aware that your data will look slightly different to ours, as it was n
       labs(y="Number of Tweets", x="Date", caption = "Total number of tweets: 2413") +
       guides(linetype = guide_legend(title = "Whether or not the\ntweet contains \n#sesamestreet"))
 
-{% include figure.html filename="scalable-reading-of-structured-data-1.png" alt="Plot that shows the distribution of harvested tweets from the 4th of December 2021 until the 13th of December 2021" caption="Daily tweets in the period from 4 December 2021 until 13 December 2021 dispersed on whether or not they contain '#sesamestreet'. The tweets from this period were collected by a freetext search on 'sesamestreet' without the hashtag. The total number of tweets returned was 2413." %}
+{% include figure.html filename="scalable-reading-of-structured-data-1.png" alt="Plot that shows the distribution of harvested tweets from the 4th of December 2021 until the 13th of December 2021" caption="Figure 1: Daily tweets in the period from 4 December 2021 until 13 December 2021 dispersed on whether or not they contain '#sesamestreet'. The tweets from this period were collected by a freetext search on 'sesamestreet' without the hashtag. The total number of tweets returned was 2413." %}
 
 You are now going to visualise your results. Using the code 'ggplot(aes(date, n)) +', you are creating a visualisation of the four preceding lines (which transformed the data to help us explore the chronology of tweets with and without the official hashtag "\#sesamestreet"). To pick up where you left off in the previous code chunk, continue with the `ggplot()` function, which is “tidyverse”'s graphics package. This function is told to label the x-axis "Date" and the y-axis "Number of Tweets" based on TRUE/FALSE values. The next function needed to generate the visualisation is `geom_line()`, where you specify "linetype=has\_sesame\_ht", which plots two lines in the visualisation, one representing
 TRUE and one representing FALSE.
@@ -250,7 +250,7 @@ The next step is to visualize this result. Here you use the "ggplot2" package to
           caption = "Total number of tweets: 2435") +
       theme(axis.text.y = element_text(angle = 14, hjust = 1))
 
-{% include figure.html filename="scalable-reading-of-structured-data-2.png" alt="Bar chart of Twitter data, showing that 98% of Tweets including the hashtag #sesamestreet were posted by non-verified accounts" caption="Percentage of tweets posted by verified and non-verified accounts in the sesamestreet dataset during the period from 4 December 2021 to 13 December 2021. The total number of tweets was 2435." %}
+{% include figure.html filename="scalable-reading-of-structured-data-2.png" alt="Bar chart of Twitter data, showing that 98% of Tweets including the hashtag #sesamestreet were posted by non-verified accounts" caption="Figure 2: Percentage of tweets posted by verified and non-verified accounts in the sesamestreet dataset during the period from 4 December 2021 to 13 December 2021. The total number of tweets was 2435." %}
 
 In contrast to the earlier visualisations, which plotted tweets over time, you now use the `geom_col` function in order to create columns. Notice that when you start working in ggplot the pipe(`%>%`) is replaced by a `+`. This figure illustrates that most tweets about Sesame Street are created by non-verified users. This insight could illustrate that Sesame Street is a popular, politicised and public topic on Twitter that people without verified accounts are involved with.
 
@@ -301,7 +301,7 @@ This way you get a dataframe with the means of the different interactions which 
 
 The visualisation looks a lot like the previous bar charts, but the difference here is `facet_wrap`, which creates two bar charts for each type of interaction. The graph illustrates that tweets from verified accounts get more attention than tweets from non-verified accounts.
 
-{% include figure.html filename="scalable-reading-of-structured-data-3.png" alt="Bar chart that shows the average number of likes and retweets for tweets from non-verified and verified accounts. The average for non-verified accounts is 1 and the average for verified accounts is approximately 108." caption="Means of different interaction count dispersed on verified status in the period from 4 December 2021 until 13 December 2021. The total number of tweets was 2435." %}
+{% include figure.html filename="scalable-reading-of-structured-data-3.png" alt="Bar chart that shows the average number of likes and retweets for tweets from non-verified and verified accounts. The average for non-verified accounts is 1 and the average for verified accounts is approximately 108." caption="Figure 3: Means of different interaction count dispersed on verified status in the period from 4 December 2021 until 13 December 2021. The total number of tweets was 2435." %}
 
 # Step 3: Reproducible and Systematic Selection of datapoints for Close Reading
 
