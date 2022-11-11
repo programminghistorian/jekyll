@@ -9,6 +9,10 @@ original: supporters
 
 Le Programming Historian est reconnaissant envers ses contributeurs passés et actuels d'avoir permis de mettre ces ressources à la disposition du monde entier en libre accès.
 
+## Gold Tier Support
+
+- [Corporation for Digital Scholarship](https://digitalscholar.org/), États-Unis
+
 ## Partenariat institutionnel
 Les institutions suivantes font partie de notre programme de [Partenariat institutionnel](pi).
 
@@ -17,12 +21,11 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Royaume-Uni
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Royaume-Uni
 - [Western University Library](https://www.lib.uwo.ca/), Canada
-- [Corporation for Digital Scholarship](https://digitalscholar.org/), États-Unis
 - [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxembourg
 - [Software Sustainability Institute](https://www.software.ac.uk/), Royaume-Uni
 - [Princeton University](https://www.princeton.edu/), États-Unis
 - [Transkribus - READ COOP](https://readcoop.eu/), Autriche
-- [RStudio, PBC](https://rstudio.com/), États-Unis
+- [posit, PBC](https://posit.com/), États-Unis
 - [University of Waterloo](https://uwaterloo.ca/), Canada
 - [Universidad de los Andes](https://uniandes.edu.co/), Colombie
 - [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Danemark
@@ -34,6 +37,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [University of Nebraska-Lincoln](https://www.unl.edu/), États-Unis
 - [The National Archives](https://www.nationalarchives.gov.uk/), Royaume-Uni
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), États-Unis
+- [Purdue University](https://www.purdue.edu/), États-Unis
 - [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Allemagne
 - [University of Bristol Library](http://www.bris.ac.uk/library/), Royaume-Uni
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Royaume-Uni
