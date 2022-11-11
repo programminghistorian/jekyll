@@ -216,6 +216,19 @@ menu-lessons:
   pt:
     title: Lições
     link: /pt/licoes
+menu-events:
+  en:
+    title: Events
+    link: /en/events
+  es:
+    title: Eventos
+    link: /es/eventos
+  fr:
+    title: Manifestations
+    link: /fr/manifestations
+  pt:
+    title: Eventos
+    link: /pt/eventos
 menu-blog:
   en:
     title: Blog
