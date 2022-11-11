@@ -60,7 +60,7 @@ Though it is relatively new, the Extracted Features dataset is already seeing us
 
 [Underwood](https://doi.org/10.6084/m9.figshare.1279201) leveraged the features for identifying genres, such as fiction, poetry, and drama (2014). Associated with this work, he has released a dataset of 178k books classified by genre alongside genre-specific word counts ([Underwood 2015](https://doi.org/10.13012/J8JW8BSJ)).
 
-The Underwood subset of the Extracted Features dataset was used by Forster (2015) to [observing gender in literature](http://cforster.com/2015/09/gender-in-hathitrust-dataset/), illustrating the decline of woman authors through the 19th century.
+The Underwood subset of the Extracted Features dataset was used by Forster (2015) to [observe gender in literature](https://web.archive.org/web/20160105003327/http://cforster.com/2015/09/gender-in-hathitrust-dataset/), illustrating the decline of woman authors through the 19th century.
 
 The Extracted Features dataset also underlies higher-level analytic tools. [Mimno](http://mimno.infosci.cornell.edu/wordsim/nearest.html) processed word co-occurrence tables per year, allowing others to view how correlations between topics change over time (2014). The [HT Bookworm](https://analytics.hathitrust.org/bookworm) project has developed an API and visualization tools to support exploration of trends within the HathiTrust collection across various classes, genres, and languages. Finally, we have developed an approach to [within-book topic modelling](https://github.com/organisciak/htrc-book-models) which functions as a mnemonic accompaniment to a previously-read book (Organisciak 2014).
 
@@ -1156,7 +1156,7 @@ Finally, the repository for the HTRC Feature Reader has [advanced tutorial noteb
 
 Boris Capitanu, Ted Underwood, Peter Organisciak, Timothy Cole, Maria Janina Sarol, J. Stephen Downie (2016). The HathiTrust Research Center Extracted Feature Dataset (1.0) [Dataset]. HathiTrust Research Center, https://doi.org/10.13012/J8X63JT3.
 
-Chris Forster. "A Walk Through the Metadata: Gender in the HathiTrust Dataset." Blog. http://cforster.com/2015/09/gender-in-hathitrust-dataset/.
+Chris Forster. "A Walk Through the Metadata: Gender in the HathiTrust Dataset." Blog. [http://cforster.com/2015/09/gender-in-hathitrust-dataset/](https://web.archive.org/web/20160105003327/http://cforster.com/2015/09/gender-in-hathitrust-dataset/).
 
 Matthew L. Jockers (Feb 2015). "Revealing Sentiment and Plot Arcs with the Syuzhet Package". *Matthew L. Jockers*. Blog. http://www.matthewjockers.net/2015/02/02/syuzhet/.
 
