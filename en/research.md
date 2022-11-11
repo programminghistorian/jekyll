@@ -11,7 +11,7 @@ The project team and members of the wider community are involved in a number of 
 ## Original Programming Historian
 
 * William J. Turkel and Alan MacEachern, [_The Programming Historian_](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) 1st edition (Network in Canadian History &amp; Environment: 2007-2008).
-* Japanese translation of William J. Turkel and Alan MacEachern, [_The Programming Historian_](https://sites.google.com/site/theprogramminghistorianja/), 1st edition (Network in Canadian History &amp; Environment: 2007-2008)
+* Japanese translation of William J. Turkel and Alan MacEachern, [_The Programming Historian_](https://sites.google.com/site/theprogramminghistorianja/), 1st edition (Network in Canadian History &amp; Environment: 2007-2008).
 
 ## Reviews
 
@@ -58,6 +58,7 @@ The project team and members of the wider community are involved in a number of 
 * Adam Crymble & Jessica Parr, 'Programming Historian Silent Disco', University of Edinburgh, United Kingdom (18 May 2020).
 * Adam Crymble, 'Do You Need to Learn Programming?', University of Edinburgh, United Kingdom (14 May 2020).
 * Adam Crymble, 'Python for Humanists', University of London, United Kingdom (31 October 2019).
+* Antonio Rojas Castro, Sofia Papastamkou, and Anna-Maria Sichani, [_'Three Challenges in Developing Open Multilingual DH Educational Resources The Case of The Programming Historian'_](https://halshs.archives-ouvertes.fr/halshs-02277639/), ADHO, Utrecht, Netherlands (8 July 2019).
 * Víctor Gayol, 'Introducción a la Historia Digital - The Programming Historian en español', Maestría en Estudios históricos Interdisciplinarios, División de Ciencias Sociales y Humanidades, Universidad de Guanajuato, México (1-5 October 2018).
 * Adam Crymble, Maria José Afanador Llach, José Antonio Motilla, '[Digital Humanities Skills for Latin American Scholarship](https://zenodo.org/record/1473414)', Universidad de los Andes, Bogotá, Colombia (1-3 August 2018) - funded by the British Academy.
 * Victor Gayol, 'Introducción a las Ciencias Sociales y Humanidades Digitales. The Programming Historian en español – COLMICH', El Colegio de Michoacán (September 2017).
