@@ -23,7 +23,6 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
 - [Western University Library](https://www.lib.uwo.ca/), Canadá
-- [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
 - [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxemburgo
 - [Software Sustainability Institute](https://www.software.ac.uk/), Estados Unidos
 - [Princeton University](https://www.princeton.edu/), Estados Unidos
