@@ -8,6 +8,9 @@ redirect_from: /supporters
 
 The Programming Historian is grateful to our past and current supporters for enabling us to bring these resources to the world, free at the point of access to readers everywhere.
 
+## Gold Tier Support
+
+- [Corporation for Digital Scholarship](https://digitalscholar.org/), United States
 
 ## Institutional Partners
 Contributors to our [Institutional Partner Programme](support-us#institutional-partner-programme).
@@ -17,12 +20,11 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), United Kingdom
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), United Kingdom
 - [Western University Library](https://www.lib.uwo.ca/), Canada
-- [Corporation for Digital Scholarship](https://digitalscholar.org/), United States
 - [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxembourg
 - [Software Sustainability Institute](https://www.software.ac.uk/), United Kingdom
 - [Princeton University](https://www.princeton.edu/), United States
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria
-- [RStudio, PBC](https://rstudio.com/), United States
+- [posit, PBC](https://posit.com/), United States
 - [University of Waterloo](https://uwaterloo.ca/), Canada
 - [Universidad de los Andes](https://uniandes.edu.co/), Colombia
 - [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Denmark
