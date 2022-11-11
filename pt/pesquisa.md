@@ -9,6 +9,7 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 
 ## *Programming Historian* original
 * William J. Turkel e Alan MacEachern, [_The Programming Historian_](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) 1a Edição (Network in Canadian History &amp; Environment: 2007-2008).
+* Tradução ao japonês de * William J. Turkel e Alan MacEachern, [_The Programming Historian_](https://sites.google.com/site/theprogramminghistorianja/) 1a Edição (Network in Canadian History &amp; Environment: 2007-2008).
 
 ## Resenhas
 * Björn Ekström, Elisa Tattersall Wallin e Hana Marčetić, '[_Programming Historian_: Novice-friendly tutorials on digital methods](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1508542&dswid=7551)', _Tidskrift för ABM_, Vol. 5, no 1 (2020), pp. 71-75.
@@ -91,7 +92,7 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 * Sofia Papastamkou, François Dominic Laramée, Martin Grandjean, '[Le Programming Historian en français: quelles ressources éducatives libres pour les méthodes numériques ?](https://zenodo.org/record/3819954)', *Humanistica 2020 Conference*, Bordeaux, France, 12-14 de Maio de 2020.   
 * Sofia Papastamkou, 'A Beating Heart of Digital History: The Programming Historian', [Teaching Digital History Workshop](https://cas.au.dk/en/cedhar/events/show/artikel/teaching-digital-history-workshop), Center for Digital History Aarhus, University of Aarhus, Denmark, 23 de Outubro de 2019.  
 * Jennifer Isasi, Maria José Afanador y Antonio Rojas Castro, 'Retos en la producción de tutoriales de HD en contexto hispanohablantes', Conferencia ACH 2019, The Association for Computers and the Humanities, Pittsburgh, 23-26 de Julho de 2019, Pittsburgh.
-* Sofia Papastamkou, Antonio Rojas Castro & Anna-Maria Sichani, '[Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French Speaking DH Communities](https://dev.clariah.nl/files/dh2019/boa/1207.html)', Digital Humanities Conference 2019, Utrecht, Holanda, 9-12 de Julho 2019.
+* Antonio Rojas Castro, Sofia Papastamkou, and Anna-Maria Sichani, [_'Three Challenges in Developing Open Multilingual DH Educational Resources The Case of The Programming Historian'_](https://halshs.archives-ouvertes.fr/halshs-02277639/), ADHO, Utrecht, Holanda (8 de Julho de 2019).
 * Jennifer Isasi, Antonio Rojas & Anna-Maria Sichani, 'Data science and the language question in digital humanities pedagogy: the example of the Programming Historian', *EADH 2018*, National University of Ireland, Galway, 9 de Dezembro de 2018.
 * Afanador, Maria José. 'The Programming Historian en español: estrategias y retos para la construcción de una comunidad global de humanidades digitales.' Ponencia presentada en la Conferencia de Humanidades Digitales DH2018, Ciudad de México, México, (Junho de 2018).
 * Caleb McDaniel, 'Open Access, Transparent Peer Review', Annual Meeting of the Organizations of American Historians, Sacremento, California, (14 de Abril de 2018).
