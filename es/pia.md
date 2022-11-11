@@ -27,7 +27,7 @@ Tasas de asociación :
 | €1.200 EUR  | €500 EUR | €175 EUR     |
 | $1.700 CAD  | $700 CAD | $275 CAD     |
 
-Si tu institución tiene recursos para apoyarnos con una cantidad mayor, también agradecemos aportaciones de Instituciones Asociadas en nuestro nivel Gold. Las tarifas de Gold Tier Partnership son £3.000 GBP, $4.200 USD, €3.600 EUR, $5.100 CAD.
+Si tu institución tiene recursos para apoyarnos con una cantidad mayor, también agradecemos aportaciones de Instituciones Asociadas en nuestro nivel Gold. Las tarifas de Gold Tier Partnership son £3.000 GBP, $4.200 USD, €3.600 EUR, $5.100 CAD. Se ofrecen dos talleres personalizados al año a las instituciones asociadas en Gold Tier para ayudar a sus comunidades a utilizar herramientas y métodos de humanidades digitales.
 
 Las tasas vencen anualmente a partir de la fecha del primer pago y se establecen en enero de cada año. Para una estimación en otra moneda, envía un correo electrónico a <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
 
