@@ -247,10 +247,10 @@ The next step is to visualize this result. Here you use the "ggplot2" package to
       scale_x_discrete(labels=c("FALSE" = "Not Verified", "TRUE" = "Verified"))+
           labs(x = "Verified status",
           y = "Percentage",
-          caption = "Total number of tweets: 2435") +
+          caption = "Total number of tweets: 2432") +
       theme(axis.text.y = element_text(angle = 14, hjust = 1))
 
-{% include figure.html filename="scalable-reading-of-structured-data-2.png" alt="Bar chart of Twitter data, showing that 98% of Tweets including the hashtag #sesamestreet were posted by non-verified accounts" caption="Figure 2: Percentage of tweets posted by verified and non-verified accounts in the sesamestreet dataset during the period from 4 December 2021 to 13 December 2021. The total number of tweets was 2435." %}
+{% include figure.html filename="scalable-reading-of-structured-data-2.png" alt="Bar chart of Twitter data, showing that 98% of Tweets including the hashtag #sesamestreet were posted by non-verified accounts" caption="Figure 2: Percentage of tweets posted by verified and non-verified accounts in the sesamestreet dataset during the period from 4 December 2021 to 13 December 2021. The total number of tweets was 2432." %}
 
 In contrast to the earlier visualisations, which plotted tweets over time, you now use the `geom_col` function in order to create columns. Notice that when you start working in ggplot the pipe(`%>%`) is replaced by a `+`. This figure illustrates that most tweets about Sesame Street are created by non-verified users. This insight could illustrate that Sesame Street is a popular, politicised and public topic on Twitter that people without verified accounts are involved with.
 
@@ -301,7 +301,7 @@ This way you get a dataframe with the means of the different interactions which 
 
 The visualisation looks a lot like the previous bar charts, but the difference here is `facet_wrap`, which creates two bar charts for each type of interaction. The graph illustrates that tweets from verified accounts get more attention than tweets from non-verified accounts.
 
-{% include figure.html filename="scalable-reading-of-structured-data-3.png" alt="Bar chart that shows the average number of likes and retweets for tweets from non-verified and verified accounts. The average for non-verified accounts is 1 and the average for verified accounts is approximately 108." caption="Figure 3: Means of different interaction count dispersed on verified status in the period from 4 December 2021 until 13 December 2021. The total number of tweets was 2435." %}
+{% include figure.html filename="scalable-reading-of-structured-data-3.png" alt="Bar chart that shows the average number of likes and retweets for tweets from non-verified and verified accounts. The average for non-verified accounts is 1 and the average for verified accounts is approximately 108." caption="Figure 3: Means of different interaction count dispersed on verified status in the period from 4 December 2021 until 13 December 2021. The total number of tweets was 2432." %}
 
 # Step 3: Reproducible and Systematic Selection of datapoints for Close Reading
 
