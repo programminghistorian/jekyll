@@ -11,6 +11,7 @@ The project team and members of the wider community are involved in a number of 
 ## Original Programming Historian
 
 * William J. Turkel and Alan MacEachern, [_The Programming Historian_](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) 1st edition (Network in Canadian History &amp; Environment: 2007-2008).
+* Japanese translation of William J. Turkel and Alan MacEachern, [_The Programming Historian_](https://sites.google.com/site/theprogramminghistorianja/), 1st edition (Network in Canadian History &amp; Environment: 2007-2008)
 
 ## Reviews
 
