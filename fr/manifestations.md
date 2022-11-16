@@ -9,7 +9,7 @@ original: events
 En 2022, nous avons lancé un programme d'événements internes et multilingues pour soutenir les éducateurs, les apprenants et les partenaires de projet. 
 Si vous souhaitez contribuer, collaborer ou en savoir plus, veuillez contacter notre responsable Éducation et Communauté <a href="mailto:community@programminghistorian.org">Gisele Almeida</a>.
 
-## Manifestations future
+## Manifestations futur
 
 * **16.11.2022 15:00 UTC**  
 _en español_ Riva Quiroga, _Aprende a crear tutoriales para el Programming Historian_. [http://tinyurl.com/chtutoria](https://tinyurl.com/chtutoria) 
