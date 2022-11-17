@@ -28,6 +28,8 @@ avatar_alt: Um violino
 doi: 10.46430/phpt0020
 ---
 
+{% include toc.html %}
+
 # Introdução
 
 ποίησις - fabricação, criação, produção
