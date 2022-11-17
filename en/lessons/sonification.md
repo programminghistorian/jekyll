@@ -407,7 +407,9 @@ data.each do |line|
   use_synth :piano
   play topic2*100, attack: rand(0.5), decay: rand(1), amp: rand(0.25)
   sleep (0.5)
-end
+  
+  end
+# end
 ```
 
 The first few lines load the columns of data in; then we say which sound sample we wish to use (piano) and then tell Sonic Pi to play topic 1 according to the following criteria (a random value less than 0.5 for the attack; a decay using a random value less than 1; and an [amplitude](#amplitude) using a random value less than 0.25). See the x 100 in the line? That takes our data value (which is a decimal, remember) and turns it into a whole number. In this piece of code (the way I've written it), that number equates directly with a note. If 88 is the lowest note and 1 is the highest, you can see that this approach is a bit problematic: we haven't actually done any pitch mapping here! In which case, you could use Musicalgorithms to do your pitch mapping, and then feed those values back into Sonic Pi. Alternatively, since this code is more or less Ruby, you could look up how to normalize the data and then do a linear mapping of your values against the range 1 - 88. A good place to start would be to study [this worksheet by Steve Lloyd](https://github.com/stevelloyd/Learn-sonification-with-Sonic-Pi) on sonifying weather data with the Sonic Pi. Finally, the other thing to notice here is that the 'rand' value (random) allows us to add a bit of 'humanity' into the music in terms of the dynamics. Then we do the same thing again for topic2.
