@@ -8,7 +8,7 @@ original: ipp
 
 
 
-## Programa de Instituciones Asociadas
+# Programa de Instituciones Asociadas
 
 <img src="{{site.baseurl}}/images/supporters-ipp.png" class="garnish rounded float-left" />
 
