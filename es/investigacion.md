@@ -41,6 +41,8 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Talleres y eventos
 
+* Daniel van Strien, '_Computer Vision for the Humanities_', British Library, Digital Scholarship Training Programme, (17 de noviembre 2022).
+* Riva Quiroga, '[_Aprende a crear tutoriales para Programming Historian_'](https://www.youtube.com/watch?v=QgSuaHM5ap0), Programming Historian [En línea], (16 de noviembre 2022). 
 * Sofia Papastamkou, Participación en el taller '[_Formation et compétences pour les différents types d’acteurs : pratiques pédagogiques et didactique_'](https://respadon.hypotheses.org/1755), coordinado por Dorothée Benhamou-Suesser y Madeleine Géroudet. Proyecto ResPaDon. Bibliothèque Nationale, Francia, (6 de octubre 2022).
 * Daniel Alves, Adam Crymble, Victor Gayol and Lucia Michielin, '[_Digital Humanities Roundtable: 'Where' affects 'How' we teach'_](https://www.eventbrite.co.uk/e/digital-humanities-roundtable-where-affects-how-we-teach-tickets-394224866187)', University College London, Reino Unido, (8 de septiembre 2022).
 * Gisele Almeida & Anisa Hawes, '_History Past, Present & Future - The IHR Centenary Festival_', Institute of Historical Research & Senate House, Reino Unido, (15 de julio 2022).
@@ -71,7 +73,8 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Carteles, conferencias y presentaciones
 
-* Isasi, Jennifer. '_Programming Historian: A Collaborative Project to Put Programming Within the Reach of Humanists_', Language Technologies for Digital Humanities, within the Global Digital Humanities degree, Universidad de Mondragón, España (14 de noviembre, 2022).
+* Riva Quiroga, “Evaluación abierta en revistas”. Mesa de discusión de la XI Conferencia Internacional BIREDIAL-ISTEC, (7 de octubre 2022).
+* Isasi, Jennifer. '_Programming Historian: A Collaborative Project to Put Programming Within the Reach of Humanists_', Language Technologies for Digital Humanities, within the Global Digital Humanities degree, Universidad de Mondragón, España (14 de noviembre 2022).
 * James Baker, Paola Marchionni, Jo Pugh, Jon Reades, Yann Ryan, Chahan Vidal-Gorène, Peter Webster, & Jennie Williams, '_Developing computational skills for digital collections: a new Programming Historian series_', [DCDC22: Discovering Collections Discovering Communities](https://dcdcconference.com/), (11-15 de julio 2022).
 * Matthias Gille Levenson, Sofia Papastamkou & Célian Ringwald, '_Programming Historian_: un lieu de collaborations et d'interactions multiples', [DHNord 2022](https://www.meshs.fr/page/dhnord2022.5): Travailler en humanités numériques: collaborations, complémentarités et tensions, Lille, Francia, (22 de junio 2022).
 * Adam Crymble, 'Local Needs for Global Digital Scholarship', _Quo Vadis_, UCL, Reino Unido (9 de junio 2022).
