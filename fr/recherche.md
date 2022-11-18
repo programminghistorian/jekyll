@@ -5,13 +5,16 @@ original: research
 ---
 
 # Production académique autour du projet
+
 L'équipe du projet et les membres de la communauté plus large qui la compose sont impliqués dans de nombreuses autres initiatives en lien avec avec le _Programming Historian_. Il s'agit notamment de manifestations scientifiques, d'articles de revues, de comptes-rendus du projet effectués par la communauté, de posters. Si vous menez des recherches académiques en s'appuyant sur notre projet, merci de contacter notre assistante de publication <a href="mailto:admin@programminghistorian.org">Anisa Hawes</a>.
 
 ## Édition originale du Programming Historian
+
 * William J. Turkel et Alan MacEachern, [_The Programming Historian_](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) 1ère édition (Network in Canadian History &amp; Environment: 2007-2008).
 * Traduction en japonais de William J. Turkel et Alan MacEachern, [_The Programming Historian_](https://sites.google.com/site/theprogramminghistorianja/) 1ère édition (Network in Canadian History &amp; Environment: 2007-2008).
 
 ## Comptes-rendus
+
 * Björn Ekström, Elisa Tattersall Wallin and Hana Marčetić, '[_Programming Historian_: Novice-friendly tutorials on digital methods](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1508542&dswid=7551)', _Tidskrift för ABM_, Vol. 5, no 1 (2020), pp. 71-75.
 * Dries Daems, '[A Review and Roadmap of Online Learning Platforms and Tutorials in Digital Archaeology](https://doi.org/10.1017/aap.2019.47)', _Advances in Archaeological Practice_, vol. 8, issue 1 (2020),  pp. 87-92.
 * Martin Dröge, '[Review of: The Programming Historian](https://www.hsozkult.de/webreview/id/rezwww-184)', _H-Soz-Kult_ (2019).
@@ -33,12 +36,14 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Shawn Graham, Ian Milligan et Scott Weingart, [_Exploring Big Historical Data: The Historian's Macroscope_](http://www.themacroscope.org/2.0/), (Imperial College Press, 2015).
 
 ## Rapports
+
 * Incllewsion et l'équipe du Programming Historian, 'Initial Accessibility Testing: Summary of Findings', (2021).
 * Penny Andrews et l'équipe du Programming Historian, ['The Programming Historian: developing and sustaining impact in the Global South'](http://doi.org/10.5281/zenodo.3813763) (2020).
 * Amy Kavanagh et l'équipe du Programming Historian, 'Programming Historian – Access for visually impaired researchers', (n.d.).
 
 ## Ateliers et manifestations
 
+* Sofia Papastamkou, Participation à l'atelier '[_Formation et compétences pour les différents types d’acteurs : pratiques pédagogiques et didactique_'](https://respadon.hypotheses.org/1755), animé par Dorothée Benhamou-Suesser et Madeleine Géroudet. Projet ResPaDon. Bibliothèque Nationale, France, 6 octobre 2022.
 * Daniel Alves, Adam Crymble, Victor Gayol and Lucia Michielin, '[_Digital Humanities Roundtable: 'Where' affects 'How' we teach'_](https://www.eventbrite.co.uk/e/digital-humanities-roundtable-where-affects-how-we-teach-tickets-394224866187)', University College London, Royaume-Uni, (8 septembre 2022).
 * Gisele Almeida & Anisa Hawes, '_History Past, Present & Future - The IHR Centenary Festival_', Institute of Historical Research & Senate House, Royaume-Uni, (15 juillet 2022).
 * Sofia Papastamkou, Hugues Pecout, Sébastien Rey-Coyrehourcq, Timothée Giraud, Gwenaëlle Patat, Margot Mellet, Servanne Monjour & Nicolas Sauret, ‘_Programming Historian en français_, Rzine, ... & Tutos: Faire communauté autour des dispositifs et des formats alternatifs du savoir’, [Colloque Humanistica 2022: Association francophone des humanités numériques](https://humanistica2022.sciencesconf.org/program/details), (18 mai 2022).
