@@ -6,8 +6,8 @@ original: events
 
 # Eventos
 
-En 2022 lanzamos un programa de eventos multilingües internos para apoyar a educadores, estudiantes y socios de proyectos. 
-Si desea contribuir, colaborar o saber más, póngase en contacto con nuestro Responsable de Educación y Comunidad <a href="mailto:community@programminghistorian.org">Gisele Almeida</a>.
+En 2022 lanzamos un programa de eventos multilingües para apoyar a educadores, estudiantes y socios de nuestro proyecto. 
+Si deseas contribuir, colaborar o saber más, ponte en contacto con nuestra Responsable de Educación y Comunidad <a href="mailto:community@programminghistorian.org">Gisele Almeida</a>.
 
 ## Próximos eventos
 
@@ -17,4 +17,4 @@ _in English_ Joana Vieira Paulino, Nicolas Vaughan & Jessica Parr, _Teaching wit
 ## Eventos pasados
 
 * **16.11.2022 15:00 UTC**  
-_en español_ Riva Quiroga, _Aprende a crear tutoriales para el Programming Historian_. [https://youtu.be/QgSuaHM5ap0](https://youtu.be/QgSuaHM5ap0)
+_en español_ Riva Quiroga, _Aprende a crear tutoriales para Programming Historian_. [https://youtu.be/QgSuaHM5ap0](https://youtu.be/QgSuaHM5ap0)
