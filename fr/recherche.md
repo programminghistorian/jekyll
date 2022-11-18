@@ -9,7 +9,7 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 ## Édition originale du Programming Historian
 * William J. Turkel et Alan MacEachern, [_The Programming Historian_](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) 1ère édition (Network in Canadian History &amp; Environment: 2007-2008).
-* Traduction en japonais de William J. Turkel et Alan MacEachern, [_The Programming Historian_]([http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf](https://sites.google.com/site/theprogramminghistorianja/) 1ère édition (Network in Canadian History &amp; Environment: 2007-2008).
+* Traduction en japonais de William J. Turkel et Alan MacEachern, [_The Programming Historian_](https://sites.google.com/site/theprogramminghistorianja/) 1ère édition (Network in Canadian History &amp; Environment: 2007-2008).
 
 ## Comptes-rendus
 * Björn Ekström, Elisa Tattersall Wallin and Hana Marčetić, '[_Programming Historian_: Novice-friendly tutorials on digital methods](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1508542&dswid=7551)', _Tidskrift för ABM_, Vol. 5, no 1 (2020), pp. 71-75.
