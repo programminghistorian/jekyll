@@ -6,8 +6,7 @@ original: events
 
 # Eventos
 
-Em 2022 lançámos um programa de eventos multilingues internos para apoiar educadores, alunos e parceiros de projecto. 
-Se desejar contribuir, colaborar ou saber mais, por favor contacte o nosso Gestor de Educação e Comunidade <a href="mailto:community@programminghistorian.org">Gisele Almeida</a>.
+Em 2022 lançámos um programa de eventos multilingue para apoiar educadores, estudantes e parceiros do projeto. Caso deseje contribuir, colaborar ou saber mais, por favor entre em contato com <a href="mailto:community@programminghistorian.org">Gisele Almeida</a>, nossa Agente de Educação e Comunidade.
 
 ## Próximos Eventos
 
