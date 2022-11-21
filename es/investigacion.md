@@ -73,7 +73,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Carteles, conferencias y presentaciones
 
-* Riva Quiroga, “Evaluación abierta en revistas”. Mesa de discusión de la XI Conferencia Internacional BIREDIAL-ISTEC, (7 de octubre 2022).
+* Riva Quiroga, 'Evaluación abierta en revistas'. Mesa de discusión de la XI Conferencia Internacional BIREDIAL-ISTEC, (7 de octubre 2022).
 * Isasi, Jennifer. '_Programming Historian: A Collaborative Project to Put Programming Within the Reach of Humanists_', Language Technologies for Digital Humanities, within the Global Digital Humanities degree, Universidad de Mondragón, España (14 de noviembre 2022).
 * James Baker, Paola Marchionni, Jo Pugh, Jon Reades, Yann Ryan, Chahan Vidal-Gorène, Peter Webster, & Jennie Williams, '_Developing computational skills for digital collections: a new Programming Historian series_', [DCDC22: Discovering Collections Discovering Communities](https://dcdcconference.com/), (11-15 de julio 2022).
 * Matthias Gille Levenson, Sofia Papastamkou & Célian Ringwald, '_Programming Historian_: un lieu de collaborations et d'interactions multiples', [DHNord 2022](https://www.meshs.fr/page/dhnord2022.5): Travailler en humanités numériques: collaborations, complémentarités et tensions, Lille, Francia, (22 de junio 2022).
