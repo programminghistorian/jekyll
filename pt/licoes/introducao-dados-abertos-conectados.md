@@ -109,11 +109,11 @@ A apresentação (ou [sintaxe](https://pt.wikipedia.org/wiki/Sintaxe)) das tripl
 
 A forma tradicional de representar uma tripla semântica em forma esquemática é a seguinte (em inglês):
 
-{% include figure.html filename="introducao-dados-abertos-conectados-fig1.png" caption="Forma tradicional de representar uma tripla semântica" %}
+{% include figure.html filename="introducao-dados-abertos-conectados-fig1.png" alt="Imagem com a representação de uma tripla semântica" caption="Forma tradicional de representar uma tripla semântica" %}
 
 Assim, a nossa tripla semântica do Jack Straw, apresentado de forma mais legível para o ser humano, poderia assumir a seguinte forma:
 
-{% include figure.html filename="introducao-dados-abertos-conectados-fig2.png" caption="Diagrama da tripla semântica que demonstra que Jack Straw representava Blackburn" %}
+{% include figure.html filename="introducao-dados-abertos-conectados-fig2.png" alt="Imagem com a representação de uma tripla semântica aplicada ao exemplo de Jack Straw" caption="Diagrama da tripla semântica que demonstra que Jack Straw representava Blackburn" %}
 
 Por enquanto, é importante fixar três pontos-chave:
 
@@ -329,7 +329,7 @@ O end point de consulta SPARQL que é utilizado chama-se [snorql](http://dbpedia
 
 Se for ao URL snorql acima verá, no início, um número de prefixos que já nos foram declarados, o que é útil. Agora também irá reconhecer alguns dos prefixos.
 
-{% include figure.html filename="intro-to-linked-data-fig1.png" caption="Caixa de consulta padrão do snorql, com alguns prefixos declarados para si" %}
+{% include figure.html filename="intro-to-linked-data-fig1.png" alt="Captura de tela com a interface de criação de consultas snorql" caption="Caixa de consulta padrão do snorql, com alguns prefixos declarados para si" %}
 
 Na caixa de consulta abaixo das declarações de prefixo, deverá ver o seguinte:
 
@@ -350,7 +350,7 @@ Vamos começar com algo simples para ver como é que isto funciona. Cole (ou, me
 Clique em '*go*' (ir). Se deixar o menu *drop-down* como '*browse*' (navegar) deverá obter duas colunas com os rótulos "b" e "c". (Note que aqui, ao procurar uma cadeia de caracteres, as maiúsculas/minúsculas importam: lyndal_roper não lhe dará resultados).
 
 
-{% include figure.html filename="intro-to-linked-data-fig2.png" caption="Topo das listas de resultados de uma consulta com todas as triplas semânticas com 'Lyndal_Roper' como sujeito" %}
+{% include figure.html filename="intro-to-linked-data-fig2.png" alt="Captura de tela com a interface de resultados de consultas snorql" caption="Topo das listas de resultados de uma consulta com todas as triplas semânticas com 'Lyndal_Roper' como sujeito" %}
 
 Então o que é que acabou de acontecer? E como é que soubemos o que escrever?
 
@@ -378,7 +378,7 @@ Fizemos uma pequena mudança aqui. Se esta consulta funcionar de todo, então es
 
 Execute a *querie*. Deverá encontrar uma grande lista de historiadores.
 
-{% include figure.html filename="intro-to-linked-data-fig3.png" caption="Historiadores de acordo com a DBpedia" %}
+{% include figure.html filename="intro-to-linked-data-fig3.png" alt="Duas capturas de tela com a interface de consultas snorql e respectivos resultados" caption="Historiadores de acordo com a DBpedia" %}
 
 Assim, esta ferramenta funciona para criar listas, o que é útil, mas seria muito mais poderoso combinar listas para obter intersecções de conjuntos. Encontrei mais algumas coisas que podem ser interessantes consultar nos atributos DBpedia de Lyndal Roper: <http://dbpedia.org/class/yago/WikicatBritishHistorians> e <http://dbpedia.org/class/yago/WikicatWomenHistorians>. É muito fácil combiná-los pedindo uma variável a ser devolvida (no nosso caso isto é `?name` (nome)) e depois utilizando-a em múltiplas linhas de uma *querie*. Note também o espaço e o ponto completo no final da primeira linha que começa com `?name`:
 
@@ -390,7 +390,7 @@ Assim, esta ferramenta funciona para criar listas, o que é útil, mas seria mui
 
 Funciona! Devemos obter cinco resultados. Na altura em que escrevo, há cinco historiadoras britânicas na *DBpedia*...
 
-{% include figure.html filename="intro-to-linked-data-fig4.png" caption="Historiadoras britânicas segundo a DBpedia" %}
+{% include figure.html filename="intro-to-linked-data-fig4.png" alt="Duas capturas de tela com a interface de consultas snorql e respectivos resultados" caption="Historiadoras britânicas segundo a DBpedia" %}
 
 Apenas cinco historiadoras britânicas? Claro que há, na realidade, muitas mais do que isso, como poderíamos facilmente mostrá-lo substituindo o nome de, digamos, Alison Weir na nossa primeira consulta sobre Lyndal Roper. Isto leva-nos ao problema com a *Dbpedia* que mencionamos anteriormente: não é muito consistentemente marcado com informação estrutural do tipo que a *DBpedia* que utiliza. A nossa consulta pode listar algumas historiadoras britânicas mas acontece que não podemos utilizá-la para gerar uma lista significativa de pessoas nesta categoria. Tudo o que encontrámos foram as pessoas nas entradas da *Wikipedia* que alguém decidiu classificar como "historiadora britânica" e "historiadora".
 
