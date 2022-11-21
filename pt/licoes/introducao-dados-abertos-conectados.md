@@ -1,7 +1,9 @@
 ---
 title: Introdução aos Dados Abertos Conectados
 layout: lesson
+collection: lessons
 slug: introducao-dados-abertos-conectados
+original: intro-to-linked-data
 date: 2013-08-05
 translation_date: 2022-11-21
 authors:
