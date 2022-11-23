@@ -56,7 +56,7 @@ O *Programming Historian em português* está comprometido com os valores de có
 
 Os autores mantêm os direitos autorais e concedem à revista o direito de primeira publicação, com o trabalho simultaneamente licenciado sob a Licença Creative Commons - Atribuição 4.0 Internacional [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt). Os autores têm permissão de publicar e distribuir o seu trabalho online em repositórios institucionais/disciplinares ou na sua página pessoal.
 
-Pedimos aos autores e tradutores para preencher [o formulário de declaração](/assets/forms/Direitos-autorais-e-permissao-para-publicar.pdf) reconhecer os direitos autorais e conceder permissão para publicar. Por favor envie o formulário [o/a nosso/a Assistente de Publicação](mailto:admin@programminghistorian.org). 
+Pedimos aos autores e tradutores para preencher [o formulário de declaração](/assets/forms/Direitos-autorais-e-permissao-para-publicar.pdf), reconhecer os direitos autorais e conceder permissão para publicar. Por favor, envie o formulário [ao/à nosso/a Assistente de Publicação](mailto:admin@programminghistorian.org). 
 
 ### Escrever para um público geral
 Os leitores do *Programming historian* vivem em todo o mundo. Os autores podem e devem tomar medidas para escrever a lição de forma acessível para o maior número de pessoas possível. Siga estas directrizes gerais:
