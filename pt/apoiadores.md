@@ -11,33 +11,37 @@ original: supporters
 
 O _Programming Historian_ é grato aos nossos apoiadores anteriores e atuais por nos permitirem oferecer esses recursos para o mundo, gratuitamente e acessível aos leitores de qualquer lugar.
 
+## Apoio nível ouro
+
+- [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
+
 ## Parceiros Institucionais
 
 Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 
--   [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Bélgica
--   [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library), Reino Unido
--   [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
--   [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
--   [Western University Library](https://www.lib.uwo.ca/), Canadá
--   [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
--   [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxemburgo
--   [Software Sustainability Institute](https://www.software.ac.uk/), Reino Unido
--   [Princeton University](https://www.princeton.edu/), Estados Unidos
--   [Transkribus - READ COOP](https://readcoop.eu/), Áustria
--   [RStudio, PBC](https://rstudio.com/), Estados Unidos
--   [University of Waterloo](https://uwaterloo.ca/), Canadá
--   [Universidad de los Andes](https://uniandes.edu.co/), Colômbia
--   [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Dinamarca
--   [Aarhus University Library](https://library.au.dk/), Dinamarca
--   [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca
--   [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Reino Unido
--   [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Alemanhã
--   [MIT Libraries](https://libraries.mit.edu/), Estados Unidos
--   [University of Nebraska-Lincoln](https://www.unl.edu/), Estados Unidos
--   [The National Archives](https://www.nationalarchives.gov.uk/), Reino Unido
--   [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
--   [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Alemanhã
+- [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Bélgica
+- [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library), Reino Unido
+- [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
+- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
+- [Western University Library](https://www.lib.uwo.ca/), Canadá
+- [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxemburgo
+- [Software Sustainability Institute](https://www.software.ac.uk/), Reino Unido
+- [Princeton University](https://www.princeton.edu/), Estados Unidos
+- [Transkribus - READ COOP](https://readcoop.eu/), Áustria
+- [posit, PBC](https://posit.com/), Estados Unidos
+- [University of Waterloo](https://uwaterloo.ca/), Canadá
+- [Universidad de los Andes](https://uniandes.edu.co/), Colômbia
+- [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Dinamarca
+- [Aarhus University Library](https://library.au.dk/), Dinamarca
+- [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca
+- [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Reino Unido
+- [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Alemanhã
+- [MIT Libraries](https://libraries.mit.edu/), Estados Unidos
+- [University of Nebraska-Lincoln](https://www.unl.edu/), Estados Unidos
+- [The National Archives](https://www.nationalarchives.gov.uk/), Reino Unido
+- [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
+- [Purdue University](https://www.purdue.edu/), Estados Unidos
+- [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Alemanhã
 - [University of Bristol Library](http://www.bris.ac.uk/library/), Reino Unido
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), Reino Unido

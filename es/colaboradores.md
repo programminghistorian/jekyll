@@ -10,6 +10,9 @@ original: supporters
 
 *The Programming Historian en español* agradece su apoyo a nuestros seguidores pasados y actuales por permitirnos ofrecer estos recursos al mundo, de forma gratuita en el punto de acceso a lectores en cualquier lugar.
 
+## Colaboración en nivel Gold 
+
+- [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
 
 ## Instituciones asociadas
 
@@ -20,12 +23,11 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
 - [Western University Library](https://www.lib.uwo.ca/), Canadá
-- [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
 - [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxemburgo
 - [Software Sustainability Institute](https://www.software.ac.uk/), Estados Unidos
 - [Princeton University](https://www.princeton.edu/), Estados Unidos
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria
-- [RStudio, PBC](https://rstudio.com/), Estados Unidos
+- [posit, PBC](https://posit.com/), Estados Unidos
 - [University of Waterloo](https://uwaterloo.ca/), Canadá
 - [Universidad de los Andes](https://uniandes.edu.co/), Colombia
 - [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Dinamarca
@@ -37,6 +39,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [University of Nebraska-Lincoln](https://www.unl.edu/), Estados Unidos
 - [The National Archives](https://www.nationalarchives.gov.uk/), Reino Unido
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
+- - [Purdue University](https://www.purdue.edu/), Estados Unidos
 - [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Alemania
 - [University of Bristol Library](http://www.bris.ac.uk/library/), Reino Unido
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido

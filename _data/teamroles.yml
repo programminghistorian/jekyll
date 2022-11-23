@@ -84,17 +84,6 @@
     es: Responsable de las finanzas del proyecto y la recaudación de fondos
     fr: Responsable du financement du projet et de la collecte de fonds
     pt: Responsável pelas finanças do projeto e pela captação de recursos
-- type: global-lead
-  label:
-    en: Global Lead
-    es: Líder global
-    fr: Responsable global
-    pt: Gestor global
-  definition:
-    en: Managing new global initiatives, as well as trying to improve the cultural and linguistic diversity of the team, our lessons, and of participation in Digital Humanities more generally.
-    es: Coordinar nuevas iniciativas globales, así como tratar de mejorar la diversidad cultural y lingüística del equipo, de nuestras lecciones y de la participación en Humanidades Digitales en general.
-    fr: En charge de nouvelles initiatives à vocation globale, de la diversité culturelle et linguistique de l'équipe et des leçons, et de la participation aux humanités numériques en général.
-    pt: Responsável por coordenar novas iniciativas globais, assim como por alargar a diversidade cultural e linguística da equipe, das lições e da participação no movimento das Humanidades Digitais em geral.
 
 # Status
 - type: volunteer
