@@ -29,6 +29,8 @@ avatar_alt: Barra de sabão
 doi: 10.46430/phpt0035
 ---
 
+{% include toc.html %}
+
 ## Requisitos
 Nesta lição consideramos que já possui algum conhecimento da linguagem R. Se ainda não completou a lição [Noções básicas de R com dados tabulares](/pt/licoes/nocoes-basicas-R-dados-tabulares), recomendamos que o faça primeiro. Ter experiência com outras linguagens de programação também pode ser benéfico. Se está buscando por onde começar aprendendo outras linguagens, recomendamos os excelentes tutoriais de Python do *Programming Historian*.
 
@@ -216,7 +218,7 @@ Agora que adquirimos uma compreensão do operador *pipe*, estamos prontos para c
 Como pode observar, este *dataset* contém o nome do país, seu continente e o ano de registro, além dos indicadores de expectativa de vida, total da população e PIB *per capita*, em determinados anos. Conforme mencionamos acima, antes de analisar os dados é importante verificar se estes estão bem ordenados no formato *tidy*. Relembrando os três critérios discutidos, podemos dizer que sim, o *dataset* encontra-se organizado e pronto para ser trabalhado com o pacote dplyr.  
 
 ## O que é dplyr?
-[Dplyr](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html) (em inglês) também é parte do tidyverse, fornecendo funções para manipulação e transformação dos dados. Porque estamos mantendo nossos dados bem organizados, precisaremos apenas de um pequeno conjunto de ferramentas para explorá-los. Em comparação com o pacote básico do R, usando o dplyr em nosso código, fica geralmente mais rápido e há a garantia de que os dados resultantes (*output*) estarão bem ordenados uma vez que os dados de entrada (*input*) também estarão. Talvez o mais importante seja que o dplyr torna o nosso código mais fácil de ser lido e utiliza "verbos" que são, na maioria das vezes, intuitivos. Cada função do dplyr corresponde a um desses verbos, sendo cinco principais: filtrar (`filter`), selecionar (`select`), ordenar (`arrange`), modificar (`mutate`) e sumarizar (`summarise`). Vamos observar individualmente como cada uma dessas funções funciona na prática.
+[Dplyr](https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html) (em inglês) também é parte do tidyverse, fornecendo funções para manipulação e transformação dos dados. Porque estamos mantendo nossos dados bem organizados, precisaremos apenas de um pequeno conjunto de ferramentas para explorá-los. Em comparação com o pacote básico do R, usando o dplyr em nosso código, fica geralmente mais rápido e há a garantia de que os dados resultantes (*output*) estarão bem ordenados uma vez que os dados de entrada (*input*) também estarão. Talvez o mais importante seja que o dplyr torna o nosso código mais fácil de ser lido e utiliza "verbos" que são, na maioria das vezes, intuitivos. Cada função do dplyr corresponde a um desses verbos, sendo cinco principais: filtrar (`filter`), selecionar (`select`), ordenar (`arrange`), modificar (`mutate`) e sumarizar (`summarise`). Vamos observar individualmente como cada uma dessas funções funciona na prática.
 
 ### Selecionar (select)
 
