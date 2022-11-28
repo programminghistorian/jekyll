@@ -24,6 +24,9 @@ difficulty: 2
 activity: sustaining
 topics: [website, data-management]
 abstract: "Neste tutorial, você aprenderá primeiro o básico do Markdown - uma sintaxe de marcação fácil de ler e escrever para texto simples - bem como Pandoc, uma ferramenta de linha de comando que converte texto simples em vários tipos de ficheiros formatados: PDF, docx, HTML, LaTeX, apresentação de slides e muito mais."
+exclude_from_check:
+  - reviewers
+  - review-ticket
 original: sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 avatar_alt: Um homem trabalhando numa mesa de desenho
 doi: 10.46430/phpt0036
