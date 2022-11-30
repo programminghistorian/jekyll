@@ -2042,8 +2042,9 @@
   url: "https://pro.univ-lille.fr/antoine-henry/"
   orcid: 0000-0003-4722-4610
   github: icolab
-  team: true
+  team: false
   team_start: 2021
+  team_end: 2022
   institution: Université de Lille
   sortname: Henry
   affiliation:
