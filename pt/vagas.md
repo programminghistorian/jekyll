@@ -4,4 +4,4 @@ layout: blank
 original: vacancies
 ---
 
-Obrigado pelo seu interesse ao trabalhar com _Programming Historian_. Actualmente não há vagas.
+Obrigado pelo seu interesse em trabalhar com _Programming Historian_. Actualmente não há vagas.
