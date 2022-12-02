@@ -39,7 +39,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [University of Nebraska-Lincoln](https://www.unl.edu/), Estados Unidos
 - [The National Archives](https://www.nationalarchives.gov.uk/), Reino Unido
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
-- - [Purdue University](https://www.purdue.edu/), Estados Unidos
+- [Purdue University](https://www.purdue.edu/), Estados Unidos
 - [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Alemania
 - [University of Bristol Library](http://www.bris.ac.uk/library/), Reino Unido
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido
@@ -50,6 +50,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), Reino Unido
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), Reino Unido
 - [University of York](https://www.york.ac.uk/), Reino Unido
+- [University of Oxford](https://www.ox.ac.uk), Reino Unido
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 
