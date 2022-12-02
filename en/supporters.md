@@ -47,6 +47,7 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), United Kingdom
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), United Kingdom
 - [University of York](https://www.york.ac.uk/), United Kingdom
+- [University of Oxford](https://www.ox.ac.uk), United Kingdom
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
