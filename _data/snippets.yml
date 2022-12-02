@@ -55,6 +55,19 @@ menu-about-research:
   pt:
     title: Pesquisa
     link: /pt/pesquisa
+menu-about-vacancies:
+  en:
+    title: Vacancies
+    link: /en/vacancies
+  es: 
+    title: Vacantes
+    link: /es/vacantes
+  fr:
+    title: Postes vacants
+    link: /fr/postes-vacants
+  pt: 
+    title: Vagas
+    link: /pt/vagas
 menu-about-privacy:
   en:
     title: Privacy Policy
@@ -216,6 +229,19 @@ menu-lessons:
   pt:
     title: Lições
     link: /pt/licoes
+menu-events:
+  en:
+    title: Events
+    link: /en/events
+  es:
+    title: Eventos
+    link: /es/eventos
+  fr:
+    title: Manifestations
+    link: /fr/manifestations
+  pt:
+    title: Eventos
+    link: /pt/eventos
 menu-blog:
   en:
     title: Blog
@@ -229,20 +255,6 @@ menu-blog:
   pt:
     title: Blogue
     link: /blog
-menu-vacancies:
-  en:
-    title: Vacancies
-    link: /vacancies
-  es: 
-    title: Vacantes
-    link: /vacancies
-  fr:
-    title: Postes vacants
-    link: /vacancies
-  pt: 
-    title: Vagas
-    link: /vacancies  
-    
 menu-support-us:
   en: Support Us
   es: Apóyanos
