@@ -48,6 +48,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), Royaume-Uni
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), Royaume-Uni
 - [University of York](https://www.york.ac.uk/), Royaume-Uni
+- [University of Oxford](https://www.ox.ac.uk), Royaume-Uni
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
