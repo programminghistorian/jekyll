@@ -19,7 +19,7 @@ translation-editor:
 - Joana Vieira Paulino
 translation-reviewer:
 - Bruno Almeida 
-- Daniel Bonetto Secco
+- Daniel Bonatto Seco
 difficulty: 1
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/428
 activity: acquiring
