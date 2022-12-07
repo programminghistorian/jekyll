@@ -395,7 +395,7 @@ Now, let's load that data into our music:
 #this bit of code will run only once, unless you comment out the line with
 #'live_loop', and also comment out the final 'end' at the bottom
 # of this code block
-#'commenting out' means removing the # sign.
+#'commenting out' means adding the # sign.
 
 # live_loop :jesuit do
 data.each do |line|
