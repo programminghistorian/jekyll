@@ -12,10 +12,10 @@ If you would like to contribute, collaborate or find out more please contact our
 ## Upcoming Events
 
 * **16.12.2022 14:00 UTC**  
-_in English_ Joana Vieira Paulino, Nicolas Vaughan & Jessica Parr, _Teaching with Programming Historian_. [https://tinyurl.com/ph-25-01-pt](https://tinyurl.com/ph-25-01-pt)
+_in English_ Joana Vieira Paulino, Nicolas Vaughan & Jessica Parr, _Teaching with Programming Historian_. [https://tinyurl.com/ph-16-12](https://tinyurl.com/ph-16-12)
 
 * **25.01.2023 14:00 UTC**  
-_em português_ Daniel Alves, Eric Brasil, _Conheça o Programming Historian em português_. [https://tinyurl.com/ph-16-12](https://tinyurl.com/ph-16-12)
+_em português_ Daniel Alves, Eric Brasil, _Conheça o Programming Historian em português_. [https://tinyurl.com/ph-25-01-pt](https://tinyurl.com/ph-25-01-pt)
 
 ## Past Events
 
