@@ -1269,7 +1269,6 @@
     pt: |
       Luxembourg Centre for Contemporary and Digital History (C²DH), Universidade do Luxemburgo
   team_roles:
-    - managing
     - french
     - proghist
   status: volunteer
@@ -2778,13 +2777,13 @@
   orcid: 0000-0003-2139-1517
   affiliation:
     en: |
-      ATILF, Université de Lorraine-CNRS, France.
+      Analyse et Traitement Informatique de la Langue Française, Université de Lorraine-CNRS, France.
     es: |
-      ATILF, Université de Lorraine-CNRS, Francia.
+      Analyse et Traitement Informatique de la Langue Française, Université de Lorraine-CNRS, Francia.
     fr: |
-      ATILF, Université de Lorraine-CNRS, France.
+      Analyse et Traitement Informatique de la Langue Française, Université de Lorraine-CNRS, France.
     pt: |
-      ATILF, Université de Lorraine-CNRS, França.
+      Analyse et Traitement Informatique de la Langue Française, Université de Lorraine-CNRS, França.
   bio:
     en: |
       
@@ -2797,4 +2796,5 @@
   team_roles:
     - french
     - editorial
+    - managing
   status: volunteer
