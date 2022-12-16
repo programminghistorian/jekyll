@@ -36,5 +36,5 @@ __Connaissances et compétences appréciées :__
 
 Idéalement, les nouveaux membres doivent s'engager pour une durée de deux ans minimum.
 
-Merci d'envoyer un CV d'une page et un texte d'environ 200 mots expliquant les raisons pour lesquelles vous souhaitez rejoindre le projet à <a href="mailto:francais@programminghistorian.org ">notre rédactrice en chef</a> jusqu'au [date]. 
+Merci d'envoyer un CV d'une page et un texte d'environ 200 mots expliquant les raisons pour lesquelles vous souhaitez rejoindre le projet à <a href="mailto:francais@programminghistorian.org ">notre rédactrice en chef</a> jusqu'au 31 janvier 2023. 
 
