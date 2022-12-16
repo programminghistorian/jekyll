@@ -261,7 +261,7 @@ Una vez que tu archivo ha sido preparado de acuerdo con las especificaciones ant
 
 En el GitHub de [Programming Historian](https://github.com/programminghistorian) en GitHub mantenemos dos repositorios (es decir, dos sitios en donde almacenar archivos y carpetas). Por un lado, el repositorio [jekyll](https://github.com/programminghistorian/jekyll), que contiene los archivos a los que se accede a través del navegador [web](/es). Por el otro, el repositorio [ph-submissions](https://github.com/programminghistorian/ph-submissions), que es donde se realiza el proceso de edición de las lecciones originales y traducciones.
 
-Debes enviar tu traducción a través de una correo electrónico a tu editor/a, quien se encargará de subir todos los materiales al repositorio correspondiente en [GitHub](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/traducciones).
+Debes enviar tu traducción a través de una correo electrónico a tu editor/a, quien se encargará de subir todos los materiales al repositorio correspondiente en [GitHub](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/borradores/traducciones).
 
 1. **Obtener acceso**: crea una [cuenta gratuita en GitHub](https://github.com/join). Envía tu nombre de usuario de GitHub a tu editor/a, quien te dará acceso al sitio de envíos. Si bien no serás tú quien haga la carga inicial, necesitarás acceso para el proceso de revisión.
 2. **Prepara los materiales**: si tu traducción incluye imágenes adicionales a las que tenía originalmente la lección, asegúrate que todos los archivos están nombrados según las convenciones explicadas más arriba. Las imágenes debes enviarlas en una sola carpeta comprimida. Si tu lección incluye archivos de datos traducidos, estos deben ser enviados en otra carpeta comprimida.
@@ -271,7 +271,7 @@ Debes enviar tu traducción a través de una correo electrónico a tu editor/a, 
 
 ## El proceso de revisión de pares
 
-Tu editor comprobará que tus archivos se hayan cargado y formateado correctamente. En esta etapa se te enviará un enlace de vista previa donde se evidenciará cualquier error de formato para que puedas corregirlo. Las modificaciones debes hacerla en el archivo .md de tu traducción, que se encuentra en el [repositorio de propuesta de lecciones](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/traducciones).
+Tu editor comprobará que tus archivos se hayan cargado y formateado correctamente. En esta etapa se te enviará un enlace de vista previa donde se evidenciará cualquier error de formato para que puedas corregirlo. Las modificaciones debes hacerla en el archivo .md de tu traducción, que se encuentra en el [repositorio de propuesta de lecciones](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/borradores/traducciones).
 
 La revisión de pares se registrará en un ["ticket"](https://github.com/programminghistorian/ph-submissions/issues) que actúa como una discusión abierta en el tablero de mensajes. Ten en cuenta que nuestra revisión de pares se realiza en público y se mantiene a disposición del público como un registro permanente. Si tienes alguna preocupación o deseas solicitar una revisión cerrada, ponte en contacto con tu editor/a.
 
