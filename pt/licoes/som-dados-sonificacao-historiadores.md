@@ -28,6 +28,8 @@ avatar_alt: Um violino
 doi: 10.46430/phpt0020
 ---
 
+{% include toc.html %}
+
 # Introdução
 
 ποίησις - fabricação, criação, produção
@@ -419,7 +421,9 @@ dados.each do |line|
   use_synth :piano
   play topic2*100, attack: rand(0.5), decay: rand(1), amp: rand(0.25)
   sleep (0.5)
-end
+
+  end
+# end
 ```
 
 As primeiras linhas carregam as colunas de dados; então dizemos qual amostra de som que desejamos usar (piano) e, em seguida, dizemos ao Sonic Pi para tocar o tópico 1 de acordo com os seguintes critérios (um valor aleatório menor que 0,5 para o ataque; um decaimento usando um valor aleatório menor que 1; e uma [amplitude](#amplitude) com um valor aleatório menor que 0.25). Vê o x 100 na linha? Isso pega os valores dos nossos dados (que são um decimal, lembre) e torna-os em um número inteiro. Nessa parte do código, (do modo que eu escrevi), aquele número equivale diretamente a nota. Se 88 é a menor nota e 1 é a maior, é possível ver que essa abordagem é um pouco problemática: nós não fizemos nenhum mapeamento de tom aqui! Nesse caso, é possível usar o Musicalgorithms para fazer o seu mapeamento de tom, e então inserir esses valores no Sonic Pi. Alternativamente, uma vez que esse código é praticamente em Ruby, é possível buscar como normalizar os dados e então realizar um mapeamento linear dos valores entre 1 - 88. Um bom lugar para começar seria estudar [essa tabela do Steve Lloyd](https://github.com/stevelloyd/Learn-sonification-with-Sonic-Pi) sobre sonificação de dados de clima com Sonic Pi. Finalmente, outra coisa a se notar é que o valor 'rand' (random, aleatório) permite que se adiciona um pouco de 'humanidade' na música em termos de dinâmicas. Então nós faremos a mesma coisa novamente para o topic2 (tópico2).
