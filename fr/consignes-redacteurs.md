@@ -45,7 +45,7 @@ Le rédacteur ou la rédactrice peut adapter le texte du ticket de proposition e
 
 Lorsque les fichiers de la leçon (texte et, le cas échéant, images et données) sont prêts à être soumis, l'auteur(e) contacte le rédacteur ou la rédactrice assigné(e) qui les téléversera dans notre dépôt dédié à l'évaluation par les pairs sur [Github](https://github.com/programminghistorian/ph-submissions), après avoir vérifié la qualité des métadonnées.  
 
-1. **Téléverser la leçon (ou la traduction)**: le fichier de la leçon doit être téléversé dans le [sous-répertoire des leçons](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/fr/lecons); s'il s'agit d'une traduction, le fichier est téléversé dans le [sous-répertoire des traductions](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/fr/traductions). Si vous avez besoin d'aide, merci de consulter la [documentation de Github](https://help.github.com/articles/adding-a-file-to-a-repository/).
+1. **Téléverser la leçon (ou la traduction)**: le fichier de la leçon doit être téléversé dans le [sous-répertoire des leçons](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/fr/en-cours); s'il s'agit d'une traduction, le fichier est téléversé dans le [sous-répertoire des traductions](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/fr/en-cours/traductions). Si vous avez besoin d'aide, merci de consulter la [documentation de Github](https://help.github.com/articles/adding-a-file-to-a-repository/).
 2. **Téléverser des images**: si des images accompagnent la leçon (ou la traduction), assurez-vous que le nommage des fichiers est conforme aux règles spécifiées dans les [consignes aux auteur(e)s](/fr/consignes-auteurs). C'est au rédacteur ou à la rédactrice - vous!- de créer un sous-répertoire spécifique aux images de la leçon dans le [répertoire des images](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). Ce sous-répertoire doit être nommé exactement de la même manière que le fichier de la leçon. Téléversez ensuite les fichiers images dans ce sous-répertoire. 
 3. **Téléverser des données**: si la leçon est accompagnée de fichiers de données, ces fichiers doivent être téléversés dans un sous-répertoire créé dans le [répertoire ```assets```](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets) et nommé exactement de la même manière que le fichier de la leçon.
 
@@ -84,7 +84,7 @@ Votre premier commentaire sur le ticket d'évaluation d'un tutoriel doit être c
 ```
 Le Programming Historian en français a reçu la leçon (ou la traduction de la leçon) intitulée '[TITRE DE LA LEÇON]' par [NOM D'UTILISATEUR/UTILISATRICE GITHUB DE L'AUTEUR(E)] ou, s'il s'agit d'une traduction, traduite par [NOM D'UTILISATEUR/UTILISATRICE GITHUB DU TRADUCTEUR OU DE LA TRADUCTRICE]). La leçon (ou la traduction) est actuellement en cours d'évaluation et peut être consultée ici:
 
-http://programminghistorian.github.io/ph-submissions/fr/["lecons"ou "traductions"/[NOM-DE-FICHIER-ICI]
+http://programminghistorian.github.io/ph-submissions/fr/en-cours/["originales"ou "traductions"/[NOM-DE-FICHIER-ICI]
 
 J'exercerai le rôle de rédacteur/rédactrice lors de la procédure de l'évaluation. Cela implique de solliciter deux évaluations par la communauté et de gérer les discussions qui auront lieu sur ce forum. J'ai déjà fait une lecture critique de la leçon puis un retour auquel l'auteur(e) a répondu.
 
@@ -138,7 +138,7 @@ Les auteur(e)s ont la responsabilité de vérifier que la syntaxe de leur leçon
 
 Vous pouvez vérifier rapidement si tout se présente correctement au cours de la soumission en consultant la version du fichier qui s'affiche sur :
 
-`http://programminghistorian.github.io/ph-submissions/fr/lecons/NOM-DE-FICHIER-ICI`, s'il s'agit d'une leçon originale; ou sur `http://programminghistorian.github.io/ph-submissions/fr/traductions/NOM-DE-FICHIER-ICI`, s'il s'agit d'une traduction (attention, pas d'extension .md à la fin).
+`http://programminghistorian.github.io/ph-submissions/fr/en-cours/originales/NOM-DE-FICHIER-ICI`, s'il s'agit d'une leçon originale; ou sur `http://programminghistorian.github.io/ph-submissions/fr/en-cours/traductions/NOM-DE-FICHIER-ICI`, s'il s'agit d'une traduction (attention, pas d'extension .md à la fin).
 
 Si cela ne marche pas, merci d'en informer notre équipe technique qui s'occupera du problème.
 

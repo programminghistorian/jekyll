@@ -58,7 +58,7 @@ Organizations that have or continue to give support ranging from in kind service
 - Jisc & The National Archives (UK), '[Programming Historian publications: developing computational skills for digital collections](https://research.jiscinvolve.org/wp/2021/07/23/boost-your-skills-in-working-with-digital-collections/)' [2021-2022].
 - UCL, Faculty of Arts & Humanities, United Kingdom [2021].
 - [Escola de Ciências Sociais FGV CPDOC](https://portal.fgv.br), "Literacia digital: modelando competências digitais para humanistas e cientistas sociais", Brazil [2021-2022].
-- Fundação para a Ciência e Tecnologia, through their special programme '[Verão com Ciência 2021](https://www.fct.pt/apoios/veraocomciencia/index.phtml.pt)', Portugal [September 2021]
+- Fundação para a Ciência e Tecnologia, through their special programme '[Verão com Ciência 2021](https://www.uevora.pt/investigar/projetos?id=5261)', Portugal [September 2021]
 - The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), United Kingdom [2021].
 - The University of Sussex, United Kingdom:
     - University of Sussex Library [2020-Present]

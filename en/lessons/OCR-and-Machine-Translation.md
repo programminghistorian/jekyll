@@ -64,7 +64,7 @@ For Mac operating systems, the installation requires you to enter two simple com
 ```brew install ghostscript``` 
 
 #### Windows Installation 
-The Windows instructions for ImageMagick can be found [on ImageMagick's website](http://imagemagick.sourceforge.net/http/www/windows.html).  
+The Windows instructions for ImageMagick can be found [on ImageMagick's website](https://imagemagick.org/script/download.php#windows).  
 
 ### Converting PDFs to TIFFs with ImageMagick
 With ImageMagick installed, we can now convert our files from PDF to TIFF and make some changes to the files that will help increase our OCR accuracy. OCR programs will only accept image files (JPG, TIFF, PNG) as input, so you must convert PDFs. The following command will convert a PDF and make it easier to OCR:
