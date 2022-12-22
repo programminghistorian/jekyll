@@ -4,7 +4,7 @@ Si estás interesado en escribir un tutorial y enviarlo a Programming Historian,
 
 Inglés: Alex Wermer-Colan (english@programminghistorian.org)
 Español: Riva Quiroga (espanol@programminghistorian.org)
-Francés: Sofia Papastamkou (francais@programminghistorian.org)
+Francés: Marie Flesch (francais@programminghistorian.org)
 Portugués: Daniel Alves (portugues@programminghistorian.org)
 
 ## Acerca de ti

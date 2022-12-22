@@ -4,7 +4,7 @@ Se estiver interessado em escrever uma lição e enviá-la ao Programming Histor
 
 Inglês: Alex Wermer-Colan (english@programminghistorian.org)
 Espanhol: Riva Quiroga (espanol@programminghistorian.org)
-Francês: Sofia Papastamkou (francais@programminghistorian.org)
+Francês: Marie Flesch (francais@programminghistorian.org)
 Português: Daniel Alves (portugues@programminghistorian.org)
 
 ## Sobre o autor
