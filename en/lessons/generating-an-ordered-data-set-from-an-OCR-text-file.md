@@ -172,7 +172,7 @@ def lev(seq1, seq2):
     # Initialize matrix of zeros
     rows = len(seq1)+1
     cols = len(seq2)+1
-    distance = np.zeros((rows,cols),dtype = int)
+    distance = [[0]*cols for x in range(rows)]
 
     # Populate matrix of zeros with the indeces of each character of both strings
     for i in range(1, rows):
@@ -243,7 +243,7 @@ L.T. O'Hara's [introduction](/lessons/cleaning-ocrd-text-with-regular-expression
 1. `re.compile()` creates a regular expression object that has a number of methods. You should be familiar with `.match()`, and `.search()`, but also `.findall()` and `.finditer()`
 2. Bear in mind the difference between `.match()` and `.search()`: `.match()` will only match at the __beginning__ of a line, whereas `.search()` will match anywhere in the line __but then it stops__, it'll __only__ return the first match it finds.
 3. `.match()` and `.search()` return match objects. To retrieve the matched string you need `mymatch.group(0)`. If your compiled regular expression has grouping parentheses in it (like our 'slug' regex below), you can retrieve those substrings of the matched string using `mymatch.group(1)` etc.
-4. `.findall()` and `.finditer()` will return __all__ occurrences of the matched string; `.findall()` returns them as a list of strings, but .finditer() returns an __iterator of match objects__. (read the docs on the method [.finditer()](hhttps://docs.python.org/3.7/library/re.html#re.finditer).)
+4. `.findall()` and `.finditer()` will return __all__ occurrences of the matched string; `.findall()` returns them as a list of strings, but .finditer() returns an __iterator of match objects__. (read the docs on the method [.finditer()](https://docs.python.org/3.7/library/re.html#re.finditer).)
 
 
 
