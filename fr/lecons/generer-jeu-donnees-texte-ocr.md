@@ -183,7 +183,7 @@ def lev(seq1, seq2):
     # Initialiser la matrice de zéros
     rows = len(seq1)+1
     cols = len(seq2)+1
-    distance = np.zeros((rows,cols),dtype = int)
+    distance = [[0]*cols for x in range(rows)]
 
     # Alimenter la matrice de zéros avec les indices de chaque caractère des deux chaînes de caractères
     for i in range(1, rows):
