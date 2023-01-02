@@ -321,14 +321,14 @@ Esa línea de código le está pidiendo a R que escriba el contenido del objeto 
 
 ¡Listo! Si abrimos la carpeta "discursos" en nuestro panel "Files" y hacemos doble clic sobre el nombre del archivo, se abrirá en una nueva pestaña en RStudio.
 
-{% include figure.html filename="introduccion-al-web-scraping-usando-r-14.png" caption="Así se ve el texto en el archivo que acabamos de guardar" alt="Captura de pantalla de RStudio. En el panel superior izquierdo está abierto el archivo en el que acabamos de guardar el discurso. En el panel "Files" abajo a la derecha se ve el archivo guardado" %}
+{% include figure.html filename="introduccion-al-web-scraping-usando-r-14.png" caption="Así se ve el texto en el archivo que acabamos de guardar" alt="Captura de pantalla de RStudio. En el panel superior izquierdo está abierto el archivo en el que acabamos de guardar el discurso. En el panel 'Files' abajo a la derecha se ve el archivo guardado" %}
 
 
 Podemos observar que el texto tiene dos saltos de líneas entre los párrafos. Si bien eso no es un problema que afecte algún análisis posterior del texto, quizás podríamos querer que quedara solo un salto de línea entre los párrafos porque nos interesa hacer una edición digital de estos discursos en el que ese es el formato requerido. Para resolver esta situación, podemos usar el paquete **stringr**, que está enfocado en el trabajo con cadenas de textos. La función `str_replace_all()` (remplazar todo) nos permite buscar un patrón en una cadena de texto y remplazarlo por otro.
 
 Para saber qué patrón buscar, imprimamos el objeto `discurso_boric` en la consola. Como es largo, lo primero que veremos será el final. Comparémoslo con la parte final del texto del archivo que tenemos en el panel superior.
 
-{% include figure.html filename="introduccion-al-web-scraping-usando-r-13.png" caption="Comparación entre el texto en la cosola y el texto en el archivo" alt="Captura de pantalla de la consola y el panel con el archivo abierto. En ambos se muestra el mismo fragmento del texto (los últimos párrafos)." %}
+{% include figure.html filename="introduccion-al-web-scraping-usando-r-15.png" caption="Comparación entre el texto en la cosola y el texto en el archivo" alt="Captura de pantalla de la consola y el panel con el archivo abierto. En ambos se muestra el mismo fragmento del texto (los últimos párrafos)." %}
 
 Si miramos el texto de la consola veremos que los saltos de líneas son representados en nuestro computador como `\n`. Esta es la forma que los sistemas operativos representan los saltos de línea y es la que se utiliza también en las expresiones regulares (un tema sobre el que volveremos en la segunda lección de esta serie). Como en nuestro caso hay dos saltos de línea seguidos, entonces lo que vemos es `\n\n`.
 
