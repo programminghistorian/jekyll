@@ -3,8 +3,10 @@ title: "Introducción al web scraping usando R"
 collection: lessons
 layout: lesson
 slug: introduccion-al-web-scraping-usando-r
-authors: Riva Quiroga
-editors: Joshua G. Ortiz Baco
+authors:
+- Riva Quiroga
+editors:
+- Joshua G. Ortiz Baco
 reviewers:
 - Nicole Larrondo
 - Luis Avilés González
