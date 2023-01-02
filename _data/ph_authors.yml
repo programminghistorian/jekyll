@@ -1426,6 +1426,8 @@
   twitter: rivaquiroga
   email: espanol@programminghistorian.org
   github: rivaquiroga
+  url: "https://rivaquiroga.cl/"
+  orcid: 0000-0002-1147-4135
   team: true
   team_start: 2019
   institution: Universidad Católica de Chile
@@ -1441,13 +1443,13 @@
       Universidad Católica de Chile, Chile.
   bio:
     en: |
-      Riva Quiroga is a PhD student in Linguistics at the Catholic University of Chile.
+      Riva Quiroga is a doctoral researcher in Linguistics at the Catholic University of Chile.
     es: |
-      Riva Quiroga es estudiante de doctorado en Lingüística en la Universidad Católica de Chile.
+      Riva Quiroga es investigadora doctoral en Lingüística en la Universidad Católica de Chile.
     fr: |
-      Riva Quiroga est doctorante en linguistique à l'Université Catholique de Chili.
+      Riva Quiroga est est chercheur doctoral en linguistique à l'Université Catholique de Chili.
     pt: |
-      Riva Quiroga é doutoranda em Linguística na Universidad Católica de Chile.
+      Riva Quiroga é pesquisadora doutoral em Linguística na Universidad Católica de Chile.
   team_roles:
     - managing
     - spanish
