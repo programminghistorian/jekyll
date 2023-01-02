@@ -378,7 +378,7 @@ write_lines(discurso_pinera, "discursos/cl_2018_pinera_asuncion-cargo.txt")
 
 Esto nos muestra que una vez que resolvemos cómo extraer datos de un sitio, podemos luego reutilizar el código para otras secciones que nos interesen. Con este mismo bloque de código, por ejemplo, podrías extraer todos los discursos que se encuentran en este sitio web.
 
-En [este archivo](INSERTAR EL ENLACE CUANDO YA SEPAMOS DÓNDE VA A QUEDAR EL ARCHIVO) puedes revisar la versión final de nuestro script.
+En [este archivo](https://raw.githubusercontent.com/programminghistorian/jekyll/web-scraping-r/assets/introduccion-al-web-scraping-usando-r/script-extraccion-discursos.R) puedes revisar la versión final de nuestro script.
 
 
 ## Síntesis
