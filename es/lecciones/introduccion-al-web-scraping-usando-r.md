@@ -38,14 +38,14 @@ Este tutorial se divide en tres secciones. En la primera, revisaremos algunas de
 
 ## Prerrequisitos
 
-En esta lección mostraremos cómo hacer web scraping usando [R](https://es.wikipedia.org/wiki/R_(lenguaje_de_programaci%C3%B3n)). Las explicaciones que daremos asumen que ya tienes cierto grado de familiaridad con este lenguaje de programación. Por ejemplo, sabes cómo ejecutar el código, cómo instalar y activar paquetes, y cómo guardar un script y un archivo con datos en tu directorio de trabajo. Si no has utilizado R antes, te sugerimos revisar primero los tutoriales [Datos tabulares en R](/es/lecciones/datos-tabulares-en-r) y [Administración de datos en R](/es/lecciones/administracion-de-datos-en-r), que te permitirán adquirir la base necesaria.
+En esta lección mostraremos cómo hacer web scraping usando [R](https://perma.cc/7ZDM-J8GF). Las explicaciones que daremos asumen que ya tienes cierto grado de familiaridad con este lenguaje de programación. Por ejemplo, sabes cómo ejecutar el código, cómo instalar y activar paquetes, y cómo guardar un script y un archivo con datos en tu directorio de trabajo. Si no has utilizado R antes, te sugerimos revisar primero los tutoriales [Datos tabulares en R](/es/lecciones/datos-tabulares-en-r) y [Administración de datos en R](/es/lecciones/administracion-de-datos-en-r), que te permitirán adquirir la base necesaria.
 
 Para poder completar los distintos pasos que ilustraremos necesitarás:
 
 - Al menos la versión 4.1 de R, ya que utilizaremos el operador pipe de R base (`|>`) que está disponible desde mayo de 2021. Puedes ejecutar `R.version` para revisar cuál es la versión que tienes instalada (o fijarte en el mensaje que se imprime en la consola cuando inicias R). De todos modos, deberías obtener los mismos resultados si utilizas el pipe del paquete magrittr (`%>%`)
 - Los paquetes **rvest**, **stringr** y **readr**
 
-Si bien no es necesario utilizar [RStudio](https://posit.co/products/open-source/rstudio/) para completar la lección, las capturas de pantalla que se incluyen provienen de ese programa. Algo similar ocurre respecto del navegador. Si bien puedes usar cualquiera, para las capturas de pantalla se utilizó Firefox.
+Si bien no es necesario utilizar [RStudio](https://perma.cc/K4A9-TWA2) para completar la lección, las capturas de pantalla que se incluyen provienen de ese programa. Algo similar ocurre respecto del navegador. Si bien puedes usar cualquiera, para las capturas de pantalla se utilizó Firefox.
 
 Los datos que extraeremos los guardaremos en una carpeta llamada "discursos", por lo que es necesario que la crees en tu directorio de trabajo (por ejemplo, con la función `dir.create("discursos")`).
 
@@ -85,7 +85,7 @@ Este conjunto de etiquetas permite que al abrir el documento en un navegador, es
 {% include figure.html filename="introduccion-al-web-scraping-usando-r-01.png" caption="Visualización del documento html en el navegador" alt="Captura de pantalla de cómo se visualiza el documento html anterior en un navegador. En él los títulos etiquetados como h1 son de mayor tamaño que los de h2, y los elementos etiquetados como li dentro la etiqueta ol se muestran como una lista numerada" %}
 
 
-Las etiquetas que hemos agregado permiten, por ejemplo, que lo que está etiquetado como `h1` se vea más grande que lo que está como `h2` y que nuestra lista esté numerada. Como se observa en la imagen anterior, todas estas etiquetas nos permiten definir la estructura del contenido de nuestro documento html. Pero ¿qué pasa con el estilo? ¿Cómo se indica, por ejemplo, que lo que está etiquetado como `h1` debe tener una determinada fuente tipográfica o un tamaño y color particular? Todo eso podemos indicarlo con [las hojas de estilo en cascada](https://developer.mozilla.org/es/docs/Learn/CSS), conocidas como CSS por sus siglas en inglés (Cascading Style Sheets). A través de ellas definimos las reglas de estilo que hay que aplicar a cada elemento de nuestro documento html.
+Las etiquetas que hemos agregado permiten, por ejemplo, que lo que está etiquetado como `h1` se vea más grande que lo que está como `h2` y que nuestra lista esté numerada. Como se observa en la imagen anterior, todas estas etiquetas nos permiten definir la estructura del contenido de nuestro documento html. Pero ¿qué pasa con el estilo? ¿Cómo se indica, por ejemplo, que lo que está etiquetado como `h1` debe tener una determinada fuente tipográfica o un tamaño y color particular? Todo eso podemos indicarlo con [las hojas de estilo en cascada](https://perma.cc/W433-5YJG), conocidas como CSS por sus siglas en inglés (Cascading Style Sheets). A través de ellas definimos las reglas de estilo que hay que aplicar a cada elemento de nuestro documento html.
 
 No profundizaremos acá acerca de cómo y dónde se escriben y aplican estas reglas, sino que solo nos referiremos a aquellos aspectos que inciden cuando hacemos web scraping. El más importante es que podemos crear "clases". Para explicar qué es una clase, volvamos a nuestro ejemplo anterior. En él tenemos dos encabezados de nivel 2 (`<h2>`). Si queremos que ambos se vean igual, bastaría con indicar en nuestro archivo CSS las características que deben tener todos los encabezados `h2`. ¿Pero qué pasa si no queremos que sean todos iguales? Por ejemplo, como el primero es el encabezado de una lista, podríamos querer que algo en su formato sea distinto. Para distinguir ambos encabezados `h2` lo que podemos hacer es asignarle una clase distinta a cada uno y luego definir las características de cada clase en nuestra hoja de estilo. Eso nos permitiría, por ejemplo, hacer que los encabezados de una lista tengan una fuente tipográfica distinta a los que encabezan un párrafo. Para asignar la clase de un determinado elemento, lo que hacemos es agregar `class="nombre-de-la-clase"` dentro de la etiqueta de inicio, tal como se muestra en esta versión actualizada de nuestro ejemplo:
 
@@ -103,11 +103,11 @@ No profundizaremos acá acerca de cómo y dónde se escriben y aplican estas reg
 <p>Este es el inicio de otro párrafo que podría ser muy interesante también.</p>
 ```
 
-Ahora, cada uno de los encabezados de nivel 2 corresponde a una clase diferente, lo que nos permite distinguirlos. A diferencia de las etiquetas html, [que son una lista cerrada](https://developer.mozilla.org/es/docs/Web/HTML/Element), el nombre de la clase es algo que define quien crea el sitio web.
+Ahora, cada uno de los encabezados de nivel 2 corresponde a una clase diferente, lo que nos permite distinguirlos. A diferencia de las etiquetas html, [que son una lista cerrada](https://perma.cc/95F8-PRLD), el nombre de la clase es algo que define quien crea el sitio web.
 
 ¿Por qué es relevante entender qué son los elementos y las clases? Cuando hacemos web scraping lo que hacemos es importar el código html de un sitio web a nuestro computador (usando R, por ejemplo) y extraer aquellas partes específicas que nos interesan. Como el contenido de un archivo html se encuentra etiquetado, podemos utilizar esas mismas etiquetas para especificar cuáles son las partes de la página que nos interesa extraer. Por esa razón, entender la diferencia entre un "elemento" del documento html y una "clase" nos va a permitir precisar mejor cuál es el contenido exacto que queremos de una página. Si en nuestro ejemplo anterior quisiéramos extraer todos los encabezados de nivel 2, bastaría con indicar que queremos todo el contenido etiquetado como `<h2>`. Pero si solo nos interesan los encabezados `<h2>` de las secciones que corresponden a una lista, entonces saber que su clase es `"encabezado-lista"` nos permitirá seleccionar solo esa parte del contenido y no los `h2` de la clase `"encabezado-parrafo"`. Es decir, podemos hacer una búsqueda y extracción más precisa.
 
-Además de los elementos y las clases, existen los [id](https://developer.mozilla.org/es/docs/Web/HTML/Global_attributes/id), que son la forma que tenemos de identificar de manera única un elemento dentro de un documento html. A diferencia de las clases, que se pueden aplicar a más de una instancia de un mismo elemento (por ejemplo, todos los encabezados `<h2>`), un id puede ser utilizado una sola vez por documento.
+Además de los elementos y las clases, existen los [id](https://perma.cc/Z6XM-ZHHX), que son la forma que tenemos de identificar de manera única un elemento dentro de un documento html. A diferencia de las clases, que se pueden aplicar a más de una instancia de un mismo elemento (por ejemplo, todos los encabezados `<h2>`), un id puede ser utilizado una sola vez por documento.
 Hay varias razones por las que se utilizan. Por ejemplo, cumplen una función importante cuando el sitio web utiliza JavaScript (un tema que excede los objetivos de esta lección). Pero quizás una de las más conocidas es que nos permiten crear marcadores (bookmarks) que sirven para que quien lea la página pueda saltar a una parte específica de la misma. Por ejemplo, si revisas la página "Acerca de" en el sitio web de [Programming Historian](/es/acerca-de), verás que al pasar el cursor por sobre los subtítulos de la página aparece un símbolo de enlace a la derecha, tal como se muestra en la siguiente imagen:
 
 {% include figure.html filename="introduccion-al-web-scraping-usando-r-02.png" caption="Cuando pasamos el cursor sobre alguno de los subtítulos en la página de Programming Historian aparece un ícono de enlace a la derecha" alt="Captura de pantalla de la página 'Acerca de' del sitio de Programming Historian. En ella se muestra que a la derecha de los subtítulos aparece un ícono que representa un enlace " %}
@@ -134,8 +134,8 @@ La mayoría de los sitios web incluyen una sección en la que se indica cuáles 
 
 {% include figure.html filename="introduccion-al-web-scraping-usando-r-03.png" caption="Declaración sobre la licencia de publicación del contenido de Programming Historian" alt="Captura de pantalla del pie de página del sitio de Programming Hisorian en el que se explicita la licencia con que se publican los contenidos" %}
 
-En este caso, la explicitación de la licencia utilizada nos permite saber que podemos compartir y adaptar el material publicado, siempre que se sigan los términos de atribución que [este tipo de licencia](https://creativecommons.org/licenses/by/4.0/deed.es) exige.
-En otros casos, en particular cuando se trata de sitios web cuyo contenido no está pensado para ser compartido, nos encontraremos con una explicación más larga y detallada de lo que se puede y no puede hacer. Por ejemplo, un sitio web que es muy explícito respecto de esto es Amazon. Si vas hasta la parte de más abajo de su página de inicio, encontrarás [un enlace a las condiciones de uso](https://www.amazon.es/gp/help/customer/display.html?nodeId=201909000). En esa sección se describen de forma extensa los términos de uso del sitio. ¿Cómo encontrar la información que nos interesa cuando la sección es así de larga? Algo que usualmente resulta útil es buscar palabras como "robot", "extracción", "extraer" o "automático/a". En este caso, esa búsqueda nos llevará al siguiente párrafo:
+En este caso, la explicitación de la licencia utilizada nos permite saber que podemos compartir y adaptar el material publicado, siempre que se sigan los términos de atribución que [este tipo de licencia](https://perma.cc/D9YE-HXCJ) exige.
+En otros casos, en particular cuando se trata de sitios web cuyo contenido no está pensado para ser compartido, nos encontraremos con una explicación más larga y detallada de lo que se puede y no puede hacer. Por ejemplo, un sitio web que es muy explícito respecto de esto es Amazon. Si vas hasta la parte de más abajo de su página de inicio, encontrarás [un enlace a las condiciones de uso](https://perma.cc/98RG-YADA). En esa sección se describen de forma extensa los términos de uso del sitio. ¿Cómo encontrar la información que nos interesa cuando la sección es así de larga? Algo que usualmente resulta útil es buscar palabras como "robot", "extracción", "extraer" o "automático/a". En este caso, esa búsqueda nos llevará al siguiente párrafo:
 
 > "No está permitida la extracción sistemática ni la reutilización de
 > parte alguna del contenido de ninguno de los servicios de Amazon sin
@@ -162,7 +162,7 @@ Existe otro lugar en el que podemos encontrar información sobre cómo interactu
 
 Este archivo está pensado principalmente para robots que hacen extracciones masivas del contenido de algunas páginas. Sin embargo, en él encontraremos información relevante para tareas más discretas, como las que realizaremos en esta serie de lecciones.
 
-El documento robots.txt se encuentra en el directorio raíz de un sitio web, por lo tanto, en caso de estar disponible, podemos acceder a su contenido agregando "robots.txt" luego de la url principal. Por ejemplo, si quisiéramos revisar la versión de este archivo del sitio web del proyecto [Memoria Chilena](http://www.memoriachilena.gob.cl/) de la Biblioteca Nacional de Chile, tendríamos que escribir: `http://www.memoriachilena.gob.cl/robots.txt`. Eso nos llevará a [una página](http://www.memoriachilena.gob.cl/robots.txt) con el siguiente contenido:
+El documento robots.txt se encuentra en el directorio raíz de un sitio web, por lo tanto, en caso de estar disponible, podemos acceder a su contenido agregando "robots.txt" luego de la url principal. Por ejemplo, si quisiéramos revisar la versión de este archivo del sitio web del proyecto [Memoria Chilena](https://perma.cc/TV4W-JMRK) de la Biblioteca Nacional de Chile, tendríamos que escribir: `http://www.memoriachilena.gob.cl/robots.txt`. Eso nos llevará a [una página](https://perma.cc/37MD-HP8Y) con el siguiente contenido:
 
 ```
 User-agent: *
@@ -185,11 +185,11 @@ Como señalamos anteriormente, es importante tener en cuenta que no todos los si
 ## Ejercicio práctico: extraer el texto contenido en un sitio web
 
 Ahora que tenemos clara la forma de funcionamiento de un sitio web y cómo averiguar de qué forma podemos interactuar con él, haremos un primer ejercicio de extracción de datos. En él mostraremos cómo extraer texto contenido en una página. Este método resulta particularmente útil cuando, por ejemplo, necesitamos compilar un corpus de textos disponibles en línea.
-En esta ocasión, usaremos como ejemplos los discursos de asunción de los dos últimos presidentes de Chile. Los discursos que extraeremos se encuentran disponibles en [la página de prensa de la presidencia Chile](https://prensa.presidencia.cl/). Este podría ser el paso inicial para compilar, por ejemplo, un corpus de discursos de asunción al cargo que posteriormente podríamos analizar con alguna técnica de minería de textos. Veamos ahora el paso a paso para realizar la extracción.
+En esta ocasión, usaremos como ejemplos los discursos de asunción de los dos últimos presidentes de Chile. Los discursos que extraeremos se encuentran disponibles en [la página de prensa de la presidencia Chile](https://perma.cc/83EB-9NYL). Este podría ser el paso inicial para compilar, por ejemplo, un corpus de discursos de asunción al cargo que posteriormente podríamos analizar con alguna técnica de minería de textos. Veamos ahora el paso a paso para realizar la extracción.
 
 ### Paso 1. Revisar los términos de uso del sitio web
 
-Si revisamos la parte inferior [del sitio web](https://prensa.presidencia.cl/), encontraremos un mensaje en el que se señala de forma explícita que podemos utilizar los contenidos publicados ahí.
+Si revisamos la parte inferior [del sitio web](https://perma.cc/83EB-9NYL), encontraremos un mensaje en el que se señala de forma explícita que podemos utilizar los contenidos publicados ahí.
 
 
 {% include figure.html filename="introduccion-al-web-scraping-usando-r-04.png" caption="Declaración de la licencia con que se publican los contenidos en el sitio web de prensa de la Presidencia de Chile" alt="Captura de pantalla del pie de página en que se indica la licencia. El texto dice 'Todos los derechos liberados. Se pueden reproducir, usar y descargar todos los contenidos, sin alterarlos y citando la fuente. Dirección de prensa, Presidencia de la República de Chile'" %}
@@ -230,7 +230,7 @@ Ahora que ya sabemos cómo funciona esa opción, busquemos la información sobre
 
 {% include figure.html filename="introduccion-al-web-scraping-usando-r-09.png" caption="Al pasar el cursor sobre el discurso se destaca la línea correspondiente en el panel de desarrollo" alt="Captura de pantalla de la página con el panel de desarrollo abierto. En la página está la sección del discurso destacada y una flecha muestra a qué línea en el código corresponde" %}
 
-Al poner el cursor sobre el discurso, vemos que el recuadro nos indica que corresponde a `div.texto-bloque`. En principio, pareciera que eso nos sirve. Sin embargo, si te fijas la clase "texto-bloque" no solo incluye el discurso, sino también las dos líneas anteriores que, técnicamente, no son parte de el. Es decir, no son parte de lo que [Gabriel Boric](https://es.wikipedia.org/wiki/Gabriel_Boric) dijo en ese momento, sino la presentación de lo que viene a continuación. Es importante eliminar esas dos oraciones en algún momento del proceso, ya que en el futuro podrían alterar los resultados de nuestro análisis. La primera opción sería revisar si existe algún otro elemento, clase o id que capture solo el discurso. Si eso no funciona, entonces tenemos que recordar eliminar manualmente esas líneas cuando procesemos los textos de nuestro corpus.
+Al poner el cursor sobre el discurso, vemos que el recuadro nos indica que corresponde a `div.texto-bloque`. En principio, pareciera que eso nos sirve. Sin embargo, si te fijas la clase "texto-bloque" no solo incluye el discurso, sino también las dos líneas anteriores que, técnicamente, no son parte de el. Es decir, no son parte de lo que [Gabriel Boric](https://perma.cc/73EN-ETLK) dijo en ese momento, sino la presentación de lo que viene a continuación. Es importante eliminar esas dos oraciones en algún momento del proceso, ya que en el futuro podrían alterar los resultados de nuestro análisis. La primera opción sería revisar si existe algún otro elemento, clase o id que capture solo el discurso. Si eso no funciona, entonces tenemos que recordar eliminar manualmente esas líneas cuando procesemos los textos de nuestro corpus.
 
 Busquemos primero si hay alguna etiqueta que contenga solo el discurso. Una opción es seguir moviendo el cursor para ver si en algún momento se destaca solo la parte que nos interesa. Si eso no resulta, como en este caso, entonces podemos revisar el código de la página con mayor detalle.
 Si vamos al panel con el código, podemos empezar a explorar lo que está dentro del `div` de la clase "texto-bloque", que es la que contenía el discurso y su presentación. Si movemos el cursor por sobre esas líneas, podemos ir revisando qué es lo que se destaca en cada una de ellas. Al llegar a la línea `<span id="main_ltContenido">` se destaca solo el texto del discurso y en la página aparece un recuadro que confirma que la etiqueta de esa sección es `span#main_ltContenido`. A diferencia de las clases que se mostraban ahí con un punto antes del nombre, los id tienen un signo `#`.
@@ -244,7 +244,7 @@ Ahora ya tenemos claro qué parte del código html es la que nos interesa (`#mai
 
 Ahora que tenemos claro cómo está etiquetado el contenido de la página que nos interesa, usaremos R para hacer la extracción.
 
-Lo primero que haremos será cargar los paquetes que utilizaremos en el proceso. Todos están disponibles en [CRAN](https://cran.r-project.org/), por lo que se pueden instalar con la función `install.packages()`:
+Lo primero que haremos será cargar los paquetes que utilizaremos en el proceso. Todos están disponibles en [CRAN](https://perma.cc/R3F3-KWXE), por lo que se pueden instalar con la función `install.packages()`:
 
 ```r
 library(rvest)
@@ -353,7 +353,7 @@ write_lines(discurso_boric, "discursos/cl_2022_boric_asuncion-cargo.txt")
 
 Quizás te estés preguntando si acaso no era más rápido copiar el discurso directamente del sitio web y pegarlo en un archivo txt. Si solo nos interesa un texto de un sitio, probablemente eso sea lo más rápido. Pero si necesitamos más de un texto, lo conveniente es hacerlo de forma programática. No solo por tiempo, sino porque así podemos evitar posibles errores humanos en el proceso. Además, incluso si se trata de un solo texto, tener el código para extraerlo permite que otras personas puedan repetir el proceso y obtener el mismo resultado, lo que favorece la reproducibilidad de nuestros flujos de trabajo.
 
-El mismo código que escribimos para extraer el discurso de Gabriel Boric, debería servirnos para extraer el de [Sebastián Piñera](https://es.wikipedia.org/wiki/Sebasti%C3%A1n_Pi%C3%B1era). Así que lo que haremos ahora será tomar el bloque de código que escribimos anteriormente y modificar tres cosas:
+El mismo código que escribimos para extraer el discurso de Gabriel Boric, debería servirnos para extraer el de [Sebastián Piñera](https://perma.cc/3A8U-SGED). Así que lo que haremos ahora será tomar el bloque de código que escribimos anteriormente y modificar tres cosas:
 
 - El nombre de los objetos que creamos
 - La url desde la que haremos la extracción
@@ -378,7 +378,7 @@ write_lines(discurso_pinera, "discursos/cl_2018_pinera_asuncion-cargo.txt")
 
 Esto nos muestra que una vez que resolvemos cómo extraer datos de un sitio, podemos luego reutilizar el código para otras secciones que nos interesen. Con este mismo bloque de código, por ejemplo, podrías extraer todos los discursos que se encuentran en este sitio web.
 
-En [este archivo](https://raw.githubusercontent.com/programminghistorian/jekyll/web-scraping-r/assets/introduccion-al-web-scraping-usando-r/script-extraccion-discursos.R) puedes revisar la versión final de nuestro script.
+En [este archivo](/assets/introduccion-al-web-scraping-usando-r/script-extraccion-discursos.R) puedes revisar la versión final de nuestro script.
 
 
 ## Síntesis
@@ -392,6 +392,6 @@ Esta es la primera lección de la serie sobre web scraping usando R. En la próx
 
 ## Notas
 
-[^1]: Amazon.es. "Condiciones de Uso y Venta", https://www.amazon.es/gp/help/customer/display.html?nodeId=201909000
+[^1]: Amazon.es. "Condiciones de Uso y Venta", [https://www.amazon.es/gp/help/customer/display.html?nodeId=201909000](https://www.amazon.es/gp/help/customer/display.html?nodeId=201909000).
 
 [^2]: En el menú Tools > Global Options > Code puedes configurar RStudio para que utilice el nuevo pipe como opción por defecto. Esto te permitirá incluirlo en tu código con el atajo de teclado Ctrl/Cmd + Shift + m.
