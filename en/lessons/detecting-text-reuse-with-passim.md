@@ -4,6 +4,7 @@ collection: lessons
 layout: lesson
 slug: detecting-text-reuse-with-Passim
 date: 2021-05-16
+modified: 2023-01-06
 authors:
 - Matteo Romanello
 - Simon Hengchen
@@ -26,7 +27,7 @@ In this lesson you will be introduced to the automatic detection of text reuse w
 
 This lesson targets digital humanities (DH) practitioners without any prior knowledge of text reuse, but with a working knowledge of [bash scripting](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) and Python as well as some data manipulation. For tutorials on bash scripting and [Python](https://en.wikipedia.org/wiki/Python_(programming_language)), you can refer to the Programming Historian [“Introduction to the Bash Command Line](/en/lessons/intro-to-bash) tutorial and the [library of current Python lessons](/en/lessons/?topic=python) on the *Programming Historian* website.
 
-This lesson includes an overview of [Passim](https://github.com/dasmiq/Passim), an open source tool for automatic text reuse detection. While the tool has been used in a number of small and large DH projects, it lacks a user-friendly documentation with examples and set up instructions, a gap that we aim to fill with this *Programming Historian* lesson.
+This lesson includes an overview of [Passim](https://github.com/dasmiq/passim), an open source tool for automatic text reuse detection. While the tool has been used in a number of small and large DH projects, it lacks a user-friendly documentation with examples and set up instructions, a gap that we aim to fill with this *Programming Historian* lesson.
 
 # Introduction to Text Reuse
 
@@ -39,7 +40,7 @@ The following list includes just some of the libraries available that perform au
 - [Basic Local Alignment Search Tool (BLAST)](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
 - [Tesserae](https://github.com/tesserae/tesserae) (PHP, Perl)
 - [TextPAIR (Pairwise Alignment for Intertextual Relations)](https://github.com/ARTFL-Project/text-pair)
-- [Passim](https://github.com/dasmiq/Passim) (Scala) developed by [David Smith](http://www.ccs.neu.edu/home/dasmith/
+- [Passim](https://github.com/dasmiq/passim) (Scala) developed by [David Smith](http://www.ccs.neu.edu/home/dasmith/
   ) (Northeastern University)
 
 For this tutorial we chose the Passim library for three main reasons. Firstly, it can be adapted to a variety of use cases as it works well on a small text collection as well as on a large-scale corpus. Secondly, while the documentation for Passim is extensive, because of its relatively advanced user audience, a more user-centered step-by-step tutorial about detecting text reuse with Passim would be beneficial to the user community. Lastly, the following examples illustrate the variety of scenarios in which text reuse is a useful methodology:
@@ -73,11 +74,13 @@ But why are all these dependencies needed?
 
 Passim is written in a programming language called Scala. To execute a software written in Scala, its sources need to be compiled into an executable JAR file, which is performed by `sbt`, Scala's interactive build tool. Finally, since Passim is designed to work also on large-scale text collections (with several thousands or millions of documents), behind the scenes it uses Spark, a cluster-computing framework written in Java. Using Spark allows Passim to handle the distributed processing of certain parts of the code, which is useful when handling large amounts of data. The [Spark glossary](https://spark.apache.org/docs/latest/cluster-overview.html#glossary) is a useful resource to learn basic Spark terminology (words like "driver", "executor", etc.) but learning this terminology may not be necessary if you are running Passim on a small dataset.
 
-Before installing this set of software, you'll need to download the Passim source code from GitHub:
+Before installing this set of software, you'll need to download the Passim version 1 source code from GitHub:
 
 ```bash
->>> git clone https://github.com/dasmiq/Passim.git
+>>> git clone https://github.com/dasmiq/passim.git --branch v1.0.0
 ```
+
+or download the source code [from the v1.0 release page](https://github.com/dasmiq/passim/releases/tag/v1.0.0).
 
 If you are not familiar with Git and GitHub, we recommend reading the *Programming Historian* lesson ["An Introduction to Version Control Using GitHub Desktop"](https://doi.org/10.46430/phen0051).
 
@@ -659,7 +662,7 @@ Parameter | Default value | Description | Explanation
 `--minDF` (`-l`) | 2 | Lower limit on document frequency of n-grams used | Since n-grams are used in Passim to retrieve document candidate pairs, an n-gram occurring only once is not useful as it will retrieve only one document (and not a pair). For this reason `--minDF` defaults to `2`.
 `--maxDF` (`-u`)| 100 | Upper limit on document frequency of n-grams used. | This parameter will filter out n-grams that are too common, thus occurring many times in a given document. <br /><br />This value has an impact on the performances as it will reduce the number of document pairs retrieved by Passim that will need to be compared.
 `--min-match` (`-m`)| 5 | Minimum number of matching n-grams between two documents | This parameter allows you to decide how many n-grams must be found between two documents.
-`--relative-overlap` (`-o`)| 0.8 | Proportion that two different aligned passages from the same document must overlap to be clustered together, as measured on the longer passage <!-- TODO SH: Current mismatch between official doc and code, see what is going to be changed after David answers to this issue https://github.com/dasmiq/Passim/issues/10 --> | This parameter determines the degree of string similarity two passages need to have in order to be clustered together.<br /><br />In the case of very noisy texts, it may be desirable to set this parameter to a  smaller value.
+`--relative-overlap` (`-o`)| 0.8 | Proportion that two different aligned passages from the same document must overlap to be clustered together, as measured on the longer passage <!-- TODO SH: Current mismatch between official doc and code, see what is going to be changed after David answers to this issue https://github.com/dasmiq/passim/issues/10 --> | This parameter determines the degree of string similarity two passages need to have in order to be clustered together.<br /><br />In the case of very noisy texts, it may be desirable to set this parameter to a  smaller value.
 `--max-repeat` (`-r`)| 10 | Maximum repeat of one series in a cluster | This paramter allows you to specify how much a given series can be present in a cluster.
 
 
