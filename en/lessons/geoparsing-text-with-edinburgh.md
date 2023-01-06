@@ -221,7 +221,7 @@ where
 
 You can grab the coordinates of a bounding box for a particular area using this online [BoundingBox](http://boundingbox.klokantech.com) tool. For example, a bounding box for Canada is `[W:-141.002701, N:83.110619, E:-52.620201, S:41.681019]` (see Figure 5)
 
-{% include figure.html filename="geoparser_figure17.png" caption="Figure 5: Bounding box for Canada drawn on [BoundingBox](http://boundingbox.klokantech.com)." %}
+{% include figure.html filename="geoparser_figure03.png" caption="Figure 5: Bounding box for Canada drawn on [BoundingBox](http://boundingbox.klokantech.com)." %}
 
 To specify this bounding box using the previous example, go back to the scripts directory and run the following command:
 
@@ -229,7 +229,7 @@ To specify this bounding box using the previous example, go back to the scripts 
 
 Here, the `score` has been set to 2.  This gives a location within the bounding box twice as much weight as for example the population size of a location during geo-resolution.
 
-{% include figure.html filename="geoparser_figure04.png" caption="Figure 6: Display of file 172172.display.html after geo-parsing with a specified bounding box." %}
+{% include figure.html filename="geoparser_figure17.png" caption="Figure 6: Display of file 172172.display.html after geo-parsing with a specified bounding box." %}
 
 In this case, all place names (including Washington, Wimbledon, Germany and France) were resolved to locations within the bounding box (see Figure 6).  The locality option should therefore be used with care and should ideally only be applied to documents where you are relatively certain that all or most locations appear within the specified area.
 
