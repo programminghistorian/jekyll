@@ -134,7 +134,6 @@ In this section you will learn how to geo-parse a simple text file.  Use the `c
 and try out one of the examples provided as part of the distribution by running the following two commands:
 
     cat ../in/172172.txt | ./run -t plain -g geonames -o ../out 172172
-<!-- Note that if your machine is running macOS Sierra (Darwin 16.7.0) or later versions then you need to apply a temporary [patch fix](#patch_fix) as this will give you an error. -->
 
 For those not so familiar with working on the command line, let's look at the syntax used here.  Firstly, it is useful to know that the pipe character (`|`) is used to concatenate different commands.
 
@@ -191,7 +190,7 @@ You can also specify the option `-top` on the command line. This creates output 
 
     cat ../in/172172.txt | ./run -t plain -g geonames -top -o ../out 172172
 
-{% include figure.html filename="geoparser_figure16.png" caption="4: Display of file 172172.display.html in a browser with only top location candidates displayed." %}
+{% include figure.html filename="geoparser_figure16.png" caption="Figure 4: Display of file 172172.display.html in a browser with only top location candidates displayed." %}
 
 The vanilla download works most accurately with running English text.  It even works on individual sentences.  Geo-resolution accuracy increases however if the Geoparser has access to more context, including other place names.  On the other hand, the Geoparser is not well suited to process large documents made up of several sub-texts, e.g. a journal issue made up of articles. In the latter case it would be better to split the document into the articles first and geo-parse each article individually.
 
@@ -354,31 +353,13 @@ If you open `./out/172172.out.tsv` in Excel, for example, you can see that the i
 
 Once you have extracted the geo-location information from the `*out.xml` file(s) you can read it into a data frame and use it as input into your favourite mapping tool though you will have to adjust the format depending on your needs.
 
-<!--
-<a name="patch_fix"></a>
-## Patch Fix
-
-If your machine is running maxOS Sierra (Darwin 16.7.0) or later versions you will get an error message similar to the following when running the Geoparser version 1.1:
-
-    unrecognised platform Darwin 16.7.0 x86_64
-    edit scripts/setup, or set LXPATH to appropriate path
-
-You need to apply the following patch fix to get it to work properly. Open the `setup` file in the `scripts` directory with your favourite editor and replace the following line:
-
-  ``Darwin?1[012345]*)``
-
-with
-
-  ``Darwin?1[0-9]*)``
-
-We will release a new version shortly which will fix is this error.-->
 
 ## Credits and Citation
 The Geoparser and its demo were developed over a number of years in a team effort by members of the [Edinburgh Language Technology Group](https://www.ltg.ed.ac.uk/), including Claire Grover, Richard Tobin, Kate Byrne and myself (Beatrice Alex).
 
 If you found this lesson useful for your work, please cite it as:
 
-    Beatrice Alex (2017). Geoparsing Text with the Edinburgh Geoparser, The Programming Historian lesson, /lessons/geoparsing-text-with-edinburgh, updated on 21/11/2022.
+Beatrice Alex, "Geoparsing English-Language Text with the Edinburgh Geoparser," _Programming Historian_ 6 (2017), https://doi.org/10.46430/phen0067.
 
 or cite one of the publications listed [here](https://www.ltg.ed.ac.uk/software/geoparser/).
 
