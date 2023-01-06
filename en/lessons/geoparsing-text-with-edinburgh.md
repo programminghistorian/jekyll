@@ -3,7 +3,7 @@ title: Geoparsing English-Language Text with the Edinburgh Geoparser
 collection: lessons
 layout: lesson
 slug: geoparsing-text-with-edinburgh
-date: 2017-10-31
+date: 2022-11-21
 authors:
 - Beatrice Alex
 reviewers:
@@ -23,9 +23,10 @@ doi: 10.46430/phen0067
 
 {% include toc.html %}
 
-<div class="alert alert-warning"> 
+<!--
+<div class="alert alert-warning">
 Readers have reported experiencing difficulties moving through this lesson. We have learned that it is now necessary to obtain an access token to use the Mapbox API. Even if users opt for the free tier, they must provide credit card details to proceed which presents a barrier to many of our users. We are reviewing our options for updating or adaptating this lesson. (Nov. 2022)
-</div>
+</div>-->
 
 ## Introduction
 
@@ -33,7 +34,7 @@ This is a lesson on how to use the [Edinburgh Geoparser](https://www.ltg.ed.ac.u
 
 The Geoparser works best on running text, as it considers locations in context for disambiguation. For example, if you would like to get a sense of the place names mentioned in a piece of text, the Geoparser can be used to identify terms in a document that are likely to refer to place names.  It will then provide its best guess as to where those places are in terms of latitute/longitude coordinates.
 
-In December 2015, the Edinburgh Geoparser was released under the University of Edinburgh’s GPL license to be used by other researchers in the field of text mining as well as other scholars who are interested in geoparsing text. More information on its documentation, publications about it and how to download it can be found [here](https://www.ltg.ed.ac.uk/software/geoparser/).
+In December 2015, the Edinburgh Geoparser was released under the University of Edinburgh’s GPL license to be used by other researchers in the field of text mining and natural language processing as well as scholars who are interested in geoparsing text. More information on its documentation, publications using it and how to download it can be found [here](https://www.ltg.ed.ac.uk/software/geoparser/).
 
 A simple online demo of the vanilla Edinburgh Geoparser can be tried out [here](http://jekyll.inf.ed.ac.uk/geoparser.html). It provides only the visual interface to the Geoparser output after uploading a text file and selecting a gazetteer.  The demo is otherwise not configurable and should only be used to try out small examples and not for geo-parsing a large number of files.
 
@@ -41,15 +42,17 @@ The following lesson explains how the Edinburgh Geoparser works under the hood a
 
 * Prerequisites and terminology
 *	Downloading and setting up the Edinbugh Geoparser,
+* Setting up mapping
 *	Geo-parsing a text file,
 *	Other useful options for running the Geoparser,
 *	Geo-parsing multiple text files, and
 *	Extracting geo-resolution output to TSV.
 
 ## Prerequisites and Terminology
-This lesson requires users to be familiar with the command line.  If not then you should follow the lesson [Introduction to the Bash Command Line](/lessons/intro-to-bash) first.
+This lesson requires users to be familiar with the command line.  If not then you should first follow the lesson [Introduction to the Bash Command Line](/lessons/intro-to-bash).
 
-The Geoparser works on MacOS or Linux but is not supported for Windows. The following lesson provides command line instructions for MacOSX users and equivalent commands for Linux users (only if different to the Mac versions). Note that if your machine is running macOS Sierra (Darwin 16.7.0) or later versions then you need to apply a temporary [patch fix](#patch_fix).
+The Geoparser works on MacOS or Linux but is not supported for Windows. The following lesson provides command line instructions for MacOSX users and equivalent commands for Linux users (only if different to the Mac versions).
+<!-- Note that if your machine is running macOS Sierra (Darwin 16.7.0) or later versions then you need to apply a temporary [patch fix](#patch_fix). -->
 
 The terms geo-parsing and geo-referencing are used interchangeably in this lesson and refer to the entire process of identifying place names in text (place name recognition) and disambiguating them by assigning their most likely latitude/longitude pairs (geo-resolution).
 
@@ -59,18 +62,18 @@ The Edinburgh Geoparser is used in conjunction with various gazetteers. The term
 
 The current Edinburgh Geoparser download can be found at <https://www.ltg.ed.ac.uk/software/geoparser/>.
 
-Go to the Download section and click on The Edinburgh Geoparser link.  All you need to do then is accept the license, fill in some personal details, and then press **Download**.  A compressed file called `geoparser-march2016.tar.gz` will be downloaded to your Download directory or to wherever you specified the download to go.  Note that this file name will change new versions of the tool are released.
+Go to the Download section and click on The Edinburgh Geoparser link.  All you need to do then is accept the license, fill in some personal details, and then press **Download**.  A compressed file called `geoparser-1.3.tar.gz` will be downloaded to your Download directory or to wherever you specified the download to go.  Note that this file name will change when new versions of the tool are released.
 
-Some machines will automatically decompress the .gz file and create the directory `geoparser-v1.1`.  If this happens, and you see the `geoparser-v1.1` directory appear, move this new directory to wherever you want it to be installed and go to step 2.  If this does not happen, and your machine does not decompress the `.tar.gz` file and create a new directory automatically, follow step 1 first.  (Note that version 1.1 is the current release but this number will change in the future.)
+Some machines will automatically decompress the .gz file and create the directory `geoparser-1.3`.  If this happens, and you see the `geoparser-1.3` directory appear, move this new directory to wherever you want it to be installed and go to step 2.  If this does not happen, and your machine does not decompress the `.tar.gz` file and create a new directory automatically, follow step 1 first.  (Note that version 1.3 is the current release but this number will change in the future.)
 
 #### Installation Steps via the GUI interface
-1\. Go to the download of the Geoparser and move it to the directory of your choice (e.g. into the `Software` directory).  Then double-click on the `.gz` or `.tar` file (if is was already decompressed automatically).  A new directory called `geoparser-v1.1` will appear (see Figure 1).
+1\. Go to the download of the Geoparser and move it to the directory of your choice (e.g. into the `Software` directory).  Then double-click on the `.gz` or `.tar` file (if is was already decompressed automatically).  A new directory called `geoparser-1.3` will appear (see Figure 1).
 
-{% include figure.html filename="geoparser_figure11.png" caption="Figure 1: The new geoparser-v1.1 directory." %}
+{% include figure.html filename="geoparser_figure13.png" caption="Figure 1: The new geoparser-1.3 directory." %}
 
-If you double-click on the geoparser-v1.1 folder you can see the content of the Geoparser (see Figure 2). That's it. You're ready to geo-parse.
+If you double-click on the geoparser-1.3 folder you can see the content of the Geoparser (see Figure 2). That's it. You're ready to geo-parse.
 
-{% include figure.html filename="geoparser_figure00.png" caption="Figure 2: Content of the Geoparser." %}
+{% include figure.html filename="geoparser_figure14.png" caption="Figure 2: Content of the Geoparser." %}
 
 ### Installation Steps for the Command Line
 
@@ -80,48 +83,62 @@ If you double-click on the geoparser-v1.1 folder you can see the content of the 
 
 Then type:
 
-    mv ~/Downloads/geoparser-march2016.tar.gz ~/Documents/Software/
+    mv ~/Downloads/geoparser-1.3.tar.gz ~/Documents/Software/
 
-For this lesson it is assumed that the geoparser is now located inside the `~/Documents/Software` directory.  You may however want to adjust these commands by specifying the place where the Geoparser was downloaded to and a different directory you’d like to install it in. For example if you'd like to create a new directory called `geoparsing` in your home directory and put the Geoparser there, then you would type:
+For this lesson it is assumed that the geoparser is now located inside the `~/Documents/Software` directory.  You may however want to specify a different directory you’d like to install it in and adjust these commands by specifying the place where the Geoparser was downloaded and save at. For example if you'd like to create a new directory called `geoparsing` in your home directory and put the Geoparser there, then you would type:
 
     mkdir ~/geoparsing
-    mv ~/Downloads/geoparser-march2016.tar.gz ~/geoparsing/
+    mv ~/Downloads/geoparser-1.3.tar.gz ~/geoparsing/
 
-2\. Next, you need to change to the directory containing the `geoparser-march2016.tar.gz` file so that the following command is local to that directory and you do not have to specify the entire path leading to it.  To do that you use the command `cd` (change directory), e.g.: 
+2\. Next, you need to change into the directory containing the `geoparser-1.3.tar.gz` file so that the following command is local to that directory and you do not have to specify the entire path leading to it.  To do that you use the command `cd` (change directory), e.g.: 
 
     cd ~/Documents/Software/
 
 3\. Run the following command on the command line to decompress the download:
 
-    tar -xvf geoparser-march2016.tar.gz
+    tar -xvf geoparser-1.3.tar.gz
 
-You should see a long list of files appear on screen that are part of the distribution.  The `Software` directory will now contain a new directory called `geoparser-v1.1`.  It contains:
+You should see a long list of files appear on screen that are part of the distribution.  The `Software` directory will now contain a new directory called `geoparser-1.3`.  It contains:
 
 * `README:` a file with basic instructions for how to run the Geoparser
 * `bin:` a set of executables, programs to be run by a computer, for different operating systems. There are executables for Linux (x86_64) and MacOSX.
 * `in:` a directory with example input files
 * `lib:` a set of libraries required for various processing steps
+* `models` a directory containing the part-of-speech tagging model
 * `out:` a directory with example output files
 * `resolve:` a directory containing programs required for geo-resolution
 * `scripts:` a directory with a set of scripts to run the Geoparser
 
 You can list (`ls`) and check its content by typing:
 
-    ls ./geoparser-v1.1
+    ls ./geoparser-1.3
 
 Congratulations! You have successfully downloaded and set up the Geoparser, and you can now begin geo-parsing.
+
+## Setting up Mapping
+
+The visualisation component of the Geoparser uses Leaflet mapping software in conjunction with either Mapbox or OpenStreetMap map tiles.
+
+Out of the box the Geoparser uses OpenStreetMap tiles for mapping. You can run the Geoparser (see next Section) as is without setting the environment variable `GEOPARSER_MAP_KEY`. If `GEOPARSER_MAP_KEY` is not set, OpenStreetMap tiles will be used by default. The main disadvantage of this - from the point of view of an English-language geoparser - is that OpenStreetMap generally displays maps in the language of the area, rather than English.
+
+To use the Geoparser with Mapbox tiles you will need a Mapbox key (access token) which can be obtained from www.mapbox.com. When you create a Mapbox account you are automatically assigned a public access token. You can use that or create a new one.  Before running the Geoparser you should set the environment variable `GEOPARSER_MAP_KEY` to your access token. To do that you have to type the following command into your terminal, replacing "TOKEN" with your Mapbox access token:
+
+    export GEOPARSER_MAP_KEY=TOKEN
+
+You can also assign this variable in the same way in your `.bashrc`, `.profile` or `.bash_profile` file depending on your operating system and setup, which will set this variable every time a terminal is started up.
+
+Note that Mapbox now also requires you to provide a credit card number when creating an account, and you may not want to do this in which case you still have the default OpenStreetMap mapping option. 
 
 ## Geo-parsing a Text File
 
 In this section you will learn how to geo-parse a simple text file.  Use the `cd` command to go the geoparser’s script directory:
 
-    cd ./geoparser-v1.1/scripts
+    cd ./geoparser-1.3/scripts
 
 and try out one of the examples provided as part of the distribution by running the following two commands:
 
     cat ../in/172172.txt | ./run -t plain -g geonames -o ../out 172172
-
-Note that if your machine is running macOS Sierra (Darwin 16.7.0) or later versions then you need to apply a temporary [patch fix](#patch_fix) as this will give you an error.
+<!-- Note that if your machine is running macOS Sierra (Darwin 16.7.0) or later versions then you need to apply a temporary [patch fix](#patch_fix) as this will give you an error. -->
 
 For those not so familiar with working on the command line, let's look at the syntax used here.  Firstly, it is useful to know that the pipe character (`|`) is used to concatenate different commands.
 
@@ -139,11 +156,11 @@ It takes the stdout from the first command and runs the Geoparser with the follo
 
   * `-t` specifies the format of your input.  Text input (`plain`) is recommended for geo-parsing.
 
-  * `-g` specifies the gazetteer that should be queried.  In the above example, the gazetteer selected is [GeoNames](http://www.geonames.org/) (`geonames`), a large global gazetteer.  You can also specify other gazetteers, for example the DEEP gazetteer of historical placenames in England (`deep`) or the Pleiades+ gazetteer of ancient places (`plplus`).  For more information on the types of gazetteers offered as part of the distribution see the Geoparser documentation [here](http://groups.inf.ed.ac.uk/geoparser/documentation/v1.1/html/gaz.html).
+  * `-g` specifies the gazetteer that should be queried.  In the above example, the gazetteer selected is [GeoNames](http://www.geonames.org/) (`geonames`), a large global gazetteer.  You can also specify other gazetteers, for example the DEEP gazetteer of historical placenames in England (`deep`) or the Pleiades+ gazetteer of ancient places (`plplus`).  For more information on the types of gazetteers offered as part of the distribution see the Geoparser documentation [here](http://groups.inf.ed.ac.uk/geoparser/documentation/v1.3/html/gaz.html).
 
-  * `-o` specifies two pieces of information, the output directory (`../out`) which is located within the `geoparser-v1.1` directory and a prefix for the output file name (in this case `172172`, the same prefix as that of the input file name). Once the command is run and the Geoparser is finished, the result files appear in the output directory (`../out`) starting with the specified prefix.
+  * `-o` specifies two pieces of information, the output directory (`../out`) which is located within the `geoparser-1.3` directory and a prefix for the output file name (in this case `172172`, the same prefix as that of the input file name). Once the command is run and the Geoparser is finished, the result files appear in the output directory (`../out`) starting with the specified prefix.
 
-When running the Geoparser, the specified text file is going through a series of processing steps which are combined into one pipeline.  It is first [tokenised](https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization_), [part-of-speech-tagged](https://en.wikipedia.org/wiki/Part-of-speech_tagging) and [lemmatised](https://en.wikipedia.org/wiki/Lemmatisation). After these initial steps, [named entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition) is performed to identify location and person names as well as dates.  It was  found that identifying location and person names in parallel helps to distinguish some ambiguous cases (like the string "Lewis" which could refer to a first name or the Scottish island) and where their context helps to distinguish between them.  The extracted locations are then resolved to latitude/longitude coordinate pairs.  The text is then further processed by identifying syntactic phrases (chunking) and temporal relations.  The latter two steps are not very relevant to this lesson and will therefore not be explained in detail.  Finally, visualisations are created to be able to inspect the file and the Geoparser output using a map interface in a browser.  For more information on each of the sub-components of the Geoparser, see the documentation [here](http://groups.inf.ed.ac.uk/geoparser/documentation/v1.1/html/pipeline.html).
+When running the Geoparser, the specified text file is going through a series of processing steps which are combined into one pipeline.  It is first [tokenised](https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization_), [part-of-speech-tagged](https://en.wikipedia.org/wiki/Part-of-speech_tagging) and [lemmatised](https://en.wikipedia.org/wiki/Lemmatisation). After these initial steps, [named entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition) is performed to identify location and person names as well as dates.  It was  found that identifying location and person names in parallel helps to distinguish some ambiguous cases (like the string "Lewis" which could refer to a first name or the Scottish island) and where their context helps to distinguish between them.  The extracted locations are then resolved to latitude/longitude coordinate pairs.  The text is then further processed by identifying syntactic phrases (chunking) and temporal relations.  The latter two steps are not very relevant to this lesson and will therefore not be explained in detail.  Finally, visualisations are created to be able to inspect the file and the Geoparser output using a map interface in a browser.  For more information on each of the sub-components of the Geoparser, see the documentation [here](http://groups.inf.ed.ac.uk/geoparser/documentation/v1.3/html/pipeline.html).
 
 Note that when using the Geoparser in combination with the GeoNames gazetteer some historical place names will not be identified as they are missing from the gazetteer.  Also the Geoparser team can provide additional pre-processing to improve the quality of optical-character recognised output (e.g. to fix soft-hyphen splitting or to deal with the long “s” character).  Those scripts are not distributed with the standard distribution but available on request.
 
@@ -170,17 +187,17 @@ You can view `172172.display.html` in your browser by typing:
 * On MacOSX: `open 172172.display.html`
 * On Linux: 		`xdg-open 172172.display.html`
 
-{% include figure.html filename="geoparser_figure01.png" caption="Figure 3: Display of file 172172.display.html in a browser." %}
+{% include figure.html filename="geoparser_figure15.png" caption="Figure 3: Display of file 172172.display.html in a browser." %}
 
 At the top of the browser window (see Figure 3) you will see a Google map interface with green and red pins.  At the bottom left is a window containing the text of the geo-parsed file with recognised locations highlighted in light green and at the bottom right there is a window containing the different geo-coordinate pairs for all the candidates considered per extracted location mention.  The ones in green are the top-ranked coordinate pairs which correspond to the green pins on the map.  The red pairs are lower ranked alternatives which correspond to the red pins on the map.
 
-You can also specify the option `-top` on the command line. This creates some additional output files, most notably `172172.display-top.html` which only contains the top-ranked location candidates, so only the green geo-coordinate pairs and pins are displayed (see Figure 4).
+You can also specify the option `-top` on the command line. This creates output files which only contain the top-ranked location candidates, so only the green geo-coordinate pairs and pins are displayed (see Figure 4).
 
     cat ../in/172172.txt | ./run -t plain -g geonames -top -o ../out 172172
 
-{% include figure.html filename="geoparser_figure02.png" caption="4: Display of file 172172.display-top.html in a browser." %}
+{% include figure.html filename="geoparser_figure16.png" caption="4: Display of file 172172.display.html in a browser with only top location candidates displayed." %}
 
-The vanilla download works most accurately with running English text.  It even works on individual sentences.  Geo-resolution accuracy increases however if the Geoparser has access to more context.  On the other hand, the Geoparser is not well suited to process large documents made up of several sub-texts, e.g. a journal issue made up of articles. In the latter case it would be better to split the document into the articles first.
+The vanilla download works most accurately with running English text.  It even works on individual sentences.  Geo-resolution accuracy increases however if the Geoparser has access to more context, including other place names.  On the other hand, the Geoparser is not well suited to process large documents made up of several sub-texts, e.g. a journal issue made up of articles. In the latter case it would be better to split the document into the articles first and geo-parse each article individually.
 
 ## Other Useful Options for Running the Geoparser
 
@@ -209,11 +226,11 @@ where
 
 You can grab the coordinates of a bounding box for a particular area using this online [BoundingBox](http://boundingbox.klokantech.com) tool. For example, a bounding box for Canada is `[W:-141.002701, N:83.110619, E:-52.620201, S:41.681019]` (see Figure 5)
 
-{% include figure.html filename="geoparser_figure03.png" caption="Figure 5: Bounding box for Canada drawn on [BoundingBox](http://boundingbox.klokantech.com)." %}
+{% include figure.html filename="geoparser_figure17.png" caption="Figure 5: Bounding box for Canada drawn on [BoundingBox](http://boundingbox.klokantech.com)." %}
 
 To specify this bounding box using the previous example, go back to the scripts directory and run the following command:
 
-    cat ../in/172172.txt | ./run -t plain -g geonames -lb -141.002701 83.110619 -52.620201 41.681019 2 -o ../out 172172 
+    cat ../in/172172.txt | ./run -t plain -g geonames -lb -141.002701 83.110619 -52.620201 41.681019 2 -o ../out 172172
 
 Here, the `score` has been set to 2.  This gives a location within the bounding box twice as much weight as for example the population size of a location during geo-resolution.
 
@@ -339,8 +356,9 @@ If you open `./out/172172.out.tsv` in Excel, for example, you can see that the i
 
 {% include figure.html filename="geoparser_figure10.png" caption="Figure 8: Geo-parsed location information from the example `172172` displayed in Excel." %}
 
-Once you have extracted the geo-location information from the `*out.xml` file(s) you can use it as input into your favourite mapping tool though you will have to adjust the format depending on your needs.
+Once you have extracted the geo-location information from the `*out.xml` file(s) you can read it into a data frame and use it as input into your favourite mapping tool though you will have to adjust the format depending on your needs.
 
+<!--
 <a name="patch_fix"></a>
 ## Patch Fix
 
@@ -357,14 +375,14 @@ with
 
   ``Darwin?1[0-9]*)``
 
-We will release a new version shortly which will fix is this error.
+We will release a new version shortly which will fix is this error.-->
 
 ## Credits and Citation
 The Geoparser and its demo were developed over a number of years in a team effort by members of the [Edinburgh Language Technology Group](https://www.ltg.ed.ac.uk/), including Claire Grover, Richard Tobin, Kate Byrne and myself (Beatrice Alex).
 
 If you found this lesson useful for your work, please cite it as:
 
-    Beatrice Alex. 2017. Geoparsing Text with the Edinburgh Geoparser, The Programming Historian lesson, /lessons/geoparsing-text-with-edinburgh, 2017.
+    Beatrice Alex (2017). Geoparsing Text with the Edinburgh Geoparser, The Programming Historian lesson, /lessons/geoparsing-text-with-edinburgh, updated on 21/11/2022.
 
 or cite one of the publications listed [here](https://www.ltg.ed.ac.uk/software/geoparser/).
 
@@ -377,7 +395,7 @@ In the past the Geoparser was used to identify place names for different purpose
 * large historical collections related to commodity trading in the 19th century British Empire ([Trading Consequences](http://tradingconsequences.blogs.edina.ac.uk/)) and
 * 19th century British newspapers by [Prof. Ian Gregory](http://www.lancaster.ac.uk/staff/gregoryi/)’s group at Lancaster University.
 
-The Geoparser was also adapted to the ancient world for the [Google Ancient Places](https://googleancientplaces.wordpress.com/) project (e.g. see Isaksen et al., 2011), with its [GapVis](http://nrabinowitz.github.io/gapvis/)  interface. More recently, the Geoparser was used to geo-parse Twitter user profile locations (Alex et al, 2016).
+The Geoparser was also adapted to the ancient world for the [Google Ancient Places](https://googleancientplaces.wordpress.com/) project (e.g. see Isaksen et al., 2011), with its [GapVis](http://nrabinowitz.github.io/gapvis/)  interface. More recently, the Geoparser was used to geo-parse Twitter user profile locations (Alex et al, 2016) and the mass digitised text, including the Gazetteers of Scotland (Filgueira et al., 2020) and Encyclopaedia Britannica (Filgueira et al., 2021)
 
 ## References
 
@@ -385,9 +403,12 @@ Beatrice Alex, Clare Llewellyn, Claire Grover, Jon Oberlander and Richard Tobin 
 
 Beatrice Alex, Kate Byrne, Claire Grover and Richard Tobin (2015). Adapting the Edinburgh Geoparser for Historical Georeferencing. International Journal for Humanities and Arts Computing, 9(1), pp. 15-35, March 2015.[[pdf](http://www.euppublishing.com/doi/pdfplus/10.3366/ijhac.2015.0136)]
 
+Rosa Filgueira, Claire Grover, Vasilios Karaiskos, Beatrice Alex, Sarah Van Eyndhoven, Lisa Gotthard, and Melissa Terras (2021). Extending defoe for the efficient analysis of historical texts at scale. In 2021 IEEE 17th International Conference on eScience (eScience), pp. 21-29.
+
+Rosa Filgueira, Claire Grover, Melissa Terras, and Beatrice Alex (2020). Geoparsing the historical Gazetteers of Scotland: accurately computing location in mass digitised texts. In Proceedings of the 8th Workshop on Challenges in the Management of Large Corpora, pages 24–30, Marseille, France. European Language Resources Association.
+
 Claire Grover and Richard Tobin (2014). A Gazetteer and Georeferencing for Historical English Documents. In Proceedings of LaTeCH 2014 at EACL 2014. Gothenburg, Sweden. [[pdf]](http://www.aclweb.org/anthology/W14-0617)
 
 Claire Grover, Richard Tobin, Kate Byrne, Matthew Woollard, James Reid, Stuart Dunn, and Julian Ball (2010). Use of the Edinburgh Geoparser for georeferencing digitised historical collections. Philosophical Transactions of the Royal Society A. [[pdf](http://homepages.inf.ed.ac.uk/grover/papers/PTRS-A-2010-Grover-3875-89.pdf)]
 
 Leif Isaksen, Elton Barker, Eric C. Kansa, Kate Byrne (2012). GAP: A NeoGeo Approach to Classical Resources. Leonardo 45 (1): 82–83. [[pdf](https://direct.mit.edu/leon/article/45/1/82/46956/GAP-A-NeoGeo-Approach-to-Classical-Resources#.U48IuXWx15Q)]
-
