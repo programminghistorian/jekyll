@@ -3,7 +3,8 @@ title: Geoparsing English-Language Text with the Edinburgh Geoparser
 collection: lessons
 layout: lesson
 slug: geoparsing-text-with-edinburgh
-date: 2022-11-21
+date: 2017-10-31
+modified: 2023-01-06
 authors:
 - Beatrice Alex
 reviewers:
@@ -23,10 +24,6 @@ doi: 10.46430/phen0067
 
 {% include toc.html %}
 
-<!--
-<div class="alert alert-warning">
-Readers have reported experiencing difficulties moving through this lesson. We have learned that it is now necessary to obtain an access token to use the Mapbox API. Even if users opt for the free tier, they must provide credit card details to proceed which presents a barrier to many of our users. We are reviewing our options for updating or adaptating this lesson. (Nov. 2022)
-</div>-->
 
 ## Introduction
 
@@ -41,22 +38,21 @@ A simple online demo of the vanilla Edinburgh Geoparser can be tried out [here](
 The following lesson explains how the Edinburgh Geoparser works under the hood and contains information on:
 
 * Prerequisites and terminology
-*	Downloading and setting up the Edinbugh Geoparser,
+* Downloading and setting up the Edinbugh Geoparser
 * Setting up mapping
-*	Geo-parsing a text file,
-*	Other useful options for running the Geoparser,
-*	Geo-parsing multiple text files, and
-*	Extracting geo-resolution output to TSV.
+* Geo-parsing a text file
+* Other useful options for running the Geoparser
+* Geo-parsing multiple text files
+* Extracting geo-resolution output to TSV
 
 ## Prerequisites and Terminology
-This lesson requires users to be familiar with the command line.  If not then you should first follow the lesson [Introduction to the Bash Command Line](/lessons/intro-to-bash).
+This lesson requires users to be familiar with the command line.  If not then you should first follow the lesson [Introduction to the Bash Command Line](/en/lessons/intro-to-bash).
 
 The Geoparser works on MacOS or Linux but is not supported for Windows. The following lesson provides command line instructions for MacOSX users and equivalent commands for Linux users (only if different to the Mac versions).
-<!-- Note that if your machine is running macOS Sierra (Darwin 16.7.0) or later versions then you need to apply a temporary [patch fix](#patch_fix). -->
 
 The terms geo-parsing and geo-referencing are used interchangeably in this lesson and refer to the entire process of identifying place names in text (place name recognition) and disambiguating them by assigning their most likely latitude/longitude pairs (geo-resolution).
 
-The Edinburgh Geoparser is used in conjunction with various gazetteers. The term [gazetteer](https://en.wikipedia.org/wiki/Gazetteer) here refers to a list of place names and information about them (e.g. their latitude/longitude coordinates, population size and country they are contained in).  More information on [Using Gazetteers to Extract Sets of Keywords from Free-Flowing Texts](/lessons/extracting-keywords) can be found in Adam Cryble's Programming Historian lesson. His lesson focusses on matching gazetteer entries in text to identify place names.  The Edinburgh Geoparser goes beyond string matching as it applies a large number of rules to identify place names and other types of named entities in text and goes on to ground the extracted entities (either by geo-resolution or date normalisation).
+The Edinburgh Geoparser is used in conjunction with various gazetteers. The term [gazetteer](https://en.wikipedia.org/wiki/Gazetteer) here refers to a list of place names and information about them (e.g. their latitude/longitude coordinates, population size and country they are contained in).  More information on [Using Gazetteers to Extract Sets of Keywords from Free-Flowing Texts](/en/lessons/extracting-keywords) can be found in Adam Cryble's Programming Historian lesson. His lesson focusses on matching gazetteer entries in text to identify place names.  The Edinburgh Geoparser goes beyond string matching as it applies a large number of rules to identify place names and other types of named entities in text and goes on to ground the extracted entities (either by geo-resolution or date normalisation).
 
 ## Downloading and Setting up the Geoparser
 
@@ -300,14 +296,14 @@ Now that you know how to geo-parse one file, you may want to do the same thing f
 
 The output of the Geoparser is in XML format. This is useful as XML can store various types of information present in text along with it.  For example, it can store low-level information like the boundaries of words, their part-of-speech tags and lemmas.  It can also store more complex information like phrases and entities occurring in the text as well as links between them, for example the subject and object of a sentence or the location (e.g. birthplace) of a person.  The advantage is that all the computed structural and linguistic information computed for a piece of text is stored along with it and downstream natural language processing tools have all the information available.
 
-While XML is easy to process by a machine it is difficult to read by human readers. You may also not be interested in all the information computed by the Geoparser and might only want to see which locations were identified along with their coordinates. So rather than dealing with an XML file, you might find it easier to work with the Geoparser output in a form such as tab-separated values (TSV) in order to inspect it in a spreadsheet or use it with an application such as QGIS or Google Maps/Google Earth for which there are already useful Programming Historian lessons available ([Installing QGIS 2.0 and Adding Layers](/lessons/qgis-layers) and [Intro to Google Maps and Google Earth](/lessons/googlemaps-googleearth)).
+While XML is easy to process by a machine it is difficult to read by human readers. You may also not be interested in all the information computed by the Geoparser and might only want to see which locations were identified along with their coordinates. So rather than dealing with an XML file, you might find it easier to work with the Geoparser output in a form such as tab-separated values (TSV) in order to inspect it in a spreadsheet or use it with an application such as QGIS or Google Maps/Google Earth for which there are already useful Programming Historian lessons available ([Installing QGIS 2.0 and Adding Layers](/en/lessons/qgis-layers) and [Intro to Google Maps and Google Earth](/en/lessons/googlemaps-googleearth)).
 
 The Geoparser is distributed with a useful set of XML processing tools called [LT-XML2](https://www.ltg.ed.ac.uk/software/ltxml2/), authored by Richard Tobin, which can be used to extract the location entities in a Geoparser XML output file and to present them in tab-separated value (TSV) format. The executables for these tools are located in the `./geoparser/bin` directory, inside:
 
 * `sys-i386-64`: if you are using a 64 bit Linux machine or
 * `sys-i386-snow-leopard`: if you’re using MacOSX.  Don’t be confused by the name of this directory.  The executables should work for all MacOSX installations and not just on Snow Leopard.
 
-All the executables starting with *lx* are LT-XML tools which work in combination with Xpath expressions to process or manipulate XML.  Going in detail over Xpath is beyond the scope of this lesson, so I will give clear examples to show how things work.  If you are interested in XML data manipulation you will find further detail in [Transforming Data for Reuse and Re-publication](/lessons/transforming-xml-with-xsl).
+All the executables starting with *lx* are LT-XML tools which work in combination with Xpath expressions to process or manipulate XML.  Going in detail over Xpath is beyond the scope of this lesson, so I will give clear examples to show how things work.  If you are interested in XML data manipulation you will find further detail in [Transforming Data for Reuse and Re-publication](/en/lessons/transforming-xml-with-xsl).
 
 The best tool for printing XML content in a different format is `lxprintf`. Depending on your operating system, go to the `geoparser` directory and run `lxprintf` as follows:
 
