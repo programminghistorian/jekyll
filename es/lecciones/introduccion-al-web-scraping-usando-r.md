@@ -162,7 +162,7 @@ Existe otro lugar en el que podemos encontrar información sobre cómo interactu
 
 Este archivo está pensado principalmente para robots que hacen extracciones masivas del contenido de algunas páginas. Sin embargo, en él encontraremos información relevante para tareas más discretas, como las que realizaremos en esta serie de lecciones.
 
-El documento robots.txt se encuentra en el directorio raíz de un sitio web, por lo tanto, en caso de estar disponible, podemos acceder a su contenido agregando "robots.txt" luego de la url principal. Por ejemplo, si quisiéramos revisar la versión de este archivo del sitio web del proyecto [Memoria Chilena](https://perma.cc/TV4W-JMRK) de la Biblioteca Nacional de Chile, tendríamos que escribir: `http://www.memoriachilena.gob.cl/robots.txt`. Eso nos llevará a [una página](https://perma.cc/37MD-HP8Y) con el siguiente contenido:
+El documento robots.txt se encuentra en el directorio raíz de un sitio web, por lo tanto, en caso de estar disponible, podemos acceder a su contenido agregando "robots.txt" luego de la url principal. Por ejemplo, si quisiéramos revisar la versión de este archivo del sitio web del proyecto [Memoria Chilena](http://www.memoriachilena.gob.cl/) de la Biblioteca Nacional de Chile, tendríamos que escribir: `http://www.memoriachilena.gob.cl/robots.txt`. Eso nos llevará a [una página](https://perma.cc/37MD-HP8Y) con el siguiente contenido:
 
 ```
 User-agent: *
@@ -185,7 +185,7 @@ Como señalamos anteriormente, es importante tener en cuenta que no todos los si
 ## Ejercicio práctico: extraer el texto contenido en un sitio web
 
 Ahora que tenemos clara la forma de funcionamiento de un sitio web y cómo averiguar de qué forma podemos interactuar con él, haremos un primer ejercicio de extracción de datos. En él mostraremos cómo extraer texto contenido en una página. Este método resulta particularmente útil cuando, por ejemplo, necesitamos compilar un corpus de textos disponibles en línea.
-En esta ocasión, usaremos como ejemplos los discursos de asunción de los dos últimos presidentes de Chile. Los discursos que extraeremos se encuentran disponibles en [la página de prensa de la presidencia Chile](https://perma.cc/83EB-9NYL). Este podría ser el paso inicial para compilar, por ejemplo, un corpus de discursos de asunción al cargo que posteriormente podríamos analizar con alguna técnica de minería de textos. Veamos ahora el paso a paso para realizar la extracción.
+En esta ocasión, usaremos como ejemplos los discursos de asunción de los dos últimos presidentes de Chile. Los discursos que extraeremos se encuentran disponibles en [la página de prensa de la presidencia Chile](https://prensa.presidencia.cl/). Este podría ser el paso inicial para compilar, por ejemplo, un corpus de discursos de asunción al cargo que posteriormente podríamos analizar con alguna técnica de minería de textos. Veamos ahora el paso a paso para realizar la extracción.
 
 ### Paso 1. Revisar los términos de uso del sitio web
 
