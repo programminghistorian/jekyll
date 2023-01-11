@@ -82,7 +82,7 @@ Mais pourquoi toutes ces dépendances sont-elles nécessaires ?
 
 Passim est écrit dans un langage de programmation appelé Scala. Pour exécuter un logiciel écrit en Scala, ses sources doivent être compilées en un fichier JAR exécutable, ce qui est réalisé par ```sbt```, l'outil de compilation interactif de Scala. Enfin, puisque Passim est conçu pour travailler également sur des grandes collections de textes (avec plusieurs milliers ou millions de documents), il utilise en coulisse Spark, un framework de calcul en cluster qui est écrit en Java. L'utilisation de Spark permet à Passim de gérer le traitement distribué de certaines parties du code, ce qui est utile lors de la manipulation de grandes quantités de données. Le [Spark glossary](https://spark.apache.org/docs/latest/cluster-overview.html#glossary) est une ressource utile pour apprendre la terminologie de base de Spark (des mots comme &laquo;&#x202F;driver&#x202F;&raquo;, &laquo;&#x202F;executor&#x202F;&raquo;, etc.), toutefois apprendre cette terminologie n’est pas indispensable si vous exécutez Passim sur un petit ensemble de données.
 
-Avant d’installer cet ensemble de logiciel, vous aurez besoin de télécharger le code source de Passim la version 1 depuis GitHub :
+Avant d’installer cet ensemble de logiciels, vous aurez besoin de télécharger le code source de la version 1 de Passim depuis GitHub :
 
 ```bash
 >>> git clone https://github.com/dasmiq/passim.git --branch v1.0.0
