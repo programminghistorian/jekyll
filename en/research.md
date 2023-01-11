@@ -24,6 +24,7 @@ The project team and members of the wider community are involved in a number of 
 
 ## Published Research
 
+* Eric Brasil, '[_pyHDB - Ferramenta Heurística para a Hemeroteca Digital Brasileira: utilizando técnicas de web scraping para a pesquisa em História_'](https://doi.org/10.15848/hh.v15i40.1904), _História Da Historiografia: International Journal of Theory and History of Historiography_, 15(40) (2022), 186–217.
 * Matthew Lincoln, Sarah Melton, Jennifer Isasi, François Dominic Laramée, '[Relocating Complexity: The Programming Historian and Multilingual Static Site Generation](http://www.digitalhumanities.org/dhq/vol/16/2/000585/000585.html)', _Digital Humanities Quarterly_ 16, 2 (2022).
 * Jennifer Isasi and Antonio Rojas Castro, ‘[¿Sin equivalencia? Una reflexión sobre la traducción al español de recursos educativos abiertos](https://muse.jhu.edu/article/842253)’, _Hispania_, 104, no. 4 (2021), 613-624.
 * Adam Crymble and Maria José Afanador Llach, ‘The Globally Unequal Promise of Digital Tools for History: UK and Colombia Case Study’ in Adele Nye (ed.) _Teaching History for the Contemporary World_ (Springer, 2021), 85-98.
@@ -44,6 +45,7 @@ The project team and members of the wider community are involved in a number of 
 ## Workshops & Events
 
 
+* Jessica Parr, Joana Vieira Paulino & Nicolas Vaughan, ['Teaching with Programming Historian,'](https://youtu.be/u5x5WlLD-Bo) Programming Historian, (16 December 2022).
 * Daniel van Strien, '_Computer Vision for the Humanities_', British Library, Digital Scholarship Training Programme, (17 November 2022).
 * Riva Quiroga, '[_Aprende a crear tutoriales para Programming Historian_'](https://www.youtube.com/watch?v=QgSuaHM5ap0), Programming Historian [Online], (16 November 2022).
 * Isasi, Jennifer. '_Programming Historian: A Collaborative Project to Put Programming Within the Reach of Humanists_', Language Technologies for Digital Humanities, within the Global Digital Humanities degree, University of Mondragón, Spain (14 November 2022).
