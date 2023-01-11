@@ -32,7 +32,7 @@ Periodicamente, podemos anunciar a procura de mais editores.
 
 Se você é fluente em mais do que um dos idiomas de publicação (francês, inglês, espanhol, português), está convidado a entrar em contato conosco para traduzir de um idioma para o outro uma das lições do _Programming Historian_ já publicadas. Isto irá ajudar-nos a criar comunidades multilingues de humanidades digitais e a desenvolver o seu idioma, método e competências tecnológicas.
 
-Procuramos traduções rigorosas e legíveis que tenham em conta os contextos de investigação em língua portuguesa, bem como os recursos disponíveis nesta comunidade. Se estiver interessado em colaborar, consulte as nossas instruções para [autores](https://programminghistorian.org/pt/directrizes-autor) e [tradutores](https://programminghistorian.org/pt/directrizes-tradutor).
+Procuramos traduções rigorosas e legíveis que tenham em conta os contextos de investigação em língua portuguesa, bem como os recursos disponíveis nesta comunidade. Se estiver interessado em colaborar, consulte as nossas instruções para [autores](/pt/directrizes-autor) e [tradutores](/pt/directrizes-tradutor).
 
 ## Dê a sua opinião ou comunique problemas
 
