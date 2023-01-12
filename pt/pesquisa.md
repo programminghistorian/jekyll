@@ -21,6 +21,7 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 
 ## Pesquisa publicada
 
+* Eric Brasil, '[_pyHDB - Ferramenta Heurística para a Hemeroteca Digital Brasileira: utilizando técnicas de web scraping para a pesquisa em História_'](https://doi.org/10.15848/hh.v15i40.1904), _História Da Historiografia: International Journal of Theory and History of Historiography_, 15(40) (2022), 186–217.
 * Matthew Lincoln, Sarah Melton, Jennifer Isasi, François Dominic Laramée, '[Relocating Complexity: The Programming Historian and Multilingual Static Site Generation](http://www.digitalhumanities.org/dhq/vol/16/2/000585/000585.html)', _Digital Humanities Quarterly_ 16, 2 (2022).
 * Jennifer Isasi e Antonio Rojas Castro, ‘[¿Sin equivalencia? Una reflexión sobre la traducción al español de recursos educativos abiertos](https://muse.jhu.edu/article/842253)’, _Hispania_, 104, no. 4 (2021), 613-624.
 * Adam Crymble e Maria José Afanador Llach, ‘The Globally Unequal Promise of Digital Tools for History: UK and Colombia Case Study’ in Adele Nye (ed.) _Teaching History for the Contemporary World_ (Springer, 2021), 85-98.
@@ -40,6 +41,7 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 
 ## Workshops & Eventos
 
+* Jessica Parr, Joana Vieira Paulino & Nicolas Vaughan, ['Teaching with Programming Historian,'](https://youtu.be/u5x5WlLD-Bo) Programming Historian, (16 de dezembro de 2022).
 * Daniel van Strien, '_Computer Vision for the Humanities_', British Library, Digital Scholarship Training Programme, (17 de novembro de 2022).
 * Riva Quiroga, '[_Aprende a crear tutoriales para Programming Historian_'](https://www.youtube.com/watch?v=QgSuaHM5ap0), Programming Historian [Online], (16 de novembro de 2022).
 * Sofia Papastamkou, Participação no workshop '[_Formation et compétences pour les différents types d’acteurs : pratiques pédagogiques et didactique_'](https://respadon.hypotheses.org/1755), ministrado por Dorothée Benhamou-Suesser e Madeleine Géroudet. Projeto ResPaDon. Bibliothèque Nationale, França, 6 de outubro de 2022 https://respadon.hypotheses.org/1755
