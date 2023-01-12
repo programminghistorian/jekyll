@@ -7,9 +7,9 @@ skip_validation: true
 
 # Directrizes para Tradutores
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
-<h2 class="noclear">Step 1: <a href="#propor-a-tradução-de-uma-lição">Propor a tradução de uma lição</a></h2>
-<h2 class="noclear">Step 2: <a href="#traduzir-uma-lição">Escrever e formatar uma tradução</a></h2>
-<h2 class="noclear">Step 3: <a href="#submeter-uma-lição-traduzida">Submeter uma lição traduzida</a></h2>
+<h2 class="noclear">Etapa 1: <a href="#propor-a-tradução-de-uma-lição">Propor a tradução de uma lição</a></h2>
+<h2 class="noclear">Etapa 2: <a href="#traduzir-uma-lição">Escrever e formatar uma tradução</a></h2>
+<h2 class="noclear">Etapa 3: <a href="#submeter-uma-lição-traduzida">Submeter uma lição traduzida</a></h2>
 
 ## Propor a tradução de uma lição
 Se deseja traduzir uma lição publicada no _Programming Historian_, consulte a lista de traduções pendentes e entre em contato com {% include managing-editor.html lang=page.lang %} para apresentar as suas competências no idioma e experiência de tradução. Procuramos traduções rigorosas, legíveis e que considerem as necessidades de um público que lê português.
@@ -32,14 +32,14 @@ Todas as nossas lições também devem ser escritas em Markdown e seguir as noss
 ## Submeter uma lição traduzida
 Depois do ficheiro de tradução ter as especificações acima mencionadas, estará pronto a ser enviado para revisão por pares.
 
-Temos uma página do [_Programming Historian em português_ no GitHub](https://github.com/programminghistorian), onde mantemos dois repositórios (um repositório é um local para armazenar ficheiros e pastas relacionados, ou seja, um tipo de pasta). Um deles, chamado [jekyll], hospeda o código da versão online do site disponível em http://programminghistorian.org. O outro repositório é chamado [ph-submissions].
+Temos uma página do [_Programming Historian em português_ no GitHub](https://github.com/programminghistorian), onde mantemos dois repositórios (um repositório é um local para armazenar ficheiros e pastas relacionados, ou seja, um tipo de pasta). Um deles, chamado [jekyll](https://github.com/programminghistorian/jekyll), hospeda o código da versão online do site disponível em http://programminghistorian.org. O outro repositório é chamado [ph-submissions](https://github.com/programminghistorian/ph-submissions).
 
-A melhor maneira para enviar uma tradução é adicioná-la diretamente ao repositório [ph-submissions]. Graças aos recursos do GitHub, pode fazer isso usando ações de arrastar e soltar, com as quais provavelmente já está familiarizado. Para os novos tradutores, estas são as etapas:
+A melhor maneira para enviar uma tradução é adicioná-la diretamente ao repositório [ph-submissions](https://github.com/programminghistorian/ph-submissions). Graças aos recursos do GitHub, pode fazer isso usando ações de arrastar e soltar, com as quais provavelmente já está familiarizado. Para os novos tradutores, estas são as etapas:
 
 1. Criar uma [conta gratuita no GitHub](https://github.com/join). Demora cerca de 30 segundos.
-2. Enviar um e-mail ao editor com o seu novo nome de usuário no GitHub e o nome da lição a ser traduzida. O editor vai adicioná-lo como **colaborador** no repositório [ph-submissions]. Depois poderá fazer alterações diretas no repositório [ph-submissions], incluindo adicionar, editar, remover e renomear ficheiros. O editor também criará uma pasta com o mesmo nome da sua lição na pasta de imagens. (Se tiver outros ficheiros de dados a vincular ao tutorial pergunte ao editor sobre eles.)
-3. Depois do editor confirmar que já está como colaborador, já vai conseguir navegar até à pasta `pt/licoes/traducoes` do repositório [ph-submissions]. Em seguida, arraste e solte o arquivo markdown da sua lição do seu computador para a janela do navegador (se precisar de ajuda, consulte as [instruções do GitHub](https://help.github.com/articles/adding-a-file-to-a-repository/)). Por fim, clique no botão verde "Commit changes"; não precisa de alterar a mensagem padrão.
-4. Pode ter algumas imagens que acompanham a lição. Nesse caso, verifique se todos os ficheiros são nomeados adequadamente, de acordo com as nossas regras de nomenclatura definidas na [pasta de imagens](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images) do repositório [ph-submissions]. Clique na pasta com o mesmo nome da lição (criada pelo seu editor; se não a encontrar, entre em contato com o editor e aguarde instruções) e arraste e solte todos os seus ficheiros de imagens na janela do navegador, conforme descrito na na etapa 3. Não pode arrastar uma pasta de imagens, mas pode arrastar vários ficheiros de uma só vez.
+2. Enviar um e-mail ao editor com o seu novo nome de usuário no GitHub e o nome da lição a ser traduzida. O editor vai adicioná-lo como **colaborador** no repositório [ph-submissions](https://github.com/programminghistorian/ph-submissions). Depois poderá fazer alterações diretas no repositório [ph-submissions](https://github.com/programminghistorian/ph-submissions), incluindo adicionar, editar, remover e renomear ficheiros. O editor também criará uma pasta com o mesmo nome da sua lição na pasta de imagens. (Se tiver outros ficheiros de dados a vincular ao tutorial pergunte ao editor sobre eles.)
+3. Depois do editor confirmar que já está como colaborador, já vai conseguir navegar até à pasta `pt/licoes/traducoes` do repositório [ph-submissions](https://github.com/programminghistorian/ph-submissions). Em seguida, arraste e solte o arquivo markdown da sua lição do seu computador para a janela do navegador (se precisar de ajuda, consulte as [instruções do GitHub](https://help.github.com/articles/adding-a-file-to-a-repository/)). Por fim, clique no botão verde "Commit changes"; não precisa de alterar a mensagem padrão.
+4. Pode ter algumas imagens que acompanham a lição. Nesse caso, verifique se todos os ficheiros são nomeados adequadamente, de acordo com as nossas regras de nomenclatura definidas na [pasta de imagens](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images) do repositório [ph-submissions](https://github.com/programminghistorian/ph-submissions). Clique na pasta com o mesmo nome da lição (criada pelo seu editor; se não a encontrar, entre em contato com o editor e aguarde instruções) e arraste e solte todos os seus ficheiros de imagens na janela do navegador, conforme descrito na na etapa 3. Não pode arrastar uma pasta de imagens, mas pode arrastar vários ficheiros de uma só vez.
 5. Pré-visualizar a lição! Aguarde alguns minutos (geralmente menos) para o GitHub converter o seu ficheiro Markdown em HTML e torná-lo numa página web. Em seguida, basta experimentar o link `http://programminghistorian.github.io/ph-submissions/pt/esbocos/traducoes` + `NOME-DA-SUA-LICAO` mas substitua NOME-DA-SUA-LICAO pelo nome do seu ficheiro de tradução).
 6. Informar o editor que os ficheiros da lição estão no repositório ph-submissions (os editores recebem uma notificação, mas é mais seguro que sejam avisados).
 
@@ -50,7 +50,7 @@ A melhor maneira para enviar uma tradução é adicioná-la diretamente ao repos
 ### Tradução enviada! E agora?
 Para ver o que acontece após o envio de uma tradução, consulte as [Directrizes para Editores]({{site.baseurl}}/pt/directrizes-editor), que detalham o nosso processo editorial. Os pontos essenciais  estão abaixo:
 
-A etapa seguinte mais importante é que seu editor crie um ticket para a nova tradução no repositório [ph-submissions], com um link para a sua lição (que visualizou na etapa 5). O editor e pelo menos dois revisores (convidados pelo editor) irão comentar.
+A etapa seguinte mais importante é que seu editor crie um ticket para a nova tradução no repositório [ph-submissions](https://github.com/programminghistorian/ph-submissions), com um link para a sua lição (que visualizou na etapa 5). O editor e pelo menos dois revisores (convidados pelo editor) irão comentar.
 
 ### Aguardar comentários do revisor
 O nosso objetivo é concluir o processo de revisão dentro de quatro semanas, mas às vezes ocorrem atrasos ou as pessoas ficam ocupadas, pelo que o processo pode demorar mais do que esperávamos.
