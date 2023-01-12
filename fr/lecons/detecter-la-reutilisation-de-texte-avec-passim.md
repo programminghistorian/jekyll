@@ -4,6 +4,7 @@ collection: lessons
 layout: lesson
 slug: detecter-la-reutilisation-de-texte-avec-passim
 date: 2021-05-16
+modified: 2023-01-06
 authors:
 - Matteo Romanello
 - Simon Hengchen
@@ -34,7 +35,7 @@ Dans cette leçon, vous serez initié(e) à la détection automatique de la réu
 
 Cette leçon s'adresse aux personnes dont le travail relève des humanités numériques (HN). Aucune connaissance préalable de la réutilisation de texte n'est requise, toutefois, il est nécessaire d'avoir une compréhension basique de [l'usage de l'environnement bash](https://fr.wikipedia.org/wiki/Bourne-Again_shell) et du langage Python, ainsi que de certaines opérations de manipulation de données. Si vous souhaitez compléter vos connaissances concernant l'utilisation du bash et de [Python](https://fr.wikipedia.org/wiki/Python_(langage)), référez-vous aux tutoriels du *Programming Historian* suivants qui offrent une [introduction au bash](/en/lessons/intro-to-bash) et à la [collection de tutoriels sur Python](/fr/lecons/?topic=python).
 
-Plus particulièrement, la leçon donne un aperçu de [Passim](https://github.com/dasmiq/Passim), un outil open source conçu pour la détection automatique de la réutilisation de texte. Bien que cet outil ait été employé dans des projets HN, grands comme petits, une documentation destinée aux utilsateurs et utilisatrices pour une prise en main facile, avec des exemples et des instructions, fait défaut. Ainsi, nous visons à combler cette lacune grâce à cetter leçon du *Programming Historian*.
+Plus particulièrement, la leçon donne un aperçu de [Passim](https://github.com/dasmiq/passim), un outil open source conçu pour la détection automatique de la réutilisation de texte. Bien que cet outil ait été employé dans des projets HN, grands comme petits, une documentation destinée aux utilsateurs et utilisatrices pour une prise en main facile, avec des exemples et des instructions, fait défaut. Ainsi, nous visons à combler cette lacune grâce à cetter leçon du *Programming Historian*.
 
 # Introduction à la réutilisation de texte
 
@@ -47,7 +48,7 @@ La liste ci-dessous présente une partie des outils qui permettent de détecter 
 - [Basic Local Alignment Search Tool (BLAST)](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
 - [Tesserae](https://github.com/tesserae/tesserae) (PHP, Perl)
 - [TextPAIR (Pairwise Alignment for Intertextual Relations)](https://github.com/ARTFL-Project/text-pair)
-- [Passim](https://github.com/dasmiq/Passim) (Scala) développé par [David Smith](http://www.ccs.neu.edu/home/dasmith/
+- [Passim](https://github.com/dasmiq/passim) (Scala) développé par [David Smith](http://www.ccs.neu.edu/home/dasmith/
   ) (Université Northeastern)
 
 Pour ce tutoriel, nous avons choisi de nous concentrer sur la bibliothèque Passim et cela pour trois raisons principales. Premièrement, car celle-ci peut être adaptée à une grande variété d'utilisation, puisqu'elle fonctionne autant sur une petite collection de texte que sur un corpus de grande échelle. Deuxièmement, parce que, bien que la documentation au sujet de Passim soit exhaustive, du fait que ses utilisateurs soient relativement avancés, un guide &laquo;&#x202F;pas-à-pas&#x202F;&raquo; de la détection de la réutilisation de texte avec Passim plus axé sur l'utilisateur serait bénéfique pour l'ensemble de la communauté. Enfin, les exemples suivants illustrent la variété de scénarios dans lesquels la réutilisation de texte est une méthodologie utile :
@@ -81,11 +82,13 @@ Mais pourquoi toutes ces dépendances sont-elles nécessaires ?
 
 Passim est écrit dans un langage de programmation appelé Scala. Pour exécuter un logiciel écrit en Scala, ses sources doivent être compilées en un fichier JAR exécutable, ce qui est réalisé par ```sbt```, l'outil de compilation interactif de Scala. Enfin, puisque Passim est conçu pour travailler également sur des grandes collections de textes (avec plusieurs milliers ou millions de documents), il utilise en coulisse Spark, un framework de calcul en cluster qui est écrit en Java. L'utilisation de Spark permet à Passim de gérer le traitement distribué de certaines parties du code, ce qui est utile lors de la manipulation de grandes quantités de données. Le [Spark glossary](https://spark.apache.org/docs/latest/cluster-overview.html#glossary) est une ressource utile pour apprendre la terminologie de base de Spark (des mots comme &laquo;&#x202F;driver&#x202F;&raquo;, &laquo;&#x202F;executor&#x202F;&raquo;, etc.), toutefois apprendre cette terminologie n’est pas indispensable si vous exécutez Passim sur un petit ensemble de données.
 
-Avant d’installer cet ensemble de logiciel, vous aurez besoin de télécharger le code source de Passim depuis GitHub :
+Avant d’installer cet ensemble de logiciels, vous aurez besoin de télécharger le code source de la version 1 de Passim depuis GitHub :
 
 ```bash
->>> git clone https://github.com/dasmiq/passim.git
+>>> git clone https://github.com/dasmiq/passim.git --branch v1.0.0
 ```
+
+ou téléchargez le code source [depuis la page de la version v1.0](https://github.com/dasmiq/passim/releases/tag/v1.0.0).
 
 Si vous n’êtes pas familier avec Git et Github, nous vous recommandons de lire la leçon du *Programming Historian* qui offre une introduction [à la gestion de versions Git avec l'application GitHub Desktop](https://doi.org/10.46430/phen0051).
 
@@ -669,7 +672,7 @@ Paramètre | Valeur par défaut | Description | Explication
 `--minDF` (`-l`) | 2 | Limite inférieure de la fréquence de document des n-grammes utilisés | Puisque les n-grammes sont utilisés dans Passim pour retrouver des paires de documents candidats, un n-gramme n'apparaissant qu'une seule fois n'est pas utile, car il ne retrouvera qu'un seul document (et non une paire). Pour cette raison, la valeur par défaut de `--minDF` est de `2`.
 `--maxDF` (`-u`)| 100 | Limite supérieure de la fréquence du document pour les n-grammes utilisés. | Ce paramètre permettra de filtrer les n-grammes trop fréquents, donc apparaissant de nombreuses fois dans un document donné. <br /><br />Cette valeur a un impact sur les performances, car elle va réduire le nombre de paires de documents récupérés par Passim qui devront être comparés.
 `--min-match` (`-m`)| 5 | Nombre minimum de n-grammes correspondants entre deux documents | Ce paramètre vous permet de décider combien de n-grammes doivent être trouvés entre deux documents.
-`--relative-overlap` (`-o`)| 0.8 | Proportion, mesurée sur le passage le plus long, que deux passages alignés différents du même document doivent se chevaucher pour être regroupés. <!-- TODO SH: Current mismatch between official doc and code, see what is going to be changed after David answers to this issue https://github.com/dasmiq/Passim/issues/10 --> | Ce paramètre détermine le degré de similarité des chaînes de caractères que deux passages doivent avoir pour être regroupés.<br /><br />Dans le cas de textes bruités, il peut être préférable de fixer ce paramètre à une valeur plus petite.
+`--relative-overlap` (`-o`)| 0.8 | Proportion, mesurée sur le passage le plus long, que deux passages alignés différents du même document doivent se chevaucher pour être regroupés. <!-- TODO SH: Current mismatch between official doc and code, see what is going to be changed after David answers to this issue https://github.com/dasmiq/passim/issues/10 --> | Ce paramètre détermine le degré de similarité des chaînes de caractères que deux passages doivent avoir pour être regroupés.<br /><br />Dans le cas de textes bruités, il peut être préférable de fixer ce paramètre à une valeur plus petite.
 `--max-repeat` (`-r`)| 10 | Répétition maximale d'une série dans un cluster | Ce paramètre vous permet de préciser la quantité potentiellement présente d'une série donnée dans un cluster.
 
 
