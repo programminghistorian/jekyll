@@ -236,7 +236,7 @@ Les majuscules sont aussi concernées par les accents, le tréma ou la cédille,
 	* Les **saisons** (exemple&#x202F;: le printemps)
 	* Les **monnaies** (exemple&#x202F;: trois livres tournois)
 
-Pour plus de précisions, vous pouvez consulter la banque de dépannage linguistique de l'Office québécois de la langue française, avec une liste de l'emploi de la majuscule pour des [types de dénominations](https://vitrinelinguistique.oqlf.gouv.qc.ca/21201/la-typographie/majuscules/emploi-de-la-majuscule-pour-des-types-de-denominations/majuscule-aux-noms-dententes-juridiques-et-politiques) et une autre pour les [noms particuliers](https://vitrinelinguistique.oqlf.gouv.qc.ca/25457/la-typographie/majuscules/emploi-de-la-majuscule-pour-des-noms-particuliers/emploi-de-la-majuscule-pour-les-noms-plan-politique-programme-et-strategie).  
+Pour plus de précisions, vous pouvez consulter la banque de dépannage linguistique de l'Office québécois de la langue française, avec une liste de l'emploi de la majuscule pour des [types de dénominations](https://vitrinelinguistique.oqlf.gouv.qc.ca/la-typographie/majuscules/emploi-de-la-majuscule-pour-des-types-de-denominations) et une autre pour les [noms particuliers](https://vitrinelinguistique.oqlf.gouv.qc.ca/la-typographie/majuscules/emploi-de-la-majuscule-pour-des-noms-particuliers).  
 
 ### Références bibliographiques  
 *   Pour les notes de fin, merci d'utiliser le style de citation [*The Chicago Manual of Style*, 17e édition](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html) adapté aux règles typographiques de la langue française.
