@@ -21,10 +21,10 @@ A tradução de uma lição envolve as seguinte atividades:
 - tradução do corpo textual principal da lição;
 - traduzir termos e exemplos de código, se possível;
 - se uma lição usar software com uma interface disponível no idioma de destino, os termos técnicos relacionados com o software usados ​​no texto (entradas de menu, botões etc.) também devem ser traduzidos;
-- tradução de títulos e legendas das imagens. Em alguns casos, novas imagens têm de ser  produzidas, por exemplo, se um exercício usa software com uma interface que pode ser alterada para o idioma de destino
+- tradução de títulos e legendas das imagens. Em alguns casos, novas imagens têm de ser  produzidas, por exemplo, se um exercício usa software com uma interface que pode ser alterada para o idioma de destino;
 - adaptar os links e notas fornecidos no texto original para se ajustarem ao novo contexto linguístico, sempre que possível; por exemplo, links para a  documentação do software, artigos  da Wikipedia etc., se esses recursos forem fornecidos no idioma de destino.
 
-Ao realizar a tradução é importante ter em conta uma audiência global da comunidade de língua portuguesa. Para questões de estilo e escolha da linguagem, consulte as [Directrizes para Autores]({{site.baseurl}}/pt/directrizes-autor).
+Ao realizar a tradução é importante ter em conta uma audiência global da comunidade de língua portuguesa. Para questões de estilo e escolha da linguagem, tenha em consideração a [compatibilização e o glossário](https://github.com/programminghistorian/jekyll/wiki/Achieving-Sustainability-Agreed-terminology-PH-em-portugu%C3%AAs) desenvolvido pela equipe.
 
 Todas as nossas lições também devem ser escritas em Markdown e seguir as nossas Directrizes técnicas de formatação, também disponíveis nas [Directrizes para Autores]({{site.baseurl}}/pt/directrizes-autor).
 
