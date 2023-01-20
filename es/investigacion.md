@@ -142,7 +142,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 [Review of the Programming Historian]: https://academic.oup.com/jah/article-abstract/103/1/299/1751315
 [Review of the Programming Historian]: http://jitp.commons.gc.cuny.edu/review-of-the-programming-historian
-['Identifying and Removing Gender Barriers in Open Learning Communities: The Programming Historian']: http://researchprofiles.herts.ac.uk/portal/files/10476604/Blip_2016_Autumn_2016_Final_Autumn_2016.pdf
+['Identifying and Removing Gender Barriers in Open Learning Communities: The Programming Historian']: https://www.herts.ac.uk/__data/assets/pdf_file/0016/138013/Blip-2016-Autumn-2016-Final-Autumn-2016.pdf
 ['pre-print pdf']: /researchpapers/openLearningCommunities2016.pdf
 [Editorial Sustainability and Open Peer Review at Programming Historian]: http://web.archive.org/web/20180713014622/http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian
 ['Digital Project Consultations']: https://dhatasa2015.wordpress.com/
