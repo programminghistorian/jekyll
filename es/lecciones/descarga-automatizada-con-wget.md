@@ -180,7 +180,7 @@ Deberás haber instalado wget.
 
 ### Instrucciones para Windows
 
-La forma más fácil es descargar una versión funcional. Para hacerlo, visita [este sitio web](https://eternallybored.org/misc/wget/) y descarga `wget.exe`. Al momento de escribir este tutorial es la versión 1.17.1, y debe descargar el archivo binario de 32 bits. El archivo es el segundo enlace en la columna binaria de 32 bits, titulada simplemente `wget.exe`.
+La forma más fácil es descargar una versión funcional. Para hacerlo, visita [este sitio web](https://eternallybored.org/misc/wget/) y descarga la última versión de `wget.exe` utilizando los archivos de instalación adecuados para su ordenador. Puedes averiguar si necesitas el binario de 32 o 64 bits comprobando las especificaciones de tu dispositivo o realizando una búsqueda en Internet.
 
 Si colocas `wget.exe` en tu directorio `C:\Windows`, puedes usar wget desde cualquier lugar de tu computadora. Esto hará tu vida más fácil ya que no tendrás que preocuparte por ejecutar siempre wget desde un solo lugar en tu sistema. Si está en este directorio, Windows sabrá que el comando se puede usar en cualquier parte en el que se encuentra la ventana de tu terminal.
 
