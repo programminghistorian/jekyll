@@ -48,7 +48,7 @@ Esta primeira seção trata de questões gerais sobre o estilo, que ajudarão a 
 *	As lições não devem exceder 8.000 palavras (incluindo código).
 *	O tom deve ser formal, mas acessível.
 *	O leitor deve ser tratado na segunda pessoa.
-*	Utilize um estilo de português genérico, que se adapte tanto ao português europeu quanto ao brasileiro.
+*	Utilize um estilo de português genérico, que se adapte tanto ao português europeu quanto ao brasileiro. Por favor, tenha em consideração a [compatibilização e o glossário](https://github.com/programminghistorian/jekyll/wiki/Achieving-Sustainability-Agreed-terminology-PH-em-portugu%C3%AAs) desenvolvido pela equipe.
 *	A sua contribuição é um "tutorial" ou uma "lição" e não um "artigo".
 
 ### Código aberto, Acesso aberto
