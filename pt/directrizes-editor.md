@@ -390,8 +390,10 @@ Se a lição foi escrita por um autor novo, o editor-chefe deve adicionar inform
 
 ## 5) Confirmar se todos os links e cabeçalhos YAML funcionam corretamente
 
-Depois de enviar as alterações para o ramo `gh-pages` do repositório [programminghistorian](https://github.com/programminghistorian/jekyll), o site será automaticamente testado pelo GitHub Actions.
+Depois de enviar as alterações para o ramo `gh-pages` do repositório [programminghistorian](https://github.com/programminghistorian/jekyll), o site será automaticamente testado pelo [GitHub Actions].
 O processo de teste verifica três coisas: primeiro, se todo o código YAML e markdown está legível; segundo, que todos os hiperlinks apontam para páginas operacionais válidas; e terceiro, que os links internos para páginas no *Programming Historian em português* são todos links relativos que começam com / em vez de https://programminghistorian.org/pt.
+
+[GitHub Actions]: https://github.com/features/actions
 
 [ph_repo]: https://github.com/programminghistorian/jekyll
 
