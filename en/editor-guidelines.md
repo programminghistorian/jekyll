@@ -393,7 +393,7 @@ This test process checks three things: first, that all YAML and markdown code is
 
 [ph_repo]: https://github.com/programminghistorian/jekyll
 
-[GitHub Actions]: [https://travis-ci.org](https://github.com/features/actions)
+[GitHub Actions]: https://github.com/features/actions
 
 We run these builds primarily to check that URLs that _once_ were functional are _still_ functional, as often times external web pages are moved to new addresses, or are no longer live.
 They are also an excellent way to catch small typos that may have evaded authors, editors, and reviewers.
