@@ -321,6 +321,7 @@ Puedes buscar imágenes en los recursos siguientes:
 
  - [Europeana](http://www.europeana.eu/portal/en)
  - [British Library](https://www.flickr.com/photos/britishlibrary)
+ - [Internet Archive Book Images](https://archive.org/details/bookimages)
  - [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
@@ -409,26 +410,24 @@ Si la lección ha sido escrita por un nuevo autor, el jefe de redacción debe a�
 ```
 
 ### 5) Confirma que todos los enlaces y encabezados YAML funcionen correctamente
-Una vez que envíes tus cambios a la rama `gh-pages` del repositorio de [Programminghistorian][ph_repo], el sitio será comprobado automáticamente por [Travis CI] ([Continuous Integration]).
+Una vez que envíes tus cambios a la rama `gh-pages` del repositorio de [Programminghistorian][ph_repo], el sitio será comprobado automáticamente por [GitHub Actions].
 
 Este proceso comprueba tres cosas: primero, que todo el código de YAML y markdown sea compilable; segundo, que todos los hipervínculos del sitio apunten a páginas válidas y en funcionamiento; por último, que todos los hipervínculos internos a otras páginas de _The Programming Historian en español_ son relativos y empiezan con una barra lateral `/` en lugar de `https://programminghistorian.org/es`.
 
 [ph_repo]: https://github.com/programminghistorian/jekyll
 
-[Travis CI]: https://travis-ci.org
-
-[Continuous Integration]: https://www.thoughtworks.com/continuous-integration
+[GitHub Actions]: https://github.com/features/actions
 
 Ejecutamos estas compilaciones principalmente para comprobar que las URL que _alguna vez_ funcionaron _siguen_ funcionando, ya que muchas veces las páginas web externas se mueven a nuevas direcciones o ya no están en línea.
 
 También son una excelente manera de detectar errores tipográficos pequeños que pueden haber pasado por alto autores, editores y revisores.
-El estado de estas pruebas (a menudo llamado "Estado de compilación" (_"Build Status"_) en Travis CI y en GitHub) se puede ver navegando a la página del repositorio [php_repo- sitory] [ph_repo] y haciendo clic en "Commits" en la parte superior izquierda del menú de código.
+El estado de estas pruebas (a menudo llamado "Estado de compilación" (_"Build Status"_) en GitHub) se puede ver navegando a la página del repositorio [php_repo- sitory] [ph_repo] y haciendo clic en "Commits" en la parte superior izquierda del menú de código.
 
 ![GitHub commit menu location](/images/editor-guidelines/gh_commits_location_screen.png)
 
 Esto te mostrará la lista de cada cambio realizado en el repositorio principal, junto con un icono de estado:
 
-- Marca de verificación verde: ¡es correcto! Todos los enlaces de la página fueron revisados y son válidos. [**Puedes saltar el resto de esta sección.**](#11-da-las-gracias-a-todo-el-mundo-y-difunde-el-tutorial)
+- Marca de verificación verde: ¡es correcto! Todos los enlaces de la página fueron revisados y son válidos. [**Puedes saltar el resto de esta sección.**](#6-informa-al-editor)
 - Círculo amarillo: la última modificación que hiciste está aún compilándose. Espera uno o dos minutos y revísala de nuevo.
 - Una X roja: hay un error en la compilación.
 
@@ -436,16 +435,16 @@ En caso de error, debes consultar la bitácora de compilación (*Build logs*) pa
 
 1. Haz clic en la X roja de la más reciente modificación (la que está más cerca de la parte de arriba de la página), y haz clic en el vínculo "Details".
 ![Travis details location](/images/editor-guidelines/commit_list_screen.png)
-2. Esto te llevará a la página de la bitácora de compilación en Travis CI. Las bitácoras de compilación contienen generalmente cientos de líneas, pero la información sobre el error que estamos buscando estará al final. Haz clic en el pequeño círculo gris de la parte superior derecha para desplazarte hacia abajo.
+2. Esto te llevará a la página de la bitácora de compilación en GitHub Actions. Las bitácoras de compilación contienen generalmente cientos de líneas, pero la información sobre el error que estamos buscando estará al final. Haz clic en el pequeño círculo gris de la parte superior derecha para desplazarte hacia abajo.
 ![The top of the Travis CI build screen](/images/editor-guidelines/travis_top_screen.png)
-3. Verás dos tipos de errores: primero, si la página carece de un campo YAML (por ejemplo, si la lección no tiene el campo `editors`) el error estará marcado en rojo. Los errores en los vínculos externos también se enlistan en rojo, agrupados por la página en la que aparecen. Si algún vínculo en tu nueva lección causa error, regresa y confirma que no hay errores de escritura. Si los hay, haz las correcciones necesarias, envía las modificaciones al repositorio y espera a que Travis CI corra las pruebas de nuevo.
+3. Verás dos tipos de errores: primero, si la página carece de un campo YAML (por ejemplo, si la lección no tiene el campo `editors`) el error estará marcado en rojo. Los errores en los vínculos externos también se enlistan en rojo, agrupados por la página en la que aparecen. Si algún vínculo en tu nueva lección causa error, regresa y confirma que no hay errores de escritura. Si los hay, haz las correcciones necesarias, envía las modificaciones al repositorio y espera a que GitHub Actions corra las pruebas de nuevo.
 ![Locating error details in Travis CI build results](/images/editor-guidelines/travis_bottom_screen.png)
 
-- Hay ocasiones en las que Travis CI considera que un vínculo contiene un error, pero éste funciona correctamente cuando accedes a él con tu navegador de internet. Si esto ocurre, por favor, [abre un nuevo tícket] para que un miembro del equipo técnico pueda revisar el problema y encontrar una solución.
-- Como parte de su operación normal, ocasionalmente Travis CI regresa y revisa viejos vínculos por todo el sitio, incluyendo lecciones publicadas hace tiempo. De tal manera, mientras revisas tu trabajo podrías encontrar un error causado por otra página, no por tu lección. Si sabes la manera de arreglar inmediatamente el error, por favor hazlo, y espera a que el compilador vuelva a correr. Si no tienes tiempo para darle seguimiento, solamente asegúrate de que no existen errores de vínculos relacionados a tu lección y [abre un nuevo tícket] para que alguien del equipo técnico pueda revisar el problema.
+- Hay ocasiones en las que GitHub Actions considera que un vínculo contiene un error, pero éste funciona correctamente cuando accedes a él con tu navegador de internet. Si esto ocurre, por favor, [abre un nuevo tícket] para que un miembro del equipo técnico pueda revisar el problema y encontrar una solución.
+- Como parte de su operación normal, ocasionalmente GitHub Actions regresa y revisa viejos vínculos por todo el sitio, incluyendo lecciones publicadas hace tiempo. De tal manera, mientras revisas tu trabajo podrías encontrar un error causado por otra página, no por tu lección. Si sabes la manera de arreglar inmediatamente el error, por favor hazlo, y espera a que el compilador vuelva a correr. Si no tienes tiempo para darle seguimiento, solamente asegúrate de que no existen errores de vínculos relacionados a tu lección y [abre un nuevo tícket] para que alguien del equipo técnico pueda revisar el problema.
 
 [abre un nuevo ticket]: https://github.com/programminghistorian/jekyll/issues/new
 
-### 5) Informa al editor
+### 6) Informa al editor
 
 Una vez que la lección haya sido publicada, informe al editor y asegúrate de que hayan añadido la lección al twitter bot.

@@ -289,6 +289,7 @@ We represent our lessons using an old image that we feel captures some element o
 Here are a few places to look for lesson images:
 
  - The [British Library](https://www.flickr.com/photos/britishlibrary)
+ - The [Internet Archive Book Images](https://archive.org/details/bookimages)
  - The [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - The [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
@@ -387,24 +388,22 @@ If the lesson has been written by a new author, the managing editor should add i
 
 ## 5) Confirm all links and YAML headers are functioning correctly
 
-Once you push your changes on to the `gh-pages` branch of the [programminghistorian][ph_repo] repository, the site will be automatically tested by [Travis CI] ([Continuous Integration]).
+Once you push your changes on to the `gh-pages` branch of the [programminghistorian][ph_repo] repository, the site will be automatically tested by [GitHub Actions].
 This test process checks three things: first, that all YAML and markdown code is parseable; second, that all the hyperlinks on the site point to valid, operational pages; and third, that internal links to pages on the _Programming Historian_ are all relative links that start with `/` rather than `https://programminghistorian.org/`
 
 [ph_repo]: https://github.com/programminghistorian/jekyll
 
-[Travis CI]: https://travis-ci.org
-
-[Continuous Integration]: https://www.thoughtworks.com/continuous-integration
+[GitHub Actions]: https://github.com/features/actions
 
 We run these builds primarily to check that URLs that _once_ were functional are _still_ functional, as often times external web pages are moved to new addresses, or are no longer live.
 They are also an excellent way to catch small typos that may have evaded authors, editors, and reviewers.
-The status of these tests (often called a "Build Status" on Travis CI and on GitHub) can be seen by navigating to the [programminghistorian repository page][ph_repo], and clicking "Commits" on the upper left side of the code menu.
+The status of these tests (often called a "Build Status" on GitHub) can be seen by navigating to the [programminghistorian repository page][ph_repo], and clicking "Commits" on the upper left side of the code menu.
 
 ![GitHub commit menu location](/images/editor-guidelines/gh_commits_location_screen.png)
 
 This will show you the list of every change made to the main repository, along with a status icon:
 
-- Green check mark: you're good to go! All the links on the page were checked and found valid. [**You may skip the rest of this section.**](#11-thank-everyone-and-encourage-promotion)
+- Green check mark: you're good to go! All the links on the page were checked and found valid. [**You may skip the rest of this section.**](#6-inform-the-editor)
 - Yellow circle: your latest commit is still building. Wait 1-2 minutes and then check back.
 - Red X: there was an error in the build.
 
@@ -412,13 +411,13 @@ If your build has errored, you will need to consult the build logs to see what i
 
 1. Click on the red X for the most recent commit (the one nearest the top of the page), and click on the "Details" link.
 ![Travis details location](/images/editor-guidelines/commit_list_screen.png)
-2. This will bring you to the build log page on Travis CI. Build logs are usually several hundred lines long, but the error information we are looking for will be at the bottom. Click on the small gray circle at the upper right of the log display to scroll to the bottom.
+2. This will bring you to the build log page on GitHub Actions. Build logs are usually several hundred lines long, but the error information we are looking for will be at the bottom. Click on the small gray circle at the upper right of the log display to scroll to the bottom.
 ![The top of the Travis CI build screen](/images/editor-guidelines/travis_top_screen.png)
-3. You may see two types of errors: first, if a page is missing a required YAML field (e.g. if a lesson does not have an `editors` field) then this will be marked in red. Failing links will be also be listed in red, grouped by the page they appeared in. If any links in your new lesson are causing errors, go back and double check that they do not have any typos. If they do, then make any necessary corrections and commit the changes to the repository, and wait for Travis CI to run its tests again.
+3. You may see two types of errors: first, if a page is missing a required YAML field (e.g. if a lesson does not have an `editors` field) then this will be marked in red. Failing links will be also be listed in red, grouped by the page they appeared in. If any links in your new lesson are causing errors, go back and double check that they do not have any typos. If they do, then make any necessary corrections and commit the changes to the repository, and wait for GitHub Actions to run its tests again.
 ![Locating error details in Travis CI build results](/images/editor-guidelines/travis_bottom_screen.png)
 
-- There are some rare circumstances in which a link will be failed by Travis CI, but will work perfectly fine when you navigate to it in your own Internet browser. If this occurs, [create a new issue] so that one of the members of the technical team can review the problem and find a workaround.
-- As part of its normal operations, Travis CI will occasionally go back and re-check old links across this entire site, including old lessons. Therefore, you may see an error being caused not by your lesson, but by another page. If you can see how to immediately fix those errors on other pages, please do so, and then wait for the build to re-run. If you do not have the time to track down those other broken links, first ensure that there are no error links coming from your new lesson, and then [create a new issue] so that someone else on the technical team can review the problem.
+- There are some rare circumstances in which a link will be failed by GitHub Actions, but will work perfectly fine when you navigate to it in your own Internet browser. If this occurs, [create a new issue] so that one of the members of the technical team can review the problem and find a workaround.
+- As part of its normal operations, GitHub Actions will occasionally go back and re-check old links across this entire site, including old lessons. Therefore, you may see an error being caused not by your lesson, but by another page. If you can see how to immediately fix those errors on other pages, please do so, and then wait for the build to re-run. If you do not have the time to track down those other broken links, first ensure that there are no error links coming from your new lesson, and then [create a new issue] so that someone else on the technical team can review the problem.
 
 [create a new issue]: https://github.com/programminghistorian/jekyll/issues/new
 
