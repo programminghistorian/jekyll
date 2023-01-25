@@ -9,7 +9,7 @@ title: Name your issue
 - [ ] **Specific** Which specific area of the project will this work improve? Which need will this meet?
 - [ ] **Measurable** How can progress be measured or quantified?
 - [ ] **Attainable** What can be achieved using available resources?
-- [ ] **Relevant** How does this work contribute towards our broader shared objectives?
+- [ ] **Relevant** How does this work contribute to our broader shared objectives?
 - [ ] **Time-Bound** Can you estimate a deadline or define an end-point?
 
 ## If you are reporting a problem with a lesson, please try to provide us with the following information:  
@@ -17,7 +17,7 @@ title: Name your issue
 - [ ] The full title of the lesson
 - [ ] The system you are using (Mac, Linux, Windows)
 - [ ] Version numbers of the relevant software you are using
-- [ ] The exact steps you took that caused the problem.
+- [ ] The exact steps you took that caused the problem
 
 ## If you are reporting a technical problem in the Programming Historian site or in the repository, please try to provide us with the following information:
 
