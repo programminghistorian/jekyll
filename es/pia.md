@@ -35,8 +35,6 @@ _Nivel Silver_
 
 Las tasas vencen anualmente a partir de la fecha del primer pago y se establecen en enero de cada año. Para una estimación en otra moneda, envía un correo electrónico a <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
 
-[^1]: Los eventos de _Programming Historian_ tienen inscripciones abiertas, con plazas reservadas para nuestros colaboradores del nivel Gold. Se desarrollarán hasta dos eventos al año con los miembros de esta categoría. Las oportunidades de desarrollo de eventos y las plazas reservadas sólo se aplicarán durante el periodo de afiliación a la categoría Gold. La decisión final sobre la composición, el formato, la duración y el calendario de todos los eventos de ProgHist Ltd organizados como parte del programa Gold Tier queda a discreción de ProgHist Ltd.
-
 ## Beneficios de asociación
 
 Al unirte al Programa de Instituciones Asociadas recibirás los siguientes beneficios:
@@ -97,3 +95,8 @@ Estaremos encantados de conversar sobre lo que hacemos y cómo utilizamos tu apo
    - No, no rastreamos a los usuarios de esa manera y no tenemos un sistema de inicio de sesión para nuestros lectores.
 3. ¿Se utilizará mi contribución en una publicación de mi elección?
    - Los patrocinadores contribuyen a la infraestructura compartida utilizada en todas nuestras publicaciones. Al convertirse en patrocinador de PIA, fortalece los recursos en el idioma que eligiste, así como en el resto idiomas que ofrecemos.
+
+---
+
+[^1]: Los eventos de _Programming Historian_ tienen inscripciones abiertas, con plazas reservadas para nuestros colaboradores del nivel Gold. Se desarrollarán hasta dos eventos al año con los miembros de esta categoría. Las oportunidades de desarrollo de eventos y las plazas reservadas sólo se aplicarán durante el periodo de afiliación a la categoría Gold. La decisión final sobre la composición, el formato, la duración y el calendario de todos los eventos de ProgHist Ltd organizados como parte del programa Gold Tier queda a discreción de ProgHist Ltd.  
+    
