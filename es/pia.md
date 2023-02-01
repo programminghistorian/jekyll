@@ -21,6 +21,7 @@ Al unirte a nuestro Programa de Instituciones Asociadas, tu institución estará
 Tasas de asociación :
 
 _Nivel Gold_
+
 Las tarifas para nuestros colaboradores en nivel Gold son de £3.000 GBP, $4.200 USD, €3.600 EUR, $5.100 CAD. Como parte de la membresía, se les ofrece la oportunidad de trabajar con nosotros en el desarrollo de eventos que ayuden a sus comunidades a utilizar herramientas y métodos de las humanidades digitales.
 
 _Nivel Silver_
