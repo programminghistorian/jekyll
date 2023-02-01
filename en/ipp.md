@@ -32,7 +32,7 @@ _Silver Partnership_
 
 Rates are due annually from the date of first payment and are set in January each year. For a quote in another currency please email <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
 
-[^1] _Programming Historian_ events have open registrations, with places reserved for Gold Tier members. Up to two events each year will be developed with Gold Tier members. Event development opportunities and reserved places only apply during the period of Gold Tier membership. The final decision as to the composition, format, duration, and timing of all ProgHist Ltd events delivered as part of the Gold Tier scheme is at the discretion of ProgHist Ltd.
+[^1]: _Programming Historian_ events have open registrations, with places reserved for Gold Tier members. Up to two events each year will be developed with Gold Tier members. Event development opportunities and reserved places only apply during the period of Gold Tier membership. The final decision as to the composition, format, duration, and timing of all ProgHist Ltd events delivered as part of the Gold Tier scheme is at the discretion of ProgHist Ltd.
 
 ## Benefits of Membership
 
