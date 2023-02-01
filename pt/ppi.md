@@ -37,9 +37,6 @@ Se a sua instituição tem recursos para nos oferecer um suporte ainda maior, ta
 
 As taxas são anuais e consideramos a contagem a partir da data do primeiro pagamento. Os valores são definidos em Janeiro de cada ano. Para uma cotação em outra moeda, por favor, envie um e-mail para [Dr. James Baker](mailto:programminghistorian@gmail.com).
 
-[^1]: Os eventos de _Programming Historian_ são de inscrição aberta, com lugares reservados para os nossos apoiadores de nível Gold. Serão desenvolvidos até dois eventos por ano com apoiadores de nível Gold. Oportunidades de desenvolvimento de eventos e lugares reservados só se aplicarão durante o período de filiação de nível Gold. A decisão final sobre a composição, formato, duração e calendário de todos os eventos ProgHist Ltd. organizados no âmbito do programa Gold fica ao critério da ProgHist Ltd.
-
-
 ## Benefícios da adesão
 
 Ao aderir ao Programa de Parceiros Institucionais receberá os seguintes benefícios:
@@ -83,3 +80,7 @@ Teremos prazer em conversar sobre o que fazemos e como usamos o seu apoio. [Envi
 
 3.  A minha contribuição será usada em uma publicação de minha escolha?
        -   Os patrocinadores contribuem para a infraestrutura compartilhada usada em todas as nossas publicações. Ao se tornar um patrocinador do PPI, você fortalece os recursos no idioma escolhido, bem como em toda a nossa oferta.
+
+---
+
+[^1]: Os eventos de _Programming Historian_ são de inscrição aberta, com lugares reservados para os nossos apoiadores de nível Gold. Serão desenvolvidos até dois eventos por ano com apoiadores de nível Gold. Oportunidades de desenvolvimento de eventos e lugares reservados só se aplicarão durante o período de filiação de nível Gold. A decisão final sobre a composição, formato, duração e calendário de todos os eventos ProgHist Ltd. organizados no âmbito do programa Gold fica ao critério da ProgHist Ltd.
