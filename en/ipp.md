@@ -19,7 +19,7 @@ Joining our Institutional Partner Programme allows your institution to support a
 
 Partnership Rates:
 
-_Gold Partnership_ rates are £3,000 GBP / $4,200 USD / €3,600 EUR / $5,100 CAD. Gold partners are offered the opportunity to work with us to develop events that help their communities use digital humanities tools and methods.*
+_Gold Partnership_ rates are £3,000 GBP / $4,200 USD / €3,600 EUR / $5,100 CAD. Gold partners are offered the opportunity to work with us to develop events that help their communities use digital humanities tools and methods.[^1]
 
 _Silver Partnership_
 
@@ -32,7 +32,7 @@ _Silver Partnership_
 
 Rates are due annually from the date of first payment and are set in January each year. For a quote in another currency please email <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
 
-* _Programming Historian_ events have open registrations, with places reserved for Gold Tier members. Up to two events each year will be developed with Gold Tier members. Event development opportunities and reserved places only apply during the period of Gold Tier membership. The final decision as to the composition, format, duration, and timing of all ProgHist Ltd events delivered as part of the Gold Tier scheme is at the discretion of ProgHist Ltd.
+[^1] _Programming Historian_ events have open registrations, with places reserved for Gold Tier members. Up to two events each year will be developed with Gold Tier members. Event development opportunities and reserved places only apply during the period of Gold Tier membership. The final decision as to the composition, format, duration, and timing of all ProgHist Ltd events delivered as part of the Gold Tier scheme is at the discretion of ProgHist Ltd.
 
 ## Benefits of Membership
 
