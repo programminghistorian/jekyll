@@ -32,8 +32,6 @@ _Silver Partnership_
 
 Rates are due annually from the date of first payment and are set in January each year. For a quote in another currency please email <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
 
-[^1]: _Programming Historian_ events have open registrations, with places reserved for Gold Tier members. Up to two events each year will be developed with Gold Tier members. Event development opportunities and reserved places only apply during the period of Gold Tier membership. The final decision as to the composition, format, duration, and timing of all ProgHist Ltd events delivered as part of the Gold Tier scheme is at the discretion of ProgHist Ltd.
-
 ## Benefits of Membership
 
 By joining the Institutional Partner Programme you will receive the following benefits:
@@ -88,3 +86,6 @@ We'd be happy to have a conversation about what we do and how we use your suppor
  - No, we don't track users in that way, and we don't have a sign-in system for readers.
 3. Will my contribution be used on a publication of my choice?
  - Sponsors contribute to the shared infrastructure used across all of our publications. By becoming an IPP sponsor, you strengthen the resources in your chosen language, as well as those across our offering.
+ 
+ ---
+ [^1]: _Programming Historian_ events have open registrations, with places reserved for Gold Tier members. Up to two events each year will be developed with Gold Tier members. Event development opportunities and reserved places only apply during the period of Gold Tier membership. The final decision as to the composition, format, duration, and timing of all ProgHist Ltd events delivered as part of the Gold Tier scheme is at the discretion of ProgHist Ltd.
