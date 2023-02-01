@@ -20,6 +20,11 @@ Al unirte a nuestro Programa de Instituciones Asociadas, tu institución estará
 
 Tasas de asociación :
 
+_Nivel Gold_
+Las tarifas para nuestros colaboradores en nivel Gold son de £3.000 GBP, $4.200 USD, €3.600 EUR, $5.100 CAD. Como parte de la membresía, se les ofrece la oportunidad de trabajar con nosotros en el desarrollo de eventos que ayuden a sus comunidades a utilizar herramientas y métodos de las humanidades digitales.
+
+_Nivel Silver_
+
 | Países de alto ingreso | Países de ingreso medio | [Países AOD](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm) |
 | --- | --- | --- |
 | £1.000 GBP  | £400 GBP | £150 GBP     |
@@ -27,9 +32,9 @@ Tasas de asociación :
 | €1.200 EUR  | €500 EUR | €175 EUR     |
 | $1.700 CAD  | $700 CAD | $275 CAD     |
 
-Si tu institución tiene recursos para apoyarnos con una cantidad mayor, también agradecemos aportaciones de Instituciones Asociadas en nuestro nivel Gold. Las tarifas de Gold Tier Partnership son £3.000 GBP, $4.200 USD, €3.600 EUR, $5.100 CAD. Se ofrecen dos talleres personalizados al año a las instituciones asociadas en Gold Tier para ayudar a sus comunidades a utilizar herramientas y métodos de humanidades digitales.
-
 Las tasas vencen anualmente a partir de la fecha del primer pago y se establecen en enero de cada año. Para una estimación en otra moneda, envía un correo electrónico a <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
+
+* Los eventos de _Programming Historian_ tienen inscripciones abiertas, con plazas reservadas para nuestros colaboradores del nivel Gold. Se desarrollarán hasta dos eventos al año con los miembros de esta categoría. Las oportunidades de desarrollo de eventos y las plazas reservadas sólo se aplicarán durante el periodo de afiliación a la categoría Gold. La decisión final sobre la composición, el formato, la duración y el calendario de todos los eventos de ProgHist Ltd organizados como parte del programa Gold Tier queda a discreción de ProgHist Ltd.
 
 ## Beneficios de asociación
 
