@@ -37,7 +37,6 @@ _Niveau Silver_
 
 Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en janvier de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
 
-[^1]: Les évènements du _Programming Historian_ sont ouverts sur inscription, avec des places réservées à nos partenaires Gold. Nous organiserons jusqu’à deux évènements par an avec nos partenaires de niveau Gold. Il n’est possible d’organiser des évènements et de profiter de places réservées que pendant la période d’adhésion au niveau Gold. La décision finale concernant la composition, le format, la durée et la date de tous les évènements de ProgHist Ltd organisés dans le cadre du programme Gold est à la discrétion de ProgHist Ltd.
 
 ## Avantages du partenariat
 
@@ -93,3 +92,7 @@ Nous serions ravis de discuter avec vous de notre projet et de ce que votre sout
  - Non, nous ne comptabilisons pas ce genre de données d'utilisation et n'avons pas non plus de système de connexion.
 3. Ma contribution peut elle être dédiée à une publication de mon choix?
  - Les Partenaires contribuent à l'infrastructure commune à toutes nos publications. En participant au Partenariat institutionnel, vous renforcez les ressources dans la langue de votre choix, ainsi que celles de l'ensemble de notre offre.
+ 
+  ---
+
+[^1]: Les évènements du _Programming Historian_ sont ouverts sur inscription, avec des places réservées à nos partenaires Gold. Nous organiserons jusqu’à deux évènements par an avec nos partenaires de niveau Gold. Il n’est possible d’organiser des évènements et de profiter de places réservées que pendant la période d’adhésion au niveau Gold. La décision finale concernant la composition, le format, la durée et la date de tous les évènements de ProgHist Ltd organisés dans le cadre du programme Gold est à la discrétion de ProgHist Ltd.
