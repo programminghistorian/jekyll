@@ -19,6 +19,12 @@ A adesão ao nosso Programa de Parceria Institucional permite que a sua institui
 
 Taxas de adesão:
 
+_Nível Gold_
+
+As taxas de parceria ao nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. Os nossos apoiadores do nível Gold têm a oportunidade de trabalhar connosco para desenvolver eventos que ajudem as suas comunidades a utilizar ferramentas e métodos de humanidades digitais.[^1]
+
+_Nível Silver_
+
 | Países de renda alta | Países de renda média | [Países elegíveis para ODA](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm) |
 |--|--|--|
 | €1.200 EUR | €500 EUR | €175 EUR |
@@ -30,6 +36,9 @@ Taxas de adesão:
 Se a sua instituição tem recursos para nos oferecer um suporte ainda maior, também damos as boas-vindas a parcerias no nosso nível Gold. As taxas de parceria do nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. As instituições parceiras de nível ouro tem dois workshops personalizados por ano para ajudar suas comunidades a usar ferramentas e métodos de humanidades digitais.
 
 As taxas são anuais e consideramos a contagem a partir da data do primeiro pagamento. Os valores são definidos em Janeiro de cada ano. Para uma cotação em outra moeda, por favor, envie um e-mail para [Dr. James Baker](mailto:programminghistorian@gmail.com).
+
+[^1]: Os eventos de _Programming Historian_ são de inscrição aberta, com lugares reservados para os nossos apoiadores de nível Gold. Serão desenvolvidos até dois eventos por ano com apoiadores de nível Gold. Oportunidades de desenvolvimento de eventos e lugares reservados só se aplicarão durante o período de filiação de nível Gold. A decisão final sobre a composição, formato, duração e calendário de todos os eventos ProgHist Ltd. organizados no âmbito do programa Gold fica ao critério da ProgHist Ltd.
+
 
 ## Benefícios da adesão
 
