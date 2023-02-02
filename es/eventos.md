@@ -11,7 +11,7 @@ Si deseas contribuir, colaborar o saber más, ponte en contacto con nuestra Resp
 
 ## Próximos eventos
 
-* **09.02.2023 and 10.02.2023 17:00 UTC**
+* **09.02.2023 and 10.02.2023 17:00 UTC**  
 _en español_ Jeniffer Isasi _Crear una exhibición digital mínima e interactiva con CollectionBuilder_.
 
 ## Eventos pasados
