@@ -251,7 +251,7 @@ A numpy array is list-like but not exactly a list, and I could fill an entire tu
 
 We want every term represented so that each document has the same number of values, one for each word in the corpus. Each item in `transformed_documents_as_array` is an array of its own representing one document from our corpus. As a result of all this, we essentially have a grid where each row is a document, and each column is a term. Imagine one table from a spreadsheet representing each document, like the tables above, but without column or row labels.
 
-To merge the values with their labels, we need two pieces of information: the order of the documents, and the order in which term scores are listed. The order of these documents is easy because it's the same order as the variable `all_docs list`. The full term list is stored in our `vectorizer` variable, and it's in the same order that each item in `transformed_documents_as_array` stores values. We can use the `the TFIDFVectorizer` class's `get_feature_names()` method to get that list, and each row of data (one document's __tf-idf__ scores) can be rejoined with the term list. (For more details on pandas dataframes, see the lesson ["Visualizing Data with Bokeh and Pandas"](/en/lessons/visualizing-with-bokeh).)
+To merge the values with their labels, we need two pieces of information: the order of the documents, and the order in which term scores are listed. The order of these documents is easy because it's the same order as the variable `all_docs list`. The full term list is stored in our `vectorizer` variable, and it's in the same order that each item in `transformed_documents_as_array` stores values. We can use the `the TFIDFVectorizer` class's `get_feature_names_out()` method to get that list, and each row of data (one document's __tf-idf__ scores) can be rejoined with the term list. (For more details on pandas dataframes, see the lesson ["Visualizing Data with Bokeh and Pandas"](/en/lessons/visualizing-with-bokeh).)
 
 ```python
 import pandas as pd
@@ -265,7 +265,7 @@ output_filenames = [str(txt_file).replace(".txt", ".csv").replace("txt/", "tf_id
 # loop each item in transformed_documents_as_array, using enumerate to keep track of the current position
 for counter, doc in enumerate(transformed_documents_as_array):
     # construct a dataframe
-    tf_idf_tuples = list(zip(vectorizer.get_feature_names(), doc))
+    tf_idf_tuples = list(zip(vectorizer.get_feature_names_out(), doc))
     one_doc_as_df = pd.DataFrame.from_records(tf_idf_tuples, columns=['term', 'score']).sort_values(by='score', ascending=False).reset_index(drop=True)
 
     # output to a csv using the enumerated value for the filename
