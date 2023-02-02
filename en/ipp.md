@@ -19,9 +19,11 @@ Joining our Institutional Partner Programme allows your institution to support a
 
 Partnership Rates:
 
-_Gold Partnership_ rates are £3,000 GBP / $4,200 USD / €3,600 EUR / $5,100 CAD. Gold partners are offered the opportunity to work with us to develop events that help their communities use digital humanities tools and methods.[^1]
+_Gold Tier_  
 
-_Silver Partnership_
+Gold Partnership rates are £3,000 GBP / $4,200 USD / €3,600 EUR / $5,100 CAD. Gold partners are offered the opportunity to work with us to develop events that help their communities use digital humanities tools and methods.[^1]
+
+_Silver Tier_
 
 | Upper Income Countries  | Middle Income Countries | [ODA eligible countries](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm)  |
 |---|---|---|
