@@ -10,7 +10,7 @@ Em 2022 lançamos um programa de eventos multilingue para apoiar educadores, est
 
 ## Próximos Eventos
 
-* **09.02.2023 and 10.02.2023 17:00 UTC**
+* **09.02.2023 and 10.02.2023 17:00 UTC**  
 _en español_ Jeniffer Isasi _Crear una exhibición digital mínima e interactiva con CollectionBuilder_.
 
 ## Eventos Anteriores
