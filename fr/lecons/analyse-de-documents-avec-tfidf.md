@@ -268,7 +268,7 @@ Un tableau NumPy ressemble à une liste sans y être identique. Je pourrais réd
 
 Nous voulons que toutes les valeurs soient représentées pour que chaque document soit associé au même nombre de valeurs, soit une pour chaque mot qui existe dans le corpus. Chaque ligne du tableau `documents_transformes_tableau` est elle-même un tableau qui représente un des documents du corpus. Nous disposons donc essentiellement d'une grille dans laquelle chaque ligne représente un document et chaque colonne, un mot. Imaginez un tableau semblable à ceux des sections précédentes pour chaque document, mais sans étiquettes pour identifier les lignes et les colonnes.
 
-Pour combiner les valeurs avec leurs étiquettes, il nous faut deux éléments d'information&#x202F;: l'ordre des documents et et l’ordre des tf-idf obtenu pour chaque mot. L'ordre des documents est facile à obtenir puisqu'il s'agit du même que dans la liste `tous_documents`. La liste de tous les mots du corpus, elle, est stockée dans la variable `vectoriseur` et elle suit le même ordre qu'utilise `documents_transformes_tableau` pour emmagasiner les données. Nous pouvons utiliser la méthode `get_feature_names()` de la classe `TFIDFVectorizer` pour accéder à cette liste de mots. Puis, chaque ligne de `documents_transformes_tableau` (qui contient les valeurs **tf-idf** d'un document) peut être jumelée avec la liste de mots. Pour plus de détails sur les structures de données de type DataFrame du module Pandas de Python, veuillez consulter la leçon [&laquo;&#x202F;Visualizing Data with Bokeh and Pandas&#x202F;&raquo;](/en/lessons/visualizing-with-bokeh).
+Pour combiner les valeurs avec leurs étiquettes, il nous faut deux éléments d'information&#x202F;: l'ordre des documents et et l’ordre des tf-idf obtenu pour chaque mot. L'ordre des documents est facile à obtenir puisqu'il s'agit du même que dans la liste `tous_documents`. La liste de tous les mots du corpus, elle, est stockée dans la variable `vectoriseur` et elle suit le même ordre qu'utilise `documents_transformes_tableau` pour emmagasiner les données. Nous pouvons utiliser la méthode `get_feature_names_out()` de la classe `TFIDFVectorizer` pour accéder à cette liste de mots. Puis, chaque ligne de `documents_transformes_tableau` (qui contient les valeurs **tf-idf** d'un document) peut être jumelée avec la liste de mots. Pour plus de détails sur les structures de données de type DataFrame du module Pandas de Python, veuillez consulter la leçon [&laquo;&#x202F;Visualizing Data with Bokeh and Pandas&#x202F;&raquo;](/en/lessons/visualizing-with-bokeh).
 
 ```python
 import pandas as pd
@@ -284,7 +284,7 @@ fichiers_resultats = [str(fichier_txt).replace(".txt", ".csv").replace("txt/", "
 # en utilisant enumerate() pour conserver la trace de la position courante dans le tableau
 for compteur, document in enumerate(documents_transformes_tableau):
     # construire un objet de la classe DataFrame
-    tf_idf_tuples = list(zip(vectoriseur.get_feature_names(), document))
+    tf_idf_tuples = list(zip(vectoriseur.get_feature_names_out(), document))
     un_document_format_df = pd.DataFrame.from_records(tf_idf_tuples, columns=['terme', 'pointage']).sort_values(by='pointage', ascending=False).reset_index(drop=True)
 
     # enregistrer les résultats dans un document CSV, en utilisant

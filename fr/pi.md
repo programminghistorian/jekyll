@@ -20,6 +20,12 @@ En rejoignant notre programme de Partenariat institutionnel, votre établissemen
 
 Tarifs de partenariat
 
+_Niveau Gold_
+
+Les tarifs de nos partenariats de niveau Gold sont de 3 600 EUR, 3 600 CHF, 5 100 CAD, 3 000 GBP, et 4 200 USD. Nos partenaires Gold peuvent travailler avec nous pour développer des évènements qui aident leurs communautés à utiliser les outils et les méthodes des humanités numériques.[^1]
+
+_Niveau Silver_
+
 | Pays à revenu élevé | Pays à revenu intermédiaire | Pays à faible revenu et moins avancés [éligibles à l'APD](http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/listecad.htm)  |
 |---|---|---|
 | 1 200 EUR  | 500 EUR | 175 EUR  |
@@ -28,9 +34,9 @@ Tarifs de partenariat
 | 1 000 GBP  | 400 GBP | 150 GBP  |
 | 1 400 USD  | 600 USD | 200 USD  |
 
-Si votre institution a les moyens de nous offrir un plus grand soutien encore, nous accueillons également des partenariats à notre niveau Gold. Les tarifs du partenariat niveau Gold sont d'un montant de 3 600 EUR, 3 600 CHF, 5 100 CAD, 3 000 GBP, 4 200 USD. Les partenaires de niveau Gold Tier ont droit à deux ateliers sur mesure par an afin de permettre à leurs communautés de bénéficier de l'apprentissage de méthodes et d'outis numériques.
 
 Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en janvier de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
+
 
 ## Avantages du partenariat
 
@@ -86,3 +92,7 @@ Nous serions ravis de discuter avec vous de notre projet et de ce que votre sout
  - Non, nous ne comptabilisons pas ce genre de données d'utilisation et n'avons pas non plus de système de connexion.
 3. Ma contribution peut elle être dédiée à une publication de mon choix?
  - Les Partenaires contribuent à l'infrastructure commune à toutes nos publications. En participant au Partenariat institutionnel, vous renforcez les ressources dans la langue de votre choix, ainsi que celles de l'ensemble de notre offre.
+ 
+  ---
+
+[^1]: Les évènements du _Programming Historian_ sont ouverts sur inscription, avec des places réservées à nos partenaires Gold. Nous organiserons jusqu’à deux évènements par an avec nos partenaires de niveau Gold. Il n’est possible d’organiser des évènements et de profiter de places réservées que pendant la période d’adhésion au niveau Gold. La décision finale concernant la composition, le format, la durée et la date de tous les évènements de ProgHist Ltd organisés dans le cadre du programme Gold est à la discrétion de ProgHist Ltd.
