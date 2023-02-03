@@ -97,7 +97,7 @@ To run the lesson code on Kaggle you will need to:
 - Create an account on [Kaggle](https://www.kaggle.com) (you will need to provide a phone number), or log in to your existing account.
 - Go to [https://www.kaggle.com/code/davanstrien/progamming-historian-deep-learning-pt1](https://www.kaggle.com/code/davanstrien/progamming-historian-deep-learning-pt1). The data used in this lesson is provided alongside these notebooks.
 - Click on the 'Edit' button to create a copy of the notebook.
-- Set the 'Accelerator option' to 'GPU'; you will find this option under 'settings'.
+- Set the 'Accelerator option' to a 'GPU'; you will find this option under 'settings'. Kaggle occasionally changes which type of GPUs they make available. Selecting a single GPU will be sufficient for this lesson.
 
 {% include figure.html filename="kaggle_gpu.png" alt="Screenshot showing the Accelerator option set to GPU" caption="The Kaggle notebooks settings menu" %}
 
