@@ -53,7 +53,7 @@ Please note that the code in this lesson has been designed to run sequentially. 
 
 ## Prior Reading
 
-If you do not have experience with the Python programming language or are finding examples in this tutorial difficult, the author recommends you read the lessons on [Working with Text Files in Python](/lessons/working-with-text-files) and [Manipulating Strings in Python](/lessons/manipulating-strings-in-python).
+If you do not have experience with the Python programming language or are finding examples in this tutorial difficult, the author recommends you read the lessons on [Working with Text Files in Python](/lessons/working-with-text-files) and [Manipulating Strings in Python](/lessons/manipulating-strings-in-python). Please note, that those lessons were written in Python version 2 whereas this one uses Python version 3. The differences in [syntax](https://en.wikipedia.org/wiki/Syntax) between the two versions of the language can be subtle. If you are confused at any time, follow the examples as written in this lesson and use the other lessons as background material. (More precisely, the code in this tutorial was written using [Python 3.6.4](https://www.python.org/downloads/release/python-364/); the [f-string construct](https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals) in the line `with open(f'data/federalist_{filename}.txt', 'r') as f:`, for example, requires Python 3.6 or a more recent version of the language.)
 
 ## Required materials
 
@@ -153,7 +153,7 @@ Next, as we are interested in each author's vocabulary, we will define a short P
 def read_files_into_string(filenames):
     strings = []
     for filename in filenames:
-        with open(f'data/federalist_{filename}.txt') as f:
+        with open(f'data/federalist_{filename}.txt', 'r') as f:
             strings.append(f.read())
     return '\n'.join(strings)
 ```
@@ -191,6 +191,7 @@ The code required to calculate characteristic curves for the *Federalist*'s auth
 ```python
 # Load nltk
 import nltk
+nltk.download('punkt')
 %matplotlib inline
 
 # Compare the disputed papers to those written by everyone,
@@ -207,10 +208,10 @@ for author in authors:
     federalist_by_author_tokens[author] = ([token for token in tokens
                                             if any(c.isalpha() for c in token)])
 
-    # Get a distribution of token lengths
-    token_lengths = [len(token) for token in federalist_by_author_tokens[author]]
-    federalist_by_author_length_distributions[author] = nltk.FreqDist(token_lengths)
-    federalist_by_author_length_distributions[author].plot(15,title=author)
+# Get a distribution of token lengths
+token_lengths = [len(token) for token in federalist_by_author_tokens[author]]
+federalist_by_author_length_distributions[author] = nltk.FreqDist(token_lengths)
+federalist_by_author_length_distributions[author].plot(15,title=author)
 ```
 
 The '%matplotlib inline' declaration below 'import nltk' is required if your development environment is a [Jupyter Notebook](http://jupyter.org/), as it was for me while writing this tutorial; otherwise you may not see the graphs on your screen. If you work in [Jupyter Lab](http://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html), please replace this clause with '%matplotlib ipympl'.
