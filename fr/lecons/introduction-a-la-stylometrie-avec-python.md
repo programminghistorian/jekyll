@@ -58,7 +58,7 @@ Veuillez noter que le code informatique de cette leçon a été conçu pour êtr
 
 ## Lectures préalables
 
-Si vous n'avez pas d'expérience de programmation en Python ou si vous trouvez les exemples dans ce tutoriel difficiles, l'auteur vous recommande de lire les leçons intitulées [Travailler avec des fichiers texte en Python](/fr/lecons/travailler-avec-des-fichiers-texte) et [Manipuler des chaînes de caractères en Python](/fr/lecons/manipuler-chaines-caracteres-python). 
+Si vous n'avez pas d'expérience de programmation en Python ou si vous trouvez les exemples dans ce tutoriel difficiles, l'auteur vous recommande de lire les leçons intitulées [Travailler avec des fichiers texte en Python](/fr/lecons/travailler-avec-des-fichiers-texte) et [Manipuler des chaînes de caractères en Python](/fr/lecons/manipuler-chaines-caracteres-python). Notez aussi que ces leçons ont à l'origine été rédigées en Python 2 tandis que ce tutoriel utilise Python 3. Les différences de [syntaxe](https://fr.wikipedia.org/wiki/Syntaxe) entre les deux versions du langage peuvent être subtiles. En cas de conflit, suivez les exemples tels qu'ils sont codés dans le présent tutoriel et n'utilisez les autres ressources qu'à titre indicatif. (Plus précisément, le code intégré à ce tutoriel a été écrit en [Python 3.6.4](https://www.python.org/downloads/release/python-364/); la chaîne de type [f-string](https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals) qui apparaît dans la ligne `with open(f'data/federalist_{nom_fichier}.txt', 'r') as f:`, par exemple, requiert Python 3.6 ou une version plus récente du langage.)
 
 ## Matériel requis
 
@@ -159,7 +159,7 @@ Ensuite, puisque nous nous intéressons au vocabulaire employé par chaque auteu
 def lire_fichiers_en_chaine(noms_fichiers):
     chaines = []
     for nom_fichier in noms_fichiers:
-        with open(f'data/federalist_{nom_fichier}.txt') as f:
+        with open(f'data/federalist_{nom_fichier}.txt', 'r') as f:
             chaines.append(f.read())
     return '\n'.join(chaines)
 ```
@@ -198,6 +198,7 @@ Le code requis pour calculer les courbes caractéristiques des auteurs du _Féd�
 ```python
 # Charger nltk
 import nltk
+nltk.download('punkt')
 %matplotlib inline
 
 # Comparons les articles contestés à ceux écrits par chaque
@@ -215,10 +216,10 @@ for auteur in auteurs:
                                             if any(c.isalpha() for c in occ)])
 
 
-    # Obtenir et dessiner la distribution des fréquences de longueurs
-    occs_longueurs = [len(occ) for occ in federalist_par_auteur_occs[auteur]]
-    federalist_par_auteur_dist_longueurs[auteur] = nltk.FreqDist(occs_longueurs)
-    federalist_par_auteur_dist_longueurs[auteur].plot(15,title=auteur)
+# Obtenir et dessiner la distribution des fréquences de longueurs
+occs_longueurs = [len(occ) for occ in federalist_par_auteur_occs[auteur]]
+federalist_par_auteur_dist_longueurs[auteur] = nltk.FreqDist(occs_longueurs)
+federalist_par_auteur_dist_longueurs[auteur].plot(15,title=auteur)
 ```
 
 La clause `%matplotlib inline` sous la ligne `import nltk` est nécessaire si vous travaillez dans un environnement de développement [Jupyter Notebook](https://jupyter.org/), comme c'était le cas pour moi lorsque j'ai rédigé ce tutoriel; en son absence, les graphes pourraient ne pas apparaître à l'écran. Si vous travaillez plutôt dans [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html), veuillez remplacer cette clause par `%matplotlib ipympl`.
