@@ -56,7 +56,7 @@ No final desta lição, teremos percorrido os seguintes tópicos:
 
 ## Leitura prévia
 
-Se você não tem experiência com a linguagem de programação Python ou está tendo dificuldade nos exemplos apresentados neste tutorial, o autor recomenda que você leia as lições [Trabalhando com ficheiros de texto em Python](/pt/licoes/trabalhando-ficheiros-texto-python) e [Manipular Strings com Python](/pt/licoes/manipular-strings-python). Note que essas lições foram escritas em Python versão 2, enquanto esta usa Python versão 3. As diferenças de [sintaxe](https://perma.cc/E5LQ-S65P) entre as duas versões da linguagem podem ser sutis. Se você ficar em dúvida, siga os exemplos conforme descritos nesta lição e use as outras lições como material de apoio. (Este tutorial encontra-se atualizado até à versão [Python 3.8.5](https://perma.cc/XCT2-Q4AT); as [strings literais formatadas](https://perma.cc/U6Q6-59V3) na linha `with open(f'data/pg{filename}.txt', encoding='utf-8') as f:`, por exemplo, requerem Python 3.6 ou uma versão mais recente da linguagem.) 
+Se você não tem experiência com a linguagem de programação Python ou está tendo dificuldade nos exemplos apresentados neste tutorial, o autor recomenda que você leia as lições [Trabalhando com ficheiros de texto em Python](/pt/licoes/trabalhando-ficheiros-texto-python) e [Manipular Strings com Python](/pt/licoes/manipular-strings-python). Note que essas lições foram escritas em Python versão 2, enquanto esta usa Python versão 3. As diferenças de [sintaxe](https://perma.cc/E5LQ-S65P) entre as duas versões da linguagem podem ser sutis. Se você ficar em dúvida, siga os exemplos conforme descritos nesta lição e use as outras lições como material de apoio. (Este tutorial encontra-se atualizado até à versão [Python 3.8.5](https://perma.cc/XCT2-Q4AT); as [strings literais formatadas](https://perma.cc/U6Q6-59V3) na linha `with open(f'data/pg{filename}.txt', 'r', encoding='utf-8') as f:`, por exemplo, requerem Python 3.6 ou uma versão mais recente da linguagem.) 
 
 ## Materiais requeridos
 
@@ -146,7 +146,7 @@ def ler_ficheiros_para_string(ids_ficheiros):
     global texto
     strings = []
     for id_ficheiro in ids_ficheiros:
-        with open(f'dados/pg{id_ficheiro}.txt',
+        with open(f'dados/pg{id_ficheiro}.txt', 'r',
 		encoding='utf-8') as f:
             texto = f.read()
             texto = re.search(r"(START.*?\*\*\*)(.*)(\*\*\* END)", 
@@ -191,6 +191,7 @@ O trecho de código necessário para calcular e exibir as curvas característica
 ```python
 # Carregar nltk e matpotlib
 import nltk
+nltk.download('punkt')
 import matplotlib.pylab as plt
 
 obras_tokens = {}
@@ -209,9 +210,9 @@ for autor in autores:
     obras_tokens[autor] = ([token for token in tokens
                                             if any(c.isalpha() for c in token)])
 
-    # Obter a distribuição de comprimentos de tokens
-    token_comprimentos = [len(token) for token in obras_tokens[autor]]
-    obras_distribuicao_comprimento[autor] = nltk.FreqDist(token_comprimentos)
+# Obter a distribuição de comprimentos de tokens
+token_comprimentos = [len(token) for token in obras_tokens[autor]]
+obras_distribuicao_comprimento[autor] = nltk.FreqDist(token_comprimentos)
     
     # Plotar a curva característica de composição
     lista_chaves = []
