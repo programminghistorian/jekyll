@@ -2800,3 +2800,16 @@
     - french
     - managing
   status: volunteer
+
+- name: Chahan Vidal-Gorène
+  team: false
+  orcid: 0000-0003-1567-6508
+  bio: 
+    en: |
+      Chahan Vidal-Gorène is a PhD candidate, specialist in digital palaeography. He teaches in the Digital Humanities master's programme at the École nationale des Chartes-PSL, Paris, France, and is the founder and president of Calfa, a company specialising in the processing of oriental manuscripts.
+    fr: |
+      Chahan Vidal-Gorène est spécialisé en paléographie numérique (doctorat en cours). Il enseigne au sein du master Humanités Numériques de l’École nationale des Chartes-PSL, et est le président-fondateur de Calfa, entreprise spécialisée dans le traitement de documents manuscrits orientaux.
+    es: |
+      Chahan Vidal-Gorène es especialista en paleografía digital (doctorado en curso). Imparte clases en el máster de Humanidades Digitales de la École nationale des Chartes-PSL, y es fundador y presidente de Calfa, empresa especializada en el tratamiento de manuscritos orientales.
+    pt: |
+      Chahan Vidal-Gorène é um especialista em paleografia digital (doutoramento em curso). É professor no programa de mestrado de Humanidades Digitais na École nationale des Chartes-PSL, e é fundador e presidente da Calfa, uma empresa especializada no processamento de manuscritos orientais.
