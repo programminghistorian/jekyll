@@ -19,7 +19,7 @@ abstract: Ce tutoriel a pour but de décrire les bonnes pratiques pour la créat
 avatar_alt: Une initiale d'imprimerie représentant en son centre une figure écrivant à la main
 mathjax: true
 lesson-partners: [Jisc, The National Archives]
-partnership-url: /jisc-tna-partnership
+partnership-url: /fr/jisc-tna-partenariat
 doi: 10.46430/phfr0023
 ---
 
