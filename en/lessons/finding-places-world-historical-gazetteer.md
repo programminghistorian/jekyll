@@ -146,7 +146,7 @@ Now let’s focus back on the task at hand. We need to load our list of place na
 ```python
 from pathlib import Path
 
-gazetteer = Path("gazetteer.txt").read_text()
+gazetteer = Path("gazetteer.txt").read_text('utf8')
 gazetteer = gazetteer.split("\n")
 ```
 
