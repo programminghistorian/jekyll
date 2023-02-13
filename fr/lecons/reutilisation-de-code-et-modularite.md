@@ -5,7 +5,7 @@ original: code-reuse-and-modularity
 layout: lesson
 collection: lessons
 date: 2012-07-17
-translation_date: 2023-MM-DD
+translation_date: 2023-02-13
 authors:
 - William J. Turkel
 - Adam Crymble
