@@ -335,7 +335,7 @@ Prenez soin de solliciter un nouveau DOI pour la leçon selon les instructions d
 
 ## 3) Transférer les fichiers
 
-Le rédacteur ou la rédactrice aurait dû vous laisser une liste claire, dans le ticket de la soumission, avec les fichiers à être publiés. Si ce n'est pas le cas, demandez que cela s'arrange avant d'aller plus loin.  The editor should have left you a clear list of files that need to be published on the submission ticket. If they have not done so, ask them to fix it before proceeding.
+Le rédacteur ou la rédactrice aurait dû vous laisser une liste claire, dans le ticket de la soumission, avec les fichiers à être publiés. Si ce n'est pas le cas, demandez que cela s'arrange avant d'aller plus loin.
 
 Il existe différentes manières de faire un "pull request" pour publier les fichiers:
 
