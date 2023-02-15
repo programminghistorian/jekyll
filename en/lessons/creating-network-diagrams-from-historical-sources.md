@@ -243,11 +243,11 @@ Other network visualization tools to consider
 
 [*Nodegoat*](http://nodegoat.net/) – similar to Palladio in that it makes data collection, mapping and graph visualizations easy. Allows easy setup of relational databases and lets users store data on their servers. [*Tutorial available here*](http://nodegoat.net/cms/UPLOAD/AsmallguidebyYanan11082014.pdf).
 
-[*NodeXL*](http://nodexl.codeplex.com/) – capable to perform many tasks common in SNA, easy-to-use, open source but requires Windows and MS Office 2007 or newer.[ ](https://www.youtube.com/watch?v=pwsImFyc0lE)[*Tutorial 1*](https://www.youtube.com/watch?v=pwsImFyc0lE), [*Tutorial 2*](http://www.youtube.com/watch?v=xKhYGRpbwOc).
+[*NodeXL*](https://www.smrfoundation.org/nodexl/) – capable to perform many tasks common in SNA, easy-to-use, open source but requires Windows and MS Office 2007 or newer.[ ](https://www.youtube.com/watch?v=pwsImFyc0lE)[*Tutorial 1*](https://www.youtube.com/watch?v=pwsImFyc0lE), [*Tutorial 2*](http://www.youtube.com/watch?v=xKhYGRpbwOc).
 
 [*Gephi*](https://gephi.github.io/) – open source, platform independent. The best known and most versatile visualization tool available but expect a steep learning curve. The developers announce support for parallel edges in version 1.0. Tutorials: by [*Clement Levallois*](http://www.clementlevallois.net/training.html) and [*Sebastien Heymann*](http://www.youtube.com/watch?v=L6hHv6y5GsQ).
 
-[*VennMaker*](http://www.vennmaker.de) – is platform-independent and can be tested for free. VennMaker inverts the process of data collection: Users start with a customizable canvas and draw self-defined nodes and relations on it. The tool collects the corresponding data in the background.
+[*VennMaker*](https://www.vennmaker.com) – is platform-independent and can be tested for free. VennMaker inverts the process of data collection: Users start with a customizable canvas and draw self-defined nodes and relations on it. The tool collects the corresponding data in the background.
 
 The most commonly used tools for more mathematical analyses are [*UCINET*](https://sites.google.com/site/ucinetsoftware/home) (licensed, tutorials available on their website) and [*Pajek*](http://pajek.imfm.si/doku.php) (free) for which a great [*handbook*](http://www.cambridge.org/us/academic/subjects/sociology/research-methods-sociology-and-criminology/exploratory-social-network-analysis-pajek-2nd-edition) exists. Both were developed for Windows but run well elsewhere using Wine.
 
