@@ -5,9 +5,7 @@ original: project-team
 ---
 
 # Équipe du projet
-Merci de diriger d'abord votre correspondance à:
-
-{% include managing-editor-loop.html %}
+Merci de diriger d'abord votre correspondance à notre responsable de l'édition <a href="mailto:admin@programminghistorian.org">Anisa Hawes</a>.
 
 {% include toc.html %}
 
