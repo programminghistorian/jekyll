@@ -8,7 +8,7 @@
 - type: managing
   label:
     en: Managing Editor
-    es: Jefe de redacción
+    es: Jefa de redacción
     fr: Rédacteur/rédactrice en chef
     pt: Editor-chefe
   definition:
@@ -30,12 +30,12 @@
 - type: ombuds
   label:
     en: Ombudsperson
-    es: Mediador
+    es: Mediador/a
     fr: Médiateur/médiatrice
     pt: Mediador(a)
   definition:
     en: A person that authors and reviewers can turn to if they have queries or concerns about any part of the peer review and publication process
-    es: Persona a la que los autores y revisores pueden recurrir si tienen preguntas o inquietudes sobre cualquier parte del proceso de revisión por pares y publicación
+    es: Persona a la que autores y revisores pueden recurrir si tienen preguntas o inquietudes sobre cualquier parte del proceso de revisión por pares y publicación
     fr: Personne que les auteur(e)s et évaluateur(trice)s peuvent consulter pour toute question liée à la procédure de l'évaluation par les pairs ou à la publication
     pt: Pessoa a quem os autores e revisores podem recorrer se tiverem preocupações ou dúvidas sobre o processo de revisão por pares ou de publicação
 
@@ -43,12 +43,12 @@
 - type: proghist
   label:
     en: Trustee ProgHist Ltd
-    es: Síndico/a ProgHist Ltd
+    es: Consejero/a ProgHist Ltd
     fr: Fiduciaire ProgHist Ltd
     pt: Fiduciário/a ProgHist Ltd
   definition:
     en: This member holds a role on the Board the not-for-profit company ProgHist Ltd, which supports the publications.
-    es: Este miembro funge un cargo en el Consejo de Administración en la compañía sin ánimo de lucro ProgHist Ltd, que gestiona las publicaciones.
+    es: Este miembro funge un cargo en el Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona las publicaciones.
     fr: Ce(tte) membre occupe un rôle au sein du conseil d'administration de la compagnie sans but lucratif ProgHist Ltd, qui soutient les publications.
     pt: Este membro tem um papel no conselho de fiduciários na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
 - type: technical-lead
@@ -76,7 +76,7 @@
 - type: finance-manager
   label:
     en: Finance Manager
-    es: Mánager de finanzas
+    es: Director de finanzas
     fr: Responsable des finances
     pt: Gestor financeiro
   definition:
@@ -87,7 +87,7 @@
 - type: publishing-manager 
   label:
     en: Publishing Manager
-    es: Responsable de publicación
+    es: Directora de publicaciones
     fr: Responsable de la publication
     pt: Gestão da publicação
   definition:
@@ -100,7 +100,7 @@
 - type: volunteer
   label:
     en: Volunteer
-    es: Voluntario
+    es: Voluntario/a
     fr: Bénévole
     pt: Voluntário
   definition:
