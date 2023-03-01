@@ -42,10 +42,10 @@
 # --- Proghist Roles ---
 - type: proghist
   label:
-    en: Trustee ProgHist Ltd
-    es: Consejero/a ProgHist Ltd
-    fr: Fiduciaire ProgHist Ltd
-    pt: Fiduciário/a ProgHist Ltd
+    en: Trustee
+    es: Consejero/a
+    fr: Fiduciaire
+    pt: Fiduciário/a
   definition:
     en: This member holds a role on the Board the not-for-profit company ProgHist Ltd, which supports the publications.
     es: Este miembro funge un cargo en el Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona las publicaciones.
