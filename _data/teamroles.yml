@@ -42,15 +42,15 @@
 # --- Proghist Roles ---
 - type: proghist
   label:
-    en: ProgHist Ltd
-    es: ProgHist Ltd
-    fr: ProgHist Ltd
-    pt: ProgHist Ltd
+    en: Trustee ProgHist Ltd
+    es: Síndico/a ProgHist Ltd
+    fr: Fiduciaire ProgHist Ltd
+    pt: Fiduciário/a ProgHist Ltd
   definition:
-    en: This member holds a role in the not-for-profit company ProgHist Ltd, which supports the publications.
-    es: Este miembro funge un cargo en la compañía sin ánimo de lucro ProgHist Ltd, que gestiona las publicaciones.
-    fr: Ce(tte) membre occupe un rôle au sein de la compagnie sans but lucratif ProgHist Ltd, qui soutient les publications.
-    pt: Este membro tem um papel na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
+    en: This member holds a role on the Board the not-for-profit company ProgHist Ltd, which supports the publications.
+    es: Este miembro funge un cargo en el Consejo de Administración en la compañía sin ánimo de lucro ProgHist Ltd, que gestiona las publicaciones.
+    fr: Ce(tte) membre occupe un rôle au sein du conseil d'administration de la compagnie sans but lucratif ProgHist Ltd, qui soutient les publications.
+    pt: Este membro tem um papel no conselho de fiduciários na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
 - type: technical-lead
   label:
     en: Technical Lead
@@ -84,6 +84,17 @@
     es: Responsable de las finanzas del proyecto y la recaudación de fondos
     fr: Responsable du financement du projet et de la collecte de fonds
     pt: Responsável pelas finanças do projeto e pela captação de recursos
+- type: publishing-manager 
+  label:
+    en: Publishing Manager
+    es: Responsable de publicación
+    fr: Responsable de la publication
+    pt: Gestão da publicação
+  definition:
+    en: Responsible for the development and production of our publications
+    es: Responsable del desarrollo y la producción de nuestras publicaciones
+    fr: Responsable de l'élaboration et de la réalisation de nos publications
+    pt: Responsável pelo desenvolvimento e produção das nossas publicações
 
 # Status
 - type: volunteer
