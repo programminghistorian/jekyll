@@ -4,9 +4,7 @@ layout: blank
 original: project-team
 ---
 
-Por favor, dirige tu correspondencia, en primer lugar a:
-
-{% include managing-editor-loop.html %}
+Por favor, dirige tu correspondencia, en primer lugar a nuestra responsable de publicación <a href="mailto:admin@programminghistorian.org">Anisa Hawes</a>.
 
 {% include toc.html %}
 
