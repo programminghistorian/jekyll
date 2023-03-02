@@ -79,7 +79,7 @@ If you work in Python 2, you will need to create a virtual environment for Pytho
 
 A Python virutal environment is an isolated environment in which you can install libraries and execute code. Many different virtual evironments can be created to work with different versions of Python and Python libraries. Virtual environments are useful because they ensure you have only the necessary libraries installed and that you do not encounter version conflicts. An additional benefit of virtual environments is that you can pass them to others so that you know your code will execute on another machine.
 
-[Miniconda](https://conda.io/miniconda.html) is one easy way to create virtual environments that is simple to install across operating systems. You should download Miniconda and follow the instructions for [Windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html), [Mac](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html), or [Linux](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html) as appropriate for your operating system.
+[Miniconda](https://conda.io/miniconda.html) is one easy way to create virtual environments that is simple to install across operating systems. You should download Miniconda and follow the instructions for [Windows](https://conda.io/projects/conda/en/stable/user-guide/install/windows.html), [Mac](https://conda.io/projects/conda/en/stable/user-guide/install/macos.html), or [Linux](https://conda.io/projects/conda/en/stable/user-guide/install/linux.html) as appropriate for your operating system.
 
 Once you have downloaded and installed Miniconda for your operating system, you can check that it has installed correctly by opening a command line and typing:
 ```python
