@@ -67,7 +67,7 @@ Actualmente existen numerosos sitios web donde es posible localizar colecciones 
 | ------------- | ------------- | ------------- |
 | Bibliotèque Nationale de France | BnF API et jeux de données | [http://api.bnf.fr/](http://api.bnf.fr/) |
 | Bibliothèque Nationale du Luxembourg | BnL Open Data | [https://data.bnl.lu/](https://data.bnl.lu/) |
-| British Library | data.bl.uk | [https://data.bl.uk/](https://data.bl.uk/) |
+| British Library | BL Labs | [https://www.bl.uk/projects/british-library-labs](https://www.bl.uk/projects/british-library-labs) |
 | Biblioteca Virtual Miguel de Cervantes | BVMC Labs | [http://data.cervantesvirtual.com/blog/labs](http://data.cervantesvirtual.com/blog/labs) |
 | Det Kgl. Bibliotek | KB Labs | [https://labs.kb.dk/](https://labs.kb.dk/) |
 | Europeana | Europeana IIIF APIs | [https://pro.europeana.eu/page/iiif](https://pro.europeana.eu/page/iiif) |
