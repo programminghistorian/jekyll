@@ -285,22 +285,9 @@ All lesson metadata and alerts should follow the convention of pulling appropria
   </div>
   {% endif %}
 
-  {% if page.python_warning %}
-  <div class="alert alert-warning">
-    {{ site.data.snippets.python-warning[page.lang] | markdownify }}
-  </div>
-  {% endif %}
-
-
-
-
   <div class="content">
     {{ content }}
   </div>
-
- 
-
-
 
   {% include author-info.html %}
 
