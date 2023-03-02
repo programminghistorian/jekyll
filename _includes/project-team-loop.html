@@ -39,8 +39,8 @@ is used both on project-team.md as well as es/equipo-de-proyecto.md
 {% include contact-info.html name=member.name %}
 {% endfor %}
 
-{% assign techlead = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'technical-lead'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
-{% for member in techlead %}
+{% assign publishing-manager = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'publishing-manager'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in publishing-manager %}
 {% include contact-info.html name=member.name %}
 {% endfor %}
 
