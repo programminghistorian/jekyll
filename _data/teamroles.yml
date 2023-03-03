@@ -8,7 +8,7 @@
 - type: managing
   label:
     en: Managing Editor
-    es: Jefa de redacción
+    es: Jefe/a de redacción
     fr: Rédacteur/rédactrice en chef
     pt: Editor-chefe
   definition:
@@ -19,7 +19,7 @@
 - type: editorial
   label:
     en: Editor
-    es: Editor(a)
+    es: Editor/a
     fr: Rédacteur/rédactrice
     pt: Editor(a)
   definition:
@@ -54,12 +54,12 @@
 - type: proghist-chair
   label:
     en: Chair of Trustees
-    es: Presidente/a del Consejero/a
+    es: Presidente/a de Consejeros
     fr: Président/e du Fiduciaire
     pt: Presidente/a do Fiduciário/a
   definition:
     en: This member holds the role of Chair of Trustees on the Board of the not-for-profit company ProgHist Ltd, which supports the publications.
-    es: Este miembro funge un cargo Presidente/a del Consejero/a en el Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona las publicaciones.
+    es: Este miembro funge el cargo de Presidente/a Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona nuestras publicaciones.
     fr: Ce(tte) membre occupe un rôle Président/e du Fiduciaire au sein du conseil d'administration de la compagnie sans but lucratif ProgHist Ltd, qui soutient les publications.
     pt: Este membro tem um papel Presidente/a do Fiduciário/a no conselho de fiduciários na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
 - type: technical-lead
