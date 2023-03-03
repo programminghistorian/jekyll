@@ -44,6 +44,11 @@ is used both on project-team.md as well as es/equipo-de-proyecto.md
 {% include contact-info.html name=member.name %}
 {% endfor %}
 
+{% assign proghist-chair = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'proghist-chair'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in proghist-chair %}
+{% include contact-info.html name=member.name %}
+{% endfor %}
+
 {% assign globallead = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'global-lead'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
 {% for member in globallead %}
 {% include contact-info.html name=member.name %}
