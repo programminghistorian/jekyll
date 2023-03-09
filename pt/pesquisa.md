@@ -41,6 +41,7 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 
 ## Workshops & Eventos
 
+* Miguel Cuandros & Anthony Picón, ‘[Georreferenciación de mapas históricos con Map Warper’](https://facartes.uniandes.edu.co/evento/taller-georreferenciacion-de-mapas-historicos-con-map-warper/), Universidad de los Andes [Online], (2-3 de Março de 2023).
 * Jennifer Isasi, ‘[Crear una exhibición digital mínima e interactiva con CollectionBuilder](https://youtu.be/),’ Universidad de los Andes [Online], (9-10 de Fevereiro de 2023).  
 * Gisele Almeida, Daniel Alves & Eric Brasil, ‘[Conheça o Programming Historian em português](https://youtu.be/),’ _Programming Historian_, [Online], (25 de Janeiro de 2023).  
 * Jessica Parr, Joana Vieira Paulino & Nicolas Vaughan, ['Teaching with Programming Historian,'](https://youtu.be/u5x5WlLD-Bo) Programming Historian, (16 de dezembro de 2022).
@@ -73,6 +74,9 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 
 ## Pósteres, Artigos em conferências & Palestras convidadas
 
+* James Baker & Anisa Hawes, ‘[Research skills from a researcher’s perspective: introducing the _Programming Historian_](https://www.jisc.ac.uk/events/digifest-2023/programme#)’, Jisc Digifest, Birmingham, Reino Unido, (7 de Março de 2023).
+* Daniel Alves & Joana Vieira Paulino, ‘_The Programming Historian em português_: a step forward towards digital literacy in the social sciences and humanities', Humanities Going Digital: teaching, training and research experiences, Universidade Nova de Lisboa, Portugal (2-3 de Fevereiro, 2023).
+* Marie Flesch, 'Présentation du _Programming Historian en français_’, Séminaire CENHTOR, MSH Lorraine, Nancy, França (24 de Janeiro de 2023).
 * Riva Quiroga, '_Open Review in Journals_' Roundtable discussion at XI International Conference BIREDIAL-ISTEC, (7 de outubro de 2022).
 * Isasi, Jennifer. '_Programming Historian: A Collaborative Project to Put Programming Within the Reach of Humanists_', Language Technologies for Digital Humanities, within the Global Digital Humanities degree, Universidade de Mondragón, Espanha (14 de novembro de 2022).
 * James Baker, Paola Marchionni, Jo Pugh, Jon Reades, Yann Ryan, Chahan Vidal-Gorène, Peter Webster, & Jennie Williams, '_Developing computational skills for digital collections: a new Programming Historian series_', [DCDC22: Discovering Collections Discovering Communities](https://dcdcconference.com/), (11-15 de Julho de 2022).
