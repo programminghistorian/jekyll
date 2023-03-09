@@ -44,6 +44,7 @@ The project team and members of the wider community are involved in a number of 
 
 ## Workshops & Events
 
+* Miguel Cuandros & Anthony Picón, ‘[Georreferenciación de mapas históricos con Map Warper’](https://facartes.uniandes.edu.co/evento/taller-georreferenciacion-de-mapas-historicos-con-map-warper/), Universidad de los Andes [Online], (2-3 March 2023).
 * Jennifer Isasi, ‘[Crear una exhibición digital mínima e interactiva con CollectionBuilder](https://youtu.be/),’ Universidad de los Andes [Online], (9-10 February 2023).  
 * Gisele Almeida, Daniel Alves & Eric Brasil, ‘[Conheça o Programming Historian em português](https://youtu.be/),’ _Programming Historian_, [Online], (25 January 2023).
 * Jessica Parr, Joana Vieira Paulino & Nicolas Vaughan, ['Teaching with Programming Historian,'](https://youtu.be/u5x5WlLD-Bo) Programming Historian, (16 December 2022).
@@ -80,6 +81,9 @@ The project team and members of the wider community are involved in a number of 
 
 ## Posters, Conference Papers, & Invited Talks
 
+* James Baker & Anisa Hawes, ‘[Research skills from a researcher’s perspective: introducing the _Programming Historian_](https://www.jisc.ac.uk/events/digifest-2023/programme#)’, Jisc Digifest, Birmingham, United Kingdom, (7 March 2023).
+* Daniel Alves & Joana Vieira Paulino, ‘_The Programming Historian em português_: a step forward towards digital literacy in the social sciences and humanities', Humanities Going Digital: teaching, training and research experiences, Universidade Nova de Lisboa, Portugal (2-3 February, 2023).
+* Marie Flesch, 'Présentation du _Programming Historian en français_’, Séminaire CENHTOR, MSH Lorraine, Nancy, France (24 January 2023).
 * Riva Quiroga, '_Open Review in Journals_' Roundtable discussion at XI International Conference BIREDIAL-ISTEC, (7 October 2022).
 * James Baker, Paola Marchionni, Jo Pugh, Jon Reades, Yann Ryan, Chahan Vidal-Gorène, Peter Webster, & Jennie Williams, '_Developing computational skills for digital collections: a new Programming Historian series_', [DCDC22: Discovering Collections Discovering Communities](https://dcdcconference.com/), (11-15 July 2022). 
 * Matthias Gille Levenson, Sofia Papastamkou & Célian Ringwald, '_Programming Historian_: un lieu de collaborations et d'interactions multiples', [DHNord 2022](https://www.meshs.fr/page/dhnord2022.5): Travailler en humanités numériques: collaborations, complémentarités et tensions, Lille, France, (22 June 2022). [Link to video](https://www.meshs.fr/page/dhnord2022_session5).  
