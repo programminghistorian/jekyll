@@ -635,6 +635,10 @@ The following links are helpful for learning more about documentation, inspirati
 * [Jekyll Style Guide](http://ben.balter.com/jekyll-style-guide/)
 * [Using a custom domain with GitHub Pages hosting](https://help.github.com/en/articles/using-a-custom-domain-with-github-pages) You can purchase a domain (such as my-own-domain.com; average costs run around $10-20/year) and switch your website to using that instead of *username.github.io/repo-name* but still use GitHub Pages' free hosting.
 
+<div class="alert alert-warning">
+If you set up a custom domain with your GitHub Pages-hosted website, to avoid a known security exploit please make sure to also read and follow the steps in <a href='https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages'>GitHub’s documentation</a> to both verify your domain and avoid using wildcard DNS records.
+</div>
+    
 *Theming (aka visual appearance)*  
 * [Mozilla's CSS first steps module](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)  
 * The World Wide Web Consortium's [list of CSS learning articles and tutorials](https://www.w3.org/Style/CSS/learning.en.html)  
