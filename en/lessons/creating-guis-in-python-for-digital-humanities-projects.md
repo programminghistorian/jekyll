@@ -93,7 +93,7 @@ _Linux Users_: Use the following pip commands to install Qt Designer:
 
 `pip install pypdf4`
 
-Finally, download the [sample PDFs](/assets/creating-guis-in-python-for-digital-humanities-projects/CREATING-GUIS-IN-PYTHON-FOR-DIGITAL-HUMANITIES-PROJECTS-SAMPLE-PDFS.zip) for testing your application towards the end of this tutorial.
+Finally, download the [sample PDFs](/assets/creating-guis-in-python-for-digital-humanities-projects/creating-guis-in-python-for-digital-humanities-projects-sample-pdfs.zip) for testing your application towards the end of this tutorial.
 
 ## GUI Design Principles
 
