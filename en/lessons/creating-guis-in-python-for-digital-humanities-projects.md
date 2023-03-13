@@ -5,7 +5,7 @@ layout: lesson
 collection: lessons
 date: 2023-03-07
 authors:
-- Christopher Thomas Goodwin
+- Christopher Goodwin
 reviewers:
 - Telma Peura
 - Liz Fischer
