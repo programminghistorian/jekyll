@@ -20,7 +20,7 @@ _en español_ Nicolás Vaughan _Taller Introducción al marcado TEI_. [https://p
 ## Manifestations passées
 
 * **2 et 3 mars 2023**
-_en español_ Miguel Cuadros et Anthony Picón _Taller Introducción a los Sistemas de Información Geográfica para el análisis histórico_. [https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades](https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades)
+_en español_ Miguel Cuadros et Anthony Picón _Taller Introducción a los Sistemas de Información Geográfica para el análisis histórico_. 
 
 * **9 et 10 février 2023**  
 _en español_ Jennifer Isasi _Crear una exhibición digital mínima e interactiva con CollectionBuilder_.
