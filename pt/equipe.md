@@ -5,9 +5,7 @@ original: project-team
 ---
 
 # Equipe do Projeto
-Por favor, envie uma mensagem em primeira instância para:
-
-{% include managing-editor-loop.html %}
+Por favor, envie uma mensagem em primeira instância para nossa gestão da publicação <a href="mailto:admin@programminghistorian.org">Anisa Hawes</a>.
 
 {% include toc.html %}
 

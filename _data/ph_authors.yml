@@ -46,7 +46,7 @@
     pt: |
       Adam Crymble, University College London.
   team_roles:
-    - proghist
+    - proghist-chair
   status: institutionally-supported
 
 - name: Caleb McDaniel
@@ -1402,6 +1402,7 @@
     - editorial
     - english
     - technical-lead
+    - proghist
   status: volunteer
 
 - name: Dave Rodriguez
@@ -2193,7 +2194,7 @@
     pt: |
       Anisa Hawes, Programming Historian.
   team_roles:
-    - proghist
+    - publishing-manager
   status: institutionally-supported
 
 - name: Nicolás Vaughan
@@ -2649,8 +2650,9 @@
 - name: Gisele Almeida
   github: GeeAlmeida
   email: community@programminghistorian.org
-  team: true
+  team: false
   team_start: 2022
+  team_end: 2023
   institution: Programming Historian, UK
   sortname: Almeida
   affiliation:

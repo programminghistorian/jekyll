@@ -5,9 +5,7 @@ redirect_from: /project-team
 ---
 
 # Project Team
-Please direct correspondence in the first instance to:
-
-{% include managing-editor-loop.html %}
+Please direct correspondence in the first instance to our publishing manager <a href="mailto: admin@programminghistorian.org">Anisa Hawes</a>.
 
 {% include toc.html %}
 
