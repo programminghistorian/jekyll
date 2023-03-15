@@ -45,23 +45,23 @@
     en: Trustee
     es: Consejero/a
     fr: Administrateur/administratrice
-    pt: Fiduciário/a
+    pt: Curador/a
   definition:
     en: This member holds a role on the Board of the not-for-profit company ProgHist Ltd, which supports the publications.
     es: Este miembro funge un cargo en el Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona las publicaciones.
     fr: Ce(tte) membre occupe un rôle au sein du conseil d'administration de l'organisme sans but lucratif ProgHist Ltd, qui soutient les publications.
-    pt: Este membro tem um papel no conselho de fiduciários na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
+    pt: Este membro tem um papel no conselho de curadores na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
 - type: proghist-chair
   label:
     en: Chair of Trustees
     es: Presidente/a de Consejeros
     fr: Président/e du conseil d'administration
-    pt: Presidente/a do Fiduciário/a
+    pt: Presidente do Conselho de Curadores
   definition:
     en: This member holds the role of Chair of Trustees on the Board of the not-for-profit company ProgHist Ltd, which supports the publications.
     es: Este miembro funge el cargo de Presidente/a Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona nuestras publicaciones.
     fr: Ce(tte) membre occupe le rôle de président/e du conseil d'administration de l'organisme sans but lucratif ProgHist Ltd, qui soutient les publications.
-    pt: Este membro tem um papel Presidente/a do Fiduciário/a no conselho de fiduciários na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
+    pt: Este membro tem um papel de Presidente do Conselho de Curadores na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
 - type: technical-lead
   label:
     en: Technical Lead
@@ -100,7 +100,7 @@
     en: Publishing Manager
     es: Directora de publicaciones
     fr: Responsable de la publication
-    pt: Gestão da publicação
+    pt: Gestor/a de publicações
   definition:
     en: Responsible for the development and production of our publications
     es: Responsable del desarrollo y la producción de nuestras publicaciones
@@ -113,7 +113,7 @@
     en: Volunteer
     es: Voluntario/a
     fr: Bénévole
-    pt: Voluntário
+    pt: Voluntário/a
   definition:
     en: This member's time on the project is wholly voluntary.
     es: El tiempo que este miembro dedica al proyecto es voluntario.
