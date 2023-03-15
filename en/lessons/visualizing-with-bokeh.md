@@ -344,7 +344,7 @@ p.add_tools(hover)
 show(p)
 ```
 
-Bokeh supports [many plotting tools](https://bokeh.pydata.org/en/latest/docs/user_guide/tools.html), but I introduce `HoverTool` here because it's particularly useful for data exploration and interaction. `HoverTool` allows you to set a `tooltips` property which takes a list of [tuples](https://www.w3schools.com/python/python_tuples.asp). The first part of the tuple is a display name and the second is a column name from your `ColumnDataSource` prefaced with `@`. Once we've instantiated this tool, we add it to the plot using the `add_tool` method. We'll see how this looks in a moment.
+Bokeh supports [many plotting tools](https://docs.bokeh.org/en/latest/docs/reference/plotting.html), but I introduce `HoverTool` here because it's particularly useful for data exploration and interaction. `HoverTool` allows you to set a `tooltips` property which takes a list of [tuples](https://www.w3schools.com/python/python_tuples.asp). The first part of the tuple is a display name and the second is a column name from your `ColumnDataSource` prefaced with `@`. Once we've instantiated this tool, we add it to the plot using the `add_tool` method. We'll see how this looks in a moment.
 
 Finally, we make sure to add the line to show the plot. Now we can run `column_datasource.py` and interact with our data in the browser.
 
@@ -379,7 +379,7 @@ output_file('munitions_by_country.html')
 
 df = pd.read_csv('thor_wwii.csv')
 ```
-First, we import the Pandas library and the basic elements from Bokeh (i.e. `figure`, `output_file`, `show`, and `ColumnDataSource`). We also make two new imports: `Spectral5` is a pre-made five color pallette, one of Bokeh's many [pre-made color palettes](https://bokeh.pydata.org/en/latest/docs/reference/palettes.html), and `factor_cmap` is a helper method for mapping colors to bars in a bar-charts.
+First, we import the Pandas library and the basic elements from Bokeh (i.e. `figure`, `output_file`, `show`, and `ColumnDataSource`). We also make two new imports: `Spectral5` is a pre-made five color pallette, one of Bokeh's many [pre-made color palettes](https://docs.bokeh.org/en/latest/docs/reference/palettes.html#bokeh-palettes), and `factor_cmap` is a helper method for mapping colors to bars in a bar-charts.
 
 After the imports, we set our `output_file`  and load the thor_wwii.csv file into a `DataFrame`.
 
@@ -454,7 +454,7 @@ We add a hover tool again, but now we see that we can use multiple data variable
 
 {% include figure.html filename="visualizing-with-bokeh-3.png" caption="A Bar Chart with Categorical Data and Coloring" %}
 
-{% include alert.html text="If you have a chance, it's worth exploring Bokeh's [color palettes](https://bokeh.pydata.org/en/latest/docs/reference/palettes.html). In the above example, try rewriting the code to use something other than `Spectral5`, such as `Inferno5` or `RdGy5`. To take it one step further, you can try your hand at using built-in palettes in any example that uses color." %}
+{% include alert.html text="If you have a chance, it's worth exploring Bokeh's [color palettes](https://docs.bokeh.org/en/latest/docs/reference/palettes.html#bokeh-palettes). In the above example, try rewriting the code to use something other than `Spectral5`, such as `Inferno5` or `RdGy5`. To take it one step further, you can try your hand at using built-in palettes in any example that uses color." %}
 
 # Stacked Bar Charts and Sub-sampling Data: Types of Munitions Dropped by Country
 
@@ -675,7 +675,7 @@ p.add_layout(box)
 
 In this final part of the lesson we'll look at the spatial components of fragmentation bombs.
 
-Bokeh provides [built-in tile providers](https://bokeh.pydata.org/en/latest/docs/reference/tile_providers.html) that render base maps of the world. These are contained in the `bokeh.tile_providers` module. For this example, we'll use the CartoDB Tile Service (CARTODBPOSITRON).
+Bokeh provides [built-in tile providers](https://docs.bokeh.org/en/latest/docs/reference/tile_providers.html) that render base maps of the world. These are contained in the `bokeh.tile_providers` module. For this example, we'll use the CartoDB Tile Service (CARTODBPOSITRON).
 
 We'll also be using functions imported from the `pyproj` library. Since our coordinates are stored as latitude/longitude, we'll define a custom function to convert them before mapping. Note that although Bokeh is coordinate-system neutral, it uses the Web Mercator projection for mapping, a standard found across web tile providers. The subject of coordinate systems and projections are outside the scope of this tutorial, but the interested reader will find many useful web resources on these topics.
 
@@ -757,12 +757,12 @@ Having plotted which targets in Europe and Asia were bombed with fragmentation b
 
 # Bokeh as a Visualization Tool
 
-Bokeh's strength as a visualization tool lies in its ability to show differing types of data in an interactive and web-friendly manner. This tutorial has only scratched the surface of Bokeh's capabilities and the reader is encourage to delve deeper into the library's workings. A great place to start is the [Bokeh gallery](https://bokeh.pydata.org/en/latest/docs/gallery.html), where you can see a variety of visualizations and decide how you might apply these techniques to your own data. If you're more inclined to dive right into further code examples, Bokeh's [online notebook](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb) is an excellent place to start!
+Bokeh's strength as a visualization tool lies in its ability to show differing types of data in an interactive and web-friendly manner. This tutorial has only scratched the surface of Bokeh's capabilities and the reader is encourage to delve deeper into the library's workings. A great place to start is the [Bokeh gallery](https://docs.bokeh.org/en/latest/docs/gallery.html), where you can see a variety of visualizations and decide how you might apply these techniques to your own data. If you're more inclined to dive right into further code examples, Bokeh's [online notebook](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb) is an excellent place to start!
 
 # Further Resources
 
-- [Bokeh User Guide](https://bokeh.pydata.org/en/latest/docs/user_guide.html)
-- [Bokeh Gallery](https://bokeh.pydata.org/en/latest/docs/gallery.html)
+- [Bokeh User Guide](https://docs.bokeh.org/en/latest/docs/user_guide.html)
+- [Bokeh Gallery](https://docs.bokeh.org/en/latest/docs/gallery.html)
 - [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/index.html)
 - [Pandas Cheat Sheet](https://www.kdnuggets.com/2017/01/pandas-cheat-sheet.html)
 - [Bokeh Cheat Sheet](https://www.kdnuggets.com/2017/03/bokeh-cheat-sheet.html)
