@@ -227,7 +227,7 @@ if __name__ == "__main__":
     ui = Ui_Dialog()
     ui.setupUi(Dialog)
     Dialog.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec_(){% raw %}){% endraw %}
 ```
 
 At this point, three things need to be edited:
@@ -263,7 +263,7 @@ class Ui_Dialog(QObject):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
         self.title_label.setText(_translate("Dialog", "PDF File Merger"))
-        self.merge_button.setText(_translate("Dialog", "Merge Files"))
+        self.merge_button.setText(_translate("Dialog", "Merge Files"){% raw %}){% endraw %}
 ```
 
 Our list of PDF files to merge will not be stored in a Python list or dictionary but directly in the QListWidget itself. This simple solution prevents the need to pass variables around functions or declare global variables.
@@ -294,7 +294,7 @@ class ListDragWidget(QtWidgets.QListWidget):
                 if file.path().endswith('.pdf'): # make sure it is a PDF file
                     self.addItem(file.toLocalFile())
         else:
-            super(ListDragWidget, self).dropEvent(event)
+            super(ListDragWidget, self).dropEvent(event{% raw %}){% endraw %}
 ```
 
 The `dragEnterEvent` function allows files to be dragged onto the widget itself. The `dropEvent` function enables the functionality for releasing the mouse button. Both use `event.mimeData().hasUrls()` to ensure that whatever is being dragged and dropped has a file path, verifying that it is, in fact, a file. The `dropEvent` function contains additional verification that the file is a PDF document.
@@ -304,7 +304,7 @@ Now that we can select the PDF files we want to merge, we need to add the functi
 Return to the `Ui_Dialog` class and; below the `retranslateUi(self,  Dialog)` function generated during conversion from the Qt Designer file, add the following:
 
 ```
-@pyqtSlot()
+{% raw %}@pyqtSlot(){% endraw %}
 def mergeDocSlot(self):
     output_file_name = 'merged.pdf'  # default name for file output
 
@@ -336,7 +336,7 @@ def mergeDocSlot(self):
             pdf_merger.close()
 
             success_message = QtWidgets.QMessageBox.information(
-                None, "Files Merged", f"{output_file_name} has been successfully written!")
+                None, "Files Merged", f"{output_file_name} has been successfully written{% raw %}!"){% endraw %}
 ```
 
 First, we will create a generic output file name for our final PDF. Next, we will use PyQt’s built-in file-saving dialogue boxes. This will allow the user to choose a file name and ensures the file will be saved as a PDF.
