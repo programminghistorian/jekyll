@@ -155,7 +155,7 @@ Next, from the "Buttons" section of the Widget Box, drag a Push Button to your D
 
 Press Edit on the Menu Bar at the top left corner of your screen (where you can find your typical File menu to save your work, for example) and select Edit Signals/Slots from the top of the screen. When you hover your mouse over an object in your dialog box, it will now highlight red. 
 
-Press and hold on your Merge Files button and drag the mouse slightly off the button until you see a red line appear. Then release your mouse button. The Configure Connection dialog box will appear. Select `clicked()` from the left side of the menu and Edit on the right side. Under the top box labeled Slots, press the green addition sign. Type in `mergeDocSlot()`. Select mergeDocSlot(), then click "Ok" once to close the current window and again to close the next window. You should be back to the basic Qt Designer windows. Now select the item you just created. 
+Press and hold on your Merge Files button and drag the mouse slightly off the button until you see a red line appear. Then release your mouse button. The Configure Connection dialog box will appear. Select `clicked()` from the left side of the menu and Edit on the right side. Under the top box labeled Slots, press the green addition sign. Type in `mergeDocSlot()`. Select `mergeDocSlot()`, then click "Ok" once to close the current window and again to close the next window. You should be back to the basic Qt Designer windows. Now select the item you just created. 
 
 This creates the connection between the button in the user interface and the function we will write later, `mergeDocSlot()`. Clicking the button signals the execution of the specific function. Without this, the button could be clicked, but nothing would happen.
 
@@ -423,8 +423,7 @@ The author hosts a version of this application on his [Github page](https://gith
 
 For those running macOS with M-series chipsets, the following resources may help overcome the current incompatibility encountered when installing PyQt5:
 
-1. [This stackoverflow post](https://perma.cc/3AN7-LNLS) suggests 
-using a Rosetta 2 terminal and a non-homebrew version of Python. Other responses indicate that adding PyQt5 as a dependency for Python might work.
+1. [This stackoverflow post](https://perma.cc/3AN7-LNLS) suggests using a Rosetta 2 terminal and a non-homebrew version of Python. Other responses indicate that adding PyQt5 as a dependency for Python might work.
 
 2. Users on [this stackoverflow post](https://perma.cc/AD88-LV2N) suggest a workaround that involves installing PyQt5 using Anaconda, while one user suggests an alternate homebrew installation method.
 
