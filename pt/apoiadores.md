@@ -52,6 +52,8 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), Reino Unido
 - [University of York](https://www.york.ac.uk/), Reino Unido
 - [University of Oxford](https://www.ox.ac.uk), Reino Unido
+- [Universität Bern Bibliothek](https://www.ub.unibe.ch/), Suíça
+- [University of Florida](https://www.ufl.edu/), Estados Unidos
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
