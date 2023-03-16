@@ -182,7 +182,7 @@ A Python file will generate in the same directory. As you can see from this file
 
 In your Python editor or integrated development environment (IDE), open the newly created PDFFileMerge.py file. Our entire codebase will reside in this single script. We will begin by adding the necessary libraries. Qt Designer will have automatically added some of the following but ensure that all are present in your Python file.
 
-```
+```python
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import QObject, pyqtSlot
 from PyPDF4 import PdfFileMerger
@@ -190,7 +190,7 @@ from PyPDF4 import PdfFileMerger
 
 Your beginning file, which is the `.ui` file converted to Python code, should look like this:
 
-```
+```python
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
@@ -237,7 +237,7 @@ At this point, three things need to be edited:
 
 The class definition will now look like this:
 
-```
+```python
 class Ui_Dialog(QObject):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
@@ -270,7 +270,7 @@ Our list of PDF files to merge will not be stored in a Python list or dictionary
 
 We will need to create a new class outside the `Ui_Dialog` class to implement drag and drop functionality.
 
-```
+```python
 class ListDragWidget(QtWidgets.QListWidget):
     """Creates a list widget that allows user to drag and drop PDF
     files into the widget area to add these files."""
@@ -303,7 +303,7 @@ Now that we can select the PDF files we want to merge, we need to add the functi
 
 Return to the `Ui_Dialog` class and; below the `retranslateUi(self,  Dialog)` function generated during conversion from the Qt Designer file, add the following:
 
-```
+```python
 @pyqtSlot()
 def mergeDocSlot(self):
     output_file_name = 'merged.pdf'  # default name for file output
