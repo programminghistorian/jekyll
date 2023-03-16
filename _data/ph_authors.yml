@@ -1123,7 +1123,7 @@
 - name: Jennifer Isasi
   url: "https://jenniferisasi.github.io/"
   twitter: jenniferisve
-  email: jenniferbibat@gmail.com
+  email: espanol@programminghistorian.org
   github: jenniferisasi
   team: true
   team_start: 2018
@@ -1152,6 +1152,7 @@
     - spanish
     - editorial
     - technical
+    - managing
   status: institutionally-supported
 
 - name: Jon MacKay
@@ -1425,7 +1426,7 @@
 
 - name: Riva Quiroga
   twitter: rivaquiroga
-  email: espanol@programminghistorian.org
+  email: riva.quiroga@uc.cl
   github: rivaquiroga
   url: "https://rivaquiroga.cl/"
   orcid: 0000-0002-1147-4135
@@ -1452,7 +1453,7 @@
     pt: |
       Riva Quiroga é pesquisadora doutoral em Linguística na Universidad Católica de Chile.
   team_roles:
-    - managing
+    - editor
     - spanish
     - proghist
   status: volunteer

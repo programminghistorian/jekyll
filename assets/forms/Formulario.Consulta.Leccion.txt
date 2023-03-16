@@ -3,7 +3,7 @@
 Si estás interesado en escribir un tutorial y enviarlo a Programming Historian, por favor llena este formulario para darle al Consejo Editorial suficientes detalles para valorar tu idea. Si estás teniendo problemas con el formulario puedes contactar al Jefe de Redacción directamente:
 
 Inglés: Alex Wermer-Colan (english@programminghistorian.org)
-Español: Riva Quiroga (espanol@programminghistorian.org)
+Español: Jennifer Isasi (espanol@programminghistorian.org)
 Francés: Marie Flesch (francais@programminghistorian.org)
 Portugués: Daniel Alves (portugues@programminghistorian.org)
 

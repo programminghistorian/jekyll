@@ -3,7 +3,7 @@
 Si vous souhaitez écrire un tutoriel et le soumettre au Programming Historian, merci de remplir cette fiche en fournissant toutes les informations qui permettront au comité éditorial de discuter de votre idée. Pour toute question sur ce formulaire, merci de contacter directement notre rédacteur ou rédactrice en chef:
 
 Anglais: Alex Wermer-Colan (english@programminghistorian.org)
-Espagnol: Riva Quiroga (espanol@programminghistorian.org)
+Espagnol: Jennifer Isasi (espanol@programminghistorian.org)
 Français: Marie Flesch (francais@programminghistorian.org)
 Portugais: Daniel Alves (portugues@programminghistorian.org)
 
