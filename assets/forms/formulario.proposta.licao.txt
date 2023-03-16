@@ -1,9 +1,9 @@
 # Proposta de nova lição para o Programming Historian
 
-Se estiver interessado em escrever uma lição e enviá-la ao Programming Historian, preencha este formulário para fornecer ao Conselho Editorial detalhes suficientes para comentar a sua ideia. Se tiver dificuldades com o formulário, pode entrar em contato com o nosso Editor-chefe diretamente: 
+Se estiver interessado em escrever uma lição e enviá-la ao Programming Historian, preencha este formulário para fornecer ao Conselho Editorial detalhes suficientes para comentar a sua ideia. Se tiver dificuldades com o formulário, pode entrar em contato com o nosso Editor-chefe diretamente:
 
 Inglês: Alex Wermer-Colan (english@programminghistorian.org)
-Espanhol: Riva Quiroga (espanol@programminghistorian.org)
+Espanhol: Jennifer Isasi (espanol@programminghistorian.org)
 Francês: Marie Flesch (francais@programminghistorian.org)
 Português: Daniel Alves (portugues@programminghistorian.org)
 
