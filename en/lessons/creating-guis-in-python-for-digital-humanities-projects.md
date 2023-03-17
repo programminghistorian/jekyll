@@ -357,7 +357,7 @@ At this point, the application functions once you run the PdfFileMerger.py scrip
 
 ### Testing Basic Functionality
 
-[Four PDF files are available to download](/assets/creating-guis-in-python-for-digital-humanities-projects/CREATING-GUIS-IN-PYTHON-FOR-DIGITAL-HUMANITIES-PROJECTS-SAMPLE-PDFS.zip) to test your application, alongside one `merged.pdf` to compare with your own application's output. They consist of an excerpt from Thomas Carlyle's *The Moral Phenomena of Germany* (1845).[^2] When you've run your PDF Merger script, drag the four files into the list widget.
+[Four PDF files are available to download](/assets/creating-guis-in-python-for-digital-humanities-projects/creating-guis-in-python-for-digital-humanities-projects-sample-pdfs.zip) to test your application, alongside one `merged.pdf` to compare with your own application's output. They consist of an excerpt from Thomas Carlyle's _The Moral Phenomena of Germany_ (1845).[^2] When you've run your PDF Merger script, drag the four files into the list widget.
 
 You must drag and drop into the list widget because our code specified that area as drag-and-droppable &mash; the user cannot simply drop PDF files anywhere in the application. The items will enter the widget in the order that is considered alphabetical on your operating system (they are currently numbered to be alphabetical on MacOS). Our application also allows the user to re-arrange the order of the files after they have been dropped into the list widget. Whatever order prevails in the list widget at the time of execution is the order the files will appear in the final merged document.
 
