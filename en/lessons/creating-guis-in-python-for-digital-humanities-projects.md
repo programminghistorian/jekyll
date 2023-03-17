@@ -62,7 +62,7 @@ You can use any version of Python 3, though 3.5+ is recommended. You will also n
 <div class="alert alert-warning">
 For readers with Apple M-Series chipsets:  
 
-Please be aware that as of the date of publication (January 2023), the steps for installing PyQt5 in this tutorial will not work with the M-series chipsets used in some newer Mac computers, due to compatibility issues with the required PyQt5 package. Workarounds do exist, but at the moment seem to be system-dependent. If the reader successfully installs PyQt5, the source code in the tutorial will work on M-series chipsets. See the Additional Resources section for more information on troubleshooting installation problems.  
+Please be aware that as of the date of publication, the steps for installing PyQt5 in this tutorial will not work with the M-series chipsets used in some newer Mac computers, due to compatibility issues with the required PyQt5 package. Workarounds do exist, but at the moment seem to be system-dependent. If the reader successfully installs PyQt5, the source code in the tutorial will work on M-series chipsets. See the Additional Resources section for more information on troubleshooting installation problems.  
 
 The Pyinstaller package for creating a distributable application also has compatibility issues with M-series chipsets. See the Additional Resources section for potential workarounds.
 </div>
