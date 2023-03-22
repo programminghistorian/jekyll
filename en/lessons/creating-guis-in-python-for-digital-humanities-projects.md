@@ -3,7 +3,7 @@ title: "Creating GUIs in Python for Digital Humanities Projects"
 slug: creating-guis-in-python-for-digital-humanities-projects
 layout: lesson
 collection: lessons
-date: 2023-03-07
+date: 2023-03-22
 authors:
 - Christopher Goodwin
 reviewers:
