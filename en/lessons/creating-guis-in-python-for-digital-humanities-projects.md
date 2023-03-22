@@ -25,7 +25,7 @@ doi: 10.46430/phen0107
 
 # Introduction
 
-This tutorial demonstrates how to implement a Graphical User Interface (GUI) using Python. A GUI is an expected feature of most modern applications, but many users lack the necessary computing skills to execute Python scripts or operate terminal/command line applications. Distributing applications that use GUIs helps support the greatest number of other historians to benefit from the applications you develop. This tutorial focuses on the three steps involved in creating modern-looking and useable applications: designing a GUI, implementing a GUI within an application, and creating an executable file to distribute the application.
+This lesson demonstrates how to implement a Graphical User Interface (GUI) using Python. A GUI is an expected feature of most modern applications, but many users lack the necessary computing skills to execute Python scripts or operate terminal/command line applications. Distributing applications that use GUIs helps support the greatest number of other historians to benefit from the applications you develop. This tutorial focuses on the three steps involved in creating modern-looking and useable applications: designing a GUI, implementing a GUI within an application, and creating an executable file to distribute the application.
 
 We will program a GUI to deal with a problem commonly encountered by historians: merging PDF files. Historians often find themselves with various PDF files that are logically connected, and that would be simpler to use for research or collaboration if they were merged into a single document. Many archives on the internet only allow users to download one page at a time, rather than an entire document. Another use-case scenario arises when historians only download the pages they need and skip intervening pages. Or, when historians at physical archives take digital pictures of only certain documents, rather than the entire file. At the end of their archival visit, they find that they have a large number of individual images, of which many should be part of one document or file. Oftentimes, internet archives or digital cameras name these files in conventional and logical ways (img_001, img_002, img_003). Our Python script will provide a simple drag-and-drop interface to move these files into the application and a single button press will merge them into one document.
 
@@ -44,8 +44,7 @@ Most Python programmers are familiar with using a command line interface (CLI). 
 
 How does one decide between programming a CLI or a GUI script/app? If the script requires little or no interaction from the user, use a CLI. If the program is relatively uncomplicated, a CLI will likely suffice. However, if you wish to share your applications or scripts with users with little programming knowledge or limited computing skills, you should use a GUI. Finally, suppose your application contains complicated features, and you do not know in what order the user might want to use those features. In that case, a GUI offers freedom for the user and is actually simpler for the programmer to implement than the confusing and intricate logic branches and loops that a CLI script would require.
 
-Our PDF Merger sample application will provide flexibility, ease of use, and efficiency that a traditional CLI application cannot achieve when
-confronted by a similar research challenge. This tutorial takes a concrete example: our program’s goal is to merge various PDFs. A CLI could do this, but it would be challenging to merge PDFs that were not in the same file directory. With the GUI created in this tutorial, the user will be able to use drag-and-drop functionality to select and merge specific PDFs from any file location on the computer, including the hard drive, cloud, USB stick, or other peripherals.
+Our PDF Merger sample application will provide flexibility, ease of use, and efficiency that a traditional CLI application cannot achieve when confronted by a similar research challenge. This tutorial takes a concrete example: our program’s goal is to merge various PDFs. A CLI could do this, but it would be challenging to merge PDFs that were not in the same file directory. With the GUI created in this tutorial, the user will be able to use drag-and-drop functionality to select and merge specific PDFs from any file location on the computer, including the hard drive, cloud, USB stick, or other peripherals.
 
 After you finish the tutorial, your final design should resemble Figure 1. It may be helpful to refer back to this picture as you follow the steps.
 
@@ -62,9 +61,9 @@ You can use any version of Python 3, though 3.5+ is recommended. You will also n
 <div class="alert alert-warning">
 For readers with Apple M-Series chipsets:  
 
-Please be aware that as of the date of publication, the steps for installing PyQt5 in this tutorial will not work with the M-series chipsets used in some newer Mac computers, due to compatibility issues with the required PyQt5 package. Workarounds do exist, but at the moment seem to be system-dependent. If the reader successfully installs PyQt5, the source code in the tutorial will work on M-series chipsets. See the Additional Resources section for more information on troubleshooting installation problems.  
+Please be aware that as of the date of publication, the steps for installing PyQt5 in this tutorial will not work with the M-series chipsets used in some newer Mac computers, due to compatibility issues with the required PyQt5 package. Workarounds do exist, but at the moment seem to be system-dependent. If the reader successfully installs PyQt5, the source code in the tutorial will work on M-series chipsets. See the [Additional Resources section](#additional-resources) for more information on troubleshooting installation problems.  
 
-The Pyinstaller package for creating a distributable application also has compatibility issues with M-series chipsets. See the Additional Resources section for potential workarounds.
+The Pyinstaller package for creating a distributable application also has compatibility issues with M-series chipsets. See the [Additional Resources](#additional-resources) for potential workarounds.
 </div>
 
 ### Python GUI Tools
@@ -120,13 +119,11 @@ Merging PDF files in a directory is a relatively easy goal to achieve using Pyth
 
 ## Designing the Interface with Qt Designer
 
-To begin, launch the Qt Designer application you downloaded earlier by clicking on its icon. On MacOS and Windows the application will be located
-where you selected during the installation process; the default for MacOS is your Applications folders and the default for Windows is `C:\Program Files (x86)\Qt Designer`. Linux users' path will vary but, for example on Ubuntu, they may find the application with the following commands:
+To begin, launch the Qt Designer application you downloaded earlier by clicking on its icon. On MacOS and Windows the application will be located where you selected during the installation process; the default for MacOS is your Applications folders and the default for Windows is `C:\Program Files (x86)\Qt Designer`. Linux users' path will vary but, for example on Ubuntu, they may find the application with the following commands:
 
 `cd /usr/lib/x86_64-linux-gnu/qt5/bin/` 
 
 `./designer` 
-
 
 If you cannot locate the application, follow the instructions above in the [Prerequisites and Tools section](#prerequisites-and-tools) to download and install Qt Designer.
 
@@ -134,12 +131,15 @@ After the application loads, a prompt will request you to create a New Form. To 
 
 The Windows and Linux version of Qt Designer (Figure 2) is self-contained and provides little flexibility using the interface, but it is neatly organized 'out of the box'. The MacOS version (Figure 3) has many individual windows and the arrangement is initially cluttered. This tutorial primarily uses the MacOS version and it is recommended that you arrange the individual windows in the layout shown in Figure 2 to ease visibility and usage. Whichever version you use, however, there is little to no difference when it comes to following this tutorial. At most, the arrangement of certain items or buttons may differ.
 
-
 {% include figure.html filename="CREATING-GUIS-IN-PYTHON-FOR-DIGITAL-HUMANITIES-PROJECTS2.png" alt="Qt Designer application window containing four numbered rectangular windows. One: GUI interface editor. Two: Widget Box. Three: Property Editor. Four: Signal and Slot Editor." caption="Figure 2. The Qt Designer Interface (Windows and Linux Version)" %}
 
 {% include figure.html filename="CREATING-GUIS-IN-PYTHON-FOR-DIGITAL-HUMANITIES-PROJECTS3.png" alt="Qt Designer application containing four numbered rectangular windows. One: GUI interface editor. Two: Widget Box. Three: Property Editor. Four: Signal and Slot Editor." caption="Figure 3. The Qt Designer Interface (MacOS Version)" %}
 
-For both versions above, the Dialog box (**1**) that will become our GUI is central on the screen. To its left is the Widget Box (**2**) that contains all the user interface (UI) features that Qt Designer can implement; this includes everything from simple design features such as static text to more complicated features such as the interactive List Widget that we will work with. Our other main toolbox resides on the right, the Property Editor (**3**). It is here that we will customize every widget we implement and can do so at a granular level. Below the dialog box lies the Signal/Slot Editor window (**4**). Note that you may have to select the tab "Signal/Slot Editor" at the bottom right corner of Qt Designer on the Windows and Linux version to see that tool. Later in the tutorial we will use this to implement the more intricate interactions between the GUI and the user. Qt Designer has several other windows that we will not use. Feel free to close them.
+For both versions above, the Dialog box (**1**) that will become our GUI is central on the screen. To its left is the Widget Box (**2**) that contains all the user interface (UI) features that Qt Designer can implement; this includes everything from simple design features such as static text to more complicated features such as the interactive List Widget that we will work with. 
+
+Our other main toolbox resides on the right, the Property Editor (**3**). It is here that we will customize every widget we implement and can do so at a granular level. Below the dialog box lies the Signal/Slot Editor window (**4**). 
+
+Note that you may have to select the tab "Signal/Slot Editor" at the bottom right corner of Qt Designer on the Windows and Linux version to see that tool. Later in the tutorial we will use this to implement the more intricate interactions between the GUI and the user. Qt Designer has several other windows that we will not use. Feel free to close them.
 
 ### Adding the Application Title
 
@@ -166,7 +166,6 @@ Now, we need a list view to drag and drop files into our application and view wh
 In our final design, users will be able to drag and drop files directly into this widget. This is not, however, immediately obvious. You need some way to inform your users. If you are distributing your application to a handful of people or are only using it yourself, you could simply tell them. It is a principle of good design to inform users within the application itself. 
 
 The simplest way to inform the user is to simply add another Label just as we did in the Adding the Application Title section above. A note such as "Drag and drop files into the box above" just below the widget will suffice. Play around with customizing the exact wording and ensure that the font fits properly between the Merge PDFs button and the drag and drop widget.
-
 
 ### Saving the Qt Designer File and Transforming it into Code
 
@@ -353,7 +352,11 @@ If the file output is successful, we use PyQt’s built-in information message b
 
 ## Error Testing
 
-At this point, the application functions once you run the PdfFileMerger.py script on your computer. Because this application is likely intended for distribution (so that others can benefit from your hard work), you should spend some time testing for errors &mdash; the end-user will not have the ability to open the original script and fix errors as they arise. Especially for GUI applications, it is essential to test edge-cases and what "strange" things a user might do that could crash the application. The developer cannot imagine all possibilities, but thorough testing should ensure that the vast majority of use cases are covered. Your goal when error testing is to try to "break" the application and then program solutions so that, during real-world use, the application does not crash.
+At this point, the application functions once you run the PdfFileMerger.py script on your computer. Because this application is likely intended for distribution (so that others can benefit from your hard work), you should spend some time testing for errors &mdash; the end-user will not have the ability to open the original script and fix errors as they arise. 
+
+Especially for GUI applications, it is essential to test edge-cases and what "strange" things a user might do that could crash the application. The developer cannot imagine all possibilities, but thorough testing should ensure that the vast majority of use cases are covered. 
+
+Your goal when error testing is to try to "break" the application and then program solutions so that, during real-world use, the application does not crash.
 
 ### Testing Basic Functionality
 
@@ -379,7 +382,11 @@ Another example of error detection and prevention exists in the QListWidget code
 
 # Exercises for the Reader
 
-When designing applications with GUIs, it’s important to remember that one of the primary goals is ease of use for the end-user. Feature implementation projects available to the reader of this tutorial that could further aid usability are: a "browse" button to add files through an ordinary file dialogue box; a "remove selected item" button to eliminate an erroneously added file on the list; a "clear all list items" button to empty the list completely; and a formal "exit" button. The [Additional Resources section](#additional-resources) includes a link to the PyQt5 documentation that contains instructions and examples of all the necessary UI features: file browsing dialog boxes and button interactions with signals. With the exception of the Word to PDF converter outlined above, the author's GitHub page contains a repository showing code to implement the above features: [PDF Merger](https://perma.cc/A6ZN-YC7J). It is suggested that you try implementing the features first, as an exercise, before consulting the repository. You should also keep in mind that there are many, many ways to implement a single feature; do not worry if your code looks vastly different from that provided in the repository. You should, however, compare the code to look for inefficiencies or alternate methods &mdash; always a valuable learning exercise.
+When designing applications with GUIs, it’s important to remember that one of the primary goals is ease of use for the end-user. Feature implementation projects available to the reader of this tutorial that could further aid usability are: a "browse" button to add files through an ordinary file dialogue box; a "remove selected item" button to eliminate an erroneously added file on the list; a "clear all list items" button to empty the list completely; and a formal "exit" button.
+
+The [Additional Resources section](#additional-resources) includes a link to the PyQt5 documentation with instructions and examples of all the necessary UI features: file browsing dialog boxes and button interactions with signals. With the exception of the Word to PDF converter outlined above, the author's GitHub page contains a repository showing code to implement the above features: [PDF Merger](https://perma.cc/A6ZN-YC7J). It is suggested that you try implementing the features first, as an exercise, before consulting the repository. 
+
+You should also keep in mind that there are many, many ways to implement a single feature; do not worry if your code looks vastly different from that provided in the repository. You should, however, compare the code to look for inefficiencies or alternate methods &mdash; always a valuable learning exercise.
 
 # Creating the Distributable Application
 
