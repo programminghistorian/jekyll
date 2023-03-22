@@ -113,6 +113,7 @@ Deciding to implement a GUI often involves a reorientation of the programmer’s
 
 The field of user interface design is now vast. The [Additional Resources section](#additional-resources) below contains more advanced resources for those wishing to dive more deeply into the field.
 
+
 # A GUI Project: PDF Merger
 
 Merging PDF files in a directory is a relatively easy goal to achieve using Python and other freely available packages. Equally, a basic script operated from the command line can accomplish the task. Yet, what if the user only desires to merge some of the PDFs in the directory rather than all of them? Or perhaps the user needs to merge PDFs stored in various locations across their hard drive. In the former case, the user would need to remove the undesired files. In the latter case, the user would have to move or copy the files into one central location. An application with a GUI and drag-and-drop functionality can make the process simple.
@@ -380,6 +381,7 @@ _Ensuring the User Can Only Drag and Drop PDF Files_
 
 Another example of error detection and prevention exists in the QListWidget code. At two points, we check with `.hasUrls()` to ensure that the file a user is dragging and dropping has a valid file path. Finally, when the user releases the mouse button, our code ensures that the file is a PDF when the actual drop occurs. If another file type could be added, the app would crash as soon as PyPDF4 attempted to merge PDF files with other file formats. Our code prevents the user from even attempting to merge a PDF with an audio or video file. Future features that the app developer might add could help the user in this regard. For example, a common task is to merge Microsoft Word documents with PDFs. An app developer could add a way for the program to detect a Word document, convert it to a PDF, and merge it with the other PDFs. The Python package [docx2pdf](https://perma.cc/2LPP-34DX) provides a way to implement this feature.
 
+
 # Exercises for the Reader
 
 When designing applications with GUIs, it’s important to remember that one of the primary goals is ease of use for the end-user. Feature implementation projects available to the reader of this tutorial that could further aid usability are: a "browse" button to add files through an ordinary file dialogue box; a "remove selected item" button to eliminate an erroneously added file on the list; a "clear all list items" button to empty the list completely; and a formal "exit" button.
@@ -387,6 +389,7 @@ When designing applications with GUIs, it’s important to remember that one of 
 The [Additional Resources section](#additional-resources) includes a link to the PyQt5 documentation with instructions and examples of all the necessary UI features: file browsing dialog boxes and button interactions with signals. With the exception of the Word to PDF converter outlined above, the author's GitHub page contains a repository showing code to implement the above features: [PDF Merger](https://perma.cc/A6ZN-YC7J). It is suggested that you try implementing the features first, as an exercise, before consulting the repository. 
 
 You should also keep in mind that there are many, many ways to implement a single feature; do not worry if your code looks vastly different from that provided in the repository. You should, however, compare the code to look for inefficiencies or alternate methods &mdash; always a valuable learning exercise.
+
 
 # Creating the Distributable Application
 
@@ -403,6 +406,7 @@ For Windows and Linux users:
 Allow the process to finish. You will find several directories created in the same folder as the original file. Your completed, distributable application will be in the `dist` folder as a `.app` file (macOS), `.exe` file (Windows), or an executable binary (Linux).
 
 When you decide to distribute the application, remember that pyinstaller is not a cross-compiler so you must create an executable for each operating system. For example, the `.app` executable you create on macOS will not work on Windows or Linux. To make executables work on other platforms, you need to compile the application on that specific platform or use a virtual machine running that operating system and compile it from there.
+
 
 # Concluding Remarks
 
