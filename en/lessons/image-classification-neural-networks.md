@@ -179,7 +179,7 @@ Teachable Machine is a great resource for familiarizing yourself with how neural
 
 To begin, let's go ahead and create some files in our `projects` folder. Inside the folder, we will create an `index.html` page that will call the rest of our JavaScript libraries. This allows us to examine the model's output without having to look directly at the browser's developer console — although we will do that as well. We also need to create a file called `sketch.js` in the same directory as `index.html`. 
 
-In the discussion below, we will add the contents of this file step by step. If you get lost at any point, you can download the full code [here](/assets/image-classification-neural-networks). 
+In the discussion below, we will add the contents of this file step by step. If you get lost at any point, you can download the full code [here](/assets/image-classification-neural-networks/sketch.js). 
 
 Finally, we will take an image from the `testing` folder and place it in our project's root folder to assure our code is working. You can use any image you like, but I am going to use the first one for this example. Your `projects` folder should now look like this:
 
