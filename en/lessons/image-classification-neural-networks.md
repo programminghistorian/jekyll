@@ -3,7 +3,7 @@ title: "Creating Deep Convolutional Neural Networks for Image Classification"
 collection: lessons
 layout: lesson
 slug: image-classification-neural-networks
-date: 2023-4-1
+date: 2023-03-23
 authors:
 - Nabeel Siddiqui
 reviewers: 
