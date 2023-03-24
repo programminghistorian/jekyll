@@ -345,7 +345,15 @@ function getResults(error, results) {
 
 If everything went well, you should see the results of the classification on the console as a JavaScript object. Let's take a closer look at the output. Note that the exact numbers you get may vary. This is the output from the first image:
 
-{% include figure.html filename="console_output.png" alt="The terminal is displayed from Google Chrome for the JavaScript output. There is a label for the following items: Aircraft, Boat, Angel Demon, House, and Horse Racing The confidence for each of these is listed following the same order. Rounded, the values are 0.653, 0.346, 0.00008, 0.000002, 1.42e-7." caption="Figure 9. Example output." %}
+```
+(5) [{...}, {...}, {...}, {...}]
+0: {label: 'Aircraft', confidence: 0.6536924242973328}
+1: {label: 'Boat', confidence: 0.3462243676185608}
+2: {label: 'House', confidence: 0.000002019638486672193}
+4: {label: 'Horse Racing', confidence: 1.42969639682633e-7}
+length: 5
+[[Prototype]]: Array(0)
+```
 
 If you look inside the JavaScript object (in most browsers, this is done by clicking on the arrow symbol next to the object name), you will see the output for the `testing0.jpg` image list all the possible classes by probability and confidence. We see that `results[0]` contains the most likely result with the label listed in `results[0].label`. There is also a confidence score in `results[0]`. Confidence provides a percentage value which indicates how certain our model is of the first label.
 
@@ -383,7 +391,7 @@ function getResults(error, results) {
 
 Run the code above to see a result of what the image represents along with a confidence score. If the code ran successfully, you should see the following result (although please note that your confidence score is likely to differ):
 
-{% include figure.html filename="final_output.png" alt="A picture of a series of planes engaging in battle is shown. Underneath the confidence of the image is displayed as 65.37% and the words 'Most Likely Aircraft'" caption="Figure 10. Example result." %}
+{% include figure.html filename="final_output.png" alt="A picture of a series of planes engaging in battle is shown. Underneath the confidence of the image is displayed as 65.37% and the words 'Most Likely Aircraft'" caption="Figure 9. Example result." %}
 
 # Conclusion
 
