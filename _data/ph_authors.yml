@@ -2821,3 +2821,29 @@
   bio:
     en: |
       Christopher Goodwin is a Ph.D. candidate in the History Department at the University of Illinois, Urbana-Champaign.
+
+- name: Daphné Mathelier
+  email: daphne.mathelier@gmail.com
+  mastodon: social.sciences.re/@dmathelier
+  github: DMathelier
+  orcid: 0000-0003-4837-0564
+  team: true
+  team_start: 2023
+  institution: MSH Mondes (Maison des Sciences de l'Homme Mondes)
+  sortname: Mathelier
+  affiliation:
+    en: |
+      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), France
+    es: |
+      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), France
+    fr: |
+      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), France
+    pt: |
+      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), France
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
+  bio:
+    fr: |
+      Daphné Mathelier est ingénieure d'études au Centre national de la recherche scientifique française (CNRS). Elle est responsable du service Humanités numériques de la Maison des Sciences de l'Homme Mondes à Nanterre (CNRS, Université Paris Nanterre, Université Paris 1 Panthéon Sorbonne) et l’une des correspondantes locales de l'infrastructure de recherche Huma-Num. 
