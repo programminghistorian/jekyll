@@ -3,7 +3,7 @@ title: "OCR with Google Vision API and Tesseract"
 collection: lessons
 layout: lesson
 slug: ocr-with-google-vision-api
-date: 2023-03-23
+date: 2023-03-31
 authors:
 - Isabelle Gribomont
 reviewers:
