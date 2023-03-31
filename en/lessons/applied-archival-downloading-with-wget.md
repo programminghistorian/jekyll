@@ -385,9 +385,9 @@ examples of Wget's power and potential.
 
   [ActiveHistory.ca]: http://www.activehistory.ca
   [curl]: http://chronicle.com/blogs/profhacker/download-a-sequential-range-of-urls-with-curl/41055
-  [Indian Affairs Annual Reports database]: http://www.collectionscanada.gc.ca/databases/indianaffairs/index-e.html
-  [View a scanned page of original Report]: http://www.collectionscanada.gc.ca/databases/indianaffairs/001074-119.02-e.php?page_id_nbr=1
-  [No. 14 Canadian General Hospital]: https://www.bac-lac.gc.ca/eng/CollectionSearch/Pages/record.aspx?app=fonandcol&IdNumber=2005110&new=-8585971893141232328
+  [Indian Affairs Annual Reports database]: https://recherche-collection-search.bac-lac.gc.ca/eng/Home/Search?q=%20Indian%20Affairs%20Annual%20Reports%20database
+  [View a scanned page of original Report]: https://recherche-collection-search.bac-lac.gc.ca/eng/home/record?app=fonandcol&IdNumber=2061374&q=Indian%20Affairs%20Annual%20Reports
+  [No. 14 Canadian General Hospital]: https://recherche-collection-search.bac-lac.gc.ca/eng/Home/Record?app=fonandcol&IdNumber=2005110&new=-8585971893141232328
   [http://data2.archives.ca/e/e061/e001518109.jpg]: http://data2.archives.ca/e/e061/e001518029.jpg
   [leading zeros]: http://en.wikipedia.org/wiki/Leading_zero
   [On the viewer page]: http://www.nla.gov.au/apps/cdview/?pi=nla.ms-ms5393-1
