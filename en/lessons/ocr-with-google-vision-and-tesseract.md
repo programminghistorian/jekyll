@@ -84,7 +84,6 @@ The following three examples highlight the potential benefits of using Google Vi
 
 ### Example 1
 
-
 {% include figure.html filename="ocr-with-google-vision-and-tesseract1.png" alt="Two scanned pages of English text in a modern font and occasional diacritics." caption="Figure 1: First two pages of _Tomb of King Henry IV in Canterbury Cathedral_, with four highlighted lines indicating the text used in the OCR results below." %}
 
 | Google Vision | Tesseract |
@@ -104,7 +103,6 @@ The following three examples highlight the potential benefits of using Google Vi
 In the above example, we can observe that words such as "Thomæ" and "causâ" are correctly spelled in all three methods involving Google Vision but are mispelled by Tesseract. The two combined methods perform similarly but the first is the most accurate, notably because of an improved rendering of punctuation.
 
 ### Example 2
-
 
 {% include figure.html filename="ocr-with-google-vision-and-tesseract2.png" alt="Two scanned pages of old English text with a yellow background. The first page is a title page with text in gothic font. The second page features footnotes arranged in columns." caption="Figure 2: First two pages of _Aelfric's Life of Saints_, with several highlighted sections indicating the text used in the OCR results below." %}
 
@@ -151,6 +149,7 @@ Example 3 demonstrates how columns result in a completely erroneous output from 
 
 The difference between the outputs produced by the two combined methods is minimal. However, the line breaks at the end of the left columns are not present in the output of the second combined method. This method uses the original PDF and, since Google Vision reads across columns, these line breaks were simply not recorded.
 
+
 # Preparation
 
 ## Prerequisites
@@ -173,7 +172,9 @@ Alternatively, you can use OCRmyPDF. This software is based on Tesseract but wor
 
 Both ImageMagick and OCRmyPDF can be operated from the command line.
 
-If you opt for to use OCRmyPDF, run the following commands after navigating to the `docs_to_OCR` directory:
+If you opt for to use OCRmyPDF, run the following commands after navigating to the `docs_to_OCR` directory.
+
+First command:
 
 ```
 ocrmypdf -l eng+lat --redo-ocr --sidecar
@@ -182,6 +183,7 @@ JHS_1872_HenryIVandQueenJoanCanterburyCathedral.pdf
 JHS_1872_HenryIVandQueenJoanCanterburyCathedral_ocr.pdf
 ```
 
+Second command:
 ```
 ocrmypdf -l eng+enm --redo-ocr --sidecar
 Skeat_1881_StSwithunExhumation_MiddleEnglish.txt
@@ -189,6 +191,7 @@ Skeat_1881_StSwithunExhumation_MiddleEnglish.pdf
 Skeat_1881_StSwithunExhumation_MiddleEnglish_ocr.pdf`
 ```
 
+Third command:
 ```
 ocrmypdf -l eng --redo-ocr --sidecar
 Anon_1756_Epitaphs.txt
@@ -199,6 +202,7 @@ Anon_1756_Epitaphs_ocr.pdf
 With Tesseract, it is necessary to specify the language(s) or script(s) of the text using the `-l` flag. More than one language or script may be specified by using `+`. You can find the list of language codes and more information about the language models on the [Tesseract GitHub page](https://perma.cc/HP8K-US5M). Depending on your operating system, you might be required to install language packages separately, as described on OCRmyPDF's [documentation page](https://perma.cc/G9JR-NXA3).
 
 OCRmyPDF creates a new PDF file with an OCR overlay. If you are working with PDFs that already have a (presumably unsatisfactory) OCR overlay, the `redo-ocr` argument allows for a new overlay to be created. The `sidecar` argument creates a text file that contains the OCR text found by OCRmyPDF. An alternative to the `sidecar` argument would be to use another program such as [pdftotext](https://perma.cc/K9GT-NBGR) to extract the embedded texts from the newly created PDF files.
+
 
 # OCR with Google Vision
 
@@ -530,6 +534,7 @@ more     0.79   Language Code:  la
 ```
 
 This information could help you correct the text. For instance, it would be possible to output all words whose OCR annotation is below a certain confidence threshold in a different colour for manual verification.
+
 
 # Combining Layout and Character Recognition
 
