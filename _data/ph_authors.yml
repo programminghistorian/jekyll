@@ -2261,6 +2261,7 @@
   status: institutionally-supported
 
 - name: Isabelle Gribomont
+  orcid: 0000-0001-7443-5849
   email: isabelle.gribomont@uclouvain.be
   twitter: IsaGribomont
   github: isag91
@@ -2283,13 +2284,13 @@
       Universidade de Louvain, Bélgica
   bio:
     en: |
-       Isabelle Gribomont is a researcher in Digital Humanities at the University of Louvain and the Royal Library of Belgium (Belgium).
+       Isabelle Gribomont is a researcher in Digital Humanities at the University of Louvain and the Royal Library of Belgium.
     es: |
-       Isabelle Gribomont es investigadora en humanidades digitales en la Universidad de Louvain y la Biblioteca Real de Bélgica (Bélgica).
+       Isabelle Gribomont es investigadora en humanidades digitales en la Universidad de Louvain y la Biblioteca Real de Bélgica.
     fr: |
-       Isabelle Gribomont est chercheuse en humanités numériques à l'université catholique de Louvain et la Bibliothèque royale de Belgique (Belgique).
+       Isabelle Gribomont est chercheuse en humanités numériques à l'université catholique de Louvain et la Bibliothèque royale de Belgique.
     pt: |
-       Isabelle Gribomont é pesquisadora em Humanidades Digitais na universidade de Louvain e na Biblioteca Real da Bélgica (Bélgica).
+       Isabelle Gribomont é pesquisadora em Humanidades Digitais na universidade de Louvain e na Biblioteca Real da Bélgica.
 
 - name: Nicolás Llano
   email: llano.nicolas@gmail.com
