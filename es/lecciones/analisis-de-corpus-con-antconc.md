@@ -305,7 +305,7 @@ En síntesis, vale la pena pensar en:
 
 [Una versión más sencilla de este tutorial, concebida para usuarios con pocos conocimientos de computación](http://hfroehli.ch/workshops/getting-started-with-antconc/) (en inglés).
 
-*[Guía rápida de análisis de corpus con AntConc](http://www.dlsi.ua.es/~borja/riilua/grac.pdf)*, publicada por la Universidad de Alicante (2015).
+*[Guía rápida de análisis de corpus con AntConc](https://rua.ua.es/dspace/bitstream/10045/43959/4/grac.pdf)*, publicada por la Universidad de Alicante (2015).
 
 ## Notas de traducción
 
