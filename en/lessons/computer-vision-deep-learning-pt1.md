@@ -238,7 +238,7 @@ This is a useful way of checking that your labels and data have been loaded corr
 
 ## Creating the Model
 
-Now that fastai knows how to load the data, the next step is to create a model with it. To create a model suitable for computer vision we will use the `cnn_learner` function. This function will create a ['Convolutional Neural Network'](https://perma.cc/UH8L-L6MR), a type of deep learning model often used for computer vision applications. To use this function you need to pass (at a minimum):
+Now that fastai knows how to load the data, the next step is to create a model with it. To create a model suitable for computer vision we will use the `vision_learner` function. This function will create a ['Convolutional Neural Network'](https://perma.cc/UH8L-L6MR), a type of deep learning model often used for computer vision applications. To use this function you need to pass (at a minimum):
 
 - The data the model will use as training data
 - The type of model you want to use
@@ -248,7 +248,7 @@ This is already sufficient for creating a computer vision model in fastai, but y
 Let's create this model and assign it to a new variable `learn`:
 
 ```python
-learn = cnn_learner(
+learn = vision_learner(
     ad_data,  # the data the model will be trained on
     resnet18,  # the type of model we want to use
     metrics=accuracy,  # the metrics to track
@@ -257,7 +257,7 @@ learn = cnn_learner(
 
 ### Training the Model
 
-Although we have created a `cnn_learner` model, we haven't actually trained the model yet. This is done using the `fit` method. Training is the process which allows the computer vision model to 'learn' how to predict the correct labels for the data. There are different ways we can train (fit) this model. To start with, we'll use the `fine_tune` method. In this example the only thing we'll pass to the fine tune method is the number of epochs to train for. Each pass through the entire dataset is an 'epoch'. The amount of time the model takes to train will depend on where you are running this code and the resources available. Again, we will cover the details of all of these components below.
+Although we have created a `vision_learner` model, we haven't actually trained the model yet. This is done using the `fit` method. Training is the process which allows the computer vision model to 'learn' how to predict the correct labels for the data. There are different ways we can train (fit) this model. To start with, we'll use the `fine_tune` method. In this example the only thing we'll pass to the fine tune method is the number of epochs to train for. Each pass through the entire dataset is an 'epoch'. The amount of time the model takes to train will depend on where you are running this code and the resources available. Again, we will cover the details of all of these components below.
 
 ```python
 learn.fine_tune(5)
@@ -435,15 +435,15 @@ As we have seen, transfer learning works by using a model trained on one task to
 
 When we looked at the diagram of a CNN model we saw that it is made of different layers. These layers create representations of the input image which pick up on particular features of an image for predicting a label. What are these features? They could be 'basic' features, for example simple shapes. Or, they could be more complex visual features, such as facial features. Various techniques have been developed to help visualise the different layers of a neural network. These techniques have found that the earlier layers in a neural network tend to learn more 'basic' features, for example they learn to detect basic shapes like circles, or lines, whilst layers further into the network contain filters which encode more complex visual features, such as eyes. Since many of these features capture visual properties useful for many tasks, starting with a model that is already capable of detecting features in images will help detect features which are important for the new task, since these new features are likely to be variants on the features the model already knows rather than new ones.
 
-When a model is created in the fastai library using the `cnn_learner` method, an existing architecture is used as the “body” of the model. The deeper layers added are known as the model's "head". The body uses the weights (parameters) learned through training on ImageNet by default. The “head” part takes the output of the body as input before moving to a final layer which is created to fit the training data you pass to `cnn_learner`. The `fine_tune` method first trains only the head part of the model i.e. the final few layers of the model, before 'unfreezing' the lower layers. When these layers are 'unfrozen' the weights of the model are updated through the process discussed above under 'training'. We can also take more active control of how much we train different layers of the model, something we will see as we move through a full pipeline of training a deep learning model.
+When a model is created in the fastai library using the `vision_learner` method, an existing architecture is used as the “body” of the model. The deeper layers added are known as the model's "head". The body uses the weights (parameters) learned through training on ImageNet by default. The “head” part takes the output of the body as input before moving to a final layer which is created to fit the training data you pass to `vision_learner`. The `fine_tune` method first trains only the head part of the model i.e. the final few layers of the model, before 'unfreezing' the lower layers. When these layers are 'unfrozen' the weights of the model are updated through the process discussed above under 'training'. We can also take more active control of how much we train different layers of the model, something we will see as we move through a full pipeline of training a deep learning model.
 
 ## Suggested Experiments
 
 It is important to develop a sense of what happens when you make changes to the training process. We suggest making a copy of the lesson notebook and seeing what happens if you make changes. Here are some suggestions:
 
 - Change the size of the input images defined in the `Resize` item transform in the `ImageDataLoaders`.
-- Change the model used in `cnn_learner` from `resnet18` to `resnet34`.
-- Change the 'metrics' defined in `cnn_learner`. Some metrics included in fastai can be found in the [documentation](https://perma.cc/K4BE-BF3W).
+- Change the model used in `vision_learner` from `resnet18` to `resnet34`.
+- Change the 'metrics' defined in `vision_learner`. Some metrics included in fastai can be found in the [documentation](https://perma.cc/K4BE-BF3W).
 - Change the number of 'epochs' used in the `fine_tune` method.
 
 If something 'breaks', don't worry! You can return to the original notebook to get back to a working version of the code. In the next part of the lesson, the components of a deep learning pipeline will be covered in more detail. Investigating what happens when you make changes will be an important part of learning how to train a computer vision model.
@@ -464,7 +464,7 @@ In the next part of this lesson, we will build on these points and dive into mor
 The use of deep learning in the context of working with heritage data has not been extensively researched. It is therefore useful to 'experiment' and validate whether a particular technique is effective. For example, let's see if transfer learning will prove to be helpful when training a model to classify nineteenth century newspaper adverts into two categories: those containing images and those without images. To do this, we'll create a new `learner` with the same parameters as before but with the `pretrained` flag set to `False`. This flag tells fastai not to use transfer learning. We'll store this in a variable `learn_random_start`.
 
 ```python
-learn_random_start = cnn_learner(ad_data, resnet18, metrics=accuracy, pretrained=False)
+learn_random_start = vision_learner(ad_data, resnet18, metrics=accuracy, pretrained=False)
 ```
 
 Now that we have created a new learner, we'll use the same `fine_tune` method as before and train for the same number of `epochs` as last time.
