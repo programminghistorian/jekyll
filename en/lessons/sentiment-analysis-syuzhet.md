@@ -25,7 +25,7 @@ activity: analyzing
 topics: [distant-reading, r]
 abstract: This lesson teaches you how to obtain and analyse narrative texts for patterns of sentiment and emotion.
 avatar_alt: Engraving of three faces expressing different emotions
-doi: TBD
+doi: 10.46430/phen0110
 ---
 
 {% include toc.html %}
