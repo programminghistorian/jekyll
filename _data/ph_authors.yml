@@ -2847,4 +2847,30 @@
   status: volunteer
   bio:
     fr: |
-      Daphné Mathelier est ingénieure d'études au Centre national de la recherche scientifique française (CNRS). Elle est responsable du service Humanités numériques de la Maison des Sciences de l'Homme Mondes à Nanterre (CNRS, Université Paris Nanterre, Université Paris 1 Panthéon Sorbonne) et l’une des correspondantes locales de l'infrastructure de recherche Huma-Num. 
+      Daphné Mathelier est ingénieure d'études au Centre national de la recherche scientifique française (CNRS). Elle est responsable du service Humanités numériques de la Maison des Sciences de l'Homme Mondes à Nanterre (CNRS, Université Paris Nanterre, Université Paris 1 Panthéon Sorbonne) et l’une des correspondantes locales de l'infrastructure de recherche Huma-Num.
+      
+- name: Alexandre Wauthier
+  email: alexandre.wauthier@protonmail.com
+  url: https://alexandrewa.com
+  github: AlexandreWa
+  orcid: 0000-0001-9437-4529
+  team: true
+  team_start: 2023
+  institution: Humathèque, Campus Condorcet
+  sortname: Wauthier
+  affiliation:
+    en: |
+      Centre national de la recherche scientifique française (CNRS), France
+    pt: |
+      Centre national de la recherche scientifique française (CNRS), Francia
+    es: |
+      Centre national de la recherche scientifique française (CNRS), France
+    fr: |
+      Centre national de la recherche scientifique française (CNRS), França
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
+  bio:
+    fr: |
+      Alexandre Wauthier est ingénieur d'études au Centre national de la recherche scientifique française (CNRS). Il est chargé du traitement des donnnées scientifiques et bibliothécaire à l'Humathèque du Campus Condorcet.
