@@ -25,7 +25,7 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/542
 difficulty: 2
 activity: presenting
-topics: [mapping, website]
+topics: [mapping, website, r]
 avatar_alt: Barco y reflejo de la luna en un lago
 abstract: Esta lección demuestra cómo crear un mapa web interactivo usando R y Shiny. En la lección, diseñarás e implementarás una aplicación simple, que consiste en un control deslizante que permite a los usuarios seleccionar un rango de fechas y mostrar un conjunto de puntos correspondientes en un mapa interactivo.
 lesson-partners: [Jisc, The National Archives]
