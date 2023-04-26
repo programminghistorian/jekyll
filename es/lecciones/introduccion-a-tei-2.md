@@ -739,7 +739,7 @@ Este fragmento es muy interesante para nuestros fines, pues introduce notas y co
 Como veremos, TEI nos permite trabajar con todos ellos.
 
 
-La imagen de la página 59 (disponible libremente en la [Biblioteca Digital Soledad Acosta de Samper](https://soledadacosta.uniandes.edu.co/items/show/408)) es la siguiente:
+La imagen de la página 59 disponible libremente en la Biblioteca Digital Soledad Acosta de Samper es la siguiente:
 
 {% include figure.html filename="introduccion-a-tei-2-03.png" caption="Imagen del manuscrito 'Pequeño manual del estudiante de historia universal' de Soledad Acosta de Samper, tomo 1, p. 59" %}
 
@@ -773,6 +773,7 @@ En este caso el `<teiHeader>` de nuestro documento será el siguiente:
           </imprint>
         </monogr>
         <ref target="https://soledadacosta.uniandes.edu.co/items/show/408"/>
+        
       </biblStruct>
     </sourceDesc>
   </fileDesc>
