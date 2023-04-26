@@ -14,7 +14,7 @@ editors:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/416
 difficulty: 2
 activity: presenting
-topics: [mapping, website]
+topics: [mapping, website, r]
 avatar_alt: Reflection of moonlight on a lake
 abstract: This lesson demonstrates how to build an interactive webmap using R and the Shiny library. In the lesson, you will design and implement a simple application, consisting of a slider which allows a user to select a date range, and display a set of corresponding points, on an interactive map.
 lesson-partners: [Jisc, The National Archives]
