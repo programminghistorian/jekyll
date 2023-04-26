@@ -5,7 +5,7 @@ layout: lesson
 slug: creacion-de-aplicacion-shiny
 original: shiny-leaflet-newspaper-map-tutorial
 date: 2022-10-19
-translation_date: YYYY-MM-DD
+translation_date: 2023-04-26
 authors:
 - Yann Ryan
 reviewers:
