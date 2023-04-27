@@ -295,7 +295,7 @@ Si vous souhaitez attirer l'attention des lecteurs, vous pouvez ajouter un bloc 
 </div>
 ```
 ### Figures et images
-Les images doivent pouvoir aider votre lectorat à mieux comprendre les étapes de votre leçon, elles ne doivent pas être purement illustratives. Si vous souhaitez en fournir avec votre leçon, nommez-les de manière ordonnée NOM-DE-LEÇON1.jpg, NOM-DE-LEÇON2.jpg, etc. puis, dans le texte, rappelez-les en tant que figure 1, figure 2... Toutes les figures doivent être accompagnées d'une brève légende et, le cas échéant, de notes. Vous devez disposer du droit de publier toute image que vous fournissez. 
+Les images doivent pouvoir aider votre lectorat à mieux comprendre les étapes de votre leçon, elles ne doivent pas être purement illustratives. Si vous souhaitez en fournir avec votre leçon, nommez-les de manière ordonnée NOM-DE-LEÇON1.jpg, NOM-DE-LEÇON2.jpg, etc. puis, dans le texte, rappelez-les en tant que figure 1, figure 2... Toutes les figures doivent être accompagnées d'une brève légende, 'alt-text' texte descriptif et, le cas échéant, de notes. Vous devez disposer du droit de publier toute image que vous fournissez. 
 
 Veillez à utiliser un format adapté à la publication web tel .png or .jpg et à réduire les grandes images à un maximum de 840px sur la longueur. Cela est important pour les lecteurs et les lectrices qui disposent des connexions internet à bas débit. 
 
@@ -305,7 +305,7 @@ Vous pouvez insérer une image dans votre texte à l'aide de cette syntaxe&#x202
 
 {% raw %}
 ``` markdown
-{% include figure.html filename="IMAGE-FILENAME" caption="VOTRE TITRE, AVEC \"CODE D'ÉCHAPPEMENT\" POUR LES GUILLEMETS" %}
+{% include figure.html filename="IMAGE-FILENAME" alt="DESCRIPTION VISUELLE DE L'IMAGE" caption="VOTRE TITRE, AVEC \"CODE D'ÉCHAPPEMENT\" POUR LES GUILLEMETS" %}
 ```
 {% endraw %}
 
