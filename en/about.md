@@ -18,7 +18,7 @@ The _Programming Historian_ team is committed to open source values. All contrib
 
 
 ## Diamond Open Access
-All submissions to _Programming Historian_ are published under a [Creative Commons 'CC-BY' license](https://creativecommons.org/licenses/by/4.0/deed.en). This adheres to a '[Diamond](https://doi.org/10.6084/m9.figshare.6900566.v1)' open access model of publishing. The version of record is made freely available without subscription fee or restrictions on access. Authors are permitted to republish their tutorials anywhere. And so can anyone, as long as they cite the original author and respect his or her moral rights.
+All submissions to _Programming Historian_ are published under a [Creative Commons 'CC-BY' license](https://creativecommons.org/licenses/by/4.0/deed.en). This adheres to a '[Diamond](https://commons.wikimedia.org/wiki/File:Open_Access_colours_Venn.svg)' open access model of publishing. The version of record is made freely available without subscription fee or restrictions on access. Authors are permitted to republish their tutorials anywhere. And so can anyone, as long as they cite the original author and respect his or her moral rights.
 
 We do not charge Article Processing Charges (APCs), nor do we charge library subscriptions.
 
