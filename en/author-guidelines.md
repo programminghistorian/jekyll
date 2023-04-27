@@ -255,7 +255,7 @@ If you want to include an aside or a warning to readers, you can set it apart fr
 ```
 
 ### Figures and Images
-Images can help readers understand your lesson steps, but should not be used for decoration. If you wish to use images in your lesson, label them sequentially LESSON-NAME1.jpg, LESSON-NAME2.jpg, etc. Refer to them in the text as "Figure 1", "Figure 2", and so on. All figures must come with a concise figure caption and endnotes where appropriate. You must have the legal right to post any images.
+Images can help readers understand your lesson steps, but should not be used for decoration. If you wish to use images in your lesson, label them sequentially LESSON-NAME1.jpg, LESSON-NAME2.jpg, etc. Refer to them in the text as "Figure 1", "Figure 2", and so on. All figures must come with a concise figure caption, descriptive alt-text, and endnotes where appropriate. You must have the legal right to post any images.
 
 Use web-friendly file formats such as .png or .jpg and reduce large images to a maximum of 840px on the longest side. This is important for readers in countries with slower internet speeds.
 
@@ -265,7 +265,7 @@ To insert an image in your text, use the following format:
 
 {% raw %}
 ``` markdown
-{% include figure.html filename="IMAGE-FILENAME" caption="YOUR CAPTION USING \"ESCAPED\" QUOTES" %}
+{% include figure.html filename="IMAGE-FILENAME" alt="Visual description of figure image" caption="YOUR CAPTION USING \"ESCAPED\" QUOTES" %}
 ```
 {% endraw %}
 
