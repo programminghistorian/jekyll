@@ -2,6 +2,7 @@
 title: Installing Omeka
 layout: lesson
 date: 2016-07-24
+last-updated: 2023-04-27
 authors:
 - Jonathan Reeve
 reviewers:
