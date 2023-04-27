@@ -261,7 +261,7 @@ Para insertar una imagen en tu texto, utiliza el siguiente formato:
 
 {% raw %}
 ``` markdown
-{% include figure.html filename="NOMBRE-ARCHIVO-IMAGEN" alt="DESCRIPCIÓN-VISUAL-DE-LA-IMAGEN" caption="PIE DE FOTO UTILIZANDO \"ESCAPED\" QUOTES" %}
+{% include figure.html filename="NOMBRE-ARCHIVO-IMAGEN" alt="DESCRIPCIÓN VISUAL DE LA IMAGEN" caption="PIE DE FOTO UTILIZANDO \"ESCAPED\" QUOTES" %}
 ```
 {% endraw %}
 
