@@ -18,7 +18,7 @@ A equipe do _Programming Historian em Português_ está comprometida com os prin
 
 
 ## Acesso Aberto _Diamante_
-Todas as lições para o _Programming Historian em Português_ são publicadas sob uma licença [Creative Commons 'CC-BY'](https://creativecommons.org/licenses/by/4.0/deed.pt). Isto significa um modelo de publicação de acesso aberto '[Diamante](https://figshare.com/articles/dataset/Diamond_open_access_venn/6900566/1)'. Todas as lições são disponibilizadas gratuitamente, sem subscrição paga e sem restrições de acesso. Os autores podem republicar os seus tutoriais em outros locais. Da mesma forma, qualquer um pode fazer o mesmo, desde que cite o autor original e respeite os seus direitos.
+Todas as lições para o _Programming Historian em Português_ são publicadas sob uma licença [Creative Commons 'CC-BY'](https://creativecommons.org/licenses/by/4.0/deed.pt). Isto significa um modelo de publicação de acesso aberto '[Diamante](https://commons.wikimedia.org/wiki/File:Open_Access_colours_Venn.svg)'. Todas as lições são disponibilizadas gratuitamente, sem subscrição paga e sem restrições de acesso. Os autores podem republicar os seus tutoriais em outros locais. Da mesma forma, qualquer um pode fazer o mesmo, desde que cite o autor original e respeite os seus direitos.
 
 Não cobramos taxas de processamento de artigos (APCs) ou assinaturas para bibliotecas.
 
