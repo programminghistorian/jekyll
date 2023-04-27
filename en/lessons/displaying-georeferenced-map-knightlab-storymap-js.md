@@ -44,7 +44,7 @@ To complete this tutorial as written, you will need to export a georeferenced ma
 
 The one you will need for this tutorial is the Tiles (Google/OSM scheme) URL:
 
-[https://mapwarper.net/maps/tile/40217/{z}/{x}/{y}.png](https://mapwarper.net/maps/tile/40217/{z}/{x}/{y}.png)
+https://mapwarper.net/maps/tile/40217/{z}/{x}/{y}.png
 
 This URL generates a set of map tiles of your georeferenced map to be displayed online. Map tiles are essentially little square images which are assembled into an interactive map. They work by requesting a set of tiles of the desired latitude (Y), longitude (X), and zoom level (Z) to bring together a tileset to form a larger image of your map. Map tiles are commonly used to serve up imagery or pre-rendered cartographic datasets inside a web mapping environment and are often used as an alternative for using [vector data](https://perma.cc/Z5S3-GZSY), when the amount of data becomes too dense.
 
@@ -92,7 +92,7 @@ In the drop-down menu under Map Type, select "custom" and enter the Tiles URL fr
 
 It will be formatted as:
 
-[https://mapwarper.net/maps/tile/40217/{z}/{x}/{y}.png](https://mapwarper.net/maps/tile/40217/{z}/{x}/{y}.png)
+https://mapwarper.net/maps/tile/40217/{z}/{x}/{y}.png
 
 This will load in your georeferenced map as the basemap. The sample map we will be using in this tutorial is a [1860 map of North Carolina and South Carolina](https://perma.cc/L8KA-XRAP) from [The David Rumsey Map Collection](https://perma.cc/8QHA-N237).[^1]
 
