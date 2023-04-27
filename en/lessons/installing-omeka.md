@@ -44,10 +44,11 @@ First, sign up for an account with a hosting provider that gives you SSH access.
 
 If you open an account with a VPS provider, you'll first want to create a virtual server with their interface. (If you’re using shared hosting, this is already done for you.) On DigitalOcean, VPS instances are called "droplets," and you can create one by simply logging in and clicking "Create Droplet." On AWS EC2, a VPS is called an "instance," and you can create one by logging into your EC2 console and clicking "Launch Instance." In both cases, **choose an Ubuntu system** to install, since we'll be running Ubuntu Linux commands below. For more detailed help with these steps, check out Digital Ocean's guide [How To Create Your First DigitalOcean Droplet Virtual Server](https://web.archive.org/web/20170608220025/https://www.digitalocean.com/community/tutorials/how-to-create-your-first-digitalocean-droplet-virtual-server), and Amazon's guide [Launch an Amazon EC2 Instance](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-launch-instance_linux.html).
 
-Now that you have a running server, connect to it with an SSH client. This is sometimes as simple as opening a terminal and typing `ssh root@hostname`, where `hostname` is your server address. Consult your host's documentation for instructions for logging on via SSH. Here is a sampling of guides for VPS hosts:
+Now that you have a running server, connect to it with an SSH client. This is sometimes as simple as opening a terminal and typing `ssh user@hostname`, where `user` is the username provided by your VPS and `hostname` is your server address. Consult your host's documentation for instructions for logging on via SSH. Here is a sampling of guides for VPS hosts:
 
  * [Digital Ocean: How To Connect To Your Droplet with SSH](https://www.digitalocean.com/docs/droplets/how-to/connect-with-ssh)
  * [Amazon Web Services: Connecting to Your Linux Instance Using SSH](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
+ * [Google Cloud: Connecting to Your Linux Instance](https://cloud.google.com/compute/docs/instances/connecting-to-instance)
 
 And here are a few guides for shared hosts:
 
@@ -86,7 +87,7 @@ Let's get the Apache module `mod_rewrite` enabled now, which allows Omeka to let
 
 Now let’s set up the database. First, log in to the MySQL database program as the root user, by entering this command:
 
-    mysql -u root -p
+    mysql -u root
 
 The `-u` flag allows you to specify the user, and the `-p`, when not followed by a password, will prompt you for the root password. Enter the MySQL password you created when you installed the LAMP server. You should now see a `mysql>` prompt. Now let's enter a command to create the database. I'm going to call my database `jonreeve_omeka`, but you can call yours whatever you like.
 
@@ -135,23 +136,23 @@ Now let's download Omeka directly to the server. This will allow us to avoid the
 
     cd /var/www/html
 
-If you get a permissions error here on a VPS, make sure you're logged in as the root user with `su root`. Now let's download Omeka. Grab the URL from http://omeka.org/download, and use it with the command `wget` like this:
+If you get a permissions error here on a VPS, make sure you're logged in as the root user with `su root`. Now let's download Omeka with command `wget` like this:
 
-    wget http://omeka.org/files/omeka-2.4.zip
+    wget http://omeka.org/files/omeka-2.7.zip
 
 Now let’s first make sure we have the `unzip` command:
 
-    apt-get install unzip
+    apt-get install unzip php-xml
 
 And now we can unzip the Omeka zip file:
 
-    unzip omeka-2.4.zip
+    unzip omeka-2.7.zip
 
-(If you get an error here on a VPS, you may need to install the `unzip` command with `apt-get install unzip` first.) This will unzip Omeka to a subdirectory on your website. Presuming you don't want your Omeka web site to have the URL `http://your-domain.com/omeka-2.4/`, let's change the name of the directory:
+(If you get an error here on a VPS, you may need to install the `unzip` command with `apt-get install unzip` first.) This will unzip Omeka to a subdirectory on your website. Presuming you don't want your Omeka web site to have the URL `http://your-domain.com/omeka-2.7/`, let's change the name of the directory:
 
-    mv omeka-2.4 omeka
+    mv omeka-2.7 omeka
 
-(Instead of `omeka-2.4`, substitute the version you downloaded.) Now you have an Omeka install which is ready to connect to the database.
+(Instead of `omeka-2.7`, substitute the version you downloaded.) Now you have an Omeka install which is ready to connect to the database.
 
 ## Step 4: Configure Omeka to Use Your Database.
 
@@ -182,5 +183,6 @@ The file will end up looking like this:
 Exit (Control+X) and when asked, save your changes by pressing `Y`. Now let's change the owner of our Omeka installation, so that it's readable by the Internet:
 
     chown -R www-data:www-data .
+    chmod -R g+w files
 
  Now you should have a working Omeka install. You can access your installation script at `http://your-domain/omeka/install/install.php`, replacing `your-domain` with your domain name or IP address, and `omeka` with the name you gave your directory above. Fill out the form there to get started configuring your Omeka install. If you run into any trouble along the way, consult the [Omeka Installation Guide](https://omeka.org/classic/docs/Installation/Installing/) or the [Omeka Troubleshooting Guide](https://omeka.org/classic/docs/Troubleshooting/).
