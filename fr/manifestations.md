@@ -21,8 +21,7 @@ Si vous souhaitez contribuer, collaborer ou juste en savoir plus, veuillez conta
 _en español_ Riva Quiroga, _#SemanaHD: Introducción al web scraping usando R. Parte 2: extracción de tablas_. [Eventbrite](https://www.eventbrite.com/e/introduccion-al-web-scraping-usando-r-parte-2-extraccion-de-tablas-tickets-623680514207)
 
 * **10 mai 2023**  
-_en español_ María José Afanador Llach, Jennifer Isasi, Riva Quiroga, _#SemanaHD: Sobre Programming Historian en español y cómo contribuir a la publicación
-_. [Enlace evento](https://uniandes-edu-co.zoom.us/j/85139205109)
+_en español_ María José Afanador Llach, Jennifer Isasi, Riva Quiroga, _#SemanaHD: Sobre Programming Historian en español y cómo contribuir a la publicación_. [Enlace evento](https://uniandes-edu-co.zoom.us/j/85139205109)
 
 
 * **date à définir**  
