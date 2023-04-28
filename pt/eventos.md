@@ -10,15 +10,28 @@ Em 2022 lançamos um programa de eventos multilingue para apoiar educadores, est
 
 ## Próximos Eventos
 
+* **8 Maio 2023**
+
+  * _em português_ Jimmy Medeiros, _#SemanaHD: Aprendendo a analisar dados com R com base em lições do Programming Historian_. [Enlace inscripción](https://semanahd.cuaieed.unam.mx/#/calendario)
+
+  * _en español_ Riva Quiroga, _#SemanaHD: Introducción al web scraping usando R. Parte 1: extracción de texto_. [Eventbrite](https://www.eventbrite.com/e/introduccion-al-web-scraping-usando-r-parte-1-extraccion-de-texto-tickets-623620143637)
+
+* **9 Maio 2023**  
+_en español_ Riva Quiroga, _#SemanaHD: Introducción al web scraping usando R. Parte 2: extracción de tablas_. [Eventbrite](https://www.eventbrite.com/e/introduccion-al-web-scraping-usando-r-parte-2-extraccion-de-tablas-tickets-623680514207)
+
+* **10 Maio 2023**  
+_en español_ María José Afanador Llach, Jennifer Isasi, Riva Quiroga, _#SemanaHD: Sobre Programming Historian en español y cómo contribuir a la publicación_. [Enlace evento](https://uniandes-edu-co.zoom.us/j/85139205109)
+
+
 * **data por confirmar** 
 _en español_ Joshua G. Ortiz _Taller Visualización de metadatos de colecciones de imágenes con ImagePlot_. [https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades](https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades)
 
-* **data por confirmar** 
-_en español_ Nicolás Vaughan _Taller Introducción al marcado TEI_. [https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades](https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades)
-
 ## Eventos Anteriores
 
-* **2 e 3 de Março de 2023** 
+* **13 e 14 de Abril de 2023**  
+_en español_ Nicolás Vaughan _Taller Introducción al marcado TEI_.
+
+* **2 e 3 de Março de 2023**  
 _en español_ Miguel Cuadros e Anthony Picón _Taller Introducción a los Sistemas de Información Geográfica para el análisis histórico_.
 
 * **9 e 10 de Fevereiro de 2023**  
