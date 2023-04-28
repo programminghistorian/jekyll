@@ -222,7 +222,7 @@ Se deseja incluir uma nota ou um aviso para os leitores, é possível separá-lo
 ```
 
 ### Figuras e imagens
-As imagens podem ajudar os leitores a entender os passos da lição, mas não devem ser usadas como decoração. Se desejar usar imagens na sua lição, identifique-as sequencialmente como LESSON-NAME1.jpg, LESSON-NAME2.jpg, etc. Refira as imagens no texto como "Figura 1", "Figura 2", e assim por diante. Todas as figuras devem vir com uma legenda concisa e notas finais, quando apropriado. A licença legal para publicar qualquer imagem tem de estar assegurada.
+As imagens podem ajudar os leitores a entender os passos da lição, mas não devem ser usadas como decoração. Se desejar usar imagens na sua lição, identifique-as sequencialmente como LESSON-NAME1.jpg, LESSON-NAME2.jpg, etc. Refira as imagens no texto como "Figura 1", "Figura 2", e assim por diante. Todas as figuras devem vir com uma legenda concisa, texto alternativo descritivo 'alt-text' e notas finais, quando apropriado. A licença legal para publicar qualquer imagem tem de estar assegurada.
 
 Os ficheiros devem ser compatíveis com a web, preferencialmente .png ou .jpg, e devem ter um máximo de 840px no lado mais longo. Isso é especialmente importante para leitores de países com velocidades mais lentas de Internet.
 
@@ -232,7 +232,7 @@ Para inserir uma imagem no seu texto, use o seguinte formato:
 
 {% raw %}
 ``` markdown
-{% include figure.html filename="NOME-DO-FICHEIRO-DE-IMAGEM" caption="A LEGENDA USANDO \"BARRAS\" PARA SALTAR ASPAS INTERNAS" %}
+{% include figure.html filename="NOME-DO-FICHEIRO-DE-IMAGEM" alt="DESCRIÇÃO VISUAL DA IMAGEM" caption="A LEGENDA USANDO \"BARRAS\" PARA SALTAR ASPAS INTERNAS" %}
 ```
 {% endraw %}
 
