@@ -12,29 +12,27 @@ If you would like to contribute, collaborate or find out more please contact our
 ## Upcoming Events
 
 * **8 May 2023**
-_em português_ Jimmy Medeiros, _#SemanaHD: Aprendendo a analisar dados com R com base em lições do Programming Historian_. [Enlace inscripción](https://semanahd.cuaieed.unam.mx/#/calendario)
 
-_en español_ Riva Quiroga, _#SemanaHD: Introducción al web scraping usando R. Parte 1: extracción de texto_. [Eventbrite](https://www.eventbrite.com/e/introduccion-al-web-scraping-usando-r-parte-1-extraccion-de-texto-tickets-623620143637)
+  * _em português_ Jimmy Medeiros, _#SemanaHD: Aprendendo a analisar dados com R com base em lições do Programming Historian_. [Enlace inscripción](https://semanahd.cuaieed.unam.mx/#/calendario)
 
-* **9 May 2023**
+  * _en español_ Riva Quiroga, _#SemanaHD: Introducción al web scraping usando R. Parte 1: extracción de texto_. [Eventbrite](https://www.eventbrite.com/e/introduccion-al-web-scraping-usando-r-parte-1-extraccion-de-texto-tickets-623620143637)
+
+* **9 May 2023**  
 _en español_ Riva Quiroga, _#SemanaHD: Introducción al web scraping usando R. Parte 2: extracción de tablas_. [Eventbrite](https://www.eventbrite.com/e/introduccion-al-web-scraping-usando-r-parte-2-extraccion-de-tablas-tickets-623680514207)
 
-* **10 May 2023**
+* **10 May 2023**  
 _en español_ María José Afanador Llach, Jennifer Isasi, Riva Quiroga, _#SemanaHD: Sobre Programming Historian en español y cómo contribuir a la publicación
 _. [Enlace evento](https://uniandes-edu-co.zoom.us/j/85139205109)
 
-* **fecha por confirmar**
-_en español_ Joshua G. Ortiz _Taller Visualización de metadatos de colecciones de imágenes con ImagePlot_. [https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades](https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades)
-
-* **date TBA** 
+* **date TBA**  
 _en español_ Joshua G. Ortiz _Taller Visualización de metadatos de colecciones de imágenes con ImagePlot_. [https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades](https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades)
 
 ## Past Events
 
-* **13 and 14 April 2023**
+* **13 and 14 April 2023**  
 _en español_ Nicolás Vaughan _Taller Introducción al marcado TEI_.
 
-* **2 and 3 March 2023** 
+* **2 and 3 March 2023**  
 _en español_ Miguel Cuadros and Anthony Picón _Taller Introducción a los Sistemas de Información Geográfica para el análisis histórico_. 
 
 * **9 and 10 February 2023**  
