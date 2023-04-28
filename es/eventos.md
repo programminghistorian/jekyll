@@ -15,7 +15,6 @@ Si deseas contribuir, colaborar o saber más, ponte en contacto con nuestra resp
 
 _em português_ Jimmy Medeiros, _#SemanaHD: Aprendendo a analisar dados com R com base em lições do Programming Historian_. [Enlace inscripción](https://semanahd.cuaieed.unam.mx/#/calendario)
 
-
 _en español_ Riva Quiroga, _#SemanaHD: Introducción al web scraping usando R. Parte 1: extracción de texto_. [Eventbrite](https://www.eventbrite.com/e/introduccion-al-web-scraping-usando-r-parte-1-extraccion-de-texto-tickets-623620143637)
 
 * **9 de mayo de 2023**
@@ -23,8 +22,8 @@ _en español_ Riva Quiroga, _#SemanaHD: Introducción al web scraping usando R. 
 
 * **10 de mayo de 2023**
 
-_en español_ María José Afanador Llach, _#SemanaHD: Sobre Programming Historian en español y cómo contribuir a la publicación
-_. [Enlace inscripción](https://semanahd.cuaieed.unam.mx/#/calendario)
+_en español_ María José Afanador Llach, Jennifer Isasi, Riva Quiroga, _#SemanaHD: Sobre Programming Historian en español y cómo contribuir a la publicación
+_. [Enlace evento](https://uniandes-edu-co.zoom.us/j/85139205109)
 
 * **fecha por confirmar**
 _en español_ Joshua G. Ortiz _Taller Visualización de metadatos de colecciones de imágenes con ImagePlot_. [https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades](https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades)
