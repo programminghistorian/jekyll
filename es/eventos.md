@@ -11,13 +11,16 @@ Si deseas contribuir, colaborar o saber más, ponte en contacto con nuestra resp
 
 ## Próximos eventos
 
+* **9 de may de 2023**
+_en español_ Riva Quiroga, _Introducción al web scraping usando R. Parte 2: extracción de tablas_. [Eventbrite](https://www.eventbrite.co.uk/e/introduccion-al-web-scraping-usando-r-parte-2-extraccion-de-tablas-tickets-623680514207?utm_campaign=post_publish&utm_medium=email&utm_source=eventbrite&utm_content=shortLinkNewEmail)
+
 * **fecha por confirmar**
 _en español_ Joshua G. Ortiz _Taller Visualización de metadatos de colecciones de imágenes con ImagePlot_. [https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades](https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades)
 
-* **fecha por confirmar**
-_en español_ Nicolás Vaughan _Taller Introducción al marcado TEI_. [https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades](https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades)
-
 ## Eventos pasados
+
+* **13 y 14 de abril de 2023**
+_en español_ Nicolás Vaughan _Taller Introducción al marcado TEI_.
 
 * **2 y 3 de marzo de 2023** 
 _en español_ Miguel Cuadros y Anthony Picón _Taller Introducción a los Sistemas de Información Geográfica para el análisis histórico_. 
