@@ -251,7 +251,7 @@ Si quieres incluir un aparte o una advertencia, puedes utilizar el siguiente blo
 ```
 
 ### Figuras e imágenes
-Las imágenes pueden ayudar a tu audiencia a entender los pasos de la lección, pero no deben ser usadas como decoración. Si deseas utilizar imágenes en tu lección, etiquétalas secuencialmente siguiendo el patrón: `nombre-leccion1.jpg`, `nombre.leccion2.jpg`, etc. Refiérete a ellas en el texto como "Figura 1", "Figura 2" y así sucesivamente. Todas las figuras deben venir con una leyenda concisa, texto descriptivo 'alt-text', y notas finales cuando sea apropiado. Debes tener el derecho legal para publicar cualquier imagen que incluyas en tu lección.
+Las imágenes pueden ayudar a tu audiencia a entender los pasos de la lección, pero no deben ser usadas como decoración. Si deseas utilizar imágenes en tu lección, etiquétalas secuencialmente siguiendo el patrón: `nombre-leccion1.jpg`, `nombre.leccion2.jpg`, etc. Refiérete a ellas en el texto como "Figura 1", "Figura 2" y así sucesivamente. Todas las figuras deben venir con una leyenda concisa, texto descriptivo 'alt-text' y notas finales cuando sea apropiado. Debes tener el derecho legal para publicar cualquier imagen que incluyas en tu lección.
 
 Utiliza formatos de archivos amigables para la web, como .png o .jpg, y reduce las imágenes grandes a un máximo de 840 px en el lado más largo. Esto es importante para lectores en países con velocidades de Internet más lentas.
 
