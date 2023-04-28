@@ -11,8 +11,22 @@ If you would like to contribute, collaborate or find out more please contact our
 
 ## Upcoming Events
 
+* **8 May 2023**
+
+_em português_ Jimmy Medeiros, _#SemanaHD: Aprendendo a analisar dados com R com base em lições do Programming Historian_. [Enlace inscripción](https://semanahd.cuaieed.unam.mx/#/calendario)
+
+_en español_ Riva Quiroga, _#SemanaHD: Introducción al web scraping usando R. Parte 1: extracción de texto_. [Eventbrite](https://www.eventbrite.com/e/introduccion-al-web-scraping-usando-r-parte-1-extraccion-de-texto-tickets-623620143637)
+
 * **9 May 2023**
-_en español_ Riva Quiroga, _Introducción al web scraping usando R. Parte 2: extracción de tablas_. [Eventbrite](https://www.eventbrite.co.uk/e/introduccion-al-web-scraping-usando-r-parte-2-extraccion-de-tablas-tickets-623680514207?utm_campaign=post_publish&utm_medium=email&utm_source=eventbrite&utm_content=shortLinkNewEmail)
+_en español_ Riva Quiroga, _#SemanaHD: Introducción al web scraping usando R. Parte 2: extracción de tablas_. [Eventbrite](https://www.eventbrite.com/e/introduccion-al-web-scraping-usando-r-parte-2-extraccion-de-tablas-tickets-623680514207)
+
+* **10 May 2023**
+
+_en español_ María José Afanador Llach, _#SemanaHD: Sobre Programming Historian en español y cómo contribuir a la publicación
+_. [Enlace inscripción](https://semanahd.cuaieed.unam.mx/#/calendario)
+
+* **fecha por confirmar**
+_en español_ Joshua G. Ortiz _Taller Visualización de metadatos de colecciones de imágenes con ImagePlot_. [https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades](https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades)
 
 * **date TBA** 
 _en español_ Joshua G. Ortiz _Taller Visualización de metadatos de colecciones de imágenes con ImagePlot_. [https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades](https://posgradosfacartes.uniandes.edu.co/posgrados/segundo-ciclo-de-talleres-herramientas-y-procesos-digitales-para-la-investigacion-y-creacion-en-artes-y-humanidades)
