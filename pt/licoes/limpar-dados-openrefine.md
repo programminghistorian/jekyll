@@ -13,13 +13,13 @@ authors:
 reviewers:
 - Patrick Burns
 - Nora McGregor
-editor:
+editors:
 - Adam Crymble
-translators:
+translator:
 - Francisco Nabais
 translation-editor:
 - Aracele Torres
-translation-reviewers:
+translation-reviewer:
 - Eric Brasil
 - Joana Vieira Paulino
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/427
