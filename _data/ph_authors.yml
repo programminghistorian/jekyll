@@ -2875,3 +2875,17 @@
   bio:
     fr: |
       Alexandre Wauthier est ingénieur d'études au Centre national de la recherche scientifique française (CNRS). Il est chargé du traitement des donnnées scientifiques et bibliothécaire à l'Humathèque du Campus Condorcet.
+
+- name: Ricardo Campos
+  orcid: 0000-0002-8767-8126
+  team: false
+  bio:
+    pt: |
+      Ricardo Campos é professor assistente do Instituto Politécnico de Tomar, e pesquisador sênior da LIAAD-INESC TEC.
+
+- name: Daniel Gomes
+  orcid: 0000-0002-5447-4581
+  team: false
+  bio:
+    pt: |
+      Daniel Gomes é o líder do Arquivo.pt na Fundação para a Ciência e Tecnologia (FCT).
