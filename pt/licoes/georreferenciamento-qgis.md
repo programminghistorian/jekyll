@@ -38,7 +38,7 @@ doi: A INDICAR
 
 
 
-Nota de tradução 1: Embora a lição original em inglês se refira à versão 2.0 do Quantum GIS (QGIS), na presente tradução da lição foi tomada a opção de usar a versão mais recente do QGIS - a 3.20 - tendo-se efetuado as modificações necessárias para adaptar a lição a esta versão do software.
+Nota de tradução 1: Embora a lição original em inglês se refira à versão 2.0 do Quantum GIS (QGIS), na presente tradução da lição foi tomada a opção de usar uma versão mais recente do QGIS - a 3.20 - tendo-se efetuado as modificações necessárias para adaptar a lição a esta versão do software.
 Tenha em atenção que, nos links que remetem para outras lições sobre o QGIS, a versão utilizada nestas será diferente da utilizada nesta tradução. 
 
 Nota de tradução 2: Na tradução desta lição usou-se a versão em pt-pt podendo-se, no entanto, optar também pela versão em pt-br do QGIS.
@@ -47,7 +47,7 @@ Nota de tradução 2: Na tradução desta lição usou-se a versão em pt-pt pod
 Objetivos da lição
 ------------
 
-Nesta lição aprenderá como georreferenciar mapas históricos para que possam ser adicionados a um SIG como uma camada raster. O georreferenciamento é importante para quem queira digitalizar com precisão dados presentes num mapa em suporte de papel e, visto que os historiadores trabalham sobretudo no domínio do documento em papel, o georreferenciamento é uma das ferramentas que mais frequentemente utilizamos. Esta técnica utiliza uma série de pontos de controlo para proporcionar a um objeto bidimensional, como um mapa em suporte de papel, as coordenadas geográficas reais de que necessita para se alinhar com as características tridimensionais da terra no software SIG (em [Introdução ao Google Maps e Google Earth](/en/lessons/googlemaps-googleearth) (em inglês) vimos uma 'sobreposição', que é uma versão mais simplificada de georreferenciamento do Google Earth).
+Nesta lição aprenderá como georreferenciar mapas históricos para que possam ser adicionados a um SIG como uma camada raster. O georreferenciamento é importante para quem queira digitalizar com precisão dados presentes num mapa em suporte papel e, visto que os historiadores trabalham sobretudo no domínio do documento em papel, o georreferenciamento é uma das ferramentas que mais frequentemente utilizamos. Esta técnica utiliza uma série de pontos de controlo para proporcionar a um objeto bidimensional, como um mapa em suporte papel, as coordenadas geográficas reais de que necessita para se alinhar com as características tridimensionais da terra no software SIG (em [Introdução ao Google Maps e Google Earth](/en/lessons/googlemaps-googleearth) (em inglês) vimos uma 'sobreposição', que é uma versão mais simplificada de georreferenciamento do Google Earth).
 
 O georreferenciamento de um mapa histórico requer um conhecimento tanto da geografia como da história do local que se está a estudar, de modo a garantir exatidão. As paisagens construídas e naturais mudaram ao longo do tempo e é importante confirmar se a localização dos seus pontos de controlo - quer sejam casas, intersecções ou mesmo cidades - tem permanecido constante. Introduzir pontos de controlo num SIG é fácil, mas nos bastidores o georreferenciamento usa processos complexos de transformação e compressão. Estes são utilizados para corrigir as distorções e imprecisões encontradas em muitos mapas históricos e ‘esticar’ os mapas para que se ajustem às coordenadas geográficas. Em cartografia isto é conhecido como [*rubber-sheeting*](http://en.wikipedia.org/wiki/Rubbersheeting) (em inglês) - uma correção geométrica - pois trata o mapa como se fosse feito de borracha (*rubber*, em inglês) e os pontos de controlo como se fossem tachas 'fixando' o documento histórico a uma superfície tridimensional como o globo.
 
@@ -64,7 +64,7 @@ Irá abrir uma janela intitulada "Módulos" (Plugins). Desça até *Georeference
 - Neste ponto é preciso encerrar e reabrir o QGIS. Para o propósito deste exemplo, e para manter as coisas tão simples quanto possível, não reinicie o seu projeto existente e, em vez disso, inicie um novo projeto.
 - Configure corretamente o [Sistema de Referência de Coordenadas (SRC) - *Coordenate Reference System (CRS)*](http://en.wikipedia.org/wiki/Spatial_reference_system) (em inglês). (Veja [Instalação do QGIS 2.0 e adição de camadas](/en/lessons/qgis-layers) (em inglês) para se relembrar. Tenha em mente que a versão do QGIS dessa lição será diferente da utilizada nesta tradução.)
 - Guarde este novo projeto (no menu "Ficheiro", selecione "Guardar") e nomeie-o 'georreferenciamento'.
-- Adicione a camada 'coastine_polygon'. (Veja [Instalação do QGIS 2.0 e adição de camadas](/en/lessons/qgis-layers) (em inglês) para se relembrar. Tenha em atenção que a versão do QGIS dessa lição será diferente da utilizada nesta tradução.)
+- Adicione a camada 'coastine_polygon'. (Veja [Instalação do QGIS 2.0 e adição de camadas](/en/lessons/qgis-layers) (em inglês) para relembrar. Tenha em atenção que a versão do QGIS dessa lição será diferente da utilizada nesta tradução.)
 
 ## Abrir as Camadas SIG necessárias
 
@@ -156,7 +156,7 @@ Algumas sugestões para escolher os pontos de controlo:
 - Adicione um ponto perto do lado oposto do seu mapa impresso (quanto mais afastados estiverem os seus pontos de controlo, mais preciso é o processo de georreferenciamento) e outro perto de Charlottetown.
 - Regresse à janela do "Georreferenciador". Deverá agora ver três pontos vermelhos no mapa impresso e três registos na tabela GCP (*Ground Control Points* - Pontos de Controlo no Terreno) na parte inferior da janela.
 
-{% include figure.html filename="tr-pt-georeferencing-qgis-13.png" alt="Imagem com visualização do mapa raster e respectivos pontos de controlo" caption="Figura 13" %}
+{% include figure.html filename="tr-pt-georeferencing-qgis-13.png" alt="Imagem com visualização do mapa raster e respetivos pontos de controlo" caption="Figura 13" %}
 
 *Determine as configurações da transformação:*
 
@@ -194,7 +194,7 @@ A maioria destas opções de configuração pode ser deixada como está predefin
 
 {% include figure.html filename="tr-pt-georeferencing-qgis-19.png" alt="Imagem da área de trabalho do QGIS com o shapefile dos polígonos por cima do raster" caption="Figura 19" %}
 
-- Mude o preenchimento da camada 'lot_township_polygon' para "Sem preenchimento", selecionando a camada e depois em "Propriedades" escolher Simbologia -> Preenchimento Simples -> Estilo de Preenchimento -> Sem preenchimento. Clicar em "OK".
+- Mude o preenchimento da camada 'lot_township_polygon' para "Sem preenchimento", selecionando a camada e depois em "Propriedades" escolher Simbologia -> Preenchimento Simples -> Estilo de Preenchimento -> Sem preenchimento. Clique em "OK".
 
 {% include figure.html filename="tr-pt-georeferencing-qgis-20.png" alt="Imagem com a janela das configurações de simbologia do shapefile" caption="Figura 20" %}
 
@@ -207,6 +207,6 @@ Por exemplo, este mapa georreferenciado da PEI mostra a localização de todas a
 
 Ao digitalizar vetores de linhas, tais como estradas ou linhas costeiras, pode comparar a localização destes elementos com outros dados históricos ou simplesmente compará-los visualmente com a camada 'lot_township_polygon' neste SIG.
 
-Em processos mais avançados pode, inclusivamente, sobrepor esta imagem georreferenciada com um DEM (*Digital Elevation Model* - Modelo de Elevação Digital) para proporcionar-lhe um efeito de altura através de sombras (*hillshade*) ou um efeito 3D e, assim, realizar um '*fly-over*' e ter uma perspectiva aérea das habitações da PEI no século XIX.
+Em processos mais avançados pode, inclusivamente, sobrepor esta imagem georreferenciada com um DEM (*Digital Elevation Model* - Modelo de Elevação Digital) para proporcionar-lhe um efeito de altura através de sombras (*hillshade*) ou um efeito 3D e, assim, realizar um '*fly-over*' e ter uma perspetiva aérea das habitações da PEI no século XIX.
 
 *Esta lição é parte do [Geospatial Historian](http://geospatialhistorian.wordpress.com/).*
