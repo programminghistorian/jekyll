@@ -3,6 +3,7 @@ title: Georreferenciamento com o QGIS 3.20
 layout: lesson
 collection: lessons
 slug: georreferenciamento-qgis
+original: georeferencing-qgis
 date: 2013-12-13
 translation_date: 2023-05-01
 authors:
@@ -27,7 +28,6 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/434
 activity: transforming
 topics: [mapping]
 abstract: "Nesta lição aprenderá como georreferenciar mapas históricos para que possam ser adicionados a um SIG como uma camada raster."
-original: georeferencing-qgis
 avatar_alt: Mapa de uma cidade no topo de uma montanha
 doi: A INDICAR
 ---
@@ -35,21 +35,19 @@ doi: A INDICAR
 {% include toc.html %}
 
 
-
-
-
+<div class="alert alert-info">
 Nota de tradução 1: Embora a lição original em inglês se refira à versão 2.0 do Quantum GIS (QGIS), na presente tradução da lição foi tomada a opção de usar uma versão mais recente do QGIS - a 3.20 - tendo-se efetuado as modificações necessárias para adaptar a lição a esta versão do software.
 Tenha em atenção que, nos links que remetem para outras lições sobre o QGIS, a versão utilizada nestas será diferente da utilizada nesta tradução. 
 
 Nota de tradução 2: Na tradução desta lição usou-se a versão em pt-pt podendo-se, no entanto, optar também pela versão em pt-br do QGIS.
-
+</div>
 
 Objetivos da lição
 ------------
 
 Nesta lição aprenderá como georreferenciar mapas históricos para que possam ser adicionados a um SIG como uma camada raster. O georreferenciamento é importante para quem queira digitalizar com precisão dados presentes num mapa em suporte papel e, visto que os historiadores trabalham sobretudo no domínio do documento em papel, o georreferenciamento é uma das ferramentas que mais frequentemente utilizamos. Esta técnica utiliza uma série de pontos de controlo para proporcionar a um objeto bidimensional, como um mapa em suporte papel, as coordenadas geográficas reais de que necessita para se alinhar com as características tridimensionais da terra no software SIG (em [Introdução ao Google Maps e Google Earth](/en/lessons/googlemaps-googleearth) (em inglês) vimos uma 'sobreposição', que é uma versão mais simplificada de georreferenciamento do Google Earth).
 
-O georreferenciamento de um mapa histórico requer um conhecimento tanto da geografia como da história do local que se está a estudar, de modo a garantir exatidão. As paisagens construídas e naturais mudaram ao longo do tempo e é importante confirmar se a localização dos seus pontos de controlo - quer sejam casas, intersecções ou mesmo cidades - tem permanecido constante. Introduzir pontos de controlo num SIG é fácil, mas nos bastidores o georreferenciamento usa processos complexos de transformação e compressão. Estes são utilizados para corrigir as distorções e imprecisões encontradas em muitos mapas históricos e ‘esticar’ os mapas para que se ajustem às coordenadas geográficas. Em cartografia isto é conhecido como [*rubber-sheeting*](http://en.wikipedia.org/wiki/Rubbersheeting) (em inglês) - uma correção geométrica - pois trata o mapa como se fosse feito de borracha (*rubber*, em inglês) e os pontos de controlo como se fossem tachas 'fixando' o documento histórico a uma superfície tridimensional como o globo.
+O georreferenciamento de um mapa histórico requer um conhecimento tanto da geografia como da história do local que se está a estudar, de modo a garantir exatidão. As paisagens construídas e naturais mudaram ao longo do tempo e é importante confirmar se a localização dos seus pontos de controlo - quer sejam casas, intersecções ou mesmo cidades - tem permanecido constante. Introduzir pontos de controlo num SIG é fácil, mas nos bastidores o georreferenciamento usa processos complexos de transformação e compressão. Estes são utilizados para corrigir as distorções e imprecisões encontradas em muitos mapas históricos e ‘esticar’ os mapas para que se ajustem às coordenadas geográficas. Em cartografia isto é conhecido como [*rubber-sheeting*](https://perma.cc/4554-EWZB) (em inglês) - uma correção geométrica - pois trata o mapa como se fosse feito de borracha (*rubber*, em inglês) e os pontos de controlo como se fossem tachas 'fixando' o documento histórico a uma superfície tridimensional como o globo.
 
 ## Começando
 
@@ -62,7 +60,7 @@ Irá abrir uma janela intitulada "Módulos" (Plugins). Desça até *Georeference
 {% include figure.html filename="tr-pt-georeferencing-qgis-2.png" alt="Imagem com lista dos módulos disponíveis" caption="Figura 2" %}
 
 - Neste ponto é preciso encerrar e reabrir o QGIS. Para o propósito deste exemplo, e para manter as coisas tão simples quanto possível, não reinicie o seu projeto existente e, em vez disso, inicie um novo projeto.
-- Configure corretamente o [Sistema de Referência de Coordenadas (SRC) - *Coordenate Reference System (CRS)*](http://en.wikipedia.org/wiki/Spatial_reference_system) (em inglês). (Veja [Instalação do QGIS 2.0 e adição de camadas](/en/lessons/qgis-layers) (em inglês) para se relembrar. Tenha em mente que a versão do QGIS dessa lição será diferente da utilizada nesta tradução.)
+- Configure corretamente o [Sistema de Referência de Coordenadas (SRC) - *Coordenate Reference System (CRS)*](https://perma.cc/58HF-WURV) (em inglês). (Veja [Instalação do QGIS 2.0 e adição de camadas](/en/lessons/qgis-layers) (em inglês) para se relembrar. Tenha em mente que a versão do QGIS dessa lição será diferente da utilizada nesta tradução.)
 - Guarde este novo projeto (no menu "Ficheiro", selecione "Guardar") e nomeie-o 'georreferenciamento'.
 - Adicione a camada 'coastine_polygon'. (Veja [Instalação do QGIS 2.0 e adição de camadas](/en/lessons/qgis-layers) (em inglês) para relembrar. Tenha em atenção que a versão do QGIS dessa lição será diferente da utilizada nesta tradução.)
 
@@ -76,7 +74,7 @@ Este é o *shapefile* que contém a camada vetorial atual que iremos usar para g
 
 - Navegue para o link abaixo no seu navegador de internet e faça o download do ficheiro 'lot_township_polygon':
 
-<http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP>
+[http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP](http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP)
 
 - Depois de fazer o download do ficheiro coloque-o numa pasta que possa encontrar mais tarde e descompacte o ficheiro. (Lembre-se de manter todos os ficheiros juntos, uma vez que todos são necessários para abrir a camada no seu SIG).
 
@@ -123,7 +121,7 @@ Algumas sugestões para escolher os pontos de controlo:
 - **Onde** deve colocar os pontos de controlo? Escolha áreas tão próximas quanto possível dos quatro cantos do seu mapa para que essas áreas nas extremidades não sejam omitidas no *rubbersheeting*.
 - Selecione pontos de controlo adicionais perto da sua área de interesse. Tudo entre os quatro pontos de controlo dos cantos deve ser georreferenciado de forma uniforme, mas se estiver preocupado com a precisão de um lugar em particular certifique-se de que seleciona pontos de controlo adicionais nessa área.
 - Escolha o meio de cruzamentos e estradas, porque as margens das estradas mudaram ligeiramente ao longo do tempo à medida que as melhorias nestas iam sendo efetuadas.
-- Verifique se os seus pontos de controlo não mudaram de localização ao longo do tempo. As estradas foram frequentemente redirecionadas, e mesmo casas e outros edifícios podem ter sido deslocados, especialmente nas [regiões atlânticas do Canadá](http://books.google.ca/books?id=TqCNZYXWXAUC&dq=tilting&source=gbs_navlinks_s) (em inglês).
+- Verifique se os seus pontos de controlo não mudaram de localização ao longo do tempo. As estradas foram frequentemente redirecionadas, e mesmo casas e outros edifícios podem ter sido deslocados, especialmente nas [regiões atlânticas do Canadá](https://perma.cc/H8DK-KBXC) (em inglês).
 
 *Adicione o seu primeiro ponto de controlo:*
 
@@ -168,10 +166,10 @@ Antes de clicar em "Iniciar georreferenciamento" e começar o processo de georre
 
 A maioria destas opções de configuração pode ser deixada como está predefinida. Neste exemplo foi usado: tipo de transformação "linear", método de reamostragem "vizinho mais próximo" e compressão "LZW". O SRC (Sistema de Referência de Coordenadas) de destino pode ficar o do projeto, mas pode também usar esta função para dar ao novo raster um sistema de referência diferente.
 
-- O seu novo ficheiro raster georreferenciado será guardado por predefinição na pasta do projeto. [Tif](https://pt.wikipedia.org/wiki/Tagged_Image_File_Format) é o formato predefinido para rasters georreferenciados no QGIS.
+- O seu novo ficheiro raster georreferenciado será guardado por predefinição na pasta do projeto. [Tif](https://perma.cc/WZ6W-J4YF) é o formato predefinido para rasters georreferenciados no QGIS.
 - Tenha em mente que um ficheiro Tif vai ser muito mais pesado que o seu mapa original, mesmo com compressão LZW. Por isso, certifique-se de que tem espaço suficiente se estiver a utilizar, por exemplo, uma USB pen drive. (*Aviso*: o ficheiro Tif produzido a partir deste 6.8 Mb .jpg será **maior que 1GB** depois de georreferenciado). Uma forma de controlar o tamanho do ficheiro raster georreferenciado e manter uma resolução suficientemente alta para ter legibilidade é recortar apenas a área do mapa importante para o projeto. Poderá também procurar se está disponível uma versão de menor resolução da imagem do mapa histórico.
 
-- Não será necessário um [*world file*](http://en.wikipedia.org/wiki/World_file) (em inglês), a menos que queira georreferenciar novamente a mesma imagem noutro SIG ou se alguém precisar de georreferenciar a imagem e não tiver acesso aos seus dados SIG, Sistema de Referência de Coordenadas, *etc.*,...
+- Não será necessário um [*world file*](https://perma.cc/A9RZ-J8VG) (em inglês), a menos que queira georreferenciar novamente a mesma imagem noutro SIG ou se alguém precisar de georreferenciar a imagem e não tiver acesso aos seus dados SIG, Sistema de Referência de Coordenadas, *etc.*,...
 - É possível selecionar 'Use 0 para transparência quando necessário' de forma a eliminar espaços negros à volta das margens do mapa, mas não é essencial, e pode experimentar conforme precisar.
 - Não será necessário definir a resolução de saída.
 - Certifique-se de que "Carregar no QGIS quando concluído" está selecionado de modo a poupar um passo. Assim irá adicionar automaticamente o novo ficheiro ao seu SIG para que mais tarde não tenha de procurar o ficheiro Tif. Depois de configurada a transformação clique em "OK".
@@ -209,4 +207,4 @@ Ao digitalizar vetores de linhas, tais como estradas ou linhas costeiras, pode c
 
 Em processos mais avançados pode, inclusivamente, sobrepor esta imagem georreferenciada com um DEM (*Digital Elevation Model* - Modelo de Elevação Digital) para proporcionar-lhe um efeito de altura através de sombras (*hillshade*) ou um efeito 3D e, assim, realizar um '*fly-over*' e ter uma perspetiva aérea das habitações da PEI no século XIX.
 
-*Esta lição é parte do [Geospatial Historian](http://geospatialhistorian.wordpress.com/).*
+*Esta lição é parte do [Geospatial Historian](https://perma.cc/6AN6-N7LX).*
