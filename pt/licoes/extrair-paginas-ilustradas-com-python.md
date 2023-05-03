@@ -25,7 +25,7 @@ topics: [api]
 abstract: A aprendizagem de máquina e as extensões de API do HathiTrust e do Internet Archive estão a tornar mais fácil a extração de regiões de página com interesse visual de volumes digitalizados. Esta lição mostra como extrair eficientemente essas regiões e, ao fazê-lo, como fomentar novas questões sobre a pesquisa visual.
 avatar_alt: Instrumento Científico de Medição
 original: extracting-illustrated-pages
-doi: A INDICAR
+doi: 10.46430/phpt0040
 ---
 
 {% include toc.html %}
