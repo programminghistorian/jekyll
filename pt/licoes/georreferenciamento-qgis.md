@@ -29,7 +29,7 @@ activity: transforming
 topics: [mapping]
 abstract: "Nesta lição aprenderá como georreferenciar mapas históricos para que possam ser adicionados a um SIG como uma camada raster."
 avatar_alt: Mapa de uma cidade no topo de uma montanha
-doi: A INDICAR
+doi: 10.46430/phpt0039
 ---
 
 {% include toc.html %}
