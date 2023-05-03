@@ -35,12 +35,11 @@ doi: A INDICAR
 {% include toc.html %}
 
 
-<div class="alert alert-info">
-Nota de tradução 1: Embora a lição original em inglês se refira à versão 2.0 do Quantum GIS (QGIS), na presente tradução da lição foi tomada a opção de usar uma versão mais recente do QGIS - a 3.20 - tendo-se efetuado as modificações necessárias para adaptar a lição a esta versão do software.
+> Nota de tradução 1: Embora a lição original em inglês se refira à versão 2.0 do Quantum GIS (QGIS), na presente tradução da lição foi tomada a opção de usar uma versão mais recente do QGIS - a 3.20 - tendo-se efetuado as modificações necessárias para adaptar a lição a esta versão do software.
 Tenha em atenção que, nos links que remetem para outras lições sobre o QGIS, a versão utilizada nestas será diferente da utilizada nesta tradução. 
 
-Nota de tradução 2: Na tradução desta lição usou-se a versão em pt-pt podendo-se, no entanto, optar também pela versão em pt-br do QGIS.
-</div>
+> Nota de tradução 2: Na tradução desta lição usou-se a versão em pt-pt podendo-se, no entanto, optar também pela versão em pt-br do QGIS.
+
 
 Objetivos da lição
 ------------
