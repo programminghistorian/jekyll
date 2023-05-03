@@ -62,6 +62,17 @@
     es: Este miembro funge el cargo de Presidente/a Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona nuestras publicaciones.
     fr: Ce(tte) membre occupe le rôle de président/e du conseil d'administration de l'organisme sans but lucratif ProgHist Ltd, qui soutient les publications.
     pt: Este membro tem um papel de Presidente do Conselho de Curadores na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
+- type: proghist-deputy
+  label:
+    en: Deputy Chair of Trustees
+    es: Presidente/a Adjunto/a de Consejeros
+    fr: Président/e adjoint/e du conseil d'administration
+    pt: Presidente Adjunto/a do Conselho de Curadores
+  definition:
+    en: This member holds the role of Deputy Chair of Trustees on the Board of the not-for-profit company ProgHist Ltd, which supports the publications.
+    es: Este miembro funge el cargo de Presidente/a Adjunto/a Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona nuestras publicaciones.
+    fr: Ce(tte) membre occupe le rôle de président/e adjoint/e du conseil d'administration de l'organisme sans but lucratif ProgHist Ltd, qui soutient les publications.
+    pt: Este membro tem um papel de Presidente Adjunto/a do Conselho de Curadores na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
 - type: technical-lead
   label:
     en: Technical Lead
