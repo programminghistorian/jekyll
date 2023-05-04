@@ -54,20 +54,20 @@
 - type: proghist-chair
   label:
     en: Chair of Trustees
-    es: Presidente/a de Consejeros
-    fr: Président/e du conseil d'administration
+    es: Presidenta del Consejo de Administración
+    fr: Présidente du conseil d'administration
     pt: Presidente do Conselho de Curadores
   definition:
     en: This member holds the role of Chair of Trustees on the Board of the not-for-profit company ProgHist Ltd, which supports the publications.
-    es: Este miembro funge el cargo de Presidente/a Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona nuestras publicaciones.
+    es: Este miembro funge el cargo de Presidente/a del Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona nuestras publicaciones.
     fr: Ce membre occupe le rôle de président/e du conseil d'administration de l'organisme à but non lucratif ProgHist Ltd, qui soutient les publications.
     pt: Este membro tem um papel de Presidente do Conselho de Curadores na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
 - type: proghist-deputy
   label:
     en: Deputy Chair of Trustees
-    es: Presidente/a Adjunto/a de Consejeros
-    fr: Président/e adjoint/e du conseil d'administration
-    pt: Presidente Adjunto/a do Conselho de Curadores
+    es: Presidenta Adjunta del Consejo de Administración
+    fr: Présidente adjointe du conseil d'administration
+    pt: Presidente Adjunta do Conselho de Curadores
   definition:
     en: This member holds the role of Deputy Chair of Trustees on the Board of the not-for-profit company ProgHist Ltd, which supports the publications.
     es: Este miembro funge el cargo de Presidente/a Adjunto/a Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona nuestras publicaciones.
@@ -109,7 +109,7 @@
 - type: publishing-manager 
   label:
     en: Publishing Manager
-    es: Directora de publicaciones
+    es: Director/a de publicaciones
     fr: Responsable de la publication
     pt: Gestor/a de publicações
   definition:
