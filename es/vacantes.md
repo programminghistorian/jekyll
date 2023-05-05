@@ -48,5 +48,5 @@ If you’d like to ask any questions about this role, please [write to Anisa Haw
 
 ### Apply
 
-Learn more, and find out how to apply in the [Job Information Pack](/images/Job-Information-Pack-DH-Publishing-Assistant-May-2023.pdf).
+Learn more, and find out how to apply in the [Job Information Pack](/images/blog/Job-Information-Pack-DH-Publishing-Assistant-May-2023.pdf).
 
