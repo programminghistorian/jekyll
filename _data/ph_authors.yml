@@ -46,7 +46,7 @@
     pt: |
       Adam Crymble, University College London.
   team_roles:
-    - proghist-chair
+    - proghist
   status: institutionally-supported
 
 - name: Caleb McDaniel
@@ -1271,7 +1271,7 @@
   team_roles:
     - french
     - editorial
-    - proghist
+    - proghist-chair
   status: volunteer
   bio:
     en: |
@@ -1454,7 +1454,7 @@
   team_roles:
     - editorial
     - spanish
-    - proghist
+    - proghist-deputy
   status: volunteer
 
 - name: Joshua G. Ortiz Baco

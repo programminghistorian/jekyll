@@ -49,19 +49,30 @@
   definition:
     en: This member holds a role on the Board of the not-for-profit company ProgHist Ltd, which supports the publications.
     es: Este miembro funge un cargo en el Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona las publicaciones.
-    fr: Ce(tte) membre occupe un rôle au sein du conseil d'administration de l'organisme sans but lucratif ProgHist Ltd, qui soutient les publications.
+    fr: Ce membre occupe un rôle au sein du conseil d'administration de l'organisme à but non lucratif ProgHist Ltd, qui soutient les publications.
     pt: Este membro tem um papel no conselho de curadores na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
 - type: proghist-chair
   label:
     en: Chair of Trustees
-    es: Presidente/a de Consejeros
-    fr: Président/e du conseil d'administration
+    es: Presidenta del Consejo de Administración
+    fr: Présidente du conseil d'administration
     pt: Presidente do Conselho de Curadores
   definition:
     en: This member holds the role of Chair of Trustees on the Board of the not-for-profit company ProgHist Ltd, which supports the publications.
-    es: Este miembro funge el cargo de Presidente/a Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona nuestras publicaciones.
-    fr: Ce(tte) membre occupe le rôle de président/e du conseil d'administration de l'organisme sans but lucratif ProgHist Ltd, qui soutient les publications.
+    es: Este miembro funge el cargo de Presidente/a del Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona nuestras publicaciones.
+    fr: Ce membre occupe le rôle de président/e du conseil d'administration de l'organisme à but non lucratif ProgHist Ltd, qui soutient les publications.
     pt: Este membro tem um papel de Presidente do Conselho de Curadores na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
+- type: proghist-deputy
+  label:
+    en: Deputy Chair of Trustees
+    es: Presidenta Adjunta del Consejo de Administración
+    fr: Présidente adjointe du conseil d'administration
+    pt: Presidente Adjunta do Conselho de Curadores
+  definition:
+    en: This member holds the role of Deputy Chair of Trustees on the Board of the not-for-profit company ProgHist Ltd, which supports the publications.
+    es: Este miembro funge el cargo de Presidente/a Adjunto/a del Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona nuestras publicaciones.
+    fr: Ce membre occupe le rôle de président/e adjoint/e du conseil d'administration de l'organisme à but non lucratif ProgHist Ltd, qui soutient les publications.
+    pt: Este membro tem um papel de Presidente Adjunto/a do Conselho de Curadores na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
 - type: technical-lead
   label:
     en: Technical Lead
@@ -100,7 +111,7 @@
     en: Publishing Manager
     es: Directora de publicaciones
     fr: Responsable de la publication
-    pt: Gestor/a de publicações
+    pt: Gestora de publicações
   definition:
     en: Responsible for the development and production of our publications
     es: Responsable del desarrollo y la producción de nuestras publicaciones

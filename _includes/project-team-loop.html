@@ -39,6 +39,11 @@ is used both on project-team.md as well as es/equipo-de-proyecto.md
 {% include contact-info.html name=member.name %}
 {% endfor %}
 
+{% assign proghist-deputy = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'proghist-deputy'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in proghist-deputy %}
+{% include contact-info.html name=member.name %}
+{% endfor %}
+
 {% assign proghistmembers = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'proghist'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
 {% for member in proghistmembers %}
 {% include contact-info.html name=member.name %}
