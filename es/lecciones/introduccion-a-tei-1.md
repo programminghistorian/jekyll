@@ -51,29 +51,64 @@ Cualquier editor de texto plano (en formato `.txt`) nos servirá para hacer todo
 
 Para esta lección usaremos el editor [Visual Studio Code](https://code.visualstudio.com/) (VS Code, más brevemente), creado por Microsoft y mantenido actualmente por una gran comunidad de programadores de software libre. Es una aplicación completamente gratuita y de [código abierto](https://github.com/microsoft/vscode), disponible para Windows, MacOS y Linux.
 
-Descarga la versión más reciente de VS Code en el enlace [https://code.visualstudio.com/](https://code.visualstudio.com/) e instálala en tu computador. Ahora ábrelo y verás una pantalla como la siguiente:
+Descarga la versión más reciente de VS Code en el enlace [https://code.visualstudio.com/](https://code.visualstudio.com/) e instálala en tu computador. Ábrelo y verás una pantalla como la siguiente:
 
 {% include figure.html filename="introduccion-a-tei-1-01.png" caption="Vista inicial de VS Code" %}
 
-Ahora instalaremos una extensión de VS Code llamada [XML Complete](https://marketplace.visualstudio.com/items?itemName=rogalmic.vscode-xml-complete), para trabajar más fácilmente con documentos XML. Para ello haz clic en el botón de extensiones en la barra lateral de herramientas, a la izquierda en la ventana principal:
+Ahora instalaremos una extensión de VS Code para trabajar más fácilmente con documentos XML y TEI-XML: [Scholarly XML](https://marketplace.visualstudio.com/items?itemName=raffazizzi.sxml).
+
+
+Para ello haz clic en el botón de extensiones en la barra lateral de herramientas, a la izquierda en la ventana principal:
 
 {% include figure.html filename="introduccion-a-tei-1-02.png" caption="Extensiones de VS Code" %}
 
-Escribe `Xml complete` en el campo de búsqueda:
+Escribe `Scholarly XML` en el campo de búsqueda:
 
-{% include figure.html filename="introduccion-a-tei-1-03.png" caption="Búsqueda de extensiones de VS Code" %}
+{% include figure.html filename="introduccion-a-tei-1-03.png" caption="Búsqueda de una extensión en VS Code" %}
 
 Finalmente haz clic en "Install":
 
-{% include figure.html filename="introduccion-a-tei-1-04.png" caption="Instalar XML Complete en VS Code" %}
+{% include figure.html filename="introduccion-a-tei-1-04.png" caption="Instalar Scholarly XML en VS Code" %}
 
-La extensión XML Complete nos permite, entre otras cosas, validar formalmente documentos XML. Si hay un error formal —por ejemplo si hemos olvidado cerrar una etiqueta—, VS Code nos lo mostrará en la barra de abajo:
 
-{% include figure.html filename="introduccion-a-tei-1-05.png" caption="Detectar errores sintácticos en VS Code" %}
+Esta extensión nos permite hacer varias cosas con el código:
 
-{% include figure.html filename="introduccion-a-tei-1-06.png" caption="Detectar errores sintácticos en VS Code (detalle)" %}
+**Primero**, seleccionar cualquier texto en un documento XML, presionar un atajo de teclado y encerrar automáticamente el texto seleccionado dentro de un elemento XML. Cuando presionamos `Ctrl+E` (en Windows o Linux) o `Cmd+E` (en MacOS), VS Code abre una ventanita con la instrucción `Enter Abbreviation (Press Enter to confirm or Escape to cancel)` ("Introduce la abreviatura (Presiona Intro para confirmar o Escape para cancelar)"). A continuación escribimos el nombre del elemento y presionamos la tecla `Intro`. El editor entonces encerrará el texto seleccionado entre una etiqueta de apertura y otra de cierre con el nombre del elemento. Cuando trabajamos con XML, automatizar la introducción las etiquetas de apertura y de cierre nos puedo ahorrar mucho tiempo, a la vez que disminuye la probabilidad de que introduzcamos errores de tipográficos involuntarios en el código.
 
-Esta extensión ofrece también otras herramientas útiles para autocompletar el código de XML. Para más detalles, puedes consultar la [documentación](https://github.com/rogalmic/vscode-xml-complete) (solo disponible en inglés).
+{% include figure.html filename="introduccion-a-tei-1-05.png" caption="Introducir automáticamente un elemento XML en VS Code" %}
+
+**Segundo**, determinar si un documento está bien formado según la sintaxis de XML y además si es válido semánticamente con respecto a un esquema de validación de tipo [RELAX NG](https://en.wikipedia.org/wiki/RELAX_NG), por ejemplo, el esquema `tei-all` de TEI, que contiene la totalidad de los módulos de marcado para todos los tipos de documentos previstos por el consorcio TEI. (Más abajo explicaremos los conceptos de validez sintáctica y semántica.) La extensión hace las dos cosas automáticamente. 
+
+{% include figure.html filename="introduccion-a-tei-1-06.png" caption="Detectar errores de XML en VS Code" %}
+
+{% include figure.html filename="introduccion-a-tei-1-07.png" caption="Detectar errores de XML en VS Code" %}
+
+Ahora bien, para realizar el segundo tipo de validación, es preciso que en el documento se especifique el URI del esquema en una declaración `<?xml-model>` al principio del documento, por ejemplo así:
+
+```XML
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+```
+
+Puedes bajar una plantilla básica de un documento TEI-XML [aquí](https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/introduccion-a-tei-1/plantilla-TEI.xml**, con estas líneas ya incluidas.
+
+**Tercero**, la extensión ofrece también una herramientas para autocompletar el código de XML a partir del esquema de validación RELAX NG. Por ejemplo, si hemos introducido en el documento un elemento `<q>` (para marcar un texto entrecomillado, por ejemplo una cita), podemos presionar la barra espaciador luego del `q` de la etiqueta de apertura y VS Code nos mostrará una lista de atributos posibles para seleccionar en el menú:
+
+{% include figure.html filename="introduccion-a-tei-1-08.png" caption="Menú de autocompleción de código de XML en VS Code" %}
+
+
+Ahora bien, para poder usar esta u otras extensiones de VS Code es necesario que el editor **no** esté en modo restringido (*Restricted Mode*), como nos aparece en esta ventana:
+
+{% include figure.html filename="introduccion-a-tei-1-09.png" caption="Aviso de modo restringido en VS Code" %}
+
+Este modo evita que las extensiones o el código del documento ejecuten instrucciones que puedan dañar nuestro sistema. Puesto que estamos trabajando con nuestros documento y la extensión recomendada es altamente confiable, podemos desactivar el modo restringido haciendo clic en el hipervínculo de arriba que dice *Manage* ("Administrar") y luego clic en el botón *Trust* ("Confiar"), así:
+
+{% include figure.html filename="introduccion-a-tei-1-10.png" caption="Salir del modo restringido en VS Code" %}
+
+Ahora que hemos configurado nuestro editor, podemos empezar a trabajar en TEI-XML.
+
+
 
 ## Visualización vs. categorización
 
@@ -85,7 +120,7 @@ Comprender la diferencia entre entre marcado de visualización (como el de Markd
 
 Aclaremos mejor esto volviendo a nuestro ejemplo inicial. Supongamos que en el texto digitalizado del que partimos los nombres propios aparecen siempre impresos en [letra versalita](https://es.wikipedia.org/wiki/Versalita), como en el siguiente fragmento:
 
-{% include figure.html filename="introduccion-a-tei-1-07.png" caption="Fragmento corto de texto digitalizado de _Don Quijote_" %}
+{% include figure.html filename="introduccion-a-tei-1-11.png" caption="Fragmento corto de texto digitalizado de _Don Quijote_" %}
 
 Como veremos a continuación, TEI nos permite codificar, por medio de una serie de etiquetas, el texto que queremos categorizar. Por ejemplo, podemos utilizar una etiqueta como [`<name>`](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-name.html) para demarcar los nombres propios contenidos en el texto, así:
 
@@ -110,16 +145,10 @@ En esta lección no entraremos en detalle en la sintaxis y el funcionamiento de 
 
 Por ahora solo debemos saber que todo documento XML debe cumplir dos reglas básicas para ser válido:
 
-1. Debe haber un solo elemento raíz (que contiene a todos los demás elementos, si los hay)
-2. Toda etiqueta de apertura debe tener una etiqueta de cierre
+1. Debe haber un solo elemento raíz (que contiene a todos los demás elementos, si los hay).
+2. Toda etiqueta de apertura debe tener una etiqueta de cierre.
 
-## Validación sintáctica de documentos XML
-
-Podemos saber si un documento XML es sintácticamente válido con ayuda de nuestro editor de texto (VS Code con la extensión XML Complete). También, en Internet puedes encontrar aplicaciones gratuitas de validación, por ejemplo, [https://codebeautify.org/xmlvalidator](https://codebeautify.org/xmlvalidator) o  [https://www.xmlvalidation.com](https://www.xmlvalidation.com).
-
-Si copiamos y pegamos el último ejemplo en este último enlace (o si subimos el archivo correspondiente), nos arrojará el siguiente error:
-
-{% include figure.html filename="introduccion-a-tei-1-08.png" caption="Validación en línea del último ejemplo" %}
+Por suerte, los editores de código XML como VS Code (con la extensión Scholarly XML) u OxygenXML nos permiten detectar fácilmente errores de este tipo.
 
 ## ¿Qué es TEI?
 
@@ -286,13 +315,13 @@ En conclusión, entre más completa y minuciosamente se codifiquen los metadatos
 
 Como vimos arriba en el documento mínimo, `<text>` es el segundo hijo de `<TEI>`. Contiene todo el texto del documento, propiamente hablando. De acuerdo con la [documentación de TEI](https://tei-c.org/guidelines/p5/), `<text>` puede contener una serie de elementos en los que el texto objeto se ha de estructurar:
 
-{% include figure.html filename="introduccion-a-tei-1-09.png" caption="Elementos posibles de `<text>`" %}
+{% include figure.html filename="introduccion-a-tei-1-12.png" caption="Elementos posibles de `<text>`" %}
 
 El más importante de estos elementos es [`<body>`](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-body.html), que contiene el cuerpo principal del texto. Sin embargo, otros elementos importantes como hijos de `<text>` son [`<front>`](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-front.html), que contiene el _frontmatter_ (páginas preliminares) de un texto (introducción, prólogo, etc.), y [`<back>`](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-back.html), que contiene el _backmatter_ (páginas finales, apéndices, índices, etcétera).
 
 Por su parte, el elemento `<body>` puede a su vez contener muchos otros elementos:
 
-{% include figure.html filename="introduccion-a-tei-1-10.png" caption="Elementos posibles de `<body>`" %}
+{% include figure.html filename="introduccion-a-tei-1-13.png" caption="Elementos posibles de `<body>`" %}
 
 Aunque todas esas posibilidades puedan abrumarnos a primera vista, debemos recordar que un texto suele dividirse naturalmente en secciones o partes constitutivas. Es recomendable, entonces, usar el elemento [`<div>`](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html) para cada una de ellas y usar atributos como `@type` o `@n` para cualificar sus diferentes clases y posición en el texto (p. ej. `<div n="3" type="subsección">...</div>`).
 
