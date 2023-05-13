@@ -48,7 +48,7 @@ Não aceite os dados tal como são apresentados. Esta é a principal mensagem de
 
 Estes passos são explicitados com a ajuda de uma série de exercicios baseados na coleção de metadados do *[Museum of Applied Arts and Science](https://www.maas.museum/)* (em inglês), demonstrando, assim, como métodos (semi)automáticos podem ajudar na correção de erros dos dados.
 
-## Porque é que os historiadores se devem preocupar com a qualidade dos dados?
+## Porque é que os historiadores devem se preocupar com a qualidade dos dados?
 
 Registros duplicados, valores vazios e formatos incossistentes são fenómenos com os quais devemos estar preparados para lidar quando utilizamos data sets históricos. Esta lição vai ensinar o usuário a descobrir inconsistências nos dados contidos em tabelas ou bases de dados. À medida que, cada vez mais, partilhamos, agregamos e reutilizamos dados na web, os historiadores terão uma maior necessidade de responder a problemas inevitáveis associados à qualidade dos dados. Utilizando um programa chamado *OpenRefine*, o usuário será capaz de identificar facilmente  erros sistemáticos, tais como células em branco, duplicações, inconsistências ortográficas, etc. O *OpenRefine* não só permite um diagnóstico rápido da precisão dos dados, mas também age perante certos erros de forma automática.
 
