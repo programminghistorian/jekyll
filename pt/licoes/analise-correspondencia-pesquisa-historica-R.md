@@ -11,7 +11,7 @@ authors:
 reviewers:
 - Sandra van Ginhoven
 - Taylor Arnold
-editor:
+editors:
 - Matthew Lincoln
 translator:
 - Diana Rodriguez
