@@ -27,7 +27,7 @@ topics: [data-manipulation, network-analysis, r]
 abstract: Esta lição explica como realizar e interpretar uma análise de correspondência com R, que pode ser usada para identificar relacionamentos dentro de dados categóricos.
 avatar_alt: Diagrama de um cubo com arestas legendadas
 mathjax: true
-doi: A INDICAR
+doi: 10.46430/phpt0042
 ---
 
 {% include toc.html %}
