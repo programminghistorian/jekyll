@@ -166,3 +166,14 @@
     fr: "Leçons enseignant ou utilisant l'archivage web"
     pt: "Lições de ensino ou utilização de arquivo da web"
     
+- type: creative-coding
+  displayname:
+    en: "creative coding"
+    es: "programación creativa"
+    fr: "code créatif"
+    pt: "código criativo"
+  description:
+    en: "Lessons for creating expressive rather than functional products with programming."
+    es: "Lecciones para crear productos expresivos en vez de funcionales con programación."
+    fr: "Leçons pour créer des produits expressifs plutôt que fonctionnels avec la programmation."
+    pt: "Lições para criar produtos expressivos em vez de funcionais com a programação."
