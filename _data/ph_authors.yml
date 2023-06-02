@@ -2889,3 +2889,30 @@
   bio:
     pt: |
       Daniel Gomes é o líder do Arquivo.pt na Fundação para a Ciência e Tecnologia (FCT).
+
+- name: David Valentine
+  email: david.valentine@umontreal.ca
+  github: davvalent
+  twitter: davvalent
+  mastodon: mas.to/@davvalent
+  orcid: 0000-0003-3410-7677
+  team: true
+  team_start: 2023
+  institution: Université de Montréal
+  sortname: Valentine
+  affiliation:
+    en: |
+      Université de Montréal, Canada
+    pt: |
+      Université de Montréal, Canadá
+    es: |
+      Université de Montréal, Canadá
+    fr: |
+      Université de Montréal, Canada
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
+  bio:
+    fr: |
+      
