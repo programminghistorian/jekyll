@@ -28,7 +28,7 @@ activity: presenting
 topics: [python, website]
 abstract: Jupyter Notebook fornece um ambiente onde você pode trabalhar com facilidade o seu código na linguagem Python. Esta lição descreve como instalar o software Jupyter Notebook, como executar e criar ficheiros para o Jupyter Notebook.
 avatar_alt: O planeta Júpiter
-doi: XX.XXXXX/phen0000
+doi: 10.46430/phpt0043
 ---
 
 {% include toc.html %}
