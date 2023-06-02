@@ -13,13 +13,13 @@ authors:
 reviewers:
 - Patrick Burns
 - Jeri Wieringa
-editor:
+editors:
 - Brandon Walsh
-translators:
+translator:
 - Vânia Rosa
 translation-editor:
 - Jimmy Medeiros
-translation-reviewers:
+translation-reviewer:
 - Juliana Marques
 - Caio Mello
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/431
