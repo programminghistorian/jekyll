@@ -2916,3 +2916,28 @@
   bio:
     fr: |
       
+- name: Émilien Schultz
+  email: emilien.schultz@sciencespo.fr
+  github: emilienschultz
+  twitter: emilienschultz
+  mastodon: 
+  orcid: 0000-0002-6215-3606
+  team: true
+  team_start: 2023
+  institution: Sciences Po
+  sortname: Schultz
+  affiliation:
+    en: |
+      Sciences Po, France
+    pt: |
+      Sciences Po, França
+    es: |
+      Sciences Po, Francia
+    fr: |
+      Sciences Po, France
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
+  bio:
+    fr: |
