@@ -41,6 +41,10 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 
 ## Workshops & Eventos
 
+* María José Afanador Llach, Jennifer Isasi, Riva Quiroga, 'Sobre _Programming Historian en español_ y cómo contribuir a la publicación', Universidad de los Andes [Online], (10 de Maio de 2023).
+* Riva Quiroga, '#SemanaHD: Introducción al web scraping usando R. Parte 1: extracción de texto, Parte 2: extracción de tablas', Universidad de los Andes [Online], (8-9 de Maio de 2023).
+* Jimmy Medeiros, '#SemanaHD: Aprendendo a analisar dados com R com base em lições do _Programming Historian_', Universidad de los Andes [Online], (8 de Maio de 2023).
+* Nicolás Vaughan, '[Taller Introducción al marcado TEI](https://posgradosfacartes.uniandes.edu.co/evento/taller-introduccion-al-marcado-tei/)', Universidad de los Andes [Online], (13-14 de Março de 2023).
 * Miguel Cuandros & Anthony Picón, ‘[Georreferenciación de mapas históricos con Map Warper’](https://facartes.uniandes.edu.co/evento/taller-georreferenciacion-de-mapas-historicos-con-map-warper/), Universidad de los Andes [Online], (2-3 de Março de 2023).
 * Jennifer Isasi, ‘[Crear una exhibición digital mínima e interactiva con CollectionBuilder](https://youtu.be/),’ Universidad de los Andes [Online], (9-10 de Fevereiro de 2023).  
 * Gisele Almeida, Daniel Alves & Eric Brasil, ‘[Conheça o Programming Historian em português](https://youtu.be/),’ _Programming Historian_, [Online], (25 de Janeiro de 2023).  
