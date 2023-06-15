@@ -723,7 +723,7 @@ El [código completo](https://raw.githubusercontent.com/programminghistorian/jek
 </TEI>
 ```
 
-Aunque VS Code y BaseX nos dicen que nuestro código es sintácticamente válido en XML, podemos verificar que también es semánticamente válido en TEI con ayuda del [TBE Validation Service](https://teibyexample.org/tools/TBEvalidator.htm):
+Aunque VS Code y BaseX nos dicen que nuestro código es sintácticamente válido en XML, podemos verificar que también es semánticamente válido en TEI con ayuda del [TBE Validation Service](https://teibyexample.org/exist/tools/TBEvalidator.htm):
 
 
 {% include figure.html filename="introduccion-a-tei-2-02.png" caption="Validación TEI del código de la postal en TBE Validation Service. El color verde indica que la validación fue exitosa. Si hubiese algún error, aparecería un mensaje en color rojo." %}
@@ -1317,7 +1317,7 @@ El [código completo](https://raw.githubusercontent.com/programminghistorian/jek
 </TEI>
 ```
 
-Aunque VS Code nos dice que nuestro código es sintácticamente válido en XML, podemos verificar que también es semánticamente válido en TEI con ayuda del [TBE Validation Service](https://teibyexample.org/tools/TBEvalidator.htm):
+Aunque VS Code nos dice que nuestro código es sintácticamente válido en XML, podemos verificar que también es semánticamente válido en TEI con ayuda del [TBE Validation Service](https://teibyexample.org/exist/tools/TBEvalidator.htm):
 
 {% include figure.html filename="introduccion-a-tei-2-05.png" caption="Validación TEI del código del manuscrito de Soledad Acosta en TBE Validation Service. El color verde indica que la validación fue exitosa. Si hubiese algún error, aparecería un mensaje en color rojo" %}
 
@@ -1363,7 +1363,7 @@ Ahora bien, existe otra herramienta para realizar transformaciones llamada  [OxG
 Podemos usar OxGarage en línea o también podemos [instalarla localmente](https://github.com/sebastianrahtz/oxgarage) en nuestro computador.
 Para nuestros fines usaremos la versión en línea.
 
-Antes de comenzar, debemos asegurarnos que nuestros documentos TEI sean sintáctica y semánticamente válidos, pues de lo contrario no podrán ser procesados por OxGarage, ni por ningún otro procesador. Para ello podemos usar una herramienta como la del [TBE Validation Service](https://teibyexample.org/tools/TBEvalidator.htm), mencionada arriba.
+Antes de comenzar, debemos asegurarnos que nuestros documentos TEI sean sintáctica y semánticamente válidos, pues de lo contrario no podrán ser procesados por OxGarage, ni por ningún otro procesador. Para ello podemos usar una herramienta como la del [TBE Validation Service](https://teibyexample.org/exist/tools/TBEvalidator.htm), mencionada arriba.
 
 Una vez abierta la página web de OxGarage, haremos clic en la opción "Documents":
 
