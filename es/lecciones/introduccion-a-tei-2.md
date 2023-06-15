@@ -723,7 +723,7 @@ El [código completo](https://raw.githubusercontent.com/programminghistorian/jek
 </TEI>
 ```
 
-Aunque VS Code y BaseX nos dicen que nuestro código es sintácticamente válido en XML, podemos verificar que también es semánticamente válido en TEI con ayuda del [TBE Validation Service](https://teibyexample.org/exist/tools/):
+Aunque VS Code y BaseX nos dicen que nuestro código es sintácticamente válido en XML, podemos verificar que también es semánticamente válido en TEI con ayuda del [TBE Validation Service](https://teibyexample.org/exist/tools/TBEvalidator.htm):
 
 
 {% include figure.html filename="introduccion-a-tei-2-02.png" caption="Validación TEI del código de la postal en TBE Validation Service. El color verde indica que la validación fue exitosa. Si hubiese algún error, aparecería un mensaje en color rojo." %}
@@ -1317,7 +1317,7 @@ El [código completo](https://raw.githubusercontent.com/programminghistorian/jek
 </TEI>
 ```
 
-Aunque VS Code nos dice que nuestro código es sintácticamente válido en XML, podemos verificar que también es semánticamente válido en TEI con ayuda del [TBE Validation Service](https://teibyexample.org/tools/TBEvalidator.htm):
+Aunque VS Code nos dice que nuestro código es sintácticamente válido en XML, podemos verificar que también es semánticamente válido en TEI con ayuda del [TBE Validation Service](https://teibyexample.org/exist/tools/TBEvalidator.htm):
 
 {% include figure.html filename="introduccion-a-tei-2-05.png" caption="Validación TEI del código del manuscrito de Soledad Acosta en TBE Validation Service. El color verde indica que la validación fue exitosa. Si hubiese algún error, aparecería un mensaje en color rojo" %}
 
