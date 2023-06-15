@@ -1363,7 +1363,7 @@ Ahora bien, existe otra herramienta para realizar transformaciones llamada  [OxG
 Podemos usar OxGarage en línea o también podemos [instalarla localmente](https://github.com/sebastianrahtz/oxgarage) en nuestro computador.
 Para nuestros fines usaremos la versión en línea.
 
-Antes de comenzar, debemos asegurarnos que nuestros documentos TEI sean sintáctica y semánticamente válidos, pues de lo contrario no podrán ser procesados por OxGarage, ni por ningún otro procesador. Para ello podemos usar una herramienta como la del [TBE Validation Service](https://teibyexample.org/tools/TBEvalidator.htm), mencionada arriba.
+Antes de comenzar, debemos asegurarnos que nuestros documentos TEI sean sintáctica y semánticamente válidos, pues de lo contrario no podrán ser procesados por OxGarage, ni por ningún otro procesador. Para ello podemos usar una herramienta como la del [TBE Validation Service](https://teibyexample.org/exist/tools/TBEvalidator.htm), mencionada arriba.
 
 Una vez abierta la página web de OxGarage, haremos clic en la opción "Documents":
 
