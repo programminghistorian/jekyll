@@ -38,7 +38,7 @@ The project team and members of the wider community are involved in a number of 
 
 ## Reports
 
-* Maria José Afanador-Llach & Andrés Rivera, '[Segundo ciclo de talleres: Herramientas y procesos digitales para la investigación y creación en artes y humanidades]((/researchpapers/Informe_final_Talleres%20EHCN_2023-ENG_PH.pdf)', (2023).
+* Maria José Afanador-Llach & Andrés Rivera, '[Segundo ciclo de talleres: Herramientas y procesos digitales para la investigación y creación en artes y humanidades](/researchpapers/Informe_final_Talleres%20EHCN_2023-ENG_PH.pdf)', (2023).
 * Incllewsion and the Programming Historian, 'Initial Accessibility Testing: Summary of Findings', (2021).
 * Penny Andrews and the Programming Historian, ['The Programming Historian: developing and sustaining impact in the Global South'](http://doi.org/10.5281/zenodo.3813763) (2020).
 * Amy Kavanagh and the Programming Historian, 'Programming Historian – Access for visually impaired researchers', (n.d.).
