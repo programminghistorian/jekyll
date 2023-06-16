@@ -50,8 +50,8 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Jimmy Medeiros, '#SemanaHD: Aprendendo a analisar dados com R com base em lições do _Programming Historian_', Universidad de los Andes [Online], (8 mai 2023).
 * Nicolás Vaughan, '[Taller Introducción al marcado TEI](https://posgradosfacartes.uniandes.edu.co/evento/taller-introduccion-al-marcado-tei/)', Universidad de los Andes [Online], (13-14 mars 2023).
 * Miguel Cuandros & Anthony Picón, ‘[Georreferenciación de mapas históricos con Map Warper’](https://facartes.uniandes.edu.co/evento/taller-georreferenciacion-de-mapas-historicos-con-map-warper/), Universidad de los Andes [En ligne], (2-3 mars 2023).
-* Jennifer Isasi, ‘[Crear una exhibición digital mínima e interactiva con CollectionBuilder](https://youtu.be/),’ Universidad de los Andes, [En ligne], (9-10 février 2023).  
-* Gisele Almeida, Daniel Alves & Eric Brasil, ‘[Conheça o Programming Historian em português](https://youtu.be/),’ _Programming Historian_, [En ligne], (25 janvier 2023).  
+* Jennifer Isasi, ‘Crear una exhibición digital mínima e interactiva con CollectionBuilder,’ Universidad de los Andes, [En ligne], (9-10 février 2023).  
+* Gisele Almeida, Daniel Alves & Eric Brasil, ‘[Conheça o Programming Historian em português](https://youtu.be/5M1KX6AeLbQ),’ _Programming Historian_, [En ligne], (25 janvier 2023).  
 * Jessica Parr, Joana Vieira Paulino & Nicolas Vaughan, ['Teaching with Programming Historian,'](https://youtu.be/u5x5WlLD-Bo) Programming Historian, (16 décembre 2022).
 * Daniel van Strien, '_Computer Vision for the Humanities_', British Library, Digital Scholarship Training Programme, (17 novembre 2022).
 * Riva Quiroga, '[_Aprende a crear tutoriales para Programming Historian_'](https://www.youtube.com/watch?v=QgSuaHM5ap0), Programming Historian [En ligne], (16 novembre 2022).
@@ -92,8 +92,8 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Daniel Alves & Joana Vieira Paulino, ‘_The Programming Historian em português_: a step forward towards digital literacy in the social sciences and humanities', Humanities Going Digital: teaching, training and research experiences, Universidade Nova de Lisboa, Portugal (2-3 février 2023).
 * Marie Flesch, 'Présentation du _Programming Historian en français_’, Séminaire CENHTOR, MSH Lorraine, Nancy, France (24 janvier 2023).
 * Jennifer Isasi. 'De leer novelas a modelar datos sobre productos culturales: Trayectorias varias por las Humanidades Digitales', V Conferencia Internacional de la Asociación Argentina de Humanidades Digitales, Füskü Menuko, Río Negro, Argentine (17-18 novembre 2022).
-* Isasi, Jennifer. '_Programming Historian: A Collaborative Project to Put Programming Within the Reach of Humanists_', Language Technologies for Digital Humanities, within the Global Digital Humanities degree, University of Mondragón, Espagne (14 novembre 2022).
-* Riva Quiroga, '_Open Review in Journals_', XI International Conference BIREDIAL-ISTEC, (7 octobre 2022).
+* Isasi, Jennifer. '_Programming Historian_: A Collaborative Project to Put Programming Within the Reach of Humanists', Universidad de Mondragón, Espagne (14 novembre 2022).
+* Riva Quiroga, 'Open Review in Journals', XI International Conference BIREDIAL-ISTEC, Montevideo, Uruguay (7 octobre 2022).
 * James Baker, Paola Marchionni, Jo Pugh, Jon Reades, Yann Ryan, Chahan Vidal-Gorène, Peter Webster, & Jennie Williams, '_Developing computational skills for digital collections: a new Programming Historian series_', [DCDC22: Discovering Collections Discovering Communities](https://dcdcconference.com/), (11-15 juillet 2022).
 * Matthias Gille Levenson, Sofia Papastamkou & Célian Ringwald, '_Programming Historian_: un lieu de collaborations et d'interactions multiples', [DHNord 2022](https://www.meshs.fr/page/dhnord2022.5): Travailler en humanités numériques: collaborations, complémentarités et tensions, Lille, France, (22 juin 2022). [Lien vidéo](https://www.meshs.fr/page/dhnord2022_session5).  
 * Adam Crymble, 'Local Needs for Global Digital Scholarship', _Quo Vadis_, UCL, Royaume-Uni (9 juin 2022).
