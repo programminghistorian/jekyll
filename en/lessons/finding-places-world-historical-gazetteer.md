@@ -1,5 +1,5 @@
 ---
-title: Finding Places in Text with the World Historical Gazeteer
+title: Finding Places in Text with the World Historical Gazetteer
 collection: lessons
 layout: lesson
 slug: finding-places-world-historical-gazetteer
