@@ -38,6 +38,7 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 ## Rapports
 
+* Maria José Afanador-Llach & Andrés Rivera, '[Segundo ciclo de talleres: Herramientas y procesos digitales para la investigación y creación en artes y humanidades](/researchpapers/Informe_final_Talleres%20EHCN_2023-ENG_PH.pdf)', (2023).
 * Incllewsion et l'équipe du Programming Historian, 'Initial Accessibility Testing: Summary of Findings', (2021).
 * Penny Andrews et l'équipe du Programming Historian, ['The Programming Historian: developing and sustaining impact in the Global South'](http://doi.org/10.5281/zenodo.3813763) (2020).
 * Amy Kavanagh et l'équipe du Programming Historian, 'Programming Historian – Access for visually impaired researchers', (n.d.).
@@ -84,9 +85,13 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 ## Posters, présentations et conférences invitées
 
+* James Baker & Paola Marchionni, '[Research Talk: Skills for artificial intelligence](https://soundcloud.com/user-565922160/research-talk-skills-for-artificial-intelligence-james-baker?in=user-565922160/sets/research-talk-podcast)', Jisc, (juin 2023).
+* Daniel Alves, 'Parcerias entre História e Computação: o caso do Programming Historian em português', Instituto Federal de Educação, Ciência e Tecnologia do Maranhão, Brésil, (4 mai 2023).
+* Daniel Alves & Daniel Bonatto Sêco, 'Uma ferramenta para o ensino de metodologias digitais: o Programming Historian em português', UniRio, Rio de Janeiro, Brésil, (17 avril 2023).
 * James Baker & Anisa Hawes, ‘[Research skills from a researcher’s perspective: introducing the _Programming Historian_](https://www.jisc.ac.uk/events/digifest-2023/programme#)’, Jisc Digifest, Birmingham, Royaume-Uni, (7 mars 2023).
 * Daniel Alves & Joana Vieira Paulino, ‘_The Programming Historian em português_: a step forward towards digital literacy in the social sciences and humanities', Humanities Going Digital: teaching, training and research experiences, Universidade Nova de Lisboa, Portugal (2-3 février 2023).
 * Marie Flesch, 'Présentation du _Programming Historian en français_’, Séminaire CENHTOR, MSH Lorraine, Nancy, France (24 janvier 2023).
+* Jennifer Isasi. 'De leer novelas a modelar datos sobre productos culturales: Trayectorias varias por las Humanidades Digitales', V Conferencia Internacional de la Asociación Argentina de Humanidades Digitales, Füskü Menuko, Río Negro, Argentine (17-18 novembre 2022).
 * Riva Quiroga, '_Open Review in Journals_' Roundtable discussion at XI International Conference BIREDIAL-ISTEC, (7 octobre 2022).
 * Isasi, Jennifer. '_Programming Historian: A Collaborative Project to Put Programming Within the Reach of Humanists_', Language Technologies for Digital Humanities, within the Global Digital Humanities degree, University of Mondragón, Espagne (14 novembre 2022).
 * James Baker, Paola Marchionni, Jo Pugh, Jon Reades, Yann Ryan, Chahan Vidal-Gorène, Peter Webster, & Jennie Williams, '_Developing computational skills for digital collections: a new Programming Historian series_', [DCDC22: Discovering Collections Discovering Communities](https://dcdcconference.com/), (11-15 juillet 2022).
