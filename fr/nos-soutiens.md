@@ -12,6 +12,7 @@ Le Programming Historian est reconnaissant envers ses contributeurs passés et a
 ## Partenaires de niveau Gold
 
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), États-Unis
+- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Royaume-Uni
 
 ## Partenariat institutionnel
 Les institutions suivantes font partie de notre programme de [Partenariat institutionnel](pi).
@@ -19,7 +20,6 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Bibliothèques de la KU Leuven](https://bib.kuleuven.be/), Belgique
 - [Institute of Historical Research, Wohl Library](https://www.history.ac.uk/library), Royaume-Uni
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Royaume-Uni
-- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Royaume-Uni
 - [Western University Library](https://www.lib.uwo.ca/), Canada
 - [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxembourg
 - [Software Sustainability Institute](https://www.software.ac.uk/), Royaume-Uni
@@ -51,6 +51,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [University of Oxford](https://www.ox.ac.uk), Royaume-Uni
 - [Universität Bern Bibliothek](https://www.ub.unibe.ch/), Suisse
 - [University of Florida](https://www.ufl.edu/), États-Unis
+- [Universiteit van Amsterdam](https://www.uva.nl/), Pays-Bas
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
