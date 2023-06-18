@@ -45,7 +45,6 @@ The project team and members of the wider community are involved in a number of 
 
 ## Workshops & Events
 
-* Riva Quiroga, 'El proceso de revisión abierta entre pares en _Programming Historian_', Facultad de Comunicación e Información, Universidad de Puerto Rico [Online], (18 May 2023)
 * María José Afanador Llach, Jennifer Isasi, Riva Quiroga, 'Sobre _Programming Historian en español_ y cómo contribuir a la publicación', Semana de Humanidades Digitales 2023 [Online], (10 May 2023).
 * Riva Quiroga, 'Introducción al web scraping usando R. Parte 1: extracción de texto, Parte 2: extracción de tablas', Semana de Humanidades Digitales 2023 [Online], (8-9 May 2023).
 * Jimmy Medeiros, 'Aprendendo a analisar dados com R com base em lições do _Programming Historian_', Semana de Humanidades Digitales 2023 [Online], (8 May 2023).
@@ -87,6 +86,7 @@ The project team and members of the wider community are involved in a number of 
 
 ## Posters, Conference Papers, & Invited Talks
 
+* Riva Quiroga, 'El proceso de revisión abierta entre pares en _Programming Historian_', Facultad de Comunicación e Información, Universidad de Puerto Rico [Online], (18 May 2023)
 * James Baker & Paola Marchionni, '[Research Talk: Skills for artificial intelligence](https://soundcloud.com/user-565922160/research-talk-skills-for-artificial-intelligence-james-baker?in=user-565922160/sets/research-talk-podcast)', Jisc, (June 2023).
 * Daniel Alves, 'Parcerias entre História e Computação: o caso do Programming Historian em português', Instituto Federal de Educação, Ciência e Tecnologia do Maranhão, Brazil, (4 May 2023).
 * Daniel Alves & Daniel Bonatto Sêco, 'Uma ferramenta para o ensino de metodologias digitais: o Programming Historian em português', UniRio, Rio de Janeiro, Brazil, (17 April 2023).
