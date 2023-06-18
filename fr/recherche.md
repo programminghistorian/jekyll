@@ -45,9 +45,9 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 ## Ateliers et manifestations
 
-* María José Afanador Llach, Jennifer Isasi, Riva Quiroga, 'Sobre _Programming Historian en español_ y cómo contribuir a la publicación', Universidad de los Andes [Online], (10 mai 2023).
-* Riva Quiroga, '#SemanaHD: Introducción al web scraping usando R. Parte 1: extracción de texto, Parte 2: extracción de tablas', Universidad de los Andes [Online], (8-9 mai 2023).
-* Jimmy Medeiros, '#SemanaHD: Aprendendo a analisar dados com R com base em lições do _Programming Historian_', Universidad de los Andes [Online], (8 mai 2023).
+* María José Afanador Llach, Jennifer Isasi, Riva Quiroga, 'Sobre _Programming Historian en español_ y cómo contribuir a la publicación', Semana de Humanidades Digitales 2023 [Online], (10 mai 2023).
+* Riva Quiroga, 'Introducción al web scraping usando R. Parte 1: extracción de texto, Parte 2: extracción de tablas', Semana de Humanidades Digitales 2023 [Online], (8-9 mai 2023).
+* Jimmy Medeiros, 'Aprendendo a analisar dados com R com base em lições do _Programming Historian_', Semana de Humanidades Digitales 2023 [Online], (8 mai 2023).
 * Nicolás Vaughan, '[Taller Introducción al marcado TEI](https://posgradosfacartes.uniandes.edu.co/evento/taller-introduccion-al-marcado-tei/)', Universidad de los Andes [Online], (13-14 mars 2023).
 * Miguel Cuandros & Anthony Picón, ‘[Georreferenciación de mapas históricos con Map Warper’](https://facartes.uniandes.edu.co/evento/taller-georreferenciacion-de-mapas-historicos-con-map-warper/), Universidad de los Andes [En ligne], (2-3 mars 2023).
 * Jennifer Isasi, ‘Crear una exhibición digital mínima e interactiva con CollectionBuilder,’ Universidad de los Andes, [En ligne], (9-10 février 2023).  
@@ -85,6 +85,7 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 ## Posters, présentations et conférences invitées
 
+* Riva Quiroga, 'El proceso de revisión abierta entre pares en _Programmin Historian_', Facultad de Comunicación e Información, Universidad de Puerto Rico [Online], (18 mai 2023)
 * James Baker & Paola Marchionni, '[Research Talk: Skills for artificial intelligence](https://soundcloud.com/user-565922160/research-talk-skills-for-artificial-intelligence-james-baker?in=user-565922160/sets/research-talk-podcast)', Jisc, (juin 2023).
 * Daniel Alves, 'Parcerias entre História e Computação: o caso do Programming Historian em português', Instituto Federal de Educação, Ciência e Tecnologia do Maranhão, Brésil, (4 mai 2023).
 * Daniel Alves & Daniel Bonatto Sêco, 'Uma ferramenta para o ensino de metodologias digitais: o Programming Historian em português', UniRio, Rio de Janeiro, Brésil, (17 avril 2023).
