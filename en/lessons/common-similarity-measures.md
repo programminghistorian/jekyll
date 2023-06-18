@@ -37,7 +37,7 @@ Though this lesson is primarily geared toward understanding the underlying princ
 
 ## Installation and Setup
 
-You will need to install Python3 as well as the SciPy, Pandas, and scikit-learn libraries, which are all available through the [Anaconda Distribution](https://www.anaconda.com/distribution/). For more information about installing Anaconda, see their [full documentation](https://docs.anaconda.com/anaconda/).
+You will need to install Python3 as well as the SciPy, Pandas, and scikit-learn libraries, which are all available through the [Anaconda Distribution](https://docs.anaconda.com/free/anaconda/getting-started/). For more information about installing Anaconda, see their [full documentation](https://docs.anaconda.com/free/anaconda/).
 
 ## Lesson Dataset
 
