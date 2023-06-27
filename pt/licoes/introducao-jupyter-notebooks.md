@@ -122,18 +122,18 @@ Se você preferir usar a linha de comando em vez do navegador Anaconda, uma vez 
 
 As duas abordagens abrirão uma nova janela ou guia no seu navegador padrão com a interface Jupyter Notebook. O Jupyter Notebook é baseado no navegador: você só interage com ele através do seu navegador, mesmo quando o Jupyter Notebook está sendo executado no seu próprio computador.
 
-Se você estiver usando notebooks que importam pacotes Python que têm dependências de versões específicas de outros pacotes, você deve configurar um ambiente para usar com esses notebooks, para que você não lide com conflitos de versão (por exemplo, se um notebook requer a versão 1.0 de um pacote, e outro requer a versão 2.0). [A documentação do Anaconda Navegador para Gerenciar Ambientes](https://perma.cc/E9TC-YMCU) (ou, se preferir usar a linha de comando, a [documentação Conda](https://perma.cc/KHB8-U3CT)) fornece instruções passo a passo para criar, atualizar e ativar um ambiente. Para lançar o Jupyter Notebook dentro de um ambiente específico, você precisa primeiro ativar esse ambiente.
+<div class="alert alert-warning">Se você estiver usando notebooks que importam pacotes Python que têm dependências de versões específicas de outros pacotes, você deve configurar um ambiente para usar com esses notebooks, para que você não lide com conflitos de versão (por exemplo, se um notebook requer a versão 1.0 de um pacote, e outro requer a versão 2.0). [A documentação do Anaconda Navegador para Gerenciar Ambientes](https://perma.cc/E9TC-YMCU) (ou, se preferir usar a linha de comando, a [documentação Conda](https://perma.cc/KHB8-U3CT)) fornece instruções passo a passo para criar, atualizar e ativar um ambiente. Para lançar o Jupyter Notebook dentro de um ambiente específico, você precisa primeiro ativar esse ambiente.</div>
 
 ## Navegando na interface do Jupyter Notebook
 
-A interface do gerenciador de ficheiro do Jupyter Notebook é a principal maneira de abrir um ficheiro Jupyter Notebook (.ipynb). Se você tentar abrir um em um editor de texto simples, o notebook será exibido como um ficheiro JSON, não com blocos interativos de código. Para visualizar um notebook através da interface Jupyter, você tem que abrir o Jupyter Notebook primeiro (que será exibido em uma janela do navegador), e abrir o ficheiro de dentro do Jupyter Notebook. Infelizmente, não há como definir o Jupyter Notebook como o aplicativo de software padrão para abrir `ficheiro.ipynb` quando você clica duas vezes neles.
+A interface do gerenciador de ficheiro do Jupyter Notebook é a principal maneira de abrir um ficheiro Jupyter Notebook (.ipynb). Se você tentar abrir em um editor de texto simples, o notebook será exibido como um ficheiro JSON, não com blocos interativos de código. Para visualizar um notebook através da interface Jupyter, você tem que abrir o Jupyter Notebook primeiro (que será exibido em uma janela do navegador), e abrir o ficheiro de dentro do Jupyter Notebook. Infelizmente, não há como definir o Jupyter Notebook como o aplicativo de software padrão para abrir `ficheiro.ipynb` quando você clica duas vezes neles.
 
 Quando você lança o Jupyter Notebook do navegador Anaconda, ele exibe automaticamente o diretório doméstico. Este é geralmente o diretório com seu nome de usuário em um Mac (/Users/seu nome de usuário). Em um PC geralmente é `C: \` . Se você abrir o Jupyter Notebook a partir da linha de comando, ele exibirá o conteúdo da pasta em que você estava quando o lançou (usando a linha de comando, você também pode lançar diretamente um notebook específico, por exemplo, `jupyter-notebook-example.ipynb`.)
 
 Para evitar desordenar esta pasta, você pode fazer uma nova pasta dentro deste diretório para seus notebooks. Você pode fazer isso na sua interface usual de gerenciamento de ficheiro(s)(Finder no Mac, ou File Explorer no Windows), ou dentro do próprio Jupyter Notebook, já que o Jupyter Notebook, assim como o Google Drive, fornece uma interface de gerenciamento de ficheiro(s) dentro de um navegador, bem como uma interface de menu e de barra de ferramentas para a criação de ficheiro(s). Para adicionar uma nova pasta no Jupyter Notebook, clique em Novo no canto superior direito e escolha Pasta. Isso criará uma nova pasta chamada "Pasta Sem Título". Para alterar o nome, clique na caixa de seleção à esquerda da "Pasta Sem Título", em seguida, clique no botão "Renomear" que aparece na guia "ficheiro(s)". Nomeie os notebooks da pasta. Clique nele para abrir essa pasta.
 
 ## Upload dos dados do exemplo
-O ficheiro CSV de exemplo para esta lição é um extrato de metadados de fan fiction de Harry Potter coletados do site de fanfic italiano https://efpfanfic.net, depois limpos usando uma combinação de [expressões regulares](/en/lessons/understanding-regular-expressions) e [OpenRefine](/pt/licoes/limpar-dados-openrefine). O CSV tem três colunas: a classificação da histó_amarelo_ (amarelo), _laranja_ (laranja) e _veermelho_ (vermelho). A publicação e as datas atualizadas são criadas automaticamente quando consistente a história é postada no site ou atualizado, assim você pode tomá-las como consistentes.
+O ficheiro CSV de exemplo para esta lição é um extrato de metadados de fan fiction de Harry Potter coletados do site de fanfic italiano https://efpfanfic.net, depois limpos usando uma combinação de [expressões regulares](/en/lessons/understanding-regular-expressions) e [OpenRefine](/pt/licoes/limpar-dados-openrefine). O CSV tem três colunas: a classificação da história (similar a uma classificação de filme), a data que foi originalmente publicada, e a data mais recente de atualização. As opções de classificação são verde (verde), giallo (amarelo), arancione (laranja), e rosso (vermelho). A publicação e as datas atualizadas são criadas automaticamente; quando consistente a história é postada no site ou atualizado, assim você pode tomá-las como consistentes.
   
 Baixe o [ficheiro CSV](/assets/jupyter-notebooks/ph-jupyter-notebook-example.csv).
 
@@ -206,12 +206,11 @@ Se você não tinha instalado o Python no computador antes de instalar o Anacond
 Voltando ao nosso exemplo, em seguida adicione uma nova célula de código e cole o seguinte código (certifique-se de que incluiu os espaçamentos):
   
 ```
-with  open('ph-jupyter-notebook-example.csv') as f:
-csv_reader = csv.reader(f, delimiter=',')
-for row in csv_reader:
-datetime.datetime.strptime(row[1], '%d/%m/%Y').strftime('%A'
-print(row)
-
+with open('ph-jupyter-notebook-example.csv') as f:
+    csv_reader = csv.reader(f, delimiter=',')
+    for row in csv_reader:
+        datetime.datetime.strptime(row[1], '%d/%m/%Y').strftime('%A')
+        print(row)
 ```
   
 Clicar no botão 'play' na barra de ferramentas quando você tem uma célula de código selecionada executa o código dentro da célula (se você tentar executar este código depois de executar as declarações de importação, verá um erro: "ValueError: time data ‘1/7/18’ does not match format ‘%d/%m/%Y’". Não se preocupe, vamos depurar isso a seguir). 
@@ -223,13 +222,10 @@ Se um número não aparecer imediatamente ao lado da célula, você verá um ast
   
 {% include figure.html filename="tr-pt-introducao-jupyter-notebooks-5.png" alt="Imagem com captura de tela sobre a execução de código no Jupyter Notebook" caption="Figura 5. Executando uma célula de código em um Jupyter Notebook" %}
  
-Execute as duas células de código no notebook, começando pelo topo.
-  
 ```
 O Jupyter notebook funciona melhor se você executar as células sequencialmente. Às vezes, você pode obter erros ou saídas incorretas se executar as células fora de ordem ou tentar editar e executar iterativamente diferentes partes do notebook. Se você fez muitas alterações e executou blocos de código de forma não linear e descobrir que você está recebendo uma saída estranha, você pode redefinir o Jupyter Notebook clicando no _Kernel_ no menu e escolhendo _Restart & Clear Output_. Mesmo que você não tenha notado nada de estranho, é uma boa ideia utilizar o Restart & Clear Output em seu código, uma vez que você tenha terminado de escrevê-lo, para ter certeza de que o resultado está correto.
-
 ```
-  
+
 Depois de executar a segunda célula de código, você verá um erro. Para descobrir o que está acontecendo, você pode consultar a 
 [documentação para datação](https://perma.cc/S92Z-3QVM) que explica cada uma das diferentes opções de formatação. Lá, você verá que a única opção de valores para “dia” assume o uso de dois dígitos (ou seja, dias de um dígito são prefixados com um 0). Olhando para os dados do exemplo, os meses (listados em segundo lugar nesta ordem de data) já são acrescidos de zero, quando tem apenas um dígito, mas não os dias. Você tem duas opções: você pode tentar alterar os dados, ou você pode tentar alterar seu código.
 
@@ -261,15 +257,13 @@ Agora crie uma nova célula Markdown na parte inferior do notebook e cole:
 
 Abaixo dele, adicione uma nova célula de código com o seguinte código (prestando atenção ao espaçamento, de modo que o código seja indentado assim como você vê abaixo):
  
- 
 ```
 with open('ph-jupyter-notebook-example.csv') as f:
-  csv_reader = csv.reader(f, delimiter=',')
+    csv_reader = csv.reader(f, delimiter=',')
     for row in csv_reader:
         parseddate = dateutil.parser.parse(row[1])
-            print(parseddate)
-
- ```
+        print(parseddate)
+```
 
 Execute a célula com o código que você acabou de adicionar. Pode levar mais tempo; continue esperando até que o asterisco ao lado da célula de código se transforme em um número. O resultado deve mostrar a lista de datas de publicação, formatadas de forma diferente, com hífen em vez de barras, e com a adição das horas, minutos e segundos (como zeros, porque as datas registradas não incluem esses dados). À primeira vista, parece que funcionou, mas se você compará-lo mais de perto com o ficheiro de origem, você verá que o módulo dateutil não está sendo consistente em como analisa as datas. Datas em que o valor do dia é maior que 12 estão sendo analisadas corretamente (ele sabe que um valor maior que 12 não pode ser um mês), mas quando o valor da data é 12 ou menos, a data está sendo identificada com o mês primeiro. A primeira linha do ficheiro de origem tem a data 1/7/18, que é entendida como "2018-01-07 00:00:00". Na documentação para dateutil, você descobrirá que você pode [especificar `dayfirst=true`](https://perma.cc/W54E-SP5Z) para corrigir isso. Edite a última célula de código e altere a penúltima linha para ler:
 
@@ -299,43 +293,43 @@ Agora que você tem código para analisar e re-formatar uma data, você precisa 
 Se você não quiser resolver isso por conta própria, você pode copiar e colar esse código em uma nova célula de código ou substituir a célula de código atual:
 
 ```
-#identifies the source file to open, calls it f
+#identifica o ficheiro fonte a ser aberto, chama-o f
 with open('ph-jupyter-notebook-example.csv') as f:
-  #creates an output file (referred to as "out" in the notebook) for you to write to
- with open('ph-jupyter-notebook-example-dayofweek.csv', 'w') as out:
-    #defines "csv_reader" as running the function csv.reader on the file
-    csv_reader = csv.reader(f, delimiter=',')
-    #defines "csv_writer" as running the functin csv.writer to "out" (the output file)
-    csv_writer = csv.writer(out)
-    #for each row that's being read by csv_reader...
-     for row in csv_reader:
-         #defines "csv_reader" as running the function csv.reader on the file
-         csv_reader = csv.reader(f, delimiter=',')
-         #for each row that's being read by csv_reader...
-          for row in csv_reader:
-          #creates a list called "values" with the contents of the row
-            values = list(row)
-            #defines "rating" as the first thing in the list
-            #counting in Python starts with 0, not 1
-            rating = values[0]
-            #defines "parseddatepub" as the second thing (1, because we start with 0) in the list,
-            #converted into a standard date format using dateutil.parser
-            #and when those dates are parsed, the parser should know
-            #that the first value in the sequence is the day
-            parseddatepub = dateutil.parser.parse(values[1], dayfirst=True)
-            #same as above for the updated date, the third thing (2) in the list
-            parseddateupdate = dateutil.parser.parse(values[2], dayfirst=True)
-            #defines "dayofweekpub" as parseddatepub (defined above), converted to the day of week
-            #%A is what you use to change it to the day of the week
-            #You can see othe formats here: https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
-            dayofweekpub = datetime.date.strftime(parseddatepub, '%A')
-            #same thing for update date
-            dayofweekupdate = datetime.date.strftime(parseddateupdate, '%A')
-            #creates a list of the rating and the newly formatted dates
-            updatedvalues = [rating, dayofweekpub, dayofweekupdate]
-            #writes all the values under this code cell
-            csv_writer.writerow(updatedvalues)
-            print(updatedvalues)
+    #cria um ficheiro de saída (referido como "out" no notebook) para ser gravado
+    with open('ph-jupyter-notebook-example-dayofweek.csv', 'w') as out:
+        #define "csv_reader" como executando a função csv.reader no ficheiro
+        csv_reader = csv.reader(f, delimiter=',')
+        #define "csv_writer" como executando a função csv.writer para "out" (o ficheiro de saída)
+        csv_writer = csv.writer(out)
+        #para cada linha que está sendo lida pelo csv_reader...
+        for row in csv_reader:
+            #define "csv_reader" como executando a função csv.reader no ficheiro
+            csv_reader = csv.reader(f, delimiter=',')
+            #para cada linha que está sendo lida pelo csv_reader...
+            for row in csv_reader:
+                #cria uma lista chamada "values" com o conteúdo da linha
+                values = list(row)
+                #define "rating" como a primeira coisa na lista
+                #contagem em Python começa com 0, não 1
+                rating = values[0]
+                #define "parseddatepub" como a segunda coisa (1, porque começamos com 0) na lista,
+                #convertido em um formato de data padrão usando dateutil.parser
+                #e quando essas datas são analisadas, o analisador deve saber
+                #que o primeiro valor na sequência é o dia
+                parseddatepub = dateutil.parser.parse(values[1], dayfirst=True)
+                #mesmo que acima para a data atualizada, a terceira coisa (2) na lista
+                parseddateupdate = dateutil.parser.parse(values[2], dayfirst=True)
+                #define "dayofweekpub" como parseddatepub (definido acima), convertido para o dia da semana
+                #%A é usado para mudar para o dia da semana
+                #Pode ver outros formatos aqui: https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
+                dayofweekpub = datetime.date.strftime(parseddatepub, '%A')
+                #mesma coisa para data de atualização
+                dayofweekupdate = datetime.date.strftime(parseddateupdate, '%A')
+                #cria uma lista da classificação e as novas datas formatadas
+                updatedvalues = [rating, dayofweekpub, dayofweekupdate]
+                #escreve todos os valores nesta célula de código
+                csv_writer.writerow(updatedvalues)
+                print(updatedvalues)
 ```
 
 Depois de executar este código, você terá um novo ficheiro ph-jupyter-notebook-exemplo-dayofweek.csv, com seus dados no formato que você precisa para a análise.
@@ -362,11 +356,11 @@ O Jupyter Notebook é uma ótima ferramenta para ensinar programação, ou para 
 
 Como outra abordagem, você também pode usar Jupyter notebooks para escrever código na medida em que o desenvolve. Em tal oficina, os alunos podem começar com um caderno em branco, e escrever o código junto com você. As células ajudam a segmentar o código como você o escreve, em vez de usar um editor de texto ou IDE (Ambiente de Desenvolvimento Integrado) que não quebra o código de forma tão clara e pode causar confusão, especialmente quando ensina iniciantes.
 
-Você pode usar Jupyter notebooks para tarefas em sala de aula dando instruções em Markdown e fazendo com que os alunos escrevam código em uma cela em branco com base nas instruções. Dessa forma, você pode criar uma tarefa de programação interativa que ensina aos alunos não apenas a sintaxe e o vocabulário de uma linguagem de programação, mas também pode explicar as melhores práticas de programação em geral.
+Você pode usar Jupyter notebooks para tarefas em sala de aula dando instruções em Markdown e fazendo com que os alunos escrevam código em uma célula em branco com base nas instruções. Dessa forma, você pode criar uma tarefa de programação interativa que ensina aos alunos não apenas a sintaxe e o vocabulário de uma linguagem de programação, mas também pode explicar as melhores práticas de programação em geral.
 
 Se você já está usando Jupyter notebooks para documentar o fluxo de trabalho do seu projeto, você pode ser capaz de reformular esses cadernos de pesquisa para uso em sala de aula, como uma maneira de trazer sua pesquisa para a sala de aula. Este [exemplo de caderno pedagógico](/assets/jupyter-notebooks/ph-jupyter-notebook-example.ipynb) é um híbrido de algumas das abordagens pedagógicas descritas acima. A primeira seção do caderno destina-se a estudantes que têm pouca ou nenhuma experiência anterior executando o código; o principal resultado do aprendizado é comparar o tempo necessário para converter manualmente formatos de dados, em comparação com fazê-lo com código. Você poderia usar este caderno para uma sessão de laboratório prática em uma introdução à humanidades digitais ou história digital, onde todos os alunos instalam Anaconda e aprendem o básico do Jupyter Notebook. Se a turma tem uma mistura de alunos sem formação técnica e alunos com exposição prévia ao Python, você pode orientar os alunos com experiência de programação a trabalhar em conjunto em grupos de dois ou três para propor soluções para os prompts na segunda parte do notebook. Tenha em mente que se você usar uma tarefa de classe como esta como uma forma de fazer com que os alunos de ciência da computação escrevem código que ajude seu projeto de pesquisa, eles devem ser creditados como colaboradores e reconhecidos em publicações subsequentes vindas do projeto.[^4]
 
-Existem muitos cursos e workshops de 'Introdução ao Python' nas Humanidades muitos Digitais que utilizam Jupyter Notebook (incluindo [Introdução ao Python e Desenvolvimento web com Python para as Humanidades](https://perma.cc/ANL2-K7SM) by Thibault Clérice, traduzido do material por Matthew Munson). O Jupyter Notebook também é comumente usado em oficinas de análise de texto, como a [oficina de vetores de palavras na DH 2018](https://perma.cc/5UZ9-25XW), ministrada por Eun Seo Jo, Javier de la Rosa e Scott Bailey.
+Existem muitos cursos e workshops de 'Introdução ao Python' nas Humanidades Digitais que utilizam Jupyter Notebook (incluindo [Introdução ao Python e Desenvolvimento web com Python para as Humanidades](https://perma.cc/ANL2-K7SM) by Thibault Clérice, traduzido do material por Matthew Munson). O Jupyter Notebook também é comumente usado em oficinas de análise de texto, como a [oficina de vetores de palavras na DH 2018](https://perma.cc/5UZ9-25XW), ministrada por Eun Seo Jo, Javier de la Rosa e Scott Bailey.
 
 Ensinar com Jupyter Notebook nem sempre tem que envolver o processo demorado de baixar e instalar a Anaconda, especialmente se você está imaginando ter apenas uma ou duas lições que envolvem notebooks. Se suas atividades em sala de aula com Jupyter notebooks envolvem o uso de dados de exemplo que você já preparou, e se você já escreveu pelo menos parte do código, você pode querer explorar a execução de Jupyter Notebooks usando recursos gratuitos de computação em nuvem, desde que seus alunos tenham a garantia de ter conectividade confiável com a internet em sala de aula. Rodar notebooks na nuvem também fornece um ambiente consistente para todos os alunos, poupando você de ter que negociar diferenças entre Windows e Mac, ou fornecer uma alternativa para estudantes cujos laptops não têm espaço ou memória para executar Anaconda efetivamente.
   
@@ -398,7 +392,7 @@ Como exemplo de um notebook R, [veja esta adaptação jupyter do código R de An
 
 ## Dimensionando a computação com Jupyter Notebooks
 
-Especialmente se você é novo em programar em Python, apenas conseguir qualquer coisa para trabalhar pode parecer uma vitória. No entanto, se você começar a trabalhar com conjuntos de dados maiores, poderá descobrir que algumas das “soluções” iniciais encontradas (como usar `readlines()` para ler um ficheiro de texto linha por linha) se tornam computacionalmente ineficientes, a ponto de causar problemas. Uma maneira de começar a entender as ineficiências em seu código é adicionar `%%timeit` ao topo de uma célula. O notebook escolherá um número de iterações para executar o código, dependendo da complexidade da tarefa, imprimirá o número de iterações e o tempo médio. Fazer várias iterações, em vez de apenas uma, pode ser útil para contabilizar pequenos atrasos no âmbito do sistema (por exemplo, se seu laptop estiver momentaneamente atolado com outros processos). Você pode colocar `%timeit` na frente da linha. Tenha cuidado com aordenação significativa: ordenar uma aplicação pequena de muito mais tempo para a primeira iteração do que para a segunda, depois que a lista já estiver em ordem. Em casos como a classificação de listas em que não faz sentido medir várias iterações ou para tarefas de longa duração onde pequenos atrasos no sistema não terão um impacto significativo, você pode usar `%%time` no topo de uma célula ou `%time` na frente de uma linha, que mede o tempo que uma única execução leva. Esses comandos fazem parte de uma família de “comandos mágicos” integrados disponíveis em Jupyter Notebooks. Veja a [documentação do Jupyter](https://perma.cc/ED9F-DNDA) para saber de mais detalhes.
+Especialmente se você é novo em programar em Python, apenas conseguir qualquer coisa para trabalhar pode parecer uma vitória. No entanto, se você começar a trabalhar com conjuntos de dados maiores, poderá descobrir que algumas das “soluções” iniciais encontradas (como usar `readlines()` para ler um ficheiro de texto linha por linha) se tornam computacionalmente ineficientes, a ponto de causar problemas. Uma maneira de começar a entender as ineficiências em seu código é adicionar `%%timeit` ao topo de uma célula. O notebook escolherá um número de iterações para executar o código, dependendo da complexidade da tarefa, imprimirá o número de iterações e o tempo médio. Fazer várias iterações, em vez de apenas uma, pode ser útil para contabilizar pequenos atrasos no âmbito do sistema (por exemplo, se seu laptop estiver momentaneamente atolado com outros processos). Você pode colocar `%timeit` na frente da linha. Tenha cuidado com a ordenação significativa: ordenar uma aplicação pequena de muito mais tempo para a primeira iteração do que para a segunda, depois que a lista já estiver em ordem. Em casos como a classificação de listas em que não faz sentido medir várias iterações ou para tarefas de longa duração onde pequenos atrasos no sistema não terão um impacto significativo, você pode usar `%%time` no topo de uma célula ou `%time` na frente de uma linha, que mede o tempo que uma única execução leva. Esses comandos fazem parte de uma família de “comandos mágicos” integrados disponíveis em Jupyter Notebooks. Veja a [documentação do Jupyter](https://perma.cc/ED9F-DNDA) para saber de mais detalhes.
 
 Ter alguma ideia de aumento do tempo previsto para ser implementado é um requisito necessário para aumentar o tempo dos clusters em uso, como no caso dos clusters de programação de alto desempenho (HPC) financiados de forma centralizadamente, disponíveis em muitas instituições. A maioria esmagadora dos pesquisadores que usam esses recursos está nas ciências duras, mas geralmente qualquer membro do corpo docente pode solicitar acesso. É possível que você também possa ter acesso a recursos de HPC regionais ou nacionais. Esses recursos de computação podem acelerar significativamente grandes trabalhos de computação, especialmente tarefas como modelagem 3D que podem tirar proveito de nós computacionais com poderosas unidades de processamento gráfico (GPUs). Aprender a usar clusters HPC é um tópico suficientemente grande para sua própria lição, mas os notebooks Jupyter podem permitir que você pegue um atalho. Alguns grupos de computação de pesquisa oferecem maneiras mais fáceis para os pesquisadores executarem Jupyter Notebooks usando recursos de cluster HPC, e você pode encontrar [vários guias e exemplos de uso geral](https://perma.cc/A5R4-9ZD7) para fazê-lo. Se você conseguir acesso aos recursos do HPC, vale a pena contatar a equipe de TI que com computação para uma área de e pesquisar sobre como você pode executar o Jupyter Notebook caso você não lidou com sua redação a respeito no site da sua instituição. O TI que trabalha majoritariamente com pesquisa pode se comunicar de forma brusca do que você é de forma mais pessoal, mas não permite que a maioria dos humanos querem, porque usam a diversidade da sua base de usuários é importante para suas medidas de atuação na universidade.
 
