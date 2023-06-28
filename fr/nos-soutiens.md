@@ -18,7 +18,7 @@ Le Programming Historian est reconnaissant envers ses contributeurs passés et a
 Les institutions suivantes font partie de notre programme de [Partenariat institutionnel](pi).
 
 - [Bibliothèques de la KU Leuven](https://bib.kuleuven.be/), Belgique
-- [Institute of Historical Research, Wohl Library](https://www.history.ac.uk/library), Royaume-Uni
+- [Institute of Historical Research, Wohl Library](https://www.history.ac.uk/library-digital), Royaume-Uni
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Royaume-Uni
 - [Western University Library](https://www.lib.uwo.ca/), Canada
 - [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxembourg
