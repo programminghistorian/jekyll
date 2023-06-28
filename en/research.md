@@ -38,22 +38,27 @@ The project team and members of the wider community are involved in a number of 
 
 ## Reports
 
+* Maria José Afanador-Llach & Andrés Rivera, '[Segundo ciclo de talleres: Herramientas y procesos digitales para la investigación y creación en artes y humanidades](/researchpapers/Informe_final_Talleres%20EHCN_2023-ENG_PH.pdf)', (2023).
 * Incllewsion and the Programming Historian, 'Initial Accessibility Testing: Summary of Findings', (2021).
 * Penny Andrews and the Programming Historian, ['The Programming Historian: developing and sustaining impact in the Global South'](http://doi.org/10.5281/zenodo.3813763) (2020).
 * Amy Kavanagh and the Programming Historian, 'Programming Historian – Access for visually impaired researchers', (n.d.).
 
 ## Workshops & Events
 
-* Miguel Cuandros & Anthony Picón, ‘[Georreferenciación de mapas históricos con Map Warper’](https://facartes.uniandes.edu.co/evento/taller-georreferenciacion-de-mapas-historicos-con-map-warper/), Universidad de los Andes [Online], (2-3 March 2023).
-* Jennifer Isasi, ‘[Crear una exhibición digital mínima e interactiva con CollectionBuilder](https://youtu.be/),’ Universidad de los Andes [Online], (9-10 February 2023).  
-* Gisele Almeida, Daniel Alves & Eric Brasil, ‘[Conheça o Programming Historian em português](https://youtu.be/),’ _Programming Historian_, [Online], (25 January 2023).
-* Jessica Parr, Joana Vieira Paulino & Nicolas Vaughan, ['Teaching with Programming Historian,'](https://youtu.be/u5x5WlLD-Bo) Programming Historian, (16 December 2022).
+* María José Afanador Llach, Jennifer Isasi, Riva Quiroga, 'Sobre _Programming Historian en español_ y cómo contribuir a la publicación', Semana de Humanidades Digitales 2023 [Online], (10 May 2023).
+* Riva Quiroga, 'Introducción al web scraping usando R. Parte 1: extracción de texto, Parte 2: extracción de tablas', Semana de Humanidades Digitales 2023 [Online], (8-9 May 2023).
+* Jimmy Medeiros, 'Aprendendo a analisar dados com R com base em lições do _Programming Historian_', Semana de Humanidades Digitales 2023 [Online], (8 May 2023).
+* Nicolás Vaughan, '[Taller Introducción al marcado TEI](https://posgradosfacartes.uniandes.edu.co/evento/taller-introduccion-al-marcado-tei/)', Universidad de los Andes [Online], (13-14 March 2023).
+* Miguel Cuandros & Anthony Picón, '[Georreferenciación de mapas históricos con Map Warper](https://facartes.uniandes.edu.co/evento/taller-georreferenciacion-de-mapas-historicos-con-map-warper/)', Universidad de los Andes [Online], (2-3 March 2023).
+* Jennifer Isasi, ‘Crear una exhibición digital mínima e interactiva con CollectionBuilder,’ Universidad de los Andes [Online], (9-10 February 2023).  
+* Gisele Almeida, Daniel Alves & Eric Brasil, ‘[Conheça o Programming Historian em português](https://youtu.be/5M1KX6AeLbQ),’ Programming Historian, [Online], (25 January 2023).
+* Jessica Parr, Joana Vieira Paulino & Nicolas Vaughan, ['Teaching with Programming Historian,'](https://youtu.be/u5x5WlLD-Bo) Programming Historian [Online], (16 December 2022).
 * Daniel van Strien, '_Computer Vision for the Humanities_', British Library, Digital Scholarship Training Programme, (17 November 2022).
-* Riva Quiroga, '[_Aprende a crear tutoriales para Programming Historian_'](https://www.youtube.com/watch?v=QgSuaHM5ap0), Programming Historian [Online], (16 November 2022).
-* Isasi, Jennifer. '_Programming Historian: A Collaborative Project to Put Programming Within the Reach of Humanists_', Language Technologies for Digital Humanities, within the Global Digital Humanities degree, University of Mondragón, Spain (14 November 2022).
-* Sofia Papastamkou, Participation in the workshop '[_Formation et compétences pour les différents types d’acteurs : pratiques pédagogiques et didactique_'](https://respadon.hypotheses.org/1755), coordinated by Dorothée Benhamou-Suesser and Madeleine Géroudet. ResPaDon project. Bibliothèque Nationale, France, (6 October 2022).
-* Daniel Alves, Adam Crymble, Victor Gayol and Lucia Michielin, '[_Digital Humanities Roundtable: 'Where' affects 'How' we teach'_](https://www.eventbrite.co.uk/e/digital-humanities-roundtable-where-affects-how-we-teach-tickets-394224866187)', University College London, United Kingdom, (8 September 2022).
-* Gisele Almeida & Anisa Hawes, '_History Past, Present & Future - The IHR Centenary Festival_', Institute of Historical Research & Senate House, United Kingdom, (15 July 2022).
+* Riva Quiroga, '[Aprende a crear tutoriales para _Programming Historian_'](https://www.youtube.com/watch?v=QgSuaHM5ap0), Programming Historian [Online], (16 November 2022).
+* Isasi, Jennifer. '_Programming Historian_: A Collaborative Project to Put Programming Within the Reach of Humanists', Language Technologies for Digital Humanities, within the Global Digital Humanities degree, University of Mondragón, Spain (14 November 2022).
+* Sofia Papastamkou, Participation in the workshop '[Formation et compétences pour les différents types d’acteurs : pratiques pédagogiques et didactique'](https://respadon.hypotheses.org/1755), coordinated by Dorothée Benhamou-Suesser and Madeleine Géroudet. ResPaDon project. Bibliothèque Nationale, France, (6 October 2022).
+* Daniel Alves, Adam Crymble, Victor Gayol and Lucia Michielin, '[Digital Humanities Roundtable: 'Where' affects 'How' we teach'](https://www.eventbrite.co.uk/e/digital-humanities-roundtable-where-affects-how-we-teach-tickets-394224866187)', University College London, United Kingdom, (8 September 2022).
+* Gisele Almeida & Anisa Hawes, 'History Past, Present & Future - The IHR Centenary Festival', Institute of Historical Research & Senate House, United Kingdom, (15 July 2022).
 * Sofia Papastamkou, Hugues Pecout, Sébastien Rey-Coyrehourcq, Timothée Giraud, Gwenaëlle Patat, Margot Mellet, Servanne Monjour & Nicolas Sauret, '_Programming Historian en français_, Rzine, ... & Tutos : Faire communauté autour des dispositifs et des formats alternatifs du savoir’, [Colloque Humanistica 2022: Association francophone des humanités numériques](https://humanistica2022.sciencesconf.org/program/details), (18 May 2022).
 * Jennifer Isasi & Brandon Walsh with Gabi Kirilloff, ‘[_Programming Historian_ Workshop on Twine in the Classroom](https://ach.org/blog/2022/02/15/ach-programming-historian-workshop-on-twine-in-the-classroom/)’, Association for Computers and the Humanities, United States (13 April 2022).
 * Daniel Alves & Joana Vieira Paulino, ‘[O _Programming Historian em português_ e o ensino das Humanidades Digitais](https://www.letras.ulisboa.pt/pt/agenda/2-seminario-cecomp-hd-o-programming-historian-em-portugues-e-o-ensino-das-humanidades-digitais)’, 2.º Seminário CEComp-HD, Centro de Estudos Comparatistas da Faculdade de Letras, Universidade de Lisboa, Portugal, (23 March 2022).
@@ -81,10 +86,16 @@ The project team and members of the wider community are involved in a number of 
 
 ## Posters, Conference Papers, & Invited Talks
 
+* James Baker & Paola Marchionni, '[Research Talk: Skills for artificial intelligence](https://soundcloud.com/user-565922160/research-talk-skills-for-artificial-intelligence-james-baker?in=user-565922160/sets/research-talk-podcast)', Jisc, (June 2023).
+* Riva Quiroga, 'El proceso de revisión abierta entre pares en _Programming Historian_', Facultad de Comunicación e Información, Universidad de Puerto Rico [Online], (18 May 2023).
+* Daniel Alves, 'Parcerias entre História e Computação: o caso do Programming Historian em português', Instituto Federal de Educação, Ciência e Tecnologia do Maranhão, Brazil, (4 May 2023).
+* Daniel Alves & Daniel Bonatto Sêco, 'Uma ferramenta para o ensino de metodologias digitais: o Programming Historian em português', UniRio, Rio de Janeiro, Brazil, (17 April 2023).
 * James Baker & Anisa Hawes, ‘[Research skills from a researcher’s perspective: introducing the _Programming Historian_](https://www.jisc.ac.uk/events/digifest-2023/programme#)’, Jisc Digifest, Birmingham, United Kingdom, (7 March 2023).
 * Daniel Alves & Joana Vieira Paulino, ‘_The Programming Historian em português_: a step forward towards digital literacy in the social sciences and humanities', Humanities Going Digital: teaching, training and research experiences, Universidade Nova de Lisboa, Portugal (2-3 February, 2023).
 * Marie Flesch, 'Présentation du _Programming Historian en français_’, Séminaire CENHTOR, MSH Lorraine, Nancy, France (24 January 2023).
-* Riva Quiroga, '_Open Review in Journals_' Roundtable discussion at XI International Conference BIREDIAL-ISTEC, (7 October 2022).
+* Jennifer Isasi. 'De leer novelas a modelar datos sobre productos culturales: Trayectorias varias por las Humanidades Digitales', V Conferencia Internacional de la Asociación Argentina de Humanidades Digitales, Füskü Menuko, Río Negro, Argentina (17-18 November 2022).
+* Isasi, Jennifer. ‘_Programming Historian_: A Collaborative Project to Put Programming Within the Reach of Humanists’, Universidad de Mondragón, Spain (14 November 2022).
+* Riva Quiroga, 'Open Review in Journals', XI International Conference BIREDIAL-ISTEC, Montevideo, Uruguay (7 October 2022).
 * James Baker, Paola Marchionni, Jo Pugh, Jon Reades, Yann Ryan, Chahan Vidal-Gorène, Peter Webster, & Jennie Williams, '_Developing computational skills for digital collections: a new Programming Historian series_', [DCDC22: Discovering Collections Discovering Communities](https://dcdcconference.com/), (11-15 July 2022). 
 * Matthias Gille Levenson, Sofia Papastamkou & Célian Ringwald, '_Programming Historian_: un lieu de collaborations et d'interactions multiples', [DHNord 2022](https://www.meshs.fr/page/dhnord2022.5): Travailler en humanités numériques: collaborations, complémentarités et tensions, Lille, France, (22 June 2022). [Link to video](https://www.meshs.fr/page/dhnord2022_session5).  
 * Adam Crymble, 'Local Needs for Global Digital Scholarship', _Quo Vadis_, UCL, United Kingdom (9 June 2022).

@@ -14,15 +14,15 @@ O _Programming Historian_ é grato aos nossos apoiadores anteriores e atuais por
 ## Apoio nível ouro
 
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
+- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
 
 ## Parceiros Institucionais
 
 Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 
 - [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Bélgica
-- [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library), Reino Unido
+- [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library-digital), Reino Unido
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
-- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
 - [Western University Library](https://www.lib.uwo.ca/), Canadá
 - [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxemburgo
 - [Software Sustainability Institute](https://www.software.ac.uk/), Reino Unido
@@ -54,6 +54,7 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 - [University of Oxford](https://www.ox.ac.uk), Reino Unido
 - [Universität Bern Bibliothek](https://www.ub.unibe.ch/), Suíça
 - [University of Florida](https://www.ufl.edu/), Estados Unidos
+- [Universiteit van Amsterdam](https://www.uva.nl/), Países Baixos
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 

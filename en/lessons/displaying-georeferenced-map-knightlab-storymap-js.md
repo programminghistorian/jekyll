@@ -42,7 +42,7 @@ To get started with accessing Story Map JS, you will need a Google account to ac
 
 To complete this tutorial as written, you will need to export a georeferenced map from Map Warper. [Map Warper](https://perma.cc/HQ2W-RCE8) offers several map services for exporting your georeferenced map, including [KML](https://perma.cc/N7VL-AJ5C) (for use in Google Earth, etc.), [Web Map Services (WMS)](https://perma.cc/E89H-8QG2) URL, and [Tiles](https://perma.cc/YG7A-68GB) (Google/OSM scheme).
 
-The one you will need for this tutorial is the Tiles (Google/OSM scheme) URL:
+The Map Warper export URL you will need for this tutorial is the Tiles (Google/OSM scheme) option. This is the URL you will use to add your history basemap to the StoryMap JS for the lesson; this URL is for a map of North and South Carolina that has already been georectified and exported from Map Warper.  To learn more about exporting a georeferenced map from Map Warper, see our translation of Anthony Picón Rodríguez and Miguel Cuadros's lesson [Introduction to Map Warper](/en/lessons/introduction-map-warper). Please note that you won't be able to visit the URL in a web browser, but you will be able to load it into StoryMap JS. The URL will be formatted as:
 
 https://mapwarper.net/maps/tile/40217/{z}/{x}/{y}.png
 
