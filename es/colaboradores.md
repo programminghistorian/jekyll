@@ -14,6 +14,7 @@ original: supporters
 
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
+- [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
 
 ## Instituciones asociadas
 
@@ -21,7 +22,6 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 
 - [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Bélgica
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library-digital), Reino Unido
-- [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
 - [Western University Library](https://www.lib.uwo.ca/), Canadá
 - [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxemburgo
 - [Software Sustainability Institute](https://www.software.ac.uk/), Estados Unidos
