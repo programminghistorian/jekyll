@@ -28,6 +28,10 @@ doi: 10.46430/phen0103
 
 {% include toc.html %}
 
+<div class="alert alert-warning">
+Access to Twitter’s API has recently changed. The Free Tier no longer allows users to search and download Twitter data. Unfortunately, this means that elements of this lesson will only work for those who are paying for an upgraded plan. At the moment, there are no special access plans for researchers or academics. [2023]
+</div>
+
 # Lesson Aims
 
 This lesson will enable readers to:
