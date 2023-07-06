@@ -33,6 +33,10 @@ avatar_alt: Appareil à plusieurs mécanismes interconnectés
 
 {% include toc.html %}
 
+<div class="alert alert-warning">
+L'accès à l'API de Twitter a récemment changé. Le niveau gratuit ne permet plus de rechercher et de télécharger les données de Twitter. Malheureusement, cela signifie que certains éléments de cette leçon ne fonctionneront que pour les personnes qui disposent d’un accès payant à l’API. Pour l'instant, il n'existe pas de plan d'accès spécial pour les chercheur·es ou les universitaires. [2023]
+</div>
+
 # Une introduction aux bots Twitter avec Tracery
 
 Cette leçon explique comment créer des bots basiques sur Twitter à l’aide de la [grammaire générative Tracery](http://tracery.io) et du service [Cheap Bots Done Quick](http://cheapbotsdonequick.com/). Tracery est interopérable avec plusieurs langages de programmation et peut être intégrée dans des sites web, des jeux ou des bots. Vous pouvez en faire une copie (fork) sur github [ici](https://github.com/galaxykate/tracery/tree/tracery2).
