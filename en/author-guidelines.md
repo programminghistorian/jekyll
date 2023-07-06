@@ -192,16 +192,9 @@ The guideline is to use them sparingly in the running prose. Specific rules:
 *	Endnotes should not just contain a URL.
     *	(Correct): Grove, John. "Calhoun and Conservative Reform." *American Political Thought* 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
     *	(Incorrect): https://doi.org/10.1086/680389
-* In order to cite software, which requires citation as a condition of use within a lesson, please provide as much as possible from the information below, following the general "Notes and Bibliography” system found in the Chicago Manual of Style, 17th Edition for endnotes:
-    *	author
-    * product name
-    * version number
-    * year of publication
-    * URL or DOI
-
-  Eg. The Pandas Development Team. *pandas-dev/pandas: Pandas*. v. 1.2.3 (2020). https://doi.org/10.5281/zenodo.3509134
-
-  Please check each software official webpage or documentation for authors guidelines about how to cite their work (eg. https://pandas.pydata.org/about/citing.html, https://www.tidyverse.org/blog/2019/11/tidyverse-1-3-0/#citing-the-tidyverse).
+* To cite software according to [the recommendations of Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software/), please provide available elements of the following information: author, title, version, year of release, license, repository URL. Below you will find an example following the _Chicago Manual, 17th edition_ citation style:
+    * **End note**: Julien Barnier _et al._. _Scatterd3_, version 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
+    * **Bibliography entry**: Barnier, Julien, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. Scatterd3 (version 1.0.1). GPL. 2021. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
 
 
 ### Challenging Words Explained
