@@ -13,13 +13,13 @@ Le Programming Historian est reconnaissant envers ses contributeurs passés et a
 
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), États-Unis
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Royaume-Uni
+- [University of Sussex Library](https://www.sussex.ac.uk/library/), Royaume-Uni
 
 ## Partenariat institutionnel
 Les institutions suivantes font partie de notre programme de [Partenariat institutionnel](pi).
 
 - [Bibliothèques de la KU Leuven](https://bib.kuleuven.be/), Belgique
 - [Institute of Historical Research, Wohl Library](https://www.history.ac.uk/library-digital), Royaume-Uni
-- [University of Sussex Library](https://www.sussex.ac.uk/library/), Royaume-Uni
 - [Western University Library](https://www.lib.uwo.ca/), Canada
 - [Centre for Contemporary and Digital History, Université du Luxembourg](https://www.c2dh.uni.lu/), Luxembourg
 - [Software Sustainability Institute](https://www.software.ac.uk/), Royaume-Uni
@@ -65,7 +65,7 @@ Les organisations suivantes ont apporté ou continuent d'apporter un soutien all
 - Fundação para a Ciência e Tecnologia, à travers le programme de soutien '[Verão com Ciência 2021](https://www.uevora.pt/investigar/projetos?id=5261)', Portugal [September 2021]
 - The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Royaume-Uni [2021].
 - University of Sussex, Royaume-Uni:
-    - Bibliothèque de l'université du Sussex [2020-actuellement]
+    - University of Sussex Library [2020-actuellement]
     - School of History, Art History and Philosophy, University of Sussex [2019]
     - [ESRC Impact Accelerator Account, University of Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/), [2019].
 - [British Academy](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/) pour le financement d’un atelier d’écriture à Bogota en Colombie [2018].
