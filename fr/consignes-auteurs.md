@@ -253,7 +253,7 @@ Si vous vous référez à nouveau au même ouvrage, vous pouvez par la suite fou
     * Marine Riguet et Mohamed Amine Boukhaled, «&#x202F;La correspondance de motifs, un outil pour l’analyse du discours&#x202F;?&#x202F;», *Humanités numériques*, no. 1 (2020), https://doi.org/10.4000/revuehn.312 (note complète) 
     * Voir https://doi.org/10.4000/revuehn.312 (note incomplète) 
 * Pour citer un logiciel, suivant [les recommandations du projet Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software/), merci de fournir toute information disponible parmi les suivantes&#x202F;: auteur, titre, version, année de publication, licence, URL du dépôt. Voici un exemple formatté selon le style *Chicago Manual*, 17e édition&#x202F;: 
-    * **Note de fin**: Julien Barnier _et al._. Scatterd3_, version 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
+    * **Note de fin**: Julien Barnier _et al._. _Scatterd3_, version 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
     * **Référence bibliographique**: Barnier, Julien, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. Scatterd3 (version 1.0.1). GPL. 2021. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
 
 ### Écriture inclusive  
