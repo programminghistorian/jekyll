@@ -183,16 +183,9 @@ La pauta es usarlas con moderación en la prosa corriente. Reglas específicas:
 *	Las notas finales no pueden contener solo una URL.
     *	(Correcto): Grove, John. "Calhoun and Conservative Reform." *American Political Thought* 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
     *	(Incorrecto): https://doi.org/10.1086/680389.
-* Es necesario citar todo el software utilizado. Entrega todo la información posible siguiendo las sugerencias de la sección "Notas y Bibliografía" del Manual Chicago 17a edición.
-    *	autores
-    * nombre del producto
-    * número de la versión
-    * año de publicación
-    * URL o DOI
-
-      Ejemplo: The Pandas Development Team. *pandas-dev/pandas: Pandas*. v. 1.2.3 (2020). https://doi.org/10.5281/zenodo.3509134
-
-      Simpre revisa el sitio web o la documentación oficial del software que utilizaste, ya que en muchos casos sus autores explicitan cómo prefieren que su trabajo sea citado  (por ejemplo, https://pandas.pydata.org/about/citing.html, https://www.tidyverse.org/blog/2019/11/tidyverse-1-3-0/#citing-the-tidyverse).
+* Para citar software según [las recomendaciones de Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software/), facilite los elementos disponibles de la siguiente información: autor, título, versión, año de publicación, licencia, URL del repositorio. A continuación encontrará un ejemplo siguiendo el estilo de citación del _Manual Chicago 17ª edición_
+    * **Nota final**: Julien Barnier _et al._. _Scatterd3_, versión 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
+    * **Referencia bibliográfica**: Barnier, Julien, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. Scatterd3 (versión 1.0.1). GPL. 2021. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
 
 
 ### Lenguaje inclusivo y no discriminatorio

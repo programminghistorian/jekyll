@@ -176,7 +176,9 @@ A orientação é que seja utilizada com moderação no texto em prosa. Regras e
 *	As notas de fim não devem conter apenas um URL.
     *	(Correto): Grove, John. "Calhoun and Conservative Reform." American Political Thought 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
     *	(Incorreto): https://doi.org/10.1086/680389
-
+* Para citar software de acordo com [as recomendações do Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software/), forneça os elementos disponíveis das seguintes informações: autor, título, versão, ano de lançamento, licença, URL do repositório. Abaixo encontra-se um exemplo que segue o estilo de citação do _Chicago Manual, 17ª edição_:
+    * **Nota final**: Julien Barnier _et al._. _Scatterd3_, versão 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
+    * **Referência bibliográfica**: Barnier, Julien, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. Scatterd3 (versão 1.0.1). GPL. 2021. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
 
 ## C. Directrizes de formatação
 Esta seção final aborda questões de formatação para a submissão. Leia esta seção antes e depois de escrever o seu rascunho. Se errar alguns destes elementos, poderá corrigi-los quando publicarmos uma visualização online da lição no início do processo de revisão por pares.
