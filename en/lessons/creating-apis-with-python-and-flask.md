@@ -25,6 +25,10 @@ doi: 10.46430/phen0072
 
 {% include toc.html %}
 
+<div class="alert alert-warning">
+Access to Twitter’s API has recently changed. The Free Tier no longer allows users to search and download Twitter data. Unfortunately, this means that elements of this lesson will only work for those who are paying for an upgraded plan. At the moment, there are no special access plans for researchers or academics. [2023]
+</div>
+
 # Lesson Goals
 
 Web APIs are tools for making information and application functionality accessible over the internet. In this lesson, you will:

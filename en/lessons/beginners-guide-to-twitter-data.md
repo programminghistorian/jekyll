@@ -27,7 +27,10 @@ doi: 10.46430/phen0083
 
 {% include toc.html %}
 
-
+<div class="alert alert-warning">
+Access to Twitter’s API has recently changed. The Free Tier no longer allows users to search and download Twitter data. Unfortunately, this means that elements of this lesson will only work for those who are paying for an upgraded plan. At the moment, there are no special access plans for researchers or academics. [2023]
+</div>
+    
 # Overview
 Twitter data are widely used for research purposes and are collected through a variety of methods and tools.  In this guide, we'll show you easy methods for acquiring [Twitter](https://twitter.com/) data, with some gestures toward specific types of spatial and social analyses.  More specifically, we will be acquiring unique IDs from Twitter, linking those IDs to detailed data about the tweet texts and the users, and processing that data to make it usable. Then we will be ready to generate insights from the data and analyze them with various methods and tools, such as textual and social network analysis.  This process might be attractive to historians, political scientists, public policy experts, sociologists, (and even literary scholars like myself) who want to examine the Twitter discourse and human interaction surrounding historical events, and gain insight into the geographic, chronological, and social elements of twenty-first-century politics.
 
