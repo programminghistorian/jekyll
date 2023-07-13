@@ -2941,3 +2941,16 @@
   status: volunteer
   bio:
     fr: |
+
+- name: Jon Reades
+  orcid: 0000-0002-1443-9263
+  team: false
+  bio:
+    en: |
+      Jon Reades is Associate Professor at the Centre for Advanced Spatial Analysis, University College London.
+
+- name: Jennie Williams
+  team: false
+  bio:
+    en: |
+      Jennie Williams is a PhD Student at the Centre for Advanced Spatial Analysis, University College London.
