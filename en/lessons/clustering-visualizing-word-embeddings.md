@@ -154,7 +154,7 @@ We have provided a [Google Colab notebook](https://colab.research.google.com/git
 - The [class-TF/IDF library](https://perma.cc/LJE2-PEWU) developed by [Maarten Grootendorst](https://perma.cc/SZB4-7R6A) is used to implement class-based (i.e. cluster-based) TF/IDF plots. There is apparently no installer for this library, so you will need to [download it](https://raw.githubusercontent.com/MaartenGr/cTFIDF/master/ctfidf.py) and save it to the same directory
 - The `pyarrow` library is required to read/write Parquet files. Parquet is a highly-compressed, column-oriented file format that allows you to work very quickly with very large data sets, and it preserves more complex data structures, such as lists, in a way that CSV files cannot.
 
-We have provided a [`requirements.txt`](https://perma.cc/43TA-DJFH) file that will install all of the libraries (except cTFIDF) needed to run the standalone [Google Colab notebook](https://github.com/jreades/ph-word-embeddings/blob/main/Clustering_Word_Embeddings.ipynb).
+We have provided a [`requirements.txt`](https://perma.cc/43TA-DJFH) file that will install all of the libraries (except cTFIDF) needed to run the standalone [Google Colab notebook](https://github.com/jreades/ph-tutorial-code/blob/main/Clustering_Word_Embeddings.ipynb).
 
 Once the libraries are installed, import them as follows:
 
@@ -374,7 +374,7 @@ Z = linkage(
 pickle.dump(Z, open(os.path.join('data','Z.pickle'), 'wb'))
 ```
 
-This takes **under 2 minutes**, but it *is* RAM-intensive. On Google Colab you may need to downsample the data (code for downsampling is included in the standalone [Colab notebook](https://github.com/jreades/ph-word-embeddings/blob/main/Embeddings.ipynb)). We use the prefix `Dim` to select columns out of the `projected` data frame; even if you change the number of dimensions, the clustering code need not change.
+This takes **under 2 minutes**, but it *is* RAM-intensive. On Google Colab you may need to downsample the data (code for downsampling is included in the standalone [Colab notebook](https://github.com/jreades/ph-tutorial-code/blob/main/Clustering_Word_Embeddings.ipynb)). We use the prefix `Dim` to select columns out of the `projected` data frame; even if you change the number of dimensions, the clustering code need not change.
 
 ### Visualising the results
 
