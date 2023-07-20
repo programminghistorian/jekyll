@@ -2871,7 +2871,7 @@
   team_roles:
     - french
     - editorial
-  status: volunteer
+  status: institutionally-supported  
   bio:
     fr: |
       Alexandre Wauthier est ingénieur d'études au Centre national de la recherche scientifique française (CNRS). Il est chargé du traitement des donnnées scientifiques et bibliothécaire à l'Humathèque du Campus Condorcet.
