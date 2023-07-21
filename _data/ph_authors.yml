@@ -2292,32 +2292,32 @@
     pt: |
        Isabelle Gribomont é pesquisadora em Humanidades Digitais na universidade de Louvain e na Biblioteca Real da Bélgica.
 
-- name: Nicolás Llano
+- name: Nicolás Llano Linares
   email: llano.nicolas@gmail.com
   twitter: enetreseles
   github: nllano
   team: true
   team_start: 2021
-  institution: Instituto Brasileiro de Ensino, Desenvolvimento e Pesquisa
+  institution: Fundação Getúlio Vargas
   sortname: Llano
   affiliation:
     en: |
-      Brazilian Institute of Education, Development and Research, Brazil
+      School of Communication, Media and Information, Fundação Getúlio Vargas, Brazil
     es: |
-      Instituto Brasilero de Enseñanza, Desarrollo e Investigación, Brasil
+      Escuela de Comunicación, Medios e Información, Fundação Getúlio Vargas, Brasil
     fr: |
-      Institut Brésilien d'enseignement, de développement et de recherche, Brésil
+      l’École de la communication, des médias et de l’information, Fundação Getúlio Vargas, Brésil
     pt: |
-      Instituto Brasileiro de Ensino, Desenvolvimento e Pesquisa, Brasil
+      Escola de Comunicação, Mídia e Informação, Fundação Getúlio Vargas, Brasil
   bio:
     en: |
-       Nicolás Llano holds a PhD in Communication Sciences (Sao Paulo University, Brazil), and is a student of the MBA Data Journalism programm at IDP (Brasil).
+       Nicolás Llano Linares holds a PhD in Communication Sciences (Universidade de São Paulo, Brazil) and is a professor at the School for Communication, Media and Information, Fundação Getúlio Vargas, Brazil.
     es: |
-       Nicolás Llano es Doctor en Ciencias de la Comunicación (Universidad de São Paulo, Brasil), y estudiante del programa MBA Periodismo de Datos del IDP (Brasil).
+       Nicolás Llano Linares es Doctor en Ciencias de la Comunicación (Universidade de São Paulo, Brasil) y profesor en la Escuela de Comunicación, Medios e Información, Fundação Getúlio Vargas, Brasil.
     fr: |
-       Nicolás Llano est docteur en sciences de la communication (Université de São Paulo, Brésil) et est un étudiant du programme MBA Journalisme de données à l'IDP (Brésil).
+       Nicolás Llano Linares est docteur en sciences de la communication (Universidade de São Paulo, Brésil) et est professeur à l’École de la communication, des médias et de l’information, Fundação Getúlio Vargas, Brésil.
     pt: |
-       Nicolás Llano é Doutor em Ciências da Comunicação (Universidade de São Paulo, Brasil), e estudante do programa MBA Jornalismo de Datos no IDP (Brasil)
+       Nicolás Llano Linares é Doutor em Ciências da Comunicação (Universidade de São Paulo, Brasil) e professor na Escola de Comunicação, Mídia e Informação, Fundação Getúlio Vargas, Brasil.
   team_roles:
     - spanish
     - editorial
