@@ -145,7 +145,7 @@ So we get *different* 'most similar' words depending on the training corpus, whi
 
 ### Required Libraries
 
-We have provided a [Google Colab notebook](https://colab.research.google.com/github/jreades/ph-tutorial-code/blob/main/Clustering_Word_Embeddings.ipynb) that allows you to run all of the code in this tutorial without needing to install anything on your own computer. A [Docker](https://www.docker.com/) image is also available and instructions for using it can be found [on GitHub](https://perma.cc/3JN9-JZN2). However, if you wish to run the code locally, in addition to the core 'data science' libraries of `numpy`, `pandas`, and `seaborn`, you will need to install several more specialised libraries:
+We have provided a [Google Colab notebook](/assets/clustering-visualizing-word-embeddings/clustering-visualizing-word-embeddings.ipynb) that allows you to run all of the code in this tutorial without needing to install anything on your own computer. A [Docker](https://www.docker.com/) image is also available and instructions for using it can be found [on GitHub](https://perma.cc/3JN9-JZN2). However, if you wish to run the code locally, in addition to the core 'data science' libraries of `numpy`, `pandas`, and `seaborn`, you will need to install several more specialised libraries:
 
 - For the derivation of Word or Document Embeddings, you will need [`gensim`](https://radimrehurek.com/gensim/), but we have performed this step already
 - For the dimensionality reduction, you need [`umap-learn`](https://umap-learn.readthedocs.io/en/latest/)
@@ -154,7 +154,7 @@ We have provided a [Google Colab notebook](https://colab.research.google.com/git
 - The [class-TF/IDF library](https://perma.cc/LJE2-PEWU) developed by [Maarten Grootendorst](https://perma.cc/SZB4-7R6A) is used to implement class-based (i.e. cluster-based) TF/IDF plots. There is apparently no installer for this library, so you will need to [download it](https://raw.githubusercontent.com/MaartenGr/cTFIDF/master/ctfidf.py) and save it to the same directory
 - The `pyarrow` library is required to read/write Parquet files. Parquet is a highly-compressed, column-oriented file format that allows you to work very quickly with very large data sets, and it preserves more complex data structures, such as lists, in a way that CSV files cannot.
 
-We have provided a [`requirements.txt`](https://perma.cc/43TA-DJFH) file that will install all of the libraries (except cTFIDF) needed to run the standalone [Google Colab notebook](https://github.com/jreades/ph-tutorial-code/blob/main/Clustering_Word_Embeddings.ipynb).
+We have provided a [`requirements.txt`](https://perma.cc/43TA-DJFH) file that will install all of the libraries (except cTFIDF) needed to run the standalone [Google Colab notebook](/assets/clustering-visualizing-word-embeddings/clustering-visualizing-word-embeddings.ipynb).
 
 Once the libraries are installed, import them as follows:
 
@@ -374,7 +374,7 @@ Z = linkage(
 pickle.dump(Z, open(os.path.join('data','Z.pickle'), 'wb'))
 ```
 
-This takes **under 2 minutes**, but it *is* RAM-intensive. On Google Colab you may need to downsample the data (code for downsampling is included in the standalone [Colab notebook](https://github.com/jreades/ph-tutorial-code/blob/main/Clustering_Word_Embeddings.ipynb)). We use the prefix `Dim` to select columns out of the `projected` data frame; even if you change the number of dimensions, the clustering code need not change.
+This takes **under 2 minutes**, but it *is* RAM-intensive. On Google Colab you may need to downsample the data (code for downsampling is included in the standalone [Colab notebook](/assets/clustering-visualizing-word-embeddings/clustering-visualizing-word-embeddings.ipynb)). We use the prefix `Dim` to select columns out of the `projected` data frame; even if you change the number of dimensions, the clustering code need not change.
 
 ### Visualising the results
 
@@ -706,7 +706,7 @@ As we drill further down into the DDCs classes (e.g. to the 3rd level), we would
 
 ### 11 Clusters
 
-Finally, you can also give the computational process greater importance, instead using the DDC as support for labelling the resulting clusters. To select an 'optimal' number of clusters you can use a [scree plot](/en/lessons/clustering-with-scikit-learn-in-python#3-dimensionality-reduction-using-pca) (the code for this is available in [GitHub](https://github.com/jreades/ph-tutorial-code/blob/main/Clustering_Word_Embeddings.ipynb)), though expert opinion is just as defensible in such cases. The combination of the scree plot and [`kneed`](https://kneed.readthedocs.io/en/stable/) utility pointed to a clustering in the range of 10—15, so we opted for 11 clusters and assigned each cluster the name of its *dominant* DDC group.
+Finally, you can also give the computational process greater importance, instead using the DDC as support for labelling the resulting clusters. To select an 'optimal' number of clusters you can use a [scree plot](/en/lessons/clustering-with-scikit-learn-in-python#3-dimensionality-reduction-using-pca) (the code for this is available in [GitHub](/assets/clustering-visualizing-word-embeddings/clustering-visualizing-word-embeddings.ipynb)), though expert opinion is just as defensible in such cases. The combination of the scree plot and [`kneed`](https://kneed.readthedocs.io/en/stable/) utility pointed to a clustering in the range of 10—15, so we opted for 11 clusters and assigned each cluster the name of its *dominant* DDC group.
 
 ```python
 num_clusters = 11
@@ -814,7 +814,7 @@ print("Done.")
 
 Of course, Hierarchical Clustering is just one technique amongst many, and it's certain that other algorithmic approaches will perform better — or worse — depending on the context and application. We've advanced an analytical reason for using this technique, rooted in our conceptualisation of the 'semantic space' of doctoral research. If, for instance, you were seeking to identify disciplinary cores and to distinguish these from more peripheral/interdisciplinary work, then something like DBSCAN or OPTICS might be a better choice. It all depends on what you want to know! 
 
-Below are the results of four lightly-tuned clustering algorithms, the code for which can be found in [the Notebook](https://github.com/jreades/ph-tutorial-code/blob/main/Clustering_Word_Embeddings.ipynb). While they all pick up the same cores (at a relatively low number of clusters), there are clear differences at the margins in terms of what is considered part of the cluster. These differences *matter* as you scale the size of the corpus and, fundamentally, this is the challenge posed by large corpora; the programming historian (or social scientist or linguist) needs to approach their problem with a sense of how different algorithms embody different conceptualisations of the analytical domain — this is seldom taught explicitly and often only learned when encountering a data set on which 'tried and trusted' approaches simply don't work.
+Below are the results of four lightly-tuned clustering algorithms, the code for which can be found in [the Notebook](/assets/clustering-visualizing-word-embeddings/clustering-visualizing-word-embeddings.ipynb). While they all pick up the same cores (at a relatively low number of clusters), there are clear differences at the margins in terms of what is considered part of the cluster. These differences *matter* as you scale the size of the corpus and, fundamentally, this is the challenge posed by large corpora; the programming historian (or social scientist or linguist) needs to approach their problem with a sense of how different algorithms embody different conceptualisations of the analytical domain — this is seldom taught explicitly and often only learned when encountering a data set on which 'tried and trusted' approaches simply don't work.
 
 {% include figure.html filename="or-en-clustering-visualizing-word-embeddings-10.png" alt="Comparison of clustering results obtained using other algorithms provided to highlight how the choice of algorithm can impact the results obtained and stress the need to select one that reflects the objectives of the analysis." caption="Figure 10. Comparison with Alternative Clustering Algorithms" %}
 
