@@ -13,7 +13,7 @@ editors:
 - Nicolás Llano Linares
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/509
 difficulty: 2
-activity: transforming, presenting
+activity: transforming
 topics: [creative-coding]
 abstract: Esta lección te enseña a crear generadores de texto e imágenes usando la librería Aventura.js para el lenguaje de programación JavaScript
 avatar_alt: Imagen en blanco y negro que muestra un collage generado con esta lección y que incluye la imagen de un paisaje, una iglesia y dos vaqueros 
