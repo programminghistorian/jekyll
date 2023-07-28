@@ -337,13 +337,13 @@
       University of Southampton, Reino Unido
   bio:
     en: |
-      James Baker is Director of Digital Humanities at the University of Southampton.
+      James Baker is Professor of Digital Humanities at the University of Southampton.
     es: |
-      James Baker es el Director de Humanidades Digitales en la Universidad de Southampton.
+      James Baker es el profesor de Humanidades Digitales en la Universidad de Southampton.
     fr: |
-      James Baker est directeur des humanités numériques à l'Université de Southampton.
+      James Baker est professeur des humanités numériques à l'Université de Southampton.
     pt: |
-      James Baker é Diretor de Humanidades Digitais da University of Southampton.
+      James Baker é professor de Humanidades Digitais da University of Southampton.
   team_roles:
     - proghist
     - finance-manager
@@ -2857,21 +2857,21 @@
   orcid: 0000-0001-9437-4529
   team: true
   team_start: 2023
-  institution: Humathèque, Campus Condorcet
+  institution: Humathèque, Campus Condorcet-CNRS
   sortname: Wauthier
   affiliation:
     en: |
-      Centre national de la recherche scientifique française (CNRS), France
+      Humathèque, Campus Condorcet-CNRS, France
     pt: |
-      Centre national de la recherche scientifique française (CNRS), Francia
+      Humathèque, Campus Condorcet-CNRS, Francia
     es: |
-      Centre national de la recherche scientifique française (CNRS), France
+      Humathèque, Campus Condorcet-CNRS, France
     fr: |
-      Centre national de la recherche scientifique française (CNRS), França
+      Humathèque, Campus Condorcet-CNRS, França
   team_roles:
     - french
     - editorial
-  status: volunteer
+  status: institutionally-supported  
   bio:
     fr: |
       Alexandre Wauthier est ingénieur d'études au Centre national de la recherche scientifique française (CNRS). Il est chargé du traitement des donnnées scientifiques et bibliothécaire à l'Humathèque du Campus Condorcet.
