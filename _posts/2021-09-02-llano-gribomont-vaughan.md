@@ -7,7 +7,7 @@ categories: posts
 ---
 
 
-<p><figure><img src="/avatars/isabelle-gribomont.png" alt="Imagen de perfil de Isabelle Gribomont" style="width:200px;"/><img src="/avatars/nicolas-llano.png" alt="Imagen de perfil de Nicolás Llano" style="width:200px;"/><img src="/avatars/nicolas-vaughan.png" alt="Imagen de perfil Nicolás Vaughan" style="width:200px;"/><figcaption>
+<p><figure><img src="/avatars/isabelle-gribomont.png" alt="Imagen de perfil de Isabelle Gribomont" style="width:200px;"/><img src="/avatars/nicolas-llano-linares.png" alt="Imagen de perfil de Nicolás Llano" style="width:200px;"/><img src="/avatars/nicolas-vaughan.png" alt="Imagen de perfil Nicolás Vaughan" style="width:200px;"/><figcaption>
    Fotos de Isabelle Gribomont, Nicolás Llano y Nicolás Vaughan </figcaption></figure></p> 
 
 El equipo de *Programming Historian en español* continua trabajando duro para ofrecer lecciones accessibles y útiles a la comunidad hispanohablante. Felizmente, la colaboración de nuestra comunidad es tan amplia que ya recibimos más lecciones originales que traducciones y necesitamos más manos editoriales para poderlas publicar más rápido. Así, en marzo del 2021 lanzamos una nueva convocatoria para sumar editores al equipo y hoy nos alegra presentarles a nuestros tres nuevos compañeros. 
