@@ -2941,3 +2941,12 @@
   status: volunteer
   bio:
     fr: |
+- name: Sergio Rodríguez Gómez
+  orcid: 0000-0002-1631-4747
+  team: false
+  bio:
+    en: |
+      Sergio Rodríguez Gómez is a PhD candidate in Communication, Languages and Information at Pontificia Universidad Javeriana, Bogotá, Colombia.
+    es: |
+      Sergio Rodríguez Gómez es un candidato a PhD en Comunicación, Lenguajes e Información en la Ponticia Universidad Javeriana, Bogotá, Colombia.
+    
