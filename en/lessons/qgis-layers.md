@@ -97,18 +97,16 @@ instructions on the download page.
 We will be using some government data from the Canadian province of
 Prince Edward Island. PEI is a great example because there is a lot of
 data for free online and because it is Canada's smallest province,
-making the downloads quick! Download PEI shapefiles:
+making the downloads quick!
 
--   Navigate to the links below in your web browser, read/accept the
-    license agreement, and then download the following (they will ask
-    for your name and email with each download). We created the final
-    two shapefiles, so they should download directly:
+-   Navigate to the links below in your web browser and then download
+the following PEI shapefiles. We created the final two, so they will download directly:
 
-1.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=coastline&file_format=SHP>
-2.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP>
-3.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=hydronetwork&file_format=SHP>
-4.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=forest_35&file_format=SHP>
-5.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=nat_parks&file_format=SHP>
+1.  <http://www.gov.pe.ca/gis/download.php3?name=coastline&file_format=SHP>
+2.  <http://www.gov.pe.ca/gis/download.php3?name=lot_town&file_format=SHP>
+3.  <http://www.gov.pe.ca/gis/download.php3?name=hydronetwork&file_format=SHP>
+4.  <http://www.gov.pe.ca/gis/download.php3?name=forest_35&file_format=SHP>
+5.  <http://www.gov.pe.ca/gis/download.php3?name=nat_parks&file_format=SHP>
 6.  [PEI Highways][]
 7.  [PEI Places][]
 
