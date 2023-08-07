@@ -16,8 +16,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/415
 difficulty: 3
 activity: analyzing
 topics: [machine-learning, network-analysis]
-abstract: This lesson focuses on the use of word embeddings to group documents together using the similarity of their vocabularies. With embeddings providing a numerical representation for each text, we then make use of dimensionality reduction and clustering to extract structure from a corpus of more than 20,000 documents. To evaluate the results, we compare our clusters to an expert-assigned classification, and also show how the choice of dimensionality and clustering algorithms affects the kinds of results that we obtain.
-avatar_alt: Drawing of a star-cluster
+abstract: This lesson uses word embeddings and clustering to identify groups of similar documents in a corpus of approximately 9,000 academic abstracts. This lesson will also teach you the basics of dimensionality reduction to extract structure from a large corpus and to evaluate the results based on parameters for dimensionality and the hierarchal clustering algorithm.
 lesson-partners: [Jisc, The National Archives]
 partnership-url: /jisc-tna-partnership
 mathjax: true
@@ -30,31 +29,33 @@ doi: 10.46430/phen0111
 
 ## Introduction
 
-As corpora are increasingly 'born digital' on hard drives as well as web and email servers, we are moving from being able to select or group documents using keyword or manual searches, to needing to be able to automate this task at scale. Moreover, large-ish, unlabelled corpora of thousands or tens-of-thousands of documents are not particularly well-suited to topic modelling or TF/IDF analysis either: since we don't have a sense of what kinds of groups might exist, what kinds of topics might be covered, or what level of distinctiveness in vocabulary might matter, we need different, more flexible ways to visualise and extract structure from texts.
+As corpora are increasingly 'born digital' on hard drives as well as web and email servers, we are moving from being able to select or group documents using keyword or manual searches to needing to be able to automate this task at scale. Moreover, large-ish, unlabelled corpora of thousands or tens-of-thousands of documents are not particularly well-suited to topic modelling or TF/IDF analysis either. Since we don't have a sense of what kinds of groups might exist, what kinds of topics might be covered, or what level of distinctiveness in vocabulary might matter, we need different, more flexible ways to visualise and extract structure from texts.
 
-This lesson shows *one* way to achieve this: uncovering meaningful structure in a large corpus of about 9,000 documents through the use of two techniques — dimensionality reduction and hierarchical clustering — to find and group similar documents with minimal human guidance. Our approach to document classification is *unsupervised*: we do not use either keywords or human expertise — except to validate the results and provide a measure of 'quality' — relying entirely on the information contained in the text itself. 
+This lesson shows *one* way to achieve this: uncovering meaningful structure in a large corpus of about 9,000 documents through the use of two techniques — dimensionality reduction and hierarchical clustering — to find and group similar documents with minimal human guidance. Our approach to document classification is *unsupervised*: we do not use either keywords or human expertise — except to validate the results and provide a measure of 'quality' — relying instead on the information contained in the text itself. 
 
 To do this we take advantage of word and document embeddings; these lie at the root of recent advances in text-mining and Natural Language Processing, and they provide us with a numerical representation of a text that extends what's possible with counts or TF/IDF representations of text. We take these embeddings and then apply our selected techniques to extract a hierarchical structure of relationships from the corpus. In this lesson, we'll explore why documents on similar topics tend be closer in the (numerical) 'space' of the word and document embeddings than those that are on very different topics. 
 
 To help make sense of this multidimensional 'space', this lesson explicates the corpus through a range of data visualisations that (we hope) bring the process to life. Based on these visualizations, this lesson demonstrates how this approach can help with a range of practical applications: at the word- and document-level we can use similarity to suggest missing keywords or find documents on the same topic (even if they use a slightly different vocabulary to do so!); and at the corpus-level we can look at how topics have grown and changed over time, and identify core/peripheries of disciplines or knowledge domains. 
 
-For a fuller introduction to word embeddings and their use in Natural Language Processing you may wish to read Barbara McGillivray's *How to use word embeddings for Natural Language Processing* (see the King's College London [Institutional Repository](https://perma.cc/S9FR-Q8KT) for details; [direct download](https://perma.cc/5NKB-WQAL)). In addition, the details of *how* word and documents embeddings are created will be covered in future *Programming Historian* tutorials, but this lesson also provides a brief overview of what embeddings *do* (and why they differ from, say, TF/IDF). This tutorial uses embeddings that we trained on a corpus composed of the title and abstract of completed doctoral research in the Arts and Humanities lodged with the British Library. 
+For a fuller introduction to word embeddings and their use in Natural Language Processing, you may wish to read Barbara McGillivray's *How to use word embeddings for Natural Language Processing* (see the King's College London [Institutional Repository](https://perma.cc/S9FR-Q8KT) for details; [direct download](https://perma.cc/5NKB-WQAL)). In addition, the details of *how* word and documents embeddings are created will be covered in future *Programming Historian* lessons. This lesson will also provide a brief overview of what embeddings *do* (and why they differ from, say, TF/IDF), using embeddings that we trained on a corpus composed of the title and abstract of completed doctoral research in the Arts and Humanities lodged with the British Library. 
 
 ### Learning Outcomes
 
 1. An appreciation of the 'curse of dimensionality' and why it is an important to text mining.
-3. The ability to use (nonlinear) dimensionality reduction to reveal structure in corpora.
-4. The ability to use hierarchical clustering  to group similar documents within a corpus.
+2. The ability to use (nonlinear) dimensionality reduction to reveal structure in corpora.
+3. The ability to use hierarchical clustering  to group similar documents within a corpus.
 
 ### Prerequisites
 
-This article can be seen as building on, and responding to, the [Clustering with Scikit-Learn in Python](/en/lessons/clustering-with-scikit-learn-in-python) tutorial already available on Programming Historian. Like Thomas Jurczyk, we are interested in applying clustering algorithms with Python to textual data 'in order to discover thematic groups'. Contrasting these two tutorials will allow you to develop a broader understanding of the Natural Language Processing (NLP) landscape. The most important differences between these tutorials are:
+This article can be seen as building on, and responding to, the [Clustering with Scikit-Learn in Python](/en/lessons/clustering-with-scikit-learn-in-python) tutorial already available on _The Programming Historian_. Like Thomas Jurczyk, we are interested in applying clustering algorithms with Python to textual data 'in order to discover thematic groups'. Contrasting these two tutorials will allow you to develop a broader understanding of the Natural Language Processing (NLP) landscape. 
+
+The most important differences between these tutorials are:
 
 1. The use of word2vec instead of TF/IDF
 2. The use of UMAP instead of PCA for dimensionality reduction
 3. The use of hierarchical instead of *k*-means clustering
 
-These steps allow us to convert each document to a point that can be plotted on a graph and grouped together based on their proximity to other documents.
+This lesson's steps enable you to convert each document to a point that can be plotted on a graph and grouped together based on their proximity to other documents.
 
 ## Background: from Words to Data
 
