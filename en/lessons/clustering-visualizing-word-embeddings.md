@@ -17,6 +17,7 @@ difficulty: 3
 activity: analyzing
 topics: [machine-learning, network-analysis]
 abstract: This lesson uses word embeddings and clustering to identify groups of similar documents in a corpus of approximately 9,000 academic abstracts. This lesson will also teach you the basics of dimensionality reduction to extract structure from a large corpus and to evaluate the results based on parameters for dimensionality and the hierarchal clustering algorithm.
+avatar_alt: Drawing of a star-cluster
 lesson-partners: [Jisc, The National Archives]
 partnership-url: /jisc-tna-partnership
 mathjax: true
