@@ -44,7 +44,7 @@ No confíes ciegamente en tus datos. Ese es el mensaje clave de este tutorial qu
 3.  Analizar la distribución de valores a lo largo de un conjunto de datos
 4.  Agrupar diferentes representaciones de la misma realidad
 
-Estos pasos se ilustran con la ayuda de una serie de ejercicios basados en una colección de metadatos del [Museo Powerhouse](http://www.powerhousemuseum.com/), que demuestran cómo los métodos (semi-)automatizados pueden ayudarte a corregir los errores que puedan presentar tus datos.
+Estos pasos se ilustran con la ayuda de una serie de ejercicios basados en una colección de metadatos del [Museo Powerhouse](https://powerhouse.com.au/), que demuestran cómo los métodos (semi-)automatizados pueden ayudarte a corregir los errores que puedan presentar tus datos.
 
 ## ¿Por qué los historiadores deben preocuparse por la calidad de los datos?
 
@@ -62,7 +62,7 @@ Además del perfilado de datos y las operaciones de limpieza, las extensiones de
 
 ## Descripción del ejercicio Powerhouse Museum
 
-El Museo Powerhouse de Sydney ofrece la exportación gratuita de metadatos de su colección en su [sitio web](http://www.powerhousemuseum.com/collection/database/download.php). Este museo es uno de los mayores de ciencia y tecnología de todo el mundo, proporcionando acceso a casi 90.000 objetos, que van desde máquinas de vapor a cristalería fina y desde  alta costura a chips de ordenador.
+El Museo Powerhouse de Sydney ofreció la exportación gratuita de metadatos de su colección en su [sitio web](https://powerhouse.com.au/). Este museo es uno de los mayores de ciencia y tecnología de todo el mundo, proporcionando acceso a casi 90.000 objetos, que van desde máquinas de vapor a cristalería fina y desde  alta costura a chips de ordenador.
 
 Este museo ha estado divulgando activamente su colección en línea y haciendo que la mayoría de sus datos estén disponibles libremente. Desde el sitio web del museo, se puede descargar un archivo de texto separado por tabulaciones llamado *phm-collection.tsv*, que se puede abrir como una hoja de cálculo. El archivo descomprimido (58MB) contiene metadatos básicos (17 campos) para 75.823 objetos, publicados bajo una licencia [Creative Commons de Reconocimiento-Compartir-Igual 2.5](https://creativecommons.org/licenses/by-sa/2.5/es/). En este tutorial usaremos una copia de los datos que hemos archivado para descargarlos (en un momento). Esto asegura que si el Museo Powerhouse actualiza los datos, te seguirá siendo posible el seguir esta Lección.
 
@@ -160,7 +160,7 @@ Si sólo recordaras una cosa de esta lección, debería ser lo siguiente: *todos
 
 
 [*OpenRefine*]: http://openrefine.org "OpenRefine"
-[Powerhouse museum]: http://www.powerhousemuseum.com
+[Powerhouse museum]: https://powerhouse.com.au/
     "Powerhouse museum"
 [*Potter’s Wheel ABC*]: http://control.cs.berkeley.edu/abc/
     "Potter's Wheel ABC "
@@ -170,7 +170,7 @@ Si sólo recordaras una cosa de esta lección, debería ser lo siguiente: *todos
 [Library of Congress]: http://www.loc.gov/index.html
     "Library of Congress"
 [OCLC]: http://www.oclc.org/home.en.html "OCLC"
-[website]: http://www.powerhousemuseum.com/collection/database/download.php
+[website]: https://powerhouse.com.au/
     "website"
 [Creative Commons Attribution Share Alike (CCASA) license]: http://creativecommons.org/licenses/by-nc/2.5/au/
 [Controlled vocabulary]: http://en.wikipedia.org/wiki/Controlled_vocabulary
