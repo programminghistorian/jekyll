@@ -131,7 +131,7 @@ Si vous devez vous souvenir d'une seule chose de ce cours, ce doit être celle-c
 Vous avez ainsi appris comment avoir un rapide aperçu du nombre de valeurs vides que contient votre jeu de données et à quelle fréquence une valeur particulière (par exemple un mot-clé) est utilisée dans une collection. Ces cours vous ont également montré comment résoudre des problèmes récurrents tels que les doublons et les incohérences orthographiques de manière automatisée à l'aide d'*OpenRefine*.
 
 [*OpenRefine*]: http://openrefine.org "OpenRefine"
-[Powerhouse museum]: http://www.powerhousemuseum.com "Powerhouse museum"
+[Powerhouse museum]: https://powerhouse.com.au/ "Powerhouse museum"
   [*Potter’s Wheel ABC*]: http://control.cs.berkeley.edu/abc/ "Potter's Wheel ABC "
   [*Wrangler*]: http://vis.stanford.edu/papers/wrangler/ "Wrangler"
   [profilage]: https://fr.wikipedia.org/wiki/Data_profiling
