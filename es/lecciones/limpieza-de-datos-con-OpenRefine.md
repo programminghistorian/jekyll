@@ -80,7 +80,7 @@ En la página de inicio de *OpenRefine*, crea un nuevo proyecto utilizando el ar
 
 El conjunto de datos del museo Powerhouse está formado por metadatos detallados de todos los objetos de la colección, incluyendo título, descripción, varias categorías a las que pertenece el objeto, información de procedencia y un vínculo persistente al objeto en el sitio web del museo. Para tener una idea de a qué objeto corresponden los metadatos simplemente haz clic en el vínculo persistente y se abrirá el sitio web.[^2]
 
-{% include figure.html caption="Figura 1: Captura de pantalla de un Objeto de Muestra del sitio web del Museo Powerhouse" filename="powerhouseScreenshot.png" %}
+{% include figure.html caption="Figura 1: Captura de pantalla de un Objeto de Muestra del sitio web del Museo Powerhouse" filename="en-or-cleaning-data-with-openrefine-01.png" %}
 
 ### Conoce tus datos
 
