@@ -80,7 +80,7 @@ Na página inicial do *OpenRefine* crie um novo projeto utilizando o ficheiro de
 
 O data set do *Powerhouse* consiste em metadados detalhados sobre todos os objetos da coleção incluindo o título, a descrição, as várias categorias às quais o item pertence, informação sobre a proveniência do mesmo e um link persistente para a página que hospeda o objeto dentro do site do museu. Para ter uma ideia do objeto a que corresponde os metadados, clique no link persistente e o site será aberto.  
 
-{% include figure.html filename="tr-pt-cleaning-data-with-openrefine-1.png" alt="Imagem de um objeto de amostra no site *Powerhouse* onde é possível observar um carro de brincar com desenhos de palhaços" caption="Figura 1: Captura de tela de um objeto de amostra no site *Powerhouse*" %}
+{% include figure.html filename="en-or-cleaning-data-with-openrefine-01.png" alt="Imagem de um objeto de amostra no site *Powerhouse* onde é possível observar um carro de brincar com desenhos de palhaços" caption="Figura 1: Captura de tela de um objeto de amostra no site *Powerhouse*" %}
 
 ### Conheça os seus dados
 
