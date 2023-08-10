@@ -102,16 +102,16 @@ make your data as coherent as possible.
 
 ## Description of the exercise: Powerhouse Museum
 
-The Powerhouse Museum in Sydney provides a freely available metadata
+The Powerhouse Museum in Sydney provided a metadata
 export of its collection on its [website][]. The museum is one of the
 largest science and technology museums worldwide, providing access to
 almost 90,000 objects, ranging from steam engines to fine glassware and
 from haute couture to computer chips.
 
-The Powerhouse has been very actively disclosing its collection online
-and making most of its data freely available. From the museum website, a
-tab-separated text file under the name *phm-collection.tsv* can be
-downloaded, which you can open as a spreadsheet. The unzipped file
+The Powerhouse actively disclosed its collection online
+and made most of its data freely available. From the museum website, a
+tab-separated text file under the name *phm-collection.tsv* could be
+downloaded, and opened as a spreadsheet. The unzipped file
 (58MB) contains basic metadata (17 fields) for 75,823 objects, released
 under a [Creative Commons Attribution Share Alike (CCASA) license][]. In
 this tutorial we will be using a copy of the data that we have archived
@@ -166,7 +166,7 @@ object on the museum website. To get an idea of what object the metadata
 corresponds to, simply click the persistent link and the website will
 open.
 
-{% include figure.html filename="powerhouseScreenshot.png" caption="Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website" %}
+{% include figure.html filename="en-or-cleaning-data-with-openrefine-01.png" caption="Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website" %}
 
 ### Get to know your data
 
@@ -399,7 +399,7 @@ data set, and *OpenRefine* allows you to trace back all of your steps in
 the case you have made an error.
 
   [*OpenRefine*]: http://openrefine.org "OpenRefine"
-  [Powerhouse museum]: http://www.powerhousemuseum.com
+  [Powerhouse museum]: https://powerhouse.com.au/
     "Powerhouse museum"
   [*Potter’s Wheel ABC*]: http://control.cs.berkeley.edu/abc/
     "Potter's Wheel ABC "
@@ -409,7 +409,7 @@ the case you have made an error.
   [Library of Congress]: http://www.loc.gov/index.html
     "Library of Congress"
   [OCLC]: http://www.oclc.org/home.en.html "OCLC"
-  [website]: http://www.powerhousemuseum.com/collection/database/download.php
+  [website]: https://powerhouse.com.au/
     "website"
   [Creative Commons Attribution Share Alike (CCASA) license]: http://creativecommons.org/licenses/by-nc/2.5/au/
   [Controlled vocabulary]: http://en.wikipedia.org/wiki/Controlled_vocabulary

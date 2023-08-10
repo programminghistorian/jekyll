@@ -44,7 +44,7 @@ No confíes ciegamente en tus datos. Ese es el mensaje clave de este tutorial qu
 3.  Analizar la distribución de valores a lo largo de un conjunto de datos
 4.  Agrupar diferentes representaciones de la misma realidad
 
-Estos pasos se ilustran con la ayuda de una serie de ejercicios basados en una colección de metadatos del [Museo Powerhouse](http://www.powerhousemuseum.com/), que demuestran cómo los métodos (semi-)automatizados pueden ayudarte a corregir los errores que puedan presentar tus datos.
+Estos pasos se ilustran con la ayuda de una serie de ejercicios basados en una colección de metadatos del [Museo Powerhouse](https://powerhouse.com.au/), que demuestran cómo los métodos (semi-)automatizados pueden ayudarte a corregir los errores que puedan presentar tus datos.
 
 ## ¿Por qué los historiadores deben preocuparse por la calidad de los datos?
 
@@ -62,9 +62,9 @@ Además del perfilado de datos y las operaciones de limpieza, las extensiones de
 
 ## Descripción del ejercicio Powerhouse Museum
 
-El Museo Powerhouse de Sydney ofrece la exportación gratuita de metadatos de su colección en su [sitio web](http://www.powerhousemuseum.com/collection/database/download.php). Este museo es uno de los mayores de ciencia y tecnología de todo el mundo, proporcionando acceso a casi 90.000 objetos, que van desde máquinas de vapor a cristalería fina y desde  alta costura a chips de ordenador.
+El Museo Powerhouse de Sydney ofreció la exportación gratuita de metadatos de su colección en su [sitio web](https://powerhouse.com.au/). Este museo es uno de los mayores de ciencia y tecnología de todo el mundo, proporcionando acceso a casi 90.000 objetos, que van desde máquinas de vapor a cristalería fina y desde  alta costura a chips de ordenador.
 
-Este museo ha estado divulgando activamente su colección en línea y haciendo que la mayoría de sus datos estén disponibles libremente. Desde el sitio web del museo, se puede descargar un archivo de texto separado por tabulaciones llamado *phm-collection.tsv*, que se puede abrir como una hoja de cálculo. El archivo descomprimido (58MB) contiene metadatos básicos (17 campos) para 75.823 objetos, publicados bajo una licencia [Creative Commons de Reconocimiento-Compartir-Igual 2.5](https://creativecommons.org/licenses/by-sa/2.5/es/). En este tutorial usaremos una copia de los datos que hemos archivado para descargarlos (en un momento). Esto asegura que si el Museo Powerhouse actualiza los datos, te seguirá siendo posible el seguir esta Lección.
+El museo dio a conocer activamente su colección en línea y puso la mayoría de sus datos a libre disposición. Anteriormente, se podía descargar del sitio web del museo un archivo de texto separado por tabuladores llamado `phm-collection.tsv` y abrirlo como hoja de cálculo. El archivo descomprimido (58MB) contiene metadatos básicos (17 campos) para 75.823 objetos, publicados bajo una licencia [Creative Commons de Reconocimiento-Compartir-Igual 2.5](https://creativecommons.org/licenses/by-sa/2.5/es/). En este tutorial usaremos una copia de los datos que hemos archivado para descargarlos (en un momento). Esto asegura que si el Museo Powerhouse actualiza los datos, te seguirá siendo posible el seguir esta Lección.
 
 A través del proceso de perfilado de datos y de limpieza, el estudio de caso se centrará específicamente en el campo `Categorías`, que se rellena con términos del Tesauro de nombres de objetos del museo Powerhouse (PONT). PONT reconoce el uso y la ortografía de Australia, y refleja de forma muy directa las fortalezas de la colección. En la colección encontrarás las mejores representaciones de la historia social y las artes decorativas y, en comparación, pocos nombres de objetos relacionados con las bellas artes y la historia natural.
 
@@ -72,7 +72,7 @@ Los términos del campo Categorías constituyen lo que llamamos un vocabulario c
 
 ### Comenzando: instalación de OpenRefine e importación de datos
 
-[Descarga *OpenRefine*](http://openrefine.org/#download_openrefine) y sigue las instrucciones de instalación. [*OpenRefine*] funciona en todas las plataformas: Windows, Mac y Linux. [*OpenRefine*] se abrirá en tu navegador, pero es importante señalar que la aplicación se ejecuta localmente y que tus datos no se almacenarán en línea. Los archivos de datos están disponibles en nuestro [sitio web FreeYourMetadata](http://data.freeyourmetadata.org/powerhouse-museum/), que serán los que se utilizarán a lo largo de este tutorial. Descarga el archivo *phm-collection.tsv* antes de continuar.
+[Descarga *OpenRefine*](http://openrefine.org/#download_openrefine) y sigue las instrucciones de instalación. [*OpenRefine*] funciona en todas las plataformas: Windows, Mac y Linux. [*OpenRefine*] se abrirá en tu navegador, pero es importante señalar que la aplicación se ejecuta localmente y que tus datos no se almacenarán en línea. Los archivos de datos están disponibles [en GitHub](/assets/phm-collection.tsv) o en nuestro [sitio web FreeYourMetadata](http://data.freeyourmetadata.org/powerhouse-museum/), que serán los que se utilizarán a lo largo de este tutorial. Descarga el archivo `phm-collection.tsv` antes de continuar.
 
 >Nota de la traductora: Open Refine se instala por defecto en inglés. Para usarlo en español sólo necesitas cambiar la configuración del lenguaje. Pulsa **Language settings** y se mostrará en la ventana un desplegable donde podrás escoger el español. Pulsa **Change language** y la página te dirá que necesita refrescarse para aplicar los cambios. Haz clic en **Aceptar** y la página y el resto del programa aparecerán en español.
 
@@ -80,7 +80,7 @@ En la página de inicio de *OpenRefine*, crea un nuevo proyecto utilizando el ar
 
 El conjunto de datos del museo Powerhouse está formado por metadatos detallados de todos los objetos de la colección, incluyendo título, descripción, varias categorías a las que pertenece el objeto, información de procedencia y un vínculo persistente al objeto en el sitio web del museo. Para tener una idea de a qué objeto corresponden los metadatos simplemente haz clic en el vínculo persistente y se abrirá el sitio web.[^2]
 
-{% include figure.html caption="Figura 1: Captura de pantalla de un Objeto de Muestra del sitio web del Museo Powerhouse" filename="powerhouseScreenshot.png" %}
+{% include figure.html caption="Figura 1: Captura de pantalla de un Objeto de Muestra del sitio web del Museo Powerhouse" filename="en-or-cleaning-data-with-openrefine-01.png" %}
 
 ### Conoce tus datos
 
@@ -160,7 +160,7 @@ Si sólo recordaras una cosa de esta lección, debería ser lo siguiente: *todos
 
 
 [*OpenRefine*]: http://openrefine.org "OpenRefine"
-[Powerhouse museum]: http://www.powerhousemuseum.com
+[Powerhouse museum]: https://powerhouse.com.au/
     "Powerhouse museum"
 [*Potter’s Wheel ABC*]: http://control.cs.berkeley.edu/abc/
     "Potter's Wheel ABC "
@@ -170,7 +170,7 @@ Si sólo recordaras una cosa de esta lección, debería ser lo siguiente: *todos
 [Library of Congress]: http://www.loc.gov/index.html
     "Library of Congress"
 [OCLC]: http://www.oclc.org/home.en.html "OCLC"
-[website]: http://www.powerhousemuseum.com/collection/database/download.php
+[website]: https://powerhouse.com.au/
     "website"
 [Creative Commons Attribution Share Alike (CCASA) license]: http://creativecommons.org/licenses/by-nc/2.5/au/
 [Controlled vocabulary]: http://en.wikipedia.org/wiki/Controlled_vocabulary
