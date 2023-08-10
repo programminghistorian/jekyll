@@ -166,7 +166,7 @@ object on the museum website. To get an idea of what object the metadata
 corresponds to, simply click the persistent link and the website will
 open.
 
-{% include figure.html filename="powerhouseScreenshot.png" caption="Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website" %}
+{% include figure.html filename="en-or-cleaning-data-with-openrefine-01.png" caption="Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website" %}
 
 ### Get to know your data
 
