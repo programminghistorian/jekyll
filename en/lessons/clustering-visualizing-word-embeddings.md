@@ -15,8 +15,8 @@ editors:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/415
 difficulty: 3
 activity: analyzing
-topics: [machine-learning, network-analysis]
-abstract: This lesson uses word embeddings and clustering to identify groups of similar documents in a corpus of approximately 9,000 academic abstracts. This lesson will also teach you the basics of dimensionality reduction to extract structure from a large corpus and to evaluate the results based on parameters for dimensionality and the hierarchal clustering algorithm.
+topics: [machine-learning, network-analysis, python]
+abstract: This lesson uses word embeddings and clustering algorithms in Python to identify groups of similar documents in a corpus of approximately 9,000 academic abstracts. This lesson will teach you the basics of dimensionality reduction for extracting structure from a large corpus and evaluating the results.
 avatar_alt: Drawing of a star-cluster
 lesson-partners: [Jisc, The National Archives]
 partnership-url: /jisc-tna-partnership
