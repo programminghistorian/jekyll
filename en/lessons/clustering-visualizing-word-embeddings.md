@@ -147,7 +147,7 @@ So we get *different* 'most similar' words depending on the training corpus, whi
 
 ### Required Libraries
 
-We have provided a [Google Colab notebook](https://nbviewer.org/github/programminghistorian/jekyll/blob/gh-pages/assets/clustering-visualizing-word-embeddings/clustering-visualizing-word-embeddings.ipynb) that allows you to run all of the code in this tutorial without needing to install anything on your own computer. A [Docker](https://www.docker.com/) image is also available and instructions for using it can be found [on GitHub](https://perma.cc/3JN9-JZN2). However, if you wish to run the code locally, in addition to the core 'data science' libraries of `numpy`, `pandas`, and `seaborn`, you will need to install several more specialised libraries:
+We have provided a [Google Colab notebook](https://nbviewer.org/github/programminghistorian/jekyll/blob/gh-pages/assets/clustering-visualizing-word-embeddings/clustering-visualizing-word-embeddings.ipynb) that allows you to run all of the code in this tutorial without needing to install anything on your own computer.[^1] However, if you wish to run the code locally, in addition to the core 'data science' libraries of `numpy`, `pandas`, and `seaborn`, you will need to install several more specialised libraries:
 
 - For the derivation of Word or Document Embeddings, you will need [`gensim`](https://radimrehurek.com/gensim/), but we have performed this step already
 - For the dimensionality reduction, you need [`umap-learn`](https://umap-learn.readthedocs.io/en/latest/)
@@ -846,3 +846,7 @@ We hope that this tutorial has illustrated some of the potential power of combin
 - Tobler, W. R. (1970), “A computer movie simulating urban growth in the Detroit region”, *Economic Geography*, 46:234-240.
 - Hashimoto, T. B. and Alvarez-Melis, D. and  Jaakkola, T. S. (2016), “[Word Embeddings as Metric Recovery in Semantic Spaces](https://aclanthology.org/Q16-1020)”, *Transactions of the Association for Computational Linguistics*, 4:273–286.
 - Tshitoyan, V. and Dagdelen, J. and Weston, L. and Dunn, A. and Rong, Z. and Kononova, O. and Persson, K. A. and Ceder, G. and Jain, A. (2019), “[Unsupervised word embeddings capture latent knowledge from materials science literature](https://doi.org/10.1038/s41586-019-1335-8)”, *Nature* 571:95-98.
+
+## Notes
+
+[^1]: A [Docker](https://www.docker.com/) image is also available and instructions for using it can be found [on Jonathan Reades's GitHub](https://perma.cc/3JN9-JZN2).
