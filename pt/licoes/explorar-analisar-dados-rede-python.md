@@ -105,10 +105,10 @@ George Keith,William Penn
 Agora que fez o download dos dados *quakers* e viu como estão estruturados, está na hora de começar a trabalhar com esses dados no Python. Assim que tanto o Python como o pip estiverem instalados (ver Pré-Requisitos, acima), quererá instalar o NetworkX, digitando isto na sua [linha de comandos](/en/lessons/intro-to-bash) (em inglês):[^4]
 
 ```python
-pip3 install networkx==2.4
+pip3 install networkx==3.1
 ```
 
-Recentemente, o NetworkX atualizou para a versão 2.0. Se estiver a encontrar problemas com o código abaixo e tiver trabalhado com o NetworkX antes, pode tentar atualizar o pacote acima com `pip3 install networkx==2.4 --upgrade`[^5].
+Recentemente, o NetworkX atualizou para a versão 2.0. Se estiver a encontrar problemas com o código abaixo e tiver trabalhado com o NetworkX antes, pode tentar atualizar o pacote acima com `pip3 install networkx==3.1 --upgrade`[^5].
 
 Está feito! Está preparado para começar a codificar.
 
@@ -179,7 +179,7 @@ Esta é uma de várias maneiras de adicionar dados a um objeto rede. O leitor po
 Finalmente, o leitor pode obter informação básica sobre a sua rede recém-criada usando a função `info`:
 
 ```python
-print(nx.info(G))
+print(G)
 ```
 
 A função `info` dá uma lista de cinco itens como _output_: o nome do seu grafo (que estará em branco no nosso caso), o seu tipo, o número de nós, o número de _edges_, e o grau médio[^7] na rede. O _output_ deve ser parecido a este:
@@ -222,7 +222,7 @@ print(len(edges))
 G = nx.Graph() # Inicialize um objeto Grafo
 G.add_nodes_from(node_names) # Adicione nós ao Grafo
 G.add_edges_from(edges) # Adicione edges ao Grafo
-print(nx.info(G)) # Obtenha informação sobre o Grafo
+print(G) # Obtenha informação sobre o Grafo
 ```
 
 Até agora, o leitor leu dados de nós e de *edges* no Python a partir de ficheiros CSV, e, depois, contou esses nós e *edges*. Depois disso, o leitor criou um objeto grafo usando o NetworkX e carregou os seus dados para esse objeto.
