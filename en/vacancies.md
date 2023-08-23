@@ -49,6 +49,6 @@ Managing Editor Alex Wermer-Colan (Temple University) and Publishing Manager Ani
   
 ## Applications  
 
-Interested candidates should submit a 1-page expression of interest outlining your interests, experience and skills to the <a href="mailto:english@programminghistorian.org ">Managing Editor, Alex Wermer-Colan</a>, by 15 October 2023. 
+Interested candidates should submit a 1-page CV and a ~300-word expression of interest outlining your interests, experience and skills to the <a href="mailto:english@programminghistorian.org ">Managing Editor, Alex Wermer-Colan</a>, by 15 October 2023. 
 
 If you’d like to ask any questions about this role, please write to <a href="mailto:english@programminghistorian.org ">the Managing Editor, Alex Wermer-Colan</a> or our <a href="mailto:admin@programminghistorian.org "> Publishing Manager, Anisa Hawes</a>. 
