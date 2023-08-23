@@ -46,7 +46,7 @@ Additional opportunities include:
 - Troubleshooting reported errors, and contributing to lesson maintenance
 - Collaborating with others in the _Programming Historian_ Project Team on academic research and presentations
 
-Managing Editor Alex Wermer-Colan (Temple University) and Publishing Manager Anisa Hawes will offer training and support to new editors on the _Programming Historian_’s editorial approaches and policies. In keeping with our [commitment to diversity](https://programminghistorian.org/en/about#diversity-policy) and access to digital humanities, we are particularly interested in hearing from women, members of any minority groups, LGBTQ+ members, and peoples from the Global South. With this call, we strongly encourage the participation of Anglophone and multilingual communities beyond North America. 
+Managing Editor Alex Wermer-Colan (Temple University) and Publishing Manager Anisa Hawes will offer training and support to new editors on the _Programming Historian_’s editorial approaches and policies. In keeping with our [commitment to diversity](/en/about#diversity-policy) and access to digital humanities, we are particularly interested in hearing from women, members of any minority groups, LGBTQ+ members, and peoples from the Global South. With this call, we strongly encourage the participation of Anglophone and multilingual communities beyond North America. 
   
 ## Applications  
 
