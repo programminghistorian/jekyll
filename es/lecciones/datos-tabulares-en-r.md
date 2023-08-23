@@ -540,7 +540,7 @@ Ahora que has cargado datos en R y conoces algunas formas de trabajar con los da
 > library(xlsx)
 > write.xlsx(x= OldBailey, file= "OldBailey.xlsx", sheetName= "OldBailey", row.names= TRUE)
 ```
-En este caso, y dentro del paréntesis de esta la función [write.xlsx](https://www.rdocumentation.org/packages/xlsx/versions/0.6.1/topics/write.xlsx), estamos llamando a procesar la variable “OldBailey” con el argumento <code class="highlighter-rouge">x= </code>; a la vez, indicamos que el archivo guardado debe llamarse “OldBailey” con la extensión “.xlsx” mediante el argumento <code class="highlighter-rouge">file=</code>; además, damos el nombre "OldBailey" a la hoja de cálculo en que estarán los datos mediante <code class="highlighter-rouge">sheetName= </code>  y, finalmente, establecemos que sí queremos (TRUE o verdadero) que los nombres de la fila en nuestra variable se guarden en el nuevo archivo. [N. de la T.]
+En este caso, y dentro del paréntesis de esta la función [write.xlsx](https://www.rdocumentation.org/packages/xlsx/versions/0.6.5), estamos llamando a procesar la variable “OldBailey” con el argumento <code class="highlighter-rouge">x= </code>; a la vez, indicamos que el archivo guardado debe llamarse “OldBailey” con la extensión “.xlsx” mediante el argumento <code class="highlighter-rouge">file=</code>; además, damos el nombre "OldBailey" a la hoja de cálculo en que estarán los datos mediante <code class="highlighter-rouge">sheetName= </code>  y, finalmente, establecemos que sí queremos (TRUE o verdadero) que los nombres de la fila en nuestra variable se guarden en el nuevo archivo. [N. de la T.]
 
 ## Resumen y siguientes pasos
 
