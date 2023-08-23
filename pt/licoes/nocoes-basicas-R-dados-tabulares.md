@@ -546,7 +546,7 @@ Agora que carregamos dados em R e conhecemos algumas maneiras de trabalhar com o
 > write.xlsx(x= OldBailey, file= "OldBailey.xlsx", sheetName= "OldBailey", row.names= TRUE)
 ```
 
-Neste caso, e dentro do parêntese desta função [write.xlsx](https://www.rdocumentation.org/packages/xlsx/versions/0.6.1/topics/write.xlsx), estamos chamando para processar a variável "OldBailey" com o argumento <code class="highlighter-rouge">x= </code>. Ao mesmo tempo, indicamos que o ficheiro salvo deve ser chamado “OldBailey” com a extensão “.xlsx” com o argumento <code class="highlighter-rouge">file= </code>. Além disso, damos o nome "OldBailey" à planilha onde estarão os dados com <code class="highlighter-rouge">sheetName= </code>. Finalmente, estabelecemos que queremos (TRUE ou verdadeiro) que os nomes da linha em nossa variável sejam salvos no novo ficheiro. [N. da T.]
+Neste caso, e dentro do parêntese desta função [write.xlsx](https://www.rdocumentation.org/packages/xlsx/versions/0.6.5), estamos chamando para processar a variável "OldBailey" com o argumento <code class="highlighter-rouge">x= </code>. Ao mesmo tempo, indicamos que o ficheiro salvo deve ser chamado “OldBailey” com a extensão “.xlsx” com o argumento <code class="highlighter-rouge">file= </code>. Além disso, damos o nome "OldBailey" à planilha onde estarão os dados com <code class="highlighter-rouge">sheetName= </code>. Finalmente, estabelecemos que queremos (TRUE ou verdadeiro) que os nomes da linha em nossa variável sejam salvos no novo ficheiro. [N. da T.]
 
 ## Resumo e passos seguintes
 
