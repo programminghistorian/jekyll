@@ -10,10 +10,9 @@ The English edition of the _Programming Historian_ is seeking editors to work ac
 
 ## Key information
 
-- Salary: Voluntary
+- Salary: Volunteer Opportunity
 - Hours: ~0.5 days per fortnight
 - Location: Remote home working
-
 - Applications open: 23 August 2023
 - Applications close: 15 October 2023
 
