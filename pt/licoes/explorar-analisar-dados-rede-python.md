@@ -31,6 +31,9 @@ topics: [network-analysis]
 abstract: Esta lição introduz métricas de rede e como tirar conclusões das mesmas quando se trabalha com dados de Humanidades. O leitor aprenderá como usar o pacote NetworkX do Python para produzir e trabalhar com estas estatísticas de rede.
 avatar_alt: Caminhos-de-ferro intrincados
 doi: 10.46430/phpt0041
+modified: 2023-08-25
+lesson_testers: John R. Ladd
+tested_date: 2023-08-21
 ---
 
 {% include toc.html %}
