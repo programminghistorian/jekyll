@@ -25,6 +25,9 @@ abstract: "This lesson introduces network metrics and how to draw conclusions fr
 redirect_from: /lessons/exploring-and-analyzing-network-data-with-python
 avatar_alt: Train tracks intersecting
 doi: 10.46430/phen0064
+modified: 2023-08-25
+lesson_testers: John R. Ladd
+tested_date: 2023-08-21
 ---
 
 {% include toc.html %}
@@ -99,10 +102,10 @@ George Keith,William Penn
 Now that you've downloaded the Quaker data and had a look at how it's structured, it's time to begin working with that data in Python. Once both Python and pip are installed (see Prerequisites, above) you'll want to install NetworkX, by typing this into your [command line](/lessons/intro-to-bash):[^pip]
 
 ```
-pip3 install networkx==2.4
+pip3 install networkx==3.1
 ```
 
-Recently, NetworkX updated to version 2.0. If you're running into any problems with the code below and have worked with NetworkX before, you might try updating the above package with `pip3 install networkx==2.4 --upgrade`.
+A quick note on versioning: this tutorial uses NetworkX 3.1, but the library is in active development and is updated frequently. We recommend using the installation command above to ensure your version of NetworkX matches the code below (rather than simply installing the latest version). If you have an older version of NetworkX already installed, you should run `pip3 install networkx==3.1 --upgrade` before trying the tutorial.
 
 And that's it! You're ready to start coding.
 
@@ -168,13 +171,13 @@ G.add_edges_from(edges)
 
 This is one of several ways to add data to a network object. You can check out the [NetworkX documentation](https://networkx.github.io/documentation/stable/tutorial.html#adding-attributes-to-graphs-nodes-and-edges) for information about adding weighted edges, or adding nodes and edges one-at-a-time.
 
-Finally, you can get basic information about your newly-created network using the `info` function:
+Finally, you can get basic information about your newly-created network by printing the `G` variable:
 
 ```python
-print(nx.info(G))
+print(G)
 ```
 
-The `info` function gives five items as output: the name of your graph (which will be blank in our case), its type, the number of nodes, the number of edges, and the average degree[^averagedegree] in the network. The output should look like this:
+This tells you your network's type (in this case, it's a standard Graph object) and the number of nodes and edges in the network. The output should look like this:
 
 ```
 Name:
@@ -214,7 +217,7 @@ print(len(edges))
 G = nx.Graph() # Initialize a Graph object
 G.add_nodes_from(node_names) # Add nodes to the Graph
 G.add_edges_from(edges) # Add edges to the Graph
-print(nx.info(G)) # Print information about the Graph
+print(G) # Print information about the Graph
 ```
 
 So far, you've read node and edge data into Python from CSV files, and then you counted those nodes and edges. After that you created a Graph object using NetworkX and loaded your data into that object.
@@ -581,7 +584,5 @@ Each of these findings is an invitation to more research rather than an endpoint
 [^overall]: Though we won't cover it in this tutorial, it's usually a good idea to get the global modularity score first to determine whether you'll learn anything by partitioning your network according to modularity. To see the overall modularity score, take the communities you calculated with `communities = community.best_partition(G)` and run `global_modularity = community.modularity(communities, G)`. Then just `print(global_modularity)`.
 
 [^pipinstall]: In many (but not all) cases, `pip` or `pip3` will be installed automatically with Python3.
-
-[^averagedegree]: Average degree is the average number of connections of each node in your network. See more on degree in the centrality section of this tutorial.
 
 [^random]: The most principled way of doing this kind of comparison is to create *random graphs* of identical size to see if the metrics differ from the norm. NetworkX offers plenty of tools for [generating random graphs](https://networkx.github.io/documentation/stable/reference/generators.html#module-networkx.generators.random_graphs).

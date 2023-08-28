@@ -31,6 +31,9 @@ topics: [network-analysis]
 abstract: Esta lição introduz métricas de rede e como tirar conclusões das mesmas quando se trabalha com dados de Humanidades. O leitor aprenderá como usar o pacote NetworkX do Python para produzir e trabalhar com estas estatísticas de rede.
 avatar_alt: Caminhos-de-ferro intrincados
 doi: 10.46430/phpt0041
+modified: 2023-08-25
+lesson_testers: John R. Ladd
+tested_date: 2023-08-21
 ---
 
 {% include toc.html %}
@@ -105,10 +108,10 @@ George Keith,William Penn
 Agora que fez o download dos dados *quakers* e viu como estão estruturados, está na hora de começar a trabalhar com esses dados no Python. Assim que tanto o Python como o pip estiverem instalados (ver Pré-Requisitos, acima), quererá instalar o NetworkX, digitando isto na sua [linha de comandos](/en/lessons/intro-to-bash) (em inglês):[^4]
 
 ```python
-pip3 install networkx==2.4
+pip3 install networkx==3.1
 ```
 
-Recentemente, o NetworkX atualizou para a versão 2.0. Se estiver a encontrar problemas com o código abaixo e tiver trabalhado com o NetworkX antes, pode tentar atualizar o pacote acima com `pip3 install networkx==2.4 --upgrade`[^5].
+Uma nota curta sobre controle de versão: este tutorial usa NetworkX 3.1, mas a biblioteca está em desenvolvimento ativo e é atualizada com frequência. Recomendamos usar o comando de instalação acima para garantir que a sua versão do NetworkX corresponde ao código abaixo (em vez de simplesmente instalar a versão mais recente). Se já tiver uma versão mais antiga do NetworkX instalada, execute `pip3 install networkx==3.1 --upgrade` antes de tentar o tutorial[^5].
 
 Está feito! Está preparado para começar a codificar.
 
@@ -179,10 +182,10 @@ Esta é uma de várias maneiras de adicionar dados a um objeto rede. O leitor po
 Finalmente, o leitor pode obter informação básica sobre a sua rede recém-criada usando a função `info`:
 
 ```python
-print(nx.info(G))
+print(G)
 ```
 
-A função `info` dá uma lista de cinco itens como _output_: o nome do seu grafo (que estará em branco no nosso caso), o seu tipo, o número de nós, o número de _edges_, e o grau médio[^7] na rede. O _output_ deve ser parecido a este:
+A função `info` informa o tipo da sua rede (neste caso, é um objeto Graph padrão) e o número de nós e arestas na mesma. O _output_ deve ser parecido a este:
 
 ```
 Name:
@@ -222,7 +225,7 @@ print(len(edges))
 G = nx.Graph() # Inicialize um objeto Grafo
 G.add_nodes_from(node_names) # Adicione nós ao Grafo
 G.add_edges_from(edges) # Adicione edges ao Grafo
-print(nx.info(G)) # Obtenha informação sobre o Grafo
+print(G) # Obtenha informação sobre o Grafo
 ```
 
 Até agora, o leitor leu dados de nós e de *edges* no Python a partir de ficheiros CSV, e, depois, contou esses nós e *edges*. Depois disso, o leitor criou um objeto grafo usando o NetworkX e carregou os seus dados para esse objeto.
@@ -231,7 +234,7 @@ Até agora, o leitor leu dados de nós e de *edges* no Python a partir de fichei
 
 Para o NetworkX, um objeto grafo é uma coisa grande (a sua rede) composta por dois tipos de coisas mais pequenas (os seus nós e as suas *edges*). Até agora, o leitor carregou nós e *edges* (como pares de nós), mas o NetworkX permite-lhe adicionar *atributos* tanto aos nós como às *edges*, providenciando mais informação sobre cada um deles. Mais à frente neste tutorial, o leitor executará métricas e adicionará alguns dos resultados de volta ao Grafo como atributos. Por agora, vamos certificar-nos que o seu Grafo contém todos os atributos que estão atualmente no seu CSV.
 
-O leitor quererá retornar a uma lista que criou no início do seu *script*: `nodes`. Esta lista contém todas as linhas do `quakers_nodelist.csv`, incluindo colunas para o *name*, a *historical significance*, o *gender*, o *birth year*, o *death year* e o SDFB ID. O leitor quererá iterar por esta lista e adicionar esta informação ao nosso grafo. Existem algumas maneiras de fazer isto, mas o NetworkX providencia duas funções convenientes para adicionar atributos a todos os nós e *edges* dum Grafo duma só vez: `nx.set_node_attributes()` e `nx.set_edge_attributes()`. Para usar estas funções, o leitor irá precisar que os seus dados de atributos estejam na forma dum *dicionário* Python, no qual os nomes dos nós são as *chaves* e os atributos que quer adicionar são os *valores*[^8]. O leitor quererá criar um dicionário para cada um dos seus atributos, e, depois, adicioná-los usando as funções acima. A primeira coisa que o leitor deve fazer é criar cinco dicionários em branco, usando chavetas:
+O leitor quererá retornar a uma lista que criou no início do seu *script*: `nodes`. Esta lista contém todas as linhas do `quakers_nodelist.csv`, incluindo colunas para o *name*, a *historical significance*, o *gender*, o *birth year*, o *death year* e o SDFB ID. O leitor quererá iterar por esta lista e adicionar esta informação ao nosso grafo. Existem algumas maneiras de fazer isto, mas o NetworkX providencia duas funções convenientes para adicionar atributos a todos os nós e *edges* dum Grafo duma só vez: `nx.set_node_attributes()` e `nx.set_edge_attributes()`. Para usar estas funções, o leitor irá precisar que os seus dados de atributos estejam na forma dum *dicionário* Python, no qual os nomes dos nós são as *chaves* e os atributos que quer adicionar são os *valores*[^7]. O leitor quererá criar um dicionário para cada um dos seus atributos, e, depois, adicioná-los usando as funções acima. A primeira coisa que o leitor deve fazer é criar cinco dicionários em branco, usando chavetas:
 
 ```python
 hist_sig_dict = {}
@@ -241,7 +244,7 @@ death_dict = {}
 id_dict = {}
 ```
 
-Agora nós podemos fazer o *loop* através da nossa lista de `nodes` e adicionar os itens apropriados a cada dicionário. Nós fazemos isto sabendo antecipadamente a posição, ou *índice*, de cada atributo. Porque o nosso ficheiro `quaker_nodelist.csv` está bem organizado, nós sabemos que o *name* da pessoa será sempre o primeiro item no lista: índice 0, visto que começamos sempre a contar do 0 no Python. A *historical significance* da pessoa será o índice 1, o seu *gender* será o índice 2, e assim por diante. Portanto, nós podemos construir os nossos dicionários desta forma[^9]:
+Agora nós podemos fazer o *loop* através da nossa lista de `nodes` e adicionar os itens apropriados a cada dicionário. Nós fazemos isto sabendo antecipadamente a posição, ou *índice*, de cada atributo. Porque o nosso ficheiro `quaker_nodelist.csv` está bem organizado, nós sabemos que o *name* da pessoa será sempre o primeiro item no lista: índice 0, visto que começamos sempre a contar do 0 no Python. A *historical significance* da pessoa será o índice 1, o seu *gender* será o índice 2, e assim por diante. Portanto, nós podemos construir os nossos dicionários desta forma[^8]:
 
 ```python
 for node in nodes: # Itere pela lista, uma linha de cada vez
@@ -331,7 +334,7 @@ Após ver a aparência do *dataset*, é importante ver a aparência da *rede*. E
 
 O formato e as propriedades básicas da rede irão dar-lhe uma ideia sobre com o que está a trabalhar e que análises parecem razoáveis. O leitor já sabe o número de nós e de *edges*, mas a que a rede se 'assemelha'? Os nós agrupam-se, ou estão espalhados de forma regular? Existem estruturas complexas, ou cada nó está organizado numa linha reta?
 
-A visualização abaixo, criada na ferramenta de visualização de redes [Gephi](https://gephi.org/), lhe dará uma ideia da Topologia desta rede[^10]. O leitor poderia criar um gráfico similar no Palladio usando [este tutorial](/en/lessons/creating-network-diagrams-from-historical-sources) (em inglês).
+A visualização abaixo, criada na ferramenta de visualização de redes [Gephi](https://gephi.org/), lhe dará uma ideia da Topologia desta rede[^9]. O leitor poderia criar um gráfico similar no Palladio usando [este tutorial](/en/lessons/creating-network-diagrams-from-historical-sources) (em inglês).
 
 {% include figure.html filename="exploring-and-analyzing-network-data-with-python-1.png" alt="Imagem com uma representação de um gráfico de redes" caption="Visualização de rede baseada em força dos dados *quakers*, criado no Gephi." %}
 
@@ -350,7 +353,7 @@ density = nx.density(G)
 print("Network density:", density)
 ```
 
-O *output* da densidade é um número, então é isso que o leitor verá quando imprimir o valor. Neste caso, a densidade da nossa rede é, aproximadamente, 0.0248. Numa escala de 0 a 1, não é uma rede muito densa, o que confere com o que o leitor consegue ver na visualização[^11]. Um 0 significaria que não existem quaisquer conexões de todo, e um 1 indicaria que todas as *edges possíveis* estão presentes (uma rede perfeitamente conectada): esta rede *quaker* está na extremidade inferior dessa escala, mas, mesmo assim, longe do 0.
+O *output* da densidade é um número, então é isso que o leitor verá quando imprimir o valor. Neste caso, a densidade da nossa rede é, aproximadamente, 0.0248. Numa escala de 0 a 1, não é uma rede muito densa, o que confere com o que o leitor consegue ver na visualização[^10]. Um 0 significaria que não existem quaisquer conexões de todo, e um 1 indicaria que todas as *edges possíveis* estão presentes (uma rede perfeitamente conectada): esta rede *quaker* está na extremidade inferior dessa escala, mas, mesmo assim, longe do 0.
 
 Uma medida de caminho mais curta é um pouco mais complexa. Ela calcula a série mais curta possível de nós e *edges* que se situam entre quaisquer dois nós, algo difícil de ver em visualizações de grandes redes. Esta medida corresponde, essencialmente, a encontrar amigos de amigos---se a minha mãe conhece alguém que eu não conheço, então a minha mãe é o caminho mais curto entre mim e essa pessoa. O jogo *Six Degrees of Kevin Bacon*, a partir do qual o [nosso projeto](http://sixdegreesoffrancisbacon.com/) (em inglês) retira o nome, é basicamente um jogo que consiste em encontrar os caminhos mais curtos (com um **comprimento de caminho** de seis ou menos) de Kevin Bacon a qualquer outro ator.
 
@@ -364,7 +367,7 @@ print("Shortest path between Fell and Whitehead:", fell_whitehead_path)
 
 Dependendo do tamanho da sua rede, isto pode demorar algum tempo para calcular, visto que o Python primeiro encontra todos os caminhos possíveis e depois escolhe o mais curto. O *output* de `shortest_path` será uma lista dos nós que incluí a "source" (Fell), o "target" (Whitehead), e os nós entre eles. Neste caso, nós podemos ver que o fundador dos *quakers*, George Fox, se encontra no caminho mais curto entre eles. Como Fox é também um ***hub*** (ver centralidade de grau, abaixo) com muitas conexões, nós podemos supor que vários caminhos mais curtos passam por ele como mediador. O que é que isto pode indicar sobre a importância dos fundadores dos *quakers* para a sua rede social?
 
-O Python incluí várias ferramentas que calculam os caminhos mais curtos. Existem funções para os comprimentos dos caminhos mais curtos, para todos os caminhos mais curtos, e para saber se um caminho existe ou não de todo na [documentação](https://perma.cc/3MJE-7MQQ) (em inglês). O leitor poderia usar uma função separada para encontrar o comprimento do caminho *Fell-Whitehead* que acabámos de calcular, ou poderia simplesmente tomar o comprimento da lista menos um[^12], assim:
+O Python incluí várias ferramentas que calculam os caminhos mais curtos. Existem funções para os comprimentos dos caminhos mais curtos, para todos os caminhos mais curtos, e para saber se um caminho existe ou não de todo na [documentação](https://perma.cc/3MJE-7MQQ) (em inglês). O leitor poderia usar uma função separada para encontrar o comprimento do caminho *Fell-Whitehead* que acabámos de calcular, ou poderia simplesmente tomar o comprimento da lista menos um[^11], assim:
 
 ```python
 print("Length of that path:", len(fell_whitehead_path)-1)
@@ -395,11 +398,11 @@ diameter = nx.diameter(subgraph)
 print("Network diameter of largest component:", diameter)
 ```
 
-Como nós tomámos o componente mais largo, nós podemos assumir que não há nenhum diâmetro mais largo para os outros componentes. Portanto, esta figura é uma boa representação para o diâmetro de todo o Grafo. O diâmetro de rede do componente mais largo desta rede é 8: existe um comprimento de rede de 8 entre os dois nós mais afastados na rede. Ao contrário da densidade, que é apresentada de 0 a 1, é difícil saber a partir deste número somente se 8 é um diâmetro largo ou curto. Para algumas métricas globais, pode ser melhor compará-lo a redes de tamanho e forma similar[^13].
+Como nós tomámos o componente mais largo, nós podemos assumir que não há nenhum diâmetro mais largo para os outros componentes. Portanto, esta figura é uma boa representação para o diâmetro de todo o Grafo. O diâmetro de rede do componente mais largo desta rede é 8: existe um comprimento de rede de 8 entre os dois nós mais afastados na rede. Ao contrário da densidade, que é apresentada de 0 a 1, é difícil saber a partir deste número somente se 8 é um diâmetro largo ou curto. Para algumas métricas globais, pode ser melhor compará-lo a redes de tamanho e forma similar[^12].
 
 O cálculo estrutural final que o leitor fará nesta rede concerne o conceito de **fechamento triádico**. Fechamento triádico supõe que se duas pessoas conhecem a mesma pessoa, elas provavelmente conhecem-se mutuamente. Se Fox conhece tanto Fell como Whitehead, então Fell e Whitehead podem perfeitamente conhecer-se mutuamente, completando um **triângulo** na visualização de três *edges* conectando Fox, Fell e Whitehead. O número destes triângulos fechados na rede pode ser usado para descobrir aglomerados e comunidades de indivíduos que se conhecem todos intimamente.
 
-Uma forma de medir o fechamento triádico é o chamado **coeficiente de aglomeração** por causa desta tendência aglomeradora, mas a medida estrutural de rede que o leitor aprenderá é conhecida como **transitividade**[^14]. Transitividade é o rácio de todos os triângulos sobre todos os triângulos possíveis. Um triângulo possível existe quando uma pessoa (Fox) conhece duas pessoas (Fell e Whitehead). Então, transitividade, como a densidade, expressa quão interconectado um grafo é em termos dum rácio de conexões reais sobre as possíveis. Lembre-se, medidas como a transitividade e a densidade lidam com *probabilidades* e não com *certezas*. Todos os *outputs* do seu *script* no Python devem ser interpretados, como qualquer outro objeto de pesquisa. A transitividade permite-lhe uma forma de pensar sobre todas as relações no seu grafo que *podem* existir, mas que, atualmente, não existem.
+Uma forma de medir o fechamento triádico é o chamado **coeficiente de aglomeração** por causa desta tendência aglomeradora, mas a medida estrutural de rede que o leitor aprenderá é conhecida como **transitividade**[^13]. Transitividade é o rácio de todos os triângulos sobre todos os triângulos possíveis. Um triângulo possível existe quando uma pessoa (Fox) conhece duas pessoas (Fell e Whitehead). Então, transitividade, como a densidade, expressa quão interconectado um grafo é em termos dum rácio de conexões reais sobre as possíveis. Lembre-se, medidas como a transitividade e a densidade lidam com *probabilidades* e não com *certezas*. Todos os *outputs* do seu *script* no Python devem ser interpretados, como qualquer outro objeto de pesquisa. A transitividade permite-lhe uma forma de pensar sobre todas as relações no seu grafo que *podem* existir, mas que, atualmente, não existem.
 
 O leitor pode calcular a transitividade numa só linha, da mesma forma que calculou a densidade:
 
@@ -443,7 +446,7 @@ for d in sorted_degree[:20]:
     print(d)
 ```
 
-Como o leitor pode ver, o grau de Penn é 18, relativamente elevado para esta rede. Mas digitar estas informações de classificação ilustra as limitações do grau como uma medida de centralidade. O leitor provavelmente não precisava que o NetworkX lhe dissesse que William Penn, líder *quaker* e fundador da Pensilvânia, era importante. A maioria das redes sociais terão somente alguns *hubs* de grau muito elevado, com o resto de grau similar e baixo[^15]. O grau pode informá-lo sobre os maiores *hubs*, mas não pode dizer-lhe muito sobre o resto dos nós. E, em muitos casos, esses *hubs* sobre os quaiso está a informar (como o Penn ou como a cofundadora do Quakerismo, Margaret Fell, com um grau de 13) não são especialmente surpreendentes. Neste caso, quase todos os *hubs* são fundadores da religião ou, noutros casos, figuras políticas importantes.
+Como o leitor pode ver, o grau de Penn é 18, relativamente elevado para esta rede. Mas digitar estas informações de classificação ilustra as limitações do grau como uma medida de centralidade. O leitor provavelmente não precisava que o NetworkX lhe dissesse que William Penn, líder *quaker* e fundador da Pensilvânia, era importante. A maioria das redes sociais terão somente alguns *hubs* de grau muito elevado, com o resto de grau similar e baixo[^14]. O grau pode informá-lo sobre os maiores *hubs*, mas não pode dizer-lhe muito sobre o resto dos nós. E, em muitos casos, esses *hubs* sobre os quaiso está a informar (como o Penn ou como a cofundadora do Quakerismo, Margaret Fell, com um grau de 13) não são especialmente surpreendentes. Neste caso, quase todos os *hubs* são fundadores da religião ou, noutros casos, figuras políticas importantes.
 
 Felizmente, existem outras medidas de centralidade que lhe podem dizer mais do que só os *hubs*. A [centralidade adjacente](https://perma.cc/VF28-JDCR) (em inglês) é um tipo de extensão do grau---analisa uma combinação dos *edges* dum nó e as *edges* dos vizinhos desse nó. Centralidade adjacente preocupa-se se um nó é um *hub*, mas também se preocupa com quantos *hubs* um nó está conectado. É calculado como um valor de 0 a 1: quanto mais próximo do um, maior a centralidade. A centralidade adjacente é útil para compreender que nós podem obter informação a outros nós rapidamente. Se o leitor conhece muitas pessoas bem-conectadas, poderia espalhar uma mensagem muito eficientemente. Se o leitor usou o Google, então está já mais ou menos familiarizado com a centralidade adjacente. O seu algoritmo de PageRank usa uma extensão desta fórmula para decidir que páginas de internet são colocadas no topo da lista de resultados.
 
@@ -488,7 +491,7 @@ Isto aborda somente a superfície do que pode ser feito com métricas de rede no
 
 ## Noções Avançadas do NetworkX: Deteção de Comunidades com Modularidade
 
-Outra coisa regularmente questionada sobre o *dataset* duma rede é quais são os subgrupos e comunidades dentro da estrutura social mais larga. A sua rede é uma família grande e feliz na qual todos se conhecem? Ou é uma coleção de subgrupos mais pequenos que estão conectados por um ou dois intermediários? O campo da deteção de comunidades em redes está desenhado para responder a estas questões. Existem várias formas de calcular comunidades, cliques, e aglomerados na sua rede, mas o método mais popular atualmente é a **modularidade**. A modularidade é uma medida de densidade relativa na sua rede: uma comunidade (chamada um **módulo** ou **classe** modular) tem uma densidade elevada em relação a outros nós dentro do seu módulo, mas densidade baixa com os outros de fora. A modularidade dá-lhe uma pontuação geral de quão fracioanda a sua rede é, e essa pontuação pode ser usada para **repartir** a rede e evidenciar as comunidades individuais[^16].
+Outra coisa regularmente questionada sobre o *dataset* duma rede é quais são os subgrupos e comunidades dentro da estrutura social mais larga. A sua rede é uma família grande e feliz na qual todos se conhecem? Ou é uma coleção de subgrupos mais pequenos que estão conectados por um ou dois intermediários? O campo da deteção de comunidades em redes está desenhado para responder a estas questões. Existem várias formas de calcular comunidades, cliques, e aglomerados na sua rede, mas o método mais popular atualmente é a **modularidade**. A modularidade é uma medida de densidade relativa na sua rede: uma comunidade (chamada um **módulo** ou **classe** modular) tem uma densidade elevada em relação a outros nós dentro do seu módulo, mas densidade baixa com os outros de fora. A modularidade dá-lhe uma pontuação geral de quão fracioanda a sua rede é, e essa pontuação pode ser usada para **repartir** a rede e evidenciar as comunidades individuais[^15].
 
 Redes muito densas são geralmente mais difíceis de dividir em repartições sensatas. Felizmente, como o leitor descobriu anteriormente, esta rede não é assim tão densa. Não existem tantas conexões reais quanto conexões possíveis, e existem componentes desconectados de todo. Vale a pena repartir esta rede esparsa com modularidade e ver se os resultados fazem sentido histórico e analítico.
 
@@ -527,9 +530,9 @@ for node in class0_sorted_by_eigenvector[:5]:
     print("Name:", node[0], "| Eigenvector Centrality:", node[1])
 ```
 
-Usando a centralidade adjacente como um *ranking* pode dar-lhe uma ideia das pessoas importantes nesta classe modular. O leitor notará que algumas destas pessoas, especialmente William Penn, William Bradford (*não* o fundador de Plymouth em que estará a pensar[^17]) e James Logan, passaram muito tempo na América. Também, Bradford e Tace Sowle eram ambos impressores *quakers* proeminentes. Com um pouco de pesquisa, nós podemos descobrir que existem tanto razões geográficas como ocupacionais que explicam que este grupo de pessoas se juntem. Isto é uma indicação de que a modularidade está a trabalhar como esperado.
+Usando a centralidade adjacente como um *ranking* pode dar-lhe uma ideia das pessoas importantes nesta classe modular. O leitor notará que algumas destas pessoas, especialmente William Penn, William Bradford (*não* o fundador de Plymouth em que estará a pensar[^16]) e James Logan, passaram muito tempo na América. Também, Bradford e Tace Sowle eram ambos impressores *quakers* proeminentes. Com um pouco de pesquisa, nós podemos descobrir que existem tanto razões geográficas como ocupacionais que explicam que este grupo de pessoas se juntem. Isto é uma indicação de que a modularidade está a trabalhar como esperado.
 
-Em redes mais pequenas como esta, uma tarefa comum é encontrar e listar todas as classes modulares e seus membros[^18]. O leitor pode fazer isto ao percorrer pela lista `communities`:
+Em redes mais pequenas como esta, uma tarefa comum é encontrar e listar todas as classes modulares e seus membros[^17]. O leitor pode fazer isto ao percorrer pela lista `communities`:
 
 ```python
 for i,c in enumerate(communities): # Itere pela lista de comunidades
@@ -555,7 +558,7 @@ Exportar dados é, normalmente, um simples comando unilinear. Tudo o que é prec
 nx.write_gexf(G, 'quaker_network.gexf')
 ```
 
-É só! Quando executar o seu *script* no Python, colocará automaticamente o novo ficheiro GEXF no mesmo diretório que o seu ficheiro Python.[^19]
+É só! Quando executar o seu *script* no Python, colocará automaticamente o novo ficheiro GEXF no mesmo diretório que o seu ficheiro Python.[^18]
 
 # Conclusões
 
@@ -571,32 +574,30 @@ Cada uma destas descobertas é um convite para mais pesquisa ao invés dum ponto
 
 [^4]: Algumas instalações só quererão que o leitor digite `pip` sem "3," mas no Python 3, `pip3` é a mais comum. Se um não funcionar, tente o outro!
 
-[^5]: **Nota de tradução**: Devemos informar o leitor que a versão 2.4 do NetworkX usada para a [lição original em inglês](/en/lessons/exploring-and-analyzing-network-data-with-python) (em inglês), não corresponde à mais recente aquando do fecho desta tradução, sendo tal lugar reservado à 3.0. Existem algumas variações entre a 2.4, a 3.0 e as versões intermédias que podem resultar em erros ou _outputs_ diferentes. Tal é o caso da 2.6, com a qual obtivemos uma mensagem de erro durante a avaliação da modularidade e uma resposta diferente com a função `print(nx.info(G))` daquela apresentada com a 2.4. Com vista a garantir a viabilidade do código e dos seus resultados, decidimos manter a versão 2.4.
+[^5]: **Nota de tradução**: É importante lembrar que existem variações entre as diferentes versões do NetworkX que podem resultar em erros ou outputs diferentes. Tal é o caso da 2.6, com a qual obtivemos uma mensagem de erro durante a avaliação da modularidade e uma resposta diferente com a função print(nx.info(G)) daquela apresentada com a 2.4.
 
 [^6]: Existem algumas técnicas *pythónicas* que este código usa. A primeira é a 'compreensão de lista' (*list comprehensions*), que incorpora *loops* (`for n in nodes`) para criar novas listas (em parêntesis retos), assim: `new_list = [item for item in old_list]`. A segunda é a *list slicing*, que permite-lhe subdividir ou "*slice*" ("cortar") a lista. A notação da *list slicing* `[1:]` toma tudo *exceto* o primeiro item na lista. O 1 informa o Python para começar com o segundo item nesta lista (no Python, o leitor começa a contar do 0), e os dois pontos dizem ao Python para tomar tudo até ao fim da lista. Como a primeira linha em ambas destas listas é a fila de cabeçalho de cada CSV, nós não queremos que esses cabeçalhos sejam incluídos nos nossos dados.
 
-[^7]: O grau médio é o número médio de conexões de cada nó na sua rede. Veja mais sobre o grau na secção sobre centralidade deste tutorial.
+[^7]: Dicionários são um tipo de dados incorporados no Python, construídos com pares de chave-valor. Pense numa chave como a palavra-chave num dicionário, e o valor como a sua definição. Chaves têm que ser únicas (só uma de cada por dicionário), mas os valores podem ser qualquer coisa. Dicionários são representados por chavetas, com chaves e valores separados por dois pontos: `{key1:value1, key2:value2, ...}`. Dicionários são uma das maneiras mais rápidas de armazenar valores que o leitor pode necessitar mais tarde. De facto, um objeto Grafo do NetworkX é, ele próprio, feito de dicionários aninhados.
 
-[^8]: Dicionários são um tipo de dados incorporados no Python, construídos com pares de chave-valor. Pense numa chave como a palavra-chave num dicionário, e o valor como a sua definição. Chaves têm que ser únicas (só uma de cada por dicionário), mas os valores podem ser qualquer coisa. Dicionários são representados por chavetas, com chaves e valores separados por dois pontos: `{key1:value1, key2:value2, ...}`. Dicionários são uma das maneiras mais rápidas de armazenar valores que o leitor pode necessitar mais tarde. De facto, um objeto Grafo do NetworkX é, ele próprio, feito de dicionários aninhados.
+[^8]: Note que este código usa parêntesis retos de duas formas. Usa números em parêntesis retos para aceder índices específicos numa lista de nós (por exemplo, o ano de nascimento no `node[4]`), mas também para designar uma *chave* (sempre `node[0]`, o ID) a qualquer um dos nossos dicionários vazios: `dictionary[key] = value`. Conveniente!
 
-[^9]: Note que este código usa parêntesis retos de duas formas. Usa números em parêntesis retos para aceder índices específicos numa lista de nós (por exemplo, o ano de nascimento no `node[4]`), mas também para designar uma *chave* (sempre `node[0]`, o ID) a qualquer um dos nossos dicionários vazios: `dictionary[key] = value`. Conveniente!
+[^9]: Por uma questão de simplicidade, removemos quaisquer nós que *não estão conectados a quaisquer outros* do *dataset* antes de termos começado. Isto foi feito simplesmente para reduzir a desordem, mas também é muito comum de se ver muitos destes nós solteiros no seu *dataset* de rede comum.
 
-[^10]: Por uma questão de simplicidade, removemos quaisquer nós que *não estão conectados a quaisquer outros* do *dataset* antes de termos começado. Isto foi feito simplesmente para reduzir a desordem, mas também é muito comum de se ver muitos destes nós solteiros no seu *dataset* de rede comum.
+[^10]: Mas mantenha em mente que isto é a densidade de *toda* a rede, incluindo esses componentes não conectados a flutuar em órbita. Existem várias conexões possíveis entre e com eles. Se o leitor tivesse tomado a densidade somente do componente maior, poderia ter obtido um número diferente. O leitor poderia fazê-lo ao encontrar o componente mais largo como nós lhe mostramos na próxima secção sobre o **diâmetro**, e, depois, ao executar o mesmo método de densidade somente nesse componente.
 
-[^11]: Mas mantenha em mente que isto é a densidade de *toda* a rede, incluindo esses componentes não conectados a flutuar em órbita. Existem várias conexões possíveis entre e com eles. Se o leitor tivesse tomado a densidade somente do componente maior, poderia ter obtido um número diferente. O leitor poderia fazê-lo ao encontrar o componente mais largo como nós lhe mostramos na próxima secção sobre o **diâmetro**, e, depois, ao executar o mesmo método de densidade somente nesse componente.
+[^11]: Nós tomamos o comprimento da lista *menos um* porque nós queremos o número de *edges* (ou passos) entre os nós listados aqui, ao invés do número de nós.
 
-[^12]: Nós tomamos o comprimento da lista *menos um* porque nós queremos o número de *edges* (ou passos) entre os nós listados aqui, ao invés do número de nós.
+[^12]: A forma mais correta de fazer este tipo de comparação é criar *grafos aleatórios* de tamanho idêntico para ver se as métricas diferem da norma. O NetworkX oferece várias ferramentas para [gerar grafos aleatórios](https://perma.cc/7Z4U-KAY7) (em inglês).
 
-[^13]: A forma mais correta de fazer este tipo de comparação é criar *grafos aleatórios* de tamanho idêntico para ver se as métricas diferem da norma. O NetworkX oferece várias ferramentas para [gerar grafos aleatórios](https://perma.cc/7Z4U-KAY7) (em inglês).
+[^13]: Porque se chama transitividade? O leitor pode recordar-se da propriedade transitiva de Geometria das aulas de Matemática no Ensino Secundário: se A=B e B=C, o A deve ser igual a C. Semelhantemente, no fechamento triádico, se a pessoa A conhece a pessoa B e a pessoa B conhece a pessoa C, então a pessoa A provavelmente conhece a pessoa C: logo, transitividade.
 
-[^14]: Porque se chama transitividade? O leitor pode recordar-se da propriedade transitiva de Geometria das aulas de Matemática no Ensino Secundário: se A=B e B=C, o A deve ser igual a C. Semelhantemente, no fechamento triádico, se a pessoa A conhece a pessoa B e a pessoa B conhece a pessoa C, então a pessoa A provavelmente conhece a pessoa C: logo, transitividade.
+[^14]: Aqueles com experiência em Estatística notarão que grau em redes sociais segue tipicamente uma *lei de potência*, mas isto não é nem pouco usual, nem especialmente útil saber.
 
-[^15]: Aqueles com experiência em Estatística notarão que grau em redes sociais segue tipicamente uma *lei de potência*, mas isto não é nem pouco usual, nem especialmente útil saber.
+[^15]: Embora não venhamos a cobri-lo neste tutorial, é geralmente boa ideia obter a clasificação modular global primeiro para determinar se o leitor aprenderá qualquer coisa ao repartir a sua rede de acordo com a modularidade. Para ver a classificação geral da modularidade, tome as comunidades que calculou com `communities = community.best_partition(G)` e execute `global_modularity = community.modularity(communities, G)`. E depois basta aplicar `print(global_modularity)`.
 
-[^16]: Embora não venhamos a cobri-lo neste tutorial, é geralmente boa ideia obter a clasificação modular global primeiro para determinar se o leitor aprenderá qualquer coisa ao repartir a sua rede de acordo com a modularidade. Para ver a classificação geral da modularidade, tome as comunidades que calculou com `communities = community.best_partition(G)` e execute `global_modularity = community.modularity(communities, G)`. E depois basta aplicar `print(global_modularity)`.
+[^16]: **Nota de tradução**: [Plymouth](https://perma.cc/2EKN-TJPW) foi a primeira colónia inglesa permanente na região da Nova Inglaterra, no nordeste dos Estados Unidos da América, tendo sido fundada em 1620 por vários colonos puritanos, entre os quais um tal [William Bradford](https://perma.cc/UA8V-J4CX). Este [outro](https://perma.cc/TW4C-QWUY) referido foi um importante impressor *quaker*.
 
-[^17]: **Nota de tradução**: [Plymouth](https://perma.cc/2EKN-TJPW) foi a primeira colónia inglesa permanente na região da Nova Inglaterra, no nordeste dos Estados Unidos da América, tendo sido fundada em 1620 por vários colonos puritanos, entre os quais um tal [William Bradford](https://perma.cc/UA8V-J4CX). Este [outro](https://perma.cc/TW4C-QWUY) referido foi um importante impressor *quaker*.
+[^17]: Em redes grandes, as listas seriam provavelmente ilegivelmente longas, mas o leitor poderia obter uma ideia de todas as classes modulares duma só vez ao visualizar a rede e adicionar cor aos nós baseada na sua classe modular.
 
-[^18]: Em redes grandes, as listas seriam provavelmente ilegivelmente longas, mas o leitor poderia obter uma ideia de todas as classes modulares duma só vez ao visualizar a rede e adicionar cor aos nós baseada na sua classe modular.
-
-[^19]: Cada formato de ficheiro que é exportável é também importável. Se o leitor tiver um ficheiro GEXF do Gephi que quer pôr no NetworkX, digitaria `G = nx.read_gexf('some_file.gexf')`.
+[^18]: Cada formato de ficheiro que é exportável é também importável. Se o leitor tiver um ficheiro GEXF do Gephi que quer pôr no NetworkX, digitaria `G = nx.read_gexf('some_file.gexf')`.
