@@ -54,6 +54,11 @@ is used both on project-team.md as well as es/equipo-de-proyecto.md
 {% include contact-info.html name=member.name %}
 {% endfor %}
 
+{% assign publishing-assistant = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'publishing-assistant'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in publishing-assistant %}
+{% include contact-info.html name=member.name %}
+{% endfor %}
+
 ### {{ site.data.snippets.project-team-roles[page.lang] }}
 <ul>
   {% for team in site.data.teamroles %}
