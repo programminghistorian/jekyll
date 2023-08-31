@@ -74,7 +74,7 @@ Actualmente existen numerosos sitios web donde es posible localizar colecciones 
 | History Trust of South Australia | Learn section | [https://history.sa.gov.au/](https://history.sa.gov.au/) |
 | National Library of Netherlands | KB Lab | [https://lab.kb.nl/](https://lab.kb.nl/) |
 | National Library of Scotland | Data Foundry | [https://data.nls.uk/](https://data.nls.uk/) |
-| Library of Congress | LC for Robots | [https://labs.loc.gov/lc-for-robots/](https://labs.loc.gov/lc-for-robots/) |
+| Library of Congress | LC Labs | [https://labs.loc.gov/data-for-exploration](https://labs.loc.gov/data-for-exploration) |
 | Österreichische Nationalbibliothek | ONB Labs |[https://labs.onb.ac.at/en/](https://labs.onb.ac.at/en/)|
 | Staatsbibliothek zu Berlin | SBB Labs | [https://lab.sbb.berlin/?lang=en](https://lab.sbb.berlin/?lang=en)|
 | State Library New South Wales | DX Lab | [https://dxlab.sl.nsw.gov.au](https://dxlab.sl.nsw.gov.au)|
