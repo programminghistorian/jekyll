@@ -120,9 +120,9 @@
 - type: publishing-assistant 
   label:
     en: Publishing Assistant
-    es: Asistente de publicaciones
+    es: Asistente de publicación
     fr: Assistante de publication
-    pt: Assistente de publicações
+    pt: Assistente de publicação
   definition:
     en: Supports our publishing workflow
     es: Apoya nuestro proceso de publicación
