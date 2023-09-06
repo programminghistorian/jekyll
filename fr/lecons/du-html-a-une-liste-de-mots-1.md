@@ -18,7 +18,7 @@ translator:
 - Célian Ringwald
 translation-editor:
 - Alexandre Wauthier
-translation-reviewers:
+translation-reviewer:
 - Marina Giardinetti
 - Marie Flesch
 difficulty: 2
