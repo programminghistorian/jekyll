@@ -117,7 +117,17 @@
     es: Responsable del desarrollo y la producción de nuestras publicaciones
     fr: Responsable de l'élaboration et de la réalisation de nos publications
     pt: Responsável pelo desenvolvimento e produção das nossas publicações
-
+- type: publishing-assistant 
+  label:
+    en: Publishing Assistant
+    es: Asistente de publicación
+    fr: Assistant/e de publication
+    pt: Assistente de publicação
+  definition:
+    en: Supports our publishing workflow
+    es: Apoya nuestro proceso de publicación
+    fr: Soutien à notre processus de publication
+    pt: Apoia o nosso processo de publicação
 # Status
 - type: volunteer
   label:

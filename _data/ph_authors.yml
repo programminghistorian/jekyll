@@ -2964,3 +2964,32 @@
   bio:
     en: |
       Jennie Williams is a PhD Student at the Centre for Advanced Spatial Analysis, University College London.
+
+- name: Charlotte Chevrie
+  github: charlottejmc
+  email: publishing.assistant@programminghistorian.org
+  team: true
+  team_start: 2023
+  institution: Programming Historian, UK
+  sortname: Chevrie
+  affiliation:
+    en: |
+      Programming Historian, UK
+    es: |
+      Programming Historian, Reino Unido
+    fr: |
+      Programming Historian, Royaume-Uni
+    pt: |
+      Programming Historian, Reino Unido
+  bio:
+    en: |
+      Charlotte Chevrie, Programming Historian
+    es: |
+      Charlotte Chevrie, Programming Historian
+    fr: |
+      Charlotte Chevrie, Programming Historian
+    pt: |
+      Charlotte Chevrie, Programming Historian
+  team_roles:
+    - publishing-assistant
+  status: institutionally-supported
