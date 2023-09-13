@@ -18,7 +18,7 @@ translator:
 - Célian Ringwald
 translation-editor:
 - Alexandre Wauthier
-translation-reviewer:
+translation-reviewers:
 - Marina Giardinetti
 - Marie Flesch
 difficulty: 2
@@ -32,11 +32,11 @@ doi: 10.46430/phfr0026
 
 {% include toc.html %}
 
-# Objectifs de la leçon 
+## Objectifs de la leçon 
 
 Dans cette leçon en deux parties, nous allons utiliser les compétences acquises dans la leçon [Télécharger des pages web avec Python](/fr/lecons/telecharger-des-pages-web-avec-python), et voir comment supprimer les *balises HTML* de la page de la [transcription du procès-verbal de Benjamin Bowsey en 1780](https://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33) dans le but de créer un texte propre et réutilisable. Nous réaliserons cette tâche en utilisant les *opérateurs et méthodes de chaines de caractères* propres à Python, ainsi que nos compétences relatives à la [*lecture attentive*](https://perma.cc/V4GX-9N5R). Nous introduirons ensuite les concepts de *boucles* et *d’instructions conditionnelles* afin de répéter notre processus de traitement et de tester certaines conditions nous permettant de séparer le contenu des balises HTML. Pour finir, nous convertirons les données obtenues et enregistrées sous la forme d’un texte sans balises HTML en une *liste de mots* qui pourra par la suite être triée, indexée et investie lors d’analyses statistiques.
 
-# Enjeux de la leçon
+## Enjeux de la leçon
 
 Pour rendre plus clair l’objectif de la séance, ouvrez le fichier `obo-t17800628-33.html` que vous avez créé lors de la leçon [Télécharger des pages web avec Python](/fr/lecons/telecharger-des-pages-web-avec-python).  [Ouvrez cette page web et téléchargez son code source](/assets/obo-t17800628-33.html) si ce n’est pas le cas (via la commande Ctrl+S sur Windows ou ⌘-S sur Mac). Inspectez ensuite le code HTML de ce document. En fonction du navigateur web que vous avez, il est possible d’accéder au code source d’une page en cliquant sur l’onglet `Tools -> Web Developer -> Page Source`. Il est aussi généralement possible d’y accéder via les commandes Ctrl+U (Windows) ou ⌘-Option-U (Mac).
 
@@ -46,18 +46,18 @@ En parcourant le fichier, vous remarquerez que celui-ci est composé de balises 
 
 Ces tutoriels vous permettront de vous familiariser avec la syntaxe de ces formats et de mieux comprendre le contexte d’utilisation des balises HTML lorsque vous les rencontrerez.
 
-## Matériel nécessaire au suivi de la leçon
+### Matériel nécessaire au suivi de la leçon
 
 - le fichier de la transcription du procès&nbsp;: [`obo-t17800628-33.html`](/assets/obo-t17800628-33.html)
 - un éditeur de texte permettant de compiler du code Python. Dans la série de leçons d’introduction à Python du *Programming Historian en français*, nous utilisons Komodo Edit (cf. [la leçon d’introduction de la série](/fr/lecons/introduction-et-installation)), mais [il en existe beaucoup d’autres](https://perma.cc/X98A-KME8).
 
 
 
-# Conception de l’algorithme
+## Conception de l’algorithme
 
 Puisque le but est de se défaire du balisage HTML, la première étape de ce tutoriel consiste donc à créer un algorithme nous permettant d’extraire seulement le texte de la transcription (sans balises HTML).
 
-Un algorithme est un ensemble de procédures suffisamment détaillées pour être implémentées sur un ordinateur. Lors de la conception d’un algorithme, il est conseillé dans un premier temps, de poser sur le papier son fonctionnement de l’algorithme. C’est une manière d’expliciter ce que l’on souhaite faire avant de traduire cela en un code informatique. Pour construire cet algorithme, une lecture vigilante de la page et de sa structure sera notamment nécessaire afin de pouvoir envisager par la suite un moyen de capturer le contenu du compte rendu du procès.
+Un algorithme est un ensemble de procédures suffisamment détaillées pour être implémentées sur un ordinateur. Lors de la conception d’un algorithme, il est conseillé dans un premier temps, de poser sur le papier son fonctionnement. C’est une manière d’expliciter ce que l’on souhaite faire avant de traduire cela en un code informatique. Pour construire cet algorithme, une lecture vigilante de la page et de sa structure sera notamment nécessaire afin de pouvoir envisager par la suite un moyen de capturer le contenu du compte rendu du procès.
 
 À la lecture du code source de `obo-t17800628-33.html`, vous remarquerez que le contenu de la transcription n’est pas visible dès le début du fichier. Au lieu de cela, vous trouverez de nombreuses balises HTML relatives aux métadonnées. Le contenu qui nous intéresse n’est alors visible qu’à partir de la ligne 81&nbsp;!
 
@@ -73,11 +73,11 @@ Un algorithme est un ensemble de procédures suffisamment détaillées pour êtr
 
 Nous nous intéressons uniquement à la transcription du procès, et non pas aux métadonnées contenues dans les balises. Toutefois, vous remarquerez que les différentes parties de la transcription débutent après ces métadonnées. L’emplacement de ces balises est donc potentiellement un indice utile nous permettant d’isoler le texte de la transcription.
 
-En un coup d’œil, vous remarquerez que la transcription du procès commence avec une balise HTML : `<p>`, qui marque ici le début d’un paragraphe. Il s’agit de là du premier paragraphe de notre document. Nous allons donc utiliser cette information pour identifier le début du texte de la transcription. Dans le cas présent, nous avons de la chance, car il s’avère que cette balise est un moyen fiable nous permettant de repérer le début d’une partie de la transcription (vous pouvez vérifier les autres parties du procès et vous verrez que c’est la même chose).
+En un coup d’œil, vous remarquerez que la transcription du procès commence avec une balise HTML : `<p>`, qui marque ici le début d’un paragraphe. Il s’agit là du premier paragraphe de notre document. Nous allons donc utiliser cette information pour identifier le début du texte de la transcription. Dans le cas présent, nous avons de la chance, car il s’avère que cette balise est un moyen fiable nous permettant de repérer le début d’une partie de la transcription (vous pouvez vérifier les autres parties du procès et vous verrez que c’est la même chose).
 
 Le texte du procès se termine à la ligne 82 avec une autre balise HTML&nbsp;: `<br/>`, qui indique un passage à la ligne. Il s’agit ici du dernier passage à la ligne du document. Ces deux balises (la balise de début de paragraphe et le dernier saut de ligne) nous offrent un moyen d’isoler le texte que nous ciblons. Les sites web bien conçus ont la plupart du temps une syntaxe unique permettant de signaler la fin d’un contenu. En général, il suffit de bien inspecter les pages / le code HTML pour repérer ces indices.
 
-La prochaine étape est donc de supprimer les balises HTML contenues au sein du contenu textuel. Maintenant, vous savez que les balises HTML se trouvent toujours entre deux chevrons. Il y a fort à parier que si nous supprimons tout ce qui est contenu entre chevrons, alors nous supprimerons par la même occasion tout ce qui est attribué à la syntaxe HTML afin de n’obtenir que le contenu de nos transcriptions. Notez que nous faisons ici l’hypothèse que celles-ci ne contiennent pas de symboles mathématiques, tels que &laquo;&#x202F;inférieur à&#x202F;&raquo; ou 
+La prochaine étape est donc de supprimer les balises HTML contenues au sein du contenu textuel. Maintenant, vous savez que les balises HTML se trouvent toujours entre deux chevrons. Il y a fort à parier que si vous supprimez tout ce qui est contenu entre chevrons, vous supprimerez alors par la même occasion tout ce qui est attribué à la syntaxe HTML. Réaliser cette opération permettrait alors d'extraire seulement le contenu des transcriptions. Notez que nous faisons ici l’hypothèse que celles-ci ne contiennent pas de symboles mathématiques, tels que &laquo;&#x202F;inférieur à&#x202F;&raquo; ou 
 &laquo;&#x202F;supérieur à&#x202F;&raquo;. Si Bowsey était un mathématicien, cette hypothèse serait alors plus fragile.
 
 Nous allons maintenant décrire la procédure de notre algorithme explicitement en français&nbsp;:
@@ -89,7 +89,7 @@ Pour isoler le contenu de la transcription&nbsp;:
 - Chercher dans le code HTML et mémoriser l’emplacement de la dernière balise `</br>`.
 - Sauvegarder dans une variable de type *chaine de caractères* nommée `pageContents` tout ce qui se situe entre la balise `<p>` et `</br>`.
 
-Nous avons maintenant la transcription du texte, avec en plus des balises HTML. Nous allons donc&nbsp;:
+Nous disposons maintenant de la transcription du texte, qui contient pour le moment encore quelques balises HTML. Pour nettoyer celui-ci, nous allons donc&nbsp;:
 - Inspecter un à un chaque caractère de la chaine `pageContents`.
 - Si le caractère passé en revue est un chevron ouvrant (`<`), nous sommes donc à partir de celui au sein d’une balise HTML et nous allons ignorer les prochains caractères.
 - Si le caractère passé en revue est un chevron fermant (`>`), nous ressortons d’une balise HTML. Nous ignorerons ce caractère, mais serons à partir de celui-ci attentifs aux prochains.
@@ -98,7 +98,7 @@ Nous avons maintenant la transcription du texte, avec en plus des balises HTML. 
 Enfin&nbsp;:
 - Nous découperons notre chaine de caractères (`pageContents`) en une liste de mots que nous utiliserons ensuite.
 
-# Isoler le contenu de la transcription
+## Isoler le contenu de la transcription
 
 La suite de ce tutoriel tirera parti des commandes Python introduites dans la leçon [Manipuler des chaines de caractères en Python](/fr/lecons/manipuler-chaines-caracteres-python), notamment dans la première partie de notre algorithme, afin de supprimer tous les caractères avant la balise `<p>` et après la balise `</br>`.
 
@@ -174,7 +174,7 @@ Prenons maintenant un moment pour nous assurer que vous avez bien compris commen
 Dans notre cas, nous souhaitons faire passer à l’argument `pageContents` le contenu de notre variable *HTML*. Vous auriez pu lui passer n’importe quelle chaine de caractères, y compris celle que vous aviez saisie directement entre les parenthèses. Essayez de relancer `trial-content.py`, en remplaçant l’argument fourni à `stripTags` par &laquo;&nbsp;J’aime beaucoup les chiens&nbsp;&raquo; et observez ce qui se passe. Notez qu’en fonction de la manière dont vous définissez votre fonction (et ce qu’elle est censée faire), votre argument peut être autre chose qu’une chaine de caractères&nbsp;: un *entier*, par exemple. Pour mieux appréhender les différents types de données disponibles à travers Python, nous vous invitons à consulter [les cours de Zeste de Savoir](https://perma.cc/QH3X-BS79) sur le sujet.
 
 
-# Lectures suggérées
+## Lectures suggérées
 
 - Lutz, Mark. *Learning Python* (5th edition). O’Reilly Media, Inc., 2013.
     - Ch. 7: Strings
@@ -182,8 +182,9 @@ Dans notre cas, nous souhaitons faire passer à l’argument `pageContents` le c
     - Ch. 10: Introducing Python Statements
     - Ch. 15: Function Basics
 
-# Synchronisation du code
+## Synchronisation du code
 
 Pour suivre les leçons à venir, il est important que vous ayez les bons fichiers et programmes dans votre répertoire `programming-historian`. À la fin de chaque chapitre, vous pouvez télécharger le fichier zip contenant le matériel de cours du the programming-historian afin de vous assurer d’avoir le bon code. Notez que nous avons supprimé les fichiers inutiles des leçons précédentes. Votre répertoire peut contenir plus de fichiers&nbsp;; ce n’est pas grave, l’important est de s’assurer que les codes que nous utiliserons par la suite fonctionneront.
 
 - [`programming-historian-2.zip`](/assets/python-lessons2.zip)
+
