@@ -96,7 +96,7 @@ Es una descarga muy grande y tomará algún tiempo en completarse. Una vez que t
 
 Deberás instalar el kit '**Command Line Tools**' de XCode. Abre la pestaña 'Preferencias', haz clic en 'Descargas' y luego en 'Instalar' junto a 'Herramientas de línea de comandos'. Ahora estamos listos para instalar un gestor de paquetes.
 
-El gestor de paquetes más fácil de instalar es *Homebrew*. Ve a <https://brew.sh/index_es> y revisa las instrucciones. Hay muchos comandos importantes, como wget, que no están incluidos de forma predeterminada en OS X. Este programa facilita la descarga y la instalación de todos los archivos necesarios.
+El gestor de paquetes más fácil de instalar es *Homebrew*. Ve a <https://brew.sh/es/> y revisa las instrucciones. Hay muchos comandos importantes, como wget, que no están incluidos de forma predeterminada en OS X. Este programa facilita la descarga y la instalación de todos los archivos necesarios.
 
 Para instalar *Homebrew*, abre la ventana de Terminal y escribe:
 

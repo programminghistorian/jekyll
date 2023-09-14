@@ -125,7 +125,7 @@ Antes de continuar, instala los tres paquetes necesarios para completar el tutor
   install.packages('leaflet')
   install.packages('tidyverse')
 ```
-Dependiendo de la configuración de tu sistema, el cuarto paquete, `sf`, puede que requiera pasos adicionales antes de instalarlo. Los usuarios de Windows deberían poder instalarlo directamente usando el comando `install.packages('sf')` pero los usuarios de Mac y Linux tienen que instalar la librería externa `gdal` con [Homebrew](https://brew.sh/index_es) para que `sf` funcione dentro de R. En Mac, instala `gdal` a través de la Terminal con los siguientes comandos: 
+Dependiendo de la configuración de tu sistema, el cuarto paquete, `sf`, puede que requiera pasos adicionales antes de instalarlo. Los usuarios de Windows deberían poder instalarlo directamente usando el comando `install.packages('sf')` pero los usuarios de Mac y Linux tienen que instalar la librería externa `gdal` con [Homebrew](https://brew.sh/es/) para que `sf` funcione dentro de R. En Mac, instala `gdal` a través de la Terminal con los siguientes comandos: 
 ```
   brew install pkg-config
   brew install gdal
