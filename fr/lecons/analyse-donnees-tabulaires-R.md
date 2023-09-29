@@ -44,7 +44,7 @@ Ce tutoriel ne requiert aucune connaissance préalable de R. C'est une introduct
 
 R est idéal pour analyser de grands jeux de données qu’il serait trop chronophage d’examiner manuellement. Une fois que vous avez compris comment écrire certaines fonctions de base et comment importer vos propres fichiers de données, vous pouvez analyser et visualiser les données rapidement et efficacement.
 
-Bien que R soit un excellent outil pour les données tabulaires, vous trouverez peut-être plus utile d’utiliser d’autres approches pour analyser des données non tabulaires comme les archives de journaux. Si vous souhaitez étudier ce type de sources, nous vous conseillons de consulter les autres leçons de *[Programming Historian en français](fr/lecons/)*.
+Bien que R soit un excellent outil pour les données tabulaires, vous trouverez peut-être plus utile d’utiliser d’autres approches pour analyser des données non tabulaires comme les archives de journaux. Si vous souhaitez étudier ce type de sources, nous vous conseillons de consulter les autres leçons de *[Programming Historian en français](/fr/lecons/)*.
 
 ## Installer R
 
