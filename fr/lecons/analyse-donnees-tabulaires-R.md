@@ -164,7 +164,8 @@ Si une fonction ne fonctionne pas ou si vous ne parvenez pas à résoudre une er
 
 #### Solutions
 
-1. Créez deux objets correspondant aux valeurs de janvier 1950 et de janvier 1960 du jeu de données `AirPassengers`. Sur la ligne suivante, additionnez les deux objets.
+1.
+Créez deux objets correspondant aux valeurs de janvier 1950 et de janvier 1960 du jeu de données `AirPassengers`. Sur la ligne suivante, additionnez les deux objets.
 
 ```
 Jan1950 <- 115
@@ -175,7 +176,8 @@ Jan1950 + Jan1960
 
 Le résultat indique que 532&#x202F;000 personnes ont voyagé sur des vols internationaux en janvier 1950 et en janvier 1960.
 
-2\. Utilisez les objets que vous venez de créer pour trouver la différence entre le nombre de passagers en 1960 et en 1950.
+2.
+Utilisez les objets que vous venez de créer pour trouver la différence entre le nombre de passagers en 1960 et en 1950.
 
 ```
 Jan1960 - Jan1950
