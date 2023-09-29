@@ -175,7 +175,7 @@ Jan1950 + Jan1960
 
 Le résultat indique que 532&#x202F;000 personnes ont voyagé sur des vols internationaux en janvier 1950 et en janvier 1960.
 
-2. Utilisez les objets que vous venez de créer pour trouver la différence entre le nombre de passagers en 1960 et en 1950.
+2\. Utilisez les objets que vous venez de créer pour trouver la différence entre le nombre de passagers en 1960 et en 1950.
 
 ```
 Jan1960 - Jan1950
