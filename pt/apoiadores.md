@@ -55,6 +55,7 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 - [Universität Bern Bibliothek](https://www.ub.unibe.ch/), Suíça
 - [University of Florida](https://www.ufl.edu/), Estados Unidos
 - [Universiteit van Amsterdam](https://www.uva.nl/), Países Baixos
+- [Universiteit Gent](https://www.ugent.be/), Bélgica
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
