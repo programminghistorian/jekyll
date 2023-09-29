@@ -11,13 +11,13 @@ authors:
 reviewers:
 - James Baker
 - John Russell
-editor:
+editors:
 - Adam Crymble
 translator:
 - Marie Flesch
 translation-editor:
 - Daphné Mathelier
-translation-reviewers:
+translation-reviewer:
 - Brian Chauvel
 - Célian Ringwald
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/561
