@@ -51,6 +51,7 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [Universität Bern Bibliothek](https://www.ub.unibe.ch/), Switzerland
 - [University of Florida](https://www.ufl.edu/), United States
 - [Universiteit van Amsterdam](https://www.uva.nl/), The Netherlands
+- [Universiteit Gent](https://www.ugent.be/), Belgium  
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 

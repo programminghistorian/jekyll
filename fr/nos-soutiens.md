@@ -52,6 +52,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Universität Bern Bibliothek](https://www.ub.unibe.ch/), Suisse
 - [University of Florida](https://www.ufl.edu/), États-Unis
 - [Universiteit van Amsterdam](https://www.uva.nl/), Pays-Bas
+- [Universiteit Gent](https://www.ugent.be/), Belgique
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 

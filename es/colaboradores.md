@@ -54,6 +54,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [Universität Bern Bibliothek](https://www.ub.unibe.ch/), Suiza
 - [University of Florida](https://www.ufl.edu/), Estados Unidos
 - [Universiteit van Amsterdam](https://www.uva.nl/), Países Bajos
+- [Universiteit Gent](https://www.ugent.be/), Bélgica
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 
