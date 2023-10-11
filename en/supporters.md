@@ -107,4 +107,4 @@ We also publicly thank all of our 'Patron' and 'Educator' supporters:
 
 ## Management of Donations and Sponsorship
 
-Donations and sponsorship are managed by [Dr. James Baker](https://github.com/drjwbaker) on behalf of the [Project Team of The Programming Historian](/en/project-team).
+Donations and sponsorship are managed by [Anisa Hawes, Publishing Manager](mailto:admin@programminghistorian.org).
