@@ -50,6 +50,14 @@ Ao aderir ao Programa de Parceiros Institucionais receberá os seguintes benefí
 
 ## Formalização da adesão
 
+<div class="alert alert-info">
+<div class="float-left">
+	<svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-credit-card" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+  <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
+</svg>
+</div>
+       
 Para se tornar um Parceiro Institucional, por favor, envie um e-mail para [Anisa Hawes](mailto:admin@programminghistorian.org) com o assunto “Institutional Partners Programme”. O e-mail deverá incluir as seguintes informações:
 
 -   O seu nome.
