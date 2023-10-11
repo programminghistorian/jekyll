@@ -22,7 +22,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Investigación publicada
 
-* Adam Crymble & Charlotte M. H. Im, 'Measuring digital humanities learning requirements in Spanish & English-speaking practitioner communities', International Journal of Digital Humanities, (2023).
+* Adam Crymble & Charlotte M. H. Im, ['Measuring digital humanities learning requirements in Spanish & English-speaking practitioner communities'](https://doi.org/10.1007/s42803-023-00066-x), International Journal of Digital Humanities, (2023).
 * Eric Brasil, '[_pyHDB - Ferramenta Heurística para a Hemeroteca Digital Brasileira: utilizando técnicas de web scraping para a pesquisa em História_'](https://doi.org/10.15848/hh.v15i40.1904), _História Da Historiografia: International Journal of Theory and History of Historiography_, 15(40) (2022), 186–217.
 * Matthew Lincoln, Sarah Melton, Jennifer Isasi, François Dominic Laramée, '[Relocating Complexity: _The Programming Historian_ and Multilingual Static Site Generation](http://www.digitalhumanities.org/dhq/vol/16/2/000585/000585.html)', _Digital Humanities Quarterly_ 16, 2 (2022).
 * Jennifer Isasi y Antonio Rojas Castro, ‘[¿Sin equivalencia? Una reflexión sobre la traducción al español de recursos educativos abiertos](https://muse.jhu.edu/article/842253)’, _Hispania_, 104, no. 4 (2021), 613-624.
