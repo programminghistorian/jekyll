@@ -58,7 +58,7 @@ Ao aderir ao Programa de Parceiros Institucionais receberá os seguintes benefí
 </svg>
 </div>
        
-Para se tornar um Parceiro Institucional, por favor, envie um e-mail para [Anisa Hawes](mailto:admin@programminghistorian.org) com o assunto “Institutional Partners Programme”. O e-mail deverá incluir as seguintes informações:
+Para se tornar um Parceiro Institucional, por favor, envie um e-mail para <a href='mailto:admin@programminghistorian.org'>Anisa Hawes</a> com o assunto “Institutional Partners Programme”. O e-mail deverá incluir as seguintes informações:
 
 <ul>
 <li>O seu nome</li>
