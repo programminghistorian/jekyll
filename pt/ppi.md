@@ -35,7 +35,7 @@ _Nível Silver_
 
 Se a sua instituição tem recursos para nos oferecer um suporte ainda maior, também damos as boas-vindas a parcerias no nosso nível Gold. As taxas de parceria do nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. As instituições parceiras de nível ouro tem dois workshops personalizados por ano para ajudar suas comunidades a usar ferramentas e métodos de humanidades digitais.
 
-As taxas são anuais e consideramos a contagem a partir da data do primeiro pagamento. Os valores são definidos em Janeiro de cada ano. Para uma cotação em outra moeda, por favor, envie um e-mail para [Dr. James Baker](mailto:programminghistorian@gmail.com).
+As taxas são anuais e consideramos a contagem a partir da data do primeiro pagamento. Os valores são definidos em Janeiro de cada ano. Para uma cotação em outra moeda, por favor, envie um e-mail para [Anisa Hawes, Gestora de publicações](mailto:admin@programminghistorian.org).
 
 ## Benefícios da adesão
 
@@ -50,7 +50,7 @@ Ao aderir ao Programa de Parceiros Institucionais receberá os seguintes benefí
 
 ## Formalização da adesão
 
-Para se tornar um Parceiro Institucional, por favor, envie um e-mail para James Baker através de [programminghistorian@gmail.com](mailto:programminghistorian@gmail.com) com o assunto “Institutional Partners Programme”. O e-mail deverá incluir as seguintes informações:
+Para se tornar um Parceiro Institucional, por favor, envie um e-mail para [Anisa Hawes](mailto:admin@programminghistorian.org) com o assunto “Institutional Partners Programme”. O e-mail deverá incluir as seguintes informações:
 
 -   O seu nome.
 -   A sua instituição.
@@ -68,7 +68,7 @@ O objetivo do _Programming Historian_ é desenvolver a educação do público na
 
 ## Quer conversar?
 
-Teremos prazer em conversar sobre o que fazemos e como usamos o seu apoio. [Envie-nos uma mensagem](mailto:programminghistorian@gmail.com) e providenciaremos uma xícara virtual de café ou chá.
+Teremos prazer em conversar sobre o que fazemos e como usamos o seu apoio. [Envie-nos uma mensagem](mailto:admin@programminghistorian.org) e providenciaremos uma xícara virtual de café ou chá.
 
 ## Perguntas frequentes
 
