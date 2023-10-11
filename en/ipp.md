@@ -32,7 +32,7 @@ _Silver Tier_
 | €1,200 EUR  | €500 EUR | €175 EUR  |
 | $1,700 CAD  | $700 CAD | $275 CAD  | 
 
-Rates are due annually from the date of first payment and are set in January each year. For a quote in another currency please email <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
+Rates are due annually from the date of first payment and are set in January each year. For a quote in another currency please email <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Publishing Manager</a>.
 
 ## Benefits of Membership
 
@@ -55,7 +55,7 @@ By joining the Institutional Partner Programme you will receive the following be
 </svg>
 </div>
 
-To become a Institutional Partner, please email <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a> with "Institutional Partners Programme" in the subject line. You may include in the email any internal paperwork such as supplier registration forms. Your email should also include the following information:
+To become a Institutional Partner, please email <a href="mailto:admin@programminghistorian.org">Anisa Hawes</a> with "Institutional Partners Programme" in the subject line. You may include in the email any internal paperwork such as supplier registration forms. Your email should also include the following information:
 
 <ul>
 <li>Your Name</li>
@@ -77,7 +77,7 @@ All memberships are subject to the approval of The *Programming Historian* Proje
 
 ## Want to Discuss?
 
-We'd be happy to have a conversation about what we do and how we use your support. <a href="mailto:programminghistorian@gmail.com">Drop us a line</a> and we can arrange a virtual cup of coffee or tea.
+We'd be happy to have a conversation about what we do and how we use your support. <a href="mailto:admin@programminghistorian.org">Drop us a line</a> and we can arrange a virtual cup of coffee or tea.
 
 
 ## Frequently Asked Questions
