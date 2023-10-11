@@ -111,4 +111,4 @@ Também agradecemos publicamente a todos os nossos apoiadores ‘Patrono’ e �
 
 ## Gestão de Doações e Patrocínios
 
-Doações e patrocínios são gerenciados por [Dr. James Baker](https://github.com/drjwbaker) em nome de [Project Team of The Programming Historian](/pt/equipe).
+Doações e patrocínios são gerenciados por [Anisa Hawes, Gestora de publicações](mailto:admin@programminghistorian.org).
