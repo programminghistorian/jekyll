@@ -110,4 +110,4 @@ En particular, agradecemos la contribución de los siguientes suscriptores de Pa
 
 ## Administración de donaciones y patrocinios
 
-[Dr. James Baker](https://github.com/drjwbaker) administra las donaciones y los patrocinios en nombre del [Consejo Editorial de The Programming Historian](/es/equipo-de-proyecto).
+[Anisa Hawes, Directora de publicaciones](mailto:admin@programminghistorian.org) administra las donaciones y los patrocinios.
