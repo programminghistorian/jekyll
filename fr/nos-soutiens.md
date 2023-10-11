@@ -108,4 +108,4 @@ Nous tenons également à remercier publiquement tous nos donateurs de niveau 'm
 
 ## Gestion de donations et de parrainages
 
-Les questions liées aux dons et au parrainage sont traitées par [Dr. James Baker](https://github.com/drjwbaker) pour le compte du [conseil éditorial du Programming Historian](/fr/equipe-projet).
+Les questions liées aux dons et au parrainage sont traitées par [Anisa Hawes, Responsable de la publication](mailto:admin@programminghistorian.org).
