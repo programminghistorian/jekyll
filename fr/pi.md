@@ -35,7 +35,7 @@ _Niveau Silver_
 | 1 400 USD  | 600 USD | 200 USD  |
 
 
-Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en janvier de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
+Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en janvier de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Responsable de la publication</a>.
 
 
 ## Avantages du partenariat
@@ -60,7 +60,7 @@ Joindre le programme de Partenariat institutionnel vous donnera accès aux avant
 </svg>
 </div>
 
-Si vous souhaitez devenir Partenaire institutionnel, veuillez contacter <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>, en indiquant "Programme de Partenariat institutionnel" dans la ligne d'objet. Dans votre message, vous pouvez inclure des documents internes tels que vos formulaires d'inscription de fournisseurs. Votre message devrait aussi inclure les informations suivantes:
+Si vous souhaitez devenir Partenaire institutionnel, veuillez contacter <a href="mailto:admin@programminghistorian.org">Anisa Hawes</a>, en indiquant "Programme de Partenariat institutionnel" dans la ligne d'objet. Dans votre message, vous pouvez inclure des documents internes tels que vos formulaires d'inscription de fournisseurs. Votre message devrait aussi inclure les informations suivantes:
 
 <ul>
 <li>Votre nom</li>
@@ -81,7 +81,7 @@ Toutes les adhésions se font sous réserve de l'approbation de l'équipe du *Pr
 
 ## Échangez avec nous
 
-Nous serions ravis de discuter avec vous de notre projet et de ce que votre soutien nous permet d'accomplir. <a href="mailto:programminghistorian@gmail.com">Écrivez-nous</a> afin de planifier une rencontre virtuelle.
+Nous serions ravis de discuter avec vous de notre projet et de ce que votre soutien nous permet d'accomplir. <a href="mailto:admin@programminghistorian.org">Écrivez-nous</a> afin de planifier une rencontre virtuelle.
 
 
 ## Foire aux questions
