@@ -60,10 +60,14 @@ Ao aderir ao Programa de Parceiros Institucionais receberá os seguintes benefí
        
 Para se tornar um Parceiro Institucional, por favor, envie um e-mail para [Anisa Hawes](mailto:admin@programminghistorian.org) com o assunto “Institutional Partners Programme”. O e-mail deverá incluir as seguintes informações:
 
--   O seu nome.
--   A sua instituição.
--   O seu modo de pagamento preferido (transferência bancária, cheque, factura, Paypal).
--   A moeda preferida para pagamento (se não estiver referida acima, por favor pergunte).
+<ul>
+<li>O seu nome</li>
+<li>A sua instituição</li>
+<li>O seu modo de pagamento preferido (transferência bancária, cheque, factura, Paypal)</li>
+<li>A moeda preferida para pagamento (se não estiver referida acima, por favor pergunte)</li>
+</ul>
+
+</div>
 
 Tenha em atenção que ao enviar o e-mail com o assunto “Institutional Partners Programme” está a concordar com as seguintes condições:
 
