@@ -33,7 +33,7 @@ _Nivel Silver_
 | €1.200 EUR  | €500 EUR | €175 EUR     |
 | $1.700 CAD  | $700 CAD | $275 CAD     |
 
-Las tasas vencen anualmente a partir de la fecha del primer pago y se establecen en enero de cada año. Para una estimación en otra moneda, envía un correo electrónico a <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Directora de publicaciones</a>.
+Las tasas vencen anualmente a partir de la fecha del primer pago y se establecen en octubre de cada año. Para una estimación en otra moneda, envía un correo electrónico a <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Directora de publicaciones</a>.
 
 ## Beneficios de asociación
 
