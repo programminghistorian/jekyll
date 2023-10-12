@@ -52,22 +52,9 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
-## Soutien additionnel
+## Partenaires des anciens élèves
+Les institutions suivantes ont participé de notre programme de [Partenariat institutionnel](pi).
 
-Les organisations suivantes ont apporté ou continuent d'apporter un soutien allant de services en nature au financement de projets spécifiques:
-
-- Jisc & The National Archives (Royaume-Uni), '[Programming Historian publications: developing computational skills for digital collections](https://research.jiscinvolve.org/wp/2021/07/23/boost-your-skills-in-working-with-digital-collections/)' [2021-2022].
-- UCL, Faculty of Arts & Humanities, Royaume-Uni [2021].
-- [Escola de Ciências Sociais FGV CPDOC](https://portal.fgv.br), "Literacia digital: modelando competências digitais para humanistas e cientistas sociais", Brésil [2021-2022].
-- Fundação para a Ciência e Tecnologia, à travers le programme de soutien '[Verão com Ciência 2021](https://www.uevora.pt/investigar/projetos?id=5261)', Portugal [September 2021]
-- The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Royaume-Uni [2021].
-- University of Sussex, Royaume-Uni:
-    - University of Sussex Library [2020-actuellement].
-    - School of History, Art History and Philosophy, University of Sussex [2019].
-    - [ESRC Impact Accelerator Account, University of Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/), [2019].
-- [British Academy](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/) pour le financement d’un atelier d’écriture à Bogota en Colombie [2018].
-- dSHARP lab at Carnegie Mellon University, financé par la fondation Andrew W. Mellon, États-Unis [2018-2020].
-- Nouvelle initiative Canadienne en histoire de l'environnement, Canada [2011-2013].
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), États-Unis [2011-2022].
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Royaume-Uni [2021-2022].
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library-digital), Royaume-Uni [2020].
@@ -75,6 +62,26 @@ Les organisations suivantes ont apporté ou continuent d'apporter un soutien all
 - [Center for Spatial and Textual Analysis (CESTA)](https://cesta.stanford.edu/), Stanford University, États-Unis [2021].
 - [Transkribus - READ COOP](https://readcoop.eu/), Autriche [2022].
 - [RStudio/Posit](https://posit.co/), États-Unis [2022].
+
+## Soutien additionnel
+Les organisations suivantes ont apporté ou continuent d'apporter un soutien allant de services en nature au financement de projets spécifiques:
+
+### Actifs
+- University of Sussex Library, Royaume-Uni [2020-actuellement].
+  
+### Passé
+
+- Jisc & The National Archives (Royaume-Uni), '[Programming Historian publications: developing computational skills for digital collections](https://research.jiscinvolve.org/wp/2021/07/23/boost-your-skills-in-working-with-digital-collections/)' [2021-2022].
+- Faculty of Arts & Humanities, University College London, Royaume-Uni [2021].
+- [Escola de Ciências Sociais FGV CPDOC](https://portal.fgv.br), "Literacia digital: modelando competências digitais para humanistas e cientistas sociais", Brésil [2021-2022].
+- Fundação para a Ciência e Tecnologia, à travers le programme de soutien '[Verão com Ciência 2021](https://www.uevora.pt/investigar/projetos?id=5261)', Portugal [September 2021]
+- The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Royaume-Uni [2021].
+- School of History, Art History and Philosophy, University of Sussex, Royaume-Uni [2019].
+- [ESRC Impact Accelerator Account, University of Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/), Royaume-Uni [2019].
+- [British Academy](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/) pour le financement d’un atelier d’écriture à Bogota en Colombie [2018].
+- dSHARP lab at Carnegie Mellon University, financé par la fondation Andrew W. Mellon, États-Unis [2018-2020].
+- Nouvelle initiative Canadienne en histoire de l'environnement, Canada [2011-2013].
+
 
 ## Parrainage individuel
 
