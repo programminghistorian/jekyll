@@ -35,7 +35,7 @@ _Niveau Silver_
 | 1 400 USD  | 600 USD | 200 USD  |
 
 
-Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en janvier de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Responsable de la publication</a>.
+Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en octobre de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Responsable de la publication</a>.
 
 
 ## Avantages du partenariat
