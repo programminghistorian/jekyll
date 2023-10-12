@@ -32,7 +32,7 @@ _Silver Tier_
 | €1,200 EUR  | €500 EUR | €175 EUR  |
 | $1,700 CAD  | $700 CAD | $275 CAD  | 
 
-Rates are due annually from the date of first payment and are set in January each year. For a quote in another currency please email <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Publishing Manager</a>.
+Rates are due annually from the date of first payment and are set in October each year. For a quote in another currency please email <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Publishing Manager</a>.
 
 ## Benefits of Membership
 
