@@ -11,13 +11,11 @@ original: supporters
 *The Programming Historian en español* agradece su apoyo a nuestros seguidores pasados y actuales por permitirnos ofrecer estos recursos al mundo, de forma gratuita en el punto de acceso a lectores en cualquier lugar.
 
 ## Colaboración en nivel Gold 
-
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
 
 ## Instituciones asociadas
-
 Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 
 - [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Bélgica
@@ -54,22 +52,9 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 
 Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 
-## Colaboradores adicionales
+## Asociados alumni
+Antiguos contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 
-Organizaciones que han o continúan brindando apoyo en forma de contribución en especie hasta financiamiento específico para proyectos.
-
-- Jisc & The National Archives (Reino Unido), '[Programming Historian publications: developing computational skills for digital collections](https://research.jiscinvolve.org/wp/2021/07/23/boost-your-skills-in-working-with-digital-collections/)' [2021-2022].
-- UCL, Faculty of Arts & Humanities, Reino Unido [2021].
-- [Escola de Ciências Sociais FGV CPDOC](https://portal.fgv.br), "Literacia digital: modelando competências digitais para humanistas e cientistas sociais", Brasil [2021-2022].
-- Fundação para a Ciência e Tecnologia, a través de su programa especializado '[Verão com Ciência 2021](https://www.uevora.pt/investigar/projetos?id=5261)', Portugal [septiembre 2021].
-- The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Reino Unido [2021].
-- University of Sussex, Reino Unido:
-    - University of Sussex Library [2020-Presente].
-    - School of History, Art History and Philosophy, University of Sussex [2019].
-    - [ESRC Impact Accelerator Account, University of Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/), [2019].
-- The British Academy [Writing Workshops funding scheme](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/), Reino Unido [2018].
-- dSHARP lab at Carnegie Mellon University patrocinado por the Andrew W. Mellon Foundation, Estados Unidos [2018-2020].
-- The Network in Canadian History & Environment, Canadá [2011-2013].
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos [2011-2022].
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido [2021-2022].
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library-digital), Reino Unido [2020].
@@ -77,6 +62,24 @@ Organizaciones que han o continúan brindando apoyo en forma de contribución en
 - [Center for Spatial and Textual Analysis (CESTA)](https://cesta.stanford.edu/), Stanford University, Estados Unidos [2021].
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria [2022].
 - [RStudio/Posit](https://posit.co/), Estados Unidos [2022].
+
+## Colaboradores adicionales
+Organizaciones que han o continúan brindando apoyo en forma de contribución en especie hasta financiamiento específico para proyectos.
+
+### Activo
+University of Sussex Library, Reino Unido [2020-Presente].
+
+### Pasado
+- Jisc & The National Archives (Reino Unido), '[Programming Historian publications: developing computational skills for digital collections](https://research.jiscinvolve.org/wp/2021/07/23/boost-your-skills-in-working-with-digital-collections/)' [2021-2022].
+- Faculty of Arts & Humanities, University College London, Reino Unido [2021].
+- [Escola de Ciências Sociais FGV CPDOC](https://portal.fgv.br), "Literacia digital: modelando competências digitais para humanistas e cientistas sociais", Brasil [2021-2022].
+- Fundação para a Ciência e Tecnologia, a través de su programa especializado '[Verão com Ciência 2021](https://www.uevora.pt/investigar/projetos?id=5261)', Portugal [septiembre 2021].
+- The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Reino Unido [2021].
+- School of History, Art History and Philosophy, University of Sussex, Reino Unido [2019].
+- [ESRC Impact Accelerator Account, University of Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/), Reino Unido [2019].
+- The British Academy [Writing Workshops funding scheme](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/), Reino Unido [2018].
+- dSHARP lab at Carnegie Mellon University patrocinado por the Andrew W. Mellon Foundation, Estados Unidos [2018-2020].
+- The Network in Canadian History & Environment, Canadá [2011-2013].
 
 ## Colaboradores individuales
 
