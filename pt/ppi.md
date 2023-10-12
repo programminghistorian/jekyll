@@ -35,7 +35,7 @@ _Nível Silver_
 
 Se a sua instituição tem recursos para nos oferecer um suporte ainda maior, também damos as boas-vindas a parcerias no nosso nível Gold. As taxas de parceria do nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. As instituições parceiras de nível ouro tem dois workshops personalizados por ano para ajudar suas comunidades a usar ferramentas e métodos de humanidades digitais.
 
-As taxas são anuais e consideramos a contagem a partir da data do primeiro pagamento. Os valores são definidos em Janeiro de cada ano. Para uma cotação em outra moeda, por favor, envie um e-mail para [Anisa Hawes, Gestora de publicações](mailto:admin@programminghistorian.org).
+As taxas são anuais e consideramos a contagem a partir da data do primeiro pagamento. Os valores são definidos em outubro de cada ano. Para uma cotação em outra moeda, por favor, envie um e-mail para [Anisa Hawes, Gestora de publicações](mailto:admin@programminghistorian.org).
 
 ## Benefícios da adesão
 
