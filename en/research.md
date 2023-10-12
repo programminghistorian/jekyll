@@ -90,7 +90,7 @@ The project team and members of the wider community are involved in a number of 
 ## Posters, Conference Papers, & Invited Talks
 
 * Adam Crymble, 'Local/Global Digital Skills in the Humanities: Which Digital Skills to Scholars Need Here?' Research Institute for Humanities. Chinese University of Hong Kong (3 October 2023).
-* Daniel Alves & Joana Vieira Paulino, 'IHC’s Digital Humanities Lab: collaborative and interdisciplinary projects with digital methods', Rutter Training School. The long life of manuscripts: from material to immaterial texts, Lisbon, Lisbon University (11-15 September 2023).
+* Daniel Alves & Joana Vieira Paulino, 'IHC’s Digital Humanities Lab: collaborative and interdisciplinary projects with digital methods', The long life of manuscripts: from material to immaterial texts, Rutter Training School, Lisbon University, Lisbon, (11-15 September 2023).
 * James Baker & Paola Marchionni, '[Research Talk: Skills for artificial intelligence](https://soundcloud.com/user-565922160/research-talk-skills-for-artificial-intelligence-james-baker?in=user-565922160/sets/research-talk-podcast)', Jisc, (June 2023).
 * Riva Quiroga, 'El proceso de revisión abierta entre pares en _Programming Historian_', Facultad de Comunicación e Información, Universidad de Puerto Rico [Online], (18 May 2023).
 * Daniel Alves, 'Parcerias entre História e Computação: o caso do Programming Historian em português', Instituto Federal de Educação, Ciência e Tecnologia do Maranhão, Brazil, (4 May 2023).
