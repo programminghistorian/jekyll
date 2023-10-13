@@ -36,7 +36,7 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Reino Unido
 - [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Alemania
 - [MIT Libraries](https://libraries.mit.edu/), Estados Unidos
-- [University of Nebraska-Lincoln](https://www.unl.edu/), Estados Unidos
+- [Center for Digital Research in the Humanities, University of Nebraska-Lincoln](http://cdrh.unl.edu/), Estados Unidos
 - [The National Archives](https://www.nationalarchives.gov.uk/), Reino Unido
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
 - [Purdue University](https://www.purdue.edu/), Estados Unidos
