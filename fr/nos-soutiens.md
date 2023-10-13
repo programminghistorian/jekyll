@@ -34,7 +34,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Royaume-Uni
 - [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Allemagne
 - [MIT Libraries](https://libraries.mit.edu/), États-Unis
-- [University of Nebraska-Lincoln](https://www.unl.edu/), États-Unis
+- [Center for Digital Research in the Humanities, University of Nebraska-Lincoln](http://cdrh.unl.edu/), États-Unis
 - [The National Archives](https://www.nationalarchives.gov.uk/), Royaume-Uni
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), États-Unis
 - [Purdue University](https://www.purdue.edu/), États-Unis
