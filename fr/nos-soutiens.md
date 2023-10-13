@@ -52,7 +52,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
-## Anciens élèves partenaires
+## Partenariats révolus
 Les institutions suivantes ont participé à de notre programme de [Partenariat institutionnel](pi).
 
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), États-Unis [2011-2022].
