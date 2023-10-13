@@ -8,7 +8,7 @@ original: supporters
 
 # Nuestros colaboradores
 
-*The Programming Historian en español* agradece su apoyo a nuestros seguidores pasados y actuales por permitirnos ofrecer estos recursos al mundo, de forma gratuita en el punto de acceso a lectores en cualquier lugar.
+*Programming Historian en español* agradece su apoyo a nuestros contribuidores pasados y actuales por permitirnos ofrecer recursos de forma gratuita y con acceso abierto a lectores de todo el mundo.
 
 ## Colaboración en nivel Gold 
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
@@ -16,7 +16,7 @@ original: supporters
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
 
 ## Instituciones asociadas
-Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
+Contribuidores de nuestro [Programa de Instituciones Asociadas](pia).
 
 - [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Bélgica
 - [Western University Library](https://www.lib.uwo.ca/), Canadá
@@ -50,10 +50,10 @@ Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [Universiteit van Amsterdam](https://www.uva.nl/), Países Bajos
 - [Universiteit Gent](https://www.ugent.be/), Bélgica
 
-Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
+Son bienvenidas las consultas de potenciales contribuidores del [Programa de Instituciones Asociadas](pia).
 
-## Asociados alumni
-Antiguos contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
+## Alumni
+Antiguos contribuidores de nuestro [Programa de Instituciones Asociadas](pia).
 
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos [2011-2022].
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido [2021-2022].
@@ -64,12 +64,12 @@ Antiguos contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 - [RStudio/Posit](https://posit.co/), Estados Unidos [2022].
 
 ## Colaboradores adicionales
-Organizaciones que han o continúan brindando apoyo en forma de contribución en especie hasta financiamiento específico para proyectos.
+Organizaciones que han o continúan brindando apoyo en forma de contribuciones en especie o de financiamiento específico para proyectos.
 
-### Activo
+### Activos
 University of Sussex Library, Reino Unido [2020-Presente].
 
-### Pasado
+### Pasados
 - Jisc & The National Archives (Reino Unido), '[Programming Historian publications: developing computational skills for digital collections](https://research.jiscinvolve.org/wp/2021/07/23/boost-your-skills-in-working-with-digital-collections/)' [2021-2022].
 - Faculty of Arts & Humanities, University College London, Reino Unido [2021].
 - [Escola de Ciências Sociais FGV CPDOC](https://portal.fgv.br), "Literacia digital: modelando competências digitais para humanistas e cientistas sociais", Brasil [2021-2022].
@@ -113,4 +113,4 @@ En particular, agradecemos la contribución de los siguientes suscriptores de Pa
 
 ## Administración de donaciones y patrocinios
 
-[Anisa Hawes, Directora de publicaciones](mailto:admin@programminghistorian.org) administra las donaciones y los patrocinios.
+[Anisa Hawes, Directora de publicaciones](mailto:admin@programminghistorian.org), administra las donaciones y los patrocinios.
