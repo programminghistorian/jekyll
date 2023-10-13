@@ -52,8 +52,8 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
-## Partenaires des anciens élèves
-Les institutions suivantes ont participé de notre programme de [Partenariat institutionnel](pi).
+## Anciens élèves partenaires
+Les institutions suivantes ont participé à de notre programme de [Partenariat institutionnel](pi).
 
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), États-Unis [2011-2022].
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Royaume-Uni [2021-2022].
@@ -66,10 +66,10 @@ Les institutions suivantes ont participé de notre programme de [Partenariat ins
 ## Soutien additionnel
 Les organisations suivantes ont apporté ou continuent d'apporter un soutien allant de services en nature au financement de projets spécifiques:
 
-### Actifs
+### En cours
 - University of Sussex Library, Royaume-Uni [2020-actuellement].
   
-### Passé
+### Révolus
 
 - Jisc & The National Archives (Royaume-Uni), '[Programming Historian publications: developing computational skills for digital collections](https://research.jiscinvolve.org/wp/2021/07/23/boost-your-skills-in-working-with-digital-collections/)' [2021-2022].
 - Faculty of Arts & Humanities, University College London, Royaume-Uni [2021].
