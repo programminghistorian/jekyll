@@ -57,8 +57,9 @@ Al finalizar este tutorial, tendrás la capacidad de:
 Si bien VoyantTools puede trabajar con muchos tipos de formato (HTML, XML, PDF, RTF, y MS Word), en este tutorial utilizaramos el texto plano (.txt). El texto plano tienen tres ventajas fundamentales: no tiene ningún tipo de formato adicional, no requiere un programa especial y tampoco conocimiento extra. Los pasos para crear un corpus en texto plano son:
 
 ### 1. Buscar textos
-Lo primero que debes hacer es buscar la información que te interesa. Para este tutorial, [Riva Quiroga](https://twitter.com/rivaquiroga) y yo preparamos un corpus de los discursos anuales de presidentes de Argentina, Chile, Colombia, México y Perú[^1] entre 2006 y 2010, es decir dos años antes y después de la crisis económica de 2008. Este corpus ha sido liberado con una licencia [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es) y puedes usarlo siempre y cuando cites la fuente usando el siguiente identificador:
-[![DOI](https://zenodo.org/badge/143443132.svg)](https://zenodo.org/record/2547051#.XE9pc1z0mUk)
+Lo primero que debes hacer es buscar la información que te interesa. Para este tutorial, [Riva Quiroga](https://rivaquiroga.cl/) y yo preparamos un corpus de los discursos anuales de presidentes de Argentina, Chile, Colombia, México y Perú[^1] entre 2006 y 2010, es decir dos años antes y después de la crisis económica de 2008. Este corpus ha sido liberado con una licencia Creative Commons CC BY 4.0 y puedes usarlo siempre y cuando cites la fuente como sigue: 
+
+> Silvia Gutiérrez y Riva Quiroga. 'Corpusenespañol/discursos-presidenciales: 1.0 Primera Versión Del Corpus'. Zenodo, 23 de enero de 2019. [https://doi.org/10.5281/zenodo.2547051](https://doi.org/10.5281/zenodo.2547051).
 
 ### 2. Copiar en editor de texto plano
 Una vez localizada la información, el segundo paso es copiar el texto que te interesa desde la primera palabra dicha hasta la última y guardarla en un editor de texto sin formato. Por ejemplo:
