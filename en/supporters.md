@@ -33,7 +33,7 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), United Kingdom
 - [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Germany
 - [MIT Libraries](https://libraries.mit.edu/), United States
-- [University of Nebraska-Lincoln](https://www.unl.edu/), United States
+- [Center for Digital Research in the Humanities, University of Nebraska-Lincoln](http://cdrh.unl.edu/), United States
 - [The National Archives](https://www.nationalarchives.gov.uk/), United Kingdom
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), United States
 - [Purdue University](https://www.purdue.edu/), United States
