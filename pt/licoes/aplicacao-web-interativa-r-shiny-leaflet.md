@@ -5,7 +5,7 @@ original: shiny-leaflet-newspaper-map-tutorial
 layout: lesson
 collection: lessons
 date: 2022-10-19
-translation_date: 2023-MM-DD
+translation_date: 2023-10-14
 authors:
 - Yann Ryan
 reviewers:
@@ -18,9 +18,10 @@ translator:
 - Aracele Torres
 translation-editor:
 - Daniel Alves
-translation-reviewers:
+translation-reviewer:
 - Joana Malta
 - Juciane Pereira
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/513
 difficulty: 2
 activity: presenting
 topics: [mapping, website]
