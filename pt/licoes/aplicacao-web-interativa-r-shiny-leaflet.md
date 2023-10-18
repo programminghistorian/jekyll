@@ -47,7 +47,7 @@ Nesta lição, você irá aprender:
 -  O conceito e a prática de 'programação reativa', conforme implementado por aplicações Shiny. Especificamente, aprenderá como usar Shiny para 'entender' informações de input e como elas estão conectadas aos resultados a serem exibidos em sua aplicação.
 
 <div class="alert alert-info">
-Saiba que esta lição não ensina nenhuma codificação em R, além da suficiente para criar a aplicação, nem aborda a publicação da aplicação finalizada na Web. Um conhecimento básico em linguagem de programação R, particularmente com o [tidyverse](/pt/licoes/manipulacao-transformacao-dados-R) é recomendado.
+Saiba que esta lição não ensina nenhuma codificação em R, além da suficiente para criar a aplicação, nem aborda a publicação da aplicação finalizada na Web. Um conhecimento básico em linguagem de programação R, particularmente com o <a href='/pt/licoes/manipulacao-transformacao-dados-R'>tidyverse</a> é recomendado.
 </div>
 
 ### Interfaces Gráficas do Utilizador e Humanidades Digitais
