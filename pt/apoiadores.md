@@ -54,7 +54,7 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
-## Parceiros ex-alunos
+## Anteriores parceiros
 Antigos contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos [2011-2022].
@@ -66,7 +66,7 @@ Antigos contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi)
 - [RStudio/Posit](https://posit.co/), Estados Unidos [2022].
 
 
-## Apoiadores adicionais
+## Parceiros adicionais
 Organizações que contribuíram ou continuam a dar apoio em forma de serviços, em espécie e até financiamento para projetos específicos.
 
 ### Ativo
