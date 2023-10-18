@@ -33,7 +33,7 @@ _Nivel Silver_
 | €1.200 EUR  | €500 EUR | €175 EUR     |
 | $1.700 CAD  | $700 CAD | $275 CAD     |
 
-Las tasas vencen anualmente a partir de la fecha del primer pago y se establecen en enero de cada año. Para una estimación en otra moneda, envía un correo electrónico a <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
+Las tasas vencen anualmente a partir de la fecha del primer pago y se establecen en octubre de cada año. Para una estimación en otra moneda, envía un correo electrónico a <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Directora de publicaciones</a>.
 
 ## Beneficios de asociación
 
@@ -57,7 +57,7 @@ Al unirte al Programa de Instituciones Asociadas recibirás los siguientes benef
 </div>
 
 
-Para convertirse en una institución asociada debes enviar un correo electrónico al <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a> con el asunto “Programa de Instituciones Asociadas”. En el correo electrónico puedes incluir cualquier documento interno, tales como formularios de registro de proveedores. El correo debe incluir la siguiente información:
+Para convertirse en una institución asociada debes enviar un correo electrónico al <a href="mailto:admin@programminghistorian.org">Anisa Hawes</a> con el asunto “Programa de Instituciones Asociadas”. En el correo electrónico puedes incluir cualquier documento interno, tales como formularios de registro de proveedores. El correo debe incluir la siguiente información:
 
 <ul>
 <li>Nombre</li>
@@ -84,7 +84,7 @@ Todas las membresías están sujetas a la aprobación del equipo de *Programming
 
 ## ¿Quieres hacer una consulta?
 
-Estaremos encantados de conversar sobre lo que hacemos y cómo utilizamos tu apoyo. <a href="mailto:programminghistorian@gmail.com">Envíanos un mensaje </a> y podemos organizar una taza virtual de café o té.
+Estaremos encantados de conversar sobre lo que hacemos y cómo utilizamos tu apoyo. <a href="mailto:admin@programminghistorian.org">Envíanos un mensaje </a> y podemos organizar una taza virtual de café o té.
 
 
 ## Preguntas frecuentes
