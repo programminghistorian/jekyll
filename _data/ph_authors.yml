@@ -2995,3 +2995,10 @@
   team_roles:
     - publishing-assistant
   status: institutionally-supported
+
+- name: Megan S. Kane
+  orcid: 0000-0003-1817-2751
+  team: false
+  bio:
+    en: |
+      Megan Kane is a PhD candidate in the English Department at Temple University.
