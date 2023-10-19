@@ -44,7 +44,7 @@ Though computational tools like spaCy can't read and comprehend the meaning of t
 Though spaCy was designed for industrial use in software development, researchers also find it valuable for several reasons: 
 *   It's [easy to set up and use spaCy's Trained Models and Pipelines](https://perma.cc/Q8QL-N3CX); there is no need to call a wide range of packages and functions for each individual task
 *   It uses [fast and accurate algorithms](https://perma.cc/W8AD-4QSN) for text-processing tasks, which are kept up-to-date by the developers so it's efficient to run  
-*   It [performs better on text-splitting tasks than Natural Language Toolkit (NLTK)](https://perma.cc/8989-S2Q6), because it constructs [syntactic trees](perma.cc/E6UJ-DZ9W) for each sentence
+*   It [performs better on text-splitting tasks than Natural Language Toolkit (NLTK)](https://perma.cc/8989-S2Q6), because it constructs [syntactic trees](https://perma.cc/E6UJ-DZ9W) for each sentence
 
 You may still be wondering: What is the value of extracting language data such as lemmas, part-of-speech tags, and named entities from a corpus? How can this data help researchers answer meaningful humanities research questions? To illustrate, let's look at the example corpus and questions developed for this lesson.
 
