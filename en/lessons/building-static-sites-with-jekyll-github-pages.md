@@ -569,7 +569,7 @@ If you run into an issue, [Jekyll has a page on troubleshooting](https://jekyllr
 
 ### Credits <a id="section9-2"></a>
 
-Thanks to *Programming Historian* Editor Fred Gibbs for editing, discussing, and reviewing this lesson; Paige Morgan and Jaime Howe for reviewing this lesson; Scott Weingart and students for testing the lesson with Windows; Tod Robbins and Matthew Lincoln for suggestions on the [DH Slack](http://tinyurl.com/DHSlack) on what to cover in this lesson; and Roxanne Shirazi for solutions to possible permission and navigation problems.
+Thanks to *Programming Historian* Editor Fred Gibbs for editing, discussing, and reviewing this lesson; Paige Morgan and Jaime Howe for reviewing this lesson; Scott Weingart and students for testing the lesson with Windows; Tod Robbins and Matthew Lincoln for suggestions on the [DH Slack](https://digitalhumanities.slack.com) on what to cover in this lesson; and Roxanne Shirazi for solutions to possible permission and navigation problems.
 
 The Editorial Board would like to thank [spswanz](https://github.com/spswanz) for pointing out to a bug in the [Ruby & Ruby Gems](#section2-3) section. 
 
@@ -585,4 +585,4 @@ Check out the following links for documentation, inspiration, and further readin
 * Eduardo Bouças, ["An Introduction to Static Site Generators"](https://davidwalsh.name/introduction-static-site-generators)
 * [Jekyll Style Guide](http://ben.balter.com/jekyll-style-guide/)
 * The [Prose](http://prose.io/) content editor (built on Jekyll)
-* [Join the Digital Humanities Slack](http://tinyurl.com/DHslack) (anyone can join, even if you have no DH experience) and check out the #publishing channel for discussions of Jekyll and other DH publishing platforms
+* [Join the Digital Humanities Slack](https://digitalhumanities.slack.com) (anyone can join, even if you have no DH experience) and check out the #publishing channel for discussions of Jekyll and other DH publishing platforms
