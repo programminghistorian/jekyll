@@ -643,7 +643,7 @@ Si encuentras algún problema, [Jekyll tiene una página para problemas, conocid
 
 ### Creditos <a id="section9-2"></a>
 
-Gracias a Fred Gibbs, editor del *Programming Historian* por editar, debatir y revisar la lección original. A Paige Morgan por revisar la lección; a Scott Weingart y sus estudiantes por poner en práctica y testear esta lección en Windows; a Tod Robbins y Matthew Lincoln por sugerencias en [DH Slack](http://tinyurl.com/DHSlack) sobre lo que debería enseñar esta lección. Asimismo, agradecemos a Marc Bria por su revisión y sugerencias con respecto a la traducción de esta lección al español.
+Gracias a Fred Gibbs, editor del *Programming Historian* por editar, debatir y revisar la lección original. A Paige Morgan por revisar la lección; a Scott Weingart y sus estudiantes por poner en práctica y testear esta lección en Windows; a Tod Robbins y Matthew Lincoln por sugerencias en [DH Slack](https://digitalhumanities.slack.com) sobre lo que debería enseñar esta lección. Asimismo, agradecemos a Marc Bria por su revisión y sugerencias con respecto a la traducción de esta lección al español.
 
 ### Lecturas <a id="section9-3"></a>
 
@@ -657,4 +657,4 @@ Puedes visitar estos sitios para más documentación, inspiración y para aprend
 * Eduardo Bouças, ["An Introduction to Static Site Generators"](https://davidwalsh.name/introduction-static-site-generators)
 * [Guía de estilo de Jekyll](https://ben.balter.com/jekyll-style-guide/)
 * [Prose](https://prose.io/): editor de contenido (creado en Jekyll)
-* [Únete al Slack sobre humanidades digitales](https://tinyurl.com/DHslack) (cualquiera puede sumarse; no se necesita saber sobre humanidades digitales) y súmate a los debates acerca de Jekyll y otras plataformas de publicación en el canal #publishing.
+* [Únete al Slack sobre humanidades digitales](https://digitalhumanities.slack.com) (cualquiera puede sumarse; no se necesita saber sobre humanidades digitales) y súmate a los debates acerca de Jekyll y otras plataformas de publicación en el canal #publishing.
