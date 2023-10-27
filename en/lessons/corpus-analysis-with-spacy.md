@@ -3,7 +3,7 @@ title: "Corpus Analysis with SpaCy"
 slug: corpus-analysis-with-spacy
 layout: lesson
 collection: lessons
-date: 2023-10-19
+date: 2023-10-27
 authors:
 - Megan S. Kane
 reviewers:
@@ -463,7 +463,7 @@ sentence = sentences[1]
 displacy.render(sentence, style="dep", jupyter=True)
 ```
 
-{% include figure.html filename="or-en-corpus-analysis-with-spacy-11.png" alt="Dependency parse visualization of the sentence, 'There are two interesting phenomena in this research', with part-of-speech labels and arrows indicating dependencies between words." caption="Figure 11: Dependency parsing example from one sentence of one text in corpus" %}
+{% include figure.html filename="or-en-corpus-analysis-with-spacy-02.png" alt="Dependency parse visualization of the sentence, 'There are two interesting phenomena in this research', with part-of-speech labels and arrows indicating dependencies between words." caption="Figure 2: Dependency parsing example from one sentence of one text in corpus" %}
 
 If you'd like to review the output of this code as raw `.html`, you can download it [here](/assets/corpus-analysis-with-spacy/corpus-analysis-with-spacy-16.html) and open it with your browser. Here, spaCy has identified relationships between pronouns, verbs, nouns and other parts of speech in one sentence. For example, both "two" and "interesting" modify the noun "phenomena," and the pronoun "There" is an expletive filling the noun position before "are" without adding meaning to the sentence. 
 
@@ -486,7 +486,7 @@ sentence = sentences[0]
 displacy.render(sentence, style='dep', jupyter=True)
 ```
 
-{% include figure.html filename="or-en-corpus-analysis-with-spacy-12.png" alt="Dependency parse visualization of the sentence without stopwords, 'There interesting phenomena research', with part-of-speech labels and arrows indicating dependencies between words." caption="Figure 12: Dependency parsing example from one sentence of one text in corpus without stopwords" %}
+{% include figure.html filename="or-en-corpus-analysis-with-spacy-03.png" alt="Dependency parse visualization of the sentence without stopwords, 'There interesting phenomena research', with part-of-speech labels and arrows indicating dependencies between words." caption="Figure 3: Dependency parsing example from one sentence of one text in corpus without stopwords" %}
 
 If you'd like to review the output of this code as raw `.html`, you can download it [here](/assets/corpus-analysis-with-spacy/corpus-analysis-with-spacy-17.html). In this example, the verb of the sentence "are" has been removed, along with the adjective "two" and the words "in this" that made up the prepositional phrases. Not only do these removals prevent the sentence from being legible, but they also render some of the dependencies inaccurate; "phenomena research" is here identified as a compound noun, and "interesting" as modifying research instead of phenomena. 
 
@@ -581,7 +581,7 @@ doc = final_paper_df['Doc'][1]
 displacy.render(doc, style='ent', jupyter=True)
 ```
 
-{% include figure.html filename="or-en-corpus-analysis-with-spacy-15.png" alt="Visualization of a student text paragraph with named entities labeled and color-coded based on entity type." caption="Figure 15: Visualization of one text with named entity tags" %}
+{% include figure.html filename="or-en-corpus-analysis-with-spacy-04.png" alt="Visualization of a student text paragraph with named entities labeled and color-coded based on entity type." caption="Figure 4: Visualization of one text with named entity tags" %}
 
 If you'd like to review the output of this code as raw `.html`, you can download it [here](/assets/corpus-analysis-with-spacy/corpus-analysis-with-spacy-20.html). Named entity recognition enables researchers to take a closer look at the 'real-world objects' that are present in their texts. The rendering allows for close-reading of these entities in context, their distinctions helpfully color-coded. In addition to studying named entities that spaCy automatically recognizes, you can use a training dataset to update the categories or create a new entity category, as in [this example](https://perma.cc/TLT6-U88T).
 
@@ -697,7 +697,7 @@ Here we can examine the differences between average part-of-speech usage per gen
 
 We can visualize these differences using a bar graph:
 
-{% include figure.html filename="or-en-corpus-analysis-with-spacy-20.png" alt="Bar chart depicting average use of adjectives, verbs and numbers in English versus Biology papers, showing verbs used most and numbers used least in both disciplines, more verbs used in English papers and more adjectives and numbers used in Biology papers." caption="Figure 20: Bar graph showing verb use, adjective use and numeral use, on average, in Biology and English papers" %}
+{% include figure.html filename="or-en-corpus-analysis-with-spacy-05.png" alt="Bar chart depicting average use of adjectives, verbs and numbers in English versus Biology papers, showing verbs used most and numbers used least in both disciplines, more verbs used in English papers and more adjectives and numbers used in Biology papers." caption="Figure 5: Bar graph showing verb use, adjective use and numeral use, on average, in Biology and English papers" %}
 
 Though admittedly a simple analysis, calculating part-of-speech frequency counts affirms prior studies which posit a correlation between lexico-grammatical features and disciplinary conventions, suggesting this application of spaCy can be adapted to serve other researchers' corpora and part-of-speech usage queries[^10]. 
 
@@ -748,7 +748,7 @@ Now, our DataFrame contains average counts of each fine-grained part-of-speech:
 
 As evidenced by the above DataFrame, spaCy identifies around 50 fine-grained part-of-speech tags. Researchers can investigate trends in the average usage of any or all of them. For example, is there a difference in the average usage of past tense versus present tense verbs in English and Biology papers? Three fine-grained tags that could help with this analysis are `VBD` (past tense verbs), `VBP` (non third-person singular present tense verbs), and `VBZ` (third-person singular present tense verbs). 
 
-{% include figure.html filename="or-en-corpus-analysis-with-spacy-22.png" alt="Bar chart depicting average use of three verb types (past-tense, third- and non-third person present tense) in English versus Biology papers, showing third-person present tense verbs used most in both disciplines, many more third-person present tense verbs used in English papers than the other two types and more past tense verbs used in Biology papers." caption="Figure 22: Graph of average usage of three verb types (past tense, third- and non-third person present tense) in English and Biology papers" %}
+{% include figure.html filename="or-en-corpus-analysis-with-spacy-06.png" alt="Bar chart depicting average use of three verb types (past-tense, third- and non-third person present tense) in English versus Biology papers, showing third-person present tense verbs used most in both disciplines, many more third-person present tense verbs used in English papers than the other two types and more past tense verbs used in Biology papers." caption="Figure 6: Graph of average usage of three verb types (past tense, third- and non-third person present tense) in English and Biology papers" %}
 
 Graphing these annotations reveals a fairly even distribution of the usage of the three verb types in Biology papers. However, in English papers, an average of 130 third-person singular tense part-of-speech verbs are used per paper, in compared to around 40 of the other two categories. What these differences indicate about the genres is not immediately discernible, but it does indicate spaCy's value in identifying patterns of linguistic annotations for further exploration by computational and close-reading methods.
 
@@ -793,7 +793,7 @@ Reviewing the DataFrame now, our column headings define each paper's genre and f
 
 From here, we can compare the average usage of each named entity and plot across paper type.
 
-{% include figure.html filename="or-en-corpus-analysis-with-spacy-24.png" alt="Bar chart depicting average use of named entities across seven genres, with highest counts of PERSON and DATE tags across all genres, with more date tags used in proposals, research papers and creative writing papers and more person tags used in argumentative essays, critique/evaluations, reports and response papers." caption="Figure 24: Bar chart depicting average use of Person, Location, Date, and Work of Art named entities across genres" %}
+{% include figure.html filename="or-en-corpus-analysis-with-spacy-07.png" alt="Bar chart depicting average use of named entities across seven genres, with highest counts of PERSON and DATE tags across all genres, with more date tags used in proposals, research papers and creative writing papers and more person tags used in argumentative essays, critique/evaluations, reports and response papers." caption="Figure 7: Bar chart depicting average use of Person, Location, Date, and Work of Art named entities across genres" %}
 
 As hypothesized at the start of this lesson: more dates and numbers are used in description-heavy proposals and research papers, while more people and works of art are referenced in arguments and critiques/evaluations. Both of these hypotheses are predicated on engaging with and assessing other scholarship. 
 
