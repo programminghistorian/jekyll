@@ -655,6 +655,7 @@ pos_counts.head()
 This table shows the DataFrame including appearance counts of each part-of-speech in English and Biology papers. Notice that our column headings define the paper discipline and the part-of-speech tags counted.
 
 <div class="table-wrapper" markdown="block">
+ 
    | DISCIPLINE | ADJ | ADP | ADV | AUX | CCONJ | DET | INTJ | NOUN | NUM | PART | PRON | PROPN | PUNCT | SCONJ | VERB | SYM | X
 -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --
 0| Biology | 180 | 174 | 62 | 106 | 42 | 137 | 1 | 342 | 29 | 29 | 41 | 101 | 196 | 16 | 139 | NaN | NaN
@@ -685,6 +686,7 @@ average_pos_df
 Our DataFrame now contains average counts of each part-of-speech tag within each discipline (Biology and English):
 
 <div class="table-wrapper" markdown="block">
+ 
    | DISCIPLINE | ADJ | ADP | ADV | AUX | CCONJ | DET | INTJ | NOUN | NUM | PART | PRON | PROPN | PUNCT | SCONJ | VERB | SYM | X
 -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --
 0| Biology | 237.0 | 299.0 | 93.0 | 141.0 | 89.0 | 234.0 | 1.0 | 614.0 | 81.0 | 44.0 | 74.0 | 194.0 | 343.0 | 50.0 | 237.0 | 8.0 | 6.0
@@ -737,6 +739,7 @@ average_tag_df
 Now, our DataFrame contains average counts of each fine-grained part-of-speech:
 
 <div class="table-wrapper" markdown="block">
+ 
    | DISCIPLINE | POS | RB | JJR | NNS | IN | VBG | RBR | RBS | -RRB- | ... | FW | LS | WP$ | NFP | AFX | $ | `` | XX | ADD | ''
 -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --
 0 | Biology | 5.0 | 94.0 | 10.0 | 198.0 | 339.0 | 35.0 | 6.0 | 4.0 | 38.0 | ... | 2.0 | 3.0 | 1.0 | 16.0 | 3.0 | 6.0 | 2.0 | 5.0 | 3.0 | 2.0
