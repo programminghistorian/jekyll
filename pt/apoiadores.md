@@ -51,6 +51,7 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 - [University of Florida](https://www.ufl.edu/), Estados Unidos
 - [Universiteit van Amsterdam](https://www.uva.nl/), Países Baixos
 - [Universiteit Gent](https://www.ugent.be/), Bélgica
+- [University of Exeter](https://www.exeter.ac.uk/), Reino Unido
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
