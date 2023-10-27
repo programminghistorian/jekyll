@@ -654,9 +654,10 @@ pos_counts.head()
 
 This table shows the DataFrame including appearance counts of each part-of-speech in English and Biology papers. Notice that our column headings define the paper discipline and the part-of-speech tags counted.
 
+<div class="table-wrapper" markdown="block">
    | DISCIPLINE | ADJ | ADP | ADV | AUX | CCONJ | DET | INTJ | NOUN | NUM | PART | PRON | PROPN | PUNCT | SCONJ | VERB | SYM | X
 -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --
-0 | Biology | 180 | 174 | 62 | 106 | 42 | 137 | 1 | 342 | 29 | 29 | 41 | 101 | 196 | 16 | 139 | NaN | NaN
+0| Biology | 180 | 174 | 62 | 106 | 42 | 137 | 1 | 342 | 29 | 29 | 41 | 101 | 196 | 16 | 139 | NaN | NaN
 1| Biology | 421 | 458 | 174 | 253 | 187 | 389 | 1 | 868 | 193 | 78 | 121 | 379 | 786 | 99 | 389 | 1.0 | 2.0
 2| Biology | 163 | 171 | 63 | 91 | 51 | 148 | 1 | 362 | 6 | 31 | 23 | 44 | 134 | 15 | 114 | 4.0 | 1.0
 3| Biology | 318 | 402 | 120 | 267 | 121 | 317 | 1 | 908 | 101 | 93 | 128 | 151 | 487 | 92 | 387 | 4.0 | NaN
@@ -667,7 +668,7 @@ This table shows the DataFrame including appearance counts of each part-of-speec
 162 | English | 487 | 715 | 175 | 240 | 324 | 500 | 2 | 1474 | 55 | 157 | 334 | 226 | 820 | 147 | 691 | 7.0 | 5.0
 163 | English | 68 | 94 | 23 | 34 | 26 | 79 | 3 | 144 | 2 | 25 | 36 | 54 | 80 | 22 | 69 | 1.0 | 2.0
 164 | English | 53 | 86 | 27 | 28 | 19 | 90 | 1 | 148 | 6 | 15 | 37 | 43 | 80 | 15 | 67 | NaN | NaN
-
+</div>
 
 Now you can calculate the amount of times, on average, that each part-of-speech appears in Biology versus English papers. To do so, you use the `.groupby()` and `.mean()` functions to group all part-of-speech counts from the Biology texts together and calculate the mean usage of each part-of-speech, before doing the same for the English texts. The following code also rounds the counts to the nearest whole number:
 
@@ -683,10 +684,12 @@ average_pos_df
 
 Our DataFrame now contains average counts of each part-of-speech tag within each discipline (Biology and English):
 
+<div class="table-wrapper" markdown="block">
    | DISCIPLINE | ADJ | ADP | ADV | AUX | CCONJ | DET | INTJ | NOUN | NUM | PART | PRON | PROPN | PUNCT | SCONJ | VERB | SYM | X
 -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --
-0 | Biology | 237.0 | 299.0 | 93.0 | 141.0 | 89.0 | 234.0 | 1.0 | 614.0 | 81.0 | 44.0 | 74.0 | 194.0 | 343.0 | 50.0 | 237.0 | 8.0 | 6.0
+0| Biology | 237.0 | 299.0 | 93.0 | 141.0 | 89.0 | 234.0 | 1.0 | 614.0 | 81.0 | 44.0 | 74.0 | 194.0 | 343.0 | 50.0 | 237.0 | 8.0 | 6.0
 1| English | 211.0 | 364.0 | 127.0 | 141.0 | 108.0 | 283.0 | 2.0 | 578.0 | 34.0 | 99.0 | 223.0 | 189.0 | 367.0 | 70.0 | 306.0 | 7.0 | 5.0
+</div>
 
 Here we can examine the differences between average part-of-speech usage per genre. As suspected, Biology student papers use slightly more adjectives (235 per paper on average) than English student papers (209 per paper on average), while an even greater number of verbs (306) are used on average in English papers than in Biology papers (237). Another interesting contrast is in the `NUM` tag: almost 50 more numbers are used in Biology papers, on average, than in English papers. Given the conventions of scientific research, this does makes sense; studies are much more frequently quantitative, incorporating lab measurements and statistical calculations. 
 
@@ -733,10 +736,12 @@ average_tag_df
 
 Now, our DataFrame contains average counts of each fine-grained part-of-speech:
 
+<div class="table-wrapper" markdown="block">
    | DISCIPLINE | POS | RB | JJR | NNS | IN | VBG | RBR | RBS | -RRB- | ... | FW | LS | WP$ | NFP | AFX | $ | `` | XX | ADD | ''
 -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --
-0 |Biology | 5.0 | 94.0 | 10.0 | 198.0 | 339.0 | 35.0 | 6.0 | 4.0 | 38.0 | ... | 2.0 | 3.0 | 1.0 | 16.0 | 3.0 | 6.0 | 2.0 | 5.0 | 3.0 | 2.0
+0 | Biology | 5.0 | 94.0 | 10.0 | 198.0 | 339.0 | 35.0 | 6.0 | 4.0 | 38.0 | ... | 2.0 | 3.0 | 1.0 | 16.0 | 3.0 | 6.0 | 2.0 | 5.0 | 3.0 | 2.0
 1 | English | 35.0 | 138.0 | 7.0 | 141.0 | 414.0 | 50.0 | 6.0 | 3.0 | 25.0 | ... | 2.0 | 2.0 | 2.0 | 3.0 | NaN | 1.0 | 3.0 | 5.0 | 3.0 | 5.0
+</div>
 
 As evidenced by the above DataFrame, spaCy identifies around 50 fine-grained part-of-speech tags. Researchers can investigate trends in the average usage of any or all of them. For example, is there a difference in the average usage of past tense versus present tense verbs in English and Biology papers? Three fine-grained tags that could help with this analysis are `VBD` (past tense verbs), `VBP` (non third-person singular present tense verbs), and `VBZ` (third-person singular present tense verbs). 
 
