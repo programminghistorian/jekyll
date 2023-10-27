@@ -49,6 +49,7 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](pia).
 - [University of Florida](https://www.ufl.edu/), Estados Unidos
 - [Universiteit van Amsterdam](https://www.uva.nl/), Países Bajos
 - [Universiteit Gent](https://www.ugent.be/), Bélgica
+- [University of Exeter](https://www.exeter.ac.uk/), Reino Unido
 
 Son bienvenidas las consultas de potenciales contribuidores del [Programa de Instituciones Asociadas](pia).
 
