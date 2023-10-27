@@ -49,6 +49,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [University of Florida](https://www.ufl.edu/), États-Unis
 - [Universiteit van Amsterdam](https://www.uva.nl/), Pays-Bas
 - [Universiteit Gent](https://www.ugent.be/), Belgique
+- [University of Exeter](https://www.exeter.ac.uk/), Royaume-Uni
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
