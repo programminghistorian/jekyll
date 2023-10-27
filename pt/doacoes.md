@@ -33,7 +33,7 @@ Com doações de $5, $10 ou $15 por mês, você consegue ingressar em nossa cres
 
 # Doações pontuais
 
-Doações únicas podem ser feitas para o _Programming Historian_ via [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), transferência bancária (Lloyds Bank, número de conta 55263268, código bancário 30-96-26), ou cheque (à ordem de ‘ProgHist Ltd’ e enviado para ‘The Programming Historian, c/o West & Berry, Mocatta House, Trafalgar Place, Brighton, United Kingdom, BN1 4DU’). Para doações através de transferência bancária e cheque, ficaríamos gratos se escrevesse para o e-mail [admin@programminghistorian.org](mailto:admin@programminghistorian.org) para sabermos quem é e por que decidiu apoiar o nosso trabalho.
+Doações únicas podem ser feitas para o _Programming Historian_ via [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), transferência bancária (Lloyds Bank, número de conta 55263268, código bancário 30-96-26), ou cheque (à ordem de ‘ProgHist Ltd’ e enviado para ‘The Programming Historian, c/o West & Berry, Mocatta House, Trafalgar Place, Brighton, United Kingdom, BN1 4DU’). Para doações através de transferência bancária e cheque, ficaríamos gratos se [escrevesse o e-mail](mailto:admin@programminghistorian.org) para sabermos quem é e por que decidiu apoiar o nosso trabalho..
 
 # Suporte Organizacional
 
