@@ -3,7 +3,7 @@ title: "Corpus Analysis with SpaCy"
 slug: corpus-analysis-with-spacy
 layout: lesson
 collection: lessons
-date: 2023-10-27
+date: 2023-11-01
 authors:
 - Megan S. Kane
 reviewers:
@@ -330,7 +330,7 @@ As with the function used to create Doc objects, the `token` function can be app
 final_paper_df['Tokens'] = final_paper_df['Doc'].apply(get_token)
 ```
 
-If we compare the **Text** and **Tokens** column, we find a couple of differences. In the table below, you'll notice that most importantly, the words, spaces, and punctuation markers in the **Tokens** column are separated by commas, indicating that each have been parsed as individual tokens. The text in the **Tokens** column is also bracketed; this indicates that tokens have been generated as a list. We'll discuss how and when to transform the lists to strings to conduct frequency counts below.
+If we compare the **Text** and **Tokens** column, we find a couple of differences. In the table below, you'll notice that most importantly, the words, spaces, and punctuation markers in the **Tokens** column are separated by commas, indicating that each have been parsed as individual tokens. The text in the **Tokens** column is also bracketed; this indicates that tokens have been generated as a list.
 
    | Text | Tokens
 -- | -- | --
@@ -415,44 +415,39 @@ def extract_proper_nouns(doc):
 final_paper_df['Proper_Nouns'] = final_paper_df['Doc'].apply(extract_proper_nouns)
 ```
 
-Listing the nouns in each text can help us ascertain the texts' subjects.
+Listing the nouns in each text can help us ascertain the texts' subjects. Let's list the nouns in two different texts, the text located in row 3 of the DataFrame and the text located in row 163. 
 
 ```
-list(final_paper_df['Proper_Nouns'])
+list(final_paper_df.loc[[3, 163], 'Proper_Nouns'])
 ```
 
-Here's an excerpt from a list of proper nouns which spaCy identified in a student text:
+The first text in the list includes botany and astronomy concepts; this is likely to have been written for a biology course. 
 
 >```
->[['Brief',
->  'Plague',
->  'Geographical',
->  'Distribution',
->  'Yersinia',
->  'Pestis',
->  'Bacterium',
->  'Flea',
->  'Plague',
->  'Mammalian',
->  'Reservoir',
->  'Hosts',
->  'Human',
->  'Infection',
->  'Plague',
->  'Preventative',
->  'Control',
->  'Measures',
->  'Social',
->  'Political',
->  'Questions',
->  'Bibliography',
->  'Yersinia',
->  'Middle',
->  'Ages',
+>[['Mars',
+>  'Arabidopsis',
+>  'Arabidopsis',
+>  'LEA',
+>  'COR',
+>  'LEA',
+>  'NASA',
 >  ...]]
 >```
 
-The third text shown here, for example, involves astronomy concepts; this is likely to have been written for a biology course. In contrast, texts 163 and 164 appear to be analyses of Shakespeare plays and movie adaptations. Along with assisting content analyses, extracting nouns have been shown to help build more efficient topic models[^9].
+In contrast, the second text appears to be an analysis of Shakespeare plays and movie adaptations, likely written for an English course.
+
+>```
+>[['Shakespeare',
+>  'Bard',
+>  'Julie',
+>  'Taymor',
+>  'Titus',
+>  'Shakespeare',
+>  'Titus',
+>  ...]]
+>```
+
+Along with assisting content analyses, extracting nouns have been shown to help build more efficient topic models[^9].
 
 #### Dependency Parsing
 Closely related to part-of-speech tagging is 'dependency parsing', wherein spaCy identifies how different segments of a text are related to each other. Once the grammatical structure of each sentence is identified, visualizations can be created to show the connections between different words. Since we are working with large texts, our code will break down each text into sentences (spans) and then create dependency visualizers for each span. We can then visualize the span of once sentence at a time.
@@ -625,10 +620,11 @@ spaCy generates a dictionary where the values represent the counts of each part-
 >{'AUX': 1, 'DET': 1, 'NOUN': 2, 'PRON': 1, 'PUNCT': 3}
 >```
 
-To get the same type of dictionary for each text in the DataFrame, a function can be created to nest the above `for` loop. We can then apply the function to each Doc object in the DataFrame. In this case (and above), we are interested in the simpler, coarse-grained parts of speech.
+To get the same type of dictionary for each text in a DataFrame, a function can be created to nest the above `for` loop. First, we'll create a new DataFrame for the purposes of part-of speech analysis, containing the text filenames, disciplines, and Doc objects. We can then apply the function to each Doc object in the new DataFrame. In this case (and above), we are interested in the simpler, coarse-grained parts of speech.
 
 ```
-num_list = []
+# Create new DataFrame for analysis purposes
+pos_analysis_df = final_paper_df[['Filename','DISCIPLINE', 'Doc']]
 
 def get_pos_tags(doc):
     dictionary = {}
@@ -637,7 +633,7 @@ def get_pos_tags(doc):
         dictionary[doc.vocab[k].text] = v
     num_list.append(dictionary)
     
-final_paper_df['C_POS'] = final_paper_df['Doc'].apply(get_pos_tags)
+pos_analysis_df['C_POS'] = pos_analysis_df['Doc'].apply(get_pos_tags)
 ```
 
 From here, we'll take the part-of-speech counts and put them into a new DataFrame where we can calculate the frequency of each part-of-speech per document. In the new DataFrame, if a paper does not contain a particular part-of-speech, the cell will read `NaN` (Not a Number). 
@@ -645,11 +641,9 @@ From here, we'll take the part-of-speech counts and put them into a new DataFram
 ```
 pos_counts = pd.DataFrame(num_list)
 columns = list(pos_counts.columns)
-
 idx = 0
-new_col = final_paper_df['DISCIPLINE']
+new_col = pos_analysis_df['DISCIPLINE']
 pos_counts.insert(loc=idx, column='DISCIPLINE', value=new_col)
-
 pos_counts.head()
 ```
 
@@ -709,7 +703,6 @@ The same type of analysis could be performed using the fine-grained part-of-spee
 
 ```
 tag_num_list = []
-
 def get_fine_pos_tags(doc):
     dictionary = {}
     num_tag = doc.count_by(spacy.attrs.TAG)
@@ -717,14 +710,8 @@ def get_fine_pos_tags(doc):
         dictionary[doc.vocab[k].text] = v
     tag_num_list.append(dictionary)
     
-final_paper_df['F_POS'] = final_paper_df['Doc'].apply(get_fine_pos_tags)
-
-tag_counts = pd.DataFrame(tag_num_list)
-columns = list(tag_counts.columns)
-
-idx = 0
-new_col = final_paper_df['DISCIPLINE']
-tag_counts.insert(loc=idx, column='DISCIPLINE', value=new_col)
+pos_analysis_df['F_POS'] = pos_analysis_df['Doc'].apply(get_fine_pos_tags)
+average_tag_df
 ```
 
 Again, we can calculate the amount of times, on average, that each fine-grained part-of-speech appears in Biology versus English paper using the `groupby` and `mean` functions.
@@ -750,7 +737,7 @@ Now, our DataFrame contains average counts of each fine-grained part-of-speech:
 
 </div>
 
-As evidenced by the above DataFrame, spaCy identifies around 50 fine-grained part-of-speech tags. Researchers can investigate trends in the average usage of any or all of them. For example, is there a difference in the average usage of past tense versus present tense verbs in English and Biology papers? Three fine-grained tags that could help with this analysis are `VBD` (past tense verbs), `VBP` (non third-person singular present tense verbs), and `VBZ` (third-person singular present tense verbs). 
+spaCy identifies around 50 fine-grained part-of-speech tags, of which ~20 are visible in the DataFrame above. The ellipses in the central column indicates further data which is not shown. Researchers can investigate trends in the average usage of any or all of them. For example, is there a difference in the average usage of past tense versus present tense verbs in English and Biology papers? Three fine-grained tags that could help with this analysis are `VBD` (past tense verbs), `VBP` (non third-person singular present tense verbs), and `VBZ` (third-person singular present tense verbs). Readers may find it useful to review [a full list](https://perma.cc/QNZ8-DCDB) of the fine-grained part-of-speech tags that spaCy generates.
 
 {% include figure.html filename="or-en-corpus-analysis-with-spacy-06.png" alt="Bar chart depicting average use of three verb types (past-tense, third- and non-third person present tense) in English versus Biology papers, showing third-person present tense verbs used most in both disciplines, many more third-person present tense verbs used in English papers than the other two types and more past tense verbs used in Biology papers." caption="Figure 6: Graph of average usage of three verb types (past tense, third- and non-third person present tense) in English and Biology papers" %}
 
@@ -761,7 +748,7 @@ The analyses above are only a couple of many possible applications for part-of-s
 ### Named Entity Analysis
 In this section, you'll use the named entity tags extracted from spaCy to investigate the second research question: **Do students use certain named entities more frequently in different academic genres, and does this signify differences in genre conventions?** 
 
-To start, we'll create a new DataFrame with the text filenames, disciplines, and part-of-speech tags:
+To start, we'll create a new DataFrame with the text filenames, types (genres), and named entity words and tags:
 
 ```
 ner_analysis_df = final_paper_df[['Filename','PAPER TYPE', 'Named_Entities', 'NE_Words']]
@@ -869,7 +856,7 @@ Now, spaCy outputs a list of the 10 words most-frequently labeled with the `DATE
 >decades,     3
 >```
 
-Here, only three of the most-frequently tagged `DATE` entities are words, and the rest are noun references to relative dates or periods. This, too, may indicate genre conventions, such as the need to provide context and/or center an argument in relative space and time in evaluative work. Future research could analyze chains of named entities (and parts-of-speech) to get a better understanding of how these features together indicate larger rhetorical tactics.
+Here, only three of the most-frequently tagged `DATE` entities are standard 4-digit dates, and the rest are noun references to relative dates or periods. This, too, may indicate genre conventions, such as the need to provide context and/or center an argument in relative space and time in evaluative work. Future research could analyze chains of named entities (and parts-of-speech) to get a better understanding of how these features together indicate larger rhetorical tactics.
 
 ## Conclusions
 Through this lesson, we've gleaned more information about the grammatical makeup of a text corpus. Such information can be valuable to researchers who are seeking to understand differences between texts in their corpus: What types of named entities are most common across the corpus? How frequently are certain words used as nouns versus objects within individual texts and corpora? What may these frequencies reveal about the content or themes of the texts themselves?
