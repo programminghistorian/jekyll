@@ -89,6 +89,7 @@ The project team and members of the wider community are involved in a number of 
 
 ## Posters, Conference Papers, & Invited Talks
 
+* Josir Cardoso Gomes, 'Seminário Solare de Softwares Livres para Arquitetura e Engenharia', Conselho de Arquitetura e Urbanismo de Rio de Janeiro (CAU/RJ), Rio de Janeiro, Brazil, (30-31 October 2023).
 * Adam Crymble, 'Local/Global Digital Skills in the Humanities: Which Digital Skills to Scholars Need Here?' Research Institute for Humanities. Chinese University of Hong Kong (3 October 2023).
 * Daniel Alves & Joana Vieira Paulino, ['IHC’s Digital Humanities Lab: collaborative and interdisciplinary projects with digital methods'](https://rutter-project.org/training-school/), The long life of manuscripts: from material to immaterial texts, RUTTER Project, Centro Interuniversitário de História das Ciências e da Tecnologia (CIUHCT), Universidade de Lisboa, Lisbon, (11-15 September 2023).
 * James Baker & Paola Marchionni, '[Research Talk: Skills for artificial intelligence](https://soundcloud.com/user-565922160/research-talk-skills-for-artificial-intelligence-james-baker?in=user-565922160/sets/research-talk-podcast)', Jisc, (June 2023).
