@@ -207,8 +207,6 @@ metadata_df = pd.read_csv('metadata.csv')
 metadata_df = metadata_df.dropna(axis=1, how='all')
 ```
 
-Display the first five rows to check that the data is as expected. Four columns should be present: the paper IDs, their titles, their discipline, and their type (genre).
-
 The metadata DataFrame will include columns headed paper metadata-ID, title, discpline and type. This table displays the first five rows:
 
    | PAPER ID | TITLE | DISCIPLINE | PAPER TYPE
@@ -276,8 +274,6 @@ Next we can call on the Doc object to get the information we're interested in. T
 for token in doc:
     print(token.text, token.pos_)
 ```
-
-Upon this command, spaCy prints a list of each word in the sentence along with their corresponding part-of-speech tags, for example:
 
 >```
 >This PRON
@@ -623,6 +619,8 @@ spaCy generates a dictionary where the values represent the counts of each part-
 To get the same type of dictionary for each text in a DataFrame, a function can be created to nest the above `for` loop. First, we'll create a new DataFrame for the purposes of part-of speech analysis, containing the text filenames, disciplines, and Doc objects. We can then apply the function to each Doc object in the new DataFrame. In this case (and above), we are interested in the simpler, coarse-grained parts of speech.
 
 ```
+num_list = []
+
 # Create new DataFrame for analysis purposes
 pos_analysis_df = final_paper_df[['Filename','DISCIPLINE', 'Doc']]
 
@@ -741,7 +739,7 @@ spaCy identifies around 50 fine-grained part-of-speech tags, of which ~20 are vi
 
 {% include figure.html filename="or-en-corpus-analysis-with-spacy-06.png" alt="Bar chart depicting average use of three verb types (past-tense, third- and non-third person present tense) in English versus Biology papers, showing third-person present tense verbs used most in both disciplines, many more third-person present tense verbs used in English papers than the other two types and more past tense verbs used in Biology papers." caption="Figure 6: Graph of average usage of three verb types (past tense, third- and non-third person present tense) in English and Biology papers" %}
 
-Graphing these annotations reveals a fairly even distribution of the usage of the three verb types in Biology papers. However, in English papers, an average of 130 third-person singular tense part-of-speech verbs are used per paper, in compared to around 40 of the other two categories. What these differences indicate about the genres is not immediately discernible, but it does indicate spaCy's value in identifying patterns of linguistic annotations for further exploration by computational and close-reading methods.
+Graphing these annotations reveals a fairly even distribution of the usage of the three verb types in Biology papers. However, in English papers, an average of 130 third-person singular present tense verbs are used per paper, compared to around 40 of the other two categories. What these differences indicate about the genres is not immediately discernible, but it does indicate spaCy's value in identifying patterns of linguistic annotations for further exploration by computational and close-reading methods.
 
 The analyses above are only a couple of many possible applications for part-of-speech tagging. Part-of-speech tagging is also useful for [research questions about sentence *intent*](https://perma.cc/QXH6-V6FF): the meaning of a text changes depending on whether the past, present, or infinitive form of a particular verb is used. Equally useful for such tasks as word sense disambiguation and language translation, part-of-speech tagging is additionally a building block of named entity recognition, the focus of the analysis below.  
 
@@ -754,7 +752,7 @@ To start, we'll create a new DataFrame with the text filenames, types (genres), 
 ner_analysis_df = final_paper_df[['Filename','PAPER TYPE', 'Named_Entities', 'NE_Words']]
 ```
 
-Using the `str.count` method, we can get counts of a specific named entity used in each text. Let's get the counts of the named entities of interest here (PERSON, ORG, DATE, and CARDINAL (numbers)) and add them as new columns of the DataFrame. 
+Using the `str.count` method, we can get counts of a specific named entity used in each text. Let's get the counts of the named entities of interest here (PERSON, ORG, DATE, and WORKS_OF_ART) and add them as new columns of the DataFrame. 
 
 ```
 ner_analysis_df['Named_Entities'] = ner_analysis_df['Named_Entities'].apply(lambda x: ' '.join(x))
@@ -762,17 +760,17 @@ ner_analysis_df['Named_Entities'] = ner_analysis_df['Named_Entities'].apply(lamb
 person_counts = ner_analysis_df['Named_Entities'].str.count('PERSON')
 org_counts = ner_analysis_df['Named_Entities'].str.count('ORG')
 date_counts = ner_analysis_df['Named_Entities'].str.count('DATE')
-cardinal_counts = ner_analysis_df['Named_Entities'].str.count('CARDINAL')
+woa_counts = ner_analysis_df['Named_Entities'].str.count('WORK_OF_ART')
 
 ner_counts_df = pd.DataFrame()
 ner_counts_df['Genre'] = ner_analysis_df["PAPER TYPE"]
 ner_counts_df['PERSON_Counts'] = person_counts
 ner_counts_df['ORG_Counts'] = org_counts
 ner_counts_df['DATE_Counts'] = date_counts
-ner_counts_df['CARDINAL_Counts'] = cardinal_counts
+ner_counts_df['WORK_OF_ART_Counts'] = woa_counts
 ```
 
-Reviewing the DataFrame now, our column headings define each paper's genre and four named entities (PERSON, ORG, DATE, and CARDINAL) of which spaCy will count usage: 
+Reviewing the DataFrame now, our column headings define each paper's genre and four named entities (PERSON, ORG, DATE, and WORKS_OF_ART) of which spaCy will count usage: 
 
    | Genre | PERSON_Counts | LOC_Counts | DATE_Counts | WORK_OF_ART_Counts
 -- | -- | :--: | :--: | :--: | :--:
