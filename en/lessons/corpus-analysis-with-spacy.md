@@ -1,9 +1,9 @@
 ---
-title: "Corpus Analysis with SpaCy"
+title: "Corpus Analysis with spaCy"
 slug: corpus-analysis-with-spacy
 layout: lesson
 collection: lessons
-date: 2023-11-01
+date: 2023-11-02
 authors:
 - Megan S. Kane
 reviewers:
