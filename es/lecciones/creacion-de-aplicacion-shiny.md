@@ -504,7 +504,7 @@ shinyApp(ui, server)
 
 # Notas
 [^1]: Para más información y contenidos relacionados, visita [la página web de la Hemeroteca Digital.](https://www.bne.es/es/catalogos/hemeroteca-digital)
-[^2]: Estos [datos](https://perma.cc/B3P2-DCYS), que luego modificamos, están disponibles bajo licencia CCO (gratuito y editable) por parte del Ministerio de Cultura y Deporte.  
+[^2]: Estos [datos](https://perma.cc/JT88-ZXPD), que luego modificamos, están disponibles bajo licencia CCO (gratuito y editable) por parte del Ministerio de Cultura y Deporte.  
 [^3]: Podrían añadirse las coordenadas de dichas poblaciones extranjeras en el mismo CSV para visualizar el panorama completo de publicaciones referidas o en relación a España disponibles en la Hemeroteca Digital de la BNE.
 [^4]: El objeto del servidor es en realidad una lista de R con todos los objetos de entrada o _inputs_ guardados en el primer elemento, llamado `input` y todos los objetos resultantes u  _outputs_ en el segundo elemento, llamado `output`.
 [^5]: Debido a que hay varias formas de transformar un globo terráqueo en una representación 2D, la visualización correcta de datos geográficos requiere establecer un sistema de referencia de coordenadas. 4326 es uno de uso común para datos geográficos en todo el mundo.
