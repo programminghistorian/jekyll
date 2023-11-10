@@ -82,7 +82,7 @@ Debemos añadir que en el listado de títulos de esta colección están incluido
 ## Descargar los datos 
 Para este tutorial,  descargarás dos archivos: primero, una lista a nivel de los títulos periódicos presentes en la Hemeroteca Digital de la Biblioteca Nacional de España (a la que nos referiremos como la 'lista de títulos') y segundo, un conjunto de datos de poblaciones de España y sus coordenadas que[ encontramos online ](https://www.businessintelligence.info/varios/longitud-latitud-pueblos-espana.html)(al que nos referiremos como la 'lista de coordenadas') y que hemos convertido en un archivo separado por comas y editado ligeramente para hacer coincidir los lugares que se encuentran en la lista de títulos con las ubicaciones en un mapa.
 
-1. Descarga el [listado de títulos desde el repositorio de Github](/assets/creacion-de-aplicacion-shiny/bne_hemeroteca-digital.csv) para esta lección. El [archivo original](https://datos.gob.es/es/catalogo/ea0019768-hemeroteca-digital-listado) está disponible en la base de datos del Ministerio de Asuntos Económicos y Transformación Digital de España. Para nuestro propósito, y como indicamos más abajo, tuvimos que realizar algunos cambios. 
+1. Descarga el [listado de títulos desde el repositorio de Github](/assets/creacion-de-aplicacion-shiny/bne_hemeroteca-digital.csv) para esta lección. El [archivo original](https://perma.cc/JT88-ZXPD) está disponible en la base de datos del Ministerio de Asuntos Económicos y Transformación Digital de España. Para nuestro propósito, y como indicamos más abajo, tuvimos que realizar algunos cambios. 
 2. Las [coordenadas](/assets/creacion-de-aplicacion-shiny/listado-longitud-latitud-municipios-espana.csv) también está disponibles en el repositorio de la lección. 
 
 ## Entender los datos
@@ -504,7 +504,7 @@ shinyApp(ui, server)
 
 # Notas
 [^1]: Para más información y contenidos relacionados, visita [la página web de la Hemeroteca Digital.](https://www.bne.es/es/catalogos/hemeroteca-digital)
-[^2]: Estos [datos](https://datos.gob.es/es/catalogo/ea0019768-hemeroteca-digital-listado), que luego modificamos, están disponibles bajo licencia CCO (gratuito y editable) por parte del Ministerio de Cultura y Deporte.  
+[^2]: Estos [datos](https://perma.cc/B3P2-DCYS), que luego modificamos, están disponibles bajo licencia CCO (gratuito y editable) por parte del Ministerio de Cultura y Deporte.  
 [^3]: Podrían añadirse las coordenadas de dichas poblaciones extranjeras en el mismo CSV para visualizar el panorama completo de publicaciones referidas o en relación a España disponibles en la Hemeroteca Digital de la BNE.
 [^4]: El objeto del servidor es en realidad una lista de R con todos los objetos de entrada o _inputs_ guardados en el primer elemento, llamado `input` y todos los objetos resultantes u  _outputs_ en el segundo elemento, llamado `output`.
 [^5]: Debido a que hay varias formas de transformar un globo terráqueo en una representación 2D, la visualización correcta de datos geográficos requiere establecer un sistema de referencia de coordenadas. 4326 es uno de uso común para datos geográficos en todo el mundo.
