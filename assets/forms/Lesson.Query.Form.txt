@@ -1,25 +1,72 @@
-# Programming Historian Lesson Proposal
+## Lesson Proposal for Programming Historian (English edition)
 
-If you are interested in writing a lesson and submitting it to the Programming Historian, please fill in this form to give the Editorial Board enough detail to comment on your idea. If you are experiencing difficulty with the form you can contact our Managing Editor directly:
+_Programming Historian_ in English is inviting proposals for new lessons.
 
-English: Alex Wermer-Colan (english@programminghistorian.org)
-Spanish: Jennifer Isasi (espanol@programminghistorian.org)
-French: Marie Flesch (francais@programminghistorian.org)
-Portuguese: Daniel Alves (portugues@programminghistorian.org)
+We encourage prospective authors to think carefully about how their proposal could enhance our learning offer.
+
+You can [explore our journal](https://programminghistorian.org/en/lessons/) to discover what’s already available and consider what you might be able to add.
+
+If the method or approach you’re interested in writing a lesson about is already represented by the [Spanish](https://programminghistorian.org/es/lecciones/), [French](https://programminghistorian.org/fr/lecons/), or [Portuguese](https://programminghistorian.org/pt/licoes/) editions of _Programming Historian_, we welcome proposals to translate those existing, original lessons into English.
+
+---
 
 
-## About You
-1. Your name
-2. Your email address
+Name:  
+Email:
 
-## Lesson Metadata
-3. Submission Language (delete as appropriate) English / Español / Français / Portuguese
-4. Proposed Lesson Title
-5. Lesson Abstract (3-4 sentences)
-6. Case Study Description (details about your historical example problem)
-7. Learning Outcomes (between 2-3)
-8. Research Phase most relevant to your lesson (delete as appropriate) Acquire / Transform / Analyze / Present / Sustain
-9. Research Area most relevant to your lesson (delete as appropriate) APIs / python / data management / data manipulation / distant reading / set up / linked open data / mapping / network analysis / web scraping / digital publishing / other
-10. Intended Submission Date
-11. Lesson will use open technology and data at no cost to the reader Yes / No
-12. Any other comments for the editor
+This form has twelve questions. Please answer each one, providing as much detail as you can.
+
+**1.** What is your proposed lesson title?  
+
+**2.** What kind of lesson are you proposing?
+- [ ] An original English-language lesson
+- [ ] A translation into English from an existing, original Spanish, French, or Portuguese lesson
+
+**3.** Please tell us how your proposal could support, expand, or supplement the lessons we've already published.
+Use these questions to structure your answer:
+- To which existing _Programming Historian_ lesson(s) could your proposal provide a foundational introduction?
+- To which existing _Programming Historian_ lesson(s) could your proposal provide an advancement or extension?
+- How could your proposal fill a gap in our lesson directory?  
+
+[200-300 words]
+
+**4.** Please tell us what readers could expect to learn from your proposed lesson:  
+[3-4 sentences]
+
+**5.** Please share some insights into how you came to use this method or tool as part of your work within the humanities:  
+[100-300 words]
+
+**6.** Please tell us about the research case study you propose centring within your lesson.
+Successful lessons centre real datasets and sample code that readers can handle and experiment with.  
+[100-300 words]
+
+**7.** Which critical questions of ethics or bias might readers need to be aware of when using this method or tool?  
+[100-200 words]
+
+**8.** Please outline how your choice of software and data would support our commitment to openness:
+We advocate for the use of open source software, open programming languages, open access datasets wherever possible.
+Use these questions to structure your answer:
+- Which open source software, open tools, open programming languages, or open datasets does this lesson make use of?
+- Which (if any) proprietary software or commercial tools does this lesson make use of?
+We strongly recommend authors choose open source alternatives.
+- Which (if any) costs* or commitments are required to use this method or tool?
+*including the requirement for readers to supply their credit card information  
+[100-300 words]
+
+
+**9.** Please provide us with some information about how your method or tool could be applied or adapted for use with non-English-language data:
+We have a strong preference for methodologies and tools that can be used in multilingual research-contexts.  
+[100-300 words]
+
+
+**10.** Please outline any technical prerequisites and potential limitations of access to using this method or tool:
+Our readers work with different operating systems and have varying computational resources.  
+[100-200 words]
+
+**11.** Optional link to sample code on your personal GitHub repository:
+
+**12.** Optional link to a draft extract of this proposed lesson on your personal GitHub repository:
+
+---
+
+Please send this form to the Managing Editor of _Programming Historian_ in English, [Alex Wermer-Colan](mailto:english@programminghistorian.org).
