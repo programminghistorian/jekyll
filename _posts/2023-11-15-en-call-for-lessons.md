@@ -51,7 +51,7 @@ Remember, you can either:
 
 **If you have an idea, please send us a proposal by January 12th, 2024.**
 
-We've set up [a Google Form](https://forms.gle/jCq8ttGQeMSEt5GL8) which you can submit directly online. There's also [a plain-text version](/assets/forms/Lesson.Query.Form.txt) which you can [send to us by email](mailto:english@programminghistorian.org), if you prefer. The form has twelve questions.
+We've set up [a Google Form](https://tinyurl.com/ph-en-proposals) which you can submit directly online. There's also [a plain-text version](/assets/forms/Lesson.Query.Form.txt) which you can [send to us by email](mailto:english@programminghistorian.org), if you prefer. The form has twelve questions.
 
 There is space for you to tell us about the research case study you'd like to centre within your lesson, and for you to explain how you came to use this method or tool as part of your work within the humanities.
 
