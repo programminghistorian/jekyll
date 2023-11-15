@@ -44,12 +44,14 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Talleres y eventos
 
+* Carlo Blum, Adam Crymble, Vicky Garnett, Timothée Giraud, Alíz Horváth, Stefan Krebs, Ralph Marschall, Sofia Papastamkou, & Lorella Viola, 'Invisible College of Digital History: Workshop on Multilingual Educational Resources', C²DH [En línea], (8 de noviembre de 2023).
+* Nabeel Siddiqui, 'Convolutional Neural Networks for Image Classification', University of Edinburgh [En línea], (7 de noviembre de 2023).
 * Scott Kleinman, Alex Wermer-Colan, Joana Vieira Paulino, Nabeel Siddiqui, Zoe LeBlanc, 'Developing a Digital Humanities Tutorial', [DH 2023](https://dh2023.adho.org/), Graz, Austria, (10 de julio de 2023). 
 * Daphné Mathelier, 'Atelier Markdown', [11e journées du réseau Medici](https://medici2023.sciencesconf.org/resource/page/id/2), Université de Liège, Bélgica, (29 de junio de 2023).
-* María José Afanador Llach, Jennifer Isasi, Riva Quiroga, 'Sobre _Programming Historian en español_ y cómo contribuir a la publicación', Semana de Humanidades Digitales 2023 [Online], (10 de mayo de 2023).
-* Riva Quiroga, 'Introducción al web scraping usando R. Parte 1: extracción de texto, Parte 2: extracción de tablas', Semana de Humanidades Digitales 2023 [Online], (8-9 de mayo de 2023).
-* Jimmy Medeiros, 'Aprendendo a analisar dados com R com base em lições do _Programming Historian_', Semana de Humanidades Digitales 2023 [Online], (8 de mayo de 2023).
-* Nicolás Vaughan, '[Taller Introducción al marcado TEI](https://posgradosfacartes.uniandes.edu.co/evento/taller-introduccion-al-marcado-tei/)', Universidad de los Andes [Online], (13-14 de marzo de 2023).
+* María José Afanador Llach, Jennifer Isasi, Riva Quiroga, 'Sobre _Programming Historian en español_ y cómo contribuir a la publicación', Semana de Humanidades Digitales 2023 [En línea], (10 de mayo de 2023).
+* Riva Quiroga, 'Introducción al web scraping usando R. Parte 1: extracción de texto, Parte 2: extracción de tablas', Semana de Humanidades Digitales 2023 [En línea], (8-9 de mayo de 2023).
+* Jimmy Medeiros, 'Aprendendo a analisar dados com R com base em lições do _Programming Historian_', Semana de Humanidades Digitales 2023 [En línea], (8 de mayo de 2023).
+* Nicolás Vaughan, '[Taller Introducción al marcado TEI](https://posgradosfacartes.uniandes.edu.co/evento/taller-introduccion-al-marcado-tei/)', Universidad de los Andes [En línea], (13-14 de marzo de 2023).
 * Miguel Cuandros & Anthony Picón, ‘[Georreferenciación de mapas históricos con Map Warper’](https://facartes.uniandes.edu.co/evento/taller-georreferenciacion-de-mapas-historicos-con-map-warper/), Universidad de los Andes [En línea], (2-3 de marzo de 2023).
 * Jennifer Isasi, ‘Crear una exhibición digital mínima e interactiva con CollectionBuilder,’ Universidad de los Andes [En línea], (9-10 de febrero de 2023).  
 * Gisele Almeida, Daniel Alves & Eric Brasil, ‘[Conheça o Programming Historian em português](https://youtu.be/5M1KX6AeLbQ),’ _Programming Historian_, [En línea], (25 de enero de 2023).  
@@ -90,7 +92,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Adam Crymble, 'Local/Global Digital Skills in the Humanities: Which Digital Skills to Scholars Need Here?' Research Institute for Humanities. Chinese University of Hong Kong (3 de octubre, 2023).
 * Daniel Alves & Joana Vieira Paulino, ['IHC’s Digital Humanities Lab: collaborative and interdisciplinary projects with digital methods'](https://rutter-project.org/training-school/), The long life of manuscripts: from material to immaterial texts, RUTTER Project, Centro Interuniversitário de História das Ciências e da Tecnologia (CIUHCT), Universidade de Lisboa, Lisboa (11-15 de septiembre, 2023).
 * James Baker & Paola Marchionni, '[Research Talk: Skills for artificial intelligence](https://soundcloud.com/user-565922160/research-talk-skills-for-artificial-intelligence-james-baker?in=user-565922160/sets/research-talk-podcast)', Jisc, (junio 2023).
-* Riva Quiroga, 'El proceso de revisión abierta entre pares en _Programming Historian_', Facultad de Comunicación e Información, Universidad de Puerto Rico [Online], (18 de mayo 2023).
+* Riva Quiroga, 'El proceso de revisión abierta entre pares en _Programming Historian_', Facultad de Comunicación e Información, Universidad de Puerto Rico [En línea], (18 de mayo 2023).
 * Daniel Alves, 'Parcerias entre História e Computação: o caso do Programming Historian em português', Instituto Federal de Educação, Ciência e Tecnologia do Maranhão, Brasil, (4 de mayo de 2023).
 * Daniel Alves & Daniel Bonatto Sêco, 'Uma ferramenta para o ensino de metodologias digitais: o Programming Historian em português', UniRio, Rio de Janeiro, Brasil, (17 de abril de 2023).
 * James Baker & Anisa Hawes, ‘[Research skills from a researcher’s perspective: introducing the _Programming Historian_](https://www.jisc.ac.uk/events/digifest-2023/programme#)’, Jisc Digifest, Birmingham, Reino Unido, (7 de marzo de 2023).
