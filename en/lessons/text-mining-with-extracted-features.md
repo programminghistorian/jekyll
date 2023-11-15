@@ -1154,7 +1154,7 @@ Finally, the repository for the HTRC Feature Reader has [advanced tutorial noteb
 
 # References
 
-Boris Capitanu, Ted Underwood, Peter Organisciak, Timothy Cole, Maria Janina Sarol, J. Stephen Downie (2016). The HathiTrust Research Center Extracted Feature Dataset (1.0) [Dataset]. HathiTrust Research Center.
+Boris Capitanu, Ted Underwood, Peter Organisciak, Timothy Cole, Maria Janina Sarol, J. Stephen Downie (2016). The HathiTrust Research Center Extracted Feature Dataset (1.0) [Dataset]. *HathiTrust Research Center*.
 
 Chris Forster. "A Walk Through the Metadata: Gender in the HathiTrust Dataset." Blog. [http://cforster.com/2015/09/gender-in-hathitrust-dataset/](https://web.archive.org/web/20160105003327/http://cforster.com/2015/09/gender-in-hathitrust-dataset/).
 
