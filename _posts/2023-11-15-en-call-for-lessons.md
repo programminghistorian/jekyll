@@ -1,5 +1,5 @@
 ---
-title: Call for Lessons
+title: Call for Lessons (English edition)
 authors:
 - Alex Wermer-Colan  
 - Anisa Hawes
@@ -13,7 +13,7 @@ The [English edition of Programming Historian](/en/lessons/) seeks proposals for
 **Submissions Open**: 15 November 2023  
 **Submissions Close**: 12 January 2024
 
-**What is a Programming Historian lesson?**
+## What is a _Programming Historian_ lesson?
 
 A _Programming Historian_ lesson is a learn-by-doing resource that empowers readers to develop new, practical knowledge of a computational method or digital tool. Our aim is for readers to be able to apply what they learn to acquire, transform, analyse, visualise, or sustain data in their own research.
 
@@ -21,11 +21,11 @@ Successful lessons centre real datasets and sample code that readers can handle 
 
 Our lessons are aimed at humanities and social science researchers, but are also read by self-learners with other interests. We encourage our authors to write as though they are explaining their method to a colleague or peer, to make lessons as accessible as possible.
 
-**What are the benefits of writing a _Programming Historian_ Lesson?**
+## What are the benefits of writing a _Programming Historian_ Lesson?
 
 Our lessons support readers who want to learn new skills, but the act of writing is also beneficial to authors. Writing to explain a methodology or tool to others deepens your own understanding and knowledge. It empowers your development as a critical, intentional and considered researcher, and is an opportunity to hone your technical writing skills. We encourage you to write about a method or tool that you know well, and that you have applied, adapted or advanced in your own research.
 
-**Ideas for Proposal Topics**
+## Ideas for Proposal Topics
 
 _Programming Historian_'s English edition is inviting proposals to fill gaps in our lesson directory. Please explore [our journal](/en/lessons/) to discover what’s already available, and consider what you might be able to add.
 
@@ -42,7 +42,7 @@ We’re also keen to extend our offer to learners, and invite proposals which fo
 - 3D modelling, scanning, and design
 - Immersive visualisation (VR/AR/XR)
 
-**How to Submit a Proposal**
+## How to Submit a Proposal
 
 Remember, you can either:
 
@@ -65,11 +65,11 @@ At the end of the form, you have the option to provide links to sample code or t
 
 >In keeping with our commitment to diversity and equal access within digital humanities, we encourage proposals from women, members of minority groups, LGBTQ+ members, and peoples from the Global South. With this call, we strongly encourage the participation of Anglophone and multilingual communities beyond North America.
 
-**Questions**
+## Questions
 
 If you’d like to ask any questions, please write to the Managing Editor of _Programming Historian_ in English, [Alex Wermer-Colan](mailto:english@programminghistorian.org) or to our Publishing Manager, [Anisa Hawes](mailto:admin@programminghistorian.org).
 
-**Some background about _Programming Historian_**
+## Some background about _Programming Historian_
 
 Launched in 2012, _Programming Historian_ offers more than 200 novice-friendly, multilingual peer-reviewed lessons that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research. In recent years, our interdisciplinary publication has expanded to include [Spanish](/es/lecciones/), [French](/fr/lecons/), and [Portuguese](/pt/licoes/) editions. Our journals are Diamond Open Access and in that spirit: authors retain copyright, never pay any fees to publish with us, all content is peer-reviewed, and access is always free for readers.
 
