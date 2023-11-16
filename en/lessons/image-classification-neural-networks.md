@@ -118,7 +118,7 @@ Training an image classifier from scratch can be difficult. We would need to pro
 
 Transfer learning expands on a model that has already been trained on a separate group of images. Teachable Machine relies on [MobileNet](https://perma.cc/8FWJ-NDXH) as the basis for its transfer learning. MobileNet is a lightweight neural network designed to run on small devices with low-latency. Its training times are relatively quick, and we can start with fewer images. Of course, MobileNet was not trained on the images that we are interested in, so how exactly can we use it? This is where transfer learning kicks in.
 
-You can think of transfer learning as a process of modifying the final layer of a preexisting model to discern our images' "features." At first, these features are mapped to the categories that MobileNet was trained on, but through transfer learning, we can overwrite this mapping to reflect our own categories. Thus, we can rely on the earlier layers to do most of the heavy lifting &mdashdetecting basic features and shapes&mdash while still having the benefit of using the final layers to recognize specific objects and perform classification.
+You can think of transfer learning as a process of modifying the final layer of a preexisting model to discern our images' "features." At first, these features are mapped to the categories that MobileNet was trained on, but through transfer learning, we can overwrite this mapping to reflect our own categories. Thus, we can rely on the earlier layers to do most of the heavy lifting &mdash;detecting basic features and shapes&mdash; while still having the benefit of using the final layers to recognize specific objects and perform classification.
 
 # Creating Your Own Model
 
@@ -175,7 +175,7 @@ Unzip this folder, and place the files inside of your `projects` folder:
 
 ## Import the Model with ml5.js
 
-Teachable Machine is a great resource for familiarizing yourself with how neural networks &mdashand machine learning more broadly&mdash work. However, it is limited in what it can do. For instance, maybe we would like to create some sort of graph that displays information about the classification. Or, maybe we want to allow others to use our model for classification. For that, we will need to import our model to a system that allows more flexibility. Although there are many possible tools to choose from, for this tutorial we will be using `ml5.js` and `p5.js`.
+Teachable Machine is a great resource for familiarizing yourself with how neural networks &mdash;and machine learning more broadly&mdash; work. However, it is limited in what it can do. For instance, maybe we would like to create some sort of graph that displays information about the classification. Or, maybe we want to allow others to use our model for classification. For that, we will need to import our model to a system that allows more flexibility. Although there are many possible tools to choose from, for this tutorial we will be using `ml5.js` and `p5.js`.
 
 [Ml5.js](https://ml5js.org/) is a JavaScript library built on top of Tensorflow.js. As mentioned earlier, machine learning libraries often require users to have significant background knowledge of programming and/or statistics. For most neural network libraries, you must specify properties for each layer of the neural network such as its inputs, outputs, and activation functions. Ml5.js takes care of this for you, making it easier for beginners to start.
 
@@ -215,7 +215,7 @@ We will make sure that everything is working properly by printing the current ve
 console.log('ml5 version:', ml5.version);
 ```
 
-You should have already started a live server during [the setup stage](#setup-and-dataset). If not, you should launch it now on the `projects` folder. Load up `index.html` in your web browser &mdashremember that `index.html` is just a boiler plate template linking to `sketch.js`&mdash and check the developer console for the output. As long as the output for the current version displays, you shouldn't encounter any problems.
+You should have already started a live server during [the setup stage](#setup-and-dataset). If not, you should launch it now on the `projects` folder. Load up `index.html` in your web browser &mdash;remember that `index.html` is just a boiler plate template linking to `sketch.js`&mdash; and check the developer console for the output. As long as the output for the current version displays, you shouldn't encounter any problems.
 
 <div class="alert alert-warning">
 Please note that the output for ml5.js consists of a large number of emojis and favicons that often fail to load.
