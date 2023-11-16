@@ -36,12 +36,13 @@ Use these questions to structure your answer:
 **5.** Please share some insights into how you came to use this method or tool as part of your work within the humanities:  
 [100-300 words]
 
-**6.** Please tell us about the research case study you propose centring within your lesson.
+**6.** If you are proposing an original lesson, please tell us about the research case study you propose centring within your lesson.
 Successful lessons centre real datasets and sample code that readers can handle and experiment with.  
 [100-300 words]
 
-**7.** Which critical questions of ethics or bias might readers need to be aware of when using this method or tool?  
-[100-200 words]
+**7.** If you are proposing a translation, please tell us if you plan to adapt or localise the research case study centred by the original lesson for your language community.
+Successful lessons centre real datasets and sample code that readers can handle and experiment with.
+[100-300 words]
 
 **8.** Please outline how your choice of software and data would support our commitment to openness:
 We advocate for the use of open source software, open programming languages, open access datasets wherever possible.
@@ -54,7 +55,7 @@ We strongly recommend authors choose open source alternatives.
 [100-300 words]
 
 
-**9.** Please provide us with some information about how your method or tool could be applied or adapted for use with non-English-language data:
+**9.** Please provide us with some information about how your method or tool could be applied or adapted for use in languages other than English:
 We have a strong preference for methodologies and tools that can be used in multilingual research-contexts.  
 [100-300 words]
 
