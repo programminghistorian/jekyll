@@ -8,6 +8,4 @@ original: events
 
 ## Manifestations à venir
 
-* **17 octobre 2023 10:30-12:30 BRT**
-
-_en portugais_ Eric Brasil, '[História Digital e História Digital da Educação: Caminhos Cruzados](http://www.iea.usp.br/eventos/historia-digital-educacao-caminhos-cruzados)', Instituto de Estudos Avançados - USP, São Paulo, Brésil.
+* Merci pour l'intérêt que vous portez à notre calendrier d'événements. Nous n'avons rien de prévu pour le moment, mais revenez bientôt pour vous tenir au courant !
