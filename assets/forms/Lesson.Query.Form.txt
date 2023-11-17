@@ -14,7 +14,7 @@ If the method or approach you’re interested in writing a lesson about is alrea
 Name:  
 Email:
 
-This form has twelve questions. Please answer each one, providing as much detail as you can.
+This form has twelve questions. Please answer all those which apply, providing as much detail as you can.
 
 **1.** What is your proposed lesson title?  
 
@@ -30,7 +30,7 @@ Use these questions to structure your answer:
 
 [200-300 words]
 
-**4.** Please tell us what readers could expect to learn from your proposed lesson:  
+**4.** If you are proposing an original lesson, please tell us what readers could expect to learn from your proposed lesson:  
 [3-4 sentences]
 
 **5.** Please share some insights into how you came to use this method or tool as part of your work within the humanities:  
@@ -44,7 +44,7 @@ Successful lessons centre real datasets and sample code that readers can handle 
 Successful lessons centre real datasets and sample code that readers can handle and experiment with.
 [100-300 words]
 
-**8.** Please outline how your choice of software and data would support our commitment to openness:
+**8.** If you are proposing an original lesson, please outline how your choice of software and data would support our commitment to openness:
 We advocate for the use of open source software, open programming languages, open access datasets wherever possible.
 Use these questions to structure your answer:
 - Which open source software, open tools, open programming languages, or open datasets does this lesson make use of?
@@ -54,13 +54,11 @@ We strongly recommend authors choose open source alternatives.
 *including the requirement for readers to supply their credit card information  
 [100-300 words]
 
-
-**9.** Please provide us with some information about how your method or tool could be applied or adapted for use in languages other than English:
+**9.** If you are proposing an original lesson, please provide us with some information about how your method or tool could be applied or adapted for use in languages other than English:
 We have a strong preference for methodologies and tools that can be used in multilingual research-contexts.  
 [100-300 words]
 
-
-**10.** Please outline any technical prerequisites and potential limitations of access to using this method or tool:
+**10.** If you are proposing an original lesson, please outline any technical prerequisites and potential limitations of access to using this method or tool:
 Our readers work with different operating systems and have varying computational resources.  
 [100-200 words]
 

@@ -21,7 +21,7 @@ Successful lessons centre real datasets and sample code that readers can handle 
 
 Our lessons are aimed at humanities and social science researchers, but are also read by self-learners with other interests. We encourage our authors to write as though they are explaining their method to a colleague or peer, to make lessons as accessible as possible.
 
-## What are the benefits of writing a _Programming Historian_ Lesson?
+## What are the benefits of writing a _Programming Historian_ lesson?
 
 Our lessons support readers who want to learn new skills, but the act of writing is also beneficial to authors. Writing to explain a methodology or tool to others deepens your own understanding and knowledge. It empowers your development as a critical, intentional and considered researcher, and is an opportunity to hone your technical writing skills. We encourage you to write about a method or tool that you know well, and that you have applied, adapted or advanced in your own research.
 
@@ -51,7 +51,7 @@ Remember, you can either:
 
 **If you have an idea, please send us a proposal by January 12th, 2024.**
 
-We've set up [a Google Form](https://tinyurl.com/ph-en-proposals) which you can submit directly online. There's also [a plain-text version](/assets/forms/Lesson.Query.Form.txt) which you can [send to us by email](mailto:english@programminghistorian.org), if you prefer. The form has twelve questions.
+We've set up [a Google Form](https://tinyurl.com/ph-en-proposals) which you can submit directly online. There's also [a plain-text version](/assets/forms/Lesson.Query.Form.txt) which you can [send to us by email](mailto:english@programminghistorian.org), if you prefer. The form has twelve questions. Please answer all those which apply.
 
 There is space for you to tell us about the research case study you'd like to centre within your lesson, and for you to explain how you came to use this method or tool as part of your work within the humanities.
 
@@ -74,5 +74,3 @@ If you’d like to ask any questions, please write to the Managing Editor of _Pr
 Launched in 2012, _Programming Historian_ offers more than 200 novice-friendly, multilingual peer-reviewed lessons that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research. In recent years, our interdisciplinary publication has expanded to include [Spanish](/es/lecciones/), [French](/fr/lecons/), and [Portuguese](/pt/licoes/) editions. Our journals are Diamond Open Access and in that spirit: authors retain copyright, never pay any fees to publish with us, all content is peer-reviewed, and access is always free for readers.
 
 We’re a volunteer-led initiative, supported by the Board of the charity ProgHist Ltd, a small team of publishing staff, and a global community of contributors. We’re funded by [a growing network of organisations](/en/supporters) across Europe, Canada, North America and Latin America who have invested in our success by subscribing to our [Institutional Partner Programme](/en/ipp).
-
---
