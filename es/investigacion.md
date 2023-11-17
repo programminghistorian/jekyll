@@ -46,6 +46,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 * Carlo Blum, Adam Crymble, Vicky Garnett, Timothée Giraud, Alíz Horváth, Stefan Krebs, Ralph Marschall, Sofia Papastamkou, & Lorella Viola, 'Invisible College of Digital History: Workshop on Multilingual Educational Resources', C²DH [En línea], (8 de noviembre de 2023).
 * Nabeel Siddiqui, 'Convolutional Neural Networks for Image Classification', University of Edinburgh [En línea], (7 de noviembre de 2023).
+* Eric Brasil, '[História Digital e História Digital da Educação: Caminhos Cruzados](http://www.iea.usp.br/eventos/historia-digital-educacao-caminhos-cruzados)', Instituto de Estudos Avançados, USP, São Paulo, Brésil, (17 de octubre 2023).
 * Scott Kleinman, Alex Wermer-Colan, Joana Vieira Paulino, Nabeel Siddiqui, Zoe LeBlanc, 'Developing a Digital Humanities Tutorial', [DH 2023](https://dh2023.adho.org/), Graz, Austria, (10 de julio de 2023). 
 * Daphné Mathelier, 'Atelier Markdown', [11e journées du réseau Medici](https://medici2023.sciencesconf.org/resource/page/id/2), Université de Liège, Bélgica, (29 de junio de 2023).
 * María José Afanador Llach, Jennifer Isasi, Riva Quiroga, 'Sobre _Programming Historian en español_ y cómo contribuir a la publicación', Semana de Humanidades Digitales 2023 [En línea], (10 de mayo de 2023).
