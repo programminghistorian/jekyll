@@ -8,4 +8,4 @@ original: events
 
 ## Próximos eventos
 
-* Gracias por su interés en nuestro calendario de eventos. De momento no tenemos nada planeado, pero vuelva pronto para informarse!
+* Gracias por su interés en nuestro calendario de eventos. No tenemos nada programado en este momento, ¡pero regresa pronto para mantenerte actualizado!
