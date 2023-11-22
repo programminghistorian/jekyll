@@ -1,12 +1,12 @@
 ---
-title: Manifestations
+title: Événements
 layout: blank
 original: events
 ---
 
-# Manifestations
+# Événements
 
-## Manifestations à venir
+## Événements à venir
 
 * **17 octobre 2023 10:30-12:30 BRT**
 
