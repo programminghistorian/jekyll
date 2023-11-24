@@ -381,7 +381,7 @@ Una vez que termines, intercambia cada nombre de pesonaje de tu matriz con el `i
 (En esta ocasión no podemos introducir atributos a las relaciones en la hoja de cálculo, pero no te preocupes, lo haremos más adelante.)
 
 <div class="alert alert-info">
-Si quieres comprobar que has realizado todo correctamente, siguiendo estes enlaces encontrarás <a href="https://github.com/programminghistorian/ph-submissions/blob/gh-pages/assets/analisis-redes-sociales-teatro-1/nodos_bizarrias.csv">la lista de nodos</a>, <a href="https://github.com/programminghistorian/ph-submissions/blob/gh-pages/assets/analisis-redes-sociales-teatro-1/aristas-coaparicion_bizarrias.csv">la lista de aristas.</a> y <a href="https://github.com/programminghistorian/ph-submissions/blob/gh-pages/assets/analisis-redes-sociales-teatro-1/aristas-interaccion_bizarrias.csv">la matriz de adyacencia</a> disponibles ya exportados a CSV en la carpeta `assets` que acompaña a la lección.
+Si quieres comprobar que has realizado todo correctamente, siguiendo estes enlaces encontrarás <a href="/assets/analisis-redes-sociales-teatro-1/nodos_bizarrias.csv">la lista de nodos</a>, <a href="/assets/analisis-redes-sociales-teatro-1/aristas-coaparicion_bizarrias.csv">la lista de aristas.</a> y <a href="/assets/analisis-redes-sociales-teatro-1/aristas-interaccion_bizarrias.csv">la matriz de adyacencia</a> disponibles ya exportados a CSV en la carpeta `assets` que acompaña a la lección.
 </div>
 
 ## Recapitulación final de la primera parte
