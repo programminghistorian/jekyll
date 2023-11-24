@@ -13,8 +13,8 @@ editors:
 - Jennifer Isasi
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/517
 difficulty: 1
-activity: analyze
-topics: [network-analysis, set-up, distant-reading]
+activity: analyzing
+topics: [network-analysis, get-ready, distant-reading]
 abstract: En esta lección aprenderás a realizar un Análisis de Redes Sociales a partir de los personajes de un texto teatral. Esta primera parte sienta las bases de la metodología y se centra en la extracción y estructuración de los datos.
 avatar_alt: Recorte de dibujo a pluma de la escenografía usada en la representación de la comedia 'La fiera, el rayo y la piedra' de Pedro Calderón de la Barca en 1690 que representa a las tres parcas tejiendo su hilo en una cueva.
 doi: 10.46430/phes0064
