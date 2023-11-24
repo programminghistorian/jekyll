@@ -1,0 +1,43 @@
+Source,Type,Target,Weight,Label
+1,Undirected,3,5,amistad
+1,Undirected,10,7,amor no correspondido
+1,Undirected,6,11,amor recríproco
+1,Undirected,5,2,
+1,Undirected,11,1,
+1,Undirected,2,18,servidumbre
+1,Undirected,9,1,
+1,Undirected,4,4,rivalidad
+1,Undirected,8,1,
+1,Undirected,7,11,
+3,Undirected,10,2,
+3,Undirected,6,1,
+3,Undirected,2,2,
+3,Undirected,7,1,
+10,Undirected,6,4,rivalidad
+10,Undirected,5,3,
+10,Undirected,11,6,servidumbre
+10,Undirected,2,6,
+10,Undirected,4,5,amor fingido
+10,Undirected,7,4,
+6,Undirected,5,5,
+6,Undirected,2,8,
+6,Undirected,9,1,
+6,Undirected,4,5,relación efímera
+6,Undirected,8,2,rivalidad
+6,Undirected,7,18,servidumbre
+5,Undirected,11,1,
+5,Undirected,2,1,rivalidad
+5,Undirected,4,7,servidumbre
+5,Undirected,8,1,
+5,Undirected,7,3,relación efímera
+11,Undirected,2,1,
+11,Undirected,4,1,
+2,Undirected,9,1,
+2,Undirected,4,3,
+2,Undirected,8,1,
+2,Undirected,7,11,amor recíproco
+9,Undirected,8,1,servidumbre
+9,Undirected,7,1,rivalidad
+4,Undirected,8,1,amor no correspondido
+4,Undirected,7,3,
+8,Undirected,7,2,
