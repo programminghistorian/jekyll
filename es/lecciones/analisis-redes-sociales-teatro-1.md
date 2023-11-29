@@ -3,7 +3,7 @@ title: Análisis de redes sociales de personajes teatrales (parte 1)
 slug: analisis-redes-sociales-teatro-1
 layout: lesson
 collection: lessons 
-date: 2023-11-24
+date: 2023-11-30
 authors:
 - David Merino Recalde
 reviewers:
@@ -198,7 +198,7 @@ En las matrices de adyacencia no podemos etiquetar ("label") las aristas, pero l
 
 ### El proceso de vaciado
 
-Ya sabemos qué datos necesitamos extraer del texto teatral y cómo estructurarlos para poder realizar un análisis de redes. Ahora, pasemos a la práctica. Vamos a analizar *Las bizarrías de Belisa* basándonos en los dos criterios explicados. Así podremos comprender bien cómo se aplica cada uno y sus diferencias, lo que te ayudará después a decidirte por uno u otro criterio. Para seguir la lección, puedes encontrar [este texto](/assets/analisis-redes-sociales-teatro-1/datos_bizarrias-easylinavis.txt) en la carpeta de [`assets`](/assets/analisis-redes-sociales-teatro-1) de esta lección en formato TXT.
+Ya sabemos qué datos necesitamos extraer del texto teatral y cómo estructurarlos para poder realizar un análisis de redes. Ahora, pasemos a la práctica. Vamos a analizar *Las bizarrías de Belisa* basándonos en los dos criterios explicados. Así podremos comprender bien cómo se aplica cada uno y sus diferencias, lo que te ayudará después a decidirte por uno u otro criterio. Para seguir la lección, puedes encontrar [este texto](/assets/analisis-redes-sociales-teatro-1/datos_bizarrias-easylinavis.txt) en formato `.txt`.
 
 #### Los nodos
 
@@ -305,12 +305,12 @@ El formato de datos que implementa Easy Linavis es muy sencillo:
    ```
 
 <div class="alert alert-warning">
-¡CUIDADO! Si estás siguiendo la edición en línea de ARTELOPE hay un error: los versos 1992-2023 están incluidos en la tercera escena del tercer acto  y repetidos seguidamente como los versos 2024-2055 de la cuarta escena. No tengas en cuenta los versos 1992-2023 y salta directamente a la escena cuatro, pertenecen a esta escena y no a la anterior. Si estas utilizando el TXT de la carpeta `assets` no te preocupes, el error está corregido.
+¡CUIDADO! Si estás siguiendo la edición en línea de ARTELOPE hay un error: los versos 1992-2023 están incluidos en la tercera escena del tercer acto  y repetidos seguidamente como los versos 2024-2055 de la cuarta escena. No tengas en cuenta los versos 1992-2023 y salta directamente a la escena cuatro, pertenecen a esta escena y no a la anterior. Si estas utilizando el `.txt` que le proporcionamos, no te preocupes, el error está corregido.
 </div>
 
 Sigamos:
 
- 1. Si has terminado de recoger la coaparición de personajes en un archivo TXT, copia y pégalo en Easy Linavis (puede encontrar este TXT en la carpeta [`assets`](/assets/analisis-redes-sociales-teatro-1) como [`datos_bizarrias-easylinavis.txt`](/assets/analisis-redes-sociales-teatro-1/datos_bizarrias-easylinavis.txt). Una vez tengas el listado en la herramienta, comprueba que hay una línea verde a la izquierda de la columna. Si está de color rojo te está indicando que hay un error en el formato (un salto de línea donde no debe, un asterisco mal situado, etc.). A la derecha te aparecerá un grafo: revisa también que no haya personajes repetidos con nombres distintos (por ejemplo un Conde y un Conde Enrique, o una Lucinda y una Luncinda). Una vez tengas claro que todo está correcto, en la columna del centro, haz clic en _download CSV_ y guarda el archivo como `datos_bizarrias-easylinavis.csv`.
+ 1. Si has terminado de recoger la coaparición de personajes en el fichero [`datos_bizarrias-easylinavis.txt`](/assets/analisis-analisis-social-networks-theatre-1/datos_bizarrias-easylinavis.txt), copia y pégalo en Easy Linavis. Una vez tengas el listado en la herramienta, comprueba que hay una línea verde a la izquierda de la columna. Si está de color rojo te está indicando que hay un error en el formato (un salto de línea donde no debe, un asterisco mal situado, etc.). A la derecha te aparecerá un grafo: revisa también que no haya personajes repetidos con nombres distintos (por ejemplo un Conde y un Conde Enrique, o una Lucinda y una Luncinda). Una vez tengas claro que todo está correcto, en la columna del centro, haz clic en _download CSV_ y guarda el archivo como `datos_bizarrias-easylinavis.csv`.
  2. Este archivo que has descargado ya podrías importarlo en un programa de análisis de redes, pero queremos introducir un atributo a las relaciones. Ve a la hoja de cálculo en la que hemos estado trabajando y borra la hoja que primero nombramos "Lista de aristas". Ahora importa el archivo CSV creando una nueva hoja dentro del mismo documento:
       - En Google Sheets: **Archivo**>**Importar**>**Seleccionar el CSV de Google Drive** o **Subir/Arrastrar**>**Ubicación de importación:Insertar nuevas hojas**>**Tipo de separador:Coma**>**Importar datos**
       - En Microsoft Excel: **Datos**>**Obtener datos**>**De un archivo**>**De texto/CSV**>**Seleccionar el CSV y Abrir**>**Delimitador:Coma**>**Cargar**
@@ -381,7 +381,7 @@ Una vez que termines, intercambia cada nombre de pesonaje de tu matriz con el `i
 (En esta ocasión no podemos introducir atributos a las relaciones en la hoja de cálculo, pero no te preocupes, lo haremos más adelante.)
 
 <div class="alert alert-info">
-Si quieres comprobar que has realizado todo correctamente, siguiendo estes enlaces encontrarás <a href="/assets/analisis-redes-sociales-teatro-1/nodos_bizarrias.csv">la lista de nodos</a>, <a href="/assets/analisis-redes-sociales-teatro-1/aristas-coaparicion_bizarrias.csv">la lista de aristas.</a> y <a href="/assets/analisis-redes-sociales-teatro-1/aristas-interaccion_bizarrias.csv">la matriz de adyacencia</a> disponibles ya exportados a CSV en la carpeta `assets` que acompaña a la lección.
+Si quieres comprobar que has realizado todo correctamente, siguiendo estes enlaces encontrarás <a href="/assets/analisis-redes-sociales-teatro-1/nodos_bizarrias.csv">la lista de nodos</a>, <a href="/assets/analisis-redes-sociales-teatro-1/aristas-coaparicion_bizarrias.csv">la lista de aristas.</a> y <a href="/assets/analisis-redes-sociales-teatro-1/aristas-interaccion_bizarrias.csv">la matriz de adyacencia</a>.
 </div>
 
 ## Recapitulación final de la primera parte
@@ -446,5 +446,5 @@ Rodríguez Treviño, Julio César. "Cómo utilizar el Análisis de Redes Sociale
 [^15]: Para más información sobre la obra consultar su ficha de la [Base de datos ARTELOPE](https://perma.cc/57LM-HMMU), en donde encontrarás un resumen, anotaciones pragmáticas sobre la obra, caracterizaciones de personajes y espacios, información bibliográfica, etc. Está disponible en la siguiente direción: [https://artelope.uv.es/basededatos/browserecord.php?-action=browse&-recid=53#bibliograficos](https://perma.cc/8LM6-375N).    
 [^16]: Juan Carlos Garrot Zambrana, "Lope se despide de los corrales: “Las bizarrías de Belisa”." _Anuario Lope de Vega Texto literatura cultura_ 26, (2020): 380.        
 [^17]: Si no anotamos directamente el peso de las aristas (el número de veces que se relacionan dos personajes), el programa de análisis de redes en el que después importaremos los archivos CSV (Gephi) calculará el peso automáticamente, pero lo hará a partir de los datos que tiene. Es decir, si anotamos una vez A-B, el peso será 1; si anotamos seis veces A-B, el peso de la relación entre A y B será 6.    
-[^18]: También puedes utilizar las plantillas que he preparado en la carpeta [`assets`](/assets/analisis-redes-sociales-teatro-1). Encontrarás tres archivos CSV que puedes usar importándolos en una hoja de cálculo y también un archivo .ods.   
+[^18]: También puedes utilizar las plantillas que he preparado. Encontrarás tres archivos `.csv` ([`plantilla-datos_bizarrias-ListaDeAristas.csv`](/assets/plantilla-datos_bizarrias-ListaDeAristas.csv), [`plantilla-datos_bizarrias-ListaDeNodos.csv`](/assets/plantilla-datos_bizarrias-ListaDeNodos.csv) y [`plantilla-datos_bizarrias-MatrizDeAdyacencia.csv`](/assets/plantilla-datos_bizarrias-MatrizDeAdyacencia.csv)) que puedes usar importándolos en una hoja de cálculo y también un archivo `.ods` ([`plantilla-datos_bizarrias.ods`](/assets/plantilla-datos_bizarrias.ods)).   
 [^19]: Los casos 2, 3 y 4, en los que personajes intervienen pero se dirigen a sí mismos (monólogos) o al público (apartes o menciones directas) no los registraremos porque nos interesa estudiar el espacio interpersonal de la obra, es decir, solamente las relaciones que se establecen entre los personajes a través de los que estos se dicen/comunican directamente. Sería perfectamente válido anotar también los monólogos como intervenciones dirigidas a uno mismo (lo que generaría una arista que sale y entra a un mismo nodo) y las intervencioens dirigidas al público, por ejemplo, creando un nodo más. Esto nos abriría nuevas posibilidades de análisis, como estudiar el espacio intrapersonal de los personajes o las relaciones personajes/actores-público.
