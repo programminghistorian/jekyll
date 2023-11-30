@@ -113,7 +113,11 @@ Como ves, los datos están estructurados utilizando saltos de línea y comas. Es
 
 Entonces, la lista de nodos de arriba se vería así en una hoja de cálculo:
 
-{% include figure.html filename="es-or-analisis-redes-sociales-teatro-1-04.png" alt="Captura de pantalla de una hoja de cálculo ilustrando cómo se ve un lista de nodos" caption="Figura 4. Lista de nodos en una hoja de calculo" %}
+| id | label | atributo1 | atributo2 |
+|----|-------|-----------|-----------|
+| 1 | Nodo1 | --- | --- |
+| 2 | Nodo2 | --- | --- |
+| 3 | Nodo3 | --- | --- |
 
 Por otro lado, para estructurar los datos relativos a las aristas existen dos métodos distintos:
 - Lista de aristas
@@ -192,7 +196,14 @@ Las matrices de adyacencia también las necesitamos en formato CSV, por lo que c
 
 Una vez más, para facilitar el trabajo de recogida de datos, utilizaremos hojas de cálculo en las que, numerando las filas y columnas, anotamos los pesos de las relaciones en las celdas que se encuentran en las intersecciones. Es muy importante que hagamos coincidir la numeración de la matriz de adyacencia con el `id` que le hemos asignado a cada personaje en la lista de nodos, de forma que el programa de análisis de redes pueda vincular a cada nodo con sus relaciones. Así se vería una matriz de adyacencia en una hoja de cálculo:
 
-{% include figure.html filename="es-or-analisis-redes-sociales-teatro-1-05.png" alt="Captura de pantalla de una hoja de cálculo ilustrando cómo se ve una matriz de adyacencia de un grafo no dirigido" caption="Figura 5. Matriz de adyacencia de un grado no dirigido registrada en una hoja de cálculo" %}
+|       | 1 | 2 | 3 | 4 | 5 | 6 |
+|-------|---|---|---|---|---|---|
+| **1** | 0 | 9 | 0 | 0 | 0 | 0 |
+| **2** | 4 | 0 | 0 | 0 | 0 | 0 |
+| **3** | 0 | 0 | 0 | 0 | 0 | 0 |
+| **4** | 0 | 0 | 0 | 0 | 0 | 0 |
+| **5** | 0 | 0 | 0 | 0 | 0 | 0 |
+| **6** | 0 | 0 | 0 | 0 | 0 | 0 |
 
 En las matrices de adyacencia no podemos etiquetar ("label") las aristas, pero los programas de análisis de redes permiten modificar los datos y añadir dicha información después de la importación.
 
@@ -220,7 +231,19 @@ Lo siguiente es rellenar las celdas:
 
 Debería quedarte una tabla así:
 
-{% include figure.html filename="es-or-analisis-redes-sociales-teatro-1-06.png" alt="Captura de pantalla de una hoja de cálculo con el resultado de crear la lista de nodos de la comedia de Lope de Vega, Las bizarrías de Belisa" caption="Figura 6. Lista de nodos de *Las bizarrías de Belisa*" %}
+| id | label | género | función |
+|----|-------|--------|---------|
+| 1 | Belisa | Mejuer | Dama |
+| 2 | Finea | Mejuer | Criada |
+| 3 | Celia | Mejuer | Dama |
+| 4 | Lucinda | Mejuer | Dama |
+| 5 | Fabia | Mejuer | Criada |
+| 6 | Don Juan | Hombre | Galán |
+| 7 | Tello | Hombre | Criado |
+| 8 | Octavio | Hombre | Galán |
+| 9 | Julio | Hombre | Criado |
+| 10 | Conde Enrique | Hombre | Galán |
+| 11 | Fernando | Hombre | Criado |
 
 Ahora exporta la hoja en formato CSV y llama al archivo `nodos_bizarrias.csv`: 
 - En Google Sheets ve a **Archivo**>**Descargar**>**Valores separados por comas** (`.csv`)
@@ -329,7 +352,24 @@ Si escoges analizar el texto teatral basándote en las interacciones lingüísti
 
 En esta nueva página, deberías numerar la primera columna y fila del uno al once, dejando libre la primera celda, tal y como vimos más arriba en el ejemplo. Para facilitarnos el trabajo, en vez de utilizar números escribiremos los nombres de los personajes en el mismo orden que en la "Lista de nodos". Más tarde, simplemente sustituiremos cada nombre por su `id` como hemos hecho con la lista de aristas.
 
-{% include figure.html filename="es-or-analisis-redes-sociales-teatro-1-07.png" alt="Captura de pantalla de una hoja de cálculo en la que se ve la matriz de adyacencia vacía preparada para introducir los datos de Las bizarrías de Belisa, con los nombres de los personajes en la primera columna y fila" caption="Figura 7. Matriz de adyacencia base de *Las bizarrías de Belisa*" %}
+Así una tabla en la que se ve la matriz de adyacencia vacía preparada para introducir los datos de Las bizarrías de Belisa, con los nombres de los personajes en la primera columna y fila:
+
+<div class="table-wrapper" markdown="block">
+ 
+|  | Belisa | Finea | Celia | Lucinda | Fabia | Don Juan | Tello | Octavio | Julio | Conde Enrique |  Fernando |  
+|--|--|--|--|--|--|--|--|--|--|--|--|
+| Belisa |  |  |  |
+| Finea  |  |  |  |
+| Celia  |  |  |  |
+| Lucinda |  |  |  |
+| Fabia |  |  |  |
+| Don Juan |  |  |  |
+| Tello |  |  |  |
+| Octavio |  |  |  |
+| Julio |  |  |  |
+| Conde Enrique |  |  |  |
+| Fernando |  |  |  |
+</div>
 
 Una vez tengas la matriz base debes comenzar a recoger los datos contando las interacciones lingüísticas. El criterio básico es el siguiente: si el personaje 1 habla con el personaje 2, sumamos 1 en la celda que se encuentra en la intersección entre la fila de 1 y la columna de 2. Habrá intervenciones muy claras y otras que generen ambigüedad, intervenciones que no van dirigidas necesariamente a ningún personaje (por ejemplo: a sí mismo, al público, un ruego a una divinidad, etc.), intervenciones de un personaje a varios... Por esta razón debemos fijar primero unos criterios de extracción y anotación que tengan en cuenta todas estas posibles situaciones (detectables solo a través de una lectura atenta del texto). La idea es que estos criterios nos guíen en la toma de decisiones y siempre resolvamos de la misma forma las situaciones complejas, posibilitando el análisis comparado de textos que hayan sido analizados siguiendo nuestros criterios de extracción y anotación.
 
@@ -357,7 +397,22 @@ BELISA: Cánsame el Conde, Finea.
 
 Finea dirige su primera intervención a Belisa y esta le responde. Por lo tanto, en nuestra matriz de adyacencia deberíamos anotar 1 de Finea a Belisa y 1 de Belisa a Finea:
 
-{% include figure.html filename="es-or-analisis-redes-sociales-teatro-1-08.png" alt="Captura de pantalla de una hoja de cálculo en la que se ve la matriz de adyacencia de Las bizarrías de Belisa tras registrar los dos primeros versos de la comedia" caption="Figura 8. Matriz de adyacencia de *Las bizarrías de Belisa* tras registrar los dos primeros versos de la comedia" %}
+<div class="table-wrapper" markdown="block">
+
+|  | Belisa | Finea | Celia | Lucinda | Fabia | Don Juan | Tello | Octavio | Julio | Conde Enrique |  Fernando |  
+|--|--|--|--|--|--|--|--|--|--|--|--|
+| Belisa |  | 1 |  |
+| Finea  | 1 |  |  |
+| Celia  |  |  |  |
+| Lucinda |  |  |  |
+| Fabia |  |  |  |
+| Don Juan |  |  |  |
+| Tello |  |  |  |
+| Octavio |  |  |  |
+| Julio |  |  |  |
+| Conde Enrique |  |  |  |
+| Fernando |  |  |  |
+</div>
 
 Otro ejemplo, en la escena 13 del acto 3 don Juan dice a Lucinda y al Conde Enrique:
 
