@@ -369,6 +369,7 @@ Así una tabla en la que se ve la matriz de adyacencia vacía preparada para int
 | Julio |  |  |  |
 | Conde Enrique |  |  |  |
 | Fernando |  |  |  |
+
 </div>
 
 Una vez tengas la matriz base debes comenzar a recoger los datos contando las interacciones lingüísticas. El criterio básico es el siguiente: si el personaje 1 habla con el personaje 2, sumamos 1 en la celda que se encuentra en la intersección entre la fila de 1 y la columna de 2. Habrá intervenciones muy claras y otras que generen ambigüedad, intervenciones que no van dirigidas necesariamente a ningún personaje (por ejemplo: a sí mismo, al público, un ruego a una divinidad, etc.), intervenciones de un personaje a varios... Por esta razón debemos fijar primero unos criterios de extracción y anotación que tengan en cuenta todas estas posibles situaciones (detectables solo a través de una lectura atenta del texto). La idea es que estos criterios nos guíen en la toma de decisiones y siempre resolvamos de la misma forma las situaciones complejas, posibilitando el análisis comparado de textos que hayan sido analizados siguiendo nuestros criterios de extracción y anotación.
@@ -412,6 +413,7 @@ Finea dirige su primera intervención a Belisa y esta le responde. Por lo tanto,
 | Julio |  |  |  |
 | Conde Enrique |  |  |  |
 | Fernando |  |  |  |
+
 </div>
 
 Otro ejemplo, en la escena 13 del acto 3 don Juan dice a Lucinda y al Conde Enrique:
