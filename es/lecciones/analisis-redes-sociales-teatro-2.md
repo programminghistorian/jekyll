@@ -1,5 +1,5 @@
 ---
-title: "Análisis de redes sociales de personajes teatrales (Parte 2)"
+title: "Análisis de redes sociales de personajes teatrales (parte 2)"
 slug: analisis-redes-sociales-teatro-2
 layout: lesson
 collection: lessons
@@ -24,7 +24,7 @@ doi: 10.46430/phes0065
 
 ## Introducción a la segunda parte
 
-Esta es la segunda parte de la lección _Análisis de redes sociales de personajes teatrales_(/es/lecciones/analisis-redes-sociales-teatro-1). En la [primera parte](/es/lecciones/analisis-redes-sociales-teatro-1) conocimos algunas de las aplicaciones del análisis de redes sociales (ARS) a los estudios literarios y aprendimos los conceptos y nociones necesarias para enfrentarnos a esta metodología computacional-cuantitativa. Además, establecimos que para llevar a cabo un análisis de redes sociales de personajes teatrales debemos seguir una serie de pasos consecutivos: 
+Esta es la segunda parte de la lección _Análisis de redes sociales de personajes teatrales_. En la [primera parte](/es/lecciones/analisis-redes-sociales-teatro-1) conocimos algunas de las aplicaciones del análisis de redes sociales (ARS) a los estudios literarios y aprendimos los conceptos y nociones necesarias para enfrentarnos a esta metodología computacional-cuantitativa. Además, establecimos que para llevar a cabo un análisis de redes sociales de personajes teatrales debemos seguir una serie de pasos consecutivos: 
 
   * Paso 1. Creación del corpus de análisis
   * Paso 2. Conseguir los datos
