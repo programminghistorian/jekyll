@@ -3,7 +3,7 @@ title: "Análisis de redes sociales de personajes teatrales (Parte 2)"
 slug: analisis-redes-sociales-teatro-2
 layout: lesson
 collection: lessons
-date: 2024-11-27
+date: 2024-11-30
 authors:
 - David Merino Recalde
 reviewers:
@@ -34,7 +34,7 @@ Esta es la segunda parte de la lección _Análisis de redes sociales de personaj
   * Paso 4. Visualización y análisis de grafos con Gephi
   * Paso 5. Interpretación de los resultados  
 
-Ya hemos visto los pasos 1 y 2, y en esta segunda parte trataremos los dos últimos pasos. Si has seguido la primera parte de la lección cuentas con todos los archivos necesarios para continuar. Si has saltado directamente a la segunda parte porque lo que te interesa es aprender visualización y análisis de grafos con [Gephi](https://gephi.org/), puedes utilizar los archivos CSV disponibles en la carpeta [`assets`](/assets/analisis-redes-sociales-teatro-1) de esta lección. En cualquier caso, recomendamos leer la primera parte, pues es importante comprender el proceso de extracción y recogida de datos para poder analizar correctamente los resultados del análisis. ¡Vamos a ello!
+Ya hemos visto los pasos 1 y 2, y en esta segunda parte trataremos los dos últimos pasos. Si has seguido la primera parte de la lección cuentas con todos los archivos necesarios para continuar. Si has saltado directamente a la segunda parte porque lo que te interesa es aprender visualización y análisis de grafos con [Gephi](https://gephi.org/), debes descargar ahora los archivos que utilizaremos aquí. En cualquier caso, recomendamos leer la primera parte, pues es importante comprender el proceso de extracción y recogida de datos para poder analizar correctamente los resultados del análisis. ¡Vamos a ello! 
 
 ## Paso 3. Visualización y análisis de grafos con Gephi
 
