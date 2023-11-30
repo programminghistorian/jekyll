@@ -15,7 +15,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/547
 difficulty: 2
 activity: analyzing
 topics: [network-analysis, distant-reading]
-abstract: En esta lección aprenderás a realizar un Análisis de Redes Sociales a partir de los personajes de un texto teatral. Esta segunda parte trata sobre la importación de datos a Gephi, la creación de visualizaciones, la implementación de medidas y algoritmos, y el análisis e interpretación de los resultados.
+abstract: En esta lección aprenderás a realizar un Análisis de Redes Sociales con los personajes de un texto teatral. Aprenderás sobre la importación de datos a Gephi, la creación de visualizaciones, la implementación de medidas y algoritmos, y el análisis e interpretación de los resultados.
 avatar_alt: Recorte de dibujo a pluma de la escenografía usada en la representación de la comedia 'La fiera, el rayo y la piedra' de Pedro Calderón de la Barca en 1690, en el que se puede ver a varios personajes interactuando en escena.
 doi: 10.46430/phes0065
 ---
