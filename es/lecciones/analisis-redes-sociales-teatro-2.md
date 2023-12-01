@@ -3,7 +3,7 @@ title: "Análisis de redes sociales de personajes teatrales (parte 2)"
 slug: analisis-redes-sociales-teatro-2
 layout: lesson
 collection: lessons
-date: 2024-11-30
+date: 2023-11-30
 authors:
 - David Merino Recalde
 reviewers:
