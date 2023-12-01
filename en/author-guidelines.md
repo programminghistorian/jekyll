@@ -20,13 +20,11 @@ These guidelines have been developed to help you understand the process of creat
 ## Step 1: Proposing a New Lesson
 
 <div class="alert alert-success">
-Our English journal is currently [inviting proposals](/posts/en-call-for-lessons) for new original lessons or translations to be considered for publication in 2024. If you have an idea, [please send us a proposal](https://tinyurl.com/ph-en-proposals) by January 12th, 2024.
-We are seeking lessons which are relevant to the humanities, pitched at any level of technical aptitude and experience, that focus on one problem or process, can be sustainable in the long term, and are addressed to a global audience.
-
-The scope and length of the tutorial should be appropriate to the complexity of the task. Tutorials should not exceed 8,000 words (including code). Shorter lessons are welcome. Longer lessons may need to be split into multiple tutorials.
+Our English journal is currently <a href='/posts/en-call-for-lessons'>inviting proposals</a> for new original lessons or translations to be considered for publication in 2024. If you have an idea, <a href='https://tinyurl.com/ph-en-proposals'>please send us a proposal</a> by January 12th, 2024.
+We are seeking proposals which are relevant to the humanities, pitched at any level of technical aptitude and experience, that focus on one problem or process, can be sustainable in the long term, and are addressed to a global audience.
 </div>
 
-**If you have an idea, please send us a proposal by January 12th, 2024**. We’ve set up [a Google Form](https://tinyurl.com/ph-en-proposals) which you can submit directly online. There’s also [a plain-text version](/assets/forms/Lesson.Query.Form.txt) which you can [send to us by email](mailto:english@programminghistorian.org), if you prefer. 
+**If you have an idea for a lesson, please send us a proposal by January 12th, 2024**. We’ve set up [a Google Form](https://tinyurl.com/ph-en-proposals) which you can submit directly online. There’s also [a plain-text version](/assets/forms/Lesson.Query.Form.txt) which you can [send to us by email](mailto:english@programminghistorian.org), if you prefer. 
 
 You can get a sense of what we publish by looking through our [published lessons]({{site.baseurl}}/en/lessons), reading our [reviewer guidelines]({{site.baseurl}}/en/reviewer-guidelines) or browsing [lessons in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/en/drafts). Please also take a moment to check our [Lesson Concordance document](https://docs.google.com/spreadsheets/d/1vrvZTygZLfQRoQildD667Xcgzhf_reQC8Nq4OD-BRIA/edit#gid=0) to see which methods we have already covered in our published or forthcoming lessons. 
 
