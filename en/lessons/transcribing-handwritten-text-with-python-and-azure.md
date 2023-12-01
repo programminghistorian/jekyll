@@ -95,8 +95,7 @@ i) In the **Create Computer Vision** screen, **Basics** tab, **Project Details**
 
 {% include figure.html filename="en-or-transcribing-handwritten-text-with-python-and-azure-02.png" alt="Picture of the Create Computer Vision window." caption="Figure 2. + Resource group \| Create new." %}
 
->Important!
->j) In the **Instance Details** section, select a region, input a unique name and set **Pricing tier** to "Free F0".
+j) In the **Instance Details** section, select a region, input a unique name and set **Pricing tier** to "Free F0".
 
 k) Read the _Responsible AI Notice_ and check the box. The **Identity** and **Tags** tabs can be left with default values. They are relevant only if you are using this in combination with other Microsoft Azure services.
 
