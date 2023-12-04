@@ -233,11 +233,11 @@ Debería quedarte una tabla así:
 
 | id | label | género | función |
 |----|-------|--------|---------|
-| 1 | Belisa | Mejuer | Dama |
-| 2 | Finea | Mejuer | Criada |
-| 3 | Celia | Mejuer | Dama |
-| 4 | Lucinda | Mejuer | Dama |
-| 5 | Fabia | Mejuer | Criada |
+| 1 | Belisa | Mujer | Dama |
+| 2 | Finea | Mujer | Criada |
+| 3 | Celia | Mujer | Dama |
+| 4 | Lucinda | Mujer | Dama |
+| 5 | Fabia | Mujer | Criada |
 | 6 | Don Juan | Hombre | Galán |
 | 7 | Tello | Hombre | Criado |
 | 8 | Octavio | Hombre | Galán |
