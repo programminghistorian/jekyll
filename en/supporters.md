@@ -76,7 +76,7 @@ Organizations that have or continue to give support ranging from in kind service
 - Fundação para a Ciência e Tecnologia, through their special programme '[Verão com Ciência 2021](https://www.uevora.pt/investigar/projetos?id=5261)', Portugal [September 2021].
 - The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), United Kingdom [2021].
 - School of History, Art History and Philosophy, University of Sussex [2019].
-- [ESRC Impact Accelerator Account, University of Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/), [2019].
+- [ESRC Impact Accelerator Account, University of Sussex](https://www.sussex.ac.uk/collaborate/business/public-funds#:~:text=Impact%20accelerator%20funds,-From%20law%20to&text=The%20ESRC%20and%20AHRC%20Impact,businesses%20through%20to%20large%20companies), [2019].
 - The British Academy [Writing Workshops funding scheme](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/), United Kingdom [2018].
 - The dSHARP lab at Carnegie Mellon University sponsored by the Andrew W. Mellon Foundation, United States [2018-2020].
 - The Network in Canadian History & Environment, Canada [2011-2013].
