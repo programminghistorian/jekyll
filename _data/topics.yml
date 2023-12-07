@@ -177,3 +177,15 @@
     es: "Lecciones para crear productos expresivos en vez de funcionales con programación."
     fr: "Leçons pour créer des produits expressifs plutôt que fonctionnels avec la programmation."
     pt: "Lições de programação para criar produtos expressivos em vez de funcionais."
+
+- type: data-visualization
+  displayname:
+    en: "data visualization"
+    es: "visualización de datos"
+    fr: "visualisation de données"
+    pt: "visualização de dados"
+  description:
+    en: "Lessons which teach the representation of data through common graphics."
+    es: "Lecciones que enseñan a representar datos mediante gráficos comunes."
+    fr: "Leçons qui enseignent la représentation de données à l'aide de graphiques communs."
+    pt: "Lições que ensinam a representação de dados através de gráficos comuns."
