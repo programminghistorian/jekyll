@@ -541,12 +541,12 @@ As capabilities grow, so the potential uses of this type of transcription for Di
 
 ## Bibliography
 
-Cahill, Barry. "White, William Andrew," in Dictionary of Canadian Biography, vol. 16, University of Toronto/Université Laval, 2003–, http://www.biographi.ca/en/bio/white_william_andrew_16E.html. Accessed August 18, 2023.
+Cahill, Barry. "White, William Andrew," in Dictionary of Canadian Biography, vol. 16, University of Toronto/Université Laval, 2003–, [http://www.biographi.ca/en/bio/white_william_andrew_16E.html](https://perma.cc/AU2P-GBCA). Accessed August 18, 2023.
 
-Dombrowski, Quinn, Tassie Gniady, and David Kloster, "Introduction to Jupyter Notebooks," _Programming Historian_ 8 (2019), https://doi.org/10.46430/phen0087.
+Dombrowski, Quinn, Tassie Gniady, and David Kloster, "Introduction to Jupyter Notebooks," _Programming Historian_ 8 (2019), [https://doi.org/10.46430/phen0087](https://doi.org/10.46430/phen0087).
 
-Graham, Shawn. Detecting and Extracting Hand-written text. Jan 28, 2020. https://shawngraham.github.io/dhmuse/detecting-handwriting/. Accessed 25 December, 2021.
+Graham, Shawn. Detecting and Extracting Hand-written text. Jan 28, 2020. [https://shawngraham.github.io/dhmuse/detecting-handwriting/](https://perma.cc/J7BV-V6ME). Accessed 25 December, 2021.
 
-White, William. 1917. William Andrew White fonds, R15535-0-8-E, "1917 Diary", Item ID number 4818067. Library and Archives Canada. http://central.bac-lac.gc.ca/.redirect?app=fonandcol&id=4818067&lang=eng. Accessed August 18, 2023.
+White, William. 1917. William Andrew White fonds, R15535-0-8-E, "1917 Diary", Item ID number 4818067. Library and Archives Canada. [http://central.bac-lac.gc.ca/.redirect?app=fonandcol&id=4818067&lang=eng](https://perma.cc/9LQJ-XBEW). Accessed August 18, 2023.
 
-Cognitive-services-quickstart-code, June 22, 2021, https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/quickstarts-sdk/python-sdk. Accessed 25 December, 2021.
+Cognitive-services-quickstart-code, June 22, 2021, [https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/quickstarts-sdk/python-sdk](https://perma.cc/FQ4Z-J9JU). Accessed 25 December, 2021.
