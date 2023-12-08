@@ -1,3 +1,12 @@
+---
+title: Bulletin // Boletín // Bulletin // Boletim - Issue 01
+authors: 
+- Charlotte Chevrie
+- Anisa Hawes
+layout: post
+categories: posts 
+---
+
 <p><figure><img src="/images/blog/ph-bulletin-banner.png" alt="Banner showing the four Programming Historian logos and the title Bulletin in each language "/><figcaption></figcaption> </figure></p>
 
 #### December 2023 - Issue 01
