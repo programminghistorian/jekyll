@@ -42,7 +42,7 @@ W. J. TURKEL & ADAM CRYMBLE, traduite par CELIAN RINGWALD
 
 JEFF BLACKADAR    
 **Transcribing Handwritten Text with Python and Microsoft Azure Computer Vision**    
-This lesson will explain how to write a Python program to transcribe handwritten documents using Microsoft’s Azure Cognitive Services, a commercially available service that has a cost-free option for low volumes of use.    
+- This lesson will explain how to write a Python program to transcribe handwritten documents using Microsoft’s Azure Cognitive Services, a commercially available service that has a cost-free option for low volumes of use.    
 [Read the lesson](https://doi.org/10.46430/phen0114)    
 
 TARYN DEWAR, traduite par MARIE FLESCH    
@@ -57,7 +57,7 @@ ERIC BRASIL
 
 DAVID MERINO RECALDE    
 **Análisis de redes sociales de personajes teatrales (partes 1 y 2)**    
-En estas lecciónes aprenderás a realizar un Análisis de Redes Sociales con los personajes de un texto teatral.    
+- En estas lecciónes aprenderás a realizar un Análisis de Redes Sociales con los personajes de un texto teatral.    
 [Leer la lección](https://doi.org/10.46430/phes0064)
 
 ## Research and Outreach
