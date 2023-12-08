@@ -3,7 +3,7 @@ title: "Creating Interactive Visualizations with Plotly"
 slug: interactive-visualization-with-plotly
 layout: lesson
 collection: lessons
-date: 2023-MM-DD
+date: 2023-12-13
 authors:
 - Grace Di Méo
 reviewers:
