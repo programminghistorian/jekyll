@@ -1210,14 +1210,6 @@
       François Dominic Laramée é pós-doutorando em História Digital da Medicina pela University of Ottawa, Canadá.
       É mestre em Informática e História dos Estados Unidos da América e trabalhou como desenvolvedor de videojogos, guionista e artista de televisão no Quebec.
 
-- name: Jeff Blackadar
-  team: false
-  bio:
-    en: |
-      Jeff Blackadar is a part-time undergraduate history student at Carleton University. His career is in the field of information technology.
-    pt: |
-      Jeff Blackadar é aluno de História a tempo parcial na Carleton University. A sua carreira é no campo da tecnologia da informação.
-
 - name: Martin Grandjean
   email: martin.grandjean@unil.ch
   twitter: grandjeanmartin
@@ -3002,9 +2994,19 @@
   bio:
     en: |
       Megan Kane is a PhD candidate in the English Department at Temple University.
+
 - name: David Merino Recalde
   orcid: 0000-0003-2740-7831
   team: false
   bio:
     es: |
       David Merino Recalde es Personal Investigador en Formación en la Universitat Autònoma de Barcelona, es máster en Investigación Literaria y Teatral y máster en Humanidades Digitales.
+
+- name: Jeff Blackadar
+  orcid: 0000-0002-8160-0942
+  team: false
+  bio:
+    en: |
+      Jeff Blackadar has a Master of Arts in History with a specialization in Data Science from Carleton University.
+    pt: |
+      Jeff Blackadar é Mestre em História, com especialização em Ciência de Dados, pela Carleton University.
