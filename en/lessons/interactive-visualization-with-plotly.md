@@ -909,7 +909,7 @@ fig.update_layout(
     <p>Figure 15. A three-column plot created using Plotly Graph Objects, with a bar chart showing the number of accused by
         gender, a line graph showing the number of male and female accused by year, and a box plot showing the
         distribution and outlier values of male and female accused by age. This plot is a variant of that produced in
-        Figure 15, with added subtitles for each subplot. <a href="/assets/interactive-visualization-with-plotly/interactive-visualization-with-plotly-15.html" target="_blank">Click to explore an interactive variant of this plot</a>.</p>
+        Figure 14, with added subtitles for each subplot. <a href="/assets/interactive-visualization-with-plotly/interactive-visualization-with-plotly-15.html" target="_blank">Click to explore an interactive variant of this plot</a>.</p>
 </figcaption>
 </figure>
 
@@ -963,7 +963,7 @@ fig.update_layout(
     <p>Figure 16. A three-column plot created using Plotly Graph Objects, with a bar chart showing the number of accused by
         gender, a line graph showing the number of male and female accused by year, and a box plot showing the
         distribution and outlier values of male and female accused by age. This plot is a variant of that produced in
-        Figure 16, with added annotations in the line graph. <a href="/assets/interactive-visualization-with-plotly/interactive-visualization-with-plotly-16.html" target="_blank">Click to explore an interactive variant of this plot</a>.</p>
+        Figure 15, with added annotations in the line graph. <a href="/assets/interactive-visualization-with-plotly/interactive-visualization-with-plotly-16.html" target="_blank">Click to explore an interactive variant of this plot</a>.</p>
 </figcaption>
 </figure>
 
@@ -1003,7 +1003,7 @@ fig.add_annotation(
     <p>Figure 17. A three-column plot created using Plotly Graph Objects, with a bar chart showing the number of accused by
         gender, a line graph showing the number of male and female accused by year, and a box plot showing the
         distribution and outlier values of male and female accused by age. This plot is a variant of that produced in
-        Figure 17, with an additional annotation added below all three subplots. <a href="/assets/interactive-visualization-with-plotly/interactive-visualization-with-plotly-17.html" target="_blank">Click to explore an interactive variant of this plot</a>.</p>
+        Figure 16, with an additional annotation added below all three subplots. <a href="/assets/interactive-visualization-with-plotly/interactive-visualization-with-plotly-17.html" target="_blank">Click to explore an interactive variant of this plot</a>.</p>
 </figcaption>
 </figure>
 
