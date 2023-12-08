@@ -80,4 +80,4 @@ We also thank all supporters who have renewed their membership to our Institutio
 Institutional Partnerships enable us to keep developing our model of sustainable, open-access publishing, and empower us to continue creating peer-reviewed, multilingual lessons for digital humanists around the globe. Learn more at [https://tinyurl.com/support-PH](https://tinyurl.com/support-PH)
 
 ------    
-- Follow our social media to stay updated on our upcoming publications and events! [Twitter](https://twitter.com/ProgHist) - [Mastodon](https://hcommons.social/@proghist) - [LinkedIn](https://www.linkedin.com/company/prog-hist/)- [Patreon](https://www.patreon.com/theprogramminghistorian)
+- Follow our social media to stay updated on our upcoming publications and events! [Twitter](https://twitter.com/ProgHist) - [Mastodon](https://hcommons.social/@proghist) - [LinkedIn](https://www.linkedin.com/company/prog-hist/) - [Patreon](https://www.patreon.com/theprogramminghistorian)
