@@ -79,7 +79,7 @@ We also thank all supporters who have renewed their membership to our Institutio
 Institutional Partnerships enable us to keep developing our model of Diamond Open Access publishing, and empower us to continue creating peer-reviewed, multilingual lessons for digital humanists around the globe. Join us: [https://tinyurl.com/support-PH](https://tinyurl.com/support-PH)
 
 ------    
-Next issue: March 2024. Follow us on social media to stay updated on our new publications, research and events!    
+Next issue: March 2024. In the meantime, keep in touch with us on social media to stay updated on our new publications, research and events!
 
 [Twitter](https://twitter.com/ProgHist) - [Mastodon](https://hcommons.social/@proghist) - [LinkedIn](https://www.linkedin.com/company/prog-hist/) - [Patreon](https://www.patreon.com/theprogramminghistorian)
 
