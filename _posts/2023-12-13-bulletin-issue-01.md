@@ -25,7 +25,7 @@ Since the beginning of 2023, we have published 28 lessons of which 13 are origin
 
 SERGIO RODRÍGUEZ GÓMEZ    
 [Generadores de texto e imágenes usando gramáticas libres de contexto en Aventura.js](https://doi.org/10.46430/phes0063)
-- Si te interesa la programación creativa y quieres aprender nuevas formas de crear textos e imágenes usando gramáticas libres de contexto, esta lección es para ti.   
+- Esta lección te enseña a crear generadores de texto e imágenes usando la librería Aventura.js para el lenguaje de programación JavaScript.
 
 MEGAN S. KANE     
 [Corpus Analysis with spaCy](https://doi.org/10.46430/phen0113)
@@ -67,7 +67,7 @@ DAVID MERINO RECALDE
 **Maria José Afanador-Llach & Andrés Rivera, ‘Segundo ciclo de talleres: Herramientas y procesos digitales para la investigación y creación en artes y humanidades’, (2023).**
 - “Three free virtual workshops on digital tools for teachers and students of the Universidad de los Andes, and for anyone outside the academic, cultural and heritage sector” using materials from _Programming Historian in español_.
 
-**Jennifer Isasi, Riva Quiroga, Nabeel Sidiqqui, Joana Veira Paulino, Alex Wermer-Colan, “A Model for Multilingual and Multicultural Digital Scholarship Methods Publishing,” in Multilingual Digital Humanities, edited by Viola, L., & Spence, P., Routledge, 2023.**
+**Jennifer Isasi, Riva Quiroga, Nabeel Sidiqqui, Joana Veira Paulino, Alex Wermer-Colan, “A Model for Multilingual and Multicultural Digital Scholarship Methods Publishing,” in _Multilingual Digital Humanities_, edited by Viola, L., & Spence, P., Routledge, 2023.**
 - “Becoming a unique set of multilingual journals raised many obstacles along the way. This chapter focuses on the development of our multilingual and multicultural publishing strategies aimed at providing readability for our global audience.”
 
 ## New Supporters
