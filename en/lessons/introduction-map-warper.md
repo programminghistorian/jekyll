@@ -26,7 +26,7 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/426
 difficulty: 2
 activity: transforming
-topics: [mapping]
+topics: [mapping, data-visualization]
 abstract: "This lesson introduces basic use of Map Warper for historical maps. It guides you from upload to export, demonstrating methods for georeferencing and producing visualizations."
 avatar_alt: Image of a map of the Coffee Region of the Republic of Colombia.
 doi: 10.46430/phen0106
