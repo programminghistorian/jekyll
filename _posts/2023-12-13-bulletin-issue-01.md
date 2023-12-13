@@ -1,5 +1,5 @@
 ---
-title: Bulletin // Boletín // Bulletin // Boletim - Issue 01
+title: Bulletin // Boletín // Bulletin // Boletim
 authors: 
 - Charlotte Chevrie
 - Anisa Hawes
@@ -9,9 +9,9 @@ categories: posts
 
 <p><figure><img src="/images/blog/ph-bulletin-banner.png" alt="Banner showing the four Programming Historian logos and the title Bulletin in each language "/><figcaption></figcaption> </figure></p>
 
-#### December 2023 - Issue 01
+# Issue 01 - December 2023
 
-**Welcome** / **bienvenidos** / **bienvenue** / **bem-vindo** to the first edition of the PH Bulletin, a quarterly insight into our recent publications, research highlights, project news and more.
+**Welcome** / **bienvenidos** / **bienvenue** / **bem-vindos** to the first edition of the PH **Bulletin** / **Buletín** / **Bulletin** / **Boletim**, a quarterly insight into our recent publications, research highlights, project news and more.
 It will be circulated via our social media channels and also available on our [blog](https://programminghistorian.org/blog/).
 
 ## 2023 Milestones
@@ -22,52 +22,43 @@ It will be circulated via our social media channels and also available on our [b
 
 ## New Lessons
 
-Since the beginning of 2023, we have published 27 lessons of which 12 are originals and 15 are translations. We are extremely proud of our global community of authors, translators, editors and reviewers.
+Since the beginning of 2023, we have published 28 lessons of which 13 are originals and 15 are translations. We are extremely proud of our global community of authors, translators, editors and reviewers.
 
 SERGIO RODRÍGUEZ GÓMEZ    
-**Generadores de texto e imágenes usando gramáticas libres de contexto en Aventura.js**   
+[Generadores de texto e imágenes usando gramáticas libres de contexto en Aventura.js](https://doi.org/10.46430/phes0063)
 - Si te interesa la programación creativa y quieres aprender nuevas formas de crear textos e imágenes usando gramáticas libres de contexto, esta lección es para ti.   
-[Leer la lección](https://doi.org/10.46430/phes0063)
 
 MEGAN S. KANE     
-**Corpus Analysis with spaCy**    
-- Readers will learn how the linguistic annotations produced by spaCy can be analyzed to help researchers explore meaningful trends in language patterns across a set of texts.   
-[Read the lesson](https://doi.org/10.46430/phen0113)
-
+[Corpus Analysis with spaCy](https://doi.org/10.46430/phen0113)
+- Readers will learn how the linguistic annotations produced by spaCy can be analyzed to help researchers explore meaningful trends in language patterns across a set of texts.
+- 
 YANN RYAN, traduzido por ARACELE TORRES    
-**Criando uma aplicação Web interativa com R e Shiny**    
+[Criando uma aplicação Web interativa com R e Shiny](https://doi.org/10.46430/phpt0044)
 - Na lição, é projetado e implementado um aplicativo simples, que consiste num controlo deslizante que permite ao usuário selecionar um intervalo de datas e exibir um conjunto de pontos correspondentes num mapa interativo.         
-[Ler a lição](https://doi.org/10.46430/phpt0044)
 
 JONATHAN READES & JENNIE WILLIAMS    
-**Clustering and Visualising Documents using Word Embeddings**    
+[Clustering and Visualising Documents using Word Embeddings](https://doi.org/10.46430/phen0111)
 - This lesson uses algorithms in Python to identify groups of similar documents in a corpus of approximately 9,000 academic abstracts.       
-[Read the lesson](https://doi.org/10.46430/phen0111)
 
 W. J. TURKEL & ADAM CRYMBLE, traduite par CELIAN RINGWALD        
-**Du HTML à une liste de mots (parties 1 et 2)**    
+[Du HTML à une liste de mots (parties 1 et 2)](https://doi.org/10.46430/phfr0026)
 - Enregistrer des données sous la forme d’un texte sans balises HTML et les convertir en une liste de mots qui peut être triée, indexée et investie lors d’analyses statistiques.   
-[Lire la leçon](https://doi.org/10.46430/phfr0026)
 
 JEFF BLACKADAR    
-**Transcribing Handwritten Text with Python and Microsoft Azure Computer Vision**    
-- This lesson will explain how to write a Python program to transcribe handwritten documents using Microsoft’s Azure Cognitive Services, a commercially available service that has a cost-free option for low volumes of use.    
-[Read the lesson](https://doi.org/10.46430/phen0114)    
+[Transcribing Handwritten Text with Python and Microsoft Azure Computer Vision](https://doi.org/10.46430/phen0114)
+- This lesson will explain how to write a Python program to transcribe handwritten documents using Microsoft’s Azure Cognitive Services, a commercially available service that has a cost-free option for low volumes of use.        
 
 TARYN DEWAR, traduite par MARIE FLESCH    
-**Analyser des données tabulaires avec R**    
+[Analyser des données tabulaires avec R](https://doi.org/10.46430/phfr0027)
 - Cette leçon montre comment analyser rapidement de grands jeux de données tabulaires, pour rendre la recherche plus rapide et plus efficace. 
-[Lire la leçon](https://doi.org/10.46430/phfr0027)
 
 ERIC BRASIL    
-**Git como ferramenta metodológica em projetos de História (parte 1)**    
-- A lição procura caracterizar sistemas de controlo de versões, tendo o Git como exemplo, e analisar as possibilidades do seu uso para a pesquisa em História.   
-[Ler a lição](https://doi.org/10.46430/phpt0045)
+[Git como ferramenta metodológica em projetos de História (parte 1)](https://doi.org/10.46430/phpt0045)
+- A lição procura caracterizar sistemas de controlo de versões, tendo o Git como exemplo, e analisar as possibilidades do seu uso para a pesquisa em História.
 
 DAVID MERINO RECALDE    
-**Análisis de redes sociales de personajes teatrales (partes 1 y 2)**    
+[Análisis de redes sociales de personajes teatrales (partes 1 y 2)](https://doi.org/10.46430/phes0064)
 - En estas lecciónes aprenderás a realizar un Análisis de Redes Sociales con los personajes de un texto teatral.    
-[Leer la lección](https://doi.org/10.46430/phes0064)
 
 ## Research and Outreach
 
@@ -89,4 +80,8 @@ We also thank all supporters who have renewed their membership to our Institutio
 Institutional Partnerships enable us to keep developing our model of sustainable, open-access publishing, and empower us to continue creating peer-reviewed, multilingual lessons for digital humanists around the globe. Learn more at [https://tinyurl.com/support-PH](https://tinyurl.com/support-PH)
 
 ------    
-- Follow our social media to stay updated on our upcoming publications and events! [Twitter](https://twitter.com/ProgHist) - [Mastodon](https://hcommons.social/@proghist) - [LinkedIn](https://www.linkedin.com/company/prog-hist/) - [Patreon](https://www.patreon.com/theprogramminghistorian)
+Follow our social media to stay updated on our upcoming publications and events!    
+
+[Twitter](https://twitter.com/ProgHist) - [Mastodon](https://hcommons.social/@proghist) - [LinkedIn](https://www.linkedin.com/company/prog-hist/) - [Patreon](https://www.patreon.com/theprogramminghistorian)
+
+You can also [download] this Bulletin as a PDF.
