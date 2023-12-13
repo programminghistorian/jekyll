@@ -83,4 +83,4 @@ Next issue: March 2024. In the meantime, keep in touch with us on social media t
 
 [Twitter](https://twitter.com/ProgHist) - [Mastodon](https://hcommons.social/@proghist) - [LinkedIn](https://www.linkedin.com/company/prog-hist/) - [Patreon](https://www.patreon.com/theprogramminghistorian)
 
-You can also [download](https://github.com/programminghistorian/jekyll/tree/gh-pages/assets/bulletin/2023-12-13-bulletin-issue-01.pdf) this Bulletin as a PDF.
+You can also [download](/assets/bulletin/2023-12-13-bulletin-issue-01.pdf) this Bulletin as a PDF.
