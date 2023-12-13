@@ -84,4 +84,4 @@ Follow our social media to stay updated on our upcoming publications and events!
 
 [Twitter](https://twitter.com/ProgHist) - [Mastodon](https://hcommons.social/@proghist) - [LinkedIn](https://www.linkedin.com/company/prog-hist/) - [Patreon](https://www.patreon.com/theprogramminghistorian)
 
-You can also [download] this Bulletin as a PDF.
+You can also [download](https://github.com/programminghistorian/jekyll/tree/gh-pages/assets/bulletin/2023-12-13-bulletin-issue-01.pdf) this Bulletin as a PDF.
