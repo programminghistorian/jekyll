@@ -11,13 +11,12 @@ categories: posts
 
 # Issue 01 - December 2023
 
-**Welcome** / **bienvenidos** / **bienvenue** / **bem-vindos** to the first edition of the PH **Bulletin** / **Buletín** / **Bulletin** / **Boletim**, a quarterly insight into our recent publications, research highlights, project news and more.
-It will be circulated via our social media channels and also available on our [blog](https://programminghistorian.org/blog/).
+**Welcome** / **bienvenidos** / **bienvenue** / **bem-vindos** to the first issue of _Programming Historian_’s **Bulletin** / **Buletín** / **Bulletin** / **Boletim**, a quarterly insight into our recent publications, research highlights, project news and more.
 
 ## 2023 Milestones
 
-- We celebrated the publication of our 200th lesson overall since our launch. This was a moment to recognise our significant growth as a project over the past decade, and to honour a great collective achievement.
-- We won the Best DH Training Materials category of the [Digital Humanities Awards](http://dhawards.org/dhawards2022/results/). Community-nominated and community-voted awards make us particularly proud, because they represent the value of Programming Historian among our peers.
+- We celebrated the publication of our 200th lesson overall since our launch. This was a moment to recognise our significant growth as a project over the past decade, and to honour a great collective achievement on behalf of all our contributors.
+- We won the Best DH Training Materials category of the [Digital Humanities Awards](http://dhawards.org/dhawards2022/results/). Community-nominated and community-voted awards make us particularly proud, because they represent the value of _Programming Historian_ among our peers.
 - We are delighted to have recruited a brilliant new Publishing Assistant Charlotte Chevrie, who will be working alongside Anisa Hawes, now our Publishing Manager, to provide services to our four journal teams.
 
 ## New Lessons
@@ -31,7 +30,7 @@ SERGIO RODRÍGUEZ GÓMEZ
 MEGAN S. KANE     
 [Corpus Analysis with spaCy](https://doi.org/10.46430/phen0113)
 - Readers will learn how the linguistic annotations produced by spaCy can be analyzed to help researchers explore meaningful trends in language patterns across a set of texts.
-- 
+ 
 YANN RYAN, traduzido por ARACELE TORRES    
 [Criando uma aplicação Web interativa com R e Shiny](https://doi.org/10.46430/phpt0044)
 - Na lição, é projetado e implementado um aplicativo simples, que consiste num controlo deslizante que permite ao usuário selecionar um intervalo de datas e exibir um conjunto de pontos correspondentes num mapa interativo.         
@@ -68,19 +67,19 @@ DAVID MERINO RECALDE
 **Maria José Afanador-Llach & Andrés Rivera, ‘Segundo ciclo de talleres: Herramientas y procesos digitales para la investigación y creación en artes y humanidades’, (2023).**
 - “Three free virtual workshops on digital tools for teachers and students of the Universidad de los Andes, and for anyone outside the academic, cultural and heritage sector” using materials from _Programming Historian in español_.
 
-**Jennifer Isasi et al., “A Model for Multilingual and Multicultural Digital Scholarship Methods Publishing,” in _Multilingual Digital Humanities_, edited by Viola, L., & Spence, P., Routledge, 2023.**
+**Jennifer Isasi, Riva Quiroga, Nabeel Sidiqqui, Joana Veira Paulino, Alex Wermer-Colan, “A Model for Multilingual and Multicultural Digital Scholarship Methods Publishing,” in Multilingual Digital Humanities, edited by Viola, L., & Spence, P., Routledge, 2023.**
 - “Becoming a unique set of multilingual journals raised many obstacles along the way. This chapter focuses on the development of our multilingual and multicultural publishing strategies aimed at providing readability for our global audience.”
 
 ## New Supporters
 
-Grateful thanks to all those who have invested in our success this year: **Universiteit Gent**; the **Open Research team at University of Exeter**; **Universiteit van Amsterdam**;  **University of Florida** and **Universität Bern Bibliothek**.   
+Grateful thanks to all those who have invested in our success this year: **Universiteit Gent**; the **Open Research team at University of Exeter**; **Universiteit van Amsterdam**; **University of Florida** and **Universität Bern Bibliothek**.   
 
 We also thank all supporters who have renewed their membership to our Institutional Partner Programme this quarter, including those at Gold Tier: **Centre for Data, Culture and Society, University of Edinburgh**; **University of Sussex Library** and **Corporation for Digital Scholarship**.
 
-Institutional Partnerships enable us to keep developing our model of sustainable, open-access publishing, and empower us to continue creating peer-reviewed, multilingual lessons for digital humanists around the globe. Learn more at [https://tinyurl.com/support-PH](https://tinyurl.com/support-PH)
+Institutional Partnerships enable us to keep developing our model of Diamond Open Access publishing, and empower us to continue creating peer-reviewed, multilingual lessons for digital humanists around the globe. Join us: [https://tinyurl.com/support-PH](https://tinyurl.com/support-PH)
 
 ------    
-Follow our social media to stay updated on our upcoming publications and events!    
+Next issue: March 2024. Follow us on social media to stay updated on our new publications, research and events!    
 
 [Twitter](https://twitter.com/ProgHist) - [Mastodon](https://hcommons.social/@proghist) - [LinkedIn](https://www.linkedin.com/company/prog-hist/) - [Patreon](https://www.patreon.com/theprogramminghistorian)
 
