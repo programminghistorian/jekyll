@@ -13,7 +13,7 @@ difficulty: 2
 exclude_from_check:
   - review-ticket
 activity: transforming
-topics: [network-analysis]
+topics: [network-analysis, data-visualization]
 abstract: "Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources. This tutorial explains how to extract network data (people, institutions, places, etc) from historical sources through the use of non-technical methods developed in Qualitative Data Analysis (QDA) and Social Network Analysis (SNA), and how to visualize this data with the platform-independent and particularly easy-to-use Palladio."
 redirect_from: /lessons/creating-network-diagrams-from-historical-sources
 avatar_alt: Diagram of the earth and moon's revolution around the sun
