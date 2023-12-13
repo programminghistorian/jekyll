@@ -59,7 +59,7 @@ DAVID MERINO RECALDE
 [Análisis de redes sociales de personajes teatrales (partes 1 y 2)](https://doi.org/10.46430/phes0064)
 - En estas lecciónes aprenderás a realizar un Análisis de Redes Sociales con los personajes de un texto teatral.    
 
-## Research and Outreach
+## Research Highlights
 
 **Adam Crymble & Charlotte M. H. Im, ‘Measuring digital humanities learning requirements in Spanish & English-speaking practitioner communities’, _International Journal of Digital Humanities_, (2023).**
 - “This paper considers global variations in digital humanities tool demand, by comparing broad patterns in digital skill-seeking through Programming Historian tutorial web traffic data.”
@@ -76,7 +76,7 @@ Grateful thanks to all those who have invested in our success this year: **Unive
 
 We also thank all supporters who have renewed their membership to our Institutional Partner Programme this quarter, including those at Gold Tier: **Centre for Data, Culture and Society, University of Edinburgh**; **University of Sussex Library** and **Corporation for Digital Scholarship**.
 
-Institutional Partnerships enable us to keep developing our model of Diamond Open Access publishing, and empower us to continue creating peer-reviewed, multilingual lessons for digital humanists around the globe. Join us: [https://tinyurl.com/support-PH](https://tinyurl.com/support-PH)
+Institutional Partnerships enable us to keep developing our model of Diamond Open Access publishing, and empower us to continue creating peer-reviewed, multilingual lessons for digital humanists around the globe. Join us: [https://tinyurl.com/support-PH](https://tinyurl.com/support-PH).
 
 ------    
 Next issue: March 2024. In the meantime, keep in touch with us on social media to stay updated on our new publications, research and events!
