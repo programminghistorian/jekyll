@@ -14,7 +14,7 @@ editors:
 - Adam Crymble
 difficulty: 2
 activity: transforming
-topics: [mapping]
+topics: [mapping, data-visualization]
 exclude_from_check:
   - review-ticket
 abstract: "In this lesson, you will learn how to georeference historical maps so
