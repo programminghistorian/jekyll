@@ -22,7 +22,7 @@ original: introduction-to-ffmpeg
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/302
 difficulty: 2
 activity: analyzing
-topics: [data-manipulation]
+topics: [data-manipulation, data-visualization]
 abstract: Esta lección introduce las funciones básicas de FFmpeg, una herramienta libre de línea de comandos utilizada para manipular y analizar materiales audiovisuales.
 avatar_alt: Una cámara antigua
 doi: 10.46430/phes0049
