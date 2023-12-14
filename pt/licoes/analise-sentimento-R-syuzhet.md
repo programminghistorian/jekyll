@@ -21,7 +21,7 @@ original: analisis-de-sentimientos-r
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/467
 difficulty: 2
 activity: analyzing
-topics: [distant-reading, r]
+topics: [distant-reading, r, data-visualization]
 abstract: "Esta lição ensina uma maneira de obter e analisar dados sobre emoções e sentimentos em uma narrativa."
 avatar_alt: "Gravura com três rostos que expressam emoções distintas"
 doi: 10.46430/phpt0022
