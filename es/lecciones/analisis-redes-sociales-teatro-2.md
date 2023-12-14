@@ -8,7 +8,7 @@ authors:
 - David Merino Recalde
 reviewers:
 - Sara Arribas Colmenar
-- Teresa Santa María
+- Andrés Lombana
 editors:
 - Jennifer Isasi
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/547
