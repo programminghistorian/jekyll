@@ -24,7 +24,7 @@ translation-reviewer:
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/365
 activity: presenting
-topics: [mapping]
+topics: [mapping, data-visualization]
 abstract: "Nesta lição, aprenderá como criar camadas vetoriais com base em mapas históricos digitalizados."
 original: vector-layers-qgis
 avatar_alt: Mapa de ruas da cidade
