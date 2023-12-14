@@ -24,7 +24,7 @@ layout: lesson
 original: temporal-network-analysis-with-r
 difficulty: 3
 activity: analyzing
-topics: [network-analysis, r]
+topics: [network-analysis, r, data-visualization]
 abstract: "Aprende a utilizar R para analizar cómo cambian las redes a lo largo del tiempo."
 avatar_alt: Dibujo técnico
 doi: 10.46430/phes0042
