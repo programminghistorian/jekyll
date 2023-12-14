@@ -26,7 +26,7 @@ translation-reviewer:
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/434
 activity: transforming
-topics: [mapping]
+topics: [mapping, data-visualization]
 abstract: "Nesta lição aprenderá como georreferenciar mapas históricos para que possam ser adicionados a um SIG como uma camada raster."
 avatar_alt: Mapa de uma cidade no topo de uma montanha
 doi: 10.46430/phpt0039
