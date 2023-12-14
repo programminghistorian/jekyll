@@ -22,7 +22,7 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/478
 difficulty: 2
 activity: analyzing
-topics: [distant-reading, r]
+topics: [distant-reading, r, data-visualization]
 abstract: This lesson teaches you how to obtain and analyse narrative texts for patterns of sentiment and emotion.
 avatar_alt: Engraving of three faces expressing different emotions
 doi: 10.46430/phen0110
