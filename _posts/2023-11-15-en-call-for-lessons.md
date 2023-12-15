@@ -29,7 +29,7 @@ Our lessons support readers who want to learn new skills, but the act of writing
 
 _Programming Historian_'s English edition is inviting proposals to fill gaps in our lesson directory. Please explore [our journal](/en/lessons/) to discover what’s already available, and consider what you might be able to add.
 
-If the method or approach you’re interested in writing a lesson about is already represented by the [Spanish](/es/lecciones/), [French](/fr/lecons/), or [Portuguese](/pt/licoes/) editions of _Programming Historian_, we welcome proposals to translate those existing, original lessons into English. In this call, **proposals for translations will be prioritised for publication**.
+If the method or approach you’re interested in writing a lesson about is already represented by the [Spanish](/es/lecciones/), [French](/fr/lecons/), or [Portuguese](/pt/licoes/) editions of _Programming Historian_, we welcome proposals to translate those existing, original lessons into English. Please review our [Translation Corcordance](/translation-concordance) map to identify options for your translation. In this call, **proposals for translations will be prioritised for publication**.
 
 We’re also keen to extend our offer to learners, and invite proposals which focus on methodological approaches, digital techniques and tools including, but not limited to:
 - Text encoding, Natural Language Processing, especially for multilingual corpora
@@ -47,7 +47,7 @@ We’re also keen to extend our offer to learners, and invite proposals which fo
 Remember, you can either:
 
 - Propose an original English-language lesson
-- Propose a translation into English of an existing, original [Spanish](/es/lecciones/), [French](/fr/lecons/), or [Portuguese](/pt/licoes/) lesson published in one of the other _Programming Historian_ editions.
+- Propose a translation into English of an existing, original [Spanish](/es/lecciones/), [French](/fr/lecons/), or [Portuguese](/pt/licoes/) lesson published in one of the other _Programming Historian_ editions. Please review our [Translation Corcordance](/translation-concordance) map to identify options for your translation.
 
 **If you have an idea, please send us a proposal by January 12th, 2024.**
 
