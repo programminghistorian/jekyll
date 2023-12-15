@@ -6,7 +6,7 @@ We encourage prospective authors to think carefully about how their proposal cou
 
 You can [explore our journal](https://programminghistorian.org/en/lessons/) to discover what’s already available and consider what you might be able to add.
 
-If the method or approach you’re interested in writing a lesson about is already represented by the [Spanish](https://programminghistorian.org/es/lecciones/), [French](https://programminghistorian.org/fr/lecons/), or [Portuguese](https://programminghistorian.org/pt/licoes/) editions of _Programming Historian_, we welcome proposals to translate those existing, original lessons into English. Please review our [Translation Corcordance](/translation-concordance) map to identify options for your translation.
+If the method or approach you’re interested in writing a lesson about is already represented by the [Spanish](https://programminghistorian.org/es/lecciones/), [French](https://programminghistorian.org/fr/lecons/), or [Portuguese](https://programminghistorian.org/pt/licoes/) editions of _Programming Historian_, we welcome proposals to translate those existing, original lessons into English. Please review our [Translation Concordance](/translation-concordance) map to identify options for your translation.
 
 ---
 
