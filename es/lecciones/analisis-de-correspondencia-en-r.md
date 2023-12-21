@@ -14,7 +14,7 @@ editors:
 difficulty: 3
 review-ticket:  https://github.com/programminghistorian/ph-submissions/issues/331
 activity: analyzing
-topics: [data-manipulation, network-analysis, r]
+topics: [data-manipulation, network-analysis, r, data-visualization]
 translation_date: 2022-04-11
 translator:
 - Riva Quiroga

@@ -11,7 +11,7 @@ editors:
 - Ian Milligan
 layout: lesson
 activity: analyzing
-topics: [distant-reading]
+topics: [distant-reading, data-visualization]
 difficulty: 3
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/29
 abstract: |

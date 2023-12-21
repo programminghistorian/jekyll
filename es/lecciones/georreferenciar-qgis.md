@@ -29,7 +29,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/163
 prev: vector-layers-qgis
 difficulty: 2
 activity: transforming
-topics: [mapping]
+topics: [mapping, data-visualization]
 abstract: En esta lección aprenderás cómo georreferenciar mapas históricos para que puedan añadirse a un SIG (Sistema de Información Geográfica) como una capa ráster.
 avatar_alt: Mapa de una ciudad de montaña
 doi: 10.46430/phes0047

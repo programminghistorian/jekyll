@@ -20,7 +20,7 @@ translation-reviewer:
 - José Antonio Motilla
 difficulty: 1
 activity: transforming
-topics: [data-manipulation]
+topics: [data-manipulation, data-visualization]
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/162
 original: transforming-xml-with-xsl
 layout: lesson

@@ -22,7 +22,7 @@ translation-reviewer:
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/397
 activity: transforming
-topics: [data-manipulation, data-management, distant-reading]
+topics: [data-manipulation, data-management, distant-reading, r, data-visualization]
 abstract: "Esta lição explora como os investigadores podem tornar seus dados organizados, entender os pacotes do R para manipulação de dados e conduzir análises de dados básicas usando esta linguagem."
 original: data_wrangling_and_management_in_R
 avatar_alt: Barra de sabão

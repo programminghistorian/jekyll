@@ -12,7 +12,7 @@ editors:
 - Ian Milligan
 difficulty: 3
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/87
-topics: [network-analysis]
+topics: [network-analysis, data-visualization]
 activity: analyzing
 abstract: "In this lesson we will learn how to use a graph database to store and analyze complex networked information. This tutorial will focus on the Neo4j graph database, and the Cypher query language that comes with it."
 layout: lesson

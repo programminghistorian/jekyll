@@ -15,9 +15,7 @@ reviewers:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/254
 difficulty: 2
 activity: analyzing
-topics:
-  - distant-reading
-  - get-ready
+topics: [distant-reading, get-ready, data-visualization]
 abstract: |
   En esta lección se ofrece una introducción a ImagePlot, una herramienta para generar visualizaciones basadas en los datos de colecciones de imágenes o videos.
 avatar_alt: Grabado de un auto-oftalmoscopio
