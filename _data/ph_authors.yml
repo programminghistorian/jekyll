@@ -1645,7 +1645,7 @@
     fr: |
       Daniel Alves est professeur adjoint au Département d'Histoire et chercheur à l'Institut d'Histoire Contemporaine, tous deux à NOVA-FCSH, Universidade Nova de Lisboa. Il coordonne le Laboratoire des Humanités Numériques au NOVA-FCSH.
   team_roles:
-    - managing
+    - editorial
     - portuguese
   status: volunteer
 
@@ -2391,7 +2391,7 @@
       Eric Brasil est professeur à l'Institut des sciences humaines et des lettres de l'Université d'intégration internationale de la lusophonie afro-brésilienne (IHLM/UNILAB) et membre du Laboratoire d'humanités numériques de l'Université fédérale de Bahia (LABHDUFBA).
   team_roles:
     - portuguese
-    - editorial
+    - managing
   status: volunteer
 
 - name: Gimena del Río Riande
