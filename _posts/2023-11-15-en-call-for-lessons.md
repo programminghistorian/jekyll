@@ -11,7 +11,7 @@ categories: posts
 The [English edition of Programming Historian](/en/lessons/) seeks proposals for new original lessons or translations to be considered for publication in 2024.
 
 **Submissions Open**: 15 November 2023  
-**Submissions Close**: 12 January 2024
+**Submissions Close**: 31 January 2024 (**extended deadline**)
 
 ## What is a _Programming Historian_ lesson?
 
@@ -49,7 +49,7 @@ Remember, you can either:
 - Propose an original English-language lesson
 - Propose a translation into English of an existing, original [Spanish](/es/lecciones/), [French](/fr/lecons/), or [Portuguese](/pt/licoes/) lesson published in one of the other _Programming Historian_ editions. Please review our [Translation Concordance](/translation-concordance) map to identify options for your translation.
 
-**If you have an idea, please send us a proposal by January 12th, 2024.**
+**If you have an idea, please send us a proposal by January 31st, 2024 (extended deadline).**
 
 We've set up [a Google Form](https://tinyurl.com/ph-en-proposals) which you can submit directly online. There's also [a plain-text version](/assets/forms/Lesson.Query.Form.txt) which you can [send to us by email](mailto:english@programminghistorian.org), if you prefer. The form has twelve questions. Please answer all those which apply.
 
