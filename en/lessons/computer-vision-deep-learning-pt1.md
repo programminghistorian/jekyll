@@ -99,7 +99,7 @@ To run the lesson code on Kaggle you will need to:
 - Click on the 'Edit' button to create a copy of the notebook.
 - Set the 'Accelerator option' to a 'GPU'; you will find this option under 'settings'. Kaggle occasionally changes which type of GPUs they make available. Selecting a single GPU will be sufficient for this lesson.
 
-{% include figure.html filename="kaggle_gpu.png" alt="Screenshot showing the Accelerator option set to GPU" caption="The Kaggle notebooks settings menu" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-01.png" alt="Screenshot showing the Accelerator option set to GPU" caption="Figure 1. The Kaggle notebooks settings menu" %}
 
 - The interface for Kaggle notebooks should be familiar if you have used Jupyter notebooks before. To run a cell containing code you  click the right-pointing arrow button or, if the cell is selected, using 'Shift + Enter'.
 - Remember to close your session down once you have finished working with the notebooks. You can do this by accessing the 'run' drop down menu at the top of a Kaggle notebook.
@@ -148,11 +148,11 @@ If you look through the advert images, you will see that some of the adverts con
 
 An advert with an illustration[^7]:
 
-{% include figure.html filename="illustrated_ad.jpg" alt="A black and white image of a newspaper advert. The image contains an illustration of a coffee tin on the left of the advert." caption="An example of an illustrated advert" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-02.png" alt="A black and white image of a newspaper advert. The image contains an illustration of a coffee tin on the left of the advert." caption="Figure 2. An example of an illustrated advert" %}
 
 An advert without an illustration[^8]:
 
-{% include figure.html filename="non_illustrated_ad.jpg" alt="A black and white image of a newspaper advert. The advert contains text only. The advert is for fire insurance, with the address listed for the insurance company" caption="An example of a text only advert" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-03.png" alt="A black and white image of a newspaper advert. The advert contains text only. The advert is for fire insurance, with the address listed for the insurance company" caption="Figure 3. An example of a text only advert" %}
 
 Our classifier will be trained to predict which category an advert image belongs. We might use this to help automate finding adverts with images for further 'manual' analysis. Alternatively, we may use this classifier more directly to quantify how many adverts contained illustrations in a given year and discover whether this number changed over time, along with how it was influenced by other factors such as the place of publication. The intended use of your model will impact the labels you choose to train it on and how you choose to assess whether a model is performing sufficiently well. We'll dig into these issues further as we move through this two-part lesson.
 
@@ -232,7 +232,7 @@ It is important to make sure that data has been loaded correctly. One way to che
 ad_data.show_batch()
 ```
 
-{% include figure.html filename="show_batch_1.png" alt="The output of show batch. The output is a 3x3 grid of images of newspaper advertisements with labels above them indicating if the advertisement is 'illustrated' or 'text-only'" caption="The output of 'show_batch'" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-04.png" alt="The output of show batch. The output is a 3x3 grid of images of newspaper advertisements with labels above them indicating if the advertisement is 'illustrated' or 'text-only'" caption="Figure 4. The output of 'show_batch'" %}
 
 This is a useful way of checking that your labels and data have been loaded correctly. You can see here that the labels (`text-only` and `illustration`) have been associated correctly with how we want to classify these images. 
 
@@ -347,7 +347,7 @@ Now that we have an overview of the process we'll go into more detail about how 
 
 This section will start to dig into some of the steps involved in the process of creating a deep learning based computer vision model. This process involves a range of steps, only some of which are directly about training models. A high-level illustration of a supervised machine learning pipeline might look like this:
 
-{% include figure.html filename="deep-learning-pipeline-simple.png" alt="A diagram showing a workflow of a machine learning pipeline. The pipeline contains three boxes, 'data preparation', 'deep learning' and 'analysis'. An arrow moves across these three boxes. Within the 'data preparation' box are three boxes from left to right: 'sampling', 'labels', 'annotation'. For the box 'deep learning' there are three smaller boxes with arrows moving between them: 'training data', 'model', 'predictions'. The box 'analysis' contains three smaller boxes 'metrics' and 'interpretation'." caption="A high level illustration of a supervised machine learning pipeline" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-05.png" alt="A diagram showing a workflow of a machine learning pipeline. The pipeline contains three boxes, 'data preparation', 'deep learning' and 'analysis'. An arrow moves across these three boxes. Within the 'data preparation' box are three boxes from left to right: 'sampling', 'labels', 'annotation'. For the box 'deep learning' there are three smaller boxes with arrows moving between them: 'training data', 'model', 'predictions'. The box 'analysis' contains three smaller boxes 'metrics' and 'interpretation'." caption="Figure 5. A high level illustration of a supervised machine learning pipeline" %}
 
 We can see that there are quite a few steps before and after the model training phase of the workflow. Before we get to training a model, we need data. In this lesson, image data has already been prepared so you didn't need to worry about this step. However, when you move to using computer vision for your own research questions, it is unlikely that there will an existing dataset for your exact use case. As a result, you will need to create this data yourself. The process of getting access to data will vary depending on the type of images you are interested in working with and where they are held. Some heritage collections are making bulk collections of images data available, whilst others largely make images available only via a 'viewer'. The increasing adoption of the [IIIF standard](https://perma.cc/27EM-N36U) is also making the process of working with images held by different institutions simpler.
 
@@ -359,7 +359,7 @@ Once a model has reached a satisfactory score, its outputs may be used for a ran
 
 Zooming in on the deep learning part of the workflow, what does the training process look like?
 
-{% include figure.html filename="training-loop.jpg" alt="A diagram showing a workflow of training a deep learning model. The pipeline contains two boxes, 'prepare training batch' and 'model training'. An arrow moves across these two boxes to a free standing box with the text 'metrics' inside. Inside the 'prepare' training batch' is a workflow showing an image and a label going through a transform, and then put in a batch. Following this under the 'model training' heading' the workflow moves through a model, predictions, and a loss. This workflow has an arrow indicating it is repeated. This workflow also flows to the metrics box"  caption="The deep learning training loop" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-06.png" alt="A diagram showing a workflow of training a deep learning model. The pipeline contains two boxes, 'prepare training batch' and 'model training'. An arrow moves across these two boxes to a free standing box with the text 'metrics' inside. Inside the 'prepare' training batch' is a workflow showing an image and a label going through a transform, and then put in a batch. Following this under the 'model training' heading' the workflow moves through a model, predictions, and a loss. This workflow has an arrow indicating it is repeated. This workflow also flows to the metrics box"  caption="Figure 6. The deep learning training loop" %}
 
 A high-level summary of the training loop for supervised learning: start with some images and labels, do some preparation to make the input suitable for a deep learning model, pass the data through the model, make predictions for the labels, calculate how wrong the predictions are, update the model with the aim of generating better predictions next time. This process is repeated a number of times. During this training loop, metrics are reported which let the human training the model evaluate how well the model is doing.
 
@@ -387,7 +387,7 @@ Before we can create a batch and load it onto the GPU, we usually need to make s
 
 Once we have prepared data so it can be loaded one batch at a time, we pass it to our model. We already saw one example of a model in our first example `resnet18`. A deep learning model architecture defines how data and labels are passed through a model. In this two-part lesson, we focus on a specific type of deep learning that uses 'Convolutional Neural Networks' (CNN).
 
-{% include figure.html filename="3-layer-network.png" alt="A simplified diagram of a three layer neural network. The diagram shows an input image on the left moving through three layer of the neural network. Each layer has sections highlighted illustrating these areas being activated. The diagram then points to two images on representing an illustrated advert the other a text only advert. In this diagram the image shown has an illustration so the arrow pointing to the illustrated label is highlighted." caption="A three layer neural network" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-07.png" alt="A simplified diagram of a three layer neural network. The diagram shows an input image on the left moving through three layer of the neural network. Each layer has sections highlighted illustrating these areas being activated. The diagram then points to two images on representing an illustrated advert the other a text only advert. In this diagram the image shown has an illustration so the arrow pointing to the illustrated label is highlighted." caption="Figure 7. A three layer neural network" %}
 
 This diagram gives a crude overview of the different components of a CNN model. In this type of model, an image is passed through several layers, before predicting an output label for the image ('text only' in this diagram). The layers of this model are updated during training so that they "learn" which features of an image predict a particular label. So for example, the CNN we trained on adverts will update the parameters known as "weights" for each layer, which then produces a representation of the image that is useful for predicting whether an advert has an illustration or not.
 
