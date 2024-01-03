@@ -11,7 +11,7 @@ categories: posts
 The [English edition of Programming Historian](/en/lessons/) seeks proposals for new original lessons or translations to be considered for publication in 2024.
 
 **Submissions Open**: 15 November 2023  
-**Submissions Close**: 12 January 2024
+**Submissions Close**: 31 January 2024 (**deadline extended**)
 
 ## What is a _Programming Historian_ lesson?
 
