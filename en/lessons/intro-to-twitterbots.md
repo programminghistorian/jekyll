@@ -134,7 +134,7 @@ With tweaking, and breaking the units of expression into smaller symbols, we can
 
 ## Prototyping with a Tracery editor
 
-There is a Tracery editor at [www.brightspiral.com/tracery/](http://www.brightspiral.com/tracery). We will use that to work out the kinks in _plantpotbot_. The editor visualizes the way the symbols and rules of the grammar interact (how they are nested, and the kinds of output your grammar will generate). Open the editor in a new window. You should see this:
+In order to work out the kinks in _plantpotbot_, we used the Tracery editor at Brightspiral, which unfortunately no longer exists. Now, you might want to try the following alternative at [https://tracery.io/editor/](https://tracery.io/editor/). The editor visualizes the way the symbols and rules of the grammar interact (how they are nested, and the kinds of output your grammar will generate). Open the editor in a new window. You should see this:
 
 {% include figure.html filename="bot-lesson-editor.png" caption="The Tracery Editor at Brightspiral.com" %}
 
