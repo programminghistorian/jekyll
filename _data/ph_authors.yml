@@ -1619,7 +1619,7 @@
 
 - name: Daniel Alves
   twitter: danielalvesfcsh
-  email: portugues@programminghistorian.org
+  email: dra@fcsh.unl.pt
   github: DanielAlvesLABDH
   orcid: 0000-0002-3541-8197
   team: true
@@ -1645,7 +1645,7 @@
     fr: |
       Daniel Alves est professeur adjoint au Département d'Histoire et chercheur à l'Institut d'Histoire Contemporaine, tous deux à NOVA-FCSH, Universidade Nova de Lisboa. Il coordonne le Laboratoire des Humanités Numériques au NOVA-FCSH.
   team_roles:
-    - managing
+    - editorial
     - portuguese
   status: volunteer
 
@@ -2363,7 +2363,7 @@
 
 - name: Eric Brasil
   twitter: ericbrasiln
-  email: profericbrasil@unilab.edu.br
+  email: portugues@programminghistorian.org
   url: "https://ericbrasiln.github.io"
   github: ericbrasiln
   orcid: 0000-0001-5067-8475
@@ -2391,7 +2391,7 @@
       Eric Brasil est professeur à l'Institut des sciences humaines et des lettres de l'Université d'intégration internationale de la lusophonie afro-brésilienne (IHLM/UNILAB) et membre du Laboratoire d'humanités numériques de l'Université fédérale de Bahia (LABHDUFBA).
   team_roles:
     - portuguese
-    - editorial
+    - managing
   status: volunteer
 
 - name: Gimena del Río Riande
