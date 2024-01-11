@@ -1245,7 +1245,7 @@
   status: volunteer
 
 - name: Sofia Papastamkou
-  email: francais@programminghistorian.org
+  email: sofia.papastamkou@uni.lu
   twitter: s_papastamkou
   github: spapastamkou
   team: true
@@ -1262,9 +1262,7 @@
       Luxembourg Centre for Contemporary and Digital History (C²DH), Université du Luxembourg
     pt: |
       Luxembourg Centre for Contemporary and Digital History (C²DH), Universidade do Luxemburgo
-  team_roles:
-    - french
-    - editorial
+  team_roles:    
     - proghist-chair
   status: volunteer
   bio:
@@ -2771,7 +2769,7 @@
   team_start: 2022
   institution: ATILF, Université de Lorraine-CNRS
   github: marie-flesch
-  email: marie.flesch@gmail.com
+  email: francais@programminghistorian.org
   url: "https://sites.google.com/view/marie-flesch/"
   sortname: Flesch
   orcid: 0000-0003-2139-1517
