@@ -15,7 +15,7 @@ editors:
   - Yann Ryan
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/555
 difficulty: 2
-activity: Analyzing
+activity: analyzing
 topics: [python, distant-reading, machine-learning]
 abstract: Word embeddings allow you to analyze the usage of different terms in a corpus of texts by capturing information about their contextual usage. Through a primarily theoretical lense, you will learn how to prepare a corpus and train a word embedding model. You will explore how word vectors work, how to interpret them, and how to answer humanities research questions using them.
 avatar_alt: Simple line drawing of a round goblin in a cloak and hat, tucked inside a chestnut.
