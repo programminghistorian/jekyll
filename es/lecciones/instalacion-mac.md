@@ -95,7 +95,11 @@ print('hola mundo')
 ```
 El editor de texto que seleccionaste debe tener un botón "`run`" que te permitirá ejecutar tu programa. Por ejemplo, si estás utilizando TextWrangler, haz clic en el botón "`#!`" para ejecutarlo. Si todo funciona bien (es posible que no, con lo cual habrá que revisar las diversas instalaciones y configuraciones), deberás ver algo como sigue:
 
-{% include figure.html filename="BBEdit-hola-mundo.png" caption="'Hola Mundo' en Python en una Mac" %}
+{% include figure.html filename="BBEdit-hola-mundo.png" caption="'Hola Mundo' en Python en una Mac, con BBEdit" %}
+
+O, con Sublime Text:
+
+{% include figure.html filename="es-tr-sublimetext-hola-mundo.png" caption="'Hola Mundo' en Python en una Mac, con Sublime Text" %}
 
 ### Interactuar con el intérprete de comandos (*shell*) de Python
 
