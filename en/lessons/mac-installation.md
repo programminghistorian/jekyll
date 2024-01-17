@@ -99,7 +99,7 @@ this:
 
 {% include figure.html filename="BBEdit-hello-world.png" caption="'Hello World' in Python on a Mac with BBEdit" %}
 
-or, in Sublime Text:
+Or, with Sublime Text:
 
 {% include figure.html filename="en-or-sublimetext-hello-world.png" caption="'Hello World' in Python on a Mac with Sublime Text" %}
 
