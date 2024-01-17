@@ -78,7 +78,7 @@ Les organisations suivantes ont apporté ou continuent d'apporter un soutien all
 - Fundação para a Ciência e Tecnologia, à travers le programme de soutien '[Verão com Ciência 2021](https://www.uevora.pt/investigar/projetos?id=5261)', Portugal [September 2021]
 - The Open Knowledge Foundation [Open Data Day mini-grant scheme](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/), Royaume-Uni [2021].
 - School of History, Art History and Philosophy, University of Sussex, Royaume-Uni [2019].
-- [ESRC Impact Accelerator Account, University of Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/), Royaume-Uni [2019].
+- [ESRC Impact Accelerator Account, University of Sussex](https://www.sussex.ac.uk/collaborate/business/public-funds#:~:text=Impact%20accelerator%20funds,-From%20law%20to&text=The%20ESRC%20and%20AHRC%20Impact,businesses%20through%20to%20large%20companies), Royaume-Uni [2019].
 - [British Academy](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/) pour le financement d’un atelier d’écriture à Bogota en Colombie [2018].
 - dSHARP lab at Carnegie Mellon University, financé par la fondation Andrew W. Mellon, États-Unis [2018-2020].
 - Nouvelle initiative Canadienne en histoire de l'environnement, Canada [2011-2013].

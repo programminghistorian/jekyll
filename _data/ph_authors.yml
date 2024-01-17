@@ -1210,14 +1210,6 @@
       François Dominic Laramée é pós-doutorando em História Digital da Medicina pela University of Ottawa, Canadá.
       É mestre em Informática e História dos Estados Unidos da América e trabalhou como desenvolvedor de videojogos, guionista e artista de televisão no Quebec.
 
-- name: Jeff Blackadar
-  team: false
-  bio:
-    en: |
-      Jeff Blackadar is a part-time undergraduate history student at Carleton University. His career is in the field of information technology.
-    pt: |
-      Jeff Blackadar é aluno de História a tempo parcial na Carleton University. A sua carreira é no campo da tecnologia da informação.
-
 - name: Martin Grandjean
   email: martin.grandjean@unil.ch
   twitter: grandjeanmartin
@@ -1253,7 +1245,7 @@
   status: volunteer
 
 - name: Sofia Papastamkou
-  email: francais@programminghistorian.org
+  email: sofia.papastamkou@uni.lu
   twitter: s_papastamkou
   github: spapastamkou
   team: true
@@ -1270,9 +1262,7 @@
       Luxembourg Centre for Contemporary and Digital History (C²DH), Université du Luxembourg
     pt: |
       Luxembourg Centre for Contemporary and Digital History (C²DH), Universidade do Luxemburgo
-  team_roles:
-    - french
-    - editorial
+  team_roles:    
     - proghist-chair
   status: volunteer
   bio:
@@ -1627,7 +1617,7 @@
 
 - name: Daniel Alves
   twitter: danielalvesfcsh
-  email: portugues@programminghistorian.org
+  email: dra@fcsh.unl.pt
   github: DanielAlvesLABDH
   orcid: 0000-0002-3541-8197
   team: true
@@ -1653,7 +1643,7 @@
     fr: |
       Daniel Alves est professeur adjoint au Département d'Histoire et chercheur à l'Institut d'Histoire Contemporaine, tous deux à NOVA-FCSH, Universidade Nova de Lisboa. Il coordonne le Laboratoire des Humanités Numériques au NOVA-FCSH.
   team_roles:
-    - managing
+    - editorial
     - portuguese
   status: volunteer
 
@@ -2371,10 +2361,10 @@
 
 - name: Eric Brasil
   twitter: ericbrasiln
-  email: profericbrasil@unilab.edu.br
+  email: portugues@programminghistorian.org
   url: "https://ericbrasiln.github.io"
   github: ericbrasiln
-  orcid: 0000-0001-5067-847
+  orcid: 0000-0001-5067-8475
   team: true
   team_start: 2021
   institution: Universidade da Integração Internacional da Lusofonia Afro-brasileira
@@ -2399,7 +2389,7 @@
       Eric Brasil est professeur à l'Institut des sciences humaines et des lettres de l'Université d'intégration internationale de la lusophonie afro-brésilienne (IHLM/UNILAB) et membre du Laboratoire d'humanités numériques de l'Université fédérale de Bahia (LABHDUFBA).
   team_roles:
     - portuguese
-    - editorial
+    - managing
   status: volunteer
 
 - name: Gimena del Río Riande
@@ -2779,7 +2769,7 @@
   team_start: 2022
   institution: ATILF, Université de Lorraine-CNRS
   github: marie-flesch
-  email: marie.flesch@gmail.com
+  email: francais@programminghistorian.org
   url: "https://sites.google.com/view/marie-flesch/"
   sortname: Flesch
   orcid: 0000-0003-2139-1517
@@ -3002,3 +2992,26 @@
   bio:
     en: |
       Megan Kane is a PhD candidate in the English Department at Temple University.
+
+- name: David Merino Recalde
+  orcid: 0000-0003-2740-7831
+  team: false
+  bio:
+    es: |
+      David Merino Recalde es Personal Investigador en Formación en la Universitat Autònoma de Barcelona, es máster en Investigación Literaria y Teatral y máster en Humanidades Digitales.
+
+- name: Jeff Blackadar
+  orcid: 0000-0002-8160-0942
+  team: false
+  bio:
+    en: |
+      Jeff Blackadar has a Master of Arts in History with a specialization in Data Science from Carleton University.
+    pt: |
+      Jeff Blackadar é Mestre em História, com especialização em Ciência de Dados, pela Carleton University.
+
+- name: Grace Di Méo
+  orcid: 0000-0002-3227-8053
+  team: false
+  bio:
+    en: |
+      Grace Di Méo is a Lecturer in Criminology in the Faculty of Humanities and Social Sciences at Oxford Brookes University.

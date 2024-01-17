@@ -16,7 +16,7 @@ editors: Maria José Afanador-Llach
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/313
 difficulty: 3
 activity: transforming
-topics: [data-manipulation, python, lod]
+topics: [data-manipulation, python, lod, data-visualization]
 abstract: "Esta lección muestra cómo reutilizar colecciones digitales publicadas por instituciones de patrimonio cultural."
 avatar_alt: "Grabado que muestra a tres personas trabajando en un laboratorio alquímico"
 doi: 10.46430/phes0054
@@ -67,7 +67,7 @@ Actualmente existen numerosos sitios web donde es posible localizar colecciones 
 | ------------- | ------------- | ------------- |
 | Bibliotèque Nationale de France | BnF API et jeux de données | [http://api.bnf.fr/](http://api.bnf.fr/) |
 | Bibliothèque Nationale du Luxembourg | BnL Open Data | [https://data.bnl.lu/](https://data.bnl.lu/) |
-| British Library | BL Labs | [https://www.bl.uk/projects/british-library-labs](https://www.bl.uk/projects/british-library-labs) |
+| British Library | BL Labs | [temporalmente no disponible] |
 | Biblioteca Virtual Miguel de Cervantes | BVMC Labs | [http://data.cervantesvirtual.com/blog/labs](http://data.cervantesvirtual.com/blog/labs) |
 | Det Kgl. Bibliotek | KB Labs | [https://labs.kb.dk/](https://labs.kb.dk/) |
 | Europeana | Europeana IIIF APIs | [https://pro.europeana.eu/page/iiif](https://pro.europeana.eu/page/iiif) |

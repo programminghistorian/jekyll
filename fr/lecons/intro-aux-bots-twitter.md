@@ -142,7 +142,7 @@ Les résultats possibles seront :
 En bricolant, et en décomposant les unités d'expression en symboles plus petits et précis, on peut corriger toute maladresse d'expression - ou alors décider de les laisser pour rendre la voix du bot plus &laquo; authentique &raquo;.
 
 ## Prototypage à l’aide d’un éditeur Tracery
-Un éditeur Tracery est disponible ici : [www.brightspiral.com/tracery/](http://www.brightspiral.com/tracery). Nous l'utiliserons pour rectifier les imperfections du bot _PlanteEnPot_. L'éditeur visualise la façon dont les symboles et les règles de la grammaire interagissent, à savoir la manière dont ils sont imbriqués et le type de résultats que votre grammaire va générer. Si vous ouvrez l'éditeur dans une nouvelle fenêtre, vous devriez voir ça :
+Pour rectifier les imperfections du bot _PlanteEnPot_, nous avons utilisé l'éditeur Tracery de Brightspiral, qui n'existe malheureusement plus. Vous pouvez pourtant essayer un éditeur alternatif, tel que [https://tracery.io/editor/](https://tracery.io/editor/). L'éditeur visualise la façon dont les symboles et les règles de la grammaire interagissent, à savoir la manière dont ils sont imbriqués et le type de résultats que votre grammaire va générer. Si vous ouvrez l'éditeur dans une nouvelle fenêtre, vous devriez voir ça :
 
 {% include figure.html filename="bot-lesson-editor.png" caption="L'éditeur Tracery sur Brightspiral.com" %}
 

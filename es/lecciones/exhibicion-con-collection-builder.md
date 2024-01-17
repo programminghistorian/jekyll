@@ -14,7 +14,7 @@ reviewers:
 date: 2022-08-21
 difficulty: 2
 activity: presenting
-topics: [website]
+topics: [website, data-visualization]
 abstract: En esta lección aprenderás a utilizar la versión ligera de CollectionBuilder para publicar una colección digital.
 avatar_alt: Interior de una sala de museo antiguo.
 doi: 10.46430/phes0060

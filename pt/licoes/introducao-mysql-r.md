@@ -22,7 +22,7 @@ difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/439
 collection: lessons
 activity: transforming
-topics: [data-manipulation, distant-reading, r]
+topics: [data-manipulation, distant-reading, r, data-visualization]
 abstract: "Esta lição ajudará a armazenar grandes quantidades de dados históricos de maneira estruturada, pesquisar e filtrar esses dados e visualizar alguns dos dados como um gráfico."
 original: getting-started-with-mysql-using-r
 avatar_alt: Uma mão a segurar um jornal

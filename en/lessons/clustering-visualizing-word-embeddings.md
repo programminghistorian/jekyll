@@ -15,7 +15,7 @@ editors:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/415
 difficulty: 3
 activity: analyzing
-topics: [machine-learning, network-analysis, python]
+topics: [machine-learning, network-analysis, python, data-visualization]
 abstract: This lesson uses word embeddings and clustering algorithms in Python to identify groups of similar documents in a corpus of approximately 9,000 academic abstracts. It will teach you the basics of dimensionality reduction for extracting structure from a large corpus and how to evaluate your results.
 avatar_alt: Drawing of a star-cluster
 lesson-partners: [Jisc, The National Archives]
@@ -843,7 +843,7 @@ We hope that this tutorial has illustrated some of the potential power of combin
 - Milligan. G. W. (1981), “[A Review Of Monte Carlo Tests Of Cluster Analysis](https://doi.org/10.1207/s15327906mbr1603_7)”, *Multivariate Behavioral Research*, 16:3, 379-407.
 - Tobler, W. R. (1970), “A computer movie simulating urban growth in the Detroit region”, *Economic Geography*, 46:234-240.
 - Hashimoto, T. B. and Alvarez-Melis, D. and  Jaakkola, T. S. (2016), “[Word Embeddings as Metric Recovery in Semantic Spaces](https://aclanthology.org/Q16-1020)”, *Transactions of the Association for Computational Linguistics*, 4:273–286.
-- Tshitoyan, V. and Dagdelen, J. and Weston, L. and Dunn, A. and Rong, Z. and Kononova, O. and Persson, K. A. and Ceder, G. and Jain, A. (2019), “[Unsupervised word embeddings capture latent knowledge from materials science literature](https://doi.org/10.1038/s41586-019-1335-8)”, *Nature* 571:95-98.
+- Tshitoyan, V. and Dagdelen, J. and Weston, L. and Dunn, A. and Rong, Z. and Kononova, O. and Persson, K. A. and Ceder, G. and Jain, A. (2019), “[Unsupervised word embeddings capture latent knowledge from materials science literature](https://perma.cc/Y2SK-UQX7)”, *Nature* 571:95-98.
 
 ## Notes
 

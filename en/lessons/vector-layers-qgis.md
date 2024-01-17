@@ -16,7 +16,7 @@ difficulty: 2
 exclude_from_check:
   - review-ticket
 activity: presenting
-topics: [mapping]
+topics: [mapping, data-visualization]
 abstract: "In this lesson you will learn how to create vector layers based on
 scanned historical maps."
 next: georeferencing-qgis

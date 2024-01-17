@@ -23,7 +23,7 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/422
 difficulty: 3
 activity: analyzing
-topics: [data-manipulation, network-analysis, r]
+topics: [data-manipulation, network-analysis, r, data-visualization]
 abstract: Esta lição explica como realizar e interpretar uma análise de correspondência com R, que pode ser usada para identificar relacionamentos dentro de dados categóricos.
 avatar_alt: Diagrama de um cubo com arestas legendadas
 mathjax: true

@@ -237,8 +237,8 @@ menu-events:
     title: Eventos
     link: /es/eventos
   fr:
-    title: Manifestations
-    link: /fr/manifestations
+    title: Évènements
+    link: /fr/evenements
   pt:
     title: Eventos
     link: /pt/eventos
@@ -597,7 +597,7 @@ donation-alert:
     ## ¡Haz una donación!
     Producir buenos tutoriales de acceso abierto cuesta dinero. Únete al creciente número de personas que [apoya a _Programming Historian_](https://www.patreon.com/theprogramminghistorian) para que podamos continuar compartiendo conocimientos de forma gratuita.
   fr: |
-    ## Vous pouvez faire une donation
+    ## Vous pouvez faire un don !
     Les tutoriels de qualité en accès libre ont un coût de production. Vous pouvez [rejoindre celles et ceux qui soutiennent le _Programming Historian_](https://www.patreon.com/theprogramminghistorian) et contribuer au libre partage des savoirs.
   pt: |
     ## Faça uma doação!

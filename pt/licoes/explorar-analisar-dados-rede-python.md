@@ -27,7 +27,7 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/446
 difficulty: 2
 activity: analyzing
-topics: [network-analysis]
+topics: [network-analysis, data-visualization]
 abstract: Esta lição introduz métricas de rede e como tirar conclusões das mesmas quando se trabalha com dados de Humanidades. O leitor aprenderá como usar o pacote NetworkX do Python para produzir e trabalhar com estas estatísticas de rede.
 avatar_alt: Caminhos-de-ferro intrincados
 doi: 10.46430/phpt0041

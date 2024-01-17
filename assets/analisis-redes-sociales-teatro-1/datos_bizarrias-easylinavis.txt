@@ -1,0 +1,190 @@
+"Las bizarrías de Belisa" (1634) de Lope de Vega
+Criterio: coaparición de personajes en escena
+Edición seguida: https://artelope.uv.es/biblioteca/textosAL/AL0525_LasBizarriasDeBelisa.php
+Responsable: David Merino Recalde
+Fecha: 12-09-2022
+
+# ACTO 1
+## Escena 1
+Finea
+Belisa
+## Escena 2
+Belisa
+Celia
+## Escena 3
+Don Juan
+Tello
+## Escena 4
+Fabia
+Don Juan
+Tello
+## Escena 5
+Lucinda
+Fabia
+Don Juan
+## Escena 6
+Octavio
+Don Juan
+Tello
+Lucinda
+Fabia
+## Escena 7
+Conde Enrique
+Fernando
+## Escena 8
+Belisa
+Finea
+Conde Enrique
+## Escena 9
+Don Juan
+Tello
+Finea
+Belisa
+Conde Enrique
+## Escena 10
+Belisa
+Don Juan
+Tello
+Finea
+## Escena 11
+Lucinda
+Fabia
+Don Juan
+Belisa
+## Escena 12
+Belisa
+Don Juan
+## Escena 13
+Tello
+Finea
+
+# ACTO 2
+## Escena 1
+Belisa
+## Escena 2
+Finea
+Belisa
+## Escena 3
+Don Juan
+Tello
+Belisa
+Finea
+## Escena 4
+Tello
+Finea
+## Escena 5
+Tello
+Don Juan
+## Escena 6
+Conde Enrique
+Fernando
+## Escena 7
+Fabia
+Lucinda
+Fernando
+Conde Enrique
+## Escena 8
+Conde Enrique
+Fernando
+## Escena 9
+Belisa
+Tello
+## Escena 10
+Finea
+Belisa
+Tello
+## Escena 11
+Finea
+Lucinda
+Belisa
+Fabia
+## Escena 12
+Finea
+Belisa
+Conde Enrique
+Lucinda
+## Escena 13
+Don Juan
+Tello
+Belisa
+## Escena 14
+Don Juan
+Tello
+## Escena 15
+Don Juan
+Tello
+Finea
+
+# ACTO 3
+## Escena 1
+Fernando
+Conde Enrique
+## Escena 2
+Finea
+Belisa
+Fernando
+Conde Enrique
+## Escena 3
+Finea
+Belisa
+## Escena 4
+Tello
+Don Juan
+Belisa
+Finea
+## Escena 5
+Octavio
+Julio
+Tello
+Don Juan
+Belisa
+Finea
+## Escena 6
+Tello
+Don Juan
+## Escena 7
+Don Juan
+Tello
+## Escena 8
+Belisa
+Celia
+Finea
+## Escena 9
+Belisa
+Finea
+Conde Enrique
+Celia
+## Escena 10
+Don Juan
+Tello
+Belisa
+Conde Enrique
+Celia
+## Escena 11
+Don Juan
+Belisa
+Tello
+Finea
+## Escena 12
+Lucinda
+Conde Enrique
+Fabia
+## Escena 13
+Don Juan
+Lucinda
+Conde Enrique
+Tello
+Fabia
+## Escena 14
+Celia
+Belisa
+## Escena 15
+Finea
+Belisa
+## Escena 16
+Belisa
+Lucinda
+Conde Enrique
+Don Juan
+Tello
+Finea

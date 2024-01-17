@@ -1,4 +1,5 @@
 [![Current Build Status](https://img.shields.io/github/workflow/status/programminghistorian/jekyll/build_programming_historian)](https://github.com/programminghistorian/jekyll/actions/) [![Netlify Status](https://api.netlify.com/api/v1/badges/806a84e7-ac1c-4722-b9bb-a8d519e8bf47/deploy-status)](https://app.netlify.com/sites/ph-preview/deploys)
+[![DOI](https://zenodo.org/badge/12707869.svg)](https://zenodo.org/badge/latestdoi/12707869)
 ---
 This is the main repository for the _Programming Historian_ (<http://programminghistorian.org>), where we keep the files for the live website. 
 

@@ -8,6 +8,4 @@ original: events
 
 ## Próximos eventos
 
-* **17 de octubre de 2023 10:30-12:30 BRT**
-
-_en portugués_ Eric Brasil, '[História Digital e História Digital da Educação: Caminhos Cruzados](http://www.iea.usp.br/eventos/historia-digital-educacao-caminhos-cruzados)', Instituto de Estudos Avançados - USP, São Paulo, Brasil.
+* Gracias por su interés en nuestro calendario de eventos. No tenemos nada programado en este momento, ¡pero regresa pronto para mantenerte actualizado!

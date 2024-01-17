@@ -21,7 +21,7 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/468
 difficulty: 2
 activity: analyzing
-topics: [distant-reading, r]
+topics: [distant-reading, r, data-visualization]
 abstract: "Esta lição lhe mostrará como cruzar referências, produzir gráficos e animar um conjunto de dados históricos disponíveis numa tabela."
 original: visualizacion-y-animacion-de-tablas-historicas-con-R
 avatar_alt: "Uma mão carregando uma garrafa"

@@ -11,7 +11,7 @@ editors:
 - Ian Milligan
 difficulty: 2
 activity: analyzing
-topics: [python, data-manipulation, mapping]
+topics: [python, data-manipulation, mapping, data-visualization]
 abstract: "In this lesson you will learn how to visually explore and present data in Python by using the Bokeh and Pandas libraries."
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/152
 layout: lesson

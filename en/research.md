@@ -24,11 +24,12 @@ The project team and members of the wider community are involved in a number of 
 
 ## Published Research
 
+* Jennifer Isasi, Riva Quiroga, Nabeel Sidiqqui, Joana Veira Paulino, Alex Wermer-Colan, [“A Model for Multilingual and Multicultural Digital Scholarship Methods Publishing"](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003393696-3/model-multilingual-multicultural-digital-scholarship-methods-publishing-jennifer-isasi-riva-quiroga-nabeel-siddiqui-joana-vieira-paulino-alex-wermer-colan), in _Multilingual Digital Humanities_, edited by Viola, L., & Spence, P., Routledge, 2023.
 * Adam Crymble & Charlotte M. H. Im, ['Measuring digital humanities learning requirements in Spanish & English-speaking practitioner communities'](https://doi.org/10.1007/s42803-023-00066-x), International Journal of Digital Humanities, (2023).
 * Eric Brasil, '[_pyHDB - Ferramenta Heurística para a Hemeroteca Digital Brasileira: utilizando técnicas de web scraping para a pesquisa em História_'](https://doi.org/10.15848/hh.v15i40.1904), _História Da Historiografia: International Journal of Theory and History of Historiography_, 15(40) (2022), 186–217.
 * Matthew Lincoln, Sarah Melton, Jennifer Isasi, François Dominic Laramée, '[Relocating Complexity: The Programming Historian and Multilingual Static Site Generation](http://www.digitalhumanities.org/dhq/vol/16/2/000585/000585.html)', _Digital Humanities Quarterly_ 16, 2 (2022).
 * Jennifer Isasi and Antonio Rojas Castro, ‘[¿Sin equivalencia? Una reflexión sobre la traducción al español de recursos educativos abiertos](https://muse.jhu.edu/article/842253)’, _Hispania_, 104, no. 4 (2021), 613-624.
-* Adam Crymble and Maria José Afanador Llach, ‘The Globally Unequal Promise of Digital Tools for History: UK and Colombia Case Study’ in Adele Nye (ed.) _Teaching History for the Contemporary World_ (Springer, 2021), 85-98.
+* Adam Crymble and Maria José Afanador Llach, ‘The Globally Unequal Promise of Digital Tools for History: UK and Colombia Case Study’ in _Teaching History for the Contemporary World_, edited by Adele Nye, 85-98, Springer, 2021.
 * Daniel Alves, '[Ensinar Humanidades Digitais sem as Humanidades Digitais: um olhar a partir das licenciaturas em História](https://novaresearch.unl.pt/files/32228034/Ensinar_Humanidades_Digitais.pdf)', _Revista EducaOnline_, v. 15, n. 2 (2021).
 * Adam Crymble, [_Technology &amp; the Historian: Transformations in the Digital Age_](https://www.press.uillinois.edu/books/catalog/57hxp7wr9780252043710.html), (University of Illinois Press, 2021).
 * Anna-Maria Sichani, James Baker, Maria José Afanador Llach, and Brandon Walsh, [‘Diversity and Inclusion in Digital Scholarship and Pedagogy: The Case of The Programming Historian’](https://doi.org/10.1629/uksg.465), _Insights_, (2019).
@@ -48,6 +49,7 @@ The project team and members of the wider community are involved in a number of 
 
 * Carlo Blum, Adam Crymble, Vicky Garnett, Timothée Giraud, Alíz Horváth, Stefan Krebs, Ralph Marschall, Sofia Papastamkou, & Lorella Viola, 'Invisible College of Digital History: Workshop on Multilingual Educational Resources', C²DH [Online], (8 November 2023).
 * Nabeel Siddiqui, 'Convolutional Neural Networks for Image Classification', University of Edinburgh [Online], (7 November 2023).
+* Eric Brasil, '[História Digital e História Digital da Educação: Caminhos Cruzados](http://www.iea.usp.br/eventos/historia-digital-educacao-caminhos-cruzados)', Instituto de Estudos Avançados, USP, São Paulo, Brazil, (17 October 2023).
 * Scott Kleinman, Alex Wermer-Colan, Joana Vieira Paulino, Nabeel Siddiqui, Zoe LeBlanc, 'Developing a Digital Humanities Tutorial', [DH 2023](https://dh2023.adho.org/), Graz, Austria (10 July 2023).
 * Daphné Mathelier, 'Atelier Markdown', [11e journées du réseau Medici](https://medici2023.sciencesconf.org/resource/page/id/2), Université de Liège, Belgium, (29 June 2023).
 * María José Afanador Llach, Jennifer Isasi, Riva Quiroga, 'Sobre _Programming Historian en español_ y cómo contribuir a la publicación', Semana de Humanidades Digitales 2023 [Online], (10 May 2023).

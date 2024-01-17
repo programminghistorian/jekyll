@@ -24,7 +24,7 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/513
 difficulty: 2
 activity: presenting
-topics: [mapping, website]
+topics: [mapping, website, r, data-visualization]
 avatar_alt: Reflexo da luz da lua num lago
 abstract: Esta lição demonstra como construir um mapa interativo na web usando R e a biblioteca Shiny. Na lição, será projetado e implementado um aplicativo simples, que consiste num controlo deslizante que permite ao usuário selecionar um intervalo de datas e exibir um conjunto de pontos correspondentes num mapa interativo.
 lesson-partners: [Jisc, The National Archives]

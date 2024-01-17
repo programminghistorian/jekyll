@@ -14,7 +14,7 @@ editors:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/186
 difficulty: 2
 activity: analyzing
-topics: [data-manipulation]
+topics: [data-manipulation, data-visualization]
 abstract: This lesson introduces the basic functions of FFmpeg, a free command-line tool used for manipulating and analyzing audiovisual materials.
 avatar_alt: An antique camera
 doi: 10.46430/phen0077

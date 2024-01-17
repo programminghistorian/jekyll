@@ -59,7 +59,7 @@ In Part 1, we introduced the process of creating an image classifier model and l
 
 As a reminder, we can think of the process of creating a deep learning model as a pipeline of related steps. In this lesson we will move through this pipeline step by step:
 
-{% include figure.html filename="deep-learning-pipeline-simple.png" alt="A diagram showing a workflow of a machine learning pipeline. The pipeline contains three boxes, 'data preparation', 'deep learning' and 'analysis'. An arrow moves across these three boxes. Within the 'data preparation' box are three boxes from left to right: 'sampling', 'labels', 'annotation'. For the box 'deep learning' there are three smaller boxes with arrows moving between them: 'training data', 'model', 'predictions'. The box 'analysis' contains three smaller boxes 'metrics' and 'interpretation'." caption="A high-level illustration of a supervised machine learning pipeline" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt2-01.png" alt="A diagram showing a workflow of a machine learning pipeline. The pipeline contains three boxes, 'data preparation', 'deep learning' and 'analysis'. An arrow moves across these three boxes. Within the 'data preparation' box are three boxes from left to right: 'sampling', 'labels', 'annotation'. For the box 'deep learning' there are three smaller boxes with arrows moving between them: 'training data', 'model', 'predictions'. The box 'analysis' contains three smaller boxes 'metrics' and 'interpretation'." caption="Figure 1. A high-level illustration of a supervised machine learning pipeline" %}
 
 # The Data
 
@@ -362,7 +362,7 @@ plt.ylabel("Percentage of total labels")
 plt.show()  # show the plot
 ```
 
-{% include figure.html filename="label_freqs.png" alt="A diagram showing a bar chart with five bars. The first bar for human has a value just under 70%, human-structure is around 15%, the other labels representing 'animal', 'human-structure' and 'no-label' all have values below 10%" caption="Relative frequency of labels" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt2-02.png" alt="A diagram showing a bar chart with five bars. The first bar for human has a value just under 70%, human-structure is around 15%, the other labels representing 'animal', 'human-structure' and 'no-label' all have values below 10%" caption="Figure 2. Relative frequency of labels" %}
 
 The above plot could be improved by checking whether the imbalance in the labels also correlates to other features of the image, such as the date of publication. We would likely want to do this if we were intending to use it for a publication. However, it can be useful to create basic visualisations as a way of exploring the data's content or debugging problems - for these purposes it doesn't make sense to spend too much time creating the perfect visualisation. 
 
@@ -406,7 +406,7 @@ Remember, metrics don't *directly* impact the training process. The metric gives
 
 Now that we have a better understanding of the data, we can move to the next step: looking at how we can prepare data in a form that a deep learning model (in this case a computer vision model) can understand, with images and labels put into batches. 
 
-{% include figure.html filename="training-loop.jpg"  alt="A diagram showing a workflow of training a deep learning model. The pipeline contains two boxes, 'prepare training batch' and 'model training'. An arrow moves across these two boxes to a free standing box with the text 'metrics' inside. Inside the 'prepare' training batch' is a workflow showing an image and a label going through a transform, and then put in a batch. Following this under the 'model training' heading' the workflow moves through a model, predictions, and a loss. This workflow has an arrow indicating it is repeated. This workflow also flows to the metrics box" caption="The deep learning training loop" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt2-03.png"  alt="A diagram showing a workflow of training a deep learning model. The pipeline contains two boxes, 'prepare training batch' and 'model training'. An arrow moves across these two boxes to a free standing box with the text 'metrics' inside. Inside the 'prepare' training batch' is a workflow showing an image and a label going through a transform, and then put in a batch. Following this under the 'model training' heading' the workflow moves through a model, predictions, and a loss. This workflow has an arrow indicating it is repeated. This workflow also flows to the metrics box" caption="Figure 3. The deep learning training loop" %}
 
 The `fastai` library provides a number of useful APIs for loading data. These APIs move from a 'high level' API, which provides useful 'factory methods' to 'mid-level' and 'low-level' APIs, which offer more flexibility in how data is loaded. We'll use the 'high level' API for now to keep things straightforward.
 
@@ -473,7 +473,7 @@ photo_data.show_batch(figsize=(15,15))
 ```
 
 
-{% include figure.html filename="show_batch_2.png" alt="The output of show batch showing images in a 3x3 grid. Each image has an associated label(s) above it" caption="The output of 'show_batch'" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt2-04.png" alt="The output of show batch showing images in a 3x3 grid. Each image has an associated label(s) above it" caption="Figure 4. The output of 'show_batch'" %}
 
 You will see above that the labels are separated by a `;`. This means `fastai` has understood that the `|` symbol indicates different labels for each image. 
 
@@ -653,7 +653,7 @@ Now that we have passed some augmentations to our data, we should take a look at
 ```python
 photo_data.show_batch(unique=True, figsize=(10,10))
 ```
-{% include figure.html filename="show_batch_3.png" alt="The output of show batch showing a 3x3 grid of images. All the images are of a person with each image being cropped, rorated, or warped as a result of the image augmentations" caption="An example batch with image augmentations" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt2-05.png" alt="The output of show batch showing a 3x3 grid of images. All the images are of a person with each image being cropped, rorated, or warped as a result of the image augmentations" caption="Figure 5. An example batch with image augmentations" %}
 
 We can see that the same image has been manipulated in a variety of ways, including zooms and rotations. Why would we want to do this? 
 
@@ -669,7 +669,7 @@ We don't have space in this lesson to fully explore transformations. We suggest 
 
 Now that we have loaded data, including applying some augmentations to the images, we are ready to create our model, i.e., moving to our training loop. 
 
-{% include figure.html filename="training-loop.jpg" alt="A diagram showing a workflow of training a deep learning model. The pipeline contains two boxes, 'prepare training batch' and 'model training'. An arrow moves across these two boxes to a free standing box with the text 'metrics' inside. Inside the 'prepare' training batch' is a workflow showing an image and a label going through a transform, and then put in a batch. Following this under the 'model training' heading' the workflow moves through a model, predictions, and a loss. This workflow has an arrow indicating it is repeated. This workflow also flows to the metrics box" caption="The deep learning training loop" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt2-06.png" alt="A diagram showing a workflow of training a deep learning model. The pipeline contains two boxes, 'prepare training batch' and 'model training'. An arrow moves across these two boxes to a free standing box with the text 'metrics' inside. Inside the 'prepare' training batch' is a workflow showing an image and a label going through a transform, and then put in a batch. Following this under the 'model training' heading' the workflow moves through a model, predictions, and a loss. This workflow has an arrow indicating it is repeated. This workflow also flows to the metrics box" caption="Figure 6. The deep learning training loop" %}
 
 We have already seen this at a high level, and most things will remain the same as in our previous advert example. 
 
@@ -710,7 +710,7 @@ learn.lr_find()
     SuggestedLRs(lr_min=0.012022644281387329, lr_steep=0.04786301031708717)
 ```
 
-{% include figure.html filename="lr_plot.png" alt="A line plot showing the loss on the y-axis and the learning rate on the x-axis. As the learning rate increases the loss drops before shotting up steeply." caption="The output plot of lr_find" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt2-07.png" alt="A line plot showing the loss on the y-axis and the learning rate on the x-axis. As the learning rate increases the loss drops before shotting up steeply." caption="Figure 7. The output plot of lr_find" %}
 
 
 `lr_find` helps find a suitable learning rate by training on a "mini batch" and slowly increasing the learning rate until the loss starts to worsen/deepen. We can see in this graph that on the y-axis we have the `loss` and on the x-axis `Learning Rate`. The loss moves down as the learning rate increases, up to a point, before it shoots up around $${10}^{-1}$$.
@@ -796,7 +796,7 @@ We also get an output for `train_loss` and `valid_loss`. As we have seen, a deep
 learn.recorder.plot_loss()
 ```
 
-{% include figure.html filename="plot_loss.png" alt="A diagram showing a line plot with the loss on the y-axis and the training step on the x-axis. Two lines illustrated the training and validation loss. These two losses roughly follow the same downwards trajectory" caption="The output plot of plot_loss" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt2-08.png" alt="A diagram showing a line plot with the loss on the y-axis and the training step on the x-axis. Two lines illustrated the training and validation loss. These two losses roughly follow the same downwards trajectory" caption="Figure 8. The output plot of plot_loss" %}
 
 Compared to our previous model, we are not getting a very good score. Let's see if "unfreezing" the model (updating the lower layers of the model) helps improve the performance.
 
@@ -839,7 +839,7 @@ learn.lr_find()
     SuggestedLRs(lr_min=0.00010000000474974513, lr_steep=6.309573450380412e-07)
 ```
 
-{% include figure.html filename="lr_plot_unfrozen.png" alt="The output of the learning rate finder once the model has been unfrozen. The loss follows a flat bumpy line before shooting up sharply" caption="The output plot of lr_find" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt2-09.png" alt="The output of the learning rate finder once the model has been unfrozen. The loss follows a flat bumpy line before shooting up sharply" caption="Figure 9. The output plot of lr_find" %}
 
 The learning rate plot looks different this time with loss plateauing before shooting up. Interpreting `lr_find` plots is not always straightforward, especially for a model that has been unfroze. Usually the best learning rate for a unfrozen model will be smaller than one used for the frozen model at the start of training. 
 
@@ -1013,7 +1013,7 @@ Although it is not possible to say that this difficulty in labeling in the origi
 ## The Feedback Loop in a Deep Learning Pipeline
 
 
-{% include figure.html filename="deep-learning-pipeline-feedback.png" alt="This diagram repeats the workflow diagram for machine learning shown previously but adds additional arrows showing that each stage of the workflow feedbacks to earlier steps" caption="A more realistic illustration of a supervised machine learning pipeline" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt2-10.png" alt="This diagram repeats the workflow diagram for machine learning shown previously but adds additional arrows showing that each stage of the workflow feedbacks to earlier steps" caption="Figure 10. A more realistic illustration of a supervised machine learning pipeline" %}
 
 
 When we introduced a deep learning pipeline, it was shown as a very linear process. However, it is likely to be much more iterative. This will be particularly true if new annotations are created, since choices will need to be made about what labels are chosen and whether these labels are intended to be used to classify images. The process of annotating new data will expose you more deeply to the source material, which may flag that some labels are poorly defined and don't sufficiently capture the visual properties that you are trying to capture. It may also flag that some of your labels appear rarely, making it more challenging to train a model to predict these labels.[^4] 
