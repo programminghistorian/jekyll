@@ -97,7 +97,11 @@ to execute your program. If you are using Sublime Text, click `Tools -> Build` (
 “\#!” button and Run. If all went well, it should look something like
 this:
 
-{% include figure.html filename="BBEdit-hello-world.png" caption="'Hello World' in Python on a Mac" %}
+{% include figure.html filename="BBEdit-hello-world.png" caption="'Hello World' in Python on a Mac with BBEdit" %}
+
+or, in Sublime Text:
+
+{% include figure.html filename="en-or-sublimetext-hello-world.png" caption="'Hello World' in Python on a Mac with Sublime Text" %}
 
 ### Interacting with a Python shell
 
