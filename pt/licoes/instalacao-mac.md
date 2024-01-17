@@ -95,7 +95,11 @@ print('Olá Mundo')
 
 O comando “*Run Python*” permite que você execute o seu programa. Se você escolheu um outro editor, este deve ter uma funcionalidade semelhante. Se está a usar o BBEdit, clique em “#!” e no botão *Run*. Se tudo correu bem, o ecrã deverá mostrar algo como apresentado de seguida:
 
-{% include figure.html filename="BBEdit-ola-mundo.png" caption="Olá Mundo em Python no Mac" %}
+{% include figure.html filename="BBEdit-ola-mundo.png" caption="Olá Mundo em Python no Mac, com BBEdit" %}
+
+Ou, com Sublime Text:
+
+{% include figure.html filename="pt-tr-sublimetext-ola-mundo.png" caption="Olá Mundo em Python no Mac, com Sublime Text" %}
 
 ## Interagindo com a linha de comandos do Python
 
