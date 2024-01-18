@@ -5,7 +5,7 @@ Si estás interesado en escribir un tutorial y enviarlo a Programming Historian,
 Inglés: Alex Wermer-Colan (english@programminghistorian.org)
 Español: Jennifer Isasi (espanol@programminghistorian.org)
 Francés: Marie Flesch (francais@programminghistorian.org)
-Portugués: Daniel Alves (portugues@programminghistorian.org)
+Portugués: Eric Brasil (portugues@programminghistorian.org)
 
 ## Acerca de ti
 1. Nombre
