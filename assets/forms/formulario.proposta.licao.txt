@@ -5,7 +5,7 @@ Se estiver interessado em escrever uma lição e enviá-la ao Programming Histor
 Inglês: Alex Wermer-Colan (english@programminghistorian.org)
 Espanhol: Jennifer Isasi (espanol@programminghistorian.org)
 Francês: Marie Flesch (francais@programminghistorian.org)
-Português: Daniel Alves (portugues@programminghistorian.org)
+Português: Eric Brasil (portugues@programminghistorian.org)
 
 ## Sobre o autor
 1. Nome
