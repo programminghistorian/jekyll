@@ -3,7 +3,7 @@ title: "Understanding and Creating Word Embeddings"
 slug: understanding-creating-word-embeddings
 layout: lesson
 collection: lessons
-date: 2024-01-17
+date: 2024-01-31
 authors:
   - Avery Blankenship
   - Sarah Connell
