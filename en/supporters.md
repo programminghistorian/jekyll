@@ -90,26 +90,24 @@ We are grateful to our many dozens of individual sponsors who contribute through
 - Laura Gayle Green ('Educator')
 - Tim Hitchcock ('Patron')
 
-We also publicly thank all of our 'Patron' and 'Educator' supporters:
+We also publicly thank all of our active 'Patron' and 'Educator' supporters:
 
 - Tim Hitchcock
 - Shawn Graham
 - Jeff Blackadar
 - Jodi Burkett
 - Michael Piotrowski
-- Mark Edwin Peterson
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 - Dimitra Koutla
 - Ben Akrigg
+- Robert C.H. Sweeny
 - Laura Gayle Green (Educator)
 - Rebecca Kahn (Educator)
 - Sarah Melton (Educator)
 - Laurissa Stokes (Educator)
 - Monica Berti (Educator)
-- Ajit Balakrishnan
-- Simon Mahony
-- Robert C.H. Sweeny
+- Samuel Salgado Tello (Educator)
 
 ## Management of Donations and Sponsorship
 
