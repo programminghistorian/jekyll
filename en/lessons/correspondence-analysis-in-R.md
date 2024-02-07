@@ -398,7 +398,7 @@ JUST    0.408    0.000    0.000
 
 The normalisation process does something interesting. Those who are members of multiple committees and/or who belong to committees with many members will tend to have normalisation scores that are lower, suggesting that they are more central to the network. These members will be put closer to the centre of the matrix. For example, the cell belonging to S Ambler and IWFA has the lowest score of 0.192 because S Ambler is a member of three committees and the IWFA committee has nine members in the graph represented.
 
-The next stage is to find the singular value decomposition of this normalised data. This involves fairly complex linear algebra that will not be covered here, but you can learn more from [this Singular Value Decomposition tutorial](http://web.mit.edu/be.400/www/SVD/Singular_Value_Decomposition.htm) or in more detail from [this pdf file on SVD](http://davetang.org/file/Singular_Value_Decomposition_Tutorial.pdf). I will try to summarize what happens in lay terms.
+The next stage is to find the singular value decomposition of this normalised data. This involves fairly complex linear algebra that will not be covered here, but you can learn it in more detail from [this pdf file on SVD](http://davetang.org/file/Singular_Value_Decomposition_Tutorial.pdf). I will try to summarize what happens in lay terms.
 
 * Two new matrices are created that show "dimension" scores for the rows (committees) and the columns (MPs) based on eigenvectors.
 * The number of dimensions is equal to the size of the columns or rows minus 1, which ever is smaller. In this case, there are five committees compared to the MPs eleven, so the number of dimensions is 4.
