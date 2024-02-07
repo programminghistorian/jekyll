@@ -100,19 +100,17 @@ Nous tenons également à remercier publiquement tous nos donateurs de niveau 'm
 - Jeff Blackadar
 - Jodi Burkett
 - Michael Piotrowski
-- Mark Edwin Peterson
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 - Dimitra Koutla
 - Ben Akrigg
+- Robert C.H. Sweeny
 - Laura Gayle Green (éducation)
 - Rebecca Kahn (éducation)
 - Sarah Melton (éducation)
 - Laurissa Stokes (éducation)
 - Monica Berti (éducation)
-- Ajit Balakrishnan
-- Simon Mahony
-- Robert C.H. Sweeny
+- Samuel Salgado Tello (éducation)
 
 ## Gestion de donations et de parrainages
 
