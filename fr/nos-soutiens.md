@@ -93,7 +93,7 @@ Nous sommes reconnaissants aux dizaines d'individus qui contribuent au projet à
 - Laura Gayle Green (éducation)
 - Tim Hitchcock ('mécène')
 
-Nous tenons également à remercier publiquement tous nos donateurs de niveau 'mécène' et 'éducation':
+Nous tenons également à remercier publiquement tous nos donateurs actifs de niveau 'mécène' et 'éducation':
 
 - Tim Hitchcock
 - Shawn Graham
