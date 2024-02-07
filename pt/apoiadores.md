@@ -102,19 +102,17 @@ Também agradecemos publicamente a todos os nossos apoiadores ‘Patrono’ e �
 -   Jeff Blackadar
 -   Jodi Burkett
 -   Michael Piotrowski
--   Mark Edwin Peterson
 -   Nickoal Eichmann-Kalwara
 -   Bruno Magalhães
 -   Dimitra Koutla
 -   Ben Akrigg
+-   Robert C.H. Sweeny
 -   Laura Gayle Green (Educator)
 -   Rebecca Kahn (Educator)
 -   Sarah Melton (Educator)
 -   Laurissa Stokes (Educator)
 -   Monica Berti (Educator)
--   Ajit Balakrishnan
--   Simon Mahony
--   Robert C.H. Sweeny
+-   Samuel Salgado Tello (Educator)
 
 ## Gestão de Doações e Patrocínios
 
