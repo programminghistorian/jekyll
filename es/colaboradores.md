@@ -91,7 +91,7 @@ Estamos muy agradecidos a todos los patrocinadores individuales que contribuyen 
 - Laura Gayle Green ('Educación')
 - Tim Hitchcock ('Patrocinio')
 
-En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Patrocinio' y 'Educación':
+En particular, agradecemos la contribución de los siguientes suscriptores activos de Patreon de nivel 'Patrocinio' y 'Educación':
 
 - Tim Hitchcock
 - Shawn Graham
