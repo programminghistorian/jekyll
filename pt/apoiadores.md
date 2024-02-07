@@ -95,7 +95,7 @@ Somos gratos às nossas dezenas de patrocinadores individuais que contribuem com
 -   Laura Gayle Green (‘Educator’)
 -   Tim Hitchcock (‘Patron’)
 
-Também agradecemos publicamente a todos os nossos apoiadores ‘Patrono’ e ‘Educadores’:
+Também agradecemos publicamente a todos os nossos apoiadores ativos ‘Patrono’ e ‘Educadores’:
 
 -   Tim Hitchcock
 -   Shawn Graham
