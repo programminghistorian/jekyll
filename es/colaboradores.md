@@ -98,19 +98,19 @@ En particular, agradecemos la contribución de los siguientes suscriptores de Pa
 - Jeff Blackadar
 - Jodi Burkett
 - Michael Piotrowski
-- Mark Edwin Peterson
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 - Dimitra Koutla
 - Ben Akrigg
+- Robert C.H. Sweeny
 - Laura Gayle Green ('Educación')
 - Rebecca Kahn ('Educación')
 - Sarah Melton ('Educación')
 - Laurissa Stokes ('Educación')
 - Monica Berti ('Educación')
-- Ajit Balakrishnan
-- Simon Mahony
-- Robert C.H. Sweeny
+- Samuel Salgado Tello ('Educación')
+
+
 
 ## Administración de donaciones y patrocinios
 
