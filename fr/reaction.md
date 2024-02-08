@@ -28,7 +28,7 @@ Merci d'envoyer un courriel à notre [assistante éditoriale](mailto:admin@progr
 - les étapes précises que vous avez suivies avant de rencontrer le problème.  
 
 ## Option 2: Créez un ticket sur GitHub
-D'abord, [créez un compte gratuit et personnel sur GitHub](https://help.github.com/articles/signing-up-for-a-new-github-account), ou connectez-vous directement à votre compte si vous en avez déjà un.
+D'abord, [créez un compte gratuit et personnel sur GitHub](https://help.github.com/articles/signing-up-for-a-new-github-account), ou connectez-vous directement à votre compte si vous en avez déjà un. 
 
 Rendez-vous ensuite sur la [page rassemblant les tickets](https://github.com/programminghistorian/jekyll/issues?state=open) de notre dépôt Github.
 
