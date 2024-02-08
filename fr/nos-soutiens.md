@@ -105,6 +105,7 @@ Nous tenons également à remercier publiquement tous nos donateurs actifs de ni
 - Dimitra Koutla
 - Ben Akrigg
 - Robert C.H. Sweeny
+- Simon Mahony
 - Laura Gayle Green (éducation)
 - Rebecca Kahn (éducation)
 - Sarah Melton (éducation)
