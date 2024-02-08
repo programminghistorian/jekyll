@@ -14,7 +14,7 @@ skip_validation: true
 <h2 class="noclear">Step 3: <a href="#submitting-a-new-lesson">Submitting a Translated Lesson</a></h2>
 
 ## Proposing the Translation of a Lesson
-If you want to translate a lesson published in *Programming Historian*, please see the list of [pending translations](https://github.com/orgs/programminghistorian/projects/5/views/2) and contact {% include managing-editor.html lang=page.lang %} to discuss your language skills and translation experience. We look for translations that are rigorous, readable, and consider the needs of an English-reading audience.
+If you want to translate a lesson published in *Programming Historian*, please see the list of [pending translations](https://github.com/orgs/programminghistorian/projects/5) and contact {% include managing-editor.html lang=page.lang %} to discuss your language skills and translation experience. We look for translations that are rigorous, readable, and consider the needs of an English-reading audience.
 
 Once the translation of a published lesson is approved, one of our editors will create a "Translation Review Ticket" on our Github [repository](https://github.com/programminghistorian/ph-submissions) where the peer review will take place. This ticket includes a message board feature, which will be used to document the progress made during the translation review. To avoid delays in publishing, we ask that you submit your translation within 90 days of the editor accepting your proposal.
 
