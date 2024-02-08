@@ -103,6 +103,7 @@ En particular, agradecemos la contribución de los siguientes suscriptores activ
 - Dimitra Koutla
 - Ben Akrigg
 - Robert C.H. Sweeny
+- Simon Mahony
 - Laura Gayle Green ('Educación')
 - Rebecca Kahn ('Educación')
 - Sarah Melton ('Educación')
