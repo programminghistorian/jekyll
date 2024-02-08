@@ -12,7 +12,7 @@ Seguiu as instruções de uma lição meticulosamente e ainda assim encontrou um
 
 Definimos erros/bugs como: "Um erro em um programa de computador que produz um resultado inesperado ou que se comporta de forma diferente das instruções numa lição." Observe que não podemos atender a erros causados pelo usuário ao editar o código ou alterar materiais (conjuntos de dados, ficheiros de entrada, etc.) 
 
-Primeiro, pedimos que você verifique no nosso [rastreador de questões](https://github.com/orgs/programminghistorian/projects/6/views/1) se alguém já sinalizou o erro e, nesse caso, deixe um comentário nessa questão. Se o problema não foi relatado, siga uma destas opções:
+Primeiro, pedimos que você verifique no nosso [rastreador de questões](https://github.com/orgs/programminghistorian/projects/6) se alguém já sinalizou o erro e, nesse caso, deixe um comentário nessa questão. Se o problema não foi relatado, siga uma destas opções:
 
 <div class="alert alert-info">
 Por favor, não abra um "Pull Request" com a correção.
