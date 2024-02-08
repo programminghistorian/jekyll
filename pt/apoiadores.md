@@ -107,6 +107,7 @@ Também agradecemos publicamente a todos os nossos apoiadores ativos ‘Patrono�
 -   Dimitra Koutla
 -   Ben Akrigg
 -   Robert C.H. Sweeny
+-   Simon Mahony
 -   Laura Gayle Green (Educator)
 -   Rebecca Kahn (Educator)
 -   Sarah Melton (Educator)
