@@ -13,7 +13,7 @@ Vous avez suivi méticuleusement les instructions d'une leçon et avez tout de m
 
 Nous définissons un bogue (ou *bug*) comme: "Une erreur dans un programme informatique qui produit un résultat inattendu ou qui se comporte différemment des instructions d'une leçon." Notez que nous ne pouvons pas nous occuper des erreurs causées par l'utilisateur qui modifie le code ou la documentation d'une leçon  (ensemble de données, fichiers d'entrée, etc.)
 
-Jetez un coup d'oeil aux [tickets qui traitent les bugs](https://github.com/programminghistorian/jekyll/issues?q=is%3Aissue+is%3Aopen+label%3Abug) pour voir si le problème que vous avez identifié n'a pas déjà été signalé. Si c'est le cas, mais que vous souhaitez partager des informations complémentaires, laissez un commentaire sur le ticket en question. Si le problème n'a pas déjà été signalé, vous pouvez procéder d'une des façons suivantes:
+Jetez un coup d'oeil aux [tickets qui traitent les bugs](https://github.com/programminghistorian/jekyll/issues?q=is%3Aopen+is%3Aissue+label%3A%22Lesson+Maintenance%22) pour voir si le problème que vous avez identifié n'a pas déjà été signalé. Si c'est le cas, mais que vous souhaitez partager des informations complémentaires, laissez un commentaire sur le ticket en question. Si le problème n'a pas déjà été signalé, vous pouvez procéder d'une des façons suivantes:
 
 <div class="alert alert-info">
 S'il vous plaît, ne créez pas de pull request avec la correction.
