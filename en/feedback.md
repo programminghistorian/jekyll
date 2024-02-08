@@ -16,7 +16,7 @@ Have you followed the instructions in a lesson meticulously and still run into a
 
 We define bugs as: "An error in a computer program that produces an unexpected result or that behaves different from the instructions in a lesson." Note that we cannot attend to errors caused by the user editing the code or changing materials (datasets, input files, etc.)
 
-First, we ask that you check on our [issue tracker](https://github.com/orgs/programminghistorian/projects/6/views/1) if someone has already flagged the problem and, in such case, that you leave a comment. If the issue has not been reported, follow one of these options:
+First, we ask that you check on our [issue tracker](https://github.com/orgs/programminghistorian/projects/6) if someone has already flagged the problem and, in such case, that you leave a comment. If the issue has not been reported, follow one of these options:
 
 <div class="alert alert-info">
 Please, do not create a Pull Request with the correction.
