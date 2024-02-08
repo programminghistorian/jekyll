@@ -102,6 +102,7 @@ We also publicly thank all of our active 'Patron' and 'Educator' supporters:
 - Dimitra Koutla
 - Ben Akrigg
 - Robert C.H. Sweeny
+- Simon Mahony
 - Laura Gayle Green (Educator)
 - Rebecca Kahn (Educator)
 - Sarah Melton (Educator)
