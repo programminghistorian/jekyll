@@ -8,4 +8,7 @@ original: events
 
 ## Évènements à venir 
 
-* Merci pour l'intérêt que vous portez à notre calendrier d'évènements. Nous n'avons rien de prévu pour le moment, mais revenez bientôt pour vous tenir au courant !
+* [Learning Digital Methods with the _Programming Historian_](https://charlesstudy.temple.edu/event/11953011)
+  Date : Jeudi 22 février 2024   
+  Heure : 16:00pm - 17:00pm UTC   
+  Lieu : En ligne   
