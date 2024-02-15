@@ -4,6 +4,7 @@ authors:
 - William J. Turkel
 - Adam Crymble
 date: 2012-07-17
+tested_date: 2023-11-16
 translation_date: 2017-03-15
 editors:
 - Miriam Posner
@@ -51,32 +52,17 @@ Para mantener organizados los datos en tu equipo, lo mejor es crear un directori
 
 Descarga la más reciente versión de [Beautiful Soup] y cópiala en el directorio o carpeta donde vas a alojar tus propios programas. Beautiful Soup es una librería (una colección de código previamente escrito) que permite que los programas escritos con Python puedan seccionar más fácilmente páginas web en partes significativas que pueden seguir procesándose después.
 
-### Instalar Komodo Edit
+### Instalar un editor de texto
 
-Komodo Edit es un editor de texto que sirve para programación, es *software* libre y de código fuente abierto. Pero como se indicó en la introducción, se pueden utilizar [otras opciones de editores de texto]. Algunos colegas prefieren un programa llamado [BBEdit]. El que decidas utilizar queda a gusto tuyo, pero en aras de conservar la coherencia en estas lecciones se utilizará aquí como ejemplo Komodo Edit. Puedes descargar una copia libre del editor desde el [sitio web de Komodo Edit]. Se puede descargar desde el sitio web de Komodo e instalar fácilmente desde el archivo `.DMG`.
+Hay muchos editores de texto que puedes utilizar para escribir, guardar y ejecutar comandos de Python. En esta lección vamos a utilizar Sublime Text. Si prefieres otro editor de texto, hay [otras opciones][]. Algunos de nuestros usuarios prefieren un editor llamado [BBEdit][]. Puedes descargar una copia de Sublime Text de [la página web de Sublime Text][].
 
-#### Inicia Komodo Edit
+#### Inicia Sublime Text
 
-Deberá verse algo por el estilo:
+Ahora necesitas instalar el editor de texto para ejecutar programas de Python. 
 
-{% include figure.html filename="komodo-edit-mac.png" caption="Komodo Edit en una Mac" %}
+Desde el menú, elige
 
-Si no está visible el panel de Caja de Herramientas (Toolbox) a la derecha de la pantalla, es necesario activarlo en el menú correspondiente: `View->Tabs & Sidebars ->Toolbox`. No importa si el panel de proyecto está abierto o no. Conviene, como siempre con nuevo software, dedicar un tiempo a familiarizarse con los diversos menús y barras de herramientas. El archivo de ayuda es bastante bueno.
-
-#### Configuración de Komodo Edit
-
-Ahora bien, una vez descargado e instalado el editor es necesario configurarlo para que puedas correr los programas de Python. En la ventana de la derecha (caja de herramientas o Toolbox) hay que hacer clic en el icono de engranaje y seleccionar "`New Command…`" Esta acción abre una nueva ventana de diálogo. Ahí se deberá renombrar como "`Ejecutar Python`". En el campo activo "`Command`" deberás escribir:
-
-``` python
-%(python3) %f
-```
-
-Y en el campo activo "`Start in`" debes escribir:
-
-```python
-%D
-```
-Una vez configurado haz clic en OK, con lo cual habrá un nuevo botón para ejecutar Python en el panel de la caja de herramientas (Toolbox).
+`Tools -> Build System -> Python`. 
 
 Paso 2 – “Hola Mundo” en Python
 -----------------------------------------------
@@ -93,7 +79,7 @@ En tu editor de texto crea un nuevo archivo y escribe el siguiente programa de d
 # hola-mundo.py
 print('hola mundo')
 ```
-El editor de texto que seleccionaste debe tener un botón "`run`" que te permitirá ejecutar tu programa. Por ejemplo, si estás utilizando TextWrangler, haz clic en el botón "`#!`" para ejecutarlo. Si todo funciona bien (es posible que no, con lo cual habrá que revisar las diversas instalaciones y configuraciones), deberás ver algo como sigue:
+El editor de texto que seleccionaste debe tener un botón "`run`" o "`Build`" que te permitirá ejecutar tu programa. Por ejemplo, si estás utilizando Sublime Text , haz clic en `Tools -> Build` (o presiona `⌘B`). O si estás en BBEdit, haz clic en el botón “\#!” y Run. Si todo funciona bien (es posible que no, con lo cual habrá que revisar las diversas instalaciones y configuraciones), deberás ver algo como sigue:
 
 {% include figure.html filename="BBEdit-hola-mundo.png" caption="'Hola Mundo' en Python en una Mac, con BBEdit" %}
 
@@ -142,5 +128,5 @@ Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos 
 [Beautiful Soup]: https://www.crummy.com/software/BeautifulSoup/
 [otras opciones de editores de texto]: https://wiki.python.org/moin/PythonEditors/
 [BBEdit]: https://www.barebones.com/products/bbedit/
-[sitio web de Komodo Edit]: http://komodoide.com/komodo-edit/
+[sitio web de Sublime Text]: https://www.sublimetext.com/download
 [Para entender páginas web y HTML]: /es/lecciones/ver-archivos-html
