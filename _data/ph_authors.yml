@@ -3028,3 +3028,116 @@
   bio:
     en: |
       Sarah Connell is the Associate Director of the Women Writers Project and the NULab for Texts, Maps, and Networks at Northeastern University.
+
+- name: Massimiliano Carloni
+  orcid: 0000-0003-2208-5108
+  github: carlonim
+  email: massimiliano.carloni@oeaw.ac.at
+  team: true
+  team_start: 2024
+institution: Austrian Centre for Digital Humanities and Cultural Heritage, Österreichischen Akademie der Wissenschaften
+sortname: Carloni
+affiliation:
+  en: |
+    ACDH-CH, Österreichischen Akademie der Wissenschaftenn, Austria
+  es: |
+    ACDH-CH, Österreichischen Akademie der Wissenschaftenn, Austria
+  fr: |
+    ACDH-CH, Österreichischen Akademie der Wissenschaftenn, Autriche
+  pt: |
+    ACDH-CH, Österreichischen Akademie der Wissenschaftenn, Áustria
+team_roles:
+  - english
+  - editorial
+status: volunteer
+
+- name: Laura Chapot
+  orcid: 0000-0001-8334-4308
+  github: lachapot
+  email: lachapot@gmail.com
+  team: true
+  team_start: 2024
+institution: Dartmouth College
+sortname: Chapot
+affiliation:
+  en: |
+    Dartmouth College, United States
+  es: |
+    Dartmouth College, Estados Unidos
+  fr: |
+    Dartmouth College, États-Unis
+  pt: |
+    Dartmouth College, Estados Unidos
+team_roles:
+  - english
+  - editorial
+status: volunteer
+
+- name: Caio Mello
+  orcid: 0000-0002-6437-3346
+  github: caiocmello
+  email: caiomellodh@gmail.com
+  team: true
+  team_start: 2024
+institution: School of Advanced Study, University of London
+sortname: Mello
+affiliation:
+  en: |
+    School of Advanced Study, University of London, UK
+  es: |
+    School of Advanced Study, University of London, Reino Unido
+  fr: |
+    School of Advanced Study, University of London, Royaume-Uni
+  pt: |
+    School of Advanced Study, University of London, Reino Unido
+team_roles:
+  - english
+  - editorial
+status: volunteer
+
+- name: Agustín Cosovschi
+  orcid: 0000-0002-2461-9946
+  github: digitalkosovski
+  email: acosovschi@gmail.com
+  team: true
+  team_start: 2024
+institution: École française d’Athènes
+sortname: Cosovschi
+affiliation:
+  en: |
+    École française d’Athènes, Greece
+  es: |
+    École française d’Athènes, Grecia
+  fr: |
+    École française d’Athènes, Grèce
+  pt: |
+    École française d’Athènes, Grécia
+bio:
+  fr: |
+    Agustín Cosovschi est membre scientifique de l'École française d’Athènes, et chercheur associé au CETOBaC (Centre d’Études Turques, Ottomanes, Balkaniques et Centrasiatiques) à Paris.
+team_roles:
+  - english
+  - editorial
+status: volunteer
+
+- name: Giulia Osti
+  orcid: 0000-0003-3179-6980
+  github: semanticnoodles
+  email: giulia.osti@ucdconnect.ie
+  team: true
+  team_start: 2024
+institution: School of Information and Communication Studies, University College Dublin
+sortname: Osti
+affiliation:
+  en: |
+    School of Information and Communication Studies, University College Dublin, Ireland
+  es: |
+    School of Information and Communication Studies, University College Dublin, Irlanda
+  fr: |
+    School of Information and Communication Studies, University College Dublin, Irlande
+  pt: |
+    School of Information and Communication Studies, University College Dublin, Irlanda
+team_roles:
+  - english
+  - editorial
+status: volunteer
