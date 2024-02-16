@@ -235,16 +235,16 @@ $ pandoc projet.md -o projet.html
 
 Retournez ensuite dans le répertoire de votre projet. Pouvez-vous expliquer ce qui s'est passé ?
 
-Les utilisateurs plus avancés qui ont installé LaTeX voudront peut-être expérimenter en convertissant leur Markdown en fichiers .tex ou en fichiers .pdf spécialement mis en page. Une fois LaTeX installé, un fichier PDF élégamment formaté peut être créé en utilisant la même structure de commande :
+Les utilisateurs plus avancés qui ont installé LaTeX voudront peut-être expérimenter en convertissant leur Markdown en fichiers .tex ou en fichiers .pdf spécialement mis en page. Une fois LaTeX installé, un fichier PDF élégamment formaté peut être créé en utilisant presque la même structure de commande :
 
 ```
-$ pandoc projet.md -o projet.pdf
+$ pandoc projet.md -o projet.pdf --pdf-engine=/Library/TeX/texbin/pdflatex
 ```
 
-Si votre document est rédigé dans une autre langue que l'anglais, vous devrez probablement utiliser le moteur [XeLaTeX](https://fr.wikipedia.org/wiki/XeTeX) au lieu du moteur LaTeX ordinaire pour la conversion en .pdf :
+Il faut indiquer à pandoc le &laquo;&nbsp;moteur&nbsp;&raquo; (engine) LaTeX qui doit être utilisé, et indiquer en même temps où il se trouve. Si votre document est rédigé dans une autre langue que l'anglais, vous devrez probablement utiliser le moteur [XeLaTeX](https://fr.wikipedia.org/wiki/XeTeX) au lieu du moteur LaTeX ordinaire pour la conversion en .pdf :
 
 ```
-pandoc projet.md --pdf-engine=xelatex -o projet.pdf
+pandoc projet.md --pdf-engine=/Library/TeX/texbin/xelatex -o projet.pdf
 ```
 
 Assurez-vous que votre éditeur de texte prend en charge le codage UTF-8. Lorsque vous utilisez XeLaTeX pour la conversion en .pdf, au lieu de l'attribut `fontfamily` en YAML pour changer de police, spécifiez l'attribut `mainfont`, ce qui donnera quelque chose comme suit :
