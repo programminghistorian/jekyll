@@ -95,26 +95,25 @@ Somos gratos às nossas dezenas de patrocinadores individuais que contribuem com
 -   Laura Gayle Green (‘Educator’)
 -   Tim Hitchcock (‘Patron’)
 
-Também agradecemos publicamente a todos os nossos apoiadores ‘Patrono’ e ‘Educadores’:
+Também agradecemos publicamente a todos os nossos apoiadores ativos ‘Patrono’ e ‘Educadores’:
 
 -   Tim Hitchcock
 -   Shawn Graham
 -   Jeff Blackadar
 -   Jodi Burkett
 -   Michael Piotrowski
--   Mark Edwin Peterson
 -   Nickoal Eichmann-Kalwara
 -   Bruno Magalhães
 -   Dimitra Koutla
 -   Ben Akrigg
+-   Robert C.H. Sweeny
+-   Simon Mahony
 -   Laura Gayle Green (Educator)
 -   Rebecca Kahn (Educator)
 -   Sarah Melton (Educator)
 -   Laurissa Stokes (Educator)
 -   Monica Berti (Educator)
--   Ajit Balakrishnan
--   Simon Mahony
--   Robert C.H. Sweeny
+-   Samuel Salgado Tello (Educator)
 
 ## Gestão de Doações e Patrocínios
 
