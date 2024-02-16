@@ -13,14 +13,14 @@ Vous avez suivi méticuleusement les instructions d'une leçon et avez tout de m
 
 Nous définissons un bogue (ou *bug*) comme: "Une erreur dans un programme informatique qui produit un résultat inattendu ou qui se comporte différemment des instructions d'une leçon." Notez que nous ne pouvons pas nous occuper des erreurs causées par l'utilisateur qui modifie le code ou la documentation d'une leçon  (ensemble de données, fichiers d'entrée, etc.)
 
-Jetez un coup d'oeil aux [tickets qui traitent les bugs](https://github.com/programminghistorian/jekyll/issues?q=is%3Aissue+is%3Aopen+label%3Abug) pour voir si le problème que vous avez identifié n'a pas déjà été signalé. Si c'est le cas, mais que vous souhaitez partager des informations complémentaires, laissez un commentaire sur le ticket en question. Si le problème n'a pas déjà été signalé, vous pouvez procéder d'une des façons suivantes:
+Jetez un coup d'oeil aux [tickets qui traitent les bugs](https://github.com/orgs/programminghistorian/projects/6) pour voir si le problème que vous avez identifié n'a pas déjà été signalé. Si c'est le cas, mais que vous souhaitez partager des informations complémentaires, laissez un commentaire sur le ticket en question. Si le problème n'a pas déjà été signalé, vous pouvez procéder d'une des façons suivantes:
 
 <div class="alert alert-info">
 S'il vous plaît, ne créez pas de pull request avec la correction.
 </div>
 
 ## Option 1: Envoyez-nous un courriel 
-Merci d'envoyer un courriel à notre [assistante éditoriale](mailto:admin@programminghistorian.org) en signalant: 
+Merci d'envoyer un courriel à notre [responsable de publication](mailto:admin@programminghistorian.org) en signalant: 
 
 - le titre complet de la leçon
 - le système d'exploitation que vous utilisez (Mac, Linux, Windows)
@@ -28,7 +28,7 @@ Merci d'envoyer un courriel à notre [assistante éditoriale](mailto:admin@progr
 - les étapes précises que vous avez suivies avant de rencontrer le problème.  
 
 ## Option 2: Créez un ticket sur GitHub
-D'abord, [créez un compte gratuit et personnel sur GitHub](https://help.github.com/articles/signing-up-for-a-new-github-account), ou connectez-vous directement à votre compte si vous en avez déjà un.
+D'abord, [créez un compte gratuit et personnel sur GitHub](https://help.github.com/articles/signing-up-for-a-new-github-account), ou connectez-vous directement à votre compte si vous en avez déjà un. 
 
 Rendez-vous ensuite sur la [page rassemblant les tickets](https://github.com/programminghistorian/jekyll/issues?state=open) de notre dépôt Github.
 
