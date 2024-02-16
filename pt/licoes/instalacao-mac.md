@@ -3,6 +3,7 @@ title: Configurar um ambiente de desenvolvimento integrado para Python (Mac)
 slug: instalacao-mac
 layout: lesson
 date: 2012-07-17
+tested_date: 2023-11-16
 translation_date: 2021-05-13
 authors:
 - William J. Turkel
@@ -50,26 +51,13 @@ Para que você se organize, o ideal é que você tenha um diretório (i.e., past
 
 ## Instale um editor de texto
 
-Existem vários editores de texto que você pode utilizar para escrever, armazenar e executar comandos em Python. O Komodo Edit é o utilizado nesta lição, correspondendo a um editor gratuito e de código aberto. Mas existem [outros editores][] se você preferir. Por exemplo, alguns dos nossos colaboradores preferem o programa [BBEdit][]. Você pode escolher qual editor mas, para manter a consistência entre as lições, nós iremos utilizar o Komodo Edit. Você pode fazer o download diretamente do [site do Komodo Edit][]. Faça a instalação a partir do ficheiro `.DMG`
+Existem vários editores de texto que você pode utilizar para escrever, armazenar e executar comandos em Python. O Sublime Text é utilizado nessa lição. Se vosê preferir usar outro editor, existem muitas outras [opções de editores de texto][]. Alguns dos nossos usuários preferem um programa chamado [BBEdit][]. A escolha é sua. Pode descarregar uma cópia do Sublime Text a partir do [website do Sublime Text][].
 
-
-#### Faça um comando “Run Python” no Komodo Edit
+#### Configurar no Sublime Text
 
 Deve agora configurar o editor para que seja possível executar programas em Python.
 
-Se você não visualizar a barra de ferramentas (Toolbox) do lado direito, selecione a opção do menu `View -> Tabs -> Toolbox`. Na janela Toolbox, clique no ícone da engrenagem e selecione “`New Command…`”. Uma nova janela de diálogo irá abrir e você deve renomear o seu comando para “`Run Python`”. Fique a vontade para alterar também o ícone. Na caixa “`Command`”, digite:
-
-``` python
-%(python3) %f
-```
-
-e na aba de opções avançadas, sob o texto "Start in," digite:
-
-``` python
-%D
-```
-
-Cique no botão OK e o seu novo comando "Run Python" deve aparecer no painel de ferramentas.
+A partir do menu, escolha `Tools -> Build System -> Python`. 
 
 ## Passo 2 – “Olá Mundo” em Python
 --------------------------------
@@ -93,9 +81,13 @@ No seu editor de texto, crie um novo ficheiro, entre o seguinte programa de duas
 print('Olá Mundo')
 ```
 
-O comando “*Run Python*” permite que você execute o seu programa. Se você escolheu um outro editor, este deve ter uma funcionalidade semelhante. Se está a usar o BBEdit, clique em “#!” e no botão *Run*. Se tudo correu bem, o ecrã deverá mostrar algo como apresentado de seguida:
+O comando “*Run Python*” permite que você execute o seu programa. Se você escolheu um outro editor, este deve ter uma funcionalidade semelhante. Se está a usar Sublime Text, clique em `Tools -> Build` (ou digite `⌘B`). Se está a usar o BBEdit, clique em “#!” e no botão *Run*. Se tudo correu bem, o ecrã deverá mostrar algo como apresentado de seguida:
 
-{% include figure.html filename="BBEdit-ola-mundo.png" caption="Olá Mundo em Python no Mac" %}
+{% include figure.html filename="BBEdit-ola-mundo.png" caption="Olá Mundo em Python no Mac, com BBEdit" %}
+
+Ou, com Sublime Text:
+
+{% include figure.html filename="pt-tr-sublimetext-ola-mundo.png" caption="Olá Mundo em Python no Mac, com Sublime Text" %}
 
 ## Interagindo com a linha de comandos do Python
 
@@ -130,7 +122,8 @@ Agora que você e o seu computador estão preparados, podemos seguir para tarefa
   [Time Machine]: http://support.apple.com/kb/ht1427
   [site do Python]: https://www.python.org/downloads/mac-osx/
   [Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/
-  [outros editores]: https://wiki.python.org/moin/PythonEditors/
+  [opções de editores de texto]: https://wiki.python.org/moin/PythonEditors/
+  [website do Sublime Text]: https://www.sublimetext.com/download
   [BBEdit]: https://www.barebones.com/products/bbedit/
   [site do Komodo Edit]: https://www.activestate.com/products/komodo-ide/downloads/edit/
   [Noções básicas de páginas web e HTML]: nocoes-basicas-paginas-web-html
