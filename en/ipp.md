@@ -13,7 +13,7 @@ redirect_from: /ipp
 
 Thank you for your interest in the Institutional Partnership Programme, which provides the core support for the *Programming Historian*'s award winning open access publications. We cannot do our work without your valued support.
 
-*Programming Historian* operates on a not-for-profit basis, publishing cost-effective gold open access scholarship.
+*Programming Historian* operates on a not-for-profit basis, publishing cost-effective diamond open access scholarship.
 
 Joining our Institutional Partner Programme allows your institution to support a globally focused project. One third of our readers live in low and middle income countries, and that number continues to grow.
 
