@@ -21,7 +21,7 @@ Taxas de adesão:
 
 _Nível Gold_
 
-As taxas de parceria ao nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. Os nossos apoiadores do nível Gold têm a oportunidade de trabalhar connosco para desenvolver eventos que ajudem as suas comunidades a utilizar ferramentas e métodos de humanidades digitais.[^1]
+As taxas de parceria ao nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. Os nossos apoiadores do nível Gold têm a oportunidade de trabalhar connosco para melhorar a utilização das ferramentas e métodos das humanidades digitais pelas suas comunidades.
 
 _Nível Silver_
 
@@ -94,5 +94,3 @@ Teremos prazer em conversar sobre o que fazemos e como usamos o seu apoio. [Envi
        -   Os patrocinadores contribuem para a infraestrutura compartilhada usada em todas as nossas publicações. Ao se tornar um patrocinador do PPI, você fortalece os recursos no idioma escolhido, bem como em toda a nossa oferta.
 
 ---
-
-[^1]: Os eventos de _Programming Historian_ são de inscrição aberta, com lugares reservados para os nossos apoiadores de nível Gold. Serão desenvolvidos até dois eventos por ano com apoiadores de nível Gold. Oportunidades de desenvolvimento de eventos e lugares reservados só se aplicarão durante o período de filiação de nível Gold. A decisão final sobre a composição, formato, duração e calendário de todos os eventos ProgHist Ltd. organizados no âmbito do programa Gold fica ao critério da ProgHist Ltd.
