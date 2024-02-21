@@ -10,5 +10,5 @@ redirect_from: /events
 
 * [Learning Digital Methods with the _Programming Historian_](https://charlesstudy.temple.edu/event/11953011)       
   Date: Thursday, February 22, 2024   
-  Time: 16:00pm - 17:00pm UTC   
+  Time: 16:00 - 17:00 UTC   
   Location: Online   
