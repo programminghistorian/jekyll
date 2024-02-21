@@ -13,7 +13,7 @@ original: ipp
 
 Obrigado pelo seu interesse no Programa de Parceria Institucional, que garante apoio para as premiadas publicações de acesso aberto do _Programming Historian_. Não podemos fazer nosso trabalho sem o seu valioso apoio.
 
-O _Programming Historian_ opera sem fins lucrativos, publicando valiosas lições em acesso aberto, configurando uma boa relação custo-benefício.
+O _Programming Historian_ opera sem fins lucrativos, publicando valiosas lições em acesso aberto diamante, configurando uma boa relação custo-benefício.
 
 A adesão ao nosso Programa de Parceria Institucional permite que a sua instituição apoie um projeto com foco global. Um terço de nossos leitores vive em países de baixa e média renda e esse número continua crescendo. A criação da página em português contribui ainda mais para isso!
 
