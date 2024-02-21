@@ -14,7 +14,7 @@ original: ipp
 
 Gracias por tu interés en el Programa de Instituciones Asociadas, la principal fuente de apoyo para las publicaciones galardonadas de acceso abierto de *Programming Historian*. No podemos hacer nuestro trabajo sin tu valioso apoyo.  
 
-*Programming Historian* opera sin fines de lucro, publicando lecciones en acceso abierto dorado de manera rentable.
+*Programming Historian* opera sin fines de lucro, publicando lecciones en acceso abierto diamante de manera rentable.
 
 Al unirte a nuestro Programa de Instituciones Asociadas, tu institución estará apoyando a un proyecto con un enfoque global, ya que un tercio de nuestros lectores vive en países de ingresos bajos y medios y ese número sigue creciendo. 
 
