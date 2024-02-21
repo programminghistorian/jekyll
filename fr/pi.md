@@ -14,7 +14,7 @@ original: ipp
 
 Nous vous remercions de l'intérêt que vous portez au programme de Partenariat institutionnel, qui constitue le principal soutien aux publications en libre accès primées du Programming Historian. Nous ne pourrions pas faire notre travail sans votre précieux soutien.
 
-Le *Programming Historian* est une organisation à but non-lucratif qui publie de la recherche en libre accès sur la voie dorée (*gold open access*).
+Le *Programming Historian* est une organisation à but non-lucratif qui publie de la recherche en accès ouvert Diamant (*diamond open access*).
 
 En rejoignant notre programme de Partenariat institutionnel, votre établissement peut soutenir un projet d'envergure mondiale. Un tiers de nos lecteurs vivent dans des pays à faibles et moyens revenus, et ce nombre ne cesse d'augmenter.
 
