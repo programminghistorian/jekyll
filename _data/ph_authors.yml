@@ -3033,19 +3033,20 @@
   orcid: 0000-0003-2208-5108
   github: carlonim
   email: massimiliano.carloni@oeaw.ac.at
+  twitter: maxcarlons
   team: true
   team_start: 2024
-  institution: Austrian Centre for Digital Humanities and Cultural Heritage, Österreichischen Akademie der Wissenschaften
+  institution: Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische Akademie der Wissenschaften
   sortname: Carloni
   affiliation:
     en: |
-      ACDH-CH, Österreichischen Akademie der Wissenschaftenn, Austria
+      ACDH-CH, Österreichische Akademie der Wissenschaften, Austria
     es: |
-      ACDH-CH, Österreichischen Akademie der Wissenschaftenn, Austria
+      ACDH-CH, Österreichische Akademie der Wissenschaften, Austria
     fr: |
-      ACDH-CH, Österreichischen Akademie der Wissenschaftenn, Autriche
+      ACDH-CH, Österreichische Akademie der Wissenschaften, Autriche
     pt: |
-      ACDH-CH, Österreichischen Akademie der Wissenschaftenn, Áustria
+      ACDH-CH, Österreichische Akademie der Wissenschaften, Áustria
   team_roles:
     - english
     - editorial
@@ -3099,6 +3100,7 @@
   orcid: 0000-0002-2461-9946
   github: digitalkosovski
   email: acosovschi@gmail.com
+  twitter: cosovschi
   team: true
   team_start: 2024
   institution: École française d’Athènes
