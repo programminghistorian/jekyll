@@ -241,7 +241,11 @@ Les utilisateurs plus avancés qui ont installé LaTeX voudront peut-être expé
 $ pandoc projet.md -o projet.pdf --pdf-engine=/Library/TeX/texbin/pdflatex
 ```
 
-Il faut indiquer à pandoc le &laquo;&nbsp;moteur&nbsp;&raquo; (engine) LaTeX qui doit être utilisé, et indiquer en même temps où il se trouve. Si votre document est rédigé dans une autre langue que l'anglais, vous devrez probablement utiliser le moteur [XeLaTeX](https://fr.wikipedia.org/wiki/XeTeX) au lieu du moteur LaTeX ordinaire pour la conversion en .pdf :
+<div class="alert alert-info">
+Il faut indiquer à pandoc le &laquo;&nbsp;moteur&nbsp;&raquo; (engine) LaTeX qui doit être utilisé, et indiquer en même temps où il se trouve. Que vous travailliez sur mac, Windows ou Linux, assurez-vous de fournir la variable d’environnement PATH vers le moteur LaTeX que vous utilisez. Par example, le nôtre est installé dans <code>/Library/TeX/texbin/pdflatex<code>. Nous vous conseillons de vérifier le vôtre et de suivre <a href="[url](https://pandoc.org/MANUAL.html#creating-a-pdf)">les instructions mises à jour par pandoc</a> (en anglais).
+</div>
+
+Si votre document est rédigé dans une autre langue que l'anglais, vous devrez probablement utiliser le moteur [XeLaTeX](https://fr.wikipedia.org/wiki/XeTeX) au lieu du moteur LaTeX ordinaire pour la conversion en .pdf :
 
 ```
 pandoc projet.md --pdf-engine=/Library/TeX/texbin/xelatex -o projet.pdf
