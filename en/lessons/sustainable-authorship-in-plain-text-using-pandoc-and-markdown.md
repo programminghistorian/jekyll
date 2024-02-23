@@ -500,7 +500,8 @@ using nearly the same command structure:
 $ pandoc main.md -o main.pdf --pdf-engine=/Library/TeX/texbin/pdflatex
 ```
 
-We're added a component that tells pandoc to use the pdflatex engine, and tells it where it's stored.
+We're adding a component that tells pandoc to use the pdflatex engine, and tells it where it's stored.
+
 If your document is written in languages other than English, you will likely need to use
 the XeLaTeX engine instead of plain LaTeX for .pdf conversion:
 
