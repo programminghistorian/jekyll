@@ -500,7 +500,9 @@ using nearly the same command structure:
 $ pandoc main.md -o main.pdf --pdf-engine=/Library/TeX/texbin/pdflatex
 ```
 
-We're adding a component that tells pandoc to use the pdflatex engine, and tells it where it's stored.
+<div class="alert alert-info">
+We're adding a component that tells pandoc to use the pdflatex engine, and tells it where it's stored. Whether you are working on mac, Windows or Linux, it is important to ensure that you provide the full path to the LaTeX engine you are using. For example, ours is installed in the location <code>/Library/TeX/texbin/pdflatex<code>. Readers are advised to check theirs, and follow <a href="[url](https://pandoc.org/MANUAL.html#creating-a-pdf)">the current installation instructions</a>.
+</div>
 
 If your document is written in languages other than English, you will likely need to use
 the XeLaTeX engine instead of plain LaTeX for .pdf conversion:
