@@ -3028,3 +3028,29 @@
   bio:
     en: |
       Sarah Connell is the Associate Director of the Women Writers Project and the NULab for Texts, Maps, and Networks at Northeastern University.
+
+- name: Agustín Cosovschi
+  orcid: 0000-0002-2461-9946
+  github: digitalkosovski
+  email: acosovschi@gmail.com
+  twitter: cosovschi
+  team: true
+  team_start: 2024
+  institution: École française d’Athènes
+  sortname: Cosovschi
+  affiliation:
+    en: |
+      École française d’Athènes, Greece
+    es: |
+      École française d’Athènes, Grecia
+    fr: |
+      École française d’Athènes, Grèce
+    pt: |
+      École française d’Athènes, Grécia
+  bio:
+    fr: |
+      Agustín Cosovschi est membre scientifique de l'École française d’Athènes, et chercheur associé au CETOBaC (Centre d’Études Turques, Ottomanes, Balkaniques et Centrasiatiques) à Paris.
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
