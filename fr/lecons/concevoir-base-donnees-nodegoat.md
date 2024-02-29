@@ -3,7 +3,7 @@ title: "Des sources aux données, concevoir une base de données en sciences hum
 collection: lessons
 layout: lesson
 slug: concevoir-base-donnees-nodegoat
-date: 2024-02-28
+date: 2024-02-29
 authors:
 - Agustín Cosovschi
 reviewers:
