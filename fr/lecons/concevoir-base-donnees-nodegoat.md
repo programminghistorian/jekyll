@@ -15,7 +15,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/459
 difficulty: 1
 activity: transforming
 topics: [data-manipulation]
-abstract: Ce tutoriel permet de prendre en main le logiciel nodegoat pour construire une base de données relationnelle dans le cadre d'une recherche en sciences humaines.
+abstract: Cette leçon permet de prendre en main le logiciel nodegoat pour construire une base de données relationnelle dans le cadre d'une recherche en sciences humaines.
 avatar_alt: Squelette du Bouc d'Angora, dessin de Bouvée, 1755, Gallica
 doi: 10.46430/phfr0029
 --- 
@@ -262,7 +262,7 @@ Somme toute, nodegoat nous permet de définir notre modèle de données et de co
 
 ## Conclusion
 
-Ce tutoriel a pour but d’encourager les chercheurs et les chercheuses en sciences humaines à concevoir leur recherche en termes de données, en les initiant à la conception et la réalisation d’une base de données, souvent difficiles pour les néophytes. Nous avons essayé ici de donner certains éléments introductifs en nous servant du logiciel en ligne nodegoat qui est particulièrement adapté aux besoins de celles et ceux qui débutent dans la gestion numérique des données. 
+Cette leçon a pour but d’encourager les chercheurs et les chercheuses en sciences humaines à concevoir leur recherche en termes de données, en les initiant à la conception et la réalisation d’une base de données, souvent difficiles pour les néophytes. Nous avons essayé ici de donner certains éléments introductifs en nous servant du logiciel en ligne nodegoat qui est particulièrement adapté aux besoins de celles et ceux qui débutent dans la gestion numérique des données. 
 
 Certes, nodegoat comporte aussi certaines limitations&nbsp;: l’accès individuel gratuit est limité à la réalisation d’un seul projet hébergé sur le site du logiciel. Si l’objectif est de gérer plusieurs projets, d’avoir plusieurs comptes ou d’héberger le projet sur un serveur propre, il devient nécessaire de basculer sur un abonnement payant. Celui-ci demande souvent un soutien financier et/ou technique de la part d’une institution de recherche ou d’enseignement. 
 
