@@ -3054,3 +3054,92 @@
     - english
     - editorial
   status: volunteer
+
+- name: Massimiliano Carloni
+  orcid: 0000-0003-2208-5108
+  github: carlonim
+  email: massimiliano.carloni@oeaw.ac.at
+  twitter: maxcarlons
+  team: true
+  team_start: 2024
+  institution: Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische Akademie der Wissenschaften
+  sortname: Carloni
+  affiliation:
+    en: |
+      ACDH-CH, Österreichische Akademie der Wissenschaften, Austria
+    es: |
+      ACDH-CH, Österreichische Akademie der Wissenschaften, Austria
+    fr: |
+      ACDH-CH, Österreichische Akademie der Wissenschaften, Autriche
+    pt: |
+      ACDH-CH, Österreichische Akademie der Wissenschaften, Áustria
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+- name: Laura Alice Chapot
+  orcid: 0000-0001-8334-4308
+  github: lachapot
+  email: lachapot@gmail.com
+  team: true
+  team_start: 2024
+  institution: Dartmouth College
+  sortname: Chapot
+  affiliation:
+    en: |
+      Dartmouth College, United States
+    es: |
+      Dartmouth College, Estados Unidos
+    fr: |
+      Dartmouth College, États-Unis
+    pt: |
+      Dartmouth College, Estados Unidos
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+- name: Caio Mello
+  orcid: 0000-0001-7492-7237
+  github: caiocmello
+  email: caiomellodh@gmail.com
+  team: true
+  team_start: 2024
+  institution: School of Advanced Study, University of London
+  sortname: Mello
+  affiliation:
+    en: |
+      School of Advanced Study, University of London, UK
+    es: |
+      School of Advanced Study, University of London, Reino Unido
+    fr: |
+      School of Advanced Study, University of London, Royaume-Uni
+    pt: |
+      School of Advanced Study, University of London, Reino Unido
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+- name: Giulia Osti
+  orcid: 0000-0003-3179-6980
+  github: semanticnoodles
+  email: giulia.osti@ucdconnect.ie
+  team: true
+  team_start: 2024
+  institution: School of Information and Communication Studies, University College Dublin
+  sortname: Osti
+  affiliation:
+    en: |
+      School of Information and Communication Studies, University College Dublin, Ireland
+    es: |
+      School of Information and Communication Studies, University College Dublin, Irlanda
+    fr: |
+      School of Information and Communication Studies, University College Dublin, Irlande
+    pt: |
+      School of Information and Communication Studies, University College Dublin, Irlanda
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
