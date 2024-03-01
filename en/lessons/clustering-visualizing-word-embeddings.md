@@ -229,21 +229,26 @@ src_embeddings = 'doc_vec'
 With the libraries loaded you're now ready to begin by downloading and saving the data file. The nice thing about using a Parquet file is that it contains *nested* data structures in a highly-compressed format, making it smaller to transfer and store. Note that this code includes a step to save a copy locally so that you can run this tutorial offline and spare the host the bandwidth costs.
 
 ```python
-# Name of the file
-fn = 'ph-tutorial-data-cleaned.parquet'
+# Adapted from https://stackoverflow.com/a/72503304
+import os
+from io import BytesIO
+from urllib.request import urlopen
+from zipfile import ZipFile
 
-# See if the data has already been downloaded, and
-# if not, download it from the website
-if os.path.exists(os.path.join('data',fn)):
-    df = pd.read_parquet(os.path.join('data',fn))
-else:
-    # We will look for/create a 'data' directory
-    if not os.path.exists('data'):
-        os.makedirs('data')
-   
-# Download and save
-df = pd.read_parquet(f'https://doi.org/10.46430/phen0112{fn}')
-df.to_parquet(os.path.join('data',fn))
+# Where is the Zipfile stored on Zenodo?
+zipfile = 'clustering-visualizing-word-embeddings.zip'
+zipurl  = f'https://zenodo.org/records/7948908/files/{zipfile}?download=1'
+
+# Open the remote Zipfile and read it directly into Python
+with urlopen(zipurl) as zipresp:
+    with ZipFile(BytesIO(zipresp.read())) as zf:
+        for zfile in zf.namelist():
+            if not zfile.startswith('__'): # Don't unpack hidden MacOSX junk
+                print(f"Extracting {zfile}") # Update the user
+                zf.extract(zfile,'.')
+# And rename the unzipped directory to 'data' -- 
+# IMPORTANT: Note that if 'data' already exists it will (probably) be silently overwritten.
+os.rename('clustering-visualizing-word-embeddings','data')
 ```
 
 This loads the EThOS sample into a new pandas data frame called `df`. 
