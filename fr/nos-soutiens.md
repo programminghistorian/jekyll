@@ -93,26 +93,25 @@ Nous sommes reconnaissants aux dizaines d'individus qui contribuent au projet à
 - Laura Gayle Green (éducation)
 - Tim Hitchcock ('mécène')
 
-Nous tenons également à remercier publiquement tous nos donateurs de niveau 'mécène' et 'éducation':
+Nous tenons également à remercier publiquement tous nos donateurs actifs de niveau 'mécène' et 'éducation':
 
 - Tim Hitchcock
 - Shawn Graham
 - Jeff Blackadar
 - Jodi Burkett
 - Michael Piotrowski
-- Mark Edwin Peterson
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 - Dimitra Koutla
 - Ben Akrigg
+- Robert C.H. Sweeny
+- Simon Mahony
 - Laura Gayle Green (éducation)
 - Rebecca Kahn (éducation)
 - Sarah Melton (éducation)
 - Laurissa Stokes (éducation)
 - Monica Berti (éducation)
-- Ajit Balakrishnan
-- Simon Mahony
-- Robert C.H. Sweeny
+- Samuel Salgado Tello (éducation)
 
 ## Gestion de donations et de parrainages
 

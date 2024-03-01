@@ -13,14 +13,14 @@ original: feedback
 
 Definimos errores o *bugs* como: "Un error en un programa informático que produce un resultado inesperado o que se comporta de manera diferente a las instrucciones de una lección". Ten en cuenta que no te podemos ayudar con los errores causados si editas el código o cambias los materiales de la lección (conjuntos de datos, archivos, etc.).
 
-Antes de nada, te pedimos que consultes si alguien ya ha reportado el problema en [nuestro repositorio](https://github.com/programminghistorian/jekyll/issues?q=is%3Aissue+is%3Aopen+label%3Abug) y, en tal caso, que dejes un comentario. Si no se ha informado del problema, sigue una de estas opciones: 
+Antes de nada, te pedimos que consultes si alguien ya ha reportado el problema en [nuestro repositorio](https://github.com/orgs/programminghistorian/projects/6) y, en tal caso, que dejes un comentario. Si no se ha informado del problema, sigue una de estas opciones: 
 
 <div class="alert alert-info">
 Por favor, no abras un "Pull Request" con la corrección.
 </div>
 
 ## Opción 1: Email
-Envía un correo a nuestra [Asistente Editorial](mailto:admin@programminghistorian.org). Por favor incluye la siguiente información en tu mensaje:
+Envía un correo a nuestra [Directora de Publicaciones](mailto:admin@programminghistorian.org). Por favor incluye la siguiente información en tu mensaje:
 
 - El título completo de la lección
 - El sistema operativo que estás utilizando
