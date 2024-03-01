@@ -14,7 +14,7 @@ original: ipp
 
 Gracias por tu interés en el Programa de Instituciones Asociadas, la principal fuente de apoyo para las publicaciones galardonadas de acceso abierto de *Programming Historian*. No podemos hacer nuestro trabajo sin tu valioso apoyo.  
 
-*Programming Historian* opera sin fines de lucro, publicando lecciones en acceso abierto dorado de manera rentable.
+*Programming Historian* opera sin fines de lucro, publicando lecciones en acceso abierto diamante de manera rentable.
 
 Al unirte a nuestro Programa de Instituciones Asociadas, tu institución estará apoyando a un proyecto con un enfoque global, ya que un tercio de nuestros lectores vive en países de ingresos bajos y medios y ese número sigue creciendo. 
 
@@ -22,7 +22,7 @@ Tasas de asociación :
 
 _Nivel Gold_
 
-Las tarifas para nuestros colaboradores en nivel Gold son de £3.000 GBP, $4.200 USD, €3.600 EUR, $5.100 CAD. Como parte de la membresía, se les ofrece la oportunidad de trabajar con nosotros en el desarrollo de eventos que ayuden a sus comunidades a utilizar herramientas y métodos de las humanidades digitales.[^1]
+Las tarifas para nuestros colaboradores en nivel Gold son de £3.000 GBP, $4.200 USD, €3.600 EUR, $5.100 CAD. Como parte de la membresía, se les ofrece la oportunidad de trabajar con nosotros para mejorar el uso que hacen sus comunidades de las herramientas y métodos de las humanidades digitales.
 
 _Nivel Silver_
 
@@ -97,6 +97,4 @@ Estaremos encantados de conversar sobre lo que hacemos y cómo utilizamos tu apo
    - Los patrocinadores contribuyen a la infraestructura compartida utilizada en todas nuestras publicaciones. Al convertirse en patrocinador de PIA, fortalece los recursos en el idioma que eligiste, así como en el resto idiomas que ofrecemos.
 
 ---
-
-[^1]: Los eventos de _Programming Historian_ tienen inscripciones abiertas, con plazas reservadas para nuestros colaboradores del nivel Gold. Se desarrollarán hasta dos eventos al año con los miembros de esta categoría. Las oportunidades de desarrollo de eventos y las plazas reservadas sólo se aplicarán durante el periodo de afiliación a la categoría Gold. La decisión final sobre la composición, el formato, la duración y el calendario de todos los eventos de ProgHist Ltd organizados como parte del programa Gold Tier queda a discreción de ProgHist Ltd.  
     

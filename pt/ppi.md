@@ -13,7 +13,7 @@ original: ipp
 
 Obrigado pelo seu interesse no Programa de Parceria Institucional, que garante apoio para as premiadas publicações de acesso aberto do _Programming Historian_. Não podemos fazer nosso trabalho sem o seu valioso apoio.
 
-O _Programming Historian_ opera sem fins lucrativos, publicando valiosas lições em acesso aberto, configurando uma boa relação custo-benefício.
+O _Programming Historian_ opera sem fins lucrativos, publicando valiosas lições em acesso aberto diamante, configurando uma boa relação custo-benefício.
 
 A adesão ao nosso Programa de Parceria Institucional permite que a sua instituição apoie um projeto com foco global. Um terço de nossos leitores vive em países de baixa e média renda e esse número continua crescendo. A criação da página em português contribui ainda mais para isso!
 
@@ -21,7 +21,7 @@ Taxas de adesão:
 
 _Nível Gold_
 
-As taxas de parceria ao nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. Os nossos apoiadores do nível Gold têm a oportunidade de trabalhar connosco para desenvolver eventos que ajudem as suas comunidades a utilizar ferramentas e métodos de humanidades digitais.[^1]
+As taxas de nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. Os nossos parceiros Gold têm a oportunidade de trabalhar connosco para melhorar a utilização das ferramentas e métodos das humanidades digitais a serem utilizados pelas suas comunidades.
 
 _Nível Silver_
 
@@ -94,5 +94,3 @@ Teremos prazer em conversar sobre o que fazemos e como usamos o seu apoio. [Envi
        -   Os patrocinadores contribuem para a infraestrutura compartilhada usada em todas as nossas publicações. Ao se tornar um patrocinador do PPI, você fortalece os recursos no idioma escolhido, bem como em toda a nossa oferta.
 
 ---
-
-[^1]: Os eventos de _Programming Historian_ são de inscrição aberta, com lugares reservados para os nossos apoiadores de nível Gold. Serão desenvolvidos até dois eventos por ano com apoiadores de nível Gold. Oportunidades de desenvolvimento de eventos e lugares reservados só se aplicarão durante o período de filiação de nível Gold. A decisão final sobre a composição, formato, duração e calendário de todos os eventos ProgHist Ltd. organizados no âmbito do programa Gold fica ao critério da ProgHist Ltd.

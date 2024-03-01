@@ -13,7 +13,7 @@ redirect_from: /ipp
 
 Thank you for your interest in the Institutional Partnership Programme, which provides the core support for the *Programming Historian*'s award winning open access publications. We cannot do our work without your valued support.
 
-*Programming Historian* operates on a not-for-profit basis, publishing cost-effective gold open access scholarship.
+*Programming Historian* operates on a not-for-profit basis, publishing cost-effective diamond open access scholarship.
 
 Joining our Institutional Partner Programme allows your institution to support a globally focused project. One third of our readers live in low and middle income countries, and that number continues to grow.
 
@@ -21,7 +21,7 @@ Partnership Rates:
 
 _Gold Tier_  
 
-Gold Partnership rates are £3,000 GBP / $4,200 USD / €3,600 EUR / $5,100 CAD. Gold partners are offered the opportunity to work with us to develop events that help their communities use digital humanities tools and methods.[^1]
+Gold Partnership rates are £3,000 GBP / $4,200 USD / €3,600 EUR / $5,100 CAD. Gold partners are offered the opportunity to collaborate with us to enhance their communities' use of digital humanities tools and methods.
 
 _Silver Tier_
 
@@ -90,4 +90,3 @@ We'd be happy to have a conversation about what we do and how we use your suppor
  - Sponsors contribute to the shared infrastructure used across all of our publications. By becoming an IPP sponsor, you strengthen the resources in your chosen language, as well as those across our offering.
  
  ---
- [^1]: _Programming Historian_ events have open registrations, with places reserved for Gold Tier members. Up to two events each year will be developed with Gold Tier members. Event development opportunities and reserved places only apply during the period of Gold Tier membership. The final decision as to the composition, format, duration, and timing of all ProgHist Ltd events delivered as part of the Gold Tier scheme is at the discretion of ProgHist Ltd.
