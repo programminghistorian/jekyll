@@ -91,26 +91,27 @@ Estamos muy agradecidos a todos los patrocinadores individuales que contribuyen 
 - Laura Gayle Green ('Educación')
 - Tim Hitchcock ('Patrocinio')
 
-En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Patrocinio' y 'Educación':
+En particular, agradecemos la contribución de los siguientes suscriptores activos de Patreon de nivel 'Patrocinio' y 'Educación':
 
 - Tim Hitchcock
 - Shawn Graham
 - Jeff Blackadar
 - Jodi Burkett
 - Michael Piotrowski
-- Mark Edwin Peterson
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 - Dimitra Koutla
 - Ben Akrigg
+- Robert C.H. Sweeny
+- Simon Mahony
 - Laura Gayle Green ('Educación')
 - Rebecca Kahn ('Educación')
 - Sarah Melton ('Educación')
 - Laurissa Stokes ('Educación')
 - Monica Berti ('Educación')
-- Ajit Balakrishnan
-- Simon Mahony
-- Robert C.H. Sweeny
+- Samuel Salgado Tello ('Educación')
+
+
 
 ## Administración de donaciones y patrocinios
 

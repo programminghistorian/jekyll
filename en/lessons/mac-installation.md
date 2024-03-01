@@ -2,6 +2,7 @@
 title: Setting Up an Integrated Development Environment for Python (Mac)
 layout: lesson
 date: 2012-07-17
+tested_date: 2023-11-16
 authors:
 - William J. Turkel
 - Adam Crymble
@@ -47,37 +48,18 @@ drive.
 
 ### Install a text editor
 
-There are many text editors that you can use to write, store, and run Python commands. Komodo Edit is the one used in this lesson. It is a free and open source code editor. If you prefer to use
-another editor, there are many [other text editing options][]. Some of our
-testers prefer a program called [BBEdit][]. Which you use is up to
-you, but for the sake of consistency in our lessons, we will be using
-Komodo Edit. You can download a copy of Komodo Edit from the [Komodo
-Edit website][]. Install it from the `.DMG` file
+There are many text editors that you can use to write, store, and run Python commands. 
+Sublime Text is the one used in this lesson. If you prefer to use another editor, there are many [other text editing options][]. 
+Some of our testers prefer a program called [BBEdit][]. Which you use is up to
+you. You can download a copy of Sublime Text from the [Sublime Text website][].
 
-
-##### Make a “Run Python” Command in Komodo Edit
+##### Set up in Sublime Text
 
 Now you need to set up the editor so that you can run Python
 programs.
 
-If you don’t see the Toolbox pane on the right hand side, choose
-`View->Tabs & Sidebars ->Toolbox`. In the Toolbox window, click on the gear icon and select
-“`New Command…`“. This will open a new dialog window. Rename your
-command to “`Run Python`” and feel free to change the icon if you
-like. In the “`Command`” box, type
-
-``` python
-%(python3) %f
-```
-
-and on the Advanced Options tab under "Start in," enter
-
-``` python
-%D
-```
-
-Click OK. Your new Run Python command should appear in the Toolbox
-pane.
+From the menu, choose
+`Tools -> Build System -> Python`. 
 
 Step 2 – “Hello World” in Python
 --------------------------------
@@ -110,12 +92,16 @@ program and save it to your `programming-historian` directory as
 print('hello world')
 ```
 
-Your chosen text editor should have a “`Run`” button that will allow you
-to execute your program. If you are using BBEdit, click on the
+Your chosen text editor should have a “`Run`” or “`Build`” button that will allow you
+to execute your program. If you are using Sublime Text, click `Tools -> Build` (or type `⌘B`). If you are using BBEdit, click on the
 “\#!” button and Run. If all went well, it should look something like
 this:
 
-{% include figure.html filename="BBEdit-hello-world.png" caption="'Hello World' in Python on a Mac" %}
+{% include figure.html filename="BBEdit-hello-world.png" caption="'Hello World' in Python on a Mac with BBEdit" %}
+
+Or, with Sublime Text:
+
+{% include figure.html filename="en-or-sublimetext-hello-world.png" caption="'Hello World' in Python on a Mac with Sublime Text" %}
 
 ### Interacting with a Python shell
 
@@ -161,5 +147,5 @@ order, we suggest you next try '[Understanding Web Pages and HTML][].'
   [Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/
   [other text editing options]: http://wiki.python.org/moin/PythonEditors/
   [BBEdit]: https://www.barebones.com/products/bbedit/
-  [Komodo Edit website]: http://www.activestate.com/komodo-edit
+  [Sublime Text website]: https://www.sublimetext.com/download
   [Understanding Web Pages and HTML]: /lessons/viewing-html-files
