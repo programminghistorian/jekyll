@@ -21,7 +21,7 @@ Taxas de adesão:
 
 _Nível Gold_
 
-As taxas de parceria ao nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. Os nossos apoiadores do nível Gold têm a oportunidade de trabalhar connosco para melhorar a utilização das ferramentas e métodos das humanidades digitais pelas suas comunidades.
+As taxas de nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. Os nossos parceiros Gold têm a oportunidade de trabalhar connosco para melhorar a utilização das ferramentas e métodos das humanidades digitais a serem utilizados pelas suas comunidades.
 
 _Nível Silver_
 
