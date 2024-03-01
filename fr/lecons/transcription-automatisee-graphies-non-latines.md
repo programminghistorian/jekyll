@@ -311,37 +311,37 @@ Envisager une normalisation NFD ou NFKD permettrait de regrouper chaque caractè
 </thead>
 <tbody>
 <tr>
-<td>{% include figure.html filename="fr-or-transcription-automatisee-graphies-non-latines-T2-01.png" alt="Impression du mot ἀληθινῷ dans la PG" caption="" %}</td>
+<td>{% include figure.html filename="tableau-2/fr-or-transcription-automatisee-graphies-non-latines-T2-01.png" alt="Impression du mot ἀληθινῷ dans la PG" caption="" %}</td>
 <td markdown="span">**ἀ**ληθινῷ</td>
 <td markdown="span">**ἀ**</td>
 </tr>
 <tr>
-<td>{% include figure.html filename="fr-or-transcription-automatisee-graphies-non-latines-T2-02.png" alt="Impression du mot ἁμαρτίας dans la PG" caption="" %}</td>
+<td>{% include figure.html filename="tableau-2/fr-or-transcription-automatisee-graphies-non-latines-T2-02.png" alt="Impression du mot ἁμαρτίας dans la PG" caption="" %}</td>
 <td markdown="span">**ἁ**μαρτίας</td>
 <td markdown="span">**ἁ**</td>
 </tr>
 <tr>
-<td>{% include figure.html filename="fr-or-transcription-automatisee-graphies-non-latines-T2-03.png" alt="Impression du mot μεταφράσαντος dans la PG" caption="" %}</td>
+<td>{% include figure.html filename="tableau-2/fr-or-transcription-automatisee-graphies-non-latines-T2-03.png" alt="Impression du mot μεταφράσαντος dans la PG" caption="" %}</td>
 <td markdown="span">μεταφρ**ά**σαντος</td>
 <td markdown="span">**ά**</td>
 </tr>
 <tr>
-<td>{% include figure.html filename="fr-or-transcription-automatisee-graphies-non-latines-T2-04.png" alt="Impression du mot μετὰ dans la PG" caption="" %}</td>
+<td>{% include figure.html filename="tableau-2/fr-or-transcription-automatisee-graphies-non-latines-T2-04.png" alt="Impression du mot μετὰ dans la PG" caption="" %}</td>
 <td markdown="span">μετ**ὰ**</td>
 <td markdown="span">**ὰ**</td>
 </tr>
 <tr>
-<td>{% include figure.html filename="fr-or-transcription-automatisee-graphies-non-latines-T2-05.png" alt="Impression du mot ἡμᾶς dans la PG" caption="" %}</td>
+<td>{% include figure.html filename="tableau-2/fr-or-transcription-automatisee-graphies-non-latines-T2-05.png" alt="Impression du mot ἡμᾶς dans la PG" caption="" %}</td>
 <td markdown="span">ἡμ**ᾶ**ς</td>
 <td markdown="span">**ᾶ**</td>
 </tr>
 <tr>
-<td>{% include figure.html filename="fr-or-transcription-automatisee-graphies-non-latines-T2-06.png" alt="Impression du mot ἄχρι dans la PG" caption="" %}</td>
+<td>{% include figure.html filename="tableau-2/fr-or-transcription-automatisee-graphies-non-latines-T2-06.png" alt="Impression du mot ἄχρι dans la PG" caption="" %}</td>
 <td markdown="span">**ἄ**χρι</td>
 <td markdown="span">**ἄ**</td>
 </tr>
 <tr>
-<td>{% include figure.html filename="fr-or-transcription-automatisee-graphies-non-latines-T2-07.png" alt="Impression du mot ἅπαντες dans la PG" caption="" %}</td>
+<td>{% include figure.html filename="tableau-2/fr-or-transcription-automatisee-graphies-non-latines-T2-07.png" alt="Impression du mot ἅπαντες dans la PG" caption="" %}</td>
 <td markdown="span">**ἅ**παντες</td>
 <td markdown="span">**ἅ**</td>
 </tr>
@@ -379,7 +379,7 @@ Attention, le choix de la normalisation constitue un tournant dans la création 
 <tbody>
 <tr>
 <td><code>greek_cursive</code></td>
-<td>{% include figure.html filename="fr-or-transcription-automatisee-graphies-non-latines-T3-01.png" alt="Exemple de ligne de texte dans le dataset greek_cursive" caption="" %}</td>
+<td>{% include figure.html filename="tableau-3/fr-or-transcription-automatisee-graphies-non-latines-T3-01.png" alt="Exemple de ligne de texte dans le dataset greek_cursive" caption="" %}</td>
 </tr>
 <tr style="border-bottom:2px solid black">
 <td>Vérité terrain</td>
@@ -387,7 +387,7 @@ Attention, le choix de la normalisation constitue un tournant dans la création 
 </tr>
 <tr>
 <td><code>gaza-iliad</code></td>
-<td>{% include figure.html filename="fr-or-transcription-automatisee-graphies-non-latines-T3-02.png" alt="Exemple de ligne de texte dans le dataset gaza-iliad" caption="" %}</td>
+<td>{% include figure.html filename="tableau-3/fr-or-transcription-automatisee-graphies-non-latines-T3-02.png" alt="Exemple de ligne de texte dans le dataset gaza-iliad" caption="" %}</td>
 </tr>
 <tr style="border-bottom:2px solid black">
 <td>Vérité terrain</td>
@@ -395,7 +395,7 @@ Attention, le choix de la normalisation constitue un tournant dans la création 
 </tr>
 <tr>
 <td><code>voulgaris-aeneid</code></td>
-<td>{% include figure.html filename="fr-or-transcription-automatisee-graphies-non-latines-T3-03.png" alt="Exemple de ligne de texte dans le dataset voulgaris-aeneid" caption="" %}</td>
+<td>{% include figure.html filename="tableau-3/fr-or-transcription-automatisee-graphies-non-latines-T3-03.png" alt="Exemple de ligne de texte dans le dataset voulgaris-aeneid" caption="" %}</td>
 </tr>
 <tr style="border-bottom:2px solid black">
 <td>Vérité terrain</td>
@@ -403,7 +403,7 @@ Attention, le choix de la normalisation constitue un tournant dans la création 
 </tr>
 <tr>
 <td><code>GT4HistComment</code></td>
-<td>{% include figure.html filename="fr-or-transcription-automatisee-graphies-non-latines-T3-04.png" alt="Exemple de ligne de texte dans le dataset GT4HistComment" caption="" %}</td>
+<td>{% include figure.html filename="tableau-3/fr-or-transcription-automatisee-graphies-non-latines-T3-04.png" alt="Exemple de ligne de texte dans le dataset GT4HistComment" caption="" %}</td>
 </tr>
 <tr style="border-bottom:2px solid black">
 <td>Vérité terrain</td>
