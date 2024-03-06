@@ -10,15 +10,15 @@ The _Programming Historian_ runs on the far-from-endless energy of volunteers, a
 
 ## Write a new lesson
 
+<div class="alert alert-success">
+Our English journal has revised its submission process, and now invites proposals only in the final quarter of each year. The most recent Call for Proposals closed on 31 January 2024.
+</div>
+
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 
 Writing a tutorial is one of the best ways to teach yourself particular skills and actively engage in the digital humanities community.
 
 We don't simply accept or reject articles like traditional journals. Our editors collaborate with you to help craft your essay to be as clear and as useful as possible--a great way to improve your technical writing skills. Please read more about our [submission process]({{site.baseurl}}/en/author-guidelines).
-
-<div class="alert alert-success">
-Our English journal has revised its submission process, and now invites proposals only in the final quarter of each year. The most recent Call for Proposals closed on 31 January 2024.
-</div>
 
 ## Edit lessons
 
