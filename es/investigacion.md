@@ -46,6 +46,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Talleres y eventos
 
+* Alex Wermer-Colan, ['Learning Digital Methods with the _Programming Historian_'](https://charlesstudy.temple.edu/event/11953011), Temple University [En línea], (22 de febrero de 2024).
 * Carlo Blum, Adam Crymble, Vicky Garnett, Timothée Giraud, Alíz Horváth, Stefan Krebs, Ralph Marschall, Sofia Papastamkou, & Lorella Viola, 'Invisible College of Digital History: Workshop on Multilingual Educational Resources', C²DH [En línea], (8 de noviembre de 2023).
 * Nabeel Siddiqui, 'Convolutional Neural Networks for Image Classification', University of Edinburgh [En línea], (7 de noviembre de 2023).
 * Eric Brasil, '[História Digital e História Digital da Educação: Caminhos Cruzados](http://www.iea.usp.br/eventos/historia-digital-educacao-caminhos-cruzados)', Instituto de Estudos Avançados, USP, São Paulo, Brasil, (17 de octubre 2023).
