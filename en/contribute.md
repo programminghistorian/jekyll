@@ -16,7 +16,9 @@ Writing a tutorial is one of the best ways to teach yourself particular skills a
 
 We don't simply accept or reject articles like traditional journals. Our editors collaborate with you to help craft your essay to be as clear and as useful as possible--a great way to improve your technical writing skills. Please read more about our [submission process]({{site.baseurl}}/en/author-guidelines).
 
-Our English journal is currently [inviting proposals](/posts/en-call-for-lessons) for new original lessons or translations to be considered for publication in 2024. If you have an idea, [please send us a proposal](https://tinyurl.com/ph-en-proposals) by January 12th, 2024.
+<div class="alert alert-success">
+Our English journal has revised its submission process, and now invites proposals only in the final quarter of each year. The most recent Call for Proposals closed on 31 January 2024.
+</div>
 
 ## Edit lessons
 
