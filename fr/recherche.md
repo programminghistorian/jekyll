@@ -46,8 +46,9 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Penny Andrews et l'équipe du Programming Historian, ['The Programming Historian: developing and sustaining impact in the Global South'](http://doi.org/10.5281/zenodo.3813763) (2020).
 * Amy Kavanagh et l'équipe du Programming Historian, 'Programming Historian – Access for visually impaired researchers', (n.d.).
 
-## Ateliers et manifestations
+## Ateliers et évènements
 
+* Alex Wermer-Colan, ['Learning Digital Methods with the _Programming Historian_'](https://charlesstudy.temple.edu/event/11953011), Temple University [En ligne], (22 février 2024).
 * Carlo Blum, Adam Crymble, Vicky Garnett, Timothée Giraud, Alíz Horváth, Stefan Krebs, Ralph Marschall, Sofia Papastamkou, & Lorella Viola, 'Invisible College of Digital History: Workshop on Multilingual Educational Resources', C²DH [En ligne], (8 novembre 2023).
 * Nabeel Siddiqui, 'Convolutional Neural Networks for Image Classification', University of Edinburgh [En ligne], (7 novembre 2023).
 * Eric Brasil, '[História Digital e História Digital da Educação: Caminhos Cruzados](http://www.iea.usp.br/eventos/historia-digital-educacao-caminhos-cruzados)', Instituto de Estudos Avançados, USP, São Paulo, Brésil, (17 octobre 2023).
