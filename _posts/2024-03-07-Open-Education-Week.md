@@ -21,7 +21,7 @@ My name is Yann Ryan. I’m an editor on the English team of _Programming Histor
 
 2. Which lesson do you particularly remember using, and why?
 
-A lesson I particularly remember using was published way back in 2012: [Counting word frequencies in Python](https://doi.org/10.46430/phen0003). I had a vague idea that quantitative text analysis could be helpful for my PhD, but I had no clue about coding. Most of the python tutorials I came across online seemed really abstract or not related to my interests, such as creating a _Battleship_ game or making a customer sales database. Finding the PH tutorials was great because the datasets seemed interesting and relevant. 
+A lesson I particularly remember using was published way back in 2012: [Counting Word Frequencies in Python](https://doi.org/10.46430/phen0003). I had a vague idea that quantitative text analysis could be helpful for my PhD, but I had no clue about coding. Most of the python tutorials I came across online seemed really abstract or not related to my interests, such as creating a _Battleship_ game or making a customer sales database. Finding the PH tutorials was great because the datasets seemed interesting and relevant. 
 
 3. How did you apply the lesson to your own needs?
 
@@ -59,7 +59,7 @@ Je m’appelle Alexandre Wauthier et je suis ingénieur d'études au Campus Cond
 
 2. Quelle leçon vous a particulièrement marqué, et pourquoi&nbsp;?
 
-La leçon [Nettoyer ses données avec OpenRefine](https://doi.org/10.46430/phfr0004), parue en 2019, m’a été extrêmement utile. D’ailleurs, c’est par cette occasion que j’ai découvert _Programming Historian_&nbsp;!
+La leçon [Nettoyer ses Données avec OpenRefine](https://doi.org/10.46430/phfr0004), parue en 2019, m’a été extrêmement utile. D’ailleurs, c’est par cette occasion que j’ai découvert _Programming Historian_&nbsp;!
 
 3. Comment avez-vous utilisé la leçon pour répondre à vos propres besoins&nbsp;?
 
@@ -79,7 +79,7 @@ Sou Joana Vieira Paulino. Trabalho como investigadora júnior no Laboratório de
 
 2. Que lição se lembra de ter usado e porquê?
 
-No contexto da disciplina de Informática Aplicada à História da licenciatura em História, estimulamos os alunos a utilizarem as lições do _Programming Historian_, não só como forma de aprendizagem na sala de aula, mas também de forma autonoma. Utilizamos lições de análise espacial, Omeka e, sobretudo, de Python. Recordo-me da utilização das lições de Python em aula, por exemplo [Manipular Strings com Pyhton](https://doi.org/10.46430/phpt0016), uma vez que os alunos, tendo um background da área das Humanidades, costumam ter mais dificuldade ou questionar o porquê da aprendizagem de linguagens de programação.
+No contexto da disciplina de Informática Aplicada à História da licenciatura em História, estimulamos os alunos a utilizarem as lições do _Programming Historian_, não só como forma de aprendizagem na sala de aula, mas também de forma autonoma. Utilizamos lições de análise espacial, Omeka e, sobretudo, de Python. Recordo-me da utilização das lições de Python em aula, por exemplo [Manipular Strings com Python](https://doi.org/10.46430/phpt0016), uma vez que os alunos, tendo um background da área das Humanidades, costumam ter mais dificuldade ou questionar o porquê da aprendizagem de linguagens de programação.
 
 3. Como aplicou a lição às suas próprias necessidades?
 
