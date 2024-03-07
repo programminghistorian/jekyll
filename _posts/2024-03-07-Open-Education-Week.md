@@ -37,17 +37,19 @@ Para celebrar la [Open Education Week](https://oeweek.oeglobal.org/) (Semana de 
 
 1. ¿Quién eres y cuál es tu rol en _Programming Historian_?
 
-
+Mi nombre es Jennifer Isasi y actualmente soy la editora principal de la versión en español de la revista, _Programming Historian en español_ pero he desempeñado varios roles desde 2018.
 
 2. ¿Qué lección recuerdas haber usado en particular y por qué?
 
-
+Aunque fue publicada recientemente, disfruté mucho leyendo y recomendando [Análisis de redes sociales de personajes teatrales](https://doi.org/10.46430/phes0064) de David Merino Recalde. En dos lecciones, los usuarios pueden comprender cómo funciona el método, cómo crear sus propios datos y cómo analizarlos en sus medidas básicas. Una estudiante de posgrado de mi institución las ha utilizado para aprender el método y, en menos de un año, ha desarrollado su propio proyecto de tesis basado en las redes sociales de los círculos artísticos españoles.
 
 3. ¿Cómo aplicaste la lección a tus propias necesidades?
 
-
+Estoy aplicando la lección como referencia al tipo de trabajo que he estado haciendo desde mi tesis, para enseñar a los estudiantes sobre el método, el cual pueden aprender a su propio ritmo gracias a la lección escrita. También usaré la lección en futuros talleres.
 
 4. ¿Qué aprendiste, o disfrutaste, particularmente de esta experiencia?
+
+Creo que los revisores y yo disfrutamos de la claridad con la que David explica todos los pasos a lo largo de la lección, lo que la hace muy accesible para la audiencia general y global de la revista.
 
 ## Français – Alexandre Wauthier
 
