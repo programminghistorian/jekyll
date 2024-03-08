@@ -65,7 +65,7 @@ La leçon [Nettoyer ses Données avec OpenRefine](https://doi.org/10.46430/phfr0
 
 **3. Comment avez-vous utilisé la leçon pour répondre à vos propres besoins&nbsp;?**
 
-Dans le cadre d’un travail de master, je devais nettoyer les données de recherche que j’avais collectées. OpenRefine semblait être l’outil adéquat et la leçon m’a permis de l’utiliser de manière optimale. J’ai ainsi pu corriger plusieurs incohérences et ainsi structurer mon jeu de données.
+Dans le cadre d’un travail de master, je devais nettoyer les données de recherche que j’avais collectées. OpenRefine semblait être l’outil adéquat et la leçon m’a permis de l’utiliser de manière optimale. J’ai ainsi pu corriger plusieurs incohérences et structurer mon jeu de données.
 
 **4. Qu’est-ce que cette expérience vous a appris, ou qu’est-ce que vous avez particulièrement apprécié&nbsp;?**
 
