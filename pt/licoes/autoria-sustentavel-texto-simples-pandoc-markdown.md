@@ -222,13 +222,18 @@ Tente rodar o comando:
 ```    
 Agora navegue de volta para o diretório do seu projeto. O que aconteceu? 
 
-Usuários mais avançados que tem o LaTeX instalado podem querer experimentar convertendo o Markdown em .tex ou ficheiros .pdf especialmente formatados. Uma vez que o LaTeX estiver instalado, um ficheiro PDF belamente formatado pode ser criado usando a mesma estrutura de comando:
+Usuários mais avançados que tem o LaTeX instalado podem querer experimentar convertendo o Markdown em .tex ou ficheiros .pdf especialmente formatados. Uma vez que o LaTeX estiver instalado, um ficheiro PDF belamente formatado pode ser criado usando praticamente a mesma estrutura de comando:
 ```
-    pandoc main.md -o projeto.pdf
-``` 
+   pandoc main.md -o projeto.pdf --pdf-engine=/Library/TeX/texbin/pdflatex
+```
+
+<div class="alert alert-warning">
+  Incluímos a opção que informa ao pandoc qual motor (<em>engine</em>) LaTex deve ser utilizado e ao mesmo tempo indicamos onde ele está armazenado, ou seja qual sua localização em nossa máquina. Esteja você trabalhando no Mac, Windows ou Linux, certifique-se de fornecer o caminho completo para o motor LaTeX que está usando. Por exemplo, o nosso está instalado no local <code>/Library/TeX/texbin/pdflatex</code>. Aconselhamos que o leitor verifique o seu e siga <a href='https://pandoc.org/MANUAL.html#creating-a-pdf'>as instruções atualizadas de instalação e uso do pandoc</a> (em inglês).
+</div>
+
 Se o seu documento estiver escrito em outros idiomas que não o inglês, você provavelmente precisará usar o mecanismo XeLaTeX em vez do LaTeX simples para conversão .pdf:
 ```
-    pandoc main.md --pdf-engine=xelatex -o main.pdf
+    pandoc main.md --pdf-engine=/Library/TeX/texbin/xelatex -o main.pdf
 ```
 Tenha certeza de que o seu editor de texto suporta a codificação UTF-8. Quando usar XeLaTeX para conversão em .pdf, ao invés do atributo `fontfamily` no "YAML" para mudar fontes, especifique o atributo `mainfont` para produzir algo como isto:
 ```
