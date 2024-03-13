@@ -8,10 +8,10 @@ date: 2023-01-30
 translation_date: 2024-03-14
 authors:
 - Chahan Vidal-Gorène
-reviewer:
+reviewers:
 - Julien Philip
 - Ariane Pinche
-editor:
+editors:
 - Matthias Gille Levenson
 translator:
 - Joana Vieira Paulino
