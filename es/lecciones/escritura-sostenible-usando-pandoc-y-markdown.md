@@ -246,6 +246,9 @@ Los usuarios más avanzados que tienen instalado LaTeX querrán experimentar con
 ```
 $ pandoc -o principal.pdf principal.md
 ```
+<div class="alert alert-warning"> 
+Si este comando falla, es posible que debas agregar un componente que proporcione a pandoc la ruta completa al motor LaTeX que quieres usar, especificando dónde está almacenado. La ubicación variará dependiendo de si estás trabajando en Mac, Windows o Linux. Se recomienda a los lectores que verifiquen la ruta correcta al motor LaTeX dentro de su sistema y sigan <a href='https://pandoc.org/MANUAL.html#creating-a-pdf'>las instrucciones de instalación actuales</a> (disponibles en inglés).
+</div>
 
 Asegúrate que tu editor de texto soporte el formato de codificación UTF-8. Cuando utilices LaTeX para convertir al formato .pdf, en vez del atributo `fontfamily` en YAML para cambiar la fuente, especifica el atributo `mainfont` para producir algo como esto:
 
