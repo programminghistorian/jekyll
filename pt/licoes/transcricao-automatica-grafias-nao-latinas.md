@@ -5,7 +5,7 @@ original: transcription-automatisee-graphies-non-latines
 layout: lesson  
 collection: lessons
 date: 2023-01-30
-translation_date: 2024-03-14
+translation_date: 2024-03-15
 authors:
 - Chahan Vidal-Gorène
 reviewers:
