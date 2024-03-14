@@ -494,21 +494,21 @@ Now navigate back to your project directory. Can you tell what happened?
 More advanced users who have LaTeX installed may want to experiment by
 converting Markdown into .tex or specially formatted .pdf files. Once
 LaTeX is installed, a beautifully formatted PDF file can be created
-using nearly the same command structure:
+using the same command structure:
 
 ```
-$ pandoc main.md -o main.pdf --pdf-engine=/Library/TeX/texbin/pdflatex
+$ pandoc main.md -o main.pdf
 ```
 
 <div class="alert alert-warning">
-We're adding a component that tells pandoc to use the pdflatex engine, and tells it where it's stored. Whether you are working on mac, Windows or Linux, it is important to ensure that you provide the full path to the LaTeX engine you are using. For example, ours is installed in the location <code>/Library/TeX/texbin/pdflatex</code>. Readers are advised to check theirs, and follow <a href='https://pandoc.org/MANUAL.html#creating-a-pdf'>the current installation instructions</a>.
+If this command fails, you may need to add a component that provides pandoc with the full path to the LaTeX engine you want to use, specifying where it's stored. The location will vary depending whether you are working on mac, Windows or Linux. Readers are advised to check the correct path to the LaTeX engine within their system, and follow <a href='https://pandoc.org/MANUAL.html#creating-a-pdf'>the current installation instructions</a>.
 </div>
 
 If your document is written in languages other than English, you will likely need to use
 the XeLaTeX engine instead of plain LaTeX for .pdf conversion:
 
 ```
-pandoc main.md --pdf-engine=/Library/TeX/texbin/xelatex -o main.pdf
+pandoc main.md --pdf-engine=xelatex -o main.pdf
 ```
 
 Make sure your text editor supports the UTF-8 encoding. When using XeLaTeX for
