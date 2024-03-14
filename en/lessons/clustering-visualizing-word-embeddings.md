@@ -231,24 +231,35 @@ With the libraries loaded you're now ready to begin by downloading and saving th
 ```python
 # Adapted from https://stackoverflow.com/a/72503304
 import os
-from io import BytesIO
-from urllib.request import urlopen
-from zipfile import ZipFile
+import pandas as pd
 
-# Where is the Zipfile stored on Zenodo?
-zipfile = 'clustering-visualizing-word-embeddings.zip'
-zipurl  = f'https://zenodo.org/records/7948908/files/{zipfile}?download=1'
+dn = 'data'
+fn = 'ph-tutorial-data-cleaned.parquet'
 
-# Open the remote Zipfile and read it directly into Python
-with urlopen(zipurl) as zipresp:
-    with ZipFile(BytesIO(zipresp.read())) as zf:
-        for zfile in zf.namelist():
-            if not zfile.startswith('__'): # Don't unpack hidden MacOSX junk
-                print(f"Extracting {zfile}") # Update the user
-                zf.extract(zfile,'.')
-# And rename the unzipped directory to 'data' -- 
-# IMPORTANT: Note that if 'data' already exists it will (probably) be silently overwritten.
-os.rename('clustering-visualizing-word-embeddings','data')
+if not os.path.exists(os.path.join(dn,fn)): 
+    print(f"Couldn't find {os.path.join('data',fn)}, downloading...")
+    from io import BytesIO
+    from urllib.request import urlopen
+    from zipfile import ZipFile
+
+    # Where is the Zipfile stored on Zenodo?
+    zipfile = 'clustering-visualizing-word-embeddings.zip'
+    zipurl  = f'https://zenodo.org/records/7948908/files/{zipfile}?download=1'
+
+    # Open the remote Zipfile and read it directly into Python
+    with urlopen(zipurl) as zipresp:
+        with ZipFile(BytesIO(zipresp.read())) as zf:
+            for zfile in zf.namelist():
+                if not zfile.startswith('__'): # Don't unpack hidden MacOSX junk
+                    print(f"Extracting {zfile}") # Update the user
+                    zf.extract(zfile,'.')
+    print("  Downloaded.")
+    # And rename the unzipped directory to 'data' --
+    # IMPORTANT: Note that if 'data' already exists it will (probably) be silently overwritten.
+    os.rename('clustering-visualizing-word-embeddings',dn)
+
+print(f"Loading {fn}")
+df = pd.read_parquet(os.path.join(dn,fn))
 ```
 
 This loads the EThOS sample into a new pandas data frame called `df`. 
