@@ -12,7 +12,6 @@ editor:
 - Adam Crymble
 exclude_from_check:
   - reviewers
-  - review-ticket
 translator:
 - Elina Leblanc
 translation-editor:
