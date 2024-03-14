@@ -1,5 +1,5 @@
 ---
-title: "Designing a deck of _Timeline_ cards for tabletops and Tabletop Simulator"
+title: "Designing a deck of Timeline cards for tabletops and Tabletop Simulator"
 slug: designing-a-timeline-tabletop-simulator
 layout: lesson
 collection: lessons
