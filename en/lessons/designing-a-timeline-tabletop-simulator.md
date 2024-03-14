@@ -481,7 +481,7 @@ While Tabletop Simulator (TTS) is not the only digital platform that allows peop
 
 ## Printing Digital Cards for Tabletop Simulator
 
-Once you understand how to import your cards into TTS, your game turns into a kind of video game, with no rule-coding necessary. Even though TTS doesn't require knowing how to code to make use of its open-ended toolbox, it is not a simple or intuitive enviroment. Berserk Games, the company that produces TTS, provides a seven-part [YouTube video tutorial]((https://www.youtube.com/watch?v=6e8RFMtAVac&list=PLA16SF2eexlUtH2AM4V8VF9rDpekW2uYA)) to teach new players to make games and play them in their environment. 
+Once you understand how to import your cards into TTS, your game turns into a kind of video game, with no rule-coding necessary. Even though TTS doesn't require knowing how to code to make use of its open-ended toolbox, it is not a simple or intuitive enviroment. Berserk Games, the company that produces TTS, provides a seven-part [YouTube video tutorial](https://www.youtube.com/watch?v=6e8RFMtAVac&list=PLA16SF2eexlUtH2AM4V8VF9rDpekW2uYA) to teach new players to make games and play them in their environment. 
 
 This next section will describe how I turned my 'Windsor Timeline' deck into digital format for TTS. Then, generalized instructions will explain how to follow the same process with the game assets we just used to make our simple six-card starter deck. 
 
@@ -529,7 +529,7 @@ You would then have to repeat this process to generate the deck's backs. The onl
 In the starter set of files that you can [download from GitHub](/assets/designing-a-timeline-tabletop-simulator), you'll find a folder called [`Tabletop-Simulator`](/assets/designing-a-timeline-tabletop-simulator/Tabletop-Simulator). It contains:
 
 - [`PH_nandeck_Your_Timeline_TTS_Face.txt`](/assets/designing-a-timeline-tabletop-simulator/Tabletop-Simulator/PH_nandeck_Your_Timeline_TTS_Face.txt) : the script to open in nanDECK to generate the card faces
-- [`PH_nandeck_Your_Timeline_TTS_Back.txt`](/assets/designing-a-timeline-tabletop-simulator/Tabletop-Simulator/PHnanDECKYour_Timeline_TTS_Back.txt) : the script to open in nanDECK to generate the card backs
+- [`PH_nandeck_Your_Timeline_TTS_Back.txt`](/assets/designing-a-timeline-tabletop-simulator/Tabletop-Simulator/PH_nandeck_Your_Timeline_TTS_Back.txt) : the script to open in nanDECK to generate the card backs
 - [`Build-Your-Own-Timeline-TTS-Face.xlsx`](/assets/designing-a-timeline-tabletop-simulator/Tabletop-Simulator/Build-Your-Own-Timeline-TTS-Face.xlsx) : the spreadsheet used by nanDECK to generate the card faces
 - [`Build-Your-Own-Timeline-TTS-Back.xlsx`](/assets/designing-a-timeline-tabletop-simulator/Tabletop-Simulator/Build-Your-Own-Timeline-TTS-Back.xlsx) : the spreadsheet used by nanDECK to generate the card backs
 - [`Your_Timeline_TTS_Face.png`](/assets/designing-a-timeline-tabletop-simulator/Tabletop-Simulator/Your_Timeline_TTS_Face.png) : the image of card faces produced by nanDECK using the assets above, to be uploaded into TTS
