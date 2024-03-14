@@ -235,20 +235,20 @@ $ pandoc projet.md -o projet.html
 
 Retournez ensuite dans le répertoire de votre projet. Pouvez-vous expliquer ce qui s'est passé ?
 
-Les utilisateurs plus avancés qui ont installé LaTeX voudront peut-être expérimenter en convertissant leur Markdown en fichiers .tex ou en fichiers .pdf spécialement mis en page. Une fois LaTeX installé, un fichier PDF élégamment formaté peut être créé en utilisant presque la même structure de commande :
+Les utilisateurs plus avancés qui ont installé LaTeX voudront peut-être expérimenter en convertissant leur Markdown en fichiers .tex ou en fichiers .pdf spécialement mis en page. Une fois LaTeX installé, un fichier PDF élégamment formaté peut être créé en utilisant la même structure de commande :
 
 ```
-$ pandoc projet.md -o projet.pdf --pdf-engine=/Library/TeX/texbin/pdflatex
+$ pandoc projet.md -o projet.pdf
 ```
 
 <div class="alert alert-warning">
-Il faut indiquer à pandoc le &laquo;&nbsp;moteur&nbsp;&raquo; (engine) LaTeX qui doit être utilisé, et indiquer en même temps où il se trouve. Que vous travailliez sur mac, Windows ou Linux, assurez-vous de fournir la variable d’environnement PATH vers le moteur LaTeX que vous utilisez. Par example, le nôtre est installé dans <code>/Library/TeX/texbin/pdflatex</code>. Nous vous conseillons de vérifier le vôtre et de suivre <a href='https://pandoc.org/MANUAL.html#creating-a-pdf'>les instructions mises à jour par pandoc</a> (en anglais).
+Si cette commande échoue, vous devez peut-être ajouter un composant qui fournit à pandoc le chemin complet vers le &laquo;&nbsp;moteur&nbsp;&raquo; (engine) LaTeX que vous souhaitez utiliser. Son emplacement varie selon que vous travaillez sous Mac, Windows ou Linux. Nous conseillons donc aux lecteurs de vérifier le chemin d'accès vers le moteur LaTeX dans leur propre système, et de suivre <a href='https://pandoc.org/MANUAL.html#creating-a-pdf'>les instructions d'installation en vigueur, mises à jour par pandoc</a> (en anglais).
 </div>
 
 Si votre document est rédigé dans une autre langue que l'anglais, vous devrez probablement utiliser le moteur [XeLaTeX](https://fr.wikipedia.org/wiki/XeTeX) au lieu du moteur LaTeX ordinaire pour la conversion en .pdf :
 
 ```
-pandoc projet.md --pdf-engine=/Library/TeX/texbin/xelatex -o projet.pdf
+pandoc projet.md --pdf-engine=xelatex -o projet.pdf
 ```
 
 Assurez-vous que votre éditeur de texte prend en charge le codage UTF-8. Lorsque vous utilisez XeLaTeX pour la conversion en .pdf, au lieu de l'attribut `fontfamily` en YAML pour changer de police, spécifiez l'attribut `mainfont`, ce qui donnera quelque chose comme suit :
