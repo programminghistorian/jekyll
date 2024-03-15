@@ -6,11 +6,10 @@ layout: lesson
 collection: lessons
 date: 2016-02-17
 translation_date: 2024-03-15
-author:
+authors:
 - Miriam Posner
-editor:
+editors:
 - Adam Crymble
-reviewers: 
 exclude_from_check:
   - reviewers
 translator:
