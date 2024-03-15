@@ -10,6 +10,7 @@ author:
 - Miriam Posner
 editor:
 - Adam Crymble
+reviewers: 
 exclude_from_check:
   - reviewers
 translator:
