@@ -419,9 +419,9 @@ Finally, use the _Print Deck_ button to instruct nanDECK to generate your deck a
 
 ## Build Your Own _Timeline_
 
-In order to help you get started with nanDECK and Tabletop Simulator, I have made available a starter set of files for you to build upon, which you can [download from GitHub](/assets/designing-a-timeline-tabletop-simulator).
+In order to help you get started with nanDECK and Tabletop Simulator, I have made available a starter set of files for you to build upon. It contains two sub-folders, one titled [nanDECK](/assets/designing-a-timeline-tabletop-simulator/nanDECK) and the other titled [Tabletop-Simulator](/assets/designing-a-timeline-tabletop-simulator/Tabletop-Simulator).
 
-The contents of this directory include:
+The sub-folder titled nanDECK includes:
 - [`PH_nandeck_Your_Timeline.txt`](/assets/designing-a-timeline-tabletop-simulator/nanDECK/PH_nandeck_Your_Timeline.txt) : the script to open in nanDECK
 - [`Build-Your-Own-Timeline.xlsx`](/assets/designing-a-timeline-tabletop-simulator/nanDECK/Build-Your-Own-Timeline.xlsx) : the spreadsheet which the script given to nanDECK will use to find the assets and build the deck
 - Six `.png` images 
@@ -526,7 +526,7 @@ You would then have to repeat this process to generate the deck's backs. The onl
 
 ### Printing Card Faces and Card Backs Separately for your Starter Deck
 
-In the starter set of files that you can [download from GitHub](/assets/designing-a-timeline-tabletop-simulator), you'll find a folder called [`Tabletop-Simulator`](/assets/designing-a-timeline-tabletop-simulator/Tabletop-Simulator). It contains:
+In the starter set of files you'll find a sub-folder called [`Tabletop-Simulator`](/assets/designing-a-timeline-tabletop-simulator/Tabletop-Simulator). It contains:
 
 - [`PH_nandeck_Your_Timeline_TTS_Face.txt`](/assets/designing-a-timeline-tabletop-simulator/Tabletop-Simulator/PH_nandeck_Your_Timeline_TTS_Face.txt) : the script to open in nanDECK to generate the card faces
 - [`PH_nandeck_Your_Timeline_TTS_Back.txt`](/assets/designing-a-timeline-tabletop-simulator/Tabletop-Simulator/PH_nandeck_Your_Timeline_TTS_Back.txt) : the script to open in nanDECK to generate the card backs
