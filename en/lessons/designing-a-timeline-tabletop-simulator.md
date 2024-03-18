@@ -1,9 +1,9 @@
 ---
-title: "Designing a deck of Timeline cards for tabletops and Tabletop Simulator"
+title: "Designing a Deck of Timeline Cards for Tabletops and Tabletop Simulator"
 slug: designing-a-timeline-tabletop-simulator
 layout: lesson
 collection: lessons
-date: 2024-03-15
+date: 2024-03-18
 authors:
 - Mita Williams
 reviewers:
