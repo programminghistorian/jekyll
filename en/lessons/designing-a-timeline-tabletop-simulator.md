@@ -15,7 +15,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/553
 difficulty: 1
 activity: transforming
 topics: [website, creative-coding]
-abstract: This lesson demonstrates how to use nanDECK to design and publish your own deck of printed or digital playing cards, and use them to test a group's knowledge of historical events through a _Timeline_-like game mechanic. The lesson will highlight best practices for handling digitized historical objects.
+abstract: This lesson demonstrates how to use nanDECK to design and publish your own deck of printed or digital playing cards, and use them to test a group's knowledge of historical events through a _Timeline_-like game mechanic. This lesson will also highlight best practices for handling digitized historical objects.
 avatar_alt: Black and white image of an ace of spades card, manufactured by the national playing card company.
 doi: 10.46430/phen0118
 ---
