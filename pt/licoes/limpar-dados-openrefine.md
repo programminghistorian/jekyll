@@ -6,6 +6,8 @@ layout: lesson
 collection: lessons
 date: 2013-08-05
 translation_date: 2023-04-29
+tested_date: 2024-03-14
+lesson-testers: Antonin Delpeuch
 authors:
 - Seth van Hooland
 - Ruben Verborgh
@@ -74,7 +76,7 @@ Os termos no campo das Categorias compreendem o que chamamos de [Vocabulário Co
 
 ### Primeiros passos: instalação do *OpenRefine* e importação de dados 
 
-Deverá ser feito o [Download do *OpenRefine*](http://openrefine.org/#download_openrefine) (em inglês) e seguidas as instruções. O *OpenRefine* funciona em todas as plataformas: Windows, Mac, e Linux. Este será aberto no navegador de internet do usuário, mas é importante entender que a aplicação é executada localmente e que os dados não serão guardados online. Com o *OpenRefine* aberto no seu navegador de internet, clique em '**Language Settings**', presente no canto superior esquerdo, e altere a linguagem para '**Português**'. Os arquivos de dados estão disponíveis no site *[FreeYourMetadata](http://data.freeyourmetadata.org/powerhouse-museum/)*, que serão utilizados ao longo deste tutorial. Por favor, faça o Download do ficheiro *phm-collection.tsv* antes de continuar (também arquivado no *Programming Historian* como: *[phm-collection](/assets/phm-collection.tsv)*).
+Deverá ser feito o [Download do *OpenRefine*](https://openrefine.org/download) (em inglês) e seguidas as instruções. O *OpenRefine* funciona em todas as plataformas: Windows, Mac, e Linux. Este será aberto no navegador de internet do usuário, mas é importante entender que a aplicação é executada localmente e que os dados não serão guardados online. Com o *OpenRefine* aberto no seu navegador de internet, clique em '**Language Settings**', presente no canto superior esquerdo, e altere a linguagem para '**Português**'. Os arquivos de dados estão disponíveis no site *[FreeYourMetadata](http://data.freeyourmetadata.org/powerhouse-museum/)*, que serão utilizados ao longo deste tutorial. Por favor, faça o Download do ficheiro *phm-collection.tsv* antes de continuar (também arquivado no *Programming Historian* como: *[phm-collection](/assets/phm-collection.tsv)*).
 
 Na página inicial do *OpenRefine* crie um novo projeto utilizando o ficheiro de dados que fez o download e clique '**Próximo**' . A primeira linha será processada como o nome da coluna por defeito, mas será preciso desmarcar a caixa de seleção 'Usar caracter " encerrar células contendo separadores de colunas', já que as aspas dentro do ficheiro não têm qualquer significado para o *OpenRefine*.  Além disto, deverá selecionar a caixa de seleção 'Tentar analisar texto de células como números' para que o *OpenRefine* detete automaticamente números. Agora deverá clicar em '**Criar projeto**'. Se tudo correr como planejado, deverá ver no canto superior esquerdo 75,814 linhas. Como alternativa poderá fazer o Download diretamente do [Projeto inicial *OpenRefine*](/assets/phm-collection.tsv).
 
@@ -114,7 +116,7 @@ Após aplicar a faceta, o *OpenRefine* propõe aglomerar as escolhas da faceta  
 
 O método padrão de aglomeramento não é muito complexo, portanto ainda não encontra todos os aglomerados. Experimente com diferentes métodos para ver quais são os resultados que estes produzem. Deverá ter cuidado: alguns métodos podem ser muito agressivos e alguns valores, que não deverão estar juntos, podem acabar agrupados. Agora que os valores foram agrupados individualmente, podemos colocá-los de volta numa única célula. Clique no triângulo das *categories* e escolha  **Editar células**, **Unir células com múltiplos valores**, escolha a barra vertical ('\|') como separador, **OK**. As linhas têm agora a mesma aparência que tinham antes, com um campo de categorias com vários valores.
 
-### Aplicação de transformações *ad-hoc* através do uso de expressões regulares
+### Aplicação de transformações *ad-hoc* através do uso de expressões GREL
 
 Relembre-se que existiu um aumento no número de registos depois do processo de divisão: nove registos apareceram do nada. Para encontrar a causa desta disparidade, precisamos de voltar atrás, antes da divisão das categorias em linhas separadas. Para fazer isso, altere o separador 'Desfazer / Refazer' à direita do separador 'Faceta / Filtro' e vai obter um histórico de todas as ações que executou desde que o projeto foi criado. Selecione o passo antes de '*Split multi-valued cells in column Categories*' (Dividir células com vários valores na coluna Categorias) (se seguiu o nosso exemplo deverá ser '*Remove 84 rows*' (Remover 84 linhas)). Depois volte para o separador 'Faceta / Filtro'.
 
@@ -122,7 +124,7 @@ O problema surgiu durante a operação de divisão no caractere de barra vertica
 
 Agora insira um segundo '\|' depois do primeiro para obter '\|\|' (dupla barra vertical): poderá observar que existem 9 registos que correspondem a este padrão. Estes são, provavelmente, os 9 registos culpados pela nossa discrepância: quando o *OpenRefine* divide os registos, a dupla barra vertical é interpretada como uma quebra entre dois registos em vez de um separador duplo sem sentido. Agora, como é que corrigimos estes valores? Vá ao menu do campo das categorias e escolha '**Editar células**' \> '**Transformar**…. Bem-vindo à interface de transformação de texto personalizada, uma funcionalidade poderosa do *OpenRefine* que usa a *Google Refine Expression Language* (GREL).
 
-A palavra '*value*' (valor) no campo de texto representa o valor atual de cada célula, valor esse visível em baixo. Podemos modificar este valor ao aplicar-lhe funções (ver a *[GREL documentation](https://perma.cc/C3F3-RWHL)* (documentação da GREL, em inglês) para uma lista completa). Neste caso, queremos substituir a dupla barra vertical por uma única barra. Isto pode ser realizado ao inserir a seguinte [expressão regular](https://perma.cc/35FM-5TGG) (certifique-se que não se esquece das aspas):
+A palavra '*value*' (valor) no campo de texto representa o valor atual de cada célula, valor esse visível em baixo. Podemos modificar este valor ao aplicar-lhe funções (ver a *[GREL documentation](https://perma.cc/A228-FFBE)* (documentação da GREL, em inglês) para uma lista completa). Neste caso, queremos substituir a dupla barra vertical por uma única barra. Isto pode ser realizado ao inserir a seguinte expressão GREL (certifique-se que não se esquece das aspas):
 
 ```
 value.replace('||', '|')
@@ -146,7 +148,7 @@ Desde que carregou os seus dados no *OpenRefine*, todas as operações de limpez
 
 ### Construção sob os dados limpos
 
-Depois de limpar os seus dados, poderá dar o próximo passo e explorar outros recursos interessantes do *OpenRefine*. A comunidade de utilizadores do *OpenRefine* desenvolveu duas interessantes extensões que permitem ligar os seus dados a dados que já foram publicados na web. A *[RDF Refine extension](http://web.archive.org/web/20180113121435/http://refine.deri.ie/docs)* (em inglês) transforma palavras-chave de texto simples em URLs. A [NER extension](https://perma.cc/W9PL-RUAH) (em inglês) permite ao usuário aplicar a *named-entity recognition* (NER) que identifica palavras chave em texto corrido e atribui-lhes um URL.
+Depois de limpar os seus dados, poderá dar o próximo passo e explorar outros recursos interessantes do *OpenRefine*. A comunidade de utilizadores do *OpenRefine* desenvolveu duas interessantes extensões que permitem ligar os seus dados a dados que já foram publicados na web. A *[RDF Transform extension](https://perma.cc/9RTF-S6LT)* (em inglês) transforma palavras-chave de texto simples em URLs. A [NER extension](https://perma.cc/SM98-U7GG) (em inglês) permite ao usuário aplicar a *named-entity recognition* (NER) que identifica palavras chave em texto corrido e atribui-lhes um URL.
 
 ## Conclusões
 
