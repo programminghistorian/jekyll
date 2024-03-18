@@ -6,6 +6,8 @@ authors:
 - Max De Wilde
 date: 2013-08-05
 translation_date: 2017-05-17
+tested_date: 2024-03-14
+lesson-testers: Antonin Delpeuch
 reviewers:
 - Patrick Burns
 - Nora McGregor
@@ -114,7 +116,7 @@ Tras la aplicación de una faceta, *OpenRefine* propone agrupar facetas que han 
 
 El método de agrupación por defecto no es demasiado complejo, por eso no encuentra aún todos los grupos. Experimenta con diferentes métodos para ver qué resultados obtienen. No obstante, ten cuidado: algunos métodos son demasiado agresivos, de forma que podrías terminar agrupando valores que no están relacionados. Ahora que los valores han sido agrupados individualmente, podemos volverlos a unir en una sola celda. Haz clic en el triángulo Categorías y elije **Editar celdas**, **Unir celdas multi-valuadas**, **Aceptar**. Elije el carácter barra vertical (`|`) como separador. Las filas ahora se ven como antes, con un campo de Categorías de valor múltiple.
 
-### Aplicación de transformaciones *ad hoc* mediante el uso de expresiones regulares
+### Aplicación de transformaciones *ad hoc* mediante el uso de expresiones GREL
 
 Como recordarás se produjo un aumento en el número de registros tras el proceso de separación: nueve registros aparecieron de la nada. Para encontrar la causa de esta disparidad, necesitamos retroceder en el tiempo hasta antes de que separáramos las categorías en filas diferentes. Para ello, activa la ficha Deshacer/Rehacer a la derecha de la ficha Facetas/Filtros y obtendrás un historial de todas las acciones que realizaste desde la creación del proyecto. Selecciona el paso justo antes de 'Split multi-valued cells in column Categories'[^5] (Dividir celdas multi-valuadas en la columna categorías) (si has seguido nuestro ejemplo este debería ser 'Remove 84 rows' (Eliminar 84 filas)) y luego vuelve a la ficha Facetas/Filtros.
 
@@ -122,7 +124,7 @@ La cuestión surgió durante la operación de división con el carácter barra v
 
 Ahora ingresa una segunda `|` después de la primera para obtener `||`` (doble barra vertical): podrás ver que 9 registros coinciden con este patrón. Estos son probablemente los 9 registros culpables de nuestra discrepancia: cuando *OpenRefine* los divide la doble barra vertical se interpreta como una ruptura entre dos registros en lugar de un separador doble sin sentido. Y ahora, ¿cómo corregimos estos valores? Ve al menú del campo 'Categorías' y elije '**Editar celdas**' \> '**Transformar...**'. Bienvenido a la interfaz de transformación de texto personalizado, una potente funcionalidad de *OpenRefine* que usa el Lenguaje de Expresión *OpenRefine* (GREL).
 
-La palabra 'valor' en el campo de texto representa el valor actual de cada celda, que puedes ver a continuación. Podemos modificar este valor aplicándole funciones (véase la [documentación de GREL](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions) para una lista completa). En este caso, queremos reemplazar las barras verticales dobles por una sola. Esto puede lograrse introduciendo la siguiente [expresión regular](https://es.wikipedia.org/wiki/Expresi%C3%B3n_regular) (asegúrate de no olvidar las comillas):
+La palabra 'valor' en el campo de texto representa el valor actual de cada celda, que puedes ver a continuación. Podemos modificar este valor aplicándole funciones (véase la [documentación de GREL](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions) para una lista completa). En este caso, queremos reemplazar las barras verticales dobles por una sola. Esto puede lograrse introduciendo la siguiente expresión GREL (asegúrate de no olvidar las comillas):
 
 ```
 value.replace('||','|')
@@ -145,7 +147,7 @@ Desde que cargaste tus datos por primera vez en *OpenRefine*, todas las operacio
 
 ### Construir sobre tus datos limpios
 
-Una vez que tus datos han sido limpiados, puedes dar el siguiente paso y explorar otras características interesantes de *OpenRefine*. La comunidad de usuarios de *OpenRefine* ha desarrollado dos extensiones particularmente interesantes que te permiten vincular tus datos a datos que ya se han publicado en la Web. La [extensión RDF Refine](http://web.archive.org/web/20180113121435/http://refine.deri.ie/docs) transforma las palabras clave de texto sin formato en URLs. La [extensión NER](https://github.com/RubenVerborgh/Refine-NER-Extension) te permite aplicar el reconocimiento de nombres de entidades (NER), que identifica palabras clave en el texto de los campos textuales y les inserta una URL.
+Una vez que tus datos han sido limpiados, puedes dar el siguiente paso y explorar otras características interesantes de *OpenRefine*. La comunidad de usuarios de *OpenRefine* ha desarrollado dos extensiones particularmente interesantes que te permiten vincular tus datos a datos que ya se han publicado en la Web. La [extensión RDF Transform](http://web.archive.org/web/20180113121435/http://refine.deri.ie/docs) transforma las palabras clave de texto sin formato en URLs. La [extensión NER](https://github.com/RubenVerborgh/Refine-NER-Extension) te permite aplicar el reconocimiento de nombres de entidades (NER), que identifica palabras clave en el texto de los campos textuales y les inserta una URL.
 
 ## Conclusiones
 
@@ -175,16 +177,16 @@ Si sólo recordaras una cosa de esta lección, debería ser lo siguiente: *todos
 [Creative Commons Attribution Share Alike (CCASA) license]: http://creativecommons.org/licenses/by-nc/2.5/au/
 [Controlled vocabulary]: http://en.wikipedia.org/wiki/Controlled_vocabulary
 [Linked Data]: http://en.wikipedia.org/wiki/Linked_data
-[Download OpenRefine]: http://openrefine.org/#download_openrefine
+[Download OpenRefine]: https://openrefine.org/download
 [FreeYourMetadata website]: http://data.freeyourmetadata.org/powerhouse-museum/
 [phm-collection]: /images/phm-collection.tsv
 [initial OpenRefine project]: http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz
 [Powerhouse Museum Website]: /images/powerhouseScreenshot.png
 [facet]: http://en.wikipedia.org/wiki/Faceted_search
 [Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png
-[GREL documentation]: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions
-[regular expression]: http://en.wikipedia.org/wiki/Regular_expression
-    "Regular Expressions"
+[GREL documentation]: https://openrefine.org/docs/manual/grelfunctions
 [CSV]: http://en.wikipedia.org/wiki/Comma-separated_values
 [RDF Refine extension]: http://refine.deri.ie/docs
 [NER extension]: https://github.com/RubenVerborgh/Refine-NER-Extension
+[RDF Transform extension]: https://github.com/AtesComp/rdf-transform#rdf-transform
+[NER extension]: https://github.com/stkenny/Refine-NER-Extension
