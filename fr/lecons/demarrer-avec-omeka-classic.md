@@ -103,7 +103,7 @@ Pour ajouter plusieurs champs de métadonnées — par exemple, si vous souhaite
 
 ## Une question épineuse
 
-{% include figure.html filename="up-and-running-11.png" alt="Photographie d’un chien appelé Bertie" caption="Figure 11. Qu’est-ce que c’est&nbsp;?" %}
+{% include figure.html filename="fr-tr-demarrer-avec-omeka-classic-11.png" alt="Photographie d’un chien appelé Bertie" caption="Figure 11. Qu’est-ce que c’est&nbsp;?" %}
 
 Imaginons que je crée un contenu pour mon chien, Bertie. Est-ce que je décris Bertie lui-même ou une photo de Bertie&nbsp;? Dans le premier cas, le **Créateur** serait... Eh bien, j’imagine que cela dépend de vos opinions religieuses. Dans le second cas, le créateur serait Brad Wallace, qui a pris la photo.
 
