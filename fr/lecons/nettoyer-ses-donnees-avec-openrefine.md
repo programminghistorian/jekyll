@@ -4,6 +4,8 @@ layout: lesson
 slug: nettoyer-ses-donnees-avec-openrefine
 date: 2013-08-05
 translation_date: 2019-04-10
+tested_date: 2024-03-14
+lesson-testers: Antonin Delpeuch
 authors:
 - Seth van Hooland
 - Ruben Verborgh
@@ -69,7 +71,7 @@ Les termes du champ **Categories** comprennent ce que nous appelons un [vocabula
 ### Pour commencer : installer OpenRefine et importer des données
 [Téléchargez OpenRefine][] et suivez les instructions d'installation. *OpenRefine* fonctionne sur toutes les plateformes : Windows, Mac et Linux. *OpenRefine* s'ouvrira dans votre navigateur, mais il est important de réaliser que l'application s’exécute localement et que vos données ne seront pas stockées en ligne. Les fichiers de données sont disponibles sur notre [site FreeYourMetadata][], lequel sera utilisé tout au long de ce tutoriel. Veuillez télécharger le fichier *phm-collection.tsv* avant de continuer (également archivé sur le site web du *Programming Historian* : comme [phm-collection][]).
 
-Sur la page de démarrage d'*OpenRefine*, créez un nouveau projet en utilisant le fichier de données téléchargé et cliquez sur **Suivant**. Par défaut, la première ligne sera correctement analysée comme étant l’en-tête des colonnes, mais vous devez décocher la case **Utiliser le caractère " pour fermer les cellules contenant les séparateurs de colonnes**, car les citations dans le fichier n'ont aucune signification pour *OpenRefine*. En outre, cochez la case **Analyser le texte des cellules comme nombres, dates...** pour permettre à *OpenRefine* de détecter automatiquement les nombres. Maintenant, cliquez sur **Créer un projet**. Si tout se passe bien, vous verrez 75 814 lignes. Vous pouvez également télécharger directement le [projet OpenRefine initial][].
+Sur la page de démarrage d'*OpenRefine*, créez un nouveau projet en utilisant le fichier de données téléchargé et cliquez sur **Suivant**. Par défaut, la première ligne sera correctement analysée comme étant l’en-tête des colonnes, mais vous devez décocher la case **Utiliser le caractère " pour fermer les cellules contenant les séparateurs de colonnes**, car les citations dans le fichier n'ont aucune signification pour *OpenRefine*. En outre, cochez la case **Analyser le texte des cellules comme nombres** pour permettre à *OpenRefine* de détecter automatiquement les nombres. Maintenant, cliquez sur **Créer un projet**. Si tout se passe bien, vous verrez 75 814 lignes. Vous pouvez également télécharger directement le [projet OpenRefine initial][].
 
 L'ensemble de données du *Powerhouse Museum* comprend des métadonnées détaillées sur tous les objets de la collection, y compris le titre, la description, plusieurs catégories auxquelles l'objet appartient, des informations sur la provenance et un lien pérenne vers l'objet sur le site Web du musée. Pour avoir une idée de l'objet correspondant aux métadonnées, cliquez simplement sur le lien et le site Web s'ouvrira.
 
@@ -102,13 +104,13 @@ Après l'application d'une facette, *OpenRefine* propose de regrouper les choix 
 
 La méthode de regroupement par défaut est assez basique, elle ne trouve donc pas encore tous les regroupements possibles. Expérimentez différentes méthodes pour voir quels résultats elles donnent. Soyez prudent cependant : certaines méthodes sont trop poussées, vous pourriez donc finir par regrouper des valeurs qui ne sont pas équivalentes. Maintenant que les valeurs ont été regroupées individuellement, nous pouvons les regrouper dans une seule cellule. Cliquez sur le triangle **Categories** et choisissez **Éditer les cellules**\> **Joindre les cellules multivaluées**\> **OK**. Choisissez le caractère **pipe** (`|`) comme séparateur. Les lignes ressemblent maintenant à ce que nous avions avant, avec un champ **Categories** à plusieurs valeurs.
 
-### Appliquer des transformations ad hoc à l'aide d'expressions régulières
+### Appliquer des transformations ad hoc à l'aide d'expressions GREL
 Vous vous souvenez peut-être qu'il y a eu une augmentation du nombre d'entrées après le processus de fractionnement : neuf entrées sont soudainement apparues. Afin de trouver la cause de cette disparité, nous devons remonter dans le temps, avant l'opération de fractionnement des catégories en lignes séparées. Pour ce faire, activez l'onglet **Défaire / Refaire** à droite de l'onglet **Facette / Filtre**, et vous obtiendrez un historique de toutes les actions que vous avez effectuées depuis la création du projet. Sélectionnez l'étape juste avant **Split multi-valued cells in column Categories** (Fractionner les cellules à valeurs multiples dans la colonne Categories). Si vous avez suivi notre exemple, cela devrait être **Remove 84 rows** (Supprimer 84 lignes). Puis revenez à l'onglet **Facette / Filtre**.
 
 Le problème est survenu lors de l'opération de séparation sur le caractère **pipe**, il y a donc de fortes chances que tout ce qui s'est mal passé soit lié à ce caractère. Appliquons un filtre dans la colonne **Categories** en sélectionnant **Filtrer le texte** dans le menu. Entrez tout d'abord un seul `|` dans le champ de gauche : *OpenRefine* vous informe qu'il y a 71 064 entrées correspondantes (c'est-à-dire des entrées contenant un **pipe**) sur un total de 75 727. Les cellules qui ne contiennent pas de **pipe** peuvent être des cellules vides, mais aussi des cellules contenant une seule catégorie sans séparateur, comme l'enregistrement 29 qui n'a que des "Scientific instruments" (« instruments scientifiques»).
 Maintenant, entrez un second `|` après le premier de sorte à obtenir ` || ` (double **pipe**) : vous pouvez voir que 9 entrées correspondent à ce modèle. Ce sont probablement les 9 entrées responsables de notre discordance : lorsque *OpenRefine* les sépare, le double **pipe** est interprété comme une rupture entre deux entrées au lieu d'un double séparateur sans signification. Maintenant, comment pouvons-nous corriger ces valeurs ? Allez dans le menu du champ **Categories** et choisissez **Éditer les cellules**\> **Transformer...**. Bienvenue dans l'interface de conversion de texte personnalisée, une fonctionnalité puissante d'*OpenRefine* utilisant le langage GREL (spécifique d'*OpenRefine*).
 
-Le mot « valeur » dans le champ texte représente la valeur actuelle de chaque cellule, que vous pouvez voir ci-dessous. Nous pouvons modifier cette valeur en lui appliquant des fonctions (voir la [documentation GREL](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions "documentation GREL") pour une liste complète). Dans ce cas, nous voulons remplacer les doubles **pipes** par un seul **pipe**. Cela peut être réalisé en entrant l'[expression régulière][] suivante (assurez-vous de ne pas oublier les guillemets) :
+Le mot « valeur » dans le champ texte représente la valeur actuelle de chaque cellule, que vous pouvez voir ci-dessous. Nous pouvons modifier cette valeur en lui appliquant des fonctions (voir la [documentation GREL](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions "documentation GREL") pour une liste complète). Dans ce cas, nous voulons remplacer les doubles **pipes** par un seul **pipe**. Cela peut être réalisé en entrant l'expression GREL suivante (assurez-vous de ne pas oublier les guillemets) :
 
 ``` value.replace('||', '|') ```
 
@@ -124,7 +126,7 @@ Vous remarquerez que 33 008 cellules sont concernées, soit plus de la moitié d
 Depuis que vous avez chargé vos données dans *OpenRefine*, toutes les opérations de nettoyage ont été effectuées dans la mémoire du logiciel, laissant votre jeu de données d'origine intact. Si vous voulez enregistrer les données que vous avez nettoyées, vous devez les exporter en cliquant sur le menu **Exporter** en haut à droite de l'écran. *OpenRefine* prend en charge une grande variété de formats, tels que [CSV][], HTML ou Excel : sélectionnez ce qui vous convient le mieux ou ajoutez votre propre modèle d'exportation en cliquant sur **Templating**. Vous pouvez également exporter votre projet au format *OpenRefine* interne afin de le partager avec d'autres utilisateurs.
 
 ### Pour aller plus loin avec vos données nettoyées
-Une fois vos données nettoyées, vous pouvez passer à l'étape suivante et explorer d'autres fonctionnalités intéressantes d'*OpenRefine*. La communauté d'utilisateurs d'*OpenRefine* a développé deux extensions particulièrement utiles qui vous permettent de lier vos données à des données déjà publiées sur le Web. L'[extension RDF Refine][] transforme les mots-clés en texte brut en URL. L'[extension NER][] vous permet d'appliquer la reconnaissance des entités nommées, qui identifie les mots-clés dans un texte et leur donne une URL.
+Une fois vos données nettoyées, vous pouvez passer à l'étape suivante et explorer d'autres fonctionnalités intéressantes d'*OpenRefine*. La communauté d'utilisateurs d'*OpenRefine* a développé deux extensions particulièrement utiles qui vous permettent de lier vos données à des données déjà publiées sur le Web. L'[extension RDF Transform][] transforme les mots-clés en texte brut en URL. L'[extension NER][] vous permet d'appliquer la reconnaissance des entités nommées, qui identifie les mots-clés dans un texte et leur donne une URL.
 
 ## Conclusion
 Si vous devez vous souvenir d'une seule chose de ce cours, ce doit être celle-ci : *toutes les données sont sales, mais vous pouvez y faire quelque chose*. Comme nous l'avons montré ici, il y a déjà beaucoup de choses que vous pouvez faire par vous-mêmes pour améliorer la qualité de vos données.
@@ -142,15 +144,14 @@ Vous avez ainsi appris comment avoir un rapide aperçu du nombre de valeurs vide
   [licence Creative Commons Attribution - Partage dans les Mêmes Conditions]: https://creativecommons.org/licenses/by-sa/4.0/deed.fr
   [vocabulaire contrôlé]: https://fr.wikipedia.org/wiki/Vocabulaire_contr%C3%B4l%C3%A9
   [données liées]: https://fr.wikipedia.org/wiki/Web_des_donn%C3%A9es
-  [Téléchargez OpenRefine]: http://openrefine.org/#download_openrefine
+  [Téléchargez OpenRefine]: https://openrefine.org/download
   [site FreeYourMetadata]: http://data.freeyourmetadata.org/powerhouse-museum/
   [phm-collection]: /assets/phm-collection.tsv
   [projet OpenRefine initial]: http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz
   [Powerhouse Museum Website]: /images/powerhouseScreenshot.png
   [facette]: https://fr.wikipedia.org/wiki/Recherche_%C3%A0_facettes
   [Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png
-  [GREL documentation]: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions
-  [expression régulière]: https://fr.wikipedia.org/wiki/Expression_r%C3%A9guli%C3%A8re "Expressions régulières"
+  [GREL documentation]: https://openrefine.org/docs/manual/grelfunctions
   [CSV]: https://fr.wikipedia.org/wiki/Comma-separated_values
-  [extension RDF Refine]: http://web.archive.org/web/20180113121435/http://refine.deri.ie/docs
-  [extension NER]: https://github.com/RubenVerborgh/Refine-NER-Extension
+  [extension RDF Transform]: https://github.com/AtesComp/rdf-transform#rdf-transform
+  [extension NER]: https://github.com/stkenny/Refine-NER-Extension
