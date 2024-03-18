@@ -5,7 +5,7 @@ original: up-and-running-with-omeka
 layout: lesson
 collection: lessons
 date: 2016-02-17
-translation_date: 2024-03-18
+translation_date: 2024-03-19
 authors:
 - Miriam Posner
 editors:
