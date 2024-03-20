@@ -15,7 +15,7 @@ editors:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/580
 difficulty: 1
 activity: acquiring
-topics: [data-management, linked-open-data, mapping]
+topics: [data-management, lod, mapping]
 abstract: A digital gazetteer records information associated with specific places. This lesson teaches you how to create a gazetteer from a historical text, using the Linked Places Delimited (LP-TSV) format. 
 avatar_alt: Map drawn on deerskin depicting a network of Indigenous settlements connected by transportation routes, annotated with English-language place names.
 doi: 10.46430/phen0117
