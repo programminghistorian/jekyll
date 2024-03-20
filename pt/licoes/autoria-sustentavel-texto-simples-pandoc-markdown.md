@@ -224,7 +224,7 @@ Agora navegue de volta para o diretório do seu projeto. O que aconteceu?
 
 Usuários mais avançados que tem o LaTeX instalado podem querer experimentar convertendo o Markdown em .tex ou ficheiros .pdf especialmente formatados. Uma vez que o LaTeX estiver instalado, um ficheiro PDF belamente formatado pode ser criado usando praticamente a mesma estrutura de comando:
 ```
-   pandoc main.md -o projeto.pdf --pdf-engine=/Library/TeX/texbin/pdflatex
+   pandoc main.md -o main.pdf
 ```
 
 <div class="alert alert-warning">
@@ -233,7 +233,7 @@ Usuários mais avançados que tem o LaTeX instalado podem querer experimentar co
 
 Se o seu documento estiver escrito em outros idiomas que não o inglês, você provavelmente precisará usar o mecanismo XeLaTeX em vez do LaTeX simples para conversão .pdf:
 ```
-    pandoc main.md --pdf-engine=/Library/TeX/texbin/xelatex -o main.pdf
+    pandoc main.md --pdf-engine=xelatex -o main.pdf
 ```
 Tenha certeza de que o seu editor de texto suporta a codificação UTF-8. Quando usar XeLaTeX para conversão em .pdf, ao invés do atributo `fontfamily` no "YAML" para mudar fontes, especifique o atributo `mainfont` para produzir algo como isto:
 ```
