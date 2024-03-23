@@ -152,7 +152,7 @@ means “except” these sets of characters.
 The best way to understand Regular Expressions is to learn what the
 characters do in different positions and practice, practice, practice.
 And since experimentation is best way to learn, I suggest using a regex
-tester tool and experiment with the syntax. For Mac users, I had a lot
+[tester tool][] and experiment with the syntax. For Mac users, I had a lot
 of luck with the [Patterns App][] (Mac Store \$2.99), which allowed me
 to see what the regular expressions were doing in real time. It also
 comes with a built-in cheat sheet for the symbols, but I actually found
@@ -441,3 +441,5 @@ bitty step at a time.
     "Explanation of re.verbose mode"
   [re.compile()]: http://docs.python.org/2/library/re.html#re.compile
     "Explanation of re.compile() function"
+  [tester tool]: https://pythonium.net/regex
+    "Python Regex Tester and Visualizer"
