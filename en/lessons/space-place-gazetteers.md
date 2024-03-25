@@ -3,7 +3,7 @@ title: "Working with Named Places: How and Why to Build a Gazetteer"
 slug: space-place-gazetteers 
 layout: lesson 
 collection: lessons
-date: 2024-03-22
+date: 2024-03-27
 authors:
 - Susan Grunewald
 - Ruth Mostern
