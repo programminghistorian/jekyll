@@ -2,7 +2,8 @@
 title: Cleaning Data with OpenRefine
 layout: lesson
 date: 2013-08-05
-tested_date: 2021-09-10
+tested_date: 2024-03-14
+lesson-testers: Antonin Delpeuch
 authors:
 - Seth van Hooland
 - Ruben Verborgh
@@ -153,8 +154,8 @@ downloaded data file and click **Next**. By default, the first line will
 be correctly parsed as the name of a column, but you need to unselect
 the 'Quotation marks are used to enclose cells containing column
 separators' checkbox, since the quotes inside the file do not have any
-meaning to *OpenRefine*. Additionally, select the 'Parse cell text into
-numbers, dates, ...' checkbox to let OpenRefine automatically detect
+meaning to *OpenRefine*. Additionally, select the 'Attempt to parse cell
+text into numbers' checkbox to let OpenRefine automatically detect
 numbers. Now click on '**Create project**'. If all goes
 well, you will see 75,814 rows. Alternatively, you can download the
 [initial OpenRefine project][] directly.
@@ -292,7 +293,7 @@ cells**, **Join multi-valued cells**, **OK**. Choose the pipe character (|) as a
 separator. The rows now look like before, with a multi-valued Categories
 field.
 
-### Applying ad-hoc transformations through the use of regular expressions
+### Applying ad-hoc transformations through the use of GREL expressions
 
 You may remember there was an increase in the number of records after
 the splitting process: nine records appeared out of nowhere. In order to
@@ -328,7 +329,7 @@ The word 'value' in the text field represents the current value of each
 cell, which you can see below. We can modify this value by applying
 functions to it (see the [GREL documentation][] for a full list). In
 this case, we want to replace double pipes with a single pipe. This can
-be achieved by entering the following [regular expression][] (be sure
+be achieved by entering the following GREL expression (be sure
 not to forget the quotes):
 
 ```
@@ -379,7 +380,7 @@ Once your data has been cleaned, you can take the next step and explore
 other exciting features of *OpenRefine*. The user community of
 *OpenRefine* has developed two particularly interesting extensions which
 allow you to link your data to data that has already been published on
-the Web. The [RDF Refine extension][] transforms plaintext keywords into
+the Web. The [RDF Transform extension][] transforms plaintext keywords into
 URLs. The [NER extension][] allows you to apply named-entity recognition
 (NER), which identifies keywords in flowing text and gives them a URL.
 
@@ -414,16 +415,14 @@ the case you have made an error.
   [Creative Commons Attribution Share Alike (CCASA) license]: http://creativecommons.org/licenses/by-nc/2.5/au/
   [Controlled vocabulary]: http://en.wikipedia.org/wiki/Controlled_vocabulary
   [Linked Data]: http://en.wikipedia.org/wiki/Linked_data
-  [Download OpenRefine]: http://openrefine.org/#download_openrefine
+  [Download OpenRefine]: https://openrefine.org/download
   [FreeYourMetadata website]: http://data.freeyourmetadata.org/powerhouse-museum/
   [phm-collection]: /assets/phm-collection.tsv
   [initial OpenRefine project]: http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz
   [Powerhouse Museum Website]: /images/powerhouseScreenshot.png
   [facet]: http://en.wikipedia.org/wiki/Faceted_search
   [Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png
-  [GREL documentation]: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions
-  [regular expression]: http://en.wikipedia.org/wiki/Regular_expression
-    "Regular Expressions"
+  [GREL documentation]: https://openrefine.org/docs/manual/grelfunctions
   [CSV]: http://en.wikipedia.org/wiki/Comma-separated_values
-  [RDF Refine extension]: http://web.archive.org/web/20180113121435/http://refine.deri.ie/docs
-  [NER extension]: https://github.com/RubenVerborgh/Refine-NER-Extension
+  [RDF Transform extension]: https://github.com/AtesComp/rdf-transform#rdf-transform
+  [NER extension]: https://github.com/stkenny/Refine-NER-Extension
