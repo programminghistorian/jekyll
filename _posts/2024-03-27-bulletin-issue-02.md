@@ -11,6 +11,8 @@ categories: posts
 
 # Issue 02 - March 2024
 
+Welcome / bienvenidos / bienvenue / bem-vindos to the second issue of _Programming Historian_’s Bulletin / Buletín / Bulletin / Boletim, a quarterly insight into our recent publications, research highlights, project news and more.
+
 ## New Lessons
 
 GRACE DI MÉO  
@@ -30,7 +32,7 @@ CHAHAN VIDAL-GORÈNE, traduzido por JOANA VIEIRA PAULINO
 - Este tutorial descreve as boas práticas para a criação de conjuntos de dados e para a especialização dos modelos em função de um projeto HTR ou OCR de documentos que não utilizam o alfabeto latino. 
 
 MITA WILLIAMS    
-[Designing a deck of _Timeline_ cards for tabletops and Tabletop Simulator](DOI)
+[Designing a Deck of _Timeline_ Cards for Tabletops and Tabletop Simulator](https://doi.org/10.46430/phen0118)
 - This lesson demonstrates how to use nanDECK to design and publish your own deck of printed or digital playing cards, and use them to test a group's knowledge of historical events through a _Timeline_-like game mechanic. 
 
 MIRIAM POSNER, traduite par ELINA LEBLANC    
@@ -38,7 +40,7 @@ MIRIAM POSNER, traduite par ELINA LEBLANC
 - Cette leçon explique comment créer un site Omeka, le configurer, y ajouter des extensions et des contenus, et organiser ces contenus en collections.  
 
 SUSAN GRUNEWALD & RUTH MOSTERN    
-[Working with Named Places: How and Why to Build a Gazetteer](DOI)
+[Working with Named Places: How and Why to Build a Gazetteer](https://doi.org/10.46430/phen0117)
 - A digital gazetteer records information associated with specific places. This lesson teaches you how to create a gazetteer from a historical text, using the Linked Places Delimited (LP-TSV) format. 
 
 ## New Pathways to PH
@@ -60,9 +62,8 @@ SUSAN GRUNEWALD & RUTH MOSTERN
 
 ## New Supporters
 
-Grateful thanks to all those who have renewed their membership to our Institutional Partner Programme this quarter: **University of Waterloo**, **University of York**, **KU Leuven**, **Penn State University College of the Liberal Arts**, **Sheffield University Library**, **Lancaster University Library**, **Universität Bern Bibliothek** and **King's College London**. We especially celebrate the newest francophone member institution to join our programme, the **Université de Montréal**.
-
-Institutional Partnerships enable us to keep developing our model of sustainable, open-access publishing, and empower us to continue creating peer-reviewed, multilingual lessons for digital humanists around the globe. **Join us: [https://tinyurl.com/support-PH](https://tinyurl.com/support-PH)**
+- Grateful thanks to all those who have renewed their membership to our Institutional Partner Programme this quarter: **University of Waterloo**, **University of York**, **KU Leuven**, **Penn State University College of the Liberal Arts**, **Sheffield University Library**, **Lancaster University Library**, **Universität Bern Bibliothek** and **King's College London**. We especially celebrate the newest francophone member institution to join our programme, the **Université de Montréal**.
+- Institutional Partnerships enable us to keep developing our model of sustainable, open-access publishing, and empower us to continue creating peer-reviewed, multilingual lessons for digital humanists around the globe. **Join us: [https://tinyurl.com/support-PH](https://tinyurl.com/support-PH)**
 
 ## Upcoming
 
