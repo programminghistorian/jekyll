@@ -2607,14 +2607,6 @@
     - editorial
   status: volunteer
 
-- name: Susan Grunewald
-  team: false
-  orcid: 0000-0003-1275-4101
-  bio:
-      en: |
-          Susan Grunewald is the Digital History Postdoctoral Associate at the University of Pittsburgh World History.
-
-
 - name: Andrew Janco
   team: false
   orcid: 0000-0002-8872-9474
@@ -3152,3 +3144,17 @@
   bio:
     en: |
       Mita Williams is the Acting Law Librarian at the Don & Gail Rodzik Law Library, University of Windsor, Ontario, Canada.
+
+- name: Susan Grunewald
+  orcid: 0000-0003-1275-4101
+  team: false
+  bio:
+    en: |
+      Susan Grunewald is an Assistant Professor in the Department of History at Louisiana State University.
+
+- name: Ruth Mostern
+  orcid: 0000-0001-8219-7174
+  team: false
+  bio:
+    en: |
+      Ruth Mostern is a Professor in the Department of History at the University of Pittsburgh.
