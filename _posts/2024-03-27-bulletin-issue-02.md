@@ -45,7 +45,7 @@ SUSAN GRUNEWALD & RUTH MOSTERN
 
 ## New Pathways to PH
 
-- We’re delighted to announce that our lessons in English will now be discoverable via [DARIAH Campus](https://campus.dariah.eu/source/programming-historian/page/1), We are thrilled to be included in their catalogue of excellent training resources. This marks a further step in our mission to empower researchers from around the globe with access to digital tools and methods.
+- We’re delighted to announce that our lessons in English will now be discoverable via [DARIAH Campus](https://campus.dariah.eu/source/programming-historian/page/1). We are thrilled to be included in their catalogue of excellent training resources. 
 - We are also extremely pleased to say that lessons published across all four of our journals will now be indexed in EBSCO’s database, accessible through the [EBSCOhost](https://www.ebsco.com/products/ebscohost-research-platform) online research platform.
 
 ## Community & Collaboration
@@ -77,4 +77,4 @@ Next issue: June 2024. In the meantime, keep in touch with us on social media to
 
 [Twitter](https://twitter.com/ProgHist) - [Mastodon](https://hcommons.social/@proghist) - [LinkedIn](https://www.linkedin.com/company/prog-hist/)- [Patreon](https://www.patreon.com/theprogramminghistorian)
 
-You can also [download](https://github.com/programminghistorian/jekyll/blob/gh-pages/assets/bulletin/2024-03-27-bulletin-issue-02) this Bulletin as a PDF.
+You can also [download](/assets/bulletin/2024-03-27-bulletin-issue-02) this Bulletin as a PDF.
