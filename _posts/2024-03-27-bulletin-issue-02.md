@@ -55,8 +55,8 @@ SUSAN GRUNEWALD & RUTH MOSTERN
 
 - We're delighted to welcome **Eric Brasil** as the new managing editor of _Programming Historian em português_. Eric joined the Portuguese team as a general editor in September 2021 and has contributed in various roles since then, including as editor and reviewer of a number of translations and as author of the recently-published Portuguese original lesson [Git como ferramenta metodológica em projetos de História (parte 1)](https://doi.org/10.46430/phpt0045). 
 - We also take this opportunity to thank **Daniel Alves** for the deep commitment and expertise he has dedicated to the journal as managing editor since 2020, in particular for being the driving force behind the launch of the Portuguese edition in 2021.
-- Welcome to the new cohort of editors for Programming Historian in English: **Laura Chapot**, **Massimiliano Carloni**, **Caio Mello**, **Agustín Cosovschi** and **Giulia Osti** will be providing their expertise to accompany our authors and translators towards publication.
-- Huge thanks to **Yann Ryan** and **Célian Ringwald**, who are both stepping down from their role as editor on the English and French teams. We have greatly valued your commitment over the past years. 
+- We welcome a new cohort of editors to Programming Historian in English:: **Laura Chapot**, **Massimiliano Carloni**, **Caio Mello**, **Agustín Cosovschi** and **Giulia Osti** will be providing their expertise to accompany our authors and translators towards publication.
+- Huge thanks to **Yann Ryan** and **Célian Ringwald**, who are stepping down from their role as editor on the English and French teams. We have greatly valued your commitment over the past years. 
 
 ## New Supporters
 
