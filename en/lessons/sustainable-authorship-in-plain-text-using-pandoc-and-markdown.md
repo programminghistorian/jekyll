@@ -500,6 +500,10 @@ using the same command structure:
 $ pandoc main.md -o main.pdf
 ```
 
+<div class="alert alert-warning">
+If this command fails, you may need to add a component that provides pandoc with the full path to the LaTeX engine you want to use, specifying where it's stored. The location will vary depending whether you are working on mac, Windows or Linux. Readers are advised to check the correct path to the LaTeX engine within their system, and follow <a href='https://pandoc.org/MANUAL.html#creating-a-pdf'>the current installation instructions</a>.
+</div>
+
 If your document is written in languages other than English, you will likely need to use
 the XeLaTeX engine instead of plain LaTeX for .pdf conversion:
 

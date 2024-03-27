@@ -241,6 +241,10 @@ Les utilisateurs plus avancés qui ont installé LaTeX voudront peut-être expé
 $ pandoc projet.md -o projet.pdf
 ```
 
+<div class="alert alert-warning">
+Si cette commande échoue, vous devez peut-être ajouter un composant qui fournit à pandoc le chemin complet vers le &laquo;&nbsp;moteur&nbsp;&raquo; (engine) LaTeX que vous souhaitez utiliser. Son emplacement varie selon que vous travaillez sous Mac, Windows ou Linux. Nous conseillons donc aux lecteurs de vérifier le chemin d'accès vers le moteur LaTeX dans leur propre système, et de suivre <a href='https://pandoc.org/MANUAL.html#creating-a-pdf'>les instructions d'installation en vigueur, mises à jour par pandoc</a> (en anglais).
+</div>
+
 Si votre document est rédigé dans une autre langue que l'anglais, vous devrez probablement utiliser le moteur [XeLaTeX](https://fr.wikipedia.org/wiki/XeTeX) au lieu du moteur LaTeX ordinaire pour la conversion en .pdf :
 
 ```
