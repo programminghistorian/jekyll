@@ -45,12 +45,12 @@ SUSAN GRUNEWALD & RUTH MOSTERN
 
 ## New Pathways to PH
 
-- We’re delighted to announce that our lessons in English will now be discoverable via [DARIAH Campus](https://campus.dariah.eu), We are thrilled to be included in their catalogue of excellent training resources. This marks a further step in our mission to empower researchers from around the globe with access to digital tools and methods.
-- We are also extremely pleased to say that lessons published across all four of our journals will now be indexed in EBSCO’s database, accessible through the [EBSCOhost](https://www.ebsco.com/products/ebscohost-research-platform) online research platform, 
+- We’re delighted to announce that our lessons in English will now be discoverable via [DARIAH Campus](https://campus.dariah.eu/source/programming-historian/page/1), We are thrilled to be included in their catalogue of excellent training resources. This marks a further step in our mission to empower researchers from around the globe with access to digital tools and methods.
+- We are also extremely pleased to say that lessons published across all four of our journals will now be indexed in EBSCO’s database, accessible through the [EBSCOhost](https://www.ebsco.com/products/ebscohost-research-platform) online research platform.
 
 ## Community & Collaboration
 
-- We celebrated [Open Education Week 2024](https://oeweek.oeglobal.org) by asking an editor from each of our editions to share their reflections about one memorable Programming Historian lesson which they have used and valued. You can read their interviews in our blog post.
+- We celebrated [Open Education Week 2024](https://oeweek.oeglobal.org) by asking an editor from each of our editions to share their reflections about one memorable _Programming Historian_ lesson which they have used and valued. You can read their interviews in our [blog post](/posts/Open-Education-Week).
 - We are proud to be supporting the Institute of Historical Research's [Digital Humanities seminar series 2024](https://ihrdighist.blogs.sas.ac.uk/category/2023-2024/), which runs on one Tuesday of each month until June.
 
 ## Team News
