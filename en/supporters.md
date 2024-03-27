@@ -49,6 +49,7 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [Universiteit van Amsterdam](https://www.uva.nl/), The Netherlands
 - [Universiteit Gent](https://www.ugent.be/), Belgium
 - [University of Exeter](https://www.exeter.ac.uk/), United Kingdom
+- [Université de Montréal](https://www.umontreal.ca/), Canada
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
