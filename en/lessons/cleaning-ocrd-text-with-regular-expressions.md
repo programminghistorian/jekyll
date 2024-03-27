@@ -151,8 +151,8 @@ means “except” these sets of characters.
 
 The best way to understand Regular Expressions is to learn what the
 characters do in different positions and practice, practice, practice.
-And since experimentation is best way to learn, I suggest using a regex
-tester tool and experiment with the syntax. For Mac users, I had a lot
+And since experimentation is the best way to learn, I suggest using a regex
+tester tool and experimenting with the syntax. A free option is [Pythonium’s Pyrexp][]. For Mac users, I had a lot
 of luck with the [Patterns App][] (Mac Store \$2.99), which allowed me
 to see what the regular expressions were doing in real time. It also
 comes with a built-in cheat sheet for the symbols, but I actually found
@@ -421,12 +421,12 @@ bitty step at a time.
     "Source for Legal and Government-based documents"
   [pdfminer]: http://www.unixuser.org/~euske/python/pdfminer/index.html
     "PDF Miner Module"
+  [Pythonium’s Pyrexp]: https://pythonium.net/regex
+    "Python Regex Tester"
   [Patterns App]: http://krillapps.com/patterns/
     "Patterns App for RegEx Experimentation"
   [cheat sheet]: https://cheatography.com/davechild/cheat-sheets/regular-expressions/
     "Reg Ex Cheat Sheet"
-  [another tester tool]: http://www.pythonregex.com/
-    "Python Regex Tester"
   [documentation]: http://docs.python.org/2/library/re.html
     "Re Module Documentation"
   [Regular Expression HOWTO documentation]: http://docs.python.org/2/howto/regex.html#regex-howto
