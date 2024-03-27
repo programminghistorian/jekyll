@@ -77,4 +77,4 @@ Next issue: June 2024. In the meantime, keep in touch with us on social media to
 
 [Twitter](https://twitter.com/ProgHist) - [Mastodon](https://hcommons.social/@proghist) - [LinkedIn](https://www.linkedin.com/company/prog-hist/)- [Patreon](https://www.patreon.com/theprogramminghistorian)
 
-You can also [download](/assets/bulletin/2024-03-27-bulletin-issue-02) this Bulletin as a PDF.
+You can also [download](/assets/bulletin/2024-03-27-bulletin-issue-02.pdf) this Bulletin as a PDF.
