@@ -52,6 +52,7 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 - [Universiteit van Amsterdam](https://www.uva.nl/), Países Baixos
 - [Universiteit Gent](https://www.ugent.be/), Bélgica
 - [University of Exeter](https://www.exeter.ac.uk/), Reino Unido
+- [Université de Montréal](https://www.umontreal.ca/), Canadá
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 

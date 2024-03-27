@@ -50,6 +50,8 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Universiteit van Amsterdam](https://www.uva.nl/), Pays-Bas
 - [Universiteit Gent](https://www.ugent.be/), Belgique
 - [University of Exeter](https://www.exeter.ac.uk/), Royaume-Uni
+- [Université de Montréal](https://www.umontreal.ca/), Canada
+
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 

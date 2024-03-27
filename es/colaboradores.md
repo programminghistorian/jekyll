@@ -50,6 +50,7 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](pia).
 - [Universiteit van Amsterdam](https://www.uva.nl/), Países Bajos
 - [Universiteit Gent](https://www.ugent.be/), Bélgica
 - [University of Exeter](https://www.exeter.ac.uk/), Reino Unido
+- [Université de Montréal](https://www.umontreal.ca/), Canadá
 
 Son bienvenidas las consultas de potenciales contribuidores del [Programa de Instituciones Asociadas](pia).
 
