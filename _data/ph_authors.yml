@@ -2441,8 +2441,9 @@
   status: volunteer
 
 - name: Rolando Rodriguez
-  team: true
+  team: false
   team_start: 2022
+  team_end: 2024
   institution: University of North Carolina at Chapel Hill
   github: rolrodr
   email: rolando@ad.unc.edu
