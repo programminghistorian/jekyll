@@ -2474,8 +2474,9 @@
 
 
 - name: Yann Ryan
-  team: true
+  team: false
   team_start: 2022
+  team_end: 2024
   institution: University of Helsinki
   github: yann-ryan
   email: yann.ryan@gmail.com
