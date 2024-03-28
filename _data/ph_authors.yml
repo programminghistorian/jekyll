@@ -2071,9 +2071,10 @@
   twitter: ringwald_c
   email: celian.ringwald@hotmail.fr
   github: datalogism
-  team: true
+  team: false
   orcid: 0000-0002-7302-9037
   team_start: 2021
+  team_end: 2024
   institution: Inria Sophia-Antipolis, France
   sortname: Ringwald
   affiliation:
