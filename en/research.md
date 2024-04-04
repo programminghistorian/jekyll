@@ -48,6 +48,7 @@ The project team and members of the wider community are involved in a number of 
 
 ## Workshops & Events
 
+* Daniel van Strien, ‘Computer Vision for the Humanities and Social Sciences: An Introduction to Deep Learning for Image Classification’, Centre for Data, Culture and Society, University of Edinburgh, United Kingdom (21 March 2024).
 * Alex Wermer-Colan, ['Learning Digital Methods with the _Programming Historian_'](https://charlesstudy.temple.edu/event/11953011), Temple University [Online], (22 February 2024).        
 * Carlo Blum, Adam Crymble, Vicky Garnett, Timothée Giraud, Alíz Horváth, Stefan Krebs, Ralph Marschall, Sofia Papastamkou, & Lorella Viola, 'Invisible College of Digital History: Workshop on Multilingual Educational Resources', C²DH [Online], (8 November 2023).
 * Nabeel Siddiqui, 'Convolutional Neural Networks for Image Classification', University of Edinburgh [Online], (7 November 2023).
@@ -95,7 +96,8 @@ The project team and members of the wider community are involved in a number of 
 
 ## Posters, Conference Papers, & Invited Talks
 
-* Josir Cardoso Gomes, ['Seminário Solare de Softwares Livres para Arquitetura e Engenharia'](https://www.caurj.gov.br/seminario-solare-reune-desenvolvedores-internacionais-de-software-livre-para-arquitetura-e-urbanismo/), Conselho de Arquitetura e Urbanismo de Rio de Janeiro (CAU/RJ), Rio de Janeiro, Brazil, (30-31 October 2023).
+* Anisa Hawes, 'An introduction to _Programming Historian_: Open, sustainable, peer-to-peer technical writing', King’s College London, United Kingdom (11 March 2024).
+* Josir Cardoso Gomes, ['Seminário Solare de Softwares Livres para Arquitetura e Engenharia'](https://www.caurj.gov.br/seminario-solare-reune-desenvolvedores-internacionais-de-software-livre-para-arquitetura-e-urbanismo/), Conselho de Arquitetura e Urbanismo de Rio de Janeiro (CAU/RJ), Rio de Janeiro, Brazil (30-31 October 2023).
 * Adam Crymble, 'Local/Global Digital Skills in the Humanities: Which Digital Skills to Scholars Need Here?' Research Institute for Humanities. Chinese University of Hong Kong (3 October 2023).
 * Daniel Alves & Joana Vieira Paulino, ['IHC’s Digital Humanities Lab: collaborative and interdisciplinary projects with digital methods'](https://rutter-project.org/training-school/), The long life of manuscripts: from material to immaterial texts, RUTTER Project, Centro Interuniversitário de História das Ciências e da Tecnologia (CIUHCT), Universidade de Lisboa, Lisbon, (11-15 September 2023).
 * James Baker & Paola Marchionni, '[Research Talk: Skills for artificial intelligence](https://soundcloud.com/user-565922160/research-talk-skills-for-artificial-intelligence-james-baker?in=user-565922160/sets/research-talk-podcast)', Jisc, (June 2023).
