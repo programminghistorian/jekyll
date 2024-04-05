@@ -94,7 +94,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 ### Carteles, conferencias y presentaciones
 
 * Joana Vieira Paulino, 'Aplicar o digital à História: porquê e para quê?', Jornadas Interdisciplinares 2024, Universidade de Évora, Évora, Portugal (12 de marzo de 2024).
-* Anisa Hawes,'An introduction to Programming Historian: Open, sustainable, peer-to-peer technical writing', King’s College London, Reino Unido (11 de marzo de 2024).
+* Anisa Hawes,'An introduction to _Programming Historian_: Open, sustainable, peer-to-peer technical writing', King’s College London, Reino Unido (11 de marzo de 2024).
 * Josir Cardoso Gomes, ['Seminário Solare de Softwares Livres para Arquitetura e Engenharia'](https://www.caurj.gov.br/seminario-solare-reune-desenvolvedores-internacionais-de-software-livre-para-arquitetura-e-urbanismo/), Conselho de Arquitetura e Urbanismo de Rio de Janeiro (CAU/RJ), Rio de Janeiro, Brasil, (30-31 de octubre, 2023).
 * Adam Crymble, 'Local/Global Digital Skills in the Humanities: Which Digital Skills to Scholars Need Here?' Research Institute for Humanities. Chinese University of Hong Kong (3 de octubre, 2023).
 * Daniel Alves & Joana Vieira Paulino, ['IHC’s Digital Humanities Lab: collaborative and interdisciplinary projects with digital methods'](https://rutter-project.org/training-school/), The long life of manuscripts: from material to immaterial texts, RUTTER Project, Centro Interuniversitário de História das Ciências e da Tecnologia (CIUHCT), Universidade de Lisboa, Lisboa (11-15 de septiembre, 2023).
