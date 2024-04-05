@@ -8,7 +8,7 @@ original: events
 
 ## Próximos Eventos
 
-* Anisa Hawes & Sofia Papastamkou, 'Programming Historian: Presenting the growth and evolution of an open access, community-led, multilingual journal of methods in the humanities', [OPERAS Conference 2024](https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/).    
+* Anisa Hawes & Sofia Papastamkou, '_Programming Historian_: Presenting the growth and evolution of an open access, community-led, multilingual journal of methods in the humanities', [OPERAS Conference 2024](https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/).    
 Data: 24-26 de abril de 2024    
 Local: Sveučilište u Zadru, Zadar, Croácia    
 
