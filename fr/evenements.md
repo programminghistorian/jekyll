@@ -16,7 +16,7 @@ Lieu : Sveučilište u Zadru, Zadar, Croatie
 Date : 27-31 mai 2024   
 Lieu : Menntavísindasvið Háskóla Íslands, Reykjavik, Islande   
 
-* Anisa Hawes, Charlotte Chevrie & Anna-Maria Sichani, 'Harnessing Programming Historian’s CC-BY Licence to Empower Multilingual Reuse', [UK-Ireland Digital Humanities Association's annual event](https://digitalhumanities-uk-ie.org/2024-annual-event/).   
+* Anisa Hawes, Charlotte Chevrie & Anna-Maria Sichani, 'Harnessing _Programming Historian_’s CC-BY Licence to Empower Multilingual Reuse', [UK-Ireland Digital Humanities Association's annual event](https://digitalhumanities-uk-ie.org/2024-annual-event/).   
 Date : 4-5 juin 2024   
 Lieu : University College Cork, Cork, Irlande   
 
