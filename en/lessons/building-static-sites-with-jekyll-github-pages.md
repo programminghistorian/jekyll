@@ -227,30 +227,25 @@ If you get a permissions error at this point, entering `usr/local/bin/gem instal
 
 *Instructions for Windows users differ from those for Mac users just in this one "Installing dependencies" section. Only do the following if you're using Windows.*
 
-1. We need a command line tool that recognizes the same commands Macs and Linux computers (i.e. Unix operating systems) do. Visit [https://git-scm.com/downloads](https://git-scm.com/downloads) and click on the "Windows" link under "Downloads". Once the download has finished, double-click on the downloaded file and follow the steps to install Git Bash (leave all options the way they already are).
+1. Jekyll is built from the [Ruby coding language](https://en.wikipedia.org/wiki/Ruby_%28programming_language%29), and we’ll need to install it in your environment. Visit https://rubyinstaller.org/downloads/ and download the latest version of the installer with the DevKit. (The website suggests the most appropriate installer for you, just look for the “=>” symbol before each link.)
 
-2. Open "Command Prompt" (open your Start Menu and search for "Command Prompt" and an app you can open should come up).
+2.	Run the installer. It’s suggested that you keep the standard installation settings, but if you decide to change, make sure you keep selected the option to install “MSYS2 development toolchain.”
 
-3. Chocolatey is a "package manager": code that lets you download and install open-source software on Windows easily from the command line. We'll now install Chocolately (*make sure to highlight and copy the whole club of text below together, not as separate lines*). Enter the code shown in the steps below (*`code is formatted like this`*), keeping [the command line tips from above](#section1-4) in mind:
+3.	Wait for the installer to finish, but don’t close it after all files are copied. Before closing, the installer will prompt a message asking if you want to run “ridk install.” Keep this option selected and click on “Finish.”
 
-   `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin`
+4.	 After closing the installer, a new command prompt will ask which components you want to install. Type “3” (no quotes). It will install “MSYS2 and MINGW development toolchain.” It might take a couple of minutes and show some warnings along the way, but everything should be fine if you see the following message:
+   
+   `Install MSYS2 and MINGW development toolchain succeeded`
+   
+5.	Close this command prompt and open a **new** one to install Jekyll. [Jekyll](https://jekyllrb.com/) is the code that creates your website (i.e. "site generation"), making it easier to do certain common tasks such as using the same template (same logo, menu, author information…) on all your blog post pages. There's more info on [what Jekyll and static sites are](#section0-1), and on [why you'd want to use Jekyll to make a static website](#section0-3), above. We'll now install Jekyll (if Windows Security gives you a warning popup, ignore it):
 
-4. Close the "Command Prompt" app and open "Git Bash" (which you recently installed) instead. **You'll now use Git Bash any time the command line is called for.**
+   ` gem install jekyll bundler `
+ 
+6.	To make sure everything is running fine, type “jekyll -v” on the prompt and press "Enter." It should return the current version of Jekyll installed on your machine.
 
-5. Jekyll is built from the [Ruby coding language](https://en.wikipedia.org/wiki/Ruby_%28programming_language%29). [Ruby Gems](https://rubygems.org/) makes setting up Ruby software like Jekyll easy (it's a package manager, just like Homebrew—instead of making installation easy on Macs, it adds some stuff to make Ruby installations simpler). We'll now install Ruby (this will take a few minutes):
 
-   `choco install ruby -y`
-
-6. Close the command line program and restart (Ruby won't work until you've done this once)
-
-7. [Jekyll](https://jekyllrb.com/) is the code that creates your website (i.e. "site generation"), making it easier to do certain common tasks such as using the same template (same logo, menu, author information…) on all your blog post pages. There's more info on [what Jekyll and static sites are](#section0-1), and on [why you'd want to use Jekyll to make a static website](#section0-3), above. We'll now install Jekyll (if Windows Security gives you a warning popup, ignore it):
-
-   `gem install jekyll`
-
-   ​
 
 **From now on, all instructions are for both Mac and PC users!**
-
 
 
 ## Setting up Jekyll <a id="section3"></a>
@@ -368,7 +363,7 @@ You'll notice that generating and running your site in the previous section adde
    - **title**: The title of your website, as you want it to appear in the header of the webpage.
    - **email**: Your email address.
    - **description**: A description of your website that will be used in search engine results and the site's RSS feed.
-   - **baseurl**: Fill in the quotation marks with a forward slash followed by the name of your website folder (e.g. "/JekyllDemo") to help locate the site at the correct URL.
+   - **baseurl**: Fill in the quotation marks with a forward slash followed by the name of your website folder (e.g. "/JekyllDemo/") to help locate the site at the correct URL. Make sure that your folder is the same the GitHub repository name and ends with a backslash ("/"). It will be required for publishing it on  GitHub Pages.
    - **url**: Replace "http://yourdomain.com" with "localhost:4000" to help locate your local version of the site at the correct URL.
    - **twitter_username**: Your Twitter username (do not include @ symbol).
    - **github_username**: Your GitHub username.
@@ -379,7 +374,7 @@ You'll notice that generating and running your site in the previous section adde
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-16.png" caption="The author's customized _config.yml file" %}
 
-5. Save the file, and start (or stop and restart if it's currently running) the website, then visit **localhost:4000/JekyllDemo/** (substituting your website folder name for *JekyllDemo* and remembering the last slash mark) to see your customized local site:
+1. Save the file, and start (or stop and restart if it's currently running) the website, then visit **localhost:4000/JekyllDemo/** (substituting your website folder name for *JekyllDemo* and remembering the last slash mark) to see your customized local site:
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-17.png" caption="The author's customized local website" %}
 
