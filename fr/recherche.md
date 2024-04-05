@@ -48,6 +48,7 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 ## Ateliers et évènements
 
+* Daniel van Strien, ‘Computer Vision for the Humanities and Social Sciences: An Introduction to Deep Learning for Image Classification’, Centre for Data, Culture and Society, University of Edinburgh, Royaume-Uni (21 mars 2024).
 * Alex Wermer-Colan, ['Learning Digital Methods with the _Programming Historian_'](https://charlesstudy.temple.edu/event/11953011), Temple University [En ligne], (22 février 2024).
 * Carlo Blum, Adam Crymble, Vicky Garnett, Timothée Giraud, Alíz Horváth, Stefan Krebs, Ralph Marschall, Sofia Papastamkou, & Lorella Viola, 'Invisible College of Digital History: Workshop on Multilingual Educational Resources', C²DH [En ligne], (8 novembre 2023).
 * Nabeel Siddiqui, 'Convolutional Neural Networks for Image Classification', University of Edinburgh [En ligne], (7 novembre 2023).
@@ -94,6 +95,8 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 ## Posters, présentations et conférences invitées
 
+* Joana Vieira Paulino, 'Aplicar o digital à História: porquê e para quê?', Jornadas Interdisciplinares 2024, Universidade de Évora, Évora, Portugal (12 mars 2024).
+* Anisa Hawes, ‘An introduction to _Programming Historian_: Open, sustainable, peer-to-peer technical writing’, King’s College London, Royaume-Uni (11 mars 2024).
 * Josir Cardoso Gomes, ['Seminário Solare de Softwares Livres para Arquitetura e Engenharia'](https://www.caurj.gov.br/seminario-solare-reune-desenvolvedores-internacionais-de-software-livre-para-arquitetura-e-urbanismo/), Conselho de Arquitetura e Urbanismo de Rio de Janeiro (CAU/RJ), Rio de Janeiro, Brésil, (30-31 octobre 2023).
 * Adam Crymble, 'Local/Global Digital Skills in the Humanities: Which Digital Skills to Scholars Need Here?' Research Institute for Humanities. Chinese University of Hong Kong (3 octobre 2023).
 * Daniel Alves & Joana Vieira Paulino, ['IHC’s Digital Humanities Lab: collaborative and interdisciplinary projects with digital methods'](https://rutter-project.org/training-school/), The long life of manuscripts: from material to immaterial texts, RUTTER Project, Centro Interuniversitário de História das Ciências e da Tecnologia (CIUHCT), Universidade de Lisboa, Lisbonne (11-15 septembre 2023).
