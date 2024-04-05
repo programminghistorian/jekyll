@@ -8,7 +8,7 @@ redirect_from: /events
 
 ## Upcoming Events
 
-* Anisa Hawes & Sofia Papastamkou, 'Programming Historian: Presenting the growth and evolution of an open access, community-led, multilingual journal of methods in the humanities', [OPERAS Conference 2024](https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/).   
+* Anisa Hawes & Sofia Papastamkou, '_Programming Historian_: Presenting the growth and evolution of an open access, community-led, multilingual journal of methods in the humanities', [OPERAS Conference 2024](https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/).   
 Date: 24-26 April 2024   
 Location: Sveučilište u Zadru, Zadar, Croatia   
 
@@ -16,7 +16,7 @@ Location: Sveučilište u Zadru, Zadar, Croatia
 Date: 27-31 May 2024   
 Location: Menntavísindasvið Háskóla Íslands, Reykjavík, Iceland   
 
-* Anisa Hawes, Charlotte Chevrie & Anna-Maria Sichani, 'Harnessing Programming Historian’s CC-BY Licence to Empower Multilingual Reuse', [UK-Ireland Digital Humanities Association's annual event](https://digitalhumanities-uk-ie.org/2024-annual-event/).   
+* Anisa Hawes, Charlotte Chevrie & Anna-Maria Sichani, 'Harnessing _Programming Historian_’s CC-BY Licence to Empower Multilingual Reuse', [UK-Ireland Digital Humanities Association's annual event](https://digitalhumanities-uk-ie.org/2024-annual-event/).   
 Date: 4-5 June 2024   
 Location: University College Cork, Cork, Ireland   
 
