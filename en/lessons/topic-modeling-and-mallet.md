@@ -608,7 +608,7 @@ report.
   [zombies using Google Trends]: http://arxiv.org/abs/1003.6087/
   [David Blei and friends]: http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation
   [Mining the Dispatch]: http://dsl.richmond.edu/dispatch/
-  [Topic Modeling Martha Ballard's Diary]: http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/
+  [Topic Modeling Martha Ballard's Diary]: https://perma.cc/39CG-MNLH
   [MALLET]: http://mallet.cs.umass.edu/index.php
   [*Gibbs sampling*]: http://en.wikipedia.org/wiki/Gibbs_sampling
   [`download MALLET`]: http://mallet.cs.umass.edu/download.php
