@@ -40,7 +40,7 @@ doi: 10.46430/phes0013
 
 Muchas de las lecciones en *The Programming Historian en español* requieren que introduzcas órdenes a través de una **Interfaz de línea de comandos**. La manera habitual en la que los usuarios de computadoras interactúan actualmente con sus sistemas es a través de la **Interfaz Gráfica de Usuario**, o GUI (siglas de *Graphical User Inteface*). Esto significa que cuando entras en una carpeta, haces clic en una imagen de una carpeta de archivos; cuando ejecutas un programa, haces clic en él; y cuando navegas por la Web, utilizas el ratón para interactuar con los diferentes elementos de una página Web. Sin embargo, antes de la aparición de las GUI a finales de la década de 1980, la principal forma de interactuar con una computadora era a través de una interfaz de línea de comandos.
 
-{% include figure.html filename="GUI.png" caption="GUI de la computadora de Ian Milligan" %}
+{% include figure.html filename="en-or-intro-to-bash-01.png" caption="Figura 1. GUI de la computadora de Ian Milligan" %}
 
 Las interfaces de línea de comandos ofrecen ventajas para los usuarios de computadoras que necesitan mayor precisión en su trabajo -como los historiadores digitales. Permiten un uso más detallado a la hora de ejecutar algunos programas, ya que puedes agregar parámetros para especificar *exactamente* cómo deseas ejecutar tu programa. Además, se pueden automatizar procesos fácilmente mediante [scripts](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/chap_01.html), que son esencialmente recetas de órdenes escritas en un archivo de texto.
 
@@ -58,15 +58,15 @@ Vamos a iniciar el intérprete de línea de comandos (*shell*). En Windows, ejec
 
 `Aplicaciones -> Utilidades -> Terminal`
 
-{% include figure.html filename="Terminal.png" caption="El programa Terminal.app en OS X" %}
+{% include figure.html filename="en-or-intro-to-bash-02.png" caption="Figura 2. El programa Terminal.app en OS X" %}
 
 Cuando lo ejecutes verás esto en la ventana:
 
-{% include figure.html filename="Blank-Terminal.png" caption="Pantalla de Terminal en blanco en nuestra estación de trabajo de OS X" %}
+{% include figure.html filename="en-or-intro-to-bash-03.png" caption="Figura 3. Pantalla de Terminal en blanco en nuestra estación de trabajo de OS X" %}
 
 Quizá quieras cambiar la apariencia que por defecto tiene la terminal para no esforzarte de más al mirar continuamente texto negro sobre fondo blanco. En la aplicación por defecto de OS X puedes abrir el menú 'Perfiles' en 'Preferencias', bajo 'Terminal'. Haz clic en la pestaña 'Perfiles' y cámbialo por un nuevo esquema de color. Personalmente preferimos algo con menor contraste entre el fondo y el primer plano, pues lo estarás viendo durante mucho tiempo. 'Novel' es uno muy relajante ya que es la paleta de colores de la popular *suite* [Solarized](http://ethanschoonover.com/solarized). Los usuarios de Windows pueden obtener un efecto similar utilizando la pestaña 'Properties' de Git bash. Para llegar a ella, haz click con el botón derecho en cualquier lugar de la barra superior y seleciona 'Properties'.
 
-{% include figure.html filename="Settings.png" caption="Pantalla de configutación en Terminal de OS X" %}
+{% include figure.html filename="en-or-intro-to-bash-04.png" caption="Figura 4. Pantalla de configutación en Terminal de OS X" %}
 
 Una vez satisfecho con la apariencia de la interfaz, ya estás listo para comenzar.
 
@@ -92,7 +92,7 @@ Posiblemente quieras ver más información que únicamente la lista de archivos.
 
 `man ls`
 
-{% include figure.html filename="man-ls.png" caption="Página del manual para el comando LS" %}
+{% include figure.html filename="en-or-intro-to-bash-05.png" caption="Figura 5. Página del manual para el comando LS" %}
 
 Aquí verás una lista del nombre del comando, la forma en la que puedes manipularlo y lo que hace. **Muchos de estos comandos no tendrán sentido en esta etapa, pero no te preocupes: con el tiempo te familiarizarás con ellos**. Puedes explorar esta página de varias maneras: la barra espaciadora te permite moverte hacia abajo de la página, o puedes utilizar la flecha hacia abajo y la flecha hacia arriba por todo el documento.
 
@@ -270,7 +270,7 @@ Escribe:
 
 Verás aparecer Vim frente a ti, un editor de texto en línea de comandos.
 
-{% include figure.html filename="vim.png" caption="Vim" %}
+{% include figure.html filename="en-or-intro-to-bash-06.png" caption="Figura 6. Vim" %}
 
 Si quieres aprender más de Vim, aquí tienes una [buena guía](http://vimdoc.sourceforge.net/htmldoc/quickref.html) disponible.
 
@@ -284,7 +284,7 @@ Si te quieres desplazar rápidamente al final de una línea, puedes oprimir `$` 
 
 Vamos a desplazarnos a la parte superior para hacer un pequeño cambio, como añadir un campo de 'lector' en el encabezado. Sitúa el cursor entre **Author:** y **Translator:**, como esto:
 
-{% include figure.html filename="about-to-insert.png" caption="A punto de añadir un campo" %}
+{% include figure.html filename="en-or-intro-to-bash-07.png" caption="Figura 7. A punto de añadir un campo" %}
 
 Si sólo comienzas a escribir obtendrás un mensaje de error o el cursor comenzará a saltar. Esto se debe a que tienes que especificar que deseas hacer una edición. Presiona la letra
 
@@ -304,7 +304,7 @@ Para abandonar Vim o guardar cambios, tienes que introducir una serie de comando
 
 >> "tolstoi.txt" [dos] 65009L, 3291681C written
 
-{% include figure.html filename="after-writing.png" caption="Después de escribir el archivo con nuestro pequeño cambio" %}
+{% include figure.html filename="en-or-intro-to-bash-08.png" caption="Figura 8. Después de escribir el archivo con nuestro pequeño cambio" %}
 
 Si deseas salir del programa, escribe de nuevo `:` y luego `q`. Esto te regresará a la línea de comandos. Al igual que con el resto de *bash*, también podrías haber combinado los dos comandos. Presionando `:` y luego poniendo `wq` habríamos guardado el archivo y luego habríamos salido del programa. O, si querías salir **sin** guardar, `q!`, habrías salido de Vim y cancelado la preferencia de sobreescribir, por defecto, para guardar tus cambios.
 
