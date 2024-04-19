@@ -23,7 +23,7 @@ doi: 10.46430/phen0048
 
 **At the end of this lesson**, you'll have a basic live website where you can publish content that other people can visit—it will look like [this](http://amandavisconti.github.io/JekyllDemo/)!—and you'll also have some resources to explore if you want to further customize the site.
 
-**Requirements:** A computer (Mac/Windows/Linux are all okay, but this lesson doesn't cover some aspects of Linux use, and you may encounter some issues if you are using a Mac with an M-series (silicone) chip), the ability to download and install software on the computer, an internet connection that can support downloading software. Users have reported needing between 1-3 hours to complete the entire lesson.
+**Requirements:** A computer (Mac/Windows/Linux are all okay, but this lesson doesn't cover some aspects of Linux use, and you may encounter some issues if you are using a Mac with an M-series (silicon) chip), the ability to download and install software on the computer, an internet connection that can support downloading software. Users have reported needing between 1-3 hours to complete the entire lesson.
 
 {% include toc.html %}
 
@@ -153,7 +153,7 @@ Starting with macOS Catalina, zsh has replaced bash as the default shell for Mac
 *If you're using a Mac computer, follow the instructions below until you hit a line that says the Windows-specific instructions are beginning.*
 
 <div class="alert alert-warning">
-Please note that if you are using a Mac with an M-series (silicone) chip, you may encounter some compatibility issues when installing Jekyll or its dependencies. If that’s the case, we advise you to follow additional installation instructions for the relevant package, either from the official documentation, or online help forums.
+Please note that if you are using a Mac with an M-series (silicon) chip, you may encounter some compatibility issues when installing Jekyll or its dependencies. If that’s the case, we advise you to follow additional installation instructions for the relevant package, either from the official documentation, or online help forums.
 </div>
 
 Open a command line window (Applications > Utilities > Terminal) and enter the code shown in the steps below (*`code is formatted like this`*), keeping [the command line tips from above](#section1-4) in mind.
