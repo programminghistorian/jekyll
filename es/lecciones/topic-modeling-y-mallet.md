@@ -76,7 +76,7 @@ Nota: En la bibliografía sobre *topic modeling*, a veces encontrarás el térmi
 ### Ejemplos de modelos de tópicos usados por historiadores:
 
 - Rob Nelson, *[Mining the Dispatch](http://dsl.richmond.edu/dispatch/)*
-- Cameron Blevins, "[Topic Modeling Martha Ballard's Diary](http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/)" *Historying*, April 1, 2010.
+- Cameron Blevins, "[Topic Modeling Martha Ballard's Diary](https://perma.cc/39CG-MNLH)" *Historying*, April 1, 2010.
 - David J Newman y Sharon Block, "Probabilistic topic decomposition of an eighteenth century American newspaper," *Journal of the American Society for Information Science and Technology* vol. 57, no. 6 (April 1, 2006): 753-767.[^2]
 
 Instalar MALLET
