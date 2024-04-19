@@ -5,7 +5,7 @@ original: exploring-and-analyzing-network-data-with-python
 layout: lesson
 collection: lessons
 date: 2017-08-23
-translation_date: 2024-04-19
+translation_date: 2024-04-25
 authors:
 - John R. Ladd
 - Jessica Otis
