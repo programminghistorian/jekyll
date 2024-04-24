@@ -287,7 +287,7 @@ La commande&nbsp;:
 head 2600-0.txt
 ```
 
-vous fourni les dix premières lignes, tandis que&nbsp;:
+vous fournit les dix premières lignes, tandis que&nbsp;:
 
 ```bash
 tail 2600-0.txt
