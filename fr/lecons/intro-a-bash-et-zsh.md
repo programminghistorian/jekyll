@@ -50,7 +50,7 @@ Cette leçon utilise un [shell Unix](https://perma.cc/8KVK-G3MV), qui est un int
 ## Windows&nbsp;: Installation d'un shell
 
 Pour les utilisateurs et utilisatrices de Windows, une étape en plus est nécessaire, car vous devrez installer un shell bash.
-Vous avez plusieurs outils à votre disposition, mais la méthode recommandée est d'installer le Sous-système Windows pour Linux (WSL), disponible depuis Windows 10. Vous trouverez un tutoriel détaillé sur le [site de Microsoft](https://perma.cc/T7NP-JS54). En cas de version Windows plus ancienne, ou si vous préférez ne pas installer une distribution Linux complète, vous avez deux autres choix&nbsp;: vous pouvez installer Git Bash en téléchargeant la dernière version sur [cette page](https://git-for-windows.github.io/) et en suivant les instructions ici sur [Open Hatch](https://perma.cc/7KM8-DR3D). Ou bien, vous pouvez choisir d'installer [Cygwin](https://www.cygwin.com/).
+Vous avez plusieurs outils à votre disposition, mais la méthode recommandée est d'installer le Sous-système Windows pour Linux (WSL), disponible depuis Windows 10. Vous trouverez un tutoriel détaillé sur le [site de Microsoft](https://perma.cc/T7NP-JS54). En cas de version Windows plus ancienne, ou si vous préférez ne pas installer une distribution Linux complète, vous avez deux autres choix&nbsp;: vous pouvez installer Git Bash en téléchargeant la dernière version sur [cette page](https://git-for-windows.github.io/) et en suivant les instructions ici sur [Open Hatch](https://web.archive.org/web/20190114082523/https://openhatch.org/missions/windows-setup/install-git-bash). Ou bien, vous pouvez choisir d'installer [Cygwin](https://www.cygwin.com/).
 
 ## Ouvrir son shell
 
