@@ -662,7 +662,7 @@ from the fields, the possibilities can multiply rapidly!
   [multiple files]: http://archive.org/download/lettertowilliaml00doug
   [Dublin Core]: http://archive.org/download/lettertowilliaml00doug/lettertowilliaml00doug_dc.xml
   [MARCXML]: http://archive.org/download/lettertowilliaml00doug/lettertowilliaml00doug_marc.xml
-  [Library of Congress's MARC 21 Format for Bibliographic Data]: http://www.loc.gov/marc/bibliographic/
+  [Library of Congress's MARC 21 Format for Bibliographic Data]: https://www.librarianshipstudies.com/2017/10/marc-21.html
   [thousands of antislavery letters, manuscripts, and publications]: http://archive.org/search.php?query=collection%3Abplscas&sort=-publicdate
   [eBook and Texts]: https://archive.org/details/texts
   [the way that items and item URLs are structured]: http://blog.archive.org/2011/03/31/how-archive-org-items-are-structured/
@@ -674,8 +674,8 @@ from the fields, the possibilities can multiply rapidly!
   [remember those?]: /lessons/code-reuse-and-modularity
   [item files are named according to specific rules]: https://archive.org/about/faqs.php#140
   [handling exceptions]: http://docs.python.org/2/tutorial/errors.html#handling-exceptions
-  [rules specified for the 260 datafield]: http://www.loc.gov/marc/bibliographic/bd260.html
-  [MARC standards]: http://www.loc.gov/marc/
+  [rules specified for the 260 datafield]: https://www.oclc.org/bibformats/en/2xx/260.html
+  [MARC standards]: https://en.wikipedia.org/wiki/MARC_standards
   [1]: https://github.com/edsu/pymarc
   [functions that it provides for working with MARC XML records]: https://github.com/edsu/pymarc/blob/master/pymarc/marcxml.py
   [Counting Frequencies]: /lessons/counting-frequencies
