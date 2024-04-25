@@ -105,7 +105,7 @@ George Keith,Franciscus Mercurius van Helmont
 George Keith,William Penn
 ```
 
-Maintenant que vous avez téléchargé les données Quaker et vu comment elles sont structurées, il est temps de commencer à travailler avec ces données à l'aide de Python. Une fois Python et pip installés (voir [Prérequis](#prérequis) ci-dessus), vous devez installer NetworkX, en tapant ceci dans votre ligne de commande (voir notre leçon disponible [en anglais](/en/lessons/intro-to-bash) et [en espagnol](/es/lecciones/introduccion-a-bash))[^4]&nbsp;:
+Maintenant que vous avez téléchargé les données Quaker et vu comment elles sont structurées, il est temps de commencer à travailler avec ces données à l'aide de Python. Une fois Python et pip installés (voir [Prérequis](#prérequis) ci-dessus), vous devez installer NetworkX, en tapant ceci dans votre ligne de commande (voir [notre leçon sur les interfaces en ligne de commande](/fr/lecons/intro-a-bash-et-zsh)[^4]&nbsp;:
 
 ```
 pip3 install networkx==3.2
