@@ -413,7 +413,7 @@ Desde luego, para que esta técnica sea útil se requiere hacer algo de [limpiez
 [múltiples archivos]: http://archive.org/download/lettertowilliaml00doug
 [Dublin Core]: http://archive.org/download/lettertowilliaml00doug/lettertowilliaml00doug_dc.xml
 [MARCXML]: http://archive.org/download/lettertowilliaml00doug/lettertowilliaml00doug_marc.xml
-[formato MARC 21 de la Biblioteca del Congreso para datos bibliográficos]: http://www.loc.gov/marc/bibliographic/
+[formato MARC 21 de la Biblioteca del Congreso para datos bibliográficos]: https://www.librarianshipstudies.com/2017/10/marc-21.html
 [cientos de cartas, manuscritos y  publicaciones antiesclavistas]: http://archive.org/search.php?query=collection%3Abplscas&sort=-publicdate
 [eBook and Texts]: https://archive.org/details/texts
 [elementos y sus URL están estructurados]: http://blog.archive.org/2011/03/31/how-archive-org-items-are-structured/
@@ -425,8 +425,8 @@ Desde luego, para que esta técnica sea útil se requiere hacer algo de [limpiez
 [remember those?]: /lessons/code-reuse-and-modularity
 [son nombrados de acuerdo a reglas específicas]: https://archive.org/about/faqs.php#140
 [manejo de excepciones]: http://docs.python.org/2/tutorial/errors.html#handling-exceptions
-[reglas específicas para el campo 260]: http://www.loc.gov/marc/bibliographic/bd260.html
-[estándares MARC]: http://www.loc.gov/marc/
+[reglas específicas para el campo 260]: https://www.oclc.org/bibformats/en/2xx/260.html
+[estándares MARC]: https://en.wikipedia.org/wiki/MARC_standards
 [1]: https://github.com/edsu/pymarc
 [algunas funciones que provee para trabajar con archivos MARC XML]: https://github.com/edsu/pymarc/blob/master/pymarc/marcxml.py
 [Contar frecuencias]: /es/lecciones/contar-frecuencias
