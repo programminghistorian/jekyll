@@ -40,7 +40,7 @@ doi: 10.46430/phes0050
 
 **Al final de esta lección**, tendrás un sitio web básico en funcionamiento donde podrás publicar contenido que otras personas podrán visitar -¡se verá [así](https://amandavisconti.github.io/JekyllDemo/)!- y también tendrás algunos recursos para explorar, si deseas personalizar aún más el sitio.
 
-**Requisitos:** una computadora (Mac/Windows/Linux funcionan, aunque esta lección no cubre algunos aspectos del uso de Linux), que permita la descarga e instalación de software y conexión a Internet que soporte la descarga de software. Según los usuarios, se necesitan entre 1 y 3 horas para completar toda la lección.
+**Requisitos:** una computadora (Mac/Windows/Linux funcionan, aunque esta lección no cubre algunos aspectos del uso de Linux y puede que tengas algunos problemas si estás utilizando una Mac con un chip de la serie-M), que permita la descarga e instalación de software y conexión a Internet que soporte la descarga de software. Según los usuarios, se necesitan entre 1 y 3 horas para completar toda la lección.
 
 **Nivel de dificultad:** Intermedio (esta lección no incluye el uso de línea de comandos y git, pero te ofrece todo lo necesario para que la completes).
 
@@ -191,6 +191,10 @@ A continuación, vamos a instalar algunas dependencias de software (es decir, pr
 ### En Mac <a id="sectionMac"></a>
 
 Si estás utilizando una computadora Mac, sigue las instrucciones que se encuentran a continuación.
+
+<div class="alert alert-warning">
+Ten en cuenta que si estás utilizando una Mac con un chip de la serie M puede que encuentres problemas de compatibilidad al instalar Jekyll o sus dependencias. Si ese es el caso, te recomendamos que sigas las instrucciones de instalación adicionales para el paquete correspondiente, tanto de la documentación original como de foros online.
+</div>
 
 Abre una ventana de línea de comandos (*Aplicaciones > Utilidades > Terminal*) e ingresa el código que se muestra en los pasos a continuación (`el código es el texto que aparece formateado así`) siguiendo [las sugerencias de uso de la línea de comandos detalladas más arriba](#section1-4).
 
