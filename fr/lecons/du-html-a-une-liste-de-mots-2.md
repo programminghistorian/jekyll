@@ -31,6 +31,11 @@ doi: 10.46430/phfr0028
 ---
 
 {% include toc.html %}
+
+<div class="alert alert-warning" role="alert">
+Le site web du Old Bailey Online a récemment été mis à jour. Malheureusement, à cause de ces <a href="https://www.oldbaileyonline.org/about/whats-new">changements</a>, certains éléments utilisés dans cette leçon (voire tous) ne fonctionneront plus comme ils sont décrits. Les méthodologies enseignées dans cette leçon restent tout de même pertinentes, et peuvent être adaptées à un autre site. Nous essayons actuellement d'adapter la leçon au nouveau site du Old Bailey Online, mais nous ne pouvons pas encore déterminer quand la leçon sera prête. [Avril 2024]
+</div>
+
 ## Objectifs de la leçon 
 
 Dans cette leçon, nous allons implémenter l’algorithme dont nous avons parlé dans [la première partie](/fr/lecons/du-html-a-une-liste-de-mots-1) de cette leçon. Nous avons jusque-là pu écrire une procédure chargeant le contenu d’une page HTML et retournant le contenu présent entre la première balise `<p>` et la dernière balise `<br/>`. 
