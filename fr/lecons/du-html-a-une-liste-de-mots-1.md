@@ -32,6 +32,10 @@ doi: 10.46430/phfr0026
 
 {% include toc.html %}
 
+<div class="alert alert-warning" role="alert">
+Le site web du Old Bailey Online a récemment été mis à jour. Malheureusement, à cause de ces <a href="https://www.oldbaileyonline.org/about/whats-new">changements</a>, certains éléments utilisés dans cette leçon (voire tous) ne fonctionneront plus comme ils sont décrits. Les méthodologies enseignées dans cette leçon restent tout de même pertinentes, et peuvent être adaptées à un autre site. Nous essayons actuellement d'adapter la leçon au nouveau site du Old Bailey Online, mais nous ne pouvons pas encore déterminer quand la leçon sera prête. [Avril 2024]
+</div>
+
 ## Objectifs de la leçon 
 
 Dans cette leçon en deux parties, nous allons utiliser les compétences acquises dans la leçon [Télécharger des pages web avec Python](/fr/lecons/telecharger-des-pages-web-avec-python), et voir comment supprimer les *balises HTML* de la page de la [transcription du procès-verbal de Benjamin Bowsey en 1780](https://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33) dans le but de créer un texte propre et réutilisable. Nous réaliserons cette tâche en utilisant les *opérateurs et méthodes de chaines de caractères* propres à Python, ainsi que nos compétences relatives à la [*lecture attentive*](https://perma.cc/V4GX-9N5R). Nous introduirons ensuite les concepts de *boucles* et *d’instructions conditionnelles* afin de répéter notre processus de traitement et de tester certaines conditions nous permettant de séparer le contenu des balises HTML. Pour finir, nous convertirons les données obtenues et enregistrées sous la forme d’un texte sans balises HTML en une *liste de mots* qui pourra par la suite être triée, indexée et investie lors d’analyses statistiques.
