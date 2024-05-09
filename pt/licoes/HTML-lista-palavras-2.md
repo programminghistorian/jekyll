@@ -32,6 +32,10 @@ doi: 10.46430/phpt0028
 
 {% include toc.html %}
 
+<div class="alert alert-info">
+O site do Old Bailey Online foi recentemente atualizado. Infelizmente, devido às diversas <a href="https://www.oldbaileyonline.org/about/whats-new">mudanças</a>, muitos (se não todos) os elementos do site de exemplo usado nesta lição não funcionarão conforme descrito. No entanto, as metodologias ensinadas por esta lição permanecem relevantes e podem ser adaptadas pelos leitores para um site de exemplo diferente. Estamos trabalhando na adaptação da lição para o novo site do Old Bailey Online, mas ainda não temos cronograma preciso de quando a lição será atualizada. [Abril de 2024]
+</div>
+
 ## Objetivos da Lição
 
 Nesta lição aprenderá os comandos de Python necessários para implementar a segunda parte do algoritmo iniciado na lição [De HTML para Lista de Palavras (parte 1)](/pt/licoes/HTML-lista-palavras-1). A primeira metade do algoritmo obtém o conteúdo de uma página HTML e salva apenas o conteúdo entre a primeira tag `<p>` e a última tag `<br/>`. A segunda metade do algoritmo faz o seguinte: 
