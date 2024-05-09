@@ -32,6 +32,10 @@ doi: 10.46430/phpt0027
 
 {% include toc.html %}
 
+<div class="alert alert-info">
+O site do Old Bailey Online foi recentemente atualizado. Infelizmente, devido às diversas <a href="https://www.oldbaileyonline.org/about/whats-new">mudanças</a>, muitos (se não todos) os elementos do site de exemplo usado nesta lição não funcionarão conforme descrito. No entanto, as metodologias ensinadas por esta lição permanecem relevantes e podem ser adaptadas pelos leitores para um site de exemplo diferente. Estamos trabalhando na adaptação da lição para o novo site do Old Bailey Online, mas ainda não temos cronograma preciso de quando a lição será atualizada.  [Abril de 2024]
+</div>
+
 ## Objetivos da lição
 
 Nesta lição de duas partes, aprofundaremos o que aprendeu sobre o [Download de Páginas Web com Python](/pt/licoes/download-paginas-web-python), aprendendo como remover a *marcação HTML* de uma página web da [transcrição do julgamento criminal de Benjamin Bowsey em 1780](https://perma.cc/8LM6-W39K). Faremos isso usando uma variedade de *operadores de string*, *métodos de string* e habilidades de leitura atenta. Introduziremos *looping* e *branching* de modo que os programas possam repetir tarefas e testar certas condições, tornando possível a separação do conteúdo das tags HTML. Finalmente, faremos a conversão do conteúdo de uma string longa para uma *lista de palavras*, que podem ser ordenadas, indexadas e contabilizadas posteriormente.
