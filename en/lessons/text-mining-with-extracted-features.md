@@ -427,7 +427,7 @@ As before, the data is returned as a Pandas DataFrame. This time, there is much 
 
 {% include figure.html filename="single-row-tokencount.png" caption="Single row of tokenlist." %}
 
-The columns in bold are an index. Unlike the typical one-dimensional index seen before, here there are four dimensions to the index: page, section, token, and pos. This row says that for the 24th page, in the body section (i.e. ignoring any words in the header or footer), the word 'years' occurs 1 time as an plural noun. The part-of-speech tag for a plural noun, `NNS`, follows the [Penn Treebank](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html) definition.
+The columns in bold are an index. Unlike the typical one-dimensional index seen before, here there are four dimensions to the index: page, section, token, and pos. This row says that for the 24th page, in the body section (i.e. ignoring any words in the header or footer), the word 'years' occurs 1 time as an plural noun. The part-of-speech tag for a plural noun, `NNS`, follows the [Penn Treebank](https://web.archive.org/web/20180730200619/https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html) definition.
 
 > The "words" on the first page seems to be OCR errors for the cover of the book. The HTRC Feature Reader refers to "pages" as the $$n^{th}$$ scanned image of the volume, not the actual number printed on the page. This is why "page 1" for this example is the cover.
 
