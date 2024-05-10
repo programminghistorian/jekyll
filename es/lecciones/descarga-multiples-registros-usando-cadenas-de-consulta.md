@@ -34,7 +34,7 @@ series_total: 15
 
 {% include toc.html %}
 
-<div class="alert alert-info">
+<div class="alert alert-warning">
 El sitio web de Old Bailey Online fue actualizado recientemente. Desafortunadamente, debido a diversos <a href="https://www.oldbaileyonline.org/about/whats-new">cambios</a>, muchos (si no todos) de los elementos del ejemplo utilizado en esta lección no funcionarán como se describe. Sin embargo, las metodologías que se enseñan en la lección siguen siendo relevantes y los lectores pueden adaptarlas para otros sitios web. Aunque estamos trabajando en adaptar la lección para la nueva Old Bailey Online, no tenemos un cronograma claro sobre cuándo actualizaremos la lección. [abril de 2024]
 </div>
 
