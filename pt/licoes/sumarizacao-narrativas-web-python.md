@@ -265,7 +265,6 @@ Nos últimos anos, o crescente aumento na disponibilização de conteúdos onlin
 
 O projeto *Conta-me Histórias* encontra-se disponível, desde 2018, a partir dos seguintes endereços:
 - Página web (versão PT): [https://contamehistorias.pt](https://contamehistorias.pt)
-- Google Play: [https://play.google.com/store/apps/details?id=com.app.projetofinal](https://play.google.com/store/apps/details?id=com.app.projetofinal)
 - Biblioteca Python: [https://github.com/LIAAD/TemporalSummarizationFramework](https://perma.cc/J7BB-28YX) (em inglês)
 
 Outros endereços de relevância:
