@@ -96,6 +96,8 @@ The project team and members of the wider community are involved in a number of 
 
 ## Posters, Conference Papers, & Invited Talks
 
+* Matthias Gille Levenson, Célian Ringwald, Marie Flesch, Jennifer Isasi, Sofia Papastamkou, Riva Quiroga et David Valentine, 'Connecter les chapitres linguistiques de _Programming Historian_ ? Vers une table conceptuelle multilingue constituée semi-automatiquement', [Humanistica 2024](https://humanistica2024.sciencesconf.org/), Université Moulay Ismaïl, Meknès, Morocco, & online (3 May 2024).     
+* Anisa Hawes & Sofia Papastamkou, '_Programming Historian_: Presenting the growth and evolution of an open access, community-led, multilingual journal of methods in the humanities', [OPERAS Conference 2024](https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/), Sveučilište u Zadru, Zadar, Croatia (24-26 April 2024). 
 * Joana Vieira Paulino, 'Aplicar o digital à História: porquê e para quê?', Jornadas Interdisciplinares 2024, Universidade de Évora, Évora, Portugal (12 March 2024).
 * Anisa Hawes, 'An introduction to _Programming Historian_: Open, sustainable, peer-to-peer technical writing', King’s College London, United Kingdom (11 March 2024).
 * Josir Cardoso Gomes, ['Seminário Solare de Softwares Livres para Arquitetura e Engenharia'](https://www.caurj.gov.br/seminario-solare-reune-desenvolvedores-internacionais-de-software-livre-para-arquitetura-e-urbanismo/), Conselho de Arquitetura e Urbanismo de Rio de Janeiro (CAU/RJ), Rio de Janeiro, Brazil (30-31 October 2023).

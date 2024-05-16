@@ -6,15 +6,7 @@ original: events
 
 # Évènements
 
-## Évènements à venir 
-
-* Anisa Hawes & Sofia Papastamkou, '_Programming Historian_: Presenting the growth and evolution of an open access, community-led, multilingual journal of methods in the humanities', [OPERAS Conference 2024](https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/).   
-Date : 24-26 avril 2024   
-Lieu : Sveučilište u Zadru, Zadar, Croatie
-
-* Matthias Gille Levenson, Célian Ringwald, Marie Flesch, Jennifer Isasi, Sofia Papastamkou, Riva Quiroga et David Valentine, 'Connecter les chapitres linguistiques de _Programming Historian_ ? Vers une table conceptuelle multilingue constituée semi-automatiquement', [Humanistica 2024](https://humanistica2024.sciencesconf.org/).     
-Date : 3 mai 2024     
-Lieu : Hybride – Université Moulay Ismaïl, Meknès, Maroc, & en ligne     
+## Évènements à venir     
 
 * Sofia Papastamkou, Stefan Krebs, Vicky Garnett, Siobhan McElduff, Anisa Hawes & Charlotte Chevrie, 'Measuring the Impact of Open Educational Resources on Digital Methods for Humanists', [DHNB 2024 8th Conference on Digital Humanities in the Nordic and Baltic Countries](https://dhnb.eu/conferences/dhnb2024/).   
 Date : 27-31 mai 2024   
