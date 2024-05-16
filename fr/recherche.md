@@ -95,7 +95,7 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 ## Posters, présentations et conférences invitées
 
-* Matthias Gille Levenson, Célian Ringwald, Marie Flesch, Jennifer Isasi, Sofia Papastamkou, Riva Quiroga et David Valentine, 'Connecter les chapitres linguistiques de _Programming Historian_ ? Vers une table conceptuelle multilingue constituée semi-automatiquement', [Humanistica 2024](https://humanistica2024.sciencesconf.org/), Université Moulay Ismaïl, Meknès, Maroc, & en ligne (3 mai 2024)
+* Matthias Gille Levenson, Célian Ringwald, Marie Flesch, Jennifer Isasi, Sofia Papastamkou, Riva Quiroga et David Valentine, 'Connecter les chapitres linguistiques de _Programming Historian_ ? Vers une table conceptuelle multilingue constituée semi-automatiquement', [Humanistica 2024](https://humanistica2024.sciencesconf.org/), Université Moulay Ismaïl, Meknès, Maroc, & en ligne (3 mai 2024).
 * Anisa Hawes & Sofia Papastamkou, '_Programming Historian_: Presenting the growth and evolution of an open access, community-led, multilingual journal of methods in the humanities', [OPERAS Conference 2024](https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/), Sveučilište u Zadru, Zadar, Croatie (24-26 avril 2024). 
 * Joana Vieira Paulino, 'Aplicar o digital à História: porquê e para quê?', Jornadas Interdisciplinares 2024, Universidade de Évora, Évora, Portugal (12 mars 2024).
 * Anisa Hawes, ‘An introduction to _Programming Historian_: Open, sustainable, peer-to-peer technical writing’, King’s College London, Royaume-Uni (11 mars 2024).
