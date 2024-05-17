@@ -72,7 +72,7 @@ This two-part lesson does not aim to:
 We suggest approaching this two-part lesson in two stages:
 
 - First, read through the materials on this page, to gain familiarity with the key conceptual issues and the overall workflow for training a computer vision model
-- Second, we recommend that you run the code for this lesson through the [accompanying Jupyter Notebook](/assets/computer-vision-deep-learning-pt1) on Google Colab, which works well for the exploratory approch we will be following.
+- Second, we recommend that you run the code for this lesson through the [accompanying Jupyter Notebook](/assets/computer-vision-deep-learning-pt1/computer-vision-deep-learning-pt1-2.ipynb) on Google Colab, which works well for the exploratory approch we will be following.
 
 In this two-part lesson we will be using a deep learning based approach to computer vision. The process of setting up an environment for doing deep learning has become easier but can still be complex. We have tried to keep this setup process as simple as possible, and recommend a fairly quick route to start running the lesson's code.
 
