@@ -72,39 +72,35 @@ This two-part lesson does not aim to:
 We suggest approaching this two-part lesson in two stages:
 
 - First, read through the materials on this page, to gain familiarity with the key conceptual issues and the overall workflow for training a computer vision model
-- Second, run the code in the accompanying Jupyter Notebook version of each lesson on Kaggle (see below)
+- Second, we recommend that you run the code for this lesson through the [accompanying Jupyter Notebook](https://nbviewer.org/github/programminghistorian/jekyll/blob/gh-pages/assets/computer-vision-deep-learning-pt1/computer-vision-deep-learning-pt1-2.ipynb) on Google Colab, which works well for the exploratory approch we will be following.
 
 In this two-part lesson we will be using a deep learning based approach to computer vision. The process of setting up an environment for doing deep learning has become easier but can still be complex. We have tried to keep this setup process as simple as possible, and recommend a fairly quick route to start running the lesson's code.
 
-### Notebooks
+### Running the Notebook
 
-This two-part _Programming Historian_ lesson is available as a Jupyter Notebook. We recommend that you run the code for this through the accompanying notebooks, which work well for the exploratory nature we will be using.
+You can run the lesson code in a variety of different ways, but we strongly encourage you to use the 'cloud' set-up instructions as opposed to setting things up locally. This is for a several reasons:
 
-### Running the Notebooks
-
-You can run the lesson notebooks in a variety of different ways. We strongly encourage you to use the 'cloud' setup instructions as opposed to setting things up locally. This is for a several reasons:
-
-- The setup process for using deep learning in a cloud environment _can_ be much simpler than trying to set things up locally. Many laptops and personal computers won't have this type of hardware available and the process of installing the necessary software drivers can be time consuming.
+- The set-up process for using deep learning in a cloud environment _can_ be much simpler than trying to set things up locally. Many laptops and personal computers won't have this type of hardware available and the process of installing the necessary software drivers can be time consuming.
 - The code in this lesson will run much more quickly when a specific type of [Graphical Processing Unit](https://perma.cc/PW3J-BVHZ) (GPU) is available. This will allow for an interactive approach to working with models and outputs.
 - [GPUs are more energy efficient](https://doi.org/10.1109/BDCloud-SocialCom-SustainCom.2016.76) for some tasks compared to [Central Processing Units](https://perma.cc/2P2P-EL4V) (CPUs), including the type of tasks we will work with in these lessons.
 
-### Kaggle
+### Google Colab
 
-[Kaggle](https://perma.cc/9H6M-PDB6) is a website which hosts datasets, runs data science competitions and provides learning resources. Kaggle also hosts Jupyter Notebooks, including notebooks with access to GPUs.
+[Google Colab](https://colab.research.google.com/) is a free cloud service that supports Jupyter notebooks and provides free access to computing resources including GPUs.
 
-To run the lesson code on Kaggle you will need to:
+To run the lesson code on Google Colab you will need to:
 
-- Create an account on [Kaggle](https://www.kaggle.com) (you will need to provide a phone number), or log in to your existing account.
-- Go to [https://www.kaggle.com/code/davanstrien/progamming-historian-deep-learning-pt1](https://www.kaggle.com/code/davanstrien/progamming-historian-deep-learning-pt1). The data used in this lesson is provided alongside these notebooks.
-- Click on the 'Edit' button to create a copy of the notebook.
-- Set the 'Accelerator option' to a 'GPU'; you will find this option under 'settings'. Kaggle occasionally changes which type of GPUs they make available. Selecting a single GPU will be sufficient for this lesson.
+- Create a free account on [Google](https://accounts.google.com/signup) if you don't already have one, or log in to your existing account. A Google account is required to save and run notebooks on Colab.
+- [Open the notebook](https://nbviewer.org/github/programminghistorian/jekyll/blob/gh-pages/assets/computer-vision-deep-learning-pt1/computer-vision-deep-learning-pt1-2.ipynb) and click the _Open in Colab_ button.
+- Once the notebook is opened, you may want to save a copy to your own Google Drive. You can do this by selecting **File** > _Save a copy in Drive_.
+- To use a GPU, go to **Runtime** > **Change runtime type**, then under the `Hardware accelerator` dropdown, select a GPU option (e.g. T4 GPU) and click _Save_. This will enable GPU acceleration for your notebook. Colab occasionally changes which type of GPUs they make available. 
 
-{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-01.png" alt="Screenshot showing the Accelerator option set to GPU" caption="Figure 1. The Kaggle notebooks settings menu" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-01.png" alt="Screenshot showing the Accelerator option set to GPU" caption="Figure 1. The Google Colab 'Runtime' settings menu" %}
 
-- The interface for Kaggle notebooks should be familiar if you have used Jupyter notebooks before. To run a cell containing code you  click the right-pointing arrow button or, if the cell is selected, using 'Shift + Enter'.
-- Remember to close your session down once you have finished working with the notebooks. You can do this by accessing the 'run' drop down menu at the top of a Kaggle notebook.
+- The interface for Colab notebooks should be familiar if you have used Jupyter notebooks before. To run a cell containing code, click the play button on the left side of the cell or, if the cell is selected, use _Shift_ + _Enter_.
+- Remember to disconnect your runtime once you have finished working with the notebooks to avoid using up your allocation of time. You can do this by selecting **Runtime** > **Manage Sessions** and then selecting _Terminate_ for your active session.
 
-Kaggle has further [documentation on using their notebooks](https://perma.cc/YF2N-C94Q) as well as guidance on [efficient GPU usage](https://perma.cc/V8CZ-WZQ4).
+Google Colab has further [documentation on using their notebooks](https://colab.research.google.com/notebooks/welcome.ipynb) as well as a useful [FAQ section](https://perma.cc/8EFW-AA2U) for common questions and efficient usage tips.
 
 ### Local Setup
 
@@ -421,7 +417,7 @@ A 'learning rate' is used to determine how much a model should update based on t
 
 When we train a deep learning model, we usually do so to make predictions on new unseen data which doesn't contain labels. For example, we might want to use our advert classifier across all of images for a particular time period to count how many of each type of advert (illustrated or not) appeared in this corpus. We, therefore, don't want a model that only does well at learning how to classify the training data it is shown. Consequently, we almost always use some form of 'validation data'. This is data which is used to check that the weights a model is learning on the training data also translate to new data. In the training loop, the validation data is only used to 'test' the model's predictions. The model does not directly use to update weights. This helps ensure we don't end up 'overfitting' our model. 
 
-'Overfitting' refers to when a model becomes very successful at making predictions on the training data but these predictions don't generalise beyond the training data. In effect, the model is 'remembering' the training data rather than learning more general features to make correct predictions on new data. A validation set prevents this by allowing you to see how well the model is doing on data it hasn't learned from. Sometimes, an additional split is made of the data which is used to make predictions only at the end of training a model. This is often known as a 'test' set. A test set is used to validate model performance for data science competitions, such as those hosted on Kaggle, and to validate the performance of models created by external partners. This helps ensure a model is robust in situations where validation data has deliberately or accidentally been used to 'game' the performance of a model.
+'Overfitting' refers to when a model becomes very successful at making predictions on the training data but these predictions don't generalise beyond the training data. In effect, the model is 'remembering' the training data rather than learning more general features to make correct predictions on new data. A validation set prevents this by allowing you to see how well the model is doing on data it hasn't learned from. Sometimes, an additional split is made of the data which is used to make predictions only at the end of training a model. This is often known as a 'test' set. A test set is used to validate model performance for data science competitions, such as those hosted on [Kaggle](https://www.kaggle.com/competitions), and to validate the performance of models created by external partners. This helps ensure a model is robust in situations where validation data has deliberately or accidentally been used to 'game' the performance of a model.
 
 ## Transfer Learning
 
@@ -439,7 +435,7 @@ When a model is created in the fastai library using the `vision_learner` method,
 
 ## Suggested Experiments
 
-It is important to develop a sense of what happens when you make changes to the training process. We suggest making a copy of the lesson notebook and seeing what happens if you make changes. Here are some suggestions:
+It is important to develop a sense of what happens when you make changes to the training process. We suggest making a new copy of the lesson notebook and seeing what happens if you make changes. Here are some suggestions:
 
 - Change the size of the input images defined in the `Resize` item transform in the `ImageDataLoaders`.
 - Change the model used in `vision_learner` from `resnet18` to `resnet34`.
