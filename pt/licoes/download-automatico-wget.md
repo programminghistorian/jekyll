@@ -252,7 +252,7 @@ Isto é importante. Significa que o wget deve seguir os links, mas não além do
 
 Aqui está uma representação gráfica:
 
-{% include figure.html filename="active-history-chart_edited-1.jpeg" alt="Representação gráfica sobre como 'no-parent' funciona com o wget" caption="Figura 2. Uma representação gráfica de como ‘no-parent’ funciona com o wget" %}
+{% include figure.html filename="active-history-chart_edited-1.jpg" alt="Representação gráfica sobre como 'no-parent' funciona com o wget" caption="Figura 2. Uma representação gráfica de como ‘no-parent’ funciona com o wget" %}
 
 Por fim, se desejar buscar fora de uma hierarquia, o melhor é especificar o quão longe deseja avançar. O padrão é seguir cada link e continuar até um limite de cinco páginas a partir da primeira página que fornecer. Porém, talvez queira apenas seguir um link e parar por aí. Neste caso, pode inserir `-l 2`, que conduzirá a um nível de duas páginas da web. Observe que este é um 'L' em caixa baixa, não um número 1. 
 
