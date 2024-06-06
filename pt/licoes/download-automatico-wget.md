@@ -32,7 +32,7 @@ doi: 10.46430/phpt0047
 
 ## Nota do editor
 
-Esta lição requer o uso da linha de comando. Se não possui experiência prévia de uso da linha de comando, talvez seja útil conhecer a lição do *Programming Historian*: [Introduction to the Bash Command Line](/en/lessons/intro-to-bash).
+Esta lição requer o uso da linha de comando. Se não possui experiência prévia de uso da linha de comando, talvez seja útil conhecer a lição do *Programming Historian*: [Introduction to the Bash Command Line](/en/lessons/intro-to-bash) (em inglês).
 
 ## Objetivos da lição
 
