@@ -93,7 +93,6 @@ We are grateful to our many dozens of individual sponsors who contribute through
 
 We also publicly thank all of our active 'Patron' and 'Educator' supporters:
 
-- James Baker
 - Tim Hitchcock
 - Shawn Graham
 - Jeff Blackadar
@@ -105,6 +104,7 @@ We also publicly thank all of our active 'Patron' and 'Educator' supporters:
 - Ben Akrigg
 - Robert C.H. Sweeny
 - Simon Mahony
+- James Baker
 - Laura Gayle Green (Educator)
 - Rebecca Kahn (Educator)
 - Sarah Melton (Educator)
