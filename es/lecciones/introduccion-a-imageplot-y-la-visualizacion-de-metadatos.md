@@ -39,7 +39,7 @@ Como paso final, utilizarás las medidas generadas a través de ImagePlot para c
 
 ### Información de trasfondo
 #### ¿Qué es ImagePlot?
-Esta herramienta fue creada por el equipo de [Software Studies Initiative](http://lab.softwarestudies.com/search/label/espa%C3%B1ol) para realizar visualizaciones que puedan abarcar la totalidad de una colección de imágenes y opera dentro de otro programa de libre acceso llamado [ImageJ](https://imagej.nih.gov/ij/?). Los creadores de ImagePlot utilizan el término "vista a distancia", *distant viewing* en inglés, para describir este tipo de visualización y análisis porque el punto de partida o enfoque principal es lo que se puede percibir de la totalidad de los elementos de la colección, en vez de uno o dos elementos a la vez.
+Esta herramienta fue creada por el equipo de [Software Studies Initiative](http://lab.softwarestudies.com/search/label/espa%C3%B1ol) para realizar visualizaciones que puedan abarcar la totalidad de una colección de imágenes y opera dentro de otro programa de libre acceso llamado [ImageJ](https://imagej.net/). Los creadores de ImagePlot utilizan el término "vista a distancia", *distant viewing* en inglés, para describir este tipo de visualización y análisis porque el punto de partida o enfoque principal es lo que se puede percibir de la totalidad de los elementos de la colección, en vez de uno o dos elementos a la vez.
 
 #### Visualización de metadatos
 
