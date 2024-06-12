@@ -5,7 +5,7 @@ original: automated-downloading-with-wget
 layout: lesson
 collection: lessons
 date: 2012-06-27
-translation_date: 2024-06-07
+translation_date: 2024-06-13
 authors:
 - Ian Milligan
 reviewers:
