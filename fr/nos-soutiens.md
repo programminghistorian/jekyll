@@ -58,7 +58,7 @@ Nous accueillons volontiers les demandes de renseignements des contributeurs pot
 ## Partenariats révolus
 Les institutions suivantes ont participé à de notre programme de [Partenariat institutionnel](pi).
 
-- [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), États-Unis [2011-2022].
+- [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), États-Unis [2021-2022].
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Royaume-Uni [2021-2022].
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library-digital), Royaume-Uni [2020].
 - [Software Sustainability Institute](https://www.software.ac.uk/), Royaume-Uni [2021].
@@ -97,6 +97,7 @@ Nous sommes reconnaissants aux dizaines d'individus qui contribuent au projet à
 
 Nous tenons également à remercier publiquement tous nos donateurs actifs de niveau 'mécène' et 'éducation':
 
+- James Baker
 - Tim Hitchcock
 - Shawn Graham
 - Jeff Blackadar
