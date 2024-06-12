@@ -56,7 +56,7 @@ We welcome enquiries from prospective [Institutional Partner Programme](ipp) con
 ### Alumni Partners
 Former contributors to our [Institutional Partner Programme](support-us#institutional-partner-programme).
 
-- [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), United States [2011-2022].
+- [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), United States [2021-2022].
 - [Centre for Digital Humanities, University College London](https://www.ucl.ac.uk/digital-humanities/), United Kingdom [2021-2022].
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library-digital), United Kingdom [2020].
 - [Software Sustainability Institute](https://www.software.ac.uk/), United Kingdom [2021].
@@ -104,6 +104,7 @@ We also publicly thank all of our active 'Patron' and 'Educator' supporters:
 - Ben Akrigg
 - Robert C.H. Sweeny
 - Simon Mahony
+- James Baker
 - Laura Gayle Green (Educator)
 - Rebecca Kahn (Educator)
 - Sarah Melton (Educator)
