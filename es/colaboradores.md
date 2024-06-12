@@ -94,7 +94,6 @@ Estamos muy agradecidos a todos los patrocinadores individuales que contribuyen 
 
 En particular, agradecemos la contribución de los siguientes suscriptores activos de Patreon de nivel 'Patrocinio' y 'Educación':
 
-- James Baker
 - Tim Hitchcock
 - Shawn Graham
 - Jeff Blackadar
@@ -106,6 +105,7 @@ En particular, agradecemos la contribución de los siguientes suscriptores activ
 - Ben Akrigg
 - Robert C.H. Sweeny
 - Simon Mahony
+- James Baker
 - Laura Gayle Green ('Educación')
 - Rebecca Kahn ('Educación')
 - Sarah Melton ('Educación')
