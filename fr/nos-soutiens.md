@@ -97,7 +97,6 @@ Nous sommes reconnaissants aux dizaines d'individus qui contribuent au projet à
 
 Nous tenons également à remercier publiquement tous nos donateurs actifs de niveau 'mécène' et 'éducation':
 
-- James Baker
 - Tim Hitchcock
 - Shawn Graham
 - Jeff Blackadar
@@ -109,6 +108,7 @@ Nous tenons également à remercier publiquement tous nos donateurs actifs de ni
 - Ben Akrigg
 - Robert C.H. Sweeny
 - Simon Mahony
+- James Baker
 - Laura Gayle Green (éducation)
 - Rebecca Kahn (éducation)
 - Sarah Melton (éducation)
