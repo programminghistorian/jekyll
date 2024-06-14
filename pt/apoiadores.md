@@ -110,6 +110,7 @@ Também agradecemos publicamente a todos os nossos apoiadores ativos ‘Patrono�
 -   Robert C.H. Sweeny
 -   Simon Mahony
 -   James Baker
+-   Cory Taylor
 -   Laura Gayle Green (Educator)
 -   Rebecca Kahn (Educator)
 -   Sarah Melton (Educator)
