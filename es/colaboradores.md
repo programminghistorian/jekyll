@@ -106,6 +106,7 @@ En particular, agradecemos la contribución de los siguientes suscriptores activ
 - Robert C.H. Sweeny
 - Simon Mahony
 - James Baker
+- Cory Taylor
 - Laura Gayle Green ('Educación')
 - Rebecca Kahn ('Educación')
 - Sarah Melton ('Educación')
