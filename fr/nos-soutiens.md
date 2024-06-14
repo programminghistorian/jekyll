@@ -109,6 +109,7 @@ Nous tenons également à remercier publiquement tous nos donateurs actifs de ni
 - Robert C.H. Sweeny
 - Simon Mahony
 - James Baker
+- Cory Taylor
 - Laura Gayle Green (éducation)
 - Rebecca Kahn (éducation)
 - Sarah Melton (éducation)

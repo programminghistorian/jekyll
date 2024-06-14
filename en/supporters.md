@@ -105,6 +105,7 @@ We also publicly thank all of our active 'Patron' and 'Educator' supporters:
 - Robert C.H. Sweeny
 - Simon Mahony
 - James Baker
+- Cory Taylor
 - Laura Gayle Green (Educator)
 - Rebecca Kahn (Educator)
 - Sarah Melton (Educator)
