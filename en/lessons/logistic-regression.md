@@ -84,9 +84,9 @@ The math behind this function is more complicated than a linear regression, but 
 
 Our logit model can convert any real number input to a value between zero and one.[^7] The mathematical formula looks like this:
 
-$$ P(Yi = 1|Xi = v) = \frac {e^{(a + bXi)}}{[1 + e^{(a + bXi)}]} $$
+$$ P(Yi = 1 \vert Xi = v) = \frac {e^{(a + bXi)}}{[1 + e^{(a + bXi)}]} $$
 
-In this equation, $$P(Yi = 1|Xi = v)$$ represents the given probability we wish to calculate. $$e$$ represents the exponent (or inverse of the natural log), $$a$$ represents the intercept, $$b$$ represents the coefficient, and $$Xi$$ represents the predictor variable's value. Putting this all together, we get the following procedure:
+In this equation, $$P(Yi = 1 \vert Xi = v)$$ represents the given probability we wish to calculate. $$e$$ represents the exponent (or inverse of the natural log), $$a$$ represents the intercept, $$b$$ represents the coefficient, and $$Xi$$ represents the predictor variable's value. Putting this all together, we get the following procedure:
 
 1. Multiply the variable's coefficient ($$x$$) by the predictor value ($$b$$) and add the intercept ($$a$$) to that product
 2. Calculate the exponent of that product ($$e^(a+ bXi)$$)
