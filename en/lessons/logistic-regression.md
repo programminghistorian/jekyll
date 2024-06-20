@@ -89,7 +89,7 @@ $$ P(Yi = 1 \vert Xi = v) = \frac {e^{(a + bXi)}}{[1 + e^{(a + bXi)}]} $$
 In this equation, $$P(Yi = 1 \vert Xi = v)$$ represents the given probability we wish to calculate. $$e$$ represents the exponent (or inverse of the natural log), $$a$$ represents the intercept, $$b$$ represents the coefficient, and $$Xi$$ represents the predictor variable's value. Putting this all together, we get the following procedure:
 
 1. Multiply the variable's coefficient ($$x$$) by the predictor value ($$b$$) and add the intercept ($$a$$) to that product
-2. Calculate the exponent of that product ($$e^(a+ bXi)$$)
+2. Calculate the exponent of that product ($$e^{\left( a + bX_i \right)}$$)
 3. Divide that exponent by the sum of that exponent and the number 1 (making sure that the sum is calculated before division occurs)
 
 If you find all this math confusing, you're not alone. Hopefully, you can see that the model allows you to start with a predictor value, apply an equation to that predictor, and derive a number between 0 and 1. That number represents the probability of a given class label.
