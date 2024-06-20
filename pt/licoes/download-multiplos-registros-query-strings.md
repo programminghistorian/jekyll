@@ -33,6 +33,10 @@ doi: 10.46430/phpt0034
 
 {% include toc.html %}
 
+<div class="alert alert-warning">
+O site do Old Bailey Online foi recentemente atualizado. Infelizmente, devido às diversas <a href="https://www.oldbaileyonline.org/about/whats-new">mudanças</a>, muitos (se não todos) os elementos do site de exemplo usado nesta lição não funcionarão conforme descrito. No entanto, as metodologias ensinadas por esta lição permanecem relevantes e podem ser adaptadas pelos leitores para um site de exemplo diferente. Estamos trabalhando na adaptação da lição para o novo site do Old Bailey Online, mas ainda não temos cronograma preciso de quando a lição será atualizada. [Abril de 2024]
+</div>
+
 ## Objetivos do Módulo
 
 Fazer o *download* de um único registro de um website é fácil, mas fazer o *download* de vários registros de uma vez - uma necessidade cada vez mais frequente para um historiador - é muito mais eficiente usando uma linguagem de programação como o Python. Nesta lição, escreveremos um programa que fará o *download* de uma série de registros do *[Old Bailey Online](http://www.oldbaileyonline.org/)* usando critérios de investigação personalizados e irá armazená-los num diretório no nosso computador. Esse processo envolve interpretar e manipular *Query Strings* de URL. Nesse caso, o tutorial buscará fazer o *download* de fontes que contenham referências a afrodescendentes que foram publicadas no *Old Bailey Proceedings* entre 1700 e 1750.

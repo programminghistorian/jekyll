@@ -619,7 +619,7 @@ report.
   [Guided Tour to Topic Modeling]: http://www.scottbot.net/HIAL/?p=19113
   [Topic modeling made just simple enough]: http://tedunderwood.wordpress.com/2012/04/07/topic-modeling-made-just-simple-enough/
   [Some Assembly Required]: http://web.archive.org/web/20160704150726/http://www.lisarhody.com:80/some-assembly-required/
-  [Topic Modeling in the Humanities: An Overview | Maryland Institute for Technology in the Humanities]: http://mith.umd.edu/topic-modeling-in-the-humanities-an-overview/
+  [Topic Modeling in the Humanities: An Overview | Maryland Institute for Technology in the Humanities]: https://web.archive.org/web/20130116223500/http://mith.umd.edu/topic-modeling-in-the-humanities-an-overview/
   [Latent dirichlet allocation]: http://dl.acm.org/citation.cfm?id=944937
   [bibliography of topic modeling articles]: http://mimno.infosci.cornell.edu/topics.html
   [Computational Historiography]: http://www.perseus.tufts.edu/publications/02-jocch-mimno.pdf

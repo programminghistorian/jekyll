@@ -33,6 +33,10 @@ doi: 10.46430/phpt0029
 
 {% include toc.html %}
 
+<div class="alert alert-warning">
+O site do Old Bailey Online foi recentemente atualizado. Infelizmente, devido às diversas <a href="https://www.oldbaileyonline.org/about/whats-new">mudanças</a>, muitos (se não todos) os elementos do site de exemplo usado nesta lição não funcionarão conforme descrito. No entanto, as metodologias ensinadas por esta lição permanecem relevantes e podem ser adaptadas pelos leitores para um site de exemplo diferente. Estamos trabalhando na adaptação da lição para o novo site do Old Bailey Online, mas ainda não temos cronograma preciso de quando a lição será atualizada. [Abril de 2024]
+</div>
+
 ## Objetivos da Lição
 
 A lista que criámos na lição [De HTML para Lista de Palavras (parte 2)](/pt/licoes/HTML-lista-palavras-2) precisa ser normalizada antes de poder ser utilizada. Faremos isso através da aplicação de alguns métodos de string adicionais, bem como utilizando expressões regulares. Uma vez normalizados, estaremos aptos a analisar os nossos dados mais facilmente.

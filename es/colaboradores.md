@@ -57,7 +57,7 @@ Son bienvenidas las consultas de potenciales contribuidores del [Programa de Ins
 ## Alumni
 Antiguos contribuidores de nuestro [Programa de Instituciones Asociadas](pia).
 
-- [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos [2011-2022].
+- [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos [2021-2022].
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido [2021-2022].
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library-digital), Reino Unido [2020].
 - [Software Sustainability Institute](https://www.software.ac.uk/), Reino Unido [2021].
@@ -105,6 +105,8 @@ En particular, agradecemos la contribución de los siguientes suscriptores activ
 - Ben Akrigg
 - Robert C.H. Sweeny
 - Simon Mahony
+- James Baker
+- Cory Taylor
 - Laura Gayle Green ('Educación')
 - Rebecca Kahn ('Educación')
 - Sarah Melton ('Educación')

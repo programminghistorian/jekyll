@@ -59,7 +59,7 @@ Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Ins
 ## Anteriores parceiros
 Antigos contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 
-- [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos [2011-2022].
+- [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos [2021-2022].
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido [2021-2022].
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library-digital), Reino Unido [2020].
 - [Software Sustainability Institute](https://www.software.ac.uk/), Reino Unido [2021].
@@ -109,6 +109,8 @@ Também agradecemos publicamente a todos os nossos apoiadores ativos ‘Patrono�
 -   Ben Akrigg
 -   Robert C.H. Sweeny
 -   Simon Mahony
+-   James Baker
+-   Cory Taylor
 -   Laura Gayle Green (Educator)
 -   Rebecca Kahn (Educator)
 -   Sarah Melton (Educator)
