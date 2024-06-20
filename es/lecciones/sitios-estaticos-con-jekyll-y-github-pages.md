@@ -276,30 +276,22 @@ En la línea de comandos, ingresa:
 
 En esta sección, las instrucciones para usuarios de Windows difieren de las de los usuarios de Mac. Debes hacer estos pasos únicamente si estás utilizando Windows.
 
-1. Antes que nada, necesitamos una herramienta de línea de comandos que reconozca los mismos comandos que las computadoras Mac y Linux (es decir, los sistemas operativos Unix). Visita [https://git-scm.com/downloads](https://git-scm.com/downloads) y haz clic en el enlace Windows. Una vez que hayas terminado la descarga, haz doble clic en el archivo descargado y sigue los pasos para instalar Git Bash (deja todas las opciones como están).
+1. Jekyll está basado en el [lenguaje de programación Ruby](https://es.wikipedia.org/wiki/Ruby) que necesitaremos instar en tu computadora. Visita [https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/) y descarga la última versión de la instalación de DevKit (la página sugiere el instalador más apropiado para ti, simplemente busca el símbolo “=>” antes de cada enlace).
 
-2. Abre Cmd (abre el Menú de inicio y busca "Cmd" y aparecerá una aplicación que puedes abrir). Otra forma sencilla de abrir el Cmd en Windows, es hacer clic derecho sobre el botón de inicio que se encuentra en la barra de tareas y seleccionar la opción "Ejecutar", lo que abrirá una ventana emergente en la que debes escribir "cmd" y presionar "Aceptar".
+2. Ejecuta la instalación. Se sugiere que hagas una instalación estandar pero si decides cambiarla, asegúrate de dejar seleccionada la opción de instalar "MSYS2 development toolchain."
 
-{% include figure.html filename="sitios-estaticos-con-jekyll-y-github-pages_4.png" caption="Ejecutar Cmd." %}
+3. Espera a que termine la instalación pero no la cierres una vez que todos los archivos hayan sido copiados. Antes de cerrar, aparecerá un mensaje preguntándote si quieres ejecutar "ridk install". Deja la opción seleccionada y haz click en "Finish" (Finalizar). 
 
-3. En primer lugar debes instalar Ruby. Ve a [https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/) y descarga la versión más completa, que es `Ruby+Devkit 2.6.6-1 (x64)` (la tercera de las opciones de la columna WITH DEVKIT). Una vez instalado, la consola se abrirá automáticamente y te pedirá que indiques qué componentes deseas instalar, presiona “Enter” para instalar todo. Este proceso se repetirá dos veces. La segunda vez la consola se cerrará automáticamente.
+4. Después de cerrar la instalación, una nueva indicación del sistema te preguntará que componentes deseas instalar. Escribe "3" (sin las comillas). Instalará "las herramientas de desarrollo MSYS2 y MINGW." Esto puede tomar un par de minutos y mostrar unos avisos mientras tanto pero todo debería de estar bien si ves el siguiente mensaje:
 
+   	`Install MSYS2 and MINGW development toolchain succeeded` o `Se han instalado con éxito las herramientas de desarrollo MSYS2 y MINGW`
 
-Para comprobar que la instalación de Ruby se realizó correctamente, vuelve a abrir la consola y escribe:
+5. Cierra esta ventaba y abre una **nueva** para instalar Jekyll. [Jekyll](https://jekyllrb.com/) es el código que crea o genera tu página web (por ejemplo, "generación de página), haciendo más fácil las tareas comunes como usar la misma plantilla (mismo logo, menú, información de autora...) en todas las páginas de entradas de blog. Hay más información sobre [qué es Jekyll y qué son las páginas estáticas](#section0-1) y [razones por las que puedes usar Jekyll para crear una página web estática](#section0-3), arriba. Ahora instalaremos Jekyll (si la Seguridad de Windows te muestra un aviso, ignóralo):
 
-`ruby -v`
+	`gem install jekyll bundler`
 
-4. A continaución instalaremos Jekyll a través de la consola, para eso debes escribir los siguientes comandos, uno por uno, haciendo “Enter” y esperando hasta que se descarguen todas las "gemas" de Jekyll. El primer comando a ejecutar es:
+6. Para asegurarte de que todo va bien, escribe “jekyll -v” en el aviso y presiona "Intro". Debería de devolver la versión de Jekyll que tengas instalada en tu computadora en ese momento.
 
-`gem install jekyll`
-
-Este proceso puede demorar un buen rato. La última frase que debe aparecer en la consola es “26 gems installed”. Una vez que la instalación se haya completado volverá a aparecer el prompt.
-
-5. Finalmente, para comprobar que Jekyll se haya instalado correctamente, escribe el siguiente comando y presiona “Enter”:
-
-`jekyll -v`
-
-Si recibes la respuesta “jekyll x.x.x” (la última versión de Jekyll actualmente es la 4.1.1, pero este número puede variar), es que Jekyll se instaló correctamente.
 
 **¡Felicitaciones, hemos terminado de instalar todo lo necesario para crear nuestro sitio web! De aquí en adelante, las instrucciones son iguales para Windows y Mac.**
 
@@ -421,7 +413,7 @@ Ya tenemos un sitio web básico privado, accesible únicamente en nuestra comput
    - **title**: el título de tu sitio web como deseas que aparezca en el encabezado del sitio web.
    - **email**: tu dirección de email.
    - **description**: la descripción del sitio web que será usada por los motores de búsqueda y que será utilizada por RSS.
-   - **baseurl**: completa entre las comillas con una barra oblicua **/** seguida del nombre de la carpeta de tu sitio web (por ej., "/JekyllDemo") para que el sitio tome la URL correcta.
+   - **baseurl**: completa entre las comillas con una barra oblicua **/** seguida del nombre de la carpeta de tu sitio web (por ej., "/JekyllDemo") para que el sitio tome la URL correcta. Asegúrate de que tu carpeta está en el mismo repositorio de GitHub con el mismo nombre y termina con la barra oblicua ("/"). Esto se requiere para publicarlo en GitHub Pages. 
    - **url**: reemplaza "http://yourdomain.com" por "localhost:4000" para que el navegador tome la versión local de tu sitio en la URL correcta.
    - **twitter_username**: tu nombre de usuario de Twitter (no incluir @).
    - **github_username**: tu nombre de usuario de GitHub.
