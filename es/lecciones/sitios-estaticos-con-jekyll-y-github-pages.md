@@ -131,23 +131,35 @@ Jekyll no es oficialmente compatible con Windows, lo que significa que la docume
 La cuenta de usuario de GitHub nos permite alojar nuestro sitio web (ponerlo a disposición para que otros lo visiten) de forma gratuita en esa plataforma. Como beneficio adicional, también nos permite llevar un registro de las versiones de nuestro sitio y tu escritura a medida que crece o cambia con el tiempo.
 
 1\. Visita [GitHub.com](https://github.com/) y haz clic en el botón verde "Sign up" (Registrarse).
+
 2\. En la página siguiente, ingresa el nombre de usuario deseado. El nombre de usuario es visible para otros usuarios, nos identifica en GitHub y también es parte de la URL de nuestro sitio. Por ejemplo, si el nombre de usuario de GitHub es *hdcaicyt*, la URL del sitio será http://hdcaicyt.github.io/. (Ten en cuenta que uno también puede comprar su propio nombre de dominio y usarlo para este sitio, pero eso no se tratará en este tutorial). Escribe una dirección de correo electrónico de uso habitual y añade una contraseña que contenga al menos un número y una letra minúscula.
+
 3\. En el recuadro "Verify your account", presiona el botón "Verify" (Verificar). Usa las flechas para poner la imagen en el sentido correcto. Finalmente, haz clic en "Select a plan" (Seleccionar un plan).
+
 4\. En la página siguiente, haz clic en el botón "Choose Free" (Seleccionar gratis).
+
 5\. Baja hasta el final de la siguiente página y haz clic en "Complete Setup" (Completar configuración).
+
 6\. Ve a tu servicio de email y abre el correo de GitHub (si no aparece en la bandeja de entrada, búscalo en correo no deseado) y haz clic en el botón "Verify email address" (Verificar dirección de email).
-7\. *Opcional*: puedes visitar https://github.com/settings/profile para agregar un nombre completo (puede ser tu nombre real, nombre de usuario de GitHub u otra cosa) y más información de perfil público, si lo deseas.
+
+7\. *Opcional*: puedes visitar https://github.com/settings/profile para agregar un nombre completo (puede ser tu nombre real, nombre de usuario de GitHub u otra cosa) y más información de perfil público, si lo deseas.  
 
 ### Aplicación GitHub Desktop <a id="section1-2"></a>
 
 La aplicación GitHub Desktop facilita la actualización del sitio web luego de haberlo configurado. En lugar de usar la línea de comandos cada vez que queramos actualizar nuestro sitio, es posible usar este herramienta visual.
 
 1\. Visita el [sitio de GitHub Desktop](https://desktop.github.com/) y haz clic en el botón "Download" para descargar GitHub Desktop en tu computadora (Mac y Windows solamente; los usuarios de Linux pueden usar git solo a través de la línea de comandos).
+
 2\. Una vez que el archivo se haya descargado, haz doble clic en él y sigue las siguientes instrucciones de instalación.
+
 3\. Ingresa el nombre de usuario y la contraseña para la cuenta de GitHub que creaste en el punto anterior y haz clic en "Continuar".
+
 4\. Ingresa el nombre y el correo electrónico a los que deseas asociar tu sitio (probablemente tu nombre público y tu email de trabajo).
+
 5\. En la misma página, haz clic en el botón "Instalar herramientas de línea de comandos" e ingresa el nombre de usuario y contraseña de tu computadora, si te lo solicita (luego haz clic en el botón "Instalar ayudante" en el indicador). Cuando recibas un mensaje de que todas las herramientas de línea de comandos se han instalado correctamente, haz clic en continuar.
+
 6\. La última página te preguntará "¿Qué repositorios deseas usar?". Ignórala y haz clic en el botón "Listo".
+
 7\. *Opcional:* puedes hacer el tutorial de uso de GitHub Desktop si lo deseas, pero en esta lección cubriremos todo lo que necesitas saber sobre GitHub).
 
 ### Editor de texto <a id="section1-3"></a>
@@ -288,7 +300,8 @@ En esta sección, las instrucciones para usuarios de Windows difieren de las de 
 
    	`Install MSYS2 and MINGW development toolchain succeeded` o `Se han instalado con éxito las herramientas de desarrollo MSYS2 y MINGW`
 
-5\. Cierra esta ventaba y abre una **nueva** para instalar Jekyll. [Jekyll](https://jekyllrb.com/) es el código que crea o genera tu página web (por ejemplo, "generación de página), haciendo más fácil las tareas comunes como usar la misma plantilla (mismo logo, menú, información de autora...) en todas las páginas de entradas de blog. Hay más información sobre [qué es Jekyll y qué son las páginas estáticas](#section0-1) y [razones por las que puedes usar Jekyll para crear una página web estática](#section0-3), arriba. Ahora instalaremos Jekyll (si la Seguridad de Windows te muestra un aviso, ignóralo):
+
+5\. Cierra esta ventana y abre una **nueva** para instalar Jekyll. [Jekyll](https://jekyllrb.com/) es el código que crea o genera tu página web (por ejemplo, "generación de página), haciendo más fácil las tareas comunes como usar la misma plantilla (mismo logo, menú, información de autora...) en todas las páginas de entradas de blog. Hay más información sobre [qué es Jekyll y qué son las páginas estáticas](#section0-1) y [razones por las que puedes usar Jekyll para crear una página web estática](#section0-3), arriba. Ahora instalaremos Jekyll (si la Seguridad de Windows te muestra un aviso, ignóralo):
 
 	`gem install jekyll bundler`
 
@@ -305,14 +318,13 @@ Ya hemos instalado todo lo necesario para crear un sitio web. En esta sección u
 
 {% include figure.html filename="sitios-estaticos-con-jekyll-y-github-pages_5.png" caption="En Windows puedes encontrar la carpeta con los archivos de tu repositorio de GitHub seleccionando la pestaña Repository del menú superior de GitHub Desktop y en el recuadro que se despliega al seleccionar \"show in explorer\"." %}
 
-   En Mac, presiona "⌘ + espacio" y aparecerá un cuadro de búsqueda en el medio de la pantalla; escribe "GitHub", luego haz doble clic en la opción "GitHub" que aparece debajo de "Folders" (Carpetas) para abrir la carpeta GitHub en Finder.
+En Mac, presiona "⌘ + espacio" y aparecerá un cuadro de búsqueda en el medio de la pantalla; escribe "GitHub", luego haz doble clic en la opción "GitHub" que aparece debajo de "Folders" (Carpetas) para abrir la carpeta GitHub en Finder.
 
-   Ten en cuenta que en algunas computadoras esta carpeta está etiquetada como "GitHub para Mac" y puede que no aparezca en una búsqueda. Si los pasos anteriores no ubicaron una carpeta de GitHub, ve a Biblioteca > Soporte de aplicaciones en Finder y verifica si la carpeta "GitHub para Mac" está allí.
+Ten en cuenta que en algunas computadoras esta carpeta está etiquetada como "GitHub para Mac" y puede que no aparezca en una búsqueda. Si los pasos anteriores no ubicaron una carpeta de GitHub, ve a Biblioteca > Soporte de aplicaciones en Finder y verifica si la carpeta "GitHub para Mac" está allí.
 
-   {% include figure.html filename="building-static-sites-with-jekyll-github-pages-6.png" caption="Captura de pantalla de la carpeta GitHub." %}
+{% include figure.html filename="building-static-sites-with-jekyll-github-pages-6.png" caption="Captura de pantalla de la carpeta GitHub." %}
 
-
-   Haz clic derecho en la carpeta "GitHub" y elige "Copiar GitHub". La ruta de la carpeta GitHub ha sido copiada.
+Haz clic derecho en la carpeta "GitHub" y elige "Copiar GitHub". La ruta de la carpeta GitHub ha sido copiada.
 
 
 2\. En la línea de comandos, escribe `cd`, seguido de espacio, seguido de la ruta a la carpeta GitHub (⌘-v para pegar la ruta copiada en el paso previo). En la computadora de la autora (logeada como *DrJekyll*), esto se ve de la siguiente manera:
