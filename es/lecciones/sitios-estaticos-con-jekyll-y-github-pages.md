@@ -5,6 +5,8 @@ layout: lesson
 slug: sitios-estaticos-con-jekyll-y-github-pages
 date: 2016-04-18
 translation_date: 2021-03-01
+tested_date: 2024-04-05
+lesson-testers: Leonardo Barleta
 authors:
 - Amanda Visconti
 reviewers:
@@ -276,7 +278,7 @@ En la línea de comandos, ingresa:
 
 En esta sección, las instrucciones para usuarios de Windows difieren de las de los usuarios de Mac. Debes hacer estos pasos únicamente si estás utilizando Windows.
 
-1\. Jekyll está basado en el [lenguaje de programación Ruby](https://es.wikipedia.org/wiki/Ruby) que necesitaremos instar en tu computadora. Visita [https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/) y descarga la última versión de la instalación de DevKit (la página sugiere el instalador más apropiado para ti, simplemente busca el símbolo “=>” antes de cada enlace).
+1\. Jekyll está basado en el [lenguaje de programación Ruby](https://es.wikipedia.org/wiki/Ruby) que necesitaremos instar en tu computadora. Visita [https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/) y descarga la última versión de la instalación de DevKit (la página sugiere el instalador más apropiado para ti, simplemente busca el símbolo `=>` antes de cada enlace).
 
 2\. Ejecuta la instalación. Se sugiere que hagas una instalación estandar pero si decides cambiarla, asegúrate de dejar seleccionada la opción de instalar "MSYS2 development toolchain."
 
@@ -290,7 +292,7 @@ En esta sección, las instrucciones para usuarios de Windows difieren de las de 
 
 	`gem install jekyll bundler`
 
-6\. Para asegurarte de que todo va bien, escribe “jekyll -v” en el aviso y presiona "Intro". Debería de devolver la versión de Jekyll que tengas instalada en tu computadora en ese momento.
+6\. Para asegurarte de que todo va bien, escribe `jekyll -v` en el aviso y presiona "Intro". Debería de devolver la versión de Jekyll que tengas instalada en tu computadora en ese momento.
 
 
 **¡Felicitaciones, hemos terminado de instalar todo lo necesario para crear nuestro sitio web! De aquí en adelante, las instrucciones son iguales para Windows y Mac.**
@@ -299,7 +301,7 @@ En esta sección, las instrucciones para usuarios de Windows difieren de las de 
 
 Ya hemos instalado todo lo necesario para crear un sitio web. En esta sección utilizaremos Jekyll para generar una nueva carpeta con los archivos que conforman el sitio web. También ubicaremos esta carpeta en un lugar accesible para la aplicación GitHub Desktop para que estén en el lugar correcto cuando deseemos publicarlos como un sitio web público más adelante en la lección.
 
-1\. Es necesario conocer la ruta de la carpeta GitHub creada por la instalación de GitHub Desktop (la ruta es el texto que indica la ubicación de cierta carpeta o archivo en el árbol de carpetas de una computadora, por ejemplo  /Desktop/MyRecipes/Spaghetti.doc). Si no conoces la ruta de la carpeta GitHub, haz clic en el campo de búsqueda del Menú de inicio (en Windows).
+1\. Es necesario conocer la ruta de la carpeta GitHub creada por la instalación de GitHub Desktop (la ruta es el texto que indica la ubicación de cierta carpeta o archivo en el árbol de carpetas de una computadora, por ejemplo /Desktop/MyRecipes/Spaghetti.doc). Si no conoces la ruta de la carpeta GitHub, haz clic en el campo de búsqueda del Menú de inicio (en Windows).
 
 {% include figure.html filename="sitios-estaticos-con-jekyll-y-github-pages_5.png" caption="En Windows puedes encontrar la carpeta con los archivos de tu repositorio de GitHub seleccionando la pestaña Repository del menú superior de GitHub Desktop y en el recuadro que se despliega al seleccionar \"show in explorer\"." %}
 
