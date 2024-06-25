@@ -14,7 +14,7 @@ editors:
 - Giulia Taurino
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/552
 difficulty: 1
-activity: analysing
+activity: analyzing
 topics: [python, machine-learning]
 abstract: In this lesson, you'll learn computer vision machine learning principles for object recognition, and how to apply these principles using Python to recognize and classify smiling faces in historical photographs.
 avatar_alt: Line drawing of a little victorian-era girl looks into a hand-held mirror.
