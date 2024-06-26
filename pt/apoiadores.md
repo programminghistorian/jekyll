@@ -16,6 +16,7 @@ O _Programming Historian_ é grato aos nossos apoiadores anteriores e atuais por
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
+- [University of Southampton](https://www.southampton.ac.uk/), Reino Unido
 
 ## Parceiros Institucionais
 Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
