@@ -14,6 +14,7 @@ original: supporters
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
+- [University of Southampton](https://www.southampton.ac.uk/), Reino Unido
 
 ## Instituciones asociadas
 Contribuidores de nuestro [Programa de Instituciones Asociadas](pia).
