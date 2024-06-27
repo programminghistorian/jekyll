@@ -15,7 +15,7 @@ The project team and members of the wider community are involved in a number of 
 
 ## Reviews
 
-* Björn Ekström, Elisa Tattersall Wallin and Hana Marčetić, '[_Programming Historian_: Novice-friendly tutorials on digital methods](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1508542&dswid=7551)', _Tidskrift för ABM_, Vol. 5, no 1 (2020), pp. 71-75.
+* Björn Ekström, Elisa Tattersall Wallin and Hana Mar&#269;eti&#263;, '[_Programming Historian_: Novice-friendly tutorials on digital methods](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1508542&dswid=7551)', _Tidskrift för ABM_, Vol. 5, no 1 (2020), pp. 71-75.
 * Dries Daems, '[A Review and Roadmap of Online Learning Platforms and Tutorials in Digital Archaeology](https://doi.org/10.1017/aap.2019.47)', _Advances in Archaeological Practice_, vol. 8, issue 1 (2020),  pp. 87-92.
 * Martin Dröge, '[Review of: The Programming Historian](https://www.hsozkult.de/webreview/id/rezwww-184)', _H-Soz-Kult_ (2019).
 * Priscila Pilatowsky Goñi, '[Reseña a The programming historian](https://revistas.uned.es/index.php/RHD/article/view/22420)', _Revista de Humanidades Digitales_, vol. 2 (2018).
@@ -96,6 +96,7 @@ The project team and members of the wider community are involved in a number of 
 
 ## Posters, Conference Papers, & Invited Talks
 
+* Anisa Hawes, Charlotte Chevrie, Joana Vieira Paulino, Anna-Maria Sichani, & Eric Brasil, "[Documenting Sustainable Workflows for a Multilingual Publishing Project: The Case of Programming Historian](https://doi.org/10.5281/zenodo.12167753)" (Poster), Workflows: Digital Methods for Reproducible Research Practices in the Arts and Humanities, [DARIAH Annual Event](https://annualevent.dariah.eu/), Universidade NOVA de Lisboa, Lisbon, Portugal, (19-21 June 2024).
 * Anisa Hawes, Charlotte Chevrie & Anna-Maria Sichani, "Harnessing _Programming Historian_’s CC-BY Licence to Empower Multilingual Reuse", [UK-Ireland Digital Humanities Association's annual event](https://digitalhumanities-uk-ie.org/2024-annual-event/), University College Cork, Cork, Ireland (4-5 June 2024).
 * Sofia Papastamkou, Stefan Krebs, Vicky Garnett, Siobhan McElduff, Anisa Hawes & Charlotte Chevrie, "Measuring the Impact of Open Educational Resources on Digital Methods for Humanists", [DHNB 2024 8th Conference on Digital Humanities in the Nordic and Baltic Countries](https://dhnb.eu/conferences/dhnb2024/), Menntavísindasvið Háskóla Íslands, Reykjavík, Iceland (27-31 May 2024).
 * Matthias Gille Levenson, Célian Ringwald, Marie Flesch, Jennifer Isasi, Sofia Papastamkou, Riva Quiroga et David Valentine, 'Connecter les chapitres linguistiques de _Programming Historian_ ? Vers une table conceptuelle multilingue constituée semi-automatiquement', [Humanistica 2024](https://humanistica2024.sciencesconf.org/), Université Moulay Ismaïl, Meknès, Morocco, & online (3 May 2024).     
