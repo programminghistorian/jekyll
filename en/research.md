@@ -15,7 +15,7 @@ The project team and members of the wider community are involved in a number of 
 
 ## Reviews
 
-* Björn Ekström, Elisa Tattersall Wallin and Hana Marčetić, '[_Programming Historian_: Novice-friendly tutorials on digital methods](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1508542&dswid=7551)', _Tidskrift för ABM_, Vol. 5, no 1 (2020), pp. 71-75.
+* Björn Ekström, Elisa Tattersall Wallin and Hana Mar&#269;eti&#263;, '[_Programming Historian_: Novice-friendly tutorials on digital methods](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1508542&dswid=7551)', _Tidskrift för ABM_, Vol. 5, no 1 (2020), pp. 71-75.
 * Dries Daems, '[A Review and Roadmap of Online Learning Platforms and Tutorials in Digital Archaeology](https://doi.org/10.1017/aap.2019.47)', _Advances in Archaeological Practice_, vol. 8, issue 1 (2020),  pp. 87-92.
 * Martin Dröge, '[Review of: The Programming Historian](https://www.hsozkult.de/webreview/id/rezwww-184)', _H-Soz-Kult_ (2019).
 * Priscila Pilatowsky Goñi, '[Reseña a The programming historian](https://revistas.uned.es/index.php/RHD/article/view/22420)', _Revista de Humanidades Digitales_, vol. 2 (2018).
