@@ -36,7 +36,7 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](pia).
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
 - [Purdue University](https://www.purdue.edu/), Estados Unidos
 - [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Alemania
-- [University of Bristol Library](http://www.bris.ac.uk/library/), Reino Unido
+- [University of Bristol Library](https://www.bristol.ac.uk/), Reino Unido
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), Reino Unido
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), Reino Unido
