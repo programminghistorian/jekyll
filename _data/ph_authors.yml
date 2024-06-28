@@ -347,7 +347,7 @@
     pt: |
       James Baker é professor de Humanidades Digitais da University of Southampton.
   team_roles:
-    - proghist
+    - proghist-chair
     - finance-manager
   status: institutionally-supported
 
@@ -1271,7 +1271,7 @@
     pt: |
       Luxembourg Centre for Contemporary and Digital History (C²DH), Universidade do Luxemburgo
   team_roles:    
-    - proghist-chair
+    - proghist
   status: volunteer
   bio:
     en: |
