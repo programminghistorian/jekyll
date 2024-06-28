@@ -83,4 +83,4 @@ If you’ll be attending the [Alliance of Digital Humanities Organizations’ an
 Next issue: **September 2024**. In the meantime, keep in touch with us on social media to stay updated on our new publications, research and events!
 [Twitter](https://x.com/ProgHist) - [Mastodon](https://hcommons.social/@proghist) - [LinkedIn](https://www.linkedin.com/company/prog-hist/)- [Patreon](https://www.patreon.com/theprogramminghistorian)
 
-You can also [download this Bulletin](https://github.com/programminghistorian/jekyll/blob/gh-pages/assets/bulletin/2024-06-28-bulletin-issue-03.pdf) as a PDF.
+You can also [download this Bulletin](/assets/bulletin/2024-06-28-bulletin-issue-03.pdf) as a PDF.
