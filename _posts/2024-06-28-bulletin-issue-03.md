@@ -11,7 +11,7 @@ categories: posts
 
 # Issue 03 - June 2024
 
-**Welcome** / **bienvenidos** / **bienvenue** / **bem-vindos** / to the third issue of _Programming Historian_’s bulletin / boletín / bulletin / boletim. This quarter we share insights into new lessons, our outreach during conference season, supporters news and more. 
+**Welcome** / **bienvenidos** / **bienvenue** / **bem-vindos** / to the third issue of _Programming Historian_’s bulletin / boletín / bulletin / boletim. This quarter, we share insights into new lessons, our outreach during conference season, supporter news and more. 
 
 ## Celebrating 250!
 
@@ -37,7 +37,7 @@ This June, ProgHist Ltd’s Board of Trustees gathered our Project Team, Institu
 
 We're thrilled to announce that Programming Historian en français' resources are now discoverable via [Florilège](https://florilege.ls2n.fr), a Chaire RELIA initiative to index a vast collection of francophone Open Education Resources.
 
-&laquo;&nbsp;Nous visons à soutenir un public qui manque de ressources disponibles et accessibles dans leur langue. Notre ambition est de permettre à toujours plus de lecteurs/lectrices de découvrir nos leçons&nbsp;: faire partie du répertoire Florilège est donc un pas très important dans cette direction.&nbsp;&raquo; 
+&laquo;&nbsp;Nous visons à soutenir un public qui manque de ressources disponibles et accessibles dans leur langue. Notre ambition est de permettre à toujours plus de lecteurs/lectrices de découvrir nos leçons&nbsp;: faire partie du répertoire Florilège est donc un pas très important dans cette direction.&nbsp;&raquo;    
     - [Entretien avec _Programming Historian_](https://chaireunescorelia.univ-nantes.fr/2024/06/11/entretien-avec-charlotte-chevrie-assistante-de-publication-pour-programming-historian/)
 
 ## Team News
@@ -67,13 +67,13 @@ JOHN R. LADD, JESSICA OTIS, CHRISTOPHER N. WARREN & SCOTT WEINGART, traduite par
 ## New Supporters
 
 Huge thanks to our generous new [Patreon](https://www.patreon.com/theprogramminghistorian) subscribers who have individually invested in our success: **James Baker** (Patron), **Cory Taylor** (Patron), and **Samuel Salgado Tello** (Educator).    
-Join our Patreon community: http://tinyurl.com/PH-patreon
+Join our Patreon community: <http://tinyurl.com/PH-patreon>
 
 We're also very grateful to all those who have renewed their membership to our Institutional Partner Programme this quarter: the **School of Advanced Studies**, **C2DH**, **University of Florida**, **Bristol University Library**, **Western University Library**, **Universidad de los Andes**, **Princeton University**, **Cambridge Digital Humanities**, and **University of Sussex Library** (Gold Tier).
 
 A special thank you to the **University of Southampton**, who has joined us as our newest Gold Tier member institution!
 
-- Institutional Partnerships enable us to keep developing our model of sustainable, open-access publishing, and empower us to continue creating peer-reviewed, multilingual lessons for digital humanists around the globe. If you’d like to join our Institutional Partner Programme, or learn about other ways you can support us: [https://tinyurl.com/support-PH](https://tinyurl.com/support-PH).
+Institutional Partnerships enable us to keep developing our model of sustainable, open-access publishing, and empower us to continue creating peer-reviewed, multilingual lessons for digital humanists around the globe. If you’d like to join our Institutional Partner Programme, or learn about other ways you can support us: [https://tinyurl.com/support-PH](https://tinyurl.com/support-PH).
 
 ## Upcoming
 
