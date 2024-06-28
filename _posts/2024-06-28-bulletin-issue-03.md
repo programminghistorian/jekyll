@@ -35,7 +35,7 @@ This June, ProgHist Ltd’s Board of Trustees gathered our Project Team, Institu
 
 ## New Pathways to PH
 
-We're thrilled to announce that Programming Historian en français' resources are now discoverable via [Florilège](https://florilege.ls2n.fr), a Chaire RELIA initiative to index a vast collection of francophone Open Education Resources.
+We're thrilled to announce that _Programming Historian en français_' resources are now discoverable via [Florilège](https://florilege.ls2n.fr), a Chaire RELIA initiative to index a vast collection of francophone Open Education Resources.
 
 &laquo;&nbsp;Nous visons à soutenir un public qui manque de ressources disponibles et accessibles dans leur langue. Notre ambition est de permettre à toujours plus de lecteurs/lectrices de découvrir nos leçons&nbsp;: faire partie du répertoire Florilège est donc un pas très important dans cette direction.&nbsp;&raquo;    
     - [Entretien avec _Programming Historian_](https://chaireunescorelia.univ-nantes.fr/2024/06/11/entretien-avec-charlotte-chevrie-assistante-de-publication-pour-programming-historian/)
@@ -52,7 +52,7 @@ IAN MILLIGAN & JAMES BAKER, translated by MELVIN HERSENT
 [Introduction à l'interface en ligne de commande Bash et Zsh](https://doi.org/10.46430/phfr0031)   
 - Cette leçon vous apprendra comment entrer des commandes dans une interface en ligne de commande, plutôt qu’à travers une interface graphique.       
 
-CHARLES GOLDBERG  
+CHARLES GOLDBERG & ZACH HAALA    
 [Facial Recognition in Historical Photographs with Artificial Intelligence in Python](https://doi.org/10.46430/phen0119)    
 - You'll learn computer vision machine learning principles for object recognition, and how to apply these principles using Python to recognize and classify smiling faces in historical photographs.          
 
@@ -69,7 +69,7 @@ JOHN R. LADD, JESSICA OTIS, CHRISTOPHER N. WARREN & SCOTT WEINGART, traduite par
 Huge thanks to our generous new [Patreon](https://www.patreon.com/theprogramminghistorian) subscribers who have individually invested in our success: **James Baker** (Patron), **Cory Taylor** (Patron), and **Samuel Salgado Tello** (Educator).    
 Join our Patreon community: <http://tinyurl.com/PH-patreon>
 
-We're also very grateful to all those who have renewed their membership to our Institutional Partner Programme this quarter: the **School of Advanced Studies**, **C2DH**, **University of Florida**, **Bristol University Library**, **Western University Library**, **Universidad de los Andes**, **Princeton University**, **Cambridge Digital Humanities**, and **University of Sussex Library** (Gold Tier).
+We're also very grateful to all those who have renewed their membership to our Institutional Partner Programme this quarter: the **School of Advanced Study**, **C2DH**, **University of Florida**, **Bristol University Library**, **Western University Library**, **Universidad de los Andes**, **Princeton University**, **Cambridge Digital Humanities**, and **University of Sussex Library** (Gold Tier).
 
 A special thank you to the **University of Southampton**, who has joined us as our newest Gold Tier member institution!
 
