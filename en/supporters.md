@@ -35,7 +35,7 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), United States
 - [Purdue University](https://www.purdue.edu/), United States
 - [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Germany
-- [University of Bristol Library](http://www.bris.ac.uk/library/), United Kingdom
+- [University of Bristol Library](https://www.bristol.ac.uk/), United Kingdom
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), United Kingdom
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), United Kingdom
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), United Kingdom
