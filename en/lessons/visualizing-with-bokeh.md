@@ -679,7 +679,7 @@ Bokeh provides [built-in tile providers](https://docs.bokeh.org/en/3.2.2/docs/re
 
 
 <div class="alert alert-warning">
-The function `get_provider` was deprecated as of Bokeh 3.0.0. The notes available on <a href='https://docs.bokeh.org/en/3.2.2/docs/reference/tile_providers.html#module-bokeh.tile_providers'>this reference page</a> may support readers to adjust their code. 
+The function <code>get_provider</code> was deprecated as of Bokeh 3.0.0. The notes available on <a href='https://docs.bokeh.org/en/3.2.2/docs/reference/tile_providers.html#module-bokeh.tile_providers'>this reference page</a> may support readers to adjust their code. 
 </div>   
 
 
