@@ -1,8 +1,8 @@
-## Proposition de leçon pour _Programming Historian_ (l'édition française)
+## Proposition de leçon pour _Programming Historian_ (édition française)
 
 _Programming Historian en français_ recherche des propositions de nouvelles leçons originales ou de traductions.
 
-Nous encourageons nos auteur·s à réfléchir attentivement à la manière dont leur contribution pourrait améliorer notre revue.
+Nous encourageons nos auteur·e·s à réfléchir attentivement à la manière dont leur contribution pourrait améliorer notre revue.
 
 Veuillez parcourir [notre revue](/fr/leçons) pour découvrir ce qui a déjà été publié, et réfléchir à ce que vous pourriez ajouter.
 
