@@ -26,7 +26,7 @@ Les tarifs de nos partenariats de niveau Gold sont de 3 600 EUR, 3 600 CHF, 5 10
 
 _Niveau Silver_
 
-| Pays à revenu élevé | Pays à revenu intermédiaire | Pays à faible revenu et moins avancés [éligibles à l'APD](http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/listecad.htm)  |
+| Pays à revenu élevé | Pays à revenu intermédiaire | Pays à faible revenu et moins avancés [éligibles à l'APD](https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html)  |
 |---|---|---|
 | 1 200 EUR  | 500 EUR | 175 EUR  |
 | 1 200 CHF  | 500 CHF | 175 CHF  |
