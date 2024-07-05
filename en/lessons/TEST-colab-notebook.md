@@ -5,20 +5,20 @@ layout: lesson
 collection: lessons
 date: 2024-07-05
 authors:
-- Forename Surname
-- Forename Surname
+- Charlotte Chevrie
+- Anisa Hawes
 reviewers:
 - Forename Surname
 - Forename Surname
 editors:
 - Forename Surname
-review-ticket: https://github.com/programminghistorian/ph-submissions/issues/XXX
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/123
 difficulty: 3
 activity: analyzing
 topics: [python, data-manipulation]
 abstract: Short abstract of this lesson
 avatar_alt: Visual description of lesson image
-doi: 10.46430/phen0119
+doi: 10.46430/phen0120
 ---
 
 {% include toc.html %}
