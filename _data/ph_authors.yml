@@ -2186,13 +2186,14 @@
       Programming Historian, Reino Unido
   bio:
     en: |
-      Anisa Hawes, Programming Historian, Publishing Manager.
+      Anisa Hawes, Publishing Manager, Programming Historian.
     es: |
-      Anisa Hawes, Programming Historian, Directora de publicación.
+      Anisa Hawes, Directora de publicación, Programming Historian.
     fr: |
-      Anisa Hawes, Programming Historian, Responsable de publication.
+      Anisa Hawes, Responsable de publication, Programming Historian.
     pt: |
-      Anisa Hawes, Programming Historian, Gestão da publicação.
+      Anisa Hawes, Gestão da publicação, Programming Historian.
+  orcid: 0009-0000-8269-0620
   team_roles:
     - publishing-manager
   status: institutionally-supported
@@ -2778,22 +2779,18 @@
   orcid: 0000-0003-2139-1517
   affiliation:
     en: |
-      Analyse et Traitement Informatique de la Langue Française, Université de Lorraine-CNRS, France.
+      Université Paris Cité, France.
     es: |
-      Analyse et Traitement Informatique de la Langue Française, Université de Lorraine-CNRS, Francia.
+      Université Paris Cité, Francia.
     fr: |
-      Analyse et Traitement Informatique de la Langue Française, Université de Lorraine-CNRS, France.
+      Université Paris Cité, France.
     pt: |
-      Analyse et Traitement Informatique de la Langue Française, Université de Lorraine-CNRS, França.
+      Université Paris Cité, França.
   bio:
     en: |
-      
-    es: |
-      
+      Marie Flesch is a postdoc researcher at Laboratoire de Linguistique Formelle (Université Paris Cité-CNRS), France.
     fr: |
-      
-    pt: |
-    
+      Marie Flesch est chercheuse postdoctorante au Laboratoire de Linguistique Formelle (Université Paris Cité-CNRS), France.
   team_roles:
     - french
     - managing
@@ -2978,13 +2975,14 @@
       Programming Historian, Reino Unido
   bio:
     en: |
-      Charlotte Chevrie, Programming Historian, Publishing Assistant.
+      Charlotte Chevrie, Publishing Assistant, Programming Historian.
     es: |
-      Charlotte Chevrie, Programming Historian, Asistente de publicación.
+      Charlotte Chevrie, Asistente de publicación, Programming Historian.
     fr: |
-      Charlotte Chevrie, Programming Historian, Assistante de publication.
+      Charlotte Chevrie, Assistante de publication, Programming Historian.
     pt: |
-      Charlotte Chevrie, Programming Historian, Assistente de publicação.
+      Charlotte Chevrie, Assistente de publicação, Programming Historian.
+  orcid: 0009-0001-9044-2683
   team_roles:
     - publishing-assistant
   status: institutionally-supported

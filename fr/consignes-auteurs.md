@@ -21,7 +21,7 @@ Nous vous invitons à nous soumettre des tutoriels pertinents pour les sciences 
 La portée et la longueur du tutoriel doivent être appropriées à la complexité de la tâche qui y est expliquée. La longueur des tutoriels ne doit pas excéder 8000 mots (en incluant le code source) et nous encourageons la soumission de leçons plus courtes. Celles qui seraient plus longues sont susceptibles d'être divisées en plusieurs tutoriels.
 </div>
 
-Si vous avez une idée pour une nouvelle leçon, merci de compléter un [formulaire de proposition](/assets/forms/Formulaire.Tutoriel.txt) et [contacter notre rédacteur/rédactrice en chef](mailto:francais@programminghistorian.org) pour discuter de votre idée.
+Si vous avez une idée pour une nouvelle leçon, merci de compléter un [formulaire de proposition](/assets/forms/formulaire-lecon.txt) et [contacter notre rédacteur/rédactrice en chef](mailto:francais@programminghistorian.org) pour discuter de votre idée.
 
 Vous pouvez avoir une meilleure idée de ce que nous publions en consultant nos [leçons en ligne](/fr/lecons/), en lisant nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs), ou encore en parcourant les [leçons en cours de développement](https://github.com/programminghistorian/ph-submissions/issues). Merci de prendre aussi le temps de consulter notre table de [concordance des leçons](https://docs.google.com/spreadsheets/d/1vrvZTygZLfQRoQildD667Xcgzhf_reQC8Nq4OD-BRIA/edit#gid=0) afin de voir quelles méthodes ont déjà été traitées dans nos tutoriels publiés ou à venir.
 
