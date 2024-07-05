@@ -1,0 +1,147 @@
+
+
+// This macro reads each image file in each folder recursively inside a master directory, and does the following depending on the options set:
+// 1 - outputs a file containing width, height, proportion (height/width), and file paths for each image.
+// 2 - copies all images into the same directory with new names
+// 3 - pads each image so all images the same size, and saves the new images in the same or a new directory
+
+// Lev Manovich / softwarestudies.com / 2010
+
+// based on BatchProcessFolders.txt macro
+
+// BatchProcessFolders.txt
+// This macro batch processes all the files in a folder and any
+// subfolders in that folder. In this example, it runs the Subtract 
+// Background command of JPEG files. For other kinds of processing,
+// edit the processFile() function at the end of this macro.
+
+
+// ---------- lev
+
+// if 1, save images into the same directory in "png" format
+// if 2, gives images a new name and saves all of them in a single directory as a sequence
+
+save_dir_flag = 0;
+
+// 0 or 1; if 1, pads each image so all images the same size
+
+pad_images_flag = 0;
+
+// 0 or 1; if 1, do not copy images - only output to log window file paths and image' width and height 
+
+output_dimensions_flag = 1;
+
+
+
+// ------------  BatchProcessFolders.txt
+   dir = getDirectory("Choose a folder containing files and folders to process");
+
+
+// ---------- lev
+
+// create a file to store results
+
+if (output_dimensions_flag == 1)	{
+	results_file = File.open(dir+"image_dimensions.txt");  
+	print ("output to image_dimensions.txt: image width, height, height/width, path");
+	// print("file saved inside image directory");
+	print(results_file, "image_width" +  " \t"  + "image_height" +  " \t" + "image_height/image_width" +  " \t"  + "filepath" +  " \n");
+
+}
+
+// promt user for a new directory to save images into
+
+if (save_dir_flag == 2)  		
+	new_dir = getDirectory("Directory to save new image sequence"); 
+
+
+
+// ------------  BatchProcessFolders.txt
+   setBatchMode(true);
+   count = 0;
+   countFiles(dir);
+   n = 0;
+   processFiles(dir);
+   //print(count+" files processed");
+
+
+
+// ---------- lev
+	setBatchMode(false);
+	// print("done");
+
+
+
+// ------------  BatchProcessFolders.txt
+   
+   function countFiles(dir) {
+      list = getFileList(dir);
+      for (i=0; i<list.length; i++) {
+          if (endsWith(list[i], "/"))
+              countFiles(""+dir+list[i]);
+          else
+              count++;
+      }
+  }
+
+   function processFiles(dir) {
+      list = getFileList(dir);
+      for (i=0; i<list.length; i++) {
+          if (endsWith(list[i], "/"))
+              processFiles(""+dir+list[i]);
+          else {
+             showProgress(n++, count);
+             path = dir+list[i];
+             processFile(path);
+          }
+      }
+  }
+
+  function processFile(path) {
+       if (endsWith(path, ".jpg")) {
+           open(path);
+		//  run("Subtract Background...", "rolling=50 white"); // example of a command which goes here
+
+
+		// ---------- lev
+
+		image_width = getWidth;
+		image_height = getHeight;
+		image_ratio = image_height/image_width;
+
+		if (output_dimensions_flag == 1) {
+			image_count = i + 1; 
+			print(image_width +  " \t"  +  image_height +  " \t" + image_ratio +  " \t"  +  path + " \n");
+			// print(list[i]); 
+			print(results_file, image_width +  " \t"  + image_height +  " \t" + image_ratio + " \t" + path + " \n");
+		}
+
+		// ---------- lev
+
+		if (pad_images_flag == 1 ) {
+			run("Canvas Size...", "width=750 height=1076 position=Top-Left");
+			// run("Canvas Size...", "width=750 height=1076 position=Center");
+			new_name = substring(path, 84);  // adjust the number to reflect the length of the paths of to the image files on your system
+			new_name = replace(new_name, "/", "_");  // substitute "/" in the name by "_"
+			print(new_name + " " + image_width + " " + image_height);
+		}
+
+		if (save_dir_flag == 1) // this will save images in the same directory as originals
+		// assume that input images are JPEG - so we can save new images in the same directories as PNG, and the replace .jpg with .png in data file for visualization
+			saveAs("png", path);
+
+		if (save_dir_flag == 2) {		// this option gives images a new name and saves all of them in a single directory as a sequence
+			new_name = substring(path, 84);  // adjust the number to reflect the length of the paths of to the image files on your system
+			new_name = replace(new_name, "/", "_");  // substitute "/" in the name by "_"
+			new_image_path = new_dir + new_name;
+			saveAs("jpg", new_image_path);
+
+		}
+
+
+	     // ------------  BatchProcessFolders.txt
+           save(path);
+           close();
+      }
+  }
+

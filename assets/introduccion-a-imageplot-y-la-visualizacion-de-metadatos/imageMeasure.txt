@@ -1,0 +1,94 @@
+// This macro measures a number of statistics of every image in a directory:
+// brightness median and stdev, hue median and stdev, saturation hue and stdev
+
+// To run the macro: open this file in ImageJ; select Macros>Run Macro in imageJ top menu
+
+// For information on how to use imageJ, see
+// http://rsbweb.nih.gov/ij/
+
+
+// Lev Manovich, 2009, 2011
+// www.softwarestudies.com 
+ 
+
+
+run("Clear Results");
+
+dir = getDirectory("Choose images folder to be measured");
+list = getFileList(dir);
+print("directory contains " + list.length + " files");
+
+
+savedir = getDirectory("Choose folder to save output file measurements.txt");
+f = File.open(savedir +"measurements.txt");
+
+
+// option: save measurements.txt inside images folder
+// f = File.open(dir+"measurements.txt");
+
+// option: to save measurements.txt inside to user-specified location
+// uncomment next two lines and change the mydir path to the path on your computer
+// mydir = "/Users/manovich/";
+// f = File.open(mydir+"measurements.txt");
+
+
+//write headers to the file
+print(f,  "filename" + "\t"  + "imageID" + "\t" + "brightness_median" + "\t" + "brightness_stdev" + "\t" +"saturation_median" + "\t" +"saturation_stdev" +"\t" + "hue_median" + "\t" +"hue_stdev" +  "\n");
+
+setBatchMode(true); 
+
+run("Set Measurements...", "  standard median display redirect=None decimal=2");
+
+
+
+for (i=0; i<list.length; i++) {
+	path = dir+list[i];
+	open(path);
+	id=getImageID;
+
+	// if image format is 24-bit RGB, measure it
+	if (bitDepth==24) {
+
+		image_ID = i + 1;
+		print(image_ID + "/" + list.length + "\t" + list[i]); 
+
+		run("HSB Stack");
+		run("Convert Stack to Images");
+
+		selectWindow("Brightness");
+		//rename(list[i] + "/brightness");
+		run("Measure");
+		brightness_median= getResult("Median");
+		brightness_stdev = getResult("StdDev");
+		close(); // close the active image - "Brightness")
+
+		selectWindow("Saturation");
+		//rename(list[i] + "/saturation");
+		run("Measure");
+		saturation_median = getResult("Median");
+		saturation_stdev = getResult("StdDev");
+		close(); // close the active image - "Saturation")
+
+		selectWindow("Hue");
+		//rename(list[i] + "/hue");
+		run("Measure");
+		hue_median = getResult("Median");
+		hue_stdev = getResult("StdDev");
+		close(); // close the active image - "Hue")
+
+		
+	}
+
+	// if image format is not 24-bit RGB, print the name of the file without saving measurements
+	else
+		print("wrong format:" + "\t" + list[i]);
+
+	
+	// write image measurements to measurements.txt
+	 print(f,  list[i] + "\t"  + image_ID + "\t" + brightness_median + "\t" + brightness_stdev + "\t" + saturation_median + "\t" + saturation_stdev + "\t" + hue_median + "\t" + hue_stdev +  "\n");
+
+
+}
+
+// setBatchMode(false);
+

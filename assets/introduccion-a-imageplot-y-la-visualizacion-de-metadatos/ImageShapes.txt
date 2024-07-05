@@ -1,0 +1,57 @@
+// This macro uses imageJ command  "Analyze Particles.." on all images in a directory and writes results to "Summary" window
+
+
+// To save results: select all contents of "Summary" window and paste into a spreadsheet or a text file
+
+// "Count" column contains the number of shapes found in every image 
+// Note that "Total Area" and "Average" size results depend on the size of images - so they should not used if your run this macro on different size images
+
+// The results are approximate and depend on the kinds of images being measured
+// While they do not always accurately reflect the actual number of shapes which you may see in an image, they are useful in comparing a number of images to each other 
+
+// "Analyze Particles.." documentation
+// http://rsb.info.nih.gov/ij/docs/menus/analyze.html#ap
+
+// To increase the minimum size of shapes being counted, edit "size=10-Infinity" in command below to set larger size.
+// For instance, ""size=100-Infinity" will skip shapes  smaller than 100 (where 100 is number of pixels covered by the shape).
+// Set this number proportional to the size of your images. For instance, with small images, very small shapes are relevant to count, but with large images, you may want to skp them
+
+// You can also skip counting shapes larger than particular size. For example, to skip shapes larger than 400 (number of pixels), set "size=10-400". 
+
+// To make macro only count more circular shapes, or more rectanguar shapes, change "circularity=0.00-1.00" option.
+// A value of 1.0 indicates a perfect circle. As the value approaches 0.0, it indicates an increasingly elongated polygon. Values may not be valid for very small particles.
+
+// You can also set different options such as "Perimeter" and "Shape Descripitons" before running this macro by using "Set Measurements".  
+// Thease measurements will be then shown in "Summary" window in addition to the results of "Analyze Particles.." command.
+
+
+// Lev Manovich / softwarestudies.com / 2009, 2011
+
+
+
+dir = getDirectory("Choose  directory containing images");
+list = getFileList(dir);
+
+
+f = File.open(dir+"shapes.txt");
+
+   
+setBatchMode(true); 
+
+for (i=0; i<list.length; i++) {
+	path = dir+list[i];
+	open(path);
+
+	run("Make Binary");
+
+	run("Analyze Particles...", "size=10-Infinity circularity=0.00-1.00 show=Nothing include summarize");
+
+	close();
+
+}
+
+selectWindow("Summary");
+saveAs("text", f);
+
+setBatchMode(false);
+
