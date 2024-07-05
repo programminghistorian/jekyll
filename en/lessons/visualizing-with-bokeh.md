@@ -675,7 +675,13 @@ p.add_layout(box)
 
 In this final part of the lesson we'll look at the spatial components of fragmentation bombs.
 
-Bokeh provides [built-in tile providers](https://docs.bokeh.org/en/latest/docs/reference/tile_providers.html) that render base maps of the world. These are contained in the `bokeh.tile_providers` module. For this example, we'll use the CartoDB Tile Service (CARTODBPOSITRON).
+Bokeh provides [built-in tile providers](https://docs.bokeh.org/en/3.2.2/docs/reference/tile_providers.html#module-bokeh.tile_providers) that render base maps of the world. These are contained in the `bokeh.tile_providers` module. For this example, we'll use the CartoDB Tile Service (CARTODBPOSITRON).
+
+
+<div class="alert alert-warning">
+The function <code>get_provider</code> was deprecated as of Bokeh 3.0.0. The notes available on <a href='https://docs.bokeh.org/en/3.2.2/docs/reference/tile_providers.html#module-bokeh.tile_providers'>this reference page</a> may support readers to adjust their code using <code>add_tile</code> instead.
+</div>   
+
 
 We'll also be using functions imported from the `pyproj` library. Since our coordinates are stored as latitude/longitude, we'll define a custom function to convert them before mapping. Note that although Bokeh is coordinate-system neutral, it uses the Web Mercator projection for mapping, a standard found across web tile providers. The subject of coordinate systems and projections are outside the scope of this tutorial, but the interested reader will find many useful web resources on these topics.
 

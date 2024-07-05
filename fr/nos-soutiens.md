@@ -36,7 +36,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), États-Unis
 - [Purdue University](https://www.purdue.edu/), États-Unis
 - [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Allemagne
-- [University of Bristol Library](https://www.bristol.ac.uk/), Royaume-Uni
+- [University of Bristol Library](https://www.bristol.ac.uk/library/), Royaume-Uni
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Royaume-Uni
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), Royaume-Uni
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), Royaume-Uni

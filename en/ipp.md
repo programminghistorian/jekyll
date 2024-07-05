@@ -25,7 +25,7 @@ Gold Partnership rates are £3,000 GBP / $4,200 USD / €3,600 EUR / $5,100 CAD.
 
 _Silver Tier_
 
-| Upper Income Countries  | Middle Income Countries | [ODA eligible countries](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm)  |
+| Upper Income Countries  | Middle Income Countries | [ODA eligible countries](https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html)  |
 |---|---|---|
 | £1,000 GBP  | £400 GBP | £150 GBP  |
 | $1,400 USD  | $600 USD | $200 USD  |
