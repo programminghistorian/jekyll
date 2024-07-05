@@ -2778,6 +2778,15 @@
   orcid: 0000-0003-2139-1517
   affiliation:
     en: |
+      Université de Lorraine-CNRS, France.
+    es: |
+      Université de Lorraine-CNRS, Francia.
+    fr: |
+      Université de Lorraine-CNRS, France.
+    pt: |
+      Université de Lorraine-CNRS, França.
+  bio:
+    en: |
       Analyse et Traitement Informatique de la Langue Française, Université de Lorraine-CNRS, France.
     es: |
       Analyse et Traitement Informatique de la Langue Française, Université de Lorraine-CNRS, Francia.
@@ -2785,15 +2794,6 @@
       Analyse et Traitement Informatique de la Langue Française, Université de Lorraine-CNRS, France.
     pt: |
       Analyse et Traitement Informatique de la Langue Française, Université de Lorraine-CNRS, França.
-  bio:
-    en: |
-      
-    es: |
-      
-    fr: |
-      
-    pt: |
-    
   team_roles:
     - french
     - managing
