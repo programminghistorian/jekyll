@@ -26,7 +26,7 @@ Las tarifas para nuestros colaboradores en nivel Gold son de £3.000 GBP, $4.200
 
 _Nivel Silver_
 
-| Países de alto ingreso | Países de ingreso medio | [Países AOD](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm) |
+| Países de alto ingreso | Países de ingreso medio | [Países AOD](https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html) |
 | --- | --- | --- |
 | £1.000 GBP  | £400 GBP | £150 GBP     |
 | $1.400 USD  | $600 USD | $200 USD     |

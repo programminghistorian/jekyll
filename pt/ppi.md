@@ -25,7 +25,7 @@ As taxas de nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD,
 
 _Nível Silver_
 
-| Países de renda alta | Países de renda média | [Países elegíveis para ODA](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm) |
+| Países de renda alta | Países de renda média | [Países elegíveis para ODA](https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html) |
 |--|--|--|
 | €1.200 EUR | €500 EUR | €175 EUR |
 | $7.000 BRA | $2.800 BRA | $1.000 BRA |
