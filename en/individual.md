@@ -33,7 +33,7 @@ For $5, $10, or $15 per month, you can join our growing list of individual <a hr
 
 # Single Donations
 
-One-time donations can be made to the Programming Historian via [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), bank transfer (Lloyds Bank account number 55263268, sort code 30-96-26), or cheque (made payable to ‘ProgHist Ltd’ and posted to ‘The Programming Historian, c/o West & Berry, Mocatta House, Trafalgar Place, Brighton, United Kingdom, BN1 4DU’). For donations via bank transfer and cheque, we’d be grateful if you could [write to us](mailto:admin@programminghistorian.org) to let us know who you are and why you’ve chosen to support our work.
+One-time donations can be made to the Programming Historian via [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), bank transfer (Lloyds Bank account number 55263268, sort code 30-96-26), or cheque (made payable to ‘ProgHist Ltd’ and posted to ‘The Programming Historian, c/o West & Berry, Nile House, Nile Street, Brighton BN1 1HW, United Kingdom’). For donations via bank transfer and cheque, we’d be grateful if you could [write to us](mailto:admin@programminghistorian.org) to let us know who you are and why you’ve chosen to support our work.
 
 # Organisational Support
 
