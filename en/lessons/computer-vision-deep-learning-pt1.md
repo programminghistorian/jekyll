@@ -20,7 +20,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/342
 difficulty: 3
 activity: analyzing
 topics: [python, machine-learning]
-abstract: This is the first of a two-part lesson introducing deep learning based computer vision methods for humanities research. Using a dataset of historical newspaper advertisements and the fastai Python library, the lesson walks through the pipeline of training a computer vision model to perform image classification. 
+abstract: This is the first of a two-part lesson introducing deep learning based computer vision methods for humanities research. Using a dataset of historical newspaper advertisements and the fastai Python library, the lesson walks through the pipeline of training a computer vision model to perform image classification.     
 mathjax: true
 avatar_alt: An illustration of a camera on top of a wooden stand with a dark cloth.
 next: computer-vision-deep-learning-pt2
@@ -72,7 +72,7 @@ This two-part lesson does not aim to:
 We suggest approaching this two-part lesson in two stages:
 
 - First, read through the materials on this page, to gain familiarity with the key conceptual issues and the overall workflow for training a computer vision model
-- Second, we recommend that you run the code for this lesson through the [accompanying Jupyter Notebook](https://nbviewer.org/github/programminghistorian/jekyll/blob/gh-pages/assets/computer-vision-deep-learning-pt1/computer-vision-deep-learning-pt1-2.ipynb) on Google Colab, which works well for the exploratory approch we will be following.
+- Second, we recommend that you run the code for this lesson through the [accompanying Jupyter Notebook](https://nbviewer.org/github/programminghistorian/jekyll/blob/gh-pages/assets/computer-vision-deep-learning-pt1-2/computer-vision-deep-learning-pt1-2.ipynb) on Google Colab, which works well for the exploratory approch we will be following.
 
 In this two-part lesson we will be using a deep learning based approach to computer vision. The process of setting up an environment for doing deep learning has become easier but can still be complex. We have tried to keep this setup process as simple as possible, and recommend a fairly quick route to start running the lesson's code.
 
@@ -91,7 +91,7 @@ You can run the lesson code in a variety of different ways, but we strongly enco
 To run the lesson code on Google Colab you will need to:
 
 - Create a free account on [Google](https://accounts.google.com/signup) if you don't already have one, or log in to your existing account. A Google account is required to save and run notebooks on Colab.
-- [Open the notebook](https://nbviewer.org/github/programminghistorian/jekyll/blob/gh-pages/assets/computer-vision-deep-learning-pt1/computer-vision-deep-learning-pt1-2.ipynb) and click the _Open in Colab_ button.
+- [Open the notebook](https://nbviewer.org/github/programminghistorian/jekyll/blob/gh-pages/assets/computer-vision-deep-learning-pt1-2/computer-vision-deep-learning-pt1-2.ipynb) and click the _Open in Colab_ button.
 - Once the notebook is opened, you may want to save a copy to your own Google Drive. You can do this by selecting **File** > _Save a copy in Drive_.
 - To use a GPU, go to **Runtime** > **Change runtime type**, then under the `Hardware accelerator` dropdown, select a GPU option (e.g. T4 GPU) and click _Save_. This will enable GPU acceleration for your notebook. Colab occasionally changes which type of GPUs they make available. 
 
