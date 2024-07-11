@@ -71,7 +71,10 @@ Les institutions suivantes ont participé à de notre programme de [Partenariat 
 Les organisations suivantes ont apporté ou continuent d'apporter un soutien allant de services en nature au financement de projets spécifiques:
 
 ### En cours
-- University of Sussex Library, Royaume-Uni [2020-actuellement].
+- [University of Sussex Library](https://www.sussex.ac.uk/library/), Royaume-Uni [2020-actuellement].
+- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Royaume-Uni [2024-actuellement].  
+- [Corporation for Digital Scholarship](https://digitalscholar.org/), États-Unis [2024-actuellement].
+- [Jisc](https://www.jisc.ac.uk/), Royaume-Uni [2024-actuellement].  
   
 ### Révolus
 
