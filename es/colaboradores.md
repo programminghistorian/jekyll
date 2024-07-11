@@ -70,7 +70,10 @@ Antiguos contribuidores de nuestro [Programa de Instituciones Asociadas](pia).
 Organizaciones que han o continúan brindando apoyo en forma de contribuciones en especie o de financiamiento específico para proyectos.
 
 ### Activos
-University of Sussex Library, Reino Unido [2020-Presente].
+- [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido [2020-Presente].  
+- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido [2024-Presente].  
+- [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos [2024-Presente].  
+- [Jisc](https://www.jisc.ac.uk/), Reino Unido [2024-Presente].  
 
 ### Pasados
 - Jisc & The National Archives (Reino Unido), '[Programming Historian publications: developing computational skills for digital collections](https://research.jiscinvolve.org/wp/2021/07/23/boost-your-skills-in-working-with-digital-collections/)' [2021-2022].
