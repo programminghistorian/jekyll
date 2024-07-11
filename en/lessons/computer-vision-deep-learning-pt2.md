@@ -51,7 +51,7 @@ A particular focus of this lesson will be on how the fuzziness of concepts can t
 
 ## Lesson Set-Up
 
-We assume you have already completed [Part 1](/en/lessons/computer-vision-deep-learning-pt1), which includes setup instructions. You can find the notebook accompanying this lesson [here](https://nbviewer.org/github/programminghistorian/jekyll/blob/gh-pages/assets/computer-vision-deep-learning-pt1/computer-vision-deep-learning-pt1-2.ipynb). Please see Part 1 of the lesson for more information on setting up if you need.
+We assume you have already completed [Part 1](/en/lessons/computer-vision-deep-learning-pt1), which includes setup instructions. You can find the notebook accompanying this lesson [here](https://nbviewer.org/github/programminghistorian/jekyll/blob/gh-pages/assets/computer-vision-deep-learning-pt1-2/computer-vision-deep-learning-pt1-2.ipynb). Please see Part 1 of the lesson for more information on setting up if you need.
 
 ## The Deep Learning Pipeline
 
