@@ -72,7 +72,7 @@ Organizations that have or continue to give support ranging from in kind service
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), United Kingdom [2020-Present].  
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), United Kingdom [2024-Present].  
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), United States [2024-Present].  
-- [Jisc](https://www.jisc.ac.uk/) [2024-Present].  
+- [Jisc](https://www.jisc.ac.uk/), United Kingdom [2024-Present].  
 
   
 ### Past
