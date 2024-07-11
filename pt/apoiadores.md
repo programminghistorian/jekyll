@@ -73,7 +73,10 @@ Antigos contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi)
 Organizações que contribuíram ou continuam a dar apoio em forma de serviços, em espécie e até financiamento para projetos específicos.
 
 ### Ativo
--   University of Sussex Library, Reino Unido [2020-presente].
+- [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido [2020-presente].
+- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido [2024-presente].  
+- [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos [2024-presente].
+- [Jisc](https://www.jisc.ac.uk/), Reino Unido [2024-presente].  
   
 ### Anterior
 - Jisc & The National Archives (Reino Unido), '[Programming Historian publications: developing computational skills for digital collections](https://research.jiscinvolve.org/wp/2021/07/23/boost-your-skills-in-working-with-digital-collections/)' [2021-2022].
