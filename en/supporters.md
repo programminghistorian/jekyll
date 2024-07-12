@@ -69,7 +69,11 @@ Former contributors to our [Institutional Partner Programme](support-us#institut
 Organizations that have or continue to give support ranging from in kind services, to project-specific funding.
 
 ### Active
-- University of Sussex Library, United Kingdom [2020-Present].
+- [University of Sussex Library](https://www.sussex.ac.uk/library/), United Kingdom [2020-Present].  
+- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), United Kingdom [2024-Present].  
+- [Corporation for Digital Scholarship](https://digitalscholar.org/), United States [2024-Present].  
+- [Jisc](https://www.jisc.ac.uk/), United Kingdom [2024-Present].  
+
   
 ### Past
 - Jisc & The National Archives (UK), '[Programming Historian publications: developing computational skills for digital collections](https://research.jiscinvolve.org/wp/2021/07/23/boost-your-skills-in-working-with-digital-collections/)' [2021-2022].
