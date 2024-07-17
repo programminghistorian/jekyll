@@ -17,6 +17,12 @@ Si dominas de más de uno de nuestros idiomas (francés, español, inglés, port
 Buscamos traducciones rigurosas y de lectura amena que tengan en cuenta los contextos de investigación hispánico, lusófono y francés así como los recursos disponibles en nuestras respectivas comunidades. Puesto que muchos de lo tecnicismos son nuevos y/o todavía no están recogidos en los diccionarios, también recomendamos el uso de la [Taxonomía sobre Actividades de investigación digital en humanidades](http://vocabularios.caicyt.gov.ar/portalthes/index.php?v=42) de TaDiRAH y el [Glosario de Preservación Archivística Digital (Versión 4.0)](http://www.mecd.gob.es/planes-nacionales/dam/jcr:f20a4ba1-0ed2-445d-9be9-b8b0382562ea/mex-glosario-interpares-total0112.pdf) de Voutssas-M y Barnard Amozorrutia (UNAM).
 Si te interesa colaborar, consulta nuestras [instrucciones para autores y traductores](/es/guia-para-autores.html).
 
+## Revisa una lección
+
+Estamos orgullosos de utilizar un sistema de revisión por pares en abierto. Creemos que esto brinda una valiosa oportunidad para que autores, traductores y revisores de la comunidad global colaboren, intercambiando conocimientos de manera productiva y así ayudarnos a crear lecciones que sean prácticas, accesibles y sostenibles. 
+
+Si desea contribuir como revisor por pares, tómese unos minutos para [registrar su interés a través de nuestro formulario de Google](https://forms.gle/L1vXpoave9P7M7U76), que puede enviar directamente en línea. También hay [una versión de texto sin formato](/assets/forms/es-ph-revisión-por-pares-formulario.txt) que puede [enviarnos por correo electrónico](mailto:publishing.assistant@programminghistorian.org) si lo prefiere. Nuestra edición de en español actualmente está buscando voluntarios que estén disponibles para revisar una lección dentro de los próximos 12 meses.
+
 ## Escribe una lección
 
 <img src="/images/author-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}" />
