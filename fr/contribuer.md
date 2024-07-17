@@ -18,6 +18,12 @@ Nous sommes loin de simplement accepter ou rejeter des articles, comme le font l
 
 Si vous souhaitez proposer une leçon, que vous en soyez l'auteur(e) ou pas, merci [d'envoyer un courriel à notre rédacteur/rédactrice en chef](mailto:francais@programminghistorian.org).
 
+## Évaluer une leçon 
+
+Nous sommes fiers de notre politique ouverte d'évaluation par les pairs. Nous pensons que ce système offre une occasion précieuse de collaboration entre les auteurs/res, les traducteur/rices et leurs pairs de la communauté internationale d’humanités numériques. L’évaluation ouverte favorise un échange de connaissances productif et nous aide à élaborer des leçons utiles, accessibles et durables. 
+
+Si vous souhaitez contribuer en tant qu’évaluateur, veuillez prendre quelques minutes pour [faire part de votre intérêt via notre formulaire Google](https://forms.gle/B4g3r3qiUx6tn3RB8) que vous pouvez soumettre directement en ligne. Il existe également [une version texte](/assets/forms/fr-ph-evaluation-par-les-pairs-formulaire.txt) que vous pouvez [nous envoyer par mail](mailto:publishing.assistant@programminghistorian.org), si vous préférez. Notre édition française cherche actuellement des volontaires disponibles pour évaluer une leçon dans les 12 prochains mois.
+
 ## Assurer le suivi éditorial d'une leçon
 
 <img src="{{site.baseurl}}/gallery/editor-guidelines.png" class="garnish rounded float-right" alt="{{ site.data.snippets.editor-guidelines-image-alt[page.lang] }}"/>
