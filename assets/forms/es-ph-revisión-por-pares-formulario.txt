@@ -26,10 +26,10 @@ ORCID ID:
 
 2. ¿En qué lenguajes te sentirías cómodo revisando?
 
-- [ ] English
+- [ ] English - formulario: https://forms.gle/Fdm8JXstKEKZX2xt6
 - [ ] Español
-- [ ] Français
-- [ ] Português
+- [ ] Français - formulario: https://forms.gle/B4g3r3qiUx6tn3RB8
+- [ ] Português - envía un email: portugues@programminghistorian.org
 
 3. ¿Estás disponible para revisar dentro de los próximos doce meses? (Si recibimos una lección relevante a tu especialidad/experiencia técnica.)
 
