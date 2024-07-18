@@ -27,9 +27,9 @@ ORCID ID:
 2. Which languages would you be comfortable reviewing in? If you would like to review in any other language, please take the time to fill in the expression of interest form in those languages too.
 
 - [ ] English 
-- [ ] Español – Expression of Interest form
-- [ ] Français – Expression of Interest form
-- [ ] Português – Expression of Interest form
+- [ ] Español – Expression of Interest form: https://forms.gle/L1vXpoave9P7M7U76
+- [ ] Français – Expression of Interest form: https://forms.gle/B4g3r3qiUx6tn3RB8
+- [ ] Português – Please email: portugues@programminghistorian.org
 
 3. Are you available to review within the next 12 months? (If a lesson relevant to your specialism/technical expertise is submitted.)
 
