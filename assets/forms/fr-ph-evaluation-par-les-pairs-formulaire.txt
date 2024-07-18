@@ -26,10 +26,10 @@ Numéro d'identifiant ORCID :
 
 2. Dans quelle(s) langue(s) pourriez-vous également évaluer ? Si vous souhaitez participer dans une autre langue, nous vous prions de remplir le formulaire correspondant également.
 
-- [ ] English – Formulaire
-- [ ] Español – Formulaire
+- [ ] English – Formulaire : https://forms.gle/Fdm8JXstKEKZX2xt6
+- [ ] Español – Formulaire : https://forms.gle/L1vXpoave9P7M7U76
 - [ ] Français
-- [ ] Português – Formulaire
+- [ ] Português – Merci d'envoyer un courriel: portugues@programminghistorian.org
 
 3. Seriez-vous disponible pour évaluer une leçon dans les 12 prochains mois ? (Si une leçon en rapport avec votre domaine de spécialisation est soumise.)
 
