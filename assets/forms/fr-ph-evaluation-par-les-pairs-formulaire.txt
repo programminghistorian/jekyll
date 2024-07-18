@@ -1,12 +1,12 @@
 Évaluation par les pairs pour Programming Historian (édition française)
 
-Merci pour l'intérêt que vous portez à Programming Historian en tant qu'évaluateur.
+Merci pour l'intérêt que vous portez à Programming Historian en tant qu'évaluateur ou évaluatrice.
 
-Être évaluateur pour Programming Historian est un excellent moyen d'acquérir de nouvelles compétences techniques et de s'impliquer dans la communauté des humanités numériques.
+Être évaluateur/ice pour Programming Historian est un excellent moyen d'acquérir de nouvelles compétences techniques et de s'impliquer dans la communauté des humanités numériques.
 
-Nous soutenons fortement une politique ouverte d'évaluation par les pairs : nous encourageons les évaluateurs/rices, les auteurs/res, les traducteurs/rices et les éditeurs/rices à partager leurs rapports sur notre dépôt public GitHub. Cela favorise un environnement de recherche collaboratif, productif et durable. Nous veillons également à ce que nos évaluateurs soient reconnus pour leur contribution, en mentionnant leur nom dans les leçons que nous publions.
+Nous soutenons fortement une politique ouverte d'évaluation par les pairs : nous encourageons les évaluateurs/rices, les auteurs/res, les traducteurs/rices et les éditeurs/rices à partager leurs rapports sur notre dépôt public GitHub. Cela favorise un environnement de recherche collaboratif, productif et durable. Nous veillons également à ce que nos évaluateurs/ices soient reconnu/es pour leur contribution, en mentionnant leur nom dans les leçons que nous publions.
 
-Nous cherchons des évaluateurs disponibles dans les 12 prochains mois.
+Nous cherchons des évaluatrices et évaluateurs disponibles dans les 12 prochains mois.
 
 Veuillez noter que nous conserverons vos coordonnées dans le seul but de vous contacter pour une évaluation. Nous ne communiquerons jamais vos coordonnées à un tiers. Vous pouvez nous contacter à tout moment pour demander à ce que vos données soient supprimées de nos dossiers.
 
