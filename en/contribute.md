@@ -22,7 +22,7 @@ We don't simply accept or reject articles like traditional journals. Our editors
 
 ## Review a lesson
 
-We are proud to use an Open Peer Review system. We think this provides a valuable opportunity for collaboration between authors, translators and peers in the global community, supports productive knowledge exchange, and helps us to shape lessons that are practical, accessible, and sustainable. 
+We are proud to use an Open Peer Review system. We think this provides a valuable opportunity for collaboration between authors, translators and peers in the global community. The peer review process also supports productive knowledge exchange, and helps us to shape lessons that are practical, accessible, and sustainable. 
 
 If you would like to contribute as a peer reviewer, please take a few minutes to [register your interest via our Google Form](https://forms.gle/Fdm8JXstKEKZX2xt6) which you can submit directly online. There's also [a plain-text version](/assets/forms/en-ph-peer-review-form.txt) which you can [send to us by email](mailto:publishing.assistant@programminghistorian.org), if you prefer. Our English edition is currently seeking volunteers who are available to review a lesson within the next 6 months. 
 
