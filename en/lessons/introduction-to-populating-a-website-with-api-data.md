@@ -516,7 +516,7 @@ If you can learn a bit of programming, you are no longer restricted by what a we
 ## Useful APIs
 - [The New York Times](http://developer.nytimes.com/)
 - [The Digital Public Library of America](https://pro.dp.la/developers/api-codex)
-- [VIAF](https://www.oclc.org/developer/develop/web-services/viaf.en.html)
+- [VIAF](https://www.oclc.org/developer/api/oclc-apis/viaf.en.html)
 - [GeoNames](http://www.geonames.org/export/web-services.html)
 - [Wikipedia](https://www.mediawiki.org/wiki/API:Main_page)
 - [The Open Library](https://openlibrary.org/developers/api)
