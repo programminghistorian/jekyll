@@ -1,0 +1,58 @@
+Évaluation par les pairs pour Programming Historian (édition française)
+
+Merci pour l'intérêt que vous portez à Programming Historian en tant qu'évaluateur ou évaluatrice.
+
+Être évaluateur/ice pour Programming Historian est un excellent moyen d'acquérir de nouvelles compétences techniques et de s'impliquer dans la communauté des humanités numériques.
+
+Nous soutenons fortement une politique ouverte d'évaluation par les pairs : nous encourageons les évaluateurs/rices, les auteurs/res, les traducteurs/rices et les éditeurs/rices à partager leurs rapports sur notre dépôt public GitHub. Cela favorise un environnement de recherche collaboratif, productif et durable. Nous veillons également à ce que nos évaluateurs/ices soient reconnu/es pour leur contribution, en mentionnant leur nom dans les leçons que nous publions.
+
+Nous cherchons des évaluatrices et évaluateurs disponibles dans les 12 prochains mois.
+
+Veuillez noter que nous conserverons vos coordonnées dans le seul but de vous contacter pour une évaluation. Nous ne communiquerons jamais vos coordonnées à un tiers. Vous pouvez nous contacter à tout moment pour demander à ce que vos données soient supprimées de nos dossiers.
+
+----
+Prénom Nom :
+
+Adresse mail :
+
+Numéro d'identifiant ORCID :
+
+1. Votre expertise nous intéresse. Veuillez indiquer ci-dessous 2 ou 3 de vos domaines de spécialisation. Il peut s'agir d'outils numériques, de méthodes de recherche ou de langages de programmation que vous maîtrisez.
+
+- Domaine de spécialisation 1 :
+- Domaine de spécialisation 2 :
+- Domaine de spécialisation 3 :
+- Autres domaines de spécialisation dont vous voulez nous faire part :
+
+2. Dans quelle(s) langue(s) pourriez-vous également évaluer ? Si vous souhaitez participer dans une autre langue, nous vous prions de remplir le formulaire correspondant également.
+
+- [ ] English – Formulaire : https://forms.gle/Fdm8JXstKEKZX2xt6
+- [ ] Español – Formulaire : https://forms.gle/L1vXpoave9P7M7U76
+- [ ] Français
+- [ ] Português – Merci d'envoyer un courriel: portugues@programminghistorian.org
+
+3. Seriez-vous disponible pour évaluer une leçon dans les 12 prochains mois ? (Si une leçon en rapport avec votre domaine de spécialisation est soumise.)
+
+- [ ] Oui
+- [ ] Non
+
+4. Pouvons-nous vous contacter pour demander vos disponibilités lors de futurs cycles d'évaluation ? Si vous répondez &laquo;&nbsp;oui&nbsp;&raquo;, nous conserverons vos coordonnées dans nos dossiers. Si vous répondez &laquo;&nbsp;non&nbsp;&raquo;, nous supprimerons vos données 12 mois après avoir reçu ce formulaire.
+
+- [ ] Oui
+- [ ] Non
+----
+
+Merci !
+
+Si vous avez des questions, veuillez écrire à la rédactrice en chef de Programming Historian en français :
+
+Marie Flesch    
+[francais@programminghistorian.org](mailto:francais@programminghistorian.org)
+
+Vous pouvez également contacter notre équipe de publication :
+
+Anisa Hawes (Responsable de publication)    
+[admin@programminghistorian.org](mailto:admin@programminghistorian.org)
+
+Charlotte Chevrie (Assistante de publication)    
+[publishing.assistant@programminghistorian.org](mailto:publishing.assistant@programminghistorian.org)

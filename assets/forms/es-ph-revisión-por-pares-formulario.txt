@@ -1,0 +1,58 @@
+Revisión por pares para Programming Historian en español
+
+Gracias por tu interés en contribuir a Programming Historian en español como revisor/a por pares.
+
+La tarea de revisión para Programming Historian es una excelente manera de aprender nuevas habilidades técnicas e interactuar con la comunidad internacional de humanidades digitales.
+
+Estamos comprometidos con un proceso de revisión por pares en abierto: Animamos a los revisores, traductores, autores y editores a compartir sus evaluaciones y comentarios en nuestro repositorio público en GitHub. Hacemos esto para fomentar un entorno académico colaborativo, sostenible y justo. Incluimos los nombres de los revisores en las lecciones que publicamos para aseguramos de que nuestros colaboradores reciben reconocimiento y crédito por su contribución.
+
+Buscamos a personas que tengan disponibilidad para revisar una lección en los próximos doce meses.
+
+Ten en cuenta que almacenaremos tus datos con el único propósito de comunicarnos contigo para la tarea de revisión por pares. Nunca compartiremos tus datos con ningún tercero. Puedes contactarnos en cualquier momento para solicitar que eliminemos tus datos de nuestros registros.
+
+----
+Nombre y apellido(s):
+
+Dirección de email:
+
+ORCID ID:
+
+1. Estamos interesados en tu experiencia. En los siguientes campos, indica 2 o 3 áreas de especialización. Pueden ser herramientas digitales, métodos de investigación o lenguajes de programación específicos que domines.
+
+- Área de especialización 1
+- Área de especialización 2
+- Área de especialización 3
+- Cualquier otra área de especialización que te gustaría que conozcamos:
+
+2. ¿En qué lenguajes te sentirías cómodo revisando?
+
+- [ ] English - formulario: https://forms.gle/Fdm8JXstKEKZX2xt6
+- [ ] Español
+- [ ] Français - formulario: https://forms.gle/B4g3r3qiUx6tn3RB8
+- [ ] Português - envía un email: portugues@programminghistorian.org
+
+3. ¿Estás disponible para revisar dentro de los próximos doce meses? (Si recibimos una lección relevante a tu especialidad/experiencia técnica.)
+
+- [ ] Sí
+- [ ] No
+
+4. ¿Podríamos comunicarnos contigo acerca de tu disponibilidad para participar en futuras rondas de revisión por pares? En caso afirmativo, mantendremos tus datos en nuestros registros. En caso negativo, eliminaremos tus datos 12 meses después de recibir este formulario.
+
+- [ ] Sí
+- [ ] No
+----
+
+¡Gracias!
+
+Si tienes alguna pregunta, escribe a la editora jefa de Programming Historian en español: 
+
+Jennifer Isasi     
+[espanol@programminghistorian.org](mailto:english@programminghistorian.org)
+
+También puede contactar con nuestro personal editorial (en inglés):
+
+Anisa Hawes (Directora de publicaciones)     
+[admin@programminghistorian.org](mailto:admin@programminghistorian.org)     
+
+Charlotte Chevrie (Asistente de publicación)     
+[publishing.assistant@programminghistorian.org](mailto:publishing.assistant@programminghistorian.org)     
