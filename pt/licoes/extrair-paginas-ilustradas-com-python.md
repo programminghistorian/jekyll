@@ -81,7 +81,7 @@ Os leitores mais experientes podem querer simplesmente instalar as dependências
 - `hathitrust-api` ou `hathitrust_api` ([Documentos de Instalação](https://github.com/rlmv/hathitrust-api));
 - `internetarchive` ([Documentos de Instalação](https://archive.org/services/docs/api/internetarchive/));
 - `jupyter` ([Documentos de Instalação](https://jupyter.org/install));
-- `requests` ([Documentos de Instalação](https://requests.readthedocs.io/en/latest/user/install/#install)) [o criador recomenda a instalação do`pipenv`; para a instalação do `pip`, veja [PyPI](https://pypi.org/project/requests2/)].
+- `requests` ([Documentos de Instalação](https://requests.readthedocs.io/en/latest/user/install/#install)) [o criador recomenda a instalação do`pipenv`; para a instalação do `pip`, veja [PyPI](https://pypi.org/project/requests/)].
 
 ## Ficheiros da Lição
 
