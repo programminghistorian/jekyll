@@ -151,7 +151,7 @@ R is an open-source coding language with more available statistical algorithms t
 
 You can download R from the [Comprehensive R Archive Network](https://cran.r-project.org/). Make sure you select the installer corresponding to your computer’s operating system – if needed, you can refer to Taryn Dewar’s lesson [R Basics with Tabular Data](/en/lessons/r-basics-with-tabular-data), which covers how to install R and write code to manipulate data.
 
-RStudio Desktop is the recommended [Integrated Development Environment (IDE)](https://perma.cc/WS89-L4HN) for writing and running R scripts. The free version is more than sufficient. You can download and install RStudio from [rstudio.com](www.rstudio.com) - again, make sure you select the installer appropriate to your computer’s operating system.[^8]
+RStudio Desktop is the recommended [Integrated Development Environment (IDE)](https://perma.cc/WS89-L4HN) for writing and running R scripts. The free version is more than sufficient. You can download and install RStudio from [Posit](https://posit.co/) - again, make sure you select the installer appropriate to your computer’s operating system.[^8]
 
 The code used in this script includes packages and libraries from standard R as well as from the [Tidyverse](https://www.tidyverse.org/). [Basic Text Processing in R](/en/lessons/basic-text-processing-in-r) by Taylor Arnold and Lauren Tilton provides an excellent overview of the knowledge of R required for text analysis. To learn more about the Tidyverse, there are many great sources online, including [_A Tidyverse Cookbook_](https://perma.cc/8FPB-CRYU) by Garrett Grolemund.
 
