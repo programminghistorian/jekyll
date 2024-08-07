@@ -20,7 +20,7 @@ These guidelines have been developed to help you understand the process of creat
 ## Step 1: Proposing a New Lesson
 
 <div class="alert alert-success">
-Our English journal has revised its submission process, and now invites proposals only in the final quarter of each year. The most recent Call for Proposals closed on 31 January 2024.
+Our English journal will open its next annual submission window in October 2024. In the meantime, you may find it useful to <a href="https://programminghistorian.org/posts/en-call-for-lessons">consult our past call for proposals</a> (closed in January 2024). Submissions to our Spanish, French and Portuguese journals are open year-round.
 </div>
 
 You can get a sense of what we publish by looking through our [published lessons]({{site.baseurl}}/en/lessons), reading our [reviewer guidelines]({{site.baseurl}}/en/reviewer-guidelines) or browsing [lessons in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/en/drafts). Please also take a moment to check our [Lesson Concordance document](https://docs.google.com/spreadsheets/d/1vrvZTygZLfQRoQildD667Xcgzhf_reQC8Nq4OD-BRIA/edit#gid=0) to see which methods we have already covered in our published or forthcoming lessons. 
