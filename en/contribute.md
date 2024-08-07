@@ -11,7 +11,7 @@ The _Programming Historian_ runs on the far-from-endless energy of volunteers, a
 ## Write a new lesson
 
 <div class="alert alert-success">
-Our English journal has revised its submission process, and now invites proposals only in the final quarter of each year. The most recent Call for Proposals closed on 31 January 2024.
+Our English journal will open its next annual submission window in October 2024. In the meantime, you may find it useful to <a href="/posts/en-call-for-lessons">consult our past call for proposals</a> (closed in January 2024). Submissions to our <a href="/es/guia-para-autores#paso-1-proponer-una-nueva-lección">Spanish</a>, <a href="/fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon">French</a> and <a href="/pt/directrizes-autor#etapa-1-propor-uma-nova-lição">Portuguese</a> journals are open year-round.
 </div>
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
