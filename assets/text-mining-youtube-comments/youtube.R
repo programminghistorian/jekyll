@@ -6,7 +6,7 @@ renv::init()
 renv::install("quanteda.textmodels@0.9.6")
 
 #install packages
-install.packages(c("tidyverse", "quanteda", "quanteda.textmodels", "quanteda.textplots"))
+install.packages(c("tidyverse", "quanteda", "quanteda.textplots"))
 
 #load packages
 library(tidyverse); library(lubridate); library(ggplot2); library(purrr), library(stringr)
