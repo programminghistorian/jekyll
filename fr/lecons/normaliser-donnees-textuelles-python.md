@@ -13,7 +13,7 @@ reviewers:
 - Jim Clifford
 - Francesca Benatti
 - Frederik Elwert
-editor:
+editors:
 - Miriam Posner
 translator:
 - Fantine Horvath
@@ -173,4 +173,4 @@ Si vous souhaitez pratiquer davantage les expressions régulières, le chapitre 
 
 Pour pouvoir continuer vers les leçons suivantes, il est important d'avoir les bons dossiers et les bons programmes dans votre répertoire `programming-historian`. À la fin de chaque chapitre de cette série de leçons, vous pouvez télécharger le fichier `.zip` correspondant pour être sûr.e d'avoir le bon code&nbsp;:
 
-- [`python-lessons4.zip`](https://github.com/programminghistorian/jekyll/blob/gh-pages/assets/python-lessons4.zip)
+- [`python-lessons4.zip`](/assets/python-lessons4.zip)
