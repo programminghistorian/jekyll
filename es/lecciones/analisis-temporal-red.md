@@ -165,9 +165,10 @@ Ahora que tenemos los datos básicos en R, podemos ver la red:
 la_red <- network(
   VinculosEstaticosPH,
   vertex.attr = AtributosVerticesPH,
-  vertex.attrnames = c("id.vertice", "nombre", "region"), directed = FALSE,
+  vertex.attrnames = c("id.vertice", "nombre", "region"),
+  directed = FALSE,
   bipartite = FALSE,
-  multiple - TRUE
+  multiple = FALSE
 )
 plot(la_red)
 ```
@@ -191,6 +192,10 @@ colaboraciones_dinamicas <- networkDynamic(
   vertex.spells = PHDynamicNodes
 )
 ```
+<div class="alert alert-info">
+Esto puede devolver alertas, en inglés, con un mensaje similar a este: "Se ignoró la actividad de Edge en base.net. Se creó net.obs.period para describir la red. Información del período de observación de la red: Número de períodos de observación: 1. Intervalo de tiempo máximo observado: 1257,5 hasta 1325. Modo temporal: continuo. Unidad de tiempo: desconocida. Incremento de tiempo sugerido: NA." Puede ignorarlas con seguridad, ya que no indican un error.
+</div>
+
 La función `networkDynamic()` toma como su primer argumento la red estática ya creada, y le añade los datos temporales para los vértices y los nodos. Probablemente sea una buena idea comprobar la red dinámica para asegurarse de que todo está correcto mediante la función `network.dynamic.check()` (comprobar red dinámica).
 ```
 # Comprobar los datos en la red temporal
@@ -213,6 +218,10 @@ Esto es porque la función `plot()` (gráfico) produce una imagen estática de l
 filmstrip(colaboraciones_dinamicas, displaylabels = FALSE)
 ```
 [Nota de la T: Aquí indicamos que no muestre las etiquetas mediante *displaylabels*].
+
+<div class="alert alert-info">
+Aquí también puede recibir el siguiente tipo de alerta, en inglés: "No se encontró información de coordenadas en la red, se está ejecutando calculate.animation. Error en as.matrix.network.adjacency(net, attrname = weight.attr, expand.bipartite = TRUE): Los multigrafos no son compatibles actualmente con as.matrix.network.adjacency. Saliendo". Nuevamente, puede ignorarlos con seguridad.
+</div>
 
 ¡Ahora tenemos algo! Esto nos da una muestra de cómo la red se desarrolla a lo largo del tiempo, tomando muestras en algunos momentos clave a lo largo de su vida.
 
