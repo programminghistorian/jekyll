@@ -85,7 +85,7 @@ La liste aura besoin d'être nettoyée avant d'être utilisée pour mesurer des 
 
 ## Convertir en minuscules
 
-Généralement, les tokens sont convertis en minuscules pour faire des mesures de fréquences. C'est ce que nous allons faire en appliquant la méthode `lower()` à chaque token. Il s'agit d'une méthode applicable à des chaines de caractères et qui a déjà été introduite dans la leçon [Manipuler des chaines de caractères en Python](/fr/lecons/manipuler-chaînes-caracteres-python). Nous allons donc devoir l'appliquer à la chaine de caractères qui est renvoyée par la fonction `stripTags(html)` du module `obo.py`, dans le programme `html-to-list1.py`. 
+Généralement, les tokens sont convertis en minuscules pour faire des mesures de fréquences. C'est ce que nous allons faire en appliquant la méthode `lower()` à chaque token. Il s'agit d'une méthode applicable à des chaines de caractères et qui a déjà été introduite dans la leçon [Manipuler des chaines de caractères en Python](/fr/lecons/manipuler-chaines-caracteres-python). Nous allons donc devoir l'appliquer à la chaine de caractères qui est renvoyée par la fonction `stripTags(html)` du module `obo.py`, dans le programme `html-to-list1.py`. 
 
 En effet, la fonction `stripTags()` du module `obo.py` retourne une chaine de caractère à partir des données extraites (contenues dans la variable `html`), que nous convertissons en minuscules avec la fonction `lower()`. En appliquant ainsi les deux fonctions sur une même ligne, nous gardons un code assez court tout en apportant des modifications majeures à notre programme.
 
