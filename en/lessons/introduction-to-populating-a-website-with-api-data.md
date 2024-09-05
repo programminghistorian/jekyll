@@ -523,6 +523,6 @@ If you can learn a bit of programming, you are no longer restricted by what a we
 - [List of useful APIs for museums](http://museum-api.pbworks.com/w/page/21933420/Museum%C2%A0APIs)
 
 ## Author's Project Using APIs
-- [James Cook Dynamic Journal (JCDJ)](https://jcdj.acdh-dev.oeaw.ac.at/)...Contextualisation of a book from The Open Library
-- [WiQiZi](https://wiqizi.acdh-dev.oeaw.ac.at/)...Gamification of Wikipedia/DBpedia
-- [CAROL](https://carol.acdh-dev.oeaw.ac.at/)...Exploring the books from the Open Library in context
+- [James Cook Dynamic Journal (JCDJ)](https://web.archive.org/web/20210414011922/https://jcdj.acdh-dev.oeaw.ac.at/)...Contextualisation of a book from The Open Library
+- [WiQiZi](https://web.archive.org/web/20240420232902/https://rip.acdh.oeaw.ac.at/wiqizi.html)...Gamification of Wikipedia/DBpedia
+- [CAROL](https://web.archive.org/web/20200805024923/https://carol.acdh-dev.oeaw.ac.at/)...Exploring the books from the Open Library in context
