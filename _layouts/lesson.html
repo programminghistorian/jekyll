@@ -288,6 +288,9 @@ All lesson metadata and alerts should follow the convention of pulling appropria
   <div class="content">
     {{ content }}
   </div>
+  
+  
+
 
   {% include author-info.html %}
 
@@ -311,9 +314,25 @@ All lesson metadata and alerts should follow the convention of pulling appropria
     </div>
   </div>
 
+  <!-- Check if lesson is part of a sequence -->
+  {% if page.sequence %}
+    <div class="series-warning alert alert-info">
+    {{ site.data.snippets.series-note[page.lang] }} {{ page.series_total }} - {{ site.data.snippets.lesson-sequence[page.lang] }} {{ page.sequence }}  
+      {% if page.previous %}
+        | <a href="{{page.previous}}"> {{ site.data.snippets.previous-lesson[page.lang] }}</a>
+      {% endif %}
+      {% if page.next %}
+        | <a href="{{page.next}}"> {{ site.data.snippets.next-lesson[page.lang] }}</a>
+      {% endif %}
+    </div>
+  {% endif %}
+  
+  
   {% if site.lesson_donation_alerts %}
   {% include support-alert.html %}
   {% endif %}
+  
+  
 
 </div>
 </div>
