@@ -183,7 +183,7 @@ thenetwork <- network(
   vertex.attrnames = c("vertex.id", "name", "region"),
   directed = FALSE,
   bipartite = FALSE,
-  multiple = TRUE
+  multiple = FALSE
 )
 plot(thenetwork)
 ```
@@ -211,6 +211,10 @@ dynamicCollabs <- networkDynamic(
 )
 ```
 
+<div class="alert alert-info">
+This may return alerts along the lines of 'Edge activity in base.net was ignored Created net.obs.period to describe network Network observation period info: Number of observation spells: 1 Maximal time range observed: 1257.5 until 1325 Temporal mode: continuous Time unit: unknown Suggested time increment: NA'. You can safely ignore these, as they do not indicate an error.
+</div>
+
 The `networkDynamic()` function takes as its first input the static network that we created above, and appends the temporal data for the vertices and nodes. It's probably a good idea to check the dynamic network to make sure everything looks right using the `network.dynamic.check()` function.
 
 ```r
@@ -237,6 +241,10 @@ That's because the `plot()` function produces a static image of the entire dynam
 # Plot our dynamic network as a filmstrip
 filmstrip(dynamicCollabs, displaylabels = FALSE)
 ```
+
+<div class="alert alert-info">
+Here you may also receive the following type of alert: 'No coordinate information found in network, running compute.animation Error in as.matrix.network.adjacency(net, attrname = weight.attr, expand.bipartite = TRUE) :  Multigraphs not currently supported in as.matrix.network.adjacency.  Exiting.' Again, you can safely ignore these.
+</div>
 
 Now we're getting somewhere! This gives us a view of the network as it develops over time, taking snapshots at a few key moments over the course of its timespan.
 
