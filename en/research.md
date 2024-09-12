@@ -24,6 +24,7 @@ The project team and members of the wider community are involved in a number of 
 
 ## Published Research
 
+* Juliana Marques, Joana Vieira Paulino, Daniel Alves, Jimmy Medeiros & Suemi Higuchi, "[O _Programming Historian em Português_ na promoção do letramento digital na sala de aula](https://rhhj.anpuh.org/RHHJ/article/view/1146/563)", _Revista História Hoje_ 13, no. 17 (2024), 304-325. 
 * Sofia Papastamkou, Anita Lucchesi, & Douglas McRae. "Multilingualism and Digital Methods Teaching: Conceiving Pedagogical Materials in a Multilingual-first Approach". DHBenelux 2023. Zenodo, 2023. [https://doi.org/10.5281/zenodo.10599623](https://doi.org/10.5281/zenodo.10599623).
 * Jennifer Isasi, Riva Quiroga, Nabeel Sidiqqui, Joana Vieira Paulino, Alex Wermer-Colan, [“A Model for Multilingual and Multicultural Digital Scholarship Methods Publishing"](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003393696-3/model-multilingual-multicultural-digital-scholarship-methods-publishing-jennifer-isasi-riva-quiroga-nabeel-siddiqui-joana-vieira-paulino-alex-wermer-colan), in _Multilingual Digital Humanities_, edited by Viola, L., & Spence, P., Routledge, 2023.
 * Adam Crymble & Charlotte M. H. Im, ['Measuring digital humanities learning requirements in Spanish & English-speaking practitioner communities'](https://doi.org/10.1007/s42803-023-00066-x), International Journal of Digital Humanities, (2023).
@@ -96,6 +97,7 @@ The project team and members of the wider community are involved in a number of 
 
 ## Posters, Conference Papers, & Invited Talks
 
+* Joana Vieira Paulino, Daniel Alves, Jimmy Medeiros, Juliana Marques & Suemi Higuchi, "Increasing Digital Literacy in the Classroom: the Use of the _Programming Historian_ in Brazilian and Portuguese Universities", Decolonizing Knowledge, Amplifying Voices: Digital Humanities in Action Across Latin America and Beyond, [DH 2024](https://dh2024.adho.org/), George Mason University Arlington Campus, Washington DC, USA (& online), (5-9 August 2024).
 * Jennifer Isasi & Zoe LeBlanc, "Programming Infrastructure and Mission: The Data-Driven Rebuilding of _Programming Historian_", Missions Accomplished? The Future of Mission-Driven Digital Scholarship Journals in DH, [DH 2024](https://dh2024.adho.org/), George Mason University Arlington Campus, Washington DC, USA (& online), (5-9 August 2024).    
 * Anisa Hawes, Charlotte Chevrie, Joana Vieira Paulino, Anna-Maria Sichani, & Eric Brasil, "[Documenting Sustainable Workflows for a Multilingual Publishing Project: The Case of Programming Historian](https://doi.org/10.5281/zenodo.12167753)" (Poster), Workflows: Digital Methods for Reproducible Research Practices in the Arts and Humanities, [DARIAH Annual Event](https://annualevent.dariah.eu/), Universidade NOVA de Lisboa, Lisbon, Portugal, (19-21 June 2024).
 * Anisa Hawes, Charlotte Chevrie & Anna-Maria Sichani, "Harnessing _Programming Historian_’s CC-BY Licence to Empower Multilingual Reuse", [UK-Ireland Digital Humanities Association's annual event](https://digitalhumanities-uk-ie.org/2024-annual-event/), University College Cork, Cork, Ireland (4-5 June 2024).
