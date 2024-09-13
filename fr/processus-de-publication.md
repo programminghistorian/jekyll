@@ -1,25 +1,25 @@
 ---
-title: Schéma de Publication
+title: Processus de Publication
 layout: blank
 redirect_from: /schema-de-publication
 
 {% include toc.html %}
 
-# Schéma de Publication
+# Processus de Publication
 
-Notre schéma de publication se déroule en huit phases&nbsp;: **Proposal**, **Submission**, **Initial Edit**, **Revision 1**, **Open Peer Review**, **Revision 2**, **Sustainability + Accessibility**, and **Publication**. Il est soutenu par les services professionnels de notre équipe de publication (guidée par nos rédacteurs/rédactrices en chef) et par l'expertise d'une cohorte de rédacteurs bénévoles de notre équipe.
+Notre processus de publication se déroule en huit phases&nbsp;: **Proposal** (Proposition), **Submission** (Soumission), **Initial Edit** (Edition Initiale), **Revision 1** (Révision 1), **Open Peer Review** (Evaluation Ouverte par les Pairs), **Revision 2** (Révision 2), **Sustainability + Accessibility** (Durabilité + Accessibilité), et **Publication**. Il est soutenu par les services professionnels de notre équipe de publication (guidée par nos rédacteurs/rédactrices en chef) et par l'expertise d'une cohorte de rédacteurs bénévoles de notre équipe.
 
 ## Aperçu des phases, des responsabilités et des délais
 
 | Phase                            | Qui est responsable&nbsp;?                    | Délai estimé&nbsp;:                  |
 | -------------------------------- | -------------------------------------- | ------------------------------------ |
-| **0 Proposal**                   | Rédacteur/Rédactrice en Chef + leur équipe d'édition | 14 jours pour le retour <br> 90 jours pour la soumission |
-| **1 Submission**                 | Equipe de publication                        | 7 jours  |
-| **2 Initial Edit**               | Editeur/Editrice                                 | 30 days |
-| **3 Revision 1**                 | Auteur/Auteure // Traducteur/Traductrice + Editeur/Editrice            | 30 jours |
-| **4 Open Peer Review**           | Evaluateurs/Evaluatrices + Editeur/Editrice                     | 60 jours |
-| **5 Revision 2**                 | Auteur/Auteure // Traducteur/Traductrice + Editeur/Editrice             | 30 jours |
-| **6 Sustainability + Accessibility** | Equipe de publication  (+ Relecteur/Relectrice _seulement pour leçons originales_)         | 21-30 jours |
+| **0 Proposal** (Proposition)                   | Rédacteur/Rédactrice en Chef + leur équipe d'édition | 14 jours pour le retour <br> 90 jours pour la soumission |
+| **1 Submission** (Soumission)                | Equipe de publication                        | 7 jours  |
+| **2 Initial Edit** (Edition Initiale)              | Editeur/Editrice                                 | 30 days |
+| **3 Revision 1** (Révision 1)                | Auteur/Auteure // Traducteur/Traductrice + Editeur/Editrice            | 30 jours |
+| **4 Open Peer Review** (Evaluation Ouverte par les Pairs) | Evaluateurs/Evaluatrices + Editeur/Editrice                     | 60 jours |
+| **5 Revision 2** (Révision 2)   | Auteur/Auteure // Traducteur/Traductrice + Editeur/Editrice             | 30 jours |
+| **6 Sustainability + Accessibility** (Durabilité + Accessibilité) | Equipe de publication  (+ Relecteur/Relectrice _seulement pour leçons originales_)         | 21-30 jours |
 | **7 Publication**                | Rédacteur/Rédactrice en chef + Equipe de publication      | 14 jours |
 
 ## Detail des phases, responsabilités, délais, et procédures & activités
