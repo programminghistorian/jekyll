@@ -7,7 +7,7 @@ redirect_from: /processus-de-publication
 
 # Processus de Publication
 
-Notre processus de publication se déroule en huit phases&nbsp;: **Proposal** (Proposition), **Submission** (Soumission), **Initial Edit** (Edition Initiale), **Revision 1** (Révision 1), **Open Peer Review** (Evaluation Ouverte par les Pairs), **Revision 2** (Révision 2), **Sustainability + Accessibility** (Durabilité + Accessibilité), et **Publication**. Il est soutenu par les services professionnels de notre équipe de publication (guidée par nos rédacteurs/rédactrices en chef) et par l'expertise d'une cohorte de rédacteurs bénévoles de notre équipe.
+Notre processus de publication se déroule en huit phases&nbsp;: **Proposal** (Proposition), **Submission** (Soumission), **Initial Edit** (Edition Initiale), **Revision 1** (Révision 1), **Open Peer Review** (Evaluation Ouverte par les Pairs), **Revision 2** (Révision 2), **Sustainability + Accessibility** (Durabilité + Accessibilité), et **Publication**. Il est soutenu par les services professionnels de notre équipe de publication (guidée par nos Rédacteurs/Rédactrices en Chef) et par l'expertise d'une cohorte d'Editeurs/Editrices bénévoles de notre équipe.
 
 ## Aperçu des phases, des responsabilités et des délais
 
