@@ -24,7 +24,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/397
 activity: transforming
 topics: [data-manipulation, data-management, distant-reading, r, data-visualization]
 abstract: "Esta lição explora como os investigadores podem tornar seus dados organizados, entender os pacotes do R para manipulação de dados e conduzir análises de dados básicas usando esta linguagem."
-original: data_wrangling_and_management_in_R
+original: data-wrangling-and-management-in-R
 avatar_alt: Barra de sabão
 doi: 10.46430/phpt0035
 ---
@@ -115,7 +115,7 @@ Neste exemplo, vamos visualizar o crescimento populacional de Brasil e Argentina
       geom_line() +
       geom_point()
 
-{% include figure.html filename="manipulacao-transformacao-dados-R-01.png" alt="Imagem com a representação de um gráfico de linhas com dados da população por anos para o Brasil e a Argentina" caption="Gráfico da população de Brasil e Argentina, ao longo dos anos" %}
+{% include figure.html filename="pt-tr-manipulacao-transformacao-dados-R-01.png" alt="Imagem com a representação de um gráfico de linhas com dados da população por anos para o Brasil e a Argentina" caption="Gráfico da população de Brasil e Argentina, ao longo dos anos" %}
 
 Como podemos observar, a população absoluta do Brasil é consideravelmente maior em comparação com a população da Argentina. Embora isso pareça óbvio devido ao tamanho do território brasileiro, o código nos fornece uma base sobre a qual podemos formular uma infinidade de questões similares. Por exemplo, com uma pequena mudança no código podemos criar um gráfico similar com dois países diferentes, como Portugal e Bélgica.
 
@@ -130,7 +130,7 @@ Como podemos observar, a população absoluta do Brasil é consideravelmente mai
       geom_line() +
       geom_point()  
 
-{% include figure.html filename="manipulacao-transformacao-dados-R-02.png" alt="Imagem com a representação de um gráfico de linhas com dados da população por anos para a Bélgica e Portugal" caption="Gráfico da população de Portugal e Bégica, ao longo dos anos" %}
+{% include figure.html filename="pt-tr-manipulacao-transformacao-dados-R-02.png" alt="Imagem com a representação de um gráfico de linhas com dados da população por anos para a Bélgica e Portugal" caption="Gráfico da população de Portugal e Bégica, ao longo dos anos" %}
 
 Promover mudanças rápidas no código e revisar nossos dados é parte fundamental do processo de análise exploratória de dados (AED). Ao invés de tentar "provar" uma hipótese, a análise exploratória nos ajuda a entender melhor os dados e a levantar questões sobre eles. Para os historiadores, a AED fornece uma forma fácil de saber quando aprofundar mais em um tema e quando voltar atrás, e esta é uma área onde o R se sobressai.
 
@@ -398,7 +398,7 @@ Agora, após termos visto os cinco principais verbos do dplyr, podemos criar rap
       geom_bar(aes(x = expectativa_2007, fill = expectativa_2007)) +
       labs(x = "A expectativa de vida é maior que 50 anos?")
 
-{% include figure.html filename="manipulacao-transformacao-dados-R-03.png" alt="Imagem com a representação de um gráfico de barras com dados sobre o número de países onde a expectativa de vida é maior ou menor que 50 anos, em 2007" caption="Expectativa de vida nos países em 2007" %}
+{% include figure.html filename="pt-tr-manipulacao-transformacao-dados-R-03.png" alt="Imagem com a representação de um gráfico de barras com dados sobre o número de países onde a expectativa de vida é maior ou menor que 50 anos, em 2007" caption="Expectativa de vida nos países em 2007" %}
 
 Novamente, fazendo uma pequena mudança no nosso código, podemos ver também o número de países com expectativa de vida maior que 50 anos, em 1952.
 
@@ -410,7 +410,7 @@ Novamente, fazendo uma pequena mudança no nosso código, podemos ver também o 
       geom_bar(aes(x = expectativa_1952, fill = expectativa_1952)) +
       labs(x = "A expectativa de vida é maior que 50 anos?")
 
-({% include figure.html filename="manipulacao-transformacao-dados-R-04.png" alt="Imagem com a representação de um gráfico de barras com dados sobre o número de países onde a expectativa de vida é maior ou menor que 50 anos, em 1952" caption="Expectativa de vida nos países em 1952" %}
+({% include figure.html filename="pt-tr-manipulacao-transformacao-dados-R-04.png" alt="Imagem com a representação de um gráfico de barras com dados sobre o número de países onde a expectativa de vida é maior ou menor que 50 anos, em 1952" caption="Expectativa de vida nos países em 1952" %}
 
 ## Conclusão
 
