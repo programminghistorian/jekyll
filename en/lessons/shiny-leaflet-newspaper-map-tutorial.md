@@ -36,7 +36,7 @@ In this lesson, you will learn:
 -   The concept and practice of 'reactive programming', as implemented by Shiny applications. Specifically, you'll learn how you can use Shiny to 'listen' for certain inputs, and how they are connected to outputs displayed in your app.
 
 <div class="alert alert-info">
-Note that this lesson doesn't teach any coding in R, other than what's necessary to create the web application, nor does it cover publishing the finished application to the web. A basic knowledge of R, particularly using the <a href='/en/lessons/data_wrangling_and_management_in_R'>tidyverse</a>, would be very useful.
+Note that this lesson doesn't teach any coding in R, other than what's necessary to create the web application, nor does it cover publishing the finished application to the web. A basic knowledge of R, particularly using the <a href='/en/lessons/data-wrangling-and-management-in-R'>tidyverse</a>, would be very useful.
 </div>
 
 ### Graphical User Interfaces and the Digital Humanities  
@@ -108,7 +108,7 @@ First, however, you need to set up the correct programming environment and creat
 
 To get started with this tutorial, you should install the latest versions of [R](https://cran.rstudio.com/) and [Rstudio](https://www.rstudio.com/products/rstudio/download/) on your local machine. The R programming language has a very popular IDE (Integrated Development Environment) called RStudio, which is often used alongside R, as it provides a large set of features to make coding in the language more convenient. We'll use RStudio throughout the lesson.
 
-Previous *Programming Historian* lessons have covered [working with R](/en/lessons/r-basics-with-tabular-data) and [working with the tidyverse](/en/lessons/data_wrangling_and_management_in_R). It would be useful to go through these lessons beforehand, to learn the basics of installing R and using the tidyverse for data wrangling.
+Previous *Programming Historian* lessons have covered [working with R](/en/lessons/r-basics-with-tabular-data) and [working with the tidyverse](/en/lessons/data-wrangling-and-management-in-R). It would be useful to go through these lessons beforehand, to learn the basics of installing R and using the tidyverse for data wrangling.
 
 ### Create a new RStudio Project  
 
