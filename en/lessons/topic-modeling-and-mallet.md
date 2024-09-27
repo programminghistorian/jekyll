@@ -604,7 +604,7 @@ report.
   [Distant Reading]: http://www.cs.umbc.edu/~hillol/NGDM07/abstracts/talks/MKirschenbaum.pdf
   [Reading Machines]: http://www.worldcat.org/title/reading-machines-toward-an-algorithmic-criticism/oclc/708761605&referer=brief_results
   [Voyant Tools]: http://voyant-tools.org
-  [dangers]: http://www.scottbot.net/HIAL/?p=16713
+  [dangers]: https://web.archive.org/web/20240602215348/https://www.scottbot.net/HIAL/index.html@p=16713.html
   [zombies using Google Trends]: http://arxiv.org/abs/1003.6087/
   [David Blei and friends]: http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation
   [Mining the Dispatch]: http://dsl.richmond.edu/dispatch/
@@ -616,7 +616,7 @@ report.
   [automate this process]: http://electricarchaeology.ca/2012/07/09/mining-a-day-of-archaeology/
   [Mining the Open Web with Looted Heritage Draft]: http://electricarchaeology.ca/2012/06/08/mining-the-open-web-with-looted-heritage-draft/
   [Figshare.com]: https://ndownloader.figshare.com/files/90972
-  [Guided Tour to Topic Modeling]: http://www.scottbot.net/HIAL/?p=19113
+  [Guided Tour to Topic Modeling]: https://web.archive.org/web/20240520155820/https://www.scottbot.net/HIAL/index.html@p=19113.html
   [Topic modeling made just simple enough]: http://tedunderwood.wordpress.com/2012/04/07/topic-modeling-made-just-simple-enough/
   [Some Assembly Required]: http://web.archive.org/web/20160704150726/http://www.lisarhody.com:80/some-assembly-required/
   [Topic Modeling in the Humanities: An Overview | Maryland Institute for Technology in the Humanities]: https://web.archive.org/web/20130116223500/http://mith.umd.edu/topic-modeling-in-the-humanities-an-overview/
