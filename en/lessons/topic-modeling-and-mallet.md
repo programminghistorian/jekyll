@@ -604,7 +604,7 @@ report.
   [Distant Reading]: http://www.cs.umbc.edu/~hillol/NGDM07/abstracts/talks/MKirschenbaum.pdf
   [Reading Machines]: http://www.worldcat.org/title/reading-machines-toward-an-algorithmic-criticism/oclc/708761605&referer=brief_results
   [Voyant Tools]: http://voyant-tools.org
-  [dangers]: http://www.scottbot.net/HIAL/?p=16713
+  [dangers]: https://web.archive.org/web/20240602215348/https://www.scottbot.net/HIAL/index.html@p=16713.html
   [zombies using Google Trends]: http://arxiv.org/abs/1003.6087/
   [David Blei and friends]: http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation
   [Mining the Dispatch]: http://dsl.richmond.edu/dispatch/
