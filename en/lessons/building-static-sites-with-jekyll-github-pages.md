@@ -55,7 +55,7 @@ Read more about [Jekyll here](http://jekyllrb.com/docs/home/) or [static site ge
 
 *[GitHub Pages](https://pages.github.com/)* is a free place to store the files that run a website and host that website for people to visit (it only works for particular types of website, like basic HTML sites or Jekyll sites, and does not host databases).
 
-*[GitHub](https://github.com/)* is a visual way to use *[git](https://git-scm.com/documentation)*, a system for *versioning*: keeping track of changes to computer files (including code and text documents) over time (as explained [above](#section0-1)). If you're curious, here's [a friendly lesson for exploring GitHub](https://guides.github.com/activities/hello-world/).
+*[GitHub](https://github.com/)* is a visual way to use *[git]( https://git-scm.com/doc)*, a system for *versioning*: keeping track of changes to computer files (including code and text documents) over time (as explained [above](#section0-1)). If you're curious, here's [a friendly lesson for exploring GitHub](https://guides.github.com/activities/hello-world/).
 
 ### What are the reasons for using a static website? <a id="section0-3"></a>
 
