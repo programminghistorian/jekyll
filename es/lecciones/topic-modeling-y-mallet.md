@@ -313,7 +313,7 @@ Heritage Draft](http://electricarchaeology.ca/2012/06/08/mining-the-open-web-wit
 
 Puedes reutilizar los datos tomándolos de [Figshare.com](https://ndownloader.figshare.com/files/90972) donde están incluidos algunos archivos `.txt`. Cada uno de los ficheros `.txt` contiene una noticia individual.
 
-- Para amplia información adicional y una bibliografía sobre *topic modeling* podrías empezar con el [Guided Tour to Topic Modeling](http://www.scottbot.net/HIAL/?p=19113) de Scott Weingart.
+- Para amplia información adicional y una bibliografía sobre *topic modeling* podrías empezar con el [Guided Tour to Topic Modeling](https://web.archive.org/web/20240520155820/https://www.scottbot.net/HIAL/index.html@p=19113.html) de Scott Weingart.
 - Una discusión importante sobre la interpretación del significado de los tópicos es '[Topic modeling made just simple enough](http://tedunderwood.wordpress.com/2012/04/07/topic-modeling-made-just-simple-enough/)' de Ted Underwood.
 - El artículo de blog '[Some Assembly Required](http://web.archive.org/web/20160704150726/http://www.lisarhody.com:80/some-assembly-required/)' *Lisa @ Work* 22 de agosto de 2012 escrito por Lisa Rhody también es muy revelador.
 - Clay Templeton, '[Topic Modeling in the Humanities: An Overview](https://web.archive.org/web/20130116223500/http://mith.umd.edu/topic-modeling-in-the-humanities-an-overview/)', Maryland Institute for Technology in the Humanities, n.d.
