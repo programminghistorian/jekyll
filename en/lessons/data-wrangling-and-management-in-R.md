@@ -1,5 +1,8 @@
 ---
 title: Data Wrangling and Management in R
+slug: data-wrangling-and-management-in-R
+layout: lesson
+collection: lessons
 authors:
 - Nabeel Siddiqui
 date: 2017-07-31
@@ -8,14 +11,11 @@ reviewers:
 - Ryan Deschamps
 editors:
 - Ian Milligan
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/60
 difficulty: 2
-collection: lessons
 activity: transforming
 topics: [data-manipulation, data-management, distant-reading, r, data-visualization]
 abstract: "This tutorial explores how scholars can organize 'tidy' data, understand R packages to manipulate data, and conduct basic data analysis."
-layout: lesson
-review-ticket: https://github.com/programminghistorian/ph-submissions/issues/60
-redirect_from: /lessons/data-wrangling-and-management-in-R
 avatar_alt: Bar of soap
 doi: 10.46430/phen0063
 ---
@@ -164,7 +164,7 @@ time.
       geom_line() +
       geom_point()
 
-{% include figure.html filename="california_new_york_population.png" caption="Graph of California and New York population" %}
+{% include figure.html filename="en-or-data-wrangling-and-management-in-R-01.png" caption="Graph of California and New York population" %}
 
 As we can see, the population of California has grown considerably
 compared to New York. While this particular example may seem obvious
@@ -182,7 +182,7 @@ with two different states such as Mississippi and Virginia.
       geom_line() +
       geom_point()
 
-{% include figure.html filename="mississippi_virginia_population.png" caption="Graph of Mississippi and Virginia population" %}
+{% include figure.html filename="en-or-data-wrangling-and-management-in-R-02.png" caption="Graph of Mississippi and Virginia population" %}
 
 Quickly making changes to our code and reanalyzing our data is a
 fundamental part of exploratory data analysis (EDA). Rather than trying
@@ -661,7 +661,7 @@ colleges founded before the U.S. War of 1812:
       geom_bar(aes(x=is_secular, fill=is_secular))+
       labs(x="Is the college secular?")
 
-{% include figure.html filename="college_secular_before_1812.png" caption="Number of secular and non-secular colleges before War of 1812" %}
+{% include figure.html filename="en-or-data-wrangling-and-management-in-R-03.png" caption="Number of secular and non-secular colleges before War of 1812" %}
 
 Again, by making a quick change to our code, we can also look at the
 number of secular versus non-secular colleges founded after the start of
@@ -675,7 +675,7 @@ the War of 1812:
       geom_bar(aes(x=is_secular, fill=is_secular))+
       labs(x="Is the college secular?")
 
-({% include figure.html filename="college_secular_after_1812.png" caption="Number of secular and non-secular colleges after War of 1812" %}
+({% include figure.html filename="en-or-data-wrangling-and-management-in-R-04.png" caption="Number of secular and non-secular colleges after War of 1812" %}
 
 Conclusion
 ==========

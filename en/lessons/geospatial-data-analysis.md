@@ -174,7 +174,7 @@ Now we have a large dataframe called `County_Aggregate_Data` which has our count
 ```r
 religion <- read.csv("./data/Religion/Churches.csv", as.is=TRUE)
 ```
-Depending on the state of the data you may need to do some data transformations in order to merge it back with the DataFrame. For complex transformations, see tutorials in R on working with data such as [Data Wrangling and Management in R tutorial](/en/lessons/data_wrangling_and_management_in_R) [data transforms](http://r4ds.had.co.nz/transform.html). In essence, you need to have a common field in both datasets to merge upon. Often this is a geographic id for the county and state represented by `GEOID`. It could also be the unique FIPS Code given by the US Census. Below I am using state and county `GEOID`. In this example, we are converting one data frame's common fields to numeric so that they match the variable type of the other dataframe:
+Depending on the state of the data you may need to do some data transformations in order to merge it back with the DataFrame. For complex transformations, see tutorials in R on working with data such as [Data Wrangling and Management in R tutorial](/en/lessons/data-wrangling-and-management-in-R) [data transforms](http://r4ds.had.co.nz/transform.html). In essence, you need to have a common field in both datasets to merge upon. Often this is a geographic id for the county and state represented by `GEOID`. It could also be the unique FIPS Code given by the US Census. Below I am using state and county `GEOID`. In this example, we are converting one data frame's common fields to numeric so that they match the variable type of the other dataframe:
 
 ```r
 religion$STATEFP <- religion$STATE

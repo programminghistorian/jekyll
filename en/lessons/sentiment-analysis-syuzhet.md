@@ -41,7 +41,7 @@ Although the lesson is not intended for advanced R users, it is expected that yo
 
 * Taylor Arnold and Lauren Tilton, '[Basic Text Processing in R](/en/lessons/basic-text-processing-in-r)', *Programming Historian* 6 (2017), https://doi.org/10.46430/phen0061
 * Taryn Dewar, '[R Basics with Tabular Data](/en/lessons/r-basics-with-tabular-data)', *Programming Historian* 5 (2016), https://doi.org/10.46430/phen0056 
-* Nabeel Siddiqui, '[Data Wrangling and Management in R](/en/lessons/data_wrangling_and_management_in_R)', *Programming Historian* 6 (2017), https://doi.org/10.46430/phen0063 
+* Nabeel Siddiqui, '[Data Wrangling and Management in R](/en/lessons/data-wrangling-and-management-in-R)', *Programming Historian* 6 (2017), https://doi.org/10.46430/phen0063 
 
 You may also be interested in other sentiment analysis lessons:
 
