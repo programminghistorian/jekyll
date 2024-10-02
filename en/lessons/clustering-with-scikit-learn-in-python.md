@@ -50,9 +50,13 @@ A single observation (row) in the `DNP_ancient_authors.csv` dataset contains an 
 
 So, a single row in the dataset looks like this:
 
+<div class="table-wrapper" markdown="block">
+ 
 | authors | word_count | modern_translations | known_works | manuscripts | early_editions | early_translations | modern_editions | commentaries |
 |:-------|:--------:|:-------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| Aelianus Tacticus | 350 | 1 | 1 | 1 | 0 | 3 | 6 | 1 | 0|
+| Aelianus Tacticus | 350	| 1 | 	1	| 0	| 3	| 6 |	1	| 0 |
+
+</div>
 
 ## Second Case Study: Article Abstracts in *Religion* (Journal)
 
@@ -67,9 +71,13 @@ A single row in the `RELIGION_abstracts.csv` dataset contains an numerical index
 
 So, a single row in this dataset looks like this:
 
+<div class="table-wrapper" markdown="block">
+ 
 | title | abstract | link | volume |
 |:-------|:--------:|:-------------:|:-----:|
 | Norwegian Muslims denouncing terrorism: beyond ‘moderate’ versus ‘radical’? | In contemporary (...) | https://www.tandfonline.com/doi/full/10.1080/0048721X.2021.1865600 | https://www.tandfonline.com/loi/rrel20?treeId=vrrel20-51 |
+
+</div>
 
 The analysis in this tutorial focuses on clustering the textual data in the `abstract` column of the dataset. We will apply *k*-means and DBSCAN to find thematic clusters within the diversity of topics discussed in *Religion*. To do so, we will first create document vectors of each abstract (via **T**erm **F**requency - **I**nverted **D**ocument **F**requency, or [**TF-IDF**](https://perma.cc/UL2M-GY4A) for short), reduce the feature space (which initially consists of the entire vocabulary of the abstracts), and then look for thematic clusters. 
 
@@ -489,6 +497,8 @@ We were able to observe some clear clusters in our data when using `known_works_
 
 In our example, looking at cluster 0 (the dense one in the left part of our plot) reveals that this cluster includes authors with very few known works, few to no commentaries, few modern editions, and rather short entries in the DNP (average word count of 513). Consequently, it largely consists of relatively unknown ancient authors.
 
+<div class="table-wrapper" markdown="block">
+ 
 | authors                       |   word_count |   modern_translations |   known_works |   manuscripts |   early_editions |   early_translations |   modern_editions |   commentaries |
 |:------------------------------|-------------:|----------------------:|--------------:|--------------:|-----------------:|---------------------:|------------------:|---------------:|
 | Achilles Tatius of Alexandria |          383 |                     5 |             1 |             2 |                3 |                    9 |                 2 |              1 |
@@ -502,10 +512,14 @@ In our example, looking at cluster 0 (the dense one in the left part of our plot
 | Ammianus Marcellinus          |          573 |                     8 |             1 |             3 |                6 |                    4 |                 6 |              6 |
 | Anacreontea                   |          544 |                     3 |             1 |             0 |                1 |                   10 |                 5 |              0 |
 
+</div>
+
 As we can see in this snippet that shows the first ten entries in cluster 0, the author names (except Aesop) are more or less supporting our initial assumption that we are predominately dealing with authors whose work is produced in few modern editions, particularly compared to the authors in cluster 4.
 
 The authors in cluster 4 (the less cohesive cluster at the upper right of our plot) comprise well-known and extensively discussed authors including Plato or Aristophanes, who have all written several works that are still famous and have remained relevant over the centuries, demonstrated by the high number of modern editions and commentaries.
 
+<div class="table-wrapper" markdown="block">
+ 
 | authors                             |   word_count |   modern_translations |   known_works |   manuscripts |   early_editions |   early_translations |   modern_editions |   commentaries |
 |:------------------------------------|-------------:|----------------------:|--------------:|--------------:|-----------------:|---------------------:|------------------:|---------------:|
 | Aeschylus of Athens                 |         1758 |                    31 |             7 |             5 |               10 |                   14 |                15 |             20 |
@@ -517,6 +531,8 @@ The authors in cluster 4 (the less cohesive cluster at the upper right of our pl
 | Sallustius Crispus, Gaius (Sallust) |         1292 |                    17 |             5 |            12 |                7 |                   15 |                15 |             16 |
 | Sophocles                           |         1499 |                    67 |             8 |             4 |                5 |                    0 |                14 |             18 |
 | Tacitus, (Publius?) Cornelius       |         1504 |                    29 |             5 |             6 |               10 |                   14 |                31 |             20 |
+
+</div>
 
 If you want to have a closer look at the other clusters, I advise you to check out the Jupyter notebook in the [GitHub repository](https://github.com/programminghistorian/jekyll/tree/gh-pages/assets/clustering-with-scikit-learn-in-python).
 
