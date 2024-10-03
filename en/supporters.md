@@ -24,9 +24,6 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [Princeton University](https://www.princeton.edu/), United States
 - [University of Waterloo](https://uwaterloo.ca/), Canada
 - [Universidad de los Andes](https://uniandes.edu.co/), Colombia
-- [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Denmark
-- [Aarhus University Library](https://library.au.dk/), Denmark
-- [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Denmark
 - [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), United Kingdom
 - [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Germany
 - [MIT Libraries](https://libraries.mit.edu/), United States
@@ -64,6 +61,9 @@ Former contributors to our [Institutional Partner Programme](support-us#institut
 - [Center for Spatial and Textual Analysis (CESTA)](https://cesta.stanford.edu/), Stanford University, United States [2021].
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria [2022].
 - [RStudio/Posit](https://posit.co/), United States [2022].
+- [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Denmark [2021-2024].
+- [Aarhus University Library](https://library.au.dk/), Denmark [2021-2024].
+- [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Denmark [2021-2024].
 
 ## Additional Supporters
 Organizations that have or continue to give support ranging from in kind services, to project-specific funding.
