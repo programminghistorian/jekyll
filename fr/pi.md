@@ -28,11 +28,11 @@ _Niveau Silver_
 
 | Pays à revenu élevé | Pays à revenu intermédiaire | Pays à faible revenu et moins avancés [éligibles à l'APD](https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html)  |
 |---|---|---|
-| 1 200 EUR  | 500 EUR | 175 EUR  |
-| 1 200 CHF  | 500 CHF | 175 CHF  |
-| 1 700 CAD  | 700 CAD | 275 CAD  | 
-| 1 000 GBP  | 400 GBP | 150 GBP  |
-| 1 400 USD  | 600 USD | 200 USD  |
+| 1 500 EUR  | 500 EUR | 175 EUR  |
+| 1 400 CHF  | 500 CHF | 175 CHF  |
+| 2 240 CAD  | 700 CAD | 275 CAD  | 
+| 1 250 GBP  | 400 GBP | 150 GBP  |
+| 1 650 USD  | 600 USD | 200 USD  |
 
 
 Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en octobre de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Responsable de la publication</a>.
