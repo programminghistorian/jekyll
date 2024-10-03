@@ -49,9 +49,9 @@ ALEX WERMER-COLAN, NICOLE 'NIKKI' LEMIRE-GARLIC, AND JEFF ANTSEN
 
 Our incoming Chair of the Board of Trustees, **James Baker**, would like to share a few words to celebrate the significant and sustained contribution made to our project by our outgoing Chair, **Sofia Papastamkou**:
 
-“We reported in our June Bulletin that **Sofia Papastamkou** had recently stepped down as Chair of the Board of Trustees. **Sofia took on the role of Chair at an important moment in our journey** as a publisher: in Spring 2023, we had reorganised our structures and were looking to expand our team by hiring a Digital Humanities Publishing Assistant. Sofia’s first major task as Chair was to guide us through a successful recruitment process, which she did with purpose. 
+“We shared in our June Bulletin that **Sofia Papastamkou** had recently stepped down as Chair of the Board of Trustees. **Sofia took on the role of Chair at an important moment in our journey** as a publisher: in Spring 2023, we had reorganised our structures and were looking to expand our team by hiring a Digital Humanities Publishing Assistant. Sofia’s first major task as Chair was to guide us through a successful recruitment process, which she did with purpose. 
 
-**Under Sofia's leadership, _Programming Historian_ achieved some significant successes**: we celebrated the publication of our 200th and, later, 250th lessons since launch in 2008; we won best DH Training Materials category of the Digital Humanities Awards; we grew the support base of our Institutional Partner Programme, including new Gold Tier supporters; our lessons became discoverable through EBSCO and DARIAH Campus; and we expanded our outreach, communication, and community networking activities. 
+**Under Sofia's leadership, _Programming Historian_ achieved some significant successes**: we celebrated the publication of our 200th and, later, 250th lessons since launch in 2008; we won [best DH Training Materials category of the Digital Humanities Awards](http://dhawards.org/dhawards2022/results/); we grew the support base of our Institutional Partner Programme, including new Gold Tier supporters; our lessons became discoverable through [EBSCO](https://www.ebsco.com/products/ebscohost-research-platform) and [DARIAH Campus](https://campus.dariah.eu/source/programming-historian/page/1); and we expanded our outreach, communication, and community networking activities. 
 
 From her time as Manager Editor of _Programming Historian en français_, to her recent time as Chair, **Sofia's passion and enthusiasm for our work has been undiminished**. On behalf of the Board of Trustees, I wish to extend my heartfelt thanks to Sofia and **wish her every success** in her future work.”
 
@@ -65,11 +65,11 @@ From her time as Manager Editor of _Programming Historian en français_, to her 
 
 ## Our Supporters
 
-Welcome to our generous new [Patreon](https://www.patreon.com/theprogramminghistorian) subscriber, **Michael Piotrowski** (Patron), who has individually invested in our success. Join our Patreon community: https://tinyurl.com/PH-patreon
+Welcome to our generous new [Patreon](https://www.patreon.com/theprogramminghistorian) subscriber, **Michael Piotrowski** (Patron), who has individually invested in our success. Join our Patreon community: [https://tinyurl.com/PH-patreon](https://tinyurl.com/PH-patreon)
 
 Grateful thanks to our valued partners who have renewed their membership to our Institutional Partnership Programme this quarter: **Corporation for Digital Scholarship** (Gold Tier), and **MIT Libraries**.
 
-Institutional Partnerships enable us to keep developing our model of sustainable, open-access publishing, and empower us to continue creating peer-reviewed, multilingual lessons for digital humanists around the globe. If you’d like to join our Institutional Partner Programme, or learn about other ways you can support us: [https://tinyurl.com/support-PH](https://tinyurl.com/support-PH)
+Institutional Partnerships enable us to keep developing our Diamond Open Access publishing model, and sustain the production of peer-reviewed, multilingual lessons for digital humanists around the globe. If you’d like to join our Institutional Partnership Programme, or learn about other ways you can support us: [https://tinyurl.com/support-PH](https://tinyurl.com/support-PH)
 
 ------    
 Next issue: December 2024. In the meantime, keep in touch with us on social media to stay updated on our new publications, research and events!
