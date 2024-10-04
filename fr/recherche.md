@@ -24,6 +24,7 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 ## Publications scientifiques
 
+* Riva Quiroga, Anisa Hawes, Anna-Maria Sichani & Charlotte Chevrie, “Sustainable Growth of Multilingual Open Publishing Projects: The Case of _Programming Historian_”, The Journal of Electronic Publishing 27, no. 1 (2024). [https://doi.org/10.3998/jep.5571](https://doi.org/10.3998/jep.5571).
 * Juliana Marques, Joana Vieira Paulino, Daniel Alves, Jimmy Medeiros & Suemi Higuchi, "[O _Programming Historian em Português_ na promoção do letramento digital na sala de aula](https://rhhj.anpuh.org/RHHJ/article/view/1146/563)", _Revista História Hoje_ 13, no. 17 (2024), 304-325. 
 * Sofia Papastamkou, Anita Lucchesi, & Douglas McRae, "Multilingualism and Digital Methods Teaching: Conceiving Pedagogical Materials in a Multilingual-first Approach", DHBenelux 2023. Zenodo, 2023. [https://doi.org/10.5281/zenodo.10599623](https://doi.org/10.5281/zenodo.10599623).
 * Jennifer Isasi, Riva Quiroga, Nabeel Sidiqqui, Joana Vieira Paulino, Alex Wermer-Colan, [“A Model for Multilingual and Multicultural Digital Scholarship Methods Publishing"](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003393696-3/model-multilingual-multicultural-digital-scholarship-methods-publishing-jennifer-isasi-riva-quiroga-nabeel-siddiqui-joana-vieira-paulino-alex-wermer-colan), dans _Multilingual Digital Humanities_, edité par Viola, L., & Spence, P., Routledge, 2023.
