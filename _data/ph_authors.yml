@@ -2360,7 +2360,9 @@
   team: false
   bio:
       en: |
-            Thomas Jurczyk is a German historian and religious studies' scholar based in Bochum (GER)
+            Thomas Jurczyk is a German historian and religious studies' scholar based in Bochum (GER).
+      pt: |
+            Thomas Jurczyk é um historiador alemão e especialista em estudos religiosos, residente em Bochum (ALE). 
 
 - name: Gabi Kirilloff
   team: false
