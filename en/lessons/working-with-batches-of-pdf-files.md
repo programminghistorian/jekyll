@@ -298,7 +298,7 @@ You can download the corpus from the [ILO website](https://www.ilo.org/public/li
 To automate this step you can use the following command line commands. This will download all English documents (340 files) at once.
 
 ``` bash
-curl https://www.ilo.org/public/libdoc/ilo/ILO-SR/ |
+curl -L https://www.ilo.org/public/libdoc/ilo/ILO-SR/ |
 grep -o 'ILO[^"]*engl[^"><\/]*' |
 uniq |
 sed 's,ILO,https://www.ilo.org/public/libdoc/ilo/ILO-SR/ILO,g' > list_of_files.txt
