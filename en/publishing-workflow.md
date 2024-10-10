@@ -1,7 +1,7 @@
 ---
 title: Publishing Workflow
 layout: blank
-redirect_from: /publishing-workflow
+redirect_from: /editor-guidelines
 ---
 
 {% include toc.html %}
