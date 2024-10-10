@@ -301,7 +301,7 @@ To automate this step you can use the following command line commands. This will
 curl https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/ |
 grep -o 'ILO[^"]*engl[^"><\/]*' |
 uniq |
-sed 's,ILO,https://www.ilo.org/public/libdoc/ilo/ILO-SR/ILO,g' > list_of_files.txt
+sed 's,ILO,https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/ILO,g' > list_of_files.txt
 xargs -n 1 curl -O < list_of_files.txt
 rm list_of_files.txt
 ```
