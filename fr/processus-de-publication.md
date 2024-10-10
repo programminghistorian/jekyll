@@ -2,6 +2,7 @@
 title: Processus de Publication
 layout: blank
 redirect_from: /processus-de-publication
+---
 
 {% include toc.html %}
 
