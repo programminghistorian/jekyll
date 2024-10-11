@@ -138,15 +138,15 @@ Throughout the lesson I will assume that 'proghist' is your working directory.
 
 Save all files below to your working directory:
 
-  - [Classification of industries](https://www.ilo.org/public/libdoc/ilo/ILO-SR/ILO-SR_N1_engl.pdf)<!--text extraction-->
-  - [Statistics of wages and hours of labour](https://www.ilo.org/public/libdoc/ilo/ILO-SR/ILO-SR_N2_engl.pdf)<!--ocr-->
-  - [Statistics of industrial accidents](https://www.ilo.org/public/libdoc/ilo/ILO-SR/ILO-SR_N3_engl.pdf)<!--text extraction-->
-  - [Report of the Conference](https://www.ilo.org/public/libdoc/ilo/ILO-SR/ILO-SR_N4_engl.pdf)<!--text extraction-->
-  - [International labour review](https://www.ilo.org/public/libdoc/ilo/P/09602/09602(1924-9-1)3-30.pdf)<!--text extraction-->
+  - [Classification of industries](https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/ILO-SR_N1_engl.pdf)<!--text extraction-->
+  - [Statistics of wages and hours of labour](https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/ILO-SR_N2_engl.pdf)<!--ocr-->
+  - [Statistics of industrial accidents](https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/ILO-SR_N3_engl.pdf)<!--text extraction-->
+  - [Report of the Conference](https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/ILO-SR_N4_engl.pdf)<!--text extraction-->
+  - [International labour review](https://webapps.ilo.org/public/libdoc/ilo/P/09602/09602(1924-9-1)3-30.pdf)<!--text extraction-->
 
 To illustrate image extraction and PDF merging you will include one more files to our corpus that is not directly related to the First International Conference of Labour Statisticians from 1923.
 
-  - [Speeches made at the ceremony on 21 October 1923](https://www.ilo.org/public/libdoc/ilo/1923/23B09_5_engl.pdf) <!--extract images, combine documents-->
+  - [Speeches made at the ceremony on 21 October 1923](https://webapps.ilo.org/public/libdoc/ilo/1923/23B09_5_engl.pdf) <!--extract images, combine documents-->
 
 For the Topic Modelling of the [case study](#use-topic-modelling-to-analyze-the-corpus) you will download more files later in the lesson.
 
@@ -293,15 +293,15 @@ mkdir case_study
 cd case_study
 ```
 
-You can download the corpus from the [ILO website](https://www.ilo.org/public/libdoc/ilo/ILO-SR/). All English documents contain ‘engl’ in the title. It’s over a gigabyte of data. Depending on your internet speed this may take a while.
+You can download the corpus from the [ILO website](https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/). All English documents contain ‘engl’ in the title. It’s over a gigabyte of data. Depending on your internet speed this may take a while.
 
 To automate this step you can use the following command line commands. This will download all English documents (340 files) at once.
 
 ``` bash
-curl https://www.ilo.org/public/libdoc/ilo/ILO-SR/ |
+curl https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/ |
 grep -o 'ILO[^"]*engl[^"><\/]*' |
 uniq |
-sed 's,ILO,https://www.ilo.org/public/libdoc/ilo/ILO-SR/ILO,g' > list_of_files.txt
+sed 's,ILO,https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/ILO,g' > list_of_files.txt
 xargs -n 1 curl -O < list_of_files.txt
 rm list_of_files.txt
 ```
