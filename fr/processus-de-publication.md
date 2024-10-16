@@ -1,7 +1,8 @@
 ---
 title: Processus de Publication
 layout: blank
-redirect_from: /processus-de-publication
+redirect_from: /consignes-redacteurs
+original: publishing-workflow
 ---
 
 {% include toc.html %}
