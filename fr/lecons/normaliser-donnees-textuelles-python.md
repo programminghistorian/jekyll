@@ -33,6 +33,10 @@ doi: 10.46430/phfr0033
 
 {% include toc.html %}
 
+<div class="alert alert-warning" role="alert">
+Le site web du Old Bailey Online a récemment été mis à jour. Malheureusement, à cause de ces <a href="https://www.oldbaileyonline.org/about/whats-new">changements</a>, certains éléments utilisés dans cette leçon (voire tous) ne fonctionneront plus comme ils sont décrits. Les méthodologies enseignées dans cette leçon restent tout de même pertinentes, et peuvent être adaptées à un autre site. Nous essayons actuellement d'adapter la leçon au nouveau site du Old Bailey Online, mais nous ne pouvons pas encore déterminer quand la leçon sera prête. [Avril 2024]
+</div>
+
 ## Objectif de la leçon
 
 Avant d'aller plus loin, nous avons besoin de &laquo;&nbsp;normaliser&nbsp;&raquo; la liste que nous avons créée dans la leçon [Du html à une liste de mots (2)](/fr/lecons/du-html-a-une-liste-de-mots-1). La normalisation des données est une étape importante qui consiste à préparer les données pour le traitement automatique que l'on veut leur appliquer, en leur donnant une forme que nous pourrons manipuler facilement (par exemple, normaliser des données textuelles peut nécessiter de convertir tous les caractères en minuscules ou de retirer des caractères spéciaux qui ne nous intéressent pas pour la suite). Pour cela, nous allons appliquer des méthodes de traitement des chaines de caractères, ainsi que des expressions régulières de Python. Une fois normalisées, nos données pourront être analysées plus facilement.
@@ -91,6 +95,10 @@ En effet, la fonction `stripTags()` du module `obo.py` retourne une chaine de ca
 
 Modifier `html-to-list1.py` pour y appliquer la méthode `lower()` à `obo.stripTags(html)`&nbsp;:
 
+<div class="alert alert-warning">
+Attention&nbsp;: à cause des modifications faites au site du Old Bailey Online depuis la publication de cette leçon, le lien <code>http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33</code> ne fonctionnera plus dans le code ci-dessous. Vous avez deux options pour contourner le problème&nbsp;: si vous suivez actuellement cette leçon en utilisant un autre site qui fonctionne, vous pouvez simplement remplacer le lien du Old Bailey Online avec votre propre lien correspondant&nbsp;: 
+</div>
+
 ``` python
 #html-to-list1.py
 import urllib.request, urllib.error, urllib.parse, obo
@@ -103,6 +111,22 @@ text = obo.stripTags(html).lower() # ajouter la méthode applicable à une chain
 wordlist = text.split()
 
 print(wordlist)
+```
+
+<div class="alert alert-warning">
+Si vous préférez suivre cette leçon en continuant d'utiliser notre exemple du Old Bailey Online, il vous faudra d'abord <a href="/assets/normaliser-donnees-textuelles-python/obo-t17800628-33.html">télécharger le fichier HTML de la page en question</a>, que nous vous avons mis à disposition, puis adapter les premières lignes du code pour pointer vers le fichier sur votre propre ordinateur, comme ceci&nbsp;:
+</div>
+
+```
+import obo
+
+old_bailey_online_example = 'USER/FILE/PATH/obo-t17800628-33.html'
+
+with open(old_bailey_online_example, "r") as input_example:
+    html_as_string = input_example.read()
+text = obo.stripTags(html_as_string).lower() #add the string method here.
+wordlist = text.split()
+print((wordlist))
 ```
 
 Normalement, vous devriez obtenir la même liste de mots que précédemment, mais cette fois avec tous les caractères en minuscules.
