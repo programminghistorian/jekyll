@@ -27,9 +27,6 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 - [Princeton University](https://www.princeton.edu/), Estados Unidos
 - [University of Waterloo](https://uwaterloo.ca/), Canadá
 - [Universidad de los Andes](https://uniandes.edu.co/), Colômbia
-- [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Dinamarca
-- [Aarhus University Library](https://library.au.dk/), Dinamarca
-- [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca
 - [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Reino Unido
 - [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Alemanhã
 - [MIT Libraries](https://libraries.mit.edu/), Estados Unidos
@@ -67,6 +64,9 @@ Antigos contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi)
 - [Center for Spatial and Textual Analysis (CESTA)](https://cesta.stanford.edu/), Stanford University, Estados Unidos [2021].
 - [Transkribus - READ COOP](https://readcoop.eu/), Áustria [2022].
 - [RStudio/Posit](https://posit.co/), Estados Unidos [2022].
+- [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Dinamarca [2021-2024].
+- [Aarhus University Library](https://library.au.dk/), Dinamarca [2021-2024].
+- [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca [2021-2024].
 
 
 ## Parceiros adicionais

@@ -27,11 +27,11 @@ _Nível Silver_
 
 | Países de renda alta | Países de renda média | [Países elegíveis para ODA](https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html) |
 |--|--|--|
-| €1.200 EUR | €500 EUR | €175 EUR |
-| $7.000 BRA | $2.800 BRA | $1.000 BRA |
-| £1.000 GBP | £400 GBP | £150 GBP |
-| $1.400 USD | $600 USD | $200 USD |
-| $1.700 CAD | $700 CAD | $275 CAD |
+| €1.500 EUR | €500 EUR | €175 EUR |
+| $9.000 BRA | $2.800 BRA | $1.000 BRA |
+| £1.250 GBP | £400 GBP | £150 GBP |
+| $1.650 USD | $600 USD | $200 USD |
+| $2.240 CAD | $700 CAD | $275 CAD |
 
 Se a sua instituição tem recursos para nos oferecer um suporte ainda maior, também damos as boas-vindas a parcerias no nosso nível Gold. As taxas de parceria do nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. As instituições parceiras de nível ouro tem dois workshops personalizados por ano para ajudar suas comunidades a usar ferramentas e métodos de humanidades digitais.
 

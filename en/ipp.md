@@ -27,10 +27,10 @@ _Silver Tier_
 
 | Upper Income Countries  | Middle Income Countries | [ODA eligible countries](https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html)  |
 |---|---|---|
-| £1,000 GBP  | £400 GBP | £150 GBP  |
-| $1,400 USD  | $600 USD | $200 USD  |
-| €1,200 EUR  | €500 EUR | €175 EUR  |
-| $1,700 CAD  | $700 CAD | $275 CAD  | 
+| £1,250 GBP  | £400 GBP | £150 GBP  |
+| $1,650 USD  | $600 USD | $200 USD  |
+| €1,500 EUR  | €500 EUR | €175 EUR  |
+| $2,240 CAD  | $700 CAD | $275 CAD  | 
 
 Rates are due annually from the date of first payment and are set in October each year. For a quote in another currency please email <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Publishing Manager</a>.
 

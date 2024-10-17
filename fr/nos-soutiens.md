@@ -25,9 +25,6 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Princeton University](https://www.princeton.edu/), États-Unis
 - [University of Waterloo](https://uwaterloo.ca/), Canada
 - [Universidad de los Andes](https://uniandes.edu.co/), Colombie
-- [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Danemark
-- [Aarhus University Library](https://library.au.dk/), Danemark
-- [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Danemark
 - [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Royaume-Uni
 - [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Allemagne
 - [MIT Libraries](https://libraries.mit.edu/), États-Unis
@@ -66,6 +63,9 @@ Les institutions suivantes ont participé à de notre programme de [Partenariat 
 - [Center for Spatial and Textual Analysis (CESTA)](https://cesta.stanford.edu/), Stanford University, États-Unis [2021].
 - [Transkribus - READ COOP](https://readcoop.eu/), Autriche [2022].
 - [RStudio/Posit](https://posit.co/), États-Unis [2022].
+- [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Danemark [2021-2024].
+- [Aarhus University Library](https://library.au.dk/), Danemark [2021-2024].
+- [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Danemark [2021-2024].
 
 ## Soutien additionnel
 Les organisations suivantes ont apporté ou continuent d'apporter un soutien allant de services en nature au financement de projets spécifiques:

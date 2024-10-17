@@ -28,10 +28,10 @@ _Nivel Silver_
 
 | Países de alto ingreso | Países de ingreso medio | [Países AOD](https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html) |
 | --- | --- | --- |
-| £1.000 GBP  | £400 GBP | £150 GBP     |
-| $1.400 USD  | $600 USD | $200 USD     |
-| €1.200 EUR  | €500 EUR | €175 EUR     |
-| $1.700 CAD  | $700 CAD | $275 CAD     |
+| £1.250 GBP  | £400 GBP | £150 GBP     |
+| $1.650 USD  | $600 USD | $200 USD     |
+| €1.500 EUR  | €500 EUR | €175 EUR     |
+| $2.240 CAD  | $700 CAD | $275 CAD     |
 
 Las tasas vencen anualmente a partir de la fecha del primer pago y se establecen en octubre de cada año. Para una estimación en otra moneda, envía un correo electrónico a <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Directora de publicaciones</a>.
 
