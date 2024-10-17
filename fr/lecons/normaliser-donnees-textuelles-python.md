@@ -173,6 +173,10 @@ L'expression régulière dans ce code est le contenu de la chaine de caractères
 
 Après avoir peaufiné notre programme `html-to-list1.py`, il doit ressembler à cela&nbsp;:
 
+<div class="alert alert-warning" role="alert">
+Il vous faudra également adapter le code ci-dessous, en fonction de l'option que vous avez choisie plus haut.
+</div>
+
 ``` python
 #html-to-list1.py
 import urllib.request, urllib.error, urllib.parse, obo
