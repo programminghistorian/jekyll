@@ -120,7 +120,7 @@ Si vous préférez suivre cette leçon en continuant d'utiliser notre exemple du
 ```
 import obo
 
-old_bailey_online_example = 'USER/FILE/PATH/obo-t17800628-33.html'
+old_bailey_online_example = 'https://github.com/programminghistorian/jekyll/tree/gh-pages/assets/normaliser-donnees-textuelles-python/obo-t17800628-33.html'
 
 with open(old_bailey_online_example, "r") as input_example:
     html_as_string = input_example.read()
