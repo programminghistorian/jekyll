@@ -117,7 +117,7 @@ print(wordlist)
 Si vous préférez suivre cette leçon en continuant d'utiliser notre exemple du Old Bailey Online, vous pouvez modifier l'url pour indiquer le fichier HTML archivé par les auteurs de la leçon originale et hébergé sur le site de <i>Programming Historian</i>:
 </div>
 
-```
+``` python
 #html-to-list1.py
 import urllib.request, urllib.error, urllib.parse, obo
 
