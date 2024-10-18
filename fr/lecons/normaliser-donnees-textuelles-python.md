@@ -96,7 +96,7 @@ En effet, la fonction `stripTags()` du module `obo.py` retourne une chaine de ca
 Modifier `html-to-list1.py` pour y appliquer la méthode `lower()` à `obo.stripTags(html)`&nbsp;:
 
 <div class="alert alert-warning">
-Attention&nbsp;: à cause des modifications faites au site du Old Bailey Online depuis la publication de cette leçon, le lien <code>http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33</code> ne fonctionnera plus dans le code ci-dessous. Vous avez deux options pour contourner le problème&nbsp;: si vous suivez actuellement cette leçon en utilisant un autre site qui fonctionne, vous pouvez simplement remplacer le lien du Old Bailey Online avec votre propre lien correspondant&nbsp;: 
+Attention&nbsp;: à cause des modifications faites au site du Old Bailey Online depuis la publication de cette leçon, le lien <code>http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33</code> ne fonctionnera plus dans le code ci-dessous. Vous avez deux options pour contourner le problème&nbsp;. Si vous suivez actuellement cette leçon en utilisant un autre site qui fonctionne, vous pouvez simplement remplacer le lien du Old Bailey Online avec votre propre lien correspondant (en d'autres termes, il suffit de modifier la variable `url`)&nbsp;: 
 </div>
 
 ``` python
@@ -114,18 +114,20 @@ print(wordlist)
 ```
 
 <div class="alert alert-warning">
-Si vous préférez suivre cette leçon en continuant d'utiliser notre exemple du Old Bailey Online, il vous faudra d'abord <a href="/assets/normaliser-donnees-textuelles-python/obo-t17800628-33.html">télécharger le fichier HTML de la page en question</a>, que nous vous avons mis à disposition, puis adapter les premières lignes du code pour pointer vers le fichier sur votre propre ordinateur, comme ceci&nbsp;:
+Si vous préférez suivre cette leçon en continuant d'utiliser notre exemple du Old Bailey Online, vous pouvez modifier l'url pour indiquer le fichier HTML archivé par les auteurs de la leçon originale et hébergé sur le site de *programminghistorian*:
 </div>
 
 ```
-import obo
+#html-to-list1.py
+import urllib.request, urllib.error, urllib.parse, obo
 
-old_bailey_online_example = 'https://github.com/programminghistorian/jekyll/tree/gh-pages/assets/normaliser-donnees-textuelles-python/obo-t17800628-33.html'
+old_bailey_online_example = 'https://programminghistorian.org/assets/normaliser-donnees-textuelles-python/obo-t17800628-33.html'
 
-with open(old_bailey_online_example, "r") as input_example:
-    html_as_string = input_example.read()
-text = obo.stripTags(html_as_string).lower() #add the string method here.
+response = urllib.request.urlopen(url)
+html = str(response.read().decode('UTF-8'))
+text = obo.stripTags(html).lower() # ajouter la méthode applicable à une chaine de caractères ici.
 wordlist = text.split()
+
 print((wordlist))
 ```
 
