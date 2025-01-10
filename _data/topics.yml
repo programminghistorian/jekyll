@@ -199,7 +199,7 @@
   description:
     en: "Using formal, computational, or data-driven techniques to simulate, analyze, and predict complex systems."
     es: "Utilizar técnicas formales, informáticas, o basadas en datos para simular, analizar y predecir sistemas complejos."
-    fr: "Utiliser des techniques formelles, informatiques, ou basées sur des données pour simuler, analiser et prédire des systèmes complexes."
+    fr: "Utiliser des techniques formelles, informatiques, ou basées sur des données pour simuler, analyser et prédire des systèmes complexes."
     pt: "Utilizar técnicas formais, computacionais ou baseadas em dados para simular, analisar e prever sistemas complexos."
 
 
@@ -212,5 +212,5 @@
   description:
     en: "Learn how to create, interpret, or manage 'data about data'."
     es: "Aprender a crear, interpretar o administrar 'datos sobre datos'."
-    fr: "Apprendre à créer, interpréter ou gérer des 'données à propos de données'."
+    fr: "Apprendre à créer, interpréter ou gérer des données qui décrivent des données."
     pt: "Aprender a criar, interpretar ou gerir 'dados sobre dados'."
