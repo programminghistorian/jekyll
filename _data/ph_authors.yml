@@ -3239,3 +3239,19 @@
   bio:
     es: |
       José Eduardo González es profesor asociado en el Departamento de lenguas modernas en la Universidad de Nebraska.
+
+
+- name: Cláudia De Souza
+  orcid: 0000-0002-4168-9399
+  team: false
+  bio:
+    es: |
+      Cláudia De Souza es profesora catedrática auxiliar en el Programa Graduado en Ciencias de la Información, de la Facultad de Comunicación e Información (FaCI), Universidad de Puerto Rico-Recinto de Río Piedras (UPR-RP).
+
+
+- name: Dinah M. Wilson Fraites
+  orcid: 0009-0009-4762-1625
+  team: false
+  bio:
+    es: |
+      Dinah M. Wilson Fraites es bibliotecaria de catalogación en el sistema de Bibliotecas de la Universidad de Puerto Rico, Recinto de Río Piedras.

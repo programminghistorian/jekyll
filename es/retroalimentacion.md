@@ -7,7 +7,7 @@ original: feedback
 
 # Agradecemos sus comentarios
 
-<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/contribute/robed-man-reading.png" class="garnish rounded float-left" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
 
 ¿Has seguido meticulosamente las instrucciones de una lección y aún así has encontrado algún fallo o error? Gracias por tomarte el tiempo de reportar un problema con una de nuestras lecciones. ¡Tu ayuda es crucial para ayudarnos a mantener las mejores lecciones posibles!
 

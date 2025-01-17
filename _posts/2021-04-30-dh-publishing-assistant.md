@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/ph-banner-4lang.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
+<img src="/images/logos/ph-banner-with-drawing-and-url.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
 
 *Programming Historian* is looking for an outstanding **Digital Humanities Publishing Assistant** to join our global-facing digital humanities team in a remote part-time role, to support our multilingual publishing teams. 
 

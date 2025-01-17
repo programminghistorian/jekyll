@@ -42,11 +42,11 @@ Nesta lição de duas partes, aprofundaremos o que aprendeu sobre o [Download de
 
 ## O Desafio
 
-Para ter uma ideia mais clara da tarefa que temos pela frente, abra o ficheiro *obo-t17800628-33.html* que criou em [Download de Páginas Web com Python](/pt/licoes/download-paginas-web-python) (ou faça o [download e guarde a transcrição do julgamento](/assets/obo-t17800628-33.html) caso ainda não tenha uma cópia) e depois verifique o código-fonte do HTML clicando em *Ferramentas -> Ferramentas do Navegador -> Fonte da página* (para usuários do navegador Firefox). À medida que for olhando o código-fonte, notará que há tags HTML misturadas com texto. Caso não tenha experiência com HTML, recomendamos que faça o tutorial do W3 Schools [HTML](http://www.w3schools.com/html/) para se familiarizar com a marcação HTML. Se o seu trabalho frequentemente requer que remova a marcação HTML, certamente será útil entendê-la ao visualizá-la.
+Para ter uma ideia mais clara da tarefa que temos pela frente, abra o ficheiro *obo-t17800628-33.html* que criou em [Download de Páginas Web com Python](/pt/licoes/download-paginas-web-python) (ou faça o [download e guarde a transcrição do julgamento](/assets/from-html-to-list-of-words-1/obo-t17800628-33.html) caso ainda não tenha uma cópia) e depois verifique o código-fonte do HTML clicando em *Ferramentas -> Ferramentas do Navegador -> Fonte da página* (para usuários do navegador Firefox). À medida que for olhando o código-fonte, notará que há tags HTML misturadas com texto. Caso não tenha experiência com HTML, recomendamos que faça o tutorial do W3 Schools [HTML](http://www.w3schools.com/html/) para se familiarizar com a marcação HTML. Se o seu trabalho frequentemente requer que remova a marcação HTML, certamente será útil entendê-la ao visualizá-la.
 
 ## Ficheiros Necessários para esta Lição
 
--   *[obo-t17800628-33.html](/assets/obo-t17800628-33.html)*
+-   *[obo-t17800628-33.html](/assets/from-html-to-list-of-words-1/obo-t17800628-33.html)*
 
 ## Idealizando um Algoritmo
 

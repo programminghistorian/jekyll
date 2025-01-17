@@ -9,7 +9,7 @@ original: individual
 
 # Apoiadores individuais
 
-<img src="{{site.baseurl}}/images/supporters-individual.png" class="garnish rounded float-left" alt="{{ site.data.snippets.supporters-individual-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/individual/red-bird-on-branch.png" class="garnish rounded float-left" alt="{{ site.data.snippets.supporters-individual-image-alt[page.lang] }}"/>
 
 Obrigado pelo seu interesse em apoiar o _Programming Historian_. Os doadores individuais são vitais para permitir a continuidade do nosso trabalho e para nos ajudar a manter o nosso conteúdo gratuito para leitores de todo o mundo. Cerca de um em cada três dos nossos leitores vivem em países de renda baixa e média, portanto, você também estará ajudando a equalizar o acesso ao conhecimento e as competências para o campo, garantindo que todos tenham autonomia para dominar a tecnologia e colocá-la em bom uso, não importa onde estiverem.
 
@@ -27,7 +27,7 @@ O seu suporte contribui diretamente para manter a infraestrutura de divulgação
 Com doações de $5, $10 ou $15 por mês, você consegue ingressar em nossa crescente lista de apoiadores individuais via <a href="https://www.patreon.com/join/theprogramminghistorian">Patreon</a>. Ao se juntar aos nossos apoiadores regulares via Patreon, você permite que nossa equipe planeje ações futuras e aumente nosso conjunto de lições dedicadas às humanidades digitais e ao desenvolvimento de competências digitais.
 
 <p>&nbsp;</p>
-<p><a href="https://www.patreon.com/theprogramminghistorian"><img src="{{site.baseurl}}/images/patreonbutton.png" alt="Botão de apoie-nos do Patreon" class="mx-auto d-block" /></a></p>
+<p><a href="https://www.patreon.com/theprogramminghistorian"><img src="{{site.baseurl}}/images/website/individual/patreonbutton.png" alt="Botão de apoie-nos do Patreon" class="mx-auto d-block" /></a></p>
 	
 </div>
 

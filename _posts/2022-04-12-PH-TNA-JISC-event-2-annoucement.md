@@ -5,7 +5,7 @@ authors:
 layout: post
 categories: posts
 ---
-<img src="/images/jisc-na-ph-banner.png" alt="Logo images of JISC, the UK National Archives and Programming Historian"/>
+<img src="/images/blog/cfp-jisc-ph/jisc-na-ph-banner.png" alt="Logo images of JISC, the UK National Archives and Programming Historian"/>
 
 **When**: 5 May 2022, 16h00-17h30 (BST, [check your local time here](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20220505T1500))
 

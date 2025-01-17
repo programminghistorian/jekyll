@@ -132,7 +132,7 @@ These set various jq [command-line options, or _flags_](https://stedolan.github.
 
 jq operates by way of _filters_: a series of text commands that you can string together, and which dictate how jq should transform the JSON you give it.
 
-To learn the basic jq filters, we'll work with a sample response from the Rijksmuseum API: [rkm.json](/assets/jq_rkm.json)
+To learn the basic jq filters, we'll work with a sample response from the Rijksmuseum API: [rkm.json](/assets/json-and-jq/jq_rkm.json)
 Select all the text at that link, copy it, and paste it into the "JSON" box at [jq play] on the left hand side.
 
 
@@ -425,7 +425,7 @@ One of the easiest ways to search and download Twitter data is using the excelle
 
 For this lesson, we will use a small sample of 50 public tweets.
 Clear the "Filter", "JSON" and "Result" boxes on [jq play], and ensure all the checkboxes are unchecked.
-[Then copy this sample Twitter data](/assets/jq_twitter.json) into [jq play].
+[Then copy this sample Twitter data](/assets/json-and-jq/jq_twitter.json) into [jq play].
 
 ### One-to-many relationships: Tweet hashtags
 
@@ -895,7 +895,7 @@ You should get the following table:
 "whiteprivilege",1
 ```
 
-[There are multiple ways to solve this with jq. See my answer here.](/assets/filter_retweets.txt)
+[There are multiple ways to solve this with jq. See my answer here.](/assets/json-and-jq/filter_retweets.txt)
 
 #### Count total retweets per user
 
@@ -909,7 +909,7 @@ Hints:
 
 As a way to verify your results, user `356854246` should have a total retweet count of `51` based on this dataset.
 
-[See my answer.](/assets/count_retweets.txt)
+[See my answer.](/assets/json-and-jq/count_retweets.txt)
 
 ## Using jq on the command line
 
@@ -959,7 +959,7 @@ This can be useful when downloading JSON with a utility like `wget` for retrievi
 (See [Automated Downloading with Wget](/lessons/automated-downloading-with-wget) to learn the basics of this other command line program.)
 
 ```sh
-wget -qO- http://programminghistorian.org/assets/jq_rkm.json | jq -r '.artObjects[] | [.id, .title, .principalOrFirstMaker, .webImage.url] | @csv'
+wget -qO- http://programminghistorian.org/assets/json-and-jq/jq_rkm.json | jq -r '.artObjects[] | [.id, .title, .principalOrFirstMaker, .webImage.url] | @csv'
 ```
 
 Note that you must use the `wget` flag `-qO-` in order to send the output of `wget` into `jq` by way of a shell pipe.

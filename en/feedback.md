@@ -10,7 +10,7 @@ redirect_from:
 
 # We Appreciate Your Feedback
 
-<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/contribute/robed-man-reading.png" class="garnish rounded float-left" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
 
 Have you followed the instructions in a lesson meticulously and still run into an error? Thank you for taking the time to report a problem with one of our lessons. Your assistance is crucial for helping us maintain the best possible lessons!
 

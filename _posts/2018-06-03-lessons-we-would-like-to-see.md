@@ -6,8 +6,8 @@ layout: post
 categories: posts
 ---
 
-<p><figure><a href="/images/call-to-action/call-to-action.jpg">
-        <img src="/images/call-to-action/call-to-action.jpg" alt=""/></a><figcaption>
+<p><figure><a href="/images/blog/call-to-action.jpg">
+        <img src="/images/blog/call-to-action.jpg" alt=""/></a><figcaption>
     The Programming Historian Needs YOU...to help historians digitally analyse!</figcaption></figure></p>
 
 We've now published more than 100 lessons in English and Spanish since we launched in 2012. The project is growing faster than we could ever have imagined. But there are still significant holes in our coverage that we'd like you to help us plug. While we always remain [open to new lesson ideas on any topic related to your own work](/contribute), we'd be particularly happy to hear from prospective authors interested in tackling some of the following:

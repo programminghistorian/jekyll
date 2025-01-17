@@ -156,5 +156,5 @@ The sustainability of our lessons is very important to *The Programming Historia
 
 This call for papers is supported by the project ‘Programming Historian publications: developing computational skills for digital collections’, a partnership between Jisc, the *Programming Historian*, and [The National Archives](https://nationalarchives.gov.uk/archives-sector/projects-and-programmes/plugged-in-powered-up/). For more information on the partnership see the [partnership announcement](https://digitisation.jiscinvolve.org/wp/2021/07/23/are-you-a-researcher-wanting-to-boost-your-skills-in-working-with-digital-collections/).
 
-<img src="/images/jisc-na-ph-banner.png" alt="Logo images of JISC, the UK National Archives and Programming Historian"/>
+<img src="/images/blog/cfp-jisc-ph/jisc-na-ph-banner.png" alt="Logo images of JISC, the UK National Archives and Programming Historian"/>
 

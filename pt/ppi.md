@@ -9,7 +9,7 @@ original: ipp
 
 # Programa de Parceria Institucional
 
-<img src="{{site.baseurl}}/images/supporters-ipp.png" class="garnish rounded float-left" alt="{{ site.data.snippets.supporters-ipp-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/ipp/bird-with-eggs-nest.png" class="garnish rounded float-left" alt="{{ site.data.snippets.supporters-ipp-image-alt[page.lang] }}"/>
 
 Obrigado pelo seu interesse no Programa de Parceria Institucional, que garante apoio para as premiadas publicações de acesso aberto do _Programming Historian_. Não podemos fazer nosso trabalho sem o seu valioso apoio.
 

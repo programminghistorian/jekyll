@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/summer.jpg" alt="Imagen recortada con la palabra verano en inglés" caption="¡Feliz verano a los usuarios del hemisferio norte!"/>
+<img src="/images/blog/2020-07-01-newsletter/summer.jpg" alt="Imagen recortada con la palabra verano en inglés" caption="¡Feliz verano a los usuarios del hemisferio norte!"/>
 
 Hemos cumplido varios objetivos en el segundo trimestre de 2020: tenemos una nueva funcionalidad de búsqueda, identificadores DOI, nuevas lecciones, nuevos y jubilados miembros del equipo del proyecto y nuevos patrocinadores. Y hemos tenido más de 428,000 visitas.
 
@@ -33,7 +33,7 @@ Zoe, junto con Matt Lincoln, probó diferentes opciones, pero quería, en últim
 
 Estamos encantados y agradecidos de anunciar que [El Centro de Edimburgo de Datos, Cultura y Sociedad (CDCS)](https://www.cdcs.ed.ac.uk) es nuestro nuevo miembro en el [Programa de Instituciones Asociadas](https://programminghistorian.org/es/apoyanos#programa-de-instituciones-asociadas). Fundado en 2019 como una iniciativa de la Facultad de Artes, Humanidades y Ciencias Sociales de la Universidad de Edimburgo y dirigido por la profesora Melissa Terras, CDCS proporciona un lugar para la investigación basada en datos y métodos digitales en todas las disciplinas. Ofrece capacitación, eventos y apoyo a una amplia comunidad de investigadores.
 
-<img src="/images/blog/cdcs-uk-logo.png" alt="Logo del Centro de Edimburgo de Datos, Cultura y Sociedad (CDCS)"/>
+<img src="/images/blog/2020-07-01-newsletter/cdcs-uk-logo.png" alt="Logo del Centro de Edimburgo de Datos, Cultura y Sociedad (CDCS)"/>
 
 Nos comparten: 
 
@@ -121,4 +121,4 @@ Para ayudarnos a hacer que nuestro trabajo sea más sostenible y continuar siend
 
 El equipo de *Programming Historian* desea a nuestros lectores un feliz invierno a los usuarios del hemisferio sur y un feliz verano a aquellos en el hemisferio norte. 
 
-<img src="/images/blog/winter.jpg" alt="Imagen recortada con la palabra invierno en inglés" caption="¡Feliz invierno a los usuarios del hemisferio sur!"/>
+<img src="/images/blog/2020-07-01-newsletter/winter.jpg" alt="Imagen recortada con la palabra invierno en inglés" caption="¡Feliz invierno a los usuarios del hemisferio sur!"/>

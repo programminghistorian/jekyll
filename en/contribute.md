@@ -14,7 +14,7 @@ The _Programming Historian_ runs on the far-from-endless energy of volunteers, a
 Our English journal is currently seeking proposals for new original lessons or translations to be considered for publication in 2025. Learn more in our <a href="/posts/en-call-for-proposals">call for proposals</a>, open until 31 January 2025 (extended deadline). Submissions to our <a href="/es/guia-para-autores#paso-1-proponer-una-nueva-lección">Spanish</a>, <a href="/posts/appel-a-propositions">French</a> and <a href="/pt/directrizes-autor#etapa-1-propor-uma-nova-lição">Portuguese</a> journals are open year-round.
 </div>
 
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/woman-at-writing-desk.png" class="garnish rounded float-right" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 
 Writing a tutorial is one of the best ways to teach yourself particular skills and actively engage in the digital humanities community.
 
@@ -37,7 +37,7 @@ From time to time we may advertise that we are seeking more editors.
 
 ## Translate a lesson
 
-<img src="{{site.baseurl}}/images/translator.png" class="garnish rounded float-right" alt="{{ site.data.snippets.translator-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/contribute/house-by-canal-scene.png" class="garnish rounded float-right" alt="{{ site.data.snippets.translator-image-alt[page.lang] }}"/>
 
 If you are fluent in more than one of our publication languages (French, English, Spanish, Portuguese), you are invited to get in touch with us about translating one of our published Programming Historian lessons from one language to another. This will help us to assist building multilingual digital humanities communities, and to build your language, method, and technological skills.
 
@@ -45,7 +45,7 @@ We are seeking rigorous and readable translations that take into account the Spa
 
 ## Provide feedback or report problems
 
-<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/contribute/robed-man-reading.png" class="garnish rounded float-right" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
 
 We welcome [feedback](feedback.html) on any aspect of the _Programming Historian_. Let us know what we can do to make the project better!
 
@@ -54,7 +54,7 @@ We are especially grateful for tips about lessons that seem to be broken. As URL
 
 ## Add us to your Library Catalog
 
-<img src="{{site.baseurl}}/images/library-catalogue.png" class="garnish float-right" alt="{{ site.data.snippets.library-catalogue-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/contribute/writing-materials-still-life.png" class="garnish float-right" alt="{{ site.data.snippets.library-catalogue-image-alt[page.lang] }}"/>
 
 
 This project is our attempt to demonstrate what open access academic publishing can and should be. Please help us spreading the message and providing the widest possible access to this resource by asking your librarian to include the project in your library catalogue.

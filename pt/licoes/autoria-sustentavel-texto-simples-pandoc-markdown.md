@@ -140,7 +140,7 @@ Vamos salvar nosso ficheiro antes de avançar. Crie a nova pasta que irá armaze
 
 Depois que seu ficheiro for salvo, vamos adicionar uma ilustração. Copie uma imagem (qualquer imagem pequena) para a sua pasta e adicione o seguinte em algum lugar no corpo do texto: `![legenda da imagem](sua_imagem.jpg)`.
 
-Nesse ponto, o seu `main.md` deve parecer com o que está abaixo. É possível baixar esse exemplo de ficheiro teste.md [aqui](/assets/teste.md).
+Nesse ponto, o seu `main.md` deve parecer com o que está abaixo. É possível baixar esse exemplo de ficheiro teste.md [aqui](/assets/autoria-sustentavel-texto-simples-pandoc-markdown/teste.md).
 
 ```
 ---

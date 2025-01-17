@@ -7,7 +7,7 @@ layout: post
 categories: posts 
 ---
 
-<p><figure><img src="/images/blog/OEW-banner.jpg" alt="Banner showing an open book on a geometric background"/><figcaption></figcaption> </figure></p>
+<p><figure><img src="/images/blog/Open-Education-Week/OEW-banner.jpg" alt="Banner showing an open book on a geometric background"/><figcaption></figcaption> </figure></p>
 
 {% include toc.html %}
 

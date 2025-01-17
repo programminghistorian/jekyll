@@ -245,7 +245,7 @@ library(tm)
 
 ## Load and Prepare the Text
 
-Next, download a machine readable copy of the novel: [*Miau*](/assets/sentiment-analysis-syuzhet/galdos_miau.txt) and make sure to save it as a .txt file. When you open the file you will see that the novel is in [plain text](https://perma.cc/Z5WH-V9SW) format, which is essential for this particular analysis using R.
+Next, download a machine readable copy of the novel: [*Miau*](/assets/analisis-de-sentimientos-r/galdos_miau.txt) and make sure to save it as a .txt file. When you open the file you will see that the novel is in [plain text](https://perma.cc/Z5WH-V9SW) format, which is essential for this particular analysis using R.
 
 With the text at hand, you first need to load it into R as one long string so that you can work with it programmatically. Make sure to replace `FILEPATH` with the location of the novel on your own computer (don't just type 'FILEPATH'). This loading process is slightly different on Mac/Linux and Windows machines:  
 

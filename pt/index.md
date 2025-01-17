@@ -4,7 +4,7 @@ title: O Programming Historian em português
 original: index
 ---
 <div class="container" style="text-align:center">
-	<img class="home-image" src="{{ site.baseurl }}/images/about.png" />
+	<img class="home-image" src="{{ site.baseurl }}/images/website/index/woman-using-tabulator.png" />
 </div>
 
 <div class="home-block">

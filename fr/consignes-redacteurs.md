@@ -371,7 +371,7 @@ Ces opérations visent principalement à vérifier si des URL qui _par le passé
 Elles offrent en outre un excellent moyen pour repérer des coquilles qui auraient pu échapper à l'attention des auteur(e)s, rédacteur(trice)s et évaluateur(trice)s.
 L'état de ces tests, couramment appelé _"Build Status"_ sur GitHub, peut être vérifié en naviguant sur la [page du dépôt du programminghistorian][ph_repo] et en cliquant sur "Commits" en haut à gauche du menu du code.
 
-![GitHub commit menu location](/images/editor-guidelines/gh_commits_location_screen.png)
+![GitHub commit menu location](/images/website/editor-guidelines/gh_commits_location_screen.png)
 
 Ainsi, vous pouvez voir la liste de toutes les modifications effectuées sur le dépôt principal, tout comme une icône qui en montre l'état:
 
@@ -382,11 +382,11 @@ Ainsi, vous pouvez voir la liste de toutes les modifications effectuées sur le 
 Si votre compilation a échoué, il est nécessaire de consulter l'historique pour en repérer la cause.
 
 1. Cliquer sur l'icône X rouge qui correspond à la modification la plus récente (elle apparaît au plus haut de la page) puis cliquer sur le lien "Details".
-![Travis details location](/images/editor-guidelines/commit_list_screen.png)
+![Travis details location](/images/website/editor-guidelines/commit_list_screen.png)
 2. Vous serez ainsi dirigés vers la page de l'historique des compilations sur GitHub Actions. Les compilations sont habituellement longues de plusieurs centaines de lignes, mais il faut descendre pour trouver l'information sur l'erreur. Cliquez donc sur le petit cercle gris qui se trouve en haut à droite de l'affichage de l'historique pour afficher le bas de la page.
-![The top of the Travis CI build screen](/images/editor-guidelines/travis_top_screen.png)
+![The top of the Travis CI build screen](/images/website/editor-guidelines/travis_top_screen.png)
 3. Il existe deux types d'erreurs: d'abord, si un des champs requis en YAML est manquant (par exemple, si une leçon n'a pas de champ `editors`), cela apparaîtra en rouge. Les liens qui ne marchent pas seront aussi affichés en rouge et regroupés selon la page à laquelle ils apparaissent. Si des liens de votre leçon renvoient des erreurs, il vaut mieux vérifier à nouveau qu'il n'y a pas de fautes dans l'adresse. Si c'est le cas, il faut faire les corrections nécessaires puis soumettre les modifications au dépôt et attendre que GitHub Actions lance de nouveaux tests.
-![Locating error details in Travis CI build results](/images/editor-guidelines/travis_bottom_screen.png)
+![Locating error details in Travis CI build results](/images/website/editor-guidelines/travis_bottom_screen.png)
 
 - Plus rarement, un lien qui échoue sur GitHub Actions peut parfaitement fonctionner lorsque vous vous y rendez à partir de votre propre navigateur. Si cela arrive, merci de [créer un nouveau ticket] pour que l'un des membres de l'équipe technique puisse travailler sur le problème pour trouver une solution.
 - Dans le cadre de ces opérations habituelles, GitHub Actions ira occasionnellement vérifier des liens de tout le site y compris ceux d'anciennes leçons. Ainsi, il est possible de voir une erreur qui est causée non pas par votre leçon, mais par une autre page. Si vous avez la possibilité de corriger ces erreurs dans l'immédiat, merci de le faire puis d'attendre qu'une nouvelle compilation se fasse. S'il vous est impossible de vérifier ces autres liens, merci de vérifier que les erreurs ne viennent pas de votre leçon et, par la suite, [créer un nouveau ticket] pour qu'un autre membre de l'équipe technique puisse s'occuper du problème.

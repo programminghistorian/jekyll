@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/jisc-na-ph-banner.png" alt="Logo images of JISC, the UK National Archives and Programming Historian"/>
+<img src="/images/blog/cfp-jisc-ph/jisc-na-ph-banner.png" alt="Logo images of JISC, the UK National Archives and Programming Historian"/>
 
 Following [our call for papers in the September](https://programminghistorian.org/posts/cfp-jisc-ph), we are delighted that seven article-length tutorials will now go forward for publication as part of this special series. The submissions were of the highest quality, and although we couldn't selected them all, we thank all who submitted - you certainly made it hard for us to choose!
 

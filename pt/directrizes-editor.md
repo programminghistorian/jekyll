@@ -401,7 +401,7 @@ Executamos estes testes principalmente para assegurar que as URLs que em algum m
 Também é uma boa forma detectar pequenos erros de digitação que podem escapar a autores, editores e revisores. 
 O status destes testes (geralmente chamado de "Status de Compilação (Build status)" no GitHub) pode ser visto na [página do repositório do _Programming Historian_][ph_repo] ao clicar em "Commits" no canto superior esquerdo do menu de "Code".
 
-![GitHub commit menu location](/images/editor-guidelines/gh_commits_location_screen.png)
+![GitHub commit menu location](/images/website/editor-guidelines/gh_commits_location_screen.png)
 
 Assim, pode ser vista a lista de todas as alterações feitas no repositório principal, juntamente com o ícone do status:
 
@@ -412,11 +412,11 @@ Assim, pode ser vista a lista de todas as alterações feitas no repositório pr
 Se a compilação falhou, será necessário consultar os logs para ver qual a razão. Para isso:
 
 1. Clicar no X vermelho para o commit mais recente (o mais próximo da parte superior da página) e depois clicar no link "Details".
-![Travis details location](/images/editor-guidelines/commit_list_screen.png)
+![Travis details location](/images/website/editor-guidelines/commit_list_screen.png)
 2. Isto irá conduzir à página de log da compilação no GitHub Actions. Os logs de compilação geralmente têm várias centenas de linhas, mas as informações de erro que é necessário ter atenção estarão na parte inferior. Para isso, basta clicar no pequeno círculo cinza no canto superior direito da janela do log para ser levado lá.
-![The top of the GitHub Actions build screen](/images/editor-guidelines/travis_top_screen.png)
+![The top of the GitHub Actions build screen](/images/website/editor-guidelines/travis_top_screen.png)
 3. Podem ser encontrados dois tipos de erro: primeiro, se uma página estiver com um campo YAML obrigatório vazio (por exemplo, se uma lição não tiver o campo editors preenchidos), este estará marcado de vermelho. Os links com falha também serão listados de vermelho, agrupados pela página em que apareceram. Se algum dos links da nova lição estiver na origem do erro, é necessário verificar novamente se não há erros de digitação. Depois de feitas as correções necessárias e ter sido feito commit das alterações no repositório, é necessário colocar o GitHub Actions a executar testes novamente.
-![Locating error details in GitHub Actions build results](/images/editor-guidelines/travis_bottom_screen.png)
+![Locating error details in GitHub Actions build results](/images/website/editor-guidelines/travis_bottom_screen.png)
 
 - Como parte das suas operações normais, o GitHub Actions ocasionalmente retorna e verifica novamente links antigos em todo o site, incluindo lições antigas. Portanto, pode aparecer um erro causado não pela lição nova, mas por outra página. Se for possível compreender como corrigir imediatamente os erros, basta fazer a correcção e aguardar por uma nova compilação. Se não for possível fazer todas as correcções necessárias para todos os links identificados com erros, depois de verificar que nenhum vem da nova lição, basta [criar uma nova questão](https://github.com/programminghistorian/jekyll/issues/new) para que alguém da equipe técnica possa analisar o problema.
 

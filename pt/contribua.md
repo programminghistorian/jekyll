@@ -10,7 +10,7 @@ O _Programming Historian em português_ funciona através da energia inesgotáve
 
 ## Escreva uma nova lição
 
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/woman-at-writing-desk.png" class="garnish rounded float-right" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 
 Escrever um tutorial é uma das melhores formas de se ensinar competências específicas e de se envolver ativamente na comunidade das humanidades digitais.
 
@@ -28,7 +28,7 @@ Periodicamente, podemos anunciar a procura de mais editores.
 
 ## Traduza uma lição
 
-<img src="{{site.baseurl}}/images/translator.png" class="garnish rounded float-right" alt="{{ site.data.snippets.translator-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/contribute/house-by-canal-scene.png" class="garnish rounded float-right" alt="{{ site.data.snippets.translator-image-alt[page.lang] }}"/>
 
 Se você é fluente em mais do que um dos idiomas de publicação (francês, inglês, espanhol, português), está convidado a entrar em contato conosco para traduzir de um idioma para o outro uma das lições do _Programming Historian_ já publicadas. Isto irá ajudar-nos a criar comunidades multilingues de humanidades digitais e a desenvolver o seu idioma, método e competências tecnológicas.
 
@@ -36,7 +36,7 @@ Procuramos traduções rigorosas e legíveis que tenham em conta os contextos de
 
 ## Dê a sua opinião ou comunique problemas
 
-<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/contribute/robed-man-reading.png" class="garnish rounded float-right" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
 
 Agradecemos pelo [feedback](/pt/reportar-um-erro) de qualquer aspecto do _Programming Historian em português_. Diga-nos o que podemos fazer para tornar o projeto melhor!
 
@@ -44,7 +44,7 @@ Estamos especialmente gratos por dicas sobre lições que apresentam links quebr
 
 ## Nos adicione ao seu Catálogo de Bibliotecas
 
-<img src="{{site.baseurl}}/images/library-catalogue.png" class="garnish float-right" alt="{{ site.data.snippets.library-catalogue-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/contribute/writing-materials-still-life.png" class="garnish float-right" alt="{{ site.data.snippets.library-catalogue-image-alt[page.lang] }}"/>
 
 Este projeto é a nossa tentativa de demonstrar que a publicação acadêmica pode e deve ser de acesso aberto. Por favor, ajude-nos a divulgar essa mensagem e a proporcionar o maior acesso possível a este recurso, solicitando ao bibliotecário que inclua o projeto no catálogo da sua biblioteca.
 

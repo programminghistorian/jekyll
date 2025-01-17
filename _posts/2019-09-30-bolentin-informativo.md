@@ -52,13 +52,13 @@ Al mismo tiempo, participaron en un taller pre-conferencia titulado "La acelerac
 
 
 
-<p><figure><img src="/images/blog/dh-2019-poster.JPG" alt="Una foto de Anna-Maria Sichani y Sofia Papastamkou al lado de su póster en DH 2019."/><figcaption>Anna-Maria Sichani y Sofia Papastamkou presentan su póster en DH 2019.</figcaption></figure></p>
+<p><figure><img src="/images/blog/2019-09-30-newsletter/dh-2019-poster.JPG" alt="Una foto de Anna-Maria Sichani y Sofia Papastamkou al lado de su póster en DH 2019."/><figcaption>Anna-Maria Sichani y Sofia Papastamkou presentan su póster en DH 2019.</figcaption></figure></p>
 
 
 
 Unos días más tarde y al otro lado del charco en la [Conferencia ACH 2019](http://ach2019.ach.org) en Pittsburgh, Estados Unidos, Maria José Afanador-Llach y Jennifer Isasi presentaron "Retos en la producción de tutoriales de HD en contextos hispanohablantes." Se enfocaaron en la experienca de llegar a la audiencia de *Programming Historian en español.* Asistir a la conferencia también les dio la oportunidad de conocer a Matthew Lincoln y Brandon Walsh además de presentar el proyecto multilingüe a más personas. 
 
- <p><figure><img src="/images/blog/ach-2019-presentation.jpg" alt="Una foto de Brandon Walsh, Matthew Lincoln, María José Afanador-Llach y Jennifer Isasi en ACH 2019."/><figcaption>Brandon Walsh, Matthew Lincoln, María José Afanador-Llach y Jennifer Isasi en ACH 2019.</figcaption></figure></p>
+ <p><figure><img src="/images/blog/2019-09-30-newsletter/ach-2019-presentation.jpg" alt="Una foto de Brandon Walsh, Matthew Lincoln, María José Afanador-Llach y Jennifer Isasi en ACH 2019."/><figcaption>Brandon Walsh, Matthew Lincoln, María José Afanador-Llach y Jennifer Isasi en ACH 2019.</figcaption></figure></p>
 
 
 

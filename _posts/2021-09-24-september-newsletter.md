@@ -8,7 +8,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/ph-banner-4lang.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
+<img src="/images/logos/ph-banner-with-drawing-and-url.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
 
 September marks a subtle change of the seasons as well as a new phase for learning and teaching in our community. This is a moment to learn from newly published lessons, celebrate new partnerships and welcome new team members.
 

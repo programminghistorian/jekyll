@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/ph-banner-4lang.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
+<img src="/images/logos/ph-banner-with-drawing-and-url.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
 
   Summer or Winter time is here and at *Programming Historian* we continue to work hard to offer our readers throughout the world lessons on digital methods in different languages. No hemos parado de recibir lecciones originales en español. Nous avons édité et publié une nouvelle traduction.  E continuamos trabalhando muito para trazer mais lições em português.
 

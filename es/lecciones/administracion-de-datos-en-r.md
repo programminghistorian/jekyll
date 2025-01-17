@@ -78,7 +78,8 @@ Copia el siguiente código en R Studio. Para ejecutarlo tienes que marcar las l�
 ```
 
 ## Un ejemplo de dplyr en acción
-Veamos un ejemplo de cómo dyplr nos puede ayudar a los historiadores. Vamos a cargar los datos del censo decenal de 1790 a 2010 de Estados Unidos. Descarga los datos haciendo [click aquí](/assets/data-wrangling-and-management-in-r/ejemplo_introductorio_estados.csv)[^2] y ponlos en la carpeta que vas a utilizar para trabajar en los ejemplos de este tutorial.
+
+Veamos un ejemplo de cómo dyplr nos puede ayudar a los historiadores. Vamos a cargar los datos del censo decenal de 1790 a 2010 de Estados Unidos. Descarga los datos haciendo [click aquí](/assets/administracion-de-datos-en-r/ejemplo_introductorio_estados.csv)[^2] y ponlos en la carpeta que vas a utilizar para trabajar en los ejemplos de este tutorial.
 
 Como los datos están en un archivo CSV, vamos a usar el comando de lectura ```read_csv()``` en el paquete [readr](https://cran.r-project.org/web/packages/readr/vignettes/readr.html) de "tidyverse".
 

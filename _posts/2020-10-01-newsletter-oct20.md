@@ -26,7 +26,7 @@ Welcome all, bem vindos!
 
 As our Finance Manager James Baker reminded us on Twitter, ProgHist Limited has been running for a year now, since we established it as a not-for-profit company. This move allowed us to begin the redistribution of some of the volunteer labor into paid labor, in order to make the project more sustainable as we continue to grow. 
 
-<img src="/images/blog/proghist-1-year-tweet.png" alt="Tweet de James Baker: It is the 1 year anniversary of the @ProgHist not-for-profit! We've been humbled by the contributions of the #dhist #digitalhumanities community, both personal and institutional. You enable us to grow, improve, and sustain the Programming Historian"/>
+<img src="/images/blog/2020-10-01-newsletter/proghist-1-year-tweet.png" alt="Tweet de James Baker: It is the 1 year anniversary of the @ProgHist not-for-profit! We've been humbled by the contributions of the #dhist #digitalhumanities community, both personal and institutional. You enable us to grow, improve, and sustain the Programming Historian"/>
 
 Thank you, James, for making this work possible!
 

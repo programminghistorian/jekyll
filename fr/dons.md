@@ -9,7 +9,7 @@ original: individual
 
 # Dons individuels
 
-<img src="{{site.baseurl}}/images/supporters-individual.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/website/individual/red-bird-on-branch.png" class="garnish rounded float-left" />
 
 Merci de votre intérêt à contribuer au *Programming Historian*. Les dons individuels sont essentiels à la poursuite de notre travail et nous aident à maintenir la gratuité de notre contenu pour un public international. Comme un tiers de notre lectorat vit dans des pays à faible ou moyen revenu, vous contribuez également à l'égalité des chances, en veillant à ce que tous et toutes puissent maîtriser la technologie et en faire bon usage, peu importe leur lieu de résidence.
 
@@ -27,7 +27,7 @@ Votre soutien contribue directement à l'infrastructure qui assure la cohésion 
 Pour 5 $, 10 $, ou 15 $ par mois, vous pourrez faire partie de la liste sans cesse grandissante de nos donateurs <a href="https://www.patreon.com/join/theprogramminghistorian">Patreon</a>. En vous joignant à nos donateurs Patreon, vous permettrez à notre équipe de planifier ses activités futures et de développer sa gamme de publications sur les humanités et les compétences numériques.
 
 <p>&nbsp;</p>
-<p><a href="https://www.patreon.com/theprogramminghistorian"><img src="{{site.baseurl}}/images/patreonbutton.png" alt="Nous Soutenir Patreon button" class="mx-auto d-block" /></a></p>
+<p><a href="https://www.patreon.com/theprogramminghistorian"><img src="{{site.baseurl}}/images/website/individual/patreonbutton.png" alt="Nous Soutenir Patreon button" class="mx-auto d-block" /></a></p>
 	
 </div>
 

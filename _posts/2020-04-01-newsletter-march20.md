@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/autumn.jpg" alt="A cropped image with the word Autumn." title="Happy Autumn to our audience in the southern hemisphere!"/>
+<img src="/images/blog/2020-04-01-newsletter/autumn.jpg" alt="A cropped image with the word Autumn." title="Happy Autumn to our audience in the southern hemisphere!"/>
 
 > **A message on Covid-19** 
 >
@@ -70,4 +70,4 @@ To help us make our work more sustainable and to continue being leaders in multi
 
 The *Programming Historian* team wishes all of our readers in the southern hemisphere a happy begining of Autumn and a happy Spring to those in the northern hemisphere! Stay safe. 
 
-<img src="/images/blog/spring.jpg" alt="A cropped image with the word Spring." title="Happy Spring to our audience in the northern hemisphere!"/>
+<img src="/images/blog/2020-04-01-newsletter/spring.jpg" alt="A cropped image with the word Spring." title="Happy Spring to our audience in the northern hemisphere!"/>

@@ -3,7 +3,7 @@ layout: base
 title: The Programming Historian
 ---
 <div class="container" style="text-align:center">
-	<img class="home-image" src="{{ site.baseurl }}/images/about.png" alt="{{ site.data.snippets.front-image-alt[page.lang] }}" />
+	<img class="home-image" src="{{ site.baseurl }}/images/website/index/woman-using-tabulator.png" alt="{{ site.data.snippets.front-image-alt[page.lang] }}" />
 </div>
 
 <div class="home-block">

@@ -10,7 +10,7 @@ original: ipp
 
 # Programa de Instituciones Asociadas
 
-<img src="{{site.baseurl}}/images/supporters-ipp.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/website/ipp/bird-with-eggs-nest.png" class="garnish rounded float-left" />
 
 Gracias por tu interés en el Programa de Instituciones Asociadas, la principal fuente de apoyo para las publicaciones galardonadas de acceso abierto de *Programming Historian*. No podemos hacer nuestro trabajo sin tu valioso apoyo.  
 

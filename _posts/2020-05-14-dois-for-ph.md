@@ -13,7 +13,7 @@ Today we're proud to announce yet another step: all of our articles now have DOI
 
 DOIs will be displayed in the "Suggested Citation" at the bottom of each lesson page:
 
-<img src="/images/dois-for-ph/ph_doi_example.png" alt="The suggested citation for one of our lessons, showing the DOI." title="The suggested citation for one of our lessons, showing the DOI."/>
+<img src="/images/blog/dois-for-ph/ph_doi_example.png" alt="The suggested citation for one of our lessons, showing the DOI." title="The suggested citation for one of our lessons, showing the DOI."/>
 
 Please use these DOIs when citing or linking to our lessons.
 

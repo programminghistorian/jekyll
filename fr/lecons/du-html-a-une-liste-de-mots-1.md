@@ -42,7 +42,7 @@ Dans cette leçon en deux parties, nous allons utiliser les compétences acquise
 
 ## Enjeux de la leçon
 
-Pour rendre plus clair l’objectif de la séance, ouvrez le fichier `obo-t17800628-33.html` que vous avez créé lors de la leçon [Télécharger des pages web avec Python](/fr/lecons/telecharger-des-pages-web-avec-python).  [Ouvrez cette page web et téléchargez son code source](/assets/obo-t17800628-33.html) si ce n’est pas le cas (via la commande Ctrl+S sur Windows ou ⌘-S sur Mac). Inspectez ensuite le code HTML de ce document. En fonction du navigateur web que vous avez, il est possible d’accéder au code source d’une page en cliquant sur l’onglet `Tools -> Web Developer -> Page Source`. Il est aussi généralement possible d’y accéder via les commandes Ctrl+U (Windows) ou ⌘-Option-U (Mac).
+Pour rendre plus clair l’objectif de la séance, ouvrez le fichier `obo-t17800628-33.html` que vous avez créé lors de la leçon [Télécharger des pages web avec Python](/fr/lecons/telecharger-des-pages-web-avec-python).  [Ouvrez cette page web et téléchargez son code source](/assets/from-html-to-list-of-words-1/obo-t17800628-33.html) si ce n’est pas le cas (via la commande Ctrl+S sur Windows ou ⌘-S sur Mac). Inspectez ensuite le code HTML de ce document. En fonction du navigateur web que vous avez, il est possible d’accéder au code source d’une page en cliquant sur l’onglet `Tools -> Web Developer -> Page Source`. Il est aussi généralement possible d’y accéder via les commandes Ctrl+U (Windows) ou ⌘-Option-U (Mac).
 
 En parcourant le fichier, vous remarquerez que celui-ci est composé de balises HTML mélangées avec du texte. Si vous êtes néophyte en matière de développement web, nous vous recommandons de consulter les tutoriels de la W3 School et de la Mozilla Foundation&nbsp;:
 * HTML&nbsp;: [W3 School](https://www.w3schools.com/html/) / [Mozilla Fondation](https://perma.cc/9NFS-5Z3G)
@@ -52,7 +52,7 @@ Ces tutoriels vous permettront de vous familiariser avec la syntaxe de ces forma
 
 ### Matériel nécessaire au suivi de la leçon
 
-- le fichier de la transcription du procès&nbsp;: [`obo-t17800628-33.html`](/assets/obo-t17800628-33.html)
+- le fichier de la transcription du procès&nbsp;: [`obo-t17800628-33.html`](/assets/from-html-to-list-of-words-1/obo-t17800628-33.html)
 - un éditeur de texte permettant de compiler du code Python. Dans la série de leçons d’introduction à Python du *Programming Historian en français*, nous utilisons Komodo Edit (cf. [la leçon d’introduction de la série](/fr/lecons/introduction-et-installation)), mais [il en existe beaucoup d’autres](https://perma.cc/X98A-KME8).
 
 

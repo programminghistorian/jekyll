@@ -75,7 +75,7 @@ Operating System. Follow the instructions below.
     Download) for your respective Mac OS (this works with versions from Lion onwards). Then go to the left "software menu" and click on    "[Download Archive][]". Under "GDAL Complete" download the file 2) GDAL complete 1.11
     framework package (under Requirements). Install the framework package like any other Mac programs.
 
-{% include figure.html filename="qgis1.png" caption="Figure 1: Click to view full-size image" %}
+{% include figure.html filename="qgis1.png" caption="Figure 1" %}
 
 -   once the frameworks are installed, download and install QGIS.
 -   as with any other Mac application you are using for the first time,

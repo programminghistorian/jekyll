@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/bees.jpg" alt="Un dessin de trois abeilles volant."/>
+<img src="/images/blog/2019-12-30-newsletter/bees.jpg" alt="Un dessin de trois abeilles volant."/>
 
 L'année a été particulièrement chargée pour le *Programming Historian* et nous avons de quoi nous réjouir de ce que nous avons accompli! Car dans l'ensemble, le projet a pris de l'ampleur. Tout d'abord, la fréquentation de notre site web a atteint près de 950 000 visiteurs uniques pour toute l'année avec 2 232 511 pages visitées. Par ailleurs, quatre nouveaux membres ont rejoint l'équipe de rédaction, toutes versions langagières confondues. De plus, nous avons créé ProgHist Limited pour pouvoir lever des fonds et développer davantage notre projet prochainement.
 
@@ -14,7 +14,7 @@ L'année a été particulièrement chargée pour le *Programming Historian* et n
 
 Avec 80 leçons en anglais, 44 en espagnol, 5 en français et plus à venir, le *Programming Historian* reçoit des visites d'un peu partout dans le monde, et nous sommes loin d'exagérer. Ses leçons uniques, qui permettent l'apprentissage des méthodes numériques dans une perspective de sciences humaines et sociales, ainsi que sa licence libre rendent cela possible.
 
-<img src="/images/blog/map-2019.png" alt="Une carte du monde avec visites PH."/>
+<img src="/images/blog/2019-12-30-newsletter/map-online-visits-2019.png" alt="Une carte du monde avec visites PH."/>
 
 Bien que la version anglophone reste la plus fréquentée, notamment grâce aux visites en provenance des États-Unis et de l'Inde, pour la première fois cinq pays hispanophones se hissent parmi les dix pays qui génèrent le plus de trafic: l'Espagne, le Mexique, la Colombie, le Chili et l'Argentine. Pour nous, cela témoigne de la nécessité de disposer des supports numériques en sciences humaines dans différentes langues et nous sommes bien fiers mener le jeu dans ce domaine.
 
@@ -34,7 +34,7 @@ Notre membre de l'équipe francophone Sofia Papastamkou a participé à un ateli
 
 Jennifer Isasi et Antonio Rojas Castro, de l'équipe hispanophone, ont partagé notre expérience du projet avec la communauté de l'association *Humanidades Digitales Hispánicas* à Tolède, en Espagne, également en octobre dernier. Leur présentation "*Programmation Historian en español*: De la traducción a la creación de recursos educativos abiertos" a entamé un dialogue important avec cette communauté sur, premièrement, l'impossibilité de seulement traduire de l'anglais dans d'autres langues et, deuxièmement, la nécessité mais aussi la difficulté de générer des ressources originales en espagnol.
 
-<img src="/images/blog/hdh-isasi.jpeg" alt="Une photo de Jennifer Isasi au HDH."/>
+<img src="/images/blog/2019-12-30-newsletter/hdh-isasi.jpeg" alt="Une photo de Jennifer Isasi au HDH."/>
 
 ## Nouvelles leçons et mises à jour
 
@@ -56,4 +56,4 @@ Pour nous aider à pérenniser notre travail et à continuer d'occuper une place
 
 Toute l'équipe de *Programming Historian* souhaite à notre lectorat une bonne année 2020!
 
-<img src="/images/blog/flowers.jpg" alt="Une bannière de fleurs."/>
+<img src="/images/blog/2019-12-30-newsletter/flowers.jpg" alt="Une bannière de fleurs."/>

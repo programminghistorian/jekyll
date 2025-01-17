@@ -7,7 +7,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/ph-banner-4lang.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
+<img src="/images/logos/ph-banner-with-drawing-and-url.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
 
 *Programming Historian*, in collaboration with the Institute of Historical Research, is proud to offer a free online workshop for educators in higher education who want to learn practical strategies for leading a digital history workshop. Please share this notice with colleagues who are looking to build their digital teaching portfolio.
 

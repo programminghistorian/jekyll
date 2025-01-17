@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/ph-banner.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
+<img src="/images/logos/ph-banner-em-breve.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
 
 2020 was not easy for anyone; we lost too much and we continue to struggle in a pandemic that has turn the world upside down. In *Programmnig Historian* we slowed down to accomodate members' challenges but did not stop; we continued to produce content and to improve our journals to ensure a more equitable access to materials on digital scholarship methods.
 
@@ -59,7 +59,7 @@ On the individual side of things, we are also grateful to the many dozens of spo
 
 We saw over 1,548,000 visitors on our journals. And for the second time, our users visited us from every country in the world except North Korea! However, as expected some countries visited us more than others. 
 
-<img src="/images/blog/ph-visitors-2020.png" alt="Top 10 list of visitors per country in 2020." title="List of visitors per country in 2020"/>
+<img src="/images/blog/2021-01-05-newsletter/ph-online-visits-2020.png" alt="Top 10 list of visitors per country in 2020." title="List of visitors per country in 2020"/>
 
 In English, [Creating Web APIs with Python and Flask](https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask) by Patrick Smyth received the most visits, followed by [Counting Word Frequencies with Python](https://programminghistorian.org/en/lessons/counting-frequencies) by William J. Turkel and Adam Crymble and [Reshaping JSON with jq](https://programminghistorian.org/en/lessons/json-and-jq) by Matthew Lincoln. En español, las lecciones que más visitas recibieron fueron las traducciones [Manipular cadenas de caracteres en Python](https://programminghistorian.org/es/lecciones/manipular-cadenas-de-caracteres-en-python) y [Trabajar con archivos de texto en Python](https://programminghistorian.org/es/lecciones/trabajar-con-archivos-de-texto) ambas de William J. Turkel y Adam Crymble. De la même manière, [Manipuler des chaînes de caractères en Python](https://programminghistorian.org/fr/lecons/manipuler-chaines-caracteres-python) et [Travailler avec des fichiers texte en Python](https://programminghistorian.org/fr/lecons/travailler-avec-des-fichiers-texte) par William J. Turkel et Adam Crymble ont été les traductions les plus consultées en français.
 
@@ -99,7 +99,7 @@ E por último, mas não menos importante, um grupo de humanistas digitais do Bra
 
 A equipe apresentou e discutiu o impacto da revista numa mesa redonda online durante a "I Jornada Nacional de Humanidades Digitais" organizada pelo IBICT, Brasil, no dia 13 de outubro. Convidamos todos(as) a assistir [ao vídeo da sessão](https://www.youtube.com/watch?v=bt-OaMW2Fr4) e a entrar em contato com o editor-chefe Daniel Alves se quiserem participar no projeto.
 
-<img src="/images/blog/ph-pt.png" alt="Logo for Programming Historian in portuguese." title="PH em português"/>
+<img src="/images/logos/ph-pt-logo-url.png" alt="Logo for Programming Historian in portuguese." title="PH em português"/>
 
 
 

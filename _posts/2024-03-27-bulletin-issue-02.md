@@ -7,7 +7,7 @@ layout: post
 categories: posts 
 ---
 
-<p><figure><img src="/images/blog/ph-bulletin-banner.png" alt="Banner showing the four Programming Historian logos and the title Bulletin in each language "/><figcaption></figcaption> </figure></p>
+<p><figure><img src="/images/logos/ph-bulletin-banner.png" alt="Banner showing the four Programming Historian logos and the title Bulletin in each language "/><figcaption></figcaption> </figure></p>
 
 # Issue 02 - March 2024
 

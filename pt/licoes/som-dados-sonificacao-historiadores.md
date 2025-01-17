@@ -57,9 +57,9 @@ Você verá que "sonificação" nos movimenta através do espectro partindo de s
 
 ### Dados de Exemplo
 
-+ [Dados sobre artefatos romanos](/assets/sonification-roman-data.csv)
-+ [Excerto do modelo de tópicos do diário de John Adams](/assets/sonification-diary.csv)
-+ [Excerto do modelo de tópicos das relações jesuíticas](/assets/sonification-jesuittopics.csv)
++ [Dados sobre artefatos romanos](/assets/sonification/sonification-roman-data.csv)
++ [Excerto do modelo de tópicos do diário de John Adams](/assets/sonification/sonification-diary.csv)
++ [Excerto do modelo de tópicos das relações jesuíticas](/assets/sonification/sonification-jesuittopics.csv)
 
 # Um pouco de contexto sobre  sonificação
 
@@ -129,18 +129,18 @@ _Não há forma 'certa' de representar os seus dados como som, ao menos não por
 Mas e o tempo? Dados históricos usualmente têm um ponto de inflexão, um distinto "tempo quando" algo aconteceu. Então, a quantidade de tempo entre dois pontos de dados precisa ser considerada. É nesse ponto que a nossa próxima ferramenta se torna bem útil, para quando nossos pontos de dados tiverem uma relação com outro espaço temporal. Começamos a nos mover de sonificação (pontos de dados) para música (relações entre pontos).
 
 ### Prática
-O [conjunto de dados de amostra](/assets/sonification-roman-data.csv) apresentado contém a contagem de moedas romanas na sua primeira coluna e a contagem de materiais romanos dos mesmos locais, conforme contido no banco de dados do Portable Antiquities Scheme (Esquema de Antiguidades Portáveis) do British Museum. A sonificação desses dados pode revelar ou acentuar aspectos da situação econômica ao longo da rua Watling, uma grande rota através da Britânia Romana. Esses pontos de dados estão organizados geograficamente do Noroeste ao Sudeste; então, na medida em que o som toca, nós estamos escutando movimento através do espaço. Cada nota representa outro passo no caminho.
+O [conjunto de dados de amostra](/assets/sonification/sonification-roman-data.csv) apresentado contém a contagem de moedas romanas na sua primeira coluna e a contagem de materiais romanos dos mesmos locais, conforme contido no banco de dados do Portable Antiquities Scheme (Esquema de Antiguidades Portáveis) do British Museum. A sonificação desses dados pode revelar ou acentuar aspectos da situação econômica ao longo da rua Watling, uma grande rota através da Britânia Romana. Esses pontos de dados estão organizados geograficamente do Noroeste ao Sudeste; então, na medida em que o som toca, nós estamos escutando movimento através do espaço. Cada nota representa outro passo no caminho.
 
-1. Abra o [dados-sonificação-romana.csv](/assets/sonification-roman-data.csv) em uma tabela. Copie a primeira coluna em um editor de texto. Delete os finais das linhas de forma que os dados fiquem todos em uma linha única.
+1. Abra o [dados-sonificação-romana.csv](/assets/sonification/sonification-roman-data.csv) em uma tabela. Copie a primeira coluna em um editor de texto. Delete os finais das linhas de forma que os dados fiquem todos em uma linha única.
 2. Adicione a seguinte informação de coluna assim:
 ```
 # Of Voices, Text Area Name, Text Area Data
 1,morphBox,
 ,areaPitch1,
 ```
-...para que os seus dados sigam imediatamente depois da última vírgula (como [esse exemplo](/assets/sonification-romancoin-data-music.csv)). Salve o ficheiro com um nome útil como `sonsdasmoedas1.csv`.
+...para que os seus dados sigam imediatamente depois da última vírgula (como [esse exemplo](/assets/sonification/sonification-romancoin-data-music.csv)). Salve o ficheiro com um nome útil como `sonsdasmoedas1.csv`.
 
-3. Acesse o site do [Musicalgorithms](http://musicalgorithms.org/3.0/index.html) (versão 3) e clique no botão "load" (carregar). No pop-up, clique no botão azul "load" (carregar) e selecione o ficheiro salvo no passo 2. O site carregará os seus materiais e exibirá uma marca de seleção verde se tiver sido carregado com êxito. Caso contrário, certifique-se de que os seus valores estejam separados por espaços e que sigam imediatamente a última vírgula no bloco de código na etapa 2. Também é possível tentar carregar o [ficheiro de demonstração desse tutorial](/assets/sonification-romancoin-data-music.csv) ao invés.
+3. Acesse o site do [Musicalgorithms](http://musicalgorithms.org/3.0/index.html) (versão 3) e clique no botão "load" (carregar). No pop-up, clique no botão azul "load" (carregar) e selecione o ficheiro salvo no passo 2. O site carregará os seus materiais e exibirá uma marca de seleção verde se tiver sido carregado com êxito. Caso contrário, certifique-se de que os seus valores estejam separados por espaços e que sigam imediatamente a última vírgula no bloco de código na etapa 2. Também é possível tentar carregar o [ficheiro de demonstração desse tutorial](/assets/sonification/sonification-romancoin-data-music.csv) ao invés.
 
 {% include figure.html filename="sonification-musicalgorithms-upload-4.png" caption="Clique em 'load' na tela principal para acessar essa caixa de diálogo. Então 'load csv'. (carregue o csv) Selecione o ficheiro; ele aparecerá na caixa. Então clique no botão 'load' (carregar)." %}
 
@@ -258,7 +258,7 @@ Você consegue fazer o seu computador tocar essa música? (Esse [material](http:
 **A propósito**, há uma especificação de ficheiro de texto para descrever música chamado [Notação ABC](https://pt.wikipedia.org/wiki/ABC_(nota%C3%A7%C3%A3o_musical)). Por enquanto, está além de nossa compreensão, mas alguém poderia escrever um script de sonificação em, por exemplo, uma planilha, mapeando valores para nomes de notas na especificação ABC (se você já usou um IF - THEN no Excel para converter notas percentuais em notas alfabéticas, terá uma noção de como isso pode ser feito) e então usando um site como [esse](http://trillian.mit.edu/~jc/music/abc/ABCcontrib.html) (em inglês) para converter a notação ABC em um ficheiro .mid.
 
 ### Inserindo os seus próprios dados
-[Esse ficheiro](/assets/sonification-diary.csv) é uma seleção do modelo de tópicos dos Diários de John Adams do [The Macroscope](http://themacroscope.org) (Explorando Grandes Dados Históricos: O Macroscópico do Historiador). Apenas os sinais mais fortes foram preservados através do arredondamento dos valores nas colunas para duas casas decimais (lembrando que 0.25, por exemplo, indica que aquele tópico está contribuindo para um quarto da composição daquela entrada do diário). Para obter esses dados em seu script de Python, eles devem ser formatados de uma maneira específica. A parte complicada é acertar o campo de data.
+[Esse ficheiro](/assets/sonification/sonification-diary.csv) é uma seleção do modelo de tópicos dos Diários de John Adams do [The Macroscope](http://themacroscope.org) (Explorando Grandes Dados Históricos: O Macroscópico do Historiador). Apenas os sinais mais fortes foram preservados através do arredondamento dos valores nas colunas para duas casas decimais (lembrando que 0.25, por exemplo, indica que aquele tópico está contribuindo para um quarto da composição daquela entrada do diário). Para obter esses dados em seu script de Python, eles devem ser formatados de uma maneira específica. A parte complicada é acertar o campo de data.
 
 _Para os propósitos desse tutorial, nós iremos deixar os nomes das variáveis sem alterações em relação ao script de amostra. O script de amostra foi desenvolvido com dados de um terremoto em mente; então onde diz 'magnitude' podemos pensar como '% composição do tópico.'_
 
@@ -389,7 +389,7 @@ Por que alguém iria querer fazer isso? Como progressivamente ficou evidente no 
 
 Aqui, eu ofereço simplesmente um trecho de código que possibilitará a importação dos seus dados, que aqui são simplesmente uma lista de valores salvos como csv. Estou em dívida com a bibliotecária da George Washington University, Laura Wrubel, que postou em [gist.github.com](https://gist.github.com/lwrubel) os experimentos dela de sonificação das transações de circulação de sua biblioteca.
 
-Nesse [ficheiro de amostra](/assets/sonification-jesuittopics.csv) (um modelo de tópicos gerado do [Jesuit Relations](http://puffin.creighton.edu/jesuit/relations/), (Relações Jesuítas)), há dois tópicos. A primeira linha contem os cabeçalhos: topic1 (em PT-BR, tópico1), topic2 (em PT-BR, tópico2).
+Nesse [ficheiro de amostra](/assets/sonification/sonification-jesuittopics.csv) (um modelo de tópicos gerado do [Jesuit Relations](http://puffin.creighton.edu/jesuit/relations/), (Relações Jesuítas)), há dois tópicos. A primeira linha contem os cabeçalhos: topic1 (em PT-BR, tópico1), topic2 (em PT-BR, tópico2).
 
 ### Prática
 

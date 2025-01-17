@@ -169,7 +169,7 @@ java.lang.NoClassDefFoundError:'* puede deberse a que instalaste MALLET en algú
 
 Trabajar con datos
 --------------------
-MALLET exige datos en texto plano. Para ello, cada texto suele guardarse en un archivo `.txt`. El conjunto de esos archivos conformará el corpus. Puedes descargar un corpus de muestra con textos en español [aquí](https://github.com/programminghistorian/ph-submissions/raw/gh-pages/assets/ensayos-jose-marti.zip)[^7]. Descomprime el archivo ZIP en algún lugar de tu computadora y recuerda este lugar. En esta lección lo guardamos en el escritorio del usuario para poder encontrarlo fácilmente.
+MALLET exige datos en texto plano. Para ello, cada texto suele guardarse en un archivo `.txt`. El conjunto de esos archivos conformará el corpus. Puedes descargar un corpus de muestra con textos en español [aquí](/assets/topic-modeling-y-mallet/ensayos-jose-marti.zip)[^7]. Descomprime el archivo ZIP en algún lugar de tu computadora y recuerda este lugar. En esta lección lo guardamos en el escritorio del usuario para poder encontrarlo fácilmente.
 
 Para navegar al directorio del corpus teclea `cd C:\Users\User\Desktop\ensayos-de-jose-marti` en la línea de comandos (o similar dependiendo de dónde guardaste la carpeta descomprimida en tu computadora). Escribe `dir` (`ls` para Mac) para que se te muestre la lista de los contenidos del directorio `ensayos-de-jose-marti` (véase figura 8). Para abrir uno de los archivos de texto, escribe el nombre entero del archivo incluyendo la extensión al final.
 

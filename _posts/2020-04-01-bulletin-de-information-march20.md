@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/autumn.jpg" alt="Une image recadrée avec le mot automne." title="Joyeux automne à notre public de l'hémisphère sud!"/>
+<img src="/images/blog/2020-04-01-newsletter/autumn.jpg" alt="Une image recadrée avec le mot automne." title="Joyeux automne à notre public de l'hémisphère sud!"/>
 
 > **Un message sur Covid-19**
 >
@@ -68,4 +68,4 @@ Pour nous aider à pérenniser notre travail et à continuer d'occuper une place
 
 L'équipe du *Programming Historian* souhaite à nos lecteurs et lectrices de l'hémisphère Sud un joyeux début d'automne, à ceux et à celles de l'hémisphère Nord un bon printemps! Surtout, faites attention et prenez soin de vous.
 
-<img src="/images/blog/spring.jpg" alt="Une image recadrée avec le mot printemps." title="Bon printemps à notre public de l'hémisphère nord!"/>
+<img src="/images/blog/2020-04-01-newsletter/spring.jpg" alt="Une image recadrée avec le mot printemps." title="Bon printemps à notre public de l'hémisphère nord!"/>

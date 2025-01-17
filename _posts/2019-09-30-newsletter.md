@@ -52,11 +52,11 @@ Antonio Rojas Castro, Anna-Maria Sichani and Sofia Papastamkou presented their p
 
 
 
-<p><figure><img src="/images/blog/dh-2019-poster.JPG" alt="A photo of Anna-Maria Sichani and Sofia Papastamkou next to their poster at DH 2019."/><figcaption>Anna-Maria Sichani and Sofia Papastamkou present a poster at DH 2019.</figcaption></figure></p>
+<p><figure><img src="/images/blog/2019-09-30-newsletter/dh-2019-poster.JPG" alt="A photo of Anna-Maria Sichani and Sofia Papastamkou next to their poster at DH 2019."/><figcaption>Anna-Maria Sichani and Sofia Papastamkou present a poster at DH 2019.</figcaption></figure></p>
 
 A few days later, and on the other side of the pond at the [**ACH 2019 Conference**](http://ach2019.ach.org) in Pittsburgh, Maria José Afanador-Llach and Jennifer Isasi presented "Retos en la producción de tutoriales de HD en contextos hispanohablantes" which focused on the experience of reaching to the audience of *Programming Historian en español*. Attending the conference gave them the opportunity to also meet Matthew Lincoln and Brandon Walsh as well as introducing more people to the multilingual project. 
 
-<p><figure><img src="/images/blog/ach-2019-presentation.jpg" alt="A photo of Brandon Walsh, Matthew Lincoln, María José Afanador-Llach and Jennifer Isasi at ACH 2019."/><figcaption>Brandon Walsh, Matthew Lincoln, María José Afanador-Llach and Jennifer Isasi meet at ACH 2019.</figcaption></figure></p>
+<p><figure><img src="/images/blog/2019-09-30-newsletter/ach-2019-presentation.jpg" alt="A photo of Brandon Walsh, Matthew Lincoln, María José Afanador-Llach and Jennifer Isasi at ACH 2019."/><figcaption>Brandon Walsh, Matthew Lincoln, María José Afanador-Llach and Jennifer Isasi meet at ACH 2019.</figcaption></figure></p>
 
 Congratulations to everyone who presented at conferences during the summer!
 

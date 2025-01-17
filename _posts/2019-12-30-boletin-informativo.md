@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/bees.jpg" alt="Un dibujo de abejas volando."/>
+<img src="/images/blog/2019-12-30-newsletter/bees.jpg" alt="Un dibujo de abejas volando."/>
 
 En *Programming Historian* hemos estado muy ocupados y tenemos mucho que celebrar este año. En general, el proyecto se ha expandido en todas direcciones: nuestra audiencia ha sido de casi 950.000 visitas únicas durante el año, con casi 2.250.000 visitas a páginas; hemos tenido muchos colaboradores nuevos en los tres idiomas y cuatro nuevos editores se han unido al equipo editorial. Además, creamos ProgHist Limited con el objetivo de poder solicitar fondos para expandir nuestro proyecto en nuevas direcciones en el futuro. 
 
@@ -16,7 +16,7 @@ En *Programming Historian* hemos estado muy ocupados y tenemos mucho que celebra
 
 Con 80 lecciones en inglés, 44 en español y 5 en francés, *Programming Historian* recibe visitas de todo el mundo - y no es una exageración. Esto es posible gracias a sus originales lecciones para aprender métodos digitales desde una perspectiva humanista y con licencia de accesso abierto hacen.
 
-<img src="/images/blog/map-2019.png" alt="Un mapa de las visitas de PH."/> 
+<img src="/images/blog/2019-12-30-newsletter/map-online-visits-2019.png" alt="Un mapa de las visitas de PH."/> 
 
 Aunque la versión en inglés recibe la mayor cantidad de visitas, en particular de EE.UU. e India, por primera vez, hay cinco países de habla hispana en nuestro Top 10 de países que nos visitan: España, México, Colombia, Chile y Argentina. Esto es indiciativo de la necesidad de materiales de humanidades digitales en diferentes idiomas y no podríamos estar más orgullosos de ser los líderes en el campo. 
 
@@ -38,7 +38,7 @@ Nuestra compañera Sofía Papastamkou, del equipo francés, participó en el "[T
 
 Jennifer Isasi y Antonio Rojas Castro, del equipo en español, compartieron nuestra experiencia del proyecto con la comunidad de Humanidades Digitales Hispánicas en Toledo, España, también en octubre. Presentaron "Programming Historian en español: De la traducción a la creación de recursos educativos abiertos". Esto inició con dicha comunidad un importante diálogo sobre, primero, la imposibilidad de únicamente traducir materiales en inglés a otros idiomas y, segundo, la necesidad pero también dificultad de generar recursos originales en español. 
 
-<img src="/images/blog/hdh-isasi.jpeg" alt="Una foto de Jennifer Isasi en HDH."/>
+<img src="/images/blog/2019-12-30-newsletter/hdh-isasi.jpeg" alt="Una foto de Jennifer Isasi en HDH."/>
 
 ## Nuevas lecciones y actualizaciones
 
@@ -66,5 +66,5 @@ Para ayudarnos a hacer que nuestro trabajo sea más sostenible y continuar siend
 
 ¡El equipo de *Programming Historian* desea un Feliz Año Nuevo a todos nuestros lectores!
 
-<img src="/images/blog/flowers.jpg" alt="Grabado de Unas flores."/>
+<img src="/images/blog/2019-12-30-newsletter/flowers.jpg" alt="Grabado de Unas flores."/>
 

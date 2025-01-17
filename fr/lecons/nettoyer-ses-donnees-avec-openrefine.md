@@ -69,7 +69,7 @@ Tout au long du processus de profilage et de nettoyage des données, l'étude de
 Les termes du champ **Categories** comprennent ce que nous appelons un [vocabulaire contrôlé][]. Un vocabulaire contrôlé consiste en des mots-clés décrivant le contenu d'une collection en utilisant un nombre limité de termes, et constitue souvent un point d'entrée crucial dans les ensembles de données utilisés par les historiens et les historiennes dans les bibliothèques, les archives et les musées. C'est pourquoi nous accorderons une attention particulière à ce champ. Une fois les données nettoyées, il devrait être possible de réutiliser les termes du vocabulaire contrôlé pour trouver des informations supplémentaires sur les termes utilisés ailleurs en ligne, ce qui s'appelle « créer des [données liées][] ».
 
 ### Pour commencer : installer OpenRefine et importer des données
-[Téléchargez OpenRefine][] et suivez les instructions d'installation. *OpenRefine* fonctionne sur toutes les plateformes : Windows, Mac et Linux. *OpenRefine* s'ouvrira dans votre navigateur, mais il est important de réaliser que l'application s’exécute localement et que vos données ne seront pas stockées en ligne. Les fichiers de données sont disponibles sur notre dépot *Programming Historian* comme [phm-collection][]. Veuillez télécharger le fichier *phm-collection.tsv* qui sera utilisé tout au long de ce tutoriel avant de continuer.
+[Téléchargez OpenRefine][] et suivez les instructions d'installation. *OpenRefine* fonctionne sur toutes les plateformes : Windows, Mac et Linux. *OpenRefine* s'ouvrira dans votre navigateur, mais il est important de réaliser que l'application s’exécute localement et que vos données ne seront pas stockées en ligne. Les fichiers de données sont disponibles sur notre dépot *Programming Historian* sous [phm-collection][]. Veuillez télécharger le fichier *phm-collection.tsv* qui sera utilisé tout au long de ce tutoriel avant de continuer.
 
 Sur la page de démarrage d'*OpenRefine*, créez un nouveau projet en utilisant le fichier de données téléchargé et cliquez sur **Suivant**. Par défaut, la première ligne sera correctement analysée comme étant l’en-tête des colonnes, mais vous devez décocher la case **Utiliser le caractère " pour fermer les cellules contenant les séparateurs de colonnes**, car les citations dans le fichier n'ont aucune signification pour *OpenRefine*. En outre, cochez la case **Analyser le texte des cellules comme nombres** pour permettre à *OpenRefine* de détecter automatiquement les nombres. Maintenant, cliquez sur **Créer un projet**. Si tout se passe bien, vous verrez 75 814 lignes. 
 
@@ -145,7 +145,7 @@ Vous avez ainsi appris comment avoir un rapide aperçu du nombre de valeurs vide
   [vocabulaire contrôlé]: https://fr.wikipedia.org/wiki/Vocabulaire_contr%C3%B4l%C3%A9
   [données liées]: https://fr.wikipedia.org/wiki/Web_des_donn%C3%A9es
   [Téléchargez OpenRefine]: https://openrefine.org/download
-  [phm-collection]: /assets/phm-collection.tsv
+  [phm-collection]: /assets/cleaning-data-with-openrefine/phm-collection.tsv
   [Powerhouse Museum Website]: /images/powerhouseScreenshot.png
   [facette]: https://fr.wikipedia.org/wiki/Recherche_%C3%A0_facettes
   [Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png

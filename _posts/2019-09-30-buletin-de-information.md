@@ -47,12 +47,12 @@ Certains membres du comité de rédaction de *Programming Historian* ont eu l’
 
 Antonio Rojas Castro, Anna-Maria Sichani et Sofia Papastamkou ont présenté leur affiche "Concevoir des initiatives de pédagogie numérique multilingue: le *Programming Historian* pour les communautés DH anglophones, hispanophones et francophones" (en anglais) à la [conférence DH 2019](https://dh2019.adho.org) à Utrecht, aux Pays-Bas, en juillet. En même temps, ils ont participé à l'atelier pré-conférence "Accelerating DH Education", présentant "Trois défis pour le développement de ressources éducatives DH multilingues ouvertes: le cas de *Programming Historian*" (en anglais).
 
-<p><figure><img src="/images/blog/dh-2019-poster.JPG" alt="
+<p><figure><img src="/images/blog/2019-09-30-newsletter/dh-2019-poster.JPG" alt="
 Une photo d'Anna-Maria Sichani et Sofia Papastamkou à côté de leur affiche à DH 2019."/><figcaption>Anna-Maria Sichani et Sofia Papastamkou présentent une affiche à DH 2019.</figcaption></figure></p>
 
 Quelques jours plus tard, lors de la [conférence ACH 2019](http://ach2019.ach.org) à Pittsburgh, de l'autre côté de l'océan, Maria José Afanador-Llach et Jennifer Isasi ont présenté "Retouches sur les tutoriels en HD et les contextes hispanophones" (en anglais), qui mettaient l'accent sur l'expérience publique de la *Programming Historian en español*. La participation à la conférence leur a permis de rencontrer Matthew Lincoln et Brandon Walsh, ainsi que de familiariser davantage de personnes au projet multilingue.
 
-<p><figure><img src="/images/blog/ach-2019-presentation.jpg" alt="Une photo de Brandon Walsh, Matthew Lincoln, María José Afanador-Llach et Jennifer Isasi à ACH 2019."/><figcaption>Brandon Walsh, Matthew Lincoln, María José Afanador-Llach et Jennifer Isasi se rencontrent à ACH 2019.</figcaption></figure></p>
+<p><figure><img src="/images/blog/2019-09-30-newsletter/ach-2019-presentation.jpg" alt="Une photo de Brandon Walsh, Matthew Lincoln, María José Afanador-Llach et Jennifer Isasi à ACH 2019."/><figcaption>Brandon Walsh, Matthew Lincoln, María José Afanador-Llach et Jennifer Isasi se rencontrent à ACH 2019.</figcaption></figure></p>
 Félicitations à tous ceux qui ont présenté des conférences cet été!
 
 

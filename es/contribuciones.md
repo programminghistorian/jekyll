@@ -10,7 +10,7 @@ _Programming Historian en español_ es posible gracias al esfuerzo de voluntario
 
 ## Traduce una lección
 
-<img src="/images/translator.png" class="garnish rounded float-right" alt="{{ site.data.snippets.translator-image-alt[page.lang] }}"/>
+<img src="/images/website/contribute/house-by-canal-scene.png" class="garnish rounded float-right" alt="{{ site.data.snippets.translator-image-alt[page.lang] }}"/>
 
 Si dominas de más de uno de nuestros idiomas (francés, español, inglés, portugués), puedes ponerte en contacto con nosotros para traducir una lección ya publicada en _Programming Historian_ de un idioma a otro. De esta manera nos ayudarás en nuestra contribucion en las comunidades de humanidades digitales en español y francés, y profundizarás en un lenguaje, método o tecnología.
 
@@ -29,7 +29,7 @@ Si desea contribuir como revisor por pares, tómese unos minutos para [registrar
 
 ## Escribe una lección
 
-<img src="/images/author-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}" />
+<img src="/images/website/woman-at-writing-desk.png" class="garnish rounded float-right" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}" />
 
 También aceptamos envíos de [nuevas lecciones] por parte de los autores.
 
@@ -50,7 +50,7 @@ En el futuro, de manera ocasional, publicaremos anuncios buscando más editores.
 
 ## Envía tus comentarios e informa sobre errores
 
-<img src="/images/reader-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}" />
+<img src="/images/website/contribute/robed-man-reading.png" class="garnish rounded float-right" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}" />
 
 
 Nos gustaría recibir tus [comentarios] sobre cualquier aspecto de _Programming Historian en español_. ¡Queremos mejorar nuestro trabajo!
@@ -60,7 +60,7 @@ Agradecemos de manera especial alertas sobre lecciones que no funcionan. A medid
 
 ## Añádenos a tu catálogo de biblioteca
 
-<img src="/images/library-catalogue.png" class="garnish float-right" alt="{{ site.data.snippets.library-catalogue-image-alt[page.lang] }}" />
+<img src="/images/website/contribute/writing-materials-still-life.png" class="garnish float-right" alt="{{ site.data.snippets.library-catalogue-image-alt[page.lang] }}" />
 
 
 _Programming Historian_ está registrado en WorldCat en [español](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results), en [inglés](http://www.worldcat.org/title/programming-historian/oclc/951537099), en [francés](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842), y en [portugués](https://search.worldcat.org/title/1332987197).

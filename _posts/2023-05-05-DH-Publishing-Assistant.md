@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<p><figure><img src="/images/blog/guide-to-the-mineral-gallery.jpg" alt="Drawing of four mineral formations"/><figcaption>A Guide to the Mineral Gallery by Lazarus Fletcher, 1884. British Library Shelfmark: 7104.b.6</figcaption> </figure></p>
+<p><figure><img src="/images/blog/DH-Publishing-Assistant/guide-to-the-mineral-gallery.jpg" alt="Drawing of four mineral formations"/><figcaption>A Guide to the Mineral Gallery by Lazarus Fletcher, 1884. British Library Shelfmark: 7104.b.6</figcaption> </figure></p>
 
 ### Key Information  
 
@@ -52,5 +52,5 @@ If you’d like to ask any questions about this role, please [write to Anisa Haw
 
 ### Apply
 
-Learn more, and find out how to apply in the [Job Information Pack](/images/blog/Job-Information-Pack-DH-Publishing-Assistant-May-2023.pdf).
+Learn more, and find out how to apply in the [Job Information Pack](/images/blog/DH-Publishing-Assistant/Job-Information-Pack-DH-Publishing-Assistant-May-2023.pdf).
 

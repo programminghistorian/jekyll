@@ -151,7 +151,7 @@ library(tm)
 
 ## Cargar y preparar el texto
 
-Descarga el texto de la novela [*Miau*](/assets/galdos_miau.txt). Como puedes ver, el documento está en formato de texto plano, al ser esto imprescindible para llevar a cabo su procesamiento y análisis en R.
+Descarga el texto de la novela [*Miau*](/assets/analisis-de-sentimientos-r/galdos_miau.txt). Como puedes ver, el documento está en formato de texto plano, al ser esto imprescindible para llevar a cabo su procesamiento y análisis en R.
 
 Con el texto a mano, lo primero que vamos a hacer es cargarlo como una cadena de caracteres en un objeto de tipo cadena (*string*). Asegúrate de cambiar la ruta al texto para que corresponda con tu computadora.  
 
@@ -160,13 +160,13 @@ Con el texto a mano, lo primero que vamos a hacer es cargarlo como una cadena de
 En los sistemas Mac podemos usar la función `get_text_as_string` integrada en el paquete `syuzhet`:
 
 ```R
-texto_cadena <- get_text_as_string("https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/galdos_miau.txt")
+texto_cadena <- get_text_as_string("https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/analisis-de-sentimientos-r/galdos_miau.txt")
 ```
 **En Windows**
 
 Los sistemas Windows no leen directamente los caracteres con tildes u otras marcas propias del español, el portugués o el francés, así que tenemos que indicarle al sistema que nuestro texto está en formato UTF-8 mediante la función `scan`.
 ```R
-texto_cadena <- scan(file = "https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/galdos_miau.txt", fileEncoding = "UTF-8", what = character(), sep = "\n", allowEscapes = T)
+texto_cadena <- scan(file = "https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/analisis-de-sentimientos-r/galdos_miau.txt", fileEncoding = "UTF-8", what = character(), sep = "\n", allowEscapes = T)
 ```
 Puesto que el análisis que vamos a realizar necesita de un listado, ya sea de palabras u oraciones(aquí solo prestaremos atención a las palabras individuales), necesitamos un paso intermedio entre la carga del texto y la extracción de los valores de sentimientos. Así, vamos a dividir la cadena de caracteres en un listado de palabras o unigramas (*tokens*). Esto es algo muy habitual en el análisis distante de textos.
 

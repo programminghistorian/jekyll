@@ -101,11 +101,11 @@ The presentation (or [syntax](https://en.wikipedia.org/wiki/Syntax)) of triples,
 
 The traditional way to represent a triple in diagrammatic form is:
 
-{% include figure.html filename="intro-to-linked-data-fig5.png" caption="the classic way to represent a triple" %}
+{% include figure.html filename="en-or-intro-to-linked-data-01.png" caption="Figure 1. The classic way to represent a triple." %}
 
 So our Jack Straw triple, in more human-readable form, could be represented like this:
 
-{% include figure.html filename="intro-to-linked-data-fig6.png" caption="triple diagram showing that Jack Straw represented Blackburn" %}
+{% include figure.html filename="en-or-intro-to-linked-data-02.png" caption="Figure 2. Triple diagram showing that Jack Straw represented Blackburn." %}
 
 For now there are three key points to remember:
 
@@ -323,7 +323,7 @@ The SPARQL query end point I use is called [snorql](http://dbpedia.org/snorql/).
 
 If you go to the snorql URL above you will see at first that a number of prefixes have already been declared for us, which is handy. You'll recognise some of the prefixes now too.
 
-{% include figure.html filename="intro-to-linked-data-fig1.png" caption="snorql's default query box, with some prefixes declared for you" %}
+{% include figure.html filename="en-or-intro-to-linked-data-03.png" caption="Figure 3. snorql's default query box, with some prefixes declared for you." %}
 
 In the query box below the prefix declarations you should see:
 
@@ -343,7 +343,7 @@ Let's start with something simple to see how this works. Paste (or, better, type
 
 Hit 'go' and, if you left the drop-down box as 'browse' you should get two columns labelled "b" and "c". (Note that here, searching for a string, case does matter: lyndal_roper will get you no results.)
 
-{% include figure.html filename="intro-to-linked-data-fig2.png" caption="top of results lists for a query for all triples with 'Lyndal_Roper' as subject" %}
+{% include figure.html filename="en-or-intro-to-linked-data-04.png" caption="Figure 4. Top of results lists for a query for all triples with 'Lyndal_Roper' as subject." %}
 
 So what just happened? And how did I know what to type?
 
@@ -371,7 +371,7 @@ I've made a small change here. If this query works at all then I expect my histo
 
 Run the query. Does it work for you? I get a big list of historians.
 
-{% include figure.html filename="intro-to-linked-data-fig3.png" caption="historians, according to DBpedia" %}
+{% include figure.html filename="en-or-intro-to-linked-data-05.png" caption="Figure 5. Historians, according to DBpedia." %}
 
 So this works for creating lists, which is useful, but it would much more powerful to combine lists, to get intersections of sests. I found a couple more things that might be interesting to query in Lyndal Roper's DBpedia attributes: <http://dbpedia.org/class/yago/WikicatBritishHistorians> and <http://dbpedia.org/class/yago/WikicatWomenHistorians>. It's very easy to combine these by asking a for a variable to be returned (in our case this is `?name`) and then using that in multiple lines of a query. Note as well the space and full point at the end of the first line beginning with `?name`:
 
@@ -383,7 +383,7 @@ So this works for creating lists, which is useful, but it would much more powerf
 
 It works! I get five results. At the time of writing, there are five British, women historians in *DBpedia*...
 
-{% include figure.html filename="intro-to-linked-data-fig4.png" caption="British historians who are women, according to DBpedia" %}
+{% include figure.html filename="en-or-intro-to-linked-data-06.png" caption="Figure 6. British historians who are women, according to DBpedia." %}
 
 Only five British women historians? Of course there are, in reality, many more than that, as we could easily show by substituting the name of, say, Alison Weir in our first Lyndal Roper query. This brings us to the problem with *Dbpedia* that I mentioned earlier: it's not very consistently marked up with structural information of the type *DBpedia* uses. Our query can list some British women historians but it turns out that we can't use it to generate a meaningful list of people in this category. All we've found is the people in entries in *Wikipedia* that someone has decided to categorise as "British historian" and "woman historian".
 

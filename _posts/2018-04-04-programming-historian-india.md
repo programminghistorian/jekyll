@@ -7,8 +7,8 @@ layout: post
 categories: posts 
 ---
 
-<p><figure><a href="/images/programming-historian-india/programming-historian-india.png">
-        <img src="/images/programming-historian-india/programming-historian-india.png" alt=""/></a><figcaption>
+<p><figure><a href="/images/blog/programming-historian-india/programming-historian-india.png">
+        <img src="/images/blog/programming-historian-india/programming-historian-india.png" alt=""/></a><figcaption>
     Traffic Report of Programming Historian visitors from India, 2012-2018.</figcaption></figure></p>
     
 When the _Programming Historian_ launched its open access tutorials in 2012, historians were the target audience. By 2014 our audience statistics had already presented a surprise: India had emerged as the second largest source of _Programming Historian_ readers - a title it still holds in 2018.

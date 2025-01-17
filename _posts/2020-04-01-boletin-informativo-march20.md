@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/autumn.jpg" alt="Imagen recortada con la palabra otoño en inglés." title="¡Feliz comienzo del otoño a los usuarios del hemisferio sur!"/>
+<img src="/images/blog/2020-04-01-newsletter/autumn.jpg" alt="Imagen recortada con la palabra otoño en inglés." title="¡Feliz comienzo del otoño a los usuarios del hemisferio sur!"/>
 
 > **Un mensaje sobre Covid-19** 
 >
@@ -70,4 +70,4 @@ Para ayudarnos a hacer que nuestro trabajo sea más sostenible y continuar siend
 
 El equipo de *Programming Historian* desea a nuestros lectores un feliz otoño a los usuarios del hemisferio sur y una feliz primavera a aquellos en el hemisferio norte. Manteneos a salvo.  
 
-<img src="/images/blog/spring.jpg" alt="A cropped image with the word Spring." title="Happy Spring to our audience in the northern hemisphere!"/>
+<img src="/images/blog/2020-04-01-newsletter/spring.jpg" alt="A cropped image with the word Spring." title="Happy Spring to our audience in the northern hemisphere!"/>

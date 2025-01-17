@@ -7,7 +7,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/ph-pt.png" alt="Logo for Programming Historian in portuguese." title="PH em português"/>
+<img src="/images/logos/ph-pt-logo-url.png" alt="Logo for Programming Historian in portuguese." title="PH em português"/>
 
 É com uma enorme alegria que anunciamos hoje a publicação do _Programming Historian em português_! 
 
@@ -21,11 +21,11 @@ Uma última palavra de agradecimento a todos os participantes no nosso [Programa
 
 Não queríamos perder a notícia de que, além disso, o *Programming Historian em português* nasceu no 25º aniversário do mais antigo arquivo de uma página web em Português:
 
-<img src="/images/blog/first-web-in-portuguese.png" alt="Capture of the first website available in Portuguese with a map of Portugal, from 1996" title="Home Page de Portugal"/> 
+<img src="/images/blog/launch-portuguese/first-web-in-portuguese.png" alt="Capture of the first website available in Portuguese with a map of Portugal, from 1996" title="Home Page de Portugal"/> 
 
 *Imagem: Captura de ecrã da “[«Home Page» de Portugal / Portugal Home Page](https://arquivo.pt/wayback/19961013145852/http:/s700.uminho.pt/homepage-pt.html)”, 1996. Página mais antiga da Internet portuguesa com referência a Portugal preservada no Arquivo da Web Portuguesa – [Arquivo.PT](https://arquivo.pt/).* 
 
-<img src="/images/blog/ph-banner.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
+<img src="/images/logos/ph-banner-em-breve.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
 
 ¡Anunciamos con mucha alegría el lanzamiento de *Programming Historian em português*, es decir, la cuarta versión de nuestra revista! Como nos dicen arriba, esta publicación contribuye a la expansión de las competencias digitales de la comunidad de historiadores y humanistas que hablan portugués y refuerza la internacionalización, diversidad y alcance global de *Programming Historian*. El [equipo](https://programminghistorian.org/es/equipo-de-proyecto#programming-historian-em-português) de este nuevo proyecto, formado por *humanistas digitais* de Brasil y Portugal, ha trabajado duro durante más de un año para traducir la infraestructura de la revista así como dar comienzo a la traducción de algunas lecciones. Agradecen la colaboración de los editores más veteranos así como el apoyo de los participantes en el Programa de Instituciones Asociadas y de la Universidad de Sussex por seguir brindando acceso a números DOI. Desde el equipo hispanohablante queremos dar a nuestros nuevos compañeros la más sincera enhorabuena por su nueva publicación. 
 

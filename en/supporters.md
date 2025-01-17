@@ -35,7 +35,6 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [University of Bristol Library](https://www.bristol.ac.uk/library/), United Kingdom
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), United Kingdom
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), United Kingdom
-- [University of Lancaster Library](https://www.lancaster.ac.uk/), United Kingdom
 - [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), China
 - [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, United Kingdom
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), United Kingdom
@@ -65,6 +64,7 @@ Former contributors to our [Institutional Partner Programme](support-us#institut
 - [Aarhus University Library](https://library.au.dk/), Denmark [2021-2024]
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Denmark [2021-2024]
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), United Kingdom [2022-2024]
+- [University of Lancaster Library](https://www.lancaster.ac.uk/), United Kingdom [2022-2024]
 
 ## Additional Supporters
 Organizations that have or continue to give support ranging from in kind services, to project-specific funding:

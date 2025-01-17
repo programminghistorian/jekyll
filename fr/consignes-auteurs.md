@@ -7,7 +7,7 @@ skip_validation: true
 
 # Consignes aux auteur(e)s
 
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/website/woman-at-writing-desk.png" class="garnish rounded float-left" />
 <h2 class="noclear"> Étape 1: <a href="#étape-1-proposer-une-nouvelle-leçon">proposer une nouvelle leçon</a></h2>
 <h2 class="noclear">Étape 2: <a href="#étape-2-rédaction-et-mise-en-forme">rédaction et mise en forme</a></h2>
 <h2 class="noclear">Étape 3: <a href="#étape-3-soumettre-une-nouvelle-leçon">soumettre une nouvelle leçon</a></h2>  

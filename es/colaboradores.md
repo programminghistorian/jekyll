@@ -36,7 +36,6 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 - [University of Bristol Library](https://www.bristol.ac.uk/library/), Reino Unido
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), Reino Unido
-- [University of Lancaster Library](https://www.lancaster.ac.uk/), Reino Unido
 - [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), China
 - [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, Reino Unido
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), Reino Unido
@@ -66,6 +65,7 @@ Antiguos contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 - [Aarhus University Library](https://library.au.dk/), Dinamarca [2021-2024]
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca [2021-2024]
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), Reino Unido [2022-2024]
+- [University of Lancaster Library](https://www.lancaster.ac.uk/), Reino Unido [2022-2024]
 
 ## Colaboradores adicionales
 Organizaciones que han o continúan brindando apoyo en forma de contribuciones en especie o de financiamiento específico para proyectos:

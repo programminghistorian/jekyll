@@ -259,4 +259,4 @@ that’s ok!
   [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
   [Code Reuse and Modularity]: /lessons/code-reuse-and-modularity
   [zip]: /assets/python-lessons2.zip
-  [obo-t17800628-33.html]: /assets/obo-t17800628-33.html
+  [obo-t17800628-33.html]: /assets/from-html-to-list-of-words-1/obo-t17800628-33.html

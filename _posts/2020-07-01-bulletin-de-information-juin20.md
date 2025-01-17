@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/summer.jpg" alt="Une image recadrée avec le mot l'été." caption="Bon été à notre public de l'hémisphère nord!"/>
+<img src="/images/blog/2020-07-01-newsletter/summer.jpg" alt="Une image recadrée avec le mot l'été." caption="Bon été à notre public de l'hémisphère nord!"/>
 
 Nous avons atteint plusieurs objectifs au cours du deuxième trimestre de 2020: nous avons une nouvelle fonctionnalité, des numéros DOI, de nouvelles leçons, de nouveaux membres de l'équipe de projet et de nouveaux supporters. Nous avons eu plus de 428 000 visites.
 
@@ -34,7 +34,7 @@ Zoe, en collaboration avec Matt Lincoln, a essayé différentes approches afin d
 
 Nous sommes ravis et honorés d'annoncer que [Le Centre d'Edimbourg pour les données, la culture et la société (CDCS)](https://www.cdcs.ed.ac.uk) est notre plus récent [Partenaire institutionnel](https://programminghistorian.org/fr/nous-soutenir#partenariat-institutionnel)! Fondé en 2019 à l'initiative du College of Arts, Humanities and Social Sciences de l'Université d'Édimbourg et dirigé par le docteur Melissa Terras, le CDCS constitue un lieu d'accueil pour la recherche axée sur les données et engagée numériquement dans toutes les disciplines; il propose des formations, des événements et du soutien à la recherche d'une vaste communauté de chercheurs.
 
-<img src="/images/blog/cdcs-uk-logo.png" alt="Logo of The Edinburgh Centre for Data, Culture & Society (CDCS)"/>
+<img src="/images/blog/2020-07-01-newsletter/cdcs-uk-logo.png" alt="Logo of The Edinburgh Centre for Data, Culture & Society (CDCS)"/>
 
 Ils partagent:
 
@@ -120,4 +120,4 @@ Pour nous aider à pérenniser notre travail et à continuer d'occuper une place
 
 L'équipe du *Programming Historian* souhaite à nos lecteurs et lectrices de l'hémisphère Sud un joyeux début d'hiver et à ceux et celles de l'hémisphère Nord un bon été! Surtout, faites attention et prenez soin de vous.
 
-<img src="/images/blog/winter.jpg" alt="Une image recadrée avec le mot hiver." caption="Bon hiver à notre public de l'hémisphère sud!"/>
+<img src="/images/blog/2020-07-01-newsletter/winter.jpg" alt="Une image recadrée avec le mot hiver." caption="Bon hiver à notre public de l'hémisphère sud!"/>

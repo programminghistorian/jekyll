@@ -8,7 +8,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/ph-banner-4lang.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>
+<img src="/images/logos/ph-banner-with-drawing-and-url.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>
 
 As we approach the end of 2021, we are in reflective mode. We're celebrating a long list of achievements: the launch of _Programming Historian em português_, the arrival of new editorial colleagues who joined our French team in January and our Spanish team in September, the recruitment of our first paid employee this July, as well as the success of calls for new editors to join our English team. We also have a greatly enhanced directory of open access lessons that serve digital humanities scholars around the globe. This work would not have been possible without the support of our individual and institutional supporters, to whom we sincerely say thank you, merci, gracias, e obrigados. 
 

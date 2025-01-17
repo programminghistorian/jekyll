@@ -7,7 +7,7 @@ categories: posts
 ---
 
 
-<p><figure><img src="/images/noticias-PH-espanol/PHespanol2017.png" alt=""/><figcaption>
+<p><figure><img src="/images/blog/noticias-PH-espanol/PHespanol2017.png" alt=""/><figcaption>
     Durante el 2017 hemos trabajado para crear una comunidad global de humanidades digitales</figcaption></figure></p>
 
 

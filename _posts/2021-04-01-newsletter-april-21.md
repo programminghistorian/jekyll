@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/ph-banner-4lang.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
+<img src="/images/logos/ph-banner-with-drawing-and-url.png" alt="Banner of PH with the logos of the four journals" title="Programming Historian"/>  
 
 We are already three months and a half into 2021 and it is time to recap on what *Programming Historian* has been working on. No hemos parado de recibir lecciones originales. Nous avons édité la première leçon originale en français.  E continuamos trabalhando muito para trazer mais lições em português.
 

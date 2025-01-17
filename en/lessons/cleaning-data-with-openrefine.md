@@ -30,7 +30,6 @@ doi: 10.46430/phen0023
 
 
 
-
 ## Lesson goals
 
 Don’t take your data at face value. That is the key message of this
@@ -144,7 +143,7 @@ as creating [Linked Data][].
 OpenRefine works on all platforms: Windows, Mac, and Linux. *OpenRefine*
 will open in your browser, but it is important to realise that the
 application is run locally and that your data won't be stored online.
-The data files are archived on the Programming Historian site: as [phm-collection][]. Please download the
+The data files are archived on the Programming Historian site as [phm-collection][]. Please download the
 *phm-collection.tsv* file before continuing.
 
 On the *OpenRefine* start page, create a new project using the
@@ -413,7 +412,7 @@ the case you have made an error.
   [Controlled vocabulary]: http://en.wikipedia.org/wiki/Controlled_vocabulary
   [Linked Data]: http://en.wikipedia.org/wiki/Linked_data
   [Download OpenRefine]: https://openrefine.org/download
-  [phm-collection]: /assets/phm-collection.tsv
+  [phm-collection]: /assets/cleaning-data-with-openrefine/phm-collection.tsv
   [Powerhouse Museum Website]: /images/powerhouseScreenshot.png
   [facet]: http://en.wikipedia.org/wiki/Faceted_search
   [Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png

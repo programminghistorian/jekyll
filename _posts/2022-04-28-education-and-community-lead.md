@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<p><figure><img src="/images/blog/small-owl.png" alt="Drawing of a Bay Owl"/><figcaption>Bay Owl by J. Briois, c.1824. British Library Shelfmark: NHD 47/34</figcaption> </figure></p> 
+<p><figure><img src="/images/blog/education-and-community-lead/small-owl.png" alt="Drawing of a Bay Owl"/><figcaption>Bay Owl by J. Briois, c.1824. British Library Shelfmark: NHD 47/34</figcaption> </figure></p> 
 
 Employer: ProgHist Ltd, publisher of *Programming Historian*  
 Salary: £26,000 (pro rata) + home office budget  
@@ -21,4 +21,4 @@ The *Programming Historian* team is committed to diversity, and we insist on a h
 
 **Closing date for applications is 30 May 2022**
 
-* More information about this role and information about how to apply are available in the [Job Information Pack](/images/blog/Job-Description-Education-and-Community-Lead.pdf).
+* More information about this role and information about how to apply are available in the [Job Information Pack](/images/blog/education-and-community-lead/Job-Description-Education-and-Community-Lead.pdf).

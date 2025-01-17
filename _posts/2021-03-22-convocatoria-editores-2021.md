@@ -7,7 +7,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/printing.png" alt="Image of print."/>
+<img src="/images/blog/convocatoria-editores-2021/printing-machine-drawing.png" alt="Image of print."/>
 
 Programming Historian en español está en la búsqueda de tres personas interesadas en unirse como editores a nuestro equipo. Este rol supone trabajar para hacer accesibles nuestros tutoriales al público hispanohablante, facilitar los procesos de escritura y traducción de tutoriales y actuar como editor/a de los mismos. De igual forma, se espera que apoye nuestras estrategias para construir una comunidad que ayude a aumentar el acceso y la colaboración de Programming Historian en el mundo hispanoparlante.
 

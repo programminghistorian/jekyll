@@ -7,7 +7,7 @@ layout: post
 categories: posts 
 ---
 
-<p><figure><img src="/images/blog/ph-bulletin-banner.png" alt="Banner showing the four Programming Historian logos and the title Bulletin in each language "/><figcaption></figcaption> </figure></p>
+<p><figure><img src="/images/logos/ph-bulletin-banner.png" alt="Banner showing the four Programming Historian logos and the title Bulletin in each language "/><figcaption></figcaption> </figure></p>
 
 # Issue 03 - June 2024
 
@@ -17,7 +17,7 @@ categories: posts
 
 This quarter, we proudly published our 250th lesson! Thank you to our global network of contributors and supporters, whose continued dedication to Diamond Open Access, multilingual Digital Humanities has made it possible for us to achieve this significant milestone.
 
-<p><figure><img src="/images/blog/250-lessons.png" alt="Celebratory graphic announcing the publication of the 250th lesson and detailing the number of lessons that have been published in each language"/><figcaption></figcaption> </figure></p>
+<p><figure><img src="/images/blog/bulletin-issue-03/250-lessons.png" alt="Celebratory graphic announcing the publication of the 250th lesson and detailing the number of lessons that have been published in each language"/><figcaption></figcaption> </figure></p>
 
 ## Outreach & Events
 

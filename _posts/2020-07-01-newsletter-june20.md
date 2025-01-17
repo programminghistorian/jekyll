@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/summer.jpg" alt="A cropped image with the word Summer." caption="Happy Summer to our audience in the northern hemisphere!"/>
+<img src="/images/blog/2020-07-01-newsletter/summer.jpg" alt="A cropped image with the word Summer." caption="Happy Summer to our audience in the northern hemisphere!"/>
 
 We accomplished several goals in the second trimester of 2020: we have a new functionality, DOI numbers, new lessons, new and retiring project team members, and new supporters. We have had over 428,000 visits.
 
@@ -36,7 +36,7 @@ Zoe, together with Matt Lincoln, tried different options but wanted to, ultimate
 
 We are thrilled and honored to announce that [The Edinburgh Centre for Data, Culture & Society (CDCS)](https://www.cdcs.ed.ac.uk) is our newest [Institutional Partner Programme](https://programminghistorian.org/en/support-us#institutional-partner-programme) member! Founded in 2019 as an initiative of the College of Arts, Humanities and Social Sciences at the University of Edinburgh and directed by Professor Melissa Terras, CDCS provides a locus for data-driven and digitally-engaged research across the disciplines and provides training, events and research support to a broad community of researchers. 
 
-<img src="/images/blog/cdcs-uk-logo.png" alt="Logo of The Edinburgh Centre for Data, Culture & Society (CDCS)"/>
+<img src="/images/blog/2020-07-01-newsletter/cdcs-uk-logo.png" alt="Logo of The Edinburgh Centre for Data, Culture & Society (CDCS)"/>
 
 They share: 
 
@@ -126,5 +126,5 @@ To help us make our work more sustainable and to continue being leaders in multi
 
 The *Programming Historian* team wishes all of our readers in the southern hemisphere a happy begining of Winter and a happy Summer to those in the northern hemisphere! Stay safe. 
 
-<img src="/images/blog/winter.jpg" alt="A cropped image with the word Winter." caption="Happy Spring to our audience in the southern hemisphere!"/>
+<img src="/images/blog/2020-07-01-newsletter/winter.jpg" alt="A cropped image with the word Winter." caption="Happy Spring to our audience in the southern hemisphere!"/>
 

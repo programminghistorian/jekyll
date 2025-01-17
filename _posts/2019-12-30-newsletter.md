@@ -9,7 +9,7 @@ categories: posts
 
 
 
-<img src="/images/blog/bees.jpg" alt="A drawing of three bees flying."/>
+<img src="/images/blog/2019-12-30-newsletter/bees.jpg" alt="A drawing of three bees flying."/>
 
 
 *Programming Historian* has been busy! And we have a lot to celebrate and be proud of this year. Overall, the project has expanded in all directions: our audience is up to almost 950,000 unique visitors for all year with 2,232,511 page visits, we had many new collaborators in the three languages, and four editorial members joined the team. Also, we created ProgHist Limited to be able to request funds to expand our project in new directions in the near future. 
@@ -18,7 +18,7 @@ categories: posts
 
 With 80 lessons in English, 44 in Spanish and 5 in French and growing, *Programming Historian* receives visits from all over the world - and it is not an overstatement. Its unique lessons to learn digital methods from a humanistic perspective in open access license makes this posible. 
 
-<img src="/images/blog/map-2019.png" alt="A world map with PH visits."/>
+<img src="/images/blog/2019-12-30-newsletter/map-online-visits-2019.png" alt="A world map with PH visits."/>
 
 Although the English version receives the most visits, from USA and India in particular, for the first time, there are five Spanish-speaking countries in our Top 10 countries that visit us: Spain, Mexico, Colombia, Chile and Argentina. This is indicative of the need of digital humanities materials in different languages and we couldn't be more proud to be the leaders in the field. 
 
@@ -42,7 +42,7 @@ Our French team member Sofia Papastamkou participated in the "[Teaching Digital 
 
 Jennifer Isasi and Antonio Rojas Castro, of the team *en español*, shared our project experience with the Humanidades Digitales Hispánicas community in Toledo, Spain, also in October. They presented "*Programming Historian en español*: De la traducción a la creación de recursos educativos abiertos." This started an important dialogue with this community on, first, the impossibility of only translating materials in English into other languages and, second, the need but also difficulty of generating original resources in Spanish. 
 
-<img src="/images/blog/hdh-isasi.jpeg" alt="A photo of Jennifer Isasi at HDH."/>
+<img src="/images/blog/2019-12-30-newsletter/hdh-isasi.jpeg" alt="A photo of Jennifer Isasi at HDH."/>
 
 ## New Lessons and Updates
 
@@ -74,4 +74,4 @@ The entire *Programming Historian* team wishes all of our readers a Happy New Ye
 
 
 
-<img src="/images/blog/flowers.jpg" alt="A banner of flowers."/>
+<img src="/images/blog/2019-12-30-newsletter/flowers.jpg" alt="A banner of flowers."/>

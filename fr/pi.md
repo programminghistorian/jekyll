@@ -10,7 +10,7 @@ original: ipp
 
 # Partenariat institutionnel
 
-<img src="{{site.baseurl}}/images/supporters-ipp.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/website/ipp/bird-with-eggs-nest.png" class="garnish rounded float-left" />
 
 Nous vous remercions de l'intérêt que vous portez au programme de Partenariat institutionnel, qui constitue le principal soutien aux publications en libre accès primées du Programming Historian. Nous ne pourrions pas faire notre travail sans votre précieux soutien.
 

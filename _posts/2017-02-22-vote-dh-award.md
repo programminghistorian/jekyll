@@ -6,8 +6,8 @@ layout: post
 categories: posts
 ---
 
-<p><figure><a href="/images/vote-dh-award/vote-dh-award.png">
-        <img src="/images/vote-dh-award/vote-dh-award.png" alt=""/></a><figcaption>
+<p><figure><a href="/images/blog/vote-dh-award/vote-dh-award.png">
+        <img src="/images/blog/vote-dh-award/vote-dh-award.png" alt=""/></a><figcaption>
     Please support The Programming Historian in the Digital Humanities Awards.</figcaption></figure></p>
 
 We are delighted to let you know that *The Programming Historian* has been nominated for a Digital Humanities Award for its [eleven new 2016 elssons](/posts/twenty-sixteen-review).

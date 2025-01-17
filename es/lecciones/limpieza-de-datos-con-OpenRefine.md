@@ -74,7 +74,7 @@ Los términos del campo Categorías constituyen lo que llamamos un vocabulario c
 
 ### Comenzando: instalación de OpenRefine e importación de datos
 
-[Descarga *OpenRefine*](https://openrefine.org/download) y sigue las instrucciones de instalación. [*OpenRefine*] funciona en todas las plataformas: Windows, Mac y Linux. [*OpenRefine*] se abrirá en tu navegador, pero es importante señalar que la aplicación se ejecuta localmente y que tus datos no se almacenarán en línea. Los archivos de datos están disponibles [en GitHub](/assets/phm-collection.tsv), que serán los que se utilizarán a lo largo de este tutorial. Descarga el archivo `phm-collection.tsv` antes de continuar.
+[Descarga *OpenRefine*](https://openrefine.org/download) y sigue las instrucciones de instalación. [*OpenRefine*] funciona en todas las plataformas: Windows, Mac y Linux. [*OpenRefine*] se abrirá en tu navegador, pero es importante señalar que la aplicación se ejecuta localmente y que tus datos no se almacenarán en línea. Los archivos de datos están disponibles [en GitHub](/assets/cleaning-data-with-openrefine/phm-collection.tsv), que serán los que se utilizarán a lo largo de este tutorial. Descarga el archivo `phm-collection.tsv` antes de continuar.
 
 >Nota de la traductora: Open Refine se instala por defecto en inglés. Para usarlo en español sólo necesitas cambiar la configuración del lenguaje. Pulsa **Language settings** y se mostrará en la ventana un desplegable donde podrás escoger el español. Pulsa **Change language** y la página te dirá que necesita refrescarse para aplicar los cambios. Haz clic en **Aceptar** y la página y el resto del programa aparecerán en español.
 

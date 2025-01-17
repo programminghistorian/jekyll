@@ -58,7 +58,7 @@ The lesson touches on Regular Expressions, so some readers may find it handy to 
 
 The first step of this process is to take a look at the data that we will be using in the lesson. As mentioned, the data includes biographical details of approximately 6,692 graduates who began study at the University of Oxford in the early seventeenth century.
 
-[The\_Dataset\_-\_Alumni_Oxonienses-Jas1.csv](/assets/The_Dataset_-_Alumni_Oxonienses-Jas1.csv) (1.4MB)
+[The\_Dataset\_-\_Alumni_Oxonienses-Jas1.csv](/assets/extracting-keywords/The_Dataset_-_Alumni_Oxonienses-Jas1.csv) (1.4MB)
 
 {% include figure.html filename="extracting-keywords-1.png" caption="Screenshot of the first forty entries in the dataset" %}
 
@@ -378,7 +378,7 @@ Before you re-run your Python code, you'll have to update your `texts.txt` file 
 
 I'd challenge you to make a few refinements to your gazetteer before moving ahead, just to make sure you have the hang of it.
 
-Once you are happy with that, you can snag my [completed list of English and Welsh counties, shortforms, and various other cities (London, Bristol etc) and places (Jersey, Ireland, etc)](/assets/extracting-keywords-final-gazetteer.txt). My completed list contains 157 entries, and should get you all of the entries that can be extracted from the texts in this collection.
+Once you are happy with that, you can snag my [completed list of English and Welsh counties, shortforms, and various other cities (London, Bristol etc) and places (Jersey, Ireland, etc)](/assets/extracting-keywords/extracting-keywords-final-gazetteer.txt). My completed list contains 157 entries, and should get you all of the entries that can be extracted from the texts in this collection.
 
 At this point you could stop, as you've achieved what you set out to do. This lesson taught you how to use a short Python program to search a fairly large number of texts for a set of keywords defined by you.
 

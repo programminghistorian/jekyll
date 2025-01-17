@@ -147,7 +147,7 @@ Enregistrons maintenant notre document avant d'aller plus loin. Créez un nouvea
 
 Une fois le fichier enregistré, ajoutons-y une illustration. Copiez n'importe quelle image de petite taille dans votre dossier, et ajoutez ceci au corps du texte: `![Légende de l'image](votre_image.jpg)`.
 
-À ce stade, le fichier 'projet.md' devrait ressembler au texte ci-dessous. Vous pouvez télécharger cet exemple de fichier .md [ici](https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/sample.md).
+À ce stade, le fichier 'projet.md' devrait ressembler au texte ci-dessous. Vous pouvez télécharger cet exemple de fichier Markdown depuis le dépot de _Programming Historian_.
 
 ```
 ---

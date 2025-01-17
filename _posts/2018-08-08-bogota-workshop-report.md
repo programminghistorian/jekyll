@@ -7,7 +7,7 @@ layout: post
 categories: posts
 ---
 
-<p><figure><img src="/images/bogota-workshop-report/Bogota1.png" /><figcaption>Group Photograph of workshop participants in Bogota, 2018.</figcaption></figure></p>
+<p><figure><img src="/images/blog/bogota-workshop-report/Bogota1.png" /><figcaption>Group Photograph of workshop participants in Bogota, 2018.</figcaption></figure></p>
 
 (SPANISH TO FOLLOW)
 
@@ -19,7 +19,7 @@ The event comes eighteen months after we launched the Programming Historian en e
 
 Participants were chosen on the basis of their lesson pitch, which ranged from analysing drone photography, to building low-cost digitisation suites, to interpreting network analyses. After three intensive days of writing, we’re pleased to report that our first lessons have slipped into the submission and peer review stream. The remaining participants continue to work hard on their articles, and we look forward to seeing this valuable initiative to bear fruit. We think Silvia Gutiérrez, one of our Mexican participants, summed up the how the group felt about their time in Bogotá:
 
-<p><figure><img src="/images/bogota-workshop-report/Bogota2.png" /><figcaption>Tweet by Silvia Gutiérrez about her time in Bogotá.</figcaption></figure></p>
+<p><figure><img src="/images/blog/bogota-workshop-report/Bogota2.png" /><figcaption>Tweet by Silvia Gutiérrez about her time in Bogotá.</figcaption></figure></p>
 
 Perhaps it’s fitting that the event ended for many of our participants, not on Friday evening as scheduled, but at breakfast the following morning. In true Latin American style, the dancing stretched throughout the night, and a brave few stayed up together to see the sun rise over Bogotá, hoping to stretch out a few extra hours of what become a deep bond between a group that had only recently been strangers. Digital humanities seems to build those bonds so well, and we hope that this proves only the first of many opportunities for Programming Historians to come together and share their knowledge with the world.
 
@@ -38,7 +38,7 @@ El evento tiene lugar dieciocho meses después de que lanzáramos The Programmin
 
 La selección de los participantes se basó en sus propuestas, que abarcaron desde la interpretación de fotografías en aviones teledirigidos hasta el diseño de flujos de digitalización de bajo costo o la interpretación de análisis de redes. Después de tres intensos días de escritura, nos complace informar que nuestras primeras lecciones han sido enviadas y siguen su curso de revisión por pares. Los demás participantes siguen trabajando arduamente en sus artículos, y esperamos que esta valiosa iniciativa dé sus frutos. Silvia Gutiérrez, una de nuestras participantes mexicanas, resumió cómo se sintió el grupo sobre su tiempo en Bogotá:
 
-<p><figure><img src="/images/bogota-workshop-report/Bogota2.png" /><figcaption>Tweet by Silvia Gutiérrez about her time in Bogotá.</figcaption></figure></p>
+<p><figure><img src="/images/blog/bogota-workshop-report/Bogota2.png" /><figcaption>Tweet by Silvia Gutiérrez about her time in Bogotá.</figcaption></figure></p>
 
 Tal vez fue apropiado que el evento terminara para muchos de nuestros participantes, no el viernes por la noche como estaba programado, sino en el desayuno de la mañana siguiente. En un verdadero estilo latinoamericano, el baile se extendió a lo largo de la noche, y unos pocos valientes se quedaron juntos para ver salir el sol sobre Bogotá, con la esperanza de extender unas horas extras lo que se convirtió en un vínculo profundo entre un grupo que sólo unos días antes eran completos desconocidos. Las humanidades digitales parecen construir esos lazos muy bien, y esperamos que esto sea sólo la primera de muchas oportunidades para que los “Programming Historians” se reúnan y compartan sus conocimientos con el mundo.
 

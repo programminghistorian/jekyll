@@ -16,7 +16,7 @@ As of today now you can you dig even deeper, finding the exact lesson to match y
 To use the search feature, go to the lessons page and click on the `Start Searching` button.
 
 <figure>
-  <img src="/images/full-text-search/start_search.png" alt="Initial lesson home page, showing the start search button." title="Initial lesson home page, showing the start search button."/>
+  <img src="/images/blog/full-text-search/start_search.png" alt="Initial lesson home page, showing the start search button." title="Initial lesson home page, showing the start search button."/>
   <figcaption>Initial lesson home page. Click start searching to enter search queries.</figcaption>
 </figure>
 
@@ -25,7 +25,7 @@ To use the search feature, go to the lessons page and click on the `Start Search
 You'll now see a search bar and button. You can enter your search terms and get a list of the relevant  lessons, with the search terms highlighted.
 
 <figure>
-  <img src="/images/full-text-search/search_results.png" alt="Search results displaying highlighted search terms." title="Search results displaying highlighted search terms."/>
+  <img src="/images/blog/full-text-search/search_results.png" alt="Search results displaying highlighted search terms." title="Search results displaying highlighted search terms."/>
   <figcaption>Search results for <em>Twitter</em> and <em>Network</em></figcaption>
 </figure>
 
@@ -34,25 +34,25 @@ You'll now see a search bar and button. You can enter your search terms and get 
 The results are ranked by relevance and you can also filter them using our existing buttons.
 
 <figure>
-  <img src="/images/full-text-search/search_filter.png" alt="Search results displaying highlighted search terms with selected filters." title="Search results displaying highlighted search terms with selected filters."/>
+  <img src="/images/blog/full-text-search/search_filter.png" alt="Search results displaying highlighted search terms with selected filters." title="Search results displaying highlighted search terms with selected filters."/>
   <figcaption>Search results for <em>Twitter</em> and <em>Network</em> with topic <em>Python</em></figcaption>
 </figure>
 
 <br/>
 If you want more information about searching, you can click the information button to get more details about how to use this feature.
 
-<img src="/images/full-text-search/search_info.png" alt="Search info section, displaying additional details on how to search." title="Search info section, displaying additional details on how to search."/>
+<img src="/images/blog/full-text-search/search_info.png" alt="Search info section, displaying additional details on how to search." title="Search info section, displaying additional details on how to search."/>
 
 ## How does the search work?
 
 Behind the scenes, this search feature uses [LunrJS](https://lunrjs.com), a software package for enabling full-text search on static sites.
 <div style="display: flex;">
   <figure>
-    <img src="/images/full-text-search/inverted_index.jpeg" alt="Search info section, displaying additional details on how to search." title="Search info section, displaying additional details on how to search."/>
+    <img src="/images/blog/full-text-search/inverted_index.jpeg" alt="Search info section, displaying additional details on how to search." title="Search info section, displaying additional details on how to search."/>
     <figcaption>Inverted index diagram</figcaption>
   </figure>
   <figure>
-    <img src="/images/full-text-search/book_index.jpg" alt="Search info section, displaying additional details on how to search." title="Search info section, displaying additional details on how to search."/>
+    <img src="/images/blog/full-text-search/book_index.jpg" alt="Search info section, displaying additional details on how to search." title="Search info section, displaying additional details on how to search."/>
     <figcaption>Book index (<a href="https://commons.wikimedia.org/wiki/File:Book_of_Knowledge_1919_Vol_20,_General_Index_Start.jpg">from Wikipedia entry on <em>Book of Knowledge</em></a>)</figcaption>
   </figure>
 </div>

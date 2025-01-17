@@ -26,7 +26,7 @@ Parte del equipo que liderará la versión de PH en portugués también está ya
 
 Como nuestro mánager de finanzas James Baker nos recordó en Twitter, ProgHist Limited cuenta ya con un año de andanza desde que la establecimos como compañía sin ánimo de lucro. Esto nos ha permitido redistribuir parte del trabajo voluntario a trabajo remunerado con el objetivo de tener un proyecto más sostenible a medida que seguimos creciendo. 
 
-<img src="/images/blog/proghist-1-year-tweet.png" alt="Tweet de James Baker: It is the 1 year anniversary of the @ProgHist not-for-profit! We've been humbled by the contributions of the #dhist #digitalhumanities community, both personal and institutional. You enable us to grow, improve, and sustain the Programming Historian"/>
+<img src="/images/blog/2020-10-01-newsletter/proghist-1-year-tweet.png" alt="Tweet de James Baker: It is the 1 year anniversary of the @ProgHist not-for-profit! We've been humbled by the contributions of the #dhist #digitalhumanities community, both personal and institutional. You enable us to grow, improve, and sustain the Programming Historian"/>
 
 ¡Gracias James por hacer este trabajo posible!
 

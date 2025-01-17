@@ -101,10 +101,12 @@ La presentación (o [sintaxis](https://es.wikipedia.org/wiki/Sintaxis)) de las t
 | persona 64183282 | representanteEnElParlamentoUK | "blackburn1955-current" |
 
 La forma tradicional de representar una tripleta en forma de diagrama es:
-{% include figure.html filename="intro-a-datos-enlazados-fig5.png" caption="Manera clásica de representar una tripleta" %}
+
+{% include figure.html filename="es-tr-intro-a-datos-enlazados-01.png" caption="Figura 1. Manera clásica de representar una tripleta." %}
 
 Así que nuestra tripleta de Jack Straw, en una forma más legible para los humanos, podría representarse así:
-{% include figure.html filename="intro-a-datos-enlazados-fig6.png" caption="Diagrama triple que muestra que Jack Straw representó a Blackburn" %}
+
+{% include figure.html filename="es-tr-intro-a-datos-enlazados-02.png" caption="Figura 2. Diagrama triple que muestra que Jack Straw representó a Blackburn." %}
 
 Por ahora hay tres puntos clave que recordar:
 
@@ -311,7 +313,7 @@ Vamos a ejecutar nuestras consultas SPARQL en [DBpedia](https://es.wikipedia.org
 El punto de entrada (*endpoint*) de consulta SPARQL que yo uso se llama [snorql](http://dbpedia.org/snorql/). Estos puntos de entrada a veces parecen desconectarse, por lo que, si ese fuera el caso, busca *dbpedia sparql* en internet para encontrar un reemplazo similar.
 
 Si vas a la URL snorql indicada antes, verás que al principio ya están declarados varios prefijos, lo cual te será útil. También reconocerás ya algunos de los prefijos.
-{% include figure.html filename="intro-to-linked-data-fig1.png" caption="cuadro de consulta predeterminado de snorql, con algunos prefijos declarados para ti" %}
+{% include figure.html filename="en-or-intro-to-linked-data-03.png" caption="Figura 3. Cuadro de consulta predeterminado de snorql, con algunos prefijos declarados para ti." %}
 
 En el cuadro de consulta, debajo de las declaraciones de prefijo, deberías ver:
 
@@ -331,7 +333,7 @@ Comencemos con algo simple para ver cómo funciona esto. Pega esto (o, mejor, es
 
 Haz clic en "Go!"(ir) y, si dejaste el cuadro desplegable como "Browse" (navegar), deberías obtener dos columnas con la etiqueta "b" y "c". (Ten en cuenta que aquí, buscando una cadena, las mayúsculas y minúsculas sí importan: lyndal_roper no te dará ningún resultado).
 
-{% include figure.html filename="intro-to-linked-data-fig2.png" caption="Parte inicial de la lista de resultados de una consulta para todas las tripletas con 'Lyndal_Roper' como sujeto" %}
+{% include figure.html filename="en-or-intro-to-linked-data-04.png" caption="Figura 4. Parte inicial de la lista de resultados de una consulta para todas las tripletas con 'Lyndal_Roper' como sujeto." %}
 
 Recapitulando, ¿qué acaba de pasar? ¿Y cómo sé qué escribir?
 
@@ -359,7 +361,7 @@ He hecho un pequeño cambio aquí. Si esta consulta funciona entonces espero que
 
 Ejecuta la consulta. ¿Te funciona? Yo obtuve una gran lista de historiadores.
 
-{% include figure.html filename="intro-to-linked-data-fig3.png" caption="historiadores, según DBpedia" %}
+{% include figure.html filename="en-or-intro-to-linked-data-05.png" caption="Figura 5. Historiadores, según DBpedia." %}
 
 Así que esto funciona para crear listas, lo cual es útil, pero sería mucho más potente combinar listas, para obtener intersecciones de conjuntos. Encontré un par de cosas más que podrían ser interesantes para consultar en los atributos de DBpedia de Lyndal Roper: <http://dbpedia.org/class/yago/WikicatBritishHistorians> y <http://dbpedia.org/class/yago/WikicatWomenHistorians>. Es muy fácil combinarlos pidiendo una variable que retornará (en nuestro caso, esta es `?name`) y luego usar eso en múltiples líneas de una consulta. Ten en cuenta también el espacio y el punto al final de la primera línea que comienza con `?name`:
 
@@ -372,7 +374,7 @@ Así que esto funciona para crear listas, lo cual es útil, pero sería mucho m�
 
 ¡Funciona! Obtengo cinco resultados. En el momento de escribir, hay cinco historiadoras británicas en *DBpedia*...
 
-{% include figure.html filename="intro-to-linked-data-fig4.png" caption="Historiadoras británicas, según DBpedia" %}
+{% include figure.html filename="en-or-intro-to-linked-data-06.png" caption="Figura 6. Historiadoras británicas, según DBpedia." %}
 
 ¿Solo cinco mujeres británicas historiadoras? Por supuesto que hay, en realidad, muchas más que eso, como podríamos demostrar fácilmente sustituyendo el nombre de, digamos, Alison Weir en nuestra primera consulta de Lyndal Roper. Esto nos lleva al problema con *Dbpedia* que mencioné anteriormente: no está marcado de manera consistente con información estructural del tipo que usa *DBpedia*. Nuestra consulta puede enumerar algunas historiadoras británicas, pero resulta que no podemos usarla para generar una lista significativa de personas en esta categoría. Todo lo que hemos encontrado es la gente en las entradas en Wikipedia que alguien ha decidido categorizar como "Historiador británico" y "mujer historiadora".
 
