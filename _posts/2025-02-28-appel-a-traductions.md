@@ -1,5 +1,5 @@
 ---
-title: Appel à traductions de l'espagnol vers le français&nbsp;: leçons sur la TEI
+title: Appel à traductions de l'espagnol vers le français : leçons sur la TEI
 authors:
 - Marie Flesch
 - Charlotte Chevrie
