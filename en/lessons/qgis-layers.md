@@ -469,7 +469,7 @@ save your work!**
   [PEI Highways]: /assets/qgis-layers/PEI_highway.zip
   [PEI Places]: /assets/qgis-layers/PEI_placenames.zip
   [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
-  [NRCan's website]: http://www.nrcan.gc.ca/earth-sciences/geography-boundary/mapping/topographic-mapping/10272
+  [NRCan's website]: https://perma.cc/B4UW-R4FK
   [Double Stereographic projection]: http://www.gov.pe.ca/gis/index.php3?number=77865&lang=E
   [Tutorial: Working with Projections in QGIS]: http://web.archive.org/web/20180807132308/http://qgis.spatialthoughts.com/2012/04/tutorial-working-with-projections-in.html
   [defined]: http://www.gislounge.com/geodatabases-explored-vector-and-raster-data/

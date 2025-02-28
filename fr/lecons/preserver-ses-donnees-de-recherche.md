@@ -241,7 +241,7 @@ Ces suggestions ne font qu'offrir quelques pistes que les chercheurs et les cher
 
 Ashton, Neil, 'Seven deadly sins of data publication', School of Data
 blog (17 octobre 2013)
-<http://schoolofdata.org/2013/10/17/seven-deadly-sins-of-data-publication/>
+<https://archive.schoolofdata.org/2013/10/17/seven-deadly-sins-of-data-publication/>
 
 Hitchcock, Tim, 'Judging a book by its URLs', Historyonics blog (3
 janvier 2014)
