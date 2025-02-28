@@ -32,9 +32,9 @@ Les meilleures leçons s'appuient sur des jeux de données authentiques ainsi qu
 Nos leçons s'adressent aux chercheur·es en sciences humaines et sociales, ainsi qu'à des autodidactes ayant d'autres centres d'intérêt. Nous encourageons nos auteurs·es à écrire comme s'ils expliquaient leur méthode à un·e collègue ou à un pair, afin de rendre les leçons aussi accessibles que possible.
 
 
-## Questions
+## Contact
 
-Si vous souhaitez nous poser des questions, veuillez écrire à la rédactrice en chef de _Programming Historian en français_, [Marie Flesch](mailto:francais@programminghistorian.org).
+Pour nous envoyer une proposition ou simplement nous poser une question, veuillez écrire à la rédactrice en chef de _Programming Historian en français_, [Marie Flesch](mailto:francais@programminghistorian.org).
 
 ## À propos de _Programming Historian_
 
