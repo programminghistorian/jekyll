@@ -415,7 +415,7 @@ Afinal, o objetivo deste guia é fazer pesquisas históricas que geram dados mai
 
 Ashton, Neil, 'Seven deadly sins of data publication', School of Data
 blog (17 outubro 2013)
-<http://schoolofdata.org/2013/10/17/seven-deadly-sins-of-data-publication/>
+<https://archive.schoolofdata.org/2013/10/17/seven-deadly-sins-of-data-publication/>
 
 Hitchcock, Tim, 'Judging a book by its URLs', Historyonics blog (3
 janeiro 2014)
