@@ -25,7 +25,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/565
 difficulty: 2
 activity: transforming
 topics: [mapping]
-abstract: Aprenda a usar o QGIS para converter listas de nomes de lugares em coordenadas geográficas, permitindo que você os mapeie.
+abstract: Aprenda a usar o QGIS para converter listas de nomes de lugares em coordenadas geográficas, permitindo que os mapeie.
 avatar_alt: Um jovem beijando uma jovem na bochecha
 doi: 10.46430/phpt0051
 ---
@@ -130,7 +130,7 @@ Existe uma diferença importante entre Sistemas de Coordenadas Geográficas, que
 *  Clique no botão _Adicionar Camada Vetorial_ (remete a uma linha de gráfico), na barra de ferramentas Administrar Camadas, e então em _Explorar_ para selecionar e adicionar o shapefile `UKDefinitionA.shp` da pasta extraída.
 
 
-{% include figure.html filename="pt-tr-geocodificando-qgis-01.png" alt=" Janela do Gerenciador de Fonte de Dados - Vetor." %}
+{% include figure.html filename="pt-tr-geocodificando-qgis-01.png" alt="Janela do Gerenciador de Fonte de Dados - Vetor." %}
 
 Deve ser possível visualizar um mapa base dos condados britânicos numa cor aleatória. Se clicar com o botão direito do mouse no título dessa camada no Painel de Camadas (no canto inferior esquerdo), poderá selecionar _Abrir Tabela de Atributos_ para visualizar as propriedades da base de dados associada a cada feição do mapa. Perceba que o nome de cada condado está nomeado de três maneiras diferentes, a mais completa estando na coluna intitulada **NAME**, bem como duas colunas de identificação. Agora precisamos juntar isso aos dados dos ex-alunos que queremos mapear, utilizando o fato de que os atributos na coluna **NAME** são os mesmos que aqueles numa das colunas da nossa folha de cálculo (devem ser exatamente o mesmo para funcionar).
 
