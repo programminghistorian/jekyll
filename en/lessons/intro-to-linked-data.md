@@ -8,6 +8,8 @@ reviewers:
 editors:
 - Adam Crymble
 date: 2017-05-07
+lesson-testers: David Valentine
+tested_date: 2025-02-28
 layout: lesson
 difficulty: 1
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/33
