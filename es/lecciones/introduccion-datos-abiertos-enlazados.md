@@ -213,15 +213,15 @@ Turtle usa alias o atajos conocidos como [prefijos](https://www.w3.org/TeamSubmi
 
 No queremos escribir esto cada vez que nos referimos a esta persona (Jack Straw, como recordarás). Entonces sólo tenemos que anunciar nuestro atajo:
 
-    @prefix toby: <http://data.history.ac.uk/tobias-project/person> .
+    @prefix toby: <http://data.history.ac.uk/tobias-project/person/> .
 
 Así, Jack es `toby:15601`, que reemplaza el URI largo y es más fácil de leer. He elegido 'toby', pero podría haber elegido cualquier cadena de letras con la misma facilidad.
 
 Pasemos ahora de Jack Straw a William Shakespeare y usemos Turtle para describir algunos elementos sobre sus obras. Tendremos que decidir qué archivos de autoridad usar, un proceso que, como se mencionó anteriormente, se optimiza si consultamos otros conjuntos de LOD. Aquí usaremos [Dublin Core](https://es.wikipedia.org/wiki/Dublin_Core), un estándar de [metadatos](https://es.wikipedia.org/wiki/Metadato) usado por las bibliotecas, como uno de nuestros prefijos, el archivo de autoridad del [Número de control de la Biblioteca del Congreso](https://es.wikipedia.org/wiki/Library_of_Congress_Control_Number) para otro, y el último (VIAF) debería serte familiar. En conjunto, estos tres archivos de autoridad proporcionan identificadores únicos para todas las entidades que planeo usar en este ejemplo:
 
-    @prefix lccn: <http://id.loc.gov/authorities/names> .
+    @prefix lccn: <http://id.loc.gov/authorities/names/> .
     @prefix dc: <http://purl.org/dc/elements/1.1/> .
-    @prefix viaf: <http://viaf.org/viaf> .
+    @prefix viaf: <http://viaf.org/viaf/> .
 
     lccn:n82011242 dc:creator viaf:96994048 .
 
@@ -231,9 +231,9 @@ En el ejemplo anterior, lccn: n82011242 representa a Macbeth; dc: creator vincul
 
 Turtle también te permite listar tripletas sin molestarte en repetir cada URI cuando acabas de usarlo. Agreguemos la fecha en la que los expertos creen que Macbeth fue escrita utilizando el par atributo-valor de Dublin Core:`dc: created 'YYYY'` :
 
-    @prefix lccn: <http://id.loc.gov/authorities/names> .
+    @prefix lccn: <http://id.loc.gov/authorities/names/> .
     @prefix dc: <http://purl.org/dc/elements/1.1/> .
-    @prefix viaf: <http://viaf.org/viaf> .
+    @prefix viaf: <http://viaf.org/viaf/> .
     lccn: n82011242   dc: creator   viaf: 96994048 ;
             dc: created   "1606"   .
 
@@ -304,11 +304,11 @@ Si estás familiarizado con XML, esto será muy fácil para ti. Si no lo estás,
 
 Para esta sección final, interrogaremos algunos LOD y veremos qué podemos hacer con ellos.
 
-El lenguaje de consulta que utilizamos para los LOD se llama [SPARQL](https://es.wikipedia.org/wiki/SPARQL). Es uno de esos acrónimos recursivos amados por los tecnólogos: *Protocolo y lenguaje de consulta SPARQL* .
+El lenguaje de consulta que utilizamos para los LOD se llama [SPARQL](https://es.wikipedia.org/wiki/SPARQL). Es uno de esos acrónimos recursivos amados por los tecnólogos: *Protocolo SPARQL y lenguaje de consulta RDF*.
 
 Como mencioné al principio, *The Programming Historian en español* tiene [una lección completa](/es/lecciones/sparql-datos-abiertos-enlazados), por Matthew Lincoln, sobre el uso de SPARQL. Esta última sección sólo proporciona una descripción general de los conceptos básicos y, si SPARQL despierta tu interés, puedes obtener una base sólida con el tutorial de Lincoln.
 
-Vamos a ejecutar nuestras consultas SPARQL en [DBpedia](https://es.wikipedia.org/wiki/SPARQL), que es un gran conjunto de LOD derivado de Wikipedia. Además de estar lleno de información que es muy difícil de encontrar a través de la interfaz habitual de Wikipedia, tiene varios "puntos finales" SPARQL: interfaces donde puedes escribir consultas SPARQL y obtener resultados de las tripletas de DBpedia.
+Vamos a ejecutar nuestras consultas SPARQL en [DBpedia](https://en.wikipedia.org/wiki/DBpedia), que es un gran conjunto de LOD derivado de Wikipedia. Además de estar lleno de información que es muy difícil de encontrar a través de la interfaz habitual de Wikipedia, tiene varios "puntos finales" SPARQL: interfaces donde puedes escribir consultas SPARQL y obtener resultados de las tripletas de DBpedia.
 
 El punto de entrada (*endpoint*) de consulta SPARQL que yo uso se llama [snorql](http://dbpedia.org/snorql/). Estos puntos de entrada a veces parecen desconectarse, por lo que, si ese fuera el caso, busca *dbpedia sparql* en internet para encontrar un reemplazo similar.
 
@@ -331,7 +331,7 @@ Comencemos con algo simple para ver cómo funciona esto. Pega esto (o, mejor, es
     :Lyndal_Roper ?b ?c
     }
 
-Haz clic en "Go!"(ir) y, si dejaste el cuadro desplegable como "Browse" (navegar), deberías obtener dos columnas con la etiqueta "b" y "c". (Ten en cuenta que aquí, buscando una cadena, las mayúsculas y minúsculas sí importan: lyndal_roper no te dará ningún resultado).
+Haz clic en "Go!"(ir) y, si dejaste el cuadro desplegable como "Browse" (navegar), deberías obtener dos columnas con la etiqueta "b" y "c". (Ten en cuenta que aquí, las mayúsculas y minúsculas sí importan: lyndal_roper no te dará ningún resultado).
 
 {% include figure.html filename="en-or-intro-to-linked-data-04.png" caption="Figura 4. Parte inicial de la lista de resultados de una consulta para todas las tripletas con 'Lyndal_Roper' como sujeto." %}
 
@@ -339,7 +339,7 @@ Recapitulando, ¿qué acaba de pasar? ¿Y cómo sé qué escribir?
 
 En realidad no lo sabía y ese es uno de los problemas con los puntos de entrada SPARQL. Al conocer un conjunto de datos, debes probar y descubrir qué términos se usan. Como este proviene de Wikipedia y me interesaba saber qué información sobre historiadores podía encontrar, fui a la página de Wikipedia del historiador [Lyndal Roper](https://en.wikipedia.org/wiki/Lyndal_Roper).
 
-La parte al final de la URL es `Lyndal_Roper` y llegué a la conclusión de que esta cadena es probablemente la forma en que se hace referencia a Roper en DBpedia. Como no sé qué más podría haber en las tripletas que mencionen a Roper, usé `?a` y `?b`. Estos son comodines: podría haber escrito igualmente  `?en_cualquier_sitio` y `?como_gustes` y las columnas tendrían esos títulos. Cuando desees ser más preciso sobre lo que estás  obteniendo, será más importante etiquetar las columnas de forma significativa.
+La parte al final de la URL es `Lyndal_Roper` y llegué a la conclusión de que esta cadena es probablemente la forma en que se hace referencia a Roper en DBpedia. Como no sé qué más podría haber en las tripletas que mencionen a Roper, usé `?b` y `?c`. Estos son comodines: podría haber escrito igualmente  `?en_cualquier_sitio` y `?como_gustes` y las columnas tendrían esos títulos. Cuando desees ser más preciso sobre lo que estás  obteniendo, será más importante etiquetar las columnas de forma significativa.
 
 Prueba ahora tu propia consulta SPARQL ahora: elije una página de Wikipedia y copia la parte final de la URL, lo que aparece después de la barra diagonal final, y colócalo en lugar de Lyndal_Roper. Luego presiona 'Go!'.
 
