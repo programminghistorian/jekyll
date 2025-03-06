@@ -16,6 +16,8 @@ translation-editor:
 translation-reviewer:
 - Maria Jose Afanador
 - Antonio Rojas Castro
+lesson-testers: David Valentine
+tested_date: 2025-02-28
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/142
 original: intro-to-linked-data
 layout: lesson
