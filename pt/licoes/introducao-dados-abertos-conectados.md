@@ -20,6 +20,8 @@ translation-editor:
 translation-reviewer:
 - Bruno Almeida 
 - Daniel Bonatto Seco
+lesson-testers: David Valentine
+tested_date: 2025-02-28
 difficulty: 1
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/428
 activity: acquiring
