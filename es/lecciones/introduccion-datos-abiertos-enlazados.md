@@ -310,7 +310,7 @@ El lenguaje de consulta que utilizamos para los LOD se llama [SPARQL](https://es
 
 Como mencioné al principio, *The Programming Historian en español* tiene [una lección completa](/es/lecciones/sparql-datos-abiertos-enlazados), por Matthew Lincoln, sobre el uso de SPARQL. Esta última sección sólo proporciona una descripción general de los conceptos básicos y, si SPARQL despierta tu interés, puedes obtener una base sólida con el tutorial de Lincoln.
 
-Vamos a ejecutar nuestras consultas SPARQL en [DBpedia](https://en.wikipedia.org/wiki/DBpedia), que es un gran conjunto de LOD derivado de Wikipedia. Además de estar lleno de información que es muy difícil de encontrar a través de la interfaz habitual de Wikipedia, tiene varios "puntos finales" SPARQL: interfaces donde puedes escribir consultas SPARQL y obtener resultados de las tripletas de DBpedia.
+Vamos a ejecutar nuestras consultas SPARQL en [DBpedia](https://es.wikipedia.org/wiki/DBpedia), que es un gran conjunto de LOD derivado de Wikipedia. Además de estar lleno de información que es muy difícil de encontrar a través de la interfaz habitual de Wikipedia, tiene varios "puntos finales" SPARQL: interfaces donde puedes escribir consultas SPARQL y obtener resultados de las tripletas de DBpedia.
 
 El punto de entrada (*endpoint*) de consulta SPARQL que yo uso se llama [snorql](http://dbpedia.org/snorql/). Estos puntos de entrada a veces parecen desconectarse, por lo que, si ese fuera el caso, busca *dbpedia sparql* en internet para encontrar un reemplazo similar.
 
