@@ -10,7 +10,7 @@ authors:
 - Grant Wythoff
 lesson-testers: 
 - Pao-Chuan Ma
-tested-date: 2021-06-10
+tested_date: 2021-06-10
 editors:
 - Fred Gibbs
 translator: 
