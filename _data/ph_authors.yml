@@ -115,6 +115,7 @@
   email: mj.afanador28@uniandes.edu.co
   twitter: mariajoafana
   github: mariajoafana
+  orcid: 0000-0003-2652-5799
   team: true
   team_start: 2016
   institution: Universidad de los Andes, Colombia
@@ -130,13 +131,9 @@
       Universidad de los Andes, Colômbia.
   bio:
     en: |
-      Maria José Afanador-Llach is an assistant professor of Digital Humanities and History at the Universidad de los Andes, Bogotá (Colombia).
+      Maria José Afanador-Llach is an associate professor of Digital Humanities at the School of Arts and Humanities at the Universidad de los Andes, Bogotá (Colombia).
     es: |
       Maria José Afanador-Llach es profesora asistente de humanidades digitales e historia en la Universidad de los Andes, Bogotá (Colombia).
-    fr: |
-      Maria José Afanador-Llach est maître de conférences en Humanités numériques et histoire à l'Université de los Andes, (Bogota, Colombie).
-    pt: |
-      Maria José Afanador-Llach é professora assistente de Humanidades Digitais e História na Universidad de los Andes, Bogotá (Colômbia).
   team_roles:
     - spanish
     - editorial
@@ -1835,30 +1832,25 @@
 - name: Joana Vieira Paulino
   twitter:
   email: jpaulino@fcsh.unl.pt
-  url:
+  orcid: 0000-0002-9433-2799
   github: joanacvp
   team: true
   team_start: 2020
-  institution: Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa
+  institution: Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH)
   sortname: Paulino
   affiliation:
     en: |
-        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
     pt: |
-        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
     es: |
-        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
     fr: |
-        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
   bio:
     en: |
-        Joana Vieira Paulino holds a PhD in History, with a specialization in Contemporary History, from Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal. She is a researcher in the Digital Humanities Lab and the Institute for Contemporary History from the same institution.
+        Joana Vieira Paulino is a Junior Researcher (2023.05849.CEECIND) at the Institute of Contemporary History of the Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH) in Lisbon, Portugal. 
     pt: |
-        Joana Vieira Paulino é doutora em História, com especialização em História Contemporânea, pela Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal. É investigadora no Laboratório de Humanidades Digitais e no Instituto de História Contemporânea da mesma instituição.
-    es: |
-        Joana Vieira Paulino es doctora en Historia, con especialización en Historia Contemporánea, por la Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal. Es investigadora del Laboratorio de Humanidades Digitales y del Instituto de Historia Contemporánea de la misma institución.
-    fr: |
-        Joana Vieira Paulino a un doctorat en histoire, avec une spécialisation en Histoire Contemporaine, de Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.  Elle est une chercheur au Laboratoire des Humanités Numériques et au Institute d'Histoire Contemporaine de la même instituition.
   team_roles:
     - portuguese
     - editorial
@@ -1946,28 +1938,23 @@
   email: jimmy.medeiros@fgv.br
   url: "https://cpdoc.fgv.br/equipe/JimmyMedeiros"
   github: JimmyMedeiros82
+  orcid: 0000-0002-8280-3338
   team: true
   team_start: 2020
-  institution: Fundação Getulio Vargas
+  institution: Fundação Getulio Vargas (FGV)
   sortname: Medeiros
   affiliation:
     en: |
-        Fundação Getulio Vargas, Brasil.
+        Fundação Getulio Vargas (FGV), Brazil.
     pt: |
-        Fundação Getulio Vargas, Brasil.
+        Fundação Getulio Vargas (FGV), Brasil.
     es: |
-        Fundación Getulio Vargas, Brasil.
+        Fundación Getulio Vargas (FGV), Brasil.
     fr: |
-        Fundação Getulio Vargas, Brasil.
+        Fundação Getulio Vargas (FGV), Brésil.
   bio:
     en: |
-        Jimmy Medeiros holds a PhD in Public Policy, Strategy and Development from UFRJ, Researcher at the School of Social Sciences FGV CPDOC and teaches at the Post-Graduation in History, Politics and Cultural Property at FGV and at the undergraduate course in Social Sciences at FGV.
-    pt: |
-        Jimmy Medeiros é doutor em Políticas Públicas, Estratégia e Desenvlvimento pela UFRJ, Pesquisador Pleno na Escola de Ciências Sociais FGV CPDOC e professor no Porgrama de Pós-graduação em História, Política e Bens Culturais da FGV e no curso de graduação em Ciências Sociais da FGV.
-    es: |
-        Jimmy Medeiros es Doctor en Políticas Públicas, Estrategia y Desarrollo de la UFRJ, Investigador de la Facultad de Ciencias Sociales FGV CPDOC y profesor del Programa de Posgrado en Historia, Política y Bienes Culturales de la FGV y de grado en Ciencias Sociales de la FGV.
-    fr: |
-        Jimmy Medeiros est docteur en politique publique, stratégie et développement de l'UFRJ, chercheur titulaire à l'École des sciences sociales FGV CPDOC. Il enseigne dans le programme d'études supérieures en histoire, politique et biens culturels à la FGV, et les sciences sociales en premier cycle à la FGV.
+      Jimmy Medeiros is Adjunct Professor at Fundação Getulio Vargas (FGV) CPDOC, Rio de Janeiro, Brazil.
   team_roles:
     - portuguese
     - editorial
@@ -2899,18 +2886,20 @@
   sortname: Valentine
   affiliation:
     en: |
-      Université de Montréal, Canada
+      Ouvroir d’histoire de l’art et de muséologie numériques, Université de Montréal, Canada
     pt: |
-      Université de Montréal, Canadá
+      Ouvroir d’histoire de l’art et de muséologie numériques, Université de Montréal, Canadá
     es: |
-      Université de Montréal, Canadá
+      Ouvroir d’histoire de l’art et de muséologie numériques, Université de Montréal, Canadá
     fr: |
-      Université de Montréal, Canada
+      Ouvroir d’histoire de l’art et de muséologie numériques, Université de Montréal, Canada
   team_roles:
     - french
     - editorial
   status: volunteer
   bio:
+    en: |
+      David Valentine is a PhD candidate at the École de bibliothéconomie et des sciences de l'information (EBSI) at Université de Montréal in Montreal, Canada.
     fr: |
       
 - name: Émilien Schultz
