@@ -1461,8 +1461,9 @@
 
 - name: Joshua G. Ortiz Baco
   twitter: jgob
-  email: joshuaortizbaco@utexas.edu
+  email: joshuaortizbaco@gmail.com
   github: joshuagob
+  orcid: 0000-0002-9723-4262
   team: true
   team_start: 2019
   institution: University of Tennessee, Knoxville
@@ -1477,14 +1478,8 @@
     pt: |
       University of Tennessee, Knoxville, Estados Unidos.
   bio:
-    en: |
-      Joshua G. Ortiz Baco is Assistant Professor at the University of Tennessee, Knoxville.
     es: |
-      Joshua G. Ortiz Baco es Profesor Asistente en la Universidad de Tennessee, Knoxville.
-    fr: |
-      Joshua G. Ortiz Baco est professeur adjoint á l'Université de Tennessee, Knoxville.
-    pt: |
-      Joshua G. Ortiz Baco é Professor Auxiliar na University do Tennessee, Knoxville.
+      Joshua Ortiz Baco es bibliotecario de investigaciones digitales y profesor asistente en la Universidad de Tennessee, Knoxville.      
   team_roles:
     - spanish
     - editorial
@@ -1659,19 +1654,21 @@
 
 - name: Josir Cardoso Gomes
   team: true
+  email: josircg@gmail.com
+  github: josircg
   orcid: 0000-0001-7629-1404
   affiliation:
     en: |
-      IBICT/UFRJ, Rio de Janeiro, Brazil
+      FGV and IBICT, Rio de Janeiro, Brazil
     pt: |
-      IBICT/UFRJ, Rio de Janeiro, Brasil
+      FGV e IBICT, Rio de Janeiro, Brasil
     es: |
-      IBICT/UFRJ, Río de Janeiro, Brasil
+      FGV y IBICT, Río de Janeiro, Brasil
     fr: |
-      IBICT/UFRJ, Rio de Janeiro, Brésil
+      FGV et IBICT, Rio de Janeiro, Brésil
   bio:
     en: |
-      Josir Gomes is a PhD student in Information Science at PPGCI/IBICT/UFRJ. Graduated in Computer Science. Information Systems Developer, acting mainly with relational databases, data mining and free software.
+      Josir Gomes is a teacher at ECMI/FGV and a researcher at IBICT in Rio de Janeiro, Brazil.
     pt: |
       Josir Gomes é Doutorando em Ciência da Informação no PPGCI/IBICT/UFRJ. Graduado em Processamento de Dados e especialista em Sistemas de Informação, Banco de Dados Relacionais, Mineração de Dados e Software Livre.
     es: |
@@ -1978,23 +1975,23 @@
 
 - name: Matthias Gille Levenson
   twitter:
-  email: matthias.gille-levenson@casadevelazquez.org
+  email: matthias.gille-levenson@ens-lyon.fr
   url: "https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html"
   orcid: 0000-0001-9488-5986
   github: matgille
   team: true
   team_start: 2021
-  institution: ENS Lyon / Casa de Velázquez
+  institution: Aix-Marseille Université / École Normale Supérieure de Lyon
   sortname: Gille
   affiliation:
     en: |
-        École Normale Supérieure de Lyon, France / Casa de Velázquez, Spain.
+        École Normale Supérieure de Lyon, France / Aix-Marseille Université, France.
     pt: |
-        École Normale Supérieure de Lyon, França / Casa de Velázquez, Espanha.
+        École Normale Supérieure de Lyon, França / Aix-Marseille Université, França.
     es: |
-        École Normale Supérieure de Lyon, Francia / Casa de Velázquez, España.
+        École Normale Supérieure de Lyon, Francia / Aix-Marseille Université, Francia.
     fr: |
-        École Normale Supérieure de Lyon, France / Casa de Velázquez, Espagne.
+        École Normale Supérieure de Lyon, France / Aix-Marseille Université, France.
   bio:
     en: |
         Matthias Gille Levenson is a PhD candidate in medieval castilian philology at the École Normale Supérieure de Lyon. He is currently a scientific member of the Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques in Madrid.
@@ -2222,7 +2219,7 @@
     en: |
       Nicolás Vaughan is an associate professor of medieval literature and digital humanities at the Universidad de los Andes, Bogotá (Colombia).
     es: |
-      Nicolás Vaughan es profesor asociado del Departamento de Humanidades y Literatura de la Universidad de los Andes, en Bogotá, Colombia, donde también enseña en la Maestría en Humanidades Digitales. Es doctor en filosofía medieval de la Universidad de Oxford.
+      Nicolás Vaughan es profesor asociado del Departamento de Humanidades y Literatura de la Universidad de los Andes, Bogotá (Colombia).
     fr: |
       Nicolás Vaughan est professeur associé de littérature médiévale et d'humanités numériques à l'Universidad de los Andes, Bogotá (Colombie).
     pt: |
@@ -2609,14 +2606,7 @@
       Northeastern University, Estados Unidos
   bio:
     en: |
-      Giulia Taurino is a Postdoctoral Researcher at The Institute for Experiential AI (Northeastern University, Khoury College of Computer Science / Roux Institute), where she works on the development of AI toolkits for media research in collaboration with the NULab for Texts, Maps, and Networks and MIT Data + Feminism Lab.
-    es: |
-      Giulia Taurino es investigadora postdoctoral en el Instituto para IA Experencial (Northeastern University, Khoury College of Computer Science / Roux Institute), donde trabaja en el desarrollo de herramientas de IA para la investigación de los medios en colaboración con el NULab for Texts, Maps, and Networks and MIT Data + Feminism Lab.
-    fr: |
-      Giulia Taurino est chercheuse postdoctorale à l'institut pour l'IA expérimentale à l'université Northeastern (Khoury College of Computer Science / Roux Institute), où elle travaille sur le développement de dispositifs en IA appliqués à la recherche en études de médias, en collaboration avec les labs NULab for Texts, Maps, and Networks et MIT Data + Feminism Lab.
-    pt: |
-      Giulia Taurino é pesquisadora de pós-doutoramento no The Institute for Experiential AI (Universidade de Northeastern, Khoury College of Computer Science / Roux Institute), onde trabalha no desenvolvimento de kits de ferramentas de IA para pesquisa de media em colaboração com o NULab for Texts, Maps, and Networks e o MIT Data + Feminism Lab.
-
+      Giulia Taurino is Project Coordinator at the Northeastern University Library in Boston, US.
   team_roles:
     - english
     - editorial
@@ -2838,17 +2828,17 @@
   orcid: 0000-0003-4837-0564
   team: true
   team_start: 2023
-  institution: MSH Mondes (Maison des Sciences de l'Homme Mondes)
+  institution: Centre d’étude de la langue et des littératures françaises (CELLF UMR 8599 – CNRS/Sorbonne Université)
   sortname: Mathelier
   affiliation:
     en: |
-      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), France
+      Centre d’étude de la langue et des littératures françaises (CELLF UMR 8599 – CNRS/Sorbonne Université), France
     es: |
-      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), Francia
+      Centre d’étude de la langue et des littératures françaises (CELLF UMR 8599 – CNRS/Sorbonne Université), Francia
     fr: |
-      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), France
+      Centre d’étude de la langue et des littératures françaises (CELLF UMR 8599 – CNRS/Sorbonne Université), France
     pt: |
-      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), França
+      Centre d’étude de la langue et des littératures françaises (CELLF UMR 8599 – CNRS/Sorbonne Université), França
   team_roles:
     - french
     - editorial
@@ -2881,7 +2871,7 @@
   status: institutionally-supported  
   bio:
     fr: |
-      Alexandre Wauthier est ingénieur d'études au Centre national de la recherche scientifique française (CNRS). Il est chargé du traitement des donnnées scientifiques et bibliothécaire à l'Humathèque du Campus Condorcet.
+      Alexandre Wauthier est ingénieur d'études chargé d'accompagnement de projets numériques à l'Humathèque, Campus Condorcet-CNRS, Aubervilliers, France.
 
 - name: Ricardo Campos
   orcid: 0000-0002-8767-8126
@@ -2924,30 +2914,31 @@
     fr: |
       
 - name: Émilien Schultz
-  email: emilien.schultz@sciencespo.fr
+  email: emilien.schultz@ensae.fr
   github: emilienschultz
   twitter: emilienschultz
   mastodon: 
   orcid: 0000-0002-6215-3606
   team: true
   team_start: 2023
-  institution: Sciences Po
+  institution: CREST, ENSAE
   sortname: Schultz
   affiliation:
     en: |
-      Sciences Po, France
+      CREST, ENSAE, France
     pt: |
-      Sciences Po, França
+      CREST, ENSAE, França
     es: |
-      Sciences Po, Francia
+      CREST, ENSAE, Francia
     fr: |
-      Sciences Po, France
+      CREST, ENSAE, France
   team_roles:
     - french
     - editorial
   status: volunteer
   bio:
     fr: |
+      Emilien Schultz is research engineer in CREST at ENSAE in Palaiseau (South of Paris), France
 
 - name: Sergio Rodríguez Gómez
   orcid: 0000-0002-1631-4747
@@ -3065,7 +3056,7 @@
       École française d’Athènes, Grécia
   bio:
     fr: |
-      Agustín Cosovschi est membre scientifique de l'École française d’Athènes, et chercheur associé au CETOBaC (Centre d’Études Turques, Ottomanes, Balkaniques et Centrasiatiques) à Paris.
+      Agustín Cosovschi est membre scientifique de l'École française d’Athènes, en Grèce.
   team_roles:
     - english
     - editorial
@@ -3078,7 +3069,7 @@
   twitter: maxcarlons
   team: true
   team_start: 2024
-  institution: Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische Akademie der Wissenschaften
+  institution: Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH), Österreichische Akademie der Wissenschaften
   sortname: Carloni
   affiliation:
     en: |
@@ -3089,10 +3080,14 @@
       ACDH-CH, Österreichische Akademie der Wissenschaften, Autriche
     pt: |
       ACDH-CH, Österreichische Akademie der Wissenschaften, Áustria
+  bio:
+    en: |
+      Massimiliano Carloni is a Research Data Engineer in the Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH) at the Österreichische Akademie der Wissenschaften in Vienna, Austria.
   team_roles:
     - english
     - editorial
   status: volunteer
+  
 
 - name: Laura Alice Chapot
   orcid: 0000-0001-8334-4308
@@ -3111,6 +3106,9 @@
       Dartmouth College, États-Unis
     pt: |
       Dartmouth College, Estados Unidos
+  bio:
+    en: |
+      Laura Alice Chapot is a Visiting Scholar in Comparative Literature at the Neukom Institute of Computational Science at Dartmouth College in Hanover, NH, USA. 
   team_roles:
     - english
     - editorial
@@ -3122,17 +3120,20 @@
   email: caiomellodh@gmail.com
   team: true
   team_start: 2024
-  institution: School of Advanced Study, University of London
+  institution: Luxembourg Centre for Contemporary and Digital History (C²DH)
   sortname: Mello
   affiliation:
     en: |
-      School of Advanced Study, University of London, UK
+      Luxembourg Centre for Contemporary and Digital History (C²DH), Luxembourg
     es: |
-      School of Advanced Study, University of London, Reino Unido
+      Luxembourg Centre for Contemporary and Digital History (C²DH), Luxemburgo
     fr: |
-      School of Advanced Study, University of London, Royaume-Uni
+      Luxembourg Centre for Contemporary and Digital History (C²DH), Luxembourg
     pt: |
-      School of Advanced Study, University of London, Reino Unido
+      Luxembourg Centre for Contemporary and Digital History (C²DH), Luxemburgo
+  bio:
+    en: |
+      Caio Mello is a Postdoctoral Researcher in Computational Humanities/Digital History at the Luxembourg Centre for Contemporary and Digital History (C²DH) in Esch-sur-Alzette, Luxembourg.
   team_roles:
     - english
     - editorial
