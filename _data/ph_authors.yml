@@ -1100,8 +1100,9 @@
   twitter: jamotilla
   email: jamotilla@gmail.com
   github: jamotilla
-  team: true
+  team: false
   team_start: 2018
+  team_end: 2025
   institution: Universidad Autónoma de San Luis Potosi
   sortname: Motilla
   affiliation:
@@ -1398,8 +1399,6 @@
     pt: |
       Zoe LeBlanc é desenvolvedora especialista em Humanidades Digitais no Scholar's Lab da University of Virginia.
   team_roles:
-    - editorial
-    - english
     - technical-lead
     - proghist
   status: volunteer
@@ -1803,8 +1802,9 @@
   email: daniellesanches@fcsh.unl.pt
   url: "https://dhlab.unl.pt/"
   github: daniellesanchesDH
-  team: true
+  team: false
   team_start: 2020
+  team_end: 2025
   institution: Fundação Getulio Vargas
   sortname: Sanches
   affiliation:
@@ -2496,8 +2496,9 @@
 
 
 - name: Scott Kleinman
-  team: true
+  team: false
   team_start: 2022
+  team_end: 2025
   institution: California State University, Northridge
   github: scottkleinman
   email: scott.kleinman@csun.edu
@@ -2529,8 +2530,9 @@
   status: volunteer
 
 - name: John R. Ladd
-  team: true
+  team: false
   team_start: 2022
+  team_end: 2025
   institution: Denison University
   github: jrladd
   email: hello@jrladd.com
