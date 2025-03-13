@@ -191,7 +191,7 @@ O interessante vem a seguir nas linhas três e dezesseis que contêm, respectiva
 
 Vejamos agora em que consistem estes dois elementos.
 
-## O elemento <teiHeader>
+## O elemento \<teiHeader\>
 
 Todos os metadados do documento estão codificados no elemento `<teiHeader>`: o título, autoras ou autores, onde, quando e como foi publicado, a sua fonte, de onde a fonte foi retirada, e assim por diante. É comum que as pessoas que começam a codificar texto em TEI passem por cima destas informações, preenchendo estes campos com dados genéricos e incompletos. No entanto, as informações no `<teiHeader>` são essenciais para a tarefa do codificador, pois servem para identificar com precisão o texto codificado.
 
@@ -278,9 +278,9 @@ Por exemplo, se fosse importante para nós distinguirmos entre as diferentes edi
 
 Em conclusão, quanto mais completa e minuciosamente os metadados dos textos forem codificados no `<teiHeader>` de nossos documentos TEI, mais controle teremos sobre sua identidade e natureza.
 
-## O elemento <text>
+## O elemento \<text\>
 
-Como vimos acima no documento mínimo, `<text>` é o segundo filho de `<TEI>`. Este contém todo o texto do documento propriamente dito. Conforme a [documentação TEI](https://tei-c.org/guidelines/p5/), o `<text>` pode conter vários elementos nos quais o texto objeto vai ser estruturado:
+Como vimos acima no documento mínimo, `<text>` é o segundo filho de `<TEI>`. Este contém todo o texto do documento propriamente dito. Conforme a [documentação TEI](https://guidelines.tei-c.de/en/html/index.html), o `<text>` pode conter vários elementos nos quais o texto objeto vai ser estruturado:
 
 {% include figure.html filename="introduccion-a-tei-1-09.png" caption="Elementos possíveis de `<text>`" %}
 
