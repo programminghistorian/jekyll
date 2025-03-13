@@ -313,7 +313,7 @@ En conclusión, entre más completa y minuciosamente se codifiquen los metadatos
 
 ## El elemento \<text\>
 
-Como vimos arriba en el documento mínimo, `<text>` es el segundo hijo de `<TEI>`. Contiene todo el texto del documento, propiamente hablando. De acuerdo con la [documentación de TEI](https://tei-c.org/guidelines/p5/), `<text>` puede contener una serie de elementos en los que el texto objeto se ha de estructurar:
+Como vimos arriba en el documento mínimo, `<text>` es el segundo hijo de `<TEI>`. Contiene todo el texto del documento, propiamente hablando. De acuerdo con la [documentación de TEI](https://guidelines.tei-c.de/en/html/index.html), `<text>` puede contener una serie de elementos en los que el texto objeto se ha de estructurar:
 
 {% include figure.html filename="introduccion-a-tei-1-12.png" caption="Elementos posibles de `<text>`" %}
 
