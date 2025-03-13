@@ -2800,17 +2800,17 @@
   orcid: 0000-0003-4837-0564
   team: true
   team_start: 2023
-  institution: Centre d’étude de la langue et des littératures françaises (CELLF UMR 8599 – CNRS/Sorbonne Université)
+  institution: Centre national de la recherche scientifique, France.
   sortname: Mathelier
   affiliation:
     en: |
-      Centre d’étude de la langue et des littératures françaises (CELLF UMR 8599 – CNRS/Sorbonne Université), France
+      Centre national de la recherche scientifique (CNRS), France
     es: |
-      Centre d’étude de la langue et des littératures françaises (CELLF UMR 8599 – CNRS/Sorbonne Université), Francia
+      Centre national de la recherche scientifique (CNRS), Francia
     fr: |
-      Centre d’étude de la langue et des littératures françaises (CELLF UMR 8599 – CNRS/Sorbonne Université), France
+      Centre national de la recherche scientifique (CNRS), France
     pt: |
-      Centre d’étude de la langue et des littératures françaises (CELLF UMR 8599 – CNRS/Sorbonne Université), França
+      Centre national de la recherche scientifique (CNRS), França
   team_roles:
     - french
     - editorial
