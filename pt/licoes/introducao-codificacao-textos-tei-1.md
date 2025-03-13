@@ -280,7 +280,7 @@ Em conclusão, quanto mais completa e minuciosamente os metadados dos textos for
 
 ## O elemento <text>
 
-Como vimos acima no documento mínimo, `<text>` é o segundo filho de `<TEI>`. Este contém todo o texto do documento propriamente dito. Conforme a [documentação TEI](https://tei-c.org/guidelines/p5/), o `<text>` pode conter vários elementos nos quais o texto objeto vai ser estruturado:
+Como vimos acima no documento mínimo, `<text>` é o segundo filho de `<TEI>`. Este contém todo o texto do documento propriamente dito. Conforme a [documentação TEI](https://guidelines.tei-c.de/en/html/index.html), o `<text>` pode conter vários elementos nos quais o texto objeto vai ser estruturado:
 
 {% include figure.html filename="introduccion-a-tei-1-09.png" caption="Elementos possíveis de `<text>`" %}
 
