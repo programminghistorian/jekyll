@@ -1704,6 +1704,7 @@
   email: aracele@protonmail.com
   url: "https://cibermundi.wordpress.com/"
   github: aracele
+  orcid: 0000-0002-5240-060X
   team: true
   team_start: 2020
   institution: Universidade Federal de São Paulo
@@ -1882,6 +1883,8 @@
 
 - name: Luis Ferla
   email: ferla@unifesp.br
+  github: luisferla
+  orcid: 0000-0003-3617-2560
   team: true
   team_start: 2020
   institution: Universidade Federal de São Paulo
@@ -1908,6 +1911,8 @@
     - portuguese
     - ombuds
   status: volunteer
+
+
 - name: Scholars' Lab Community
   team: false
   bio:
@@ -1955,6 +1960,8 @@
   bio:
     en: |
       Jimmy Medeiros is Adjunct Professor at Fundação Getulio Vargas (FGV) CPDOC, Rio de Janeiro, Brazil.
+    pt: |
+      Jimmy Medeiros é Professor Adjunto na FGV CPDOC da Fundação Getulio Vargas (FGV), Rio de Janeiro, Brasil.
   team_roles:
     - portuguese
     - editorial
@@ -1980,15 +1987,8 @@
     fr: |
         École Normale Supérieure de Lyon, France / Aix-Marseille Université, France.
   bio:
-    en: |
-        Matthias Gille Levenson is a PhD candidate in medieval castilian philology at the École Normale Supérieure de Lyon. He is currently a scientific member of the Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques in Madrid.
-    pt: |
-        Matthias Gille Levenson é doutorando em filologia castelhana medieval na École Normale Supérieure de Lyon. Atualmente é membro científico da Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques de Madrid.
-    es: |
-        Matthias Gille Levenson es doctorando en filología medieval castellana en la École Normale Supérieure de Lyon, y es actualmente miembro científico de la Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques.
     fr: |
-        Matthias Gille Levenson est doctorant en philologie médiévale castillane à l'École Normale Supérieure de Lyon, et membre scientifique de la Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques.
-  team_roles:
+        Matthias Gille Levenson est Attaché Temporaire d'Enseignement et de Recherche à l'Université Aix-Marseille (CIHAM UMR 5648), Marseille, France.
     - french
     - editorial
   status: volunteer
@@ -2264,27 +2264,22 @@
   status: volunteer
   affiliation:
     en: |
-      University of Louvain, Belgium
+      Université catholique de Louvain and KBR, Belgium
     es: |
-      Universidad de Louvain, Bélgica
+      Université catholique de Louvain y KBR, Bélgica
     fr: |
-      Université catholique de Louvain, Belgique
+      Université catholique de Louvain et KBR, Belgique
     pt: |
-      Universidade de Louvain, Bélgica
+      Université catholique de Louvain e KBR, Bélgica
   bio:
-    en: |
-       Isabelle Gribomont is a researcher in Digital Humanities at the University of Louvain and the Royal Library of Belgium.
     es: |
-       Isabelle Gribomont es investigadora en humanidades digitales en la Universidad de Louvain y la Biblioteca Real de Bélgica.
-    fr: |
-       Isabelle Gribomont est chercheuse en humanités numériques à l'université catholique de Louvain et la Bibliothèque royale de Belgique.
-    pt: |
-       Isabelle Gribomont é pesquisadora em Humanidades Digitais na universidade de Louvain e na Biblioteca Real da Bélgica.
+       Isabelle Gribomont es investigadora postdoctoral en el centro de procesamiento de lenguajes naturales en UCLouvain, Louvain-la-Neuve, Bélgica e investigadora en literatura digital en la biblioteca real de Bélgica (KBR), Bruselas, Bélgica.
 
 - name: Nicolás Llano Linares
   email: llano.nicolas@gmail.com
   twitter: enetreseles
   github: nllano
+  orcid: 0000-0001-7040-0673
   team: true
   team_start: 2021
   institution: Fundação Getúlio Vargas
@@ -2299,14 +2294,8 @@
     pt: |
       Escola de Comunicação, Mídia e Informação, Fundação Getúlio Vargas, Brasil
   bio:
-    en: |
-       Nicolás Llano Linares holds a PhD in Communication Sciences (Universidade de São Paulo, Brazil) and is a professor at the School for Communication, Media and Information, Fundação Getúlio Vargas, Brazil.
     es: |
-       Nicolás Llano Linares es Doctor en Ciencias de la Comunicación (Universidade de São Paulo, Brasil) y profesor en la Escuela de Comunicación, Medios e Información, Fundação Getúlio Vargas, Brasil.
-    fr: |
-       Nicolás Llano Linares est docteur en sciences de la communication (Universidade de São Paulo, Brésil) et est professeur à l’École de la communication, des médias et de l’information, Fundação Getúlio Vargas, Brésil.
-    pt: |
-       Nicolás Llano Linares é Doutor em Ciências da Comunicação (Universidade de São Paulo, Brasil) e professor na Escola de Comunicação, Mídia e Informação, Fundação Getúlio Vargas, Brasil.
+       Nicolás Llano Linares es investigador, editor y profesor de teorías de la comunicación y humanidades digitales en la Escuela de Comunicación, Medios e Información, Fundação Getúlio Vargas, Brasil.
   team_roles:
     - spanish
     - editorial
@@ -2832,7 +2821,7 @@
   status: volunteer
   bio:
     fr: |
-      Daphné Mathelier est ingénieure d'études au Centre national de la recherche scientifique française (CNRS). Elle est responsable du service Humanités numériques de la Maison des Sciences de l'Homme Mondes à Nanterre (CNRS, Université Paris Nanterre, Université Paris 1 Panthéon Sorbonne) et l’une des correspondantes locales de l'infrastructure de recherche Huma-Num.
+      Daphné Mathelier est ingénieure d'études au Centre national de la recherche scientifique française (CNRS). Elle est chargée d’édition de corpus numériques au Centre d’étude de la langue et des littératures françaises (CELLF, CNRS – Sorbonne Université).
       
 - name: Alexandre Wauthier
   email: alexandre.wauthier@protonmail.com
@@ -3145,6 +3134,9 @@
       School of Information and Communication Studies, University College Dublin, Irlande
     pt: |
       School of Information and Communication Studies, University College Dublin, Irlanda
+  bio:
+    en: |
+      Giulia Osti is a d-real (SFI) funded PhD candidate based at the School of Information and Communication Studies, University College Dublin.
   team_roles:
     - english
     - editorial
