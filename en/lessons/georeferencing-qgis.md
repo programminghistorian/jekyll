@@ -20,6 +20,7 @@ exclude_from_check:
 abstract: "In this lesson, you will learn how to georeference historical maps so
 that they may be added to a GIS as a raster layer."
 previous: vector-layers-qgis
+next: geocoding-qgis
 series_total: 5 lessons
 sequence: 4
 redirect_from: /lessons/georeferencing-qgis
