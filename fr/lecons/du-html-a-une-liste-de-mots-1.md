@@ -23,6 +23,9 @@ translation-reviewer:
 - Marie Flesch
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/560
+next: du-html-a-une-liste-de-mots-2
+series_total: 2 lessons
+sequence: 1
 activity: transforming
 topics: [python]
 abstract: Dans cette leçon en deux parties, nous allons utiliser les compétences acquises dans la leçon &laquo;&nbsp;Télécharger des pages web avec Python&nbsp;&raquo;, et voir comment supprimer les *balises HTML* de la page de la transcription du procès-verbal de Benjamin Bowsey en 1780 dans le but de créer un texte propre et réutilisable. Nous réaliserons cette tâche en utilisant les *opérateurs et méthodes de chaines de caractères* propres à Python, ainsi que nos compétences relatives à la *lecture attentive*. Nous introduirons ensuite les concepts de *boucles* et *d’instructions conditionnelles* afin de répéter notre processus de traitement et de tester certaines conditions nous permettant de séparer le contenu des balises HTML. Pour finir, nous convertirons les données obtenues et enregistrées sous la forme d’un texte sans balises HTML en une *liste de mots* qui pourra par la suite être triée, indexée et investie lors d’analyses statistiques.
