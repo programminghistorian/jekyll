@@ -22,6 +22,9 @@ translation-reviewer:
 - Diana Rebelo Rodriguez
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/443
+previous: HTML-lista-palavras-1
+series_total: 2 lessons
+sequence: 2
 activity: transforming
 topics: [python]
 abstract: "Nesta lição aprenderá os comandos de Python necessários para implementar a segunda parte do algoritmo iniciado na lição 'De HTML para Lista de Palavras (parte 1)'."
