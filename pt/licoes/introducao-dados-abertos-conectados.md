@@ -20,6 +20,8 @@ translation-editor:
 translation-reviewer:
 - Bruno Almeida 
 - Daniel Bonatto Seco
+lesson-testers: David Valentine
+tested_date: 2025-02-28
 difficulty: 1
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/428
 activity: acquiring
@@ -223,15 +225,15 @@ O Turtle usa apelidos ou atalhos, conhecidos como [prefixos](https://www.w3.org/
 
 Não queremos escrever isto cada vez que nos referimos a esta pessoa (lembrar-se-á de Jack Straw). Por isso, só temos de enunciar o nosso atalho:
 
-    @prefix toby: <http://data.history.ac.uk/tobias-project/person> .
+    @prefix toby: <http://data.history.ac.uk/tobias-project/person/> .
 
 Então Jack é `toby:15601`, que substitui o longo URI e é mais fácil à vista. Eu escolhi 'toby', mas poderia igualmente escolher qualquer sequência de letras.
 
 Vamos agora passar de Jack Straw para William Shakespeare e utilizar Turtle para descrever algumas coisas sobre as suas obras. Vamos ter de decidir sobre os ficheiros de autoridade a utilizar, um processo que, como mencionado acima, é melhor ser selecionado ao olhar para outros conjuntos de LOD. Aqui usaremos como um dos nossos prefixos [*Dublin Core*](https://pt.wikipedia.org/wiki/Dublin_Core), uma norma de [metadados](https://pt.wikipedia.org/wiki/Metadados) de bibliotecas [(Número de controle da Biblioteca do Congresso](https://en.wikipedia.org/wiki/Library_of_Congress_Control_Number) (*Library of Congress Control Number*) como outro e, o último (VIAF) deverá ser-lhe familiar. Juntos, estes três ficheiros de autoridade fornecem identificadores únicos para todas as entidades que tenciono utilizar neste exemplo:
 
-    @prefix lccn: <http://id.loc.gov/authorities/names> .
+    @prefix lccn: <http://id.loc.gov/authorities/names/> .
     @prefix dc: <http://purl.org/dc/elements/1.1/> .
-    @prefix viaf: <http://viaf.org/viaf> .
+    @prefix viaf: <http://viaf.org/viaf/> .
 
     lccn:n82011242 dc:creator viaf:96994048 .
 
@@ -241,9 +243,9 @@ No exemplo acima, lccn:n82011242 representa Macbeth; dc:creator liga Macbeth ao 
 
 O Turtle também permite listar triplas semânticas sem se preocupar em repetir cada URI quando acabou de o usar. Acrescentemos a data em que os estudiosos pensam que Macbeth foi escrito, utilizando o par atributo-valor Dublin Core: `dc:create 'YYYY'`:
 
-    @prefix lccn: <http://id.loc.gov/authorities/names> .
+    @prefix lccn: <http://id.loc.gov/authorities/names/> .
     @prefix dc: <http://purl.org/dc/elements/1.1/> .
-    @prefix viaf: <http://viaf.org/viaf> .
+    @prefix viaf: <http://viaf.org/viaf/> .
 
     lccn:n82011242 dc:creator viaf:96994048 ;
                dc:created "1606" .
@@ -319,7 +321,7 @@ Se estiver familiarizado com XML isto será fácil. Se não estiver, talvez pref
 
 Para esta secção final iremos interrogar algum LOD e ver o que poderá ser feito com ele.
 
-A linguagem de consulta que usamos para LOD é chamada [SPARQL](https://pt.wikipedia.org/wiki/SPARQL). É um daqueles acrónimos recursivos amados pelos técnicos: ***S**PARQL **P**rotocol **a**nd **R**DF **Q**uery **L**anguage* (Protocolo SPARQL e Linguagem de Consulta).
+A linguagem de consulta que usamos para LOD é chamada [SPARQL](https://pt.wikipedia.org/wiki/SPARQL). É um daqueles acrónimos recursivos amados pelos técnicos: ***S**PARQL **P**rotocol **a**nd **R**DF **Q**uery **L**anguage* (Protocolo SPARQL e Linguagem de Consulta RDF).
 
 Como mencionado no início, o *Programming Historian* tem [uma lição completa](/en/lessons/retired/graph-databases-and-SPARQL) (em inglês), de Matthew Lincoln, sobre a utilização do SPARQL (embora não seja já mantida (ver nota no início desta tradução). A secção final aqui presente é apenas uma visão geral dos conceitos básicos. Se o SPARQL despertar o seu interesse, pode obter uma fundamentação completa no tutorial de Lincoln.
 
@@ -347,7 +349,7 @@ Vamos começar com algo simples para ver como é que isto funciona. Cole (ou, me
     :Lyndal_Roper ?b ?c
     }
 
-Clique em '*go*' (ir). Se deixar o menu *drop-down* como '*browse*' (navegar) deverá obter duas colunas com os rótulos "b" e "c". (Note que aqui, ao procurar uma cadeia de caracteres, as maiúsculas/minúsculas importam: lyndal_roper não lhe dará resultados).
+Clique em '*go*' (ir). Se deixar o menu *drop-down* como '*browse*' (navegar) deverá obter duas colunas com os rótulos "b" e "c". (Note que aqui, as maiúsculas/minúsculas importam: lyndal_roper não lhe dará resultados).
 
 
 {% include figure.html filename="en-or-intro-to-linked-data-04.png" alt="Captura de tela com a interface de resultados de consultas snorql" caption="Figura 4. Topo das listas de resultados de uma consulta com todas as triplas semânticas com 'Lyndal_Roper' como sujeito." %}
@@ -356,7 +358,7 @@ Então o que é que acabou de acontecer? E como é que soubemos o que escrever?
 
 Na verdade, não sabíamos. Esse é um dos problemas com end points do SPARQL. Quando se conhece um dataset, é preciso experimentar coisas e descobrir que termos são utilizados. Porque isto vem da *Wikipedia* e nós estávamos interessados sobre que informação sobre historiadores podíamos encontrar. Então vamos à página da *Wikipedia* da historiadora [Lyndal Roper](https://en.wikipedia.org/wiki/Lyndal_Roper) (em inglês).
 
-A parte final do URL é `Lyndal_Roper` e concluímos então que é provável que esta cadeia de caracteres seja a forma como Roper é referida na DBpedia. Porque não sabemos o que mais poderia estar em triplas semânticas que mencionam Roper, nós utilizamos `?a` e `?b`: estes são apenas marcadores de posição. Poderia igualmente ter digitado `?whatever` e `?you_like` e as colunas teriam esses rótulos. Quando quiser ser mais preciso sobre o que se está a pesquisar, será importante etiquetar as colunas de forma significativa.
+A parte final do URL é `Lyndal_Roper` e concluímos então que é provável que esta cadeia de caracteres seja a forma como Roper é referida na DBpedia. Porque não sabemos o que mais poderia estar em triplas semânticas que mencionam Roper, nós utilizamos `?b` e `?c`: estes são apenas marcadores de posição. Poderia igualmente ter digitado `?whatever` e `?you_like` e as colunas teriam esses rótulos. Quando quiser ser mais preciso sobre o que se está a pesquisar, será importante etiquetar as colunas de forma significativa.
 
 Experimente agora a sua própria consulta SPARQL: escolha uma página *Wikipedia* e copie a parte final do URL, após a barra final, e coloque-a no lugar de Lyndal_Roper. Depois clique em 'go'.
 
