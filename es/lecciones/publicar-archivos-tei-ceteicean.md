@@ -36,6 +36,10 @@ Este tutorial te guiará a través de los pasos necesarios para publicar un arch
 
 En primer lugar, una aclaración sobre la visualización de tu trabajo: el método por defecto de CETEIcean para mostrar archivos TEI consiste en cargar los archivos desde otra ubicación. Sin embargo, no todos los navegadores te permitirán cargar los archivos si estos se encuentran almacenados en tu computadora. Puedes hacer el intento, pero si eso no funciona, tendrás que generar un servidor local, colocar los archivos en un servidor en línea, o utilizar un editor de código con funciones de previsualización. Para el caso de este tutorial, seguiremos esta última opción, ya que usaremos el editor [Atom](https://atom.io), con el plug-in `atom-html-preview`. No obstante, existen otras opciones libres para editar archivos TEI y generar previsualizaciones de HTML, como [jEdit](http://www.jedit.org/) o [Visual Studio Code](https://code.visualstudio.com/), y versiones propietarias como [Oxygen](https://www.oxygenxml.com/).
 
+<div class="alert alert-warning">
+Actualización de marzo de 2025: No recomendamos usar Atom, ya que el software no ha recibido mantenimiento ni actualizaciones desde su cierre en diciembre de 2022. Puedes usar VSCode de la misma manera, siempre que también instales la extensión HTML Preview del marketplace de extensiones.
+</div>
+
 Deberás entonces descargar e instalar [Atom](https://atom.io) antes de continuar con este tutorial. Con Atom ya funcionando, instala el plug-in `atom-html-preview` (creado por Kyle J. Harms) que podrás encontrar abriendo el menú de opciones de Atom (file > settings o cntrl+). En la pantalla de "Settings" ve a la pestaña "Install" y en el cuadro de diálogo introudce `atom-html-preview`. Cuando aparezca el plug-in que estamos buscando en la lista de resultado debes hacer clic en el botón azul que dice "Install":
 
 {% include figure.html filename="publicar-archivos-tei-ceteicean1.png" caption="Proceso de instalación del plug-in de Atom para previsualizar archivos en HTML" %}
