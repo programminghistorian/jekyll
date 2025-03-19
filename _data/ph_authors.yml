@@ -762,7 +762,6 @@
     - editorial
     - english
     - board
-    - technical
   status: institutionally-supported
 
 - name: Ted Dawson
@@ -1160,7 +1159,6 @@
       Jennifer Isasi é professora assistente e pesquisadora digital, diretora da Digital Liberal Arts Research Initiative na Penn State e doutorada em Estudos Hispânicos.
   team_roles:
     - spanish
-    - technical
     - managing
     - proghist
   status: institutionally-supported
@@ -1378,8 +1376,9 @@
   twitter: zoe_leblanc
   email: zgleblanc@gmail.com
   url: "http://zoeleblanc.com"
-  team: true
+  team: false
   team_start: 2018
+  team_end: 2025
   institution: University of Illinois
   sortname: LeBlanc
   affiliation:
@@ -1403,8 +1402,6 @@
   team_roles:
     - editorial
     - english
-    - technical-lead
-    - proghist
   status: volunteer
 
 - name: Dave Rodriguez
@@ -1799,7 +1796,6 @@
       Alex Wermer-Colan é Diretor Académico e de Investigação na Biblioteca Loretta C. Duckworth Scholars Studio da Temple University.
   team_roles:
       - english
-      - technical
       - managing
   status: volunteer
 
