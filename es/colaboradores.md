@@ -15,6 +15,7 @@ original: supporters
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
 - [University of Southampton](https://www.southampton.ac.uk/), Reino Unido
+- [Jisc](https://www.jisc.ac.uk/), Reino Unido  
 
 ## Instituciones asociadas
 Contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
