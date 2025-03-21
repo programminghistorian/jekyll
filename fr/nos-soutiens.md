@@ -15,6 +15,7 @@ _Programming Historian_ est reconnaissant envers ses contributeurs passés et ac
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Royaume-Uni
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Royaume-Uni
 - [University of Southampton](https://www.southampton.ac.uk/), Royaume-Uni
+- [Jisc](https://www.jisc.ac.uk/), Royaume-Uni  
 
 ## Partenariat institutionnel
 Les institutions suivantes font partie de notre programme de [Partenariat institutionnel](pi)&nbsp;:
