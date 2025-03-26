@@ -398,7 +398,7 @@ the case you have made an error.
   [*OpenRefine*]: http://openrefine.org "OpenRefine"
   [Powerhouse museum]: https://powerhouse.com.au/
     "Powerhouse museum"
-  [*Potter’s Wheel ABC*]: http://control.cs.berkeley.edu/abc/
+  [*Potter’s Wheel ABC*]: https://perma.cc/Q6QD-E64N
     "Potter's Wheel ABC "
   [*Wrangler*]: http://vis.stanford.edu/papers/wrangler/ "Wrangler"
   [data profiling]: http://en.wikipedia.org/wiki/Data_profiling
