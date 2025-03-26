@@ -43,7 +43,7 @@ By the end of this lesson, you should be able to do the following with the ggplo
 - Compare data across grids of plots.
 - Enhance your plots with ggplot2 extensions.
 
-This lesson assumes you have a rudimentary knowledge of R. We recommend familiarizing yourself with the *Programming Historian* lessons [R Basics with Tabular Data](/en/lessons/r-basics-with-tabular-data) and [Data Wrangling and Management in R](/en/lessons/data_wrangling_and_management_in_R) if you do not have this background.
+This lesson assumes you have a rudimentary knowledge of R. We recommend familiarizing yourself with the *Programming Historian* lessons [R Basics with Tabular Data](/en/lessons/r-basics-with-tabular-data) and [Data Wrangling and Management in R](/en/lessons/data-wrangling-and-management-in-r) if you do not have this background.
 
 ## Our Data: Sister Cities in the European Union
 
@@ -152,7 +152,7 @@ Understanding the `ggplot()` syntax can be tricky at first but, once it starts m
 
 You now have your first plot! You may notice that ggplot2 has made some decisions on its own: background color, font size of the labels, etc. The default settings are usually sufficient, but you can customize these aspects if you prefer.
 
-Because ggplot2 works within a consistent syntax, you can easily modify your plots to look different, or display different data. For instance, say you wanted percentages rather than raw counts. Using the following code, you can create a new tibble that calculates the percentage and adds them under a new column named **perc** (again, see the lesson [Data Wrangling and Managment in R](/en/lessons/data_wrangling_and_management_in_R) about dplyr for details if this code does not make sense to you). Then, you only need to make a few changes to the code to display the new plot:
+Because ggplot2 works within a consistent syntax, you can easily modify your plots to look different, or display different data. For instance, say you wanted percentages rather than raw counts. Using the following code, you can create a new tibble that calculates the percentage and adds them under a new column named **perc** (again, see the lesson [Data Wrangling and Managment in R](/en/lessons/data-wrangling-and-management-in-r) about dplyr for details if this code does not make sense to you). Then, you only need to make a few changes to the code to display the new plot:
 
 ```
 
@@ -277,7 +277,7 @@ Let's explore how demographic characteristics influence urban relationships by e
 
 You will begin by creating a scatter plot connecting the population size of origin and destination cities. A scatter plot is a graph that uses dots or points to represent the intersecting values of two variables for each observation. In this case, each point on the scatterplot will represent a sister-city pair, with the x-coordinate indicating the population size of the origin city and the y-coordinate representing the population size of the destination city. If we observe a clear positive trend, with points clustering along a diagonal line from the bottom left to the top right of the plot, it will suggest that cities tend to form relationships with other cities of similar population size.
 
-Since `eudata` contains 13081 entries, using them all would lead to overplotting. Therefore, in this example, you will select a random sample of 15% of the cities in the data, using the function [`sample_frac()`](http://dplyr.tidyverse.org/reference/sample.html). It's also helpful to work with the [natural logarithm](https://perma.cc/C8NX-WHP7) of the population size to overcome skewness. Since you are using a random data selection, you must 'set a seed' to ensure reproducibility. This means that if you run the code again, ggplot2 will reselect the same random sample. You can do this with the `set.seed()` function:
+Since `eudata` contains 13081 entries, using them all would lead to overplotting. Therefore, in this example, you will select a random sample of 15% of the cities in the data, using the function [`slice_sample()`](https://dplyr.tidyverse.org/reference/slice.html). It's also helpful to work with the [natural logarithm](https://perma.cc/C8NX-WHP7) of the population size to overcome skewness. Since you are using a random data selection, you must 'set a seed' to ensure reproducibility. This means that if you run the code again, ggplot2 will reselect the same random sample. You can do this with the `set.seed()` function:
 
 ```
 
@@ -287,7 +287,7 @@ set.seed(123)
 
 # We extract a random sample of 15% of the cities
 
-eudata.sample <- sample_frac(eudata, 0.15)
+eudata.sample <- slice_sample(eudata, 0.15)
 
 # we create the plot
 
