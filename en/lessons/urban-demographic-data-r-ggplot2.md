@@ -287,7 +287,7 @@ set.seed(123)
 
 # We extract a random sample of 15% of the cities
 
-eudata.sample <- slice_sample(eudata, 0.15)
+eudata.sample <- slice_sample(eudata, prop = 0.15)
 
 # we create the plot
 
