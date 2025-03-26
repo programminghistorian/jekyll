@@ -134,7 +134,7 @@ Vous avez ainsi appris comment avoir un rapide aperçu du nombre de valeurs vide
 
 [*OpenRefine*]: http://openrefine.org "OpenRefine"
 [Powerhouse museum]: https://powerhouse.com.au/ "Powerhouse museum"
-  [*Potter’s Wheel ABC*]: http://control.cs.berkeley.edu/abc/ "Potter's Wheel ABC "
+  [*Potter’s Wheel ABC*]: https://perma.cc/Q6QD-E64N "Potter's Wheel ABC "
   [*Wrangler*]: http://vis.stanford.edu/papers/wrangler/ "Wrangler"
   [profilage]: https://fr.wikipedia.org/wiki/Data_profiling
   [reconnaissance d'entités nommées]: https://fr.wikipedia.org/wiki/Reconnaissance_d%27entit%C3%A9s_nomm%C3%A9es
