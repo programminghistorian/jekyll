@@ -142,7 +142,7 @@ You can also add the following georeferenced basemaps from Map Warper:
 
 The lock between the two windows helps guide the assignment and movement of the control points. ![Zoom lock icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon6.png)The **Zoom lock** option allows you to zoom in on the maps in both windows simultaneously. This is useful to place and verify the control points. Clicking on the lock again will unlock it. ![Pan icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon7.png)The **Pan** function allows you to pan to different sections of the images, separately.
 
-**Keyboard shortcuts** provides quick access to the following:
+![KeyboardShortcuts](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon8.png) The **Keyboard shortcuts** button provides quick access to the following:
 * **p**: Keyboard activates **Add Control Point** ![Add control point icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon3.gif)
 * **d**: Keyboard activates  **Move Control Point** ![Move control point icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon4.gif)
 * **m**: Keyboard activates  **Move Around Map** ![Move around map icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon5.gif)
