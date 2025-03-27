@@ -53,7 +53,7 @@ In this tutorial you will georeference an 1860 map of [North Carolina and South 
 
 Before you begin georeferencing a scanned map, it is important to understand the locations depicted on the map, as well as the historic context of the map’s creation. Not all historic maps are good candidates for georeferencing. The map must include enough information to allow the user to confidently assign latitude and longitude coordinates or align it with a Geographic Information Systems (GIS) map using physical features. Often, you will need to research the location of historic places and features that no longer exist, and make an informed decision to identify their proper placement. Some maps may not have enough geographic information, and may become so warped when georeferenced that they become illegible or inaccurate.
 
-{% include figure.html filename="mapwarper_warped.png" alt="A historical map warped into an irregular quadrilateral shape, and overlaid onto a larger-scale contemporary map" caption="Figure 1: A map too warped to be used effectively." %}
+{% include figure.html filename="en-tr-introduction-map-warper-01.png" alt="A historical map warped into an irregular quadrilateral shape, and overlaid onto a larger-scale contemporary map" caption="Figure 1: A map too warped to be used effectively." %}
 
 The [scale](https://perma.cc/LD2A-88X9), resolution, and [projection](https://perma.cc/CYD5-CCQM) of a scanned map are also important considerations when choosing a historic map to georeference. Small scale maps are generally not well-suited for highly detailed georeferencing and may cause problems with representing exact feature locations. When selecting or scanning a historic map for georeferencing, it is best to use a map that has been scanned at a high resolution (300 dpi or greater), so that you can easily see the features on the map when zooming in and out. It is also best practice to use the same projection as the historic map in order to minimize distortion. Georeferencing a map in the wrong projection can create a mismatch between the historical and current maps, stretching the lines, shapes, and the distance between objects. Map Warper does not provide an option to re-project your map data; if you are unable to achieve a legible map, or if you are measuring distance, you may need to use a more advanced GIS software, such as QGIS which will allow you to specify the map projections. For more details on best practices for georeferencing, see [Esri’s list of recommendations](https://perma.cc/GF85-4YF6).
 
@@ -73,7 +73,7 @@ This tutorial complements other *Programming Historian* lessons that reference t
 ## Create an Account
 Using your favorite browser, navigate to [https://mapwarper.net](https://mapwarper.net) and click on the "Create Account" tab in the upper right hand corner of the window. You can choose to log in using your Facebook, OpenstreetMap or GitHub account to facilitate the registration process.
 
-{% include figure.html filename="account.gif" alt="Animated gif demonstrating the clicks required to create an account from Map Warper's homepage" caption="Figure 2. Create Account." %}
+{% include figure.html filename="en-tr-introduction-map-warper-02.gif" alt="Animated gif demonstrating the clicks required to create an account from Map Warper's homepage" caption="Figure 2. Create Account." %}
 
 ## Upload Map
 On the Home page, click the green button labeled "Upload Map" to import your scanned map to Map Warper directly from your local file or linked from an online repository via a corresponding URL. During this step you can also start adding metadata to the material you will georeference.
@@ -115,14 +115,14 @@ The interface is organized into the following tabs:
 * **Preview:** shows your map overlaid on a modern base map
 * **Export:** gives you a variety of export options and formats
 
-{% include figure.html filename="mapwarper_showmap.png" alt="Screenshot of Map Warper's interface, with the Show, Edit, Rectify, Align, Preview and Export tabs at upper left. In the center of the interface is a scanned historical map, depicting North Carolina and South Carolina divided into counties and coloured variously in pink, green and pale yellow" caption="Figure 3. Map Warper interface." %}
+{% include figure.html filename="en-tr-introduction-map-warper-03.png" alt="Screenshot of Map Warper's interface, with the Show, Edit, Rectify, Align, Preview and Export tabs at upper left. In the center of the interface is a scanned historical map, depicting North Carolina and South Carolina divided into counties and coloured variously in pink, green and pale yellow" caption="Figure 3. Map Warper interface." %}
 
 ## Georeference your map
 In this section, you will georeference the uploaded map. Click on the "Rectify" tab; here you will find two windows: on the left is the uploaded map; on the right is the OpenStreetMap base map (this is the layer that provides the reference points for your uploaded map image). Below these windows, you will find the "Control Panel," which allows you to fine-tune your control points, and check their level of accuracy.
 
-![Layer icon](/images/introduccion-map-warper/layer_switcher_maximize.png)**Layer** allows you to select a base layer from either OpenStreetMap or Mapbox Satellite. It also includes the **Overlay** function that allows you to superimpose your working map image (the North Carolina and South Carolina example or your own image) after confirming the georeference.
+![Layer icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon1.png)**Layer** allows you to select a base layer from either OpenStreetMap or Mapbox Satellite. It also includes the **Overlay** function that allows you to superimpose your working map image (the North Carolina and South Carolina example or your own image) after confirming the georeference.
 
-![basemap icon](/images/introduccion-map-warper/addcustombasemap.png)**Add Custom Basemap** in the right box allows you to add another custom base layer in [XYZ Tiles format](https://perma.cc/AN6Z-XALE) (such as OpenStreetMap, Google Maps, Bing, [CARTO](https://perma.cc/WGZ9-HQ5U), [ESRI](https://perma.cc/DC2E-9PAM), [Stamen](https://perma.cc/7VLS-9LZZ), and other layers).
+![basemap icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon2.png)**Add Custom Basemap** in the right box allows you to add another custom base layer in [XYZ Tiles format](https://perma.cc/AN6Z-XALE) (such as OpenStreetMap, Google Maps, Bing, [CARTO](https://perma.cc/WGZ9-HQ5U), [ESRI](https://perma.cc/DC2E-9PAM), [Stamen](https://perma.cc/7VLS-9LZZ), and other layers).
 
 You can also add the following georeferenced basemaps from Map Warper:
 
@@ -134,18 +134,18 @@ You can also add the following georeferenced basemaps from Map Warper:
 * Stamen Watercolor: https://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg
 ```
 
-![Control point icon](/images/introduccion-map-warper/add_control_point.gif)**Add control point**, available in both boxes, allows you to add control points that associate points on the uploaded or selected map to the predetermined base layer.
+![Control point icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon3.gif)**Add control point**, available in both boxes, allows you to add control points that associate points on the uploaded or selected map to the predetermined base layer.
 
-![Move control point icon](/images/introduccion-map-warper/move_control_point.gif)**Move Control Point** permits you to move or relocate the control points and add them to both windows.
+![Move control point icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon4.gif)**Move Control Point** permits you to move or relocate the control points and add them to both windows.
 
-![Move around map icon](/images/introduccion-map-warper/move_around_map.gif)**Move Around Map** lets you explore the maps in both windows without having to assign or move any control points. This is helpful for verifying the assigned control points.
+![Move around map icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon5.gif)**Move Around Map** lets you explore the maps in both windows without having to assign or move any control points. This is helpful for verifying the assigned control points.
 
-The lock between the two windows helps guide the assignment and movement of the control points. ![Zoom lock icon](/images/introduccion-map-warper/Zoom_lock.png)The **Zoom lock** option allows you to zoom in on the maps in both windows simultaneously. This is useful to place and verify the control points. Clicking on the lock again will unlock it. ![Pan icon](/images/introduccion-map-warper/lock_open.png)The **Pan** function allows you to pan to different sections of the images, separately.
+The lock between the two windows helps guide the assignment and movement of the control points. ![Zoom lock icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon6.png)The **Zoom lock** option allows you to zoom in on the maps in both windows simultaneously. This is useful to place and verify the control points. Clicking on the lock again will unlock it. ![Pan icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon7.png)The **Pan** function allows you to pan to different sections of the images, separately.
 
 **Keyboard shortcuts** provides quick access to the following:
-* **p**: Keyboard activates **Add Control Point** ![Add control point icon](/images/introduccion-map-warper/add_control_point.gif)
-* **d**: Keyboard activates  **Move Control Point** ![Move control point icon](/images/introduccion-map-warper/move_control_point.gif)
-* **m**: Keyboard activates  **Move Around Map** ![Move around map icon](/images/introduccion-map-warper/move_around_map.gif)
+* **p**: Keyboard activates **Add Control Point** ![Add control point icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon3.gif)
+* **d**: Keyboard activates  **Move Control Point** ![Move control point icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon4.gif)
+* **m**: Keyboard activates  **Move Around Map** ![Move around map icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon5.gif)
 * **q**: Keyboard adds a control point in your cursor location.
 * **a**: Keyboard adds a control point in your cursor location in both windows.
 * **Enter**: Keyboard replaces the **Add Control Point** mouse click to confirm the position of the pin.
@@ -160,7 +160,7 @@ By clicking on **Add Control Point Manually** you can add a control point with X
 
 **Add Control Points from CSV** allows you to upload a .csv file to automate the georeferencing process. The first row must contain the Control Points table headers. The proceeding rows should contain data for the X, Y coordinates for the image (`X,Y`) and the destination (`Lon,Lat`), separated by commas.
 
-The following .csv example contains four columns, labeled ‘x’, ‘y’, ‘lon’ and ‘lat’ in four rows, including the headings. This is the same file as the one downloaded using the ![csv icon](/images/introduccion-map-warper/csvicon.png) CSV icon button.
+The following .csv example contains four columns, labeled ‘x’, ‘y’, ‘lon’ and ‘lat’ in four rows, including the headings. This is the same file as the one downloaded using the ![csv icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon9.png) CSV icon button.
 
 ```
 x,y,lon,lat
@@ -176,17 +176,17 @@ x,y,lon,lat
 3\. Once you feel comfortable moving around the maps, select your first control point. Start from the historic map and choose a location &mdash;for example, a city&mdash; that will be relatively easy to find.  
 4\. Then, click the green control point marker on the modern map and find the same location to match them up.  
 
-    {% include figure.html filename="mapwarper_controlpointsadded.png" alt="Screenshot of the Rectify tab of Map Warper's interface, displaying a historical map on the left alongside a contemporary map on the right. The two maps delineate the same geographical region, at roughly the same scale. The two maps are marked with a set of closely-matching marker points." caption="Figure 4. Match up your control points." %}
+    {% include figure.html filename="en-tr-introduction-map-warper-04.png" alt="Screenshot of the Rectify tab of Map Warper's interface, displaying a historical map on the left alongside a contemporary map on the right. The two maps delineate the same geographical region, at roughly the same scale. The two maps are marked with a set of closely-matching marker points." caption="Figure 4. Match up your control points." %}
 
 5\. If you do not click the Add Control Point button, the next time you click on a map, the control point you've added will move. This functionality gives you the flexibility to adjust your points while adding them, but can be confusing if you don’t realize that your point has moved because you didn’t click Add Control Point.
 
 6\. Add at least 4 or 5 points. Spreading the points out across your historic map and focusing on state borders, rivers, county lines, and major cities is a good strategy. If you need to delete a control point, click on "Control Points" in the Control Panel below the map.
 
-    {% include figure.html filename="mapwarper_controlpoints.png" alt="Cropped screenshot of Map Warper's interface depicting a section of the Control Panel with the Control Points button highlighted" caption="Figure 5. Select Control Points in the Control panel." %}
+    {% include figure.html filename="en-tr-introduction-map-warper-05.png" alt="Cropped screenshot of Map Warper's interface depicting a section of the Control Panel with the Control Points button highlighted" caption="Figure 5. Select Control Points in the Control panel." %}
 
 7\. Selecting Control Points will display all of the points you have added, and allow you to delete any points that you want to re-do. You can also change latitude and longitude points manually.
 
-    {% include figure.html filename="mapwarper_controlpoints_rmserrordelete.png" alt="Cropped screenshot of Map Warper's interface depicting a section of the Control Panel where a list of Control Points are organised in table-format. Two columns of the table are highlighted and labelled: 'RMS Error' and 'Delete control points." caption="Figure 6. Deleting control points and the RMS error." %}
+    {% include figure.html filename="en-tr-introduction-map-warper-06.png" alt="Cropped screenshot of Map Warper's interface depicting a section of the Control Panel where a list of Control Points are organised in table-format. Two columns of the table are highlighted and labelled: 'RMS Error' and 'Delete control points." caption="Figure 6. Deleting control points and the RMS error." %}
 
 <div class="alert alert-info">
 Note: You will see there is an Error value for each control point. Map Warper uses a Root Mean Square (RMS) error calculation to evaluate the transformation of the different control points. The RMS error provides a rough guide to how consistent your control points are to one another with reference to the map’s transformation, and it assesses how distorted your map will be. High RMS error values indicate that your control points are less consistent with one another, while a low RMS error value indicates more consistency and reduced distortion. It is generally recommended that you keep your error values low and replace or remove control points with high values. While the RMS error provides a good way to assess the transformation’s accuracy, you should always re-evaluate how well your scanned map matches up to the GIS modern map. For more information about RMS errors, please see Esri’s section on interpreting the root mean square error in their <a href="https://perma.cc/L4VD-VPVV">Overview of georeferencing</a>.
@@ -194,26 +194,26 @@ Note: You will see there is an Error value for each control point. Map Warper us
 
 8\. When you have enough points and think they are well-distributed across your historic map, click Warp Image! at the bottom of the page. Georeferencing maps takes practice. You may find that your rectified map creates an unreadable, warped map. We encourage you to try steps 7-9 again, taking into account best practices for georeferencing mentioned above, such as identifying major cities, roads, streams, and rivers that you can identify with confidence.
 
-    {% include figure.html filename="mapwarper_warpbutton.png" alt="Cropped screenshot of Map Warper's interface depicting a section of the Control Panel with the Warp Image! button highlighted" caption="Figure 7. Click Warp Image! to rectify your map." %}
+    {% include figure.html filename="en-tr-introduction-map-warper-07.png" alt="Cropped screenshot of Map Warper's interface depicting a section of the Control Panel with the Warp Image! button highlighted" caption="Figure 7. Click Warp Image! to rectify your map." %}
 
 9\. You will now see the map layered on top of the OpenStreetMap.
 
-    {% include figure.html filename="mapwarper_openstreetmap.png" alt="Screenshot of Map Warper's interface, with the scanned historical map of North Carolina and South Carolina overlaid onto a contemporary 'base layer' map of the same geographical region, at the same scale. At the upper left, there is a four-way navigation tool, and a slider-style zoom tool. At the upper right, there are icons including a marker point, a hand, and a four-way navigation arrow. A semi-opaque, information panel at upper right indicates that the base layer originates from OpenStreetMap and the overlay is a warped map." caption="Figure 8. Georeferenced map in OpenStreetMap." %}
+    {% include figure.html filename="en-tr-introduction-map-warper-08.png" alt="Screenshot of Map Warper's interface, with the scanned historical map of North Carolina and South Carolina overlaid onto a contemporary 'base layer' map of the same geographical region, at the same scale. At the upper left, there is a four-way navigation tool, and a slider-style zoom tool. At the upper right, there are icons including a marker point, a hand, and a four-way navigation arrow. A semi-opaque, information panel at upper right indicates that the base layer originates from OpenStreetMap and the overlay is a warped map." caption="Figure 8. Georeferenced map in OpenStreetMap." %}
 
 10\. You can choose to view a satellite image base map or the regular OpenStreetMap layer we’ve been using.
 
-    {% include figure.html filename="mapwarper_satellite.png" alt="Screenshot of Map Warper's interface, with the scanned historical map of North Carolina and South Carolina overlaid onto a contemporary 'base layer' map of the same geographical region, at the same scale. At the upper left, there is a four-way navigation tool, and a slider-style zoom tool. At the upper right, there are icons including a marker point, a hand, and a four-way navigation arrow. A semi-opaque, information panel at upper right indicates that the base layer originates from Mapbox Satellite and the overlay is a warped map." caption="Figure 9. Georeferenced map in satellite view." %}
+    {% include figure.html filename="en-tr-introduction-map-warper-09.png" alt="Screenshot of Map Warper's interface, with the scanned historical map of North Carolina and South Carolina overlaid onto a contemporary 'base layer' map of the same geographical region, at the same scale. At the upper left, there is a four-way navigation tool, and a slider-style zoom tool. At the upper right, there are icons including a marker point, a hand, and a four-way navigation arrow. A semi-opaque, information panel at upper right indicates that the base layer originates from Mapbox Satellite and the overlay is a warped map." caption="Figure 9. Georeferenced map in satellite view." %}
 
 11\. Click the Preview tab for a larger view of the georeferenced map. Changing the transparency using the slider can give you a sense of how accurate your georeferencing has been applied.
 
-    {% include figure.html filename="mapwarper_preview.png" alt="Screenshot of the Preview tab of Map Warper's interface, with the scanned historical map of North Carolina and South Carolina overlaid onto a contemporary 'base layer' map of the same geographical region, at the same scale. A slider bar at the bottom of the interface is adjusted from the leftmost position, slightly towards the right." caption="Figure 10. Map Warper Preview." %}
+    {% include figure.html filename="en-tr-introduction-map-warper-10.png" alt="Screenshot of the Preview tab of Map Warper's interface, with the scanned historical map of North Carolina and South Carolina overlaid onto a contemporary 'base layer' map of the same geographical region, at the same scale. A slider bar at the bottom of the interface is adjusted from the leftmost position, slightly towards the right." caption="Figure 10. Map Warper Preview." %}
 
 ## Cropping
 The **Crop** tab allows you to crop a section of the uploaded map. This is useful for dividing maps into composites. The display window integrates the following actions:  
 
-* ![Move around map icon](/images/introduccion-map-warper/move_around_map.gif):  **Move around Map**
-* ![Polygon icon](/images/introduccion-map-warper/Draw_new_polygon.gif): **Draw new polygon to mask**
-* ![Delete a polygon icon](/images/introduccion-map-warper/delete_polygon.gif):  **Delete a polygon**
+* ![Move around map icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon5.gif):  **Move around Map**
+* ![Polygon icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon10.gif): **Draw new polygon to mask**
+* ![Delete a polygon icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon11.gif):  **Delete a polygon**
 
 Draw around the area you wish you keep. Then to apply the mask to the map, click "Mask Map!"
 
@@ -221,7 +221,7 @@ Draw around the area you wish you keep. Then to apply the mask to the map, click
 The **Align** tab allows you to organize several maps into a mosaic. This tool is good for connecting fragmented maps, aerial photographs, and other fragmented cartographic documents. Click "align map" to align the images.
 
 ## Preview
-This tab allows you to visualize the results of your work in the **Rectify** step. This is useful to continue the georeferencing step.  The display window also integrates the same tools: move, zoom, transparency, and **layer** ![Layer icon](/images/introduccion-map-warper/layer_switcher_maximize.png).
+This tab allows you to visualize the results of your work in the **Rectify** step. This is useful to continue the georeferencing step.  The display window also integrates the same tools: move, zoom, transparency, and **layer** ![Layer icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon1.png).
 
 # Visualization
 
@@ -242,7 +242,7 @@ https://mapwarper.net/maps/tile/40217/{z}/{x}/{y}.png
 ```
 
 ## Activity
-The **Activity** tab maintains a summary of changes made to the map. The activity log includes the following fields: Time, User, Map, Activity summary, Version, and Further details. Any Map Warper user can monitor the changes to the map. Additionally, the ![RSS feed icon](/images/introduccion-map-warper/rss.png) "RSS Feed" allows the user to download general information about all changes in .rss format.
+The **Activity** tab maintains a summary of changes made to the map. The activity log includes the following fields: Time, User, Map, Activity summary, Version, and Further details. Any Map Warper user can monitor the changes to the map. Additionally, the ![RSS feed icon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon12.png) "RSS Feed" allows the user to download general information about all changes in .rss format.
 
 ## Comments
 The **Comments** tab allows users to aggregate comments about the map. This is an open channel that allows others to communicate with the user who shared the cartographic material. It is also a useful place to enrich the description and cataloging of the uploaded map. Make sure to click **add comment** to save.
