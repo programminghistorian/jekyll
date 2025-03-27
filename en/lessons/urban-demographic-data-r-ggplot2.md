@@ -91,11 +91,9 @@ In the grammar of graphics, all plots are composed of a series of seven interrel
 To begin using ggplot2, you need to install and load it. We recommend installing the [tidyverse](https://www.tidyverse.org), a collection of R packages including ggplot2 which work together to provide a consistent and efficient workflow for data manipulation, exploration, and visualization. At the core of the tidyverse philosophy is the concept of ['tidy data'](https://perma.cc/XGM5-7SYY), a standardized way of structuring data to make it easier to work with. In tidy data, each variable is a column, each observation is a row, and each type of observational unit is a table. This structure allows for a consistent and predictable way of working with data across different packages and functions within the tidyverse. For more details, see the book [_R for Data Science. Import, Tidy, Transform, Visualize and Model Data_](https://perma.cc/W8CR-JW2L) written by Hadley Wickam et al.
 
 ```
-
 install.packages("tidyverse")
 
 library("tidyverse")
-
 ```
 
 ### Loading Data with readr
@@ -112,8 +110,6 @@ Now, bring up the data as a tibble (13,081 x 15):
 
 ```
 eudata
-
-[etc]
 ```
 
 The tidyverse converts our data to a 'tibble' rather than a 'data frame'. Tibbles are a part of the tidyverse universe that serve the same function as data frames, but make decisions on the backend about how to import and display the data with R. R is a relatively old programming language and, as a result, defaults that made sense during the original implementation are often less helpful now. Tibbles, unlike data frames, do not change variable names, convert the input type, or create row names. You can [learn more about tibbles here](https://perma.cc/4BJY-8M8U). If this does not make sense, don't worry! In most cases, we can treat tibbles like data frames and easily convert between the two. If you need to convert your data frame to a tibble, use the `as_tibble()` function with the data frame's name as the parameter. Likewise, to convert back to a data frame, use the `as.data.frame()` function.
