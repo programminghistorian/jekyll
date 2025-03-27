@@ -3331,3 +3331,10 @@
       Adam Farquhar is CEO of Digital Lifecycle Management Limited, UK
   team_roles:
     - proghist
+
+- name: Diana Santos
+  orcid: 0000-0002-3108-7706
+  team: false
+  bio:
+    pt: |
+      Diana Santos é professora catedrática no Departamento de Literatura, Estudos de Área e Línguas Europeias da Universidade de Oslo, Noruega.
