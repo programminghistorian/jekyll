@@ -193,7 +193,7 @@ So far, you have been introduced to the key syntax needed to operate ggplot2: cr
 
 You can easily configure various aspects of each of these `geom()` types, such as their size and color.
 
-To practice handling these geoms, let's create a histogram to visualize an important urban characteristic of sister cities: the distance between them. This spatial aspect can help understand how geographic proximity influences city partnerships. To run the next chunk of code, once you've loaded tidyverse (or dplyr) to ensure the filter doesn't throw an error, run the following code to filter the data and visualize it.
+To practice handling these geoms, let's create a histogram to visualize an important urban characteristic of sister cities: the distance between them. This spatial aspect can help understand how geographic proximity influences city partnerships. Run the following short chunk of code to filter the data and visualize it. Remember to load tidyverse or dplyr first, to ensure the filter doesn't throw an error.
 
 ```
 eudata.filtered <- filter(eudata, dist < 5000)
