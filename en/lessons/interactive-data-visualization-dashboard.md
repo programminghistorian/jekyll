@@ -88,7 +88,7 @@ In this lesson, you will write code in a `.py` file stored in a folder on your l
 
 ### Prerequisites
 
-  * Python 3 (3.7.13 or later) (see [Mac Installation](/en/lessons/mac-installation), [Windows Installation](en/lessons/windows-installation), or [Linux Installation](en/lessons/linux-installation))
+  * Python 3 (3.7.13 or later) (see [Mac Installation](/en/lessons/mac-installation), [Windows Installation](/en/lessons/windows-installation), or [Linux Installation](/en/lessons/linux-installation))
   * Command line (see introduction for [Windows](/en/lessons/intro-to-powershell) or [macOS/Linux](/en/lessons/intro-to-bash))
   * A text editor to write Python code (options include [Atom](https://atom.io/), [Notepad++](https://notepad-plus-plus.org/), [Visual Studio Code](https://code.visualstudio.com/))
   * A [GitHub](https://github.com) account
