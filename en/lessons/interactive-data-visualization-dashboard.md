@@ -107,14 +107,18 @@ A virtual environment in Python is a self-contained directory that uses a specif
 
 There are several ways to create a virtual environment. One way is to use `conda` ([see Charlie Harper's _Programming Historian_ lesson for more details](/en/lessons/visualizing-with-bokeh#prerequisites)). This is a good option if you are already using [Anaconda](https://perma.cc/Y3TS-X2E2) for more data-science-oriented projects. Assuming that you are starting fresh, it would be more appropriate to go for a more lightweight method by using [virtualenv](https://virtualenv.pypa.io/en/latest/). To install, open a command line window and run `$pip install virtualenv`.
 
-Next, create a folder in your preferred location and name it `ph-dash`. In your command line, navigate to the `ph-dash` directory. To create a virtual environment called `venv`, run `$virtualenv venv`. Then, you need to activate the virtual environment by running:
+Next, create a folder in your preferred location and name it `ph-dash`. In your command line, navigate to the `ph-dash` directory. To create a virtual environment called `venv`, run `$virtualenv venv`. Then, you need to activate the virtual environment. 
+
+If you're working in Windows, run:
 
 ```
-$venv\Scripts\activate # For Windows
+$venv\Scripts\activate
 ```
-or:
+
+If you're wrorking in macOS or Linux, run: 
+
 ```
-$source venv/bin/activate # For macOS/Linux
+$source venv/bin/activate
 ```
 
 If this command is successfully executed, you will notice a pair of parentheses around `venv`, the name of the created virtual environment, at the start of the current line in your command line window. 
