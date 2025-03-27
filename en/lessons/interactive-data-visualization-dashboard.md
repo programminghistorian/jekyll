@@ -15,7 +15,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/609
 difficulty: 3
 activity: presenting
 topics: [data-visualization, website]
-abstract: This lesson shows how to create interactive web-based dashboards using Python's Dash library. Using two media case studies, this lesson provides a practical guide for making digital humanities research outputs more accessible and engaging.
+abstract: This lesson shows how to create interactive web-based dashboards using Python's Dash library. Using two news media case studies, this lesson provides a practical guide for making digital humanities research outputs more accessible and engaging.
 avatar_alt: Drawing of a young woman teaching arithmetic to a child, sitting in front of a blackboard.
 doi: 10.46430/phen0124
 ---
@@ -495,7 +495,7 @@ In your repository, you will need two essential files: a `.py` file that contain
 
 ### Setting up in Render
 
-You can sign up to Render free using an email address, and create a new '[Web Service](https://render.com/docs/web-services)'. If your GitHub repository is public, you can copy and paste the repository's HTTPS address into the 'Public Git Repository' address field. Otherwise, you can also link your GitHub account to Render, giving Render access to your private repository.
+You can sign up to Render for free using an email address, and create a new '[Web Service](https://render.com/docs/web-services)'. If your GitHub repository is public, you can copy and paste the repository's HTTPS address into the 'Public Git Repository' address field. Otherwise, you can also link your GitHub account to Render, giving Render access to your private repository.
 
 On the next screen, you will enter several pieces of information. In addition to giving your dashboard a name, you'll need to configure two more settings (assuming all the populated default settings are correct). 
 
