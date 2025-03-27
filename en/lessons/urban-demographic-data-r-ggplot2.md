@@ -92,7 +92,6 @@ To begin using ggplot2, you need to install and load it. We recommend installing
 
 ```
 install.packages("tidyverse")
-
 library("tidyverse")
 ```
 
@@ -126,8 +125,7 @@ Let's start by counting how many destination cities are either domestic (same co
 
 ```
 ggplot(eudata, aes(x = typecountry)) +
-
-geom_bar()
+  geom_bar()
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-01.png" alt="A bar graph showing the total count of destination cities that are domestic, EU, and non-EU" caption="Figure 1. Bar graph showing the total count of destination cities that are domestic, EU, and non-EU." %}
@@ -144,11 +142,12 @@ Because ggplot2 works within a consistent syntax, you can easily modify your plo
 
 ```
 eudata.perc <- eudata %>%
-group_by(typecountry) %>%
-summarise(total = n()) %>%
-mutate(perc = total/sum(total))
+  group_by(typecountry) %>%
+  summarise(total = n()) %>%
+  mutate(perc = total/sum(total))
+
 ggplot(data = eudata.perc, aes(x = typecountry, y = perc)) +
-geom_bar(stat = "identity")
+  geom_bar(stat = "identity")
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-02.png" alt="Bar graph showing percentage of destination cities that are domestic, EU, and non-EU." caption="Figure 2. Bar graph showing percentage of destination cities that are domestic, EU, and non-EU." %}
@@ -159,16 +158,12 @@ Figure 2 shows that most sister cities are from a different country than the ori
 
 ```
 `eudata.perc.country` <- eudata %>%
-
-group_by(origincountry, typecountry) %>%
-
-summarise(total = n()) %>%
-
-mutate(perc = total/sum(total))
+  group_by(origincountry, typecountry) %>%
+  summarise(total = n()) %>%
+  mutate(perc = total/sum(total))
 
 ggplot(data = `eudata.perc.country`, aes(x = typecountry, y = perc, fill = origincountry)) +
-
-geom_bar(stat = "identity", position="dodge")
+  geom_bar(stat = "identity", position="dodge")
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-03.png" alt="Bar graph showing the percentage of destination cities that are domestic, EU, and non-EU with aggregated data per country and type of country." caption="Figure 3. Bar graph showing the percentage of destination cities that are domestic, EU, and non-EU, aggregating data by country name and type." %}
@@ -217,7 +212,8 @@ You can use a [cumulative distribution function (ECDF)](https://perma.cc/QL57-3B
 In ggplot2, you can create an ECDF by adding the `stat_ecdf()` layer to your plot. Here's an example:
 
 ```
-ggplot(eudata, aes(x=dist)) + stat_ecdf()
+ggplot(eudata, aes(x=dist)) +
+  stat_ecdf()
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-05.png" alt="ECDF Graph showing the distances between sister cities." caption="Figure 5. ECDF graph showing the distances between sister cities." %}
@@ -227,7 +223,8 @@ Let's examine this ECDF plot created using the unfiltered `eudata` data frame: i
 Lastly, you will create a box plot to compare how different countries structure their urban relationships across space. This visualization will help understand how certain countries tend to form more localized urban networks while others maintain broader geographic connections. By comparing the distribution of distances, you can identify national patterns in how cities build their international relationships.
 
 ```
-ggplot(eudata.filtered, aes(x = origincountry, y = dist)) + geom_boxplot()
+ggplot(eudata.filtered, aes(x = origincountry, y = dist)) +
+  geom_boxplot()
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-06.png" alt="Boxplots showing distances (in km) between sister cities of different countries." caption="Figure 6. Box plots showing distances (in km) between sister cities, grouped by country." %}
@@ -257,13 +254,8 @@ eudata.sample <- slice_sample(eudata, prop = 0.15)
 Then create a plot by running the following code: 
 
 ```
-ggplot(data = eudata.sample,
-
-aes(x = log(originpopulation),
-
-y = log(destinationpopulation))) +
-
-geom_point()
+ggplot(data = eudata.sample, aes(x = log(originpopulation), y = log(destinationpopulation))) +
+  geom_point()
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-07.png" alt="Scatter plot displaying the relationship of population (in natural logarithm) in 15% of the sister cities that were randomly selected." caption="Figure 7. Scatter plot comparing the population size (in natual logarithm) of randomly selected sister-city pairs." %}
@@ -271,13 +263,8 @@ geom_point()
 Now that you have created this basic plot, you can start playing with its appearance. Why not begin by applying a fixed size and color to the points? The code below changes the point color to a dark burgundy, using the hex code #4B0000:
 
 ```
-ggplot(data = eudata.sample,
-
-aes(x = log(originpopulation),
-
-y = log(destinationpopulation))) +
-
-geom_point(size = 0.8, color = "#4B0000")
+ggplot(data = eudata.sample, aes(x = log(originpopulation), y = log(destinationpopulation))) +
+  geom_point(size = 0.8, color = "#4B0000")
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-08.png" alt="Changing the size and color of the points of a scatterplot." caption="Figure 8. Changing the size and color of the points in the scatter plot." %}
@@ -287,21 +274,9 @@ To discover other available arguments, you can visit the `geom_point()` function
 You can keep improving the plot by adding axis labels and a title. Manipulating axes is usually done through the corresponding `scales` functions, which we will cover later on. But since changing the plot's legends is a very common action, ggplot also provides the shorter function [`labs()`](https://perma.cc/544S-88AV) (which stands for labels) for this specific purpose:
 
 ```
-ggplot(data = eudata.sample,
-
-aes(x = log(originpopulation),
-
-y = log(destinationpopulation))) +
-
-geom_point(size = 0.8, color = "#4B0000") +
-
-labs(title = "Population size of origin and destination city",
-
-caption = "Data: [www.wikidata.org](http://www.wikidata.org)",
-
-x = "Population of origin city (log)",
-
-y = "Population of destination city (log)")
+ggplot(data = eudata.sample, aes(x = log(originpopulation), y = log(destinationpopulation))) +
+  geom_point(size = 0.8, color = "#4B0000") +
+  labs(title = "Population size of origin and destination city", caption = "Data: [www.wikidata.org](http://www.wikidata.org)", x =     "Population of origin city (log)", y = "Population of destination city (log)")
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-09.png" alt="Scatterplot with added titles and caption using the labs() function." caption="Figure 9. Adding axis labels and a title." %}
@@ -325,21 +300,9 @@ You may sometimes want to enhance your graph by encoding additional information,
 For instance, say you want to distinguish between the different sister-city relationships by highlighting the type of destination country in each pair. Our dataset's `typecountry` variable is a categorical variable which indicates whether the destination city is in the same country as the origin city, in another EU country, or another non-EU country. To incorporate this information, you can map the `typecountry` variable to the `color` parameter by passing the `aes()` function to `geom_point()`:
 
 ```
-ggplot(data = eudata.sample,
-
-aes(x = log(originpopulation),
-
-y = log(destinationpopulation))) +
-
-geom_point(size = 0.8, alpha = 0.7, aes( color = typecountry )) +
-
-labs(title = "Population size of origin and destination city",
-
-caption = "Data: [www.wikidata.org](http://www.wikidata.org)",
-
-x = "Population of origin city (log)",
-
-y = "Population of destination city (log)")
+ggplot(data = eudata.sample, aes(x = log(originpopulation), y = log(destinationpopulation))) +
+  geom_point(size = 0.8, alpha = 0.7, aes( color = typecountry )) +
+  labs(title = "Population size of origin and destination city", caption = "Data: [www.wikidata.org](http://www.wikidata.org)", x =     "Population of origin city (log)", y = "Population of destination city (log)")
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-10.png" alt="Scatterplot using colors to distinguish different types of sister city relationships based on the location of the destination city." caption="Figure 10. Using colors in scatter plots to visualize different country types." %}
@@ -361,27 +324,16 @@ In ggplot2, scales follow a naming convention consisting of three parts separate
 Before you start adding scales, it will be helpful to store your previous plot in a variable `p1`: this is a convenient way to create different versions of the same plot in order to vary only certain aspects of it.
 
 ```
-p1 <- ggplot(data = eudata.sample,
-
-aes(x = log(originpopulation),
-
-y = log(destinationpopulation))) +
-
-geom_point(size = 0.8, alpha = 0.7, aes( color = typecountry )) +
-
-labs(title = "Population size of origin and destination city",
-
-caption = "Data: [www.wikidata.org](http://www.wikidata.org)",
-
-x = "Population of origin city (log)",
-
-y = "Population of destination city (log)")
+p1 <- ggplot(data = eudata.sample, aes(x = log(originpopulation), y = log(destinationpopulation))) +
+  geom_point(size = 0.8, alpha = 0.7, aes( color = typecountry )) +
+  labs(title = "Population size of origin and destination city", caption = "Data: [www.wikidata.org](http://www.wikidata.org)", x =     "Population of origin city (log)", y = "Population of destination city (log)")
 ```
 
 One common use of scales is to change the colors of a plot. To manually specify the colors you want, you can use the `scale_color_manual()` function and provide a [vector](https://perma.cc/XV2R-DLSY) of color values, using color names [defined by R](https://perma.cc/TM3F-D8JP) or their hexadecimal codes. [`scale_colour_manual()`](https://perma.cc/T72S-NYXC) takes a compulsory argument (`values =`), namely a vector of the color names. In this way, you can create graphs with your chosen colors:
 
 ```
-p1 + scale_colour_manual(values = c("red", "blue", "green"))
+p1 +
+  scale_colour_manual(values = c("red", "blue", "green"))
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-11.png" alt="Scatter plot that uses scale_colour_manual() to change the colors of the scatterplot points." caption="Figure 11. Using scale_colour_manual() to specify the colors of the scatter plot's points." %}
@@ -389,7 +341,8 @@ p1 + scale_colour_manual(values = c("red", "blue", "green"))
 However, you can also simply rely on predefined color scales, such as the [color brewer palettes](http://colorbrewer2.org). It's better to use these whenever possible, because choosing the right colors for visualizations is a very complicated issue (for instance, avoiding colors that are not distinguishable by people with impaired vision). Fortunately, ggplot2 comes with `scale_colour_brewer()` already [integrated](https://perma.cc/BST9-7GMG):
 
 ```
-p1 + scale_colour_brewer(palette = "Dark2") # you can try others such as "Set1", "Accent", etc.
+p1 +
+  scale_colour_brewer(palette = "Dark2") # you can try others such as "Set1", "Accent", etc.
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-12.png" alt="Scatter plot that uses scale_colour_brewer() to change the colors of the scatterplot points." caption="Figure 12. Using scale_colour_brewer() to change the colors of the scatter plot's points." %}
@@ -398,23 +351,10 @@ In the scatter plot above, you learned how to represent a qualitative (or catego
 
 
 ```
-p2 <- ggplot(data = eudata.sample,
-
-aes(x = log(originpopulation),
-
-y = log(destinationpopulation))) +
-
-geom_point(size = 0.8, aes( color = log(dist) )) +
-
-labs(title = "Population size of origin and destination city",
-
-subtitle = "Colored by distance between cities",
-
-caption = "Data: [www.wikidata.org](http://www.wikidata.org)",
-
-x = "Population of origin city (log)",
-
-y = "Population of destination city (log)")
+p2 <- ggplot(data = eudata.sample, aes(x = log(originpopulation),y = log(destinationpopulation))) +
+  geom_point(size = 0.8, aes( color = log(dist) )) +
+  labs(title = "Population size of origin and destination city", subtitle = "Colored by distance between cities",
+    caption = "Data: [www.wikidata.org](http://www.wikidata.org)", x = "Population of origin city (log)", y = "Population of            destination city (log)")
 
 p2
 ```
@@ -434,7 +374,8 @@ There are [several methods for creating gradient scales in ggplot2](https://perm
 You can work with the `p2` object created earlier and use the `+` operator to modify it. You've already mapped the `dist` variable (distance between cities) to the color aesthetic using `color = dist` inside the `aes()` function. Now, add the `scale_colour_gradient()` function to customize the color gradient. In the code below, you set the color for the lowest value of the `dist` variable to white and the highest value to the hex code for a dark burgundy (#4B0000). This means lighter shades of red will represent shorter distances, while darker shades represent longer distances.
 
 ```
-p2 + scale_colour_gradient(low = "white", high = "red3")
+p2 +
+  scale_colour_gradient(low = "white", high = "red3")
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-14.png" alt="Scatter plot showing population size of origin and destination city colored by distance between cities using scale_colour_gradient()" caption="Figure 14. Population size of origin and destination city colored by distance between cities using scale_colour_gradient()." %}
@@ -446,15 +387,9 @@ Building upon these insights, let's now modify the scatter plot's legend. Custom
 You can modify the legend by editing the `guide` parameter within the `scale_colour_gradient()` function. The guide parameter specifies the legend's title, position, and orientation. Here, you will also use the `guide_colorbar()` function to create a color bar legend representing the range of distances between cities.
 
 ```
-p2 <- p2 + scale_colour_gradient(low = "white",
-
-high = "red3",
-
-guide = guide_colorbar(title = "Distance in log(km)",
-
-direction = "horizontal",
-
-title.position = "top"))
+p2 <- p2 +
+  scale_colour_gradient(low = "white", high = "red3", guide = guide_colorbar(title = "Distance in log(km)", direction =
+    "horizontal", title.position = "top"))
 
 p2
 ```
@@ -469,10 +404,8 @@ Earlier in the lesson, you created a plot which highlighted whether destination 
 
 ```
 ggplot(`eudata.perc.country`, aes(x = typecountry, y = perc)) +
-
-geom_bar(stat = "identity") +
-
-facet_wrap(~origincountry)
+  geom_bar(stat = "identity") +
+  facet_wrap(~origincountry)
 ```
 
 The tilde (`~`) operator is commonly used in R formulas. Here, it indicates which variable ggplot2 should use to define the facetting structure. In other words, `~origincountry` formula tells ggplot2 to split the data based on the value of the `origincountry` variable, then create a separate graph to represent each value (in this case, each country). The resulting plot will display the bar graphs in a grid layout:
@@ -487,12 +420,11 @@ Setting a theme is very simple: just apply it as a new layer using the `+` opera
 
 ```
 p3 <- ggplot(`eudata.perc.country`, aes(x = typecountry, y = perc)) +
+  geom_bar(stat = "identity") +
+  facet_wrap(~origincountry)
 
-geom_bar(stat = "identity") +
-
-facet_wrap(~origincountry)
-
-p3 + theme_bw()
+p3 +
+  theme_bw()
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-17.png" alt="Faceted bar graph with changed static elements using the theme_bw() function." caption="Figure 17. Changing static elements using theme_bw()." %}
@@ -506,7 +438,8 @@ install.packages("ggthemes")
 
 library(ggthemes)
 
-p3 + theme_wsj()
+p3 +
+  theme_wsj()
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-18.png" alt="Bar graph with changed static elements using the theme_wsj() function from the ggthemes package." caption="Figure 18. Changing static elements using The Wall Street Journal theme." %}
@@ -523,22 +456,13 @@ This code is simple enough (again, using a log transformation due to the data's 
 
 ```
 install.packages("ggridges")
-
 library(ggridges)
 
 ggplot(eudata, aes(x=log(originpopulation), y = origincountry)) +
-
-geom_density_ridges() +
-
-theme_ridges() +
-
-labs(title = "Population (log) of the origin cities",
-
-caption = "Data: [www.wikidata.org](http://www.wikidata.org)",
-
-x = "Population (log)",
-
-y = "Country")
+  geom_density_ridges() +
+  theme_ridges() +
+  labs(title = "Population (log) of the origin cities", caption = "Data: [www.wikidata.org](http://www.wikidata.org)", x =
+    "Population (log)", y = "Country")
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-19.png" alt="Ridge plot showing the population (log) of different countries origins." caption="Figure 19. Extending ggplot2 with the ggridges package." %}
