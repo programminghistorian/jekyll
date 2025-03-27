@@ -198,7 +198,8 @@ To practice handling these geoms, let's create a histogram to visualize an impor
 ```
 eudata.filtered <- filter(eudata, dist < 5000)
 
-ggplot(eudata.filtered, aes(x=dist)) + geom_histogram()
+ggplot(eudata.filtered, aes(x=dist)) +
+  geom_histogram()
 ```
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-04.png" alt="Histogram showing distances (in natural log) between sister cities." caption="Figure 4. Histogram showing distances between sister cities." %}
