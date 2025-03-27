@@ -16,7 +16,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/606
 difficulty: 2
 activity: presenting
 topics: [r, data-visualization]
-abstract: This lesson demonstrates how to use R's ggplot2 package to create sophisticated data visualizations through a 'grammar of graphics' framework. Using real historical data about European sister-city relationships in the post-second world war period, including partnerships, population sizes, and geographic distances, the lesson guides readers through the process of creating various plots while exploring urban and demographic patterns.
+abstract: This lesson demonstrates how to use R's ggplot2 package to create sophisticated data visualizations through a 'grammar of graphics' framework. Using historical data about European sister-city relationships in the post-second world war period, including partnerships, population sizes, and geographic distances, the lesson guides readers through the process of creating various plots while exploring urban and demographic patterns.
 avatar_alt: Crop of hand-drawn nautical chart showing two cities in Spain
 doi: 10.46430/phen0123
 ---
