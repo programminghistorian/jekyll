@@ -3,7 +3,7 @@ title: "Visualização básica de dados tabulares com R"
 slug: visualizacao-basica-dados-tabulares-r
 layout: lesson
 collection: lessons
-date: 2025-03-27
+date: 2025-04-02
 authors:
 - Diana Santos
 reviewers:
