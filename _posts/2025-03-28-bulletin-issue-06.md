@@ -19,31 +19,31 @@ JIM CLIFFORD, JOSH MACFADYEN, & DANIEL MACFARLANE, traduzido por LUANNA KAORI
 [Instalando o QGIS e adicionando camadas](https://doi.org/10.46430/phpt0052)
 - Nessa lição, fará a instalação do programa QGIS, o downloado de arquivos geoespaciais como shapefiles e GeoTIFFs, e a criação de um mapa a partir de vários vetores e camadas raster.   
 
-CLÁUDIA DE SOUZA & DINAH M. WILSON FRAITES
+CLÁUDIA DE SOUZA & DINAH M. WILSON FRAITES     
 [Utilizar Datos Abiertos Enlazados para describir revistas académicas con Wikidata](https://doi.org/10.46430/phes0069)
 - Esta lección introduce Wikidata y proporciona una guía paso a paso para integrar metadatos de revistas y personas utilizando datos abiertos enlazados. Explora las mejores prácticas para insertar y gestionar los metadatos en Wikidata, con el fin de incrementar la visibilidad y accesibilidad de recursos en entornos digitales.
 
-NABEEL SIDDIQUI, traduite par DAMIEN BELVÈZE
+NABEEL SIDDIQUI, traduite par DAMIEN BELVÈZE     
 [Gestion et manipulation des données avec R](https://doi.org/10.46430/phfr0035)
 - Cette leçon guide les chercheurs et chercheuses dans l’organisation de leurs données pour les rendre « propres », et les aide à prendre en main les packages R qui leur permettront de conduire des analyses de base sur ces données.
 
-JUSTIN COLSON, traduzido por LUANNA KAORI 
+JUSTIN COLSON, traduzido por LUANNA KAORI      
 [Geocodificando Dados Históricos com o QGIS](https://doi.org/10.46430/phpt0051)
 - Aprenda a usar o QGIS para converter listas de nomes de lugares em coordenadas geográficas, permitindo que os mapeie.
 
-JASCHA SCHMITZ, MALTE VOGL, ALEKSANDRA KAYE & RAPHAEL SCHLATTMANN
+JASCHA SCHMITZ, MALTE VOGL, ALEKSANDRA KAYE & RAPHAEL SCHLATTMANN     
 [Simulating Historical Communication Networks in Python](https://doi.org/10.46430/phen0122)
 - This lesson introduces the core concepts, methodologies and discussions surrounding simulation methods for historical inquiry. It teaches the basics of programming a simulation model by building an Agent-Based Model of historical letter exchanges using the Python library mesa.
 
-ADAM CRYMBLE, traduzido por DANIELA GOMES
+ADAM CRYMBLE, traduzido por DANIELA GOMES     
 [Utilizar Gazetteers para Extrair Conjuntos de Palavras-chave de Textos Corridos](https://doi.org/10.46430/phpt0050)
 - Esta lección demustra los pasos para crear un conjunto de datos de textos usando la API de la biblioteca digital HathiTrust. Los datos obtenidos permitirán aplicar técnicas de minería textual para estudiar los textos.
 
 ## Appel à Traductions
 
-_Programming Historian en français_ lance un appel à traduction de leçons en espagnol vers le français, ciblé sur des thématiques qui concernent le traitement de données textuelles grâce au format d’encodage TEI (surtout les deux dernières de la liste).
+_Programming Historian en français_ lance un appel à traduction de leçons en espagnol vers le français, ciblé sur des thématiques qui concernent le traitement de données textuelles grâce au format d’encodage TEI (surtout les deux dernières leçons de la liste).
 
-Voir les détails : [https://tinyurl.com/appel-a-traductions](https://tinyurl.com/appel-a-traductions)
+Voir les détails&nbsp;: [https://tinyurl.com/appel-a-traductions](https://tinyurl.com/appel-a-traductions)
 
 Pour nous envoyer une proposition ou simplement nous poser une question, veuillez écrire à la rédactrice en chef [Marie Flesch](mailto:francais@programminghistorian.org).
 
