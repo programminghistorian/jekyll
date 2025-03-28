@@ -3332,6 +3332,13 @@
   team_roles:
     - proghist
 
+- name: Luling Huang
+  orcid: 0000-0003-0139-1771
+  team: false
+  bio:
+    en: |
+      Luling Huang is an Assistant Professor in the Department of Communication at Missouri Western State University.
+
 - name: Igor Sosa Mayor
   team: false
   orcid: 0000-0003-3645-8454
