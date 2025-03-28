@@ -46,7 +46,7 @@ Al finalizar este tutorial se tendrá la capacidad de georreferenciar materiales
 ### Iniciar sesión
 Desde tu navegador favorito ingresa en [www.mapwarper.net](https://mapwarper.net/) y ve a la pestaña “Create Account” (Crear Cuenta), ubicada en la esquina superior derecha del portal. En Create Account introduce la información correspondiente según los campos solicitados. Recuerda que puedes utilizar tu cuenta de Facebook, OpenstreetMap y GitHub para agilizar el proceso de registro.
 
-![Registrarse en Map Warper](https://i.imgur.com/MXAKDDx.gif)
+{% include figure.html filename="es-or-introduccion-map-warper-01.gif" alt="Visual description of figure image" caption="Figura 1. Registrarse en Map Warper." %}
 
 ### Cargar mapa
 Para cargar un material cartográfico en Map Warper selecciona la pestaña “Upload Map”. Ahí podrás vincular el mapa directamente desde un archivo local o anclarla desde un repositorio web por medio de la URL correspondiente. En este paso también puedes ir agregando los metadatos del material a georreferenciar. Para concluir debes hacer clic en la opción “Create”.
@@ -91,9 +91,9 @@ En este segmento realizaremos la georreferenciación del documento cartográfico
 
 En este aspecto, para comprender mejor el desarrollo de esta acción técnica, detallamos cada una de las funciones y opciones disponibles a tener en cuenta en el segmento de "Rectify":
 
-![Layer](https://mapwarper.net/assets/openlayers/theme/dark/layer_switcher_maximize.png): El botón *Layer* (capa) nos permite seleccionar la capa base de OpenStreetMap o la de Mapbox Satellite. Además, incluye la función *Overlays* (superponer) que permite sobreponer el mapa de trabajo -el Mapa Cafetero de la República de Colombia o el que usted seleccionó- después de confirmada la georreferenciación.
+![Layer](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon1.png): El botón *Layer* (capa) nos permite seleccionar la capa base de OpenStreetMap o la de Mapbox Satellite. Además, incluye la función *Overlays* (superponer) que permite sobreponer el mapa de trabajo -el Mapa Cafetero de la República de Colombia o el que usted seleccionó- después de confirmada la georreferenciación.
 
-![Add Custom Basemap](/images/introduccion-map-warper/add%20custom%20base%20map.png): El botón *Add Custom Basemap* (agregar mapa base), ubicado en el recuadro del lado derecho, nos permite añadir otra capa base de servidor, tipo XYZ Tiles, tal es el caso de las capas disponibles de: OpenStreetMap, Google Maps, Bing, CARTO, ESRI, Stamen, entre otras. También las cartografías georreferenciadas contenidas en la aplicación de Map Warper.
+![Add Custom Basemap](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon2.png): El botón *Add Custom Basemap* (agregar mapa base), ubicado en el recuadro del lado derecho, nos permite añadir otra capa base de servidor, tipo XYZ Tiles, tal es el caso de las capas disponibles de: OpenStreetMap, Google Maps, Bing, CARTO, ESRI, Stamen, entre otras. También las cartografías georreferenciadas contenidas en la aplicación de Map Warper.
 
 ~~~
 Google Maps: https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}
@@ -103,25 +103,25 @@ CARTO dark: http://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png
 Stamen Watercolor: http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg
 ~~~
 
-![Add control point](/images/introduccion-map-warper/add%20control%20point.gif): El botón *Add control point* (agregar punto de control), ubicado en ambos recuadros, sirve para posicionar los puntos de control que relacionan el mapa vinculado o seleccionado con la capa base predeterminada o establecida.
+![Add control point](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon3.gif): El botón *Add control point* (agregar punto de control), ubicado en ambos recuadros, sirve para posicionar los puntos de control que relacionan el mapa vinculado o seleccionado con la capa base predeterminada o establecida.
 
 Al hacer clic en el botón, debemos ubicar un punto de control en ambos recuadros, buscando la debida correspondencia entre el mapa vinculado con el mapa base y, luego de tener certeza de las respectivas ubicaciones, se da clic en el botón inferior *Add Control Point* para confirmar el punto. Luego la acción se replica hasta alcanzar el número de puntos de control deseados (>3) y la confirmación de los resultados se verá reflejada al hacer clic en *WARP IMAGEN!*.
 
 >Recomendamos acercarse en ambas ventanas de visualización al agregar el punto, para verificar la correspondencia del punto asignado, ya que la acción ayudará a confirmar y precisar la ubicación de cada uno de los puntos de control asignados. La precisión entre las geometrías del mapa georreferenciado será proporcional al número de puntos de control asignados.
 
-![Move control point](/images/introduccion-map-warper/move%20control%20point.gif): El botón *Move Control Point* (mover punto de control) permite desplazar o reubicar los puntos de control ya añadidos en ambas ventanas de visualización.
+![Move control point](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon4.gif): El botón *Move Control Point* (mover punto de control) permite desplazar o reubicar los puntos de control ya añadidos en ambas ventanas de visualización.
 
-![Move around map](https://i.imgur.com/qltUq7S.gif): El botón *Move Around Map* (moverse por el mapa) permite explorar los mapas en ambas ventanas de visualización, sin la necesidad de asignar o mover punto de control alguno, apropiada  para la verificación de puntos asignados.
+![Move around map](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon5.gif): El botón *Move Around Map* (moverse por el mapa) permite explorar los mapas en ambas ventanas de visualización, sin la necesidad de asignar o mover punto de control alguno, apropiada  para la verificación de puntos asignados.
 
-El candado que se encuentra ubicado en medio de los dos recuadros de visualización, ayuda a guiar la asignación y el movimiento de puntos de control. La opción ![Zoom lock](/images/introduccion-map-warper/Candado_cerrado.png) *Zoom lock* (candado bloqueado) permite una sincronización entre el zoom de las dos ventanas de visualización, útil para facilitar la ubicación y verificación de puntos de control. Asimismo, el botón integra la opción ![Pan](/images/introduccion-map-warper/lock_open.png) *Pan* (candado abierto), contraria a *Zoom lock*, debido a que permite ejecutar un acercamiento independiente y no sincronizado en cada recuadro de visualización.
+El candado que se encuentra ubicado en medio de los dos recuadros de visualización, ayuda a guiar la asignación y el movimiento de puntos de control. La opción ![Zoom lock](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon6.png) *Zoom lock* (candado bloqueado) permite una sincronización entre el zoom de las dos ventanas de visualización, útil para facilitar la ubicación y verificación de puntos de control. Asimismo, el botón integra la opción ![Pan](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon7.png) *Pan* (candado abierto), contraria a *Zoom lock*, debido a que permite ejecutar un acercamiento independiente y no sincronizado en cada recuadro de visualización.
 
-![Georectificación](/images/introduccion-map-warper/Rectify.gif)
+{% include figure.html filename="es-or-introduccion-map-warper-02.gif" alt="Visual description of figure image" caption="Figura 2. Georectificación." %}
 
-![Keyboard shortcuts](https://mapwarper.net/assets/icons/keyboard-6e91cf12c7ef90c54f1c1038b5166a34.png): El botón *Keyboard shortcuts* (atajos de teclado) referencia las letras de acceso rápido de nuestro teclado que proporcionan una forma alternativa y sencilla de acciones que podrían tardar más tiempos hacerlas con el mouse.
+![Keyboard shortcuts](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon8.png): El botón *Keyboard shortcuts* (atajos de teclado) referencia las letras de acceso rápido de nuestro teclado que proporcionan una forma alternativa y sencilla de acciones que podrían tardar más tiempos hacerlas con el mouse.
 
- + *p*: La tecla activa el modo *Move Control Point* ![Add control point](/images/introduccion-map-warper/add%20control%20point.gif)
-+ *d*: La tecla activa el modo *Move Control Point* ![Move control point](/images/introduccion-map-warper/move%20control%20point.gif)
-+ *m*: La tecla activa el modo *Move Around Map* ![Move around map](https://i.imgur.com/qltUq7S.gif)
+ + *p*: La tecla activa el modo *Move Control Point* ![Add control point](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon3.gif)
++ *d*: La tecla activa el modo *Move Control Point* ![Move control point](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon4.gif)
++ *m*: La tecla activa el modo *Move Around Map* ![Move around map](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon5.gif)
 
 + *q*: La tecla agrega la marca de punto de control sobre la posición del mouse.
 + *a*: La tecla agrega las marcas de punto de control sobre la posición del mouse, sincronizando la posición en ambas ventanas de visualización.
@@ -132,15 +132,15 @@ El candado que se encuentra ubicado en medio de los dos recuadros de visualizaci
 
 También incluye un campo que define el valor del error geométrico, producto de las alteraciones que provocó la georreferenciaciónen en la geometría del mapa antiguo. En donde se discrimina el valor de error de cada punto y la media ponderada de los mismo. De igual modo, propone una clasificación cromática que va desde color azul hasta el color rojo, en sentido ascendente del valor de error.
 
-El archivo ![csv]( https://mapwarper.net/assets/csv-20x25-6bb4f7d2df14b1f8031eac9c98523bdf.png) disponible al final de la tabla permite exportar la compilación de datos obtenidos. El archivo es conveniente para importa dichos datos a distintas aplicaciones que leen este tipo de información. La compilación también se podría pensar como archivo de preservación digital del proceso de georreferenciación del mapa antiguo.
+El archivo ![csv](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon9.png) disponible al final de la tabla permite exportar la compilación de datos obtenidos. El archivo es conveniente para importa dichos datos a distintas aplicaciones que leen este tipo de información. La compilación también se podría pensar como archivo de preservación digital del proceso de georreferenciación del mapa antiguo.
 
-![Georrectificación](/images/introduccion-map-warper/Rectify_II.gif)
+{% include figure.html filename="es-or-introduccion-map-warper-03.gif" alt="Visual description of figure image" caption="Figura 3. Georrectificación (parte 2)." %}
 
 ***Add Control Point Manually*** (Agregar punto de control manualmente): Al dar clic en *Add Control Point Manually*, se agrega un punto de control vacío con valores al cero en coordenadas de origen (Image X – Imagen Y) y de destino (Lon - Lat). La opción da la posibilidad de agregar los valores manualmente en la tabla de control. Asimismo, en caso de conocer las coordenadas geográficas a referenciar, facilita una alineación más precisa entre los puntos de control de origen y de destino en la georreferenciación del mapa trabajado.
 
 ***Add Control Points from CSV*** (Agregar puntos de control desde CSV): Esta opción permite cargar un archivo `.csv` (Comma Separated Values) para automatizar la georreferenciación del mapa. La primera línea del archivo `.csv` deberá contener las etiquetas de la tabla de *Control Points*, y cada una de las líneas siguientes, deberá contener los valores de los puntos de control de las coordenadas de origen (Image X – Imagen Y) y de destino (Lon - Lat), separados por comas.
 
-El siguiente ejemplo de `.csv` tiene cuatro columnas, etiquetas con: 'x', 'y', 'lon' y 'lat', además tiene once filas incluida la fila del encabezado, mismo archivo que se descargó en el botón de ![csv]( https://mapwarper.net/assets/csv-20x25-6bb4f7d2df14b1f8031eac9c98523bdf.png) de la imagen anterior.
+El siguiente ejemplo de `.csv` tiene cuatro columnas, etiquetas con: 'x', 'y', 'lon' y 'lat', además tiene once filas incluida la fila del encabezado, mismo archivo que se descargó en el botón de ![csv](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon9.png) de la imagen anterior.
 
 ~~~
 x,y,lon,lat
@@ -157,17 +157,17 @@ x,y,lon,lat
 ~~~
 
 ### Recorte
-La pestaña *Crop* permite recortar el área de interés del mapa trabajado, por lo que resulta útil para dividir mapas compuestos. El recuadro de visualización integra las siguientes acciones: ![enter image description here](https://i.imgur.com/qltUq7S.gif) *Move around Map* -mover mapa-, ![enter image description here](https://i.imgur.com/AcjK6gG.gif) *draw new polygon to mask* -dibujar polígono- y ![enter image description here](https://i.imgur.com/gcXUDga.gif) *delete a polygon* -eliminar polígono-. Una vez que hayamos demarcado el área a mantener, hacemos clic en “Mask Map” para finalizar el recorte de la imagen.
+La pestaña *Crop* permite recortar el área de interés del mapa trabajado, por lo que resulta útil para dividir mapas compuestos. El recuadro de visualización integra las siguientes acciones: ![enter image description here](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon5.gif) *Move around Map* -mover mapa-, ![enter image description here](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon10.gif) *draw new polygon to mask* -dibujar polígono- y ![enter image description here](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon11.gif) *delete a polygon* -eliminar polígono-. Una vez que hayamos demarcado el área a mantener, hacemos clic en “Mask Map” para finalizar el recorte de la imagen.
 
-![enter image description here](https://i.imgur.com/hYGuouI.gif)
+{% include figure.html filename="es-or-introduccion-map-warper-04.gif" alt="Visual description of figure image" caption="Figura 4." %}
 
 ### Alinear
 La pestaña *Align* permite organizar como mosaico un conjunto de cartografías. Es una herramienta adecuada para conectar mapas fragmentados, fotografías aérea y demás documentos cartográficos que se encuentran fragmentados. No olvides hacer clic en “align map” para realizar la alineación de las imágenes.
 
-![enter image description here](https://i.imgur.com/qd3j7pw.gif)
+{% include figure.html filename="es-or-introduccion-map-warper-05.gif" alt="Visual description of figure image" caption="Figura 5." %}
 
 ### Previsualización
-Esta pestaña permite visualizar los resultados ejecutados del paso *Rectify*. Es útil para hacer seguimiento al proceso de georreferenciación llevado en curso. Al mismo tiempo, el recuadro de visualización integra las herramientas de mover, zoom -ampliar o diminuir- , transparencia y *layer* ![layer](https://mapwarper.net/assets/openlayers/theme/dark/layer_switcher_maximize.png).
+Esta pestaña permite visualizar los resultados ejecutados del paso *Rectify*. Es útil para hacer seguimiento al proceso de georreferenciación llevado en curso. Al mismo tiempo, el recuadro de visualización integra las herramientas de mover, zoom -ampliar o diminuir- , transparencia y *layer* ![layer](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon1.png).
 
 ## Visualización
 ### Exportar
@@ -187,7 +187,7 @@ La pestaña *Export* permite descargar el mapa georreferenciado en diferentes fo
 >La imagen georreferenciada puede tener diferentes comportamientos debido a la proyección, el sistema de coordenadas, el elipsoide y el datum que utilice en el Sistema de Información Geográfica correspondiente.
 
 ### Actividad
-La pestaña “Activity” ayuda a monitorear el registro de intervención del documento cartográfico. La actividad reconoce los campos: “Time” (fecha), “User” (usuario), “Map” (código de imagen), “Activity summary” (resumen de la actividad), “Version” (versión de intervención) y “Further details” (detalles de la intervención). Por su parte, todos los usuarios de Map Warper pueden monitorear los cambios del material cartográfico. A la par, en el segmento Activity, pueden hacer clic en ![enter image description here](https://mapwarper.net/assets/feed-icon-14x14-c61922c8668fd4f58ea3660692ba7854.png) “RSS Feed” para descargar un informe general de las intervenciones ejecutadas, en formato `.rss`.
+La pestaña “Activity” ayuda a monitorear el registro de intervención del documento cartográfico. La actividad reconoce los campos: “Time” (fecha), “User” (usuario), “Map” (código de imagen), “Activity summary” (resumen de la actividad), “Version” (versión de intervención) y “Further details” (detalles de la intervención). Por su parte, todos los usuarios de Map Warper pueden monitorear los cambios del material cartográfico. A la par, en el segmento Activity, pueden hacer clic en ![enter image description here](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon12.png) “RSS Feed” para descargar un informe general de las intervenciones ejecutadas, en formato `.rss`.
 
 ### Comentar
 La pestaña *Comments* permite agregar comentarios sobre el documento cartográfico. Es un canal abierto que permite establecer comunicación con el usuario que compartió el material cartográfico. En donde también se podría alimentar los procesos de descripción y catalogación del mapa cargado, en la medida que usuarios sumen información sobre el documento georreferenciado. Por último, no olvides hacer clic en *add comment* para agregar el comentario.
