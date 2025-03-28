@@ -7,7 +7,7 @@ layout: post
 categories: posts 
 ---
 
-<p><figure><img src="/images/blog/ph-bulletin-banner.png" alt="Banner showing the four Programming Historian logos and the title Bulletin in each language "/><figcaption></figcaption> </figure></p>
+<p><figure><img src="/images/logos/ph-bulletin-banner.png" alt="Banner showing the four Programming Historian logos and the title Bulletin in each language "/><figcaption></figcaption> </figure></p>
 
 # Issue 06 - March 2025
 
@@ -47,20 +47,20 @@ Voir les détails : [https://tinyurl.com/appel-a-traductions](https://tinyurl.co
 
 Pour nous envoyer une proposition ou simplement nous poser une question, veuillez écrire à la rédactrice en chef [Marie Flesch](mailto:francais@programminghistorian.org).
 
-## Invest in Diamond
+## Invest in Open
 
 Would you like to join the vibrant network of Institutional Partners across Europe, Latin America, China, Canada and the United States who **invest in our success**?
 
-Institutional Partnerships empower us to **sustain our model of Diamond Open Access publishing**, and enable the continued growth of our multilingual portfolio of Digital Humanities lessons.
+Institutional Partnerships empower us to **sustain our model of Diamond Open Access publishing**, and enable the continued growth of our multilingual portfolio of digital humanities lessons.
 
 If you know that our work aligns with your organisation’s priorities and is valuable to your community, we’d love your help to connect with the right person.
 
 [Email our Publishing Manager](mailto:admin@programminghistorian.org) or visit [http://tinyurl.com/support-PH](http://tinyurl.com/support-PH) to learn more about joining our Institutional Partnership Programme.
 
-Grateful thanks to our valued partners who have renewed their membership this quarter: **Exeter University**, **Universiteit Gent**, **College of the Liberal Arts at Penn State University**, **KU Leuven Bibliotheken**, **University of York**, **C2DH**,the **National Archives**, the **School of Advanced Study (UoL)** and **Universität Bern Bibliothek**.
+Grateful thanks to our valued partners who have renewed their membership this quarter: **Exeter University**, **Universiteit Gent**, the **College of the Liberal Arts at Penn State University**, **KU Leuven Bibliotheken**, **University of York**, **C²DH**,the **National Archives**, the **School of Advanced Study (UoL)** and **Universität Bern Bibliothek**.
 
 We're also supported by a community of Patreons, whose generosity is instrumental to us as a charity-based publisher. **You can join us too** as an individual at Apprentice, Educator, Patron or Gold tier: 
-https://tinyurl.com/PH-patreon
+[https://tinyurl.com/PH-patreon](https://tinyurl.com/PH-patreon)
 
 ## Thank you, Zoe!
 
