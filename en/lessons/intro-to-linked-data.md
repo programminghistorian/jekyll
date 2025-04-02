@@ -8,6 +8,8 @@ reviewers:
 editors:
 - Adam Crymble
 date: 2017-05-07
+lesson-testers: David Valentine
+tested_date: 2025-02-28
 layout: lesson
 difficulty: 1
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/33
@@ -216,15 +218,15 @@ Turtle uses aliases or a shortcuts known as [prefixes](https://www.w3.org/TeamSu
 
 We don't want to type this out every time we refer to this person (Jack Straw, you'll remember). So we just have to announce our shortcut:
 
-    @prefix toby: <http://data.history.ac.uk/tobias-project/person> .
+    @prefix toby: <http://data.history.ac.uk/tobias-project/person/> .
 
 Then Jack is `toby:15601`, which replaces the long URI and is easier on the eye. I have chosen 'toby', but could just as easily chosen any string of letters.
 
 Let's now move from Jack Straw to William Shakespeare and use Turtle to describe some stuff about his works. We'll need to decide on the authority files to use, a process which, as mentioned above, is best gleaned from looking at other LOD sets. Here we'll use [Dublin Core](https://en.wikipedia.org/wiki/Dublin_Core), a library [metadata](https://en.wikipedia.org/wiki/Metadata) standard, as one of our prefixes, the [Library of Congress Control Number](https://en.wikipedia.org/wiki/Library_of_Congress_Control_Number) authority file for another, and the last one (VIAF) should be familiar to you. Together these three authority files provide unique identifiers for all of the entities I plan to use in this example.:
 
-    @prefix lccn: <http://id.loc.gov/authorities/names> .
+    @prefix lccn: <http://id.loc.gov/authorities/names/> .
     @prefix dc: <http://purl.org/dc/elements/1.1/> .
-    @prefix viaf: <http://viaf.org/viaf> .
+    @prefix viaf: <http://viaf.org/viaf/> .
 
     lccn:n82011242 dc:creator viaf:96994048 .
 
@@ -234,9 +236,9 @@ In the above example, lccn:n82011242 represents Macbeth; dc:creator links Macbet
 
 Turtle also allows you to list triples without bothering to repeat each URI when you've only just used it. Let's add the date when scholars think Macbeth was written, using the Dublin Core attribute-value pair: `dc:created 'YYYY'`:
 
-    @prefix lccn: <http://id.loc.gov/authorities/names> .
+    @prefix lccn: <http://id.loc.gov/authorities/names/> .
     @prefix dc: <http://purl.org/dc/elements/1.1/> .
-    @prefix viaf: <http://viaf.org/viaf> .
+    @prefix viaf: <http://viaf.org/viaf/> .
 
     lccn:n82011242 dc:creator viaf:96994048 ;
                dc:created "1606" .
@@ -313,11 +315,11 @@ If you're familiar with XML this will be like mother's milk to you. If you're no
 
 For this final section we will interrogate some LOD and see what you can do with it.
 
-The query language we use for LOD is called [SPARQL](https://en.wikipedia.org/wiki/SPARQL). It's one of those recursive acronyms beloved of techie people: *SPARQL Protocol and Query Language*.
+The query language we use for LOD is called [SPARQL](https://en.wikipedia.org/wiki/SPARQL). It's one of those recursive acronyms beloved of techie people: *SPARQL Protocol and RDF Query Language*.
 
 As I mentioned at the beginning, *Programming Historian* has [a complete lesson](/lessons/graph-databases-and-SPARQL), by Matthew Lincoln, on using SPARQL. My final section here is just an overview of the basic concepts, and if SPARQL piques your interest, you can get a thorough grounding from Lincoln's tutorial.
 
-We're going to run our SPARQL queries on [DBpedia](https://en.wikipedia.org/wiki/SPARQL), which is a huge LOD set derived from Wikipedia. As well as being full of information that is very difficult to find through the usual Wikipedia interface, it has several SPARQL "end points" - interfaces where you can type in SPARQL queries and get results from DBpedia's triples.
+We're going to run our SPARQL queries on [DBpedia](https://en.wikipedia.org/wiki/DBpedia), which is a huge LOD set derived from Wikipedia. As well as being full of information that is very difficult to find through the usual Wikipedia interface, it has several SPARQL "end points" - interfaces where you can type in SPARQL queries and get results from DBpedia's triples.
 
 The SPARQL query end point I use is called [snorql](http://dbpedia.org/snorql/). These end points occasionally seem to go offline, so if that should be the case, try searching for *dbpedia sparql* and you should find a similar replacement.
 
@@ -341,7 +343,7 @@ Let's start with something simple to see how this works. Paste (or, better, type
     :Lyndal_Roper ?b ?c
     }
 
-Hit 'go' and, if you left the drop-down box as 'browse' you should get two columns labelled "b" and "c". (Note that here, searching for a string, case does matter: lyndal_roper will get you no results.)
+Hit 'go' and, if you left the drop-down box as 'browse' you should get two columns labelled "b" and "c". (Note that here, case does matter: lyndal_roper will get you no results.)
 
 {% include figure.html filename="en-or-intro-to-linked-data-04.png" caption="Figure 4. Top of results lists for a query for all triples with 'Lyndal_Roper' as subject." %}
 
@@ -349,7 +351,7 @@ So what just happened? And how did I know what to type?
 
 I didn't, really, and that is one of the issues with SPARQL end points. When getting to know a dataset you have to try things and find out what terms are used. Because this comes from *Wikipedia*, and I was interested in what information on historians I could find, I went to the *Wikipedia* page for the historian [Lyndal Roper](https://en.wikipedia.org/wiki/Lyndal_Roper).
 
-The part at the end of the URL is `Lyndal_Roper` and I concluded that this string is likely to be how Roper is referred to in DBpedia. Because I don't know what else might be in triples that mention Roper I use `?a` and `?b`: these are just place-holders: I could equally well have typed `?whatever` and `?you_like` and the columns would have had those headings. When you want to be more precise about what you are returning, it will be more important to label columns meaningfully.
+The part at the end of the URL is `Lyndal_Roper` and I concluded that this string is likely to be how Roper is referred to in DBpedia. Because I don't know what else might be in triples that mention Roper I use `?b` and `?c`: these are just place-holders: I could equally well have typed `?whatever` and `?you_like` and the columns would have had those headings. When you want to be more precise about what you are returning, it will be more important to label columns meaningfully.
 
 Try your own SPARQL query now: choose a *Wikipedia* page and copy the end part of the URL, after the final slash, and put it in place of Lyndal\_Roper. Then hit 'go'.
 
@@ -373,7 +375,7 @@ Run the query. Does it work for you? I get a big list of historians.
 
 {% include figure.html filename="en-or-intro-to-linked-data-05.png" caption="Figure 5. Historians, according to DBpedia." %}
 
-So this works for creating lists, which is useful, but it would much more powerful to combine lists, to get intersections of sests. I found a couple more things that might be interesting to query in Lyndal Roper's DBpedia attributes: <http://dbpedia.org/class/yago/WikicatBritishHistorians> and <http://dbpedia.org/class/yago/WikicatWomenHistorians>. It's very easy to combine these by asking a for a variable to be returned (in our case this is `?name`) and then using that in multiple lines of a query. Note as well the space and full point at the end of the first line beginning with `?name`:
+So this works for creating lists, which is useful, but it would much more powerful to combine lists, to get intersections of sests. I found a couple more things that might be interesting to query in Lyndal Roper's DBpedia attributes: <http://dbpedia.org/class/yago/WikicatBritishHistorians> and <http://dbpedia.org/class/yago/WikicatWomenHistorians>. It's very easy to combine these by asking for a variable to be returned (in our case this is `?name`) and then using that in multiple lines of a query. Note as well the space and full point at the end of the first line beginning with `?name`:
 
 	SELECT ?name
 	WHERE {

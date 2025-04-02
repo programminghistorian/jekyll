@@ -23,6 +23,9 @@ translation-reviewer:
 - Florian Barras
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/584
+previous: du-html-a-une-liste-de-mots-1
+series_total: 2 lessons
+sequence: 2
 activity: transforming
 topics: [python]
 abstract: Dans cette leçon, nous allons implémenter l'algorithme découvert dans la leçon &laquo;&nbsp;Du HTML à une liste de mots, partie 1&nbsp;&raquo;, afin d'apprendre à découper une chaine de caractères en une liste de mots.

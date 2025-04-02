@@ -759,7 +759,6 @@
     - editorial
     - english
     - board
-    - technical
   status: institutionally-supported
 
 - name: Ted Dawson
@@ -1159,7 +1158,6 @@
       Jennifer Isasi é professora assistente e pesquisadora digital, diretora da Digital Liberal Arts Research Initiative na Penn State e doutorada em Estudos Hispânicos.
   team_roles:
     - spanish
-    - technical
     - managing
     - proghist
   status: institutionally-supported
@@ -1377,8 +1375,9 @@
   twitter: zoe_leblanc
   email: zgleblanc@gmail.com
   url: "http://zoeleblanc.com"
-  team: true
+  team: false
   team_start: 2018
+  team_end: 2025
   institution: University of Illinois
   sortname: LeBlanc
   affiliation:
@@ -1400,8 +1399,8 @@
     pt: |
       Zoe LeBlanc é desenvolvedora especialista em Humanidades Digitais no Scholar's Lab da University of Virginia.
   team_roles:
-    - technical-lead
-    - proghist
+    - editorial
+    - english
   status: volunteer
 
 - name: Dave Rodriguez
@@ -1784,7 +1783,6 @@
       Alex Wermer-Colan é Diretor Académico e de Investigação na Biblioteca Loretta C. Duckworth Scholars Studio da Temple University.
   team_roles:
       - english
-      - technical
       - managing
   status: volunteer
 
@@ -3305,3 +3303,31 @@
       Adam Farquhar is CEO of Digital Lifecycle Management Limited, UK
   team_roles:
     - proghist
+
+- name: Luling Huang
+  orcid: 0000-0003-0139-1771
+  team: false
+  bio:
+    en: |
+      Luling Huang is an Assistant Professor in the Department of Communication at Missouri Western State University.
+
+- name: Igor Sosa Mayor
+  team: false
+  orcid: 0000-0003-3645-8454
+  bio:
+    en: |
+      Igor Sosa Mayor is a researcher of early modern period specialized in global history and religious history.
+    es: |
+      Igor Sosa Mayor es historiador de la Edad Moderna especializado en historia global e historia religiosa.
+    fr: |
+      Igor Sosa Mayor est historien de l'époque moderne, spécialisé en histoire globale et en histoire religieuse.
+    pt: |
+      Igor Sosa Mayor é historiador da Idade Moderna, especializado em história global e história religiosa.
+
+
+- name: Diana Santos
+  orcid: 0000-0002-3108-7706
+  team: false
+  bio:
+    pt: |
+      Diana Santos é professora catedrática no Departamento de Literatura, Estudos de Área e Línguas Europeias da Universidade de Oslo, Noruega.

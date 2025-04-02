@@ -12,6 +12,9 @@ editors:
 reviewers:
   - David Merino Recalde
   - Rosa María Muñoz Mendo
+previous: introduccion-a-tei-1
+series_total: 2 lessons
+sequence: 2
 difficulty: 2
 activity: transforming
 topics:
