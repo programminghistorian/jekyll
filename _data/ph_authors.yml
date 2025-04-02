@@ -115,6 +115,7 @@
   email: mj.afanador28@uniandes.edu.co
   twitter: mariajoafana
   github: mariajoafana
+  orcid: 0000-0003-2652-5799
   team: true
   team_start: 2016
   institution: Universidad de los Andes, Colombia
@@ -130,13 +131,9 @@
       Universidad de los Andes, Colômbia.
   bio:
     en: |
-      Maria José Afanador-Llach is an assistant professor of Digital Humanities and History at the Universidad de los Andes, Bogotá (Colombia).
+      Maria José Afanador-Llach is an associate professor of Digital Humanities at the School of Arts and Humanities at the Universidad de los Andes, Bogotá (Colombia).
     es: |
       Maria José Afanador-Llach es profesora asistente de humanidades digitales e historia en la Universidad de los Andes, Bogotá (Colombia).
-    fr: |
-      Maria José Afanador-Llach est maître de conférences en Humanités numériques et histoire à l'Université de los Andes, (Bogota, Colombie).
-    pt: |
-      Maria José Afanador-Llach é professora assistente de Humanidades Digitais e História na Universidad de los Andes, Bogotá (Colômbia).
   team_roles:
     - spanish
     - editorial
@@ -928,6 +925,7 @@
 
 - name: Nabeel Siddiqui
   github: nabsiddiqui
+  orcid: 0000-0002-6126-5833
   twitter: nabsiddiqui
   email: siddiqui@susqu.edu
   url: "https://www.nabeelsiddiqui.net/"
@@ -1102,8 +1100,9 @@
   twitter: jamotilla
   email: jamotilla@gmail.com
   github: jamotilla
-  team: true
+  team: false
   team_start: 2018
+  team_end: 2025
   institution: Universidad Autónoma de San Luis Potosi
   sortname: Motilla
   affiliation:
@@ -1458,8 +1457,9 @@
 
 - name: Joshua G. Ortiz Baco
   twitter: jgob
-  email: joshuaortizbaco@utexas.edu
+  email: joshuaortizbaco@gmail.com
   github: joshuagob
+  orcid: 0000-0002-9723-4262
   team: true
   team_start: 2019
   institution: University of Tennessee, Knoxville
@@ -1474,14 +1474,8 @@
     pt: |
       University of Tennessee, Knoxville, Estados Unidos.
   bio:
-    en: |
-      Joshua G. Ortiz Baco is Assistant Professor at the University of Tennessee, Knoxville.
     es: |
-      Joshua G. Ortiz Baco es Profesor Asistente en la Universidad de Tennessee, Knoxville.
-    fr: |
-      Joshua G. Ortiz Baco est professeur adjoint á l'Université de Tennessee, Knoxville.
-    pt: |
-      Joshua G. Ortiz Baco é Professor Auxiliar na University do Tennessee, Knoxville.
+      Joshua Ortiz Baco es bibliotecario de investigaciones digitales y profesor asistente en la Universidad de Tennessee, Knoxville.      
   team_roles:
     - spanish
     - editorial
@@ -1656,25 +1650,23 @@
 
 - name: Josir Cardoso Gomes
   team: true
+  email: josircg@gmail.com
+  github: josircg
   orcid: 0000-0001-7629-1404
   affiliation:
     en: |
-      IBICT/UFRJ, Rio de Janeiro, Brazil
+      FGV and IBICT, Rio de Janeiro, Brazil
     pt: |
-      IBICT/UFRJ, Rio de Janeiro, Brasil
+      FGV e IBICT, Rio de Janeiro, Brasil
     es: |
-      IBICT/UFRJ, Río de Janeiro, Brasil
+      FGV y IBICT, Río de Janeiro, Brasil
     fr: |
-      IBICT/UFRJ, Rio de Janeiro, Brésil
+      FGV et IBICT, Rio de Janeiro, Brésil
   bio:
     en: |
-      Josir Gomes is a PhD student in Information Science at PPGCI/IBICT/UFRJ. Graduated in Computer Science. Information Systems Developer, acting mainly with relational databases, data mining and free software.
+      Josir Gomes is a teacher at ECMI/FGV and a researcher at IBICT in Rio de Janeiro, Brazil.
     pt: |
-      Josir Gomes é Doutorando em Ciência da Informação no PPGCI/IBICT/UFRJ. Graduado em Processamento de Dados e especialista em Sistemas de Informação, Banco de Dados Relacionais, Mineração de Dados e Software Livre.
-    es: |
-      Josir Gomes es estudiante de Doctorado en Ciencias de la Información en PPGCI/IBICT/UFRJ. Se graduó en Procesamiento de Datos y es especialista en Sistemas de Información, Bases de Datos Relacionales, Minería de Datos y Software Libre.
-    fr: |
-      Josir Gomes est doctorant en sciences de l'information au PPGCI/IBICT/UFRJ. Diplômé en informatique, il se spécialise dans les systèmes d'information, les bases de données relationnelles, l'exploration de données et les logiciels libres.
+      Josir Gomes é professor na ECMI/FGV e pesquisador do IBICT, Rio de Janeiro, Brazil.
   team_roles:
     - portuguese
     - editorial
@@ -1707,6 +1699,7 @@
   email: aracele@protonmail.com
   url: "https://cibermundi.wordpress.com/"
   github: aracele
+  orcid: 0000-0002-5240-060X
   team: true
   team_start: 2020
   institution: Universidade Federal de São Paulo
@@ -1721,14 +1714,8 @@
     fr: |
       Université fédérale de São Paulo, Brésil.
   bio:
-    en: |
-      Aracele Torres holds a PhD in History from the University of São Paulo (USP) and is a researcher at the Digital Humanities Laboratory (lab.hum) at the Federal University of São Paulo, Guarulhos Campus.
     pt: |
-      Aracele Torres é doutora em História pela Universidade de São Paulo (USP) e pesquisadora do Laboratório de Humanidades Digitais (lab.hum) da Universidade Federal de São Paulo, Campus Guarulhos.
-    es: |
-      Aracele Torres es doctora en Historia de la Universidad de São Paulo (USP) e investigadora del Laboratorio de Humanidades Digitales (lab.hum) de la Universidad Federal de São Paulo, Campus Guarulhos.
-    fr: |
-      Aracele Torres détient un doctorat en histoire de l'Université de São Paulo (USP) et est chercheuse au Laboratoire des humanités numériques (lab.hum) à l'Université fédérale de São Paulo, campus Guarulhos.
+      Aracele Torres é pesquisadora voluntária do Hímaco (História, Mapas e Computadores) e do lab.hum (Laboratório de Humanidades Digitais) da Universidade Federal de São Paulo, campus de Guarulhos.
   team_roles:
     - portuguese
     - editorial
@@ -1804,8 +1791,9 @@
   email: daniellesanches@fcsh.unl.pt
   url: "https://dhlab.unl.pt/"
   github: daniellesanchesDH
-  team: true
+  team: false
   team_start: 2020
+  team_end: 2025
   institution: Fundação Getulio Vargas
   sortname: Sanches
   affiliation:
@@ -1834,30 +1822,26 @@
 - name: Joana Vieira Paulino
   twitter:
   email: jpaulino@fcsh.unl.pt
-  url:
+  orcid: 0000-0002-9433-2799
   github: joanacvp
   team: true
   team_start: 2020
-  institution: Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa
+  institution: Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH)
   sortname: Paulino
   affiliation:
     en: |
-        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
     pt: |
-        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
     es: |
-        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
     fr: |
-        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
   bio:
     en: |
-        Joana Vieira Paulino holds a PhD in History, with a specialization in Contemporary History, from Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal. She is a researcher in the Digital Humanities Lab and the Institute for Contemporary History from the same institution.
+        Joana Vieira Paulino is a Junior Researcher ([2023.05849.CEECIND](https://doi.org/10.54499/2023.05849.CEECIND/CP2836/CT0029)) at the Institute of Contemporary History of the Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH) in Lisbon, Portugal. 
     pt: |
-        Joana Vieira Paulino é doutora em História, com especialização em História Contemporânea, pela Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal. É investigadora no Laboratório de Humanidades Digitais e no Instituto de História Contemporânea da mesma instituição.
-    es: |
-        Joana Vieira Paulino es doctora en Historia, con especialización en Historia Contemporánea, por la Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal. Es investigadora del Laboratorio de Humanidades Digitales y del Instituto de Historia Contemporánea de la misma institución.
-    fr: |
-        Joana Vieira Paulino a un doctorat en histoire, avec une spécialisation en Histoire Contemporaine, de Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.  Elle est une chercheur au Laboratoire des Humanités Numériques et au Institute d'Histoire Contemporaine de la même instituition.
+        Joana Vieira Paulino é Investigadora Júnior ([2023.05849.CEECIND](https://doi.org/10.54499/2023.05849.CEECIND/CP2836/CT0029)) no Instituto de História Contemporânea da Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), em Lisboa, Portugal.
   team_roles:
     - portuguese
     - editorial
@@ -1889,6 +1873,8 @@
 
 - name: Luis Ferla
   email: ferla@unifesp.br
+  github: luisferla
+  orcid: 0000-0003-3617-2560
   team: true
   team_start: 2020
   institution: Universidade Federal de São Paulo
@@ -1903,18 +1889,14 @@
     fr: |
         Universidade Federal de São Paulo, Brésil.
   bio:
-    en: |
-        Luis Ferla, Universidade Federal de São Paulo.
     pt: |
-        Luis Ferla, Universidade Federal de São Paulo.
-    es: |
-        Luis Ferla, Universidade Federal de São Paulo.
-    fr: |
-        Luis Ferla, Universidade Federal de São Paulo.
+        Luis Ferla é professor de História e vice-coordenador do Laboratório de Humanidades Digitais da Universidade Federal de São Paulo, em Guarulhos, Brasil.
   team_roles:
     - portuguese
     - ombuds
   status: volunteer
+
+
 - name: Scholars' Lab Community
   team: false
   bio:
@@ -1945,28 +1927,25 @@
   email: jimmy.medeiros@fgv.br
   url: "https://cpdoc.fgv.br/equipe/JimmyMedeiros"
   github: JimmyMedeiros82
+  orcid: 0000-0002-8280-3338
   team: true
   team_start: 2020
-  institution: Fundação Getulio Vargas
+  institution: Fundação Getulio Vargas (FGV)
   sortname: Medeiros
   affiliation:
     en: |
-        Fundação Getulio Vargas, Brasil.
+        Fundação Getulio Vargas (FGV), Brazil.
     pt: |
-        Fundação Getulio Vargas, Brasil.
+        Fundação Getulio Vargas (FGV), Brasil.
     es: |
-        Fundación Getulio Vargas, Brasil.
+        Fundación Getulio Vargas (FGV), Brasil.
     fr: |
-        Fundação Getulio Vargas, Brasil.
+        Fundação Getulio Vargas (FGV), Brésil.
   bio:
     en: |
-        Jimmy Medeiros holds a PhD in Public Policy, Strategy and Development from UFRJ, Researcher at the School of Social Sciences FGV CPDOC and teaches at the Post-Graduation in History, Politics and Cultural Property at FGV and at the undergraduate course in Social Sciences at FGV.
+      Jimmy Medeiros is Adjunct Professor at Fundação Getulio Vargas (FGV) CPDOC, Rio de Janeiro, Brazil.
     pt: |
-        Jimmy Medeiros é doutor em Políticas Públicas, Estratégia e Desenvlvimento pela UFRJ, Pesquisador Pleno na Escola de Ciências Sociais FGV CPDOC e professor no Porgrama de Pós-graduação em História, Política e Bens Culturais da FGV e no curso de graduação em Ciências Sociais da FGV.
-    es: |
-        Jimmy Medeiros es Doctor en Políticas Públicas, Estrategia y Desarrollo de la UFRJ, Investigador de la Facultad de Ciencias Sociales FGV CPDOC y profesor del Programa de Posgrado en Historia, Política y Bienes Culturales de la FGV y de grado en Ciencias Sociales de la FGV.
-    fr: |
-        Jimmy Medeiros est docteur en politique publique, stratégie et développement de l'UFRJ, chercheur titulaire à l'École des sciences sociales FGV CPDOC. Il enseigne dans le programme d'études supérieures en histoire, politique et biens culturels à la FGV, et les sciences sociales en premier cycle à la FGV.
+      Jimmy Medeiros é Professor Adjunto na FGV CPDOC da Fundação Getulio Vargas (FGV), Rio de Janeiro, Brasil.
   team_roles:
     - portuguese
     - editorial
@@ -1974,33 +1953,26 @@
 
 - name: Matthias Gille Levenson
   twitter:
-  email: matthias.gille-levenson@casadevelazquez.org
+  email: matthias.gille-levenson@ens-lyon.fr
   url: "https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html"
   orcid: 0000-0001-9488-5986
   github: matgille
   team: true
   team_start: 2021
-  institution: ENS Lyon / Casa de Velázquez
+  institution: Aix-Marseille Université / École Normale Supérieure de Lyon
   sortname: Gille
   affiliation:
     en: |
-        École Normale Supérieure de Lyon, France / Casa de Velázquez, Spain.
+        École Normale Supérieure de Lyon, France / Aix-Marseille Université, France.
     pt: |
-        École Normale Supérieure de Lyon, França / Casa de Velázquez, Espanha.
+        École Normale Supérieure de Lyon, França / Aix-Marseille Université, França.
     es: |
-        École Normale Supérieure de Lyon, Francia / Casa de Velázquez, España.
+        École Normale Supérieure de Lyon, Francia / Aix-Marseille Université, Francia.
     fr: |
-        École Normale Supérieure de Lyon, France / Casa de Velázquez, Espagne.
+        École Normale Supérieure de Lyon, France / Aix-Marseille Université, France.
   bio:
-    en: |
-        Matthias Gille Levenson is a PhD candidate in medieval castilian philology at the École Normale Supérieure de Lyon. He is currently a scientific member of the Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques in Madrid.
-    pt: |
-        Matthias Gille Levenson é doutorando em filologia castelhana medieval na École Normale Supérieure de Lyon. Atualmente é membro científico da Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques de Madrid.
-    es: |
-        Matthias Gille Levenson es doctorando en filología medieval castellana en la École Normale Supérieure de Lyon, y es actualmente miembro científico de la Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques.
     fr: |
-        Matthias Gille Levenson est doctorant en philologie médiévale castillane à l'École Normale Supérieure de Lyon, et membre scientifique de la Casa de Velázquez - École des Hautes Études Hispaniques et Ibériques.
-  team_roles:
+        Matthias Gille Levenson est Attaché Temporaire d'Enseignement et de Recherche à l'Université Aix-Marseille (CIHAM UMR 5648), Marseille, France.
     - french
     - editorial
   status: volunteer
@@ -2218,7 +2190,7 @@
     en: |
       Nicolás Vaughan is an associate professor of medieval literature and digital humanities at the Universidad de los Andes, Bogotá (Colombia).
     es: |
-      Nicolás Vaughan es profesor asociado del Departamento de Humanidades y Literatura de la Universidad de los Andes, en Bogotá, Colombia, donde también enseña en la Maestría en Humanidades Digitales. Es doctor en filosofía medieval de la Universidad de Oxford.
+      Nicolás Vaughan es profesor asociado del Departamento de Humanidades y Literatura de la Universidad de los Andes, Bogotá (Colombia).
     fr: |
       Nicolás Vaughan est professeur associé de littérature médiévale et d'humanités numériques à l'Universidad de los Andes, Bogotá (Colombie).
     pt: |
@@ -2276,27 +2248,22 @@
   status: volunteer
   affiliation:
     en: |
-      University of Louvain, Belgium
+      Université catholique de Louvain and KBR, Belgium
     es: |
-      Universidad de Louvain, Bélgica
+      Université catholique de Louvain y KBR, Bélgica
     fr: |
-      Université catholique de Louvain, Belgique
+      Université catholique de Louvain et KBR, Belgique
     pt: |
-      Universidade de Louvain, Bélgica
+      Université catholique de Louvain e KBR, Bélgica
   bio:
-    en: |
-       Isabelle Gribomont is a researcher in Digital Humanities at the University of Louvain and the Royal Library of Belgium.
     es: |
-       Isabelle Gribomont es investigadora en humanidades digitales en la Universidad de Louvain y la Biblioteca Real de Bélgica.
-    fr: |
-       Isabelle Gribomont est chercheuse en humanités numériques à l'université catholique de Louvain et la Bibliothèque royale de Belgique.
-    pt: |
-       Isabelle Gribomont é pesquisadora em Humanidades Digitais na universidade de Louvain e na Biblioteca Real da Bélgica.
+       Isabelle Gribomont es investigadora postdoctoral en el centro de procesamiento de lenguajes naturales en UCLouvain, Louvain-la-Neuve, Bélgica e investigadora en literatura digital en la biblioteca real de Bélgica (KBR), Bruselas, Bélgica.
 
 - name: Nicolás Llano Linares
   email: llano.nicolas@gmail.com
   twitter: enetreseles
   github: nllano
+  orcid: 0000-0001-7040-0673
   team: true
   team_start: 2021
   institution: Fundação Getúlio Vargas
@@ -2311,14 +2278,8 @@
     pt: |
       Escola de Comunicação, Mídia e Informação, Fundação Getúlio Vargas, Brasil
   bio:
-    en: |
-       Nicolás Llano Linares holds a PhD in Communication Sciences (Universidade de São Paulo, Brazil) and is a professor at the School for Communication, Media and Information, Fundação Getúlio Vargas, Brazil.
     es: |
-       Nicolás Llano Linares es Doctor en Ciencias de la Comunicación (Universidade de São Paulo, Brasil) y profesor en la Escuela de Comunicación, Medios e Información, Fundação Getúlio Vargas, Brasil.
-    fr: |
-       Nicolás Llano Linares est docteur en sciences de la communication (Universidade de São Paulo, Brésil) et est professeur à l’École de la communication, des médias et de l’information, Fundação Getúlio Vargas, Brésil.
-    pt: |
-       Nicolás Llano Linares é Doutor em Ciências da Comunicação (Universidade de São Paulo, Brasil) e professor na Escola de Comunicação, Mídia e Informação, Fundação Getúlio Vargas, Brasil.
+       Nicolás Llano Linares es investigador, editor y profesor de teorías de la comunicación y humanidades digitales en la Escuela de Comunicación, Medios e Información, Fundação Getúlio Vargas, Brasil.
   team_roles:
     - spanish
     - editorial
@@ -2519,8 +2480,9 @@
 
 
 - name: Scott Kleinman
-  team: true
+  team: false
   team_start: 2022
+  team_end: 2025
   institution: California State University, Northridge
   github: scottkleinman
   email: scott.kleinman@csun.edu
@@ -2552,8 +2514,9 @@
   status: volunteer
 
 - name: John R. Ladd
-  team: true
+  team: false
   team_start: 2022
+  team_end: 2025
   institution: Denison University
   github: jrladd
   email: hello@jrladd.com
@@ -2605,14 +2568,7 @@
       Northeastern University, Estados Unidos
   bio:
     en: |
-      Giulia Taurino is a Postdoctoral Researcher at The Institute for Experiential AI (Northeastern University, Khoury College of Computer Science / Roux Institute), where she works on the development of AI toolkits for media research in collaboration with the NULab for Texts, Maps, and Networks and MIT Data + Feminism Lab.
-    es: |
-      Giulia Taurino es investigadora postdoctoral en el Instituto para IA Experencial (Northeastern University, Khoury College of Computer Science / Roux Institute), donde trabaja en el desarrollo de herramientas de IA para la investigación de los medios en colaboración con el NULab for Texts, Maps, and Networks and MIT Data + Feminism Lab.
-    fr: |
-      Giulia Taurino est chercheuse postdoctorale à l'institut pour l'IA expérimentale à l'université Northeastern (Khoury College of Computer Science / Roux Institute), où elle travaille sur le développement de dispositifs en IA appliqués à la recherche en études de médias, en collaboration avec les labs NULab for Texts, Maps, and Networks et MIT Data + Feminism Lab.
-    pt: |
-      Giulia Taurino é pesquisadora de pós-doutoramento no The Institute for Experiential AI (Universidade de Northeastern, Khoury College of Computer Science / Roux Institute), onde trabalha no desenvolvimento de kits de ferramentas de IA para pesquisa de media em colaboração com o NULab for Texts, Maps, and Networks e o MIT Data + Feminism Lab.
-
+      Giulia Taurino is Project Coordinator at the Northeastern University Library in Boston, US.
   team_roles:
     - english
     - editorial
@@ -2834,27 +2790,27 @@
   orcid: 0000-0003-4837-0564
   team: true
   team_start: 2023
-  institution: MSH Mondes (Maison des Sciences de l'Homme Mondes)
+  institution: Centre national de la recherche scientifique, France.
   sortname: Mathelier
   affiliation:
     en: |
-      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), France
+      Centre national de la recherche scientifique (CNRS), France
     es: |
-      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), Francia
+      Centre national de la recherche scientifique (CNRS), Francia
     fr: |
-      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), France
+      Centre national de la recherche scientifique (CNRS), France
     pt: |
-      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), França
+      Centre national de la recherche scientifique (CNRS), França
   team_roles:
     - french
     - editorial
   status: volunteer
   bio:
     fr: |
-      Daphné Mathelier est ingénieure d'études au Centre national de la recherche scientifique française (CNRS). Elle est responsable du service Humanités numériques de la Maison des Sciences de l'Homme Mondes à Nanterre (CNRS, Université Paris Nanterre, Université Paris 1 Panthéon Sorbonne) et l’une des correspondantes locales de l'infrastructure de recherche Huma-Num.
+      Daphné Mathelier est ingénieure d'études au Centre national de la recherche scientifique française (CNRS). Elle est chargée d’édition de corpus numériques au Centre d’étude de la langue et des littératures françaises (CELLF, CNRS – Sorbonne Université).
       
 - name: Alexandre Wauthier
-  email: alexandre.wauthier@protonmail.com
+  email: alexandre.wauthier@campus-condorcet.fr
   url: https://alexandrewa.com
   github: AlexandreWa
   orcid: 0000-0001-9437-4529
@@ -2864,20 +2820,20 @@
   sortname: Wauthier
   affiliation:
     en: |
-      Humathèque, Campus Condorcet-CNRS, France
+      Centre national de la recherche scientifique (CNRS), France
     es: |
-      Humathèque, Campus Condorcet-CNRS, Francia
+      Centre national de la recherche scientifique (CNRS), Francia
     fr: |
-      Humathèque, Campus Condorcet-CNRS, France
+      Centre national de la recherche scientifique (CNRS), France
     pt: |
-      Humathèque, Campus Condorcet-CNRS, França
+      Centre national de la recherche scientifique (CNRS), França
   team_roles:
     - french
     - editorial
   status: institutionally-supported  
   bio:
     fr: |
-      Alexandre Wauthier est ingénieur d'études au Centre national de la recherche scientifique française (CNRS). Il est chargé du traitement des donnnées scientifiques et bibliothécaire à l'Humathèque du Campus Condorcet.
+      Alexandre Wauthier est ingénieur d'études chargé d'accompagnement de projets numériques à l'Humathèque, Campus Condorcet-CNRS, Aubervilliers, France.
 
 - name: Ricardo Campos
   orcid: 0000-0002-8767-8126
@@ -2905,45 +2861,48 @@
   sortname: Valentine
   affiliation:
     en: |
-      Université de Montréal, Canada
+      Ouvroir d’histoire de l’art et de muséologie numériques, Université de Montréal, Canada
     pt: |
-      Université de Montréal, Canadá
+      Ouvroir d’histoire de l’art et de muséologie numériques, Université de Montréal, Canadá
     es: |
-      Université de Montréal, Canadá
+      Ouvroir d’histoire de l’art et de muséologie numériques, Université de Montréal, Canadá
     fr: |
-      Université de Montréal, Canada
+      Ouvroir d’histoire de l’art et de muséologie numériques, Université de Montréal, Canada
   team_roles:
     - french
     - editorial
   status: volunteer
   bio:
+    en: |
+      David Valentine is a PhD candidate at the École de bibliothéconomie et des sciences de l'information (EBSI) at Université de Montréal in Montreal, Canada.
     fr: |
       
 - name: Émilien Schultz
-  email: emilien.schultz@sciencespo.fr
+  email: emilien.schultz@ensae.fr
   github: emilienschultz
   twitter: emilienschultz
   mastodon: 
   orcid: 0000-0002-6215-3606
   team: true
   team_start: 2023
-  institution: Sciences Po
+  institution: CREST, ENSAE
   sortname: Schultz
   affiliation:
     en: |
-      Sciences Po, France
+      CREST, ENSAE, France
     pt: |
-      Sciences Po, França
+      CREST, ENSAE, França
     es: |
-      Sciences Po, Francia
+      CREST, ENSAE, Francia
     fr: |
-      Sciences Po, France
+      CREST, ENSAE, France
   team_roles:
     - french
     - editorial
   status: volunteer
   bio:
     fr: |
+      Émilien Schultz est ingénieur de recherche données au sein du laboratoire CREST à l'ENSAE (GENES), Palaiseau, France.
 
 - name: Sergio Rodríguez Gómez
   orcid: 0000-0002-1631-4747
@@ -3061,7 +3020,7 @@
       École française d’Athènes, Grécia
   bio:
     fr: |
-      Agustín Cosovschi est membre scientifique de l'École française d’Athènes, et chercheur associé au CETOBaC (Centre d’Études Turques, Ottomanes, Balkaniques et Centrasiatiques) à Paris.
+      Agustín Cosovschi est membre scientifique de l'École française d’Athènes, en Grèce.
   team_roles:
     - english
     - editorial
@@ -3074,7 +3033,7 @@
   twitter: maxcarlons
   team: true
   team_start: 2024
-  institution: Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische Akademie der Wissenschaften
+  institution: Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH), Österreichische Akademie der Wissenschaften
   sortname: Carloni
   affiliation:
     en: |
@@ -3085,10 +3044,14 @@
       ACDH-CH, Österreichische Akademie der Wissenschaften, Autriche
     pt: |
       ACDH-CH, Österreichische Akademie der Wissenschaften, Áustria
+  bio:
+    en: |
+      Massimiliano Carloni is a Research Data Engineer in the Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH) at the Österreichische Akademie der Wissenschaften in Vienna, Austria.
   team_roles:
     - english
     - editorial
   status: volunteer
+  
 
 - name: Laura Alice Chapot
   orcid: 0000-0001-8334-4308
@@ -3107,6 +3070,9 @@
       Dartmouth College, États-Unis
     pt: |
       Dartmouth College, Estados Unidos
+  bio:
+    en: |
+      Laura Alice Chapot is a Visiting Scholar in Comparative Literature at the Neukom Institute of Computational Science at Dartmouth College in Hanover, NH, USA. 
   team_roles:
     - english
     - editorial
@@ -3118,17 +3084,20 @@
   email: caiomellodh@gmail.com
   team: true
   team_start: 2024
-  institution: School of Advanced Study, University of London
+  institution: Luxembourg Centre for Contemporary and Digital History (C²DH)
   sortname: Mello
   affiliation:
     en: |
-      School of Advanced Study, University of London, UK
+      Luxembourg Centre for Contemporary and Digital History (C²DH), Luxembourg
     es: |
-      School of Advanced Study, University of London, Reino Unido
+      Luxembourg Centre for Contemporary and Digital History (C²DH), Luxemburgo
     fr: |
-      School of Advanced Study, University of London, Royaume-Uni
+      Luxembourg Centre for Contemporary and Digital History (C²DH), Luxembourg
     pt: |
-      School of Advanced Study, University of London, Reino Unido
+      Luxembourg Centre for Contemporary and Digital History (C²DH), Luxemburgo
+  bio:
+    en: |
+      Caio Mello is a Postdoctoral Researcher in Computational Humanities/Digital History at the Luxembourg Centre for Contemporary and Digital History (C²DH) in Esch-sur-Alzette, Luxembourg.
   team_roles:
     - english
     - editorial
@@ -3151,6 +3120,9 @@
       School of Information and Communication Studies, University College Dublin, Irlande
     pt: |
       School of Information and Communication Studies, University College Dublin, Irlanda
+  bio:
+    en: |
+      Giulia Osti is a d-real (SFI) funded PhD candidate based at the School of Information and Communication Studies, University College Dublin.
   team_roles:
     - english
     - editorial
