@@ -1830,18 +1830,18 @@
   sortname: Paulino
   affiliation:
     en: |
-        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
+       Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
     pt: |
-        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
+      Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
     es: |
-        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
+      Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
     fr: |
-        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
+      Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), Portugal.
   bio:
     en: |
-        Joana Vieira Paulino is a Junior Researcher at the Institute of Contemporary History of the Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH) in Lisbon, Portugal. 
+      Joana Vieira Paulino is a Junior Researcher at the Institute of Contemporary History of the Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH) in Lisbon, Portugal. 
     pt: |
-        Joana Vieira Paulino é Investigadora Júnior no Instituto de História Contemporânea da Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), em Lisboa, Portugal.
+      Joana Vieira Paulino é Investigadora Júnior no Instituto de História Contemporânea da Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa (NOVA FCSH), em Lisboa, Portugal.
   team_roles:
     - portuguese
     - editorial
@@ -1881,16 +1881,16 @@
   sortname: Ferla
   affiliation:
     en: |
-        Universidade Federal de São Paulo, Brazil.
+      Universidade Federal de São Paulo, Brazil.
     pt: |
-        Universidade Federal de São Paulo, Brasil.
+      Universidade Federal de São Paulo, Brasil.
     es: |
-        Universidade Federal de São Paulo, Brasil.
+      Universidade Federal de São Paulo, Brasil.
     fr: |
-        Universidade Federal de São Paulo, Brésil.
+      Universidade Federal de São Paulo, Brésil.
   bio:
     pt: |
-        Luis Ferla é professor de História e vice-coordenador do Laboratório de Humanidades Digitais da Universidade Federal de São Paulo, em Guarulhos, Brasil.
+      Luis Ferla é professor de História e vice-coordenador do Laboratório de Humanidades Digitais da Universidade Federal de São Paulo, em Guarulhos, Brasil.
   team_roles:
     - portuguese
     - ombuds
@@ -1934,13 +1934,13 @@
   sortname: Medeiros
   affiliation:
     en: |
-        Fundação Getulio Vargas (FGV), Brazil.
+      Fundação Getulio Vargas (FGV), Brazil.
     pt: |
-        Fundação Getulio Vargas (FGV), Brasil.
+      Fundação Getulio Vargas (FGV), Brasil.
     es: |
-        Fundación Getulio Vargas (FGV), Brasil.
+      Fundación Getulio Vargas (FGV), Brasil.
     fr: |
-        Fundação Getulio Vargas (FGV), Brésil.
+      Fundação Getulio Vargas (FGV), Brésil.
   bio:
     en: |
       Jimmy Medeiros is Adjunct Professor at Fundação Getulio Vargas (FGV) CPDOC, Rio de Janeiro, Brazil.
@@ -1963,16 +1963,17 @@
   sortname: Gille
   affiliation:
     en: |
-        École Normale Supérieure de Lyon, France / Aix-Marseille Université, France.
+      École Normale Supérieure de Lyon, France / Aix-Marseille Université, France.
     pt: |
-        École Normale Supérieure de Lyon, França / Aix-Marseille Université, França.
+      École Normale Supérieure de Lyon, França / Aix-Marseille Université, França.
     es: |
-        École Normale Supérieure de Lyon, Francia / Aix-Marseille Université, Francia.
+      École Normale Supérieure de Lyon, Francia / Aix-Marseille Université, Francia.
     fr: |
-        École Normale Supérieure de Lyon, France / Aix-Marseille Université, France.
+      École Normale Supérieure de Lyon, France / Aix-Marseille Université, France.
   bio:
     fr: |
-        Matthias Gille Levenson est Attaché Temporaire d'Enseignement et de Recherche à l'Université Aix-Marseille (CIHAM UMR 5648), Marseille, France.
+      Matthias Gille Levenson est Attaché Temporaire d'Enseignement et de Recherche à l'Université Aix-Marseille (CIHAM UMR 5648), Marseille, France.
+  team_roles:
     - french
     - editorial
   status: volunteer
