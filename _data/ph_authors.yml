@@ -1423,32 +1423,28 @@
 
 - name: Riva Quiroga
   twitter: rivaquiroga
-  email: riva.quiroga@uc.cl
+  email: rivaquiroga@gmail.com
   github: rivaquiroga
   url: "https://rivaquiroga.cl/"
   orcid: 0000-0002-1147-4135
   team: true
   team_start: 2019
-  institution: Universidad Católica de Chile
+  institution: Tabular
   sortname: Quiroga
   affiliation:
     en: |
-      Catholic University of Chile, Chile
+      Tabular, Chile
     es: |
-      Universidad Católica de Chile, Chile
+      Tabular, Chile
     fr: |
-      Université Catholique de Chili, Chili
+      Tabular, Chili
     pt: |
-      Universidad Católica de Chile, Chile
+      Tabular, Chile
   bio:
     en: |
-      Riva Quiroga is a doctoral researcher in Linguistics at the Catholic University of Chile.
+      Riva Quiroga is a research software engineer at Tabular.
     es: |
-      Riva Quiroga es investigadora doctoral en Lingüística en la Universidad Católica de Chile.
-    fr: |
-      Riva Quiroga est chercheuse doctoral en linguistique à l'Université Catholique de Chili.
-    pt: |
-      Riva Quiroga é pesquisadora doutoral em Linguística na Universidad Católica de Chile.
+      Riva Quiroga trabaja como research software engineer en Tabular.
   team_roles:
     - editorial
     - spanish
