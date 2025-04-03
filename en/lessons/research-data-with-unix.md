@@ -48,7 +48,13 @@ This lesson was written using Git Bash 1.9.0 and the Windows 7 operating system.
 
 The files used in this lesson are available on "[Figshare](https://doi.org/10.6084/m9.figshare.1172094)". The data contains the metadata for journal articles categorised under 'History' in the British Library ESTAR database. The data is shared under a CC0 copyright waiver.
 
-Download the required files, save them to your computer, and unzip them. If you do not have default software installed to interact with .zip files, we recommend [7-zip](http://www.7-zip.org/) for this purpose. On Windows, we recommend unzipping the folder provided to your c: drive so the files are at `c:\proghist\`. However, any location will work fine, but you may have to adjust your commands as you are following along with this lesson if you use a different location. On OS X or Linux, we similarly recommend unzipping them to your user directory, so that they appear at `/user/USERNAME/proghist/`. In both cases, this means that when you open up a new terminal window, you can just type `cd proghist` to move to the correct directory.
+Download the required files, save them to your computer, and unzip them. If you do not have default software installed to interact with .zip files, we recommend [7-zip](http://www.7-zip.org/) for this purpose. On Windows, we recommend unzipping the folder provided to your c: drive so the files are at `c:\proghist\`. However, any location will work fine, but you may have to adjust your commands as you are following along with this lesson if you use a different location. 
+
+<div class="alert alert-warning">
+April 2025 update: The paths indicated for Windows no longer correspond to those used by recent versions of Git (version 2.49.0 at the time of writing). Whenever the path <code>c:\proghist\...</code> is mentioned, you will need to replace it with <code>c/Users/USERNAME/proghist/...</code>.
+</div>
+
+On OS X or Linux, we similarly recommend unzipping them to your user directory, so that they appear at `/user/USERNAME/proghist/`. In both cases, this means that when you open up a new terminal window, you can just type `cd proghist` to move to the correct directory.
 
 _____
 
@@ -59,10 +65,6 @@ You will begin this lesson by counting the contents of files using the Unix shel
 In Unix the `wc` command is used to count the contents of a file or of a series of files.
 
 Open the Unix shell and navigate to the directory that contains our data, the `data` subdirectory of the `proghist` directory. Remember, if at any time you are not sure where you are in your directory structure, type `pwd` and use the `cd` command to move to where you need to be. The directory structure here is slightly different between OS X/Linux and Windows: on the former, the directory is in a format such as `~/users/USERNAME/proghist/data` and on Windows in a format such as `c:\proghist\data`.
-
-<div class="alert alert-warning">
-April 2025 update: The paths indicated for Windows no longer correspond to those used by recent versions of Git (version 2.49.0 at the time of writing). Whenever the path <code>c:\proghist\...</code> is mentioned, you will need to replace it with <code>c/Users/USERNAME/proghist/...</code>.
-</div>
 
 Type `ls` and then hit enter. This prints, or displays, a list that includes two files and a subdirectory.
 
