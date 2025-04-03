@@ -60,6 +60,10 @@ In Unix the `wc` command is used to count the contents of a file or of a series 
 
 Open the Unix shell and navigate to the directory that contains our data, the `data` subdirectory of the `proghist` directory. Remember, if at any time you are not sure where you are in your directory structure, type `pwd` and use the `cd` command to move to where you need to be. The directory structure here is slightly different between OS X/Linux and Windows: on the former, the directory is in a format such as `~/users/USERNAME/proghist/data` and on Windows in a format such as `c:\proghist\data`.
 
+<div class="alert alert-warning">
+April 2025 update: The paths indicated for Windows no longer correspond to those used by recent versions of Git (version 2.49.0 at the time of writing). Whenever the path <code>c:\proghist\...</code> is mentioned, you will need to replace it with <code>c/Users/USERNAME/proghist/...</code>.
+</div>
+
 Type `ls` and then hit enter. This prints, or displays, a list that includes two files and a subdirectory.
 
 The files in this directory are the dataset `2014-01_JA.csv` that contains journal article metadata and a file containing documentation about `2014-01_JA.csv` called `2014-01_JA.txt`.
@@ -69,10 +73,6 @@ The subdirectory is named `derived_data`. It contains four [.tsv](http://en.wiki
 *Note: [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) files are those in which the units of data (or cells) are separated by commas (comma-separated-values) and TSV files are those in which they are separated by tabs.  Both can be read in simple text editors or in spreadsheet programs such as Libre Office Calc or Microsoft Excel.*
 
 Before you begin working with these files, you should move into the directory in which they are stored. Navigate to `c:\proghist\data\derived_data` on Windows or `~/users/USERNAME/proghist/data/derived_data` on OS X.
-
-<div class="alert alert-warning">
-April 2025 update: The paths indicated for Windows no longer correspond to those used by recent versions of Git (version 2.49.0 at the time of writing). Whenever the path <code>c:\proghist\...</code> is mentioned, you will need to replace it with <code>c/Users/USERNAME/proghist/...</code>.
-</div>
 
 Now that you are here you can count the contents of the files.
 
