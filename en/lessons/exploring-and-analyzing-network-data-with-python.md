@@ -27,7 +27,7 @@ avatar_alt: Train tracks intersecting
 doi: 10.46430/phen0064
 modified: 2023-08-25
 lesson-testers: John R. Ladd
-tested_date: 2023-08-21
+tested-date: 2023-08-21
 ---
 
 {% include toc.html %}
