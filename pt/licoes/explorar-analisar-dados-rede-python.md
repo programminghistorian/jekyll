@@ -32,7 +32,7 @@ abstract: Esta lição introduz métricas de rede e como tirar conclusões das m
 avatar_alt: Caminhos-de-ferro intrincados
 doi: 10.46430/phpt0041
 modified: 2023-08-25
-lesson_testers: John R. Ladd
+lesson-testers: John R. Ladd
 tested_date: 2023-08-21
 ---
 
