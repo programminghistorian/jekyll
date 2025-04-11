@@ -5,7 +5,7 @@ layout: lesson
 slug: sitios-estaticos-con-jekyll-y-github-pages
 date: 2016-04-18
 translation_date: 2021-03-01
-tested_date: 2024-04-05
+tested-date: 2024-04-05
 lesson-testers: Leonardo Barleta
 authors:
 - Amanda Visconti
