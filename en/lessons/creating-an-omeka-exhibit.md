@@ -11,7 +11,7 @@ editors:
 - Adam Crymble
 lesson-testers: 
 - Pao-Chuan Ma
-tested_date: 2021-06-10
+tested-date: 2021-06-10
 difficulty: 1
 exclude_from_check:
   - review-ticket
