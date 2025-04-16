@@ -837,8 +837,9 @@
   email: jparr1129@gmail.com
   twitter: ProvAtlantic
   url: "http://jessicaparr.org/"
-  team: true
+  team: false
   team_start: 2017
+  team_end: 2025
   institution: Northeastern University
   sortname: Parr
   affiliation:
