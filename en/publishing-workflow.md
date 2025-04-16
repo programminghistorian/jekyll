@@ -8,20 +8,20 @@ redirect_from: /editor-guidelines
 
 # Publishing Workflow
 
-Our publishing workflow moves through eight phases: **Proposal**, **Submission**, **Initial Edit**, **Revision 1**, **Open Peer Review**, **Revision 2**, **Sustainability + Accessibility**, and **Publication**. It is supported by the professional services of our Publishing Team, guided by our Managing Editors, with the expertise of a cohort of volunteer editors from our Project Team.
+Our publishing workflow moves through eight phases: **Proposal**, **Submission**, **Initial Edit**, **First Revision**, **Open Peer Review**, **Second Revision**, **Sustainability + Accessibility**, and **Publication**. The development of both orginal and translated lessons is supported by the professional services of our publishing team, guided by our Managing Editors, with the expertise of a cohort of volunteer editors from our project team.
 
 ## Overview of Phases, Responsibilities, and Timeframes
 
 | Phase                            | Who is responsible?                    | Expected timeframe:                  |
 | -------------------------------- | -------------------------------------- | ------------------------------------ |
-| **0 Proposal**                   | Managing Editor + their editorial team | 14 days feedback <br> 90 days submission |
-| **1 Submission**                 | Publishing Team                        | 7 days  |
+| **0 Proposal**                   | Managing Editor + their editorial team | 14 days feedback <br> 60 days submission |
+| **1 Submission**                 | Publishing team                        | 7 days  |
 | **2 Initial Edit**               | Editor                                 | 30 days |
-| **3 Revision 1**                 | Author/Translator + Editor             | 30 days |
-| **4 Open Peer Review**           | Reviewers + Editor                     | 60 days |
-| **5 Revision 2**                 | Author/Translator + Editor             | 30 days |
-| **6 Sustainability + Accessibility** | Publishing Team (+ Copyeditor _original lessons only_)         | 21-30 days |
-| **7 Publication**                | Managing Editor + Publishing Team      | 14 days |
+| **3 First Revision**             | Author/translator + editor             | 30 days |
+| **4 Open Peer Review**           | Reviewers + editor                     | 30 days |
+| **5 Second Revision**            | Author/translator + editor             | 30 days |
+| **6 Sustainability + Accessibility** | Publishing team (+ copyeditor _original lessons only_)         | 21-30 days |
+| **7 Publication**                | Managing Editor + publishing team      | 14 days |
 
 ## Details of Phases, Responsibilities, Timeframes, and Processes & Activities
 
@@ -29,20 +29,20 @@ Our publishing workflow moves through eight phases: **Proposal**, **Submission**
 
 | Who is responsible?                     | Expected timeframe                |   Process & activities               |
 | -------------------------------- | ------------------------------ | ------------------------------  |
-| Managing Editor + their editorial team | 14 days feedback <br> 90 days submission | <ul><li>Managing Editors receive Proposal Forms.</li><li>Proposal Forms are circulated for feedback from the editorial team within 14 days.</li><br>**Note:** Proposals are considered on the basis of how well they serve the needs of the community, and whether they support our journal’s ambitions of **openness**, **global access**, **multilingualism** and **sustainability**<br>.<li>Managing Editors reply to Authors/Translators to either reject the proposal and share feedback, or invite submission.</li><li>Managing Editors open a new GitHub issue to represent the successful Proposal, assigning an Editor, and agreeing a submission date within 90 days.</li><br>**Note:** This issue will provide a space for communication and collaboration throughout the publishing workflow. Labels will be used to indicate the lesson’s progress. The Publishing Team will post a comment at the beginning of each phase to clarify _What’s happening now?_ </ul>
+| Managing Editor + their editorial team | 14 days feedback <br> 60 days submission | <ul><li>Managing Editors receive proposal Forms.</li><li>Proposal Forms are circulated for feedback from the editorial team within 14 days.</li><br>**Note:** Proposals are considered on the basis of how well they serve the needs of the community, and whether they support our journal’s ambitions of **openness**, **global access**, **multilingualism** and **sustainability**<br>.<li>Managing Editors reply to authors/translators to either reject the proposal and share feedback, or invite submission.</li><li>Managing Editors open a new GitHub issue to represent the successful proposal, assigning an editor, and agreeing a submission date within 60 days.</li><br>**Note:** This issue will provide a space for communication and collaboration throughout the publishing workflow. Labels will be used to indicate the lesson’s progress. The publishing team will post a comment at the beginning of each phase to clarify _What’s happening now?_ </ul>
 
 ### Phase 1 Submission
 
 | Who is responsible?                     | Expected timeframe                |   Process & activities               |
 | -------------------------------- | ------------------------------ | ------------------------------  |
-| Publishing Team | 7 days | <ul><li>Publishing Team receives and processes submission materials.</li><li>Markdown files are checked, and key elements of metadata are added.</li><li>Figures are resized and renamed according to our requirements and conventions</li><li>Data assets are checked and processed.</li><li>Publishing Team post a comment to the GitHub issue, providing locations of all key files, as well as a link to a live ‘in browser’ preview, where contributors will be able to read the lesson as the draft progresses. Publishing Team will liaise with Author/Translator to resolve any queries raised during file processing, and to work through any initial adjustments required.</li></ul>
+| Publishing team | 7 days | <ul><li>Publishing team receives and processes submission materials.</li><li>Markdown files are checked, and key elements of metadata are added.</li><li>Figures are resized and renamed according to our requirements and conventions</li><li>Data assets are checked and processed.</li><li>Publishing team post a comment to the GitHub issue, providing locations of all key files, as well as a link to a live ‘in browser’ preview, where contributors will be able to read the lesson as the draft progresses. Publishing team will liaise with author/translator to resolve any queries raised during file processing, and to work through any initial adjustments required.</li></ul>
 
 
 ### Phase 2 Initial Edit 
 
 | Who is responsible?                     | Expected timeframe                |   Process & activities               |
 | -------------------------------- | ------------------------------ | ------------------------------  |
-| Editor | 30 days | <ul><li>Editor reads the submission, considering how well it meets our journal’s ambitions of **openness**, **global access**, **multilingualism** and **sustainability.**</li><li>Editor considers the lesson’s level of **difficulty** against our [matrix](/wiki/Defining-Difficulty)</li><li>Editor shares initial feedback as a comment in the GitHub issue, anchoring specific comments to sections or paragraphs (referring to numbers at the right margin of the lesson preview) to support the Author’s/Translator’s revisions in Phase 3.</li></ul>
+| Editor | 30 days | <ul><li>Editor reads the submission, considering how well it meets our journal’s ambitions of **openness**, **global access**, **multilingualism** and **sustainability.**</li><li>Editor considers the lesson’s level of **difficulty** against our [matrix](/wiki/Defining-Difficulty)</li><li>Editor shares initial feedback as a comment in the GitHub issue, anchoring specific comments to sections or paragraphs (referring to numbers at the right margin of the lesson preview) to support the author’s/translator’s revisions in Phase 3.</li></ul>
 
 
 | Our principles | Key considerations |
@@ -52,35 +52,35 @@ Our publishing workflow moves through eight phases: **Proposal**, **Submission**
 | **Multilingualism**                  | <ul><li>Has the author chosen methods, tools, and datasets that can be applied or adapted for use in languages other than English? Our strong preference is to publish lessons that will be practicable in multilingual research-contexts, and future translation.</li> <li>Has this author attempted to localise their translation by replacing datasets or case study examples with materials in the translation language to improve usability for the new audience?</li> <li>If this is a translation _to English_, encourage the author to keep non-English datasets and case study examples in place, to help our Anglophone communities learn to work with multilingual data and research materials.</li> |  |
 | **Sustainability**                   | <ul><li>Does this lesson successfully prioritise reflections, contextual discussions and overviews of practical steps over click-by-click instructions? This emphasis helps to ensure lessons remain useful beyond present-day graphical user interfaces and current software versions. Encourage authors to anticipate challenges readers may face, and guide troubleshooting.</li> <li>Does the author specify which computational environment, programming languages, packages and software versions the lesson has been developed for and tested within?</li> <li>Ask authors to include clear citations to case study sources, datasets, and software.</li> |  |
 
-### Phase 3 Revision 1 
+### Phase 3 First Revision 
 
 | Who is responsible?                     | Expected timeframe                |   Process & activities               |
 | -------------------------------- | ------------------------------ | ------------------------------- |
-| Author/Translator + Editor | 30 days | <ul><li>Editor + Author/Translator agree a timeframe for the Author/Translator to make the suggested revisions (30 days is usually reasonable).</li><li>Author/Translator revises the lesson.</li><li>Author/Translator posts a comment in the issue to confirm when the revised draft is ready for the Editor’s review.</li><br>**Note:** Revision is a collaborative process, involving dialogue. The depth of editorial work involved will vary from lesson to lesson.<br><li>Editor begins coordinating peer reviewers to participate in Phase 4. We encourage and celebrate diversity of gender, nationality, race, age, and academic background among our contributors. Managing Editors + Publishing Team advise Editor who among our current Peer Reviewer volunteers are available, or support the Editor to make direct approaches.</li><br>Resources 1:<br>**Template 1A: INITIAL** and (if needed) **Template 1B: INITIAL FOLLOW UP**<br>Resources 2:<br>**Template 2A: RESPONSE POSITIVE** or **Template 2A: RESPONSE NEGATIVE**<br>Resources 3:<br>[Finding Peer Reviewers for Technical Tutorials](https://youtu.be/jp0yCePvX-k) (5:06) and [Approaching Peer Reviewers for Technical Tutorials](https://youtu.be/lNxuXd12jsA) (9:06).<ul>
+| Author/translator + editor | 30 days | <ul><li>Editor + author/translator agree a timeframe for the author/translator to make the suggested revisions (30 days is usually reasonable).</li><li>Author/translator revises the lesson.</li><li>Author/translator posts a comment in the issue to confirm when the revised draft is ready for the editor’s review.</li><br>**Note:** Revision is a collaborative process, involving dialogue. The depth of editorial work involved will vary from lesson to lesson.<br><br><li>Editor begins coordinating peer reviewers to participate in Phase 4. We encourage and celebrate diversity of gender, nationality, race, age, and academic background among our contributors. Managing Editors + publishing team advise editor who among our current Peer Reviewer volunteers are available, or support the editor to make direct approaches.</li></ul>
 
 
 ### Phase 4 Open Peer Review
 
 | Who is responsible?                     | Expected timeframe                |   Process & activities               |
 | -------------------------------- | ------------------------------ | ------------------------------  |
-| Reviewers + Editor | 60 days |  <ul><li>Editor introduces two peer reviewers from the community who will read the lesson / translation and test the code, by posting a comment to [open Phase 4](https://github.com/programminghistorian/jekyll/wiki/opening-comment-Phase-4).</li><li>Editor emails both peer reviewers using **Template 3: OPEN** to share key links and guidance.</li><li>Reviewers share their feedback as a comment in the issue thread within 60 days.</li><li>Editor summarises the two reviews so that the Author/Translator has a clear sense of the revisions to work through in Phase 5.</li>
+| Reviewers + editor | 30 days |  <ul><li>Reviewers share their feedback as a comment in the issue thread within 60 days.</li><li>Editor summarises the two reviews so that the author/translator has a clear sense of the revisions to work through in Phase 5.</li></ul>
 
 
-### Phase 5 Revision 2
+### Phase 5 Second Revision
 
 | Who is responsible?                     | Expected timeframe                |   Process & activities               |
 | -------------------------------- | ------------------------------ | ------------------------------  |
-| Author/Translator + Editor | 30 days | <ul><li>Editor + Author/Translator agree a timeframe for the Author/Translator to make the suggested revisions (30 days is usually reasonable).</li><li>Author/Translator revises the lesson.</li><li>Author/Translator posts a comment in the issue to confirm when the revised draft is ready for the Editor’s review.</li><li>Editor re-reads the lesson to confirm that all agreed revisions are complete.</li><li>Managing Editor reads the lesson to confirm if it should be moved onwards to Phase 6.</li></ul>
+| Author/translator + editor | 30 days | <ul><li>Editor + author/translator agree a timeframe for the author/translator to make the suggested revisions (30 days is usually reasonable).</li><li>Author/translator revises the lesson.</li><li>Author/translator posts a comment in the issue to confirm when the revised draft is ready for the editor’s review.</li><li>Editor re-reads the lesson to confirm that all agreed revisions are complete.</li><li>Managing Editor reads the lesson to confirm if it should be moved to Phase 6.</li></ul>
 
 
 ### Phase 6 Sustainability + Accessibility
 
 | Who is responsible?                     | Expected timeframe                |   Process & activities               |
 | -------------------------------- | ------------------------------ | ------------------------------  |
-| Publishing Team (_+ Copyeditor original lessons only_) | 21-30 days |  <ul><li>Copyediting (_original lessons only_) to check the text for clarity of expression, typing mistakes and grammatical errors.</li><li>Typesetting to ensure consistent layout.</li><li>Generating archival hyperlinks.</li><li>Checking of files and metadata.</li><li>Assigning a DOI.</li><li>Collating copyright agreements.</li></ul>
+| Publishing team (_+ copyeditor original lessons only_) | 21-30 days |  <ul><li>Copyediting (_original lessons only_) to check the text for clarity of expression, typing mistakes and grammatical errors.</li><li>Typesetting to ensure consistent layout.</li><li>Generating archival hyperlinks.</li><li>Checking of files and metadata.</li><li>Assigning a DOI.</li><li>Collating copyright agreements.</li></ul>
 
 ### Phase 7 Publication
 
 | Who is responsible?                     | Expected timeframe                |   Process & activities               |
 | -------------------------------- | ------------------------------ | ------------------------------  |
-| Managing Editor + Publishing Team (+ Editor _post-publication_) | 14 days | <ul><li>Managing Editor re-reads the lesson, to provide final feedback or suggest additional revisions.</li><li>Publishing Manager stages files for publication.</li><li>Managing Editor approves the lesson for publication.</li><li>Publishing Team initiates announcement + schedule promotion of the new lesson.</li><li>Publishing Team shares suggested citation + social media announcement links with all contributors to close the issue.</li><li>Editor emails both peer reviewers using **Template 4: POST-PUBLICATION THANK YOU**.</li></ul>
+| Managing Editor + publishing team (+ editor _post-publication_) | 14 days | <ul><li>Managing Editor re-reads the lesson, to provide final feedback or suggest additional revisions.</li><li>Publishing Manager stages files for publication.</li><li>Managing Editor approves the lesson for publication.</li><li>Publishing team initiates announcement + schedule promotion of the new lesson.</li><li>Publishing team shares suggested citation + social media announcement links with all contributors to close the issue.</li></ul>
