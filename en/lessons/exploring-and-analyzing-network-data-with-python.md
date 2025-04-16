@@ -26,8 +26,8 @@ redirect_from: /lessons/exploring-and-analyzing-network-data-with-python
 avatar_alt: Train tracks intersecting
 doi: 10.46430/phen0064
 modified: 2023-08-25
-lesson_testers: John R. Ladd
-tested_date: 2023-08-21
+lesson-testers: John R. Ladd
+tested-date: 2023-08-21
 ---
 
 {% include toc.html %}

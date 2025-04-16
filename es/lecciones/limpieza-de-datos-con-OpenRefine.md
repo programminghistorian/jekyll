@@ -6,7 +6,7 @@ authors:
 - Max De Wilde
 date: 2013-08-05
 translation_date: 2017-05-17
-tested_date: 2024-03-14
+tested-date: 2024-03-14
 lesson-testers: Antonin Delpeuch
 reviewers:
 - Patrick Burns

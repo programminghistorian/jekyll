@@ -4,7 +4,7 @@ layout: lesson
 slug: nettoyer-ses-donnees-avec-openrefine
 date: 2013-08-05
 translation_date: 2019-04-10
-tested_date: 2024-03-14
+tested-date: 2024-03-14
 lesson-testers: Antonin Delpeuch
 authors:
 - Seth van Hooland
