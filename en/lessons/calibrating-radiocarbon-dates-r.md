@@ -1,5 +1,5 @@
 ---
-title: "Calibrating radiocarbon dates with R"
+title: "Calibrating Radiocarbon Dates with R"
 slug: calibrating-radiocarbon-dates-r
 original: calibration-radiocarbone-avec-r
 layout: lesson
@@ -36,7 +36,7 @@ doi: 10.46430/phen0125
 {% include toc.html %}
 
 
-## Calibrating Radiocarbon Dates with R
+## Introduction
 
 Since its discovery, radiocarbon dating has become a standard tool for archaeologists and historians. It often serves as the primary source of chronological information or complements other material and textual evidence.
 
@@ -44,7 +44,7 @@ The goal of this lesson is to teach you how to calibrate individual radiocarbon 
 
 This lesson will show you how to calibrate radiocarbon dates with [R](https://www.r-project.org/about.html). Using R allows you to set up data processing routines and guarantees the reproducibility of your results at the time of their publication. This lesson is limited to simple calibration cases and does not cover advanced cases (for example, marine calibration, reservoir effects, etc.) nor [Bayesian](https://perma.cc/R247-RG8E) chronological modeling problems.
 
-## Prerequisites
+### Prerequisites
 
 This lesson assumes that you are comfortable with the [basic use of R](/en/lessons/r-basics-with-tabular-data) and understand introductory concepts in statistics.[^2] This lesson also uses the R integrated development environment (IDE), [RStudio](https://posit.co/download/rstudio-desktop/). You should generally be comfortable working with scripts, loading packages, and handling [tabular data](https://perma.cc/3DDB-92R8). 
 
@@ -54,7 +54,7 @@ If you're new to R or need a refresher, we recommend completing one of the follo
 - For those with experience working in ecology, use [Data Analysis and Visualization in R for Ecologists](https://perma.cc/W4BY-LXWR)
 - For those with experience working in geospatial data, use [Introduction to R for Geospatial Data](https://perma.cc/9XB8-W2SM)
   
-## Intended Audience
+### Intended Audience
 
 This lesson is designed not only for archaeologists, but also for librarians, conservators, archivists, and other cultural heritage professionals who may encounter radiocarbon dates in their work with historical objects, manuscripts, or archaeological collections. Even if you do not have a background in radiocarbon science, understanding how to interpret and calibrate radiocarbon dates can help you evaluate the age of artifacts, enrich catalog records, and collaborate more effectively with researchers in interdisciplinary projects. 
 
@@ -95,7 +95,7 @@ Thanks to the law of radioactive decay, if you know the initial quantity \\(N_0\
 
 This initial premise allowed Libby and his colleagues to demonstrate the feasibility of the method, by carrying out the first radiocarbon dating on objects of known age.[^8] From these results, it appears that there is a linear relationship between the radiocarbon dates measured and the calendar dates obtained by other methods (Figure 2A).
 
-## Why Calibrate Radiocarbon Dates?
+### Why Calibrate Radiocarbon Dates?
 
 However, a challenge arose: studies carried out in the second half of the 20th century, as older and older objects were dated, showed an increasingly significant gap between the measured age and the expected age.
 
@@ -107,7 +107,7 @@ The use of Libby's premise nevertheless remains the only accessible way to estim
 
 {% include figure.html filename="en-tr-calibrating-radiocarbon-dates-r-02.png" alt="Dates measured by radiocarbon based on expected calendar dates. Two graphs showing the Curve of Knowns and the calibration curves. On the Curve of Knowns, the x-axis displays the calendar date in ka BP, and the y-axis displays the conventional date in ka BP. A straight dotted line on the Curve of Knowns indicates places where the conventional date is equal to the calendar date. On the calibration curves graph, three other lines are added to mark out the three different calibration curves, IntCal09, IntCal13, and IntCal20." caption="Figure 2. Dates measured by radiocarbon based on expected calendar dates. (A) Curve of Knowns, radiocarbon dates of archaeological objects whose calendar date is known by independent methods (after Arnold and Libby, 1949). The 1:1 line, for which a conventional date is equal to a calendar age, is shown as a dashed line. (B) IntCal09, IntCal13 and IntCal20 calibration curves (Reimer et al. 2009, 2013 and 2020). The difference to the right 1:1 (dashes) is all the more marked as the dates are older." %}
 
-## How to Calibrate?
+### How to Calibrate?
 
 As you have just seen, it is necessary to calibrate radiocarbon dates. On paper, the calibration process is fairly simple, thanks to the equivalence table between radiocarbon time and calendar time. However, in practice, the calibration process is made more complicated by the errors inevitably associated with physical measurements!
 
