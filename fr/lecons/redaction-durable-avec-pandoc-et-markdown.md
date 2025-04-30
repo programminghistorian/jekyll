@@ -37,7 +37,7 @@ doi: 10.46430/phfr0013
 
 ## Objectifs
 
-Cette leçon vous apprendra d'abord les notions de base de Markdown — une syntaxe de balisage facile à lire et écrire — ainsi que [Pandoc](http://johnmacfarlane.net/pandoc/), un outil en ligne de commande qui permet de convertir du texte brut en différents types de fichiers bien formatés : PDF, .docx, HTML, LaTeX, diaporama, et plus encore.[^1] À l'aide de Pandoc comme outil de composition numérique, vous pouvez utiliser la syntaxe Markdown pour ajouter des figures ou une bibliographie, et changer facilement de style de citation, par exemple de Chicago à MLA, le tout en utilisant du texte brut.
+Cette leçon vous apprendra d'abord les notions de base de Markdown — une syntaxe de balisage facile à lire et écrire — ainsi que [Pandoc](https://pandoc.org/), un outil en ligne de commande qui permet de convertir du texte brut en différents types de fichiers bien formatés : PDF, .docx, HTML, LaTeX, diaporama, et plus encore.[^1] À l'aide de Pandoc comme outil de composition numérique, vous pouvez utiliser la syntaxe Markdown pour ajouter des figures ou une bibliographie, et changer facilement de style de citation, par exemple de Chicago à MLA, le tout en utilisant du texte brut.
 
 Cette leçon ne requiert pas de connaissances techniques avancées, mais elle s'adapte à votre niveau d'expérience, puisque nous suggérons souvent des méthodes plus poussées vers la fin d'une section. Celles-ci sont clairement indiquées, et peuvent être revues après avoir expérimenté et acquis un peu d'expérience.
 
@@ -99,7 +99,7 @@ Les deux logiciels suivants sont recommandés, mais ne sont pas requis pour comp
 
 Markdown est une convention de structuration sémantique des documents en texte brut. L'idée est d'identifier les structures logiques de votre document (un titre, des sections, sous-sections, notes de bas de page, etc.) et de les délimiter avec des caractères relativement discrets, pour ensuite "compiler" le document qui en résulte avec un interpréteur qui le formatera de manière cohérente, selon un style déterminé.
 
-Il existe différentes variantes du langage Markdown conçues pour différents contextes spécifiques, comme les blogues, les wikis et les dépôts de code. La spécification de Markdown qu'utilise Pandoc est conçue pour un usage universitaire. Ses règles d'utilisation se trouvent dans la [section dédiée](http://pandoc.org/README.html#pandocs-markdown) du manuel utilisateur de Pandoc. Ses ajouts comprennent notamment le [bloc YAML](http://johnmacfarlane.net/pandoc/README.html#yaml-metadata-block), qui sert à exprimer des métadonnées utiles.[^5]
+Il existe différentes variantes du langage Markdown conçues pour différents contextes spécifiques, comme les blogues, les wikis et les dépôts de code. La spécification de Markdown qu'utilise Pandoc est conçue pour un usage universitaire. Ses règles d'utilisation se trouvent dans la [section dédiée](https://pandoc.org/MANUAL.html#pandocs-markdown) du manuel utilisateur de Pandoc. Ses ajouts comprennent notamment le [bloc YAML](https://pandoc.org/MANUAL.html#extension-yaml_metadata_block), qui sert à exprimer des métadonnées utiles.[^5]
 
 Créons maintenant un document Markdown simple. Ouvrez d'abord l'éditeur de texte brut de votre choix et commencez à écrire. Votre texte devrait ressembler à ceci :
 
