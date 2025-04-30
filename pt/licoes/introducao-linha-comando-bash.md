@@ -268,7 +268,7 @@ e depois _Enter_, uma combinação de todos os ficheiros `.txt` no diretório at
 
 ## Editando ficheiros de texto diretamente na linha de comando
 
-Se você quiser ler um arquivo inteiro sem sair da linha de comando, você pode iniciar o [vim](https://perma.cc/6728-CAFF). O Vim é um editor de texto muito poderoso, perfeito para usar com programas como [Pandoc](http://johnmacfarlane.net/pandoc/), para fazer processamento de texto ou para editar seu código sem ter que mudar para outro programa. O melhor de tudo é que ele vem incluído no bash tanto no macOS e Linux quanto no Windows. O Vim tem uma curva de aprendizado bastante acentuada, então vamos apenas abordar alguns pontos menores.
+Se você quiser ler um arquivo inteiro sem sair da linha de comando, você pode iniciar o [vim](https://perma.cc/6728-CAFF). O Vim é um editor de texto muito poderoso, perfeito para usar com programas como [Pandoc](https://pandoc.org/), para fazer processamento de texto ou para editar seu código sem ter que mudar para outro programa. O melhor de tudo é que ele vem incluído no bash tanto no macOS e Linux quanto no Windows. O Vim tem uma curva de aprendizado bastante acentuada, então vamos apenas abordar alguns pontos menores.
 
 Digite
 
