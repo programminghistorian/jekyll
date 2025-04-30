@@ -38,7 +38,7 @@ doi: 10.46430/phpt0036
 
 ## Objetivos 
 
-Neste tutorial, você aprenderá primeiro o básico do Markdown - uma sintaxe de marcação fácil de ler e de escrever para texto simples - assim como o [Pandoc](http://johnmacfarlane.net/pandoc/), uma ferramenta de linha de comando que converte texto simples em vários tipos de ficheiro belamente formatados: PDF, docx, HTML, LaTeX, apresentações de slides e muito mais.[^1] Com o Pandoc como sua ferramenta de composição digital, você pode usar a sintaxe Markdown para adicionar figuras, bibliografia, formatação e alterar facilmente os estilos de citação de Chicago para MLA (por exemplo), todos usando texto simples.
+Neste tutorial, você aprenderá primeiro o básico do Markdown - uma sintaxe de marcação fácil de ler e de escrever para texto simples - assim como o [Pandoc](https://pandoc.org/), uma ferramenta de linha de comando que converte texto simples em vários tipos de ficheiro belamente formatados: PDF, docx, HTML, LaTeX, apresentações de slides e muito mais.[^1] Com o Pandoc como sua ferramenta de composição digital, você pode usar a sintaxe Markdown para adicionar figuras, bibliografia, formatação e alterar facilmente os estilos de citação de Chicago para MLA (por exemplo), todos usando texto simples.
 
 Este tutorial não pressupõe nenhum conhecimento técnico prévio, mas aumenta com a experiência, uma vez que vamos sugerir técnicas mais avançadas ao final de cada seção. Elas estão claramente marcadas e podem ser revisitadas após alguma prática e experimentação.
 
@@ -92,7 +92,7 @@ Os próximos dois softwares são recomendados, mas não requisitados para realiz
 
 O Markdown é uma convenção para estruturar os seus documentos de texto simples semanticamente. A ideia é identificar estruturas lógicas no seu documento (títulos, seções, subseções, notas de rodapé, etc.), marcá-las com caracteres discretos e então "compilar" o texto resultante com um interpretador de composição tipográfica que formatará o documento consistentemente, de acordo com um estilo específico. 
 
-As convenções de Markdown vêm em várias “versões” projetadas para uso em contextos específicos, como blogs, wikis ou repositórios de código. O do Markdown usado pelo [Pandoc](http://pandoc.org/README.html#pandocs-markdown) é voltado para uso acadêmico. Suas convenções são descritas na página Markdown do Pandoc. Suas convenções incluem o bloco “[YAML](http://johnmacfarlane.net/pandoc/README.html#yaml-metadata-block)”, que contém alguns metadados úteis. 
+As convenções de Markdown vêm em várias “versões” projetadas para uso em contextos específicos, como blogs, wikis ou repositórios de código. O do Markdown usado pelo [Pandoc](https://pandoc.org/MANUAL.html#pandocs-markdown) é voltado para uso acadêmico. Suas convenções são descritas na página Markdown do Pandoc. Suas convenções incluem o bloco “[YAML](https://pandoc.org/MANUAL.html#extension-yaml_metadata_block)”, que contém alguns metadados úteis. 
 
 Vamos agora criar um documento simples no Markdown. Abra um editor de texto simples de sua escolha e comece a digitar. Deve ser assim:
 
@@ -214,7 +214,7 @@ Abra o ficheiro no MS Word e confira os resultados. Alternativamente, se usa o O
 ```
     $ pandoc main.md -o project.odt
 ```
-Se não estiver acostumado com a linha de comando, imagine ler o comando acima como se fosse algo como: "Pandoc, crie um ficheiro MS Word a partir do meu ficheiro Markdown". A parte `-o` é uma "bandeira", que nesse caso diz algo como "ao invés de eu lhe dizer explicitamente os formatos de ficheiro de origem e destino, apenas tente adivinhar olhando para a extensão do ficheiro" ou simplesmente "output (saída)". Muitas opções estão disponíveis através desses sinalizadores no Pandoc. É possível ver a lista completa no  [site do Pandoc](http://johnmacfarlane.net/pandoc/README.html) ou digitando `$ man pandoc` no terminal. 
+Se não estiver acostumado com a linha de comando, imagine ler o comando acima como se fosse algo como: "Pandoc, crie um ficheiro MS Word a partir do meu ficheiro Markdown". A parte `-o` é uma "bandeira", que nesse caso diz algo como "ao invés de eu lhe dizer explicitamente os formatos de ficheiro de origem e destino, apenas tente adivinhar olhando para a extensão do ficheiro" ou simplesmente "output (saída)". Muitas opções estão disponíveis através desses sinalizadores no Pandoc. É possível ver a lista completa no [site do Pandoc](https://pandoc.org/) ou digitando `$ man pandoc` no terminal. 
 
 Tente rodar o comando:
 ```
@@ -333,7 +333,7 @@ Trate seus ficheiros de origem como uma versão autorizada de seu texto e seus f
 
 ## Recursos úteis
 
-Se tiver problemas, não há lugar melhor para começar a procurar ajuda do que o [site do Pandoc](http://johnmacfarlane.net/pandoc/) de John MacFarlane e a [lista de e-mails](https://groups.google.com/forum/#!forum/pandoc-discuss) associados.  Pelo menos dois sites do tipo “Pergunta e Resposta” podem responder a perguntas no Pandoc: [Stack Overflow](https://stackoverflow.com/questions/tagged/pandoc) e [Digital Humanities Q&A](https://web.archive.org/web/20190203062832/http://digitalhumanities.org/answers/). As perguntas também podem ser feitas ao vivo, no Freenode IRC, canal #Pandoc, frequentado por um amigável grupo de regulares. Conforme aprender mais sobre o Pandoc, também pode explorar um de seus recursos mais poderosos: [filtros](https://github.com/jgm/pandoc/wiki/Pandoc-Filters).
+Se tiver problemas, não há lugar melhor para começar a procurar ajuda do que o [site do Pandoc](https://pandoc.org/) de John MacFarlane e a [lista de e-mails](https://groups.google.com/forum/#!forum/pandoc-discuss) associados.  Pelo menos dois sites do tipo “Pergunta e Resposta” podem responder a perguntas no Pandoc: [Stack Overflow](https://stackoverflow.com/questions/tagged/pandoc) e [Digital Humanities Q&A](https://web.archive.org/web/20190203062832/http://digitalhumanities.org/answers/). As perguntas também podem ser feitas ao vivo, no Freenode IRC, canal #Pandoc, frequentado por um amigável grupo de regulares. Conforme aprender mais sobre o Pandoc, também pode explorar um de seus recursos mais poderosos: [filtros](https://github.com/jgm/pandoc/wiki/Pandoc-Filters).
 
 Embora nossa sugestão seja começar com um editor simples, muitas (mais de 70, de acordo com [esta postagem do blog](https://web.archive.org/web/20140120195538/http://mashable.com/2013/06/24/markdown-tools/) outras alternativas específicas do Markdown para o MS Word estão disponíveis online, e muitas vezes sem custo. Dos autônomos, gostamos de [Write Monkey](http://writemonkey.com/) e [Sublime Text](https://www.sublimetext.com/). Várias plataformas baseadas na web surgiram recentemente que fornecem interfaces gráficas elegantes para escrita colaborativa e controle de versão usando Markdown. Algumas delas são: [prose.io](http://prose.io/), [Authorea](https://www.authorea.com/), [Draft](http://www.draftin.com/) e [StackEdit](https://stackedit.io/).
 
