@@ -6,7 +6,7 @@ layout: lesson
 collection: lessons
 date: 2013-08-05
 translation_date: 2023-04-29
-tested_date: 2024-03-14
+tested-date: 2024-03-14
 lesson-testers: Antonin Delpeuch
 authors:
 - Seth van Hooland

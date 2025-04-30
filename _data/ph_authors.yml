@@ -133,7 +133,7 @@
     en: |
       Maria José Afanador-Llach is an associate professor of Digital Humanities at the School of Arts and Humanities at the Universidad de los Andes, Bogotá (Colombia).
     es: |
-      Maria José Afanador-Llach es profesora asistente de humanidades digitales e historia en la Universidad de los Andes, Bogotá (Colombia).
+      Maria José Afanador-Llach es profesora asociada de Humanidades Digitales en la Facultad de Artes y Humanidades de la Universidad de los Andes, Bogotá (Colombia).
   team_roles:
     - spanish
     - editorial
@@ -837,8 +837,9 @@
   email: jparr1129@gmail.com
   twitter: ProvAtlantic
   url: "http://jessicaparr.org/"
-  team: true
+  team: false
   team_start: 2017
+  team_end: 2025
   institution: Northeastern University
   sortname: Parr
   affiliation:
@@ -2875,6 +2876,7 @@
     en: |
       David Valentine is a PhD candidate at the École de bibliothéconomie et des sciences de l'information (EBSI) at Université de Montréal in Montreal, Canada.
     fr: |
+      David Valentine est candidat au doctorat en sciences de l’information à l’école de bibliothéconomie et des sciences de l'information (EBSI) de l’Université de Montréal, Canada.
       
 - name: Émilien Schultz
   email: emilien.schultz@ensae.fr

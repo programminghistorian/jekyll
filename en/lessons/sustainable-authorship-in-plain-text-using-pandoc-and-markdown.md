@@ -9,7 +9,7 @@ editors:
 - Fred Gibbs
 lesson-testers: 
 - Pao-Chuan Ma
-tested_date: 2021-06-10
+tested-date: 2021-06-10
 difficulty: 2
 activity: sustaining
 topics: [website, data-management]
@@ -34,7 +34,7 @@ doi: 10.46430/phen0041
 
 In this tutorial, you will first learn the basics of Markdown—an easy to
 read and write markup syntax for plain text—as well as
-[Pandoc](http://johnmacfarlane.net/pandoc/), a command line tool that
+[Pandoc](https://pandoc.org/), a command line tool that
 converts plain text into a number of beautifully formatted file types:
 PDF, .docx, HTML, LaTeX, slide decks, and more.[^1] With Pandoc
 as your digital typesetting tool, you can use Markdown syntax to add
@@ -212,7 +212,7 @@ at any time.
 
 -   **Pandoc**. Detailed, platform-specific installation instructions
     are available at [the Pandoc
-    website](http://johnmacfarlane.net/pandoc/installing.html).
+    website](https://pandoc.org/installing.html).
     *Installation of Pandoc on your machine is crucial for this
     tutorial*, so be sure to take your time and click through the
     instructions. Pandoc was created and is maintained by John
@@ -241,7 +241,7 @@ to complete this tutorial.
 
 -   **LaTeX**. Detailed, platform-specific installation instructions
     available at [the Pandoc
-    website](http://johnmacfarlane.net/pandoc/installing.html). Although
+    website](https://pandoc.org/installing.html). Although
     LaTeX is not covered in this tutorial, it is used by Pandoc for .pdf
     creation. Advanced users will often convert into LaTeX directly to
     have more granular control over the typesetting of the .pdf.
@@ -262,9 +262,9 @@ Markdown conventions come in several "flavors" designed for use in
 particular contexts, such as blogs, wikis, or code repositories. The
 flavor of Markdown used by Pandoc is geared for academic use. Its
 conventions are described on the [Pandoc's
-Markdown](http://pandoc.org/README.html#pandocs-markdown)
+Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)
 page. Its conventions include the ["YAML"
-block](http://johnmacfarlane.net/pandoc/README.html#yaml-metadata-block),
+block](https://pandoc.org/MANUAL.html#extension-yaml_metadata_block),
 which contains some useful metadata.[^ft-1]
 
 Let's now create a simple document in Markdown. Open a plain-text editor
@@ -479,7 +479,7 @@ If you are new to the command line, imagine reading the above command as saying 
 this case says something like "instead of me explicitly telling you the source and the target
 file formats, just guess by looking at the file extension" or simply "output." Many options are
 available through such flags in Pandoc. You can see the complete list on [Pandoc's
-website](http://johnmacfarlane.net/pandoc/README.html) or by typing `$ man pandoc` in the
+website](https://pandoc.org/MANUAL.html) or by typing `$ man pandoc` in the
 terminal.
 
 Try running the command
@@ -689,7 +689,7 @@ put to better use in polishing the prose of your draft.
 ## Useful Resources
 
 Should you run into trouble, there is no better place to start looking
-for support than John MacFarlane's [Pandoc site](http://johnmacfarlane.net/pandoc/) and the
+for support than John MacFarlane's [Pandoc site](https://pandoc.org/) and the
 affiliated [mailing
 list](https://groups.google.com/forum/#!forum/pandoc-discuss). At least
 two "Question and Answer" type sites can field questions on Pandoc:

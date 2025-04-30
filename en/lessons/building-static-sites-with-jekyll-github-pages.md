@@ -2,7 +2,7 @@
 title: Building a static website with Jekyll and GitHub Pages
 layout: lesson
 date: 2016-04-18
-tested_date: 2024-04-05
+tested-date: 2024-04-05
 lesson-testers: Leonardo Barleta
 authors:
 - Amanda Visconti

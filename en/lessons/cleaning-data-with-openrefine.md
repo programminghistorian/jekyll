@@ -2,7 +2,7 @@
 title: Cleaning Data with OpenRefine
 layout: lesson
 date: 2013-08-05
-tested_date: 2024-03-14
+tested-date: 2024-03-14
 lesson-testers: Antonin Delpeuch
 authors:
 - Seth van Hooland

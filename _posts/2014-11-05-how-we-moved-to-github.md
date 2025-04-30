@@ -20,7 +20,7 @@ Our first step was to get HTML versions of all the pages and lessons on our old 
 
 ## Preparing the Old HTML for Pandoc Conversion
 
-For the next step---the conversion of these HTML files to Markdown---we decided to use [Pandoc](http://johnmacfarlane.net/pandoc/), a powerful tool described by Dennis Tenen and Grant Wythoff in [Sustainable Authorship in Plain Text using Pandoc and Markdown](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).
+For the next step---the conversion of these HTML files to Markdown---we decided to use [Pandoc](https://pandoc.org/), a powerful tool described by Dennis Tenen and Grant Wythoff in [Sustainable Authorship in Plain Text using Pandoc and Markdown](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).
 
 That lesson focuses on using Pandoc to convert from Markdown into other formats, but Pandoc is also able to turn HTML to Markdown, which is what we wanted to do. It can even locate metadata in the HTML, such as the author, title, and date, and convert it into a [YAML metadata block](http://jekyllrb.com/docs/frontmatter/) in the Markdown output that Jekyll will recognize.
 
@@ -152,7 +152,7 @@ But in our case, the conversion was not quite so simple. Consider what happens i
 
 Pandoc has converted our links and codeblocks into Markdown syntax, and eliminated a lot of the unnecessary content from the beginning of our HTML file. But right away, we can notice two things that make this Markdown conversion imperfect. First, despite all the work that we did to capture the author, title, and date from the original HTML, that metadata does not appear in this output.
 
-A less obvious problem appears in the way that Pandoc has rendered code blocks---by surrounding the code with two lines of three backticks, the first of which also contains the language in curly braces. This is what Pandoc calls a [fenced code block](http://johnmacfarlane.net/pandoc/README.html#fenced-code-blocks). Its purpose is to allow keywords in the code to be highlighted with appropriate colors, as you can see in many Programming Historian lessons. But Jekyll, the engine that powers GitHub Pages, does not recognize fenced code blocks that are formatted in this way.
+A less obvious problem appears in the way that Pandoc has rendered code blocks---by surrounding the code with two lines of three backticks, the first of which also contains the language in curly braces. This is what Pandoc calls a [fenced code block](https://pandoc.org/MANUAL.html#extension-fenced_code_blocks). Its purpose is to allow keywords in the code to be highlighted with appropriate colors, as you can see in many Programming Historian lessons. But Jekyll, the engine that powers GitHub Pages, does not recognize fenced code blocks that are formatted in this way.
 
 There are actually other, even *less* obvious problems with the default Markdown conversion that Pandoc produced, but I'll focus on these two. The fixes for them illustrate Pandoc's power and the general principles we used to improve our bulk conversion workflow.
 
@@ -160,7 +160,7 @@ There are actually other, even *less* obvious problems with the default Markdown
 
 First, let's consider the lack of metadata in our Markdown output. Recall that we did a lot of work with Beautiful Soup to create `<meta>` tags for title, reviewer, author, and date. We hoped that Pandoc would pick up that information from the modified HTML and put into our converted Markdown file, ideally as a YAML front matter block that could be recognized by Jekyll. So what happened?
 
-The short answer is that we needed to add two more things to our Pandoc command. The first is the `--standalone` option, which is described on the [Pandoc User's Guide](http://johnmacfarlane.net/pandoc/README.html) page.
+The short answer is that we needed to add two more things to our Pandoc command. The first is the `--standalone` option, which is described on the [Pandoc User's Guide](https://pandoc.org/MANUAL.html) page.
 
 By default, Pandoc outputs "snippets"; it focuses on converting the input text into the output format. In most cases, the metadata of the original document doesn't affect that conversion, so Pandoc simply ignores it. In the case of HTML, Pandoc's default behavior is to convert what is between the `<body>` tags into your desired output format, and simply ignore what was between the `<head>` tags.
 
@@ -172,7 +172,7 @@ At first glance, it still won't look like that command made a difference. You'll
 
 Behind the scenes, however, Pandoc is grabbing the metadata we stored in our `<meta>` tags and assigning them to Pandoc template variables based on the `name` attribute of these tags: for example, `author`, `reviewers`, and `title`. (If you really want to understand what's going on under the hood, try running the above command, with and without the `--standalone` option, but changing `-t markdown` to `-t native`. Even without understanding the output you see, you can compare the first lines of the native output for a standalone document with the first lines of output without the standalone option. Notice that with standalone, something that looks like our metadata appears in the native output.)
 
-In short, `--standalone` has captured the metadata we wanted and assigned it to variables. but we also need to tell Pandoc *where* to *put* that metadata in our output. To do that, we used a [custom Pandoc template](http://johnmacfarlane.net/pandoc/README.html#templates) that looked like this:
+In short, `--standalone` has captured the metadata we wanted and assigned it to variables. but we also need to tell Pandoc *where* to *put* that metadata in our output. To do that, we used a [custom Pandoc template](https://pandoc.org/MANUAL.html#templates) that looked like this:
 
 ~~~~~
 ---
@@ -185,7 +185,7 @@ reviewers: $reviewers$
 $body$
 ~~~~~
 
-You can read more about [templates](http://johnmacfarlane.net/pandoc/README.html#templates) in the Pandoc documentation, but the important thing to note here is that we are telling Pandoc where to output our metadata variables (represented by words with dollar signs around them, like `$title$`) and where to output the main body of the HTML file (represented by the `$body$` variable). The words that are not wrapped in dollar signs in our template will pass literally into our output document. 
+You can read more about [templates](https://pandoc.org/MANUAL.html#templates) in the Pandoc documentation, but the important thing to note here is that we are telling Pandoc where to output our metadata variables (represented by words with dollar signs around them, like `$title$`) and where to output the main body of the HTML file (represented by the `$body$` variable). The words that are not wrapped in dollar signs in our template will pass literally into our output document. 
 
 We can save that template in a file called `jekyll.md` and then add the option `--template=jekyll.md` to our Pandoc command above, like so:
 
@@ -279,13 +279,13 @@ The other problem we identified with our Markdown output---the way to mark fence
     sudo pip install pymarc
     ```
 
-Pandoc, as we've seen, was wrapping `bash` in curly braces and a period, like so: ```{.bash}```. That's because by default, Pandoc is taking the `class` attribute in [this line](https://github.com/programminghistorian/jekyll/blob/master/modified_html/data-mining-the-internet-archive.html#L50) of our HTML and then putting it in braces. If there were more than one `class` attribute in that line, Pandoc would continue putting them, prefaced by a period, inside those curly braces, as described in [the documentation](http://johnmacfarlane.net/pandoc/README.html#fenced-code-blocks) under `Extension: fenced_code_attributes`. 
+Pandoc, as we've seen, was wrapping `bash` in curly braces and a period, like so: ```{.bash}```. That's because by default, Pandoc is taking the `class` attribute in [this line](https://github.com/programminghistorian/jekyll/blob/master/modified_html/data-mining-the-internet-archive.html#L50) of our HTML and then putting it in braces. If there were more than one `class` attribute in that line, Pandoc would continue putting them, prefaced by a period, inside those curly braces, as described in [the documentation](https://pandoc.org/MANUAL.html#extension-fenced_code_blocks) under `Extension: fenced_code_attributes`. 
 
 Fortunately, in this case we have a simpler solution than before, because Pandoc provides a command-line option for turning off this behavior. And once that behavior---or "extension"---is turned off, the documentation tells us what will happen:
 
 > If the `fenced_code_attributes` extension is disabled, but input contains class attribute(s) for the codeblock, the first class attribute will be printed after the opening fence as a bare word.
 
-In plainer English, that's exactly what we want to produce fenced code blocks that Jekyll can, with some configuration, recognize! So, following the documentation for [Pandoc's general options](http://johnmacfarlane.net/pandoc/README.html#general-options), we modified our Pandoc command again to disable the `fenced_code_attributes` extension, like so:
+In plainer English, that's exactly what we want to produce fenced code blocks that Jekyll can, with some configuration, recognize! So, following the documentation for [Pandoc's general options](https://pandoc.org/MANUAL.html#general-options), we modified our Pandoc command again to disable the `fenced_code_attributes` extension, like so:
 
     pandoc -f html -t markdown-fenced_code_attributes --standalone --template=jekyll.md data-mining-the-internet-archive.html
 
@@ -373,7 +373,7 @@ Notice the difference in the way the two `bash` code blocks at the end of that s
 
 In the above sections, I've scratched the surface of what was, even with the help of Pandoc, a big job. In the examples above, we've looked at only one brief section of *one* lesson, and other lessons presented us with new challenges to solve. Making sure that all of our converted Markdown got close to the Markdown that Jekyll required took lots of [trial and error](https://github.com/programminghistorian/jekyll/commits/master/lessons) of the sort I've described. Other Pandoc options had to be enabled or disabled to get our Markdown to look just right, as you can see from [the final script we used to process all of our modified HTML files with Pandoc](https://github.com/programminghistorian/jekyll/blob/master/process_with_pandoc.sh).
 
-We even used [this Python filter](https://github.com/programminghistorian/jekyll/blob/master/pandoc_filter.py) to convert some of the URL paths in our original Markdown to relative paths, which were more suitable for our static website. (Pandoc filters, one of the most powerful ways of extending Pandoc, are described in more detail [here](http://johnmacfarlane.net/pandoc/scripting.html). The problem that they solved in this case could also have been solved with further Beautiful Soup modifications to our original HTML. But the advantage of the filter is that it can be used in the future if we want to change relative links again in all our Markdown lessons.) 
+We even used [this Python filter](https://github.com/programminghistorian/jekyll/blob/master/pandoc_filter.py) to convert some of the URL paths in our original Markdown to relative paths, which were more suitable for our static website. (Pandoc filters, one of the most powerful ways of extending Pandoc, are described in more detail [here](https://pandoc.org/filters.html). The problem that they solved in this case could also have been solved with further Beautiful Soup modifications to our original HTML. But the advantage of the filter is that it can be used in the future if we want to change relative links again in all our Markdown lessons.) 
 
 After all that, our bulk conversion process still did not produce pristine Markdown at a single stroke. [Some of the markup in the original Wordpress site was irretrievably lost](https://github.com/programminghistorian/jekyll/issues/5) by the conversion process, while other errors in the Markdown had to be [corrected manually by our editors](https://github.com/programminghistorian/jekyll/issues/15). One lesson we learned from the whole process is that there may be no such thing as a *totally automated* workflow for converting from a Wordpress site like ours to a Jekyll static site.
 
