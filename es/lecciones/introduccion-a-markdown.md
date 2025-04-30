@@ -331,6 +331,6 @@ Markdown es un término medio muy útil entre los archivos de texto plano sin es
 [editor de StackEdit]: https://stackedit.io/editor
 [GitHub Flavored Markdown]: https://help.github.com/articles/github-flavored-markdown/
 [GitHub Flavored Markdown]: https://help.github.com/articles/github-flavored-markdown/
-[Pandoc]: http://johnmacfarlane.net/pandoc/
+[Pandoc]: https://pandoc.org/
 [Escritura sostenible en texto plano usando Pandoc y Markdown]: /es/lecciones/escritura-sostenible-usando-pandoc-y-markdown
 
