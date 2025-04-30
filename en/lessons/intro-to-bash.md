@@ -267,7 +267,7 @@ and hit enter, a combination of all the .txt files in the current directory are 
 
 ## Editing Text Files Directly on the Command Line
 
-If you want to read a file in its entirety without leaving the command line, you can fire up [vim](http://en.wikipedia.org/wiki/Vim_%28text_editor%29). Vim is a very powerful text editor, which is perfect for using with programs such as [Pandoc](http://johnmacfarlane.net/pandoc/) to do word processing, or for editing your code without having to switch to another program. Best of all, it comes included with bash on both OS X and Windows. Vim has a fairly steep learning curve, so we will just touch on a few minor points.
+If you want to read a file in its entirety without leaving the command line, you can fire up [vim](http://en.wikipedia.org/wiki/Vim_%28text_editor%29). Vim is a very powerful text editor, which is perfect for using with programs such as [Pandoc](https://pandoc.org/) to do word processing, or for editing your code without having to switch to another program. Best of all, it comes included with bash on both OS X and Windows. Vim has a fairly steep learning curve, so we will just touch on a few minor points.
 
 Type
 
