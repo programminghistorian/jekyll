@@ -5,7 +5,7 @@ original: calibration-radiocarbone-avec-r
 layout: lesson
 collection: lessons
 date: 2021-03-24
-translation_date: 2025-04-16
+translation_date: 2025-04-30
 authors:
 - Nicolas Frerebeau
 - Brice Lebrun
