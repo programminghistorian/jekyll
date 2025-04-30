@@ -262,7 +262,7 @@ y pulsas Intro, todos los archivos .txt que estén en el directorio de trabajo s
 
 ## Editar archivos de texto directamente en línea de comandos
 
-Si quieres leer un archivo completo sin salir de línea de comandos, puedes abrir [Vim](https://es.wikipedia.org/wiki/Vim). Vim es un editor de texto adecuado para utilizarse con programas como [Pandoc](http://johnmacfarlane.net/pandoc/) para el procesamiento de textos, o editar tu código sin tener que cambiar a otro programa. Lo mejor de todo es que viene incluido con *bash* tanto en OS X como en Windows. Vim tiene una curva de aprendizaje bastante grande, por lo que vamos a tocar algunos puntos menores.
+Si quieres leer un archivo completo sin salir de línea de comandos, puedes abrir [Vim](https://es.wikipedia.org/wiki/Vim). Vim es un editor de texto adecuado para utilizarse con programas como [Pandoc](https://pandoc.org/) para el procesamiento de textos, o editar tu código sin tener que cambiar a otro programa. Lo mejor de todo es que viene incluido con *bash* tanto en OS X como en Windows. Vim tiene una curva de aprendizaje bastante grande, por lo que vamos a tocar algunos puntos menores.
 
 Escribe:
 
