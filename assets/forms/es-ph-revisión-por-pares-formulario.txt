@@ -26,9 +26,9 @@ ORCID ID:
 
 2. ¿En qué lenguajes te sentirías cómodo revisando?
 
-- [ ] English - formulario: https://forms.gle/Fdm8JXstKEKZX2xt6
+- [ ] English - formulario: https://tinyurl.com/en-ph-peer-review
 - [ ] Español
-- [ ] Français - formulario: https://forms.gle/B4g3r3qiUx6tn3RB8
+- [ ] Français - formulario: https://tinyurl.com/fr-ph-evaluation
 - [ ] Português - envía un email: portugues@programminghistorian.org
 
 3. ¿Estás disponible para revisar dentro de los próximos doce meses? (Si recibimos una lección relevante a tu especialidad/experiencia técnica.)
