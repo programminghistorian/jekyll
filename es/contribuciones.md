@@ -25,7 +25,7 @@ En <i>Programming Historian en español</i> buscamos revisores voluntarios para 
 
 Estamos orgullosos de utilizar un sistema de revisión por pares en abierto. Creemos que esto brinda una valiosa oportunidad para que autores, traductores y revisores de la comunidad global colaboren, intercambiando conocimientos de manera productiva y así ayudarnos a crear lecciones que sean prácticas, accesibles y sostenibles. 
 
-Si desea contribuir como revisor por pares, tómese unos minutos para [registrar su interés a través de nuestro formulario de Google](https://tinyurl.com/es-ph-revision-por-pares), que puede enviar directamente en línea. También hay [una versión de texto sin formato](/assets/forms/es-ph-revisión-por-pares-formulario.txt) que puede [enviarnos por correo electrónico](mailto:publishing.assistant@programminghistorian.org) si lo prefiere. Nuestra edición de en español actualmente está buscando voluntarios que estén disponibles para revisar una lección dentro de los próximos 12 meses.
+Si desea contribuir como revisor por pares, tómese unos minutos para [registrar su interés a través de nuestro formulario de Google](https://tinyurl.com/es-ph-revision-por-pares), que puede enviar directamente en línea. También hay [una versión de texto sin formato](/assets/forms/es-ph-revisión-por-pares-formulario.txt) que puede [enviarnos por correo electrónico](mailto:publishing.assistant@programminghistorian.org) si lo prefiere. Nuestra edición en español actualmente está buscando voluntarios que estén disponibles para revisar una lección dentro de los próximos 12 meses.
 
 ## Escribe una lección
 
