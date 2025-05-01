@@ -13,6 +13,8 @@ Devenir évaluateur(trice) pour le _Programming Historian en français_ est une 
 
 Ces consignes sont destinées à aider les évaluateurs et les évaluatrices à comprendre quel est leur rôle dans le processus éditorial, et à répondre aux questions les plus fréquentes concernant la manière la plus efficace de produire des évaluations.
 
+Si vous souhaitez contribuer en tant qu’évaluatrice ou évaluateur, veuillez prendre quelques minutes pour [faire part de votre intérêt via notre formulaire Google](https://tinyurl.com/fr-ph-evaluation) que vous pouvez soumettre directement en ligne. Il existe également [une version texte](/assets/forms/fr-ph-evaluation-par-les-pairs-formulaire.txt) que vous pouvez [nous envoyer par mail](mailto:publishing.assistant@programminghistorian.org), si vous préférez. Notre édition française cherche actuellement des volontaires disponibles pour évaluer une leçon dans les 12 prochains mois.
+
 {% include toc.html %}
 
 

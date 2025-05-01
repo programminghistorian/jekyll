@@ -11,11 +11,10 @@ original: reviewer-guidelines
 
 Esta guía pretende responder preguntas frecuentes y ayudar a los revisores a comprender mejor su rol durante el proceso editorial.
 
+Si desea contribuir como revisor por pares, tómese unos minutos para [registrar su interés a través de nuestro formulario de Google](https://tinyurl.com/es-ph-revision-por-pares), que puede enviar directamente en línea. También hay [una versión de texto sin formato](/assets/forms/es-ph-revisión-por-pares-formulario.txt) que puede [enviarnos por correo electrónico](mailto:publishing.assistant@programminghistorian.org) si lo prefiere. Nuestra edición en español actualmente está buscando voluntarios que estén disponibles para revisar una lección dentro de los próximos 12 meses.
+
 {% include toc.html %}
 
-<div class="alert alert-success">
-En <i>Programming Historian en español</i> buscamos revisores voluntarios para contribuir al desarrollo de lecciones que se publicarán a lo largo de 2025. Si quieres saber más sobre cómo participar, <a href="/posts/es-buscamos-revisores">lee nuestro blogpost</a>.
-</div>
 
 ## Nuestra filosofía
 Para el equipo de _The Programming Historian en español_ revisar una traducción o una lección nueva constituye una oportunidad para aprender una nueva habilidad (a cualquier nivel) y para contribuir en la comunidad de humanidades digitales al mismo tiempo. Por eso nos esforzarmos en que nuestros revisores reciban crédito y reconocimiento por su trabajo.

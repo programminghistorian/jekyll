@@ -61,7 +61,7 @@ Reviewing for _Programming Historian_ is a great opportunity to **learn new tech
 
 Please register your interest to participate in your preferred language(s):
 
-[Form in English](https://forms.gle/9nPjy9t8Bzf2FUdy9) // [Formulario en español](https://forms.gle/u3BS29FqH84bMxP37) // [Formulaire en français](https://forms.gle/u3BS29FqH84bMxP37) // [Enviar um email ao Editor-Chefe](mailto:portugues@programminghistorian.org)
+[Form in English](https://tinyurl.com/en-ph-peer-review) // [Formulario en español](https://tinyurl.com/es-ph-revision-por-pares) // [Formulaire en français](https://tinyurl.com/fr-ph-evaluation) // [Enviar um email ao Editor-Chefe](mailto:portugues@programminghistorian.org)
 
 ## Call for Proposals
 

@@ -13,6 +13,8 @@ Reviewing for the _Programming Historian_ is a great way to learn new technical 
 
 These guidelines are to help reviewers understand their role in the editorial process and to answer common questions about how to be most efficient and effective with your reviews.
 
+If you would like to contribute as a peer reviewer, please take a few minutes to [register your interest via our Google Form](https://tinyurl.com/en-ph-peer-review) which you can submit directly online. There's also [a plain-text version](/assets/forms/en-ph-peer-review-form.txt) which you can [send to us by email](mailto:publishing.assistant@programminghistorian.org), if you prefer. We seek volunteers who are available to review a lesson within 12 months of registering their interest.
+
 {% include toc.html %}
 
 

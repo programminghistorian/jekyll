@@ -26,8 +26,8 @@ Numéro d'identifiant ORCID :
 
 2. Dans quelle(s) langue(s) pourriez-vous également évaluer ? Si vous souhaitez participer dans une autre langue, nous vous prions de remplir le formulaire correspondant également.
 
-- [ ] English – Formulaire : https://forms.gle/Fdm8JXstKEKZX2xt6
-- [ ] Español – Formulaire : https://forms.gle/L1vXpoave9P7M7U76
+- [ ] English – Formulaire : https://tinyurl.com/en-ph-peer-review
+- [ ] Español – Formulaire : https://tinyurl.com/es-ph-revision-por-pares
 - [ ] Français
 - [ ] Português – Merci d'envoyer un courriel: portugues@programminghistorian.org
 
