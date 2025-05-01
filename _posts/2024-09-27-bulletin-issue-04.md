@@ -37,7 +37,7 @@ We’re proudly committed to an **Open Review policy**, in which peer reviewers 
 
 Please register your interest to participate in your preferred language(s):
 
-[Form in English](https://tinyurl.com/en-ph-peer-review) // [Formulario en español](https://tinyurl.com/es-ph-revision-por-pares) // [Formulaire en français](https://tinyurl.com/fr-ph-evaluation)
+[Form in English](https://tinyurl.com/en-ph-peer-review) // [Formulario en español](https://tinyurl.com/es-ph-revision-por-pares) // [Formulaire en français](https://tinyurl.com/fr-ph-evaluation) // [Enviar um email ao Editor-Chefe em português](mailto:portugues@programminghistorian.org)
 
 ## New Lessons
 
