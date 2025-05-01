@@ -51,6 +51,7 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi):
 - [University of Exeter](https://www.exeter.ac.uk/), Reino Unido
 - [Université de Montréal](https://www.umontreal.ca/), Canadá
 - [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), Países Baixos
+- [Software Sustainability Institute](https://www.software.ac.uk/), Reino Unido
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
@@ -60,7 +61,6 @@ Antigos contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi)
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos [2021-2022]
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido [2021-2022]
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library-digital), Reino Unido [2020]
-- [Software Sustainability Institute](https://www.software.ac.uk/), Reino Unido [2021]
 - [Center for Spatial and Textual Analysis (CESTA)](https://cesta.stanford.edu/), Stanford University, Estados Unidos [2021]
 - [Transkribus - READ COOP](https://readcoop.eu/), Áustria [2022]
 - [RStudio/Posit](https://posit.co/), Estados Unidos [2022]
