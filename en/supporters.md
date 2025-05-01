@@ -48,6 +48,7 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [University of Exeter](https://www.exeter.ac.uk/), United Kingdom
 - [Université de Montréal](https://www.umontreal.ca/), Canada
 - [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), The Netherlands
+- [Software Sustainability Institute](https://www.software.ac.uk/), United Kingdom
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
@@ -57,7 +58,6 @@ Former contributors to our [Institutional Partner Programme](support-us#institut
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), United States [2021-2022]
 - [Centre for Digital Humanities, University College London](https://www.ucl.ac.uk/digital-humanities/), United Kingdom [2021-2022]
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library-digital), United Kingdom [2020]
-- [Software Sustainability Institute](https://www.software.ac.uk/), United Kingdom [2021]
 - [Center for Spatial and Textual Analysis (CESTA)](https://cesta.stanford.edu/), Stanford University, United States [2021]
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria [2022]
 - [RStudio/Posit](https://posit.co/), United States [2022]
