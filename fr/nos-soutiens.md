@@ -49,6 +49,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [University of Exeter](https://www.exeter.ac.uk/), Royaume-Uni
 - [Université de Montréal](https://www.umontreal.ca/), Canada
 - [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), Pays-Bas
+- [Software Sustainability Institute](https://www.software.ac.uk/), Royaume-Uni
 
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
@@ -59,7 +60,6 @@ Les institutions suivantes ont participé à de notre programme de [Partenariat 
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), États-Unis [2021-2022]
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Royaume-Uni [2021-2022]
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library-digital), Royaume-Uni [2020]
-- [Software Sustainability Institute](https://www.software.ac.uk/), Royaume-Uni [2021]
 - [Center for Spatial and Textual Analysis (CESTA)](https://cesta.stanford.edu/), Stanford University, États-Unis [2021]
 - [Transkribus - READ COOP](https://readcoop.eu/), Autriche [2022]
 - [RStudio/Posit](https://posit.co/), États-Unis [2022]
