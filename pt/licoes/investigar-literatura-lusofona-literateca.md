@@ -3,7 +3,7 @@ title: "Investigar a literatura lusófona através dos tempos usando a Literatec
 slug: investigar-literatura-lusofona-literateca
 layout: lesson
 collection: lessons
-date: 2025-05-01
+date: 2025-05-07
 authors:
 - Diana Santos
 reviewers:
