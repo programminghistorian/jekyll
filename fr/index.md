@@ -30,7 +30,7 @@ title: The Programming Historian en français
 <div class="home-block home-stripe-2">
 <div class="container">
 <h2>Contribuer</h2>
-<p>Que vous souhaitiez <a href="{{ site.baseurl }}/fr/consignes-auteurs.html">écrire une leçon</a>, rejoindre notre <a href="{{ site.baseurl }}/fr/consignes-redacteurs">équipe de rédacteurs et rédactrices</a>, nous <a href="{{ site.baseurl }}/fr/reaction.html">faire un retour</a>, nous sommes constamment à l'écoute de notre lectorat! </p>
+<p>Que vous souhaitiez <a href="{{ site.baseurl }}/fr/consignes-auteurs.html">écrire une leçon</a>, rejoindre notre <a href="{{ site.baseurl }}/fr/processus-de-publication">équipe de rédacteurs et rédactrices</a>, nous <a href="{{ site.baseurl }}/fr/reaction.html">faire un retour</a>, nous sommes constamment à l'écoute de notre lectorat! </p>
 </div>
 </div>
 
