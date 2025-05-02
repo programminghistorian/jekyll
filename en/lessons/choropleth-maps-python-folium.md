@@ -66,7 +66,7 @@ Written in Python (and [C](https://perma.cc/6TQ6-S46L)), Pandas is a powerful pa
 
 This lesson uses several Pandas methods, such as:
 - [.describe()](https://perma.cc/44HS-Y7LK)
-- [.info()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.info)
+- [.info()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.info.html)
 - [.sample()](https://perma.cc/X7L9-HJEC)
 - [.value_counts()](https://perma.cc/2KCE-AZBV)
 - [.merge()](https://perma.cc/84BE-MVNP)
