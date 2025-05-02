@@ -179,14 +179,14 @@ menu-contribute-translate:
     link: /pt/directrizes-tradutor
 menu-contribute-edit:
   en:
-    title: Editor Guidelines
-    link: /en/editor-guidelines
+    title: Publishing Workflow
+    link: /en/publishing-workflow
   es:
     title: Guía para editores
     link: /es/guia-editor
   fr:
-    title: Consignes aux rédacteurs
-    link: /fr/consignes-redacteurs
+    title: Processus de Publication
+    link: /fr/processus-de-publication
   pt:
     title: Diretrizes para editores
     link: /pt/directrizes-editor
