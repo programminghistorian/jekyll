@@ -8,7 +8,7 @@ redirect_from: /editor-guidelines
 
 # Publishing Workflow
 
-Our publishing workflow moves through eight phases: **Proposal**, **Submission**, **Initial Edit**, **First Revision**, **Open Peer Review**, **Second Revision**, **Sustainability + Accessibility**, and **Publication**. The development of both orginal and translated lessons is supported by the professional services of our publishing team, guided by our managing editors, with the expertise of a cohort of volunteer editors from our project team.
+Our publishing workflow moves through eight phases: **Proposal**, **Submission**, **Initial Edit**, **First Revision**, **Open Peer Review**, **Second Revision**, **Sustainability + Accessibility**, and **Publication**. The development of both original and translated lessons is supported by the professional services of our publishing team, guided by our managing editors, with the expertise of a cohort of volunteer editors from our project team.
 
 ## Overview of Phases, Responsibilities, and Timeframes
 
