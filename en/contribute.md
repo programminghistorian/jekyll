@@ -31,7 +31,7 @@ If you would like to contribute as a peer reviewer, please take a few minutes to
 <img src="{{site.baseurl}}/gallery/editor-guidelines.png" class="garnish rounded float-right" alt="{{ site.data.snippets.editor-guidelines-image-alt[page.lang] }}"/>
 
 
-Our editorial board members help facilitate peer review and work with authors closely to make improvements to their lessons. Our [guidelines for editors](editor-guidelines) is meant to ensure that everyone, from authors to reviewers to members of the wider community, receive a fair and consistent experience during peer review.
+Our editorial board members help facilitate peer review and work with authors closely to make improvements to their lessons. Our [publishing workflow](publishing-workflow) is meant to ensure that everyone, from authors to reviewers to members of the wider community, receive a fair and consistent experience during peer review.
 
 From time to time we may advertise that we are seeking more editors.
 
