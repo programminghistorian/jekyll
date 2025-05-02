@@ -1,7 +1,7 @@
 ---
 title: Directrizes para editores
 layout: blank
-original: editor-guidelines
+original: publishing-workflow
 ---
 
 # Diretrizes para editores
