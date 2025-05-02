@@ -1,7 +1,7 @@
 ---
 title: Guía para editores
 layout: blank
-original: editor-guidelines
+original: publishing-workflow
 ---
 
 # Guía para editores
