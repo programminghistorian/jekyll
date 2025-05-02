@@ -72,4 +72,4 @@ Merci de nous aider à améliorer le _Programming Historian en français_!
 
  [depot]: {{site.baseurl}}/fr/consignes-auteurs
  [evaluateurs]: {{site.baseurl}}/fr/consignes-evaluateurs
- [redacteurs]: {{site.baseurl}}/fr/consignes-redacteurs
+ [redacteurs]: {{site.baseurl}}/fr/processus-de-publication
