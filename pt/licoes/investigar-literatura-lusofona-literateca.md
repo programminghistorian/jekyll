@@ -78,7 +78,7 @@ Assim, para a mesma procura é possível escolher como resultado uma concordânc
 
 {% include figure.html filename="pt-or-investigar-literatura-lusofona-literateca-01.png" alt="Pesquisa pedindo uma concordância, mostrando a expressão de procura e as primeiras quatro ocorrências da palavra cara" caption="Figura 1. Pesquisa pela palavra 'cara', pedindo uma concordância (a figura exibe apenas 4 dos 4889 resultados da pesquisa.)" %}
 
-{% include figure.html filename="pt-or-investigar-literatura-lusofona-literateca-02.png" alt="Pesquisa pedindo a distribuição por categoria gramatical da palavfra cara, mostrando a expressão de procura e as cinco categorias gramaticais em que aperece, com a frequência absoluta" caption="Figura 2. Pesquisa exibindo a distribuição por categoria gramatical da palavra 'cara'." %}
+{% include figure.html filename="pt-or-investigar-literatura-lusofona-literateca-02.png" alt="Pesquisa pedindo a distribuição por categoria gramatical da palavra cara, mostrando a expressão de procura e as cinco categorias gramaticais em que aparece, com a frequência absoluta" caption="Figura 2. Pesquisa exibindo a distribuição por categoria gramatical da palavra 'cara'." %}
 
 {% include figure.html filename="pt-or-investigar-literatura-lusofona-literateca-03.png" alt="Pesquisa pedindo a distribuição por autor da palavra inquietantemente, que só aparece em dois autores" caption="Figura 3. Pesquisa exibindo uma distribuição por autor da palavra 'inquietantemente'." %}
 
@@ -124,7 +124,7 @@ Se, por exemplo, quisermos saber a quantidade de menções a roupa distribuídas
 ?sema=/.*roupa.*/ obra autor variante
 ```
 
-e, escolhendo a opção `tsv` (do inglês, "tab-separated values") para **Tipo de resultado**, obtém-se um ficheiro com dados tabulares que pode ser lido depois diretamente pelo R. Chamamos-lhe [distribuicaoRoupa.tsv](/assets/investigar-literatura-lusofona-literateca/distribuicaoRoupa.tsv). Para mais informação sobre a exploração do vestuário na literatura em portuguẽs, consulte o artigo Santos (2021).[^6]
+e, escolhendo a opção `tsv` (do inglês, "tab-separated values") para **Tipo de resultado**, obtém-se um ficheiro com dados tabulares que pode ser lido depois diretamente pelo R. Chamamos-lhe [distribuicaoRoupa.tsv](/assets/investigar-literatura-lusofona-literateca/distribuicaoRoupa.tsv). Para mais informação sobre a exploração do vestuário na literatura em português, consulte o artigo Santos (2021).[^6]
 
 
 Mostro aqui o princípio desse ficheiro:
@@ -285,7 +285,7 @@ obras<-read.table("distribuicaoObra.tsv")
 names(obras)<-c("obra","tamanho", "autor","variante","data", "decada", "lixo","lixo2")
 locaisObras<-merge(locais, obras, by=c("obra","autor"))
 locaisObras$localrel<-locaisObras$num/locaisObras$tamanho
-barplot(locaisObras[order(locaisObras$localrel,decreasing=TRUE),]$locarel[1:50],names=locaisObras[order(locaisObras$localrel,decreasing=TRUE),]$obra[1:50],las=2)
+barplot(locaisObras[order(locaisObras$localrel,decreasing=TRUE),]$localrel[1:50],names=locaisObras[order(locaisObras$localrel,decreasing=TRUE),]$obra[1:50],las=2)
 ```
 
 As primeiras quatro linhas apenas leem e identificam as colunas das folhas de registo. A quinta junta ambas as informações. Já a sexta calcula o número relativo de locais por número de palavras, para ser possível comparar obras de diferentes tamanhos.
@@ -303,7 +303,7 @@ attach(locaisObras)
 barplot(sort(tapply(num,autor,sum)/tapply(tamanho,autor,sum),decreasing=TRUE)[1:25],las=2)
 ```
 
-A primeira linha apenas instrói o R para se considerar "dentro" da folha de registo `locaisObras`, para não ser preciso estar sempre a preceder o nome da coluna pelo nome da folha de registo. 
+A primeira linha apenas instrui o R para se considerar "dentro" da folha de registo `locaisObras`, para não ser preciso estar sempre a preceder o nome da coluna pelo nome da folha de registo. 
 
 Na segunda linha, `tapply` é um comando no R que aplica uma função repetidamente. Neste caso é a função `sum` (soma), porque queremos somar todos os locais de um mesmo autor, sem interessar a obra, e todas as palavras escritas pelo autor (segundo `tapply`).
 
