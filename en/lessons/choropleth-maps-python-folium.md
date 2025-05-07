@@ -3,7 +3,7 @@ title: "Creating Choropleth Maps with Python and Folium"
 slug: choropleth-maps-python-folium
 layout: lesson
 collection: lessons
-date: 2025-05-07
+date: 2025-05-08
 authors:
 - Adam Porter
 reviewers:
@@ -175,7 +175,7 @@ To create the choropleth map, Folium needs a file that provides the geographic b
 
 We're going to use the Census website's `cb_2021_us_county_5m.zip` file, which is available to [download from the *Programming Historian* repository](/assets/choropleth-maps-python-folium/cb_2021_us_county_5m.zip). If the cartographic boundary file you were using was based on another boundary type (such as [census tracts](https://perma.cc/QD4A-RB4Y), or [police precincts](https://perma.cc/6DCM-CZVF)), you would follow the same basic steps – the map produced would simply reflect these different geometries instead.
 
-GeoPandas knows how to read the ZIP format and to extract the information it needs: 
+As in the previous section, if you want to work with the lesson’s archived dataset, use the code as written. If you'd like to use the original Census data instead, comment-out (with #) the first line, and un-comment the second line (by removing the #). GeoPandas knows how to read the ZIP format and to extract the information it needs: 
 
 ```python
 counties = gpd.read_file('https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/choropleth-maps-python-folium/cb_2021_us_county_5m.zip')
