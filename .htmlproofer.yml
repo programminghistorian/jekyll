@@ -22,3 +22,6 @@ directory_ignore:
   - /retirada/
   - /retrait/
   - /posts/
+ignore_elements:
+  - pre
+  - code
