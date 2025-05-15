@@ -21,7 +21,7 @@ retired: true
 retirement-reason: |
   This lesson is for an old version of GitHub Desktop that is now no longer maintained or supported by GitHub. The new version and its documentation can be found at <https://desktop.github.com/>
 
-  We also recommend the Software Carpentry tutorial on version control at <http://swcarpentry.github.io/git-novice/>
+  We also recommend the Software Carpentry tutorial on version control at <https://swcarpentry.github.io/git-novice/>
 doi: 10.46430/phen0051
 ---
 
@@ -140,7 +140,7 @@ The Markdown syntax won't be covered in this lesson in order to keep the length 
 
 ### Text Editors
 
-To write in plain text we want to use a text editor. There are a huge number of free and paid text editors available. Some of these are very straightforward and simple to use while others have a learning curve and potential uses beyond simple text editing. In the long run using a more advanced and extendable text editor like Vim or Emacs may save you time but for now we can start with a simpler editor. [Atom](https://atom.io/) is a good option for getting started. Atom is a text editor built by GitHub and includes syntax highlighting for Markdown alongside integration with GitHub. It is free and open source, a full 'flight manual', including installation instructions, is available [here](http://flight-manual.atom.io/).
+To write in plain text we want to use a text editor. There are a huge number of free and paid text editors available. Some of these are very straightforward and simple to use while others have a learning curve and potential uses beyond simple text editing. In the long run using a more advanced and extendable text editor like Vim or Emacs may save you time but for now we can start with a simpler editor. [Atom](https://atom.io/) is a good option for getting started. Atom is a text editor built by GitHub and includes syntax highlighting for Markdown alongside integration with GitHub. It is free and open source, a full 'flight manual', including installation instructions, is available [here](https://flight-manual.atom.io/).
 
 If you don't want to install any new software then you can use your system's included text editor: TextEdit for Mac and Notepad for windows. If you decide to use Markdown beyond this tutorial then you will benefit from a text editor which includes syntax highlighting for Markdown alongside other features useful for writing.
 
@@ -205,7 +205,7 @@ There are differences between using version control for code and text which will
 
 It is important that you use meaningful commit summaries and messages. Writing good commit messages requires some prior thought. Messages that make sense to you as an explanation of changes when you make a commit may no longer make sense to you in the future. If you are going to use version control in collaboration with other people it is especially important that other people can understand your commit messages. Version control as a system for managing changes to documents works best when active thought goes into using the software. It is therefore particularly important when collaborating with other that there is a shared understanding and approach to using version control.
 
-One way of addressing this is to try to follow a 'commit style'. One influential [suggestion](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) for a commit style has been made by Tim Pope. The style suggestions made by Tim Pope are partly ['built in'](https://github.com/blog/926-shiny-new-commit-styles) to the GitHub Desktop commit message interface but understanding the format will help ensure a consistent approach. The following commit message paraphrases Tim Pope's suggested format to focus on commits relating to text rather than code:
+One way of addressing this is to try to follow a 'commit style'. One influential [suggestion](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) for a commit style has been made by Tim Pope. The style suggestions made by Tim Pope are partly ['built in'](https://github.com/blog/926-shiny-new-commit-styles) to the GitHub Desktop commit message interface but understanding the format will help ensure a consistent approach. The following commit message paraphrases Tim Pope's suggested format to focus on commits relating to text rather than code:
 
 ```
 Capitalized, short (50 chars or less) summary

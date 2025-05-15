@@ -112,7 +112,7 @@ Sugerencia de lecturas para aprender HTML:
 -	[W3Schools HTML Tutorial]
 -	[W3Schools HTML5 Tutorial]
 
-[la anterior de la serie]: http://es.programminghistorian.org/lecciones/introduccion-e-instalacion/">
-[tutorial de HTML ofrecido por W3Schools]: http://www.w3schools.com/html/default.asp
-[W3Schools HTML Tutorial]: http://www.w3schools.com/html/default.asp
-[W3Schools HTML5 Tutorial]: http://www.w3schools.com/html/html5_intro.asp
+[la anterior de la serie]: https://es.programminghistorian.org/lecciones/introduccion-e-instalacion/">
+[tutorial de HTML ofrecido por W3Schools]: https://www.w3schools.com/html/default.asp
+[W3Schools HTML Tutorial]: https://www.w3schools.com/html/default.asp
+[W3Schools HTML5 Tutorial]: https://www.w3schools.com/html/html5_intro.asp

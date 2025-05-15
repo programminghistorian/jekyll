@@ -39,7 +39,7 @@ Dado que las lecciones de *The Programming Historian en español* deben ser envi
 
 ### ¿Qué es Markdown?
 
-Markdown fue desarrollado en 2004 por [John Gruber](http://daringfireball.net/projects/markdown/), y se refiere tanto a (1) una manera de formar archivos de texto, como a (2) una utilidad del lenguaje de programación Perl para convertir archivos Markdown en HTML. En esta lección nos centraremos en la primera acepción y aprenderemos a escribir archivos utilizando la sintaxis de Markdown.
+Markdown fue desarrollado en 2004 por [John Gruber](https://daringfireball.net/projects/markdown/), y se refiere tanto a (1) una manera de formar archivos de texto, como a (2) una utilidad del lenguaje de programación Perl para convertir archivos Markdown en HTML. En esta lección nos centraremos en la primera acepción y aprenderemos a escribir archivos utilizando la sintaxis de Markdown.
 
 Los archivos de texto plano tienen muchas ventajas sobre otro tipo de formato. Por un lado, se pueden leer prácticamente en todos los dispositivos. También han resistido la prueba del paso del tiempo mejor que otro tipo de archivos -si alguna vez has intentado abrir un documento guardado en un formato de [procesador de textos heredado](https://es.wikipedia.org/wiki/Sistema_heredado), estarás familiarizado con los problemas de compatibilidad que implican-.
 
@@ -325,7 +325,7 @@ Aunque Markdown se está haciendo cada vez más popular, particularmente para lo
 Markdown es un término medio muy útil entre los archivos de texto plano sin estilo y los documentos de procesadores de texto heredados. Su sintaxis simple se aprende rápidamente y es altamente legible en el mismo documento y cuando se transforma en HTML u otro tipo de documentos. En conclusión, escribir tus documentos en Markdown significa que serán capaces de ser utilizados y leídos a largo plazo.
 
 
-[John Gruber]: http://daringfireball.net/projects/markdown/
+[John Gruber]: https://daringfireball.net/projects/markdown/
 [Autoría sustentable utilizando Pandoc y Markdown]: /lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 [StackEdit]: https://stackedit.io
 [editor de StackEdit]: https://stackedit.io/editor

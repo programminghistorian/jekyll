@@ -741,7 +741,7 @@ If you are not using Anaconda, you will need to cover the following dependencies
 
 1. Install Python 3 (preferably Python 3.7 or later)
 2. Recommended: install and run a virtual environment
-3. Install the [scikit-learn library](http://scikit-learn.org/stable/install.html) and its dependencies
+3. Install the [scikit-learn library](https://scikit-learn.org/stable/install.html) and its dependencies
 4. Install [the Pandas library](https://pandas.pydata.org/docs/)
 5. Install the [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) libraries
 6. Install [Jupyter Notebook](https://jupyter.org/) and its dependencies

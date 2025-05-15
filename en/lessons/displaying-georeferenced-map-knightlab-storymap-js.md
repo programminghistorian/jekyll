@@ -58,7 +58,7 @@ To access the StoryMap JS authoring tool, go to the [StoryMap JS website](https:
 
 {% include figure.html filename="make_storymapjs.png" caption="Story Map JS: Make a StoryMap." %}
 
-You will be prompted to login with a Google account.  If you don’t have one, you can create one at [gmail.com](http://gmail.com).
+You will be prompted to login with a Google account.  If you don’t have one, you can create one at [gmail.com](https://gmail.com).
 
 {% include figure.html filename="gmail_signin.png" caption="StoryMap JS: Sign in with Google." %}
 

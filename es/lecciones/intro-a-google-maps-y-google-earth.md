@@ -546,7 +546,7 @@ trabajo!**
   [geo-es22]: /images/intro-a-google-maps-y-google-earth/geo-es22.png
   [geo-es23]: /images/intro-a-google-maps-y-google-earth/geo-es23.png
   [geo-es24]: /images/intro-a-google-maps-y-google-earth/geo-es24.png
-  [www.davidrumsey.com]: http://www.davidrumsey.com/
+  [www.davidrumsey.com]: https://www.davidrumsey.com/
   [geo-es25]: /images/intro-a-google-maps-y-google-earth/geo-es25.png
   [geo-es26]: /images/intro-a-google-maps-y-google-earth/geo-es26.png
   [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
@@ -561,7 +561,7 @@ trabajo!**
   [geo-es33]: /images/intro-a-google-maps-y-google-earth/geo-es33.png
   [geo-es34]: /images/intro-a-google-maps-y-google-earth/geo-es34.png
   [geo-es35]: /images/intro-a-google-maps-y-google-earth/geo-es35.png
-  [Mobile Mapping and Historical GIS in the Field]: http://niche-canada.org/2011/12/14/mobile-mapping-and-historical-gis-in-the-field/
+  [Mobile Mapping and Historical GIS in the Field]: https://niche-canada.org/2011/12/14/mobile-mapping-and-historical-gis-in-the-field/
   [geo-es36]: /images/intro-a-google-maps-y-google-earth/geo-es36.png
   [geo-es37]: /images/intro-a-google-maps-y-google-earth/geo-es37.png
   [geo-es38]: /images/intro-a-google-maps-y-google-earth/geo-es38.png

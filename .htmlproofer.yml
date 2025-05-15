@@ -6,7 +6,7 @@ http_status_ignore:
   - 403
   - 400
 url_ignore:
-  - /http:\/\/www.gutenberg.org\/.*?/
+  - /\/\/www.gutenberg.org\/.*?/
   - /https:\/\/github.com\/programminghistorian\/.*?/
   - /https:\/\/github.com\/orgs\/programminghistorian\/.*?/
   - /\#/
@@ -25,3 +25,4 @@ directory_ignore:
 ignore_elements:
   - pre
   - code
+  - script

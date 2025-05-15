@@ -326,7 +326,7 @@ As I have described, __tf-idf__ has its origins in information retrieval, and th
 
 ### 1. As an Exploratory Tool or Visualization Technique
 
-As I've already demonstrated, terms lists with __tf-idf__ scores for each document in a corpus can be a strong interpretive aid in themselves, they can help generate hypotheses or research questions. Word lists can also be the building bocks for more sophisticated browsing and visualization strategies. ["A full-text visualization of the Iraq War Logs"](http://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs), by Jonathan Stray and Julian Burgess, is a good example of this use case.[^11] Using __tf-idf__-transformed features, Stray and Burgess build a network visualization that positions Iraq War logs in relation to their most distinctive keywords. This way of visualizing textual information led Stray to develop [the Overview Project](https://www.overviewdocs.com), which provides a dashboard for users to visualize and search thousands of documents at a time. We could use this kind of approach to graph our obituaries corpus and see if there are keyword communities.
+As I've already demonstrated, terms lists with __tf-idf__ scores for each document in a corpus can be a strong interpretive aid in themselves, they can help generate hypotheses or research questions. Word lists can also be the building bocks for more sophisticated browsing and visualization strategies. ["A full-text visualization of the Iraq War Logs"](https://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs), by Jonathan Stray and Julian Burgess, is a good example of this use case.[^11] Using __tf-idf__-transformed features, Stray and Burgess build a network visualization that positions Iraq War logs in relation to their most distinctive keywords. This way of visualizing textual information led Stray to develop [the Overview Project](https://www.overviewdocs.com), which provides a dashboard for users to visualize and search thousands of documents at a time. We could use this kind of approach to graph our obituaries corpus and see if there are keyword communities.
 
 ### 2. Textual Similarity and Feature Sets
 
@@ -408,13 +408,13 @@ Text summarization is yet another way to explore a corpus. Rada Mihalcea and Pau
 
 - Salton, G. and M.J. McGill, _Introduction to Modern Information Retrieval_. New York: McGraw-Hill, 1983.
 
-- Schmidt, Ben. "Do Digital Humanists Need to Understand Algorithms?" _Debates in the Digital Humanities 2016_. Online edition. Minneapois: University of Minnesota Press. http://dhdebates.gc.cuny.edu/debates/text/99
+- Schmidt, Ben. "Do Digital Humanists Need to Understand Algorithms?" _Debates in the Digital Humanities 2016_. Online edition. Minneapois: University of Minnesota Press. https://dhdebates.gc.cuny.edu/debates/text/99
 
-- --. "Words Alone: Dismantling Topic Models in the Humanities," _Journal of Digital Humanities_. Vol. 2, No. 1 (2012): n.p. http://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/
+- --. "Words Alone: Dismantling Topic Models in the Humanities," _Journal of Digital Humanities_. Vol. 2, No. 1 (2012): n.p. https://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/
 
 - Spärck Jones, Karen. "A Statistical Interpretation of Term Specificity and Its Application in Retrieval." Journal of Documentation 28, no. 1 (1972): 11–21.
 
-- Stray, Jonathan, and Julian Burgess. "A Full-text Visualization of the Iraq War Logs," December 10, 2010 (Update April 2012). http://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs
+- Stray, Jonathan, and Julian Burgess. "A Full-text Visualization of the Iraq War Logs," December 10, 2010 (Update April 2012). https://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs
 
 - Underwood, Ted. "Identifying diction that characterizes an author or genre: why Dunning's may not be the best method," _The Stone and the Shell_, November 9, 2011. https://tedunderwood.com/2011/11/09/identifying-the-terms-that-characterize-an-author-or-genre-why-dunnings-may-not-be-the-best-method/
 
@@ -435,7 +435,7 @@ If you are not using Anaconda, you will need to cover the following dependencies
 
 1. Install Python 2 or 3 (preferably Python 3.6 or later)
 2. Recommended: install and run a virtual environment
-3. Install the Scikit-Learn library and its dependencies (see [http://scikit-learn.org/stable/install.html](http://scikit-learn.org/stable/install.html)).
+3. Install the Scikit-Learn library and its dependencies (see [https://scikit-learn.org/stable/install.html](https://scikit-learn.org/stable/install.html)).
 4. Install Jupyter Notebook and its dependencies
 
 # Endnotes
@@ -454,13 +454,13 @@ If you are not using Anaconda, you will need to cover the following dependencies
 
 [^7]: Documentation for TfidfVectorizer. <https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html>
 
-[^8]: Schmidt, Ben. "Do Digital Humanists Need to Understand Algorithms?" _Debates in the Digital Humanities 2016_. Online edition. (Minneapois: University of Minnesota Press): n.p. <http://dhdebates.gc.cuny.edu/debates/text/99>
+[^8]: Schmidt, Ben. "Do Digital Humanists Need to Understand Algorithms?" _Debates in the Digital Humanities 2016_. Online edition. (Minneapois: University of Minnesota Press): n.p. <https://dhdebates.gc.cuny.edu/debates/text/99>
 
 [^9]: van Rossum,  Guido, Barry Warsaw, and Nick Coghlan. "PEP 8 -- Style Guide for Python Code." July 5, 2001. Updated July 2013. <https://www.python.org/dev/peps/pep-0008/>
 
 [^10]: "Ida M. Tarbell, 86, Dies in Bridgeport" _The New York Times_, January 7, 1944, 17. <https://www.nytimes.com>; "Nellie Bly, Journalist, Dies of Pneumonia" _The New York Times_, January 28, 1922, 11. <https://www.nytimes.com>; "W. E. B. DuBois Dies in Ghana; Negro Leader and Author, 95" _The New York Times_, August 28, 1963, 27. <https://www.nytimes.com>; Whitman, Alden. "Upton Sinclair, Author, Dead; Crusader for Social Justice, 90" _The New York Times_, November 26, 1968, 1, 34. <https://www.nytimes.com>; "Willa Cather Dies; Noted Novelist, 70" _The New York Times_, April 25, 1947, 21. <https://www.nytimes.com>
 
-[^11]: Stray, Jonathan, and Julian Burgess. "A Full-text Visualization of the Iraq War Logs," December 10, 2010 (Update April 2012). <http://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs>
+[^11]: Stray, Jonathan, and Julian Burgess. "A Full-text Visualization of the Iraq War Logs," December 10, 2010 (Update April 2012). <https://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs>
 
 [^12]: Manning, C.D., P. Raghavan, and H. Schütze, _Introduction to Information Retrieval_. (Cambridge: Cambridge University Press, 2008): 118-120.
 
@@ -470,6 +470,6 @@ If you are not using Anaconda, you will need to cover the following dependencies
 
 [^15]: __Tf-idf__ is not typically a recommended pre-processing step when generating topic models. See <https://datascience.stackexchange.com/questions/21950/why-we-should-not-feed-lda-with-tfidf>
 
-[^16]: Schmidt, Ben. "Words Alone: Dismantling Topic Models in the Humanities," _Journal of Digital Humanities_. Vol. 2, No. 1 (2012): n.p. <http://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/>
+[^16]: Schmidt, Ben. "Words Alone: Dismantling Topic Models in the Humanities," _Journal of Digital Humanities_. Vol. 2, No. 1 (2012): n.p. <https://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/>
 
 [^17]: Mihalcea, Rada, and Paul Tarau. "Textrank: Bringing order into text." In _Proceedings of the 2004 conference on empirical methods in natural language processing_. 2004.

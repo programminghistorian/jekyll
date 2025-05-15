@@ -34,18 +34,18 @@ In this lesson, you will learn how to create a web map based on that data.  By t
 
 This lesson uses:
 
-- [python](/lessons/?topic=python) ([pip](http://pip.readthedocs.org/en/stable/), [geopy](https://github.com/geopy/geopy), [pandas](http://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe))
-- [leaflet](http://leafletjs.com/)
-- [geojson.io (from mapbox)](http://geojson.io/)
+- [python](/lessons/?topic=python) ([pip](https://pip.readthedocs.org/en/stable/), [geopy](https://github.com/geopy/geopy), [pandas](https://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe))
+- [leaflet](https://leafletjs.com/)
+- [geojson.io (from mapbox)](https://geojson.io/)
 - [javascript](https://www.javascript.com/) and [jquery](https://jquery.com/)
 
 Optional: If you wish to follow along with pre-made scripts you can find them in [this directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/assets/mapping-with-python-leaflet).
 
 To set up your working environment:
 1. Create a directory for this project where you will keep all of your scripts and files that you will work from
-2. If you have a text editor where you can work from the directory of your project, import that directory. You can use editors such as [TextWrangler](http://www.barebones.com/products/textwrangler/) for OS X, [Notepad++](https://notepad-plus-plus.org/) for Windows, or [Sublime Text](http://www.sublimetext.com/).
+2. If you have a text editor where you can work from the directory of your project, import that directory. You can use editors such as [TextWrangler](https://www.barebones.com/products/textwrangler/) for OS X, [Notepad++](https://notepad-plus-plus.org/) for Windows, or [Sublime Text](https://www.sublimetext.com/).
 If you are using a code editor such as Sublime Text, to import the folder you could drag and drop the folder that you want to work from into your editor window. Once you've done that, the directory will appear on the left hand sidebar as you root folder. If you click on your folder, you'll be able to see the contents of your folder. Importing a folder allows you to easily work with the files in your project. If you need to work with multiple files and directories in directories, this will make it easier to search through these files, switch between them while you're working and keep you organized.
-3. (Optional) It is recommended to use a [Python virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) to store the dependencies and versions required for your specific project.
+3. (Optional) It is recommended to use a [Python virtual environment](https://docs.python-guide.org/en/latest/dev/virtualenvs/) to store the dependencies and versions required for your specific project.
 
 ### Getting Data: Download the CSV
 
@@ -55,7 +55,7 @@ We're going to start with a plain comma-separated values (CSV) data file and cre
 
 ```curl -O https://programminghistorian.org/assets/mapping-with-python-leaflet/census.csv```
 
-The original source of this data is from the [Greater London Authority London Datastore](http://data.london.gov.uk/dataset/historic-census-population).
+The original source of this data is from the [Greater London Authority London Datastore](https://data.london.gov.uk/dataset/historic-census-population).
 
 ## Geocoding with Python
 
@@ -75,13 +75,13 @@ If you're familiar with _Programming Historian_, you might have already noticed 
 
 [Geopy](https://github.com/geopy/geopy) is a Python library that gives you access to the various geocoding APIs.  Geopy makes it easy for Python developers to locate the coordinates of addresses, cities, countries, and landmarks across the globe using third-party geocoders and other data sources. Geopy includes geocoders built by OpenStreetMap Nominatim, ESRI ArcGIS, Google Geocoding API (V3), Baidu Maps, Bing Maps API, Yahoo! PlaceFinder, Yandex, IGN France, GeoNames, NaviData, OpenMapQuest, What3Words, OpenCage, SmartyStreets, geocoder.us, and GeocodeFarm geocoder services.
 
-[Pandas](http://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe) is another python library that we will use.  It's very popular library amongst scientists and mathematicians to manipulate and analyse data.
+[Pandas](https://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe) is another python library that we will use.  It's very popular library amongst scientists and mathematicians to manipulate and analyse data.
 
-Finally, [Pip](http://pip.readthedocs.org/en/stable/) is a very useful package manager to help you install things like Geopy and Pandas! If you've [already installed Python](/lessons/introduction-and-installation) and [installed pip](/lessons/installing-python-modules-pip), type ```pip list``` to see if you already have the geopy and pandas packages installed. If you do not have pip installed, you can download [get-pip.py](https://bootstrap.pypa.io/get-pip.py), then from your command line go to the directory where get-pip.py is located and run
+Finally, [Pip](https://pip.readthedocs.org/en/stable/) is a very useful package manager to help you install things like Geopy and Pandas! If you've [already installed Python](/lessons/introduction-and-installation) and [installed pip](/lessons/installing-python-modules-pip), type ```pip list``` to see if you already have the geopy and pandas packages installed. If you do not have pip installed, you can download [get-pip.py](https://bootstrap.pypa.io/get-pip.py), then from your command line go to the directory where get-pip.py is located and run
 
 ```python get-pip.py ```
 
-For the most up to date instructions, you can visit [pip's installation manual](http://pip.readthedocs.org/en/stable/installing/).
+For the most up to date instructions, you can visit [pip's installation manual](https://pip.readthedocs.org/en/stable/installing/).
 
 To install Geopy and Pandas, open your [command line (using this lesson as a guideline if necessary)](/lessons/intro-to-bash) and install the Geopy and Pandas libraries:
 
@@ -94,7 +94,7 @@ pip install pytz
 pip install geopy
 pip install pandas
 ```
-Note: We are installing numpy, python-dateutil, and pytz because pandas [requires them](http://pandas.pydata.org/pandas-docs/stable/install.html#dependencies).
+Note: We are installing numpy, python-dateutil, and pytz because pandas [requires them](https://pandas.pydata.org/pandas-docs/stable/install.html#dependencies).
 
 For Windows, you may need to install [Microsoft Visual C++ Compiler for Python](https://wiki.python.org/moin/WindowsCompilers). Set the environmental variables to recognize python and pip from the command line:
 
@@ -136,7 +136,7 @@ def main():
 
 We are first using pandas' pre-existing read_csv() function to open the CSV file. We pass the filepath to our data file in the first parameter, 'census-historic-population-borough.csv'. If it was in a folder called 'data', you would put 'data/census-historic-population-borough.csv'.  The second parameter, ```index_col=None```, will number the rows to generate the index without using any column.  If we use ```index_col=0```, it indexes the first column in your data as the row name. The third parameter, ```header=0```, indicates that there is a header row, which is the first line of the spreadsheet (Note: Python uses "0" instead of "1" to indicate the first value in an index). The fourth parameter ```sep=","``` is where you indicate delimiter symbol that is used to split data into fields.  Since are using a comma separated values data format, we need to indicate that we are using a comma to split our data.
 
-There are many other parameters you can use.  A full list is available in the pandas documentation on the [read_csv() function](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html).
+There are many other parameters you can use.  A full list is available in the pandas documentation on the [read_csv() function](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html).
 
 Next, we anticipate that when we geocode the csv we will get points in the format of (latitude, longitude). If we only want the latitude value of the point in a csv column, we will define a function to isolate that value. The same can be done for our longitude value.
 
@@ -164,7 +164,7 @@ Next, select the geolocator you want to use.  Here we're creating two geolocator
 | request limit                    | 1 request/s or timeout                                                      | 
 | performance test on census data  | 33.5s                                                                       | 
 
-You can also choose a different geolocator from the list found in [the geopy documentation](http://geopy.readthedocs.org/). GoogleV3 is a geocoder compatible with geopy, it is a reliable geolocator choice because of their large geographic data coverage. However, since July 2018 an API key is required, and you need to enable billing in Google Cloud to use it. For more information about choosing geolocators, you can follow the discussion in the [geopy repository on Github](https://github.com/geopy/geopy/issues/90).
+You can also choose a different geolocator from the list found in [the geopy documentation](https://geopy.readthedocs.org/). GoogleV3 is a geocoder compatible with geopy, it is a reliable geolocator choice because of their large geographic data coverage. However, since July 2018 an API key is required, and you need to enable billing in Google Cloud to use it. For more information about choosing geolocators, you can follow the discussion in the [geopy repository on Github](https://github.com/geopy/geopy/issues/90).
 
 To use a geolocator, import them and assign a variable name (in this case we use the name geolocator):
 
@@ -186,7 +186,7 @@ def main():
 geolocator = Nominatim()
 ```
 
-Finally, using pandas you want to create a column in your spreadsheet called 'latitude'.  The script will read the existing 'Area_Name' data column, run the geopy [geolocator](http://geopy.readthedocs.io/en/latest/#module-geopy.geocoders) on the column using pandas' [apply function](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.apply.html), and generate a latitude coordinate in that column.  The same transformation will occur in the 'longitude' column.  Once this is finished it will output a new CSV file with those two columns:
+Finally, using pandas you want to create a column in your spreadsheet called 'latitude'.  The script will read the existing 'Area_Name' data column, run the geopy [geolocator](https://geopy.readthedocs.io/en/latest/#module-geopy.geocoders) on the column using pandas' [apply function](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.apply.html), and generate a latitude coordinate in that column.  The same transformation will occur in the 'longitude' column.  Once this is finished it will output a new CSV file with those two columns:
 
 ```python
 import geopy
@@ -300,7 +300,7 @@ To address the timeout error, you could add the parameter ```timeout```, which s
 
 Now that you have a spreadsheet full of coordinate data, we can convert the CSV spreadsheet into a format that web maps like, like GeoJSON.  GeoJSON is a web mapping standard of JSON data.  There are a couple of ways to make GeoJSON:
 
-The easiest, recommended way is to use a UI tool developed by Mapbox called [geojson.io](http://geojson.io).  All you have to do is click and drag your csv file into the data window (the right side of the screen, next to the map), and it will automatically format your data into GeoJSON for you. You can select the 'GeoJSON' option under 'Save.'  Save your GeoJSON file as `census.geojson`.
+The easiest, recommended way is to use a UI tool developed by Mapbox called [geojson.io](https://geojson.io).  All you have to do is click and drag your csv file into the data window (the right side of the screen, next to the map), and it will automatically format your data into GeoJSON for you. You can select the 'GeoJSON' option under 'Save.'  Save your GeoJSON file as `census.geojson`.
 
 {% include figure.html filename="webmap-01-geojsonio.gif" caption="Drag and Drop GeoJSON creation!" %}
 
@@ -381,7 +381,7 @@ Which you can now run by using the command:
 python geocoder-helpercolumn.py census_country.csv
 ```
 
-Turn your clean data into GeoJSON by saving it as `census.geojson` and test it out at [geojson.io](http://geojson.io). Remember, drag the new CSV you created (`census_country.csv` into the window to create that beautiful JSON). Do the results look better now? Good!
+Turn your clean data into GeoJSON by saving it as `census.geojson` and test it out at [geojson.io](https://geojson.io). Remember, drag the new CSV you created (`census_country.csv` into the window to create that beautiful JSON). Do the results look better now? Good!
 
 ## Using Leaflet to Create a Web Map
 
@@ -397,9 +397,9 @@ SimpleHTTPServer is a Python module. If you want to change the server to port 80
 
 ```python -m SimpleHTTPServer 8080``` or ```python3 -m http.server 8080``` (for Python3)
 
-In your browser go to http://localhost:8080 and you should see the files you've been working with so far.
+In your browser go to https://localhost:8080 and you should see the files you've been working with so far.
 
-Now in your text editor open a new document and save it as an html file (mymap.html).  If you want to do a quick test, copy and paste the text below, refresh your http://localhost:8080 and open the html file in your browser.
+Now in your text editor open a new document and save it as an html file (mymap.html).  If you want to do a quick test, copy and paste the text below, refresh your https://localhost:8080 and open the html file in your browser.
 
 ```html
 <!DOCTYPE html>
@@ -655,7 +655,7 @@ window.onload = function () {
 };
 ```
 
-What we've done here is edit the [onEachFeature function](http://leafletjs.com/SlavaUkraini/reference-1.2.0.html#geojson-oneachfeature), which gets called for each feature (in this case, each marker popup) to add additional information about each marker contained in our `census.geojson` data. To add attribute information from our `census.geojson` file, we use the convention `feature.properties.ATTRIBUTE_NAME` to access the population data. In this case, we are adding `feature.properties.Pop_2001`, `feature.properties.Pop_1981`, and `feature.properties.Pop_1801`, and adding a bit of styling with html for readability.
+What we've done here is edit the [onEachFeature function](https://leafletjs.com/SlavaUkraini/reference-1.2.0.html#geojson-oneachfeature), which gets called for each feature (in this case, each marker popup) to add additional information about each marker contained in our `census.geojson` data. To add attribute information from our `census.geojson` file, we use the convention `feature.properties.ATTRIBUTE_NAME` to access the population data. In this case, we are adding `feature.properties.Pop_2001`, `feature.properties.Pop_1981`, and `feature.properties.Pop_1801`, and adding a bit of styling with html for readability.
 
 {% include figure.html filename="webmap-06-exercise02.jpg" caption="Exercise 02" %}
 

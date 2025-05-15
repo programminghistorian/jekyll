@@ -133,7 +133,7 @@ harper_df <- read.csv("https://raw.githubusercontent.com/programminghistorian/je
 
 ## Los datos
 
-Los datos originales de la versión en inglés de este tutorial se encuentran archivados en [Zenodo](http://doi.org/10.5281/zenodo.889846), en caso de que quieras ver los datos brutos. Se han incluido en formato tabular también. En esta traducción al español trabajaremos sobre una versión traducida de los datos (no es necesario que descargues estos archivos de forma manual; los descargaremos directamente usando R):
+Los datos originales de la versión en inglés de este tutorial se encuentran archivados en [Zenodo](https://doi.org/10.5281/zenodo.889846), en caso de que quieras ver los datos brutos. Se han incluido en formato tabular también. En esta traducción al español trabajaremos sobre una versión traducida de los datos (no es necesario que descargues estos archivos de forma manual; los descargaremos directamente usando R):
 
   1) [CPCs de Harper]({{ site.baseurl }}/assets/correspondence-analysis-in-R/es-translation/HarperCP-es.csv)
   2) [CPCs de Trudeau]({{ site.baseurl }}/assets/correspondence-analysis-in-R/es-translation/TrudeauCP-es.csv)
@@ -473,7 +473,7 @@ Otro puntaje importante es visible en el gráfico CA: el porcentaje de valor exp
 
 [^inertia]: En general, en estadística el término _inercia_ hace referencia a la variación o "extensión" de un conjunto de datos. Es análoga a la desviación estándar en la distribución de datos.
 
-[^pickton]: Ver Laura Kane (April 3, 2017), "Missing and murdered women's inquiry not reaching out to families, say advocates." *CBC News Indigenous*. [http://www.cbc.ca/news/indigenous/mmiw-inquiry-not-reaching-out-to-families-says-advocates-1.4053694](https://perma.cc/MH3Y-9HW2)
+[^pickton]: Ver Laura Kane (April 3, 2017), "Missing and murdered women's inquiry not reaching out to families, say advocates." *CBC News Indigenous*. [https://www.cbc.ca/news/indigenous/mmiw-inquiry-not-reaching-out-to-families-says-advocates-1.4053694](https://perma.cc/MH3Y-9HW2)
 
 [^pvalue]: En estadística, un valor p, una abreviación para _valor de probabilidad_, es un indicador de qué tan probable es que un determinado resultado haya ocurrido por azar. Un valor p bajo sugiere una baja probabilidad de que el resultado sea producto del azar y, por lo tanto, entrega evidencia de que la hipótesos nula, (en este caso, que los MP y los CP son categorías independientes) es poco probable.
 

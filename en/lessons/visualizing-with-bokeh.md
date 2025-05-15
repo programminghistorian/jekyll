@@ -149,7 +149,7 @@ Within the virtual environment, you can run your code by typing:
 python filename.py
 ```
 
-A Jupyter Notebook containing the code used in this tutorial is also [available](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/visualizing-with-bokeh/visualizing-with-bokeh.ipynb) in case you prefer to work through the tutorial without installing a virtual environment. You can learn more about Jupyter Notebook [here](http://jupyter.org). If you have created a virtual environment using Miniconda, as discussed above, you can install Jupyter Notebook in the environment by typing `conda install jupyter`
+A Jupyter Notebook containing the code used in this tutorial is also [available](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/visualizing-with-bokeh/visualizing-with-bokeh.ipynb) in case you prefer to work through the tutorial without installing a virtual environment. You can learn more about Jupyter Notebook [here](https://jupyter.org). If you have created a virtual environment using Miniconda, as discussed above, you can install Jupyter Notebook in the environment by typing `conda install jupyter`
 
 # The Basics of Bokeh
 
@@ -583,7 +583,7 @@ Thankfully, Pandas offers a quick and easy way to do this. By modifying a single
 
 Resampling time-series data can involve either upsampling (creating more records) or downsampling (creating fewer records). For example, a list of daily temperatures could be upsampled to a list of hourly temperatures or downsampled to a list of weekly temperatures. We'll only be downsampling in this tutorial, but upsampling is very useful when you're trying to match a sporadically-measured dataset with one that's more periodically measured.
 
-To resample our data, we use a Pandas `Grouper` object, to which we pass the column name holding our datetimes and a code representing the desired resampling frequency. In the case of our data, the statement `pd.Grouper(key='MSNDATE', freq='M') ` will be used to resample our MSNDATE column by *M*onth. We could equally resample by *W*eek, *Y*ear, *H*our, and [so forth](http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases). These frequency designations can also be prefaced with numbers so that, for example, `freq='2W'` resamples at two week intervals!
+To resample our data, we use a Pandas `Grouper` object, to which we pass the column name holding our datetimes and a code representing the desired resampling frequency. In the case of our data, the statement `pd.Grouper(key='MSNDATE', freq='M') ` will be used to resample our MSNDATE column by *M*onth. We could equally resample by *W*eek, *Y*ear, *H*our, and [so forth](https://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases). These frequency designations can also be prefaced with numbers so that, for example, `freq='2W'` resamples at two week intervals!
 
 To complete the process of resampling and plotting our data, we pass the above `Grouper` object to our `groupby` function in place of the raw column name. The `groupby` statement from the previous code example should now look like this:
 
@@ -642,7 +642,7 @@ show(p)
 
 A few patterns emerge in the ETO data. First we see a very clear escalation of overall bombings leading up to June 6, 1944 and a notable dip during the winter of 1944/1945. Incendiary munitions show three spikes and confirm that the fourth spike seen in the preceding example was directed at the bombing of Japan after Germany's surrender. The pattern of fragmentation bombs is harder to read, but it's now clear that they were only seriously used in the European Theater after D-Day.
 
-{% include alert.html text="Try your hand at resampling this data using any of [Pandas' time frequencies ](http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases) to see what other trends might emerge. Remember, you can preface these frequencies with numbers as well (e.g. if you were working with historical stock market data, 2Q would give you bi-quarterly data!)" %}
+{% include alert.html text="Try your hand at resampling this data using any of [Pandas' time frequencies ](https://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases) to see what other trends might emerge. Remember, you can preface these frequencies with numbers as well (e.g. if you were working with historical stock market data, 2Q would give you bi-quarterly data!)" %}
 
 Since we have established that 6 June 1944 and the winter of 1944/1945 mark changes to the bombing patterns in the ETO, let's highlight these trends using Bokeh's annotation features.
 

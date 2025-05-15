@@ -277,10 +277,10 @@ manual][] page.
 
 Let's take an example dataset. Say you wanted to download all of the
 papers hosted on the website ActiveHistory.ca. They are all located at:
-<http://activehistory.ca/papers/>; in the sense that they are all
+<https://activehistory.ca/papers/>; in the sense that they are all
 contained within the `/papers/` directory: for example, the 9th paper
 published on the website
-is <http://activehistory.ca/papers/historypaper-9/>. Think of this
+is <https://activehistory.ca/papers/historypaper-9/>. Think of this
 structure in the same way as directories on your own computer: if you
 have a folder labeled `/History/`, it likely contains several files
 within it. The same structure holds true for websites, and we are using
@@ -331,7 +331,7 @@ Saving to: `index.html.1'
 ```
 
 What you have done is downloaded just the first page of
-<http://activehistory.ca/papers/>, the index page for the papers to your
+<https://activehistory.ca/papers/>, the index page for the papers to your
 new directory. If you open it, you'll see the main text on the home page
 of ActiveHistory.ca. So at a glance, we have already quickly downloaded
 something.
@@ -357,10 +357,10 @@ options. So let's learn a few commands now:
 Recursive retrieval is the most important part of wget. What this means
 is that the program begins following links from the website and
 downloading them too. So for example, the
-<http://activehistory.ca/papers/> has a link to
-<http://activehistory.ca/papers/historypaper-9/>, so it will download
+<https://activehistory.ca/papers/> has a link to
+<https://activehistory.ca/papers/historypaper-9/>, so it will download
 that too if we use recursive retrieval. However, it will also follow any
-other links: if there was a link to <http://uwo.ca> somewhere on that
+other links: if there was a link to <https://uwo.ca> somewhere on that
 page, it would follow that and download it as well. By default, -r sends
 wget to a depth of five sites after the first one. This is following
 links, to a limit of five clicks after the first website. At this point,
@@ -376,8 +376,8 @@ have a short version, this could be initiated using -np).
 This is an important one. What this means is that wget should follow
 links, but not beyond the last parent directory. In our case, that means
 that it won't go anywhere that is not part of the
-http://activehistory.ca/papers/ hierarchy. If it was a long path such as
-http://niche-canada.org/projects/events/new-events/not-yet-happened-events/,
+https://activehistory.ca/papers/ hierarchy. If it was a long path such as
+https://niche-canada.org/projects/events/new-events/not-yet-happened-events/,
 it would only find files in the `/not-yet-happened-events/` folder. It
 is a critical command for delineating your search.
 
@@ -493,12 +493,12 @@ files, backups, etc.
 I've only given a snapshot of some of wget's functionalities. For more,
 please visit the [wget manual][GNU wget manual].
 
-  [Command Line Bootcamp]: http://praxis.scholarslab.org/scratchpad/bash/
+  [Command Line Bootcamp]: https://praxis.scholarslab.org/scratchpad/bash/
   [download XCode via this link]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
   [Apple Developer website]: https://developer.apple.com/xcode/
   [View Downloads]: https://developer.apple.com/downloads/
-  [GNU website]: http://www.gnu.org/software/wget/
-  [HTTP]: http://ftp.gnu.org/gnu/wget/
+  [GNU website]: https://www.gnu.org/software/wget/
+  [HTTP]: https://ftp.gnu.org/gnu/wget/
   [FTP]: ftp://ftp.gnu.org/gnu/wget/
-  [ugent website]: http://users.ugent.be/~bpuype/wget/
-  [GNU wget manual]: http://www.gnu.org/software/wget/manual/wget.html
+  [ugent website]: https://users.ugent.be/~bpuype/wget/
+  [GNU wget manual]: https://www.gnu.org/software/wget/manual/wget.html

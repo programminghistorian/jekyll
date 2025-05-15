@@ -49,7 +49,7 @@ _____
 
 ## *Software* y configuración
 
-Los usuarios de Windows deben instalar Git Bash. Lo pueden hacer descargando el más reciente instalador de la [página web de Git para Windos](http://msysgit.github.io/). Las instrucciones para su instalación están disponibles en [Open Hatch](https://web.archive.org/web/20190114082523/https://openhatch.org/missions/windows-setup/install-git-bash) (en inglés).
+Los usuarios de Windows deben instalar Git Bash. Lo pueden hacer descargando el más reciente instalador de la [página web de Git para Windos](https://msysgit.github.io/). Las instrucciones para su instalación están disponibles en [Open Hatch](https://web.archive.org/web/20190114082523/https://openhatch.org/missions/windows-setup/install-git-bash) (en inglés).
 
 Los usuarios de OS X y Linux necesitarán utilizar la Terminal, o intérprete de línea de comandos, como se explica en la "[Introducción a la línea de comandos de Bash](/es/lecciones/introduccion-a-bash)."
 
@@ -57,7 +57,7 @@ Esta lección se escribió utilizando Git Bash 1.9.0 en sistema operativo Window
 
 Los archivos utilizados en esta lección están disponibles en "[Figshare](https://doi.org/10.6084/m9.figshare.1172094)". Estos contienen metadatos de artículos académicos catalogados en el rubro 'Historia' en la base de datos ESTAR de la Biblioteca Británica. Los datos son distribuidos bajo una renuncia de derechos de autor CC0.
 
-Descarga los datos requeridos en tu ordenador y descomprime el archivo zip. Si no cuentas con un software adecuado para descomprimir archivos .zip, te recomendamos [7-zip](http://www.7-zip.org/). En Windows, te aconsejamos descomprimir la carpeta en tu disco C: para que los archivos queden en tu directorio `c:\proghist\`. No obstante, cualquier locación trabajará bien, pero entonces es posible que tengas que ajustar tus comandos conforme vayas siguiendo la lección. En OS X o Linux, también te aconsejamos descomprimir en tu directorio de usuario para que aparezcan en `/user/NOMBREDEUSUARIO/proghist/`. En ambos casos, esto significa que cuando abras una nueva ventana de tu terminal, con solamente teclear `cd proghist` te podrás mover al directorio correcto.
+Descarga los datos requeridos en tu ordenador y descomprime el archivo zip. Si no cuentas con un software adecuado para descomprimir archivos .zip, te recomendamos [7-zip](https://www.7-zip.org/). En Windows, te aconsejamos descomprimir la carpeta en tu disco C: para que los archivos queden en tu directorio `c:\proghist\`. No obstante, cualquier locación trabajará bien, pero entonces es posible que tengas que ajustar tus comandos conforme vayas siguiendo la lección. En OS X o Linux, también te aconsejamos descomprimir en tu directorio de usuario para que aparezcan en `/user/NOMBREDEUSUARIO/proghist/`. En ambos casos, esto significa que cuando abras una nueva ventana de tu terminal, con solamente teclear `cd proghist` te podrás mover al directorio correcto.
 
 _____
 
@@ -73,9 +73,9 @@ Escribe `ls` y oprime Enter. Esto imprime o muestra una lista que incluye dos ar
 
 Los archivos en este directorio son: el conjunto de datos `2014-01_JA.csv` que contiene los metadatos de los artículos académicos y un archivo con documentación acerca de `2014-01_JA.csv`, llamado `2014-01_JA.txt`.
 
-El subdirectorio se llama `derived_data`. Contiene cuatro archivos [.tsv](http://en.wikipedia.org/wiki/Tab-separated_values) derivados del archivo `2014-01_JA.csv`. Cada uno de estos incluye los datos en los que aparece una palabra clave como `africa` o `america` en el campo 'Title' de `2014-01_JA.csv`. El directorio `derived_data` también incluye un subdirectorio llamado `results`.
+El subdirectorio se llama `derived_data`. Contiene cuatro archivos [.tsv](https://en.wikipedia.org/wiki/Tab-separated_values) derivados del archivo `2014-01_JA.csv`. Cada uno de estos incluye los datos en los que aparece una palabra clave como `africa` o `america` en el campo 'Title' de `2014-01_JA.csv`. El directorio `derived_data` también incluye un subdirectorio llamado `results`.
 
-*Nota: Los archivos [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) son aquellos en los que las unidades de datos, o celdas de una tabla, están separados por comas (valores separados por comas) y los archivos TSV son aquellos en los que están separados por tabuladores. Ambos se pueden leer en cualquier editor de texto o en programas de hoja de cálculo como Libre Office Calc o Microsoft Excel.*
+*Nota: Los archivos [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) son aquellos en los que las unidades de datos, o celdas de una tabla, están separados por comas (valores separados por comas) y los archivos TSV son aquellos en los que están separados por tabuladores. Ambos se pueden leer en cualquier editor de texto o en programas de hoja de cálculo como Libre Office Calc o Microsoft Excel.*
 
 Antes de que comiences a trabajar con estos archivos debes moverte al directorio en el que están almacenados. Navega a `c:\proghist\data\derived_data` en Windows o a `~/users/NOMBREDEUSUARIO/proghist/data/derived_data` en OS X.
 
@@ -131,8 +131,8 @@ _____
 
 En esta lección has aprtendido a realizar recuentos básicos en archivos, buscar entre tus datos cadenas de caracteres comunes y guardar resultados y datos derivados. Aunque esta lección se restringe a contar y extraer información de datos tabulados, el procedimiento se puede extender fácilmente a archivos de texto plano. Para ello te recomandamos dos guías escritas por William Turkel:
 
-- William Turkel, '[Basic Text Analysis with Command Line Tools in Linux](http://williamjturkel.net/2013/06/15/basic-text-analysis-with-command-line-tools-in-linux/)' (15 de junio, 2013)
-- William Turkel, '[Pattern Matching and Permuted Term Indexing with Command Line Tools in Linux](http://williamjturkel.net/2013/06/20/pattern-matching-and-permuted-term-indexing-with-command-line-tools-in-linux/)' (20 de junio, 2013)
+- William Turkel, '[Basic Text Analysis with Command Line Tools in Linux](https://williamjturkel.net/2013/06/15/basic-text-analysis-with-command-line-tools-in-linux/)' (15 de junio, 2013)
+- William Turkel, '[Pattern Matching and Permuted Term Indexing with Command Line Tools in Linux](https://williamjturkel.net/2013/06/20/pattern-matching-and-permuted-term-indexing-with-command-line-tools-in-linux/)' (20 de junio, 2013)
 
 Como sugieren estas recomendaciones, en esta lección solo revisamos superficialmente lo que es capaz de hacer el intérprete de Unix. Sin embargo, esperamos haberte proporcionado una prueba suficiente para impulsar una mayor investigación de su uso.
 

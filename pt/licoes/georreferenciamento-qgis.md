@@ -73,7 +73,7 @@ Este é o *shapefile* que contém a camada vetorial atual que iremos usar para g
 
 - Navegue para o link abaixo no seu navegador de internet e faça o download do ficheiro 'lot_township_polygon':
 
-[http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP](http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP)
+[https://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP](https://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP)
 
 - Depois de fazer o download do ficheiro coloque-o numa pasta que possa encontrar mais tarde e descompacte o ficheiro. (Lembre-se de manter todos os ficheiros juntos, uma vez que todos são necessários para abrir a camada no seu SIG).
 

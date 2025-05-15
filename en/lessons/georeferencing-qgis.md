@@ -57,7 +57,7 @@ Entering control points in a GIS is easy, but behind the scenes,
 georeferencing uses complex transformation and compression processes.
 These are used to correct the distortions and inaccuracies found in many
 historical maps and stretch the maps so that they fit geographic
-coordinates. In cartography this is known as [rubber-sheeting](http://en.wikipedia.org/wiki/Rubbersheeting) because
+coordinates. In cartography this is known as [rubber-sheeting](https://en.wikipedia.org/wiki/Rubbersheeting) because
 it treats the map as if it were made of rubber and the control points as
 if they were tacks 'pinning' the historical document to a three
 dimensional surface like the globe.
@@ -78,7 +78,7 @@ GDAL and check the box beside it, and click OK.
 -   At this point, you need to shut down and relaunch QGIS. For the
     purposes of this example, and to keep things as simple as possible,
     don't reload your existing project but instead start a new project.
--   Set up the [Coordinate Reference System](http://en.wikipedia.org/wiki/Spatial_reference_system) (CRS) correctly (see
+-   Set up the [Coordinate Reference System](https://en.wikipedia.org/wiki/Spatial_reference_system) (CRS) correctly (see
     [Installing QGIS 2.0 and adding Layers](/lessons/qgis-layers) for a reminder)
 -   Save this new project (under File menu, select Save Project) and
     call it 'georeferencing.'
@@ -102,7 +102,7 @@ referred to as 'Lots' in PEI. Hence the file name
 
 -   Navigate to the link below in your web browser and download the file.
 
-<http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP>
+<https://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP>
 
 -   After downloading the file called 'lot\_township\_polygon', move it
     into a folder that you can find later and unzip the file. (Remember
@@ -179,7 +179,7 @@ Some tips for choosing control points:
     made.
 -   Check that your control points did not change location over time.
     Roads were often re-routed, and even houses and other buildings were
-    moved, especially [in Atlantic Canada](http://books.google.ca/books?id=TqCNZYXWXAUC&dq=tilting&source=gbs_navlinks_s)!
+    moved, especially [in Atlantic Canada](https://books.google.ca/books?id=TqCNZYXWXAUC&dq=tilting&source=gbs_navlinks_s)!
 
 *Add your first control point:*
 
@@ -247,13 +247,13 @@ compress the image.
 
 Most of these settings can be left as default: linear transformation
 type, nearest neighbour resampling method, and LZW compression. (The
-[world file](http://en.wikipedia.org/wiki/World_file) is not necessary, unless you want to georeference the
+[world file](https://en.wikipedia.org/wiki/World_file) is not necessary, unless you want to georeference the
 same image again in another GIS or if someone else needs to georeference
 the image and does not have access to your GIS data, coordinate
 reference system, etc.) The target SRS is not important, but you could
 use this feature to give the new raster a different reference system.
 
--   Assign a folder for your new georeferenced raster file. [Tif](http://en.wikipedia.org/wiki/Tagged_Image_File_Format) is
+-   Assign a folder for your new georeferenced raster file. [Tif](https://en.wikipedia.org/wiki/Tagged_Image_File_Format) is
     the default format for rasters georeferenced in QGIS.
 -   Be aware that a Tif file is going to be much larger than your original map,
 	even with LZW compression, so make sure you have adequate space if you are
@@ -323,4 +323,4 @@ over a DEM (digital elevation model) to give it a hillshade terrain or
 3D effect and perform a 'fly-over' of PEI homes in the nineteenth
 century.
 
-*This lesson is part of the [Geospatial Historian](http://geospatialhistorian.wordpress.com/).*
+*This lesson is part of the [Geospatial Historian](https://geospatialhistorian.wordpress.com/).*

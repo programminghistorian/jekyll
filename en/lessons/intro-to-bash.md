@@ -37,11 +37,11 @@ Many of the lessons at the *Programming Historian* require you to enter commands
 
 {% include figure.html filename="en-or-intro-to-bash-01.png" caption="Figure 1. GUI of Ian Milligan's Computer" %}
 
-Command-line interfaces have advantages for computer users who need more precision in their work -- such as digital historians. They allow for more detail when running some programs, as you can add modifiers to specify *exactly* how you want your program to run. Furthermore, they can be easily automated through [scripts](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/chap_01.html), which are essentially recipes of text-based commands.
+Command-line interfaces have advantages for computer users who need more precision in their work -- such as digital historians. They allow for more detail when running some programs, as you can add modifiers to specify *exactly* how you want your program to run. Furthermore, they can be easily automated through [scripts](https://www.tldp.org/LDP/Bash-Beginners-Guide/html/chap_01.html), which are essentially recipes of text-based commands.
 
-There are two main command-line interfaces, or 'shells,' that many digital historians use. On OS X or many Linux installations, the shell is known as `bash`, or the 'Bourne-again shell.'  For users on Windows-based systems, the command-line interface is by default `MS-DOS-based`, which uses different commands and [syntax](http://en.wikipedia.org/wiki/Syntax), but can often achieve similar tasks. This tutorial provides a basic introduction to the `bash` terminal, and Windows users can follow along by installing popular shells such as [Cygwin](https://www.cygwin.com/) or Git Bash (see below).
+There are two main command-line interfaces, or 'shells,' that many digital historians use. On OS X or many Linux installations, the shell is known as `bash`, or the 'Bourne-again shell.'  For users on Windows-based systems, the command-line interface is by default `MS-DOS-based`, which uses different commands and [syntax](https://en.wikipedia.org/wiki/Syntax), but can often achieve similar tasks. This tutorial provides a basic introduction to the `bash` terminal, and Windows users can follow along by installing popular shells such as [Cygwin](https://www.cygwin.com/) or Git Bash (see below).
 
-This lesson uses a **[Unix shell](http://en.wikipedia.org/wiki/Unix_shell)**, which is a command-line interpreter that provides a user interface for the [Unix](http://en.wikipedia.org/wiki/Unix) operating system and for Unix-like systems. This lesson will cover a small number of basic commands. By the end of this tutorial you will be able to navigate through your file system and find files, open them, perform basic data manipulation tasks such as combining and copying files, as well as both reading them and making relatively simple edits. These commands constitute the building blocks upon which more complex commands can be constructed to fit your research data or project. Readers wanting a reference guide that goes beyond this lesson are recommended to read Deborah S. Ray and Eric J. Ray, *Unix and Linux: Visual Quickstart Guide*, 4th edition (2009).
+This lesson uses a **[Unix shell](https://en.wikipedia.org/wiki/Unix_shell)**, which is a command-line interpreter that provides a user interface for the [Unix](https://en.wikipedia.org/wiki/Unix) operating system and for Unix-like systems. This lesson will cover a small number of basic commands. By the end of this tutorial you will be able to navigate through your file system and find files, open them, perform basic data manipulation tasks such as combining and copying files, as well as both reading them and making relatively simple edits. These commands constitute the building blocks upon which more complex commands can be constructed to fit your research data or project. Readers wanting a reference guide that goes beyond this lesson are recommended to read Deborah S. Ray and Eric J. Ray, *Unix and Linux: Visual Quickstart Guide*, 4th edition (2009).
 
 ## Windows Only: Installing Git Bash
 
@@ -59,7 +59,7 @@ When you run it, you will see this window.
 
 {% include figure.html filename="en-or-intro-to-bash-03.png" caption="Figure 3. A blank terminal screen on our OS X workstation" %}
 
-You might want to change the default visual appearance of the terminal, as eyes can strain at repeatedly looking at black text on a white background. In the default OS X application, you can open the 'Settings' menu in 'Preferences' under Terminal. Click on the 'Settings' tab and change it to a new colour scheme. We personally prefer something with a bit less contrast between background and foreground, as you'll be staring at this a great deal. 'Novel' is a soothing one as is the popular [Solarized](http://ethanschoonover.com/solarized) suite of colour palettes. For Windows users, a similar effect can be achieved using the Git Bash `Properties` tab. To reach this, right-click anywhere in the top bar and select `Properties`.
+You might want to change the default visual appearance of the terminal, as eyes can strain at repeatedly looking at black text on a white background. In the default OS X application, you can open the 'Settings' menu in 'Preferences' under Terminal. Click on the 'Settings' tab and change it to a new colour scheme. We personally prefer something with a bit less contrast between background and foreground, as you'll be staring at this a great deal. 'Novel' is a soothing one as is the popular [Solarized](https://ethanschoonover.com/solarized) suite of colour palettes. For Windows users, a similar effect can be achieved using the Git Bash `Properties` tab. To reach this, right-click anywhere in the top bar and select `Properties`.
 
 {% include figure.html filename="en-or-intro-to-bash-04.png" caption="Figure 4. The Settings Screen on the OS X Terminal Shell Application" %}
 
@@ -161,7 +161,7 @@ This moves us 'up' one directory, putting us back in `/Users/ianmilligan1/`. If 
 
 will bring you right back to the home directory, right where you started.
 
-Try exploring: visit your documents directory, your pictures, folders you might have on your desktop. Get used to moving in and out of directories. Imagine that you are navigating a [tree structure](http://en.wikipedia.org/wiki/Tree_structure). If you're on the desktop, you won't be able to `cd documents` as it is a 'child' of your home directory, whereas your Desktop is a 'sibling' of the Documents folder. To get to a sibling, you have to go back to the common parent. To do this, you will have to back up to your home directory (`cd ..`) and then go forward again to `cd documents`.
+Try exploring: visit your documents directory, your pictures, folders you might have on your desktop. Get used to moving in and out of directories. Imagine that you are navigating a [tree structure](https://en.wikipedia.org/wiki/Tree_structure). If you're on the desktop, you won't be able to `cd documents` as it is a 'child' of your home directory, whereas your Desktop is a 'sibling' of the Documents folder. To get to a sibling, you have to go back to the common parent. To do this, you will have to back up to your home directory (`cd ..`) and then go forward again to `cd documents`.
 
 Being able to navigate your file system using the bash shell is very important for many of the lessons at the *Programming Historian*. As you become more comfortable, you'll soon find yourself skipping directly to the directory that you want. In our case, from anywhere on our system, you could type
 
@@ -185,7 +185,7 @@ in Windows. That command will open up your GUI at the current directory. Make su
 
 ## Interacting with Files
 
-As well as navigating directories, you can interact with files on the command line: you can read them, open them, run them, and even edit them, often without ever having to leave the interface. There is some debate over why one would do this. The primary reason is the seamless experience of working on the command line: you never have to pick up your mouse or touch your track pad, and, although it has a steep learning curve it can eventually become a sole writing environment. Furthermore, many programs require you to use the command line to operate with them. Since you'll be using programs on the command line, it can often be quicker to make small edits without switching into a separate program. For some of these arguments, see Jon Beltran de Heredia's ["Why, oh WHY, do those #?@! nutheads use vi?"](http://www.viemu.com/a-why-vi-vim.html).
+As well as navigating directories, you can interact with files on the command line: you can read them, open them, run them, and even edit them, often without ever having to leave the interface. There is some debate over why one would do this. The primary reason is the seamless experience of working on the command line: you never have to pick up your mouse or touch your track pad, and, although it has a steep learning curve it can eventually become a sole writing environment. Furthermore, many programs require you to use the command line to operate with them. Since you'll be using programs on the command line, it can often be quicker to make small edits without switching into a separate program. For some of these arguments, see Jon Beltran de Heredia's ["Why, oh WHY, do those #?@! nutheads use vi?"](https://www.viemu.com/a-why-vi-vim.html).
 
 Here's a few basic ways to interact with files.
 
@@ -197,7 +197,7 @@ This creates a directory named, you guessed it, 'ProgHist-Text.' In general, it'
 
 But wait! There's a trick to make things a bit quicker. Go up one directory (`cd ..` - which will take you back to the Desktop). To navigate to the `ProgHist-Text` directory you could type `cd ProgHist-Text`. Alternatively, you could type `cd Prog` and then hit tab. You will notice that the interface completes the line to `cd ProgHist-Text`. **Hitting tab at any time within the shell will prompt it to attempt to auto-complete the line based on the files or sub-directories in the current directory. This is case sensitive, however (i.e. in the previous example, `cd prog` would not auto complete to `ProgHist-Text`. Where two or more files have the same characters, the auto-complete will only fill up to the first point of difference. We would encourage using this method throughout the lesson to see how it behaves.**
 
-Now you need to find a basic text file to help us with the example. Why don't you use a book that you know is long, such as Leo Tolstoy's epic *War and Peace*. The text file is availiable via [Project Gutenberg](http://www.gutenberg.org/ebooks/2600). If you have already installed [wget](/lessons/applied-archival-downloading-with-wget), you can just type
+Now you need to find a basic text file to help us with the example. Why don't you use a book that you know is long, such as Leo Tolstoy's epic *War and Peace*. The text file is availiable via [Project Gutenberg](https://www.gutenberg.org/ebooks/2600). If you have already installed [wget](/lessons/applied-archival-downloading-with-wget), you can just type
 
 `wget http://www.gutenberg.org/files/2600/2600-0.txt`
 
@@ -267,7 +267,7 @@ and hit enter, a combination of all the .txt files in the current directory are 
 
 ## Editing Text Files Directly on the Command Line
 
-If you want to read a file in its entirety without leaving the command line, you can fire up [vim](http://en.wikipedia.org/wiki/Vim_%28text_editor%29). Vim is a very powerful text editor, which is perfect for using with programs such as [Pandoc](https://pandoc.org/) to do word processing, or for editing your code without having to switch to another program. Best of all, it comes included with bash on both OS X and Windows. Vim has a fairly steep learning curve, so we will just touch on a few minor points.
+If you want to read a file in its entirety without leaving the command line, you can fire up [vim](https://en.wikipedia.org/wiki/Vim_%28text_editor%29). Vim is a very powerful text editor, which is perfect for using with programs such as [Pandoc](https://pandoc.org/) to do word processing, or for editing your code without having to switch to another program. Best of all, it comes included with bash on both OS X and Windows. Vim has a fairly steep learning curve, so we will just touch on a few minor points.
 
 Type
 
@@ -277,7 +277,7 @@ You should see vim come to life before you, a command-line based text editor.
 
 {% include figure.html filename="en-or-intro-to-bash-06.png" caption="Figure 6. Vim" %}
 
-If you really want to get into Vim, there is a [good Vim guide](http://vimdoc.sourceforge.net/htmldoc/quickref.html) available.
+If you really want to get into Vim, there is a [good Vim guide](https://vimdoc.sourceforge.net/htmldoc/quickref.html) available.
 
 Using Vim to read files is relatively simple. You can use the arrow keys to navigate around and could theoretically read *War and Peace* through the command line (one should get an achievement for doing that). Some quick basic navigational commands are as follows:
 

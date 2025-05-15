@@ -22,7 +22,7 @@
   github: acrymble
   email: a.crymble@ucl.ac.uk
   twitter: Adam_Crymble
-  url: "http://adamcrymble.org"
+  url: "https://adamcrymble.org"
   team: true
   team_start: 2011
   institution: University College London, United Kingdom
@@ -111,7 +111,7 @@
       Fred Gibbs é professor assistente de História na University of New Mexico.
 
 - name: Maria José Afanador-Llach
-  url: "http://www.mariajoseafanador.com"
+  url: "https://www.mariajoseafanador.com"
   email: mj.afanador28@uniandes.edu.co
   twitter: mariajoafana
   github: mariajoafana
@@ -175,7 +175,7 @@
   status: volunteer
 
 - name: Antonio Rojas Castro
-  url: "http://antoniorojascastro.com"
+  url: "https://antoniorojascastro.com"
   email: rojas.castro.antonio@gmail.com
   twitter: RojasCastroA
   github: arojascastro
@@ -538,11 +538,11 @@
   team: false
   bio:
     en: |
-      Marten Düring is a historian, works as researcher in the Digital Humanities Lab at CVCE Luxembourg, runs <a href="http://historicalnetworkresearch.org">http://historicalnetworkresearch.org</a> and regularly teaches workshops on network analysis.
+      Marten Düring is a historian, works as researcher in the Digital Humanities Lab at CVCE Luxembourg, runs <a href="https://historicalnetworkresearch.org">https://historicalnetworkresearch.org</a> and regularly teaches workshops on network analysis.
     es: |
-      Marten Düring es historiador y trabaja como investigador en el Laboratorio de Humanidades Digitales del CVCE Luxembourg. Dirige <a href="http://historicalnetworkresearch.org">http://historicalnetworkresearch.org</a> y ofrece talleres sobre análisis de redes.
+      Marten Düring es historiador y trabaja como investigador en el Laboratorio de Humanidades Digitales del CVCE Luxembourg. Dirige <a href="https://historicalnetworkresearch.org">https://historicalnetworkresearch.org</a> y ofrece talleres sobre análisis de redes.
     pt: |
-      Marten Düring é historiador e trabalha como pesquisador no Laboratório de Humanidades Digitais do CVCE Luxemburgo. Dirige <a href="http://historicalnetworkresearch.org">http://historicalnetworkresearch.org</a> e regularmente leciona workshops sobre análise de redes.
+      Marten Düring é historiador e trabalha como pesquisador no Laboratório de Humanidades Digitais do CVCE Luxemburgo. Dirige <a href="https://historicalnetworkresearch.org">https://historicalnetworkresearch.org</a> e regularmente leciona workshops sobre análise de redes.
 
 - name: Max De Wilde
   team: false
@@ -654,7 +654,7 @@
   github: svmelton
   email: sarah.melton1@gmail.com
   twitter: worldcatlady
-  url: "http://sarahvmelton.com"
+  url: "https://sarahvmelton.com"
   team: false
   team_start: 2019
   team_end: 2022
@@ -731,7 +731,7 @@
   github: walshbr
   twitter: walshbr
   email: walsh.brandon.michael@gmail.com
-  url: "http://walshbr.com/"
+  url: "https://walshbr.com/"
   team: false
   team_start: 2017
   team_end: 2021
@@ -836,7 +836,7 @@
   github: JMParr
   email: jparr1129@gmail.com
   twitter: ProvAtlantic
-  url: "http://jessicaparr.org/"
+  url: "https://jessicaparr.org/"
   team: false
   team_start: 2017
   team_end: 2025
@@ -1097,7 +1097,7 @@
       Zoë Wilkinson Saldaña é licencianda pela University of Michigan School of Information, onde se foca na interseção de literacias críticas de dados, bibliotecas académicas e aprendizagem com informação de dados.
 
 - name: José Antonio Motilla
-  url: "http://www.bibliografiapotosina.mx/about/"
+  url: "https://www.bibliografiapotosina.mx/about/"
   twitter: jamotilla
   email: jamotilla@gmail.com
   github: jamotilla
@@ -1182,7 +1182,7 @@
 - name: François Dominic Laramée
   github: fdlaramee
   twitter: fdlaramee
-  url: "http://www.francoisdominiclaramee.com"
+  url: "https://www.francoisdominiclaramee.com"
   email: fdl@francoisdominiclaramee.com
   team: false
   team_start: 2018
@@ -1221,7 +1221,7 @@
   email: martin.grandjean@unil.ch
   twitter: grandjeanmartin
   github: grandjeanmartin
-  url: "http://www.martingrandjean.ch"
+  url: "https://www.martingrandjean.ch"
   team: false
   team_start: 2019
   team_end: 2021
@@ -1375,7 +1375,7 @@
   github: ZoeLeBlanc
   twitter: zoe_leblanc
   email: zgleblanc@gmail.com
-  url: "http://zoeleblanc.com"
+  url: "https://zoeleblanc.com"
   team: false
   team_start: 2018
   team_end: 2025
@@ -1754,7 +1754,7 @@
   github: hawc2
   twitter: alexwermercolan
   email: english@programminghistorian.org
-  url: "http://www.alexwermercolan.com/"
+  url: "https://www.alexwermercolan.com/"
   orcid: 0000-0001-7030-6070
   team: true
   team_start: 2020

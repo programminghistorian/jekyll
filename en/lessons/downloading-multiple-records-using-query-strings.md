@@ -1166,20 +1166,20 @@ have recently released an API and the documentation can be quite
 helpful:
 
 -   Old Bailey Online API
-    (<http://www.oldbaileyonline.org/static/DocAPI.jsp>)
--   Python Best way to create directory if it doesn’t exist for file write? (<http://stackoverflow.com/questions/273192/python-best-way-to-create-directory-if-it-doesnt-exist-for-file-write>)
+    (<https://www.oldbaileyonline.org/static/DocAPI.jsp>)
+-   Python Best way to create directory if it doesn’t exist for file write? (<https://stackoverflow.com/questions/273192/python-best-way-to-create-directory-if-it-doesnt-exist-for-file-write>)
 
 
-  [Old Bailey Online]: http://www.oldbaileyonline.org/
+  [Old Bailey Online]: https://www.oldbaileyonline.org/
   [Automated Downloading with WGET]: /lessons/automated-downloading-with-wget
-  [Benjamin Bowsey’s case]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
-  [advanced search form]: http://www.oldbaileyonline.org/forms/formMain.jsp
+  [Benjamin Bowsey’s case]: https://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
+  [advanced search form]: https://www.oldbaileyonline.org/forms/formMain.jsp
   [Viewing HTML Files]: /lessons/viewing-html-files
   [Working with Webpages]: /lessons/working-with-web-pages
   [From HTML to a List of Words 2]: /lessons/from-html-to-list-of-words-2
   [range]: https://docs.python.org/3/tutorial/controlflow.html#the-range-function
   [regular expressions]: https://docs.python.org/3/library/re.html
   [Counting Frequencies]: /lessons/counting-frequencies
-  [time out]: http://www.checkupdown.com/status/E408.html
+  [time out]: https://www.checkupdown.com/status/E408.html
   [Python Programming Basics]: /lessons/introduction-and-installation
-  [try / except]: http://docs.python.org/tutorial/errors.html
+  [try / except]: https://docs.python.org/tutorial/errors.html

@@ -201,7 +201,7 @@ Now that we have worked through retrieving information using the Zotero
 API, we can continue to use it to interact with the items stored in our
 library.
 
-  [Zotero]: http://zotero.org
+  [Zotero]: https://zotero.org
   [Quick Start Guide]: https://www.zotero.org/support/quick_start_guide
   [libZotero GitHub library]: https://github.com/fcheslack/libZotero
   [Installing Python Modules with pip]: /lessons/installing-python-modules-pip

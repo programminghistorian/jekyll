@@ -44,7 +44,7 @@ By the end of the lesson, you will understand how to combine basic operators to 
 
 ## What is JSON?
 
-[You may find a short and cogent primer on JSON here.](http://www.json.org/)
+[You may find a short and cogent primer on JSON here.](https://www.json.org/)
 In brief, a JSON **object** is a series of key/value pairs, where **keys** are the names for the **values** they are paired with.
 For example, the tiny JSON object:
 
@@ -219,7 +219,7 @@ If you want to access just the first (or the _n_-th) item in an array, put a dig
 ```
 
 **IMPORTANT: you access the first element of an array with `0`, not `1`.**
-This is because JavaScript, like quite a few other programming languages ([though not all!](http://stackoverflow.com/questions/3135325/why-do-vector-indices-in-r-start-with-1-instead-of-0)), [starts counting at 0](http://skillcrush.com/2013/01/17/why-programmers-start-counting-at-zero/).
+This is because JavaScript, like quite a few other programming languages ([though not all!](https://stackoverflow.com/questions/3135325/why-do-vector-indices-in-r-start-with-1-instead-of-0)), [starts counting at 0](https://skillcrush.com/2013/01/17/why-programmers-start-counting-at-zero/).
 
 This filter returns just the first element of the `artObjects` array.
 `.artObjects[1]` would return the second, and so on.
@@ -921,7 +921,7 @@ For fast processing of very large files, or of JSON lines spread across multiple
 
 ### Installation on OS X
 
-The easiest way to install jq on OS X is to use the package management system [Homebrew](http://brew.sh/).
+The easiest way to install jq on OS X is to use the package management system [Homebrew](https://brew.sh/).
 This system works via OS X's "Terminal" application, which gives you access to the Bash command line.
 [For an introduction to this system, see The Programming Historian's "Introduction to the Bash Command Line".](/lessons/intro-to-bash)
 
@@ -974,5 +974,5 @@ If basic counting is all you need to do with your JSON data, then jq can help yo
 For more involved math, however, it would be more sensible to create table(s) with jq and then continue your analysis in Python, R, or even Excel.
 
 If you are working with deeply-nested JSON (that is, many objects within objects), or JSON where objects have inconsistent structure, you may need to use features not covered in this lesson, including [if-then-else statements](https://stedolan.github.io/jq/manual/#if-then-else), [recursion](https://stedolan.github.io/jq/manual/#Recursion), and [reduction](https://stedolan.github.io/jq/manual/#Reduce).
-If you can't figure out the filter you need to go from your given input to your desired output, using the tag `jq` over at [StackOverflow](http://stackoverflow.com/questions/tagged/jq) can often get you a speedy answer.
-Make sure that you try to [follow best practices when describing your problem](http://stackoverflow.com/help/how-to-ask) and provide a [reproducible example](http://stackoverflow.com/help/mcve).
+If you can't figure out the filter you need to go from your given input to your desired output, using the tag `jq` over at [StackOverflow](https://stackoverflow.com/questions/tagged/jq) can often get you a speedy answer.
+Make sure that you try to [follow best practices when describing your problem](https://stackoverflow.com/help/how-to-ask) and provide a [reproducible example](https://stackoverflow.com/help/mcve).

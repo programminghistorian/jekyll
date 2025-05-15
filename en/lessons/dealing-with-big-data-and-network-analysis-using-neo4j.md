@@ -62,8 +62,8 @@ The final section of this lesson contains code and data to illustrate the key po
 
 Although beyond the scope of this tutorial, those interested in trying to better understand social networks
 can refer to a number of sources.
-Sociologists Robert A. Hanneman and Mark Riddle maintain an [on-line textbook on network analysis](http://faculty.ucr.edu/~hanneman/nettext/).
-There are also regular conferences hosted and useful resources available from the [International Network for Social Network Analysis](http://www.insna.org).
+Sociologists Robert A. Hanneman and Mark Riddle maintain an [on-line textbook on network analysis](https://faculty.ucr.edu/~hanneman/nettext/).
+There are also regular conferences hosted and useful resources available from the [International Network for Social Network Analysis](https://www.insna.org).
 
 <div class="alert alert-warning">
 I strongly recommend that you read the lesson through before trying the example data.
@@ -348,7 +348,7 @@ provides us with the basic corporate interlock network that existed in Canada in
 If we use the web interface that comes with Neo4j we'll be able to see what parts of this network looks like by using a simple query.
 
 With the Neo4j database running, we can open up the built in browser to make more Cypher queries.
-(Or we can put the following URL into  a browser [http://localhost:7474/browser/](http://localhost:7474/browser/).
+(Or we can put the following URL into  a browser [https://localhost:7474/browser/](https://localhost:7474/browser/).
 
 Add the following Cypher query.
 
@@ -402,7 +402,7 @@ web site.
 
 # Putting it all together: A working example
 
-If we return to the [web interface on your local machine](http://localhost:7474) we can query our new database.
+If we return to the [web interface on your local machine](https://localhost:7474) we can query our new database.
 Let's look at the firms that have the greatest number of connections (i.e. the highest degree).
 To calculate degree we can make a simple query with Cypher.
 
@@ -438,7 +438,7 @@ return c0, r, c1;
 
 {% include figure.html filename="graph_example.png" caption="Example graph" %}
 
-You can download the data used in this lesson [here](http://jgmackay.com/) (search for the relevant blog posts).
+You can download the data used in this lesson [here](https://jgmackay.com/) (search for the relevant blog posts).
 If you make use of this data, please cite the following in addition to this lesson:
 
 Mackay, Jon. 2017. "Canadian Regional and National Business Elites in 1912: Who Was Connected, Who Wasn't and

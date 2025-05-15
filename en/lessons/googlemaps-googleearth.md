@@ -525,7 +525,7 @@ your work!**
   [geo22]: /images/googlemaps-googleearth/geo22.png
   [geo23]: /images/googlemaps-googleearth/geo23.png
   [geo24]: /images/googlemaps-googleearth/geo24.png
-  [www.davidrumsey.com]: http://www.davidrumsey.com/
+  [www.davidrumsey.com]: https://www.davidrumsey.com/
   [geo25]: /images/googlemaps-googleearth/geo25.png
   [geo26]: /images/googlemaps-googleearth/geo26.png
   [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
@@ -540,11 +540,11 @@ your work!**
   [geo33]: /images/googlemaps-googleearth/geo33.png
   [geo34]: /images/googlemaps-googleearth/geo34.png
   [geo35]: /images/googlemaps-googleearth/geo35.png
-  [Mobile Mapping and Historical GIS in the Field]: http://niche-canada.org/2011/12/14/mobile-mapping-and-historical-gis-in-the-field/
+  [Mobile Mapping and Historical GIS in the Field]: https://niche-canada.org/2011/12/14/mobile-mapping-and-historical-gis-in-the-field/
     "Mobile Mapping and Historical GIS in the Field"
   [geo36]: /images/googlemaps-googleearth/geo36.png
   [geo37]: /images/googlemaps-googleearth/geo37.png
   [geo38]: /images/googlemaps-googleearth/geo38.png
   [geo39]: /images/googlemaps-googleearth/geo39.png
   [geo40]: /images/googlemaps-googleearth/geo40.png
-  [Geospatial Historian]: http://geospatialhistorian.wordpress.com/
+  [Geospatial Historian]: https://geospatialhistorian.wordpress.com/

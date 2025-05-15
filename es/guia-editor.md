@@ -45,7 +45,7 @@ A continuación, el editor creará un *issue* en el [repositorio de GitHub](http
 
 	Si la lección no es entregada en la [fecha acordada], el editor intentará contactar con el autor o autores de la lección. Si no recibe noticias, el ticket se cerrará. Éste podrá abrirse en el futuro a petición del autor o autores.
 
-	El principal contacto para esta lección es [nombre del editor]. Si se produce algún problema, el autor puede contactar con nuestros ’ombudsperson' (Silvia Gutiérrez De la Torre - http://programminghistorian.org/es/equipo-de-proyecto).
+	El principal contacto para esta lección es [nombre del editor]. Si se produce algún problema, el autor puede contactar con nuestros ’ombudsperson' (Silvia Gutiérrez De la Torre - https://programminghistorian.org/es/equipo-de-proyecto).
 
 Este texto, sin embargo, puede editarse y adaptarse a las necesidades para reflejar más objetivos o lo que se ha negociado entre el editor y el autor.
 
@@ -151,7 +151,7 @@ Desde un punto de vista técnico, estas son las áreas en las que tendrás que i
 El **editor** debe sugerir un nombre para el archivo de la traducción o lección nueva conforme a las siguientes pautas:
 
 - El nombre debe ser corto pero descriptivo pues se convertirá en el *slug* de la lección cuando se publique (es decir, la terminación de la URL).
-- Una buena URL debería encajar en una diapositiva, debería ser fácil de recordar y debería describir el contenido de la lección. Nuestras URLS tienen el siguiente formato: http://programminghistorian.org/es/lecciones/NOMBRE-DEL-ARCHIVO-AQUI
+- Una buena URL debería encajar en una diapositiva, debería ser fácil de recordar y debería describir el contenido de la lección. Nuestras URLS tienen el siguiente formato: https://programminghistorian.org/es/lecciones/NOMBRE-DEL-ARCHIVO-AQUI
 - No introduzcas espacios en el nombre del archivo; en su lugar utiliza guiones.
 - La extensión del arhivo debe ser `.md` con el objetivo de que GitHub genere una visualización provisional de la lección.
 
@@ -319,11 +319,11 @@ Las lecciones se representan mediante una imagen `vintage` que refleja algún el
 
 Puedes buscar imágenes en los recursos siguientes:
 
- - [Europeana](http://www.europeana.eu/portal/en)
+ - [Europeana](https://www.europeana.eu/portal/en)
  - [British Library](https://www.flickr.com/photos/britishlibrary)
  - [Internet Archive Book Images](https://archive.org/details/bookimages)
  - [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
- - [Library of Congress Maps](http://www.loc.gov/maps/collections)
+ - [Library of Congress Maps](https://www.loc.gov/maps/collections)
 
 Si como editor estás buscando una imagen para una lección nueva, asegúrate de que la imagen sigue el mismo estilo que las imágenes anteriores; debería ser una ilustración, no una fotografía, tener al menos 200 píxeles de anchura y altura, y estar libre de derechos. Asegúrate de que la magen no es ofensiva y ten en cuenta nuestro [compromiso con la diversidad](/posts/PH-commitment-to-diversity); en otras palabras, intenta encontrar una imagen que no perpetúe estereotipos o envíe mensajes sutiles sobre la masculinidad y la raza blanca.
 

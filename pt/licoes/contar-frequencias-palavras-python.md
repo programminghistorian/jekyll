@@ -352,9 +352,9 @@ Para acompanhar lições futuras, é importante ter os ficheiros e programas cor
 
 -   programming-historian-5 ([zip sync][])
 
-  [list comprehension]: http://docs.python.org/tutorial/datastructures.html#list-comprehensions
-  [cientistas da computação em Glasgow]: http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
-  [Regular Expressions]: https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html
+  [list comprehension]: https://docs.python.org/tutorial/datastructures.html#list-comprehensions
+  [cientistas da computação em Glasgow]: https://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
+  [Regular Expressions]: https://web.archive.org/web/20180416143856/https://www.diveintopython.net/regular_expressions/index.html
   [zip]: https://programminghistorian.org/assets/python-lessons4.zip
   [zip sync]: https://programminghistorian.org/assets/python-lessons5.zip
   [^1]: Na língua portuguesa, palavras similares seriam "e", "de", "da", "do", "um", "uma", dentre outras, a depender de cada caso.

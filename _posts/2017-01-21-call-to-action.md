@@ -22,7 +22,7 @@ We've got a great lesson on how to [conduct a topic model using MALLET](/lessons
 
 2) **How do you conduct a stylometric analysis (well)?**
 
-Stylometry, the process of computationally attributing (probable) authorship to an anonymous text, has grown in popularity in recent years, even outing [J.K. Rowling as 'Robert Galbraith'](http://languagelog.ldc.upenn.edu/nll/?p=5315) in 2013. But how do you DO it? And what are the pitfalls you need to beware of? Given the vast amount of machine-readable text out there, we think it's time stylometry came into the mainstream of historical research.
+Stylometry, the process of computationally attributing (probable) authorship to an anonymous text, has grown in popularity in recent years, even outing [J.K. Rowling as 'Robert Galbraith'](https://languagelog.ldc.upenn.edu/nll/?p=5315) in 2013. But how do you DO it? And what are the pitfalls you need to beware of? Given the vast amount of machine-readable text out there, we think it's time stylometry came into the mainstream of historical research.
 
 3) **How do you conduct spatial clustering of geographic data?**
 

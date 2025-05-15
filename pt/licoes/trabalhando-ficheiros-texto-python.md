@@ -186,6 +186,6 @@ Leituras sugeridas
   [Instalação em Windows]: https://programminghistorian.org/lessons/windows-installation
   [Instalação em Linux]: https://programminghistorian.org/lessons/linux-installation
   [print]: https://docs.python.org/2/reference/simple_stmts.html#the-print-statement
-  [palavra reservada]: http://docs.python.org/release/2.5.4/ref/keywords.html
+  [palavra reservada]: https://docs.python.org/release/2.5.4/ref/keywords.html
   [File Objects]: https://docs.python.org/2/library/stdtypes.html#bltin-file-objects
   [Non-Programmer's Tutorial for Python 3/Hello, World]: https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Hello,_World

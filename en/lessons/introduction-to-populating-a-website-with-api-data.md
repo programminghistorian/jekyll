@@ -30,7 +30,7 @@ doi: 10.46430/phen0086
 
 This tutorial offers readers the possibility to quickly learn the basics of APIs without prior knowledge of programming, to start accessing a vast amount of data (often freely) available on the web. In particular, we learn basic [HTML](https://en.wikipedia.org/wiki/HTML) and [PHP](https://en.wikipedia.org/wiki/PHP) to build a simple website to display API query results of cultural heritage collections, using [Europeana API](https://pro.europeana.eu/resources/apis). As the technique is generic, we also create a short template to test it with [Harvard Art Museums API](https://www.harvardartmuseums.org/collections/api). In the tutorial, some other concepts such as [metadata](https://en.wikipedia.org/wiki/Metadata) and [web servers](https://en.wikipedia.org/wiki/Web_server) are explained to understand APIs in a broad context.
 
-[PHP](http://php.net/) is a programming language especially suited for web development, while [HTML](https://en.wikipedia.org/wiki/HTML) is a markup language to create webpages and applications. The exampes in this lesson uses some basic programming, however it is usually also possible to use copy and paste when working with API at a basic level.
+[PHP](https://php.net/) is a programming language especially suited for web development, while [HTML](https://en.wikipedia.org/wiki/HTML) is a markup language to create webpages and applications. The exampes in this lesson uses some basic programming, however it is usually also possible to use copy and paste when working with API at a basic level.
 
 # Contents
 The tutorial consists of two parts. The first part provides the basic theory of APIs:
@@ -117,7 +117,7 @@ Let’s have a closer look at what you typed into your browser URL box the examp
 {% include figure.html filename="website-api2.jpg" caption="Untidy JSON data structure (raw data) in Chrome" %}
 
 ## Understanding API Data (in JSON)
-If your browser does not support a tidy [JSON](https://en.wikipedia.org/wiki/JSON) view (the latest Firefox should have a pre-installed JSON viewer), please copy and paste the entire data to an [online JSON viewer](http://jsonviewer.stack.hu/). It allows us to view the data more easily by expanding (+ button) and collapsing (- button) the data hierarchy.
+If your browser does not support a tidy [JSON](https://en.wikipedia.org/wiki/JSON) view (the latest Firefox should have a pre-installed JSON viewer), please copy and paste the entire data to an [online JSON viewer](https://jsonviewer.stack.hu/). It allows us to view the data more easily by expanding (+ button) and collapsing (- button) the data hierarchy.
 
 {% include figure.html filename="website-api3.jpg" caption="Online JSON viewer" %}
 
@@ -129,7 +129,7 @@ Now, if you look carefully at the first lines of the data, you may notice someth
 
 You read literally: `"apikey"` is your API key. Your API access is `success`ful. We can ignore what `requestNumber` is, but only the first `12` items (records) are returned (to avoid a flood of data) out of the `totalResults` of `1967431`. After that, you have actual data from the collection (i.e. the 12 items).
 
-In order to organise the data, Europeana uses a particular format/structure, called [JSON (JavaScript Object Notation)](http://json.org/). The data are wrapped with curly brackets (which is called Object). It always starts with `{` and ends with `}`. Inside, the data are represented with pairs of strings. Each pair has two components separated by a colon (`:`). For instance, `"totalResults":1967341`. We call this format [name-value pair](https://en.wikipedia.org/wiki/Attribute%E2%80%93value_pair). In our case, the name is `"totalResults"` and `1967341` is the data value. If there are more than one pair, name-value pairs are separated by comma (`,`). To sum up, the simplest JSON data look like this:
+In order to organise the data, Europeana uses a particular format/structure, called [JSON (JavaScript Object Notation)](https://json.org/). The data are wrapped with curly brackets (which is called Object). It always starts with `{` and ends with `}`. Inside, the data are represented with pairs of strings. Each pair has two components separated by a colon (`:`). For instance, `"totalResults":1967341`. We call this format [name-value pair](https://en.wikipedia.org/wiki/Attribute%E2%80%93value_pair). In our case, the name is `"totalResults"` and `1967341` is the data value. If there are more than one pair, name-value pairs are separated by comma (`,`). To sum up, the simplest JSON data look like this:
 
 ```
 {
@@ -149,17 +149,17 @@ As there can be a long list of names in a record, let me explain some of the nam
 | id           | Identifier of this item                                           | /9200309/BibliographicResource_3000093757119_source                                                                                                                                                                                                                |
 | country      | Country of the data provider                                      | Belgium                                                                                                                                                                                                                                                            |
 | dataProvider | Data provider of this item                                        | Royal Library of Belgium                                                                                                                                                                                                                                           |
-| rights       | Predefined rights statement (Creative Commons etc)                | http://rightsstatements.org/vocab/InC/1.0/                                                                                                                                                                                                                         |
+| rights       | Predefined rights statement (Creative Commons etc)                | https://rightsstatements.org/vocab/InC/1.0/                                                                                                                                                                                                                         |
 | title        | Title of this item                                                | Stand Not Upon The Order Of Your Going, But Go At Once Shakespeare Macbeth 3-4 Enlist Now                                                                                                                                                                          |
 | edmPreview   | URL of the preview of this item in Europeana                      | [https://www.europeana.eu/api/v2/thumbnail-by-url.json?uri=http%3A%2F%2Fuurl.kbr.be%2F1017835%2Fthumbs%2Fs&size=LARGE&type=IMAGE](https://www.europeana.eu/api/v2/thumbnail-by-url.json?uri=http%3A%2F%2Fuurl.kbr.be%2F1017835%2Fthumbs%2Fs&size=LARGE&type=IMAGE) |
-| edmIsShownAt | URL (web page) of this item at the website of the data provider   | [http://uurl.kbr.be/1017835](http://uurl.kbr.be/1017835)                                                                                                                                                                                                           |
+| edmIsShownAt | URL (web page) of this item at the website of the data provider   | [https://uurl.kbr.be/1017835](https://uurl.kbr.be/1017835)                                                                                                                                                                                                           |
 | edmIsShownBy | URL (media file) of this item at the website of the data provider | [https://www.rijksmuseum.nl/nl/collectie/RP-P-OB-84.508](https://www.rijksmuseum.nl/nl/collectie/RP-P-OB-84.508)                                                                                                                                                   |
 | type         | The type of the item                                              | IMAGE                                                                                                                                                                                                                                                              |
-| guid         | URL of the item page in Europeana                                 | [http://www.europeana.eu/portal/record/90402/RP_P_OB_84_508.html](http://www.europeana.eu/portal/record/90402/RP_P_OB_84_508.html)                                                                                                                                 |
+| guid         | URL of the item page in Europeana                                 | [https://www.europeana.eu/portal/record/90402/RP_P_OB_84_508.html](https://www.europeana.eu/portal/record/90402/RP_P_OB_84_508.html)                                                                                                                                 |
 
 It is outside of the scope of this tutorial to explain the data model of Europeana (Europeana Data Model: EDM), but a short explanation would be handy, because all records are based on it. It consists of different descriptions (i.e. metadata) about cultural heritage items, including:
 
-- [Dublin Core](http://dublincore.org/documents/dcmi-terms/) metadata to describe a cultural heritage object (stored in museums, libraries and archives). It includes the description of mostly physical aspects of the object such as title (Mona Lisa), creator (Leonardo da Vinci), size (77 cm × 53 cm), date (1503-1517?), place (France), owner (Louvre museum), and type (painting). In the Europeana API, it is often specified with prefix `dc`.
+- [Dublin Core](https://dublincore.org/documents/dcmi-terms/) metadata to describe a cultural heritage object (stored in museums, libraries and archives). It includes the description of mostly physical aspects of the object such as title (Mona Lisa), creator (Leonardo da Vinci), size (77 cm × 53 cm), date (1503-1517?), place (France), owner (Louvre museum), and type (painting). In the Europeana API, it is often specified with prefix `dc`.
 
 - Metadata about digital versions of the physical object. It may include URLs where user can view the object (both at the Europeana website and external website), digital formats (jpg), and licensing information ([Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons)).
 
@@ -211,7 +211,7 @@ If you use Skype XAMPP may not work as Skype may use the same port (80 and 443).
 
 {% include figure.html filename="website-api4.jpg" caption="Click Start button for Apache LModule, and it is started (User interface may look a bit different depending on your OS)" %}
 
-{% include figure.html filename="website-api5.jpg" caption="Go to [http://localhost/dashboard](http://localhost/dashboard) in your browser to see if Apache is working" %}
+{% include figure.html filename="website-api5.jpg" caption="Go to [https://localhost/dashboard](https://localhost/dashboard) in your browser to see if Apache is working" %}
 
 If you see the screens like above, everything should be OK. Go to the installation folder, you will find an "htdocs" folder (for Mac OSX, /Applications/XAMPP/xamppfiles/htdocs). I suggest creating a shortcut on the desktop. We must use this folder to put all the necessary files to create our website, so it is best if it is conveniently located. Right now there are only default files in this folder that XAMPP has prepared for us, so let’s create a brand new PHP file. Inside the "htdocs" folder, create a new text file using your text editor and save it as `helloworld.php`.
 
@@ -225,7 +225,7 @@ print 'Hello World';
 ?>
 ```
 
-Open your web browser and type [http://localhost/helloworld.php](http://localhost/helloworld.php) in the address bar. When working on PHP code, I suggest keeping the browser open to the web page you are editing, so as soon as you save the file, you can see the outcome.
+Open your web browser and type [https://localhost/helloworld.php](https://localhost/helloworld.php) in the address bar. When working on PHP code, I suggest keeping the browser open to the web page you are editing, so as soon as you save the file, you can see the outcome.
 
 You should see "Hello World" on a white background in your browser window. Congratulations. You have just made your first PHP program. PHP code should always start with `<?php` and end with `?>`. Just like JSON, those lines declare that the file is PHP. `print` means display the following code `'Hello World'` as text. In PHP, you can use either `''` or `""` (single or double quotes) to indicate that the data type is a [string](https://en.wikipedia.org/wiki/String_(computer_science)) (text) (There are [other data types](https://www.w3schools.com/pHp/php_datatypes.asp) such as integer, Boolean, or array, but let’s focus on strings for now).
 
@@ -514,13 +514,13 @@ The point is the API template can be reused and customized, therefore, the most 
 If you can learn a bit of programming, you are no longer restricted by what a website offers by default. You are now free to build your own tool or system, for example, to select, filter, compare, process, analyse, visualise, and share data in new ways. So, what are you waiting for? Be brave and start your new project.
 
 ## Useful APIs
-- [The New York Times](http://developer.nytimes.com/)
+- [The New York Times](https://developer.nytimes.com/)
 - [The Digital Public Library of America](https://pro.dp.la/developers/api-codex)
 - [VIAF](https://www.oclc.org/developer/api/oclc-apis/viaf.en.html)
-- [GeoNames](http://www.geonames.org/export/web-services.html)
+- [GeoNames](https://www.geonames.org/export/web-services.html)
 - [Wikipedia](https://www.mediawiki.org/wiki/API:Main_page)
 - [The Open Library](https://openlibrary.org/developers/api)
-- [List of useful APIs for museums](http://museum-api.pbworks.com/w/page/21933420/Museum%C2%A0APIs)
+- [List of useful APIs for museums](https://museum-api.pbworks.com/w/page/21933420/Museum%C2%A0APIs)
 
 ## Author's Project Using APIs
 - [James Cook Dynamic Journal (JCDJ)](https://web.archive.org/web/20210414011922/https://jcdj.acdh-dev.oeaw.ac.at/)...Contextualisation of a book from The Open Library

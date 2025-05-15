@@ -71,15 +71,15 @@ Vocabulary Program][getty], has also released their series of authoritative
 databases on geographic place names, terms for describing art and architecture,
 and variant spellings of artist names, as LOD.
 
-[getty]: http://vocab.getty.edu
+[getty]: https://vocab.getty.edu
 
-[bm]: http://collection.britishmuseum.org
+[bm]: https://collection.britishmuseum.org
 
-[Europeana]: http://labs.europeana.eu/api/linked-open-data-introduction
+[Europeana]: https://labs.europeana.eu/api/linked-open-data-introduction
 
-[saam]: http://americanart.si.edu
+[saam]: https://americanart.si.edu
 
-[yale]: http://britishart.yale.edu/collections/using-collections/technology/linked-open-data
+[yale]: https://britishart.yale.edu/collections/using-collections/technology/linked-open-data
 
 SPARQL is the language used to query these databases. This language is
 particularly powerful because it does not presuppose the perspectives that users
@@ -137,7 +137,7 @@ maximum flexibility in deciding how they wish to query it.
 
 SPARQL lets us translate heavily interlinked, graph data into normalized,
 tabular data with rows and columns you can open in programs like Excel, or
-import into a visualization suite such as [plot.ly](http://plot.ly) or
+import into a visualization suite such as [plot.ly](https://plot.ly) or
 [Palladio].
 
 It is useful to think of a SPARQL query as a [Mad
@@ -284,13 +284,13 @@ SPARQL endpoint is a web address that accepts SPARQL queries and returns
 results. The BM endpoint is like many others: if you navigate to it in a web
 browser, it presents you with a text box for composing queries.
 
-[bms]: http://collection.britishmuseum.org/sparql
+[bms]: https://collection.britishmuseum.org/sparql
 
 {% include figure.html filename="sparql03.png" caption="The BM SPARQL endpoint webpage. For all the queries in this tutorial, make sure that you have left the 'Include inferred' and 'Expand results over equivalent URIs' boxes unchecked." %}
 
 When starting to explore a new RDF database, it helps to look at the
 relationships that stem from a single [example
-object](http://collection.britishmuseum.org/id/object/PPA82633).
+object](https://collection.britishmuseum.org/id/object/PPA82633).
 
 (For each of the following queries, click on the "Run query" link below to see
 the results. You can then run it as
@@ -304,7 +304,7 @@ WHERE {
 }
 ```
 
-[Run query](http://collection.britishmuseum.org/sparql?query=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D&_implicit=false&_equivalent=false&_form=%2Fsparql)
+[Run query](https://collection.britishmuseum.org/sparql?query=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D&_implicit=false&_equivalent=false&_form=%2Fsparql)
 
 By calling `SELECT ?p ?o` we're asking the database to return the values of `?p`
 and `?o` as described in the `WHERE {}` command. This query returns every
@@ -485,14 +485,14 @@ authorities.
 One endpoint that does, however, is
 [Europeana's][eursparql]. They have created links
 between the objects in their database and records about individuals in
-[DBPedia](http://wiki.dbpedia.org/) and [VIAF](https://viaf.org/), places in
-[GeoNames](http://sws.geonames.org/), and concepts in the Getty Art &
+[DBPedia](https://wiki.dbpedia.org/) and [VIAF](https://viaf.org/), places in
+[GeoNames](https://sws.geonames.org/), and concepts in the Getty Art &
 Architecture thesaurus. SPARQL allows you to insert `SERVICE` statements that
 instruct the database to "phone a friend" and run a portion of the query on
 an outside dataset, using the results to complete the query on the local
 dataset. While this lesson will go into the data models in Europeana and DBpedia in depth, the following query illustrates how a `SELECT` statement works. You may run it yourself by copying and pasting the query text into the [Europeana endpoint][eursparql].
 
-[eursparql]: http://sparql.europeana.eu/
+[eursparql]: https://sparql.europeana.eu/
 
 ```
 PREFIX edm:    <http://www.europeana.eu/schemas/edm/>
@@ -555,9 +555,9 @@ and languages.
 Parsing the XML verson of this output may be done with a tool like Beautiful
 Soup ([see its _Programming Historian_
 lesson](/lessons/intro-to-beautiful-soup.html)) or [Open
-Refine](http://openrefine.org/). To quickly convert JSON results from a SPARQL
+Refine](https://openrefine.org/). To quickly convert JSON results from a SPARQL
 endpoint into a tabular format, I recommend the free command line utility
-[jq](http://stedolan.github.io/jq/download/). (For a tutorial on using command
+[jq](https://stedolan.github.io/jq/download/). (For a tutorial on using command
 line programs, see ["Introduction to the Bash Command
 Line"](/lessons/intro-to-bash.html).) The following query will convert the
 special JSON RDF format into a CSV file, which you may load into your preferred
@@ -579,7 +579,7 @@ to load data from the BM endpoint you must use the address
 aggregation query we used above to count artworks by type and clicking on "Run
 query". Palladio should display a preview table.
 
-[Palladio]: http://palladio.designhumanities.org/
+[Palladio]: https://palladio.designhumanities.org/
 
 {% include figure.html filename="sparql10.png" caption="Palladio's SPARQL query interface." %}
 
@@ -614,12 +614,12 @@ searching, or doing other mathematical operations more complex than counting.
 For a more complete rundown of the commands available in SPARQL, see these
 links:
 
-- [Wikibooks SPARQL tutorial](http://en.wikibooks.org/wiki/XQuery/SPARQL_Tutorial)
+- [Wikibooks SPARQL tutorial](https://en.wikibooks.org/wiki/XQuery/SPARQL_Tutorial)
 - [Full W3C Overview of SPARQL](https://www.w3.org/TR/sparql11-overview/)
 
 Both the Europeana and Getty Vocabularies LOD sites also offer extensive, and
 quite complex example queries which can be good sources for understanding how to
 search their data:
 
-- [Europeana SPARQL how-to](http://labs.europeana.eu/api/linked-open-data-SPARQL-endpoint)
-- [Getty Vocabularies Example Queries](http://vocab.getty.edu/queries)
+- [Europeana SPARQL how-to](https://labs.europeana.eu/api/linked-open-data-SPARQL-endpoint)
+- [Getty Vocabularies Example Queries](https://vocab.getty.edu/queries)

@@ -55,7 +55,7 @@ Esta lição foi revista utilizando o Git Bash 2.34.1 e o sistema operacional Wi
 
 Os ficheiros utilizados nesta lição estão disponíveis em "[Figshare](https://doi.org/10.6084/m9.figshare.1172094)" (em inglês). Os dados contêm os metadados para artigos de periódicos categorizados em 'History' no banco de dados ESTAR da British Library. Os dados são compartilhados sob isenção dos direitos autorais CC0.
 
-Faça o download dos ficheiros necessários, salve-os no seu computador e descompacte-os. Caso não tenha um software padrão para lidar com ficheiros .zip, recomendamos [7-zip](http://www.7-zip.org/) (em inglês) para este propósito. No Windows, recomendamos descompactar a pasta em sua unidade C: para que os ficheiros estejam em `c:\proghist\`. No entanto, qualquer localização servirá, mas precisará ajustar os seus comandos à medida que for avançando na lição caso use uma localização diferente. No caso de OS X ou Linux, recomendamos de modo similar que descompacte os ficheiros no seu diretório de usuário, de modo que eles apareçam em `/usuario/NOME-DE-USUARIO/proghist/`. Em ambos os casos, isso significa que, ao abrir uma nova janela de terminal, pode simplesmente digitar `cd proghist` para mover para o diretório correto (no Windows, se o comando referido não resultar, poderá ter de digitar `cd C:\proghist` para acessar o diretório).
+Faça o download dos ficheiros necessários, salve-os no seu computador e descompacte-os. Caso não tenha um software padrão para lidar com ficheiros .zip, recomendamos [7-zip](https://www.7-zip.org/) (em inglês) para este propósito. No Windows, recomendamos descompactar a pasta em sua unidade C: para que os ficheiros estejam em `c:\proghist\`. No entanto, qualquer localização servirá, mas precisará ajustar os seus comandos à medida que for avançando na lição caso use uma localização diferente. No caso de OS X ou Linux, recomendamos de modo similar que descompacte os ficheiros no seu diretório de usuário, de modo que eles apareçam em `/usuario/NOME-DE-USUARIO/proghist/`. Em ambos os casos, isso significa que, ao abrir uma nova janela de terminal, pode simplesmente digitar `cd proghist` para mover para o diretório correto (no Windows, se o comando referido não resultar, poderá ter de digitar `cd C:\proghist` para acessar o diretório).
 
 _____
 
@@ -69,7 +69,7 @@ Digite `ls` e pressione a tecla Enter. Isso exibe uma lista que inclui dois fich
 
 Os ficheiros nesse diretório são a base de dados `2014-01_JA.csv`, que contém os metadados dos artigos de periódico, e um ficheiro contendo a documentação a respeito do `2014-01_JA.csv` chamado `2014-01_JA.txt`.
 
-O subdiretório é nomeado como `derived_data`. Ele contém quatro ficheiros [.tsv](http://en.wikipedia.org/wiki/Tab-separated_values) derivados do `2014-01_JA.csv`. Cada um deles inclui todos os dados em que uma palavra-chave como `africa` ou `america` aparece no campo `Title` do `2014-01_JA.csv`. O diretório `derived_data` também inclui um subdiretório chamado `results`.
+O subdiretório é nomeado como `derived_data`. Ele contém quatro ficheiros [.tsv](https://en.wikipedia.org/wiki/Tab-separated_values) derivados do `2014-01_JA.csv`. Cada um deles inclui todos os dados em que uma palavra-chave como `africa` ou `america` aparece no campo `Title` do `2014-01_JA.csv`. O diretório `derived_data` também inclui um subdiretório chamado `results`.
 
 *Nota: Ficheiros [CSV](https://pt.wikipedia.org/wiki/Comma-separated_values) são aqueles nos quais as unidades de dados (ou células) são separadas por vírgula (comma-separated-values) e ficheiros TSV são aqueles nos quais as unidades são separadas por tabulação. Ambos podem ser lidos em editores de texto simples ou em programas de estatística como Libre Office Calc ou Microsoft Excel.*
 
@@ -131,8 +131,8 @@ _____
 
 Nessa lição aprendeu a executar contagens básicas em ficheiros, realizar *queries* em dados de investigação em busca de *strings* comuns e armazenar resultados e dados derivados. Ainda que essa lição seja restrita ao uso do shell do Unix para contabilizar e minerar dados tabulares, os processos podem facilmente ser estendidos a textos livres. Para isso, recomendamos dois guias escritos por William Turkel:
 
-- William Turkel, '[Basic Text Analysis with Command Line Tools in Linux](http://williamjturkel.net/2013/06/15/basic-text-analysis-with-command-line-tools-in-linux/)' (15 de junho de 2013)
-- William Turkel, '[Pattern Matching and Permuted Term Indexing with Command Line Tools in Linux](http://williamjturkel.net/2013/06/20/pattern-matching-and-permuted-term-indexing-with-command-line-tools-in-linux/)' (20 de junho de 2013)
+- William Turkel, '[Basic Text Analysis with Command Line Tools in Linux](https://williamjturkel.net/2013/06/15/basic-text-analysis-with-command-line-tools-in-linux/)' (15 de junho de 2013)
+- William Turkel, '[Pattern Matching and Permuted Term Indexing with Command Line Tools in Linux](https://williamjturkel.net/2013/06/20/pattern-matching-and-permuted-term-indexing-with-command-line-tools-in-linux/)' (20 de junho de 2013)
 
 Como essas recomendações sugerem, a presente lição apenas aborda superficialmente o que o ambiente do shell do Unix é capaz de fazer. Espera-se, no entanto, que tenha oferecido uma prova suficiente para estimular uma investigação mais aprofundada e uma prática produtiva.
 

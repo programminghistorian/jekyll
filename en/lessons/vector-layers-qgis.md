@@ -143,7 +143,7 @@ appears
     Specify CRS button, and select NAD83(CSRS98) / Prince Edward Isl.
     Stereographic (EPSG: 2291), and then click OK (for information on
     understanding and selecting UTM zone:
-    <http://www.lib.uwaterloo.ca/locations/umd/digital/clump_classes.html>)
+    <https://www.lib.uwaterloo.ca/locations/umd/digital/clump_classes.html>)
 
 {% include figure.html filename="pei6.png" caption="Figure 6: Click to see full size image." %}
 
@@ -422,5 +422,5 @@ work!**
   [Installing QGIS 2.0 and Adding Layers]: /lessons/qgis-layers
   [PEI_Holland map]: /assets/vector-layers-qgis/PEI_HollandMap1798_compLZW.tif
   [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
-  [Wikipedia entry]: http://en.wikipedia.org/wiki/Prince_Royalty,_Prince_Edward_Island
-  [Geospatial Historian]: http://geospatialhistorian.wordpress.com/
+  [Wikipedia entry]: https://en.wikipedia.org/wiki/Prince_Royalty,_Prince_Edward_Island
+  [Geospatial Historian]: https://geospatialhistorian.wordpress.com/

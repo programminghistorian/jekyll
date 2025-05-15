@@ -68,11 +68,11 @@ Estaremos utilizando alguns dados governamentais da província de Prince Edward 
 
 Entre nos links abaixo em seu navegador. Desenvolvemos os dois últimos *shapefiles*, então eles devem baixar automaticamente:
 
-1.  <http://www.gov.pe.ca/gis/download.php3?name=coastline&file_format=SHP>
-2.  <http://www.gov.pe.ca/gis/download.php3?name=lot_town&file_format=SHP>
-3.  <http://www.gov.pe.ca/gis/download.php3?name=hydronetwork&file_format=SHP>
-4.  <http://www.gov.pe.ca/gis/download.php3?name=forest_35&file_format=SHP>
-5.  <http://www.gov.pe.ca/gis/download.php3?name=nat_parks&file_format=SHP>
+1.  <https://www.gov.pe.ca/gis/download.php3?name=coastline&file_format=SHP>
+2.  <https://www.gov.pe.ca/gis/download.php3?name=lot_town&file_format=SHP>
+3.  <https://www.gov.pe.ca/gis/download.php3?name=hydronetwork&file_format=SHP>
+4.  <https://www.gov.pe.ca/gis/download.php3?name=forest_35&file_format=SHP>
+5.  <https://www.gov.pe.ca/gis/download.php3?name=nat_parks&file_format=SHP>
 6.  [PEI Highways](/assets/qgis-layers/PEI_highway.zip)
 7.  [PEI Places](/assets/qgis-layers/PEI_placenames.zip)
 
@@ -103,7 +103,7 @@ Selecione Propriedades do Projeto.
 -   Perceba que a projeção mudou no canto inferior direito da janela do QGIS. Próximo a ela, verá a localização geográfica do seu cursor em metros.
 -  Na janela **Projeto**, selecione _Salvar Projeto_ (é recomendado salvar seu projeto após cada etapa).
 
-Agora está pronto para trabalhar no projeto de tutorial, mas pode ser que tenha algumas perguntas sobre qual SRC utilizar para o seu próprio projeto. O WGS83 pode funcionar a curto prazo, principalmente se estiver trabalhando em uma escala consideravelmente maior, mas apresentará dificuldades em trabalhar com precisão em mapas locais. Uma dica é saber quais SRC ou Projeções são utilizados para os mapas em papel da região. Caso digitalize um mapa físico de alta qualidade para utilizar como camada base, pode ser uma boa ideia utilizar a mesma projeção. Pode-se também tentar buscar na internet quais os SRC mais comuns para determinada região. Para aqueles trabalhando em projetos norte americanos, identificar o NAD83 correto par a sua região vai ser, geralmente, o melhor SRC. Aqui estão alguns links para outros recursos que lhe ajudarão a escolher um SRC para o seu próprio projeto: [Tutorial: Trabalhando com Projeções no QGIS](http://web.archive.org/web/20180715071501/http://www.qgistutorials.com/pt_BR/docs/working_with_projections.html) (em inglês).
+Agora está pronto para trabalhar no projeto de tutorial, mas pode ser que tenha algumas perguntas sobre qual SRC utilizar para o seu próprio projeto. O WGS83 pode funcionar a curto prazo, principalmente se estiver trabalhando em uma escala consideravelmente maior, mas apresentará dificuldades em trabalhar com precisão em mapas locais. Uma dica é saber quais SRC ou Projeções são utilizados para os mapas em papel da região. Caso digitalize um mapa físico de alta qualidade para utilizar como camada base, pode ser uma boa ideia utilizar a mesma projeção. Pode-se também tentar buscar na internet quais os SRC mais comuns para determinada região. Para aqueles trabalhando em projetos norte americanos, identificar o NAD83 correto par a sua região vai ser, geralmente, o melhor SRC. Aqui estão alguns links para outros recursos que lhe ajudarão a escolher um SRC para o seu próprio projeto: [Tutorial: Trabalhando com Projeções no QGIS](https://web.archive.org/web/20180715071501/https://www.qgistutorials.com/pt_BR/docs/working_with_projections.html) (em inglês).
 
 ### Construindo um mapa base
 
@@ -275,4 +275,4 @@ Após criar um mapa utilizando camadas vetoriais, agora nós iremos adicionar ou
 
 Aprendeu a instalar o QGIS e a adicionar camadas. Certifique-se de salvar o seu trabalho!
 
-*Essa lição é parte do [Geospatial Historian](http://geospatialhistorian.wordpress.com/).*
+*Essa lição é parte do [Geospatial Historian](https://geospatialhistorian.wordpress.com/).*

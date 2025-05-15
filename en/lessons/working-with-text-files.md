@@ -278,6 +278,6 @@ Suggested Readings
   [Windows Installation]: /lessons/windows-installation
   [Linux Installation]: /lessons/linux-installation
   [print]: https://docs.python.org/2/reference/simple_stmts.html#the-print-statement
-  [reserved word]: http://docs.python.org/release/2.5.4/ref/keywords.html
+  [reserved word]: https://docs.python.org/release/2.5.4/ref/keywords.html
   [File Objects]: https://docs.python.org/2/library/stdtypes.html#bltin-file-objects
-  [Non-Programmer’s Tutorial for Python 2.6/Hello, World]: http://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_2.6/Hello,_World
+  [Non-Programmer’s Tutorial for Python 2.6/Hello, World]: https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_2.6/Hello,_World

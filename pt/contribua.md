@@ -48,9 +48,9 @@ Estamos especialmente gratos por dicas sobre lições que apresentam links quebr
 
 Este projeto é a nossa tentativa de demonstrar que a publicação acadêmica pode e deve ser de acesso aberto. Por favor, ajude-nos a divulgar essa mensagem e a proporcionar o maior acesso possível a este recurso, solicitando ao bibliotecário que inclua o projeto no catálogo da sua biblioteca.
 
-O _Programming Historian_ está listado no WorldCat (em [português](https://search.worldcat.org/title/1332987197), [inglês](http://www.worldcat.org/title/programming-historian/oclc/951537099), [espanhol](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results), e [francês](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842)).
+O _Programming Historian_ está listado no WorldCat (em [português](https://search.worldcat.org/title/1332987197), [inglês](https://www.worldcat.org/title/programming-historian/oclc/951537099), [espanhol](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results), e [francês](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842)).
 
-Os nossos agradecimentos à [Biblioteca da Universidade de Purdue](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink), à Amanda Visconti e à Universidade da Virgínia.
+Os nossos agradecimentos à [Biblioteca da Universidade de Purdue](https://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink), à Amanda Visconti e à Universidade da Virgínia.
 
 A versão em Inglês do projeto está indexada no [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
 

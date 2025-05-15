@@ -81,7 +81,7 @@ An important first step in creating a meaningful and inclusive environment for g
 * Only certain types of people play games (students may feel that the games they play, such as mobile games, do not qualify as “real” games)
 * That games easily create social change by automatically sparking empathy
 
-Playing and analyzing a game is a helpful way to challenge these assumptions. Games with strong rhetorical arguments are a good place to start. I begin many of my game units with Zoe Quinn’s Twine game [*Depression Quest*](http://www.depressionquest.com/), in which you play as someone living with depression.  
+Playing and analyzing a game is a helpful way to challenge these assumptions. Games with strong rhetorical arguments are a good place to start. I begin many of my game units with Zoe Quinn’s Twine game [*Depression Quest*](https://www.depressionquest.com/), in which you play as someone living with depression.  
 
 {% include figure.html filename="Figure1.jpg" alt="A 'passage' from the game Depression Quest. At the top, a scenario is described. It is written in black lettering. Below, there are four options for the player's next action, preceeded by the prompt 'Do you...'. The first option is written in red, and is struck-through indicating that it is unavailable to choose. The following three options are written in blue, indicating that these options are available" caption="Figure 1. Example from *Depression Quest*" %}
 
@@ -128,7 +128,7 @@ In the game I walk through below, the player character will move through her fir
 You can create a successful Twine game using limited technical elements. However, there are some basics of game design that can turn a technically simple game into a narratively complex game. The game we will make is technically straightforward–it involves narrative and basic, text-based choices that the player can make. However, we will work to create choices that connect to the game's rhetorical goals. 
 
 ## Creating Your First Story
-To create your first game, which Twine will refer to as a "story", go to [Twine](http://twinery.org/) and click "Use it online." If it is your first time using Twine, there will be a basic introduction. Once you have read or skipped this introduction, Twine will take you to your story list. At first, this area will be largely empty. It will populate as you create more stories. To create your first story, click "+Story." 
+To create your first game, which Twine will refer to as a "story", go to [Twine](https://twinery.org/) and click "Use it online." If it is your first time using Twine, there will be a basic introduction. Once you have read or skipped this introduction, Twine will take you to your story list. At first, this area will be largely empty. It will populate as you create more stories. To create your first story, click "+Story." 
 
 {% include figure.html filename="Figure2.jpg" caption="Figure 2. Getting Started with the Browser Version of Twine" %}
 
@@ -404,7 +404,7 @@ If you would like to play with Twine or potentially integrate it into a course, 
 
 ### Twine Games
 * [*A Witch’s Word*](https://rainbowstarbird.itch.io/a-witchs-word) by RainbowStarbird
-* [*Depression Quest*](http://www.depressionquest.com/) by Zoe Quinn
+* [*Depression Quest*](https://www.depressionquest.com/) by Zoe Quinn
 * [*Play Smarter Not Harder: Developing Your Scholarly Meta*](https://perma.cc/W2PK-FCQT) by Jason Helms
 * [*Queers in Love at the End of the World*](https://w.itch.io/end-of-the-world) by Anna Anthropy
 * [*September 7th, 2020*](https://perma.cc/GP6X-RARD) by Cait S. Kirby

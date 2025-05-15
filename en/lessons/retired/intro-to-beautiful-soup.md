@@ -187,7 +187,7 @@ The Congressional database that we’re using is not an easy one to scrape
 because the URL for the search results remains the same regardless of
 what you’re searching for. While this can be bypassed programmatically,
 it is easier for our purposes to go
-to <http://bioguide.congress.gov/biosearch/biosearch.asp>, search for
+to <https://bioguide.congress.gov/biosearch/biosearch.asp>, search for
 Congress number 43, and to save a copy of the results page.
 
 
@@ -654,10 +654,10 @@ for tr in trs:
 You’ve done it! You have created a CSV file from all of the data in the table, creating useful data from the confusion of the html page.
 
   [Working with Text Files]: /lessons/working-with-text-files
-  [Command Line Bootcamp]: http://praxis.scholarslab.org/resources/bash/
-  [Opening lines of Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/bs4/doc/
+  [Command Line Bootcamp]: https://praxis.scholarslab.org/resources/bash/
+  [Opening lines of Beautiful Soup]: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
   [installing python modules]: /lessons/installing-python-modules-pip
-  [urllib3]: http://urllib3.readthedocs.org/en/latest/
+  [urllib3]: https://urllib3.readthedocs.org/en/latest/
   [Automated Downloading with Wget]: /lessons/automated-downloading-with-wget
   [Downloading Multiple Records Using Query Strings]: /lessons/downloading-multiple-records-using-query-strings
   [Document Object Model]: https://en.wikipedia.org/wiki/Document_Object_Model

@@ -23,7 +23,7 @@ doi: 10.46430/phen0048
 
 **This lesson is for you if** you'd like an entirely free, easy-to-maintain, preservation-friendly, secure website over which you have full control, such as a scholarly blog, project website, or online portfolio.
 
-**At the end of this lesson**, you'll have a basic live website where you can publish content that other people can visit—it will look like [this](http://amandavisconti.github.io/JekyllDemo/)!—and you'll also have some resources to explore if you want to further customize the site.
+**At the end of this lesson**, you'll have a basic live website where you can publish content that other people can visit—it will look like [this](https://amandavisconti.github.io/JekyllDemo/)!—and you'll also have some resources to explore if you want to further customize the site.
 
 **Requirements:** A computer (Mac/Windows/Linux are all okay, but this lesson doesn't cover some aspects of Linux use, and you may encounter some issues if you are using a Mac with an M-series (silicon) chip), the ability to download and install software on the computer, an internet connection that can support downloading software. Users have reported needing between 1-3 hours to complete the entire lesson.
 
@@ -35,7 +35,7 @@ doi: 10.46430/phen0048
 
 ## What are static sites, Jekyll, etc. & why might I care? <a id="section0"></a>
 
-*This tutorial is built on the [official Jekyll Documentation](http://jekyllrb.com/docs/home/) written by the Jekyll community. See the ["Read more"](#section9-3) section below if you'd like to know even more about these terms!*
+*This tutorial is built on the [official Jekyll Documentation](https://jekyllrb.com/docs/home/) written by the Jekyll community. See the ["Read more"](#section9-3) section below if you'd like to know even more about these terms!*
 
 ### Dynamic websites, static websites, & Jekyll <a id="section0-1"></a>
 
@@ -49,7 +49,7 @@ Note that when someone refers to a "Jekyll website", they really mean a static (
 
 Because static sites are really just text files (no database to complicate matters), you can easily *version* a static site—that is, use a tool to keep track of the different versions of the site over time by tracking how the text files that compose the site have been altered. Versioning is especially helpful when you need to merge two files (e.g. two students are writing a blog post together, and you want to combine their two versions), or when you want compare files to look for differences among them (e.g. "How did the original About page describe this project?"). Versioning is great when working with a team (e.g. helps you combine and track different people's work), but it's also useful when writing or running a website on your own.
 
-Read more about [Jekyll here](http://jekyllrb.com/docs/home/) or [static site generators here](https://davidwalsh.name/introduction-static-site-generators).
+Read more about [Jekyll here](https://jekyllrb.com/docs/home/) or [static site generators here](https://davidwalsh.name/introduction-static-site-generators).
 
 ### GitHub & GitHub Pages <a id="section0-2"></a>
 
@@ -97,7 +97,7 @@ Jekyll isn't officially supported for Windows, which means none of the official 
 
 *A GitHub user account will let you host your website (make it available for others to visit) for free on GitHub (we'll cover how in a later step). As a bonus, it will also let you keep track of versions of the website and its writing as it grows or changes over time.*
 
-1\. Visit [GitHub.com](https://github.com/) and click on the "Sign up" button on the upper right. Write your desired username. This will be visible to others, identify you on GitHub, and also be part of your site's URL; for example, the author's GitHub username is amandavisconti and her demo Jekyll site's URL is http://amandavisconti.github.io/JekyllDemo/. (*Note you can also purchase your own domain name and use it for this site, but that won't be covered in this tutorial*). Also write your desired email address and password, then click "Create an account".
+1\. Visit [GitHub.com](https://github.com/) and click on the "Sign up" button on the upper right. Write your desired username. This will be visible to others, identify you on GitHub, and also be part of your site's URL; for example, the author's GitHub username is amandavisconti and her demo Jekyll site's URL is https://amandavisconti.github.io/JekyllDemo/. (*Note you can also purchase your own domain name and use it for this site, but that won't be covered in this tutorial*). Also write your desired email address and password, then click "Create an account".
 2\. On the next page, click the "Choose" button next to the "Free" plan option, ignore the "Help me set up an organization next" checkbox, and click "Finish sign up".
 3\. *Optional*: Visit https://github.com/settings/profile to add a full name (can be your real name, GitHub user name, or something else) and other public profile information, if desired.
 
@@ -115,7 +115,7 @@ Jekyll isn't officially supported for Windows, which means none of the official 
 
 ### Text editor <a id="section1-3"></a>
 
-You'll need to download and install a "text editor" program on your computer for making small customizations to your Jekyll site's code. Good free options include [TextWrangler](http://www.barebones.com/products/textwrangler/download.html) (Mac) or [Notepad++](https://notepad-plus-plus.org/) (Windows). Software aimed at word processing, like Microsoft Word or Word Pad, isn't a good choice because it's easy to forget how to format and save the file, accidentally adding in extra and/or invisible formatting and characters that will break your site. You'll want something that specifically can save what you write as plaintext (e.g. HTML, Markdown).
+You'll need to download and install a "text editor" program on your computer for making small customizations to your Jekyll site's code. Good free options include [TextWrangler](https://www.barebones.com/products/textwrangler/download.html) (Mac) or [Notepad++](https://notepad-plus-plus.org/) (Windows). Software aimed at word processing, like Microsoft Word or Word Pad, isn't a good choice because it's easy to forget how to format and save the file, accidentally adding in extra and/or invisible formatting and characters that will break your site. You'll want something that specifically can save what you write as plaintext (e.g. HTML, Markdown).
 
 *Optional:* See [the "Authoring in Markdown" section below](#section5-2) for notes on a Markdown-specific editing program, which you may also wish to install when you get to the point of authoring webpages and/or blog posts.
 
@@ -162,7 +162,7 @@ Open a command line window (Applications > Utilities > Terminal) and enter the c
 
 ### Command line tools suite <a id="section2-1"></a>
 
-You'll need to first install the Mac "command line tools" suite to be able to use [Homebrew](http://brew.sh/) (which we'll install next). Homebrew lets you download and install open-source software on Macs from the command line (it's a "package manager"), which will make installing Ruby (the language Jekyll is built on) easier.
+You'll need to first install the Mac "command line tools" suite to be able to use [Homebrew](https://brew.sh/) (which we'll install next). Homebrew lets you download and install open-source software on Macs from the command line (it's a "package manager"), which will make installing Ruby (the language Jekyll is built on) easier.
 
 In Terminal, paste the following code then press enter:
 
@@ -182,7 +182,7 @@ You'll see a message that "The software was installed" when the installation is 
 
 ### Homebrew <a id="section2-2"></a>
 
-After the command line tools suite has completed installation, return to your command line window and enter the following to install [Homebrew](http://brew.sh/):
+After the command line tools suite has completed installation, return to your command line window and enter the following to install [Homebrew](https://brew.sh/):
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -282,7 +282,7 @@ If you get a permissions error at this point, entering `usr/local/bin/gem instal
 
 Don't forget to wait until the command prompt appears again to move to the next step. 
 
-4\. Your site's public URL will take the form http://amandavisconti.github.io/JekyllDemo/, with *amandavisconti* being the author's GitHub username and *JekyllDemo* the name of the site I entered at this step (*an option to purchase and use your own [custom URL](#section7-2) is possible, but not covered in this lesson*). **Lowercase and uppercase website names do *not* point to the same website automatically**, so unlike my *JekyllDemo* example you might wish to pick an all-lowercase name to make sure people who hear about the site tend to type its URL correctly.
+4\. Your site's public URL will take the form https://amandavisconti.github.io/JekyllDemo/, with *amandavisconti* being the author's GitHub username and *JekyllDemo* the name of the site I entered at this step (*an option to purchase and use your own [custom URL](#section7-2) is possible, but not covered in this lesson*). **Lowercase and uppercase website names do *not* point to the same website automatically**, so unlike my *JekyllDemo* example you might wish to pick an all-lowercase name to make sure people who hear about the site tend to type its URL correctly.
 
    At the command line, type in the following (but replace *JekyllDemo* with whatever you want your site to be called):
 
@@ -370,7 +370,7 @@ You'll notice that generating and running your site in the previous section adde
    - **email**: Your email address.
    - **description**: A description of your website that will be used in search engine results and the site's RSS feed.
    - **baseurl**: Fill in the quotation marks with a forward slash followed by the name of your website folder (e.g. "/JekyllDemo/") to help locate the site at the correct URL. Make sure that your folder is the same the GitHub repository name and ends with a backslash (`/`). It will be required for publishing it on GitHub Pages.
-   - **url**: Replace "http://yourdomain.com" with "localhost:4000" to help locate your local version of the site at the correct URL.
+   - **url**: Replace "https://yourdomain.com" with "localhost:4000" to help locate your local version of the site at the correct URL.
    - **twitter_username**: Your Twitter username (do not include @ symbol).
    - **github_username**: Your GitHub username.
 
@@ -412,11 +412,11 @@ To get a sense of how your site works and what files you'd experiment with to do
 
 Markdown is a way of formatting your writing for reading on the web: it's a set of easy-to-remember symbols that show where text formatting should be added (e.g. a # in front of text means to format it as a heading, while a * in front of text means to format it as a bulleted list item). For Jekyll in particular, Markdown means you can write webpages and blog posts in a way that's comfortable to authors (e.g. no need to look up/add in HTML tags while trying to write an essay), but have that writing show up formatted nicely on the web (i.e. a text-to-HTML convertor).
 
-We won't cover Markdown in this lesson; if you're not familiar with it, for now you can just create posts and pages with no formatting (i.e. no bold/italic, no headers, no bulleted lists). But these are easy to learn how to add: there's a handy markdown [reference](http://kramdown.gettalong.org/quickref.html), as well as [a Programming Historian lesson by Sarah Simpkin on the hows and whys of writing with Markdown](/lessons/getting-started-with-markdown). Check out these links if you'd like to format text (italics, bold, headings, bullet/numbered lists) or add hyperlinks or embedded images and other files.
+We won't cover Markdown in this lesson; if you're not familiar with it, for now you can just create posts and pages with no formatting (i.e. no bold/italic, no headers, no bulleted lists). But these are easy to learn how to add: there's a handy markdown [reference](https://kramdown.gettalong.org/quickref.html), as well as [a Programming Historian lesson by Sarah Simpkin on the hows and whys of writing with Markdown](/lessons/getting-started-with-markdown). Check out these links if you'd like to format text (italics, bold, headings, bullet/numbered lists) or add hyperlinks or embedded images and other files.
 
-Make sure any Markdown cheatsheets you look at are for the "[kramdown](http://kramdown.gettalong.org/quickref.html)" flavor of Markdown, which is what GitHub Pages (where we'll be hosting our website) supports. (*There are [various "flavors" of Markdown](https://github.com/jgm/CommonMark/wiki/Markdown-Flavors) that have subtle differences in what various symbols do, but for the most part frequently used symbols like those that create heading formatting are the same—so you're actually probably okay using a markdown cheatsheet that doesn't specify it's kramdown, but if you're getting errors on your site using symbols that aren't included in kramdown might be why*).
+Make sure any Markdown cheatsheets you look at are for the "[kramdown](https://kramdown.gettalong.org/quickref.html)" flavor of Markdown, which is what GitHub Pages (where we'll be hosting our website) supports. (*There are [various "flavors" of Markdown](https://github.com/jgm/CommonMark/wiki/Markdown-Flavors) that have subtle differences in what various symbols do, but for the most part frequently used symbols like those that create heading formatting are the same—so you're actually probably okay using a markdown cheatsheet that doesn't specify it's kramdown, but if you're getting errors on your site using symbols that aren't included in kramdown might be why*).
 
-You might be interested in "markdown editor" software such as [Typora](http://www.typora.io/) (OS X and Windows; free during current beta period), which will let you use popular keyboard shortcuts to write Markdown (e.g. highlight text and press command-B to make it bold) and/or type in Markdown but have it show as it will look on the web (see headings styled like headings, instead of like normal text with a # in front of them).
+You might be interested in "markdown editor" software such as [Typora](https://www.typora.io/) (OS X and Windows; free during current beta period), which will let you use popular keyboard shortcuts to write Markdown (e.g. highlight text and press command-B to make it bold) and/or type in Markdown but have it show as it will look on the web (see headings styled like headings, instead of like normal text with a # in front of them).
 
 ### Authoring pages <a id="section5-3"></a>
 
@@ -436,7 +436,7 @@ You might be interested in "markdown editor" software such as [Typora](http://ww
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-22.png" caption="After adding a new page file to the website folder, the new page appears in the website's header menu" %}
 
-For reference, you can check out [an example of a page](http://amandavisconti.github.io/JekyllDemo/resume/) on my demo site, or see [the file that's behind that page](https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/resume.md).
+For reference, you can check out [an example of a page](https://amandavisconti.github.io/JekyllDemo/resume/) on my demo site, or see [the file that's behind that page](https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/resume.md).
 
 ### Authoring posts <a id="section5-2"></a>
 
@@ -469,7 +469,7 @@ Notice that **the URL of the post** is your local website URL (e.g. *localhost:4
 
 **To create further posts**, duplicate an existing file, then remember to change not just the front matter and content inside the post as described above, but also the file name (date and title) of the new file.
 
-For reference, you can check out [an example of a post](https://amandavisconti.github.io/JekyllDemo/2016/11/12/a-post-about-my-research.html) on my demo site, or see [the code running that post](http://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/_posts/2016-02-29-a-post-about-my-research.markdown).
+For reference, you can check out [an example of a post](https://amandavisconti.github.io/JekyllDemo/2016/11/12/a-post-about-my-research.html) on my demo site, or see [the code running that post](https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/_posts/2016-02-29-a-post-about-my-research.markdown).
 
 ## Hosting on GitHub Pages <a id="section6"></a>
 
@@ -502,7 +502,7 @@ For reference, you can check out [an example of a post](https://amandavisconti.g
 9\. Click the "Sync" button in the upper-right.
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-28.png" caption="Click the 'Sync' button in the upper-right" %}
-10\. You can now visit (and share the link to!) your live website. The URL will follow the pattern of *your GitHub username DOT github.io SLASH name of your website SLASH*. (For example, the author's URL is [amandavisconti.github.io/JekyllDemo/](http://amandavisconti.github.io/JekyllDemo/).)
+10\. You can now visit (and share the link to!) your live website. The URL will follow the pattern of *your GitHub username DOT github.io SLASH name of your website SLASH*. (For example, the author's URL is [amandavisconti.github.io/JekyllDemo/](https://amandavisconti.github.io/JekyllDemo/).)
 
 ### Mini cheatsheet <a id="section6-1"></a>
 
@@ -527,16 +527,16 @@ Or, you can add in (and further customize, if desired) a theme already created b
 
 - [Alex Gil's "Ed" theme for minimal digital editions](https://github.com/minicomp/ed/) and [its documentation](https://github.com/minicomp/ed/blob/main/documentation.md) (free)
 - [Rebecca Sutton Koeser's "Digital Edition" theme](https://github.com/emory-libraries-ecds/digitaledition-jekylltheme) (free)
-- The [Jekyll Themes](http://jekyllthemes.org/) directory (free)
-- [JekyllThemes.io](http://jekyllthemes.io/) (free and paid)
+- The [Jekyll Themes](https://jekyllthemes.org/) directory (free)
+- [JekyllThemes.io](https://jekyllthemes.io/) (free and paid)
 
 ### Functionality <a id="section7-2"></a>
 
-- [Jekyll plugins](http://jekyllrb.com/docs/plugins/) allow you to add small bits of code that add functionality to your site such as [full-text search](https://github.com/PascalW/jekyll_indextank), [emoji support](https://github.com/yihangho/emoji-for-jekyll), and [tag clouds](https://gist.github.com/ilkka/710577).
+- [Jekyll plugins](https://jekyllrb.com/docs/plugins/) allow you to add small bits of code that add functionality to your site such as [full-text search](https://github.com/PascalW/jekyll_indextank), [emoji support](https://github.com/yihangho/emoji-for-jekyll), and [tag clouds](https://gist.github.com/ilkka/710577).
 
   - If you want to host your site on GitHub Pages as we did in this lesson, you can only use the Jekyll plugins already included in the GitHub Pages gem we installed (here's [a full list of what you installed](https://pages.github.com/versions/) when adding the GitHub Pages gem to your Gemfile earlier).
 
-  - If you choose to host your Jekyll website elsewhere than GitHub Pages, you can use any Jekyll plugin (instructions to self-host vary by web host and won't be covered here, but [this](http://jekyllrb.com/docs/plugins/) is a page about how to install plugins once you've set up your self-hosted Jekyll site). You can search for "Jekyll plugin" plus the functionality you need to see if one is available, or check out the "Available plugins" section near the bottom of [this page](http://jekyllrb.com/docs/plugins/) for a list of plugins.
+  - If you choose to host your Jekyll website elsewhere than GitHub Pages, you can use any Jekyll plugin (instructions to self-host vary by web host and won't be covered here, but [this](https://jekyllrb.com/docs/plugins/) is a page about how to install plugins once you've set up your self-hosted Jekyll site). You can search for "Jekyll plugin" plus the functionality you need to see if one is available, or check out the "Available plugins" section near the bottom of [this page](https://jekyllrb.com/docs/plugins/) for a list of plugins.
 - You can keep GitHub Page's free hosting of your Jekyll website, but give the site a **custom domain name** (domain names are purchased for a reasonable yearly fee—usually around $10—from a "domain name registrar" such as [NearlyFreeSpeech.net](https://www.nearlyfreespeech.net/services/domains)). For example, the author's LiteratureGeek.com blog is built with Jekyll and hosted on GitHub Pages just like the site you built with this lesson, but it uses a custom domain name I purchased and configured to point to my site. Instructions on setting up a custom domain name can be found [here](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).
 
 <div class="alert alert-warning">
@@ -566,7 +566,7 @@ If you set up a custom domain with your GitHub Pages-hosted website, to avoid a 
 
 ### Help <a id="section9-1"></a>
 
-If you run into an issue, [Jekyll has a page on troubleshooting](https://jekyllrb.com/docs/troubleshooting/) that might help. If you're working on the command line and get an error message, don't forget to try searching for that specific error message online. Besides search engines, [the StackExchange site](http://stackexchange.com/) is a good place to find questions and answers from people who have run into the same problem as you in the past.
+If you run into an issue, [Jekyll has a page on troubleshooting](https://jekyllrb.com/docs/troubleshooting/) that might help. If you're working on the command line and get an error message, don't forget to try searching for that specific error message online. Besides search engines, [the StackExchange site](https://stackexchange.com/) is a good place to find questions and answers from people who have run into the same problem as you in the past.
 
 ### Credits <a id="section9-2"></a>
 
@@ -578,12 +578,12 @@ The Editorial Board would like to thank [spswanz](https://github.com/spswanz) fo
 
 Check out the following links for documentation, inspiration, and further reading about Jekyll:
 
-* [Official Jekyll Documentation](http://jekyllrb.com/docs/home/)
-* Jekyll "unofficially" links to two Windows + Jekyll resources: [http://jekyll-windows.juthilo.com/](http://jekyll-windows.juthilo.com/) and [https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/)
+* [Official Jekyll Documentation](https://jekyllrb.com/docs/home/)
+* Jekyll "unofficially" links to two Windows + Jekyll resources: [https://jekyll-windows.juthilo.com/](https://jekyll-windows.juthilo.com/) and [https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/)
 * [https://help.github.com/articles/using-jekyll-with-pages/](https://help.github.com/articles/using-jekyll-with-pages/)
-* Amanda Visconti, ["Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)"](http://literaturegeek.com/2015/12/08/WhyJekyllGitHub)
-* Alex Gil, ["How (and Why) to Generate a Static Website Using Jekyll, Part 1"](http://chronicle.com/blogs/profhacker/jekyll1/60913)
+* Amanda Visconti, ["Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)"](https://literaturegeek.com/2015/12/08/WhyJekyllGitHub)
+* Alex Gil, ["How (and Why) to Generate a Static Website Using Jekyll, Part 1"](https://chronicle.com/blogs/profhacker/jekyll1/60913)
 * Eduardo Bouças, ["An Introduction to Static Site Generators"](https://davidwalsh.name/introduction-static-site-generators)
-* [Jekyll Style Guide](http://ben.balter.com/jekyll-style-guide/)
-* The [Prose](http://prose.io/) content editor (built on Jekyll)
+* [Jekyll Style Guide](https://ben.balter.com/jekyll-style-guide/)
+* The [Prose](https://prose.io/) content editor (built on Jekyll)
 * [Join the Digital Humanities Slack](https://digitalhumanities.slack.com) (anyone can join, even if you have no DH experience) and check out the #publishing channel for discussions of Jekyll and other DH publishing platforms

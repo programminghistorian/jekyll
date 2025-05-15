@@ -22,7 +22,7 @@ and
 
 Going through a text file line by line and correcting OCR errors one at a time is hugely error-prone, as any proof reader will tell you. If you are dealing with a narrative, a monograph, a diary, or something like that, a great deal of that kind of proofing will be unavoidable; however, if what you have is an ordered collection of primary source documents, a legal code say, or a cartulary, you are far better served by creating an ordered data structure out of it __first__. You will wind up with data that is useful in a variety of contexts, even before your army of street urchins starts correcting specific OCR typos.
 
-This is where a scripting language like Python comes very much in handy. For our project we wanted to prepare some of the documents from a 12th century collection of *imbreviatura* from the Italian scribe known as [Giovanni Scriba](http://www.worldcat.org/oclc/17591390) so that they could be marked up by historians for subsequent NLP analysis or potentially for other purposes as well. The pages of the 1935 published edition look like this.
+This is where a scripting language like Python comes very much in handy. For our project we wanted to prepare some of the documents from a 12th century collection of *imbreviatura* from the Italian scribe known as [Giovanni Scriba](https://www.worldcat.org/oclc/17591390) so that they could be marked up by historians for subsequent NLP analysis or potentially for other purposes as well. The pages of the 1935 published edition look like this.
 
 ![GS page 110](gs_pg110.png)
 
@@ -89,7 +89,7 @@ You will note that some of this metadata is page-bound and some of it is charter
     IL CIRTOL.'RE DI G:OV.I\N( sca:FR	339
     342	NI .\ßlO CHIAUDANO 9LtTTIA MORESCO
 
-These strings are not regular enough to reliably find with regular expressions; however, if you know what the strings are supposed to look like, you can compose some kind of string similarity algorithm to test each string against an exemplar and measure the likelihood that it is a page header. Fortunately, I didn't have to compose such an algorithm, Vladimir Levenshtein did it for us in 1965 (see: <http://en.wikipedia.org/wiki/Levenshtein_distance>). A computer language can encode this algorithm in any number of ways, here's an effective Python function that will work for us:
+These strings are not regular enough to reliably find with regular expressions; however, if you know what the strings are supposed to look like, you can compose some kind of string similarity algorithm to test each string against an exemplar and measure the likelihood that it is a page header. Fortunately, I didn't have to compose such an algorithm, Vladimir Levenshtein did it for us in 1965 (see: <https://en.wikipedia.org/wiki/Levenshtein_distance>). A computer language can encode this algorithm in any number of ways, here's an effective Python function that will work for us:
 
 
 ```python
@@ -466,7 +466,7 @@ Print out our resulting dictionary using `pprint(charters)` and you'll see somet
 }
 ```
     
-Printing out your Python dictionary as a literal string is not a bad thing to do. For a text this size, the resulting file is perfectly manageable, can be mailed around usefully and read into a python repl session very simply using `eval()`, or pasted directly into a Python module file. On the other hand, if you want an even more reliable way to serialize it in an exclusively Python context, look into [`Pickle`](https://docs.python.org/2/library/pickle.html). If you need to move it to some other context, JavaScript for example, or some `RDF` triple stores, Python's [`json`](https://docs.python.org/2/library/json.html#module-json) module will translate effectively. If you have to get some kind of XML output, I will be very sorry for you, but the [`lxml`](http://lxml.de/) python module may ease the pain a little.
+Printing out your Python dictionary as a literal string is not a bad thing to do. For a text this size, the resulting file is perfectly manageable, can be mailed around usefully and read into a python repl session very simply using `eval()`, or pasted directly into a Python module file. On the other hand, if you want an even more reliable way to serialize it in an exclusively Python context, look into [`Pickle`](https://docs.python.org/2/library/pickle.html). If you need to move it to some other context, JavaScript for example, or some `RDF` triple stores, Python's [`json`](https://docs.python.org/2/library/json.html#module-json) module will translate effectively. If you have to get some kind of XML output, I will be very sorry for you, but the [`lxml`](https://lxml.de/) python module may ease the pain a little.
 
 ## Order from disorder, huzzah.
 Now that we have an ordered data structure, we can do many things with it. As a very simple example, lets just print it out as html for display on a web-site:
@@ -525,7 +525,7 @@ fout.write("""</body></html>""")
     
 Drop the resulting file on a web browser, and you've got a nicely formated electronic edition. Being able to do this with your, mostly uncorrected, OCR output is not a trivial advantage. If you're serious about creating a clean, error free, electronic edition of anything, you've got to do some serious proofreading. Having a source text formatted for reading is crucial; moreover, if your proofreader can change the font, spacing, color, layout, and so forth at will, you can increase their accuracy and productivity substantially. With this example in a modern web browser, tweaking those parameters with some simple css declarations is easy. Also, with some ordered HTML to work with, you might crowd-source the OCR error correction, instead of hiring that army of illiterate street urchins.
 
-Beyond this though, there's lots you can do with an ordered data set, including feeding it back through a markup tool like the [brat](http://brat.nlplab.org) as we did for the ChartEx project. Domain experts can then start adding layers of semantic tagging even if you don't do any further OCR error correction.
+Beyond this though, there's lots you can do with an ordered data set, including feeding it back through a markup tool like the [brat](https://brat.nlplab.org) as we did for the ChartEx project. Domain experts can then start adding layers of semantic tagging even if you don't do any further OCR error correction.
 
 The bits of code above are in no way a turn-key solution for cleaning arbitrary OCR output. There is no such magic wand. The Google approach to scanning the contents of research libraries threatens to drown us in an ocean of bad data. Worse, it elides a fundamental fact of digital scholarship: digital sources are hard to get. Reliable, flexible, and useful digital texts require careful redaction and persistent curation. Google, Amazon, Facebook, *et alia* do not have to concern themselves with the quality of their data, just its quantity. Historians, on the other hand, must care first for the integrity of their sources.
 

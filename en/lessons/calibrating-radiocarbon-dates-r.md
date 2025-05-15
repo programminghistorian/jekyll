@@ -159,7 +159,7 @@ By now it is clear that these details, if poorly understood, can quickly lead to
 
 ## Applications with R
 
-Many tools are now available to calibrate radiocarbon data, like [OxCal](https://c14.arch.ox.ac.uk/oxcal/), [CALIB](http://calib.org) and [ChronoModel](https://chronomodel.com). But these tools are rather intended to deal with [Bayesian](https://perma.cc/R247-RG8E) modeling problems of chronological sequences (which we don't cover in this lesson). R offers an interesting alternative to these tools which suits our needs. R is distributed under an open license, promotes reproducibility and lets you integrate the processing of radiocarbon date into larger projects (spatial analysis, etc.).
+Many tools are now available to calibrate radiocarbon data, like [OxCal](https://c14.arch.ox.ac.uk/oxcal/), [CALIB](https://calib.org) and [ChronoModel](https://chronomodel.com). But these tools are rather intended to deal with [Bayesian](https://perma.cc/R247-RG8E) modeling problems of chronological sequences (which we don't cover in this lesson). R offers an interesting alternative to these tools which suits our needs. R is distributed under an open license, promotes reproducibility and lets you integrate the processing of radiocarbon date into larger projects (spatial analysis, etc.).
 
 Several R packages are useful for calibrating radiocarbon dates: for example, packages like [Bchron](https://cran.r-project.org/package=Bchron) and [oxcAAR](https://cran.r-project.org/package=oxcAAR) are often oriented towards modeling (constructing chronologies, age-depth models, etc.). The package you will use in this lesson is called [rcarbon](https://cran.r-project.org/package=rcarbon).[^14] It allows you to easily calibrate and analyze radiocarbon ages.
 
@@ -524,7 +524,7 @@ In this lesson, you learned how to combine conventional dates and check for cons
 
 [^7]: See, for example, Calabrisotto, C. S., Amadio, M., Fedi, M. E., Liccioli, L. & Bombardieri, L. 2017. "Strategies for Sampling Difficult Archaeological Contexts and Improving the Quality of Radiocarbon Data: The Case of Erimi Laonin Tou Porakou, Cyprus." *Radiocarbon* 59 (6): 1919–30. <https://doi.org/10.1017/RDC.2017.92>.
 
-[^8]: Arnold, J. R., & W. F. Libby. 1949. "Age Determinations by Radiocarbon Content: Checks with Samples of Known Age". *Science* 110 (2869): 678‑80. <https://doi.org/10.1126/science.110.2869.678>; Libby, W. F. "Radiocarbon Dating". *Nobel Lecture*. Stockholm, 12 December 1960. [http://www.nobelprize.org/nobel_prizes/chemistry/laureates/1960/libby-lecture.html](https://perma.cc/HPU7-F8GD).
+[^8]: Arnold, J. R., & W. F. Libby. 1949. "Age Determinations by Radiocarbon Content: Checks with Samples of Known Age". *Science* 110 (2869): 678‑80. <https://doi.org/10.1126/science.110.2869.678>; Libby, W. F. "Radiocarbon Dating". *Nobel Lecture*. Stockholm, 12 December 1960. [https://www.nobelprize.org/nobel_prizes/chemistry/laureates/1960/libby-lecture.html](https://perma.cc/HPU7-F8GD).
 
 [^9]: There actually exists three series of calibration curves: IntCal for the northern hemisphere, SHCal for the southern hemisphere, and Marine for marine samples.
 

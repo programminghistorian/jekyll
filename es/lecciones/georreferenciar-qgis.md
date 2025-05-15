@@ -72,7 +72,7 @@ Este es el shapefile (archivo de entidades vectoriales) que contiene la capa de 
 
 - Navegua al siguiente enlace, acepta la licencia de uso y descargua 'lot\_township\_polygon'  (En algunas ocasiones te preguntarán tu nombre y correo electrónico antes de poder descargar el archivo).
 
-<http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP>
+<https://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP>
 
 - Después de descargar el archivo llamado 'lot \ _township \ _polygon', muévelo a una carpeta que puedas encontrar después y descomprime el archivo. (Recuerda mantener los archivos juntos ya que todos son necesarios para abrir esta capa en tu SIG)
 
@@ -206,16 +206,16 @@ En procesos más avanzados, puedes incluso cubrir esta imagen georreferenciada c
 *Este tutorial es parte de [Geospatial Historian][].*
 
   [Introducción a Google Maps y Google Earth]: /es/lecciones/intro-a-google-maps-y-google-earth
-  [rubber-sheeting]: http://en.wikipedia.org/wiki/Rubbersheeting
-  [National Topographic System Maps]: http://maps.library.utoronto.ca/datapub/digital/3400s_63_1929/maptile/Halifax/googlemaps.html
-  [1]: http://maps.library.utoronto.ca/datapub/PEI/NTS/west/
-  [2]: http://maps.library.utoronto.ca/datapub/PEI/NTS/east/
-  [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
+  [rubber-sheeting]: https://en.wikipedia.org/wiki/Rubbersheeting
+  [National Topographic System Maps]: https://maps.library.utoronto.ca/datapub/digital/3400s_63_1929/maptile/Halifax/googlemaps.html
+  [1]: https://maps.library.utoronto.ca/datapub/PEI/NTS/west/
+  [2]: https://maps.library.utoronto.ca/datapub/PEI/NTS/east/
+  [Coordinate Reference System]: https://en.wikipedia.org/wiki/Spatial_reference_system
   [Installing QGIS 2.0 and adding Layers]: /lessons/qgis-layers
-  [can be downloaded here]: http://geospatialhistorian.files.wordpress.com/2013/02/pei_lakemap1863.jpg
-  [Island Imagined]: https://web.archive.org/web/20180922004858/http://www.islandimagined.ca:80/fedora/repository/imagined:208687
-  [in Atlantic Canada]: http://books.google.ca/books?id=TqCNZYXWXAUC&dq=tilting&source=gbs_navlinks_s
-  [world file]: http://en.wikipedia.org/wiki/World_file
-  [Tif]: http://en.wikipedia.org/wiki/Tagged_Image_File_Format
+  [can be downloaded here]: https://geospatialhistorian.files.wordpress.com/2013/02/pei_lakemap1863.jpg
+  [Island Imagined]: https://web.archive.org/web/20180922004858/https://www.islandimagined.ca:80/fedora/repository/imagined:208687
+  [in Atlantic Canada]: https://books.google.ca/books?id=TqCNZYXWXAUC&dq=tilting&source=gbs_navlinks_s
+  [world file]: https://en.wikipedia.org/wiki/World_file
+  [Tif]: https://en.wikipedia.org/wiki/Tagged_Image_File_Format
   [Creating New Vector Layers in QGIS]: /lessons/vector-layers-qgis
-  [Geospatial Historian]: http://geospatialhistorian.wordpress.com/
+  [Geospatial Historian]: https://geospatialhistorian.wordpress.com/

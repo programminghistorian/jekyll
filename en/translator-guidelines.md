@@ -34,7 +34,7 @@ All of our lessons must also be written in Markdown and follow our technical for
 ## Submitting a Translated Lesson
 Once your translation file has been prepared to the above specifications, you are ready to submit it for peer review.
 
-We have a [Programming Historian project page at GitHub](https://github.com/programminghistorian), where we maintain two repositories (a repository is a place to store related files and folders–you can think of it as a kind of folder). One of these, called [jekyll](https://github.com/programminghistorian/jekyll), hosts the code for the live version of the site you see at http://programminghistorian.org. The other repository is called [ph-submissions](https://github.com/programminghistorian/ph-submissions).
+We have a [Programming Historian project page at GitHub](https://github.com/programminghistorian), where we maintain two repositories (a repository is a place to store related files and folders–you can think of it as a kind of folder). One of these, called [jekyll](https://github.com/programminghistorian/jekyll), hosts the code for the live version of the site you see at https://programminghistorian.org. The other repository is called [ph-submissions](https://github.com/programminghistorian/ph-submissions).
 
 Our preferred way for translators to submit a lesson is to add them directly to the [ph-submissions](https://github.com/programminghistorian/ph-submissions) repository (or repo, for short). Thanks to GitHub's features, you can do this using drag-and-drop uploading actions with which you are probably already familiar. As a new translator, here are the steps:
 

@@ -72,8 +72,8 @@ identify the beginning URL in the series of documents that you want to
 download. Because of its smaller size we're going to use the online war
 diary for [No. 14 Canadian General Hospital][] as our example. The
 entire war diary is 80 pages long. The URL for page 1 is
-<http://data2.archives.ca/e/e061/e001518029.jpg> and the URL for page
-80 is '<http://data2.archives.ca/e/e061/e001518109.jpg>. Note that
+<https://data2.archives.ca/e/e061/e001518029.jpg> and the URL for page
+80 is '<https://data2.archives.ca/e/e061/e001518109.jpg>. Note that
 they are in sequential order. We want to download the .jpeg images for
 *all* of the pages in the diary. To do this, we need to design a script
 to generate all of the URLs for the pages in between (and including) the
@@ -197,9 +197,9 @@ Mutineers, 1789" which provides an account of the mutiny aboard the HMS
 (pages) to the notebook. This is somewhat misleading. Click on the first
 thumbnail in the top right to view the whole page. Now, *right-click -\>
 view image*. The URL should be
-'<http://nla.gov.au/nla.ms-ms5393-1-s1-v.jpg>'. If you browse through
+'<https://nla.gov.au/nla.ms-ms5393-1-s1-v.jpg>'. If you browse through
 the thumbnails, the last one is 'Part 127', which is located at
-'<http://nla.gov.au/nla.ms-ms5393-1-s127-v.jpg>'. The discrepancy
+'<https://nla.gov.au/nla.ms-ms5393-1-s127-v.jpg>'. The discrepancy
 between the range of URLs and the total number of files means that you
 may miss a page or two in the automated download – in this case there
 are a few URLs that include a letter in the name of the .jpeg
@@ -258,7 +258,7 @@ complicate matters and do not permit us to easily generate URLs with the
 first script we used. Here's a workaround. Click on this
 link:
 
-<http://memory.loc.gov/master/mss/mtj/mtj1/001/0000/>
+<https://memory.loc.gov/master/mss/mtj/mtj1/001/0000/>
 
 The page you just opened is a sub-directory of the website that lists
 the .jpeg files for a selection of the Jefferson Papers. This means that
@@ -270,15 +270,15 @@ URLs you do not actually need to write a script (although you could
 using my final example, which discusses the problem of leading zeros).
 Instead, simply manipulate the URLs in a .txt file as follows:
 
-<http://memory.loc.gov/master/mss/mtj/mtj1/001/0000/>
+<https://memory.loc.gov/master/mss/mtj/mtj1/001/0000/>
 
-<http://memory.loc.gov/master/mss/mtj/mtj1/001/0100/>
+<https://memory.loc.gov/master/mss/mtj/mtj1/001/0100/>
 
-<http://memory.loc.gov/master/mss/mtj/mtj1/001/0200/>
+<https://memory.loc.gov/master/mss/mtj/mtj1/001/0200/>
 
 ... all the way up to
 
-<http://memory.loc.gov/master/mss/mtj/mtj1/001/1400>
+<https://memory.loc.gov/master/mss/mtj/mtj1/001/1400>
 
 This is the last sub-directory on the Library of Congress site for
 these dates in Series 1. This last URL contains images 1400-1487.
@@ -319,12 +319,12 @@ Archives example, to get the simplified URL you must *right-click -\>
 view image* using your web-browser. The URL for the first poster should
 be:
 
-<http://cushing.med.yale.edu/images/mdposter/full/poster0001.jpg>
+<https://cushing.med.yale.edu/images/mdposter/full/poster0001.jpg>
 
 Follow the same steps for the last poster in the gallery – the URL
 should be:
 
-<http://cushing.med.yale.edu/images/mdposter/full/poster0637.jpg>.
+<https://cushing.med.yale.edu/images/mdposter/full/poster0637.jpg>.
 
 The script we used to download from LAC will not work because the range
 function cannot comprehend leading zeros. The script below provides an
@@ -383,13 +383,13 @@ toolkit. As new methods for scraping online repositories become
 available, we will continue to update this lesson with additional
 examples of Wget's power and potential.
 
-  [ActiveHistory.ca]: http://www.activehistory.ca
-  [curl]: http://chronicle.com/blogs/profhacker/download-a-sequential-range-of-urls-with-curl/41055
+  [ActiveHistory.ca]: https://www.activehistory.ca
+  [curl]: https://chronicle.com/blogs/profhacker/download-a-sequential-range-of-urls-with-curl/41055
   [Indian Affairs Annual Reports database]: https://recherche-collection-search.bac-lac.gc.ca/eng/Home/Search?q=%20Indian%20Affairs%20Annual%20Reports%20database
   [View a scanned page of original Report]: https://recherche-collection-search.bac-lac.gc.ca/eng/home/record?app=fonandcol&IdNumber=2061374&q=Indian%20Affairs%20Annual%20Reports
   [No. 14 Canadian General Hospital]: https://recherche-collection-search.bac-lac.gc.ca/eng/Home/Record?app=fonandcol&IdNumber=2005110&new=-8585971893141232328
-  [http://data2.archives.ca/e/e061/e001518109.jpg]: http://data2.archives.ca/e/e061/e001518029.jpg
-  [leading zeros]: http://en.wikipedia.org/wiki/Leading_zero
-  [On the viewer page]: http://www.nla.gov.au/apps/cdview/?pi=nla.ms-ms5393-1
-  [Series 1: General Correspondence. 1651-1827]: http://memory.loc.gov/cgi-bin/ampage?collId=mtj1&fileName=mtj1page001.db&recNum=1&itemLink=/ammem/collections/jefferson_papers/mtjser1.html&linkText=6
-  [Historical Medical Poster Collection]: http://cushing.med.yale.edu/gsdl/collect/mdposter/
+  [https://data2.archives.ca/e/e061/e001518109.jpg]: https://data2.archives.ca/e/e061/e001518029.jpg
+  [leading zeros]: https://en.wikipedia.org/wiki/Leading_zero
+  [On the viewer page]: https://www.nla.gov.au/apps/cdview/?pi=nla.ms-ms5393-1
+  [Series 1: General Correspondence. 1651-1827]: https://memory.loc.gov/cgi-bin/ampage?collId=mtj1&fileName=mtj1page001.db&recNum=1&itemLink=/ammem/collections/jefferson_papers/mtjser1.html&linkText=6
+  [Historical Medical Poster Collection]: https://cushing.med.yale.edu/gsdl/collect/mdposter/

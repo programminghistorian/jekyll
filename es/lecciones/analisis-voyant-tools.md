@@ -30,9 +30,9 @@ En este tutorial se aprenderá cómo organizar un conjunto de textos para la inv
 
 ## Análisis de corpus
 
-El análisis de corpus es un tipo de [análisis de contenido](http://vocabularios.caicyt.gov.ar/portalthes/42/term/26) que permite hacer comparaciones a gran escala sobre un conjunto de textos o corpus.
+El análisis de corpus es un tipo de [análisis de contenido](https://vocabularios.caicyt.gov.ar/portalthes/42/term/26) que permite hacer comparaciones a gran escala sobre un conjunto de textos o corpus.
 
-Desde el inicio de la informática, tanto lingüistas computacionales como especialistas de la [recuperación de la información](http://vocabularios.caicyt.gov.ar/portalthes/42/term/178) han creado y utilizado software para apreciar patrones que no son evidentes en una lectura tradicional o bien para corroborar hipótesis que intuían al leer ciertos textos pero que requerían de trabajos laboriosos, costosos y mecánicos. Por ejemplo, para obtener los patrones de uso y decaimiento de ciertos términos en una época dada era necesario contratar a personas que revisaran manualmente un texto y anotaran cuántas veces aparecía el término buscado. Muy pronto, al observar las capacidades de "contar" que tenían las computadoras, estos especialistas no tardaron en escribir programas que facilitaran la tarea de crear listas de frecuencias o tablas de concordancia (es decir, tablas con los contextos izquierdos y derechos de un término). El programa que aprenderás a usar en este tutorial, se inscribe en este contexto.
+Desde el inicio de la informática, tanto lingüistas computacionales como especialistas de la [recuperación de la información](https://vocabularios.caicyt.gov.ar/portalthes/42/term/178) han creado y utilizado software para apreciar patrones que no son evidentes en una lectura tradicional o bien para corroborar hipótesis que intuían al leer ciertos textos pero que requerían de trabajos laboriosos, costosos y mecánicos. Por ejemplo, para obtener los patrones de uso y decaimiento de ciertos términos en una época dada era necesario contratar a personas que revisaran manualmente un texto y anotaran cuántas veces aparecía el término buscado. Muy pronto, al observar las capacidades de "contar" que tenían las computadoras, estos especialistas no tardaron en escribir programas que facilitaran la tarea de crear listas de frecuencias o tablas de concordancia (es decir, tablas con los contextos izquierdos y derechos de un término). El programa que aprenderás a usar en este tutorial, se inscribe en este contexto.
 
 ## Qué aprenderás en este tutorial
 
@@ -63,7 +63,7 @@ Lo primero que debes hacer es buscar la información que te interesa. Para este 
 
 ### 2. Copiar en editor de texto plano
 Una vez localizada la información, el segundo paso es copiar el texto que te interesa desde la primera palabra dicha hasta la última y guardarla en un editor de texto sin formato. Por ejemplo:
-* en Windows podría guardarse en [Bloc de Notas](https://web.archive.org/web/20091013225307/http://windows.microsoft.com/en-us/windows-vista/Notepad-frequently-asked-questions)
+* en Windows podría guardarse en [Bloc de Notas](https://web.archive.org/web/20091013225307/https://windows.microsoft.com/en-us/windows-vista/Notepad-frequently-asked-questions)
 * en Mac, en [TextEdit](https://support.apple.com/es-mx/guide/textedit/welcome/mac);
 * y en Linux, en [Gedit](https://wiki.gnome.org/Apps/Gedit).
 
@@ -407,9 +407,9 @@ Hockey, Susan. 2004 “The History of Humanities Computing”. _A Companion to D
 
 Peña, Gilberto Anguiano, y Catalina Naumis Peña. 2015. «Extracción de candidatos a términos de un corpus de la lengua general». _Investigación Bibliotecológica: Archivonomía, Bibliotecología e Información_ 29 (67): 19-45. [https://doi.org/10.1016/j.ibbai.2016.02.035](https://doi.org/10.1016/j.ibbai.2016.02.035).
 
-Sinclair, Stéfan and Geoffrey Rockwell, 2016.  _Voyant Tools_. Web. [http://voyant-tools.org/](http://voyant-tools.org/).
+Sinclair, Stéfan and Geoffrey Rockwell, 2016.  _Voyant Tools_. Web. [https://voyant-tools.org/](https://voyant-tools.org/).
 
-Terras, Melissa, 2013. "For Ada Lovelace Day – Father Busa’s Female Punch Card Operatives". _Melissa Terras' Blog_. Web. [http://melissaterras.blogspot.com/2013/10/for-ada-lovelace-day-father-busas.html](http://melissaterras.blogspot.com/2013/10/for-ada-lovelace-day-father-busas.html).
+Terras, Melissa, 2013. "For Ada Lovelace Day – Father Busa’s Female Punch Card Operatives". _Melissa Terras' Blog_. Web. [https://melissaterras.blogspot.com/2013/10/for-ada-lovelace-day-father-busas.html](https://melissaterras.blogspot.com/2013/10/for-ada-lovelace-day-father-busas.html).
 
 <div class="alert alert-warning">
 Este tutorial fue escrito gracias al apoyo de la Academia Británica y preparado durante el Taller de escritura de The Programming Historian en la Universidad de los Andes en Bogotá, Colombia, el del 31 de julio al 3 de agosto de 2018.

@@ -61,7 +61,7 @@ With more data, CA can uncover more subtle distinctions among groups within a pa
 
 ## Canadian Parliamentary Committees
 
-In the Canadian Parliamentary system, citizens elect representatives called Members of Parliament, or MPs, to the House of Commons. MPs are responsible for voting on and proposing changes to legislation in Canada. [Parliamentary Committees (CPCs)](http://www.ourcommons.ca/Committees/en/Home) consist of MPs who inform the House about important details of policy in a topic area. Examples of such committees include the CPCs on Finance, Justice and Health.
+In the Canadian Parliamentary system, citizens elect representatives called Members of Parliament, or MPs, to the House of Commons. MPs are responsible for voting on and proposing changes to legislation in Canada. [Parliamentary Committees (CPCs)](https://www.ourcommons.ca/Committees/en/Home) consist of MPs who inform the House about important details of policy in a topic area. Examples of such committees include the CPCs on Finance, Justice and Health.
 
 We will use abbreviations for the parliamentary committees because the names can get long, making them hard to read on a plot. You can use this table as a reference guide for the abbreviations and their respective committee names:
 
@@ -91,7 +91,7 @@ As a historian, I suspect that MPs are organized according to committee topics d
 
 ## Setting Up R for CA
 
-To do a CA, we will need a library that will do linear algebra for us. For the more mathematics inclined, there is an appendix with some of the details about how this is done. In R, there are a number of options for CA, but we will use the [FactoMineR library](http://factominer.free.fr/)[^factominer] a library focussed on "multivariate exploratory data analysis." FactoMineR can be used to conduct all kinds of different multivariate analysis including hierarchical clusters, factor analysis and so on.
+To do a CA, we will need a library that will do linear algebra for us. For the more mathematics inclined, there is an appendix with some of the details about how this is done. In R, there are a number of options for CA, but we will use the [FactoMineR library](https://factominer.free.fr/)[^factominer] a library focussed on "multivariate exploratory data analysis." FactoMineR can be used to conduct all kinds of different multivariate analysis including hierarchical clusters, factor analysis and so on.
 
 But first, here is how to install and call the libraries, then pop them into an R object for wrangling.
 
@@ -348,7 +348,7 @@ We also learned how to interpret a CA and how to detect potential analytical pit
 
 In general, the benefit of this analysis is to provide a quick overview of two-category dataset as a pathfinder to more substantive historical issues. The use of members and meetings or events in all areas of life (business, not-for-profit, municipal meetings, twitter hashtags etc.) is a common approach to such analysis. Social groups and their preferences is another common use for CA. In each case, the visualisation offers a map with which to observe a snapshot of social, cultural and political life.
 
-Next steps may include adding further categorical dimensions to our analysis, such as incorporating political party, age or gender. When you do CA with more than two categories, it is called [Multiple Correspondence Analysis or MCA](http://www.sthda.com/english/wiki/multiple-correspondence-analysis-essentials-interpretation-and-application-to-investigate-the-associations-between-categories-of-multiple-qualitative-variables-r-software-and-data-mining). While the Mathematics for MCA is more complicated, the end results are quite similar to CA.
+Next steps may include adding further categorical dimensions to our analysis, such as incorporating political party, age or gender. When you do CA with more than two categories, it is called [Multiple Correspondence Analysis or MCA](https://www.sthda.com/english/wiki/multiple-correspondence-analysis-essentials-interpretation-and-application-to-investigate-the-associations-between-categories-of-multiple-qualitative-variables-r-software-and-data-mining). While the Mathematics for MCA is more complicated, the end results are quite similar to CA.
 
 Hopefully, you can now apply these methods to your own data, helping you to uncover questions and hypotheses that enrich your historical research. Good luck!
 
@@ -398,7 +398,7 @@ JUST    0.408    0.000    0.000
 
 The normalisation process does something interesting. Those who are members of multiple committees and/or who belong to committees with many members will tend to have normalisation scores that are lower, suggesting that they are more central to the network. These members will be put closer to the centre of the matrix. For example, the cell belonging to S Ambler and IWFA has the lowest score of 0.192 because S Ambler is a member of three committees and the IWFA committee has nine members in the graph represented.
 
-The next stage is to find the singular value decomposition of this normalised data. This involves fairly complex linear algebra that will not be covered here, but you can learn more from [these Singular Value Decomposition lecture notes](https://math.mit.edu/classes/18.095/2016IAP/lec2/SVD_Notes.pdf) or in more detail from [this pdf file on SVD](http://davetang.org/file/Singular_Value_Decomposition_Tutorial.pdf). I will try to summarize what happens in lay terms.
+The next stage is to find the singular value decomposition of this normalised data. This involves fairly complex linear algebra that will not be covered here, but you can learn more from [these Singular Value Decomposition lecture notes](https://math.mit.edu/classes/18.095/2016IAP/lec2/SVD_Notes.pdf) or in more detail from [this pdf file on SVD](https://davetang.org/file/Singular_Value_Decomposition_Tutorial.pdf). I will try to summarize what happens in lay terms.
 
 * Two new matrices are created that show "dimension" scores for the rows (committees) and the columns (MPs) based on eigenvectors.
 * The number of dimensions is equal to the size of the columns or rows minus 1, which ever is smaller. In this case, there are five committees compared to the MPs eleven, so the number of dimensions is 4.
@@ -464,7 +464,7 @@ Another important score is visible on the CA graph - the percentage of explanato
 
 [^inertia]: In general, inertia in statistics refers to the variation or "spread" of a dataset. It is analogous to standard deviation in distribution data.
 
-[^pickton]: See Laura Kane (April 3, 2017), "Missing and murdered women's inquiry not reaching out to families, say advocates." *CBC News Indigenous*. <http://www.cbc.ca/news/indigenous/mmiw-inquiry-not-reaching-out-to-families-says-advocates-1.4053694>
+[^pickton]: See Laura Kane (April 3, 2017), "Missing and murdered women's inquiry not reaching out to families, say advocates." *CBC News Indigenous*. <https://www.cbc.ca/news/indigenous/mmiw-inquiry-not-reaching-out-to-families-says-advocates-1.4053694>
 
 [^pvalue]: In statistics, a p-value, short for _probability value_, is an indicator of how likely an outcome would have occurred under random circumstances. A low p-value would suggest a low probability that the result would have occurred at random and thus provides some evidence that a null hypothesis (in this case, that the MPs and CPCs are independent categories) is unlikely.
 

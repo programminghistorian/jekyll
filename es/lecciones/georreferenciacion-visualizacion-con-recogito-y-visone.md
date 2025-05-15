@@ -155,7 +155,7 @@ Visone permite generar y visualizar diferentes tipos de redes. Las redes son est
 
 ### Descarga e instala Visone
 
-A diferencia de Recogito, necesitaremos instalar [Visone](http://visone.ethz.ch/html/download.html). La versión de descarga recomendada para todos los sistemas operativos es **visone-2.26.jar**. 
+A diferencia de Recogito, necesitaremos instalar [Visone](https://visone.ethz.ch/html/download.html). La versión de descarga recomendada para todos los sistemas operativos es **visone-2.26.jar**. 
 
 <div class="alert alert-info">
 Antes de inciar la instalación de Visone, debemos asegurarnos de tener instalado en nuestra computadora Java 8 o posterior. Si no tienes Java instalado en tu computadora puedes descargarlo <a href="https://www.java.com/en/download/">aquí</a>.
@@ -255,7 +255,7 @@ Hay muchos tutoriales adicionales disponibles para Recogito y Visone. Te recomen
 
 - El sitio oficial de Visone tiene [varios tutoriales en inglés](https://visone.info/wiki/index.php/Tutorials#Basic_tutorials) sobre las diferentes aplicaciones de esta herramienta. 
 
-- El tutorial de Recogito de Gimena del Río y Valeria Vitale, [Recogito-in-a-Box: From Annotation to Digital Edition](http://dx.doi.org/10.3828/mlo.v0i0.299) (en inglés).
+- El tutorial de Recogito de Gimena del Río y Valeria Vitale, [Recogito-in-a-Box: From Annotation to Digital Edition](https://dx.doi.org/10.3828/mlo.v0i0.299) (en inglés).
 
 ### Nota 
 

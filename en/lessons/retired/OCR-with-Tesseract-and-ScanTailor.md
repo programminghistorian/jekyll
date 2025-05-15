@@ -64,7 +64,7 @@ I use Zotero for keeping track of the metadata of my sources, and here is an exa
 
 So, now that we have the text as an image, we will move on to image preprocessing.
 
-For image preprocessing I use a free and open source program called *Scan Tailor*. You can download Scan Tailor [here] (http://scantailor.org/downloads/).
+For image preprocessing I use a free and open source program called *Scan Tailor*. You can download Scan Tailor [here] (https://scantailor.org/downloads/).
 
 When you have downloaded Scan Tailor, open the text scans in the program by clicking "New project", browsing and selecting the file where you saved your text scans, and finally selecting the images you want to preprocess. Scan Tailor is a relatively heavy program, which means that it reserves quite a lot of the computer's capacity. For that reason it is better to divide large files into smaller entities, and preprocess them in parts. When starting a new project you can choose which images you want to select for preprocessing. When you have selected the scans for preprocessing, click "OK".
 
@@ -113,7 +113,7 @@ Save the preprocessed images to a place where it is easy to access them by using
 OK, let's move on! For OCR we will use a free and open source program called Tesseract.
 
 You can install Tesseract [here](https://code.google.com/p/tesseract-ocr/wiki/ReadMe).
-If you are going to OCR other languages than English, you will also need to install the [language package](https://code.google.com/p/tesseract-ocr/downloads/list) for that language, and unpack it by using [7-zip](http://www.7-zip.org/).
+If you are going to OCR other languages than English, you will also need to install the [language package](https://code.google.com/p/tesseract-ocr/downloads/list) for that language, and unpack it by using [7-zip](https://www.7-zip.org/).
 
 Now that we have Tesseract, we can proceed to doing the actual OCR!
 

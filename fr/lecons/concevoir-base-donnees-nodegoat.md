@@ -282,6 +282,6 @@ Pour approfondir votre utilisation de nodegoat et explorer tout son potentiel, n
 
 [^6]: Voir cette notice de Wikipédia pour plus d’éléments sur la notion de « cardinalité » : « Modèle relationnel », [https://fr.wikipedia.org/wiki/Mod%C3%A8le_relationnel#Relation_1:N](https://perma.cc/KSA4-Y4WL). Voir aussi Gardarin, ouvrage cité, 412-413.
 
-[^7]: Bree, P. van, Kessels, G., (2013). nodegoat: a web-based data management, network analysis & visualisation environment, http://nodegoat.net from [LAB1100](https://perma.cc/LAT9-M6UW) 
+[^7]: Bree, P. van, Kessels, G., (2013). nodegoat: a web-based data management, network analysis & visualisation environment, https://nodegoat.net from [LAB1100](https://perma.cc/LAT9-M6UW) 
 
 [^8]: Les créateurs de nodegoat décrivent l’approche relationnelle du logiciel comme « orienté-objet ». Ce concept étant le plus souvent utilisé pour décrire un paradigme de programmation informatique, nous préférons éviter l’emploi de ce terme afin d’éviter des confusions.

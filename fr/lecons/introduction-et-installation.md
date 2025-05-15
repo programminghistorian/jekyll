@@ -42,7 +42,7 @@ Dans cette leçon d'introduction, vous allez installer le [langage de programmat
 
 Le langage de programmation Python
 -------------------------------
-Dans le cadre de cette série de leçons, nous utiliserons Python, un langage de programmation gratuit et à code ouvert. À moins d'indications contraires, nous utiliserons la **version 3** de Python, la version 2 n'étant plus soutenue. Il se pourrait cependant que vous rencontriez du code Python 2 dans des projets ou des tutoriels plus anciens. [Python 3 présente des différences avec ses prédécesseurs](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html) - à titre de comparaison, imaginez une langue dont les règles de grammaire évoluent avec le temps. Méfiez-vous donc d'exemples que vous pourriez trouver en ligne utilisant Python 2, car il est possible qu'ils ne fonctionnent pas en Python 3.
+Dans le cadre de cette série de leçons, nous utiliserons Python, un langage de programmation gratuit et à code ouvert. À moins d'indications contraires, nous utiliserons la **version 3** de Python, la version 2 n'étant plus soutenue. Il se pourrait cependant que vous rencontriez du code Python 2 dans des projets ou des tutoriels plus anciens. [Python 3 présente des différences avec ses prédécesseurs](https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html) - à titre de comparaison, imaginez une langue dont les règles de grammaire évoluent avec le temps. Méfiez-vous donc d'exemples que vous pourriez trouver en ligne utilisant Python 2, car il est possible qu'ils ne fonctionnent pas en Python 3.
 
 Sauvegardez votre travail!
 -----------------
@@ -60,11 +60,11 @@ Pour utiliser les techniques présentées ici, vous devrez d'abord télécharger
 -   [Installation de Python pour Windows](/fr/lecons/installation-windows-py)
 -   [Installation de Python pour Linux](/en/lessons/linux-installation)
 
-  [langage de programmation Python]: http://www.python.org/
-  [l'analyseur HTML / XML Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/
-  [Komodo Edit]: http://www.activestate.com/komodo-edit
-  [éditeurs compatibles avec Python]: http://wiki.python.org/moin/PythonEditors/
-  [Zotero]: http://www.zotero.org/
+  [langage de programmation Python]: https://www.python.org/
+  [l'analyseur HTML / XML Beautiful Soup]: https://www.crummy.com/software/BeautifulSoup/
+  [Komodo Edit]: https://www.activestate.com/komodo-edit
+  [éditeurs compatibles avec Python]: https://wiki.python.org/moin/PythonEditors/
+  [Zotero]: https://www.zotero.org/
   [Jungle Disk]: https://www.jungledisk.com/
   [Dropbox]: https://www.dropbox.com/
   [Affichage des fichiers HTML]: /lessons/viewing-html-files

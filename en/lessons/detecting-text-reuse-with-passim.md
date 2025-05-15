@@ -40,7 +40,7 @@ The following list includes just some of the libraries available that perform au
 - [Basic Local Alignment Search Tool (BLAST)](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
 - [Tesserae](https://github.com/tesserae/tesserae) (PHP, Perl)
 - [TextPAIR (Pairwise Alignment for Intertextual Relations)](https://github.com/ARTFL-Project/text-pair)
-- [Passim](https://github.com/dasmiq/passim) (Scala) developed by [David Smith](http://www.ccs.neu.edu/home/dasmith/
+- [Passim](https://github.com/dasmiq/passim) (Scala) developed by [David Smith](https://www.ccs.neu.edu/home/dasmith/
   ) (Northeastern University)
 
 For this tutorial we chose the Passim library for three main reasons. Firstly, it can be adapted to a variety of use cases as it works well on a small text collection as well as on a large-scale corpus. Secondly, while the documentation for Passim is extensive, because of its relatively advanced user audience, a more user-centered step-by-step tutorial about detecting text reuse with Passim would be beneficial to the user community. Lastly, the following examples illustrate the variety of scenarios in which text reuse is a useful methodology:
@@ -204,7 +204,7 @@ export PATH="/home/simon/Passim/bin:$PATH"
 
 ### Installing Spark
 
-1. Navigate to the [download section](http://spark.apache.org/downloads) of the Spark website and select Spark release version '3.x.x' (where '*x*' means any version that starts with '3.'), and package type 'Pre-built for Apache Hadoop 2.7' from the dropdown menus.
+1. Navigate to the [download section](https://spark.apache.org/downloads) of the Spark website and select Spark release version '3.x.x' (where '*x*' means any version that starts with '3.'), and package type 'Pre-built for Apache Hadoop 2.7' from the dropdown menus.
 
 2. Extract the compressed binaries to a directory of your choice (e.g. `/Applications`):
 ```bash
@@ -402,7 +402,7 @@ Ultimately, what constitutes a document, and how these documents should be divid
 
 ## Basic JSON format
 
-The input format for Passim consists of JSON documents in the [JSON lines format](http://jsonlines.org/) (i.e. each line of text contains a single JSON document).
+The input format for Passim consists of JSON documents in the [JSON lines format](https://jsonlines.org/) (i.e. each line of text contains a single JSON document).
 
 The following file content for a file named `test.json` illustrates a minimal example of the input format for Passim: 
 
@@ -707,7 +707,7 @@ You are now ready to go forward with your first text reuse project.
 
 For now, do not worry about the additional arguments `SPARK_SUBMIT_ARGS='--master local[12] --driver-memory 8G --executor-memory 4G'`; in the section ["Case Study 2"](#case-study-2:-text-reuse-in-a-large-corpus-of-historical-newspapers) we will explain them in detail.
 
-This test case takes approximatively eight minutes on a recent laptop with eight threads. You can also follow the progress of the detection at http://localhost:4040 — an interactive dashboard created by Spark (Note: the dashboard will shut down as soon as Passim has finished running).
+This test case takes approximatively eight minutes on a recent laptop with eight threads. You can also follow the progress of the detection at https://localhost:4040 — an interactive dashboard created by Spark (Note: the dashboard will shut down as soon as Passim has finished running).
 
 ## Case study 2: Text Reuse in a large corpus of historical newspapers
 
@@ -895,15 +895,15 @@ MR gratefully acknowledges the financial support of the Swiss National Science F
 
 # Bibliography
 
-1. Greta Franzini, Maria Moritz, Marco Büchler, Marco Passarotti. Using and evaluating TRACER for an Index fontium computatus of the Summa contra Gentiles of Thomas Aquinas. In *Proceedings of the Fifth Italian Conference on Computational Linguistics (CLiC-it 2018)*. (2018). [Link](http://ceur-ws.org/Vol-2253/paper22.pdf)
-2. David A. Smith, Ryan Cordell, Abby Mullen. Computational Methods for Uncovering Reprinted Texts in Antebellum Newspapers. *American Literary History* **27**, E1–E15 Oxford University Press, 2015. [Link](http://dx.doi.org/10.1093/alh/ajv029)
-3. Ryan Cordell. Reprinting Circulation, and the Network Author in Antebellum Newspapers. *American Literary History* **27**, 417–445 Oxford University Press (OUP), 2015. [Link](http://dx.doi.org/10.1093/alh/ajv028)
-4. Daniel Vogler, Linards Udris, Mark Eisenegger. Measuring Media Content Concentration at a Large Scale Using Automated Text Comparisons. *Journalism Studies* **0**, 1–20 Taylor & Francis, 2020. [Link](http://dx.doi.org/10.1080/1461670x.2020.1761865)
+1. Greta Franzini, Maria Moritz, Marco Büchler, Marco Passarotti. Using and evaluating TRACER for an Index fontium computatus of the Summa contra Gentiles of Thomas Aquinas. In *Proceedings of the Fifth Italian Conference on Computational Linguistics (CLiC-it 2018)*. (2018). [Link](https://ceur-ws.org/Vol-2253/paper22.pdf)
+2. David A. Smith, Ryan Cordell, Abby Mullen. Computational Methods for Uncovering Reprinted Texts in Antebellum Newspapers. *American Literary History* **27**, E1–E15 Oxford University Press, 2015. [Link](https://dx.doi.org/10.1093/alh/ajv029)
+3. Ryan Cordell. Reprinting Circulation, and the Network Author in Antebellum Newspapers. *American Literary History* **27**, 417–445 Oxford University Press (OUP), 2015. [Link](https://dx.doi.org/10.1093/alh/ajv028)
+4. Daniel Vogler, Linards Udris, Mark Eisenegger. Measuring Media Content Concentration at a Large Scale Using Automated Text Comparisons. *Journalism Studies* **0**, 1–20 Taylor & Francis, 2020. [Link](https://dx.doi.org/10.1080/1461670x.2020.1761865)
 5. Lincoln Mullen. textreuse: Detect Text Reuse and Document Similarity. (2016). [Link](https://github.com/ropensci/textreuse)
-6. Marco Büchler, Philip R. Burns, Martin Müller, Emily Franzini, Greta Franzini. Towards a Historical Text Re-use Detection. 221–238 In *Text Mining: From Ontology Learning to Automated Text Processing Applications*. Springer International Publishing, 2014. [Link](http://dx.doi.org/10.1007/978-3-319-12655-5_11)
-7. Paul Vierthaler, Meet Gelein. A BLAST-based, Language-agnostic Text Reuse Algorithm with a MARKUS Implementation and Sequence Alignment Optimized for Large Chinese Corpora. *Journal of Cultural Analytics* (2019). [Link](http://dx.doi.org/10.22148/16.034)
+6. Marco Büchler, Philip R. Burns, Martin Müller, Emily Franzini, Greta Franzini. Towards a Historical Text Re-use Detection. 221–238 In *Text Mining: From Ontology Learning to Automated Text Processing Applications*. Springer International Publishing, 2014. [Link](https://dx.doi.org/10.1007/978-3-319-12655-5_11)
+7. Paul Vierthaler, Meet Gelein. A BLAST-based, Language-agnostic Text Reuse Algorithm with a MARKUS Implementation and Sequence Alignment Optimized for Large Chinese Corpora. *Journal of Cultural Analytics* (2019). [Link](https://dx.doi.org/10.22148/16.034)
 8. Aleksi Vesanto, Asko Nivala, Heli Rantala, Tapio Salakoski, Hannu Salmi, Filip Ginter. Applying BLAST to Text Reuse Detection in Finnish Newspapers and Journals, 1771-1910. 54–58 In *Proceedings of the NoDaLiDa 2017 Workshop on Processing Historical Language*. Linköping University Electronic Press, 2017. [Link](https://aclanthology.org/W17-0510.pdf)
 9. Hannu Salmi, Heli Rantala, Aleksi Vesanto, Filip Ginter. The long-term reuse of text in the Finnish press, 1771–1920. **2364**, 394–544 In *CEUR Workshop Proceedings*. (2019).
-10. Axel J Soto, Abidalrahman Mohammad, Andrew Albert, Aminul Islam, Evangelos Milios, Michael Doyle, Rosane Minghim, Maria Cristina de Oliveira. Similarity-Based Support for Text Reuse in Technical Writing. 97–106 In *Proceedings of the 2015 ACM Symposium on Document Engineering*. ACM, 2015. [Link](http://dx.doi.org/10.1145/2682571.2797068)
+10. Axel J Soto, Abidalrahman Mohammad, Andrew Albert, Aminul Islam, Evangelos Milios, Michael Doyle, Rosane Minghim, Maria Cristina de Oliveira. Similarity-Based Support for Text Reuse in Technical Writing. 97–106 In *Proceedings of the 2015 ACM Symposium on Document Engineering*. ACM, 2015. [Link](https://dx.doi.org/10.1145/2682571.2797068)
 11. Alexandra Schofield, Laure Thompson, David Mimno. Quantifying the Effects of Text Duplication on Semantic Models. 2737–2747 In *Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*. Association for Computational Linguistics, 2017. [Link](https://doi.org/10.18653/v1/D17-1290)
 12. Matteo Romanello, Aurélien Berra, Alexandra Trachsel. Rethinking Text Reuse as Digital Classicists. *Digital Humanities conference*, 2014. [Link](https://wiki.digitalclassicist.org/Text_Reuse)

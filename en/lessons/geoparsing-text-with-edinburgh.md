@@ -33,7 +33,7 @@ The Geoparser works best on running text, as it considers locations in context f
 
 In December 2015, the Edinburgh Geoparser was released under the University of Edinburgh’s GPL license to be used by other researchers in the field of text mining and natural language processing as well as scholars who are interested in geoparsing text. More information on its documentation, publications using it and how to download it can be found [here](https://www.ltg.ed.ac.uk/software/geoparser/).
 
-A simple online demo of the vanilla Edinburgh Geoparser can be tried out [here](http://jekyll.inf.ed.ac.uk/geoparser.html). It provides only the visual interface to the Geoparser output after uploading a text file and selecting a gazetteer.  The demo is otherwise not configurable and should only be used to try out small examples and not for geo-parsing a large number of files.
+A simple online demo of the vanilla Edinburgh Geoparser can be tried out [here](https://jekyll.inf.ed.ac.uk/geoparser.html). It provides only the visual interface to the Geoparser output after uploading a text file and selecting a gazetteer.  The demo is otherwise not configurable and should only be used to try out small examples and not for geo-parsing a large number of files.
 
 The following lesson explains how the Edinburgh Geoparser works under the hood and contains information on:
 
@@ -151,11 +151,11 @@ It takes the stdout from the first command and runs the Geoparser with the follo
 
   * `-t` specifies the format of your input.  Text input (`plain`) is recommended for geo-parsing.
 
-  * `-g` specifies the gazetteer that should be queried.  In the above example, the gazetteer selected is [GeoNames](http://www.geonames.org/) (`geonames`), a large global gazetteer.  You can also specify other gazetteers, for example the DEEP gazetteer of historical placenames in England (`deep`) or the Pleiades+ gazetteer of ancient places (`plplus`).  For more information on the types of gazetteers offered as part of the distribution see the Geoparser documentation [here](http://groups.inf.ed.ac.uk/geoparser/documentation/v1.3/html/gaz.html).
+  * `-g` specifies the gazetteer that should be queried.  In the above example, the gazetteer selected is [GeoNames](https://www.geonames.org/) (`geonames`), a large global gazetteer.  You can also specify other gazetteers, for example the DEEP gazetteer of historical placenames in England (`deep`) or the Pleiades+ gazetteer of ancient places (`plplus`).  For more information on the types of gazetteers offered as part of the distribution see the Geoparser documentation [here](https://groups.inf.ed.ac.uk/geoparser/documentation/v1.3/html/gaz.html).
 
   * `-o` specifies two pieces of information, the output directory (`../out`) which is located within the `geoparser-1.3` directory and a prefix for the output file name (in this case `172172`, the same prefix as that of the input file name). Once the command is run and the Geoparser is finished, the result files appear in the output directory (`../out`) starting with the specified prefix.
 
-When running the Geoparser, the specified text file is going through a series of processing steps which are combined into one pipeline.  It is first [tokenised](https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization_), [part-of-speech-tagged](https://en.wikipedia.org/wiki/Part-of-speech_tagging) and [lemmatised](https://en.wikipedia.org/wiki/Lemmatisation). After these initial steps, [named entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition) is performed to identify location and person names as well as dates.  It was  found that identifying location and person names in parallel helps to distinguish some ambiguous cases (like the string "Lewis" which could refer to a first name or the Scottish island) and where their context helps to distinguish between them.  The extracted locations are then resolved to latitude/longitude coordinate pairs.  The text is then further processed by identifying syntactic phrases (chunking) and temporal relations.  The latter two steps are not very relevant to this lesson and will therefore not be explained in detail.  Finally, visualisations are created to be able to inspect the file and the Geoparser output using a map interface in a browser.  For more information on each of the sub-components of the Geoparser, see the documentation [here](http://groups.inf.ed.ac.uk/geoparser/documentation/v1.3/html/pipeline.html).
+When running the Geoparser, the specified text file is going through a series of processing steps which are combined into one pipeline.  It is first [tokenised](https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization_), [part-of-speech-tagged](https://en.wikipedia.org/wiki/Part-of-speech_tagging) and [lemmatised](https://en.wikipedia.org/wiki/Lemmatisation). After these initial steps, [named entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition) is performed to identify location and person names as well as dates.  It was  found that identifying location and person names in parallel helps to distinguish some ambiguous cases (like the string "Lewis" which could refer to a first name or the Scottish island) and where their context helps to distinguish between them.  The extracted locations are then resolved to latitude/longitude coordinate pairs.  The text is then further processed by identifying syntactic phrases (chunking) and temporal relations.  The latter two steps are not very relevant to this lesson and will therefore not be explained in detail.  Finally, visualisations are created to be able to inspect the file and the Geoparser output using a map interface in a browser.  For more information on each of the sub-components of the Geoparser, see the documentation [here](https://groups.inf.ed.ac.uk/geoparser/documentation/v1.3/html/pipeline.html).
 
 Note that when using the Geoparser in combination with the GeoNames gazetteer some historical place names will not be identified as they are missing from the gazetteer.  Also the Geoparser team can provide additional pre-processing to improve the quality of optical-character recognised output (e.g. to fix soft-hyphen splitting or to deal with the long “s” character).  Those scripts are not distributed with the standard distribution but available on request.
 
@@ -219,9 +219,9 @@ where
 * `W`(est) `N`(orth) `E`(ast) `S`(outh) are decimal degrees
 * `score` is the same as for option `-l`.
 
-You can grab the coordinates of a bounding box for a particular area using this online [BoundingBox](http://boundingbox.klokantech.com) tool. For example, a bounding box for Canada is `[W:-141.002701, N:83.110619, E:-52.620201, S:41.681019]` (see Figure 5)
+You can grab the coordinates of a bounding box for a particular area using this online [BoundingBox](https://boundingbox.klokantech.com) tool. For example, a bounding box for Canada is `[W:-141.002701, N:83.110619, E:-52.620201, S:41.681019]` (see Figure 5)
 
-{% include figure.html filename="geoparser_figure03.png" caption="Figure 5: Bounding box for Canada drawn on [BoundingBox](http://boundingbox.klokantech.com)." %}
+{% include figure.html filename="geoparser_figure03.png" caption="Figure 5: Bounding box for Canada drawn on [BoundingBox](https://boundingbox.klokantech.com)." %}
 
 To specify this bounding box using the previous example, go back to the scripts directory and run the following command:
 
@@ -289,7 +289,7 @@ If the document date is not specified all temporal expressions will be interpret
 
 ### Geo-parsing Multiple Text Files
 
-Now that you know how to geo-parse one file, you may want to do the same thing for a set of documents all at once. You can download a simple shell script which geo-parses multiple files [here](http://groups.inf.ed.ac.uk/geoparser/scripts/run-multiple-files.sh). Please refer to the [Geoparser workshop](http://homepages.inf.ed.ac.uk/balex/publications/geoparser-workshop.pdf) slides for more information on how to make this script executable, run and it and adapt it to your needs.
+Now that you know how to geo-parse one file, you may want to do the same thing for a set of documents all at once. You can download a simple shell script which geo-parses multiple files [here](https://groups.inf.ed.ac.uk/geoparser/scripts/run-multiple-files.sh). Please refer to the [Geoparser workshop](https://homepages.inf.ed.ac.uk/balex/publications/geoparser-workshop.pdf) slides for more information on how to make this script executable, run and it and adapt it to your needs.
 
 ### Extracting Geo-Resolution Output to TSV
 
@@ -367,18 +367,18 @@ The lesson is also available in workshop form.  If you're interested in running 
 
 The Geoparser team also welcomes suggestions for future collaboration to tailor the Geoparser to different needs.  Please get in touch if you have ideas about how it could be applied.
 
-In the past the Geoparser was used to identify place names for different purposes and in different types of data (e.g. Grover et al., 2010 and Alex et al., 2015).  For example, it was adapted to perform fine-grained geo-parsing for literature set in Edinburgh ([Palimpsest](http://palimpsest.blogs.edina.ac.uk/)) presented in the [LitLong](http://litlong.org/) interface.  It was used to geo-parse
-* volumes of the Survey of English Place Names ([DEEP](http://web.archive.org/web/20170722115758/http://englishplacenames.cerch.kcl.ac.uk/), see Grover and Tobin, 2014),
-* large historical collections related to commodity trading in the 19th century British Empire ([Trading Consequences](http://tradingconsequences.blogs.edina.ac.uk/)) and
-* 19th century British newspapers by [Prof. Ian Gregory](http://www.lancaster.ac.uk/staff/gregoryi/)’s group at Lancaster University.
+In the past the Geoparser was used to identify place names for different purposes and in different types of data (e.g. Grover et al., 2010 and Alex et al., 2015).  For example, it was adapted to perform fine-grained geo-parsing for literature set in Edinburgh ([Palimpsest](https://palimpsest.blogs.edina.ac.uk/)) presented in the [LitLong](https://litlong.org/) interface.  It was used to geo-parse
+* volumes of the Survey of English Place Names ([DEEP](https://web.archive.org/web/20170722115758/https://englishplacenames.cerch.kcl.ac.uk/), see Grover and Tobin, 2014),
+* large historical collections related to commodity trading in the 19th century British Empire ([Trading Consequences](https://tradingconsequences.blogs.edina.ac.uk/)) and
+* 19th century British newspapers by [Prof. Ian Gregory](https://www.lancaster.ac.uk/staff/gregoryi/)’s group at Lancaster University.
 
-The Geoparser was also adapted to the ancient world for the [Google Ancient Places](https://googleancientplaces.wordpress.com/) project (e.g. see Isaksen et al., 2011), with its [GapVis](http://nrabinowitz.github.io/gapvis/)  interface. More recently, the Geoparser was used to geo-parse Twitter user profile locations (Alex et al, 2016) and the mass digitised text, including the Gazetteers of Scotland (Filgueira et al., 2020) and Encyclopaedia Britannica (Filgueira et al., 2021)
+The Geoparser was also adapted to the ancient world for the [Google Ancient Places](https://googleancientplaces.wordpress.com/) project (e.g. see Isaksen et al., 2011), with its [GapVis](https://nrabinowitz.github.io/gapvis/)  interface. More recently, the Geoparser was used to geo-parse Twitter user profile locations (Alex et al, 2016) and the mass digitised text, including the Gazetteers of Scotland (Filgueira et al., 2020) and Encyclopaedia Britannica (Filgueira et al., 2021)
 
 ## References
 
-Beatrice Alex, Clare Llewellyn, Claire Grover, Jon Oberlander and Richard Tobin (2016). Homing in on Twitter users: Evaluating an Enhanced Geoparser for User Profile Locations. 2016. In the Proceedings of the 10th Language Resources and Evaluation Conference (LREC), 23-28 May 2016. [[pdf](http://www.lrec-conf.org/proceedings/lrec2016/pdf/129_Paper.pdf)]
+Beatrice Alex, Clare Llewellyn, Claire Grover, Jon Oberlander and Richard Tobin (2016). Homing in on Twitter users: Evaluating an Enhanced Geoparser for User Profile Locations. 2016. In the Proceedings of the 10th Language Resources and Evaluation Conference (LREC), 23-28 May 2016. [[pdf](https://www.lrec-conf.org/proceedings/lrec2016/pdf/129_Paper.pdf)]
 
-Beatrice Alex, Kate Byrne, Claire Grover and Richard Tobin (2015). Adapting the Edinburgh Geoparser for Historical Georeferencing. International Journal for Humanities and Arts Computing, 9(1), pp. 15-35, March 2015.[[pdf](http://www.euppublishing.com/doi/pdfplus/10.3366/ijhac.2015.0136)]
+Beatrice Alex, Kate Byrne, Claire Grover and Richard Tobin (2015). Adapting the Edinburgh Geoparser for Historical Georeferencing. International Journal for Humanities and Arts Computing, 9(1), pp. 15-35, March 2015.[[pdf](https://www.euppublishing.com/doi/pdfplus/10.3366/ijhac.2015.0136)]
 
 Rosa Filgueira, Claire Grover, Vasilios Karaiskos, Beatrice Alex, Sarah Van Eyndhoven, Lisa Gotthard, and Melissa Terras (2021). Extending defoe for the efficient analysis of historical texts at scale. In 2021 IEEE 17th International Conference on eScience (eScience), pp. 21-29.
 
@@ -386,6 +386,6 @@ Rosa Filgueira, Claire Grover, Melissa Terras, and Beatrice Alex (2020). Geopars
 
 Claire Grover and Richard Tobin (2014). A Gazetteer and Georeferencing for Historical English Documents. In Proceedings of LaTeCH 2014 at EACL 2014. Gothenburg, Sweden. [[pdf](https://doi.org/10.3115/v1/W14-0617)]
 
-Claire Grover, Richard Tobin, Kate Byrne, Matthew Woollard, James Reid, Stuart Dunn, and Julian Ball (2010). Use of the Edinburgh Geoparser for georeferencing digitised historical collections. Philosophical Transactions of the Royal Society A. [[pdf](http://homepages.inf.ed.ac.uk/grover/papers/PTRS-A-2010-Grover-3875-89.pdf)]
+Claire Grover, Richard Tobin, Kate Byrne, Matthew Woollard, James Reid, Stuart Dunn, and Julian Ball (2010). Use of the Edinburgh Geoparser for georeferencing digitised historical collections. Philosophical Transactions of the Royal Society A. [[pdf](https://homepages.inf.ed.ac.uk/grover/papers/PTRS-A-2010-Grover-3875-89.pdf)]
 
 Leif Isaksen, Elton Barker, Eric C. Kansa, Kate Byrne (2012). GAP: A NeoGeo Approach to Classical Resources. Leonardo 45 (1): 82–83. [[pdf](https://direct.mit.edu/leon/article/45/1/82/46956/GAP-A-NeoGeo-Approach-to-Classical-Resources#.U48IuXWx15Q)]

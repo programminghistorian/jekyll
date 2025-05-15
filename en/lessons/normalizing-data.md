@@ -259,11 +259,11 @@ to make sure you have the correct code.
 -   python-lessons4.zip ([zip sync][])
 
   [From HTML to a List of Words (2)]: /lessons/from-html-to-list-of-words-2
-  [web page]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
+  [web page]: https://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
   [From HTML to a List of Words (1)]: /lessons/from-html-to-list-of-words-1
   [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
-  [Unicode]: http://unicode.org/
-  [Python support]: https://web.archive.org/web/20180502053841/http://www.diveintopython.net/xml_processing/unicode.html
-  [Dive into Python]: https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html
+  [Unicode]: https://unicode.org/
+  [Python support]: https://web.archive.org/web/20180502053841/https://www.diveintopython.net/xml_processing/unicode.html
+  [Dive into Python]: https://web.archive.org/web/20180416143856/https://www.diveintopython.net/regular_expressions/index.html
   [zip]: /assets/python-lessons3.zip
   [zip sync]: /assets/python-lessons4.zip

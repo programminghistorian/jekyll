@@ -32,7 +32,7 @@ Todas as nossas lições também devem ser escritas em Markdown e seguir as noss
 ## Submeter uma lição traduzida
 Depois do ficheiro de tradução ter as especificações acima mencionadas, estará pronto a ser enviado para revisão por pares.
 
-Temos uma página do [_Programming Historian em português_ no GitHub](https://github.com/programminghistorian), onde mantemos dois repositórios (um repositório é um local para armazenar ficheiros e pastas relacionados, ou seja, um tipo de pasta). Um deles, chamado [jekyll](https://github.com/programminghistorian/jekyll), hospeda o código da versão online do site disponível em http://programminghistorian.org. O outro repositório é chamado [ph-submissions](https://github.com/programminghistorian/ph-submissions).
+Temos uma página do [_Programming Historian em português_ no GitHub](https://github.com/programminghistorian), onde mantemos dois repositórios (um repositório é um local para armazenar ficheiros e pastas relacionados, ou seja, um tipo de pasta). Um deles, chamado [jekyll](https://github.com/programminghistorian/jekyll), hospeda o código da versão online do site disponível em https://programminghistorian.org. O outro repositório é chamado [ph-submissions](https://github.com/programminghistorian/ph-submissions).
 
 A melhor maneira para enviar uma tradução é adicioná-la diretamente ao repositório [ph-submissions](https://github.com/programminghistorian/ph-submissions). Graças aos recursos do GitHub, pode fazer isso usando ações de arrastar e soltar, com as quais provavelmente já está familiarizado. Para os novos tradutores, estas são as etapas:
 

@@ -78,7 +78,7 @@ n'importe quelle année entre 1850 et 1899.
 Pour cet exercice, nous utilisons LibreOffice Writer et LibreOffice Calc, des
 logiciels de bureautique libres, utilisés respectivement pour le traitement de
 texte et les feuilles de calcul. Les paquets d'installation pour Linux, Mac ou
-Windows peuvent être téléchargés depuis <http://www.libreoffice.org/download>.
+Windows peuvent être téléchargés depuis <https://www.libreoffice.org/download>.
 D'autre logiciels de traitement de texte et même des langages de programmation
 ont des fonctionalités similaires de recherche de motifs. Comme sa distribution
 est libre et comme sa syntaxe pour les expressions régulières est proche de ce
@@ -110,7 +110,7 @@ différents types de ressources textuelles utilisées pour toutes sortes de
 recherche en histoire. Pour notre exercice, nous allons utiliser un rapport de
 cinq pages contenant des statistiques mensuelles sur la morbidité et la
 mortalité dans les États et les villes des États-Unis, publié en février 1908.
-Il est disponible ici : <http://archive.org/details/jstor-4560629/>.
+Il est disponible ici : <https://archive.org/details/jstor-4560629/>.
 
 Prenez un moment pour parcourir brièvement les pages du document grâce au
 [lien pour lire en ligne][], afin de vous familiariser avec lui. Ce document
@@ -725,10 +725,10 @@ Pittsburgh, a quant à lui de bons cas de figures sur la manière de travailler 
 [expressions régulières et des outils pour XML][], dans le but de baliser des
 fichiers de texte brut pour en faire des fichiers XML.
 
-  [lien pour lire en ligne]: http://archive.org/stream/jstor-4560629/4560629#page/n0/mode/2up
-  [Texte intégral]: http://archive.org/stream/jstor-4560629/4560629_djvu.txt
+  [lien pour lire en ligne]: https://archive.org/stream/jstor-4560629/4560629#page/n0/mode/2up
+  [Texte intégral]: https://archive.org/stream/jstor-4560629/4560629_djvu.txt
   [Liste des expressions régulières]: https://help.libreoffice.org/6.3/fr/text/shared/01/02100001.html?DbPAR=SHARED#bm_id3146765
   [expressions régulières]: https://fr.wikipedia.org/wiki/Expression_r%C3%A9guli%C3%A8re
-  [Rubular]: http://rubular.com/
-  [expressions régulières et des outils pour XML]: http://dh.obdurodon.org/regex.html
+  [Rubular]: https://rubular.com/
+  [expressions régulières et des outils pour XML]: https://dh.obdurodon.org/regex.html
 

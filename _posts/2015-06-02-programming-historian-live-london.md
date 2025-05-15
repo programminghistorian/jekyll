@@ -16,6 +16,6 @@ The provisional schedule will include introductions to:
 - Corpus Analysis (AntConc, Shell)
 - Web Scrapping (Wget)
 
-Places are limited and can be booked on [Eventbrite](http://proghistlive.eventbrite.co.uk). Please note that attendees will be required to bring their own laptop. Questions and queries should be directed to James Baker at drjameswbaker@gmail.com.
+Places are limited and can be booked on [Eventbrite](https://proghistlive.eventbrite.co.uk). Please note that attendees will be required to bring their own laptop. Questions and queries should be directed to James Baker at drjameswbaker@gmail.com.
 
-Programming Historian Live is funded by the [Software Sustainability Institute](http://www.software.ac.uk/), and is supported by the [British Library](http://www.bl.uk/), the [Institute of Historical Research](http://www.history.ac.uk/), and [The Programming Historian](/).
+Programming Historian Live is funded by the [Software Sustainability Institute](https://www.software.ac.uk/), and is supported by the [British Library](https://www.bl.uk/), the [Institute of Historical Research](https://www.history.ac.uk/), and [The Programming Historian](/).

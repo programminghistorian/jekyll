@@ -417,7 +417,7 @@ Qu'il s'agisse d'expérimenter avec la programmation, de documenter les processu
 
 [^2]: Millman, KJ et Fernando Perez. 2014.  &laquo; Developing open source scientific practice  &raquo;, dans *Implementing Reproducible Research*, édité par Victoria Stodden, Friedrich Leisch et Roger D. Peng. https://osf.io/h9gsd/
 
-[^3]: Sinclair, Stéfan et Geoffrey Rockwell. 2013.  &laquo; Voyant Notebooks: Literate Programming and Programming Literacy &raquo;. Journal of Digital Humanities, Vol. 2, No. 3 Été 2013. http://journalofdigitalhumanities.org/2-3/voyant-notebooks-literate-programming-and-programming-literacy/
+[^3]: Sinclair, Stéfan et Geoffrey Rockwell. 2013.  &laquo; Voyant Notebooks: Literate Programming and Programming Literacy &raquo;. Journal of Digital Humanities, Vol. 2, No. 3 Été 2013. https://journalofdigitalhumanities.org/2-3/voyant-notebooks-literate-programming-and-programming-literacy/
 
 [^4]: Haley Di Pressi, Stephanie Gorman, Miriam Posner, Raphael Sasayama et Tori Schmitt, avec la collaboration de Roderic Crooks, Megan Driscoll, Amy Earhart, Spencer Keralis, Tiffany Naiman et Todd Presner.  &laquo; A Student Collaborator's Bill of Rights  &raquo;. https://humtech.ucla.edu/news/a-student-collaborators-bill-of-rights/
 

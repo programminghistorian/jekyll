@@ -699,7 +699,7 @@ Now move on to [Logistic Regression analysis with scikit-learn](/en/lessons/logi
 
 [^9]: Ibid.
 
-[^10]: The University of Texas at Austin. _Statistics Online Support: Variable Types_, [http://sites.utexas.edu/sos/variables/](https://perma.cc/GN36-BCPD).
+[^10]: The University of Texas at Austin. _Statistics Online Support: Variable Types_, [https://sites.utexas.edu/sos/variables/](https://perma.cc/GN36-BCPD).
 
 [^11]: Jarausch, Konrad H., and Kenneth A. Hardy. _Quantitative Methods for Historians: A Guide to Research, Data, and Statistics_. 1991. UNC Press Books, 2016: 122.
 

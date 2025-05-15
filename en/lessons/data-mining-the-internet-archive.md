@@ -649,37 +649,37 @@ analyze which subjects are common in the MARC records. Now that you have
 the MARC records downloaded and can use `pymarc` to extract information
 from the fields, the possibilities can multiply rapidly!
 
-  [Internet Archive]: http://archive.org/
+  [Internet Archive]: https://archive.org/
   [early JSTOR journal content]: https://archive.org/details/jstor_ejc
   [John Adams's personal library]: https://archive.org/details/johnadamsBPL
   [Haiti collection]: https://archive.org/details/jcbhaiti
-  [Ian Milligan]: http://activehistory.ca/2013/09/the-internet-archive-rocks-or-two-million-plus-free-sources-to-explore/
-  [Anti-Slavery Collection]: http://archive.org/details/bplscas
+  [Ian Milligan]: https://activehistory.ca/2013/09/the-internet-archive-rocks-or-two-million-plus-free-sources-to-explore/
+  [Anti-Slavery Collection]: https://archive.org/details/bplscas
   [internetarchive]: https://pypi.python.org/pypi/internetarchive
   [pymarc]: https://pypi.python.org/pypi/pymarc/
-  [this letter]: http://archive.org/details/lettertowilliaml00doug
-  [original manuscript]: http://archive.org/stream/lettertowilliaml00doug/39999066767938#page/n0/mode/2up
-  [multiple files]: http://archive.org/download/lettertowilliaml00doug
-  [Dublin Core]: http://archive.org/download/lettertowilliaml00doug/lettertowilliaml00doug_dc.xml
-  [MARCXML]: http://archive.org/download/lettertowilliaml00doug/lettertowilliaml00doug_marc.xml
-  [Library of Congress's MARC 21 Format for Bibliographic Data]: http://www.loc.gov/marc/bibliographic/
-  [thousands of antislavery letters, manuscripts, and publications]: http://archive.org/search.php?query=collection%3Abplscas&sort=-publicdate
+  [this letter]: https://archive.org/details/lettertowilliaml00doug
+  [original manuscript]: https://archive.org/stream/lettertowilliaml00doug/39999066767938#page/n0/mode/2up
+  [multiple files]: https://archive.org/download/lettertowilliaml00doug
+  [Dublin Core]: https://archive.org/download/lettertowilliaml00doug/lettertowilliaml00doug_dc.xml
+  [MARCXML]: https://archive.org/download/lettertowilliaml00doug/lettertowilliaml00doug_marc.xml
+  [Library of Congress's MARC 21 Format for Bibliographic Data]: https://www.loc.gov/marc/bibliographic/
+  [thousands of antislavery letters, manuscripts, and publications]: https://archive.org/search.php?query=collection%3Abplscas&sort=-publicdate
   [eBook and Texts]: https://archive.org/details/texts
-  [the way that items and item URLs are structured]: http://blog.archive.org/2011/03/31/how-archive-org-items-are-structured/
+  [the way that items and item URLs are structured]: https://blog.archive.org/2011/03/31/how-archive-org-items-are-structured/
   [advanced search]: https://archive.org/advancedsearch.php
   [this page]: https://archive.org/search.php?query=collection%3A%28bplscas%29
-  [search the Archive using the Python module that we installed]: http://internetarchive.readthedocs.io/en/latest/quickstart.html#searching
-  [the advanced search for the collection]: http://archive.org/search.php?query=collection%3Abplscas
-  [downloading]: http://internetarchive.readthedocs.io/en/latest/quickstart.html#downloading
+  [search the Archive using the Python module that we installed]: https://internetarchive.readthedocs.io/en/latest/quickstart.html#searching
+  [the advanced search for the collection]: https://archive.org/search.php?query=collection%3Abplscas
+  [downloading]: https://internetarchive.readthedocs.io/en/latest/quickstart.html#downloading
   [remember those?]: /lessons/code-reuse-and-modularity
   [item files are named according to specific rules]: https://archive.org/about/faqs.php#140
-  [handling exceptions]: http://docs.python.org/2/tutorial/errors.html#handling-exceptions
-  [rules specified for the 260 datafield]: http://www.loc.gov/marc/bibliographic/bd260.html
-  [MARC standards]: http://www.loc.gov/marc/
+  [handling exceptions]: https://docs.python.org/2/tutorial/errors.html#handling-exceptions
+  [rules specified for the 260 datafield]: https://www.loc.gov/marc/bibliographic/bd260.html
+  [MARC standards]: https://www.loc.gov/marc/
   [1]: https://github.com/edsu/pymarc
   [functions that it provides for working with MARC XML records]: https://github.com/edsu/pymarc/blob/master/pymarc/marcxml.py
   [Counting Frequencies]: /lessons/counting-frequencies
   [Google Maps lesson]: /lessons/googlemaps-googleearth
-  [Wordle word cloud]: https://web.archive.org/web/20201202151557/http://www.wordle.net/
+  [Wordle word cloud]: https://web.archive.org/web/20201202151557/https://www.wordle.net/
   [cleaning of your data]: /lessons/cleaning-ocrd-text-with-regular-expressions
   [Installing Python Modules with pip]: /lessons/installing-python-modules-pip

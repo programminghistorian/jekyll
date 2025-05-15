@@ -297,7 +297,7 @@ Even if you are the only person authoring on your site, using branches and pull 
 
 Remember to substitute *https://github.com/your-username/your-repo-name* for *https://github.com/scholarslab/CollabDemo* in these instructions. To set up your site for our review process:
 
-Each person in addition to you you who will write on the site should [create a user account on GitHub.com](http://github.com/join), if they do not already have one. They will need to share their username with you (or someone else who owns the repository).
+Each person in addition to you you who will write on the site should [create a user account on GitHub.com](https://github.com/join), if they do not already have one. They will need to share their username with you (or someone else who owns the repository).
 
 Your repository page (for example, https://github.com/scholarslab/CollabDemo) has a horizontal row of links just below the name of the repository. Click on the "settings" link, then click on "Manage Access" in the left menu.
 
@@ -617,22 +617,22 @@ If you have read the longer explanations above already and just want a checklist
 - [Scholars' Lab cheatsheet](https://github.com/scholarslab/scholarslab.org/blob/master/docs/authoring-and-editing.md#markdown--formatting) on basic Markdown formatting, limited to the most frequently used formatting for our particular needs
 
 ### Troubleshooting
-If you run into an a problem, try reading [Jekyll 's troubleshooting page](https://jekyllrb.com/docs/troubleshooting/). Besides search engines, [the StackExchange site](http://stackexchange.com/) is a good place to find questions and answers from people who have run into the same problem as you in the past (and, hopefully, recorded how they solved it). You might also [join the Digital Humanities Slack](http://tinyurl.com/DHslack) (anyone can join, even if you have no DH experience) and ask questions in the #DHanswers channel.
+If you run into an a problem, try reading [Jekyll 's troubleshooting page](https://jekyllrb.com/docs/troubleshooting/). Besides search engines, [the StackExchange site](https://stackexchange.com/) is a good place to find questions and answers from people who have run into the same problem as you in the past (and, hopefully, recorded how they solved it). You might also [join the Digital Humanities Slack](https://tinyurl.com/DHslack) (anyone can join, even if you have no DH experience) and ask questions in the #DHanswers channel.
 
 ### Advanced learning
 The following links are helpful for learning more about documentation, inspiration, and further reading about Jekyll:
 
 *Introductions to Jekyll and static sites*
-* Amanda Visconti, ["Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)"](http://literaturegeek.com/2015/12/08/WhyJekyllGitHub)
+* Amanda Visconti, ["Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)"](https://literaturegeek.com/2015/12/08/WhyJekyllGitHub)
 * [Building a static website with Jekyll and GitHub Pages](/en/lessons/building-static-sites-with-jekyll-github-pages)
-* Alex Gil, ["How (and Why) to Generate a Static Website Using Jekyll, Part 1"](http://chronicle.com/blogs/profhacker/jekyll1/60913)
+* Alex Gil, ["How (and Why) to Generate a Static Website Using Jekyll, Part 1"](https://chronicle.com/blogs/profhacker/jekyll1/60913)
 * Eduardo Bouças, ["An Introduction to Static Site Generators"](https://davidwalsh.name/introduction-static-site-generators)
 
 *Deeper understanding of Jekyll and GitHub Pages*
-* [Official Jekyll Documentation](http://jekyllrb.com/docs/home/)
-* Jekyll "unofficially" links to two Windows + Jekyll resources: [http://jekyll-windows.juthilo.com/](http://jekyll-windows.juthilo.com/) and [https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/)
+* [Official Jekyll Documentation](https://jekyllrb.com/docs/home/)
+* Jekyll "unofficially" links to two Windows + Jekyll resources: [https://jekyll-windows.juthilo.com/](https://jekyll-windows.juthilo.com/) and [https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/)
 * [https://help.github.com/articles/using-jekyll-with-pages/](https://help.github.com/articles/using-jekyll-with-pages/)
-* [Jekyll Style Guide](http://ben.balter.com/jekyll-style-guide/)
+* [Jekyll Style Guide](https://ben.balter.com/jekyll-style-guide/)
 * [Using a custom domain with GitHub Pages hosting](https://help.github.com/en/articles/using-a-custom-domain-with-github-pages) You can purchase a domain (such as my-own-domain.com; average costs run around $10-20/year) and switch your website to using that instead of *username.github.io/repo-name* but still use GitHub Pages' free hosting.
 
 <div class="alert alert-warning">
@@ -653,7 +653,7 @@ If you set up a custom domain with your GitHub Pages-hosted website, to avoid a 
 * [Exitwp](https://github.com/thomasf/exitwp), a Python script developed by Thomas Frössman that Scholars' Lab used to migrate our blog from WordPress to Jekyll  
 
 *Tools*
-*  Robust plain text editor options: [Atom](https://atom.io), [Sublime Text](https://www.sublimetext.com/), [Prose](http://prose.io/) content editor (built on Jekyll)
+*  Robust plain text editor options: [Atom](https://atom.io), [Sublime Text](https://www.sublimetext.com/), [Prose](https://prose.io/) content editor (built on Jekyll)
 * Project management options: [Trello](https://trello.com/en-US), [GitHub's project boards](https://help.github.com/en/articles/about-project-boards)
 
 *Case study links*

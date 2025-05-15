@@ -40,7 +40,7 @@ _____
 
 ## Software and setup
 
-Windows users will need to install Git Bash. This can be installed by downloading the most recent installer at the [git for windows webpage](http://msysgit.github.io/). Instructions for installation are available at [Open Hatch](https://web.archive.org/web/20190318191709/https://openhatch.org/missions/windows-setup/install-git-bash).
+Windows users will need to install Git Bash. This can be installed by downloading the most recent installer at the [git for windows webpage](https://msysgit.github.io/). Instructions for installation are available at [Open Hatch](https://web.archive.org/web/20190318191709/https://openhatch.org/missions/windows-setup/install-git-bash).
 
 OS X and Linux users will need to use their terminal shells to follow this lesson, as discussed in "[Introduction to the Bash Command Line](../lessons/intro-to-bash)."
 
@@ -48,7 +48,7 @@ This lesson was written using Git Bash 1.9.0 and the Windows 7 operating system.
 
 The files used in this lesson are available on "[Figshare](https://doi.org/10.6084/m9.figshare.1172094)". The data contains the metadata for journal articles categorised under 'History' in the British Library ESTAR database. The data is shared under a CC0 copyright waiver.
 
-Download the required files, save them to your computer, and unzip them. If you do not have default software installed to interact with .zip files, we recommend [7-zip](http://www.7-zip.org/) for this purpose. On Windows, we recommend unzipping the folder provided to your c: drive so the files are at `c:\proghist\`. However, any location will work fine, but you may have to adjust your commands as you are following along with this lesson if you use a different location. 
+Download the required files, save them to your computer, and unzip them. If you do not have default software installed to interact with .zip files, we recommend [7-zip](https://www.7-zip.org/) for this purpose. On Windows, we recommend unzipping the folder provided to your c: drive so the files are at `c:\proghist\`. However, any location will work fine, but you may have to adjust your commands as you are following along with this lesson if you use a different location. 
 
 <div class="alert alert-warning">
 April 2025 update: The paths indicated for Windows no longer correspond to those used by recent versions of Git (version 2.49.0 at the time of writing). Whenever the path <code>c:\proghist\...</code> is mentioned, you will need to replace it with <code>c/Users/USERNAME/proghist/...</code>.
@@ -70,9 +70,9 @@ Type `ls` and then hit enter. This prints, or displays, a list that includes two
 
 The files in this directory are the dataset `2014-01_JA.csv` that contains journal article metadata and a file containing documentation about `2014-01_JA.csv` called `2014-01_JA.txt`.
 
-The subdirectory is named `derived_data`. It contains four [.tsv](http://en.wikipedia.org/wiki/Tab-separated_values) files derived from `2014-01_JA.csv`. Each of these includes all data where a keyword such as `africa` or `america` appears in the 'Title' field of `2014-01_JA.csv`. The `derived_data` directory also includes a subdirectory called `results`.
+The subdirectory is named `derived_data`. It contains four [.tsv](https://en.wikipedia.org/wiki/Tab-separated_values) files derived from `2014-01_JA.csv`. Each of these includes all data where a keyword such as `africa` or `america` appears in the 'Title' field of `2014-01_JA.csv`. The `derived_data` directory also includes a subdirectory called `results`.
 
-*Note: [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) files are those in which the units of data (or cells) are separated by commas (comma-separated-values) and TSV files are those in which they are separated by tabs.  Both can be read in simple text editors or in spreadsheet programs such as Libre Office Calc or Microsoft Excel.*
+*Note: [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files are those in which the units of data (or cells) are separated by commas (comma-separated-values) and TSV files are those in which they are separated by tabs.  Both can be read in simple text editors or in spreadsheet programs such as Libre Office Calc or Microsoft Excel.*
 
 Before you begin working with these files, you should move into the directory in which they are stored. Navigate to `c:\proghist\data\derived_data` on Windows or `~/users/USERNAME/proghist/data/derived_data` on OS X.
 
@@ -128,8 +128,8 @@ _____
 
 In this lesson you have learnt to undertake some basic file counting, to query across research data for common strings, and to save results and derived data. Though this lesson is restricted to using the Unix shell to count and mine tabulated data, the processes can be easily extended to free text. For this we recommend two guides written by William Turkel:
 
-- William Turkel, '[Basic Text Analysis with Command Line Tools in Linux](http://williamjturkel.net/2013/06/15/basic-text-analysis-with-command-line-tools-in-linux/)' (15 June 2013)
-- William Turkel, '[Pattern Matching and Permuted Term Indexing with Command Line Tools in Linux](http://williamjturkel.net/2013/06/20/pattern-matching-and-permuted-term-indexing-with-command-line-tools-in-linux/)' (20 June 2013)
+- William Turkel, '[Basic Text Analysis with Command Line Tools in Linux](https://williamjturkel.net/2013/06/15/basic-text-analysis-with-command-line-tools-in-linux/)' (15 June 2013)
+- William Turkel, '[Pattern Matching and Permuted Term Indexing with Command Line Tools in Linux](https://williamjturkel.net/2013/06/20/pattern-matching-and-permuted-term-indexing-with-command-line-tools-in-linux/)' (20 June 2013)
 
 As these recommendations suggest, the present lesson only scratches the surface of what the Unix shell environment is capable of. It is hoped, however, that this lesson has provided a taster sufficient to prompt further investigation and productive play.
 

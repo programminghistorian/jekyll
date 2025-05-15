@@ -117,5 +117,5 @@ então escolha `ola-mundo.html`. Dependendo do seu editor de texto, você pode t
 -   [W3 Schools HTML Tutorial][]
 -   [W3 Schools HTML5 Tutorial][]
 
-  [W3 Schools HTML tutorial]: http://www.w3schools.com/html/default.asp
-  [W3 Schools HTML5 Tutorial]: http://www.w3schools.com/html/html5_intro.asp
+  [W3 Schools HTML tutorial]: https://www.w3schools.com/html/default.asp
+  [W3 Schools HTML5 Tutorial]: https://www.w3schools.com/html/html5_intro.asp

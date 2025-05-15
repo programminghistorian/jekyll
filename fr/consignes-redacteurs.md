@@ -279,7 +279,7 @@ Ci-dessous quelques sites pour chercher des images:
  - The [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - The [British Library](https://www.flickr.com/photos/britishlibrary)
  - The [Internet Archive Book Images](https://archive.org/details/bookimages)
- - The [Library of Congress Maps](http://www.loc.gov/maps/collections)
+ - The [Library of Congress Maps](https://www.loc.gov/maps/collections)
 
 
 Merci de prendre soin de trouver une image dont le style est proche de celles déjà utilisées, donc pas de photographie, mais plutôt une image d'illustration de livre, de taille minimale de 200x200 pixels, sans restriction de droits de copyright. Merci de faire attention à ce que les images ne heurtent pas les sensibilités et, en conformité à notre [engagement en faveur de la diversité](/posts/PH-commitment-to-diversity), qu'elles ne reproduisent pas de stéréotypes sexistes ou raciaux.

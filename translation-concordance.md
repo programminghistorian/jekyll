@@ -20,7 +20,11 @@ An automatically-generated list of page translation relationships across our pub
   <tr>
     {% for l in site.data.snippets.language-list %}
     {% assign sp = page_versions | where: "lang", l | first %}
-    <td><a href="{{sp.url}}">{{ sp.title }}</a></td>
+    <td>
+		{% if sp %}
+			<a href="{{sp.url}}">{{ sp.title }}</a>
+		{% endif %}
+	</td>
     {% endfor %}
   </tr>
 {% endfor %}
@@ -41,7 +45,11 @@ An automatically-generated list of page translation relationships across our pub
   <tr>
     {% for l in site.data.snippets.language-list %}
     {% assign sp = page_versions | where: "lang", l | first %}
-    <td><a href="{{sp.url}}">{{ sp.title }}</a></td>
+    <td>
+		{% if sp %}
+			<a href="{{sp.url}}">{{ sp.title }}</a>
+		{% endif %}
+	</td>
     {% endfor %}
   </tr>
 {% endfor %}

@@ -96,7 +96,7 @@ En effet, la fonction `stripTags()` du module `obo.py` retourne une chaine de ca
 Modifier `html-to-list1.py` pour y appliquer la méthode `lower()` à `obo.stripTags(html)`&nbsp;:
 
 <div class="alert alert-warning">
-Attention&nbsp;: à cause des modifications faites au site du Old Bailey Online depuis la publication de cette leçon, le lien <code>http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33</code> ne fonctionnera plus dans le code ci-dessous. Vous avez deux options pour contourner le problème&nbsp;. Si vous suivez actuellement cette leçon en utilisant un autre site qui fonctionne, vous pouvez simplement remplacer le lien du Old Bailey Online avec votre propre lien correspondant (en d'autres termes, il suffit de modifier la variable <code>url</code>)&nbsp;: 
+Attention&nbsp;: à cause des modifications faites au site du Old Bailey Online depuis la publication de cette leçon, le lien <code>https://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33</code> ne fonctionnera plus dans le code ci-dessous. Vous avez deux options pour contourner le problème&nbsp;. Si vous suivez actuellement cette leçon en utilisant un autre site qui fonctionne, vous pouvez simplement remplacer le lien du Old Bailey Online avec votre propre lien correspondant (en d'autres termes, il suffit de modifier la variable <code>url</code>)&nbsp;: 
 </div>
 
 ``` python
@@ -193,11 +193,11 @@ wordlist = obo.stripNonAlphaNum(text)
 print(wordlist)
 ```
 
-En exécutant le programme et en regardant ce qu'il en ressort dans le panneau `Command Output`, vous verrez qu'il fait plutôt du bon travail. Ce code sépare les mots composés avec un trait d'union comme _coach-wheels_ en deux mots, et compte le possessif anglais _'s_ ou la forme _o'clock_ comme des mots distincts, en retirant l'apostrophe. Il s'agit cependant d'une approximation  satisfaisante de ce que nous voulions obtenir, et nous pouvons continuer d'avancer vers nos mesures de fréquences avant d'essayer de l'améliorer. (Si les sources sur lesquelles vous travaillez sont dans plus d'une langue, vous aurez besoin d'en apprendre plus sur le standard [Unicode](https://home.unicode.org/) et sur sa [prise en charge Python](https://web.archive.org/web/20180502053841/http://www.diveintopython.net/xml_processing/unicode.html).)
+En exécutant le programme et en regardant ce qu'il en ressort dans le panneau `Command Output`, vous verrez qu'il fait plutôt du bon travail. Ce code sépare les mots composés avec un trait d'union comme _coach-wheels_ en deux mots, et compte le possessif anglais _'s_ ou la forme _o'clock_ comme des mots distincts, en retirant l'apostrophe. Il s'agit cependant d'une approximation  satisfaisante de ce que nous voulions obtenir, et nous pouvons continuer d'avancer vers nos mesures de fréquences avant d'essayer de l'améliorer. (Si les sources sur lesquelles vous travaillez sont dans plus d'une langue, vous aurez besoin d'en apprendre plus sur le standard [Unicode](https://home.unicode.org/) et sur sa [prise en charge Python](https://web.archive.org/web/20180502053841/https://www.diveintopython.net/xml_processing/unicode.html).)
 
 ## Pour aller plus loin
 
-Si vous souhaitez pratiquer davantage les expressions régulières, le chapitre 7 de [Dive into Python](https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html) de Mark Pilgrim peut être un bon entrainement.
+Si vous souhaitez pratiquer davantage les expressions régulières, le chapitre 7 de [Dive into Python](https://web.archive.org/web/20180416143856/https://www.diveintopython.net/regular_expressions/index.html) de Mark Pilgrim peut être un bon entrainement.
 
 ### Synchronisation du code
 

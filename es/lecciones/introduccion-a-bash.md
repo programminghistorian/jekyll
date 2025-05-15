@@ -42,7 +42,7 @@ Muchas de las lecciones en *The Programming Historian en español* requieren que
 
 {% include figure.html filename="en-or-intro-to-bash-01.png" caption="Figura 1. GUI de la computadora de Ian Milligan" %}
 
-Las interfaces de línea de comandos ofrecen ventajas para los usuarios de computadoras que necesitan mayor precisión en su trabajo -como los historiadores digitales. Permiten un uso más detallado a la hora de ejecutar algunos programas, ya que puedes agregar parámetros para especificar *exactamente* cómo deseas ejecutar tu programa. Además, se pueden automatizar procesos fácilmente mediante [scripts](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/chap_01.html), que son esencialmente recetas de órdenes escritas en un archivo de texto.
+Las interfaces de línea de comandos ofrecen ventajas para los usuarios de computadoras que necesitan mayor precisión en su trabajo -como los historiadores digitales. Permiten un uso más detallado a la hora de ejecutar algunos programas, ya que puedes agregar parámetros para especificar *exactamente* cómo deseas ejecutar tu programa. Además, se pueden automatizar procesos fácilmente mediante [scripts](https://www.tldp.org/LDP/Bash-Beginners-Guide/html/chap_01.html), que son esencialmente recetas de órdenes escritas en un archivo de texto.
 
 Hay dos interfaces de línea de comandos principales, o *shells*, que utilizan muchos historiadores digitales. En OS X, así como en muchas de las distribuciones de Linux, el *shell* se conoce como `bash` (*Bourne-again shell*). Para los usuarios de sistemas Windows, la interfaz de línea de comandos está basada en MS-DOS por defecto, y aunque utiliza diferentes comandos y [sintaxis](https://es.wikipedia.org/wiki/Sintaxis), puede realizar tareas similares. Este tutorial proporciona una introducción básica a la terminal `bash`. Los usuarios de Windows pueden seguir instalando algún *shell* popular como [Cygwin](https://www.cygwin.com/) o Git Bash (ver más adelante).
 
@@ -64,7 +64,7 @@ Cuando lo ejecutes verás esto en la ventana:
 
 {% include figure.html filename="en-or-intro-to-bash-03.png" caption="Figura 3. Pantalla de Terminal en blanco en nuestra estación de trabajo de OS X" %}
 
-Quizá quieras cambiar la apariencia que por defecto tiene la terminal para no esforzarte de más al mirar continuamente texto negro sobre fondo blanco. En la aplicación por defecto de OS X puedes abrir el menú 'Perfiles' en 'Preferencias', bajo 'Terminal'. Haz clic en la pestaña 'Perfiles' y cámbialo por un nuevo esquema de color. Personalmente preferimos algo con menor contraste entre el fondo y el primer plano, pues lo estarás viendo durante mucho tiempo. 'Novel' es uno muy relajante ya que es la paleta de colores de la popular *suite* [Solarized](http://ethanschoonover.com/solarized). Los usuarios de Windows pueden obtener un efecto similar utilizando la pestaña 'Properties' de Git bash. Para llegar a ella, haz click con el botón derecho en cualquier lugar de la barra superior y seleciona 'Properties'.
+Quizá quieras cambiar la apariencia que por defecto tiene la terminal para no esforzarte de más al mirar continuamente texto negro sobre fondo blanco. En la aplicación por defecto de OS X puedes abrir el menú 'Perfiles' en 'Preferencias', bajo 'Terminal'. Haz clic en la pestaña 'Perfiles' y cámbialo por un nuevo esquema de color. Personalmente preferimos algo con menor contraste entre el fondo y el primer plano, pues lo estarás viendo durante mucho tiempo. 'Novel' es uno muy relajante ya que es la paleta de colores de la popular *suite* [Solarized](https://ethanschoonover.com/solarized). Los usuarios de Windows pueden obtener un efecto similar utilizando la pestaña 'Properties' de Git bash. Para llegar a ella, haz click con el botón derecho en cualquier lugar de la barra superior y seleciona 'Properties'.
 
 {% include figure.html filename="en-or-intro-to-bash-04.png" caption="Figura 4. Pantalla de configutación en Terminal de OS X" %}
 
@@ -182,7 +182,7 @@ en Windows. Este comando abrirá tu GUI en el directorio actual. Asegúrate de d
 
 ## Interactuar con archivos
 
-Además de navegar por directorios, puedes interactuar con archivos a través de la línea de comandos: puedes leerlos, abrirlos, ejecutarlos e incluso editarlos sin tener que salir de la interfaz. Hay cierto debate sobre por qué alguien querría hacer todo esto; la razón principal es la extrema comodidad de trabajar con la línea de comandos: nunca tienes que tocar el ratón o el *track pad* de la computadora y, aunque tiene una curva de aprendizaje pronunciada, eventualmente puede convertirse en el único entorno de escritura. Además, muchos programas requieren la utilización de la línea de comandos para operar con ellos. Puesto que vas a utilizar programas a través de la línea de comandos, a menudo puede ser más rápido crear pequeñas ediciones sin necesidad de cambiar a un programa separado. Para algunos de estos argumentos véase el texto de Jon Beltran de Heredia, ["Why, oh WHY, do those #?@! nutheads use vi?"](http://www.viemu.com/a-why-vi-vim.html).
+Además de navegar por directorios, puedes interactuar con archivos a través de la línea de comandos: puedes leerlos, abrirlos, ejecutarlos e incluso editarlos sin tener que salir de la interfaz. Hay cierto debate sobre por qué alguien querría hacer todo esto; la razón principal es la extrema comodidad de trabajar con la línea de comandos: nunca tienes que tocar el ratón o el *track pad* de la computadora y, aunque tiene una curva de aprendizaje pronunciada, eventualmente puede convertirse en el único entorno de escritura. Además, muchos programas requieren la utilización de la línea de comandos para operar con ellos. Puesto que vas a utilizar programas a través de la línea de comandos, a menudo puede ser más rápido crear pequeñas ediciones sin necesidad de cambiar a un programa separado. Para algunos de estos argumentos véase el texto de Jon Beltran de Heredia, ["Why, oh WHY, do those #?@! nutheads use vi?"](https://www.viemu.com/a-why-vi-vim.html).
 
 A continuación, presentaremos unas formas básicas de interactuar con archivos.
 
@@ -194,7 +194,7 @@ Esto crea un directorio llamado (¡adivinaste!) `ProgHist-Textos`. En general, e
 
 Pero ¡espera! Hay un truco para hacer las cosas un poco más rápido. Ve arriba un directorio (`cd ..`, lo cual te llevará de regreso al escritorio). Para navegar al directorio `ProgHist-Textos` puedes escribir `cd ProgHist-Textos`. Alternativamente puedes escribir `cd Prog` y luego pulsar la tecla de tabulador. Te darás cuenta de que la interfaz completa la línea como `cd ProgHist-Textos`. **Si pulsas el tabulador en cualquier momento dentro del *shell* le pedirás que intente completar automáticamente la línea en función de los archivos o subdirectorios que estén en el directorio actual. Sin embargo, la función es sensible a mayúsculas (así, en el ejemplo anterior, `cd prog` no podrá autocompletarse como `cd ProgHist-Textos`). En donde haya dos archivos con los mismos caracteres, autocompletar solamente llenará la línea hasta el primer punto de diferencia. Sugerimos utilizar este método a lo largo de la lección para ver cómo se comporta.**
 
-Ahora necesitas encontrar un archivo de texto básico para que nos ayude con el ejemplo. ¿Por qué no utilizar un libro que sabes que es largo, como la épica "Guerra y Paz" de Leon Tolstói? El archivo de texto está disponible en [Project Gutenberg](http://www.gutenberg.org/ebooks/2600). Si ya instalaste [wget](/lessons/applied-archival-downloading-with-wget), puedes escribir:
+Ahora necesitas encontrar un archivo de texto básico para que nos ayude con el ejemplo. ¿Por qué no utilizar un libro que sabes que es largo, como la épica "Guerra y Paz" de Leon Tolstói? El archivo de texto está disponible en [Project Gutenberg](https://www.gutenberg.org/ebooks/2600). Si ya instalaste [wget](/lessons/applied-archival-downloading-with-wget), puedes escribir:
 
 `wget  http://www.gutenberg.org/files/2600/2600-0.txt`
 
@@ -272,7 +272,7 @@ Verás aparecer Vim frente a ti, un editor de texto en línea de comandos.
 
 {% include figure.html filename="en-or-intro-to-bash-06.png" caption="Figura 6. Vim" %}
 
-Si quieres aprender más de Vim, aquí tienes una [buena guía](http://vimdoc.sourceforge.net/htmldoc/quickref.html) disponible.
+Si quieres aprender más de Vim, aquí tienes una [buena guía](https://vimdoc.sourceforge.net/htmldoc/quickref.html) disponible.
 
 El uso de Vim para leer archivos es relativamente simple. Puedes usar las teclas de flechas para navegar alrededor y teóricamente leer *Guerra y Paz* a través de línea de comandos (lo cual sería todo un logro, por cierto). A continuación hay algunos comandos de navegación básica:
 

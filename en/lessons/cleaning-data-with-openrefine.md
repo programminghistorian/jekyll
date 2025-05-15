@@ -395,28 +395,28 @@ cleaning features, as you're performing these steps on a copy of your
 data set, and *OpenRefine* allows you to trace back all of your steps in
 the case you have made an error.
 
-  [*OpenRefine*]: http://openrefine.org "OpenRefine"
+  [*OpenRefine*]: https://openrefine.org "OpenRefine"
   [Powerhouse museum]: https://powerhouse.com.au/
     "Powerhouse museum"
   [*Potter’s Wheel ABC*]: https://perma.cc/Q6QD-E64N
     "Potter's Wheel ABC "
-  [*Wrangler*]: http://vis.stanford.edu/papers/wrangler/ "Wrangler"
-  [data profiling]: http://en.wikipedia.org/wiki/Data_profiling
-  [named-entity recognition]: http://en.wikipedia.org/wiki/Named-entity_recognition
-  [Library of Congress]: http://www.loc.gov/index.html
+  [*Wrangler*]: https://vis.stanford.edu/papers/wrangler/ "Wrangler"
+  [data profiling]: https://en.wikipedia.org/wiki/Data_profiling
+  [named-entity recognition]: https://en.wikipedia.org/wiki/Named-entity_recognition
+  [Library of Congress]: https://www.loc.gov/index.html
     "Library of Congress"
-  [OCLC]: http://www.oclc.org/home.en.html "OCLC"
+  [OCLC]: https://www.oclc.org/home.en.html "OCLC"
   [website]: https://powerhouse.com.au/
     "website"
-  [Creative Commons Attribution Share Alike (CCASA) license]: http://creativecommons.org/licenses/by-nc/2.5/au/
-  [Controlled vocabulary]: http://en.wikipedia.org/wiki/Controlled_vocabulary
-  [Linked Data]: http://en.wikipedia.org/wiki/Linked_data
+  [Creative Commons Attribution Share Alike (CCASA) license]: https://creativecommons.org/licenses/by-nc/2.5/au/
+  [Controlled vocabulary]: https://en.wikipedia.org/wiki/Controlled_vocabulary
+  [Linked Data]: https://en.wikipedia.org/wiki/Linked_data
   [Download OpenRefine]: https://openrefine.org/download
   [phm-collection]: /assets/cleaning-data-with-openrefine/phm-collection.tsv
   [Powerhouse Museum Website]: /images/powerhouseScreenshot.png
-  [facet]: http://en.wikipedia.org/wiki/Faceted_search
+  [facet]: https://en.wikipedia.org/wiki/Faceted_search
   [Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png
   [GREL documentation]: https://openrefine.org/docs/manual/grelfunctions
-  [CSV]: http://en.wikipedia.org/wiki/Comma-separated_values
+  [CSV]: https://en.wikipedia.org/wiki/Comma-separated_values
   [RDF Transform extension]: https://github.com/AtesComp/rdf-transform#rdf-transform
   [NER extension]: https://github.com/stkenny/Refine-NER-Extension

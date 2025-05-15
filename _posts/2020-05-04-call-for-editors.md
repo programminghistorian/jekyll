@@ -13,7 +13,7 @@ Launched in 2012, *The Programming Historian* offers more than 80 novice-friendl
 
 -   Lincoln Mullen, '[Review of the Programming Historian](https://academic.oup.com/jah/article-abstract/103/1/299/1751315)', *The Journal of American History*, vol. 103, no. 1 (2016), pp. 299-301.
     
--   Cameron Blevins, '[Review of the Programming Historian](http://jitp.commons.gc.cuny.edu/review-of-the-programming-historian/)', *The Journal of Interactive Technology & Pedagogy*, vol. 8 (2015).
+-   Cameron Blevins, '[Review of the Programming Historian](https://jitp.commons.gc.cuny.edu/review-of-the-programming-historian/)', *The Journal of Interactive Technology & Pedagogy*, vol. 8 (2015).
     
 Interested candidates should submit a 1-page expression of interest outlining your interests, experience, and vision for the publication, to Sarah Melton (sarah.melton@bc.edu) by 1 June 2020. Please direct any questions to Sarah in the first instance. Please note that this is a VOLUNTEER ACADEMIC SERVICE POSITION and there is no salary or stipend associated with this role.
 

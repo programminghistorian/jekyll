@@ -102,11 +102,11 @@ making the downloads quick!
 -   Navigate to the links below in your web browser and then download
 the following PEI shapefiles. We created the final two, so they will download directly:
 
-1.  <http://www.gov.pe.ca/gis/download.php3?name=coastline&file_format=SHP>
-2.  <http://www.gov.pe.ca/gis/download.php3?name=lot_town&file_format=SHP>
-3.  <http://www.gov.pe.ca/gis/download.php3?name=hydronetwork&file_format=SHP>
-4.  <http://www.gov.pe.ca/gis/download.php3?name=forest_35&file_format=SHP>
-5.  <http://www.gov.pe.ca/gis/download.php3?name=nat_parks&file_format=SHP>
+1.  <https://www.gov.pe.ca/gis/download.php3?name=coastline&file_format=SHP>
+2.  <https://www.gov.pe.ca/gis/download.php3?name=lot_town&file_format=SHP>
+3.  <https://www.gov.pe.ca/gis/download.php3?name=hydronetwork&file_format=SHP>
+4.  <https://www.gov.pe.ca/gis/download.php3?name=forest_35&file_format=SHP>
+5.  <https://www.gov.pe.ca/gis/download.php3?name=nat_parks&file_format=SHP>
 6.  [PEI Highways][]
 7.  [PEI Places][]
 
@@ -463,16 +463,16 @@ save your work!**
 
 *This lesson is part of the [Geospatial Historian][].*
 
-  [QGIS Download page]: http://qgis.org/en/site/forusers/download.html
-  [KyngChaos Qgis download page]: http://www.kyngchaos.com/software/qgis
-  [Download Archive]: http://www.kyngchaos.com/software/archive
+  [QGIS Download page]: https://qgis.org/en/site/forusers/download.html
+  [KyngChaos Qgis download page]: https://www.kyngchaos.com/software/qgis
+  [Download Archive]: https://www.kyngchaos.com/software/archive
   [PEI Highways]: /assets/qgis-layers/PEI_highway.zip
   [PEI Places]: /assets/qgis-layers/PEI_placenames.zip
-  [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
+  [Coordinate Reference System]: https://en.wikipedia.org/wiki/Spatial_reference_system
   [NRCan's website]: https://perma.cc/B4UW-R4FK
-  [Double Stereographic projection]: http://www.gov.pe.ca/gis/index.php3?number=77865&lang=E
-  [Tutorial: Working with Projections in QGIS]: http://web.archive.org/web/20180807132308/http://qgis.spatialthoughts.com/2012/04/tutorial-working-with-projections-in.html
-  [defined]: http://www.gislounge.com/geodatabases-explored-vector-and-raster-data/
-  [aerial photos]: http://en.wikipedia.org/wiki/Orthophoto
+  [Double Stereographic projection]: https://www.gov.pe.ca/gis/index.php3?number=77865&lang=E
+  [Tutorial: Working with Projections in QGIS]: https://web.archive.org/web/20180807132308/https://qgis.spatialthoughts.com/2012/04/tutorial-working-with-projections-in.html
+  [defined]: https://www.gislounge.com/geodatabases-explored-vector-and-raster-data/
+  [aerial photos]: https://en.wikipedia.org/wiki/Orthophoto
   [PEI_CumminsMap1927.tif]: /assets/qgis-layers/PEI_CumminsMap1927_compLZW.tif
-  [Geospatial Historian]: http://geospatialhistorian.wordpress.com/
+  [Geospatial Historian]: https://geospatialhistorian.wordpress.com/

@@ -205,7 +205,7 @@ SET PASSWORD=PASSWORD('nova_senha_criada_na_etapa_3.5');
 
 ###### 4. Download do MySQL Workbench
 
-Clique nesse link: [http://dev.mysql.com/downloads/workbench/](http://dev.mysql.com/downloads/workbench/). Role a página para baixo e clique em **Select Operating System** para selecionar o sistema operacional que corresponde ao seu computador. Se necessário, clique em **Select OS Version** para selecionar a versão do sistema operacional. Feito isso, clique no botão azul de **Download**. Na página de download, role para baixo e terá a opção de iniciar o download ao clicar em **No thanks, just start my download.** (Não, obrigado, apenas inicie o download.)
+Clique nesse link: [https://dev.mysql.com/downloads/workbench/](https://dev.mysql.com/downloads/workbench/). Role a página para baixo e clique em **Select Operating System** para selecionar o sistema operacional que corresponde ao seu computador. Se necessário, clique em **Select OS Version** para selecionar a versão do sistema operacional. Feito isso, clique no botão azul de **Download**. Na página de download, role para baixo e terá a opção de iniciar o download ao clicar em **No thanks, just start my download.** (Não, obrigado, apenas inicie o download.)
 
 Com o ficheiro baixado, clique duas vezes para instalá-lo. Feita a instalação do MySQL Workbench de acordo com as instruções na tela, arraste o ícone para a pasta de aplicações da esquerda. (Ver abaixo)
 
@@ -483,7 +483,7 @@ Nesta seção da lição, criaremos uma declaração no SQL para inserir uma lin
 | termo_busca_usado)                                                          | "                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | VALUES('THE LOST LUSITANIA.',                                               | O valor a ser inserido no campo titulo_artigo                                                                                                                                                                                                                                                                                                                                                                                           |
 | '1915-05-21',                                                               | campo data_publicacao_artigo                                                                                                                                                                                                                                                                                                                                                                                                            |
-| LEFT(RTRIM('http://newspapers.library.wales/view/4121281/4121288/94/'),99), | campo url_artigo. Este campo é um VARCHAR(99), portanto tem um máximo de 99 caracteres. Inserir uma URL mais longa que 99 caracteres causaria um erro, portanto, duas funções são utilizadas para controlar isso. RTRIM() reduz espaços residuais à direita da URL. LEFT(value,99) retorna apenas os 99 caracteres mais à esquerda da URL reduzida. Esta URL é mais curta que isso, então essas funções estão aqui apenas como exemplo. |
+| LEFT(RTRIM('https://newspapers.library.wales/view/4121281/4121288/94/'),99), | campo url_artigo. Este campo é um VARCHAR(99), portanto tem um máximo de 99 caracteres. Inserir uma URL mais longa que 99 caracteres causaria um erro, portanto, duas funções são utilizadas para controlar isso. RTRIM() reduz espaços residuais à direita da URL. LEFT(value,99) retorna apenas os 99 caracteres mais à esquerda da URL reduzida. Esta URL é mais curta que isso, então essas funções estão aqui apenas como exemplo. |
 | 'German+Submarine');                                                        | campo termo_busca_usado                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 Opcional: Modifique a declaração INSERT acima e execute-a algumas vezes. Por exemplo:
@@ -917,7 +917,7 @@ Aqui abaixo está o gráfico que deveria aparecer:
 
 Se deseja colocar um banco de dados num website, uma maneira de fazê-lo é usando MySQL e a linguagem PHP para construir as páginas do site. Um exemplo deste tipo de website é o que construí para [buscar edições do "the Equity newspaper"](https://perma.cc/237N-DD9E). O livro de Larry Ullman's, *PHP and MySQL for Dynamic Web Sites*, aborda como configurar e conectar um banco de dados usando MySQL e PHP de uma maneira resistente à hackers.
 
-Para exemplos do uso de SQL para ordenar e agrupar dados, assim com também realizar cálculos, veja: [MySQL by Examples for Beginners](http://web.archive.org/web/20171228130133/https://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html) ou MySQL [Examples of Common Queries](https://perma.cc/84HN-9DBL).
+Para exemplos do uso de SQL para ordenar e agrupar dados, assim com também realizar cálculos, veja: [MySQL by Examples for Beginners](https://web.archive.org/web/20171228130133/https://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html) ou MySQL [Examples of Common Queries](https://perma.cc/84HN-9DBL).
 
 # Conclusão
 
@@ -935,7 +935,7 @@ Ullman, L. 2005. *PHP and MySQL for Dynamic Web Sites, 2nd ed.* Berkeley, Calif:
 
 # Notas
 
-[^1]: Jason A. French, "Using R With MySQL Databases," blog (3 July 2014), [http://www.jason-french.com/blog/2014/07/03/using-r-with-mysql-databases/](https://perma.cc/5VYV-L5PG).
+[^1]: Jason A. French, "Using R With MySQL Databases," blog (3 July 2014), [https://www.jason-french.com/blog/2014/07/03/using-r-with-mysql-databases/](https://perma.cc/5VYV-L5PG).
 
 [^2]: Taylor Arnold and Lauren Tilton, "Basic Text Processing in R," Programming Historian (27 March 2017), [tradução para português](/pt/licoes/processamento-basico-texto-r).
 

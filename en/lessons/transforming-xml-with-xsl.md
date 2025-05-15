@@ -239,7 +239,7 @@ The command line code examples we will show here will assume that this is the ca
 
 # Choosing and Preparing XML Data
 
-In order to begin transforming XML, you will need to obtain a well-formed dataset. Many online historical databases are built upon XML and provide their data freely. This tutorial will make use of the [Scissors and Paste Database](http://scissors-and-paste.net).
+In order to begin transforming XML, you will need to obtain a well-formed dataset. Many online historical databases are built upon XML and provide their data freely. This tutorial will make use of the [Scissors and Paste Database](https://scissors-and-paste.net).
 
 The *Scissors and Paste Database* is a collaborative and growing collection of articles from British and imperial newspapers in the 18th and 19th centuries. Its original purpose was to allow for careful comparisons of reprints (copies) that appeared in multiple newspapers as well as to detect similarly themed articles across different English-language publications. Like many XML databases, *Scissors and Paste* contains both data (the article's text), formatting information (such as italics and justification), and metadata. This metadata includes documentation about the particular article, such as its pagination and printing date, information about the newspaper in which it was published, and the themes, individuals or locations mentioned in the text.
 
@@ -318,7 +318,7 @@ The first three lines of your XSL file should be the following:
 ```
 
 The first line documents that this is an XML document encoded as UTF-8.
-The second line states that the document is an XSL document version 1.0 and the standards (or [namespace](https://en.wikipedia.org/wiki/Namespace)) established by the [World Wide Web Consortium](http://www.w3.org/), whose web address you have listed.
+The second line states that the document is an XSL document version 1.0 and the standards (or [namespace](https://en.wikipedia.org/wiki/Namespace)) established by the [World Wide Web Consortium](https://www.w3.org/), whose web address you have listed.
 (Note that an XSL document is ultimately an XML document!)
 Finally, the third line tells your transformer what sort of output you would like to create. In this case, you are indicating that you will be creating a plain-text file.
 (You could also have written `xml` or `html`, instead of `text`, in order to produce an XML or and HTML document, respectively.)

@@ -143,10 +143,10 @@ Unfortunately, not all websites have such readable and reliable URLs.
 
 Spend a few minutes looking at Benjamin Bowsey’s trial page. Here we are
 not so much interested in what the transcript says, but what features
-the page has. Notice the [View as XML](http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes) link at the bottom that takes
+the page has. Notice the [View as XML](https://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes) link at the bottom that takes
 you to a heavily marked up version of the text which may be useful to
 certain types of research. You can also look at a [scan of the original
-document](http://www.oldbaileyonline.org/images.jsp?doc=178006280084), which was transcribed to make this resource.
+document](https://www.oldbaileyonline.org/images.jsp?doc=178006280084), which was transcribed to make this resource.
 
 Now let's try opening the page using Python. Copy the following program
 into Komodo Edit and save it as `open-webpage.py`. When you execute the
@@ -258,8 +258,8 @@ file to make sure you have the correct code.
 
 -   programming-historian-1 ([zip][])
 
-  [Old Bailey Online]: http://www.oldbaileyonline.org/
+  [Old Bailey Online]: https://www.oldbaileyonline.org/
   [Downloading Multiple Records Using Query Strings]: /lessons/downloading-multiple-records-using-query-strings
   [Old]: /images/old-bailey.png "Old"
-  [Gordon Riots]: http://en.wikipedia.org/wiki/Gordon_Riots
+  [Gordon Riots]: https://en.wikipedia.org/wiki/Gordon_Riots
   [zip]: /assets/python-lessons1.zip

@@ -234,7 +234,7 @@ plt.savefig("stilometry_comparacao.jpeg", dpi=300, bbox_inches='tight')
 plt.show()    
 ```
 
-Se você estiver trabalhando em um [Jupyter Notebook](http://jupyter.org/), adicione a expressão `%matplotlib inline` após a importação das bibliotecas; caso contrário, você pode não ver os gráficos em sua tela. Se você estiver trabalhando em um [Jupyter Lab](http://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html), substitua esta expressão por `%matplotlib ipympl`.
+Se você estiver trabalhando em um [Jupyter Notebook](https://jupyter.org/), adicione a expressão `%matplotlib inline` após a importação das bibliotecas; caso contrário, você pode não ver os gráficos em sua tela. Se você estiver trabalhando em um [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html), substitua esta expressão por `%matplotlib ipympl`.
 
 A primeira linha no trecho de código acima carrega o módulo *Natural Language Toolkit (nltk)*, que contém um número enorme de funções e recursos úteis para processamento de texto. Mal tocaremos em seus fundamentos nesta lição; se você decidir explorar mais a análise de texto em Python, recomendo fortemente que comece com [a documentação do nltk](https://www.nltk.org/).
 

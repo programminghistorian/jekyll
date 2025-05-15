@@ -72,7 +72,7 @@ Hay que tener en cuenta que cuando alguien se refiere a un "sitio web de Jekyll"
 
 Dado que los sitios estáticos no son más que archivos de texto (sin una base de datos que complique las cosas), es posible *versionarlos* fácilmente, es decir, usar una herramienta para llevar un registro de las diferentes versiones del sitio a lo largo del tiempo rastreando los cambios en los archivos de texto que lo componen. El control de versiones es muy útil cuando deseamos combinar ambas versiones (por ejemplo, dos estudiantes escriben una publicación de blog juntos y deseamos combinar sus dos versiones) o cuando queremos comparar archivos para buscar diferencias entre ellos (por ejemplo, "¿Cómo se describía el proyecto en la página 'Acerca de' original?"). El control de versiones es muy útil cuando se trabaja en equipo (por ejemplo, permite combinar y rastrear el trabajo de diferentes personas), pero también es útil al crear o ejecutar un sitio web por nuestra propia cuenta.
 
-Puedes leer más acerca de [Jekyll](http://jekyllrb.com/docs/home/) o [generadores de sitios estáticos](https://davidwalsh.name/introduction-static-site-generators) (en inglés).
+Puedes leer más acerca de [Jekyll](https://jekyllrb.com/docs/home/) o [generadores de sitios estáticos](https://davidwalsh.name/introduction-static-site-generators) (en inglés).
 
 ### GitHub & GitHub Pages <a id="section0-2"></a>
 
@@ -132,7 +132,7 @@ La cuenta de usuario de GitHub nos permite alojar nuestro sitio web (ponerlo a d
 
 1\. Visita [GitHub.com](https://github.com/) y haz clic en el botón verde "Sign up" (Registrarse).
 
-2\. En la página siguiente, ingresa el nombre de usuario deseado. El nombre de usuario es visible para otros usuarios, nos identifica en GitHub y también es parte de la URL de nuestro sitio. Por ejemplo, si el nombre de usuario de GitHub es *hdcaicyt*, la URL del sitio será http://hdcaicyt.github.io/. (Ten en cuenta que uno también puede comprar su propio nombre de dominio y usarlo para este sitio, pero eso no se tratará en este tutorial). Escribe una dirección de correo electrónico de uso habitual y añade una contraseña que contenga al menos un número y una letra minúscula.
+2\. En la página siguiente, ingresa el nombre de usuario deseado. El nombre de usuario es visible para otros usuarios, nos identifica en GitHub y también es parte de la URL de nuestro sitio. Por ejemplo, si el nombre de usuario de GitHub es *hdcaicyt*, la URL del sitio será https://hdcaicyt.github.io/. (Ten en cuenta que uno también puede comprar su propio nombre de dominio y usarlo para este sitio, pero eso no se tratará en este tutorial). Escribe una dirección de correo electrónico de uso habitual y añade una contraseña que contenga al menos un número y una letra minúscula.
 
 3\. En el recuadro "Verify your account", presiona el botón "Verify" (Verificar). Usa las flechas para poner la imagen en el sentido correcto. Finalmente, haz clic en "Select a plan" (Seleccionar un plan).
 
@@ -164,7 +164,7 @@ La aplicación GitHub Desktop facilita la actualización del sitio web luego de 
 
 ### Editor de texto <a id="section1-3"></a>
 
-Es necesario descargar e instalar un editor de texto para realizar pequeñas personalizaciones al código de nuestro sitio Jekyll. Algunas buenas opciones gratuitas incluyen [jEdit](https://www.jedit.org), [Atom](https://atom.io/), [SublimeText](https://www.sublimetext.com/3), [Notepad ++](https://notepad-plus-plus.org/) para Windows o [BBedit](http://www.barebones.com/products/bbedit) para Mac. Los procesadores de texto, como Microsoft Word o WordPad, no son una buena opción porque es fácil olvidar cómo formatear y guardar el archivo; es posible agregar accidentalmente formatos y caracteres extra y/o invisibles que pueden generar problemas en el sitio. Por eso es mejor usar programas que puedan guardar lo que escribimos como texto plano (por ejemplo, HTML o Markdown).
+Es necesario descargar e instalar un editor de texto para realizar pequeñas personalizaciones al código de nuestro sitio Jekyll. Algunas buenas opciones gratuitas incluyen [jEdit](https://www.jedit.org), [Atom](https://atom.io/), [SublimeText](https://www.sublimetext.com/3), [Notepad ++](https://notepad-plus-plus.org/) para Windows o [BBedit](https://www.barebones.com/products/bbedit) para Mac. Los procesadores de texto, como Microsoft Word o WordPad, no son una buena opción porque es fácil olvidar cómo formatear y guardar el archivo; es posible agregar accidentalmente formatos y caracteres extra y/o invisibles que pueden generar problemas en el sitio. Por eso es mejor usar programas que puedan guardar lo que escribimos como texto plano (por ejemplo, HTML o Markdown).
 
 *Opcional:* Consulta la sección ["Creación en Markdown"](#section5-2) más abajo, para más información sobre un programa de edición específico en Markdown, que también puedes instalar cuando ya estemos en la etapa de crear páginas web y/o publicaciones (posts) de blog.
 
@@ -214,7 +214,7 @@ Abre una ventana de línea de comandos (*Aplicaciones > Utilidades > Terminal*) 
 
 ### Herramientas de línea de comandos <a id="section2-1"></a>
 
-Primero vamos a instalar las "herramientas de línea de comandos" de Mac para poder usar [Homebrew](http://brew.sh/) (que instalaremos a continuación). Homebrew permite descargar e instalar desde la línea de comandos software de código abierto (es un "administrador de paquetes"), lo que facilitará la instalación de Ruby (el lenguaje en el que se basa Jekyll).
+Primero vamos a instalar las "herramientas de línea de comandos" de Mac para poder usar [Homebrew](https://brew.sh/) (que instalaremos a continuación). Homebrew permite descargar e instalar desde la línea de comandos software de código abierto (es un "administrador de paquetes"), lo que facilitará la instalación de Ruby (el lenguaje en el que se basa Jekyll).
 
 En el Terminal, pega el siguiente código y presiona Enter:
 
@@ -235,7 +235,7 @@ Una vez que termine la instalación, va a aparecer un mensaje de instalación ex
 
 ### Homebrew <a id="section2-2"></a>
 
-Al terminar la instalación de las herramientas de la línea de comandos, regresa a la ventana de la línea de comandos y copia el siguiente texto para instalar [Homebrew](http://brew.sh/):
+Al terminar la instalación de las herramientas de la línea de comandos, regresa a la ventana de la línea de comandos y copia el siguiente texto para instalar [Homebrew](https://brew.sh/):
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -340,7 +340,7 @@ Haz clic derecho en la carpeta "GitHub" y elige "Copiar GitHub". La ruta de la c
 
 	Es necesario esperar a que vuelva a aparecer el prompt para continuar con el siguiente paso.
 
-4\. La URL pública de tu sitio tendrá la siguiente forma: [http://amandavisconti.github.io/JekyllDemo/](http://amandavisconti.github.io/JekyllDemo/) (*amandavisconti* es el usuario de GitHub de la autora y *JekyllDemo* el nombre del sitio que ingresamos en este paso (*es posible pagar y usar tu propia [URL personalizada](#section7-2), pero no lo cubriremos en este tutorial*). **Los sitios en mayúsculas y minúsculas *no* dirigen al mismo sitio web**, así que a diferencia del ejemplo **JekyllDemo** es recomendable elegir un nombre todo en minúsculas para asegurarse de que la gente lo escriba correctamente.
+4\. La URL pública de tu sitio tendrá la siguiente forma: [https://amandavisconti.github.io/JekyllDemo/](https://amandavisconti.github.io/JekyllDemo/) (*amandavisconti* es el usuario de GitHub de la autora y *JekyllDemo* el nombre del sitio que ingresamos en este paso (*es posible pagar y usar tu propia [URL personalizada](#section7-2), pero no lo cubriremos en este tutorial*). **Los sitios en mayúsculas y minúsculas *no* dirigen al mismo sitio web**, así que a diferencia del ejemplo **JekyllDemo** es recomendable elegir un nombre todo en minúsculas para asegurarse de que la gente lo escriba correctamente.
 
    En la línea de comandos, escribe lo siguiente (reemplaza *JekyllDemo* con el nombre que desees para tu sitio):
 
@@ -428,7 +428,7 @@ Ya tenemos un sitio web básico privado, accesible únicamente en nuestra comput
    - **email**: tu dirección de email.
    - **description**: la descripción del sitio web que será usada por los motores de búsqueda y que será utilizada por RSS.
    - **baseurl**: completa entre las comillas con una barra oblicua **/** seguida del nombre de la carpeta de tu sitio web (por ej., "/JekyllDemo") para que el sitio tome la URL correcta. Asegúrate de que tu carpeta está en el mismo repositorio de GitHub con el mismo nombre y termina con la barra oblicua ("/"). Esto se requiere para publicarlo en GitHub Pages. 
-   - **url**: reemplaza "http://yourdomain.com" por "localhost:4000" para que el navegador tome la versión local de tu sitio en la URL correcta.
+   - **url**: reemplaza "https://yourdomain.com" por "localhost:4000" para que el navegador tome la versión local de tu sitio en la URL correcta.
    - **twitter_username**: tu nombre de usuario de Twitter (no incluir @).
    - **github_username**: tu nombre de usuario de GitHub.
 
@@ -472,11 +472,11 @@ Esta sección describirá cómo crear páginas o entradas de blog en tu sitio we
 
 Markdown es un lenguaje de marcado para dar formato a tus escritos para que puedan ser leídos en la web: es un conjunto de símbolos, fáciles de recordar, que muestran dónde debe añadirse el formato del texto (por ejemplo, un # delante del texto significa que se le da formato como encabezado, mientras que un * significa que tendrá formato como elemento de lista con viñetas). Para Jekyll en particular, Markdown permite escribir páginas web y entradas de blog de una manera cómoda para los autores (por ejemplo, no es necesario buscar/añadir etiquetas HTML mientras se intenta escribir un ensayo), y que el escrito aparezca con un buen formato en la web (es decir, convertido de texto a HTML).
 
-En esta lección no cubriremos Markdown; si no estás familiarizado con él, puedes crear entradas y páginas sin formato (es decir, sin negrita / cursiva, encabezados, listas enumeradas o viñetas). Pero es sencillo aprender a agregarlos: aquí hay una guía de [referencias](http://kramdown.gettalong.org/quickref.html) de markdown en inglés, también puedes consultar esta guía en [español](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), así como la lección en [Programming Historian de Sarah Simpkin sobre el cómo y porque escribir con Markdown](/es/lecciones/introduccion-a-markdown). Consulta estos enlaces si quieres dar formato al texto (cursiva, negrita, encabezados, listas enumeradas o viñetas), añadir hipervínculos, incrustar imágenes u otros archivos.
+En esta lección no cubriremos Markdown; si no estás familiarizado con él, puedes crear entradas y páginas sin formato (es decir, sin negrita / cursiva, encabezados, listas enumeradas o viñetas). Pero es sencillo aprender a agregarlos: aquí hay una guía de [referencias](https://kramdown.gettalong.org/quickref.html) de markdown en inglés, también puedes consultar esta guía en [español](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), así como la lección en [Programming Historian de Sarah Simpkin sobre el cómo y porque escribir con Markdown](/es/lecciones/introduccion-a-markdown). Consulta estos enlaces si quieres dar formato al texto (cursiva, negrita, encabezados, listas enumeradas o viñetas), añadir hipervínculos, incrustar imágenes u otros archivos.
 
-Asegúrate que la guía de referencias de Markdown que consultes sea similar a "[kramdown](http://kramdown.gettalong.org/quickref.html)", porque es lo que admite GitHub Pages (donde alojaremos nuestro sitio web). (Hay [varios "tipos" de Markdown](https://github.com/jgm/CommonMark/wiki/Markdown-Flavors) con sutiles diferencias en lo que respecta a símbolos, pero en su mayoría los que se usan más frecuentemente, como los que crean el formato de encabezados, son iguales. Por lo tanto, puedes utilizar una hoja de referencia Markdown que no especifique que se trate de kramdown, pero si recibes errores en tu sitio web usando símbolos que no están incluidos en kramdown, este podría ser el motivo).
+Asegúrate que la guía de referencias de Markdown que consultes sea similar a "[kramdown](https://kramdown.gettalong.org/quickref.html)", porque es lo que admite GitHub Pages (donde alojaremos nuestro sitio web). (Hay [varios "tipos" de Markdown](https://github.com/jgm/CommonMark/wiki/Markdown-Flavors) con sutiles diferencias en lo que respecta a símbolos, pero en su mayoría los que se usan más frecuentemente, como los que crean el formato de encabezados, son iguales. Por lo tanto, puedes utilizar una hoja de referencia Markdown que no especifique que se trate de kramdown, pero si recibes errores en tu sitio web usando símbolos que no están incluidos en kramdown, este podría ser el motivo).
 
-Si te interesa un editor de Markdown, puedes utilizar uno como [Typora](http://www.typora.io/) (OS X y Windows; de descarga gratuita), que te permitirá utilizar atajos de teclado (por ejemplo, resaltar texto y presionar cmd-B o Ctrl-B para ponerlo en negrita) y/o hacer que se muestre tal y cómo se verá en la web (ver los encabezados con el estilo de los encabezados, en lugar del texto normal con un # delante de ellos).
+Si te interesa un editor de Markdown, puedes utilizar uno como [Typora](https://www.typora.io/) (OS X y Windows; de descarga gratuita), que te permitirá utilizar atajos de teclado (por ejemplo, resaltar texto y presionar cmd-B o Ctrl-B para ponerlo en negrita) y/o hacer que se muestre tal y cómo se verá en la web (ver los encabezados con el estilo de los encabezados, en lugar del texto normal con un # delante de ellos).
 
 ### Creación de páginas <a id="section5-3"></a>
 
@@ -497,7 +497,7 @@ Si te interesa un editor de Markdown, puedes utilizar uno como [Typora](http://w
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-22.png" caption="La nueva página en nuestro sitio aparece en el menú" %}
 
-Como referencia, puedes consultar [un ejemplo de página](http://amandavisconti.github.io/JekyllDemo/resume/) en mi sitio de demostración, o ver [el archivo que está detrás de esa página](https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/resume.md).
+Como referencia, puedes consultar [un ejemplo de página](https://amandavisconti.github.io/JekyllDemo/resume/) en mi sitio de demostración, o ver [el archivo que está detrás de esa página](https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/resume.md).
 
 ### Creación de entradas <a id="section5-2"></a>
 
@@ -531,7 +531,7 @@ Ten en cuenta que **la URL de la publicación** es la URL de tu sitio web local 
 
 **Para crear nuevos posts**, duplica un archivo existente. Recuerda cambiar el texto preliminar, el contenido dentro de la entrada, así como el nombre del archivo (fecha y título).
 
-Como referencia, puedes consultar [el siguiente ejemplo de entrada](https://amandavisconti.github.io/JekyllDemo/2016/11/12/a-post-about-my-research.html) en mi sitio de demostración, o acceder al [código que ejecuta esa entrada](http://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/_posts/2016-02-29-a-post-about-my-research.markdown).
+Como referencia, puedes consultar [el siguiente ejemplo de entrada](https://amandavisconti.github.io/JekyllDemo/2016/11/12/a-post-about-my-research.html) en mi sitio de demostración, o acceder al [código que ejecuta esa entrada](https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/_posts/2016-02-29-a-post-about-my-research.markdown).
 
 ## "Hosting" en GitHub Pages <a id="section6"></a>
 
@@ -610,18 +610,18 @@ Puedes personalizar el tema de tu sitio realizando cambios en los archivos que s
 
 - Tema ["Ed" para ediciones digitales mínimas](https://github.com/minicomp/ed/), de Alex Gil  (gratis)
 - Tema ["Digital Edition"](https://github.com/emory-libraries-ecds/digitaledition-jekylltheme), de Rebecca Sutton Koese (gratis)
-- El directorio de [Jekyll Themes](http://jekyllthemes.org/) (gratis)
-- [JekyllThemes.io](http://jekyllthemes.io/) (gratis y pago)
+- El directorio de [Jekyll Themes](https://jekyllthemes.org/) (gratis)
+- [JekyllThemes.io](https://jekyllthemes.io/) (gratis y pago)
 
 ### Funcionalidad <a id="section7-2"></a>
 
-- Los [plugins de Jekyll](http://jekyllrb.com/docs/plugins/) te permiten añadir pequeños segmentos de código que permiten sumar funcionalidades a tu sitio, tales como [realizar búsquedas de texto](https://github.com/PascalW/jekyll_indextank), [permitir el uso de emojis](https://github.com/yihangho/emoji-for-jekyll), o [crear nubes de palabras](https://gist.github.com/ilkka/710577).
+- Los [plugins de Jekyll](https://jekyllrb.com/docs/plugins/) te permiten añadir pequeños segmentos de código que permiten sumar funcionalidades a tu sitio, tales como [realizar búsquedas de texto](https://github.com/PascalW/jekyll_indextank), [permitir el uso de emojis](https://github.com/yihangho/emoji-for-jekyll), o [crear nubes de palabras](https://gist.github.com/ilkka/710577).
 
 - Si deseas alojar tu sitio en GitHub Pages, como lo hicimos en esta lección, solo podrás utilizar los plugins de Jekyll que ya están incluidos en las _gems_ de GitHub Pages que instalamos (aquí tienes una [lista completa de lo que hemos instalado](https://pages.github.com/versions/), cuando añadimos la _gem_ de GitHub Pages a nuestro Gemfile).
 
-- Si decides alojar tu sitio de Jekyll en otro servidor que no sea GitHub Pages, puedes utilizar cualquier plugin de Jekyll (las instrucciones para alojar tu sitio varían entre diferentes proveedores de hosting web y no las desarrollaremos en esta lección, pero [aquí](http://jekyllrb.com/docs/plugins/) tienes una página que explica cómo instalar plugins, una vez que poseas tu sitio con hosting propio). Puedes realizar una búsqueda utilizando “Jekyll plugin” y añadir la funcionalidad que necesites para explorar si hay una herramienta apropiada disponible, o revisar la [documentación sobre plugins](http://jekyllrb.com/docs/plugins/) en el sitio oficial de Jekyll.
+- Si decides alojar tu sitio de Jekyll en otro servidor que no sea GitHub Pages, puedes utilizar cualquier plugin de Jekyll (las instrucciones para alojar tu sitio varían entre diferentes proveedores de hosting web y no las desarrollaremos en esta lección, pero [aquí](https://jekyllrb.com/docs/plugins/) tienes una página que explica cómo instalar plugins, una vez que poseas tu sitio con hosting propio). Puedes realizar una búsqueda utilizando “Jekyll plugin” y añadir la funcionalidad que necesites para explorar si hay una herramienta apropiada disponible, o revisar la [documentación sobre plugins](https://jekyllrb.com/docs/plugins/) en el sitio oficial de Jekyll.
 
-- También puedes mantener GitHub Pages como hosting gratuito para tu sitio, pero darle un **nombre de dominio personalizado** (los dominios pueden ser adquiridos por un costo razonable -que suele rondar los 10 dólares anuales- a través de un registrador de dominios como [NearlyFreeSpeech.net](https://www.nearlyfreespeech.net/services/domains)). Por ejemplo, el blog de la autora de este tutorial, [LiteratureGeek.com](http://literaturegeek.com/), fue hecho con Jekyll y está alojado en GitHub Pages, al igual que el sitio que creaste en esta lección, pero utiliza un dominio personalizado que la autora compró y configuró para que condujera a su sitio web. Las instrucciones para establecer un dominio personalizado pueden ser encontradas [aquí](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).   
+- También puedes mantener GitHub Pages como hosting gratuito para tu sitio, pero darle un **nombre de dominio personalizado** (los dominios pueden ser adquiridos por un costo razonable -que suele rondar los 10 dólares anuales- a través de un registrador de dominios como [NearlyFreeSpeech.net](https://www.nearlyfreespeech.net/services/domains)). Por ejemplo, el blog de la autora de este tutorial, [LiteratureGeek.com](https://literaturegeek.com/), fue hecho con Jekyll y está alojado en GitHub Pages, al igual que el sitio que creaste en esta lección, pero utiliza un dominio personalizado que la autora compró y configuró para que condujera a su sitio web. Las instrucciones para establecer un dominio personalizado pueden ser encontradas [aquí](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).   
 
 <div class="alert alert-warning">
 Si configuras un dominio personalizado para tu sitio web alojado en GitHub Pages, asegúrate de leer y seguir los pasos de <a href='https://docs.github.com/es/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages'>la documentación de GitHub</a> para verificar tu dominio y evitar el uso de registros DNS comodín, para prevenir así un fallo de seguridad conocido.
@@ -649,7 +649,7 @@ Si configuras un dominio personalizado para tu sitio web alojado en GitHub Pages
 
 ### Ayuda <a id="section9-1"></a>
 
-Si encuentras algún problema, [Jekyll tiene una página para problemas, conocidos como troubleshooting](https://jekyllrb.com/docs/troubleshooting/), que te puede ayudar. Si estás trabajando en la línea de comandos y recibes un mensaje de error, no te olvides de buscar más acerca del error en la web. Más allá de los motores de búsqueda tradicionales, [el sitio StackExchange](http://stackexchange.com/) es un buen lugar para encontrar preguntas y respuestas de gente que tuvo este tipo de problemas.
+Si encuentras algún problema, [Jekyll tiene una página para problemas, conocidos como troubleshooting](https://jekyllrb.com/docs/troubleshooting/), que te puede ayudar. Si estás trabajando en la línea de comandos y recibes un mensaje de error, no te olvides de buscar más acerca del error en la web. Más allá de los motores de búsqueda tradicionales, [el sitio StackExchange](https://stackexchange.com/) es un buen lugar para encontrar preguntas y respuestas de gente que tuvo este tipo de problemas.
 
 ### Creditos <a id="section9-2"></a>
 
@@ -660,7 +660,7 @@ Gracias a Fred Gibbs, editor del *Programming Historian* por editar, debatir y r
 Puedes visitar estos sitios para más documentación, inspiración y para aprender más sobre Jekyll:
 
 * [Documentación oficial de Jekyll](https://jekyllrb.com/docs/home/)
-* Jekyll tiene links a recursos "no oficiales" sobre su funcionamiento en Windows: [https://jekyll-windows.juthilo.com/](http://jekyll-windows.juthilo.com/) y [https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/)
+* Jekyll tiene links a recursos "no oficiales" sobre su funcionamiento en Windows: [https://jekyll-windows.juthilo.com/](https://jekyll-windows.juthilo.com/) y [https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/)
 * [https://help.github.com/articles/using-jekyll-with-pages/](https://help.github.com/articles/using-jekyll-with-pages/)
 * Amanda Visconti, ["Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)"](https://literaturegeek.com/2015/12/08/WhyJekyllGitHub)
 * Alex Gil, ["How (and Why) to Generate a Static Website Using Jekyll, Part 1"](https://chronicle.com/blogs/profhacker/jekyll1/60913)

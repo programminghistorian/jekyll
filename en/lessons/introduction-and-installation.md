@@ -57,7 +57,7 @@ The programming language we will use in this series of lessons is Python,
 a free, open source language. Unless otherwise noted, we will be using
 **Python 3** throughout. Version 2 is no longer officially supported,
 but you might still find it used in older projects or lessons.
-[Python 3 has a few differences in formatting](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html) (think grammar rules), so beware if you find examples online that still use Python 2. They might not run under current versions of Python.
+[Python 3 has a few differences in formatting](https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html) (think grammar rules), so beware if you find examples online that still use Python 2. They might not run under current versions of Python.
 
 Backup Your Work!
 -----------------
@@ -86,10 +86,10 @@ doesn't work on your platform, please let us know.
 -   [Windows Python Installation][]
 -   [Linux Python Installation][]
 
-  [Python programming language]: http://www.python.org/
-  [Beautiful Soup HTML/XML parser]: http://www.crummy.com/software/BeautifulSoup/
-  [Komodo Edit]: http://www.activestate.com/komodo-edit
-  [Python Editors]: http://wiki.python.org/moin/PythonEditors/
+  [Python programming language]: https://www.python.org/
+  [Beautiful Soup HTML/XML parser]: https://www.crummy.com/software/BeautifulSoup/
+  [Komodo Edit]: https://www.activestate.com/komodo-edit
+  [Python Editors]: https://wiki.python.org/moin/PythonEditors/
   [Jungle Disk]: https://www.jungledisk.com/
   [Dropbox]: https://www.dropbox.com/home
   [Viewing HTML Files]: /lessons/viewing-html-files

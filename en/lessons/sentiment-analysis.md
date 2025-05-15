@@ -29,7 +29,7 @@ doi: 10.46430/phen0079
 This lesson uses [sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_analysis) as the basis for an [exploratory data analysis](https://en.wikipedia.org/wiki/Exploratory_data_analysis) of a large textual corpus. It is appropriate for readers with some basic prior experience programming with [Python](https://www.python.org/). If you have no experience with Python or computer programming, the author recommends working through the first few lessons in the [Introduction to Python series](/lessons/introduction-and-installation). By the end of this lesson, you will be able to:
 
 * Devise appropriate research questions that use [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing) (NLP) on a textual corpus.
-* Use Python and the [Natural Language Processing Toolkit](http://www.nltk.org/) (NLTK) to generate sentiment scores for a text.
+* Use Python and the [Natural Language Processing Toolkit](https://www.nltk.org/) (NLTK) to generate sentiment scores for a text.
 * Critically evaluate the sentiment analysis scores and adjust [parameters](https://en.wikipedia.org/wiki/Parameter) and methodology as appropriate.
 * Identify next steps to continue learning about exploratory data analysis and programmatic approaches to qualitative data.
 
@@ -67,7 +67,7 @@ For researchers, the Enron Scandal resulted in the creation of one of the larges
 
 When the organized and redacted [Enron E-mail Dataset](https://www.cs.cmu.edu/~./enron/) was released in 2004, researchers discovered an unprecedented opportunity: direct access to the spontaneous, largely uncensored way employees in a doomed corporation communicated with one another. Suddenly, researchers had access to how people communicated at work at an unprecedented scale. This mattered for researchers interested in the special case of the Enron scandal and collapse, but also for researchers interested in a wide spectrum of questions about everyday communication at work.
 
-In the following decade, hundreds of new studies sprouted up from the e-mails pursuing questions as diverse as [social network theory](https://en.wikipedia.org/wiki/Social_network), community and [anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection), gender and communication within organizations, behavioral change during an organizational crisis, and insularity and community formation. The use of social network theory in the humanities proposes some [fascinating possibilities](http://journals.sagepub.com/doi/abs/10.1177/1749975514542486), but is not without [significant debate](http://www.emeraldinsight.com/doi/abs/10.1108/S0733-558X%282014%290000040001).
+In the following decade, hundreds of new studies sprouted up from the e-mails pursuing questions as diverse as [social network theory](https://en.wikipedia.org/wiki/Social_network), community and [anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection), gender and communication within organizations, behavioral change during an organizational crisis, and insularity and community formation. The use of social network theory in the humanities proposes some [fascinating possibilities](https://journals.sagepub.com/doi/abs/10.1177/1749975514542486), but is not without [significant debate](https://www.emeraldinsight.com/doi/abs/10.1108/S0733-558X%282014%290000040001).
 
 In addition to the sheer quantity of messages included (the corpus contains over 600,000 messages), the Enron E-mail Corpus also includes the metadata necessary for researchers to pursue a number of research questions. Just as the presence of envelopes with legible sender and recipient addresses would be a wonderful asset for researchers of historic letter correspondences, the presence of sender and recipient e-mail addresses allows researchers to associate e-mails with particular known individuals within the corporation. As some individuals had multiple e-mail addresses, or more than one individual may have shared the same address, the metadata is not fool proof, but it is incredibly insightful. The rest of the tutorial will go through how to apply and interpret sentiment analysis of e-mails in this corpus.
 
@@ -84,7 +84,7 @@ In this tutorial, you will be using [Python](https://www.python.org/) along with
 To complete the example below, you will need to install the following:
 
 * Python 3 (ideally 3.5 or higher) - [Download & install instructions from the Python wiki](https://wiki.python.org/moin/BeginnersGuide/Download)
-* NLTK (3.2.5 or higher) - [Download & install instructions from NLTK.org](http://www.nltk.org/install.html)
+* NLTK (3.2.5 or higher) - [Download & install instructions from NLTK.org](https://www.nltk.org/install.html)
 
 ## Getting Started with NLTK
 
@@ -94,7 +94,7 @@ If you need any help downloading and installing the module for [Python 3](https:
 
 In our case, we will be using two NLTK tools in particular:
 
-* The '[VADER Sentiment Analysis](http://www.nltk.org/_modules/nltk/sentiment/vader.html)' tool (generates positive, negative, and neutral sentiment scores for a given input)
+* The '[VADER Sentiment Analysis](https://www.nltk.org/_modules/nltk/sentiment/vader.html)' tool (generates positive, negative, and neutral sentiment scores for a given input)
 * The 'word_tokenize' tokenizer tool (splits a large text into a sequence of smaller units, like sentences or words)
 
 To use VADER and word_tokenize, we first need to download and install a little extra data for NLTK. NLTK is a very large toolkit, and several of its tools actually require a second download step to gather the necessary collection of data (often coded lexicons) to function correctly.
@@ -115,7 +115,7 @@ You can save this file as "`installation.py`". If you are unsure how to save and
 
 If you do know how to run Python scripts, run the file using Python 3.
 
-[*VADER*](http://www.nltk.org/_modules/nltk/sentiment/vader.html "Vader page in the NLTK Documentation") (Valence Aware Dictionary and sEntiment Reasoner) is a sentiment intensity tool added to NLTK in 2014. Unlike other techniques that require training on related text before use, *VADER* is ready to go for analysis without any special setup. *VADER* is unique in that it makes fine-tuned distinctions between varying degrees of positivity and negativity. For example, *VADER* scores "comfort" moderately positively and "euphoria" extremely positively. It also attempts to capture and score textual features common in informal online text such as capitalizations, exclamation points, and emoticons, as shown in the table below:
+[*VADER*](https://www.nltk.org/_modules/nltk/sentiment/vader.html "Vader page in the NLTK Documentation") (Valence Aware Dictionary and sEntiment Reasoner) is a sentiment intensity tool added to NLTK in 2014. Unlike other techniques that require training on related text before use, *VADER* is ready to go for analysis without any special setup. *VADER* is unique in that it makes fine-tuned distinctions between varying degrees of positivity and negativity. For example, *VADER* scores "comfort" moderately positively and "euphoria" extremely positively. It also attempts to capture and score textual features common in informal online text such as capitalizations, exclamation points, and emoticons, as shown in the table below:
 
 {% include figure.html filename="sentiment-analysis1.png" caption="Vader captures slight gradations in enthusiasm. (Hutto and Gilbert, 2014)" %}
 
@@ -420,4 +420,4 @@ Klimt, B., & Yang, Y. (2004). The Enron corpus: A new dataset for email classifi
 
 Tukey, J.W. (1977). *Exploratory Data Analysis*. Addison-Wesley Publishing Company
 
-Quinn, J. (2006, November 14). Ex-Enron man goes back into energy. Retrieved January 10, 2018, from http://www.telegraph.co.uk/finance/2950645/Ex-Enron-man-goes-back-into-energy.html
+Quinn, J. (2006, November 14). Ex-Enron man goes back into energy. Retrieved January 10, 2018, from https://www.telegraph.co.uk/finance/2950645/Ex-Enron-man-goes-back-into-energy.html

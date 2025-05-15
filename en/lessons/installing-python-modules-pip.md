@@ -154,6 +154,6 @@ python -m pip install XXX
 Happy installing!
 
   [pip]: https://pip.pypa.io/en/stable/
-  [curl command]: http://www.thegeekstuff.com/2012/04/curl-examples/
+  [curl command]: https://www.thegeekstuff.com/2012/04/curl-examples/
   [here]: https://bootstrap.pypa.io/get-pip.py
-  [StackOverflow page]: http://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows
+  [StackOverflow page]: https://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows
