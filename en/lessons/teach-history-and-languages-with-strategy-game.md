@@ -3,7 +3,7 @@ title: "Teach History and Languages with a Strategy Computer Game: 0 A.D. in the
 slug: teach-history-and-languages-with-strategy-game
 layout: lesson
 collection: lessons
-date: 2025-05-16
+date: 2025-05-21
 authors:
 - Corey Stephan
 reviewers:
