@@ -117,10 +117,6 @@ Next, the code will install several Python libraries you'll need later on. This 
 * Installs [PyMuPDF](https://pymupdf.readthedocs.io/en/latest/), a PDF reader Python package, and machine learning libraries like [OpenCV](https://opencv.org/) and DeepFace
 * Imports various packages for further processing
 
-<div class="alert alert-warning">
-    May 2025 note for Colab users: Because of an incompatibility between Google Colab and the current version of tensorflow used by DeepFace, you should add the line <code>!pip install tensorflow==2.15.0</code> which installs a specific, compatible version instead. In the future, if you find that the code which calls DeepFace later in the lesson stops working, this may be the reason.
-</div>
-
 ```
 %mkdir yearbook
 %cd yearbook
@@ -135,6 +131,10 @@ import os, shutil, fitz, cv2, numpy as np, pandas as pd, dlib, tensorflow as tf
 from os.path import dirname, join
 from deepface import DeepFace
 ```
+
+<div class="alert alert-info">
+    <b>May 2025 note for Colab users</b>: Because of an incompatibility between Google Colab and the current version of tensorflow used by DeepFace, you should add the line <code>!pip install tensorflow==2.15.0</code> under <code>!pip install DeepFace</code> to install a specific, compatible version instead. In the future, if you find that the code which calls DeepFace below stops working, this may be the reason.
+</div>
 
 ## PDF conversion
 
