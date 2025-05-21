@@ -133,7 +133,7 @@ from deepface import DeepFace
 ```
 
 <div class="alert alert-info">
-    <b>May 2025 note for Colab users</b>:<br>Because of an incompatibility between Google Colab and the current version of tensorflow used by DeepFace, you should add the line <code>!pip install tensorflow==2.15.0</code> under <code>!pip install DeepFace</code> to install a specific, compatible version. In the future, if you find that the code which calls DeepFace further in the lesson stops working, this may be the reason.
+    <b>May 2025 note for Colab users</b>:<br>Because of an incompatibility between Google Colab and the current version of tensorflow used by DeepFace, you should add the line <code>!pip install tensorflow==2.15.0</code> under <code>!pip install DeepFace</code> to install this specific compatible version. In the future, if you find that the code which calls DeepFace under <a href="/en/lessons/facial-recognition-ai-python#identifying-smiles">Identifying Smiles</a> stops working, it may be necessary to update the tensorflow version installed by adjusting this line of code.
 </div>
 
 ## PDF conversion
