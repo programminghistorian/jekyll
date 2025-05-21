@@ -1,5 +1,5 @@
 ---
-title: "Teach History and Languages with a Strategy Computer Game: 0 A.D. in the Classroom"
+title: "Teach History and Languages with a Strategy Computer Game: 0&#x0338; A.D. in the Classroom"
 slug: teach-history-and-languages-with-strategy-game
 layout: lesson
 collection: lessons
@@ -26,7 +26,7 @@ doi: 10.46430/phen0127
 
 ## Introduction
 
-[0 A.D.: Empires Ascendant](https://play0ad.com/) is a cross-platform, free and open source [real-time strategy (RTS)](https://perma.cc/422L-4U9R) computer game of ancient civilization building and warfare making. 0 A.D. is the only entirely customizable digital game that is built with real ancient history as one of its guiding principles. It even includes reconstructed pre-modern languages in both written and spoken forms. Playable in singleplayer and multiplayer modes, 0 A.D. is an ideal software platform for history and language instruction.
+[0&#x0338; A.D.: Empires Ascendant](https://play0ad.com/) (pronounced “zero-ey-dee”) is a cross-platform, free and open source [real-time strategy (RTS)](https://perma.cc/422L-4U9R) computer game of ancient civilization building and warfare making. 0 A.D. is the only entirely customizable digital game that is built with real ancient history as one of its guiding principles. It even includes reconstructed pre-modern languages in both written and spoken forms. Playable in singleplayer and multiplayer modes, 0 A.D. is an ideal software platform for history and language instruction.
 
 In this intermediate-level lesson, I presume some experience with installing software and playing computer games. As you progress, you will learn how to use the hackable [sandbox](https://perma.cc/2H67-VLLP) that is 0 A.D. to help you teach history and languages. Since your students will need some onboarding with 0 A.D., it is advisable to implement this lesson when you and your students are able to learn side by side.
 
@@ -45,7 +45,7 @@ During the last two weeks of the Spring semester of 2023, I brought 0 A.D. into 
 
 As Sylvester Arnab, Samantha Clarke, and Luca Morini write in their 2019 article "Co‑Creativity through Play and Game Design Thinking", 'students discover the importance of elements such as empathy, purpose, meaning, art, creativity, and teamwork in their [game-based] learning regardless of the specific disciplines they are pursuing.'[^1] If creativity is found at the intersection of apparently disconnected subjects, then it would be challenging to think of a more creative partner for secondary or post-secondary education than cooperative real-time strategy (RTS) game design and gameplay.
 
-### 0 A.D. Gameplay
+### 0&#x0338; A.D. Gameplay
 
 When the game begins, you (in the role of an ancient civilization's controller) and your few starting units, who are humbly in the early Village Phase of development with few technologies available, find yourselves isolated from the rest of the world. You are unable to interact with anything beyond the small parcel of land that you control until you have sent scouts to explore beyond your territory. You must scramble to gather food and resources to build houses, farms, and barracks, using the technologies that your civilization actually possessed in its time. 
 
