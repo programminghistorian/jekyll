@@ -243,7 +243,7 @@ A lo largo de este tutorial aprendimos a:
 - Utilizar el software Visone para procesar los datos exportados desde Recogito y elaborar una visualización en el mapa del itinerario que creamos. 
 - Exportar la visualización de nuestro itinerario como un archivo de imagen.
 
-Puedes encontrar un ejemplo del uso de este flujo de trabajo aplicado a la visualización del espacio geográfico en un trabajo de investigación sobre el *Libro de Alexandre* en: Gabriel Calarco, [La visualización del espacio geográfico en las écfrasis del Libro de Alexandre con Recogito y Visone](https://doi.org/10.24215/27187470e035).
+Puedes encontrar un ejemplo del uso de este flujo de trabajo aplicado a la visualización del espacio geográfico en un trabajo de investigación sobre el *Libro de Alexandre* en: Gabriel Calarco, [La visualización del espacio geográfico en las écfrasis del Libro de Alexandre con Recogito y Visone](https://perma.cc/F3WE-HW62).
 
 Si deseas ver más ejemplos del uso de Recogito para el marcado de información geográfica, te sugerimos visitar las ediciones de [*La Argentina Manuscrita*, de Ruy Díaz de Guzmán](https://perma.cc/Z49Y-8WLH) y [*Relación de un viaje al Río de la Plata*, de Acarette du Biscay](https://perma.cc/S4FX-2FVE) del [Laboratorio de Humanidades Digitales del CONICET](https://hdlab.space/). En particular, te invitamos a explorar la [sección de recursos](https://hdlab.space/argentina-y-conquista-del-rio-de-la-plata/recursos/) en donde encontrarás enlaces a los textos marcados con Recogito.
 
