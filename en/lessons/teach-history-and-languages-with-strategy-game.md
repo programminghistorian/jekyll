@@ -37,7 +37,7 @@ This lesson should be of interest to you if you are a secondary or post-secondar
 * Ancient archaeology
 * Ancient languages
 
-In this example, I recreate one of [Julius Caesar](https://perma.cc/JM7S-J7HP)'s famous battles during the [Gallic Wars](https://perma.cc/9TT2-AQQH). You may however choose to follow these steps to build a different scenario for your own purposes, choosing from a variety of ancient civilizations across Eurasia, Africa, and the Americas.
+In this example, I recreate one of [Julius Caesar](https://perma.cc/JM7S-J7HP)'s famous battles during the [Gallic Wars](https://perma.cc/9TT2-AQQH). You may, however, choose to follow these steps to build a different scenario for your own purposes, choosing from a variety of ancient civilizations across Eurasia, Africa, and the Americas.
 
 During the last two weeks of the Spring semester of 2023, I brought 0&#x0338; A.D. into my own university-level Classical and New Testament Greek class. My objective was to use the game as a tool for team building, historical study, and linguistic practice. This lesson is based on that trial, as well as my hundreds of hours of first-hand experience interacting with the software. 
 
