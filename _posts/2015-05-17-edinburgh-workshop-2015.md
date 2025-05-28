@@ -14,5 +14,5 @@ Other speakers for the event include Ben Schmidt (Northeastern University), Anou
 
 It's a great way to get your toes wet with some Python, meet people interested in taking on similar challenges, and if you're lucky, maybe even get a Programming Historian sticker.
 
-Register for free at: Digital Day of Ideas [link no longer exists]
+Register for free at: Digital Day of Ideas. [Page no longer exists]
 
