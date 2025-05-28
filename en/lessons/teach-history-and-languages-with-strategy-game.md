@@ -377,26 +377,19 @@ The 0&#x0338; A.D. project points to the superiority of free and open source sof
 ## Endnotes
 
 [^1]: Arnab, Sylvester, Samantha Clarke, and Luca Morini. “Co‑Creativity through Play and Game Design Thinking.” Electronic Journal of E-Learning 17, no. 3 (September 1, 2019). <https://doi.org/10.34190/JEL.17.3.002>.
-
 [^2]: To achieve the smoothest possible experience in 0&#x0338; A.D., you should install the game on a machine with the following specifications:
     - a multicore AMD64 processor
     - a recent discrete graphics processing unit (GPU, 'video card') or a gaming-oriented integrated graphics processor
     - a solid-state drive (SSD)
-    - eight or more gigabytes (GB) of random access memory (RAM)
-
+    - eight or more gigabytes (GB) of random access memory (RAM)  
+    
     The base game requires approximately 3.5 GB of storage space, and you should have a few spare GB available after installing 0&#x0338; A.D. and GIMP in order to complete this lesson.
-
 [^3]: The 0&#x0338; A.D. project is released under three open source licenses:
     - Binaries (compiled): [GPL 3.0](https://perma.cc/7M42-VBQH)
     - Engine and code: [GPL 2.0](https://perma.cc/98WZ-FBJM) or later
     - Artwork, music, and other non-code resources: [CC BY-SA 3.0](https://perma.cc/A6PE-K8TA)
-
 [^4]: GIMP occupies about 250mb of storage space. It is licensed under the [GPL 3.0](https://perma.cc/2WZT-YVMK) or later.
-
 [^5]: There is a superabudance of evidence that persons learn best with multisensory activation. For one summary discussion of the matter, see Scudellari, Megan. “The Science Myths That Will Not Die.” Nature 528, no. 7582 (December 2015): 322–25. <https://doi.org/10.1038/528322a>.
-
 [^6]: This sub-lesson on importing real-world geographic data into 0&#x0338; A.D. to create realistic historical scenarios is based on the [Youtube channel Tom 0AD's comprehensive video tutorial on terrain importing](https://youtu.be/yBFdxOE7UFw) and ["Palaxin's Heightmap Guide" in the Wildfire Games Forum](https://perma.cc/6EAX-8ZCH). Additionally, I am indebted to my international colleagues who provided feedback after my November 19, 2023 presentation “How to Incorporate Real-world Data into the Scholarship-Aware and Libre Computer Game 0&#x0338; A.D. for Ancient History and Language Instruction” in the Digital Humanities in Biblical, Early Jewish, and Christian Studies Unit at the 2023 Annual Meeting of the [Society of Biblical Literature](https://perma.cc/UY2S-YP4Y) in San Antonio, Texas.
-
 [^7]: As of May 2025, the Wikipedia article about the site of Mont Beuvray is only available in French.
-
 [^8]: Different releases of GIMP can have minor variations in specific language, UI elements, etc. Keep that in mind if anything might look slightly different in this tutorial's screenshots of GIMP (which were taken in Debian 12 with the version of GIMP that is available in the official Debian repository) relative to what you see in your own GIMP installation.
