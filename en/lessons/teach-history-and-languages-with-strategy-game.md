@@ -26,7 +26,7 @@ doi: 10.46430/phen0127
 
 ## Introduction
 
-[0&#x0338; A.D.](https://play0ad.com/) (pronounced “zero-ey-dee”) is a cross-platform, free and open source [real-time strategy (RTS)](https://perma.cc/422L-4U9R) computer game of ancient civilization building and warfare set between 500 B.C. and 1 B.C. (the game developers are planning to develop a second installment set between 1 A.D. and 500 A.D.). 0&#x0338; A.D. is the only entirely customizable digital game that is built with real ancient history as one of its guiding principles. It even includes reconstructed pre-modern languages in both written and spoken forms. Playable in singleplayer and multiplayer modes, 0&#x0338; A.D. is an ideal software platform for history and language instruction.
+[0&#x0338; A.D.](https://play0ad.com/) (pronounced “zero-ey-dee”) is a cross-platform, free and open source [real-time strategy (RTS)](https://perma.cc/422L-4U9R) computer game of ancient civilization building and warfare. 0&#x0338; A.D. is the only entirely customizable digital game that is built with real ancient history as one of its guiding principles. It even includes reconstructed pre-modern languages in both written and spoken forms. Playable in singleplayer and multiplayer modes, 0&#x0338; A.D. is an ideal software platform for history and language instruction.
 
 In this intermediate-level lesson, I presume some experience with installing software and playing computer games. As you progress, you will learn how to use the hackable [sandbox](https://perma.cc/2H67-VLLP) that is 0&#x0338; A.D. to help you teach history and languages. Since your students will need some onboarding with 0&#x0338; A.D., it is advisable to implement this lesson when you and your students are able to learn side by side.
 
@@ -37,7 +37,7 @@ This lesson should be of interest to you if you are a secondary or post-secondar
 * Ancient archaeology
 * Ancient languages
 
-In this example, I recreate one of [Julius Caesar](https://perma.cc/JM7S-J7HP)'s famous battles during the [Gallic Wars](https://perma.cc/9TT2-AQQH). However, you may choose to follow these steps to build a different scenario for your own purposes, choosing from a variety of ancient civilizations across Eurasia, Africa, and the Americas.
+In this example, I recreate one of [Julius Caesar](https://perma.cc/JM7S-J7HP)'s famous battles during the [Gallic Wars](https://perma.cc/9TT2-AQQH). You may however choose to follow these steps to build a different scenario for your own purposes, choosing from a variety of ancient civilizations across Eurasia, Africa, and the Americas.
 
 During the last two weeks of the Spring semester of 2023, I brought 0&#x0338; A.D. into my own university-level Classical and New Testament Greek class. My objective was to use the game as a tool for team building, historical study, and linguistic practice. This lesson is based on that trial, as well as my hundreds of hours of first-hand experience interacting with the software. 
 
@@ -60,7 +60,7 @@ After completing this lesson, you will be able to:
 * Use 0&#x0338; A.D. inside a history or language class for productive group study
 * Handle the simple customization options available for 0&#x0338; A.D., including community-made gameplay modifications
 * Build your own realistic historical scenario by importing real-world topography and crafting a playable scene atop it
-* Begin drafting your own stand-alone 0&#x0338; A.D. gameplay modification
+* Begin outlining your own stand-alone 0&#x0338; A.D. gameplay modification
 
 ### Requirements
 
@@ -82,7 +82,7 @@ For multiplayer testing and/or gameplay, whether over a Local Area Network (LAN)
 
 #### Image Editing Software (GIMP or other)
 
-In this lesson, you will learn to use the free and open source GNU Image Manipulation Program ([GIMP](https://www.gimp.org/)) to prepare real-world topographical data which you'll import into 0&#x0338; A.D. If you already know how to use another image editing program (such as Adobe Photoshop), then you ought to use that instead, replacing the lesson's steps with the equivalents in your chosen program. 
+In this lesson, you will learn to use the free and open source GNU Image Manipulation Program ([GIMP](https://www.gimp.org/)) to prepare real-world topographical data which you will import into 0&#x0338; A.D. If you already know how to use another image editing program (such as Adobe Photoshop), then you ought to use that instead, replacing the lesson's steps with the equivalents in your chosen program. 
 
 Like 0&#x0338; A.D., GIMP is available for every major desktop OS. For Apple MacOS or Microsoft Windows, the best place to find an installable package is on the official GIMP website's [Downloads page](https://www.gimp.org/downloads/). For a libre Unix-like OS (such as GNU/Linux or a BSD), the officially recommended way to install GIMP is via the OS's own package repository. 
 
@@ -90,17 +90,17 @@ GIMP has modest hardware requirements (lower than 0&#x0338; A.D.).[^4]
 
 ## What is 0&#x0338; A.D.?
 
-The 0&#x0338; A.D. project was formed by [the partnership of at least three computer gaming communities](https://perma.cc/2R9A-CUQY) who were separately making gameplay modifications ('mods') for Ensemble Studios' famous [Age of Empires (1997) and Age of Empires II (1999)](https://perma.cc/49JE-KT6X) RTS games. Age of Empires II in particular was instrumental in defining the multiplayer RTS genre, serving as a standby of [LAN parties](https://perma.cc/AR7R-RJKH) for many years and frequenting many major publications' lists of [the best/greatest video games of all time](https://perma.cc/EKH5-DKJJ). Modifying this game, for example by incorporating new civilizations, has been popular from its launch.
+The 0&#x0338; A.D. project was formed by [the partnership of at least three computer gaming communities](https://perma.cc/2R9A-CUQY) who were separately making gameplay modifications ('mods') for Ensemble Studios' famous [Age of Empires (1997) and Age of Empires II (1999)](https://perma.cc/49JE-KT6X) RTS games. Age of Empires II in particular was instrumental in defining the multiplayer RTS genre, serving as a standby of [LAN parties](https://perma.cc/AR7R-RJKH) for many years and frequenting many major publications' lists of [the best/greatest video games of all time](https://perma.cc/EKH5-DKJJ). Modifying this game, such as by incorporating new civilizations, has been popular from its launch.
 
 Through interactions on the long-running [Age of Kings Heaven](https://perma.cc/N3DD-RZNB) Forums, a discussion zone for fans of the Age of Empires games, the members of the three communities decided to collaborate to create a wholly new game that would be historically and strategically richer than they had found to be possible by modifying the Age of Empires titles. [Wildfire Games](https://perma.cc/X94B-CWPE), the umbrella organization that they formed together circa 2002, now oversees the 0&#x0338; A.D. project as a whole.
 
-In 2009, the project leaders decided to make the game's source code public under open licenses, which allowed the project to progress much faster than in its earliest years. Not only did that decision open the door to the large number of mods available, but it also solidified 0 A. D.'s rare status as a completely cross-platform game, in which eight players can interact seamlessly across eight different machines.
+In 2009, the project leaders decided to make the game's source code public under open licenses, which allowed the project to progress much faster than in its earliest years. Not only did that decision open the door to the large number of mods now available, but it also solidified 0 A. D.'s rare status as a completely cross-platform game, in which eight players can interact seamlessly across eight different machines.
 
 As of May 2025, the current stable release of the base game (Alpha 27) features multiple ancient civilizations, all of which have believable architecture, attire, technology, military techniques, and heroes – plus, as much as possible, restored pronunciation of their original languages. The current [list of playable civilizations](https://0ad.fandom.com/wiki/Civilizations) is as follows (ordered alphabetically): Achaemenids, Athenians, Britons, Carthaginians, Gauls, Hans, Iberian Tribes, Macedonians, Mauryans, Ptolemies, Republican Romans, Seleucids, and Spartans.
 
 ### A Historically Accurate Community Endeavor
 
-In a [2006 interview with Jason Adams of gamedev.net](https://perma.cc/7RNK-JEYR), Paul Basar (a member of the History Department of Wildfire Games) said the following about his team's attention to historicity:
+In a [2006 interview with Jason Adams of gamedev.net](https://perma.cc/7RNK-JEYR), Paul Basar (then a member of the so-called 'History Department' of Wildfire Games) said the following about his team's attention to historicity:
 
 > [Historical] accuracy is of the highest priority, with all weapons, helmets, armor, and shields to be of historical provenance. Literally dozens if not hundreds of historically accurate armor and weapon props have been modeled and textured, with more to come. Buildings are designed according to the style and appearance of their historical counterparts. Even the sound effects of construction have been made unique for each civilization to show the varied materials used by each people. Unit types are given in their original language, as close as can be determined... Each soldier, woman, priest, and trader is given an original personal name from his or her culture. Naval warfare has also been rigorously researched and planned by Ken Wood, our chief designer, promising one of the best historical naval combat experiences yet seen in an RTS. This is only a small sampling of the effort going into historical accuracy in 0 A.D.
 
@@ -112,11 +112,11 @@ An example of the game's balance between authentic historicity and engaging mech
 
 If you are teaching an ancient or modern language, the most effective way you and your students could contribute to the 0&#x0338; A.D. project is by improving the game's languages, either by working on an existing language or by adding a new one.
 
-Not all of 0&#x0338; A.D.'s civilizations have audio recordings of their respective ancient languages. In the Wildfire Games Wiki's [Audio Voice List](https://perma.cc/U8ED-BY3K), you'll find which new translations are needed for in-game speech, as well as up-to-date instructions on how to submit them. As of May 2025, the three ancient languages whose audio is fully implemented are Late Egyptian, Ancient Greek (both Attic and Koine), and (Classical) Latin. Meanwhile, there are open calls for Sanskrit and Old Persian, and the project's leaders have placeholders for (Old) Welsh and/or Anglo-Saxon, (Classical) Hebrew, and Basque.
+Not all of 0&#x0338; A.D.'s civilizations have audio recordings of their respective ancient languages. In the Wildfire Games Wiki's [Audio Voice List](https://perma.cc/U8ED-BY3K), you will find which new translations are needed for in-game speech, as well as up-to-date instructions on how to submit them. As of May 2025, the three ancient languages whose audio is fully implemented are Late Egyptian, Ancient Greek (both Attic and Koine), and (Classical) Latin. Meanwhile, there are open calls for Sanskrit and Old Persian, and the project's leaders have placeholders for (Old) Welsh and/or Anglo-Saxon, (Classical) Hebrew, and Basque.
 
 Wildfire Games also relies entirely on community translators for its user interface (UI). In the official [Transifex page for 0&#x0338; A.D.](https://perma.cc/ZD8F-5VFR), there are (as of May 2025) over 48,000 word strings in the default (American) English language, and the project managers have listed 122 languages (and counting) at every stage of translation. Contributing to a language for the UI, whether ancient or modern, would be a great project for any university-level language class. Another way to enjoy linguistic practice within a language class would be to play the game together, with the UI and the civilization's in-game interactions set to the target language. 
 
-This way of combining translation work with gameplay would make a compelling learning scenario. For example, students learning Latin might work the Latin translation of the UI for one portion of a class period, and then play as the Romans (who are fully playable with in-game Latin) for another. Thus, they would be engaging with Latin by writing it (tactilely), reading it (visually), and hearing it (aurally), as well as (presumably) by speaking it aloud (orally) with each other and the instructor.[^5]
+This way of combining translation work with gameplay would make a compelling learning scenario. For example, students learning Latin might work on the Latin translation of the UI for one portion of a class period and then play as the Romans (who are fully playable with in-game Latin) for another. Thus, they would be engaging with Latin by writing it (tactilely), reading it (visually), and hearing it (aurally), as well as (presumably) by speaking it aloud (orally) with each other and the instructor.[^5]
 
 ## Customizing 0&#x0338; A.D. for Educational Use
 
@@ -127,9 +127,9 @@ Another aspect of 0&#x0338; A.D. that makes it compelling for educational use is
 
 ### Installing Community Gameplay Modifications
 
-The easiest way to customize 0&#x0338; A.D. for your class is to make use of prepackaged community gameplay modifications (or 'mods'). You'll find dozens to hundreds of mods hosted at various places on the web that are compatible with the most recent game release. Since 0&#x0338; A.D. was founded by game modifiers ('modders'), the game was built to make installing and using these mods straightforward.
+The easiest way to customize 0&#x0338; A.D. for your class is to make use of prepackaged community gameplay modifications (or 'mods'). You will find dozens to hundreds of mods hosted at various places on the web that are compatible with the most recent game release. Since 0&#x0338; A.D. was founded by game modifiers ('modders'), the game was built to make installing and using these mods straightforward.
 
-In fact, 0&#x0338; A.D. comes with a built-in mod installer and a selection of click-to-install community mods which have been [verified for safety](https://perma.cc/HSR5-SEMQ) and uploaded to [mod.io's 0&#x0338; A.D. set](https://mod.io/g/0ad).
+In fact, 0&#x0338; A.D. comes with a built-in mod installer and a selection of click-to-install community mods that have been [verified for safety](https://perma.cc/HSR5-SEMQ) and uploaded to [mod.io's 0&#x0338; A.D. set](https://mod.io/g/0ad).
 
 After launching the game, from the main menu, click **Settings** > **Mod Selection**.
 
@@ -143,7 +143,7 @@ Then, select a mod and click **_Download_**.
 
 {% include figure.html filename="en-or-teach-history-and-languages-with-strategy-game-04.png" alt="Downloading the Community Maps 2 mod as the sample for this tutorial using the game's built-in mod downloader." caption="Figure 4. Downloading a mod." %}
 
-You'll need to enable the mod(s) by clicking on them and then **_Enable_** on the bottom task bar.
+You will need to enable the mod(s) by clicking on them and then **_Enable_** on the bottom task bar.
 
 {% include figure.html filename="en-or-teach-history-and-languages-with-strategy-game-05.png" alt="Enabling the Community Maps 2 mod as the sample for this tutorial using the game's built-in mod manager." caption="Figure 5. Enabling a downloaded mod." %}
 
@@ -161,12 +161,12 @@ While I have many good things to write about Delenda Est, I only recommend that 
 
 #### Manual Mod Installation
 
-Installing a prepackaged mod outside of 0&#x0338; A.D.'s built-in mod.io menu (for example, downloaded directly from a repository on GitHub) is trivial by design. With a mod downloaded in `.pyromod` (custom Pyrogensis package) or `.zip` format, right-click the file and select **_Open with 0&#x0338; A.D._**. You can even do this in the command line with `pyrogenesis [file].pyromod` or `pyrogenesis [file].zip`. Then, enable the mod inside the same in-game mod.io **Mod Selection** menu. 
+Installing a prepackaged mod outside of 0&#x0338; A.D.'s built-in mod.io menu (for example, downloaded directly from a repository on GitHub) is trivial by design. With a mod downloaded in `.pyromod` (custom Pyrogenesis package) or `.zip` format, right-click the file and select **_Open with 0&#x0338; A.D._**. You can even do this in the command line with `pyrogenesis [file].pyromod` or `pyrogenesis [file].zip`. (Pyrogenesis is 0&#x0338; A.D.'s built-from-scratch, open source engine.) Then, enable the mod inside the same in-game mod.io **Mod Selection** menu. 
 
 Alternatively, you could move the entire mod folder into `*/mods` yourself, without having the game engine handle the installation, but you must make sure that your mod's parent folder and the `.zip` it contains are under the same name as that listed in the mod's `mod.json` file. To install the mod manually, locate `*/mods` in the game's installation directory. The Wiki currently specifies the following folders:
 - On Windows, `C:\Users\{name_of_user}\Documents\My Games\0ad\mods\`
 - On MacOS, `~/Library/Application﻿ Support/0ad/mods/`
-- On Unix-like OS, `~/.local/share/0ad/mods/`
+- On a Unix-like OS, `~/.local/share/0ad/mods/`
 
 Copy and paste the mod's parent folder (the entire mod) into that folder, then enable the mod inside the in-game **Mod Selection** menu.
 
@@ -174,7 +174,7 @@ For more information, check out the 0&#x0338; A.D. Wiki's official [directions f
 
 ### Next Steps with Community Mods
 
-I recommend that you start by installing and enabling Community Maps 2 via the game's built-in mod.io menu, and try some of its lovely terrains while you familiarize yourself with the base game. Then, move to Delenda Est or another of the many vetted mods for new civilizations or other features that might be relevant for your classroom. [Millenium A.D.](https://mod.io/g/0ad/m/millenniumad), for example, which is focused on the ninth and tenth centuries CE, offers playable iterations of the Anglo-Saxons, Byzantines, Carolingians, Norse, Rus, and Ummayads. As of May 2025, it is more of a work-in-progress than Delenda Est, but it already has tens of thousands of downloads.
+I recommend that you start by installing and enabling Community Maps 2 via the game's built-in mod.io menu, and try some of its lovely terrains while you familiarize yourself with the base game. Then, move to Delenda Est or another of the many vetted mods for new civilizations or other features that might be relevant for your classroom. [Millenium A.D.](https://mod.io/g/0ad/m/millenniumad), for example, which is focused on the ninth and tenth centuries A.D., offers playable iterations of the Anglo-Saxons, Byzantines, Carolingians, Norse, Rus, and Ummayads. As of May 2025, it is more of a work-in-progress than Delenda Est, but it already has tens of thousands of downloads.
 
 ## Importing Geographic Data to Create Historical Scenarios
 
@@ -184,14 +184,18 @@ You might wish to create your own custom historical scenarios in 0&#x0338; A.D.,
 
 ### 1. Choose a Scenario
 
-The ideal historical scenario to recreate in 0&#x0338; A.D. would be a battle between two or more civilizations that are available either in the base game or via a mod, which took place in a location with sufficient geological diversity for intriguing gameplay. If you are a classicist teaching a history class, then you could choose one of the critical battles from the [Gallic Wars](https://perma.cc/QTG3-BBEP): late Republican Romans, Gauls and Britons are in the base game, while early Imperial Romans are available in the Delenda Est mod. 
+The ideal historical scenario to recreate in 0&#x0338; A.D. would be a battle:
+1. between two or more civilizations available either in the base game or via a mod
+2. that took place in a location with sufficient geological diversity for intriguing gameplay
+
+If you are a classicist teaching a history class, you could choose one of the critical battles from the [Gallic Wars](https://perma.cc/QTG3-BBEP): late Republican Romans, Gauls, and Britons are in the base game, while early Imperial Romans are available in the Delenda Est mod. 
 
 In this lesson, you will learn to make a simple recreation of the [Battle of Bibracte](https://perma.cc/4MN2-FQB8), which took place about sixteen miles south of the actual historical [Bibracte hilltop Gallic fort](https://perma.cc/XL5A-6VZX), now known as [Mont Beuvray](https://perma.cc/5GNG-9MFL).[^7] Beuvray is in a strip of hillcountry with hundreds of meters of elevational changes, and the surrounding area contains rich forests, open fields, and both rivers and streams. Julius Caesar's victory at Bibracte was crucial to his eventual triumph over Gaul. 
 
 
 ### 2. Find a Topographic Map
 
-There are many online topography databases to choose from, but [topographic-map.com](https://en-us.topographic-map.com/) is well suited for your use case because it [exclusively makes use of open access data](https://perma.cc/8359-ASRH), possesses detailed topographies of (nearly) everywhere around the globe, and presents topographies in a color-coded format that is easy to modify for importation into Atlas.
+There are many online topography databases from which to choose, but [topographic-map.com](https://en-us.topographic-map.com/) is well suited for your use case because it [exclusively makes use of open access data](https://perma.cc/8359-ASRH), possesses detailed topographies of (nearly) everywhere around the globe, and presents topographies in a color-coded format that is easy to modify for importation into Atlas.
 
 Use the master search tool to find a topography to import, then select a (roughly) square area around the region that you require – with a bit of extra space on all sides to spare – using your operating system's screenshot or snipping tool. In order to have room for adjustments, aim for roughly 1024x1024 pixels (or a more-or-less square shape between, say, 512x512 and 2048x2048).
 
@@ -207,7 +211,7 @@ The hightmap importer in Atlas will take the image file as-is, so it is importan
 
 Each of the following dimensions corresponds to an in-game terrain size that is [explained in more detail (here) in the source code](https://perma.cc/JS3G-BHEZ): 128x128 (Tiny), 192x192 (Small), 256x256 (Normal), 320x320 (Medium), 384x384 (Large), 448x448 (Very Large), and 512x512 (Giant). The Large (384x384) and Very Large (448x448) sizes are ideal for full 8-player matches, which probably makes them the best for most classroom situations (contrary to Giant, which requires loading so many resources that it can slow the game). Smaller sized terrains require (much) less work to make realistic.
 
-Since we are purposefully recreating a large-scale battle that saw tens of thousands of warring men on a geographically diverse parcel of land, let's choose a 512x512 pixel square to be imported as a Giant terrain in Atlas. The final version of the terrain in-game will be a perfect circle fitting just inside your square (i.e. with a diameter of 512 pixels). The space just inside the perimeter of that circle will not be usable in-game.
+Since we are purposefully recreating a large-scale battle that saw tens of thousands of warring men on a geographically diverse parcel of land, let us choose a 512x512 pixel square to be imported as a Giant terrain in Atlas. The final version of the terrain in-game will be a perfect circle fitting just inside your square (i.e. with a diameter of 512 pixels). The space just inside the perimeter of that circle will not be usable in-game.
 
 I recommend this simple workflow in GIMP to specify the image size and convert the image to grayscale, as it is likely to remain viable through future software updates:[^8]
 
@@ -231,7 +235,7 @@ Second, if the elevated terrain in your topographic map image appears darker rat
 * In my specific image, this results in steep dark spots on the edges of the mountainous terrain. If this happens, you can blur their edges manually with the **Smudge** tool (click the pointing finger in the Toolbox, or type 'S' on your keyboard). It also helps to add just a few drops of white paint (using the **Paint** tool, which is available by clicking the paintbrush icon in the Toolbox or tapping "P" on my keyboard) to the area in the north with especially higher peaks, including Mont Beuvray itself.
 
 <div class="alert alert-warning">
-You'll probably need to experiment with the resulting image by iteratively importing it to Atlas, so make sure that you save fallback copies of the image at every stage of editing.
+You will probably need to experiment with the resulting image by iteratively importing it to Atlas, so make sure that you save fallback copies of the image at every stage of editing.
 </div>
 
 Below is the final version of the image in GIMP after following all of these steps. Click **File** > **Export**, and type `beauvray.png` before unselecting all `.png` filetype export options (to make a simple file). Choose **16bpc GRAYA** for 16-bit grayscale with alpha, and turn off compression (set the value to 0) to ensure the highest quality export possible.
@@ -244,7 +248,7 @@ After clicking **_Export_**, you are ready for the next step: actually importing
 
 Now that you have chosen a historical scenario to recreate, found a topographic map to import, and edited the topographic map image, importing your topography into Atlas will be easy.
 
-First, open 0&#x0338; A.D. From the main menu, click **Scenario Editor** to launch Atlas. When asked 'Would you like to quit 0&#x0338; A.D. and open the Scenario Editor?', click **Yes**.
+First, open 0&#x0338; A.D. From the main menu, click **Scenario Editor** to launch Atlas. When asked 'Are you sure you want to quit 0&#x0338; A.D. and open the Scenario Editor?', click **Yes**.
 
 {% include figure.html filename="en-or-teach-history-and-languages-with-strategy-game-09.png" alt="From the game's main menu, select 'Scenario Editor', and then click 'Yes' in answer to the question 'Are you sure that you want to quit 0&#x0338; A.D. and open the Scenario Editor?'." caption="Figure 9. Opening Atlas, the Scenario Editor." %}
 
@@ -252,7 +256,7 @@ In Atlas, click **File** > **Open Heightmap**, and select the file that you have
 
 {% include figure.html filename="en-or-teach-history-and-languages-with-strategy-game-10.png" alt="From Atlas's main menu, click 'File,' and then 'Open Heightmap'." caption="Figure 10. Importing a heightmap file inside Atlas." %}
 
-If you've followed the Mount Beuvray example, here is how it would look:
+If you have followed the Mount Beuvray example, here is how it would look:
 
 {% include figure.html filename="en-or-teach-history-and-languages-with-strategy-game-11.png" alt="The three dimensional-topographic map of Mont Beuvray initially imported into Atlas. It appears as a disk with grass-like texture, using shadows and shading to represent the varied elevations." caption="Figure 11. Topographic map of Mont Beuvray, initially imported into Atlas." %}
 
@@ -290,7 +294,7 @@ This is the result:
 
 Now that your terrain's core features are in place, it is time for you to add flora and fauna. Your objective should not be a pebble-for-pebble and bird-for-bird depiction of the real-world equivalent but, rather, to capture its overall character and, more importantly, to insert special features that matter in the historical scenario.
 
-To place flora and fauna, use the **Object** tool with the person-shaped icon. Flora and fauna are categorized as units belonging to '[Gaia](https://perma.cc/C84A-BZ4E)' (Mother Earth): to retrieve a full list of options, filter by 'gaia' (lowercase) in the top search bar. Let's add deer and other wildlife native to the woodlands of central France.
+To place flora and fauna, use the **Object** tool with the person-shaped icon. Flora and fauna are categorized as units belonging to '[Gaia](https://perma.cc/C84A-BZ4E)' (Mother Earth): to retrieve a full list of options, filter by 'gaia' (lowercase) in the top search bar. Let us add deer and other wildlife native to the woodlands of central France.
 
 {% include figure.html filename="en-or-teach-history-and-languages-with-strategy-game-18.png" alt="I have the Object tool open, and I am sorting by 'gaia'. The first result is a black bear, which I have hovering to be placed in the terrain." caption="Figure 18. Using the Object tool to add flora and fauna to the terrain." %}
 
@@ -326,7 +330,7 @@ After switching to Player 1 at the bottom of the screen (in the **Object** tab),
 
 If you want to rotate units while placing them, keep the left mouse button pressed and move the cursor up or down. You can also adjust the rotation and location of any unit by clicking the four-way directional icon in Atlas, then clicking on the unit to adjust.
 
-Although you'll certainly adapt your use of these tools to your own scenario, the basic steps will remain the same.
+Although you will certainly adapt your use of these tools to your own scenario, the basic steps will remain the same.
 
 ### 8. Save and Distribute the Scenario
 
@@ -334,7 +338,7 @@ Having finished crafting the historical scenario, it is time to save it for dist
 
 {% include figure.html filename="en-or-teach-history-and-languages-with-strategy-game-24.png" alt="The Map tab is open with a sample name of 'Programming Historian Map' and Description of 'A sample map for Programming Historian.'" caption="Figure 24. Saving a map with universal settings." %}
 
-Finally, click **File** > **_Save_**, and type an easy-to-remember file name. Don't change any information in the **Random Map** fields, because you are not making a random map. Custom scenarios are automatically saved in the game's default `mods` folder, specifically `/0ad/mods/user/maps/scenarios/`. 
+Finally, click **File** > **_Save_**, and type an easy-to-remember file name. Do not change any information in the **Random Map** fields, because you are not making a random map. Custom scenarios are automatically saved in the game's default `mods` folder, specifically `/0ad/mods/user/maps/scenarios/`. 
 
 To distribute the scenario, you'll share the scenario's XML and PMP files (two files) from that location with each person you would like to play with, instructing them to place both files in their own `/0ad/mods/user/maps/scenarios/` folder. (If the `maps` and `scenarios` folders do not exist, just create them before pasting the files.)
 
@@ -346,7 +350,7 @@ You may now play your custom historical scenario, either as a singleplayer or mu
 Depending on your network's settings, you might need to enable port forwarding on your network's firewall (0&#x0338; A.D. defaults to UDP port 20595). If you have difficulty connecting with each other in your classroom or computer lab, then you ought to ask your information technology department for assistance with IP address assignments and/or the firewall's rules.
 </div>
 
-After pasting the scenario's two files into the correct directory on the second machine, return to the hosting machine. There, open 0&#x0338; A.D. and click **Multiplayer** > **_Host Game_**. For **Map Type**, choose **Scenario** and click the **All Maps** filter before selecting the map you've just created (**Bibracte**, below). When the second machine joins by typing the host machine's local IP address, this should be the result:
+After pasting the scenario's two files into the correct directory on the second machine, return to the hosting machine. There, open 0&#x0338; A.D. and click **Multiplayer** > **_Host Game_**. For **Map Type**, choose **Scenario** and click the **All Maps** filter before selecting the map you have just created (**Bibracte**, below). When the second machine joins by typing the host machine's local IP address, this should be the result:
 
 {% include figure.html filename="en-or-teach-history-and-languages-with-strategy-game-25.png" alt="A full-screen parameters' window for hosting a multiplayer match with my custom scenario. Player 1, on Team 1, will play as the Gauls, and Player 2, on Team 2, will play as the Romans. The map type is Scenario, and the map that is selected is named 'Bibtracte.'" caption="Figure 25. Hosting a multiplayer match with my custom scenario." %}
 
@@ -358,7 +362,7 @@ Enjoy playful creativity in the classroom with a free and open source computer g
 
 ## Beyond: Join the Community, Build a Modification from Scratch, and More
 
-The most advanced way to incorporate 0&#x0338; A.D. into the classroom is to build a gameplay modification (mod) from scratch. You, the instructor, might wish to bring a wholly new civilization into the game. You might like to make a custom hero for one of the base game's civilizations. You might assign mod-making as a class project. Regardless of what you should decide to do, your possibilities are only limited by the Pyrogenesis game engine's own limits. The [Modding Guide](https://perma.cc/LG68-3H2Q) states:
+The most advanced way to incorporate 0&#x0338; A.D. into the classroom is to build a gameplay modification (mod) from scratch. You, the instructor, might wish to bring a wholly new civilization into the game. You might like to make a custom hero for one of the base game's civilizations. You might assign mod-making as a class project. Regardless of what you should decide to do, your possibilities are only limited by the game engine's own limits. The [Modding Guide](https://perma.cc/LG68-3H2Q) states:
 
 > 0&#x0338; A.D. has been designed from the beginning for ease of modding. Not just art and sound, but also the code which makes the game come to life. All the textures, 3D models, animations, sounds, fonts, and scenarios found in the game are packaged into 'mods' (modifications). Additionally, a large amount of the game's logic (written in JavaScript) is packaged in mods.
 
@@ -368,7 +372,7 @@ The (Brazilian) Portuguese language Youtube channel [Ágora 0AD](https://www.you
 
 If you have an idea for a new gameplay modification, read the Modding Guide and Mod Layout pages in the Wiki. Then, outline a plan for the mod before starting to work on it.
 
-The 0&#x0338; A.D. project points to the superiority of free and open source software over proprietary software for education. With a large playerbase whose members are devoted to realism, realism is more likely to be actualized than in, say, a traditionally corporate-backed game project. Further, 0&#x0338; A.D.: Empires Ascendant is fully customizable – even able to be overhauled – for educational use. Limitless learning is better than limited learning.
+The 0&#x0338; A.D. project points to the superiority of free and open source software over proprietary software for education. With a large playerbase whose members are devoted to realism, realism is more likely to be actualized than in, say, a traditionally corporate-backed game project. Further, 0&#x0338; A.D. is fully customizable – even able to be overhauled – for educational use. Limitless learning is better than limited learning.
 
 ## Endnotes
 
