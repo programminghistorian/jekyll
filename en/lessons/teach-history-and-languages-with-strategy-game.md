@@ -390,6 +390,7 @@ The 0&#x0338; A.D. project points to the superiority of free and open source sof
     - Binaries (compiled): [GPL 3.0](https://perma.cc/7M42-VBQH)
     - Engine and code: [GPL 2.0](https://perma.cc/98WZ-FBJM) or later
     - Artwork, music, and other non-code resources: [CC BY-SA 3.0](https://perma.cc/A6PE-K8TA)
+
 [^4]: GIMP occupies about 250mb of storage space. It is licensed under the [GPL 3.0](https://perma.cc/2WZT-YVMK) or later.
 
 [^5]: There is a superabudance of evidence that persons learn best with multisensory activation. For one summary discussion of the matter, see Scudellari, Megan. “The Science Myths That Will Not Die.” Nature 528, no. 7582 (December 2015): 322–25. <https://doi.org/10.1038/528322a>.
