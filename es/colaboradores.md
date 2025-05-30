@@ -33,18 +33,15 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 - [The National Archives](https://www.nationalarchives.gov.uk/), Reino Unido
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
 - [Purdue University](https://www.purdue.edu/), Estados Unidos
-- [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Alemania
 - [University of Bristol Library](https://www.bristol.ac.uk/library/), Reino Unido
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), Reino Unido
-- [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), China
 - [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, Reino Unido
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), Reino Unido
 - [University of York](https://www.york.ac.uk/), Reino Unido
 - [University of Oxford](https://www.ox.ac.uk), Reino Unido
 - [Universität Bern Bibliothek](https://www.ub.unibe.ch/), Suiza
 - [University of Florida](https://www.ufl.edu/), Estados Unidos
-- [Universiteit van Amsterdam](https://www.uva.nl/), Países Bajos
 - [Universiteit Gent](https://www.ugent.be/), Bélgica
 - [University of Exeter](https://www.exeter.ac.uk/), Reino Unido
 - [Université de Montréal](https://www.umontreal.ca/), Canadá
@@ -62,6 +59,9 @@ Antiguos contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 - [Center for Spatial and Textual Analysis (CESTA)](https://cesta.stanford.edu/), Stanford University, Estados Unidos [2021]
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria [2022]
 - [RStudio/Posit](https://posit.co/), Estados Unidos [2022]
+- [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), China [2021-2023]
+- [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Alemania [2022-2023]
+- [Universiteit van Amsterdam](https://www.uva.nl/), Países Bajos [2023]
 - [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Dinamarca [2021-2024]
 - [Aarhus University Library](https://library.au.dk/), Dinamarca [2021-2024]
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca [2021-2024]
