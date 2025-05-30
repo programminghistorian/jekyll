@@ -48,7 +48,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Talleres y eventos
 
-* Anisa Hawes, [‘Teaching and Writing Digital Methods'](https://perma.cc/9JWJ-CEJY), Cambridge Digital Humanities, University of Cambridge, United Kingdom (28 de abril de 2025).
+* Anisa Hawes, [‘Teaching and Writing Digital Methods'](https://perma.cc/9JWJ-CEJY), Cambridge Digital Humanities, University of Cambridge, Reino Unido (28 de abril de 2025).
 * Amelia Wakeford, Giulia Osti & Anisa Hawes, 'A _Programming Historian_ Knowledge Exchange Workshop', University of Birmingham, (29 November 2024) & [En línea], (4 de diciembre de 2024).
 * Anisa Hawes, [‘Building your digital research skills with _Programming Historian_’](https://www.cdh.cam.ac.uk/events/38929/), Cambridge Digital Humanities, University of Cambridge [En línea], (21 de noviembre de 2024).
 * Daniel van Strien, 'Computer Vision for the Humanities and Social Sciences: An Introduction to Deep Learning for Image Classification', Centre for Data, Culture and Society, University of Edinburgh, Reino Unido (21 de marzo de 2024).
