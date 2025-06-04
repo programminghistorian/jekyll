@@ -17,7 +17,7 @@ slug: analisis-voyant-tools
 activity: analyzing
 topics: [distant-reading]
 abstract: "En este tutorial se aprenderá cómo organizar y analizar un conjunto de textos con Voyant-Tools."
-avatar_alt: Grafas con diferentes graduaciones de oftanmología
+avatar_alt: Gafas con diferentes graduaciones de oftanmología
 doi: 10.46430/phes0043
 ---
 
