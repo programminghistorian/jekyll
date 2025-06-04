@@ -322,7 +322,7 @@ Puedes buscar imágenes en los recursos siguientes:
  - [Europeana](http://www.europeana.eu/portal/en)
  - [British Library](https://www.flickr.com/photos/britishlibrary)
  - [Internet Archive Book Images](https://archive.org/details/bookimages)
- - [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
+ - [Virtual Manuscript Library of Switzerland](https://www.e-codices.unifr.ch/en)
  - [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
 Si como editor estás buscando una imagen para una lección nueva, asegúrate de que la imagen sigue el mismo estilo que las imágenes anteriores; debería ser una ilustración, no una fotografía, tener al menos 200 píxeles de anchura y altura, y estar libre de derechos. Asegúrate de que la magen no es ofensiva y ten en cuenta nuestro [compromiso con la diversidad](/posts/PH-commitment-to-diversity); en otras palabras, intenta encontrar una imagen que no perpetúe estereotipos o envíe mensajes sutiles sobre la masculinidad y la raza blanca.
