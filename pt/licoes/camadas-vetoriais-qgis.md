@@ -87,7 +87,7 @@ Agora criaremos um shapefile de pontos, que é uma camada vetorial. Clique em 'C
 
 Depois de selecionar 'Nova Camada Shapefile', aparece uma janela intitulada 'Nova Camada Vetorial'
 
--   Na categoria 'Tipo', 'ponto' já está selecionado. Clique no botão 'Especificar CRS' e selecione 'NAD83 (CSRS98) / Prince Edward Isl. Estereográfico (EPSG: 2291)' e, em seguida, clique em OK (para obter informações sobre como entender e selecionar a zona UTM: [https://lib.uwaterloo.ca/locations/umd/digital/clump_classes.html](https://lib.uwaterloo.ca/locations/umd/digital/clump_classes.html)
+-   Na categoria 'Tipo', 'ponto' já está selecionado. Clique no botão 'Especificar CRS' e selecione 'NAD83 (CSRS98) / Prince Edward Isl. Estereográfico (EPSG: 2291)' e, em seguida, clique em OK (para obter informações sobre como [entender e selecionar a zona UTM](https://perma.cc/TA7Z-V3SZ)).
 
 {% include figure.html filename="Figura6.jpg" caption="Figura 6" %}
 
