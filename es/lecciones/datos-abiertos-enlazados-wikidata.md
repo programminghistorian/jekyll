@@ -238,7 +238,7 @@ Si te interesa seguir aprendiendo sobre el tema de los datos abiertos enlazados 
 
 [^2]: Torres Pombert, Ania. (2006). ¿Catalogación en el entorno digital?: una breve aproximación a los metadatos. _ACIMED_, _14_(5) Recuperado el 27 de febrero de 2024, de <https://perma.cc/8NUB-J3PU>
 
-[^3]: Cuba Rodríguez, Yariannis, & Olivera Batista, Dianelis. (2018). Los metadatos, la búsqueda y recuperación de información desde las Ciencias de la Información. _E-Ciencias de la Información_, _8_(2), 146-158. <https://dx.doi.org/10.15517/eci.v8i2.30085>
+[^3]: Cuba Rodríguez, Yariannis, & Olivera Batista, Dianelis. (2018). Los metadatos, la búsqueda y recuperación de información desde las Ciencias de la Información. _E-Ciencias de la Información_, _8_(2), 146-158. [https://dx.doi.org/10.15517/eci.v8i2.30085](https://perma.cc/CE7C-9JRV)
 
 [^4]: Cadena López, Aydé, Ramos Luna, Lorena Litai, & Rivera González, Gibrán. (2022). Los datos abiertos en los estudios organizacionales: Reflexiones e implicaciones. _Trace (México, DF)_, (82), 41-65. Epub 02 de diciembre de 2022. <https://doi.org/10.22134/trace.82.2022.819>
 
