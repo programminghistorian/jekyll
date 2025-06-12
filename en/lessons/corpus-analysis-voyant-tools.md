@@ -37,7 +37,7 @@ doi: 10.46430/phen0128
 
 In this lesson, you will learn how to organize a set of texts for research; that is, you will learn the basic steps of creating a 'corpus'. You will also learn the main metrics of quantitative text analysis. For this purpose, you will use [Voyant Tools](http://voyant-tools.org/),[^1] a web-based platform that does not require installation and works in any browser with an internet connection.
 
-This lesson is designed as a beginner-friendly introduction to corpus analysis and is part of a growing ecosystem of tools and methods in digital humanities. For a more advanced tool, see the _Programming Historian_ [lesson on corpus analysis with AntConc](/en/lessons/corpus-analysis-with-antconc). You may also be interested in other *Programming Historian* lessons on [text mining](/en/topics/text-mining), [natural language processing](/en/lessons/introduction-to-nlp-with-python), and [topic modeling](/en/lessons/topic-modeling-and-mallet).
+This lesson is designed as a beginner-friendly introduction to corpus analysis and is part of a growing ecosystem of tools and methods in digital humanities. You might also like to explore Heather Froehlich's _Programming Historian_ lesson [Corpus Analysis with Antconc](/en/lessons/corpus-analysis-with-antconc),  Peter Organisciak and Boris Capitanu's [Text Mining in Python through the HTRC Feature Reader](/en/lessons/text-mining-with-extracted-features), and Shawn Graham, Scott Weingart, and Ian Milligan's lesson [Getting Started with Topic Modeling and MALLET](/en/lessons/topic-modeling-and-mallet).
 
 ### Prerequisites and Further Reading
 
