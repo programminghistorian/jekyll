@@ -143,7 +143,7 @@ appears
     Specify CRS button, and select NAD83(CSRS98) / Prince Edward Isl.
     Stereographic (EPSG: 2291), and then click OK (for information on
     understanding and selecting UTM zone:
-    <http://www.lib.uwaterloo.ca/locations/umd/digital/clump_classes.html>)
+    <https://perma.cc/TA7Z-V3SZ>)
 
 {% include figure.html filename="pei6.png" caption="Figure 6: Click to see full size image." %}
 
