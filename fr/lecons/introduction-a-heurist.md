@@ -62,7 +62,7 @@ Heurist est un logiciel *open source*, il se base sur une infrastructure serveur
   En France, l'utilisation d'un service mis en place ou hébergé par une <a href="https://perma.cc/H4CZ-ZL6B">Très Grande Infrastructure de Recherche (TGIR)</a> spécialisée dans le domaine des SHS, comme Huma-Num dans le cas présent, ou encore <a href="https://perma.cc/9G72-BZR7">Progedo</a>, est un gage de sécurité pour le stockage et l'exposition des données de recherche dans le temps.
 </div>
 
-Pour les personnes souhaitant tester le logiciel hors ligne, il est également possible d'héberger Heurist localement sur un ordinateur. Les informations pour son installation sont disponibles en anglais [sur le site officiel d'Heurist](https://heuristnetwork.org/installation/).
+Pour les personnes souhaitant tester le logiciel hors ligne, il est également possible d'héberger Heurist localement sur un ordinateur. Les informations pour son installation sont disponibles en anglais [sur le site officiel d'Heurist](https://heurist.huma-num.fr/Heurist_Contacts/web/5417/10699).
 
 
 <div class="alert alert-info">
@@ -78,7 +78,7 @@ Heurist s'appuie sur une conception [relationnelle](https://perma.cc/5MJU-FV2G) 
 Dans cette leçon, nous partirons d'un jeu de données brut, discuterons sa modélisation et répercuterons cette modélisation dans Heurist afin d'importer les données pour enfin les publier en ligne.
 
 <div class="alert alert-warning">
-   Cette leçon et les captures d'écran qu'elle contient ont été réalisées en avril 2021 sur la version 6 d'Heurist (notée «&nbsp;h6&nbsp;»). Heurist évoluant constamment, ses fonctionnalités et son interface sont amenées à se modifier au fil du temps à travers de nombreuses sous-versions (par exemple «&nbsp;h6.2.26&nbsp;» en janvier 2022). Dans la plupart des cas, cela ne devrait pas gêner la compréhension des indications qui suivent, la logique fonctionnelle restant la même au sein de la version 6 du logiciel. Pour toutes questions ou interrogations, il est possible de consulter la documentation en ligne (en anglais) sur le site officiel d'<a href="https://heuristnetwork.org/tutorials/">Heurist</a> dans la rubrique <i>Learn</i> ou encore de demander de l'aide auprès d'autres usagers d'Heurist via la liste francophone <a href="https://perma.cc/K398-B6WT">d'utilisateurs et utilisatrices Heurist</a>.
+   Cette leçon et les captures d'écran qu'elle contient ont été réalisées en avril 2021 sur la version 6 d'Heurist (notée «&nbsp;h6&nbsp;»). Heurist évoluant constamment, ses fonctionnalités et son interface sont amenées à se modifier au fil du temps à travers de nombreuses sous-versions (par exemple «&nbsp;h6.2.26&nbsp;» en janvier 2022). Dans la plupart des cas, cela ne devrait pas gêner la compréhension des indications qui suivent, la logique fonctionnelle restant la même au sein de la version 6 du logiciel. Pour toutes questions ou interrogations, il est possible de consulter la documentation en ligne (en anglais) sur le site officiel d'<a href="https://heurist.huma-num.fr/Heurist_Contacts/web/5417/10683">Heurist</a> dans la rubrique <i>Learn</i> ou encore de demander de l'aide auprès d'autres usagers d'Heurist via la liste francophone <a href="https://perma.cc/K398-B6WT">d'utilisateurs et utilisatrices Heurist</a>.
 </div>
 
 
@@ -865,7 +865,7 @@ Heurist est un outil en constante évolution depuis 2005, fonctionnellement trè
 L'utilisation avancée de certaines fonctionnalités peut toutefois nécessiter de l'aide extérieure. La rubrique *Help* est dédiée à cet usage.
 
 
-Le site web [heuristnetwork](https://perma.cc/XVM4-Z7H2) dispose également d'une page [*Contact*](https://perma.cc/E86L-ZGYU) et d'une rubrique [*Learn*](https://heuristnetwork.org/tutorials/) permettant de compléter le contenu du présent cours.
+Le site web [heuristnetwork](https://perma.cc/XVM4-Z7H2) dispose également d'une page [*Contact*](https://perma.cc/E86L-ZGYU) et d'une rubrique [*Learn*](https://heurist.huma-num.fr/Heurist_Contacts/web/5417/10683) permettant de compléter le contenu du présent cours.
 
 ## Ressources utiles
 
