@@ -326,7 +326,7 @@ Let’s see how this works in Voyant Tools:
 
 {% include figure.html filename="en-tr-corpus-analysis-voyant-tools-13.png" alt="Voyant Tools interface showing the 'Terms' section with an additional column for relative frequency. This column provides normalized word frequency data, offering a more balanced view of term usage across the corpus." caption="Figure 13. Relative frequency." %}
 
-/3. If you sort the columns in descending order as you would in a spreadsheet program, you will see that the order of gross frequency (**Count**) and relative frequency (**Relative**) is the same.  
+3\. If you sort the columns in descending order as you would in a spreadsheet program, you will see that the order of gross frequency (**Count**) and relative frequency (**Relative**) is the same.  
 
 > **Note**: This measure is more useful for comparing different corpora. A corpus is a set of texts with something in common. In this case, Voyant is interpreting all the speeches as a single corpus. If you wanted each speech to be a different corpus, you would have to save your text in a table (HTML or XML), where the metadata is expressed in columns (in the case of the table) or in tags (in the case of HTML or XML).[^7]
 
