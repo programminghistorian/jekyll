@@ -19,19 +19,19 @@ Souhaitez-vous contribuer au développement d’une leçon _Programming Historia
 
 Évaluer une leçon pour Programming Historian est une très bonne façon de **gagner de nouvelles compétences techniques** et d’**interagir avec la communauté des humanités numériques**. 
 
-Veuillez nous faire part de votre intérêt via ce formulaire : [Formulaire en français](https://forms.gle/tKZQJvhqjfps6Sua6)
+Veuillez nous faire part de votre intérêt via ce formulaire : [Formulaire en français](https://tinyurl.com/fr-ph-evaluation)
 
 ## Remix & Reuse – Webinar
 
 Are you interested in **translating or adapting** a _Programming Historian_ lesson for your community? Our CC BY licence allows you to remix, reuse and share any of our lessons (under certain terms). We want to encourage you to take up these freedoms and **develop new computational learning resources** to empower communities whom we do not yet reach.
 
-Join our webinar on **31 July at 14:30 BST** to hear our best practices, workflows, and learn how we can support your independent efforts!
+Join our webinar on **31 July at [14:30 BST](https://www.timeanddate.com/worldclock/converter.html?iso=20250731T133000&p1=tz_bst)** to hear our best practices, workflows, and learn how we can support your independent efforts!
 
 Tickets remaining: <https://ph-community-adaptations.eventbrite.co.uk>
 
 ## Our Supporters
 
-Grateful thanks to our valued partners who have renewed their membership this quarter: **University of Bristol Library**, **University of Waterloo**, **Université de Montréal**, **University of Oxford**, **University of Sussex Library**, the **Centre for Data, Culture and Society** at the University of Edinburgh, **Cambridge Digital Humanities**, and **University of Florida**. 
+Grateful thanks to our valued partners who have renewed their Institutional Partner membership this quarter: **University of Bristol Library**, **University of Waterloo**, **Université de Montréal**, **University of Oxford**, **University of Sussex Library**, the **Centre for Data, Culture and Society** at the University of Edinburgh, **Cambridge Digital Humanities**, and **University of Florida**. 
 
 Warm welcome to our two newest members: **Iowa State University Library** and **Software Sustainability Institute**!
 
@@ -41,7 +41,7 @@ Sincere thanks to all who joined our **Annual General Meeting** this June!
 
 ## Thank you, Jess!
 
-Our chair of Trustees James Baker shares a few words about Jessica Parr, who is leaving _Programming Historian_ after many years of dedication:
+Our Chair of Trustees James Baker shares a few words about Jessica Parr, who is leaving _Programming Historian_ after many years of dedication:
 
 "Jess joined the team in 2017 when we were preparing to launch _Programming Historian_ en español. In the same year, she took on the role of Managing Editor for our English-language journal, a vital contribution at a time of real growth for the project. In her time with us, Jess made a number of substantial contributions to the project, including editing three articles, taking responsibility for internationalisation as Global Team lead, supporting the onboarding of _Programming Historian_ em português, and most recently joining our Trustee group. I want to thank Jess for her commitment to _Programming Historian_, especially during her move to her current post at Northeastern University, and look forward to seeing the contributions she makes to Digital History in the future."
 
@@ -80,8 +80,9 @@ COREY STEPHAN
 - This lesson demonstrates how to prepare a geographically accurate historical battle scene in the free and open source computer game 0 A.D. 
 
 ------    
+
 Next issue: September 2025. Follow us on social media to stay updated on our new publications, research and events!
 
 [Bluesky](https://bsky.app/profile/proghist.bsky.social) - [Mastodon](https://hcommons.social/@proghist) - [LinkedIn](https://www.linkedin.com/company/prog-hist/)- [Patreon](https://www.patreon.com/theprogramminghistorian)
 
-You can also [download this Bulletin](/assets/bulletin/2025-06-27-bulletin-issue-06.pdf) as a PDF.
+You can also [download this Bulletin](/assets/bulletin/2025-06-27-bulletin-issue-07.pdf) as a PDF.
