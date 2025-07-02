@@ -1,5 +1,5 @@
 ---
-title: Appel à Évaluateur·rices (édition française)
+title: Appel à Évaluateur·ices (édition française)
 authors: 
 - Marie Flesch
 layout: post
@@ -26,7 +26,7 @@ Les personnes intéressées sont invitées à remplir notre [formulaire Google](
 
 ### Pourquoi évaluer une leçon pour *PH en français*&nbsp;? 
 
-Évaluer une leçon pour *PH en français* est une excellente façon de développer de nouvelles compétences techniques, de participer à la communauté des humanités numériques, et de contribuer à une recherche collaborative, durable et ouverte. De plus, nous publions les noms de toutes les personnes qui contribuent à une leçon - auteur·es, traducteur·ices et évaluateur·ices.  
+Évaluer une leçon pour *PH en français* est une excellente façon de développer de nouvelles compétences techniques, de participer à la communauté des humanités numériques, et de contribuer à une recherche collaborative, durable et ouverte. De plus, nous publions les noms de toutes les personnes qui contribuent à une leçon - auteur·ices, traducteur·ices et évaluateur·ices.  
 
 >_PH en français_ s'engage à proposer un environnement scientifique bienveillant et ouvert. Tous les personnes qui participent à l'évaluation ouverte doivent suivre notre [Code de conduite](https://github.com/programminghistorian/jekyll/blob/gh-pages/CODE_OF_CONDUCT.md#code-de-conduite).
 
