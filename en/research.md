@@ -101,7 +101,7 @@ The project team and members of the wider community are involved in a number of 
 
 ## Posters, Conference Papers, & Invited Talks
 
-* Marie Flesch, 'Reproducibility in the teaching of digital humanities: Lessons from Programming Historian', [ReproducibiliTea in the HumaniTeas](https://perma.cc/F7RT-G8WF), University of Cologne, Germany, (23 June 2025).
+* Marie Flesch, "Reproducibility in the teaching of digital humanities: Lessons from _Programming Historian_", [ReproducibiliTea in the HumaniTeas](https://perma.cc/F7RT-G8WF), University of Cologne, Germany, (23 June 2025).
 * Riva Quiroga, "Métodos digitales en humanidades: una guía para investigar y aprender con _Programming Historian_", Instituto de Historia, PUCV, Viña del Mar, Chile, (2 October 2024).
 * Joana Vieira Paulino, Daniel Alves, Jimmy Medeiros, Juliana Marques & Suemi Higuchi, "Increasing Digital Literacy in the Classroom: the Use of the _Programming Historian_ in Brazilian and Portuguese Universities", Decolonizing Knowledge, Amplifying Voices: Digital Humanities in Action Across Latin America and Beyond, [DH 2024](https://dh2024.adho.org/), George Mason University Arlington Campus, Washington DC, USA (& online), (5-9 August 2024).
 * Jennifer Isasi & Zoe LeBlanc, "Programming Infrastructure and Mission: The Data-Driven Rebuilding of _Programming Historian_", Missions Accomplished? The Future of Mission-Driven Digital Scholarship Journals in DH, [DH 2024](https://dh2024.adho.org/), George Mason University Arlington Campus, Washington DC, USA (& online), (5-9 August 2024).    
