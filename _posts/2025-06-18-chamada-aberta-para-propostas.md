@@ -29,13 +29,14 @@ As lições apoiam leitores que desejam adquirir novas habilidades, mas o proces
 
 A edição em português do *Programming Historian* busca propostas que preencham lacunas em nosso diretório de lições. Explore [nosso acervo](/pt/licoes/) para descobrir o que já está disponível e pensar no que você pode acrescentar.
 
-Se o método ou abordagem que você gostaria de abordar já está contemplado nas edições em [espanhol](/es/lecciones/), [francês](/fr/lecons/) ou [inglês](/en/lessons/) do *Programming Historian*, também aceitamos propostas para traduzi-las para o português. Consulte o nosso [Mapa de Traduções](/translation-concordance) para identificar opções de tradução. Nesta chamada, **propostas de \[ORIGINAIS/TRADUÇÕES] terão prioridade na publicação**.
+Se o método ou abordagem que você gostaria de desenvolver já está contemplado nas edições em [espanhol](/es/lecciones/), [francês](/fr/lecons/) ou [inglês](/en/lessons/) do *Programming Historian*, também aceitamos propostas para traduzi-las para o português. Consulte o nosso [Mapa de Traduções](/translation-concordance) para identificar opções de tradução. Nesta chamada, **propostas de \[ORIGINAIS/TRADUÇÕES] terão prioridade na publicação**.
 
 Também estamos interessados em expandir nossa oferta de conteúdos e convidamos propostas focadas em abordagens metodológicas, técnicas digitais e ferramentas, incluindo, mas não se limitando a:
 
 * Aplicação de IA generativa e desenvolvimento de RAG (*Retrieval-Augmented Generation*) para a pesquisa com fontes históricas
 * Aplicação de técnicas de Processamento de Linguagem Natural (PLN/NLP) em conjuntos de fontes históricas
 * Construção e uso de grafos de conhecimento (*knowledge graphs*) para pesquisas em humanidades
+* Uso de análise espacial, ferramentas de mapeamento ou de extração de entidades geográficas de textos
 * [ABERTO A OUTRAS SUGESTÕES DE TEMAS OU ABORDAGENS A PARTIR DAS CONSTRIBUIÇÕES DA COMUNIDADE]
 
 ## Como Submeter uma Proposta
