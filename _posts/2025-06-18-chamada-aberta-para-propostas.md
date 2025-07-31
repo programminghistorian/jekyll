@@ -10,8 +10,8 @@ categories: posts
 
 A [edição em português do _Programming Historian_](/pt/licoes/) está com chamada aberta para propostas de novas lições originais ou traduções para publicação em 2025-6.
 
-**Início das submissões**: DD MÊS AAAA   
-**Encerramento das submissões**: DD MÊS AAAA
+**Início das submissões**: 31 de julho 2025   
+**Encerramento das submissões**: 31 de outubro 2025
 
 ## O que é uma lição do *Programming Historian*?
 
@@ -48,7 +48,7 @@ Você pode:
 
 **Se tiver interesse, envie sua proposta até DD MÊS AAAA.**
 
-Disponibilizamos [um formulário online](https://tinyurl.com/ph-en-proposals) para submissão direta. Também há [uma versão em texto simples](/assets/forms/Lesson.Query.Form.txt) que pode ser [enviada por e-mail](mailto:portugues@programminghistorian.org), se preferir. O formulário contém doze perguntas — por favor, responda a todas que forem pertinentes.
+Disponibilizamos [um formulário online](https://tinyurl.com/pt-ph-proposta-2025) para submissão direta. Também há [uma versão em texto simples](/assets/forms/formulario.proposta.licao.txt) que pode ser [enviada por e-mail](mailto:portugues@programminghistorian.org), se preferir. O formulário contém doze perguntas — por favor, responda a todas que forem pertinentes.
 
 Haverá espaço para você descrever o estudo de caso que pretende utilizar na lição e explicar como chegou a usar esse método ou ferramenta em sua trajetória nas humanidades.
 
@@ -70,4 +70,4 @@ Caso tenha dúvidas, entre em contato com o Editor-Geral da edição em portugu�
 
 Lançado em 2012, o *Programming Historian* oferece mais de 200 lições revisadas por pares, multilíngues e voltadas para iniciantes, ajudando pesquisadores das humanidades a aprender uma ampla variedade de ferramentas, técnicas e fluxos de trabalho digitais. Nos últimos anos, nossa publicação expandiu-se com as edições em [espanhol](/es/lecciones/), [francês](/fr/lecons/) e [português](/pt/licoes/). Nossos periódicos são de Acesso Aberto Diamante: os autores mantêm os direitos autorais, não há taxas para publicar, todo o conteúdo é revisado por pares e o acesso é sempre gratuito para leitores.
 
-Somos uma iniciativa conduzida por voluntários, com apoio do Conselho da ProgHist Ltd (organização sem fins lucrativos), de uma pequena equipe de publicações e de uma comunidade global de colaboradores. Nosso financiamento vem de [uma rede crescente de instituições](/en/supporters) na Europa, Canadá, América do Norte e América Latina, que apoiam nosso sucesso por meio do [Programa de Parceiros Institucionais](/en/ipp).
+Somos uma iniciativa conduzida por voluntários, com apoio do Conselho da ProgHist Ltd (organização sem fins lucrativos), de uma pequena equipe de publicações e de uma comunidade global de colaboradores. Nosso financiamento vem de [uma rede crescente de instituições](/en/supporters) na Europa, Canadá, América do Norte e América Latina, que apoiam nosso sucesso por meio do [Programa de Parceiros Institucionais](/pt/ppi).
