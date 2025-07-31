@@ -229,8 +229,7 @@ Nexo Jornal:
 -   *nome do site*/*subdivisão da seção*/*ano (4 dígitos)*/*mês (3
    caracteres)*/*dia (2 
    dígitos)*/*palavras-que-descrevem-o-conteúdo-separadas-por-hifens*
--   <https://www.nexojornal.com.br/expresso/2020/12/21/O-que-se-sabe-sobre-a-nova-variante-do-coronav%C3%ADrus>
-    .
+-   <https://www.nexojornal.com.br/expresso/2025/07/30/tarifa-trump-contra-brasil-decreto>
 
 Nos catálogos de arquivo, URLs estruturadas por um único elemento de dados são
 frequentemente usadas. O site Homens e Navios do Bacalhau estrutura seu arquivo on-line
