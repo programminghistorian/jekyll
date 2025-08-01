@@ -10,7 +10,7 @@ categories: posts
 
 A [edição em português do _Programming Historian_](/pt/licoes/) está com chamada aberta para propostas de novas lições originais ou traduções para publicação em 2025-6.
 
-**Início das submissões**: 31 de julho 2025   
+**Início das submissões**: 6 de agosto 2025   
 **Encerramento das submissões**: 31 de outubro 2025
 
 ## O que é uma lição do *Programming Historian*?
