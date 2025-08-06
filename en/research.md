@@ -50,6 +50,8 @@ The project team and members of the wider community are involved in a number of 
 
 ## Workshops & Events
 
+* Charlotte Chevrie, 'Remix and Reuse: Translation and Adaptation in the Community', _Programming Historian_ [Online], (31 July 2025).
+* Anisa Hawes, ['Building your Digital Research Skills with _Programming Historian_'](https://perma.cc/6T3D-XNE6), Digital Skills in Arts and Humanities (DISKAH) network DH & RSE Summer School, King's College London, United Kingdom (4 July 2025).
 * Anisa Hawes, [‘Teaching and Writing Digital Methods'](https://perma.cc/9JWJ-CEJY), Cambridge Digital Humanities, University of Cambridge, United Kingdom (28 April 2025).
 * Amelia Wakeford, Giulia Osti & Anisa Hawes, 'A _Programming Historian_ Knowledge Exchange Workshop', University of Birmingham, (29 November 2024) & [Online], (4 December 2024).
 * Anisa Hawes, [‘Building your digital research skills with _Programming Historian_’](https://www.cdh.cam.ac.uk/events/38929/), Cambridge Digital Humanities, University of Cambridge [Online], (21 November 2024).
