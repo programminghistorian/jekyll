@@ -49,7 +49,7 @@ Você pode:
 * Propor uma nova lição original em português
 * Propor a tradução para o português de uma lição original já publicada em [espanhol](/es/lecciones/), [francês](/fr/lecons/) ou [inglês](/en/lessons/). Consulte nosso [Mapa de Traduções](/translation-concordance) para verificar as opções.
 
-**Se tiver interesse, envie sua proposta até DD MÊS AAAA.**
+**Se tiver interesse, envie sua proposta até 31 de outubro 2025.**
 
 Disponibilizamos [um formulário online](https://tinyurl.com/pt-ph-proposta-2025) para submissão direta. Também há [uma versão em texto simples](/assets/forms/formulario.proposta.licao.txt) que pode ser [enviada por e-mail](mailto:portugues@programminghistorian.org), se preferir. O formulário contém doze perguntas — por favor, responda a todas que forem pertinentes.
 
@@ -73,4 +73,4 @@ Caso tenha dúvidas, entre em contato com o Editor-Geral da edição em portugu�
 
 Lançado em 2012, o *Programming Historian* oferece mais de 200 lições revisadas por pares, multilíngues e voltadas para iniciantes, ajudando pesquisadores das humanidades a aprender uma ampla variedade de ferramentas, técnicas e fluxos de trabalho digitais. Nos últimos anos, nossa publicação expandiu-se com as edições em [espanhol](/es/lecciones/), [francês](/fr/lecons/) e [português](/pt/licoes/). Nossos periódicos são de Acesso Aberto Diamante: os autores mantêm os direitos autorais, não há taxas para publicar, todo o conteúdo é revisado por pares e o acesso é sempre gratuito para leitores.
 
-Somos uma iniciativa conduzida por voluntários, com apoio do Conselho da ProgHist Ltd (organização sem fins lucrativos), de uma pequena equipe de publicações e de uma comunidade global de colaboradores. Nosso financiamento vem de [uma rede crescente de instituições](/en/supporters) na Europa, Canadá, América do Norte e América Latina, que apoiam nosso sucesso por meio do [Programa de Parceiros Institucionais](/pt/ppi).
+Somos uma iniciativa conduzida por voluntários, com apoio do Conselho da ProgHist Ltd (organização sem fins lucrativos), de uma pequena equipe de publicações e de uma comunidade global de colaboradores. Nosso financiamento vem de [uma rede crescente de instituições](/pt/apoiadores) na Europa, Canadá, América do Norte e América Latina, que apoiam nosso sucesso por meio do [Programa de Parceiros Institucionais](/pt/ppi).
