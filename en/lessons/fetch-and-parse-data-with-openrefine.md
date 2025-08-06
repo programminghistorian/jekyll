@@ -365,7 +365,7 @@ The basic components of the ChromAm API are:
 
 - the base URL, `https://chroniclingamerica.loc.gov/`
 - the search service location for individual newspaper pages, `search/pages/results`
-- a query string, starting with `?` and made up of value pairs (`fieldname=value`) separated by `&`. Much like using the [advanced search form](https://chroniclingamerica.loc.gov/#tab=tab_advanced_search), the value pairs of the query string set the [search options](https://chroniclingamerica.loc.gov/search/pages/opensearch.xml).
+- a query string, starting with `?` and made up of value pairs (`fieldname=value`) separated by `&`. Much like using the [advanced search form](https://chroniclingamerica.loc.gov/#tab=tab_advanced_search), the value pairs of the query string set the search options.
 
 Using a GREL expression, these components can be combined with the values in the "ChronAm" project to construct a search query URL.
 The contents of the data table can be accessed using [GREL variables](https://github.com/OpenRefine/OpenRefine/wiki/Variables).

@@ -48,6 +48,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Talleres y eventos
 
+* Anisa Hawes, [‘Teaching and Writing Digital Methods'](https://perma.cc/9JWJ-CEJY), Cambridge Digital Humanities, University of Cambridge, Reino Unido (28 de abril de 2025).
 * Amelia Wakeford, Giulia Osti & Anisa Hawes, 'A _Programming Historian_ Knowledge Exchange Workshop', University of Birmingham, (29 November 2024) & [En línea], (4 de diciembre de 2024).
 * Anisa Hawes, [‘Building your digital research skills with _Programming Historian_’](https://www.cdh.cam.ac.uk/events/38929/), Cambridge Digital Humanities, University of Cambridge [En línea], (21 de noviembre de 2024).
 * Daniel van Strien, 'Computer Vision for the Humanities and Social Sciences: An Introduction to Deep Learning for Image Classification', Centre for Data, Culture and Society, University of Edinburgh, Reino Unido (21 de marzo de 2024).
@@ -97,6 +98,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Carteles, conferencias y presentaciones
 
+* Marie Flesch, "Reproducibility in the teaching of digital humanities: Lessons _from Programming Historian_", [ReproducibiliTea in the HumaniTeas](https://perma.cc/F7RT-G8WF), University of Cologne, Alemania, (23 de junio).
 * Riva Quiroga, "Métodos digitales en humanidades: una guía para investigar y aprender con _Programming Historian_", Instituto de Historia, PUCV, Viña del Mar, Chile, (2 de octubre de 2024).
 * Joana Vieira Paulino, Daniel Alves, Jimmy Medeiros, Juliana Marques & Suemi Higuchi, "Increasing Digital Literacy in the Classroom: the Use of the _Programming Historian_ in Brazilian and Portuguese Universities", Decolonizing Knowledge, Amplifying Voices: Digital Humanities in Action Across Latin America and Beyond, [DH 2024](https://dh2024.adho.org/), George Mason University Arlington Campus, Washington DC, EE.UU. (& en línea), (5-9 de agosto de 2024).
 * Jennifer Isasi & Zoe LeBlanc, "Programming Infrastructure and Mission: The Data-Driven Rebuilding of _Programming Historian_", Missions Accomplished? The Future of Mission-Driven Digital Scholarship Journals in DH, [DH 2024](https://dh2024.adho.org/), George Mason University Arlington Campus, Washington DC, EE.UU. (& en línea), (5-9 de agosto de 2024).
@@ -121,7 +123,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Isasi, Jennifer. '_Programming Historian_: A Collaborative Project to Put Programming Within the Reach of Humanists', Universidad de Mondragón, España (14 de noviembre de 2022).
 * Riva Quiroga, 'Evaluación abierta en revistas', XI Conferencia Internacional BIREDIAL-ISTEC, Montevideo, Uruguay (7 de octubre de 2022).
 * James Baker, Paola Marchionni, Jo Pugh, Jon Reades, Yann Ryan, Chahan Vidal-Gorène, Peter Webster, & Jennie Williams, '_Developing computational skills for digital collections: a new Programming Historian series_', [DCDC22: Discovering Collections Discovering Communities](https://dcdcconference.com/), (11-15 de julio 2022).
-* Matthias Gille Levenson, Sofia Papastamkou & Célian Ringwald, '_Programming Historian_: un lieu de collaborations et d'interactions multiples', [DHNord 2022](https://www.meshs.fr/page/dhnord2022.5): Travailler en humanités numériques: collaborations, complémentarités et tensions, Lille, Francia, (22 de junio 2022). [Enlace al vídeo](https://www.meshs.fr/page/dhnord2022_session5).  
+* Matthias Gille Levenson, Sofia Papastamkou & Célian Ringwald, '_Programming Historian_: un lieu de collaborations et d'interactions multiples', [DHNord 2022](https://perma.cc/UHV8-YXK5): Travailler en humanités numériques: collaborations, complémentarités et tensions, Lille, Francia, (22 de junio 2022). [Enlace al vídeo].  
 * Adam Crymble, 'Local Needs for Global Digital Scholarship', _Quo Vadis_, UCL, Reino Unido (9 de junio 2022).
 * Matthias Gille Levenson & Gwenaëlle Patat, ‘_Programming Historian en français_ : Faire communauté pour le partage de ressources éducatives libres sur les méthodes numériques en sciences humaines et sociales francophones’, [Colloque Humanistica 2022: Association francophone des humanités numériques](https://hal.archives-ouvertes.fr/hal-03672420),  Montreal, Canadá (mayo 2022).
 * Eric Brasil, '[Criação, manutenção e divulgação de projetos de História em meios digitais: git, GitHub e o _Programming Historian_](https://doi.org/10.5281/zenodo.6566754)’ ([diapositivas](https://ericbrasiln.github.io/hdfgv/), [vídeo](https://youtu.be/aJvjkSBETBw)), Escola de Ciências Sociais, Fundação Getúlio Vargas/Centro de Pesquisa e Documentação de História Contemporânea do Brasil, (20 de mayo 2022). 
