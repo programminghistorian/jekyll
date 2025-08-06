@@ -61,7 +61,7 @@ With more data, CA can uncover more subtle distinctions among groups within a pa
 
 ## Canadian Parliamentary Committees
 
-In the Canadian Parliamentary system, citizens elect representatives called Members of Parliament, or MPs, to the House of Commons. MPs are responsible for voting on and proposing changes to legislation in Canada. [Parliamentary Committees (CPCs)](http://www.ourcommons.ca/Committees/en/Home) consist of MPs who inform the House about important details of policy in a topic area. Examples of such committees include the CPCs on Finance, Justice and Health.
+In the Canadian Parliamentary system, citizens elect representatives called Members of Parliament, or MPs, to the House of Commons. MPs are responsible for voting on and proposing changes to legislation in Canada. [Parliamentary Committees (CPCs)](https://www.ourcommons.ca/Committees/en/Home) consist of MPs who inform the House about important details of policy in a topic area. Examples of such committees include the CPCs on Finance, Justice and Health.
 
 We will use abbreviations for the parliamentary committees because the names can get long, making them hard to read on a plot. You can use this table as a reference guide for the abbreviations and their respective committee names:
 
