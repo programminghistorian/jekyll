@@ -187,7 +187,7 @@ We will also import [Matplotlib](https://perma.cc/AX3V-X4EC), a library for crea
 ```python
 %matplotlib inline
 import matplotlib.pyplot as plt
-plt.style.use('seaborn')
+plt.style.use('seaborn-v0_8')
 ```
 
 ## Loading the Data
