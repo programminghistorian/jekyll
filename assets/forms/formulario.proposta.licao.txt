@@ -1,24 +1,71 @@
 # Proposta de nova lição para o Programming Historian
 
-Se estiver interessado em escrever uma lição e enviá-la ao Programming Historian, preencha este formulário para fornecer ao Conselho Editorial detalhes suficientes para comentar a sua ideia. Se tiver dificuldades com o formulário, pode entrar em contato com o nosso Editor-chefe diretamente:
+A edição em português do _Programming Historian_ está com chamada aberta para propostas de novas lições.
 
-Inglês: Alex Wermer-Colan (english@programminghistorian.org)
-Espanhol: Jennifer Isasi (espanol@programminghistorian.org)
-Francês: Marie Flesch (francais@programminghistorian.org)
-Português: Eric Brasil (portugues@programminghistorian.org)
+Incentivamos as pessoas interessadas em submeter uma proposta a refletirem sobre como ela pode contribuir para ampliar e qualificar nosso acervo de lições.
 
-## Sobre o autor
-1. Nome
-2. Email
+Você pode [explorar nosso site](https://programminghistorian.org/pt/licoes/) para conhecer os conteúdos já disponíveis e considerar o que pode ser acrescentado.
 
-## Informação sobre a lição
-3. Língua de submissão (apagar o que não interessa) Inglês / Espanhol / Francês / Português
-4. Título porposto para a lição
-5. Resumo da lição (3-4 frases)
-6. Descrição do estudo de caso (detalhes sobre o problema histórico usado como exemplo na lição)
-7. Objectivos de aprendizagem (entre 2-3)
-8. Fase de pesquisa mais adequada para caracterizar a lição (apagar o que não interessa) Obter / Transformar / Analisar / Apresentar / Preservar
-9. Área de pesquisa mais relevante para a lição (apagar o que não interessa) APIs / python / gestão de dados / manipulação de dados / leitura distante / instalação / dados linkados abertos / mapeamento / análise de redes / web scraping / publicação digital / outra
-10. Data de submissão previsível
-11. A lição ira usar tecnologia de acesso aberto e os dados não terão custos para os leitores? Sim / Não
-12. Outros comentários para o Editor
+Se o método ou abordagem que você deseja tratar já está contemplado nas edições em [espanhol](https://programminghistorian.org/es/lecciones/), [francês](https://programminghistorian.org/fr/lecons/) ou [inglês](https://programminghistorian.org/en/lessons/) do _Programming Historian_, também aceitamos propostas de tradução dessas lições para o português. Consulte nosso [Mapa de Traduções](/translation-concordance) para identificar opções disponíveis.
+
+Este formulário possui doze perguntas. Por favor, responda a todas que forem pertinentes, com o máximo de detalhes possível.
+
+---
+
+Nome:  
+E-mail:
+
+**1.** Qual é o título proposto para sua lição?
+
+**2.** Que tipo de lição você está propondo?
+- [ ] Uma lição original em língua portuguesa  
+- [ ] Uma tradução para o português de uma lição original publicada em espanhol, francês ou inglês
+
+**3.** Se você está propondo uma lição original, explique como sua proposta pode apoiar, expandir ou complementar as lições já publicadas.
+Use as perguntas abaixo para estruturar sua resposta:
+- Sua proposta pode servir como introdução para quais lições já existentes do _Programming Historian_?
+- Sua proposta pode funcionar como aprofundamento ou continuação de quais lições já existentes?
+- De que forma sua proposta pode preencher uma lacuna no nosso diretório de lições?
+
+[200–300 palavras]
+
+**4.** Se você está propondo uma lição original, descreva o que os leitores poderão aprender com ela:  
+[3–4 frases]
+
+**5.** Conte um pouco sobre como você chegou a utilizar esse método ou ferramenta em seu trabalho nas humanidades:  
+[100–300 palavras]
+
+**6.** Se você está propondo uma lição original, descreva o estudo de caso que pretende utilizar como base da lição.  
+Lições bem-sucedidas utilizam conjuntos de dados reais e trechos de código que os leitores possam manipular e testar.  
+[100–300 palavras]
+
+**7.** Se você está propondo uma tradução, pretende adaptar ou localizar o estudo de caso da lição original para a comunidade lusófona?  
+Lições bem-sucedidas utilizam conjuntos de dados reais e trechos de código que os leitores possam manipular e testar.  
+[100–300 palavras]
+
+**8.** Se você está propondo uma lição original, explique como a escolha de software e dados da sua lição se alinha ao nosso compromisso com a ciência aberta:  
+Defendemos o uso de softwares livres, linguagens de programação abertas e dados de acesso aberto sempre que possível.  
+Use as perguntas abaixo para estruturar sua resposta:
+- Quais softwares livres, ferramentas abertas, linguagens de programação abertas ou conjuntos de dados abertos são utilizados?
+- Sua lição faz uso de algum software proprietário ou ferramenta comercial?
+  (Recomendamos fortemente a adoção de alternativas livres sempre que possível.)
+- Há algum custo* ou compromisso necessário para utilizar esse método ou ferramenta?
+  *inclusive exigência de cartão de crédito para uso gratuito
+
+[100–300 palavras]
+
+**9.** Se você está propondo uma lição original, como o método ou ferramenta poderia ser aplicado ou adaptado a dados em outras línguas além do português?  
+Valorizamos metodologias e ferramentas aplicáveis em contextos de pesquisa multilíngues; ainda assim, estamos interessados em receber sua proposta caso a metodologia ou ferramenta que você pretende ensinar funcione especialmente bem (ou mesmo apenas) em português.  
+[100–300 palavras]
+
+**10.** Se você está propondo uma lição original, descreva eventuais pré-requisitos técnicos e limitações de acesso à ferramenta ou método.  
+Nossa audiência utiliza diferentes sistemas operacionais e dispõe de variados recursos computacionais.  
+[100–200 palavras]
+
+**11.** Link opcional para código de exemplo em seu repositório pessoal no GitHub:
+
+**12.** Link opcional para um trecho preliminar da lição no seu repositório pessoal no GitHub:
+
+---
+
+Por favor, envie este formulário para o Editor-Geral da edição em português do _Programming Historian_, [Eric Brasil](mailto:portugues@programminghistorian.org).
