@@ -1430,22 +1430,22 @@
   orcid: 0000-0002-1147-4135
   team: true
   team_start: 2019
-  institution: Tabular
+  institution: OLS
   sortname: Quiroga
   affiliation:
     en: |
-      Tabular, Chile
+      OLS, Chile
     es: |
-      Tabular, Chile
+      OLS, Chile
     fr: |
-      Tabular, Chili
+      OLS, Chili
     pt: |
-      Tabular, Chile
+      OLS, Chile
   bio:
     en: |
-      Riva Quiroga is a research software engineer at Tabular.
+      Riva Quiroga is a research fellow at OLS and a research software engineer at Tabular.
     es: |
-      Riva Quiroga trabaja como research software engineer en Tabular.
+      Riva Quiroga trabaja como research fellow en OLS y como research software engineer en Tabular.
   team_roles:
     - editorial
     - spanish
