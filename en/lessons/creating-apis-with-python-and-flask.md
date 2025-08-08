@@ -30,7 +30,7 @@ Access to Twitter’s API has recently changed. The Free Tier no longer allows u
 </div>
 
 <div class="alert alert-warning" role="alert">
-The Chronicling America website has recently been updated so many (if not all) elements of the example website used in this lesson may not work as described. The methodologies taught by this lesson remain relevant, however, and may be adapted by readers to a different example site. We are currently investigating options for adapting this lesson. [August 2025]
+The Chronicling America website has recently been updated, so many (if not all) elements of the example website used in this lesson may not work as described. The methodologies taught by this lesson remain relevant, however, and may be adapted by readers to a different example site. We are currently investigating options for updating this lesson. [August 2025]
 </div>
 
 # Lesson Goals
