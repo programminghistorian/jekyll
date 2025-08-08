@@ -22,7 +22,7 @@ doi: 10.46430/phen0065
 {% include toc.html %}
 
 <div class="alert alert-warning" role="alert">
-The Chronicling America website has recently been updated. Unfortunately, many elements of the example website used in this lesson will not work as described. The methodologies taught by this lesson remain relevant, however, and may be adapted by readers to a different example site. We are working on adapting the lesson to the new Chronicling America website, but we have no clear timeline on when the lesson will be updated. [August 2025]
+The Chronicling America website has recently been updated so many elements of the example website used in this lesson may not work as described. The methodologies taught by this lesson remain relevant, however, and may be adapted by readers to a different example site. We are currently investigating options for adapting this lesson. [August 2025]
 </div>
 
 # Lesson Goals
