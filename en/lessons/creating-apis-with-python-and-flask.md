@@ -29,6 +29,10 @@ doi: 10.46430/phen0072
 Access to Twitter’s API has recently changed. The Free Tier no longer allows users to search and download Twitter data. Unfortunately, this means that elements of this lesson will only work for those who are paying for an upgraded plan. At the moment, there are no special access plans for researchers or academics. [2023]
 </div>
 
+<div class="alert alert-warning" role="alert">
+The Chronicling America website has recently been updated. Unfortunately, many (if not all) elements of the example website used in this lesson will not work as described. The methodologies taught by this lesson remain relevant, however, and may be adapted by readers to a different example site. We are working on adapting the lesson to the new Chronicling America website, but we have no clear timeline on when the lesson will be updated. [August 2025]
+</div>
+
 # Lesson Goals
 
 Web APIs are tools for making information and application functionality accessible over the internet. In this lesson, you will:
