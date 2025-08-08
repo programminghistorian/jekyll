@@ -1430,22 +1430,22 @@
   orcid: 0000-0002-1147-4135
   team: true
   team_start: 2019
-  institution: Tabular
+  institution: OLS
   sortname: Quiroga
   affiliation:
     en: |
-      Tabular, Chile
+      OLS, Chile
     es: |
-      Tabular, Chile
+      OLS, Chile
     fr: |
-      Tabular, Chili
+      OLS, Chili
     pt: |
-      Tabular, Chile
+      OLS, Chile
   bio:
     en: |
-      Riva Quiroga is a research software engineer at Tabular.
+      Riva Quiroga is a research fellow at OLS and a research software engineer at Tabular, Chile.
     es: |
-      Riva Quiroga trabaja como research software engineer en Tabular.
+      Riva Quiroga trabaja como research fellow en OLS y como research software engineer en Tabular, Chile.
   team_roles:
     - editorial
     - spanish
@@ -3060,20 +3060,20 @@
   email: lachapot@gmail.com
   team: true
   team_start: 2024
-  institution: Dartmouth College
+  institution: UC Berkeley
   sortname: Chapot
   affiliation:
     en: |
-      Dartmouth College, United States
+      UC Berkeley, United States
     es: |
-      Dartmouth College, Estados Unidos
+      UC Berkeley, Estados Unidos
     fr: |
-      Dartmouth College, États-Unis
+      UC Berkeley, États-Unis
     pt: |
-      Dartmouth College, Estados Unidos
+      UC Berkeley, Estados Unidos
   bio:
     en: |
-      Laura Alice Chapot is a Visiting Scholar in Comparative Literature at the Neukom Institute of Computational Science at Dartmouth College in Hanover, NH, USA. 
+      Laura Alice Chapot is an Assistant Researcher in Digital Humanities in the Department of German at the University of California, Berkeley in Berkeley, CA, USA. 
   team_roles:
     - english
     - editorial
