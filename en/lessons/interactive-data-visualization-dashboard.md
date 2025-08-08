@@ -22,6 +22,10 @@ doi: 10.46430/phen0124
 
 {% include toc.html %}
 
+<div class="alert alert-warning" role="alert">
+The Chronicling America website used in the second example has recently been updated. Unfortunately, many (if not all) elements of this example will not work as described. The methodologies taught remain relevant, however, and may be adapted by readers to a different site. We are working on adapting the example to the new Chronicling America website, but we have no clear timeline on when the lesson will be updated.<br><br>The first example remains unaffected and works as described. [August 2025]
+</div>
+
 ## Introduction
 
 To advance open scholarship in the humanities it is important to make research outputs more accessible, both to other scholars and the general public. Creating a web-based interactive dashboard to visualize data results has become a popular method to achieve this goal. There are a wide range of examples, such as [the StanceXplore project led by a team at Lund University](https://perma.cc/Y886-8MB5) that tracks social media data, [Stephanie Boddie and Amy Hillier's study](https://perma.cc/VE92-T796) that recreates W. E. B. Du Bois' study of black residents in Philadelphia, and [Johannes Burgers' project](https://perma.cc/Y3C5-XS79) that visualizes the narrative structure in William Faulkner's work. 
