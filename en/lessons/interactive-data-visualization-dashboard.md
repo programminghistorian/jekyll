@@ -23,7 +23,7 @@ doi: 10.46430/phen0124
 {% include toc.html %}
 
 <div class="alert alert-warning" role="alert">
-The Chronicling America website used in the second example has recently been updated. Unfortunately, many (if not all) elements of this example will not work as described. The methodologies taught remain relevant, however, and may be adapted by readers to a different site. We are working on adapting the example to the new Chronicling America website, but we have no clear timeline on when the lesson will be updated.<br><br>The first example remains unaffected and works as described. [August 2025]
+The Chronicling America website used in the second example has recently been updated, so many (if not all) elements of this example will not work as described. The methodologies taught remain relevant, however, and may be adapted by readers to a different site. We are investigating options for adapting this example.<br><br>The first example remains unaffected and works as described. [August 2025]
 </div>
 
 ## Introduction
