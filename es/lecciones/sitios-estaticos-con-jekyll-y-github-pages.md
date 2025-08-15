@@ -52,11 +52,11 @@ doi: 10.46430/phes0050
 * TOC
 {:toc}
 
-## ¿Qué son los sitios estáticos, Jekyll, etc. y por qué deberían importarme? <a id="section0"></a>
+## ¿Qué son los sitios estáticos, Jekyll, etc. y por qué deberían importarme?
 
-Este tutorial se basa en la [Documentación oficial de Jekyll](https://jekyllrb.com/docs/home/) escrita por la comunidad de Jekyll. Revisa la sección ["Leer más"](#section9-3) al final de la lección si deseas profundizar más sobre estos temas.
+Este tutorial se basa en la [Documentación oficial de Jekyll](https://jekyllrb.com/docs/home/) escrita por la comunidad de Jekyll. Revisa la sección ["Lecturas"](#lecturas) al final de la lección si deseas profundizar más sobre estos temas.
 
-### Sitios dinámicos, sitios estáticos y Jekyll <a id="section0-1"></a>
+### Sitios dinámicos, sitios estáticos y Jekyll
 
 Tanto los *sitios web dinámicos*, como los que son creados y administrados por gestores de contenidos tales como [Drupal](https://www.drupal.com/), [WordPress](https://wordpress.org/) y [Omeka](https://omeka.org/) extraen información de una base de datos para completar el contenido de una página web. Cuando buscamos un libro en Amazon.com, por ejemplo, la página de resultados de búsqueda no existe como una página HTML completa; en cambio, Amazon.com tiene una plantilla para la página de resultados de búsqueda, que incluye elementos que comparten todas las páginas de resultados (como el menú principal y el logotipo de Amazon) y consulta una base de datos para insertar en esa plantilla los resultados de la búsqueda que nosotros realizamos.
 
@@ -74,13 +74,13 @@ Dado que los sitios estáticos no son más que archivos de texto (sin una base d
 
 Puedes leer más acerca de [Jekyll](https://jekyllrb.com/docs/home/) o [generadores de sitios estáticos](https://davidwalsh.name/introduction-static-site-generators) (en inglés).
 
-### GitHub & GitHub Pages <a id="section0-2"></a>
+### GitHub & GitHub Pages
 
 *[GitHub Pages](https://pages.github.com/)* es un espacio gratuito para almacenar los archivos que ejecutan un sitio web y alojar ese sitio para que las personas lo visiten (solo funciona para tipos particulares de sitios web, como sitios HTML básicos o sitios Jekyll; no aloja bases de datos).
 
-*[GitHub](https://github.com/)* es una plataforma visual para utilizar *[git](https://git-scm.com/doc)*, un sistema de *versionado* o, en otras palabras, de registro de cambios realizados en los archivos (código y documentos de texto, entre otros) a través del tiempo (como ya explicamos [más arriba](#section0-1)). Si tienes curiosidad, puedes explorar este [minitutorial de GitHub](https://guides.github.com/activities/hello-world/) (en inglés).
+*[GitHub](https://github.com/)* es una plataforma visual para utilizar *[git](https://git-scm.com/doc)*, un sistema de *versionado* o, en otras palabras, de registro de cambios realizados en los archivos (código y documentos de texto, entre otros) a través del tiempo (como ya explicamos [más arriba](sitios-dinámicos-sitios-estáticos-y-jekyll)). Si tienes curiosidad, puedes explorar este [minitutorial de GitHub](https://guides.github.com/activities/hello-world/) (en inglés).
 
-### ¿Por qué usar sitios estáticos?<a id="section0-3"></a>
+### ¿Por qué usar sitios estáticos?
 
 Opciones como [Drupal](https://www.drupal.com/), [WordPress](https://wordpress.org/) y [Omeka](https://omeka.org/) son últiles para la creación de sitios web complejos e interactivos como Amazon o una edición digital interactiva de una novela, pero para muchos blogs, sitios web de proyectos y portafolios en línea, un sitio web estático (como un sitio web creado con Jekyll) puede hacer todo lo que se necesita al mismo tiempo que proporciona algunas ventajas:
 
@@ -94,7 +94,7 @@ Opciones como [Drupal](https://www.drupal.com/), [WordPress](https://wordpress.o
 
 - **Alojamiento gratuito:** Si bien muchas herramientas de sitios web como Drupal, WordPress y Omeka son gratuitas, alojarlas (pagar a alguien para que muestre los archivos de tu sitio web a los visitantes del sitio) puede costar dinero.
 
-- **Control de versiones:** Hospedar en GitHub Pages significa que tu sitio está vinculado a la interfaz visual de GitHub para el control de versiones de git, por lo que puede realizarse un seguimiento de los cambios en tu sitio y, si fuera necesario, volver al estado anterior de cualquier publicación de blog, o página. Esto incluye archivos cargados que tal vez desees almacenar en el sitio, como programas de estudio y publicaciones antiguas (el control de versiones se explicó [con más detalle anteriormente](#section0-1)).
+- **Control de versiones:** Hospedar en GitHub Pages significa que tu sitio está vinculado a la interfaz visual de GitHub para el control de versiones de git, por lo que puede realizarse un seguimiento de los cambios en tu sitio y, si fuera necesario, volver al estado anterior de cualquier publicación de blog, o página. Esto incluye archivos cargados que tal vez desees almacenar en el sitio, como programas de estudio y publicaciones antiguas (el control de versiones se explicó [con más detalle anteriormente](#sitios-dinámicos-sitios-estáticos-y-jekyll)).
 
 - **Seguridad:** No hay una base de datos a la que haya que proteger de posibles ataques maliciosos.
 
@@ -108,25 +108,25 @@ La creación de un sitio web estático con Jekyll ofrece aún más ventajas, sin
 
 - **La plantilla automatiza las tareas repetitivas:** Jekyll facilita la automatización de las tareas repetitivas del sitio web a través de su sistema de "plantillas": puedes crear contenido que, por ejemplo, debe aparecer en el encabezado y pie de cada página (por ejemplo, el logotipo o el menú principal), o repetir información en cada publicación de blog (por ejemplo, nombre del autor y fecha de publicación). Esta información de la plantilla se repetirá automáticamente en las páginas web que desees, en lugar de obligarte a reescribir manualmente esa información. Esto no solo ahorra mucho tiempo de copiar y pegar si alguna vez deseas cambiar algo que aparece en cada página de tu sitio web (por ejemplo, un nuevo logotipo o un nuevo elemento en el menú principal), ya que si lo cambias una vez en una plantilla, lo cambiarás en cada lugar que aparece en tu sitio web.
 
-## Antes de la instalación <a id="section1"></a>
-¡Estamos listos, manos a la obra! En el resto de esta lección, vamos a instalar algunos programas en nuestras computadoras, usar la línea de comandos para instalar algunas cosas que solo se pueden instalar de esa manera, ver y personalizar una versión privada de tu sitio web y finalmente hacer que tu sitio web sea accesible públicamente en la web. Si tienes problemas en algún momento de esta lección, consulta la [sección de ayuda sobre cómo hacer preguntas o informar problemas](#section1-9)
+## Antes de la instalación
+¡Estamos listos, manos a la obra! En el resto de esta lección, vamos a instalar algunos programas en nuestras computadoras, usar la línea de comandos para instalar algunas cosas que solo se pueden instalar de esa manera, ver y personalizar una versión privada de tu sitio web y finalmente hacer que tu sitio web sea accesible públicamente en la web. Si tienes problemas en algún momento de esta lección, consulta la [sección de ayuda sobre cómo hacer preguntas o informar problemas](#ayuda-créditos-y-lecturas)
 
 En esta sección vamos a asegurarnos de tener todo lo necesario para crear un sitio web estático con Jekyll y GitHub Pages. Para eso, vamos a abordar:
 
-- [qué sistema operativo es posible usar (es decir, Mac / Windows / Linux)](#section1-0)
-- [crear una cuenta de GitHub](#section1-1)
-- [por qué es necesario usar un "editor de texto" para trabajar en nuestro sitio web](#section1-3)
-- [cómo usar la línea de comandos](#section1-4)
+- qué sistema operativo es posible usar (es decir, Mac / Windows / Linux)  
+- crear una cuenta de GitHub  
+- por qué es necesario usar un "editor de texto" para trabajar en nuestro sitio web  
+- cómo usar la línea de comandos  
 
 Todos los elementos que vamos a instalar son herramientas de desarrollo web estándar. Se trata de herramientas confiables, por lo que no es indispensable saber exactamente qué hace cada una de ellas. Brindaremos una breve explicación de los elementos que hay que comprender en profundidad y dejaremos enlaces en caso de desear saber más sobre lo que se está instalando.
 
-### Sistemas operativos <a id="section1-0"></a>
+### Sistemas operativos
 
 Este tutorial está destinado a usuarios de Windows y Mac. Jekyll también funciona en Linux; sin embargo, para fines pedagógicos, este tutorial utiliza el software GitHub Desktop (disponible para Windows y Mac únicamente); los usuarios de Linux tienen que usar [git](https://git-scm.com/docs/gittutorial) para ello ((algo que este tutorial no aborda)).
 
-Jekyll no es oficialmente compatible con Windows, lo que significa que la documentación oficial de Jekyll (las páginas que guían a través de la configuración y que explican su funcionamiento) no aborda el uso de Windows. Este tutorial se basa en [las instrucciones de Windows de David Burela](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/) para las partes de la sección [Instalación de dependencias](#section2) en las que los usuarios de Windows deben hacer algo diferente; sin embargo, como parte de esta traducción al español hemos revisado el proceso de instalación en Windows.
+Jekyll no es oficialmente compatible con Windows, lo que significa que la documentación oficial de Jekyll (las páginas que guían a través de la configuración y que explican su funcionamiento) no aborda el uso de Windows. Este tutorial se basa en [las instrucciones de Windows de David Burela](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/) para las partes de la sección [Instalación de dependencias](#instalación-de-dependencias) en las que los usuarios de Windows deben hacer algo diferente; sin embargo, como parte de esta traducción al español hemos revisado el proceso de instalación en Windows.
 
-### Cuenta de usuario de GitHub <a id="section1-1"></a>
+### Cuenta de usuario de GitHub
 
 La cuenta de usuario de GitHub nos permite alojar nuestro sitio web (ponerlo a disposición para que otros lo visiten) de forma gratuita en esa plataforma. Como beneficio adicional, también nos permite llevar un registro de las versiones de nuestro sitio y tu escritura a medida que crece o cambia con el tiempo.
 
@@ -144,7 +144,7 @@ La cuenta de usuario de GitHub nos permite alojar nuestro sitio web (ponerlo a d
 
 7\. *Opcional*: puedes visitar https://github.com/settings/profile para agregar un nombre completo (puede ser tu nombre real, nombre de usuario de GitHub u otra cosa) y más información de perfil público, si lo deseas.  
 
-### Aplicación GitHub Desktop <a id="section1-2"></a>
+### Aplicación GitHub Desktop
 
 La aplicación GitHub Desktop facilita la actualización del sitio web luego de haberlo configurado. En lugar de usar la línea de comandos cada vez que queramos actualizar nuestro sitio, es posible usar este herramienta visual.
 
@@ -162,15 +162,15 @@ La aplicación GitHub Desktop facilita la actualización del sitio web luego de 
 
 7\. *Opcional:* puedes hacer el tutorial de uso de GitHub Desktop si lo deseas, pero en esta lección cubriremos todo lo que necesitas saber sobre GitHub).
 
-### Editor de texto <a id="section1-3"></a>
+### Editor de texto
 
 Es necesario descargar e instalar un editor de texto para realizar pequeñas personalizaciones al código de nuestro sitio Jekyll. Algunas buenas opciones gratuitas incluyen [jEdit](https://www.jedit.org), [Atom](https://atom.io/), [SublimeText](https://www.sublimetext.com/3), [Notepad ++](https://notepad-plus-plus.org/) para Windows o [BBedit](https://www.barebones.com/products/bbedit) para Mac. Los procesadores de texto, como Microsoft Word o WordPad, no son una buena opción porque es fácil olvidar cómo formatear y guardar el archivo; es posible agregar accidentalmente formatos y caracteres extra y/o invisibles que pueden generar problemas en el sitio. Por eso es mejor usar programas que puedan guardar lo que escribimos como texto plano (por ejemplo, HTML o Markdown).
 
-*Opcional:* Consulta la sección ["Creación en Markdown"](#section5-2) más abajo, para más información sobre un programa de edición específico en Markdown, que también puedes instalar cuando ya estemos en la etapa de crear páginas web y/o publicaciones (posts) de blog.
+*Opcional:* Consulta la sección ["Creación en Markdown"](#escritura-en-markdown) más abajo, para más información sobre un programa de edición específico en Markdown, que también puedes instalar cuando ya estemos en la etapa de crear páginas web y/o publicaciones (posts) de blog.
 
-### Línea de comandos <a id="section1-4"></a>
+### Línea de comandos
 
-La línea de comandos puede ser definida como una forma de interactuar con la computadora mediante texto: permite escribir comandos para llevar a cabo acciones sencillas (como "mostrar una lista de los archivos en este directorio" o "cambiar quién tiene permiso para acceder a este archivo"), así como para realizar acciones más complejas. No obstante, existen buenas alternativas visuales para efectuar acciones en la computadora (por ejemplo, la aplicación GitHub Desktop [que instalamos arriba](#section1-2)) y otras veces tendremos que usar la línea de comandos para indicarle qué hacer a la computadora. Si deseas más información de la que se proporciona en este tutorial, [The Programming Historian](/es/) tiene una [lección que explora en profundidad la línea de comandos](/es/lecciones/introduccion-a-bash), pero aquí cubriremos todo lo necesario para completar la creación de nuestro sitio web y solo usaremos la línea de comandos cuando sea necesario o más sencillo que una interfaz visual.
+La línea de comandos puede ser definida como una forma de interactuar con la computadora mediante texto: permite escribir comandos para llevar a cabo acciones sencillas (como "mostrar una lista de los archivos en este directorio" o "cambiar quién tiene permiso para acceder a este archivo"), así como para realizar acciones más complejas. No obstante, existen buenas alternativas visuales para efectuar acciones en la computadora (por ejemplo, la aplicación GitHub Desktop [que instalamos arriba](#aplicación-github-desktop)) y otras veces tendremos que usar la línea de comandos para indicarle qué hacer a la computadora. Si deseas más información de la que se proporciona en este tutorial, [The Programming Historian](/es/) tiene una [lección que explora en profundidad la línea de comandos](/es/lecciones/introduccion-a-bash), pero aquí cubriremos todo lo necesario para completar la creación de nuestro sitio web y solo usaremos la línea de comandos cuando sea necesario o más sencillo que una interfaz visual.
 
 Mientras que la línea de comandos usa comandos de texto, la mayoría de los usuarios utilizan una "interfaz gráfica de usuario" (también conocida como GUI, "graphical user interface"). Cualquier programa en el que las interacciones usuario-computadora se dan a través de una interfaz visual que contiene íconos, imágenes, funciones de clic con el mouse, etc. es una GUI. ¿Por qué usaríamos la línea de comandos si existen las GUI? Muchas veces es más simple y rápido escribir (o cortar y pegar de un tutorial) una serie de comandos en la línea de comandos que hacer lo mismo usando una GUI. Otras veces, hay cosas para las cuales nadie ha creado una GUI y solo es posible hacerlas a través de la línea de comandos.
 
@@ -198,11 +198,11 @@ Siempre que en este tutorial pidamos abrir una ventana de línea de comandos e i
 
 3\. Algo muy útil cuando escribimos los mismos comandos muchas veces o queremos recordar algo que escribimos antes: podemos presionar **↑** (flecha hacia arriba) en la línea de comandos para desplazarnos por los comandos recientemente escritos y presionar "Enter" después de que aparezca el que deseamos usar.
 
-## Instalación de dependencias <a id="section2"></a>
+## Instalación de dependencias
 
-A continuación, vamos a instalar algunas dependencias de software (es decir, programas de los que depende Jekyll para poder trabajar) usando la línea de comandos ya que no hay una interfaz visual para hacerlo. Esta sección se divide en instrucciones para Mac e instrucciones para Windows, así que puedes ir a la sección de [instalación de dependencias en Mac](#sectionMac) si estás usando Mac, o a la sección de [instalación de dependencias en Windows](#sectionwindows) si estás usando Windows.
+A continuación, vamos a instalar algunas dependencias de software (es decir, programas de los que depende Jekyll para poder trabajar) usando la línea de comandos ya que no hay una interfaz visual para hacerlo. Esta sección se divide en instrucciones para Mac e instrucciones para Windows, así que puedes ir a la sección de [instalación de dependencias en Mac](#en-mac) si estás usando Mac, o a la sección de [instalación de dependencias en Windows](#en-windows) si estás usando Windows.
 
-### En Mac <a id="sectionMac"></a>
+### En Mac
 
 Si estás utilizando una computadora Mac, sigue las instrucciones que se encuentran a continuación.
 
@@ -210,9 +210,9 @@ Si estás utilizando una computadora Mac, sigue las instrucciones que se encuent
 Ten en cuenta que si estás utilizando una Mac con un chip de la serie M puede que encuentres problemas de compatibilidad al instalar Jekyll o sus dependencias. Si ese es el caso, te recomendamos que sigas las instrucciones de instalación adicionales para el paquete correspondiente, tanto de la documentación original como de foros online.
 </div>
 
-Abre una ventana de línea de comandos (*Aplicaciones > Utilidades > Terminal*) e ingresa el código que se muestra en los pasos a continuación (`el código es el texto que aparece formateado así`) siguiendo [las sugerencias de uso de la línea de comandos detalladas más arriba](#section1-4).
+Abre una ventana de línea de comandos (*Aplicaciones > Utilidades > Terminal*) e ingresa el código que se muestra en los pasos a continuación (`el código es el texto que aparece formateado así`) siguiendo [las sugerencias de uso de la línea de comandos detalladas más arriba](#línea-de-comandos).
 
-### Herramientas de línea de comandos <a id="section2-1"></a>
+### Herramientas de línea de comandos
 
 Primero vamos a instalar las "herramientas de línea de comandos" de Mac para poder usar [Homebrew](https://brew.sh/) (que instalaremos a continuación). Homebrew permite descargar e instalar desde la línea de comandos software de código abierto (es un "administrador de paquetes"), lo que facilitará la instalación de Ruby (el lenguaje en el que se basa Jekyll).
 
@@ -233,7 +233,7 @@ Una vez que termine la instalación, va a aparecer un mensaje de instalación ex
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-2.5.png" caption="Captura de pantalla de la ventana emergente luego de la instalación exitosa." %}
 
-### Homebrew <a id="section2-2"></a>
+### Homebrew
 
 Al terminar la instalación de las herramientas de la línea de comandos, regresa a la ventana de la línea de comandos y copia el siguiente texto para instalar [Homebrew](https://brew.sh/):
 
@@ -245,7 +245,7 @@ Presiona "Enter" cuando sea necesario, e ingresa la contraseña de tu computador
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-4.png" caption="Captura de pantalla del proceso de instalación de Homebrew." %}
 
-### Ruby y Ruby Gems <a id="section2-3"></a>
+### Ruby y Ruby Gems
 
 Jekyll está construido a partir del [lenguaje de programación Ruby](https://es.wikipedia.org/wiki/Ruby). [Ruby Gems](https://rubygems.org/) es un administrador de paquetes que facilita la configuración de programas Ruby tales como Jekyll (Ruby Gems agrega algunas cosas para simplificar las instalaciones de Ruby).
 
@@ -268,7 +268,7 @@ Algunas personas que utilizan macOS Catalina y macOS Big Sur han reportado dific
 </div> 
 
 
-### NodeJS <a id="section2-4"></a>
+### NodeJS
 
 [NodeJS](https://nodejs.org/en/) (o Node.js) es una plataforma de desarrollo (específicamente, es un "entorno de ejecución") que, por ejemplo, ayuda a que Javascript se ejecute más rápido.
 
@@ -276,9 +276,9 @@ En la línea de comandos, ingresa:
 
 `brew install node`
 
-### Jekyll <a id="section2-5"></a>
+### Jekyll
 
-[Jekyll](https://jekyllrb.com/) es el programa que crea nuestro sitio web, simplificando ciertas tareas comunes, como usar la misma plantilla (el mismo logotipo, menú, información del autor, etc.) en todas las páginas de nuestro blog. Puedes ver más información sobre Jekyll en [Sitios dinámicos, sitios estáticos & Jekyll](#section0-1) y en [¿Por qué usar sitios estáticos?](#section0-3), más arriba.
+[Jekyll](https://jekyllrb.com/) es el programa que crea nuestro sitio web, simplificando ciertas tareas comunes, como usar la misma plantilla (el mismo logotipo, menú, información del autor, etc.) en todas las páginas de nuestro blog. Puedes ver más información sobre Jekyll en [Sitios dinámicos, sitios estáticos & Jekyll](#sitios-dinámicos-sitios-estáticos-y-jekyll) y en [¿Por qué usar sitios estáticos?](#por-qué-usar-sitios-estáticos), más arriba.
 
 En la línea de comandos, ingresa:
 
@@ -286,7 +286,7 @@ En la línea de comandos, ingresa:
 
 **¡Felicitaciones, hemos terminado de instalar todo lo necesario para crear nuestro sitio web! Omite los siguientes pasos (que son solo para usuarios de Windows).**
 
-### En Windows <a id="sectionWindows"></a>
+### En Windows
 
 En esta sección, las instrucciones para usuarios de Windows difieren de las de los usuarios de Mac. Debes hacer estos pasos únicamente si estás utilizando Windows.
 
@@ -301,7 +301,7 @@ En esta sección, las instrucciones para usuarios de Windows difieren de las de 
    	`Install MSYS2 and MINGW development toolchain succeeded` o `Se han instalado con éxito las herramientas de desarrollo MSYS2 y MINGW`
 
 
-5\. Cierra esta ventana y abre una **nueva** para instalar Jekyll. [Jekyll](https://jekyllrb.com/) es el código que crea o genera tu página web (por ejemplo, "generación de página), haciendo más fácil las tareas comunes como usar la misma plantilla (mismo logo, menú, información de autora...) en todas las páginas de entradas de blog. Hay más información sobre [qué es Jekyll y qué son las páginas estáticas](#section0-1) y [razones por las que puedes usar Jekyll para crear una página web estática](#section0-3), arriba. Ahora instalaremos Jekyll (si la Seguridad de Windows te muestra un aviso, ignóralo):
+5\. Cierra esta ventana y abre una **nueva** para instalar Jekyll. [Jekyll](https://jekyllrb.com/) es el código que crea o genera tu página web (por ejemplo, "generación de página), haciendo más fácil las tareas comunes como usar la misma plantilla (mismo logo, menú, información de autora...) en todas las páginas de entradas de blog. Hay más información sobre [qué es Jekyll y qué son las páginas estáticas](#sitios-dinámicos-sitios-estáticos-y-jekyll) y [razones por las que puedes usar Jekyll para crear una página web estática](#por-qué-usar-sitios-estáticos), arriba. Ahora instalaremos Jekyll (si la Seguridad de Windows te muestra un aviso, ignóralo):
 
 	`gem install jekyll bundler`
 
@@ -310,7 +310,7 @@ En esta sección, las instrucciones para usuarios de Windows difieren de las de 
 
 **¡Felicitaciones, hemos terminado de instalar todo lo necesario para crear nuestro sitio web! De aquí en adelante, las instrucciones son iguales para Windows y Mac.**
 
-## Configuración de Jekyll <a id="section3"></a>
+## Configuración de Jekyll
 
 Ya hemos instalado todo lo necesario para crear un sitio web. En esta sección utilizaremos Jekyll para generar una nueva carpeta con los archivos que conforman el sitio web. También ubicaremos esta carpeta en un lugar accesible para la aplicación GitHub Desktop para que estén en el lugar correcto cuando deseemos publicarlos como un sitio web público más adelante en la lección.
 
@@ -340,7 +340,7 @@ Haz clic derecho en la carpeta "GitHub" y elige "Copiar GitHub". La ruta de la c
 
 	Es necesario esperar a que vuelva a aparecer el prompt para continuar con el siguiente paso.
 
-4\. La URL pública de tu sitio tendrá la siguiente forma: [https://amandavisconti.github.io/JekyllDemo/](https://amandavisconti.github.io/JekyllDemo/) (*amandavisconti* es el usuario de GitHub de la autora y *JekyllDemo* el nombre del sitio que ingresamos en este paso (*es posible pagar y usar tu propia [URL personalizada](#section7-2), pero no lo cubriremos en este tutorial*). **Los sitios en mayúsculas y minúsculas *no* dirigen al mismo sitio web**, así que a diferencia del ejemplo **JekyllDemo** es recomendable elegir un nombre todo en minúsculas para asegurarse de que la gente lo escriba correctamente.
+4\. La URL pública de tu sitio tendrá la siguiente forma: [https://amandavisconti.github.io/JekyllDemo/](https://amandavisconti.github.io/JekyllDemo/) (*amandavisconti* es el usuario de GitHub de la autora y *JekyllDemo* el nombre del sitio que ingresamos en este paso (*es posible pagar y usar tu propia [URL personalizada](#funcionalidad), pero no lo cubriremos en este tutorial*). **Los sitios en mayúsculas y minúsculas *no* dirigen al mismo sitio web**, así que a diferencia del ejemplo **JekyllDemo** es recomendable elegir un nombre todo en minúsculas para asegurarse de que la gente lo escriba correctamente.
 
    En la línea de comandos, escribe lo siguiente (reemplaza *JekyllDemo* con el nombre que desees para tu sitio):
 
@@ -352,11 +352,11 @@ Haz clic derecho en la carpeta "GitHub" y elige "Copiar GitHub". La ruta de la c
 
    `cd JekyllDemo`
 
-   Si miras en la carpeta *GitHub > JekyllDemo* en el explorador de archivos, verás una serie de archivos nuevos -los archivos que ejecutarán tu sitio web- que han sido instalados ([más abajo](#section4-2) explicaremos qué hace cada uno):
+   Si miras en la carpeta *GitHub > JekyllDemo* en el explorador de archivos, verás una serie de archivos nuevos -los archivos que ejecutarán tu sitio web- que han sido instalados ([más abajo](#dónde-está-y-qué-es-cada-cosa) explicaremos qué hace cada uno):
 
    {% include figure.html filename="building-static-sites-with-jekyll-github-pages-9.png" caption="Captura de pantalla de la carpeta creada." %}
 
-## Ejecutar un sitio web localmente <a id="section3a"></a>
+## Ejecutar un sitio web localmente
 
 Esta sección describe cómo ejecutar un sitio web **localmente**. Esto significa que podrás ver cómo se ve tu sitio web en un navegador, pero únicamente en tu computadora (a eso se refiere lo de "localmente"). Trabajar en una versión local de un sitio web quiere decir que el sitio es privado, nadie puede verlo todavía (el sitio no es público, nadie puede escribir la URL y verlo en su computadora).
 
@@ -372,7 +372,7 @@ Esto te permite experimentar todo lo que desees y publicar el sitio al mundo cua
 
    *--watch* precedido de *bundle exec* le indica a Jekyll que busque cambios en los archivos del sitio web (por ejemplo, nuevos posts o páginas) y que los muestre al actualizar el navegador. **Una excepción** es el archivo `_config.yml`, que será explicado en detalle en la próxima sección (los cambios realizados en este archivo solo se muestran luego de detener y reiniciar Jekyll).
 
-2\. Luego de escribir el comando previo, aparecerá en el terminal un proceso que no se detiene. ¿Recuerdas que te contamos que si escribías algo en la línea de comandos mientras este todavía está ejecutando el comando previo se pueden ocasionar problemas? Ahora Jekyll está corriendo en esta línea de comandos, de manera que si deseas ejecutar comandos mientras visualizas tu sitio local, deberás abrir una nueva ventana de línea de comandos (ver la sección acerca del uso de la [línea de comandos](#section1-4))
+2\. Luego de escribir el comando previo, aparecerá en el terminal un proceso que no se detiene. ¿Recuerdas que te contamos que si escribías algo en la línea de comandos mientras este todavía está ejecutando el comando previo se pueden ocasionar problemas? Ahora Jekyll está corriendo en esta línea de comandos, de manera que si deseas ejecutar comandos mientras visualizas tu sitio local, deberás abrir una nueva ventana de línea de comandos (ver la sección acerca del uso de la [línea de comandos](#línea-de-comandos))
 
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-10.png" caption="Captura de pantalla de el terminal ejecutando localmente el sitio." %}
@@ -384,7 +384,7 @@ Esto te permite experimentar todo lo que desees y publicar el sitio al mundo cua
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-11.png" caption="Vista del sitio web en el navegador" %}
 
 
-### Mini ayudamemoria <a id="section3a-1"></a>
+### Mini ayudamemoria
 
 - Escribe `bundle exec jekyll serve --watch` en la línea de comandos para ejecutar el sitio web localmente. Visita **localhost:4000** en un navegador para visualizar el sitio localmente. En la próxima sección haremos modificaciones que nos obligarán a visitar **localhost:4000/JekyllDemo/** para poder visualizar el sitio (ingresando el nombre de la carpeta de tu sitio web en lugar de *JekyllDemo* y asegurándote de incluir la barra final **/**).
 
@@ -394,13 +394,13 @@ Esto te permite experimentar todo lo que desees y publicar el sitio al mundo cua
 
 - ¿Escribes, copias o pegas mucho `bundle exec jekyll serve --watch`? Puedes presionar la tecla **↑** (flecha hacia arriba) en la línea de comandos para hacer desfilar los comandos ingresados recientemente. Presiona "Enter" cuando aparezca el comando que deseas ejecutar.
 
-## Modificar la configuración del sitio <a id="section4"></a>
+## Modificar la configuración del sitio
 
 Ya tenemos un sitio web básico privado, accesible únicamente en nuestra computadora. En esta sección, vamos a personalizar el sitio cambiando el título y el autor. También vamos a dar un panorama de lo que hacen los diferentes archivos del sitio web.
 
-### Configuración básica del sitio con _config.yml <a id="section4-1"></a>
+### Configuración básica del sitio con _config.yml
 
-1\. Abre la carpeta de tu sitio web en el explorador de archivos. El sitio de la autora del tutorial se encuentra en `/Users/DrJekyll/GitHub/JekyllDemo` (*DrJekyll* es el nombre de usuario de la autora y *JekyllDemo* es el nombre de la carpeta del sitio web de este tutorial). Visita la [sección "Configuración de Jekyll"](#section3) si necesitas ayuda para encontrar la carpeta de tu sitio web.
+1\. Abre la carpeta de tu sitio web en el explorador de archivos. El sitio de la autora del tutorial se encuentra en `/Users/DrJekyll/GitHub/JekyllDemo` (*DrJekyll* es el nombre de usuario de la autora y *JekyllDemo* es el nombre de la carpeta del sitio web de este tutorial). Visita la [sección "Configuración de Jekyll"](#configuración-de-jekyll) si necesitas ayuda para encontrar la carpeta de tu sitio web.
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-18.png" caption="Captura de pantalla de la carpeta que contiene los archivos del sitio web." %}
 
@@ -443,32 +443,32 @@ Ya tenemos un sitio web básico privado, accesible únicamente en nuestra comput
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-17.png" caption="Ejecución local del sitio web" %}
 
-### ¿Dónde está (y qué es) cada cosa? <a id="section4-2"></a>
+### ¿Dónde está (y qué es) cada cosa?
 
-Para tener una idea de cómo funciona el sitio y con qué archivos se puede experimentar para hacer cosas más avanzadas, aquí hay algunas notas sobre lo que hace cada carpeta o archivo de tu sitio web. Recuerda siempre abrir y editar cualquier archivo con un editor de texto (por ejemplo, Notepad++) y no con un procesador de textos (no utilices Microsoft Word ni nada que permita agregar formato como cursiva y negrita). Es muy importante no usar Word o procesadores de texto porque estos programas agregan caracteres invisibles que si se guardan en los archivos de nuestro sitio web pueden dañarlo. Si ya deseas comenzar a agregar contenido a tu sitio y hacerlo público, puedes [saltar a la siguiente sección](#section5).
+Para tener una idea de cómo funciona el sitio y con qué archivos se puede experimentar para hacer cosas más avanzadas, aquí hay algunas notas sobre lo que hace cada carpeta o archivo de tu sitio web. Recuerda siempre abrir y editar cualquier archivo con un editor de texto (por ejemplo, Notepad++) y no con un procesador de textos (no utilices Microsoft Word ni nada que permita agregar formato como cursiva y negrita). Es muy importante no usar Word o procesadores de texto porque estos programas agregan caracteres invisibles que si se guardan en los archivos de nuestro sitio web pueden dañarlo. Si ya deseas comenzar a agregar contenido a tu sitio y hacerlo público, puedes [saltar a la siguiente sección](#redacción-de-páginas-y-entradas-de-blog).
 
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-18.png" caption="Carpeta con los archivos de nuestro sitio" %}
 
 
-- **_config.yml** fue explicado [más arriba](#section4-1); contiene información básica de la configuración del sitio, como el título y otras posibilidades que no abordaremos aquí (por ej., cómo estructurar los links)
+- **_config.yml** fue explicado [más arriba](#configuración-básica-del-sitio-con-_configyml); contiene información básica de la configuración del sitio, como el título y otras posibilidades que no abordaremos aquí (por ej., cómo estructurar los links)
 - la carpeta **_includes** contiene archivos que son incluidos en todas o varias páginas (por ej., el código para que el encabezado del sitio tenga el título y el menú principal en todas las páginas del sitio)
 - la carpeta **_layouts** contiene código que controla cómo se ven las páginas de nuestro sitio web (default.html), así como también modificaciones de ese código para darle un estilo más específico a las entradas (post.html) y las páginas (page.html)
-- la carpeta **_posts** contiene los archivos que representan cada una de las entradas de nuestro sitio web. Si creamos un nuevo archivo en esta carpeta aparecerá una nueva entrada de blog en el sitio web en orden cronológico inverso (de la más reciente a la más vieja). Detallaremos cómo crear entradas de blog en la [próxima sección](#section5-2)
+- la carpeta **_posts** contiene los archivos que representan cada una de las entradas de nuestro sitio web. Si creamos un nuevo archivo en esta carpeta aparecerá una nueva entrada de blog en el sitio web en orden cronológico inverso (de la más reciente a la más vieja). Detallaremos cómo crear entradas de blog en la [próxima sección](#creación-de-entradas)
 - la carpeta **_sass** contiene archivos SCSS que controlan el diseño visual del sitio web
 - la carpeta **_site** almacena las páginas HTML que aparecen en Internet (por ej., nuestras entradas de blog serán escritas como archivos Markdown pero Jekyll las convertirá a HTML para mostrarlas en Internet)
-- **about.md** es un ejemplo de *página de Jekyll*. Ya se encuentra linkeada en el encabezado de nuestro sitio web y podemos cambiar el contenido de esta página abriendo el archivo about.md y modificando el texto. Detallaremos cómo crear nuevas páginas en la [próxima sección](#section5-3)
+- **about.md** es un ejemplo de *página de Jekyll*. Ya se encuentra linkeada en el encabezado de nuestro sitio web y podemos cambiar el contenido de esta página abriendo el archivo about.md y modificando el texto. Detallaremos cómo crear nuevas páginas en la [próxima sección](#creación-de-páginas)
 - la carpeta **css** contiene CSS obtenido a partir del SCSS que controla el diseño visual del sitio
 - **feed.xml** permite que el público siga el feed RSS de las entradas de nuestro blog
 - **index.html** controla la estructura de la página de inicio del sitio
 
-## Redacción de páginas y entradas de blog <a id="section5"></a>
+## Redacción de páginas y entradas de blog
 
 Esta sección describirá cómo crear páginas o entradas de blog en tu sitio web.
 
 **Páginas** y **entradas de blog** son dos tipos de contenido escrito, pero con estilos diferentes. Las páginas (como "Acerca de") no están organizadas ni se muestran cronológicamente; sin embargo, pueden ser incluidas en el menú principal de tu sitio web. Las entradas de blog están pensadas para ser utilizadas como contenido organizado por fecha de publicación. Las URLs para páginas y entradas también son diferentes por defecto (pero tú puedes cambiar eso): las URLs de página se ven como `MySite.com/about/`, mientras que las URLs de entradas se ven como `MySite.com/2016/02/29/my-post-title.html`.
 
-#### Escritura en Markdown <a id="section5-1"></a>
+#### Escritura en Markdown
 
 Markdown es un lenguaje de marcado para dar formato a tus escritos para que puedan ser leídos en la web: es un conjunto de símbolos, fáciles de recordar, que muestran dónde debe añadirse el formato del texto (por ejemplo, un # delante del texto significa que se le da formato como encabezado, mientras que un * significa que tendrá formato como elemento de lista con viñetas). Para Jekyll en particular, Markdown permite escribir páginas web y entradas de blog de una manera cómoda para los autores (por ejemplo, no es necesario buscar/añadir etiquetas HTML mientras se intenta escribir un ensayo), y que el escrito aparezca con un buen formato en la web (es decir, convertido de texto a HTML).
 
@@ -478,9 +478,9 @@ Asegúrate que la guía de referencias de Markdown que consultes sea similar a "
 
 Si te interesa un editor de Markdown, puedes utilizar uno como [Typora](https://www.typora.io/) (OS X y Windows; de descarga gratuita), que te permitirá utilizar atajos de teclado (por ejemplo, resaltar texto y presionar cmd-B o Ctrl-B para ponerlo en negrita) y/o hacer que se muestre tal y cómo se verá en la web (ver los encabezados con el estilo de los encabezados, en lugar del texto normal con un # delante de ellos).
 
-### Creación de páginas <a id="section5-3"></a>
+### Creación de páginas
 
-1\. Para ver una página existente en tu sitio web (creada por defecto en tu sitio web de Jekyll [con el resto de los archivos](#section3)), navega hasta la carpeta de tu sitio web y abre el archivo `about.md` en un editor de texto (por ej. TextWrangler) o en un editor de Markdown (p. ej. Typora). Allí verás el archivo creado como "Acerca de (About)". Puedes hacer clic en el enlace "Acerca de", situado en la parte superior derecha de la página web, y podrás observar cómo aparece la página web que crea el archivo en un navegador.
+1\. Para ver una página existente en tu sitio web (creada por defecto en tu sitio web de Jekyll [con el resto de los archivos](#configuración-de-jekyll)), navega hasta la carpeta de tu sitio web y abre el archivo `about.md` en un editor de texto (por ej. TextWrangler) o en un editor de Markdown (p. ej. Typora). Allí verás el archivo creado como "Acerca de (About)". Puedes hacer clic en el enlace "Acerca de", situado en la parte superior derecha de la página web, y podrás observar cómo aparece la página web que crea el archivo en un navegador.
 
 2\. El material entre guiones \--- se llama "front matter" (*al abrir el archivo en un editor de Markdown este puede aparecer sobre un fondo gris en lugar de entre guiones*). Este apartado le dice a tu sitio si el contenido posterior debe formatearse como página o entrada de blog, el título de la entrada, la fecha y la hora en que fue publicada, y cualquier categoría que quieras que aparezca en la entrada o la página.
 
@@ -490,7 +490,7 @@ Si te interesa un editor de Markdown, puedes utilizar uno como [Typora](https://
    - **title:** Cámbialo al título deseado (a diferencia de las entradas, no hay comillas alrededor del título). En la siguiente captura de pantalla, se ha agregado una página con el título "Resume".
    - **permalink:** Cambia el texto entre las dos barras diagonales por la palabra (o frase, ¡pero necesitarás usar guiones y no espacios!) que desees que continúe la URL principal de tu sitio para llegar a la página. Por ejemplo, **enlace permanente:/about/** ubica la página en `localhost:4000/yourwebsitefoldername/about/`.
 
-3\. El espacio debajo del segundo guión del texto preliminar (o debajo del recuadro gris si usa un editor Markdown) es donde debes escribir el contenido de tu página, usando [el formato Markdown descrito anteriormente](#section5-1)
+3\. El espacio debajo del segundo guión del texto preliminar (o debajo del recuadro gris si usa un editor Markdown) es donde debes escribir el contenido de tu página, usando [el formato Markdown descrito anteriormente](#escritura-en-markdown)
 
 4\. Para crear una nueva página además de la existente "Acerca de (About)" (que puede ser personalizada o eliminada), crea una copia del archivo `about.md` en la misma carpeta (la principal del sitio web) y cambia el nombre al título que desees, utilizando guiones en lugar de espacios (por ejemplo, `resume.md` o `contact-me.md`). También cambia el título, el enlace permanente en el texto preliminar del archivo y el contenido. La nueva página debe aparecer automáticamente en el menú principal en el encabezado del sitio:
 
@@ -499,7 +499,7 @@ Si te interesa un editor de Markdown, puedes utilizar uno como [Typora](https://
 
 Como referencia, puedes consultar [un ejemplo de página](https://amandavisconti.github.io/JekyllDemo/resume/) en mi sitio de demostración, o ver [el archivo que está detrás de esa página](https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/resume.md).
 
-### Creación de entradas <a id="section5-2"></a>
+### Creación de entradas
 
 1\. En Finder (en macOS, en Windows en *Explorador de archivos*), navega hasta la carpeta de tu sitio web (por ejemplo, *JekyllDemo*) y luego dentro de ella, ingresa a la carpeta `_posts`. Abre el archivo que se encuentra allí con un editor de texto (p. ej. TextWrangler) o un editor de Markdown (por ej. Typora). El archivo se llamará algo así como `2016-02-28-welcome-to-jekyll.markdown` (la fecha coincidirá con la de la creación del sitio de Jekyll).
 
@@ -517,7 +517,7 @@ Como referencia, puedes consultar [un ejemplo de página](https://amandavisconti
    - **title:** Cambia "Welcome to Jekyll!" a cualquier título que desees para tu nueva entrada (manteniendo las comillas alrededor del título). La norma es hacer que el título sea igual que las palabras en el nombre del archivo (excepto con espacios añadidos y mayúsculas). Así es como aparecerá el título en la página web de la publicación.
    - **date:** Cambia esto cuando desees que la publicación muestre fecha y hora de publicación, asegurándote que coincida con la fecha que forma parte del nombre del archivo. (La fecha *y* hora deben ser pasadas, para que tu publicación aparezca).
    - **categories:** Elimina, por ahora, las palabras "jekyll update (actualización de jekyll)", y no agregues aquí nada más, ya que el tema actual no las utiliza y desordena las URL de las publicaciones. (*Otros temas pueden usar este campo para ordenar las publicaciones de blog por categorías*.)
-   - **El espacio debajo del segundo \--- (o debajo del recuadro gris si usa un editor Markdown)** es donde debes escribir el contenido de tu post, usando [el formato Markdown descrito anteriormente](#section5-1)
+   - **El espacio debajo del segundo \--- (o debajo del recuadro gris si usa un editor Markdown)** es donde debes escribir el contenido de tu post, usando [el formato Markdown descrito anteriormente](#escritura-en-markdown)
 
    Después de guardar el archivo, deberías poder ver tu segunda entrada en la página principal de tu sitio, y al hacer clic en el enlace, debería ir a la página de la entrada:
 
@@ -533,11 +533,11 @@ Ten en cuenta que **la URL de la publicación** es la URL de tu sitio web local 
 
 Como referencia, puedes consultar [el siguiente ejemplo de entrada](https://amandavisconti.github.io/JekyllDemo/2016/11/12/a-post-about-my-research.html) en mi sitio de demostración, o acceder al [código que ejecuta esa entrada](https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/_posts/2016-02-29-a-post-about-my-research.markdown).
 
-## "Hosting" en GitHub Pages <a id="section6"></a>
+## "Hosting" en GitHub Pages
 
 Ahora que ya sabes cómo añadir páginas y publicaciones, en esta sección moveremos tu sitio local a la web, para que otros puedan visitarlo.* **En este punto, estaremos haciendo una versión pública de tu sitio** *(tanto para motores de búsqueda como para cualquiera que conozca o encuentre casualmente el enlace).
 
-[Anteriormente en esta lección,](#section1-2) instalamos la aplicación GitHub Desktop. Ahora la utilizaremos para mover los archivos de tu sitio a un servidor que los presentará como páginas web (GitHub Pages), que el público podrá visitar en línea. Esta será la primera vez en la que subiremos todos los archivos de tu sitio a la web. En el futuro, utilizarás esta aplicación siempre que hayas realizado cambios en los archivos de tu sitio local y desees que esos cambios se vean reflejados en la versión pública del sitio (al final de esta sección encontrarás una [guía](#section8) con información útil para realizar esta tarea).
+[Anteriormente en esta lección,](#aplicación-github-desktop) instalamos la aplicación GitHub Desktop. Ahora la utilizaremos para mover los archivos de tu sitio a un servidor que los presentará como páginas web (GitHub Pages), que el público podrá visitar en línea. Esta será la primera vez en la que subiremos todos los archivos de tu sitio a la web. En el futuro, utilizarás esta aplicación siempre que hayas realizado cambios en los archivos de tu sitio local y desees que esos cambios se vean reflejados en la versión pública del sitio (al final de esta sección encontrarás una [guía](#guía) con información útil para realizar esta tarea).
 
 1\. Abre la aplicación GitHub Desktop y haz clic en el signo “+” (Mac) o en la pestaña “File” (Windows) que se encuentra en la esquina superior izquierda. Después, haz clic en la opción “Add” (o “Add local repository…”) que aparece en el menú desplegable.
 
@@ -598,11 +598,11 @@ Ahora que ya sabes cómo añadir páginas y publicaciones, en esta sección move
 
 10\. Ahora ya puedes visitar tu sitio web (¡y compartir el enlace para que otros lo exploren!). La URL sigue la estructura de tu nombre de usuario de GitHub PUNTO github.io BARRA nombre de tu sitio web BARRA. (por ejemplo, la URL del sitio de ejemplo de la autora es [amandavisconti.github.io/JekyllDemo/](https://amandavisconti.github.io/JekyllDemo/)).
 
-## Poniéndonos elegantes <a id="section7"></a>
+## Poniéndonos elegantes
 
 Esta lección no cubre el trabajo avanzado para personalizar la apariencia de tu sitio web ni la adición de nuevas funcionalidades; sin embargo, aquí compartimos algo de información para que puedas comenzar a investigar por tu cuenta.
 
-### Diseño visual <a id="section7-1"></a>
+### Diseño visual
 
 El diseño visual de un sitio web es referido usualmente como el *tema* (aunque propiamente, un tema es el conjunto de código y archivos de imagen que generan un cambio importante en la apariencia de un sitio web).
 
@@ -610,10 +610,10 @@ Puedes personalizar el tema de tu sitio realizando cambios en los archivos que s
 
 - Tema ["Ed" para ediciones digitales mínimas](https://github.com/minicomp/ed/), de Alex Gil  (gratis)
 - Tema ["Digital Edition"](https://github.com/emory-libraries-ecds/digitaledition-jekylltheme), de Rebecca Sutton Koese (gratis)
-- El directorio de [Jekyll Themes](https://jekyllthemes.org/) (gratis)
+- El directorio de [Jekyll Themes](https://jekyllrb.com/docs/themes/) (gratis)
 - [JekyllThemes.io](https://jekyllthemes.io/) (gratis y pago)
 
-### Funcionalidad <a id="section7-2"></a>
+### Funcionalidad
 
 - Los [plugins de Jekyll](https://jekyllrb.com/docs/plugins/) te permiten añadir pequeños segmentos de código que permiten sumar funcionalidades a tu sitio, tales como [realizar búsquedas de texto](https://github.com/PascalW/jekyll_indextank), [permitir el uso de emojis](https://github.com/yihangho/emoji-for-jekyll), o [crear nubes de palabras](https://gist.github.com/ilkka/710577).
 
@@ -629,7 +629,7 @@ Si configuras un dominio personalizado para tu sitio web alojado en GitHub Pages
 
 - Además, puedes **migrar un blog existente** desde otras plataformas, incluyendo WordPress, Blogger, Drupal y Tumblr, para lo cual debes seguir el enlace que se encuentra en el sector derecho de [esta página](https://import.jekyllrb.com/docs/home/). Cuando migres un sitio, asegúrate de tener una copia de seguridad de tu sitio original, en caso de que necesites realizar más de un intento para que las publicaciones del sitio queden en la misma URL que antes (y que de esta forma el sitio se mantenga en los resultados de los buscadores y en los marcadores).
 
-## Guía <a id="section8"></a>
+## Guía
 
 **Para realizar pruebas en el sitio de forma local** (nuevos plugins, temas, o explorar cómo luce una nueva publicación):
 
@@ -645,22 +645,22 @@ Si configuras un dominio personalizado para tu sitio web alojado en GitHub Pages
 * Una vez que el commit haya finalizado, haz clic en el botón “Sync” en la sección superior derecha de la pantalla (Mac) o en el botón “Push origin” que aparece destacado en azul (Windows).
 * Espera un poco a que GitHub reciba los cambios (usualmente entre 10 a 90 segundos) y refresca tu sitio online para ver los cambios allí reflejados.
 
-## Ayuda, créditos y lecturas <a id="section9"></a>
+## Ayuda, créditos y lecturas
 
-### Ayuda <a id="section9-1"></a>
+### Ayuda
 
 Si encuentras algún problema, [Jekyll tiene una página para problemas, conocidos como troubleshooting](https://jekyllrb.com/docs/troubleshooting/), que te puede ayudar. Si estás trabajando en la línea de comandos y recibes un mensaje de error, no te olvides de buscar más acerca del error en la web. Más allá de los motores de búsqueda tradicionales, [el sitio StackExchange](https://stackexchange.com/) es un buen lugar para encontrar preguntas y respuestas de gente que tuvo este tipo de problemas.
 
-### Creditos <a id="section9-2"></a>
+### Creditos
 
 Gracias a Fred Gibbs, editor del *Programming Historian* por editar, debatir y revisar la lección original. A Paige Morgan por revisar la lección; a Scott Weingart y sus estudiantes por poner en práctica y testear esta lección en Windows; a Tod Robbins y Matthew Lincoln por sugerencias en [DH Slack](https://digitalhumanities.slack.com) sobre lo que debería enseñar esta lección. Asimismo, agradecemos a Marc Bria por su revisión y sugerencias con respecto a la traducción de esta lección al español.
 
-### Lecturas <a id="section9-3"></a>
+### Lecturas
 
 Puedes visitar estos sitios para más documentación, inspiración y para aprender más sobre Jekyll:
 
 * [Documentación oficial de Jekyll](https://jekyllrb.com/docs/home/)
-* Jekyll tiene links a recursos "no oficiales" sobre su funcionamiento en Windows: [https://jekyll-windows.juthilo.com/](https://jekyll-windows.juthilo.com/) y [https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/)
+* Jekyll tiene links a recursos "no oficiales" sobre su funcionamiento en Windows: [https://github.com/juthilo/run-jekyll-on-windows](https://github.com/juthilo/run-jekyll-on-windows) y [https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/)
 * [https://help.github.com/articles/using-jekyll-with-pages/](https://help.github.com/articles/using-jekyll-with-pages/)
 * Amanda Visconti, ["Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)"](https://literaturegeek.com/2015/12/08/WhyJekyllGitHub)
 * Alex Gil, ["How (and Why) to Generate a Static Website Using Jekyll, Part 1"](https://chronicle.com/blogs/profhacker/jekyll1/60913)

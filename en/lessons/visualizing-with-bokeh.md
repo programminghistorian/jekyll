@@ -239,7 +239,7 @@ In the previous example, we manually created two short Python lists for our x an
 
 ## Pandas Overview
 
-For the purposes of this tutorial, I will only touch on the basic functions of Pandas that are necessary to produce our visualizations. [10 Minutes to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html) and [Lessons for New Pandas Users](https://pandas.pydata.org/pandas-docs/stable/tutorials.html#lessons-for-new-pandas-users) are excellent introductions that I would recommend for expanding your knowledge beyond the very basics touched on here.
+For the purposes of this tutorial, I will only touch on the basic functions of Pandas that are necessary to produce our visualizations. [10 Minutes to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html) and [Lessons for New Pandas Users](https://pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html#exercises-for-new-users) are excellent introductions that I would recommend for expanding your knowledge beyond the very basics touched on here.
 
 Pandas has quickly become the *de facto* Python library for data and data science workflows; integration with other major data science and machine learning libraries has only fueled a rise in popularity.[^1] Pandas provides functionality to quickly and efficiently read, write, and modify datasets for analysis. To accomplish this, Pandas provides data structures that hold different dimensionalities of data. The `DataFrame` holds 2-dimensional data in the manner of a spreadsheet with rows and columns. It's through this object that we'll interact with our WWII THOR dataset. Let's first examine the Pandas `DataFrame` by loading our csv data into one.
 
@@ -256,7 +256,7 @@ print(df)
 ```
 We start by importing the Pandas library and then calling `read_csv()` and passing a filename to it. Note that the Pandas library is aliased as *pd*. This alias is a convention followed in the [Pandas official documentation](https://pandas.pydata.org/pandas-docs/stable/) and is widely used by the Pandas community. For this reason, I'll use the *pd* alias throughout the tutorial.
 
-In this code, `read_csv` creates a `DataFrame` that holds the rows/columns of our csv data. By convention, the variable name *df* is used to represent the loaded dataframe in tutorials and basic code examples. [Many other methods](https://pandas.pydata.org/pandas-docs/stable/api.html#input-output) exist for reading data formats other than csv in Pandas, such as JSON, SQL tables, Excel files, and HTML.
+In this code, `read_csv` creates a `DataFrame` that holds the rows/columns of our csv data. By convention, the variable name *df* is used to represent the loaded dataframe in tutorials and basic code examples. [Many other methods](https://pandas.pydata.org/pandas-docs/stable/reference/io.html#input-output) exist for reading data formats other than csv in Pandas, such as JSON, SQL tables, Excel files, and HTML.
 
 When running this code, `print(df)` will output an abridged representation of the loaded data.
 
