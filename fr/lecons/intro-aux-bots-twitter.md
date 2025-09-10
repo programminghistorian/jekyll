@@ -284,7 +284,7 @@ Cette fonctionnalité ne serait probablement pas très utile dans le cas d'un bo
 
 ```
 
-Un autre exemple un peu plus complexe est le numéro 5 sur le site du tutoriel de Kate Compton à l'adresse [http://www.crystalcodepalace.com/traceryTut.html](http://www.crystalcodepalace.com/traceryTut.html) :
+Un autre exemple un peu plus complexe est le numéro 5 sur le site du tutoriel de Kate Compton à l'adresse [https://tracery.io/archival/crystalcodepalace/tracerytut.html](https://tracery.io/archival/crystalcodepalace/tracerytut.html) :
 
 ```JSON
 {
