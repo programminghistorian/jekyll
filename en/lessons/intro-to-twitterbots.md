@@ -273,7 +273,7 @@ This feature probably would not be used much in the case of a Twitterbot, but if
 }
 ```
 
-Another, slightly more complex example is example number 5 at Kate Compton's own tutorial site at [http://www.crystalcodepalace.com/traceryTut.html](http://www.crystalcodepalace.com/traceryTut.html):
+Another, slightly more complex example is example number 5 at Kate Compton's own tutorial site at [https://tracery.io/archival/crystalcodepalace/tracerytut.html](https://tracery.io/archival/crystalcodepalace/tracerytut.html):
 
 ```JSON
 {
