@@ -494,7 +494,7 @@ To gain a more thorough understanding of ggplot2, we recommend you explore some 
 
 * UC Business Analytics' [R Programming Guide](https://perma.cc/KZT6-GW9C).
 
-* The official ggplot2 [extensions page](https://www.ggplot2-exts.org/) and [accompanying gallery](http://www.ggplot2-exts.org/gallery/).
+* The official ggplot2 [extensions page](https://exts.ggplot2.tidyverse.org/) and [accompanying gallery](https://exts.ggplot2.tidyverse.org/gallery/).
 
 * R Project’s [overview about extending ggplot2](https://perma.cc/465N-F9WU).
 
