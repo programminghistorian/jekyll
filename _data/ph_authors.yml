@@ -2931,8 +2931,9 @@
 - name: Charlotte Chevrie
   github: charlottejmc
   email: publishing.assistant@programminghistorian.org
-  team: true
+  team: false
   team_start: 2023
+  team_end: 2025
   institution: Programming Historian, United Kingdom
   sortname: Chevrie
   affiliation:
