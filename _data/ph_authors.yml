@@ -38,13 +38,13 @@
       University College London, Reino Unido
   bio:
     en: |
-      Adam Crymble, University College London.
+      Adam Crymble is Associate Professor of Digital Humanities at University College London.
     es: |
-      Adam Crymble, University College London.
+      Adam Crymble es profesor asociado en Humanidades Digitales en University College London.
     fr: |
-      Adam Crymble, University College London.
+      Adam Crymble est professeur adjoint d'humanités numériques à University College London.
     pt: |
-      Adam Crymble, University College London.
+      Adam Crymble é professor associado de Humanidades Digitais na University College London.
   team_roles:
     - proghist
   status: institutionally-supported
@@ -2738,7 +2738,7 @@
 - name: Marie Flesch
   team: true
   team_start: 2022
-  institution: ATILF, Université de Lorraine-CNRS
+  institution: Université de Lorraine
   github: marie-flesch
   email: francais@programminghistorian.org
   url: "https://sites.google.com/view/marie-flesch/"
@@ -2746,18 +2746,18 @@
   orcid: 0000-0003-2139-1517
   affiliation:
     en: |
-      Université Paris Cité, France.
+      Université de Lorraine, France.
     es: |
-      Université Paris Cité, Francia.
+      Université de Lorraine, Francia.
     fr: |
-      Université Paris Cité, France.
+      Université de Lorraine, France.
     pt: |
-      Université Paris Cité, França.
+      Université de Lorraine, França.
   bio:
     en: |
-      Marie Flesch is a postdoc researcher at Laboratoire de Linguistique Formelle (Université Paris Cité-CNRS), France.
+      Marie Flesch is an assistant professor in English Sociolinguistics at Université de Lorraine, France.
     fr: |
-      Marie Flesch est chercheuse postdoctorante au Laboratoire de Linguistique Formelle (Université Paris Cité-CNRS), France.
+      Marie Flesch est maitresse de conférence en sociolinguistique anglaise à l'université de Lorraine, France.
   team_roles:
     - french
     - managing
@@ -3009,20 +3009,23 @@
   twitter: cosovschi
   team: true
   team_start: 2024
-  institution: École française d’Athènes
+  institution: Inštitut za novejšo zgodovino
+  url: "https://digitalkosovski.github.io/"
   sortname: Cosovschi
   affiliation:
     en: |
-      École française d’Athènes, Greece
+      Inštitut za novejšo zgodovino, Slovenia
     es: |
-      École française d’Athènes, Grecia
+      Inštitut za novejšo zgodovino, Eslovenia
     fr: |
-      École française d’Athènes, Grèce
+      Inštitut za novejšo zgodovino, Slovénie
     pt: |
-      École française d’Athènes, Grécia
+      Inštitut za novejšo zgodovino, Eslovénia
   bio:
+    en: |
+      Agustín Cosovschi is a Research Fellow at Inštitut za novejšo zgodovino, Slovenia.
     fr: |
-      Agustín Cosovschi est membre scientifique de l'École française d’Athènes, en Grèce.
+      Agustín Cosovschi est chercheur à l'Inštitut za novejšo zgodovino, en Slovénie.
   team_roles:
     - english
     - editorial
