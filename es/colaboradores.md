@@ -48,6 +48,8 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 - [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), Países Bajos
 - [Software Sustainability Institute](https://www.software.ac.uk/), Reino Unido
 - [Iowa State University Library](https://www.lib.iastate.edu/), Estados Unidos
+- [University of Edinburgh Library](https://library.ed.ac.uk/), Reino Unido
+- [University of Cambridge](https://www.cam.ac.uk/), Reino Unido
 
 Son bienvenidas las consultas de potenciales contribuidores del [Programa de Instituciones Asociadas](pia).
 
