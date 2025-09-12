@@ -48,6 +48,8 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), Pays-Bas
 - [Software Sustainability Institute](https://www.software.ac.uk/), Royaume-Uni
 - [Iowa State University Library](https://www.lib.iastate.edu/), États-Unis
+- [University of Edinburgh Library](https://library.ed.ac.uk/), Royaume-Uni
+- [University of Cambridge](https://www.cam.ac.uk/), Royaume-Uni
 
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
