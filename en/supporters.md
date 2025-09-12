@@ -47,6 +47,8 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), The Netherlands
 - [Software Sustainability Institute](https://www.software.ac.uk/), United Kingdom
 - [Iowa State University Library](https://www.lib.iastate.edu/), United States
+- [University of Edinburgh Library](https://library.ed.ac.uk/), United Kingdom
+- [University of Cambridge](https://www.cam.ac.uk/), United Kingdom
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
