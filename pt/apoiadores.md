@@ -50,6 +50,8 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi):
 - [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), Países Baixos
 - [Software Sustainability Institute](https://www.software.ac.uk/), Reino Unido
 - [Iowa State University Library](https://www.lib.iastate.edu/), Estados Unidos
+- [University of Edinburgh Library](https://library.ed.ac.uk/), Reino Unido
+- [University of Cambridge](https://www.cam.ac.uk/), Reino Unido
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
