@@ -5,7 +5,7 @@ original: interactive-visualization-with-plotly
 layout: lesson
 collection: lessons
 date: 2023-12-13
-translation_date: YYYY-MM-DD
+translation_date: 2025-09-24
 authors:
 - Grace Di Méo
 reviewers:
@@ -27,7 +27,7 @@ topics: [python, data-visualization]
 abstract: Cette leçon montre comment créer des visualisations de données interactives avec la bibliothèque &laquo;&nbsp;open source&nbsp;&raquo; Plotly. Le jeu de données utilisé provient du ministère de l'éducation nationale, et comptabilise le nombre de personnes admises aux différents baccalauréats.
 avatar_alt: Dessin en noir et blanc d'un cygne contemplant son reflet dans l'eau.
 mathjax: true
-doi: XX.XXXXX/phen0000
+doi: 10.46430/phfr0037
 ---
 
 {% include toc.html %}
