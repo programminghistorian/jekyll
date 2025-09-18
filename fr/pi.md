@@ -22,7 +22,7 @@ Tarifs de partenariat
 
 _Niveau Gold_
 
-Les tarifs de nos partenariats de niveau Gold sont de 3 600 EUR, 3 600 CHF, 5 100 CAD, 3 000 GBP, et 4 200 USD. Nos partenaires Gold peuvent collaborer avec nous pour aider leurs communautés à mieux utiliser les outils et méthodes en humanités numériques.
+Les tarifs de nos partenariats de niveau Gold sont de 3 600 EUR, 3 600 CHF, 5 100 CAD, 3 000 GBP, 4 200 USD, et 6 140 AUD. Nos partenaires Gold peuvent collaborer avec nous pour aider leurs communautés à mieux utiliser les outils et méthodes en humanités numériques.
 
 _Niveau Silver_
 
@@ -33,6 +33,7 @@ _Niveau Silver_
 | 2 240 CAD  | 700 CAD | 275 CAD  | 
 | 1 250 GBP  | 400 GBP | 150 GBP  |
 | 1 650 USD  | 600 USD | 200 USD  |
+| 2,560 AUD | 820 AUD  | 300 AUD  | 
 
 
 Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en octobre de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Responsable de la publication</a>.
