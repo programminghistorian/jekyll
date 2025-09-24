@@ -109,7 +109,7 @@ You can double-click each PDF to download a copy if you wish to explore the scan
 ### Preparing Your Environment
 
 <div class="alert alert-warning">
-Due to a compatibility issue between TensorFlow and Google Colab, we've disabled GPU use by adding the line `os.environ["CUDA_VISIBLE_DEVICES"] = "-1"` to allow the program to execute successfully. We're working on a permanent solution that continues to use the GPU as described in the lesson (September 2025).
+Due to a compatibility issue between TensorFlow and Google Colab, we've disabled GPU use by adding the line <code>os.environ["CUDA_VISIBLE_DEVICES"] = "-1"</code> to allow the program to execute successfully. We're working on a permanent solution that continues to use the GPU as described in the lesson (September 2025).
 </div>
 
 Next, the code will install several Python libraries you'll need later on. This step should take thirty seconds or so to build dependencies and download the necessary data. We will cover many of the installed and imported libraries in greater detail below. Note as well that the exclamation mark which appears before several lines is a special command in Colab, used to execute a bash command in a subshell. This code:
