@@ -1121,7 +1121,7 @@ fig.update_layout(margin = {"b" : 200})
 </figcaption>
 </figure>
 
-## Afficher et Exporter les visualisations
+## Afficher et exporter les visualisations
 
 Dans les sections précédentes de la leçon, nous avons vu comment créer et modifier les visualisations interactives avec Plotly Express et Plotly Graph Objects. Nous allons maintenant apprendre comment faire apparaître les visualisations et les exporter pour les publier ou les partager.
 
