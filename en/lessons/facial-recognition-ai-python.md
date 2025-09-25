@@ -100,10 +100,6 @@ You can see the output of each cell directly below the code. As each cell runs, 
 
 The first cell will create a folder in the left-hand panel called `yearbook`, which is where the necessary files will be downloaded. After the code runs, expand the dropdown next to the `yearbook` folder. 
 
-<div class="alert alert-warning">
-Before you begin, please be sure you're connected to a GPU runtime in Colab by going to Runtime > Change runtime type, and selecting GPU in the 'hardware accelerator' dropdown.
-</div>
-
 After you start the first cell, you should see:
 
 {% include figure.html filename="en-or-facial-recognition-ai-python-01.png" alt="Google Colab directory listing showing folders and files contained in sample yearbook directory." caption="Figure 1. Google Colab file hierarchy" %}
@@ -111,6 +107,10 @@ After you start the first cell, you should see:
 You can double-click each PDF to download a copy if you wish to explore the scan of the original yearbook.
 
 ### Preparing Your Environment
+
+<div class="alert alert-warning">
+Due to a compatibility issue between TensorFlow and Google Colab, we've disabled GPU use. Adding the line <code>os.environ["CUDA_VISIBLE_DEVICES"] = "-1"</code> allows the program to execute successfully. <a href='https://github.com/programminghistorian/jekyll/issues/3558'>We're working on a permanent solution</a> that continues to use the GPU as described in the lesson (September 2025).
+</div>
 
 Next, the code will install several Python libraries you'll need later on. This step should take thirty seconds or so to build dependencies and download the necessary data. We will cover many of the installed and imported libraries in greater detail below. Note as well that the exclamation mark which appears before several lines is a special command in Colab, used to execute a bash command in a subshell. This code:
 * Creates a working `yearbook` folder in the left panel, then downloads and unzips data from the hosted folder
@@ -130,6 +130,7 @@ Next, the code will install several Python libraries you'll need later on. This 
 import os, shutil, fitz, cv2, numpy as np, pandas as pd, dlib, tensorflow as tf
 from os.path import dirname, join
 from deepface import DeepFace
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 ```
 
 ## PDF conversion
