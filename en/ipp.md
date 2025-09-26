@@ -21,7 +21,7 @@ Partnership Rates:
 
 _Gold Tier_  
 
-Gold Partnership rates are £3,000 GBP / $4,200 USD / €3,600 EUR / $5,100 CAD. Gold partners are offered the opportunity to collaborate with us to enhance their communities' use of digital humanities tools and methods.
+Gold Partnership rates are £3,000 GBP / $4,200 USD / €3,600 EUR / $5,100 CAD / $6,140 AUD. Gold partners are offered the opportunity to collaborate with us to enhance their communities' use of digital humanities tools and methods.
 
 _Silver Tier_
 
@@ -31,6 +31,7 @@ _Silver Tier_
 | $1,650 USD  | $600 USD | $200 USD  |
 | €1,500 EUR  | €500 EUR | €175 EUR  |
 | $2,240 CAD  | $700 CAD | $275 CAD  | 
+| $2,560 AUD  | $820 AUD | $300 AUD  | 
 
 Rates are due annually from the date of first payment and are set in October each year. For a quote in another currency please email <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Publishing Manager</a>.
 

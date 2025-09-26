@@ -21,7 +21,7 @@ Taxas de adesão:
 
 _Nível Gold_
 
-As taxas de nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. Os nossos parceiros Gold têm a oportunidade de trabalhar connosco para melhorar a utilização das ferramentas e métodos das humanidades digitais a serem utilizados pelas suas comunidades.
+As taxas de nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD, $6,140 AUD. Os nossos parceiros Gold têm a oportunidade de trabalhar connosco para melhorar a utilização das ferramentas e métodos das humanidades digitais a serem utilizados pelas suas comunidades.
 
 _Nível Silver_
 
@@ -32,8 +32,7 @@ _Nível Silver_
 | £1.250 GBP | £400 GBP | £150 GBP |
 | $1.650 USD | $600 USD | $200 USD |
 | $2.240 CAD | $700 CAD | $275 CAD |
-
-Se a sua instituição tem recursos para nos oferecer um suporte ainda maior, também damos as boas-vindas a parcerias no nosso nível Gold. As taxas de parceria do nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. As instituições parceiras de nível ouro tem dois workshops personalizados por ano para ajudar suas comunidades a usar ferramentas e métodos de humanidades digitais.
+| $2,560 AUD | $820 AUD | $300 AUD | 
 
 As taxas são anuais e consideramos a contagem a partir da data do primeiro pagamento. Os valores são definidos em outubro de cada ano. Para uma cotação em outra moeda, por favor, envie um e-mail para [Anisa Hawes, Gestora de publicações](mailto:admin@programminghistorian.org).
 

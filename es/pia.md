@@ -22,7 +22,7 @@ Tasas de asociación :
 
 _Nivel Gold_
 
-Las tarifas para nuestros colaboradores en nivel Gold son de £3.000 GBP, $4.200 USD, €3.600 EUR, $5.100 CAD. Como parte de la membresía, se les ofrece la oportunidad de trabajar con nosotros para mejorar el uso que hacen sus comunidades de las herramientas y métodos de las humanidades digitales.
+Las tarifas para nuestros colaboradores en nivel Gold son de £3.000 GBP, $4.200 USD, €3.600 EUR, $5.100 CAD, $6,140 AUD. Como parte de la membresía, se les ofrece la oportunidad de trabajar con nosotros para mejorar el uso que hacen sus comunidades de las herramientas y métodos de las humanidades digitales.
 
 _Nivel Silver_
 
@@ -32,6 +32,7 @@ _Nivel Silver_
 | $1.650 USD  | $600 USD | $200 USD     |
 | €1.500 EUR  | €500 EUR | €175 EUR     |
 | $2.240 CAD  | $700 CAD | $275 CAD     |
+| $2,560 AUD  | $820 AUD | $300 AUD     | 
 
 Las tasas vencen anualmente a partir de la fecha del primer pago y se establecen en octubre de cada año. Para una estimación en otra moneda, envía un correo electrónico a <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Directora de publicaciones</a>.
 
