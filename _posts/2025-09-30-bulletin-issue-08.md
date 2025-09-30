@@ -46,7 +46,7 @@ Anyone who is working, teaching, or learning with computational methods. You mig
 
 ## New Lessons
 
-JAMES BAKER  & IAN MILLIGAN, traduction par JULIE ZEISSER 
+JAMES BAKER & IAN MILLIGAN, traduction par JULIE ZEISSER 
 [Compter et exploiter ses donnees de recherche avec Unix](https://doi.org/10.46430/phfr0036)  
 - Cette leçon montre comment les données de la recherche, lorsqu’elles sont classées de manière claire et prévisible, peuvent être décomptées et explorées grâce au shell Unix.
 
@@ -66,8 +66,8 @@ Book your place: <https://tinyurl.com/ph-remix-reuse>
 
 ## Our Supporters   
 
-This quarter, we warmly welcome **University of Cambridge**, and **University of Edinburgh Library** to our network of investors. Thank you!
-We also give grateful thanks to both **Western University Library** and **Universidad de los Andes** who have renewed their long-standing Institutional Partner memberships.
+This quarter, we warmly welcome **University of Cambridge**, and **University of Edinburgh Library** to our network of Institutional Partners. 
+We also give grateful thanks to both **Western University Library** and **Universidad de los Andes** who have renewed their long-standing memberships.
 
 [Email our Publishing Manager](mailto:admin@programminghistorian.org) or [explore](/en/ipp) to learn more about joining our **Institutional Partnership Programme**.
 
