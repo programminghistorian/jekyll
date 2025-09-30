@@ -40,17 +40,17 @@ Reviewing for _Programming Historian_ is a great opportunity to **learn new tech
 **Who can participate?**  
 Anyone who is working, teaching, or learning with computational methods. You might be an educator, a researcher, a PhD candidate, a Research Software Engineer, a librarian, a linguist, a historian - if you share our interest in using digital methods to acquire, transform, analyse, present or preserve data, we’d like to hear from you.
 
-**Please register your interest** to participate in your preferred language(s):
+**Please register your interest** to participate in your preferred language(s):  
 [Form in English](https://tinyurl.com/en-ph-peer-review) // [Formulario en español](https://tinyurl.com/es-ph-revision-por-pares) // [Formulaire en français](https://tinyurl.com/fr-ph-evaluation) // [Enviar um email ao Editor-Chefe em português](mailto:portugues@programminghistorian.org)  
 
 
 ## New Lessons
 
-JAMES BAKER & IAN MILLIGAN, traduction par JULIE ZEISSER 
+JAMES BAKER & IAN MILLIGAN, traduction par JULIE ZEISSER  
 [Compter et exploiter ses donnees de recherche avec Unix](https://doi.org/10.46430/phfr0036)  
 - Cette leçon montre comment les données de la recherche, lorsqu’elles sont classées de manière claire et prévisible, peuvent être décomptées et explorées grâce au shell Unix.
 
-GRACE DI MÍO, traduction par AXEL MORIN
+GRACE DI MÍO, traduction par AXEL MORIN  
 [Créer des visualisations interactives avec Plotly](https://doi.org/10.46430/phfr0037)  
 - Cette leçon montre comment créer des visualisations de données interactives avec la bibliothèque &laquo;&nbsp;open source&nbsp;&raquo; Plotly. Le jeu de données utilisé provient du ministère de l’éducation nationale, et comptabilise le nombre de personnes admises aux différents baccalauréats.
 
