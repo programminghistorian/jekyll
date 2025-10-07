@@ -13,7 +13,7 @@ editors:
 - Alexandre Wauthier
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/672
 difficulty: 1
-activity: [acquiring]
+activity: acquiring
 topics: [data-management]
 abstract: Cette leçon vous initie à enrichir un jeu de données de recherche avec d’autres données liées provenant de sources externes telles que Wikidata. Cet enrichissement, basé sur un processus nommé &laquo;&nbsp;réconciliation&nbsp;&raquo;, est géré par OpenRefine.
 avatar_alt: Une gravure montrant des femmes fabriquant des morceaux de tissu dans un atelier.
