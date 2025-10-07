@@ -1,0 +1,14 @@
+Titre,Titre_RECON,Titre_Qid,Qid,author,Author_Qid,publication date,language of work or name,Lang_Qid,place of publication,Place_of_publ_Qid,coordinate location,publisher,Publisher_Qid,Date
+Liber Geber,Liber Geber,,,,,,,,,,,,,"1475-1485"
+De Alchemia,De Alchemia,https://www.wikidata.org/wiki/Q18411283,Q18411283,Johannes Petreius,https://www.wikidata.org/wiki/Q77965,1541-01-01T00:00:00Z,Latin,https://www.wikidata.org/wiki/Q397,Nuremberg,https://www.wikidata.org/wiki/Q2090,"49.45388888888889,11.0775",,,"1541"
+Artis Auriferae,Artis Auriferae,https://www.wikidata.org/wiki/Q18616419,Q18616419,,,1572-01-01T00:00:00Z,Latin,https://www.wikidata.org/wiki/Q397,Basel,https://www.wikidata.org/wiki/Q78,"47.560555555556,7.5905555555556",Pietro Perna,https://www.wikidata.org/wiki/Q3388166,"1572"
+Theatrum Chemicum,Theatrum Chemicum,https://www.wikidata.org/wiki/Q956990,Q956990,,,1602-01-01T00:00:00Z,Latin,https://www.wikidata.org/wiki/Q397,Oberursel (Taunus),https://www.wikidata.org/wiki/Q7044,"50.202777777778,8.5769444444444",Lazarus Zetzner,https://www.wikidata.org/wiki/Q3220018,"1602"
+,,,,,,,,,Strasbourg,https://www.wikidata.org/wiki/Q6602,"48.573333333333,7.7522222222222",,,
+"Theatrum Chemicum Britannicum",Theatrum Chemicum Britannicum,https://www.wikidata.org/wiki/Q4356652,Q4356652,Elias Ashmole,https://www.wikidata.org/wiki/Q471406,1652-01-01T00:00:00Z,English,https://www.wikidata.org/wiki/Q1860,London,https://www.wikidata.org/wiki/Q84,"51.507222222222,-0.1275",,,
+Bibliothèque des philosophes chimiques,Bibliothèque des philosophes chimiques,,,,,,,,,,,,,"1672"
+Bibliotheca chemica curiosa,Bibliotheca Chemica Curiosa,https://www.wikidata.org/wiki/Q18410753,Q18410753,,,1702-01-01T00:00:00Z,Latin,https://www.wikidata.org/wiki/Q397,Geneva,https://www.wikidata.org/wiki/Q71,"46.2,6.15",Chouet,https://www.wikidata.org/wiki/Q99364894,"1702"
+"Turba philosophorum",Turba Philosophorum,https://www.wikidata.org/wiki/Q900529,Q900529,,,1100-01-01T00:00:00Z,Latin,https://www.wikidata.org/wiki/Q397,Toledo,https://www.wikidata.org/wiki/Q5836,"39.866666666667,-4.0333333333333",,,
+Mutus Liber,Mutus Liber,https://www.wikidata.org/wiki/Q1408745,Q1408745,,,1677-01-01T00:00:00Z,Latin,https://www.wikidata.org/wiki/Q397,La Rochelle,https://www.wikidata.org/wiki/Q82185,"46.159444444444,-1.1513888888889",Pierre Savouret,https://www.wikidata.org/wiki/Q123561066,"1677"
+"De consideratione quintae essentiae rerum omnium",De consideratione quintae essentiae,https://www.wikidata.org/wiki/Q86666613,Q86666613,,,,,,,,,,,
+Les Douze Clefs de philosophie,The Twelve Keys of Basil Valentine,https://www.wikidata.org/wiki/Q22909375,Q22909375,Basil Valentine,https://www.wikidata.org/wiki/Q810169,1599-01-01T00:00:00Z,German,https://www.wikidata.org/wiki/Q188,Lutherstadt Eisleben,https://www.wikidata.org/wiki/Q484870,"51.516666666667,11.55",Johann Thölde,https://www.wikidata.org/wiki/Q70164,"1599"
+Splendor Solis,Splendor Solis,,,,,,,,,,,,,1532
