@@ -52,7 +52,7 @@ Any plain text editor (`.txt` format) you use will work for everything we do in 
 
 For this lesson, we use the editor Visual Studio Code (VS Code, for short), which is free and is compatible with Windows, MacOS, and Linux.
 
-Download the most [recent version of VS Code](https://code.visualstudio.com/download) and install it on your computer. Open it and you will see a screen like this:
+Download the most [recent version of VS Code](https://code.visualstudio.com/download) and install it on your computer. Open it and you will encounter a screen like this:
 
 {% include figure.html filename="en-tr-encoding-texts-tei-1-01.png" alt="Initial window of Visual Studio Code" caption="Figure 1. VS Code initial view." %}
 
@@ -111,13 +111,13 @@ Let’s clarify this by returning to our first example. Suppose we have a digiti
 
 {% include figure.html filename="en-tr-encoding-texts-tei-1-10.png" alt="original printed text of Whitman's The Dead Tenor" caption="Figure 10. A digitized excerpt of *Leaves of Grass*." %}
 
-As we see below, TEI allows us to encode, as part of a series of tags, the text that we want to categorize. For example, we can use the tag `<name>` to mark the proper names in the text, as in:
+As we demonstrate below, TEI allows us to encode, as part of a series of tags, the text that we want to categorize. For example, we can use the tag `<name>` to mark the proper names in the text, as in:
 
 ```
 <name>Fernando</name>’s <name>Manrico</name>’s passionate call, <name>Ernani</name>’s, sweet <name>Gennaro</name>’s
 ```
 
-Later we will see in greater detail what a tag is and how it works (or, more precisely, what an 'element' is and how it works) in XML and TEI. For now, we can see that the tag doesn’t tell us that the text was represented in italics (or anything else about its appearance) in the original. It only shows that the text inside the tag is part of the category of **names**, regardless of how it is represented. In fact, we can exhaustively encode a document with hundreds or thousands of tags, without any of them affecting the final appearance of the eventual display.  
+Later we will explore in greater detail what a tag is and how it works (or, more precisely, what an 'element' is and how it works) in XML and TEI. For now, we can notice that the tag doesn’t tell us that the text was represented in italics (or anything else about its appearance) in the original. It only shows that the text inside the tag is part of the category of **names**, regardless of how it is represented. In fact, we can exhaustively encode a document with hundreds or thousands of tags, without any of them affecting the final appearance of the eventual display.  
 
 ## XML and TEI: towards a text encoding standard
 From the beginnings of digital humanities in the 1960s, there have been many attempts at text encoding. Nearly every encoding project had its own standard, meaning the projects were incompatible and untranslatable, making collaborative work more difficult and even impossible.
@@ -127,7 +127,7 @@ To resolve this problem, about twenty years later, a convention of a large numbe
 TEI is one way to use the markup language [XML](https://perma.cc/5PNX-XUGW), which is why it can sometimes be called TEI-XML (or also XML/TEI). For its part, XML (which is the abbreviation for 'eXtensible Markup Language') is a computing language whose purpose is to describe, using a series of markings or tags, a particular text object. XML is a markup language, differentiated from programming languages like C, Python, or Java, which describe objects, functions, or processes which must be executed by a computer. XML doesn't provide specific tags so much as a system for how any tag should be used; it is TEI that provides the vocabulary for what tags can appear and where.
 
 ### XML
-In this lesson, we will not go into detail on the syntaxes and functions of XML. Therefore, we recommend you take a look at M. H. Beals's lesson _[Transforming Data for Reuse and Re-publication with XML and XSL](/en/lessons/transforming-xml-with-xsl) for more information on XML, and explore the [bibliography and references](#recommended-readings) at the end of this lesson.
+In this lesson, we will not go into detail on the syntaxes and functions of XML. Therefore, we recommend you read M. H. Beals's lesson _[Transforming Data for Reuse and Re-publication with XML and XSL](/en/lessons/transforming-xml-with-xsl)_ for more information on XML, and explore the [bibliography and references](#recommended-readings) at the end of this lesson.
 
 For now, all you need to know is that every document in XML must comply with two basic rules to be valid:  
 1.	It must have a single root element (containing all other elements, if any)
@@ -164,9 +164,9 @@ We can put the following lines encoded in TEI:
 
 In this case, we can put the valid attribute `@rhyme` on the element `<lg>` to encode the rhyme scheme of the passage (aabb). The attribute `@met` indicates the meter of the verse (iambic heptameter). Finally, the attribute `@n` indicates the number of the verse inside the stanza.
 
-The difference between the plain text and the encoded version for this part of the sonnet allows us to start to see the advantages of TEI as a markup language for text.  Not only does the encoded version explicitly say that the lines of text are lines of a poem, but it also identifies the rhyme scheme and meter. Once we have encoded a complete poem, or all the poems in a collection, we can, for example, use a software to perform structured queries to show us all the poems that have a certain rhyme scheme or meter. Or, we can use (or create) an application to determine how many stanzas in the poems of _Leaves of Grass_ (if any) have imperfect meter. Or, we can compare the distinct versions of the sonnets (the 'witnesses' of the handwritten and printed versions), in order to compile a digital edition of them.
+The difference between the plain text and the encoded version for this part of the sonnet allows us to start to understand the advantages of TEI as a markup language for text.  Not only does the encoded version explicitly say that the lines of text are lines of a poem, but it also identifies the rhyme scheme and meter. Once we have encoded a complete poem, or all the poems in a collection, we can, for example, use a software to perform structured queries to show us all the poems that have a certain rhyme scheme or meter. Or, we can use (or create) an application to determine how many stanzas in the poems of _Leaves of Grass_ (if any) have imperfect meter. Or, we can compare the distinct versions of the sonnets (the 'witnesses' of the handwritten and printed versions), in order to compile a digital edition of them.
 
-Now, all of this and much more is possible only by virtue of the fact that we have made explicit, thanks to TEI, the content of those sonnets. If you only had had their plain text versions, it would be technically impossible to leverage computing tools designed for editing, transforming, visualizing, analyzing, and publishing.
+Now, all of this and much more is possible only by virtue of the fact that we have made explicit, thanks to TEI, the content of those sonnets. If you only had their plain text versions, it would be technically impossible to leverage computing tools designed for editing, transforming, visualizing, analyzing, and publishing.
 
 
 ## A Minimal TEI Document
@@ -201,7 +201,7 @@ The interesting thing comes later in lines 3-16, right after the 'root' element,
 - [`<teiHeader>`](https://perma.cc/XRM3-ZNDL)
 - [`<text>`](https://perma.cc/F4CY-4TQG)
 
-Now we will see what those elements consist of.
+Now we will discuss what those elements consist of.
 
 ### The `<teiHeader>` Element
 All of the metadata in the document is encoded in the element `<teiHeader>`: the title; authors; where, when, and how they were published, your source, where your source was taken from, etc. It is common for people who are starting to learn TEI to overlook that information, filling those fields with generic and incomplete data. However, the information in `<teiHeader>` is essential to the task of encoding, because it serves to identify with total precision the encoded text.  
@@ -209,7 +209,7 @@ All of the metadata in the document is encoded in the element `<teiHeader>`: the
 `<teiHeader>` should contain at least an element called `<fileDesc>` (from 'file description'), which should then contain three 'child' elements:
 
 * [`<titleStmt>`](https://perma.cc/KKW4-JFKB) (from 'title statement'): the information about the title of the document (inside [`<title>`](https://perma.cc/A45X-9GUJ)); optional elements could also include data about the author(s) (inside [`<author>`](https://perma.cc/KK2Q-UC38))  
-* [`<publicationStmt>`](https://perma.cc/6E9V-5DMT) (from 'publication statement'): the information about how the work is published and made available (that is, the TEI document itself; not the original source). In this sense it is analogous to the information about the publisher on the copyright page of a book. It can be a descriptive paragraph (inside the generic element for a paragraph, [`<p>`](https://perma.cc/VRK8-U8AM)), or it can be structured in one or more of the following elements:  
+* [`<publicationStmt>`](https://perma.cc/6E9V-5DMT) (from 'publication statement'): the information about how the work is published and made available (that is, the TEI document itself; not the original source). In this sense, it is analogous to the information about the publisher on the copyright page of a book. It can be a descriptive paragraph (inside the generic element for a paragraph, [`<p>`](https://perma.cc/VRK8-U8AM)), or it can be structured in one or more of the following elements:  
     * [`<address>`](https://perma.cc/7ZST-SSQJ): the postal address of the person who edited or encoded the document  
     * [`<date>`](https://perma.cc/7JWC-LC8W): the date the document was published  
     * [`<pubPlace>`](https://perma.cc/934J-3K4G): the place the document was published  
@@ -217,7 +217,7 @@ All of the metadata in the document is encoded in the element `<teiHeader>`: the
     * [`<ref>`](https://perma.cc/4CP3-VXPN) (or [`<ptr>`](https://perma.cc/3FAW-5CSM)): an external link (URL) where the document is available  
 * [`<sourceDesc>`](https://perma.cc/255B-NZRM) (from 'source description'): the information about the source from which the encoded text is being taken. It can be a descriptive paragraph (inside the generic element for a paragraph, `<p>`). It can also be structured in many ways. For example, it can use the element [`<bibl>`](https://perma.cc/TJ8N-KSC3) and include the bibliographic reference without more structuring elements (for example, `<bibl>Walt Whitman, *Leaves of Grass* Brooklyn, New York: Walt Whitman, 1855</bibl>`). Or, it can contain a structured reference in [`<biblStruct>`](https://perma.cc/2UZ7-YYKA), which contains other relevant elements.  
 
-Suppose we want to encode *Leaves of Grass* by Walt Whitman, starting with [this freely available edition on the Walt Whitman Archive](https://perma.cc/ZCG9-2YLQ). The `<teiHeader>` of our TEI document could look like the following:
+Suppose we want to encode *Leaves of Grass* by Walt Whitman, starting with [this freely available edition on the Walt Whitman Archive](https://perma.cc/ZCG9-2YLQ). The `<teiHeader>` of our TEI document could be presented as follows:
 
 ```
 <teiHeader>
@@ -294,7 +294,7 @@ For its part, the `<body>` element can contain many other elements:
 
 {% include figure.html filename="en-tr-encoding-texts-tei-1-12.png" alt="List of elements that can appear within the body tag" caption="Figure 12. Possible elements within `<body>`." %}
  
-At first glance, all the possibilities may seem overwhelming. However, it is important to remember that a text is usually naturally divided into sections or parts. It is advisable, therefore, to use the element [`<div>`](https://perma.cc/X6FL-T3BW) for each of these sections, and to use the attribute `@type` or `@n` to distinguish different classes and their positions in the text (for example, `<div n=“3” type= “subsection”>…</div>`).
+At first, all the possibilities may seem overwhelming. However, it is important to remember that a text is usually naturally divided into sections or parts. It is advisable, therefore, to use the element [`<div>`](https://perma.cc/X6FL-T3BW) for each of these sections, and to use the attribute `@type` or `@n` to distinguish different classes and their positions in the text (for example, `<div n=“3” type= “subsection”>…</div>`).
 
 If our text is short and simple, we can use just one `<div>`. For example:
 
@@ -326,7 +326,6 @@ But if our text is more complex, we can use various `<div>` elements:
 
 The structure of our TEI document should, at least in principle, be similar to the structure of our text object, that is the text we want to encode. Therefore, if our text object is divided in chapters, and those chapters are divided into sections or parts, and those, in turn, in paragraphs, it is recommended that we replicate the same structure in the TEI document.
 
-For the chapters and the sections, we can use the element `<div>`, and for the paragraphs the element [`<p>`](https://perma.cc/VRK8-U8AM). Let’s look, for example, at the following schema:
 
 ```
 <text>
