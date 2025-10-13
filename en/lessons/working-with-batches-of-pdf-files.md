@@ -328,7 +328,7 @@ In order to create a Topic Model with the DARIAH Topics Explorer, you don’t ne
 Now open the [DARIAH Topics Explorer](https://dariah-de.github.io/TopicsExplorer/) and follow the steps given in the software. Then:
 
 1.  Select all 340 text files for the analysis.
-2.  Remove the 150 most common words. Alternatively, you can also load the file with the English stop words contained in the [example Corpus](https://github.com/DARIAH-DE/TopicsExplorer/tree/master/data) of the DARIAH Topics Explorer.
+2.  Remove the 150 most common words. Alternatively, you can also load the file with the English stop words contained in the [example Corpus](https://github.com/DARIAH-DE/TopicsExplorer/tree/master) of the DARIAH Topics Explorer.
 3.  Choose 30 for the number of topics and 200 for the number of iterations. You should play with the number of topics and choose a value between 10 and 100. With the number of iterations you increase the accuracy to the price of the calculation duration.
 4.  Click on 'Train Model'. Depending on the speed of your computer, this process may take several minutes.
 
