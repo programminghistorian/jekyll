@@ -26,7 +26,7 @@ activity: transforming
 topics: [website, data-manipulation]
 abstract: This lesson (the first of two parts) teaches you the basics of using TEI-XML to encode texts.
 avatar_alt: Engraving of a labeled cross-section of soil
-doi: XX.XXXXX/phen0000
+doi: 10.46430/phen0129
 ---
 
 {% include toc.html %}
