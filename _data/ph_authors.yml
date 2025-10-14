@@ -116,8 +116,9 @@
   twitter: mariajoafana
   github: mariajoafana
   orcid: 0000-0003-2652-5799
-  team: true
+  team: false
   team_start: 2016
+  team_end: 2025
   institution: Universidad de los Andes, Colombia
   sortname: Afanador-Llach
   affiliation:
