@@ -71,9 +71,9 @@ Para o estudo de caso da Ilha do Príncipe Eduardo (*Prince Edward Island* (PEI)
 
 Este é o *shapefile* que contém a camada vetorial atual que iremos usar para georreferenciar o mapa histórico. Note que, em 1764, não foram dados nomes aos municípios, mas um número de lote, pelo que normalmente são referidos na PEI como "Lotes" (*lots*, em inglês). Daí o nome do ficheiro 'lot_township_polygon'.
 
-- Navegue para o link abaixo no seu navegador de internet e faça o download do ficheiro 'lot_township_polygon':
+- Download do ficheiro 'lot_township_polygon':
 
-[http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP](http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP)
+[lot_town.SHP.zip](/assets/qgis-layers/lot_town.SHP.zip)
 
 - Depois de fazer o download do ficheiro coloque-o numa pasta que possa encontrar mais tarde e descompacte o ficheiro. (Lembre-se de manter todos os ficheiros juntos, uma vez que todos são necessários para abrir a camada no seu SIG).
 
@@ -207,3 +207,4 @@ Ao digitalizar vetores de linhas, tais como estradas ou linhas costeiras, pode c
 Em processos mais avançados pode, inclusivamente, sobrepor esta imagem georreferenciada com um DEM (*Digital Elevation Model* - Modelo de Elevação Digital) para proporcionar-lhe um efeito de altura através de sombras (*hillshade*) ou um efeito 3D e, assim, realizar um '*fly-over*' e ter uma perspetiva aérea das habitações da PEI no século XIX.
 
 *Esta lição é parte do [Geospatial Historian](https://perma.cc/6AN6-N7LX).*
+
