@@ -537,7 +537,7 @@ Travailler avec NetworkX permet d'en apprendre beaucoup sur les classes de modul
 
 NetworkX prend en charge un très grand nombre de formats de fichiers pour [exporter les données](https://perma.cc/Z7H3-UMKD). Si vous voulez exporter une liste de liens en format texte à charger dans Palladio, il existe un [outil adapté](https://perma.cc/DWK2-J389). Fréquemment, dans le projet *Six Degrees of Francis Bacon*, nous exportons les données NetworkX en [format JSON d3](https://perma.cc/2STT-F466) pour les visualiser dans un navigateur. Vous pouvez aussi [exporter](https://perma.cc/7UCP-YBX4) votre graphe en tant que [tableau de données Pandas](https://pandas.pydata.org/) si vous souhaitez effectuer des manipulations statistiques plus avancées. Il existe de nombreuses options et, si vous avez ajouté toutes vos mesures dans votre objet `Graph` en tant qu’attributs, toutes vos données seront exportées simultanément.
 
-La plupart des options d’exportation fonctionnent à peu près de la même manière. Dans cette leçon, vous apprendrez comment exporter vos données au format GEXF de Gephi. Une fois le fichier exporté, vous pouvez le charger [directement dans Gephi](https://perma.cc/46UZ-F6PU) pour le visualiser.
+La plupart des options d’exportation fonctionnent à peu près de la même manière. Dans cette leçon, vous apprendrez comment exporter vos données au format GEXF de Gephi. Une fois le fichier exporté, vous pouvez le charger [directement dans Gephi](https://gephi.org/quickstart/) pour le visualiser.
 
 L’exportation de données se fait souvent avec une commande d’une seule ligne&nbsp;: il vous suffit de choisir un nom de fichier. Dans ce cas, nous utiliserons `quaker_network.gexf`. Pour exporter, tapez&nbsp;:
 

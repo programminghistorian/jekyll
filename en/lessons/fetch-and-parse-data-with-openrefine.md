@@ -21,6 +21,10 @@ doi: 10.46430/phen0065
 
 {% include toc.html %}
 
+<div class="alert alert-warning" role="alert">
+The Chronicling America website has recently been updated, so many elements of the example website used in this lesson may not work as described. The methodologies taught by this lesson remain relevant, however, and may be adapted by readers to a different example site. We are currently investigating options for updating this lesson. [August 2025]
+</div>
+
 # Lesson Goals
 
 OpenRefine is a powerful tool for exploring, cleaning, and transforming data.
@@ -365,7 +369,7 @@ The basic components of the ChromAm API are:
 
 - the base URL, `https://chroniclingamerica.loc.gov/`
 - the search service location for individual newspaper pages, `search/pages/results`
-- a query string, starting with `?` and made up of value pairs (`fieldname=value`) separated by `&`. Much like using the [advanced search form](https://chroniclingamerica.loc.gov/#tab=tab_advanced_search), the value pairs of the query string set the [search options](https://chroniclingamerica.loc.gov/search/pages/opensearch.xml).
+- a query string, starting with `?` and made up of value pairs (`fieldname=value`) separated by `&`. Much like using the [advanced search form](https://chroniclingamerica.loc.gov/#tab=tab_advanced_search), the value pairs of the query string set the search options.
 
 Using a GREL expression, these components can be combined with the values in the "ChronAm" project to construct a search query URL.
 The contents of the data table can be accessed using [GREL variables](https://github.com/OpenRefine/OpenRefine/wiki/Variables).
