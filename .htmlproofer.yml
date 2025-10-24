@@ -19,12 +19,17 @@ url_ignore:
   - https://github.com/programminghistorian/jekyll/commits/gh-pages
   - https://github.com/programminghistorian/jekyll/commits/gh-pages/.*
 directory_ignore:
-  - /assets/
-  - /retired/
-  - /retirada/
-  - /retrait/
-  - /posts/
+  - assets
+  - retired
+  - retirada
+  - retrait
+  - posts
 ignore_elements:
   - pre
   - code
   - script
+typhoeus:
+  connecttimeout: 30
+  timeout: 60
+  max_concurrency: 2
+log_level: debug
