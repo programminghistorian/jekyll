@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Encoding Texts in TEI (part 1)"
+title: "Introduction to Encoding Texts in TEI (Part 1)"
 slug: encoding-texts-tei-1
 original: introduccion-a-tei-1
 layout: lesson
