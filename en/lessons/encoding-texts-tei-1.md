@@ -21,7 +21,7 @@ translation-reviewer:
 - Jennifer Isasi
 - José Luis Losada
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/610
-difficulty: 2
+difficulty: 1
 activity: transforming
 topics: [website, data-manipulation]
 abstract: This lesson (the first of two parts) teaches you the basics of using TEI-XML to encode texts.
