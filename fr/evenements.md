@@ -8,4 +8,7 @@ original: events
 
 ## Événements à venir        
 
-Merci pour l'intérêt que vous portez à notre calendrier d'événements. Nous n'avons rien de prévu pour le moment, mais revenez bientôt pour vous tenir au courant !    
+_Programming Historian_ présente&nbsp;: "Remix and Reuse: Translation and Adaptation in the Community" (Webinar en anglais)   
+- Lieu&nbsp;: En ligne   
+- Date&nbsp;: 23 octobre 2025, [15:00 BST](https://www.timeanddate.com/worldclock/converter.html?iso=20251023T140000&p1=tz_bst)  
+- Information & billets&nbsp;: <https://tinyurl.com/ph-remix-reuse>  

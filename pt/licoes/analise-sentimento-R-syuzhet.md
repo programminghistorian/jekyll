@@ -46,7 +46,7 @@ Esta lição foi construída com a versão R 4.0.2, mas acreditamos que funciona
 
 ## Análise de sentimentos
 
-A [análise dos sentimentos ou a mineração de opinião](https://myrabr.com/blog/analise-de-sentimento/) é utilizada para extrair automaticamente informações sobre a conotação negativa ou positiva da linguagem de um documento. Embora seja uma tarefa que vem sendo utilizada há muito tempo no campo do marketing ou da política, em estudos literários ainda é uma abordagem recente e não há um método único. Além disso, há a possibilidade de extrair a polaridade dos sentimentos e também das emoções.
+A análise dos sentimentos ou a mineração de opinião é utilizada para extrair automaticamente informações sobre a conotação negativa ou positiva da linguagem de um documento. Embora seja uma tarefa que vem sendo utilizada há muito tempo no campo do marketing ou da política, em estudos literários ainda é uma abordagem recente e não há um método único. Além disso, há a possibilidade de extrair a polaridade dos sentimentos e também das emoções.
 
 É importante especificar o que estamos procurando com os termos “sentimento” e “emoções”, pois eles são frequentemente usados de forma intercambiável, de modo geral, mas são diferentes. Para Antonio R. Damasio, as emoções são reações corporais instigantes de nosso corpo, determinadas por estímulos ambientais e derivadas do desenvolvimento da regulamentação biológica (12). Elas podem ser divididas em primárias e secundárias. Embora não haja um acordo final sobre o número de emoções básicas, geralmente são seis: raiva, alegria, repugnância, medo, tristeza e surpresa, embora Damasio considere esta última como sendo secundária. Além disso, no caso do sistema automático que utilizaremos, as emoções secundárias de antecipação e confiança também aparecem.
 
@@ -502,3 +502,4 @@ Rodríguez Aldape, Fernando Manuel. *Cuantificación del Interés de un usuario 
 [^1]:Agradecemos Mounika Puligurthi, estagiária da Universidade do Texas (UT), pelo seu auxílio na compreensão deste cálculo (durante a primavera de 2019).
 
 [^2]:Perceba que a palavra “amor”, por exemplo, aparece em ambas as emoções com um valor de 20 pontos. O que será que isso significa?
+

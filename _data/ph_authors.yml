@@ -38,13 +38,13 @@
       University College London, Reino Unido
   bio:
     en: |
-      Adam Crymble, University College London.
+      Adam Crymble is Associate Professor of Digital Humanities at University College London.
     es: |
-      Adam Crymble, University College London.
+      Adam Crymble es profesor asociado en Humanidades Digitales en University College London.
     fr: |
-      Adam Crymble, University College London.
+      Adam Crymble est professeur adjoint d'humanités numériques à University College London.
     pt: |
-      Adam Crymble, University College London.
+      Adam Crymble é professor associado de Humanidades Digitais na University College London.
   team_roles:
     - proghist
   status: institutionally-supported
@@ -116,8 +116,9 @@
   twitter: mariajoafana
   github: mariajoafana
   orcid: 0000-0003-2652-5799
-  team: true
+  team: false
   team_start: 2016
+  team_end: 2025
   institution: Universidad de los Andes, Colombia
   sortname: Afanador-Llach
   affiliation:
@@ -1430,22 +1431,22 @@
   orcid: 0000-0002-1147-4135
   team: true
   team_start: 2019
-  institution: Tabular
+  institution: OLS
   sortname: Quiroga
   affiliation:
     en: |
-      Tabular, Chile
+      OLS, Chile
     es: |
-      Tabular, Chile
+      OLS, Chile
     fr: |
-      Tabular, Chili
+      OLS, Chili
     pt: |
-      Tabular, Chile
+      OLS, Chile
   bio:
     en: |
-      Riva Quiroga is a research software engineer at Tabular.
+      Riva Quiroga is a research fellow at OLS and a research software engineer at Tabular, Chile.
     es: |
-      Riva Quiroga trabaja como research software engineer en Tabular.
+      Riva Quiroga trabaja como research fellow en OLS y como research software engineer en Tabular, Chile.
   team_roles:
     - editorial
     - spanish
@@ -2738,7 +2739,7 @@
 - name: Marie Flesch
   team: true
   team_start: 2022
-  institution: ATILF, Université de Lorraine-CNRS
+  institution: Université de Lorraine
   github: marie-flesch
   email: francais@programminghistorian.org
   url: "https://sites.google.com/view/marie-flesch/"
@@ -2746,18 +2747,18 @@
   orcid: 0000-0003-2139-1517
   affiliation:
     en: |
-      Université Paris Cité, France.
+      Université de Lorraine, France.
     es: |
-      Université Paris Cité, Francia.
+      Université de Lorraine, Francia.
     fr: |
-      Université Paris Cité, France.
+      Université de Lorraine, France.
     pt: |
-      Université Paris Cité, França.
+      Université de Lorraine, França.
   bio:
     en: |
-      Marie Flesch is a postdoc researcher at Laboratoire de Linguistique Formelle (Université Paris Cité-CNRS), France.
+      Marie Flesch is an assistant professor in English Sociolinguistics at Université de Lorraine, France.
     fr: |
-      Marie Flesch est chercheuse postdoctorante au Laboratoire de Linguistique Formelle (Université Paris Cité-CNRS), France.
+      Marie Flesch est maitresse de conférence en sociolinguistique anglaise à l'université de Lorraine, France.
   team_roles:
     - french
     - managing
@@ -2931,8 +2932,9 @@
 - name: Charlotte Chevrie
   github: charlottejmc
   email: publishing.assistant@programminghistorian.org
-  team: true
+  team: false
   team_start: 2023
+  team_end: 2025
   institution: Programming Historian, United Kingdom
   sortname: Chevrie
   affiliation:
@@ -2987,6 +2989,8 @@
   bio:
     en: |
       Grace Di Méo is a Lecturer in Criminology in the Faculty of Humanities and Social Sciences at Oxford Brookes University.
+    fr: |
+      Grace Di Méo est maitresse de conférences en criminologie à la faculté des sciences humaines et sociales d'Oxford Brookes University.
 
 - name: Avery Blankenship
   team: false
@@ -3008,20 +3012,23 @@
   twitter: cosovschi
   team: true
   team_start: 2024
-  institution: École française d’Athènes
+  institution: Inštitut za novejšo zgodovino
+  url: "https://digitalkosovski.github.io/"
   sortname: Cosovschi
   affiliation:
     en: |
-      École française d’Athènes, Greece
+      Inštitut za novejšo zgodovino, Slovenia
     es: |
-      École française d’Athènes, Grecia
+      Inštitut za novejšo zgodovino, Eslovenia
     fr: |
-      École française d’Athènes, Grèce
+      Inštitut za novejšo zgodovino, Slovénie
     pt: |
-      École française d’Athènes, Grécia
+      Inštitut za novejšo zgodovino, Eslovénia
   bio:
+    en: |
+      Agustín Cosovschi is a Research Fellow at Inštitut za novejšo zgodovino, Slovenia.
     fr: |
-      Agustín Cosovschi est membre scientifique de l'École française d’Athènes, en Grèce.
+      Agustín Cosovschi est chercheur à l'Inštitut za novejšo zgodovino, en Slovénie.
   team_roles:
     - english
     - editorial
@@ -3060,20 +3067,20 @@
   email: lachapot@gmail.com
   team: true
   team_start: 2024
-  institution: Dartmouth College
+  institution: UC Berkeley
   sortname: Chapot
   affiliation:
     en: |
-      Dartmouth College, United States
+      UC Berkeley, United States
     es: |
-      Dartmouth College, Estados Unidos
+      UC Berkeley, Estados Unidos
     fr: |
-      Dartmouth College, États-Unis
+      UC Berkeley, États-Unis
     pt: |
-      Dartmouth College, Estados Unidos
+      UC Berkeley, Estados Unidos
   bio:
     en: |
-      Laura Alice Chapot is a Visiting Scholar in Comparative Literature at the Neukom Institute of Computational Science at Dartmouth College in Hanover, NH, USA. 
+      Laura Alice Chapot is an Assistant Researcher in Digital Humanities in the Department of German at the University of California, Berkeley in Berkeley, CA, USA. 
   team_roles:
     - english
     - editorial
@@ -3332,3 +3339,25 @@
   bio:
     pt: |
       Diana Santos é professora catedrática no Departamento de Literatura, Estudos de Área e Línguas Europeias da Universidade de Oslo, Noruega.
+
+
+- name: Adam Porter
+  orcid: 0009-0000-8687-2587
+  team: false
+  bio:
+    en: |
+      Adam Porter is the Joel Scarborough Professor of Religion at Illinois College, Jacksonville, IL, United States.
+
+- name: Corey Stephan
+  team: false
+  bio:
+    en: |
+      Corey Stephan is an Assistant Professor and Fellow of the Core in the Department of the Core at the University of St. Thomas in Houston, Texas, USA.
+
+
+- name: Pascal Martinolli
+  orcid: 0000-0003-0122-5300
+  team: false
+  bio:
+    fr: |
+      Pascal Martinolli est bibliothécaire à la Bibliothèque des lettres et sciences humaines de l'Université de Montréal, Montréal, QC, Canada.

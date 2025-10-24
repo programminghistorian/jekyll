@@ -550,7 +550,7 @@ Trabalhando só com o NetworkX trá-lo-á longe, e o leitor pode encontrar muito
 
 O NetworkX suporta um grande número de formatos de ficheiros para [exportação de dados](https://perma.cc/X65S-HRCF) (em inglês). Se o leitor quiser exportar uma lista de *edges* em texto simples para carregar no Palladio, existe um [*wrapper* conveniente](https://perma.cc/P9ES-57X3) (em inglês) para isso. Frequentemente, no *Six Degrees of Francis Bacon*, nós exportamos dados do NetworkX no [formato JSON especializado do D3](https://perma.cc/SF8Z-DWPW) (em inglês), para visualização no navegador de internet. O leitor poderia até [exportar](https://perma.cc/Y6QJ-5VM8) (em inglês) o seu grafo como um [*dataframe* do Pandas](https://perma.cc/87NA-KCK4) (em inglês) se existissem operações estatísticas mais avançadas que quisesse executar. Existem várias opções, e se o leitor tiver adicionado diligentemente todas as suas métricas de volta no seu objeto Grafo como atributos, todos os seus dados serão exportados duma só vez.
 
-A maior parte das opções de exportação funcionam da mesma maneira, por isso, para este tutorial o leitor aprenderá como exportar os seus dados para o formato GEXF do Gephi. Assim que tiver exportado o ficheiro, o leitor pode fazer o *upload* [diretamente para o Gephi](https://gephi.org/users/supported-graph-formats/) (em inglês) para a visualização.
+A maior parte das opções de exportação funcionam da mesma maneira, por isso, para este tutorial o leitor aprenderá como exportar os seus dados para o formato GEXF do Gephi. Assim que tiver exportado o ficheiro, o leitor pode fazer o *upload* [diretamente para o Gephi](https://gephi.org/quickstart/) (em inglês) para a visualização.
 
 Exportar dados é, normalmente, um simples comando unilinear. Tudo o que é preciso é escolher um nome de ficheiro. Neste caso, usaremos `quaker_network.gexf`. Para exportar, digite:
 
@@ -601,3 +601,4 @@ Cada uma destas descobertas é um convite para mais pesquisa ao invés dum ponto
 [^17]: Em redes grandes, as listas seriam provavelmente ilegivelmente longas, mas o leitor poderia obter uma ideia de todas as classes modulares duma só vez ao visualizar a rede e adicionar cor aos nós baseada na sua classe modular.
 
 [^18]: Cada formato de ficheiro que é exportável é também importável. Se o leitor tiver um ficheiro GEXF do Gephi que quer pôr no NetworkX, digitaria `G = nx.read_gexf('some_file.gexf')`.
+

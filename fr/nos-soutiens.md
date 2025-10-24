@@ -33,23 +33,23 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [The National Archives](https://www.nationalarchives.gov.uk/), Royaume-Uni
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), États-Unis
 - [Purdue University](https://www.purdue.edu/), États-Unis
-- [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Allemagne
 - [University of Bristol Library](https://www.bristol.ac.uk/library/), Royaume-Uni
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Royaume-Uni
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), Royaume-Uni
-- [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), Chine
 - [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, Royaume-Uni
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), Royaume-Uni
 - [University of York](https://www.york.ac.uk/), Royaume-Uni
 - [University of Oxford](https://www.ox.ac.uk), Royaume-Uni
 - [Universität Bern Bibliothek](https://www.ub.unibe.ch/), Suisse
 - [University of Florida](https://www.ufl.edu/), États-Unis
-- [Universiteit van Amsterdam](https://www.uva.nl/), Pays-Bas
 - [Universiteit Gent](https://www.ugent.be/), Belgique
 - [University of Exeter](https://www.exeter.ac.uk/), Royaume-Uni
 - [Université de Montréal](https://www.umontreal.ca/), Canada
 - [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), Pays-Bas
 - [Software Sustainability Institute](https://www.software.ac.uk/), Royaume-Uni
+- [Iowa State University Library](https://www.lib.iastate.edu/), États-Unis
+- [University of Edinburgh Library](https://library.ed.ac.uk/), Royaume-Uni
+- [University of Cambridge](https://www.cam.ac.uk/), Royaume-Uni
 
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
@@ -63,6 +63,9 @@ Les institutions suivantes ont participé à de notre programme de [Partenariat 
 - [Center for Spatial and Textual Analysis (CESTA)](https://cesta.stanford.edu/), Stanford University, États-Unis [2021]
 - [Transkribus - READ COOP](https://readcoop.eu/), Autriche [2022]
 - [RStudio/Posit](https://posit.co/), États-Unis [2022]
+- [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), Chine [2021-2023]
+- [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Allemagne [2022-2023]
+- [Universiteit van Amsterdam](https://www.uva.nl/), Pays-Bas [2023]
 - [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Danemark [2021-2024]
 - [Aarhus University Library](https://library.au.dk/), Danemark [2021-2024]
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Danemark [2021-2024]

@@ -119,7 +119,7 @@ We will also import [Matplotlib](https://perma.cc/AX3V-X4EC). We will tell Matpl
 ```python
 %matplotlib inline
 import matplotlib.pyplot as plt
-plt.style.use('seaborn')
+plt.style.use('seaborn-v0_8')
 ```
 
 Now let's take a look at the dataframe.

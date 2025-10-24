@@ -384,7 +384,7 @@ Rosa Filgueira, Claire Grover, Vasilios Karaiskos, Beatrice Alex, Sarah Van Eynd
 
 Rosa Filgueira, Claire Grover, Melissa Terras, and Beatrice Alex (2020). Geoparsing the historical Gazetteers of Scotland: accurately computing location in mass digitised texts. In Proceedings of the 8th Workshop on Challenges in the Management of Large Corpora, pages 24–30, Marseille, France. European Language Resources Association.
 
-Claire Grover and Richard Tobin (2014). A Gazetteer and Georeferencing for Historical English Documents. In Proceedings of LaTeCH 2014 at EACL 2014. Gothenburg, Sweden. [[pdf](https://doi.org/10.3115/v1/W14-0617)]
+Claire Grover and Richard Tobin (2014). A Gazetteer and Georeferencing for Historical English Documents. In Proceedings of LaTeCH 2014 at EACL 2014. Gothenburg, Sweden. [https://doi.org/10.3115/v1/W14-0617](https://perma.cc/S8XG-8TH3)
 
 Claire Grover, Richard Tobin, Kate Byrne, Matthew Woollard, James Reid, Stuart Dunn, and Julian Ball (2010). Use of the Edinburgh Geoparser for georeferencing digitised historical collections. Philosophical Transactions of the Royal Society A. [[pdf](https://homepages.inf.ed.ac.uk/grover/papers/PTRS-A-2010-Grover-3875-89.pdf)]
 

@@ -32,23 +32,23 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [The National Archives](https://www.nationalarchives.gov.uk/), United Kingdom
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), United States
 - [Purdue University](https://www.purdue.edu/), United States
-- [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Germany
 - [University of Bristol Library](https://www.bristol.ac.uk/library/), United Kingdom
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), United Kingdom
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), United Kingdom
-- [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), China
 - [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, United Kingdom
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), United Kingdom
 - [University of York](https://www.york.ac.uk/), United Kingdom
 - [University of Oxford](https://www.ox.ac.uk), United Kingdom
 - [Universität Bern Bibliothek](https://www.ub.unibe.ch/), Switzerland
 - [University of Florida](https://www.ufl.edu/), United States
-- [Universiteit van Amsterdam](https://www.uva.nl/), The Netherlands
 - [Universiteit Gent](https://www.ugent.be/), Belgium
 - [University of Exeter](https://www.exeter.ac.uk/), United Kingdom
 - [Université de Montréal](https://www.umontreal.ca/), Canada
 - [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), The Netherlands
 - [Software Sustainability Institute](https://www.software.ac.uk/), United Kingdom
+- [Iowa State University Library](https://www.lib.iastate.edu/), United States
+- [University of Edinburgh Library](https://library.ed.ac.uk/), United Kingdom
+- [University of Cambridge](https://www.cam.ac.uk/), United Kingdom
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
@@ -61,6 +61,9 @@ Former contributors to our [Institutional Partner Programme](support-us#institut
 - [Center for Spatial and Textual Analysis (CESTA)](https://cesta.stanford.edu/), Stanford University, United States [2021]
 - [Transkribus - READ COOP](https://readcoop.eu/), Austria [2022]
 - [RStudio/Posit](https://posit.co/), United States [2022]
+- [Research Centre for Digital Publishing and Digital Humanities, Beijing Normal University at Zhuhai](https://rsgyy.bnu.edu.cn/yjjg/szcbyszrwyjzx/), China [2021-2023]
+- [Technische Universität Darmstadt](https://www.tu-darmstadt.de/), Germany [2022-2023]
+- [Universiteit van Amsterdam](https://www.uva.nl/), The Netherlands [2023]
 - [Royal Danish Library / Copenhagen University Library](https://www.kb.dk), Denmark [2021-2024]
 - [Aarhus University Library](https://library.au.dk/), Denmark [2021-2024]
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Denmark [2021-2024]

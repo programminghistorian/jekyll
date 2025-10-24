@@ -1,0 +1,337 @@
+﻿num_ligne;Année;Origine sociale;Nombre d'admis au baccalaureat général;Pourcentage d'admis au baccalaureat général;Nombre d'admis au baccalauréat technologique;Pourcentage d'admis au baccalauréat technologique;Nombre d'admis au baccalauréat professionnel;Pourcentage d'admis au baccalauréat professionnel;Nombre d'admis au baccalauréat;Pourcentage d'admis au baccalauréat
+15;1998;Autres personnes sans activité professionnelle;9168;69.3;9388;73.1;6114;70.5;24670;71.0
+26;1999;Artisans, commerçants, chefs d'entreprise;25140;77.1;14906;80.3;8277;80.6;48323;78.7
+42;2000;Employés;38053;77.3;28598;79.7;16390;80.7;83041;78.8
+43;2000;Ensemble;271155;79.9;152778;79.1;92617;79.1;516550;79.5
+45;2000;Ouvriers;32880;74.2;35307;77.9;25220;79.0;93407;76.9
+49;2001;Agriculteurs exploitants;7009;83.8;5200;85.6;4894;84.5;17103;84.5
+50;2001;Artisans, commerçants, chefs d'entreprise;23695;78.3;14081;79.3;8705;80.2;46481;79.0
+60;2001;Retraités;5341;73.9;4588;73.9;3698;73.5;13627;73.8
+64;2002;Cadres, professions intellectuelles supérieures;90109;85.8;20344;80.2;7640;80.5;118093;84.4
+66;2002;Employés;37115;77.9;26947;77.3;16588;78.7;80650;77.8
+77;2003;Cadres, professions intellectuelles supérieures : professeurs et assimilés;14424;90.2;2191;80.1;665;80.8;17280;88.4
+78;2003;Employés;39379;81.2;27413;77.1;16080;77.9;82872;79.1
+84;2003;Retraités;4832;79.7;3753;69.6;3657;70.8;12242;73.6
+97;2005;Agriculteurs exploitants;7117;88.2;4513;85.9;4392;82.7;16022;86.0
+100;2005;Cadres, professions intellectuelles supérieures;93490;89.4;20321;81.0;7713;78.9;121524;87.2
+104;2005;Indéterminé;5984;71.9;4891;66.5;11879;68.4;22754;68.9
+105;2005;Ouvriers;33432;78.1;32034;74.4;22882;75.0;88348;75.9
+114;2006;Employés;40176;84.3;26496;77.4;16264;79.4;82936;81.0
+115;2006;Ensemble;282788;86.6;140707;77.3;100562;77.3;524057;82.1
+119;2006;Professions intermédiaires : instituteurs et assimilés;5735;90.9;1203;83.3;455;82.9;7393;89.1
+128;2007;Indéterminé;7259;76.8;10897;72.4;24536;77.1;42692;75.8
+129;2007;Ouvriers;33259;82.6;29081;78.0;26333;78.5;88673;79.8
+134;2008;Artisans, commerçants, chefs d'entreprise;25352;88.1;12160;83.4;9336;79.6;46848;85.0
+137;2008;Cadres, professions intellectuelles supérieures : professeurs et assimilés;13873;93.6;2074;85.2;476;78.9;16423;91.9
+143;2008;Professions intermédiaires : instituteurs et assimilés;5099;93.0;977;85.6;398;82.9;6474;91.2
+153;2009;Ouvriers;33123;84.2;26861;78.4;29181;87.4;89165;83.3
+156;2009;Retraités;5548;86.9;3461;76.6;4318;85.1;13327;83.4
+161;2010;Cadres, professions intellectuelles supérieures : professeurs et assimilés;13717;93.6;1978;86.4;542;88.0;16237;92.5
+162;2010;Employés;41207;85.1;24897;81.7;14311;87.3;80415;84.4
+163;2010;Ensemble;279751;87.3;133431;81.6;118586;86.5;531768;85.6
+166;2010;Professions intermédiaires;46617;88.5;20269;84.4;10478;88.6;77364;87.4
+170;2011;Artisans, commerçants, chefs d'entreprise;26175;88.6;11821;85.1;15193;85.9;53189;87.0
+174;2011;Employés;42120;86.5;24578;82.5;19712;85.1;86410;85.0
+185;2012;Cadres, professions intellectuelles supérieures : professeurs et assimilés;14273;94.8;1909;88.2;941;84.9;17123;93.4
+188;2012;Indéterminé;8355;78.4;9864;75.3;50377;79.0;68596;78.4
+189;2012;Ouvriers;32633;85.5;24753;82.6;48204;76.5;105590;80.5
+195;2013;Autres personnes sans activité professionnelle;19895;84.2;13162;80.2;11647;72.1;44704;79.6
+197;2013;Cadres, professions intellectuelles supérieures : professeurs et assimilés;15014;96.0;1986;90.8;792;84.4;17792;94.8
+201;2013;Ouvriers;34269;88.7;23787;86.1;39600;77.3;97656;83.2
+202;2013;Professions intermédiaires;48129;93.0;18191;89.3;13605;82.1;79925;90.1
+206;2014;Artisans, commerçants, chefs d'entreprise;29028;91.1;12240;92.7;18063;84.5;59331;89.3
+207;2014;Autres personnes sans activité professionnelle;20116;82.4;14298;85.8;13674;75.3;48088;81.2
+210;2014;Employés;48811;89.8;25406;91.8;22417;84.1;96634;88.9
+215;2014;Professions intermédiaires : instituteurs et assimilés;4695;95.1;874;92.3;481;86.7;6050;93.9
+218;2015;Artisans, commerçants, chefs d'entreprise;30011;92.0;11823;92.0;16715;82.6;58549;89.1
+222;2015;Employés;51545;90.1;24727;91.3;20585;81.7;96857;88.4
+225;2015;Ouvriers;34069;87.7;22302;90.6;44297;79.3;100668;84.4
+227;2015;Professions intermédiaires : instituteurs et assimilés;4894;94.9;922;93.5;422;83.2;6238;93.8
+231;2016;Autres personnes sans activité professionnelle;23323;83.5;14726;85.2;13959;75.3;52008;81.6
+237;2016;Ouvriers;35666;88.2;22589;90.9;45994;81.5;104249;85.6
+239;2016;Professions intermédiaires : instituteurs et assimilés;4864;94.4;873;93.2;398;86.3;6135;93.7
+244;2017;Cadres, professions intellectuelles supérieures;115305;94.7;19988;93.5;13677;87.3;148970;93.8
+245;2017;Cadres, professions intellectuelles supérieures : professeurs et assimilés;18306;95.3;2367;93.8;1010;88.0;21683;94.8
+266;2019;Artisans, commerçants, chefs d'entreprise;31860;91.4;12049;89.3;15374;84.5;59283;89.1
+268;2019;Cadres, professions intellectuelles supérieures;117877;95.3;21099;92.3;13129;88.2;152105;94.3
+281;2020;Cadres, professions intellectuelles supérieures : professeurs et assimilés;19774;99.1;2535;97.1;1127;94.5;23436;98.6
+285;2020;Ouvriers;33465;96.7;19849;94.3;37526;89.7;90840;93.2
+287;2020;Professions intermédiaires : instituteurs et assimilés;8064;98.9;1452;96.7;700;94.9;10216;98.3
+295;2021;Ensemble;371705;97.5;136296;93.9;181020;86.6;689021;93.7
+297;2021;Ouvriers;39741;96.6;23723;93.3;32806;85.5;96270;91.7
+299;2021;Professions intermédiaires : instituteurs et assimilés;6831;98.7;1250;96.2;867;91.8;8948;97.6
+306;2022;Employés;70900;95.6;32004;90.9;35440;82.8;138344;90.9
+310;2022;Professions intermédiaires;60932;96.9;20347;92.6;18604;86.1;99883;93.8
+313;2023;Agriculteurs exploitants;4282;98.0;1235;95.7;1405;91.5;6922;96.2
+315;2023;Cadres, professions intellectuelles supérieures;125220;98.0;20783;93.9;11819;89.9;157822;96.8
+324;2023;Autres personnes sans activité professionnelle;24894;87.7;14592;82.0;23641;74.2;63127;80.9
+327;2024;Autres personnes sans activité professionnelle;25028;89.3;14786;82.9;24877;75.3;64691;82.0
+335;2024;Professions intermédiaires : instituteurs et assimilés;8875;98.0;1603;95.1;962;89.3;11440;96.8
+5;1997;Cadres, professions intellectuelles supérieures : professeurs et assimilés;16326;85.7;1994;81.3;499;79.8;18819;85.1
+8;1997;Indéterminé;4326;61.9;4334;67.0;5922;72.5;14582;67.4
+12;1997;Retraités;5650;69.8;4819;72.5;3957;75.2;14426;72.1
+13;1998;Agriculteurs exploitants;8356;82.6;5390;83.8;4158;82.3;17904;82.9
+16;1998;Cadres, professions intellectuelles supérieures;97746;84.6;20994;82.7;6585;79.9;125325;84.0
+18;1998;Employés;37362;76.9;26097;80.3;13763;78.1;77222;78.2
+23;1998;Professions intermédiaires : instituteurs et assimilés;7868;83.5;1646;82.5;486;79.9;10000;83.2
+24;1998;Retraités;5972;73.0;4979;75.5;3672;72.3;14623;73.6
+31;1999;Ensemble;266285;78.4;149103;78.5;88296;77.7;503684;78.3
+40;2000;Cadres, professions intellectuelles supérieures;95288;85.0;22489;81.6;7641;82.2;125418;84.2
+41;2000;Cadres, professions intellectuelles supérieures : professeurs et assimilés;15244;87.5;2338;82.6;572;81.6;18154;86.7
+47;2000;Professions intermédiaires : instituteurs et assimilés;7621;84.9;1677;83.6;562;85.9;9860;84.7
+51;2001;Autres personnes sans activité professionnelle;8945;69.2;9144;70.9;6251;69.4;24340;69.9
+54;2001;Employés;36790;77.1;27924;78.9;16178;79.3;80892;78.2
+55;2001;Ensemble;258785;79.4;147944;78.1;92499;77.5;499228;78.6
+57;2001;Ouvriers;31723;73.6;34861;76.9;24888;77.3;91472;75.8
+63;2002;Autres personnes sans activité professionnelle;9772;71.0;9379;70.1;6413;68.1;25564;69.9
+67;2002;Ensemble;258192;80.3;141983;76.8;93579;76.6;493754;78.6
+70;2002;Professions intermédiaires;49483;81.0;25405;78.8;11587;79.5;86475;80.1
+80;2003;Indéterminé;5269;73.7;3963;67.6;10580;70.4;19812;70.7
+82;2003;Professions intermédiaires;50801;84.6;25080;78.7;11375;78.6;87256;82.0
+87;2004;Autres personnes sans activité professionnelle;12765;72.0;11252;69.3;6710;68.8;30727;70.3
+89;2004;Cadres, professions intellectuelles supérieures : professeurs et assimilés;13875;90.1;2310;82.8;586;79.4;16771;88.6
+92;2004;Indéterminé;5382;70.5;4337;69.2;11538;70.9;21257;70.4
+96;2004;Retraités;4500;78.3;3812;72.5;3778;70.9;12090;74.0
+103;2005;Ensemble;272512;84.1;140828;76.2;93268;74.7;506608;79.9
+106;2005;Professions intermédiaires;50098;85.3;24579;78.4;11328;78.2;86005;82.2
+107;2005;Professions intermédiaires : instituteurs et assimilés;5648;89.2;1232;79.8;473;81.8;7353;86.9
+110;2006;Artisans, commerçants, chefs d'entreprise;25320;86.5;12878;79.9;9232;79.8;47430;83.3
+111;2006;Autres personnes sans activité professionnelle;16072;78.0;12657;71.4;8475;70.1;37204;73.8
+116;2006;Indéterminé;6365;74.8;4866;68.0;13755;73.8;24986;72.9
+117;2006;Ouvriers;33898;81.1;31167;75.7;27082;77.4;92147;78.1
+118;2006;Professions intermédiaires;50293;87.5;23943;79.7;9795;79.8;84031;84.2
+121;2007;Agriculteurs exploitants;6879;90.9;2852;87.0;1948;85.9;11679;89.1
+131;2007;Professions intermédiaires : instituteurs et assimilés;5238;92.6;993;84.3;370;79.4;6601;90.4
+135;2008;Autres personnes sans activité professionnelle;18022;79.5;13212;73.5;7424;68.5;38658;75.1
+136;2008;Cadres, professions intellectuelles supérieures;97120;92.7;19857;85.3;7961;80.7;124938;90.6
+147;2009;Autres personnes sans activité professionnelle;18241;80.5;12175;73.4;8957;81.6;39373;78.4
+152;2009;Indéterminé;7487;78.4;10043;73.2;30885;86.3;48415;82.0
+158;2010;Artisans, commerçants, chefs d'entreprise;25823;87.4;12295;84.5;10887;87.9;49005;86.7
+165;2010;Ouvriers;31466;81.8;27148;81.1;29401;86.3;88015;83.0
+169;2011;Agriculteurs exploitants;5907;92.4;2363;90.6;2528;88.9;10798;91.1
+176;2011;Indéterminé;7862;76.6;10671;77.3;34824;84.4;53357;81.7
+179;2011;Professions intermédiaires : instituteurs et assimilés;4533;92.7;942;87.3;433;86.3;5908;91.3
+183;2012;Autres personnes sans activité professionnelle;18993;80.0;12743;76.2;13230;70.4;44966;75.9
+187;2012;Ensemble;293837;89.6;125121;83.2;190899;78.4;609857;84.5
+192;2012;Retraités;5429;87.4;3027;80.0;5957;75.1;14413;80.4
+194;2013;Artisans, commerçants, chefs d'entreprise;28508;92.1;11492;88.7;15565;81.8;55565;88.3
+196;2013;Cadres, professions intellectuelles supérieures;104859;95.5;18911;90.9;12176;85.2;135946;93.8
+213;2014;Ouvriers;33708;87.2;24352;90.7;46562;81.3;104622;85.2
+216;2014;Retraités;5144;89.4;2650;89.7;5017;78.9;12811;85.0
+220;2015;Cadres, professions intellectuelles supérieures;110045;95.4;19692;93.9;12926;85.8;142663;94.2
+230;2016;Artisans, commerçants, chefs d'entreprise;30590;91.9;11647;92.5;17028;85.2;59265;90.0
+232;2016;Cadres, professions intellectuelles supérieures;112280;95.2;19749;93.8;13016;87.7;145045;94.3
+240;2016;Retraités;5110;89.5;2192;88.8;4758;79.1;12060;85.0
+243;2017;Autres personnes sans activité professionnelle;24554;82.4;15196;85.2;15642;74.3;55392;80.6
+250;2017;Professions intermédiaires;51185;91.5;18440;92.6;16148;84.8;85773;90.4
+257;2018;Cadres, professions intellectuelles supérieures : professeurs et assimilés;19094;95.8;2527;92.7;957;88.9;22578;95.1
+262;2018;Professions intermédiaires;53644;92.2;19117;90.5;16331;85.8;89092;90.6
+272;2019;Indéterminé;9485;79.1;10569;83.2;40093;82.5;60147;82.1
+279;2020;Autres personnes sans activité professionnelle;46173;94.9;25792;91.8;23472;86.1;95437;91.8
+280;2020;Cadres, professions intellectuelles supérieures;117088;98.9;20640;96.9;12281;93.8;150009;98.2
+284;2020;Indéterminé;14036;93.5;13530;93.8;40777;91.2;68343;92.1
+288;2020;Retraités;4484;97.2;1756;94.7;3092;88.0;9332;93.5
+294;2021;Employés;72624;97.3;32564;94.4;37451;87.5;142639;93.9
+296;2021;Indéterminé;12206;93.6;11029;92.2;40315;88.2;63550;89.8
+301;2022;Agriculteurs exploitants;4506;98.3;1291;96.1;1451;90.3;7248;96.2
+307;2022;Ensemble;363893;96.0;131897;90.4;171050;82.2;666840;91.0
+309;2022;Ouvriers;36419;94.1;21368;89.3;29518;81.5;87305;88.3
+317;2023;Employés;73324;95.0;32653;89.6;35722;83.8;141699;90.7
+322;2023;Professions intermédiaires : instituteurs et assimilés;8182;97.7;1397;94.5;954;90.5;10533;96.6
+331;2024;Ensemble;373840;95.9;139710;90.0;173402;83.3;686952;91.2
+2;1997;Artisans, commerçants, chefs d'entreprise;26253;74.6;14119;79.1;7740;81.7;48112;77.0
+6;1997;Employés;36083;73.9;23852;78.4;12681;81.3;72616;76.5
+14;1998;Artisans, commerçants, chefs d'entreprise;26226;77.5;14619;80.9;8054;80.0;48899;78.9
+20;1998;Indéterminé;4338;64.3;4322;72.4;6488;70.8;15148;69.2
+25;1999;Agriculteurs exploitants;7838;82.7;5502;83.5;4559;82.5;17899;82.9
+38;2000;Artisans, commerçants, chefs d'entreprise;24998;79.0;15078;80.9;8679;81.7;48755;80.0
+39;2000;Autres personnes sans activité professionnelle;9470;70.5;9474;73.0;6406;72.0;25350;71.8
+44;2000;Indéterminé;5007;66.5;4287;69.8;8101;72.7;17395;70.1
+48;2000;Retraités;5841;75.0;4849;74.5;3802;75.1;14492;74.8
+62;2002;Artisans, commerçants, chefs d'entreprise;23046;79.5;13145;78.2;8677;79.6;44868;79.1
+65;2002;Cadres, professions intellectuelles supérieures : professeurs et assimilés;14119;87.9;2054;79.6;576;81.0;16749;86.6
+68;2002;Indéterminé;4740;68.3;4166;67.2;9586;70.2;18492;69.0
+73;2003;Agriculteurs exploitants;6986;87.8;4770;84.8;4611;83.4;16367;85.7
+76;2003;Cadres, professions intellectuelles supérieures;91819;88.6;20339;80.6;7536;80.2;119694;86.5
+85;2004;Agriculteurs exploitants;6921;87.2;4643;85.5;4398;84.7;15962;86.0
+91;2004;Ensemble;261137;82.5;143277;76.9;93958;76.9;498372;79.7
+93;2004;Ouvriers;32783;76.7;33952;75.5;23536;77.3;90271;76.4
+94;2004;Professions intermédiaires;48625;83.5;24861;79.0;11256;79.1;84742;81.6
+99;2005;Autres personnes sans activité professionnelle;14708;74.9;11938;69.5;6559;65.4;33205;70.9
+109;2006;Agriculteurs exploitants;7108;90.3;4380;85.7;4255;85.2;15743;87.6
+112;2006;Cadres, professions intellectuelles supérieures;98452;91.7;20525;81.5;7863;81.3;126840;89.2
+123;2007;Autres personnes sans activité professionnelle;17278;79.3;12673;72.6;8228;70.2;38179;74.9
+133;2008;Agriculteurs exploitants;6518;92.3;2840;89.1;1837;83.3;11195;89.9
+140;2008;Indéterminé;7435;77.1;9995;73.9;26160;76.6;43590;76.0
+144;2008;Retraités;5354;85.5;3509;76.4;3601;72.9;12464;78.9
+146;2009;Artisans, commerçants, chefs d'entreprise;26016;89.2;11954;82.3;10840;89.4;48810;87.4
+149;2009;Cadres, professions intellectuelles supérieures : professeurs et assimilés;14059;94.4;1977;85.9;511;90.1;16547;93.1
+150;2009;Employés;41782;87.0;24500;80.5;14725;88.2;81007;85.1
+160;2010;Cadres, professions intellectuelles supérieures;98561;92.3;19536;86.4;9148;89.4;127245;91.1
+164;2010;Indéterminé;7631;75.8;10520;74.3;29202;86.4;47353;81.6
+167;2010;Professions intermédiaires : instituteurs et assimilés;4861;92.4;934;86.4;350;90.0;6145;91.3
+168;2010;Retraités;5343;84.5;3506;78.4;4415;84.0;13264;82.7
+175;2011;Ensemble;283821;88.3;129472;82.3;156063;84.0;569356;85.7
+184;2012;Cadres, professions intellectuelles supérieures;103143;94.1;18708;88.4;14095;83.9;135946;92.1
+186;2012;Employés;44506;88.0;23705;84.1;21972;79.6;90183;84.8
+190;2012;Professions intermédiaires;47246;90.9;18643;85.9;16196;81.2;82085;87.7
+199;2013;Ensemble;305316;92.0;124853;86.5;159241;78.9;589410;86.9
+204;2013;Retraités;5451;90.8;2710;84.0;4771;76.1;12932;83.4
+205;2014;Agriculteurs exploitants;5940;94.9;2033;96.1;2763;89.3;10736;93.6
+209;2014;Cadres, professions intellectuelles supérieures : professeurs et assimilés;15554;95.4;2099;94.2;888;88.7;18541;94.9
+223;2015;Ensemble;317054;91.5;125144;90.7;176646;80.5;618844;87.9
+224;2015;Indéterminé;9620;82.6;10509;85.7;46437;80.3;66566;81.4
+228;2015;Retraités;5063;90.3;2317;89.2;4622;76.9;12002;84.4
+236;2016;Indéterminé;9344;82.2;10534;86.5;46156;81.9;66034;82.7
+242;2017;Artisans, commerçants, chefs d'entreprise;31137;90.9;11734;91.6;15968;84.4;58839;89.2
+249;2017;Ouvriers;36286;86.7;22274;90.1;43046;80.0;101606;84.4
+251;2017;Professions intermédiaires : instituteurs et assimilés;4961;94.3;848;92.2;578;85.4;6387;93.1
+253;2018;Agriculteurs exploitants;5955;94.8;1765;95.0;2142;90.5;9862;93.9
+254;2018;Artisans, commerçants, chefs d'entreprise;33536;91.2;12887;90.3;15880;85.1;62303;89.4
+260;2018;Indéterminé;11632;82.8;11829;86.0;39882;83.3;63343;83.7
+263;2018;Professions intermédiaires : instituteurs et assimilés;4929;95.2;917;91.2;589;88.3;6435;93.9
+269;2019;Cadres, professions intellectuelles supérieures : professeurs et assimilés;18447;95.9;2404;92.5;896;90.3;21747;95.2
+271;2019;Ensemble;356384;91.1;138284;88.0;173675;82.4;668343;88.0
+277;2020;Agriculteurs exploitants;4191;98.8;1166;97.4;1714;94.7;7071;97.5
+292;2021;Cadres, professions intellectuelles supérieures;122272;98.9;20713;96.8;12165;91.7;155150;98.0
+293;2021;Cadres, professions intellectuelles supérieures : professeurs et assimilés;19934;99.0;2383;96.5;1122;91.1;23439;98.4
+298;2021;Professions intermédiaires;61137;98.1;20382;95.5;19506;89.6;101025;95.8
+304;2022;Cadres, professions intellectuelles supérieures;122177;98.1;20142;94.2;11910;89.0;154229;96.8
+311;2022;Professions intermédiaires : instituteurs et assimilés;7514;97.7;1420;94.8;912;88.5;9846;96.4
+319;2023;Indéterminé;11707;88.7;11158;88.6;38350;83.3;61215;85.2
+321;2023;Professions intermédiaires;62814;96.7;20987;92.3;18624;86.6;102425;93.8
+326;2024;Artisans, commerçants et chefs d'entreprise;29309;96.3;10677;90.8;10123;86.7;50109;93.0
+328;2024;Cadres et professions intellectuelles supérieures;128385;98.2;22726;94.5;12478;89.8;163589;97.0
+333;2024;Ouvriers;33534;93.7;20416;88.1;26934;81.8;80884;88.0
+336;2024;Retraités;4116;94.1;1577;87.3;1899;81.0;7592;89.1
+9;1997;Ouvriers;33038;70.4;32351;76.6;22140;79.4;87529;74.8
+11;1997;Professions intermédiaires : instituteurs et assimilés;7956;81.9;1518;80.6;439;80.7;9913;81.7
+19;1998;Ensemble;275113;79.2;144830;79.5;81573;76.7;501516;78.9
+28;1999;Cadres, professions intellectuelles supérieures;94905;83.6;22288;81.6;7271;81.3;124464;83.1
+32;1999;Indéterminé;4468;63.5;4134;70.0;7600;71.2;16202;68.6
+33;1999;Ouvriers;31987;72.6;34602;77.7;24040;77.4;90629;75.7
+36;1999;Retraités;5954;73.5;4965;73.9;3738;74.0;14657;73.8
+46;2000;Professions intermédiaires;51906;80.7;27242;81.0;11404;81.8;90552;80.9
+52;2001;Cadres, professions intellectuelles supérieures;90697;84.6;21684;80.8;7688;80.9;120069;83.6
+53;2001;Cadres, professions intellectuelles supérieures : professeurs et assimilés;14575;87.2;2200;81.7;574;81.7;17349;86.3
+56;2001;Indéterminé;5024;68.2;4185;67.7;8717;70.6;17926;69.2
+69;2002;Ouvriers;32118;74.1;33642;75.6;24514;76.8;90274;75.4
+71;2002;Professions intermédiaires : instituteurs et assimilés;6398;85.5;1365;78.3;506;82.4;8269;84.0
+74;2003;Artisans, commerçants, chefs d'entreprise;23553;82.9;13103;78.7;8321;79.8;44977;81.1
+75;2003;Autres personnes sans activité professionnelle;11932;75.9;10496;71.4;6179;67.6;28607;72.3
+79;2003;Ensemble;268335;83.7;142799;76.7;91537;75.9;502671;80.1
+81;2003;Ouvriers;33764;78.2;33882;74.8;23198;75.2;90844;76.2
+86;2004;Artisans, commerçants, chefs d'entreprise;22624;82.0;12742;79.0;8577;80.5;43943;80.8
+88;2004;Cadres, professions intellectuelles supérieures;89485;88.3;20126;81.4;7503;81.2;117114;86.6
+95;2004;Professions intermédiaires : instituteurs et assimilés;5584;88.0;1248;80.9;454;76.8;7286;85.9
+98;2005;Artisans, commerçants, chefs d'entreprise;23577;83.9;12433;78.6;8531;77.7;44541;81.1
+101;2005;Cadres, professions intellectuelles supérieures : professeurs et assimilés;13985;90.7;2186;80.9;655;81.0;16826;88.9
+108;2005;Retraités;5016;80.7;3550;70.4;3676;67.9;12242;73.4
+113;2006;Cadres, professions intellectuelles supérieures : professeurs et assimilés;14345;93.1;2215;79.9;479;79.7;17039;90.7
+120;2006;Retraités;5104;82.3;3795;72.7;3841;72.5;12740;76.2
+122;2007;Artisans, commerçants, chefs d'entreprise;24931;87.8;12046;82.2;9189;81.5;46166;85.0
+126;2007;Employés;40340;86.2;24309;80.0;13937;80.7;78586;83.2
+127;2007;Ensemble;281733;87.7;137605;79.3;104975;78.5;524313;83.4
+132;2007;Retraités;5295;84.3;3611;75.0;3656;73.3;12562;78.1
+138;2008;Employés;40057;86.0;24618;80.9;12860;78.2;77535;83.0
+142;2008;Professions intermédiaires;47618;89.1;21303;83.0;8965;79.7;77886;86.2
+145;2009;Agriculteurs exploitants;6651;93.2;2592;87.7;2012;92.5;11255;91.8
+148;2009;Cadres, professions intellectuelles supérieures;99980;93.4;19575;85.0;9303;90.2;128858;91.8
+151;2009;Ensemble;286762;88.9;131602;79.8;120728;87.3;539092;86.2
+154;2009;Professions intermédiaires;47934;90.0;20441;82.3;10507;89.6;78882;87.8
+159;2010;Autres personnes sans activité professionnelle;16847;78.1;12648;74.9;8713;80.3;38208;77.5
+171;2011;Autres personnes sans activité professionnelle;18442;79.7;12518;75.4;11916;77.4;42876;77.8
+172;2011;Cadres, professions intellectuelles supérieures;99611;93.0;19055;87.0;12367;87.9;131033;91.6
+173;2011;Cadres, professions intellectuelles supérieures : professeurs et assimilés;13976;93.7;1938;85.2;799;87.9;16713;92.3
+200;2013;Indéterminé;9390;83.0;10238;79.2;40809;78.0;60437;78.9
+208;2014;Cadres, professions intellectuelles supérieures;106620;95.0;19437;94.0;13478;87.2;139535;94.0
+214;2014;Professions intermédiaires;47523;92.1;18420;92.7;16041;85.7;81984;90.9
+226;2015;Professions intermédiaires;48254;92.7;17980;93.2;15042;83.8;81276;91.0
+229;2016;Agriculteurs exploitants;5974;95.6;1718;95.0;2459;89.7;10151;94.0
+235;2016;Ensemble;327078;91.5;126578;90.7;179841;82.5;633497;88.6
+241;2017;Agriculteurs exploitants;5658;94.3;1674;94.8;2207;88.8;9539;93.1
+246;2017;Employés;58830;89.6;26753;90.9;28251;83.0;113834;88.1
+247;2017;Ensemble;337714;90.6;128488;90.4;177570;81.5;643772;87.9
+252;2017;Retraités;5071;89.5;2116;89.9;3758;77.5;10945;85.1
+258;2018;Employés;61543;89.6;28315;89.6;29032;83.5;118890;88.0
+259;2018;Ensemble;359455;91.0;138570;88.8;179262;82.8;677287;88.2
+261;2018;Ouvriers;40055;87.4;24467;87.6;42905;81.1;107427;84.8
+265;2019;Agriculteurs exploitants;5283;94.5;1528;93.9;1665;90.4;8476;93.6
+283;2020;Ensemble;384158;97.6;149972;94.8;188841;90.4;722971;95.0
+289;2021;Agriculteurs exploitants;4859;99.0;1336;97.6;1420;93.3;7615;97.6
+290;2021;Artisans, commerçants, chefs d'entreprise;31429;97.9;11264;95.2;11571;89.4;54264;95.4
+300;2021;Retraités;4878;96.7;2022;92.7;2536;84.3;9436;92.2
+302;2022;Artisans, commerçants, chefs d'entreprise;29820;96.3;10404;92.0;10703;85.7;50927;93.0
+303;2022;Autres personnes sans activité professionnelle;23012;89.7;13818;83.1;23815;74.5;60645;81.7
+305;2022;Cadres, professions intellectuelles supérieures : professeurs et assimilés;19258;98.4;2279;94.2;1106;89.1;22643;97.5
+312;2022;Retraités;4407;94.7;1700;87.3;2209;80.3;8316;88.9
+320;2023;Ouvriers;35609;93.4;20449;87.5;27438;81.2;83496;87.6
+323;2023;Retraités;4326;93.7;1624;87.4;2037;81.5;7987;89.0
+332;2024;Indéterminé;11613;90.6;11302;89.1;39078;84.5;61993;86.4
+334;2024;Professions intermédiaires;63907;96.9;22001;92.3;19669;87.4;105577;94.0
+1;1997;Agriculteurs exploitants;8309;78.7;4980;83.8;2435;83.0;15724;80.9
+3;1997;Autres personnes sans activité professionnelle;8844;66.4;8679;71.2;5883;73.7;23406;69.9
+4;1997;Cadres, professions intellectuelles supérieures;95290;82.7;19864;81.4;6190;81.7;121344;82.4
+7;1997;Ensemble;268868;76.6;136204;77.7;76726;79.1;481798;77.3
+10;1997;Professions intermédiaires;51075;77.4;23206;79.4;9778;80.8;84059;78.3
+17;1998;Cadres, professions intellectuelles supérieures : professeurs et assimilés;16485;87.1;2189;82.0;532;80.2;19206;86.3
+21;1998;Ouvriers;33672;73.6;33721;78.2;22638;76.5;90031;76.0
+22;1998;Professions intermédiaires;52273;79.8;25320;81.2;10101;78.5;87694;80.0
+27;1999;Autres personnes sans activité professionnelle;8799;68.7;9291;71.5;6562;70.9;24652;70.3
+29;1999;Cadres, professions intellectuelles supérieures : professeurs et assimilés;15804;86.6;2359;81.7;559;80.8;18722;85.7
+30;1999;Employés;36760;76.2;26765;78.6;15314;79.7;78839;77.7
+34;1999;Professions intermédiaires;50434;78.9;26650;80.3;10935;80.3;88019;79.5
+35;1999;Professions intermédiaires : instituteurs et assimilés;7401;82.4;1710;82.1;509;83.2;9620;82.4
+37;2000;Agriculteurs exploitants;7712;84.4;5454;85.2;4974;85.5;18140;85.0
+58;2001;Professions intermédiaires;49561;80.2;26277;79.8;11480;80.3;87318;80.1
+59;2001;Professions intermédiaires : instituteurs et assimilés;6985;84.8;1521;82.9;502;81.6;9008;84.3
+61;2002;Agriculteurs exploitants;6884;84.3;4965;85.1;4679;82.6;16528;84.0
+72;2002;Retraités;4925;75.1;3990;71.6;3895;72.5;12810;73.2
+83;2003;Professions intermédiaires : instituteurs et assimilés;6178;88.6;1312;80.0;551;80.4;8041;86.5
+90;2004;Employés;38052;79.8;27552;77.0;16662;78.9;82266;78.6
+102;2005;Employés;39090;81.8;26569;76.6;16308;77.4;81967;79.2
+124;2007;Cadres, professions intellectuelles supérieures;97521;92.5;20054;84.4;8035;83.0;125610;90.4
+125;2007;Cadres, professions intellectuelles supérieures : professeurs et assimilés;14097;93.5;2211;84.9;496;83.4;16804;91.9
+130;2007;Professions intermédiaires;48971;88.7;22082;82.1;9113;81.7;80166;86.0
+139;2008;Ensemble;279698;87.9;135886;80.3;103311;77.0;518895;83.5
+141;2008;Ouvriers;32222;82.9;28392;79.0;25167;76.7;85781;79.7
+155;2009;Professions intermédiaires : instituteurs et assimilés;5083;93.7;975;85.7;449;92.4;6507;92.3
+157;2010;Agriculteurs exploitants;6256;91.9;2612;89.5;2031;91.2;10899;91.2
+177;2011;Ouvriers;32051;83.5;25816;81.4;40083;82.7;97950;82.6
+178;2011;Professions intermédiaires;46276;89.4;19438;85.0;13880;86.2;79594;87.7
+180;2011;Retraités;5377;85.4;3212;79.0;5560;80.8;14149;82.0
+181;2012;Agriculteurs exploitants;6121;93.6;2153;91.5;3012;85.3;11286;90.8
+182;2012;Artisans, commerçants, chefs d'entreprise;27411;89.8;11525;85.8;17856;81.0;56792;86.1
+191;2012;Professions intermédiaires : instituteurs et assimilés;4638;93.8;857;87.6;492;83.5;5987;92.0
+193;2013;Agriculteurs exploitants;6169;95.8;2102;93.1;2348;85.8;10619;92.9
+198;2013;Employés;48646;90.9;24260;87.2;18720;80.6;91626;87.6
+203;2013;Professions intermédiaires : instituteurs et assimilés;4812;95.0;855;90.3;431;82.7;6098;93.4
+211;2014;Ensemble;305667;91.0;129210;90.7;190773;82.2;625650;88.0
+212;2014;Indéterminé;8777;80.7;10374;83.6;52758;81.0;71909;81.3
+217;2015;Agriculteurs exploitants;6049;95.2;1807;94.9;2627;87.3;10483;93.1
+219;2015;Autres personnes sans activité professionnelle;22398;83.4;13987;85.4;13395;73.6;49780;81.0
+221;2015;Cadres, professions intellectuelles supérieures : professeurs et assimilés;16173;96.0;2176;93.1;813;87.0;19162;95.2
+233;2016;Cadres, professions intellectuelles supérieures : professeurs et assimilés;17166;95.9;2197;93.6;881;86.9;20244;95.2
+234;2016;Employés;54882;90.4;25517;91.3;21340;83.8;101739;89.1
+238;2016;Professions intermédiaires;49909;92.4;17906;92.6;15131;85.9;82946;91.2
+248;2017;Indéterminé;9688;81.5;10313;86.3;38873;81.2;58874;82.1
+255;2018;Autres personnes sans activité professionnelle;26971;83.5;16404;83.3;15999;75.7;59374;81.2
+256;2018;Cadres, professions intellectuelles supérieures;121044;95.1;21637;92.7;13424;88.0;156105;94.1
+264;2018;Retraités;5075;90.0;2149;86.6;3667;80.5;10891;85.9
+267;2019;Autres personnes sans activité professionnelle;31747;83.8;18736;82.7;14556;74.7;65039;81.3
+270;2019;Employés;63279;89.8;29238;88.4;31250;83.1;123767;87.7
+273;2019;Ouvriers;37304;88.3;23109;87.7;37618;81.3;98031;85.4
+274;2019;Professions intermédiaires;54163;92.2;19776;90.1;15982;85.2;89921;90.4
+275;2019;Professions intermédiaires : instituteurs et assimilés;5595;95.0;1045;90.9;920;88.0;7560;93.5
+276;2019;Retraités;5386;91.5;2180;87.3;4008;79.4;11574;86.2
+278;2020;Artisans, commerçants, chefs d'entreprise;30288;97.9;11086;95.8;12303;91.7;53677;96.0
+282;2020;Employés;75889;97.6;35834;95.2;38859;90.6;150582;95.1
+286;2020;Professions intermédiaires;58544;98.3;20319;96.3;18817;92.4;97680;96.7
+291;2021;Autres personnes sans activité professionnelle;22559;93.0;13263;87.8;23250;78.6;59072;85.7
+308;2022;Indéterminé;11720;90.5;10823;89.2;37400;82.7;59943;85.2
+314;2023;Artisans, commerçants, chefs d'entreprise;29654;96.0;10384;91.3;10210;86.1;50248;92.8
+316;2023;Cadres, professions intellectuelles supérieures : professeurs et assimilés;20018;98.5;2341;94.3;1084;92.3;23443;97.7
+318;2023;Ensemble;371830;95.5;133865;89.5;169246;82.6;674941;90.7
+325;2024;Agriculteurs exploitants;3912;98.2;1206;96.1;1284;92.9;6402;96.7
+329;2024;Cadres, professions intellectuelles supérieures : professeurs et assimilés;20257;98.8;2573;96.3;1213;91.8;24043;98.1
+330;2024;Employés;74036;95.4;35019;90.2;37060;83.9;146115;91.0
