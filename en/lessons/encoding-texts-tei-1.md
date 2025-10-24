@@ -126,7 +126,7 @@ To resolve this problem, about twenty years later, a convention of a large numbe
 
 TEI is one way to use the markup language [XML](https://perma.cc/5PNX-XUGW), which is why it can sometimes be called TEI-XML (or also XML/TEI). For its part, XML (which is the abbreviation for 'eXtensible Markup Language') is a computing language whose purpose is to describe, using a series of markings or tags, a particular text object. XML is a markup language, differentiated from programming languages like C, Python, or Java, which describe objects, functions, or processes which must be executed by a computer. XML doesn't provide specific tags so much as a system for how any tag should be used; it is TEI that provides the vocabulary for what tags can appear and where.
 
-### XML
+### What is XML?
 In this lesson, we will not go into detail on the syntaxes and functions of XML. Therefore, we recommend you read M. H. Beals's lesson _[Transforming Data for Reuse and Re-publication with XML and XSL](/en/lessons/transforming-xml-with-xsl)_ for more information on XML, and explore the [bibliography and references](#recommended-readings) at the end of this lesson.
 
 For now, all you need to know is that every document in XML must comply with two basic rules to be valid:  
