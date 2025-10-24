@@ -1,6 +1,9 @@
 assume_extension: true
-check_img_alt: false
 only_4xx: true
+ignore_missing_alt: true
+ignore_empty_alt: true
+allow_hash_href: true
+check_external_hash: false
 http_status_ignore:
   - 429
   - 403
