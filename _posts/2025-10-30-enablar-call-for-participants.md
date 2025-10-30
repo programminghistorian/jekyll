@@ -61,8 +61,8 @@ We value diversity of skills, voices, and lived experiences. We are committed to
 - Notifications sent to successful participants: 5 December 2025
 
 **Phase 2: Collaborate**
-- Orientation 1 (writing digital methods):  12 December 2025 
-- Orientation 2 (partnership building): 16 December 2025
+- Orientation 1 (writing digital methods):  12 December 2025 (_indicative date_)
+- Orientation 2 (partnership building): 16 December 2025 (_indicative date_)
 - Lesson development workshops and asynchronous writing sprints:  January - March 2026
 
 **Phase 3: Publish**
