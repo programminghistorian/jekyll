@@ -33,7 +33,8 @@ The **ENABLAR** project will evolve through three phases: Phase 1: **Gather**, P
 - Happening right **now**. Through this call, we will gather ~10 participants as our cohort, balancing representation across library and archives professionals and digital humanities researchers.
 
 **Phase 2: Collaborate**  
-- Collaboration is central to the project, and during **December 2025** we’ll facilitate two webinars to teach effective, sustainable technical writing, and create partnerships for cross-disciplinary co-authorship. As you begin writing, we’ll support your progress through an online programme of lesson development workshops and writing sprints (**January-March 2026**).
+- Collaboration is central to the project, and during **December 2025** we’ll facilitate two webinars to teach effective, sustainable technical writing, and create partnerships for cross-disciplinary co-authorship.
+- As you begin writing, we’ll support your progress through an online programme of lesson development workshops and writing sprints (**January-March 2026**).
 
 **Phase 3: Publish**  
 - Through **April and May 2026**, we’ll host community review workshops to share and test **ENABLAR** lessons-in-progress. These will provide opportunities for the cohort to benefit from broader feedback, as well as each other’s - we’ll invite new voices to join us from the library and archives sector and the digital humanities research community, also seeking expressions of interest for participation in a formal open peer review process. 
@@ -49,7 +50,7 @@ We’re seeking a mixed cohort of participants from across the library and archi
 - Perhaps you’re a **Research Software Engineer** working with cultural collections, keen to apply software engineering principles to support and enhance reader services and collections research?
 - Are you a **technician** who builds or maintains tools for data management and analysis, eager to explore ways library staff and researchers could put them to use?
 
-We value diversity of skills, voices, and lived experiences. We are committed to diversity and equal access within digital humanities, we encourage the participation of women, members of minority groups, LGBTQ+ community, and peoples from the Global South. All events in the **ENABLAR** project programme will take place online to maximise opportunities for participation. 
+We value diversity of skills, voices, and lived experiences. We are committed to diversity and equal access within digital humanities, we encourage the participation of women, members of marginalised groups, LGBTQ+ community, and peoples from the Global South. All events in the **ENABLAR** project programme will take place online to maximise opportunities for participation. 
 
 ## When is it happening?
 
