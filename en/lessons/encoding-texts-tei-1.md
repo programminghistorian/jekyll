@@ -5,7 +5,7 @@ original: introduccion-a-tei-1
 layout: lesson
 collection: lessons
 date: 2021-07-27
-translation_date: 2025-10-15
+translation_date: 2025-11-05
 authors:
 - Nicolás Vaughan
 reviewers:
@@ -44,7 +44,7 @@ Without human assistance--for example, through  [TEI (Text Encoding Initiative) 
 
 There are many ways to encode a text. For example, we can wrap the names of people in asterisks: `*Walt Whitman*` or `*Abraham Lincoln*`. And we can wrap the names of places in double asterisks: `**Camden**`, `**Brooklyn**`, etc. We could also use underscores to indicate the names of books: `_Leaves of Grass_` or `_Memoranda During the War_`. These signs serve to tag or mark up the text they contain in order to identify certain content in that text. It is easy to imagine that the possibilities of encoding are almost infinite.
 
-In this lesson, we will learn to encode texts using a computer language specifically designed for them: TEI (Text Encoding Initiative)](https://tei-c.org/).
+In this lesson, we will learn to encode texts using a computer language specifically designed for them: [TEI (Text Encoding Initiative)](https://tei-c.org/).
 
 ## Visualization vs. Categorization
 Those who are familiar with the markup language Markdown--common today in online technical forums, as well as in GitHub, GitLab, and other code repositories--will surely recognize the use of elements like asterisks (`*`), underscores (`_`), and number signs (`#`) to make text appear a certain way in a browser. For example, text wrapped in single asterisks will be shown in italics, and text wrapped in double asterisks will be in bold. In fact, the text of this lesson is written in Markdown following these conventions.
