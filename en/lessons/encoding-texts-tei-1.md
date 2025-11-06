@@ -53,7 +53,7 @@ However, Markdown is a procedural markup language, focused on how a text should 
 
 Let’s clarify this with an example. Suppose you have a digitized text where all the proper names appear in italics, such as in Whitman’s _The Dead Tenor_:
 
-{% include figure.html filename="en-tr-encoding-texts-tei-1-10.png" alt="original printed text of Whitman's The Dead Tenor" caption="Figure 1. A digitized excerpt of *Leaves of Grass*." %}
+{% include figure.html filename="en-tr-encoding-texts-tei-1-01.png" alt="original printed text of Whitman's The Dead Tenor" caption="Figure 1. A digitized excerpt of *Leaves of Grass*." %}
 
 As demonstrated below, TEI enables you to encode, as part of a series of tags, the text that you want to categorize. For example, you can use the tag `<name>` to mark the proper names in the text, as in:
 
@@ -121,29 +121,29 @@ For this lesson, we use the editor Visual Studio Code (VS Code, for short), whic
 
 To get started, download the most [recent version of VS Code](https://code.visualstudio.com/download) and install it on your computer. Open it and you will encounter a screen like this:
 
-{% include figure.html filename="en-tr-encoding-texts-tei-1-01.png" alt="Initial window of Visual Studio Code" caption="Figure 2. VS Code initial view." %}
+{% include figure.html filename="en-tr-encoding-texts-tei-1-02.png" alt="Initial window of Visual Studio Code" caption="Figure 2. VS Code initial view." %}
 
 Now you can install a VS Code extension for working more easily with XML and TEI-XML documents: Scholarly XML. You can click the [Scholarly XML link](https://perma.cc/3SY8-Z5Z4) to install the extension if you already have VS Code installed, or you can follow the walkthrough below:
 
 Click the _Extensions_ button in the toolbar on the left side of the window:
 
-{% include figure.html filename="en-tr-encoding-texts-tei-1-02.png" alt="Side panel of VS Code with button for extensions higlighted" caption="Figure 3. VS Code extensions." %}
+{% include figure.html filename="en-tr-encoding-texts-tei-1-03.png" alt="Side panel of VS Code with button for extensions higlighted" caption="Figure 3. VS Code extensions." %}
 
 Type 'Scholarly XML' in the search bar.  
 
-{% include figure.html filename="en-tr-encoding-texts-tei-1-03.png" alt="Side panel of VS Code showing extensions marketplace with search for scholarly XML highlighted" caption="Figure 4. Search for an extension in VS Code." %}
+{% include figure.html filename="en-tr-encoding-texts-tei-1-04.png" alt="Side panel of VS Code showing extensions marketplace with search for scholarly XML highlighted" caption="Figure 4. Search for an extension in VS Code." %}
 
-{% include figure.html filename="en-tr-encoding-texts-tei-1-04.png" alt="Side panel of VS Code showing the Scholarly XML extension with its install button higlighted" caption="Figure 5. Install Scholarly XML in VS Code." %}
+{% include figure.html filename="en-tr-encoding-texts-tei-1-05.png" alt="Side panel of VS Code showing the Scholarly XML extension with its install button higlighted" caption="Figure 5. Install Scholarly XML in VS Code." %}
 
 To learn more about Scholarly XML, you can [read about it on the Visual Studio Code Marketplace](https://perma.cc/3SY8-Z5Z4) or [view its code repository on GitHub](https://perma.cc/KS74-A5B3). For now, we will highlight several things the Scholarly XML extension allows you to do with the code:
 
 First, if you select any of the text in an XML document, you can use a keyboard shortcut to automatically enclose the text in an XML element in opening and closing tags.  Well-formed XML--that is, code that is structurally sound and able to be processed--requires every XML tag to be closed. When you hit 'ctrl+E' (on Windows or Linux) or 'cmd+E' (on MacOS), VS code will open a window with the instruction _Enter abbreviation (Press Enter to confirm or Escape to cancel)_. Next, write the name of the element and hit the _enter_ key. The editor will then enclose the selected text between opening and closing tags. When we work with XML, automatically creating the opening and closing tags can save us a lot of time while also decreasing the likelihood of introducing typos.   
 
-{% include figure.html filename="en-tr-encoding-texts-tei-1-05.png" alt="Name element highlighted in the search bar and in the body of the code" caption="Figure 6. Automatically Introduce an XML element in VS Code." %}
+{% include figure.html filename="en-tr-encoding-texts-tei-1-06.png" alt="Name element highlighted in the search bar and in the body of the code" caption="Figure 6. Automatically Introduce an XML element in VS Code." %}
 
 Second, we can use the Scholarly XML extension to determine whether the document is structurally 'well-formed' following the syntax of XML--whether all text is inside those open and close tags and whether those tags are properly nested. The extension can also check whether the document is semantically 'valid' per the type of [RELAX NG](https://en.wikipedia.org/wiki/RELAX_NG) validation schema being used, such as the TEI schema (tei-all). We will explain the concepts of being 'structurally well-formed' vs 'semantically valid' below. But the point here is that the extension can automatically check for any errors, especially whether a document is structurally well-formed and semantically valid.
 
-{% include figure.html filename="en-tr-encoding-texts-tei-1-06.png" alt="XML error in the body of the code marked with a red underline" caption="Figure 7. Automatically identify XML errors in VS Code." %}
+{% include figure.html filename="en-tr-encoding-texts-tei-1-07.png" alt="XML error in the body of the code marked with a red underline" caption="Figure 7. Automatically identify XML errors in VS Code." %}
 
 To perform the second type of validation, the document must start with an XML Processing Instruction (`<?xml-model>`) followed by the URL of the schema you want to use, like this:
 
@@ -157,15 +157,15 @@ You can download the basic [template of a TEI-XML document](https://www.tei-c.or
 
 Third, the Scholarly XML extension  offers tools to autocomplete the XML code as part of the validation for the schema RELAX NG. For example, if you introduce the element `<l>` (used to mark a line of poetry), you can hit the space bar after the opening `<l>` and VS Code will show  a list of possible attributes to select from the menu:
 
-{% include figure.html filename="en-tr-encoding-texts-tei-1-07.png" alt="Popup menu of attributes that appears after beginning to type an element" caption="Figure 8. Menu of autocomplete options while encoding XML in VS Code." %}
+{% include figure.html filename="en-tr-encoding-texts-tei-1-08.png" alt="Popup menu of attributes that appears after beginning to type an element" caption="Figure 8. Menu of autocomplete options while encoding XML in VS Code." %}
 
 Now, in order to use Scholarly XML or other VS Code extensions, it is necessary to check that the editor isn’t in restricted mode, as it appears in this window:
 
-{% include figure.html filename="en-tr-encoding-texts-tei-1-08.png" alt="Popup notification along the top of the screen warning that the program is running in restricted mode" caption="Figure 9. The 'restricted mode' notice in VS Code." %}
+{% include figure.html filename="en-tr-encoding-texts-tei-1-09.png" alt="Popup notification along the top of the screen warning that the program is running in restricted mode" caption="Figure 9. The 'restricted mode' notice in VS Code." %}
 
 This mode prevents extensions or document code from executing instructions that could damage our computer. Because we are working with a trusted extension, we can deactivate the restricted mode by clicking the hyperlink above that says _Manage_ and then the button that says _Trust_. 
 
-{% include figure.html filename="en-tr-encoding-texts-tei-1-09.png" alt="Popup window with that allows the user to exit restriced mode and choose to work in a trusted window" caption="Figure 10. Exit restricted mode in VS Code." %}
+{% include figure.html filename="en-tr-encoding-texts-tei-1-10.png" alt="Popup window with that allows the user to exit restriced mode and choose to work in a trusted window" caption="Figure 10. Exit restricted mode in VS Code." %}
 
 Now that you have configured our editing software, you can start to work in TEI-XML.
 
