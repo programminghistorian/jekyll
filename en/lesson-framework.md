@@ -100,11 +100,16 @@ When assigning lesson **difficulty**, it is useful to consider: how much **prere
 
 Is your lesson suitable for **beginner**,  **intermediate**, or **advanced**-level learners?
 
+<div class="table-wrapper" markdown="block">
+
 | Level        | Description  |
 | ------------ | ------------ | 
 | **Beginner**     | <ul><li>No prior knowledge required  <li>All steps are clearly defined <li>Specialist or technical terms are defined <li>Software packages are easy to install (no 'known issues') <li>Challenges that readers might encounter are anticipated, and clear troubleshooting steps are detailed <li>Further _Programming Historian_ lessons (or external resources) for advancing new skills may be referenced |
 | **Intermediate** | <ul><li>Some prior knowledge is required <li>Key steps are defined, all steps are outlined <li>Specialist or technical terms established by **beginner** lessons are used in context, while any new terms are defined <li>Software install and set-up may be subject to 'known issues' <li>Challenges that readers might encounter are anticipated, and trouble-shooting steps are outlined <li>Existing _Programming Historian_ lessons (or external resources) to empower less experienced readers to gain that knowledge are identified |
 | **Advanced**     | <ul><li>Significant prior knowledge and applied experience required <li>Confident ability to infer **intermediate**-level steps expected <li>Specialist or technical terms are used throughout, new concepts are explained <li>Software and packages may be known for their complexity to install and set-up <li>Challenges that readers might encounter are anticipated, and trouble-shooting steps are referenced
+
+</div>
+
 
 ## Case study description
 
@@ -152,10 +157,10 @@ Is your lesson suitable for **beginner**,  **intermediate**, or **advanced**-lev
 
 ### Software/tool citation
 
-| [Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software/) recommendations for citing software| 
-| ------------ | 
-| <ul><li> Author(s) <li>Title <li>Version <li>Year of release <li>License <li>Repository URL
-Example following the Chicago Manual, 17th edition citation style:<ul><li>**Endnote** Julien Barnier et al.. Scatterd3, version 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).<li>**Bibliography entry** Julien Barnier, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. Scatterd3 (version 1.0.1). GPL. 2021. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
+| **[Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software/) recommendations for citing software**  |
+|-----------|
+| **Components to include:** <ul><li>Author(s) <br><li>Title   <br><li>Version  <br><li>Year of release    <br><li>License    <br><li>Repository URL 
+| **Example citation following the Chicago Manual, 17th edition citation style:** <br> <ul><li>**Endnote** Julien Barnier et al.. Scatterd3, version 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).<li>**Bibliography entry** Julien Barnier, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. Scatterd3 (version 1.0.1). GPL. 2021. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).| 
 
 ### Objectives 
 
@@ -163,33 +168,33 @@ Outline the skills and understandings readers can expect to develop by working t
 
 _When you have completed this lesson, you will be able to…_.
 
-1.
-2.
-3. 
+1.  
+2.  
+3.  
 
 ### Structure
 
 Orientate your reader within the lesson to help self-learners to organise their time, and support educators to plan their teaching. 
 
-- **How long (roughly) do you expect the lesson will take to complete?**
+**How long (roughly) do you expect the lesson will take to complete?**
   - Are particular steps known to require extended processing/waiting times?
   - Are there distinct sections, or natural breaks in the methodology?
    
-- **How does the lesson's structure support effective learning, experiment, and application?**  
+**How does the lesson's structure support effective learning, experiment, and application?**  
   - Have you organised the lesson into sections?
   - What is the main learning activity of each section?
 
 ### Concepts
 
-- **What key concepts do readers need to understand before they begin experimenting with this method/tool?**
+**What key concepts do readers need to understand before they begin experimenting with this method/tool?**
   - Focus on the necessary minimum understandings needed to achieve the objectives of the lesson.
 
 ### Terms
 
-- **Which operational definitions will readers need to understand to work with the vocabulary of the method/tool?**
+**Which operational definitions will readers need to understand to work with the vocabulary of the method/tool?**
   - Share explanations, rather than definitions.
 
-- **Which specialist words or technical terms will you be using to teach this method/tool?**
+**Which specialist words or technical terms will you be using to teach this method/tool?**
   - What choices have you made as the author/translator?
   - Is the method/tool/programming-specific vocabulary commonly used in a natural language other than the one you’re writing in? 
   - Are particular terms used differently in this context than in other fields of study?
@@ -198,7 +203,6 @@ Orientate your reader within the lesson to help self-learners to organise their 
 ## Learning experiment 
 
 ### Aims of the experiment
-
  - Reconnect with the [title and abstract](#title-and-abstract) of your lesson to describe how this experiment will empower your reader to begin using the method/tool with the sample data to achieve their learning goal.
 - Revisit the [Objectives](#objectives) of your lesson and add detail about the skills and understandings the practical experiment is designed to develop. 
 - Outline how the experiment will support your reader to progress towards [working with their own dataset](#local-application). 
@@ -255,7 +259,7 @@ Orientate your reader within the lesson to help self-learners to organise their 
 
 Support readers to discover other researchers/projects that have used this method/tool 
 
-- Think beyond your domain, your university, your country, and your language community.
+Think beyond your domain, your university, your country, and your language community.
 - Consider annotating your suggestions:
   - What was a particular characteristic of their dataset?
   - What interesting challenges did they overcome and how?
