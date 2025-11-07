@@ -40,7 +40,7 @@ Our publishing workflow moves through eight phases: **Proposal**, **Submission**
 
 | Who is responsible?                     | Expected timeframe                |   Process & activities               |
 | -------------------------------- | ------------------------------ | ------------------------------  |
-| Editor | 30 days | <br>• Editor reads the submission, considering how well it meets our journal’s ambitions of **openness**, **global access**, **multilingualism** and **sustainability**. <br>• Editor considers the lesson’s level of **difficulty** against our [matrix](/ph-submissions/wiki/Phase-2-Initial-Edit#difficulty-matrix). <br>• Editor shares initial feedback as a comment in the GitHub issue, anchoring specific comments to sections or paragraphs (referring to numbers at the right margin of the lesson preview) to support the author’s/translator’s revisions in Phase 3.
+| Editor | 30 days | <br>• Editor reads the submission, considering how well it meets our journal’s ambitions of **openness**, **global access**, **multilingualism** and **sustainability**. <br>• Editor considers the lesson’s level of **difficulty** against our [matrix](/lesson-framework#diffiulty). <br>• Editor shares initial feedback as a comment in the GitHub issue, anchoring specific comments to sections or paragraphs (referring to numbers at the right margin of the lesson preview) to support the author’s/translator’s revisions in Phase 3.
 
 #### Editorial Principles
 
