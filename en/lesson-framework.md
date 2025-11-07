@@ -24,7 +24,6 @@ This framework is designed to help prospective authors develop lessons that are 
 
 The needs of each method may be different, so the framework can be flexible. The idea is that if lessons across our journals have a more consistent structure, navigation becomes simpler  for readers, and learning with _Programming Histrorian_ becomes more accessible. Some parts of the framework are specifically designed to support the long-term sustainability of lessons. For example, the section focused on [system requirements](#prerequisites-computational) supports authors to establish the computational environment(s) where their lesson has been developed and tested, while the prompts to include citations for [datasets](#dataset-citation) and [software](#software-tool-citation) clarify the creation date, version, and electronic location of the sources and tools used in the lesson. Our aim is that _Programming Historian_ lessons can remain valuable learning resources beyond the software release life cycle.
 
-
 ## Frontmatter
 
 ### Title and abstract 
@@ -57,9 +56,9 @@ The needs of each method may be different, so the framework can be flexible. The
 
 **Computational resource**
 - What level of RAM is needed to complete this lesson?
+- Are admin privileges required?
 - How large are the sample data files?
     - Can the method be scaled for larger datasets?
-- Are admin privileges required?
 
 **Connectivity**
 - After downloading data and installing software, can this lesson be completed offline?
@@ -78,16 +77,13 @@ The needs of each method may be different, so the framework can be flexible. The
 - Is free access tiered or time-limited? 
 - Do readers need to supply credit card information? 
 
-### Prerequisites (computational)
+### Prerequisites
 
 **System requirements**
 - Which computing environment(s) is the lesson developed for?
 - Which programming language release, and software version is used?
 - Which operating system(s) has it been tested in?
 - Which software packages/libraries need to be installed before starting the lesson? (_if not covered by the lesson_)
-
-
-### Prerequisites (understanding)
 
 **Knowledge and applied experience**
 - What level of familiarity do readers need to have with the method/tool?
@@ -104,14 +100,14 @@ Is your lesson suitable for **beginner**,  **intermediate**, or **advanced**-lev
 
 | Level        | Description  |
 | ------------ | ------------ | 
-| **Beginner**     | <ul><li>No prior knowledge required  <li>All steps are clearly defined <li>Specialist or technical terms are defined <li>Software packages are easy to install (no 'known issues') <li>Challenges that readers might encounter are anticipated, and clear troubleshooting steps are detailed <li>Further _Programming Historian_ lessons (or external resources) for advancing new skills may be referenced |
-| **Intermediate** | <ul><li>Some prior knowledge is required <li>Key steps are defined, all steps are outlined <li>Specialist or technical terms established by **beginner** lessons are used in context, while any new terms are defined <li>Software install and set-up may be subject to 'known issues' <li>Challenges that readers might encounter are anticipated, and trouble-shooting steps are outlined <li>Existing _Programming Historian_ lessons (or external resources) to empower less experienced readers to gain that knowledge are identified |
-| **Advanced**     | <ul><li>Significant prior knowledge and applied experience required <li>Confident ability to infer **intermediate**-level steps expected <li>Specialist or technical terms are used throughout, new concepts are explained <li>Software and packages may be known for their complexity to install and set-up <li>Challenges that readers might encounter are anticipated, and trouble-shooting steps are referenced
+| **Beginner**     | <br>• No prior knowledge required  <br>• All steps are clearly defined <br>• Specialist or technical terms are defined <br>• Software packages are easy to install (no 'known issues') <br>• Challenges that readers might encounter are anticipated, and clear troubleshooting steps are detailed <br>• Further _Programming Historian_ lessons (or external resources) for advancing new skills may be referenced |
+| **Intermediate** | <br>• Some prior knowledge is required <br>• Key steps are defined, all steps are outlined <br>• Specialist or technical terms established by **beginner** lessons are used in context, while any new terms are defined <br>• Software install and set-up may be subject to 'known issues' <br>• Challenges that readers might encounter are anticipated, and trouble-shooting steps are outlined <br>• Existing _Programming Historian_ lessons (or external resources) to empower less experienced readers to gain that knowledge are identified |
+| **Advanced**     | <br>• Significant prior knowledge and applied experience required <br>• Confident ability to infer **intermediate**-level steps expected <br>• Specialist or technical terms are used throughout, new concepts are explained <br>• Software and packages may be known for their complexity to install and set-up <br>• Challenges that readers might encounter are anticipated, and trouble-shooting steps are referenced
 
 </div>
 
 
-## Case study description
+## Use Case
 
 **Demonstrating application of a method/tool**
 - Describe the example ‘use case’ you have selected. 
@@ -121,7 +117,7 @@ Is your lesson suitable for **beginner**,  **intermediate**, or **advanced**-lev
 - What question/problem does this method support researchers to explore/solve in this use case?
 - Citation for your case study (if applicable)
 
-### Dataset description
+### Dataset
 
 **Characteristics**
 - Describe the sample dataset you’ve provided for readers to experiment with.
@@ -132,9 +128,9 @@ Is your lesson suitable for **beginner**,  **intermediate**, or **advanced**-lev
 - Describe any cleaning/labelling (_if not covered by the lesson_).
 - If the dataset is selected from a larger corpus, describe the sampling strategy.
 
-### Dataset citation
+**Citation**
 
-**[IASSIST Special Interest Group on Data Citation – Recommended Dataset Citation Components](https://iassistdata.org/file/blog/quick_guide_to_data_citation_high-res_printer-ready.pdf)**
+[IASSIST Special Interest Group on Data Citation – recommended dataset citation components](https://iassistdata.org/file/blog/quick_guide_to_data_citation_high-res_printer-ready.pdf):
 
 | Component | Description |
 |-----------|-------------|
@@ -145,7 +141,7 @@ Is your lesson suitable for **beginner**,  **intermediate**, or **advanced**-lev
 | **Electronic Location or Identifier** | Web address or unique, persistent, global identifier used to locate the dataset (such as a DOI). Append the date retrieved if the title and locator are not specific to the exact instance of the data you used. |
 
 
-### Software/tool description
+### Software/tool
 
 **Your choice**
 - Explain how you selected the software/tool/programming language to achieve the lesson’s goals.
@@ -155,14 +151,14 @@ Is your lesson suitable for **beginner**,  **intermediate**, or **advanced**-lev
 - Are there multiple options available to achieve the same goals?
 - Have you tried these other options? What are their benefits/drawbacks?
 
-### Software/tool citation
+**Citation**
 
-| **[Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software/) recommendations for citing software**  |
+| [Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software/) recommendations for citing software  |
 |-----------|
-| **Components to include:** <ul><li>Author(s) <br><li>Title   <br><li>Version  <br><li>Year of release    <br><li>License    <br><li>Repository URL 
-| **Example citation following the Chicago Manual, 17th edition citation style:** <br> <ul><li>**Endnote** Julien Barnier et al.. Scatterd3, version 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).<li>**Bibliography entry** Julien Barnier, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. Scatterd3 (version 1.0.1). GPL. 2021. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).| 
+| **Components to include:** <br>• Author(s) <br>• Title   <br>• Version  <br>• Year of release    <br>• License    <br>• Repository URL 
+| **Example citation following the Chicago Manual, 17th edition citation style:** <br>• **Endnote** Julien Barnier et al.. Scatterd3, version 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).<br>• **Bibliography entry** Julien Barnier, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. Scatterd3 (version 1.0.1). GPL. 2021. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).| 
 
-### Objectives 
+## Learning Objectives 
 
 Outline the skills and understandings readers can expect to develop by working through this lesson. Expand upon the learning outcomes summarised in your lesson abstract to outline its specific, measurable objectives. In the simplest terms, you can think of this section as an answer to the prompt:
 
@@ -202,20 +198,18 @@ Orientate your reader within the lesson to help self-learners to organise their 
 
 ## Learning experiment 
 
-### Aims of the experiment
+### Aims
  - Reconnect with the [title and abstract](#title-and-abstract) of your lesson to describe how this experiment will empower your reader to begin using the method/tool with the sample data to achieve their learning goal.
 - Revisit the [Objectives](#objectives) of your lesson and add detail about the skills and understandings the practical experiment is designed to develop. 
 - Outline how the experiment will support your reader to progress towards [working with their own dataset](#local-application). 
 
-### Inventory of software, packages, libraries
-
-**Orientate your reader**
+### Inventory
 - List the software, packages, and libraries. 
 - List the sample data files. 
 - Outline the file directory structure you’ll use in the experiment.
     - Why do you recommend this?
 
-### Practical workflow
+### Workflow
 
 **Set out the workflow as practical units**
 - Include installation of software, packages, libraries.
