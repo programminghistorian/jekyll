@@ -11,27 +11,27 @@ The _Programming Historian_ runs on the far-from-endless energy of volunteers, a
 ## Write a new lesson
 
 <div class="alert alert-success">
-Our English journal will open its next annual submission window in October 2025. In the meantime, you may find it useful to <a href="/posts/en-call-for-proposals">consult our past call for proposals</a> (closed in January 2025). Submissions to our <a href="/es/guia-para-autores#paso-1-proponer-una-nueva-lección">Spanish</a>, <a href="/fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon">French</a> and <a href="/pt/directrizes-autor#etapa-1-propor-uma-nova-lição">Portuguese</a> journals are open year-round.
+Our English journal will open its next annual submission window in November 2025. In the meantime, you may find it useful to <a href="/posts/en-call-for-proposals">consult our past call for proposals</a> (closed in January 2025). Submissions to our <a href="/es/guia-para-autores#paso-1-proponer-una-nueva-lección">Spanish</a>, <a href="/fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon">French</a> and <a href="/pt/directrizes-autor#etapa-1-propor-uma-nova-lição">Portuguese</a> journals are open year-round.
 </div>
 
 <img src="{{site.baseurl}}/images/website/woman-at-writing-desk.png" class="garnish rounded float-right" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 
 Writing a tutorial is one of the best ways to teach yourself particular skills and actively engage in the digital humanities community.
 
-We don't simply accept or reject articles like traditional journals. Our editors collaborate with you to help craft your essay to be as clear and as useful as possible--a great way to improve your technical writing skills. Please read more about our [submission process]({{site.baseurl}}/en/author-guidelines).
+We don't simply accept or reject articles like traditional journals. Our editors collaborate with you to help craft your essay to be as clear and as useful as possible--a great way to improve your technical writing skills. Please read more about our [Lesson Framework]({{site.baseurl}}/en/lesson-framework).
 
 ## Review a lesson
 
 We are proud to use an Open Peer Review system. We think this provides a valuable opportunity for collaboration between authors, translators and peers in the global community. The peer review process also supports productive knowledge exchange, and helps us to shape lessons that are practical, accessible, and sustainable. 
 
-If you would like to contribute as a peer reviewer, please take a few minutes to [register your interest via our Google Form](https://tinyurl.com/en-ph-peer-review) which you can submit directly online. There's also [a plain-text version](/assets/forms/en-ph-peer-review-form.txt) which you can [send to us by email](mailto:publishing.assistant@programminghistorian.org), if you prefer. We seek volunteers who are available to review a lesson within 12 months of registering their interest.
+If you would like to contribute as a peer reviewer, please take a few minutes to [register your interest via our Google Form](https://tinyurl.com/en-ph-peer-review) which you can submit directly online. There's also [a plain-text version](/assets/forms/en-ph-peer-review-form.txt) which you can [send to us by email](mailto:admin@programminghistorian.org), if you prefer. We seek volunteers who are available to review a lesson within 12 months of registering their interest.
 
 ## Edit lessons
 
 <img src="{{site.baseurl}}/gallery/editor-guidelines.png" class="garnish rounded float-right" alt="{{ site.data.snippets.editor-guidelines-image-alt[page.lang] }}"/>
 
 
-Our editorial board members help facilitate peer review and work with authors closely to make improvements to their lessons. Our [guidelines for editors](editor-guidelines) is meant to ensure that everyone, from authors to reviewers to members of the wider community, receive a fair and consistent experience during peer review.
+Our editorial board members help facilitate peer review and work with authors closely to make improvements to their lessons. Our [publishing workflow](publishing-workflow) is meant to ensure that everyone, from authors to reviewers to members of the wider community, receive a fair and consistent experience during peer review.
 
 From time to time we may advertise that we are seeking more editors.
 
