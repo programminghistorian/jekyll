@@ -1,18 +1,20 @@
 ---
-title: A _Programming Historian_ Lesson Framework  
+title: Programming Historian Lesson Framework  
 layout: blank  
 redirect_from: /author-guidelines  
 ---
 
-## A _Programming Historian_ Lesson Framework 
+## _Programming Historian_ Lesson Framework 
 
 {% include toc.html %}
 
-### What is a _Programming Historian_ lesson?
+### Introduction
 
-A _Programming Historian_ lesson is a learn-by-doing resource that empowers readers to develop practical knowledge of a computational method or digital tool, which they can apply in their research to acquire, transform, analyse, visualise, or preserve data. 
+#### What is a _Programming Historian_ lesson?
 
-### Why write about research methods?
+A _Programming Historian_ lesson is a learn-by-doing resource that empowers readers to develop practical knowledge of a computational method or digital tool, which they will be able to apply in their own research to acquire, transform, analyse, visualise, or preserve data. 
+
+#### Why write a _Programming Historian_ lesson?
 
 - Deepen your own understanding and knowledge 
 - Hone your technical writing skills
@@ -20,13 +22,15 @@ A _Programming Historian_ lesson is a learn-by-doing resource that empowers read
 - Transform research practice into teaching
 - Share your experiences of failure to create productive catalysts that help others succeed
 
-### Who is the Lesson Framework for?
+#### Who is the Lesson Framework for?
 
-This framework is designed to help prospective authors develop lessons that are effective, accessible, and sustainable. It also supports editors and peer reviewers, whose insights and practical feedback are essential to the production of high-quality learning resources. Ultimately, it will empower our readers to learn, adapt and apply digital methods in their own research.
+This framework is designed to help prospective authors develop lessons that are effective, accessible, and sustainable. It also supports editors and peer reviewers, whose insights and practical feedback are essential to the production of high-quality learning resources. Ultimately, we've created it to empower our readers to learn, adapt, and apply digital methods in their own research contexts. 
 
-The needs of each method may be different, so the framework can be flexible. The idea is that if lessons across our journals have a more consistent structure, navigation becomes simpler  for readers, and learning with _Programming Histrorian_ becomes more accessible. Some parts of the framework are specifically designed to support the long-term sustainability of lessons. For example, the section focused on [system requirements](#prerequisites) supports authors to establish the computational environment(s) where their lesson has been developed and tested, while the prompts to include citations for [datasets](#dataset) and [software](#software-tool) clarify the creation date, version, and electronic location of the sources and tools used in the lesson. Our aim is that _Programming Historian_ lessons can remain valuable learning resources beyond the software release life cycle.
+#### How to use this Framework
 
-## Introduction
+Prospective _Programming Historian_ authors are encouraged to use this framework as a guide for writing. The needs of each method are different, so the structure and prompts we've included are intended to be flexible. As you write, imagine yourself explaining your method to a colleague or peer. Speak to your reader directly in the second person, using the pronoun 'you'. 
+
+## The Framework
 
 ### Title and abstract 
 
@@ -36,15 +40,13 @@ The needs of each method may be different, so the framework can be flexible. The
 - Name key tools, software libraries or programming languages readers will use.  
 
 **1-3 sentence, plain-language abstract**  
-
 - Summarise the lesson’s core content and its main learning outcomes. 
 
-### Overview
+### Introduction
 
 #### Method or tool
 
 **A plain-language overview**
-
 - What is the method/tool?
 - What kinds of questions/problems does it support researchers to explore/solve?
 - How has it been used in the past?
@@ -220,7 +222,7 @@ Is your lesson suitable for **beginner**,  **intermediate**, or **advanced**-lev
 
 **Re-cap the learning-experiment**
 - What has your reader achieved?
-    - Refer back to the [aims of your experiment](#aims-of-the-experiment) to summarise the skills attained, understandings developed, and ideas explored. 
+    - Refer back to the [aims of your experiment](#aims) to summarise the skills attained, understandings developed, and ideas explored. 
 
 ## Local application
 
