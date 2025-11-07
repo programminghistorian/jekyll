@@ -4,13 +4,15 @@ layout: blank
 redirect_from: /author-guidelines  
 ---
 
+## A _Programming Historian_ Lesson Framework 
+
 {% include toc.html %}
 
-## What is a _Programming Historian_ lesson?
+### What is a _Programming Historian_ lesson?
 
 A _Programming Historian_ lesson is a learn-by-doing resource that empowers readers to develop practical knowledge of a computational method or digital tool, which they can apply in their research to acquire, transform, analyse, visualise, or preserve data. 
 
-## Why write about research methods?
+### Why write about research methods?
 
 - Deepen your own understanding and knowledge 
 - Hone your technical writing skills
@@ -18,13 +20,13 @@ A _Programming Historian_ lesson is a learn-by-doing resource that empowers read
 - Transform research practice into teaching
 - Share your experiences of failure to create productive catalysts that help others succeed
 
-## Who is the Lesson Framework for?
+### Who is the Lesson Framework for?
 
 This framework is designed to help prospective authors develop lessons that are effective, accessible, and sustainable. It also supports editors and peer reviewers, whose insights and practical feedback are essential to the production of high-quality learning resources. Ultimately, it will empower our readers to learn, adapt and apply digital methods in their own research.
 
-The needs of each method may be different, so the framework can be flexible. The idea is that if lessons across our journals have a more consistent structure, navigation becomes simpler  for readers, and learning with _Programming Histrorian_ becomes more accessible. Some parts of the framework are specifically designed to support the long-term sustainability of lessons. For example, the section focused on [system requirements](#prerequisites-computational) supports authors to establish the computational environment(s) where their lesson has been developed and tested, while the prompts to include citations for [datasets](#dataset-citation) and [software](#software-tool-citation) clarify the creation date, version, and electronic location of the sources and tools used in the lesson. Our aim is that _Programming Historian_ lessons can remain valuable learning resources beyond the software release life cycle.
+The needs of each method may be different, so the framework can be flexible. The idea is that if lessons across our journals have a more consistent structure, navigation becomes simpler  for readers, and learning with _Programming Histrorian_ becomes more accessible. Some parts of the framework are specifically designed to support the long-term sustainability of lessons. For example, the section focused on [system requirements](#prerequisites) supports authors to establish the computational environment(s) where their lesson has been developed and tested, while the prompts to include citations for [datasets](#dataset) and [software](#software-tool) clarify the creation date, version, and electronic location of the sources and tools used in the lesson. Our aim is that _Programming Historian_ lessons can remain valuable learning resources beyond the software release life cycle.
 
-## Frontmatter
+## Introduction
 
 ### Title and abstract 
 
@@ -37,9 +39,9 @@ The needs of each method may be different, so the framework can be flexible. The
 
 - Summarise the lesson’s core content and its main learning outcomes. 
 
-## Overview
+### Overview
 
-### The method or tool
+#### Method or tool
 
 **A plain-language overview**
 
@@ -49,7 +51,7 @@ The needs of each method may be different, so the framework can be flexible. The
 - How can it be useful in research today?
 - Why do you think this method is important?
 
-### Technical context
+#### Technical context
 
 **Data type/format**
 - What kinds of data/data format can this method/tool handle well? 
@@ -63,7 +65,7 @@ The needs of each method may be different, so the framework can be flexible. The
 **Connectivity**
 - After downloading data and installing software, can this lesson be completed offline?
 
-### Social context/caveats
+#### Social context
 
 **Language**
 - Is this method specific to/restricted to specific natural languages?
@@ -77,7 +79,7 @@ The needs of each method may be different, so the framework can be flexible. The
 - Is free access tiered or time-limited? 
 - Do readers need to supply credit card information? 
 
-### Prerequisites
+#### Prerequisites
 
 **System requirements**
 - Which computing environment(s) is the lesson developed for?
@@ -90,21 +92,17 @@ The needs of each method may be different, so the framework can be flexible. The
 - What level of familiarity to readers need to have with the programming language?
 - Where can readers gain the knowledge needed to begin? (other _Programming Historian_ lessons, or external resources)
 
-### Difficulty
+#### Difficulty
 
 When assigning lesson **difficulty**, it is useful to consider: how much **prerequisite knowledge** is expected; whether and how **specialist or technical terms** are used and defined; the relative complexity of **install and set-up**; whether **trouble-shooting steps** are detailed, outlined, or referenced; where and how **knowledge beyond the lesson's scope** can be learned (through existing _Programming Historian_ lessons, other written documentation), or whether applied experience is necessary.
 
 Is your lesson suitable for **beginner**,  **intermediate**, or **advanced**-level learners?
-
-<div class="table-wrapper" markdown="block">
 
 | Level        | Description  |
 | ------------ | ------------ | 
 | **Beginner**     | <br>• No prior knowledge required  <br>• All steps are clearly defined <br>• Specialist or technical terms are defined <br>• Software packages are easy to install (no 'known issues') <br>• Challenges that readers might encounter are anticipated, and clear troubleshooting steps are detailed <br>• Further _Programming Historian_ lessons (or external resources) for advancing new skills may be referenced |
 | **Intermediate** | <br>• Some prior knowledge is required <br>• Key steps are defined, all steps are outlined <br>• Specialist or technical terms established by **beginner** lessons are used in context, while any new terms are defined <br>• Software install and set-up may be subject to 'known issues' <br>• Challenges that readers might encounter are anticipated, and trouble-shooting steps are outlined <br>• Existing _Programming Historian_ lessons (or external resources) to empower less experienced readers to gain that knowledge are identified |
 | **Advanced**     | <br>• Significant prior knowledge and applied experience required <br>• Confident ability to infer **intermediate**-level steps expected <br>• Specialist or technical terms are used throughout, new concepts are explained <br>• Software and packages may be known for their complexity to install and set-up <br>• Challenges that readers might encounter are anticipated, and trouble-shooting steps are referenced
-
-</div>
 
 
 ## Use Case
@@ -158,27 +156,7 @@ Is your lesson suitable for **beginner**,  **intermediate**, or **advanced**-lev
 | **Components to include:** <br>• Author(s) <br>• Title   <br>• Version  <br>• Year of release    <br>• License    <br>• Repository URL 
 | **Example citation following the Chicago Manual, 17th edition citation style:** <br>• **Endnote** Julien Barnier et al.. Scatterd3, version 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).<br>• **Bibliography entry** Julien Barnier, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. Scatterd3 (version 1.0.1). GPL. 2021. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).| 
 
-## Learning Objectives 
-
-Outline the skills and understandings readers can expect to develop by working through this lesson. Expand upon the learning outcomes summarised in your lesson abstract to outline its specific, measurable objectives. In the simplest terms, you can think of this section as an answer to the prompt:
-
-_When you have completed this lesson, you will be able to…_.
-
-1.  
-2.  
-3.  
-
-### Structure
-
-Orientate your reader within the lesson to help self-learners to organise their time, and support educators to plan their teaching. 
-
-**How long (roughly) do you expect the lesson will take to complete?**
-  - Are particular steps known to require extended processing/waiting times?
-  - Are there distinct sections, or natural breaks in the methodology?
-   
-**How does the lesson's structure support effective learning, experiment, and application?**  
-  - Have you organised the lesson into sections?
-  - What is the main learning activity of each section?
+## Learning keys 
 
 ### Concepts
 
@@ -196,13 +174,23 @@ Orientate your reader within the lesson to help self-learners to organise their 
   - Are particular terms used differently in this context than in other fields of study?
   - Are particular terms contested or under-discussion in the community?
 
+###  Time
+
+**How long (roughly) do you expect the lesson will take to complete?**
+  - Are particular steps known to require extended processing/waiting times?
+  - Are there distinct sections, or natural breaks in the methodology?
+   
+**How does the lesson's structure support effective learning, experiment, and application?**  
+  - Have you organised the lesson into sections?
+  - What is the main learning activity of each section?
+
 ## Learning experiment 
 
 ### Aims
- - Reconnect with the [title and abstract](#title-and-abstract) of your lesson to describe how this experiment will empower your reader to begin using the method/tool with the sample data to achieve their learning goal.
-- Revisit the [Objectives](#objectives) of your lesson and add detail about the skills and understandings the practical experiment is designed to develop. 
-- Outline how the experiment will support your reader to progress towards [working with their own dataset](#local-application). 
-
+ - Reconnect with the [title and abstract](#title-and-abstract) to describe your learning experiment's aims. In the simplest terms, you can think of answering the prompt: _When you have completed this lesson, you will be able to..._.
+ - What specific, measurable skills and understandings is it designed to develop?
+ - How will it support your reader to begin using the method/tool to progress towards [working with their own dataset](#local-application)?
+ 
 ### Inventory
 - List the software, packages, and libraries. 
 - List the sample data files. 
