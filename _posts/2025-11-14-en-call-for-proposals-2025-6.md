@@ -48,11 +48,11 @@ _Programming Historian_'s English edition is inviting proposals to fill gaps in 
 Remember, you can either:
 
 - Propose an original English-language lesson
-- Propose a translation into English of an existing, original [Spanish](/es/lecciones/), [French](/fr/lecons/), or [Portuguese](/pt/licoes/) lesson published in one of the other _Programming Historian_ editions. Please review the [list of translations we are interested in developing](#ideas-for-proposals)
+- Propose a translation into English of an existing, original [Spanish](/es/lecciones/), [French](/fr/lecons/), or [Portuguese](/pt/licoes/) lesson published in one of the other _Programming Historian_ editions. Please review the [list of translations we are interested in developing](#ideas-for-proposals).
 
 **If you have an idea, please send us a proposal by 15 February 2026.**
 
-Our editorial team will review all proposals, and return feedback **by 15 March 2025**. Proposals are considered on the basis of how well they serve the needs of the community, and whether they support our journal’s ambitions of openness, global access, multilingualism and sustainability. **Selected proposals will be invited for submitted as first drafts within 45 days.**
+Our editorial team will review all proposals, and return feedback **by 15 March 2026**. Proposals are considered on the basis of how well they serve the needs of the community, and whether they support our journal’s ambitions of openness, global access, multilingualism and sustainability. **Selected proposals will be invited for submission as first drafts within 45 days.**
 
 We've set up [a Google Form](https://tinyurl.com/ph-en-proposal-form-2025) which you can submit directly online. There's also [a plain-text version](/assets/forms/Lesson.Query.Form.txt) which you can [send to us by email](mailto:english@programminghistorian.org), if you prefer. The form has twelve questions. Please answer all those which apply.
 
