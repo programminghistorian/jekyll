@@ -2,7 +2,7 @@
 title: Call for Proposals (English edition)
 authors:
 - Alex Wermer-Colan
-- Laura Chapot  
+- Laura Alice Chapot  
 - Anisa Hawes
 layout: post
 categories: posts
