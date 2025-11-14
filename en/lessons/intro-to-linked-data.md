@@ -321,7 +321,7 @@ As I mentioned at the beginning, *Programming Historian* has [a complete lesson]
 
 We're going to run our SPARQL queries on [DBpedia](https://en.wikipedia.org/wiki/DBpedia), which is a huge LOD set derived from Wikipedia. As well as being full of information that is very difficult to find through the usual Wikipedia interface, it has several SPARQL "end points" - interfaces where you can type in SPARQL queries and get results from DBpedia's triples.
 
-The SPARQL query end point I use is called [snorql](http://dbpedia.org/snorql/). These end points occasionally seem to go offline, so if that should be the case, try searching for *dbpedia sparql* and you should find a similar replacement.
+The SPARQL query end point I use is called snorql `http://dbpedia.org/snorql/`. These end points occasionally seem to go offline, so if that should be the case, try searching for *dbpedia sparql* and you should find a similar replacement.
 
 If you go to the snorql URL above you will see at first that a number of prefixes have already been declared for us, which is handy. You'll recognise some of the prefixes now too.
 
@@ -375,7 +375,7 @@ Run the query. Does it work for you? I get a big list of historians.
 
 {% include figure.html filename="en-or-intro-to-linked-data-05.png" caption="Figure 5. Historians, according to DBpedia." %}
 
-So this works for creating lists, which is useful, but it would much more powerful to combine lists, to get intersections of sests. I found a couple more things that might be interesting to query in Lyndal Roper's DBpedia attributes: <http://dbpedia.org/class/yago/WikicatBritishHistorians> and <http://dbpedia.org/class/yago/WikicatWomenHistorians>. It's very easy to combine these by asking for a variable to be returned (in our case this is `?name`) and then using that in multiple lines of a query. Note as well the space and full point at the end of the first line beginning with `?name`:
+So this works for creating lists, which is useful, but it would much more powerful to combine lists, to get intersections of sests. I found a couple more things that might be interesting to query in Lyndal Roper's DBpedia attributes: `http://dbpedia.org/class/yago/WikicatBritishHistorians` and `http://dbpedia.org/class/yago/WikicatWomenHistorians`. It's very easy to combine these by asking for a variable to be returned (in our case this is `?name`) and then using that in multiple lines of a query. Note as well the space and full point at the end of the first line beginning with `?name`:
 
 	SELECT ?name
 	WHERE {

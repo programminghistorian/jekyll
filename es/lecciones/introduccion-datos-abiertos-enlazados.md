@@ -312,7 +312,7 @@ Como mencioné al principio, *The Programming Historian en español* tiene [una 
 
 Vamos a ejecutar nuestras consultas SPARQL en [DBpedia](https://es.wikipedia.org/wiki/DBpedia), que es un gran conjunto de LOD derivado de Wikipedia. Además de estar lleno de información que es muy difícil de encontrar a través de la interfaz habitual de Wikipedia, tiene varios "puntos finales" SPARQL: interfaces donde puedes escribir consultas SPARQL y obtener resultados de las tripletas de DBpedia.
 
-El punto de entrada (*endpoint*) de consulta SPARQL que yo uso se llama [snorql](http://dbpedia.org/snorql/). Estos puntos de entrada a veces parecen desconectarse, por lo que, si ese fuera el caso, busca *dbpedia sparql* en internet para encontrar un reemplazo similar.
+El punto de entrada (*endpoint*) de consulta SPARQL que yo uso se llama snorql: `http://dbpedia.org/snorql/`. Estos puntos de entrada a veces parecen desconectarse, por lo que, si ese fuera el caso, busca *dbpedia sparql* en internet para encontrar un reemplazo similar.
 
 Si vas a la URL snorql indicada antes, verás que al principio ya están declarados varios prefijos, lo cual te será útil. También reconocerás ya algunos de los prefijos.
 {% include figure.html filename="en-or-intro-to-linked-data-03.png" caption="Figura 3. Cuadro de consulta predeterminado de snorql, con algunos prefijos declarados para ti." %}
@@ -365,7 +365,7 @@ Ejecuta la consulta. ¿Te funciona? Yo obtuve una gran lista de historiadores.
 
 {% include figure.html filename="en-or-intro-to-linked-data-05.png" caption="Figura 5. Historiadores, según DBpedia." %}
 
-Así que esto funciona para crear listas, lo cual es útil, pero sería mucho más potente combinar listas, para obtener intersecciones de conjuntos. Encontré un par de cosas más que podrían ser interesantes para consultar en los atributos de DBpedia de Lyndal Roper: <http://dbpedia.org/class/yago/WikicatBritishHistorians> y <http://dbpedia.org/class/yago/WikicatWomenHistorians>. Es muy fácil combinarlos pidiendo una variable que retornará (en nuestro caso, esta es `?name`) y luego usar eso en múltiples líneas de una consulta. Ten en cuenta también el espacio y el punto al final de la primera línea que comienza con `?name`:
+Así que esto funciona para crear listas, lo cual es útil, pero sería mucho más potente combinar listas, para obtener intersecciones de conjuntos. Encontré un par de cosas más que podrían ser interesantes para consultar en los atributos de DBpedia de Lyndal Roper: `http://dbpedia.org/class/yago/WikicatBritishHistorians` y `http://dbpedia.org/class/yago/WikicatWomenHistorians`. Es muy fácil combinarlos pidiendo una variable que retornará (en nuestro caso, esta es `?name`) y luego usar eso en múltiples líneas de una consulta. Ten en cuenta también el espacio y el punto al final de la primera línea que comienza con `?name`:
 
 
 	SELECT ?name
