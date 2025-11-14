@@ -30,13 +30,19 @@ Our lessons support readers who want to learn new skills, but the act of writing
 _Programming Historian_'s English edition is inviting proposals to fill gaps in our lesson directory. Please explore [our journal](/en/lessons/) to discover what’s already available, and consider what you might be able to add.
 
 In this call, we would particularly like to encourage proposals for translations of the following lessons:
-- [Reutilizar colecciones digitales: GLAM Labs](/es/lecciones/reutilizando-colecciones-digitales-glam-labs) (from Spanish)  
-- [Uso de las colecciones del HathiTrust para el análisis de textos literarios en R](/es/lecciones/uso-las-colecciones-hathitrust-mineria-textual-R) (from Spanish)  
-- [Introducción a ImagePlot y la visualización de metadatos de colecciones de imágenes](/es/lecciones/introduccion-a-imageplot-y-la-visualizacion-de-metadatos) (from Spanish)  
-- [Préserver et rendre identifiables les logiciels de recherche avec Software Heritage](/fr/lecons/preserver-logiciels-recherche) (from French)  
-- [La reconnaissance automatique d'écriture à l'épreuve des langues peu dotées](/fr/lecons/transcription-automatisee-graphies-non-latines) (from French)  
-- [Introduction à Heurist](/fr/lecons/introduction-a-heurist) (from French)  
-- [Investigar a literatura lusófona através dos tempos usando a Literateca](/pt/licoes/investigar-literatura-lusofona-literateca) (from Portuguese)
+
+**From Spanish**:  
+- [Reutilizar colecciones digitales: GLAM Labs](/es/lecciones/reutilizando-colecciones-digitales-glam-labs) 
+- [Uso de las colecciones del HathiTrust para el análisis de textos literarios en R](/es/lecciones/uso-las-colecciones-hathitrust-mineria-textual-R) 
+- [Introducción a ImagePlot y la visualización de metadatos de colecciones de imágenes](/es/lecciones/introduccion-a-imageplot-y-la-visualizacion-de-metadatos)
+
+**From French**:
+- [Préserver et rendre identifiables les logiciels de recherche avec Software Heritage](/fr/lecons/preserver-logiciels-recherche) 
+- [La reconnaissance automatique d'écriture à l'épreuve des langues peu dotées](/fr/lecons/transcription-automatisee-graphies-non-latines) 
+- [Introduction à Heurist](/fr/lecons/introduction-a-heurist) 
+
+**From Portuguese**:
+- [Investigar a literatura lusófona através dos tempos usando a Literateca](/pt/licoes/investigar-literatura-lusofona-literateca) 
 
 
 We’re also keen to extend our offer to learners, and invite proposals which focus on methodological approaches, digital techniques and tools including, but not limited to:
