@@ -44,7 +44,7 @@ Successful lessons centre real datasets and sample code that readers can handle 
 Successful lessons centre real datasets and sample code that readers can handle and experiment with.
 [100-300 words]
 
-**8.** If you are proposing a translation, please provide a 300-400 word translation sample. We suggest using the opening paragraphs. 
+**8.** If you are proposing a translation, please provide a 300-400 word translation sample. We suggest translating the opening paragraphs of the lesson you'd like to translate. 
 [300-400 words]
 
 **9.** If you are proposing an original lesson, please outline how your choice of software and data would support our commitment to openness:
@@ -65,7 +65,7 @@ We have a strong preference for methodologies and tools that can be used in mult
 Our readers work with different operating systems and have varying computational resources.  
 [100-200 words]
 
-**12.** Optional link to sample code a draft extract of this proposed lesson on your personal GitHub repository:
+**12.** Optional link to sample code or a draft extract of this proposed lesson on your personal GitHub repository:
 
 
 ---
