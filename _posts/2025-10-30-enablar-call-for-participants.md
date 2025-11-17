@@ -90,7 +90,7 @@ People who attended our information webinar on 14 November 2025 asked the follow
 --
 
 - **Question**: What will the final output be?  
-- **Answer**: The final output will be a set of new co-authored article-length lessons which support computational processing, discovery, or analysis of digital library and archive collections. These lessons will combine instructive narrative with code that readers will be able to adapt for their own use case. While each ENABLAR co-author pair will be invited to submit their draft to _Programming Historian in English_ for consideration, only lessons selected for development by our editorial team will be guided through formal open peer review process towards first publication in our English-language journal. Drafts not selected for the journal will be published as ‘grey literature’ outputs.
+- **Answer**: The final output will be a set of new co-authored article-length lessons which support computational processing, discovery, or analysis of digital library and archive collections. These lessons will combine instructive narrative with code that readers will be able to adapt for their own use case. While each ENABLAR co-author pair will be invited to submit their draft to _Programming Historian in English_ for consideration, only lessons selected for development by our editorial team will be guided through a formal open peer review process towards first publication in our English-language journal. Drafts not selected for the journal will be published as ‘grey literature’ outputs.
 
 --
 
@@ -110,7 +110,7 @@ People who attended our information webinar on 14 November 2025 asked the follow
 --
 
 - **Question**: The form is a Google Form that seems to require a sign in. How might individuals without (professional) Google accounts complete it?  
-- **Answer**: We've created a [plain text version of the form](/assets/forms/Lesson.Query.Form.txt), which you can complete and [email to our Publishing Manager](mailto:admin@programminghistorian.org) directly.
+- **Answer**: We've created a [plain text version of the form](/assets/forms/enablar-application-to-participate.txt), which you can complete and [email to our Publishing Manager](mailto:admin@programminghistorian.org) directly.
 
 --
 
