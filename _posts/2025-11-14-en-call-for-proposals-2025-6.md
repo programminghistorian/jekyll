@@ -25,9 +25,29 @@ Our lessons are aimed at humanities and social science researchers, but are also
 
 Our lessons support readers who want to learn new skills, but the act of writing is also beneficial to authors. Writing to explain a methodology or tool to others deepens your own understanding and knowledge. It empowers your development as a critical, intentional and considered researcher, and is an opportunity to hone your technical writing skills. We encourage you to write about a method or tool that you know well, and that you have applied, adapted or advanced in your own research.
 
+## How to Submit a Proposal
+
+We've set up [a Google Form](https://tinyurl.com/ph-en-proposal-form-2025) which you can submit directly online. There's also [a plain-text version](/assets/forms/Lesson.Query.Form.txt) which you can [send to us by email](mailto:english@programminghistorian.org), if you prefer. 
+
+There is space for you to tell us about the research case study you'd like to centre within your lesson, and for you to explain how you came to use this method or tool as part of your work within the humanities.
+
+Our questions encourage you to think carefully about how your choices of software, programming languages and datasets can support our commitment to openness.
+
+We will also ask you to outline any technical prerequisites and potential limitations of access to this method or tool because our global readership work with different operating systems and have varying computational resources.
+
+It is important to us that our lessons can be translated for use in multilingual research-contexts, so we'll ask you to consider how your method or tool could be applied or adapted for use with non-English-language data.
+
+If you're proposing a translation, the form provides an opportunity for you to think about how you could adapt or localise the research case study centred by the original lesson for an English-language readership. We'll also ask you to share a short translation sample. 
+
+At the end of the form, you are invited to provide links to sample code or to a rough draft of your lesson.
+
+
 ## Ideas for Proposals
 
-_Programming Historian_'s English edition is inviting proposals to fill gaps in our lesson directory. Please explore [our journal](/en/lessons/) to discover what’s already available, and consider what you might be able to add. In this call, we would particularly like to encourage proposals **for translations of the following lessons**:
+_Programming Historian_'s English edition is inviting proposals to fill gaps in our lesson directory. Please explore [our journal](/en/lessons/) to discover what’s already available, and consider what you might be able to add. You can either:
+
+- Propose an original English-language lesson
+- Propose a translation into English of an existing, original [Spanish](/es/lecciones/), [French](/fr/lecons/), or [Portuguese](/pt/licoes/) lesson published in one of the other _Programming Historian_ editions. In this call, we would particularly like to encourage proposals **for translations of the following lessons**:
 
 **From Spanish**:  
 - [Reutilizar colecciones digitales: GLAM Labs](/es/lecciones/reutilizando-colecciones-digitales-glam-labs) 
@@ -43,28 +63,9 @@ _Programming Historian_'s English edition is inviting proposals to fill gaps in 
 - [Investigar a literatura lusófona através dos tempos usando a Literateca](/pt/licoes/investigar-literatura-lusofona-literateca) 
 
 
-## How to Submit a Proposal
-
-Remember, you can either:
-
-- Propose an original English-language lesson
-- Propose a translation into English of an existing, original [Spanish](/es/lecciones/), [French](/fr/lecons/), or [Portuguese](/pt/licoes/) lesson published in one of the other _Programming Historian_ editions. Please review the [list of translations we are interested in developing](#ideas-for-proposals).
-
 **If you have an idea, please send us a proposal by 15 February 2026.**
 
 Our editorial team will review all proposals, and return feedback **by 15 March 2026**. Proposals are considered on the basis of how well they serve the needs of the community, and whether they support our journal’s ambitions of openness, global access, multilingualism and sustainability. **Selected proposals will be invited for submission as first drafts within 45 days.**
-
-We've set up [a Google Form](https://tinyurl.com/ph-en-proposal-form-2025) which you can submit directly online. There's also [a plain-text version](/assets/forms/Lesson.Query.Form.txt) which you can [send to us by email](mailto:english@programminghistorian.org), if you prefer. The form has twelve questions. Please answer all those which apply.
-
-There is space for you to tell us about the research case study you'd like to centre within your lesson, and for you to explain how you came to use this method or tool as part of your work within the humanities.
-
-Our questions encourage you to think carefully about how your choices of software, programming languages and datasets can support our commitment to openness.
-
-We will also ask you to outline any technical prerequisites and potential limitations of access to this method or tool because our global readership work with different operating systems and have varying computational resources.
-
-It is important to us that our lessons can be translated for use in multilingual research-contexts, so we'll invite you to consider how your method or tool could be applied or adapted for use with non-English-language data.
-
-At the end of the form, you have the option to provide links to sample code or to a draft extract of your lesson if you'd like to.
 
 >In keeping with our commitment to diversity and equal access within digital humanities, we encourage proposals from women, members of marginalised groups, LGBTQ+ members, and peoples from the Global South. With this call, we strongly encourage the participation of Anglophone and multilingual communities beyond North America.
 
