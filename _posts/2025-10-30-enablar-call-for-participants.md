@@ -76,6 +76,48 @@ We value diversity of skills, voices, and lived experiences. We are committed to
   - The webinar will take place at [12:30 GMT](https://www.timeanddate.com/worldclock/converter.html?iso=20251114T123000&p1=tz_gmt) on **14 November 2025**. 
   - Register to join: [tinyurl.com/enablar-info](https://tinyurl.com/enablar-info)
 
-- Complete our  short online **application form**: [tinyurl.com/enablar-apply](https://tinyurl.com/enablar-apply). It provides space for you to tell us about yourself, your interest in the programme, and what you hope to achieve by participating.
+- Complete our  short online **application** via Google Forms: [tinyurl.com/enablar-apply](https://tinyurl.com/enablar-apply). There's also a [plain text version of the form](/assets/forms/Lesson.Query.Form.txt) available, which you can complete and [email to our Publishing Manager](mailto:admin@programminghistorian.org) directly if you prefer. It provides space for you to tell us about yourself, your interest in the programme, and what you hope to achieve by participating.
   - Applications close: **30 November 2025**
   - We’ll write to you to let you know if your application has been successful.
+ 
+## Questions asked at our information webinar
+
+People who attended our information webinar on 14 November 2025 asked the following questions which might be useful to others:
+
+- **Question**: How is this different to the usual _Programming Historian_ lesson development process?  
+- **Answer**: ENABLAR is different to the usual lesson development process in several key ways. Firstly, those in the ENABLAR cohort will be supported to establish new, cross-disciplinary co-author partnerships. Secondly, through ENABLAR's programme of webinars, workshops, and writing sprints, the whole writing process will be facilitated. Thirdly, ENABLAR lessons will be guided to focus on methods, processes, and tools that build digital skills capacity among library and archives professionals.
+
+--
+
+- **Question**: What will the final output be?  
+- **Answer**: The final output will be a set of new co-authored article-length lessons which support computational processing, discovery, or analysis of digital library and archive collections. These lessons will combine instructive narrative with code that readers will be able to adapt for their own use case. While each ENABLAR co-author pair will be invited to submit their draft to _Programming Historian in English_ for consideration, only lessons selected for development by our editorial team will be guided through formal open peer review process towards first publication in our English-language journal. Drafts not selected for the journal will be published as ‘grey literature’ outputs.
+
+--
+
+- **Question**: What level of technical skill are you hoping that participants/applicants will have?  
+- **Answer**: We're seeking a mixed cohort of people who are ready to learn from each other. ENABLAR will encourage knowledge exchange, and help build partnerships to advance all participants' knowledge and skills.
+
+--
+
+- **Question**: Does the possibility/impossibility to match participants through partnerships have an impact on the evaluation of applications?  
+- **Answer**: Yes, in the sense that we seek to bring together a cohort who represent a balance of perspectives across libraries and archives, and digital humanities research communities.
+
+--
+
+- **Question**: Is it possible to partner collaborators who are known to each other? (that is, could a librarian and a researcher apply jointly and work together?)  
+- **Answer**: Yes, it's possible. We advise you and your collaborator to apply separately, mentioning your idea for forming a co-author partnership. We still want to understand what interests you individually, and learn what each of you hope to achieve by participating in ENABLAR. We'd also like to be able to cultivate and explore some new collaborations!
+
+--
+
+- **Question**: The form is a Google Form that seems to require a sign in. How might individuals without (professional) Google accounts complete it?  
+- **Answer**: We've created a [plain text version of the form](/assets/forms/Lesson.Query.Form.txt), which you can complete and [email to our Publishing Manager](mailto:admin@programminghistorian.org) directly.
+
+--
+
+- **Question**: Is there any financial support available for time spent participating?  
+- **Answer**: No, participation would be voluntary. It will be important to ensure you have capacity within your schedule to participate without financial compensation. 
+
+--
+
+- **Question**: Will there be any need for travel?  
+- **Answer**: No, ENABLAR is an online-only programme to maximise opportunities for participation.
