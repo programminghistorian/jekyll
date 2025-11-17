@@ -76,7 +76,7 @@ We value diversity of skills, voices, and lived experiences. We are committed to
   - The webinar will take place at [12:30 GMT](https://www.timeanddate.com/worldclock/converter.html?iso=20251114T123000&p1=tz_gmt) on **14 November 2025**. 
   - Register to join: [tinyurl.com/enablar-info](https://tinyurl.com/enablar-info)
 
-- Complete our  short online **application** via Google Forms: [tinyurl.com/enablar-apply](https://tinyurl.com/enablar-apply). There's also a [plain text version of the form](/assets/forms/Lesson.Query.Form.txt) available, which you can complete and [email to our Publishing Manager](mailto:admin@programminghistorian.org) directly if you prefer. It provides space for you to tell us about yourself, your interest in the programme, and what you hope to achieve by participating.
+- Complete our  short online **application** via Google Forms: [tinyurl.com/enablar-apply](https://tinyurl.com/enablar-apply). There's also a [plain text version of the form](/assets/forms/enablar-application-to-participate.txt) available, which you can complete and [email to our Publishing Manager](mailto:admin@programminghistorian.org) directly if you prefer. It provides space for you to tell us about yourself, your interest in the programme, and what you hope to achieve by participating.
   - Applications close: **30 November 2025**
   - We’ll write to you to let you know if your application has been successful.
  
