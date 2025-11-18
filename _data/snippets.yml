@@ -153,8 +153,8 @@ menu-contribute-review:
     link: /pt/directrizes-revisor
 menu-contribute-write:
   en:
-    title: Author Guidelines
-    link: /en/author-guidelines
+    title: Lesson Framework
+    link: /en/lesson-framework
   es:
     title: Guía para autores
     link: /es/guia-para-autores
@@ -179,8 +179,8 @@ menu-contribute-translate:
     link: /pt/directrizes-tradutor
 menu-contribute-edit:
   en:
-    title: Editor Guidelines
-    link: /en/editor-guidelines
+    title: Publishing Workflow
+    link: /en/publishing-workflow
   es:
     title: Guía para editores
     link: /es/guia-editor

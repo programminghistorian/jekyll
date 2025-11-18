@@ -1,7 +1,7 @@
 ---
 title: Consignes aux rédacteurs et rédactrices
 layout: blank
-original: editor-guidelines
+original: publishing-workflow
 ---
 
 # Consignes aux rédacteurs et aux rédactrices

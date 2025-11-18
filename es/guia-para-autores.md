@@ -1,7 +1,7 @@
 ---
 title: Guía para autores
 layout: blank
-original: author-guidelines
+original: lesson-framework
 skip_validation: true
 ---
 

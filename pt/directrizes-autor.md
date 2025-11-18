@@ -2,7 +2,7 @@
 title: Directrizes para Autores
 layout: blank
 skip_validation: true
-original: author-guidelines
+original: lesson-framework
 ---
 
 # Directrizes para Autores

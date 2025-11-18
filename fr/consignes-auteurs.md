@@ -1,7 +1,7 @@
 ---
 title: Consignes aux auteur(e)s
 layout: blank
-original: author-guidelines
+original: lesson-framework
 skip_validation: true
 ---
 
