@@ -12,14 +12,14 @@ Our publishing workflow moves through eight phases: **Proposal**, **Submission**
 
 | Phase                            | Who is responsible?                    | Expected timeframe:                  |
 | -------------------------------- | -------------------------------------- | ------------------------------------ |
-| **0 Proposal**                   | Managing Editor + their editorial team | 14 days feedback <br> 45 days submission |
-| **1 Submission**                 | Publishing Manager                     | 14 days  |
+| **0 Proposal**                   | Managing Editor + their editorial team | 30 days feedback <br> 45 days submission |
+| **1 Submission**                 | Publishing Manager                     | 14 days |
 | **2 Initial Edit**               | Editor                                 | 30 days |
 | **3 First Revision**             | Author/translator + editor             | 30 days |
 | **4 Open Peer Review**           | Reviewers + editor                     | 30 days |
 | **5 Second Revision**            | Author/translator + editor             | 30 days |
-| **6 Sustainability + Accessibility** | Publishing Manager (+ copyeditor)         | 30 days |
-| **7 Publication**                | Managing Editor + Publishing Manager      | 14 days |
+| **6 Sustainability + Accessibility** | Publishing Manager (+ copyeditor)  | 30 days |
+| **7 Publication**                | Managing Editor + Publishing Manager   | 14 days |
 
 ## Details of Phases, Responsibilities, Timeframes, and Processes & Activities
 
@@ -27,7 +27,7 @@ Our publishing workflow moves through eight phases: **Proposal**, **Submission**
 
 | Who is responsible?                     | Expected timeframe                |   Process & activities               |
 | -------------------------------- | ------------------------------ | ------------------------------  |
-| Managing Editor + their editorial team | 14 days feedback <br> 45 days submission | <br>•  Managing Editor receives proposal forms. <br>• Proposal forms are circulated for feedback from the editorial team within 14 days.<br>• **Note:** Proposals are considered on the basis of how well they serve the needs of the community, and whether they support our journal’s ambitions of **openness**, **global access**, **multilingualism** and **sustainability**. <br>• Managing Editor replies to authors/translators to either reject the proposal and share feedback, or invite submission. <br>• Managing Editor opens a new GitHub issue to represent the successful proposal, assigning an editor, and agreeing a submission date within 45 days. <br>• **Note:** This issue will provide a space for communication and collaboration throughout the publishing workflow. Labels will be used to indicate the lesson’s progress. The Publishing Manager will post a comment at the beginning of each phase to clarify _What’s happening now?_
+| Managing Editor + their editorial team | 30 days feedback <br> 45 days submission | <br>•  Managing Editor receives proposal forms. <br>• Proposal forms are circulated for feedback from the editorial team within 30 days.<br>• **Note:** Proposals are considered on the basis of how well they serve the needs of the community, and whether they support our journal’s ambitions of **openness**, **global access**, **multilingualism** and **sustainability**. <br>• Managing Editor replies to authors/translators to either reject the proposal and share feedback, or invite submission. <br>• Managing Editor opens a new GitHub issue to represent the successful proposal, assigning an editor, and agreeing a submission date within 45 days. <br>• **Note:** This issue will provide a space for communication and collaboration throughout the publishing workflow. Labels will be used to indicate the lesson’s progress. The Publishing Manager will post a comment at the beginning of each phase to clarify _What’s happening now?_
 
 ### Phase 1 Submission
 
