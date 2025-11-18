@@ -2,72 +2,103 @@
 
 _Programming Historian_ in English is inviting proposals for new lessons.
 
-We encourage prospective authors to think carefully about how their proposal could enhance our learning offer.
+We encourage prospective authors to think carefully about how their proposal could enhance our learning offer. You can [explore our journal](https://programminghistorian.org/en/lessons/) to discover what’s already available and consider what you might be able to add.
 
-You can [explore our journal](https://programminghistorian.org/en/lessons/) to discover what’s already available and consider what you might be able to add.
+If the method or approach you’re interested in writing a lesson about is already represented by the [Spanish](https://programminghistorian.org/es/lecciones/), [French](https://programminghistorian.org/fr/lecons/), or [Portuguese](https://programminghistorian.org/pt/licoes/) editions of _Programming Historian_, we welcome proposals to translate those existing, original lessons into English. In this call, we would particularly like to encourage proposals for translations. Please review the list of translations we are prioritising for development. 
 
-If the method or approach you’re interested in writing a lesson about is already represented by the [Spanish](https://programminghistorian.org/es/lecciones/), [French](https://programminghistorian.org/fr/lecons/), or [Portuguese](https://programminghistorian.org/pt/licoes/) editions of _Programming Historian_, we welcome proposals to translate those existing, original lessons into English. Please review our [Translation Concordance](/translation-concordance) map to identify options for your translation.
+Questions? Please write to the Managing Editor of _Programming Historian in English_, Alex Wermer-Colan (english@programminghistorian.org) or our Publishing Manager, Anisa Hawes (admin@programminghistorian.org).
 
 ---
-
 
 Name:  
 Email:
 
-This form has twelve questions. Please answer all those which apply, providing as much detail as you can.
+What kind of lesson are you proposing?
+- [ ] An original English-language lesson *Please go to Section 2*
+- [ ] A translation into English from an existing, original Spanish, French, or Portuguese lesson *Please go to Section 3*
 
-**1.** What is your proposed lesson title?  
+---
 
-**2.** What kind of lesson are you proposing?
-- [ ] An original English-language lesson
-- [ ] A translation into English from an existing, original Spanish, French, or Portuguese lesson
+### Section 2: Original English-language lessons
 
-**3.** Please tell us how your proposal could support, expand, or supplement the lessons we've already published.
+Answer the following questions if you are proposing an *original* English-language lesson.
+
+a). What is your proposed lesson title?
+
+We suggest a short, descriptive title:
+
+- Begin with verb or a noun to define the main learning activity, method or process.
+- Identify the kind of data readers will handle in the lesson.
+- Name key tools, software libraries or programming languages readers will use.
+
+
+1. What can readers expect to learn from your proposed lesson?
+[3-4 sentences]
+
+2. Please tell us how your proposal could support, expand, or supplement the lessons we've already published.
 Use these questions to structure your answer:
 - To which existing _Programming Historian_ lesson(s) could your proposal provide a foundational introduction?
 - To which existing _Programming Historian_ lesson(s) could your proposal provide an advancement or extension?
 - How could your proposal fill a gap in our lesson directory?  
-
 [200-300 words]
 
-**4.** If you are proposing an original lesson, please tell us what readers could expect to learn from your proposed lesson:  
-[3-4 sentences]
-
-**5.** Please share some insights into how you came to use this method or tool as part of your work within the humanities:  
+3. Please share some insights into how you came to use this method or tool as part of your work within the humanities:  
 [100-300 words]
 
-**6.** If you are proposing an original lesson, please tell us about the research case study you propose centring within your lesson.
-Successful lessons centre real datasets and sample code that readers can handle and experiment with.  
+4. Please tell us about the research case study you propose centring within your lesson.
+- Successful lessons centre real datasets and sample code that readers can handle and experiment with.
 [100-300 words]
 
-**7.** If you are proposing a translation, please tell us if you plan to adapt or localise the research case study centred by the original lesson for your language community.
-Successful lessons centre real datasets and sample code that readers can handle and experiment with.
-[100-300 words]
-
-**8.** If you are proposing a translation, please provide a 300-400 word translation sample. We suggest translating the opening paragraphs of the lesson you'd like to translate. 
-[300-400 words]
-
-**9.** If you are proposing an original lesson, please outline how your choice of software and data would support our commitment to openness:
+5. Please outline how your choice of software and data would support our commitment to openness:
 We advocate for the use of open source software, open programming languages, open access datasets wherever possible.
 Use these questions to structure your answer:
 - Which open source software, open tools, open programming languages, or open datasets does this lesson make use of?
-- Which (if any) proprietary software or commercial tools does this lesson make use of?
-We strongly recommend authors choose open source alternatives.
-- Which (if any) costs* or commitments are required to use this method or tool?
-*including the requirement for readers to supply their credit card information  
+- Which (if any) proprietary software or commercial tools does this lesson make use of? We strongly recommend authors choose open source alternatives.
+- What (if any) costs are required to use this tool? Does access require users to supply credit card information?
 [100-300 words]
 
-**10.** If you are proposing an original lesson, please provide us with some information about how your method or tool could be applied or adapted for use in languages other than English:
-We have a strong preference for methodologies and tools that can be used in multilingual research-contexts.  
+6. Please provide us with some information about how your method or tool could be applied or adapted for use in languages other than English:
+- We have a strong preference for methodologies and tools that can be used in multilingual research-contexts.  
 [100-300 words]
 
-**11.** If you are proposing an original lesson, please outline any technical prerequisites and potential limitations of access to using this method or tool:
-Our readers work with different operating systems and have varying computational resources.  
+7. Please outline any technical prerequisites and potential limitations of access to using this method or tool:
+- Our readers work with different operating systems and have varying computational resources.  
 [100-200 words]
 
-**12.** Optional link to sample code or a draft extract of this proposed lesson on your personal GitHub repository:
+8. Optional link to sample code or a draft extract of this proposed lesson on your personal GitHub repository:
 
 
 ---
 
-Please send this form to the Managing Editor of _Programming Historian_ in English, [Alex Wermer-Colan](mailto:english@programminghistorian.org).
+### Section 3: Translations into English
+
+Answer the following questions if you are proposing a translation into English from an existing, original Spanish, French, or Portuguese lesson.
+
+a). What is the title of the lesson you want to translate (in the source language)?
+
+b). What is your proposed translation of the title into English?
+
+c). Please share a link to the lesson you want to translate:
+
+
+1. Please provide a 300-400 word translation sample. We suggest translating the opening paragraphs of the lesson you'd like to translate. 
+[300-400 words]
+
+2. Why do you think this particular lesson would be valuable to translate into English?
+- Please review the list of translations we are prioritising for development in our blog post. 
+- If the lesson you propose translating isn't on this list, we'd still like to hear from you. 
+[200-300 words]
+
+3. Please share some insights into how you came to use this method or tool as part of your work within the humanities:
+[100-300 words]
+
+4. Please tell us how you plan to adapt or localise the research case study centred by the original lesson for an English-language readership.
+- Successful lessons centre real datasets and sample code that readers can handle and experiment with.
+[100-300 words]
+
+5. Optional link to sample code or a draft extract of this proposed translation on your personal GitHub repository:
+
+
+---
+
+Please send this form to our Publishing Manager, Anisa Hawes (admin@programminghistorian.org).
