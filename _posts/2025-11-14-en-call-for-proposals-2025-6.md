@@ -23,7 +23,7 @@ Our lessons are aimed at humanities and social science researchers, but are also
 
 ## What are the benefits of writing a _Programming Historian_ lesson?
 
-Our lessons support readers who want to learn new skills, but the act of writing is also beneficial to authors. Writing to explain a methodology or tool to others deepens your own understanding and knowledge. It empowers your development as a critical, intentional and considered researcher, and is an opportunity to hone your technical writing skills. We encourage you to write about a method or tool that you know well, and that you have applied, adapted or advanced in your own research.
+Our lessons support readers who want to learn new skills, but the act of writing is also beneficial to authors. Writing to explain a methodology or tool to others deepens your own understanding and knowledge. It empowers your development as a critical, intentional and considered researcher, and is an opportunity to hone your technical writing skills. We encourage you to write about a method or tool and dataset that you know well, and that you have applied, adapted or advanced in your own research.
 
 ## How to Submit a Proposal
 
