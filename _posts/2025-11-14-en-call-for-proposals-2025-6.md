@@ -29,7 +29,7 @@ Our lessons support readers who want to learn new skills, but the act of writing
 
 We've set up [a Google Form](https://tinyurl.com/ph-en-proposal-form-2025) which you can submit directly online. There's also [a plain-text version](/assets/forms/Lesson.Query.Form.txt) which you can [send to us by email](mailto:english@programminghistorian.org), if you prefer. 
 
-There is space for you to tell us about the research case study you'd like to centre within your lesson, and for you to explain how you came to use this method or tool as part of your work within the humanities.
+There is space for you to tell us about the research use case you'd like to centre within your lesson, and for you to explain how you came to use this method or tool as part of your work within the humanities.
 
 Our questions encourage you to think carefully about how your choices of software, programming languages and datasets can support our commitment to openness.
 
@@ -37,7 +37,7 @@ We will also ask you to outline any technical prerequisites and potential limita
 
 It is important to us that our lessons can be translated for use in multilingual research-contexts, so we'll ask you to consider how your method or tool could be applied or adapted for use with non-English-language data.
 
-If you're proposing a translation, the form provides an opportunity for you to think about how you could adapt or localise the research case study centred by the original lesson for an English-language readership. We'll also ask you to share a short translation sample. 
+If you're proposing a translation, the form provides an opportunity for you to think about how you could adapt or localise the research use case centred by the original lesson for an English-language readership. We'll also ask you to share a short translation sample. 
 
 At the end of the form, you are invited to provide links to sample code or to a rough draft of your lesson.
 
