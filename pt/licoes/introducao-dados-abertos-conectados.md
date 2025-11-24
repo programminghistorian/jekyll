@@ -327,7 +327,7 @@ Como mencionado no início, o *Programming Historian* tem [uma lição completa]
 
 Vamos realizar as nossas consultas SPARQL na [DBpedia](https://www.dbpedia.org/), que é um enorme conjunto de LOD derivado da Wikipedia. Além de estar cheio de informação que é muito difícil de encontrar através da habitual interface da Wikipédia, tem vários "pontos de extremidade" (end points) SPARQL - interfaces onde se podem digitar as consultas SPARQL e obter resultados a partir das triplas semânticas da DBpedia.
 
-O end point de consulta SPARQL que é utilizado chama-se [snorql](http://dbpedia.org/snorql/) (em inglês). Estes end points ocasionalmente ficam offline. Se for o seu caso, tente procurar por *dbpedia sparql* e deverá encontrar um substituto semelhante.
+O end point de consulta SPARQL que é utilizado chama-se snorql: `http://dbpedia.org/snorql/` (em inglês). Estes end points ocasionalmente ficam offline. Se for o seu caso, tente procurar por *dbpedia sparql* e deverá encontrar um substituto semelhante.
 
 Se for ao URL snorql acima verá, no início, um número de prefixos que já nos foram declarados, o que é útil. Agora também irá reconhecer alguns dos prefixos.
 
@@ -382,7 +382,7 @@ Execute a *querie*. Deverá encontrar uma grande lista de historiadores.
 
 {% include figure.html filename="en-or-intro-to-linked-data-05.png" alt="Duas capturas de tela com a interface de consultas snorql e respectivos resultados" caption="Figura 5. Historiadores de acordo com a DBpedia." %}
 
-Assim, esta ferramenta funciona para criar listas, o que é útil, mas seria muito mais poderoso combinar listas para obter intersecções de conjuntos. Encontrei mais algumas coisas que podem ser interessantes consultar nos atributos DBpedia de Lyndal Roper: <http://dbpedia.org/class/yago/WikicatBritishHistorians> e <http://dbpedia.org/class/yago/WikicatWomenHistorians>. É muito fácil combiná-los pedindo uma variável a ser devolvida (no nosso caso isto é `?name` (nome)) e depois utilizando-a em múltiplas linhas de uma *querie*. Note também o espaço e o ponto completo no final da primeira linha que começa com `?name`:
+Assim, esta ferramenta funciona para criar listas, o que é útil, mas seria muito mais poderoso combinar listas para obter intersecções de conjuntos. Encontrei mais algumas coisas que podem ser interessantes consultar nos atributos DBpedia de Lyndal Roper: `http://dbpedia.org/class/yago/WikicatBritishHistorians` e `http://dbpedia.org/class/yago/WikicatWomenHistorians`. É muito fácil combiná-los pedindo uma variável a ser devolvida (no nosso caso isto é `?name` (nome)) e depois utilizando-a em múltiplas linhas de uma *querie*. Note também o espaço e o ponto completo no final da primeira linha que começa com `?name`:
 
 	SELECT ?name
 	WHERE {
@@ -418,3 +418,4 @@ No entanto, apesar das suas inconsistências, a *DBpedia* é um ótimo local par
 ## Agradecimentos
 
 Gostaria de agradecer aos meus dois colegas revisores, Matthew Lincoln e Terhi Nurmikko-Fuller e ao meu editor, Adam Crymble, por me ajudarem generosamente a melhorar esta lição com numerosas sugestões, esclarecimentos e correções. Este tutorial baseia-se num outro escrito como parte do '*Thesaurus of British and Irish History as SKOS*' [*(Tobias) project*](https://gtr.ukri.org/projects?ref=AH%2FN003446%2F1#/tabOverview) (em inglês), financiado pelo [AHRC](http://www.ahrc.ac.uk/) (em inglês). A lição foi revista para o projeto *Programming Historian*.
+
