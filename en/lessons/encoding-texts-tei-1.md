@@ -5,7 +5,7 @@ original: introduccion-a-tei-1
 layout: lesson
 collection: lessons
 date: 2021-07-27
-translation_date: 2025-11-21
+translation_date: 2025-12-10
 authors:
 - Nicolás Vaughan
 reviewers:
@@ -24,7 +24,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/610
 difficulty: 1
 activity: transforming
 topics: [website, data-manipulation]
-abstract: This lesson (the first of two parts) teaches you the basics of using TEI-XML to encode texts.
+abstract: This lesson teaches you the basics of using TEI-XML to encode texts, and demonstrates how to create a minimal TEI document. Part 2 of this lesson is forthcoming.
 avatar_alt: Engraving of a labeled cross-section of soil
 doi: 10.46430/phen0129
 ---
@@ -338,7 +338,7 @@ For its part, the `<body>` element can contain many other elements:
 
 **Table 2. List of elements that can appear within `<body>`**
  
-At first, all the possibilities may seem overwhelming. However, it is important to remember that a text is usually naturally divided into sections or parts. It is advisable, therefore, to use the element [`<div>`](https://perma.cc/X6FL-T3BW) for each of these sections, and to use the attribute `@type` or `@n` to distinguish different classes and their positions in the text (for example, `<div n=“3” type= “subsection”>…</div>`).
+At first, all the possibilities may seem overwhelming. However, it is important to remember that a text is naturally divided into sections or parts. You can use the element [`<div>`](https://perma.cc/X6FL-T3BW) to delineate each of these sections, and the attribute `@type` or `@n` to distinguish different classes and their positions in the text (for example, `<div n=“3” type= “subsection”>…</div>`).
 
 If your text is short and simple, you can use just one `<div>`. For example:
 
@@ -400,9 +400,10 @@ In conclusion, we can formulate the 'golden rule' of encoding: you should encode
 ## Conclusions
 In this first part of the lesson, you have learned:
 1.	What it means to encode a text
-2.	What are XML and XML-TEI documents
+2.	How to navigate XML and XML-TEI documents
+3.	How to create a minimal TEI document
 
-The second part of this lesson is not yet available in English, but is forthcoming. In the [Spanish original of part 2](/es/lecciones/introduccion-a-tei-2), however, you can explore two examples of encoded texts in greater detail.
+This lesson is the first of two parts - the second part is not yet available in English, but is forthcoming. In the [Spanish original of Part 2](/es/lecciones/introduccion-a-tei-2), however, you can explore two examples of encoded texts in greater detail.
 
 
 ## Recommended Readings
