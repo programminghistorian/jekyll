@@ -355,7 +355,7 @@ for i, page in enumerate(img_pages):
 
 ## API Access
 
-We connect to the Python API library using an Archive.org account email and password rather than API tokens. This is discussed in the [Quickstart Guide](https://archive.org/services/docs/api/internetarchive/quickstart.html). If you do not have an account, [register](https://archive.org/account/login.createaccount.php) for your "Virtual Library Card."
+We connect to the Python API library using an Archive.org account email and password rather than API tokens. This is discussed in the [Quickstart Guide](https://archive.org/developers/index-quickstart.html). If you do not have an account, [register](https://archive.org/account/login.createaccount.php) for your "Virtual Library Card."
 
 In the first cell of the `internetarchive.ipynb` notebook, enter your credentials as directed. Run the cell to authenticate to the API.
 
