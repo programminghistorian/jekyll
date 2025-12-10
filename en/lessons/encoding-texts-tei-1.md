@@ -338,7 +338,7 @@ For its part, the `<body>` element can contain many other elements:
 
 **Table 2. List of elements that can appear within `<body>`**
  
-At first, all the possibilities may seem overwhelming. However, it is important to remember that a text is naturally divided into sections or parts. You can use the element [`<div>`](https://perma.cc/X6FL-T3BW) to delineate each of these sections, and the attribute `@type` or `@n` to distinguish different classes and their positions in the text (for example, `<div n=“3” type= “subsection”>…</div>`).
+At first, all the possibilities may seem overwhelming. However, it is important to remember that a text can usually be divided into sections or parts. You can use the element [`<div>`](https://perma.cc/X6FL-T3BW) to delineate each of these sections, and the attribute `@type` or `@n` to distinguish different classes and their positions in the text (for example, `<div n=“3” type= “subsection”>…</div>`).
 
 If your text is short and simple, you can use just one `<div>`. For example:
 
