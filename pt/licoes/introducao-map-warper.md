@@ -20,7 +20,6 @@ translation-editor:
 - Joana Vieira Paulino
 translation-reviewer:
 - Diogo Paiva
-- Forename Surname
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/665
 difficulty: 2
 activity: transforming
@@ -70,7 +69,7 @@ Algumas questões previas podem ser:
 
 ### Mapa Província do Entre Douro-e-Minho, 1795
 
-Neste tutorial iremos georreferenciar um mapa de c.1795 da [Província do Entre Douro-e-Minho](https://purl.pt/24996) elaborado por José Custódio Villasboas que se encontra na coleção da Biblioteca Nacional Digital. Este mapa representa a organização social do espaço da região noroeste de Portugal (os atuais distritos de Viana do Castelo, Braga e Porto) no final do Antigo Regime. Pode [acessar](https://purl.pt/24996/2/) ao mapa (em `.jpg`) ao clicar no símbolo **Guardar** no canto inferior direito e depois ao clicar no botão direito do rato e selecionando a opção _guardar em_ ![icon_save](http://programminghistorian.github.io/ph-submissions/images/introduccion-map-warper/pt-tr-introducao-map-warper-icon0.png). Pode, também, acessar ao mapa em [formato `.pdf`](https://permalinkbnd.bnportugal.gov.pt/viewer/33587/download?file=d-94-r_0000.pdf&type=pdf&navigator=1).
+Neste tutorial iremos georreferenciar um mapa de c.1795 da [Província do Entre Douro-e-Minho](https://purl.pt/24996) elaborado por José Custódio Villasboas que se encontra na coleção da Biblioteca Nacional Digital. Este mapa representa a organização social do espaço da região noroeste de Portugal (os atuais distritos de Viana do Castelo, Braga e Porto) no final do Antigo Regime. Pode [acessar](https://purl.pt/24996/2/) ao mapa (em `.jpg`) ao clicar no símbolo **Guardar** no canto inferior direito e depois ao clicar no botão direito do rato e selecionando a opção _guardar em_ ![icon_save](/images/introduccion-map-warper/pt-tr-introducao-map-warper-icon0.png). Pode, também, acessar ao mapa em [formato `.pdf`](https://permalinkbnd.bnportugal.gov.pt/viewer/33587/download?file=d-94-r_0000.pdf&type=pdf&navigator=1).
 
 {% include figure.html filename="pt-tr-introducao-map-warper-01.png" alt="Mapa antigo representando a porção noroeste de Portugal entre os rios Minho (Norte) e Douro (Sul)." caption="Figura 1. Mapa Província do Entre Douro-e-Minho, 1795." %} 
 
@@ -126,9 +125,9 @@ Na página inicial os mapas importados estarão em **Favoritos** (Favourites) no
 
 Neste subponto irá compreender como georreferenciar o mapa importado. Clique na aba **Rectify** (Retificar), onde existirão duas janelas, uma à esquerda com o mapa importado e outra à direita com um mapa base (OpenstreetMap). Será a partir deste mapa à direita que irá estabelecer pontos de controle, após selecionar pontos correspondentes em cada janela e clicar no botão _Add Control Point_ (Adicionar Ponto de Controle). Abaixo destas janelas encontrará o **Control Planel** (Painel de Controle), que permite ajustar os pontos de controle e avaliar o seu nível de exatidão.
 
-![Layer](http://programminghistorian.github.io/ph-submissions/images/introduccion-map-warper/es-or-introduccion-map-warper-icon1.png): O ícone **Layer** (Camada), na janela da direita, permite a seleção dos elementos presentes no mapa base do OpenstreetMap ou Mapbox Satellite.
+![Layer](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon1.png): O ícone **Layer** (Camada), na janela da direita, permite a seleção dos elementos presentes no mapa base do OpenstreetMap ou Mapbox Satellite.
 
-![Custombasemap](http://programminghistorian.github.io/ph-submissions/images/introduccion-map-warper/es-or-introduccion-map-warper-icon2.png) O ícone **Add Custom Basemap** (Adicionar Mapa de Base Personalizado), na janela da direita, permite que se adicione uma camada XYZ Tiles format (como Google Maps, Bing, CARTO, ESRI, Stamen, and other layers).
+![Custombasemap](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon2.png) O ícone **Add Custom Basemap** (Adicionar Mapa de Base Personalizado), na janela da direita, permite que se adicione uma camada XYZ Tiles format (como Google Maps, Bing, CARTO, ESRI, Stamen, and other layers).
 
 Pode inclusive utilizar os seguintes URL para ter acesso a uma maior seleção de mapas de base no Map Warper:
 
@@ -140,18 +139,18 @@ Pode inclusive utilizar os seguintes URL para ter acesso a uma maior seleção d
 * Stamen Watercolor(https://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg)
 ```
 
-![AddControlPoint](http://programminghistorian.github.io/ph-submissions/images/introduccion-map-warper/es-or-introduccion-map-warper-icon3.gif): O ícone **Add Control Point** (Adicionar Ponto de Controle), em ambas as janelas, permite adicionar pontos de controle entre ambas as janelas.
+![AddControlPoint](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon3.gif): O ícone **Add Control Point** (Adicionar Ponto de Controle), em ambas as janelas, permite adicionar pontos de controle entre ambas as janelas.
 
-![MoveControlPoint](http://programminghistorian.github.io/ph-submissions/images/introduccion-map-warper/es-or-introduccion-map-warper-icon4.gif): O ícone **Move Control Point** (Mover Ponto de Controle), em ambas as janelas, permite que se altere a localização de um ponto de controle previamente adicionado.
+![MoveControlPoint](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon4.gif): O ícone **Move Control Point** (Mover Ponto de Controle), em ambas as janelas, permite que se altere a localização de um ponto de controle previamente adicionado.
 
-![MoveAroundMap](http://programminghistorian.github.io/ph-submissions/images/introduccion-map-warper/es-or-introduccion-map-warper-icon5.gif): O ícone **Move Around Map** (Navegar pelo Mapa), em ambas as janelas, permite navegar por ambas as janelas e explorar os mapas.
+![MoveAroundMap](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon5.gif): O ícone **Move Around Map** (Navegar pelo Mapa), em ambas as janelas, permite navegar por ambas as janelas e explorar os mapas.
 
-O cadeado entre as janelas permite o movimento sincronizado entre os mapas. Ao selecionar a opção ![ZoomLock](http://programminghistorian.github.io/ph-submissions/images/introduccion-map-warper/es-or-introduccion-map-warper-icon6.png) **Zoom Lock** (Bloqueio de Zoom) permite dar zoom concomitantemente entre as janelas, sendo útil para localizar e verificar os pontos de controle. Clicar no cadeado novamente irá desbloquear ![LockOpen](http://programminghistorian.github.io/ph-submissions/images/introduccion-map-warper/es-or-introduccion-map-warper-icon7.png) e permitir a navegação independente.
+O cadeado entre as janelas permite o movimento sincronizado entre os mapas. Ao selecionar a opção ![ZoomLock](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon6.png) **Zoom Lock** (Bloqueio de Zoom) permite dar zoom concomitantemente entre as janelas, sendo útil para localizar e verificar os pontos de controle. Clicar no cadeado novamente irá desbloquear ![LockOpen](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon7.png) e permitir a navegação independente.
 
 Atalhos de teclado permitem o acesso ágil às diferentes ferramentas para a retificação:
-+ *p*: ativa o *Adicionar Ponto de Controle*![AddControlPoint](http://programminghistorian.github.io/ph-submissions/images/introduccion-map-warper/es-or-introduccion-map-warper-icon3.gif);
-+ *d*: ativa o *Mover Ponto de Controle*![MoveControlPoint](http://programminghistorian.github.io/ph-submissions/images/introduccion-map-warper/es-or-introduccion-map-warper-icon4.gif);
-+ *m*: ativa o *Mover pelo Mapa* ![MoveAroundMap](http://programminghistorian.github.io/ph-submissions/images/introduccion-map-warper/es-or-introduccion-map-warper-icon5.gif);
++ *p*: ativa o *Adicionar Ponto de Controle*![AddControlPoint](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon3.gif);
++ *d*: ativa o *Mover Ponto de Controle*![MoveControlPoint](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon4.gif);
++ *m*: ativa o *Mover pelo Mapa* ![MoveAroundMap](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon5.gif);
 + *q*: adiciona um *Ponto de Controle* na localização do mouse;
 + *a*: adiciona um *Ponto de Controle* na localização do mouse em ambas as janelas; 
 + *Enter*: substitui a tecla do mouse para adicionar um *Ponto de Controle*;
@@ -220,9 +219,9 @@ As opções avançadas que permitem alterar o método de retificação e 'resamp
 
 A aba **Crop** (Recortar) permite que corte uma seção do mapa carregado. Isso é útil para dividir mapas em composições. A janela de exibição integra as seguintes ações:
 
--   ![MoveAroundMap](http://programminghistorian.github.io/ph-submissions/images/introduccion-map-warper/es-or-introduccion-map-warper-icon5.gif):  **Move Around Map** (Navegar pelo Mapa)
--   ![DrawNewPolygon](http://programminghistorian.github.io/ph-submissions/images/introduccion-map-warper/es-or-introduccion-map-warper-icon10.gif):  **Draw new Polygon to Mask** (em português,Desenhar Novo Polígono para Máscara)
--   ![DeletePolygon](http://programminghistorian.github.io/ph-submissions/images/introduccion-map-warper/es-or-introduccion-map-warper-icon11.gif):  **Delete a Polygon** (Eliminar Polígono)
+-   ![MoveAroundMap](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon5.gif):  **Move Around Map** (Navegar pelo Mapa)
+-   ![DrawNewPolygon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon10.gif):  **Draw new Polygon to Mask** (em português,Desenhar Novo Polígono para Máscara)
+-   ![DeletePolygon](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon11.gif):  **Delete a Polygon** (Eliminar Polígono)
 
 Desenhe ao redor da área que deseja manter. Então, para aplicar a Máscara ao mapa, clique em _Mask Map!_ (Mascarar o Mapa!). Após este passo deve retornar a aba **Rectify** (Retificar) e no fundo da página ativar a opção **True** (Verdadeiro) e de novo selecionar a opção _Warp Image!_ (Distorcer a Imagem!).
 
@@ -252,7 +251,7 @@ A aba  **Export** (Exportar) permite exportar o mapa georreferenciado em diferen
 
 ### Atividade
 
-Na aba **Activity** (Atividade) é possível monitorar as intervenções realizadas. Sendo possível averiguar os seguintes campos: Hora, Usuário, Mapa, Resumo de atividades, Versão e Detalhes. Qualquer usuário do Map Warper pode monitorizar as alterações no mapa. Além disso, ![RSS](http://programminghistorian.github.io/ph-submissions/images/introduccion-map-warper/es-or-introduccion-map-warper-icon12.png) **RSS Feed** permite que o usuário baixe informações gerais sobre todas as alterações no formato `.rss`.
+Na aba **Activity** (Atividade) é possível monitorar as intervenções realizadas. Sendo possível averiguar os seguintes campos: Hora, Usuário, Mapa, Resumo de atividades, Versão e Detalhes. Qualquer usuário do Map Warper pode monitorizar as alterações no mapa. Além disso, ![RSS](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon12.png) **RSS Feed** permite que o usuário baixe informações gerais sobre todas as alterações no formato `.rss`.
 
 ### Comentário
 
