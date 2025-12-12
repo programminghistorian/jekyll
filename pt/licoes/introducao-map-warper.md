@@ -20,6 +20,7 @@ translation-editor:
 - Joana Vieira Paulino
 translation-reviewer:
 - Diogo Paiva
+- Luís Ribeiro Gonçalves
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/665
 difficulty: 2
 activity: transforming
