@@ -22,7 +22,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Investigación publicada
 
-* Anisa Hawes & Riva Quiroga [“Writing about research methods: sharing failure to support success”](https://read.uolpress.co.uk/read/316fdea1-5051-4f50-8957-afbc51342998/section/27f2b82c-e89e-4b3a-b09d-09fda644b091#ch19), in [Reframing Failure in Digital Scholarship](https://doi.org/https://doi.org/10.63674/yrab7358), edited by Sichani, A., & Donnay, M., University of London Press, 2025.   
+* Anisa Hawes & Riva Quiroga [“Writing about research methods: sharing failure to support success”](https://read.uolpress.co.uk/read/316fdea1-5051-4f50-8957-afbc51342998/section/27f2b82c-e89e-4b3a-b09d-09fda644b091#ch19), in [Reframing Failure in Digital Scholarship](https://doi.org/https://doi.org/10.63674/yrab7358), editado por Sichani, A., & Donnay, M., University of London Press, 2025.   
 * Riva Quiroga, Anisa Hawes, Anna-Maria Sichani & Charlotte Chevrie, “Sustainable Growth of Multilingual Open Publishing Projects: The Case of _Programming Historian_”, The Journal of Electronic Publishing 27, no. 1 (2024). [https://doi.org/10.3998/jep.5571](https://doi.org/10.3998/jep.5571).
 * Juliana Marques, Joana Vieira Paulino, Daniel Alves, Jimmy Medeiros & Suemi Higuchi, "[O _Programming Historian em Português_ na promoção do letramento digital na sala de aula](https://rhhj.anpuh.org/RHHJ/article/view/1146/563)", _Revista História Hoje_ 13, no. 17 (2024), 304-325. 
 * Sofia Papastamkou, Anita Lucchesi, & Douglas McRae, "Multilingualism and Digital Methods Teaching: Conceiving Pedagogical Materials in a Multilingual-first Approach", DHBenelux 2023. Zenodo, 2023. [https://doi.org/10.5281/zenodo.10599623](https://doi.org/10.5281/zenodo.10599623).
