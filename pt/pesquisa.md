@@ -21,6 +21,7 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 
 ## Pesquisa publicada
 
+* Anisa Hawes & Riva Quiroga [“Writing about research methods: sharing failure to support success”](https://read.uolpress.co.uk/read/316fdea1-5051-4f50-8957-afbc51342998/section/27f2b82c-e89e-4b3a-b09d-09fda644b091#ch19), in [Reframing Failure in Digital Scholarship](https://doi.org/https://doi.org/10.63674/yrab7358), editado por Sichani, A., & Donnay, M., University of London Press, 2025.  
 * Riva Quiroga, Anisa Hawes, Anna-Maria Sichani & Charlotte Chevrie, “Sustainable Growth of Multilingual Open Publishing Projects: The Case of _Programming Historian_”, The Journal of Electronic Publishing 27, no. 1 (2024). [https://doi.org/10.3998/jep.5571](https://doi.org/10.3998/jep.5571).
 * Juliana Marques, Joana Vieira Paulino, Daniel Alves, Jimmy Medeiros & Suemi Higuchi, "[O _Programming Historian em Português_ na promoção do letramento digital na sala de aula](https://rhhj.anpuh.org/RHHJ/article/view/1146/563)", _Revista História Hoje_ 13, no. 17 (2024), 304-325. 
 * Sofia Papastamkou, Anita Lucchesi, & Douglas McRae, "Multilingualism and Digital Methods Teaching: Conceiving Pedagogical Materials in a Multilingual-first Approach", DHBenelux 2023. Zenodo, 2023. [https://doi.org/10.5281/zenodo.10599623](https://doi.org/10.5281/zenodo.10599623).
@@ -49,6 +50,7 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 
 * Charlotte Chevrie, 'Remix and Reuse: Translation and Adaptation in the Community', _Programming Historian_ [Em linha], (31 de julho de 2025).
 * Anisa Hawes, ['Building your Digital Research Skills with _Programming Historian_'](https://perma.cc/6T3D-XNE6), Digital Skills in Arts and Humanities (DISKAH) network DH & RSE Summer School, King's College London, Reino Unido (4 de julho de 2025).
+* Daniel Alves & Joana Vieira Paulino “_Programming Historian em português_”, Digital Humanities Conference 2025, Fantastic Teaching Resources and Where to Find Them, NOVA School of Social Sciences and Humanities, Lisbon, (14-18 de junho de 2025).  
 * Anisa Hawes, [‘Teaching and Writing Digital Methods'](https://perma.cc/9JWJ-CEJY), Cambridge Digital Humanities, University of Cambridge, Reino Unido (28 de abril de 2024).
 * Amelia Wakeford, Giulia Osti & Anisa Hawes, 'A _Programming Historian_ Knowledge Exchange Workshop', University of Birmingham, (29 November 2024) & [Em linha], (4 de dezembro de 2024).
 * Anisa Hawes, [‘Building your digital research skills with _Programming Historian_’](https://www.cdh.cam.ac.uk/events/38929/), Cambridge Digital Humanities, University of Cambridge [Em linha], (21 de novembro de 2024).
@@ -96,6 +98,7 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 
 ## Pósteres, Artigos em conferências & Palestras convidadas
 
+* Alexandre Wauthier & Marie Flesch, "[_Programming Historian en français_ : les valeurs de la science ouverte au service de la formation en humanités numériques](https://alexandrewa.github.io/LibreABC-PH-2025/)", Journée des logiciels libres en Archives, Bibliothèques et Centres de documentation ([LibreABC](https://libreabc.ch/)), Musée d'ethnographie de Genève, Suíça, (9 de Setembro 2025).  
 * Marie Flesch, "Reproducibility in the teaching of digital humanities: Lessons from _Programming Historian_", [ReproducibiliTea in the HumaniTeas](https://perma.cc/F7RT-G8WF), University of Cologne, Alemanha, (23 de junho de 2025).
 * Riva Quiroga, "Métodos digitales en humanidades: una guía para investigar y aprender con _Programming Historian_", Instituto de Historia, PUCV, Viña del Mar, Chile, (2 de outubro de 2024).
 * Joana Vieira Paulino, Daniel Alves, Jimmy Medeiros, Juliana Marques & Suemi Higuchi, "Increasing Digital Literacy in the Classroom: the Use of the _Programming Historian_ in Brazilian and Portuguese Universities", Decolonizing Knowledge, Amplifying Voices: Digital Humanities in Action Across Latin America and Beyond, [DH 2024](https://dh2024.adho.org/), George Mason University Arlington Campus, Washington DC, EUA (e em linha), (5-9 de agosto de 2024).
