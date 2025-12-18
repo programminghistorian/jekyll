@@ -49,6 +49,10 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Talleres y eventos
 
+* Anisa Hawes, 'Writing Digital Methods', ENABling Library and Archive participation in digital Research co-learning communities (ENABLAR) [En línea], (16-17 de diciembre de 2025).   
+* Anisa Hawes, ['Technical Writing in the Humanities: a facilitated writing sprint'](https://tinyurl.com/diskah-info), Digital Skills in Arts and Humanities (DISKAH) network [En línea], (15 de diciembre de 2025).   
+* Anisa Hawes, [‘Building your digital research skills with _Programming Historian_’](https://www.cdh.cam.ac.uk/events/39996/), Cambridge Digital Humanities, University of Cambridge [En línea], (27 de noviembre de 2025).   
+* Anisa Hawes, ['Remix and Reuse: Translation and Adaptation in the Community'](https://tinyurl.com/ph-remix-reuse), _Programming Historian_ [En línea], (23 de octubre de 2025).  
 * Charlotte Chevrie, 'Remix and Reuse: Translation and Adaptation in the Community', _Programming Historian_ [En línea], (31 de julio de 2025).
 * Anisa Hawes, ['Building your Digital Research Skills with _Programming Historian_'](https://perma.cc/6T3D-XNE6), Digital Skills in Arts and Humanities (DISKAH) network DH & RSE Summer School, King's College London, Reino Unido (4 de julio de 2025).
 * Daniel Alves & Joana Vieira Paulino “_Programming Historian em português_”, Digital Humanities Conference 2025, Fantastic Teaching Resources and Where to Find Them, NOVA School of Social Sciences and Humanities, Lisboa, (14-18 de junio de 2025).   
@@ -82,7 +86,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Jennifer Isasi & Brandon Walsh, ‘[_Programming Historian_ Book Club](https://ach.org/news/2021/09/fall-2021-programming-historian-book-club/)’, Association for Computers and the Humanities, Estados Unidos (octubre - noviembre 2021).
 * _Programming Historian_ em português, ‘Verão com Ciência 2021’, Fundação para a Ciência e Tecnologia, Portugal (septiembre 2021).
 * Adam Crymble, 'Teach Digital History Well', UCL, United Kingdom (29 de abril, 2021).
-* Silvia Gutiérrez, Jairo Melo & Riva Quiroga, ['Datos Abiertos y Humanidades Digitales'](https://github.com/programminghistorian/opendataday-2021), in _Open Data Day 2021_, virtual (6 March 2021).
+* Silvia Gutiérrez, Jairo Melo & Riva Quiroga, ['Datos Abiertos y Humanidades Digitales'](https://github.com/programminghistorian/opendataday-2021), in _Open Data Day 2021_, virtual (6 de marzo de 2021).
 * Joshua Ortiz Baco, Daniel Alves, Jimmy Medeiros, Luis Ferla, '[Programming Historian em português](https://www.youtube.com/watch?v=bt-OaMW2Fr4)' en _I Jornada Nacional de Humanidades Digitais_, IBICT, Brasil (13 de octubre 2020).
 * Adam Crymble, 'Documenting Your Digital Methods', University of Edinburgh, United Kingdom (27 de mayo 2020).
 * Adam Crymble & Jessica Parr, 'Programming Historian Silent Disco', University of Edinburgh, United Kingdom (18 de mayo 2020).
