@@ -182,7 +182,7 @@ folder as you please.
 A Second Example: The National Archives of Australia
 ----------------------------------------------------
 
-{% include alert.html text='After this lesson was originally published, the National Archvies of Australia changed their URL patterns and broke the links provided here. We are preserving the original text for reference, however you may wish to [skip to the next section](#recursive-retrieval-and-wgets-accept--a-function).' %}
+{% include alert.html text='After this lesson was originally published, the National Archives of Australia changed their URL patterns and broke the links provided here. We are preserving the original text for reference, however you may wish to [skip to the next section](#recursive-retrieval-and-wgets-accept--a-function).' %}
 
 Let's try one more example using this method of recursive retrieval.
 This lesson can be broadly applied to numerous archives, not just
@@ -197,9 +197,9 @@ Mutineers, 1789" which provides an account of the mutiny aboard the HMS
 (pages) to the notebook. This is somewhat misleading. Click on the first
 thumbnail in the top right to view the whole page. Now, *right-click -\>
 view image*. The URL should be
-'<http://nla.gov.au/nla.ms-ms5393-1-s1-v.jpg>'. If you browse through
+`<http://nla.gov.au/nla.ms-ms5393-1-s1-v.jpg>`. If you browse through
 the thumbnails, the last one is 'Part 127', which is located at
-'<http://nla.gov.au/nla.ms-ms5393-1-s127-v.jpg>'. The discrepancy
+`<http://nla.gov.au/nla.ms-ms5393-1-s127-v.jpg>`. The discrepancy
 between the range of URLs and the total number of files means that you
 may miss a page or two in the automated download – in this case there
 are a few URLs that include a letter in the name of the .jpeg
@@ -390,6 +390,6 @@ examples of Wget's power and potential.
   [No. 14 Canadian General Hospital]: https://recherche-collection-search.bac-lac.gc.ca/eng/Home/Record?app=fonandcol&IdNumber=2005110&new=-8585971893141232328
   [http://data2.archives.ca/e/e061/e001518109.jpg]: http://data2.archives.ca/e/e061/e001518029.jpg
   [leading zeros]: http://en.wikipedia.org/wiki/Leading_zero
-  [On the viewer page]: http://www.nla.gov.au/apps/cdview/?pi=nla.ms-ms5393-1
+  [On the viewer page]: https://nla.gov.au/nla.obj-233730301/view
   [Series 1: General Correspondence. 1651-1827]: http://memory.loc.gov/cgi-bin/ampage?collId=mtj1&fileName=mtj1page001.db&recNum=1&itemLink=/ammem/collections/jefferson_papers/mtjser1.html&linkText=6
   [Historical Medical Poster Collection]: http://cushing.med.yale.edu/gsdl/collect/mdposter/
