@@ -51,7 +51,11 @@ The project team and members of the wider community are involved in a number of 
 
 ## Workshops & Events
 
-* Charlotte Chevrie, 'Remix and Reuse: Translation and Adaptation in the Community', _Programming Historian_ [Online], (31 July 2025).
+* Anisa Hawes, 'Writing Digital Methods', ENABling Library and Archive participation in digital Research co-learning communities (ENABLAR) [Online], (16-17 December 2025).   
+* Anisa Hawes, ['Technical Writing in the Humanities: a facilitated writing sprint'](https://tinyurl.com/diskah-info), Digital Skills in Arts and Humanities (DISKAH) network [Online], (15 December 2025).   
+* Anisa Hawes, [‘Building your digital research skills with _Programming Historian_’](https://www.cdh.cam.ac.uk/events/39996/), Cambridge Digital Humanities, University of Cambridge [Online], (27 November 2025).   
+* Anisa Hawes, ['Remix and Reuse: Translation and Adaptation in the Community'](https://tinyurl.com/ph-remix-reuse), _Programming Historian_ [Online], (23 October 2025).   
+* Charlotte Chevrie, 'Remix and Reuse: Translation and Adaptation in the Community', _Programming Historian_ [Online], (31 July 2025).   
 * Anisa Hawes, ['Building your Digital Research Skills with _Programming Historian_'](https://perma.cc/6T3D-XNE6), Digital Skills in Arts and Humanities (DISKAH) network DH & RSE Summer School, King's College London, United Kingdom (4 July 2025).
 * Daniel Alves & Joana Vieira Paulino “_Programming Historian em português_”, Digital Humanities Conference 2025, Fantastic Teaching Resources and Where to Find Them, NOVA School of Social Sciences and Humanities, Lisbon, (14-18 June 2025).  
 * Anisa Hawes, [‘Teaching and Writing Digital Methods'](https://perma.cc/9JWJ-CEJY), Cambridge Digital Humanities, University of Cambridge, United Kingdom (28 April 2025).
