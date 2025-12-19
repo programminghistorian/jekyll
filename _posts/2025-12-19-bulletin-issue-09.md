@@ -10,9 +10,10 @@ categories: posts
 
 # Issue 09 - December 2025
 
-**Welcome** / **bienvenidos** / **bienvenue** / **bem-vindos** / to the ninth issue of *Programming Historian*’s **bulletin** / **boletín** / **bulletin** / **boletim**. In this issue, we promote our calls for fresh proposals in Portuguese and English, renew our portfolio-wide call for peer reviewers, and invite you to explore some newly published lessons. We give grateful thanks to our community supporters, and we honour and celebrate our colleague Maria José Afanador-Llach, whose contributions have helped shape what *Programming Historian* is today.
+**Welcome** / **bienvenidos** / **bienvenue** / **bem-vindos** / to the ninth issue of *Programming Historian*’s **bulletin** / **boletín** / **bulletin** / **boletim**. In this issue, we promote our calls for fresh proposals in Portuguese and English, renew our portfolio-wide call for peer reviewers, and invite you to explore some newly published lessons. We give grateful thanks to our community of supporters, and we honour and celebrate our colleague María José Afanador-Llach, whose contributions have helped shape what *Programming Historian* is today.
 
 ---
+
 ## Chamada Aberta para Proposta (edição em português)
 
 A edição em português do _Programming Historian_ está com chamada aberta para propostas de novas lições originais ou traduções para publicação em 2025-6. Nesta chamada, propostas de originais terão prioridade na publicação.
@@ -28,6 +29,7 @@ Saiba mais: [tinyurl.com/ph-chamada-aberta](https://tinyurl.com/ph-chamada-abert
 Envie-nos a sua proposta até 31 de dezembro de 2025: [tinyurl.com/pt-ph-proposta-2025](https://tinyurl.com/pt-ph-proposta-2025)
 
 ---
+
 ## Call for Proposals (English edition)
 
 Our English edition invites proposals for new original lessons or translations to be considered for publication in 2026. In this call, we would particularly like to encourage proposals for translations.
@@ -43,6 +45,7 @@ Learn more: [tinyurl.com/open-call-2025-blog](https://tinyurl.com/open-call-2025
 Send us your proposal by 15 February 2026: [tinyurl.com/open-call-2025-form](https://tinyurl.com/open-call-2025-form)
 
 ---
+
 ## Renewing our Call for Reviewers
 
 **Would you like to contribute to the development of another high-quality _Programming Historian_ lesson?**   
@@ -54,6 +57,7 @@ Anyone who is working, teaching, or learning with computational methods. You mig
 **Please register your interest to participate in your preferred language(s):** [**Form in English**](https://tinyurl.com/en-ph-peer-review) // [**Formulario en español**](https://tinyurl.com/es-ph-revision-por-pares) // [**Formulaire en français**](https://tinyurl.com/fr-ph-evaluation) // [**Enviar um email ao Editor-Chefe em português**](mailto:portugues@programminghistorian.org)
 
 ---
+
 ## New Lessons
 
 - Nicolás Vaughan, translated by Ashlyn Stewart  
@@ -69,6 +73,7 @@ Anyone who is working, teaching, or learning with computational methods. You mig
   - Nesta lição aprenderá à georreferenciar imagens digitais com informação geográfica e vinculá-la a sistemas de informação geográfica.
 
 ---
+
 ## Farewell and thank you to María José Afanador-Llach
 
 This quarter, we honour and celebrate **María José Afanador-Llach**, who steps down from her role on our Spanish team having worked with us since 2016. One of our longest-serving volunteers, María José’s dedication and extensive contributions have helped shape what _Programming Historian_ is today. **Adam Crymble**, **Silvia E. Gutiérrez De la Torre**, and **Jennifer Isasi** share their tributes:
@@ -98,10 +103,11 @@ Con la energía de los jugos de lulo y todo el café colombiano que se pudo toma
 Así que mejor dicho: hasta pronto.
 >
 >Jennifer Isasi
+
 ---
 ## UCL Open Science & Scholarship Awards 2025
 
-We also take this opportunity to congratulate our colleague Adam Crymble, co-founder and first chair of _Programming Historian_, the winner of a [UCL Open Science & Scholarship Award 2025](https://blogs.ucl.ac.uk/open-access/2025/10/06/open-science-scholarship-award-winners-2025/) in the Open Publishing category. Well done to all the staff and students whose contributions to promoting open scholarship have been recognised by these awards.
+We also take this opportunity to congratulate our colleague Adam Crymble, co-founder and first chair of _Programming Historian_, who is the winner of a [UCL Open Science & Scholarship Award 2025](https://blogs.ucl.ac.uk/open-access/2025/10/06/open-science-scholarship-award-winners-2025/) in the Open Publishing category. Well done to all the staff and students whose contributions to promoting open scholarship have been recognised by these awards.
 
 ---
 ## Our Supporters
