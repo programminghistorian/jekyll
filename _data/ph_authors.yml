@@ -3273,16 +3273,16 @@
   sortname: Hersent
   affiliation:
     en: |
-      MAP (UPR 2002), Marseille, France
+      CNE (UMR 8562), Marseille, France
     es: |
-      MAP (UPR 2002), Marseille, Francia
+      CNE (UMR 8562), Marseille, Francia
     fr: |
-      MAP (UPR 2002), Marseille, France
+      CNE (UMR 8562), Marseille, France
     pt: |
-      MAP (UPR 2002), Marseille, França
+      CNE (UMR 8562), Marseille, França
   bio:
     fr: |
-      Hersent Melvin est doctorant en sciences du patrimoine au sein du laboratoire du MAP à Marseille.
+      Melvin Hersent est gestionnaire d’infrastructure au sein du laboratoire du CNE à Marseille.
   team_roles:
     - french
     - editorial
