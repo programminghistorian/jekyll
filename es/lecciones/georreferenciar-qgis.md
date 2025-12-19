@@ -70,9 +70,9 @@ Para el estudio de caso de la Isla del Príncipe Eduardo (conocida por sus sigla
 
 Este es el shapefile (archivo de entidades vectoriales) que contiene la capa de vectores actuales que usaremos para georreferenciar el mapa histórico.  Nótese que las municipalidades no tenían nombres en 1764, sin embargo, tenían números asignados a cada lote, razón por la cual son referidos como "Lots" en PEI. De ahí que el archivo se llame 'lot\_township\_polygon'.
 
-- Navegua al siguiente enlace, acepta la licencia de uso y descargua 'lot\_township\_polygon'  (En algunas ocasiones te preguntarán tu nombre y correo electrónico antes de poder descargar el archivo).
+- Descargua 'lot\_township\_polygon':
 
-<http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP>
+[lot_town.SHP.zip](/assets/qgis-layers/lot_town.SHP.zip)
 
 - Después de descargar el archivo llamado 'lot \ _township \ _polygon', muévelo a una carpeta que puedas encontrar después y descomprime el archivo. (Recuerda mantener los archivos juntos ya que todos son necesarios para abrir esta capa en tu SIG)
 

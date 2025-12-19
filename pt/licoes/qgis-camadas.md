@@ -66,13 +66,13 @@ O QGIS é bastante simples de se instalar na maior parte das versões do Linux. 
 
 Estaremos utilizando alguns dados governamentais da província de Prince Edward Island (PEI), no Canadá. A PEI é um ótimo exemplo, pois conta com vários dados disponíveis online gratuitamente e porque é a menor província canadense, o que torna os downloads rápidos! Baixe os "[shapefiles](https://perma.cc/2V6W-62AZ)" (ficheiros `.shp`) da PEI:
 
-Entre nos links abaixo em seu navegador. Desenvolvemos os dois últimos *shapefiles*, então eles devem baixar automaticamente:
+Descarregue os seguintes ficheiros *shapefiles*:
 
-1.  <http://www.gov.pe.ca/gis/download.php3?name=coastline&file_format=SHP>
-2.  <http://www.gov.pe.ca/gis/download.php3?name=lot_town&file_format=SHP>
-3.  <http://www.gov.pe.ca/gis/download.php3?name=hydronetwork&file_format=SHP>
+1.  [coastline.SHP.zip](/assets/qgis-layers/coastline.SHP.zip)
+2.  [lot_town.SHP.zip](/assets/qgis-layers/lot_town.SHP.zip)
+3.  [hydronetwork.SHP.zip](/assets/qgis-layers/hydronetwork.SHP.zip)
 4.  <http://www.gov.pe.ca/gis/download.php3?name=forest_35&file_format=SHP>
-5.  <http://www.gov.pe.ca/gis/download.php3?name=nat_parks&file_format=SHP>
+5.  [nat_parks.SHP.zip](/assets/qgis-layers/nat_parks.SHP.zip)
 6.  [PEI Highways](/assets/qgis-layers/PEI_highway.zip)
 7.  [PEI Places](/assets/qgis-layers/PEI_placenames.zip)
 
