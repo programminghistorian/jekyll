@@ -3,7 +3,7 @@ title: "Gestionar fuentes primarias digitales con Tropy"
 slug: gestionar-fuentes-primarias-digitales-con-tropy
 layout: lesson
 collection: lessons
-date: 2025-12-19
+date: 2026-01-07
 authors:
 - Douglas McRae
 reviewers:
