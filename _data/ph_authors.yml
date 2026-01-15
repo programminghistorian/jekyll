@@ -3273,16 +3273,16 @@
   sortname: Hersent
   affiliation:
     en: |
-      MAP (UPR 2002), Marseille, France
+      CNE (UMR 8562), Marseille, France
     es: |
-      MAP (UPR 2002), Marseille, Francia
+      CNE (UMR 8562), Marseille, Francia
     fr: |
-      MAP (UPR 2002), Marseille, France
+      CNE (UMR 8562), Marseille, France
     pt: |
-      MAP (UPR 2002), Marseille, França
+      CNE (UMR 8562), Marseille, França
   bio:
     fr: |
-      Hersent Melvin est doctorant en sciences du patrimoine au sein du laboratoire du MAP à Marseille.
+      Melvin Hersent est gestionnaire d’infrastructure au sein du laboratoire du CNE à Marseille.
   team_roles:
     - french
     - editorial
@@ -3361,3 +3361,10 @@
   bio:
     fr: |
       Pascal Martinolli est bibliothécaire à la Bibliothèque des lettres et sciences humaines de l'Université de Montréal, Montréal, QC, Canada.
+
+- name: Douglas McRae
+  orcid: 0000-0003-0989-5122
+  team: false
+  bio:
+    es: |
+      Douglas McRae se doctoró en historia de América Latina en Georgetown University. Fue coordinador de educación para Tropy a través del Roy Rosenzweig Center for History and New Media en George Mason University.

@@ -99,14 +99,13 @@ Prince Edward Island. PEI is a great example because there is a lot of
 data for free online and because it is Canada's smallest province,
 making the downloads quick!
 
--   Navigate to the links below in your web browser and then download
-the following PEI shapefiles. We created the final two, so they will download directly:
+-   Download the following PEI shapefiles:
 
-1.  <https://www.gov.pe.ca/gis/download.php3?name=coastline&file_format=SHP>
-2.  <https://www.gov.pe.ca/gis/download.php3?name=lot_town&file_format=SHP>
-3.  <https://www.gov.pe.ca/gis/download.php3?name=hydronetwork&file_format=SHP>
-4.  <https://www.gov.pe.ca/gis/download.php3?name=forest_35&file_format=SHP>
-5.  <https://www.gov.pe.ca/gis/download.php3?name=nat_parks&file_format=SHP>
+1.  [coastline.SHP.zip](/assets/qgis-layers/coastline.SHP.zip)
+2.  [lot_town.SHP.zip](/assets/qgis-layers/lot_town.SHP.zip)
+3.  [hydronetwork.SHP.zip](/assets/qgis-layers/hydronetwork.SHP.zip)
+4.  <http://www.gov.pe.ca/gis/download.php3?name=forest_35&file_format=SHP>
+5.  [nat_parks.SHP.zip](/assets/qgis-layers/nat_parks.SHP.zip)
 6.  [PEI Highways][]
 7.  [PEI Places][]
 

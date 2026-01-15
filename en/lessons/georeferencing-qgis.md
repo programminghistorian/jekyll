@@ -100,9 +100,9 @@ given names but rather a lot number in 1764, so they are usually
 referred to as 'Lots' in PEI. Hence the file name
 'lot\_township\_polygon'.
 
--   Navigate to the link below in your web browser and download the file.
+-   Download the file:
 
-<https://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP>
+[lot_town.SHP.zip](/assets/qgis-layers/lot_town.SHP.zip)
 
 -   After downloading the file called 'lot\_township\_polygon', move it
     into a folder that you can find later and unzip the file. (Remember

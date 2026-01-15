@@ -116,7 +116,7 @@ R pode fazer muito mais do que simples aritmética. É possível criar objetos, 
 [1] 112
 ```
 
-R é sensível a maiúsculas e minúsculas, portanto tenha cuidado para usar a mesma notação quando usar as variáveis que foram atribuídas (ou nomeadas) em outras ações. Veja o artigo de Rasmus Bååth, [The State of Naming Conventions in R](https://journal.r-project.org/archive/2012-2/RJournal_2012-2_Baaaath.pdf) (em inglês), para mais informações sobre como nomear melhor as variáveis.
+R é sensível a maiúsculas e minúsculas, portanto tenha cuidado para usar a mesma notação quando usar as variáveis que foram atribuídas (ou nomeadas) em outras ações. Veja o artigo de Rasmus Bååth, [The State of Naming Conventions in R](https://perma.cc/ME6W-JZJQ) (em inglês), para mais informações sobre como nomear melhor as variáveis.
 
 Para remover uma variável do console, digite <code class="highlighter-rouge">rm()</code> (*remove* ou apagar) com a variável da qual se deseja apagar dos parênteses, e pressione Enter. Para ver todas as variáveis atribuídas, digite <code class="highlighter-rouge">ls()</code> (*list objects* ou lista de objetos) no console e pressione Enter. Isto pode ajudar a evitar o uso do mesmo nome para múltiplas variáveis. Isto também é importante porque R armazena todos os objetos que são criados em sua memória, portanto, mesmo que não se consiga ver uma variável nomeada <code class="highlighter-rouge">x</code> no console, ela pode ter sido criada antes e acidentalmente poderia sobrescrevê-la ao atribuir outra variável.
 
@@ -567,3 +567,4 @@ Finalmente, um grande recurso para historiadores digitais é o [Lincoln Mullen�
 [^1]: Box, G. E. P., Jenkins, G. M. e Reinsel, G. C. (1976), Time Series Analysis, Forecasting and Control. Third Edition. Holden-Day. Series G.
 [^2]: Henderson e Velleman (1981), Building multiple regression models interactively. Biometrics, 37, 391Ð411.
 [^3]: Nota da tradutora: Um galão equivale a 3,78 litros e uma milha equivale a 1,6 quilômetros.
+

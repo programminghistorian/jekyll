@@ -366,7 +366,7 @@ print('created: ', filename)
 ## 7. Uploading to the World Historical Gazetteer
 Now that we have a Linked Places TSV, we will upload it to the World Historical Gazetteer (WHG). The WHG is a fully web-based application. It indexes place names drawn from historical sources, adding temporal depth to a corpus of approximately 1.8 million modern records. This is especially useful for places which have changed names over time. By using the WHG, users can upload their data and rapidly find the coordinates of historical places (provided that the places are in the WHG index and have coordinates). As mentioned in the gazetteer section above, this service provides automatic geocoding that is suitable for use with historical data. Many common geocoding services including Google Maps, as well as those behind a paywall barrier such as ArcGIS, are unsuitable for historical research as they are based primarily upon 21st century information. They rarely support historical place name information beyond the most common instances. Additionally, the WHG also supports a multitude of languages. Finally, geocoding and basic mapping are achievable through a graphical user interface. This circumnavigates the need to use a script, to trace layers from maps in a different program, or create relational databases and table joins in GIS software.
 
-The WHG is free to use. To get started, [register for an account](https://whgazetteer.org/accounts/register/) and then sign in.
+The WHG is free to use. To get started, [register for an account](https://whgazetteer.org/accounts/login/) and then sign in.
 
 {% include figure.html filename="FINDING-PLACES-WORLD-HISTORICAL-GAZETTEER2.JPG" caption="Figure 3: Register" %}
 
@@ -432,3 +432,4 @@ The reconciliation process will not only give you a static map, but it will also
 
 
 You can then use the augmented dataset in desktop or web-based mapping applications such as [QGIS](https://perma.cc/YH53-UVCD) or [ArcGIS Online](https://www.arcgis.com/index.html) to undertake more advanced geographic information system (GIS) spatial analysis. In these programs, you can change the map visualizations, perform analysis, or make a multimedia web mapping project. We highly recommend you look at the additional _Programming Historian_ mapping lessons, specifically [Installing QGIS and Adding Layers](https://doi.org/10.46430/phen0031) as well as [Creating Vector Layers in QGIS](https://doi.org/10.46430/phen0034) to see how you can use the results of this lesson to carry out further analysis.
+

@@ -354,7 +354,7 @@ for i, page in enumerate(img_pages):
 
 ## Acesso à API
 
-Nós conectamos à biblioteca API do Python usando uma conta no Archive.org com e-mail e palavra-chave ao invés das chaves de acesso do API. Isto é discutido no [Guia Quickstart](https://archive.org/services/docs/api/internetarchive/quickstart.html). Se não tiver uma conta, [registre-se](https://archive.org/account/login.createaccount.php) para obter o seu "Virtual Library Card".
+Nós conectamos à biblioteca API do Python usando uma conta no Archive.org com e-mail e palavra-chave ao invés das chaves de acesso do API. Isto é discutido no [Guia Quickstart](https://archive.org/developers/index.html). Se não tiver uma conta, [registre-se](https://archive.org/account/login.createaccount.php) para obter o seu "Virtual Library Card".
 
 Na primeira célula do *notebook* `internetarchive.ipynb`, introduza as suas credenciais como indicado. Execute a célula para autenticar-se perante a API.
 
@@ -481,3 +481,5 @@ Assim que o leitor tiver entendido as principais funções e o código de *unpac
 [^1]: **Nota de tradução**: Aconselhamos o leitor a adicionar o Python ao PATH, processo que pode ser feito na ocasião da sua instalação. Isto irá suavizar a incorporação das dependências (veja *Dependências*).
 
 [^2]: **Nota de tradução**: Inicialmente, aparece uma página de transição, a qual deverá remeter rapidamente para o Jupyter. Caso tal não aconteça, basta seguir as instruções nesta página.
+
+

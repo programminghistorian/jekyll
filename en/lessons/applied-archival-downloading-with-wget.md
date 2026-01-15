@@ -182,7 +182,7 @@ folder as you please.
 A Second Example: The National Archives of Australia
 ----------------------------------------------------
 
-{% include alert.html text='After this lesson was originally published, the National Archvies of Australia changed their URL patterns and broke the links provided here. We are preserving the original text for reference, however you may wish to [skip to the next section](#recursive-retrieval-and-wgets-accept--a-function).' %}
+{% include alert.html text='After this lesson was originally published, the National Archives of Australia changed their URL patterns and broke the links provided here. We are preserving the original text for reference, however you may wish to [skip to the next section](#recursive-retrieval-and-wgets-accept--a-function).' %}
 
 Let's try one more example using this method of recursive retrieval.
 This lesson can be broadly applied to numerous archives, not just

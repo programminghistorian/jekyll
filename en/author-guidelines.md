@@ -20,14 +20,14 @@ These guidelines have been developed to help you understand the process of creat
 ## Step 1: Proposing a New Lesson
 
 <div class="alert alert-success">
-Our English journal will open its next annual submission window in October 2025. In the meantime, you may find it useful to <a href="/posts/en-call-for-proposals">consult our past call for proposals</a> (closed in January 2025). Submissions to our <a href="/es/guia-para-autores#paso-1-proponer-una-nueva-lección">Spanish</a>, <a href="/fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon">French</a> and <a href="/pt/directrizes-autor#etapa-1-propor-uma-nova-lição">Portuguese</a> journals are open year-round.
+Our English journal is currently seeking proposals for new original lessons or translations to be considered for publication in 2026. Learn more in our <a href="/posts/en-call-for-proposals-2025-6">our call for proposals</a> (open until 15 February 2026). Submissions to our <a href="/es/guia-para-autores#paso-1-proponer-una-nueva-lección">Spanish</a>, <a href="/fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon">French</a> and <a href="/pt/directrizes-autor#etapa-1-propor-uma-nova-lição">Portuguese</a> journals are open year-round.
 </div>
 
 You can get a sense of what we publish by looking through our [published lessons]({{site.baseurl}}/en/lessons), reading our [reviewer guidelines]({{site.baseurl}}/en/reviewer-guidelines) or browsing [lessons in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/en/drafts). Please also take a moment to check our [Lesson Concordance document](https://docs.google.com/spreadsheets/d/1vrvZTygZLfQRoQildD667Xcgzhf_reQC8Nq4OD-BRIA/edit#gid=0) to see which methods we have already covered in our published or forthcoming lessons. 
 
-If your proposal is accepted, an editor will create a "Proposal" page on our [submissions website](https://github.com/programminghistorian/ph-submissions/issues) with the lesson's working title and proposed learning outcomes. This serves to mark the work in progress. To ensure timely publication, authors should submit their draft article within 90 days.
+If your proposal is accepted, an editor will create a "Proposal" page on our [submissions website](https://github.com/programminghistorian/ph-submissions/issues) with the lesson's working title and proposed learning outcomes. This serves to mark the work in progress. To ensure timely publication, authors should submit their draft article within 45 days.
 
-During this 90 day period, your point of contact will be the managing editor or an editor delegated at the managing editor's perogative.
+During this 45 day period, your point of contact will be the managing editor or an editor delegated at the managing editor's perogative.
 
 ## Step 2: Writing and Formatting a New Lesson
 This style guide lays out a set of standards for authors to use when creating or translating English-language lessons for *Programming Historian*. By using it, you help us ensure content is consistent and accessible.
