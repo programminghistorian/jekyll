@@ -1,6 +1,7 @@
 ---
 layout: blank
 title: Translation Concordance
+permalink: /translation-concordance/
 ---
 
 An automatically-generated list of page translation relationships across our publications.
