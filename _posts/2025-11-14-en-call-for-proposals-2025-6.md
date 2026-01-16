@@ -65,7 +65,9 @@ _Programming Historian_'s English edition is inviting proposals to fill gaps in 
 
 **If you have an idea, please send us a proposal by 15 February 2026.**
 
-Our editorial team will review all proposals, and return feedback **by 15 March 2026**. Proposals are considered on the basis of how well they serve the needs of the community, and whether they support our journal’s ambitions of openness, global access, multilingualism and sustainability. **Selected proposals will be invited for submission as first drafts within 45 days.** Submissions should not exceed 8,000 words (including code).
+Our editorial team will review all proposals, and return feedback **by 15 March 2026**. 
+
+Proposals are considered on the basis of how well they serve the needs of the community, and whether they support our journal’s ambitions of openness, global access, multilingualism and sustainability. **Selected proposals will be invited for submission as first drafts within 45 days.** Submissions should not exceed 8,000 words (including code).
 
 >In keeping with our commitment to diversity and equal access within digital humanities, we encourage proposals from women, members of marginalised groups, LGBTQ+ members, and peoples from the Global South. With this call, we strongly encourage the participation of Anglophone and multilingual communities beyond North America.
 
