@@ -1,6 +1,7 @@
 ---
 layout: base
 title: The Programming Historian en français
+permalink: /fr/
 ---
 <div class="container" style="text-align:center">
 	<img class="home-image" src="{{ site.baseurl }}/images/website/index/woman-using-tabulator.png" />

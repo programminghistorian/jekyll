@@ -9,9 +9,9 @@ http_status_ignore:
   - 403
   - 400
 url_ignore:
-  - /\/\/www.gutenberg.org\/.*?/
-  - /https:\/\/github.com\/programminghistorian\/.*?/
-  - /https:\/\/github.com\/orgs\/programminghistorian\/.*?/
+  - /\/\/www.gutenberg.org\/.*/
+  - /https:\/\/github.com\/programminghistorian\/.*/
+  - /https:\/\/github.com\/orgs\/programminghistorian\/.*/
   - /\#/
   - /espanol/
   - /deprecated/
@@ -21,12 +21,13 @@ url_ignore:
   - /https:\/\/web.archive.org\/web\/20180831094856\/http:\/\/www.dlsi.ua.es\/~borja\/riilua\/6.TopicModeling_v02.pdf/
   - https://github.com/programminghistorian/jekyll/commits/gh-pages
   - https://github.com/programminghistorian/jekyll/commits/gh-pages/.*
-directory_ignore:
-  - assets
-  - retired
-  - retirada
-  - retrait
-  - posts
+ignore_files:
+  - /_site\/assets\/.*/
+  - /_site\/retired\/.*/
+  - /_site\/retirada\/.*/
+  - /_site\/retrait\/.*/
+  - /_site\/posts\/.*/
+  - /_site\/blog\/.*/
 ignore_elements:
   - pre
   - code
@@ -34,5 +35,6 @@ ignore_elements:
 typhoeus:
   connecttimeout: 30
   timeout: 60
+hydra:
   max_concurrency: 2
 log_level: debug

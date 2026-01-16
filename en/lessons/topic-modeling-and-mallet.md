@@ -373,7 +373,7 @@ bin\mallet import-dir --input sample-data\web\de --output tutorial.mallet --keep
 
 And then finally, you could use your own data. Change `sample-data\web\de` to a directory that contains your own research files. Good luck!
 
-If you are unsure how directories work, we suggest the *Programming Historian* lesson ["Introduction to the Bash Command Line"](/lessons/intro-to-bash).
+If you are unsure how directories work, we suggest the *Programming Historian* lesson ["Introduction to the Bash Command Line"](/en/lessons/intro-to-bash).
 
 ### For Mac
 
@@ -599,7 +599,7 @@ report.
     'Methods' section is especially important, in that it discusses
     preparing text for this sort of analysis.
 
-  [Bash Command Line]: /lessons/intro-to-bash
+  [Bash Command Line]: /en/lessons/intro-to-bash
   [discussion list]: https://mallet.cs.umass.edu/mailinglist.php
   [Distant Reading]: https://www.cs.umbc.edu/~hillol/NGDM07/abstracts/talks/MKirschenbaum.pdf
   [Reading Machines]: https://www.worldcat.org/title/reading-machines-toward-an-algorithmic-criticism/oclc/708761605&referer=brief_results

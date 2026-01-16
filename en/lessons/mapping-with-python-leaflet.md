@@ -83,7 +83,7 @@ Finally, [Pip](https://pip.readthedocs.org/en/stable/) is a very useful package 
 
 For the most up to date instructions, you can visit [pip's installation manual](https://pip.readthedocs.org/en/stable/installing/).
 
-To install Geopy and Pandas, open your [command line (using this lesson as a guideline if necessary)](/lessons/intro-to-bash) and install the Geopy and Pandas libraries:
+To install Geopy and Pandas, open your [command line (using this lesson as a guideline if necessary)](/en/lessons/intro-to-bash) and install the Geopy and Pandas libraries:
 
 On OS X or Linux, the following commands will install the necessary packages:
 

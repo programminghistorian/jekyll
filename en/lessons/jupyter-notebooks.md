@@ -134,7 +134,7 @@ Note that this isn't the only way to make files appear in the Jupyter Notebook f
 
 ### Creating a new notebook
 
-<a id="creating"></a>
+<span id="creating"></span>
 Inside the *notebooks* folder, create a new Jupyter notebook to use to convert the dates for your research project. Click the "New" button in the upper right of the Jupyter Notebook file browser interface. If you've just installed Anaconda as described above, your only option will be to create a Jupyter notebook using the Python 3 *kernel* (the backend component that actually runs the code written in the notebook), but we'll discuss below how to add kernels for other languages. Click on "Python 3", and Jupyter Notebook will open a new tab with the interface for Jupyter notebooks themselves. By default, the notebook will be named "Untitled"; you can click on that text at the top of the screen to rename it.
 
 {% include figure.html filename="jupyter-createnew.png" caption="Creating a new Jupyter notebook" %}
@@ -332,7 +332,7 @@ If you're already using Jupyter notebooks for documenting the workflow for your 
 
 There are many digital humanities "Intro to Python" courses and workshops that use Jupyter notebooks (including [Introduction à Python et au développement web avec Python pour les sciences humaines](https://github.com/PonteIneptique/cours-python) by Thibault Clérice, translated from material by Matthew Munson). Jupyter notebooks are also commonly used in text analysis workshops, such as the [word vectors workshop at DH 2018](https://github.com/sul-cidr/dh2018-word-vector-workshops), taught by Eun Seo Jo, Javier de la Rosa, and Scott Bailey.
 
-<a id="cloud"></a>
+<span id="cloud"></span>
 Teaching with Jupyter notebooks doesn't always have to involve the time-consuming process of downloading and installing Anaconda, especially if you're envisioning only having one or two lessons that involve notebooks. If your classroom activities with Jupyter notebooks involve using example data that you've already prepared, and if you've already written at least some of the code, you may want to explore running Jupyter notebooks using free cloud computing resources, as long as your students are guaranteed to have reliable internet connectivity in the classroom. Running notebooks in the cloud also provides a consistent environment for all students, sparing you from having to negotiate differences between Windows and Mac, or provide an alternative for students whose laptops lack the hard drive space or memory to run Anaconda effectively.
 
 Because the options are evolving quickly, it's best to use your favorite search engine to find a recent list of cloud computing options for Jupyter Notebooks. One project that has seen particular uptake among academic users of notebooks is [MyBinder](https://mybinder.org/), which will take a GitHub repository that contains Jupyter notebook .ipynb files related data (embedded images, data sets you want to use the notebooks on, etc.), and information about necessary packages and dependencies (in a requirements.txt or environment.yml file), and make it launchable using a cloud server. Once you've had MyBinder package up your GitHub repo, you can add a Binder "badge" to the readme file for the repo. Anyone viewing the repo can launch the notebook directly from their browser, without having to download or install anything.

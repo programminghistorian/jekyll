@@ -46,7 +46,7 @@ After we began working on this project, several other options for building onlin
 * Explain the process of parsing, cleaning and formatting data for maps.
 * Explore the analytical possibilities of mapping correspondence.
 
-Note: This lesson requires using the command line (or Command Prompt). If you have never used a command line interface before, you might want to read other Programming Historian lessons on [the command line]({{site.baseurl}}/lessons/intro-to-bash) or [PowerShell]({{site.baseurl}}/lessons/intro-to-powershell), depending on your operating system. You can use the built-in command line tool in your operating system for all of the tasks in this lesson.
+Note: This lesson requires using the command line (or Command Prompt). If you have never used a command line interface before, you might want to read other Programming Historian lessons on [the command line]({{site.baseurl}}/en/lessons/intro-to-bash) or [PowerShell]({{site.baseurl}}/en/lessons/intro-to-powershell), depending on your operating system. You can use the built-in command line tool in your operating system for all of the tasks in this lesson.
 
 ## Set Up
 

@@ -17,7 +17,7 @@ doi: 10.46430/phen0042
 
 ## Lesson Goals
 
-The goal of this lesson is to teach how to do OCR (Optical Character Recognition) for printed or typewritten text. After this lesson you will able to convert printed and typewritten texts into digital text files. In order to be able to go through all the steps the OCR'ing process demands, you'll need to have access to either a scanner or digital camera, a computer with internet access, some patience, and a lot of curiosity! We will make a few easy commands using the Command line, but if you have never used it before, you might want to look at the lesson [Introduction to the Bash Command Line] (/lessons/intro-to-bash). I use Windows, but these instructions should function also in Mac.
+The goal of this lesson is to teach how to do OCR (Optical Character Recognition) for printed or typewritten text. After this lesson you will able to convert printed and typewritten texts into digital text files. In order to be able to go through all the steps the OCR'ing process demands, you'll need to have access to either a scanner or digital camera, a computer with internet access, some patience, and a lot of curiosity! We will make a few easy commands using the Command line, but if you have never used it before, you might want to look at the lesson [Introduction to the Bash Command Line](/en/lessons/intro-to-bash). I use Windows, but these instructions should function also in Mac.
 
 
 ## Why OCR?
@@ -31,10 +31,14 @@ OCR'ing takes a lot of time. You'll spend numerous hours with your documents, an
 
 The OCR process can be divided into four stages:
 
-* [Prework](#prework)
-* [Image Preprocessing](#imagepreprocessing)
-* [OCR](#ocr)
-* [OCR Cleaning](#ocrcleaning)
+- [Introduction to OCR](#introduction-to-ocr)
+	- [Lesson Goals](#lesson-goals)
+	- [Why OCR?](#why-ocr)
+	- [Stages of the Lesson](#stages-of-the-lesson)
+	- [Prework](#prework)
+	- [Image Preprocessing](#image-preprocessing)
+	- [OCR](#ocr)
+	- [OCR Cleaning](#ocr-cleaning)
 
 In this lesson, [Prework](#prework) means scanning or taking digital photographs of the printed or typewritten texts. The [Image Preprocessing](#imagepreprocessing) part means the work you do to the acquired images so that they will be more readable for the OCR program. [OCR](#ocr) is the process where a program converts the images of the letters, which are not understandable to a computer, into letters that are computer readable. The result of the OCR will not be without misspellings and other errors. Therefore, you'll need to [Clean the OCR](#ocrcleaning) output so that you'll be able to use it for your purposes.
 
@@ -43,7 +47,7 @@ Before starting, try to doublecheck that no-one else has done the work already. 
 Ok, are you ready? Let's start then!
 
 
-## <a name="prework"></a>Prework
+## <span name="prework"></span>Prework
 
 So, now that you have the material you want to convert into text form, there are two options for doing the prework. The preferable option is to scan the texts, if you have a good scanner. If you don't, you can take digital photographs of the documents. Scanning is a better option, because when the paper lays on the scanner's glass, it will be more or less straight. When you are taking photographs of a big book, the flexure of the paper might cause reduced readability later in the process.
 
@@ -60,11 +64,11 @@ I use Zotero for keeping track of the metadata of my sources, and here is an exa
 {% include figure.html filename="OCR02.png" caption="My metadata in Zotero" %}
 
 
-## <a name="imagepreprocessing"></a>Image Preprocessing
+## <span id="imagepreprocessing"></span>Image Preprocessing
 
 So, now that we have the text as an image, we will move on to image preprocessing.
 
-For image preprocessing I use a free and open source program called *Scan Tailor*. You can download Scan Tailor [here] (https://scantailor.org/downloads/).
+For image preprocessing I use a free and open source program called *Scan Tailor*. You can download Scan Tailor [here](https://scantailor.org/downloads/).
 
 When you have downloaded Scan Tailor, open the text scans in the program by clicking "New project", browsing and selecting the file where you saved your text scans, and finally selecting the images you want to preprocess. Scan Tailor is a relatively heavy program, which means that it reserves quite a lot of the computer's capacity. For that reason it is better to divide large files into smaller entities, and preprocess them in parts. When starting a new project you can choose which images you want to select for preprocessing. When you have selected the scans for preprocessing, click "OK".
 
@@ -108,7 +112,7 @@ If you feel you need more instructions on how to use Scan Tailor, they have good
 Save the preprocessed images to a place where it is easy to access them by using the command line.
 
 
-## <a name="ocr"></a>OCR
+## <span id="ocr"></span>OCR
 
 OK, let's move on! For OCR we will use a free and open source program called Tesseract.
 
@@ -184,7 +188,7 @@ The batched text file will appear in the file.
 Now you have the OCR raw data! Congratulations!
 
 
-## <a name="ocrcleaning"></a>OCR Cleaning
+## <span id="ocrcleaning"></span>OCR Cleaning
 
 So, now as you look at the OCR'd text, you will notice soon, that the text is not perfect. Some words are probably not separated and some letters are not correctly written. What remains to be done, is to go through the text, and correct the errors.
 

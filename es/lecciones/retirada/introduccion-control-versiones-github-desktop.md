@@ -333,4 +333,4 @@ GitHub Desktop es una forma sencilla de aprender a controlar versiones con GitHu
 * Para [estudiantes](https://education.github.com/pack) e [investigadores](https://github.com/blog/1840-improving-github-for-science) GitHub ofrece repositorios privados sin pagar por una suscripción. Estos repositorios pueden ser útiles para borradores o notas que no queremos publicar. Nota: no es muy aconsejable guardar contenido delicado incluso en un repositorio privado en GitHub.
 * [ProfHacker](https://web.archive.org/web/20170716182645/https://www.chronicle.com/blogs/profhacker/tag/github) tiene varias entradas sobre proyectos que utilizan GitHub en el contexto académico.
 * [GitHub, Academia, and Collaborative Writing](https://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing) reflexioina sobre el uso de GitHub para la escritura colaborativa.
-* La lección [Introducción a Bash](/lessons/intro-to-bash) te permitirá aprender más sobre la línea de comandos, muy útil para utilizar GitHub.
+* La lección [Introducción a Bash](/en/lessons/intro-to-bash) te permitirá aprender más sobre la línea de comandos, muy útil para utilizar GitHub.

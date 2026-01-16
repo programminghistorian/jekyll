@@ -923,7 +923,7 @@ For fast processing of very large files, or of JSON lines spread across multiple
 
 The easiest way to install jq on OS X is to use the package management system [Homebrew](https://brew.sh/).
 This system works via OS X's "Terminal" application, which gives you access to the Bash command line.
-[For an introduction to this system, see The Programming Historian's "Introduction to the Bash Command Line".](/lessons/intro-to-bash)
+[For an introduction to this system, see The Programming Historian's "Introduction to the Bash Command Line".](/en/lessons/intro-to-bash)
 
 Follow the installation instructions for Homebrew itself, and then use this command to install jq:
 
@@ -963,7 +963,7 @@ wget -qO- http://programminghistorian.org/assets/json-and-jq/jq_rkm.json | jq -r
 ```
 
 Note that you must use the `wget` flag `-qO-` in order to send the output of `wget` into `jq` by way of a shell pipe.
-You can read more about command line pipes in ["Introduction to the Bash Command Line"](/lessons/intro-to-bash) (OS X) or ["Introduction to PowerShell"](/lessons/intro-to-powershell.html) (Windows).
+You can read more about command line pipes in ["Introduction to the Bash Command Line"](/en/lessons/intro-to-bash) (OS X) or ["Introduction to PowerShell"](/lessons/intro-to-powershell.html) (Windows).
 
 ## Further Resources
 

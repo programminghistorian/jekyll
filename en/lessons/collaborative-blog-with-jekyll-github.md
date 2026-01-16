@@ -82,7 +82,7 @@ Log into GitHub (create an account if you don't have one). On the upper left of 
 
     {% include figure.html filename="groupblogging-new-demo-repo.png" caption="Screenshot of creating a new repository" %}
 
-<a id="name-your-repo"></a>In the "Repository name" field, write a short name for your repository. We recommend "CollabDemo", as this matches the demo repository we set up.
+<span id="name-your-repo"></span>In the "Repository name" field, write a short name for your repository. We recommend "CollabDemo", as this matches the demo repository we set up.
 
 Skip all other options on the page and click on the green "Create repository" button at the bottom of the page.
 
@@ -311,7 +311,7 @@ Click on "Integrations" in the left menu. Under "Installed GitHub Apps", Netlify
 
 Scroll down to the "Repository access" section. Both options will work: the radio button next to "All repositories" is selected; or if you have other repositories you are not sure you want Netlify to run on, select the radio button next to "Only select repositories". For the latter choice, your repository should appear in the list immediately below; if it does not, use the "Select repositories" dropdown menu to add your /CollabDemo repository. Click the green "save" button. You might get redirected to Netlify at this point, but we want to keep doing a few other things in the GitHub interface.
 
-<a id="which-branch-is-default"></a>Now we will verify the name of the default branch that GitHub Pages publishes as your website. This should be "gh-pages" if you set up your repository for Netlify according to the earlier instructions. To check this is the case, in your repository settings click on "Options" in the upper left menu, and scroll down to the "GitHub Pages" section to look at what the dropdown under "Source" says. What you see should look similar to the screenshot below, but it might contain a different branch name in the dropdown. Remember whatever branch name is listed here for use in the next step.
+<span id="which-branch-is-default"></span>Now we will verify the name of the default branch that GitHub Pages publishes as your website. This should be "gh-pages" if you set up your repository for Netlify according to the earlier instructions. To check this is the case, in your repository settings click on "Options" in the upper left menu, and scroll down to the "GitHub Pages" section to look at what the dropdown under "Source" says. What you see should look similar to the screenshot below, but it might contain a different branch name in the dropdown. Remember whatever branch name is listed here for use in the next step.
 
 {% include figure.html filename="groupblogging-check-publication-branch.png" caption="Screenshot showing how to check the name of the repository branch that publishes to GitHub Pages" %}
 
@@ -547,7 +547,7 @@ Find the list item that starts "netlify/" followed by some gibberish and then by
 
 There are three possible next steps, which one you choose depends on how the preview looks and your review of the post.
 
-<a id="#force-merge-checkbox-use"></a>*Option #1:* If the preview looks correct, you can click on the "Merge pull request" button in the bottom left of the section. Click the checkbox next to the "Use your administrator privileges to merge this pull request" message that appears, then click the "Confirm merge" button, followed by the "delete branch" button that will appear to the right. (Getting rid of branches once we are done with them helps us keep the repository clean, as we may have multiple branches open at one time that are being actively worked on.)
+<span id="#force-merge-checkbox-use"></span>*Option #1:* If the preview looks correct, you can click on the "Merge pull request" button in the bottom left of the section. Click the checkbox next to the "Use your administrator privileges to merge this pull request" message that appears, then click the "Confirm merge" button, followed by the "delete branch" button that will appear to the right. (Getting rid of branches once we are done with them helps us keep the repository clean, as we may have multiple branches open at one time that are being actively worked on.)
 
 {% include figure.html filename="groupblogging-delete-branch-PR-done.png" caption="Screenshot showing deleting branch after pull request" %}
 
@@ -586,7 +586,7 @@ Content management systems like WordPress[^9] have been designed to accommodate 
 
 ### Export your data from WordPress
 
-When you upload content to a WordPress site, your data gets stored in a database that is hidden. So, the first step to transfer a project from WordPress to another format is to retrieve that data. Sometimes, this can be a bit difficult. Interfaces are likely to change after publication of this lesson, so we refer you to [WordPressʼs documentation] (https://en.support.wordpress.com/export/) on the exact steps needed to separate your own content from its CMS. WordPress exports your data in a series of XML files that contain both the content and metadata (information like author, publication date, and tags) for the elements of your site. Please be aware that while these XML files might reference the images and media uploads for a website, the uploaded files themselves must be exported separately.
+When you upload content to a WordPress site, your data gets stored in a database that is hidden. So, the first step to transfer a project from WordPress to another format is to retrieve that data. Sometimes, this can be a bit difficult. Interfaces are likely to change after publication of this lesson, so we refer you to [WordPress's documentation](https://en.support.wordpress.com/export/) on the exact steps needed to separate your own content from its CMS. WordPress exports your data in a series of XML files that contain both the content and metadata (information like author, publication date, and tags) for the elements of your site. Please be aware that while these XML files might reference the images and media uploads for a website, the uploaded files themselves must be exported separately.
 
 ### Migrate the exported data to a format appropriate to a new platform
 

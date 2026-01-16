@@ -27,7 +27,7 @@ doi: 10.46430/phen0054
 
 # Introduction
 
-This tutorial will introduce you to the basics of Windows PowerShell, the standard command-line interface for Windows computers. If you are a Mac or Linux user, you should check out the [Bash introduction](/lessons/intro-to-bash) instead. If you are already familiar with using Bash, you may be able to get started with PowerShell just by looking at the [table at the end of this lesson](#quick-reference).
+This tutorial will introduce you to the basics of Windows PowerShell, the standard command-line interface for Windows computers. If you are a Mac or Linux user, you should check out the [Bash introduction](/en/lessons/intro-to-bash) instead. If you are already familiar with using Bash, you may be able to get started with PowerShell just by looking at the [table at the end of this lesson](#quick-reference).
 
 The tutorial is divided into two main sections. In the first section, "[Getting Started](#getting-started)," you will learn to do basic desktop tasks like creating and opening files and folders using PowerShell. In the second section, "[Doing More](#doing-more)," you will get a glimpse of some of the features that make work on the command line particularly efficient, and learn enough of the basics to be able to explore further on your own. You will also [get set up to run Python scripts from the command line](#using-command-line-tools-and-running-python-scripts).
 

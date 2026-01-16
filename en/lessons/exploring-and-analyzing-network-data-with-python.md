@@ -99,9 +99,9 @@ George Keith,Franciscus Mercurius van Helmont
 George Keith,William Penn
 ```
 
-Now that you've downloaded the Quaker data and had a look at how it's structured, it's time to begin working with that data in Python. Once both Python and pip are installed (see Prerequisites, above) you'll want to install NetworkX, by typing this into your [command line](/lessons/intro-to-bash):[^pip]
+Now that you've downloaded the Quaker data and had a look at how it's structured, it's time to begin working with that data in Python. Once both Python and pip are installed (see Prerequisites, above) you'll want to install NetworkX, by typing this into your [command line](/en/lessons/intro-to-bash):[^pip]
 
-```
+```python
 pip3 install networkx==3.1
 ```
 

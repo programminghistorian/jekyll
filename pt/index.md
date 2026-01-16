@@ -2,6 +2,7 @@
 layout: base
 title: O Programming Historian em português
 original: index
+permalink: /pt/
 ---
 <div class="container" style="text-align:center">
 	<img class="home-image" src="{{ site.baseurl }}/images/website/index/woman-using-tabulator.png" />

@@ -3,6 +3,7 @@ layout: base
 original: index
 title: |
   The Programming Historian en español
+permalink: /es/
 ---
 <div class="container" style="text-align:center">
 	<img class="home-image" src="{{ site.baseurl }}/images/website/index/woman-using-tabulator.png" />

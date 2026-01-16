@@ -389,7 +389,7 @@ It works! I get five results. At the time of writing, there are five British, wo
 
 Only five British women historians? Of course there are, in reality, many more than that, as we could easily show by substituting the name of, say, Alison Weir in our first Lyndal Roper query. This brings us to the problem with *Dbpedia* that I mentioned earlier: it's not very consistently marked up with structural information of the type *DBpedia* uses. Our query can list some British women historians but it turns out that we can't use it to generate a meaningful list of people in this category. All we've found is the people in entries in *Wikipedia* that someone has decided to categorise as "British historian" and "woman historian".
 
-With SPARQL on *DBpedia* you have to be careful of the inconsistencies of crowd-sourced material. You could use SPARQL in exactly the same way on a more curated dataset, for example the UK government data: [https://data-gov.tw.rpi.edu//sparql]() and expect to get more robust results (there is a brief tutorial for this dataset here: [https://data-gov.tw.rpi.edu/wiki/A\_crash\_course\_in\_SPARQL]()).
+With SPARQL on *DBpedia* you have to be careful of the inconsistencies of crowd-sourced material. You could use SPARQL in exactly the same way on a more curated dataset, for example the UK government data: <https://data-gov.tw.rpi.edu//sparql> and expect to get more robust results (there is a brief tutorial for this dataset here: <https://data-gov.tw.rpi.edu/wiki/A_crash_course_in_SPARQL>).
 
 However, despite its inconsistencies, *DBpedia* is a great place to learn SPARQL. This has only been an a brief introduction but there is much more in [Using SPARQL to access Linked Open Data](/lessons/graph-databases-and-SPARQL).
 

@@ -2,6 +2,7 @@
 layout: blank
 title: Translation Concordance
 permalink: /translation-concordance/
+lang: en
 ---
 
 An automatically-generated list of page translation relationships across our publications.

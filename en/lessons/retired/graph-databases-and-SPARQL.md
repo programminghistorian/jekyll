@@ -559,7 +559,7 @@ Refine](https://openrefine.org/). To quickly convert JSON results from a SPARQL
 endpoint into a tabular format, I recommend the free command line utility
 [jq](https://stedolan.github.io/jq/download/). (For a tutorial on using command
 line programs, see ["Introduction to the Bash Command
-Line"](/lessons/intro-to-bash.html).) The following query will convert the
+Line"](/en/lessons/intro-to-bash.html).) The following query will convert the
 special JSON RDF format into a CSV file, which you may load into your preferred
 program for further analysis and visualization:
 

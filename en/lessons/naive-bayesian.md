@@ -1473,7 +1473,7 @@ Happy hunting!
   [topic modeling]: /lessons/topic-modeling-and-mallet
   [logarithms]: https://betterexplained.com/articles/using-logs-in-the-real-world/
   [priors]: https://support.sas.com/documentation/cdl/en/statug/63033/HTML/default/viewer.htm#statug_introbayes_sect004.htm
-  [Introduction to the Bash Command Line]: /lessons/intro-to-bash
+  [Introduction to the Bash Command Line]: /en/lessons/intro-to-bash
   [Automated Downloading with wget]: /lessons/automated-downloading-with-wget
   [Understanding Regular Expressions]: /lessons/understanding-regular-expressions
   [Intro to Beautiful Soup]: /lessons/intro-to-beautiful-soup

@@ -169,7 +169,7 @@ When you have multiple voices of data, what stands out? Note that in this approa
 
 # A quick word about getting Python set up
 
-The next section of this tutorial requires Python. If you haven't experimented with Python yet, you will need to spend some time [becoming familiar with the command line (PC) or terminal (OS)](/lessons/intro-to-bash). You might find this quick [guide to installing python 'modules'](/lessons/installing-python-modules-pip) handy (but come back to it after you read the rest of this section).
+The next section of this tutorial requires Python. If you haven't experimented with Python yet, you will need to spend some time [becoming familiar with the command line (PC) or terminal (OS)](/en/lessons/intro-to-bash). You might find this quick [guide to installing python 'modules'](/lessons/installing-python-modules-pip) handy (but come back to it after you read the rest of this section).
 
 Mac users will already have Python installed on their machine. You can test this by holding down the COMMAND button and the spacebar; in the search window, type `terminal` and click on the terminal application. At the prompt, eg, the cursor blinking at `$` type `python --version` and the computer will respond with what version of python you have. _This next section of the tutorial assumes Python 2.7; it has not been tested on Python 3_.
 
