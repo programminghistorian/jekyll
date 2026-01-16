@@ -14,6 +14,8 @@ Si el método o enfoque sobre el que te interesa escribir una lección ya está 
 
 Nombre:  
 Email:
+Localización: 
+Ayúdanos a saber desde dónde nos escribes para verificar que la fecha de entrega sea la que corresponde a tu región.
 
 ¿Qué tipo de lección propones?
 - [ ] Una lección original en español *Por favor, vaya a la Sección 2*
@@ -38,14 +40,14 @@ Sugerimos un título breve y descriptivo:
 [3-4 oraciones]
 
 2. Por favor, explícanos cómo tu propuesta podría apoyar, ampliar o complementar las lecciones que ya hemos publicado.
-Utilice estas preguntas para estructurar su respuesta:
-- ¿A qué lección(es) existente(s) de _Programming Historian_ podría su propuesta servir como introducción fundamental?
-- ¿A qué lección(es) existente(s) de _Programming Historian_ podría su propuesta aportar un avance o una ampliación?
+Utiliza estas preguntas para estructurar tu respuesta:
+- ¿A qué lección(es) existente(s) de _Programming Historian_ podría tu propuesta servir como introducción fundamental?
+- ¿A qué lección(es) existente(s) de _Programming Historian_ podría tu propuesta aportar un avance o una ampliación?
 - ¿Cómo podría su propuesta cubrir una laguna en nuestro catálogo de lecciones?
 [200-300 palabras]
 
 
-3. Por favor, comparta algunas ideas sobre cómo llegaste a utilizar este método o herramienta como parte de tu trabajo en el ámbito de las humanidades:
+3. Por favor, comparte algunas ideas sobre cómo llegaste a utilizar este método o herramienta como parte de tu trabajo en el ámbito de las humanidades:
 [100-300 palabras]
 
 
@@ -65,7 +67,7 @@ Utiliza estas preguntas para estructurar tu respuesta:
 
 6. Por favor, proporciónanos información sobre cómo se podría aplicar o adaptar tu método o herramienta para su uso en idiomas distintos del español:
 
-Valoramos metodologías y herramientas aplicables en contextos de investigación multilingües; sin embargo, nos interesa recibir su propuesta si la metodología o herramienta que pretende enseñar funciona especialmente bien (o incluso sólo) en español. [100-300 palabras]
+Tenemos una clara preferencia por las metodologías y herramientas que se puedan utilizar en contextos de investigación multilingües, pero no es obligatorio. [100-300 palabras]
 
 7. Por favor, describe cualquier requisito técnico y posibles limitaciones de acceso para utilizar este método o herramienta:
 - Nuestros lectores trabajan con diferentes sistemas operativos y disponen de recursos informáticos variados.
@@ -93,8 +95,8 @@ c). Por favor, comparte un enlace a la lección que deseas traducir:
 
 
 2. ¿Por qué crees que esta lección en particular sería valiosa para traducir al español?
-- Consulta la lista de traducciones a las que damos prioridad para su desarrollo en nuestra publicación del blog.
-- Si la lección que propones traducir no se encuentra en esta lista, de todos modos nos gustaría saber su opinión.
+- Consulta la lista de traducciones a las que damos prioridad para su desarrollo en nuestra convocatoria.
+- Si la lección que propones traducir no se encuentra en esta lista, de todos modos nos gustaría saber tu opinión.
 [200-300 palabras]
 
 
