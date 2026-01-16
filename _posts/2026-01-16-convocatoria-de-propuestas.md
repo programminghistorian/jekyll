@@ -10,8 +10,10 @@ categories: posts
 _[Programming Historian en español](/es/lecciones)_ busca propuestas para lecciones nuevas o traducciones para su publicación a lo largo de 2026. Entendemos que los calendarios académicos son diferentes en cada hemisferio y por eso hemos creado dos fechas de entrega: simplemente envía tu trabajo dentro de la fecha que aplique a tu ubicación.
 
 - **Apertura de la convocatoria**: 19 de enero de 2026  
-- **Fecha límite para la presentación de propuestas si vives/trabajas en el Hemisferio Norte**: 15 de marzo de 2026 a medianoche en tu hora local  
-- **Fecha límite para la presentación de propuestas si vives/trabajas en el Hemisferio Sur**: 17 de abril de 2026 a medianoche en tu hora local  
+- **Fecha límite para la presentación de propuestas si vives/trabajas en el Hemisferio Norte**:   
+15 de marzo de 2026 a medianoche en tu hora local  
+- **Fecha límite para la presentación de propuestas si vives/trabajas en el Hemisferio Sur**:   
+17 de abril de 2026 a medianoche en tu hora local  
 
 ## ¿Qué es una lección de _Programming Historian_?
 
