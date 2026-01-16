@@ -7,7 +7,7 @@ layout: post
 categories: posts
 ---
 
-[Programming Historian en español](es/lecciones) busca propuestas para lecciones nuevas o traducciones para su publicación a lo largo de 2026. Entendemos que los calendarios académicos son diferentes en cada hemisferio y por eso creamos hemos dos fechas de entrega: simplemente envía tu trabajo dentro de la fecha que aplique a tu ubicación.
+_[Programming Historian en español](/es/lecciones)_ busca propuestas para lecciones nuevas o traducciones para su publicación a lo largo de 2026. Entendemos que los calendarios académicos son diferentes en cada hemisferio y por eso creamos hemos dos fechas de entrega: simplemente envía tu trabajo dentro de la fecha que aplique a tu ubicación.
 
 - **Apertura del plazo de presentación de candidaturas**: 2 de febrero de 2026  
 - **Fecha límite para la presentación de candidaturas si vives/trabajas en el Hemisferio Norte**: 27 de marzo de 2026 a medianoche en tu hora local  
