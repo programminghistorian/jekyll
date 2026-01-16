@@ -371,7 +371,6 @@ Enfin, voici une liste de bots fonctionnant avec Tracery tenue à jour par Compt
 # Exemples de bots en français
 **Avec un compte Twitter dédié**
 
-- [Bot de sept lieues](https://www.cafedefaune.org/ougepro/bot-de-sept-lieues): un bot voyageur qui raconte ses découvertes faites dans des contrées imaginaires.
 - [EnvoisdeRomeBot](https://twitter.com/envoisdeRomeBot): un bot de valorisation d'une base de données patrimoniales.
 - [Le bot de 7 lieux](https://twitter.com/lebotde7lieux): un bot qui explore les données géolocalisées de Wikidata.
 - [Mémoire de la guerre d'Espagne - Bot](https://twitter.com/memo_guerra_bot): un bot de mémoire sur la Guerre d'Espagne qui liste les noms recensés de ses victimes.
