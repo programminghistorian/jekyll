@@ -27,7 +27,7 @@ Nuestras lecciones ayudan a nuestra audiencia a aprender cosas nuevas, pero escr
 
 ## Cómo enviar una propuesta
 
-Hemos creado un [formulario de Google](https://tinyurl.com/es-ph-propuestas-2026) que puedes enviarnos directamente en línea. También hay [una versión en texto sin formato](/assets/forms/convocatoria-de-propuestas.txt) que puedes enviarnos [por correo electrónico](espanol@programminghistorian.org) si lo prefieres.  
+Hemos creado un [formulario de Google](https://tinyurl.com/propuestas-2026-enviar) que puedes enviarnos directamente en línea. También hay [una versión en texto sin formato](/assets/forms/convocatoria-de-propuestas.txt) que puedes enviarnos [por correo electrónico](espanol@programminghistorian.org) si lo prefieres.  
 
 Hay espacio para que nos cuentes sobre el caso de uso de investigación que te gustaría destacar en la lección y para que expliques cómo has utilizado este método y/o herramienta como parte de tu trabajo en el ámbito de las humanidades o ciencias sociales. 
 
