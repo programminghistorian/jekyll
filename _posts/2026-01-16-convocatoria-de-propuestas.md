@@ -64,7 +64,7 @@ Del francés:
 
 **Si tienes una idea, envíanos tu propuesta antes del día 15 de marzo (Hemisferio Norte) o 17 de abril (Hemisferio Sur) de 2026**
 
-Nuestro equipo editorial revisará todas las propuestas y te responderemos en un plazo de 30 días tras la fecha límite de la convocatoria. Evaluamos las propuestas por su servicio a las necesidades de la comunidad y su alineamiento con los objetivos de nuestra revista: apertura, acceso global, multilingüismo y sostenibilidad. **Una vez notificadas, las propuestas seleccionadas contarán con 45 días para entregar el primer borrador.**
+Nuestro equipo editorial revisará todas las propuestas y te responderemos en un plazo de 30 días tras la fecha límite de la convocatoria. Evaluamos las propuestas por su servicio a las necesidades de la comunidad y su alineamiento con los objetivos de nuestra revista: apertura, acceso global, multilingüismo y sostenibilidad. **Una vez notificadas, las propuestas seleccionadas contarán con 45 días para entregar el primer borrador.** Las lecciones no deben exceder las 8.000 palabras (incluyendo el código), teniendo la mayoría de las lecciones entre 4.000 y 6.000 palabras.
 
 >Creemos en la diversidad e igualdad de acceso en las humanidades digitales, así que te animamos especialmente a enviar propuestas si eres mujer, miembro de grupos marginalizados, LGTBQ+ o del Sur Global. Con esta convocatoria, queremos visibilizar y apoyar a comunidades hispanohablantes y multilingües.  
 
