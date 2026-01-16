@@ -18,7 +18,7 @@ Estas directrices han sido desarrolladas para ayudarte a entender el proceso de 
 ## Paso 1: Proponer una nueva lección
 
 <div class="alert alert-success">
-Aceptamos tutoriales relevantes para las humanidades, dirigidos a cualquier nivel de aptitud técnica y experiencia, que se centren en un problema o proceso, que puedan ser sostenibles a largo plazo y que estén dirigidos a una audiencia global. El alcance y la longitud del tutorial han de corresponderse con la complejidad de la tarea que se enseña. Los tutoriales no deben exceder las 8.000 palabras (incluyendo el código) sin el permiso explícito del editor, el que se otorgará únicamente en circunstancias excepcionales. Esperamos que la mayoría de las lecciones tengan entre 4.000 y 6.000 palabras. Si resulta pertinente, puede que solicitemos dividir en varios tutoriales las lecciones más largas.
+Nuestra edición en español está buscando propuestas para nuevas lecciones originales o traducciones que se considerarán para su publicación en 2026. Obtenga más información en nuestra [convocatoria de propuestas](/posts/convocatoria-de-propuestas).
 </div>
 
 Si tienes una idea para una nueva lección, completa el [formulario de propuestas](/assets/forms/convocatoria-de-propuestas.txt) y [envíalo al Jefe de redacción, Jennifer Isasi](mailto:espanol@programminghistorian.org) o a nuestra [directora de publicaciones, Anisa Hawes](mailto:admin@programminghistorian.org).
