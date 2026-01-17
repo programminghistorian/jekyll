@@ -48,7 +48,7 @@ Al final del formulario, te damos la opción de proporcionar enlaces a ejemplos 
 
 La edición en español de _Programming Historian_ está buscando propuestas que complementen nuestro catálogo de lecciones. Te invitamos a explorar nuestro directorio para ver qué tenemos ya y que pienses qué podrías aportar. Tienes dos opciones: 
 
-1. Proponer una lección original en español: Nos interesan especialmente las lecciones enfocadas en/o desde Latinoamérica y el Caribe, sobre computación mínima (_minimal computing_) y sobre inteligencia artificial, en sus varias formas. No obstante, también consideraremos propuestas fuera de estos temas. 
+1. Proponer una lección original en español: Nos interesan especialmente las lecciones enfocadas en/o desde Latinoamérica y el Caribe, sobre computación mínima (_minimal computing_), modelos de lenguaje pequeños (SLM) o inteligencia artificial, en sus varias formas. No obstante, también consideraremos propuestas fuera de estos temas. 
 2. Proponer la traducción al español de una lección publicada en [portugués](/pt/licoes/), [inglés](/en/lessons/) o [francés](/fr/lecons/) de otra edición de _Programming Historian_. En esta convocatoria, nos gustaría especialmente impulsar la traducción de lecciones como las siguientes o similares: 
 
 Del inglés:  
