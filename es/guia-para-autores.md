@@ -18,7 +18,7 @@ Estas directrices han sido desarrolladas para ayudarte a entender el proceso de 
 ## Paso 1: Proponer una nueva lección
 
 <div class="alert alert-success">
-Nuestra edición en español está buscando propuestas para nuevas lecciones originales o traducciones que se considerarán para su publicación en 2026. Obtenga más información en nuestra [convocatoria de propuestas](/posts/convocatoria-de-propuestas).
+Nuestra edición en español está buscando propuestas para nuevas lecciones originales o traducciones que se considerarán para su publicación en 2026. Obtenga más información en nuestra <a href='/posts/convocatoria-de-propuestas'>convocatoria de propuestas</a>.
 </div>
 
 Si tienes una idea para una nueva lección, completa el [formulario de propuestas](/assets/forms/convocatoria-de-propuestas.txt) y [envíalo al Jefe de redacción, Jennifer Isasi](mailto:espanol@programminghistorian.org) o a nuestra [directora de publicaciones, Anisa Hawes](mailto:admin@programminghistorian.org).
