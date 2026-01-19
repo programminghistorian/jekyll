@@ -1,0 +1,117 @@
+## Propuesta de lección para Programming Historian (versión en español)
+
+_Programming Historian_ en español los invita al envío de propuestas para nuevas lecciones y traducciones.
+
+Animamos a los posibles autores a reflexionar detenidamente sobre cómo su propuesta podría enriquecer nuestra oferta formativa. 
+
+Pueden consultar nuestra revista (https://programminghistorian.org/es/lecciones/) para descubrir qué contenido ya está disponible y considerar qué podrían aportar.
+
+Si el método o enfoque sobre el que te interesa escribir una lección ya está representado en las ediciones en [inglés](https://programminghistorian.org/en/lessons/), [francés](https://programminghistorian.org/fr/lecons/) o [portugués](https://programminghistorian.org/pt/licoes/) de _Programming Historian_, también te queremos invitar a presentar propuestas para traducir esas lecciones originales al español. Consulta la lista de traducciones a las que estamos dando prioridad para su desarrollo.
+
+¿Tienes alguna pregunta? Por favor, escribe a la editora jefe de _Programming Historian en español_, Jennifer Isasi (espanol@programminghistorian.org) o a nuestra directora de publicaciones, Anisa Hawes (admin@programminghistorian.org), en inglés.
+
+---
+
+Nombre:  
+Email:
+Localización: 
+Ayúdanos a saber desde dónde nos escribes para verificar que la fecha de entrega sea la que corresponde a tu región.
+
+¿Qué tipo de lección propones?
+- [ ] Una lección original en español *Por favor, vaya a la Sección 2*
+- [ ] Traducción al español de una lección original existente en inglés, francés o portugués. *Por favor, vaya a la Sección 3*
+
+---
+
+### Sección 2: Lección original en español 
+
+Responde a las siguientes preguntas si propones una lección *original* en español.
+
+a). ¿Cuál es el título que propones para la lección?
+
+Sugerimos un título breve y descriptivo:
+
+- Comienza con un verbo o un sustantivo para definir la actividad, el método o el proceso de aprendizaje principal.
+- Identifica el tipo de datos con los que los lectores trabajarán en la lección
+- Menciona las herramientas, bibliotecas de software o lenguajes de programación clave que utilizarán los lectores.
+
+
+1.¿Qué pueden esperar aprender los lectores de la lección que propones?
+[3-4 oraciones]
+
+2. Por favor, explícanos cómo tu propuesta podría apoyar, ampliar o complementar las lecciones que ya hemos publicado.
+Utiliza estas preguntas para estructurar tu respuesta:
+- ¿A qué lección(es) existente(s) de _Programming Historian_ podría tu propuesta servir como introducción fundamental?
+- ¿A qué lección(es) existente(s) de _Programming Historian_ podría tu propuesta aportar un avance o una ampliación?
+- ¿Cómo podría su propuesta cubrir una laguna en nuestro catálogo de lecciones?
+[200-300 palabras]
+
+
+3. Por favor, comparte algunas ideas sobre cómo llegaste a utilizar este método o herramienta como parte de tu trabajo en el ámbito de las humanidades:
+[100-300 palabras]
+
+
+4. Por favor, cuéntanos sobre el estudio de caso de investigación que propones incluir en tu lección.
+- Las lecciones exitosas se basan en conjuntos de datos reales y código de ejemplo con los que los lectores pueden interactuar y experimentar.
+[100-300 palabras]
+
+
+5. Por favor, explica cómo tu elección de software y datos respalda nuestro compromiso con la transparencia:
+Abogamos por el uso de software de código abierto, lenguajes de programación abiertos y conjuntos de datos de acceso abierto siempre que sea posible.
+Utiliza estas preguntas para estructurar tu respuesta:
+- ¿Qué software de código abierto, herramientas abiertas, lenguajes de programación abiertos o conjuntos de datos abiertos utiliza esta lección?
+- ¿Qué software propietario o herramientas comerciales (si las hay) utiliza esta lección? Recomendamos encarecidamente a los autores que elijan alternativas de código abierto.
+- ¿Qué costes (si los hay) se requieren para utilizar esta herramienta? ¿El acceso requiere que los usuarios proporcionen información de la tarjeta de crédito?
+[100-300 palabras]
+
+
+6. Por favor, proporciónanos información sobre cómo se podría aplicar o adaptar tu método o herramienta para su uso en idiomas distintos del español:
+
+Tenemos una clara preferencia por las metodologías y herramientas que se puedan utilizar en contextos de investigación multilingües, pero no es obligatorio. [100-300 palabras]
+
+7. Por favor, describe cualquier requisito técnico y posibles limitaciones de acceso para utilizar este método o herramienta:
+- Nuestros lectores trabajan con diferentes sistemas operativos y disponen de recursos informáticos variados.
+[100-200 palabras]
+
+
+8. Enlace opcional al código de ejemplo o a un borrador de un extracto de esta lección propuesta en tu repositorio personal de GitHub:
+
+
+---
+
+### Sección 3: Traducciones al español
+
+Responde a las siguientes preguntas si propones una traducción al español de una lección original existente en inglés, francés o portugués.
+
+a). ¿Cuál es el título de la lección que desea traducir (en el idioma original)?
+
+b). ¿Cuál es tu propuesta de traducción del título al español?
+
+c). Por favor, comparte un enlace a la lección que deseas traducir:
+
+
+1. Por favor, proporciona una muestra de traducción de entre 300 y 400 palabras. Te sugerimos que traduzcas los párrafos iniciales de la lección que deseas traducir.
+[300-400 palabras]
+
+
+2. ¿Por qué crees que esta lección en particular sería valiosa para traducir al español?
+- Consulta la lista de traducciones a las que damos prioridad para su desarrollo en nuestra convocatoria.
+- Si la lección que propones traducir no se encuentra en esta lista, de todos modos nos gustaría saber tu opinión.
+[200-300 palabras]
+
+
+3. Por favor, comparte algunas ideas sobre cómo llegaste a utilizar este método o herramienta como parte de tu trabajo en el ámbito de las humanidades:
+[100-300 palabras]
+
+
+4. Por favor, explícanos cómo planeas adaptar o localizar el estudio de caso de investigación, basado en la lección original, para un público hispanohablante.
+- Las lecciones exitosas se basan en conjuntos de datos reales y código de ejemplo con los que los lectores pueden interactuar y experimentar.
+[100-300 palabras]
+
+
+5. Enlace opcional al código de ejemplo o a un borrador de esta traducción propuesta en tu repositorio personal de GitHub:
+
+
+---
+
+Por favor, envía este formulario a nuestra directora de publicaciones, Anisa Hawes (admin@programminghistorian.org).
