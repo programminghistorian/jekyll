@@ -15,9 +15,9 @@ and other markup languages."
 exclude_from_check:
   - review-ticket
   - reviewers
-redirect_from: 
-  - /lessons/intro-to-beautiful-soup
-  - /en/lessons/intro-to-beautiful-soup
+redirect_from:
+  - /lessons/intro-to-beautiful-soup/
+  - /en/lessons/intro-to-beautiful-soup/
 retired: true
 retirement-reason: |
   The underlying website has changed and no longer produces the HTML referenced in the lesson.
@@ -653,11 +653,11 @@ for tr in trs:
 
 You’ve done it! You have created a CSV file from all of the data in the table, creating useful data from the confusion of the html page.
 
-  [Working with Text Files]: /lessons/working-with-text-files
-  [Command Line Bootcamp]: https://praxis.scholarslab.org/resources/bash/
-  [Opening lines of Beautiful Soup]: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-  [installing python modules]: /lessons/installing-python-modules-pip
-  [urllib3]: https://urllib3.readthedocs.org/en/latest/
-  [Automated Downloading with Wget]: /lessons/automated-downloading-with-wget
-  [Downloading Multiple Records Using Query Strings]: /lessons/downloading-multiple-records-using-query-strings
-  [Document Object Model]: https://en.wikipedia.org/wiki/Document_Object_Model
+- [Working with Text Files](/en/lessons/working-with-text-files)  
+- [Command Line Bootcamp](https://praxis.scholarslab.org/resources/bash/)  
+- [Opening lines of Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)  
+- [installing python modules](/en/lessons/installing-python-modules-pip)  
+- [urllib3](https://urllib3.readthedocs.org/en/latest/)  
+- [Automated Downloading with Wget](/en/lessons/automated-downloading-with-wget)  
+- [Downloading Multiple Records Using Query Strings](/en/lessons/downloading-multiple-records-using-query-strings)  
+- [Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model)

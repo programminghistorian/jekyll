@@ -18,7 +18,7 @@ original: supporters
 - [Jisc](https://www.jisc.ac.uk/), Reino Unido  
 
 ## Instituciones asociadas
-Contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
+Contribuidores de nuestro [Programa de Instituciones Asociadas](/es/pia):
 
 - [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Bélgica
 - [Western University Library](https://www.lib.uwo.ca/), Canadá
@@ -51,10 +51,10 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 - [University of Edinburgh Library](https://library.ed.ac.uk/), Reino Unido
 - [University of Cambridge](https://www.cam.ac.uk/), Reino Unido
 
-Son bienvenidas las consultas de potenciales contribuidores del [Programa de Instituciones Asociadas](pia).
+Son bienvenidas las consultas de potenciales contribuidores del [Programa de Instituciones Asociadas](/es/pia).
 
 ## Alumni
-Antiguos contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
+Antiguos contribuidores de nuestro [Programa de Instituciones Asociadas](/es/pia):
 
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos [2021-2022]
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido [2021-2022]

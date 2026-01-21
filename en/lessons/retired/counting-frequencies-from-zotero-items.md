@@ -19,9 +19,9 @@ retired: true
 retirement-reason: |
   This lesson relied on the Python library libZotero, which is no longer maintained, and which now returns several errors when used. [See further discussion about this retirement decision.](https://github.com/programminghistorian/jekyll/issues/225)
 redirect_from:
-  - /lessons/counting-frequencies-from-zotero-items
-  - /lessons/deprecated/counting-frequencies-from-zotero-items
-  - /lessons/retired/counting-frequencies-from-zotero-items
+  - /lessons/counting-frequencies-from-zotero-items/
+  - /lessons/deprecated/counting-frequencies-from-zotero-items/
+  - /lessons/retired/counting-frequencies-from-zotero-items/
 doi: 10.46430/phen0025
 ---
 
@@ -255,6 +255,6 @@ Word Frequencies
 ...
 ```
 
-  [Counting Frequencies]: /lessons/counting-frequencies
-  [zip]: /assets/python-lessons5.zip
-  [Lesson on the Zotero API]: /lessons/intro-to-the-zotero-api
+- [Counting Frequencies](/en/lessons/counting-frequencies)
+- [zip](/assets/python-lessons5.zip)
+-[Lesson on the Zotero API](en/lessons/intro-to-the-zotero-api)

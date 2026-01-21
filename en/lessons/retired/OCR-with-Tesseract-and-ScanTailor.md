@@ -7,9 +7,9 @@ retired_date: 2017-05-10
 layout: lesson
 retired: true
 redirect_from:
-  - /lessons/ocr-with-tesseract-and-scantailor
-  - /lessons/deprecated/ocr-with-tesseract-and-scantailor
-  - /lessons/deprecated-OCR-with-Tesseract-and-ScanTailor
+  - /lessons/ocr-with-tesseract-and-scantailor/
+  - /lessons/deprecated/ocr-with-tesseract-and-scantailor/
+  - /lessons/deprecated-OCR-with-Tesseract-and-ScanTailor/
 doi: 10.46430/phen0042
 ---
 
@@ -195,7 +195,7 @@ So, now as you look at the OCR'd text, you will notice soon, that the text is no
 This is the moment when you will thank yourself if you have been able to do a good quality job in the previous phases, because you will probably have pretty clear data. This is also the moment when you will need to decide how pure text you want to have: are you willing to pay less attention in this phase and accept some blurred words, or is the clarity of the text so essential that you will check all the output?
 
 You might be interested in reading further on what to do with the raw OCR data. Fortunately, there are great lessons for that:
-[Cleaning the OCR results with regular expressions](/lessons/cleaning-ocrd-text-with-regular-expressions) or [generating an ordered data set from the OCR results](/lessons/generating-an-ordered-data-set-from-an-OCR-text-file) or [preserving your data](/lessons/preserving-your-research-data).
+[Cleaning the OCR results with regular expressions](/en/lessons/cleaning-ocrd-text-with-regular-expressions) or [generating an ordered data set from the OCR results](/en/lessons/generating-an-ordered-data-set-from-an-OCR-text-file) or [preserving your data](/en/lessons/preserving-your-research-data).
 
 Before OCR'ing all of your sources, try with a small sample of materials to do the whole process from scratch to the analysis part you are planning to do. When doing the latter steps you might realize some details that you will need to take into account when doing the previous stages.
 

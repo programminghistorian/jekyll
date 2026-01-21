@@ -36,4 +36,4 @@ Puedes hacer donaciones puntuales a *Programming Historian* por [Paypal](https:/
 
 # Apoyo institucional
 
-Si trabajas para una organización interesada en contribuir al éxito de *Programming Historian*, visita nuestra página del [Programa de Instituciones Asociadas](pia), que provee un apoyo crucial a nuestro trabajo. 
+Si trabajas para una organización interesada en contribuir al éxito de *Programming Historian*, visita nuestra página del [Programa de Instituciones Asociadas](/es/pia), que provee un apoyo crucial a nuestro trabajo. 

@@ -22,7 +22,7 @@ topics: [api]
 abstract: In this lesson, you will be introduced to 'scalable reading' and how to apply this workflow to your analysis of structured data.
 avatar_alt: Drawing of honeycomb
 lesson-partners: [Jisc, The National Archives]
-partnership-url: /jisc-tna-partnership
+partnership-url: /en/jisc-tna-partnership
 doi: 10.46430/phen0103
 ---
 
@@ -70,7 +70,7 @@ Below, the three steps are explained in general terms as well as specifically us
 
 If you want to reproduce the analysis we present below, using not only the overall conceptual framework but also the code, we assume that you already have a dataset containing Twitter data in a JSON format. If you don't have a dataset you can acquire one in the following ways:
 
-1. Using one of Twitter’s APIs, e.g., their freely available so-called "Essential" API which we used to retrieve the dataset used in the example (see more about APIs this section to the [Introduction to Populating a Website with API Data](/en/lessons/introduction-to-populating-a-website-with-api-data#what-is-application-programming-interface-api)). This link will take you to [Twitter's API options](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api). You can use the 'rtweet' package, with your own Twitter account to access the Twitter API through R as described below.
+1. Using one of Twitter’s APIs, e.g., their freely available so-called "Essential" API which we used to retrieve the dataset used in the example (see more about APIs this section to the [Introduction to Populating a Website with API Data](/en/lessons/introduction-to-populating-a-website-with-api-data)). This link will take you to [Twitter's API options](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api). You can use the 'rtweet' package, with your own Twitter account to access the Twitter API through R as described below.
 2. Using the [Beginner's Guide to Twitter Data](/en/lessons/beginners-guide-to-twitter-data) from the _Programming Historian_. But rather than choosing a CSV output, choose a JSON.
 
 In R, you work with packages, each adding numerous functionalities to the core functions of R. Packages are often community-created code, made available for reuse. When using packages you are standing on the shoulders of other coders. In this example the relevant packages are the following: rtweet, tidyverse, lubridate and jsonlite. To install packages in R see this section of lesson [Basic Text Processing in R](/en/lessons/basic-text-processing-in-r#package-set-up). To use the packages in R they have to be loaded with the `library()` function as below:

@@ -312,7 +312,7 @@ Pour régler l'alignement de chaque colonne, les deux points `:` peuvent être a
 
 
 ## Les limites de Markdown
-Même si Markdown devient de plus en plus populaire, notamment pour formatter des documents exposés sur le web, beaucoup de gens et d'éditeurs sollicitent des documents traditionnels en Word, PDF et d'autres formats de fichiers. Certains outils de conversion exécutables en ligne de commande, comme [Pandoc](https://pandoc.org/), offrent une solution, sans toutefois offrir toutes les fonctionnalités des logiciels de traitement de texte, notamment le versionnage. Pour en savoir plus sur Pandoc, merci de consulter la leçon du *Programming Historian* intitulée ["Sustainable authorship in plain text using Pandoc and Markdown"](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) (en anglais).
+Même si Markdown devient de plus en plus populaire, notamment pour formatter des documents exposés sur le web, beaucoup de gens et d'éditeurs sollicitent des documents traditionnels en Word, PDF et d'autres formats de fichiers. Certains outils de conversion exécutables en ligne de commande, comme [Pandoc](https://pandoc.org/), offrent une solution, sans toutefois offrir toutes les fonctionnalités des logiciels de traitement de texte, notamment le versionnage. Pour en savoir plus sur Pandoc, merci de consulter la leçon du *Programming Historian* intitulée ["Sustainable authorship in plain text using Pandoc and Markdown"](/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) (en anglais).
 
 
 ## Conclusion

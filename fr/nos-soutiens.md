@@ -18,7 +18,7 @@ _Programming Historian_ est reconnaissant envers ses contributeurs passés et ac
 - [Jisc](https://www.jisc.ac.uk/), Royaume-Uni  
 
 ## Partenariat institutionnel
-Les institutions suivantes font partie de notre programme de [Partenariat institutionnel](pi)&nbsp;:
+Les institutions suivantes font partie de notre programme de [Partenariat institutionnel](/fr/pi)&nbsp;:
 
 - [Bibliothèques de la KU Leuven](https://bib.kuleuven.be/), Belgique
 - [Western University Library](https://www.lib.uwo.ca/), Canada
@@ -52,10 +52,10 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [University of Cambridge](https://www.cam.ac.uk/), Royaume-Uni
 
 
-Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
+Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](/fr/pi).
 
 ## Partenariats révolus
-Les institutions suivantes ont participé à de notre programme de [Partenariat institutionnel](pi)&nbsp;:
+Les institutions suivantes ont participé à de notre programme de [Partenariat institutionnel](/fr/pi)&nbsp;:
 
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), États-Unis [2021-2022]
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Royaume-Uni [2021-2022]

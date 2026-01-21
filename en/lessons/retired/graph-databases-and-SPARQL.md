@@ -17,8 +17,8 @@ topics: [lod]
 abstract: "This lesson explains why many cultural institutions are adopting graph databases, and how researchers can access these data though the query language called SPARQL."
 categories: [lessons]
 redirect_from:
-- /lessons/graph-databases-and-SPARQL
-- /en/lessons/graph-databases-and-SPARQL
+  - /lessons/graph-databases-and-SPARQL/
+  - /en/lessons/graph-databases-and-SPARQL/
 retired: true
 retirement-reason: |
   The British Museum has failed to maintain their collections database in a consistent and reliably-accessible manner. Although the SPARQL syntax and commands remain correct, the URLs they attempt to connect to have become too unreliable to use in a working lesson.
@@ -554,7 +554,7 @@ and languages.
 
 Parsing the XML verson of this output may be done with a tool like Beautiful
 Soup ([see its _Programming Historian_
-lesson](/lessons/intro-to-beautiful-soup.html)) or [Open
+lesson](/en/lessons/intro-to-beautiful-soup.html)) or [Open
 Refine](https://openrefine.org/). To quickly convert JSON results from a SPARQL
 endpoint into a tabular format, I recommend the free command line utility
 [jq](https://stedolan.github.io/jq/download/). (For a tutorial on using command
@@ -586,7 +586,7 @@ query". Palladio should display a preview table.
 After previewing the data returned by the endpoint, click on the "Load data"
 button at the bottom of the screen to begin manipulating it. (See this
 [_Programming Historian_
-lesson](/lessons/creating-network-diagrams-from-historical-sources.html#visualize-network-data-in-palladio)
+lesson](/en/lessons/creating-network-diagrams-from-historical-sources.html#visualize-network-data-in-palladio)
 for a more in-depth tutorial on Palladio.) For example, we might make a [query
 that returns links to the images of prints made between 1580 and
 1600](https://collection.britishmuseum.org/sparql?query=%23+Return+object+links+and+creation+date%0D%0APREFIX+bmo%3A+%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fontology%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0ASELECT+DISTINCT+%3Fobject+%3Fdate+%3Fimage%0D%0AWHERE+%7B%0D%0A%0D%0A++%23+We%27ll+use+our+previous+command+to+search+only+for+objects+of+type+%22print%22%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%0D%0A++%23+We+need+to+link+though+several+nodes+to+find+the+creation+date+associated%0D%0A++%23+with+an+object%0D%0A++%3Fobject+ecrm%3AP108i_was_produced_by+%3Fproduction+.%0D%0A++%3Fproduction+ecrm%3AP9_consists_of+%3Fdate_node+.%0D%0A++%3Fdate_node+ecrm%3AP4_has_time-span+%3Ftimespan+.%0D%0A++%3Ftimespan+ecrm%3AP82a_begin_of_the_begin+%3Fdate+.%0D%0A%0D%0A++%23+Yes%2C+we+need+to+connect+quite+a+few+dots+to+get+to+the+date+node%21+Now+that%0D%0A++%23+we+have+it%2C+we+can+filter+our+results.+Because+we+are+filtering+a+date%2C+we%0D%0A++%23+must+attach+the+xsd%3Adate+tag+to+our+date+strings+so+that+SPARQL+knows+how+to%0D%0A++%23+parse+them.%0D%0A%0D%0A++FILTER%28%3Fdate+%3E%3D+%221580-01-01%22%5E%5Exsd%3Adate+%26%26+%3Fdate+%3C%3D+%221600-01-01%22%5E%5Exsd%3Adate%29%0D%0A++%0D%0A++%3Fobject+bmo%3APX_has_main_representation+%3Fimage+.%0D%0A%7D%0D%0ALIMIT+100#query=%23+Return+object+links+and+creation+date%0APREFIX+bmo%3A+%3Chttp%3A%2F%2Fwww.researchspace.org%2Fontology%2F%3E%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Fwww.cidoc-crm.org%2Fcidoc-crm%2F%3E%0ASELECT+DISTINCT+%3Fobject+%3Fdate+%3Fimage%0AWHERE+%7B%0A++%0A++%23+We'll+use+our+previous+command+to+search+only+for+objects+of+type+%22print%22%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0A%0A++%23+We+need+to+link+though+several+nodes+to+find+the+creation+date+associated%0A++%23+with+an+object%0A++%3Fobject+ecrm%3AP108i_was_produced_by+%3Fproduction+.%0A++%3Fproduction+ecrm%3AP9_consists_of+%3Fdate_node+.%0A++%3Fdate_node+ecrm%3AP4_has_time-span+%3Ftimespan+.%0A++%3Ftimespan+ecrm%3AP82a_begin_of_the_begin+%3Fdate+.%0A%0A++%0A++%23+Yes%2C+we+need+to+connect+quite+a+few+dots+to+get+to+the+date+node!+Now+that%0A++%23+we+have+it%2C+we+can+filter+our+results.+Because+we+are+filtering+a+date%2C+we%0A++%23+must+attach+the+xsd%3Adate+tag+to+our+date+strings+so+that+SPARQL+knows+how+to%0A++%23+parse+them.%0A%0A++FILTER(%3Fdate+%3E%3D+%221580-01-01%22%5E%5Exsd%3Adate+%26%26+%3Fdate+%3C%3D+%221600-01-01%22%5E%5Exsd%3Adate)%0A++%0A++%3Fobject+bmo%3APX_has_main_representation+%3Fimage+.%0A%7D%0ALIMIT+100),

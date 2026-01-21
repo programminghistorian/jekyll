@@ -239,9 +239,9 @@ No Google Earth, havia limitações nos tipos de 'feições', 'atributos' e dado
 
 *Esta lição é parte do [Geospatial Historian][].*
 
-  [Intro to Google Maps and Google Earth]: /lessons/googlemaps-googleearth
-  [Installing QGIS 2.0 and Adding Layers]: /lessons/qgis-layers
-  [PEI_Holland map]: /assets/vector-layers-qgis/PEI_HollandMap1798_compLZW.tif
-  [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
-  [Wikipedia entry]: https://en.wikipedia.org/wiki/Prince_Royalty,_Prince_Edward_Island
-  [Geospatial Historian]: https://geospatialhistorian.wordpress.com/
+- [Intro to Google Maps and Google Earth](/en/lessons/googlemaps-googleearth)
+- [Installing QGIS 2.0 and Adding Layers](/en/lessons/qgis-layers)
+- [PEI_Holland map](/assets/vector-layers-qgis/PEI_HollandMap1798_compLZW.tif)
+- [Georeferencing in QGIS 2.0](/en/lessons/georeferencing-qgis)
+- [Wikipedia entry](https://en.wikipedia.org/wiki/Prince_Royalty,_Prince_Edward_Island)
+- [Geospatial Historian](https://geospatialhistorian.wordpress.com/)

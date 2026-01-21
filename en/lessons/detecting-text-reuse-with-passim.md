@@ -647,7 +647,7 @@ The following example illustrates a step-by-step approach to troubleshooting thi
 
 Passim has failed to recognize the coordinate field as containing integer values and it has interpreted as a long data type.  At this point, we need to change the type of the sub-fields of `coords` (i.e. `h`, `w`, `x`, and `y`) from `"type": "long"` to `"type": "integer"`. This type mismatch needs to be fixed, otherwise Passim will treat `int` values as if they were `long`, thus potentially leading to issues or inconsistencies in the generated output.
 
-We can now save the schema for later into a new file (`passim.schema`) for later use. This schema is needed when processing the input data provided for [the second case study](#case-study-2:-text-reuse-in-a-large-corpus-of-historical-newspapers) presented in this lesson.
+We can now save the schema for later into a new file (`passim.schema`) for later use. This schema is needed when processing the input data provided for [the second case study](#case-study-2-text-reuse-in-a-large-corpus-of-historical-newspapers) presented in this lesson.
 
 
 # Running Passim
@@ -705,7 +705,7 @@ You are now ready to go forward with your first text reuse project.
 >>> SPARK_SUBMIT_ARGS='--master local[12] --driver-memory 8G --executor-memory 4G' passim passim_in.json passim_output_bible/
 ```
 
-For now, do not worry about the additional arguments `SPARK_SUBMIT_ARGS='--master local[12] --driver-memory 8G --executor-memory 4G'`; in the section ["Case Study 2"](#case-study-2:-text-reuse-in-a-large-corpus-of-historical-newspapers) we will explain them in detail.
+For now, do not worry about the additional arguments `SPARK_SUBMIT_ARGS='--master local[12] --driver-memory 8G --executor-memory 4G'`; in the section ["Case Study 2"](#case-study-2-text-reuse-in-a-large-corpus-of-historical-newspapers) we will explain them in detail.
 
 This test case takes approximatively eight minutes on a recent laptop with eight threads. You can also follow the progress of the detection at https://localhost:4040 — an interactive dashboard created by Spark (Note: the dashboard will shut down as soon as Passim has finished running).
 

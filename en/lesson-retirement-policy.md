@@ -33,7 +33,7 @@ Whether or not a new derivative is created, the following steps will be taken wi
 
 ## Related Sustainability Guidelines
 
-[Author Guidelines for Writing Sustainably](/author-guidelines#write-sustainably)
+[Author Guidelines for Writing Sustainably](/en/author-guidelines#write-sustainably)
 
 [Reviewer Guidelines for Assessing Lesson Sustainability](/reviewer-guidelines#sustainability)
 

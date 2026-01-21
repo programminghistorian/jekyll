@@ -599,30 +599,30 @@ report.
     'Methods' section is especially important, in that it discusses
     preparing text for this sort of analysis.
 
-  [Bash Command Line]: /en/lessons/intro-to-bash
-  [discussion list]: https://mallet.cs.umass.edu/mailinglist.php
-  [Distant Reading]: https://www.cs.umbc.edu/~hillol/NGDM07/abstracts/talks/MKirschenbaum.pdf
-  [Reading Machines]: https://www.worldcat.org/title/reading-machines-toward-an-algorithmic-criticism/oclc/708761605&referer=brief_results
-  [Voyant Tools]: https://voyant-tools.org
-  [dangers]: https://web.archive.org/web/20240602215348/https://www.scottbot.net/HIAL/index.html@p=16713.html
-  [zombies using Google Trends]: https://arxiv.org/abs/1003.6087/
-  [David Blei and friends]: https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation
-  [Mining the Dispatch]: https://dsl.richmond.edu/dispatch/
-  [Topic Modeling Martha Ballard's Diary]: https://perma.cc/39CG-MNLH
-  [MALLET]: https://mallet.cs.umass.edu/index.php
-  [*Gibbs sampling*]: https://en.wikipedia.org/wiki/Gibbs_sampling
-  [`download MALLET`]: https://mallet.cs.umass.edu/download.php
-  [Java developer's kit]: https://www.oracle.com/technetwork/java/javase/downloads/index.html
-  [automate this process]: https://electricarchaeology.ca/2012/07/09/mining-a-day-of-archaeology/
-  [Mining the Open Web with Looted Heritage Draft]: https://electricarchaeology.ca/2012/06/08/mining-the-open-web-with-looted-heritage-draft/
-  [Figshare.com]: https://ndownloader.figshare.com/files/90972
-  [Guided Tour to Topic Modeling]: https://web.archive.org/web/20240520155820/https://www.scottbot.net/HIAL/index.html@p=19113.html
-  [Topic modeling made just simple enough]: https://tedunderwood.wordpress.com/2012/04/07/topic-modeling-made-just-simple-enough/
-  [Some Assembly Required]: https://web.archive.org/web/20160704150726/https://www.lisarhody.com:80/some-assembly-required/
-  [Topic Modeling in the Humanities: An Overview | Maryland Institute for Technology in the Humanities]: https://web.archive.org/web/20130116223500/https://mith.umd.edu/topic-modeling-in-the-humanities-an-overview/
-  [Latent dirichlet allocation]: https://dl.acm.org/citation.cfm?id=944937
-  [bibliography of topic modeling articles]: https://mimno.infosci.cornell.edu/topics.html
-  [Computational Historiography]: https://www.perseus.tufts.edu/publications/02-jocch-mimno.pdf
-  [Windows]: /lessons/windows-installation
-  [Mac]: /lessons/mac-installation
-  [Linux]: /lessons/linux-installation
+- [Bash Command Line](/en/lessons/intro-to-bash)
+- [discussion list](https://mallet.cs.umass.edu/mailinglist.php)
+- [Distant Reading](https://www.cs.umbc.edu/~hillol/NGDM07/abstracts/talks/MKirschenbaum.pdf)
+- [Reading Machines](https://www.worldcat.org/title/reading-machines-toward-an-algorithmic-criticism/oclc/708761605&referer=brief_results)
+- [Voyant Tools](https://voyant-tools.org)
+- [dangers](https://web.archive.org/web/20240602215348/https://www.scottbot.net/HIAL/index.html@p=16713.html)
+- [zombies using Google Trends](https://arxiv.org/abs/1003.6087/)
+- [David Blei and friends](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation)
+- [Mining the Dispatch](https://dsl.richmond.edu/dispatch/)
+- [Topic Modeling Martha Ballard's Diary](https://perma.cc/39CG-MNLH)
+- [MALLET](https://mallet.cs.umass.edu/index.php)
+- [*Gibbs sampling*](https://en.wikipedia.org/wiki/Gibbs_sampling)
+- [`download MALLET`](https://mallet.cs.umass.edu/download.php)
+- [Java developer's kit](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+- [automate this process](https://electricarchaeology.ca/2012/07/09/mining-a-day-of-archaeology/)
+- [Mining the Open Web with Looted Heritage Draft](https://electricarchaeology.ca/2012/06/08/mining-the-open-web-with-looted-heritage-draft/)
+- [Figshare.com](https://ndownloader.figshare.com/files/90972)
+- [Guided Tour to Topic Modeling](https://web.archive.org/web/20240520155820/https://www.scottbot.net/HIAL/index.html@p=19113.html)
+- [Topic modeling made just simple enough](https://tedunderwood.wordpress.com/2012/04/07/topic-modeling-made-just-simple-enough/)
+- [Some Assembly Required](https://web.archive.org/web/20160704150726/https://www.lisarhody.com:80/some-assembly-required/)
+- [Topic Modeling in the Humanities: An Overview | Maryland Institute for Technology in the Humanities](https://web.archive.org/web/20130116223500/https://mith.umd.edu/topic-modeling-in-the-humanities-an-overview/)
+- [Latent dirichlet allocation](https://dl.acm.org/citation.cfm?id=944937)
+- [bibliography of topic modeling articles](https://mimno.infosci.cornell.edu/topics.html)
+- [Computational Historiography](https://www.perseus.tufts.edu/publications/02-jocch-mimno.pdf)
+- [Windows](/en/lessons/windows-installation)
+- [Mac](/en/lessons/mac-installation)
+- [Linux](/en/lessons/linux-installation)

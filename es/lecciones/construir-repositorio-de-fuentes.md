@@ -40,7 +40,7 @@ Algunos de los ejercicios planteados en esta lección requieren un repositorio c
 
 La abundancia de información documental que tenemos a disposición es cada vez mayor. Las fuentes primarias que se encuentran publicadas por archivos y bibliotecas han facilitado significativamente nuestro trabajo de recolección de información histórica. Sin embargo, esto ha conllevado un problema de abundancia de digitalizaciones y transcripciones de documentos que muchas veces quedan almacenadas anárquicamente en nuestros ordenadores. En esta lección aprovecharemos las capacidades de Omeka para desarrollar repositorios, individuales o colaborativos, para almacenar, analizar y exhibir fuentes primarias; con el propósito de presentar una opción para la sistematización de documentación primaria que posteriormente podrá ser utilizada en tareas de investigación o exhibiciones Web.
 
-Para seguir esta lección requieres una instalación de Omeka. Puedes seguir la lección [*Installing Omeka*](/lessons/installing-omeka) disponible en el sitio en inglés (la versión en español se encuentra en proceso de traducción). En caso de que necesites conocer el funcionamiento básico de la plataforma es importante que entiendas como [crear sitios, elementos, colecciones](/es/lecciones/poniendo-omeka-a-funcionar) y [exhibiciones](/es/lecciones/crear-exposicion-con-omeka).
+Para seguir esta lección requieres una instalación de Omeka. Puedes seguir la lección [*Installing Omeka*](/en/lessons/installing-omeka) disponible en el sitio en inglés (la versión en español se encuentra en proceso de traducción). En caso de que necesites conocer el funcionamiento básico de la plataforma es importante que entiendas como [crear sitios, elementos, colecciones](/es/lecciones/poniendo-omeka-a-funcionar) y [exhibiciones](/es/lecciones/crear-exposicion-con-omeka).
 
 Asimismo es importante que en caso de querer ampliar la información sobre el funcionamiento de Omeka recurras al <a href="https://omeka.org/classic/docs/" target="_blank">manual de usuario</a> de la versión clásica. También es posible que consultes o participes en el <a href="https://forum.omeka.org/c/omeka-classic" target="_blank">foro</a> para obtener información adicional o respuesta a un problema específico.
 
@@ -189,7 +189,7 @@ Para muchos la palabra "Metadatos" suena oscura y "metafísica", algo que está 
 
 Los metadatos son independientes del lenguaje de máquina o de programación, es decir, son categorías completamente personalizables que funcionan de manera independiente de la plataforma. Esta libertad conlleva una gran desventaja y es que si cada usuario creara sus elementos de manera arbitraria no habría manera de intercambiar información entre sistemas. Por esa razón, se creó una estrategia de estandarización de los conjuntos de metadatos de tal manera que facilite la interacción entre plataformas, la actualización del software y, sobre todo, el compartir y encontrar información en grandes repositorios.
 
-Omeka Classic se fundamenta en el estándar *Dublin Core*, específicamente en el esquema básico de 15 descriptores <a haref="https://dublincore.org/documents/dces/" target="_blank">Dublin Core Metadata Element Set Version 1.1</a>:
+Omeka Classic se fundamenta en el estándar *Dublin Core*, específicamente en el esquema básico de 15 descriptores <a href="https://dublincore.org/documents/dces/" target="_blank">Dublin Core Metadata Element Set Version 1.1</a>:
 
 	Título (title)
 	Autor (creator)

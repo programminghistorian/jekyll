@@ -139,7 +139,7 @@ Heurist s'appuie sur une conception relationnelle des données, il est ainsi imp
 
 
 
-- Une organisation structurée des connaissances&nbsp;: <a name="vocabulaires1"></a>les éléments d'une base de données sont organisés entre eux à travers des concepts descriptifs définis qui peuvent prendre la forme de [vocabulaires contrôlés](#vocabulaires2) ou d'[ontologies](https://perma.cc/AJL5-H5MK). Cela permet une cohérence dans la manière de décrire les objets au sein d'une même base de données ou d'un collectif de travail.
+- Une organisation structurée des connaissances&nbsp;: <span id="vocabulaires1"></span>les éléments d'une base de données sont organisés entre eux à travers des concepts descriptifs définis qui peuvent prendre la forme de [vocabulaires contrôlés](#vocabulaires2) ou d'[ontologies](https://perma.cc/AJL5-H5MK). Cela permet une cohérence dans la manière de décrire les objets au sein d'une même base de données ou d'un collectif de travail.
 
 <div class="alert alert-info">
   La conception intellectuelle d'une base de données fait partie intégrante de la réflexion scientifique. Elle doit être effectuée en amont de la modélisation dans Heurist et aura un impact significatif sur les résultats et analyses qui résulteront de son exploitation. Toutefois, Heurist apporte une aide non négligeable pour débuter dans la conception d'une base de données, en mettant à disposition un ensemble de types d'enregistrement qui peut servir de socle à un nombre important de base de données en SHS (cf. Fig. 3). Par ailleurs, Heurist offre une grande souplesse dans la conception et l'alimentation des bases de données qu'il héberge, offrant ainsi une fonctionnalité de type «&#x202F;bac à sable&#x202F;», permettant de faire et défaire au gré de l'évolution conceptuelle de la base de données.
@@ -223,7 +223,7 @@ Nous ne détaillerons pas ici la formalisation de la notation de ces cardinalit�
 
 Nous venons de rencontrer le cas des thèmes ou périodes qui pouvaient décrire une même intervention. De même, **Type d'intervention** fait référence à un vocabulaire, même si celui-ci compte uniquement deux termes.
 
-<a name="vocabulaires2"></a>Nous avons déjà abordé rapidement ce point dans la partie sur la [cohérence des données](#vocabulaires1).
+<span id="vocabulaires2"></span>Nous avons déjà abordé rapidement ce point dans la partie sur la [cohérence des données](#vocabulaires1).
 Fonctionnellement, les [vocabulaires contrôlés](https://perma.cc/4ESL-P4UZ) s'opposent à une saisie textuelle libre. Concrètement, il s'agit de lister, de catégoriser et de hiérarchiser des concepts, en nombre fini, afin d'éviter certains biais courants lors des saisies textuelles libres tels que&nbsp;:
 
 - L'incohérence orthographique (M ≠ m, Moyen-Âge ≠ Moyen Âge)

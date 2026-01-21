@@ -10,7 +10,7 @@ redirect_from: /about
 ## Peer Review
 All tutorials at _Programming Historian_ are rigorously peer reviewed, guided through the review process by one of our editors. Review involves a thorough exchange with the lesson editor to ensure the lesson works as intended and that all concepts are explained for a non-specialist reader, before the tutorial is sent to external reviewers.
 
-The review process is an integral component of a collaborative, productive, and sustainable effort for scholars to teach and learn from each other. Once a tutorial slips into our [editorial workflow]({{site.baseurl}}/author-guidelines), we do everything we can to make sure the tutorial becomes as useful as possible and published in a reasonable amount of time. Consult our [Reviewer Guidelines]({{site.baseurl}}/reviewer-guidelines) for more information.
+The review process is an integral component of a collaborative, productive, and sustainable effort for scholars to teach and learn from each other. Once a tutorial slips into our [editorial workflow]({{site.baseurl}}/en/author-guidelines), we do everything we can to make sure the tutorial becomes as useful as possible and published in a reasonable amount of time. Consult our [Reviewer Guidelines]({{site.baseurl}}/en/reviewer-guidelines) for more information.
 
 
 ## Open Source

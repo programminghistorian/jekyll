@@ -60,17 +60,17 @@ Pour utiliser les techniques présentées ici, vous devrez d'abord télécharger
 -   [Installation de Python pour Windows](/fr/lecons/installation-windows-py)
 -   [Installation de Python pour Linux](/en/lessons/linux-installation)
 
-  [langage de programmation Python]: https://www.python.org/
-  [l'analyseur HTML / XML Beautiful Soup]: https://www.crummy.com/software/BeautifulSoup/
-  [Komodo Edit]: https://www.activestate.com/komodo-edit
-  [éditeurs compatibles avec Python]: https://wiki.python.org/moin/PythonEditors/
-  [Zotero]: https://www.zotero.org/
-  [Jungle Disk]: https://www.jungledisk.com/
-  [Dropbox]: https://www.dropbox.com/
-  [Affichage des fichiers HTML]: /lessons/viewing-html-files
-  [Installation de Python pour Mac]: /lessons/mac-installation
-  [Installation de Python pour Windows]: /lessons/windows-installation
-  [Installation de Python pour Linux]: /lessons/linux-installation
+- [langage de programmation Python](https://www.python.org/)
+- [l'analyseur HTML / XML Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
+- [Komodo Edit](https://www.activestate.com/komodo-edit)
+- [éditeurs compatibles avec Python](https://wiki.python.org/moin/PythonEditors/)
+- [Zotero](https://www.zotero.org/)
+- [Jungle Disk](https://www.jungledisk.com/)
+- [Dropbox](https://www.dropbox.com/)
+- [Affichage des fichiers HTML](/en/lessons/viewing-html-files)
+- [Installation de Python pour Mac](/en/lessons/mac-installation)
+- [Installation de Python pour Windows](/en/lessons/windows-installation)
+- [Installation de Python pour Linux](/en/lessons/linux-installation)
 
 
 

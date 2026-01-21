@@ -382,7 +382,7 @@ Las opciones son:
 
 A) Sigue nuestra guía para ["hacer contribuciones técnicas"](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions), que utiliza el sitio web de GitHub.
 
-B) La manera más fácil de publicar el texto es utilizar git en tu terminal de línea de comandos. Las siguientes instrucciones presuponen que ya has clonado en tu ordenador los repositorios jekyll y ph-submissions/es (si no es así, nuestra [introducción a GitHub](/lessons/getting-started-with-github-desktop) puedes ser útil). Si tienes alguna duda puedes contactar al equipo técnico.
+B) La manera más fácil de publicar el texto es utilizar git en tu terminal de línea de comandos. Las siguientes instrucciones presuponen que ya has clonado en tu ordenador los repositorios jekyll y ph-submissions/es (si no es así, nuestra [introducción a GitHub](/en/lessons/getting-started-with-github-desktop) puedes ser útil). Si tienes alguna duda puedes contactar al equipo técnico.
 
 1. Sitúate en el director local de tu repositorio `ph-submissions/es`.
 2. Introduce `git pull` para descargar los últimos cambios en tu ordenador (o `sync` si utilizas GitHub Desktop).

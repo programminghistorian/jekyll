@@ -15,8 +15,8 @@ activity: sustaining
 topics: [data-management]
 abstract: "In this lesson you will be introduced to the basics of version control, understand why it is useful and implement basic version control for a plain text document using git and GitHub."
 redirect_from:
-  - /lessons/getting-started-with-github-desktop
-  - /en/lessons/getting-started-with-github-desktop
+  - /lessons/getting-started-with-github-desktop/
+  - /en/lessons/getting-started-with-github-desktop/
 retired: true
 retirement-reason: |
   This lesson is for an old version of GitHub Desktop that is now no longer maintained or supported by GitHub. The new version and its documentation can be found at <https://desktop.github.com/>
@@ -104,7 +104,7 @@ Dropbox, Google Drive and other services offer some form of version control in t
 
 Using version control has become pretty well established in some scientific disciplines, though its adoption is still far from universal. In the humanities and social sciences the use of version control systems like Git are much less common. The projects below show some possible ways of using Git in academic setting:
 
-* [The Programming Historian](https://github.com/programminghistorian/jekyll) which uses GitHub in the work-flow of managing the [journal](https://github.com/programminghistorian/jekyll/issues), [lessons](/author-guidelines) and [producing the site.](/posts/how-we-moved-to-github)
+* [The Programming Historian](https://github.com/programminghistorian/jekyll) which uses GitHub in the work-flow of managing the [journal](https://github.com/programminghistorian/jekyll/issues), [lessons](/en/author-guidelines) and [producing the site.](/posts/how-we-moved-to-github)
 * [Python Programming for the Humanities](https://github.com/fbkarsdorp/python-course) is a tutorial introducing the Python programming language.
 * [ProfHacker](https://www.chronicle.com/search?q=github) has posts on various projects on using GitHub in an academic context.
 
@@ -136,7 +136,7 @@ Although there are many benefits to writing our documents in plain text files we
 
 Markdown is a way of including formatting into a plain text document. You may have come across HTML or LaTeX in the past. These markup languages also express information about the formatting and structure of plain text. Markdown, however, tries to minimize the syntax. This makes it easier to focus on the content of writing without the markup getting in the way---hence the name 'markdown.'
 
-The Markdown syntax won't be covered in this lesson in order to keep the length short. However, it makes sense to explore Markdown once you have gone through this lesson and are comfortable with the basics of version control. GitHub integrates its own version of Markdown syntax. If you add Markdown syntax to documents you version control with GitHub Desktop these will be rendered on the GitHub website. Arguably the best way to learn Markdown is to begin using it. The [Getting Started with Markdown](/lessons/getting-started-with-markdown) lesson by Sarah Simpkin provides an overview of Markdown while the lesson [Sustainable Authorship in Plain Text using Pandoc and Markdown](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) by Dennis Tenen and Grant Wythoff explains how to utilise Markdown in combination with Pandoc to use plain text for your academic writing.
+The Markdown syntax won't be covered in this lesson in order to keep the length short. However, it makes sense to explore Markdown once you have gone through this lesson and are comfortable with the basics of version control. GitHub integrates its own version of Markdown syntax. If you add Markdown syntax to documents you version control with GitHub Desktop these will be rendered on the GitHub website. Arguably the best way to learn Markdown is to begin using it. The [Getting Started with Markdown](/en/lessons/getting-started-with-markdown) lesson by Sarah Simpkin provides an overview of Markdown while the lesson [Sustainable Authorship in Plain Text using Pandoc and Markdown](/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) by Dennis Tenen and Grant Wythoff explains how to utilise Markdown in combination with Pandoc to use plain text for your academic writing.
 
 ### Text Editors
 
@@ -241,7 +241,7 @@ A potentially useful parallel to writing good commit messages is the messages in
 
 The benefits of using version control rely to a large degree on using the system effectively. This means thinking about when to make commits and how to best convey the changes in that commit in a message. Focusing on making both your messages and your commits 'atomic' will make it easier to 'move' through different stages of your repositories history. A good repository will allow you to easily understand changes that were made at different stages, will be understood by other people and will help you reflect on the changes you make to a document.
 
-There is some difference between how you would manage a repository primarily focused on code and one focused on text. Both, however, benefit from clear and logical organisation. This is something that is important to do with your research data regardless of whether you are version controlling it and/or making it public. For a useful introduction to managing research data see James Baker's lesson [Preserving Your Research Data](/lessons/preserving-your-research-data).
+There is some difference between how you would manage a repository primarily focused on code and one focused on text. Both, however, benefit from clear and logical organisation. This is something that is important to do with your research data regardless of whether you are version controlling it and/or making it public. For a useful introduction to managing research data see James Baker's lesson [Preserving Your Research Data](/en/lessons/preserving-your-research-data).
 
 ### Publishing Your Repository
 
@@ -326,9 +326,9 @@ This may seem like a convoluted approach to dealing with conflicts but it is ver
 
 ## Version Control in a Plain Text Workflow
 
-So far we have only implemented version control with a very basic document. Learning more about Markdown and writing in plain text will allow you to use version control in more the sorts of documents you would use in your day-to-day work. Version controlling a Markdown document will allow you to learn the Markdown syntax while reinforcing your understanding of version controlling documents. [Sustainable Authorship in Plain Text using Pandoc and Markdown](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) by Dennis Tenen and Grant Wythoff will provide you with an understanding of how you could use plain text for academic writing using Pandoc and Markdown. Pandoc allows you to convert Markdown formated Plain Text files into numerous different formats including HTML, PDF and Word. The combination of Markdown, Pandoc and Version Control will provide a powerful, sustainable and flexible approach to academic writing.
+So far we have only implemented version control with a very basic document. Learning more about Markdown and writing in plain text will allow you to use version control in more the sorts of documents you would use in your day-to-day work. Version controlling a Markdown document will allow you to learn the Markdown syntax while reinforcing your understanding of version controlling documents. [Sustainable Authorship in Plain Text using Pandoc and Markdown](/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) by Dennis Tenen and Grant Wythoff will provide you with an understanding of how you could use plain text for academic writing using Pandoc and Markdown. Pandoc allows you to convert Markdown formated Plain Text files into numerous different formats including HTML, PDF and Word. The combination of Markdown, Pandoc and Version Control will provide a powerful, sustainable and flexible approach to academic writing.
 
-The workflow introduced in this lesson can also be used as a foundation to create static websites hosted on GitHub. Once you are comfortable using GitHub Desktop, you may wish to proceed to Amanda Visconti's lesson, [Building a Static Website with Jekyll and GitHub Pages](../lessons/building-static-sites-with-jekyll-github-pages).
+The workflow introduced in this lesson can also be used as a foundation to create static websites hosted on GitHub. Once you are comfortable using GitHub Desktop, you may wish to proceed to Amanda Visconti's lesson, [Building a Static Website with Jekyll and GitHub Pages](/en/lessons/building-static-sites-with-jekyll-github-pages).
 
 ## Further Resources
 

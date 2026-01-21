@@ -25,8 +25,8 @@ abstract: "En esta lección aprenderás lo básico del control de versiones, com
 original: getting-started-with-github-desktop
 avatar_alt: Grabado de una pareja en un escritorio observando a un gato a la luz de una vela
 redirect_from:
-  - /es/lessons/getting-started-with-github-desktop
-  - /es/lecciones/introduccion-control-versiones-github-desktop
+  - /es/lessons/getting-started-with-github-desktop/
+  - /es/lecciones/introduccion-control-versiones-github-desktop/
 retired: true
 retirement-reason: |
   Esta lección utiliza una versión obsoleta de GitHub Desktop que ya no cuenta con el respaldo de GitHub. La última versión y la documentación pueden encontrarse en <https://desktop.github.com/>.
@@ -319,7 +319,7 @@ Esta forma de resolver conflictos puede parecer más compleja de lo que es, pero
 
 Hasta el momento hemos puesto en marcha un control de versiones con un documento muy básico. Si aprendes más acerca de Markdown y la escritura en texto plano, podrás usar el control de versiones de muchas maneras y te será muy útil para llevar a cabo tu investigación. Controlar las versiones de un documento Markdown te permitirá profundizar en esta sintaxis; para ello, te recomendamos consultar la lección [Escritura sostenible en texto plano usando Pandoc y Markdown](/es/lecciones/escritura-sostenible-usando-pandoc-y-markdown) escrita por Dennis Tenen y Grant Wythoff; esta lección te ayudará a entender cómo puedes usar el texto plano para escribir con Pandoc y Markdown. Pandoc es muy útil para convertir tus archivos de texto plano escritos en Markdown a otros formatos como HTML, PDF o Word. Si combinas Markdown, Pandoc y el control de versiones, podrás implementar un sistema muy potente y sostenible para escribir tus artículos y trabajos académicos.
 
-Asimismo, el flujo de trabajo presentado en esta lección también puede convertirse en el fundamento para crear webs estáticas alojadas en GitHub. Una vez te sientas cómodo usando GitHub Desktop, puedes seguir con la lección escrita por Amanda Visconti, [Construcción de sitios estáticos usando Jekyll GitHub Pages](/lessons/building-static-sites-with-jekyll-github-pages).
+Asimismo, el flujo de trabajo presentado en esta lección también puede convertirse en el fundamento para crear webs estáticas alojadas en GitHub. Una vez te sientas cómodo usando GitHub Desktop, puedes seguir con la lección escrita por Amanda Visconti, [Construcción de sitios estáticos usando Jekyll GitHub Pages](/en/lessons/building-static-sites-with-jekyll-github-pages).
 
 ## Más recursos
 

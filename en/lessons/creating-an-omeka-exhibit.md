@@ -29,7 +29,7 @@ doi: 10.46430/phen0049
 
 
 
-Now that you've [added items to your Omeka site](/lessons/up-and-running-with-omeka) and grouped them into collections, you're ready for the next step: taking your users on a guided tour through the items you've collected.
+Now that you've [added items to your Omeka site](/en/lessons/up-and-running-with-omeka) and grouped them into collections, you're ready for the next step: taking your users on a guided tour through the items you've collected.
 
 Before you begin: Map your exhibit
 ----------------------------------

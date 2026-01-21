@@ -86,13 +86,13 @@ doesn't work on your platform, please let us know.
 -   [Windows Python Installation][]
 -   [Linux Python Installation][]
 
-  [Python programming language]: https://www.python.org/
-  [Beautiful Soup HTML/XML parser]: https://www.crummy.com/software/BeautifulSoup/
-  [Komodo Edit]: https://www.activestate.com/komodo-edit
-  [Python Editors]: https://wiki.python.org/moin/PythonEditors/
-  [Jungle Disk]: https://www.jungledisk.com/
-  [Dropbox]: https://www.dropbox.com/home
-  [Viewing HTML Files]: /lessons/viewing-html-files
-  [Mac Python Installation]: /lessons/mac-installation
-  [Windows Python Installation]: /lessons/windows-installation
-  [Linux Python Installation]: /lessons/linux-installation
+- [Python programming language](https://www.python.org/)
+- [Beautiful Soup HTML/XML parser](https://www.crummy.com/software/BeautifulSoup/)
+- [Komodo Edit](https://www.activestate.com/komodo-edit)
+- [Python Editors](https://wiki.python.org/moin/PythonEditors/)
+- [Jungle Disk](https://www.jungledisk.com/)
+- [Dropbox](https://www.dropbox.com/home)
+- [Viewing HTML Files](/en/lessons/viewing-html-files)
+- [Mac Python Installation](/en/lessons/mac-installation)
+- [Windows Python Installation](/en/lessons/windows-installation)
+- [Linux Python Installation](/en/lessons/linux-installation)

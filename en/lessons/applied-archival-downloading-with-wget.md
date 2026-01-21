@@ -163,7 +163,7 @@ and press enter again. You now have the directory selected and are ready
 to begin downloading.
 
 Based on what you have learned from [Ian Milligan's Wget
-lesson](../lessons/automated-downloading-with-wget), enter the following into
+lesson](/en/lessons/automated-downloading-with-wget), enter the following into
 the command line (note you can choose whatever you like for your 'limit rate',
 but be a responsible internet citizen and keep it under 200kb/s!):
 
@@ -209,7 +209,7 @@ if you miss a page or two during an automated download.
 
 Note that a potential workaround
 could include using regular expressions to make more complicated queries if appropriate
-(for more, see the [Understanding Regular Expressions](/lessons/understanding-regular-expressions)
+(for more, see the [Understanding Regular Expressions](/en/lessons/understanding-regular-expressions)
 lesson).
 
 Let's run the script and Wget command once more:

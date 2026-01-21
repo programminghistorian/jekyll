@@ -119,11 +119,11 @@ No seu ecrã, você verá algo como:
 
 Agora que você e o seu computador estão preparados, podemos seguir para tarefas mais interessantes. Se você está seguindo as lições do Python, a nossa sugestão é que tente a próxima lição ‘[Noções básicas de páginas web e HTML][]‘
 
-  [Time Machine]: https://support.apple.com/kb/ht1427
-  [site do Python]: https://www.python.org/downloads/mac-osx/
-  [Beautiful Soup]: https://www.crummy.com/software/BeautifulSoup/
-  [opções de editores de texto]: https://wiki.python.org/moin/PythonEditors/
-  [website do Sublime Text]: https://www.sublimetext.com/download
-  [BBEdit]: https://www.barebones.com/products/bbedit/
-  [site do Komodo Edit]: https://www.activestate.com/products/komodo-ide/downloads/edit/
-  [Noções básicas de páginas web e HTML]: nocoes-basicas-paginas-web-html
+- [Time Machine](https://support.apple.com/kb/ht1427)
+- [site do Python](https://www.python.org/downloads/mac-osx/)
+- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
+- [opções de editores de texto](https://wiki.python.org/moin/PythonEditors/)
+- [website do Sublime Text](https://www.sublimetext.com/download)
+- [BBEdit](https://www.barebones.com/products/bbedit/)
+- [site do Komodo Edit](https://www.activestate.com/products/komodo-ide/downloads/edit/)
+- [Noções básicas de páginas web e HTML](/pt/licoes/nocoes-basicas-paginas-web-html)

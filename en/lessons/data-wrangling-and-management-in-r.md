@@ -31,7 +31,7 @@ Assumptions
 
 This lesson makes a few assumptions about your understanding of R. If
 you have not completed the [R Basics with Tabular
-Data](/lessons/r-basics-with-tabular-data)
+Data](/en/lessons/r-basics-with-tabular-data)
 lesson, I suggest you complete that first. Having a background in
 another programming language will also be beneficial. If you need a
 place to start, I recommend working through the *Programming

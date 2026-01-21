@@ -74,13 +74,13 @@ Nós fornecemos instruções para o Mac, Windows e Linux. Uma vez que você tenh
 -   [Instalação do Python para Windows][]
 -   [Instalação do Python para Linux][]
 
-  [Linguagem de Programação Python]: https://www.python.org/
-  [Analisador de HTML/XML Beautiful Soup]: https://www.crummy.com/software/BeautifulSoup/
-  [Komodo Edit]: https://www.activestate.com/komodo-edit
-  [Editores Python]: https://wiki.python.org/moin/PythonEditors/
-  [Jungle Disk]: https://www.jungledisk.com/
-  [Dropbox]: https://www.dropbox.com/home
-  [Noções básicas de páginas web e HTML]: nocoes-basicas-paginas-web-html
-  [Instalação do Python para Mac]: instalacao-mac
-  [Instalação do Python para Windows]: instalacao-windows
-  [Instalação do Python para Linux]: instalacao-linux
+[Python Programming Language](https://www.python.org/)  
+[Beautiful Soup HTML/XML Parser](https://www.crummy.com/software/BeautifulSoup/)  
+[Komodo Edit](https://www.activestate.com/komodo-edit)  
+[Python Editors](https://wiki.python.org/moin/PythonEditors/)  
+[Jungle Disk](https://www.jungledisk.com/)  
+[Dropbox](https://www.dropbox.com/home)  
+[Noções básicas de páginas web e HTML](/pt/licoes/nocoes-basicas-paginas-web-html)  
+[Instalação do Python para Mac](/pt/licoes/instalacao-mac)  
+[Instalação do Python para Windows](/pt/licoes/instalacao-windows)  
+[Instalação do Python para Linux](/pt/licoes/instalacao-linux)

@@ -182,9 +182,9 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 -   python-es-lecciones8.zip ([zip sync][])
 
-  [Salida de datos como archivo HTML]: /es/lecciones/salida-de-datos-como-archivo-html
-  [Contar frecuencias de palabras]: /es/lecciones/contar-frecuencias
-  [1]: salida-de-datos-como-archivo-html
-  [archivo zip de las lecciones anteriores]: /assets/python-es-lecciones7.zip
-  [Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python
-  [zip sync]: /assets/python-es-lecciones8.zip
+- [Salida de datos como archivo HTML](/es/lecciones/salida-de-datos-como-archivo-html)
+- [Contar frecuencias de palabras](/es/lecciones/contar-frecuencias)
+- [1](/es/lecciones/salida-de-datos-como-archivo-html)
+- [archivo zip de las lecciones anteriores](/assets/python-es-lecciones7.zip)
+- [Manipular cadenas de caracteres en Python](/es/lecciones/manipular-cadenas-de-caracteres-en-python)
+- [zip sync](/assets/python-es-lecciones8.zip)

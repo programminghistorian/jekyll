@@ -303,8 +303,6 @@ with the Mac / Linux version you may have to open the `obo.py` file and
 change "file:///Users/username/Desktop/programming-historian/" to the
 path to the directory on your own computer.
 
--   python-lessons7.zip [zip sync][]
-
-  [Counting Frequencies]: /lessons/counting-frequencies
-  [zip file from the previous lesson]: /assets/python-lessons6.zip
-  [zip sync]: /assets/python-lessons7.zip
+- [Counting Frequencies](/en/lessons/counting-frequencies)
+- [zip file from the previous lesson](/en/assets/python-lessons6.zip)
+- [zip sync](/assets/python-lessons7.zip)

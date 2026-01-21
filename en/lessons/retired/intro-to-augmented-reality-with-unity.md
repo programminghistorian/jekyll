@@ -21,8 +21,8 @@ retirement-reason: |
 
   [See further discussion about this retirement decision.](https://github.com/programminghistorian/jekyll/issues/717)
 redirect_from:
-  - /lessons/intro-to-augmented-reality-with-unity
-  - /lessons/deprecated/intro-to-augmented-reality-with-unity
+  - /lessons/intro-to-augmented-reality-with-unity/
+  - /lessons/deprecated/intro-to-augmented-reality-with-unity/
 doi: 10.46430/phen0053
 ---
 

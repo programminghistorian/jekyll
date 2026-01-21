@@ -205,17 +205,17 @@ En procesos más avanzados, puedes incluso cubrir esta imagen georreferenciada c
 
 *Este tutorial es parte de [Geospatial Historian][].*
 
-  [Introducción a Google Maps y Google Earth]: /es/lecciones/intro-a-google-maps-y-google-earth
-  [rubber-sheeting]: https://en.wikipedia.org/wiki/Rubbersheeting
-  [National Topographic System Maps]: https://maps.library.utoronto.ca/datapub/digital/3400s_63_1929/maptile/Halifax/googlemaps.html
-  [1]: https://maps.library.utoronto.ca/datapub/PEI/NTS/west/
-  [2]: https://maps.library.utoronto.ca/datapub/PEI/NTS/east/
-  [Coordinate Reference System]: https://en.wikipedia.org/wiki/Spatial_reference_system
-  [Installing QGIS 2.0 and adding Layers]: /lessons/qgis-layers
-  [can be downloaded here]: https://geospatialhistorian.files.wordpress.com/2013/02/pei_lakemap1863.jpg
-  [Island Imagined]: https://web.archive.org/web/20180922004858/https://www.islandimagined.ca:80/fedora/repository/imagined:208687
-  [in Atlantic Canada]: https://books.google.ca/books?id=TqCNZYXWXAUC&dq=tilting&source=gbs_navlinks_s
-  [world file]: https://en.wikipedia.org/wiki/World_file
-  [Tif]: https://en.wikipedia.org/wiki/Tagged_Image_File_Format
-  [Creating New Vector Layers in QGIS]: /lessons/vector-layers-qgis
-  [Geospatial Historian]: https://geospatialhistorian.wordpress.com/
+- [Introducción a Google Maps y Google Earth](/es/lecciones/intro-a-google-maps-y-google-earth)
+- [rubber-sheeting](https://en.wikipedia.org/wiki/Rubbersheeting)
+- [National Topographic System Maps](https://maps.library.utoronto.ca/datapub/digital/3400s_63_1929/maptile/Halifax/googlemaps.html)
+- [1](https://maps.library.utoronto.ca/datapub/PEI/NTS/west/)
+- [2](https://maps.library.utoronto.ca/datapub/PEI/NTS/east/)
+- [Coordinate Reference System](https://en.wikipedia.org/wiki/Spatial_reference_system)
+- [Installing QGIS 2.0 and adding Layers](/en/lessons/qgis-layers)
+- [can be downloaded here](https://geospatialhistorian.files.wordpress.com/2013/02/pei_lakemap1863.jpg)
+- [Island Imagined](https://web.archive.org/web/20180922004858/https://www.islandimagined.ca:80/fedora/repository/imagined:208687)
+- [in Atlantic Canada](https://books.google.ca/books?id=TqCNZYXWXAUC&dq=tilting&source=gbs_navlinks_s)
+- [world file](https://en.wikipedia.org/wiki/World_file)
+- [Tif](https://en.wikipedia.org/wiki/Tagged_Image_File_Format)
+- [Creating New Vector Layers in QGIS](/en/lessons/vector-layers-qgis)
+- [Geospatial Historian](https://geospatialhistorian.wordpress.com/)

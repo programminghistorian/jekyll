@@ -26,7 +26,8 @@ doi: 10.46430/phen0044
 
 
 
-Introduction
+## Introduction
+
 ------------
 
 Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources. This tutorial explains how to extract network data (people, institutions, places, etc) from historical sources through the use of non-technical methods developed in Qualitative Data Analysis (QDA) and Social Network Analysis (SNA), and how to visualize this data with the platform-independent and particularly easy-to-use [*Palladio*](https://hdlab.stanford.edu/palladio/).
@@ -48,7 +49,8 @@ Many network analysis projects in the social sciences rely on pre-existing data 
 In other words, the challenge is to systematize text interpretation. Networks created from pre-existing data sets need to be considered within the context in which they were created (e.g. wording of questions in a questionnaire and selected target groups). Networks created from unstructured text pose challenges on top of this: interpretations are highly individual and depend on viewpoints and context knowledge.
 
 
-About the case study
+## About the case study
+
 --------------------
 
 The case study I use for this tutorial is a first-person narrative of Ralph Neumann, a Jewish survivor of the Holocaust. You can find the text [*online*](https://web.archive.org/web/20180422010025/https://www.gdw-berlin.de/fileadmin/bilder/publ/publikationen_in_englischer_sprache/2006_Neuman_eng.pdf). The coding scheme which I will introduce below is a simplified version of the one I developed during [*my PhD project on covert support networks during the Second World War*](https://martenduering.com/research/covert-networks-during-the-holocaust/). My research was driven by three questions: To what extent can social relationships help explain why ordinary people took the risks associated with helping? How did such relationships enable people to provide these acts of help given that only very limited resources were available to them? How did social relationships help Jewish refugees to survive in the underground?
@@ -56,7 +58,8 @@ The case study I use for this tutorial is a first-person narrative of Ralph Neum
 In this project network visualisations helped me to discover hitherto forgotten yet highly important contact brokers, highlight the overall significance of Jewish refugees as contact brokers and generally to navigate through a total of some 5,000 acts of help which connected some 1,400 people between 1942 and 1945.
 
 
-Developing a coding scheme
+## Developing a coding scheme
+
 --------------------------
 
 In visualizing network relationships, one of the first and most difficult challenges is to decide who should be part of the network and which relations between the selected actors are to be coded. It will probably take some time to figure this out and will likely be an iterative process since you will need to balance your research interests and hypotheses with the availability of information in your texts and represent both in a rigid and necessarily simplifying coding scheme.

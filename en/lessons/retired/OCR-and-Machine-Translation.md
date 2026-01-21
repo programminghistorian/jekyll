@@ -18,8 +18,8 @@ abstract: This lesson covers how to convert images of text into text files and t
 avatar_alt: An image of a tree with the Latin phrase Labor Omnia Vincit Improbus
 doi: 10.46430/phen0091
 redirect_from:
-  - /lessons/OCR-and-Machine-Translation
-  - /en/lessons/OCR-and-Machine-Translation
+  - /lessons/OCR-and-Machine-Translation/
+  - /en/lessons/OCR-and-Machine-Translation/
 retired: true
 retirement-reason: |
   Yandex, the translation software used in this lesson, has been deprecated. To successfully follow this lesson, many steps require significant adaptations, especially if users are working on a non-Mac operating system. 

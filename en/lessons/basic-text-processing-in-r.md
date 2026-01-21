@@ -640,7 +640,7 @@ Many generic tutorials exist for all three of these, as well as extensive packag
 
 # Endnotes
 
-[^1]: Taryn Dewar, "R Basics with Tabular Data," Programming Historian (05 September 2016), [/lessons/r-basics-with-tabular-data](/lessons/r-basics-with-tabular-data).
+[^1]: Taryn Dewar, "R Basics with Tabular Data," Programming Historian (05 September 2016), [/en/lessons/r-basics-with-tabular-data](/en/lessons/r-basics-with-tabular-data).
 
 [^2]: Our corpus has 236 State of the Union addresses. Depending on exactly what is counted, this number can be slightly higher or lower.
 

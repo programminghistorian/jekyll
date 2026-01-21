@@ -519,51 +519,51 @@ trabajo!**
 
 *Esta lección es parte de [Geospatial Historian](https://geospatialhistorian.wordpress.com/)*
 
-  [Google Maps Engine Lite]: https://mapsengine.google.com
-  [geo-es1]: /images/intro-a-google-maps-y-google-earth/geo-es1.png
-  [geo-es2]: /images/intro-a-google-maps-y-google-earth/geo-es2.png
-  [geo-es3]: /images/intro-a-google-maps-y-google-earth/geo-es3.png
-  [geo-es4]: /images/intro-a-google-maps-y-google-earth/geo-es4.png
-  [geo-es5]: /images/intro-a-google-maps-y-google-earth/geo-es5.png
-  [geo-es6]: /images/intro-a-google-maps-y-google-earth/geo-es6.png
-  [Archivo CSV del Suministro global de grasa de Reino Unido]: /assets/intro-a-google-maps-y-google-earth/Suministro_global_de_grasa_de_Reino_Unido_1894_1896.zip
-  [geo-es7]: /images/intro-a-google-maps-y-google-earth/geo-es7.png
-  [geo-es8]: /images/intro-a-google-maps-y-google-earth/geo-es8.png
-  [geo-es9]: /images/intro-a-google-maps-y-google-earth/geo-es9.png
-  [geo-es10]: /images/intro-a-google-maps-y-google-earth/geo-es10.png
-  [geo-es11]: /images/intro-a-google-maps-y-google-earth/geo-es11.png
-  [geo-es12]: /images/intro-a-google-maps-y-google-earth/geo-es12.png
-  [Creating New Vector Layers in QGIS 2.0]: /lessons/vector-layers-qgis
-  [geo-es13]: /images/intro-a-google-maps-y-google-earth/geo-es13.png
-  [geo-es14]: /images/intro-a-google-maps-y-google-earth/geo-es14.png
-  [geo-es15]: /images/intro-a-google-maps-y-google-earth/geo-es15.png
-  [geo-es16]: /images/intro-a-google-maps-y-google-earth/geo-es16.png
-  [geo-es17]: /images/intro-a-google-maps-y-google-earth/geo-es17.png
-  [geo-es18]: /images/intro-a-google-maps-y-google-earth/geo-es18.png
-  [geo-es19]: /images/intro-a-google-maps-y-google-earth/geo-es19.png
-  [geo-es20]: /images/intro-a-google-maps-y-google-earth/geo-es20.png
-  [geo-es21]: /images/intro-a-google-maps-y-google-earth/geo-es21.png
-  [geo-es22]: /images/intro-a-google-maps-y-google-earth/geo-es22.png
-  [geo-es23]: /images/intro-a-google-maps-y-google-earth/geo-es23.png
-  [geo-es24]: /images/intro-a-google-maps-y-google-earth/geo-es24.png
-  [www.davidrumsey.com]: https://www.davidrumsey.com/
-  [geo-es25]: /images/intro-a-google-maps-y-google-earth/geo-es25.png
-  [geo-es26]: /images/intro-a-google-maps-y-google-earth/geo-es26.png
-  [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
-  [geo-es27]: /images/intro-a-google-maps-y-google-earth/geo-es27.png
-  [geo-es28]: /images/intro-a-google-maps-y-google-earth/geo-es28.png
-  [Maps Engine Lite]: https://mapsengine.google.com/map/
-  [mapa de la vía marítima]: /assets/googlemaps-googleearth/seaway.zip
-  [geo-es29]: /images/intro-a-google-maps-y-google-earth/geo-es29.png
-  [geo-es30]: /images/intro-a-google-maps-y-google-earth/geo-es30.png
-  [geo-es31]: /images/intro-a-google-maps-y-google-earth/geo-es31.png
-  [geo-es32]: /images/intro-a-google-maps-y-google-earth/geo-es32.png
-  [geo-es33]: /images/intro-a-google-maps-y-google-earth/geo-es33.png
-  [geo-es34]: /images/intro-a-google-maps-y-google-earth/geo-es34.png
-  [geo-es35]: /images/intro-a-google-maps-y-google-earth/geo-es35.png
-  [Mobile Mapping and Historical GIS in the Field]: https://niche-canada.org/2011/12/14/mobile-mapping-and-historical-gis-in-the-field/
-  [geo-es36]: /images/intro-a-google-maps-y-google-earth/geo-es36.png
-  [geo-es37]: /images/intro-a-google-maps-y-google-earth/geo-es37.png
-  [geo-es38]: /images/intro-a-google-maps-y-google-earth/geo-es38.png
-  [geo-es39]: /images/intro-a-google-maps-y-google-earth/geo-es39.png
-  [geo-es40]: /images/intro-a-google-maps-y-google-earth/geo-es40.png
+- [Google Maps Engine Lite](https://mapsengine.google.com)
+- [geo-es1](/images/intro-a-google-maps-y-google-earth/geo-es1.png)
+- [geo-es2](/images/intro-a-google-maps-y-google-earth/geo-es2.png)
+- [geo-es3](/images/intro-a-google-maps-y-google-earth/geo-es3.png)
+- [geo-es4](/images/intro-a-google-maps-y-google-earth/geo-es4.png)
+- [geo-es5](/images/intro-a-google-maps-y-google-earth/geo-es5.png)
+- [geo-es6](/images/intro-a-google-maps-y-google-earth/geo-es6.png)
+- [Archivo CSV del Suministro global de grasa de Reino Unido](/assets/intro-a-google-maps-y-google-earth/Suministro_global_de_grasa_de_Reino_Unido_1894_1896.zip)
+- [geo-es7](/images/intro-a-google-maps-y-google-earth/geo-es7.png)
+- [geo-es8](/images/intro-a-google-maps-y-google-earth/geo-es8.png)
+- [geo-es9](/images/intro-a-google-maps-y-google-earth/geo-es9.png)
+- [geo-es10](/images/intro-a-google-maps-y-google-earth/geo-es10.png)
+- [geo-es11](/images/intro-a-google-maps-y-google-earth/geo-es11.png)
+- [geo-es12](/images/intro-a-google-maps-y-google-earth/geo-es12.png)
+- [Creating New Vector Layers in QGIS 2.0](/en/lessons/vector-layers-qgis)
+- [geo-es13](/images/intro-a-google-maps-y-google-earth/geo-es13.png)
+- [geo-es14](/images/intro-a-google-maps-y-google-earth/geo-es14.png)
+- [geo-es15](/images/intro-a-google-maps-y-google-earth/geo-es15.png)
+- [geo-es16](/images/intro-a-google-maps-y-google-earth/geo-es16.png)
+- [geo-es17](/images/intro-a-google-maps-y-google-earth/geo-es17.png)
+- [geo-es18](/images/intro-a-google-maps-y-google-earth/geo-es18.png)
+- [geo-es19](/images/intro-a-google-maps-y-google-earth/geo-es19.png)
+- [geo-es20](/images/intro-a-google-maps-y-google-earth/geo-es20.png)
+- [geo-es21](/images/intro-a-google-maps-y-google-earth/geo-es21.png)
+- [geo-es22](/images/intro-a-google-maps-y-google-earth/geo-es22.png)
+- [geo-es23](/images/intro-a-google-maps-y-google-earth/geo-es23.png)
+- [geo-es24](/images/intro-a-google-maps-y-google-earth/geo-es24.png)
+- [www.davidrumsey.com](https://www.davidrumsey.com/)
+- [geo-es25](/images/intro-a-google-maps-y-google-earth/geo-es25.png)
+- [geo-es26](/images/intro-a-google-maps-y-google-earth/geo-es26.png)
+- [Georeferencing in QGIS 2.0](/en/lessons/georeferencing-qgis)
+- [geo-es27](/images/intro-a-google-maps-y-google-earth/geo-es27.png)
+- [geo-es28](/images/intro-a-google-maps-y-google-earth/geo-es28.png)
+- [Maps Engine Lite](https://mapsengine.google.com/map/)
+- [mapa de la vía marítima](/assets/googlemaps-googleearth/seaway.zip)
+- [geo-es29](/images/intro-a-google-maps-y-google-earth/geo-es29.png)
+- [geo-es30](/images/intro-a-google-maps-y-google-earth/geo-es30.png)
+- [geo-es31](/images/intro-a-google-maps-y-google-earth/geo-es31.png)
+- [geo-es32](/images/intro-a-google-maps-y-google-earth/geo-es32.png)
+- [geo-es33](/images/intro-a-google-maps-y-google-earth/geo-es33.png)
+- [geo-es34](/images/intro-a-google-maps-y-google-earth/geo-es34.png)
+- [geo-es35](/images/intro-a-google-maps-y-google-earth/geo-es35.png)
+- [Mobile Mapping and Historical GIS in the Field](https://niche-canada.org/2011/12/14/mobile-mapping-and-historical-gis-in-the-field/)
+- [geo-es36](/images/intro-a-google-maps-y-google-earth/geo-es36.png)
+- [geo-es37](/images/intro-a-google-maps-y-google-earth/geo-es37.png)
+- [geo-es38](/images/intro-a-google-maps-y-google-earth/geo-es38.png)
+- [geo-es39](/images/intro-a-google-maps-y-google-earth/geo-es39.png)
+- [geo-es40](/images/intro-a-google-maps-y-google-earth/geo-es40.png)

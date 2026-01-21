@@ -41,13 +41,13 @@ From time to time we may advertise that we are seeking more editors.
 
 If you are fluent in more than one of our publication languages (French, English, Spanish, Portuguese), you are invited to get in touch with us about translating one of our published Programming Historian lessons from one language to another. This will help us to assist building multilingual digital humanities communities, and to build your language, method, and technological skills.
 
-We are seeking rigorous and readable translations that take into account the Spanish-language, the French-language and the Portuguese-language research contexts and the resources available in our respective communities. If you are interested in collaborating, consult our instructions for authors and translators [in Spanish](/es/guia-para-autores.html), [in French](/fr/consignes-auteurs.html) and [in Portuguese](/pt/directrizes-autor.html).
+We are seeking rigorous and readable translations that take into account the Spanish-language, the French-language and the Portuguese-language research contexts and the resources available in our respective communities. If you are interested in collaborating, consult our instructions for authors and translators [in Spanish](/es/guia-para-autores), [in French](/fr/consignes-auteurs) and [in Portuguese](/pt/directrizes-autor).
 
 ## Provide feedback or report problems
 
 <img src="{{site.baseurl}}/images/website/contribute/robed-man-reading.png" class="garnish rounded float-right" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
 
-We welcome [feedback](feedback.html) on any aspect of the _Programming Historian_. Let us know what we can do to make the project better!
+We welcome [feedback](/en/feedback) on any aspect of the _Programming Historian_. Let us know what we can do to make the project better!
 
 We are especially grateful for tips about lessons that seem to be broken. As URLs change and as new versions of software and platforms are released, lessons develop glitches over time. Please help us keep the _Programming Historian_ up to date by letting us know about these when you come across them in the course of your reading.
 
