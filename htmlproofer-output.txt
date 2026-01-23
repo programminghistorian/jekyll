@@ -276,11 +276,11 @@ For the Links > External check, the following failures were found:
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:516:
 
-  External link https://docs.unity3d.com/Manual/LearningtheInterface.html failed (status code 404)
+  External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:516:
 
-  External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
+  External link https://docs.unity3d.com/Manual/LearningtheInterface.html failed (status code 404)
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:1335:
 
@@ -356,10 +356,6 @@ For the Links > External check, the following failures were found:
 
 For the Links > Internal check, the following failures were found:
 
-* At _site/en/about/index.html:274:
-
-  internally linking to /support-us, which does not exist
-
 * At _site/en/author-guidelines/index.html:258:
 
   internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not
@@ -378,11 +374,11 @@ For the Links > Internal check, the following failures were found:
 
 * At _site/en/contribute/index.html:253:
 
-  internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not
+  internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
 
 * At _site/en/contribute/index.html:253:
 
-  internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
+  internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not
 
 * At _site/en/contribute/index.html:272:
 
@@ -614,11 +610,11 @@ For the Links > Internal check, the following failures were found:
 
 * At _site/en/lessons/sonification/index.html:548:
 
-  internally linking to #Hermann; the file exists, but the hash 'Hermann' does not
+  internally linking to #Last; the file exists, but the hash 'Last' does not
 
 * At _site/en/lessons/sonification/index.html:548:
 
-  internally linking to #Last; the file exists, but the hash 'Last' does not
+  internally linking to #Hermann; the file exists, but the hash 'Hermann' does not
 
 * At _site/en/lessons/sonification/index.html:550:
 
@@ -1105,4 +1101,4 @@ For the Links > Internal check, the following failures were found:
   internally linking to /pt/apoie-nos, which does not exist
 
 
-HTML-Proofer found 272 failures!
+HTML-Proofer found 271 failures!

@@ -43,7 +43,6 @@ _site/fr/lecons/detecter-la-reutilisation-de-texte-avec-passim/index.html,1538,h
 _site/fr/recherche/index.html,436,http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/ is not an HTTPS link
 _site/fr/recherche/index.html,438,http://clionauta.hypotheses.org/16979 is not an HTTPS link
 _site/pt/directrizes-editor/index.html,591,http://www.loc.gov/maps/collections is not an HTTPS link
-_site/pt/licoes/geocodificando-qgis/index.html,599,[url](https://www.oracle.com/java/technologies/downloads/#java8) is an invalid URL
 _site/pt/licoes/geocodificando-qgis/index.html,769,http://www.gazetteer.org.uk/index.php is not an HTTPS link
 _site/pt/licoes/introducao-dados-abertos-conectados/index.html,1089,http://www.ahrc.ac.uk/ is not an HTTPS link
 _site/pt/licoes/introducao-map-warper/index.html,562,http://mapwarper.net/ is not an HTTPS link
@@ -85,13 +84,12 @@ _site/pt/directrizes-autor/index.html,477,External link https://notepad-plus-plu
 _site/pt/licoes/investigar-literatura-lusofona-literateca/index.html,1051,External link https://doi.org/10.11606/issn.2317-9511.v37p622-643 failed: Not Found (status code 404)
 _site/pt/pesquisa/index.html,376,External link https://www.jisc.ac.uk/events/digifest-2023/programme failed (status code 404)
 _site/pt/reportar-um-erro/index.html,256,External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
-_site/en/about/index.html,274,"internally linking to /support-us, which does not exist"
-_site/en/author-guidelines/index.html,258,"internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not"
 _site/en/author-guidelines/index.html,258,"internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not"
 _site/en/author-guidelines/index.html,258,"internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not"
+_site/en/author-guidelines/index.html,258,"internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not"
 _site/en/contribute/index.html,253,"internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not"
-_site/en/contribute/index.html,253,"internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not"
 _site/en/contribute/index.html,253,"internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not"
+_site/en/contribute/index.html,253,"internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not"
 _site/en/contribute/index.html,272,"internally linking to editor-guidelines, which does not exist"
 _site/en/editor-guidelines/index.html,345,"internally linking to #c-sustainability-review; the file exists, but the hash 'c-sustainability-review' does not"
 _site/en/individual/index.html,276,"internally linking to ipp, which does not exist"
@@ -149,11 +147,11 @@ _site/en/lessons/simulating-historical-communication-networks-python/index.html,
 _site/en/lessons/simulating-historical-communication-networks-python/index.html,525,"internally linking to #Part-3:-A-Summary,-Open-Questions-and-Next-Steps; the file exists, but the hash 'Part-3:-A-Summary,-Open-Questions-and-Next-Steps' does not"
 _site/en/lessons/simulating-historical-communication-networks-python/index.html,1096,"internally linking to /en/lessons/common-similarity-measures#city-block-manhattan-distance; the file exists, but the hash 'city-block-manhattan-distance' does not"
 _site/en/lessons/sonification/index.html,517,"internally linking to #Drucker; the file exists, but the hash 'Drucker' does not"
-_site/en/lessons/sonification/index.html,548,"internally linking to #Hermann; the file exists, but the hash 'Hermann' does not"
 _site/en/lessons/sonification/index.html,548,"internally linking to #Last; the file exists, but the hash 'Last' does not"
+_site/en/lessons/sonification/index.html,548,"internally linking to #Hermann; the file exists, but the hash 'Hermann' does not"
 _site/en/lessons/sonification/index.html,550,"internally linking to #pitch; the file exists, but the hash 'pitch' does not"
-_site/en/lessons/sonification/index.html,553,"internally linking to #midi; the file exists, but the hash 'midi' does not"
 _site/en/lessons/sonification/index.html,553,"internally linking to #mp3; the file exists, but the hash 'mp3' does not"
+_site/en/lessons/sonification/index.html,553,"internally linking to #midi; the file exists, but the hash 'midi' does not"
 _site/en/lessons/sonification/index.html,559,"internally linking to #Koebler; the file exists, but the hash 'Koebler' does not"
 _site/en/lessons/sonification/index.html,559,"internally linking to #Baio; the file exists, but the hash 'Baio' does not"
 _site/en/lessons/sonification/index.html,563,"internally linking to #hedges; the file exists, but the hash 'hedges' does not"
@@ -223,8 +221,8 @@ _site/es/lecciones/introduccion-a-tei-2/index.html,2010,"internally linking to /
 _site/es/lecciones/lectura-escalable-de-datos-estructurados/index.html,681,"internally linking to #paso-3-selecion-sistematica-y-reproducible-de-datos-individuales-para-la-lectura-atenta; the file exists, but the hash 'paso-3-selecion-sistematica-y-reproducible-de-datos-individuales-para-la-lectura-atenta' does not"
 _site/es/lecciones/lectura-escalable-de-datos-estructurados/index.html,1073,"internally linking to #paso-3-selecion-sistematica-y-reproducible-de-datos-individuales-para-la-lectura-atenta; the file exists, but the hash 'paso-3-selecion-sistematica-y-reproducible-de-datos-individuales-para-la-lectura-atenta' does not"
 _site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html,541,"internally linking to /en/lessons/intro-to-the-zotero-api.html, which does not exist"
-_site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html,1074,"internally linking to /en/lessons/intro-to-beautiful-soup.html, which does not exist"
 _site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html,1074,"internally linking to /en/lessons/intro-to-bash.html, which does not exist"
+_site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html,1074,"internally linking to /en/lessons/intro-to-beautiful-soup.html, which does not exist"
 _site/es/lecciones/sitios-estaticos-con-jekyll-y-github-pages/index.html,665,"internally linking to sitios-dinámicos-sitios-estáticos-y-jekyll, which does not exist"
 _site/es/lecciones/topic-modeling-y-mallet/index.html,557,"internally linking to introduccion-a-bash, which does not exist"
 _site/es/lecciones/topic-modeling-y-mallet/index.html,857,"internally linking to introduccion-a-bash, which does not exist"
@@ -259,9 +257,6 @@ _site/pt/licoes/autoria-sustentavel-texto-simples-pandoc-markdown/index.html,568
 _site/pt/licoes/criar-exposicao-omeka/index.html,557,"internally linking to /pt/licoes/introducao-omeka-net#configurar-o-seu-site-para--portugu%C3%AAs-nota-da-tradu%C3%A7%C3%A3o; the file exists, but the hash 'configurar-o-seu-site-para--portugu%C3%AAs-nota-da-tradu%C3%A7%C3%A3o' does not"
 _site/pt/licoes/explorar-analisar-dados-rede-python/index.html,627,"internally linking to /en/lessons/creating-network-diagrams-from-historical-sources#developing-a-coding-scheme; the file exists, but the hash 'developing-a-coding-scheme' does not"
 _site/pt/licoes/extrair-paginas-ilustradas-com-python/index.html,757,"internally linking to /en/lessons/text-mining-with-extracted-features#start-a-notebook; the file exists, but the hash 'start-a-notebook' does not"
-_site/pt/licoes/geocodificando-qgis/index.html,840,"internally linking to #Geocodificar-seus-próprios-dados-históricos; the file exists, but the hash 'Geocodificar-seus-próprios-dados-históricos' does not"
-_site/pt/licoes/geocodificando-qgis/index.html,903,"internally linking to #Solucionar-problemas-com-a-base-de-dados-dos-gazetteers-unidos; the file exists, but the hash 'Solucionar-problemas-com-a-base-de-dados-dos-gazetteers-unidos' does not"
-_site/pt/licoes/geocodificando-qgis/index.html,970,"internally linking to #Adicionar-dados-geocodificados-ao-QGIS; the file exists, but the hash 'Adicionar-dados-geocodificados-ao-QGIS' does not"
 _site/pt/licoes/git-ferramenta-metodologica-projetos-historia-1/index.html,1002,"internally linking to #comandos-basicos; the file exists, but the hash 'comandos-basicos' does not"
 _site/pt/licoes/introducao-jupyter-notebooks/index.html,559,"internally linking to /pt/licoes/extrair-paginas-ilustradas-com-python#jupyter-notebooks; the file exists, but the hash 'jupyter-notebooks' does not"
 _site/pt/licoes/introducao-jupyter-notebooks/index.html,628,"internally linking to #Usando-Jupyter-Notebook-para-ensinar; the file exists, but the hash 'Usando-Jupyter-Notebook-para-ensinar' does not"
