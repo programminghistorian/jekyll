@@ -22,7 +22,7 @@ previous: /en/lessons/from-html-to-list-of-words-2
 series_total: 15 lessons
 sequence: 9
 python_warning: false
-redirect_from: /lessons/normalizing-data
+redirect_from: /lessons/normalizing-data/
 avatar_alt: Tall woman dragging a short young man
 doi: 10.46430/phen0014
 ---

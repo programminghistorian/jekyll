@@ -1,7 +1,7 @@
 ---
 layout: blank
 title: Nos Soutiens
-redirect_from: /nos-soutiens
+redirect_from: /nos-soutiens/
 original: supporters
 ---
 

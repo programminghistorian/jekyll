@@ -22,7 +22,7 @@ previous: /en/lessons/manipulating-strings-in-python
 series_total: 15 lessons
 sequence: 7
 python_warning: false
-redirect_from: /lessons/from-html-to-list-of-words-1
+redirect_from: /lessons/from-html-to-list-of-words-1/
 avatar_alt: A giraffe being mimicked by a human
 doi: 10.46430/phen0006
 ---

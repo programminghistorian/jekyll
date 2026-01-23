@@ -27,7 +27,7 @@ doi: 10.46430/phen0090
 ## Introduction: A Small Collaborative Publishing Ecosystem
 This lesson will help you turn a basic Jekyll-generated website into a digital humanities (DH) community blog or other multi-author scholarly website, such as a simpler version of the DH center website and blog [ScholarsLab.org](https://scholarslab.org). The ["Building a static website with Jekyll and GitHub Pages" lesson](/en/lessons/building-static-sites-with-jekyll-github-pages) explained how to create a free, easy-to-maintain, preservation-friendly, secure website over which full control is held, such as a scholarly blog, project website, or online portfolio. In this lesson, we provide novice-friendly instructions on how to turn that basic Jekyll website into an active, community-authored blog with a system for reviewing writing and other site changes before moving them to the website.[^1]
 
-The tutorial is divided into two parts: initial, one-time start-up actions; and the steps to follow each time you want to author or edit the site. This lesson will cover creating and editing blog posts on your site and creating and integrating author information for sites supporting multiple authors. We also offer practical advice on the challenges this sort of set-up offers for community authorship as well as questions to consider before undertaking this sort of workflow. If you have an existing blog you are hoping to migrate to Jekyll, we briefly advise on this process [near the end of this lesson](#moving-an-existing-website-to-Jekyll).
+The tutorial is divided into two parts: initial, one-time start-up actions; and the steps to follow each time you want to author or edit the site. This lesson will cover creating and editing blog posts on your site and creating and integrating author information for sites supporting multiple authors. We also offer practical advice on the challenges this sort of set-up offers for community authorship as well as questions to consider before undertaking this sort of workflow. If you have an existing blog you are hoping to migrate to Jekyll, we briefly advise on this process [near the end of this lesson](#moving-an-existing-website-to-jekyll).
 
 ### Pre-requisites and requirements
 This lesson assumes you are starting from an existing Jekyll website you have created yourself, either by:  
@@ -46,7 +46,7 @@ You may be able to follow this lesson using any kind of computer, but this lesso
 In the version of this lesson that we use for our research center's blog, users tend to complete the lesson in 1–1.5 hours.
 
 ### How difficult is this lesson?
-The steps in this tutorial are unambiguous and there are very few choices you need to make as you work through this lesson. We tried to make it very detailed, combining the steps to take along with explanations of why you are taking these actions. We have included screenshots so you can compare what you are seeing with what the lesson thinks you should be seeing. A [help](#help) section includes a handy [recap](#workflow-recap) of the steps described below (useful once you understand them and need an accessible reference), links to a glossary of key terms, and further reading.
+The steps in this tutorial are unambiguous and there are very few choices you need to make as you work through this lesson. We tried to make it very detailed, combining the steps to take along with explanations of why you are taking these actions. We have included screenshots so you can compare what you are seeing with what the lesson thinks you should be seeing. A [help](#help) section includes a handy [recap](#workflow-summary) of the steps described below (useful once you understand them and need an accessible reference), links to a glossary of key terms, and further reading.
 
 You will learn some new terms and gain familiarity with the GitHub.com interface. You will not need to use the command line or understand git/versioning. (We discuss two versioning concepts briefly, but you will not need to understand these to do this tutorial.)
 
@@ -422,7 +422,7 @@ Commit (save) as often as you would save any other work-in-progress. Or, draft y
 
 {% include figure.html filename="groupblogging-preview-changes.png" caption="Screenshot of where the text editor's preview button is found" %}
 
-The [previous lesson](/en/lessons/building-static-sites-with-jekyll-github-pages#hosting-on-github-pages-) had you use the GitHub Desktop app to commit and merge, instead we will use the GitHub.com interface. This lets contributors unfamiliar or uncomfortable with the command line or running a site locally do everything from GitHub.com.
+The [previous lesson](/en/lessons/building-static-sites-with-jekyll-github-pages#hosting-on-github-pages) had you use the GitHub Desktop app to commit and merge, instead we will use the GitHub.com interface. This lets contributors unfamiliar or uncomfortable with the command line or running a site locally do everything from GitHub.com.
 
 To commit your work, scroll down to the bottom of the text editor page.
 
@@ -514,7 +514,7 @@ Click on the green "Create pull request." You will be offered another box to des
 
 Under the menu on the right, you will find a section labeled “Reviewers”. Click on the word “reviewers” to see a dropdown menu of contributors associated with your repo who you could ask to review your work (added using the [reviewer permissions](#reviewer-permissions) steps). You will want to tag someone to review your work who has owner permissions on your repo. This will notify the site authors who are confident with Jekyll (the people with “owner” privileges) that you are making a change (like adding a blog post) to the website.
 
-*If you are not an owner*, your work is now done and you are waiting for someone with owner privileges to briefly review your changes, using the steps in ["Merging as an owner" below](#merging-as-an-owner) to check for anything that might break part of the site (highly unlikely with a blog post, more likely with changes to other repo code). Then, they will push your content to the live website. If you would like a preview of what the website will look like when your changes are merged, the next section (["Merging as an owner"](#merging-as-an-owner)) will show you how to use Netlify to do this.
+*If you are not an owner*, your work is now done and you are waiting for someone with owner privileges to briefly review your changes, using the steps in ["Merging as an owner" below](#merging-a-pull-request) to check for anything that might break part of the site (highly unlikely with a blog post, more likely with changes to other repo code). Then, they will push your content to the live website. If you would like a preview of what the website will look like when your changes are merged, the next section (["Merging as an owner"](#merging-a-pull-request)) will show you how to use Netlify to do this.
 
 ### Merging a pull request
 If you are the one setting up your GitHub and Jekyll combination, you already have owner permissions for your repository. If not, you will need to contact the owner of the repository to give you access using the steps in the [Reviewer Permissions](#reviewer-permissions) section before being able to follow the steps below to merge collaborators' changes.
@@ -547,7 +547,7 @@ Find the list item that starts "netlify/" followed by some gibberish and then by
 
 There are three possible next steps, which one you choose depends on how the preview looks and your review of the post.
 
-<span id="#force-merge-checkbox-use"></span>*Option #1:* If the preview looks correct, you can click on the "Merge pull request" button in the bottom left of the section. Click the checkbox next to the "Use your administrator privileges to merge this pull request" message that appears, then click the "Confirm merge" button, followed by the "delete branch" button that will appear to the right. (Getting rid of branches once we are done with them helps us keep the repository clean, as we may have multiple branches open at one time that are being actively worked on.)
+<span id="force-merge-checkbox-use"></span>*Option #1:* If the preview looks correct, you can click on the "Merge pull request" button in the bottom left of the section. Click the checkbox next to the "Use your administrator privileges to merge this pull request" message that appears, then click the "Confirm merge" button, followed by the "delete branch" button that will appear to the right. (Getting rid of branches once we are done with them helps us keep the repository clean, as we may have multiple branches open at one time that are being actively worked on.)
 
 {% include figure.html filename="groupblogging-delete-branch-PR-done.png" caption="Screenshot showing deleting branch after pull request" %}
 
@@ -600,7 +600,7 @@ Migrating a site from one platform to another is a time-consuming and labor-inte
 
 ## Help
 ### Workflow summary
-If you have read the longer explanations above already and just want a checklist, you can [bookmark this section](#workflow-recap):
+If you have read the longer explanations above already and just want a checklist, you can [bookmark this section](#workflow-summary):
 
 1. Create new branch & switch into that branch  
 2. Create new file or edit existing file  
@@ -613,7 +613,7 @@ If you have read the longer explanations above already and just want a checklist
 
 ### Cheat sheets
 - [Glossary of frequently used terms](https://scholarslab.lib.virginia.edu/blog/github-jekyll-glossary/) (pull, merge, branch, etc.)
-- [Overview](/en/lessons/building-static-sites-with-jekyll-github-pages#where-and-what-is-everything-) of what various files in your website folder do
+- [Overview](/en/lessons/building-static-sites-with-jekyll-github-pages#where-and-what-is-everything) of what various files in your website folder do
 - [Scholars' Lab cheatsheet](https://github.com/scholarslab/scholarslab.org/blob/master/docs/authoring-and-editing.md#markdown--formatting) on basic Markdown formatting, limited to the most frequently used formatting for our particular needs
 
 ### Troubleshooting

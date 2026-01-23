@@ -25,7 +25,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/465
 activity: acquiring
 topics: [web-scraping]
 abstract: "Fazer o download de um único registro de um website é fácil, mas fazer o download de vários registros de uma vez - uma necessidade cada vez mais frequente para um historiador - é muito mais eficiente usando uma linguagem de programação como o Python. Nessa lição, escreveremos um programa que fará o download de uma série de registros do Old Bailey Online usando critérios de busca personalizados e irá armazená-los num diretório no nosso computador."
-redirect_from: /licoes/download-de-multiplos-registros-usando-query-strings
+redirect_from: /licoes/download-de-multiplos-registros-usando-query-strings/
 original: downloading-multiple-records-using-query-strings
 avatar_alt: Figuras trabalhando numa mina, empurrando carrinhos
 doi: 10.46430/phpt0034

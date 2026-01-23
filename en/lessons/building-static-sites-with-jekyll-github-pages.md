@@ -16,7 +16,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/3
 activity: presenting
 topics: [website, data-management]
 abstract: "This lesson will help you create entirely free, easy-to-maintain, preservation-friendly, secure website over which you have full control, such as a scholarly blog, project website, or online portfolio."
-redirect_from: /lessons/building-static-sites-with-jekyll-github-pages
+redirect_from: /lessons/building-static-sites-with-jekyll-github-pages/
 avatar_alt: An illustration of Dr. Jekyll transforming into Mr. Hyde
 doi: 10.46430/phen0048
 ---

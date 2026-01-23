@@ -20,7 +20,7 @@ previous: /en/lessons/output-keywords-in-context-in-html-file
 series_total: 15 lessons
 sequence: 15
 python_warning: false
-redirect_from: /lessons/downloading-multiple-records-using-query-strings
+redirect_from: /lessons/downloading-multiple-records-using-query-strings/
 avatar_alt: Figures working in a mine, pushing carts
 doi: 10.46430/phen0005
 ---

@@ -22,7 +22,7 @@ previous: /en/lessons/output-data-as-html-file
 series_total: 15 lessons
 sequence: 13
 python_warning: false
-redirect_from: /lessons/keywords-in-context-using-n-grams
+redirect_from: /lessons/keywords-in-context-using-n-grams/
 avatar_alt: A figure dropping two bottles of alcohol
 doi: 10.46430/phen0010
 ---

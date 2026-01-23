@@ -21,7 +21,7 @@ previous: /en/lessons/counting-frequencies
 series_total: 15 lessons
 sequence: 11
 python_warning: false
-redirect_from: /lessons/creating-and-viewing-html-files-with-python
+redirect_from: /lessons/creating-and-viewing-html-files-with-python/
 avatar_alt: Child drawing on a tablet
 doi: 10.46430/phen0004
 ---

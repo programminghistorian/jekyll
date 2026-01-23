@@ -16,7 +16,7 @@ activity: analyzing
 topics: [data-manipulation, network-analysis, r, data-visualization]
 abstract: |
   This tutorial explains how to carry out and interpret a correspondence analysis, which can be used to identify relationships within categorical data.
-redirect_from: /lessons/correspondence-analysis-in-R
+redirect_from: /lessons/correspondence-analysis-in-R/
 avatar_alt: Diagram of a cube with labeled edges
 doi: 10.46430/phen0062
 mathjax: true

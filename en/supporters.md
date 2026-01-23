@@ -1,7 +1,7 @@
 ---
 layout: blank
 title: Our Supporters
-redirect_from: /supporters
+redirect_from: /supporters/
 ---
 
 # Our Supporters

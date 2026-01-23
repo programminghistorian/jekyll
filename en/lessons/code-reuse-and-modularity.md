@@ -25,7 +25,7 @@ series_total: 15 lessons
 sequence: 4
 categories: [lessons, original-ph, python]
 python_warning: false
-redirect_from: /lessons/code-reuse-and-modularity
+redirect_from: /lessons/code-reuse-and-modularity/
 avatar_alt: Three caricature heads
 doi: 10.46430/phen0002
 ---

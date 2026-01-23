@@ -1,7 +1,7 @@
 ---
 title: Project Research
 layout: blank
-redirect_from: /research
+redirect_from: /research/
 ---
 
 # Project Scholarship

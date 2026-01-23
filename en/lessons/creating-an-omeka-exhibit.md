@@ -18,7 +18,7 @@ exclude_from_check:
 activity: presenting
 topics: [website]
 abstract: "Now that you've added items to your Omeka site and grouped them into collections, you're ready for the next step: taking your users on a guided tour through the items you've collected."
-redirect_from: /lessons/creating-an-omeka-exhibit
+redirect_from: /lessons/creating-an-omeka-exhibit/
 avatar_alt: Ornate room filled with paintings hung salon-style
 doi: 10.46430/phen0049
 ---

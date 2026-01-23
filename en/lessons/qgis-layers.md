@@ -23,7 +23,7 @@ next: /en/lessons/vector-layers-qgis
 previous: /en/lessons/googlemaps-googleearth
 series_total: 5 lessons
 sequence: 2 
-redirect_from: /lessons/qgis-layers
+redirect_from: /lessons/qgis-layers/
 avatar_alt: Elevation view view of a mountain range
 doi: 10.46430/phen0031
 ---

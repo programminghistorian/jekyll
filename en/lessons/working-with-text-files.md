@@ -20,7 +20,7 @@ previous: /en/lessons/viewing-html-files
 series_total: 15 lessons
 sequence: 3
 python_warning: false
-redirect_from: /lessons/working-with-text-files
+redirect_from: /lessons/working-with-text-files/
 avatar_alt: Bespectacled man reading an alphabet book
 doi: 10.46430/phen0020
 ---

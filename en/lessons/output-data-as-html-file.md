@@ -22,7 +22,7 @@ previous: /en/lessons/creating-and-viewing-html-files-with-python
 series_total: 15 lessons
 sequence: 12
 python_warning: false
-redirect_from: /lessons/output-data-as-html-file
+redirect_from: /lessons/output-data-as-html-file/
 avatar_alt: A woman wearing an elaborate dress accompanied by two putti
 doi: 10.46430/phen0015
 ---

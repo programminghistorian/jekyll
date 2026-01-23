@@ -14,7 +14,7 @@ activity: transforming
 topics: [data-manipulation]
 abstract: "In this lesson you will learn how to use Audacity to load, record, edit, mix, and export audio files."
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/15
-redirect_from: /lessons/editing-audio-with-audacity
+redirect_from: /lessons/editing-audio-with-audacity/
 avatar_alt: Two gramophones facing each other
 doi: 10.46430/phen0050
 ---

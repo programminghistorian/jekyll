@@ -18,7 +18,7 @@ activity: analyzing
 topics: [distant-reading, r, data-visualization]
 abstract: |
   Learn how to use R to analyze high-level patterns in texts, apply stylometric methods over time and across authors, and use summary methods to describe items in a corpus.
-redirect_from: /lessons/basic-text-processing-in-r
+redirect_from: /lessons/basic-text-processing-in-r/
 avatar_alt: Children visiting a mobile book-mobile
 doi: 10.46430/phen0061
 ---

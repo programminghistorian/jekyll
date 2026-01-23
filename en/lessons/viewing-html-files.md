@@ -20,7 +20,7 @@ next: /en/lessons/working-with-text-files
 previous: /en/lessons/introduction-and-installation
 series_total: 15 lessons
 sequence: 2
-redirect_from: /lessons/viewing-html-files
+redirect_from: /lessons/viewing-html-files/
 avatar_alt: A woman listening to a man through an ear trumpet
 doi: 10.46430/phen0018
 ---

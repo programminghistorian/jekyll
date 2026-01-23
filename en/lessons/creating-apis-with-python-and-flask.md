@@ -18,7 +18,7 @@ topics: [api, data-management]
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/106
 abstract: |
   Learn how to set up a basic Application Programming Interface (API) to make your data more accessible to users. This lesson also discusses principles of API design and the benefits of APIs for digital projects.
-redirect_from: /lessons/creating-apis-with-python-and-flask
+redirect_from: /lessons/creating-apis-with-python-and-flask/
 avatar_alt: Diagram with a series of arcs describing a quarter circle
 doi: 10.46430/phen0072
 ---

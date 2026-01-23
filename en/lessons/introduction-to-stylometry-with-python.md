@@ -18,7 +18,7 @@ activity: analyzing
 topics: [distant-reading]
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/147
 abstract: "In this lesson you will learn to conduct 'stylometric analysis' on texts and determine authorship of disputed texts. The lesson covers three methods: Mendenhall's Characteristic Curves of Composition, Kilgariff's Chi-Squared Method, and John Burrows' Delta Method."
-redirect_from: /lessons/introduction-to-stylometry-with-python
+redirect_from: /lessons/introduction-to-stylometry-with-python/
 avatar_alt: A woman reading next to a painting
 doi: 10.46430/phen0078
 ---

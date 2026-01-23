@@ -18,7 +18,7 @@ activity: transforming
 topics: [data-manipulation, get-ready]
 abstract: "This lesson will teach you how to enter commands using a command-line interface, rather than through a graphical interface. Command-line interfaces have advantages for computer users who need more precision in their work, such as digital historians. They allow for more detail when running some programs, as you can add modifiers to specify exactly how you want your program to run. Furthermore, they can be easily automated through scripts, which are essentially recipes of text-based commands."
 next: /en/lessons/research-data-with-unix
-redirect_from: /lessons/intro-to-bash
+redirect_from: /lessons/intro-to-bash/
 avatar_alt: Soldiers in antique armor with spears
 doi: 10.46430/phen0037
 ---

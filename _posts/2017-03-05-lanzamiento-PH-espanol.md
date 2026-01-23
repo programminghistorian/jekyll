@@ -4,7 +4,7 @@ authors:
 - Maria José Afanador-Llach
 layout: post
 categories: posts
-redirect_from: /posts/lanzamiento-PH-español
+redirect_from: /posts/lanzamiento-PH-español/
 ---
 
 <p><figure><a href="/posts/lanzamiento-PH-español"><img src="/images/blog/Launch-PH-Spanish/Launch-PH-Spanish.jpg" alt=""/></a><figcaption>

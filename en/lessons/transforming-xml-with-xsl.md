@@ -14,7 +14,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/11
 activity: transforming
 topics: [data-manipulation, data-visualization]
 abstract: "This tutorial will provide you with the ability to convert or transform historical data from an XML database (whether a single file or several linked documents) into a variety of different presentations—condensed tables, exhaustive lists or paragraphed narratives—and file formats."
-redirect_from: /lessons/transforming-xml-with-xsl
+redirect_from: /lessons/transforming-xml-with-xsl/
 avatar_alt: A peacock with a woman's head
 doi: 10.46430/phen0097
 ---

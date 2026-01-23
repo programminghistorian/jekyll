@@ -17,7 +17,7 @@ activity: acquiring
 topics: [data-manipulation]
 abstract: "This lesson will teach you how to use Python to extract a set of keywords very quickly and systematically from a set of texts."
 python_warning: false
-redirect_from: /lessons/extracting-keywords
+redirect_from: /lessons/extracting-keywords/
 avatar_alt: Woman churning butter or milk
 doi: 10.46430/phen0045
 ---

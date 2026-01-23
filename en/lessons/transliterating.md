@@ -19,7 +19,7 @@ abstract: "This lesson shows how to use Python to transliterate automatically a
 list of words from a language with a non-Latin alphabet to a
 standardized format using the American Standard Code for Information
 Interchange (ASCII) characters."
-redirect_from: /lessons/transliterating
+redirect_from: /lessons/transliterating/
 avatar_alt: A set of Cyrillic characters
 doi: 10.46430/phen0032
 ---

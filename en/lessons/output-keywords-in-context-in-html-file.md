@@ -21,7 +21,7 @@ previous: /en/lessons/keywords-in-context-using-n-grams
 series_total: 15 lessons
 sequence: 14
 python_warning: false
-redirect_from: /lessons/output-keywords-in-context-in-html-file
+redirect_from: /lessons/output-keywords-in-context-in-html-file/
 avatar_alt: A monkey dancing with a lion and a bear
 doi: 10.46430/phen0016
 ---

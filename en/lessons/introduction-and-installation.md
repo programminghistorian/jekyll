@@ -20,7 +20,7 @@ designed to get you and your computer set up to start programming. We
 will focus on installing the relevant software – all free and reputable
 – and finally we will help you to get your toes wet with some simple
 programming that provides immediate results."
-redirect_from: /lessons/introduction-and-installation
+redirect_from: /lessons/introduction-and-installation/
 avatar_alt: A curled-up snake
 doi: 10.46430/phen0009
 next: /en/lessons/viewing-html-files

@@ -2,7 +2,7 @@
 title: Reviewer Guidelines
 date: 03-14-2015
 layout: blank
-redirect_from: /reviewer-guidelines
+redirect_from: /reviewer-guidelines/
 ---
 
 # Reviewer Guidelines

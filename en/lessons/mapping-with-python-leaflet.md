@@ -14,7 +14,7 @@ activity: presenting
 topics: [mapping]
 abstract: "This tutorial teaches users how to create a web map based on tabular data."
 layout: lesson
-redirect_from: /lessons/mapping-with-python-leaflet
+redirect_from: /lessons/mapping-with-python-leaflet/
 avatar_alt: Map of a mountainous terrain
 doi: 10.46430/phen0070
 ---

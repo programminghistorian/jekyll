@@ -16,7 +16,7 @@ topics: [data-management]
 abstract: "In this lesson, you will be introduced to Markdown, a plain text-based syntax for formatting documents. You will find out why it is used, how to format Markdown files, and how to preview Markdown-formatted documents on the web."
 exclude_from_check:
   - reviewers
-redirect_from: /lessons/getting-started-with-markdown
+redirect_from: /lessons/getting-started-with-markdown/
 avatar_alt: Ornate decorated characters from a typographical manual
 doi: 10.46430/phen0046
 ---

@@ -15,7 +15,7 @@ exclude_from_check:
 activity: analyzing
 topics: [distant-reading]
 abstract: "Corpus analysis is a form of text analysis which allows you to make comparisons between textual objects at a large scale (so-called 'distant reading')."
-redirect_from: /lessons/corpus-analysis-with-antconc
+redirect_from: /lessons/corpus-analysis-with-antconc/
 avatar_alt: Three large ornate bookcases
 doi: 10.46430/phen0043
 ---

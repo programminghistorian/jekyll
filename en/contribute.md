@@ -1,7 +1,7 @@
 ---
 title: Contribute to the Programming Historian
 layout: blank
-redirect_from: /contribute
+redirect_from: /contribute/
 ---
 
 # Contribute to The Programming Historian

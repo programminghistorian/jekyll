@@ -20,7 +20,7 @@ previous: /en/lessons/working-with-web-pages
 series_total: 15 lessons
 sequence: 6
 python_warning: false
-redirect_from: /lessons/manipulating-strings-in-python
+redirect_from: /lessons/manipulating-strings-in-python/
 avatar_alt: A man playing a guitar
 doi: 10.46430/phen0013
 ---

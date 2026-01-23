@@ -24,20 +24,20 @@ permalink: /en/
 <div class="home-block ">
 <div class="container">
 <h2>Teach</h2>
-<p>Use the <i>Programming Historian</i> in your classes or workshops! Please <a href="feedback.html">let us know</a> how we can improve our lessons to suit your needs, or if you run into trouble using one.</p>
+<p>Use the <i>Programming Historian</i> in your classes or workshops! Please <a href="feedback">let us know</a> how we can improve our lessons to suit your needs, or if you run into trouble using one.</p>
 </div>
 </div>
 
 <div class="home-block home-stripe-2">
 <div class="container">
 <h2>Contribute</h2>
-<p><a href="author-guidelines.html">Write a lesson</a>, join our <a href="reviewer-guidelines">team of reviewers</a>, <a href="feedback.html">provide feedback</a>. We're always keen to hear from our readers!</p>
+<p><a href="author-guidelines">Write a lesson</a>, join our <a href="reviewer-guidelines">team of reviewers</a>, <a href="feedback">provide feedback</a>. We're always keen to hear from our readers!</p>
 </div>
 </div>
 
 <div class="home-block">
 <div class="container">
 <h2>Our Team</h2>
-<p>As a volunteer, community-driven resource, we take pride in showing off and giving credit to the  <a href="project-team.html">great many people</a> who have contributed their time and energy to the <i>Programming Historian</i>.</p>
+<p>As a volunteer, community-driven resource, we take pride in showing off and giving credit to the  <a href="project-team">great many people</a> who have contributed their time and energy to the <i>Programming Historian</i>.</p>
 </div>
 </div>

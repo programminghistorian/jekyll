@@ -16,7 +16,7 @@ topics: [network-analysis, data-visualization]
 activity: analyzing
 abstract: "In this lesson we will learn how to use a graph database to store and analyze complex networked information. This tutorial will focus on the Neo4j graph database, and the Cypher query language that comes with it."
 layout: lesson
-redirect_from: /lessons/dealing-with-big-data-and-network-analysis-using-neo4j
+redirect_from: /lessons/dealing-with-big-data-and-network-analysis-using-neo4j/
 avatar_alt: Constellation chart
 doi: 10.46430/phen0074
 ---

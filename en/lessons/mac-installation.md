@@ -17,7 +17,7 @@ exclude_from_check:
 activity: transforming
 topics: [get-ready, python]
 abstract: "This lesson will help you set up an integrated development environment for Python on a computer running a Mac operating system."
-redirect_from: /lessons/mac-installation
+redirect_from: /lessons/mac-installation/
 avatar_alt: A band with three musicians
 doi: 10.46430/phen0012
 ---

@@ -16,7 +16,7 @@ exclude_from_check:
 activity: transforming
 topics: [get-ready, python]
 abstract: "This lesson will help you set up an integrated development environment for Python on a computer running the Windows operating system."
-redirect_from: /lessons/windows-installation
+redirect_from: /lessons/windows-installation/
 avatar_alt: A band of three musicians
 doi: 10.46430/phen0019
 ---

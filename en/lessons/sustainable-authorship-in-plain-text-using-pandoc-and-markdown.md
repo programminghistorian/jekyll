@@ -17,7 +17,7 @@ abstract: "In this tutorial, you will first learn the basics of Markdown—an ea
 exclude_from_check:
   - reviewers
   - review-ticket
-redirect_from: /lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+redirect_from: /lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown/
 avatar_alt: A man working at a drafting table
 doi: 10.46430/phen0041
 ---

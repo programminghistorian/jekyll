@@ -1,7 +1,7 @@
 ---
 title: Project Team
 layout: blank
-redirect_from: /project-team
+redirect_from: /project-team/
 ---
 
 # Project Team

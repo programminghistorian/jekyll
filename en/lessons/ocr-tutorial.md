@@ -1,7 +1,7 @@
 ---
 title: OCR Tutorial
 published: false
-redirect_from: /lessons/ocr-tutorial
+redirect_from: /lessons/ocr-tutorial/
 ---
 
 {% include toc.html %}

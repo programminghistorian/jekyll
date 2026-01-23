@@ -1,7 +1,7 @@
 ---
 title: Editor Guidelines
 layout: blank
-redirect_from: /editor-guidelines
+redirect_from: /editor-guidelines/
 ---
 
 # Editor Guidelines
@@ -61,7 +61,7 @@ After uploading, the editor should check the [commit history for the repository]
 ### Open Peer Review
 The *Programming Historian* uses a model of open peer review, while we believe this helps maintain civility and the productive sharing of ideas, authors have the right (and we have a requirement to respect that right) to request a closed peer review. There are many reasons why someone might be hesitant to engage in an open review and we encourage authors to always pursue the option with which they are most comfortable.
 
-Before soliciting external reviews, the editor should read and try the tutorial and use their experience with the *Programming Historian* to help the author make initial improvements (if required). The editor is not expected to be a expert in content of the lesson, this is the role of the [reviewers](/reviewer-guidelines).
+Before soliciting external reviews, the editor should read and try the tutorial and use their experience with the *Programming Historian* to help the author make initial improvements (if required). The editor is not expected to be a expert in content of the lesson, this is the role of the [reviewers](/en/reviewer-guidelines).
 
 The editor should complete an initial sustainability overview of the submission to ensure that software versions and dependencies are clearly marked, specificities of software like screenshots are limited to those required to complete the lesson, and that the lesson makes use of existing software documentation whenever available and appropriate. Editors should also ensure that lessons try, as much as possible, to avoid software specific directions, such as "Right-click on the _x_ icon to access the _x_ menu," instead favoring general methodological overviews. The Editorial Checklist [contains more details about sustainability practices](#c-sustainability-review) for PH.
 
@@ -82,7 +82,7 @@ For each potential reviewer you do contact, regardless of response, please enter
 
 Please enter the date using the `mm/dd/yyyy` format.
 
-When inviting reviewers, the editor should provide them with our [reviewer guidelines](/reviewer-guidelines) and give them a deadline for completing their review (usually one month) so that we can ensure the timely publication of the tutorial.
+When inviting reviewers, the editor should provide them with our [reviewer guidelines](/en/reviewer-guidelines) and give them a deadline for completing their review (usually one month) so that we can ensure the timely publication of the tutorial.
 
 When a lesson has been submitted, the editor will open a new 'issue' on our [Github submissions repository](https://github.com/programminghistorian/ph-submissions/issues) where the open review will take place. This message board allows everyone to keep track of the conversation. You will need to sign up for a free Github account if you do not already have one, as will both the author and reviewers.
 

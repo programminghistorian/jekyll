@@ -21,7 +21,7 @@ previous: /en/lessons/from-html-to-list-of-words-1
 series_total: 15 lessons
 sequence: 8
 python_warning: false
-redirect_from: /lessons/from-html-to-list-of-words-2
+redirect_from: /lessons/from-html-to-list-of-words-2/
 avatar_alt: A soldier being mocked by a man
 doi: 10.46430/phen0007
 ---

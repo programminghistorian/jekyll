@@ -23,7 +23,7 @@ previous: /en/lessons/vector-layers-qgis
 next: /en/lessons/geocoding-qgis
 series_total: 5 lessons
 sequence: 4
-redirect_from: /lessons/georeferencing-qgis
+redirect_from: /lessons/georeferencing-qgis/
 avatar_alt: Map of a moutnaintop city
 doi: 10.46430/phen0027
 ---

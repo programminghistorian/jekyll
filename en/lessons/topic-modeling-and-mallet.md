@@ -17,7 +17,7 @@ exclude_from_check:
 activity: analyzing
 topics: [distant-reading]
 abstract: "In this lesson you will first learn what topic modeling is and why you might want to employ it in your research. You will then learn how to install and work with the MALLET natural language processing toolkit to do so."
-redirect_from: /lessons/topic-modeling-and-mallet
+redirect_from: /lessons/topic-modeling-and-mallet/
 avatar_alt: A man striking an anvil with a large hammer
 doi: 10.46430/phen0017
 ---

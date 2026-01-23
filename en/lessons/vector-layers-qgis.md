@@ -23,7 +23,7 @@ next: /en/lessons/georeferencing-qgis
 previous: /en/lessons/qgis-layers
 series_total: 5 lessons
 sequence: 3
-redirect_from: /lessons/vector-layers-qgis
+redirect_from: /lessons/vector-layers-qgis/
 avatar_alt: Map of city streets
 doi: 10.46430/phen0034
 ---
