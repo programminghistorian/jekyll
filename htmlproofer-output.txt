@@ -3,7 +3,7 @@ Running 3 checks (Images, Links, Scripts) in ["_site"] on *.html files ...
 
 
 Checking 5251 external links
-Checking 5316 internal links
+Checking 5278 internal links
 Checking internal link hashes in 306 files
 Ran on 497 files!
 
@@ -230,6 +230,10 @@ For the Links check, the following failures were found:
 
 For the Links > External check, the following failures were found:
 
+* At _site/en/author-guidelines/index.html:498:
+
+  External link https://notepad-plus-plus.org/download failed (status code 404)
+
 * At _site/en/feedback/index.html:254:
 
   External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
@@ -276,11 +280,11 @@ For the Links > External check, the following failures were found:
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:516:
 
-  External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
+  External link https://docs.unity3d.com/Manual/LearningtheInterface.html failed (status code 404)
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:516:
 
-  External link https://docs.unity3d.com/Manual/LearningtheInterface.html failed (status code 404)
+  External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:1335:
 
@@ -289,6 +293,14 @@ For the Links > External check, the following failures were found:
 * At _site/en/research/index.html:381:
 
   External link https://www.jisc.ac.uk/events/digifest-2023/programme failed (status code 404)
+
+* At _site/es/guia-para-autores/index.html:499:
+
+  External link https://notepad-plus-plus.org/download failed (status code 404)
+
+* At _site/es/guia-para-traductores/index.html:452:
+
+  External link https://notepad-plus-plus.org/download failed (status code 404)
 
 * At _site/es/investigacion/index.html:380:
 
@@ -330,6 +342,14 @@ For the Links > External check, the following failures were found:
 
   External link https://www.jisc.ac.uk/events/digifest-2023/programme failed (status code 404)
 
+* At _site/pt/directrizes-autor/index.html:477:
+
+  External link https://notepad-plus-plus.org/download failed (status code 404)
+
+* At _site/pt/licoes/investigar-literatura-lusofona-literateca/index.html:1051:
+
+  External link https://doi.org/10.11606/issn.2317-9511.v37p622-643 failed: Not Found (status code 404)
+
 * At _site/pt/pesquisa/index.html:376:
 
   External link https://www.jisc.ac.uk/events/digifest-2023/programme failed (status code 404)
@@ -346,11 +366,11 @@ For the Links > Internal check, the following failures were found:
 
 * At _site/en/author-guidelines/index.html:258:
 
-  internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
+  internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not
 
 * At _site/en/author-guidelines/index.html:258:
 
-  internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not
+  internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
 
 * At _site/en/author-guidelines/index.html:258:
 
@@ -366,11 +386,11 @@ For the Links > Internal check, the following failures were found:
 
 * At _site/en/contribute/index.html:253:
 
-  internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not
+  internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
 
 * At _site/en/contribute/index.html:253:
 
-  internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
+  internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not
 
 * At _site/en/contribute/index.html:272:
 
@@ -448,14 +468,6 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to /en/lessons/clustering-with-scikit-learn-in-python#3-dimensionality-reduction-using-pca; the file exists, but the hash '3-dimensionality-reduction-using-pca' does not
 
-* At _site/en/lessons/code-reuse-and-modularity/index.html:473:
-
-  internally linking to working-with-text-files, which does not exist
-
-* At _site/en/lessons/code-reuse-and-modularity/index.html:476:
-
-  internally linking to working-with-web-pages, which does not exist
-
 * At _site/en/lessons/collaborative-blog-with-jekyll-github/index.html:515:
 
   internally linking to #moving-an-existing-website-to-Jekyll; the file exists, but the hash 'moving-an-existing-website-to-Jekyll' does not
@@ -500,14 +512,6 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to /en/lessons/building-static-sites-with-jekyll-github-pages#where-and-what-is-everything-; the file exists, but the hash 'where-and-what-is-everything-' does not
 
-* At _site/en/lessons/computer-vision-deep-learning-pt1/index.html:477:
-
-  internally linking to computer-vision-deep-learning-pt2, which does not exist
-
-* At _site/en/lessons/computer-vision-deep-learning-pt2/index.html:476:
-
-  internally linking to computer-vision-deep-learning-pt1, which does not exist
-
 * At _site/en/lessons/corpus-analysis-with-spacy/index.html:568:
 
   internally linking to /en/lessons/sentiment-analysis#calculate-sentiment-for-a-paragraph; the file exists, but the hash 'calculate-sentiment-for-a-paragraph' does not
@@ -515,22 +519,6 @@ For the Links > Internal check, the following failures were found:
 * At _site/en/lessons/corpus-analysis-with-spacy/index.html:2003:
 
   internally linking to /en/lessons/finding-places-world-historical-gazetteer#4-building-a-gazetteer; the file exists, but the hash '4-building-a-gazetteer' does not
-
-* At _site/en/lessons/counting-frequencies/index.html:477:
-
-  internally linking to normalizing-data, which does not exist
-
-* At _site/en/lessons/counting-frequencies/index.html:480:
-
-  internally linking to creating-and-viewing-html-files-with-python, which does not exist
-
-* At _site/en/lessons/creating-and-viewing-html-files-with-python/index.html:468:
-
-  internally linking to counting-frequencies, which does not exist
-
-* At _site/en/lessons/creating-and-viewing-html-files-with-python/index.html:471:
-
-  internally linking to output-data-as-html-file, which does not exist
 
 * At _site/en/lessons/creating-mobile-augmented-reality-experiences-in-unity/index.html:612:
 
@@ -544,18 +532,6 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to #compiling-passim-from-the-sources-(macOS); the file exists, but the hash 'compiling-passim-from-the-sources-(macOS)' does not
 
-* At _site/en/lessons/detecting-text-reuse-with-passim/index.html:1150:
-
-  internally linking to #case-study-2:-text-reuse-in-a-large-corpus-of-historical-newspapers; the file exists, but the hash 'case-study-2:-text-reuse-in-a-large-corpus-of-historical-newspapers' does not
-
-* At _site/en/lessons/detecting-text-reuse-with-passim/index.html:1247:
-
-  internally linking to #case-study-2:-text-reuse-in-a-large-corpus-of-historical-newspapers; the file exists, but the hash 'case-study-2:-text-reuse-in-a-large-corpus-of-historical-newspapers' does not
-
-* At _site/en/lessons/downloading-multiple-records-using-query-strings/index.html:474:
-
-  internally linking to output-keywords-in-context-in-html-file, which does not exist
-
 * At _site/en/lessons/exploring-and-analyzing-network-data-with-python/index.html:586:
 
   internally linking to /en/lessons/creating-network-diagrams-from-historical-sources#developing-a-coding-scheme; the file exists, but the hash 'developing-a-coding-scheme' does not
@@ -564,25 +540,9 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to /en/lessons/text-mining-with-extracted-features#start-a-notebook; the file exists, but the hash 'start-a-notebook' does not
 
-* At _site/en/lessons/from-html-to-list-of-words-1/index.html:477:
-
-  internally linking to manipulating-strings-in-python, which does not exist
-
-* At _site/en/lessons/from-html-to-list-of-words-1/index.html:480:
-
-  internally linking to from-html-to-list-of-words-2, which does not exist
-
 * At _site/en/lessons/from-html-to-list-of-words-1/index.html:747:
 
   internally linking to /en/lessons/manipulating-strings-in-python#code-syncing; the file exists, but the hash 'code-syncing' does not
-
-* At _site/en/lessons/from-html-to-list-of-words-2/index.html:477:
-
-  internally linking to from-html-to-list-of-words-1, which does not exist
-
-* At _site/en/lessons/from-html-to-list-of-words-2/index.html:480:
-
-  internally linking to normalizing-data, which does not exist
 
 * At _site/en/lessons/from-html-to-list-of-words-2/index.html:525:
 
@@ -592,33 +552,13 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to #footnotes; the file exists, but the hash 'footnotes' does not
 
-* At _site/en/lessons/geocoding-qgis/index.html:466:
-
-  internally linking to georeferencing-qgis, which does not exist
-
-* At _site/en/lessons/georeferencing-qgis/index.html:478:
-
-  internally linking to vector-layers-qgis, which does not exist
-
-* At _site/en/lessons/georeferencing-qgis/index.html:481:
-
-  internally linking to geocoding-qgis, which does not exist
-
 * At _site/en/lessons/getting-started-with-mysql-using-r/index.html:601:
 
   internally linking to /lessons/r-basics-with-tabular-data, which does not exist
 
-* At _site/en/lessons/googlemaps-googleearth/index.html:470:
-
-  internally linking to qgis-layers, which does not exist
-
 * At _site/en/lessons/image-classification-neural-networks/index.html:610:
 
   internally linking to #understanding-artificial-neurons; the file exists, but the hash 'understanding-artificial-neurons' does not
-
-* At _site/en/lessons/index.html:248:
-
-  internally linking to /feedback, which does not exist
 
 * At _site/en/lessons/installing-omeka/index.html:469:
 
@@ -640,10 +580,6 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to /en/lessons/building-static-sites-with-jekyll-github-pages#github--github-pages-; the file exists, but the hash 'github--github-pages-' does not
 
-* At _site/en/lessons/introduction-and-installation/index.html:478:
-
-  internally linking to viewing-html-files, which does not exist
-
 * At _site/en/lessons/introduction-to-ffmpeg/index.html:535:
 
   internally linking to /en/lessons/intro-to-powershell#quick-reference; the file exists, but the hash 'quick-reference' does not
@@ -664,49 +600,17 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to /en/lessons/extracting-illustrated-pages#jupyter-notebooks; the file exists, but the hash 'jupyter-notebooks' does not
 
-* At _site/en/lessons/keywords-in-context-using-n-grams/index.html:473:
-
-  internally linking to output-data-as-html-file, which does not exist
-
-* At _site/en/lessons/keywords-in-context-using-n-grams/index.html:476:
-
-  internally linking to output-keywords-in-context-in-html-file, which does not exist
-
 * At _site/en/lessons/keywords-in-context-using-n-grams/index.html:514:
 
   internally linking to output-data-as-html-file [zip file from the previous lesson](/assets/python-lessons7.zip), which does not exist
-
-* At _site/en/lessons/linear-regression/index.html:466:
-
-  internally linking to logistic-regression, which does not exist
 
 * At _site/en/lessons/linear-regression/index.html:584:
 
   internally linking to #alternatives-to-anaconda; the file exists, but the hash 'alternatives-to-anaconda' does not
 
-* At _site/en/lessons/logistic-regression/index.html:465:
-
-  internally linking to linear-regression, which does not exist
-
-* At _site/en/lessons/manipulating-strings-in-python/index.html:473:
-
-  internally linking to working-with-web-pages, which does not exist
-
-* At _site/en/lessons/manipulating-strings-in-python/index.html:476:
-
-  internally linking to from-html-to-list-of-words-1, which does not exist
-
 * At _site/en/lessons/naive-bayesian/index.html:1843:
 
   internally linking to #Tuning; the file exists, but the hash 'Tuning' does not
-
-* At _site/en/lessons/normalizing-data/index.html:481:
-
-  internally linking to from-html-to-list-of-words-2, which does not exist
-
-* At _site/en/lessons/normalizing-data/index.html:484:
-
-  internally linking to counting-frequencies, which does not exist
 
 * At _site/en/lessons/ocr-with-google-vision-and-tesseract/index.html:824:
 
@@ -720,25 +624,9 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to #google-vision-2; the file exists, but the hash 'google-vision-2' does not
 
-* At _site/en/lessons/output-data-as-html-file/index.html:472:
-
-  internally linking to creating-and-viewing-html-files-with-python, which does not exist
-
-* At _site/en/lessons/output-data-as-html-file/index.html:475:
-
-  internally linking to keywords-in-context-using-n-grams, which does not exist
-
 * At _site/en/lessons/output-data-as-html-file/index.html:782:
 
   internally linking to /en/assets/python-lessons6.zip, which does not exist
-
-* At _site/en/lessons/output-keywords-in-context-in-html-file/index.html:467:
-
-  internally linking to keywords-in-context-using-n-grams, which does not exist
-
-* At _site/en/lessons/output-keywords-in-context-in-html-file/index.html:470:
-
-  internally linking to downloading-multiple-records-using-query-strings, which does not exist
 
 * At _site/en/lessons/output-keywords-in-context-in-html-file/index.html:501:
 
@@ -747,14 +635,6 @@ For the Links > Internal check, the following failures were found:
 * At _site/en/lessons/output-keywords-in-context-in-html-file/index.html:604:
 
   internally linking to /lessons/output-data-as-html-file, which does not exist
-
-* At _site/en/lessons/qgis-layers/index.html:469:
-
-  internally linking to googlemaps-googleearth, which does not exist
-
-* At _site/en/lessons/qgis-layers/index.html:472:
-
-  internally linking to vector-layers-qgis, which does not exist
 
 * At _site/en/lessons/retired/counting-frequencies-from-zotero-items/index.html:654:
 
@@ -834,11 +714,11 @@ For the Links > Internal check, the following failures were found:
 
 * At _site/en/lessons/sonification/index.html:559:
 
-  internally linking to #Baio; the file exists, but the hash 'Baio' does not
+  internally linking to #Koebler; the file exists, but the hash 'Koebler' does not
 
 * At _site/en/lessons/sonification/index.html:559:
 
-  internally linking to #Koebler; the file exists, but the hash 'Koebler' does not
+  internally linking to #Baio; the file exists, but the hash 'Baio' does not
 
 * At _site/en/lessons/sonification/index.html:563:
 
@@ -876,41 +756,9 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to /lessons/creating-network-diagrams-from-historical-sources, which does not exist
 
-* At _site/en/lessons/vector-layers-qgis/index.html:473:
-
-  internally linking to qgis-layers, which does not exist
-
-* At _site/en/lessons/vector-layers-qgis/index.html:476:
-
-  internally linking to georeferencing-qgis, which does not exist
-
-* At _site/en/lessons/viewing-html-files/index.html:477:
-
-  internally linking to introduction-and-installation, which does not exist
-
-* At _site/en/lessons/viewing-html-files/index.html:480:
-
-  internally linking to working-with-text-files, which does not exist
-
 * At _site/en/lessons/visualizing-with-bokeh/index.html:1248:
 
   internally linking to /en/lessons/mapping-with-python-leaflet#geocoding-with-python; the file exists, but the hash 'geocoding-with-python' does not
-
-* At _site/en/lessons/working-with-text-files/index.html:473:
-
-  internally linking to viewing-html-files, which does not exist
-
-* At _site/en/lessons/working-with-text-files/index.html:476:
-
-  internally linking to code-reuse-and-modularity, which does not exist
-
-* At _site/en/lessons/working-with-web-pages/index.html:477:
-
-  internally linking to code-reuse-and-modularity, which does not exist
-
-* At _site/en/lessons/working-with-web-pages/index.html:480:
-
-  internally linking to manipulating-strings-in-python, which does not exist
 
 * At _site/en/lessons/working-with-web-pages/index.html:576:
 
@@ -964,14 +812,6 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to #paso-3-enviar-una-nueva-traduccion; the file exists, but the hash 'paso-3-enviar-una-nueva-traduccion' does not
 
-* At _site/es/lecciones/analisis-redes-sociales-teatro-1/index.html:450:
-
-  internally linking to analisis-redes-sociales-teatro-2, which does not exist
-
-* At _site/es/lecciones/analisis-redes-sociales-teatro-2/index.html:449:
-
-  internally linking to analisis-redes-sociales-teatro-1, which does not exist
-
 * At _site/es/lecciones/construir-repositorio-de-fuentes/index.html:555:
 
   internally linking to /en/lessons/installing-omeka#step-2a-for-vps-hosting; the file exists, but the hash 'step-2a-for-vps-hosting' does not
@@ -983,42 +823,6 @@ For the Links > Internal check, the following failures were found:
 * At _site/es/lecciones/construir-repositorio-de-fuentes/index.html:645:
 
   internally linking to /en/lessons/installing-omeka#step-4-configure-omeka-to-use-your-database; the file exists, but the hash 'step-4-configure-omeka-to-use-your-database' does not
-
-* At _site/es/lecciones/contar-frecuencias/index.html:525:
-
-  internally linking to normalizar-datos, which does not exist
-
-* At _site/es/lecciones/contar-frecuencias/index.html:528:
-
-  internally linking to crear-y-ver-archivos-html-con-python, which does not exist
-
-* At _site/es/lecciones/crear-y-ver-archivos-html-con-python/index.html:520:
-
-  internally linking to contar-frecuencias, which does not exist
-
-* At _site/es/lecciones/crear-y-ver-archivos-html-con-python/index.html:523:
-
-  internally linking to salida-de-datos-como-archivo-html, which does not exist
-
-* At _site/es/lecciones/de-html-a-lista-de-palabras-1/index.html:525:
-
-  internally linking to manipular-cadenas-de-caracteres-en-python, which does not exist
-
-* At _site/es/lecciones/de-html-a-lista-de-palabras-1/index.html:528:
-
-  internally linking to de-html-a-lista-de-palabras-2, which does not exist
-
-* At _site/es/lecciones/de-html-a-lista-de-palabras-2/index.html:525:
-
-  internally linking to de-html-a-lista-de-palabras-1, which does not exist
-
-* At _site/es/lecciones/de-html-a-lista-de-palabras-2/index.html:528:
-
-  internally linking to normalizar-datos, which does not exist
-
-* At _site/es/lecciones/descarga-multiples-registros-usando-cadenas-de-consulta/index.html:513:
-
-  internally linking to salida-palabras-clave-contexto-ngrams, which does not exist
 
 * At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1686:
 
@@ -1188,21 +992,9 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to #Utilización-de-herramientas-de-línea-de-comandos-y-ejecución-de-secuencias-de-comandos-en-Python; the file exists, but the hash 'Utilización-de-herramientas-de-línea-de-comandos-y-ejecución-de-secuencias-de-comandos-en-Python' does not
 
-* At _site/es/lecciones/introduccion-a-tei-1/index.html:471:
-
-  internally linking to introduccion-a-tei-2, which does not exist
-
-* At _site/es/lecciones/introduccion-a-tei-2/index.html:449:
-
-  internally linking to introduccion-a-tei-1, which does not exist
-
 * At _site/es/lecciones/introduccion-a-tei-2/index.html:2010:
 
   internally linking to /es/lecciones/introduccion-a-tei-1#visualizaci%C3%B3n-vs-categorizaci%C3%B3n; the file exists, but the hash 'visualizaci%C3%B3n-vs-categorizaci%C3%B3n' does not
-
-* At _site/es/lecciones/introduccion-e-instalacion/index.html:526:
-
-  internally linking to ver-archivos-html, which does not exist
 
 * At _site/es/lecciones/lectura-escalable-de-datos-estructurados/index.html:681:
 
@@ -1212,14 +1004,6 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to #paso-3-selecion-sistematica-y-reproducible-de-datos-individuales-para-la-lectura-atenta; the file exists, but the hash 'paso-3-selecion-sistematica-y-reproducible-de-datos-individuales-para-la-lectura-atenta' does not
 
-* At _site/es/lecciones/manipular-cadenas-de-caracteres-en-python/index.html:521:
-
-  internally linking to trabajar-con-paginas-web, which does not exist
-
-* At _site/es/lecciones/manipular-cadenas-de-caracteres-en-python/index.html:524:
-
-  internally linking to de-html-a-lista-de-palabras-1, which does not exist
-
 * At _site/es/lecciones/mineria-de-datos-en-internet-archive/index.html:852:
 
   internally linking to /lessons/googlemaps-googleearth, which does not exist
@@ -1227,22 +1011,6 @@ For the Links > Internal check, the following failures were found:
 * At _site/es/lecciones/mineria-de-datos-en-internet-archive/index.html:872:
 
   internally linking to /lessons/cleaning-ocrd-text-with-regular-expressions, which does not exist
-
-* At _site/es/lecciones/normalizar-datos/index.html:529:
-
-  internally linking to de-html-a-lista-de-palabras-2, which does not exist
-
-* At _site/es/lecciones/normalizar-datos/index.html:532:
-
-  internally linking to contar-frecuencias, which does not exist
-
-* At _site/es/lecciones/palabras-clave-en-contexto-n-grams/index.html:520:
-
-  internally linking to salida-de-datos-como-archivo-html, which does not exist
-
-* At _site/es/lecciones/palabras-clave-en-contexto-n-grams/index.html:523:
-
-  internally linking to salida-palabras-clave-contexto-ngrams, which does not exist
 
 * At _site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html:541:
 
@@ -1256,30 +1024,6 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to /en/lessons/intro-to-bash.html, which does not exist
 
-* At _site/es/lecciones/reutilizacion-de-codigo-y-modularidad/index.html:521:
-
-  internally linking to trabajar-con-archivos-de-texto, which does not exist
-
-* At _site/es/lecciones/reutilizacion-de-codigo-y-modularidad/index.html:524:
-
-  internally linking to trabajar-con-paginas-web, which does not exist
-
-* At _site/es/lecciones/salida-de-datos-como-archivo-html/index.html:520:
-
-  internally linking to crear-y-ver-archivos-html-con-python, which does not exist
-
-* At _site/es/lecciones/salida-de-datos-como-archivo-html/index.html:523:
-
-  internally linking to palabras-clave-en-contexto-n-grams, which does not exist
-
-* At _site/es/lecciones/salida-palabras-clave-contexto-ngrams/index.html:515:
-
-  internally linking to palabras-clave-en-contexto-n-grams, which does not exist
-
-* At _site/es/lecciones/salida-palabras-clave-contexto-ngrams/index.html:518:
-
-  internally linking to descarga-multiples-registros-usando-cadenas-de-consulta, which does not exist
-
 * At _site/es/lecciones/sitios-estaticos-con-jekyll-y-github-pages/index.html:665:
 
   internally linking to sitios-dinámicos-sitios-estáticos-y-jekyll, which does not exist
@@ -1292,22 +1036,6 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to introduccion-a-bash, which does not exist
 
-* At _site/es/lecciones/trabajar-con-archivos-de-texto/index.html:521:
-
-  internally linking to ver-archivos-html, which does not exist
-
-* At _site/es/lecciones/trabajar-con-archivos-de-texto/index.html:524:
-
-  internally linking to reutilizacion-de-codigo-y-modularidad, which does not exist
-
-* At _site/es/lecciones/trabajar-con-paginas-web/index.html:529:
-
-  internally linking to reutilizacion-de-codigo-y-modularidad, which does not exist
-
-* At _site/es/lecciones/trabajar-con-paginas-web/index.html:532:
-
-  internally linking to manipular-cadenas-de-caracteres-en-python, which does not exist
-
 * At _site/es/lecciones/trabajar-con-paginas-web/index.html:599:
 
   internally linking to /lessons/downloading-multiple-records-using-query-strings, which does not exist
@@ -1315,14 +1043,6 @@ For the Links > Internal check, the following failures were found:
 * At _site/es/lecciones/uso-las-colecciones-hathitrust-mineria-textual-R/index.html:583:
 
   internally linking to /es/lecciones/administracion-de-datos-en-r#requisitos; the file exists, but the hash 'requisitos' does not
-
-* At _site/es/lecciones/ver-archivos-html/index.html:525:
-
-  internally linking to introduccion-e-instalacion, which does not exist
-
-* At _site/es/lecciones/ver-archivos-html/index.html:528:
-
-  internally linking to trabajar-con-archivos-de-texto, which does not exist
 
 * At _site/es/politica-retirada-lecciones/index.html:283:
 
@@ -1352,14 +1072,6 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to #la-logique-de-notre-recherche--entre-le-modèle-de-données-et-la-base-de-données; the file exists, but the hash 'la-logique-de-notre-recherche--entre-le-modèle-de-données-et-la-base-de-données' does not
 
-* At _site/fr/lecons/du-html-a-une-liste-de-mots-1/index.html:523:
-
-  internally linking to du-html-a-une-liste-de-mots-2, which does not exist
-
-* At _site/fr/lecons/du-html-a-une-liste-de-mots-2/index.html:521:
-
-  internally linking to du-html-a-une-liste-de-mots-1, which does not exist
-
 * At _site/fr/lecons/enrichir-donnees-reconciliation-openrefine/index.html:652:
 
   internally linking to #comment-améliorer-la-réconciliation; the file exists, but the hash 'comment-améliorer-la-réconciliation' does not
@@ -1375,10 +1087,6 @@ For the Links > Internal check, the following failures were found:
 * At _site/fr/lecons/generer-jeu-donnees-texte-ocr/index.html:809:
 
   internally linking to /en/lessons/cleaning-ocrd-text-with-regular-expressions#introduction; the file exists, but the hash 'introduction' does not
-
-* At _site/fr/lecons/index.html:249:
-
-  internally linking to /feedback, which does not exist
 
 * At _site/fr/lecons/introduction-a-heurist/index.html:573:
 
@@ -1431,14 +1139,6 @@ For the Links > Internal check, the following failures were found:
 * At _site/pt/licoes-politica-remocao/index.html:287:
 
   internally linking to /directrizes-editor#c-revisão-para-a-sustentabilidade-e-internacionalização, which does not exist
-
-* At _site/pt/licoes/HTML-lista-palavras-1/index.html:521:
-
-  internally linking to HTML-lista-palavras-1, which does not exist
-
-* At _site/pt/licoes/HTML-lista-palavras-2/index.html:520:
-
-  internally linking to HTML-lista-palavras-1, which does not exist
 
 * At _site/pt/licoes/analise-correspondencia-pesquisa-historica-R/index.html:774:
 
@@ -1529,4 +1229,4 @@ For the Links > Internal check, the following failures were found:
   internally linking to /pt/apoie-nos, which does not exist
 
 
-HTML-Proofer found 378 failures!
+HTML-Proofer found 303 failures!

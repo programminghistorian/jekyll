@@ -20,8 +20,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/39
 layout: lesson
-next: trabajar-con-archivos-de-texto
-previous: introduccion-e-instalacion
+next: /es/lecciones/trabajar-con-archivos-de-texto
+previous: /es/lecciones/introduccion-e-instalacion
 original: viewing-html-files
 difficulty: 2
 activity: presenting

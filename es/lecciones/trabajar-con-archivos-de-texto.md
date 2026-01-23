@@ -19,8 +19,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/40
 layout: lesson
-next: reutilizacion-de-codigo-y-modularidad
-previous: ver-archivos-html
+next: /es/lecciones/reutilizacion-de-codigo-y-modularidad
+previous: /es/lecciones/ver-archivos-html
 original: working-with-text-files
 python_warning: false
 difficulty: 2

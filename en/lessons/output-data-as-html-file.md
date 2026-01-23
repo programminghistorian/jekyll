@@ -17,8 +17,8 @@ activity: transforming
 topics: [python, website]
 abstract: "This lesson takes the frequency pairs created in the 'Counting
 Frequencies' lesson and outputs them to an HTML file."
-next: keywords-in-context-using-n-grams
-previous: creating-and-viewing-html-files-with-python
+next: /en/lessons/keywords-in-context-using-n-grams
+previous: /en/lessons/creating-and-viewing-html-files-with-python
 series_total: 15 lessons
 sequence: 12
 python_warning: false

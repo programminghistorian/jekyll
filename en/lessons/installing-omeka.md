@@ -14,7 +14,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/6
 activity: presenting
 topics: [website]
 abstract: "This lesson will teach you how to install your own copy of Omeka."
-next: creating-an-omeka-exhibit
+next: /en/lessons/creating-an-omeka-exhibit
 redirect_from: /lessons/installing-omeka
 avatar_alt: A figure working at a machine with gear diagrams
 doi: 10.46430/phen0052

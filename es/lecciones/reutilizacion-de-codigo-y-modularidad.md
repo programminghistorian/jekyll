@@ -20,8 +20,8 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/41
 layout: lesson
 categories: [lessons, original-ph, python]
-next: trabajar-con-paginas-web
-previous: trabajar-con-archivos-de-texto
+next: /es/lecciones/trabajar-con-paginas-web
+previous: /es/lecciones/trabajar-con-archivos-de-texto
 original: code-reuse-and-modularity
 difficulty: 2
 activity: transforming

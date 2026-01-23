@@ -19,8 +19,8 @@ activity: presenting
 topics: [mapping, data-visualization]
 abstract: "In this lesson you will learn how to create vector layers based on
 scanned historical maps."
-next: georeferencing-qgis
-previous: qgis-layers
+next: /en/lessons/georeferencing-qgis
+previous: /en/lessons/qgis-layers
 series_total: 5 lessons
 sequence: 3
 redirect_from: /lessons/vector-layers-qgis

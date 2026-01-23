@@ -19,8 +19,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/48
 layout: lesson
-next: salida-de-datos-como-archivo-html
-previous: contar-frecuencias
+next: /es/lecciones/salida-de-datos-como-archivo-html
+previous: /es/lecciones/contar-frecuencias
 original: creating-and-viewing-html-files-with-python
 difficulty: 2
 activity: presenting

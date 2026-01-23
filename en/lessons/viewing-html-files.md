@@ -16,8 +16,8 @@ exclude_from_check:
 activity: presenting
 topics: [python]
 abstract: "This lesson introduces you to HTML and the web pages it structures."
-next: working-with-text-files
-previous: introduction-and-installation
+next: /en/lessons/working-with-text-files
+previous: /en/lessons/introduction-and-installation
 series_total: 15 lessons
 sequence: 2
 redirect_from: /lessons/viewing-html-files

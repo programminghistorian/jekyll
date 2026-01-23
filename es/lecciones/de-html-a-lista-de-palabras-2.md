@@ -20,8 +20,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/45
 layout: lesson
-next: normalizar-datos
-previous: de-html-a-lista-de-palabras-1
+next: /es/lecciones/normalizar-datos
+previous: /es/lecciones/de-html-a-lista-de-palabras-1
 original: from-html-to-list-of-words-2
 python_warning: false
 difficulty: 2

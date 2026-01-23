@@ -21,8 +21,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/46
 layout: lesson
-next: contar-frecuencias
-previous: de-html-a-lista-de-palabras-2
+next: /es/lecciones/contar-frecuencias
+previous: /es/lecciones/de-html-a-lista-de-palabras-2
 original: normalizing-data
 python_warning: false
 difficulty: 2

@@ -19,7 +19,7 @@ topics: [mapping]
 abstract: "Google My Maps and Google Earth provide an easy way to start creating
 digital maps. With a Google Account you can create and edit personal
 maps by clicking on My Places."
-next: qgis-layers
+next: /en/lessons/qgis-layers
 series_total: 5 lessons
 sequence: 1 
 redirect_from: /lessons/googlemaps-googleearth

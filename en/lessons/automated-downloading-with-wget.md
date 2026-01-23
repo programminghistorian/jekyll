@@ -15,7 +15,7 @@ activity: acquiring
 topics: [web-scraping]
 abstract: "Wget is a useful program, run through your computer's command line, for
 retrieving online material."
-next: applied-archival-downloading-with-wget
+next: /en/lessons/applied-archival-downloading-with-wget
 redirect_from: /lessons/automated-downloading-with-wget
 avatar_alt: Diagram of an elevator system in a mineshaft
 doi: 10.46430/phen0001

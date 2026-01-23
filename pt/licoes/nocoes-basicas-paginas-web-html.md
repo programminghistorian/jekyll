@@ -24,8 +24,8 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/318
 activity: presenting
 topics: [python]
 abstract: "Esta lição é uma introdução ao HTML e às páginas da web que ele estrutura."
-next: trabalhando-ficheiros-texto-python
-previous: introducao-e-instalacao
+next: /pt/licoes/trabalhando-ficheiros-texto-python
+previous: /pt/licoes/introducao-e-instalacao
 original: viewing-html-files
 avatar_alt: Uma mulher ouvindo um homem através de uma trombeta de ouvido
 doi: 10.46430/phpt0002

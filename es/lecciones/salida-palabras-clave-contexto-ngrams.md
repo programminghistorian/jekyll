@@ -20,8 +20,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/51
 layout: lesson
-previous: palabras-clave-en-contexto-n-grams
-next: descarga-multiples-registros-usando-cadenas-de-consulta
+previous: /es/lecciones/palabras-clave-en-contexto-n-grams
+next: /es/lecciones/descarga-multiples-registros-usando-cadenas-de-consulta
 original: output-keywords-in-context-in-html-file
 python_warning: false
 difficulty: 2

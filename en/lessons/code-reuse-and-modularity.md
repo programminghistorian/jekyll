@@ -19,8 +19,8 @@ special mechanisms for managing complexity. This lesson will show you
 how to reuse parts of your code by writing functions and break your
 programs into modules, in order to keep everything concise and easier to
 debug."
-next: working-with-web-pages
-previous: working-with-text-files
+next: /en/lessons/working-with-web-pages
+previous: /en/lessons/working-with-text-files
 series_total: 15 lessons
 sequence: 4
 categories: [lessons, original-ph, python]

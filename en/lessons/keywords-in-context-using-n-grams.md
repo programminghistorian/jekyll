@@ -17,8 +17,8 @@ activity: presenting
 topics: [python]
 abstract: |
   This lesson takes the frequency pairs collected in "Counting Frequencies" and outputs them in HTML.
-next: output-keywords-in-context-in-html-file
-previous: output-data-as-html-file
+next: /en/lessons/output-keywords-in-context-in-html-file
+previous: /en/lessons/output-data-as-html-file
 series_total: 15 lessons
 sequence: 13
 python_warning: false

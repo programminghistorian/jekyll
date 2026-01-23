@@ -20,8 +20,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/47
 layout: lesson
-next: crear-y-ver-archivos-html-con-python
-previous: normalizar-datos
+next: /es/lecciones/crear-y-ver-archivos-html-con-python
+previous: /es/lecciones/normalizar-datos
 original: counting-frequencies
 difficulty: 2
 activity: analyzing

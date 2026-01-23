@@ -20,8 +20,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/44
 layout: lesson
-next: de-html-a-lista-de-palabras-2
-previous: manipular-cadenas-de-caracteres-en-python
+next: /es/lecciones/de-html-a-lista-de-palabras-2
+previous: /es/lecciones/manipular-cadenas-de-caracteres-en-python
 original: from-html-to-list-of-words-1
 python_warning: false
 difficulty: 2

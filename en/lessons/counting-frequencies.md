@@ -16,8 +16,8 @@ exclude_from_check:
 activity: analyzing
 topics: [python]
 abstract: "Counting the frequency of specific words in a list can provide illustrative data. This lesson will teach you Python's easy way to count such frequencies."
-next: creating-and-viewing-html-files-with-python
-previous: normalizing-data
+next: /en/lessons/creating-and-viewing-html-files-with-python
+previous: /en/lessons/normalizing-data
 series_total: 15 lessons
 sequence: 10
 python_warning: false

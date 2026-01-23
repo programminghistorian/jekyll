@@ -19,7 +19,7 @@ abstract: This lesson is the first of a two-part lesson focusing on an indispens
 mathjax: true
 avatar_alt: a washburn grinder
 doi: 10.46430/phen0099
-next: logistic-regression
+next: /en/lessons/logistic-regression
 series_total: 2 lessons
 sequence: 1
 slug: linear-regression

@@ -15,8 +15,8 @@ exclude_from_check:
 activity: transforming
 topics: [python]
 abstract: "In this lesson you will learn how to manipulate text files using Python."
-next: code-reuse-and-modularity
-previous: viewing-html-files
+next: /en/lessons/code-reuse-and-modularity
+previous: /en/lessons/viewing-html-files
 series_total: 15 lessons
 sequence: 3
 python_warning: false

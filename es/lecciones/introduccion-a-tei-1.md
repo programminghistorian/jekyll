@@ -12,7 +12,7 @@ reviewers:
   - Rocío Méndez
   - Iñaki Cano
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/366
-next: introduccion-a-tei-2
+next: /es/lecciones/introduccion-a-tei-2
 series_total: 2 lessons
 sequence: 1
 difficulty: 2

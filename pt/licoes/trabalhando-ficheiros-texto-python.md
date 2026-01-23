@@ -23,8 +23,8 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/317
 activity: transforming
 topics: [python]
 abstract: "Nesta lição, você aprenderá a manipular ficheiros de texto usando Python."
-next: code-reuse-and-modularity
-previous: nocoes-basicas-paginas-web-html
+next: /pt/licoes/code-reuse-and-modularity
+previous: /pt/licoes/nocoes-basicas-paginas-web-html
 python_warning: false
 original: working-with-text-files
 avatar_alt: Homem de óculos lendo um livro de alfabeto

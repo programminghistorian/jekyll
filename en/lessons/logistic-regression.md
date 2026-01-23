@@ -19,7 +19,7 @@ abstract: This lesson is the second in a two-part lesson focusing on regression 
 mathjax: true
 avatar_alt: a printing press and folding machine
 doi: 10.46430/phen0100
-previous: linear-regression
+previous: /en/lessons/linear-regression
 series_total: 2 lessons
 sequence: 2
 slug: logistic-regression

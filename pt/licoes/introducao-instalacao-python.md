@@ -28,7 +28,7 @@ abstract: "Essa primeira lição em nossa seção para tratar de Fontes Online
 Nós iremos nos concentrar em instalar os softwares necessários – todos livres e de boa reputação
 – e finalmente nós iremos te auxiliar a experimentar os primeiros passos na programação 
 para que você tenha resultados imediatos."
-next: nocoes-basicas-paginas-web-html
+next: /pt/licoes/nocoes-basicas-paginas-web-html
 python_warning: false
 original: introduction-and-installation
 avatar_alt: Uma cobra enrolada

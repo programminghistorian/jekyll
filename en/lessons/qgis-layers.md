@@ -19,8 +19,8 @@ topics: [mapping]
 abstract: "In this lesson you will install QGIS software, download geospatial files
 like shapefiles and GeoTIFFs, and create a map out of a number of vector
 and raster layers."
-next: vector-layers-qgis
-previous: googlemaps-googleearth
+next: /en/lessons/vector-layers-qgis
+previous: /en/lessons/googlemaps-googleearth
 series_total: 5 lessons
 sequence: 2 
 redirect_from: /lessons/qgis-layers

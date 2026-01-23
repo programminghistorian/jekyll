@@ -13,7 +13,7 @@ difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/27
 activity: transforming
 topics: [mapping]
-previous: georeferencing-qgis
+previous: /en/lessons/georeferencing-qgis
 series_total: 5 lessons
 sequence: 5
 abstract: |

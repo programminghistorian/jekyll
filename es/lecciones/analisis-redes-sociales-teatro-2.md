@@ -12,7 +12,7 @@ reviewers:
 editors:
 - Jennifer Isasi
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/547
-previous: analisis-redes-sociales-teatro-1
+previous: /es/lecciones/analisis-redes-sociales-teatro-1
 series_total: 2 lessons
 sequence: 2
 difficulty: 2

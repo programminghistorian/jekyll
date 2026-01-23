@@ -22,7 +22,7 @@ translation-reviewer:
 - Diana Rebelo Rodriguez
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/442
-next: HTML-lista-palavras-1
+next: /pt/licoes/HTML-lista-palavras-1
 series_total: 2 lessons
 sequence: 1
 activity: transforming

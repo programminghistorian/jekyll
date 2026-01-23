@@ -12,7 +12,7 @@ activity: acquiring
 topics: [api]
 abstract: "In this lesson, you’ll learn how to use python with the Zotero API to
 interact with your Zotero library."
-next: creating-new-items-in-zotero
+next: /en/lessons/retired/creating-new-items-in-zotero
 categories: [lessons, api]
 exclude_from_check:
   - reviewers

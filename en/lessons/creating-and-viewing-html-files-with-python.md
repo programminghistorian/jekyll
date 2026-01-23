@@ -16,8 +16,8 @@ activity: presenting
 topics: [python, website]
 abstract: "Here you will learn how to create HTML files with Python scripts, and
 how to use Python to automatically open an HTML file in Firefox."
-next: output-data-as-html-file
-previous: counting-frequencies
+next: /en/lessons/output-data-as-html-file
+previous: /en/lessons/counting-frequencies
 series_total: 15 lessons
 sequence: 11
 python_warning: false

@@ -16,7 +16,7 @@ exclude_from_check:
 activity: transforming
 topics: [data-manipulation]
 abstract: "This lesson will look at how research data, when organised in a clear and predictable manner, can be counted and mined using the Unix shell."
-previous: intro-to-bash
+previous: /en/lessons/intro-to-bash
 redirect_from: /lessons/research-data-with-unix
 avatar_alt: A diagram of a miner sorting ore into an apparatus
 doi: 10.46430/phen0040
