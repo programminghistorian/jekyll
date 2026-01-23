@@ -18,10 +18,10 @@ Estas directrices han sido desarrolladas para ayudarte a entender el proceso de 
 ## Paso 1: Proponer una nueva lección
 
 <div class="alert alert-success">
-Aceptamos tutoriales relevantes para las humanidades, dirigidos a cualquier nivel de aptitud técnica y experiencia, que se centren en un problema o proceso, que puedan ser sostenibles a largo plazo y que estén dirigidos a una audiencia global. El alcance y la longitud del tutorial han de corresponderse con la complejidad de la tarea que se enseña. Los tutoriales no deben exceder las 8.000 palabras (incluyendo el código) sin el permiso explícito del editor, el que se otorgará únicamente en circunstancias excepcionales. Esperamos que la mayoría de las lecciones tengan entre 4.000 y 6.000 palabras. Si resulta pertinente, puede que solicitemos dividir en varios tutoriales las lecciones más largas.
+Nuestra edición en español está buscando propuestas para nuevas lecciones originales o traducciones que se considerarán para su publicación en 2026. Obtenga más información en nuestra <a href='/posts/convocatoria-de-propuestas'>convocatoria de propuestas</a>.
 </div>
 
-Si tienes una idea para una nueva lección, completa el [formulario de propuestas](/assets/forms/Formulario.Consulta.Leccion.txt) y [envíalo al Jefe de redacción](mailto:espanol@programminghistorian.org).
+Si tienes una idea para una nueva lección, completa el [formulario de propuestas](/assets/forms/convocatoria-de-propuestas.txt) y [envíalo al Jefe de redacción, Jennifer Isasi](mailto:espanol@programminghistorian.org) o a nuestra [directora de publicaciones, Anisa Hawes](mailto:admin@programminghistorian.org).
 
 Para tener una idea de lo que publicamos, consulta nuestras [lecciones ya publicadas]({{site.baseurl}}/es/lecciones), lee nuestra [guía para revisores]({{site.baseurl}}/es/guia-para-revisores) o explora [las lecciones actualmente en desarrollo](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/borradores). Animamos el envío de propuestas de lecciones sobre temas ya cubiertos o en desarrollo, siempre que la lección nueva haga una contribución propia. Revisa nuestro documento de [Concordancia de Lecciones](https://docs.google.com/spreadsheets/d/1vrvZTygZLfQRoQildD667Xcgzhf_reQC8Nq4OD-BRIA/edit#gid=0) para ver qué métodos ya han sido cubiertos en nuestras lecciones publicadas o por publicar en alguno de los cuatro idiomas de Programming Historian.
 
