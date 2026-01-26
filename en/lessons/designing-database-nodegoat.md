@@ -5,7 +5,7 @@ original: concevoir-base-donnees-nodegoat
 layout: lesson
 collection: lessons
 date: 2024-02-29
-translation_date: 2026--01-28
+translation_date: 2026-01-28
 authors:
 - Agustín Cosovschi
 reviewers:
