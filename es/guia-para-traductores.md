@@ -169,7 +169,7 @@ Esta última sección abarca cuestiones de formato para el envío de tu traducci
 ### Escribe en Markdown
 Todas las lecciones deben ser escritas en [Markdown](https://es.wikipedia.org/wiki/Markdown). Tu editor/a te indicará dónde puedes encontrar el archivo de la lección original para que trabajes sobre él.
 
-Markdown es un lenguaje de marcado que se crea mejor con un editor de texto. MS Word y Open Office NO son editores de texto y deben ser evitados. Recomendamos [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://en.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/),  [Notepad++](https://notepad-plus-plus.org/download) o [Sublime Text](https://www.sublimetext.com/).
+Markdown es un lenguaje de marcado que se crea mejor con un editor de texto. MS Word y Open Office NO son editores de texto y deben ser evitados. Recomendamos [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://en.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/),  [Notepad++](https://notepad-plus-plus.org/downloads) o [Sublime Text](https://www.sublimetext.com/).
 Para una introducción sencilla a Markdown puedes ver la lección [Introducción a Markdown]({{site.baseurl}}/es/lecciones/introduccion-a-markdown) o la referencia concisa [GitHub Guide to Markdown](https://help.github.com/es/github/writing-on-github/basic-writing-and-formatting-syntax).
 
 Tu lección debe ser guardada en formato .md. El nombre del archivo de tu lección se convierte en parte de la URL de la lección, por lo tanto, debe ser nombrado de acuerdo a las siguientes reglas:
