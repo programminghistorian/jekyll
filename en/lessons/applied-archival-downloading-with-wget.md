@@ -193,7 +193,7 @@ Australia, which has a much more aesthetically pleasing online viewer
 than LAC, but is still limited by only being able to scroll through one
 image at a time. We'll use William Bligh's "Notebook and List of
 Mutineers, 1789" which provides an account of the mutiny aboard the HMS
-*Bounty*. [On the viewer page][] you'll note that there are 131 'items'
+*Bounty*. On the viewer page `https://nla.gov.au/nla.obj-233730301/view` you'll note that there are 131 'items'
 (pages) to the notebook. This is somewhat misleading. Click on the first
 thumbnail in the top right to view the whole page. Now, *right-click -\>
 view image*. The URL should be
@@ -390,6 +390,5 @@ examples of Wget's power and potential.
   [No. 14 Canadian General Hospital]: https://recherche-collection-search.bac-lac.gc.ca/eng/Home/Record?app=fonandcol&IdNumber=2005110&new=-8585971893141232328
   [http://data2.archives.ca/e/e061/e001518109.jpg]: http://data2.archives.ca/e/e061/e001518029.jpg
   [leading zeros]: http://en.wikipedia.org/wiki/Leading_zero
-  [On the viewer page]: https://nla.gov.au/nla.obj-233730301/view
   [Series 1: General Correspondence. 1651-1827]: http://memory.loc.gov/cgi-bin/ampage?collId=mtj1&fileName=mtj1page001.db&recNum=1&itemLink=/ammem/collections/jefferson_papers/mtjser1.html&linkText=6
   [Historical Medical Poster Collection]: http://cushing.med.yale.edu/gsdl/collect/mdposter/
