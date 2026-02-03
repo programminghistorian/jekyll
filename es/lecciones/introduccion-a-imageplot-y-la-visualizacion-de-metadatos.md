@@ -66,7 +66,7 @@ Al abrir ImageJ verás el menú del programa `Plugins -> Macros -> Run`. Abrirá
 
 De los macros disponibles, selecciona `imageMeasure.txt`. Se abrirá una caja nueva para seleccionar la carpeta de tus imágenes (`xs`) y luego otra para seleccionar la carpeta en la que se guardará el archivo con las medidas. 
 
-Los resultados de este proceso van a proveer los valores de luminosidad (brightness), saturación (saturation) y tono (hue) de las imágenes al igual que la desviación típica de las medidas. La luminosidad corresponde a los valores promedios de la imagen en una escala de grises, la saturación es la intensidad de los colores y el tono es la diferencia en valores de RGB de los pixeles. Para más información sobre estos elementos consulta información sobre la [teoría del color](https://edu.gcfglobal.org/es/conceptos-basicos-de-diseno-grafico/teoria-del-color/1/).
+Los resultados de este proceso van a proveer los valores de luminosidad (brightness), saturación (saturation) y tono (hue) de las imágenes al igual que la desviación típica de las medidas. La luminosidad corresponde a los valores promedios de la imagen en una escala de grises, la saturación es la intensidad de los colores y el tono es la diferencia en valores de RGB de los pixeles. Para más información sobre estos elementos consulta información sobre la [teoría del color](https://www.aulacreactiva.com/teoria-del-color-diseno-grafico/).
 
 #### Problemas con datos a gran escala
 
