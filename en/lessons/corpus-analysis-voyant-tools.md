@@ -454,7 +454,7 @@ The <a href='/es/lecciones/analisis-voyant-tools'>original Spanish version of th
 [^3]: There are more complex ways to load the corpus, which you can consult in the Voyant Tools [documentation](https://perma.cc/CL4Q-XMZ5).  
 [^4]: Eime Javier Cisneros Brito and Alberto Santiago Martínez's translation of: Sor Juana Inés de la Cruz, "Hombres necios que acusáis" ("Silly Men Who Accuse"), in _Obras completas_ (México, D.F.: Porrúa, 1997), 109.
 [^5]: Nadir Khayat and Stefani Germanotta, "Alejandro," performed by Lady Gaga, on _The Fame Monster_, Interscope Records, 2009.
-[^6]: Gilberto Anguiano Peña and Catalina Naumis Peña, "Extracción de candidatos a términos de un corpus de la lengua general," _Investigación Bibliotecológica: Archivonomía, Bibliotecología e Información_ 29, no. 67 (2015): 19-45, <https://doi.org/10.1016/j.ibbai.2016.02.035>.
+[^6]: Gilberto Anguiano Peña and Catalina Naumis Peña, "Extracción de candidatos a términos de un corpus de la lengua general," _Investigación Bibliotecológica: Archivonomía, Bibliotecología e Información_ 29, no. 67 (2015): 19-45, [https://doi.org/10.1016/j.ibbai.2016.02.035](https://www.sciencedirect.com/science/article/pii/S0187358X16000368).
 [^7]: For more information, consult the [documentation](https://perma.cc/CL4Q-XMZ5).
 [^8]: Susan Hockey, "The History of Humanities Computing," in _A Companion to Digital Humanities_, ed. Susan Schreibman et al. (Oxford: Blackwell Publishing, 2004), <https://doi.org/10.1002/9780470999875.ch1>.
 [^9]: Melissa Terras, "For Ada Lovelace Day – Father Busa's Female Punch Card Operatives," _Melissa Terras' Blog_, October 9, 2013, [http://melissaterras.blogspot.com/2013/10/for-ada-lovelace-day-father-busas.html](https://perma.cc/4U4M-W84E).
