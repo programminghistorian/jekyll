@@ -202,14 +202,14 @@ However, by combining all of these functionalities in a single environment, node
 ### Setting Up Your Project in nodegoat 
 When you log in to nodegoat for the first time, you are shown your **Domain** (workspace) which is empty to start with and where you can see three tabs: **Data**, **Management**, and **Model**. In **Model**, you will build your data model following the rationale outlined in the previous section. In **Management**, you define the parameters for implementing this model. Finally, in **Data**, you categorize your data according to the structure defined by the model and examine it.
 
-{% include figure.html filename="en-tr-designing-database-nodegoat-03.jpg" alt="Empty background with the three tabs of the workspace" caption="Figure 3. The empty nodegoat workspace before creating our project." %} 
+{% include figure.html filename="en-tr-designing-database-nodegoat-03.jpg" alt="Empty background with the three tabs of the workspace" caption="Figure 3. The empty nodegoat workspace before creating your project." %} 
 
 #### Defining the Objects of the Database 
 First, create the project from the **Management** tab by clicking on *Add Project* and typing its title, _Works from the East_, in the text box next to **Project Name**.
 
 You then go back to the top level and click on the **Model** tab to define your data model. To start, you add an object type by clicking on the *Add Object Type* tab. As outlined in the previous section, the conceptual model defined here includes three object types: the work, the author, and the publishing house.
 
-{% include figure.html filename="en-tr-designing-database-nodegoat-04.jpg" alt="The Model panel and the option Add Object Type which allows us to begin defining our data model" caption="Figure 4. The Model tab and the Add Object Type option allows us to define our data model." %} 
+{% include figure.html filename="en-tr-designing-database-nodegoat-04.jpg" alt="The Model panel and the option Add Object Type which allows us to begin defining our data model" caption="Figure 4. The Model tab and the Add Object Type option allows you to define your data model." %} 
 
 Under **Name**, you can enter the name of the first object type in the dataset (for example, _Work_) and under **Descriptions** you can define its attributes. The attributes of the **Work** object type are the title, the language of the first edition, and the date of publication. To add an attribute, click on the green _add_ button. You must specify the type of value that each attribute takes: **String** (character string) for text values, such as the title of the work; **Date** for a specific format, like the date of publication, or [other](https://perma.cc/K42P-7YB7) kinds of values depending on the nature of the dataset. 
 
@@ -269,7 +269,7 @@ From now on, the **Publishing house** object type differs from **Author** and **
 #### Exploring and Using the Database
 At this stage, the model, its object types, and their relationships have been defined. If you go to the **Management** tab and click on the project name, nodegoat creates a visualization of the model which, as you may notice, looks very similar to the original conceptual model:
  
-{% include figure.html filename="en-tr-designing-database-nodegoat-12.jpg" alt="A data model connecting four tables each corresponding to Authors, Publishing houses, Works and Cities" caption="Figure 12. Visualization of our data model with nodegoat." %}
+{% include figure.html filename="en-tr-designing-database-nodegoat-12.jpg" alt="A data model connecting four tables each corresponding to Authors, Publishing houses, Works and Cities" caption="Figure 12. Visualization of the data model with nodegoat." %}
 
 You can now manually populate the database with the information collected over the course of your research. To do this, go to the **Data** tab and click on the button *Add [object type name]* which appears below each object type as you click on it.
 
@@ -283,7 +283,7 @@ Once you have recorded all the works, authors, and publishing houses, the databa
  
 {% include figure.html filename="en-tr-designing-database-nodegoat-15.jpg" alt="A table giving an overview of the works in our database with relevant information distributed in five columns, namely the title, the language of the first edition, the date of publication, the author, and the publishing house" caption="Figure 15. Overview of the works in our database." %}
 
-{% include figure.html filename="en-tr-designing-database-nodegoat-16.jpg" alt="A table giving an overview of the authors in our database with relevant information distributed in six columns, namely the name of the author, the first name, the last name, the nationality, the place of birth, and the date of birth" caption="Figure 16. Overview of the authors in our database." %}
+{% include figure.html filename="en-tr-designing-database-nodegoat-16.jpg" alt="A table giving an overview of the authors in our database with relevant information distributed in six columns, namely the name of the author, the first name, the last name, the nationality, the place of birth, and the date of birth" caption="Figure 16. Overview of the authors in the database." %}
 
 Alternatively, you can import an entire dataset as CSV files rather than manually entering each record one at a time. Please note, however, that there are specific procedures to follow when importing your data, especially when your data model includes relationships. For example, the identifiers in your CSV files need to match existing objects in the nodegoat model. In addition, when importing related object types, make sure you first import the 'reference' objects that other objects refer to (e.g., Publishing House or Author) and only afterwards import the objects that reference them (e.g., Work), so that nodegoat can create the relationships correctly. More information can be found in the [nodegoat documentation](https://perma.cc/WT62-XGHA).
 
@@ -291,7 +291,7 @@ Regardless of the method chosen (manual entry or importing files), once the data
 
 After selecting an **Object Type** in the **Data** tab, a set of visualization icons appears in the top right corner. These include options for geographical, relational (network), and chronological visualisations. For example, below is a map created using the geographical visualization tool which plots the birthplaces of the authors as blue dots. To create this map, select the **Author** Object type in the **Data** tab and click the icon for geographical visualization (the globe icon).
 
-{% include figure.html filename="en-tr-designing-database-nodegoat-17.jpg" alt="Authors overview page, with location of Author Object type button indicated (upper left), and location of the globe icon button indicated (upper right)" caption="Figure 17. Overview of the authors in our database, indicating location of the **Author** Object type button (upper left), and location of the globe icon button (upper right)." %}
+{% include figure.html filename="en-tr-designing-database-nodegoat-17.jpg" alt="Authors overview page, with location of Author Object type button indicated (upper left), and location of the globe icon button indicated (upper right)" caption="Figure 17. Overview of the authors in the database, indicating location of the **Author** Object type button (upper left), and location of the globe icon button (upper right)." %}
  
 {% include figure.html filename="en-tr-designing-database-nodegoat-18.jpg" alt="A geographical map of Europe with blue dots marking the places of birth of our dissident authors from Eastern Europe" caption="Figure 18. A geographical visualization in nodegoat of the birthplaces of the authors in our dataset." %}
  
