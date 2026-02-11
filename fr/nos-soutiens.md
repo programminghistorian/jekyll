@@ -32,7 +32,6 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Center for Digital Research in the Humanities, University of Nebraska-Lincoln](http://cdrh.unl.edu/), États-Unis
 - [The National Archives](https://www.nationalarchives.gov.uk/), Royaume-Uni
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), États-Unis
-- [Purdue University](https://www.purdue.edu/), États-Unis
 - [University of Bristol Library](https://www.bristol.ac.uk/library/), Royaume-Uni
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Royaume-Uni
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), Royaume-Uni
@@ -71,6 +70,7 @@ Les institutions suivantes ont participé à de notre programme de [Partenariat 
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Danemark [2021-2024]
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), Royaume-Uni [2022-2024]
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), Royaume-Uni [2022-2024]
+- [Purdue University](https://www.purdue.edu/), États-Unis [2021-2025]
 
 ## Soutien additionnel
 Les organisations suivantes ont apporté ou continuent d'apporter un soutien allant de services en nature au financement de projets spécifiques&nbsp;:
