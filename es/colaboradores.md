@@ -32,7 +32,6 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 - [Center for Digital Research in the Humanities, University of Nebraska-Lincoln](http://cdrh.unl.edu/), Estados Unidos
 - [The National Archives](https://www.nationalarchives.gov.uk/), Reino Unido
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
-- [Purdue University](https://www.purdue.edu/), Estados Unidos
 - [University of Bristol Library](https://www.bristol.ac.uk/library/), Reino Unido
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), Reino Unido
@@ -70,6 +69,7 @@ Antiguos contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca [2021-2024]
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), Reino Unido [2022-2024]
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), Reino Unido [2022-2024]
+- [Purdue University](https://www.purdue.edu/), Estados Unidos [2021-2025]
 
 ## Colaboradores adicionales
 Organizaciones que han o continúan brindando apoyo en forma de contribuciones en especie o de financiamiento específico para proyectos:
