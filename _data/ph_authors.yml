@@ -1151,13 +1151,13 @@
       The Pennsylvania State University, Estados Unidos
   bio:
     en: |
-      Jennifer Isasi is an Assistant Research Professor of Digital Scholarship and Director of the Digital Liberal Arts Research Initiative at Penn State, and a PhD on Hispanic Studies.
+      Jennifer Isasi is an Associate Research Professor of Digital Scholarship and Director of the Digital Liberal Arts Research Initiative at Penn State, and a PhD on Hispanic Studies.
     es: |
-      Jennifer Isasi es Profesora asistente de investigación digital y Directora de la Iniciativa de Investigación Digital en Artes Liberales en Penn State, y doctora en Estudios Hispánicos.
+      Jennifer Isasi es Profesora asociada de investigación digital y Directora de la Iniciativa de Investigación Digital en Artes Liberales en Penn State, y doctora en Estudios Hispánicos.
     fr: |
-      Jennifer Isasi est professeure adjointe de recherche en études numériques et directrice de la Digital Liberal Arts Research Initiative à Penn State, et titulaire d'un doctorat en Études Hispaniques.
+      Jennifer Isasi est professeure associé de recherche en études numériques et directrice de la Digital Liberal Arts Research Initiative à Penn State, et titulaire d'un doctorat en Études Hispaniques.
     pt: |
-      Jennifer Isasi é professora assistente e pesquisadora digital, diretora da Digital Liberal Arts Research Initiative na Penn State e doutorada em Estudos Hispânicos.
+      Jennifer Isasi é professora associada e pesquisadora digital, diretora da Digital Liberal Arts Research Initiative na Penn State e doutorada em Estudos Hispânicos.
   team_roles:
     - spanish
     - managing
@@ -1952,7 +1952,7 @@
 - name: Matthias Gille Levenson
   twitter:
   email: matthias.gille-levenson@ens-lyon.fr
-  url: "https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html"
+  url: "https://cv.hal.science/matthias-gille-levenson"
   orcid: 0000-0001-9488-5986
   github: matgille
   team: true
