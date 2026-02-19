@@ -64,7 +64,7 @@ Il est important que nos leçons puissent être traduites et utilisées dans des
 
 Si vous souhaitez nous poser des questions, veuillez écrire à la rédactrice en chef de _Programming Historian en français_, [Marie Flesch](mailto:francais@programminghistorian.org).
 
-## À propos de _Programming Historian
+## À propos de _Programming Historian_
 
 Lancé en 2012, _Programming Historian_ propose plus de 200 leçons multilingues pour novices, évaluées par des pairs, qui aident les chercheur·es en sciences humaines et sociales à apprendre un large éventail d’outils numériques, de techniques et de méthodes de travail pour faciliter leurs recherches. Ces dernières années, notre publication interdisciplinaire anglophone s’est enrichie d’éditions en espagnol, en français et en portugais. Nos revues sont en libre accès Diamant et, dans cet esprit : les auteur·es conservent leurs droits d’auteur ; nous ne demandons jamais de frais de publication ; tout le contenu est évalué par les pairs ; et l’accès est toujours gratuit pour les lecteurs et lectrices.
 
