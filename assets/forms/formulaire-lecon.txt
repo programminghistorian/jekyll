@@ -15,53 +15,99 @@ Ce formulaire comporte douze questions. Veuillez répondre à toutes celles qui 
 Nom :
 Adresse mail :
 
+Quel type de proposition souhaitez-vous faire ? 
+- [ ] Une leçon originale en français *Répondez aux questions de la section 2*
+- [ ] Une traduction en français d'une leçon originale en anglais, espagnol ou portugais *Répondez aux questions de la section 3*
 
-1. Quel est le titre de la leçon que vous proposez ?
 
-2. Quel type de leçon proposez-vous ?
-- Une leçon originale en français
-- Une traduction en français d'une leçon originale depuis l'anglais, l'espagnol ou le portugais.
 
-3. Si vous proposez une leçon originale, expliquez-nous comment votre contribution pourrait soutenir, développer ou compléter les leçons que nous avons déjà publiées. Utilisez les questions suivantes pour structurer votre réponse :
+### Section 2 : Leçons originales en français
+
+Répondez aux question suivantes si vous proposez une leçon *originale* en français. 
+
+
+a). Quel est le titre de votre leçon ?
+
+Veuillez choisir un titre court et descriptif, qui : 
+
+- Commence avec un verbe ou un nom décrivant la principale activité, méthode ou processus dont parle la leçon. 
+- Précise le type de données utilisé. 
+- Donne le nom des outils, logiciels, ou langage de programmation utilisés. 
+
+1. Qu'est-ce que les lecteurs et lectrices apprendront dans votre leçon ?
+[3-4 phrases]
+
+
+2. Dites-nous comment votre contribution pourrait soutenir, développer ou compléter les leçons que nous avons déjà publiées. Utilisez les questions suivantes pour structurer votre réponse :
 - À quelle(s) leçon(s) existante(s) de Programming Historian votre contribution pourrait-elle servir d'introduction ?
 - À quelle(s) leçon(s) existante(s) de Programming Historian votre contribution pourrait-elle apporter une extension ?
 - Comment votre proposition pourrait-elle combler un manque dans notre répertoire de leçons ?
-
 [200-300 mots]
 
-4. Si vous proposez une leçon originale, veuillez nous dire à quoi que les lecteurs et lectrices apprendront dans votre leçon :
 
-[3-4 phrases]
-
-5. Veuillez expliquer comment vous en êtes venu·e à utiliser cette méthode ou cet outil dans le cadre de votre travail dans le domaine des sciences humaines :
-
+3. Veuillez expliquer comment vous en êtes venu·e à utiliser cette méthode ou cet outil dans le cadre de votre travail dans le domaine des sciences humaines et sociales. 
 [100-300 mots]
 
-6. Si vous proposez une leçon originale, veuillez nous parler de l'étude de cas que vous proposez d'utiliser dans votre leçon. Les meilleures leçons s'appuient sur des jeux de données authentiques ainsi que sur des exemples de code que les lecteurs et lectrices peuvent manipuler.
-
+4. Parlez-nous de l'étude de cas que vous proposez d'utiliser dans votre leçon. Les meilleures leçons s'appuient sur des jeux de données authentiques ainsi que sur des exemples de code que les lecteurs et lectrices peuvent manipuler.
 [100-300 mots]
 
-7. Si vous proposez une traduction, veuillez nous indiquer si vous envisagez d'adapter ou de localiser l'étude de cas de la leçon originale pour un lectorat francophone. Les meilleures leçons s'appuient sur des jeux de données authentiques ainsi que sur des exemples de code que les lecteurs et lectrices peuvent manipuler.
 
-[100-300 mots]
-
-8. Si vous proposez une leçon originale, veuillez expliquer comment votre choix de logiciels et de données soutiendra notre engagement pour la science ouverte. Nous préconisons l'utilisation de logiciels libres, de langages de programmation libres et d'ensembles de données libres d'accès dans la mesure du possible. Utilisez les questions suivantes pour structurer votre réponse :
+5. Expliquez en quoi votre choix de logiciels et de données soutiendra notre engagement pour la science ouverte. Nous préconisons l'utilisation de logiciels libres, de langages de programmation libres et d'ensembles de données libres d'accès dans la mesure du possible. Utilisez les questions suivantes pour structurer votre réponse :
 - Quels sont les logiciels libres, les outils libres, les langages de programmation libres ou les ensembles de données libres utilisés dans cette leçon ?
 - Quels sont les logiciels propriétaires ou les outils commerciaux (s'il y en a) utilisés dans cette leçon ? Nous vous recommandons vivement d'opter pour des alternatives open source.
 - Quels sont (le cas échéant) les coûts et conditions nécessaires à l'utilisation de cette méthode ou de cet outil ? Précisez notamment s'il faut s'inscrire ou fournir des informations bancaires.
-
 [100-300 mots]
 
-9. Si vous proposez une leçon originale, veuillez nous décrire comment votre méthode ou votre outil pourrait être appliqué ou adapté à une utilisation dans des langues autres que le français. (Nous préférons fortement les méthodologies et les outils qui peuvent être utilisés dans des contextes de recherche multilingues.)
 
-10. Si vous proposez une leçon originale, veuillez indiquer les prérequis techniques et éventuelles limitations d'accès à l'utilisation de cette méthode ou de cet outil. (Notre lectorat international utilise des systèmes d'exploitation différents et dispose de ressources informatiques variées.)
+6. Dites-nous si la méthode ou l'outil dont parle votre leçon est adapté à des utilisations avec d'autres langues que le français. (Nous privilégions les méthodologies et outils qui peuvent être utilisés dans des contextes multilingues, mais ce n'est pas une obligation). 
+[100-300 words]
 
+
+7. Please outline any technical prerequisites and potential limitations of access to using this method or tool:
+- Our readers work with different operating systems and have varying computational resources.  
+[100-200 words]
+
+Veuillez décrire les prérequis techniques et les potentielles difficultés d'accès à l'utilisation de la méthode ou de l'outil décrit dans la leçon. 
+- Notre lectorat international utilise des systèmes d'exploitation différents et dispose de ressources informatiques variées.
 [100-200 mots]
 
-11. Lien optionnel vers un exemple de code sur votre dépôt GitHub personnel :
 
-12. Lien optionnel vers un extrait de la leçon proposée sur votre dépôt GitHub personnel :
+8. Lien optionnel vers un exemple de code ou un extrait de la leçon proposée sur votre dépôt GitHub personnel :
 
+---
+
+### Section 3 : Traductions en français
+
+Réponses à ces questions si vous proposez une traduction en français d'une de nos leçons originales en espagnol, anglais ou portugais. 
+
+
+a). Quel est le titre de la leçon que vous voulez traduire ? (dans la langue source) 
+
+b). Quelle est votre traduction du titre de cette leçon, en français ? 
+
+c). Quel est le lien de la leçon que vous voulez traduire ? 
+
+
+1. Veuillez traduire en français un extrait de la leçon choisie(300 à 400 mots). Nous vous suggérons de traduire les premiers paragraphes de la leçon.  
+[300-400 mots]
+
+
+2. Pourquoi pensez-vous que cette leçon en particulier mériterait d'être traduite en français ?
+- Veuillez consulter la liste des traductions que nous souhaitons développer en priorité sur notre blog.
+- Si la leçon que vous proposez de traduire ne figure pas dans cette liste, donnez-nous quand même votre avis !
+[200-300 words]
+
+
+3. Veuillez expliquer comment vous en êtes venu·e à utiliser cette méthode ou cet outil dans le cadre de votre travail dans le domaine des sciences humaines et sociales. 
+[100-300 mots]
+
+4. Veuillez nous indiquer comment vous envisagez d'adapter ou de localiser l'étude de cas de la leçon originale pour un lectorat francophone. Les meilleures leçons s'appuient sur des jeux de données authentiques ainsi que sur des exemples de code que les lecteurs et lectrices peuvent manipuler.
+[100-300 words]
+
+5. Lien optionnel vers un exemple de code ou un extrait de la traduction proposée sur votre dépôt GitHub personnel :
+
+
+ 
 ----
 
 Veuillez envoyer ce formulaire à la rédactrice en chef de Programming Historian en français, [Marie Flesch](mailto:francais@programminghistorian.org).
