@@ -157,6 +157,7 @@ No seu ecrã, você verá algo como:
 Agora que você e o seu computador estão preparados, podemos seguir para tarefas mais interessantes. Se você está seguindo as lições do Python, a nossa sugestão é que você tente a próxima lição ‘[Noções básicas de páginas web e HTML][]‘
 
   [site do Python]: https://www.python.org/downloads/windows/
-  [outros editores]: https://wiki.python.org/moin/PythonEditors/
+  [outros editores]: https://wiki.python.org/python/PythonEditors
   [UTF-8]: https://pt.wikipedia.org/wiki/UTF-8
   [Noções básicas de páginas web e HTML]: nocoes-basicas-paginas-web-html
+
