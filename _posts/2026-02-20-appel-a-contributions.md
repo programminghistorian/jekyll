@@ -48,7 +48,7 @@ Voici quelques suggestions de leçons que nous aimerions beaucoup voir traduites
 La date limite pour les soumissions est le 20 avril 2026. Notre équipe reviendra rapidement vers vous. **Les traductions et leçons originales retenues devront ensuite être envoyées dans un délai de 45 jours.**  Important : les leçons originales ne doivent pas faire plus de 8000 mots, avec le code. 
 
 ## Comment soumettre une proposition
-Pour soumettre votre proposition, vous pouvez utiliser ce [formulaire Google](https://tinyurl.com/aac-2026-forme), ou remplir le formulaire en [version texte](/assets/forms/formulaire-lecon.txt) et nous l’[envoyer par courrier électronique](mailto:admin@programminghistorian.org). Veuillez répondre à toutes les questions qui s’appliquent à votre proposition.
+Pour soumettre votre proposition, vous pouvez utiliser ce [formulaire Google](https://tinyurl.com/aac-2026-forme), ou remplir le formulaire en [version texte](/assets/forms/formulaire-proposition.txt) et nous l’[envoyer par courrier électronique](mailto:admin@programminghistorian.org). Veuillez répondre à toutes les questions qui s’appliquent à votre proposition.
 
 Vous pourrez nous parler de l’étude de cas que vous voulez présenter dans votre leçon, et expliquer comment vous en êtes venu·e à utiliser cette méthode ou cet outil dans le cadre de votre travail dans le domaine des sciences humaines et sociales. 
 
