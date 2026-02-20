@@ -89,7 +89,7 @@ doesn't work on your platform, please let us know.
   [Python programming language]: http://www.python.org/
   [Beautiful Soup HTML/XML parser]: http://www.crummy.com/software/BeautifulSoup/
   [Komodo Edit]: http://www.activestate.com/komodo-edit
-  [Python Editors]: http://wiki.python.org/moin/PythonEditors/
+  [Python Editors]: https://wiki.python.org/python/PythonEditors
   [Jungle Disk]: https://www.jungledisk.com/
   [Dropbox]: https://www.dropbox.com/home
   [Viewing HTML Files]: /lessons/viewing-html-files

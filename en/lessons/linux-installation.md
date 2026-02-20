@@ -157,6 +157,6 @@ Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
 order, we suggest you next try ‘[Understanding Web Pages and HTML][]‘
 
-  [other text editing options]: https://wiki.python.org/moin/PythonEditors/
+  [other text editing options]: https://wiki.python.org/python/PythonEditors
   [Komoto Edit Website]: https://www.activestate.com/products/komodo-edit/
   [Understanding Web Pages and HTML]: /lessons/viewing-html-files

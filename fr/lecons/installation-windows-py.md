@@ -146,6 +146,7 @@ Sur votre écran, l'affichage ressemble plutôt à cela:
 Maintenant, votre ordinateur est prêt et vous êtes en mesure d'exécuter des tâches plus intéressantes. Si vous travaillez avec nos tutoriels sur Python dans l'ordre, nous vous recommandons de consulter par la suite la leçon &laquo; [Comprendre les pages web et le HTML][] &raquo; .
 
   [site web de Python]: http://www.python.org/
-  [un vaste choix d'éditeurs de texte]: http://wiki.python.org/moin/PythonEditors/
+  [un vaste choix d'éditeurs de texte]: https://wiki.python.org/python/PythonEditors
   [UTF-8]: http://en.wikipedia.org/wiki/UTF-8
   [Comprendre les pages web et le HTML]: /fr/lecons/comprendre-les-pages-web
+
