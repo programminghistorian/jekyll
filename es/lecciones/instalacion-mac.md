@@ -126,7 +126,7 @@ Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos 
 [Time Machine]: https://support.apple.com/es-mx/HT201250
 [sitio web de Python]: https://www.python.org
 [Beautiful Soup]: https://www.crummy.com/software/BeautifulSoup/
-[otras opciones de editores de texto]: https://wiki.python.org/moin/PythonEditors/
+[otras opciones de editores de texto]: https://wiki.python.org/python/PythonEditors
 [BBEdit]: https://www.barebones.com/products/bbedit/
 [sitio web de Sublime Text]: https://www.sublimetext.com/download
 [Para entender páginas web y HTML]: /es/lecciones/ver-archivos-html
