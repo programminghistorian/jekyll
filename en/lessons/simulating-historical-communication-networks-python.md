@@ -573,7 +573,7 @@ Since one of the main goals of Agent-Based Modeling is generating data for analy
 
 When the data collector’s `collect` method is called with a model object as its argument, it applies each model-level collection function to the model, and stores the results in a dictionary, linking the value to the current step of the model. If the input model is an agent, the method also links the resulting value to the agent’s `unique_id`.
 
-Let's add a data collector to the model with [`mesa.DataCollector`](https://github.com/projectmesa/mesa/blob/2.4.x-maintenance/mesa/datacollection.py), and collect two variables at the agent level: the number of letters every agent has sent at every step, and the number of letters it has received.
+Let's add a data collector to the model with [`mesa.DataCollector`](https://github.com/mesa/mesa/blob/main/mesa/datacollection.py), and collect two variables at the agent level: the number of letters every agent has sent at every step, and the number of letters it has received.
 
 ```python
 self.datacollector = mesa.DataCollector(
