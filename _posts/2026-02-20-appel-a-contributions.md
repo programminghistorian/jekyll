@@ -9,7 +9,7 @@ categories: posts
 
 _Programming Historian en français_ recherche des propositions de nouvelles leçons originales ou de traductions, pour une publication en 2026-2027.
 
-Date limite pour la soumission des propositions : 20 avril 2026
+**Date limite pour la soumission des propositions** : 20 avril 2026
 
 ## Qu’est-ce qu’une leçon de _Programming Historian_ ?
 
@@ -45,7 +45,7 @@ Voici quelques suggestions de leçons que nous aimerions beaucoup voir traduites
 - [Análisis de corpus con Voyant Tools](/es/lecciones/analisis-voyant-tools)
 - [Uso de las colecciones del HathiTrust para el análisis de textos literarios en R](/es/lecciones/uso-las-colecciones-hathitrust-mineria-textual-R)
 
-La date limite pour les soumissions est le 20 avril 2026. Notre équipe reviendra rapidement vers vous. **Les traductions et leçons originales retenues devront ensuite être envoyées dans un délai de 45 jours.**  Important : les leçons originales ne doivent pas faire plus de 8000 mots, avec le code. 
+La date limite pour la soumission des propositions est **le 20 avril 2026**. Notre équipe reviendra rapidement vers vous. **Les traductions et leçons originales retenues devront ensuite être envoyées dans un délai de 45 jours.**  Important : les leçons originales ne doivent pas faire plus de 8000 mots, avec le code,  la plupart des leçons contenant entre 4000 et 6000 mots.
 
 ## Comment soumettre une proposition
 Pour soumettre votre proposition, vous pouvez utiliser ce [formulaire Google](https://tinyurl.com/aac-2026-forme), ou remplir le formulaire en [version texte](/assets/forms/formulaire-proposition.txt) et nous l’[envoyer par courrier électronique](mailto:admin@programminghistorian.org). Veuillez répondre à toutes les questions qui s’appliquent à votre proposition.
