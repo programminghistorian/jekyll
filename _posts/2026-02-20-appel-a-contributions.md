@@ -40,10 +40,17 @@ Voici quelques suggestions de leçons que nous aimerions beaucoup voir traduites
 - [Understanding and Creating Word Embeddings](/en/lessons/understanding-creating-word-embeddings)
 - [Clustering and Visualising Documents using Word Embeddings](/en/lessons/clustering-visualizing-word-embeddings)
 - [Automated Downloading with Wget](/en/lessons/automated-downloading-with-wget)
+- [Corpus Analysis with Voyant Tools](/en/lessons/corpus-analysis-voyant-tools)
 
 **Depuis l’espagnol :** 
 - [Análisis de corpus con Voyant Tools](/es/lecciones/analisis-voyant-tools)
 - [Uso de las colecciones del HathiTrust para el análisis de textos literarios en R](/es/lecciones/uso-las-colecciones-hathitrust-mineria-textual-R)
+- [Procesamiento básico de textos en R](/es/lecciones/procesamiento-basico-de-textos-en-r)
+- [Descarga automatizada con Wget](/es/lecciones/descarga-automatizada-con-wget)
+
+**Depuis le portugais :**  
+- [Processamento Básico de Texto em R](/pt/licoes/processamento-basico-texto-r)  
+- [Download Automático com Wget](/pt/licoes/download-automatico-wget)
 
 La date limite pour la soumission des propositions est **le 20 avril 2026**. Notre équipe reviendra rapidement vers vous. **Les traductions et leçons originales retenues devront ensuite être envoyées dans un délai de 45 jours.**  Important : les leçons originales ne doivent pas faire plus de 8000 mots, avec le code,  la plupart des leçons contenant entre 4000 et 6000 mots.
 
