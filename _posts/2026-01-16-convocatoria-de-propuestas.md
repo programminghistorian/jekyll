@@ -11,7 +11,7 @@ _[Programming Historian en español](/es/lecciones)_ busca propuestas para lecci
 
 - **Apertura de la convocatoria**: 19 de enero de 2026  
 - **Fecha límite para la presentación de propuestas si vives/trabajas en el Hemisferio Norte**:   
-15 de marzo de 2026 a medianoche en tu hora local  
+**Ampliado el plazo de presentación** 29 de marzo de 2026 a medianoche en tu hora local  
 - **Fecha límite para la presentación de propuestas si vives/trabajas en el Hemisferio Sur**:   
 17 de abril de 2026 a medianoche en tu hora local  
 
@@ -64,7 +64,7 @@ Del francés:
 - [Créer des visualisations interactives avec Plotly](/fr/lecons/visualisations-interactives-plotly)  
 
 
-**Si tienes una idea, envíanos tu propuesta antes del día 15 de marzo (Hemisferio Norte) o 17 de abril (Hemisferio Sur) de 2026**
+**Si tienes una idea, envíanos tu propuesta antes del día 29 de marzo (Hemisferio Norte) o 17 de abril (Hemisferio Sur) de 2026**
 
 Nuestro equipo editorial revisará todas las propuestas y te responderemos en un plazo de 30 días tras la fecha límite de la convocatoria. Evaluamos las propuestas por su servicio a las necesidades de la comunidad y su alineamiento con los objetivos de nuestra revista: apertura, acceso global, multilingüismo y sostenibilidad. **Una vez notificadas, las propuestas seleccionadas contarán con 45 días para entregar el primer borrador.** Las lecciones no deben exceder las 8.000 palabras (incluyendo el código), teniendo la mayoría de las lecciones entre 4.000 y 6.000 palabras.
 
