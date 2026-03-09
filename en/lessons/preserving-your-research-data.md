@@ -446,5 +446,5 @@ UK Data Archive, 'Documenting your Data'
   [PRINCE2]: http://en.wikipedia.org/wiki/PRINCE2
   [platform agnostic]: http://en.wikipedia.org/wiki/Cross-platform
   [Markdown]: http://en.wikipedia.org/wiki/Markdown
-  [Komodo Edit]: http://komodoide.com/komodo-edit/
+  [Komodo Edit]: https://github.com/ActiveState/OpenKomodoIDE
   [Text Wrangler]: https://www.barebones.com/products/textwrangler/
