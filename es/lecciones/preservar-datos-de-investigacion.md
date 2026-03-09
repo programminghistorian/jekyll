@@ -262,7 +262,7 @@ Rosenzweig, Roy, 'Scarcity or Abundance? Preserving the Past in a
 Digital Era', The American Historical Review 108:3 (2003), 735-762.
 
 UK Data Archive, 'Documenting your Data'
-<http://data-archive.ac.uk/create-manage/document>
+<https://dam.ukdataservice.ac.uk/media/440277/documentingdata.pdf>
 
 
 [PRINCE2]: https://es.wikipedia.org/wiki/PRINCE2
