@@ -62,7 +62,7 @@ Pour utiliser les techniques présentées ici, vous devrez d'abord télécharger
 
   [langage de programmation Python]: http://www.python.org/
   [l'analyseur HTML / XML Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/
-  [Komodo Edit]: http://www.activestate.com/komodo-edit
+  [Komodo Edit]: https://github.com/ActiveState/OpenKomodoIDE
   [éditeurs compatibles avec Python]: https://wiki.python.org/python/PythonEditors
   [Zotero]: http://www.zotero.org/
   [Jungle Disk]: https://www.jungledisk.com/

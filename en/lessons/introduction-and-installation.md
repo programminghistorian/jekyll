@@ -88,7 +88,7 @@ doesn't work on your platform, please let us know.
 
   [Python programming language]: http://www.python.org/
   [Beautiful Soup HTML/XML parser]: http://www.crummy.com/software/BeautifulSoup/
-  [Komodo Edit]: http://www.activestate.com/komodo-edit
+  [Komodo Edit]: https://github.com/ActiveState/OpenKomodoIDE
   [Python Editors]: https://wiki.python.org/python/PythonEditors
   [Jungle Disk]: https://www.jungledisk.com/
   [Dropbox]: https://www.dropbox.com/home

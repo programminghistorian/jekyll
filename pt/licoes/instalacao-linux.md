@@ -133,6 +133,7 @@ Agora que você e o seu computador estão preparados, podemos seguir para tarefa
 nossa sugestão é que você tente a próxima lição ‘[Noções básicas de páginas web e HTML][]‘
 
   [outros editores]: https://wiki.python.org/python/PythonEditors
-  [site do Komodo Edit]: https://www.activestate.com/products/komodo-ide/downloads/edit/
+  [site do Komodo Edit]: https://github.com/ActiveState/OpenKomodoIDE/releases
   [Noções básicas de páginas web e HTML]: nocoes-basicas-paginas-web-html
+
 

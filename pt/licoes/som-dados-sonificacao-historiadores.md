@@ -393,7 +393,7 @@ Nesse [ficheiro de amostra](/assets/sonification/sonification-jesuittopics.csv) 
 
 ### Prática
 
-Siga os tutoriais iniciais que o Sonic Pi oferece até se sentir confortável com a interface e algumas das suas possibilidades. (Esses tutoriais também estão agrupados [aqui](https://gist.github.com/jwinder/e59be201082cca694df9); também é possível escutar uma entrevista com Sam Aaron, o criador do Sonic Pi, [aqui](https://devchat.cachefly.net/rubyrogues/RR215SonicPi.mp3?rss=true)). Então, em uma nova janela de edição, copie o seguinte (novamente, o trecho de código a seguir eventualmente será agrupado em um script único na sua janela do Sonic Pi):
+Siga os tutoriais iniciais que o Sonic Pi oferece até se sentir confortável com a interface e algumas das suas possibilidades. (Esses tutoriais também estão agrupados [aqui](https://gist.github.com/jwinder/e59be201082cca694df9); também é possível escutar uma entrevista com Sam Aaron, o criador do Sonic Pi, [aqui](https://web.archive.org/web/20250710140900/https://devchat.cachefly.net/rubyrogues/RR215SonicPi.mp3?rss=true)). Então, em uma nova janela de edição, copie o seguinte (novamente, o trecho de código a seguir eventualmente será agrupado em um script único na sua janela do Sonic Pi):
 
 ```
 require 'csv'
@@ -485,3 +485,4 @@ Sonificar os nossos dados nos faz confrontar os modos como os nossos dados são,
 <a name="Koebler"></a>Koebler, Jason. 2015. "The Strange Acoustic Phenomenon Behind These Wacked-Out Versions of Pop Songs" Motherboard, Dec 18. [http://motherboard.vice.com/read/the-strange-acoustic-phenomenon-behind-these-wacked-out-versions-of-pop-songs](http://motherboard.vice.com/read/the-strange-acoustic-phenomenon-behind-these-wacked-out-versions-of-pop-songs)
 
 <a name="Last"></a>Last and Usyskin, 2015. "Listen to the Sound of Data". In Aaron K. Baughman et al. (eds.) Multimedia Data Mining and Analytics. Springer: Heidelberg. Pp. 419-446 [https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data](https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data)
+

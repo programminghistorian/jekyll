@@ -76,7 +76,7 @@ Nós fornecemos instruções para o Mac, Windows e Linux. Uma vez que você tenh
 
   [Linguagem de Programação Python]: http://www.python.org/
   [Analisador de HTML/XML Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/
-  [Komodo Edit]: http://www.activestate.com/komodo-edit
+  [Komodo Edit]: https://github.com/ActiveState/OpenKomodoIDE
   [Editores Python]: https://wiki.python.org/python/PythonEditors
   [Jungle Disk]: https://www.jungledisk.com/
   [Dropbox]: https://www.dropbox.com/home
@@ -84,4 +84,5 @@ Nós fornecemos instruções para o Mac, Windows e Linux. Uma vez que você tenh
   [Instalação do Python para Mac]: instalacao-mac
   [Instalação do Python para Windows]: instalacao-windows
   [Instalação do Python para Linux]: instalacao-linux
+
 
