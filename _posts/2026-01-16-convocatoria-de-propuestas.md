@@ -11,7 +11,7 @@ _[Programming Historian en español](/es/lecciones)_ busca propuestas para lecci
 
 - **Apertura de la convocatoria**: 19 de enero de 2026  
 - **Fecha límite para la presentación de propuestas si vives/trabajas en el Hemisferio Norte**:   
-**Ampliado el plazo de presentación** 29 de marzo de 2026 a medianoche en tu hora local  
+**Ampliado el plazo de presentación** al 29 de marzo de 2026 a medianoche en tu hora local  
 - **Fecha límite para la presentación de propuestas si vives/trabajas en el Hemisferio Sur**:   
 17 de abril de 2026 a medianoche en tu hora local  
 
