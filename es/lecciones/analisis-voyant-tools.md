@@ -403,7 +403,7 @@ Estos resultados parecen indicar que la presidenta Kirchner, además de tener lo
 
 Hockey, Susan. 2004 “The History of Humanities Computing”. _A Companion to Digital Humanities_. Schreibman et al. (editores). Blackwell Publishing Ltd. [doi:10.1002/9780470999875.ch1](doi:10.1002/9780470999875.ch1).
 
-Peña, Gilberto Anguiano, y Catalina Naumis Peña. 2015. «Extracción de candidatos a términos de un corpus de la lengua general». _Investigación Bibliotecológica: Archivonomía, Bibliotecología e Información_ 29 (67): 19-45. [https://doi.org/10.1016/j.ibbai.2016.02.035](https://doi.org/10.1016/j.ibbai.2016.02.035).
+Peña, Gilberto Anguiano, y Catalina Naumis Peña. 2015. «Extracción de candidatos a términos de un corpus de la lengua general». _Investigación Bibliotecológica: Archivonomía, Bibliotecología e Información_ 29 (67): 19-45. [https://doi.org/10.1016/j.ibbai.2016.02.035](https://www.sciencedirect.com/science/article/pii/S0187358X16000368).
 
 Sinclair, Stéfan and Geoffrey Rockwell, 2016.  _Voyant Tools_. Web. [https://voyant-tools.org/](https://voyant-tools.org/).
 

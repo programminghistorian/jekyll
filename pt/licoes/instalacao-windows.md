@@ -50,7 +50,7 @@ Para que você se organize, o ideal é que você tenha um diretório (i.e., uma 
 
 ## Instale o Komodo Edit
 
-O Komodo Edit é um editor de código gratuito e de código aberto desenvolvido pela [ActiveState](https://www.activestate.com/). Para instalar o Komodo Edit, você pode baixar o arquivo [Komodo-Edit-12.0.1-18441.msi](https://downloads.activestate.com/Komodo/releases/12.0.1/Komodo-Edit-12.0.1-18441.msi) na lista de [versões do Komodo Edit](https://downloads.activestate.com/Komodo/releases/12.0.1/). Você também tem muitas [outras opções de editores de texto][] caso prefira utilizar outro programa.
+O Komodo Edit é um editor de código gratuito e de código aberto desenvolvido pela [ActiveState](https://www.activestate.com/). Para instalar o Komodo Edit, você pode baixar o arquivo [Komodo-Edit-12.0.1-18441.msi](https://downloads.activestate.com/Komodo/releases/12.0.1/Komodo-Edit-12.0.1-18441.msi) na lista de [versões do Komodo Edit](https://downloads.activestate.com/Komodo/releases/12.0.1/). Você também tem muitas [outras opções de editores de texto](https://wiki.python.org/python/PythonEditors) caso prefira utilizar outro programa.
 
 <div class="alert alert-warning">
 A ActiveState descontinuou o Komodo Edit em dezembro de 2022. Conforme observado <a href='https://www.activestate.com/blog/activestate-komodo-ide-now-open-source/'>neste post do blog</a>, 'A descontinuação do Komodo significa que a ActiveState não continuará a desenvolver código ou criar atualizações para [...] o Komodo Edit. Isso significa que a ActiveState não fornecerá novos recursos/funcionalidades e não criará correções para falhas ou problemas de segurança.' Você ainda pode baixar e usar o Komodo Edit, mas provavelmente é melhor escolher outro programa.
@@ -156,7 +156,9 @@ No seu ecrã, você verá algo como:
 
 Agora que você e o seu computador estão preparados, podemos seguir para tarefas mais interessantes. Se você está seguindo as lições do Python, a nossa sugestão é que você tente a próxima lição ‘[Noções básicas de páginas web e HTML][]‘
 
-- [site do Python](https://www.python.org/downloads/windows/)
-- [outros editores](https://wiki.python.org/python/PythonEditors)
-- [UTF-8](https://pt.wikipedia.org/wiki/UTF-8)
-- [Noções básicas de páginas web e HTML](/pt/licoes/nocoes-basicas-paginas-web-html)
+  [site do Python]: https://www.python.org/downloads/windows/
+  [outros editores]: https://wiki.python.org/python/PythonEditors
+  [UTF-8]: https://pt.wikipedia.org/wiki/UTF-8
+  [Noções básicas de páginas web e HTML]: nocoes-basicas-paginas-web-html
+
+

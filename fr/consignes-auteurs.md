@@ -17,11 +17,10 @@ Ces consignes ont été développées pour vous permettre de comprendre comment 
 ## Étape 1: proposer une nouvelle leçon
 
 <div class="alert alert-success">
-Nous vous invitons à nous soumettre des tutoriels pertinents pour les sciences humaines et sociales, qui portent sur une problématique de recherche ou un processus particulier, et qui sont adaptés à n'importe quel niveau de compétence et d'expérience technique. Les tutoriels ont vocation à être pérennes dans le long terme et doivent s'adresser à un public international.
-La portée et la longueur du tutoriel doivent être appropriées à la complexité de la tâche qui y est expliquée. La longueur des tutoriels ne doit pas excéder 8000 mots (en incluant le code source) et nous encourageons la soumission de leçons plus courtes. Celles qui seraient plus longues sont susceptibles d'être divisées en plusieurs tutoriels.
+Notre revue francophone recherche actuellement des propositions de nouvelles leçons originales ou de traductions, pour une publication en 2026-2027. Pour en savoir plus, consultez notre <a href="/posts/appel-a-contributions">appel à contributions</a>, ouvert jusqu'au 20 avril 2026 
 </div>
 
-Si vous avez une idée pour une nouvelle leçon, merci de compléter un [formulaire de proposition](/assets/forms/formulaire-lecon.txt) et [contacter notre rédacteur/rédactrice en chef](mailto:francais@programminghistorian.org) pour discuter de votre idée.
+Si vous avez une idée pour une nouvelle leçon, merci de compléter un [formulaire de proposition](/assets/forms/formulaire-proposition.txt) et [contacter notre rédacteur/rédactrice en chef](mailto:francais@programminghistorian.org) pour discuter de votre idée.
 
 Vous pouvez avoir une meilleure idée de ce que nous publions en consultant nos [leçons en ligne](/fr/lecons/), en lisant nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs), ou encore en parcourant les [leçons en cours de développement](https://github.com/programminghistorian/ph-submissions/issues). Merci de prendre aussi le temps de consulter notre table de [concordance des leçons](https://docs.google.com/spreadsheets/d/1vrvZTygZLfQRoQildD667Xcgzhf_reQC8Nq4OD-BRIA/edit#gid=0) afin de voir quelles méthodes ont déjà été traitées dans nos tutoriels publiés ou à venir.
 

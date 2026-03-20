@@ -340,7 +340,7 @@ O objetivo foi demonstrar diversas possibilidades de estudo da história da lite
 
 [^5]: Santos, Diana, "A sintaxe do AC/DC: apresentação do CWB e das opções tomadas", notas para a disciplina de POR2102, outono de 2012. [pdf](https://perma.cc/U2PR-BLKU)
 
-[^6]: Santos, Diana, "Explorando o vestuário na literatura em português", *TradTerm* 37, no. 2 (2021): 622-643. [](https://doi.org/10.11606/issn.2317-9511.v37p622-643)
+[^6]: Santos, Diana, "Explorando o vestuário na literatura em português", *TradTerm* 37, no. 2 (2021): 622-643.
 
 [^7]: Outra maneira ainda é especificar no Distribuidor que apenas pretende obter obras com data válida: `?data=/^[12].../ obra autor variante data decada`.
 

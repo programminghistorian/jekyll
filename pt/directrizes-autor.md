@@ -188,7 +188,7 @@ Todas as lições devem ser escritas em [Markdown](https://en.wikipedia.org/wiki
 
 * [Faça o download do template de lição em português (.md).]({{site.baseurl}}/pt/licoes-modelo.md).
 
-Markdown é uma linguagem de marcação que é mais fácil de trabalhar num editor de texto. O MS Word e o Open Office NÃO são editores de texto e devem ser evitados. Recomendamos [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://en.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/) ou [Notepad++](https://notepad-plus-plus.org/download).
+Markdown é uma linguagem de marcação que é mais fácil de trabalhar num editor de texto. O MS Word e o Open Office NÃO são editores de texto e devem ser evitados. Recomendamos [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://en.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/) ou [Notepad++](https://notepad-plus-plus.org/downloads).
 Para uma primeira introdução à formatação do Markdown, consultar [Introdução ao Markdown]({{site.baseurl}}/pt/licoes/introducao-ao-markdown), ou uma explicação mais breve em [Guia de Markdown do GitHub](https://guides.github.com/features/mastering-markdown/).
 
 A lição deve ser guardada no formato .md. O nome do ficheiro da lição torna-se parte do URL da lição. Portanto, deve ser nomeado de acordo com as seguintes regras:

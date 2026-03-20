@@ -31,7 +31,6 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [Center for Digital Research in the Humanities, University of Nebraska-Lincoln](https://cdrh.unl.edu/), United States
 - [The National Archives](https://www.nationalarchives.gov.uk/), United Kingdom
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), United States
-- [Purdue University](https://www.purdue.edu/), United States
 - [University of Bristol Library](https://www.bristol.ac.uk/library/), United Kingdom
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), United Kingdom
 - [School of Advanced Study, University of London](https://www.sas.ac.uk/), United Kingdom
@@ -69,6 +68,7 @@ Former contributors to our [Institutional Partner Programme](support-us#institut
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Denmark [2021-2024]
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), United Kingdom [2022-2024]
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), United Kingdom [2022-2024]
+- [Purdue University](https://www.purdue.edu/), United States [2021-2025]   
 
 ## Additional Supporters
 Organizations that have or continue to give support ranging from in kind services, to project-specific funding:

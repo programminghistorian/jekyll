@@ -122,5 +122,5 @@ Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos 
 
 
 [opciones de editores de texto]: https://wiki.python.org/python/PythonEditors
-[sitio web de Komodo Edit]: https://komodoide.com/komodo-edit/
+[sitio web de Komodo Edit]: https://github.com/ActiveState/OpenKomodoIDE
 [Para entender páginas web y HTML]: /es/lecciones/ver-archivos-html

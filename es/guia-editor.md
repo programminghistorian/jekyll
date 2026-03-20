@@ -319,7 +319,7 @@ Las lecciones se representan mediante una imagen `vintage` que refleja algún el
 
 Puedes buscar imágenes en los recursos siguientes:
 
- - [Europeana](https://www.europeana.eu/portal/en)
+ - [Europeana](https://www.europeana.eu/en)
  - [British Library](https://www.flickr.com/photos/britishlibrary)
  - [Internet Archive Book Images](https://archive.org/details/bookimages)
  - [Virtual Manuscript Library of Switzerland](https://www.e-codices.unifr.ch/en)

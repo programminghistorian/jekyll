@@ -242,7 +242,7 @@ Si te interesa seguir aprendiendo sobre el tema de los datos abiertos enlazados 
 
 [^4]: Cadena López, Aydé, Ramos Luna, Lorena Litai, & Rivera González, Gibrán. (2022). Los datos abiertos en los estudios organizacionales: Reflexiones e implicaciones. _Trace (México, DF)_, (82), 41-65. Epub 02 de diciembre de 2022. <https://doi.org/10.22134/trace.82.2022.819>
 
-[^5]: Ávila-Barrientos, Eder. (2022). Recuperación de información con Linked Open Data. _Investigación bibliotecológica_, _36_(91), 125-146. Epub 15 de noviembre de 2022. <https://doi.org/10.22201/iibi.24488321xe.2022.91.58567>
+[^5]: Ávila-Barrientos, Eder. (2022). Recuperación de información con Linked Open Data. _Investigación bibliotecológica_, _36_(91), 125-146. Epub 15 de noviembre de 2022. [https://doi.org/10.22201/iibi.24488321xe.2022.91.58567](https://perma.cc/4K6W-BWH3)
 
 [^6]: Obregón Sierra, Ángel. (2022). Inserción de metadatos de las bibliotecas españolas en Wikidata: un modelo de datos abiertos enlazados. Revista Española De Documentación Científica, 45(3), a330. <https://doi.org/10.3989/redc.2022.3.1870>
 

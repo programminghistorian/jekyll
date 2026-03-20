@@ -68,7 +68,7 @@ Con el fin de trabajar con las diversas técnicas que se ofrecen en *Programming
 
 [Lenguaje de programación Python]: https://www.python.org
 [Analizador sintáctico (*parser*) Beautiful Soup HTML/XML]: https://www.crummy.com/software/BeautifulSoup/
-[Komodo Edit]: https://komodoide.com/komodo-edit/
+[Komodo Edit]: https://github.com/ActiveState/OpenKomodoIDE
 [Editores de Texto para Python]: https://wiki.python.org/python/PythonEditors
 [Zotero]: https://www.zotero.org
 [Jungle Disk]: https://www.jungledisk.com

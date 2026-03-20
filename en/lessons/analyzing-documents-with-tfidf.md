@@ -384,7 +384,7 @@ Text summarization is yet another way to explore a corpus. Rada Mihalcea and Pau
 
 # References and Further Reading
 
-- Beckman, Milo. "These Are The Phrases Each GOP Candidate Repeats Most," _FiveThirtyEight_, March 10, 2016. https://fivethirtyeight.com/features/these-are-the-phrases-each-gop-candidate-repeats-most/
+- Beckman, Milo. "These Are The Phrases Each GOP Candidate Repeats Most," _FiveThirtyEight_, March 10, 2016. [https://fivethirtyeight.com/features/these-are-the-phrases-each-gop-candidate-repeats-most/](https://perma.cc/37WS-MB8F).
 
 - Bennett, Jessica, and Amisha Padnani. "Overlooked," March 8, 2018. https://www.nytimes.com/interactive/2018/obituaries/overlooked.html
 
@@ -394,9 +394,9 @@ Text summarization is yet another way to explore a corpus. Rada Mihalcea and Pau
 
 - Bowles, Nellie. "Overlooked No More: Karen Sparck Jones, Who Established the Basis for Search Engines" _The New York Times_, January 2, 2019. https://www.nytimes.com/2019/01/02/obituaries/karen-sparck-jones-overlooked.html
 
-- Documentation for TfidfVectorizer. https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
+- Documentation for TfidfVectorizer. [https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html](https://perma.cc/JUN8-39Z6).
 
-- Grimmer, Justin and King, Gary, Quantitative Discovery from Qualitative Information: A General-Purpose Document Clustering Methodology (2009). APSA 2009 Toronto Meeting Paper. Available at SSRN: https://ssrn.com/abstract=1450070
+- Grimmer, Justin and King, Gary, Quantitative Discovery from Qualitative Information: A General-Purpose Document Clustering Methodology [2009](https://perma.cc/4YAL-H6VN). APSA 2009 Toronto Meeting Paper [PDF](https://perma.cc/NUS2-J3YP).
 
 - "Ida M. Tarbell, 86, Dies in Bridgeport" _The New York Times_, January 7, 1944, 17. https://www.nytimes.com
 
@@ -408,19 +408,19 @@ Text summarization is yet another way to explore a corpus. Rada Mihalcea and Pau
 
 - Salton, G. and M.J. McGill, _Introduction to Modern Information Retrieval_. New York: McGraw-Hill, 1983.
 
-- Schmidt, Ben. "Do Digital Humanists Need to Understand Algorithms?" _Debates in the Digital Humanities 2016_. Online edition. Minneapois: University of Minnesota Press. https://dhdebates.gc.cuny.edu/debates/text/99
+- Schmidt, Ben. "Do Digital Humanists Need to Understand Algorithms?" _Debates in the Digital Humanities 2016_. Online edition. Minneapois: University of Minnesota Press. [http://dhdebates.gc.cuny.edu/debates/text/99](https://perma.cc/95WD-SDM5)
 
-- --. "Words Alone: Dismantling Topic Models in the Humanities," _Journal of Digital Humanities_. Vol. 2, No. 1 (2012): n.p. https://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/
+- --. "Words Alone: Dismantling Topic Models in the Humanities," _Journal of Digital Humanities_. Vol. 2, No. 1 (2012): n.p. [http://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/](https://perma.cc/LT4N-X4MZ).
 
 - Spärck Jones, Karen. "A Statistical Interpretation of Term Specificity and Its Application in Retrieval." Journal of Documentation 28, no. 1 (1972): 11–21.
 
-- Stray, Jonathan, and Julian Burgess. "A Full-text Visualization of the Iraq War Logs," December 10, 2010 (Update April 2012). https://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs
+- Stray, Jonathan, and Julian Burgess. "A Full-text Visualization of the Iraq War Logs," December 10, 2010 (Update April 2012). [http://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs](https://perma.cc/QBZ4-DKTE).
 
-- Underwood, Ted. "Identifying diction that characterizes an author or genre: why Dunning's may not be the best method," _The Stone and the Shell_, November 9, 2011. https://tedunderwood.com/2011/11/09/identifying-the-terms-that-characterize-an-author-or-genre-why-dunnings-may-not-be-the-best-method/
+- Underwood, Ted. "Identifying diction that characterizes an author or genre: why Dunning's may not be the best method," _The Stone and the Shell_, November 9, 2011. [https://tedunderwood.com/2011/11/09/identifying-the-terms-that-characterize-an-author-or-genre-why-dunnings-may-not-be-the-best-method/](https://perma.cc/SY25-UXK3).
 
-- --. "The Historical Significance of Textual Distances", Preprint of LaTeCH-CLfL Workshop, COLING, Santa Fe, 2018. https://arxiv.org/abs/1807.00181
+- --. "The Historical Significance of Textual Distances", Preprint of LaTeCH-CLfL Workshop, COLING, Santa Fe, 2018. [https://doi.org/10.48550/arXiv.1807.00181](https://doi.org/10.48550/arXiv.1807.00181).
 
-- van Rossum,  Guido, Barry Warsaw, and Nick Coghlan. "PEP 8 -- Style Guide for Python Code." July 5, 2001. Updated July 2013. https://www.python.org/dev/peps/pep-0008/
+- van Rossum,  Guido, Barry Warsaw, and Nick Coghlan. "PEP 8 -- Style Guide for Python Code." July 5, 2001. Updated July 2013. [https://www.python.org/dev/peps/pep-0008/](https://perma.cc/P2ZM-VPQM).
 
 - Whitman, Alden. "Upton Sinclair, Author, Dead; Crusader for Social Justice, 90" _The New York Times_, November 26, 1968, 1, 34. https://www.nytimes.com
 
@@ -440,7 +440,7 @@ If you are not using Anaconda, you will need to cover the following dependencies
 
 # Endnotes
 
-[^1]: Underwood, Ted. "Identifying diction that characterizes an author or genre: why Dunning's may not be the best method," _The Stone and the Shell_, November 9, 2011. <https://tedunderwood.com/2011/11/09/identifying-the-terms-that-characterize-an-author-or-genre-why-dunnings-may-not-be-the-best-method/>
+[^1]: Underwood, Ted. "Identifying diction that characterizes an author or genre: why Dunning's may not be the best method," _The Stone and the Shell_, November 9, 2011. [https://tedunderwood.com/2011/11/09/identifying-the-terms-that-characterize-an-author-or-genre-why-dunnings-may-not-be-the-best-method/](https://perma.cc/SY25-UXK3).
 
 [^2]: Bennett, Jessica, and Amisha Padnani. "Overlooked," March 8, 2018. <https://www.nytimes.com/interactive/2018/obituaries/overlooked.html>
 
@@ -452,24 +452,24 @@ If you are not using Anaconda, you will need to cover the following dependencies
 
 [^6]: "Nellie Bly, Journalist, Dies of Pneumonia" _The New York Times_, January 28, 1922, 11. <https://www.nytimes.com>
 
-[^7]: Documentation for TfidfVectorizer. <https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html>
+[^7]: Documentation for TfidfVectorizer. [https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html](https://perma.cc/JUN8-39Z6).
 
-[^8]: Schmidt, Ben. "Do Digital Humanists Need to Understand Algorithms?" _Debates in the Digital Humanities 2016_. Online edition. (Minneapois: University of Minnesota Press): n.p. <https://dhdebates.gc.cuny.edu/debates/text/99>
+[^8]: Schmidt, Ben. "Do Digital Humanists Need to Understand Algorithms?" _Debates in the Digital Humanities 2016_. Online edition. (Minneapois: University of Minnesota Press): n.p. [http://dhdebates.gc.cuny.edu/debates/text/99](https://perma.cc/95WD-SDM5)
 
-[^9]: van Rossum,  Guido, Barry Warsaw, and Nick Coghlan. "PEP 8 -- Style Guide for Python Code." July 5, 2001. Updated July 2013. <https://www.python.org/dev/peps/pep-0008/>
+[^9]: van Rossum,  Guido, Barry Warsaw, and Nick Coghlan. "PEP 8 -- Style Guide for Python Code." July 5, 2001. Updated July 2013. [https://www.python.org/dev/peps/pep-0008/](https://perma.cc/P2ZM-VPQM).
 
 [^10]: "Ida M. Tarbell, 86, Dies in Bridgeport" _The New York Times_, January 7, 1944, 17. <https://www.nytimes.com>; "Nellie Bly, Journalist, Dies of Pneumonia" _The New York Times_, January 28, 1922, 11. <https://www.nytimes.com>; "W. E. B. DuBois Dies in Ghana; Negro Leader and Author, 95" _The New York Times_, August 28, 1963, 27. <https://www.nytimes.com>; Whitman, Alden. "Upton Sinclair, Author, Dead; Crusader for Social Justice, 90" _The New York Times_, November 26, 1968, 1, 34. <https://www.nytimes.com>; "Willa Cather Dies; Noted Novelist, 70" _The New York Times_, April 25, 1947, 21. <https://www.nytimes.com>
 
-[^11]: Stray, Jonathan, and Julian Burgess. "A Full-text Visualization of the Iraq War Logs," December 10, 2010 (Update April 2012). <https://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs>
+[^11]: Stray, Jonathan, and Julian Burgess. "A Full-text Visualization of the Iraq War Logs," December 10, 2010 (Update April 2012). [http://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs](https://perma.cc/QBZ4-DKTE).
 
 [^12]: Manning, C.D., P. Raghavan, and H. Schütze, _Introduction to Information Retrieval_. (Cambridge: Cambridge University Press, 2008): 118-120.
 
-[^13]: Beckman, Milo. "These Are The Phrases Each GOP Candidate Repeats Most," _FiveThirtyEight_, March 10, 2016. <https://fivethirtyeight.com/features/these-are-the-phrases-each-gop-candidate-repeats-most/>
+[^13]: Beckman, Milo. "These Are The Phrases Each GOP Candidate Repeats Most," _FiveThirtyEight_, March 10, 2016. [https://fivethirtyeight.com/features/these-are-the-phrases-each-gop-candidate-repeats-most/](https://perma.cc/37WS-MB8F).
 
 [^14]: Bondi, Marina, and Mike Scott, eds. _Keyness in Texts_. (Philadelphia: John Benjamins, 2010).
 
-[^15]: __Tf-idf__ is not typically a recommended pre-processing step when generating topic models. See <https://datascience.stackexchange.com/questions/21950/why-we-should-not-feed-lda-with-tfidf>
+[^15]: __Tf-idf__ is not typically a recommended pre-processing step when generating topic models. See [https://datascience.stackexchange.com/questions/21950/why-we-should-not-feed-lda-with-tfidf](https://perma.cc/N5W9-TYX7).
 
-[^16]: Schmidt, Ben. "Words Alone: Dismantling Topic Models in the Humanities," _Journal of Digital Humanities_. Vol. 2, No. 1 (2012): n.p. <https://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/>
+[^16]: Schmidt, Ben. "Words Alone: Dismantling Topic Models in the Humanities," _Journal of Digital Humanities_. Vol. 2, No. 1 (2012): n.p. [http://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/](https://perma.cc/LT4N-X4MZ).
 
-[^17]: Mihalcea, Rada, and Paul Tarau. "Textrank: Bringing order into text." In _Proceedings of the 2004 conference on empirical methods in natural language processing_. 2004.
+[^17]: Mihalcea, Rada, and Paul Tarau. "Textrank: Bringing order into text." In _Proceedings of the 2004 conference on empirical methods in natural language processing_. 2004. [http://www.aclweb.org/anthology/W04-3252](https://perma.cc/SMV5-7MYY).

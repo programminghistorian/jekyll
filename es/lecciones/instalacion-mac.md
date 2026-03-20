@@ -54,7 +54,7 @@ Descarga la más reciente versión de [Beautiful Soup] y cópiala en el director
 
 ### Instalar un editor de texto
 
-Hay muchos editores de texto que puedes utilizar para escribir, guardar y ejecutar comandos de Python. En esta lección vamos a utilizar Sublime Text. Si prefieres otro editor de texto, hay [otras opciones][]. Algunos de nuestros usuarios prefieren un editor llamado [BBEdit][]. Puedes descargar una copia de Sublime Text de [la página web de Sublime Text][].
+Hay muchos editores de texto que puedes utilizar para escribir, guardar y ejecutar comandos de Python. En esta lección vamos a utilizar Sublime Text. Si prefieres otro editor de texto, hay [otras opciones](https://wiki.python.org/python/PythonEditors). Algunos de nuestros usuarios prefieren un editor llamado [BBEdit](https://www.barebones.com/products/bbedit). Puedes descargar una copia de Sublime Text de [la página web de Sublime Text](https://www.sublimetext.com/download).
 
 #### Inicia Sublime Text
 
