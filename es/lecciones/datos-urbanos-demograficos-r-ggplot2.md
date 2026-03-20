@@ -530,21 +530,21 @@ Sin embargo, esto es solo la punta del iceberg de las posibilidades de ggplot2. 
 
 ## Recursos adicionales
 
-Existe una variedad de recursos de aprendizaje y documentación disponibles en línea que pueden resultar útiles. Sin embargo, el material en español es muy limitado, por lo que esperamos que esta lección ayude a cubrir esa brecha.
+Existe una variedad de recursos de aprendizaje y documentación disponibles en línea que pueden resultar útiles. Sin embargo, el material en español es muy limitado, por lo que esperamos que esta lección ayude a cubrir esa brecha. Los siguientes recursos están en inglés, a menos que se indique lo contrario.
 
-* El [sitio oficial de ggplot2 (disponible en inglés)](https://ggplot2.tidyverse.org/). Sin embargo, puedes consultar este recurso en español: [_30 Conceptos básicos de ggplot_](https://perma.cc/3CS9-WJ94) en _EpiRhandbook en español_
+* El [sitio oficial de ggplot2](https://ggplot2.tidyverse.org/). Sin embargo, puedes consultar este recurso en español: [_30 Conceptos básicos de ggplot_](https://perma.cc/3CS9-WJ94) en _EpiRhandbook en español_
 
-* Los libros de Hadley Wickham [`ggplot2`: _Gráficos elegantes para el análisis de datos_](https://perma.cc/XR9J-BXP6) y [_R para el análisis de datos_](https://perma.cc/5N4V-UV9X). 
+* Los libros de Hadley Wickham [`ggplot2`:_Elegant Graphics for Data Analysis (3e)_](https://perma.cc/XR9J-BXP6), en inglés, y [_R para el análisis de datos_](https://perma.cc/TK9G-2ZRS), en español.
 
 * El [trabajo original de Hadley Wickham](https://doi.org/10.1198/jcgs.2009.07098) sobre la gramática de gráficos.
 
-* El libro original de Leland Wilkson [_La gramática de gráficos_](https://doi.org/10.1007/0-387-28695-0).
+* El libro original de Leland Wilkson [_The Grammar of Graphics_](https://doi.org/10.1007/0-387-28695-0).
 
-* La tutoría de [Selva Prabhakaran en r-statistics.co](https://perma.cc/6Q2Q-L7UD).
+* La tutoría de [Selva Prabhakaran en r-statistics.co](https://perma.cc/6Q2Q-L7UD). 
 
-* El video de Data Science Dojo [Introducción a la visualización de datos con ggplot2](https://www.youtube.com/watch?v=NXjPcXx42Yc).
+* El video de Data Science Dojo [Data Visualization with ggplot2 ](https://www.youtube.com/watch?v=NXjPcXx42Yc).
 
-* El [guión de programación R de UC Business Analytics](https://perma.cc/KZT6-GW9C). 
+* [UC Business Analytics R Programming Guide](https://perma.cc/KZT6-GW9C).
 
 * La página oficial de [extensiones de ggplot2](https://www.ggplot2-exts.org/) y [su galería](https://exts.ggplot2.tidyverse.org/gallery/).
 
@@ -554,7 +554,7 @@ Existe una variedad de recursos de aprendizaje y documentación disponibles en l
 
 * El [libro _Cookbook for R_](https://perma.cc/5WXV-T8W2) (basado en la obra de Winston Chang [_R Graphics Cookbook: Practical Recipes for Visualizing Data_](https://perma.cc/3UJW-Y2AG).
 
-* La [chuleta oficial de R](https://perma.cc/W6CX-WAUQ) (traducciones al español disponibles). 
+* La [chuleta oficial de R](https://perma.cc/W6CX-WAUQ) con traducciones al español disponibles. 
 
 * La página de [escalas de gradiente](https://perma.cc/8BWE-MVLV).
 
