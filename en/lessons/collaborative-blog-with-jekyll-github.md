@@ -346,7 +346,7 @@ In our workflow, there are two parts to authoring on or editing your website:
 
 If you forget what any of these technical terms mean, visit our [glossary](https://scholarslab.lib.virginia.edu/blog/github-jekyll-glossary/) for a reminder.
 
-The previous Jekyll lesson included a section on [how to create and edit posts and pages](/en/lessons/building-static-sites-with-jekyll-github-pages#writing-pages-and-posts), so we suggest you review that lesson for a general introduction to blogging in Jekyll[^8]. In what follows, we describe the changes to those instructions that will be required for your site to function better as a collaborative blog. The key differences from the last lesson are:
+The previous Jekyll lesson included a section on [how to create and edit posts and pages](/en/lessons/building-static-sites-with-jekyll-github-pages/#writing-pages-and-posts), so we suggest you review that lesson for a general introduction to blogging in Jekyll[^8]. In what follows, we describe the changes to those instructions that will be required for your site to function better as a collaborative blog. The key differences from the last lesson are:
 
 * the use of branches  
 * authoring and editing on the GitHub.com website (in your browser) rather than locally (in your computer's file system)  
@@ -383,7 +383,7 @@ You can also look at the address bar; the URL will have changed from https://git
 Now you are on a new branch where you can work without affecting the repository that determines what is on your website so that work-in-progress will not appear publicly.
 
 ### Authoring and editing on GitHub.com
-The [previous Jekyll lesson](/en/lessons/building-static-sites-with-jekyll-github-pages#writing-pages-and-posts) shows how to use Markdown and YAML to write a post or alter a page's content and front matter. Here, we will explain: how to create, commit, and edit a post on GitHub.com (rather than locally); changes to post front matter to support a collaborative website; and ways to check how your post appears from GitHub.com (that is, when you are not running your website locally).
+The [previous Jekyll lesson](/en/lessons/building-static-sites-with-jekyll-github-pages/#writing-pages-and-posts) shows how to use Markdown and YAML to write a post or alter a page's content and front matter. Here, we will explain: how to create, commit, and edit a post on GitHub.com (rather than locally); changes to post front matter to support a collaborative website; and ways to check how your post appears from GitHub.com (that is, when you are not running your website locally).
 
 #### Create a new post
 You should still be in the branch you created to contain your work in progress.
@@ -422,7 +422,7 @@ Commit (save) as often as you would save any other work-in-progress. Or, draft y
 
 {% include figure.html filename="groupblogging-preview-changes.png" caption="Screenshot of where the text editor's preview button is found" %}
 
-The [previous lesson](/en/lessons/building-static-sites-with-jekyll-github-pages#hosting-on-github-pages) had you use the GitHub Desktop app to commit and merge, instead we will use the GitHub.com interface. This lets contributors unfamiliar or uncomfortable with the command line or running a site locally do everything from GitHub.com.
+The [previous lesson](/en/lessons/building-static-sites-with-jekyll-github-pages/#hosting-on-github-pages) had you use the GitHub Desktop app to commit and merge, instead we will use the GitHub.com interface. This lets contributors unfamiliar or uncomfortable with the command line or running a site locally do everything from GitHub.com.
 
 To commit your work, scroll down to the bottom of the text editor page.
 
@@ -441,7 +441,7 @@ Leave the radio buttons as-is ("Commit directly to the [your branch name] branch
 Click the green "Commit new file" button to finish saving your work.
 
 #### Adjustments to front matter
-You will need to make four changes to how the [previous lesson](/en/lessons/building-static-sites-with-jekyll-github-pages#writing-pages-and-posts) directed you to write the front matter of a blog post:
+You will need to make four changes to how the [previous lesson](/en/lessons/building-static-sites-with-jekyll-github-pages/#writing-pages-and-posts) directed you to write the front matter of a blog post:
 * Add the "author" field (such as "author: Amanda Visconti")
 * Remove the hour, minute, and second info from the "date" YAML (we have not found it useful to track times and it can cause problems and confusion when publishing from different time zones)
 * Remove the "categories" YAML field as these lessons do not explain its use
@@ -613,7 +613,7 @@ If you have read the longer explanations above already and just want a checklist
 
 ### Cheat sheets
 - [Glossary of frequently used terms](https://scholarslab.lib.virginia.edu/blog/github-jekyll-glossary/) (pull, merge, branch, etc.)
-- [Overview](/en/lessons/building-static-sites-with-jekyll-github-pages#where-and-what-is-everything) of what various files in your website folder do
+- [Overview](/en/lessons/building-static-sites-with-jekyll-github-pages/#where-and-what-is-everything) of what various files in your website folder do
 - [Scholars' Lab cheatsheet](https://github.com/scholarslab/scholarslab.org/blob/master/docs/authoring-and-editing.md#markdown--formatting) on basic Markdown formatting, limited to the most frequently used formatting for our particular needs
 
 ### Troubleshooting

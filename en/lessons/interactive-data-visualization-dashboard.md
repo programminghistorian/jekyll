@@ -495,7 +495,7 @@ If you want to host your own server, or someone at your institution can help you
 
 ### Setting up in GitHub
 
-You will need to turn the `ph-dash` folder into a GitHub repository. You can do this in the command line by executing `$git init` or using GitHub Desktop (see [Amanda Visconti's _Programming Historian_ lesson](/en/lessons/building-static-sites-with-jekyll-github-pages#github--github-pages-) if you are new to Git or GitHub).
+You will need to turn the `ph-dash` folder into a GitHub repository. You can do this in the command line by executing `$git init` or using GitHub Desktop (see [Amanda Visconti's _Programming Historian_ lesson](/en/lessons/building-static-sites-with-jekyll-github-pages/#github--github-pages-) if you are new to Git or GitHub).
 
 Then, install one more library for deployment by entering `$pip install gunicorn`. The [`gunicorn`](https://gunicorn.org/) library allows Render to set up a web server for you.
 

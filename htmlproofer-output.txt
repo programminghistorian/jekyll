@@ -296,11 +296,11 @@ For the Links > External check, the following failures were found:
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:516:
 
-  External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
+  External link https://docs.unity3d.com/Manual/LearningtheInterface.html failed (status code 404)
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:516:
 
-  External link https://docs.unity3d.com/Manual/LearningtheInterface.html failed (status code 404)
+  External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:1335:
 
@@ -358,17 +358,13 @@ For the Links > Internal check, the following failures were found:
 
 * At _site/en/author-guidelines/index.html:258:
 
+  internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not
+
+* At _site/en/author-guidelines/index.html:258:
+
   internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not
 
 * At _site/en/author-guidelines/index.html:258:
-
-  internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
-
-* At _site/en/author-guidelines/index.html:258:
-
-  internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not
-
-* At _site/en/contribute/index.html:253:
 
   internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
 
@@ -379,6 +375,10 @@ For the Links > Internal check, the following failures were found:
 * At _site/en/contribute/index.html:253:
 
   internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not
+
+* At _site/en/contribute/index.html:253:
+
+  internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
 
 * At _site/en/contribute/index.html:272:
 
@@ -431,26 +431,6 @@ For the Links > Internal check, the following failures were found:
 * At _site/en/lessons/clustering-visualizing-word-embeddings/index.html:1566:
 
   internally linking to /en/lessons/clustering-with-scikit-learn-in-python#3-dimensionality-reduction-using-pca; the file exists, but the hash '3-dimensionality-reduction-using-pca' does not
-
-* At _site/en/lessons/collaborative-blog-with-jekyll-github/index.html:950:
-
-  internally linking to /en/lessons/building-static-sites-with-jekyll-github-pages#writing-pages-and-posts; the file exists, but the hash 'writing-pages-and-posts' does not
-
-* At _site/en/lessons/collaborative-blog-with-jekyll-github/index.html:1017:
-
-  internally linking to /en/lessons/building-static-sites-with-jekyll-github-pages#writing-pages-and-posts; the file exists, but the hash 'writing-pages-and-posts' does not
-
-* At _site/en/lessons/collaborative-blog-with-jekyll-github/index.html:1114:
-
-  internally linking to /en/lessons/building-static-sites-with-jekyll-github-pages#hosting-on-github-pages; the file exists, but the hash 'hosting-on-github-pages' does not
-
-* At _site/en/lessons/collaborative-blog-with-jekyll-github/index.html:1147:
-
-  internally linking to /en/lessons/building-static-sites-with-jekyll-github-pages#writing-pages-and-posts; the file exists, but the hash 'writing-pages-and-posts' does not
-
-* At _site/en/lessons/collaborative-blog-with-jekyll-github/index.html:1507:
-
-  internally linking to /en/lessons/building-static-sites-with-jekyll-github-pages#where-and-what-is-everything; the file exists, but the hash 'where-and-what-is-everything' does not
 
 * At _site/en/lessons/corpus-analysis-with-spacy/index.html:568:
 
@@ -514,7 +494,7 @@ For the Links > Internal check, the following failures were found:
 
 * At _site/en/lessons/interactive-data-visualization-dashboard/index.html:1048:
 
-  internally linking to /en/lessons/building-static-sites-with-jekyll-github-pages#github--github-pages-; the file exists, but the hash 'github--github-pages-' does not
+  internally linking to /en/lessons/building-static-sites-with-jekyll-github-pages/#github--github-pages-; the file exists, but the hash 'github--github-pages-' does not
 
 * At _site/en/lessons/introduction-to-ffmpeg/index.html:535:
 
@@ -865,4 +845,4 @@ For the Links > Internal check, the following failures were found:
   internally linking to /pt/apoie-nos, which does not exist
 
 
-HTML-Proofer found 212 failures!
+HTML-Proofer found 207 failures!
