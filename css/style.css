@@ -220,7 +220,7 @@ Lesson Headers
     font: .9rem/1.1rem 'Roboto Condensed', sans-serif;
     text-transform:uppercase;
     font-variant:small-caps;
-    letter-spacing:80%;
+    /* letter-spacing:80%; */
     color: #565656;
     margin:.3rem 0 0 0;
     padding:0;
