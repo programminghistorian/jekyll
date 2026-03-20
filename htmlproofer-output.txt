@@ -2,10 +2,10 @@
 Running 3 checks (Images, Links, Scripts) in ["_site"] on *.html files ...
 
 
-Checking 5245 external links
-Checking 5182 internal links
-Checking internal link hashes in 306 files
-Ran on 498 files!
+Checking 5257 external links
+Checking 5205 internal links
+Checking internal link hashes in 307 files
+Ran on 499 files!
 
 
 For the Images check, the following failures were found:
@@ -52,6 +52,18 @@ For the Links check, the following failures were found:
 
   http://www.loc.gov/maps/collections is not an HTTPS link
 
+* At _site/en/lessons/applied-archival-downloading-with-wget/index.html:526:
+
+  http://en.wikipedia.org/wiki/Leading_zero is not an HTTPS link
+
+* At _site/en/lessons/applied-archival-downloading-with-wget/index.html:680:
+
+  http://memory.loc.gov/cgi-bin/ampage?collId=mtj1&fileName=mtj1page001.db&recNum=1&itemLink=/ammem/collections/jefferson_papers/mtjser1.html&linkText=6 is not an HTTPS link
+
+* At _site/en/lessons/applied-archival-downloading-with-wget/index.html:735:
+
+  http://cushing.med.yale.edu/gsdl/collect/mdposter/ is not an HTTPS link
+
 * At _site/en/lessons/corpus-analysis-voyant-tools/index.html:579:
 
   http://voyant-tools.org/ is not an HTTPS link
@@ -76,9 +88,45 @@ For the Links check, the following failures were found:
 
   http://programminghistorian.org/ is not an HTTPS link
 
+* At _site/en/lessons/introduction-and-installation/index.html:513:
+
+  http://www.python.org/ is not an HTTPS link
+
+* At _site/en/lessons/introduction-and-installation/index.html:514:
+
+  http://www.crummy.com/software/BeautifulSoup/ is not an HTTPS link
+
+* At _site/en/lessons/mac-installation/index.html:498:
+
+  http://support.apple.com/kb/ht1427 is not an HTTPS link
+
+* At _site/en/lessons/mac-installation/index.html:504:
+
+  http://www.python.org/ is not an HTTPS link
+
+* At _site/en/lessons/preserving-your-research-data/index.html:580:
+
+  http://en.wikipedia.org/wiki/PRINCE2 is not an HTTPS link
+
+* At _site/en/lessons/preserving-your-research-data/index.html:621:
+
+  http://en.wikipedia.org/wiki/Cross-platform is not an HTTPS link
+
+* At _site/en/lessons/preserving-your-research-data/index.html:644:
+
+  http://en.wikipedia.org/wiki/Markdown is not an HTTPS link
+
 * At _site/en/lessons/qgis-layers/index.html:611:
 
   http://www.gov.pe.ca/gis/download.php3?name=forest_35&file_format=SHP is not an HTTPS link
+
+* At _site/en/lessons/windows-installation/index.html:508:
+
+  http://www.python.org/ is not an HTTPS link
+
+* At _site/en/lessons/windows-installation/index.html:579:
+
+  http://en.wikipedia.org/wiki/UTF-8 is not an HTTPS link
 
 * At _site/en/research/index.html:436:
 
@@ -128,6 +176,26 @@ For the Links check, the following failures were found:
 
   http://dx.doi.org/10.1145/2682571.2797068 is not an HTTPS link
 
+* At _site/fr/lecons/installation-windows-py/index.html:548:
+
+  http://www.python.org/ is not an HTTPS link
+
+* At _site/fr/lecons/installation-windows-py/index.html:608:
+
+  http://en.wikipedia.org/wiki/UTF-8 is not an HTTPS link
+
+* At _site/fr/lecons/introduction-et-installation/index.html:544:
+
+  http://www.python.org/ is not an HTTPS link
+
+* At _site/fr/lecons/introduction-et-installation/index.html:544:
+
+  http://www.crummy.com/software/BeautifulSoup/ is not an HTTPS link
+
+* At _site/fr/lecons/preserver-ses-donnees-de-recherche/index.html:608:
+
+  http://notepad-plus-plus.org is not an HTTPS link
+
 * At _site/fr/recherche/index.html:436:
 
   http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/ is not an HTTPS link
@@ -144,9 +212,21 @@ For the Links check, the following failures were found:
 
   http://www.gazetteer.org.uk/index.php is not an HTTPS link
 
+* At _site/pt/licoes/instalacao-mac/index.html:538:
+
+  http://support.apple.com/kb/ht1427 is not an HTTPS link
+
 * At _site/pt/licoes/introducao-dados-abertos-conectados/index.html:1089:
 
   http://www.ahrc.ac.uk/ is not an HTTPS link
+
+* At _site/pt/licoes/introducao-instalacao-python/index.html:544:
+
+  http://www.python.org/ is not an HTTPS link
+
+* At _site/pt/licoes/introducao-instalacao-python/index.html:544:
+
+  http://www.crummy.com/software/BeautifulSoup/ is not an HTTPS link
 
 * At _site/pt/licoes/introducao-map-warper/index.html:562:
 
@@ -155,6 +235,10 @@ For the Links check, the following failures were found:
 * At _site/pt/licoes/qgis-camadas/index.html:610:
 
   http://www.gov.pe.ca/gis/download.php3?name=forest_35&file_format=SHP is not an HTTPS link
+
+* At _site/pt/licoes/som-dados-sonificacao-historiadores/index.html:1156:
+
+  'a' tag is missing a reference
 
 * At _site/pt/pesquisa/index.html:430:
 
@@ -169,14 +253,6 @@ For the Links > External check, the following failures were found:
 * At _site/en/feedback/index.html:254:
 
   External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
-
-* At _site/en/lessons/applied-archival-downloading-with-wget/index.html:680:
-
-  External link https://memory.loc.gov/cgi-bin/ampage?collId=mtj1&fileName=mtj1page001.db&recNum=1&itemLink=/ammem/collections/jefferson_papers/mtjser1.html&linkText=6 failed (status code 404)
-
-* At _site/en/lessons/beginners-guide-to-twitter-data/index.html:502:
-
-  External link https://developer.twitter.com/en/developer-terms/agreement-and-policy failed (status code 404)
 
 * At _site/en/lessons/common-similarity-measures/index.html:802:
 
@@ -198,33 +274,9 @@ For the Links > External check, the following failures were found:
 
   External link https://textcreationpartnership.org/tcp-texts/eebo-tcp-early-english-books-online/ failed (status code 404)
 
-* At _site/en/lessons/introduction-and-installation/index.html:557:
-
-  External link https://www.activestate.com/komodo-edit failed (status code 404)
-
-* At _site/en/lessons/introduction-and-installation/index.html:558:
-
-  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
-
-* At _site/en/lessons/linux-installation/index.html:668:
-
-  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
-
-* At _site/en/lessons/linux-installation/index.html:669:
-
-  External link https://www.activestate.com/products/komodo-edit/ failed (status code 404)
-
-* At _site/en/lessons/mac-installation/index.html:651:
-
-  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
-
 * At _site/en/lessons/mapping-with-python-leaflet/index.html:1185:
 
   External link https://leafletjs.com/SlavaUkraini/reference-1.2.0.html#geojson-oneachfeature failed (status code 404)
-
-* At _site/en/lessons/preserving-your-research-data/index.html:650:
-
-  External link https://komodoide.com/komodo-edit/ failed (status code 404)
 
 * At _site/en/lessons/retired/getting-started-with-github-desktop/index.html:495:
 
@@ -244,23 +296,15 @@ For the Links > External check, the following failures were found:
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:516:
 
-  External link https://docs.unity3d.com/Manual/LearningtheInterface.html failed (status code 404)
+  External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:516:
 
-  External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
+  External link https://docs.unity3d.com/Manual/LearningtheInterface.html failed (status code 404)
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:1335:
 
   External link https://docs.unity3d.com/Manual/Transforms.html failed (status code 404)
-
-* At _site/en/lessons/shiny-leaflet-newspaper-map-tutorial/index.html:576:
-
-  External link https://www.mappingthegayguides.org/map/ failed (status code 404)
-
-* At _site/en/lessons/sonification/index.html:1010:
-
-  External link https://devchat.cachefly.net/rubyrogues/RR215SonicPi.mp3?rss=true failed (status code 404)
 
 * At _site/en/lessons/text-mining-with-extracted-features/index.html:630:
 
@@ -269,54 +313,6 @@ For the Links > External check, the following failures were found:
 * At _site/en/lessons/transliterating/index.html:901:
 
   External link https://www.activestate.com/komodo-edit failed (status code 404)
-
-* At _site/en/lessons/windows-installation/index.html:750:
-
-  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
-
-* At _site/en/project-team/index.html:4171:
-
-  External link https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html failed: Not Found (status code 404)
-
-* At _site/en/research/index.html:371:
-
-  External link https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/ failed (status code 404)
-
-* At _site/es/equipo-de-proyecto/index.html:4169:
-
-  External link https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html failed: Not Found (status code 404)
-
-* At _site/es/guia-para-autores/index.html:499:
-
-  External link https://notepad-plus-plus.org/download failed (status code 404)
-
-* At _site/es/investigacion/index.html:370:
-
-  External link https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/ failed (status code 404)
-
-* At _site/es/lecciones/creacion-de-aplicacion-shiny/index.html:624:
-
-  External link https://www.mappingthegayguides.org/map/ failed (status code 404)
-
-* At _site/es/lecciones/instalacion-linux/index.html:569:
-
-  External link https://komodoide.com/komodo-edit/ failed (status code 404)
-
-* At _site/es/lecciones/instalacion-linux/index.html:569:
-
-  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
-
-* At _site/es/lecciones/introduccion-a-imageplot-y-la-visualizacion-de-metadatos/index.html:547:
-
-  External link https://edu.gcfglobal.org/es/conceptos-basicos-de-diseno-grafico/teoria-del-color/1/ failed (status code 404)
-
-* At _site/es/lecciones/introduccion-e-instalacion/index.html:557:
-
-  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
-
-* At _site/es/lecciones/introduccion-e-instalacion/index.html:557:
-
-  External link https://komodoide.com/komodo-edit/ failed (status code 404)
 
 * At _site/es/lecciones/mineria-de-datos-en-internet-archive/index.html:595:
 
@@ -329,10 +325,6 @@ For the Links > External check, the following failures were found:
 * At _site/es/lecciones/mineria-de-datos-en-internet-archive/index.html:698:
 
   External link https://internetarchive.readthedocs.io/en/latest/quickstart.html#downloading failed (status code 404)
-
-* At _site/es/lecciones/preservar-datos-de-investigacion/index.html:601:
-
-  External link https://komodoide.com/komodo-edit/ failed (status code 404)
 
 * At _site/es/lecciones/retirada/introduccion-control-versiones-github-desktop/index.html:537:
 
@@ -350,97 +342,13 @@ For the Links > External check, the following failures were found:
 
   External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
 
-* At _site/fr/equipe-projet/index.html:4173:
-
-  External link https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html failed: Not Found (status code 404)
-
 * At _site/fr/lecons/detecter-la-reutilisation-de-texte-avec-passim/index.html:1261:
 
   External link https://textcreationpartnership.org/tcp-texts/eebo-tcp-early-english-books-online/ failed (status code 404)
 
-* At _site/fr/lecons/installation-windows-py/index.html:556:
-
-  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
-
-* At _site/fr/lecons/installer-ide-python-linux/index.html:563:
-
-  External link https://www.activestate.com/products/komodo-edit/ failed (status code 404)
-
-* At _site/fr/lecons/installer-ide-python-linux/index.html:563:
-
-  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
-
-* At _site/fr/lecons/introduction-et-installation/index.html:567:
-
-  External link https://www.activestate.com/komodo-edit failed (status code 404)
-
-* At _site/fr/lecons/introduction-et-installation/index.html:568:
-
-  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
-
-* At _site/fr/lecons/preserver-ses-donnees-de-recherche/index.html:608:
-
-  External link https://www.activestate.com/products/komodo-edit/ failed (status code 404)
-
 * At _site/fr/reaction/index.html:256:
 
   External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
-
-* At _site/fr/recherche/index.html:372:
-
-  External link https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/ failed (status code 404)
-
-* At _site/pt/directrizes-autor/index.html:477:
-
-  External link https://notepad-plus-plus.org/download failed (status code 404)
-
-* At _site/pt/equipe/index.html:4173:
-
-  External link https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html failed: Not Found (status code 404)
-
-* At _site/pt/licoes/aplicacao-web-interativa-r-shiny-leaflet/index.html:625:
-
-  External link https://www.mappingthegayguides.org/map/ failed (status code 404)
-
-* At _site/pt/licoes/instalacao-linux/index.html:681:
-
-  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
-
-* At _site/pt/licoes/instalacao-linux/index.html:682:
-
-  External link https://www.activestate.com/products/komodo-ide/downloads/edit/ failed (status code 404)
-
-* At _site/pt/licoes/instalacao-mac/index.html:660:
-
-  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
-
-* At _site/pt/licoes/instalacao-mac/index.html:663:
-
-  External link https://www.activestate.com/products/komodo-ide/downloads/edit/ failed (status code 404)
-
-* At _site/pt/licoes/instalacao-windows/index.html:757:
-
-  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
-
-* At _site/pt/licoes/introducao-instalacao-python/index.html:575:
-
-  External link https://www.activestate.com/komodo-edit failed (status code 404)
-
-* At _site/pt/licoes/introducao-instalacao-python/index.html:576:
-
-  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
-
-* At _site/pt/licoes/preservar-os-seus-dados-de-investigacao/index.html:693:
-
-  External link https://komodoide.com/komodo-edit/ failed (status code 404)
-
-* At _site/pt/licoes/som-dados-sonificacao-historiadores/index.html:1058:
-
-  External link https://devchat.cachefly.net/rubyrogues/RR215SonicPi.mp3?rss=true failed (status code 404)
-
-* At _site/pt/pesquisa/index.html:366:
-
-  External link https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/ failed (status code 404)
 
 * At _site/pt/reportar-um-erro/index.html:256:
 
@@ -450,13 +358,17 @@ For the Links > Internal check, the following failures were found:
 
 * At _site/en/author-guidelines/index.html:258:
 
-  internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not
-
-* At _site/en/author-guidelines/index.html:258:
-
   internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not
 
 * At _site/en/author-guidelines/index.html:258:
+
+  internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
+
+* At _site/en/author-guidelines/index.html:258:
+
+  internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not
+
+* At _site/en/contribute/index.html:253:
 
   internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
 
@@ -467,10 +379,6 @@ For the Links > Internal check, the following failures were found:
 * At _site/en/contribute/index.html:253:
 
   internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not
-
-* At _site/en/contribute/index.html:253:
-
-  internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
 
 * At _site/en/contribute/index.html:272:
 
@@ -499,6 +407,10 @@ For the Links > Internal check, the following failures were found:
 * At _site/en/lessons/analyzing-multilingual-text-nltk-spacy-stanza/index.html:638:
 
   internally linking to #Developing-Python-Code-for-Multilingual-Text-Analysis; the file exists, but the hash 'Developing-Python-Code-for-Multilingual-Text-Analysis' does not
+
+* At _site/en/lessons/beginners-guide-to-twitter-data/index.html:502:
+
+  internally linking to /en/lessons/introduction-to-populating-a-website-with-api-data#what-is-application-programming-interface-api; the file exists, but the hash 'what-is-application-programming-interface-api' does not
 
 * At _site/en/lessons/beginners-guide-to-twitter-data/index.html:504:
 
@@ -700,11 +612,11 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to support-us#institutional-partner-programme, which does not exist
 
-* At _site/en/supporters/index.html:296:
+* At _site/en/supporters/index.html:295:
 
   internally linking to ipp, which does not exist
 
-* At _site/en/supporters/index.html:299:
+* At _site/en/supporters/index.html:298:
 
   internally linking to support-us#institutional-partner-programme, which does not exist
 
@@ -762,11 +674,11 @@ For the Links > Internal check, the following failures were found:
 
 * At _site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html:1074:
 
-  internally linking to /en/lessons/intro-to-bash.html, which does not exist
+  internally linking to /en/lessons/intro-to-beautiful-soup.html, which does not exist
 
 * At _site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html:1074:
 
-  internally linking to /en/lessons/intro-to-beautiful-soup.html, which does not exist
+  internally linking to /en/lessons/intro-to-bash.html, which does not exist
 
 * At _site/es/lecciones/sitios-estaticos-con-jekyll-y-github-pages/index.html:665:
 
@@ -800,11 +712,11 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to /en/lessons/creating-network-diagrams-from-historical-sources#developing-a-coding-scheme; the file exists, but the hash 'developing-a-coding-scheme' does not
 
-* At _site/fr/lecons/concevoir-base-donnees-nodegoat/index.html:901:
+* At _site/fr/lecons/concevoir-base-donnees-nodegoat/index.html:917:
 
   internally linking to #créer-et-paramétrer-une-base-dans-nodegoat; the file exists, but the hash 'créer-et-paramétrer-une-base-dans-nodegoat' does not
 
-* At _site/fr/lecons/concevoir-base-donnees-nodegoat/index.html:912:
+* At _site/fr/lecons/concevoir-base-donnees-nodegoat/index.html:928:
 
   internally linking to #la-logique-de-notre-recherche--entre-le-modèle-de-données-et-la-base-de-données; the file exists, but the hash 'la-logique-de-notre-recherche--entre-le-modèle-de-données-et-la-base-de-données' does not
 
@@ -904,6 +816,34 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to #comandos-basicos; the file exists, but the hash 'comandos-basicos' does not
 
+* At _site/pt/licoes/instalacao-linux/index.html:678:
+
+  internally linking to nocoes-basicas-paginas-web-html, which does not exist
+
+* At _site/pt/licoes/instalacao-mac/index.html:654:
+
+  internally linking to nocoes-basicas-paginas-web-html, which does not exist
+
+* At _site/pt/licoes/instalacao-windows/index.html:753:
+
+  internally linking to nocoes-basicas-paginas-web-html, which does not exist
+
+* At _site/pt/licoes/introducao-instalacao-python/index.html:565:
+
+  internally linking to nocoes-basicas-paginas-web-html, which does not exist
+
+* At _site/pt/licoes/introducao-instalacao-python/index.html:568:
+
+  internally linking to instalacao-mac, which does not exist
+
+* At _site/pt/licoes/introducao-instalacao-python/index.html:569:
+
+  internally linking to instalacao-windows, which does not exist
+
+* At _site/pt/licoes/introducao-instalacao-python/index.html:570:
+
+  internally linking to instalacao-linux, which does not exist
+
 * At _site/pt/licoes/introducao-jupyter-notebooks/index.html:559:
 
   internally linking to /pt/licoes/extrair-paginas-ilustradas-com-python#jupyter-notebooks; the file exists, but the hash 'jupyter-notebooks' does not
@@ -925,4 +865,4 @@ For the Links > Internal check, the following failures were found:
   internally linking to /pt/apoie-nos, which does not exist
 
 
-HTML-Proofer found 227 failures!
+HTML-Proofer found 212 failures!
