@@ -145,7 +145,7 @@ order, we suggest you next try '[Understanding Web Pages and HTML][].'
 - [Time Machine](https://support.apple.com/kb/ht1427)
 - [Python website](https://www.python.org/)
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
-- [other text editing options](https://wiki.python.org/moin/PythonEditors/)
+- [other text editing options](https://wiki.python.org/python/PythonEditors)
 - [BBEdit](https://www.barebones.com/products/bbedit/)
 - [Sublime Text website](https://www.sublimetext.com/download)
 - [Understanding Web Pages and HTML](/en/lessons/viewing-html-files)

@@ -77,7 +77,7 @@ Nós fornecemos instruções para o Mac, Windows e Linux. Uma vez que você tenh
 [Python Programming Language](https://www.python.org/)  
 [Beautiful Soup HTML/XML Parser](https://www.crummy.com/software/BeautifulSoup/)  
 [Komodo Edit](https://www.activestate.com/komodo-edit)  
-[Python Editors](https://wiki.python.org/moin/PythonEditors/)  
+[Python Editors](https://wiki.python.org/python/PythonEditors)  
 [Jungle Disk](https://www.jungledisk.com/)  
 [Dropbox](https://www.dropbox.com/home)  
 [Noções básicas de páginas web e HTML](/pt/licoes/nocoes-basicas-paginas-web-html)  

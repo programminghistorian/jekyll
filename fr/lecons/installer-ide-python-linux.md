@@ -128,6 +128,6 @@ print('hello world')
 
 Maintenant que tout est prêt, vous pouvez passer à des choses plus intéressantes. Si vous souhaitez suivre les leçons dans l'ordre, nous vous suggérons &laquo;&#x202F;[Comprendre les pages web et le HTML][]&#x202F;&raquo; pour continuer.
 
-  [de nombreux autres]: https://wiki.python.org/moin/PythonEditors/
+  [de nombreux autres]: https://wiki.python.org/python/PythonEditors
   [Komodo Edit Website]: https://www.activestate.com/products/komodo-edit/
   [Comprendre les pages web et le HTML]: /fr/lecons/comprendre-les-pages-web

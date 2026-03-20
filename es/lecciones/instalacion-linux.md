@@ -121,6 +121,6 @@ En la pantalla de tu computadora aparecerá de esta manera:
 Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos hacia unas tareas algo más interesantes. Si estás trabajando de manera ordenada las lecciones de Python, te sugerimos que pases ahora a la lección [Para entender páginas web y HTML].
 
 
-[opciones de editores de texto]: https://wiki.python.org/moin/PythonEditors/
+[opciones de editores de texto]: https://wiki.python.org/python/PythonEditors
 [sitio web de Komodo Edit]: https://komodoide.com/komodo-edit/
 [Para entender páginas web y HTML]: /es/lecciones/ver-archivos-html

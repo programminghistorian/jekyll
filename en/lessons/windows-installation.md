@@ -182,6 +182,6 @@ more interesting tasks. If you are working through the Python lessons in
 order, we suggest you next try ‘[Understanding Web Pages and HTML][]‘
 
 - [Python website](https://www.python.org/)
-- [other text editing options](https://wiki.python.org/moin/PythonEditors/)
+- [other text editing options](https://wiki.python.org/python/PythonEditors)
 - [UTF-8](https://en.wikipedia.org/wiki/UTF-8)
 - [Understanding Web Pages and HTML](/en/lessons/viewing-html-files)
