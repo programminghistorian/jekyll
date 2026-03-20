@@ -546,7 +546,7 @@ Para obtener una comprensión más profunda de ggplot2, se recomienda explorar l
 
 * El [guión de programación R de UC Business Analytics](https://perma.cc/KZT6-GW9C) (disponible en inglés). 
 
-* La página oficial de [extensiones de ggplot2](https://www.ggplot2-exts.org/) y [su galería](http://www.ggplot2-exts.org/gallery/) (disponible en inglés).
+* La página oficial de [extensiones de ggplot2](https://www.ggplot2-exts.org/) y [su galería](https://exts.ggplot2.tidyverse.org/gallery/) (disponible en inglés).
 
 * La [descripción general de R sobre extender ggplot2](https://perma.cc/465N-F9WU) (disponible en inglés).
 
