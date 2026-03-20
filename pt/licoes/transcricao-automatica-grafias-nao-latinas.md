@@ -78,7 +78,7 @@ No estado da arte existe uma grande variedade de arquiteturas e abordagens utili
 {% include figure.html filename="pt-tr-transcricao-automatica-grafias-nao-latinas-01.png" alt="Esquema das etapas clássicas para o treinamento de um modelo OCR (da anotação dos dados à aplicação do modelo)" caption="Figura 1: Detalhe das etapas clássicas para treinamento de um modelo OCR ou HTR." %}
 
 <div class="alert alert-info"> 
-Na prática, o reconhecimento de caracteres consiste apenas num problema simples de classificação em visão computacional. Qualquer que seja a etapa (deteção de conteúdos e reconhecimento do texto propriamente dito), os modelos terão de classificar as informações encontradas e reparti-las por classes conhecidas (por exemplo, considerar uma zona do texto como título ou uma outra forma de transcrever a letra A). Esta abordagem, completamente supervisionada, está muito dependente das escolhas e das necessidades identificadas, e que abordamos na secção <a href="#definicao-de-necessidades">Definição de necessidades</a>.
+Na prática, o reconhecimento de caracteres consiste apenas num problema simples de classificação em visão computacional. Qualquer que seja a etapa (deteção de conteúdos e reconhecimento do texto propriamente dito), os modelos terão de classificar as informações encontradas e reparti-las por classes conhecidas (por exemplo, considerar uma zona do texto como título ou uma outra forma de transcrever a letra A). Esta abordagem, completamente supervisionada, está muito dependente das escolhas e das necessidades identificadas, e que abordamos na secção <a href="#definição-de-necessidades">Definição de necessidades</a>.
 </div>
 
 ## O caso das línguas e grafias não latinas
