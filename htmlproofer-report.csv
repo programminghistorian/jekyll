@@ -38,8 +38,8 @@ _site/pt/licoes/qgis-camadas/index.html,610,http://www.gov.pe.ca/gis/download.ph
 _site/pt/pesquisa/index.html,430,http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/ is not an HTTPS link
 _site/pt/pesquisa/index.html,432,http://clionauta.hypotheses.org/16979 is not an HTTPS link
 _site/en/feedback/index.html,254,External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
-_site/en/lessons/analyzing-documents-with-tfidf/index.html,1642,External link https://dhdebates.gc.cuny.edu/debates/text/99 failed (status code 404)
 _site/en/lessons/applied-archival-downloading-with-wget/index.html,680,External link https://memory.loc.gov/cgi-bin/ampage?collId=mtj1&fileName=mtj1page001.db&recNum=1&itemLink=/ammem/collections/jefferson_papers/mtjser1.html&linkText=6 failed (status code 404)
+_site/en/lessons/beginners-guide-to-twitter-data/index.html,502,External link https://developer.twitter.com/en/developer-terms/agreement-and-policy failed (status code 404)
 _site/en/lessons/common-similarity-measures/index.html,802,External link https://pandas.pydata.org/docs/getting_started/dsintro.html#dataframe failed (status code 404)
 _site/en/lessons/crowdsourced-data-normalization-with-pandas/index.html,883,External link https://pandas-docs.github.io/pandas-docs-travis/user_guide/timeseries.html#timestamp-limitations failed (status code 404)
 _site/en/lessons/data-mining-the-internet-archive/index.html,1111,External link https://internetarchive.readthedocs.io/en/latest/quickstart.html#searching failed (status code 404)
@@ -60,7 +60,7 @@ _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html,516,Ex
 _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html,516,External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
 _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html,1335,External link https://docs.unity3d.com/Manual/Transforms.html failed (status code 404)
 _site/en/lessons/shiny-leaflet-newspaper-map-tutorial/index.html,576,External link https://www.mappingthegayguides.org/map/ failed (status code 404)
-_site/en/lessons/sonification/index.html,1018,External link https://devchat.cachefly.net/rubyrogues/RR215SonicPi.mp3?rss=true failed (status code 404)
+_site/en/lessons/sonification/index.html,1010,External link https://devchat.cachefly.net/rubyrogues/RR215SonicPi.mp3?rss=true failed (status code 404)
 _site/en/lessons/text-mining-with-extracted-features/index.html,630,External link https://pandas.pydata.org/pandas-docs/version/0.15.2/install.html#recommended-dependencies failed (status code 404)
 _site/en/lessons/transliterating/index.html,901,External link https://www.activestate.com/komodo-edit failed (status code 404)
 _site/en/lessons/windows-installation/index.html,750,External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
@@ -97,14 +97,22 @@ _site/pt/directrizes-autor/index.html,477,External link https://notepad-plus-plu
 _site/pt/equipe/index.html,4173,External link https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html failed: Not Found (status code 404)
 _site/pt/licoes/aplicacao-web-interativa-r-shiny-leaflet/index.html,625,External link https://www.mappingthegayguides.org/map/ failed (status code 404)
 _site/pt/licoes/instalacao-linux/index.html,681,External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
+_site/pt/licoes/instalacao-linux/index.html,682,External link https://www.activestate.com/products/komodo-ide/downloads/edit/ failed (status code 404)
 _site/pt/licoes/instalacao-mac/index.html,660,External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
+_site/pt/licoes/instalacao-mac/index.html,663,External link https://www.activestate.com/products/komodo-ide/downloads/edit/ failed (status code 404)
 _site/pt/licoes/instalacao-windows/index.html,757,External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
 _site/pt/licoes/introducao-instalacao-python/index.html,575,External link https://www.activestate.com/komodo-edit failed (status code 404)
 _site/pt/licoes/introducao-instalacao-python/index.html,576,External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
 _site/pt/licoes/preservar-os-seus-dados-de-investigacao/index.html,693,External link https://komodoide.com/komodo-edit/ failed (status code 404)
-_site/pt/licoes/som-dados-sonificacao-historiadores/index.html,1066,External link https://devchat.cachefly.net/rubyrogues/RR215SonicPi.mp3?rss=true failed (status code 404)
+_site/pt/licoes/som-dados-sonificacao-historiadores/index.html,1058,External link https://devchat.cachefly.net/rubyrogues/RR215SonicPi.mp3?rss=true failed (status code 404)
 _site/pt/pesquisa/index.html,366,External link https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/ failed (status code 404)
 _site/pt/reportar-um-erro/index.html,256,External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
+_site/en/author-guidelines/index.html,258,"internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not"
+_site/en/author-guidelines/index.html,258,"internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not"
+_site/en/author-guidelines/index.html,258,"internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not"
+_site/en/contribute/index.html,253,"internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not"
+_site/en/contribute/index.html,253,"internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not"
+_site/en/contribute/index.html,253,"internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not"
 _site/en/contribute/index.html,272,"internally linking to editor-guidelines, which does not exist"
 _site/en/editor-guidelines/index.html,345,"internally linking to #c-sustainability-review; the file exists, but the hash 'c-sustainability-review' does not"
 _site/en/individual/index.html,276,"internally linking to ipp, which does not exist"
@@ -131,6 +139,7 @@ _site/en/lessons/exploring-and-analyzing-network-data-with-python/index.html,586
 _site/en/lessons/extracting-illustrated-pages/index.html,709,"internally linking to /en/lessons/text-mining-with-extracted-features#start-a-notebook; the file exists, but the hash 'start-a-notebook' does not"
 _site/en/lessons/from-html-to-list-of-words-1/index.html,747,"internally linking to /en/lessons/manipulating-strings-in-python#code-syncing; the file exists, but the hash 'code-syncing' does not"
 _site/en/lessons/generating-an-ordered-data-set-from-an-OCR-text-file/index.html,766,"internally linking to #footnotes; the file exists, but the hash 'footnotes' does not"
+_site/en/lessons/googlemaps-googleearth/index.html,662,"internally linking to (/assets/googlemaps-googleearth/UK.Global.Fat.Supply.1894-1896.-.Sheet1.csv.zip), which does not exist"
 _site/en/lessons/image-classification-neural-networks/index.html,610,"internally linking to #understanding-artificial-neurons; the file exists, but the hash 'understanding-artificial-neurons' does not"
 _site/en/lessons/installing-omeka/index.html,469,"internally linking to up-and-running-with-omeka.html, which does not exist"
 _site/en/lessons/interactive-data-visualization-dashboard/index.html,651,"internally linking to /en/lessons/jupyter-notebooks#installing-jupyter-notebooks; the file exists, but the hash 'installing-jupyter-notebooks' does not"
@@ -176,8 +185,8 @@ _site/es/lecciones/introduccion-a-tei-2/index.html,2010,"internally linking to /
 _site/es/lecciones/lectura-escalable-de-datos-estructurados/index.html,681,"internally linking to #paso-3-selecion-sistematica-y-reproducible-de-datos-individuales-para-la-lectura-atenta; the file exists, but the hash 'paso-3-selecion-sistematica-y-reproducible-de-datos-individuales-para-la-lectura-atenta' does not"
 _site/es/lecciones/lectura-escalable-de-datos-estructurados/index.html,1073,"internally linking to #paso-3-selecion-sistematica-y-reproducible-de-datos-individuales-para-la-lectura-atenta; the file exists, but the hash 'paso-3-selecion-sistematica-y-reproducible-de-datos-individuales-para-la-lectura-atenta' does not"
 _site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html,541,"internally linking to /en/lessons/intro-to-the-zotero-api.html, which does not exist"
-_site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html,1074,"internally linking to /en/lessons/intro-to-beautiful-soup.html, which does not exist"
 _site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html,1074,"internally linking to /en/lessons/intro-to-bash.html, which does not exist"
+_site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html,1074,"internally linking to /en/lessons/intro-to-beautiful-soup.html, which does not exist"
 _site/es/lecciones/sitios-estaticos-con-jekyll-y-github-pages/index.html,665,"internally linking to sitios-dinámicos-sitios-estáticos-y-jekyll, which does not exist"
 _site/es/lecciones/topic-modeling-y-mallet/index.html,557,"internally linking to introduccion-a-bash, which does not exist"
 _site/es/lecciones/topic-modeling-y-mallet/index.html,857,"internally linking to introduccion-a-bash, which does not exist"
@@ -216,5 +225,4 @@ _site/pt/licoes/introducao-jupyter-notebooks/index.html,559,"internally linking 
 _site/pt/licoes/introducao-jupyter-notebooks/index.html,628,"internally linking to #Usando-Jupyter-Notebook-para-ensinar; the file exists, but the hash 'Usando-Jupyter-Notebook-para-ensinar' does not"
 _site/pt/licoes/introducao-mysql-r/index.html,1721,"internally linking to #Conectando-a-um-banco-de-dados-com-uma-senha; the file exists, but the hash 'Conectando-a-um-banco-de-dados-com-uma-senha' does not"
 _site/pt/licoes/sumarizacao-narrativas-web-python/index.html,537,"internally linking to /en/lessons/jupyter-notebooks#installing-jupyter-notebooks; the file exists, but the hash 'installing-jupyter-notebooks' does not"
-_site/pt/licoes/transcricao-automatica-grafias-nao-latinas/index.html,708,"internally linking to #definicao-de-necessidades; the file exists, but the hash 'definicao-de-necessidades' does not"
 _site/pt/sobre/index.html,276,"internally linking to /pt/apoie-nos, which does not exist"

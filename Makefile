@@ -3,7 +3,7 @@
 SITE_DIR := _site
 LOG_FILE := htmlproofer-output.txt
 
-all: build check
+all: clean build check
 
 build:
 	@echo "🔨 Building Jekyll site..."
@@ -18,7 +18,7 @@ check:
 	  --ignore-empty-alt \
 	  --only-4xx \
 	  --ignore-status-codes "429,403,400" \
-	  --ignore-urls "/github\.com\/programminghistorian/,/gutenberg\.org/,/espanol/,/deprecated/,/collection\.britishmuseum\.org/,/analytics\.hathitrust\.org/,/images\/intro-a-google-maps-y-google-earth\/geo-es\d+\.png/,/http:\/\/humanidadesdigitaleshispanicas\.es\//,/http:\/\/dhawards\.org\//,/es\/guia-para-autores#paso-1-proponer-una-nueva-lección/,/fr\/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon/,/pt\/directrizes-autor#etapa-1-propor-uma-nova-lição/" \
+	  --ignore-urls "/github\.com\/programminghistorian/,/gutenberg\.org/,/espanol/,/deprecated/,/collection\.britishmuseum\.org/,/analytics\.hathitrust\.org/,/http:\/\/humanidadesdigitaleshispanicas\.es\//,/http:\/\/dhawards\.org\//" \
 	  --ignore-files "/_site\/assets\//,/_site\/retired\//,/_site\/retirada\//,/_site\/retrait\//,/_site\/posts\//,/_site\/blog\//" \
 	  > $(LOG_FILE) 2>&1 \
 	|| echo "❌ HTMLProofer found issues. See $(LOG_FILE)"; \

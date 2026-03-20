@@ -2,8 +2,8 @@
 Running 3 checks (Images, Links, Scripts) in ["_site"] on *.html files ...
 
 
-Checking 5247 external links
-Checking 5226 internal links
+Checking 5245 external links
+Checking 5182 internal links
 Checking internal link hashes in 306 files
 Ran on 498 files!
 
@@ -170,10 +170,6 @@ For the Links > External check, the following failures were found:
 
   External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
 
-* At _site/en/lessons/analyzing-documents-with-tfidf/index.html:1642:
-
-  External link https://dhdebates.gc.cuny.edu/debates/text/99 failed (status code 404)
-
 * At _site/en/lessons/applied-archival-downloading-with-wget/index.html:680:
 
   External link https://memory.loc.gov/cgi-bin/ampage?collId=mtj1&fileName=mtj1page001.db&recNum=1&itemLink=/ammem/collections/jefferson_papers/mtjser1.html&linkText=6 failed (status code 404)
@@ -197,6 +193,10 @@ For the Links > External check, the following failures were found:
 * At _site/en/lessons/data-mining-the-internet-archive/index.html:1113:
 
   External link https://internetarchive.readthedocs.io/en/latest/quickstart.html#downloading failed (status code 404)
+
+* At _site/en/lessons/detecting-text-reuse-with-passim/index.html:1218:
+
+  External link https://textcreationpartnership.org/tcp-texts/eebo-tcp-early-english-books-online/ failed (status code 404)
 
 * At _site/en/lessons/introduction-and-installation/index.html:557:
 
@@ -246,6 +246,10 @@ For the Links > External check, the following failures were found:
 
   External link https://docs.unity3d.com/Manual/LearningtheInterface.html failed (status code 404)
 
+* At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:516:
+
+  External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
+
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:1335:
 
   External link https://docs.unity3d.com/Manual/Transforms.html failed (status code 404)
@@ -254,7 +258,7 @@ For the Links > External check, the following failures were found:
 
   External link https://www.mappingthegayguides.org/map/ failed (status code 404)
 
-* At _site/en/lessons/sonification/index.html:1018:
+* At _site/en/lessons/sonification/index.html:1010:
 
   External link https://devchat.cachefly.net/rubyrogues/RR215SonicPi.mp3?rss=true failed (status code 404)
 
@@ -350,6 +354,10 @@ For the Links > External check, the following failures were found:
 
   External link https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html failed: Not Found (status code 404)
 
+* At _site/fr/lecons/detecter-la-reutilisation-de-texte-avec-passim/index.html:1261:
+
+  External link https://textcreationpartnership.org/tcp-texts/eebo-tcp-early-english-books-online/ failed (status code 404)
+
 * At _site/fr/lecons/installation-windows-py/index.html:556:
 
   External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
@@ -426,7 +434,7 @@ For the Links > External check, the following failures were found:
 
   External link https://komodoide.com/komodo-edit/ failed (status code 404)
 
-* At _site/pt/licoes/som-dados-sonificacao-historiadores/index.html:1066:
+* At _site/pt/licoes/som-dados-sonificacao-historiadores/index.html:1058:
 
   External link https://devchat.cachefly.net/rubyrogues/RR215SonicPi.mp3?rss=true failed (status code 404)
 
@@ -439,6 +447,30 @@ For the Links > External check, the following failures were found:
   External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
 
 For the Links > Internal check, the following failures were found:
+
+* At _site/en/author-guidelines/index.html:258:
+
+  internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not
+
+* At _site/en/author-guidelines/index.html:258:
+
+  internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not
+
+* At _site/en/author-guidelines/index.html:258:
+
+  internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
+
+* At _site/en/contribute/index.html:253:
+
+  internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not
+
+* At _site/en/contribute/index.html:253:
+
+  internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not
+
+* At _site/en/contribute/index.html:253:
+
+  internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
 
 * At _site/en/contribute/index.html:272:
 
@@ -543,6 +575,10 @@ For the Links > Internal check, the following failures were found:
 * At _site/en/lessons/generating-an-ordered-data-set-from-an-OCR-text-file/index.html:766:
 
   internally linking to #footnotes; the file exists, but the hash 'footnotes' does not
+
+* At _site/en/lessons/googlemaps-googleearth/index.html:662:
+
+  internally linking to (/assets/googlemaps-googleearth/UK.Global.Fat.Supply.1894-1896.-.Sheet1.csv.zip), which does not exist
 
 * At _site/en/lessons/image-classification-neural-networks/index.html:610:
 
@@ -726,11 +762,11 @@ For the Links > Internal check, the following failures were found:
 
 * At _site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html:1074:
 
-  internally linking to /en/lessons/intro-to-beautiful-soup.html, which does not exist
+  internally linking to /en/lessons/intro-to-bash.html, which does not exist
 
 * At _site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html:1074:
 
-  internally linking to /en/lessons/intro-to-bash.html, which does not exist
+  internally linking to /en/lessons/intro-to-beautiful-soup.html, which does not exist
 
 * At _site/es/lecciones/sitios-estaticos-con-jekyll-y-github-pages/index.html:665:
 
@@ -884,13 +920,9 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to /en/lessons/jupyter-notebooks#installing-jupyter-notebooks; the file exists, but the hash 'installing-jupyter-notebooks' does not
 
-* At _site/pt/licoes/transcricao-automatica-grafias-nao-latinas/index.html:708:
-
-  internally linking to #definicao-de-necessidades; the file exists, but the hash 'definicao-de-necessidades' does not
-
 * At _site/pt/sobre/index.html:276:
 
   internally linking to /pt/apoie-nos, which does not exist
 
 
-HTML-Proofer found 219 failures!
+HTML-Proofer found 227 failures!
