@@ -8,9 +8,9 @@ skip_validation: true
 # Guía para traductores
 
 <img src="{{site.baseurl}}/images/website/woman-at-writing-desk.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
-<h2 class="noclear">Paso 1: <a href="#paso-1-proponer-una-nueva-traduccion">Proponer una nueva traducción </a></h2>
-<h2 class="noclear">Paso 2: <a href="#paso-2-escribir-y-dar-formato-a-una-nueva-traduccion">Escribir y dar formato a una nueva traducción</a></h2>
-<h2 class="noclear">Paso 3: <a href="#paso-3-enviar-una-nueva-traduccion">Enviar una nueva traducción</a></h2>
+<h2 class="noclear">Paso 1: <a href="#paso-1-proponer-una-nueva-traducción">Proponer una nueva traducción </a></h2>
+<h2 class="noclear">Paso 2: <a href="#paso-2-escribir-y-formatear-el-tutorial">Escribir y dar formato a una nueva traducción</a></h2>
+<h2 class="noclear">Paso 3: <a href="#paso-3-enviando-una-nueva-traducción">Enviar una nueva traducción</a></h2>
 
 
 Estas directrices han sido desarrolladas para ayudarte a entender el proceso de traducción de un tutorial para *Programming Historian* en Español. Incluyen detalles prácticos sobre el proceso de traducción de un tutorial, así como indicaciones sobre el flujo de trabajo y el proceso de revisión entre pares. Si en algún momento hay algo que no te queda claro, por favor envía un correo electrónico a {% include managing-editor.html lang=page.lang %}.
@@ -169,7 +169,7 @@ Esta última sección abarca cuestiones de formato para el envío de tu traducci
 ### Escribe en Markdown
 Todas las lecciones deben ser escritas en [Markdown](https://es.wikipedia.org/wiki/Markdown). Tu editor/a te indicará dónde puedes encontrar el archivo de la lección original para que trabajes sobre él.
 
-Markdown es un lenguaje de marcado que se crea mejor con un editor de texto. MS Word y Open Office NO son editores de texto y deben ser evitados. Recomendamos [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://en.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/),  [Notepad++](https://notepad-plus-plus.org/download) o [Sublime Text](https://www.sublimetext.com/).
+Markdown es un lenguaje de marcado que se crea mejor con un editor de texto. MS Word y Open Office NO son editores de texto y deben ser evitados. Recomendamos [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://en.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/),  [Notepad++](https://notepad-plus-plus.org/) o [Sublime Text](https://www.sublimetext.com/).
 Para una introducción sencilla a Markdown puedes ver la lección [Introducción a Markdown]({{site.baseurl}}/es/lecciones/introduccion-a-markdown) o la referencia concisa [GitHub Guide to Markdown](https://help.github.com/es/github/writing-on-github/basic-writing-and-formatting-syntax).
 
 Tu lección debe ser guardada en formato .md. El nombre del archivo de tu lección se convierte en parte de la URL de la lección, por lo tanto, debe ser nombrado de acuerdo a las siguientes reglas:

@@ -36,11 +36,11 @@ The model we will build together is relatively basic, featuring only simple inte
 
 The model we build here will not be sufficiently complex to give genuinely valuable perspectives on this case study on its own, but it will highlight some key properties of ABMs, and various ways to implement them. Crucially, by the end of this lesson, you will be able to extend the model further with more complex functionalities.
 
-In the [first part](#Part-1:-Introduction-to-Simulations-and-Agent-based-Modeling), you will learn what historical simulation methods are all about, their methodological and epistemological quirks, and how to start applying Agent-Based Modeling to your own research.
+In the [first part](#part-1-introduction-to-simulations-and-agent-based-modeling), you will learn what historical simulation methods are all about, their methodological and epistemological quirks, and how to start applying Agent-Based Modeling to your own research.
 
-In the [second part](#Part-2:-Programming-Agent-based-Models-with-Mesa), you will follow a step-by-step guide to building your first Agent-Based Model, using the Python package mesa. This will be accompanied by further comments and reflections on the methodology of Agent-Based Modeling.
+In the [second part](#part-2-programming-agent-based-models-with-mesa), you will follow a step-by-step guide to building your first Agent-Based Model, using the Python package mesa. This will be accompanied by further comments and reflections on the methodology of Agent-Based Modeling.
 
-In the [third part](#Part-3:-A-Summary,-Open-Questions-and-Next-Steps), you will explore ways to extend the model and further enhance your expertise in building Agent-Based Models.
+In the [third part](#part-3-summary-open-questions-and-next-steps), you will explore ways to extend the model and further enhance your expertise in building Agent-Based Models.
 
 
 ## Lesson Goals
@@ -573,7 +573,7 @@ Since one of the main goals of Agent-Based Modeling is generating data for analy
 
 When the data collector’s `collect` method is called with a model object as its argument, it applies each model-level collection function to the model, and stores the results in a dictionary, linking the value to the current step of the model. If the input model is an agent, the method also links the resulting value to the agent’s `unique_id`.
 
-Let's add a data collector to the model with [`mesa.DataCollector`](https://github.com/projectmesa/mesa/blob/2.4.x-maintenance/mesa/datacollection.py), and collect two variables at the agent level: the number of letters every agent has sent at every step, and the number of letters it has received.
+Let's add a data collector to the model with [`mesa.DataCollector`](https://github.com/projectmesa/mesa/blob/main/mesa/datacollection.py), and collect two variables at the agent level: the number of letters every agent has sent at every step, and the number of letters it has received.
 
 ```python
 self.datacollector = mesa.DataCollector(

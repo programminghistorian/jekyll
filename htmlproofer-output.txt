@@ -2,8 +2,8 @@
 Running 3 checks (Images, Links, Scripts) in ["_site"] on *.html files ...
 
 
-Checking 5251 external links
-Checking 5272 internal links
+Checking 5247 external links
+Checking 5226 internal links
 Checking internal link hashes in 306 files
 Ran on 498 files!
 
@@ -48,22 +48,6 @@ For the Images check, the following failures were found:
 
 For the Links check, the following failures were found:
 
-* At _site/en/about/index.html:264:
-
-  http://dhawards.org/dhawards2016/results/ is not an HTTPS link
-
-* At _site/en/about/index.html:264:
-
-  http://dhawards.org/dhawards2017/results/ is not an HTTPS link
-
-* At _site/en/about/index.html:264:
-
-  http://humanidadesdigitaleshispanicas.es/ is not an HTTPS link
-
-* At _site/en/about/index.html:264:
-
-  http://dhawards.org/dhawards2022/results/ is not an HTTPS link
-
 * At _site/en/editor-guidelines/index.html:587:
 
   http://www.loc.gov/maps/collections is not an HTTPS link
@@ -104,22 +88,6 @@ For the Links check, the following failures were found:
 
   http://clionauta.hypotheses.org/16979 is not an HTTPS link
 
-* At _site/es/acerca-de/index.html:269:
-
-  http://dhawards.org/dhawards2016/results/ is not an HTTPS link
-
-* At _site/es/acerca-de/index.html:269:
-
-  http://dhawards.org/dhawards2017/results/ is not an HTTPS link
-
-* At _site/es/acerca-de/index.html:269:
-
-  http://humanidadesdigitaleshispanicas.es/ is not an HTTPS link
-
-* At _site/es/acerca-de/index.html:269:
-
-  http://dhawards.org/dhawards2022/results/ is not an HTTPS link
-
 * At _site/es/guia-editor/index.html:621:
 
   http://www.loc.gov/maps/collections is not an HTTPS link
@@ -147,22 +115,6 @@ For the Links check, the following failures were found:
 * At _site/es/lecciones/reutilizando-colecciones-digitales-glam-labs/index.html:515:
 
   http://rua.ua.es/dspace/handle/10045/110281 is not an HTTPS link
-
-* At _site/fr/apropos/index.html:266:
-
-  http://dhawards.org/dhawards2016/results/ is not an HTTPS link
-
-* At _site/fr/apropos/index.html:266:
-
-  http://dhawards.org/dhawards2017/results/ is not an HTTPS link
-
-* At _site/fr/apropos/index.html:266:
-
-  http://humanidadesdigitaleshispanicas.es/ is not an HTTPS link
-
-* At _site/fr/apropos/index.html:266:
-
-  http://dhawards.org/dhawards2022/results/ is not an HTTPS link
 
 * At _site/fr/lecons/compter-exploiter-donnees-unix/index.html:559:
 
@@ -212,31 +164,23 @@ For the Links check, the following failures were found:
 
   http://clionauta.hypotheses.org/16979 is not an HTTPS link
 
-* At _site/pt/sobre/index.html:266:
-
-  http://dhawards.org/dhawards2016/results/ is not an HTTPS link
-
-* At _site/pt/sobre/index.html:266:
-
-  http://humanidadesdigitaleshispanicas.es/ is not an HTTPS link
-
-* At _site/pt/sobre/index.html:266:
-
-  http://dhawards.org/dhawards2022/results/ is not an HTTPS link
-
 For the Links > External check, the following failures were found:
-
-* At _site/en/author-guidelines/index.html:498:
-
-  External link https://notepad-plus-plus.org/download failed (status code 404)
 
 * At _site/en/feedback/index.html:254:
 
   External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
 
+* At _site/en/lessons/analyzing-documents-with-tfidf/index.html:1642:
+
+  External link https://dhdebates.gc.cuny.edu/debates/text/99 failed (status code 404)
+
 * At _site/en/lessons/applied-archival-downloading-with-wget/index.html:680:
 
   External link https://memory.loc.gov/cgi-bin/ampage?collId=mtj1&fileName=mtj1page001.db&recNum=1&itemLink=/ammem/collections/jefferson_papers/mtjser1.html&linkText=6 failed (status code 404)
+
+* At _site/en/lessons/beginners-guide-to-twitter-data/index.html:502:
+
+  External link https://developer.twitter.com/en/developer-terms/agreement-and-policy failed (status code 404)
 
 * At _site/en/lessons/common-similarity-measures/index.html:802:
 
@@ -254,9 +198,33 @@ For the Links > External check, the following failures were found:
 
   External link https://internetarchive.readthedocs.io/en/latest/quickstart.html#downloading failed (status code 404)
 
+* At _site/en/lessons/introduction-and-installation/index.html:557:
+
+  External link https://www.activestate.com/komodo-edit failed (status code 404)
+
+* At _site/en/lessons/introduction-and-installation/index.html:558:
+
+  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
+
+* At _site/en/lessons/linux-installation/index.html:668:
+
+  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
+
+* At _site/en/lessons/linux-installation/index.html:669:
+
+  External link https://www.activestate.com/products/komodo-edit/ failed (status code 404)
+
+* At _site/en/lessons/mac-installation/index.html:651:
+
+  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
+
 * At _site/en/lessons/mapping-with-python-leaflet/index.html:1185:
 
   External link https://leafletjs.com/SlavaUkraini/reference-1.2.0.html#geojson-oneachfeature failed (status code 404)
+
+* At _site/en/lessons/preserving-your-research-data/index.html:650:
+
+  External link https://komodoide.com/komodo-edit/ failed (status code 404)
 
 * At _site/en/lessons/retired/getting-started-with-github-desktop/index.html:495:
 
@@ -276,31 +244,75 @@ For the Links > External check, the following failures were found:
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:516:
 
-  External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
-
-* At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:516:
-
   External link https://docs.unity3d.com/Manual/LearningtheInterface.html failed (status code 404)
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:1335:
 
   External link https://docs.unity3d.com/Manual/Transforms.html failed (status code 404)
 
-* At _site/en/research/index.html:381:
+* At _site/en/lessons/shiny-leaflet-newspaper-map-tutorial/index.html:576:
 
-  External link https://www.jisc.ac.uk/events/digifest-2023/programme failed (status code 404)
+  External link https://www.mappingthegayguides.org/map/ failed (status code 404)
+
+* At _site/en/lessons/sonification/index.html:1018:
+
+  External link https://devchat.cachefly.net/rubyrogues/RR215SonicPi.mp3?rss=true failed (status code 404)
+
+* At _site/en/lessons/text-mining-with-extracted-features/index.html:630:
+
+  External link https://pandas.pydata.org/pandas-docs/version/0.15.2/install.html#recommended-dependencies failed (status code 404)
+
+* At _site/en/lessons/transliterating/index.html:901:
+
+  External link https://www.activestate.com/komodo-edit failed (status code 404)
+
+* At _site/en/lessons/windows-installation/index.html:750:
+
+  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
+
+* At _site/en/project-team/index.html:4171:
+
+  External link https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html failed: Not Found (status code 404)
+
+* At _site/en/research/index.html:371:
+
+  External link https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/ failed (status code 404)
+
+* At _site/es/equipo-de-proyecto/index.html:4169:
+
+  External link https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html failed: Not Found (status code 404)
 
 * At _site/es/guia-para-autores/index.html:499:
 
   External link https://notepad-plus-plus.org/download failed (status code 404)
 
-* At _site/es/guia-para-traductores/index.html:452:
+* At _site/es/investigacion/index.html:370:
 
-  External link https://notepad-plus-plus.org/download failed (status code 404)
+  External link https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/ failed (status code 404)
 
-* At _site/es/investigacion/index.html:380:
+* At _site/es/lecciones/creacion-de-aplicacion-shiny/index.html:624:
 
-  External link https://www.jisc.ac.uk/events/digifest-2023/programme failed (status code 404)
+  External link https://www.mappingthegayguides.org/map/ failed (status code 404)
+
+* At _site/es/lecciones/instalacion-linux/index.html:569:
+
+  External link https://komodoide.com/komodo-edit/ failed (status code 404)
+
+* At _site/es/lecciones/instalacion-linux/index.html:569:
+
+  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
+
+* At _site/es/lecciones/introduccion-a-imageplot-y-la-visualizacion-de-metadatos/index.html:547:
+
+  External link https://edu.gcfglobal.org/es/conceptos-basicos-de-diseno-grafico/teoria-del-color/1/ failed (status code 404)
+
+* At _site/es/lecciones/introduccion-e-instalacion/index.html:557:
+
+  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
+
+* At _site/es/lecciones/introduccion-e-instalacion/index.html:557:
+
+  External link https://komodoide.com/komodo-edit/ failed (status code 404)
 
 * At _site/es/lecciones/mineria-de-datos-en-internet-archive/index.html:595:
 
@@ -313,6 +325,10 @@ For the Links > External check, the following failures were found:
 * At _site/es/lecciones/mineria-de-datos-en-internet-archive/index.html:698:
 
   External link https://internetarchive.readthedocs.io/en/latest/quickstart.html#downloading failed (status code 404)
+
+* At _site/es/lecciones/preservar-datos-de-investigacion/index.html:601:
+
+  External link https://komodoide.com/komodo-edit/ failed (status code 404)
 
 * At _site/es/lecciones/retirada/introduccion-control-versiones-github-desktop/index.html:537:
 
@@ -330,55 +346,99 @@ For the Links > External check, the following failures were found:
 
   External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
 
+* At _site/fr/equipe-projet/index.html:4173:
+
+  External link https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html failed: Not Found (status code 404)
+
+* At _site/fr/lecons/installation-windows-py/index.html:556:
+
+  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
+
+* At _site/fr/lecons/installer-ide-python-linux/index.html:563:
+
+  External link https://www.activestate.com/products/komodo-edit/ failed (status code 404)
+
+* At _site/fr/lecons/installer-ide-python-linux/index.html:563:
+
+  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
+
+* At _site/fr/lecons/introduction-et-installation/index.html:567:
+
+  External link https://www.activestate.com/komodo-edit failed (status code 404)
+
+* At _site/fr/lecons/introduction-et-installation/index.html:568:
+
+  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
+
+* At _site/fr/lecons/preserver-ses-donnees-de-recherche/index.html:608:
+
+  External link https://www.activestate.com/products/komodo-edit/ failed (status code 404)
+
 * At _site/fr/reaction/index.html:256:
 
   External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
 
-* At _site/fr/recherche/index.html:382:
+* At _site/fr/recherche/index.html:372:
 
-  External link https://www.jisc.ac.uk/events/digifest-2023/programme failed (status code 404)
+  External link https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/ failed (status code 404)
 
 * At _site/pt/directrizes-autor/index.html:477:
 
   External link https://notepad-plus-plus.org/download failed (status code 404)
 
-* At _site/pt/licoes/investigar-literatura-lusofona-literateca/index.html:1051:
+* At _site/pt/equipe/index.html:4173:
 
-  External link https://doi.org/10.11606/issn.2317-9511.v37p622-643 failed: Not Found (status code 404)
+  External link https://perso.ens-lyon.fr/matthias.gille-levenson/accueil.html failed: Not Found (status code 404)
 
-* At _site/pt/pesquisa/index.html:376:
+* At _site/pt/licoes/aplicacao-web-interativa-r-shiny-leaflet/index.html:625:
 
-  External link https://www.jisc.ac.uk/events/digifest-2023/programme failed (status code 404)
+  External link https://www.mappingthegayguides.org/map/ failed (status code 404)
+
+* At _site/pt/licoes/instalacao-linux/index.html:681:
+
+  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
+
+* At _site/pt/licoes/instalacao-linux/index.html:682:
+
+  External link https://www.activestate.com/products/komodo-ide/downloads/edit/ failed (status code 404)
+
+* At _site/pt/licoes/instalacao-mac/index.html:660:
+
+  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
+
+* At _site/pt/licoes/instalacao-mac/index.html:663:
+
+  External link https://www.activestate.com/products/komodo-ide/downloads/edit/ failed (status code 404)
+
+* At _site/pt/licoes/instalacao-windows/index.html:757:
+
+  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
+
+* At _site/pt/licoes/introducao-instalacao-python/index.html:575:
+
+  External link https://www.activestate.com/komodo-edit failed (status code 404)
+
+* At _site/pt/licoes/introducao-instalacao-python/index.html:576:
+
+  External link https://wiki.python.org/moin/PythonEditors/ failed (status code 404)
+
+* At _site/pt/licoes/preservar-os-seus-dados-de-investigacao/index.html:693:
+
+  External link https://komodoide.com/komodo-edit/ failed (status code 404)
+
+* At _site/pt/licoes/som-dados-sonificacao-historiadores/index.html:1066:
+
+  External link https://devchat.cachefly.net/rubyrogues/RR215SonicPi.mp3?rss=true failed (status code 404)
+
+* At _site/pt/pesquisa/index.html:366:
+
+  External link https://operas-eu.org/news-and-events/calendar-2/operas-conference-2024/ failed (status code 404)
 
 * At _site/pt/reportar-um-erro/index.html:256:
 
   External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
 
 For the Links > Internal check, the following failures were found:
-
-* At _site/en/author-guidelines/index.html:258:
-
-  internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not
-
-* At _site/en/author-guidelines/index.html:258:
-
-  internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not
-
-* At _site/en/author-guidelines/index.html:258:
-
-  internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
-
-* At _site/en/contribute/index.html:253:
-
-  internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not
-
-* At _site/en/contribute/index.html:253:
-
-  internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not
-
-* At _site/en/contribute/index.html:253:
-
-  internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not
 
 * At _site/en/contribute/index.html:272:
 
@@ -588,73 +648,9 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to #Final-code; the file exists, but the hash 'Final-code' does not
 
-* At _site/en/lessons/simulating-historical-communication-networks-python/index.html:521:
-
-  internally linking to #Part-1:-Introduction-to-Simulations-and-Agent-based-Modeling; the file exists, but the hash 'Part-1:-Introduction-to-Simulations-and-Agent-based-Modeling' does not
-
-* At _site/en/lessons/simulating-historical-communication-networks-python/index.html:523:
-
-  internally linking to #Part-2:-Programming-Agent-based-Models-with-Mesa; the file exists, but the hash 'Part-2:-Programming-Agent-based-Models-with-Mesa' does not
-
-* At _site/en/lessons/simulating-historical-communication-networks-python/index.html:525:
-
-  internally linking to #Part-3:-A-Summary,-Open-Questions-and-Next-Steps; the file exists, but the hash 'Part-3:-A-Summary,-Open-Questions-and-Next-Steps' does not
-
 * At _site/en/lessons/simulating-historical-communication-networks-python/index.html:1096:
 
   internally linking to /en/lessons/common-similarity-measures#city-block-manhattan-distance; the file exists, but the hash 'city-block-manhattan-distance' does not
-
-* At _site/en/lessons/sonification/index.html:517:
-
-  internally linking to #Drucker; the file exists, but the hash 'Drucker' does not
-
-* At _site/en/lessons/sonification/index.html:548:
-
-  internally linking to #Last; the file exists, but the hash 'Last' does not
-
-* At _site/en/lessons/sonification/index.html:548:
-
-  internally linking to #Hermann; the file exists, but the hash 'Hermann' does not
-
-* At _site/en/lessons/sonification/index.html:550:
-
-  internally linking to #pitch; the file exists, but the hash 'pitch' does not
-
-* At _site/en/lessons/sonification/index.html:553:
-
-  internally linking to #mp3; the file exists, but the hash 'mp3' does not
-
-* At _site/en/lessons/sonification/index.html:553:
-
-  internally linking to #midi; the file exists, but the hash 'midi' does not
-
-* At _site/en/lessons/sonification/index.html:559:
-
-  internally linking to #Koebler; the file exists, but the hash 'Koebler' does not
-
-* At _site/en/lessons/sonification/index.html:559:
-
-  internally linking to #Baio; the file exists, but the hash 'Baio' does not
-
-* At _site/en/lessons/sonification/index.html:563:
-
-  internally linking to #hedges; the file exists, but the hash 'hedges' does not
-
-* At _site/en/lessons/sonification/index.html:625:
-
-  internally linking to #duration; the file exists, but the hash 'duration' does not
-
-* At _site/en/lessons/sonification/index.html:625:
-
-  internally linking to #pitch mapping; the file exists, but the hash 'pitch mapping' does not
-
-* At _site/en/lessons/sonification/index.html:826:
-
-  internally linking to #attack; the file exists, but the hash 'attack' does not
-
-* At _site/en/lessons/sonification/index.html:1032:
-
-  internally linking to #amplitude; the file exists, but the hash 'amplitude' does not
 
 * At _site/en/lessons/urban-demographic-data-r-ggplot2/index.html:645:
 
@@ -688,25 +684,9 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to #submitting-a-new-lesson; the file exists, but the hash 'submitting-a-new-lesson' does not
 
-* At _site/es/acerca-de/index.html:278:
-
-  internally linking to /es/apoyanos, which does not exist
-
 * At _site/es/guia-editor/index.html:353:
 
   internally linking to #c-revisar-la-sostenibilidad; the file exists, but the hash 'c-revisar-la-sostenibilidad' does not
-
-* At _site/es/guia-para-traductores/index.html:251:
-
-  internally linking to #paso-1-proponer-una-nueva-traduccion; the file exists, but the hash 'paso-1-proponer-una-nueva-traduccion' does not
-
-* At _site/es/guia-para-traductores/index.html:252:
-
-  internally linking to #paso-2-escribir-y-dar-formato-a-una-nueva-traduccion; the file exists, but the hash 'paso-2-escribir-y-dar-formato-a-una-nueva-traduccion' does not
-
-* At _site/es/guia-para-traductores/index.html:253:
-
-  internally linking to #paso-3-enviar-una-nueva-traduccion; the file exists, but the hash 'paso-3-enviar-una-nueva-traduccion' does not
 
 * At _site/es/lecciones/construir-repositorio-de-fuentes/index.html:555:
 
@@ -719,166 +699,6 @@ For the Links > Internal check, the following failures were found:
 * At _site/es/lecciones/construir-repositorio-de-fuentes/index.html:645:
 
   internally linking to /en/lessons/installing-omeka#step-4-configure-omeka-to-use-your-database; the file exists, but the hash 'step-4-configure-omeka-to-use-your-database' does not
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1686:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es1.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1687:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es2.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1688:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es3.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1689:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es4.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1690:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es5.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1691:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es6.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1693:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es7.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1694:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es8.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1695:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es9.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1696:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es10.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1697:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es11.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1698:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es12.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1700:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es13.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1701:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es14.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1702:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es15.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1703:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es16.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1704:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es17.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1705:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es18.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1706:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es19.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1707:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es20.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1708:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es21.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1709:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es22.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1710:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es23.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1711:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es24.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1713:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es25.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1714:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es26.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1716:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es27.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1717:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es28.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1720:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es29.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1721:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es30.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1722:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es31.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1723:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es32.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1724:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es33.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1725:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es34.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1726:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es35.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1728:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es36.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1729:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es37.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1730:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es38.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1731:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es39.png, which does not exist
-
-* At _site/es/lecciones/intro-a-google-maps-y-google-earth/index.html:1732:
-
-  internally linking to /images/intro-a-google-maps-y-google-earth/geo-es40.png, which does not exist
 
 * At _site/es/lecciones/introduccion-a-powershell/index.html:559:
 
@@ -906,11 +726,11 @@ For the Links > Internal check, the following failures were found:
 
 * At _site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html:1074:
 
-  internally linking to /en/lessons/intro-to-bash.html, which does not exist
+  internally linking to /en/lessons/intro-to-beautiful-soup.html, which does not exist
 
 * At _site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html:1074:
 
-  internally linking to /en/lessons/intro-to-beautiful-soup.html, which does not exist
+  internally linking to /en/lessons/intro-to-bash.html, which does not exist
 
 * At _site/es/lecciones/sitios-estaticos-con-jekyll-y-github-pages/index.html:665:
 
@@ -939,10 +759,6 @@ For the Links > Internal check, the following failures were found:
 * At _site/es/politica-retirada-lecciones/index.html:287:
 
   internally linking to /es/guia-editor#c-revisar-la-sostenibilidad; the file exists, but the hash 'c-revisar-la-sostenibilidad' does not
-
-* At _site/fr/apropos/index.html:275:
-
-  internally linking to /fr/nous-soutenir, which does not exist
 
 * At _site/fr/lecons/analyse-reseau-python/index.html:612:
 
@@ -1064,30 +880,6 @@ For the Links > Internal check, the following failures were found:
 
   internally linking to #Conectando-a-um-banco-de-dados-com-uma-senha; the file exists, but the hash 'Conectando-a-um-banco-de-dados-com-uma-senha' does not
 
-* At _site/pt/licoes/som-dados-sonificacao-historiadores/index.html:560:
-
-  internally linking to #Drucker; the file exists, but the hash 'Drucker' does not
-
-* At _site/pt/licoes/som-dados-sonificacao-historiadores/index.html:593:
-
-  internally linking to #tom; the file exists, but the hash 'tom' does not
-
-* At _site/pt/licoes/som-dados-sonificacao-historiadores/index.html:596:
-
-  internally linking to #midi; the file exists, but the hash 'midi' does not
-
-* At _site/pt/licoes/som-dados-sonificacao-historiadores/index.html:596:
-
-  internally linking to #mp3; the file exists, but the hash 'mp3' does not
-
-* At _site/pt/licoes/som-dados-sonificacao-historiadores/index.html:602:
-
-  internally linking to #Koebler; the file exists, but the hash 'Koebler' does not
-
-* At _site/pt/licoes/som-dados-sonificacao-historiadores/index.html:1080:
-
-  internally linking to #amplitude; the file exists, but the hash 'amplitude' does not
-
 * At _site/pt/licoes/sumarizacao-narrativas-web-python/index.html:537:
 
   internally linking to /en/lessons/jupyter-notebooks#installing-jupyter-notebooks; the file exists, but the hash 'installing-jupyter-notebooks' does not
@@ -1101,4 +893,4 @@ For the Links > Internal check, the following failures were found:
   internally linking to /pt/apoie-nos, which does not exist
 
 
-HTML-Proofer found 271 failures!
+HTML-Proofer found 219 failures!

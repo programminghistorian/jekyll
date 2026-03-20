@@ -109,7 +109,7 @@ The key field for us is ‘areaPitch1,’ which contains the space-delimited inp
 
 {% include figure.html filename="sonification-musicalgorithms-pitch-mapping-2.png" caption="After you load your data, you can select the different operations across the top menu bar of the site. In the screenshot, the information mouseover is explaining what happens to the scaling of your data if you select the division operation to scale your data to the range of notes selected." %}
 
-Now, as you page across the various tabs in the interface (‘[duration](#duration) input’, ‘[pitch mapping](#pitch mapping)’, ‘duration mapping’, ‘scale options’) you can effect various transformations. In ‘pitch mapping’, there are a number of mathematical options for mapping the data against the full 88 keys/pitches of a piano keyboard (in a linear mapping, the _mean_ of one’s data would be mapped to middle C, or 40). One can also choose the kind of scale, whether it is a minor or major and so on. At this point, once you've selected your various transformations, you should save the text file. On the file tab, ‘play’, one can download a midi file. Your default audio program can play midi files (often defaulting to a piano tone). More complicated instrumentation can be assigned by opening the midi file in music mixing programs such as GarageBand (Mac) or [LMMS](https://lmms.io/) (Windows, Mac, Linux). (Using Garageband or LMMS are outside the scope of this tutorial. A video tutorial on LMMS is available [here](https://youtu.be/4dYxV3tqTUc), while Garageband tutorials proliferate online. Lynda.com has [an excellent one](https://www.lynda.com/GarageBand-tutorials/Importing-audio-tracks/156620/164050-4.html))
+Now, as you page across the various tabs in the interface (‘[duration](#duration) input’, ‘[pitch mapping](#pitch-mapping)’, ‘duration mapping’, ‘scale options’) you can effect various transformations. In ‘pitch mapping’, there are a number of mathematical options for mapping the data against the full 88 keys/pitches of a piano keyboard (in a linear mapping, the _mean_ of one’s data would be mapped to middle C, or 40). One can also choose the kind of scale, whether it is a minor or major and so on. At this point, once you've selected your various transformations, you should save the text file. On the file tab, ‘play’, one can download a midi file. Your default audio program can play midi files (often defaulting to a piano tone). More complicated instrumentation can be assigned by opening the midi file in music mixing programs such as GarageBand (Mac) or [LMMS](https://lmms.io/) (Windows, Mac, Linux). (Using Garageband or LMMS are outside the scope of this tutorial. A video tutorial on LMMS is available [here](https://youtu.be/4dYxV3tqTUc), while Garageband tutorials proliferate online. Lynda.com has [an excellent one](https://www.lynda.com/GarageBand-tutorials/Importing-audio-tracks/156620/164050-4.html))
 
 If you had several columns of data for the same points - say, in our example from Roman Britain, we also wanted to sonify counts of a pottery type for those same towns - you can reload your next data series, effect the transformations and mappings, and generate another MIDI file. Since Garageband and LMMS allow for overlaying of voices, you can begin to build up complicated sequences of music.
 
@@ -450,23 +450,56 @@ Sonifying our data forces us to confront the ways our data are often not so much
 
 ## Terms
 
-+ **MIDI**, musical instrument digital interface. It is a description of a note's value and timing, not of its dynamics or how one might play it (this is an important distinction). It allows computers and instruments to talk to each other; one can apply different instrumentation to a MIDI file much the same way one would change the font on a piece of text (or run a markdown file through Pandoc).
-+ **MP3**, a compression format for sound that is _lossy_ in that it strips out data as part of its compression routine.
-+ **Pitch**, the actual note itself (middle C, etc)
-+ **Attack**, how the note is played or hit
-+ **Duration**, how long the note lasts (whole notes, quarter notes, eighth notes etc)
-+ **Pitch Mapping & Duration Mapping**, scaling data values against a range of notes or the length of the note
-+ **Amplitude**, roughly, the loudness of the note
+### MIDI {#midi}
 
-# References
+Musical instrument digital interface. It is a description of a note's value and timing, not of its dynamics or how one might play it (this is an important distinction). It allows computers and instruments to talk to each other; one can apply different instrumentation to a MIDI file much the same way one would change the font on a piece of text (or run a markdown file through Pandoc).
+
+### MP3 {#mp3}
+
+A compression format for sound that is _lossy_ in that it strips out data as part of its compression routine.
+
+### Pitch {#pitch}
+
+The actual note itself (middle C, etc)
+
+### Attack {#attack}
+
+How the note is played or hit
+
+### Duration {#duration}
+
+How long the note lasts (whole notes, quarter notes, eighth notes etc)
+
+### Pitch Mapping {#pitch-mapping}
+
+Scaling data values against a range of notes or the length of the note
+
+### Amplitude {#amplitude}
+
+Roughly, the loudness of the note
+
+## References
+
+### Baio {#Baio}
+
 Baio, Andy. 2015. 'If Drake Was Born A Piano'. Waxy. [https://waxy.org/2015/12/if_drake_was_born_a_piano/](https://waxy.org/2015/12/if_drake_was_born_a_piano/)
+
+### Drucker {#Drucker}
 
 Drucker, Johanna. 2011. Humanities Approaches to Graphical Display. DHQ 5.1 [https://web.archive.org/web/20190203083307/https://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html](https://web.archive.org/web/20190203083307/https://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html)
 
+### Hedges {#hedges}
+
 Hedges, Stephen A. 1978. “Dice Music in the Eighteenth Century”. Music & Letters 59 (2). Oxford University Press: 180–87. [https://www.jstor.org/stable/734136](https://www.jstor.org/stable/734136).
 
-Hermann, T. 2008. "Taxonomy and definitions for sonification and auditory display". In P. Susini and O. Warusfel (eds.) Proceedings of the 14th international conference on auditory display (ICAD 2008). IRCAM, Paris. [https://www.icad.org/Proceedings/2008/Hermann2008.pdf](https://www.icad.org/Proceedings/2008/Hermann2008.pdf)
+### Hermann {#Hermann}
 
-Koebler, Jason. 2015. "The Strange Acoustic Phenomenon Behind These Wacked-Out Versions of Pop Songs" Motherboard, Dec 18. [https://web.archive.org/web/20161023223029/https://motherboard.vice.com/read/the-strange-acoustic-phenomenon-behind-these-wacked-out-versions-of-pop-songs](https://web.archive.org/web/20161023223029/https://motherboard.vice.com/read/the-strange-acoustic-phenomenon-behind-these-wacked-out-versions-of-pop-songs)
+Hermann, T. 2008. “Taxonomy and definitions for sonification and auditory display”. In P. Susini and O. Warusfel (eds.) Proceedings of the 14th international conference on auditory display (ICAD 2008). IRCAM, Paris. [https://www.icad.org/Proceedings/2008/Hermann2008.pdf](https://www.icad.org/Proceedings/2008/Hermann2008.pdf)
 
-Last and Usyskin, 2015. "Listen to the Sound of Data". In Aaron K. Baughman et al. (eds.) Multimedia Data Mining and Analytics. Springer: Heidelberg. Pp. 419-446 [https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data](https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data)
+### Koebler {#Koebler}
+
+Koebler, Jason. 2015. “The Strange Acoustic Phenomenon Behind These Wacked-Out Versions of Pop Songs” Motherboard, Dec 18. [https://web.archive.org/web/20161023223029/https://motherboard.vice.com/read/the-strange-acoustic-phenomenon-behind-these-wacked-out-versions-of-pop-songs](https://web.archive.org/web/20161023223029/https://motherboard.vice.com/read/the-strange-acoustic-phenomenon-behind-these-wacked-out-versions-of-pop-songs)
+
+### Last {#Last}
+
+Last and Usyskin, 2015. “Listen to the Sound of Data”. In Aaron K. Baughman et al. (eds.) Multimedia Data Mining and Analytics. Springer: Heidelberg. Pp. 419-446 [https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data](https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data)

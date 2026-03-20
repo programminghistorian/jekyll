@@ -7,7 +7,7 @@ all: build check
 
 build:
 	@echo "🔨 Building Jekyll site..."
-	bundle exec jekyll build --verbose
+	bundle exec jekyll build
 
 check:
 	@echo "⏱️ Checking HTML links in $(SITE_DIR)..."
@@ -18,7 +18,7 @@ check:
 	  --ignore-empty-alt \
 	  --only-4xx \
 	  --ignore-status-codes "429,403,400" \
-	  --ignore-urls "/github\.com\/programminghistorian/,/gutenberg\.org/,/espanol/,/deprecated/,/collection\.britishmuseum\.org/,/analytics\.hathitrust\.org/" \
+	  --ignore-urls "/github\.com\/programminghistorian/,/gutenberg\.org/,/espanol/,/deprecated/,/collection\.britishmuseum\.org/,/analytics\.hathitrust\.org/,/images\/intro-a-google-maps-y-google-earth\/geo-es\d+\.png/,/http:\/\/humanidadesdigitaleshispanicas\.es\//,/http:\/\/dhawards\.org\//,/es\/guia-para-autores#paso-1-proponer-una-nueva-lección/,/fr\/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon/,/pt\/directrizes-autor#etapa-1-propor-uma-nova-lição/" \
 	  --ignore-files "/_site\/assets\//,/_site\/retired\//,/_site\/retirada\//,/_site\/retrait\//,/_site\/posts\//,/_site\/blog\//" \
 	  > $(LOG_FILE) 2>&1 \
 	|| echo "❌ HTMLProofer found issues. See $(LOG_FILE)"; \

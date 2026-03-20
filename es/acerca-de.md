@@ -36,7 +36,7 @@ En The _Programming Historian_ estamos comprometidos con la diversidad y defende
 ## Financiamiento y propiedad
 _Programming Historian_ es un proyecto internacional impulsado por un equipo voluntario. Sus actividades financieras son administradas por ProgHist Ltd, una organización benéfica registrada en Inglaterra y Gales ([1195875](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5181272/charity-overview)) y constituida en esos mismos países como una compañía limitada por garantía ([12192946](https://beta.companieshouse.gov.uk/company/12192946)). El proyecto es publicado por el consejo editorial de *Programming Historian*. 
 
-Para ver un listado de patrocinadores y ayudas, visita nuestra página '[Apóyanos](/es/apoyanos)'.
+Para ver un listado de patrocinadores y ayudas, visita nuestra página '[Apóyanos](/es/donaciones/)'.
 
 ## Historia del proyecto
 

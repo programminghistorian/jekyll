@@ -208,7 +208,7 @@ All lessons must be written in [Markdown](https://en.wikipedia.org/wiki/Markdown
 
 * [Download the English Language Lesson template (.md)]({{site.baseurl}}/en/lesson-template.md).
 
-Markdown is a mark-up language that is best created with a text editor. MS Word and Open Office are NOT text editors and should be avoided. We recommend [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://en.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/) or [Notepad++](https://notepad-plus-plus.org/download).
+Markdown is a mark-up language that is best created with a text editor. MS Word and Open Office are NOT text editors and should be avoided. We recommend [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://en.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/) or [Notepad++](https://notepad-plus-plus.org/).
 For a gentle introduction to Markdown formatting see [Getting Started with Markdown]({{site.baseurl}}/en/lessons/getting-started-with-markdown), or the concise reference [GitHub Guide to Markdown](https://guides.github.com/features/mastering-markdown/).
 
 Your lesson should be saved in .md format. Your lesson filename becomes part of the lesson URL. Therefore, it should be named according to the following rules:

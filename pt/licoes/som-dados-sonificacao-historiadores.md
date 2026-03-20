@@ -465,23 +465,56 @@ Sonificar os nossos dados nos faz confrontar os modos como os nossos dados são,
 
 ## Termos
 
-+ **MIDI**, interface digital de instrumento musical. É uma descrição do valor e do tempo de uma nota, não de sua dinâmica ou de como alguém pode tocá-la (esta é uma distinção importante). Ele permite que computadores e instrumentos conversem entre si; pode-se aplicar instrumentação diferente a um ficheiro MIDI da mesma forma que se mudaria a fonte em um pedaço de texto (ou executar um ficheiro Markdown por meio do Pandoc).
-+ **MP3**, formato de compressão que remove dados como parte de sua rotina de compactação.
-+ **Tom**, a  nota em si (C médio, etc)
-+ **Ataque**, como a nota é tocada ou atingida
-+ **Duração**, quanto tempo a nota dura (notas inteiras, semínimas, colcheias etc)
-+ **Mapeamento do Tom e Mapeamento da Duração**, dimensionamento de valores de dados em relação a um intervalo de notas ou a duração da nota
-+ **Amplitude**, em resumo, o volume da nota
+### MIDI {#midi}
 
-# Referências
-Baio, Andy. 2015. 'If Drake Was Born A Piano'. Waxy. [https://waxy.org/2015/12/if_drake_was_born_a_piano/](https://waxy.org/2015/12/if_drake_was_born_a_piano/)
+Interface digital de instrumento musical. É uma descrição do valor e do tempo de uma nota, não de sua dinâmica ou de como alguém pode tocá-la (esta é uma distinção importante). Ele permite que computadores e instrumentos conversem entre si; pode-se aplicar instrumentação diferente a um ficheiro MIDI da mesma forma que se mudaria a fonte em um pedaço de texto (ou executar um ficheiro Markdown por meio do Pandoc).
+
+### MP3 {#mp3}
+
+Formato de compressão que remove dados como parte de sua rotina de compactação.
+
+### Tom {#tom}
+
+A nota em si (C médio, etc)
+
+### Ataque {#ataque}
+
+Como a nota é tocada ou atingida
+
+### Duração {#duracao}
+
+Quanto tempo a nota dura (notas inteiras, semínimas, colcheias etc)
+
+### Mapeamento do Tom {#mapeamento-tom}
+
+Dimensionamento de valores de dados em relação a um intervalo de notas ou a duração da nota
+
+### Amplitude {#amplitude}
+
+Em resumo, o volume da nota
+
+## Referências
+
+### Drucker {#Drucker}
 
 Drucker, Johanna. 2011. Humanities Approaches to Graphical Display. DHQ 5.1 [https://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html](https://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html)
 
+### Koebler {#Koebler}
+
+Koebler, Jason. 2015. “The Strange Acoustic Phenomenon Behind These Wacked-Out Versions of Pop Songs” Motherboard, Dec 18. [https://motherboard.vice.com/read/the-strange-acoustic-phenomenon-behind-these-wacked-out-versions-of-pop-songs](https://motherboard.vice.com/read/the-strange-acoustic-phenomenon-behind-these-wacked-out-versions-of-pop-songs)
+
+### Baio {#Baio}
+
+Baio, Andy. 2015. 'If Drake Was Born A Piano'. Waxy. [https://waxy.org/2015/12/if_drake_was_born_a_piano/](https://waxy.org/2015/12/if_drake_was_born_a_piano/)
+
+### Hedges {#hedges}
+
 Hedges, Stephen A. 1978. “Dice Music in the Eighteenth Century”. Music & Letters 59 (2). Oxford University Press: 180–87. [https://www.jstor.org/stable/734136](https://www.jstor.org/stable/734136).
 
-Hermann, T. 2008. "Taxonomy and definitions for sonification and auditory display". In P. Susini and O. Warusfel (eds.) Proceedings of the 14th international conference on auditory display (ICAD 2008). IRCAM, Paris. [https://www.icad.org/Proceedings/2008/Hermann2008.pdf](https://www.icad.org/Proceedings/2008/Hermann2008.pdf)
+### Hermann {#Hermann}
 
-Koebler, Jason. 2015. "The Strange Acoustic Phenomenon Behind These Wacked-Out Versions of Pop Songs" Motherboard, Dec 18. [https://motherboard.vice.com/read/the-strange-acoustic-phenomenon-behind-these-wacked-out-versions-of-pop-songs](https://motherboard.vice.com/read/the-strange-acoustic-phenomenon-behind-these-wacked-out-versions-of-pop-songs)
+Hermann, T. 2008. “Taxonomy and definitions for sonification and auditory display”. In P. Susini and O. Warusfel (eds.) Proceedings of the 14th international conference on auditory display (ICAD 2008). IRCAM, Paris. [https://www.icad.org/Proceedings/2008/Hermann2008.pdf](https://www.icad.org/Proceedings/2008/Hermann2008.pdf)
 
-Last and Usyskin, 2015. "Listen to the Sound of Data". In Aaron K. Baughman et al. (eds.) Multimedia Data Mining and Analytics. Springer: Heidelberg. Pp. 419-446 [https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data](https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data)
+### Last {#Last}
+
+Last and Usyskin, 2015. “Listen to the Sound of Data”. In Aaron K. Baughman et al. (eds.) Multimedia Data Mining and Analytics. Springer: Heidelberg. Pp. 419-446 [https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data](https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data)

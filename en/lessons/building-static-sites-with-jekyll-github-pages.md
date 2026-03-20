@@ -384,7 +384,7 @@ You'll notice that generating and running your site in the previous section adde
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-17.png" caption="The author's customized local website" %}
 
-### Where (and what) is everything?
+### Where (and what) is everything? {#where-and-what-is-everything}
 
 To get a sense of how your site works and what files you'd experiment with to do more advanced things, here are some notes on what each folder or file in your current website folder does. Remember to always open and edit any files with a text editor (e.g. TextWrangler) and not a word processor (e.g. not Microsoft Word or anything that lets you add formatting like italic and bold); this prevents invisible formatting characters from being saved in the file and messing up the website. If you just want to start adding content to your site and make it public, you can [skip to the next section](#writing-pages-and-posts).
 
@@ -402,7 +402,7 @@ To get a sense of how your site works and what files you'd experiment with to do
 - **feed.xml** lets people follow the RSS feed of your blog posts
 - **index.html** controls the structuring of content on your site's homepage
 
-## Writing pages and posts
+## Writing pages and posts {#writing-pages-and-posts}
 
 *This section will describe how to create pages and blog posts on your website.*
 
@@ -471,7 +471,7 @@ Notice that **the URL of the post** is your local website URL (e.g. *localhost:4
 
 For reference, you can check out [an example of a post](https://amandavisconti.github.io/JekyllDemo/2016/11/12/a-post-about-my-research.html) on my demo site, or see [the code running that post](https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/_posts/2016-02-29-a-post-about-my-research.markdown).
 
-## Hosting on GitHub Pages
+## Hosting on GitHub Pages {#hosting-on-github-pages}
 
 *You now know how to add text pages and posts to your website. In this section. we'll move your local site live so that others can visit it on the Web.* **At this point, we are making a version of your website publicly viewable** *(e.g. to search engines and to anyone who knows of or happens on the link).*
 

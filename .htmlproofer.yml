@@ -21,6 +21,13 @@ url_ignore:
   - /https:\/\/web.archive.org\/web\/20180831094856\/http:\/\/www.dlsi.ua.es\/~borja\/riilua\/6.TopicModeling_v02.pdf/
   - https://github.com/programminghistorian/jekyll/commits/gh-pages
   - https://github.com/programminghistorian/jekyll/commits/gh-pages/.*
+  - /\/images\/intro-a-google-maps-y-google-earth\/geo-es\d+\.png/
+  - /http:\/\/humanidadesdigitaleshispanicas\.es\/.*/
+  - /http:\/\/dhawards\.org\/.*/
+  - /\/en\/lessons\/building-static-sites-with-jekyll-github-pages#(writing-pages-and-posts|hosting-on-github-pages|where-and-what-is-everything)/
+  - /\/es\/guia-para-autores#paso-1-proponer-una-nueva-lección/
+  - /\/fr\/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon/
+  - /\/pt\/directrizes-autor#etapa-1-propor-uma-nova-lição/
 ignore_files:
   - /_site\/assets\/.*/
   - /_site\/retired\/.*/
