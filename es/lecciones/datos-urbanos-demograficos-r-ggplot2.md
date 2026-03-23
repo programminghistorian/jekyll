@@ -5,7 +5,7 @@ original: urban-demographic-data-r-ggplot2
 layout: lesson
 collection: lessons
 date: 2025-03-27
-translation_date: 2026-03-25
+translation_date: 2026-03-24
 authors:
 - Igor Sosa Mayor
 - Nabeel Siddiqui
@@ -91,13 +91,13 @@ En el lenguaje de los gráficos, toda la composición de las representaciones gr
 
 1. Datos: el material a analizar en la visualización.
 2. [Estética](https://perma.cc/LZ4S-5YA6): las formas en que las propiedades visuales se mapean sobre los supuestos 'geoms' (ver Objetos geométricos a continuación). En la mayoría de los casos, esto determina cómo deseas mostrar tus datos (posición, color, forma, relleno, tamaño).
-3. [Escala (disponible en inglés)](https://perma.cc/KVN7-M2LQ): el mapeo y la normalización de los datos para la visualización.
+3. [Escala (en inglés)](https://perma.cc/KVN7-M2LQ): el mapeo y la normalización de los datos para la visualización.
 4. [Objetos geométricos](https://perma.cc/SML7-YVDC) (o 'geoms' en el lenguaje de ggplot2): cómo quieres representar tus datos. En la mayoría de los casos, esto determina el tipo de gráfico que usas, como un gráfico de barras, un gráfico de línea o un histograma.
-5. [Estadística (disponible en inglés)](https://perma.cc/J4HW-MXLK): los cálculos que se pueden realizar sobre tus datos antes de visualizarlos.
+5. [Estadística (en inglés)](https://perma.cc/J4HW-MXLK): los cálculos que se pueden realizar sobre tus datos antes de visualizarlos.
 6. [Facetas](https://perma.cc/9UH3-KU67): la capacidad de categorizar y dividir los datos en múltiples subgráficos.
-7. [Sistemas de coordenadas (disponible en inglés)](https://perma.cc/H335-PJMH): cómo ggplot2 coloca diferentes geoms (geometrías) en el gráfico. La coordenada más común es el [sistema de coordenadas cartesianas](https://perma.cc/X284-2R4E), pero ggplot2 también puede representar [coordenadas polares](https://es.wikipedia.org/wiki/Coordenadas_polares) y [proyecciones estereográficas](https://perma.cc/YVM9-7GWV).
+7. [Sistemas de coordenadas (en inglés)](https://perma.cc/H335-PJMH): cómo ggplot2 coloca diferentes geoms (geometrías) en el gráfico. La coordenada más común es el [sistema de coordenadas cartesianas](https://perma.cc/X284-2R4E), pero ggplot2 también puede representar [coordenadas polares](https://es.wikipedia.org/wiki/Coordenadas_polares) y [proyecciones estereográficas](https://perma.cc/YVM9-7GWV).
 
-Para comenzar a utilizar ggplot2, es necesario instalar y cargarlo. Recomendamos instalar [tidyverse (disponible en inglés)](https://www.tidyverse.org), una colección de paquetes R, entre ellos ggplot2, que trabajan juntos para proporcionar un flujo de trabajo coherente y eficiente a la hora de manipular, explorar y visualizar datos. En el corazón de la filosofía de tidyverse se encuentra el concepto de ['datos ordenados' (disponible en inglés)](https://perma.cc/XGM5-7SYY), un enfoque estándar que estructura  los datos para facilitar el trabajo con ellos. En este tipo de datos, cada variable es una columna, cada observación es una fila y cada tipo de unidad de observación es una tabla. Esta estructura permite un enfoque coherente y predecible al trabajar con datos a lo largo de diferentes paquetes y funciones dentro de la colección tidyverse. Para obtener más detalles, consulta el libro [_R para Ciencia de Datos_](https://perma.cc/EYR4-UP3L) escrito por Hadley Wickham et al.[^2]
+Para comenzar a utilizar ggplot2, es necesario instalar y cargarlo. Recomendamos instalar [tidyverse (en inglés)](https://www.tidyverse.org), una colección de paquetes R, entre ellos ggplot2, que trabajan juntos para proporcionar un flujo de trabajo coherente y eficiente a la hora de manipular, explorar y visualizar datos. En el corazón de la filosofía de tidyverse se encuentra el concepto de ['datos ordenados' (en inglés)](https://perma.cc/XGM5-7SYY), un enfoque estándar que estructura  los datos para facilitar el trabajo con ellos. En este tipo de datos, cada variable es una columna, cada observación es una fila y cada tipo de unidad de observación es una tabla. Esta estructura permite un enfoque coherente y predecible al trabajar con datos a lo largo de diferentes paquetes y funciones dentro de la colección tidyverse. Para obtener más detalles, consulta el libro [_R para Ciencia de Datos_](https://perma.cc/EYR4-UP3L) escrito por Hadley Wickham et al.[^2]
 
 ```
 install.packages("tidyverse")
@@ -108,7 +108,7 @@ library(tidyverse)
 
 Antes de importar datos, es importante comprender cómo deben estar formateados. Las aplicaciones de hoja de cálculo comunes, como Microsoft Excel o Apple Numbers, guardan los datos en un formato propietario. Aunque existen paquetes que pueden leer datos de Excel, como [readxl](https://perma.cc/24X5-FHYJ), se recomienda utilizar formatos abiertos en su lugar, como `.csv` (valores separados por comas) o `.tsv` (valores separados por tabuladores), ya que son compatibles con una amplia gama de herramientas de software y es más probable que puedan leerse también en el futuro con cualquier programa.
 
-R tiene funciones internas para leer estos archivos, pero usaremos la biblioteca [readr](https://perma.cc/8YV6-P59U) del ecosistema tidyverse, que puede leer la mayoría de los formatos comunes. Para nuestro análisis, leeremos un archivo `.csv`. Vamos a [descargar el conjunto de datos](/assets/datos-urbanos-demograficos-r-ggplot2/ciudadeshermanadas.csv) y a colocarlo en el directorio de trabajo actual del proyecto. A continuación, puedes usar [`read_csv()` (disponible en inglés)](https://perma.cc/ED9L-9V98) con la ruta del archivo. (Si no instalaste tidyverse anteriormente, necesitarás cargar manualmente la biblioteca `readr` primero.)
+R tiene funciones internas para leer estos archivos, pero usaremos la biblioteca [readr](https://perma.cc/8YV6-P59U) del ecosistema tidyverse, que puede leer la mayoría de los formatos comunes. Para nuestro análisis, leeremos un archivo `.csv`. Vamos a [descargar el conjunto de datos](/assets/datos-urbanos-demograficos-r-ggplot2/ciudadeshermanadas.csv) y a colocarlo en el directorio de trabajo actual del proyecto. A continuación, puedes usar [`read_csv()` (en inglés)](https://perma.cc/ED9L-9V98) con la ruta del archivo. (Si no instalaste tidyverse anteriormente, necesitarás cargar manualmente la biblioteca `readr` primero.)
 
 ```
 eudata<-read_csv("ciudadeshermanadas.csv")
@@ -120,7 +120,7 @@ Ahora, podemos mostrar los datos como un tibble (13,081 x 15):
 eudata
 ```
 
-`tidyverse` convierte nuestros datos en un 'tibble' más que un 'data frame'. Los tibbles forman parte del universo tidyverse y ofrecen la misma funcionalidad que los llamados dataframes, pero toman decisiones sobre cómo importar y mostrar los datos en R. R es un lenguaje de programación relativamente antiguo y, como resultado, las preferencias que se tomaron durante la implementación original son distintas a las preferencias actuales. Los tibbles, al contrario que los dataframes, no cambian los nombres de las variables, no convierten el tipo de entrada ni crean nombres de filas. Puedes [aprender más sobre tibbles aquí (disponible en inglés)](https://perma.cc/4BJY-8M8U). Si esto no tiene sentido, no te preocupes. En la mayoría de los casos, podemos tratar los tibbles como dataframes y convertir un formato a otro con facilidad. Para convertir tu dataframe a un tibble, utiliza la función `as_tibble()` con el nombre del dataframe como parámetro. De manera similar, para convertirlo de vuelta a un dataframe, utiliza la función `as.data.frame()`.
+`tidyverse` convierte nuestros datos en un 'tibble' más que un 'data frame'. Los tibbles forman parte del universo tidyverse y ofrecen la misma funcionalidad que los llamados dataframes, pero toman decisiones sobre cómo importar y mostrar los datos en R. R es un lenguaje de programación relativamente antiguo y, como resultado, las preferencias que se tomaron durante la implementación original son distintas a las preferencias actuales. Los tibbles, al contrario que los dataframes, no cambian los nombres de las variables, no convierten el tipo de entrada ni crean nombres de filas. Puedes [aprender más sobre tibbles aquí (en inglés)](https://perma.cc/4BJY-8M8U). Si esto no tiene sentido, no te preocupes. En la mayoría de los casos, podemos tratar los tibbles como dataframes y convertir un formato a otro con facilidad. Para convertir tu dataframe a un tibble, utiliza la función `as_tibble()` con el nombre del dataframe como parámetro. De manera similar, para convertirlo de vuelta a un dataframe, utiliza la función `as.data.frame()`.
 
 Empezaremos explorando los datos para las ciudades en seis países de la Unión Europea: Alemania, Francia, Portugal, Polonia, Hungría y Bulgaria (tres países de Europa occidental y tres de Europa oriental). La tabla que has visto anteriormente, llamada `eudata`, contiene esta información en 14 variables y 13,081 filas. Con la función `glimpse()` podemos echarle un vistazo a la estructura de nuestro tibble: 
 
@@ -172,7 +172,7 @@ El primer parámetro de la función `ggplot()` son los datos (tibble o dataframe
 
 La capa `geom()` le dice a ggplot2 qué tipo de gráfico deseas producir. Para crear un gráfico de barras, necesitas la capa `geom_bar()`, que se agrega utilizando el comando `+`, como se muestra en el código anterior.
 
-Entender la sintaxis de `ggplot()` puede ser confuso al principio pero una vez que adquiera sentido, podrás apreciar la potencia del marco estándar que subyace a ggplot2 (la gramática de gráficos). Una forma de pensar en esta gramática es comparar la creación de gráficos con la construcción de una oración. En este ejemplo, le dijiste a R: 'Crea un gráfico de ggplot utilizando los datos en `eudata`, mapea el campo `tipopais` a x y agrega una capa llamada `geom_bar()`'. Esta estructura es relativamente sencilla. [`aes()` (disponible en inglés)](https://perma.cc/AH27-4YE9) no es tan fácil de explicar, pero su funcion es bastante clara: indica a R que mapee ciertos campos de los datos a las propiedades visuales (estéticas) de los `geoms` (geometrías) en el gráfico. No te preocupes si no lo entiendes completamente. Volveremos a profundizar más adelante.
+Entender la sintaxis de `ggplot()` puede ser confuso al principio pero una vez que adquiera sentido, podrás apreciar la potencia del marco estándar que subyace a ggplot2 (la gramática de gráficos). Una forma de pensar en esta gramática es comparar la creación de gráficos con la construcción de una oración. En este ejemplo, le dijiste a R: 'Crea un gráfico de ggplot utilizando los datos en `eudata`, mapea el campo `tipopais` a x y agrega una capa llamada `geom_bar()`'. Esta estructura es relativamente sencilla. [`aes()` (en inglés)](https://perma.cc/AH27-4YE9) no es tan fácil de explicar, pero su funcion es bastante clara: indica a R que mapee ciertos campos de los datos a las propiedades visuales (estéticas) de los `geoms` (geometrías) en el gráfico. No te preocupes si no lo entiendes completamente. Volveremos a profundizar más adelante.
 
 ¡Ahora tienes tu primer gráfico. Podrás notar que ggplot2 ha realizado algunas decisiones por su cuenta: el color de fondo, el tamaño de la fuente de las etiquetas, etc. Las configuraciones predeterminadas suelen ser suficientes, aunque puedes personalizarlas si lo prefieres.
 
@@ -222,11 +222,11 @@ Mientras que estas primeras observaciones proporcionan un punto de partida para 
 ## Otros geoms: histogramas, gráficos de dispersión y gráficos de caja
 
 Hasta ahora hemos presentado los elementos clave de la sintaxis para operar con ggplot2: crear capas y agregar parámetros. Una de las capas más importantes es la capa `geoms` (geometrías). Su uso es bastante directo, ya que cada tipo de gráfico tiene su `geom` asociado: 
-- `geom_histogram()` para gráficos de [histograma (disponible en inglés)](https://perma.cc/64E8-GDFB)
-- `geom_boxplot()` para [gráficos de caja (disponible en inglés)](https://perma.cc/SE8K-5GPD)
-- `geom_violin()` para [gráficos de violin (disponible en inglés)](https://perma.cc/9PLE-352E)
-- `geom_dotplot()` para [gráficos de puntos (disponible en inglés)](https://perma.cc/Y96C-HSYH)
-- `geom_point()` para [gráficos de dispersión (disponible en inglés)](https://perma.cc/4WMT-JNNJ)
+- `geom_histogram()` para gráficos de [histograma (en inglés)](https://perma.cc/64E8-GDFB)
+- `geom_boxplot()` para [gráficos de caja (en inglés)](https://perma.cc/SE8K-5GPD)
+- `geom_violin()` para [gráficos de violin (en inglés)](https://perma.cc/9PLE-352E)
+- `geom_dotplot()` para [gráficos de puntos (en inglés)](https://perma.cc/Y96C-HSYH)
+- `geom_point()` para [gráficos de dispersión (en inglés)](https://perma.cc/4WMT-JNNJ)
 
 Se pueden configurar fácilmente aspectos de cada uno de estos `geoms` (geometrías), como su tamaño y color. 
 
@@ -241,7 +241,7 @@ ggplot(eudata.filtered, aes(x=dist)) +
 
 {% include figure.html filename="es-tr-datos-urbanos-demograficos-r-ggplot2-04.png" alt="Histograma que muestra las distancias (en logaritmo natural) entre las ciudades hermanadas." caption="Figura 4. Histograma que muestra las distancias (en logaritmo natural) entre las ciudades hermanadas." %}
 
-Como muestra el código anterior, solo es necesario agregar `geom_histogram()` para crear un histograma. Crear un  histograma efectivo implica un poco más de trabajo. Es importante, por ejemplo, determinar el tamaño de la `celda` que da sentido a los datos. El tamaño de esa celda, también conocido como 'intervalo' o 'ancho de banda', se refiere al ancho de cada barra y determina cómo se agrupan y se muestran los datos a lo largo del eje x. En el gráfico representado en la Figura 4, ggplot2 utilizó un valor predeterminado de 30 (`bins=30`), pero se muestra un mensaje de advertencia que recomienda elegir un mejor valor. Puedes explorar más posibilidades de configuración en la [documentación de `geom_histogram()` (disponible en inglés)](https://perma.cc/G29K-53LK).
+Como muestra el código anterior, solo es necesario agregar `geom_histogram()` para crear un histograma. Crear un  histograma efectivo implica un poco más de trabajo. Es importante, por ejemplo, determinar el tamaño de la `celda` que da sentido a los datos. El tamaño de esa celda, también conocido como 'intervalo' o 'ancho de banda', se refiere al ancho de cada barra y determina cómo se agrupan y se muestran los datos a lo largo del eje x. En el gráfico representado en la Figura 4, ggplot2 utilizó un valor predeterminado de 30 (`bins=30`), pero se muestra un mensaje de advertencia que recomienda elegir un mejor valor. Puedes explorar más posibilidades de configuración en la [documentación de `geom_histogram()` (en inglés)](https://perma.cc/G29K-53LK).
 
 Este simple gráfico muestra una distribución [asimétrica](https://perma.cc/542A-KEEH) hacia la derecha: la variable `dist` nos dice que mientras que la mayoría de las ciudades hermanadas tienden a estar geográficamente cerca, existen excepciones en las que las ciudades forman acuerdos con otras más lejanas.
 
@@ -309,9 +309,9 @@ ggplot(data = eudata.sample,
 
 {% include figure.html filename="es-tr-datos-urbanos-demograficos-r-ggplot2-08.png" alt="Cambiando el tamaño y el color de los puntos del gráfico de dispersión." caption="Figura 8. Cambiando el tamaño y el color de los puntos del gráfico de dispersión." %}
 
-Para descubrir otros argumentos disponibles, puedes consultar la documentación de la función [`geom_point()` (disponible en inglés)](https://perma.cc/4WMT-JNNJ), o simplemente escribir `?geom_point` en R.
+Para descubrir otros argumentos disponibles, puedes consultar la documentación de la función [`geom_point()` (en inglés)](https://perma.cc/4WMT-JNNJ), o simplemente escribir `?geom_point` en R.
 
-Puedes seguir mejorando el gráfico agregando etiquetas de eje y una leyenda. La manipulación de ejes suele hacerse a través de las funciones de escala (`scales`) correspondientes, que trataremos más adelante. Sin embargo, cambiar las leyendas del gráfico es una acción muy común, y ggplot2 proporciona la función más breve [`labs()` (disponible en inglés)](https://perma.cc/544S-88AV), que se utiliza este propósito.
+Puedes seguir mejorando el gráfico agregando etiquetas de eje y una leyenda. La manipulación de ejes suele hacerse a través de las funciones de escala (`scales`) correspondientes, que trataremos más adelante. Sin embargo, cambiar las leyendas del gráfico es una acción muy común, y ggplot2 proporciona la función más breve [`labs()` (en inglés)](https://perma.cc/544S-88AV), que se utiliza este propósito.
 
 ```
 ggplot(data = eudata.sample,
@@ -336,9 +336,9 @@ Para guardarlo como PDF, usa el siguiente comando:
 ```
 ggsave("eudata.pdf")
 ```
-Esto creará un archivo `.png` del último gráfico que hayas generado. La función `ggsave()` también incluye [muchos parámetros ajustables (disponible en inglés)](https://perma.cc/SL2S-X2PU) (dpi, altura, ancho, formato y más).
+Esto creará un archivo `.png` del último gráfico que hayas generado. La función `ggsave()` también incluye [muchos parámetros ajustables (en inglés)](https://perma.cc/SL2S-X2PU) (dpi, altura, ancho, formato y más).
 
-A veces necesitarás enriquecer tu gráfico añadiendo información adicional, utilizando colores o formas diferentes. Esto es especialmente útil si deseas representar [variables categóricas (disponible en inglés)](https://perma.cc/FZ9W-FQ8L) junto con las variables de interés principales. En el gráfico de dispersión (Figura 8), usamos valores estáticos para determinar el tamaño y el color de los puntos. Sin embargo, también podríamos mapear estas propiedades estéticas a columnas específicas de los datos, para visualizar sistemáticamente las diferentes categorías.
+A veces necesitarás enriquecer tu gráfico añadiendo información adicional, utilizando colores o formas diferentes. Esto es especialmente útil si deseas representar [variables categóricas (en inglés)](https://perma.cc/FZ9W-FQ8L) junto con las variables de interés principales. En el gráfico de dispersión (Figura 8), usamos valores estáticos para determinar el tamaño y el color de los puntos. Sin embargo, también podríamos mapear estas propiedades estéticas a columnas específicas de los datos, para visualizar sistemáticamente las diferentes categorías.
 
 ```
 ggplot(data = eudata.sample,
@@ -378,7 +378,7 @@ p1 <- ggplot(data = eudata.sample,
          y = "Población de la ciudad destino (log)")
 ```
 
-Un uso común de los `scales` es cambiar los colores de un gráfico. Para especificar manualmente los colores que deseas, puedes utilizar la función `scale_color_manual()` y proporcionar un [vector (disponible en inglés)](https://perma.cc/XV2R-DLSY) de valores de color, utilizando nombres de color [definidos por R (disponible en inglés)](https://perma.cc/TM3F-D8JP) o sus códigos hexadecimales. La función `scale_colour_manual()` [requiere un argumento obligatorio (disponible en inglés)](https://perma.cc/T72S-NYXC), a saber, un vector de nombres de color. De esta manera, puedes crear gráficos con los colores que elijas (los nombres han de estar en inglés pues así están codificados en R y ggplot):
+Un uso común de los `scales` es cambiar los colores de un gráfico. Para especificar manualmente los colores que deseas, puedes utilizar la función `scale_color_manual()` y proporcionar un [vector (en inglés)](https://perma.cc/XV2R-DLSY) de valores de color, utilizando nombres de color [definidos por R (en inglés)](https://perma.cc/TM3F-D8JP) o sus códigos hexadecimales. La función `scale_colour_manual()` [requiere un argumento obligatorio (en inglés)](https://perma.cc/T72S-NYXC), a saber, un vector de nombres de color. De esta manera, puedes crear gráficos con los colores que elijas (los nombres han de estar en inglés pues así están codificados en R y ggplot):
 
 ```
 p1 +
@@ -387,7 +387,7 @@ p1 +
 
 {% include figure.html filename="es-tr-datos-urbanos-demograficos-r-ggplot2-11.png" alt="Gráfico de dispersión que usa scale_colour_manual() para cambiar los colores de los puntos." caption="Figura 11. Uso de scale_colour_manual() para especificar los colores de los puntos." %}
 
-Sin embargo, también puedes basarte en escalas de colores predefinidas, como las paletas [de color brewer (disponible en inglés)](http://colorbrewer2.org). Es mejor utilizar estas cuando sea posible, porque elegir los colores adecuados para las visualizaciones es un problema muy complicado (por ejemplo, evitar colores que no son distinguibles para personas con visión deficiente). Afortunadamente, ggplot2 incluye la función `scale_colour_brewer()` ya [integrada (disponible en inglés)](https://perma.cc/BST9-7GMG).
+Sin embargo, también puedes basarte en escalas de colores predefinidas, como las paletas [de color brewer (en inglés)](http://colorbrewer2.org). Es mejor utilizar estas cuando sea posible, porque elegir los colores adecuados para las visualizaciones es un problema muy complicado (por ejemplo, evitar colores que no son distinguibles para personas con visión deficiente). Afortunadamente, ggplot2 incluye la función `scale_colour_brewer()` ya [integrada (en inglés)](https://perma.cc/BST9-7GMG).
 
 ```
 p1 +
@@ -421,7 +421,7 @@ Inmediatamente se nota que este código no ha producido la visualización más i
 
 En este ejemplo, de nuevo, utilizar un `scale` proporciona las herramientas para corregir estos valores predeterminados y crear visualizaciones que comuniquen los datos subyacentes de forma más efectiva y precisa. Para representar una variable continua, las escalas de color graduadas – es decir, 'continuas' – asignan colores a los valores basándose en una transición suave entre tonos o matices. Esto permite una representación precisa de la variable continua, ya que el cambio de color gradual corresponde al cambio de valor de la variable. Utilizar una escala graduada te permite visualizar la distribución de valores e identificar patrones o tendencias en los datos.
 
-Hay [diferentes métodos para crear escalas graduadas en ggplot2 (disponible en inglés)](https://perma.cc/K6J3-GSQS). Para nuestro propósito, usaremos la función `scale_colour_gradient()`. Esto te permite asignar colores específicos a los mínimos y máximos valores de la variable continua. ggplot2 luego interpola automáticamente los colores para los valores intermedios en función del gradiente elegido.
+Hay [diferentes métodos para crear escalas graduadas en ggplot2 (en inglés)](https://perma.cc/K6J3-GSQS). Para nuestro propósito, usaremos la función `scale_colour_gradient()`. Esto te permite asignar colores específicos a los mínimos y máximos valores de la variable continua. ggplot2 luego interpola automáticamente los colores para los valores intermedios en función del gradiente elegido.
 
 Puedes trabajar con el objeto `p2` creado anteriormente y utilizar el operador `+` para modificarlo. Ya habías mapeado la variable `dist` (distancia entre ciudades) al color utilizando `color = dist` dentro de la función `aes()`. Ahora, agrega la función `scale_colour_gradient()` para personalizar el gradiente de colores. En el siguiente código, establecemos el color para el valor más bajo de la variable `dist` como blanco y el valor más alto como un rojo oscuro (#4B0000). Esto significa que los tonos más claros de rojo representan distancias cortas, mientras que los tonos más oscuros representan distancias largas.
 
@@ -451,7 +451,7 @@ p2
 
 ### Facetando un gráfico
 
-Otra gran característica de ggplot2 es que permite dividir tus datos en diferentes gráficos según una variable determinada. En ggplot2, este proceso se conoce como [facetting (disponible en inglés)](https://perma.cc/B8NV-6LVE). La función más sencilla para esta tarea es `facet_wrap()`, pero también puedes explorar la función más completa [`facet_grid()` (disponible en inglés)](https://perma.cc/A5UY-5HUQ) para más opciones.
+Otra gran característica de ggplot2 es que permite dividir tus datos en diferentes gráficos según una variable determinada. En ggplot2, este proceso se conoce como [facetting (en inglés)](https://perma.cc/B8NV-6LVE). La función más sencilla para esta tarea es `facet_wrap()`, pero también puedes explorar la función más completa [`facet_grid()` (en inglés)](https://perma.cc/A5UY-5HUQ) para más opciones.
 
 Anteriormente, habíamos creado un gráfico que resaltaba si las ciudades de destino estaban dentro del mismo país que la ciudad de origen, en un país diferente pero de la UE o en un país no UE. Utilizando el tibble `eudata.porcentaje.pais`, podrías dividir este gráfico agregando `facet_wrap()` según los diferentes países de origen:
 
@@ -481,7 +481,7 @@ p3 + theme_bw() # _bw se corresponde al inglés black/white (negro/blanco)
 
 {% include figure.html filename="es-tr-datos-urbanos-demograficos-r-ggplot2-17.png" alt="Gráfico de barras en panel con elementos estáticos modificados usando la funcióntheme_bw()." caption="Figura 17. Cambiando elementos estáticos por medio de theme_bw()." %}
 
-También puedes instalar varios paquetes que proporcionan temas adicionales, como [ggthemes (disponible en inglés)](https://github.com/jrnold/ggthemes) o [ggtech (disponible en inglés)](https://github.com/ricardo-bion/ggtech). En estos encontrarás, por ejemplo, `theme_excel` (replicando los clásicos gráficos de Excel) y `theme_wsj` (basado en los gráficos de [_The Wall Street Journal_ (disponible en inglés)](https://perma.cc/ZDD6-SP95)). El beneficio de utilizar temas de ggplot2 para replicar estos estilos reconocibles no solo es la simplicidad, sino también el hecho de que ggplot2 tiene en cuenta automáticamente el lenguaje gráfico cuando mapea tus datos a elementos del gráfico.
+También puedes instalar varios paquetes que proporcionan temas adicionales, como [ggthemes (en inglés)](https://github.com/jrnold/ggthemes) o [ggtech (en inglés)](https://github.com/ricardo-bion/ggtech). En estos encontrarás, por ejemplo, `theme_excel` (replicando los clásicos gráficos de Excel) y `theme_wsj` (basado en los gráficos de [_The Wall Street Journal_ (en inglés)](https://perma.cc/ZDD6-SP95)). El beneficio de utilizar temas de ggplot2 para replicar estos estilos reconocibles no solo es la simplicidad, sino también el hecho de que ggplot2 tiene en cuenta automáticamente el lenguaje gráfico cuando mapea tus datos a elementos del gráfico.
 
 Para replicar los gráficos creados por _The Wall Street Journal_, puedes escribir lo siguiente:
 
@@ -497,9 +497,9 @@ p3 + theme_wsj()
 
 ### Extendiendo ggplot2 con otros paquetes
 
-Una de las fortalezas de ggplot2 es su amplia colección de [extensiones (disponible en inglés)](http://www.ggplot2-exts.org/) que pueden ayudar a enriquecer tu análisis con visualizaciones especializadas como gráficos de red (útiles para mostrar relaciones entre ciudades, por ejemplo), series de tiempo (para rastrear cambios demográficos a lo largo del tiempo), y gráficos de ridgeline, también llamados gráficos de cresta en español (para comparar distribuciones poblacionales en diferentes áreas urbanas).
+Una de las fortalezas de ggplot2 es su amplia colección de [extensiones (en inglés)](http://www.ggplot2-exts.org/) que pueden ayudar a enriquecer tu análisis con visualizaciones especializadas como gráficos de red (útiles para mostrar relaciones entre ciudades, por ejemplo), series de tiempo (para rastrear cambios demográficos a lo largo del tiempo), y gráficos de ridgeline, también llamados gráficos de cresta en español (para comparar distribuciones poblacionales en diferentes áreas urbanas).
 
-Vamos a explorar un ejemplo que muestra un paquete de extensión de ggplot2 capaz de crear gráficos más avanzados e impactantes. En este caso, vamos a crear un [gráfico de ridgeline (disponible en inglés)](https://perma.cc/D9Z2-XHAV) – también conocido como 'joyplot' – diseñado para visualizar los cambios en las distribuciones a lo largo del tiempo, en distintas categorías. Los gráficos de ridgeline son particularmente efectivos para comparar múltiples distribuciones de manera compacta y atractiva.
+Vamos a explorar un ejemplo que muestra un paquete de extensión de ggplot2 capaz de crear gráficos más avanzados e impactantes. En este caso, vamos a crear un [gráfico de ridgeline (en inglés)](https://perma.cc/D9Z2-XHAV) – también conocido como 'joyplot' – diseñado para visualizar los cambios en las distribuciones a lo largo del tiempo, en distintas categorías. Los gráficos de ridgeline son particularmente efectivos para comparar múltiples distribuciones de manera compacta y atractiva.
 
 Para crear un gráfico de ridgeline, necesitarás el paquete `ggridges` (uno de muchos paquetes de extensión de ggplot2). Esto añade una capa llamada `geom_density_ridges()` y un tema llamado `theme_ridges()`, que amplían las posibilidades de crear gráficos en R.
 
