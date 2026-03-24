@@ -239,13 +239,13 @@ Les liens de références sont très pratiques pour créer des notes de bas de p
 
 Puis vous pouvez ajouter l'URL dans une autre partie du document:
 
-`[1]: http://programminghistorian.org/ "The Programming Historian"`
+`[1]: https://programminghistorian.org/ "The Programming Historian"`
 
 **Ceci s'affiche comme suit:**
 
 Le site web du [Programming Historian][1] fournit un exemple.
 
-[1]: http://programminghistorian.org/ "The Programming Historian"
+[1]: https://programminghistorian.org/ "The Programming Historian"
 
 
 ### Images
