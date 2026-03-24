@@ -38,7 +38,7 @@ Después de la Segunda Guerra Mundial, las ciudades europeas se enfrentaron a un
 
 Las relaciones entre ciudades hermanadas enfrentan a los historiadores con oportunidades y desafíos. La oportunidad radica en su potencial para revelar patrones de reconciliación y diplomacia posbélica. El desafío proviene de su escala y complejidad: hay cientos de ciudades en Europa y cada una podría haber formado decenas de acuerdos de hermanamientos a lo largo de múltiples décadas. Al convertir estas complejas redes de relaciones de hermanamiento en patrones visuales, podemos explorar preguntas difíciles de responder únicamente con métodos tradicionales. Por ejemplo, ¿prefirieron las ciudades de [Alemania Occidental](https://perma.cc/K5TT-Z876) establecer relaciones con ciudades francesas inmediatamente después de la guerra? ¿Creó el [Telón de Acero](https://perma.cc/J383-CSC2) patrones distintos de relaciones entre Europa del Este y del Oeste? ¿Cómo influyeron el tamaño de la ciudad y la distancia geográfica en las conexiones diplomáticas? Este caso es un buen ejemplo de cómo puede ser útil la visualización de datos para la investigación histórica.
 
-El paquete de R [ggplot2 (en inglés)](http://ggplot2.tidyverse.org) proporciona herramientas poderosas para investigar preguntas de esta índole a través de la visualización de datos. Aunque las hojas de cálculo y los gráficos básicos pueden ocultar patrones, las capacidades de visualización avanzadas de ggplot2 permiten a los historiadores descubrir relaciones ocultas en los datos. Por ejemplo, los [gráficos de dispersión](https://perma.cc/P9DH-CCSR) pueden revelar correlaciones entre variables numéricas como tamaños poblacionales y distancias geográficas, los [gráficos de barras](https://perma.cc/QP3N-VP2N) pueden mostrar la distribución de los hermanamientos en diferentes categorías de ciudades, y los [histogramas](https://perma.cc/MNY7-4FC4) pueden exponer patrones en los datos demográficos que de otro modo podrían permanecer invisibles.
+El paquete de R [ggplot2 (en inglés)](https://ggplot2.tidyverse.org) proporciona herramientas poderosas para investigar preguntas de esta índole a través de la visualización de datos. Aunque las hojas de cálculo y los gráficos básicos pueden ocultar patrones, las capacidades de visualización avanzadas de ggplot2 permiten a los historiadores descubrir relaciones ocultas en los datos. Por ejemplo, los [gráficos de dispersión](https://perma.cc/P9DH-CCSR) pueden revelar correlaciones entre variables numéricas como tamaños poblacionales y distancias geográficas, los [gráficos de barras](https://perma.cc/QP3N-VP2N) pueden mostrar la distribución de los hermanamientos en diferentes categorías de ciudades, y los [histogramas](https://perma.cc/MNY7-4FC4) pueden exponer patrones en los datos demográficos que de otro modo podrían permanecer invisibles.
 
 Esta lección se diferencia de las guías estándar de ggplot2 porque se enfoca específicamente en las necesidades de los historiadores urbanos. En lugar de utilizar conjuntos de datos generales, trabajaremos con datos históricos sobre relaciones entre ciudades hermanadas para demostrar cómo las técnicas visuales pueden iluminar patrones y procesos históricos. A través de este enfoque, aprenderás a crear visualizaciones que revelen alianzas complejas y hacer que los procesos históricos sean más accesibles a un público más amplio.
 
@@ -318,7 +318,7 @@ ggplot(data = eudata.sample,
        aes(x = log(origenpoblacion), y = log(destinopoblacion))) +
     geom_point(size = 0.8, color = "#4B0000") +
     labs(title = "Población de la ciudad de origen y destino",
-         caption = "Datos: [www.wikidata.org](http://www.wikidata.org)",
+         caption = "Datos: [www.wikidata.org](https://www.wikidata.org)",
          x = "Población de la ciudad de origen (log)",
          y = "Población de la ciudad destino (log)")
 ```
@@ -345,7 +345,7 @@ ggplot(data = eudata.sample,
        aes(x = log(origenpoblacion), y = log(destinopoblacion))) +
     geom_point(size = 0.8, alpha = 0.7, aes( color = tipopais )) +
     labs(title = "Población de la ciudad de origen y destino",
-         caption = "Datos: [www.wikidata.org](http://www.wikidata.org)",
+         caption = "Datos: [www.wikidata.org](https://www.wikidata.org)",
          x = "Población de la ciudad de origen (log)",
          y = "Población de la ciudad destino (log)")
 ```
@@ -373,7 +373,7 @@ p1 <- ggplot(data = eudata.sample,
              aes(x = log(origenpoblacion), y = log(destinopoblacion))) +
     geom_point(size = 0.8, alpha = 0.7, aes( color = tipopais )) +
     labs(title = "Población de la ciudad de origen y destino",
-         caption = "Datos: [www.wikidata.org](http://www.wikidata.org)",
+         caption = "Datos: [www.wikidata.org](https://www.wikidata.org)",
          x = "Población de la ciudad de origen (log)",
          y = "Población de la ciudad destino (log)")
 ```
@@ -387,7 +387,7 @@ p1 +
 
 {% include figure.html filename="es-tr-datos-urbanos-demograficos-r-ggplot2-11.png" alt="Gráfico de dispersión que usa scale_colour_manual() para cambiar los colores de los puntos." caption="Figura 11. Uso de scale_colour_manual() para especificar los colores de los puntos." %}
 
-Sin embargo, también puedes basarte en escalas de colores predefinidas, como las paletas [de color brewer (en inglés)](http://colorbrewer2.org). Es mejor utilizar estas cuando sea posible, porque elegir los colores adecuados para las visualizaciones es un problema muy complicado (por ejemplo, evitar colores que no son distinguibles para personas con visión deficiente). Afortunadamente, ggplot2 incluye la función `scale_colour_brewer()` ya [integrada (en inglés)](https://perma.cc/BST9-7GMG).
+Sin embargo, también puedes basarte en escalas de colores predefinidas, como las paletas [de color brewer (en inglés)](https://colorbrewer2.org). Es mejor utilizar estas cuando sea posible, porque elegir los colores adecuados para las visualizaciones es un problema muy complicado (por ejemplo, evitar colores que no son distinguibles para personas con visión deficiente). Afortunadamente, ggplot2 incluye la función `scale_colour_brewer()` ya [integrada (en inglés)](https://perma.cc/BST9-7GMG).
 
 ```
 p1 +
@@ -404,7 +404,7 @@ p2 <- ggplot(data = eudata.sample,
     geom_point(size = 0.8, aes( color = log(dist) )) +
     labs(title = "Población de la ciudad de origen y destino",
          subtitle = "Coloreado según la distancia entre ciudades",
-         caption = "Datos: [www.wikidata.org](http://www.wikidata.org)",
+         caption = "Datos: [www.wikidata.org](https://www.wikidata.org)",
          x = "Población de la ciudad de origen (log)",
          y = "Población de la ciudad destino (log)")
 
@@ -497,7 +497,7 @@ p3 + theme_wsj()
 
 ### Extendiendo ggplot2 con otros paquetes
 
-Una de las fortalezas de ggplot2 es su amplia colección de [extensiones (en inglés)](http://www.ggplot2-exts.org/) que pueden ayudar a enriquecer tu análisis con visualizaciones especializadas como gráficos de red (útiles para mostrar relaciones entre ciudades, por ejemplo), series de tiempo (para rastrear cambios demográficos a lo largo del tiempo), y gráficos de ridgeline, también llamados gráficos de cresta en español (para comparar distribuciones poblacionales en diferentes áreas urbanas).
+Una de las fortalezas de ggplot2 es su amplia colección de [extensiones (en inglés)](https://www.ggplot2-exts.org/) que pueden ayudar a enriquecer tu análisis con visualizaciones especializadas como gráficos de red (útiles para mostrar relaciones entre ciudades, por ejemplo), series de tiempo (para rastrear cambios demográficos a lo largo del tiempo), y gráficos de ridgeline, también llamados gráficos de cresta en español (para comparar distribuciones poblacionales en diferentes áreas urbanas).
 
 Vamos a explorar un ejemplo que muestra un paquete de extensión de ggplot2 capaz de crear gráficos más avanzados e impactantes. En este caso, vamos a crear un [gráfico de ridgeline (en inglés)](https://perma.cc/D9Z2-XHAV) – también conocido como 'joyplot' – diseñado para visualizar los cambios en las distribuciones a lo largo del tiempo, en distintas categorías. Los gráficos de ridgeline son particularmente efectivos para comparar múltiples distribuciones de manera compacta y atractiva.
 
@@ -513,7 +513,7 @@ ggplot(eudata, aes(x=log(origenpoblacion), y = origenpais)) +
     geom_density_ridges() +
     theme_ridges() +
     labs(title = "Población (log) de las ciudades de origen",
-         caption = "Datos: [www.wikidata.org](http://www.wikidata.org)",
+         caption = "Datos: [www.wikidata.org](https://www.wikidata.org)",
          x = "Población (log)",
          y = "País")
 ```
