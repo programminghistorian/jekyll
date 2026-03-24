@@ -86,8 +86,8 @@ doesn't work on your platform, please let us know.
 -   [Windows Python Installation][]
 -   [Linux Python Installation][]
 
-  [Python programming language]: http://www.python.org/
-  [Beautiful Soup HTML/XML parser]: http://www.crummy.com/software/BeautifulSoup/
+  [Python programming language]: https://www.python.org/
+  [Beautiful Soup HTML/XML parser]: https://www.crummy.com/software/BeautifulSoup/
   [Komodo Edit]: https://github.com/ActiveState/OpenKomodoIDE
   [Python Editors]: https://wiki.python.org/python/PythonEditors
   [Jungle Disk]: https://www.jungledisk.com/
