@@ -293,7 +293,7 @@ Aqui estão alguns locais para procurar imagens para a lição:
  - [British Library](https://www.flickr.com/photos/britishlibrary)
  - [Internet Archive Book Images](https://archive.org/details/bookimages)
  - [Virtual Manuscript Library of Switzerland](https://www.e-codices.unifr.ch/en)
- - [Library of Congress Maps](http://www.loc.gov/maps/collections)
+ - [Library of Congress Maps](https://www.loc.gov/maps/collections)
 
 É preciso verificar se a imagem corresponde ao estilo das anteriores (deve ser uma imagem de livro, não uma fotografia), ter pelo menos 200 pixels em ambas as dimensões e não ter restrições de direitos de autor. A imagem não pode ser ofensiva e deve seguir o nosso [compromisso com a diversidade (em inglês)](/posts/PH-commitment-to-diversity). Convém encontrar algo que não perpetue estereótipos ou tenha uma mensagem subliminar de machismo ou superioridade branca.
 
