@@ -93,7 +93,7 @@ Asimismo, me comprometo a mantener la conversación abierta a todo el mundo en G
 Política contra el acoso
 _
 
-El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudsperson' (Silvia Gutiérrez De la Torre - http://programminghistorian.org/es/equipo-de-proyecto).
+El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudsperson' ([Silvia Gutiérrez De la Torre](es/equipo-de-proyecto)).
 
 ```
 Para las lecciones nuevas, utiliza la siguiente [plantilla](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/es/PLANTILLA-LECCION.md):
@@ -115,7 +115,7 @@ Asimismo, me comprometo a mantener la conversación abierta a todo el mundo en G
 Política contra el acoso
 _
 
-El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudsperson' (Silvia Gutiérrez De la Torre - http://programminghistorian.org/es/equipo-de-proyecto).
+El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudsperson' ([Silvia Gutiérrez De la Torre](es/equipo-de-proyecto)).
 
 ```
 
@@ -323,7 +323,7 @@ Puedes buscar imágenes en los recursos siguientes:
  - [British Library](https://www.flickr.com/photos/britishlibrary)
  - [Internet Archive Book Images](https://archive.org/details/bookimages)
  - [Virtual Manuscript Library of Switzerland](https://www.e-codices.unifr.ch/en)
- - [Library of Congress Maps](http://www.loc.gov/maps/collections)
+ - [Library of Congress Maps](https://www.loc.gov/maps/collections)
 
 Si como editor estás buscando una imagen para una lección nueva, asegúrate de que la imagen sigue el mismo estilo que las imágenes anteriores; debería ser una ilustración, no una fotografía, tener al menos 200 píxeles de anchura y altura, y estar libre de derechos. Asegúrate de que la magen no es ofensiva y ten en cuenta nuestro [compromiso con la diversidad](/posts/PH-commitment-to-diversity); en otras palabras, intenta encontrar una imagen que no perpetúe estereotipos o envíe mensajes sutiles sobre la masculinidad y la raza blanca.
 
