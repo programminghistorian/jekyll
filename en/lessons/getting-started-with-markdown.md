@@ -231,13 +231,13 @@ Reference-style links are handy for footnotes and may keep your plain text docum
 
 You may then add the URL to another part of the document:
 
-`[1]: http://programminghistorian.org/ "The Programming Historian"`
+`[1]: https://programminghistorian.org/ "The Programming Historian"`
 
 **This renders as:**
 
 One example is the [Programming Historian][1] website.
 
-[1]: http://programminghistorian.org/ "The Programming Historian"
+[1]: https://programminghistorian.org/ "The Programming Historian"
 
 
 ### Images
