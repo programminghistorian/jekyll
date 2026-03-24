@@ -142,9 +142,9 @@ Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
 order, we suggest you next try '[Understanding Web Pages and HTML][].'
 
-  [Time Machine]: http://support.apple.com/kb/ht1427
-  [Python website]: http://www.python.org/
-  [Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/
+  [Time Machine]: https://support.apple.com/en-gb/104984
+  [Python website]: https://www.python.org/
+  [Beautiful Soup]: https://www.crummy.com/software/BeautifulSoup/
   [other text editing options]: https://wiki.python.org/python/PythonEditors
   [BBEdit]: https://www.barebones.com/products/bbedit/
   [Sublime Text website]: https://www.sublimetext.com/download
