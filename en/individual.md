@@ -37,4 +37,4 @@ One-time donations can be made to the Programming Historian via [Paypal](https:/
 
 # Organisational Support
 
-If you work for an organisation that would be interested in contributing to *Programming Historian's* success, please direct them to our [Institutional Partnership Programme](ipp), which provides crucial support to our work.
+If you work for an organisation that would be interested in contributing to *Programming Historian's* success, please direct them to our [Institutional Partnership Programme](/en/ipp), which provides crucial support to our work.
