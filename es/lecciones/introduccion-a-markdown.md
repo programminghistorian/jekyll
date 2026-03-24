@@ -243,13 +243,13 @@ Los enlaces también se utilizan para crear notas a pie de página y son útiles
 
 Entonces puedes incluir el URL en otra parte del documento:
 
-`[1]: http://programminghistorian.org/`
+`[1]: https://programminghistorian.org/`
 
 Lo cual se despliega de la siguiente manera:
 
 Un ejemplo es el sitio *[The Programming Historian en español][1]*
 
-[1]: http://programminghistorian.org/
+[1]: https://programminghistorian.org/
 
 
 #### Imágenes
