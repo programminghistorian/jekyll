@@ -111,7 +111,7 @@ This command installs the HTRC Feature Reader and its necessary dependencies. We
 
 That's it! At this point you have everything necessary to start reading HTRC Feature Reader files.
 
-> *psst*, advanced users: You can install the HTRC Feature Reader *without* Anaconda with `pip install htrc-feature-reader`, though for this lesson you'll need to install two additional libraries `pip install matplotlib jupyter`. Also, note that not all manual installations are alike because of hard-to-configure system optimizations: this is why we recommend Anaconda. If you think your code is going slow, you should check that Numpy has access to [BLAS and LAPACK libraries](https://stackoverflow.com/a/19350234/233577) and install [Pandas recommended packages](https://pandas.pydata.org/pandas-docs/version/0.15.2/install.html#recommended-dependencies). The rest is up to you, advanced user!
+> *psst*, advanced users: You can install the HTRC Feature Reader *without* Anaconda with `pip install htrc-feature-reader`, though for this lesson you'll need to install two additional libraries `pip install matplotlib jupyter`. Also, note that not all manual installations are alike because of hard-to-configure system optimizations: this is why we recommend Anaconda. If you think your code is going slow, you should check that Numpy has access to [BLAS and LAPACK libraries](https://stackoverflow.com/a/19350234/233577) and install [Pandas recommended packages](https://pandas.pydata.org/docs/getting_started/install.html#performance-dependencies-recommended). The rest is up to you, advanced user!
 
 ## Start a Notebook
 
