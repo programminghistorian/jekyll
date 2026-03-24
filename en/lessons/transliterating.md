@@ -479,7 +479,7 @@ saver.
 - [Unicode](https://en.wikipedia.org/wiki/Unicode)  
 - [Terminal](https://en.wikipedia.org/wiki/Terminal_%28OS_X%29)  
 - [IDLE](https://en.wikipedia.org/wiki/IDLE_%28Python%29)  
-- [Komodo Edit](https://www.activestate.com/komodo-edit)  
+- [Komodo Edit](https://github.com/ActiveState/OpenKomodoIDE)  
 - [ALA-LC](https://en.wikipedia.org/wiki/ALA-LC_romanization_for_Russian)  
 - [Beautiful Soup in Python.](https://www.crummy.com/software/BeautifulSoup/)  
 - [Glasnost](https://en.wikipedia.org/wiki/Glasnost)  
