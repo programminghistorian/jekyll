@@ -417,5 +417,5 @@ No entanto, apesar das suas inconsistências, a *DBpedia* é um ótimo local par
 
 ## Agradecimentos
 
-Gostaria de agradecer aos meus dois colegas revisores, Matthew Lincoln e Terhi Nurmikko-Fuller e ao meu editor, Adam Crymble, por me ajudarem generosamente a melhorar esta lição com numerosas sugestões, esclarecimentos e correções. Este tutorial baseia-se num outro escrito como parte do '*Thesaurus of British and Irish History as SKOS*' [*(Tobias) project*](https://gtr.ukri.org/projects?ref=AH%2FN003446%2F1#/tabOverview) (em inglês), financiado pelo [AHRC](http://www.ahrc.ac.uk/) (em inglês). A lição foi revista para o projeto *Programming Historian*.
+Gostaria de agradecer aos meus dois colegas revisores, Matthew Lincoln e Terhi Nurmikko-Fuller e ao meu editor, Adam Crymble, por me ajudarem generosamente a melhorar esta lição com numerosas sugestões, esclarecimentos e correções. Este tutorial baseia-se num outro escrito como parte do '*Thesaurus of British and Irish History as SKOS*' [*(Tobias) project*](https://gtr.ukri.org/projects?ref=AH%2FN003446%2F1#/tabOverview) (em inglês), financiado pelo [AHRC](https://www.ukri.org/councils/ahrc/) (em inglês). A lição foi revista para o projeto *Programming Historian*.
 
