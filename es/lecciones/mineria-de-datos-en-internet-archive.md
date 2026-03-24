@@ -419,9 +419,9 @@ Desde luego, para que esta técnica sea útil se requiere hacer algo de [limpiez
 [elementos y sus URL están estructurados]: https://blog.archive.org/2011/03/31/how-archive-org-items-are-structured/
 [búsqueda avanzada]: https://archive.org/advancedsearch.php
 [esta página]: https://archive.org/search.php?query=collection%3A%28bplscas%29
-[buscar en el Internet Archive usando el módulo de Python que instalamos]: https://internetarchive.readthedocs.io/en/latest/quickstart.html#searching
+[buscar en el Internet Archive usando el módulo de Python que instalamos]: https://archive.org/developers/internetarchive/cli.html#cli-search
 [búsqueda avanzada en una colección]: https://archive.org/search.php?query=collection%3Abplscas
-[downloading]: https://internetarchive.readthedocs.io/en/latest/quickstart.html#downloading
+[downloading]: https://archive.org/developers/internetarchive/cli.html#cli-download
 [remember those?]: /lessons/code-reuse-and-modularity
 [son nombrados de acuerdo a reglas específicas]: https://archive.org/about/faqs.php#140
 [manejo de excepciones]: https://docs.python.org/2/tutorial/errors.html#handling-exceptions
