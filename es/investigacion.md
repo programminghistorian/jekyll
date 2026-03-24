@@ -180,9 +180,9 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Matthew Lincoln, 'Multilingual Jekyll: How The Programming Historian Does That', *matthewlincoln.net*, 1 de marzo 2020, <https://matthewlincoln.net/2020/03/01/multilingual-jekyll.html>.
 * Sue Levine, 'The Early-Stage Ph.D.'s Guide to Summer', _Inside Higher Education_, 10 en junio 2019, <https://www.insidehighered.com/advice/2019/06/10/professional-development-and-careers-activities-phd-students-can-pursue-over>.
 * 'Championing open access with online digital history journal', _University of Sussex Press Office_, 9 de octubre, 2018, <https://www.sussex.ac.uk/news/people?id=46353/>.
-* Adam Crymble, 'A Decade of Programming Historians', _Network in Canadian History &amp; Environment_, 23 de marzo, 2018, <http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/>.
+* Adam Crymble, 'A Decade of Programming Historians', _Network in Canadian History &amp; Environment_, 23 de marzo, 2018, <https://niche-canada.org/2018/03/23/a-decade-of-programming-historians/>.
 * Fred Gibbs, "Sustainable Publishing: Reflections of a Former Programming Historian Editor", <em>FredGibbs.net</em>, 2017, <https://web.archive.org/web/20181206221635/http://fredgibbs.net/posts/reflections-former-PH-editor>.
-* Anaclet Pons, "The Programming Historian en español", *Clionauta: blog de historia*, 14 de junio, 2017 <http://clionauta.hypotheses.org/16979>.
+* Anaclet Pons, "The Programming Historian en español", *Clionauta: blog de historia*, 14 de junio, 2017 <https://clionauta.hypotheses.org/16979>.
 * Seth Denbo, “Historian, Program! Self-Help for Digital Neophytes,” _Perspectives on History: The Newsmagazine of the American Historical Association_, May 2017, <https://www.historians.org/publications-and-directories/perspectives-on-history/may-2017/historian-program-self-help-digital-neophytes>.
 * Víctor Gayol, '*The Programming Historian* en español', *Blog de Humanidades Digitales*, 17 de marzo, 2017, <https://humanidadesdigitales.net/blog/2017/03/17/the-programming-historian-en-espanol/>
 
