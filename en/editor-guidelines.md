@@ -291,7 +291,7 @@ Here are a few places to look for lesson images:
  - The [British Library](https://www.flickr.com/photos/britishlibrary)
  - The [Internet Archive Book Images](https://archive.org/details/bookimages)
  - The [Virtual Manuscript Library of Switzerland](https://www.e-codices.unifr.ch/en)
- - The [Library of Congress Maps](http://www.loc.gov/maps/collections)
+ - The [Library of Congress Maps](https://www.loc.gov/maps/collections)
 
 Ensure that the image matches the style of the other images (it should be a book image, not a photograph), is at least 200 pixels in both dimensions, and is not copyright restricted. Make sure the image is not offensive, and keeping with our [Commitment to Diversity](/posts/PH-commitment-to-diversity) try to find something that does not perpetuate stereotypes or send a subtle message about maleness and whiteness.
 
