@@ -389,6 +389,6 @@ examples of Wget's power and potential.
   [View a scanned page of original Report]: https://recherche-collection-search.bac-lac.gc.ca/eng/home/record?app=fonandcol&IdNumber=2061374&q=Indian%20Affairs%20Annual%20Reports
   [No. 14 Canadian General Hospital]: https://recherche-collection-search.bac-lac.gc.ca/eng/Home/Record?app=fonandcol&IdNumber=2005110&new=-8585971893141232328
   [http://data2.archives.ca/e/e061/e001518109.jpg]: http://data2.archives.ca/e/e061/e001518029.jpg
-  [leading zeros]: http://en.wikipedia.org/wiki/Leading_zero
-  [Series 1: General Correspondence. 1651-1827]: http://memory.loc.gov/cgi-bin/ampage?collId=mtj1&fileName=mtj1page001.db&recNum=1&itemLink=/ammem/collections/jefferson_papers/mtjser1.html&linkText=6
-  [Historical Medical Poster Collection]: http://cushing.med.yale.edu/gsdl/collect/mdposter/
+  [leading zeros]: https://en.wikipedia.org/wiki/Leading_zero
+  [Series 1: General Correspondence. 1651-1827]: https://memory.loc.gov/cgi-bin/ampage?collId=mtj1&fileName=mtj1page001.db&recNum=1&itemLink=/ammem/collections/jefferson_papers/mtjser1.html&linkText=6
+  [Historical Medical Poster Collection]: https://library.medicine.yale.edu/collections/digitized-collections/medical-historical-posters/
