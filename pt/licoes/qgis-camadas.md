@@ -71,7 +71,7 @@ Descarregue os seguintes ficheiros *shapefiles*:
 1.  [coastline.SHP.zip](/assets/qgis-layers/coastline.SHP.zip)
 2.  [lot_town.SHP.zip](/assets/qgis-layers/lot_town.SHP.zip)
 3.  [hydronetwork.SHP.zip](/assets/qgis-layers/hydronetwork.SHP.zip)
-4.  <http://www.gov.pe.ca/gis/download.php3?name=forest_35&file_format=SHP>
+4.  <https://www.gov.pe.ca/gis/download.php3?name=forest_35&file_format=SHP>
 5.  [nat_parks.SHP.zip](/assets/qgis-layers/nat_parks.SHP.zip)
 6.  [PEI Highways](/assets/qgis-layers/PEI_highway.zip)
 7.  [PEI Places](/assets/qgis-layers/PEI_placenames.zip)
