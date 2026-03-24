@@ -33,11 +33,11 @@ Whether or not a new derivative is created, the following steps will be taken wi
 
 ## Related Sustainability Guidelines
 
-[Author Guidelines for Writing Sustainably](/en/author-guidelines#write-sustainably)
+[Author Guidelines for Writing Sustainably](/en/author-guidelines#sustainable-writing)
 
-[Reviewer Guidelines for Assessing Lesson Sustainability](/reviewer-guidelines#sustainability)
+[Reviewer Guidelines for Assessing Lesson Sustainability](/en/reviewer-guidelines#sustainability)
 
-[Editor Guidelines for Fostering Lesson Sustainability](/editor-guidelines#c-sustainability-review)
+[Editor Guidelines for Fostering Lesson Sustainability](/en/editor-guidelines#c-sustainability--internationalization-review)
 
 ## Retired Lessons
 
