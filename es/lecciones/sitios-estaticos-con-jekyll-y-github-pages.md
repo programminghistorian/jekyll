@@ -665,6 +665,6 @@ Puedes visitar estos sitios para más documentación, inspiración y para aprend
 * Amanda Visconti, ["Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)"](https://literaturegeek.com/2015/12/08/WhyJekyllGitHub)
 * Alex Gil, ["How (and Why) to Generate a Static Website Using Jekyll, Part 1"](https://chronicle.com/blogs/profhacker/jekyll1/60913)
 * Eduardo Bouças, ["An Introduction to Static Site Generators"](https://davidwalsh.name/introduction-static-site-generators)
-* [Guía de estilo de Jekyll](https://ben.balter.com/jekyll-style-guide/)
+* Ben Balter, [Jekyll: Where content is truly king](https://ben.balter.com/2013/10/30/content-is-king/)
 * [Prose](https://prose.io/): editor de contenido (creado en Jekyll)
 * [Únete al Slack sobre humanidades digitales](https://digitalhumanities.slack.com) (cualquiera puede sumarse; no se necesita saber sobre humanidades digitales) y súmate a los debates acerca de Jekyll y otras plataformas de publicación en el canal #publishing.
