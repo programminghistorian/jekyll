@@ -504,6 +504,3 @@ Em resumo, o volume da nota
 [^4]: Baio, Andy. 2015. 'If Drake Was Born A Piano'. Waxy. [https://waxy.org/2015/12/if_drake_was_born_a_piano/](https://waxy.org/2015/12/if_drake_was_born_a_piano/)
 
 [^5]: Koebler, Jason. 2015. "The Strange Acoustic Phenomenon Behind These Wacked-Out Versions of Pop Songs" Motherboard, Dec 18. [https://motherboard.vice.com/read/the-strange-acoustic-phenomenon-behind-these-wacked-out-versions-of-pop-songs](https://motherboard.vice.com/read/the-strange-acoustic-phenomenon-behind-these-wacked-out-versions-of-pop-songs)
-
-<a name="Last"></a>Last and Usyskin, 2015. "Listen to the Sound of Data". In Aaron K. Baughman et al. (eds.) Multimedia Data Mining and Analytics. Springer: Heidelberg. Pp. 419-446 [https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data](https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data)
-
