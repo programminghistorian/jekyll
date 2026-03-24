@@ -390,5 +390,5 @@ examples of Wget's power and potential.
   [No. 14 Canadian General Hospital]: https://recherche-collection-search.bac-lac.gc.ca/eng/Home/Record?app=fonandcol&IdNumber=2005110&new=-8585971893141232328
   [http://data2.archives.ca/e/e061/e001518109.jpg]: http://data2.archives.ca/e/e061/e001518029.jpg
   [leading zeros]: https://en.wikipedia.org/wiki/Leading_zero
-  [Series 1: General Correspondence. 1651-1827]: https://memory.loc.gov/cgi-bin/ampage?collId=mtj1&fileName=mtj1page001.db&recNum=1&itemLink=/ammem/collections/jefferson_papers/mtjser1.html&linkText=6
+  [Series 1: General Correspondence. 1651-1827]: https://www.loc.gov/search/?fa=partof:the+thomas+jefferson+papers+at+the+library+of+congress:+series+1:+general+correspondence.+1651-1827
   [Historical Medical Poster Collection]: https://library.medicine.yale.edu/collections/digitized-collections/medical-historical-posters/
