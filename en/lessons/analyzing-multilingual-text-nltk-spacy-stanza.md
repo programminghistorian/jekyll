@@ -146,7 +146,7 @@ with open("war_and_peace_excerpt.txt") as file:
     print(war_and_peace)
 ```
 
-Running this code should output the text as shown in [Developing Python Code for Multilingual Text Analysis](#Developing-Python-Code-for-Multilingual-Text-Analysis) above. 
+Running this code should output the text as shown in [Developing Python Code for Multilingual Text Analysis](#developing-python-code-for-multilingual-text-analysis) above. 
 
 Now, let’s remove the [newline characters](https://perma.cc/UX3B-R2WF). Newline characters are used to signify the end of a line in character encoding specifications such as Unicode. We will replace all newlines (represented as a `\n` in the code) with a space, assign the cleaned text to a new variable named `cleaned_war_and_peace` and print it to check what we’ve done. Replacing the newline characters with a space will combine the text into a continuous string and homogenize the text. This ensures that the tokenizer is not mislead into creating sentence splits where there shouldn’t be any. This is the only modification to the text that we will be doing for the purposes of this lesson, but if you are interested in different steps you can take to prepare your text for multilingual analysis, please consult [this article](https://perma.cc/Z4VX-RHT2).
 
