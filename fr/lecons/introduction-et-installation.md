@@ -60,11 +60,11 @@ Pour utiliser les techniques présentées ici, vous devrez d'abord télécharger
 -   [Installation de Python pour Windows](/fr/lecons/installation-windows-py)
 -   [Installation de Python pour Linux](/en/lessons/linux-installation)
 
-  [langage de programmation Python]: http://www.python.org/
-  [l'analyseur HTML / XML Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/
+  [langage de programmation Python]: https://www.python.org/
+  [l'analyseur HTML / XML Beautiful Soup]: https://www.crummy.com/software/BeautifulSoup/
   [Komodo Edit]: https://github.com/ActiveState/OpenKomodoIDE
   [éditeurs compatibles avec Python]: https://wiki.python.org/python/PythonEditors
-  [Zotero]: http://www.zotero.org/
+  [Zotero]: https://www.zotero.org/
   [Jungle Disk]: https://www.jungledisk.com/
   [Dropbox]: https://www.dropbox.com/
   [Affichage des fichiers HTML]: /lessons/viewing-html-files
