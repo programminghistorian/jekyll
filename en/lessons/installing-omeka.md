@@ -28,7 +28,7 @@ doi: 10.46430/phen0052
 
 ## Introduction
 
-[Omeka.net](https://omeka.net), as described in [the previous lesson](up-and-running-with-omeka.html), is a useful service for Omeka beginners, but there are a few reasons why you might want to install your own copy of Omeka. Reasons include:
+[Omeka.net](https://omeka.net), as described in [the previous lesson](/en/lessons/up-and-running-with-omeka), is a useful service for Omeka beginners, but there are a few reasons why you might want to install your own copy of Omeka. Reasons include:
 
  * **Upgrades**. By installing Omeka yourself, you can use the latest versions of Omeka as soon as they're released, without having to wait for Omeka.net to upgrade their system.
  * **Plugins and themes**. You can install any plugin or theme you want, without being restricted to those provided by Omeka.net.
