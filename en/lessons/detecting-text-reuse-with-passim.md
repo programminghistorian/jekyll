@@ -252,7 +252,7 @@ If the command above returns `1.8.0_252` or similar, then you have Java Developm
 
 ### Compiling Passim from the Sources
 
-Refer to the [compilation instructions for macOS](#compiling-passim-from-the-sources-(macOS)), as they are the same for the Linux environment.
+Refer to the [compilation instructions for macOS](#compiling-passim-from-the-sources-macos), as they are the same for the Linux environment.
 
 ### Installing Spark
 
