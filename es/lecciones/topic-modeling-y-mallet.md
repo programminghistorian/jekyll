@@ -35,7 +35,7 @@ doi: 10.46430/phes0040
 Nota del editor
 ---------------
 
-En esta lección es necesario utilizar la línea de comandos. Si no tienes experiencia previa utilizándola, consulta la lección [Introducción a la línea de comandos en Bash](introduccion-a-bash) de *Programming Historian*.
+En esta lección es necesario utilizar la línea de comandos. Si no tienes experiencia previa utilizándola, consulta la lección [Introducción a la línea de comandos en Bash](/es/lecciones/introduccion-a-bash) de *Programming Historian*.
 
 Objetivos de la lección
 -----------------------
@@ -198,7 +198,7 @@ El parámetro `--output` junto con una ruta de fichero indica donde se guarda el
 
 También podrías utilizar tus propios datos. Cambia `C:\Users\User\Desktop\ensayos-jose-marti` a un directorio que contenga tus propios archivos de investigación. ¡Buena suerte!
 
-Si no estás seguro de cómo funcionan los directorios, te recomendamos la lección [Introducción a la línea de comandos en Bash](introduccion-a-bash) de *Programming Historian*.
+Si no estás seguro de cómo funcionan los directorios, te recomendamos la lección [Introducción a la línea de comandos en Bash](/es/lecciones/introduccion-a-bash) de *Programming Historian*.
 
 ### Para Mac
 Las instrucciones para Mac son parecidas a las de Windows, con algunas diferencias que puedes notar en el siguiente ejemplo:
