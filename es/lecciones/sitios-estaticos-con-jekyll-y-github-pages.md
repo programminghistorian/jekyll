@@ -78,7 +78,7 @@ Puedes leer más acerca de [Jekyll](https://jekyllrb.com/docs/home/) o [generado
 
 *[GitHub Pages](https://pages.github.com/)* es un espacio gratuito para almacenar los archivos que ejecutan un sitio web y alojar ese sitio para que las personas lo visiten (solo funciona para tipos particulares de sitios web, como sitios HTML básicos o sitios Jekyll; no aloja bases de datos).
 
-*[GitHub](https://github.com/)* es una plataforma visual para utilizar *[git](https://git-scm.com/doc)*, un sistema de *versionado* o, en otras palabras, de registro de cambios realizados en los archivos (código y documentos de texto, entre otros) a través del tiempo (como ya explicamos [más arriba](sitios-dinámicos-sitios-estáticos-y-jekyll)). Si tienes curiosidad, puedes explorar este [minitutorial de GitHub](https://guides.github.com/activities/hello-world/) (en inglés).
+*[GitHub](https://github.com/)* es una plataforma visual para utilizar *[git](https://git-scm.com/doc)*, un sistema de *versionado* o, en otras palabras, de registro de cambios realizados en los archivos (código y documentos de texto, entre otros) a través del tiempo (como ya explicamos [más arriba](#sitios-dinámicos-sitios-estáticos-y-jekyll)). Si tienes curiosidad, puedes explorar este [minitutorial de GitHub](https://guides.github.com/activities/hello-world/) (en inglés).
 
 ### ¿Por qué usar sitios estáticos?
 
