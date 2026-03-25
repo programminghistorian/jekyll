@@ -17,7 +17,7 @@ _Programming Historian_ is grateful to our past and current supporters for enabl
 - [Jisc](https://www.jisc.ac.uk/), United Kingdom  
 
 ## Institutional Partners
-Contributors to our [Institutional Partner Programme](support-us#institutional-partner-programme):
+Contributors to our [Institutional Partner Programme](/en/ipp):
 
 - [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Belgium
 - [Western University Library](https://www.lib.uwo.ca/), Canada
@@ -49,10 +49,10 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [University of Edinburgh Library](https://library.ed.ac.uk/), United Kingdom
 - [University of Cambridge](https://www.cam.ac.uk/), United Kingdom
 
-We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
+We welcome enquiries from prospective [Institutional Partner Programme](/en/ipp) contributors.
 
 ### Alumni Partners
-Former contributors to our [Institutional Partner Programme](support-us#institutional-partner-programme):
+Former contributors to our [Institutional Partner Programme](/en/ipp):
 
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), United States [2021-2022]
 - [Centre for Digital Humanities, University College London](https://www.ucl.ac.uk/digital-humanities/), United Kingdom [2021-2022]
