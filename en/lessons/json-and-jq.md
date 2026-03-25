@@ -33,7 +33,7 @@ Access to Twitter’s API has recently changed. The Free Tier no longer allows u
 
 JSON (JavaScript Object Notation) is a common data sharing format that can describe complex relationships.
 Many libraries, archives, museums, and social media sites expose their data through JSON-based APIs.
-(On accessing APIs, see [downloading structured data with wget](/en/lessons/applied-archival-downloading-with-wget) and the [series of lessons on working with APIs](/en/lessons/intro-to-the-zotero-api).)
+(On accessing APIs, see [downloading structured data with wget](/en/lessons/applied-archival-downloading-with-wget) and the [series of lessons on working with APIs](/en/lessons/retired/intro-to-the-zotero-api).)
 
 However, many tools for data analysis and visualization require input in flat tables (i.e. CSV), and because JSON is such a flexible data format, often with many nested levels of data, there is no one-size-fits-all graphical user interface for transforming JSON into other formats.
 
@@ -934,7 +934,7 @@ brew install jq
 ### Installation on Windows
 
 To access the command line easily on Windows, you will need the PowerShell application.
-[See the Programming Historian's "Introduction to PowerShell"](/en/lessons/intro-to-powershell.html)
+[See the Programming Historian's "Introduction to PowerShell"](/en/lessons/intro-to-powershell)
 
 From PowerShell, you can install the Windows package manager [Chocolatey](https://chocolatey.org/install), and then install jq with the following command:
 
@@ -963,7 +963,7 @@ wget -qO- http://programminghistorian.org/assets/json-and-jq/jq_rkm.json | jq -r
 ```
 
 Note that you must use the `wget` flag `-qO-` in order to send the output of `wget` into `jq` by way of a shell pipe.
-You can read more about command line pipes in ["Introduction to the Bash Command Line"](/en/lessons/intro-to-bash) (OS X) or ["Introduction to PowerShell"](/en/lessons/intro-to-powershell.html) (Windows).
+You can read more about command line pipes in ["Introduction to the Bash Command Line"](/en/lessons/intro-to-bash) (OS X) or ["Introduction to PowerShell"](/en/lessons/intro-to-powershell) (Windows).
 
 ## Further Resources
 
