@@ -1,7 +1,7 @@
 ---
 title: Editor Guidelines
 layout: blank
-redirect_from: /editor-guidelines/
+redirect_from: /editor-guidelines
 ---
 
 # Editor Guidelines
