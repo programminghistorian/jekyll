@@ -103,7 +103,7 @@ or Quantum GIS.
 {% include figure.html filename="en-or-googlemaps-googleearth-06.png" caption="Figure 6" %}
 
 -   Download this sample data and located it on your computer: [UK
-    Global Fat Supply CSV file]((/assets/googlemaps-googleearth/UKGlobalFatSupply1894-1896.csv.zip)). If you open the file in Excel or
+    Global Fat Supply CSV file](/assets/googlemaps-googleearth/UKGlobalFatSupply1894-1896.csv.zip). If you open the file in Excel or
     another spreadsheet program, you'll find a simple two column dataset
     with a list of different kinds of fats and the associated list of
     places. This data was created using British import tables from 1896.
