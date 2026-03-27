@@ -92,7 +92,7 @@ Chaque choix est précédé de deux cases à cocher. La première case, contenan
 
 Vous verrez aussi *Créer un nouvel élément* (pour cette cellule, ou pour cette cellule et toutes les cellules identiques) : ignorez pour le moment. *Chercher une correspondance* permet de relancer une recherche dans Wikidata avec un autre contenu. Souvent, ce qui fonctionne bien est d'utiliser une valeur de cellule plus restreinte (un titre ou un nom plus court, par exemple).
 
-Pour aller plus loin, rendez-vous à la section [Comment améliorer la réconciliation ?](#comment-améliorer-la-réconciliation) de cette leçon.
+Pour aller plus loin, rendez-vous à la section [Comment améliorer la réconciliation ?](#comment-ameliorer-la-reconciliation-) de cette leçon.
 
 En survolant les valeurs proposées en choix, il est possible de visualiser un extrait de l’élément Wikidata. Cliquer sur un lien ouvre un nouvel onglet vers cet élément Wikidata. Il est possible de choisir une valeur pour chaque cellule non résolue. À la fin de chaque choix pour chaque cellule, vous verrez un chiffre gris indiqué entre parenthèses. Ce chiffre est le score de correspondance estimé par OpenRefine (100 est le meilleur score).
 
@@ -207,7 +207,7 @@ Avant l’exportation finale des données enrichies, je recommande d’ajouter u
 
 Pour cela, avec notre exemple ci-dessus, cliquez sur les options de la colonne **Titre_RECON** > **Réconcilier** > **Ajouter une colonne d’identifiants d’entités...** Puis, indiquez le titre de la colonne, **Titre_QID**.
 
-### Comment améliorer la réconciliation ?
+### Comment améliorer la réconciliation&nbsp;?
 
 Vous remarquerez probablement que la réconciliation est parfois peu satisfaisante. Voici quelques techniques pour réduire les réconciliations manuelles après une réconciliation automatique insatisfaisante.
 
@@ -233,7 +233,7 @@ Vous remarquerez probablement que la réconciliation est parfois peu satisfaisan
       - `Hist Sci Med`-> `Histoire des sciences médicales`     
       - `AHA` -> `American Historical Association`    
 
-### À quoi correspond &laquo;&nbsp;Créer un nouvel élément&nbsp;&raquo; ?
+### À quoi correspond &laquo;&nbsp;Créer un nouvel élément&nbsp;&raquo;?
 
 Cela permet de marquer un enregistrement pour créer un élément dans Wikidata depuis OpenRefine. Je n’utilise pas cette option, car je préfère créer de nouveaux éléments directement dans Wikidata (manuellement ou avec QuickStatements). Cela garantit une meilleure indexation et plus de contrôle sur le processus de création ou d’enrichissement. 
 
