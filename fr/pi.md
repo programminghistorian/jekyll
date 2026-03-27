@@ -45,7 +45,7 @@ Joindre le programme de Partenariat institutionnel vous donnera accès aux avant
 
 - Une invitation à notre [assemblée générale annuelle](https://beta.companieshouse.gov.uk/company/12192946) en tant que membre consultatif (une personne par Partenaire).
 - La ventilation annuelle des dépenses de ProgHist Ltd.
-- La reconnaissance explicite de votre contribution dans la section [Nos soutiens](nos-soutiens).
+- La reconnaissance explicite de votre contribution dans la section [Nos soutiens](/fr/nos-soutiens).
 - Le droit de souligner ce partenariat dans les activités de promotion de votre institution.
 - Des conseils ad hoc de notre équipe sur la gestion d'une publication en libre accès, la mise en œuvre de processus de publication multilingue ou l'adaptation d'articles du _Programming Historian_ pour un cadre d'atelier (consultation informelle sur demande). 
 - Pour les bibliothèques partenaires: une liste d’articles publiés par toutes les versions du _Programming Historian_ (sur demande).
