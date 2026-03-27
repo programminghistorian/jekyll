@@ -321,7 +321,7 @@ The peer review process normally happens in 3 stages:
 
 3) Once your editor and peer reviewers are happy with the piece, the editor will recommend publication to the Managing Editor, who will read the piece to ensure that it meets our Author's Guidelines and standards. In some cases there may be additional revisions or copy editing at this stage to bring the  piece in line with our publishing standards. If the Managing Editor is happy with the piece, it will be moved to the live site for publication. Your editor will inform you of any additional information required at this stage.
 
-You may find it helpful to read our [editor guidelines](/editor-guidelines), which detail our editorial process.
+You may find it helpful to read our [editor guidelines](/en/editor-guidelines), which detail our editorial process.
 
 If at any point you are unsure of your role or what to do next, post a question to the peer review issue. One of our editors will respond as soon as possible. We endeavour to respond to all queries within a few days.
 
