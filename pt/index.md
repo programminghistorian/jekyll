@@ -39,6 +39,6 @@ permalink: /pt/
 <div class="home-block">
 <div class="container">
 <h2>A Nossa Equipe</h2>
-	<p>Sendo o <i>Programming Historian em português</i> uma iniciativa voluntária, voltada para a comunidade, nos orgulhamos de mostrar e dar crédito  <a href="equipe.html">às muitas pessoas</a> que têm contribuído com o seu tempo e energia para o projeto.</p>
+	<p>Sendo o <i>Programming Historian em português</i> uma iniciativa voluntária, voltada para a comunidade, nos orgulhamos de mostrar e dar crédito  <a href="equipe">às muitas pessoas</a> que têm contribuído com o seu tempo e energia para o projeto.</p>
 </div>
 </div>
