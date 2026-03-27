@@ -1244,7 +1244,7 @@ closely examining the data first). They are also useful in that they can
 help us determine whether something is skewing our results in a way we
 don't wish, something we may be able to correct for with different
 weighting or different selection of features (see the section on
-[Tuning](#Tuning) below).
+[Tuning](#tuning) below).
 
 ### The meanings of misclassification
 
