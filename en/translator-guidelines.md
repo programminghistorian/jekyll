@@ -50,7 +50,7 @@ Our preferred way for translators to submit a lesson is to add them directly to 
 </div>
 
 ### Translation Submitted! Now What?
-To see what happens after you submit a translation, feel free to browse our [editor guidelines](/editor-guidelines), which detail our editorial process. Highlights are below:
+To see what happens after you submit a translation, feel free to browse our [editor guidelines](/en/editor-guidelines), which detail our editorial process. Highlights are below:
 
 The most immediately important step is that your editor will create an [issue](https://github.com/programminghistorian/ph-submissions/issues) for the new translation on the [ph-submissions](https://github.com/programminghistorian/ph-submissions) repository, with a link to your lesson (that you previewed in step 5). The editor and at least two reviewers invited by the editor will post their comments to this issue.
 
