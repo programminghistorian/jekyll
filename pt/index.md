@@ -32,7 +32,7 @@ permalink: /pt/
 <div class="home-block home-stripe-2">
 <div class="container">
 <h2>Contribua</h2>
-<p><a href="directrizes-autor.html">Escreva uma lição</a>, junte-se à nossa <a href="directrizes-revisor">equipe de revisores</a>, <a href="reportar-um-erro">dê o seu feedback</a>. Estamos sempre interessados em ouvir os nossos leitores!</p>
+<p><a href="directrizes-autor">Escreva uma lição</a>, junte-se à nossa <a href="directrizes-revisor">equipe de revisores</a>, <a href="reportar-um-erro">dê o seu feedback</a>. Estamos sempre interessados em ouvir os nossos leitores!</p>
 </div>
 </div>
 
