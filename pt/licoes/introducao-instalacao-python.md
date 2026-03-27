@@ -80,7 +80,7 @@ Nós fornecemos instruções para o Mac, Windows e Linux. Uma vez que você tenh
   [Editores Python]: https://wiki.python.org/python/PythonEditors
   [Jungle Disk]: https://www.jungledisk.com/
   [Dropbox]: https://www.dropbox.com/home
-  [Noções básicas de páginas web e HTML]: nocoes-basicas-paginas-web-html
+  [Noções básicas de páginas web e HTML]: /pt/licoes/nocoes-basicas-paginas-web-html
   [Instalação do Python para Mac]: instalacao-mac
   [Instalação do Python para Windows]: instalacao-windows
   [Instalação do Python para Linux]: instalacao-linux
