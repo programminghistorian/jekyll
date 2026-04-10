@@ -82,7 +82,7 @@ Anyone who is working, teaching, or learning with computational methods. You mig
 
 Thank you to those partners who have renewed their membership this quarter: [Universiteit Gent](https://www.ugent.be/), [KU Leuven Bibliotheken](https://bib.kuleuven.be/), [University of Sheffield Library](https://www.sheffield.ac.uk/library), [University of Bristol Library](https://www.bristol.ac.uk/library/), [College of the Liberal Arts, Penn State University](https://la.psu.edu/), [Universität Bern Bibliothek](https://www.ub.unibe.ch/), [University of York](https://www.york.ac.uk/), and [Université de Montréal](https://www.umontreal.ca/) – all at Silver Tier.
 
-As a Diamond Open Access publisher, we rely on partnerships to maintain and develop our multilingual portfolio of journals. Our success through 2026 and beyond depends upon the ongoing support of our community. If you’d like to learn more about joining our **Institutional Partnership Programme**, please [get in touch with our Publishing Manager](mailto: admin@programminghistorian.org).
+As a Diamond Open Access publisher, we rely on partnerships to maintain and develop our multilingual portfolio of journals. Our success through 2026 and beyond depends upon the ongoing support of our community. If you’d like to learn more about joining our **Institutional Partnership Programme**, please [get in touch with our Publishing Manager](mailto:admin@programminghistorian.org).
 
 Each month, we receive generous support from individuals via **Patreon**. You can join us at Apprentice, Educator, Patron or Gold tier: [tinyurl.com/PH-patreon](https://tinyurl.com/PH-patreon).
   
@@ -94,4 +94,4 @@ We are proud to be part of the **Open Journals Collective** – an international
 
 - Follow us on social media to stay in touch with new articles, news, and opportunities to participate: [Bluesky](https://bsky.app/profile/proghist.bsky.social) - [Mastodon](https://hcommons.social/@proghist) - [LinkedIn](https://www.linkedin.com/company/prog-hist/) - [Instagram](https://www.instagram.com/prog.hist/) 
 
-- Support us through our [Institutional Partnership Programme](https://programminghistorian.org/en/ipp) or via [Patreon](https://www.patreon.com/theprogramminghistorian).
+- Support us through our [Institutional Partnership Programme](/en/ipp) or via [Patreon](https://www.patreon.com/theprogramminghistorian).
