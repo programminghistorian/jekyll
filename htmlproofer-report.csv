@@ -8,122 +8,19 @@ _site/fr/dons/index.html,250,image /images/website/individual/red-bird-on-branch
 _site/fr/index.html,249,image /images/website/index/woman-using-tabulator.png does not have an alt attribute
 _site/fr/pi/index.html,250,image /images/website/ipp/bird-with-eggs-nest.png does not have an alt attribute
 _site/pt/index.html,251,image /images/website/index/woman-using-tabulator.png does not have an alt attribute
-_site/en/editor-guidelines/index.html,587,http://www.loc.gov/maps/collections is not an HTTPS link
-_site/en/lessons/applied-archival-downloading-with-wget/index.html,526,http://en.wikipedia.org/wiki/Leading_zero is not an HTTPS link
-_site/en/lessons/applied-archival-downloading-with-wget/index.html,680,http://memory.loc.gov/cgi-bin/ampage?collId=mtj1&fileName=mtj1page001.db&recNum=1&itemLink=/ammem/collections/jefferson_papers/mtjser1.html&linkText=6 is not an HTTPS link
-_site/en/lessons/applied-archival-downloading-with-wget/index.html,735,http://cushing.med.yale.edu/gsdl/collect/mdposter/ is not an HTTPS link
-_site/en/lessons/corpus-analysis-voyant-tools/index.html,579,http://voyant-tools.org/ is not an HTTPS link
-_site/en/lessons/detecting-text-reuse-with-passim/index.html,1495,http://dx.doi.org/10.1145/2682571.2797068 is not an HTTPS link
-_site/en/lessons/exploring-and-analyzing-network-data-with-python/index.html,996,http://perso.crans.org/aynaud/communities/api.html is not an HTTPS link
-_site/en/lessons/exploring-and-analyzing-network-data-with-python/index.html,1043,http://pandas.pydata.org/ is not an HTTPS link
-_site/en/lessons/geocoding-qgis/index.html,728,http://www.gazetteer.org.uk/index.php is not an HTTPS link
-_site/en/lessons/getting-started-with-markdown/index.html,727,http://programminghistorian.org/ is not an HTTPS link
-_site/en/lessons/introduction-and-installation/index.html,513,http://www.python.org/ is not an HTTPS link
-_site/en/lessons/introduction-and-installation/index.html,514,http://www.crummy.com/software/BeautifulSoup/ is not an HTTPS link
-_site/en/lessons/mac-installation/index.html,498,http://support.apple.com/kb/ht1427 is not an HTTPS link
-_site/en/lessons/mac-installation/index.html,504,http://www.python.org/ is not an HTTPS link
-_site/en/lessons/preserving-your-research-data/index.html,580,http://en.wikipedia.org/wiki/PRINCE2 is not an HTTPS link
-_site/en/lessons/preserving-your-research-data/index.html,621,http://en.wikipedia.org/wiki/Cross-platform is not an HTTPS link
-_site/en/lessons/preserving-your-research-data/index.html,644,http://en.wikipedia.org/wiki/Markdown is not an HTTPS link
-_site/en/lessons/qgis-layers/index.html,611,http://www.gov.pe.ca/gis/download.php3?name=forest_35&file_format=SHP is not an HTTPS link
-_site/en/lessons/windows-installation/index.html,508,http://www.python.org/ is not an HTTPS link
-_site/en/lessons/windows-installation/index.html,579,http://en.wikipedia.org/wiki/UTF-8 is not an HTTPS link
-_site/en/research/index.html,436,http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/ is not an HTTPS link
-_site/en/research/index.html,438,http://clionauta.hypotheses.org/16979 is not an HTTPS link
-_site/es/guia-editor/index.html,621,http://www.loc.gov/maps/collections is not an HTTPS link
-_site/es/investigacion/index.html,437,http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/ is not an HTTPS link
-_site/es/investigacion/index.html,439,http://clionauta.hypotheses.org/16979 is not an HTTPS link
-_site/es/lecciones/gestionar-fuentes-primarias-digitales-con-tropy/index.html,530,http://tropy.org is not an HTTPS link
-_site/es/lecciones/gestionar-fuentes-primarias-digitales-con-tropy/index.html,561,http://tropy.org is not an HTTPS link
-_site/es/lecciones/introduccion-a-markdown/index.html,748,http://programminghistorian.org/ is not an HTTPS link
-_site/es/lecciones/reutilizando-colecciones-digitales-glam-labs/index.html,515,http://rua.ua.es/dspace/handle/10045/110281 is not an HTTPS link
-_site/fr/lecons/compter-exploiter-donnees-unix/index.html,559,http://www.7-zip.org/ is not an HTTPS link
-_site/fr/lecons/debuter-avec-markdown/index.html,772,http://programminghistorian.org/ is not an HTTPS link
-_site/fr/lecons/detecter-la-reutilisation-de-texte-avec-passim/index.html,1538,http://dx.doi.org/10.1145/2682571.2797068 is not an HTTPS link
-_site/fr/lecons/installation-windows-py/index.html,548,http://www.python.org/ is not an HTTPS link
-_site/fr/lecons/installation-windows-py/index.html,608,http://en.wikipedia.org/wiki/UTF-8 is not an HTTPS link
-_site/fr/lecons/introduction-et-installation/index.html,544,http://www.python.org/ is not an HTTPS link
-_site/fr/lecons/introduction-et-installation/index.html,544,http://www.crummy.com/software/BeautifulSoup/ is not an HTTPS link
-_site/fr/lecons/preserver-ses-donnees-de-recherche/index.html,608,http://notepad-plus-plus.org is not an HTTPS link
-_site/fr/recherche/index.html,436,http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/ is not an HTTPS link
-_site/fr/recherche/index.html,438,http://clionauta.hypotheses.org/16979 is not an HTTPS link
-_site/pt/directrizes-editor/index.html,591,http://www.loc.gov/maps/collections is not an HTTPS link
-_site/pt/licoes/geocodificando-qgis/index.html,769,http://www.gazetteer.org.uk/index.php is not an HTTPS link
-_site/pt/licoes/instalacao-mac/index.html,538,http://support.apple.com/kb/ht1427 is not an HTTPS link
-_site/pt/licoes/introducao-dados-abertos-conectados/index.html,1089,http://www.ahrc.ac.uk/ is not an HTTPS link
-_site/pt/licoes/introducao-instalacao-python/index.html,544,http://www.python.org/ is not an HTTPS link
-_site/pt/licoes/introducao-instalacao-python/index.html,544,http://www.crummy.com/software/BeautifulSoup/ is not an HTTPS link
-_site/pt/licoes/introducao-map-warper/index.html,562,http://mapwarper.net/ is not an HTTPS link
-_site/pt/licoes/qgis-camadas/index.html,610,http://www.gov.pe.ca/gis/download.php3?name=forest_35&file_format=SHP is not an HTTPS link
-_site/pt/licoes/som-dados-sonificacao-historiadores/index.html,1156,'a' tag is missing a reference
-_site/pt/pesquisa/index.html,430,http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/ is not an HTTPS link
-_site/pt/pesquisa/index.html,432,http://clionauta.hypotheses.org/16979 is not an HTTPS link
-_site/en/feedback/index.html,254,External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
-_site/en/lessons/common-similarity-measures/index.html,802,External link https://pandas.pydata.org/docs/getting_started/dsintro.html#dataframe failed (status code 404)
-_site/en/lessons/crowdsourced-data-normalization-with-pandas/index.html,883,External link https://pandas-docs.github.io/pandas-docs-travis/user_guide/timeseries.html#timestamp-limitations failed (status code 404)
-_site/en/lessons/data-mining-the-internet-archive/index.html,1111,External link https://internetarchive.readthedocs.io/en/latest/quickstart.html#searching failed (status code 404)
-_site/en/lessons/data-mining-the-internet-archive/index.html,1113,External link https://internetarchive.readthedocs.io/en/latest/quickstart.html#downloading failed (status code 404)
-_site/en/lessons/detecting-text-reuse-with-passim/index.html,1218,External link https://textcreationpartnership.org/tcp-texts/eebo-tcp-early-english-books-online/ failed (status code 404)
-_site/en/lessons/mapping-with-python-leaflet/index.html,1185,External link https://leafletjs.com/SlavaUkraini/reference-1.2.0.html#geojson-oneachfeature failed (status code 404)
+_site/en/lessons/facial-recognition-ai-python/index.html,494,External link https://github.com/serengil/deepface failed (status code 404)
+_site/en/lessons/facial-recognition-ai-python/index.html,949,External link https://github.com/serengil/deepface failed (status code 404)
 _site/en/lessons/retired/getting-started-with-github-desktop/index.html,495,External link https://central.github.com/mac/latest failed (status code 401)
 _site/en/lessons/retired/getting-started-with-github-desktop/index.html,595,External link https://central.github.com/mac/latest failed (status code 401)
 _site/en/lessons/retired/getting-started-with-github-desktop/index.html,1057,External link https://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing failed (status code 404)
 _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html,510,External link https://play.google.com/store/apps/details?id=com.Trace.Dollars&hl=en failed (status code 404)
-_site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html,516,External link https://docs.unity3d.com/Manual/LearningtheInterface.html failed (status code 404)
 _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html,516,External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
-_site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html,1335,External link https://docs.unity3d.com/Manual/Transforms.html failed (status code 404)
-_site/en/lessons/text-mining-with-extracted-features/index.html,630,External link https://pandas.pydata.org/pandas-docs/version/0.15.2/install.html#recommended-dependencies failed (status code 404)
-_site/en/lessons/transliterating/index.html,901,External link https://www.activestate.com/komodo-edit failed (status code 404)
-_site/es/lecciones/mineria-de-datos-en-internet-archive/index.html,595,External link https://internetarchive.readthedocs.io/en/latest/quickstart.html#searching failed (status code 404)
-_site/es/lecciones/mineria-de-datos-en-internet-archive/index.html,613,External link https://internetarchive.readthedocs.io/en/latest/quickstart.html#downloading failed (status code 404)
-_site/es/lecciones/mineria-de-datos-en-internet-archive/index.html,698,External link https://internetarchive.readthedocs.io/en/latest/quickstart.html#downloading failed (status code 404)
 _site/es/lecciones/retirada/introduccion-control-versiones-github-desktop/index.html,537,External link https://central.github.com/mac/latest failed (status code 401)
 _site/es/lecciones/retirada/introduccion-control-versiones-github-desktop/index.html,635,External link https://central.github.com/mac/latest failed (status code 401)
 _site/es/lecciones/retirada/introduccion-control-versiones-github-desktop/index.html,1073,External link https://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing failed (status code 404)
-_site/es/retroalimentacion/index.html,256,External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
-_site/fr/lecons/detecter-la-reutilisation-de-texte-avec-passim/index.html,1261,External link https://textcreationpartnership.org/tcp-texts/eebo-tcp-early-english-books-online/ failed (status code 404)
-_site/fr/reaction/index.html,256,External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
-_site/pt/reportar-um-erro/index.html,256,External link https://github.com/orgs/programminghistorian/projects/6 failed (status code 404)
-_site/en/author-guidelines/index.html,258,"internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not"
-_site/en/author-guidelines/index.html,258,"internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not"
-_site/en/author-guidelines/index.html,258,"internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not"
-_site/en/contribute/index.html,253,"internally linking to /es/guia-para-autores#paso-1-proponer-una-nueva-lección; the file exists, but the hash 'paso-1-proponer-una-nueva-lección' does not"
-_site/en/contribute/index.html,253,"internally linking to /fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon; the file exists, but the hash 'étape-1-proposer-une-nouvelle-leçon' does not"
-_site/en/contribute/index.html,253,"internally linking to /pt/directrizes-autor#etapa-1-propor-uma-nova-lição; the file exists, but the hash 'etapa-1-propor-uma-nova-lição' does not"
+_site/en/author-guidelines/index.html,617,"internally linking to /editor-guidelines, which does not exist"
 _site/en/contribute/index.html,272,"internally linking to editor-guidelines, which does not exist"
-_site/en/editor-guidelines/index.html,345,"internally linking to #c-sustainability-review; the file exists, but the hash 'c-sustainability-review' does not"
-_site/en/individual/index.html,276,"internally linking to ipp, which does not exist"
-_site/en/lesson-retirement-policy/index.html,285,"internally linking to /en/author-guidelines#write-sustainably; the file exists, but the hash 'write-sustainably' does not"
-_site/en/lesson-retirement-policy/index.html,287,"internally linking to /reviewer-guidelines#sustainability; the file exists, but the hash 'sustainability' does not"
-_site/en/lesson-retirement-policy/index.html,289,"internally linking to /editor-guidelines#c-sustainability-review; the file exists, but the hash 'c-sustainability-review' does not"
-_site/en/lessons/analyzing-multilingual-text-nltk-spacy-stanza/index.html,638,"internally linking to #Developing-Python-Code-for-Multilingual-Text-Analysis; the file exists, but the hash 'Developing-Python-Code-for-Multilingual-Text-Analysis' does not"
-_site/en/lessons/beginners-guide-to-twitter-data/index.html,502,"internally linking to /en/lessons/introduction-to-populating-a-website-with-api-data#what-is-application-programming-interface-api; the file exists, but the hash 'what-is-application-programming-interface-api' does not"
-_site/en/lessons/beginners-guide-to-twitter-data/index.html,504,"internally linking to /en/lessons/beginners-guide-to-twitter-data#hydrating; the file exists, but the hash 'hydrating' does not"
-_site/en/lessons/choropleth-maps-python-folium/index.html,1658,"internally linking to #The-Problem-of-Uneven-Distribution-of-Data; the file exists, but the hash 'The-Problem-of-Uneven-Distribution-of-Data' does not"
-_site/en/lessons/clustering-visualizing-word-embeddings/index.html,892,"internally linking to /en/lessons/clustering-with-scikit-learn-in-python#3-dimensionality-reduction-using-pca; the file exists, but the hash '3-dimensionality-reduction-using-pca' does not"
-_site/en/lessons/clustering-visualizing-word-embeddings/index.html,894,"internally linking to /en/lessons/clustering-with-scikit-learn-in-python#second-case-study-clustering-textual-data; the file exists, but the hash 'second-case-study-clustering-textual-data' does not"
-_site/en/lessons/clustering-visualizing-word-embeddings/index.html,1566,"internally linking to /en/lessons/clustering-with-scikit-learn-in-python#3-dimensionality-reduction-using-pca; the file exists, but the hash '3-dimensionality-reduction-using-pca' does not"
-_site/en/lessons/corpus-analysis-with-spacy/index.html,568,"internally linking to /en/lessons/sentiment-analysis#calculate-sentiment-for-a-paragraph; the file exists, but the hash 'calculate-sentiment-for-a-paragraph' does not"
-_site/en/lessons/corpus-analysis-with-spacy/index.html,2003,"internally linking to /en/lessons/finding-places-world-historical-gazetteer#4-building-a-gazetteer; the file exists, but the hash '4-building-a-gazetteer' does not"
-_site/en/lessons/creating-mobile-augmented-reality-experiences-in-unity/index.html,612,"internally linking to /en/lessons/intro-to-augmented-reality-with-unity, which does not exist"
-_site/en/lessons/crowdsourced-data-normalization-with-pandas/index.html,580,"internally linking to /en/lessons/visualizing-with-bokeh#creating-a-python-3-virtual-environment; the file exists, but the hash 'creating-a-python-3-virtual-environment' does not"
-_site/en/lessons/detecting-text-reuse-with-passim/index.html,747,"internally linking to #compiling-passim-from-the-sources-(macOS); the file exists, but the hash 'compiling-passim-from-the-sources-(macOS)' does not"
-_site/en/lessons/exploring-and-analyzing-network-data-with-python/index.html,586,"internally linking to /en/lessons/creating-network-diagrams-from-historical-sources#developing-a-coding-scheme; the file exists, but the hash 'developing-a-coding-scheme' does not"
-_site/en/lessons/extracting-illustrated-pages/index.html,709,"internally linking to /en/lessons/text-mining-with-extracted-features#start-a-notebook; the file exists, but the hash 'start-a-notebook' does not"
-_site/en/lessons/from-html-to-list-of-words-1/index.html,747,"internally linking to /en/lessons/manipulating-strings-in-python#code-syncing; the file exists, but the hash 'code-syncing' does not"
-_site/en/lessons/generating-an-ordered-data-set-from-an-OCR-text-file/index.html,766,"internally linking to #footnotes; the file exists, but the hash 'footnotes' does not"
-_site/en/lessons/googlemaps-googleearth/index.html,662,"internally linking to (/assets/googlemaps-googleearth/UK.Global.Fat.Supply.1894-1896.-.Sheet1.csv.zip), which does not exist"
-_site/en/lessons/image-classification-neural-networks/index.html,610,"internally linking to #understanding-artificial-neurons; the file exists, but the hash 'understanding-artificial-neurons' does not"
-_site/en/lessons/installing-omeka/index.html,469,"internally linking to up-and-running-with-omeka.html, which does not exist"
-_site/en/lessons/interactive-data-visualization-dashboard/index.html,651,"internally linking to /en/lessons/jupyter-notebooks#installing-jupyter-notebooks; the file exists, but the hash 'installing-jupyter-notebooks' does not"
-_site/en/lessons/interactive-data-visualization-dashboard/index.html,659,"internally linking to /en/lessons/visualizing-with-bokeh#prerequisites; the file exists, but the hash 'prerequisites' does not"
-_site/en/lessons/interactive-data-visualization-dashboard/index.html,918,"internally linking to /en/lessons/shiny-leaflet-newspaper-map-tutorial#shiny-and-reactive-programming; the file exists, but the hash 'shiny-and-reactive-programming' does not"
-_site/en/lessons/interactive-data-visualization-dashboard/index.html,1048,"internally linking to /en/lessons/building-static-sites-with-jekyll-github-pages/#github--github-pages-; the file exists, but the hash 'github--github-pages-' does not"
-_site/en/lessons/introduction-to-ffmpeg/index.html,535,"internally linking to /en/lessons/intro-to-powershell#quick-reference; the file exists, but the hash 'quick-reference' does not"
-_site/en/lessons/json-and-jq/index.html,509,"internally linking to /en/lessons/intro-to-the-zotero-api, which does not exist"
-_site/en/lessons/json-and-jq/index.html,1428,"internally linking to /en/lessons/intro-to-powershell.html, which does not exist"
-_site/en/lessons/json-and-jq/index.html,1456,"internally linking to /en/lessons/intro-to-powershell.html, which does not exist"
-_site/en/lessons/jupyter-notebooks/index.html,519,"internally linking to /en/lessons/extracting-illustrated-pages#jupyter-notebooks; the file exists, but the hash 'jupyter-notebooks' does not"
+_site/en/lessons/googlemaps-googleearth/index.html,662,"internally linking to (/assets/googlemaps-googleearth/UKGlobalFatSupply1894-1896.csv.zip), which does not exist"
 _site/en/lessons/keywords-in-context-using-n-grams/index.html,514,"internally linking to output-data-as-html-file [zip file from the previous lesson](/assets/python-lessons7.zip), which does not exist"
 _site/en/lessons/linear-regression/index.html,584,"internally linking to #alternatives-to-anaconda; the file exists, but the hash 'alternatives-to-anaconda' does not"
 _site/en/lessons/naive-bayesian/index.html,1843,"internally linking to #Tuning; the file exists, but the hash 'Tuning' does not"
@@ -136,51 +33,17 @@ _site/en/lessons/retired/graph-databases-and-SPARQL/index.html,494,"internally l
 _site/en/lessons/retired/graph-databases-and-SPARQL/index.html,1185,"internally linking to /en/lessons/intro-to-beautiful-soup.html, which does not exist"
 _site/en/lessons/retired/graph-databases-and-SPARQL/index.html,1190,"internally linking to /en/lessons/intro-to-bash.html, which does not exist"
 _site/en/lessons/retired/graph-databases-and-SPARQL/index.html,1228,"internally linking to /en/lessons/creating-network-diagrams-from-historical-sources.html#visualize-network-data-in-palladio, which does not exist"
-_site/en/lessons/scalable-reading-of-structured-data/index.html,600,"internally linking to /en/lessons/basic-text-processing-in-r#package-set-up; the file exists, but the hash 'package-set-up' does not"
-_site/en/lessons/shiny-leaflet-newspaper-map-tutorial/index.html,855,"internally linking to #Final-code; the file exists, but the hash 'Final-code' does not"
-_site/en/lessons/shiny-leaflet-newspaper-map-tutorial/index.html,979,"internally linking to #Final-code; the file exists, but the hash 'Final-code' does not"
-_site/en/lessons/simulating-historical-communication-networks-python/index.html,1096,"internally linking to /en/lessons/common-similarity-measures#city-block-manhattan-distance; the file exists, but the hash 'city-block-manhattan-distance' does not"
-_site/en/lessons/urban-demographic-data-r-ggplot2/index.html,645,"internally linking to #Facetting-a-Graph; the file exists, but the hash 'Facetting-a-Graph' does not"
-_site/en/lessons/visualizing-with-bokeh/index.html,1248,"internally linking to /en/lessons/mapping-with-python-leaflet#geocoding-with-python; the file exists, but the hash 'geocoding-with-python' does not"
-_site/en/supporters/index.html,261,"internally linking to support-us#institutional-partner-programme, which does not exist"
-_site/en/supporters/index.html,295,"internally linking to ipp, which does not exist"
-_site/en/supporters/index.html,298,"internally linking to support-us#institutional-partner-programme, which does not exist"
-_site/en/translator-guidelines/index.html,248,"internally linking to #proposing-a-new-lesson; the file exists, but the hash 'proposing-a-new-lesson' does not"
-_site/en/translator-guidelines/index.html,249,"internally linking to #writing-a-new-lesson; the file exists, but the hash 'writing-a-new-lesson' does not"
-_site/en/translator-guidelines/index.html,250,"internally linking to #submitting-a-new-lesson; the file exists, but the hash 'submitting-a-new-lesson' does not"
-_site/es/guia-editor/index.html,353,"internally linking to #c-revisar-la-sostenibilidad; the file exists, but the hash 'c-revisar-la-sostenibilidad' does not"
-_site/es/lecciones/construir-repositorio-de-fuentes/index.html,555,"internally linking to /en/lessons/installing-omeka#step-2a-for-vps-hosting; the file exists, but the hash 'step-2a-for-vps-hosting' does not"
-_site/es/lecciones/construir-repositorio-de-fuentes/index.html,621,"internally linking to /en/lessons/installing-omeka#step-2-install-your-server-and-database; the file exists, but the hash 'step-2-install-your-server-and-database' does not"
-_site/es/lecciones/construir-repositorio-de-fuentes/index.html,645,"internally linking to /en/lessons/installing-omeka#step-4-configure-omeka-to-use-your-database; the file exists, but the hash 'step-4-configure-omeka-to-use-your-database' does not"
-_site/es/lecciones/introduccion-a-powershell/index.html,559,"internally linking to #referencia-rapida; the file exists, but the hash 'referencia-rapida' does not"
-_site/es/lecciones/introduccion-a-powershell/index.html,561,"internally linking to #Utilización-de-herramientas-de-línea-de-comandos-y-ejecución-de-secuencias-de-comandos-en-Python; the file exists, but the hash 'Utilización-de-herramientas-de-línea-de-comandos-y-ejecución-de-secuencias-de-comandos-en-Python' does not"
-_site/es/lecciones/introduccion-a-tei-2/index.html,2010,"internally linking to /es/lecciones/introduccion-a-tei-1#visualizaci%C3%B3n-vs-categorizaci%C3%B3n; the file exists, but the hash 'visualizaci%C3%B3n-vs-categorizaci%C3%B3n' does not"
-_site/es/lecciones/lectura-escalable-de-datos-estructurados/index.html,681,"internally linking to #paso-3-selecion-sistematica-y-reproducible-de-datos-individuales-para-la-lectura-atenta; the file exists, but the hash 'paso-3-selecion-sistematica-y-reproducible-de-datos-individuales-para-la-lectura-atenta' does not"
-_site/es/lecciones/lectura-escalable-de-datos-estructurados/index.html,1073,"internally linking to #paso-3-selecion-sistematica-y-reproducible-de-datos-individuales-para-la-lectura-atenta; the file exists, but the hash 'paso-3-selecion-sistematica-y-reproducible-de-datos-individuales-para-la-lectura-atenta' does not"
+_site/en/translator-guidelines/index.html,293,"internally linking to /editor-guidelines, which does not exist"
+_site/es/lecciones/datos-urbanos-demograficos-r-ggplot2/index.html,799,"internally linking to #faceteando-un-grafico; the file exists, but the hash 'faceteando-un-grafico' does not"
 _site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html,541,"internally linking to /en/lessons/intro-to-the-zotero-api.html, which does not exist"
 _site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html,1074,"internally linking to /en/lessons/intro-to-beautiful-soup.html, which does not exist"
 _site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html,1074,"internally linking to /en/lessons/intro-to-bash.html, which does not exist"
-_site/es/lecciones/sitios-estaticos-con-jekyll-y-github-pages/index.html,665,"internally linking to sitios-dinámicos-sitios-estáticos-y-jekyll, which does not exist"
-_site/es/lecciones/topic-modeling-y-mallet/index.html,557,"internally linking to introduccion-a-bash, which does not exist"
-_site/es/lecciones/topic-modeling-y-mallet/index.html,857,"internally linking to introduccion-a-bash, which does not exist"
-_site/es/lecciones/uso-las-colecciones-hathitrust-mineria-textual-R/index.html,583,"internally linking to /es/lecciones/administracion-de-datos-en-r#requisitos; the file exists, but the hash 'requisitos' does not"
-_site/es/politica-retirada-lecciones/index.html,283,"internally linking to /es/guia-para-autores#escribe-de-manera-sostenible; the file exists, but the hash 'escribe-de-manera-sostenible' does not"
-_site/es/politica-retirada-lecciones/index.html,285,"internally linking to /es/guia-para-revisores#sostenibilidad; the file exists, but the hash 'sostenibilidad' does not"
-_site/es/politica-retirada-lecciones/index.html,287,"internally linking to /es/guia-editor#c-revisar-la-sostenibilidad; the file exists, but the hash 'c-revisar-la-sostenibilidad' does not"
-_site/fr/lecons/analyse-reseau-python/index.html,612,"internally linking to /en/lessons/creating-network-diagrams-from-historical-sources#developing-a-coding-scheme; the file exists, but the hash 'developing-a-coding-scheme' does not"
-_site/fr/lecons/concevoir-base-donnees-nodegoat/index.html,917,"internally linking to #créer-et-paramétrer-une-base-dans-nodegoat; the file exists, but the hash 'créer-et-paramétrer-une-base-dans-nodegoat' does not"
-_site/fr/lecons/concevoir-base-donnees-nodegoat/index.html,928,"internally linking to #la-logique-de-notre-recherche--entre-le-modèle-de-données-et-la-base-de-données; the file exists, but the hash 'la-logique-de-notre-recherche--entre-le-modèle-de-données-et-la-base-de-données' does not"
 _site/fr/lecons/enrichir-donnees-reconciliation-openrefine/index.html,652,"internally linking to #comment-améliorer-la-réconciliation; the file exists, but the hash 'comment-améliorer-la-réconciliation' does not"
-_site/fr/lecons/enrichir-donnees-reconciliation-openrefine/index.html,764,"internally linking to /fr/lecons/nettoyer-ses-donnees-avec-openrefine#appliquer-une-facette-et-regrouper-des-valeurs-proches; the file exists, but the hash 'appliquer-une-facette-et-regrouper-des-valeurs-proches' does not"
 _site/fr/lecons/generer-jeu-donnees-texte-ocr/index.html,803,"internally linking to /en/lessons/generer-jeu-donnees-texte-ocr#identifier-notes-bas-de-page, which does not exist"
-_site/fr/lecons/generer-jeu-donnees-texte-ocr/index.html,809,"internally linking to /en/lessons/cleaning-ocrd-text-with-regular-expressions#introduction; the file exists, but the hash 'introduction' does not"
 _site/fr/lecons/introduction-a-heurist/index.html,573,"internally linking to #modelisation; the file exists, but the hash 'modelisation' does not"
-_site/fr/lecons/introduction-aux-carnets-jupyter-notebooks/index.html,561,"internally linking to /en/lessons/extracting-illustrated-pages#jupyter-notebooks; the file exists, but the hash 'jupyter-notebooks' does not"
-_site/fr/lecons/visualisations-interactives-plotly/index.html,642,"internally linking to /en/lessons/interactive-visualization-with-plotly#sample-dataset; the file exists, but the hash 'sample-dataset' does not"
 _site/fr/pi/index.html,317,"internally linking to nos-soutiens, which does not exist"
 _site/index.html,14,"internally linking to /images/logos/favicons/_favicon.ico, which does not exist"
 _site/pt/contribua/index.html,266,"internally linking to directrizes-editor, which does not exist"
-_site/pt/directrizes-editor/index.html,347,"internally linking to /pt/directrizes-editor#c-revis%C3%A3o-para-a-sustentabilidade-e-internacionaliza%C3%A7%C3%A3o; the file exists, but the hash 'c-revis%C3%A3o-para-a-sustentabilidade-e-internacionaliza%C3%A7%C3%A3o' does not"
 _site/pt/directrizes-editor/index.html,715,"internally linking to #11-thank-everyone-and-encourage-promotion; the file exists, but the hash '11-thank-everyone-and-encourage-promotion' does not"
 _site/pt/index.html,278,"internally linking to directrizes-autor.html, which does not exist"
 _site/pt/index.html,285,"internally linking to equipe.html, which does not exist"
@@ -190,9 +53,6 @@ _site/pt/licoes-politica-remocao/index.html,287,"internally linking to /directri
 _site/pt/licoes/analise-correspondencia-pesquisa-historica-R/index.html,774,"internally linking to #Apêndice:AMatemáticaportrásdaAnálisedeCorrespondência; the file exists, but the hash 'Apêndice:AMatemáticaportrásdaAnálisedeCorrespondência' does not"
 _site/pt/licoes/analise-correspondencia-pesquisa-historica-R/index.html,865,"internally linking to #Apêndice:AMatemáticaportrásdaAnálisedeCorrespondência; the file exists, but the hash 'Apêndice:AMatemáticaportrásdaAnálisedeCorrespondência' does not"
 _site/pt/licoes/autoria-sustentavel-texto-simples-pandoc-markdown/index.html,568,"internally linking to /pt/licoes/autoria-sustentavel-texto-simples-pandoc-markdown#recursos-uteis; the file exists, but the hash 'recursos-uteis' does not"
-_site/pt/licoes/criar-exposicao-omeka/index.html,557,"internally linking to /pt/licoes/introducao-omeka-net#configurar-o-seu-site-para--portugu%C3%AAs-nota-da-tradu%C3%A7%C3%A3o; the file exists, but the hash 'configurar-o-seu-site-para--portugu%C3%AAs-nota-da-tradu%C3%A7%C3%A3o' does not"
-_site/pt/licoes/explorar-analisar-dados-rede-python/index.html,627,"internally linking to /en/lessons/creating-network-diagrams-from-historical-sources#developing-a-coding-scheme; the file exists, but the hash 'developing-a-coding-scheme' does not"
-_site/pt/licoes/extrair-paginas-ilustradas-com-python/index.html,757,"internally linking to /en/lessons/text-mining-with-extracted-features#start-a-notebook; the file exists, but the hash 'start-a-notebook' does not"
 _site/pt/licoes/git-ferramenta-metodologica-projetos-historia-1/index.html,1002,"internally linking to #comandos-basicos; the file exists, but the hash 'comandos-basicos' does not"
 _site/pt/licoes/instalacao-linux/index.html,678,"internally linking to nocoes-basicas-paginas-web-html, which does not exist"
 _site/pt/licoes/instalacao-mac/index.html,654,"internally linking to nocoes-basicas-paginas-web-html, which does not exist"
@@ -201,8 +61,6 @@ _site/pt/licoes/introducao-instalacao-python/index.html,565,"internally linking 
 _site/pt/licoes/introducao-instalacao-python/index.html,568,"internally linking to instalacao-mac, which does not exist"
 _site/pt/licoes/introducao-instalacao-python/index.html,569,"internally linking to instalacao-windows, which does not exist"
 _site/pt/licoes/introducao-instalacao-python/index.html,570,"internally linking to instalacao-linux, which does not exist"
-_site/pt/licoes/introducao-jupyter-notebooks/index.html,559,"internally linking to /pt/licoes/extrair-paginas-ilustradas-com-python#jupyter-notebooks; the file exists, but the hash 'jupyter-notebooks' does not"
 _site/pt/licoes/introducao-jupyter-notebooks/index.html,628,"internally linking to #Usando-Jupyter-Notebook-para-ensinar; the file exists, but the hash 'Usando-Jupyter-Notebook-para-ensinar' does not"
 _site/pt/licoes/introducao-mysql-r/index.html,1721,"internally linking to #Conectando-a-um-banco-de-dados-com-uma-senha; the file exists, but the hash 'Conectando-a-um-banco-de-dados-com-uma-senha' does not"
-_site/pt/licoes/sumarizacao-narrativas-web-python/index.html,537,"internally linking to /en/lessons/jupyter-notebooks#installing-jupyter-notebooks; the file exists, but the hash 'installing-jupyter-notebooks' does not"
 _site/pt/sobre/index.html,276,"internally linking to /pt/apoie-nos, which does not exist"

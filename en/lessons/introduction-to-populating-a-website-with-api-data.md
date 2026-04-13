@@ -3,7 +3,7 @@ title: |
     Introduction to Populating a Website with API Data
 collection: lessons
 layout: lesson
-slug: website-api
+slug: introduction-to-populating-a-website-with-api-data
 date: 2019-05-22
 authors:
 - Go Sugimoto
