@@ -36,7 +36,7 @@ doi: 10.46430/phen0015
 ## Lesson Goals
 
 This lesson takes the frequency pairs created in [Counting
-Frequencies][] and outputs them to an HTML file.
+Frequencies](/en/lessons/counting-frequencies) and outputs them to an HTML file.
 
 Here you will learn how to output data as an HTML file using Python. You
 will also learn about string formatting. The final result is an HTML
@@ -49,7 +49,7 @@ appears.
 -   `obo.py`
 
 If you do not have these files from the previous lesson, you can
-download programming-historian-6, a [zip file from the previous lesson][]
+download programming-historian-6, a [zip file from the previous lesson](/en/assets/python-lessons6.zip).
 
 ## Building an HTML wrapper
 
@@ -60,7 +60,7 @@ around something so that it can be used by another program is sometimes
 called a *wrapper*. What we're going to do now is develop an HTML wrapper
 for the output of our code that computes word frequencies. We're also
 going to add some helpful, dynamic *metadata* to supplement the frequency
-data collected in [Counting Frequencies][].
+data collected in [Counting Frequencies](/en/lessons/counting-frequencies).
 
 ## Metadata
 
@@ -303,6 +303,4 @@ with the Mac / Linux version you may have to open the `obo.py` file and
 change "file:///Users/username/Desktop/programming-historian/" to the
 path to the directory on your own computer.
 
-- [Counting Frequencies](/en/lessons/counting-frequencies)
-- [zip file from the previous lesson](/en/assets/python-lessons6.zip)
 - [zip sync](/assets/python-lessons7.zip)

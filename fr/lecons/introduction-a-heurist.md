@@ -69,7 +69,7 @@ Pour les personnes souhaitant tester le logiciel hors ligne, il est également p
   Cette installation demande des compétences techniques minimales d'administration d'un serveur web pour pouvoir être effectuée.
 </div>
 
-Heurist s'appuie sur une conception [relationnelle](https://perma.cc/5MJU-FV2G) des données, mais simplifie certains aspects de cette modélisation afin de faciliter son utilisation. Nous abordons brièvement quelques concepts clés du modèle relationnel dans la partie [«&nbsp;Modélisation des données&nbsp;»](#modelisation).
+Heurist s'appuie sur une conception [relationnelle](https://perma.cc/5MJU-FV2G) des données, mais simplifie certains aspects de cette modélisation afin de faciliter son utilisation. Nous abordons brièvement quelques concepts clés du modèle relationnel dans la partie [«&nbsp;Modélisation des données&nbsp;»](#modélisation-des-données).
 
 
 

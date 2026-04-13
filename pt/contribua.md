@@ -22,7 +22,7 @@ Se desejar propor uma lição (escrita por si ou para outra pessoa escrever), [e
 
 <img src="{{site.baseurl}}/gallery/editor-guidelines.png" class="garnish rounded float-right" alt="{{ site.data.snippets.editor-guidelines-image-alt[page.lang] }}"/>
 
-Os membros do nosso conselho editorial ajudam a facilitar a revisão por pares e trabalham em estreita colaboração com os autores para melhorar as suas lições. As [nossas diretrizes para editores](directrizes-editor) visam assegurar que todos, desde os autores aos revisores, passando pelos membros da comunidade em geral, recebam uma experiência justa e consistente durante a revisão por pares.
+Os membros do nosso conselho editorial ajudam a facilitar a revisão por pares e trabalham em estreita colaboração com os autores para melhorar as suas lições. As [nossas diretrizes para editores](/pt/directrizes-editor) visam assegurar que todos, desde os autores aos revisores, passando pelos membros da comunidade em geral, recebam uma experiência justa e consistente durante a revisão por pares.
 
 Periodicamente, podemos anunciar a procura de mais editores.
 

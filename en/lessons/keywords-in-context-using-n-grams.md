@@ -35,8 +35,8 @@ doi: 10.46430/phen0010
 
 ## Lesson Goals
 
-Like in [Output Data as HTML File][], this lesson takes the frequency
-pairs collected in [Counting Frequencies][] and outputs them in HTML.
+Like in [Output Data as HTML File](/en/lessons/output-data-as-html-file), this lesson takes the frequency
+pairs collected in [Counting Frequencies](/en/lessons/counting-frequencies) and outputs them in HTML.
 This time the focus is on keywords in context (KWIC) which creates
 n-grams from the original document content – in this case a trial
 transcript from the *Old Bailey Online*. You can use your program to
@@ -46,7 +46,7 @@ easy to see at a glance how the keyword is used.
 
 Once the KWICs have been created, they are then wrapped in HTML and sent
 to the browser where they can be viewed. This reinforces what was
-learned in [Output Data as HTML File][1], opting for a slightly
+learned in [Output Data as HTML File](/en/lessons/output-data-as-html-file), opting for a slightly
 different output.
 
 At the end of this lesson, you will be able to extract all possible
@@ -59,7 +59,7 @@ from the Internet, and display them clearly in your browser window.
 -   `obo.py`
 
 If you do not have these files from the previous lesson, you can
-download programming-historian-7, a [zip file from the previous lesson][]
+download programming-historian-7, a [zip file from the previous lesson](/assets/python-lessons7.zip).
 
 ## From Text to N-Grams to KWIC
 
@@ -104,7 +104,7 @@ than strings. As you already know, Python can easily turn a string into
 a list using the `split` operation. Once split it becomes simple to
 retrieve a subsequence of adjacent words in the list by using a *slice*,
 represented as two indexes separated by a colon. This was introduced
-when working with strings in [Manipulating Strings in Python][].
+when working with strings in [Manipulating Strings in Python](/en/lessons/manipulating-strings-in-python).
 
 ``` python
 message9 = "Hello World"
@@ -267,11 +267,4 @@ with the Mac / Linux version you may have to open the `obo.py` file and
 change "file:///Users/username/Desktop/programming-historian/" to the
 path to the directory on your own computer.
 
--   python-lessons8.py `zip sync`
-
-- [Output Data as HTML File](/en/lessons/output-data-as-html-file)
--[Counting Frequencies](/en/lessons/counting-frequencies)
-  
-[1]: output-data-as-html-file [zip file from the previous lesson](/assets/python-lessons7.zip)
-[Manipulating Strings in Python](/en/lessons/manipulating-strings-in-python)
-[zip sync](/assets/python-lessons8.zip)
+-   python-lessons8.py [zip sync](/assets/python-lessons8.zip)

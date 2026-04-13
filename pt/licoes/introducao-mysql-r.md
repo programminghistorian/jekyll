@@ -852,7 +852,7 @@ dbDisconnect(artigosDb)
 
 ## Explicação do script de seleção de dados e criação do gráfico.
 
-O método que conecta o banco de dados é explicado [acima](#Conectando-a-um-banco-de-dados-com-uma-senha).
+O método que conecta o banco de dados é explicado [acima](#conectando-a-um-banco-de-dados-com-uma-senha).
 
 Este script seleciona dois resultados de um conjunto de dados e cria um gráfico com esses dados. Um dos resultados é a combinação dos artigos de periódicos com a busca pelos termos "German+Submarine". Eles são consultados através da declaração SELECT:
 

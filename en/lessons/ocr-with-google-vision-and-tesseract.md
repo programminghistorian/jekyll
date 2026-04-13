@@ -166,7 +166,7 @@ These three documents are copyright-free and available on [archive.org](https://
 
 # OCR with Tesseract
 
-Tesseract takes image files as input. If you have PDFs, you can transform them into .tiff files using any image editing tool, [ImageMagick](https://imagemagick.org/) for instance. The process of converting PDFs to TIFFs using ImageMagick is detailed in the _Programming Historian_ lesson [OCR and Machine Translation](/en/lessons/OCR-and-Machine-Translation#converting-pdfs-to-tiffs-with-imagemagick). 
+Tesseract takes image files as input. If you have PDFs, you can transform them into .tiff files using any image editing tool, [ImageMagick](https://imagemagick.org/) for instance. The process of converting PDFs to TIFFs using ImageMagick is detailed in the _Programming Historian_ lesson [OCR and Machine Translation](/en/lessons/retired/OCR-and-Machine-Translation#converting-pdfs-to-tiffs-with-imagemagick). 
 
 Alternatively, you can use OCRmyPDF. This software is based on Tesseract but works with PDFs. More information can be found in the _Programming Historian_ lesson [Working with batches of PDF files](/en/lessons/working-with-batches-of-pdf-files). 
 
@@ -638,7 +638,7 @@ def new_file_layout(filename, input_dir, store_dir):
     lim_p[0].save(new_filepath, "PDF" ,resolution=100.0, save_all=True, append_images=lim_p[1:])
 ```
 
-The following function executes the above and OCRs the new PDF with the `vision_method` defined [in the previous section](#google-vision-2).
+The following function executes the above and OCRs the new PDF with the `vision_method` defined [in the previous section](#running-google-vision).
 
 ```
 def combined_method_I(filename, input_dir, store_dir, output_dir):
@@ -676,7 +676,7 @@ batch_combined_method_I(input_dir_cm1, store_dir_cm1, output_dir_cm1)
 
 ### Tesseract + Google Vision: Method Two
 
-The second combined method uses the text region coordinates provided by Tesseract to create text output. We will be extracting any words that fall within the defined regions from the JSON response files we generated earlier using the `JSON_OCR` function as explained in the [Google Vision section](#google-vision-2).
+The second combined method uses the text region coordinates provided by Tesseract to create text output. We will be extracting any words that fall within the defined regions from the JSON response files we generated earlier using the `JSON_OCR` function as explained in the [Google Vision section](#google-vision).
 
 First, we'll create a function that will output a dictionary which contains the coordinates of each text region, as well as the height and width of each page. The height and width are necessary for converting the pixel coordinates provided by Tesseract to the normalised coordinates provided by Google Vision.
 

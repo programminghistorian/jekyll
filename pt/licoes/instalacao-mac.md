@@ -126,5 +126,5 @@ Agora que você e o seu computador estão preparados, podemos seguir para tarefa
   [website do Sublime Text]: https://www.sublimetext.com/download
   [BBEdit]: https://www.barebones.com/products/bbedit/
   [site do Komodo Edit]: https://www.activestate.com/products/komodo-ide/downloads/edit/
-  [Noções básicas de páginas web e HTML]: nocoes-basicas-paginas-web-html
+  [Noções básicas de páginas web e HTML]: /pt/licoes/nocoes-basicas-paginas-web-html
 

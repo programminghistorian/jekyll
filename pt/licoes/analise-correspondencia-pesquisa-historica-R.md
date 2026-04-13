@@ -177,7 +177,7 @@ plot(CA_harper)
 
 O comando `colSums` soma os valores para cada coluna da tabela. `rowSums` poderia ser usado para somar as linhas se isso fosse necessário (não é para nós, porque todos os comités têm mais de um deputado).
 
-O comando `CA` traça os resultados para as duas dimensões superiores e armazena o resumo dos dados em uma variável chamada `CA_harper`. Na maioria das vezes, `CA` faz a maior parte do trabalho. Como discutido, mais detalhes sobre a matemática por trás da CA são fornecidos no [apêndice](#Apêndice:AMatemáticaportrásdaAnálisedeCorrespondência).
+O comando `CA` traça os resultados para as duas dimensões superiores e armazena o resumo dos dados em uma variável chamada `CA_harper`. Na maioria das vezes, `CA` faz a maior parte do trabalho. Como discutido, mais detalhes sobre a matemática por trás da CA são fornecidos no [apêndice](#apendice-a-matematica-por-tras-da-analise-de-correspondencia).
 
 Deve-se obter um gráfico que se parece com isto:
 
