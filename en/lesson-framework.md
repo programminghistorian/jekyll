@@ -108,25 +108,37 @@ Is your lesson suitable for **beginner**,  **intermediate**, or **advanced**-lev
 
 
 ## Use Case
+Write this so a reader can immediately recognise a real situation where the method would be useful.
 
-**Demonstrating application of a method/tool**
-- Describe the example ‘use case’ you have selected. 
-- Why is this use case an appropriate example for demonstrating the application of this method/tool?
+**Define the Use Case**
+The use case is the practical situation that motivates learning the method.
 
-**Example research question/problem**
-- What question/problem does this method support researchers to explore/solve in this use case?
-- Citation for your case study (if applicable)
+- Who is the use case about? (_Type of researcher, practitioner, or learner_)  
+- What are they trying to do? (_Their practical task or research goal_)  
+- What are they working with? (_Data, materials, or context_) 
+
+**Connect the Method**
+- How does the method/tool help in this situation?
+- What does it enable someone to do that would otherwise be difficult, slow, or impossible?
+
+**(Optional) Link to a Case Study**
+- Is this use case inspired by a real study or example?
+- If yes, provide a citation.
 
 ### Dataset
 
-**Characteristics**
-- Describe the sample dataset you’ve provided for readers to experiment with.
-- What are the characteristics of this dataset that make it suitable for use with this method/tool?
+**Define the Dataset**
+- What dataset will learners work with?
+- How does this dataset connect to the use case?
 
-**Preprocessing**
-- Has the dataset been pre-processed? How? 
-- Describe any cleaning/labelling (_if not covered by the lesson_).
-- If the dataset is selected from a larger corpus, describe the sampling strategy.
+**Why This Dataset Works**
+- What features of this dataset make it suitable for this method/tool?
+- What would be difficult to do with this data without the method?
+
+**Data Preparation**
+- Has the dataset been pre-processed? If so, how? 
+- What cleaning, labelling, or transformation has been done (_or intentionally left out_)?
+- If this is a subset of a larger dataset, how was it selected?
 
 **Citation**
 
