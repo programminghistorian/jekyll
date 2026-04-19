@@ -107,7 +107,7 @@ Is your lesson suitable for **beginner**,  **intermediate**, or **advanced**-lev
 | **Advanced**     | <br>• Significant prior knowledge and applied experience required <br>• Confident ability to infer **intermediate**-level steps expected <br>• Specialist or technical terms are used throughout, new concepts are explained <br>• Software and packages may be known for their complexity to install and set-up <br>• Challenges that readers might encounter are anticipated, and trouble-shooting steps are referenced
 
 
-## Use Case
+### Use Case
 Write this so a reader can immediately recognise a real situation where the method would be useful.
 
 **Define the Use Case**
