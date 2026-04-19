@@ -1,10 +1,8 @@
 ---
-title: Programming Historian Lesson Framework  
+title: _Programming Historian_ Lesson Framework  
 layout: blank  
 redirect_from: /author-guidelines  
 ---
-
-# _Programming Historian_ Lesson Framework 
 
 {% include toc.html %}
 
@@ -278,9 +276,9 @@ Focus on tools that support accessibility and reproducibility in this learning c
 - What aspects of the method are usable or repeatable?  
 
 ### Local Application
-
-**How can readers apply this method/tool in their own research context?** 
 This section takes the method from a guided experiment into independent use.
+
+**How can readers apply this method/tool in their own research context?**  
 
 **Use Cases and Research Questions**
 Focus on transfer and variation, not re-explaining the original use case.
@@ -299,20 +297,18 @@ Focus on transfer and variation, not re-explaining the original use case.
 - What should learners consider when moving from guided environment to their own setup? (e.g. dependencies, computing resources, installation differences)
 
 **Other Projects and Examples**
-
 Support learners in discovering how the method is used in other research contexts. 
-
 - Identify projects or studies that apply this method/tool in different domains (think beyond your university, your country, and your language community)
 - What characteristics do their datasets have?  
 - What challenges did they encounter, and how were these addressed?  
 
-### Continued Learning
+#### Continued Learning
 
 - What resources support further exploration of this method/tool? (e.g. _Programming Historian_ lessons, other tutorials, documentation, books).  
 - Are there open datasets suitable for continued practice?
 - Which research papers demonstrate advanced or applied use of this method/tool?  
   
-## Endnotes
+### Endnotes
 
 We use the endnote system and [The Chicago Manual of Style, 17th Edition](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html) for our citations and resources lists.
 
