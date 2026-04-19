@@ -154,14 +154,15 @@ The use case is the practical situation that motivates learning the method.
 
 
 ### Software/tool
+Focus on tools that support accessibility and reproducibility in this learning context.
 
-**Your choice**
-- Explain how you selected the software/tool/programming language to achieve the lesson’s goals.
-- What are the characteristics that make it suitable for use with this method/tool?
-
-**Other options**
-- Are there multiple options available to achieve the same goals?
-- Have you tried these other options? What are their benefits/drawbacks?
+**Choose the Tool**
+- What software, tool, or programming language will learners use?  
+- Why is this a good choice for this lesson?  
+  
+**Why this Tool Works**
+- What features make this tool suitable for the method?
+- How does it help learners apply or understand the method?
 
 **Citation**
 
@@ -170,104 +171,126 @@ The use case is the practical situation that motivates learning the method.
 | **Components to include:** <br>• Author(s) <br>• Title   <br>• Version  <br>• Year of release    <br>• License    <br>• Repository URL 
 | **Example citation following the Chicago Manual, 17th edition citation style:** <br>• **Endnote** Julien Barnier et al.. Scatterd3, version 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).<br>• **Bibliography entry** Julien Barnier, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. Scatterd3 (version 1.0.1). GPL. 2021. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).| 
 
-## Learning keys 
+## Learning Keys 
 
 ### Concepts
 
 **What key concepts do readers need to understand before they begin experimenting with this method/tool?**
-  - Focus on the necessary minimum understandings needed to achieve the objectives of the lesson.
+  - Focus on the minimum conceptual knowledge needed to follow the lesson
+  - Priorise ideas that directly support applying the method
 
 ### Terms
 
-**Which operational definitions will readers need to understand to work with the vocabulary of the method/tool?**
-  - Share explanations, rather than definitions.
+**What vocabulary do readers need to understand to work with this method/tool?**
+- Provide operational explanations rather than dictionary definitions  
+- Clarify how terms are used in this lesson context
 
-**Which specialist words or technical terms will you be using to teach this method/tool?**
-  - What choices have you made as the author/translator?
-  - Is the method/tool/programming-specific vocabulary commonly used in a natural language other than the one you’re writing in? 
-  - Are particular terms used differently in this context than in other fields of study?
-  - Are particular terms contested or under-discussion in the community?
+**Authorial and contextual choices**
+  - Are there specialist terms introduced or preferred in this lesson?  
+  - Are any terms used differently here than in other disciplines?  
+  - Are any terms contested, ambiguous, or evolving in the field?  
+  - Are there translation or cross-language considerations?  
 
-###  Time
+### Time and Structure
 
-**How long (roughly) do you expect the lesson will take to complete?**
-  - Are particular steps known to require extended processing/waiting times?
-  - Are there distinct sections, or natural breaks in the methodology?
+**How long is the lesson expected to take?**
+  - Approximate total duration (or effort range)
+  - Any steps that require waiting, processing, or interruption
    
-**How does the lesson's structure support effective learning, experiment, and application?**  
-  - Have you organised the lesson into sections?
-  - What is the main learning activity of each section?
+**How is the lesson structured to support learning?**  
+  - Is the lesson divided into stages or sections?
+  - What is the main activity in each section?
 
-## Learning experiment 
+
+## Learning Experiment 
 
 ### Aims
- - Reconnect with the [title and abstract](#title-and-abstract) to describe your learning experiment's aims. In the simplest terms, you can think of answering the prompt: _When you have completed this lesson, you will be able to..._.
- - What specific, measurable skills and understandings is it designed to develop?
- - How will it support your reader to begin using the method/tool to progress towards [working with their own dataset](#local-application)?
+ - Reconnect with the [title and abstract](#title-and-abstract) to describe the purpose of this learning experiment
+ - In simplest terms, complete the sentence: _By the end of this lesson, you will be able to..._.
+ - What specific skills and understandings will learners develop?
+ - How does this support progression toward [working with their own dataset(#local-application)?
  
 ### Inventory
-- List the software, packages, and libraries. 
-- List the sample data files. 
-- Outline the file directory structure you’ll use in the experiment.
-    - Why do you recommend this?
+- Software, packages, and libraries required  
+- Sample data files provided  
+- Required folder or project structure
 
-### Workflow
+**Why this setup?**
+- Why is this organisation recommended for the workflow?
+- How does it support clarity, reproducibility, or learning progression?  
 
-**Set out the workflow as practical units**
-- Include installation of software, packages, libraries.
-- Decribe download steps and organisation of data files.
+### Workflow (Narrated Demonstration)
 
-**Narrate your code**
-- Use instructive, reflective narration (rather than inline comments) to guide your reader through the code.
-- Break up code blocks to highlight and explain key functions.
-- Identify input that is specific to the sample data/would need substitution when applied.
-- Clarify where sample code refers to a local directory or URL.
+**1. Set up the environment and data**
+- Installation of software, packages, and dependencies
+- Download and organisation of data files
+- Project or directory set up
 
-**Describe processes in general terms**
-- No need to detail every action, click or gesture.
-    - If the [difficulty level](#difficulty) is beyond beginner, you can infer knowledge or applied experience and use specialist or technical terms in context, while taking care to define new terms and explain new concepts as needed.
-    - If the graphical user interface or tool-specific vocabularly is in a different language than the lesson, you will want to provide additional signposts for navigation. 
-      - Use round brackets to follow a word with its direct translation - either to give a translation from the original language, or the translated language: _Se anota el nodo de origen (source)_, _padrão de nomeação dos branches (ramos)_, or _on a utilisé `px.bar()` pour créer un diagramme en barres (bar chart)_.
-- Take care to note challenging or non-intuitive steps. Share suggestions that support your reader to navigate them. 
+**2. Run and interpret the methode**
+- Walk through the code as a guided demonstration
+- Use narrative explanation rather than inline comments
+- Break code into meaningful functional steps
+- Highlight key operations and transformations
+
+**3. Identify what is specific vs general**
+- Clearly mark inputs that are dataset-specific and need substitution  
+- Identify code that depends on local file paths or URLs
+- Distinguish reusable parts of the code from example-specific values  
+  
+**4. Explain processes at the general level**
+- Describe steps in conceptual terms, not just procedural ones
+- Avoid over-specifying user interface actions unless necessary
+- Use technical language appropriate to the [difficulty level](#difficulty), defining new terms and explaining new concepts when introduced
+
+**5. Support navigation of complexity**
+ - Highlight non-intuitive or error-prone steps
+ - Provide practical guidance for common points of confusion
+ - Add language navigation support where relevant (translations, interface terms)
+    - Follow a word with its direct translation in round brackets: _Se anota el nodo de origen (source)_, _padrão de nomeação dos branches (ramos)_, or _on a utilisé `px.bar()` pour créer un diagramme en barres (bar chart)_.
 
 ### Summary
 
-**Re-cap the learning-experiment**
-- What has your reader achieved?
-    - Refer back to the [aims of your experiment](#aims) to summarise the skills attained, understandings developed, and ideas explored. 
+**What have you achieved in this learning experiment?**
+- Revisit the [aims of your experiment](#aims) and identify what has been accomplished
+- What skills have been developed through applying the method?  
+- What key understandings or insights emerged during the workflow?
+- What aspects of the method are usable or repeatable?  
 
-## Local application
+## Local Application
 
 **How can readers apply this method/tool in their own research context?** 
+This section takes the method from a guided experiment into independent use.
 
-**Use cases and questions**
-- Which use cases does the method/tool best support?
-- Which research questions/problems might readers start with? 
+**Use Cases and Research Questions**
+Focus on transfer and variation, not re-explaining the original use case.
 
-**Dataset**
-- What dataset characteristics are well-suited for use?
-- What pre-processing steps might be needed to use a new dataset as demonstrated? (if not covered by the lesson)
+- Which types of use cases does this method best support?
+- What kinds of research questions or problems could it help address in new contexts?
+- How might these differ from the example used in this lesson?
 
-**Working locally**
-- If the method uses cloud/web-based tools, what are the options for working locally?
+**Working with New Datasets**
+- What characteristics should learners look for in a new dataset?
+- What adaptations might be needed when moving beyond the sample dataset?  
+- What pre-processing steps are commonly required when applying this method in new contexts?
 
-### Other projects
+**Working Locally**
+- If the method uses cloud or web-based tools, what are the options for running it locally?
+- What should learners consider when moving from guided environment to their own setup? (e.g. dependencies, computing resources, installation differences)
 
-Support readers to discover other researchers/projects that have used this method/tool 
+**Other Projects and Examples**
 
-Think beyond your domain, your university, your country, and your language community.
-- Consider annotating your suggestions:
-  - What was a particular characteristic of their dataset?
-  - What interesting challenges did they overcome and how?
+Support learners in discovering how the method is used in other research contexts. 
 
-### Continued learning
+- Identify projects or studies that apply this method/tool in different domains (think beyond your university, your country, and your language community)
+- What characteristics do their datasets have?  
+- What challenges did they encounter, and how were these addressed?  
 
-Which resources would you recommend to readers who want to continue learning about/experimenting with this method?
+### Continued Learning
 
-- Share links to open datasets for further practice.
-- Suggest _Programming Historian_ lessons or other tutorials.
-- Point to research articles developed through use of this method/tool.
-
+- What resources support further exploration of this method/tool? (e.g. _Programming Historian_ lessons, other tutorials, documentation, books).  
+- Are there open datasets suitable for continued practice?
+- Which research papers demonstrate advanced or applied use of this method/tool?  
+  
 ## Endnotes
 
 We use the endnote system and [The Chicago Manual of Style, 17th Edition](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html) for our citations and resources lists.
