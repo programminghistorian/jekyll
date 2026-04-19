@@ -4,17 +4,19 @@ layout: blank
 redirect_from: /author-guidelines  
 ---
 
-## _Programming Historian_ Lesson Framework 
+# _Programming Historian_ Lesson Framework 
 
 {% include toc.html %}
 
-### Introduction
+## Introduction (About this resource)
 
-#### What is a _Programming Historian_ lesson?
+This framework supports the development of computational lessons as structured learning experiences.
+
+**What is a _Programming Historian_ lesson?**
 
 A _Programming Historian_ lesson is a learn-by-doing resource that empowers readers to develop practical knowledge of a computational method or digital tool, which they will be able to apply in their own research to acquire, transform, analyse, visualise, or preserve data. 
 
-#### Why write a _Programming Historian_ lesson?
+**Why write a _Programming Historian_ lesson?**  
 
 - Deepen your own understanding and knowledge 
 - Hone your technical writing skills
@@ -22,15 +24,34 @@ A _Programming Historian_ lesson is a learn-by-doing resource that empowers read
 - Transform research practice into teaching
 - Share your experiences of failure to create productive catalysts that help others succeed
 
-#### Who is the Lesson Framework for?
+**Who is this Lesson Framework for?**
 
 This framework is designed to help prospective authors develop lessons that are effective, accessible, and sustainable. It also supports editors and peer reviewers, whose insights and practical feedback are essential to the production of high-quality learning resources. Ultimately, we've created it to empower our readers to learn, adapt, and apply digital methods in their own research contexts. 
 
-#### How to use this Framework
+**How should it be used?**
 
 Prospective _Programming Historian_ authors are encouraged to use this framework as a guide for writing. The needs of each method are different, so the structure and prompts we've included are intended to be flexible. As you write, imagine yourself explaining your method to a colleague or peer. Speak to your reader directly in the second person, using the pronoun 'you'. 
 
-## The Framework
+## How This Framework Works
+
+This framework structures a lesson as a progression from context and motivation to guided practice and independent application.
+
+<div class="alert alert-info">
+
+<strong>Introduction</strong><br>
+↓<br>
+<strong>Use Case + Dataset + Tool</strong><br>
+↓<br>
+<strong>Learning Experiment</strong><br>
+↓<br>
+<strong>Local Application</strong>
+
+</div>
+
+- **Introduction**: Introduces the method or tool, explains its context and relevance, and outlines any prerequisites for the lesson.
+- **Use Case, Dataset, and Tool**: Establish the conditions for learning: _why_ the method matters (Use Case), _what_ it is applied to (Dataset), _how_ it is carried out (Tool).
+- **Learning Experiment**: Guides the learner through a practical, narrated workflow demonstrating how the method works in practice.
+- **Local Application**: Supports the transition to independent use, helping learners apply the method to their own research contexts.
 
 ### Title and abstract 
 
@@ -171,15 +192,15 @@ Focus on tools that support accessibility and reproducibility in this learning c
 | **Components to include:** <br>• Author(s) <br>• Title   <br>• Version  <br>• Year of release    <br>• License    <br>• Repository URL 
 | **Example citation following the Chicago Manual, 17th edition citation style:** <br>• **Endnote** Julien Barnier et al.. Scatterd3, version 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).<br>• **Bibliography entry** Julien Barnier, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. Scatterd3 (version 1.0.1). GPL. 2021. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).| 
 
-## Learning Keys 
+### Learning Keys 
 
-### Concepts
+#### Concepts
 
 **What key concepts do readers need to understand before they begin experimenting with this method/tool?**
   - Focus on the minimum conceptual knowledge needed to follow the lesson
   - Priorise ideas that directly support applying the method
 
-### Terms
+#### Terms
 
 **What vocabulary do readers need to understand to work with this method/tool?**
 - Provide operational explanations rather than dictionary definitions  
@@ -191,7 +212,7 @@ Focus on tools that support accessibility and reproducibility in this learning c
   - Are any terms contested, ambiguous, or evolving in the field?  
   - Are there translation or cross-language considerations?  
 
-### Time and Structure
+#### Time and Structure
 
 **How long is the lesson expected to take?**
   - Approximate total duration (or effort range)
@@ -202,15 +223,15 @@ Focus on tools that support accessibility and reproducibility in this learning c
   - What is the main activity in each section?
 
 
-## Learning Experiment 
+### Learning Experiment 
 
-### Aims
+#### Aims
  - Reconnect with the [title and abstract](#title-and-abstract) to describe the purpose of this learning experiment
  - In simplest terms, complete the sentence: _By the end of this lesson, you will be able to..._.
  - What specific skills and understandings will learners develop?
  - How does this support progression toward [working with their own dataset(#local-application)?
  
-### Inventory
+#### Inventory
 - Software, packages, and libraries required  
 - Sample data files provided  
 - Required folder or project structure
@@ -219,7 +240,7 @@ Focus on tools that support accessibility and reproducibility in this learning c
 - Why is this organisation recommended for the workflow?
 - How does it support clarity, reproducibility, or learning progression?  
 
-### Workflow (Narrated Demonstration)
+#### Workflow (Narrated Demonstration)
 
 **1. Set up the environment and data**
 - Installation of software, packages, and dependencies
@@ -248,7 +269,7 @@ Focus on tools that support accessibility and reproducibility in this learning c
  - Add language navigation support where relevant (translations, interface terms)
     - Follow a word with its direct translation in round brackets: _Se anota el nodo de origen (source)_, _padrão de nomeação dos branches (ramos)_, or _on a utilisé `px.bar()` pour créer un diagramme en barres (bar chart)_.
 
-### Summary
+#### Summary
 
 **What have you achieved in this learning experiment?**
 - Revisit the [aims of your experiment](#aims) and identify what has been accomplished
@@ -256,7 +277,7 @@ Focus on tools that support accessibility and reproducibility in this learning c
 - What key understandings or insights emerged during the workflow?
 - What aspects of the method are usable or repeatable?  
 
-## Local Application
+### Local Application
 
 **How can readers apply this method/tool in their own research context?** 
 This section takes the method from a guided experiment into independent use.
