@@ -386,6 +386,6 @@ Rosa Filgueira, Claire Grover, Melissa Terras, and Beatrice Alex (2020). Geopars
 
 Claire Grover and Richard Tobin (2014). A Gazetteer and Georeferencing for Historical English Documents. In Proceedings of LaTeCH 2014 at EACL 2014. Gothenburg, Sweden. [https://doi.org/10.3115/v1/W14-0617](https://perma.cc/S8XG-8TH3)
 
-Claire Grover, Richard Tobin, Kate Byrne, Matthew Woollard, James Reid, Stuart Dunn, and Julian Ball (2010). Use of the Edinburgh Geoparser for georeferencing digitised historical collections. Philosophical Transactions of the Royal Society A. [[pdf](http://homepages.inf.ed.ac.uk/grover/papers/PTRS-A-2010-Grover-3875-89.pdf)]
+Claire Grover, Richard Tobin, Kate Byrne, Matthew Woollard, James Reid, Stuart Dunn, and Julian Ball (2010). Use of the Edinburgh Geoparser for georeferencing digitised historical collections. Philosophical Transactions of the Royal Society A. [[pdf](https://doi.org/10.1098/rsta.2010.0149)]
 
 Leif Isaksen, Elton Barker, Eric C. Kansa, Kate Byrne (2012). GAP: A NeoGeo Approach to Classical Resources. Leonardo 45 (1): 82–83. [[pdf](https://direct.mit.edu/leon/article/45/1/82/46956/GAP-A-NeoGeo-Approach-to-Classical-Resources#.U48IuXWx15Q)]
