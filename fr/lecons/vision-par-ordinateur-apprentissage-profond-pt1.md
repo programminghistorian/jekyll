@@ -18,12 +18,12 @@ reviewers:
 editors:
 - Nabeel Siddiqui
 - Alex Wermer-Colan
-translators:
+translator:
 - Jean-Philippe Moreux
 - Matthias Gille Levenson
 translation-editor:
 - Melvin Hersent
-translation-reviewers:
+translation-reviewer:
 - Solenn Tual
 - Émile Blettery
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/531
