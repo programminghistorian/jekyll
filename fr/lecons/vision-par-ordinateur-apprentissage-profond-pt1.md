@@ -171,11 +171,11 @@ Si vous regardez les images des publicités, vous verrez que certaines d'entre e
 
 Une publicité illustrée[^7]&nbsp;:
 
-{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-02.jpg" alt="Une image en noir et blanc d'une publicité de journal. L'image contient une illustration d'une boite à café sur la gauche de l'annonce." caption="Figure 2. Un exemple de publicité illustrée" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-02.png" alt="Une image en noir et blanc d'une publicité de journal. L'image contient une illustration d'une boite à café sur la gauche de l'annonce." caption="Figure 2. Un exemple de publicité illustrée" %}
 
 Une annonce textuelle[^8]&nbsp;:
 
-{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-03.jpg" alt="Une image en noir et blanc d'une publicité de journal. La publicité ne contient que du texte et concerne une assurance incendie, avec l'adresse de la compagnie d'assurance." caption="Figure 3. Un exemple de publicité sans illustration" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-03.png" alt="Une image en noir et blanc d'une publicité de journal. La publicité ne contient que du texte et concerne une assurance incendie, avec l'adresse de la compagnie d'assurance." caption="Figure 3. Un exemple de publicité sans illustration" %}
 
 Notre classifieur sera entrainé à prédire à quelle catégorie appartient une publicité. Nous pourrions l'utiliser pour automatiser la recherche de publicités comportant des illustrations en vue d'une analyse &laquo;&nbsp;manuelle&nbsp;&raquo; plus poussée. Nous pourrions également utiliser ce classifieur plus directement pour quantifier le nombre d'annonces contenant des illustrations au cours d'une année donnée et découvrir si ce nombre a évolué dans le temps, ainsi que l'influence d'autres facteurs tels que le lieu de publication. Votre objectif de recherche pourra influencer la façon d'étiqueter votre corpus de données ainsi que la manière dont vous choisissez d'évaluer si un modèle est suffisamment performant. Nous approfondirons ces questions au fil de cette leçon en deux parties.
 
