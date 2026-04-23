@@ -1,5 +1,5 @@
 ---
-title: "La vision par ordinateur pour les sciences humaines&nbsp;: introduction à la classification d'images par apprentissage profond (Partie 1)"
+title: "La vision par ordinateur pour les sciences humaines&nbsp;: introduction à la classification d'images par apprentissage profond (partie 1)"
 slug: vision-par-ordinateur-apprentissage-profond-pt1 
 original: computer-vision-deep-learning-pt1
 layout: lesson
