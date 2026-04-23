@@ -38,7 +38,6 @@ doi: 10.46430/phfr0041
 
 {% include toc.html %}
 
-
 # Introduction
 
 Si la plupart des historien·nes s'accordent à dire que la **représentation** (moderne) est façonnée par les médias multimodaux &mdash; c'est-à-dire les médias tels que la presse, la télévision ou l'internet, qui combinent plusieurs modes &mdash; les domaines des humanités numériques et de l'histoire numérique restent dominés par les médias textuels et la grande variété de méthodes disponibles pour leur analyse[^1]. Les historien·nes modernes ont souvent été accusé·es de négliger les formes de représentation non textuelles, et les humanistes numériques, en particulier, se sont consacré·es à l'exploration des sources textuelles. Beaucoup ont utilisé l'OCR ([Optical Character Recognition](https://perma.cc/X4Y3-8ZEQ)), une technologie qui rend les textes numérisés lisibles par machine, ainsi que des techniques issues du domaine du [traitement automatique des langues](https://perma.cc/6Y6B-WQMD) (TAL), pour analyser le contenu et le contexte du langage dans des documents de grande taille. La combinaison de ces deux éléments a donné naissance à l'innovation méthodologique centrale du domaine de l'histoire numérique&nbsp;: la capacité de &laquo;&nbsp;lire à distance&nbsp;&raquo; de grands corpus et de découvrir des modèles à grande échelle[^2].
