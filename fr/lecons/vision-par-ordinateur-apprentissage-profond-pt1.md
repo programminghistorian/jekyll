@@ -79,13 +79,13 @@ Cette leçon n'a pas pour but de&nbsp;:
 Nous vous suggérons d'aborder cette leçon en deux parties en deux temps&nbsp;:
 
 - Tout d'abord, lisez les informations de cette page, pour vous familiariser avec les questions conceptuelles clés et le flux de travail global pour l'entrainement d'un modèle de vision par ordinateur.
-- Ensuite, exécutez le code proposé dans [le carnet Jupyter associé](/assets/vision-par-ordinateur-apprentissage-profond-pt1-2/vision-par-ordinateur-apprentissage-profond-pt1-2.ipynb).
+- Ensuite, exécutez le code proposé dans [le carnet Jupyter associé](https://tinyurl.com/lecon-carnet).
 
 Dans cette leçon en deux parties, nous allons utiliser une approche de la vision par ordinateur basée sur l'apprentissage profond. Le processus de mise en place d'un environnement pour l'apprentissage profond est devenu plus facile mais peut encore être complexe. Nous avons essayé d'utiliser un processus de configuration aussi simple que possible, et nous proposons un cheminement le plus direct possible pour commencer à exécuter le code de la leçon.
 
 ### Carnets
 
-Cette leçon en deux parties est disponible sous forme d'un carnet (*notebook*) Jupyter. Nous vous recommandons d'exécuter le code de cette leçon à l'aide de [ce carnet compagnon](/assets/vision-par-ordinateur-apprentissage-profond-pt1-2/vision-par-ordinateur-apprentissage-profond-pt1-2.ipynb), ce qui convient parfaitement à la nature exploratoire que nous allons mettre en œuvre.
+Cette leçon en deux parties est disponible sous forme d'un carnet (*notebook*) Jupyter. Nous vous recommandons d'exécuter le code de cette leçon à l'aide de [ce carnet compagnon](https://tinyurl.com/lecon-carnet), ce qui convient parfaitement à la nature exploratoire que nous allons mettre en œuvre.
 
 ### Exécuter les carnets 
 
@@ -107,7 +107,7 @@ L'entrainement de modèles d'apprentissage supervisé est une tâche gourmande e
 Pour exécuter le code de la leçon sur Colab, vous devrez&nbsp;:
 
 - Créer un compte sur [Google](https://accounts.google.com/signup), nécessaire pour enregistrer et exécuter des carnets.
-- [Ouvrir le carnet](/assets/vision-par-ordinateur-apprentissage-profond-pt1-2/vision-par-ordinateur-apprentissage-profond-pt1-2.ipynb) et cliquer sur le bouton _Ouvrir dans Colab_.
+- [Ouvrir le carnet](https://tinyurl.com/lecon-carnet) et cliquer sur le bouton _Ouvrir dans Colab_.
  Les données utilisées dans cette leçon sont fournies avec ces carnets.
 - Une fois le carnet ouvert, nous vous recommandons d'en enregistrer une copie dans votre propre Google Drive: **Fichier** > _Enregistrer une copie dans le Drive_.
 - Pour utiliser un GPU, cliquez sur **Exécution** > **Modifier le type d'exécution**, et choisissez un des boutons `GPU` parmi les boutons disponibles dans **Accélérateur matériel**. Google Colab change parfois la dénomination des GPU disponibles. À l'heure de la traduction de ce carnet, le nom est `GPU T4`.
