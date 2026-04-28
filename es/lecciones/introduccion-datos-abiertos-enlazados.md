@@ -400,7 +400,7 @@ Sin embargo, a pesar de sus inconsistencias, *DBpedia* es un gran lugar para apr
 
 * Matthew Lincoln ['Using SPARQL to access Linked Open Data'](/en/lessons/graph-databases-and-SPARQL)
 
-* [Linked Data guides and tutorials](http://linkeddata.org/guides-and-tutorials)
+* [Linked Data guides and tutorials](https://web.archive.org/web/20170515070722/http://linkeddata.org/guides-and-tutorials)
 
 * Dominic Oldman, Martin Doerr y Stefan Gradmann, "Zen and the Art of Linked Data: New Strategies for a Semantic Web of Humanist Knowledge", in *A New Companion to Digital Humanities*, editado por Susan Schreibman et al.
 
