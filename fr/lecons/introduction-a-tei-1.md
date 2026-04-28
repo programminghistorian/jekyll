@@ -5,7 +5,7 @@ original: introduccion-a-tei-1
 layout: lesson
 collection: lessons
 date: 2021-07-27
-translation_date: 2026-04-24
+translation_date: 2026-05-05
 authors:
 - Nicolás Vaughan
 editors:
