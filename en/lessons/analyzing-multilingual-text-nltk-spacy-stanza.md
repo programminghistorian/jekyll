@@ -12,6 +12,8 @@ reviewers:
 editors:
 - Laura Alice Chapot
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/612
+lesson-testers: Émilien Schultz
+tested-date: 2026-04-24
 difficulty: 2
 activity: analyzing
 topics: [python, data-manipulation, distant-reading]
@@ -21,6 +23,10 @@ doi: 10.46430/phen0121
 ---
 
 {% include toc.html %}
+
+<div class="alert alert-info">>
+This lesson has been updated in April 2026 to reflect changes in the libraries used. The code has been adapted for Python 3.12, spaCy 3.8.11 and Stanza 1.11.1 (the original version was based on Python 3.10, spaCy 3.7.4 and Stanza 1.8.2). In particular, the section on language detection using <code>spacy_langdetect</code> has been rewritten to follow the new <code>@Language.factory</code> pattern required by recent versions of spaCy, and the sentence indices used in the spaCy tokenisation examples have been adjusted.
+</div>
 
 ## Lesson Goals
 
