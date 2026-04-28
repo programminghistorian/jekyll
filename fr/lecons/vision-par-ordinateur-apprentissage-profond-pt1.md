@@ -5,7 +5,7 @@ original: computer-vision-deep-learning-pt1
 layout: lesson
 collection: lessons
 date: 2022-08-17
-translation_date: 2026-04-24
+translation_date: 2026-05-05
 authors:
 - Daniel van Strien
 - Kaspar Beelen
