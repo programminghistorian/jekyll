@@ -3,6 +3,7 @@ title: Appel à Candidatures (édition française)
 authors:
 - Marie Flesch
 - Daphné Mathelier
+- Alexandre Wauthier
 layout: post
 categories: posts
 ---
