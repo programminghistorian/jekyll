@@ -2814,6 +2814,8 @@
   bio:
     fr: |
       Daphné Mathelier est ingénieure d'études au Centre national de la recherche scientifique française (CNRS). Elle est chargée d’édition de corpus numériques au Centre d’étude de la langue et des littératures françaises (CELLF, CNRS – Sorbonne Université).
+    en: |
+      Daphné Mathelier is a research engineer at the Centre national de la recherche scientifique française (CNRS). She is a digital corpus editor at the Centre d’étude de la langue et des littératures françaises (CELLF, CNRS – Sorbonne Université).
       
 - name: Alexandre Wauthier
   email: alexandre.wauthier@campus-condorcet.fr
@@ -2840,6 +2842,8 @@
   bio:
     fr: |
       Alexandre Wauthier est ingénieur d'études chargé d'accompagnement de projets numériques à l'Humathèque, Campus Condorcet-CNRS, Aubervilliers, France.
+    en: |
+      Alexandre Wauthier is a research engineer responsible for supporting digital projects at the Humathèque, Campus Condorcet-CNRS, Aubervilliers, France.
 
 - name: Ricardo Campos
   orcid: 0000-0002-8767-8126
