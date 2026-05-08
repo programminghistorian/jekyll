@@ -12,6 +12,8 @@ reviewers:
 editors:
 - Laura Alice Chapot
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/612
+lesson-testers: Émilien Schultz
+tested-date: 2026-04-24
 difficulty: 2
 activity: analyzing
 topics: [python, data-manipulation, distant-reading]
@@ -21,6 +23,10 @@ doi: 10.46430/phen0121
 ---
 
 {% include toc.html %}
+
+<div class="alert alert-info">>
+This lesson has been updated in April 2026 to reflect changes in the libraries used. The code has been adapted for Python 3.12, spaCy 3.8.11 and Stanza 1.11.1 (the original version was based on Python 3.10, spaCy 3.7.4 and Stanza 1.8.2). In particular, the section on language detection using <code>spacy_langdetect</code> has been rewritten to follow the new <code>@Language.factory</code> pattern required by recent versions of spaCy, and the sentence indices used in the spaCy tokenisation examples have been adjusted.
+</div>
 
 ## Lesson Goals
 
@@ -34,7 +40,7 @@ To perform the three fundamental preprocessing steps, this lesson uses three com
 
 This lesson is aimed at those who are unfamiliar with text analysis methods, particularly those who wish to apply such methods to multilingual corpora or texts not written in English. While prior knowledge of Python is not required, it will be helpful to understand the structure of the code. Having a basic knowledge of Python syntax and features is recommended – it would be useful, for example, for the reader to have familiarity with importing libraries, constructing functions and loops, and manipulating strings.
 
-Code for this tutorial is written in Python 3.10 and uses the NLTK (v3.8.1), spaCy (v3.7.4), and Stanza (v1.8.2) libraries to perform its text processing. If you are entirely new to Python, [this _Programming Historian_ lesson](/en/lessons/introduction-and-installation) will be helpful to read before completing this lesson.
+Code for this tutorial is written in Python 3.12 and uses the NLTK (v3.8.1), spaCy (v3.8.11), and Stanza (v1.11.1) libraries to perform its text processing. If you are entirely new to Python, [this _Programming Historian_ lesson](/en/lessons/introduction-and-installation) will be helpful to read before completing this lesson.
 
 ## Installation and Setup
 
@@ -141,7 +147,8 @@ war_and_peace = """
 First, let's load our text file so we can use it with our analysis packages. To start, you'll open the file and assign it to the variable named `war_and_peace`, so we can reference it later on. Then, you'll print the contents of the file to make sure it was read correctly. For the purposes of this tutorial, we are using a short excerpt from the novel.
 
 ```python
-with open("war_and_peace_excerpt.txt") as file:
+# there is no need to run the cell loading the war-and-peace-excerpt.txt file if the previous cell, which directly assigns the text to the war_and_peace variable without downloading a file, has already been executed
+with open("war-and-peace-excerpt.txt") as file:
     war_and_peace = file.read()
     print(war_and_peace)
 ```
@@ -360,20 +367,24 @@ As we can see, TextCat correctly identified the Russian and French sentences. Si
 
 We'll examine other ways to detect the languages in multilingual sentences after we've perform our sentence classification using spaCy and Stanza. 
 
-Let's try spaCy first. First, we install the `spacy_langdetect` package from the Python Package Index:
+Let's try spaCy first.
 
 ```python
-pip install spacy_langdetect
-```
+# First, install the `spacy_langdetect` package from the Python Package Index.
+!pip install spacy_langdetect
 
-Then we import it and use it to detect our languages:
-
-```python
+# Then, import it and use it to detect our languages.
 from spacy.language import Language
 from spacy_langdetect import LanguageDetector
 
-# setting up our pipeline
-Language.factory("language_detector")
+nlp = spacy.load("xx_sent_ud_sm")
+
+# Create the language detector function
+@Language.factory("language_detector")
+def create_language_detector(nlp, name):
+    return LanguageDetector()
+
+# add the tool to our pipeline
 nlp.add_pipe('language_detector', last=True)
 
 # running the language detection on each sentence and printing the results
@@ -409,7 +420,7 @@ nlp = Pipeline(lang="multilingual", processors="langid")
 # specifying which sentences to run the detection on, then running the detection code
 docs = [stanza_rus_sent, stanza_fre_sent, stanza_multi_sent]
 docs = [Document([], text=text) for text in docs]
-nlp(docs)
+docs = nlp(docs)
 
 # printing the text of each sentence alongside the language estimates
 print("\n".join(f"{doc.text}\t{doc.lang}" for doc in docs))
@@ -782,7 +793,7 @@ from stanza.pipeline.multilingual import MultilingualPipeline
 # running the multilingual pipeline on our French, Russian, and multilingual sentences simultaneously
 nlp = MultilingualPipeline(processors='tokenize,pos')
 docs = [stanza_rus_sent, stanza_fre_sent, stanza_multi_sent]
-nlp(docs)
+docs = nlp(docs)
 
 # printing the results
 print(*[f'word: {word.text}\tupos: {word.upos}' for sent in doc.sentences for word in sent.words], sep='\n')

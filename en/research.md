@@ -71,8 +71,8 @@ The project team and members of the wider community are involved in a number of 
 * María José Afanador Llach, Jennifer Isasi, Riva Quiroga, 'Sobre _Programming Historian en español_ y cómo contribuir a la publicación', Semana de Humanidades Digitales 2023 [Online], (10 May 2023).
 * Riva Quiroga, 'Introducción al web scraping usando R. Parte 1: extracción de texto, Parte 2: extracción de tablas', Semana de Humanidades Digitales 2023 [Online], (8-9 May 2023).
 * Jimmy Medeiros, 'Aprendendo a analisar dados com R com base em lições do _Programming Historian_', Semana de Humanidades Digitales 2023 [Online], (8 May 2023).
-* Nicolás Vaughan, '[Taller Introducción al marcado TEI](https://posgradosfacartes.uniandes.edu.co/evento/taller-introduccion-al-marcado-tei/)', Universidad de los Andes [Online], (13-14 March 2023).
-* Miguel Cuandros & Anthony Picón, '[Georreferenciación de mapas históricos con Map Warper](https://facartes.uniandes.edu.co/evento/taller-georreferenciacion-de-mapas-historicos-con-map-warper/)', Universidad de los Andes [Online], (2-3 March 2023).
+* Nicolás Vaughan, '[Taller Introducción al marcado TEI](https://web.archive.org/web/20230501185314/https://posgradosfacartes.uniandes.edu.co/evento/taller-introduccion-al-marcado-tei/)', Universidad de los Andes [Online], (13-14 March 2023).
+* Miguel Cuandros & Anthony Picón, '[Georreferenciación de mapas históricos con Map Warper](https://web.archive.org/web/20230925155343/https://facartes.uniandes.edu.co/evento/taller-georreferenciacion-de-mapas-historicos-con-map-warper/)', Universidad de los Andes [Online], (2-3 March 2023).
 * Jennifer Isasi, ‘Crear una exhibición digital mínima e interactiva con CollectionBuilder,’ Universidad de los Andes [Online], (9-10 February 2023).  
 * Gisele Almeida, Daniel Alves & Eric Brasil, ‘[Conheça o Programming Historian em português](https://youtu.be/5M1KX6AeLbQ),’ Programming Historian, [Online], (25 January 2023).
 * Jessica Parr, Joana Vieira Paulino & Nicolas Vaughan, ['Teaching with Programming Historian,'](https://youtu.be/u5x5WlLD-Bo) Programming Historian [Online], (16 December 2022).
