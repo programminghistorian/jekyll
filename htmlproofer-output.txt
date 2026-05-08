@@ -1,4 +1,4 @@
-/Users/zleblanc/.gem/gems/io-event-1.11.2/lib/io/event/support.rb:48: warning: IO::Buffer is experimental and both the Ruby and C interface may change in the future!
+/Users/ah-ph/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/io-event-1.10.0/lib/io/event/support.rb:48: warning: IO::Buffer is experimental and both the Ruby and C interface may change in the future!
 Running 3 checks (Images, Links, Scripts) in ["_site"] on *.html files ...
 
 
@@ -48,18 +48,6 @@ For the Images check, the following failures were found:
 
 For the Links > External check, the following failures were found:
 
-* At _site/en/lessons/geocoding-qgis/index.html:559:
-
-  External link https://www.libreoffice.org/get-help/install-howto/ failed (status code 404)
-
-* At _site/en/lessons/geocoding-qgis/index.html:559:
-
-  External link https://www.libreoffice.org/get-help/install-howto/ failed (status code 404)
-
-* At _site/en/lessons/geoparsing-text-with-edinburgh/index.html:1003:
-
-  External link https://homepages.inf.ed.ac.uk/grover/papers/PTRS-A-2010-Grover-3875-89.pdf failed: Not Found (status code 404)
-
 * At _site/en/lessons/retired/getting-started-with-github-desktop/index.html:495:
 
   External link https://central.github.com/mac/latest failed (status code 401)
@@ -99,14 +87,6 @@ For the Links > External check, the following failures were found:
 * At _site/es/lecciones/retirada/introduccion-control-versiones-github-desktop/index.html:1073:
 
   External link https://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing failed (status code 404)
-
-* At _site/pt/licoes/geocodificando-qgis/index.html:596:
-
-  External link https://www.libreoffice.org/get-help/install-howto/ failed (status code 404)
-
-* At _site/pt/licoes/geocodificando-qgis/index.html:596:
-
-  External link https://www.libreoffice.org/get-help/install-howto/ failed (status code 404)
 
 For the Links > Internal check, the following failures were found:
 
@@ -383,4 +363,4 @@ For the Links > Internal check, the following failures were found:
   internally linking to /en/lessons/jupyter-notebooks#installing-jupyter-notebooks; the file exists, but the hash 'installing-jupyter-notebooks' does not
 
 
-HTML-Proofer found 92 failures!
+HTML-Proofer found 87 failures!
