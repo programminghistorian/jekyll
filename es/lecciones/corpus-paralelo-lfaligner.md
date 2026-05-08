@@ -260,7 +260,7 @@ Si deseamos editar el documento de formas que la herramienta gráfica de LF Alig
 
 {% include figure.html filename="lfaligner-21.jpg" caption="Búsqueda simple con el navegador Google Chrome" %}
 
-También puedes guardar, por separado, las versiones recién alineadas en documentos de texto plano (txt) y usar un visualizador sencillo de traducciones paralelas como [AntPConc](http://www.laurenceanthony.net/software/antpconc/).
+También puedes guardar, por separado, las versiones recién alineadas en documentos de texto plano (txt) y usar un visualizador sencillo de traducciones paralelas como [AntPConc](https://www.laurenceanthony.net/software/antpconc/).
 
 Sobre la base de la imagen anterior, podemos plantear algunas preguntas que podrían ser útiles para nuestra investigación; tanto en la fase preliminar de un proyecto, en la cual no se tiene claridad sobre lo que se quiere observar, como en una fase avanzada, en la que hacemos búsquedas motivadas por preguntas y criterios previamente establecidos. El tutorial sobre [AntConc](/es/lecciones/analisis-de-corpus-con-antconc) alojado en este sitio profundiza más en el concepto de lectura distante.
 

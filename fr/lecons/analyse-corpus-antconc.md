@@ -61,7 +61,7 @@ Ce tutoriel explore différentes façons d'aborder un corpus de textes. Il est i
 
 ### Téléchargements nécessaires
 1. Logiciel : [AntConc](http://www.laurenceanthony.net/software/antconc/).
-Dézippez le fichier si nécessaire, et lancez l'application. Les captures d'écran ci-dessous peuvent varier légèrement par rapport à la version que vous avez (et selon le système d'exploitation, bien sûr), mais les procédures sont plus ou moins les mêmes sur les plateformes et les versions récentes d'AntConc. Ce tutoriel a recours à une version plus ancienne d'AntConc, car je la trouve plus facile à utiliser dans un contexte d'introduction. Vous pouvez utiliser la version la plus récente, mais si vous souhaitez suivre avec les captures d'écran fournies, vous pouvez télécharger la version utilisée ici, [version 3.2.4](http://www.laurenceanthony.net/software/antconc/releases/AntConc324/).
+Dézippez le fichier si nécessaire, et lancez l'application. Les captures d'écran ci-dessous peuvent varier légèrement par rapport à la version que vous avez (et selon le système d'exploitation, bien sûr), mais les procédures sont plus ou moins les mêmes sur les plateformes et les versions récentes d'AntConc. Ce tutoriel a recours à une version plus ancienne d'AntConc, car je la trouve plus facile à utiliser dans un contexte d'introduction. Vous pouvez utiliser la version la plus récente, mais si vous souhaitez suivre avec les captures d'écran fournies, vous pouvez télécharger la version utilisée ici, [version 3.2.4](https://www.laurenceanthony.net/software/antconc/releases/AntConc324/).
 
 2. Corpus test : Téléchargez un [fichier zip de critiques de films](/assets/corpus-analysis-with-antconc/antconc_corpus_files.zip).
 
@@ -279,7 +279,7 @@ Vous pouvez également opter pour l'échange de corpus de référence et de fich
 
 Dans _Keyword List_ (Liste des mots-clés), appuyez simplement sur "_Start_" (Démarrer) (sans rien taper dans le champ de recherche). Si vous venez de changer le corpus de référence et les fichiers cibles, il se peut qu'on vous demande de créer une nouvelle liste de mots avant qu'AntConc ne calcule les mots-clés. Nous voyons une liste de mots-clés qui ont des mots qui sont beaucoup plus "inhabituels" - plus statistiquement inattendus - dans le corpus que nous regardons en comparaison avec le corpus de référence.
 
-> Keyness (spécificité) : c'est la fréquence d'un mot dans le texte par rapport à sa fréquence dans un corpus de référence, "telle que la probabilité statistique calculée par une procédure appropriée soit inférieure ou égale à une valeur p indiquée par l'utilisateur" (tiré d'[ici][41]). Pour ceux et celles qui s'intéressent aux détails statistiques, voir la section sur la spécificité (Keyness) à la page 7 du [fichier read me](http://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf) de Laurence Anthony.
+> Keyness (spécificité) : c'est la fréquence d'un mot dans le texte par rapport à sa fréquence dans un corpus de référence, "telle que la probabilité statistique calculée par une procédure appropriée soit inférieure ou égale à une valeur p indiquée par l'utilisateur" (tiré d'[ici][41]). Pour ceux et celles qui s'intéressent aux détails statistiques, voir la section sur la spécificité (Keyness) à la page 7 du [fichier read me](https://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf) de Laurence Anthony.
 
 
 
