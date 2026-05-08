@@ -1,6 +1,4 @@
 # Makefile to build Jekyll and run HTMLProofer without YAML
-# Note: Currently using local html-proofer from ../html-proofer
-# To use released version, update Gemfile to use 'gem html-proofer' instead of the path directive
 
 SITE_DIR := _site
 LOG_FILE := htmlproofer-output.txt
