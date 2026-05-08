@@ -8,21 +8,26 @@ _site/fr/dons/index.html,250,image /images/website/individual/red-bird-on-branch
 _site/fr/index.html,249,image /images/website/index/woman-using-tabulator.png does not have an alt attribute
 _site/fr/pi/index.html,250,image /images/website/ipp/bird-with-eggs-nest.png does not have an alt attribute
 _site/pt/index.html,251,image /images/website/index/woman-using-tabulator.png does not have an alt attribute
-_site/en/lessons/geocoding-qgis/index.html,559,External link https://www.libreoffice.org/get-help/install-howto/ failed (status code 404)
-_site/en/lessons/geocoding-qgis/index.html,559,External link https://www.libreoffice.org/get-help/install-howto/ failed (status code 404)
-_site/en/lessons/geoparsing-text-with-edinburgh/index.html,1003,External link https://homepages.inf.ed.ac.uk/grover/papers/PTRS-A-2010-Grover-3875-89.pdf failed: Not Found (status code 404)
+_site/en/lessons/intro-to-linked-data/index.html,572,http://www.geonames.org/ is not an HTTPS link
+_site/es/lecciones/analisis-de-corpus-con-antconc/index.html,1047,http://www.lexically.net/downloads/version6/HTML/index.html?keyness_definition.htm is not an HTTPS link
+_site/es/lecciones/introduccion-datos-abiertos-enlazados/index.html,603,http://www.geonames.org/ is not an HTTPS link
+_site/fr/lecons/publier-archives-tei-ceteicean/index.html,539,http://www.jedit.org/ is not an HTTPS link
+_site/fr/lecons/publier-archives-tei-ceteicean/index.html,873,http://teic.github.io/CETEIcean/ is not an HTTPS link
+_site/fr/lecons/publier-archives-tei-ceteicean/index.html,894,http://teic.github.io/CETEIcean/ is not an HTTPS link
+_site/fr/lecons/publier-archives-tei-ceteicean/index.html,897,http://www.jedit.org/ is not an HTTPS link
+_site/pt/licoes/introducao-dados-abertos-conectados/index.html,616,http://www.geonames.org/ is not an HTTPS link
 _site/en/lessons/retired/getting-started-with-github-desktop/index.html,495,External link https://central.github.com/mac/latest failed (status code 401)
 _site/en/lessons/retired/getting-started-with-github-desktop/index.html,595,External link https://central.github.com/mac/latest failed (status code 401)
 _site/en/lessons/retired/getting-started-with-github-desktop/index.html,1057,External link https://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing failed (status code 404)
+_site/en/lessons/retired/graph-databases-and-SPARQL/index.html,1106,External link https://viaf.org/ failed (status code 404)
 _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html,510,External link https://play.google.com/store/apps/details?id=com.Trace.Dollars&hl=en failed (status code 404)
-_site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html,516,External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
 _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html,516,External link https://docs.unity3d.com/Manual/LearningtheInterface.html failed (status code 404)
+_site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html,516,External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
 _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html,1335,External link https://docs.unity3d.com/Manual/Transforms.html failed (status code 404)
 _site/es/lecciones/retirada/introduccion-control-versiones-github-desktop/index.html,537,External link https://central.github.com/mac/latest failed (status code 401)
 _site/es/lecciones/retirada/introduccion-control-versiones-github-desktop/index.html,635,External link https://central.github.com/mac/latest failed (status code 401)
 _site/es/lecciones/retirada/introduccion-control-versiones-github-desktop/index.html,1073,External link https://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing failed (status code 404)
-_site/pt/licoes/geocodificando-qgis/index.html,596,External link https://www.libreoffice.org/get-help/install-howto/ failed (status code 404)
-_site/pt/licoes/geocodificando-qgis/index.html,596,External link https://www.libreoffice.org/get-help/install-howto/ failed (status code 404)
+_site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html,1013,External link https://viaf.org/ failed (status code 404)
 _site/en/lesson-retirement-policy/index.html,285,"internally linking to /en/author-guidelines#sustainable-writing; the file exists, but the hash 'sustainable-writing' does not"
 _site/en/lesson-retirement-policy/index.html,287,"internally linking to /en/reviewer-guidelines#sustainability; the file exists, but the hash 'sustainability' does not"
 _site/en/lesson-retirement-policy/index.html,289,"internally linking to /en/editor-guidelines#c-sustainability--internationalization-review; the file exists, but the hash 'c-sustainability--internationalization-review' does not"

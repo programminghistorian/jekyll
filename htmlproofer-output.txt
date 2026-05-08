@@ -1,11 +1,11 @@
-/Users/ah-ph/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/io-event-1.10.0/lib/io/event/support.rb:48: warning: IO::Buffer is experimental and both the Ruby and C interface may change in the future!
+/Users/zleblanc/.gem/gems/io-event-1.11.2/lib/io/event/support.rb:48: warning: IO::Buffer is experimental and both the Ruby and C interface may change in the future!
 Running 3 checks (Images, Links, Scripts) in ["_site"] on *.html files ...
 
 
-Checking 5276 external links
-Checking 5186 internal links
-Checking internal link hashes in 308 files
-Ran on 500 files!
+Checking 5307 external links
+Checking 5195 internal links
+Checking internal link hashes in 309 files
+Ran on 501 files!
 
 
 For the Images check, the following failures were found:
@@ -46,6 +46,40 @@ For the Images check, the following failures were found:
 
   image /images/website/index/woman-using-tabulator.png does not have an alt attribute
 
+For the Links check, the following failures were found:
+
+* At _site/en/lessons/intro-to-linked-data/index.html:572:
+
+  http://www.geonames.org/ is not an HTTPS link
+
+* At _site/es/lecciones/analisis-de-corpus-con-antconc/index.html:1047:
+
+  http://www.lexically.net/downloads/version6/HTML/index.html?keyness_definition.htm is not an HTTPS link
+
+* At _site/es/lecciones/introduccion-datos-abiertos-enlazados/index.html:603:
+
+  http://www.geonames.org/ is not an HTTPS link
+
+* At _site/fr/lecons/publier-archives-tei-ceteicean/index.html:539:
+
+  http://www.jedit.org/ is not an HTTPS link
+
+* At _site/fr/lecons/publier-archives-tei-ceteicean/index.html:873:
+
+  http://teic.github.io/CETEIcean/ is not an HTTPS link
+
+* At _site/fr/lecons/publier-archives-tei-ceteicean/index.html:894:
+
+  http://teic.github.io/CETEIcean/ is not an HTTPS link
+
+* At _site/fr/lecons/publier-archives-tei-ceteicean/index.html:897:
+
+  http://www.jedit.org/ is not an HTTPS link
+
+* At _site/pt/licoes/introducao-dados-abertos-conectados/index.html:616:
+
+  http://www.geonames.org/ is not an HTTPS link
+
 For the Links > External check, the following failures were found:
 
 * At _site/en/lessons/retired/getting-started-with-github-desktop/index.html:495:
@@ -60,17 +94,21 @@ For the Links > External check, the following failures were found:
 
   External link https://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing failed (status code 404)
 
+* At _site/en/lessons/retired/graph-databases-and-SPARQL/index.html:1106:
+
+  External link https://viaf.org/ failed (status code 404)
+
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:510:
 
   External link https://play.google.com/store/apps/details?id=com.Trace.Dollars&hl=en failed (status code 404)
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:516:
 
-  External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
+  External link https://docs.unity3d.com/Manual/LearningtheInterface.html failed (status code 404)
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:516:
 
-  External link https://docs.unity3d.com/Manual/LearningtheInterface.html failed (status code 404)
+  External link https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials failed (status code 404)
 
 * At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:1335:
 
@@ -87,6 +125,10 @@ For the Links > External check, the following failures were found:
 * At _site/es/lecciones/retirada/introduccion-control-versiones-github-desktop/index.html:1073:
 
   External link https://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing failed (status code 404)
+
+* At _site/es/lecciones/retirada/sparql-datos-abiertos-enlazados/index.html:1013:
+
+  External link https://viaf.org/ failed (status code 404)
 
 For the Links > Internal check, the following failures were found:
 
@@ -363,4 +405,4 @@ For the Links > Internal check, the following failures were found:
   internally linking to /en/lessons/jupyter-notebooks#installing-jupyter-notebooks; the file exists, but the hash 'installing-jupyter-notebooks' does not
 
 
-HTML-Proofer found 87 failures!
+HTML-Proofer found 97 failures!
