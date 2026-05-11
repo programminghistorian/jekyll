@@ -281,7 +281,7 @@ begin looking at and wrangling with some data. Unfortunately, for
 historians, there are only a few easily available datasets--perhaps you
 can help change this by making yours available to the public! We are
 going to rely on the [history
-data](https://www.google.com/search?q=cran%20historydata) package
+data](https://cran.r-project.org/package=historydata) package
 created by [Lincoln Mullen](http://lincolnmullen.com/).
 
 Lets go ahead and install and load the package:

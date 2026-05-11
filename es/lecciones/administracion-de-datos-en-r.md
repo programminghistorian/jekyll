@@ -187,7 +187,7 @@ vector_raiz_y_suma_permanente_poblacion_estados
 ```
 
 ## Necesitamos un nuevo conjunto de datos
-Ahora que entendemos la línea de operaciones, estamos preparados para empezar a mirar y administrar otro conjunto de datos. Desafortunadamente, para los historiadores, solo hay unos pocos conjuntos disponibles - ¡a lo mejor tú nos puedas ayudar a cambiar esto haciendo los tuyos públicos! Aquí contamos con el paquete [history data](https://cran.r-project.org/web/packages/historydata/index.html) (datos históricos) creado por [Lincoln Mullen](https://lincolnmullen.com).
+Ahora que entendemos la línea de operaciones, estamos preparados para empezar a mirar y administrar otro conjunto de datos. Desafortunadamente, para los historiadores, solo hay unos pocos conjuntos disponibles - ¡a lo mejor tú nos puedas ayudar a cambiar esto haciendo los tuyos públicos! Aquí contamos con el paquete [history data](https://cran.r-project.org/package=historydata) (datos históricos) creado por [Lincoln Mullen](https://lincolnmullen.com).
 
 Vamos a instalar y cargar el paquete:
 
