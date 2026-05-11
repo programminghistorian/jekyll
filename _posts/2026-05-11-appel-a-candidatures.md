@@ -1,5 +1,5 @@
 ---
-title: Appel à Candidatures (édition française)
+title: Appel à candidatures (édition française)
 authors:
 - Marie Flesch
 - Daphné Mathelier
@@ -27,7 +27,7 @@ Le fonctionnement de chaque version repose sur une équipe bénévole de cherche
 
 *Programming Historian en français*, en ligne depuis 2019, propose des leçons traduites (depuis d’autres versions) et des leçons initialement écrites en français.
 
-Nous souhaitons renforcer les rangs de notre équipe avec des nouveaux membres issus de communautés de recherche francophones.
+Nous souhaitons renforcer les rangs de notre équipe avec de nouveaux membres issus de communautés de recherche francophones.
 
 Nous recherchons des personnes ayant une bonne connaissance des méthodes numériques et quantitatives appliquées aux sciences humaines et sociales et prêtes à s’investir au sein d’une équipe internationale. 
 
