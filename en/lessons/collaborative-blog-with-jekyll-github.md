@@ -596,7 +596,7 @@ The results of an export like the one described above are not likely to be immed
 
 Regardless of the method you select for exporting, your content will need a lot of manual cleanup. Programmatic exporters like these will catch a majority of necessary conversions, but there will inevitably be a vast array of things needing individual clean up. WordPress shortcodes, for example, are unlikely to be readily converted into meaningful syntax for Jekyll, and even basic Markdown syntax errors will likely need to be glossed. This can be a lot of work. We recommend using a robust plain text editor like [Atom](https://atom.io) or [Sublime Text](https://www.sublimetext.com/) to help. Editors like these offer color highlighting and previews for Markdown syntax, and will allow you to quickly identify problems such as whole sections of a document appearing in bold.
 
-Migrating a site from one platform to another is a time-consuming and labor-intensive process. If you are committed to migrating, take care to do this in an organized way. Ensure that you have done all that you can with an exporting tool before beginning to manually clean, otherwise you risk losing time correcting syntax that will be lost with the next, fresh export. For the manual cleaning phase of the process, use project management software (such as [Trello](https://trello.com/en-US) and [GitHub's project boards](https://help.github.com/en/articles/about-project-boards) are popular, free options) to track progress, facilitate collaboration if you are working in a team, and log new issues as they inevitably arise. It will also help you develop a roll-out plan that accounts for necessary ongoing work, after the migration is finalized.
+Migrating a site from one platform to another is a time-consuming and labor-intensive process. If you are committed to migrating, take care to do this in an organized way. Ensure that you have done all that you can with an exporting tool before beginning to manually clean, otherwise you risk losing time correcting syntax that will be lost with the next, fresh export. For the manual cleaning phase of the process, use project management software (such as [Trello](https://trello.com/en) and [GitHub's project boards](https://help.github.com/en/articles/about-project-boards) are popular, free options) to track progress, facilitate collaboration if you are working in a team, and log new issues as they inevitably arise. It will also help you develop a roll-out plan that accounts for necessary ongoing work, after the migration is finalized.
 
 ## Help
 ### Workflow summary
@@ -654,7 +654,7 @@ If you set up a custom domain with your GitHub Pages-hosted website, to avoid a 
 
 *Tools*
 *  Robust plain text editor options: [Atom](https://atom.io), [Sublime Text](https://www.sublimetext.com/), [Prose](http://prose.io/) content editor (built on Jekyll)
-* Project management options: [Trello](https://trello.com/en-US), [GitHub's project boards](https://help.github.com/en/articles/about-project-boards)
+* Project management options: [Trello](https://trello.com/en), [GitHub's project boards](https://help.github.com/en/articles/about-project-boards)
 
 *Case study links*
 * [Scholars' Lab website](https://scholarslab.org)  
