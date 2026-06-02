@@ -199,7 +199,7 @@ une bonne partie du travail a été fait pour vous. De nombreuses personnes ont 
 
 Une ontologie est plus flexible, car elle n’est pas strictement hiérarchique. Elle vise à représenter la fluidité du monde réel, au sein duquel les choses entretiennent des relations plus complexes que les représentations d’une structure hiérarchique en arbre. Au lieu de cela, une ontologie ressemble davantage à une toile d’araignée.
 
-Peu importe ce que vous cherchez à représenter avec les DOL, nous vous suggérons de trouver un vocabulaire existant et de l’utiliser, plutôt que de tenter de créer le vôtre. Vous trouvez plusieurs des vocabulaires les plus utilisés en consultant le site [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/lov).
+Peu importe ce que vous cherchez à représenter avec les DOL, nous vous suggérons de trouver un vocabulaire existant et de l’utiliser, plutôt que de tenter de créer le vôtre. Vous trouvez plusieurs des vocabulaires les plus utilisés en consultant le site [Vocabulaires Ouverts](https://vocabulaires-ouverts.inrae.fr/).
 
 Puisque l’exemple présenté plus haut se concentre sur les pianistes, il serait convenable de repérer une ontologie appropriée plutôt que de créer notre propre système. Justement, il existe une [ontologie pour la musique](http://web.archive.org/web/20170715094229/http://www.musicontology.com/) (en anglais). En plus d’offrir une spécification aboutie, la documentation propose aussi des exemples utiles d’utilisations courantes. Vous pouvez visiter les [pages d’introduction](http://web.archive.org/web/20170718143925/http://musicontology.com/docs/getting-started.html) (en anglais) pour vous faire une meilleure idée de la façon dont vous pourriez utiliser cette ontologie en particulier.
 
