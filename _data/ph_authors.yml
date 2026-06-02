@@ -2556,8 +2556,9 @@
   status: volunteer
 
 - name: Giulia Taurino
-  team: true
+  team: false
   team_start: 2022
+  team_end: 2026
   institution: Northeastern University
   github: giuliataurino
   email: g.taurino@northeastern.edu
@@ -2873,8 +2874,9 @@
   twitter: davvalent
   mastodon: mas.to/@davvalent
   orcid: 0000-0003-3410-7677
-  team: true
+  team: false
   team_start: 2023
+  team_end: 2026
   institution: Université de Montréal
   sortname: Valentine
   affiliation:
@@ -3132,8 +3134,9 @@
   orcid: 0000-0003-3179-6980
   github: semanticnoodles
   email: giulia.osti@ucdconnect.ie
-  team: true
+  team: false
   team_start: 2024
+  team_end: 2026
   institution: School of Information and Communication Studies, University College Dublin
   sortname: Osti
   affiliation:
@@ -3385,3 +3388,8 @@
   bio:
     es: |
       Douglas McRae se doctoró en historia de América Latina en Georgetown University. Fue coordinador de educación para Tropy a través del Roy Rosenzweig Center for History and New Media en George Mason University.
+
+
+- name: Patricia A. Loto
+  orcid: 0000-0003-1849-6916
+  team: false
