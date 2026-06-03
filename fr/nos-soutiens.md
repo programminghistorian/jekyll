@@ -12,7 +12,7 @@ _Programming Historian_ est reconnaissant envers ses contributeurs passés et ac
 ## Partenaires de niveau Gold
 
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), États-Unis
-- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Royaume-Uni
+- [Edinburgh Futures Institute, University of Edinburgh](https://efi.ed.ac.uk), Royaume-Uni
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Royaume-Uni
 - [University of Southampton](https://www.southampton.ac.uk/), Royaume-Uni
 - [Jisc](https://www.jisc.ac.uk/), Royaume-Uni  
@@ -34,8 +34,6 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), États-Unis
 - [University of Bristol Library](https://www.bristol.ac.uk/library/), Royaume-Uni
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Royaume-Uni
-- [School of Advanced Study, University of London](https://www.sas.ac.uk/), Royaume-Uni
-- [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, Royaume-Uni
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), Royaume-Uni
 - [University of York](https://www.york.ac.uk/), Royaume-Uni
 - [University of Oxford](https://www.ox.ac.uk), Royaume-Uni
@@ -71,13 +69,15 @@ Les institutions suivantes ont participé à de notre programme de [Partenariat 
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), Royaume-Uni [2022-2024]
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), Royaume-Uni [2022-2024]
 - [Purdue University](https://www.purdue.edu/), États-Unis [2021-2025]
+- [School of Advanced Study, University of London](https://www.sas.ac.uk/), Royaume-Uni [2022-2026]   
+- [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, Royaume-Uni [2022-2026]   
 
 ## Soutien additionnel
 Les organisations suivantes ont apporté ou continuent d'apporter un soutien allant de services en nature au financement de projets spécifiques&nbsp;:
 
 ### En cours
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Royaume-Uni [2020-présent]
-- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Royaume-Uni [2024-présent]  
+- [Edinburgh Futures Institute, University of Edinburgh](https://efi.ed.ac.uk), Royaume-Uni [2024-présent]  
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), États-Unis [2024-présent]
 - [Jisc](https://www.jisc.ac.uk/), Royaume-Uni [2024-présent]  
   
