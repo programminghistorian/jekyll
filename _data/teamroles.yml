@@ -12,10 +12,21 @@
     fr: Rédacteur/rédactrice en chef
     pt: Editor-chefe
   definition:
-    en: First point of contact for authors with lesson ideas
-    es: Primer contacto para autores con ideas de lecciones
-    fr: Premier contact pour les auteur(e)s souhaitant proposer une leçon
-    pt: Primeiro contacto para os autores com ideias para lições
+    en: First contact for prospective authors and collaborators, and a source of guidance and support for their editorial team.
+    es: Primer contacto para los posibles autores y colaboradores, y fuente de orientación y apoyo para su equipo editorial.
+    fr: Premier contact pour les auteur(e)s et collaborateurs potentiels, et source de conseils et de soutien pour leur équipe éditoriale.
+    pt: Primeiro contacto para potenciais autores e colaboradores, e uma fonte de orientação e apoio para a equipa editorial.
+- type: managing-assistant
+  label:
+    en: Assistant Managing Editor
+    es: Jefe/a de redacción adjunto/a
+    fr: Rédacteur/rédactrice en chef adjoint/e
+    pt: Editor-chefe adjunto/a
+  definition:
+    en: Supports the Managing Editor in serving as a point of contact for authors and collaborators, and providing guidance and support to the editorial team.
+    es: Colabora con el jefe/a de redacción como punto de contacto para los autores y colaboradores, y ofreciendo orientación y apoyo al equipo editorial.
+    fr: Aide le/la rédacteur/rédactrice en chef à assurer la liaison avec les auteurs et les collaborateurs, et apporte conseils et soutien à l'équipe éditoriale.
+    pt: Auxilia o/a editor-chefe na comunicação com os autores e colaboradores e presta aconselhamento e apoio à equipa editorial.
 - type: editorial
   label:
     en: Editor
