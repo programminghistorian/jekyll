@@ -113,28 +113,16 @@ Também agradecemos publicamente a todos os nossos apoiadores ativos 'Educator',
 
 **Patron:**
 
--   Tim Hitchcock
--   Shawn Graham
--   Jeff Blackadar
--   Jodi Burkett
--   Michael Piotrowski
--   Nickoal Eichmann-Kalwara
--   Bruno Magalhães
--   Dimitra Koutla
--   Ben Akrigg
--   Robert C.H. Sweeny
--   Simon Mahony
--   James Baker
--   Cory Taylor
+- Tim Hitchcock
+- Shawn Graham
+- Michael Piotrowski
+- Ben Akrigg
 
 **Educator:**
 
--   Laura Gayle Green 
--   Rebecca Kahn 
--   Sarah Melton
--   Laurissa Stokes
--   Monica Berti
--   Samuel Salgado Tello
+- Laura Gayle Green 
+- Rebecca Kahn
+- Anna Costalonga
 
 ## Gestão de Doações e Patrocínios
 
