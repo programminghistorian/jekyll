@@ -112,25 +112,14 @@ En particular, agradecemos la contribución de los siguientes suscriptores activ
 
 - Tim Hitchcock
 - Shawn Graham
-- Jeff Blackadar
-- Jodi Burkett
 - Michael Piotrowski
-- Nickoal Eichmann-Kalwara
-- Bruno Magalhães
-- Dimitra Koutla
 - Ben Akrigg
-- Robert C.H. Sweeny
-- Simon Mahony
-- Cory Taylor
 
 **Educación:**
 
 - Laura Gayle Green 
-- Rebecca Kahn 
-- Sarah Melton 
-- Laurissa Stokes 
-- Monica Berti 
-- Samuel Salgado Tello 
+- Rebecca Kahn
+- Anna Costalonga
 
 
 
