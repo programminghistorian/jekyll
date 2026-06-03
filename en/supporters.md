@@ -75,7 +75,7 @@ Organizations that have or continue to give support ranging from in kind service
 
 ### Active
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), United Kingdom [2020-Present]
-- [[Edinburgh Futures Institute, University of Edinburgh](https://efi.ed.ac.uk), United Kingdom [2024-Present]  
+- [Edinburgh Futures Institute, University of Edinburgh](https://efi.ed.ac.uk), United Kingdom [2024-Present]  
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), United States [2024-Present] 
 - [Jisc](https://www.jisc.ac.uk/), United Kingdom [2024-Present] 
 
@@ -112,25 +112,14 @@ We also publicly thank all of our active 'Educator', 'Patron' and 'Gold Patron' 
 
 - Tim Hitchcock
 - Shawn Graham
-- Jeff Blackadar
-- Jodi Burkett
 - Michael Piotrowski
-- Nickoal Eichmann-Kalwara
-- Bruno Magalhães
-- Dimitra Koutla
 - Ben Akrigg
-- Robert C.H. Sweeny
-- Simon Mahony
-- Cory Taylor
 
 **Educator:**
 
 - Laura Gayle Green 
 - Rebecca Kahn
-- Sarah Melton 
-- Laurissa Stokes
-- Monica Berti
-- Samuel Salgado Tello
+- Anna Costalonga
 
 ## Management of Donations and Sponsorship
 
