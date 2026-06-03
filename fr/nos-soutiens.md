@@ -115,26 +115,14 @@ Nous tenons également à remercier publiquement tous nos donateurs actifs de ni
 
 - Tim Hitchcock
 - Shawn Graham
-- Jeff Blackadar
-- Jodi Burkett
 - Michael Piotrowski
-- Nickoal Eichmann-Kalwara
-- Bruno Magalhães
-- Dimitra Koutla
 - Ben Akrigg
-- Robert C.H. Sweeny
-- Simon Mahony
-- James Baker
-- Cory Taylor
 
 **Éducation&nbsp;:**
 
 - Laura Gayle Green 
 - Rebecca Kahn
-- Sarah Melton
-- Laurissa Stokes
-- Monica Berti
-- Samuel Salgado Tello
+- Anna Costalonga
 
 ## Gestion de donations et de parrainages
 
