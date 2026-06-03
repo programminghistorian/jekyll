@@ -911,11 +911,13 @@
   team: false
   bio:
     en: |
-      Jonathan Blaney is a project editor at the Institute of Historical Research, University of London.
-    es: |
-      Jonathan Blaney dirige un proyecto editorial en el Institute of Historical Research de la Universidad de Londres.
+       Jonathan Blaney is Digital Humanities Research Software Engineer at Cambridge Digital Humanities.
+    fr: |
+       Jonathan Blaney est ingénieur en logiciels de recherche en humanités numériques à Cambridge Digital Humanities.
     pt: |
-      Jonathan Blaney é responsável por um projeto editorial no Institute of Historical Research, University of London.
+      Jonathan Blaney é engenheiro de software de investigação em Humanidades Digitais na Cambridge Digital Humanities.
+    es: |
+      Jonathan Blaney es ingeniero de software de investigación en Humanidades Digitales en Cambridge Digital Humanities.
 
 - name: Daniel Ruten
   team: false
