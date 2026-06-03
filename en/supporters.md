@@ -33,8 +33,6 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), United States
 - [University of Bristol Library](https://www.bristol.ac.uk/library/), United Kingdom
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), United Kingdom
-- [School of Advanced Study, University of London](https://www.sas.ac.uk/), United Kingdom
-- [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, United Kingdom
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), United Kingdom
 - [University of York](https://www.york.ac.uk/), United Kingdom
 - [University of Oxford](https://www.ox.ac.uk), United Kingdom
@@ -68,7 +66,9 @@ Former contributors to our [Institutional Partner Programme](support-us#institut
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Denmark [2021-2024]
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), United Kingdom [2022-2024]
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), United Kingdom [2022-2024]
-- [Purdue University](https://www.purdue.edu/), United States [2021-2025]   
+- [Purdue University](https://www.purdue.edu/), United States [2021-2025]
+- [School of Advanced Study, University of London](https://www.sas.ac.uk/), United Kingdom [2022-2026]   
+- [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, United Kingdom [2022-2026]
 
 ## Additional Supporters
 Organizations that have or continue to give support ranging from in kind services, to project-specific funding:
