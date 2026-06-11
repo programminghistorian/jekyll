@@ -50,7 +50,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 ### Talleres y eventos
 
 * Anisa Hawes, 'Writing Digital Methods', ENABling Library and Archive participation in digital Research co-learning communities (ENABLAR) [En línea], (16-17 de diciembre de 2025).   
-* Anisa Hawes, ['Technical Writing in the Humanities: a facilitated writing sprint'](https://tinyurl.com/diskah-info), Digital Skills in Arts and Humanities (DISKAH) network [En línea], (15 de diciembre de 2025).   
+* Anisa Hawes, ['Technical Writing in the Humanities: a facilitated writing sprint'](https://web.archive.org/web/20251219074549/https://culturedigitalskills.org/webinar-diskah-programming-historian/), Digital Skills in Arts and Humanities (DISKAH) network [En línea], (15 de diciembre de 2025).   
 * Anisa Hawes, [‘Building your digital research skills with _Programming Historian_’](https://www.cdh.cam.ac.uk/events/39996/), Cambridge Digital Humanities, University of Cambridge [En línea], (27 de noviembre de 2025).   
 * Anisa Hawes, ['Remix and Reuse: Translation and Adaptation in the Community'](https://tinyurl.com/ph-remix-reuse), _Programming Historian_ [En línea], (23 de octubre de 2025).  
 * Charlotte Chevrie, 'Remix and Reuse: Translation and Adaptation in the Community', _Programming Historian_ [En línea], (31 de julio de 2025).
