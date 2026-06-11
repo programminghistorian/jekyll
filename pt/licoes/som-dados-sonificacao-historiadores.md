@@ -212,7 +212,7 @@ Vamos supor que você tenha um diário histórico no qual você encaixou um [mod
 Instalar MIDItime é simples com o [pip](/pt/licoes/instalacao-modulos-python-pip):
 
 `$ pip install miditime` ou `$ sudo pip install miditime` para uma máquina Mac ou Linux ;
-`> pip install miditime` em uma máquina Windows. (Usuários Windows, se as instruções acima não funcionaram muito bem, talvez queira tentar [esse programa de ajuda](https://sites.google.com/site/pydatalog/python/pip-for-windows) para fazer o Pip funcionar adequadamente na sua máquina ou então seguir as instruções da [lição sobre pip](/pt/licoes/instalacao-modulos-python-pip) do _Programming Historian em português_).
+`> pip install miditime` em uma máquina Windows. (Usuários Windows, se as instruções acima não funcionaram muito bem, talvez queira tentar [esse programa de ajuda](https://pydatalog.readthedocs.io/en/latest/installation/#using-pip) para fazer o Pip funcionar adequadamente na sua máquina ou então seguir as instruções da [lição sobre pip](/pt/licoes/instalacao-modulos-python-pip) do _Programming Historian em português_).
 
 ### Prática  
 Vamos olhar para o exemplo de script providenciado. Abra o seu editor de texto, e copie e cole o script de exemplo em:
