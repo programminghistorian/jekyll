@@ -212,7 +212,7 @@ Vamos supor que você tenha um diário histórico no qual você encaixou um [mod
 Instalar MIDItime é simples com o [pip](/pt/licoes/instalacao-modulos-python-pip):
 
 `$ pip install miditime` ou `$ sudo pip install miditime` para uma máquina Mac ou Linux ;
-`> pip install miditime` em uma máquina Windows. (Usuários Windows, se as instruções acima não funcionaram muito bem, talvez queira tentar [esse programa de ajuda](https://sites.google.com/site/pydatalog/python/pip-for-windows) para fazer o Pip funcionar adequadamente na sua máquina ou então seguir as instruções da [lição sobre pip](/pt/licoes/instalacao-modulos-python-pip) do _Programming Historian em português_).
+`> pip install miditime` em uma máquina Windows. (Usuários Windows, se as instruções acima não funcionaram muito bem, talvez queira tentar [esse programa de ajuda](https://pydatalog.readthedocs.io/en/latest/installation/#using-pip) para fazer o Pip funcionar adequadamente na sua máquina ou então seguir as instruções da [lição sobre pip](/pt/licoes/instalacao-modulos-python-pip) do _Programming Historian em português_).
 
 ### Prática  
 Vamos olhar para o exemplo de script providenciado. Abra o seu editor de texto, e copie e cole o script de exemplo em:
@@ -453,7 +453,7 @@ O código é bem simples: realize um loop da amostra 'bd_boom' com o efeito de s
 
 A propósito, 'codificação ao vivo'? O que torna esse ambiente um espaço de 'codificação ao vivo' é a possibilidade de se fazer alterações no código _enquanto o Sonic Pi o transforma em música_. Não gosta do que está ouvindo? Altere o código na hora!
 
-Para mais sobre o Sonic Pi, [esse site de workshop](https://www.miskatonic.org/music/access2015/) (em inglês) é um bom lugar para começar. Veja também o [relatório de Laura Wrubel sobre participar desse worksop, e o trabalho dela e de seus colegas na área](http://library.gwu.edu/scholarly-technology-group/posts/sound-library-work) (em inglês).
+Para mais sobre o Sonic Pi, [esse site de workshop](https://web.archive.org/web/20150907155822/https://www.miskatonic.org/music/access2015/) (em inglês) é um bom lugar para começar. Veja também o [relatório de Laura Wrubel sobre participar desse worksop, e o trabalho dela e de seus colegas na área](http://library.gwu.edu/scholarly-technology-group/posts/sound-library-work) (em inglês).
 
 # Nihil Novi Sub Sole
 

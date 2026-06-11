@@ -1063,7 +1063,7 @@ Existem muitos tutoriais genéricos para estes três exemplos, assim como uma do
 
 [^9]: Aqui, optamos por nomear as colunas da tabela em inglês, como *word* (palavra) e *count* (contagem), para facilitar a interação com o conjunto de dados que será introduzido depois com a função `inner_join` [N. de T.].
 
-[^10]: Peter Norvig. “Google Web Trillion Word Corpus”. (Accedido el 11 de noviembre de 2016) http://norvig.com/ngrams/.
+[^10]: Peter Norvig. “Google Web Trillion Word Corpus”. (Accedido el 11 de noviembre de 2016) [http://norvig.com/ngrams/](https://web.archive.org/web/20260326183858/http://norvig.com/ngrams/).
 
 [^11]: Isto ocorre em alguns discursos escritos do Estado da União, quando uma lista com numeração é segmentada numa única frase longa.
 

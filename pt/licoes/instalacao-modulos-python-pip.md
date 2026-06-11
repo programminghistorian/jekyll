@@ -35,7 +35,7 @@ doi: 10.46430/phpt0018
 Objetivos da Lição
 ------------
 
-Esta lição mostra como fazer o download e instalar módulos Python. Há muitas formas de se instalar módulos externos, mas, para os propósitos dessa lição, utilizaremos um programa chamado pip, facilmente instalável em [Mac/Linux](https://pip.pypa.io/en/stable/) e [Windows]( https://sites.google.com/site/pydatalog/python/pip-for-windows). No caso de versões mais recentes do Python (a partir das versões 2.7.9 para Python 2 ou 3.4 para Python 3), pip é instalado por padrão. Esse tutorial será útil para qualquer pessoa que use versões anteriores de Python (que ainda são bastante comuns).
+Esta lição mostra como fazer o download e instalar módulos Python. Há muitas formas de se instalar módulos externos, mas, para os propósitos dessa lição, utilizaremos um programa chamado pip, facilmente instalável em [Mac/Linux](https://pip.pypa.io/en/stable/) e [Windows](https://pydatalog.readthedocs.io/en/latest/installation/#using-pip). No caso de versões mais recentes do Python (a partir das versões 2.7.9 para Python 2 ou 3.4 para Python 3), pip é instalado por padrão. Esse tutorial será útil para qualquer pessoa que use versões anteriores de Python (que ainda são bastante comuns).
 
 
 Introduzindo Módulos
