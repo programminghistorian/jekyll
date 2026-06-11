@@ -12,7 +12,7 @@ original: supporters
 
 ## Colaboración en nivel Gold 
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
-- [Centre for Data, Culture and Society, University of Edinburgh](https://efi.ed.ac.uk/), Reino Unido
+- [Edinburgh Futures Institute, University of Edinburgh](https://efi.ed.ac.uk), Reino Unido
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
 - [University of Southampton](https://www.southampton.ac.uk/), Reino Unido
 - [Jisc](https://www.jisc.ac.uk/), Reino Unido  
@@ -34,8 +34,6 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
 - [University of Bristol Library](https://www.bristol.ac.uk/library/), Reino Unido
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido
-- [School of Advanced Study, University of London](https://www.sas.ac.uk/), Reino Unido
-- [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, Reino Unido
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), Reino Unido
 - [University of York](https://www.york.ac.uk/), Reino Unido
 - [University of Oxford](https://www.ox.ac.uk), Reino Unido
@@ -69,14 +67,16 @@ Antiguos contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca [2021-2024]
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), Reino Unido [2022-2024]
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), Reino Unido [2022-2024]
-- [Purdue University](https://www.purdue.edu/), Estados Unidos [2021-2025]
+- [Purdue University](https://www.purdue.edu/), Estados Unidos [2021-2025]  
+- [School of Advanced Study, University of London](https://www.sas.ac.uk/), Reino Unido [2022-2026]   
+- [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, Reino Unido [2022-2026]   
 
 ## Colaboradores adicionales
 Organizaciones que han o continúan brindando apoyo en forma de contribuciones en especie o de financiamiento específico para proyectos:
 
 ### Activos
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido [2020-Presente]
-- [Centre for Data, Culture and Society, University of Edinburgh](https://efi.ed.ac.uk/), Reino Unido [2024-Presente] 
+- [Edinburgh Futures Institute, University of Edinburgh](https://efi.ed.ac.uk), Reino Unido [2024-Presente] 
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos [2024-Presente]
 - [Jisc](https://www.jisc.ac.uk/), Reino Unido [2024-Presente] 
 
@@ -112,25 +112,14 @@ En particular, agradecemos la contribución de los siguientes suscriptores activ
 
 - Tim Hitchcock
 - Shawn Graham
-- Jeff Blackadar
-- Jodi Burkett
 - Michael Piotrowski
-- Nickoal Eichmann-Kalwara
-- Bruno Magalhães
-- Dimitra Koutla
 - Ben Akrigg
-- Robert C.H. Sweeny
-- Simon Mahony
-- Cory Taylor
 
 **Educación:**
 
 - Laura Gayle Green 
-- Rebecca Kahn 
-- Sarah Melton 
-- Laurissa Stokes 
-- Monica Berti 
-- Samuel Salgado Tello 
+- Rebecca Kahn
+- Anna Costalonga
 
 
 
