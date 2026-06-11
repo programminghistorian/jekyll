@@ -12,7 +12,7 @@ _Programming Historian_ est reconnaissant envers ses contributeurs passés et ac
 ## Partenaires de niveau Gold
 
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), États-Unis
-- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Royaume-Uni
+- [Centre for Data, Culture and Society, University of Edinburgh](https://efi.ed.ac.uk/), Royaume-Uni
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Royaume-Uni
 - [University of Southampton](https://www.southampton.ac.uk/), Royaume-Uni
 - [Jisc](https://www.jisc.ac.uk/), Royaume-Uni  
@@ -77,7 +77,7 @@ Les organisations suivantes ont apporté ou continuent d'apporter un soutien all
 
 ### En cours
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Royaume-Uni [2020-présent]
-- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Royaume-Uni [2024-présent]  
+- [Centre for Data, Culture and Society, University of Edinburgh](https://efi.ed.ac.uk/), Royaume-Uni [2024-présent]  
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), États-Unis [2024-présent]
 - [Jisc](https://www.jisc.ac.uk/), Royaume-Uni [2024-présent]  
   
