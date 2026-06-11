@@ -240,7 +240,7 @@ Baa, Baa, black, sheep, have, you, any, wool?
 
 Can you make your computer play this song? (This [chart](https://web.archive.org/web/20171211192102/http://www.electronics.dit.ie/staff/tscarff/Music_technology/midi/midi_note_numbers_for_octaves.htm) will help).
 
-**By the way** There is a text file specification for describing music called '[ABC Notation](http://abcnotation.com/wiki/abc:standard:v2.1)'. It is beyond us for now, but one could write a sonification script in say a spreadsheet, mapping values to note names in the ABC specification (if you've ever used an IF - THEN in Excel to convert percentage grades to letter grades, you'll have a sense of how this might be done) and then using a site like [this one](http://trillian.mit.edu/~jc/music/abc/ABCcontrib.html) to convert the ABC notation into a .mid file.
+**By the way** There is a text file specification for describing music called '[ABC Notation](https://web.archive.org/web/20160617203735/http://abcnotation.com/wiki/abc:standard:v2.1)'. It is beyond us for now, but one could write a sonification script in say a spreadsheet, mapping values to note names in the ABC specification (if you've ever used an IF - THEN in Excel to convert percentage grades to letter grades, you'll have a sense of how this might be done) and then using a site like [this one](http://trillian.mit.edu/~jc/music/abc/ABCcontrib.html) to convert the ABC notation into a .mid file.
 
 ### Getting your own data in
 
@@ -439,7 +439,7 @@ The code is pretty clear: loop the 'bd_boom' sample with the reverb sound effect
 
 By the way, 'live-coding'? What makes this a 'live-coding' environment is that you can make changes to the code _while Sonic Pi is turning it into music_. Don't like what you're hearing? Change the code up on the fly!
 
-For more on Sonic Pi, [this workshop website](https://www.miskatonic.org/music/access2015/) is a good place to start. See also Laura Wrubel's [report on attending that workshop, and her and her colleague's work in this area](http://library.gwu.edu/scholarly-technology-group/posts/sound-library-work).
+For more on Sonic Pi, [this workshop website](https://web.archive.org/web/20150907155822/https://www.miskatonic.org/music/access2015/) is a good place to start. See also Laura Wrubel's [report on attending that workshop, and her and her colleague's work in this area](http://library.gwu.edu/scholarly-technology-group/posts/sound-library-work).
 
 # Nihil Novi Sub Sole
 Again, lest we think that we are at the cutting edge in our algorithmic generation of music, a salutary reminder was published in 1978 on 'dice music games' of the eighteenth century, where rolls of the dice determined the recombination of pre-written snippets of music. [Some of these games have been explored and re-coded for the Sonic-Pi by Robin Newman](https://rbnrpi.wordpress.com/project-list/mozart-dice-generated-waltz-revisited-with-sonic-pi/). Newman also uses a tool that could be described as Markdown+Pandoc for musical notation, [Lilypond](http://www.lilypond.org/) to score these compositions. The antecedents for everything you will find at _The Programming Historian_ are deeper than you might suspect!
