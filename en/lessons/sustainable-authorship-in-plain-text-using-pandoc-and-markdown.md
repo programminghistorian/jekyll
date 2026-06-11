@@ -704,7 +704,7 @@ according to [this blog
 post](http://web.archive.org/web/20140120195538/http://mashable.com/2013/06/24/markdown-tools/))
 other, Markdown-specific alternatives to MS Word are available online,
 and often free of cost. From the standalone ones, we liked
-[Mou](http://mouapp.com/), [Write Monkey](http://writemonkey.com), and
+[Mou](http://mouapp.com/), [Write Monkey](https://web.archive.org/web/20260327163157/http://writemonkey.com/), and
 [Sublime Text](http://www.sublimetext.com/). Several web-based platforms
 have recently emerged that provide slick, graphic interfaces for
 collaborative writing and version tracking using Markdown. These

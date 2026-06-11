@@ -11,7 +11,7 @@ _Programming Historian_ is grateful to our past and current supporters for enabl
 ## Gold Tier Support
 
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), United States
-- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), United Kingdom
+- [Centre for Data, Culture and Society, University of Edinburgh](https://efi.ed.ac.uk/), United Kingdom
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), United Kingdom
 - [University of Southampton](https://www.southampton.ac.uk/), United Kingdom
 - [Jisc](https://www.jisc.ac.uk/), United Kingdom  
@@ -75,7 +75,7 @@ Organizations that have or continue to give support ranging from in kind service
 
 ### Active
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), United Kingdom [2020-Present]
-- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), United Kingdom [2024-Present]  
+- [Centre for Data, Culture and Society, University of Edinburgh](https://efi.ed.ac.uk/), United Kingdom [2024-Present]  
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), United States [2024-Present] 
 - [Jisc](https://www.jisc.ac.uk/), United Kingdom [2024-Present] 
 

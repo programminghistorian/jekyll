@@ -12,7 +12,7 @@ original: supporters
 
 ## Colaboración en nivel Gold 
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
-- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
+- [Centre for Data, Culture and Society, University of Edinburgh](https://efi.ed.ac.uk/), Reino Unido
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
 - [University of Southampton](https://www.southampton.ac.uk/), Reino Unido
 - [Jisc](https://www.jisc.ac.uk/), Reino Unido  
@@ -76,7 +76,7 @@ Organizaciones que han o continúan brindando apoyo en forma de contribuciones e
 
 ### Activos
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido [2020-Presente]
-- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido [2024-Presente] 
+- [Centre for Data, Culture and Society, University of Edinburgh](https://efi.ed.ac.uk/), Reino Unido [2024-Presente] 
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos [2024-Presente]
 - [Jisc](https://www.jisc.ac.uk/), Reino Unido [2024-Presente] 
 
