@@ -34,7 +34,7 @@ jobs:
         with:
           directory: "./_site"
           arguments: >
-            --assume-extension
+            --assume-extension .html
             --ignore-missing-alt
             --ignore-empty-alt
             --ignore-files "/assets/,/retired/,/retirada/,/retrait/,/posts/"
@@ -52,4 +52,3 @@ jobs:
           repository: programminghistorian/search-index
           event-type: trigger-search-build
           client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
-

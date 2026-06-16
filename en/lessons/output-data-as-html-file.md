@@ -49,7 +49,7 @@ appears.
 -   `obo.py`
 
 If you do not have these files from the previous lesson, you can
-download programming-historian-6, a [zip file from the previous lesson](/en/assets/python-lessons6.zip).
+download programming-historian-6, a [zip file from the previous lesson](/assets/python-lessons6.zip).
 
 ## Building an HTML wrapper
 

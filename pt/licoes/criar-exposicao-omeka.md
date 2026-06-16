@@ -45,7 +45,7 @@ Agora que [adicionamos itens no seu site do Omeka](/en/lessons/up-and-running-wi
 
 A coleção é uma lista de objetos. Uma exposição é um _tour_ guiado pelos seus itens com textos descritivos e _layouts_ customizados. Para criar uma, clique na aba **Exposições** e depois em **Adicionar uma exposição**. Preencha o formulário na parte superior da página. Um **slug** é um nome da sua exposição, legível por uma máquina, que fará parte do seu URL. 
 
-Nota da tradução: para configurar o Omeka.net internamente para a língua portuguesa, siga as instruções disponíveis neste [tutorial.](/pt/licoes/introducao-omeka-net#configurar-o-seu-site-para--portugues-nota-da-traducao)
+Nota da tradução: para configurar o Omeka.net internamente para a língua portuguesa, siga as instruções disponíveis neste [tutorial.](/pt/licoes/introducao-omeka-net#configurar-o-seu-site-para--português-nota-da-tradução)
 
 ## Adicionar uma página
 

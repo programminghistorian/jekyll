@@ -63,7 +63,7 @@ O *Programming Historian em português* usa um modelo de revisão por pares aber
 
 Antes de solicitar revisões externas, o editor deve ler e experimentar o tutorial da lição e usar da sua experiência com o Programming Historian em português para ajudar o autor a fazer melhorias (se necessário). Não se espera que o editor seja um especialista no conteúdo da lição, esse é o papel dos [revisores](/pt/directrizes-revisor).
 
-O editor deve ter uma visão geral para a sustentabilidade da lição e garantir que estão identificadas as versões, dependências e requisitos do software, as capturas de tela estão limitadas às necessárias para concluir a lição e que existe referência à documentação do próprio software (se disponível e apropriada). Os editores também devem garantir que as lições evitem, na medida do possível, instruções específicas do software, como "Clique com o botão direito do mouse no ícone x para aceder ao menu x", e sim favorecer visões gerais metodológicas. A [lista de validação editorial](#c-revisao-para-a-sustentabilidade-e-internacionalizacao) contém mais detalhes sobre práticas de sustentabilidade do Programming Historian em português.
+O editor deve ter uma visão geral para a sustentabilidade da lição e garantir que estão identificadas as versões, dependências e requisitos do software, as capturas de tela estão limitadas às necessárias para concluir a lição e que existe referência à documentação do próprio software (se disponível e apropriada). Os editores também devem garantir que as lições evitem, na medida do possível, instruções específicas do software, como "Clique com o botão direito do mouse no ícone x para aceder ao menu x", e sim favorecer visões gerais metodológicas. A [lista de validação editorial](#c-revisão-para-a-sustentabilidade-e-internacionalização) contém mais detalhes sobre práticas de sustentabilidade do Programming Historian em português.
 
 Muitas vezes, os editores precisam de ajuda para definir qual o público-alvo de uma lição ou identificar o jargão que precisa de explicação. Esta revisão inicial vai ajudar os revisores externos a concentrar-se em melhorar a lição. Normalmente, é feito abertamente no nosso sistema de submissão (abaixo), mas poderá ser uma revisão fechada a pedido de qualquer das partes.
 
@@ -405,7 +405,7 @@ O status destes testes (geralmente chamado de "Status de Compilação (Build sta
 
 Assim, pode ser vista a lista de todas as alterações feitas no repositório principal, juntamente com o ícone do status:
 
-- Check verde: indica que a página está pronta para ir ao ar! Todos os links da página foram verificados e considerados válidos. [**O restante desta lição pode ser ignorado e passar directamente para a secção de agradecimento.**](#7-agradecer-a-todos-e-incentivar-a-divulgacao)
+- Check verde: indica que a página está pronta para ir ao ar! Todos os links da página foram verificados e considerados válidos. [**O restante desta lição pode ser ignorado e passar directamente para a secção de agradecimento.**](#7-agradecer-a-todos-e-incentivar-a-divulgação)
 - Círculo amarelo: o último commit ainda está a compilar. Dentro de 1-2 minutos deve estar pronto.
 - X vermelho: houve um erro na compilação.
 

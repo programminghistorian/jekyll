@@ -92,7 +92,7 @@ Chaque choix est précédé de deux cases à cocher. La première case, contenan
 
 Vous verrez aussi *Créer un nouvel élément* (pour cette cellule, ou pour cette cellule et toutes les cellules identiques) : ignorez pour le moment. *Chercher une correspondance* permet de relancer une recherche dans Wikidata avec un autre contenu. Souvent, ce qui fonctionne bien est d'utiliser une valeur de cellule plus restreinte (un titre ou un nom plus court, par exemple).
 
-Pour aller plus loin, rendez-vous à la section [Comment améliorer la réconciliation ?](#comment-ameliorer-la-reconciliation-) de cette leçon.
+Pour aller plus loin, rendez-vous à la section [Comment améliorer la réconciliation ?](#comment-améliorer-la-réconciliation) de cette leçon.
 
 En survolant les valeurs proposées en choix, il est possible de visualiser un extrait de l’élément Wikidata. Cliquer sur un lien ouvre un nouvel onglet vers cet élément Wikidata. Il est possible de choisir une valeur pour chaque cellule non résolue. À la fin de chaque choix pour chaque cellule, vous verrez un chiffre gris indiqué entre parenthèses. Ce chiffre est le score de correspondance estimé par OpenRefine (100 est le meilleur score).
 

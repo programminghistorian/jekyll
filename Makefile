@@ -2,18 +2,19 @@
 
 SITE_DIR := _site
 LOG_FILE := htmlproofer-output.txt
+BUNDLE ?= bundle
 
 all: clean build check
 
 build:
 	@echo "🔨 Building Jekyll site..."
-	bundle exec jekyll build
+	$(BUNDLE) exec jekyll build
 
 check:
 	@echo "⏱️ Checking HTML links in $(SITE_DIR)..."
 	@start=$$(date +%s); \
-	bundle exec htmlproofer $(SITE_DIR) \
-	  --assume-extension \
+	$(BUNDLE) exec htmlproofer $(SITE_DIR) \
+	  --assume-extension .html \
 	  --ignore-missing-alt \
 	  --ignore-empty-alt \
 	  --only-4xx \

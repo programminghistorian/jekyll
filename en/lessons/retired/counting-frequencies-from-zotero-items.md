@@ -257,4 +257,4 @@ Word Frequencies
 
 - [Counting Frequencies](/en/lessons/counting-frequencies)
 - [zip](/assets/python-lessons5.zip)
--[Lesson on the Zotero API](en/lessons/intro-to-the-zotero-api)
+-[Lesson on the Zotero API](/en/lessons/retired/intro-to-the-zotero-api)
