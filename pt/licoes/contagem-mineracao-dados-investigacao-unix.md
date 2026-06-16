@@ -131,8 +131,8 @@ _____
 
 Nessa lição aprendeu a executar contagens básicas em ficheiros, realizar *queries* em dados de investigação em busca de *strings* comuns e armazenar resultados e dados derivados. Ainda que essa lição seja restrita ao uso do shell do Unix para contabilizar e minerar dados tabulares, os processos podem facilmente ser estendidos a textos livres. Para isso, recomendamos dois guias escritos por William Turkel:
 
-- William Turkel, '[Basic Text Analysis with Command Line Tools in Linux](https://williamjturkel.net/2013/06/15/basic-text-analysis-with-command-line-tools-in-linux/)' (15 de junho de 2013)
-- William Turkel, '[Pattern Matching and Permuted Term Indexing with Command Line Tools in Linux](https://williamjturkel.net/2013/06/20/pattern-matching-and-permuted-term-indexing-with-command-line-tools-in-linux/)' (20 de junho de 2013)
+- William Turkel, '[Basic Text Analysis with Command Line Tools in Linux](https://web.archive.org/web/20140925220046/http://williamjturkel.net/2013/06/15/basic-text-analysis-with-command-line-tools-in-linux/)' (15 de junho de 2013)
+- William Turkel, '[Pattern Matching and Permuted Term Indexing with Command Line Tools in Linux](https://web.archive.org/web/20200925054120/http://williamjturkel.net/2013/06/20/pattern-matching-and-permuted-term-indexing-with-command-line-tools-in-linux/)' (20 de junho de 2013)
 
 Como essas recomendações sugerem, a presente lição apenas aborda superficialmente o que o ambiente do shell do Unix é capaz de fazer. Espera-se, no entanto, que tenha oferecido uma prova suficiente para estimular uma investigação mais aprofundada e uma prática produtiva.
 

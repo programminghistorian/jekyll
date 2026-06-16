@@ -630,7 +630,7 @@ Existen muchos tutoriales genéricos para estos tres ejemplos, además de docume
 [^7]: Todos los discursos presidenciales del Estado de la Unión fueron descargados de The American Presidency Project at the University of California Santa Barbara (Accedido el 11 de noviembre de 2016) https://www.presidency.ucsb.edu/sou.php
 [^8]: Aquí volvemos a la versión del discurso en su original (inglés) por motivos de continuación del análisis y, en particular, el listado de las palabras más frecuentes usadas en inglés. Seguimos traduciendo los nombres de las variables y de las funciones para facilitar la comprensión en español.[N. de la T.]
 [^9]: Aquí optamos por nombrar a las columnas de la tabla en inglés, como "word" (palabra) y "count" (recuento), para facilitar su interoperabilidad con el conjunto de datos que introducimos más adelante con la función `inner_join` de más adelante. [N. de la T.]
-[^10]: Peter Norvig. “Google Web Trillion Word Corpus”. (Accedido el 11 de noviembre de 2016) https://norvig.com/ngrams/.
+[^10]: Peter Norvig. “Google Web Trillion Word Corpus”. (Accedido el 11 de noviembre de 2016) [http://norvig.com/ngrams/](https://web.archive.org/web/20260326183858/http://norvig.com/ngrams/).
 [^11]: Esto ocurre en algunos discursos escritos del Estado de la Unión, donde una lista con puntos de enumeración es segmentada como una única oración larga.
 [^12]: Taylor Arnold. “cleanNLP: A Tidy Data Model for Natural Language Processing”. R Package, Version 0.24. https://cran.r-project.org/web/packages/cleanNLP/index.html
 [^13]: David Mimno. “mallet: A wrapper around the Java machine learning tool MALLET”. R Package, Version 1.0. https://cran.r-project.org/web/packages/mallet/index.html

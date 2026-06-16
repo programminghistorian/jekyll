@@ -154,7 +154,7 @@ Todos estos parámetros, conjuntamente con los consejos, pueden ayudar en la est
 
 ### Vocabularios controlados
 
-En la ventana de **Preferencias**, puedes revisar los vocabularios que vienen con Tropy en el área de **Esquemas**. Haz clic izquierdo en cualquiera de los esquemas para revisar sus elementos.  Es posible agregar otros vocabularios haciendo clic izquierdo en el botón **+** en la parte inferior de la ventana. Los esquemas deberán estar en formato `.n3` o `.ttl`. Es posible ver una lista extensa de esquemas de vocabularios controlados que se importarán fácilmente a Tropy en el repositorio de [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/lov)
+En la ventana de **Preferencias**, puedes revisar los vocabularios que vienen con Tropy en el área de **Esquemas**. Haz clic izquierdo en cualquiera de los esquemas para revisar sus elementos.  Es posible agregar otros vocabularios haciendo clic izquierdo en el botón **+** en la parte inferior de la ventana. Los esquemas deberán estar en formato `.n3` o `.ttl`. Es posible ver una lista extensa de esquemas de vocabularios controlados que se importarán fácilmente a Tropy en el repositorio de [Linked Open Vocabularies (LOV)](https://web.archive.org/web/20260117092421/https://datos.gob.es/es/blog/reutilizacion-de-vocabularios-linked-open-vocabularies-lov)
 
 ## Editar y anotar fotos
 

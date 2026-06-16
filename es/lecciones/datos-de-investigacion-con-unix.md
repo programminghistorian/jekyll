@@ -131,8 +131,8 @@ _____
 
 En esta lección has aprtendido a realizar recuentos básicos en archivos, buscar entre tus datos cadenas de caracteres comunes y guardar resultados y datos derivados. Aunque esta lección se restringe a contar y extraer información de datos tabulados, el procedimiento se puede extender fácilmente a archivos de texto plano. Para ello te recomandamos dos guías escritas por William Turkel:
 
-- William Turkel, '[Basic Text Analysis with Command Line Tools in Linux](https://williamjturkel.net/2013/06/15/basic-text-analysis-with-command-line-tools-in-linux/)' (15 de junio, 2013)
-- William Turkel, '[Pattern Matching and Permuted Term Indexing with Command Line Tools in Linux](https://williamjturkel.net/2013/06/20/pattern-matching-and-permuted-term-indexing-with-command-line-tools-in-linux/)' (20 de junio, 2013)
+- William Turkel, '[Basic Text Analysis with Command Line Tools in Linux](https://web.archive.org/web/20140925220046/http://williamjturkel.net/2013/06/15/basic-text-analysis-with-command-line-tools-in-linux/)' (15 de junio, 2013)
+- William Turkel, '[Pattern Matching and Permuted Term Indexing with Command Line Tools in Linux](https://web.archive.org/web/20200925054120/http://williamjturkel.net/2013/06/20/pattern-matching-and-permuted-term-indexing-with-command-line-tools-in-linux/)' (20 de junio, 2013)
 
 Como sugieren estas recomendaciones, en esta lección solo revisamos superficialmente lo que es capaz de hacer el intérprete de Unix. Sin embargo, esperamos haberte proporcionado una prueba suficiente para impulsar una mayor investigación de su uso.
 

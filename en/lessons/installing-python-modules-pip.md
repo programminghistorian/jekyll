@@ -30,7 +30,7 @@ Lesson Goals
 
 This lesson shows you how to download and install Python modules. There
 are many ways to install external modules, but for the purposes of this
-lesson, we’re going to use a program called pip, easily installable on [mac/linux](https://pip.pypa.io/en/stable/) and [windows]( https://sites.google.com/site/pydatalog/python/pip-for-windows). As of Python 2.7.9 and newer, pip is installed by default. This tutorial will be helpful for anyone using older versions of Python (which are still quite common).
+lesson, we’re going to use a program called pip, easily installable on [mac/linux](https://pip.pypa.io/en/stable/) and [windows](https://pydatalog.readthedocs.io/en/latest/installation/#using-pip). As of Python 2.7.9 and newer, pip is installed by default. This tutorial will be helpful for anyone using older versions of Python (which are still quite common).
 
 Introducing Modules
 -------------------

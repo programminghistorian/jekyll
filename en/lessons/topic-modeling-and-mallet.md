@@ -468,7 +468,7 @@ This command
 -   opens your `tutorial.mallet` file
 -   trains MALLET to find 20 topics
 -   outputs every word in your corpus of materials and the topic it
-    belongs to into a compressed file (`.gz`; see www.gzip.org on how to
+    belongs to into a compressed file (`.gz`; see [www.gzip.org](https://web.archive.org/web/20260607182747/https://gzip.org/) on how to
     unzip this)
 -   outputs a text document showing you what the top key words are for
     each topic (`tutorial_keys.txt`)

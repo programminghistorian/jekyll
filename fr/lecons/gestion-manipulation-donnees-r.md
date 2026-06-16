@@ -201,7 +201,7 @@ permanent_sqrt_and_sum_state_populations_vector
 
 ## Il nous faut un nouveau jeu de données
 
-Maintenant que nous comprenons comment fonctionne le pipe, nous sommes en mesure d’examiner et manipuler des données. Heureusement, aujourd'hui, de plus en plus de jeux de données sont mis à la disposition des historien·nes et des spécialistes des sciences humaines et sociales. Nous allons partir du paquet de [données historiques](https://perma.cc/Z7UN-4FT5) créé par [Lincoln Mullen](https://perma.cc/G46P-SGYW)
+Maintenant que nous comprenons comment fonctionne le pipe, nous sommes en mesure d’examiner et manipuler des données. Heureusement, aujourd'hui, de plus en plus de jeux de données sont mis à la disposition des historien·nes et des spécialistes des sciences humaines et sociales. Nous allons partir du paquet de [données historiques](https://cran.r-project.org/package=historydata) créé par [Lincoln Mullen](https://perma.cc/G46P-SGYW)
 
 Allons-y, installons et chargeons ce paquet&nbsp;:
 

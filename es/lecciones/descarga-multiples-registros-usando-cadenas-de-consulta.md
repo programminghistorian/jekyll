@@ -1199,7 +1199,7 @@ Si tienes interés en el *OBO*, el sitio cuenta con [una buena API y su document
 
 [^2]: Hemos dejado los términos de búsqueda en inglés, ya que son los que arrojan resultados en la página web de *Old Bailey Online*. (N. de T.)
 
-[^3]: El eufemismo "n-word" se refiere a una de las palabras más ofensivas que existe en lengua inglesa para designar a los afrodescendientes. Puede verse una explicación [aquí][aquí](https://www.wordreference.com/es/translation.asp?tranword=nigger). (N. de T.)
+[^3]: El eufemismo "n-word" se refiere a una de las palabras más ofensivas que existe en lengua inglesa para designar a los afrodescendientes. Puede verse una explicación [aquí](https://web.archive.org/web/20130705044545/https://www.wordreference.com/es/translation.asp?tranword=nigger). (N. de T.)
 
 
 [^4]: Aquí usaremos el término "**variable de servidor**" para *las variables que se asignan en un URL* y que son procesados por el servidor (PhP, Ruby on Rails, Flask, etc.).

@@ -646,7 +646,7 @@ Many generic tutorials exist for all three of these, as well as extensive packag
 
 [^3]: All Presidential State of the Union Addresses were downloaded from The American Presidency Project at the University of California Santa Barbara. (Accessed 2016-11-11) [https://www.presidency.ucsb.edu/sou.php](https://www.presidency.ucsb.edu/sou.php).
 
-[^4]: Peter Norvig. "Google Web Trillion Word Corpus". (Accessed 2016-11-11) [https://norvig.com/ngrams/](https://norvig.com/ngrams/).
+[^4]: Peter Norvig. "Google Web Trillion Word Corpus". (Accessed 2016-11-11) [http://norvig.com/ngrams/](https://web.archive.org/web/20260326183858/http://norvig.com/ngrams/).
 
 [^5]: This does happen for a few written State of the Union addresses, where a long bulleted list gets parsed into one very long sentence.
 

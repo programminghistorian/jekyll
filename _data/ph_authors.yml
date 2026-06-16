@@ -272,6 +272,8 @@
       Daniel van Strien es curador digital del proyecto Living with Machines en la Biblioteca Británica de Londres. Londres.
     pt: |
       Daniel van Strien é curador digital do projeto Living with Machines na British Library, Londres.
+    fr: |
+      Daniel van Strien est conservateur numérique pour le projet Living with Machines à la British Library, à Londres.
 
 - name: Kim Pham
   team: false
@@ -909,11 +911,13 @@
   team: false
   bio:
     en: |
-      Jonathan Blaney is a project editor at the Institute of Historical Research, University of London.
-    es: |
-      Jonathan Blaney dirige un proyecto editorial en el Institute of Historical Research de la Universidad de Londres.
+       Jonathan Blaney is Digital Humanities Research Software Engineer at Cambridge Digital Humanities.
+    fr: |
+       Jonathan Blaney est ingénieur en logiciels de recherche en humanités numériques à Cambridge Digital Humanities.
     pt: |
-      Jonathan Blaney é responsável por um projeto editorial no Institute of Historical Research, University of London.
+      Jonathan Blaney é engenheiro de software de investigação em Humanidades Digitais na Cambridge Digital Humanities.
+    es: |
+      Jonathan Blaney es ingeniero de software de investigación en Humanidades Digitales en Cambridge Digital Humanities.
 
 - name: Daniel Ruten
   team: false
@@ -2554,8 +2558,9 @@
   status: volunteer
 
 - name: Giulia Taurino
-  team: true
+  team: false
   team_start: 2022
+  team_end: 2026
   institution: Northeastern University
   github: giuliataurino
   email: g.taurino@northeastern.edu
@@ -2647,6 +2652,8 @@
       Thomas Smits é pós-doutor em History of Bias Project na Universidade de Antuérpia
     es: |
       Thomas Smits es un postdoctorado en el Proyecto de Historia del Sesgo en la Universidad de Amberes.
+    fr: |
+      Thomas Smits est post-doctorant au sein du projet History of Bias à l'université d'Anvers.
 
 - name: Kaspar Beelen
   orcid: 0000-0001-7331-1174
@@ -2658,6 +2665,8 @@
       Kaspar Beelen es investigador asociado en humanidades digitales para el proyecto Living with Machines.
     pt: |
       Kaspar Beelen é Pesquisador Associado em Humanidades Digitais para o projeto Living with Machines.
+    fr: |
+      Kaspar Beelen est chercheur associé en humanités numériques pour le projet Living with Machines.
 
 - name: Katherine McDonough
   team: false
@@ -2682,6 +2691,8 @@
       Melvin Wevers é Professor Assistente de Métodos Digitais no Departamento de História da Universidade de Amesterdão.
     es: |
       Melvin Wevers es Profesor Asistente de Métodos Digitales en el Departamento de Historia de la Universidad de Ámsterdam.
+    fr: |
+      Melvin Wevers est maître de conférences en méthodes numériques au département d'histoire de l'université d'Amsterdam.
 
 - name: Chantal Brousseau
   team: false
@@ -2814,6 +2825,8 @@
   bio:
     fr: |
       Daphné Mathelier est ingénieure d'études au Centre national de la recherche scientifique française (CNRS). Elle est chargée d’édition de corpus numériques au Centre d’étude de la langue et des littératures françaises (CELLF, CNRS – Sorbonne Université).
+    en: |
+      Daphné Mathelier is a research engineer at the Centre national de la recherche scientifique française (CNRS). She is a digital corpus editor at the Centre d’étude de la langue et des littératures françaises (CELLF, CNRS – Sorbonne Université).
       
 - name: Alexandre Wauthier
   email: alexandre.wauthier@campus-condorcet.fr
@@ -2840,6 +2853,8 @@
   bio:
     fr: |
       Alexandre Wauthier est ingénieur d'études chargé d'accompagnement de projets numériques à l'Humathèque, Campus Condorcet-CNRS, Aubervilliers, France.
+    en: |
+      Alexandre Wauthier is a research engineer responsible for supporting digital projects at the Humathèque, Campus Condorcet-CNRS, Aubervilliers, France.
 
 - name: Ricardo Campos
   orcid: 0000-0002-8767-8126
@@ -2861,8 +2876,9 @@
   twitter: davvalent
   mastodon: mas.to/@davvalent
   orcid: 0000-0003-3410-7677
-  team: true
+  team: false
   team_start: 2023
+  team_end: 2026
   institution: Université de Montréal
   sortname: Valentine
   affiliation:
@@ -3120,8 +3136,9 @@
   orcid: 0000-0003-3179-6980
   github: semanticnoodles
   email: giulia.osti@ucdconnect.ie
-  team: true
+  team: false
   team_start: 2024
+  team_end: 2026
   institution: School of Information and Communication Studies, University College Dublin
   sortname: Osti
   affiliation:
@@ -3373,3 +3390,8 @@
   bio:
     es: |
       Douglas McRae se doctoró en historia de América Latina en Georgetown University. Fue coordinador de educación para Tropy a través del Roy Rosenzweig Center for History and New Media en George Mason University.
+
+
+- name: Patricia A. Loto
+  orcid: 0000-0003-1849-6916
+  team: false

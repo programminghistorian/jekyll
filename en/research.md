@@ -52,7 +52,7 @@ The project team and members of the wider community are involved in a number of 
 ## Workshops & Events
 
 * Anisa Hawes, 'Writing Digital Methods', ENABling Library and Archive participation in digital Research co-learning communities (ENABLAR) [Online], (16-17 December 2025).   
-* Anisa Hawes, ['Technical Writing in the Humanities: a facilitated writing sprint'](https://tinyurl.com/diskah-info), Digital Skills in Arts and Humanities (DISKAH) network [Online], (15 December 2025).   
+* Anisa Hawes, ['Technical Writing in the Humanities: a facilitated writing sprint'](https://web.archive.org/web/20251219074549/https://culturedigitalskills.org/webinar-diskah-programming-historian/), Digital Skills in Arts and Humanities (DISKAH) network [Online], (15 December 2025).   
 * Anisa Hawes, [‘Building your digital research skills with _Programming Historian_’](https://www.cdh.cam.ac.uk/events/39996/), Cambridge Digital Humanities, University of Cambridge [Online], (27 November 2025).   
 * Anisa Hawes, ['Remix and Reuse: Translation and Adaptation in the Community'](https://tinyurl.com/ph-remix-reuse), _Programming Historian_ [Online], (23 October 2025).   
 * Charlotte Chevrie, 'Remix and Reuse: Translation and Adaptation in the Community', _Programming Historian_ [Online], (31 July 2025).   
@@ -148,7 +148,7 @@ The project team and members of the wider community are involved in a number of 
 * Sarah Melton, Joana Vieira Paulino, Nabeel Siddiqui & Riva Quiroga, ‘[_Programming Historian_: A Multilingual Open Access Publication](https://openpublishingfest.org/calendar.html#event-69/)’, Open Publishing Fest, (17 November 2021).
 * Adam Crymble, 'Digital Humanities for the Visually Impaired: Programming Historian's Journey to Accessibility’, UCL, United Kingdom (17 November 2021).
 * Jessica Parr and Nabeel Siddiqui, '_Programming Historian_ and the Challenges of Globally Distributed Learning', [Sharing Digitally: Seminar on Digital Tools and Infrastructures](https://www.lvivcenter.org/en/conferences/sharing-digitally-2/), Center for Urban History, Lviv, Ukraine, 29 September 2021.
-* Nabeel Siddiqui, '[In the Open: The Programming Historian and the Challenges Globally Distributed Learning](https://www.sedc.ac.in/uploads/latest-events/digital-huminities-session-20.pdf)', Seshadripuram Evening Degree College, Bengaluru, India, 29 June 2021.
+* Nabeel Siddiqui, '[In the Open: The Programming Historian and the Challenges Globally Distributed Learning](https://web.archive.org/web/20260308225607/https://www.sedc.ac.in/uploads/latest-events/digital-huminities-session-20.pdf)', Seshadripuram Evening Degree College, Bengaluru, India, 29 June 2021.
 * Anna-Maria Sichani, ‘[Sustaining communities in Digital Humanities: diversity, collaboration, and capacity building in digital scholarship and pedagogy](https://2021.dhbenelux.org/schedule/)’, DH Benelux, Leiden, 2 June 2021.
 * Adam Crymble, 'Facilitating Making in Digital Humanities', The Archaeology of Making, University of London, 5 May 2021.
 * Daniel Alves, Jennifer Isasi, Sarah Melton, Sofia Papastamkou, Jessica Parr, Riva Quiroga, Nabeel Siddiqui, Brandon Walsh, '[The Programming Historian: A Global Case Study in Multilingual Open Access and DH Tutelage/Instruction](https://msuglobaldh.org/abstracts/#programming-historian)' (panel), _Global Digital Humanities Symposium_, Michigan State University, East Lansing, USA, 12 April, 2021.
