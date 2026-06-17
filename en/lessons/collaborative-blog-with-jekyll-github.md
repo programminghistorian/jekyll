@@ -653,7 +653,7 @@ If you set up a custom domain with your GitHub Pages-hosted website, to avoid a 
 * [Exitwp](https://github.com/thomasf/exitwp), a Python script developed by Thomas Frössman that Scholars' Lab used to migrate our blog from WordPress to Jekyll  
 
 *Tools*
-*  Robust plain text editor options: [Atom](https://atom.io), [Sublime Text](https://www.sublimetext.com/), [Prose](http://prose.io/) content editor (built on Jekyll)
+*  Robust plain text editor options: [Atom](https://atom.io), [Sublime Text](https://www.sublimetext.com/), [Prose](https://prose.io/) content editor (built on Jekyll)
 * Project management options: [Trello](https://trello.com/en), [GitHub's project boards](https://help.github.com/en/articles/about-project-boards)
 
 *Case study links*

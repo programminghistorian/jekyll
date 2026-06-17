@@ -596,7 +596,7 @@ The final message of this lesson is to encourage you to adapt the code provided 
 
 ## Endnotes
 
-[^1]: Ann Marie Ward. *Ireland Gender Pay Gap Analysis* (), <https://genderpaygap.pythonanywhere.com/>.
+[^1]: Ann Marie Ward. *Ireland Gender Pay Gap Analysis* (), <https://web.archive.org/web/20260419035442/https://genderpaygap.pythonanywhere.com/>.
 
 [^2]: Stephen Lacy et al., “Issues and Best Practices in Content Analysis,” *Journalism & Mass Communication Quarterly* 92, no. 4 (September 28, 2015): 791–802, <https://doi.org/10.1177/1077699015607338>.
 

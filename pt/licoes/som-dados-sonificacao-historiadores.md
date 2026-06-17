@@ -453,7 +453,7 @@ O código é bem simples: realize um loop da amostra 'bd_boom' com o efeito de s
 
 A propósito, 'codificação ao vivo'? O que torna esse ambiente um espaço de 'codificação ao vivo' é a possibilidade de se fazer alterações no código _enquanto o Sonic Pi o transforma em música_. Não gosta do que está ouvindo? Altere o código na hora!
 
-Para mais sobre o Sonic Pi, [esse site de workshop](https://web.archive.org/web/20150907155822/https://www.miskatonic.org/music/access2015/) (em inglês) é um bom lugar para começar. Veja também o [relatório de Laura Wrubel sobre participar desse worksop, e o trabalho dela e de seus colegas na área](http://library.gwu.edu/scholarly-technology-group/posts/sound-library-work) (em inglês).
+Para mais sobre o Sonic Pi, [esse site de workshop](https://web.archive.org/web/20150907155822/https://www.miskatonic.org/music/access2015/) (em inglês) é um bom lugar para começar. Veja também o [relatório de Laura Wrubel sobre participar desse worksop, e o trabalho dela e de seus colegas na área](https://library.gwu.edu/scholarly-technology-group/posts/sound-library-work) (em inglês).
 
 # Nihil Novi Sub Sole
 

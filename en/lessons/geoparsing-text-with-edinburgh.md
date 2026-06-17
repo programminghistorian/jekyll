@@ -289,7 +289,7 @@ If the document date is not specified all temporal expressions will be interpret
 
 ### Geo-parsing Multiple Text Files
 
-Now that you know how to geo-parse one file, you may want to do the same thing for a set of documents all at once. You can download a simple shell script which geo-parses multiple files [here](http://groups.inf.ed.ac.uk/geoparser/scripts/run-multiple-files.sh). Please refer to the [Geoparser workshop](https://web.archive.org/web/20180422010112/http://homepages.inf.ed.ac.uk/balex/publications/geoparser-workshop.pdf) slides for more information on how to make this script executable, run and it and adapt it to your needs.
+Now that you know how to geo-parse one file, you may want to do the same thing for a set of documents all at once. You can download a simple shell script which geo-parses multiple files [here](https://groups.inf.ed.ac.uk/geoparser/scripts/run-multiple-files.sh). Please refer to the [Geoparser workshop](https://web.archive.org/web/20180422010112/http://homepages.inf.ed.ac.uk/balex/publications/geoparser-workshop.pdf) slides for more information on how to make this script executable, run and it and adapt it to your needs.
 
 ### Extracting Geo-Resolution Output to TSV
 

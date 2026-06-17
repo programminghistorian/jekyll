@@ -340,5 +340,5 @@ GitHub Desktop offers an easy way of getting started with GitHub and version con
 * [Pro Git](https://git-scm.com/book/en/v2): A book on Git. Begins with the basics and later covers more advanced usage of Git.
 * For [students](https://education.github.com/pack) and [researchers](https://github.com/blog/1840-improving-github-for-science) GitHub offers free private repositories. These repositories may be useful for early drafts of work or for managing notes which are never intended to becoming public. Note: it might not be a good idea to store things which are very sensitive on GitHub even in a private repository.
 * [ProfHacker](https://www.chronicle.com/search?q=github) has posts on various projects on using GitHub in an academic context.
-* [GitHub, Academia, and Collaborative Writing](https://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing) discusses using GitHub for collaborative writing.
+* [GitHub, Academia, and Collaborative Writing](https://web.archive.org/web/20131215095438/https://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing) discusses using GitHub for collaborative writing.
 * [Introduction to the Bash Command Line](/en/lessons/intro-to-bash) introduces the command line which will be useful preparation for using GitHub on the command line.

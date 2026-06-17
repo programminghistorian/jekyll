@@ -485,7 +485,7 @@ authorities.
 One endpoint that does, however, is
 [Europeana's][eursparql]. They have created links
 between the objects in their database and records about individuals in
-[DBPedia](https://wiki.dbpedia.org/) and [VIAF](https://viaf.org/), places in
+[DBPedia](https://wiki.dbpedia.org/) and [VIAF](https://www.oclc.org/en/viaf.html), places in
 [GeoNames](https://sws.geonames.org/), and concepts in the Getty Art &
 Architecture thesaurus. SPARQL allows you to insert `SERVICE` statements that
 instruct the database to "phone a friend" and run a portion of the query on
