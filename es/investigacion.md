@@ -65,7 +65,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Nabeel Siddiqui, 'Convolutional Neural Networks for Image Classification', University of Edinburgh [En línea], (7 de noviembre de 2023).
 * Eric Brasil, '[História Digital e História Digital da Educação: Caminhos Cruzados](http://www.iea.usp.br/eventos/historia-digital-educacao-caminhos-cruzados)', Instituto de Estudos Avançados, USP, São Paulo, Brasil, (17 de octubre 2023).
 * Scott Kleinman, Alex Wermer-Colan, Joana Vieira Paulino, Nabeel Siddiqui, Zoe LeBlanc, 'Developing a Digital Humanities Tutorial', [DH 2023](https://dh2023.adho.org/), Graz, Austria, (10 de julio de 2023). 
-* Daphné Mathelier, 'Atelier Markdown', [11e journées du réseau Medici](https://medici2023.sciencesconf.org/resource/page/id/2), Université de Liège, Bélgica, (29 de junio de 2023).
+* Daphné Mathelier, 'Atelier Markdown', [11e journées du réseau Medici](https://web.archive.org/web/20230629084307/https://medici2023.sciencesconf.org/resource/page/id/2), Université de Liège, Bélgica, (29 de junio de 2023).
 * María José Afanador Llach, Jennifer Isasi, Riva Quiroga, 'Sobre _Programming Historian en español_ y cómo contribuir a la publicación', Semana de Humanidades Digitales 2023 [En línea], (10 de mayo de 2023).
 * Riva Quiroga, 'Introducción al web scraping usando R. Parte 1: extracción de texto, Parte 2: extracción de tablas', Semana de Humanidades Digitales 2023 [En línea], (8-9 de mayo de 2023).
 * Jimmy Medeiros, 'Aprendendo a analisar dados com R com base em lições do _Programming Historian_', Semana de Humanidades Digitales 2023 [En línea], (8 de mayo de 2023).
