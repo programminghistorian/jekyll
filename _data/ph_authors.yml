@@ -112,7 +112,6 @@
 - name: Maria José Afanador-Llach
   url: "https://www.mariajoseafanador.com"
   email: mj.afanador28@uniandes.edu.co
-  twitter: mariajoafana
   github: mariajoafana
   orcid: 0000-0003-2652-5799
   team: false
@@ -142,7 +141,6 @@
 - name: Víctor Gayol
   url: "https://victorgayol.net"
   email: vgayol@colmich.edu.mx
-  twitter: victor_gayol
   github: vgayolrs
   team: false
   team_start: 2016
@@ -177,7 +175,6 @@
 - name: Antonio Rojas Castro
   url: "https://antoniorojascastro.com"
   email: rojas.castro.antonio@gmail.com
-  twitter: RojasCastroA
   github: arojascastro
   team: false
   team_start: 2016
@@ -231,7 +228,6 @@
        Evan Taparata é doutoranda em História pela University of Minnesota.
 
 - name: Taryn Dewar
-  twitter: dtdewar
   team: false
   bio:
     en: |
@@ -323,7 +319,6 @@
   institution: University of Southampton
   github: drjwbaker
   email: j.w.baker@soton.ac.uk
-  twitter: j_w_baker
   url: "https://cradledincaricature.com/"
   sortname: Baker
   orcid: 0000-0002-2682-6922
@@ -655,7 +650,6 @@
 - name: Sarah Melton
   github: svmelton
   email: sarah.melton1@gmail.com
-  twitter: worldcatlady
   url: "https://sarahvmelton.com"
   team: false
   team_start: 2019
@@ -731,7 +725,6 @@
 
 - name: Brandon Walsh
   github: walshbr
-  twitter: walshbr
   email: walsh.brandon.michael@gmail.com
   url: "https://walshbr.com/"
   team: false
@@ -837,7 +830,6 @@
 - name: Jessica Parr
   github: JMParr
   email: jparr1129@gmail.com
-  twitter: ProvAtlantic
   url: "https://jessicaparr.org/"
   team: false
   team_start: 2017
@@ -931,7 +923,6 @@
 - name: Nabeel Siddiqui
   github: nabsiddiqui
   orcid: 0000-0002-6126-5833
-  twitter: nabsiddiqui
   email: siddiqui@susqu.edu
   url: "https://www.nabeelsiddiqui.net/"
   team: true
@@ -987,7 +978,6 @@
 - name: Anna-Maria Sichani
   github: amsichani
   email: amsichani@gmail.com
-  twitter: amsichani
   url: "https://amsichani.github.io"
   team: true
   team_start: 2018
@@ -1102,7 +1092,6 @@
 
 - name: José Antonio Motilla
   url: "https://www.bibliografiapotosina.mx/about/"
-  twitter: jamotilla
   email: jamotilla@gmail.com
   github: jamotilla
   team: false
@@ -1184,7 +1173,6 @@
 
 - name: François Dominic Laramée
   github: fdlaramee
-  twitter: fdlaramee
   url: "https://www.francoisdominiclaramee.com"
   email: fdl@francoisdominiclaramee.com
   team: false
@@ -1222,7 +1210,6 @@
 
 - name: Martin Grandjean
   email: martin.grandjean@unil.ch
-  twitter: grandjeanmartin
   github: grandjeanmartin
   url: "https://www.martingrandjean.ch"
   team: false
@@ -1256,7 +1243,6 @@
 
 - name: Sofia Papastamkou
   email: sofia.papastamkou@uni.lu
-  twitter: s_papastamkou
   github: spapastamkou
   team: false
   team_start: 2018
@@ -1305,7 +1291,6 @@
 
 - name: Marie-Christine Boucher
   email: marie.c.boucher@ggk.uni-giessen.de
-  twitter: marie_c_boucher
   github: mariechristineb
   team: false
   team_start: 2020
@@ -1376,7 +1361,6 @@
 
 - name: Zoe LeBlanc
   github: ZoeLeBlanc
-  twitter: zoe_leblanc
   email: zgleblanc@gmail.com
   url: "https://zoeleblanc.com"
   team: false
@@ -1426,7 +1410,6 @@
       Stephen Krewson é doutorando em Inglês na Yale University. As suas pesquisas exploram a interação entre teorias progressivas de educação e a imprensa no início do século XIX. Tem um mestrado em Ciências da Computação (também em Yale) e começou a trabalhar em métodos eficientes para filtrar e recuperar tarefas nas bibliotecas digitais de larga escala.
 
 - name: Riva Quiroga
-  twitter: rivaquiroga
   email: rivaquiroga@gmail.com
   github: rivaquiroga
   url: "https://rivaquiroga.cl/"
@@ -1456,7 +1439,6 @@
   status: volunteer
 
 - name: Joshua G. Ortiz Baco
-  twitter: jgob
   email: joshuaortizbaco@gmail.com
   github: joshuagob
   orcid: 0000-0002-9723-4262
@@ -1491,7 +1473,6 @@
 
 - name: Silvia Gutiérrez De la Torre
   github: silviaegt
-  twitter: espejolento
   email: silviaegt@gmail.com
   url: "https://sgutierrez.seewes.de/"
   orcid: 0000-0001-8717-2291
@@ -1617,7 +1598,6 @@
       Jairo Melo é doutorado em História pelo El Colegio de Michoacán. É pesquisador independente em História Digital e Humanidades Digitais.
 
 - name: Daniel Alves
-  twitter: danielalvesfcsh
   email: dra@fcsh.unl.pt
   github: DanielAlvesLABDH
   orcid: 0000-0002-3541-8197
@@ -1722,7 +1702,6 @@
 
 - name: Hélène Huet
   email: hhuet@ufl.edu
-  twitter: superHH
   url: "https://helenehuet.org"
   orcid: 0000-0002-2907-1887
   team: true
@@ -1785,7 +1764,6 @@
   status: volunteer
 
 - name: Danielle Sanches
-  twitter: dani_sanches
   email: daniellesanches@fcsh.unl.pt
   url: "https://dhlab.unl.pt/"
   github: daniellesanchesDH
@@ -1818,7 +1796,6 @@
   status: volunteer
 
 - name: Joana Vieira Paulino
-  twitter:
   email: jpaulino@fcsh.unl.pt
   orcid: 0000-0002-9433-2799
   github: joanacvp
@@ -1921,7 +1898,6 @@
         Andrew Akhlaghi é candidato a doutoramento no Departamento de História da University of Texas at Austin, especializado em Médio Oriente e humanidades digitais.
 
 - name: Jimmy Medeiros
-  twitter: jimmy_medeiros
   email: jimmy.medeiros@fgv.br
   url: "https://cpdoc.fgv.br/equipe/JimmyMedeiros"
   github: JimmyMedeiros82
@@ -1950,7 +1926,6 @@
   status: volunteer
 
 - name: Matthias Gille Levenson
-  twitter:
   email: matthias.gille-levenson@ens-lyon.fr
   url: "https://cv.hal.science/matthias-gille-levenson"
   orcid: 0000-0001-9488-5986
@@ -1978,7 +1953,6 @@
 
 - name: Gwenaëlle Patat
   email: gwenaelle.patat@gmail.com
-  twitter: InsSalom5
   github: InesSalome
   orcid: 0000-0002-8520-3485
   team: false
@@ -2010,7 +1984,6 @@
       Gwenaëlle Patat é engenheira na Maison des Sciences de l'Homme na Bretanha (MSHB) e correspondente local da infraestrutura de pesquisa TGIR Huma-Num. Mais precisamente, ela está encarregada da edição do corpus digital. Sua principal missão é fornecer suporte técnico a projetos de pesquisa rotulados pela MSHB e aconselhar sobre as boas práticas em gerenciamento de dados.
 
 - name: Antoine Henry
-  twitter: "@i_colab"
   email: antoine.henry@univ-lille.fr
   url: "https://pro.univ-lille.fr/antoine-henry/"
   orcid: 0000-0003-4722-4610
@@ -2044,7 +2017,6 @@
   status: volunteer
 
 - name: Célian Ringwald
-  twitter: ringwald_c
   email: celian.ringwald@hotmail.fr
   github: datalogism
   team: false
@@ -2139,7 +2111,6 @@
 - name: Anisa Hawes
   github: anisa-hawes
   email: admin@programminghistorian.org
-  twitter: AnisaHawes
   url: "https://anisahawes.github.io/about/"
   team: true
   team_start: 2021
@@ -2206,7 +2177,6 @@
   institution: Programming Historian
   github: tiagosousagarcia
   email: tiagosousagarcia@gmail.com
-  twitter: tiagosousagarci
   url: "https://tiagosousagarcia.co.uk/"
   sortname: Sousa Garcia
   orcid: 0000-0001-5694-7285
@@ -2235,7 +2205,6 @@
 - name: Isabelle Gribomont
   orcid: 0000-0001-7443-5849
   email: isabelle.gribomont@uclouvain.be
-  twitter: IsaGribomont
   github: isag91
   team: true
   team_start: 2021
@@ -2262,7 +2231,6 @@
 
 - name: Nicolás Llano Linares
   email: llano.nicolas@gmail.com
-  twitter: enetreseles
   github: nllano
   orcid: 0000-0001-7040-0673
   team: true
@@ -2333,7 +2301,6 @@
 
 
 - name: Eric Brasil
-  twitter: ericbrasiln
   email: portugues@programminghistorian.org
   url: "https://ericbrasiln.github.io"
   github: ericbrasiln
@@ -2389,7 +2356,6 @@
   institution: University of Texas at Austin
   github: lizfischer
   email: lizzy.m.fischer@gmail.com
-  twitter: lizfischer0
   url: "https://www.lizmfischer.com"
   sortname: Fischer
   orcid: 0000-0003-3749-094X
@@ -2423,7 +2389,6 @@
   institution: University of North Carolina at Chapel Hill
   github: rolrodr
   email: rolando@ad.unc.edu
-  twitter: bibliothiccario
   url: "https://rolandorodriguez.dev/"
   sortname: Rodriguez
   affiliation:
@@ -2457,7 +2422,6 @@
   institution: University of Helsinki
   github: yann-ryan
   email: yann.ryan@gmail.com
-  twitter: lievesofgrass
   url: "https://yann-ryan.github.io/"
   sortname: Ryan
   orcid: 0000-0003-1878-4838
@@ -2492,7 +2456,6 @@
   institution: California State University, Northridge
   github: scottkleinman
   email: scott.kleinman@csun.edu
-  twitter: sekleinman
   url: https://scottkleinman.com/
   sortname: Kleinman
   orcid: 0000-0001-7477-1308
@@ -2526,7 +2489,6 @@
   institution: Denison University
   github: jrladd
   email: hello@jrladd.com
-  twitter: johnrladd
   url: "https://jrladd.com/"
   sortname: Ladd
   orcid: 0000-0002-5440-062X
@@ -2560,7 +2522,6 @@
   institution: Northeastern University
   github: giuliataurino
   email: g.taurino@northeastern.edu
-  twitter: giulia_taurino
   url: "https://ai.northeastern.edu/our-people/giulia-taurino"
   sortname: Taurino
   orcid: 0000-0002-1065-840X
@@ -2869,7 +2830,6 @@
 - name: David Valentine
   email: david.valentine@umontreal.ca
   github: davvalent
-  twitter: davvalent
   mastodon: mas.to/@davvalent
   orcid: 0000-0003-3410-7677
   team: false
@@ -2899,8 +2859,6 @@
 - name: Émilien Schultz
   email: emilien.schultz@ensae.fr
   github: emilienschultz
-  twitter: emilienschultz
-  mastodon: 
   orcid: 0000-0002-6215-3606
   team: true
   team_start: 2023
@@ -3026,7 +2984,6 @@
   orcid: 0000-0002-2461-9946
   github: digitalkosovski
   email: acosovschi@gmail.com
-  twitter: cosovschi
   team: true
   team_start: 2024
   institution: Inštitut za novejšo zgodovino
@@ -3055,7 +3012,6 @@
   orcid: 0000-0003-2208-5108
   github: carlonim
   email: massimiliano.carloni@oeaw.ac.at
-  twitter: maxcarlons
   team: true
   team_start: 2024
   institution: Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH), Österreichische Akademie der Wissenschaften
