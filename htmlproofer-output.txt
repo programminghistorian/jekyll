@@ -2,55 +2,11 @@
 Running 3 checks (Images, Links, Scripts) in ["_site"] on *.html files ...
 
 
-Checking 5447 external links
-Checking 5234 internal links
-Checking internal link hashes in 312 files
-Ran on 504 files!
+Checking 5338 external links
+Checking 5120 internal links
+Checking internal link hashes in 302 files
+Ran on 493 files!
 
 
-For the Images check, the following failures were found:
-
-* At _site/en/lessons/retired/OCR-with-Tesseract-and-ScanTailor/index.html:276:
-
-  internal image /gallery/OCR-with-Tesseract-and-ScanTailor.png does not exist
-
-For the Links > External check, the following failures were found:
-
-* At _site/en/lessons/retired/getting-started-with-github-desktop/index.html:495:
-
-  External link https://central.github.com/mac/latest failed (status code 401)
-
-* At _site/en/lessons/retired/getting-started-with-github-desktop/index.html:595:
-
-  External link https://central.github.com/mac/latest failed (status code 401)
-
-* At _site/en/lessons/retired/intro-to-augmented-reality-with-unity/index.html:510:
-
-  External link https://play.google.com/store/apps/details?id=com.Trace.Dollars&hl=en failed (status code 404)
-
-* At _site/en/research/index.html:318:
-
-  External link https://medici2023.sciencesconf.org/resource/page/id/2 failed (status code 404)
-
-* At _site/es/investigacion/index.html:318:
-
-  External link https://medici2023.sciencesconf.org/resource/page/id/2 failed (status code 404)
-
-* At _site/es/lecciones/retirada/introduccion-control-versiones-github-desktop/index.html:537:
-
-  External link https://central.github.com/mac/latest failed (status code 401)
-
-* At _site/es/lecciones/retirada/introduccion-control-versiones-github-desktop/index.html:635:
-
-  External link https://central.github.com/mac/latest failed (status code 401)
-
-* At _site/fr/recherche/index.html:320:
-
-  External link https://medici2023.sciencesconf.org/resource/page/id/2 failed (status code 404)
-
-* At _site/pt/pesquisa/index.html:317:
-
-  External link https://medici2023.sciencesconf.org/resource/page/id/2 failed (status code 404)
-
-
-HTML-Proofer found 10 failures!
+HTML-Proofer finished successfully.
+Finished in 167.34 seconds
