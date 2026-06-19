@@ -28,9 +28,13 @@ For the Links > External check, the following failures were found:
 
   External link https://play.google.com/store/apps/details?id=com.Trace.Dollars&hl=en failed (status code 404)
 
-* At _site/es/lecciones/introduccion-a-tei-2/index.html:2046:
+* At _site/en/research/index.html:318:
 
-  External link https://www.tei-c.org/release/xml/tei/stylesheet/tei.css failed (status code 404)
+  External link https://medici2023.sciencesconf.org/resource/page/id/2 failed (status code 404)
+
+* At _site/es/investigacion/index.html:318:
+
+  External link https://medici2023.sciencesconf.org/resource/page/id/2 failed (status code 404)
 
 * At _site/es/lecciones/retirada/introduccion-control-versiones-github-desktop/index.html:537:
 
@@ -40,5 +44,13 @@ For the Links > External check, the following failures were found:
 
   External link https://central.github.com/mac/latest failed (status code 401)
 
+* At _site/fr/recherche/index.html:320:
 
-HTML-Proofer found 7 failures!
+  External link https://medici2023.sciencesconf.org/resource/page/id/2 failed (status code 404)
+
+* At _site/pt/pesquisa/index.html:317:
+
+  External link https://medici2023.sciencesconf.org/resource/page/id/2 failed (status code 404)
+
+
+HTML-Proofer found 10 failures!

@@ -1458,7 +1458,7 @@ De acuerdo con [la documentación de TEI](https://tei-c.org/release/doc/tei-p5-d
     ```
     Esto podría ser importante si —por ejemplo— quisiéramos indicar que no existe claridad con respecto a la ubicación de los "llamados" a pie de página que anclan las notas (si la numeración no es clara, o si hay un número distinto de "llamados" y de notas, por ejemplo). Sin embargo, no haremos eso en la versión final de nuestro documento.
 
-[^11]: Más exactamente, OxGarage los transformó en elementos `<span class="foreign">` que, de acuerdo con el [CSS](https://www.tei-c.org/release/xml/tei/stylesheet/tei.css) vinculado en el documento xHTML tienen la propiedad `font-style:italic`. En ese sentido, si un lector competente en CSS lo quisiera, podría asignarle otras propiedades CSS a este u otros elementos resultantes de la conversión. Sin embargo, esto no es necesario para producir un resultado relativamente agradable.
+[^11]: Más exactamente, OxGarage los transformó en elementos `<span class="foreign">` que, de acuerdo con el [CSS](https://github.com/TEIC/Stylesheets/blob/dev/css/tei.css) vinculado en el documento xHTML tienen la propiedad `font-style:italic`. En ese sentido, si un lector competente en CSS lo quisiera, podría asignarle otras propiedades CSS a este u otros elementos resultantes de la conversión. Sin embargo, esto no es necesario para producir un resultado relativamente agradable.
 
 
 <!---

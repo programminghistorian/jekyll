@@ -19,8 +19,8 @@ check:
 	  --ignore-empty-alt \
 	  --only-4xx \
 	  --ignore-status-codes "429,403,400" \
-	  --ignore-urls "/github\.com\/programminghistorian/,/gutenberg\.org/,/espanol/,/deprecated/,/collection\.britishmuseum\.org/,/analytics\.hathitrust\.org/,/http:\/\/humanidadesdigitaleshispanicas\.es\//,/http:\/\/dhawards\.org\//" \
-	  --ignore-files "/_site\/assets\//,/_site\/retired\//,/_site\/retirada\//,/_site\/retrait\//,/_site\/posts\//,/_site\/blog\//" \
+	  --ignore-urls "/github\.com\/programminghistorian/,/gutenberg\.org/,/espanol/,/deprecated/,/collection\.britishmuseum\.org/,/analytics\.hathitrust\.org/,/http:\/\/humanidadesdigitaleshispanicas\.es\//,/http:\/\/dhawards\.org\//,/medici2023\.sciencesconf\.org\/resource\/page\/id\/2/" \
+	  --ignore-files "/_site\/assets\//,/_site\/blog\//,/_site\/posts\//,/_site\/en\/lessons\/retired\//,/_site\/es\/lecciones\/retirada\//,/_site\/fr\/lecons\/retrait\//,/_site\/pt\/licoes\/retiradas\//" \
 	  > $(LOG_FILE) 2>&1 \
 	|| echo "❌ HTMLProofer found issues. See $(LOG_FILE)"; \
 	end=$$(date +%s); \
