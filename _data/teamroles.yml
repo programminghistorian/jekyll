@@ -15,7 +15,7 @@
     en: The first point of contact for authors and contributors, and a key contact providing advice and support to the editorial team.
     es: Primer contacto para los autores y colaboradores, y fuente de orientación y apoyo para su equipo editorial.
     fr: Premier·e interlocuteur·rice pour les auteur·es et collaborateur·rices, et personne de référence apportant conseil et soutien à l’équipe éditoriale.
-    pt: Primeiro ponto de contacto para potenciais autores/as e colaboradores/as, além de oferecer orientação e apoio à equipa editorial.
+    pt: Primeiro ponto de contacto para autores/as e colaboradores/as, além de oferecer orientação e apoio à equipa editorial.
 - type: managing-assistant
   label:
     en: Assistant Managing Editor
@@ -26,7 +26,7 @@
     en: Assists or, where necessary, deputises for the Managing Editor in carrying out their duties.
     es: Asiste al jefe/a de redacción o, cuando sea necesario, actúa como su suplente en el desempeño de sus funciones.
     fr: Assiste ou remplace, en cas de besoin, le rédacteur·rice en chef dans la réalisation de ses missions.
-    pt: Auxilia o/a editor/a-chefe no contacto com autores/as e colaboradores/as, bem como na orientação e no apoio à equipa editorial.
+    pt: Auxilia ou, quando necessário, substitui o/a editor/a-chefe no desempenho das suas funções.
 - type: editorial
   label:
     en: Editor
