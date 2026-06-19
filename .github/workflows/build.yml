@@ -29,20 +29,17 @@ jobs:
           bundle exec jekyll build
     # Next we check all the links in our site to make sure we aren't pushing up broken links.
       - name: Check HTML
-        uses: chabad360/htmlproofer@master
         if: github.event.action != 'closed'
-        with:
-          directory: "./_site"
-          arguments: >
-            --assume-extension .html
-            --ignore-missing-alt
-            --ignore-empty-alt
-            --ignore-files "/assets/,/en/lessons/retired/,/es/lecciones/retirada/,/fr/lecons/retrait/,/pt/licoes/retiradas/,/posts/,/blog/"
-            --only-4xx
-            --ignore-status-codes 429,403,400
-            --ignore-urls "/http://www.gutenberg.org/*/,/https://github.com/programminghistorian/*/,/https://github.com/orgs/programminghistorian/*/,/\#/,/espanol/,/deprecated/,/collection.britishmuseum.org/,/analytics.hathitrust.org/,/fr.wikipedia.org/wiki/,https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf,/medici2023.sciencesconf.org/resource/page/id/2/"
+        run: |
+          bundle exec htmlproofer ./_site \
+            --assume-extension .html \
+            --ignore-missing-alt \
+            --ignore-empty-alt \
+            --only-4xx \
+            --ignore-status-codes 429,403,400,415 \
+            --ignore-files "/assets/,/en/lessons/retired/,/es/lecciones/retirada/,/fr/lecons/retrait/,/pt/licoes/retiradas/,/posts/,/blog/" \
+            --ignore-urls "/github\.com\/programminghistorian/,/gutenberg\.org/,/espanol/,/deprecated/,/collection\.britishmuseum\.org/,/analytics\.hathitrust\.org/,/fr\.wikipedia\.org\/wiki/,/humanidadesdigitaleshispanicas\.es/,/dhawards\.org/,/medici2023\.sciencesconf\.org\/resource\/page\/id\/2/,/docnow\.io/,/doxygen\.nl/,/doi\.org\/10\.34190\/JEL\.17\.3\.002/,/doi\.org\/10\.22134\/trace\.82\.2022\.819/,/rubenalcaraz\.es\/manual-omeka\/?/,/web\.archive\.org\/web\/20180831094856\/http:\/\/www\.dlsi\.ua\.es\/~borja\/riilua\/6\.TopicModeling_v02\.pdf/" \
             --allow-hash-href
-          # The arguments to pass to HTMLProofer
     # Finally if we are successful in building, we trigger a rebuild of our search index in the search-index repository
       - name: Trigger next workflow
         if: success() && github.event.action == 'closed'

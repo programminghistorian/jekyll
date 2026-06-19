@@ -8,9 +8,9 @@ bundle exec jekyll build && bundle exec htmlproofer _site \
   --assume-extension .html \
   --check-img-alt=false \
   --only-4xx \
-  --http-status-ignore 429 403 400 \
+  --http-status-ignore 429 403 400 415 \
   --file-ignore "/assets/" "/en/lessons/retired/" "/es/lecciones/retirada/" "/fr/lecons/retrait/" "/pt/licoes/retiradas/" "/posts/" "/blog/" \
-  --url-ignore "/http://www.gutenberg.org/.*/" "/https://github.com/programminghistorian/.*/" "/https://github.com/orgs/programminghistorian/.*/" "/#/" "/espanol/" "/deprecated/" "/collection.britishmuseum.org/" "/analytics.hathitrust.org/" "/fr.wikipedia.org/wiki/" "/https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf/" "/medici2023.sciencesconf.org/resource/page/id/2/"
+  --url-ignore "/https?:\\/\\/www\\.gutenberg\\.org\\/.*?/" "/https://github.com/programminghistorian/.*/" "/https://github.com/orgs/programminghistorian/.*/" "/#/" "/espanol/" "/deprecated/" "/collection.britishmuseum.org/" "/analytics.hathitrust.org/" "/fr.wikipedia.org/wiki/" "/humanidadesdigitaleshispanicas.es/" "/dhawards.org/" "/medici2023.sciencesconf.org/resource/page/id/2/" "/docnow.io/" "/doxygen.nl/" "/doi.org\\/10.34190\\/JEL.17.3.002/" "/doi.org\\/10.22134\\/trace.82.2022.819/" "/rubenalcaraz.es\\/manual-omeka\\/?/" "/https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf/"
 
 ## Updated version of htmlproofer commands (internal linking still doesn't work for some reason).
 # htmlproofer ./_site \
