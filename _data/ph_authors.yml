@@ -2753,8 +2753,9 @@
           Lorena Gauthereau es Digital Programs Manager para el Centro de Humanidades Digitales US Latinos (USLDH) del Programa de la Recuperación del legado escrito de hispanos en los Estados Unidos, basado en la Universidad de Houston.
 
 - name: Marie Flesch
-  team: true
+  team: false
   team_start: 2022
+  team_end: 2026
   institution: Université de Lorraine
   github: marie-flesch
   email: francais@programminghistorian.org
@@ -2777,7 +2778,6 @@
       Marie Flesch est maitresse de conférence en sociolinguistique anglaise à l'université de Lorraine, France.
   team_roles:
     - french
-    - managing
   status: volunteer
 
 - name: Chahan Vidal-Gorène
@@ -2820,7 +2820,7 @@
       Centre national de la recherche scientifique (CNRS), França
   team_roles:
     - french
-    - editorial
+    - managing
   status: volunteer
   bio:
     fr: |
@@ -2848,7 +2848,7 @@
       Centre national de la recherche scientifique (CNRS), França
   team_roles:
     - french
-    - editorial
+    - managing-assistant
   status: institutionally-supported  
   bio:
     fr: |
@@ -3104,7 +3104,7 @@
       Laura Alice Chapot is an Assistant Researcher in Digital Humanities in the Department of German at the University of California, Berkeley in Berkeley, CA, USA. 
   team_roles:
     - english
-    - editorial
+    - managing-assistant
   status: volunteer
 
 - name: Caio Mello
