@@ -34,6 +34,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), États-Unis
 - [University of Bristol Library](https://www.bristol.ac.uk/library/), Royaume-Uni
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Royaume-Uni
+- [School of Advanced Study, University of London](https://www.sas.ac.uk/), Royaume-Uni
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), Royaume-Uni
 - [University of York](https://www.york.ac.uk/), Royaume-Uni
 - [University of Oxford](https://www.ox.ac.uk), Royaume-Uni
@@ -69,7 +70,6 @@ Les institutions suivantes ont participé à de notre programme de [Partenariat 
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), Royaume-Uni [2022-2024]
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), Royaume-Uni [2022-2024]
 - [Purdue University](https://www.purdue.edu/), États-Unis [2021-2025]
-- [School of Advanced Study, University of London](https://www.sas.ac.uk/), Royaume-Uni [2022-2026]   
 - [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, Royaume-Uni [2022-2026]   
 
 ## Soutien additionnel
