@@ -48,6 +48,7 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 - [Iowa State University Library](https://www.lib.iastate.edu/), Estados Unidos
 - [University of Edinburgh Library](https://library.ed.ac.uk/), Reino Unido
 - [University of Cambridge](https://www.cam.ac.uk/), Reino Unido
+- [Zentralbibliothek Zürich](https://www.zb.uzh.ch/), Suiza
 
 Son bienvenidas las consultas de potenciales contribuidores del [Programa de Instituciones Asociadas](pia).
 
