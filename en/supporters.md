@@ -47,6 +47,7 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [Iowa State University Library](https://www.lib.iastate.edu/), United States
 - [University of Edinburgh Library](https://library.ed.ac.uk/), United Kingdom
 - [University of Cambridge](https://www.cam.ac.uk/), United Kingdom
+- [Zentralbibliothek Zürich](https://www.zb.uzh.ch/), Switzerland
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
