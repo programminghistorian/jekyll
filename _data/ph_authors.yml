@@ -23,8 +23,9 @@
   email: a.crymble@ucl.ac.uk
   twitter: Adam_Crymble
   url: "http://adamcrymble.org"
-  team: true
+  team: false
   team_start: 2011
+  team_end: 2026
   institution: University College London, United Kingdom
   sortname: Crymble
   affiliation:
