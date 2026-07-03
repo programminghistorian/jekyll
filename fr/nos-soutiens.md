@@ -48,6 +48,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Iowa State University Library](https://www.lib.iastate.edu/), États-Unis
 - [University of Edinburgh Library](https://library.ed.ac.uk/), Royaume-Uni
 - [University of Cambridge](https://www.cam.ac.uk/), Royaume-Uni
+- [Zentralbibliothek Zürich](https://www.zb.uzh.ch/), Suisse
 
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
