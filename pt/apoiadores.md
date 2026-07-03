@@ -50,6 +50,7 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi):
 - [Iowa State University Library](https://www.lib.iastate.edu/), Estados Unidos
 - [University of Edinburgh Library](https://library.ed.ac.uk/), Reino Unido
 - [University of Cambridge](https://www.cam.ac.uk/), Reino Unido
+- [Zentralbibliothek Zürich](https://www.zb.uzh.ch/), Suíça
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
