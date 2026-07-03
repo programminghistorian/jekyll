@@ -541,7 +541,7 @@ Ahora que ya sabes cómo añadir páginas y publicaciones, en esta sección move
 
 1\. Abre la aplicación GitHub Desktop y haz clic en el signo “+” (Mac) o en la pestaña “File” (Windows) que se encuentra en la esquina superior izquierda. Después, haz clic en la opción “Add” (o “Add local repository…”) que aparece en el menú desplegable.
 
-2\. Haz clic en el botón "Choose…" y selecciona la carpeta (*JekyllDemo* en nuestro ejemplo) que contiene los archivos de tu sitio local (si estás utilizando Mac y te resulta imposible encontrar esta carpeta, es posible que sea porque se halla oculta; [usa estas indicaciones](https://support.native-instruments.com/hc/en-us/articles/360020012418-Accessing-the-Hidden-User-Library-macOS) para hacerla visible y que, de esta forma, GitHub Desktop pueda ingresar a ella).
+2\. Haz clic en el botón "Choose…" y selecciona la carpeta (*JekyllDemo* en nuestro ejemplo) que contiene los archivos de tu sitio local (si estás utilizando Mac y te resulta imposible encontrar esta carpeta, es posible que sea porque se halla oculta; [usa estas indicaciones](https://web.archive.org/web/20240302184955/https://support.native-instruments.com/hc/en-us/articles/360020012418-Accessing-the-Hidden-User-Library-macOS) para hacerla visible y que, de esta forma, GitHub Desktop pueda ingresar a ella).
 
 3\. Luego, haz clic en el botón "Create & Add Repository" (Mac) o "Add Repository" (Windows). Ahora aparecerá una lista de los archivos en los que has realizado cambios (ya sean adiciones o sustracciones de archivos o en ellos) desde la última vez en la que copiaste el código de tu sitio a GitHub (en el caso de que todavía no hayas realizado este proceso, todos los archivos del repositorio aparecerán listados como nuevas adiciones).
 
