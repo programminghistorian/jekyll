@@ -23,8 +23,9 @@
   email: a.crymble@ucl.ac.uk
   twitter: Adam_Crymble
   url: "http://adamcrymble.org"
-  team: true
+  team: false
   team_start: 2011
+  team_end: 2026
   institution: University College London, United Kingdom
   sortname: Crymble
   affiliation:
@@ -1494,7 +1495,7 @@
 - name: Silvia Gutiérrez De la Torre
   github: silviaegt
   twitter: espejolento
-  email: silviaegt@gmail.com
+  email: silviaegt@wikimedia.org
   url: "https://sgutierrez.seewes.de/"
   orcid: 0000-0001-8717-2291
   team: true
@@ -2839,22 +2840,22 @@
   sortname: Wauthier
   affiliation:
     en: |
-      Centre national de la recherche scientifique (CNRS), France
+      Humathèque, Campus Condorcet, France
     es: |
-      Centre national de la recherche scientifique (CNRS), Francia
+      Humathèque, Campus Condorcet, Francia
     fr: |
-      Centre national de la recherche scientifique (CNRS), France
+      Humathèque, Campus Condorcet, France
     pt: |
-      Centre national de la recherche scientifique (CNRS), França
+      Humathèque, Campus Condorcet, França
   team_roles:
     - french
     - managing-assistant
   status: institutionally-supported  
   bio:
     fr: |
-      Alexandre Wauthier est ingénieur d'études chargé d'accompagnement de projets numériques à l'Humathèque, Campus Condorcet-CNRS, Aubervilliers, France.
+      Alexandre Wauthier est ingénieur de recherche chargé d'accompagner les projets numériques à l'Humathèque, Campus Condorcet-CNRS, Aubervilliers, France. Son travail pour la revue bénéficie d'un soutien institutionnel.
     en: |
-      Alexandre Wauthier is a research engineer responsible for supporting digital projects at the Humathèque, Campus Condorcet-CNRS, Aubervilliers, France.
+      Alexandre Wauthier is a research engineer responsible for supporting digital projects at the Humathèque, Campus Condorcet-CNRS, Aubervilliers, France. His work for the journal is institutionally supported.
 
 - name: Ricardo Campos
   orcid: 0000-0002-8767-8126
