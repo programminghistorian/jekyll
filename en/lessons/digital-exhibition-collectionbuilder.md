@@ -27,7 +27,7 @@ difficulty: 1
 activity: presenting
 topics: [website, data-visualization]
 abstract: In this lesson, you will learn how to use CollectionBuilder to create and customize a digital exhibition featuring digital objects hosted on another platform, such as the Internet Archive.
-avatar_alt: Interior de una sala de museo antiguo.
+avatar_alt: Interior of an old museum gallery.
 doi: 10.46430/phen0131
 ---
 
