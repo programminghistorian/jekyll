@@ -1,11 +1,11 @@
 ---
-title: "Using Linked Open Data to Describe Academic Journals with Wikidata"
+title: "Using Linked Open Data to Describe Academic Journals and People with Wikidata"
 slug: linked-open-data-wikidata
 original: datos-abiertos-enlazados-wikidata
 layout: lesson  
 collection: lessons  
 date: 2025-01-15
-translation_date: 2026-07-13
+translation_date: 2026-07-22
 authors:
 - Cláudia De Souza
 - Dinah M. Wilson Fraites
@@ -25,7 +25,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/669
 difficulty: 1
 activity: acquiring
 topics: [lod, data-management, data-manipulation, web-archiving, metadata]
-abstract: This lesson introduces Wikidata and provides a step-by-step guide to integrating journal and personal metadata using linked open data. It explores best practices for inserting and managing metadata in Wikidata to increase the visibility and accessibility of resources in digital environments.
+abstract: This lesson introduces Wikidata and provides a step-by-step guide to creating and linking metadata about academic journals and people using linked open data. It explores best practices for adding and managing metadata in Wikidata to increase the visibility and accessibility of resources in digital environments.
 avatar_alt: Decorative framed letter W with a design of circular lines and patterns.
 doi: 10.46430/phen0132
 ---
@@ -38,9 +38,9 @@ You have probably already heard about metadata, open data, and linked open data.
 
 ### Lesson Background
 
-The prefix 'meta' is derived from the Greek language, in which it means 'after' or 'beyond.' It is used to indicate that a concept applies to itself. 'Metadata', therefore, refers to 'data about the data,' in the sense that it describes, identifies, locates, or facilitates the understanding of the data. In the interdisciplinary field of information science, in particular, metadata provides context and structure, allowing for the efficient management, search, and organization of information. It also facilitates system interoperability[^1], different platforms, and the long-term preservation of digital resources. With the internet, metadata became particularly useful due to the enormous amount of information available online, as it is essential to facilitate web page classification, optimize search engines, and improve user navigation.[^2] [^3] [^4]
+The prefix 'meta' is derived from the Greek language, in which it means 'after' or 'beyond.' It is used to indicate that a concept applies to itself. 'Metadata', therefore, refers to 'data about the data,' in the sense that it describes, identifies, locates, or facilitates the understanding of the data. In the interdisciplinary field of information science, in particular, metadata provides context and structure, allowing for the efficient management, search, and organization of information. It also facilitates system interoperability[^1] between different systems and platforms and supports the long-term preservation of digital resources. With the internet, metadata became particularly useful due to the enormous amount of information available online, as it is essential to facilitate web page classification, optimize search engines, and improve user navigation.[^2] [^3] [^4]
 
-In an increasingly digital and interconnected world, interest in open data has grown significantly as a response to the need of promoting transparency and data reuse across various disciplines. Metadata availability has been growing, while taking into consideration the necessary technical and legal frameworks to make it free, reusable and accessible for anyone, at any time and in any place.[^5] The adoption of open standards for metadata not only facilitates the understanding and exchange of data, but also drives innovation by promoting more effective communication. In this context, open data has become an essential component for building sustainable and accessible data infrastructures, promoting a collaborative approach to information management in the digital era.
+In an increasingly digital and interconnected world, interest in open data has grown significantly as a response to the need of promoting transparency and data reuse across various disciplines. The availability of metadata has grown alongside efforts to establish the technical and legal frameworks needed to make it freely accessible and reusable by anyone, at any time and in any place.[^5] The adoption of open standards for metadata not only facilitates the understanding and exchange of data, but also drives innovation by promoting more effective communication. In this context, open data has become an essential component for building sustainable and accessible data infrastructures, promoting a collaborative approach to information management in the digital era.
 
 In the context of open data philosophy, Linked Open Data (LOD) has emerged as a concept for presenting and publishing data on the web, aiming at facilitating data use and reuse through automated processes. LOD is based on the principle of establishing meaningful links between data with similar attributes from various sources on the web. It implies the creation of an environment with global interoperability.[^6] Therefore, this term refers to a set of best practices for publishing and connecting structured data on the web. Information in Wikidata is stored in [semantic triples](https://perma.cc/86NA-P4QN) following the Resource Description Framework (RDF), which are conventionally known as subject, predicate, and object. If you would like to deepen your knowledge on this topic, you can consult more details in Jonathan Blaney's lesson, [Introduction to the Principles of Linked Open Data](/en/lessons/intro-to-linked-data), which offers a brief and concise introduction to linked open data.
 
@@ -93,7 +93,7 @@ Since Wikidata can connect local metadata with global data, many institutions wi
 
 ## The Structure of Wikidata
 
-In this section, we will explore the organization of Wikidata, examining its components and understanding their specific functions. Through this analysis, we will strengthen our understanding of Wikidata’s hierarchical and modular structure.
+In this section, you will explore the organization of Wikidata, examining its components and understanding their specific functions. Through this analysis, we will strengthen your understanding of Wikidata’s hierarchical and modular structure.
 
 'Items' are the fundamental units of Wikidata. They represent unique concepts, which can cover a wide range of entities, such as people, places, events, ideas, celestial bodies, living species, films, literary works, and more.
 
@@ -101,7 +101,7 @@ Each Wikidata item consists of a label, which is a short descriptive name used t
 
 {% include figure.html filename="en-tr-linked-open-data-wikidata-03.png" alt="Item for the journal ‘Programming Historian’ with its label and Q identifier." caption="Figure 3. Example of a Wikidata identifier: the Q number for the journal 'Programming Historian’." %}
 
-Labels in Wikidata can be ambiguous. For instance, 'San Martín' could refer to a person, a city, an island, or a region in Peru. Identifiers, however, are universally applicable and eliminate the need for language-specific identifiers. This feature enhances machine readability and enables bots to efficiently edit Wikidata.
+Labels in Wikidata can be ambiguous. For instance, ‘San Martín’ could refer to a person, a city, an island, or a region in Peru. Identifiers, however, are unique and language-independent, eliminating the need for language-specific identifiers. This feature enhances machine readability and enables bots to efficiently identify and edit Wikidata items.
 
 Following the label and identifier, each item includes a short description, which provides additional details to help distinguish it from other potentially similar items. This description is key to understanding the item's context.
 
@@ -113,7 +113,7 @@ After this initial section (which includes the label, Q-identifier, description,
 
 {% include figure.html filename="en-tr-linked-open-data-wikidata-05.png" alt="Item for ‘rain’ with translations in Spanish and Chinese" caption="Figure 5. Example of multilingualism in Wikidata: the case of the item ‘rain’." %}
 
-Wikidata describes items through statements; structured assertions that capture specific information about entities in the database. Each statement consists of a property (an attribute or characteristic) paired with a corresponding value, creating connections between different items (Figure 6). This system of interconnected statements forms the foundation of Wikidata's hierarchical and modular architecture, establishing the relationships that define how knowledge is organized within the platform.
+Wikidata describes items through statements: structured assertions that capture specific information about entities in the database. Each statement consists of a property (an attribute or characteristic) paired with a corresponding value, creating connections between different items (Figure 6). This system of interconnected statements forms the foundation of Wikidata’s hierarchical and modular architecture, establishing the relationships that define how knowledge is organized within the platform
 
 {% include figure.html filename="en-tr-linked-open-data-wikidata-06.png" alt="Item for the journal ‘Programming Historian’ showing five of its statements." caption="Figure 6. Statements in Wikidata: examples of properties and values." %}
 
@@ -249,7 +249,7 @@ Recording identifiers associated with a person is one of the most important aspe
 
 {% include figure.html filename="en-tr-linked-open-data-wikidata-16.png" alt="List of various identifiers that can be related to a person" caption="Figure 16. Identifiers associated with a person in Wikidata." %}
 
-These are just some of the properties available for creating linked open data about individuals in Wikidata. Below are other relevant properties that can provide more detailed information. However, we must be cautious when entering data about living people and always consider ethical implications related to their dignity, safety, and privacy.
+These are just some of the properties available for creating linked open data about individuals in Wikidata. Below are other relevant properties that can provide more detailed information. However, be cautious when entering data about living people and always consider the ethical implications for their dignity, safety, and privacy.
 
 - **place of birth** [(P19)](https://perma.cc/QYR2-WRRH): To specify the person’s known birthplace.
 
@@ -289,7 +289,7 @@ Finally, the [Wikidata Tools directory](https://perma.cc/PH3M-5U85) provides a c
 
 ## Conclusions
 
-In this lesson, we have overviewed the fundamentals of metadata and linked open data, which has illustrated the potential and importance of Wikidata for information management and retrieval. Throughout this tutorial, we explored the structure of Wikidata and the steps needed to create and edit two kinds of items: academic journals and the profiles of editors and authors who are linked to those journals.
+In this lesson, you reviewed the fundamentals of metadata and linked open data and considered the potential and importance of Wikidata for information management and retrieval. Throughout this tutorial, you explored the structure of Wikidata and the steps needed to create and edit two kinds of items: academic journals and people associated with those journals, such as editors and authors.
 
 Through this lesson, you learned how to structure and link this data to promote open access and contribute to the visibility and interoperability of resources in a digital environment. Even if you had never worked with Wikidata before, you now know how to get started. We encourage you to keep practicing and exploring further.
 
