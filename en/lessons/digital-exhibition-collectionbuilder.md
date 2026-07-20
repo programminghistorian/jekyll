@@ -1,5 +1,5 @@
 ---
-title: "Building a Digital Exhibition with CollectionBuilder and Internet Archive"
+title: "Building a Digital Exhibition with CollectionBuilder and the Internet Archive"
 slug: digital-exhibition-collectionbuilder
 original: exhibicion-con-collection-builder
 layout: lesson
@@ -46,12 +46,12 @@ CollectionBuilder is a project of the University of Idaho Library's [Digital Ini
 CollectionBuilder offers three [different templates](https://perma.cc/45BK-P3CH) for building a digital exhibit:
 
 1.  CB-SHEETS allows you to update collections directly from a Google Sheet, making it ideal for prototyping, collaboration, and viewing changes in real-time.
-2.  CB-GH requires that you upload your metadata spreadsheet to your repository and allows for more customizations, making it suitable for teaching and learning GitHub, Git, and other web workflows
+2.  CB-GH requires that you upload your metadata spreadsheet to your GitHub repository and allows for more customizations, making it suitable for teaching and learning GitHub, Git, and other web workflows
 3.  CB-CSV allows for the most customization, but you must [download software](https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/csv-walkthrough/#2-download-and-install-software-on-your-computer-git-github-desktop-visual-studio-code-ruby-jekyll-imagemagic-and-ghostscript-video-version) to your computer. You will need this template if you want to work with advanced digital objects like 360-degree panorama images, compound objects (such as a scrapbook or an archival folder), and multiples (such as a postcard with both the front and back, or text and its transcript).
 
 You can browse [examples of CollectionBuilder sites](https://collectionbuilder.github.io/cb-examples/) to get a sense of what is possible and the difference between the templates.
 
-This lesson will use the CB-GH template, which has fewer software dependencies and relies on a collection of digital objects already available online. In our example, we used items available in the Internet Archive (a non-profit digital repository providing free public access to digital materials), but you can link to items available elsewhere, including YouTube, Vimeo, or any repository that gives you the digital object’s filename (including the file extension).
+This lesson will use the CB-GH template, which has fewer software dependencies and relies on a collection of digital objects already available online. In our example, we used items available in [the Internet Archive](https://archive.org/about/) (a non-profit digital repository providing free public access to digital materials), but you can also use files hosted in other repositories if these repositories provide a direct URL to the digital file which includes the file extension. CollectionBuilder also supports videos hosted on YouTube and Vimeo using dedicated metadata fields.
 
 While other CB tutorials ask you to upload digital files directly to GitHub, this lesson links to digital objects already hosted online. You will learn how to work with canonical versions of objects (the authoritative instance of the object in their original repositories) rather than creating and hosting copies. This approach to building digital exhibits allows you to:
 
@@ -95,7 +95,7 @@ For further reading on this topic, the Art Libraries Society of North America's 
 
 ## Gather metadata for your exhibition's digital collection
 
-To prepare the exhibition, you first need a collection of objects described in a CSV that we can map to the CollectionBuilder metadata guide to ensure all exhibition components function properly. This approach prioritizes working with canonical versions already maintained in established repositories, allowing you to focus on curatorial interpretation rather than digital stewardship.
+To prepare the exhibition, you first need metadata describing a collection of objects in a CSV that you can then align with CollectionBuilder’s metadata requirements to ensure that all the exhibition components function properly. This approach prioritizes working with canonical versions already maintained in established repositories, allowing you to focus on curatorial interpretation rather than digital stewardship.
 
 ### Optional: Upload your own digital collection materials first
 While this lesson focuses on using digital objects already available on the Internet Archive, you also have the option of uploading your own collections of digital items. 
@@ -108,15 +108,15 @@ The [CollectionBuilder documentation](https://perma.cc/6RB5-7HJX) also has infor
 
 ### Query and download collection metadata from the Internet Archive 
 
-If you are like us and have a collection of described digital objects already in the Internet Archive, you can use their [Advanced Search](https://archive.org/advancedsearch.php) page to craft specific queries and export the existing metadata to a CSV file.
+If, as is the case in this lesson, a collection of digital objects that you want to use is already described and available in the Internet Archive, you can use its [Advanced Search](https://archive.org/advancedsearch.php) page to craft specific queries and export the existing metadata to a CSV file.
 
-The first step is to use the advanced search form to create a query that isolates the objects you want to download. You can also construct a query with keywords, Field-Specific searches, and Boolean operators. Experiment with different queries until you get the results you want. Every time you run an advanced search using the form, IA converts your query to their preferred query syntax, which you will use in the query box.
+The first step is to use the Advanced Search form to create a query that isolates the objects whose metadata you want to export. You can construct the query using keywords, Field-Specific searches, and Boolean operators. Experiment with different queries until the results include the objects you want. Every time you run an advanced search using the form, IA converts your query into its preferred query syntax, which appears in the query box. This is the query you will use to export the metadata.
 
 {% include figure.html filename="en-tr-digital-exhibition-collectionbuilder-02.png" alt="Screenshot of the Internet Archive's advanced search interface showing relevant metadata highlighted and the CSV format chosen." caption="Figure 2. Screenshot of the Internet Archive's advanced search interface." %}
 
-Now that you have a query, the second step is to download the desired metadata fields in a usable format. Select which metadata fields you want to include in your download from the list on the left-hand side. This list contains both the descriptive metadata as defined by the uploader and the administrative metadata from the IA platform. If you are not sure which fields you want, you can select all and review them later. For more information on what each metadata field contains, you can look at the [IA metadata schema](https://perma.cc/84CM-YMJF), but not all metadata in IA will follow this schema, so be cautious! 
+Now that you have a query, the second step is to select the metadata fields you want to export. Select the fields you want to include from the list on the left-hand side. This list contains both the descriptive metadata as defined by the uploader and the administrative metadata from the IA platform. If you are not sure which fields you want, you can select all and review them later. For more information on what each metadata field contains, you can look at the [IA metadata schema](https://perma.cc/84CM-YMJF), but not all metadata in IA will follow this schema, so be cautious!
 
-Choose the number of results you want and CSV format. Once your file has been downloaded, ensure that the name of the file only contains lowercase letters, no spaces, and no special characters (e.g. ph-demo-playbills.csv). You may need to rename the file if this is not the case.
+Finally, choose the number of results you want and select CSV as the output format. Once your file has been downloaded, ensure that the name of the file only contains lowercase letters and hyphens, no spaces, and no other special characters (e.g. `ph-demo-playbills.csv`). You may need to rename the file if this is not the case.
 
 In our example exhibition, we are using a collection of [English playbills](https://archive.org/details/bpsc_playbills) from Bruce Peel Special Collections at the University of Alberta Library, which was digitized in 2019 and is available on the Internet Archive. Because we want to use the entire collection of objects, we can retrieve the playbills using the collection identifier `bpsc_playbills`, which appears in the URL.  When we do our test search, IA converts our search into their desired query syntax `collection:(bpsc_playbills)`. For another example, if we only wanted to download the Hamlet playbills in this collection, we would use the query `title:(hamlet) AND collection:(bpsc_playbills)`.
 
@@ -126,32 +126,34 @@ Once you have downloaded your metadata, you will want to clean it up to include 
 * [UTF-8 encoding errors](https://perma.cc/UU5H-JS9X)
 
 ## Prepare the metadata for your CollectionBuilder exhibition
-To ensure your exhibition works properly, your metadata must follow the structure expected by CollectionBuilder. This means your CSV file must contain specific fields with correct formatting so the template can display items, maps, timelines, and other features.
+To ensure your exhibition works properly, your metadata must follow the structure expected by CollectionBuilder. This means your CSV file must contain specific fields formatted correctly so the template can display items, maps, timelines, and other features.
 
-Below, we explain only the fields required for this example project. You can explore the complete metadata guide anytime by checking out the [CB-GH Metadata Template](https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/).
+Below, we explain only the fields required for this example project. You can consult the [CB-GH Metadata Template](https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/) for the complete metadata guide.
 
 ### CollectionBuilder Required Fields
 
-The following fields are required in CollectionBuilder:
+The following fields are required in CollectionBuilder (the following overview is adapted from [the CollectionBuilder documentation](https://perma.cc/HH9G-KGQW)):
 
 * **objectid:** The objectid field is how CollectionBuilder identifies each item in your collection and connects it to its metadata. Requirements for **objectid**:  
     
-  * Must be all lowercase  
+  * Should preferably be lowercase  
   * No spaces or special characters (hyphens `-` and underscores `_` are allowed)  
   * Should be unique for each item
 
-In our example, the Internet Archive identifier is already a suitable **objectid**. You simply need to rename the corresponding column header in your CSV file to **objectid**.
+In our example, we use the Internet Archive identifier directly as the **objectid** by renaming the corresponding column in the CSV file. Although the CollectionBuilder metadata guide recommends using lowercase **objectid** values, the uppercase Internet Archive identifiers still function correctly in this example. Retaining them in their original form makes it easier to construct the corresponding Internet Archive URLs. Alternatively, to follow the recommended practice, you could create a new **objectid** column and convert the Internet Archive identifiers to lowercase, while preserving the original **identifier** column for constructing the Internet Archive URLs.
 
 * **filename**: This field contains the direct URL to your digital object, such as a PDF, image, or audio file. For objects hosted on the Internet Archive, you can choose the display option that works best for your exhibition. In the Internet Archive, a variety of display options, such as [the digital object record](https://archive.org/details/BP_CCTT_0002), a [one-page view](https://archive.org/details/BP_CCTT_0002/mode/1up), a [two-page spread](https://archive.org/details/BP_CCTT_0002/mode/2up), a [thumbnail view](https://archive.org/details/BP_CCTT_0002/mode/thumb) and then you can apply theatre view to any of these display options if you want to focus on the digital object and not the metadata. In our example, we want visitors to see the full-screen flipbook version of each item, so we use URLs such as [`https://archive.org/details/BP_CCTT_0002/mode/thumb?view=theater`](https://archive.org/details/BP_CCTT_0002/mode/thumb?view=theater). Note that every Internet Archive URL uses the IA identifier (now your **objectid**), so you can use this construct these URLs fairly quickly using formulas such as concatenate in Excel or Google Sheets. 
   
 * **title**: This should correspond to a title of the original object. It is recommended that it be short and descriptive. In our example, some playbills have more than one play, so we have separated the play titles with a semicolon. For example: Othello; The Deserter
   
-* **format**: This field indicates the item’s media type. Since CollectionBuilder uses logic based on format to display objects, this is a key field for ensuring the interactive visualizations and item pages function correctly. If there are errors or anomalies, some pages will not work. For normal items, the value of this field should match the standard [MIME type](https://perma.cc/2HCH-L9ZL) corresponding to your item’s file, consisting of a type and a subtype concatenated with a slash (`/`) between them. This can generally be inferred by looking at the file extension (`.jpg`, `.pdf`, etc). The common MIME type `format` values supported by CB-GH are:  
+* **format**: This field indicates the item’s media type. Since CollectionBuilder uses logic based on format to display objects, this is a key field for ensuring the interactive visualizations and item pages function correctly. If there are errors or anomalies, some pages will not work. For items represented by a single digital file (referred to as 'normal items' in the CollectionBuilder documentation), the value of this field should match the standard [MIME type](https://perma.cc/2HCH-L9ZL) corresponding to the item’s file. A MIME type consists of a type and subtype separated by a slash (`/`) and can generally be inferred from the file extension (`.jpg`, `.pdf`, etc.). The common MIME type **format** values supported by CB-GH are:
     
   * Image: `image/jpeg`, `image/png`  
   * Document: `application/pdf` (as in our example of the playbills)  
   * Audio: `audio/mp3`  
   * Video: `video/mp4`
+ 
+Note that this example uses an Internet Archive BookReader URL rather than a direct URL to the PDF file. Usually, the **format** value should correspond to the file type of the resource specified in **filename**. In this example, however, **filename** points to an Internet Archive BookReader webpage while **format** is set to `application/pdf`. This still allows the items to display, but differs from the usual CollectionBuilder workflow. As a result, the **Download PDF** button opens the corresponding Internet Archive webpage rather than linking directly to the PDF file.
 
 ### Metadata Fields used for visualizations
 
@@ -202,9 +204,9 @@ In the _Create a new repository_ screen, you must name your new repository. The 
 #### Repository contents
 Now that you have cloned the template for your exhibition, let’s take a closer look at each folder and its role in your site.
 
-* **_data**: Contains three types of files that help form the 'skeleton' of the display. The demo and template comma-separated values (CSV) files are examples for various digital object types and can be left alone as references. We will later be adding your metadata file to this folder. Several configuration files let you edit the vocabulary for browsing objects (`config-browse.csv`), viewing the map (`config-map.csv`), metadata (`config-metadata.csv`), general navigation or menu (`config-nav.csv`), search (`config-search.csv`), and a table (`config-table.csv`). Lastly, there is a YAML type file (a human-readable data serialization format) for configuring the page theme, which you do not need to worry about.  
+* **_data**: Contains three types of files that help form the ‘skeleton’ of the display. The demo and template comma-separated values (CSV) files are examples for various digital object types and can be left alone as references. You will later be adding your metadata file to this folder. Several configuration files let you edit the vocabulary for browsing objects (`config-browse.csv`), viewing the map (`config-map.csv`), metadata (`config-metadata.csv`), general navigation or menu (`config-nav.csv`), search (`config-search.csv`), and a table (`config-table.csv`). Lastly, there is a YAML type file (a human-readable data serialization format) for configuring the page theme, which you do not need to worry about.
 
-* **_includes and _layouts**: These folders contain the HTML files that make up many of the features of the CollectionBuilder tool. In this lesson, we will complete all customization without touching these files.  
+* **_includes and _layouts**: These folders contain the HTML files that make up many of the features of the CollectionBuilder tool. In this lesson, you will complete all customization without touching these files.  
 
 * **_sass and assets**: This is where you will find the SASS (Syntactically Awesome Style Sheets) files that provide the visual side of the web page (colours, font sizes, etc.) and the JSON (JavaScript Object Notation) files that make everything work. Editing the CSS or JSON is not covered in this lesson, though you may use the assets folder to add images such as a banner.
 
@@ -219,7 +221,7 @@ After you add a message and click the _Commit changes_ button, your file is in t
 
 Since your `_data` folder contains several metadata files, the next step is to tell the CollectionBuilder template which one to use for your exhibition.
 
-To do this, we will edit the `_config.yml` file. Under the heading **# COLLECTION SETTINGS** change line 37 `metadata: demo-metadata` to the name of your metadata file you just uploaded. In our example, we changed it to `metadata: ph-demo-playbills`.
+To do this, you will edit the `_config.yml` file. Under the heading **# COLLECTION SETTINGS** change line 37 `metadata: demo-metadata` to the name of your metadata file you just uploaded. In our example, we changed it to `metadata: ph-demo-playbills`.
 
 {% include figure.html filename="en-tr-digital-exhibition-collectionbuilder-04.png" alt="Screenshot of the relevant section of the config.yml file showing where to point CollectionBuilder to your metadata file." caption="Figure 4. Screenshot of the relevant section of the `config.yml` file showing where to point CollectionBuilder to your metadata file." %}
 
@@ -244,8 +246,7 @@ When your site is ready, refresh the page, and you will see the URL to your live
 
 {% include figure.html filename="en-tr-digital-exhibition-collectionbuilder-07.png" alt="Screenshot of the message you will receive when your site is live." caption="Figure 7. Screenshot of the message you will receive when your site is live." %}
 
-Click on the link, and VOILA, your digital exhibition, using *the defaults* from the CollectionBuilder template, and your metadata are live.
-
+Click on the link to view your digital exhibition, which is now live using the default settings from the CollectionBuilder template and your metadata.
 
 #### Troubleshooting
 Did you follow all the steps above and still not see what you expect? [A common issue](https://perma.cc/UU5H-JS9X) is that your spreadsheet contains some UTF-8 Errors, which prevents the metadata from being displayed.  
@@ -266,7 +267,7 @@ Now that your digital exhibition is available online, let's customize it.
 
 The first thing someone sees when they visit your site is the homepage, and there are several ways you can customize it to encourage readers to explore your exhibition.
 
-The first change we will make is to add our logo and banner image, and update the text in the description box.
+The first change you can make is to add our logo and banner image, and update the text in the description box.
 
 Open the `_config.yml` file again. Under **#SITE SETTINGS**, update your site's title, tagline, and description.
 
@@ -287,7 +288,7 @@ You can also use an external URL if you want to host your banner somewhere outsi
 
 #### Front page content boxes
 
-Next, we can change the number and arrangement of content boxes on the template home page by editing the `home-infographic.html` file in the `_layouts` folder. 
+Next, you can change the number and arrangement of content boxes on the template home page by editing the `home-infographic.html` file in the `_layouts` folder. 
 
 In our example, we have used the location metadata field to indicate the playbill's physical location, which helps library staff retrieve the item if requested. However, you do not necessarily need to be able to browse that on the front page.
 
@@ -301,7 +302,7 @@ The next thing you can do is change the order of the boxes. In our example, we m
 
 Next, let’s examine the default item page, which displays your digital object and its corresponding metadata. There are a number of changes that can be made to the default page, including which metadata fields are shown, in what order, what the labels are, and whether we want them to interlink to other items on your site or include external links.
 
-To make changes, go to the `_data` folder and open the `config-metadata.csv` file. The top row (1) is the table header row, which tells us what each column means. The first column **field** references the column name in your corresponding metadata CSV file, and **display_name** is the label on your item page. The **browse_link** and **external_link** columns are where you can turn on hyperlinking of fields or make a field link to an external website after each row below matches up to a metadata field that is displayed on your item page.  
+To make changes, go to the `_data` folder and open the `config-metadata.csv` file. The top row (1) is the table header row, which tells you what each column means. The first column **field** references the column name in your corresponding metadata CSV file, and **display_name** is the label on your item page. The **browse_link** and **external_link** columns are where you can turn on hyperlinking of fields or make a field link to an external website after each row below matches up to a metadata field that is displayed on your item page.  
 
 {% include figure.html filename="en-tr-digital-exhibition-collectionbuilder-13.png" alt="Screenshot of the config-metadata.csv file with the updates specified in the lesson." caption="Figure 13. Screenshot of the `config-metadata.csv` file with the updates specified in the lesson." %}
 
@@ -309,7 +310,7 @@ To make changes, go to the `_data` folder and open the `config-metadata.csv` fil
 
 For the playbills example, we added new metadata terms specific to these materials to the item page, such as Playwright and Theatre Name, and changed the **display_name** of the title field to the more descriptive Play Title. We also wanted to encourage people to explore more playbills by a specific playwright or shown in a particular theatre, by making those fields browseable by editing the **browse_link** value to true.
 
-In our example, some playbills advertise multiple plays with multiple playwrights. To ensure that those show up as separate values your visitor can browse, make sure they are separated in your metadata CSV with a semicolon. Then CollectionBuilder will automatically show that they are separate links.
+In our example, some playbills advertise multiple plays with multiple playwrights. To ensure that these appear as separate values that visitors can browse, make sure that they are separated in the metadata CSV with a semicolon. Then CollectionBuilder will then display them as separate links.
 
 Lastly, we added the item's full URL for easier access. Add a new line near the bottom (line 11) and add the value `true` under **external_link**. This makes the ENTIRE field a hyperlink, so if you include text and a URL, it won’t work. The metadata field can contain text or an external link, but not both. 
 
@@ -317,7 +318,7 @@ If you are using PDFs (as in our example) and would like to add thumbnails to yo
 
 
 ### Configure search and browse experience
-Related to metadata configuration is the search and browse configuration. If you add a new metadata field to your item page, you will also need to add it to the `config-search.csv` file in the `_data` folder to make it searchable. The second step to make the browse_link work will be to add the two fields to the `config-browse.csv` in the same `_data` folder.  
+Search and browse functions also be configured. If you add a new metadata field to your item page, you will also need to add it to the `config-search.csv` file in the `_data` folder to make it searchable. To make the `browse_link` work for the new field, you must also add it to the `config-browse.csv` in the same `_data` folder.  
 
 Depending on your site goals and audience, you might want to add further customization. To learn about what more you can do, visit the [CollectionBuilder customization documentation](https://perma.cc/598E-GN25). 
 
@@ -348,7 +349,7 @@ If you want to add a new page, you can follow the instructions in the Collection
 
 The last thing you will edit for this lesson is the navigation bar. Similar in format to the item page fields, this component is managed in the `config-nav.csv` file found in the `_data` folder. 
 
-In our example, you could edit the `display_name` in the navigation bar from Subjects to Genres to match with our metadata. You could also remove any navigation items that you are not using. 
+In this example, you could edit the `display_name` in the navigation bar from Subjects to Genres to match the metadata. You could also remove any navigation items that you are not using. 
 
 With those final edits, you have a customized exhibition site that is ready for the world to see. 
 
