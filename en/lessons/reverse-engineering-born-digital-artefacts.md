@@ -3,7 +3,7 @@ title: "Reverse Engineering Born-Digital Artefacts: A Beginner's Guide"
 slug: reverse-engineering-born-digital-artefacts
 layout: lesson
 collection: lessons
-date: YYYY-MM-DD
+date: 2026-07-27
 authors:
 - Adrian Demleitner
 - Daniel Gammenthaler
@@ -18,7 +18,7 @@ activity: transforming
 topics: [data-management, metadata]
 abstract: This lesson teaches reverse engineering to conduct historical analysis on digital artefacts.
 avatar_alt: Line drawing showing a circular segmented wheel at the center, surrounded by four angled mechanical parts with numbered labels.
-doi: XX.XXXXX/phen0000
+doi: 10.46430/phen0134
 ---
 
 {% include toc.html %}
