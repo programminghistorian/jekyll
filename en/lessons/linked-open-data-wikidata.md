@@ -23,8 +23,8 @@ translation-reviewer:
 - Paris O’Donnell
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/669
 difficulty: 1
-activity: acquiring
-topics: [lod, data-management, data-manipulation, web-archiving, metadata]
+activity: sustaining
+topics: [lod, metadata]
 abstract: This lesson introduces Wikidata and provides a step-by-step guide to creating and linking metadata about academic journals and people using linked open data. It explores best practices for adding and managing metadata in Wikidata to increase the visibility and accessibility of resources in digital environments.
 avatar_alt: Decorative framed letter W with a design of circular lines and patterns.
 doi: 10.46430/phen0132
