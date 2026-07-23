@@ -34,6 +34,7 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](/es/pia):
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
 - [University of Bristol Library](https://www.bristol.ac.uk/library/), Reino Unido
 - [University of Sheffield Library](https://www.sheffield.ac.uk/library), Reino Unido
+- [School of Advanced Study, University of London](https://www.sas.ac.uk/), Reino Unido
 - [Department of Information Studies, University College London](https://www.ucl.ac.uk/information-studies/), Reino Unido
 - [University of York](https://www.york.ac.uk/), Reino Unido
 - [University of Oxford](https://www.ox.ac.uk), Reino Unido
@@ -47,6 +48,7 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](/es/pia):
 - [Iowa State University Library](https://www.lib.iastate.edu/), Estados Unidos
 - [University of Edinburgh Library](https://library.ed.ac.uk/), Reino Unido
 - [University of Cambridge](https://www.cam.ac.uk/), Reino Unido
+- [Zentralbibliothek Zürich](https://www.zb.uzh.ch/), Suiza
 
 Son bienvenidas las consultas de potenciales contribuidores del [Programa de Instituciones Asociadas](/es/pia).
 
@@ -67,8 +69,7 @@ Antiguos contribuidores de nuestro [Programa de Instituciones Asociadas](/es/pia
 - [Roskilde University Library](https://ruc.dk/en/roskilde-university-library), Dinamarca [2021-2024]
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), Reino Unido [2022-2024]
 - [University of Lancaster Library](https://www.lancaster.ac.uk/), Reino Unido [2022-2024]
-- [Purdue University](https://www.purdue.edu/), Estados Unidos [2021-2025]  
-- [School of Advanced Study, University of London](https://www.sas.ac.uk/), Reino Unido [2022-2026]   
+- [Purdue University](https://www.purdue.edu/), Estados Unidos [2021-2025]     
 - [Department of Digital Humanities](https://www.kcl.ac.uk/ddh) and [Department of History](https://www.kcl.ac.uk/history), King's College London, Reino Unido [2022-2026]   
 
 ## Colaboradores adicionales

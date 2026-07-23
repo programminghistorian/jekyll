@@ -76,7 +76,7 @@ Actualmente existen numerosos sitios web donde es posible localizar colecciones 
 | National Library of Scotland | Data Foundry | [https://data.nls.uk/](https://data.nls.uk/) |
 | Library of Congress | LC Labs | [https://labs.loc.gov/data-for-exploration](https://labs.loc.gov/data-for-exploration) |
 | Österreichische Nationalbibliothek | ONB Labs |[https://labs.onb.ac.at/en/](https://labs.onb.ac.at/en/)|
-| Staatsbibliothek zu Berlin | SBB Labs | [https://lab.sbb.berlin/?lang=en](https://lab.sbb.berlin/?lang=en)|
+| Staatsbibliothek zu Berlin | SBB Labs | [https://lab.sbb.berlin/](https://lab.sbb.berlin/)|
 | State Library New South Wales | DX Lab | [https://dxlab.sl.nsw.gov.au](https://dxlab.sl.nsw.gov.au)|
 
 Las instituciones GLAM publican colecciones digitales en diferentes formatos. Tradicionalmente han publicado diversos tipos de materiales como imágenes, textos y mapas. Recientemente, han aparecido nuevas formas de publicación que utilizan tecnologías basadas en la [Web Semántica](https://es.wikipedia.org/wiki/Web_sem%C3%A1ntica). Estas técnicas permiten el enriquecimiento con repositorios externos a partir de la creación de enlaces. [Wikidata](https://www.wikidata.org) se ha convertido en un repositorio muy popular en el ámbito de las instituciones GLAM y muchas de ellas ya disponen de propiedades específicas para enlazar sus recursos como autores y obras. Por ejemplo, la [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/) dispone de la propiedad [P2799](https://www.wikidata.org/wiki/Property:P2799) para enlazar autores desde su repositorio de datos abiertos hacia Wikidata.
