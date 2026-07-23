@@ -100,7 +100,7 @@ O autor da lição, o historiador Ryan Deschamps, suspeitava que os deputados es
 
 ## Preparando o R para a CA
 
-Para fazer uma CA, precisaremos de um pacote de álgebra linear. Para os mais inclinados à matemática, há um apêndice com alguns detalhes sobre como isto é feito. Em R, há várias opções para CA, mas usaremos o [pacote FactoMineR](http://factominer.free.fr/) (em inglês), focado na "análise de dados exploratórios multivariados".[^4] A FactoMineR pode ser usada para conduzir todos os tipos de análises multivariadas diferentes, incluindo *clusters* hierárquicos, análise fatorial e assim por diante.
+Para fazer uma CA, precisaremos de um pacote de álgebra linear. Para os mais inclinados à matemática, há um apêndice com alguns detalhes sobre como isto é feito. Em R, há várias opções para CA, mas usaremos o [pacote FactoMineR](https://perma.cc/YFT7-P5Y7) (em inglês), focado na "análise de dados exploratórios multivariados".[^4] A FactoMineR pode ser usada para conduzir todos os tipos de análises multivariadas diferentes, incluindo *clusters* hierárquicos, análise fatorial e assim por diante.
 
 Mas, primeiro, aqui está como instalar e puxar os pacotes, depois colocá-los em um objeto R para que possam ser discutidos.
 
