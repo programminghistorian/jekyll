@@ -355,7 +355,7 @@ Também aprendemos como interpretar uma CA e como detectar potenciais armadilhas
 
 Em geral, o benefício desta análise é fornecer uma rápida visão geral do *dataset* de duas categorias, como um guia para questões históricas mais substantivas. O uso de membros e reuniões ou eventos em todas as áreas da vida (negócios, sem fins lucrativos, reuniões municipais, *hashtags* de twitter, etc.) é uma abordagem comum para tal análise. Os grupos sociais e as suas preferências são outro uso comum para a CA. Em cada caso, a visualização oferece um mapa com o qual se pode observar um retrato da vida social, cultural e política.
 
-Os próximos passos podem incluir a adição de outras dimensões categóricas à nossa análise, como a incorporação do partido político, idade ou sexo. Quando se faz CA com mais de duas categorias, é chamada de [Análise de Correspondência Múltipla ou MCA](https://www.youtube.com/watch?v=RDexHE5Iqrg) (em inglês). Enquanto a matemática para a MCA é mais complicada, os resultados finais são bastante semelhantes aos da CA.
+Os próximos passos podem incluir a adição de outras dimensões categóricas à nossa análise, como a incorporação do partido político, idade ou sexo. Quando se faz CA com mais de duas categorias, é chamada de [Análise de Correspondência Múltipla ou MCA](https://www.youtube.com/watch?v=RDexHE5Iqrg). Enquanto a matemática para a MCA é mais complicada, os resultados finais são bastante semelhantes aos da CA.
 
 Esperamos que, agora, estes métodos sejam aplicados aos seus próprios dados, ajudando a descobrir perguntas e hipóteses que enriquecem a sua pesquisa histórica. Boa sorte!
 
