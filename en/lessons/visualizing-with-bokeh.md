@@ -149,7 +149,7 @@ Within the virtual environment, you can run your code by typing:
 python filename.py
 ```
 
-A Jupyter Notebook containing the code used in this tutorial is also [available](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/visualizing-with-bokeh/visualizing-with-bokeh.ipynb) in case you prefer to work through the tutorial without installing a virtual environment. You can learn more about Jupyter Notebook [here](https://jupyter.org). If you have created a virtual environment using Miniconda, as discussed above, you can install Jupyter Notebook in the environment by typing `conda install jupyter`
+A Jupyter Notebook containing the code used in this tutorial is also [available](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/visualizing-with-bokeh/visualizing-with-bokeh.ipynb) in case you prefer to work through the tutorial without installing a virtual environment. You can learn more about Jupyter Notebook [here](http://jupyter.org). If you have created a virtual environment using Miniconda, as discussed above, you can install Jupyter Notebook in the environment by typing `conda install jupyter`
 
 # The Basics of Bokeh
 
@@ -239,7 +239,7 @@ In the previous example, we manually created two short Python lists for our x an
 
 ## Pandas Overview
 
-For the purposes of this tutorial, I will only touch on the basic functions of Pandas that are necessary to produce our visualizations. [10 Minutes to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html) and [Lessons for New Pandas Users](https://pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html#exercises-for-new-users) are excellent introductions that I would recommend for expanding your knowledge beyond the very basics touched on here.
+For the purposes of this tutorial, I will only touch on the basic functions of Pandas that are necessary to produce our visualizations. [10 Minutes to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html) and [Lessons for New Pandas Users](https://pandas.pydata.org/pandas-docs/stable/tutorials.html#lessons-for-new-pandas-users) are excellent introductions that I would recommend for expanding your knowledge beyond the very basics touched on here.
 
 Pandas has quickly become the *de facto* Python library for data and data science workflows; integration with other major data science and machine learning libraries has only fueled a rise in popularity.[^1] Pandas provides functionality to quickly and efficiently read, write, and modify datasets for analysis. To accomplish this, Pandas provides data structures that hold different dimensionalities of data. The `DataFrame` holds 2-dimensional data in the manner of a spreadsheet with rows and columns. It's through this object that we'll interact with our WWII THOR dataset. Let's first examine the Pandas `DataFrame` by loading our csv data into one.
 
@@ -256,7 +256,7 @@ print(df)
 ```
 We start by importing the Pandas library and then calling `read_csv()` and passing a filename to it. Note that the Pandas library is aliased as *pd*. This alias is a convention followed in the [Pandas official documentation](https://pandas.pydata.org/pandas-docs/stable/) and is widely used by the Pandas community. For this reason, I'll use the *pd* alias throughout the tutorial.
 
-In this code, `read_csv` creates a `DataFrame` that holds the rows/columns of our csv data. By convention, the variable name *df* is used to represent the loaded dataframe in tutorials and basic code examples. [Many other methods](https://pandas.pydata.org/pandas-docs/stable/reference/io.html#input-output) exist for reading data formats other than csv in Pandas, such as JSON, SQL tables, Excel files, and HTML.
+In this code, `read_csv` creates a `DataFrame` that holds the rows/columns of our csv data. By convention, the variable name *df* is used to represent the loaded dataframe in tutorials and basic code examples. [Many other methods](https://pandas.pydata.org/pandas-docs/stable/api.html#input-output) exist for reading data formats other than csv in Pandas, such as JSON, SQL tables, Excel files, and HTML.
 
 When running this code, `print(df)` will output an abridged representation of the loaded data.
 
@@ -583,7 +583,7 @@ Thankfully, Pandas offers a quick and easy way to do this. By modifying a single
 
 Resampling time-series data can involve either upsampling (creating more records) or downsampling (creating fewer records). For example, a list of daily temperatures could be upsampled to a list of hourly temperatures or downsampled to a list of weekly temperatures. We'll only be downsampling in this tutorial, but upsampling is very useful when you're trying to match a sporadically-measured dataset with one that's more periodically measured.
 
-To resample our data, we use a Pandas `Grouper` object, to which we pass the column name holding our datetimes and a code representing the desired resampling frequency. In the case of our data, the statement `pd.Grouper(key='MSNDATE', freq='M') ` will be used to resample our MSNDATE column by *M*onth. We could equally resample by *W*eek, *Y*ear, *H*our, and [so forth](https://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases). These frequency designations can also be prefaced with numbers so that, for example, `freq='2W'` resamples at two week intervals!
+To resample our data, we use a Pandas `Grouper` object, to which we pass the column name holding our datetimes and a code representing the desired resampling frequency. In the case of our data, the statement `pd.Grouper(key='MSNDATE', freq='M') ` will be used to resample our MSNDATE column by *M*onth. We could equally resample by *W*eek, *Y*ear, *H*our, and [so forth](http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases). These frequency designations can also be prefaced with numbers so that, for example, `freq='2W'` resamples at two week intervals!
 
 To complete the process of resampling and plotting our data, we pass the above `Grouper` object to our `groupby` function in place of the raw column name. The `groupby` statement from the previous code example should now look like this:
 
@@ -642,7 +642,7 @@ show(p)
 
 A few patterns emerge in the ETO data. First we see a very clear escalation of overall bombings leading up to June 6, 1944 and a notable dip during the winter of 1944/1945. Incendiary munitions show three spikes and confirm that the fourth spike seen in the preceding example was directed at the bombing of Japan after Germany's surrender. The pattern of fragmentation bombs is harder to read, but it's now clear that they were only seriously used in the European Theater after D-Day.
 
-{% include alert.html text="Try your hand at resampling this data using any of [Pandas' time frequencies ](https://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases) to see what other trends might emerge. Remember, you can preface these frequencies with numbers as well (e.g. if you were working with historical stock market data, 2Q would give you bi-quarterly data!)" %}
+{% include alert.html text="Try your hand at resampling this data using any of [Pandas' time frequencies ](http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases) to see what other trends might emerge. Remember, you can preface these frequencies with numbers as well (e.g. if you were working with historical stock market data, 2Q would give you bi-quarterly data!)" %}
 
 Since we have established that 6 June 1944 and the winter of 1944/1945 mark changes to the bombing patterns in the ETO, let's highlight these trends using Bokeh's annotation features.
 
@@ -689,7 +689,7 @@ The function <code>get_provider</code> was deprecated as of Bokeh 3.0.0. The not
 
 We'll also be using functions imported from the `pyproj` library. Since our coordinates are stored as latitude/longitude, we'll define a custom function to convert them before mapping. Note that although Bokeh is coordinate-system neutral, it uses the Web Mercator projection for mapping, a standard found across web tile providers. The subject of coordinate systems and projections are outside the scope of this tutorial, but the interested reader will find many useful web resources on these topics.
 
-{% include alert.html text="If your own dataset has place names, but not latitude and longitude, don't worry! You can find ways to easily get coordinates from place names in Programming Historian's [Geocoding Historical Data using QGIS](/en/lessons/geocoding-qgis) or [Web Mapping with Python and Leaflet](/en/lessons/mapping-with-python-leaflet#geocoding-with-python)." %}
+{% include alert.html text="If your own dataset has place names, but not latitude and longitude, don't worry! You can find ways to easily get coordinates from place names in Programming Historian's [Geocoding Historical Data using QGIS](/lessons/geocoding-qgis) or [Web Mapping with Python and Leaflet](/lessons/mapping-with-python-leaflet#geocoding-with-python)." %}
 
 ```python
 # target_locations.py

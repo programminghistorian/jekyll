@@ -18,8 +18,8 @@ abstract: This lesson covers how to convert images of text into text files and t
 avatar_alt: An image of a tree with the Latin phrase Labor Omnia Vincit Improbus
 doi: 10.46430/phen0091
 redirect_from:
-  - /lessons/OCR-and-Machine-Translation/
-  - /en/lessons/OCR-and-Machine-Translation/
+  - /lessons/OCR-and-Machine-Translation
+  - /en/lessons/OCR-and-Machine-Translation
 retired: true
 retirement-reason: |
   Yandex, the translation software used in this lesson, has been deprecated. To successfully follow this lesson, many steps require significant adaptations, especially if users are working on a non-Mac operating system. 
@@ -80,7 +80,7 @@ With ImageMagick installed, we can now convert our files from PDF to TIFF and ma
 
 The command does several things that significantly increase the OCR accuracy rate. The `density` and `depth` commands both make sure the file has the appropriate dots per inch [(DPI)](https://en.wikipedia.org/wiki/Dots_per_inch) for OCR. The `strip`, `background`, and `alpha` commands make sure that the file has the right background. Most importantly, this command converts the PDF into a TIFF image file. If you are not using a PDF, you should still use the above command to ensure the image is ready for OCR. 
 
-After these changes, your image may still have problems. For example, there may be a skew or uneven brightness. Fortunately, [ImageMagick](https://imagemagick.org/index.php) is a powerful tool that can help you clean image files. For other ImageMagick options that can improve OCR quality, review this helpful [collection of scripts](https://www.fmwconcepts.com/imagemagick/textcleaner/index.php). Because OCR is a command line tool, you can write a script that will loop over over all of your images (hundreds or thousands) at once. You will learn how to write these kinds of scripts later in the lesson.      
+After these changes, your image may still have problems. For example, there may be a skew or uneven brightness. Fortunately, [ImageMagick](https://imagemagick.org/index.php) is a powerful tool that can help you clean image files. For other ImageMagick options that can improve OCR quality, review this helpful [collection of scripts](http://www.fmwconcepts.com/imagemagick/textcleaner/index.php). Because OCR is a command line tool, you can write a script that will loop over over all of your images (hundreds or thousands) at once. You will learn how to write these kinds of scripts later in the lesson.      
 
 # OCR
 This lesson will use the OCR program [Tesseract](https://github.com/tesseract-ocr/tesseract), the most popular OCR program for Digital Humanities projects. Google maintains Tesseract as free software and released it under the Apache License, Version 2.0. Tesseract supports over 100 different languages, but if you have a particularly difficult or unique script (calligraphy or other handwriting) it might be worth training your own OCR model. For typewritten documents, you need a program that will recognize several similar fonts and correctly identify imperfect letters. Tesseract 4.1 does just that. Google has already trained Tesseract to recognize a variety of fonts for dozens of languages. The following commands will install Tesseract as well as the Russian language package, which you will need for the rest of the lesson: 

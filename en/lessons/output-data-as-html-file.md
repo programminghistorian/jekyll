@@ -17,12 +17,12 @@ activity: transforming
 topics: [python, website]
 abstract: "This lesson takes the frequency pairs created in the 'Counting
 Frequencies' lesson and outputs them to an HTML file."
-next: /en/lessons/keywords-in-context-using-n-grams
-previous: /en/lessons/creating-and-viewing-html-files-with-python
+next: keywords-in-context-using-n-grams
+previous: creating-and-viewing-html-files-with-python
 series_total: 15 lessons
 sequence: 12
 python_warning: false
-redirect_from: /lessons/output-data-as-html-file/
+redirect_from: /lessons/output-data-as-html-file
 avatar_alt: A woman wearing an elaborate dress accompanied by two putti
 doi: 10.46430/phen0015
 ---
@@ -36,7 +36,7 @@ doi: 10.46430/phen0015
 ## Lesson Goals
 
 This lesson takes the frequency pairs created in [Counting
-Frequencies](/en/lessons/counting-frequencies) and outputs them to an HTML file.
+Frequencies][] and outputs them to an HTML file.
 
 Here you will learn how to output data as an HTML file using Python. You
 will also learn about string formatting. The final result is an HTML
@@ -49,7 +49,7 @@ appears.
 -   `obo.py`
 
 If you do not have these files from the previous lesson, you can
-download programming-historian-6, a [zip file from the previous lesson](/assets/python-lessons6.zip).
+download programming-historian-6, a [zip file from the previous lesson][]
 
 ## Building an HTML wrapper
 
@@ -60,7 +60,7 @@ around something so that it can be used by another program is sometimes
 called a *wrapper*. What we're going to do now is develop an HTML wrapper
 for the output of our code that computes word frequencies. We're also
 going to add some helpful, dynamic *metadata* to supplement the frequency
-data collected in [Counting Frequencies](/en/lessons/counting-frequencies).
+data collected in [Counting Frequencies][].
 
 ## Metadata
 
@@ -303,4 +303,8 @@ with the Mac / Linux version you may have to open the `obo.py` file and
 change "file:///Users/username/Desktop/programming-historian/" to the
 path to the directory on your own computer.
 
-- [zip sync](/assets/python-lessons7.zip)
+-   python-lessons7.zip [zip sync][]
+
+  [Counting Frequencies]: /lessons/counting-frequencies
+  [zip file from the previous lesson]: /assets/python-lessons6.zip
+  [zip sync]: /assets/python-lessons7.zip

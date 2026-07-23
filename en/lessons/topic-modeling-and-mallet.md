@@ -17,7 +17,7 @@ exclude_from_check:
 activity: analyzing
 topics: [distant-reading]
 abstract: "In this lesson you will first learn what topic modeling is and why you might want to employ it in your research. You will then learn how to install and work with the MALLET natural language processing toolkit to do so."
-redirect_from: /lessons/topic-modeling-and-mallet/
+redirect_from: /lessons/topic-modeling-and-mallet
 avatar_alt: A man striking an anvil with a large hammer
 doi: 10.46430/phen0017
 ---
@@ -161,7 +161,7 @@ the instructions appropriate for you below:
 
 ### Windows Instructions
 
-1.  Go to the [MALLET][] project page. You can [download MALLET here](https://mallet.cs.umass.edu/download.php).
+1.  Go to the [MALLET][] project page. You can [download MALLET here](http://mallet.cs.umass.edu/download.php).
 2.  You will also need the [Java developer's kit][] – that is, not the
     regular Java that's on every computer, but the one that lets you
     program things. Install this on your computer.
@@ -236,7 +236,7 @@ You are now ready to skip ahead to the next section.
 Many of the instructions for OS X installation are similar to Windows,
 with a few differences. In fact, it is a bit easier.
 
-1.  Download and [install MALLET](https://mallet.cs.umass.edu/download.php).
+1.  Download and [install MALLET](http://mallet.cs.umass.edu/download.php).
 2.  Download the [Java Development Kit][Java developer's kit].
 
 Unzip MALLET into a directory on your system (for ease of following
@@ -373,7 +373,7 @@ bin\mallet import-dir --input sample-data\web\de --output tutorial.mallet --keep
 
 And then finally, you could use your own data. Change `sample-data\web\de` to a directory that contains your own research files. Good luck!
 
-If you are unsure how directories work, we suggest the *Programming Historian* lesson ["Introduction to the Bash Command Line"](/en/lessons/intro-to-bash).
+If you are unsure how directories work, we suggest the *Programming Historian* lesson ["Introduction to the Bash Command Line"](/lessons/intro-to-bash).
 
 ### For Mac
 
@@ -599,30 +599,30 @@ report.
     'Methods' section is especially important, in that it discusses
     preparing text for this sort of analysis.
 
-- [Bash Command Line](/en/lessons/intro-to-bash)
-- [discussion list](https://mallet.cs.umass.edu/mailinglist.php)
-- [Distant Reading](https://www.cs.umbc.edu/~hillol/NGDM07/abstracts/talks/MKirschenbaum.pdf)
-- [Reading Machines](https://www.worldcat.org/title/reading-machines-toward-an-algorithmic-criticism/oclc/708761605&referer=brief_results)
-- [Voyant Tools](https://voyant-tools.org)
-- [dangers](https://web.archive.org/web/20240602215348/https://www.scottbot.net/HIAL/index.html@p=16713.html)
-- [zombies using Google Trends](https://arxiv.org/abs/1003.6087/)
-- [David Blei and friends](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation)
-- [Mining the Dispatch](https://dsl.richmond.edu/dispatch/)
-- [Topic Modeling Martha Ballard's Diary](https://perma.cc/39CG-MNLH)
-- [MALLET](https://mallet.cs.umass.edu/index.php)
-- [*Gibbs sampling*](https://en.wikipedia.org/wiki/Gibbs_sampling)
-- [`download MALLET`](https://mallet.cs.umass.edu/download.php)
-- [Java developer's kit](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
-- [automate this process](https://electricarchaeology.ca/2012/07/09/mining-a-day-of-archaeology/)
-- [Mining the Open Web with Looted Heritage Draft](https://electricarchaeology.ca/2012/06/08/mining-the-open-web-with-looted-heritage-draft/)
-- [Figshare.com](https://ndownloader.figshare.com/files/90972)
-- [Guided Tour to Topic Modeling](https://web.archive.org/web/20240520155820/https://www.scottbot.net/HIAL/index.html@p=19113.html)
-- [Topic modeling made just simple enough](https://tedunderwood.wordpress.com/2012/04/07/topic-modeling-made-just-simple-enough/)
-- [Some Assembly Required](https://web.archive.org/web/20160704150726/https://www.lisarhody.com:80/some-assembly-required/)
-- [Topic Modeling in the Humanities: An Overview | Maryland Institute for Technology in the Humanities](https://web.archive.org/web/20130116223500/https://mith.umd.edu/topic-modeling-in-the-humanities-an-overview/)
-- [Latent dirichlet allocation](https://dl.acm.org/citation.cfm?id=944937)
-- [bibliography of topic modeling articles](https://mimno.infosci.cornell.edu/topics.html)
-- [Computational Historiography](https://www.perseus.tufts.edu/publications/02-jocch-mimno.pdf)
-- [Windows](/en/lessons/windows-installation)
-- [Mac](/en/lessons/mac-installation)
-- [Linux](/en/lessons/linux-installation)
+  [Bash Command Line]: /lessons/intro-to-bash
+  [discussion list]: http://mallet.cs.umass.edu/mailinglist.php
+  [Distant Reading]: http://www.cs.umbc.edu/~hillol/NGDM07/abstracts/talks/MKirschenbaum.pdf
+  [Reading Machines]: http://www.worldcat.org/title/reading-machines-toward-an-algorithmic-criticism/oclc/708761605&referer=brief_results
+  [Voyant Tools]: http://voyant-tools.org
+  [dangers]: https://web.archive.org/web/20240602215348/https://www.scottbot.net/HIAL/index.html@p=16713.html
+  [zombies using Google Trends]: http://arxiv.org/abs/1003.6087/
+  [David Blei and friends]: http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation
+  [Mining the Dispatch]: http://dsl.richmond.edu/dispatch/
+  [Topic Modeling Martha Ballard's Diary]: https://perma.cc/39CG-MNLH
+  [MALLET]: http://mallet.cs.umass.edu/index.php
+  [*Gibbs sampling*]: http://en.wikipedia.org/wiki/Gibbs_sampling
+  [`download MALLET`]: http://mallet.cs.umass.edu/download.php
+  [Java developer's kit]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+  [automate this process]: http://electricarchaeology.ca/2012/07/09/mining-a-day-of-archaeology/
+  [Mining the Open Web with Looted Heritage Draft]: http://electricarchaeology.ca/2012/06/08/mining-the-open-web-with-looted-heritage-draft/
+  [Figshare.com]: https://ndownloader.figshare.com/files/90972
+  [Guided Tour to Topic Modeling]: https://web.archive.org/web/20240520155820/https://www.scottbot.net/HIAL/index.html@p=19113.html
+  [Topic modeling made just simple enough]: http://tedunderwood.wordpress.com/2012/04/07/topic-modeling-made-just-simple-enough/
+  [Some Assembly Required]: http://web.archive.org/web/20160704150726/http://www.lisarhody.com:80/some-assembly-required/
+  [Topic Modeling in the Humanities: An Overview | Maryland Institute for Technology in the Humanities]: https://web.archive.org/web/20130116223500/http://mith.umd.edu/topic-modeling-in-the-humanities-an-overview/
+  [Latent dirichlet allocation]: http://dl.acm.org/citation.cfm?id=944937
+  [bibliography of topic modeling articles]: http://mimno.infosci.cornell.edu/topics.html
+  [Computational Historiography]: http://www.perseus.tufts.edu/publications/02-jocch-mimno.pdf
+  [Windows]: /lessons/windows-installation
+  [Mac]: /lessons/mac-installation
+  [Linux]: /lessons/linux-installation

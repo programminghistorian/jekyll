@@ -142,7 +142,7 @@ Neste ponto, a instalação do wget já deve estar concluída satisfatoriamente 
 
 Se, por alguma razão, não conseguir instalar o pacote de gerenciamento, poderá simplesmente fazer o download do wget em separado. Esta opção é aplicável se utiliza um pacote de gerenciamento diferente (tal como Mac Ports) ou se deseja manter a infraestrutura num padrão mínimo. Siga as mesmas instruções novamente para instalar o xcode e o conjunto de ferramentas de linha de comando (Command Line Tools).
 
-A seguir, faça o download de uma versão não compilada do wget no [website do GNU](https://www.gnu.org/software/wget/) (Eu escolhi fazer o dowload do ficheiro `wget-1.13.tar.gz`, disponível tanto no link [HTTP](https://ftp.gnu.org/gnu/wget/) como na página de downloads do [FTP](ftp://ftp.gnu.org/gnu/wget/), descompacte-o (clicando duas vezes sobre o ficheiro) no seu diretório 'home' (em um Mac, este será o `/User` directory – por exemplo, meu nome de usuário é ianmilligan e aparece próximo ao ícone de uma casa no meu localizador), e depois abra o Terminal. Para este tutorial, a versão do download é o `wget-1.13`.
+A seguir, faça o download de uma versão não compilada do wget no [website do GNU](http://www.gnu.org/software/wget/) (Eu escolhi fazer o dowload do ficheiro `wget-1.13.tar.gz`, disponível tanto no link [HTTP](http://ftp.gnu.org/gnu/wget/) como na página de downloads do [FTP](ftp://ftp.gnu.org/gnu/wget/), descompacte-o (clicando duas vezes sobre o ficheiro) no seu diretório 'home' (em um Mac, este será o `/User` directory – por exemplo, meu nome de usuário é ianmilligan e aparece próximo ao ícone de uma casa no meu localizador), e depois abra o Terminal. Para este tutorial, a versão do download é o `wget-1.13`.
 
 Primeiramente, é preciso se direcionar para o diretório onde se encontram os ficheiros wget.
 No terminal, digite:
@@ -188,7 +188,7 @@ De agora em diante, os usuários de todas as três plataformas estão em sintoni
 
 A documentação completa para wget pode ser encontrada na página [manual GNU wget](https://perma.cc/67JQ-TSB5).
 
-Tome-se um exemplo de conjunto de dados. Digamos que queira fazer o download de todos os artigos hospedados no website [ActiveHistory.ca](https://perma.cc/KK9H-4XKL). Eles estão localizados em [https://activehistory.ca/papers/](https://perma.cc/CL79-ZN93); o que indica que eles estão todos contidos no diretório `/papers/`: por exemplo, o nono artigo publicado no website é o [https://activehistory.ca/papers/historypaper-9/](https://perma.cc/KF6E-8XZM). Pense nesta estrutura da mesma maneira que os diretórios do seu computador: se tiver uma pasta intitulada `/História/`, ela provavelmente conterá vários ficheiros.
+Tome-se um exemplo de conjunto de dados. Digamos que queira fazer o download de todos os artigos hospedados no website [ActiveHistory.ca](https://perma.cc/KK9H-4XKL). Eles estão localizados em [http://activehistory.ca/papers/](https://perma.cc/CL79-ZN93); o que indica que eles estão todos contidos no diretório `/papers/`: por exemplo, o nono artigo publicado no website é o [http://activehistory.ca/papers/historypaper-9/](https://perma.cc/KF6E-8XZM). Pense nesta estrutura da mesma maneira que os diretórios do seu computador: se tiver uma pasta intitulada `/História/`, ela provavelmente conterá vários ficheiros.
 
 A mesma estrutura é válida para websites, e é utilizada esta lógica para informar ao computador quais ficheiros deseja-se fazer download. 
 
@@ -226,7 +226,7 @@ index.html              [ <=>                ]  65,60K  --.-KB/s    em 0,04s
 2023-08-08 15:58:54 (1,83 MB/s) - ‘index.html’ salvo [67178]
 ```
 
-O que fez foi apenas o download da primeira página do [https://activehistory.ca/papers/](https://perma.cc/CL79-ZN93), a página de index dos artigos, para seu novo diretório. Se abri-la, verá o texto principal da página principal (homepage) do ActiveHistory.ca. Então, num piscar de olhos, já fizemos o download de algo rapidamente. 
+O que fez foi apenas o download da primeira página do [http://activehistory.ca/papers/](https://perma.cc/CL79-ZN93), a página de index dos artigos, para seu novo diretório. Se abri-la, verá o texto principal da página principal (homepage) do ActiveHistory.ca. Então, num piscar de olhos, já fizemos o download de algo rapidamente. 
 
 No entanto, o objetivo é fazer o download de todos os artigos. Para isto é preciso incluir alguns poucos comandos no wget. 
 
@@ -240,7 +240,7 @@ No exemplo anterior, o componente [URL] informa ao programa para onde ele deve i
 
     -r
 
-A recuperação recursiva é a parte mais importante do wget. Isto significa que o programa, ao iniciar, segue os links do website e também faz o download dos mesmos. Desta forma, por exemplo, o [https://activehistory.ca/papers/](https://perma.cc/CL79-ZN93) possui um link para o [https://activehistory.ca/papers/historypaper-9/](https://perma.cc/KF6E-8XZM), assim, ele fará o download deste também, ao utilizar a recuperação recursiva. Contudo, ele também seguirá quaisquer outros links: se houver um link para [https://uwo.ca](https://perma.cc/W7LH-SRTQ) em algum local daquela página, ele o seguirá e também fará o download. Por padrão, `-r` direciona o wget a até cinco websites após o primeiro. Isto consiste em seguir links até um limite de cinco cliques após o primeiro website. Desta maneira, funcionará de maneira bastante indiscriminada. Então precisamos de mais comandos: 
+A recuperação recursiva é a parte mais importante do wget. Isto significa que o programa, ao iniciar, segue os links do website e também faz o download dos mesmos. Desta forma, por exemplo, o [http://activehistory.ca/papers/](https://perma.cc/CL79-ZN93) possui um link para o [http://activehistory.ca/papers/historypaper-9/](https://perma.cc/KF6E-8XZM), assim, ele fará o download deste também, ao utilizar a recuperação recursiva. Contudo, ele também seguirá quaisquer outros links: se houver um link para [http://uwo.ca](https://perma.cc/W7LH-SRTQ) em algum local daquela página, ele o seguirá e também fará o download. Por padrão, `-r` direciona o wget a até cinco websites após o primeiro. Isto consiste em seguir links até um limite de cinco cliques após o primeiro website. Desta maneira, funcionará de maneira bastante indiscriminada. Então precisamos de mais comandos: 
 
 ``` bash
 --no-parent
@@ -248,7 +248,7 @@ A recuperação recursiva é a parte mais importante do wget. Isto significa que
 
 (O travessão duplo indica o texto completo de um comando. Todos os comandos também possuem uma versão abreviada que pode se iniciar com a utilização de `-np`). 
 
-Isto é importante. Significa que o wget deve seguir os links, mas não além do último diretório pai. No caso, implica dizer que ele não avançará a lugar nenhum que não seja parte da hierarquia do [https://activehistory.ca/papers/](https://perma.cc/CL79-ZN93). Se o endereço web for muito longo como `http://niche-canada.org/projects/events/new-events/not-yet-happened-events/`, ele encontra ficheiros apenas na pasta `/not-yet-happened-events/`. Este é um comando essencial para delinear sua pesquisa. 
+Isto é importante. Significa que o wget deve seguir os links, mas não além do último diretório pai. No caso, implica dizer que ele não avançará a lugar nenhum que não seja parte da hierarquia do [http://activehistory.ca/papers/](https://perma.cc/CL79-ZN93). Se o endereço web for muito longo como `http://niche-canada.org/projects/events/new-events/not-yet-happened-events/`, ele encontra ficheiros apenas na pasta `/not-yet-happened-events/`. Este é um comando essencial para delinear sua pesquisa. 
 
 Aqui está uma representação gráfica:
 

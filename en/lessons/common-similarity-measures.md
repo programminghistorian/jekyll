@@ -245,7 +245,7 @@ vectorizer = CountVectorizer(input="filename", max_features=1000, max_df=0.7)
 wordcounts = vectorizer.fit_transform(filenames).toarray()
 ```
 
-And that's it! You've now counted every word in all 142 texts in the test corpus. To interpret the results, you'll also need to open the metadata file as a [Pandas DataFrame](https://pandas.pydata.org/docs/reference/frame.html). Add the following to the next line of your file:
+And that's it! You've now counted every word in all 142 texts in the test corpus. To interpret the results, you'll also need to open the metadata file as a [Pandas DataFrame](https://pandas.pydata.org/docs/getting_started/dsintro.html#dataframe). Add the following to the next line of your file:
 
 ```py
 metadata = pd.read_csv("1666_metadata.csv", index_col="TCP ID")

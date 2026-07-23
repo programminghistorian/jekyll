@@ -2,9 +2,9 @@
 layout: blank
 title: Individual Supporters
 redirect_from:
-- /individual/
-- /en/support-us/
-- /support-us/
+- individual
+- /en/support-us
+- support-us
 ---
 
 # Individual Supporters
@@ -19,7 +19,7 @@ Your support directly enables the infrastructure that keeps our publications tog
 
 <div class="alert alert-info">
 <div class="float-left">
-	<svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-credit-card" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
+	<svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-credit-card" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
   <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
 </svg>
@@ -37,4 +37,4 @@ One-time donations can be made to the Programming Historian via [Paypal](https:/
 
 # Organisational Support
 
-If you work for an organisation that would be interested in contributing to *Programming Historian's* success, please direct them to our [Institutional Partnership Programme](/en/ipp), which provides crucial support to our work.
+If you work for an organisation that would be interested in contributing to *Programming Historian's* success, please direct them to our [Institutional Partnership Programme](ipp), which provides crucial support to our work.

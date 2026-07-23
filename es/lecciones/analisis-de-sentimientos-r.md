@@ -49,11 +49,11 @@ El paquete `syuzhet` trabaja con cuatro diccionarios de sentimientos: Bing, Afin
 
 Sus términos de uso indican que el vocabulario puede ser utilizado de forma gratuita con propósitos de investigación, por lo que todos los datos están disponible para su descarga.
 
-Si sabes inglés, puedes interactuar con las diferentes categorías en su página web [NRC Word-Emotion Association Lexicon](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm). En ella también puedes encontrar trabajos publicados sobre la obtención de los valores para el vocabulario, su organización, ampliación, etc.
+Si sabes inglés, puedes interactuar con las diferentes categorías en su página web [NRC Word-Emotion Association Lexicon](http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm). En ella también puedes encontrar trabajos publicados sobre la obtención de los valores para el vocabulario, su organización, ampliación, etc.
 
 ## Paquete `syuzhet`
 
-El [paquete de R `syuzhet`](https://cran.r-project.org/web/packages/syuzhet/vignettes/syuzhet-vignette.html) fue desarrollado en 2015 por Matthew Jockers; continuamente introduce cambios y se encarga de mantenerlo (al momento de preparar esta lección se usó la versión de diciembre 2017). Una serie de entradas de blog acompañan el desarrollo del paquete, y pueden consultarse (en inglés) en el blog del profesor desde el [5 de junio de 2014.](https://www.matthewjockers.net/page/2/)
+El [paquete de R `syuzhet`](https://cran.r-project.org/web/packages/syuzhet/vignettes/syuzhet-vignette.html) fue desarrollado en 2015 por Matthew Jockers; continuamente introduce cambios y se encarga de mantenerlo (al momento de preparar esta lección se usó la versión de diciembre 2017). Una serie de entradas de blog acompañan el desarrollo del paquete, y pueden consultarse (en inglés) en el blog del profesor desde el [5 de junio de 2014.](http://www.matthewjockers.net/page/2/)
 
 Por descontado, el paquete ha sido desarrollado con pruebas en textos escritos o traducidos al inglés y no sin debate sobre su utilidad, por asignar valores a textos literarios que suelen ser, por naturaleza, bastante subjetivos.  
 

@@ -19,7 +19,7 @@ abstract: This lesson is the first of a two-part lesson focusing on an indispens
 mathjax: true
 avatar_alt: a washburn grinder
 doi: 10.46430/phen0099
-next: /en/lessons/logistic-regression
+next: logistic-regression
 series_total: 2 lessons
 sequence: 1
 slug: linear-regression
@@ -75,7 +75,7 @@ The central goals of these two lessons are:
 ## Before You Begin
 
 - Install the Python 3 version of Anaconda. Installing Anaconda is covered in [Text Mining in Python through the HTRC Feature Reader](/en/lessons/text-mining-with-extracted-features). This will install Python 3.7.3 (or higher), the [Scikit-Learn library](https://scikit-learn.org/stable/install.html), [the Pandas library](https://pandas.pydata.org/docs/), the [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) libraries used to generate visualizations, and all the dependencies needed to run a [Jupyter Notebook](https://jupyter.org/).
-- It is possible to install all these dependencies without Anaconda (or with a lightweight alternative like [Miniconda](https://docs.conda.io/en/latest/miniconda.html)). For more information, see part two's section titled [Alternatives to Anaconda](/en/lessons/logistic-regression#alternatives-to-anaconda).
+- It is possible to install all these dependencies without Anaconda (or with a lightweight alternative like [Miniconda](https://docs.conda.io/en/latest/miniconda.html)). For more information, see the section below titled [Alternatives to Anaconda](#alternatives-to-anaconda)
 
 ## Lesson Dataset
 
@@ -699,7 +699,7 @@ Now move on to [Logistic Regression analysis with scikit-learn](/en/lessons/logi
 
 [^9]: Ibid.
 
-[^10]: The University of Texas at Austin. _Statistics Online Support: Variable Types_, [https://sites.utexas.edu/sos/variables/](https://perma.cc/GN36-BCPD).
+[^10]: The University of Texas at Austin. _Statistics Online Support: Variable Types_, [http://sites.utexas.edu/sos/variables/](https://perma.cc/GN36-BCPD).
 
 [^11]: Jarausch, Konrad H., and Kenneth A. Hardy. _Quantitative Methods for Historians: A Guide to Research, Data, and Statistics_. 1991. UNC Press Books, 2016: 122.
 

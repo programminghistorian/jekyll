@@ -560,7 +560,7 @@ Há também uma série de outros tutoriais de R online, inclusive:
 
 * [DataCamp Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) - este é um curso online gratuito que lhe dá feedback sobre seu código para ajudar a identificar erros e aprender como escrever código de forma mais eficiente.
 
-Finalmente, um grande recurso para historiadores digitais é o [Lincoln Mullen’s Digital History Methods in R](https://dh-r.lincolnmullen.com/). É um rascunho de um livro escrito especificamente sobre como usar R para o trabalho de história digital.
+Finalmente, um grande recurso para historiadores digitais é o [Lincoln Mullen’s Digital History Methods in R](http://dh-r.lincolnmullen.com/). É um rascunho de um livro escrito especificamente sobre como usar R para o trabalho de história digital.
 
 ## Notas
 

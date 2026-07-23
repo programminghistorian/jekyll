@@ -32,7 +32,7 @@ Todas as nossas lições também devem ser escritas em Markdown e seguir as noss
 ## Submeter uma lição traduzida
 Depois do ficheiro de tradução ter as especificações acima mencionadas, estará pronto a ser enviado para revisão por pares.
 
-Temos uma página do [_Programming Historian em português_ no GitHub](https://github.com/programminghistorian), onde mantemos dois repositórios (um repositório é um local para armazenar ficheiros e pastas relacionados, ou seja, um tipo de pasta). Um deles, chamado [jekyll](https://github.com/programminghistorian/jekyll), hospeda o código da versão online do site disponível em https://programminghistorian.org. O outro repositório é chamado [ph-submissions](https://github.com/programminghistorian/ph-submissions).
+Temos uma página do [_Programming Historian em português_ no GitHub](https://github.com/programminghistorian), onde mantemos dois repositórios (um repositório é um local para armazenar ficheiros e pastas relacionados, ou seja, um tipo de pasta). Um deles, chamado [jekyll](https://github.com/programminghistorian/jekyll), hospeda o código da versão online do site disponível em http://programminghistorian.org. O outro repositório é chamado [ph-submissions](https://github.com/programminghistorian/ph-submissions).
 
 A melhor maneira para enviar uma tradução é adicioná-la diretamente ao repositório [ph-submissions](https://github.com/programminghistorian/ph-submissions). Graças aos recursos do GitHub, pode fazer isso usando ações de arrastar e soltar, com as quais provavelmente já está familiarizado. Para os novos tradutores, estas são as etapas:
 
@@ -55,7 +55,7 @@ A etapa seguinte mais importante é que seu editor crie um ticket para a nova tr
 ### Aguardar comentários do revisor
 O nosso objetivo é concluir o processo de revisão dentro de quatro semanas, mas às vezes ocorrem atrasos ou as pessoas ficam ocupadas, pelo que o processo pode demorar mais do que esperávamos.
 
-Seguindo os ideais da investigação académica pública e de revisão aberta por pares, incentivamos as discussões a permanecer no GitHub, para serem abertas a todos. No entanto, também queremos que todos se sintam confortáveis com o processo. Se precisar de discutir algo em particular, não hesite em enviar um [e-mail diretamente ao seu editor](/pt/equipe) ou entre em [contato com o nosso mediador independente](/pt/equipe).
+Seguindo os ideais da investigação académica pública e de revisão aberta por pares, incentivamos as discussões a permanecer no GitHub, para serem abertas a todos. No entanto, também queremos que todos se sintam confortáveis com o processo. Se precisar de discutir algo em particular, não hesite em enviar um [e-mail diretamente ao seu editor](/pt/equipe#programming-historian-em-português) ou entre em [contato com o nosso mediador independente](/pt/equipe#programming-historian-em-português).
 
 ### Responder aos comentários
 YO editor e os revisores provavelmente farão algumas sugestões de melhoria no ticket da sua tradução. O editor deve esclarecer quais sugestões são essenciais, quais são opcionais e quais podem ser deixadas de lado.

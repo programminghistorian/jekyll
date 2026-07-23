@@ -19,8 +19,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/40
 layout: lesson
-next: /es/lecciones/reutilizacion-de-codigo-y-modularidad
-previous: /es/lecciones/ver-archivos-html
+next: reutilizacion-de-codigo-y-modularidad
+previous: ver-archivos-html
 original: working-with-text-files
 python_warning: false
 difficulty: 2
@@ -179,4 +179,4 @@ Lecturas recomendadas
 [print]: https://docs.python.org/2/reference/simple_stmts.html#the-print-statement
 [palabra reservada]: https://docs.python.org/release/2.5.4/ref/keywords.html
 [file objects]: https://docs.python.org/2/library/stdtypes.html#bltin-file-objects
-[Non-Programmer’s Tutorial for Python 2.6/Hello, World]: https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_2.6/Hello,_World
+[Non-Programmer’s Tutorial for Python 2.6/Hello, World]: http://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_2.6/Hello,_World

@@ -67,7 +67,7 @@ JOHN R. LADD, JESSICA OTIS, CHRISTOPHER N. WARREN & SCOTT WEINGART, traduite par
 ## New Supporters
 
 Huge thanks to our generous new [Patreon](https://www.patreon.com/theprogramminghistorian) subscribers who have individually invested in our success: **James Baker** (Patron), **Cory Taylor** (Patron), and **Samuel Salgado Tello** (Educator).    
-Join our Patreon community: <https://tinyurl.com/PH-patreon>
+Join our Patreon community: <http://tinyurl.com/PH-patreon>
 
 We're also very grateful to all those who have renewed their membership to our Institutional Partner Programme this quarter: the **School of Advanced Study**, **C2DH**, **University of Florida**, **Bristol University Library**, **Western University Library**, **Universidad de los Andes**, **Princeton University**, **Cambridge Digital Humanities**, and **University of Sussex Library** (Gold Tier).
 

@@ -78,7 +78,7 @@ No estado da arte existe uma grande variedade de arquiteturas e abordagens utili
 {% include figure.html filename="pt-tr-transcricao-automatica-grafias-nao-latinas-01.png" alt="Esquema das etapas clássicas para o treinamento de um modelo OCR (da anotação dos dados à aplicação do modelo)" caption="Figura 1: Detalhe das etapas clássicas para treinamento de um modelo OCR ou HTR." %}
 
 <div class="alert alert-info"> 
-Na prática, o reconhecimento de caracteres consiste apenas num problema simples de classificação em visão computacional. Qualquer que seja a etapa (deteção de conteúdos e reconhecimento do texto propriamente dito), os modelos terão de classificar as informações encontradas e reparti-las por classes conhecidas (por exemplo, considerar uma zona do texto como título ou uma outra forma de transcrever a letra A). Esta abordagem, completamente supervisionada, está muito dependente das escolhas e das necessidades identificadas, e que abordamos na secção <a href="#definição-de-necessidades">Definição de necessidades</a>.
+Na prática, o reconhecimento de caracteres consiste apenas num problema simples de classificação em visão computacional. Qualquer que seja a etapa (deteção de conteúdos e reconhecimento do texto propriamente dito), os modelos terão de classificar as informações encontradas e reparti-las por classes conhecidas (por exemplo, considerar uma zona do texto como título ou uma outra forma de transcrever a letra A). Esta abordagem, completamente supervisionada, está muito dependente das escolhas e das necessidades identificadas, e que abordamos na secção <a href="#definicao-de-necessidades">Definição de necessidades</a>.
 </div>
 
 ## O caso das línguas e grafias não latinas
@@ -443,7 +443,7 @@ Justifica-se uma abordagem por "baselines" (a encarnado na figura 10 encontra-se
 
 ```xml
 <?xml version="1.0" ?>
-<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
   <Metadata>
     <Creator>Calfa</Creator>
     <Created>2022-08-23T14:48:18+00:00</Created>
@@ -763,7 +763,7 @@ Os dados gerados neste artigo e no âmbito do projeto CGPG estão disponíveis n
 
 ## Notas de fim
 
-[^1]: Os volumes da PG estão disponíveis em formato PDF, por exemplo, nos links [https://patristica.net/graeca](https://patristica.net/graeca) e [https://www.roger-pearse.com/weblog/patrologia-graeca-pg-pdfs](https://www.roger-pearse.com/weblog/patrologia-graeca-pg-pdfs) (em inglês). Mas apenas parte da PG está codificada em formato de "texto", por exemplo, no corpus do [Thesaurus Linguae Graecae](https://stephanus.tlg.uci.edu) (em inglês).
+[^1]: Os volumes da PG estão disponíveis em formato PDF, por exemplo, nos links [http://patristica.net/graeca](http://patristica.net/graeca) e [https://www.roger-pearse.com/weblog/patrologia-graeca-pg-pdfs](https://www.roger-pearse.com/weblog/patrologia-graeca-pg-pdfs) (em inglês). Mas apenas parte da PG está codificada em formato de "texto", por exemplo, no corpus do [Thesaurus Linguae Graecae](http://stephanus.tlg.uci.edu) (em inglês).
 
 [^2]: A associação Calfa (Paris, França) e o projeto GRE*g*ORI (Université Catholique de Louvain, Louvain-la-Neuve, Bélgica) desenvolvem conjuntamente sistemas de reconhecimento de caracteres e sistemas de análise automática de textos: lematização, rotulagem morfossintática, POS_tagging). Esses desenvolvimentos já foram adaptados, testados e utilizados para processar textos em arménio, em georgiano e em sírio. O projeto CGPG continua esses desenvolvimentos no domínio do grego, propondo um processamento completo (OCR e análise) de textos editados da PG. Para os exemplos de processamento morfossintático do grego antigo realizado em conjunto: Kindt, Bastien, Chahan Vidal-Gorène, Saulo Delle Donne. "Analyse automatique du grec ancien par réseau de neurones. Évaluation sur le corpus De Thessalonica Capta". *BABELAO*, 10-11 (2022), 525-550. [https://doi.org/10.14428/babelao.vol1011.2022.65073](https://doi.org/10.14428/babelao.vol1011.2022.65073) (em francês).
 
@@ -841,7 +841,7 @@ Os dados gerados neste artigo e no âmbito do projeto CGPG estão disponíveis n
 
 [^38]: *Ibid.* 
 
-[^39]: Bastien Kindt e Vidal-Gorène Chahan, "From Manuscript to Tagged Corpora. An Automated Process for Ancient Armenian or Other Under-Resourced Languages of the Christian East". *Armeniaca. International Journal of Armenian Studies* 1, 73-96, 2022. [https://doi.org/10.30687/arm/9372-8175/2022/01/005]( https://doi.org/10.30687/arm/9372-8175/2022/01/005) (em inglês).
+[^39]: Bastien Kindt e Vidal-Gorène Chahan, "From Manuscript to Tagged Corpora. An Automated Process for Ancient Armenian or Other Under-Resourced Languages of the Christian East". *Armeniaca. International Journal of Armenian Studies* 1, 73-96, 2022. [http://doi.org/10.30687/arm/9372-8175/2022/01/005]( http://doi.org/10.30687/arm/9372-8175/2022/01/005) (em inglês).
 
 [^40]: Vidal-Gorène, Lucas, Salah, Decours-Perez, e Dupin. "RASAM–A Dataset for the Recognition and Analysis of Scripts in Arabic Maghrebi", 265-281. 
 

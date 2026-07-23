@@ -38,13 +38,13 @@ Il nous arrive de temps en temps de faire des appels pour recruter des membres p
 
 Si vous parlez couramment plus d'une des langues dans lesquelles le _Programming Historian_ paraît (français, anglais, espagnol, portugais), nous vous invitons à prendre contact avec nous pour traduire une des leçons publiées d'une langue à une autre. Cela nous aidera à être partie prenante dans les communautés des humanités numériques hispanophone et francophone et vous permettra de renforcer vos compétences linguistiques, méthodologiques et techniques.
 
-Nous recherchons des traductions rigoureuses et lisibles qui tiennent compte des contextes de recherche hispanophone, francophone et lusophone, et des ressources disponibles dans nos communautés respectives. Si cela vous intéresse de collaborer avec nous, merci de consulter nos [consignes aux auteur(e)s et traducteurs/traductrices](/fr/consignes-auteurs).
+Nous recherchons des traductions rigoureuses et lisibles qui tiennent compte des contextes de recherche hispanophone, francophone et lusophone, et des ressources disponibles dans nos communautés respectives. Si cela vous intéresse de collaborer avec nous, merci de consulter nos [consignes aux auteur(e)s et traducteurs/traductrices](/fr/consignes-auteurs.html).
 
 ## Faire un retour ou signaler un problème
 
 <img src="{{site.baseurl}}/images/website/contribute/robed-man-reading.png" class="garnish rounded float-right" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
 
-Nous vous invitons à nous faire des [retours d'expérience](/fr/reaction) sur tout aspect du _Programming Historian en français_. D'avance merci de nous aider à améliorer le projet.
+Nous vous invitons à nous faire des [retours d'expérience](/fr/reaction.html) sur tout aspect du _Programming Historian en français_. D'avance merci de nous aider à améliorer le projet.
 
 Nous apprécions tout particulièrement les informations reçues sur les liens cassés. Au fur et à mesure que les URLs changent et que les versions des logiciels et des plateformes évoluent, les leçons peuvent présenter des défaillances. Merci de nous aider à garder le _Programming Historian en français_ à jour en nous tenant au courant de tout problème rencontré pendant vos lectures.
 
@@ -56,9 +56,9 @@ Nous apprécions tout particulièrement les informations reçues sur les liens c
 
 Ce projet est notre démonstration de ce que l'édition scientifique en accès libre peut et doit être. Merci de nous aider à disséminer le message  et à fournir le plus large accès possible à cette ressource en demandant à votre bibliothèque d'enregister le projet dans son catalogue.
 
-Le _Programming Historian_ a sa notice dans WorldCat [en français](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842), [en anglais](https://www.worldcat.org/title/programming-historian/oclc/951537099), [en espagnol](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results) et [en portugais](https://search.worldcat.org/title/1332987197).
+Le _Programming Historian_ a sa notice dans WorldCat [en français](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842), [en anglais](http://www.worldcat.org/title/programming-historian/oclc/951537099), [en espagnol](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results) et [en portugais](https://search.worldcat.org/title/1332987197).
 
-Toute notre gratitude à la [bibliothèque de l'Université de Purdue](https://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink), à Amanda Visconti, et à la [bibliothèque de l'Université de Virginia]).
+Toute notre gratitude à la [bibliothèque de l'Université de Purdue](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink), à Amanda Visconti, et à la [bibliothèque de l'Université de Virginia]).
 
 L'édition anglais est aussi indexé dans le [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
 

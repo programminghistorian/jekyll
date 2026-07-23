@@ -20,8 +20,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/51
 layout: lesson
-previous: /es/lecciones/palabras-clave-en-contexto-n-grams
-next: /es/lecciones/descarga-multiples-registros-usando-cadenas-de-consulta
+previous: palabras-clave-en-contexto-n-grams
+next: descarga-multiples-registros-usando-cadenas-de-consulta
 original: output-keywords-in-context-in-html-file
 python_warning: false
 difficulty: 2
@@ -265,9 +265,9 @@ Esta lección marca el final de la serie de lecciones originales sobre Python. E
 
 -   python-es-lecciones9.zip [zip sync][]
 
-*Nota:* Ahora puedes ir a la siguiente lección (en inglés) para aprender a [Descargar registros múltiples](/en/lessons/downloading-multiple-records-using-query-strings)
+*Nota:* Ahora puedes ir a la siguiente lección (en inglés) para aprender a [Descargar registros múltiples](/lessons/downloading-multiple-records-using-query-strings)
 
-- [Palabras clave en contexto (usando n-grams)](/es/lecciones/palabras-clave-en-contexto-n-grams)
-- [archivo zip de las lecciones anteriores](/assets/python-es-lecciones8.zip)
-- [Salida de datos como archivo HTML](/es/lecciones/salida-de-datos-como-archivo-html)
-- [zip sync](/assets/python-es-lecciones9.zip)
+[Palabras clave en contexto (usando n-grams)]: /es/lecciones/palabras-clave-en-contexto-n-grams
+[archivo zip de las lecciones anteriores]: /assets/python-es-lecciones8.zip
+[Salida de datos como archivo HTML]: /es/lecciones/salida-de-datos-como-archivo-html
+[zip sync]: /assets/python-es-lecciones9.zip

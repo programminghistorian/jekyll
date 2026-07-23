@@ -241,7 +241,7 @@ Enfoncer la touche tabulation (<i>TAB</i>) à n'importe quel moment dans le shel
 Sous Windows, les extensions de fichier sont invisibles par défaut. Si vous souhaitez manipuler des fichiers sous Windows, nous vous recommandons d'activer l'affichage des extensions de fichier. Pour faire cela, ouvrez votre explorateur de fichiers et sous **Affichage**, dans le groupe **Afficher/masquer**, cochez la case **Extensions de nom de fichier**.
 Pour plus d'informations, vous pouvez vous référer à [cet article](https://perma.cc/5ZWL-XRFF) du support Windows.
 
-Nous avons désormais besoin d'un fichier texte pour nos futures commandes. Nous pouvons utiliser un livre réputé pour être long, l'épique *Guerre et Paix* de Léon Tolstoï. Le fichier est disponible, en anglais, grâce au [Projet Gutenberg](https://www.gutenberg.org/ebooks/2600). Si vous avez déjà installé [wget](/en/lessons/applied-archival-downloading-with-wget), vous pouvez simplement taper&nbsp;:
+Nous avons désormais besoin d'un fichier texte pour nos futures commandes. Nous pouvons utiliser un livre réputé pour être long, l'épique *Guerre et Paix* de Léon Tolstoï. Le fichier est disponible, en anglais, grâce au [Projet Gutenberg](http://www.gutenberg.org/ebooks/2600). Si vous avez déjà installé [wget](/en/lessons/applied-archival-downloading-with-wget), vous pouvez simplement taper&nbsp;:
 
 ```bash
 wget http://www.gutenberg.org/files/2600/2600-0.txt

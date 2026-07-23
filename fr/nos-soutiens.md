@@ -1,7 +1,7 @@
 ---
 layout: blank
 title: Nos Soutiens
-redirect_from: /nos-soutiens/
+redirect_from: /nos-soutiens
 original: supporters
 ---
 
@@ -18,7 +18,7 @@ _Programming Historian_ est reconnaissant envers ses contributeurs passés et ac
 - [Jisc](https://www.jisc.ac.uk/), Royaume-Uni  
 
 ## Partenariat institutionnel
-Les institutions suivantes font partie de notre programme de [Partenariat institutionnel](/fr/pi)&nbsp;:
+Les institutions suivantes font partie de notre programme de [Partenariat institutionnel](pi)&nbsp;:
 
 - [Bibliothèques de la KU Leuven](https://bib.kuleuven.be/), Belgique
 - [Western University Library](https://www.lib.uwo.ca/), Canada
@@ -29,7 +29,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Royaume-Uni
 - [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Allemagne
 - [MIT Libraries](https://libraries.mit.edu/), États-Unis
-- [Center for Digital Research in the Humanities, University of Nebraska-Lincoln](https://cdrh.unl.edu/), États-Unis
+- [Center for Digital Research in the Humanities, University of Nebraska-Lincoln](http://cdrh.unl.edu/), États-Unis
 - [The National Archives](https://www.nationalarchives.gov.uk/), Royaume-Uni
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), États-Unis
 - [University of Bristol Library](https://www.bristol.ac.uk/library/), Royaume-Uni
@@ -51,10 +51,10 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Zentralbibliothek Zürich](https://www.zb.uzh.ch/), Suisse
 
 
-Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](/fr/pi).
+Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
 
 ## Partenariats révolus
-Les institutions suivantes ont participé à de notre programme de [Partenariat institutionnel](/fr/pi)&nbsp;:
+Les institutions suivantes ont participé à de notre programme de [Partenariat institutionnel](pi)&nbsp;:
 
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), États-Unis [2021-2022]
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Royaume-Uni [2021-2022]

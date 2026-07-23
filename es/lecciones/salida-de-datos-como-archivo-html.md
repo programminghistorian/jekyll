@@ -20,8 +20,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/49
 layout: lesson
-next: /es/lecciones/palabras-clave-en-contexto-n-grams
-previous: /es/lecciones/crear-y-ver-archivos-html-con-python
+next: palabras-clave-en-contexto-n-grams
+previous: crear-y-ver-archivos-html-con-python
 original: output-data-as-html-file
 python_warning: false
 difficulty: 2

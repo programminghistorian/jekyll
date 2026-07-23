@@ -16,7 +16,7 @@ categories: posts
 ## 2023 Milestones
 
 - We celebrated the publication of our 200th lesson overall since our launch. This was a moment to recognise our significant growth as a project over the past decade, and to honour a great collective achievement on behalf of all our contributors.
-- We won the Best DH Training Materials category of the [Digital Humanities Awards](https://dhawards.org/dhawards2022/results/). Community-nominated and community-voted awards make us particularly proud, because they represent the value of _Programming Historian_ among our peers.
+- We won the Best DH Training Materials category of the [Digital Humanities Awards](http://dhawards.org/dhawards2022/results/). Community-nominated and community-voted awards make us particularly proud, because they represent the value of _Programming Historian_ among our peers.
 - We are delighted to have recruited a brilliant new Publishing Assistant Charlotte Chevrie, who will be working alongside Anisa Hawes, now our Publishing Manager, to provide services to our four journal teams.
 
 ## New Lessons

@@ -16,7 +16,7 @@ reviewers:
  - Frédéric Clavert
  - Telmo Menezes
  - Ed Summers
-review-ticket: https://programminghistorian.github.io/ph-submissions/lessons/beginners-guide-to-twitter-data
+review-ticket: http://programminghistorian.github.io/ph-submissions/lessons/beginners-guide-to-twitter-data
 difficulty: 1
 activity: acquiring
 topics: [data-manipulation, api]
@@ -140,7 +140,7 @@ TweetSets provides additional files from the Hurricane Irma dataset. These data 
 
 Download and extract the files. On a Windows computer, you can use an application such as [7-Zip](https://www.7-zip.org/) to uncompress files with a .gz exension. 
 
-If you are unfamiliar with social network analysis, it might be worthwhile to check out one of Scott Weingart’s ["Demystifying Networks"](https://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/) series to familiarize yourself with the basic linguistic and visual vocabularies. If you have done so, you will recognize that the TweetSets outputs show us some basic information that can be used to reconstruct a social network. The edges file shows us who is tweeting to whom; the nodes files associates user names with ID numbers; and the top mentions and users files do the same, but for the most actively mentioned and most actively tweeting users.
+If you are unfamiliar with social network analysis, it might be worthwhile to check out one of Scott Weingart’s ["Demystifying Networks"](http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/) series to familiarize yourself with the basic linguistic and visual vocabularies. If you have done so, you will recognize that the TweetSets outputs show us some basic information that can be used to reconstruct a social network. The edges file shows us who is tweeting to whom; the nodes files associates user names with ID numbers; and the top mentions and users files do the same, but for the most actively mentioned and most actively tweeting users.
 
 The edges file is 13,856,080 lines, so too large to work with in Excel. For this lesson, we will work with only the first 1,000 lines of data in the file. The [Introduction to the Bash Command Line](/en/lessons/intro-to-bash) lesson describes how you can use a command-line interface to read parts of a file using commands such as `head`. We can read the first 1,001 lines (1,000 lines of data plus a header) of the file into a new file using the following command:
 
@@ -208,7 +208,7 @@ Once you've done this, you can see the returned value is now in the formula fiel
 {% include figure.html filename="vlookup-final.png" caption="Done with data formatting!" %}
 
 ## Further Applications
-After repeating this process on the second column, this spreadsheet is ready to be used in a variety of social network visualizations.  It will drop right in to a SNA tool like [Palladio](https://hdlab.stanford.edu/palladio/), or, with some light reformatting, into software like [Gephi](https://gephi.org/) or [Cytoscape](https://cytoscape.org/). The VLOOKUP we did makes it so you can do the visualizations with human-legible user names, rather than rather meaningless user IDs.
+After repeating this process on the second column, this spreadsheet is ready to be used in a variety of social network visualizations.  It will drop right in to a SNA tool like [Palladio](http://hdlab.stanford.edu/palladio/), or, with some light reformatting, into software like [Gephi](https://gephi.org/) or [Cytoscape](https://cytoscape.org/). The VLOOKUP we did makes it so you can do the visualizations with human-legible user names, rather than rather meaningless user IDs.
 
 {% include figure.html filename="palladio.png" caption="A very quick social network sketch showing the users who most often mentioned @realDonaldTrump in their hurricane tweets.  Done in Palladio." %}
 

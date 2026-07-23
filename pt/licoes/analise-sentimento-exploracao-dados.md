@@ -91,7 +91,7 @@ Neste tutorial, Python será usado junto com algumas ferramentas do Natural Lang
 Para continuar, as seguintes instalações serão necessárias:
 
 * Python 3 (preferivelmente 3.5 ou superior) - [Instruções para baixar e instalar Python](https://wiki.python.org/moin/BeginnersGuide/Download)
-* NLTK (3.2.5 or superior) - [Instruções para baixar e instalar NLTK](https://www.nltk.org/install.html)
+* NLTK (3.2.5 or superior) - [Instruções para baixar e instalar NLTK](http://www.nltk.org/install.html)
 
 ## Primeiros passos com NLTK
 
@@ -101,7 +101,7 @@ Se você precisar de ajuda para baixar e instalar o módulo para [Python 3](http
 
 Em nosso caso, usaremos duas ferramentas NLTK em particular:
 
-* A ferramenta ["Análise de sentimento VADER"](https://www.nltk.org/_modules/nltk/sentiment/vader.html) (que gera pontuações de sentimento positivas, negativas e neutras para uma determinada entrada)
+* A ferramenta ["Análise de sentimento VADER"](http://www.nltk.org/_modules/nltk/sentiment/vader.html) (que gera pontuações de sentimento positivas, negativas e neutras para uma determinada entrada)
 * A ferramenta de toquenização ‘word_tokenize’ (divide um texto grande em uma sequência de unidades menores, como frases ou palavras)
 
 Para usar VADER e word_tokenize, primeiro precisamos baixar e instalar alguns dados extras para NLTK. O NLTK é um kit de ferramentas muito grande e várias de suas ferramentas requerem uma segunda etapa de download para reunir a coleção de dados necessária (geralmente léxicos codificados) para funcionar corretamente.
@@ -121,7 +121,7 @@ Você pode salvar este arquivo como `“installation.py”`. Se você não tiver
 
  Se você sabe como executar scripts Python, execute o arquivo usando Python 3.
 
- [VADER](https://www.nltk.org/_modules/nltk/sentiment/vader.html) (Valence Aware Dictionary and sEntiment Reasoner) é uma ferramenta de atribuição de intensidade de sentimento acrescentada ao NLTK em 2014. Ao contrário de outras técnicas que exigem treinamento em textos parecidos antes do uso, o VADER está pronto para ser usado sem qualquer configuração especial. O VADER é o único que faz distinções refinadas entre vários graus de positividade e negatividade. Por exemplo, VADER pontua “conforto” como moderadamente positivo e “euforia” como extremamente positivo. Ele também tenta capturar e pontuar características textuais comuns em texto online informal, como letras maiúsculas, pontos de exclamação e emoticons, conforme mostrado na tabela abaixo:
+ [VADER](http://www.nltk.org/_modules/nltk/sentiment/vader.html) (Valence Aware Dictionary and sEntiment Reasoner) é uma ferramenta de atribuição de intensidade de sentimento acrescentada ao NLTK em 2014. Ao contrário de outras técnicas que exigem treinamento em textos parecidos antes do uso, o VADER está pronto para ser usado sem qualquer configuração especial. O VADER é o único que faz distinções refinadas entre vários graus de positividade e negatividade. Por exemplo, VADER pontua “conforto” como moderadamente positivo e “euforia” como extremamente positivo. Ele também tenta capturar e pontuar características textuais comuns em texto online informal, como letras maiúsculas, pontos de exclamação e emoticons, conforme mostrado na tabela abaixo:
 
  {% include figure.html filename="analise-sentimento1.png" caption="Vader captura pequenas gradações de entusiasmo. (Hutto e Gilbert, 2014). **Versão do tradutor**. Acesse a original [aqui](/en/lessons/sentiment-analysis)" %}
 
@@ -423,4 +423,4 @@ Klimt, B., & Yang, Y. (2004). The Enron corpus: A new dataset for email classifi
 
 Tukey, J.W. (1977). Exploratory Data Analysis. Addison-Wesley Publishing Company
 
-Quinn, J. (2006, November 14). Ex-Enron man goes back into energy. Retrieved January 10, 2018, from https://www.telegraph.co.uk/finance/2950645/Ex-Enron-man-goes-back-into-energy.html
+Quinn, J. (2006, November 14). Ex-Enron man goes back into energy. Retrieved January 10, 2018, from http://www.telegraph.co.uk/finance/2950645/Ex-Enron-man-goes-back-into-energy.html

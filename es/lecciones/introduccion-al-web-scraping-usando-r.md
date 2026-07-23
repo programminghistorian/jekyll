@@ -162,7 +162,7 @@ Existe otro lugar en el que podemos encontrar información sobre cómo interactu
 
 Este archivo está pensado principalmente para robots que hacen extracciones masivas del contenido de algunas páginas. Sin embargo, en él encontraremos información relevante para tareas más discretas, como las que realizaremos en esta serie de lecciones.
 
-El documento robots.txt se encuentra en el directorio raíz de un sitio web, por lo tanto, en caso de estar disponible, podemos acceder a su contenido agregando "robots.txt" luego de la url principal. Por ejemplo, si quisiéramos revisar la versión de este archivo del sitio web del proyecto [Memoria Chilena](https://www.memoriachilena.gob.cl/) de la Biblioteca Nacional de Chile, tendríamos que escribir: `http://www.memoriachilena.gob.cl/robots.txt`. Eso nos llevará a [una página](https://perma.cc/37MD-HP8Y) con el siguiente contenido:
+El documento robots.txt se encuentra en el directorio raíz de un sitio web, por lo tanto, en caso de estar disponible, podemos acceder a su contenido agregando "robots.txt" luego de la url principal. Por ejemplo, si quisiéramos revisar la versión de este archivo del sitio web del proyecto [Memoria Chilena](http://www.memoriachilena.gob.cl/) de la Biblioteca Nacional de Chile, tendríamos que escribir: `http://www.memoriachilena.gob.cl/robots.txt`. Eso nos llevará a [una página](https://perma.cc/37MD-HP8Y) con el siguiente contenido:
 
 ```
 User-agent: *

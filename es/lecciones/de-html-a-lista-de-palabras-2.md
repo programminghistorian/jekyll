@@ -20,8 +20,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/45
 layout: lesson
-next: /es/lecciones/normalizar-datos
-previous: /es/lecciones/de-html-a-lista-de-palabras-1
+next: normalizar-datos
+previous: de-html-a-lista-de-palabras-1
 original: from-html-to-list-of-words-2
 python_warning: false
 difficulty: 2
@@ -258,7 +258,7 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 -   python-es-lecciones3.zip ([zip sync][])
 
   [De HTML a lista de palabras (parte 1)]: /es/lecciones/de-html-a-lista-de-palabras-1
-  [entero]: https://docs.python.org/2.4/lib/typesnumeric.html
-  [tipos]: https://docs.python.org/3/library/types.html
+  [entero]: http://docs.python.org/2.4/lib/typesnumeric.html
+  [tipos]: http://docs.python.org/3/library/types.html
   [zip]: /assets/python-es-lecciones2.zip
   [zip sync]: /assets/python-es-lecciones3.zip

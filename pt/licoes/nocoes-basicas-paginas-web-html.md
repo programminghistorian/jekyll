@@ -24,8 +24,8 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/318
 activity: presenting
 topics: [python]
 abstract: "Esta lição é uma introdução ao HTML e às páginas da web que ele estrutura."
-next: /pt/licoes/trabalhando-ficheiros-texto-python
-previous: /pt/licoes/introducao-e-instalacao
+next: trabalhando-ficheiros-texto-python
+previous: introducao-e-instalacao
 original: viewing-html-files
 avatar_alt: Uma mulher ouvindo um homem através de uma trombeta de ouvido
 doi: 10.46430/phpt0002
@@ -117,5 +117,5 @@ então escolha `ola-mundo.html`. Dependendo do seu editor de texto, você pode t
 -   [W3 Schools HTML Tutorial][]
 -   [W3 Schools HTML5 Tutorial][]
 
-  [W3 Schools HTML tutorial]: https://www.w3schools.com/html/default.asp
-  [W3 Schools HTML5 Tutorial]: https://www.w3schools.com/html/html5_intro.asp
+  [W3 Schools HTML tutorial]: http://www.w3schools.com/html/default.asp
+  [W3 Schools HTML5 Tutorial]: http://www.w3schools.com/html/html5_intro.asp

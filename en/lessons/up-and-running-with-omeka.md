@@ -16,7 +16,7 @@ exclude_from_check:
 activity: presenting
 topics: [website]
 abstract: "Omeka.net makes it easy to create websites that show off collections of items."
-redirect_from: /lessons/up-and-running-with-omeka/
+redirect_from: /lessons/up-and-running-with-omeka
 avatar_alt: Dinosaur skeleton in a museum
 doi: 10.46430/phen0060
 ---
@@ -27,14 +27,14 @@ doi: 10.46430/phen0060
 
 
 
-[Omeka.net](https://www.omeka.net) makes it easy to create websites that show off collections of items.
+[Omeka.net](http://www.omeka.net) makes it easy to create websites that show off collections of items.
 
 Sign up for an Omeka account
 ----------------------------
 
 {% include figure.html filename="up-and-running-01.png" caption="Sign up for a trial account" %}
 
-Go to [www.omeka.net](https://www.omeka.net) and click on **Sign Up**. Choose the Trial plan. Fill in the sign-up form. Check your email for the link to activate your account.
+Go to [www.omeka.net](http://www.omeka.net) and click on **Sign Up**. Choose the Trial plan. Fill in the sign-up form. Check your email for the link to activate your account.
 
 Create your new Omeka site
 --------------------------
@@ -56,7 +56,7 @@ An empty Omeka site
 -------------------
 
 {% include figure.html filename="up-and-running-04.png" caption="Public view" %}
-This is your empty Omeka site, waiting to be filled in. To get back to your dashboard, click the **Back** button or enter **https://www.omeka.net/dashboard**. This time, click on **Manage Site**.
+This is your empty Omeka site, waiting to be filled in. To get back to your dashboard, click the **Back** button or enter **http://www.omeka.net/dashboard**. This time, click on **Manage Site**.
 
 Switch themes
 -------------
@@ -180,4 +180,4 @@ Now that you've added some items and grouped them into a collection, take some t
 
 Further Resources
 -----------------------------
-The Omeka team has put together great resources on the software's [help pages](https://info.omeka.net)
+The Omeka team has put together great resources on the software's [help pages](http://info.omeka.net)

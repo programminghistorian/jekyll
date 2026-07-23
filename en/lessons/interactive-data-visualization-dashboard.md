@@ -495,7 +495,7 @@ If you want to host your own server, or someone at your institution can help you
 
 ### Setting up in GitHub
 
-You will need to turn the `ph-dash` folder into a GitHub repository. You can do this in the command line by executing `$git init` or using GitHub Desktop (see [Amanda Visconti's _Programming Historian_ lesson](/en/lessons/building-static-sites-with-jekyll-github-pages/#github--github-pages) if you are new to Git or GitHub).
+You will need to turn the `ph-dash` folder into a GitHub repository. You can do this in the command line by executing `$git init` or using GitHub Desktop (see [Amanda Visconti's _Programming Historian_ lesson](/en/lessons/building-static-sites-with-jekyll-github-pages#github--github-pages-) if you are new to Git or GitHub).
 
 Then, install one more library for deployment by entering `$pip install gunicorn`. The [`gunicorn`](https://gunicorn.org/) library allows Render to set up a web server for you.
 
@@ -596,7 +596,7 @@ The final message of this lesson is to encourage you to adapt the code provided 
 
 ## Endnotes
 
-[^1]: Ann Marie Ward. *Ireland Gender Pay Gap Analysis* (), <https://web.archive.org/web/20260419035442/https://genderpaygap.pythonanywhere.com/>.
+[^1]: Ann Marie Ward. *Ireland Gender Pay Gap Analysis* (), <https://genderpaygap.pythonanywhere.com/>.
 
 [^2]: Stephen Lacy et al., “Issues and Best Practices in Content Analysis,” *Journalism & Mass Communication Quarterly* 92, no. 4 (September 28, 2015): 791–802, <https://doi.org/10.1177/1077699015607338>.
 

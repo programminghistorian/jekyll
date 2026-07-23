@@ -49,10 +49,10 @@ List subteams within the larger editorial team
 		<a href="mailto:{{member.email}}"><i class="fa fa-envelope-square fa-lg" ></i><span class="visually-hidden">{{ member.email }}</span></a>
 	{% endif %}
 	{% if member.twitter %}
-		<a href="https://twitter.com/{{member.twitter}}"><i class="fab fa-twitter-square fa-lg"></i><span class="visually-hidden">{{ member.twitter }}</span></a>
+		<a href="http://twitter.com/{{member.twitter}}"><i class="fab fa-twitter-square fa-lg"></i><span class="visually-hidden">{{ member.twitter }}</span></a>
 	{% endif %}
 	{% if member.github %}
-		<a href="https://github.com/{{member.github}}"><i class="fab fa-github-square fa-lg"></i><span class="visually-hidden">{{ member.github }}</span></a>
+		<a href="http://github.com/{{member.github}}"><i class="fab fa-github-square fa-lg"></i><span class="visually-hidden">{{ member.github }}</span></a>
 	{% endif %}
 	{% if member.orcid %}
 		{% include orcid.html author=member %}

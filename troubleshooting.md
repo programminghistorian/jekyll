@@ -136,30 +136,30 @@ HTML learning. Other programming languages have equally valuable sets of
 introductory texts and websites which you can find online.
 
 -   [Python for
-    Non-programmers](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers)
--   [LearnPython.org](https://learnpython.org/) This tutorial offers
+    Non-programmers](http://wiki.python.org/moin/BeginnersGuide/NonProgrammers)
+-   [LearnPython.org](http://learnpython.org/) This tutorial offers
     in-browser coding windows.
 -   [Non-Programmer's Tutorial for Python
     2.6](https://en.wikibooks.org/wiki/Non-Programmer's_Tutorial_for_Python_2.6)
 -   [W3 Schools HTML
-    Tutorial](https://www.w3schools.com/html/default.asp)
+    Tutorial](http://www.w3schools.com/html/default.asp)
 
 As you proceed (or if you already have some programming experience)
 you'll probably prefer more general references like:
 
 -   [Python for
-    Programmers](https://wiki.python.org/moin/BeginnersGuide/Programmers)
--   [Python documentation page](https://docs.python.org/)
+    Programmers](http://wiki.python.org/moin/BeginnersGuide/Programmers)
+-   [Python documentation page](http://docs.python.org/)
 -   [Python tutorial](https://docs.python.org/3/tutorial/index.html)
 -   [Python library reference](https://docs.python.org/3/library/index.html)
--   Pilgrim, [Dive into Python](https://www.diveintopython.net)
+-   Pilgrim, [Dive into Python](http://www.diveintopython.net)
 
 We also like to have a few printed books ready-to-hand, especially
 
--   Lutz, *[Learning Python](https://www.worldcat.org/oclc/156890981)*
--   Lutz, *[Programming Python](https://www.worldcat.org/oclc/65765375)*
+-   Lutz, *[Learning Python](http://www.worldcat.org/oclc/156890981)*
+-   Lutz, *[Programming Python](http://www.worldcat.org/oclc/65765375)*
 -   Martelli, Ravenscroft and Ascher, *[Python
-    Cookbook](https://www.worldcat.org/oclc/59007845)*
+    Cookbook](http://www.worldcat.org/oclc/59007845)*
 
 Bring On The Code!
 ------------------
@@ -167,6 +167,6 @@ Bring On The Code!
 Now that you have Step One (Troubleshooting) mastered, you are ready to
 dive in. Let's get programming.
 
-  [Stack Overflow]: https://stackoverflow.com/
-  [Tutor]: https://mail.python.org/mailman/listinfo/tutor
-  [FAQ page]: https://web.archive.org/web/20130101093828/https://stackoverflow.com/faq
+  [Stack Overflow]: http://stackoverflow.com/
+  [Tutor]: http://mail.python.org/mailman/listinfo/tutor
+  [FAQ page]: http://web.archive.org/web/20130101093828/http://stackoverflow.com/faq

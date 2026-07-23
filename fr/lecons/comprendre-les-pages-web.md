@@ -137,5 +137,5 @@ et l'éditeur de texte qui ne l'interprète pas.
 - [tutoriels W3 Schools HTML][]
 - [tutoriels W3 Schools HTML5][]
 
-  [tutoriels W3 Schools HTML]: https://www.w3schools.com/html/default.asp
-  [tutoriels W3 Schools HTML5]: https://www.w3schools.com/html/html5_intro.asp
+  [tutoriels W3 Schools HTML]: http://www.w3schools.com/html/default.asp
+  [tutoriels W3 Schools HTML5]: http://www.w3schools.com/html/html5_intro.asp

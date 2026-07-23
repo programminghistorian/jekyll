@@ -145,11 +145,11 @@ wordlist = obo.stripNonAlphaNum(text)
 print(wordlist)
 ```
 
-Ao executar o programa e verificar a saída no painel "Saída de Comando", verá que ele fez um bom trabalho. Esse código irá dividir formas hifenizadas como "coach-wheels" em duas palavras e irá transformar o possessivo "s" ou "o'clock" em palavras separadas ao perderem o apóstrofo. Ainda assim, o código faz uma aproximação boa o suficiente para os nossos objetivos e devemos agora passar para a contagem de frequências antes de tentar melhorá-lo. (Caso trabalhe com fontes em mais de um idioma, precisa aprender um pouco mais a respeito do padrão [Unicode](https://perma.cc/7ACH-KCDN) e sobre o [suporte de Python](https://web.archive.org/web/20180502053841/https://www.diveintopython.net/xml_processing/unicode.html) a ele.)
+Ao executar o programa e verificar a saída no painel "Saída de Comando", verá que ele fez um bom trabalho. Esse código irá dividir formas hifenizadas como "coach-wheels" em duas palavras e irá transformar o possessivo "s" ou "o'clock" em palavras separadas ao perderem o apóstrofo. Ainda assim, o código faz uma aproximação boa o suficiente para os nossos objetivos e devemos agora passar para a contagem de frequências antes de tentar melhorá-lo. (Caso trabalhe com fontes em mais de um idioma, precisa aprender um pouco mais a respeito do padrão [Unicode](https://perma.cc/7ACH-KCDN) e sobre o [suporte de Python](https://web.archive.org/web/20180502053841/http://www.diveintopython.net/xml_processing/unicode.html) a ele.)
 
 ## Leituras Sugeridas
 
-Para praticar mais as Expressões Regulares, o capítulo 7 de "[Dive into Python](https://web.archive.org/web/20180416143856/https://www.diveintopython.net/regular_expressions/index.html)" de Mark Pilgrim pode ser um tutorial útil.
+Para praticar mais as Expressões Regulares, o capítulo 7 de "[Dive into Python](https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html)" de Mark Pilgrim pode ser um tutorial útil.
 
 ## Sincronização de Código 
 

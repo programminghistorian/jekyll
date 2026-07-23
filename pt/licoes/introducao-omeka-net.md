@@ -33,7 +33,7 @@ doi: 10.46430/phpt0011
 
  
 
-O [Omeka.net](https://www.omeka.net) facilita a criação de websites para mostrar coleções de itens.  
+O [Omeka.net](http://www.omeka.net) facilita a criação de websites para mostrar coleções de itens.  
 
 ## Cadastre-se numa conta do Omeka 
 
@@ -184,5 +184,5 @@ Agora que alguns itens foram adicionados e agrupados numa coleção, dedique alg
 
 ## Recursos Adicionais 
 
-A equipe do Omeka compilou ótimos recursos nas [páginas de ajuda](https://info.omeka.net/)(em inglês) do software. 
+A equipe do Omeka compilou ótimos recursos nas [páginas de ajuda](http://info.omeka.net/)(em inglês) do software. 
 

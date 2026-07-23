@@ -23,7 +23,7 @@ topics: [python, machine-learning]
 abstract: This is the second of a two-part lesson introducing deep learning based computer vision methods for humanities research. This lesson digs deeper into the details of training a deep learning based computer vision model. It covers some challenges one may face due to the training data used and the importance of choosing an appropriate metric for your model. It presents some methods for evaluating the performance of a model.
 mathjax: true
 avatar_alt: A cropped illustration of a mechanical diagram of a machine with pipes.
-previous: /en/lessons/computer-vision-deep-learning-pt1
+previous: computer-vision-deep-learning-pt1
 series_total: 2 lessons
 sequence: 2
 doi: 10.46430/phen0102
