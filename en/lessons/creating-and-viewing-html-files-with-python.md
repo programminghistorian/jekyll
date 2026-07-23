@@ -16,12 +16,12 @@ activity: presenting
 topics: [python, website]
 abstract: "Here you will learn how to create HTML files with Python scripts, and
 how to use Python to automatically open an HTML file in Firefox."
-next: /en/lessons/output-data-as-html-file
-previous: /en/lessons/counting-frequencies
+next: output-data-as-html-file
+previous: counting-frequencies
 series_total: 15 lessons
 sequence: 11
 python_warning: false
-redirect_from: /lessons/creating-and-viewing-html-files-with-python/
+redirect_from: /lessons/creating-and-viewing-html-files-with-python
 avatar_alt: Child drawing on a tablet
 doi: 10.46430/phen0004
 ---
@@ -199,7 +199,7 @@ path to the directory on your own computer.
 -   python-lessons6.zip [zip sync]
 
   [zip file from the previous lesson]: /assets/python-lessons5.zip
-  [Zotero]: https://zotero.org
-  [W3 Schools HTML tutorial]: https://www.w3schools.com/html/default.asp
-  [doctype declaration]: https://www.w3schools.com/tags/tag_doctype.asp
+  [Zotero]: http://zotero.org
+  [W3 Schools HTML tutorial]: http://www.w3schools.com/html/default.asp
+  [doctype declaration]: http://www.w3schools.com/tags/tag_doctype.asp
   [zip sync]: /assets/python-lessons6.zip

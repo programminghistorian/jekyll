@@ -27,7 +27,7 @@ doi: 10.46430/phen0090
 ## Introduction: A Small Collaborative Publishing Ecosystem
 This lesson will help you turn a basic Jekyll-generated website into a digital humanities (DH) community blog or other multi-author scholarly website, such as a simpler version of the DH center website and blog [ScholarsLab.org](https://scholarslab.org). The ["Building a static website with Jekyll and GitHub Pages" lesson](/en/lessons/building-static-sites-with-jekyll-github-pages) explained how to create a free, easy-to-maintain, preservation-friendly, secure website over which full control is held, such as a scholarly blog, project website, or online portfolio. In this lesson, we provide novice-friendly instructions on how to turn that basic Jekyll website into an active, community-authored blog with a system for reviewing writing and other site changes before moving them to the website.[^1]
 
-The tutorial is divided into two parts: initial, one-time start-up actions; and the steps to follow each time you want to author or edit the site. This lesson will cover creating and editing blog posts on your site and creating and integrating author information for sites supporting multiple authors. We also offer practical advice on the challenges this sort of set-up offers for community authorship as well as questions to consider before undertaking this sort of workflow. If you have an existing blog you are hoping to migrate to Jekyll, we briefly advise on this process [near the end of this lesson](#moving-an-existing-website-to-jekyll).
+The tutorial is divided into two parts: initial, one-time start-up actions; and the steps to follow each time you want to author or edit the site. This lesson will cover creating and editing blog posts on your site and creating and integrating author information for sites supporting multiple authors. We also offer practical advice on the challenges this sort of set-up offers for community authorship as well as questions to consider before undertaking this sort of workflow. If you have an existing blog you are hoping to migrate to Jekyll, we briefly advise on this process [near the end of this lesson](#moving-an-existing-website-to-Jekyll).
 
 ### Pre-requisites and requirements
 This lesson assumes you are starting from an existing Jekyll website you have created yourself, either by:  
@@ -46,7 +46,7 @@ You may be able to follow this lesson using any kind of computer, but this lesso
 In the version of this lesson that we use for our research center's blog, users tend to complete the lesson in 1–1.5 hours.
 
 ### How difficult is this lesson?
-The steps in this tutorial are unambiguous and there are very few choices you need to make as you work through this lesson. We tried to make it very detailed, combining the steps to take along with explanations of why you are taking these actions. We have included screenshots so you can compare what you are seeing with what the lesson thinks you should be seeing. A [help](#help) section includes a handy [recap](#workflow-summary) of the steps described below (useful once you understand them and need an accessible reference), links to a glossary of key terms, and further reading.
+The steps in this tutorial are unambiguous and there are very few choices you need to make as you work through this lesson. We tried to make it very detailed, combining the steps to take along with explanations of why you are taking these actions. We have included screenshots so you can compare what you are seeing with what the lesson thinks you should be seeing. A [help](#help) section includes a handy [recap](#workflow-recap) of the steps described below (useful once you understand them and need an accessible reference), links to a glossary of key terms, and further reading.
 
 You will learn some new terms and gain familiarity with the GitHub.com interface. You will not need to use the command line or understand git/versioning. (We discuss two versioning concepts briefly, but you will not need to understand these to do this tutorial.)
 
@@ -82,7 +82,7 @@ Log into GitHub (create an account if you don't have one). On the upper left of 
 
     {% include figure.html filename="groupblogging-new-demo-repo.png" caption="Screenshot of creating a new repository" %}
 
-<span id="name-your-repo"></span>In the "Repository name" field, write a short name for your repository. We recommend "CollabDemo", as this matches the demo repository we set up.
+<a id="name-your-repo"></a>In the "Repository name" field, write a short name for your repository. We recommend "CollabDemo", as this matches the demo repository we set up.
 
 Skip all other options on the page and click on the green "Create repository" button at the bottom of the page.
 
@@ -297,7 +297,7 @@ Even if you are the only person authoring on your site, using branches and pull 
 
 Remember to substitute *https://github.com/your-username/your-repo-name* for *https://github.com/scholarslab/CollabDemo* in these instructions. To set up your site for our review process:
 
-Each person in addition to you you who will write on the site should [create a user account on GitHub.com](https://github.com/join), if they do not already have one. They will need to share their username with you (or someone else who owns the repository).
+Each person in addition to you you who will write on the site should [create a user account on GitHub.com](http://github.com/join), if they do not already have one. They will need to share their username with you (or someone else who owns the repository).
 
 Your repository page (for example, https://github.com/scholarslab/CollabDemo) has a horizontal row of links just below the name of the repository. Click on the "settings" link, then click on "Manage Access" in the left menu.
 
@@ -311,7 +311,7 @@ Click on "Integrations" in the left menu. Under "Installed GitHub Apps", Netlify
 
 Scroll down to the "Repository access" section. Both options will work: the radio button next to "All repositories" is selected; or if you have other repositories you are not sure you want Netlify to run on, select the radio button next to "Only select repositories". For the latter choice, your repository should appear in the list immediately below; if it does not, use the "Select repositories" dropdown menu to add your /CollabDemo repository. Click the green "save" button. You might get redirected to Netlify at this point, but we want to keep doing a few other things in the GitHub interface.
 
-<span id="which-branch-is-default"></span>Now we will verify the name of the default branch that GitHub Pages publishes as your website. This should be "gh-pages" if you set up your repository for Netlify according to the earlier instructions. To check this is the case, in your repository settings click on "Options" in the upper left menu, and scroll down to the "GitHub Pages" section to look at what the dropdown under "Source" says. What you see should look similar to the screenshot below, but it might contain a different branch name in the dropdown. Remember whatever branch name is listed here for use in the next step.
+<a id="which-branch-is-default"></a>Now we will verify the name of the default branch that GitHub Pages publishes as your website. This should be "gh-pages" if you set up your repository for Netlify according to the earlier instructions. To check this is the case, in your repository settings click on "Options" in the upper left menu, and scroll down to the "GitHub Pages" section to look at what the dropdown under "Source" says. What you see should look similar to the screenshot below, but it might contain a different branch name in the dropdown. Remember whatever branch name is listed here for use in the next step.
 
 {% include figure.html filename="groupblogging-check-publication-branch.png" caption="Screenshot showing how to check the name of the repository branch that publishes to GitHub Pages" %}
 
@@ -346,7 +346,7 @@ In our workflow, there are two parts to authoring on or editing your website:
 
 If you forget what any of these technical terms mean, visit our [glossary](https://scholarslab.lib.virginia.edu/blog/github-jekyll-glossary/) for a reminder.
 
-The previous Jekyll lesson included a section on [how to create and edit posts and pages](/en/lessons/building-static-sites-with-jekyll-github-pages/#writing-pages-and-posts), so we suggest you review that lesson for a general introduction to blogging in Jekyll[^8]. In what follows, we describe the changes to those instructions that will be required for your site to function better as a collaborative blog. The key differences from the last lesson are:
+The previous Jekyll lesson included a section on [how to create and edit posts and pages](/en/lessons/building-static-sites-with-jekyll-github-pages#writing-pages-and-posts-), so we suggest you review that lesson for a general introduction to blogging in Jekyll[^8]. In what follows, we describe the changes to those instructions that will be required for your site to function better as a collaborative blog. The key differences from the last lesson are:
 
 * the use of branches  
 * authoring and editing on the GitHub.com website (in your browser) rather than locally (in your computer's file system)  
@@ -383,7 +383,7 @@ You can also look at the address bar; the URL will have changed from https://git
 Now you are on a new branch where you can work without affecting the repository that determines what is on your website so that work-in-progress will not appear publicly.
 
 ### Authoring and editing on GitHub.com
-The [previous Jekyll lesson](/en/lessons/building-static-sites-with-jekyll-github-pages/#writing-pages-and-posts) shows how to use Markdown and YAML to write a post or alter a page's content and front matter. Here, we will explain: how to create, commit, and edit a post on GitHub.com (rather than locally); changes to post front matter to support a collaborative website; and ways to check how your post appears from GitHub.com (that is, when you are not running your website locally).
+The [previous Jekyll lesson](/en/lessons/building-static-sites-with-jekyll-github-pages#writing-pages-and-posts-) shows how to use Markdown and YAML to write a post or alter a page's content and front matter. Here, we will explain: how to create, commit, and edit a post on GitHub.com (rather than locally); changes to post front matter to support a collaborative website; and ways to check how your post appears from GitHub.com (that is, when you are not running your website locally).
 
 #### Create a new post
 You should still be in the branch you created to contain your work in progress.
@@ -422,7 +422,7 @@ Commit (save) as often as you would save any other work-in-progress. Or, draft y
 
 {% include figure.html filename="groupblogging-preview-changes.png" caption="Screenshot of where the text editor's preview button is found" %}
 
-The [previous lesson](/en/lessons/building-static-sites-with-jekyll-github-pages/#hosting-on-github-pages) had you use the GitHub Desktop app to commit and merge, instead we will use the GitHub.com interface. This lets contributors unfamiliar or uncomfortable with the command line or running a site locally do everything from GitHub.com.
+The [previous lesson](/en/lessons/building-static-sites-with-jekyll-github-pages#hosting-on-github-pages-) had you use the GitHub Desktop app to commit and merge, instead we will use the GitHub.com interface. This lets contributors unfamiliar or uncomfortable with the command line or running a site locally do everything from GitHub.com.
 
 To commit your work, scroll down to the bottom of the text editor page.
 
@@ -441,7 +441,7 @@ Leave the radio buttons as-is ("Commit directly to the [your branch name] branch
 Click the green "Commit new file" button to finish saving your work.
 
 #### Adjustments to front matter
-You will need to make four changes to how the [previous lesson](/en/lessons/building-static-sites-with-jekyll-github-pages/#writing-pages-and-posts) directed you to write the front matter of a blog post:
+You will need to make four changes to how the [previous lesson](/en/lessons/building-static-sites-with-jekyll-github-pages#writing-pages-and-posts-) directed you to write the front matter of a blog post:
 * Add the "author" field (such as "author: Amanda Visconti")
 * Remove the hour, minute, and second info from the "date" YAML (we have not found it useful to track times and it can cause problems and confusion when publishing from different time zones)
 * Remove the "categories" YAML field as these lessons do not explain its use
@@ -514,7 +514,7 @@ Click on the green "Create pull request." You will be offered another box to des
 
 Under the menu on the right, you will find a section labeled “Reviewers”. Click on the word “reviewers” to see a dropdown menu of contributors associated with your repo who you could ask to review your work (added using the [reviewer permissions](#reviewer-permissions) steps). You will want to tag someone to review your work who has owner permissions on your repo. This will notify the site authors who are confident with Jekyll (the people with “owner” privileges) that you are making a change (like adding a blog post) to the website.
 
-*If you are not an owner*, your work is now done and you are waiting for someone with owner privileges to briefly review your changes, using the steps in ["Merging as an owner" below](#merging-a-pull-request) to check for anything that might break part of the site (highly unlikely with a blog post, more likely with changes to other repo code). Then, they will push your content to the live website. If you would like a preview of what the website will look like when your changes are merged, the next section (["Merging as an owner"](#merging-a-pull-request)) will show you how to use Netlify to do this.
+*If you are not an owner*, your work is now done and you are waiting for someone with owner privileges to briefly review your changes, using the steps in ["Merging as an owner" below](#merging-as-an-owner) to check for anything that might break part of the site (highly unlikely with a blog post, more likely with changes to other repo code). Then, they will push your content to the live website. If you would like a preview of what the website will look like when your changes are merged, the next section (["Merging as an owner"](#merging-as-an-owner)) will show you how to use Netlify to do this.
 
 ### Merging a pull request
 If you are the one setting up your GitHub and Jekyll combination, you already have owner permissions for your repository. If not, you will need to contact the owner of the repository to give you access using the steps in the [Reviewer Permissions](#reviewer-permissions) section before being able to follow the steps below to merge collaborators' changes.
@@ -547,7 +547,7 @@ Find the list item that starts "netlify/" followed by some gibberish and then by
 
 There are three possible next steps, which one you choose depends on how the preview looks and your review of the post.
 
-<span id="force-merge-checkbox-use"></span>*Option #1:* If the preview looks correct, you can click on the "Merge pull request" button in the bottom left of the section. Click the checkbox next to the "Use your administrator privileges to merge this pull request" message that appears, then click the "Confirm merge" button, followed by the "delete branch" button that will appear to the right. (Getting rid of branches once we are done with them helps us keep the repository clean, as we may have multiple branches open at one time that are being actively worked on.)
+<a id="#force-merge-checkbox-use"></a>*Option #1:* If the preview looks correct, you can click on the "Merge pull request" button in the bottom left of the section. Click the checkbox next to the "Use your administrator privileges to merge this pull request" message that appears, then click the "Confirm merge" button, followed by the "delete branch" button that will appear to the right. (Getting rid of branches once we are done with them helps us keep the repository clean, as we may have multiple branches open at one time that are being actively worked on.)
 
 {% include figure.html filename="groupblogging-delete-branch-PR-done.png" caption="Screenshot showing deleting branch after pull request" %}
 
@@ -586,7 +586,7 @@ Content management systems like WordPress[^9] have been designed to accommodate 
 
 ### Export your data from WordPress
 
-When you upload content to a WordPress site, your data gets stored in a database that is hidden. So, the first step to transfer a project from WordPress to another format is to retrieve that data. Sometimes, this can be a bit difficult. Interfaces are likely to change after publication of this lesson, so we refer you to [WordPress's documentation](https://en.support.wordpress.com/export/) on the exact steps needed to separate your own content from its CMS. WordPress exports your data in a series of XML files that contain both the content and metadata (information like author, publication date, and tags) for the elements of your site. Please be aware that while these XML files might reference the images and media uploads for a website, the uploaded files themselves must be exported separately.
+When you upload content to a WordPress site, your data gets stored in a database that is hidden. So, the first step to transfer a project from WordPress to another format is to retrieve that data. Sometimes, this can be a bit difficult. Interfaces are likely to change after publication of this lesson, so we refer you to [WordPressʼs documentation] (https://en.support.wordpress.com/export/) on the exact steps needed to separate your own content from its CMS. WordPress exports your data in a series of XML files that contain both the content and metadata (information like author, publication date, and tags) for the elements of your site. Please be aware that while these XML files might reference the images and media uploads for a website, the uploaded files themselves must be exported separately.
 
 ### Migrate the exported data to a format appropriate to a new platform
 
@@ -600,7 +600,7 @@ Migrating a site from one platform to another is a time-consuming and labor-inte
 
 ## Help
 ### Workflow summary
-If you have read the longer explanations above already and just want a checklist, you can [bookmark this section](#workflow-summary):
+If you have read the longer explanations above already and just want a checklist, you can [bookmark this section](#workflow-recap):
 
 1. Create new branch & switch into that branch  
 2. Create new file or edit existing file  
@@ -613,24 +613,24 @@ If you have read the longer explanations above already and just want a checklist
 
 ### Cheat sheets
 - [Glossary of frequently used terms](https://scholarslab.lib.virginia.edu/blog/github-jekyll-glossary/) (pull, merge, branch, etc.)
-- [Overview](/en/lessons/building-static-sites-with-jekyll-github-pages/#where-and-what-is-everything) of what various files in your website folder do
+- [Overview](/en/lessons/building-static-sites-with-jekyll-github-pages#where-and-what-is-everything-) of what various files in your website folder do
 - [Scholars' Lab cheatsheet](https://github.com/scholarslab/scholarslab.org/blob/master/docs/authoring-and-editing.md#markdown--formatting) on basic Markdown formatting, limited to the most frequently used formatting for our particular needs
 
 ### Troubleshooting
-If you run into an a problem, try reading [Jekyll 's troubleshooting page](https://jekyllrb.com/docs/troubleshooting/). Besides search engines, [the StackExchange site](https://stackexchange.com/) is a good place to find questions and answers from people who have run into the same problem as you in the past (and, hopefully, recorded how they solved it). You might also [join the Digital Humanities Slack](https://tinyurl.com/DHslack) (anyone can join, even if you have no DH experience) and ask questions in the #DHanswers channel.
+If you run into an a problem, try reading [Jekyll 's troubleshooting page](https://jekyllrb.com/docs/troubleshooting/). Besides search engines, [the StackExchange site](http://stackexchange.com/) is a good place to find questions and answers from people who have run into the same problem as you in the past (and, hopefully, recorded how they solved it). You might also [join the Digital Humanities Slack](http://tinyurl.com/DHslack) (anyone can join, even if you have no DH experience) and ask questions in the #DHanswers channel.
 
 ### Advanced learning
 The following links are helpful for learning more about documentation, inspiration, and further reading about Jekyll:
 
 *Introductions to Jekyll and static sites*
-* Amanda Visconti, ["Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)"](https://literaturegeek.com/2015/12/08/WhyJekyllGitHub)
+* Amanda Visconti, ["Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)"](http://literaturegeek.com/2015/12/08/WhyJekyllGitHub)
 * [Building a static website with Jekyll and GitHub Pages](/en/lessons/building-static-sites-with-jekyll-github-pages)
-* Alex Gil, ["How (and Why) to Generate a Static Website Using Jekyll, Part 1"](https://chronicle.com/blogs/profhacker/jekyll1/60913)
+* Alex Gil, ["How (and Why) to Generate a Static Website Using Jekyll, Part 1"](http://chronicle.com/blogs/profhacker/jekyll1/60913)
 * Eduardo Bouças, ["An Introduction to Static Site Generators"](https://davidwalsh.name/introduction-static-site-generators)
 
 *Deeper understanding of Jekyll and GitHub Pages*
-* [Official Jekyll Documentation](https://jekyllrb.com/docs/home/)
-* Jekyll "unofficially" links to two Windows + Jekyll resources: [https://jekyll-windows.juthilo.com/](https://jekyll-windows.juthilo.com/) and [https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/)
+* [Official Jekyll Documentation](http://jekyllrb.com/docs/home/)
+* Jekyll "unofficially" links to two Windows + Jekyll resources: [http://jekyll-windows.juthilo.com/](http://jekyll-windows.juthilo.com/) and [https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/)
 * [https://help.github.com/articles/using-jekyll-with-pages/](https://help.github.com/articles/using-jekyll-with-pages/)
 * Ben Balter, [Jekyll: Where content is truly king](https://ben.balter.com/2013/10/30/content-is-king/)
 * [Using a custom domain with GitHub Pages hosting](https://help.github.com/en/articles/using-a-custom-domain-with-github-pages) You can purchase a domain (such as my-own-domain.com; average costs run around $10-20/year) and switch your website to using that instead of *username.github.io/repo-name* but still use GitHub Pages' free hosting.
@@ -653,7 +653,7 @@ If you set up a custom domain with your GitHub Pages-hosted website, to avoid a 
 * [Exitwp](https://github.com/thomasf/exitwp), a Python script developed by Thomas Frössman that Scholars' Lab used to migrate our blog from WordPress to Jekyll  
 
 *Tools*
-*  Robust plain text editor options: [Atom](https://atom.io), [Sublime Text](https://www.sublimetext.com/), [Prose](https://prose.io/) content editor (built on Jekyll)
+*  Robust plain text editor options: [Atom](https://atom.io), [Sublime Text](https://www.sublimetext.com/), [Prose](http://prose.io/) content editor (built on Jekyll)
 * Project management options: [Trello](https://trello.com/en), [GitHub's project boards](https://help.github.com/en/articles/about-project-boards)
 
 *Case study links*

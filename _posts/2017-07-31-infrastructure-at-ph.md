@@ -17,7 +17,7 @@ This post will highlight three behind-the-scenes, technical changes to the way t
 
 ## Searching for Link Rot
 
-We have built _PH_ on the [Jekyll](https://jekyllrb.com/) site generation platform in part because it creates simple HTML files without needing a database server to run at all times in order to keep the site live.
+We have built _PH_ on the [Jekyll](http://jekyllrb.com/) site generation platform in part because it creates simple HTML files without needing a database server to run at all times in order to keep the site live.
 However, no content management system is safe from the ravages of "link rot": when published links to other web pages go dead because their owners moved the content, deleted it, or otherwise shut down their website.
 This is particularly troublesome for _PH_, since so many of our lessons link to external references, tutorials, and examples.
 While we strive to make sure all the links in a lesson are operating when we first publish it, it's all but impossible to manually check old lessons on a regular basis to make sure the links are _still_ working.
@@ -33,7 +33,7 @@ Running this check on _PH_ [revealed several dozen links](https://github.com/pro
 Once we identified these links, we tried to find the new location to which the linked content had been moved.
 When that was not possible, we instead pointed to a version of the content archived in the [Wayback Machine].
 
-[Wayback Machine]: https://web.archive.org/
+[Wayback Machine]: http://web.archive.org/
 
 [buildsh]: https://github.com/programminghistorian/jekyll/blob/gh-pages/_build/build.sh#L15-L40
 
@@ -59,7 +59,7 @@ As we've expanded the capabilities of the site, the metadata has had to expand t
 If an editor forgets to include some of these YAML fields, it can result in a site build error, a missing lesson, or blank spots where we might expect to find the name of a lesson's editors or reviewers.
 This makes the life of an editor more and more difficult, and we frequently found ourselves needing to go back in to published lessons to tweak metadata so everything appeared correctly on the site.
 
-Using Jekyll's [custom plugin](https://jekyllrb.com/docs/plugins/) capabilities, we are able to specify the metadata schema needed for lessons, and cause Jekyll to throw informative errors when it finds a lesson file that is missing a required field.
+Using Jekyll's [custom plugin](http://jekyllrb.com/docs/plugins/) capabilities, we are able to specify the metadata schema needed for lessons, and cause Jekyll to throw informative errors when it finds a lesson file that is missing a required field.
 Unlike htmlproofer, this code does not come as a fully-fledged package - we had to compose it ourselves.
 However [you can see our commented source code here](https://github.com/programminghistorian/jekyll/blob/gh-pages/_plugins/validate_yaml.rb) to understand how we specify and evaluate required metadata fields.
 

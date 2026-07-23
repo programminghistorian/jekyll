@@ -40,7 +40,7 @@ Algunos de los ejercicios planteados en esta lección requieren un repositorio c
 
 La abundancia de información documental que tenemos a disposición es cada vez mayor. Las fuentes primarias que se encuentran publicadas por archivos y bibliotecas han facilitado significativamente nuestro trabajo de recolección de información histórica. Sin embargo, esto ha conllevado un problema de abundancia de digitalizaciones y transcripciones de documentos que muchas veces quedan almacenadas anárquicamente en nuestros ordenadores. En esta lección aprovecharemos las capacidades de Omeka para desarrollar repositorios, individuales o colaborativos, para almacenar, analizar y exhibir fuentes primarias; con el propósito de presentar una opción para la sistematización de documentación primaria que posteriormente podrá ser utilizada en tareas de investigación o exhibiciones Web.
 
-Para seguir esta lección requieres una instalación de Omeka. Puedes seguir la lección [*Installing Omeka*](/en/lessons/installing-omeka) disponible en el sitio en inglés (la versión en español se encuentra en proceso de traducción). En caso de que necesites conocer el funcionamiento básico de la plataforma es importante que entiendas como [crear sitios, elementos, colecciones](/es/lecciones/poniendo-omeka-a-funcionar) y [exhibiciones](/es/lecciones/crear-exposicion-con-omeka).
+Para seguir esta lección requieres una instalación de Omeka. Puedes seguir la lección [*Installing Omeka*](/lessons/installing-omeka) disponible en el sitio en inglés (la versión en español se encuentra en proceso de traducción). En caso de que necesites conocer el funcionamiento básico de la plataforma es importante que entiendas como [crear sitios, elementos, colecciones](/es/lecciones/poniendo-omeka-a-funcionar) y [exhibiciones](/es/lecciones/crear-exposicion-con-omeka).
 
 Asimismo es importante que en caso de querer ampliar la información sobre el funcionamiento de Omeka recurras al <a href="https://omeka.org/classic/docs/" target="_blank">manual de usuario</a> de la versión clásica. También es posible que consultes o participes en el <a href="https://forum.omeka.org/c/omeka-classic" target="_blank">foro</a> para obtener información adicional o respuesta a un problema específico.
 
@@ -79,8 +79,8 @@ Tras la instalación, la primera acción que debemos realizar será activar los 
 
 {% include figure.html filename="img_1.1-modact.jpg" caption="Módulos XAMPP activados" %}
 
-Para probar que todo funciona correctamente, ingresa desde tu navegador a la dirección `<http://localhost/>` o `<http://127.0.0.1>`. Si la instalación es correcta te mostrará la pantalla de inicio:
-s
+Para probar que todo funciona correctamente, ingresa desde tu navegador a la dirección <http://localhost/> o <http://127.0.0.1>. Si la instalación es correcta te mostrará la pantalla de inicio:
+
 {% include figure.html filename="img_1.1-xampp-dashboard.jpg" caption="Pantalla de inicio (dashboard) de XAMPP" %}
 
 Deberás tener en el menú de inicio de Windows un menú de XAMPP con tres opciones desplegables. Las más útiles para nuestro trabajo serán "XAMPP Control Panel", que abre el panel de control para activar o desactivar los módulos, y "XAMPP htdocs folder", un enlace al directorio donde se guardarán los archivos de Omeka para realizar la instalación, por lo general es `C:\xampp\htdocs` para Windows. En Linux este directorio se encuentra en la ruta `/opt/lampp/htdocs`.
@@ -95,7 +95,7 @@ Para la instalación de Omeka es necesario crear una base de datos que albergar�
 
 Para crear la base de datos es posible utilizar los métodos explicados en el paso 2 de [*Installing Omeka*](/en/lessons/installing-omeka#step-2-install-your-server-and-database). También podemos utilizar *phpMyAdmin* para crear la base de datos de la instalación e incluso para editarla después.
 
-El primer paso consiste en ingresar al entorno de *phpMyAdmin* a través de la dirección <https://localhost/phpmyadmin/> XAMPP te dejará ingresar sin contraseña, pero otros servicios (como Bitnami) te exigirán permisos de usuario para ingresar.[^bitnami_ingreso] La página de inicio te mostrará una página con la configuración general del servidor de la base de datos, el servidor web y de la aplicación. Esta pantalla será importante al momento de requerir la versión de MySQL ("Servidor de base de datos >> Versión del servidor"), la versión de PHP ("Servidor web >> Versión de PHP"), o incluso el nombre de usuario del servidor (por lo general "root@localhost"). Esta pantalla es útil no sólo en instalaciones locales, servirá también para comprobar que algún servicio de alojamiento web corresponda con la tecnología necesaria para ejecutar ciertas aplicaciones.
+El primer paso consiste en ingresar al entorno de *phpMyAdmin* a través de la dirección <http://localhost/phpmyadmin/> XAMPP te dejará ingresar sin contraseña, pero otros servicios (como Bitnami) te exigirán permisos de usuario para ingresar.[^bitnami_ingreso] La página de inicio te mostrará una página con la configuración general del servidor de la base de datos, el servidor web y de la aplicación. Esta pantalla será importante al momento de requerir la versión de MySQL ("Servidor de base de datos >> Versión del servidor"), la versión de PHP ("Servidor web >> Versión de PHP"), o incluso el nombre de usuario del servidor (por lo general "root@localhost"). Esta pantalla es útil no sólo en instalaciones locales, servirá también para comprobar que algún servicio de alojamiento web corresponda con la tecnología necesaria para ejecutar ciertas aplicaciones.
 
 En *phpMyAdmin* seleccionaremos la pestaña "Bases de datos" donde veremos un pequeño formulario para crear la base de datos, sólo tenemos que ingresar el *nombre de la base de datos* e indicar el *cotejamiento*. Seleccionaremos el cotejamiento `utf8_spanish_ci` ya que representará una mayor precisión al momento de ordenar los elementos (*items*) en Omeka.[^collate] Esto es particularmente relevante en las instalaciones en Linux que suelen seleccionar de manera predeterminada un cotejamiento `latin1_`.
 
@@ -134,7 +134,7 @@ Es opcional, aunque muy recomendable, que en tanto el repositorio se encuentre e
 
 # Un vistazo al "esqueleto" de Omeka
 
-Si vamos a [phpMyAdmin](https://localhost/phpmyadmin) veremos que la base de datos vacía está ahora llena con 19 tablas interdependientes. La estructura de la base de datos (*database schema*) puede describirse de manera sintética agrupando las tablas en cinco grupos de información: datos para los elementos y colecciones, etiquetas, metatados de los tipos de elementos, información de usuarios, texto para búsqueda, y tablas para procesos del sistema. Un mapa resumido de las interdependencias entre las tablas se puede ver en la siguiente imagen:
+Si vamos a [phpMyAdmin](http://localhost/phpmyadmin) veremos que la base de datos vacía está ahora llena con 19 tablas interdependientes. La estructura de la base de datos (*database schema*) puede describirse de manera sintética agrupando las tablas en cinco grupos de información: datos para los elementos y colecciones, etiquetas, metatados de los tipos de elementos, información de usuarios, texto para búsqueda, y tablas para procesos del sistema. Un mapa resumido de las interdependencias entre las tablas se puede ver en la siguiente imagen:
 
 {% include figure.html filename="img_2.1-omeka_mysql_schema.png" caption="Esquema de la interdependencia de la base de datos de Omeka" %}
 
@@ -189,7 +189,7 @@ Para muchos la palabra "Metadatos" suena oscura y "metafísica", algo que está 
 
 Los metadatos son independientes del lenguaje de máquina o de programación, es decir, son categorías completamente personalizables que funcionan de manera independiente de la plataforma. Esta libertad conlleva una gran desventaja y es que si cada usuario creara sus elementos de manera arbitraria no habría manera de intercambiar información entre sistemas. Por esa razón, se creó una estrategia de estandarización de los conjuntos de metadatos de tal manera que facilite la interacción entre plataformas, la actualización del software y, sobre todo, el compartir y encontrar información en grandes repositorios.
 
-Omeka Classic se fundamenta en el estándar *Dublin Core*, específicamente en el esquema básico de 15 descriptores <a href="https://dublincore.org/documents/dces/" target="_blank">Dublin Core Metadata Element Set Version 1.1</a>:
+Omeka Classic se fundamenta en el estándar *Dublin Core*, específicamente en el esquema básico de 15 descriptores <a haref="http://dublincore.org/documents/dces/" target="_blank">Dublin Core Metadata Element Set Version 1.1</a>:
 
 	Título (title)
 	Autor (creator)
@@ -241,7 +241,7 @@ Si estamos construyendo un sitio personal no es necesario (aunque sería lo idea
 
 # Plugins o complementos
 
-Un plugin es un pequeño programa que añade una función específica a otro programa, por ejemplo, un <a href="https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos" target="_blank">CMS</a> tipo Wordpress o Joomla puede incorporar una casilla de comentarios, pero un plugin puede hacer que esta casilla se conecte con las redes sociales y comentar desde su perfil de Facebook o Twitter. En esta lección sólo veremos cómo añadir plugins a nuestra instalación de Omeka[^omeka.net], si desea profundizar en la manera de desarrollar un complemento lo más recomendable es consultar la documentación <a href="https://omeka.org/codex/Plugin_Writing_Best_Practices#Plugin_Directory_Structure" target="_blank">disponible en la página de Omeka</a>.
+Un plugin es un pequeño programa que añade una función específica a otro programa, por ejemplo, un <a href="https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos" target="_blank">CMS</a> tipo Wordpress o Joomla puede incorporar una casilla de comentarios, pero un plugin puede hacer que esta casilla se conecte con las redes sociales y comentar desde su perfil de Facebook o Twitter. En esta lección sólo veremos cómo añadir plugins a nuestra instalación de Omeka[^omeka.net], si desea profundizar en la manera de desarrollar un complemento lo más recomendable es consultar la documentación <a href="http://omeka.org/codex/Plugin_Writing_Best_Practices#Plugin_Directory_Structure" target="_blank">disponible en la página de Omeka</a>.
 
 Las dos fuentes principales de plugins para Omeka son el repositorio oficial de complementos <https://omeka.org/classic/plugins/> y <a href="https://github.com/topics/omeka-plugin" target="_blank">Github</a>. Ambos listados son dinámicos, por lo que recomendamos visitar periódicamente estos lugares para conocer novedades y actualizaciones.
 
@@ -278,7 +278,7 @@ Para usar Omeka no es realmente necesario ningún complemento, sin embargo, el c
 La selección de plugins dependerá en buena medida de los objetivos del repositorio, para nuestro caso se requerirán complementos que permitan:
 
 1. Mostrar los documentos y hacerlos legibles a los usuarios, ya sean imágenes, archivos PDF u otros. Por ejemplo, <a href="https://omeka.org/classic/plugins/PdfEmbed" target="_blank">PDF Embed</a> y <a href="https://github.com/Daniel-KM/Omeka-plugin-UniversalViewer" target="_blank">Universal Viewer</a>.
-2. Gestionar los metadatos de cada documento: procedencia, cobertura, fechas, nombres, etc. Por ejemplo <a href="https://omeka.org/codex/Plugins/DublinCoreExtended_2.0" target="_blank">Dublin Core Extended</a> y <a href="https://omeka.org/classic/plugins/HideElements" target="_blank">Hide Elements</a>.
+2. Gestionar los metadatos de cada documento: procedencia, cobertura, fechas, nombres, etc. Por ejemplo <a href="http://omeka.org/codex/Plugins/DublinCoreExtended_2.0" target="_blank">Dublin Core Extended</a> y <a href="https://omeka.org/classic/plugins/HideElements" target="_blank">Hide Elements</a>.
 3. Buscar información: complementos que contribuyan a ampliar las capacidades de las búsquedas de Omeka. Por ejemplo <a href="https://omeka.org/classic/plugins/SearchByMetadata" target="_blank">Search by Metadata</a> y <a href="https://omeka.org/classic/plugins/PdfText" target="_blank">PDF Text</a>.
 4. Interrelacionar elementos y colecciones. Por ejemplo <a href="https://omeka.org/classic/plugins/ItemRelations" target="_blank">Item Relations</a>, <a href="https://omeka.org/classic/plugins/CollectionTree" target="_blank">Collection Tree</a> y <a href="https://omeka.org/classic/plugins/Geolocation" target="_blank">Geolocation</a>, <a href="https://github.com/Daniel-KM/Omeka-plugin-Reference" target="_blank">Reference</a>.
 5. Permitir la transcripción de documentos. <a href="https://omeka.org/classic/plugins/Scripto" target="_blank">Scripto</a> es la opción más recomendada, pero también es posible apoyar el proceso de transcripción con el plugin <a href="https://omeka.org/classic/plugins/Contribution" target="_blank">Contribution</a>

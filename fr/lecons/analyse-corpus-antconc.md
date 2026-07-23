@@ -55,12 +55,12 @@ Vous avez déjà fait ce genre de choses auparavant, si vous avez déjà...
 * utilisé [Voyant Tools][48] pour analyser des schémas dans un texte
 * suivi les tutoriels d'introduction à Python du [Programming Historian][51]
 
-En quelque sorte, [Voyant Tools](https://voyant-tools.org/) est une passerelle vers la réalisation d'analyses plus sophistiquées et reproductibles, car l'esthétique de bricolage des scripts Python ou R peut ne pas convenir à tout le monde. [AntConc](https://www.laurenceanthony.net/software/antconc/) comble ce vide en étant un logiciel autonome d'analyse linguistique de textes, disponible gratuitement pour Windows, Mac OS et Linux. Par ailleurs, il est régulièrement mis à jour par son créateur,  [Laurence Anthony](https://www.laurenceanthony.net/). Il existe d'autres logiciels de concordance, mais AntConc est librement disponible sur toutes les plateformes et très bien maintenu. Voir la [bibliographie][56] pour d'autres ressources.
+En quelque sorte, [Voyant Tools](http://voyant-tools.org/) est une passerelle vers la réalisation d'analyses plus sophistiquées et reproductibles, car l'esthétique de bricolage des scripts Python ou R peut ne pas convenir à tout le monde. [AntConc](http://www.laurenceanthony.net/software/antconc/) comble ce vide en étant un logiciel autonome d'analyse linguistique de textes, disponible gratuitement pour Windows, Mac OS et Linux. Par ailleurs, il est régulièrement mis à jour par son créateur,  [Laurence Anthony](http://www.laurenceanthony.net/). Il existe d'autres logiciels de concordance, mais AntConc est librement disponible sur toutes les plateformes et très bien maintenu. Voir la [bibliographie][56] pour d'autres ressources.
 
 Ce tutoriel explore différentes façons d'aborder un corpus de textes. Il est important de noter que les approches issues de la linguistique de corpus sont rarement, voire jamais, l'unique possibilité. Ainsi, à chaque étape, il vaut la peine de réfléchir à ce que vous faites et comment cela peut vous aider à répondre à une question spécifique avec vos données. Bien que je présente dans ce tutoriel une approche modulaire qui explique 'comment faire ceci puis cela pour atteindre x', il n'est pas toujours nécessaire de suivre l'ordre exact décrit ici. Cette leçon donne un aperçu de certaines des méthodes disponibles, plutôt qu'une recette du succès.
 
 ### Téléchargements nécessaires
-1. Logiciel : [AntConc](https://www.laurenceanthony.net/software/antconc/).
+1. Logiciel : [AntConc](http://www.laurenceanthony.net/software/antconc/).
 Dézippez le fichier si nécessaire, et lancez l'application. Les captures d'écran ci-dessous peuvent varier légèrement par rapport à la version que vous avez (et selon le système d'exploitation, bien sûr), mais les procédures sont plus ou moins les mêmes sur les plateformes et les versions récentes d'AntConc. Ce tutoriel a recours à une version plus ancienne d'AntConc, car je la trouve plus facile à utiliser dans un contexte d'introduction. Vous pouvez utiliser la version la plus récente, mais si vous souhaitez suivre avec les captures d'écran fournies, vous pouvez télécharger la version utilisée ici, [version 3.2.4](https://www.laurenceanthony.net/software/antconc/releases/AntConc324/).
 
 2. Corpus test : Téléchargez un [fichier zip de critiques de films](/assets/corpus-analysis-with-antconc/antconc_corpus_files.zip).
@@ -94,10 +94,10 @@ Allez sur votre bureau et vérifiez que vous pouvez trouver votre fichier texte.
 Répétez la procédure plusieurs fois et c'est ainsi que vous construirez un corpus de fichiers texte brut. Ce processus s'appelle la construction de corpus, ce qui implique très souvent d'aborder des questions d'échantillonnage, de représentativité et d'organisation. Rappelez-vous, *chaque fichier que vous voulez utiliser dans votre corpus __doit__ être un fichier texte brut pour qu'AntConc puisse l'utiliser.* Il est d'usage de nommer les fichiers avec le suffixe .txt pour que vous sachiez de quel type de fichier il s'agit.
 
 Comme vous pouvez l'imaginer, il peut être assez fastidieux de constituer un corpus substantiel un fichier à la fois, surtout si vous avez l'intention de traiter un ensemble important de documents. Il est donc très courant d'utiliser l'extraction de contenus (_webscraping_) (en utilisant un petit programme pour télécharger automatiquement les fichiers sur le web pour vous) pour construire votre corpus. Pour en savoir plus sur les concepts et les techniques d'extraction, consultez les tutoriels du _Programming Historian_ sur l'[extraction avec Beautiful Soup][50] et le [téléchargement automatique avec wget][51] (en anglais).
-Plutôt que de construire un corpus un document à la fois, nous allons utiliser un corpus préparé de critiques de films positives et négatives, emprunté au [_Natural Language Processing Toolkit_](https://www.nltk.org/). Le corpus des critiques de films de la NLTK compte 2000 critiques, organisées par résultats positifs et négatifs ; aujourd'hui, nous allons aborder un petit sous-ensemble d'entre eux (200 positifs, 200 négatifs).
+Plutôt que de construire un corpus un document à la fois, nous allons utiliser un corpus préparé de critiques de films positives et négatives, emprunté au [_Natural Language Processing Toolkit_](http://www.nltk.org/). Le corpus des critiques de films de la NLTK compte 2000 critiques, organisées par résultats positifs et négatifs ; aujourd'hui, nous allons aborder un petit sous-ensemble d'entre eux (200 positifs, 200 négatifs).
 
 
-La construction de corpus est un sous-domaine à part entière. Voir "[_Representativeness in Corpus Design_](https://academic.oup.com/dsh/article-abstract/8/4/243/928942)", _Literary and Linguistic Computing_, 8 (4) : 243-257 et [_Developing Linguistic Corpora : a Guide to Good Practice_](https://www.amazon.com/Developing-Linguistic-Corpora-Practice-Guides/dp/1842172050/ref=sr_1_1_1) pour plus d'informations.
+La construction de corpus est un sous-domaine à part entière. Voir "[_Representativeness in Corpus Design_](https://academic.oup.com/dsh/article-abstract/8/4/243/928942)", _Literary and Linguistic Computing_, 8 (4) : 243-257 et [_Developing Linguistic Corpora : a Guide to Good Practice_](http://www.amazon.com/Developing-Linguistic-Corpora-Practice-Guides/dp/1842172050/ref=sr_1_1_1) pour plus d'informations.
 
 
 
@@ -280,7 +280,6 @@ Vous pouvez également opter pour l'échange de corpus de référence et de fich
 Dans _Keyword List_ (Liste des mots-clés), appuyez simplement sur "_Start_" (Démarrer) (sans rien taper dans le champ de recherche). Si vous venez de changer le corpus de référence et les fichiers cibles, il se peut qu'on vous demande de créer une nouvelle liste de mots avant qu'AntConc ne calcule les mots-clés. Nous voyons une liste de mots-clés qui ont des mots qui sont beaucoup plus "inhabituels" - plus statistiquement inattendus - dans le corpus que nous regardons en comparaison avec le corpus de référence.
 
 > Keyness (spécificité) : c'est la fréquence d'un mot dans le texte par rapport à sa fréquence dans un corpus de référence, "telle que la probabilité statistique calculée par une procédure appropriée soit inférieure ou égale à une valeur p indiquée par l'utilisateur" (tiré d'[ici][41]). Pour ceux et celles qui s'intéressent aux détails statistiques, voir la section sur la spécificité (Keyness) à la page 7 du [fichier read me](https://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf) de Laurence Anthony.
-> Keyness (spécificité) : c'est la fréquence d'un mot dans le texte par rapport à sa fréquence dans un corpus de référence, "telle que la probabilité statistique calculée par une procédure appropriée soit inférieure ou égale à une valeur p indiquée par l'utilisateur" (tiré d'[ici][41]). Pour ceux et celles qui s'intéressent aux détails statistiques, voir la section sur la spécificité (Keyness) à la page 7 du [fichier read me](https://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf) de Laurence Anthony.
 
 
 
@@ -328,29 +327,29 @@ En résumé, il vaut la peine de réfléchir :
 ## Ressources supplémentaires pour ce tutoriel
 #### En anglais
 [Une courte bibliographie sur la linguistique des corpus][43].  
-[Une version plus détaillée de ce tutoriel, en supposant que vous n'avez aucune connaissance en informatique.](https://hfroehli.ch/workshops/getting-started-with-antconc/)  
+[Une version plus détaillée de ce tutoriel, en supposant que vous n'avez aucune connaissance en informatique.](http://hfroehli.ch/workshops/getting-started-with-antconc/)  
 
 #### En français (notes de la version traduite)
-[Page AntConc de EduTech Wiki de l'UNIGE](https://edutechwiki.unige.ch/fr/AntConc#)    
-[Page AntConc sur le site Exploration de corpus : outils et pratiques](https://explorationdecorpus.corpusecrits.huma-num.fr/antconc/)    
-[Tutoriel AntConc du CID-ENS Lyon](https://cid.ens-lyon.fr/ac_article.asp?fic=antconc.asp)    
+[Page AntConc de EduTech Wiki de l'UNIGE](http://edutechwiki.unige.ch/fr/AntConc#)    
+[Page AntConc sur le site Exploration de corpus : outils et pratiques](http://explorationdecorpus.corpusecrits.huma-num.fr/antconc/)    
+[Tutoriel AntConc du CID-ENS Lyon](http://cid.ens-lyon.fr/ac_article.asp?fic=antconc.asp)    
 
-En France, des outils similaires à AntConc ont été dévéloppés dans le cadre de la textométrie, de la lexicométrie, et de la logométrie, souvent par des historien(ne)s. On peut nommer notamment [Hyperbase](https://ancilla.unice.fr/), [Iramuteq](https://iramuteq.org/), [Lexico](https://www.lexi-co.com/) ou [TXM](https://textometrie.ens-lyon.fr/?lang=fr). Merci de consulter également: Bénédicte Pincemin, ["Sept logiciels de textométrie"](https://halshs.archives-ouvertes.fr/halshs-01843695/document), 2018.  
+En France, des outils similaires à AntConc ont été dévéloppés dans le cadre de la textométrie, de la lexicométrie, et de la logométrie, souvent par des historien(ne)s. On peut nommer notamment [Hyperbase](http://ancilla.unice.fr/), [Iramuteq](http://iramuteq.org/), [Lexico](http://www.lexi-co.com/) ou [TXM](http://textometrie.ens-lyon.fr/?lang=fr). Merci de consulter également: Bénédicte Pincemin, ["Sept logiciels de textométrie"](https://halshs.archives-ouvertes.fr/halshs-01843695/document), 2018.  
 
 #### Bibliographie non-exhaustive
 
-Ludovic Lebart et André Salem, [*Statistique textuelle*](https://lexicometrica.univ-paris3.fr/livre/st94/st94-tdm.html), 1994.    
+Ludovic Lebart et André Salem, [*Statistique textuelle*](http://lexicometrica.univ-paris3.fr/livre/st94/st94-tdm.html), 1994.    
 Damon Mayaffre, ["L’entrelacement lexical des textes. Cooccurrences et lexicométrie"](https://hal.archives-ouvertes.fr/hal-00553808), _Journées de linguistique de corpus_, 2008, p. 91-102.  
 [La cooccurrence, du fait statistique au fait textuel](https://journals.openedition.org/corpus/2183), _Corpus_, 11, 2012, numéro coordonné par Damon Mayaffre et Jean-Marie Viprey.  
 
-[41]: https://www.lexically.net/downloads/version6/HTML/index.html?keyness_definition.htm
-[43]: https://hfroehlich.wordpress.com/2014/05/11/intro-bibliography-corpus-linguistics/
-[47]: https://hfroehli.ch/workshops/getting-started-with-antconc/
-[48]: https://voyant-tools.org/
+[41]: http://www.lexically.net/downloads/version6/HTML/index.html?keyness_definition.htm
+[43]: http://hfroehlich.wordpress.com/2014/05/11/intro-bibliography-corpus-linguistics/
+[47]: http://hfroehli.ch/workshops/getting-started-with-antconc/
+[48]: http://voyant-tools.org/
 [50]: /en/lessons/intro-to-beautiful-soup
 [51]: /en/lessons/automated-downloading-with-wget
-[52]: https://www.antlab.sci.waseda.ac.jp/
-[53]: https://notepad-plus-plus.org/
-[54]: https://www.barebones.com/products/textwrangler/
-[55]: https://www.wordfrequency.info/free.asp
-[56]: https://hfroehli.ch/2014/05/11/intro-bibliography-corpus-linguistics/
+[52]: http://www.antlab.sci.waseda.ac.jp/
+[53]: http://notepad-plus-plus.org/
+[54]: http://www.barebones.com/products/textwrangler/
+[55]: http://www.wordfrequency.info/free.asp
+[56]: http://hfroehli.ch/2014/05/11/intro-bibliography-corpus-linguistics/

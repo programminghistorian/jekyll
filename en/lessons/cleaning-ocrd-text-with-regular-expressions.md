@@ -14,7 +14,7 @@ machine-encoded text—has proven a godsend for historical research. This lesson
 exclude_from_check:
   - reviewers
   - review-ticket
-redirect_from: /lessons/cleaning-ocrd-text-with-regular-expressions/
+redirect_from: /lessons/cleaning-ocrd-text-with-regular-expressions
 avatar_alt: A typesetter and inker at work on a printing press
 doi: 10.46430/phen0024
 ---
@@ -417,27 +417,27 @@ Regular Expressions are powerful. Yes, they are powerful enough to
 completely destroy your data. So practice on copies and take it one itty
 bitty step at a time.
 
-  [HeinOnline]: https://home.heinonline.org/
+  [HeinOnline]: http://home.heinonline.org/
     "Source for Legal and Government-based documents"
-  [pdfminer]: https://www.unixuser.org/~euske/python/pdfminer/index.html
+  [pdfminer]: http://www.unixuser.org/~euske/python/pdfminer/index.html
     "PDF Miner Module"
   [Pythonium’s Pyrexp]: https://pythonium.net/regex
     "Python Regex Tester"
-  [Patterns App]: https://krillapps.com/patterns/
+  [Patterns App]: http://krillapps.com/patterns/
     "Patterns App for RegEx Experimentation"
   [cheat sheet]: https://cheatography.com/davechild/cheat-sheets/regular-expressions/
     "Reg Ex Cheat Sheet"
-  [documentation]: https://docs.python.org/2/library/re.html
+  [documentation]: http://docs.python.org/2/library/re.html
     "Re Module Documentation"
-  [Regular Expression HOWTO documentation]: https://docs.python.org/2/howto/regex.html#regex-howto
+  [Regular Expression HOWTO documentation]: http://docs.python.org/2/howto/regex.html#regex-howto
     "Reuglar Expressions HOWTO"
-  [sed]: https://www.gnu.org/software/sed/ "GNU's sed editor"
-  [grep]: https://www.gnu.org/software/grep/ "GNU's grep editor"
-  [re.search()]: https://docs.python.org/2/library/re.html#re.search
+  [sed]: http://www.gnu.org/software/sed/ "GNU's sed editor"
+  [grep]: http://www.gnu.org/software/grep/ "GNU's grep editor"
+  [re.search()]: http://docs.python.org/2/library/re.html#re.search
     "Explanation of re.search() function"
-  [re.sub()]: https://docs.python.org/2/library/re.html#re.sub
+  [re.sub()]: http://docs.python.org/2/library/re.html#re.sub
     "Explanation of re.sub() function"
-  [verbose mode]: https://docs.python.org/2/library/re.html#re.VERBOSE
+  [verbose mode]: http://docs.python.org/2/library/re.html#re.VERBOSE
     "Explanation of re.verbose mode"
-  [re.compile()]: https://docs.python.org/2/library/re.html#re.compile
+  [re.compile()]: http://docs.python.org/2/library/re.html#re.compile
     "Explanation of re.compile() function"

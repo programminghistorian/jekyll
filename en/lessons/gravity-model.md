@@ -110,7 +110,7 @@ While gravity models can be used in a range of different migration and trade stu
 
 1 - Adam Crymble, Adam Dennett, Tim Hitchcock, "Modelling regional imbalances in English plebeian migration to late eighteenth-century London", *Economic History Review*, 71, 3 (2018), pp. 747-771: <https://doi.org/10.1111/ehr.12569> (Paywall until July 2019).
 
-2 - Adam Crymble, Louise Falcini, Tim Hitchcock, "Vagrant Lives: 14,789 Vagrants Processed by the County of Middlesex, 1777-1786", *Journal of Open Humanities Data*, vol. 1, no. 1 (2015), <https://doi.org/10.5334/johd.1>.
+2 - Adam Crymble, Louise Falcini, Tim Hitchcock, "Vagrant Lives: 14,789 Vagrants Processed by the County of Middlesex, 1777-1786", *Journal of Open Humanities Data*, vol. 1, no. 1 (2015), <http://doi.org/10.5334/johd.1>.
 
 The Vagrancy Act of 1744 gave communities in England and Wales the right to expel outsiders back from whence they came. This was an important right because welfare was distributed locally at the time, and it was paid for by local taxes with the intention of supporting local people. That meant that a large influx of poor outsiders could financially cripple communities that attracted a lot of migration (such as those in London). This restriction on internal migration was only really used against the poor, and constables and local magistrates had tremendous powers of discretion over who they labelled a "vagrant" and who they left alone. As of the time of writing, a version of this law is still on the books in England, and it is still used by the police to arrest people who are begging or who they otherwise feel need to be removed from a situation. People in the late eighteenth century who were arrested under the 1744 act are therefore evidence of internal migration between the various counties of England and London. The question is: were any counties sending more or fewer vagrants to London than we would expect?
 
@@ -122,7 +122,7 @@ A sample of the primary sources that detail these individuals' journeys can be s
 
 As part of the "[Vagrant Lives](https://web.archive.org/web/20190213131016/http://www.migrants.adamcrymble.org/the-project/)" project, the original vagrancy lists were converted into a scholarly dataset and published as:
 
-* Adam Crymble, Louise Falcini, Tim Hitchcock, "Vagrant Lives: 14,789 Vagrants Processed by the County of Middlesex, 1777-1786", *Journal of Open Humanities Data*, vol. 1, no. 1 (2015), <https://doi.org/10.5334/johd.1>.
+* Adam Crymble, Louise Falcini, Tim Hitchcock, "Vagrant Lives: 14,789 Vagrants Processed by the County of Middlesex, 1777-1786", *Journal of Open Humanities Data*, vol. 1, no. 1 (2015), <http://doi.org/10.5334/johd.1>.
 
 Readers are invited to download and explore this [published dataset](https://zenodo.org/record/1217600) and its documentation to understand the types of primary sources being modelled in this example.
 
@@ -239,7 +239,7 @@ In probability statistics, there are a number of different [probability distribu
 
 As it happens, our vagrants are best suited to a negative binomial distribution. The reasons for this are that they represent count data (1, 2, 53 vagrants) that must be whole numbers (no 0.5 vagrants) and cannot be negative (no -9 vagrants). Earlier gravity modelling conducted in the 1980s tended to use a [Poisson Distribution](https://en.wikipedia.org/wiki/Poisson_distribution) for modelling human migration. The best approach for gravity models is still a point of academic debate, with some scholars opting for a Negative Binomial approach, and others sticking with the Poisson distribution.[^7] It is possible that another probability distribution entirely is most appropriate for your own data. If you were modelling trade surpluses or deficits (which could be + or -), your data may not follow a negative binomial distribution, and the author recommends speaking to a statistician about the most appropriate option.
 
-What this means for us in this example is that the formula changes slightly. In particular, we no longer solve for $y$, but for the [natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm) ($ln$) of the [population mean](https://www.statisticshowto.com/population-mean/) ($μ$). You can read more about this type of formula in Michael L. Zwilling's work[^8].
+What this means for us in this example is that the formula changes slightly. In particular, we no longer solve for $y$, but for the [natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm) ($ln$) of the [population mean](http://www.statisticshowto.com/population-mean/) ($μ$). You can read more about this type of formula in Michael L. Zwilling's work[^8].
 
 **Multivariate Regression Model:**
 
@@ -801,7 +801,7 @@ With thanks to Angela Kedgley, Sarah Lloyd, Tim Hitchcock, Joe Cozens, Katrina N
 [^5]: For English speakers, the author recommends Eugene O'Loughlin, 'How To...Perform Simple Linear Regression by Hand', *YouTube* (23 December 2015): <https://www.youtube.com/watch?v=GhrxgbQnEEU>.
 [^6]: "Chapter 326: Negative Binomial Regression", *NCSS Stats Software* (n.d.): <https://ncss-wpengine.netdna-ssl.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Negative_Binomial_Regression.pdf>
 [^7]: Flowerdew, R. and Aitkin, M., ‘A method of fitting the gravity model based on the Poisson distribution’, *Journal of Regional Science*, 22 (1982), pp. 191–202; Flowerdew, R. and Lovett, A., ‘Fitting constrained Poisson regression models to interurban migration flows’, *Geographical Analysis*, 20 (1988), pp. 297–307; Congdon, P., ‘Approaches to modeling overdispersion in the analysis of migration’, *Environment and Planning* A, 25 (1993), pp. 1481–510; Flowerdew, R., ‘Modelling migration with Poisson regression’, in J. Stillwell, O. Duke-Williams, and A. Dennett, eds., *Technologies for migration and commuting analysis: spatial interaction data applications* (Hershey, Pa., 2010), pp. 261–79.
-[^8]: Michael L. Zwilling, "Negative Binomial Regression", *The Mathematica Journal*, vol. 15 (2013): <https://www.mathematica-journal.com/2013/06/negative-binomial-regression/>.
+[^8]: Michael L. Zwilling, "Negative Binomial Regression", *The Mathematica Journal*, vol. 15 (2013): <http://www.mathematica-journal.com/2013/06/negative-binomial-regression/>.
 [^9]: Crymble, A, A. Dennett, and T. Hitchcock, "Modelling regional imbalances in English plebeian migration to late eighteenth-century London", *Economic History Review*, vol. 71, no. 3 (2018), 747-771.
 [^10]: For example, see: Grigg, D.B. "E.G. Ravenstein and the 'laws of migration", *Journal of Historical Geography*, vol. 3, no. 1 (1977), pp. 44-54.
 [^11]: Crymble, A, A. Dennett, and T. Hitchcock, "Modelling regional imbalances in English plebeian migration to late eighteenth-century London", *Economic History Review*, vol. 71, no. 3 (2018), 753-754.

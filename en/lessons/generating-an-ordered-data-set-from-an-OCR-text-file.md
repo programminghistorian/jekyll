@@ -14,7 +14,7 @@ exclude_from_check:
 activity: transforming
 topics: [data-manipulation]
 abstract: "This tutorial illustrates strategies for taking raw OCR output from a scanned text, parsing it to isolate and correct essential elements of metadata, and generating an ordered data set (a python dictionary) from it."
-redirect_from: /lessons/generating-an-ordered-data-set-from-an-OCR-text-file/
+redirect_from: /lessons/generating-an-ordered-data-set-from-an-OCR-text-file
 avatar_alt: A small case with a set of books
 doi: 10.46430/phen0036
 ---
@@ -37,13 +37,13 @@ It is often the case that historians involved in digital projects wish to work w
 
 2. Even if you had such an army of helpers, proof-reading the OCR output of, say, a collection of twelfth century Italian charters transcribed and published in 1935, will quickly drive them all mad, make their eyes bleed, and the result will still be a great wad of text containing a great many errors, and you will __still__ have to do __something__ to it before it becomes useful in any context.
 
-Going through a text file line by line and correcting OCR errors one at a time is hugely error-prone, as any proof reader will tell you. There are ways to automate some of this tedious work. A scripting language like Perl or Python can allow you to search your OCR output text for common errors and correct them using "Regular Expressions", a language for describing patterns in text. (So called because they express a ["regular language"](https://en.wikipedia.org/wiki/Regular_language). See L.T. O'Hara's [tutorial on Regular Expressions](/en/lessons/cleaning-ocrd-text-with-regular-expressions) here at the PM.) Regular Expressions, however, are only useful if the expressions you are searching for are ... well ... regular. Unfortunately, much of what you have in OCR output is highly *irregular*. If you could impose some order on it: create an ordered data set out of it, your Regular Expression tools would become much more powerful.
+Going through a text file line by line and correcting OCR errors one at a time is hugely error-prone, as any proof reader will tell you. There are ways to automate some of this tedious work. A scripting language like Perl or Python can allow you to search your OCR output text for common errors and correct them using "Regular Expressions", a language for describing patterns in text. (So called because they express a ["regular language"](http://en.wikipedia.org/wiki/Regular_language). See L.T. O'Hara's [tutorial on Regular Expressions](/lessons/cleaning-ocrd-text-with-regular-expressions.html) here at the PM.) Regular Expressions, however, are only useful if the expressions you are searching for are ... well ... regular. Unfortunately, much of what you have in OCR output is highly *irregular*. If you could impose some order on it: create an ordered data set out of it, your Regular Expression tools would become much more powerful.
 
 Consider, for example, what happens if your OCR interpreted a lot of strings like this "21 July, 1921" as "2l July, 192l", turning the integer '1' into an 'l'. You would love to be able to write a search and replace script that would turn all instances of 2l into 21, but then what would happen if you had lots of occurrences of strings like this in your text: "2lb. hammer". You'd get a bunch of 21b. hammers; not what you want. If only you could tell your script: only change 2l into 21 in sections where there are dates, not weights. If you had an ordered data set, you could do things like that.
 
 Very often the texts that historians wish to digitize are, in fact, ordered data sets: ordered collections of primary source documents, or a legal code say, or a cartulary. But the editorial structure imposed upon such resources is usually designed for a particular kind of data retrieval technology i.e., a codex, a book. For a digitized text you need a different kind of structure. If you can get rid of the book related infrastructure and reorganize the text according to the sections and divisions that you're interested in, you will wind up with data that is much easier to do search and replace operations on, and as a bonus, your text will become immediately useful in a variety of other contexts as well.
 
-This is where a scripting language like Python comes very much in handy. For our project we wanted to prepare some of the documents from a [12th century collection of *imbreviatura*](https://www.worldcat.org/oclc/17591390) from the Italian scribe known as Giovanni Scriba (you can [access the PDF here](https://notariorumitinera.eu/Docs/Biblioteca_Digitale/SB/3a47488c28eef2aedfea52ebbde2c634/dd361cb1479ab2309f5ceef1f875c2a5.pdf)) so that they could be marked up by historians for subsequent NLP analysis or potentially for other purposes as well. The pages of the 1935 published edition look like this.
+This is where a scripting language like Python comes very much in handy. For our project we wanted to prepare some of the documents from a [12th century collection of *imbreviatura*](http://www.worldcat.org/oclc/17591390) from the Italian scribe known as Giovanni Scriba (you can [access the PDF here](https://notariorumitinera.eu/Docs/Biblioteca_Digitale/SB/3a47488c28eef2aedfea52ebbde2c634/dd361cb1479ab2309f5ceef1f875c2a5.pdf)) so that they could be marked up by historians for subsequent NLP analysis or potentially for other purposes as well. The pages of the 1935 published edition look like this.
 
 {% include figure.html filename="gs_pg110.png" caption="GS page 110" %}
 
@@ -156,7 +156,7 @@ Unfortunately, regular expressions won't help you much here. This text can appea
     IL CIRTOL.'RE DI G:OV.I\N( sca:FR	339
     342	NI .\ßlO CHIAUDANO 9LtTTIA MORESCO
 
-These strings are not regular enough to reliably find with regular expressions; however, if you know what the strings are *supposed* to look like, you can compose some kind of string similarity algorithm to test each string against an exemplar and measure the likelihood that it is a page header. Fortunately, I didn't have to compose such an algorithm, Vladimir Levenshtein did it for us in 1965 (see: <https://en.wikipedia.org/wiki/Levenshtein_distance>). A computer language can encode this algorithm in any number of ways; here's an effective Python function that will work for us:
+These strings are not regular enough to reliably find with regular expressions; however, if you know what the strings are *supposed* to look like, you can compose some kind of string similarity algorithm to test each string against an exemplar and measure the likelihood that it is a page header. Fortunately, I didn't have to compose such an algorithm, Vladimir Levenshtein did it for us in 1965 (see: <http://en.wikipedia.org/wiki/Levenshtein_distance>). A computer language can encode this algorithm in any number of ways; here's an effective Python function that will work for us:
 
 
 ```python
@@ -224,21 +224,21 @@ def rom2ar(rom):
 (run <[this little script](/assets/generating-an-ordered-data-set-from-an-OCR-text-file/Roman_to_Arabic.txt)> to see in detail how `rome2ar` works. Elegant programming like this can offer insight; like poetry.)
 
 ## Some other things we'll need:
-At the top of your Python module, you're going to want to import some python modules that are a part of the standard library. (see Fred Gibbs's tutorial [*Installing Python Modules with pip*](/en/lessons/installing-python-modules-pip)).
+At the top of your Python module, you're going to want to import some python modules that are a part of the standard library. (see Fred Gibbs's tutorial [*Installing Python Modules with pip*](/lessons/installing-python-modules-pip)).
 
 1. First among these is the "re" (regular expression) module `import re`. Regular expressions are your friends. However, bear in mind Jamie Zawinski's quip:
 
     >Some people, when confronted with a problem, think "I know, I'll use regular expressions." Now they have two problems.
 
-    (Again, have a look at L.T. O'Hara's introduction here at the Programming Historian [Cleaning OCR’d text with Regular Expressions](/en/lessons/cleaning-ocrd-text-with-regular-expressions))
+    (Again, have a look at L.T. O'Hara's introduction here at the Programming Historian [Cleaning OCR’d text with Regular Expressions](/lessons/cleaning-ocrd-text-with-regular-expressions.html))
 
 2. Also: `from pprint import pprint`. `pprint` is just a pretty-printer for python objects like lists and dictionaries. You'll want it because python dictionaries are much easier to read if they are formatted.
 
-3. And: `from collections import Counter`. We'll want this for the [Find and normalize footnote markers and texts](#find-and-normalize-footnote-markers-and-texts) section below. This is not really necessary, but we'll do some counting that would require a lot of lines of fiddly code and this will save us the trouble. The collections module has lots of deep magic in it and is well worth getting familiar with. (Again, see Doug Hellmann's PyMOTW for the [collections](https://pymotw.com/3/collections/index.html) module. I should also point out that his book [*The Python Standard Library By Example*](https://doughellmann.com/books/the-python-3-standard-library-by-example/) is one well worth having.)
+3. And: `from collections import Counter`. We'll want this for the [Find and normalize footnote markers and texts](#footnotes) section below. This is not really necessary, but we'll do some counting that would require a lot of lines of fiddly code and this will save us the trouble. The collections module has lots of deep magic in it and is well worth getting familiar with. (Again, see Doug Hellmann's PyMOTW for the [collections](https://pymotw.com/3/collections/index.html) module. I should also point out that his book [*The Python Standard Library By Example*](https://doughellmann.com/books/the-python-3-standard-library-by-example/) is one well worth having.)
 
 ## A very brief review of regular expressions as they are implemented in python
 
-L.T. O'Hara's [introduction](/en/lessons/cleaning-ocrd-text-with-regular-expressions) to using python flavored regular expressions is invaluable. In this context we should review a couple of basic facts about Python's implementation of regular expressions, the `re` module, which is part of Python's standard library.
+L.T. O'Hara's [introduction](/lessons/cleaning-ocrd-text-with-regular-expressions.html) to using python flavored regular expressions is invaluable. In this context we should review a couple of basic facts about Python's implementation of regular expressions, the `re` module, which is part of Python's standard library.
 
 1. `re.compile()` creates a regular expression object that has a number of methods. You should be familiar with `.match()`, and `.search()`, but also `.findall()` and `.finditer()`
 2. Bear in mind the difference between `.match()` and `.search()`: `.match()` will only match at the __beginning__ of a line, whereas `.search()` will match anywhere in the line __but then it stops__, it'll __only__ return the first match it finds.
@@ -490,7 +490,7 @@ Since those roman numeral headings are now reliably findable with our 'slug' reg
 slug_and_firstline = re.compile("(\[~~~~\sGScriba_)(.*)\s::::\s(\d+)\s~~~~\]\n(.*)(\(\d?.*\d+\))")
 ```
 
-Let's break down that regex using the verbose mode (again, see O'Hara's [tutorial](/en/lessons/cleaning-ocrd-text-with-regular-expressions)). Our 'slug' for each charter takes the form "[~\~\~\~ GScriba_CCVII :::: 207 ~~~~]" for example. The compiled pattern above is exactly equivalent to the folowing (note the re.VERBOSE switch at the end):
+Let's break down that regex using the verbose mode (again, see O'Hara's [tutorial](/lessons/cleaning-ocrd-text-with-regular-expressions.html)). Our 'slug' for each charter takes the form "[~\~\~\~ GScriba_CCVII :::: 207 ~~~~]" for example. The compiled pattern above is exactly equivalent to the folowing (note the re.VERBOSE switch at the end):
 
 ```python
 slug_and_firstline = re.compile(r"""
@@ -823,7 +823,7 @@ Note that the `try: except:` blocks come to the rescue again here. The loop abov
 > NOTA BENE: Again, bear in mind that we are modifying a data structure in memory rather than editing successive text files. So this loop should be __added__ to your script __below__ the summary and marginal loop, which is __below__ the loop that created your skeleton dictionary.
 
 ## Parse Dates and add to the dictionary
-Dates are hard. Students of British history cling to [Cheyney](https://www.worldcat.org/oclc/41238508) as to a spar on a troubled ocean. And, given the way the Gregorian calendar was adopted so gradually, and innumerable other local variations, correct date reckoning for medieval sources will always require care and local knowledge. Nevertheless, here too Python can be of some help.
+Dates are hard. Students of British history cling to [Cheyney](http://www.worldcat.org/oclc/41238508) as to a spar on a troubled ocean. And, given the way the Gregorian calendar was adopted so gradually, and innumerable other local variations, correct date reckoning for medieval sources will always require care and local knowledge. Nevertheless, here too Python can be of some help.
 
 Our Italian summary line invariably contains a date drawn from the text, and it's conveniently set off from the rest of the line by parentheses. So we can parse them and create Python `date` objects. Then, if we want, we can do some simple calendar arithmetic.
 
@@ -850,7 +850,7 @@ for ch in charters:
 
 Once you're satisfied that all the parenthetical date expressions are present and correct, and conform to your regular expression, you can parse them and add them to your data structure as dates rather than just strings. For this you can use the `datetime` module.
 
-This module is part of the standard library, is a deep subject, and ought to be the subject of its own tutorial, given the importance of dates for historians. As with a lot of other python modules, a good introduction is Doug Hellmann's [PyMOTW](https://pymotw.com/3/datetime/index.html)(module of the week). An even more able extension library is [mxDateTime](https://www.egenix.com/products/python/mxBase/mxDateTime/). Suffice it here to say that the `datetime.date` module expects parameters like this:
+This module is part of the standard library, is a deep subject, and ought to be the subject of its own tutorial, given the importance of dates for historians. As with a lot of other python modules, a good introduction is Doug Hellmann's [PyMOTW](https://pymotw.com/3/datetime/index.html)(module of the week). An even more able extension library is [mxDateTime](http://www.egenix.com/products/python/mxBase/mxDateTime/). Suffice it here to say that the `datetime.date` module expects parameters like this:
 
 ```python
 >>> from datetime import date
@@ -957,7 +957,7 @@ Print out our resulting dictionary using `pprint(charters)` and you'll see somet
 }
 ```
 
-Printing out your Python dictionary as a literal string is not a bad thing to do. For a text this size, the resulting file is perfectly manageable, can be mailed around usefully and read into a python repl session very simply using `eval()`, or pasted directly into a Python module file. On the other hand, if you want an even more reliable way to serialize it in an exclusively Python context, look into [`Pickle`](https://docs.python.org/3.7/library/pickle.html). If you need to move it to some other context, JavaScript for example, or some `RDF` triple stores, Python's [`json`](https://docs.python.org/3.7/library/json.html#module-json) module will translate effectively. If you have to get some kind of XML output, I will be very sorry for you, but the [`lxml`](https://lxml.de/) python module may ease the pain a little.
+Printing out your Python dictionary as a literal string is not a bad thing to do. For a text this size, the resulting file is perfectly manageable, can be mailed around usefully and read into a python repl session very simply using `eval()`, or pasted directly into a Python module file. On the other hand, if you want an even more reliable way to serialize it in an exclusively Python context, look into [`Pickle`](https://docs.python.org/3.7/library/pickle.html). If you need to move it to some other context, JavaScript for example, or some `RDF` triple stores, Python's [`json`](https://docs.python.org/3.7/library/json.html#module-json) module will translate effectively. If you have to get some kind of XML output, I will be very sorry for you, but the [`lxml`](http://lxml.de/) python module may ease the pain a little.
 
 ## Order from disorder, huzzah.
 Now that we have an ordered data structure, we can do many things with it. As a very simple example, let's append some code that just prints `charters` out as html for display on a web-site:
@@ -1049,7 +1049,7 @@ Being able to do this with your, still mostly uncorrected, OCR output is not a t
 
 And, our original problem, OCR cleanup, is now much more tractable because we can target regular expressions for the specific sorts of metadata we have: errors in the Italian summary or in the Latin text? Or we could design search-and-replace routines just for specific charters, or groups of charters.
 
-Beyond this though, there's lots you can do with an ordered data set, including feeding it back through a markup tool like the [brat](https://brat.nlplab.org) as we did for the ChartEx project. Domain experts can then start adding layers of semantic tagging even if you don't do any further OCR error correction. Moreover, with an ordered dataset we can get all sorts of output, some other flavor of XML (if you must) for example: TEI (Text Encoding Initiative), or EAD (Encoded Archival Description). Or you could read your dataset directly into a relational database, or some kind of key/value store. All of these things are essentially impossible if you're working simply with a plain text file.
+Beyond this though, there's lots you can do with an ordered data set, including feeding it back through a markup tool like the [brat](http://brat.nlplab.org) as we did for the ChartEx project. Domain experts can then start adding layers of semantic tagging even if you don't do any further OCR error correction. Moreover, with an ordered dataset we can get all sorts of output, some other flavor of XML (if you must) for example: TEI (Text Encoding Initiative), or EAD (Encoded Archival Description). Or you could read your dataset directly into a relational database, or some kind of key/value store. All of these things are essentially impossible if you're working simply with a plain text file.
 
 The bits of code above are in no way a turn-key solution for cleaning arbitrary OCR output. There is no such magic wand. The Google approach to scanning the contents of research libraries threatens to drown us in an ocean of bad data. Worse, it elides a fundamental fact of digital scholarship: digital sources are hard to get. Reliable, flexible, and useful digital texts require careful redaction and persistent curation. Google, Amazon, Facebook, *et alia* do not have to concern themselves with the quality of their data, just its quantity. Historians, on the other hand, must care first for the integrity of their sources.
 

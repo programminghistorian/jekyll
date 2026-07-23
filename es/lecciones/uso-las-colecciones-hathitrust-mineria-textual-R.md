@@ -78,7 +78,7 @@ library(stringr)
 
 ## Obtener los atributos extraídos de un volumen
 
-Cada libro o volumen en HathiTrust posee un número de identificación único (o el "htid"), el cual permite que obtengamos datos sobre el volumen. Cuando el libro no está limitado por los derechos de autor, puedes verlo añadiendo su número de identificación a un URL de la siguiente manera: `http://hdl.handle.net/2027/{número de identificación}`. Por ejemplo, el número que identifica una de las primeras ediciones de la clásica novela colombiana, *María* de Jorge Isaacs, es `uc1.31175010656638` y al visitar el enlace [https://hdl.handle.net/2027/uc1.31175010656638](https://hdl.handle.net/2027/uc1.31175010656638) accedemos a una copia de la obra.
+Cada libro o volumen en HathiTrust posee un número de identificación único (o el "htid"), el cual permite que obtengamos datos sobre el volumen. Cuando el libro no está limitado por los derechos de autor, puedes verlo añadiendo su número de identificación a un URL de la siguiente manera: `http://hdl.handle.net/2027/{número de identificación}`. Por ejemplo, el número que identifica una de las primeras ediciones de la clásica novela colombiana, *María* de Jorge Isaacs, es `uc1.31175010656638` y al visitar el enlace [http://hdl.handle.net/2027/uc1.31175010656638](http://hdl.handle.net/2027/uc1.31175010656638) accedemos a una copia de la obra.
 
 {% include figure.html filename="es-or-uso-las-colecciones-hathitrust-mineria-textual-R-01.png" alt="Ejemplar de la novela María en el sitio HathiTrust" caption="Figura 1. 'María' de Jorge Isaacs" %}
 

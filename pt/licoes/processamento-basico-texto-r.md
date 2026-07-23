@@ -1057,7 +1057,7 @@ Existem muitos tutoriais genéricos para estes três exemplos, assim como uma do
 
 [^6]: Tradução publicada pela Folha em português (13 de janeiro de 2016) [https://www1.folha.uol.com.br/mundo/2016/01/1729011-leia-a-integra-do-ultimo-discurso-do-estado-da-uniao-de-obama.shtml](https://www1.folha.uol.com.br/mundo/2016/01/1729011-leia-a-integra-do-ultimo-discurso-do-estado-da-uniao-de-obama.shtml) [N. de T.]
 
-[^7]: Foi feito o download de todos os discursos presidenciais do The American Presidency Project da University of California Santa Barbara (acesso em 11 de novembro de 2016) [https://www.presidency.ucsb.edu/sou.php](https://www.presidency.ucsb.edu/sou.php)
+[^7]: Foi feito o download de todos os discursos presidenciais do The American Presidency Project da University of California Santa Barbara (acesso em 11 de novembro de 2016) [http://www.presidency.ucsb.edu/sou.php](http://www.presidency.ucsb.edu/sou.php)
 
 [^8]: Aqui, voltamos para a versão original do discurso, em inglês, para dar prosseguimento à análise e, particularmente, para observarmos a lista de palavras mais utilizadas em inglês. Continuaremos a traduzir os nomes das variáveis e das funções para facilitar a compreensão em português [N. de T.].
 

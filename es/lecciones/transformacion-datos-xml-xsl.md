@@ -256,7 +256,7 @@ Los ejemplos de código de línea de comandos que mostraremos aquí presupondrá
 
 Para empezar a transformar un documento XML, primero es necesario obtener un archivo *bien formado*.[^2] 
 Muchas bases de datos históricas disponibles en línea están modeladas en XML y, a veces, ofrecen sus datos en abierto. 
-Para realizar este tutorial utilizaremos la base de datos [Scissors and Paste](https://scissors-and-paste.net).
+Para realizar este tutorial utilizaremos la base de datos [Scissors and Paste](http://scissors-and-paste.net).
 
 La base de datos *Scissors and Paste* es una colección colaborativa, en continuo crecimiento, que contiene noticias procedentes de periódicos británicos e imperiales de los siglos XVIII y XIX. Los dos objetivos originales del proyecto eran facilitar la comparación de reediciones aparecidas en distintos periódicos y detectar temas similares en distintas publicaciones inglesas. Como muchas bases de datos XML, *Scissors and Paste* contiene datos (el texto), información sobre el formato (como las cursivas o las justificación de los párrafos) y metadatos.[^3]
 Los metadatos recogen la paginación de la noticia, la fecha de impresión, algunos detalles adicionales sobre el periódico, los temas principales y una lista con las personas y lugares mencionados.
@@ -336,7 +336,7 @@ La primeras tres líneas de tu archivo XSL serán las siguientes:
 
 La primera línea declara que este es un documento XML versión 1.0, codificado como UTF-8.
 (¡Nota que un documento XSL es en últimas un tipo especial de documento XML!)
-La segunda línea declara que se trata de la versión 1.0 de XSL y que el uso del [espacio de nombres](https://es.wikipedia.org/wiki/Espacio_de_nombres_XML) (*namespace*, en inglés) es el estándar establecido por el [Consorcio World Wide Web](https://www.w3.org/), cuya URI (*Uniform Resource Identifier*) figura en la instrucción.
+La segunda línea declara que se trata de la versión 1.0 de XSL y que el uso del [espacio de nombres](https://es.wikipedia.org/wiki/Espacio_de_nombres_XML) (*namespace*, en inglés) es el estándar establecido por el [Consorcio World Wide Web](http://www.w3.org/), cuya URI (*Uniform Resource Identifier*) figura en la instrucción.
 Finalmente, la tercera línea le indica al procesador XSL que queremos generar un archivo de texto plano. 
 (También podrías haber puesto `xml` o `html`, en lugar de `text`, para generar un documento XML o uno HTML, respectivamente.)
 

@@ -23,7 +23,7 @@ translation-reviewer:
 - Marie Flesch
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/560
-next: /fr/lecons/du-html-a-une-liste-de-mots-2
+next: du-html-a-une-liste-de-mots-2
 series_total: 2 lessons
 sequence: 1
 activity: transforming

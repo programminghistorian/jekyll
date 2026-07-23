@@ -326,7 +326,7 @@ As I have described, __tf-idf__ has its origins in information retrieval, and th
 
 ### 1. As an Exploratory Tool or Visualization Technique
 
-As I've already demonstrated, terms lists with __tf-idf__ scores for each document in a corpus can be a strong interpretive aid in themselves, they can help generate hypotheses or research questions. Word lists can also be the building bocks for more sophisticated browsing and visualization strategies. ["A full-text visualization of the Iraq War Logs"](https://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs), by Jonathan Stray and Julian Burgess, is a good example of this use case.[^11] Using __tf-idf__-transformed features, Stray and Burgess build a network visualization that positions Iraq War logs in relation to their most distinctive keywords. This way of visualizing textual information led Stray to develop [the Overview Project](https://www.overviewdocs.com), which provides a dashboard for users to visualize and search thousands of documents at a time. We could use this kind of approach to graph our obituaries corpus and see if there are keyword communities.
+As I've already demonstrated, terms lists with __tf-idf__ scores for each document in a corpus can be a strong interpretive aid in themselves, they can help generate hypotheses or research questions. Word lists can also be the building bocks for more sophisticated browsing and visualization strategies. ["A full-text visualization of the Iraq War Logs"](http://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs), by Jonathan Stray and Julian Burgess, is a good example of this use case.[^11] Using __tf-idf__-transformed features, Stray and Burgess build a network visualization that positions Iraq War logs in relation to their most distinctive keywords. This way of visualizing textual information led Stray to develop [the Overview Project](https://www.overviewdocs.com), which provides a dashboard for users to visualize and search thousands of documents at a time. We could use this kind of approach to graph our obituaries corpus and see if there are keyword communities.
 
 ### 2. Textual Similarity and Feature Sets
 
@@ -435,7 +435,7 @@ If you are not using Anaconda, you will need to cover the following dependencies
 
 1. Install Python 2 or 3 (preferably Python 3.6 or later)
 2. Recommended: install and run a virtual environment
-3. Install the Scikit-Learn library and its dependencies (see [https://scikit-learn.org/stable/install.html](https://scikit-learn.org/stable/install.html)).
+3. Install the Scikit-Learn library and its dependencies (see [http://scikit-learn.org/stable/install.html](http://scikit-learn.org/stable/install.html)).
 4. Install Jupyter Notebook and its dependencies
 
 # Endnotes

@@ -29,11 +29,11 @@ Quer uma versão derivada seja criada ou não, a lição a remover seguirá as s
 
 ## Mais sobre sustentabilidade das lições
 
-[Directrizes para Autores para escrever de maneira sustentável](/pt/directrizes-autor#escrita-sustentável)
+[Directrizes para Autores para escrever de maneira sustentável](/directrizes-autor#escrita-sustentável)
 
-[Diretrizes para Revisores para avaliar a sustentabilidade da lição](/pt/directrizes-revisor#sustentabilidade)
+[Diretrizes para Revisores para avaliar a sustentabilidade da lição](/directrizes-revisor#sustentabilidade)
 
-[Directrizes para Editores para promoverem a sustentabilidade da lição](/pt/directrizes-editor#c-revisão-para-a-sustentabilidade-e-internacionalização)
+[Directrizes para Editores para promoverem a sustentabilidade da lição](/directrizes-editor#c-revisão-para-a-sustentabilidade-e-internacionalização)
 
 ## Lições removidas
 

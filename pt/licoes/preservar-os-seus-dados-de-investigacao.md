@@ -173,7 +173,7 @@ documentada), embora esquemas existentes, como o [Markdown][] estejam disponíve
 (os ficheiros do Markdown são salvos como .md). Uma excelente página 
 de dicas do Markdown está disponível no GitHub <https://github.com/adam-p/markdown-here>) para aqueles
 que desejam seguir - ou adaptar - este esquema existente. O Notepad++
-<https://notepad-plus-plus.org/> é recomendado para usuários do Windows, embora
+<http://notepad-plus-plus.org/> é recomendado para usuários do Windows, embora
 de modo algum seja essencial para trabalhar com ficheiros .md. Usuários de Mac ou Unix podem
 achar útil o [Komodo Edit][] ou o [Text Wrangler][].
 
@@ -236,7 +236,7 @@ frequentemente usadas. O site Homens e Navios do Bacalhau estrutura seu arquivo 
 usando o formato:
 
 -   *nome do site*/registo/*número de referência*
--   <https://homensenaviosdobacalhau.cm-ilhavo.pt/header/diretorio/showppl/17606>
+-   <http://homensenaviosdobacalhau.cm-ilhavo.pt/header/diretorio/showppl/17606>
 
 E o Arquivo Histórico Ultramarino usa o formato:
 
@@ -418,11 +418,11 @@ blog (17 outubro 2013)
 
 Hitchcock, Tim, 'Judging a book by its URLs', Historyonics blog (3
 janeiro 2014)
-<https://historyonics.blogspot.co.uk/2014/01/judging-book-by-its-url.html>
+<http://historyonics.blogspot.co.uk/2014/01/judging-book-by-its-url.html>
 
 Howard, Sharon, 'Unclean, unclean! What historians can do about sharing
 our messy research data', Early Modern Notes blog (18 maio 2013)
-<https://earlymodernnotes.wordpress.com/2013/05/18/unclean-unclean-what-historians-can-do-about-sharing-our-messy-research-data/>
+<http://earlymodernnotes.wordpress.com/2013/05/18/unclean-unclean-what-historians-can-do-about-sharing-our-messy-research-data/>
 
 Noble, William Stafford, A Quick Guide to Organizing Computational
 Biology Projects.PLoSComputBiol 5(7): e1000424 (2009)
@@ -435,7 +435,7 @@ Information Management: Organising Humanities Material' (2011)
 Pennock, Maureen, 'The Twelve Principles of Digital Preservation (and a
 cartridge in a repository…)', British Library Collection Care blog (3
 setembro 2013)
-<https://britishlibrary.typepad.co.uk/collectioncare/2013/09/the-twelve-principles-of-digital-preservation.html>
+<http://britishlibrary.typepad.co.uk/collectioncare/2013/09/the-twelve-principles-of-digital-preservation.html>
 
 Pritchard, Adam, 'Markdown Cheatsheet' (2013)
 <https://github.com/adam-p/markdown-here>

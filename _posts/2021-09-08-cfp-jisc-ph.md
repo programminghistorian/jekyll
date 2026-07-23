@@ -33,7 +33,7 @@ As a result of this partnership we are delighted to invite authors to submit pro
 - Show how a computational methodology or technique can be applied to a digital collection in order to generate initial findings it as a precursor to in-depth research;
 - Demystify ‘big data’ analysis techniques for a humanities audience;
 - Describe methods that advance humanities research questions through the analysis of large-scale digital collections;
-- Demonstrate ‘[Minimal Computing](https://go-dh.github.io/mincomp/about/)’ approaches to the analysis of large-scale digital collections and thereby meet the needs of scholars working ‘under some set of significant constraints of hardware, software, education, network capacity, power, or other factors’.
+- Demonstrate ‘[Minimal Computing](http://go-dh.github.io/mincomp/about/)’ approaches to the analysis of large-scale digital collections and thereby meet the needs of scholars working ‘under some set of significant constraints of hardware, software, education, network capacity, power, or other factors’.
 
 Examples of the kind of large-scale collections that would be in scope are digitised texts, email archives, social media data, web archives, bibliographic datasets, image collections, and catalogue data. This is not exhaustive, however, and no type of large-scale research collection is *a priori* excluded.
 
@@ -73,11 +73,11 @@ The project would particularly welcome lessons which engage with web archives or
 - the UK Medical Heritage library, on the Jisc Historical Texts platform (https://ukmhl.historicaltexts.jisc.ac.uk/home) 
 - British Library 19th Century Books, also on the Jisc Historical Texts platform, ([https://historicaltexts.jisc.ac.uk](https://historicaltexts.jisc.ac.uk/)) 
 - The National Archives’ Discovery platform (https://discovery.nationalarchives.gov.uk/). A sandbox API is available at[https://discovery.nationalarchives.gov.uk/API/sandbox/index](https://discovery.nationalarchives.gov.uk/API/sandbox/index). 
-- The UK Government Web Archive (https://www.nationalarchives.gov.uk/webarchive/)
+- The UK Government Web Archive (http://www.nationalarchives.gov.uk/webarchive/)
 
 Other useful sources of data include:
 
-- The UK Web Archive (https://data.webarchive.org.uk/opendata/)
+- The UK Web Archive (http://data.webarchive.org.uk/opendata/)
 - The GeoCities special collection at the Internet Archive (https://archive.org/web/geocities.php)
 - The Enron email corpus (https://www.cs.cmu.edu/~enron/)
 - Library of Congress Web Archive datasets (https://labs.loc.gov/work/experiments/webarchive-datasets/)

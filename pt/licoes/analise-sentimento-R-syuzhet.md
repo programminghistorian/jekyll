@@ -58,11 +58,11 @@ O pacote `syuzhet` funciona com quatro dicionários de sentimentos: Bing, Afinn,
 
 Seus termos de uso estabelecem que o vocabulário pode ser usado gratuitamente para fins de pesquisa, portanto, todos os dados estão disponíveis para download.
 
-Se trabalhamos com o inglês, podemos interagir com as diferentes categorias no site do [NRC Word-Emotion Association Lexicon](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm). Lá também podemos encontrar trabalhos publicados sobre a obtenção dos valores para o vocabulário, sua organização, extensão, etc.
+Se trabalhamos com o inglês, podemos interagir com as diferentes categorias no site do [NRC Word-Emotion Association Lexicon](http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm). Lá também podemos encontrar trabalhos publicados sobre a obtenção dos valores para o vocabulário, sua organização, extensão, etc.
 
 ## Pacote `syuzhet`
 
-O [pacote `syuzhet`](https://cran.r-project.org/web/packages/syuzhet/vignettes/syuzhet-vignette.html) foi desenvolvido em 2015 por Matthew Jockers; que o mantém funcionando até hoje e continuamente apresenta novas versões (no momento da preparação desta lição, foi usada a versão de dezembro de 2017). Uma série de posts no blog acompanham o desenvolvimento do pacote, e estão disponíveis no blog do professor desde [5 de junho de 2014](https://www.matthewjockers.net/page/2/) (em inglês).
+O [pacote `syuzhet`](https://cran.r-project.org/web/packages/syuzhet/vignettes/syuzhet-vignette.html) foi desenvolvido em 2015 por Matthew Jockers; que o mantém funcionando até hoje e continuamente apresenta novas versões (no momento da preparação desta lição, foi usada a versão de dezembro de 2017). Uma série de posts no blog acompanham o desenvolvimento do pacote, e estão disponíveis no blog do professor desde [5 de junho de 2014](http://www.matthewjockers.net/page/2/) (em inglês).
 
 Naturalmente, o pacote foi desenvolvido com testes em textos escritos ou traduzidos para o inglês e não sem debate sobre sua utilidade, para atribuir valores a textos literários que muitas vezes são, por natureza, bastante subjetivos.  
 

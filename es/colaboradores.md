@@ -18,7 +18,7 @@ original: supporters
 - [Jisc](https://www.jisc.ac.uk/), Reino Unido  
 
 ## Instituciones asociadas
-Contribuidores de nuestro [Programa de Instituciones Asociadas](/es/pia):
+Contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 
 - [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Bélgica
 - [Western University Library](https://www.lib.uwo.ca/), Canadá
@@ -29,7 +29,7 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](/es/pia):
 - [Cambridge Digital Humanities](https://www.cdh.cam.ac.uk/), Reino Unido
 - [Georg-August-Universität Göttingen](https://www.uni-goettingen.de/), Alemania
 - [MIT Libraries](https://libraries.mit.edu/), Estados Unidos
-- [Center for Digital Research in the Humanities, University of Nebraska-Lincoln](https://cdrh.unl.edu/), Estados Unidos
+- [Center for Digital Research in the Humanities, University of Nebraska-Lincoln](http://cdrh.unl.edu/), Estados Unidos
 - [The National Archives](https://www.nationalarchives.gov.uk/), Reino Unido
 - [College of the Liberal Arts, Penn State University](https://la.psu.edu/), Estados Unidos
 - [University of Bristol Library](https://www.bristol.ac.uk/library/), Reino Unido
@@ -50,10 +50,10 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](/es/pia):
 - [University of Cambridge](https://www.cam.ac.uk/), Reino Unido
 - [Zentralbibliothek Zürich](https://www.zb.uzh.ch/), Suiza
 
-Son bienvenidas las consultas de potenciales contribuidores del [Programa de Instituciones Asociadas](/es/pia).
+Son bienvenidas las consultas de potenciales contribuidores del [Programa de Instituciones Asociadas](pia).
 
 ## Alumni
-Antiguos contribuidores de nuestro [Programa de Instituciones Asociadas](/es/pia):
+Antiguos contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos [2021-2022]
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido [2021-2022]

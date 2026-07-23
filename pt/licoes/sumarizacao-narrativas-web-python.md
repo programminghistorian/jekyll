@@ -33,7 +33,7 @@ A mudança para um paradigma de comunicação baseado na internet obrigou a uma 
 
 Apesar dos avanços recentes na preservação de informações arquivadas a partir da web, o problema de explorar de forma eficiente o património histórico preservado por estes arquivos permanece por resolver devido às enormes quantidades de dados históricos arquivados ao longo do tempo e à inexistência de ferramentas que possam processar automaticamente esse volume de dados. Neste contexto, as *timelines* (sistemas automáticos de sumarização temporal) surgem como a solução ideal para a produção automática de resumos de eventos ao longo do tempo e para a análise das informações publicadas online que os documentam, como é o caso das notícias. 
 
-Neste tutorial, pretendemos mostrar como explorar o [Arquivo.pt](https://arquivo.pt), o arquivo da web portuguesa, e como criar automaticamente resumos de eventos do passado a partir de conteúdos históricos arquivados da web. Mais concretamente, demonstraremos como obter resultados relevantes ao combinar o uso da [API (Interface de Programação de Aplicações)](https://perma.cc/6ASS-KZFW) do Arquivo.pt com a utilização do [*Conta-me Histórias*](https://contamehistorias.pt), um sistema que permite criar automaticamente narrativas temporais sobre qualquer tema objeto de notícia. Para a concretização desse objetivo disponibilizamos um Jupyter Notebook que os usuários poderão usar para interagir com ambas as ferramentas. 
+Neste tutorial, pretendemos mostrar como explorar o [Arquivo.pt](http://arquivo.pt), o arquivo da web portuguesa, e como criar automaticamente resumos de eventos do passado a partir de conteúdos históricos arquivados da web. Mais concretamente, demonstraremos como obter resultados relevantes ao combinar o uso da [API (Interface de Programação de Aplicações)](https://perma.cc/6ASS-KZFW) do Arquivo.pt com a utilização do [*Conta-me Histórias*](https://contamehistorias.pt), um sistema que permite criar automaticamente narrativas temporais sobre qualquer tema objeto de notícia. Para a concretização desse objetivo disponibilizamos um Jupyter Notebook que os usuários poderão usar para interagir com ambas as ferramentas. 
 
 Na primeira parte do tutorial, iremos apresentar sumariamente as funções de pesquisa e acesso disponibilizadas pelo Arquivo.pt. Demonstraremos como podem ser utilizadas de forma automática através da invocação dos métodos disponibilizados pela API do Arquivo.pt, recorrendo a exemplos simples e práticos. A pesquisa automática de palavras em páginas arquivadas ao longo do tempo é o serviço base para desenvolver rapidamente aplicações informáticas inovadoras, que permitem explorar e tirar maior partido da informação histórica preservada pelo Arquivo.pt, como é caso do projeto *Conta-me Histórias*.
 
@@ -285,7 +285,7 @@ seremos direcionados para o *Conta-me Histórias*, onde obteremos, automaticamen
 
 {% include figure.html filename="sumarizacao-narrativas-web-python-2.jpeg" alt="Resultados da pesquisa por Jorge Sampaio no Conta-me Histórias para o periodo compreendido entre 07/04/2016 e 17/11/2016" caption="Figura 2: Resultados da pesquisa por 'Jorge Sampaio' no *Conta-me Histórias* para o periodo compreendido entre 2016-04-07 e 2016-11-17." %}
 
-Para a seleção das notícias mais relevantes recorremos ao [YAKE!](https://yake.inesctec.pt) (em inglês), um extrator de palavras relevantes (desenvolvido pela nossa equipa de pesquisa) e que, neste contexto, é utilizado para selecionar os excertos mais importantes de uma notícia (mais concretamente os seus títulos) ao longo do tempo.
+Para a seleção das notícias mais relevantes recorremos ao [YAKE!](http://yake.inesctec.pt) (em inglês), um extrator de palavras relevantes (desenvolvido pela nossa equipa de pesquisa) e que, neste contexto, é utilizado para selecionar os excertos mais importantes de uma notícia (mais concretamente os seus títulos) ao longo do tempo.
 
 Um aspeto interessante da aplicação é o facto desta facilitar o acesso à página web arquivada que dá nome ao título selecionado como relevante. Por exemplo, ao clicar em cima do título "Jorge Sampaio formaliza apoio a Sampaio da Nóvoa" o usuário poderá visualizar a seguinte página web:
 
@@ -419,7 +419,7 @@ Neste tutorial, procurámos mostrar como criar automaticamente sumários tempora
 
 # Prémios
 
-O projeto *Conta-me Histórias* foi o vencedor do [Prémio Arquivo.pt 2018](https://sobre.arquivo.pt/pt/vencedores-premios-arquivo-pt/) e o vencedor da [Best Demo Presentation](https://ecir2019.org/workshops/) na [41st European Conference on Information Retrieval (ECIR-19)](https://ecir2019.org/) (em inglês).
+O projeto *Conta-me Histórias* foi o vencedor do [Prémio Arquivo.pt 2018](https://sobre.arquivo.pt/pt/vencedores-premios-arquivo-pt/) e o vencedor da [Best Demo Presentation](https://ecir2019.org/workshops/) na [41st European Conference on Information Retrieval (ECIR-19)](http://ecir2019.org/) (em inglês).
 
 # Financiamento
 
@@ -438,10 +438,10 @@ Ricardo Campos foi financiado por fundos nacionais através do Fundação para a
 
 * Gomes, D., Demidova, E., Winters, J., and Risse, T. (eds.), *The Past Web: Exploring Web Archives*. Springer, 2021. [https://arquivo.pt/book](https://arquivo.pt/book) [Pre-print](https://perma.cc/Q693-DLPA)
 
-* Gomes, D., and Costa M.. "The Importance of Web Archives for Humanities". *International Journal of Humanities and Arts Computing*, (April 2014).  [https://sobre.arquivo.pt/wp-content/uploads/the-importance-of-web-archives-for-humanities.pdf](https://perma.cc/4WHP-Q534).
+* Gomes, D., and Costa M.. "The Importance of Web Archives for Humanities". *International Journal of Humanities and Arts Computing*, (April 2014).  [http://sobre.arquivo.pt/wp-content/uploads/the-importance-of-web-archives-for-humanities.pdf](https://perma.cc/4WHP-Q534).
 
 * Alam,Sawood, Weigle, Michele C., Nelson, Michael L., Melo, Fernando, Bicho, Daniel, Gomes, Daniel. "MementoMap Framework for Flexible and Adaptive Web Archive Profiling" In *Proceedings of Joint Conference on Digital Libraries 2019*. Urbana-Champaign, Illinois, US: June 2019. [https://www.cs.odu.edu/~salam/drafts/mementomap-jcdl19-cameraready.pdf](https://perma.cc/7ES7-A7H7).
 
-* Costa, M.. "Information Search in Web Archives" PhD thesis, Universidade de Lisboa, December 2014. [https://sobre.arquivo.pt/wp-content/uploads/phd-thesis-information-search-in-web-archives.pdf](https://perma.cc/HU5S-M2XE)
+* Costa, M.. "Information Search in Web Archives" PhD thesis, Universidade de Lisboa, December 2014. [http://sobre.arquivo.pt/wp-content/uploads/phd-thesis-information-search-in-web-archives.pdf](https://perma.cc/HU5S-M2XE)
 
 * Mourão, A., Gomes, D.. *The Anatomy of a Web Archive Image Search Engine. Technical Report*. Lisboa, Portugal: Arquivo.pt, dezembro 2021. [https://sobre.arquivo.pt/wp-content/uploads/The_Anatomy_of_a_Web_Archive_Image_Search_Engine_tech_report.pdf](https://perma.cc/2JF4-EF4T)

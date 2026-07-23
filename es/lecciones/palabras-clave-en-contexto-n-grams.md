@@ -20,8 +20,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/50
 layout: lesson
-next: /es/lecciones/salida-palabras-clave-contexto-ngrams
-previous: /es/lecciones/salida-de-datos-como-archivo-html
+next: salida-palabras-clave-contexto-ngrams
+previous: salida-de-datos-como-archivo-html
 original: keywords-in-context-using-n-grams
 python_warning: false
 difficulty: 2
@@ -182,9 +182,9 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 -   python-es-lecciones8.zip ([zip sync][])
 
-- [Salida de datos como archivo HTML](/es/lecciones/salida-de-datos-como-archivo-html)
-- [Contar frecuencias de palabras](/es/lecciones/contar-frecuencias)
-- [1](/es/lecciones/salida-de-datos-como-archivo-html)
-- [archivo zip de las lecciones anteriores](/assets/python-es-lecciones7.zip)
-- [Manipular cadenas de caracteres en Python](/es/lecciones/manipular-cadenas-de-caracteres-en-python)
-- [zip sync](/assets/python-es-lecciones8.zip)
+  [Salida de datos como archivo HTML]: /es/lecciones/salida-de-datos-como-archivo-html
+  [Contar frecuencias de palabras]: /es/lecciones/contar-frecuencias
+  [1]: salida-de-datos-como-archivo-html
+  [archivo zip de las lecciones anteriores]: /assets/python-es-lecciones7.zip
+  [Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python
+  [zip sync]: /assets/python-es-lecciones8.zip

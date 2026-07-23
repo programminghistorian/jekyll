@@ -16,7 +16,7 @@ difficulty: 3
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/29
 abstract: |
   Explains how to use Python to summarize and visualize data on millions of texts from the HathiTrust Research Center's Extracted Features dataset.
-redirect_from: /lessons/text-mining-with-extracted-features/
+redirect_from: /lessons/text-mining-with-extracted-features
 mathjax: true
 avatar_alt: A book inside a torn case
 doi: 10.46430/phen0058
@@ -60,17 +60,17 @@ Though it is relatively new, the Extracted Features dataset is already seeing us
 
 [Underwood](https://doi.org/10.6084/m9.figshare.1279201) leveraged the features for identifying genres, such as fiction, poetry, and drama (2014). Associated with this work, he has released a dataset of 178k books classified by genre alongside genre-specific word counts ([Underwood 2015](https://doi.org/10.13012/J8JW8BSJ)).
 
-The Underwood subset of the Extracted Features dataset was used by Forster (2015) to [observe gender in literature](https://web.archive.org/web/20160105003327/https://cforster.com/2015/09/gender-in-hathitrust-dataset/), illustrating the decline of woman authors through the 19th century.
+The Underwood subset of the Extracted Features dataset was used by Forster (2015) to [observe gender in literature](https://web.archive.org/web/20160105003327/http://cforster.com/2015/09/gender-in-hathitrust-dataset/), illustrating the decline of woman authors through the 19th century.
 
-The Extracted Features dataset also underlies higher-level analytic tools. [Mimno](https://mimno.infosci.cornell.edu/wordsim/nearest.html) processed word co-occurrence tables per year, allowing others to view how correlations between topics change over time (2014). The [HT Bookworm](https://analytics.hathitrust.org/bookworm) project has developed an API and visualization tools to support exploration of trends within the HathiTrust collection across various classes, genres, and languages. Finally, we have developed an approach to [within-book topic modelling](https://github.com/organisciak/htrc-book-models) which functions as a mnemonic accompaniment to a previously-read book (Organisciak 2014).
+The Extracted Features dataset also underlies higher-level analytic tools. [Mimno](http://mimno.infosci.cornell.edu/wordsim/nearest.html) processed word co-occurrence tables per year, allowing others to view how correlations between topics change over time (2014). The [HT Bookworm](https://analytics.hathitrust.org/bookworm) project has developed an API and visualization tools to support exploration of trends within the HathiTrust collection across various classes, genres, and languages. Finally, we have developed an approach to [within-book topic modelling](https://github.com/organisciak/htrc-book-models) which functions as a mnemonic accompaniment to a previously-read book (Organisciak 2014).
 
 ## Suggested Prior Skills
 
 This lesson provides a gentle but technical introduction to text analysis in Python with the HTRC Feature Reader. Most of the code is provided, but is most useful if you are comfortable tinkering with it and seeing how outputs change when you do.
 
-We recommend a baseline knowledge of Python conventions, which can be learned with Turkel and Crymble's [series of Python lessons](/en/lessons/introduction-and-installation) on Programming Historian.
+We recommend a baseline knowledge of Python conventions, which can be learned with Turkel and Crymble's [series of Python lessons](/lessons/introduction-and-installation) on Programming Historian.
 
-The skills taught here are focused on flexibly accessing and working with already-computed text features. For a better understanding of the process of deriving word features, Programming Historian provides a lesson on [Counting Frequencies](/en/lessons/counting-frequencies), by Turkel and Crymble.
+The skills taught here are focused on flexibly accessing and working with already-computed text features. For a better understanding of the process of deriving word features, Programming Historian provides a lesson on [Counting Frequencies](/lessons/counting-frequencies), by Turkel and Crymble.
 
 A more detailed look at text analysis with Python is provided in the [Art of Literary Text Analysis](https://github.com/sgsinclair/alta/blob/master/ipynb/ArtOfLiteraryTextAnalysis.ipynb) (Sinclair). The Art of Literary Text Analysis (ALTA) provides a deeper introduction to foundation Python skills, as well as introduces further text analytics concepts to accompany the skills we cover in this lesson. This includes lessons on extracting features ([tokenization](https://github.com/sgsinclair/alta/blob/master/ipynb/Nltk.ipynb), [collocations](https://github.com/sgsinclair/alta/blob/master/ipynb/RepeatingPhrases.ipynb)), and [visualizing trends](https://github.com/sgsinclair/alta/blob/master/ipynb/GettingGraphical.ipynb).
 
@@ -111,7 +111,7 @@ This command installs the HTRC Feature Reader and its necessary dependencies. We
 
 That's it! At this point you have everything necessary to start reading HTRC Feature Reader files.
 
-> *psst*, advanced users: You can install the HTRC Feature Reader *without* Anaconda with `pip install htrc-feature-reader`, though for this lesson you'll need to install two additional libraries `pip install matplotlib jupyter`. Also, note that not all manual installations are alike because of hard-to-configure system optimizations: this is why we recommend Anaconda. If you think your code is going slow, you should check that Numpy has access to [BLAS and LAPACK libraries](https://stackoverflow.com/a/19350234/233577) and install [Pandas recommended packages](https://pandas.pydata.org/docs/getting_started/install.html#performance-dependencies-recommended). The rest is up to you, advanced user!
+> *psst*, advanced users: You can install the HTRC Feature Reader *without* Anaconda with `pip install htrc-feature-reader`, though for this lesson you'll need to install two additional libraries `pip install matplotlib jupyter`. Also, note that not all manual installations are alike because of hard-to-configure system optimizations: this is why we recommend Anaconda. If you think your code is going slow, you should check that Numpy has access to [BLAS and LAPACK libraries](http://stackoverflow.com/a/19350234/233577) and install [Pandas recommended packages](http://pandas.pydata.org/pandas-docs/version/0.15.2/install.html#recommended-dependencies). The rest is up to you, advanced user!
 
 ## Start a Notebook
 
@@ -150,7 +150,7 @@ In this notebook, it's time to give the HTRC Feature Reader a try. When it is ti
 ## Reading your First Volume
 The HTRC Feature Reader library has three main objects: **FeatureReader**, **Volume**, and **Page**.
 
-The **FeatureReader** object is the interface for loading the dataset files and making sense of them. The files are originally formatted in a notation called JSON (which _Programming Historian_ discusses [here](/en/lessons/json-and-jq)) and compressed, which FeatureReader makes sense of and returns as Volume objects. A **Volume** is a representation of a single book or other work. This is where you access features about a work. Many features for a volume are collected from individual pages; to access Page information, you can use the **Page** object.
+The **FeatureReader** object is the interface for loading the dataset files and making sense of them. The files are originally formatted in a notation called JSON (which _Programming Historian_ discusses [here](/lessons/json-and-jq)) and compressed, which FeatureReader makes sense of and returns as Volume objects. A **Volume** is a representation of a single book or other work. This is where you access features about a work. Many features for a volume are collected from individual pages; to access Page information, you can use the **Page** object.
 
 Let's load two volumes to understand how the FeatureReader works. Create a cell in the already-open Jupyter notebook and run the following code. This should give you the input shown below.
 
@@ -232,7 +232,7 @@ The volume id can be used to pull more information from other sources. The scann
 print(vol.handle_url)
 ```
 
-    https://hdl.handle.net/2027/nyp.33433075749246
+    http://hdl.handle.net/2027/nyp.33433075749246
 
 
 {% include figure.html filename="June-cover.PNG" caption="Digital copy of sample book" %}
@@ -327,7 +327,7 @@ tokens.plot()
 
 On some systems, this may take some time the first time. It is clear that pages at the start of a book have fewer words per page, after which the count is fairly steady except for occasional valleys.
 
-You may have some guesses for what these patterns mean. A look at the [scans](https://hdl.handle.net/2027/nyp.33433074811310) confirms that the large valleys are often illustration pages or blank pages, small valleys are chapter headings, and the upward pattern at the start is from front matter.
+You may have some guesses for what these patterns mean. A look at the [scans](http://hdl.handle.net/2027/nyp.33433074811310) confirms that the large valleys are often illustration pages or blank pages, small valleys are chapter headings, and the upward pattern at the start is from front matter.
 
 Not all books will have the same patterns so we can't just codify these correlations for millions of books. However, looking at this plot makes clear an inportant assumption in text and data mining: that there are patterns underlying even the basic statistics derived from a text. The trick is to identify the consistent and interesting patterns and teach them to a computer.
 
@@ -441,7 +441,7 @@ Look at the following list of commands: can you guess what the output will look 
  - `vol.tokenlist(section='header')`
  - `vol.tokenlist(section='group')`
 
-Details for these arguments are available in the code [documentation](https://htrc.github.io/htrc-feature-reader/htrc_features/feature_reader.m.html#htrc_features.feature_reader.Volume.tokenlist) for the Feature Reader.
+Details for these arguments are available in the code [documentation](http://htrc.github.io/htrc-feature-reader/htrc_features/feature_reader.m.html#htrc_features.feature_reader.Volume.tokenlist) for the Feature Reader.
 
 Jupyter provides another convenience here. Documentation can be accessed within the notebook by adding a '?' to the start of a piece of code. Try it with `?vol.tokenlist`, or with other objects or variables.
 
@@ -885,7 +885,7 @@ for page_number in page_numbers:
 token_idx = tl.index.get_level_values("token")
 tl[token_idx.str.isalpha()]
 ```
-Readers familiar with regular expressions (see [Understanding Regular Expressions](/en/lessons/understanding-regular-expressions) by Doug Knox) can adapt this example for even more robust selection using the `contains()` string method.
+Readers familiar with regular expressions (see [Understanding Regular Expressions](/lessons/understanding-regular-expressions) by Doug Knox) can adapt this example for even more robust selection using the `contains()` string method.
 
 ## Sorting DataFrames
 
@@ -1022,7 +1022,7 @@ The output is a count of how often each part-of-speech tag ("pos") occurs in the
 - *Apply* with `sum()`: These groups were sent to an apply function, `sum()`. Sum is an aggregation function, so it sums all the information in the 'count' column for each group. For example, all the rows of data in the adverb group are summed up into a single count of all adverbs.
 - *Combine*: The combine step is implicit: the DataFrame knows from the `groupby` pattern to take everything that the apply function gives back (in the case of 'sum', just one row for every group) and stick it together.
 
-`sum()` is one of many convenient functions [built-in](https://pandas.pydata.org/pandas-docs/stable/groupby.html) to Pandas. Other useful functions are `mean()`, `count()`, `max()`. It is also possible to send your groups to any function that you write with `apply()`.
+`sum()` is one of many convenient functions [built-in](http://pandas.pydata.org/pandas-docs/stable/groupby.html) to Pandas. Other useful functions are `mean()`, `count()`, `max()`. It is also possible to send your groups to any function that you write with `apply()`.
 
 > groupby can be used on data columns or an index. To run against an index, use `level=[index_level_name]` as above. To group against columns, use `by=[column_name]`.
 
@@ -1143,7 +1143,7 @@ Like iterating over `FeatureReader.volumes()` to get Volume objects, it is possi
 
 # Next Steps
 
-Now that you know the basics of the HTRC Feature Reader, you can learn more about the [Extracted Features dataset](https://analytics.hathitrust.org/features). The [Feature Reader home page](https://github.com/htrc/htrc-feature-reader/blob/master/README.ipynb) contains a lesson similar to this one but for more advanced users (that's you now!), and the [code documentation](https://htrc.github.io/htrc-feature-reader/htrc_features/feature_reader.m.html) gives exact information about what types of information can be called.
+Now that you know the basics of the HTRC Feature Reader, you can learn more about the [Extracted Features dataset](https://analytics.hathitrust.org/features). The [Feature Reader home page](https://github.com/htrc/htrc-feature-reader/blob/master/README.ipynb) contains a lesson similar to this one but for more advanced users (that's you now!), and the [code documentation](http://htrc.github.io/htrc-feature-reader/htrc_features/feature_reader.m.html) gives exact information about what types of information can be called.
 
 Underwood (2015) has released [genre classifications of public-domain texts in the HTRC EF Dataset](https://analytics.hathitrust.org/genre), comprised of fiction, poetry, and drama. Though many historians will be interested in other corners of the dataset, fiction is a good place to tinker with text mining ideas because of its expressiveness and relative format consistency.
 
@@ -1156,15 +1156,15 @@ Finally, the repository for the HTRC Feature Reader has [advanced tutorial noteb
 
 Boris Capitanu, Ted Underwood, Peter Organisciak, Timothy Cole, Maria Janina Sarol, J. Stephen Downie (2016). The HathiTrust Research Center Extracted Feature Dataset (1.0) [Dataset]. *HathiTrust Research Center*. [https://doi.org/10.13012/J8X63JT3](https://doi.org/10.13012/J8X63JT3)
 
-Chris Forster. "A Walk Through the Metadata: Gender in the HathiTrust Dataset." Blog. [https://cforster.com/2015/09/gender-in-hathitrust-dataset/](https://web.archive.org/web/20160105003327/https://cforster.com/2015/09/gender-in-hathitrust-dataset/).
+Chris Forster. "A Walk Through the Metadata: Gender in the HathiTrust Dataset." Blog. [http://cforster.com/2015/09/gender-in-hathitrust-dataset/](https://web.archive.org/web/20160105003327/http://cforster.com/2015/09/gender-in-hathitrust-dataset/).
 
-Matthew L. Jockers (Feb 2015). "Revealing Sentiment and Plot Arcs with the Syuzhet Package". *Matthew L. Jockers*. Blog. https://www.matthewjockers.net/2015/02/02/syuzhet/.
+Matthew L. Jockers (Feb 2015). "Revealing Sentiment and Plot Arcs with the Syuzhet Package". *Matthew L. Jockers*. Blog. http://www.matthewjockers.net/2015/02/02/syuzhet/.
 
 Peter Organisciak, Loretta Auvil, J. Stephen Downie (2015). “Remembering books: A within-book topic mapping technique.” Digital Humanities 2015. Sydney, Australia.
 
 Stéfan Sinclair & Geoffrey Rockwell (2016). "The Art of Literary Text Analysis." Github.com. Commit b04bc18. https://github.com/sgsinclair/alta.
 
-[William J. Turkel and Adam Crymble (2012). "Counting Word Frequencies with Python". The Programming Historian.](/en/lessons/counting-frequencies).
+William J. Turkel and Adam Crymble (2012). "Counting Word Frequencies with Python". The Programming Historian. /lessons/counting-frequencies.
 
 Ted Underwood (2014): Understanding Genre in a Collection of a Million Volumes, Interim Report. figshare.
 [https://doi.org/10.6084/m9.figshare.1281251.v1](https://doi.org/10.6084/m9.figshare.1281251.v1)
@@ -1192,7 +1192,7 @@ rsync -azv data.analytics.hathitrust.org::features/listing/htrc-ef-all-files.txt
 
 ```
 
-Finally, it is possible to download many files from a list. To try, we've put together lists for public-domain [fiction](https://data.analytics.hathitrust.org/genre/fiction_paths.txt), [drama](https://data.analytics.hathitrust.org/genre/drama_paths.txt), and [poetry](https://data.analytics.hathitrust.org/genre/poetry_paths.txt) (Underwood 2014). For example:
+Finally, it is possible to download many files from a list. To try, we've put together lists for public-domain [fiction](http://data.analytics.hathitrust.org/genre/fiction_paths.txt), [drama](http://data.analytics.hathitrust.org/genre/drama_paths.txt), and [poetry](http://data.analytics.hathitrust.org/genre/poetry_paths.txt) (Underwood 2014). For example:
 
 ```bash
 rsync -azv --files-from=fiction_paths.txt data.analytics.hathitrust.org::features/ .

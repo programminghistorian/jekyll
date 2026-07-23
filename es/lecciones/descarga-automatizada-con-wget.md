@@ -191,7 +191,7 @@ En este punto, las personas usuarias de las tres plataformas deben estar en la m
 
 La documentación completa para wget se puede encontrar en la página del [Manual de wget de GNU][].
 
-Tomemos un ejemplo de conjunto de datos. Digamos que deseas descargar todos los documentos alojados en el sitio web ActiveHistory.ca. Todos están ubicados en: <https://activehistory.ca/papers/>; en el sentido de que están todos contenidos en el directorio `/papers/`. Por ejemplo, el noveno documento publicado en el sitio web es <https://activehistory.ca/papers/historypaper-9/>. Piensa en esta estructura de la misma forma que los directorios en tu propia computadora. Si tienes una carpeta con la etiqueta `/Historia/`, es probable que contenga varios archivos dentro de ella. La misma estructura es válida para los sitios web y estamos usando esta lógica para decirle a nuestra computadora qué archivos queremos descargar.
+Tomemos un ejemplo de conjunto de datos. Digamos que deseas descargar todos los documentos alojados en el sitio web ActiveHistory.ca. Todos están ubicados en: <http://activehistory.ca/papers/>; en el sentido de que están todos contenidos en el directorio `/papers/`. Por ejemplo, el noveno documento publicado en el sitio web es <http://activehistory.ca/papers/historypaper-9/>. Piensa en esta estructura de la misma forma que los directorios en tu propia computadora. Si tienes una carpeta con la etiqueta `/Historia/`, es probable que contenga varios archivos dentro de ella. La misma estructura es válida para los sitios web y estamos usando esta lógica para decirle a nuestra computadora qué archivos queremos descargar.
 
 Si deseas descargarlos todos manualmente deberás escribir un programa personalizado o hacer clic derecho en cada papel para hacerlo. Si los archivos están organizados de una manera que se ajuste a tus necesidades de investigación, wget es el abordaje más rápido.
 
@@ -228,7 +228,7 @@ Saving to: `index.html.1'
 2012-05-15 15:50:26 (374 KB/s) - `index.html.1' saved [37668]
 ```
 
-Wget descargó la primera página de <https://activehistory.ca/papers/>, que contiene el índice de los documentos, a tu nuevo directorio. Si lo abres, verás el texto principal en la página de inicio de ActiveHistory.ca. Así que de un golpe ya hemos descargado algo rápidamente.
+Wget descargó la primera página de <http://activehistory.ca/papers/>, que contiene el índice de los documentos, a tu nuevo directorio. Si lo abres, verás el texto principal en la página de inicio de ActiveHistory.ca. Así que de un golpe ya hemos descargado algo rápidamente.
 
 Pero lo que queremos hacer ahora es descargar cada uno de los papeles. Así que necesitamos agregar algunos comandos a wget.
 
@@ -244,7 +244,7 @@ Acabamos de aprender cosas sobre el componente [URL] en el ejemplo anterior, ya 
 -r
 ```
 
-La recuperación recursiva es la parte más importante de wget. Lo que esto significa es que el programa comienza siguiendo los enlaces del sitio web y también los descarga. Entonces, por ejemplo, <https://activehistory.ca/papers/> tiene un enlace a <https://activehistory.ca/papers/historypaper-9/>, por lo que también se descargará si utilizamos la recuperación recursiva. Sin embargo, también seguirá a cualquier otro enlace: si hubiera un enlace a <https://uwo.ca> en algún lugar de esa página, seguiría eso y lo descargaría también. De forma predeterminada, `-r` envía wget a una profundidad de cinco sitios después del primero. Esto es siguiendo los enlaces, hasta un límite de cinco clics después del primer sitio web. En este punto, será bastante indiscriminado. Así que necesitamos más comandos:
+La recuperación recursiva es la parte más importante de wget. Lo que esto significa es que el programa comienza siguiendo los enlaces del sitio web y también los descarga. Entonces, por ejemplo, <http://activehistory.ca/papers/> tiene un enlace a <http://activehistory.ca/papers/historypaper-9/>, por lo que también se descargará si utilizamos la recuperación recursiva. Sin embargo, también seguirá a cualquier otro enlace: si hubiera un enlace a <http://uwo.ca> en algún lugar de esa página, seguiría eso y lo descargaría también. De forma predeterminada, `-r` envía wget a una profundidad de cinco sitios después del primero. Esto es siguiendo los enlaces, hasta un límite de cinco clics después del primer sitio web. En este punto, será bastante indiscriminado. Así que necesitamos más comandos:
 
 
 ``` bash
@@ -253,7 +253,7 @@ La recuperación recursiva es la parte más importante de wget. Lo que esto sign
 
 (El doble guión indica el texto completo de un comando. Todos los comandos también tienen una versión corta, éste podría iniciarse usando -np).
 
-Esto es muy importante. Quiere decir que wget debe seguir los enlaces pero no más allá del último directorio principal. En nuestro caso, eso significa que no irá a ninguna sitio que no sea parte de la jerarquía de https://activehistory.ca/papers/. Si se tratara de una ruta larga como https://niche-canada.org/projects/events/new-events/not-yet-happened-events/, solo encontraría archivos en la carpeta `/not-yet-happened-events/`. Es un comando crítico para delimitar tu búsqueda.
+Esto es muy importante. Quiere decir que wget debe seguir los enlaces pero no más allá del último directorio principal. En nuestro caso, eso significa que no irá a ninguna sitio que no sea parte de la jerarquía de http://activehistory.ca/papers/. Si se tratara de una ruta larga como http://niche-canada.org/projects/events/new-events/not-yet-happened-events/, solo encontraría archivos en la carpeta `/not-yet-happened-events/`. Es un comando crítico para delimitar tu búsqueda.
 
 Aquí una representación gráfica:
 
@@ -320,12 +320,12 @@ Aquí solo he dado una instantánea de algunas de las funcionalidades de wget. P
 [^2]: La versión más reciente es wget 1.19, desde el 3 de febrero de 2017.
 
 
-[Command Line Bootcamp]: https://praxis.scholarslab.org/scratchpad/bash/
+[Command Line Bootcamp]: http://praxis.scholarslab.org/scratchpad/bash/
 [descargar XCode a través de este enlace]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
 [sitio web de desarrolladores de Apple]: https://developer.apple.com/xcode/
 [Ver descargas]: https://developer.apple.com/downloads/
-[sitio web de GNU]: https://www.gnu.org/software/wget/
-[HTTP]: https://ftp.gnu.org/gnu/wget/
+[sitio web de GNU]: http://www.gnu.org/software/wget/
+[HTTP]: http://ftp.gnu.org/gnu/wget/
 [FTP]: ftp://ftp.gnu.org/gnu/wget/
-[ugent website]: https://users.ugent.be/~bpuype/wget/
-[Manual de wget de GNU]: https://www.gnu.org/software/wget/manual/wget.html
+[ugent website]: http://users.ugent.be/~bpuype/wget/
+[Manual de wget de GNU]: http://www.gnu.org/software/wget/manual/wget.html

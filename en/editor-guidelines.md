@@ -19,7 +19,7 @@ Thank you for editing a lesson for the *Programming Historian*. We are extremely
 
 
 
-We always encourage prospective authors to pitch their ideas before they start writing. If a piece is not suitable for the *Programming Historian* our job is to tell an author before they have written a full tutorial. We hope this saves everyone time and energy. Once we have spoken to an author and encouraged their idea, our aim is always to support authors until the piece is publishable. Our goal is to help them reach that stage as efficiently as possible with clear guidance. You may find it helpful to familiarise yourself with our [instructions for authors](/en/author-guidelines).
+We always encourage prospective authors to pitch their ideas before they start writing. If a piece is not suitable for the *Programming Historian* our job is to tell an author before they have written a full tutorial. We hope this saves everyone time and energy. Once we have spoken to an author and encouraged their idea, our aim is always to support authors until the piece is publishable. Our goal is to help them reach that stage as efficiently as possible with clear guidance. You may find it helpful to familiarise yourself with our [instructions for authors](/author-guidelines).
 
 ### Safe Spaces
 The *Programming Historian* is committed to providing a safe space for the exchange of ideas, where everyone can share without fear of harassment or abuse. The editor plays a fundamental role in ensuring that space endures. Your job includes enforcing our anti-harassment policy at all times. If you need help please ask one of the other editors or PH ombudsperson (Dr Ian Milligan - i2milligan@uwaterloo.ca). You can read more about our [commitment to safe spaces](/posts/PH-commitment-to-diversity) on the project blog.
@@ -53,7 +53,7 @@ The editor is encouraged to adjust the issue text to reflect any additional goal
 When the lesson materials are ready for submission, the author will contact their assigned editor, whose job will be to upload them to the [ph-submissions repository](https://github.com/programminghistorian/ph-submissions) after first checking to ensure that there are no major metadata issues.
 
 1. **Uploading the Lesson**: the lesson itself should be uploaded to the appropriate subfolder (depending on whether it is an original lesson or a translation) of the [lessons folder](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/en) within the corresponding language folder in the root of the ph-submissions repository. If you need help, see [GitHub's instructions](https://help.github.com/articles/adding-a-file-to-a-repository/).
-2. **Uploading Images**: if the lesson includes images, make sure all of the files are named according to the naming conventions specified in the [author guidelines](/en/author-guidelines). The editor should create a folder for the images in the  [images directory](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). This folder should have the same name as the lesson filename. Upload the images to this folder.
+2. **Uploading Images**: if the lesson includes images, make sure all of the files are named according to the naming conventions specified in the [author guidelines](/author-guidelines). The editor should create a folder for the images in the  [images directory](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). This folder should have the same name as the lesson filename. Upload the images to this folder.
 3. **Uploading Data**: if the lesson includes data files, they should be uploaded to a similarly named folder in the [assets directory](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets).
 
 After uploading, the editor should check the [commit history for the repository](https://github.com/programminghistorian/ph-submissions/commits/gh-pages) to ensure that their upload received a green check mark. If not, something went wrong and the [wiki](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions#checking-travis-for-errors) should be consulted for troubleshooting the errors. Upon successful submission of the lesson, the editor will create a review ticket for the lesson and close the proposal issue. From here on, the editor should ensure that the author work from the latest version of the lesson in the repository and upload changes directly to GitHub themselves.
@@ -61,9 +61,9 @@ After uploading, the editor should check the [commit history for the repository]
 ### Open Peer Review
 The *Programming Historian* uses a model of open peer review, while we believe this helps maintain civility and the productive sharing of ideas, authors have the right (and we have a requirement to respect that right) to request a closed peer review. There are many reasons why someone might be hesitant to engage in an open review and we encourage authors to always pursue the option with which they are most comfortable.
 
-Before soliciting external reviews, the editor should read and try the tutorial and use their experience with the *Programming Historian* to help the author make initial improvements (if required). The editor is not expected to be a expert in content of the lesson, this is the role of the [reviewers](/en/reviewer-guidelines).
+Before soliciting external reviews, the editor should read and try the tutorial and use their experience with the *Programming Historian* to help the author make initial improvements (if required). The editor is not expected to be a expert in content of the lesson, this is the role of the [reviewers](/reviewer-guidelines).
 
-The editor should complete an initial sustainability overview of the submission to ensure that software versions and dependencies are clearly marked, specificities of software like screenshots are limited to those required to complete the lesson, and that the lesson makes use of existing software documentation whenever available and appropriate. Editors should also ensure that lessons try, as much as possible, to avoid software specific directions, such as "Right-click on the _x_ icon to access the _x_ menu," instead favoring general methodological overviews. The Editorial Checklist [contains more details about sustainability practices](#c-sustainability--internationalization-review) for PH.
+The editor should complete an initial sustainability overview of the submission to ensure that software versions and dependencies are clearly marked, specificities of software like screenshots are limited to those required to complete the lesson, and that the lesson makes use of existing software documentation whenever available and appropriate. Editors should also ensure that lessons try, as much as possible, to avoid software specific directions, such as "Right-click on the _x_ icon to access the _x_ menu," instead favoring general methodological overviews. The Editorial Checklist [contains more details about sustainability practices](#c-sustainability-review) for PH.
 
 Often editors need help clarifying the intended audience of a lesson, or identifying jargon that needs further explanation. This initial review helps let the external reviewers focus on improving the piece. This is normally done openly on our submission system (see below), but it can be a closed review at the request of either party.
 
@@ -82,7 +82,7 @@ For each potential reviewer you do contact, regardless of response, please enter
 
 Please enter the date using the `mm/dd/yyyy` format.
 
-When inviting reviewers, the editor should provide them with our [reviewer guidelines](/en/reviewer-guidelines) and give them a deadline for completing their review (usually one month) so that we can ensure the timely publication of the tutorial.
+When inviting reviewers, the editor should provide them with our [reviewer guidelines](/reviewer-guidelines) and give them a deadline for completing their review (usually one month) so that we can ensure the timely publication of the tutorial.
 
 When a lesson has been submitted, the editor will open a new 'issue' on our [Github submissions repository](https://github.com/programminghistorian/ph-submissions/issues) where the open review will take place. This message board allows everyone to keep track of the conversation. You will need to sign up for a free Github account if you do not already have one, as will both the author and reviewers.
 
@@ -127,7 +127,7 @@ With your summary of the reviews and any final instructions for the editor, incl
 
 ## Technical Processes of Review - Editorial Checklist
 
-Our peer review is conducted on our [Submissions repository](https://github.com/programminghistorian/ph-submissions) on Github. Full instructions for how to upload files, including file formats and formatting guidelines can be found on our [Author Submission Instructions](/en/author-guidelines) which will always contain the most up to date instructions. Please familiarise yourself with these steps or refer to them as needed. If you need help you are always welcome to [email another editor directly](/en/project-team).
+Our peer review is conducted on our [Submissions repository](https://github.com/programminghistorian/ph-submissions) on Github. Full instructions for how to upload files, including file formats and formatting guidelines can be found on our [Author Submission Instructions](/author-guidelines) which will always contain the most up to date instructions. Please familiarise yourself with these steps or refer to them as needed. If you need help you are always welcome to [email another editor directly](/project-team).
 
 There are a few areas where you should intervene in the process from a technical standpoint. They include:
 
@@ -144,7 +144,7 @@ Once you have chosen a name for the lesson file, use the same name to create a n
 
 ### B) Initial Check of Markdown
 
-Authors are responsible for checking that their lesson has rendered properly in Markdown. If they have followed the syntax rules, it should be ok. If you can see any Markdown symbols on the page, something went wrong. Detailed instructions of Markdown syntax are available on our [Author Guidelines](/en/author-guidelines)
+Authors are responsible for checking that their lesson has rendered properly in Markdown. If they have followed the syntax rules, it should be ok. If you can see any Markdown symbols on the page, something went wrong. Detailed instructions of Markdown syntax are available on our [Author Guidelines](/author-guidelines)
 
 You can quickly check that everything looks correct on a lesson submission by looking at the rendered version of the page. It will be found at:
 
@@ -181,7 +181,7 @@ If a lesson does use a sequential image naming system, it is possible that figur
 
 Regardless of how the images are named (semantically or sequentially), they should be placed in a subdirectory within the `images` directory. The subdirectory should be named using the same URL slug used to name the lesson. Make sure the images are in web-friendly formats such as PNG or JPEG and sized appropriately (both in terms of pixels and bytes).
 
-Full instructions on adding images is available in [Author Submission Instructions](/en/author-guidelines).
+Full instructions on adding images is available in [Author Submission Instructions](/author-guidelines).
 
 ### E) Verify Data files
 
@@ -284,14 +284,14 @@ difficulty: 2
 
 ### 4) Find an Image to represent the lesson
 
-We represent our lessons using an old image that we feel captures some element of the task described in the tutorial. You can see the full range of these on the [main Lessons directory](/en/lessons/). These images are selected by editors.
+We represent our lessons using an old image that we feel captures some element of the task described in the tutorial. You can see the full range of these on the [main Lessons directory](/lessons/). These images are selected by editors.
 
 Here are a few places to look for lesson images:
 
  - The [British Library](https://www.flickr.com/photos/britishlibrary)
  - The [Internet Archive Book Images](https://archive.org/details/bookimages)
  - The [Virtual Manuscript Library of Switzerland](https://www.e-codices.unifr.ch/en)
- - The [Library of Congress Maps](https://www.loc.gov/maps/collections)
+ - The [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
 Ensure that the image matches the style of the other images (it should be a book image, not a photograph), is at least 200 pixels in both dimensions, and is not copyright restricted. Make sure the image is not offensive, and keeping with our [Commitment to Diversity](/posts/PH-commitment-to-diversity) try to find something that does not perpetuate stereotypes or send a subtle message about maleness and whiteness.
 
@@ -356,7 +356,7 @@ There are several ways that you can perform a pull request to publish the files:
 
 * A) Follow our ["Making Technical Contributions" guidelines](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions), which uses the Github website GUI.
 
-* B) Use `git` from the command line. The following instructions assume that you have already cloned both the `jekyll` and `ph-submissions` repositories to your local machine. (Our [lesson on using GitHub Desktop](/en/lessons/getting-started-with-github-desktop) may be helpful if this is new to you.) If you are not sure how to do that or have any questions, contact the technical team for assistance.
+* B) Use `git` from the command line. The following instructions assume that you have already cloned both the `jekyll` and `ph-submissions` repositories to your local machine. (Our [lesson on using GitHub Desktop](/lessons/getting-started-with-github-desktop) may be helpful if this is new to you.) If you are not sure how to do that or have any questions, contact the technical team for assistance.
 
  1. Go to the directory for your local `ph-submissions` repository.
  2. `git pull` to get all of the newest changes on your machine (or `sync` if you are using GitHub Desktop)

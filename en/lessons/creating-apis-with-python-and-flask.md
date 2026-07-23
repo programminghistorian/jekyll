@@ -18,7 +18,7 @@ topics: [api, data-management]
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/106
 abstract: |
   Learn how to set up a basic Application Programming Interface (API) to make your data more accessible to users. This lesson also discusses principles of API design and the benefits of APIs for digital projects.
-redirect_from: /lessons/creating-apis-with-python-and-flask/
+redirect_from: /lessons/creating-apis-with-python-and-flask
 avatar_alt: Diagram with a series of arcs describing a quarter circle
 doi: 10.46430/phen0072
 ---
@@ -47,7 +47,7 @@ Web APIs are tools for making information and application functionality accessib
 
 You can use the Windows, macOS, or Linux operating systems to complete this tutorial, and those few instructions that are not the same across platforms will be explicitly noted. Python 3, the Flask web framework, and a web browser are required for this tutorial, and installation instructions for all platforms are outlined below.
 
-The only knowledge explicitly assumed for this lesson is the ability to use a text editor, such as BBEdit on macOS or Notepad++ on Windows. However, knowledge of the command line, Python, and web concepts such as HTTP may make this tutorial easier to follow. If you're new to Python, consider working through the Programming Historian series on [dealing with online sources](/en/lessons/introduction-and-installation) to familiarize yourself with fundamental concepts in Python programming.
+The only knowledge explicitly assumed for this lesson is the ability to use a text editor, such as BBEdit on macOS or Notepad++ on Windows. However, knowledge of the command line, Python, and web concepts such as HTTP may make this tutorial easier to follow. If you're new to Python, consider working through the Programming Historian series on [dealing with online sources](/lessons/introduction-and-installation) to familiarize yourself with fundamental concepts in Python programming.
 
 ## Installing Python and Flask
 
@@ -72,7 +72,7 @@ This will install Flask using the pip package manager for Python. You should see
 
 As an alternative to the above installation instructions, you can install the Python 3 version of Anaconda, which can be downloaded [here](https://www.continuum.io). Anaconda comes with Flask, so if you go this route you will not need to install Flask using the pip package manager.
 
-If you're running into trouble installing Python, you may find [this Programming Historian article on installing Python](/en/lessons/introduction-and-installation) helpful. Note that the instructions in that tutorial are for installing Python 2—make sure you choose Python 3 when downloading installers from the Python website, since this tutorial uses Python 3.
+If you're running into trouble installing Python, you may find [this Programming Historian article on installing Python](/lessons/introduction-and-installation) helpful. Note that the instructions in that tutorial are for installing Python 2—make sure you choose Python 3 when downloading installers from the Python website, since this tutorial uses Python 3.
 
 If you don't have a preferred text editor, I recommend [BBEdit](https://www.barebones.com/products/bbedit/download.html) for macOS or [Notepad++](https://notepad-plus-plus.org/) for Windows.
 
@@ -117,13 +117,13 @@ The primary focus of this lesson is on creating an API, not exploring or using a
 
 Imagine that our research area is sensationalism and the press: has newspaper coverage of major events in the United States become more or less sensational over time? Narrowing the topic, we might ask whether press coverage of, for example, urban fires has increased or decreased with government reporting on fire-related relief spending.
 
-While we won't be able to explore this question thoroughly, we can begin to approach this research space by collecting historical data on newspaper coverage of fires using an API—in this case, the [Chronicling America Historical Newspaper API](https://chroniclingamerica.loc.gov/about/api/). The Chronicling America API allows access to metadata and text for millions of scanned newspaper pages. In addition, unlike many other APIs, it also does not require an authentication process, allowing us to immediately explore the available data without signing up for an account.
+While we won't be able to explore this question thoroughly, we can begin to approach this research space by collecting historical data on newspaper coverage of fires using an API—in this case, the [Chronicling America Historical Newspaper API](http://chroniclingamerica.loc.gov/about/api/). The Chronicling America API allows access to metadata and text for millions of scanned newspaper pages. In addition, unlike many other APIs, it also does not require an authentication process, allowing us to immediately explore the available data without signing up for an account.
 
-Our initial goal in approaching this research question is to find all newspaper stories in the Chronicling America database that use the term "fire." Typically, use of an API starts with its documentation. On the [Chronicling America API page](https://chroniclingamerica.loc.gov/about/api/), we find two pieces of information critical for getting the data we want from the API: the API's **base URL** and the **path** corresponding to the function we want to perform on the API—in this case, searching the database.
+Our initial goal in approaching this research question is to find all newspaper stories in the Chronicling America database that use the term "fire." Typically, use of an API starts with its documentation. On the [Chronicling America API page](http://chroniclingamerica.loc.gov/about/api/), we find two pieces of information critical for getting the data we want from the API: the API's **base URL** and the **path** corresponding to the function we want to perform on the API—in this case, searching the database.
 
 Our base URL is:
 
-	https://chroniclingamerica.loc.gov
+	http://chroniclingamerica.loc.gov
 
 All requests we make to the API must begin with this portion of the URL. All APIs have a base URL like this one that is the same across all requests to the API.
 
@@ -133,13 +133,13 @@ Our path is:
 
 If we combine the base URL and the path together into one URL, we'll have created a request to the Chronicling America API that returns all available data in the database:
 
-	https://chroniclingamerica.loc.gov/search/pages/results/
+	http://chroniclingamerica.loc.gov/search/pages/results/
 
-If you [visit the link above](https://chroniclingamerica.loc.gov/search/pages/results/), you'll see all items available in Chronicling America (12,243,633 at the time of writing), , not just the entries related to our search term, "fire." This request also returns a formatted HTML view, rather than the structured view we want to use to collect data.
+If you [visit the link above](http://chroniclingamerica.loc.gov/search/pages/results/), you'll see all items available in Chronicling America (12,243,633 at the time of writing), , not just the entries related to our search term, "fire." This request also returns a formatted HTML view, rather than the structured view we want to use to collect data.
 
 According to the Chronicling America documentation, in order to get structured data specifically relating to fire, we need to pass one more kind of data in our request: **query parameters**.
 
-	https://chroniclingamerica.loc.gov/search/pages/results/?format=json&proxtext=fire
+	http://chroniclingamerica.loc.gov/search/pages/results/?format=json&proxtext=fire
 
 The query parameters follow the `?` in the request, and are seperated from one another by the `&` symbol. The first query parameter, `format=json`, changes the returned data from HTML to JSON. The second, `proxtext=fire`, narrows the returned entries to those that include our search term.
 
@@ -176,7 +176,7 @@ We'll begin by using Flask to create a home page for our site. In this step, we'
 
 ## Creating a Basic Flask Application
 
-[Flask](https://flask.pocoo.org/) is a web framework for Python, meaning that it provides functionality for building web applications, including managing HTTP requests and rendering templates. In this section, we will create a basic Flask application. In later sections, we'll add to this application to create our API. Don't worry if you don't understand each individual line of code yet—explanations will be forthcoming once you have this initial version of the application working.
+[Flask](http://flask.pocoo.org/) is a web framework for Python, meaning that it provides functionality for building web applications, including managing HTTP requests and rendering templates. In this section, we will create a basic Flask application. In later sections, we'll add to this application to create our API. Don't worry if you don't understand each individual line of code yet—explanations will be forthcoming once you have this initial version of the application working.
 
 <div class="alert alert-warning">
 <p><strong>Why Flask?</strong></p>
@@ -184,7 +184,7 @@ We'll begin by using Flask to create a home page for our site. In this step, we'
 <p>Python has a number of web frameworks that can be used to create web apps and APIs. The most well-known is Django, a framework that has a set project structure and which includes many built-in tools. This can save time and effort for experienced programmers, but can be overwhelming. Flask applications tend to be written on a blank canvas, so to speak, and so are more suited to a contained application such as our prototype API.</p>
 </div>
 
-First, create a new folder on your computer that will serve as a project folder. This can be in your `Desktop` folder, but I recommend creating a dedicated `projects` folder for this and similar projects. This tutorial will assume that the files related to this lesson will be stored in a folder called `api` inside a folder named `projects` in your home directory. If you need help with navigation on the command line, see the [Programming Historian Introduction to the Bash Command Line](/en/lessons/intro-to-bash) for the macOS and Linux command line or the [Introduction to the Windows Command Line with PowerShell](/en/lessons/intro-to-powershell) for Windows.
+First, create a new folder on your computer that will serve as a project folder. This can be in your `Desktop` folder, but I recommend creating a dedicated `projects` folder for this and similar projects. This tutorial will assume that the files related to this lesson will be stored in a folder called `api` inside a folder named `projects` in your home directory. If you need help with navigation on the command line, see the [Programming Historian Introduction to the Bash Command Line](/lessons/intro-to-bash) for the macOS and Linux command line or the [Introduction to the Windows Command Line with PowerShell](/lessons/intro-to-powershell) for Windows.
 
 In macOS, you can directly create a an `api` folder inside a `projects` folder in your home directory with this terminal  command:
 
@@ -228,9 +228,9 @@ You can check if you're in the correct folder by running the `pwd` command. Once
 
 You should see output similar to this:
 
-	 * Running on `http://127.0.0.1:5000/` (Press CTRL+C to quit)
+	 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
-You may also see some lines related to debugging. This message means that Flask is running your application locally (on your computer) at that address. Follow the link above, `http://127.0.0.1:5000/`, using your web browser to see the running application:
+You may also see some lines related to debugging. This message means that Flask is running your application locally (on your computer) at that address. Follow the link above, [http://127.0.0.1:5000/](http://127.0.0.1:5000/), using your web browser to see the running application:
 
 {% include figure.html filename="welcome.png" caption="The home page when rendered in a browser." %}
 
@@ -240,7 +240,7 @@ Congratulations, you've created a working web application!
 
 Now that we have a homepage for our archive, let's talk about how Flask works and what the above code is doing.
 
-Flask maps HTTP requests to Python functions. In this case, we've mapped one URL path ('`/`') to one function, `home`. When we connect to the Flask server at `http://127.0.0.1:5000/`, Flask checks if there is a match between the path provided and a defined function. Since `/`, or no additional provided path, has been mapped to the `home` function, Flask runs the code in the function and displays the returned result in the browser. In this case, the returned result is HTML markup for a home page welcoming visitors to the site hosting our API.
+Flask maps HTTP requests to Python functions. In this case, we've mapped one URL path ('`/`') to one function, `home`. When we connect to the Flask server at [http://127.0.0.1:5000/](http://127.0.0.1:5000/), Flask checks if there is a match between the path provided and a defined function. Since `/`, or no additional provided path, has been mapped to the `home` function, Flask runs the code in the function and displays the returned result in the browser. In this case, the returned result is HTML markup for a home page welcoming visitors to the site hosting our API.
 
 The process of mapping URLs to functions is called **routing**. The
 
@@ -337,7 +337,7 @@ app.run()
 
 Run the code (navigate to your `api` folder in the command line and enter `python api.py`). Once the server is running, visit our route URL to view the data in the catalog:
 
-`http://127.0.0.1:5000/api/v1/resources/books/all`
+[http://127.0.0.1:5000/api/v1/resources/books/all](http://127.0.0.1:5000/api/v1/resources/books/all)
 
 You should see JSON output for the three entries in our test catalog. Flask provides us with a `jsonify` function that allows us to convert lists and dictionaries to JSON format. In the route we created, our book entries are converted from a list of Python dictionaries to JSON before being returned to a user.
 
@@ -411,20 +411,20 @@ def api_id():
     return jsonify(results)
 
 app.run()
-```
+``````
 
 Once you've updated your API with the `api_id` function, run your code as before (`python api.py` from your `api` directory) and visit the below URLs to test the new filtering capability:
 
-- `http://127.0.0.1:5000/api/v1/resources/books?id=0`  
-- `http://127.0.0.1:5000/api/v1/resources/books?id=1`  
-- `http://127.0.0.1:5000/api/v1/resources/books?id=2`
-- `http://127.0.0.1:5000/api/v1/resources/books?id=3`
+[127.0.0.1:5000/api/v1/resources/books?id=0](http://127.0.0.1:5000/api/v1/resources/books?id=0)
+[127.0.0.1:5000/api/v1/resources/books?id=1](http://127.0.0.1:5000/api/v1/resources/books?id=1)
+[127.0.0.1:5000/api/v1/resources/books?id=2](http://127.0.0.1:5000/api/v1/resources/books?id=2)
+[127.0.0.1:5000/api/v1/resources/books?id=3](http://127.0.0.1:5000/api/v1/resources/books?id=3)
 
 Each of these should return a different entry, except for the last, which should return an empty list: `[]`, since there is no book for which the id value is 3. (Counting in programming typically starts from 0, so id=3 would be a request for a nonexistent fourth item.) In the next section, we'll explore our updated API in more detail.
 
 ## Understanding Our Updated API
 
-In this code, we first create a new function, called `api_id`, with the `@app.route` syntax that maps the function to the path `/api/v1/resources/books`. That means that this function will run when we access `http://127.0.0.1:5000/api/v1/resources/books`. (Note that accessing this link without providing an ID will give the error message we provided in the code: `Error: No id field provided. Please specify an id.`)
+In this code, we first create a new function, called `api_id`, with the `@app.route` syntax that maps the function to the path `/api/v1/resources/books`. That means that this function will run when we access [http://127.0.0.1:5000/api/v1/resources/books](http://127.0.0.1:5000/api/v1/resources/books). (Note that accessing this link without providing an ID will give the error message we provided in the code: `Error: No id field provided. Please specify an id.`)
 
 Inside our function, we do two things:
 
@@ -432,7 +432,7 @@ First, examine the provided URL for an id and select the books that match that i
 
 This part of the code determines if there is a query parameter, like `?id=0`, and then assigns the provided ID to a variable.
 
-```python
+```
     if 'id' in request.args:
         id = int(request.args['id'])
     else:
@@ -441,7 +441,7 @@ This part of the code determines if there is a query parameter, like `?id=0`, an
 
 Then this section moves through our test catalog of books, matches those books that have the provided ID, and appends them to the list that will be returned to the user:
 
-```python
+```
     for book in books:
         if book['id'] == id:
             results.append(book)
@@ -463,38 +463,38 @@ The prevailing design philosophy of modern APIs is called REST. For our purposes
 
 Because HTTP requests are so integral to using a REST API, many design principles revolve around how requests should be formatted. We've already created one HTTP request, which returns all books provided in our sample data. To understand the considerations that go into formatting this request, let's first consider a weak or poorly-designed example of an API endpoint:
 
-	`http://api.example.com/getbook/10`
+	http://api.example.com/getbook/10
 
 The formatting of this request has a number of issues. The first is semantic—in a REST API, our verbs are typically `GET`, `POST`, `PUT`, or `DELETE`, and are determined by the request method rather than in the request URL. That means that the word "get" should not appear in our request, since "get" is implied by the fact that we're using a HTTP GET method. In addition, resource collections such as `books` or `users` should be denoted with plural nouns. This makes it clear when an API is referring to a collection (`books`) or an entry (`book`). Incorporating these principles, our API would look like this:
 
-	`http://api.example.com/books/10`
+	http://api.example.com/books/10
 
 The above request uses part of the path (`/10`) to provide the ID. While this is not an uncommon approach, it's somewhat inflexible—with URLs constructed in this manner, you can generally only filter by one field at a time. Query parameters allow for filtering by multiple database fields and make more sense when providing "optional" data, such as an output format:
 
-	`http://api.example.com/books?author=Ursula+K.+Le Guin&published=1969&output=xml`
+	http://api.example.com/books?author=Ursula+K.+Le Guin&published=1969&output=xml
 
 When designing how requests to your API should be structured, it also makes sense to plan for future additions. Even if the current version of your API serves information on only one type of resource—`books`, for example—it makes sense to plan as if you might add other resources or non-resource functionality to your API in the future:
 
-	`http://api.example.com/resources/books?id=10`
+	http://api.example.com/resources/books?id=10
 
 Adding an extra segment on your path  such as "resources" or "entries" gives you the option to allow users to search across all resources available, making it easier for you to later support requests such as these:
 
-	`https://api.example.com/v1/resources/images?id=10`
-	`https://api.example.com/v1/resources/all`
+	https://api.example.com/v1/resources/images?id=10
+	https://api.example.com/v1/resources/all
 
 Another way to plan for your API's future is to add a version number to the path. This means that, should you have to redesign your API, you can continue to support the old version of the API under the old version number while releasing, for example, a second version (`v2`) with improved or different functionality. This way, applications and scripts built using the old version of your API won't cease to function after your upgrade.
 
 After incorporating these design improvements, a request to our API might look like this:
 
-	`https://api.example.com/v1/resources/books?id=10`
+	https://api.example.com/v1/resources/books?id=10
 
 ## Documentation and Examples
 
 Without documentation, even the best-designed API will be unusable. Your API should have documentation describing the resources or functionality available through your API that also provides concrete working examples of request URLs or code for your API. You should have a section for each resource that describes which fields, such as `id` or `title`, it accepts. Each section should have an example in the form of a sample HTTP request or block of code.
 
-A fairly common practice in documenting APIs is to provide annotations in your code that are then automatically collated into documentation using a tool such as [Doxygen](https://www.doxygen.nl/) or [Sphinx](https://www.sphinx-doc.org/en/stable/). These tools create documentation from **docstrings**—comments you make on your function definitions. While this kind of documentation is a good idea, you shouldn't consider your job done if you've only documented your API to this level. Instead, try to imagine yourself as a potential user of your API and provide working examples. In an ideal world, you would have three kinds of documentation for your API: a reference that details each route and its behavior, a guide that explains the reference in prose, and at least one or two tutorials that explain every step in detail.
+A fairly common practice in documenting APIs is to provide annotations in your code that are then automatically collated into documentation using a tool such as [Doxygen](https://www.doxygen.nl/) or [Sphinx](http://www.sphinx-doc.org/en/stable/). These tools create documentation from **docstrings**—comments you make on your function definitions. While this kind of documentation is a good idea, you shouldn't consider your job done if you've only documented your API to this level. Instead, try to imagine yourself as a potential user of your API and provide working examples. In an ideal world, you would have three kinds of documentation for your API: a reference that details each route and its behavior, a guide that explains the reference in prose, and at least one or two tutorials that explain every step in detail.
 
-For inspiration on how to approach API documentation, see the [New York Public Library Digital Collections API](https://api.repo.nypl.org/), which sets a standard of documentation achievable for many academic projects. For an extensively documented (though sometimes overwhelming) API, see the [MediaWiki Action API](https://www.mediawiki.org/wiki/API:Main_page), which provides documentation to users who pass partial queries to the API. (In our example above, we returned an error on a partial query.) For other professionally maintained API documentation examples, consider the [World Bank API](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-api-documentation), the various [New York Times APIs](https://developer.nytimes.com/), or the [Europeana Pro API](https://pro.europeana.eu/resources/apis).
+For inspiration on how to approach API documentation, see the [New York Public Library Digital Collections API](http://api.repo.nypl.org/), which sets a standard of documentation achievable for many academic projects. For an extensively documented (though sometimes overwhelming) API, see the [MediaWiki Action API](https://www.mediawiki.org/wiki/API:Main_page), which provides documentation to users who pass partial queries to the API. (In our example above, we returned an error on a partial query.) For other professionally maintained API documentation examples, consider the [World Bank API](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-api-documentation), the various [New York Times APIs](https://developer.nytimes.com/), or the [Europeana Pro API](https://pro.europeana.eu/resources/apis).
 
 # Connecting Our API to a Database
 
@@ -576,19 +576,16 @@ def api_filter():
 
 app.run()
 ```
-
 Save the code as `api_final.py` in your `api` folder and run it by navigating to your project folder in the terminal and entering the command:
 
-```python
-python api_final.py
-```
+	python api_final.py
 
 Note that if a previous version of the code is still running, you will first need to end that process by pressing `Control-C` before executing the new code. Once this example is running, try out the filtering functionality with these HTTP requests:
 
-- `http://127.0.0.1:5000/api/v1/resources/books/all`
-- `http://127.0.0.1:5000/api/v1/resources/books?author=Connie+Willis`
-- `http://127.0.0.1:5000/api/v1/resources/books?author=Connie+Willis&published=1999`
-- `http://127.0.0.1:5000/api/v1/resources/books?published=2010`
+[http://127.0.0.1:5000/api/v1/resources/books/all](http://127.0.0.1:5000/api/v1/resources/books/all)
+[http://127.0.0.1:5000/api/v1/resources/books?author=Connie+Willis](http://127.0.0.1:5000/api/v1/resources/books?author=Connie+Willis)
+[http://127.0.0.1:5000/api/v1/resources/books?author=Connie+Willis&published=1999](http://127.0.0.1:5000/api/v1/resources/books?author=Connie+Willis&published=1993)
+[http://127.0.0.1:5000/api/v1/resources/books?published=2010](http://127.0.0.1:5000/api/v1/resources/books?published=2010)
 
 The database downloaded for this lesson has 67 entries, one for each of the winners of the Hugo Award for best science fiction novel between 1953 and 2014 (avoiding the voting controversy of 2015). The data set includes the novel's title, author, year of publication, and first sentence. Our API allows users to filter by three fields: `id`, `published` (year of publication), and `author`.
 
@@ -628,32 +625,24 @@ In HTML responses, the code `200` means "OK"(the expected data transferred), whi
 
 Our `api_filter` function is an improvement on our previous `api_id` function that returns a book based on its ID. This new function allows for filtering by three different fields: `id`, `published`, and `author`. The function first grabs all the query parameters provided in the URL (remember, query parameters are the part of the URL that follows the `?`, like `?id=10`).
 
-```python
     query_parameters = request.args
-```
 
 It then pulls the supported parameters `id`, `published`, and `author` and binds them to appropriate variables:
 
-```python
     id = query_parameters.get('id')
     published = query_parameters.get('published')
     author = query_parameters.get('author')
-```
 
 The next segment begins to build an SQL query that will be used to find the requested information in the database. SQL queries used to find data in a database take this form:
 
-```sql
 	`SELECT <columns> FROM <table> WHERE <column=match> AND <column=match>;
-```
 
 To get the correct data, we need to build both an SQL query that looks like the above and a list with the filters that will be matched. Combined, the query and the the filters provided by the user will allow us to pull the correct books from our database.
 
 We begin to define both the query and the filter list:
 
-```python
     query = "SELECT * FROM books WHERE"
     to_filter = []
-```
 
 Then, if `id`, `published`, or `author` were provided as query parameters, we add them to both the query and the filter list:
 
@@ -684,19 +673,15 @@ To perfect our query, we remove the trailing ` AND` and cap the query with the `
 
 Finally, we connect to our database as in our `api_all` function, then execute the query we've built using our filter list:
 
-```python
     conn = sqlite3.connect('books.db')
     conn.row_factory = dict_factory
     cur = conn.cursor()
 
     results = cur.execute(query, to_filter).fetchall()
-```
 
 Finally, we return the results of our executed SQL query as JSON to the user:
 
-```python
     return jsonify(results)
-```
 
 Whew! When all is said and done, this section of code reads query parameters provided by the user, builds an SQL query based on those parameters, executes that query to find matching books in the database, and returns those matches as JSON to the user. This section of code makes our API's filtering capability considerably more sophisticated—users can now find books by, for example, Ursula K. Le Guin that were published in 1975 or all books in the database published in 2010.
 
@@ -710,7 +695,7 @@ One of the advantages of providing data through an API, as opposed to providing 
 
 As new Hugo winners were added to the database, the script that generated this visualization would immediately be able to use the new information. If the visualization were created in D3 or another web-based utility, this plot would actually reflect additional data added to the book archive as soon as the archive was updated—that is, in real time. As additional data accrued, we might, for example, learn if John Scalzi's unusually lengthy opening to his 2013 *Red Shirts* was an aberration or the continuation of a longer trend toward wordiness in science fiction. Conversely, if your API were to change its URL structure or cease to function, applications based on it will no longer work. Remember that, when creating an API, you are assuming some responsibility for the applications that others may build with it.
 
-A strong API can be considered the backbone of a potentially limitless number of projects or avenues of research. Though the above example takes the form of a visualization of the limited amount of data we've provided in our Distant Reading Archive, a project based on this API might just as easily take the form of a Twitterbot that shares first sentences (learn how to make one with [this](/en/lessons/intro-to-twitterbots) Programming Historian lesson) or a library webpage that displays book openings and year of publication alongside other book metadata. In many cases, it makes sense to first create an API interface to your core data or functionality before extrapolating on it to create a visualization, application, or website. Not only does it make your work accessible to researchers working on other projects, but it often leads to a more comprehensible and maintainable project.
+A strong API can be considered the backbone of a potentially limitless number of projects or avenues of research. Though the above example takes the form of a visualization of the limited amount of data we've provided in our Distant Reading Archive, a project based on this API might just as easily take the form of a Twitterbot that shares first sentences (learn how to make one with [this](/lessons/intro-to-twitterbots) Programming Historian lesson) or a library webpage that displays book openings and year of publication alongside other book metadata. In many cases, it makes sense to first create an API interface to your core data or functionality before extrapolating on it to create a visualization, application, or website. Not only does it make your work accessible to researchers working on other projects, but it often leads to a more comprehensible and maintainable project.
 
 # Resources
 
@@ -718,13 +703,13 @@ The below resources provide information on useful APIs for researchers in the hu
 
 ## APIs for Humanities Researchers
 
-[Chronicling America \(Library Of Congress\)](https://chroniclingamerica.loc.gov/) - A digitized collection of American newspaper articles from the 18th to the 20th century.
+[Chronicling America \(Library Of Congress\)](http://chroniclingamerica.loc.gov/) - A digitized collection of American newspaper articles from the 18th to the 20th century.
 
 [Connecting Repositories \(CORE\)](https://core.ac.uk/) - A collection of open access articles from various sources hosted by the Open University.
 
 [English Broadside Ballad Archive \(EBBA\)](https://diggingintodata.org/repositories/english-broadside-ballad-archive-ebba)
 
-[History Data Service (HDS)](https://hds.essex.ac.uk/) - A collection of data from a wide variety of historical sources.
+[History Data Service (HDS)](http://hds.essex.ac.uk/) - A collection of data from a wide variety of historical sources.
 
 [Europeana](https://pro.europeana.eu/)
 

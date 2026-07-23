@@ -62,7 +62,7 @@ Remplir ces critères nous permet de juger si la donnée est organisée ou pas. 
   4. Plusieurs unités d'observation sont présentes dans une même table.
   5. Une même unité d'observation est présente dans plusieurs tables.
 
-Un avantage peut-être encore plus important est de garder nos données dans ce format propre, qui nous permet d'utiliser une galerie de paquets dans le [«&nbsp;tidyverse&nbsp;»](https://tidyverse.org/), spécifiquement conçus pour fonctionner avec des données bien structurées. En nous assurant que nos données en entrée et en sortie sont bien structurées, nous n'aurons qu'un nombre limité d'outils à utiliser pour répondre à un grand nombre de questions. De plus, nous pourrons combiner, manipuler et séparer des jeux de données comme bon nous semble.
+Un avantage peut-être encore plus important est de garder nos données dans ce format propre, qui nous permet d'utiliser une galerie de paquets dans le [«&nbsp;tidyverse&nbsp;»](http://tidyverse.org/), spécifiquement conçus pour fonctionner avec des données bien structurées. En nous assurant que nos données en entrée et en sortie sont bien structurées, nous n'aurons qu'un nombre limité d'outils à utiliser pour répondre à un grand nombre de questions. De plus, nous pourrons combiner, manipuler et séparer des jeux de données comme bon nous semble.
 
 Dans cette leçon, nous nous intéresserons particulièrement au paquet [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html) du tidyverse. Mais cela vaut la peine de mentionner brièvement quelques autres paquets que nous utiliserons&nbsp;:
 

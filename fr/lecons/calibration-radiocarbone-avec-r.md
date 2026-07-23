@@ -127,7 +127,7 @@ On comprend ainsi que ces particularités, si elles sont mal comprises, peuvent 
 
 ## Applications avec R
 
-De nombreux outils sont aujourd'hui disponibles pour calibrer des âges radiocarbone. [OxCal](https://c14.arch.ox.ac.uk/oxcal/), [CALIB](https://calib.org) et [ChronoModel](https://chronomodel.com) offrent cette possibilité, mais sont plutôt destinés à traiter des problèmes de [modélisation bayésienne](https://fr.wikipedia.org/wiki/Statistique_bay%C3%A9sienne) de séquences chronologiques. Le langage R offre une alternative intéressante. Distribué sous licence libre, il favorise la reproductibilité et permet d'intégrer le traitement d'âges radiocarbone à des études plus larges (analyse spatiale etc.).
+De nombreux outils sont aujourd'hui disponibles pour calibrer des âges radiocarbone. [OxCal](https://c14.arch.ox.ac.uk/oxcal/), [CALIB](http://calib.org) et [ChronoModel](https://chronomodel.com) offrent cette possibilité, mais sont plutôt destinés à traiter des problèmes de [modélisation bayésienne](https://fr.wikipedia.org/wiki/Statistique_bay%C3%A9sienne) de séquences chronologiques. Le langage R offre une alternative intéressante. Distribué sous licence libre, il favorise la reproductibilité et permet d'intégrer le traitement d'âges radiocarbone à des études plus larges (analyse spatiale etc.).
 
 Plusieurs packages R permettent de réaliser des calibrations d'âges radiocarbone ([Bchron](https://cran.r-project.org/package=Bchron), [oxcAAR](https://cran.r-project.org/package=oxcAAR)...) et sont souvent orientés vers la modélisation (construction de chronologies, modèles âges-profondeur, etc.). La solution retenue ici est [rcarbon](https://cran.r-project.org/package=rcarbon) (Bevan et Crema 2020). Ce package permet de calibrer simplement et d'analyser des âges radiocarbone.
 
@@ -501,7 +501,7 @@ Dean, J. S. "Independent Dating in Archaeological Analysis". In *Advances in Arc
 
 Hyndman, R. J. 1996. "Computing and Graphing Highest Density Regions." *The American Statistician* 50 (2): 120-26. https://doi.org/10.2307/2684423.
 
-Libby, W. F. "Radiocarbon Dating". *Nobel Lecture*. Stockholm, 12 décembre 1960. https://www.nobelprize.org/nobel_prizes/chemistry/laureates/1960/libby-lecture.html.
+Libby, W. F. "Radiocarbon Dating". *Nobel Lecture*. Stockholm, 12 décembre 1960. http://www.nobelprize.org/nobel_prizes/chemistry/laureates/1960/libby-lecture.html.
 
 Millard, A. R. 2014. "Conventions for Reporting Radiocarbon Determinations." *Radiocarbon* 56 (2): 555-59. https://doi.org/10.2458/56.17455.
 

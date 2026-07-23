@@ -39,7 +39,7 @@ Pour les personnes qui débutent avec la TEI, l'un des obstacles les plus couran
 
 Ce tutoriel vous guidera à travers les étapes nécessaires pour publier un fichier TEI en ligne en utilisant CETEIcean, une bibliothèque ouverte écrite dans le langage de programmation JavaScript. CETEIcean permet d'afficher les documents TEI dans un navigateur web sans les transformer au préalable en HTML. CETEIcean charge le fichier TEI dynamiquement dans le navigateur et convertit les éléments TEI en éléments HTML, de sorte que ceux-ci nous permettent de visualiser dans le navigateur web les phénomènes textuels que nous balisons dans nos fichiers en utilisant la TEI.
 
-Tout d'abord, une clarification concernant la visualisation de votre travail&nbsp;: la méthode par défaut de CETEIcean pour afficher les fichiers TEI consiste à charger les fichiers depuis un autre emplacement. Cependant, tous les navigateurs ne vous permettront pas de charger les fichiers s'ils sont stockés sur votre ordinateur. Vous pouvez essayer, mais si cela ne fonctionne pas, vous devrez générer un serveur local, placer les fichiers sur un serveur en ligne, ou utiliser un éditeur de code avec des fonctions de prévisualisation. Pour ce tutoriel, nous suivrons cette dernière option, car nous utiliserons l'éditeur [Visual Studio Code](https://code.visualstudio.com/), avec l'extension *HTML Preview*. Néanmoins, il existe d'autres options libres pour éditer des fichiers TEI et générer des prévisualisations HTML, comme [jEdit](https://www.jedit.org/) ou [Atom](https://atom.io), ainsi que des versions propriétaires comme [Oxygen](https://www.oxygenxml.com/).
+Tout d'abord, une clarification concernant la visualisation de votre travail&nbsp;: la méthode par défaut de CETEIcean pour afficher les fichiers TEI consiste à charger les fichiers depuis un autre emplacement. Cependant, tous les navigateurs ne vous permettront pas de charger les fichiers s'ils sont stockés sur votre ordinateur. Vous pouvez essayer, mais si cela ne fonctionne pas, vous devrez générer un serveur local, placer les fichiers sur un serveur en ligne, ou utiliser un éditeur de code avec des fonctions de prévisualisation. Pour ce tutoriel, nous suivrons cette dernière option, car nous utiliserons l'éditeur [Visual Studio Code](https://code.visualstudio.com/), avec l'extension *HTML Preview*. Néanmoins, il existe d'autres options libres pour éditer des fichiers TEI et générer des prévisualisations HTML, comme [jEdit](http://www.jedit.org/) ou [Atom](https://atom.io), ainsi que des versions propriétaires comme [Oxygen](https://www.oxygenxml.com/).
 
 <div class="alert alert-warning">
 Mise à jour de mars 2025&nbsp;: La version originale en espagnol utilise l'éditeur <em>Atom</em>&nbsp;; cependant nous ne recommandons pas d'utiliser Atom, car le logiciel n'a pas reçu de maintenance ni de mises à jour depuis sa fermeture en décembre 2022. Nous avons donc décidé d'utiliser <em>VS Code</em> de la même manière, à condition d'installer également l'extension <em>HTML Preview</em> depuis l'onglet Extensions.
@@ -283,7 +283,7 @@ CETEIcean possède un certain nombre de comportements intégrés que vous pouvez
 
 Si vous faites cela, vous voudrez peut-être ajouter des styles CSS ou des comportements pour choisir la manière dont le contenu du TEI Header sera affiché dans le navigateur.
 
-Dans ce tutoriel, nous n'avons pas épuisé toutes les possibilités pour la présentation de notre document source. Nous vous invitons à continuer à expérimenter par vous-même les différentes manières dont un balisage TEI peut être affiché dans un navigateur en utilisant CETEIcean. Vous pouvez trouver plus d'informations sur [CETEIcean](https://teic.github.io/CETEIcean/). Vous pouvez aussi trouver quelques lignes de code commentées dans cette leçon pour appliquer certains comportements supplémentaires qui pourront s'avérer utiles.
+Dans ce tutoriel, nous n'avons pas épuisé toutes les possibilités pour la présentation de notre document source. Nous vous invitons à continuer à expérimenter par vous-même les différentes manières dont un balisage TEI peut être affiché dans un navigateur en utilisant CETEIcean. Vous pouvez trouver plus d'informations sur [CETEIcean](http://teic.github.io/CETEIcean/). Vous pouvez aussi trouver quelques lignes de code commentées dans cette leçon pour appliquer certains comportements supplémentaires qui pourront s'avérer utiles.
 
 ## Références bibliographiques
 
@@ -301,9 +301,9 @@ Vaughan, Nicolás. &laquo;&nbsp;Introduction au codage de textes en TEI (partie 
 
 - Atom. Un éditeur de texte hackable pour le 21e siècle. [https://atom.io](https://atom.io)
 
-- Cayless, Hugh et Viglianti, Raffaele. CETEIcean. [https://teic.github.io/CETEIcean/](https://teic.github.io/CETEIcean/)
+- Cayless, Hugh et Viglianti, Raffaele. CETEIcean. [http://teic.github.io/CETEIcean/](http://teic.github.io/CETEIcean/)
 
-- Jedit. Éditeur de texte pour programmeurs. Version stable&nbsp;: 5.6.0. [https://www.jedit.org/](https://www.jedit.org/)
+- Jedit. Éditeur de texte pour programmeurs. Version stable&nbsp;: 5.6.0. [http://www.jedit.org/](http://www.jedit.org/)
 
 - Oxygen. Éditeur XML. [https://www.oxygenxml.com/](https://www.oxygenxml.com/)
 

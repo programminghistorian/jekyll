@@ -17,12 +17,12 @@ exclude_from_check:
 activity: transforming
 topics: [python]
 abstract: "In this lesson, we will make the list we created in the 'From HTML to a List of Words' lesson easier to analyze by normalizing this data."
-next: /en/lessons/counting-frequencies
-previous: /en/lessons/from-html-to-list-of-words-2
+next: counting-frequencies
+previous: from-html-to-list-of-words-2
 series_total: 15 lessons
 sequence: 9
 python_warning: false
-redirect_from: /lessons/normalizing-data/
+redirect_from: /lessons/normalizing-data
 avatar_alt: Tall woman dragging a short young man
 doi: 10.46430/phen0014
 ---
@@ -258,12 +258,12 @@ to make sure you have the correct code.
 
 -   python-lessons4.zip ([zip sync][])
 
-- [From HTML to a List of Words (2)](/en/lessons/from-html-to-list-of-words-2)
-- [web page](https://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33)
-- [From HTML to a List of Words (1)](/en/lessons/from-html-to-list-of-words-1)
-- [Manipulating Strings in Python](/en/lessons/manipulating-strings-in-python)
-- [Unicode](https://unicode.org/)
-- [Python support](https://web.archive.org/web/20180502053841/https://www.diveintopython.net/xml_processing/unicode.html)
-- [Dive into Python](https://web.archive.org/web/20180416143856/https://www.diveintopython.net/regular_expressions/index.html)
-- [zip](/assets/python-lessons3.zip)
-- [zip sync](/assets/python-lessons4.zip)
+  [From HTML to a List of Words (2)]: /lessons/from-html-to-list-of-words-2
+  [web page]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
+  [From HTML to a List of Words (1)]: /lessons/from-html-to-list-of-words-1
+  [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
+  [Unicode]: http://unicode.org/
+  [Python support]: https://web.archive.org/web/20180502053841/http://www.diveintopython.net/xml_processing/unicode.html
+  [Dive into Python]: https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html
+  [zip]: /assets/python-lessons3.zip
+  [zip sync]: /assets/python-lessons4.zip

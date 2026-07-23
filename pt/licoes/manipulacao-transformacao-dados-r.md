@@ -47,7 +47,7 @@ Ao fim desta lição, você:
 ## Introdução
 Os dados que encontra disponíveis nas diversas plataformas raramente estão no formato adequado para serem analisados, e precisará manipulá-los antes de explorar as perguntas de seu interesse. Isso pode tomar mais tempo que a própria análise dos dados! Neste tutorial, vamos aprender técnicas básicas para manipulação, gestão e controle de dados usando R. Especificamente, nos debruçaremos sobre a filosofia do ["*tidy data*"](https://www.jstatsoft.org/article/view/v059i10) (em inglês) conforme apresentada por Hadley Wickham.
 
-De acordo com [Wickham](https://hadley.nz/) (em inglês), os dados estão *tidy* ou bem-organizados quando satisfazem três critérios chave:
+De acordo com [Wickham](http://hadley.nz/) (em inglês), os dados estão *tidy* ou bem-organizados quando satisfazem três critérios chave:
 
 1. Cada unidade de observação está em uma linha
 2. Cada variável está em uma coluna
@@ -61,13 +61,13 @@ Estar atento a estes critérios nos permite reconhecer quando os nossos dados es
 4. Unidades de observação de diferentes categorias armazenadas na mesma tabela
 5. Uma única unidade de observação armazenada em múltiplas tabelas.
 
-Talvez o mais importante seja que manter os dados nesse formato nos permite utilizar uma série de pacotes do ["tidyverse,"](https://tidyverse.org/) (em inglês), concebidos para trabalhar especificamente com dados neste formato *tidy*. Dessa forma, assegurando-nos de que os dados de entrada e de saída estão bem organizados, precisaremos apenas de um pequeno conjunto de ferramentas para resolver um grande número de questões. Podemos combinar, manipular e dividir os *datasets* que criamos, conforme considerarmos mais adequado.
+Talvez o mais importante seja que manter os dados nesse formato nos permite utilizar uma série de pacotes do ["tidyverse,"](http://tidyverse.org/) (em inglês), concebidos para trabalhar especificamente com dados neste formato *tidy*. Dessa forma, assegurando-nos de que os dados de entrada e de saída estão bem organizados, precisaremos apenas de um pequeno conjunto de ferramentas para resolver um grande número de questões. Podemos combinar, manipular e dividir os *datasets* que criamos, conforme considerarmos mais adequado.
 
 Neste tutorial focaremos no pacote [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html) (em inglês) presente no tidyverse, mas também é importante mencionar alguns outros que serão vistos na lição:
 
-* [**magittr**](https://magrittr.tidyverse.org) (em inglês) -- Este pacote nos garante acesso ao operador *pipe* `%>%`, que torna o nosso código mais legível.  
-* [**ggplot2**](https://ggplot2.tidyverse.org/) (em inglês) -- Este pacote utiliza a ["Gramática de Gráficos"](https://www.springer.com/us/book/9780387245447) (em inglês) para fornecer uma forma fácil de visualizar nossos dados.   
-* [**tibble**](https://tibble.tidyverse.org/) (em inglês) -- Este pacote nos fornece uma releitura dos tradicionais *data frames*, mais fáceis de serem trabalhados e visualizados.
+* [**magittr**](http://magrittr.tidyverse.org) (em inglês) -- Este pacote nos garante acesso ao operador *pipe* `%>%`, que torna o nosso código mais legível.  
+* [**ggplot2**](http://ggplot2.tidyverse.org/) (em inglês) -- Este pacote utiliza a ["Gramática de Gráficos"](http://www.springer.com/us/book/9780387245447) (em inglês) para fornecer uma forma fácil de visualizar nossos dados.   
+* [**tibble**](http://tibble.tidyverse.org/) (em inglês) -- Este pacote nos fornece uma releitura dos tradicionais *data frames*, mais fáceis de serem trabalhados e visualizados.
 
 Instale o "tidyverse", se ainda não o fez, e carregue-o antes de começarmos. Além disso, certifique-se de que possui instaladas a
 [versão mais recente do R](https://cran.rstudio.com/) e a [versão mais recente do RStudio](https://www.rstudio.com/products/rstudio/download/) compatíveis com o seu sistema operacional.
@@ -136,7 +136,7 @@ Promover mudanças rápidas no código e revisar nossos dados é parte fundament
 
 ## Operador Pipe
 
-Antes de olharmos para o dplyr, precisamos entender o que é o operador *pipe* `%>%` no R, uma vez que iremos utilizá-lo em muitos exemplos adiante. Como mencionado anteriormente, este operador é parte do pacote [magrittr](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html) (em inglês), criado por [Stefan Milton Bache](https://stefanbache.dk/) e [Hadley Wickham](https://hadley.nz/), e está incluída no tidyverse. O seu nome é uma referência ao pintor surrealista Rene Magritte, criador da obra ["A Traição das Imagens"](https://www.renemagritte.org/the-treachery-of-images.jsp), que mostra um cachimbo com a frase "isto não é um cachimbo" (*ceci n'est pas une pipe*, em francês).
+Antes de olharmos para o dplyr, precisamos entender o que é o operador *pipe* `%>%` no R, uma vez que iremos utilizá-lo em muitos exemplos adiante. Como mencionado anteriormente, este operador é parte do pacote [magrittr](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html) (em inglês), criado por [Stefan Milton Bache](http://stefanbache.dk/) e [Hadley Wickham](http://hadley.nz/), e está incluída no tidyverse. O seu nome é uma referência ao pintor surrealista Rene Magritte, criador da obra ["A Traição das Imagens"](https://www.renemagritte.org/the-treachery-of-images.jsp), que mostra um cachimbo com a frase "isto não é um cachimbo" (*ceci n'est pas une pipe*, em francês).
 
 O operador *pipe* `%>%` permite passar o que está à sua esquerda como a primeira variável em uma função especificada à sua direita. Embora possa parecer estranho no início, uma vez que aprende a usar o *pipe* descobrirá que ele torna seu código mais legível, evitando instruções aninhadas. Não se preocupe se estiver um pouco confuso por agora. Tudo ficará mais claro à medida que observarmos os exemplos.
 

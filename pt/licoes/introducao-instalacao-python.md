@@ -28,7 +28,7 @@ abstract: "Essa primeira lição em nossa seção para tratar de Fontes Online
 Nós iremos nos concentrar em instalar os softwares necessários – todos livres e de boa reputação
 – e finalmente nós iremos te auxiliar a experimentar os primeiros passos na programação 
 para que você tenha resultados imediatos."
-next: /pt/licoes/nocoes-basicas-paginas-web-html
+next: nocoes-basicas-paginas-web-html
 python_warning: false
 original: introduction-and-installation
 avatar_alt: Uma cobra enrolada
@@ -56,7 +56,7 @@ A linguagem de programação que usaremos nesta série de lições é Python, um
 A menos que seja observado o contrário, usaremos a versão **Python 3** daqui em diante. 
 A versão 2 não é mais suportada, mas ainda pode estar sendo usada em projetos ou lições mais antigas.
 
-[Python 3 tem algumas poucas diferenças na formatação](https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html) (pense em regras gramaticais). Assim, fique atento se você encontrar exemplos online que ainda utilizam o Python 2. Esses exemplos podem não funcionar nas versões atuais do Python.
+[Python 3 tem algumas poucas diferenças na formatação](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html) (pense em regras gramaticais). Assim, fique atento se você encontrar exemplos online que ainda utilizam o Python 2. Esses exemplos podem não funcionar nas versões atuais do Python.
 
 
 ## Faça backups do seu trabalho!
@@ -74,15 +74,15 @@ Nós fornecemos instruções para o Mac, Windows e Linux. Uma vez que você tenh
 -   [Instalação do Python para Windows][]
 -   [Instalação do Python para Linux][]
 
-  [Linguagem de Programação Python]: https://www.python.org/
-  [Analisador de HTML/XML Beautiful Soup]: https://www.crummy.com/software/BeautifulSoup/
+  [Linguagem de Programação Python]: http://www.python.org/
+  [Analisador de HTML/XML Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/
   [Komodo Edit]: https://github.com/ActiveState/OpenKomodoIDE
   [Editores Python]: https://wiki.python.org/python/PythonEditors
   [Jungle Disk]: https://www.jungledisk.com/
   [Dropbox]: https://www.dropbox.com/home
-  [Noções básicas de páginas web e HTML]: /pt/licoes/nocoes-basicas-paginas-web-html
-  [Instalação do Python para Mac]: /pt/licoes/instalacao-mac
-  [Instalação do Python para Windows]: /pt/licoes/instalacao-windows
-  [Instalação do Python para Linux]: /pt/licoes/instalacao-linux
+  [Noções básicas de páginas web e HTML]: nocoes-basicas-paginas-web-html
+  [Instalação do Python para Mac]: instalacao-mac
+  [Instalação do Python para Windows]: instalacao-windows
+  [Instalação do Python para Linux]: instalacao-linux
 
 

@@ -52,13 +52,13 @@ In addition to the above software requirements, you will also need to make sure 
 
 ## How can Humanists use Augmented Reality?
 
-Novel applications of AR continue to surface  within a variety of industries: [museums](https://www.youtube.com/watch?v=gx_UQxx54lo) are integrating AR content into their displays, [companies](https://www.gizmag.com/ikea-augmented-reality-catalog-app/28703/) are promoting AR apps in lieu of print or even web-based catalogs, and [engineering firms](https://www.youtube.com/watch?v=bXqe2zSepQ4) are creating AR applications showcasing their efforts to promote sustainability. [Predicted to grow](https://www.statista.com/statistics/786821/ar-device-and-services-revenue-worldwide/) into a multi-billion industry by 2020, augmented reality is an exciting new medium that humanists cannot afford to ignore. Indeed, many scholars within the growing field of digital humanities are beginning to explore how AR can be utilized as a viable medium of scholarly engagement within public spaces, objects, images, and texts.
+Novel applications of AR continue to surface  within a variety of industries: [museums](https://www.youtube.com/watch?v=gx_UQxx54lo) are integrating AR content into their displays, [companies](http://www.gizmag.com/ikea-augmented-reality-catalog-app/28703/) are promoting AR apps in lieu of print or even web-based catalogs, and [engineering firms](https://www.youtube.com/watch?v=bXqe2zSepQ4) are creating AR applications showcasing their efforts to promote sustainability. [Predicted to grow](https://www.statista.com/statistics/786821/ar-device-and-services-revenue-worldwide/) into a multi-billion industry by 2020, augmented reality is an exciting new medium that humanists cannot afford to ignore. Indeed, many scholars within the growing field of digital humanities are beginning to explore how AR can be utilized as a viable medium of scholarly engagement within public spaces, objects, images, and texts.
 
 {% include figure.html filename="ar-dev-1.png" caption="Augmented reality can be used to overlay digital information onto existing texts such as historical markers. This modified image is based on a photograph by Nicholas Henderson. 2015." %}
 
 Since at least 2010, [digital artists](https://manifestarblog.wordpress.com/about/) have been creating AR applications for social advocacy and cultural intervention. For example, Tamiko Thiel's AR project [Clouding Green](https://perma.cc/6NLX-AJBH) reveals the carbon footprint of specific technology companies. More recently, a group of New York artists created a ["vandalized" version of Jeff Koon's Snapchat sculptures](https://techcrunch.com/2017/10/08/jeff-koons-augmented-reality-snapchat-artwork-gets-vandalized/) as a way of protesting the digital takeover of public AR spaces.
 
-At the [Trace Initiative](https://web.archive.org/web/20180421163517/https://english.ufl.edu/trace_arcs/), a digital humanities organization in the University of Florida English Department, we seek to build upon the work of these artists by promoting the creation and circulation of humanities-focused mobile AR applications. We released our first AR application [to the Google Play store](https://web.archive.org/web/20210421123810/https://trace-arcs.english.ufl.edu/projects/scramble.html) in spring 2016.
+At the [Trace Initiative](http://web.archive.org/web/20180421163517/http://english.ufl.edu/trace_arcs/), a digital humanities organization in the University of Florida English Department, we seek to build upon the work of these artists by promoting the creation and circulation of humanities-focused mobile AR applications. We released our first AR application [to the Google Play store](https://web.archive.org/web/20210421123810/http://trace-arcs.english.ufl.edu/projects/scramble.html) in spring 2016.
 
 The augmented reality software used in this tutorial relies on image-recognition technology, meaning that it requires some kind of visual trigger (a logo, painting, etc.) to know when to display digital content. In the example application depicted in the image above, the application is programmed to only display the digital image of John C. Calhoun if the camera "recognizes" the specific historical marker with which it is associated. For this lesson, you will augment the cover of a physical book with a digital overlay that displays a picture of the author. You could use the technical skills gained throughout this tutorial to create digital overlays for a variety of texts such as historical documents or signs. For example, you might create an application that allows readers to scan the pages of a book or document and access historical context or critique related to that specific page. Humanities scholars could also use this tutorial to create site-specific AR applications to educate visitors about cultural aspects of a location that have been excluded from its historical presentation.
 
@@ -82,11 +82,11 @@ HP Reveal is a fantastic AR creation platform that can be learned fairly quickly
 
 ### Installing Unity and Vuforia
 
-Since the release of Unity 2017.2, the Vuforia SDK is integrated into the Unity Editor. The [Vuforia SDK](https://developer.vuforia.com/) is a suite of assets and code snippets that work alonside Unity to make it easier to quickly develop and build AR content for a variety of platforms. If you are unable to download Unity 2017.2 or later, [consult this archived lesson for earlier versions of Unity](/en/lessons/retired/intro-to-augmented-reality-with-unity). To download Unity and Vuforia, go to the [Unity website](https://unity3d.com/get-unity/download/archive) and download Unity 2017.2. In the Components dialog box, select Vuforia Augmented Reality Support in addition to either Android Build Support and/or iOS Build Support, depending on your target mobile device platform. Once the download completes, start Unity and follow the setup prompts. If Unity asks if you are creating a personal or professional account, choose personal account.
+Since the release of Unity 2017.2, the Vuforia SDK is integrated into the Unity Editor. The [Vuforia SDK](https://developer.vuforia.com/) is a suite of assets and code snippets that work alonside Unity to make it easier to quickly develop and build AR content for a variety of platforms. If you are unable to download Unity 2017.2 or later, [consult this archived lesson for earlier versions of Unity](/lessons/intro-to-augmented-reality-with-unity). To download Unity and Vuforia, go to the [Unity website](https://unity3d.com/get-unity/download/archive) and download Unity 2017.2. In the Components dialog box, select Vuforia Augmented Reality Support in addition to either Android Build Support and/or iOS Build Support, depending on your target mobile device platform. Once the download completes, start Unity and follow the setup prompts. If Unity asks if you are creating a personal or professional account, choose personal account.
 
 ### Java Development Kit
 
-Download and install the [Java Development Kit 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your operating system. At this time, Unity is incompatible with JDK 10.
+Download and install the [Java Development Kit 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your operating system. At this time, Unity is incompatible with JDK 10.
 
 Click the file once it has finished downloading, and follow the installation guide.
 
@@ -190,7 +190,7 @@ This cover of *Of Mice and Men* has sufficient visual complexity; however, it is
 
 {% include figure.html filename="ar-dev-10.png" caption="Photo courtesy of Mark Skwarek." %}
 
-If you are taking a picture of your book cover, make sure that there are no extraneous features present in the image. In the case of the *Of Mice and Men* image above, this would be anything beyond the edge of the cover. If your image contains such extraneous features, either take another picture or open it in a photo editor such as [Gimp](https://www.gimp.org/) and crop out these features. [Consult the latest Gimp documentation](https://www.gimp.org/docs/) for help on cropping and resizing images. Make sure that your image file is under 2.5 mb and that it is a .jpg or .png file.
+If you are taking a picture of your book cover, make sure that there are no extraneous features present in the image. In the case of the *Of Mice and Men* image above, this would be anything beyond the edge of the cover. If your image contains such extraneous features, either take another picture or open it in a photo editor such as [Gimp](http://www.gimp.org/) and crop out these features. [Consult the latest Gimp documentation](https://www.gimp.org/docs/) for help on cropping and resizing images. Make sure that your image file is under 2.5 mb and that it is a .jpg or .png file.
 
 {% include figure.html filename="ar-dev-11.png" caption="Crop out the area around the book." %}
 
@@ -343,7 +343,7 @@ Return to Unity to setup your application for an Android or iOS build:
 
 To install your own applications on your Android device,
 
-1. [Enable USB debugging](https://developer.Android.com/tools/device.html) by going to Setting > About Device.
+1. [Enable USB debugging](http://developer.Android.com/tools/device.html) by going to Setting > About Device.
 2. Tap the Build number seven times.
 3. Return to the previous screen and you should now see a Developer Options tab. Click it and make sure the option for USB debugging is checked.
 

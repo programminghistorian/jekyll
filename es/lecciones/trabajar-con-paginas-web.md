@@ -26,8 +26,8 @@ difficulty: 2
 activity: acquiring
 topics: [python]
 abstract: "Esta lección muestra qué es un Localizador de recursos uniforme (Uniform Resource Locator = URL) y explica cómo utilizar Python para descargar y guardar los contenidos de una página web en tu disco duro."
-next: /es/lecciones/manipular-cadenas-de-caracteres-en-python
-previous: /es/lecciones/reutilizacion-de-codigo-y-modularidad
+next: manipular-cadenas-de-caracteres-en-python
+previous: reutilizacion-de-codigo-y-modularidad
 original: working-with-web-pages
 python_warning: false
 avatar_alt: Grabado de una mujer y un hombre de pies.
@@ -162,7 +162,7 @@ f.write(contenidoWeb)
 f.close
 ```
 
-Ahora, si tu puedes guardar un solo archivo así de fácil, ¿es posible escribir un programa que te permita descargar un puñado de archivos? ¿Es posible incrementar la cantidad de IDs de los juicios y obtener copias de todos ellos en una sola descarga? Efectivamente. Puedes aprender cómo hacerlo en la lección [Downloading Multiple Files using Query Strings](/en/lessons/downloading-multiple-records-using-query-strings), que te recomendamos ver una vez completadas las lecciones introductorias de esta serie.
+Ahora, si tu puedes guardar un solo archivo así de fácil, ¿es posible escribir un programa que te permita descargar un puñado de archivos? ¿Es posible incrementar la cantidad de IDs de los juicios y obtener copias de todos ellos en una sola descarga? Efectivamente. Puedes aprender cómo hacerlo en la lección [Downloading Multiple Files using Query Strings](/lessons/downloading-multiple-records-using-query-strings), que te recomendamos ver una vez completadas las lecciones introductorias de esta serie.
 
 Lecturas sugeridas
 ------------------
@@ -177,12 +177,12 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 -   python-es-lecciones1.zip ([zip][])
 
 
-[The Old Bailey Online]: https://oldbaileyonline.org
+[The Old Bailey Online]: http://oldbaileyonline.org
 [*cadena de consulta*]: https://es.wikipedia.org/wiki/Query_string
 [Descarga de registros múltiples usando cadenas de consulta]: /lessons/downloading-multiple-records-using-query-strings
-[revueltas de Gordon]: https://en.wikipedia.org/wiki/Gordon_Riots
-[View as XML]: https://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes
+[revueltas de Gordon]: http://en.wikipedia.org/wiki/Gordon_Riots
+[View as XML]: http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes
 [XML]: https://es.wikipedia.org/wiki/Extensible_Markup_Language
-[documento original]: https://www.oldbaileyonline.org/images.jsp?doc=178006280084
+[documento original]: http://www.oldbaileyonline.org/images.jsp?doc=178006280084
 [urllib]: https://docs.python.org/3/library/urllib.html
 [zip]: /assets/python-es-lecciones1.zip

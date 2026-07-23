@@ -110,6 +110,6 @@ sudo pip install requests
 ¡Listo para trabajar!
 
 [pip]: https://pip.pypa.io/en/stable/
-[curl]: https://www.thegeekstuff.com/2012/04/curl-examples/
+[curl]: http://www.thegeekstuff.com/2012/04/curl-examples/
 [aquí]: https://bootstrap.pypa.io/get-pip.py
-[StackOverflow]: https://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows
+[StackOverflow]: http://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows

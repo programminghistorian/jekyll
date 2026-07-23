@@ -23,8 +23,8 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/67
 layout: lesson
 original: graph-databases-and-SPARQL
 redirect_from:
-  - /es/lessons/graph-databases-and-SPARQL/
-  - /es/lecciones/sparql-datos-abiertos-enlazados/
+- /es/lessons/graph-databases-and-SPARQL
+- /es/lecciones/sparql-datos-abiertos-enlazados
 difficulty: 2
 activity: acquiring
 topics: [lod]
@@ -50,11 +50,11 @@ Esta lección explica por qué numerosas instituciones culturales están adoptan
 
 ## Bases de datos orientadas a grafo, RDF y datos abiertos enlazados (Linked Open Data, LOD)
 
-Actualmente, numerosas instituciones culturales están  ofreciendo información sobre sus colecciones a través de las denominadas API ([*Application Programming Interfaces*](/en/lessons/retired/intro-to-the-zotero-api)). Estas API son instrumentos muy eficaces para acceder de manera automatizada a registros individuales, sin embargo, no constituyen el procedimiento ideal cuando tratamos con datos culturales debido a que las API están estructuradas para trabajar con un conjunto predeterminado de consultas (*queries*). Por ejemplo, un museo puede tener información sobre donantes, artistas, obras de arte, exposiciones, procedencia de sus obras (*provenance*), etc., pero su API puede ofrecer solo una recuperación orientada a objetos, haciendo difícil o imposible buscar datos relacionados con donantes, artistas, etc. Así pues, esta estructura es interesante si el objetivo es buscar información sobre objetos particulares; sin embargo, puede complicar la operación de agregar información sobre los artistas o donantes que también se encuentran registrados en la base de datos.
+Actualmente, numerosas instituciones culturales están  ofreciendo información sobre sus colecciones a través de las denominadas API ([*Application Programming Interfaces*](/lessons/intro-to-the-zotero-api.html)). Estas API son instrumentos muy eficaces para acceder de manera automatizada a registros individuales, sin embargo, no constituyen el procedimiento ideal cuando tratamos con datos culturales debido a que las API están estructuradas para trabajar con un conjunto predeterminado de consultas (*queries*). Por ejemplo, un museo puede tener información sobre donantes, artistas, obras de arte, exposiciones, procedencia de sus obras (*provenance*), etc., pero su API puede ofrecer solo una recuperación orientada a objetos, haciendo difícil o imposible buscar datos relacionados con donantes, artistas, etc. Así pues, esta estructura es interesante si el objetivo es buscar información sobre objetos particulares; sin embargo, puede complicar la operación de agregar información sobre los artistas o donantes que también se encuentran registrados en la base de datos.
 
 Las bases de datos RDF son muy apropiadas para expresar relaciones complejas entre múltiples entidades, como personas, lugares, eventos y conceptos ligados a objetos individuales. Estas bases de datos se denominan habitualmente bases de datos orientadas a grafos (*graph databases*) porque estructuran la información como un grafo o red, donde un conjunto de recursos o nodos están conectados entre sí mediante aristas (o enlaces) que describen las relaciones establecidas entre dichos recursos y/o nodos.
 
-Dado que las bases de datos RDF admiten el uso de URL, estas pueden estar accesibles *online* y también pueden enlazarse a otras bases de datos, de ahí el término "datos abiertos enlazados" (*Linked Open Data*, LOD). Importantes colecciones artísticas, entre las que se incluyen las del [British Museum](https://collection.britishmuseum.org/), [Europeana](https://labs.europeana.eu/api/linked-open-data-introduction), el [Smithsonian American Art Museum](https://americanart.si.edu/) y el [Yale Center for British Art](https://britishart.yale.edu/collections/using-collections/technology/linked-open-data), han publicado sus colecciones de datos como LOD. El [Getty Vocabulary Program](https://vocab.getty.edu/) también ha publicado sus vocabularios controlados (TGN, ULAN y AAT) como LOD.
+Dado que las bases de datos RDF admiten el uso de URL, estas pueden estar accesibles *online* y también pueden enlazarse a otras bases de datos, de ahí el término "datos abiertos enlazados" (*Linked Open Data*, LOD). Importantes colecciones artísticas, entre las que se incluyen las del [British Museum](http://collection.britishmuseum.org/), [Europeana](http://labs.europeana.eu/api/linked-open-data-introduction), el [Smithsonian American Art Museum](http://americanart.si.edu/) y el [Yale Center for British Art](http://britishart.yale.edu/collections/using-collections/technology/linked-open-data), han publicado sus colecciones de datos como LOD. El [Getty Vocabulary Program](http://vocab.getty.edu/) también ha publicado sus vocabularios controlados (TGN, ULAN y AAT) como LOD.
 
 SPARQL es el lenguaje utilizado para interrogar este tipo de bases de datos. Este lenguaje es particularmente potente porque obvia las perspectivas que los usuarios transfieren a los datos. Una consulta sobre objetos y una consulta sobre donantes son prácticamente equivalentes en estas bases de datos. Lamentablemente, numerosos tutoriales sobre SPARQL utilizan modelos de datos tan extremadamente simplificados que no son operativos cuando se trata de utilizar las complejas bases de datos desarrolladas por las instituciones culturales. Este tutorial ofrece un curso intensivo sobre SPARQL utilizando un conjunto de datos (*dataset*) que un humanista podría realmente encontrar en Internet. En concreto, en este tutorial aprenderemos cómo interrogar la colección LOD del British Museum.
 
@@ -94,7 +94,7 @@ Las tradicionales bases de datos relacionales pueden distribuir atributos sobre 
 
 ### Buscando RDF con SPARQL
 
-SPARQL nos permite traducir datos en grafo, intensamente enlazados, en datos normalizados en formato tabular, esto es,  distribuidos en filas y columnas, que se pueden abrir en programas como Excel o importar a programas de visualización, tales como [plot.ly](https://plot.ly/) o [Palladio](https://hdlab.stanford.edu/palladio/).
+SPARQL nos permite traducir datos en grafo, intensamente enlazados, en datos normalizados en formato tabular, esto es,  distribuidos en filas y columnas, que se pueden abrir en programas como Excel o importar a programas de visualización, tales como [plot.ly](https://plot.ly/) o [Palladio](http://hdlab.stanford.edu/palladio/).
 
 Resulta útil pensar las consultas SPARQL como un [Mad Lib](https://en.wikipedia.org/wiki/Mad_Libs) -un conjunto de oraciones con espacios en blanco-. La base de datos tomará esta consulta y encontrará cada conjunto de oraciones que encaje correctamente en estos espacios en blanco, devolviéndonos los valores coincidentes como una tabla. Veamos esta consulta SPARQL:
 
@@ -188,12 +188,12 @@ Debemos ser conscientes de que los prefijos se pueden asignar arbitrariamente a 
 
 ### Todas las declaraciones para un objeto
 
-Vamos a empezar nuestra primera consulta utilizando el [punto de entrada SPARQL del British Museum](https://collection.britishmuseum.org/sparql). Un punto de entrada SPARQL es una dirección web que acepta consultas SPARQL y devuelve resultados. El punto de entrada del British Museum funciona como muchos otros: cuando accedemos a él a través de un navegador web, encontramos una caja de texto para componer las consultas.
+Vamos a empezar nuestra primera consulta utilizando el [punto de entrada SPARQL del British Museum](http://collection.britishmuseum.org/sparql). Un punto de entrada SPARQL es una dirección web que acepta consultas SPARQL y devuelve resultados. El punto de entrada del British Museum funciona como muchos otros: cuando accedemos a él a través de un navegador web, encontramos una caja de texto para componer las consultas.
 
 {% include figure.html filename="sparql-lod-05.png" caption="Web del punto de entrada SPARQL del British Museum. Para todas las consultas de este tutorial, hay que asegurarse de haber dejado las casillas 'Include inferred' y 'Expand results over equivalent URIs' sin marcar." %}
 
 
-Cuando empezamos a explorar una nueva base de datos RDF, resulta últil examinar, a modo de ejemplo, las relaciones que emanan de un [objeto en concreto](https://collection.britishmuseum.org/resource?uri=https://collection.britishmuseum.org/id/object/PPA82633).
+Cuando empezamos a explorar una nueva base de datos RDF, resulta últil examinar, a modo de ejemplo, las relaciones que emanan de un [objeto en concreto](http://collection.britishmuseum.org/resource?uri=http://collection.britishmuseum.org/id/object/PPA82633).
 
 (Para cada una de las siguientes consultas, clica en el enlace "Run query" situado más abajo para ver los resultados. La puedes ejecutar tal y como está o modificarla antes. En este último caso, recuerda que es necesario dejar sin marcar la casilla "Include inferred" antes de ejecutar la consulta).
 
@@ -204,7 +204,7 @@ WHERE {
 }
 ```
 
-[Run query](https://collection.britishmuseum.org/sparql?query=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D&_implicit=false&_equivalent=false&_form=%2Fsparql)
+[Run query](http://collection.britishmuseum.org/sparql?query=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D&_implicit=false&_equivalent=false&_form=%2Fsparql)
 
 Con la orden `SELECT ?p ?o`, le estamos diciendo a la base de datos que nos devuelva los valores de `?p` y `?o` descritos en el comando `WHERE {}`. Esta consulta devuelve cada declaración para la cual nuestra obra de arte seleccionada, `<http://collection.britishmuseum.org/id/object/PPA82633>`, es el sujeto. `?p` ocupa la posición central en la declaración RDF en el comando `WHERE {}`, por lo que esta devuelve cualquier predicado que coincide con la declaración, mientras que `?o`, en la posición final, devuelve todos los objetos. Aunque yo las he nombrado como `?p` y `?o`, en realidad, tal y como se puede ver en el ejemplo inferior, es posible nombrar estas variables del modo que nosotros queramos. De hecho, será útil darles nombres significativos para las  consultas complejas que siguen a continuación.
 
@@ -344,7 +344,7 @@ ORDER BY DESC(?n)
 
 Hasta ahora, hemos construido consultas que buscan patrones en un único conjunto de datos. Sin embargo, el escenario ideal al que aspiran los partidarios de LOD viene dado por la posibilidad de enlazar múltiples bases de datos, lo que permitirá realizar consultas mucho más complejas al estar estas basadas en el conocimiento distribuido que es posible extraer de diversos espacios web. No obstante, esto resulta más fácil de decir que de hacer, y muchos puntos de entrada (incluido el del British Museum) todavía no referencian recursos de autoridad externos.
 
-Un punto de entrada que sí lo hace es el de [Europeana](https://sparql.europeana.eu/). Europeana ha creado enlaces entre los objetos de sus bases de datos y los registros de personas en [DBPedia](https://wiki.dbpedia.org/) y [VIAF](https://www.oclc.org/es/viaf.html), los registros de lugares en [GeoNames](https://sws.geonames.org/), y los conceptos resgistrados el *Tesauro de Arte y Arquitectura* (AAT) del Getty Research Institute. SPARQL nos permite insertar declaraciones `SERVICE` que ordenan a la base de datos "llamar a un amigo" y ejecutar una porción de la consulta en una base de datos externa, utilizando estos resultados para completar la consulta en la base de datos local. Si bien esta lección no se dentendrá en los modelos de datos de Europeana y DBPedia en profundidad, la siguiente consulta nos permite ver cómo funciona la declaración `SELECT`. Cada uno de los lectores puede ejecutarla por sí mismo copiando y pegando el texto de la consulta en el punto de entrada de [Europeana](https://sparql.europeana.eu). (A fin de que la consulta funcione, en el punto de entrada de Europeana se debe configurar el menú "Sponging" para "Retrieve remote RDF data for all missing source graphs").
+Un punto de entrada que sí lo hace es el de [Europeana](http://sparql.europeana.eu/). Europeana ha creado enlaces entre los objetos de sus bases de datos y los registros de personas en [DBPedia](http://wiki.dbpedia.org/) y [VIAF](https://viaf.org/), los registros de lugares en [GeoNames](http://sws.geonames.org/), y los conceptos resgistrados el *Tesauro de Arte y Arquitectura* (AAT) del Getty Research Institute. SPARQL nos permite insertar declaraciones `SERVICE` que ordenan a la base de datos "llamar a un amigo" y ejecutar una porción de la consulta en una base de datos externa, utilizando estos resultados para completar la consulta en la base de datos local. Si bien esta lección no se dentendrá en los modelos de datos de Europeana y DBPedia en profundidad, la siguiente consulta nos permite ver cómo funciona la declaración `SELECT`. Cada uno de los lectores puede ejecutarla por sí mismo copiando y pegando el texto de la consulta en el punto de entrada de [Europeana](http://sparql.europeana.eu). (A fin de que la consulta funcione, en el punto de entrada de Europeana se debe configurar el menú "Sponging" para "Retrieve remote RDF data for all missing source graphs").
 
 ```
 PREFIX ore:    <http://www.openarchives.org/ore/terms/>
@@ -383,7 +383,7 @@ LIMIT 100
 {% include figure.html filename="sparql-lod-13.png" caption="Visualización de la secuencia de la consulta de la solicitud SPARQL definida más arriba." %}
 
 
-Una consulta interconectada como esta significa que podemos interrogar a Europeana sobre los objetos que cuentan con información geográfica (¿cuáles son las ciudades de Holanda?) sin necesidad de que Europeana tenga que almacenar y mantener esta información por sí misma. Es de esperar que, en el futuro, cada vez mayor cantidad de información LOD de carácter cultural esté enlazada con bases de datos autorizadas, como el ULAN (*Union List of Artist Names*) del [Getty Research Institute](https://www.getty.edu/research/). Esto permitirá, por ejemplo, que el British Museum "externalice" la información biográfica acudiendo a los recursos más completos del GRI.
+Una consulta interconectada como esta significa que podemos interrogar a Europeana sobre los objetos que cuentan con información geográfica (¿cuáles son las ciudades de Holanda?) sin necesidad de que Europeana tenga que almacenar y mantener esta información por sí misma. Es de esperar que, en el futuro, cada vez mayor cantidad de información LOD de carácter cultural esté enlazada con bases de datos autorizadas, como el ULAN (*Union List of Artist Names*) del [Getty Research Institute](http://www.getty.edu/research/). Esto permitirá, por ejemplo, que el British Museum "externalice" la información biográfica acudiendo a los recursos más completos del GRI.
 
 ## Trabajando con resultados SPARQL
 
@@ -393,7 +393,7 @@ Una vez que hemos construido y ejecutado una consulta, ¿qué hacemos ahora con 
 
 En la esquina superior derecha de la página de resultados del punto de entrada del BM, se encuentran enlaces para descargas en formato JSON y XML. Otros puntos de entrada también pueden ofrecer la opción de descargar los resultados en CSV/TSV; sin embargo, esta opción no siempre se encuentra disponible. Las salidas JSON y XML desde un punto de entrada SPARQL contienen no solo los valores devueltos por la declaración `SELECT`, sino también metadatos adicionales sobre tipos de variables e idiomas.
 
-El procesamiento de la versión XML de los resultados se puede realizar con herramientas tales como Beautiful Soup (véase la lección correspondiente en *[The Programming Historian](/en/lessons/intro-to-beautiful-soup)* u [OpenRefine](https://openrefine.org/)). Para convertir rápidamente los resultados JSON desde un punto de entrada SPARQL en un formato tabular, yo recomiendo la utilidad de la línea de comando gratuita [jg](https://stedolan.github.io/jq/download/). (Para un tutorial sobre cómo utilizar programas de línea de comando, véase ["Introduction to the Bash Command Line"](/en/lessons/intro-to-bash)). La siguiente consulta convertirá el formato especial JSON RDF en un fichero CSV, que podremos cargar en nuestro programa preferido para su posterior análisis y visualización:
+El procesamiento de la versión XML de los resultados se puede realizar con herramientas tales como Beautiful Soup (véase la lección correspondiente en *[The Programming Historian](/lessons/intro-to-beautiful-soup.html)* u [OpenRefine](http://openrefine.org/)). Para convertir rápidamente los resultados JSON desde un punto de entrada SPARQL en un formato tabular, yo recomiendo la utilidad de la línea de comando gratuita [jg](https://stedolan.github.io/jq/download/). (Para un tutorial sobre cómo utilizar programas de línea de comando, véase ["Introduction to the Bash Command Line"](/lessons/intro-to-bash.html)). La siguiente consulta convertirá el formato especial JSON RDF en un fichero CSV, que podremos cargar en nuestro programa preferido para su posterior análisis y visualización:
 
 ```
 jq -r '.head.vars as $fields | ($fields | @csv), (.results.bindings[] | [.[$fields[]].value] | @csv)' sparql.json > sparql.csv
@@ -402,7 +402,7 @@ jq -r '.head.vars as $fields | ($fields | @csv), (.results.bindings[] | [.[$fiel
 
 ### Exportar resultados a Palladio
 
-La popular plataforma de análisis de datos [Palladio](https://hdlab.stanford.edu/palladio/) puede cargar directamente datos desde un punto de entrada SPARQL. En la parte inferior de la pantalla "Create a new project", el enlace "Load data from a SPARQL endpoint (beta)" nos proporciona un campo para escribir la dirección del punto de entrada y una caja para la consulta propiamente dicha. Dependiendo del punto de entrada, podemos necesitar especifidar el tipo de fichero de salida en la dirección del punto de entrada; por ejemplo, para cargar datos desde el punto de entrada del British Museum, debemos utilizar la dirección `http://collection.britishmuseum.org/sparql.json`. Trata de pegar la consulta de agregación que utilizamos más arriba para el recuento de obras de arte según su tipología y clica en "Run query". Palladio debería mostrar una tabla de previsualización como esta:
+La popular plataforma de análisis de datos [Palladio](http://hdlab.stanford.edu/palladio/) puede cargar directamente datos desde un punto de entrada SPARQL. En la parte inferior de la pantalla "Create a new project", el enlace "Load data from a SPARQL endpoint (beta)" nos proporciona un campo para escribir la dirección del punto de entrada y una caja para la consulta propiamente dicha. Dependiendo del punto de entrada, podemos necesitar especifidar el tipo de fichero de salida en la dirección del punto de entrada; por ejemplo, para cargar datos desde el punto de entrada del British Museum, debemos utilizar la dirección `http://collection.britishmuseum.org/sparql.json`. Trata de pegar la consulta de agregación que utilizamos más arriba para el recuento de obras de arte según su tipología y clica en "Run query". Palladio debería mostrar una tabla de previsualización como esta:
 
 {% include figure.html filename="sparql-lod-14.png" caption="Interfaz de Palladio para las consultas SPARQL." %}
 
@@ -425,5 +425,5 @@ Con todo, existen otras muchas maneras de modificar estas consultas, tales como 
 
 Tanto la web de Europeana como la del Getty Vocabularies ofrecen ejemplos extensos y bastante complejos de consultas que pueden constituir buenos recursos para comprender cómo buscar en sus datos:
 
-* [Europeana SPARQL how-to](https://labs.europeana.eu/api/linked-open-data-SPARQL-endpoint)
-* [Getty Vocabularies Example Queries](https://vocab.getty.edu/queries#Finding_Subjects)
+* [Europeana SPARQL how-to](http://labs.europeana.eu/api/linked-open-data-SPARQL-endpoint)
+* [Getty Vocabularies Example Queries](http://vocab.getty.edu/queries#Finding_Subjects)

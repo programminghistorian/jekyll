@@ -14,8 +14,8 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/6
 activity: presenting
 topics: [website]
 abstract: "This lesson will teach you how to install your own copy of Omeka."
-next: /en/lessons/creating-an-omeka-exhibit
-redirect_from: /lessons/installing-omeka/
+next: creating-an-omeka-exhibit
+redirect_from: /lessons/installing-omeka
 avatar_alt: A figure working at a machine with gear diagrams
 doi: 10.46430/phen0052
 ---
@@ -28,7 +28,7 @@ doi: 10.46430/phen0052
 
 ## Introduction
 
-[Omeka.net](https://omeka.net), as described in [the previous lesson](/en/lessons/up-and-running-with-omeka), is a useful service for Omeka beginners, but there are a few reasons why you might want to install your own copy of Omeka. Reasons include:
+[Omeka.net](http://omeka.net), as described in [the previous lesson](up-and-running-with-omeka.html), is a useful service for Omeka beginners, but there are a few reasons why you might want to install your own copy of Omeka. Reasons include:
 
  * **Upgrades**. By installing Omeka yourself, you can use the latest versions of Omeka as soon as they're released, without having to wait for Omeka.net to upgrade their system.
  * **Plugins and themes**. You can install any plugin or theme you want, without being restricted to those provided by Omeka.net.
@@ -37,24 +37,24 @@ doi: 10.46430/phen0052
  * **Price**. There are many low-cost Virtual Private Servers (VPSs) now, some of which cost only $5 per month.
  * **Storage**. Many shared hosting providers now offer unlimited storage. This is useful if you have a large media library.
 
-In this tutorial, we'll be entering a few commands on the command line. This tutorial assumes no prior knowledge of the command line, but if you want a concise primer, consult the [Programming Historian introduction to BASH](/en/lessons/intro-to-bash). There are other ways of installing Omeka, of course, some using exclusively GUI tools. Some hosting providers even offer "[one-click installs](https://omeka.org/classic/docs/GettingStarted/Hosting_Suggestions/)" via their control panels. Many of those methods, however, will install older versions of Omeka which are then harder to upgrade and maintain. The method outlined below may not be the easiest way to install Omeka, but it will give you some good practice with using the command line, which is a skill that will be useful if you want to manually upgrade your install, or manually install other web frameworks. (For example, this installation method is very similar to WordPress's ["Five-Minute Install"](https://codex.wordpress.org/Installing_WordPress).) There are four steps to this process, and it should take about an hour.
+In this tutorial, we'll be entering a few commands on the command line. This tutorial assumes no prior knowledge of the command line, but if you want a concise primer, consult the [Programming Historian introduction to BASH](/lessons/intro-to-bash). There are other ways of installing Omeka, of course, some using exclusively GUI tools. Some hosting providers even offer "[one-click installs](https://omeka.org/classic/docs/GettingStarted/Hosting_Suggestions/)" via their control panels. Many of those methods, however, will install older versions of Omeka which are then harder to upgrade and maintain. The method outlined below may not be the easiest way to install Omeka, but it will give you some good practice with using the command line, which is a skill that will be useful if you want to manually upgrade your install, or manually install other web frameworks. (For example, this installation method is very similar to WordPress's ["Five-Minute Install"](https://codex.wordpress.org/Installing_WordPress).) There are four steps to this process, and it should take about an hour.
 
 ## Step 1: Set Up Your Host
 
-First, sign up for an account with a hosting provider that gives you SSH access. There are two main types of hosting providers: VPS and shared. A VPS host gives you root access, which means you have more control over the server, but your storage space is often limited. For small archives of 20GB or less, this is the best solution, but for large archives, shared hosting plans might be better suited. [DigitalOcean](https://www.digitalocean.com/signup/) is an easy-to-use and inexpensive VPS host, and [Amazon Web Services](https://aws.amazon.com/free/) (AWS) hosts similar virtual servers on their Elastic Computing (EC2) platform, geared more toward advanced users. Both [HostGator](https://www.hostgator.com/) and [DreamHost](https://www.dreamhost.com) offer inexpensive shared hosting with unlimited storage.
+First, sign up for an account with a hosting provider that gives you SSH access. There are two main types of hosting providers: VPS and shared. A VPS host gives you root access, which means you have more control over the server, but your storage space is often limited. For small archives of 20GB or less, this is the best solution, but for large archives, shared hosting plans might be better suited. [DigitalOcean](https://www.digitalocean.com/signup/) is an easy-to-use and inexpensive VPS host, and [Amazon Web Services](http://aws.amazon.com/free/) (AWS) hosts similar virtual servers on their Elastic Computing (EC2) platform, geared more toward advanced users. Both [HostGator](http://www.hostgator.com/) and [DreamHost](http://www.dreamhost.com) offer inexpensive shared hosting with unlimited storage.
 
-If you open an account with a VPS provider, you'll first want to create a virtual server with their interface. (If you’re using shared hosting, this is already done for you.) On DigitalOcean, VPS instances are called "droplets," and you can create one by simply logging in and clicking "Create Droplet." On AWS EC2, a VPS is called an "instance," and you can create one by logging into your EC2 console and clicking "Launch Instance." In both cases, **choose an Ubuntu system** to install, since we'll be running Ubuntu Linux commands below. For more detailed help with these steps, check out Digital Ocean's guide [How To Create Your First DigitalOcean Droplet Virtual Server](https://web.archive.org/web/20170608220025/https://www.digitalocean.com/community/tutorials/how-to-create-your-first-digitalocean-droplet-virtual-server), and Amazon's guide [Launch an Amazon EC2 Instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-launch-instance_linux.html).
+If you open an account with a VPS provider, you'll first want to create a virtual server with their interface. (If you’re using shared hosting, this is already done for you.) On DigitalOcean, VPS instances are called "droplets," and you can create one by simply logging in and clicking "Create Droplet." On AWS EC2, a VPS is called an "instance," and you can create one by logging into your EC2 console and clicking "Launch Instance." In both cases, **choose an Ubuntu system** to install, since we'll be running Ubuntu Linux commands below. For more detailed help with these steps, check out Digital Ocean's guide [How To Create Your First DigitalOcean Droplet Virtual Server](https://web.archive.org/web/20170608220025/https://www.digitalocean.com/community/tutorials/how-to-create-your-first-digitalocean-droplet-virtual-server), and Amazon's guide [Launch an Amazon EC2 Instance](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-launch-instance_linux.html).
 
 Now that you have a running server, connect to it with an SSH client. This is sometimes as simple as opening a terminal and typing `ssh user@hostname`, where `user` is the username provided by your VPS and `hostname` is your server address. Consult your host's documentation for instructions for logging on via SSH. Here is a sampling of guides for VPS hosts:
 
  * [Digital Ocean: How To Connect To Your Droplet with SSH](https://www.digitalocean.com/docs/droplets/how-to/connect-with-ssh)
- * [Amazon Web Services: Connecting to Your Linux Instance Using SSH](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
+ * [Amazon Web Services: Connecting to Your Linux Instance Using SSH](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
  * [Google Cloud: Connecting to Your Linux Instance](https://cloud.google.com/compute/docs/instances/connecting-to-instance)
 
 And here are a few guides for shared hosts:
 
  * [DreamHost Wiki: SSH](https://help.dreamhost.com/hc/en-us/articles/216041267-SSH-overview)
- * [HostGator: How Do I Get and Use SSH Access?](https://support.hostgator.com/articles/hosting-guide/lets-get-started/how-do-i-get-and-use-ssh-access)
+ * [HostGator: How Do I Get and Use SSH Access?](http://support.hostgator.com/articles/hosting-guide/lets-get-started/how-do-i-get-and-use-ssh-access)
 
 When you're connected, you should see a prompt that looks roughly like this:
 
@@ -139,7 +139,7 @@ Now let's download Omeka directly to the server. This will allow us to avoid the
 
 If you get a permissions error here on a VPS, make sure you're logged in as the root user with `su root`. Now let's download Omeka with command `wget` like this:
 
-    wget https://omeka.org/files/omeka-2.7.zip
+    wget http://omeka.org/files/omeka-2.7.zip
 
 Now let’s first make sure we have the `unzip` command:
 

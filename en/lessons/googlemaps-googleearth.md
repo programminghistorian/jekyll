@@ -19,10 +19,10 @@ topics: [mapping]
 abstract: "Google My Maps and Google Earth provide an easy way to start creating
 digital maps. With a Google Account you can create and edit personal
 maps by clicking on My Places."
-next: /en/lessons/qgis-layers
+next: qgis-layers
 series_total: 5 lessons
 sequence: 1 
-redirect_from: /lessons/googlemaps-googleearth/
+redirect_from: /lessons/googlemaps-googleearth
 avatar_alt: An old man consulting a large globe with a compass
 doi: 10.46430/phen0028
 ---
@@ -63,13 +63,13 @@ or Quantum GIS.
 -   Log in to your Google Account if you aren't already logged in
     (follow the basic instructions to create an account if necessary)
 
-{% include figure.html filename="en-or-googlemaps-googleearth-01.png" caption="Figure 1" %}
+{% include figure.html filename="geo1.png" caption="Figure 1" %}
 
 -   Click on the question mark at bottom right and click Take a Tour for an introduction to how
     My Maps works
 
 
-{% include figure.html filename="en-or-googlemaps-googleearth-02.png" caption="Figure 2" %}
+{% include figure.html filename="geo2.png" caption="Figure 2" %}
 
 -   At the upper left corner, a menu box appears, titled 'Untitled Map'.
     By clicking on the title you can rename as 'My test map' or a title
@@ -86,42 +86,42 @@ or Quantum GIS.
     modern place names and avoid risking that Google with choose the
     wrong Constantinople.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-03.png" caption="Figure 3" %}
+{% include figure.html filename="geo3.png" caption="Figure 3" %}
 
-{% include figure.html filename="en-or-googlemaps-googleearth-04.png" caption="Figure 4" %}
+{% include figure.html filename="geo4.png" caption="Figure 4" %}
 
 -   Next, you can Import a Dataset. Click the Import
     button under the untitled layer.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-05.png" caption="Figure 5" %}
+{% include figure.html filename="geo5.png" caption="Figure 5" %}
 
 -   A new window will pop up and give you the option of importing a CSV
     (comma separated value), XLXS (Microsoft Excel) file, KML (Google's spatial file formate) or GPX (common GPS file formate). These are two common spreadsheet formats; CSV is simple and universal, XLXS is
     the MS Excel format. You can also work with a Google spreadsheet
     from your Drive account.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-06.png" caption="Figure 6" %}
+{% include figure.html filename="geo6.png" caption="Figure 6" %}
 
 -   Download this sample data and located it on your computer: [UK
-    Global Fat Supply CSV file](/assets/googlemaps-googleearth/UKGlobalFatSupply1894-1896.csv.zip). If you open the file in Excel or
+    Global Fat Supply CSV file][]. If you open the file in Excel or
     another spreadsheet program, you'll find a simple two column dataset
     with a list of different kinds of fats and the associated list of
     places. This data was created using British import tables from 1896.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-07.png" caption="Figure 7" %}
+{% include figure.html filename="geo7.png" caption="Figure 7" %}
 
 -   Drag the file into the box provided by Google Maps.
 -   You will then be promted to choose which column Google should use to
     identify a the location. Choose Place.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-08.png" caption="Figure 8" %}
+{% include figure.html filename="geo8.png" caption="Figure 8" %}
 
 -   You will then be promoted again to choose which column should be
     used for the label. Choose 'Commodity'.
 -   You should now have a global map of the major exporters of fat to
     Britain during the mid-1890s.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-09.png" caption="Figure 9" %}
+{% include figure.html filename="geo9.png" caption="Figure 9: Click to see full-size image" %}
 
 -   You can now explore the data in more detail and change the Style to
     distinguish between the different types of fats.
@@ -130,9 +130,9 @@ or Quantum GIS.
     Commodities. On the left hand side, the legend will show the amount
     of occurrences of each style in brackets, e.g. 'Flax Seeds (4)'.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-10.png" caption="Figure 10" %}
+{% include figure.html filename="geo10.png" caption="Figure 10" %}
 
-{% include figure.html filename="en-or-googlemaps-googleearth-11.png" caption="Figure 11" %}
+{% include figure.html filename="geo11.png" caption="Figure 11" %}
 
 -   Continue to play with the options.
 -   This feature provides a powerful tool to display historical
@@ -142,7 +142,7 @@ or Quantum GIS.
     300 features.
 
 
-{% include figure.html filename="en-or-googlemaps-googleearth-12.png" caption="Figure 12" %}
+{% include figure.html filename="geo12.png" caption="Figure 12" %}
 
 ### Creating Vector Layers
 
@@ -159,7 +159,7 @@ a problem as you scale up your digital mapping research, but it is not a
 problem when you are starting out. In Google Maps you can add a label, a
 text description, and links to a website or photo. More information
 about creating historical vectors in a full GIS is available in
-[Creating New Vector Layers in QGIS 2.0](/en/lessons/vector-layers-qgis).
+[Creating New Vector Layers in QGIS 2.0][].
 
 -   To add a layer, you can either click on the layer that has been
     created for you in the menu box, with the name 'Untitled Layer'.
@@ -168,7 +168,7 @@ about creating historical vectors in a full GIS is available in
     'Untitled Layer' which you can name as 'Layer 2′. It should look
     like this:
 
-{% include figure.html filename="en-or-googlemaps-googleearth-13.png" caption="Figure 13" %}
+{% include figure.html filename="geo13.png" caption="Figure 13" %}
 
 -   Note that to the right of Layer there is a checkbox – unchecking
     this box turns off (i.e. it doesn't appear on the map) a layer and
@@ -195,14 +195,14 @@ about creating historical vectors in a full GIS is available in
     top of the window. Click on the spot on the map where you want the
     Placemark to appear.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-14.png" caption="Figure 14" %}
+{% include figure.html filename="geo14.png" caption="Figure 14" %}
 
 -   A box will pop up and give you the opportunity to label the
     Placemark and add a description into the text box. We added
     Charlottetown and included that it was founded in 1765 in the
     description box.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-15.png" caption="Figure 15" %}
+{% include figure.html filename="geo15.png" caption="Figure 15" %}
 
 -   Add a few more points, including labels and descriptions.
 
@@ -216,7 +216,7 @@ about creating historical vectors in a full GIS is available in
     Placemark. Labels menu allows you to control whether the name or
     description of your Placemark appears besides it on the actual map.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-16.png" caption="Figure 16" %}
+{% include figure.html filename="geo16.png" caption="Figure 16" %}
 
 -   Now we will add some lines and shapes (called polygons in GIS
     software). Adding lines and polygons is a very similar process. We
@@ -227,7 +227,7 @@ about creating historical vectors in a full GIS is available in
 -   Click the 'add line or shape' icon box directly to the right of the
     Markers symbol:
 
-{% include figure.html filename="en-or-googlemaps-googleearth-17.png" caption="Figure 17" %}
+{% include figure.html filename="geo17.png" caption="Figure 17" %}
 
 -   Pick a road and click with your mouse along it, tracing the route
     for a while. Hit "enter" when you want to finish the line.
@@ -238,7 +238,7 @@ about creating historical vectors in a full GIS is available in
     find the road you have drawn in Layer 2 in the menu box, and click
     to the right of the name of the road.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-18.png" caption="Figure 18" %}
+{% include figure.html filename="geo18.png" caption="Figure 18" %}
 
 -   To create a polygon (a shape) you can connect the dots of the line
     to create an enclosed formation. To do this, start drawing and
@@ -247,9 +247,9 @@ about creating historical vectors in a full GIS is available in
     shapes, such as the outline of a city (see examples below). Feel
     free to experiment with creating lines and polygons.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-19.png" caption="Figure 19" %}
+{% include figure.html filename="geo19.png" caption="Figure 19" %}
 
-{% include figure.html filename="en-or-googlemaps-googleearth-20.png" caption="Figure 20" %}
+{% include figure.html filename="geo20.png" caption="Figure 20" %}
 
 -   Like placemarks and lines, you can change the name and description
     of a polygon. You can also change the colour and line width by
@@ -290,9 +290,9 @@ about creating historical vectors in a full GIS is available in
     you can keep going and learn about Google Earth and in lesson 2,
     Quantum GIS.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-21.png" caption="Figure 21" %}
+{% include figure.html filename="geo21.png" caption="Figure 21" %}
 
-{% include figure.html filename="en-or-googlemaps-googleearth-22.png" caption="Figure 22" %}
+{% include figure.html filename="geo22.png" caption="Figure 22" %}
 
 ## Google Earth
 
@@ -313,13 +313,13 @@ exported.
     See the red arrows in the following image for the location of these
     layers.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-23.png" caption="Figure 23" %}
+{% include figure.html filename="geo23.png" caption="Figure 23: Click to see full-size image" %}
 
 -   Note that under the 'Layer' heading on the lower left side of the
     window margin, Google provides a number of ready-to-go layers that
     can be turned on by selecting the corresponding checkbox.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-24.png" caption="Figure 24" %}
+{% include figure.html filename="geo24.png" caption="Figure 24" %}
 
 -   Google Earth also contains some scanned historical maps and aerial
     photographs (in GIS these types of maps, which are made up of
@@ -333,23 +333,23 @@ exported.
     number of historical maps. See if there are any maps included in the
     Rumsey Collection that might be useful for your research or
     teaching. (You can find many more digitized, but not georeferenced
-    maps at [www.davidrumsey.com](https://www.davidrumsey.com/).)
+    maps at [www.davidrumsey.com][].)
 
-{% include figure.html filename="en-or-googlemaps-googleearth-25.png" caption="Figure 25" %}
+{% include figure.html filename="geo25.png" caption="Figure 25" %}
 
 -   You might need to zoom in to see all of the Map icons. Can you find
     the World Globe from 1812?
 
-{% include figure.html filename="en-or-googlemaps-googleearth-26.png" caption="Figure 26" %}
+{% include figure.html filename="geo26.png" caption="Figure 26" %}
 
 -   Once you click on an icon an information panel pops up. Click on the
     map thumbnail to see the map tacked onto the digital globe. We will
     learn to properly georeference maps in [Georeferencing in QGIS
-    2.0](/en/lessons/georeferencing-qgis).
+    2.0][].
 
-{% include figure.html filename="en-or-googlemaps-googleearth-27.png" caption="Figure 27" %}
+{% include figure.html filename="geo27.png" caption="Figure 27" %}
 
-{% include figure.html filename="en-or-googlemaps-googleearth-28.png" caption="Figure 28" %}
+{% include figure.html filename="geo28.png" caption="Figure 28: Click to see full-size image" %}
 
 ## KML: Keyhole Markup Language files
 
@@ -364,10 +364,10 @@ exported.
     two platforms and bring your map data into Quantum GIS or ArcGIS.
 -   For example, you can import the data you created in Google Maps
     Engine Lite. If you created a map in the exercise above, it can be
-    found by clicking "Open Map" on the [Maps Engine Lite](https://mapsengine.google.com) home page.
+    found by clicking "Open Map" on the [Maps Engine Lite][] home page.
     Click on the folder icon on the left hand side of the legend beneath
     the map title and click "export to KML". (You can also download and
-    explore Dan Macfarlane's [Seaway map](/assets/googlemaps-googleearth/seaway.zip) for this part of the
+    explore Dan Macfarlane's [Seaway map][] for this part of the
     exercise).
 
 **Bringing your KML file into Google Earth**
@@ -381,7 +381,7 @@ Updates to Google Earth since the publication of this lesson in 2013, mean that 
 -   Double click on the KML file in your Download folder.
 -   Find the data in the Temporary Folder in Google Earth.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-29.png" caption="Figure 29: Click to see full-size image" %}
+{% include figure.html filename="geo29.png" caption="Figure 29: Click to see full-size image" %}
 
 -   You can now explore these map features in 3D, or you can add new
     lines, points and polygons using the various icons along the top
@@ -397,7 +397,7 @@ Updates to Google Earth since the publication of this lesson in 2013, mean that 
     tour" icon is selected, recording options will show up on the bottom
     left of the window).
 
-{% include figure.html filename="en-or-googlemaps-googleearth-30.png" caption="Figure 30" %}
+{% include figure.html filename="geo30.png" caption="Figure 30" %}
 
 -   Try adding a new feature to Dan's Seaway data. We've created a
     polygon (in GIS terminology a polygon is a closed shape of any type
@@ -405,9 +405,9 @@ Updates to Google Earth since the publication of this lesson in 2013, mean that 
     in the next image. Find Lake St. Clair (east of Detroit) and try
     adding a polygon.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-31.png" caption="Figure 31" %}
+{% include figure.html filename="geo31.png" caption="Figure 31: Click to see full-size image" %}
 
-{% include figure.html filename="en-or-googlemaps-googleearth-32.png" caption="Figure 32" %}
+{% include figure.html filename="geo32.png" caption="Figure 32" %}
 
 -   Label the new feature Lake St. Clair. You can then drag the new
     feature onto Dan's Seaway data and add it to the collection. You can
@@ -416,18 +416,19 @@ Updates to Google Earth since the publication of this lesson in 2013, mean that 
     QGIS. Find the save option by right-clicking on the Seaway
     collection and choose Save Place As or Email.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-33.png" caption="Figure 33" %}
+{% include figure.html filename="geo33.png" caption="Figure 33" %}
 
-{% include figure.html filename="en-or-googlemaps-googleearth-34.png" caption="Figure 34" %}
+{% include figure.html filename="geo34.png" caption="Figure 34" %}
 
-{% include figure.html filename="en-or-googlemaps-googleearth-35.png" caption="Figure 35" %}
+{% include figure.html filename="geo35.png" caption="Figure 35" %}
 
 ## Adding Scanned Historical Maps
 
 Within Google Earth, you can upload a digital copy of a historical map.
 This could be a map that has been scanned, or an image obtained that is
 already in a digital format (for tips on finding historical maps online
-see: [Mobile Mapping and Historical GIS in the Field](https://niche-canada.org/2011/12/14/mobile-mapping-and-historical-gis-in-the-field)). The main purpose for uploading a digital map, from a historical perspective, is
+see: [Mobile Mapping and Historical GIS in the Field][]). The main
+purpose for uploading a digital map, from a historical perspective, is
 to place it over top of a Google Earth image in the browser. This is
 known as an overlay. Performing an overlay allows for useful comparisons
 of change over time.
@@ -442,19 +443,19 @@ of change over time.
     on the top toolbar. and then adjusting the time-scale slider that
     will appear.
 
-{% include figure.html filename="en-or-googlemaps-googleearth-36.png" caption="Figure 36" %}
+{% include figure.html filename="geo36.png" caption="Figure 36" %}
 
-{% include figure.html filename="en-or-googlemaps-googleearth-37.png" caption="Figure 37" %}
+{% include figure.html filename="geo37.png" caption="Figure 37" %}
 
 -   Once you have identified the images you plan to use, click on the
     'Add Image Overlay' icon on the top toolbar.\
 
-{% include figure.html filename="en-or-googlemaps-googleearth-38.png" caption="Figure 38" %}
+{% include figure.html filename="geo38.png" caption="Figure 38" %}
 
 -   A new window will appear. Begin by giving it a different title if
     you wish (the default is 'Untitled Image Overlay').
 
-{% include figure.html filename="en-or-googlemaps-googleearth-39.png" caption="Figure 39" %}
+{% include figure.html filename="geo39.png" caption="Figure 39: Click to see full-size image" %}
 
 -   To the right of the Link field, click the Browse button to select
     from your files the map you wish to be the overlaying image.
@@ -465,7 +466,7 @@ of change over time.
 -   There are fluorescent green markers in the middle and at the edges
     of the uploaded map. These can be used to stretch, shrink, and move
     the map so that it aligns properly with the satellite image. This is
-    a simple form of georeferencing (see [Georeferencing in QGIS 2.0](/en/lessons/georeferencing-qgis)).
+    a simple form of georeferencing (see [Georeferencing in QGIS 2.0][]).
     The image below shows the above steps using an old map of the town
     of Aultsville overlaid on top of Google satellite imagery from 2008
     in which the remains of the town's roads and building foundations in
@@ -473,7 +474,7 @@ of change over time.
     Villages flooded out by the St. Lawrence Seaway and Power
     Project).
 
-{% include figure.html filename="en-or-googlemaps-googleearth-40.png" caption="Figure 40" %}
+{% include figure.html filename="geo40.png" caption="Figure 40: Click to see full-size image" %}
 
 -   Back in the New Image Overlay window, note that there are a range of
     options (Description, View, Altitude, Refresh, Location) that you
@@ -495,4 +496,55 @@ of change over time.
 **You have learned how to use Google Maps and Earth. Make sure you save
 your work!**
 
-*This lesson is part of the [Geospatial Historian](https://geospatialhistorian.wordpress.com/).*
+*This lesson is part of the [Geospatial Historian][].*
+
+  [Google Maps Engine Lite]: https://mapsengine.google.com
+  [geo1]: /images/googlemaps-googleearth/geo1.png
+  [geo2]: /images/googlemaps-googleearth/geo2.png
+  [geo3]: /images/googlemaps-googleearth/geo3.png
+  [geo4]: /images/googlemaps-googleearth/geo4.png
+  [geo5]: /images/googlemaps-googleearth/geo5.png
+  [geo6]: /images/googlemaps-googleearth/geo6.png
+  [UK Global Fat Supply CSV file]: /assets/googlemaps-googleearth/UK.Global.Fat.Supply.1894-1896.-.Sheet1.csv.zip
+  [geo7]: /images/googlemaps-googleearth/geo7.png
+  [geo8]: /images/googlemaps-googleearth/geo8.png
+  [geo9]: /images/googlemaps-googleearth/geo9.png
+  [geo10]: /images/googlemaps-googleearth/geo10.png
+  [geo11]: /images/googlemaps-googleearth/geo11.png
+  [geo12]: /images/googlemaps-googleearth/geo12.png
+  [Creating New Vector Layers in QGIS 2.0]: /lessons/vector-layers-qgis
+  [geo13]: /images/googlemaps-googleearth/geo13.png
+  [geo14]: /images/googlemaps-googleearth/geo14.png
+  [geo15]: /images/googlemaps-googleearth/geo15.png
+  [geo16]: /images/googlemaps-googleearth/geo16.png
+  [geo17]: /images/googlemaps-googleearth/geo17.png
+  [geo18]: /images/googlemaps-googleearth/geo18.png
+  [geo19]: /images/googlemaps-googleearth/geo19.png
+  [geo20]: /images/googlemaps-googleearth/geo20.png
+  [geo21]: /images/googlemaps-googleearth/geo21.png
+  [geo22]: /images/googlemaps-googleearth/geo22.png
+  [geo23]: /images/googlemaps-googleearth/geo23.png
+  [geo24]: /images/googlemaps-googleearth/geo24.png
+  [www.davidrumsey.com]: http://www.davidrumsey.com/
+  [geo25]: /images/googlemaps-googleearth/geo25.png
+  [geo26]: /images/googlemaps-googleearth/geo26.png
+  [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
+  [geo27]: /images/googlemaps-googleearth/geo27.png
+  [geo28]: /images/googlemaps-googleearth/geo28.png
+  [Maps Engine Lite]: https://mapsengine.google.com/map/
+  [Seaway map]: /assets/googlemaps-googleearth/seaway.zip
+  [geo29]: /images/googlemaps-googleearth/geo29.png
+  [geo30]: /images/googlemaps-googleearth/geo30.png
+  [geo31]: /images/googlemaps-googleearth/geo31.png
+  [geo32]: /images/googlemaps-googleearth/geo32.png
+  [geo33]: /images/googlemaps-googleearth/geo33.png
+  [geo34]: /images/googlemaps-googleearth/geo34.png
+  [geo35]: /images/googlemaps-googleearth/geo35.png
+  [Mobile Mapping and Historical GIS in the Field]: http://niche-canada.org/2011/12/14/mobile-mapping-and-historical-gis-in-the-field/
+    "Mobile Mapping and Historical GIS in the Field"
+  [geo36]: /images/googlemaps-googleearth/geo36.png
+  [geo37]: /images/googlemaps-googleearth/geo37.png
+  [geo38]: /images/googlemaps-googleearth/geo38.png
+  [geo39]: /images/googlemaps-googleearth/geo39.png
+  [geo40]: /images/googlemaps-googleearth/geo40.png
+  [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

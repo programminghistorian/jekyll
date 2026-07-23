@@ -99,7 +99,7 @@ Anaconda é uma distribuição gratuita de código aberto de Python e R que vem 
 Para a maioria dos propósitos, você deve optar pela versão Python 3 do Anaconda, mas alguns códigos ainda podem ser escritos em Python 2. Nesta lição, você usará Python 3. O instalador Anaconda tem mais de 500 MB, e após a instalação pode levar mais de 3 GB de espaço no disco rígido, por isso certifique-se de que você tem espaço suficiente no computador e uma conexão de rede rápida antes de começar.
 
 <div class="alert alert-warning">
-Se o espaço do disco rígido é uma preocupação, você pode empacotar um notebook para que ele possa ser executado usando recursos gratuitos de computação em nuvem, em vez de fazer com que os usuários instalem o Anaconda. Isso pode ser especialmente útil em situações de oficina. Veja a <a href='#usando-jupyter-notebook-para-ensinar'>seção abaixo</a>.
+Se o espaço do disco rígido é uma preocupação, você pode empacotar um notebook para que ele possa ser executado usando recursos gratuitos de computação em nuvem, em vez de fazer com que os usuários instalem o Anaconda. Isso pode ser especialmente útil em situações de oficina. Veja a <a href='https://programminghistorian.org/pt/licoes/introducao-jupyter-notebooks#Usando-Jupyter-Notebook-para-ensinar)'>seção abaixo</a>.
 </div>
     
 Para baixar e instalar a Anaconda, acesse o [site da Anaconda](https://www.anaconda.com/data-science-platform). Certifique-se de ter clicado no ícone do seu sistema operacional (que deve alterar o texto Anaconda [número da versão] para [sistema operacional selecionado], de forma a indicar o seu sistema operacional) e, em seguida, clique no botão Baixar na caixa para a versão atual do Python 3. Se você estiver no Windows, deve baixar um ficheiro `.exe`; em Mac, é `.pkg`; no Linux, é `.sh`.
@@ -414,7 +414,7 @@ Desde a experimentação do código até a documentação de fluxos de trabalho,
     
 [^2]:  Millman, KJ e Fernando Perez. 2014. “Developing open source scientific practice”. In Implementing Reproducible Research, Ed. Victoria Stodden, Friedrich Leisch, and Roger D. Peng. [https://osf.io/h9gsd/](https://perma.cc/M8R7-9JTL)
 
-[^3]:  Sinclair, Stéfan & Geoffrey Rockwell. 2013. “Voyant Notebooks: Literate Programming and Programming Literacy”. Journal of Digital Humanities, Vol. 2, No. 3 Summer 2013. [https://journalofdigitalhumanities.org/2-3/voyant-notebooks-literate-programming-and-programming-literacy/](https://perma.cc/R253-BP2B)
+[^3]:  Sinclair, Stéfan & Geoffrey Rockwell. 2013. “Voyant Notebooks: Literate Programming and Programming Literacy”. Journal of Digital Humanities, Vol. 2, No. 3 Summer 2013. [http://journalofdigitalhumanities.org/2-3/voyant-notebooks-literate-programming-and-programming-literacy/](https://perma.cc/R253-BP2B)
 
 [^4]:  Haley Di Pressi, Stephanie Gorman, Miriam Posner, Raphael Sasayama, and Tori Schmitt, with contributions from Roderic Crooks, Megan Driscoll, Amy Earhart, Spencer Keralis, Tiffany Naiman, and Todd Presner. “A Student Collaborator’s Bill of Rights”. [https://humtech.ucla.edu/news/a-student-collaborators-bill-of-rights/](https://perma.cc/A8G2-BBL9)
  
