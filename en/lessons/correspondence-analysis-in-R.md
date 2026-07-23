@@ -91,7 +91,7 @@ As a historian, I suspect that MPs are organized according to committee topics d
 
 ## Setting Up R for CA
 
-To do a CA, we will need a library that will do linear algebra for us. For the more mathematics inclined, there is an appendix with some of the details about how this is done. In R, there are a number of options for CA, but we will use the [FactoMineR library](https://web.archive.org/web/20200423075824/http://factominer.free.fr/)[^factominer] a library focussed on "multivariate exploratory data analysis." FactoMineR can be used to conduct all kinds of different multivariate analysis including hierarchical clusters, factor analysis and so on.
+To do a CA, we will need a library that will do linear algebra for us. For the more mathematics inclined, there is an appendix with some of the details about how this is done. In R, there are a number of options for CA, but we will use the [FactoMineR library](https://perma.cc/YFT7-P5Y7)[^factominer] a library focussed on "multivariate exploratory data analysis." FactoMineR can be used to conduct all kinds of different multivariate analysis including hierarchical clusters, factor analysis and so on.
 
 But first, here is how to install and call the libraries, then pop them into an R object for wrangling.
 
