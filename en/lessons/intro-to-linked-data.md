@@ -17,7 +17,7 @@ activity: acquiring
 topics: [lod]
 abstract: |
   Introduces core concepts of Linked Open Data, including URIs, ontologies, RDF formats, and a gentle intro to the graph query language SPARQL.
-redirect_from: /lessons/intro-to-linked-data/
+redirect_from: /lessons/intro-to-linked-data
 avatar_alt: An old man with a woman on each arm
 doi: 10.46430/phen0068
 ---
@@ -42,12 +42,12 @@ This lesson offers a brief and concise introduction to [Linked Open Data](https:
 
 The tutorial should take a couple of hours to complete, and you may find it helpful to re-read sections to solidify your understanding. Technical terms have been linked to their corresponding page on Wikipedia, and you are encouraged to pause and read about terms that you find challenging. After having learned some of the key principles of LOD, the best way to improve and solidify that knowledge is to practise. This tutorial provides opportunities to do so. By the end of the course you should understand the basics of LOD, including key terms and concepts.
 
-If you need to learn how to explore LOD using the query language [SPARQL](https://en.wikipedia.org/wiki/SPARQL), I recommend Matthew Lincoln's ['Using SPARQL to access Linked Open Data'](/en/lessons/graph-databases-and-SPARQL), which follows on practically from the conceptual overview offered in this lesson.
+If you need to learn how to explore LOD using the query language [SPARQL](https://en.wikipedia.org/wiki/SPARQL), I recommend Matthew Lincoln's ['Using SPARQL to access Linked Open Data'](/lessons/graph-databases-and-SPARQL), which follows on practically from the conceptual overview offered in this lesson.
 
 In order to provide readers with a solid grounding in the basic principles of LOD, this tutorial will not be able to offer a comprehensive coverage of all LOD concepts. The following two LOD concepts will *not* be the focus of this lesson:
 
 1. The [semantic web](https://en.wikipedia.org/wiki/Semantic_Web) and [semantic reasoning](https://en.wikipedia.org/wiki/Semantic_reasoner) of [datasets](https://en.wikipedia.org/wiki/Data_set). A semantic reasoner would deduce that George VI is the brother or half-brother of Edward VIII, given the fact that a) Edward VIII is the son of George V and b) George VI is the son of George V. This tutorial does not focus on this type of task.
-2. Creating and uploading linked open datasets to the [linked data cloud](https://linkeddatacatalog.dws.informatik.uni-mannheim.de/state/). Sharing your LOD is an important principle, which is encouraged below. However, the practicalities of contributing your LOD to the linked data cloud are beyond the scope of this lesson. Some resources that can help you get started with this task are available at the end of this tutorial.
+2. Creating and uploading linked open datasets to the [linked data cloud](http://linkeddatacatalog.dws.informatik.uni-mannheim.de/state/). Sharing your LOD is an important principle, which is encouraged below. However, the practicalities of contributing your LOD to the linked data cloud are beyond the scope of this lesson. Some resources that can help you get started with this task are available at the end of this tutorial.
 
 ## Linked open data: what is it?
 
@@ -71,7 +71,7 @@ Using the model above in which each person is represented by a unique number, le
 
     person=64183282
 
-And let's make Jack Straw described by the *[Oxford Dictionary of National Biography](https://www.oxforddnb.com)* as 'the enigmatic rebel leader', number `33059614`, making his attribute-value pair look like this:
+And let's make Jack Straw described by the *[Oxford Dictionary of National Biography](http://www.oxforddnb.com)* as 'the enigmatic rebel leader', number `33059614`, making his attribute-value pair look like this:
 
     person=33059614
 
@@ -81,7 +81,7 @@ The attribute-value pairs can also store information about other types of entiti
 
 	place=2655524
 
-At this point you might be thinking, "that's what a library catalogue does". It's true that the key idea here is that of the [authority file](https://en.wikipedia.org/wiki/Authority_control), which is central in library science (an authority file is a definitive list of terms which can be used in a particular context, for example when cataloguing a book). In both of the examples outlined above, we have used authority files to assign the numbers (the unique ids) to the Jacks and to Blackburn. The numbers we used for the two Jack Straws come from the [Virtual International Authority File](https://www.oclc.org/en/viaf.html) (VIAF), which is maintained by a consortium of libraries worldwide to try to address the problem of the myriad ways in which the same person might be referred to. The unique identifier we used for the Blackburn constituency came from [GeoNames](https://www.geonames.org/), a free geographical database.
+At this point you might be thinking, "that's what a library catalogue does". It's true that the key idea here is that of the [authority file](https://en.wikipedia.org/wiki/Authority_control), which is central in library science (an authority file is a definitive list of terms which can be used in a particular context, for example when cataloguing a book). In both of the examples outlined above, we have used authority files to assign the numbers (the unique ids) to the Jacks and to Blackburn. The numbers we used for the two Jack Straws come from the [Virtual International Authority File](https://www.oclc.org/en/viaf.html) (VIAF), which is maintained by a consortium of libraries worldwide to try to address the problem of the myriad ways in which the same person might be referred to. The unique identifier we used for the Blackburn constituency came from [GeoNames](http://www.geonames.org/), a free geographical database.
 
 But let's try to be more precise by what we mean by Blackburn in this instance. Jack Straw represented the parliamentary consitituency (an area represented by a single member of parliament) of Blackburn, which has changed its boundaries over time. The '[Digging Into Linked Parliamentary Data](https://repository.jisc.ac.uk/6544/)' (Dilipad) project (on which I worked), produced unique identifiers for party affiliations and constituencies for each member of parliament. In this example, Jack Straw represented the constituency known as 'Blackburn' in its post-1955 incarnation:
 
@@ -127,19 +127,19 @@ In the previous section we used two different numbers to identify our two differ
 
 The problem is that around the world there are many databases that contain people with these numbers, and they're probably all different people. Outside of our immediate context these numbers don't identify unique individuals. Let's try to fix that. Here are these same identifiers but as URIs:
 
-    https://viaf.org/viaf/64183282/
+    http://viaf.org/viaf/64183282/
 
-    https://viaf.org/viaf/33059614/
+    http://viaf.org/viaf/33059614/
 
 Just as the unique number disambiguated our two Jack Straws, the full URI above helps us disambiguate between all of the different authority files out there. In this case, it's clear that we are using VIAF as our authority file. You have already seen this form of disambuguation many times on the web. There are many websites round the world with pages called `/home` or `/faq`. But there is no confusion because the [domain](https://en.wikipedia.org/wiki/Domain_name) (the first part of the [Uniform Resource Locator](https://en.wikipedia.org/wiki/Uniform_Resource_Locator) (URL) - eg. `bbc.co.uk`) is unique and thus all pages that are part of that domain are unique from other `/faq` pages on other websites. In the address `http://www.bbc.co.uk/faqs` it is the `bbc.co.uk` part which makes the subsequent pages unique. This is so obvious to people who use the web all the time that they don't think about it. You probably also know that if you want to start a website called `bbc.co.uk` you can't, because that name has already been registered with the appropriate authority, which is the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System). The registration guarantees uniqueness. URIs also have to be unique.
 
 While the examples above look like URLs, it is also possible to construct a URI that looks nothing like a URL. We have many ways of uniquely identifying people and things and we rarely think or worry about it. Barcodes, passport numbers, and even your postal address are all designed to be unique. Mobile phone numbers are frequently put up as shop signs precisely because they are unique. All of these could be used as URIs.
 
-When we wanted to create URIs for the entities described by the '[Tobias](https://www.history.ac.uk/projects/digital/tobias)' project, we chose a URL-like structure, and chose to use our institutional webspace, setting aside `data.history.ac.uk/tobias-project/` as a place dedicated to hosting these URIs. By putting it at `data.history.ac.uk` rather than `history.ac.uk`, there was a clear separation between URIs and the pages of the website. For example, one of the URIs from the Tobias project was https://data.history.ac.uk/tobias-project/person/15601. While the format of the abovementioned URIs is the same as a URL, they do not link to web pages (try pasting it of them into a web browser). Many people new to LOD find this confusing. All URLs are URIs but not all URIs are URLs. A URI can describe anything at all, whereas URL describes the location of something on the web. So a URL tells you the location of a web page or a file or something similar. A URI just does the job of identifying something. Just as the International Standard Book Number, or [ISBN](https://www.iso.org/standard/36563.html) `978-0-1-873354-6` uniquely identifies a hardback edition of _Baptism, Brotherhood and Belief in Reformation Germany_ by Kat Hill, but doesn't tell you where to get a copy. For that you would need something like a library [shelfmark](https://en.wikipedia.org/wiki/Accession_number_(library_science)), which gives you an exact location on a shelf of a specific library.
+When we wanted to create URIs for the entities described by the '[Tobias](http://www.history.ac.uk/projects/digital/tobias)' project, we chose a URL-like structure, and chose to use our institutional webspace, setting aside `data.history.ac.uk/tobias-project/` as a place dedicated to hosting these URIs. By putting it at `data.history.ac.uk` rather than `history.ac.uk`, there was a clear separation between URIs and the pages of the website. For example, one of the URIs from the Tobias project was http://data.history.ac.uk/tobias-project/person/15601. While the format of the abovementioned URIs is the same as a URL, they do not link to web pages (try pasting it of them into a web browser). Many people new to LOD find this confusing. All URLs are URIs but not all URIs are URLs. A URI can describe anything at all, whereas URL describes the location of something on the web. So a URL tells you the location of a web page or a file or something similar. A URI just does the job of identifying something. Just as the International Standard Book Number, or [ISBN](https://www.iso.org/standard/36563.html) `978-0-1-873354-6` uniquely identifies a hardback edition of _Baptism, Brotherhood and Belief in Reformation Germany_ by Kat Hill, but doesn't tell you where to get a copy. For that you would need something like a library [shelfmark](https://en.wikipedia.org/wiki/Accession_number_(library_science)), which gives you an exact location on a shelf of a specific library.
 
 There is a little bit of jargon around URIs. People talk about whether they are, or are not, [dereferenceable](https://en.wikipedia.org/wiki/Reference_(computer_science)). That just means *can it be turned from an abstract reference into something else?* For example, if you paste a URI into the address bar of a browser, will it return something? The VIAF URI for historian Simon Schama is:
 
-    https://viaf.org/viaf/46784579
+    http://viaf.org/viaf/46784579
 
 If you put that into the browser you will get back a web page about Simon Schama which contains structured data about him and his publishing history. This is very handy - for one thing, it's not obvious from the URI who or even what is being referred to. Similarly, if we treated a mobile phone number (with international code) as the URI for a person then it should be dereferenceable. Someone might answer the phone, and it might even be Schama.
 
@@ -166,9 +166,9 @@ We're making up examples simply for the purposes of illustration, but if you wan
 
 An ontology is more flexible because it is non-hierarchical. It aims to represent the fluidity of the real world, where things can be related to each other in more complex ways than are represented by a hierarchical tree-like structure. Instead, an ontology is more like a spider's web.
 
-Whatever you are looking to represent with LOD, we suggest that you find an existing vocabulary and use it, rather than try to write your own. The main page here has [a list of some of the most popular vocabularies](https://semanticweb.org/wiki/Main_Page.html).
+Whatever you are looking to represent with LOD, we suggest that you find an existing vocabulary and use it, rather than try to write your own. The main page here has [a list of some of the most popular vocabularies](http://semanticweb.org/wiki/Main_Page.html).
 
-Since our example above focuses on pianists, it would be a good idea to find an appropriate ontology rather than create our own system. In fact there is [an ontology for music](https://web.archive.org/web/20170715094229/https://www.musicontology.com/). As well as a well-developed specification it also has some useful examples of its use. You can have a look at the [Getting started pages](https://web.archive.org/web/20170718143925/https://musicontology.com/docs/getting-started.html) to get a sense of how you might use that particular ontology.
+Since our example above focuses on pianists, it would be a good idea to find an appropriate ontology rather than create our own system. In fact there is [an ontology for music](http://web.archive.org/web/20170715094229/http://www.musicontology.com/). As well as a well-developed specification it also has some useful examples of its use. You can have a look at the [Getting started pages](http://web.archive.org/web/20170718143925/http://musicontology.com/docs/getting-started.html) to get a sense of how you might use that particular ontology.
 
 Unfortunately I can't find anything that describes the relationship between a teacher and a pupil in the Music Ontology. But the ontology is published openly, so I can use it to describe other features of music and then create my own extension. If I then publish my extension openly, others can use it if they wish and it may become a standard. While the Music Ontology project does not have the relationship I need, the [Linked Jazz project](https://linkedjazz.org/) allows use of 'mentorOf', which sounds like it would work nicely in our case. While this is not an ideal solution, it is one that makes an effort to use what is already out there.
 
@@ -214,19 +214,19 @@ Recognising what serialisation you are looking at means that you can then choose
 
 Turtle uses aliases or a shortcuts known as [prefixes](https://www.w3.org/TeamSubmission/turtle/#sec-tutorial), which saves us having to write out full URIs every time. Let's go back to the URI we invented in the previous section:
 
-    https://data.history.ac.uk/tobias-project/person/15601
+    http://data.history.ac.uk/tobias-project/person/15601
 
 We don't want to type this out every time we refer to this person (Jack Straw, you'll remember). So we just have to announce our shortcut:
 
-    @prefix toby: <https://data.history.ac.uk/tobias-project/person/> .
+    @prefix toby: <http://data.history.ac.uk/tobias-project/person/> .
 
 Then Jack is `toby:15601`, which replaces the long URI and is easier on the eye. I have chosen 'toby', but could just as easily chosen any string of letters.
 
 Let's now move from Jack Straw to William Shakespeare and use Turtle to describe some stuff about his works. We'll need to decide on the authority files to use, a process which, as mentioned above, is best gleaned from looking at other LOD sets. Here we'll use [Dublin Core](https://en.wikipedia.org/wiki/Dublin_Core), a library [metadata](https://en.wikipedia.org/wiki/Metadata) standard, as one of our prefixes, the [Library of Congress Control Number](https://en.wikipedia.org/wiki/Library_of_Congress_Control_Number) authority file for another, and the last one (VIAF) should be familiar to you. Together these three authority files provide unique identifiers for all of the entities I plan to use in this example.:
 
-    @prefix lccn: <https://id.loc.gov/authorities/names/> .
-    @prefix dc: <https://purl.org/dc/elements/1.1/> .
-    @prefix viaf: <https://viaf.org/viaf/> .
+    @prefix lccn: <http://id.loc.gov/authorities/names/> .
+    @prefix dc: <http://purl.org/dc/elements/1.1/> .
+    @prefix viaf: <http://viaf.org/viaf/> .
 
     lccn:n82011242 dc:creator viaf:96994048 .
 
@@ -236,9 +236,9 @@ In the above example, lccn:n82011242 represents Macbeth; dc:creator links Macbet
 
 Turtle also allows you to list triples without bothering to repeat each URI when you've only just used it. Let's add the date when scholars think Macbeth was written, using the Dublin Core attribute-value pair: `dc:created 'YYYY'`:
 
-    @prefix lccn: <https://id.loc.gov/authorities/names/> .
-    @prefix dc: <https://purl.org/dc/elements/1.1/> .
-    @prefix viaf: <https://viaf.org/viaf/> .
+    @prefix lccn: <http://id.loc.gov/authorities/names/> .
+    @prefix dc: <http://purl.org/dc/elements/1.1/> .
+    @prefix viaf: <http://viaf.org/viaf/> .
 
     lccn:n82011242 dc:creator viaf:96994048 ;
                dc:created "1606" .
@@ -257,11 +257,11 @@ You can use a semicolon if the subject is the same but the predicate and object 
 
 Here we're saying that Shakespeare (96994048) and John Fletcher (12323361) were both the creators of the work *The Two Noble Kinsmen*.
 
-When we looked at ontologies earlier I suggested you have a look at the examples from [the Music Ontology](https://web.archive.org/web/20170718143925/https://musicontology.com/docs/getting-started.html). I hope they didn't put you off. Have a look again now. This is still complicated stuff, but do they make more sense now?
+When we looked at ontologies earlier I suggested you have a look at the examples from [the Music Ontology](http://web.archive.org/web/20170718143925/http://musicontology.com/docs/getting-started.html). I hope they didn't put you off. Have a look again now. This is still complicated stuff, but do they make more sense now?
 
 One of the most approachable ontologies is Friend of a Friend, or [FOAF](https://en.wikipedia.org/wiki/FOAF_(ontology)). This is designed to describe people, and is perhaps for that reason, fairly intuitive. If, for example, you want to write to tell me that this course is the best thing you've ever read, here is my email address expressed as triples in FOAF:
 
-    @prefix foaf: <https://xmlns.com/foaf/0.1/> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
     :"Jonathan Blaney" foaf:mbox <mailto:jonathan.blaney@sas.ac.uk> .
 
@@ -286,30 +286,30 @@ The RDF/XML format has the same basic information as Turtle, but is written very
 
 Let's move on to a different example to show how RDF/XML combines triples and, at the same time, introduce [Simple Knowledge Organization System](https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System) (SKOS), which is designed for encoding thesauri or taxonomies.
 
-     <skosConcept rdf:about="https://www.ihr-tobias.org/concepts/21250/Abdication">
+     <skosConcept rdf:about="http://www.ihr-tobias.org/concepts/21250/Abdication">
         <skos:prefLabel>Abdication</skos:prefLabel>
       </skosConcept>
 
-Here we are saying that the SKOS concept `21250`, abdication, has a preferred label of "abdication". The way it works is that the subject element (including the abdication part, which is an attribute value in XML terms) has the predicate and object nested inside it. The nested element is the predicate and [the leaf node](https://en.wikipedia.org/wiki/Tree_(data_structure)#Terminology), is the object. This example is taken from a project to publish a [thesaurus of British and Irish History](https://www.history.ac.uk/projects/digital/tobias).
+Here we are saying that the SKOS concept `21250`, abdication, has a preferred label of "abdication". The way it works is that the subject element (including the abdication part, which is an attribute value in XML terms) has the predicate and object nested inside it. The nested element is the predicate and [the leaf node](https://en.wikipedia.org/wiki/Tree_(data_structure)#Terminology), is the object. This example is taken from a project to publish a [thesaurus of British and Irish History](http://www.history.ac.uk/projects/digital/tobias).
 
 Just as with Turtle, we can add more triples.  So let's declare that the narrower term in our subject hierarchy, one down from *Abdication* is going to be *Abdication crisis (1936)*.
 
-     <skosConcept rdf:about="https://www.ihr-tobias.org/concepts/21250/abdication">
+     <skosConcept rdf:about="http://www.ihr-tobias.org/concepts/21250/abdication">
         <skos:prefLabel>Abdication</skos:prefLabel>
       </skosConcept>
 
-     <skosConcept rdf:about="https://www.ihr-tobias.org/concepts/21250/abdication">
-        <skos:narrower rdf:resource="https://www.ihr-tobias.org/concepts/19838/abdication_crisis_1936"/>
+     <skosConcept rdf:about="http://www.ihr-tobias.org/concepts/21250/abdication">
+        <skos:narrower rdf:resource="http://www.ihr-tobias.org/concepts/19838/abdication_crisis_1936"/>
       </skosConcept>
 
 Remember how predicates and objects are nested inside the subject? Here we've done that twice with the same subject, so we can make this less verbose by nesting both sets of predicates and objects inside the one subject:
 
-     <skosConcept rdf:about="https://www.ihr-tobias.org/concepts/21250/abdication">
+     <skosConcept rdf:about="http://www.ihr-tobias.org/concepts/21250/abdication">
         <skos:prefLabel>Abdication</skos:prefLabel>
-        <skos:narrower rdf:resource="https://www.ihr-tobias.org/concepts/19838/abdication_crisis_1936"/>
+        <skos:narrower rdf:resource="http://www.ihr-tobias.org/concepts/19838/abdication_crisis_1936"/>
 		</skosConcept>
 
-If you're familiar with XML this will be like mother's milk to you. If you're not you might prefer a format like Turtle. But the advantage here is that in creating my RDF/XML you can use the usual tools available with XML, like dedicated XML editors and parsers, to check that your RDF/XML is correctly formatted. If you're not an XML person I recommend Turtle, for which you can use an [online tool](https://www.easyrdf.org/converter) to check your syntax is correct.
+If you're familiar with XML this will be like mother's milk to you. If you're not you might prefer a format like Turtle. But the advantage here is that in creating my RDF/XML you can use the usual tools available with XML, like dedicated XML editors and parsers, to check that your RDF/XML is correctly formatted. If you're not an XML person I recommend Turtle, for which you can use an [online tool](http://www.easyrdf.org/converter) to check your syntax is correct.
 
 ## Querying RDF with SPARQL
 
@@ -317,7 +317,7 @@ For this final section we will interrogate some LOD and see what you can do with
 
 The query language we use for LOD is called [SPARQL](https://en.wikipedia.org/wiki/SPARQL). It's one of those recursive acronyms beloved of techie people: *SPARQL Protocol and RDF Query Language*.
 
-As I mentioned at the beginning, *Programming Historian* has [a complete lesson](/en/lessons/graph-databases-and-SPARQL), by Matthew Lincoln, on using SPARQL. My final section here is just an overview of the basic concepts, and if SPARQL piques your interest, you can get a thorough grounding from Lincoln's tutorial.
+As I mentioned at the beginning, *Programming Historian* has [a complete lesson](/lessons/graph-databases-and-SPARQL), by Matthew Lincoln, on using SPARQL. My final section here is just an overview of the basic concepts, and if SPARQL piques your interest, you can get a thorough grounding from Lincoln's tutorial.
 
 We're going to run our SPARQL queries on [DBpedia](https://en.wikipedia.org/wiki/DBpedia), which is a huge LOD set derived from Wikipedia. As well as being full of information that is very difficult to find through the usual Wikipedia interface, it has several SPARQL "end points" - interfaces where you can type in SPARQL queries and get results from DBpedia's triples.
 
@@ -366,7 +366,7 @@ Back to the results for the query I ran a moment ago:
 I can see a long list in the column labelled _c_. These are all the attributes Roper has in *DBpedia* and will help us to find other people with these attributes. For example I can see ```http://dbpedia.org/class/yago/Historian110177150```. Can I use this to get a list of historians? I'm going to put this into my query but in third place (because that's where it was when I found it in the Lyndal Roper results. My query looks like this:
 
 	SELECT * WHERE {
-	?historian_name ?predicate <https://dbpedia.org/class/yago/Historian110177150>
+	?historian_name ?predicate <http://dbpedia.org/class/yago/Historian110177150>
 	}
 
 I've made a small change here. If this query works at all then I expect my historians to be in the first column, because 'historian' doesn't look like it could be a predicate: it doesn't function like a verb in a sentence; so I'm going to call my first results column 'historian_name' and my second (which I don't know anything about) 'predicate'.
@@ -379,8 +379,8 @@ So this works for creating lists, which is useful, but it would much more powerf
 
 	SELECT ?name
 	WHERE {
-	?name ?b <https://dbpedia.org/class/yago/WikicatBritishHistorians> .
-	?name ?b <https://dbpedia.org/class/yago/WikicatWomenHistorians>
+	?name ?b <http://dbpedia.org/class/yago/WikicatBritishHistorians> .
+	?name ?b <http://dbpedia.org/class/yago/WikicatWomenHistorians>
 	}
 
 It works! I get five results. At the time of writing, there are five British, women historians in *DBpedia*...
@@ -389,24 +389,24 @@ It works! I get five results. At the time of writing, there are five British, wo
 
 Only five British women historians? Of course there are, in reality, many more than that, as we could easily show by substituting the name of, say, Alison Weir in our first Lyndal Roper query. This brings us to the problem with *Dbpedia* that I mentioned earlier: it's not very consistently marked up with structural information of the type *DBpedia* uses. Our query can list some British women historians but it turns out that we can't use it to generate a meaningful list of people in this category. All we've found is the people in entries in *Wikipedia* that someone has decided to categorise as "British historian" and "woman historian".
 
-With SPARQL on *DBpedia* you have to be careful of the inconsistencies of crowd-sourced material. You could use SPARQL in exactly the same way on a more curated dataset, for example the UK government data: <https://data-gov.tw.rpi.edu//sparql> and expect to get more robust results (there is a brief tutorial for this dataset here: <https://data-gov.tw.rpi.edu/wiki/A_crash_course_in_SPARQL>).
+With SPARQL on *DBpedia* you have to be careful of the inconsistencies of crowd-sourced material. You could use SPARQL in exactly the same way on a more curated dataset, for example the UK government data: [https://data-gov.tw.rpi.edu//sparql]() and expect to get more robust results (there is a brief tutorial for this dataset here: [https://data-gov.tw.rpi.edu/wiki/A\_crash\_course\_in\_SPARQL]()).
 
-However, despite its inconsistencies, *DBpedia* is a great place to learn SPARQL. This has only been an a brief introduction but there is much more in [Using SPARQL to access Linked Open Data](/en/lessons/graph-databases-and-SPARQL).
+However, despite its inconsistencies, *DBpedia* is a great place to learn SPARQL. This has only been an a brief introduction but there is much more in [Using SPARQL to access Linked Open Data](/lessons/graph-databases-and-SPARQL).
 
 ## Further reading and resources
 
 * Dean Allemang and James Hendler, *Semantic Web for the Working Ontologist*, 2nd edn, Elsevier, 2011
 * Tim Berners-Lee [Linked Data](https://www.w3.org/DesignIssues/LinkedData.html)
 * Bob DuCharme, *Learning SPARQL*, O'Reilly, 2011
-* [Bob DuCharme's blog](https://www.snee.com/bobdc.blog/) is also worth reading
+* [Bob DuCharme's blog](http://www.snee.com/bobdc.blog/) is also worth reading
 * Richard Gartner, *Metadata: Shaping Knowledge from Antiquity to the Semantic Web*, Springer, 2016
 * Seth van Hooland and Ruben Verborgh, *Linked Data for Libraries, Archives and Museums*, 2015
 * Matthew Lincoln ['Using SPARQL to access Linked Open Data'](/lessons/graph-databases-and-SPARQL)
 * [Linked Data guides and tutorials](https://web.archive.org/web/20170515070722/http://linkeddata.org/guides-and-tutorials)
 * Dominic Oldman, Martin Doerr and Stefan Gradmann, 'Zen and the Art of Linked Data: New Strategies for a Semantic Web of Humanist * Knowledge', in *A New Companion to Digital Humanities*, edited by Susan Schreibman et al.
-* Max Schmachtenberg, Christian Bizer and Heiko Paulheim, [State of the LOD Cloud 2017](https://linkeddatacatalog.dws.informatik.uni-mannheim.de/state/)
+* Max Schmachtenberg, Christian Bizer and Heiko Paulheim, [State of the LOD Cloud 2017](http://linkeddatacatalog.dws.informatik.uni-mannheim.de/state/)
 * David Wood, Marsha Zaidman and Luke Ruth, *Linked Data: Structured data on the Web*, Manning, 2014
 
 ## Acknowlegements
 
-I'd like to thank my two peer reviewers, Matthew Lincoln and Terhi Nurmikko-Fuller, and my editor, Adam Crymble, for generously spending time helping me to improve this course with numerous suggestions, clarification and corrections. This tutorial is based on one written as part of the 'Thesaurus of British and Irish History as SKOS' [(Tobias) project](https://www.history.ac.uk/projects/digital/tobias), funded by the [AHRC](https://www.ahrc.ac.uk/). It has been revised for the *Programming Historian*.
+I'd like to thank my two peer reviewers, Matthew Lincoln and Terhi Nurmikko-Fuller, and my editor, Adam Crymble, for generously spending time helping me to improve this course with numerous suggestions, clarification and corrections. This tutorial is based on one written as part of the 'Thesaurus of British and Irish History as SKOS' [(Tobias) project](http://www.history.ac.uk/projects/digital/tobias), funded by the [AHRC](http://www.ahrc.ac.uk/). It has been revised for the *Programming Historian*.

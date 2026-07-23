@@ -14,7 +14,7 @@ En este primer boletín informativo nos gustaría destacar los siguientes logros
 
 ## Publicación de PH en francés
 
-Le [*Programming Historian en français*](https://programminghistorian.org/fr) est en ligne! 
+Le [*Programming Historian en français*](http://programminghistorian.org/fr) est en ligne! 
 
 Con el propósito de expandir nuestro proyecto en el ámbito internacional, *PH en français* fue publicado oficialmente en abril de 2019. Añadir un tercer idioma a la revista solo fue posible gracias al arduo trabajo y la disciplina del equipo editorial francés y de nuestro equipo técnico. El equipo francófono trabajó durante más de diez meses en la traducción de la infraestructura de la revista mientras que el equipo técnico reestructuraba la web para ser trilingüe.
 
@@ -71,4 +71,4 @@ Con el objetivo de poder publicar más lecciones originales en español y contin
 ## Próximos eventos
 Los próximos 8 y 11 de julio Antonio Rojas Castro, Anna-Maria Sichani y Sofia Papastamkou presentarán su poster "Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French speaking DH Communities" o "El diseño de iniciativas pedagógicas digitales y multilingües: Programming Historian para las comunidades HD hablantes de inglés, español y francés" en la [**conferencia DH 2019**](https://dh2019.adho.org) en Utrecht, Países Bajos. Además, participarán en el evento "Accelerating DH Education" previo a la conferencia con un taller titulado "Three Challenges in Developing Open Multilingual DH Educational Resources: The Case of The Programming Historian" o "Tres retos en la producción de recursos multilingües en abierto de HD: El caso de Programming Historian".
 
-Parte del equipo de *Programming Historian en español* estará en la [**conferencia ACH 2019**](https://ach2019.ach.org) el 25 de julio en Pittsburgh, Estados Unidos. Maria José Afanador-Llach, Jennifer Isasi y Antonio Rojas Castro presentarán su trabajo "Retos en la producción de tutoriales de HD en contextos hispanohablantes." 
+Parte del equipo de *Programming Historian en español* estará en la [**conferencia ACH 2019**](http://ach2019.ach.org) el 25 de julio en Pittsburgh, Estados Unidos. Maria José Afanador-Llach, Jennifer Isasi y Antonio Rojas Castro presentarán su trabajo "Retos en la producción de tutoriales de HD en contextos hispanohablantes." 

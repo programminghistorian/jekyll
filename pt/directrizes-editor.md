@@ -22,12 +22,12 @@ Obrigado por editar uma lição para o *Programming Historian em português*. So
 Incentivamos sempre potenciais autores ou tradutores de lições a apresentar as suas ideias antes de começarem a escrever. Se uma proposta não é adequada para o *Programming Historian em português*, o papel do editor é informar o autor antes que ele tenha escrito a lição completa. Queremos com isto poupar o tempo e a energia de todos. Uma vez conversado com o autor e encorajadas as suas ideias, o objetivo é apoiar o autor até que a lição esteja pronta para publicar. O objetivo é ajudá-lo da forma mais eficiente possível e com directrizes claras. Para isso pode ser útil conhecer as nossas [diretrizes para autores](/pt/directrizes-autor).
 
 ### Espaços seguros
-O *Programming Historian em português* compromete-se em manter um espaço seguro para a troca de ideias, onde todos possam falar sem medo de assédio ou abuso. O editor desempenha um papel fundamental ao garantir a tolerância neste espaço. O trabalho inclui reforçar permanentemente a nossa política anti-assédio. Se for preciso ajuda, basta perguntar a um dos [outros editores ou ao nosso mediador independente](/pt/equipe). Para saber mais, pode ler sobre o [compromisso com espaços seguros](/posts/PH-commitment-to-diversity) no blog do projeto.
+O *Programming Historian em português* compromete-se em manter um espaço seguro para a troca de ideias, onde todos possam falar sem medo de assédio ou abuso. O editor desempenha um papel fundamental ao garantir a tolerância neste espaço. O trabalho inclui reforçar permanentemente a nossa política anti-assédio. Se for preciso ajuda, basta perguntar a um dos [outros editores ou ao nosso mediador independente](/pt/equipe#programming-historian-em-português). Para saber mais, pode ler sobre o [compromisso com espaços seguros](/posts/PH-commitment-to-diversity) no blog do projeto.
 
 ### Política anti-assédio
 Esta é uma declaração dos princípios do *Programming Historian em português* onde são definidas as expectativas para o tom e estilo de toda a comunicação entre revisores, autores, editores e participantes dos nossos fóruns públicos.
 
-O *Programming Historian em português* dedica-se a criar um ambiente académico aberto em que os membros da comunidade podem examinar em liberdade e detalhadamente ideias, fazer perguntas, sugestões ou pedir esclarecimentos. Este espaço tem que ser livre de assédio para todos no projeto, independentemente do género, identidade e expressão de género, orientação sexual, deficiência, aparência física, raça, idade ou religião ou experiência técnica. Não é tolerado de nenhuma forma qualquer assédio ou ataque *ad hominem* a membros da comunidade. Os membros que violarem estas regras podem ser expulsos da comunidade, por avaliação do conselho editorial. Se alguém testemunhar ou sentir que foi vítima das atividades descritas acima, deve entrar em [contato com o nosso mediador independente](/pt/equipe). Obrigado por nos ajudar a criar um espaço seguro.
+O *Programming Historian em português* dedica-se a criar um ambiente académico aberto em que os membros da comunidade podem examinar em liberdade e detalhadamente ideias, fazer perguntas, sugestões ou pedir esclarecimentos. Este espaço tem que ser livre de assédio para todos no projeto, independentemente do género, identidade e expressão de género, orientação sexual, deficiência, aparência física, raça, idade ou religião ou experiência técnica. Não é tolerado de nenhuma forma qualquer assédio ou ataque *ad hominem* a membros da comunidade. Os membros que violarem estas regras podem ser expulsos da comunidade, por avaliação do conselho editorial. Se alguém testemunhar ou sentir que foi vítima das atividades descritas acima, deve entrar em [contato com o nosso mediador independente](/pt/equipe#programming-historian-em-português). Obrigado por nos ajudar a criar um espaço seguro.
 
 ### Acompanhar as lições propostas
 Depois que uma proposta de lição receber "sinal verde" da equipa editorial e ter um editor atribuído, este trabalha com o autor para definir os objetivos da lição e acordar um prazo de submissão. O prazo recomendado é de 90 dias a contar do início da conversa editorial, embora possa ser ajustado, se necessário.
@@ -63,7 +63,7 @@ O *Programming Historian em português* usa um modelo de revisão por pares aber
 
 Antes de solicitar revisões externas, o editor deve ler e experimentar o tutorial da lição e usar da sua experiência com o Programming Historian em português para ajudar o autor a fazer melhorias (se necessário). Não se espera que o editor seja um especialista no conteúdo da lição, esse é o papel dos [revisores](/pt/directrizes-revisor).
 
-O editor deve ter uma visão geral para a sustentabilidade da lição e garantir que estão identificadas as versões, dependências e requisitos do software, as capturas de tela estão limitadas às necessárias para concluir a lição e que existe referência à documentação do próprio software (se disponível e apropriada). Os editores também devem garantir que as lições evitem, na medida do possível, instruções específicas do software, como "Clique com o botão direito do mouse no ícone x para aceder ao menu x", e sim favorecer visões gerais metodológicas. A [lista de validação editorial](#c-revisão-para-a-sustentabilidade-e-internacionalização) contém mais detalhes sobre práticas de sustentabilidade do Programming Historian em português.
+O editor deve ter uma visão geral para a sustentabilidade da lição e garantir que estão identificadas as versões, dependências e requisitos do software, as capturas de tela estão limitadas às necessárias para concluir a lição e que existe referência à documentação do próprio software (se disponível e apropriada). Os editores também devem garantir que as lições evitem, na medida do possível, instruções específicas do software, como "Clique com o botão direito do mouse no ícone x para aceder ao menu x", e sim favorecer visões gerais metodológicas. A [lista de validação editorial](/pt/directrizes-editor#c-revis%C3%A3o-para-a-sustentabilidade-e-internacionaliza%C3%A7%C3%A3o) contém mais detalhes sobre práticas de sustentabilidade do Programming Historian em português.
 
 Muitas vezes, os editores precisam de ajuda para definir qual o público-alvo de uma lição ou identificar o jargão que precisa de explicação. Esta revisão inicial vai ajudar os revisores externos a concentrar-se em melhorar a lição. Normalmente, é feito abertamente no nosso sistema de submissão (abaixo), mas poderá ser uma revisão fechada a pedido de qualquer das partes.
 
@@ -293,7 +293,7 @@ Aqui estão alguns locais para procurar imagens para a lição:
  - [British Library](https://www.flickr.com/photos/britishlibrary)
  - [Internet Archive Book Images](https://archive.org/details/bookimages)
  - [Virtual Manuscript Library of Switzerland](https://www.e-codices.unifr.ch/en)
- - [Library of Congress Maps](https://www.loc.gov/maps/collections)
+ - [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
 É preciso verificar se a imagem corresponde ao estilo das anteriores (deve ser uma imagem de livro, não uma fotografia), ter pelo menos 200 pixels em ambas as dimensões e não ter restrições de direitos de autor. A imagem não pode ser ofensiva e deve seguir o nosso [compromisso com a diversidade (em inglês)](/posts/PH-commitment-to-diversity). Convém encontrar algo que não perpetue estereótipos ou tenha uma mensagem subliminar de machismo ou superioridade branca.
 
@@ -358,7 +358,7 @@ Existem várias maneiras de executar um *pull request* para publicar os ficheiro
 
 * A) Siga as nossas ["Orientações para contribuições técnicas"](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions), que usam a GUI do Github.
 
-* B) Use `git` na linha de comando. As instruções que se seguem assumem que os repositórios `jekyll` e` ph-submissions` já estão copiados para a máquina local. (a [lição sobre o uso do GitHub Desktop](/en/lessons/getting-started-with-github-desktop) pode ser útil se tudo isto for novidade.) Em caso de incertezas ou dúvidas sobre como fazer, entrar em contato com Matthew Lincoln para ajudar.
+* B) Use `git` na linha de comando. As instruções que se seguem assumem que os repositórios `jekyll` e` ph-submissions` já estão copiados para a máquina local. (a [lição sobre o uso do GitHub Desktop](/lessons/getting-started-with-github-desktop) pode ser útil se tudo isto for novidade.) Em caso de incertezas ou dúvidas sobre como fazer, entrar em contato com Matthew Lincoln para ajudar.
 
  1. Ir para o diretório do repositório local `ph-submissions`.
  2. Usar o comando `git pull` para obter todas as alterações mais recentes na máquina local (ou `sync` se estiver no GitHub Desktop)
@@ -405,7 +405,7 @@ O status destes testes (geralmente chamado de "Status de Compilação (Build sta
 
 Assim, pode ser vista a lista de todas as alterações feitas no repositório principal, juntamente com o ícone do status:
 
-- Check verde: indica que a página está pronta para ir ao ar! Todos os links da página foram verificados e considerados válidos. [**O restante desta lição pode ser ignorado e passar directamente para a secção de agradecimento.**](#7-agradecer-a-todos-e-incentivar-a-divulgação)
+- Check verde: indica que a página está pronta para ir ao ar! Todos os links da página foram verificados e considerados válidos. [**O restante desta lição pode ser ignorado e passar directamente para a secção de agradecimento.**](#11-thank-everyone-and-encourage-promotion)
 - Círculo amarelo: o último commit ainda está a compilar. Dentro de 1-2 minutos deve estar pronto.
 - X vermelho: houve um erro na compilação.
 

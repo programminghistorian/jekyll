@@ -115,7 +115,7 @@ libpostproc    55.  1.100 / 55.  1.100
 ```
 
 * Si el sistema arroja `-bash: ffmpeg: command not found`, algo ha ido mal.
-  * Nota: Si estás usando un administrador de paquetes, es improbable que encuentres este mensaje de error. Sin embargo, si hay un problema después de instalar con un administrador de paquetes, es probable que haya un problema con el administrador de paquetes y no con FFmpeg. Consulta la solución de problemas en [Homebrew](https://docs.brew.sh/Troubleshooting), [Chocolatey](https://chocolatey.org/docs/troubleshooting), o [Linuxbrew](https://linuxbrew.sh/) para asegurar que el administrador de paquetes está funcionando correctamente en tu computadora (las guías solo está disponible en inglés). Si estás intentando instalar sin un administrador de paquetes y ves este mensaje de error, haz una referencia cruzada de tu método con la La Guía de Compilación de FFmpeg anterior.
+  * Nota: Si estás usando un administrador de paquetes, es improbable que encuentres este mensaje de error. Sin embargo, si hay un problema después de instalar con un administrador de paquetes, es probable que haya un problema con el administrador de paquetes y no con FFmpeg. Consulta la solución de problemas en [Homebrew](https://docs.brew.sh/Troubleshooting), [Chocolatey](https://chocolatey.org/docs/troubleshooting), o [Linuxbrew](http://linuxbrew.sh/) para asegurar que el administrador de paquetes está funcionando correctamente en tu computadora (las guías solo está disponible en inglés). Si estás intentando instalar sin un administrador de paquetes y ves este mensaje de error, haz una referencia cruzada de tu método con la La Guía de Compilación de FFmpeg anterior.
 
 ## Usando FFmpeg en el navegador
 Si no quieres instalar FFmepg en tu computadora pero te gustaría familiarizarte con el _framework_ y usarlo en la interfaz de línea de comandos, [videoconverter.js](https://bgrins.github.io/videoconverter.js/demo/) de Brian Grinstead proporciona un método para ejecutar los comandos FFmpeg en tu navegador (la interfaz está en inglés).
@@ -393,7 +393,7 @@ done
 ```
 
 * `for file in *.m4v; do` = inicia el bucle _for_. Esta primera línea le dice a FFmpeg "para todos los archivos en este directorio con la extensión `.m4v`, ejecuta el siguiente comando."
-* El `*` es un [comodín de Bash](https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm) adjunto a un tipo de archivo dado para especificarlos como archivos de entrada.
+* El `*` es un [comodín de Bash](http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm) adjunto a un tipo de archivo dado para especificarlos como archivos de entrada.
 * La palabra `file` es una variable arbitraria que representará cada archivo a medida que se ejecuta a través del bucle.
 * `ffprobe -f lavfi -i movie="$file",signalstats -show_entries frame=pkt_pts_time:frame_tags=lavfi.signalstats.HUEMED -print_format csv > "${file%.m4v}.csv"; done` = el mismo comando de extracción de metadatos de color que ejecutamos en nuestros dos extractos de *Destination Earth*, con algunas pequeñas modificaciones en la sintaxis para explicar su uso en varios archivos en un directorio:
   * `"$file"` = recuerda cada variable. Las comillas aseguran que se conserva el nombre de archivo original.

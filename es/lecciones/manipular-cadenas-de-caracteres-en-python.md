@@ -19,8 +19,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/43
 layout: lesson
-next: /es/lecciones/de-html-a-lista-de-palabras-1
-previous: /es/lecciones/trabajar-con-paginas-web
+next: de-html-a-lista-de-palabras-1
+previous: trabajar-con-paginas-web
 original: manipulating-strings-in-python
 python_warning: false
 difficulty: 2

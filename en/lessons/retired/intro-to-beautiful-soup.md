@@ -15,9 +15,9 @@ and other markup languages."
 exclude_from_check:
   - review-ticket
   - reviewers
-redirect_from:
-  - /lessons/intro-to-beautiful-soup/
-  - /en/lessons/intro-to-beautiful-soup/
+redirect_from: 
+  - /lessons/intro-to-beautiful-soup
+  - /en/lessons/intro-to-beautiful-soup
 retired: true
 retirement-reason: |
   The underlying website has changed and no longer produces the HTML referenced in the lesson.
@@ -187,7 +187,7 @@ The Congressional database that we’re using is not an easy one to scrape
 because the URL for the search results remains the same regardless of
 what you’re searching for. While this can be bypassed programmatically,
 it is easier for our purposes to go
-to <https://bioguide.congress.gov/biosearch/biosearch.asp>, search for
+to <http://bioguide.congress.gov/biosearch/biosearch.asp>, search for
 Congress number 43, and to save a copy of the results page.
 
 
@@ -653,11 +653,11 @@ for tr in trs:
 
 You’ve done it! You have created a CSV file from all of the data in the table, creating useful data from the confusion of the html page.
 
-- [Working with Text Files](/en/lessons/working-with-text-files)  
-- [Command Line Bootcamp](https://praxis.scholarslab.org/resources/bash/)  
-- [Opening lines of Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)  
-- [installing python modules](/en/lessons/installing-python-modules-pip)  
-- [urllib3](https://urllib3.readthedocs.org/en/latest/)  
-- [Automated Downloading with Wget](/en/lessons/automated-downloading-with-wget)  
-- [Downloading Multiple Records Using Query Strings](/en/lessons/downloading-multiple-records-using-query-strings)  
-- [Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model)
+  [Working with Text Files]: /lessons/working-with-text-files
+  [Command Line Bootcamp]: http://praxis.scholarslab.org/resources/bash/
+  [Opening lines of Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/bs4/doc/
+  [installing python modules]: /lessons/installing-python-modules-pip
+  [urllib3]: http://urllib3.readthedocs.org/en/latest/
+  [Automated Downloading with Wget]: /lessons/automated-downloading-with-wget
+  [Downloading Multiple Records Using Query Strings]: /lessons/downloading-multiple-records-using-query-strings
+  [Document Object Model]: https://en.wikipedia.org/wiki/Document_Object_Model

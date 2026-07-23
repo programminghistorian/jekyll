@@ -16,13 +16,13 @@ exclude_from_check:
 activity: acquiring
 topics: [python]
 abstract: "This lesson introduces Uniform Resource Locators (URLs) and explains how to use Python to download and save the contents of a web page to your local hard drive."
-next: /en/lessons/manipulating-strings-in-python
-previous: /en/lessons/code-reuse-and-modularity
+next: manipulating-strings-in-python
+previous: code-reuse-and-modularity
 series_total: 15 lessons
 sequence: 5
 categories: [lessons, python, original-ph]
 python_warning: false
-redirect_from: /lessons/working-with-web-pages/
+redirect_from: /lessons/working-with-web-pages
 avatar_alt: A tall man next to a short woman
 doi: 10.46430/phen0021
 ---
@@ -143,10 +143,10 @@ Unfortunately, not all websites have such readable and reliable URLs.
 
 Spend a few minutes looking at Benjamin Bowsey’s trial page. Here we are
 not so much interested in what the transcript says, but what features
-the page has. Notice the [View as XML](https://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes) link at the bottom that takes
+the page has. Notice the [View as XML](http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes) link at the bottom that takes
 you to a heavily marked up version of the text which may be useful to
 certain types of research. You can also look at a [scan of the original
-document](https://www.oldbaileyonline.org/images.jsp?doc=178006280084), which was transcribed to make this resource.
+document](http://www.oldbaileyonline.org/images.jsp?doc=178006280084), which was transcribed to make this resource.
 
 Now let's try opening the page using Python. Copy the following program
 into Komodo Edit and save it as `open-webpage.py`. When you execute the
@@ -240,7 +240,7 @@ f.close
 So, if you can save a single file this easily, could you write a program
 to download a bunch of files? Could you step through trial IDs, for
 example, and make your own copies of a whole bunch of them? Yep. You can learn
-how to do that in [Downloading Multiple Files using Query Strings](/en/lessons/downloading-multiple-records-using-query-strings),
+how to do that in [Downloading Multiple Files using Query Strings](/lessons/downloading-multiple-records-using-query-strings),
 which we recommend after you have completed the introductory lessons in this series.
 
 Suggested Readings
@@ -258,8 +258,8 @@ file to make sure you have the correct code.
 
 -   programming-historian-1 ([zip][])
 
-  [Old Bailey Online]: https://www.oldbaileyonline.org/
+  [Old Bailey Online]: http://www.oldbaileyonline.org/
   [Downloading Multiple Records Using Query Strings]: /lessons/downloading-multiple-records-using-query-strings
   [Old]: /images/old-bailey.png "Old"
-  [Gordon Riots]: https://en.wikipedia.org/wiki/Gordon_Riots
+  [Gordon Riots]: http://en.wikipedia.org/wiki/Gordon_Riots
   [zip]: /assets/python-lessons1.zip

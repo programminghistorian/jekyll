@@ -1,7 +1,7 @@
 ---
 title: Lesson Retirement Policy
 layout: blank
-redirect_from: /lesson-retirement-policy/
+redirect_from: /lesson-retirement-policy
 ---
 
 # Lesson Retirement Policy
@@ -33,11 +33,11 @@ Whether or not a new derivative is created, the following steps will be taken wi
 
 ## Related Sustainability Guidelines
 
-[Author Guidelines for Writing Sustainably](/en/author-guidelines#sustainable-writing)
+[Author Guidelines for Writing Sustainably](/author-guidelines#write-sustainably)
 
-[Reviewer Guidelines for Assessing Lesson Sustainability](/en/reviewer-guidelines#sustainability)
+[Reviewer Guidelines for Assessing Lesson Sustainability](/reviewer-guidelines#sustainability)
 
-[Editor Guidelines for Fostering Lesson Sustainability](/en/editor-guidelines#c-sustainability--internationalization-review)
+[Editor Guidelines for Fostering Lesson Sustainability](/editor-guidelines#c-sustainability-review)
 
 ## Retired Lessons
 

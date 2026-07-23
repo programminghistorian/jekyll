@@ -29,7 +29,7 @@ topics: [mapping]
 abstract: "Google My Maps y Google Earth son una buena manera de comenzar
 a crear mapas digitales. Con una cuenta de Google puedes crear y editar mapas
 personales haciendo clic en Mis Sitios"
-next: /en/lessons/qgis-layers
+next: /lessons/qgis-layers
 doi: 10.46430/phes0036
 ---
 
@@ -69,13 +69,13 @@ Earth o Quantum GIS.
 -   Identifícate con tu cuenta de Google si no estás conectado ya (si es
     necesario, sigue las sencillas instrucciones para crear una cuenta).
 
-{% include figure.html caption="Figura 1" filename="es-tr-intro-a-google-maps-y-google-earth-01.png" %}
+{% include figure.html caption="Figura 1" filename="geo-es1.png" %}
 
 -   Haz clic en el signo de interrogación en la esquina inferior derecha y luego
     en "Visita guiada" para una introducción de cómo funciona My Maps.
 
 
-{% include figure.html caption="Figura 2" filename="es-tr-intro-a-google-maps-y-google-earth-02.png" %}
+{% include figure.html caption="Figura 2" filename="geo-es2.png" %}
 
 -   En la esquina superior izquierda aparece un menú con el título "Mapa sin
     nombre". Haciendo clic en el título puedes renombrarlo como "Mi mapa de
@@ -93,14 +93,14 @@ Earth o Quantum GIS.
     los nombres modernos de los lugares para evitar el riesgo de que Google elija
     la Constantinopla equivocada.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-03.png" caption="Figura 3" %}
+{% include figure.html filename="geo-es3.png" caption="Figura 3" %}
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-04.png" caption="Figura 4" %}
+{% include figure.html filename="geo-es4.png" caption="Figura 4" %}
 
 -   Luego, puedes importar un set de datos. Haz clic en "Importar" debajo de
     "Capa sin título".
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-05.png" caption="Figura 5" %}
+{% include figure.html filename="geo-es5.png" caption="Figura 5" %}
 
 -   Se abrirá una nueva ventana que te dará la opción de importar un archivo
     CSV (valores separados por coma), un XLSX (Microsoft Excel), un KML
@@ -110,30 +110,30 @@ Earth o Quantum GIS.
     También puedes utilizar una hoja de cálculo de Google a través de tu cuenta
     de Drive.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-06.png" caption="Figura 6" %}
+{% include figure.html filename="geo-es6.png" caption="Figura 6" %}
 
 -   A continuación, descarga el
-    [Archivo CSV del Suministro global de grasa de Reino Unido](/assets/intro-a-google-maps-y-google-earth/Suministro_global_de_grasa_de_Reino_Unido_1894_1896.zip)
+    [Archivo CSV del Suministro global de grasa de Reino Unido][]
     y guárdalo en tu computadora. Si abres el archivo en Excel u otro programa
     de hojas de cálculo, encontrarás un set de datos sencillo de dos columnas
     con una lista de diferentes tipos de grasas con los lugares asociados. Estos
     datos fueron construidos utilizando tablas de importaciones británicas
     de 1896.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-07.png" caption="Figura 7" %}
+{% include figure.html filename="geo-es7.png" caption="Figura 7" %}
 
 -   Arrastra el archivo al recuadro provisto por Google Maps.
 -   Te pedirá que indiques qué columna debe utilizar Google para colocar
     las marcas de posición. Elige "Lugar".
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-08.png" caption="Figura 8" %}
+{% include figure.html filename="geo-es8.png" caption="Figura 8" %}
 
 -   Luego, te solicitará que que elijas qué columna utilizar para
     los marcadores. Elige "Producto".
 -   Ahora deberías tener un mapa global de los mayores exportadores de grasa a
     Gran Bretaña a mediados de la década de 1890.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-09.png" caption="Figura 9" %}
+{% include figure.html filename="geo-es9.png" caption="Figura 9: Clic para ver imagen en tamaño completo" %}
 
 -   A continuación puedes explorar los datos en mayor detalle y modificar el
     Estilo para distinguir entre tipos diferentes de grasas.
@@ -142,9 +142,9 @@ Earth o Quantum GIS.
     Producto". A la izquierda, la leyenda mostrará la cantidad de ocurrencias de
     cada estilo entre paréntesis, por ejemplo: "Semillas de lino (4)".
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-10.png" caption="Figura 10" %}
+{% include figure.html filename="geo-es10.png" caption="Figura 10" %}
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-11.png" caption="Figura 11" %}
+{% include figure.html filename="geo-es11.png" caption="Figura 11" %}
 
 -   Sigue jugando con las opciones.
 -   Esta funcionalidad es una herramienta poderosa para mostrar sets de datos
@@ -154,7 +154,7 @@ Earth o Quantum GIS.
     items.
 
 [//]: # PENDIENTE
-{% include figure.html filename="en-or-googlemaps-googleearth-12.png" caption="Figura 12" %}
+{% include figure.html filename="geo12.png" caption="Figura 12" %}
 
 ### Crear capas de vectores
 
@@ -172,7 +172,7 @@ crece tu investigación con mapas digitales, pero no es un problema cuando está
 comenzando. En Google Maps puedes agregar un marcador, un texto de descripción
 y enlaces a un sitio web o una foto. Encontrarás más información acerca
 de cómo crear vectores históricos en un SIG completo en
-[Creating New Vector Layers in QGIS 2.0](/en/lessons/vector-layers-qgis) (en inglés).
+[Creating New Vector Layers in QGIS 2.0][].
 
 -   Para agregar una capa puedes utilizar la que ya ha sido creada con el
     nombre "Capa sin título", haciendo clic en ella y renombrándola a "Capa 1".
@@ -180,7 +180,7 @@ de cómo crear vectores históricos en un SIG completo en
     se creará una nueva "Capa sin título" que podrás renombrar como "Capa 2".
     Debería verse así:
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-13.png" caption="Figura 13" %}
+{% include figure.html filename="geo-es13.png" caption="Figura 13" %}
 
 -   Fíjete que a la izquierda de la capa hay una casilla de verificación:
     al desmarcarla se desactiva una capa (es decir, deja de verse en el mapa) y
@@ -207,13 +207,13 @@ de cómo crear vectores históricos en un SIG completo en
     la parte superior de la ventana y, a continuación, haz clic en el lugar del
     mapa donde quieres que aparezca el marcador.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-14.png" caption="Figura 14" %}
+{% include figure.html filename="geo-es14.png" caption="Figura 14" %}
 
 -   Aparecerá un recuadro para etiquetar el marcador y agregar una descripción
     en un campo de texto. Agregamos Charlottetown y anotamos en la descripción
     que fue fundada en 1765.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-15.png" caption="Figura 15" %}
+{% include figure.html filename="geo-es15.png" caption="Figura 15" %}
 
 -   Agrega algunos puntos más, incluyendo etiquetas y descripciones.
 
@@ -227,7 +227,7 @@ de cómo crear vectores históricos en un SIG completo en
     texto "Estilos individuales" que abre un menú para controlar distintos
     aspectos de la apariencia de la capa.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-16.png" caption="Figura 16" %}
+{% include figure.html filename="geo-es16.png" caption="Figura 16" %}
 
 -   Ahora agregaremos algunas líneas y formas (llamadas polígonos en el programa
     de SIG). Agregar líneas y polígonos es un proceso bastante similar.
@@ -239,7 +239,7 @@ de cómo crear vectores históricos en un SIG completo en
 -   Haz clic en el ícono de "Trazar una línea" a la derecha del símbolo de
     marcador y luego en "Agregar línea o forma":
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-17.png" caption="Figura 17" %}
+{% include figure.html filename="geo-es17.png" caption="Figura 17" %}
 
 -   Elige una calle y haz clic con el mouse a lo largo de ella, calcando un
     poco la ruta. Aprieta "Enter" cuando quieras terminar la línea.
@@ -250,7 +250,7 @@ de cómo crear vectores históricos en un SIG completo en
     busca la calle que acabas de dibujar en la Capa 2 en el menú y haz clic
     a la derecha de su nombre.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-18.png" caption="Figura 18" %}
+{% include figure.html filename="geo-es18.png" caption="Figura 18" %}
 
 -   Para crear un polígono (una forma) puedes conectar los puntos de la línea
     hasta alcanzar una forma cerrada. Para hacer esto, comienza a dibujar y
@@ -259,9 +259,9 @@ de cómo crear vectores históricos en un SIG completo en
     los límites de una ciudad (ver ejemplos abajo). Te recomendamos
     experimentar por tu cuenta creando líneas y polígonos.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-19.png" caption="Figura 19" %}
+{% include figure.html filename="geo-es19.png" caption="Figura 19" %}
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-20.png" caption="Figura 20" %}
+{% include figure.html filename="geo-es20.png" caption="Figura 20" %}
 
 -   Al igual que con los marcadores y líneas, puedes cambiar el nombre y la
     descripción de un polígono. También puedes cambiar el color y el ancho de la
@@ -306,9 +306,9 @@ de cómo crear vectores históricos en un SIG completo en
     la lección aquí. Si no, a continuación, aprenderás acerca de Google Earth y,
     en la lección 2, sobre Quantum GIS.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-21.png" caption="Figura 21" %}
+{% include figure.html filename="geo-es21.png" caption="Figura 21" %}
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-22.png" caption="Figura 22" %}
+{% include figure.html filename="geo-es22.png" caption="Figura 22" %}
 
 ## Google Earth
 
@@ -328,13 +328,13 @@ en la nube, aunque los mapas que crees pueden ser exportados.
     fronteras políticas (polígonos), rutas (líneas) y lugares (puntos). Mira las
     flechas rojas en la siguiente imagen para ver la ubicación de estas capas.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-23.png" caption="Figura 23" %}
+{% include figure.html filename="geo-es23.png" caption="Figura 23: Clic para ver la imagen en tamaño completo" %}
 
 -   Fíjate que bajo el título "Capas" en el costado inferior izquierdo del margen
     de la ventana, Google ofrece una serie de capas listas para usar que se
     activan seleccionando la casilla correspondiente.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-24.png" caption="Figura 24" %}
+{% include figure.html filename="geo-es24.png" caption="Figura 24" %}
 
 -   Google Earth también incluye algunos mapas históricos escaneados y
     fotografías aéreas (en SIG este tipo de mapas, que están hechos de píxeles,
@@ -348,22 +348,22 @@ en la nube, aunque los mapas que crees pueden ser exportados.
     Google Earth). Tómate un tiempo para explorar algunos mapas históricos.
     Verifica si hay algún mapa incluido en la colección Rumsey que pueda ser útil
     para tu investigación o tus clases. (Para obtener más mapas digitalizados
-    pero no georeferenciados, visita [www.davidrumsey.com](https://www.davidrumsey.com/).)
+    pero no georeferenciados, visita [www.davidrumsey.com][].)
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-25.png" caption="Figura 25" %}
+{% include figure.html filename="geo-es25.png" caption="Figura 25" %}
 
 -   Posiblemente necesites hacer zoom para ver todos los íconos de mapas.
     ¿Puedes encontrar el globo terráqueo de 1812?
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-26.png" caption="Figura 26" %}
+{% include figure.html filename="geo-es26.png" caption="Figura 26" %}
 
 -   Al hacer clic en un ícono se abre un panel de información. Haz clic en
     la miniatura del mapa para verlo adherido al globo terráqueo digital.
-    Aprenderás a georeferenciar mapas correctamente en [Georreferenciar con QGIS 2.0](/es/lecciones/georreferenciar-qgis).
+    Aprenderás a georeferenciar mapas correctamente en [Georeferencing in QGIS 2.0][].
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-27.png" caption="Figura 27" %}
+{% include figure.html filename="geo-es27.png" caption="Figura 27" %}
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-28.png" caption="Figura 28" %}
+{% include figure.html filename="geo-es28.png" caption="Figura 28: Clic para ver imagen en tamaño completo" %}
 
 ## KML: archivos de Keyhole Markup Language
 
@@ -380,10 +380,10 @@ en la nube, aunque los mapas que crees pueden ser exportados.
 
 -   Por ejemplo, puedes importar los datos de Google Maps Engine Lite.
     Si creaste un mapa en el ejercicio anterior, lo encontrarás haciendo clic
-    en "Mi mapa de prueba" en la página de inicio de [Maps Engine Lite](https://mapsengine.google.com). Haz
+    en "Mi mapa de prueba" en la página de inicio de [Maps Engine Lite][]. Haz
     clic en el ícono con tres puntos a la derecha del título del mapa y luego
     selecciona "Exportar a KML". (También puedes descargar y explorar el
-    [mapa de la vía marítima](/assets/googlemaps-googleearth/seaway.zip) de Dan Macfarlane para esta parte del ejercicio).
+    [mapa de la vía marítima][] de Dan Macfarlane para esta parte del ejercicio).
 
 **Importar tu archivo KML en Google Earth**
 
@@ -396,7 +396,7 @@ Las actualizaciones realizadas en Google Earth desde la publicación de esta lec
 -   Haz doble clic en el archivo KML en tu carpeta de Descargas.
 -   Busca los datos en la carpeta de "Lugares Temporales" de Google Earth.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-29.png" caption="Figura 29" %}
+{% include figure.html filename="geo-es29.png" caption="Figura 29: Clic para ver imagen en tamaño completo" %}
 
 -   Ahora puedes explorar estos recursos cartográficos en 3D o agregar
     nuevas líneas, puntos y polígonos utilizando los distintos íconos ubicados
@@ -412,7 +412,7 @@ Las actualizaciones realizadas en Google Earth desde la publicación de esta lec
     (cuando se selecciona el ícono de "Guarda un viaje" las opciones de grabación
     aparecen en la sección inferior izquierda de la ventana).
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-30.png" caption="Figura 30" %}
+{% include figure.html filename="geo-es30.png" caption="Figura 30" %}
 
 -   Prueba agregar un nuevo recurso a los datos de la vía marítima de Dan. Hemos
     creado un polígono (en la terminología de SIG, un polígono es una forma
@@ -421,9 +421,9 @@ Las actualizaciones realizadas en Google Earth desde la publicación de esta lec
     imagen. Busca el lago St. Clair (al este de Detroit) e intenta agregar un
     polígono.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-31.png" caption="Figura 31" %}
+{% include figure.html filename="geo-es31.png" caption="Figura 31: Clic para ver la imagen en tamaño completo" %}
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-32.png" caption="Figura 32" %}
+{% include figure.html filename="geo-es32.png" caption="Figura 32" %}
 
 -   Etiqueta el nuevo recurso como Lago St Claire. Luego, arrástralo
     encima de los datos de la vía marítima de Dan y agregalo a la colección.
@@ -432,18 +432,18 @@ Las actualizaciones realizadas en Google Earth desde la publicación de esta lec
     estos datos a QGIS. Utiliza la opción de buscar haciendo clic derecho en la
     colección de la vía marítima y elige "Guardar lugar como".
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-33.png" caption="Figura 33" %}
+{% include figure.html filename="geo-es33.png" caption="Figura 33" %}
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-34.png" caption="Figura 34" %}
+{% include figure.html filename="geo-es34.png" caption="Figura 34" %}
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-35.png" caption="Figura 35" %}
+{% include figure.html filename="geo-es35.png" caption="Figura 35" %}
 
 ## Agregar mapas históricos escaneados
 
 Google Earth permite utilizar una copia digital de un mapa histórico.
 Éste puede ser un mapa que ha sido escaneado o una imagen que ya está en formato
 digital (para consejos sobre cómo encontrar mapas históricos en línea vea:
-[Mobile Mapping and Historical GIS in the Field](https://niche-canada.org/2011/12/14/mobile-mapping-and-historical-gis-in-the-field/) – en inglés). El principal objetivo de
+[Mobile Mapping and Historical GIS in the Field][]). El principal objetivo de
 utilizar un mapa digital, desde un punto de vista histórico, es ubicarlo encima
 de una imagen de Google Earth en el navegador, lo cual se conoce como superposición
 (*overlay*). Realizar superposiciones nos permite realizar comparaciones útiles
@@ -459,19 +459,19 @@ de cambios a través del tiempo.
     imágenes históricas" en la barra superior y luego ajustando el control
     deslizable de la escala temporal que aparecerá.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-36.png" caption="Figura 36" %}
+{% include figure.html filename="geo-es36.png" caption="Figura 36" %}
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-37.png" caption="Figura 37" %}
+{% include figure.html filename="geo-es37.png" caption="Figura 37" %}
 
 -   Una vez que hayas identificado las imágenes que quieres utilizar, haz clic
     en el ícono de "Añadir superposición de imagen" en la barra superior.
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-38.png" caption="Figura 38" %}
+{% include figure.html filename="geo-es38.png" caption="Figura 38" %}
 
 -   Aparecerá una nueva ventana. Comienza poniéndole un título diferente si lo
     deseas (por defecto es "Superposición de imágenes sin título").
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-39.png" caption="Figura 39" %}
+{% include figure.html filename="geo-es39.png" caption="Figura 39: Clic en la imagen para ver en tamaño completo" %}
 
 -   Haz clic en el botón "Examinar", a la derecha del campo "Vínculo", para
     seleccionar de tus archivos el mapa que desees que sea la imagen a superponer.
@@ -484,14 +484,14 @@ de cambios a través del tiempo.
 -   Hay marcadores en verde fosforescente en el medio y en los bordes del mapa
     subido, que pueden ser utilizados para estirar, achicar y mover el mapa
     para que se alinee correctamente con la imagen del satélite. Éste es un modo
-    sencillo de georeferenciar (mira [Georreferenciar con QGIS 2.0](/es/lecciones/georreferenciar-qgis)). La imagen
+    sencillo de georeferenciar (mira [Georeferencing in QGIS 2.0][]). La imagen
     de abajo muestra los pasos anteriores utilizando un viejo mapa de la ciudad
     de Aultsville superpuesto a imágenes satelitales de Google de 2008 en el
     cual se ven los restos de las calles y los cimientos de los edificios
     en el río St. Lawrence (Aultsville fue uno de los "pueblos perdidos" que
     fueron inundados por el proyecto de Vía Marítima y Energía de St. Lawrence).
 
-{% include figure.html filename="es-tr-intro-a-google-maps-y-google-earth-40.png" caption="Figura 40" %}
+{% include figure.html filename="geo-es40.png" caption="Figura 40: Clic en la imagen para ver en tamaño completo" %}
 
 -   Volviendo a la ventana de "Nueva Superposición de Imágenes", fíjate que hay
     una serie de opciones para seleccionar ("Descripción", "Ver", "Altitud",
@@ -518,3 +518,52 @@ de cambios a través del tiempo.
 trabajo!**
 
 *Esta lección es parte de [Geospatial Historian](https://geospatialhistorian.wordpress.com/)*
+
+  [Google Maps Engine Lite]: https://mapsengine.google.com
+  [geo-es1]: /images/intro-a-google-maps-y-google-earth/geo-es1.png
+  [geo-es2]: /images/intro-a-google-maps-y-google-earth/geo-es2.png
+  [geo-es3]: /images/intro-a-google-maps-y-google-earth/geo-es3.png
+  [geo-es4]: /images/intro-a-google-maps-y-google-earth/geo-es4.png
+  [geo-es5]: /images/intro-a-google-maps-y-google-earth/geo-es5.png
+  [geo-es6]: /images/intro-a-google-maps-y-google-earth/geo-es6.png
+  [Archivo CSV del Suministro global de grasa de Reino Unido]: /assets/intro-a-google-maps-y-google-earth/Suministro_global_de_grasa_de_Reino_Unido_1894_1896.zip
+  [geo-es7]: /images/intro-a-google-maps-y-google-earth/geo-es7.png
+  [geo-es8]: /images/intro-a-google-maps-y-google-earth/geo-es8.png
+  [geo-es9]: /images/intro-a-google-maps-y-google-earth/geo-es9.png
+  [geo-es10]: /images/intro-a-google-maps-y-google-earth/geo-es10.png
+  [geo-es11]: /images/intro-a-google-maps-y-google-earth/geo-es11.png
+  [geo-es12]: /images/intro-a-google-maps-y-google-earth/geo-es12.png
+  [Creating New Vector Layers in QGIS 2.0]: /lessons/vector-layers-qgis
+  [geo-es13]: /images/intro-a-google-maps-y-google-earth/geo-es13.png
+  [geo-es14]: /images/intro-a-google-maps-y-google-earth/geo-es14.png
+  [geo-es15]: /images/intro-a-google-maps-y-google-earth/geo-es15.png
+  [geo-es16]: /images/intro-a-google-maps-y-google-earth/geo-es16.png
+  [geo-es17]: /images/intro-a-google-maps-y-google-earth/geo-es17.png
+  [geo-es18]: /images/intro-a-google-maps-y-google-earth/geo-es18.png
+  [geo-es19]: /images/intro-a-google-maps-y-google-earth/geo-es19.png
+  [geo-es20]: /images/intro-a-google-maps-y-google-earth/geo-es20.png
+  [geo-es21]: /images/intro-a-google-maps-y-google-earth/geo-es21.png
+  [geo-es22]: /images/intro-a-google-maps-y-google-earth/geo-es22.png
+  [geo-es23]: /images/intro-a-google-maps-y-google-earth/geo-es23.png
+  [geo-es24]: /images/intro-a-google-maps-y-google-earth/geo-es24.png
+  [www.davidrumsey.com]: http://www.davidrumsey.com/
+  [geo-es25]: /images/intro-a-google-maps-y-google-earth/geo-es25.png
+  [geo-es26]: /images/intro-a-google-maps-y-google-earth/geo-es26.png
+  [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
+  [geo-es27]: /images/intro-a-google-maps-y-google-earth/geo-es27.png
+  [geo-es28]: /images/intro-a-google-maps-y-google-earth/geo-es28.png
+  [Maps Engine Lite]: https://mapsengine.google.com/map/
+  [mapa de la vía marítima]: /assets/googlemaps-googleearth/seaway.zip
+  [geo-es29]: /images/intro-a-google-maps-y-google-earth/geo-es29.png
+  [geo-es30]: /images/intro-a-google-maps-y-google-earth/geo-es30.png
+  [geo-es31]: /images/intro-a-google-maps-y-google-earth/geo-es31.png
+  [geo-es32]: /images/intro-a-google-maps-y-google-earth/geo-es32.png
+  [geo-es33]: /images/intro-a-google-maps-y-google-earth/geo-es33.png
+  [geo-es34]: /images/intro-a-google-maps-y-google-earth/geo-es34.png
+  [geo-es35]: /images/intro-a-google-maps-y-google-earth/geo-es35.png
+  [Mobile Mapping and Historical GIS in the Field]: http://niche-canada.org/2011/12/14/mobile-mapping-and-historical-gis-in-the-field/
+  [geo-es36]: /images/intro-a-google-maps-y-google-earth/geo-es36.png
+  [geo-es37]: /images/intro-a-google-maps-y-google-earth/geo-es37.png
+  [geo-es38]: /images/intro-a-google-maps-y-google-earth/geo-es38.png
+  [geo-es39]: /images/intro-a-google-maps-y-google-earth/geo-es39.png
+  [geo-es40]: /images/intro-a-google-maps-y-google-earth/geo-es40.png

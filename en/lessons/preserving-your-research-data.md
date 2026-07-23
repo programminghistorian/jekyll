@@ -16,7 +16,7 @@ exclude_from_check:
 activity: sustaining
 topics: [data-management]
 abstract: "This lesson will suggest ways in which historians can document and structure their research data so as to ensure it remains useful in the future."
-redirect_from: /lessons/preserving-your-research-data/
+redirect_from: /lessons/preserving-your-research-data
 avatar_alt: A large barrel
 doi: 10.46430/phen0039
 ---
@@ -165,7 +165,7 @@ documented), though existing schema such as [Markdown][] are available
 (Markdown files are saved as .md). An excellent Markdown cheat sheet is
 available on GitHub <https://github.com/adam-p/markdown-here>) for those
 who wish to follow – or adapt – this existing schema. Notepad++
-<https://notepad-plus-plus.org/> is recommended for Windows users, though
+<http://notepad-plus-plus.org/> is recommended for Windows users, though
 by no means essential, for working with .md files. Mac or Unix users may
 find [Komodo Edit][] or [Text Wrangler][] helpful.
 
@@ -213,7 +213,7 @@ blogging services. WordPress URLs follow the format:
 
 -   *website name*/*year(4 digits)*/*month (2 digits)*/*day (2
     digits)*/*words-of-title-separated-by-hyphens*
--   <https://cradledincaricature.com/2014/02/06/comic-art-beyond-the-print-shop/>
+-   <http://cradledincaricature.com/2014/02/06/comic-art-beyond-the-print-shop/>
 
 A similar style is used by news agencies such as a The Guardian
 newspaper:
@@ -221,7 +221,7 @@ newspaper:
 -   *website name*/*section subdivision*/*year (4 digits)*/*month (3
     characters)*/*day (2
     digits)*/*words-describing-content-separated-by-hyphens*
--   <https://www.theguardian.com/uk-news/2014/feb/20/rebekah-brooks-rupert-murdoch-phone-hacking-trial>
+-   <http://www.theguardian.com/uk-news/2014/feb/20/rebekah-brooks-rupert-murdoch-phone-hacking-trial>
     .
 
 In archival catalogues, URLs structured by a single data element are
@@ -229,12 +229,12 @@ often used. The British Cartoon Archive structures its online archive
 using the format:
 
 -   *website name*/record/*reference number*
--   <https://www.cartoons.ac.uk/record/SBD0931>
+-   <http://www.cartoons.ac.uk/record/SBD0931>
 
 And the Old Bailey Online uses the format:
 
 -   *website name*/browse.jsp?ref=*reference number*
--   <https://www.oldbaileyonline.org/browse.jsp?ref=OA16780417>
+-   <http://www.oldbaileyonline.org/browse.jsp?ref=OA16780417>
 
 What we learn from these examples is that a combination of semantic
 description and data elements make consistent and predictable data
@@ -415,11 +415,11 @@ blog (17 October 2013)
 
 Hitchcock, Tim, 'Judging a book by its URLs', Historyonics blog (3
 January 2014)
-<https://historyonics.blogspot.co.uk/2014/01/judging-book-by-its-url.html>
+<http://historyonics.blogspot.co.uk/2014/01/judging-book-by-its-url.html>
 
 Howard, Sharon, 'Unclean, unclean! What historians can do about sharing
 our messy research data', Early Modern Notes blog (18 May 2013)
-<https://earlymodernnotes.wordpress.com/2013/05/18/unclean-unclean-what-historians-can-do-about-sharing-our-messy-research-data/>
+<http://earlymodernnotes.wordpress.com/2013/05/18/unclean-unclean-what-historians-can-do-about-sharing-our-messy-research-data/>
 
 Noble, William Stafford, A Quick Guide to Organizing Computational
 Biology Projects.PLoSComputBiol 5(7): e1000424 (2009)
@@ -432,7 +432,7 @@ Information Management: Organising Humanities Material' (2011)
 Pennock, Maureen, 'The Twelve Principles of Digital Preservation (and a
 cartridge in a repository…)', British Library Collection Care blog (3
 September 2013)
-<https://britishlibrary.typepad.co.uk/collectioncare/2013/09/the-twelve-principles-of-digital-preservation.html>
+<http://britishlibrary.typepad.co.uk/collectioncare/2013/09/the-twelve-principles-of-digital-preservation.html>
 
 Pritchard, Adam, 'Markdown Cheatsheet' (2013)
 <https://github.com/adam-p/markdown-here>
@@ -443,8 +443,8 @@ Digital Era', The American Historical Review 108:3 (2003), 735-762.
 UK Data Archive, 'Documenting your Data'
 <https://dam.ukdataservice.ac.uk/media/440277/documentingdata.pdf>
 
-  [PRINCE2]: https://en.wikipedia.org/wiki/PRINCE2
-  [platform agnostic]: https://en.wikipedia.org/wiki/Cross-platform
-  [Markdown]: https://en.wikipedia.org/wiki/Markdown
+  [PRINCE2]: http://en.wikipedia.org/wiki/PRINCE2
+  [platform agnostic]: http://en.wikipedia.org/wiki/Cross-platform
+  [Markdown]: http://en.wikipedia.org/wiki/Markdown
   [Komodo Edit]: https://github.com/ActiveState/OpenKomodoIDE
   [Text Wrangler]: https://www.barebones.com/products/textwrangler/

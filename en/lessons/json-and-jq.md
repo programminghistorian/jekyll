@@ -14,7 +14,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/23
 activity: transforming
 topics: [data-manipulation]
 abstract: "Working with data from an art museum API and from the Twitter API, this lesson teaches how to use the command-line utility _jq_ to filter and parse complex JSON files into flat CSV files."
-redirect_from: /lessons/json-and-jq/
+redirect_from: /lessons/json-and-jq
 avatar_alt: A grid-like device for drawing lines
 doi: 10.46430/phen0055
 ---
@@ -33,7 +33,7 @@ Access to Twitter’s API has recently changed. The Free Tier no longer allows u
 
 JSON (JavaScript Object Notation) is a common data sharing format that can describe complex relationships.
 Many libraries, archives, museums, and social media sites expose their data through JSON-based APIs.
-(On accessing APIs, see [downloading structured data with wget](/en/lessons/applied-archival-downloading-with-wget) and the [series of lessons on working with APIs](/en/lessons/retired/intro-to-the-zotero-api).)
+(On accessing APIs, see [downloading structured data with wget](/lessons/applied-archival-downloading-with-wget) and the [series of lessons on working with APIs](/lessons/intro-to-the-zotero-api).)
 
 However, many tools for data analysis and visualization require input in flat tables (i.e. CSV), and because JSON is such a flexible data format, often with many nested levels of data, there is no one-size-fits-all graphical user interface for transforming JSON into other formats.
 
@@ -44,7 +44,7 @@ By the end of the lesson, you will understand how to combine basic operators to 
 
 ## What is JSON?
 
-[You may find a short and cogent primer on JSON here.](https://www.json.org/)
+[You may find a short and cogent primer on JSON here.](http://www.json.org/)
 In brief, a JSON **object** is a series of key/value pairs, where **keys** are the names for the **values** they are paired with.
 For example, the tiny JSON object:
 
@@ -219,7 +219,7 @@ If you want to access just the first (or the _n_-th) item in an array, put a dig
 ```
 
 **IMPORTANT: you access the first element of an array with `0`, not `1`.**
-This is because JavaScript, like quite a few other programming languages ([though not all!](https://stackoverflow.com/questions/3135325/why-do-vector-indices-in-r-start-with-1-instead-of-0)), [starts counting at 0](https://skillcrush.com/2013/01/17/why-programmers-start-counting-at-zero/).
+This is because JavaScript, like quite a few other programming languages ([though not all!](http://stackoverflow.com/questions/3135325/why-do-vector-indices-in-r-start-with-1-instead-of-0)), [starts counting at 0](http://skillcrush.com/2013/01/17/why-programmers-start-counting-at-zero/).
 
 This filter returns just the first element of the `artObjects` array.
 `.artObjects[1]` would return the second, and so on.
@@ -269,7 +269,7 @@ Let's break down this query into its component pieces:
 3. `.id` This final command accesses the value stored in the key `id` in the two objects that make it through the `select()` filter.
 
 jq can also filter based on regular expressions.
-(To learn more about regular expressions, see the Programming Historian lesson ["Understanding Regular Expressions"](/en/lessons/understanding-regular-expressions).)
+(To learn more about regular expressions, see the Programming Historian lesson ["Understanding Regular Expressions"](/lessons/understanding-regular-expressions).)
 For example, let's select only those objects whose primary maker has the particle "van" in their name, and return the artist name and artwork id.
 `test("van")` takes the value returned by the operator `.principalOrFirstMaker` and returns true if that value contains the string `van`:
 
@@ -921,9 +921,9 @@ For fast processing of very large files, or of JSON lines spread across multiple
 
 ### Installation on OS X
 
-The easiest way to install jq on OS X is to use the package management system [Homebrew](https://brew.sh/).
+The easiest way to install jq on OS X is to use the package management system [Homebrew](http://brew.sh/).
 This system works via OS X's "Terminal" application, which gives you access to the Bash command line.
-[For an introduction to this system, see The Programming Historian's "Introduction to the Bash Command Line".](/en/lessons/intro-to-bash)
+[For an introduction to this system, see The Programming Historian's "Introduction to the Bash Command Line".](/lessons/intro-to-bash)
 
 Follow the installation instructions for Homebrew itself, and then use this command to install jq:
 
@@ -934,7 +934,7 @@ brew install jq
 ### Installation on Windows
 
 To access the command line easily on Windows, you will need the PowerShell application.
-[See the Programming Historian's "Introduction to PowerShell"](/en/lessons/intro-to-powershell)
+[See the Programming Historian's "Introduction to PowerShell"](/lessons/intro-to-powershell.html)
 
 From PowerShell, you can install the Windows package manager [Chocolatey](https://chocolatey.org/install), and then install jq with the following command:
 
@@ -956,14 +956,14 @@ jq -r '.artObjects[] | [.id, .title, .principalOrFirstMaker, .webImage.url] | @c
 
 Alternatively, you can use bash pipes to send text from the output of one function into jq.
 This can be useful when downloading JSON with a utility like `wget` for retrieving online material.
-(See [Automated Downloading with Wget](/en/lessons/automated-downloading-with-wget) to learn the basics of this other command line program.)
+(See [Automated Downloading with Wget](/lessons/automated-downloading-with-wget) to learn the basics of this other command line program.)
 
 ```sh
 wget -qO- http://programminghistorian.org/assets/json-and-jq/jq_rkm.json | jq -r '.artObjects[] | [.id, .title, .principalOrFirstMaker, .webImage.url] | @csv'
 ```
 
 Note that you must use the `wget` flag `-qO-` in order to send the output of `wget` into `jq` by way of a shell pipe.
-You can read more about command line pipes in ["Introduction to the Bash Command Line"](/en/lessons/intro-to-bash) (OS X) or ["Introduction to PowerShell"](/en/lessons/intro-to-powershell) (Windows).
+You can read more about command line pipes in ["Introduction to the Bash Command Line"](/lessons/intro-to-bash) (OS X) or ["Introduction to PowerShell"](/lessons/intro-to-powershell.html) (Windows).
 
 ## Further Resources
 
@@ -974,5 +974,5 @@ If basic counting is all you need to do with your JSON data, then jq can help yo
 For more involved math, however, it would be more sensible to create table(s) with jq and then continue your analysis in Python, R, or even Excel.
 
 If you are working with deeply-nested JSON (that is, many objects within objects), or JSON where objects have inconsistent structure, you may need to use features not covered in this lesson, including [if-then-else statements](https://stedolan.github.io/jq/manual/#if-then-else), [recursion](https://stedolan.github.io/jq/manual/#Recursion), and [reduction](https://stedolan.github.io/jq/manual/#Reduce).
-If you can't figure out the filter you need to go from your given input to your desired output, using the tag `jq` over at [StackOverflow](https://stackoverflow.com/questions/tagged/jq) can often get you a speedy answer.
-Make sure that you try to [follow best practices when describing your problem](https://stackoverflow.com/help/how-to-ask) and provide a [reproducible example](https://stackoverflow.com/help/mcve).
+If you can't figure out the filter you need to go from your given input to your desired output, using the tag `jq` over at [StackOverflow](http://stackoverflow.com/questions/tagged/jq) can often get you a speedy answer.
+Make sure that you try to [follow best practices when describing your problem](http://stackoverflow.com/help/how-to-ask) and provide a [reproducible example](http://stackoverflow.com/help/mcve).

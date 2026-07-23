@@ -18,7 +18,7 @@ activity: analyzing
 topics: [distant-reading, r, data-visualization]
 abstract: |
   Learn how to use R to analyze high-level patterns in texts, apply stylometric methods over time and across authors, and use summary methods to describe items in a corpus.
-redirect_from: /lessons/basic-text-processing-in-r/
+redirect_from: /lessons/basic-text-processing-in-r
 avatar_alt: Children visiting a mobile book-mobile
 doi: 10.46430/phen0061
 ---
@@ -640,11 +640,11 @@ Many generic tutorials exist for all three of these, as well as extensive packag
 
 # Endnotes
 
-[^1]: Taryn Dewar, "R Basics with Tabular Data," Programming Historian (05 September 2016), [/en/lessons/r-basics-with-tabular-data](/en/lessons/r-basics-with-tabular-data).
+[^1]: Taryn Dewar, "R Basics with Tabular Data," Programming Historian (05 September 2016), [/lessons/r-basics-with-tabular-data](/lessons/r-basics-with-tabular-data).
 
 [^2]: Our corpus has 236 State of the Union addresses. Depending on exactly what is counted, this number can be slightly higher or lower.
 
-[^3]: All Presidential State of the Union Addresses were downloaded from The American Presidency Project at the University of California Santa Barbara. (Accessed 2016-11-11) [https://www.presidency.ucsb.edu/sou.php](https://www.presidency.ucsb.edu/sou.php).
+[^3]: All Presidential State of the Union Addresses were downloaded from The American Presidency Project at the University of California Santa Barbara. (Accessed 2016-11-11) [http://www.presidency.ucsb.edu/sou.php](http://www.presidency.ucsb.edu/sou.php).
 
 [^4]: Peter Norvig. "Google Web Trillion Word Corpus". (Accessed 2016-11-11) [http://norvig.com/ngrams/](https://web.archive.org/web/20260326183858/http://norvig.com/ngrams/).
 

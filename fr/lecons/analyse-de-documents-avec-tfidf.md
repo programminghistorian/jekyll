@@ -42,7 +42,7 @@ En étudiant **tf-idf**, vous découvrirez une méthode d'analyse textuelle que 
 
 ## Connaissances préalables recommandées
 
-- Être familiarisé(e) avec Python ou un langage de programmation similaire. Le code de cette leçon a été programmé en Python 3.6, mais vous pouvez exécuter **tf-idf** dans toutes les versions courantes de Python, en utilisant l'un des divers modules appropriés, ainsi que dans plusieurs autres langages de programmation. Le niveau de compétence en programmation requis est difficile à évaluer, mais vous devrez au moins être à l'aise avec les types de données et les opérations élémentaires. Pour tirer profit de cette leçon, il serait aussi souhaitable de suivre un cours comme celui proposé par Antoine Rozo sur [zestedesavoir.com](https://perma.cc/7WJ4-WD3P) ou d'avoir suivi certaines des [leçons d'introduction à la programmation en Python](/fr/lecons/introduction-et-installation) du _Programming Historian_. Si vous avez accès à une bibliothèque, n'hésitez pas à consulter le livre d'Émilien Schultz et de Matthias Bussonnier [*Python pour les sciences humaines et sociales*](https://www.worldcat.org/oclc/1232233436).   
+- Être familiarisé(e) avec Python ou un langage de programmation similaire. Le code de cette leçon a été programmé en Python 3.6, mais vous pouvez exécuter **tf-idf** dans toutes les versions courantes de Python, en utilisant l'un des divers modules appropriés, ainsi que dans plusieurs autres langages de programmation. Le niveau de compétence en programmation requis est difficile à évaluer, mais vous devrez au moins être à l'aise avec les types de données et les opérations élémentaires. Pour tirer profit de cette leçon, il serait aussi souhaitable de suivre un cours comme celui proposé par Antoine Rozo sur [zestedesavoir.com](https://perma.cc/7WJ4-WD3P) ou d'avoir suivi certaines des [leçons d'introduction à la programmation en Python](/fr/lecons/introduction-et-installation) du _Programming Historian_. Si vous avez accès à une bibliothèque, n'hésitez pas à consulter le livre d'Émilien Schultz et de Matthias Bussonnier [*Python pour les sciences humaines et sociales*](http://www.worldcat.org/oclc/1232233436).   
 - À défaut de pouvoir suivre la recommandation précédente, vous pourriez [réviser les bases de Python](https://perma.cc/YDT4-9JJ6), dont les types de données élémentaires (chaînes de caractères, nombres entiers, nombres réels, tuples, listes et dictionnaires), les variables, les boucles, les classes d'objets et leurs instances.
 - La maîtrise des bases d'Excel ou d'un autre tableur pourrait être utile si vous souhaitez examiner les feuilles de calcul au format CSV liées à cette leçon de plus près. Vous pouvez aussi employer le module Pandas du langage Python pour lire ces fichiers CSV.
 
@@ -438,19 +438,19 @@ Le résumé automatique est une autre manière d'explorer un corpus. Rada Mihalc
 
 - C.D. Manning, P. Raghavan et H. Schütze, _Introduction to Information Retrieval_. Cambridge: Cambridge University Press, 2008.
 
-- Rada Mihalcea et Paul Tarau. «&nbsp;Textrank: Bringing order into text&nbsp;», _Proceedings of the 2004 Conference on Empirical Methods in Natural Language Processing_, Barcelone, Espagne, 2004. [https://www.aclweb.org/anthology/W04-3252](https://perma.cc/SMV5-7MYY)
+- Rada Mihalcea et Paul Tarau. «&nbsp;Textrank: Bringing order into text&nbsp;», _Proceedings of the 2004 Conference on Empirical Methods in Natural Language Processing_, Barcelone, Espagne, 2004. [http://www.aclweb.org/anthology/W04-3252](https://perma.cc/SMV5-7MYY)
 
 - «&nbsp;Nellie Bly, Journalist, Dies of Pneumonia&nbsp;», [_The New York Times_, 28 janvier 1922](https://perma.cc/LA5B-65HL).
 
 - G. Salton et M.J. McGill, _Introduction to Modern Information Retrieval_. New York: McGraw-Hill, 1983.
 
-- Ben Schmidt, «&nbsp;Do Digital Humanists Need to Understand Algorithms?&nbsp;», _Debates in the Digital Humanities 2016_. Édition en ligne. Minneapois: University of Minnesota Press. [https://dhdebates.gc.cuny.edu/debates/text/99](https://perma.cc/95WD-SDM5).
+- Ben Schmidt, «&nbsp;Do Digital Humanists Need to Understand Algorithms?&nbsp;», _Debates in the Digital Humanities 2016_. Édition en ligne. Minneapois: University of Minnesota Press. [http://dhdebates.gc.cuny.edu/debates/text/99](https://perma.cc/95WD-SDM5).
 
-- Ben Schmidt, «&nbsp;Words Alone: Dismantling Topic Models in the Humanities&nbsp;», _Journal of Digital Humanities_. Vol. 2, No. 1 (2012): n.p. [https://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/](https://perma.cc/LT4N-X4MZ).
+- Ben Schmidt, «&nbsp;Words Alone: Dismantling Topic Models in the Humanities&nbsp;», _Journal of Digital Humanities_. Vol. 2, No. 1 (2012): n.p. [http://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/](https://perma.cc/LT4N-X4MZ).
 
 - Karen Spärck Jones, «&nbsp;A Statistical Interpretation of Term Specificity and Its Application in Retrieval.&nbsp;», _Journal of Documentation_ 28, no. 1 (1972): 11–21.
 
-- Jonathan Stray et Julian Burgess. «&nbsp;A Full-text Visualization of the Iraq War Logs&nbsp;», 10 décembre 2010 (dernière mise à jour en avril 2012), [https://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs](https://perma.cc/QBZ4-DKTE).
+- Jonathan Stray et Julian Burgess. «&nbsp;A Full-text Visualization of the Iraq War Logs&nbsp;», 10 décembre 2010 (dernière mise à jour en avril 2012), [http://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs](https://perma.cc/QBZ4-DKTE).
 
 - Ted Underwood, «&nbsp;Identifying diction that characterizes an author or genre: why Dunning's may not be the best method&nbsp;», _The Stone and the Shell_, 9 novembre 2011, [https://tedunderwood.com/2011/11/09/identifying-the-terms-that-characterize-an-author-or-genre-why-dunnings-may-not-be-the-best-method/](https://perma.cc/SY25-UXK3).
 
@@ -470,7 +470,7 @@ Si vous n'utilisez pas Anaconda, il faudra vous assurer de disposer des outils p
 
 1. Une installation de Python 3 (préférablement Python 3.6 ou une version plus récente)
 2. Idéalement, un environnement virtuel dans lequel installer et exécuter le Python
-3. Le module Scikit-Learn et ses dépendances (voir [https://scikit-learn.org/stable/install.html](https://scikit-learn.org/stable/install.html))
+3. Le module Scikit-Learn et ses dépendances (voir [http://scikit-learn.org/stable/install.html](http://scikit-learn.org/stable/install.html))
 4. Jupyter Notebook et ses dépendances
 
 # Notes
@@ -487,13 +487,13 @@ Si vous n'utilisez pas Anaconda, il faudra vous assurer de disposer des outils p
 
 [^6]: Scikit-Learn Developers, «&nbsp;TfidfVectorizer&nbsp;» (en anglais), consulté le 9 juin 2022, [https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html](https://perma.cc/JUN8-39Z6).
 
-[^7]: Ben Schmidt, «&nbsp;Do Digital Humanists Need to Understand Algorithms?&nbsp;», _Debates in the Digital Humanities 2016_. Édition en ligne. Minneapolis: University of Minnesota Press. [https://dhdebates.gc.cuny.edu/debates/text/99](https://perma.cc/95WD-SDM5).
+[^7]: Ben Schmidt, «&nbsp;Do Digital Humanists Need to Understand Algorithms?&nbsp;», _Debates in the Digital Humanities 2016_. Édition en ligne. Minneapolis: University of Minnesota Press. [http://dhdebates.gc.cuny.edu/debates/text/99](https://perma.cc/95WD-SDM5).
 
 [^8]: Guido van Rossum, Barry Warsaw et Nick Coghlan. «&nbsp;PEP 8 - Style Guide for Python Code&nbsp;», 5 juillet 2001 (mise à jour août 2013), [https://www.python.org/dev/peps/pep-0008/](https://perma.cc/P2ZM-VPQM).
 
 [^9]: «&nbsp;Ida M. Tarbell, 86, Dies in Bridgeport&nbsp;», [_The New York Times_, 17 janvier 1944](https://perma.cc/NBV6-S2XM); «&nbsp;W. E. B. DuBois Dies in Ghana; Negro Leader and Author, 95&nbsp;», [_The New York Times_, 28 août 1963](https://perma.cc/W5NX-XZRV); Alden Whitman, «&nbsp;Upton Sinclair, Author, Dead; Crusader for Social Justice, 90&nbsp;», [_The New York Times_, 26 novembre 1968](https://perma.cc/E4N7-2KD6); «&nbsp;Willa Cather Dies; Noted Novelist, 70&nbsp;», [_The New York Times_, 25 avril 1947](https://perma.cc/2L7H-WGKN).
 
-[^10]: Jonathan Stray et Julian Burgess. «&nbsp;A Full-text Visualization of the Iraq War Logs&nbsp;», 10 décembre 2010 (dernière mise à jour en avril 2012), [https://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs](https://perma.cc/QBZ4-DKTE).
+[^10]: Jonathan Stray et Julian Burgess. «&nbsp;A Full-text Visualization of the Iraq War Logs&nbsp;», 10 décembre 2010 (dernière mise à jour en avril 2012), [http://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs](https://perma.cc/QBZ4-DKTE).
 
 [^11]: C.D. Manning, P. Raghavan et H. Schütze, _Introduction to Information Retrieval_ (Cambridge: Cambridge University Press, 2008), 118-120.
 
@@ -503,6 +503,6 @@ Si vous n'utilisez pas Anaconda, il faudra vous assurer de disposer des outils p
 
 [^14]: Il n'est habituellement pas recommandé d'appliquer **tf-idf** comme prétraitement avant de produire un modèle thématique. Voir&nbsp;: [https://datascience.stackexchange.com/questions/21950/why-we-should-not-feed-lda-with-tfidf](https://perma.cc/N5W9-TYX7).
 
-[^15]: Ben Schmidt, «&nbsp;Words Alone: Dismantling Topic Models in the Humanities&nbsp;», _Journal of Digital Humanities_. Vol. 2, No. 1 (2012): n.p., [https://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/](https://perma.cc/LT4N-X4MZ).
+[^15]: Ben Schmidt, «&nbsp;Words Alone: Dismantling Topic Models in the Humanities&nbsp;», _Journal of Digital Humanities_. Vol. 2, No. 1 (2012): n.p., [http://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/](https://perma.cc/LT4N-X4MZ).
 
-[^16]: Rada Mihalcea et Paul Tarau. «&nbsp;Textrank: Bringing order into text&nbsp;», _Proceedings of the 2004 Conference on Empirical Methods in Natural Language Processing_, Barcelone, Espagne, 2004, [https://www.aclweb.org/anthology/W04-3252](https://perma.cc/SMV5-7MYY).
+[^16]: Rada Mihalcea et Paul Tarau. «&nbsp;Textrank: Bringing order into text&nbsp;», _Proceedings of the 2004 Conference on Empirical Methods in Natural Language Processing_, Barcelone, Espagne, 2004, [http://www.aclweb.org/anthology/W04-3252](https://perma.cc/SMV5-7MYY).

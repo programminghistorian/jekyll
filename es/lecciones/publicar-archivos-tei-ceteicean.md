@@ -34,7 +34,7 @@ Para quienes se inician en el uso de TEI, uno de los escollos más comunes es qu
 
 Este tutorial te guiará a través de los pasos necesarios para publicar un archivo TEI en línea utilizando CETEIcean, una librería abierta escrita en el lenguaje de programación JavaScript. CETEIcean permite que los documentos TEI se muestren en un navegador web sin transformarlos primero a HTML. CETEIcean carga el archivo TEI dinámicamente en el navegador y cambia el nombre de los elementos de TEI por otros en HTML, de tal forma que estos nos permitan visualizar en el navegador web los fenómenos textuales que marcamos en nuestros archivos usando TEI.
 
-En primer lugar, una aclaración sobre la visualización de tu trabajo: el método por defecto de CETEIcean para mostrar archivos TEI consiste en cargar los archivos desde otra ubicación. Sin embargo, no todos los navegadores te permitirán cargar los archivos si estos se encuentran almacenados en tu computadora. Puedes hacer el intento, pero si eso no funciona, tendrás que generar un servidor local, colocar los archivos en un servidor en línea, o utilizar un editor de código con funciones de previsualización. Para el caso de este tutorial, seguiremos esta última opción, ya que usaremos el editor [Atom](https://atom.io), con el plug-in `atom-html-preview`. No obstante, existen otras opciones libres para editar archivos TEI y generar previsualizaciones de HTML, como [jEdit](https://www.jedit.org/) o [Visual Studio Code](https://code.visualstudio.com/), y versiones propietarias como [Oxygen](https://www.oxygenxml.com/).
+En primer lugar, una aclaración sobre la visualización de tu trabajo: el método por defecto de CETEIcean para mostrar archivos TEI consiste en cargar los archivos desde otra ubicación. Sin embargo, no todos los navegadores te permitirán cargar los archivos si estos se encuentran almacenados en tu computadora. Puedes hacer el intento, pero si eso no funciona, tendrás que generar un servidor local, colocar los archivos en un servidor en línea, o utilizar un editor de código con funciones de previsualización. Para el caso de este tutorial, seguiremos esta última opción, ya que usaremos el editor [Atom](https://atom.io), con el plug-in `atom-html-preview`. No obstante, existen otras opciones libres para editar archivos TEI y generar previsualizaciones de HTML, como [jEdit](http://www.jedit.org/) o [Visual Studio Code](https://code.visualstudio.com/), y versiones propietarias como [Oxygen](https://www.oxygenxml.com/).
 
 <div class="alert alert-warning">
 Actualización de marzo de 2025: No recomendamos usar Atom, ya que el software no ha recibido mantenimiento ni actualizaciones desde su cierre en diciembre de 2022. Puedes usar VSCode de la misma manera, siempre que también instales la extensión HTML Preview del marketplace de extensiones.
@@ -44,9 +44,9 @@ Deberás entonces descargar e instalar [Atom](https://atom.io) antes de continua
 
 {% include figure.html filename="publicar-archivos-tei-ceteicean1.png" caption="Proceso de instalación del plug-in de Atom para previsualizar archivos en HTML" %}
 
-Usaremos como texto de prueba la crónica conocida como *La Argentina Manuscrita*, del hispano-guaraní [Ruy Díaz de Guzmán](https://es.wikipedia.org/wiki/Ruy_D%C3%ADaz_de_Guzm%C3%A1n). Este texto del siglo XVII hace uso del topónimo Argentina por primera vez, para referirse a los extensos territorios del Cono Sur que componían el Río de la Plata y sus adyacencias, es decir, territorios de la actual Argentina, Paraguay, Uruguay, sur de Brasil y Bolivia. Puedes encontrar una edición digital completa del texto en: [https://hdlab.space/La-Argentina-Manuscrita](https://hdlab.space/La-Argentina-Manuscrita).
+Usaremos como texto de prueba la crónica conocida como *La Argentina Manuscrita*, del hispano-guaraní [Ruy Díaz de Guzmán](https://es.wikipedia.org/wiki/Ruy_D%C3%ADaz_de_Guzm%C3%A1n). Este texto del siglo XVII hace uso del topónimo Argentina por primera vez, para referirse a los extensos territorios del Cono Sur que componían el Río de la Plata y sus adyacencias, es decir, territorios de la actual Argentina, Paraguay, Uruguay, sur de Brasil y Bolivia. Puedes encontrar una edición digital completa del texto en: [http://hdlab.space/La-Argentina-Manuscrita](http://hdlab.space/La-Argentina-Manuscrita).
 
-Comenzaremos con un archivo simple (aunque un tanto extenso) en formato TEI P5, que queremos hacer visible en un navegador web: [`Ruy_Diaz-La_Argentina_Manuscrita.xml`](https://hdlab.space/La-Argentina-Manuscrita/assets/Ruy_Diaz-La_argentina_manuscrita.tei.xml). Para descargar el archivo haz clic derecho sobre el enlace de descarga y selecciona la opción 'Save Link As...'.
+Comenzaremos con un archivo simple (aunque un tanto extenso) en formato TEI P5, que queremos hacer visible en un navegador web: [`Ruy_Diaz-La_Argentina_Manuscrita.xml`](http://hdlab.space/La-Argentina-Manuscrita/assets/Ruy_Diaz-La_argentina_manuscrita.tei.xml). Para descargar el archivo haz clic derecho sobre el enlace de descarga y selecciona la opción 'Save Link As...'.
 
 ## Paso 1: Crear una estructura para nuestros archivos
 Comenzaremos por establecer una estructura para nuestros archivos, es decir, una carpeta contenedora con el nombre 'tutorial_es' con las subcarpetas y archivos que te indicaremos a continuación. Puedes descargar el directorio completo del repositorio [CETEIcean en GitHub](https://github.com/TEIC/CETEIcean) y trabajar en la carpeta 'tutorial_es', o puedes descargar los archivos individualmente, siempre y cuando mantengan la misma estructura que en GitHub, que es la siguiente:
@@ -270,7 +270,7 @@ CETEIcean posee una cantidad de comportamientos integrados que puedes reemplazar
 
 Si haces esto, puede que desees agregar estilos de CSS o comportamientos para elegir la forma en la que se visualizará el contenido del TEI Header en el navegador.
 
-En este tutorial no agotamos todas las posibilidades para la presentación de nuestro documento fuente. Te invitamos a que continúes experimentando por tu cuenta en las diferentes formas en las que un marcado de TEI puede visualizarse en un navegador usando CETEICean. Puedes encontrar más información en [CETEIcean](https://teic.github.io/CETEIcean/).
+En este tutorial no agotamos todas las posibilidades para la presentación de nuestro documento fuente. Te invitamos a que continúes experimentando por tu cuenta en las diferentes formas en las que un marcado de TEI puede visualizarse en un navegador usando CETEICean. Puedes encontrar más información en [CETEIcean](http://teic.github.io/CETEIcean/).
 
 ## Referencias
 
@@ -280,11 +280,11 @@ Allés Torrent, Susanna. 2019. "Introducción a la Text Encoding Initiative". *T
 
 Atom. A hackable text editor for the 21st Century. https://atom.io
 
-Cayless, Hugh y Viglianti, Raffaele. CETEIcean. https://teic.github.io/CETEIcean/
+Cayless, Hugh y Viglianti, Raffaele. CETEIcean. http://teic.github.io/CETEIcean/
 
-del Rio Riande, Gimena; De León, Romina, y Hernández, Nidia. 2019. *Historia de la conquista del Río de la Plata o La Argentina manuscrita*. https://hdlab.space/La-Argentina-Manuscrita/
+del Rio Riande, Gimena; De León, Romina, y Hernández, Nidia. 2019. *Historia de la conquista del Río de la Plata o La Argentina manuscrita*. http://hdlab.space/La-Argentina-Manuscrita/
 
-Jedit. Programmer's text editor. Stable Version: 5.6.0. https://www.jedit.org/
+Jedit. Programmer's text editor. Stable Version: 5.6.0. http://www.jedit.org/
 
 Oxygen. XML Editor. https://www.oxygenxml.com/
 

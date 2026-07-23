@@ -66,7 +66,7 @@ Ce tutoriel utilise un jeu de données et des logiciels que vous devrez téléch
 
 ### Le jeu de données
 
-Pour compléter les exercices de ce tutoriel, vous devrez télécharger et ouvrir l'archive des _Federalist Papers_ [.zip](/assets/introduction-to-stylometry-with-python/stylometry-federalist.zip) qui contient les 85 articles dont nous aurons besoin pour effectuer notre analyse. L'archive contient également le [livre électronique du Projet Gutenberg](https://www.gutenberg.org/cache/epub/1404/pg1404.txt) dont ces 85 documents ont été extraits. L'ouverture du fichier .zip créera un [répertoire](https://fr.wikipedia.org/wiki/R%C3%A9pertoire_(informatique)) nommé `data` dans votre répertoire de travail courant. Assurez-vous de rester dans ce répertoire de travail courant et d'y sauvegarder tout le travail que vous réaliserez en suivant le tutoriel.
+Pour compléter les exercices de ce tutoriel, vous devrez télécharger et ouvrir l'archive des _Federalist Papers_ [.zip](/assets/introduction-to-stylometry-with-python/stylometry-federalist.zip) qui contient les 85 articles dont nous aurons besoin pour effectuer notre analyse. L'archive contient également le [livre électronique du Projet Gutenberg](http://www.gutenberg.org/cache/epub/1404/pg1404.txt) dont ces 85 documents ont été extraits. L'ouverture du fichier .zip créera un [répertoire](https://fr.wikipedia.org/wiki/R%C3%A9pertoire_(informatique)) nommé `data` dans votre répertoire de travail courant. Assurez-vous de rester dans ce répertoire de travail courant et d'y sauvegarder tout le travail que vous réaliserez en suivant le tutoriel.
 
 ### Le logiciel
 
@@ -80,11 +80,11 @@ Certaines de ces ressources peuvent être absentes de votre ordinateur. Si vous 
 
 ## Quelques notes au sujet des langues
 
-Ce tutoriel applique des méthodes d'analyse stylométrique à un ensemble de textes rédigés en anglais à l'aide d'un module Python nommé `nltk`. Plusieurs des fonctions offertes par `nltk` sont cependant disponibles dans d'autres langues. Pour peu qu'une langue écrite divise ses mots de façon claire et précise, `nltk` devrait fonctionner correctement. Les langues pour lesquelles il n'y a pas de séparation nette entre les mots à l'écrit, comme par exemple le chinois, pourraient poser problème. J'ai utilisé `nltk` avec des textes français sans difficulté; les autres langues qui utilisent des [signes diacritiques](https://fr.wikipedia.org/wiki/Diacritique), comme l'espagnol et l'allemand, devraient être compatibles avec `nltk` elles aussi. Veuillez consulter la [documentation de nltk (en anglais seulement)](https://www.nltk.org/book/) pour plus de détails.
+Ce tutoriel applique des méthodes d'analyse stylométrique à un ensemble de textes rédigés en anglais à l'aide d'un module Python nommé `nltk`. Plusieurs des fonctions offertes par `nltk` sont cependant disponibles dans d'autres langues. Pour peu qu'une langue écrite divise ses mots de façon claire et précise, `nltk` devrait fonctionner correctement. Les langues pour lesquelles il n'y a pas de séparation nette entre les mots à l'écrit, comme par exemple le chinois, pourraient poser problème. J'ai utilisé `nltk` avec des textes français sans difficulté; les autres langues qui utilisent des [signes diacritiques](https://fr.wikipedia.org/wiki/Diacritique), comme l'espagnol et l'allemand, devraient être compatibles avec `nltk` elles aussi. Veuillez consulter la [documentation de nltk (en anglais seulement)](http://www.nltk.org/book/) pour plus de détails.
 
 Une seule des tâches de ce tutoriel exige du code qui varie en fonction de la langue. Pour diviser un texte en un ensemble de mots en français ou en espagnol, vous devrez spécifier la langue appropriée à [l'analyseur lexical](https://fr.wikipedia.org/wiki/Analyse_lexicale#Analyseur_lexical) de `nltk`. La procédure à suivre sera expliquée au moment venu.
 
-Enfin, veuillez noter que certaines tâches linguistiques, comme [l'étiquetage grammatical](https://fr.wikipedia.org/wiki/%C3%89tiquetage_morpho-syntaxique) des mots, peuvent ne pas être supportées par `nltk` dans les langues autres que l'anglais. Ce tutoriel ne couvre pas l'étiquetage grammatical. Si vos propres projets en ont besoin, veuillez consulter la [documentation de nltk](https://www.nltk.org/book/) pour obtenir des conseils.
+Enfin, veuillez noter que certaines tâches linguistiques, comme [l'étiquetage grammatical](https://fr.wikipedia.org/wiki/%C3%89tiquetage_morpho-syntaxique) des mots, peuvent ne pas être supportées par `nltk` dans les langues autres que l'anglais. Ce tutoriel ne couvre pas l'étiquetage grammatical. Si vos propres projets en ont besoin, veuillez consulter la [documentation de nltk](http://www.nltk.org/book/) pour obtenir des conseils.
 
 # Les _Federalist Papers_ - Contexte historique
 
@@ -344,7 +344,7 @@ Cependant, le khi carré constitue toujours une méthode approximative. Par exem
 
 Dans certaines langues, il peut être utile d'étiqueter grammaticalement les occurrences de mots avant de les compter, pour que les occurrences de certains mots polysémiques puissent être divisées entre deux traits distincts. Par exemple, en français, les mots "le" et "la" servent à la fois d'articles et de pronoms. Ce tutoriel n'applique pas l'étiquetage grammatical puisqu'il est rarement utile pour l'analyse stylométrique de textes en anglais contemporain et parce que l'analyseur syntaxique de `nltk` ne gère pas très bien les autres langues.
 
-Si vous avez besoin d'étiqueter les occurrences pour vos propres projets, il est possible de télécharger des analyseurs extérieurs, d'obtenir des outils séparés comme [Tree Tagger](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/), ou même d'entraîner vos propres modèles d'étiquetage, mais ces techniques sont hors du cadre de ce tutoriel.
+Si vous avez besoin d'étiqueter les occurrences pour vos propres projets, il est possible de télécharger des analyseurs extérieurs, d'obtenir des outils séparés comme [Tree Tagger](http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/), ou même d'entraîner vos propres modèles d'étiquetage, mais ces techniques sont hors du cadre de ce tutoriel.
 
 # Troisième test stylométrique : la méthode du Delta de John Burrows (Concepts avancés)
 
@@ -631,7 +631,7 @@ La première itération de ce projet a été développée dans le cadre des sém
 
 [^16]: John Burrows, "'Delta': a Measure of Stylistic Difference and a Guide to Likely Authorship", _Literary and Linguistic Computing_, vol. 17, no. 3 (2002), p. 267-287.
 
-[^17]: José Calvo Tello, “Entendiendo Delta desde las Humanidades,” _Caracteres_, 27 mai 2016, https://revistacaracteres.net/revista/vol5n1mayo2016/entendiendo-delta/.
+[^17]: José Calvo Tello, “Entendiendo Delta desde las Humanidades,” _Caracteres_, 27 mai 2016, http://revistacaracteres.net/revista/vol5n1mayo2016/entendiendo-delta/.
 
 [^18]: Stefan Evert et al., "Understanding and explaining Delta measures for authorship attribution", _Digital Scholarship in the Humanities_, vol. 32, no. suppl_2 (2017), p.  ii4-ii16.
 

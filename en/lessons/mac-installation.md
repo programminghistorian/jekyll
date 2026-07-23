@@ -17,7 +17,7 @@ exclude_from_check:
 activity: transforming
 topics: [get-ready, python]
 abstract: "This lesson will help you set up an integrated development environment for Python on a computer running a Mac operating system."
-redirect_from: /lessons/mac-installation/
+redirect_from: /lessons/mac-installation
 avatar_alt: A band with three musicians
 doi: 10.46430/phen0012
 ---
@@ -142,9 +142,9 @@ Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
 order, we suggest you next try '[Understanding Web Pages and HTML][].'
 
-  [Time Machine]: https://support.apple.com/en-gb/104984
-  [Python website]: https://www.python.org/
-  [Beautiful Soup]: https://www.crummy.com/software/BeautifulSoup/
+  [Time Machine]: http://support.apple.com/kb/ht1427
+  [Python website]: http://www.python.org/
+  [Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/
   [other text editing options]: https://wiki.python.org/python/PythonEditors
   [BBEdit]: https://www.barebones.com/products/bbedit/
   [Sublime Text website]: https://www.sublimetext.com/download

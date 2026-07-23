@@ -55,7 +55,7 @@ Institutional Partnerships empower us to **sustain our model of Diamond Open Acc
 
 If you know that our work aligns with your organisation’s priorities and is valuable to your community, we’d love your help to connect with the right person.
 
-[Email our Publishing Manager](mailto:admin@programminghistorian.org) or visit [https://tinyurl.com/support-PH](https://tinyurl.com/support-PH) to learn more about joining our Institutional Partnership Programme.
+[Email our Publishing Manager](mailto:admin@programminghistorian.org) or visit [http://tinyurl.com/support-PH](http://tinyurl.com/support-PH) to learn more about joining our Institutional Partnership Programme.
 
 Grateful thanks to our valued partners who have renewed their membership this quarter: **Exeter University**, **Universiteit Gent**, the **College of the Liberal Arts at Penn State University**, **KU Leuven Bibliotheken**, **University of York**, **C²DH**,the **National Archives**, the **School of Advanced Study (UoL)** and **Universität Bern Bibliothek**.
 

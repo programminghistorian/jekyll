@@ -20,8 +20,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/44
 layout: lesson
-next: /es/lecciones/de-html-a-lista-de-palabras-2
-previous: /es/lecciones/manipular-cadenas-de-caracteres-en-python
+next: de-html-a-lista-de-palabras-2
+previous: manipular-cadenas-de-caracteres-en-python
 original: from-html-to-list-of-words-1
 python_warning: false
 difficulty: 2
@@ -156,10 +156,10 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 
 
-[transcripción del juicio criminal contra Benjamin Bowsey de 1780]: https://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
+[transcripción del juicio criminal contra Benjamin Bowsey de 1780]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
 [Descargar páginas web con Python]: /es/lecciones/trabajar-con-paginas-web
-[HTML]: https://www.w3schools.com/html/
-[1]: https://www.w3schools.com/html/
+[HTML]: http://www.w3schools.com/html/
+[1]: http://www.w3schools.com/html/
 [Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python
 [Reutilizacion de código y modularidad]: /es/lecciones/reutilizacion-de-codigo-y-modularidad
 [zip]: /assets/python-es-lecciones2.zip

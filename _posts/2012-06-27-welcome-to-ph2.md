@@ -53,4 +53,4 @@ site. Tell us what confuses you and how we can improve the experience.
 In using this resource, you’re joining a community of
 scholar-programmers, and we couldn’t be happier to welcome you.
 
-  [original *Programming Historian*]: https://niche-canada.org/programming-historian
+  [original *Programming Historian*]: http://niche-canada.org/programming-historian

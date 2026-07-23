@@ -30,7 +30,7 @@ doi: 10.46430/phes0048
 
 Map Warper fue diseñada para georreferenciar mapas antiguos -mapamundis, portulanos, cartas náuticas, planos topográficos, planos arquitectónicos, cartas geográficas-, fotografías aéreas y demás materiales cartográficos contenidos en las colecciones de caracter patrimonial. En tal sentido, la herramienta nos posibilita la generación de material georreferenciado para trabajo en escritorio -rásteres- o en linea -Map Server-, útiles para vincular a sistemas de información geográfico (QGIS, JOSM, ArcGIS, Google Earth, World Map, otros). Asimismo, la herramienta ayuda a descentralizar y agilizar los procesos de georreferenciación, catalogación y visualización, ya que su plataforma crea un entorno de colaboración abierta.
 
-Gracias a sus características, la herramienta es útil a investigadores, profesores y estudiantes, como a instituciones que están desarrollando procesos de digitalización, visualización y experimentación del material cartográfico de sus colecciones, o para el desarrollo de proyectos en humanidades espaciales, como son los caso de la [Mapoteca Digital](https://bibliotecanacional.gov.co/es-co/colecciones/biblioteca-digital/mapoteca) de la Biblioteca Nacional de Colombia, [Cartografía de Bogotá](https://cartografia.bogotaendocumentos.com/) de la Universidad Nacional de Colombia, [Paisajes coloniales: redibujando los territorios andinos en el siglo XVII](https://paisajescoloniales.com/) de la Universidad de los Andes (Colombia).
+Gracias a sus características, la herramienta es útil a investigadores, profesores y estudiantes, como a instituciones que están desarrollando procesos de digitalización, visualización y experimentación del material cartográfico de sus colecciones, o para el desarrollo de proyectos en humanidades espaciales, como son los caso de la [Mapoteca Digital](http://bibliotecanacional.gov.co/es-co/colecciones/biblioteca-digital/mapoteca) de la Biblioteca Nacional de Colombia, [Cartografía de Bogotá](http://cartografia.bogotaendocumentos.com/) de la Universidad Nacional de Colombia, [Paisajes coloniales: redibujando los territorios andinos en el siglo XVII](https://paisajescoloniales.com/) de la Universidad de los Andes (Colombia).
 
 ### Lo que aprenderás en este tutorial
 
@@ -77,7 +77,7 @@ La pestaña “Metadata” visualiza la información cumplimentada en la etapa d
   En la versión de Map Warper que se encuentra actualmente disponible ya no es posible añadir un mapa base.
 </div>
 
-En este tutorial explicaremos el proceso de georreferenciación con el [Mapa Cafetero de la República de Colombia](https://catalogoenlinea.bibliotecanacional.gov.co/custom/web/content/mapoteca/fmapoteca_984_figac_16/fmapoteca_984_figac_16.html) de la Mapoteca Digital de la Biblioteca Nacional de Colombia. El documento cartográfico lo publicó la Federación Nacional de Cafeteros de Colombia en 1933, en una época en donde el café era la industria agrícola rectora de la economía colombiana, como resultado del primer censo cafetero del país realizado en 1932.
+En este tutorial explicaremos el proceso de georreferenciación con el [Mapa Cafetero de la República de Colombia](http://catalogoenlinea.bibliotecanacional.gov.co/custom/web/content/mapoteca/fmapoteca_984_figac_16/fmapoteca_984_figac_16.html) de la Mapoteca Digital de la Biblioteca Nacional de Colombia. El documento cartográfico lo publicó la Federación Nacional de Cafeteros de Colombia en 1933, en una época en donde el café era la industria agrícola rectora de la economía colombiana, como resultado del primer censo cafetero del país realizado en 1932.
 
 Recordamos que en caso de no tener cargada cartografía alguna, se podrá utilizar los mapas del siguiente listado, y en caso de recurrir al [listado](/assets/introduccion-map-warper/map-warper.csv) resaltar el mapa seleccionado en el interior del listado.
 
@@ -97,10 +97,10 @@ En este aspecto, para comprender mejor el desarrollo de esta acción técnica, d
 
 ~~~
 Google Maps: https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}
-Google Satellite: https://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}
-Bing Satélite: https://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=0&dir=dir_n’
-CARTO dark: https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png
-Stamen Watercolor: https://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg
+Google Satellite: http://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}
+Bing Satélite: http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=0&dir=dir_n’
+CARTO dark: http://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png
+Stamen Watercolor: http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg
 ~~~
 
 ![Add control point](/images/introduccion-map-warper/es-or-introduccion-map-warper-icon3.gif): El botón *Add control point* (agregar punto de control), ubicado en ambos recuadros, sirve para posicionar los puntos de control que relacionan el mapa vinculado o seleccionado con la capa base predeterminada o establecida.

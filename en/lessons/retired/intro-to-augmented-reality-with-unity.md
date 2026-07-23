@@ -21,8 +21,8 @@ retirement-reason: |
 
   [See further discussion about this retirement decision.](https://github.com/programminghistorian/jekyll/issues/717)
 redirect_from:
-  - /lessons/intro-to-augmented-reality-with-unity/
-  - /lessons/deprecated/intro-to-augmented-reality-with-unity/
+  - /lessons/intro-to-augmented-reality-with-unity
+  - /lessons/deprecated/intro-to-augmented-reality-with-unity
 doi: 10.46430/phen0053
 ---
 
@@ -45,19 +45,19 @@ In this introductory tutorial, you will learn how to:
 
 ## How can Humanists use Augmented Reality?
 
-Novel applications of AR continue to surface  within a variety of industries: [museums](https://www.youtube.com/watch?v=gx_UQxx54lo) are integrating AR content into their displays, [companies](https://www.gizmag.com/ikea-augmented-reality-catalog-app/28703/) are promoting AR apps in lieu of print or even web-based catalogs, and [engineering firms](https://www.youtube.com/watch?v=bXqe2zSepQ4) are creating AR applications showcasing their efforts to promote sustainability. [Predicted to grow](https://www.digi-capital.com/news/2015/04/augmentedvirtual-reality-to-hit-150-billion-disrupting-mobile-by-2020/#.VbetCU1VhHw) into a $120 billion industry within the next five years, augmented reality is an exciting new medium that humanists cannot afford to ignore. Indeed, many scholars within the growing field of digital humanities are beginning to explore how AR can be utilized as a viable medium of scholarly engagement within public spaces, objects, images, and texts.
+Novel applications of AR continue to surface  within a variety of industries: [museums](https://www.youtube.com/watch?v=gx_UQxx54lo) are integrating AR content into their displays, [companies](http://www.gizmag.com/ikea-augmented-reality-catalog-app/28703/) are promoting AR apps in lieu of print or even web-based catalogs, and [engineering firms](https://www.youtube.com/watch?v=bXqe2zSepQ4) are creating AR applications showcasing their efforts to promote sustainability. [Predicted to grow](http://www.digi-capital.com/news/2015/04/augmentedvirtual-reality-to-hit-150-billion-disrupting-mobile-by-2020/#.VbetCU1VhHw) into a $120 billion industry within the next five years, augmented reality is an exciting new medium that humanists cannot afford to ignore. Indeed, many scholars within the growing field of digital humanities are beginning to explore how AR can be utilized as a viable medium of scholarly engagement within public spaces, objects, images, and texts.
 
 {% include figure.html filename="new-ar-dev-1.png" caption="Augmented reality can be used to overlay digital information onto existing texts such as historical markers. This modified image is based on a photograph by Nicholas Henderson." %}
 
-Since at least 2010, [digital artists](https://manifestarblog.wordpress.com/about/) have been creating AR applications for social advocacy and cultural intervention. For example, Tamiko Thiel's AR project [Clouding Green](https://www.tamikothiel.com/AR/clouding-green.html) reveals the carbon footprint of specific technology companies. Projects such as Thiel's capitalize on AR's unique rhetorical affordance to provide compelling, site-specific interactions between physical and digital spaces.
+Since at least 2010, [digital artists](https://manifestarblog.wordpress.com/about/) have been creating AR applications for social advocacy and cultural intervention. For example, Tamiko Thiel's AR project [Clouding Green](http://www.tamikothiel.com/AR/clouding-green.html) reveals the carbon footprint of specific technology companies. Projects such as Thiel's capitalize on AR's unique rhetorical affordance to provide compelling, site-specific interactions between physical and digital spaces.
 
-At the [Trace Initiative](https://web.archive.org/web/20180421163517/https://english.ufl.edu/trace_arcs/), a digital humanities organization in the University of Florida English Department, we seek to build upon the work of these artists by promoting the creation and circulation of humanities-focused mobile AR applications. We released our first AR application [to the Google Play store](https://play.google.com/store/apps/details?id=com.Trace.Dollars&hl=en) in spring 2016.
+At the [Trace Initiative](http://web.archive.org/web/20180421163517/http://english.ufl.edu/trace_arcs/), a digital humanities organization in the University of Florida English Department, we seek to build upon the work of these artists by promoting the creation and circulation of humanities-focused mobile AR applications. We released our first AR application [to the Google Play store](https://play.google.com/store/apps/details?id=com.Trace.Dollars&hl=en) in spring 2016.
 
 The augmented reality software used in this tutorial relies on image-recognition technology, meaning that it requires some kind of visual trigger (a logo, painting, etc.) to know when to display digital content. In the example application depicted in the image above, the application is programmed to only display the digital image of John C. Calhoun if the camera "recognizes" the specific historical marker with which it is associated. For this lesson, we will augment the cover of a physical book with a digital overlay that displays a picture of the author. You could use the technical skills gained throughout this tutorial to create digital overlays for a variety of texts such as historical documents or signs. For example, you might create an application that allows readers to scan the pages of a book or document and access historical context or critique related to that specific page. Humanities scholars could also use this tutorial to create site-specific AR applications to educate visitors about cultural aspects of a location that have been excluded from its historical presentation.
 
 ## A Note About AR Creation Platforms
 
-Unity is a very powerful and complex application used to create desktop, console, and mobile games. It is not designed exclusively for augmented reality development.As a result, this lesson has many detailed, albeit necessary, steps for navigating and operating the Unity interface. Although some of the steps might not be directly related to augmented reality development, they are certainly transferrable to other tutorials on Programming Historian or elsewhere that utilize Unity. If you would prefer to gain some familiarity with the Unity Editor prior to completing this lesson, I would suggest consulting [Unity's UI Components tutorial](https://learn.unity.com/course/user-interface-ui/tutorial/ui-components) and the online [Unity manual](https://web.archive.org/web/20181204043602/https://docs.unity3d.com/Manual/LearningtheInterface.html).
+Unity is a very powerful and complex application used to create desktop, console, and mobile games. It is not designed exclusively for augmented reality development.As a result, this lesson has many detailed, albeit necessary, steps for navigating and operating the Unity interface. Although some of the steps might not be directly related to augmented reality development, they are certainly transferrable to other tutorials on Programming Historian or elsewhere that utilize Unity. If you would prefer to gain some familiarity with the Unity Editor prior to completing this lesson, I would suggest consulting [Unity's beginner tutorial videos](https://learn.unity.com/tutorial/live-sessions-on-unity-interface-and-essentials) and the online [Unity manual](http://docs.unity3d.com/Manual/LearningtheInterface.html).
 
 Within Unity, you can access additional functionality by importing "extensions." It is common to import extensions into Unity to gain access to additional functionality and/or pre-designed game components such as characters or game props. The extension used within this lesson is called "Vuforia," and it will provide the code necessary to create AR applications within the Unity game engine. I discuss how to download Unity and import the Vuforia extension in the section labelled "Software Requirements."
 
@@ -113,7 +113,7 @@ Next, you will need to import the augmented reality package you just downloaded 
 
 ### Java Development Kit
 
-Download and install the [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your operating system.
+Download and install the [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your operating system.
 
 {% include figure.html filename="ar-dev-1-9.png" caption="Download the .exe file for your operating system." %}
 
@@ -225,7 +225,7 @@ This cover of *Of Mice and Men* has sufficient visual complexity; however, it is
 
 {% include figure.html filename="ar-dev-11.png" caption="Photo courtesy of Mark Skwarek." %}
 
-If you are taking a picture of your book cover, make sure that there are no extraneous features present in the image. In the case of the *Of Mice and Men* image above, this would be anything beyond the edge of the cover. If your image contains such extraneous features, either take another picture or open it in a photo editor such as [Gimp](https://www.gimp.org/) and
+If you are taking a picture of your book cover, make sure that there are no extraneous features present in the image. In the case of the *Of Mice and Men* image above, this would be anything beyond the edge of the cover. If your image contains such extraneous features, either take another picture or open it in a photo editor such as [Gimp](http://www.gimp.org/) and
 crop out these features. [Consult this video tutorial](https://www.youtube.com/watch?v=2rGGpOTSpbc) for help on cropping and resizing images in Gimp. Make sure that your image file is under 2.5 mb and that it is a .jpg or .png file.
 
 {% include figure.html filename="ar-dev-12.png" caption="Crop out the area around the book." %}
@@ -304,7 +304,7 @@ To adjust your perspective in 3D space, hold the Alt button (Option on Mac) on y
 
 {% include figure.html filename="ar-dev-5.gif" caption="Position your author image on top of the book cover." %}
 
-Because Unity is optimized for 3D environments, it is sometimes difficult to work with 2D game objects such as images. If you are new to Unity, do not be alarmed if you cannot find your images or if you feel disoriented while manipulating them in your scene view. If you want to learn more about using Unity's transform tools, I would suggest checking out [this short video tutorial by Info Gamer](https://www.youtube.com/watch?v=2Ariq8vc5Vc) and reading up on [Transforms in the Unity Manual](https://web.archive.org/web/20171101025409/https://docs.unity3d.com/Manual/Transforms.html).
+Because Unity is optimized for 3D environments, it is sometimes difficult to work with 2D game objects such as images. If you are new to Unity, do not be alarmed if you cannot find your images or if you feel disoriented while manipulating them in your scene view. If you want to learn more about using Unity's transform tools, I would suggest checking out [this short video tutorial by Info Gamer](https://www.youtube.com/watch?v=2Ariq8vc5Vc) and reading up on [Transforms in the Unity Manual](http://docs.unity3d.com/Manual/Transforms.html).
 
 If you cannot find your author image in the scene view, try the following steps:
 
@@ -329,7 +329,7 @@ If your overlay does not appear, double check the "Database Load Behaviour" comp
 
 ### Android
 
-Before you can install your own applications on your Android device, you will need to [enable USB debugging](https://developer.android.com/tools/device.html). To do this, go to "Setting" > About Device" and tap the "Build number" seven times. Return to the previous screen and you should now see a "Developer Options" tab. Click it and make sure the option for "USB debugging" is checked.
+Before you can install your own applications on your Android device, you will need to [enable USB debugging](http://developer.android.com/tools/device.html). To do this, go to "Setting" > About Device" and tap the "Build number" seven times. Return to the previous screen and you should now see a "Developer Options" tab. Click it and make sure the option for "USB debugging" is checked.
 
 {% include figure.html filename="ar-dev-25.png" caption="Tap the 'Build Number' seven times." %}
 

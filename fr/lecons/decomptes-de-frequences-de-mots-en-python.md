@@ -362,7 +362,7 @@ Lutz, _Learning Python_
 
 Pilgrim, _Diving into Python_
 
--   Ch. 7: [Regular Expressions](https://web.archive.org/web/20180416143856/https://www.diveintopython.net/regular_expressions/index.html)
+-   Ch. 7: [Regular Expressions](https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html)
 
 ### Synchronisation du code
 

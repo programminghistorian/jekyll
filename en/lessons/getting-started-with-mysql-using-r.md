@@ -16,7 +16,7 @@ slug: getting-started-with-mysql-using-r
 activity: transforming
 topics: [data-manipulation, distant-reading, r, data-visualization]
 abstract: "This lesson will help you store large amounts of historical data in a structured manner, search and filter that data, and visualize some of the data as a graph."
-redirect_from: /lessons/getting-started-with-mysql-using-r/
+redirect_from: /lessons/getting-started-with-mysql-using-r
 avatar_alt: A hand holding a newspaper
 doi: 10.46430/phen0076
 ---
@@ -29,7 +29,7 @@ R can perform analysis and data storage without the use of a relational database
  - When data is stored in a relational database already.
  - Working with the data of different entities that are related to one another.  An example would be a database of soldiers of two different armies that fought a battle where we wanted to know what squad, platoon, company and brigade each soldier was part of.
 
-A further short discussion of this is on [Jason A. French's blog](https://www.jason-french.com/blog/2014/07/03/using-r-with-mysql-databases/)[^2].
+A further short discussion of this is on [Jason A. French's blog](http://www.jason-french.com/blog/2014/07/03/using-r-with-mysql-databases/)[^2].
 
 By the end of this lesson you will be able to install a database system on your computer, create a database table, store information in the table and then query the data. At the conclusion of the lesson we'll use a query of the database to make a graph.
 
@@ -48,13 +48,13 @@ MySQL is a relational database used to store and query information. This lesson 
  - Store records to the table.
  - Query the table.
 
-In this tutorial you will make a database of newspaper stories that contain words from a search of a newspaper archive. The program will store the title, date published and URL of each story in a database. We'll use another program to query the database and look for historically significant patterns. Sample data will be provided from the [Welsh Newspapers Online](https://newspapers.library.wales) newspaper archive. We are working toward having a list of stories we can query for information. At the end of the lesson, we will run a query to generate a graph of the number of newspaper stories in the database to see if there is a pattern that is significant.
+In this tutorial you will make a database of newspaper stories that contain words from a search of a newspaper archive. The program will store the title, date published and URL of each story in a database. We'll use another program to query the database and look for historically significant patterns. Sample data will be provided from the [Welsh Newspapers Online](http://newspapers.library.wales) newspaper archive. We are working toward having a list of stories we can query for information. At the end of the lesson, we will run a query to generate a graph of the number of newspaper stories in the database to see if there is a pattern that is significant.
 
 # Required Software
 R, R Studio, MySQL Server and MySQL Workbench are the pieces of software required for this lesson.  Notes on installing these software packages are below.
 
 ## R
-In their lesson [Basic Text Processing in R](/en/lessons/basic-text-processing-in-r)[^3], Taylor Arnold and Lauren Tilton provide an excellent summary of the knowledge of R required for this lesson.  Only basic knowledge of R is assumed. Taryn Dewar's lesson ['R Basics with Tabular Data']( /lessons/r-basics-with-tabular-data)[^4]
+In their lesson [Basic Text Processing in R](/lessons/basic-text-processing-in-r)[^3], Taylor Arnold and Lauren Tilton provide an excellent summary of the knowledge of R required for this lesson.  Only basic knowledge of R is assumed. Taryn Dewar's lesson ['R Basics with Tabular Data']( /lessons/r-basics-with-tabular-data)[^4]
 covers how to install R and become familiar with it.
 
 ### Download R
@@ -179,7 +179,7 @@ SET PASSWORD=PASSWORD('your_new_password_you_just_wrote_down_in_step_3.5');
 3.6. Restart the machine.  After restarting the machine you may need to repeat step *3.3 Start the MySQL server* above.
 
 ###### MySQL Workbench downloads
-Click on this link: [https://dev.mysql.com/downloads/workbench/](https://dev.mysql.com/downloads/workbench/). Scroll down and click to **Select Operating System** that matches your computer.  If necessary, **Select OS Version**.  Once you have done that click the blue **Download** button.  On the download page, scroll down, you have the option of starting the download by clicking **No thanks, just start my download.**
+Click on this link: [http://dev.mysql.com/downloads/workbench/](http://dev.mysql.com/downloads/workbench/). Scroll down and click to **Select Operating System** that matches your computer.  If necessary, **Select OS Version**.  Once you have done that click the blue **Download** button.  On the download page, scroll down, you have the option of starting the download by clicking **No thanks, just start my download.**
 
 Once the file is downloaded, double click on the downloaded file to install it. Once the installation of MySQL Workbench is done, as per the instructions on the screen, drag the icon to the Applications folder on the left. (See below)
 
@@ -408,7 +408,7 @@ You have successfully connected to the database using a configuration file.
 
 # Storing data in a table with SQL
 
-In this section of the lesson we'll create a SQL statement to insert a row of data into the database table about this [newspaper story](https://newspapers.library.wales/view/4121281/4121288/94/).  We'll insert the record first in MySQL workbench and later we'll do it in R.
+In this section of the lesson we'll create a SQL statement to insert a row of data into the database table about this [newspaper story](http://newspapers.library.wales/view/4121281/4121288/94/).  We'll insert the record first in MySQL workbench and later we'll do it in R.
 
 1. In MySQL Workbench, click the icon labelled SQL+ to create a new SQL tab for executing queries.
 2. Paste this statement below into the query window. This will insert a record into the table.
@@ -438,7 +438,7 @@ LEFT(RTRIM('http://newspapers.library.wales/view/4121281/4121288/94/'),99),
 | search_term_used)                                                           | "                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | VALUES('THE LOST LUSITANIA.',                                               | The value to be inserted into the story_title field                                                                                                                                                                                                                                                                                                                                                                                        |
 | '1915-05-21',                                                               | story_date_published field                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| LEFT(RTRIM('https://newspapers.library.wales/view/4121281/4121288/94/'),99), | story_url field.  This field is a VARCHAR(99) so it has a maximum length of 99 characters.  Inserting a URL longer than 99 characters would cause an error and so two functions are used to control for that.  RTRIM() trims trailing spaces to the right of the URL.  LEFT(value,99) returns only the leftmost 99 characters of the trimmed URL.  This URL is much shorter than that and so these functions are here for an example only. |
+| LEFT(RTRIM('http://newspapers.library.wales/view/4121281/4121288/94/'),99), | story_url field.  This field is a VARCHAR(99) so it has a maximum length of 99 characters.  Inserting a URL longer than 99 characters would cause an error and so two functions are used to control for that.  RTRIM() trims trailing spaces to the right of the URL.  LEFT(value,99) returns only the leftmost 99 characters of the trimmed URL.  This URL is much shorter than that and so these functions are here for an example only. |
 | 'German+Submarine');                                                        | search_term_used field                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 
@@ -837,10 +837,10 @@ Below is what the plot should look like:
 
 # Going further with MySQL
 
-If you wanted to put a database on a website, using MySQL as the database and the PHP language to build the pages of the site is one way to do this. An example of this type of website is one I built to [search issues of the Equity newspaper](https://www.jeffblackadar.ca/graham_fellowship/corpus_entities_equity/). Larry Ullman's book *PHP and MySQL for Dynamic Web Sites* covers how to set up and connect to a database using MySQL and PHP in a hacker resistant way.
+If you wanted to put a database on a website, using MySQL as the database and the PHP language to build the pages of the site is one way to do this. An example of this type of website is one I built to [search issues of the Equity newspaper](http://www.jeffblackadar.ca/graham_fellowship/corpus_entities_equity/). Larry Ullman's book *PHP and MySQL for Dynamic Web Sites* covers how to set up and connect to a database using MySQL and PHP in a hacker resistant way.
 
 For examples of using SQL to sort and group data as well as perform calculations, see:
-[MySQL by Examples for Beginners](https://web.archive.org/web/20171228130133/https://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html) or MySQL's [Examples of Common Queries](https://dev.mysql.com/doc/refman/5.7/en/examples.html).
+[MySQL by Examples for Beginners](http://web.archive.org/web/20171228130133/https://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html) or MySQL's [Examples of Common Queries](https://dev.mysql.com/doc/refman/5.7/en/examples.html).
 
 
 # Conclusion
@@ -850,7 +850,7 @@ I hope that you now have the knowledge to set up a database table, connect to it
 
 # Credits
 
-I completed this lesson thanks to the support of the [George Garth Graham Undergraduate Digital History Research Fellowship](https://grahamresearchfellow.org/).
+I completed this lesson thanks to the support of the [George Garth Graham Undergraduate Digital History Research Fellowship](http://grahamresearchfellow.org/).
 
 Thank you to Dr. Amanda Visconti for her guidance and support during the preparation of this lesson.
 
@@ -862,10 +862,10 @@ Ullman, L. 2005. *PHP and MySQL for Dynamic Web Sites, 2nd ed.* Berkeley, Calif:
 
 [^1]: Lincoln Mullen, "Natural Language Processing," RPubs, [https://rpubs.com/lmullen/nlp-chapter](https://rpubs.com/lmullen/nlp-chapter).
 
-[^2]: Jason A. French, "Using R With MySQL Databases," blog (3 July 2014), [https://www.jason-french.com/blog/2014/07/03/using-r-with-mysql-databases/](https://www.jason-french.com/blog/2014/07/03/using-r-with-mysql-databases/).
+[^2]: Jason A. French, "Using R With MySQL Databases," blog (3 July 2014), [http://www.jason-french.com/blog/2014/07/03/using-r-with-mysql-databases/](http://www.jason-french.com/blog/2014/07/03/using-r-with-mysql-databases/).
 
-[^3]: Taylor Arnold and Lauren Tilton, "Basic Text Processing in R," Programming Historian (27 March 2017), [/lessons/basic-text-processing-in-r](/en/lessons/basic-text-processing-in-r).
+[^3]: Taylor Arnold and Lauren Tilton, "Basic Text Processing in R," Programming Historian (27 March 2017), [/lessons/basic-text-processing-in-r](/lessons/basic-text-processing-in-r).
 
-[^4]: Taryn Dewar, "R Basics with Tabular Data," Programming Historian (05 September 2016), [/lessons/r-basics-with-tabular-data](/en/lessons/r-basics-with-tabular-data).
+[^4]: Taryn Dewar, "R Basics with Tabular Data," Programming Historian (05 September 2016), [/lessons/r-basics-with-tabular-data](/lessons/r-basics-with-tabular-data).
 
 The R program I used to gather the sample data is [here](https://github.com/jeffblackadar/getting-started-with-mysql/blob/master/newspaper-search-and-store.R).

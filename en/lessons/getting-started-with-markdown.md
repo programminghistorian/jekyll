@@ -16,7 +16,7 @@ topics: [data-management]
 abstract: "In this lesson, you will be introduced to Markdown, a plain text-based syntax for formatting documents. You will find out why it is used, how to format Markdown files, and how to preview Markdown-formatted documents on the web."
 exclude_from_check:
   - reviewers
-redirect_from: /lessons/getting-started-with-markdown/
+redirect_from: /lessons/getting-started-with-markdown
 avatar_alt: Ornate decorated characters from a typographical manual
 doi: 10.46430/phen0046
 ---
@@ -34,11 +34,11 @@ Since Programming Historian lessons are submitted as Markdown files, I have incl
 
 ## What is Markdown?
 
-Developed in 2004 by [John Gruber](https://daringfireball.net/projects/markdown/ "Markdown on Daring Fireball"), Markdown refers to both (1) a way of formatting text files, as well as (2) a Perl utility to convert Markdown files into HTML. In this lesson, we'll focus on the first part and learn to write files using the Markdown syntax.
+Developed in 2004 by [John Gruber](http://daringfireball.net/projects/markdown/ "Markdown on Daring Fireball"), Markdown refers to both (1) a way of formatting text files, as well as (2) a Perl utility to convert Markdown files into HTML. In this lesson, we'll focus on the first part and learn to write files using the Markdown syntax.
 
 Plain text files have many advantages over other formats. For one, they are readable on virtually all devices. They have also withstood the test of time better than other file types -- if you've ever tried to open a document saved in a legacy word processor format, you'll be familiar with the compatibility challenges involved.
 
-By following Markdown syntax, you'll be able to produce files that are both legible in plain text and ready to be styled on other platforms. Many blogging engines, static site generators, and sites like [GitHub](https://github.com "GitHub") also support Markdown, and will render these files into HTML for display on the web. Additionally, tools like Pandoc can convert files into and out of Markdown. For more on Pandoc, visit the lesson on [Sustainable authorship in plain text using Pandoc and Markdown](/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) by Dennis Tenen and Grant Wythoff.
+By following Markdown syntax, you'll be able to produce files that are both legible in plain text and ready to be styled on other platforms. Many blogging engines, static site generators, and sites like [GitHub](http://github.com "GitHub") also support Markdown, and will render these files into HTML for display on the web. Additionally, tools like Pandoc can convert files into and out of Markdown. For more on Pandoc, visit the lesson on [Sustainable authorship in plain text using Pandoc and Markdown](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) by Dennis Tenen and Grant Wythoff.
 
 ## Markdown Syntax
 Markdown files are saved with the extension `.md`, and can be opened in a text editor such as TextEdit, Notepad, Sublime Text, or Vim. Many websites and publishing platforms also offer web-based editors and/or extensions for entering text using Markdown syntax.
@@ -231,13 +231,13 @@ Reference-style links are handy for footnotes and may keep your plain text docum
 
 You may then add the URL to another part of the document:
 
-`[1]: https://programminghistorian.org/ "The Programming Historian"`
+`[1]: http://programminghistorian.org/ "The Programming Historian"`
 
 **This renders as:**
 
 One example is the [Programming Historian][1] website.
 
-[1]: https://programminghistorian.org/ "The Programming Historian"
+[1]: http://programminghistorian.org/ "The Programming Historian"
 
 
 ### Images
@@ -305,7 +305,7 @@ To specify the alignment of each column, colons `:` can be added to the header r
 
 
 ## Markdown Limitations
-While Markdown is becoming increasingly popular, particularly for styling documents that are viewable on the web, many people and publishers still expect traditional Word documents, PDFs, and other file formats. This can be mitigated somewhat with command line conversion tools such as [Pandoc](https://pandoc.org/); however, certain word processor features like track changes are not supported yet. Please visit the Programming Historian lesson on [Sustainable authorship in plain text using Pandoc and Markdown](/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) for more information about Pandoc.
+While Markdown is becoming increasingly popular, particularly for styling documents that are viewable on the web, many people and publishers still expect traditional Word documents, PDFs, and other file formats. This can be mitigated somewhat with command line conversion tools such as [Pandoc](https://pandoc.org/); however, certain word processor features like track changes are not supported yet. Please visit the Programming Historian lesson on [Sustainable authorship in plain text using Pandoc and Markdown](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) for more information about Pandoc.
 
 
 ## Conclusion

@@ -18,7 +18,7 @@ activity: analyzing
 topics: [distant-reading]
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/147
 abstract: "In this lesson you will learn to conduct 'stylometric analysis' on texts and determine authorship of disputed texts. The lesson covers three methods: Mendenhall's Characteristic Curves of Composition, Kilgariff's Chi-Squared Method, and John Burrows' Delta Method."
-redirect_from: /lessons/introduction-to-stylometry-with-python/
+redirect_from: /lessons/introduction-to-stylometry-with-python
 avatar_alt: A woman reading next to a painting
 doi: 10.46430/phen0078
 ---
@@ -53,7 +53,7 @@ Please note that the code in this lesson has been designed to run sequentially. 
 
 ## Prior Reading
 
-If you do not have experience with the Python programming language or are finding examples in this tutorial difficult, the author recommends you read the lessons on [Working with Text Files in Python](/en/lessons/working-with-text-files) and [Manipulating Strings in Python](/en/lessons/manipulating-strings-in-python). Please note, that those lessons were written in Python version 2 whereas this one uses Python version 3. The differences in [syntax](https://en.wikipedia.org/wiki/Syntax) between the two versions of the language can be subtle. If you are confused at any time, follow the examples as written in this lesson and use the other lessons as background material. (More precisely, the code in this tutorial was written using [Python 3.6.4](https://www.python.org/downloads/release/python-364/); the [f-string construct](https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals) in the line `with open(f'data/federalist_{filename}.txt', 'r') as f:`, for example, requires Python 3.6 or a more recent version of the language.)
+If you do not have experience with the Python programming language or are finding examples in this tutorial difficult, the author recommends you read the lessons on [Working with Text Files in Python](/lessons/working-with-text-files) and [Manipulating Strings in Python](/lessons/manipulating-strings-in-python). Please note, that those lessons were written in Python version 2 whereas this one uses Python version 3. The differences in [syntax](https://en.wikipedia.org/wiki/Syntax) between the two versions of the language can be subtle. If you are confused at any time, follow the examples as written in this lesson and use the other lessons as background material. (More precisely, the code in this tutorial was written using [Python 3.6.4](https://www.python.org/downloads/release/python-364/); the [f-string construct](https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals) in the line `with open(f'data/federalist_{filename}.txt', 'r') as f:`, for example, requires Python 3.6 or a more recent version of the language.)
 
 ## Required materials
 
@@ -61,7 +61,7 @@ This tutorial uses both datasets and software that you will have to download and
 
 ### The Dataset ###
 
-To work through this lesson, you will need to download and unzip the archive of the _Federalist Papers_ ([.zip](/assets/introduction-to-stylometry-with-python/stylometry-federalist.zip)) containing the 85 documents that we will use for our analysis. The archive also contains the [original Project Gutenberg ebook](https://www.gutenberg.org/cache/epub/1404/pg1404.txt) version of the _Federalist Papers_ from which these 85 documents have been extracted. When you unzip the archive, it will create a [directory](https://en.wikipedia.org/wiki/Directory_(computing)) called `data` in your current [working directory](https://en.wikipedia.org/wiki/Working_directory). Make sure that you stay in this current working directory and that you save all work here while completing the lesson.
+To work through this lesson, you will need to download and unzip the archive of the _Federalist Papers_ ([.zip](/assets/introduction-to-stylometry-with-python/stylometry-federalist.zip)) containing the 85 documents that we will use for our analysis. The archive also contains the [original Project Gutenberg ebook](http://www.gutenberg.org/cache/epub/1404/pg1404.txt) version of the _Federalist Papers_ from which these 85 documents have been extracted. When you unzip the archive, it will create a [directory](https://en.wikipedia.org/wiki/Directory_(computing)) called `data` in your current [working directory](https://en.wikipedia.org/wiki/Working_directory). Make sure that you stay in this current working directory and that you save all work here while completing the lesson.
 
 ### The Software ###
 
@@ -71,15 +71,15 @@ This lesson uses the following Python language versions and [libraries](https://
 * [nltk](https://www.nltk.org/) - Natural Language Toolkit, usually abbreviated `nltk`.
 * [matplotlib](https://matplotlib.org/)
 
-Some of these modules may not be pre-installed on your computer. Should you encounter error messages such as: "Module not found" or similar, you will have to download and install the missing module(s). This is easiest to accomplish using the `pip` command. Full details are available via the *Programming Historian* lesson on [Installing Python modules with pip](/en/lessons/installing-python-modules-pip).
+Some of these modules may not be pre-installed on your computer. Should you encounter error messages such as: "Module not found" or similar, you will have to download and install the missing module(s). This is easiest to accomplish using the `pip` command. Full details are available via the *Programming Historian* lesson on [Installing Python modules with pip](/lessons/installing-python-modules-pip).
 
 ## Some Notes about Language Independence
 
-This tutorial applies stylometric analysis to a set of English-language texts using a Python library called `nltk`. Much of the functionality provided by the `nltk` works with other languages. As long as a language provides a clear way to distinguish word boundaries within a word, `nltk` should perform well. Languages such as Chinese for which there is no clear distinction between word boundaries may be problematic. I have used `nltk` with French texts without any trouble; other languages that use [diacritics](https://en.wikipedia.org/wiki/Diacritic), such as Spanish and German, should also work well with `nltk`.  Please refer to [nltk's documentation](https://www.nltk.org/book/) for details.
+This tutorial applies stylometric analysis to a set of English-language texts using a Python library called `nltk`. Much of the functionality provided by the `nltk` works with other languages. As long as a language provides a clear way to distinguish word boundaries within a word, `nltk` should perform well. Languages such as Chinese for which there is no clear distinction between word boundaries may be problematic. I have used `nltk` with French texts without any trouble; other languages that use [diacritics](https://en.wikipedia.org/wiki/Diacritic), such as Spanish and German, should also work well with `nltk`.  Please refer to [nltk's documentation](http://www.nltk.org/book/) for details.
 
 Only one of the tasks in this tutorial requires language-dependent code. To divide a text into a set of French or Spanish words, you will need to specify the appropriate language as a parameter to `nltk`'s [tokenizer](https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization), which uses English as the default. This will be explained in the tutorial.
 
-Finally, note that some linguistic tasks, such as [part-of-speech tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging), may not be supported by `nltk` in languages other than English. This tutorial does not cover part-of-speech tagging. Should you need it for your own projects, please refer to the [nltk documentation](https://www.nltk.org/book/) for advice.
+Finally, note that some linguistic tasks, such as [part-of-speech tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging), may not be supported by `nltk` in languages other than English. This tutorial does not cover part-of-speech tagging. Should you need it for your own projects, please refer to the [nltk documentation](http://www.nltk.org/book/) for advice.
 
 # The *Federalist Papers* - Historical Context
 
@@ -146,7 +146,7 @@ papers = {
 
 Python dictionaries are very flexible. For example, we can access a value by *indexing* the dictionary with one of its keys, we can scan the entire dictionary by looping over its list of keys, etc. We will make ample use of this functionality as we move along.
 
-Next, as we are interested in each author's vocabulary, we will define a short Python [function](https://en.wikipedia.org/wiki/Subroutine) that creates a long listing of the words in each of the papers assigned to a single author. This will be stored as a [string](https://en.wikipedia.org/wiki/String_(computer_science)). Open your chosen Python development environment. If you do not know how to do this, you should read Setting up an Integrated Development Environment ([Mac](/en/lessons/mac-installation)), ([Linux](/en/lessons/linux-installation)), ([Windows](/en/lessons/windows-installation)) before continuing.
+Next, as we are interested in each author's vocabulary, we will define a short Python [function](https://en.wikipedia.org/wiki/Subroutine) that creates a long listing of the words in each of the papers assigned to a single author. This will be stored as a [string](https://en.wikipedia.org/wiki/String_(computer_science)). Open your chosen Python development environment. If you do not know how to do this, you should read Setting up an Integrated Development Environment ([Mac](/lessons/mac-installation)), ([Linux](/lessons/linux-installation)), ([Windows](/lessons/windows-installation)) before continuing.
 
 ```python
 # A function that compiles all of the text files associated with a single author into a single string
@@ -214,7 +214,7 @@ federalist_by_author_length_distributions[author] = nltk.FreqDist(token_lengths)
 federalist_by_author_length_distributions[author].plot(15,title=author)
 ```
 
-The '%matplotlib inline' declaration below 'import nltk' is required if your development environment is a [Jupyter Notebook](https://jupyter.org/), as it was for me while writing this tutorial; otherwise you may not see the graphs on your screen. If you work in [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html), please replace this clause with '%matplotlib ipympl'.
+The '%matplotlib inline' declaration below 'import nltk' is required if your development environment is a [Jupyter Notebook](http://jupyter.org/), as it was for me while writing this tutorial; otherwise you may not see the graphs on your screen. If you work in [Jupyter Lab](http://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html), please replace this clause with '%matplotlib ipympl'.
 
 The first line in the code snippet above loads the *Natural Language Toolkit module (nltk)*, which contains an enormous number of useful functions and resources for text processing. We will barely touch its basics in this lesson; if you decide to explore text analysis in Python further, I strongly recommend that you start with [nltk's documentation](https://www.nltk.org/).
 
@@ -332,7 +332,7 @@ However, chi-squared is still a coarse method. For one thing, words that appear 
 
 In some languages, it may be useful to apply parts-of-speech tagging to the word tokens before counting them, so that the same word used as two different parts of speech may count as two different features. For example, in French, very common words like "la" and "le" serve both as articles (in which case they would translate into English as "the") and as pronouns ("it"). This lesson does not use part-of-speech tagging because it is rarely useful for stylometric analysis in contemporary English and because `nltk`'s default tagger does not support other languages very well.
 
-Should you need to apply part-of-speech tagging to your own data, you may be able to download taggers for other languages, to work with a third-party tool like [Tree Tagger](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/), or even to train your own tagger, but these techniques are far beyond the scope of the current lesson.
+Should you need to apply part-of-speech tagging to your own data, you may be able to download taggers for other languages, to work with a third-party tool like [Tree Tagger](http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/), or even to train your own tagger, but these techniques are far beyond the scope of the current lesson.
 
 # Third Stylometric Test: John Burrows' Delta Method (Advanced)
 
@@ -622,7 +622,7 @@ Thanks to Stéfan Sinclair and Andrew Piper, in whose seminars at McGill Univers
 
 [^17]: Stefan Evert et al., "Understanding and explaining Delta measures for authorship attribution", _Digital Scholarship in the Humanities_, vol. 32, no. suppl_2 (2017), pp.  ii4-ii16.
 
-[^18]: José Calvo Tello, “Entendiendo Delta desde las Humanidades,” _Caracteres_, May 27 2016, https://revistacaracteres.net/revista/vol5n1mayo2016/entendiendo-delta/.
+[^18]: José Calvo Tello, “Entendiendo Delta desde las Humanidades,” _Caracteres_, May 27 2016, http://revistacaracteres.net/revista/vol5n1mayo2016/entendiendo-delta/.
 
 [^19]: Javier de la Rosa and Juan Luis Suárez, “The Life of Lazarillo de Tormes and of His Machine Learning Adversities,” _Lemir_, vol. 20 (2016), pp. 373-438.
 

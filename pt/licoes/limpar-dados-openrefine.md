@@ -41,7 +41,7 @@ Nota de Tradução: Alguns termos, por aparecerem constantemente e facilitarem a
 
 ## Objetivos da lição
 
-Não aceite os dados tal como são apresentados. Esta é a principal mensagem deste tutorial que se foca na forma como os usuários podem diagnosticar e agir perante a precisão dos dados. Nesta lição, o usuário vai aprender os princípios e a prática da limpeza de dados, ao mesmo tempo que aprende como é que o [*OpenRefine*](https://openrefine.org) (em inglês) pode ser utilizado para realizar quatro tarefas essenciais que vão ajudar na limpeza de dados:
+Não aceite os dados tal como são apresentados. Esta é a principal mensagem deste tutorial que se foca na forma como os usuários podem diagnosticar e agir perante a precisão dos dados. Nesta lição, o usuário vai aprender os princípios e a prática da limpeza de dados, ao mesmo tempo que aprende como é que o [*OpenRefine*](http://openrefine.org) (em inglês) pode ser utilizado para realizar quatro tarefas essenciais que vão ajudar na limpeza de dados:
 
 1.  Remover registos duplicados
 2.  Separar múltiplos valores contidos no mesmo campo 

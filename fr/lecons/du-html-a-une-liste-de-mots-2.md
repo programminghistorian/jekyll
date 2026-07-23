@@ -23,7 +23,7 @@ translation-reviewer:
 - Florian Barras
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/584
-previous: /fr/lecons/du-html-a-une-liste-de-mots-1
+previous: du-html-a-une-liste-de-mots-1
 series_total: 2 lessons
 sequence: 2
 activity: transforming

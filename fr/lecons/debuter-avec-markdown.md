@@ -42,11 +42,11 @@ Cette leçon  sert d’initiation à Markdown, qui est une syntaxe en texte brut
 Puisque les tutoriels de ce site sont soumis sous forme de fichiers Markdown, je mobilise des exemples maison chaque fois que cela est possible. J'espère que ce guide vous sera particulièrement utile si vous envisagez de rédiger un tutoriel en tant qu'auteur(e) pour le *Programming Historian*, même s'il reste d'une portée plus générale.
 
 ## Qu'est-ce que le Markdown?
-Développé en 2004 par [John Gruber](https://daringfireball.net/projects/markdown/ "Markdown on Daring Fireball"), Markdown est à la fois un langage de balisage de fichiers textes et une fonctionnalité du langage [Perl](https://fr.wikipedia.org/wiki/Perl_(langage)) permettant de convertir des fichiers Markdown en HTML. Notre leçon traite davantage du premier aspect, puisque nous apprendrons à utiliser la syntaxe Markdown pour préparer des fichiers.
+Développé en 2004 par [John Gruber](http://daringfireball.net/projects/markdown/ "Markdown on Daring Fireball"), Markdown est à la fois un langage de balisage de fichiers textes et une fonctionnalité du langage [Perl](https://fr.wikipedia.org/wiki/Perl_(langage)) permettant de convertir des fichiers Markdown en HTML. Notre leçon traite davantage du premier aspect, puisque nous apprendrons à utiliser la syntaxe Markdown pour préparer des fichiers.
 
 Les fichiers texte brut présentent plusieurs avantages comparés aux autres formats. Non seulement ils sont compatibles avec tout type d'appareil et de système d'exploitation, mais ils s'avèrent aussi plus pérennes. Si jamais vous avez tenté d'ouvrir un document sauvegardé dans une version antérieure d'un logiciel de traitement de texte, vous pouvez comprendre facilement les problèmes de compatibilité qui sont en jeu.
 
-L'utilisation de la syntaxe Markdown vous permettra de produire des fichiers à la fois lisibles en texte brut et prêts à recevoir davantage de traitement sur une autre plateforme. Plusieurs systèmes de gestion de blogs, des générateurs de sites web statiques ou encore des plateformes comme [GitHub](https://github.com "GitHub") prennent en charge des fichiers Markdown pour les convertir en [HTML](https://fr.wikipedia.org/wiki/Hypertext_Markup_Language) et les publier sur le web. De plus, des outils comme Pandoc peuvent convertir des fichiers depuis et vers Markdown. Pour apprendre plus sur Pandoc, vous pouvez faire un tour sur [cette leçon](/fr/lecons/redaction-durable-avec-pandoc-et-markdown) de Dennis Tenen et Grant Wythoff.
+L'utilisation de la syntaxe Markdown vous permettra de produire des fichiers à la fois lisibles en texte brut et prêts à recevoir davantage de traitement sur une autre plateforme. Plusieurs systèmes de gestion de blogs, des générateurs de sites web statiques ou encore des plateformes comme [GitHub](http://github.com "GitHub") prennent en charge des fichiers Markdown pour les convertir en [HTML](https://fr.wikipedia.org/wiki/Hypertext_Markup_Language) et les publier sur le web. De plus, des outils comme Pandoc peuvent convertir des fichiers depuis et vers Markdown. Pour apprendre plus sur Pandoc, vous pouvez faire un tour sur [cette leçon](/fr/lecons/redaction-durable-avec-pandoc-et-markdown) de Dennis Tenen et Grant Wythoff.
 
 ## La syntaxe Markdown
 Les fichiers Markdown portent l'extension `.md`. Il est possible de les ouvrir avec un éditeur de texte comme TextEdit, Notepad++, Sublime Text ou Vim. Plusieurs sites web et des plateformes de publication proposent des éditeurs de texte en ligne et/ou des extensions pour insérer du texte avec la syntaxe Markdown.
@@ -239,13 +239,13 @@ Les liens de références sont très pratiques pour créer des notes de bas de p
 
 Puis vous pouvez ajouter l'URL dans une autre partie du document:
 
-`[1]: https://programminghistorian.org/ "The Programming Historian"`
+`[1]: http://programminghistorian.org/ "The Programming Historian"`
 
 **Ceci s'affiche comme suit:**
 
 Le site web du [Programming Historian][1] fournit un exemple.
 
-[1]: https://programminghistorian.org/ "The Programming Historian"
+[1]: http://programminghistorian.org/ "The Programming Historian"
 
 
 ### Images
@@ -312,7 +312,7 @@ Pour régler l'alignement de chaque colonne, les deux points `:` peuvent être a
 
 
 ## Les limites de Markdown
-Même si Markdown devient de plus en plus populaire, notamment pour formatter des documents exposés sur le web, beaucoup de gens et d'éditeurs sollicitent des documents traditionnels en Word, PDF et d'autres formats de fichiers. Certains outils de conversion exécutables en ligne de commande, comme [Pandoc](https://pandoc.org/), offrent une solution, sans toutefois offrir toutes les fonctionnalités des logiciels de traitement de texte, notamment le versionnage. Pour en savoir plus sur Pandoc, merci de consulter la leçon du *Programming Historian* intitulée ["Sustainable authorship in plain text using Pandoc and Markdown"](/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) (en anglais).
+Même si Markdown devient de plus en plus populaire, notamment pour formatter des documents exposés sur le web, beaucoup de gens et d'éditeurs sollicitent des documents traditionnels en Word, PDF et d'autres formats de fichiers. Certains outils de conversion exécutables en ligne de commande, comme [Pandoc](https://pandoc.org/), offrent une solution, sans toutefois offrir toutes les fonctionnalités des logiciels de traitement de texte, notamment le versionnage. Pour en savoir plus sur Pandoc, merci de consulter la leçon du *Programming Historian* intitulée ["Sustainable authorship in plain text using Pandoc and Markdown"](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) (en anglais).
 
 
 ## Conclusion

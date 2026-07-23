@@ -417,7 +417,7 @@ nothing to commit, working tree clean
 
 #### Status de um ficheiro
 
-Agora que já sabemos como adicionar um ficheiro ao repositório Git e como submeter alterações acompanhadas de mensagens, vamos detalhar e analisar os diferentes status de um ficheiro no Git. Para isso vamos criar um ficheiro novo chamado `resumo.txt` e salvá-lo no diretório `projeto-de-pesquisa`. Repetiremos o mesmo método utilizado para criar o ficheiro `README.md`, com o comando `echo` (veja o tópico [Comandos Básicos](#comandos-básicos)). No entanto, pode criar este ficheiro utilizando qualquer outro método.
+Agora que já sabemos como adicionar um ficheiro ao repositório Git e como submeter alterações acompanhadas de mensagens, vamos detalhar e analisar os diferentes status de um ficheiro no Git. Para isso vamos criar um ficheiro novo chamado `resumo.txt` e salvá-lo no diretório `projeto-de-pesquisa`. Repetiremos o mesmo método utilizado para criar o ficheiro `README.md`, com o comando `echo` (veja o tópico [Comandos Básicos](#comandos-basicos)). No entanto, pode criar este ficheiro utilizando qualquer outro método.
 
 ```bash
 ~/Documentos/projeto-de-pesquisa$ echo "Resumo" >> resumo.txt
