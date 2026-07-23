@@ -334,7 +334,7 @@ Now that the comment data is reduced to the essentials, you can transform the da
 
 ## Modeling
 
-An increasingly wide range of text mining and machine learning algorithms are available for scholars looking to create models and visualizations of big data. Many of these algorithms are described in other _Programming Historian_ lessons, for example, [word frequency analysis](/en/lessons/counting-frequencies) and [topic modeling](/en/lessons/topic-modeling-and-mallet). As noted above, the text mining algorithm central to this lesson is called Wordfish. For information on the machine learning algorithm itself and to explore Wordfish's base code, visit [the Wordfish website](http://www.Wordfish.org/software.html) and [the Wordfish Github repository](http://www.wordfish.org/).
+An increasingly wide range of text mining and machine learning algorithms are available for scholars looking to create models and visualizations of big data. Many of these algorithms are described in other _Programming Historian_ lessons, for example, [word frequency analysis](/en/lessons/counting-frequencies) and [topic modeling](/en/lessons/topic-modeling-and-mallet). As noted above, the text mining algorithm central to this lesson is called Wordfish. For information on the machine learning algorithm itself and to explore Wordfish's base code, visit [the Wordfish website](https://www.Wordfish.org/software.html) and [the Wordfish Github repository](https://www.wordfish.org/).
 
 Developed by and for political scientists, Wordfish was originally created as a method for extracting the ideological leaning of documents expected to contain latent political perspectives (such as party manifestos or politician speeches). For example, Wordfish can be a useful tool for identifying whether United States representatives' speeches were made by [Democrats](https://perma.cc/G7U3-X2FB) or [Republicans](https://perma.cc/5WKD-YKY9), as well as for measuring the extremity of the ideological leaning conveyed in those speeches.
 
@@ -364,7 +364,7 @@ The key difference between Wordfish scaling and topic modeling, however, are the
 
 ### Creating a Corpus in R
 
-The [Wordfish](http://www.wordfish.org/) algorithm was initially distributed as a stand-alone R package (still available on the [Wordfish website](http://www.Wordfish.org/software.html)), but it is now also available in the [`quanteda` package](https://perma.cc/WYV4-Y884). The `quanteda` Wordfish package has certain advantages, including that it enables seamless wrangling of YouTube comment data into a useful format [to build the Wordfish model](https://perma.cc/7736-5QHV). Visit the [docs and tutorials](https://quanteda.org/quanteda/) on the `quanteda` website for more background.
+The [Wordfish](https://www.wordfish.org/) algorithm was initially distributed as a stand-alone R package (still available on the [Wordfish website](https://www.Wordfish.org/software.html)), but it is now also available in the [`quanteda` package](https://perma.cc/WYV4-Y884). The `quanteda` Wordfish package has certain advantages, including that it enables seamless wrangling of YouTube comment data into a useful format [to build the Wordfish model](https://perma.cc/7736-5QHV). Visit the [docs and tutorials](https://quanteda.org/quanteda/) on the `quanteda` website for more background.
 
 To run the Wordfish model in `quanteda`, you must create three types of text data objects: a corpus, tokens, and a DFM. For more detail on how these objects work together, refer to `quanteda`'s [quick start page](https://perma.cc/QR2C-RCUH).
 

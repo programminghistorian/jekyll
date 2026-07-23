@@ -429,7 +429,7 @@ Let's take a step back and reflect on what we've learned. At this point, we have
 
 If there is one thing that I hope you will take away from this tutorial, it is the idea that adding temporal data to nodes and edges transforms a general social science tool into a powerful method for historical argument. Comparing network structures and metrics from one timeslice to another gives them historical significance that can be difficult, if not impossible, to discern in conventional static social network analysis.
 
-This tutorial introduced only a few of the many tools and techniques made possible by temporal network analysis. One especially exciting area of this field is in dynamic simulations that model the transmission of something, for example a disease or an idea, among individuals within a given temporal network. If that sounds interesting, take a look at the [EpiModel](http://www.epimodel.org/) package or other tools created by epidemiologists to model diffusion within dynamic networks.
+This tutorial introduced only a few of the many tools and techniques made possible by temporal network analysis. One especially exciting area of this field is in dynamic simulations that model the transmission of something, for example a disease or an idea, among individuals within a given temporal network. If that sounds interesting, take a look at the [EpiModel](https://www.epimodel.org/) package or other tools created by epidemiologists to model diffusion within dynamic networks.
 
 Depending on the historical data that you're working with, temporal network analysis may offer important insights into how the properties of nodes, edges, and the overall network change over time. Whether or not you decide to make the leap to temporal network analysis, it is helpful to remember that networks of all kinds are complex historical phenomena that emerge, develop, transform beyond recognition, and disappear over the course of time.
 
@@ -443,7 +443,7 @@ Maybe you made it through this tutorial but you are still more comfortable with 
 
 - Ken Cherven has a good overview of Dynamic Network Analysis with Gephi in his book _Mastering Gephi Network Visualization_ (2015)
 
-If you are hungry for more temporal network analysis with R, [this tutorial](https://web.archive.org/web/20180423112846/http://statnet.csde.washington.edu/workshops/SUNBELT/current/ndtv/ndtv_workshop.html) by Skye Bender-deMoll explains additional functions and features of the packages used here. It served as my own guide to learning about temporal network analysis and formed the inspiration for the tutorial above.
+If you are hungry for more temporal network analysis with R, [this tutorial](https://web.archive.org/web/20180423112846/https://statnet.csde.washington.edu/workshops/SUNBELT/current/ndtv/ndtv_workshop.html) by Skye Bender-deMoll explains additional functions and features of the packages used here. It served as my own guide to learning about temporal network analysis and formed the inspiration for the tutorial above.
 
 You can also dive deeper into the documentation to learn more about the [networkDynamic package](https://cran.r-project.org/web/packages/networkDynamic/index.html), the [TSNA package](https://cran.r-project.org/web/packages/tsna/index.html), and the [NDTV package](https://cran.r-project.org/web/packages/networkDynamic/index.html).
 

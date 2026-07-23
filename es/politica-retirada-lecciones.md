@@ -29,11 +29,11 @@ Con independencia de que se cree o no un nuevo derivado, si el tutorial ya ha si
 
 ## Más sobre sostenibilidad
 
-[Guía para autores y traductores - Escribe de manera sostenible](/es/guia-para-autores#escribe-de-manera-sostenible)
+[Guía para autores y traductores - Escribe de manera sostenible](/es/guia-para-autores#escritura-sostenible)
 
 [Guía para revisores - Sostenibilidad](/es/guia-para-revisores#sostenibilidad)
 
-[Guía para editores - Revisar la sostenibilidad](/es/guia-editor#c-revisar-la-sostenibilidad)
+[Guía para editores - Revisar la sostenibilidad](/es/guia-editor#c-revisar-la-sostenibilidad-e-internacionalización)
 
 ## Lecciones retiradas
 

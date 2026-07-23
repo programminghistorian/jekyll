@@ -32,15 +32,15 @@ doi: 10.46430/phes0022
 
 
 
-[Omeka.net](http://www.omeka.net) facilita la creación de sitios web para mostrar colecciones de ítems.
-> *Nota de la traductora*: Antes de empezar es importante aclarar las diferencias entre **Omeka.net** y **Omeka.org**. Este tutorial es sobre **Omeka.net**, una plataforma de publicación en línea que permite a cualquier persona con una cuenta de acceso crear o colaborar en un sitio web para exhibir colecciones y construir exposiciones digitales. **Omeka.net** es una extensión de **Omeka.org** que está disponible para bajar e instalar en un servidor de tu propiedad. La traducción al español del tutorial de *The Programming Historian* sobre [cómo instalar Omeka](/lessons/installing-omeka) en un servidor se encuentra en proceso.
+[Omeka.net](https://www.omeka.net) facilita la creación de sitios web para mostrar colecciones de ítems.
+> *Nota de la traductora*: Antes de empezar es importante aclarar las diferencias entre **Omeka.net** y **Omeka.org**. Este tutorial es sobre **Omeka.net**, una plataforma de publicación en línea que permite a cualquier persona con una cuenta de acceso crear o colaborar en un sitio web para exhibir colecciones y construir exposiciones digitales. **Omeka.net** es una extensión de **Omeka.org** que está disponible para bajar e instalar en un servidor de tu propiedad. La traducción al español del tutorial de *The Programming Historian* sobre [cómo instalar Omeka](/en/lessons/installing-omeka) en un servidor se encuentra en proceso.
 al
 Regístrate para abrir una cuenta en Omeka
 ----------------------------
 
 {% include figure.html filename="up-and-running-01.png" caption="Regístrate para una cuenta de prueba" %}
 
-Entra a [www.omeka.net](http://www.omeka.net) y haz clic en **Sign Up**. Elige el plan "Omeka trial" (Plan de prueba). Rellena el formulario de registro. Revisa tu correo electrónico y haz clic en el enlace para activar tu cuenta.
+Entra a [www.omeka.net](https://www.omeka.net) y haz clic en **Sign Up**. Elige el plan "Omeka trial" (Plan de prueba). Rellena el formulario de registro. Revisa tu correo electrónico y haz clic en el enlace para activar tu cuenta.
 
 Crea tu nuevo sitio en Omeka
 --------------------------
@@ -62,7 +62,7 @@ Un sitio vacío de Omeka
 -------------------
 
 {% include figure.html filename="up-and-running-04.png" caption="Vista pública" %}
-Este es tu sitio vacío de Omeka esperando a ser llenado. Para regresar a tu panel de control (*dashboard*) haz clic en el botón **Back** (Atrás) o escribe  **http://www.omeka.net/dashboard**. Esta vez haz clic en **Manage Site** (Administra el sitio).
+Este es tu sitio vacío de Omeka esperando a ser llenado. Para regresar a tu panel de control (*dashboard*) haz clic en el botón **Back** (Atrás) o escribe  **https://www.omeka.net/dashboard**. Esta vez haz clic en **Manage Site** (Administra el sitio).
 
 Cambia de plantilla
 -------------
@@ -183,5 +183,5 @@ Ahora que has añadido algunos ítems y los has agrupado en una colección, tóm
 
 Recursos adicionales
 -----------------------------
-El equipo de Omeka ha compilado un conjunto de muy buenos recursos en las [páginas de ayuda](http://info.omeka.net) del software.
+El equipo de Omeka ha compilado un conjunto de muy buenos recursos en las [páginas de ayuda](https://info.omeka.net) del software.
 [Este manual en español](https://www.rubenalcaraz.es/manual-omeka/) contiene información útil para evaluar las ventajas y desventajas de usar **Omeka.net** u **Omeka.org**, al igual que instrucciones generales sobre cómo instalar Omeka en tu servidor.

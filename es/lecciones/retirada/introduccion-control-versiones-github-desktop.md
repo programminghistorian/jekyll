@@ -25,8 +25,8 @@ abstract: "En esta lección aprenderás lo básico del control de versiones, com
 original: getting-started-with-github-desktop
 avatar_alt: Grabado de una pareja en un escritorio observando a un gato a la luz de una vela
 redirect_from:
-  - /es/lessons/getting-started-with-github-desktop
-  - /es/lecciones/introduccion-control-versiones-github-desktop
+  - /es/lessons/getting-started-with-github-desktop/
+  - /es/lecciones/introduccion-control-versiones-github-desktop/
 retired: true
 retirement-reason: |
   Esta lección utiliza una versión obsoleta de GitHub Desktop que ya no cuenta con el respaldo de GitHub. La última versión y la documentación pueden encontrarse en <https://desktop.github.com/>.
@@ -142,7 +142,7 @@ Esta lección no cubre la sintaxis Markdown por razones de espacio, pero es úti
 
 ### Editores de texto
 
-Para escribir un documento de texto plano necesitamos un editor. Hay muchos editores disponibles, algunos gratuitos, otros de pago. Algunos son fáciles de usar mientras que otros tienen una curva de aprendizaje y un potencial que sobrepasa las funciones de un editor de texto. A largo plazo, un editor avanzado como Vim o Emacs puede ahorrarte tiempo pero de momento puedes empezar con un editor más simple. Por ejemplo, [Atom](https://atom.io/) es un buen editor desarrollado por GitHub que destaca la sintaxis Markdown y, además, se integra con la plataforma GitHub. Es gratuito y su código es abierto; además, incluye un [manual](http://flight-manual.atom.io/) de instrucciones muy exhaustivo.
+Para escribir un documento de texto plano necesitamos un editor. Hay muchos editores disponibles, algunos gratuitos, otros de pago. Algunos son fáciles de usar mientras que otros tienen una curva de aprendizaje y un potencial que sobrepasa las funciones de un editor de texto. A largo plazo, un editor avanzado como Vim o Emacs puede ahorrarte tiempo pero de momento puedes empezar con un editor más simple. Por ejemplo, [Atom](https://atom.io/) es un buen editor desarrollado por GitHub que destaca la sintaxis Markdown y, además, se integra con la plataforma GitHub. Es gratuito y su código es abierto; además, incluye un [manual](https://flight-manual.atom.io/) de instrucciones muy exhaustivo.
 
 Si no quieres instalar un programa nuevo, puedes utilizar uno de los editores que incluidos en tu ordenador como TextEdit para Mac. Si decides continuar aprendiendo Markdown en el futuro, te recomendamos utilizar un editor de texto que destaque la sintaxis Markdown, entre otras funcionalidades.
 
@@ -202,7 +202,7 @@ Aunque hay diferencias entre el control de versiones de código y de textos, las
 
 Es importante que tus anotaciones y los mensajes asociados que las describen tengan sentido y sean específicos. Escribir buenas descripciones de las anotaciones requiere reflexión. A veces, los mensajes que para ti son claros en el momento de la anotación se vuelven difíciles de comprender en el futuro. Si vas a utilizar el control de versiones con otras personas es importante que tus colaboradores puedan entenderte. El control de versiones para gestionar cambios en documentos funciona mejor cuando nos esforzamos un poco en pensar cómo utilizamos el programa. Por tanto, cuando se lleva a cabo un trabajo colaborativo es importante aclarar estas cuestiones y compartir una misma visión para usar el control de cambios de manera efectiva.
 
-Una manera de enfrentarse a este problema es intentar seguir un 'estilo de anotaciones'. Por ejemplo, te recomendamos seguir la influyente [sugerencia de Tim Pope](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) cuando realices anotaciones. La sugerencia de Tim Pope [tiene en cuenta](https://github.com/blog/926-shiny-new-commit-styles), parcialmente, la interfaz de GitHub Desktop para anotar cambios y describirlos pero entender el formato te ayudará a poner en práctica su estrategia. El siguiente mensaje es una adaptación de la propuesta de Tim Pope, que se centra en la anotación de texto (en lugar de código):
+Una manera de enfrentarse a este problema es intentar seguir un 'estilo de anotaciones'. Por ejemplo, te recomendamos seguir la influyente [sugerencia de Tim Pope](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) cuando realices anotaciones. La sugerencia de Tim Pope [tiene en cuenta](https://github.com/blog/926-shiny-new-commit-styles), parcialmente, la interfaz de GitHub Desktop para anotar cambios y describirlos pero entender el formato te ayudará a poner en práctica su estrategia. El siguiente mensaje es una adaptación de la propuesta de Tim Pope, que se centra en la anotación de texto (en lugar de código):
 
 ```
 Breve resumen (50 o menos caracteres) con mayúscula inicial.
@@ -319,7 +319,7 @@ Esta forma de resolver conflictos puede parecer más compleja de lo que es, pero
 
 Hasta el momento hemos puesto en marcha un control de versiones con un documento muy básico. Si aprendes más acerca de Markdown y la escritura en texto plano, podrás usar el control de versiones de muchas maneras y te será muy útil para llevar a cabo tu investigación. Controlar las versiones de un documento Markdown te permitirá profundizar en esta sintaxis; para ello, te recomendamos consultar la lección [Escritura sostenible en texto plano usando Pandoc y Markdown](/es/lecciones/escritura-sostenible-usando-pandoc-y-markdown) escrita por Dennis Tenen y Grant Wythoff; esta lección te ayudará a entender cómo puedes usar el texto plano para escribir con Pandoc y Markdown. Pandoc es muy útil para convertir tus archivos de texto plano escritos en Markdown a otros formatos como HTML, PDF o Word. Si combinas Markdown, Pandoc y el control de versiones, podrás implementar un sistema muy potente y sostenible para escribir tus artículos y trabajos académicos.
 
-Asimismo, el flujo de trabajo presentado en esta lección también puede convertirse en el fundamento para crear webs estáticas alojadas en GitHub. Una vez te sientas cómodo usando GitHub Desktop, puedes seguir con la lección escrita por Amanda Visconti, [Construcción de sitios estáticos usando Jekyll GitHub Pages](/lessons/building-static-sites-with-jekyll-github-pages).
+Asimismo, el flujo de trabajo presentado en esta lección también puede convertirse en el fundamento para crear webs estáticas alojadas en GitHub. Una vez te sientas cómodo usando GitHub Desktop, puedes seguir con la lección escrita por Amanda Visconti, [Construcción de sitios estáticos usando Jekyll GitHub Pages](/en/lessons/building-static-sites-with-jekyll-github-pages).
 
 ## Más recursos
 
@@ -331,6 +331,6 @@ GitHub Desktop es una forma sencilla de aprender a controlar versiones con GitHu
 * [Atlassian](https://www.atlassian.com/git/tutorials): contiene tutoriales más avanzados (pero fáciles de entender) de Git. Ponen el acento en las diferencias entre Git y otros controles de versiones; esto puede no ser relevante para ti pero te ayudará a comprender el funcionamiento de Git de manera más detallada.
 * [Pro Git](https://git-scm.com/book/en/v2): un libro exclusivamente sobre Git. Empieza con el funcionamiento básico y luego pasa a tratar asuntos más avanzados de Git.
 * Para [estudiantes](https://education.github.com/pack) e [investigadores](https://github.com/blog/1840-improving-github-for-science) GitHub ofrece repositorios privados sin pagar por una suscripción. Estos repositorios pueden ser útiles para borradores o notas que no queremos publicar. Nota: no es muy aconsejable guardar contenido delicado incluso en un repositorio privado en GitHub.
-* [ProfHacker](https://web.archive.org/web/20170716182645/http://www.chronicle.com/blogs/profhacker/tag/github) tiene varias entradas sobre proyectos que utilizan GitHub en el contexto académico.
-* [GitHub, Academia, and Collaborative Writing](https://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing) reflexioina sobre el uso de GitHub para la escritura colaborativa.
-* La lección [Introducción a Bash](/lessons/intro-to-bash) te permitirá aprender más sobre la línea de comandos, muy útil para utilizar GitHub.
+* [ProfHacker](https://web.archive.org/web/20170716182645/https://www.chronicle.com/blogs/profhacker/tag/github) tiene varias entradas sobre proyectos que utilizan GitHub en el contexto académico.
+* [GitHub, Academia, and Collaborative Writing](https://web.archive.org/web/20131215095438/https://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing) reflexioina sobre el uso de GitHub para la escritura colaborativa.
+* La lección [Introducción a Bash](/en/lessons/intro-to-bash) te permitirá aprender más sobre la línea de comandos, muy útil para utilizar GitHub.

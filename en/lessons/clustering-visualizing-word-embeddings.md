@@ -19,7 +19,7 @@ topics: [machine-learning, network-analysis, python, data-visualization]
 abstract: This lesson uses word embeddings and clustering algorithms in Python to identify groups of similar documents in a corpus of approximately 9,000 academic abstracts. It will teach you the basics of dimensionality reduction for extracting structure from a large corpus and how to evaluate your results.
 avatar_alt: Drawing of a star-cluster
 lesson-partners: [Jisc, The National Archives]
-partnership-url: /jisc-tna-partnership
+partnership-url: /en/jisc-tna-partnership
 mathjax: true
 doi: 10.46430/phen0111
 ---

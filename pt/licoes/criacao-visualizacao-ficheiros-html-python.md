@@ -46,13 +46,13 @@ Caso não possua esses ficheiros da lição anterior, pode fazer o *download* do
 
 Até aqui, aprendemos como usar o Python para fazer o *download* de fontes *online* e extrair informação delas de forma automática. Lembre-se de que o nosso objetivo final é incorporar perfeitamente a programação em nossa prática de investigação. Em linha com este objetivo, nesta lição e na próxima aprenderemos como apresentar dados de volta à forma de HTML. Isso possui algumas vantagens. Primeiro, ao armazenar a informação no nosso disco rígido como um ficheiro HTML, podemos abri-lo com o Firefox e usar o [Zotero](https://www.zotero.org/), por exemplo, para indexar e fazer anotações posteriormente. Segundo, há uma ampla gama de opções de visualização para HTML que podemos usar mais tarde.
 
-Caso ainda não tenha feito o [tutorial de HTML do W3 Schools](http://www.w3schools.com/html/default.asp), reserve alguns minutos para fazê-lo antes de continuar. Criaremos um documento HTML usando Python, então será saber o que é um documento HTML!
+Caso ainda não tenha feito o [tutorial de HTML do W3 Schools](https://www.w3schools.com/html/default.asp), reserve alguns minutos para fazê-lo antes de continuar. Criaremos um documento HTML usando Python, então será saber o que é um documento HTML!
 
 ## "Olá mundo" em HTML usando Python
 
 Uma das ideias mais poderosas na ciência da computação é que um ficheiro que parece conter código sob uma perspectiva pode ser visto como dados sob outra. É possível, em outras palavras, escrever programas que manipulam outros programas. O que faremos a seguir é criar um ficheiro HTML que diz "Olá mundo!" usando Python. Faremos isso armazenando *tags* HTML em uma string multilinha de Python e guardando os conteúdos em um novo ficheiro. Esse ficheiro será armazenado com uma extensão `.html` ao invés de uma extensão `.txt`.
 
-Tipicamente um ficheiro HTML começa com uma [declaração do tipo de documento](http://www.w3schools.com/tags/tag_doctype.asp). Vimos isso ao escrever um programa HTML "Olá mundo!" em uma lição anterior. Para facilitar a leitura do nosso código, omitiremos o `doctype` neste exemplo. Lembre-se de que uma string multilinha é criada colocando o texto entre três aspas (veja abaixo):
+Tipicamente um ficheiro HTML começa com uma [declaração do tipo de documento](https://www.w3schools.com/tags/tag_doctype.asp). Vimos isso ao escrever um programa HTML "Olá mundo!" em uma lição anterior. Para facilitar a leitura do nosso código, omitiremos o `doctype` neste exemplo. Lembre-se de que uma string multilinha é criada colocando o texto entre três aspas (veja abaixo):
 
 ``` python
 # write-html.py

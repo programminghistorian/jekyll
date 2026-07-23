@@ -132,13 +132,13 @@ Une fois vos données nettoyées, vous pouvez passer à l'étape suivante et exp
 Si vous devez vous souvenir d'une seule chose de ce cours, ce doit être celle-ci : *toutes les données sont sales, mais vous pouvez y faire quelque chose*. Comme nous l'avons montré ici, il y a déjà beaucoup de choses que vous pouvez faire par vous-mêmes pour améliorer la qualité de vos données.
 Vous avez ainsi appris comment avoir un rapide aperçu du nombre de valeurs vides que contient votre jeu de données et à quelle fréquence une valeur particulière (par exemple un mot-clé) est utilisée dans une collection. Ces cours vous ont également montré comment résoudre des problèmes récurrents tels que les doublons et les incohérences orthographiques de manière automatisée à l'aide d'*OpenRefine*.
 
-[*OpenRefine*]: http://openrefine.org "OpenRefine"
+[*OpenRefine*]: https://openrefine.org "OpenRefine"
 [Powerhouse museum]: https://powerhouse.com.au/ "Powerhouse museum"
   [*Potter’s Wheel ABC*]: https://perma.cc/Q6QD-E64N "Potter's Wheel ABC "
-  [*Wrangler*]: http://vis.stanford.edu/papers/wrangler/ "Wrangler"
+  [*Wrangler*]: https://vis.stanford.edu/papers/wrangler/ "Wrangler"
   [profilage]: https://fr.wikipedia.org/wiki/Data_profiling
   [reconnaissance d'entités nommées]: https://fr.wikipedia.org/wiki/Reconnaissance_d%27entit%C3%A9s_nomm%C3%A9es
-  [Bibliothèque du Congrès]: http://www.loc.gov/index.html "Bibliothèque du Congrès"
+  [Bibliothèque du Congrès]: https://www.loc.gov/index.html "Bibliothèque du Congrès"
   [OCLC]: https://www.oclc.org/fr/home.html "OCLC"
   [site web]: https://api.maas.museum/docs "site web"
   [licence Creative Commons Attribution - Partage dans les Mêmes Conditions]: https://creativecommons.org/licenses/by-sa/4.0/deed.fr

@@ -100,7 +100,7 @@ O autor da lição, o historiador Ryan Deschamps, suspeitava que os deputados es
 
 ## Preparando o R para a CA
 
-Para fazer uma CA, precisaremos de um pacote de álgebra linear. Para os mais inclinados à matemática, há um apêndice com alguns detalhes sobre como isto é feito. Em R, há várias opções para CA, mas usaremos o [pacote FactoMineR](http://factominer.free.fr/) (em inglês), focado na "análise de dados exploratórios multivariados".[^4] A FactoMineR pode ser usada para conduzir todos os tipos de análises multivariadas diferentes, incluindo *clusters* hierárquicos, análise fatorial e assim por diante.
+Para fazer uma CA, precisaremos de um pacote de álgebra linear. Para os mais inclinados à matemática, há um apêndice com alguns detalhes sobre como isto é feito. Em R, há várias opções para CA, mas usaremos o [pacote FactoMineR](https://perma.cc/YFT7-P5Y7) (em inglês), focado na "análise de dados exploratórios multivariados".[^4] A FactoMineR pode ser usada para conduzir todos os tipos de análises multivariadas diferentes, incluindo *clusters* hierárquicos, análise fatorial e assim por diante.
 
 Mas, primeiro, aqui está como instalar e puxar os pacotes, depois colocá-los em um objeto R para que possam ser discutidos.
 
@@ -177,7 +177,7 @@ plot(CA_harper)
 
 O comando `colSums` soma os valores para cada coluna da tabela. `rowSums` poderia ser usado para somar as linhas se isso fosse necessário (não é para nós, porque todos os comités têm mais de um deputado).
 
-O comando `CA` traça os resultados para as duas dimensões superiores e armazena o resumo dos dados em uma variável chamada `CA_harper`. Na maioria das vezes, `CA` faz a maior parte do trabalho. Como discutido, mais detalhes sobre a matemática por trás da CA são fornecidos no [apêndice](#Apêndice:AMatemáticaportrásdaAnálisedeCorrespondência).
+O comando `CA` traça os resultados para as duas dimensões superiores e armazena o resumo dos dados em uma variável chamada `CA_harper`. Na maioria das vezes, `CA` faz a maior parte do trabalho. Como discutido, mais detalhes sobre a matemática por trás da CA são fornecidos no [apêndice](#apêndice-a-matemática-por-trás-da-análise-de-correspondência).
 
 Deve-se obter um gráfico que se parece com isto:
 
@@ -214,7 +214,7 @@ Em vez de se sobrepor, as etiquetas agora usam setas para mostrar sua localizaç
 
 Os gráficos de dados parecem mais bonitos, mas quão bem podemos confiar na validade desses dados? A nossa primeira dica é olhar para as dimensões. Nos dados Harper, apenas onze e dez por cento de valor explicativo aparecem no eixo horizontal e vertical respectivamente para um total de 21%![^6] Isso não soa promissor para a nossa análise. Lembrando que o número total de dimensões é igual ao número de filas ou colunas (o que for menor), isto pode ser preocupante. Quando tais valores baixos ocorrem, geralmente significa que os pontos de dados são distribuídos de forma bastante uniforme, e que os MPs são distribuídos de forma uniforme nos CPCs é uma convenção bastante bem estabelecida do parlamento.
 
-Outra maneira de olhar para os dados é através de valores de inércia.[^7] Mais detalhes sobre inércia podem ser encontrados no [apêndice](#Apêndice:AMatemáticaportrásdaAnálisedeCorrespondência) mas, no gráfico, os pontos de dados distantes da origem têm maior inércia. Pontos de inércia elevados sugerem *outliers* (valores atípicos) - atores ou eventos que têm menos conexões do que aqueles próximos ao centro. Os baixos valores de inércia sugerem pontos de dados que têm mais em comum com o grupo como um todo. Como uma ferramenta de análise, pode ser útil para encontrar atores ou subgrupos renegados no *dataset*. Se todos os pontos tiverem alta inércia, pode ser um indicador de alta diversidade ou fragmentação para as redes. A baixa inércia geral pode ser um indicador de maior coesão ou convergência geral. O que isso significa dependerá do *dataset*. Para os nossos gráficos, nenhum projeto de *datapoint* vai muito além de 2 passos da média. Mais uma vez, este é um indicador de que as relações estão relativamente distribuídas de maneira uniforme.
+Outra maneira de olhar para os dados é através de valores de inércia.[^7] Mais detalhes sobre inércia podem ser encontrados no [apêndice](#apêndice-a-matemática-por-trás-da-análise-de-correspondência) mas, no gráfico, os pontos de dados distantes da origem têm maior inércia. Pontos de inércia elevados sugerem *outliers* (valores atípicos) - atores ou eventos que têm menos conexões do que aqueles próximos ao centro. Os baixos valores de inércia sugerem pontos de dados que têm mais em comum com o grupo como um todo. Como uma ferramenta de análise, pode ser útil para encontrar atores ou subgrupos renegados no *dataset*. Se todos os pontos tiverem alta inércia, pode ser um indicador de alta diversidade ou fragmentação para as redes. A baixa inércia geral pode ser um indicador de maior coesão ou convergência geral. O que isso significa dependerá do *dataset*. Para os nossos gráficos, nenhum projeto de *datapoint* vai muito além de 2 passos da média. Mais uma vez, este é um indicador de que as relações estão relativamente distribuídas de maneira uniforme.
 
 Vamos analisar os dados mais de perto:
 
@@ -355,7 +355,7 @@ Também aprendemos como interpretar uma CA e como detectar potenciais armadilhas
 
 Em geral, o benefício desta análise é fornecer uma rápida visão geral do *dataset* de duas categorias, como um guia para questões históricas mais substantivas. O uso de membros e reuniões ou eventos em todas as áreas da vida (negócios, sem fins lucrativos, reuniões municipais, *hashtags* de twitter, etc.) é uma abordagem comum para tal análise. Os grupos sociais e as suas preferências são outro uso comum para a CA. Em cada caso, a visualização oferece um mapa com o qual se pode observar um retrato da vida social, cultural e política.
 
-Os próximos passos podem incluir a adição de outras dimensões categóricas à nossa análise, como a incorporação do partido político, idade ou sexo. Quando se faz CA com mais de duas categorias, é chamada de [Análise de Correspondência Múltipla ou MCA](https://www.youtube.com/watch?v=RDexHE5Iqrg) (em inglês). Enquanto a matemática para a MCA é mais complicada, os resultados finais são bastante semelhantes aos da CA.
+Os próximos passos podem incluir a adição de outras dimensões categóricas à nossa análise, como a incorporação do partido político, idade ou sexo. Quando se faz CA com mais de duas categorias, é chamada de [Análise de Correspondência Múltipla ou MCA](https://www.youtube.com/watch?v=RDexHE5Iqrg). Enquanto a matemática para a MCA é mais complicada, os resultados finais são bastante semelhantes aos da CA.
 
 Esperamos que, agora, estes métodos sejam aplicados aos seus próprios dados, ajudando a descobrir perguntas e hipóteses que enriquecem a sua pesquisa histórica. Boa sorte!
 

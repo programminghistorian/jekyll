@@ -18,7 +18,7 @@ topics: [mapping, website, r, data-visualization]
 avatar_alt: Reflection of moonlight on a lake
 abstract: This lesson demonstrates how to build an interactive webmap using R and the Shiny library. In the lesson, you will design and implement a simple application, consisting of a slider which allows a user to select a date range, and display a set of corresponding points, on an interactive map.
 lesson-partners: [Jisc, The National Archives]
-partnership-url: /jisc-tna-partnership
+partnership-url: /en/jisc-tna-partnership
 doi: 10.46430/phen0105
 ---
 
@@ -310,7 +310,7 @@ The following code will create a slider with two draggable ends, set by default 
 sliderInput('years', 'Years', min = 1621, max = 2000, value = c(1700, 1750))
 ```
 
-Insert this code between the parentheses of the `sidebarPanel = sidebarPanel( )` command in your script. If you get lost or need to debug, take a look at [the finished code](#Final-code) provided at the end of this lesson.
+Insert this code between the parentheses of the `sidebarPanel = sidebarPanel( )` command in your script. If you get lost or need to debug, take a look at [the finished code](#final-code) provided at the end of this lesson.
 
 At this point, run the application to see how the slider looks. You should see a grey panel on the left (the sidebar panel), containing the slider widget. If you hover over the slider, you'll notice that you can drag each end (to select a range size) and you can also drag the middle (which will move the entire slider over a window of the selected range size).
 
@@ -402,7 +402,7 @@ Pause here and run the application again. All being well, you should see an inte
 
 {% include figure.html filename="shiny-leaflet-newspaper-map-tutorial-5.png" alt="Figure 5. Screenshot of the application with Leaflet map and slider input widget." caption="Figure 5. Screenshot of the application with Leaflet map and slider input widget." %}
 
-To do this, use the command `addCircleMarkers()`, which adds a graphical layer of circles to the `leaflet` map, with coordinates taken from a geographic data object. Using the `%>%` pipe, add the following after the `addCircleMarkers()` function (see the [final code](#Final-code) if you're not sure where this should go):
+To do this, use the command `addCircleMarkers()`, which adds a graphical layer of circles to the `leaflet` map, with coordinates taken from a geographic data object. Using the `%>%` pipe, add the following after the `addCircleMarkers()` function (see the [final code](#final-code) if you're not sure where this should go):
 
 ```
 %>%

@@ -20,8 +20,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/39
 layout: lesson
-next: trabajar-con-archivos-de-texto
-previous: introduccion-e-instalacion
+next: /es/lecciones/trabajar-con-archivos-de-texto
+previous: /es/lecciones/introduccion-e-instalacion
 original: viewing-html-files
 difficulty: 2
 activity: presenting
@@ -112,7 +112,7 @@ Sugerencia de lecturas para aprender HTML:
 -	[W3Schools HTML Tutorial]
 -	[W3Schools HTML5 Tutorial]
 
-[la anterior de la serie]: http://es.programminghistorian.org/lecciones/introduccion-e-instalacion/">
-[tutorial de HTML ofrecido por W3Schools]: http://www.w3schools.com/html/default.asp
-[W3Schools HTML Tutorial]: http://www.w3schools.com/html/default.asp
-[W3Schools HTML5 Tutorial]: http://www.w3schools.com/html/html5_intro.asp
+[la anterior de la serie]: https://es.programminghistorian.org/lecciones/introduccion-e-instalacion/">
+[tutorial de HTML ofrecido por W3Schools]: https://www.w3schools.com/html/default.asp
+[W3Schools HTML Tutorial]: https://www.w3schools.com/html/default.asp
+[W3Schools HTML5 Tutorial]: https://www.w3schools.com/html/html5_intro.asp

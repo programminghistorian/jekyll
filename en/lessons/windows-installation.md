@@ -16,7 +16,7 @@ exclude_from_check:
 activity: transforming
 topics: [get-ready, python]
 abstract: "This lesson will help you set up an integrated development environment for Python on a computer running the Windows operating system."
-redirect_from: /lessons/windows-installation
+redirect_from: /lessons/windows-installation/
 avatar_alt: A band of three musicians
 doi: 10.46430/phen0019
 ---
@@ -181,7 +181,7 @@ Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
 order, we suggest you next try ‘[Understanding Web Pages and HTML][]‘
 
-  [Python website]: http://www.python.org/
+  [Python website]: https://www.python.org/
   [other text editing options]: https://wiki.python.org/python/PythonEditors
-  [UTF-8]: http://en.wikipedia.org/wiki/UTF-8
+  [UTF-8]: https://en.wikipedia.org/wiki/UTF-8
   [Understanding Web Pages and HTML]: /lessons/viewing-html-files

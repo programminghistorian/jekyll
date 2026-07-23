@@ -75,7 +75,7 @@ to install FFmpeg and ensure it remains in the most up-to-date version. Homebrew
 Windows users can use the package manager [Chocolately](https://chocolatey.org/) to install and maintain FFmpeg. Reto Kromer's [Windows installation guide](https://avpres.net/FFmpeg/install_Windows.html) provides all the necessary information to use Chocolately or to install the software from a build.
 
 ## For Linux Users
-[Linuxbrew](http://linuxbrew.sh/), a program similar to Homebrew, can be used to
+[Linuxbrew](https://linuxbrew.sh/), a program similar to Homebrew, can be used to
 install and maintain FFmpeg in Linux. Reto Kromer also provides a helpful [Linux installation guide](https://avpres.net/FFmpeg/install_Linux.html)
 that closely resembles the Mac OS installation. Your distribution of Linux may also have its [own package manager](https://www.linode.com/docs/tools-reference/linux-package-management/) already installed that include FFmpeg packages available. Depending on your distribution of Linux (Ubuntu, Fedora, Arch Linux, etc.) these builds can vary, so using Linuxbrew could be useful to ensure that the build is the same regardless of which type of Linux you are using.
 
@@ -111,7 +111,7 @@ that closely resembles the Mac OS installation. Your distribution of Linux may a
 
 * If you see something like `-bash: ffmpeg: command not found` then something has
 gone wrong.
-  * Note: If you are using a package manager it is unlikely that you will encounter this error message. However, if there is a problem after installing with a package manager, it is likely the issue is with the package manager itself as opposed to FFmpeg. Consult the Troubleshooting sections for [Homebrew](https://docs.brew.sh/Troubleshooting), [Chocolatey](https://chocolatey.org/docs/troubleshooting), or [Linuxbrew](http://linuxbrew.sh/) to ensure the package manager is functioning properly on your computer. If you are attempting to install without a package manager and see this error message, cross-reference your method with the FFmpeg Compilation Guide provided above.
+  * Note: If you are using a package manager it is unlikely that you will encounter this error message. However, if there is a problem after installing with a package manager, it is likely the issue is with the package manager itself as opposed to FFmpeg. Consult the Troubleshooting sections for [Homebrew](https://docs.brew.sh/Troubleshooting), [Chocolatey](https://chocolatey.org/docs/troubleshooting), or [Linuxbrew](https://linuxbrew.sh/) to ensure the package manager is functioning properly on your computer. If you are attempting to install without a package manager and see this error message, cross-reference your method with the FFmpeg Compilation Guide provided above.
 
 ## Using FFmpeg in a web browser (without installing)
 If you do not want to install FFmpeg on your computer but would like to become familiar with using it at the command-line, Brian Grinstead's [videoconverter.js](https://bgrins.github.io/videoconverter.js/demo/) provides a way to run FFmpeg commands and learn its basic functions in the web-browser of your choice.
@@ -381,8 +381,8 @@ done
 ```
 
 * `for file in *.m4v; do` = initiates the for loop. This first line basically tells FFmpeg: "for all files in this directory with the extension `.m4v`, perform the following command."
-  * The `*` is a Bash [wildcard](http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm) attached to a given file-type and specifies them as the input files.
-  * The word `file` is an arbitrary [variable](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-5.html) which will represent each file as it runs through the loop.
+  * The `*` is a Bash [wildcard](https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm) attached to a given file-type and specifies them as the input files.
+  * The word `file` is an arbitrary [variable](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-5.html) which will represent each file as it runs through the loop.
 
 * `ffprobe -f lavfi -i movie="$file",signalstats -show_entries frame=pkt_pts_time:frame_tags=lavfi.signalstats.HUEMED -print_format csv > "${file%.m4v}.csv"; done` = the same color metadata extraction command we ran on our two excerpts of *Destination Earth*, with some slight alterations to the syntax to account for its use across multiple files in a directory:
   * `"$file"` recalls each variable. The enclosing quotation marks ensures that the original filename is retained.

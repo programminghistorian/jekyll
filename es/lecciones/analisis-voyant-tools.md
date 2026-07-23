@@ -30,9 +30,9 @@ En este tutorial se aprenderá cómo organizar un conjunto de textos para la inv
 
 ## Análisis de corpus
 
-El análisis de corpus es un tipo de [análisis de contenido](http://vocabularios.caicyt.gov.ar/portalthes/42/term/26) que permite hacer comparaciones a gran escala sobre un conjunto de textos o corpus.
+El análisis de corpus es un tipo de [análisis de contenido](https://vocabularios.caicyt.gov.ar/portalthes/42/term/26) que permite hacer comparaciones a gran escala sobre un conjunto de textos o corpus.
 
-Desde el inicio de la informática, tanto lingüistas computacionales como especialistas de la [recuperación de la información](http://vocabularios.caicyt.gov.ar/portalthes/42/term/178) han creado y utilizado software para apreciar patrones que no son evidentes en una lectura tradicional o bien para corroborar hipótesis que intuían al leer ciertos textos pero que requerían de trabajos laboriosos, costosos y mecánicos. Por ejemplo, para obtener los patrones de uso y decaimiento de ciertos términos en una época dada era necesario contratar a personas que revisaran manualmente un texto y anotaran cuántas veces aparecía el término buscado. Muy pronto, al observar las capacidades de "contar" que tenían las computadoras, estos especialistas no tardaron en escribir programas que facilitaran la tarea de crear listas de frecuencias o tablas de concordancia (es decir, tablas con los contextos izquierdos y derechos de un término). El programa que aprenderás a usar en este tutorial, se inscribe en este contexto.
+Desde el inicio de la informática, tanto lingüistas computacionales como especialistas de la [recuperación de la información](https://vocabularios.caicyt.gov.ar/portalthes/42/term/178) han creado y utilizado software para apreciar patrones que no son evidentes en una lectura tradicional o bien para corroborar hipótesis que intuían al leer ciertos textos pero que requerían de trabajos laboriosos, costosos y mecánicos. Por ejemplo, para obtener los patrones de uso y decaimiento de ciertos términos en una época dada era necesario contratar a personas que revisaran manualmente un texto y anotaran cuántas veces aparecía el término buscado. Muy pronto, al observar las capacidades de "contar" que tenían las computadoras, estos especialistas no tardaron en escribir programas que facilitaran la tarea de crear listas de frecuencias o tablas de concordancia (es decir, tablas con los contextos izquierdos y derechos de un término). El programa que aprenderás a usar en este tutorial, se inscribe en este contexto.
 
 ## Qué aprenderás en este tutorial
 
@@ -63,7 +63,7 @@ Lo primero que debes hacer es buscar la información que te interesa. Para este 
 
 ### 2. Copiar en editor de texto plano
 Una vez localizada la información, el segundo paso es copiar el texto que te interesa desde la primera palabra dicha hasta la última y guardarla en un editor de texto sin formato. Por ejemplo:
-* en Windows podría guardarse en [Bloc de Notas](https://web.archive.org/web/20091013225307/http://windows.microsoft.com/en-us/windows-vista/Notepad-frequently-asked-questions)
+* en Windows podría guardarse en [Bloc de Notas](https://web.archive.org/web/20091013225307/https://windows.microsoft.com/en-us/windows-vista/Notepad-frequently-asked-questions)
 * en Mac, en [TextEdit](https://support.apple.com/es-mx/guide/textedit/welcome/mac);
 * y en Linux, en [Gedit](https://wiki.gnome.org/Apps/Gedit).
 
@@ -156,8 +156,8 @@ Este corpus tiene _ documentos con un total de palabras de _ y _ palabras única
 #### Extensión de documentos
 Lo segundo que vemos es la sección de "extensión del documento". Ahí aparece lo siguiente:
 
--   Más largo:  [2008_cl_bachelet](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (20702);  [2007_ar_kircher](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (20390);  [2006_ar_kircher](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (18619);  [2010_cl_pinera](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (16982);  [2007_cl_bachelet](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (15514)
--   Más corto:  [2006_pe_toledo](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (1289);  [2006_mx_fox](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (2450);  [2008_mx_calderon](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (3317);  [2006_co_uribe](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (4709);  [2009_co_uribe](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (5807)
+- Más largo: `2008_cl_bachelet (20702)`; `2007_ar_kircher (20390)`; `2006_ar_kircher (18619)`; `2010_cl_pinera (16982)`; `2007_cl_bachelet (15514)`
+- Más corto: `2006_pe_toledo (1289)`; `2006_mx_fox (2450)`; `2008_mx_calderon (3317)`; `2006_co_uribe (4709)`; `2009_co_uribe (5807)`
 
 #####  *Actividad 2*
 1. ¿Qué podemos concluir sobre los textos más largos y los más cortos considerando los metadatos en el nombre del archivo (año, país, presidente)?
@@ -186,10 +186,8 @@ La densidad de vocubulario se mide dividiendo el número de palabras únicas ent
 
 **2)** Lee los datos de densidad léxica de los documentos de nuestro corpus, ¿qué te dicen?
 
-
--   Más alto:  [2006_pe_toledo](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (0.404);  [2006_co_uribe](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (0.340);  [2009_co_uribe](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (0.336);  [2008_co_uribe](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (0.334);  [2006_mx_fox](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (0.328)
--   Más bajo:  [2008_cl_bachelet](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (0.192);  [2007_mx_calderon](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (0.192);  [2007_ar_kircher](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (0.206);  [2007_pe_garcia](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (0.214);  [2010_ar_fernandez](https://voyant-tools.org/?corpus=b6f0e2c5ee1bc9b644ffda6b86a93740&panels=cirrus,reader,trends,summary,contexts#) (0.217)
-
+- Más alto: `2006_pe_toledo (0.404)`; `2006_co_uribe (0.340)`; `2009_co_uribe (0.336)`; `2008_co_uribe (0.334)`; `2006_mx_fox (0.328)`
+- Más bajo: `2008_cl_bachelet (0.192)`; `2007_mx_calderon (0.192)`; `2007_ar_kircher (0.206)`; `2007_pe_garcia (0.214)`; `2010_ar_fernandez (0.217)`
 
 **3)** Compáralos con la información sobre su extensión, ¿qué notas?
 
@@ -248,7 +246,7 @@ Voyant tiene ya cargada una lista de _stop words_ o palabras vacías del españo
 #### Frecuencias con palabras vacías filtradas
 Volvamos entonces a esta sección del sumario. Como dijimos en el iniciso anterior las palabras filtradas afectan otros campos de Voyant. En este caso, si dejaste seleccionada la caja de "Aplicar a todo", en la lista que aparece debajo de la leyenda: **Palabra más frecuente en el corpus** , se mostrarán las palabras que se repiten más **sin contar** aquéllas que fueron filtradas. En mi caso, muestra:
 
->[social](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#) (437); [nacional](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#) (427); [nuestro](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#) (393); [inversión](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#) (376); [ley](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#) (369)
+>`social (437)`; `nacional (427)`; `nuestro (393)`; `inversión (376)`; `ley (369)`
 
 #####  *Actividad 7*
 
@@ -307,26 +305,26 @@ Frecuencia Bruta  (tf) / Número de Palabras (N)  * log10 ( Número de Documento
 
 Observa las **palabras diferenciadas  (comparado con el resto del corpus)** de cada uno de los documentos y anota qué hipótesis puedes derivar de ellas
 
-1.  [2006_ar_kircher](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [uruguay](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (12),  [2004](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (13),  [2005](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (31),  [plata](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (7),  [inclusión](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (16).
-2.  [2006_cl_bachelet](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [innovación](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (15),  [rodrigo](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (8),  [alegremente](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (4),  [barrios](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (9),  [cobre](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (10).
-3.  [2006_co_uribe](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [tutela](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (5),  [reelección](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (6),  [regalías](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (7),  [iva](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (6),  [publicación](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (5).
-4.  [2006_mx_fox](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [atenta](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (5),  [apego](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (5),  [federalismo](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (3),  [intransigencia](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (2),  [fundamento](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (3).
-5.  [2006_pe_toledo](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [entrego](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (5),  [señor](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (14),  [señora](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (5),  [amigo](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (5),  [tracemos](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (2).
-6.  [2007_ar_kircher](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [2006](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (65),  [mercosur](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (12),  [uruguay](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (9),  [provincias](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (16),  [interanual](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (5).
-7.  [2007_cl_bachelet](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [macrozona](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (7),  [deudores](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (12),  [cuna](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (9),  [subvención](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (10),  [pesimismo](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (4).
-8.  [2007_co_uribe](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [guerrilla](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (10),  [sindicalistas](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (7),  [paramilitares](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (8),  [inversionista](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (10),  [despeje](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (7).
-9.  [2007_mx_calderon](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [igualar](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (9),  [transformar](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (19),  [tortilla](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (4),  [acuíferos](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (4),  [miseria](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (10).
-10.  [2007_pe_garcia](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [huancavelica](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (9),  [redistribución](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (10),  [callao](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (8),  [407](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (4),  [lima](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (7).
-11.  [2008_ar_fernandez](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [abordar](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (17),  [capítulo](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (12),  [presupone](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (5),  [lesa](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (8),  [articular](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (5).
-12.  [2008_cl_bachelet](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [desafío](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (18),  [mirada](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (10),  [aprobamos](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (6),  [adulto](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (6),  [diez](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (11).
-13.  [2008_co_uribe](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [ecopetrol](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (6),  [revaluación](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (4),  [juegos](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (4),  [desatrasar](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (3),  [billones](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (6).
-14.  [2008_mx_calderon](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [cártel](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (5),  [noches](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (3),  [mexicanas](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (6),  [controlaba](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (3),  [federales](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (6).
-15.  [2008_pe_garcia](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [poblados](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (11),  [kilómetros](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (52),  [lima](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (11),  [carreteras](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (21),  [mineros](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (4).
-16.  [2009_ar_fernandez](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [sosteniendo](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (7),  [dirigencia](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (5),  [coparticipación](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (6),  [catamarca](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (7),  [pbi](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (9).
-17.  [2009_cl_bachelet](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [sello](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (5),  [fortalecidos](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (5),  [crisis](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (48),  [gente](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (24),  [aplauso](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (4).
-18.  [2009_co_uribe](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [colombia](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (20),  [calzada](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (6),  [contributivo](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (5),  [desplazados](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (6),  [notificado](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (3).
-19.  [2009_mx_calderon](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [federal](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (27),  [organizado](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (10),  [cambiar](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (13),  [propongo](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (8),  [policiacos](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (4).
-20.  [2009_pe_garcia](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#):  [lima](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (11),  [1,500](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (6),  [tingo](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (4),  [pampas](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (4),  [desorden](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#)  (6).
+1. 2006_ar_kircher: `uruguay (12)`, `2004 (13)`, `2005 (31)`, `plata (7)`, `inclusión (16)`.
+2. 2006_cl_bachelet: `innovación (15)`, `rodrigo (8)`, `alegremente (4)`, `barrios (9)`, `cobre (10)`.
+3. 2006_co_uribe: `tutela (5)`, `reelección (6)`, `regalías (7)`, `iva (6)`, `publicación (5)`.
+4. 2006_mx_fox: `atenta (5)`, `apego (5)`, `federalismo (3)`, `intransigencia (2)`, `fundamento (3)`.
+5. 2006_pe_toledo: `entrego (5)`, `señor (14)`, `señora (5)`, `amigo (5)`, `tracemos (2)`.
+6. 2007_ar_kircher: `2006 (65)`, `mercosur (12)`, `uruguay (9)`, `provincias (16)`, `interanual (5)`.
+7. 2007_cl_bachelet: `macrozona (7)`, `deudores (12)`, `cuna (9)`, `subvención (10)`, `pesimismo (4)`.
+8. 2007_co_uribe: `guerrilla (10)`, `sindicalistas (7)`, `paramilitares (8)`, `inversionista (10)`, `despeje (7)`.
+9. 2007_mx_calderon: `igualar (9)`, `transformar (19)`, `tortilla (4)`, `acuíferos (4)`, `miseria (10)`.
+10. 2007_pe_garcia: `huancavelica (9)`, `redistribución (10)`, `callao (8)`, `407 (4)`, `lima (7)`.
+11. 2008_ar_fernandez: `abordar (17)`, `capítulo (12)`, `presupone (5)`, `lesa (8)`, `articular (5)`.
+12. 2008_cl_bachelet: `desafío (18)`, `mirada (10)`, `aprobamos (6)`, `adulto (6)`, `diez (11)`.
+13. 2008_co_uribe: `ecopetrol (6)`, `revaluación (4)`, `juegos (4)`, `desatrasar (3)`, `billones (6)`.
+14. 2008_mx_calderon: `cártel (5)`, `noches (3)`, `mexicanas (6)`, `controlaba (3)`, `federales (6)`.
+15. 2008_pe_garcia: `poblados (11)`, `kilómetros (52)`, `lima (11)`, `carreteras (21)`, `mineros (4)`.
+16. 2009_ar_fernandez: `sosteniendo (7)`, `dirigencia (5)`, `coparticipación (6)`, `catamarca (7)`, `pbi (9)`.
+17. 2009_cl_bachelet: `sello (5)`, `fortalecidos (5)`, `crisis (48)`, `gente (24)`, `aplauso (4)`.
+18. 2009_co_uribe: `colombia (20)`, `calzada (6)`, `contributivo (5)`, `desplazados (6)`, `notificado (3)`.
+19. 2009_mx_calderon: `federal (27)`, `organizado (10)`, `cambiar (13)`, `propongo (8)`, `policiacos (4)`.
+20. 2009_pe_garcia: `lima (11)`, `1,500 (6)`, `tingo (4)`, `pampas (4)`, `desorden (6)`.
 
 ### Palabras en contexto
 
@@ -384,7 +382,7 @@ Este corpus tiene 2 documentos con un total de palabras de 4 y 3 palabras única
 
 ### Actividad 3
 
-**1)** La primera estrofa tiene 23 palabras y 20 son palabras únicas, por lo que 20/23 da igual a una densidad de vocabulario de 0.870; en realidad de 0.869 pero Voyant Tools redondea estos números: https://voyant-tools.org/?corpus=b6b17408eb605cb1477756ce412de78e. La segunda estrofa tiene 24 palabras y 20 son palabras únicas, por lo que 20/24 da igual a una densidad de vocabulario de 0.833: https://voyant-tools.org/?corpus=366630ce91f54ed3577a0873d601d714.
+**1)** La primera estrofa tiene 23 palabras y 20 son palabras únicas, por lo que 20/23 da igual a una densidad de vocabulario de 0.870; en realidad de 0.869 pero Voyant Tools redondea estos números. La segunda estrofa tiene 24 palabras y 20 son palabras únicas, por lo que 20/24 da igual a una densidad de vocabulario de 0.833.
 
 Como podemos observar la diferencia entre un verso de Sor Juana Inés de la Cruz y otro compuesto por Érika Ender, Daddy Yankee y Luis Fonsi tienen una diferencia de densidad de 0.037, que no es muy alto. Debemos tener cuidado al interpretar estos números pues sólo son un indicador cuantitativo de la riqueza del vocabulario y no incluye parámetros como la complejidad de la rima o de los términos.
 
@@ -396,7 +394,7 @@ Parece haber una correspondencia entre los discursos más cortos y los más dens
 Estos resultados parecen indicar que la presidenta Kirchner, además de tener los discursos más largos es la que hace frases más largas; sin embargo tenemos que tener cuidado con las conclusiones de este tipo pues se trata de discursos orales en los que la puntuación depende de quien transcribe el texto.
 
 ### Actividad 5
-1. [a](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#) (5943); [más](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#) (1946); [no](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#) (1694); [mil](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#) (1045); [millones](https://voyant-tools.org/?corpus=77227f21c006f5ef083d820d77667627#) (971)
+1. `a (5943)`; `más (1946)`; `no (1694)`; `mil (1045)`; `millones (971)`
 2. La primera palabra es una preposición, la segunda un adverbio de comparición y la tercera un adverbio de negación. Estas palabras podrían ser significativas si lo que se busca comprender es el uso de este tipo de palabras funcionales. Sin embargo, si lo que se  busca son más bien sustantivos, habrá que hacer un filtrado (ver sección: "Palabras más frecuentes")
 
 
@@ -407,9 +405,9 @@ Hockey, Susan. 2004 “The History of Humanities Computing”. _A Companion to D
 
 Peña, Gilberto Anguiano, y Catalina Naumis Peña. 2015. «Extracción de candidatos a términos de un corpus de la lengua general». _Investigación Bibliotecológica: Archivonomía, Bibliotecología e Información_ 29 (67): 19-45. [https://doi.org/10.1016/j.ibbai.2016.02.035](https://www.sciencedirect.com/science/article/pii/S0187358X16000368).
 
-Sinclair, Stéfan and Geoffrey Rockwell, 2016.  _Voyant Tools_. Web. [http://voyant-tools.org/](http://voyant-tools.org/).
+Sinclair, Stéfan and Geoffrey Rockwell, 2016.  _Voyant Tools_. Web. [https://voyant-tools.org/](https://voyant-tools.org/).
 
-Terras, Melissa, 2013. "For Ada Lovelace Day – Father Busa’s Female Punch Card Operatives". _Melissa Terras' Blog_. Web. [http://melissaterras.blogspot.com/2013/10/for-ada-lovelace-day-father-busas.html](http://melissaterras.blogspot.com/2013/10/for-ada-lovelace-day-father-busas.html).
+Terras, Melissa, 2013. "For Ada Lovelace Day – Father Busa’s Female Punch Card Operatives". _Melissa Terras' Blog_. Web. [https://melissaterras.blogspot.com/2013/10/for-ada-lovelace-day-father-busas.html](https://melissaterras.blogspot.com/2013/10/for-ada-lovelace-day-father-busas.html).
 
 <div class="alert alert-warning">
 Este tutorial fue escrito gracias al apoyo de la Academia Británica y preparado durante el Taller de escritura de The Programming Historian en la Universidad de los Andes en Bogotá, Colombia, el del 31 de julio al 3 de agosto de 2018.

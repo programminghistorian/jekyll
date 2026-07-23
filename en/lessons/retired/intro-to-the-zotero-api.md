@@ -12,7 +12,7 @@ activity: acquiring
 topics: [api]
 abstract: "In this lesson, you’ll learn how to use python with the Zotero API to
 interact with your Zotero library."
-next: creating-new-items-in-zotero
+next: /en/lessons/retired/creating-new-items-in-zotero
 categories: [lessons, api]
 exclude_from_check:
   - reviewers
@@ -20,8 +20,8 @@ retired: true
 retirement-reason: |
   This lesson relied on the Python library libZotero, which is no longer maintained, and which now returns several errors when used. [See further discussion about this retirement decision.](https://github.com/programminghistorian/jekyll/issues/225)
 redirect_from:
-  - /lessons/intro-to-the-zotero-api
-  - /lessons/deprecated/intro-to-the-zotero-api
+  - /lessons/intro-to-the-zotero-api/
+  - /lessons/deprecated/intro-to-the-zotero-api/
 doi: 10.46430/phen0030
 ---
 
@@ -201,7 +201,7 @@ Now that we have worked through retrieving information using the Zotero
 API, we can continue to use it to interact with the items stored in our
 library.
 
-  [Zotero]: http://zotero.org
+  [Zotero]: https://zotero.org
   [Quick Start Guide]: https://www.zotero.org/support/quick_start_guide
   [libZotero GitHub library]: https://github.com/fcheslack/libZotero
   [Installing Python Modules with pip]: /lessons/installing-python-modules-pip

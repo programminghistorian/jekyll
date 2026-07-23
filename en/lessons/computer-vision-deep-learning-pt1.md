@@ -23,7 +23,7 @@ topics: [python, machine-learning]
 abstract: This is the first of a two-part lesson introducing deep learning based computer vision methods for humanities research. Using a dataset of historical newspaper advertisements and the fastai Python library, the lesson walks through the pipeline of training a computer vision model to perform image classification.     
 mathjax: true
 avatar_alt: An illustration of a camera on top of a wooden stand with a dark cloth.
-next: computer-vision-deep-learning-pt2
+next: /en/lessons/computer-vision-deep-learning-pt2
 series_total: 2 lessons
 sequence: 1
 doi: 10.46430/phen0101

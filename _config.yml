@@ -2,7 +2,7 @@ name: Programming Historian
 description: Introductory and intermediate programming lessons for humanists
 # Used to insert the live url of the site in places that require a full link such as suggested citations and XML feed
 liveurl: https://programminghistorian.org
-permalink: :categories/:title
+# permalink: :categories/:title
 exclude:
   - deprecated
   - vendor
@@ -20,69 +20,79 @@ paginate: 7
 paginate_path: "/blog/page:num/"
 defaults:
   - scope:
-      path: ""
-    values:
-      lang: "en"
-  - scope:
       path: "en"
     values:
       lang: "en"
+      permalink: /en/:basename/
   - scope:
       path: "es"
     values:
       lang: "es"
+      permalink: /es/:basename/
   - scope:
       path: "fr"
     values:
       lang: "fr"
+      permalink: /fr/:basename/
   - scope:
       path: "pt"
     values:
       lang: "pt"
+      permalink: /pt/:basename/
   - scope:
       path: "en/lessons"
     values:
       lesson: true
+      permalink: /en/lessons/:basename/
   - scope:
       path: "en/lessons/retired"
     values:
       lesson: false
       retired: true
+      permalink: /en/lessons/retired/:basename/
+  - scope:
+      path: "es/lecciones"
+    values:
+      lesson: true
+      permalink: /es/lecciones/:basename/
   - scope:
       path: "es/lecciones/retirada"
     values:
       lesson: false
       retired: true
+      permalink: /es/lecciones/retirada/:basename/
+  - scope:
+      path: "fr/lecons"
+    values:
+      lesson: true
+      permalink: /fr/lecons/:basename/
   - scope:
       path: "fr/lecons/retrait"
     values:
       lesson: false
       retired: true
+      permalink: /fr/lecons/retrait/:basename/
+  - scope:
+      path: "pt/licoes"
+    values:
+      lesson: true
+      permalink: /pt/licoes/:basename/
   - scope:
       path: "pt/licoes/retirado"
     values:
       lesson: false
       retired: true
-  - scope:
-      path: "es/lecciones"
-    values:
-      lesson: true
-  - scope:
-      path: "fr/lecons"
-    values:
-      lesson: true
-  - scope:
-      path: "pt/licoes"
-    values:
-      lesson: true
-  - scope:
-      path: "fr/lecons"
-    values:
-      lesson: true
+      permalink: /pt/licoes/retirado/:basename/
   - scope:
       path: _posts
     values:
       category: posts
+      permalink: /:categories/:title/
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      permalink: /:path/
 
 # Flags to enable/disable "Support PH" alerts on lessons, and on sitewide banner above the navigation bar
 lesson_donation_alerts: true

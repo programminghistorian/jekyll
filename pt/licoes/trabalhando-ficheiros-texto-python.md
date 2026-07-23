@@ -23,8 +23,8 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/317
 activity: transforming
 topics: [python]
 abstract: "Nesta lição, você aprenderá a manipular ficheiros de texto usando Python."
-next: code-reuse-and-modularity
-previous: nocoes-basicas-paginas-web-html
+next: /pt/licoes/code-reuse-and-modularity
+previous: /pt/licoes/nocoes-basicas-paginas-web-html
 python_warning: false
 original: working-with-text-files
 avatar_alt: Homem de óculos lendo um livro de alfabeto
@@ -186,6 +186,6 @@ Leituras sugeridas
   [Instalação em Windows]: https://programminghistorian.org/lessons/windows-installation
   [Instalação em Linux]: https://programminghistorian.org/lessons/linux-installation
   [print]: https://docs.python.org/2/reference/simple_stmts.html#the-print-statement
-  [palavra reservada]: http://docs.python.org/release/2.5.4/ref/keywords.html
+  [palavra reservada]: https://docs.python.org/release/2.5.4/ref/keywords.html
   [File Objects]: https://docs.python.org/2/library/stdtypes.html#bltin-file-objects
   [Non-Programmer's Tutorial for Python 3/Hello, World]: https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Hello,_World

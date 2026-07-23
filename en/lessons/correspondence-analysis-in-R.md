@@ -16,7 +16,7 @@ activity: analyzing
 topics: [data-manipulation, network-analysis, r, data-visualization]
 abstract: |
   This tutorial explains how to carry out and interpret a correspondence analysis, which can be used to identify relationships within categorical data.
-redirect_from: /lessons/correspondence-analysis-in-R
+redirect_from: /lessons/correspondence-analysis-in-R/
 avatar_alt: Diagram of a cube with labeled edges
 doi: 10.46430/phen0062
 mathjax: true
@@ -39,9 +39,9 @@ After reading this tutorial, you should:
 
 This tutorial is for intermediate programming historians. It assumes you have basic understanding of R and some basic statistical knowledge.
 
-Taryn Dewar's tutorial on [R Basics with Tabular Data](/lessons/r-basics-with-tabular-data) has information on how to set up and configure R. Taylor Arnold and Lauren Tilton's tutorial on [Basic Text Processing in R](/lessons/basic-text-processing-in-r) could be helpful as a warm-up, also.
+Taryn Dewar's tutorial on [R Basics with Tabular Data](/en/lessons/r-basics-with-tabular-data) has information on how to set up and configure R. Taylor Arnold and Lauren Tilton's tutorial on [Basic Text Processing in R](/en/lessons/basic-text-processing-in-r) could be helpful as a warm-up, also.
 
- Since CA is a kind of social network analysis, it would not hurt to look at Marten Düring's [From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources](/lessons/creating-network-diagrams-from-historical-sources) which also has some useful information on structuring data for network analysis.
+ Since CA is a kind of social network analysis, it would not hurt to look at Marten Düring's [From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources](/en/lessons/creating-network-diagrams-from-historical-sources) which also has some useful information on structuring data for network analysis.
 
 ## What is Correspondence Analysis?
 
@@ -91,7 +91,7 @@ As a historian, I suspect that MPs are organized according to committee topics d
 
 ## Setting Up R for CA
 
-To do a CA, we will need a library that will do linear algebra for us. For the more mathematics inclined, there is an appendix with some of the details about how this is done. In R, there are a number of options for CA, but we will use the [FactoMineR library](http://factominer.free.fr/)[^factominer] a library focussed on "multivariate exploratory data analysis." FactoMineR can be used to conduct all kinds of different multivariate analysis including hierarchical clusters, factor analysis and so on.
+To do a CA, we will need a library that will do linear algebra for us. For the more mathematics inclined, there is an appendix with some of the details about how this is done. In R, there are a number of options for CA, but we will use the [FactoMineR library](https://perma.cc/YFT7-P5Y7)[^factominer] a library focussed on "multivariate exploratory data analysis." FactoMineR can be used to conduct all kinds of different multivariate analysis including hierarchical clusters, factor analysis and so on.
 
 But first, here is how to install and call the libraries, then pop them into an R object for wrangling.
 
@@ -348,7 +348,7 @@ We also learned how to interpret a CA and how to detect potential analytical pit
 
 In general, the benefit of this analysis is to provide a quick overview of two-category dataset as a pathfinder to more substantive historical issues. The use of members and meetings or events in all areas of life (business, not-for-profit, municipal meetings, twitter hashtags etc.) is a common approach to such analysis. Social groups and their preferences is another common use for CA. In each case, the visualisation offers a map with which to observe a snapshot of social, cultural and political life.
 
-Next steps may include adding further categorical dimensions to our analysis, such as incorporating political party, age or gender. When you do CA with more than two categories, it is called [Multiple Correspondence Analysis or MCA](http://www.sthda.com/english/wiki/multiple-correspondence-analysis-essentials-interpretation-and-application-to-investigate-the-associations-between-categories-of-multiple-qualitative-variables-r-software-and-data-mining). While the Mathematics for MCA is more complicated, the end results are quite similar to CA.
+Next steps may include adding further categorical dimensions to our analysis, such as incorporating political party, age or gender. When you do CA with more than two categories, it is called [Multiple Correspondence Analysis or MCA](https://web.archive.org/web/20170617115142/http://www.sthda.com/english/wiki/multiple-correspondence-analysis-essentials-interpretation-and-application-to-investigate-the-associations-between-categories-of-multiple-qualitative-variables-r-software-and-data-mining). While the Mathematics for MCA is more complicated, the end results are quite similar to CA.
 
 Hopefully, you can now apply these methods to your own data, helping you to uncover questions and hypotheses that enrich your historical research. Good luck!
 
@@ -464,7 +464,7 @@ Another important score is visible on the CA graph - the percentage of explanato
 
 [^inertia]: In general, inertia in statistics refers to the variation or "spread" of a dataset. It is analogous to standard deviation in distribution data.
 
-[^pickton]: See Laura Kane (April 3, 2017), "Missing and murdered women's inquiry not reaching out to families, say advocates." *CBC News Indigenous*. <http://www.cbc.ca/news/indigenous/mmiw-inquiry-not-reaching-out-to-families-says-advocates-1.4053694>
+[^pickton]: See Laura Kane (April 3, 2017), "Missing and murdered women's inquiry not reaching out to families, say advocates." *CBC News Indigenous*. <https://www.cbc.ca/news/indigenous/mmiw-inquiry-not-reaching-out-to-families-says-advocates-1.4053694>
 
 [^pvalue]: In statistics, a p-value, short for _probability value_, is an indicator of how likely an outcome would have occurred under random circumstances. A low p-value would suggest a low probability that the result would have occurred at random and thus provides some evidence that a null hypothesis (in this case, that the MPs and CPCs are independent categories) is unlikely.
 

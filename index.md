@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Programming Historian
+lang: en
 ---
 
 <div class="container">

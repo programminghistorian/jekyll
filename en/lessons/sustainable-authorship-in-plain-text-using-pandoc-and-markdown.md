@@ -17,7 +17,7 @@ abstract: "In this tutorial, you will first learn the basics of Markdown—an ea
 exclude_from_check:
   - reviewers
   - review-ticket
-redirect_from: /lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+redirect_from: /lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown/
 avatar_alt: A man working at a drafting table
 doi: 10.46430/phen0041
 ---
@@ -102,7 +102,7 @@ as means for writing scholarly papers but as a convention for online
 editing in general.
 
 Popular general purpose plain text editors include [Atom](https://atom.io/)
-(all platforms) and [Notepad++](http://notepad-plus-plus.org) (Windows only).
+(all platforms) and [Notepad++](https://notepad-plus-plus.org) (Windows only).
 
 It is important to understand that Markdown is merely a convention.
 Markdown files are stored as plain text, further adding to the
@@ -370,7 +370,7 @@ nice PDF:
 
 If you'd like to get an idea of how this kind of markup will be
 interpreted as HTML formatting, try [this online
-sandbox](http://daringfireball.net/projects/markdown/dingus) and play
+sandbox](https://daringfireball.net/projects/markdown/dingus) and play
 around with various kinds of syntax. Remember that certain elements of
 *Pandoc*-flavored Markdown (such as the title block and footnotes) will
 not work in this web form, which only accepts the basics.
@@ -561,7 +561,7 @@ this:
     @article{fyfe_digital_2011,
         title = {Digital Pedagogy Unplugged},
         volume = {5},
-        url = {http://digitalhumanities.org/dhq/vol/5/3/000106/000106.html},
+        url = {https://digitalhumanities.org/dhq/vol/5/3/000106/000106.html},
         number = {3},
         urldate = {2013-09-28},
         author = {Fyfe, Paul},
@@ -628,7 +628,7 @@ Style Language" (yet another plain-text convention, in this case for
 describing citation styles) and denoted by the .csl file extension.
 Luckily, the CSL project maintains a repository of common citation
 styles, some even tailored for specific journals. Visit
-<http://editor.citationstyles.org/about/> to find the .csl file for
+<https://editor.citationstyles.org/about/> to find the .csl file for
 Modern Language Association, download `modern-language-association.csl`,
 and save to your project directory as `mla.csl`. Now we need to tell
 Pandoc to use the MLA stylesheet instead of the default Chicago. We do
@@ -693,33 +693,33 @@ for support than John MacFarlane's [Pandoc site](https://pandoc.org/) and the
 affiliated [mailing
 list](https://groups.google.com/forum/#!forum/pandoc-discuss). At least
 two "Question and Answer" type sites can field questions on Pandoc:
-[Stack Overflow](http://stackoverflow.com/questions/tagged/pandoc) and
-[Digital Humanities Q&A](http://web.archive.org/web/20190203062832/http://digitalhumanities.org/answers/).
+[Stack Overflow](https://stackoverflow.com/questions/tagged/pandoc) and
+[Digital Humanities Q&A](https://web.archive.org/web/20190203062832/https://digitalhumanities.org/answers/).
 Questions may also be asked live, on Freenode IRC, \#Pandoc channel,
 frequented by a friendly group of regulars. As you learn more about
 Pandoc, you can also explore one of its most powerful features: [filters](https://github.com/jgm/pandoc/wiki/Pandoc-Filters).
 
 Although we suggest starting out with a simple editor, many (70+,
 according to [this blog
-post](http://web.archive.org/web/20140120195538/http://mashable.com/2013/06/24/markdown-tools/))
+post](https://web.archive.org/web/20140120195538/https://mashable.com/2013/06/24/markdown-tools/))
 other, Markdown-specific alternatives to MS Word are available online,
 and often free of cost. From the standalone ones, we liked
-[Mou](http://mouapp.com/), [Write Monkey](https://web.archive.org/web/20260327163157/http://writemonkey.com/), and
-[Sublime Text](http://www.sublimetext.com/). Several web-based platforms
+[Mou](https://mouapp.com/), [Write Monkey](https://web.archive.org/web/20260327163157/http://writemonkey.com/), and
+[Sublime Text](https://www.sublimetext.com/). Several web-based platforms
 have recently emerged that provide slick, graphic interfaces for
 collaborative writing and version tracking using Markdown. These
-include: [prose.io](http://prose.io),
-[Authorea](http://www.authorea.com),
-[Draft](http://www.draftin.com), and
+include: [prose.io](https://prose.io),
+[Authorea](https://www.authorea.com),
+[Draft](https://www.draftin.com), and
 [StackEdit](https://stackedit.io).
 
-But the ecosystem is not limited to editors. [Gitit](http://gitit.net/)
+But the ecosystem is not limited to editors. [Gitit](https://gitit.net/)
 and [Ikiwiki](https://github.com/dubiousjim/pandoc-iki) support
 authoring in Markdown with Pandoc as parser. To this list we may a range
 of tools that generate fast, static webpages,
 [Yst](https://github.com/jgm/yst),
-[Jekyll](http://github.com/fauno/jekyll-pandoc-multiple-formats),
-[Hakyll](http://jaspervdj.be/hakyll/), and [bash shell
+[Jekyll](https://github.com/fauno/jekyll-pandoc-multiple-formats),
+[Hakyll](https://jaspervdj.be/hakyll/), and [bash shell
 script](https://github.com/wcaleb/website) by the historian Caleb
 McDaniel.
 
@@ -728,14 +728,14 @@ Markdown. Markdown to marketplace platform
 [Leanpub](https://leanpub.com) could be an interesting alternative to
 the traditional publishing model. And we ourselves are experimenting
 with academic journal design based on GitHub and
-[readthedocs.org](http://readthedocs.org) (tools usually used for technical
+[readthedocs.org](https://readthedocs.org) (tools usually used for technical
 documentation).
 
 [^1]: Don't worry if you don't understand some of of this terminology yet!
 
 [^2]: The source files for this document can be [downloaded from GitHub](https://github.com/dhcolumbia/pandoc-workflow). Use the "raw" option when viewing in GitHub to see the source Markdown. The authors would like to thank Alex Gil and his colleagues from Columbia's Digital Humanities Center, and the participants of openLab at the Studio in the Butler library for testing the code in this tutorial on a variety of platforms.
 
-[^3]: See Charlie Stross's excellent discussion of this topic in [Why Microsoft Word Must Die](http://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html).
+[^3]: See Charlie Stross's excellent discussion of this topic in [Why Microsoft Word Must Die](https://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html).
 
 [^4]: Note that the .bib extension may be "registered" to Zotero in your operating system. That means when you click on a .bib file it is likely that Zotero will be called to open it, whereas we want to open it within a text editor. Eventually, you may want to associate the .bib extension with your text editor.
 

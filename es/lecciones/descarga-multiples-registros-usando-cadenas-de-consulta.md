@@ -24,7 +24,7 @@ difficulty: 2
 activity: acquiring
 topics: [web-scraping, python]
 abstract: "Descargar un solo registro de un sitio web es fácil, aunque la descarga de muchos registros a la vez –una necesidad cada vez más frecuente– es mucho más eficiente utilizando un lenguaje de programación como Python. En esta lección escribiremos un programa que descargará una serie de registros del Old Bailey Online usando criterios de búsqueda personalizada y los guardará en un directorio de nuestro equipo."
-previous: salida-palabras-clave-contexto-ngrams
+previous: /es/lecciones/salida-palabras-clave-contexto-ngrams
 review-ticket:  https://github.com/programminghistorian/ph-submissions/issues/205
 avatar_alt: Figuras trabajando en una mina, empujando carros
 doi: 10.46430/phes0059

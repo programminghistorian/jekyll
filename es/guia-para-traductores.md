@@ -8,9 +8,9 @@ skip_validation: true
 # Guía para traductores
 
 <img src="{{site.baseurl}}/images/website/woman-at-writing-desk.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
-<h2 class="noclear">Paso 1: <a href="#paso-1-proponer-una-nueva-traduccion">Proponer una nueva traducción </a></h2>
-<h2 class="noclear">Paso 2: <a href="#paso-2-escribir-y-dar-formato-a-una-nueva-traduccion">Escribir y dar formato a una nueva traducción</a></h2>
-<h2 class="noclear">Paso 3: <a href="#paso-3-enviar-una-nueva-traduccion">Enviar una nueva traducción</a></h2>
+<h2 class="noclear">Paso 1: <a href="#paso-1-proponer-una-nueva-traducción">Proponer una nueva traducción </a></h2>
+<h2 class="noclear">Paso 2: <a href="#paso-2-escribir-y-formatear-el-tutorial">Escribir y dar formato a una nueva traducción</a></h2>
+<h2 class="noclear">Paso 3: <a href="#paso-3-enviando-una-nueva-traducción">Enviar una nueva traducción</a></h2>
 
 
 Estas directrices han sido desarrolladas para ayudarte a entender el proceso de traducción de un tutorial para *Programming Historian* en Español. Incluyen detalles prácticos sobre el proceso de traducción de un tutorial, así como indicaciones sobre el flujo de trabajo y el proceso de revisión entre pares. Si en algún momento hay algo que no te queda claro, por favor envía un correo electrónico a {% include managing-editor.html lang=page.lang %}.

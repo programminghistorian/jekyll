@@ -35,7 +35,7 @@ Qu'une leçon dérivée soit créée ou pas, voici les étapes à suivre pour re
 
 {% comment %}
 The following anchors need to be checked/replaced once all pages have been created and published in the FR branch)
-[Author Guidelines for Writing Sustainably](/author-guidelines#write-sustainably)
+[Author Guidelines for Writing Sustainably](/en/author-guidelines#write-sustainably)
 
 [Reviewer Guidelines for Assessing Lesson Sustainability](/reviewer-guidelines#sustainability)
 

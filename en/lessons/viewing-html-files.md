@@ -16,11 +16,11 @@ exclude_from_check:
 activity: presenting
 topics: [python]
 abstract: "This lesson introduces you to HTML and the web pages it structures."
-next: working-with-text-files
-previous: introduction-and-installation
+next: /en/lessons/working-with-text-files
+previous: /en/lessons/introduction-and-installation
 series_total: 15 lessons
 sequence: 2
-redirect_from: /lessons/viewing-html-files
+redirect_from: /lessons/viewing-html-files/
 avatar_alt: A woman listening to a man through an ear trumpet
 doi: 10.46430/phen0018
 ---
@@ -142,5 +142,5 @@ text editor (which does not).
 -   [W3 Schools HTML Tutorial][W3 Schools HTML tutorial]
 -   [W3 Schools HTML5 Tutorial][]
 
-  [W3 Schools HTML tutorial]: http://www.w3schools.com/html/default.asp
-  [W3 Schools HTML5 Tutorial]: http://www.w3schools.com/html/html5_intro.asp
+  [W3 Schools HTML tutorial]: https://www.w3schools.com/html/default.asp
+  [W3 Schools HTML5 Tutorial]: https://www.w3schools.com/html/html5_intro.asp

@@ -16,12 +16,12 @@ exclude_from_check:
 activity: analyzing
 topics: [python]
 abstract: "Counting the frequency of specific words in a list can provide illustrative data. This lesson will teach you Python's easy way to count such frequencies."
-next: creating-and-viewing-html-files-with-python
-previous: normalizing-data
+next: /en/lessons/creating-and-viewing-html-files-with-python
+previous: /en/lessons/normalizing-data
 series_total: 15 lessons
 sequence: 10
 python_warning: false
-redirect_from: /lessons/counting-frequencies
+redirect_from: /lessons/counting-frequencies/
 avatar_alt: Disgruntled man sitting on a log surrounded by birds
 doi: 10.46430/phen0003
 ---
@@ -434,8 +434,8 @@ file to make sure you have the correct code.
 
 -   programming-historian-5 ([zip sync][])
 
-  [list comprehension]: http://docs.python.org/tutorial/datastructures.html#list-comprehensions
-  [computer scientists at Glasgow]: http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
-  [Regular Expressions]: https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html
+  [list comprehension]: https://docs.python.org/tutorial/datastructures.html#list-comprehensions
+  [computer scientists at Glasgow]: https://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
+  [Regular Expressions]: https://web.archive.org/web/20180416143856/https://www.diveintopython.net/regular_expressions/index.html
   [zip]: /assets/python-lessons4.zip
   [zip sync]: /assets/python-lessons5.zip

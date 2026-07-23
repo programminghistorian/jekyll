@@ -436,7 +436,7 @@ Une approche par *baselines* (en rouge sur la figure&nbsp;10, il s'agit de la li
 
 ```xml
 <?xml version="1.0" ?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
   <Metadata>
     <Creator>Calfa</Creator>
     <Created>2022-08-23T14:48:18+00:00</Created>
@@ -838,7 +838,7 @@ Les données générées pour cet article et dans le cadre du projet CGPG sont d
 
 [^38]: *Ibid.*
 
-[^39]: Bastien Kindt et Vidal-Gorène Chahan, «&nbsp;From Manuscript to Tagged Corpora. An Automated Process for Ancient Armenian or Other Under-Resourced Languages of the Christian East&nbsp;». *Armeniaca. International Journal of Armenian Studies* 1, 73-96, 2022. [http://doi.org/10.30687/arm/9372-8175/2022/01/005]( http://doi.org/10.30687/arm/9372-8175/2022/01/005)
+[^39]: Bastien Kindt et Vidal-Gorène Chahan, «&nbsp;From Manuscript to Tagged Corpora. An Automated Process for Ancient Armenian or Other Under-Resourced Languages of the Christian East&nbsp;». *Armeniaca. International Journal of Armenian Studies* 1, 73-96, 2022. [https://doi.org/10.30687/arm/9372-8175/2022/01/005]( https://doi.org/10.30687/arm/9372-8175/2022/01/005)
 
 [^40]: Vidal-Gorène, Lucas, Salah, Decours-Perez, et Dupin. «&nbsp;RASAM–A Dataset for the Recognition and Analysis of Scripts in Arabic Maghrebi&nbsp;», 265-281.
 

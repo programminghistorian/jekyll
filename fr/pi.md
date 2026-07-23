@@ -2,7 +2,7 @@
 layout: blank
 title: Partenariat Institutionnele
 redirect_from: 
-- /pi
+- /pi/
 original: ipp
 ---
 
@@ -45,7 +45,7 @@ Joindre le programme de Partenariat institutionnel vous donnera accès aux avant
 
 - Une invitation à notre [assemblée générale annuelle](https://beta.companieshouse.gov.uk/company/12192946) en tant que membre consultatif (une personne par Partenaire).
 - La ventilation annuelle des dépenses de ProgHist Ltd.
-- La reconnaissance explicite de votre contribution dans la section [Nos soutiens](nos-soutiens).
+- La reconnaissance explicite de votre contribution dans la section [Nos soutiens](/fr/nos-soutiens).
 - Le droit de souligner ce partenariat dans les activités de promotion de votre institution.
 - Des conseils ad hoc de notre équipe sur la gestion d'une publication en libre accès, la mise en œuvre de processus de publication multilingue ou l'adaptation d'articles du _Programming Historian_ pour un cadre d'atelier (consultation informelle sur demande). 
 - Pour les bibliothèques partenaires: une liste d’articles publiés par toutes les versions du _Programming Historian_ (sur demande).
@@ -55,7 +55,7 @@ Joindre le programme de Partenariat institutionnel vous donnera accès aux avant
 
 <div class="alert alert-info">
 <div class="float-left">
-	<svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-credit-card" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+	<svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-credit-card" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
   <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
 </svg>

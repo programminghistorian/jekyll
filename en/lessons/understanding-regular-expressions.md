@@ -17,7 +17,7 @@ topics: [data-manipulation]
 abstract: "In this lesson, we will use advanced find-and-replace capabilities in a
 word processing application in order to make use of structure in a brief
 historical document that is essentially a table in the form of prose."
-redirect_from: /lessons/understanding-regular-expressions
+redirect_from: /lessons/understanding-regular-expressions/
 avatar_alt: Person studying a book at a desk
 doi: 10.46430/phen0033
 ---
@@ -81,7 +81,7 @@ any year from 1850 to 1899.
 In this exercise we will use LibreOffice Writer and LibreOffice Calc,
 which are free software desktop applications for word processing and
 spreadsheets, respectively. Installation packages for Linux, Mac, or
-Windows can be downloaded from <http://www.libreoffice.org/download>.
+Windows can be downloaded from <https://www.libreoffice.org/download>.
 Other word processing software and programming languages have similar
 pattern-matching capabilities. This exercise uses LibreOffice because it
 is freely available, and its regular expression syntax is closer to what
@@ -115,7 +115,7 @@ textual resources that are useful in many kinds of historical research.
 For our exercise, we will use a five-page report of monthly morbidity
 and mortality statistics for states and cities in the United States,
 published in February 1908, available at
-<http://archive.org/details/jstor-4560629/>.
+<https://archive.org/details/jstor-4560629/>.
 
 Take a moment to scan the pages through the [Read Online][] link to
 become familiar with it. This document is organized as paragraphs rather
@@ -733,9 +733,9 @@ the University of Pittsburg, has some good materials on how to work with
 [regular expressions and XML tools][] to help mark up plain-text files
 in TEI XML.
 
-  [Read Online]: http://archive.org/stream/jstor-4560629/4560629#page/n0/mode/2up
-  [Full Text]: http://archive.org/stream/jstor-4560629/4560629_djvu.txt
+  [Read Online]: https://archive.org/stream/jstor-4560629/4560629#page/n0/mode/2up
+  [Full Text]: https://archive.org/stream/jstor-4560629/4560629_djvu.txt
   [List of Regular Expressions]: https://help.libreoffice.org/Common/List_of_Regular_Expressions
-  [regular expressions]: http://en.wikipedia.org/wiki/Regular_expressions
-  [Rubular]: http://rubular.com/
-  [regular expressions and XML tools]: http://dh.obdurodon.org/regex.html
+  [regular expressions]: https://en.wikipedia.org/wiki/Regular_expressions
+  [Rubular]: https://rubular.com/
+  [regular expressions and XML tools]: https://dh.obdurodon.org/regex.html

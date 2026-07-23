@@ -213,7 +213,7 @@ Deux autres séquences d'échappement vous permettent d'imprimer des tabulateurs
 ```
 
 ## Bibliographie
-- Mark Lutz, *[Learning Python](http://www.worldcat.org/oclc/1061273329)*
+- Mark Lutz, *[Learning Python](https://www.worldcat.org/oclc/1061273329)*
 	- Ch. 7: Strings *(Chaînes de caractères)*
 	- Ch. 8: Lists and Dictionaries *(Listes et dictionnaires)*
 	- Ch. 10: Introducing Python Statements *(Introduction aux déclarations en Python)*

@@ -16,12 +16,12 @@ exclude_from_check:
 activity: transforming
 topics: [python]
 abstract: "In this lesson, you will learn the Python commands needed to implement the second part of the algorithm begun in the lesson 'From HTML to a List of Words (part 1)'."
-next: normalizing-data
-previous: from-html-to-list-of-words-1
+next: /en/lessons/normalizing-data
+previous: /en/lessons/from-html-to-list-of-words-1
 series_total: 15 lessons
 sequence: 8
 python_warning: false
-redirect_from: /lessons/from-html-to-list-of-words-2
+redirect_from: /lessons/from-html-to-list-of-words-2/
 avatar_alt: A soldier being mocked by a man
 doi: 10.46430/phen0007
 ---
@@ -350,7 +350,7 @@ to make sure you have the correct code.
 -   python-lessons3.zip ([zip sync][])
 
   [From HTML to a List of Words (part 1)]: /lessons/from-html-to-list-of-words-1
-  [integer]: http://docs.python.org/2.4/lib/typesnumeric.html
-  [types]: http://docs.python.org/3/library/types.html
+  [integer]: https://docs.python.org/2.4/lib/typesnumeric.html
+  [types]: https://docs.python.org/3/library/types.html
   [zip]: /assets/python-lessons2.zip
   [zip sync]: /assets/python-lessons3.zip

@@ -14,8 +14,8 @@ _Programming Historian en español_ es posible gracias al esfuerzo de voluntario
 
 Si dominas de más de uno de nuestros idiomas (francés, español, inglés, portugués), puedes ponerte en contacto con nosotros para traducir una lección ya publicada en _Programming Historian_ de un idioma a otro. De esta manera nos ayudarás en nuestra contribucion en las comunidades de humanidades digitales en español y francés, y profundizarás en un lenguaje, método o tecnología.
 
-Buscamos traducciones rigurosas y de lectura amena que tengan en cuenta los contextos de investigación hispánico, lusófono y francés así como los recursos disponibles en nuestras respectivas comunidades. Puesto que muchos de lo tecnicismos son nuevos y/o todavía no están recogidos en los diccionarios, también recomendamos el uso de la [Taxonomía sobre Actividades de investigación digital en humanidades](http://vocabularios.caicyt.gov.ar/portalthes/index.php?v=42) de TaDiRAH y el [Glosario de Preservación Archivística Digital (Versión 4.0)](http://www.mecd.gob.es/planes-nacionales/dam/jcr:f20a4ba1-0ed2-445d-9be9-b8b0382562ea/mex-glosario-interpares-total0112.pdf) de Voutssas-M y Barnard Amozorrutia (UNAM).
-Si te interesa colaborar, consulta nuestras [instrucciones para autores y traductores](/es/guia-para-autores.html).
+Buscamos traducciones rigurosas y de lectura amena que tengan en cuenta los contextos de investigación hispánico, lusófono y francés así como los recursos disponibles en nuestras respectivas comunidades. Puesto que muchos de lo tecnicismos son nuevos y/o todavía no están recogidos en los diccionarios, también recomendamos el uso de la [Taxonomía sobre Actividades de investigación digital en humanidades](https://vocabularios.caicyt.gov.ar/portalthes/index.php?v=42) de TaDiRAH y el [Glosario de Preservación Archivística Digital (Versión 4.0)](https://www.mecd.gob.es/planes-nacionales/dam/jcr:f20a4ba1-0ed2-445d-9be9-b8b0382562ea/mex-glosario-interpares-total0112.pdf) de Voutssas-M y Barnard Amozorrutia (UNAM).
+Si te interesa colaborar, consulta nuestras [instrucciones para autores y traductores](/es/guia-para-autores).
 
 ## Revisa una lección
 
@@ -63,7 +63,7 @@ Agradecemos de manera especial alertas sobre lecciones que no funcionan. A medid
 <img src="/images/website/contribute/writing-materials-still-life.png" class="garnish float-right" alt="{{ site.data.snippets.library-catalogue-image-alt[page.lang] }}" />
 
 
-_Programming Historian_ está registrado en WorldCat en [español](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results), en [inglés](http://www.worldcat.org/title/programming-historian/oclc/951537099), en [francés](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842), y en [portugués](https://search.worldcat.org/title/1332987197).
+_Programming Historian_ está registrado en WorldCat en [español](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results), en [inglés](https://www.worldcat.org/title/programming-historian/oclc/951537099), en [francés](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842), y en [portugués](https://search.worldcat.org/title/1332987197).
 
 Gracias a [University of Purdue library] y a Amanda Visconti, y University of Virginia library. Y ha sido indexado por el [Directory of Open Access Journals].
 Este proyecto se propone demostrar cómo deben ser las publicaciones académicas en abierto. Por favor, ayúdanos a difundir nuestro mensaje pidiendo a tu bibliotecario o bibliotecaria que añade este recurso al catálogo de tu biblioteca.
@@ -83,6 +83,6 @@ Si se te ocurren más formas de participación, siempre puedes [escribirnos un e
 [revisores]: /es/guia-para-revisores
 [Guía para editores]: /es/guia-para-revisores
 [comentarios]: /es/retroalimentacion
-[WorldCat]: http://www.worldcat.org/title/programming-historian/oclc/951537099
-[University of Purdue library]: http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink
+[WorldCat]: https://www.worldcat.org/title/programming-historian/oclc/951537099
+[University of Purdue library]: https://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink
 [Directory of Open Access Journals]: https://doaj.org/toc/2397-2068

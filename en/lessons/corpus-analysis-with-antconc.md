@@ -15,7 +15,7 @@ exclude_from_check:
 activity: analyzing
 topics: [distant-reading]
 abstract: "Corpus analysis is a form of text analysis which allows you to make comparisons between textual objects at a large scale (so-called 'distant reading')."
-redirect_from: /lessons/corpus-analysis-with-antconc
+redirect_from: /lessons/corpus-analysis-with-antconc/
 avatar_alt: Three large ornate bookcases
 doi: 10.46430/phen0043
 ---
@@ -47,12 +47,12 @@ You have done this sort of thing before, if you have ever...
 * Used [Voyant Tools][48] for looking at patterns in one text
 * Followed [Programming Historian][51]’s Introduction to Python tutorials
 
-In many ways [Voyant](http://voyant-tools.org/) is a gateway into conducting more sophisticated, replicable analysis, as the DIY aesthetic of Python or R scripting may not appeal to everyone. [AntConc](http://www.laurenceanthony.net/software/antconc/) fills this void by being a standalone software package for linguistic analysis of texts, freely available for Windows, Mac OS, and Linux and is highly maintained by its creator, [Laurence Anthony](http://www.laurenceanthony.net/). There are other concordance software packages available, but it is freely available across platforms and very well maintained. See the [concordance bibliography][56] for other resources.
+In many ways [Voyant](https://voyant-tools.org/) is a gateway into conducting more sophisticated, replicable analysis, as the DIY aesthetic of Python or R scripting may not appeal to everyone. [AntConc](https://www.laurenceanthony.net/software/antconc/) fills this void by being a standalone software package for linguistic analysis of texts, freely available for Windows, Mac OS, and Linux and is highly maintained by its creator, [Laurence Anthony](https://www.laurenceanthony.net/). There are other concordance software packages available, but it is freely available across platforms and very well maintained. See the [concordance bibliography][56] for other resources.
 
 This tutorial explores several different ways to approach a corpus of texts. It's important to note that corpus linguistic approaches are rarely, if ever, a one-size-fits all affair. So, as you go through each step, it's worth thinking about what you're doing and how it can help you answer a specific question with your data. Although I present this tutorial in a building-block approach of 'do this then that to achieve x', it's not always necessary to follow the exact order outlined here. This lessons provides an outline of some of the methods available, rather than a recipe for success.
 
 ### Tutorial downloads
-1. Software:[AntConc](http://www.laurenceanthony.net/software/antconc/).
+1. Software:[AntConc](https://www.laurenceanthony.net/software/antconc/).
 Unzip the download if necessary, and launch the application. Screen shots below may vary slightly from the version you have (and by operationg system, of course), but the procedures are more or less the same across platforms and recent versions of AntConc. This tutorial is written with a (much older) version of AntConc in mind, as I find it easier to use in an introductory context. You are welcome to use the most recent version, but if you wish to follow along with the screenshots provided, you can download the version used here, [version 3.2.4](https://www.laurenceanthony.net/software/antconc/releases/AntConc324/).
 
 2. Sample Corpus: Download the [zip file of movie reviews](/assets/corpus-analysis-with-antconc/antconc_corpus_files.zip).
@@ -77,7 +77,7 @@ Visit your favorite website for news, and navigate to a news article (doesn't ma
 
 Open a text editor such as Notepad (on Windows) or TextEdit (on Mac) and paste in your text.
 
-Other free options for text editors include [Notepad++][53] (Windows) or [TextWrangler][54] (Mac), which offer more advanced features, and are especially good for doing a lot of text clean-up. By text clean-up, I mean removing extratextual information such as "boilerplate", which appears regularly throughout. If you keep this information, it's going to throw your data off; text analysis software will address these words in word counts, statistical analyses, and lexical relationships. For example, you might want to remove standard headers and footers which will appear on every page. Please see [“Cleaning Data with OpenRefine"](/lessons/cleaning-data-with-openrefine) for more on how to automate this task. On smaller corpora it may be more feasible to do this yourself, plus you'll get a much better sense of your corpus this way.
+Other free options for text editors include [Notepad++][53] (Windows) or [TextWrangler][54] (Mac), which offer more advanced features, and are especially good for doing a lot of text clean-up. By text clean-up, I mean removing extratextual information such as "boilerplate", which appears regularly throughout. If you keep this information, it's going to throw your data off; text analysis software will address these words in word counts, statistical analyses, and lexical relationships. For example, you might want to remove standard headers and footers which will appear on every page. Please see [“Cleaning Data with OpenRefine"](/en/lessons/cleaning-data-with-openrefine) for more on how to automate this task. On smaller corpora it may be more feasible to do this yourself, plus you'll get a much better sense of your corpus this way.
 
 Save the article as a .txt file to the desktop. You may want to do some follow-up text cleanup on other information, such as author by-line or title (remove them, then save the file again.) Remember that anything you leave in the text file can and will be addressed by text analysis software.
 
@@ -86,10 +86,10 @@ Go to your desktop and check to see you can find your text file.
 Repeating this a lot is how you would build a corpus of plain text files; this process is called _corpus construction_, which very often involves addressing questions of sampling, representativeness and organization. Remember, *each file you want to use in your corpus _must_ be a plain text file for Antconc to use it.* It is customary to name files with the .txt suffix so that you know what kind of file it is.
 
 As you might imagine, it can be rather tedious to build up a substantial corpus one file at a time, especially if you intend to process a large set of documents. It is very common, therefore, to use webscraping (using a small program to automatically grab files from the web for you) to construct your corpus. To learn more about the concepts and techniques for webscraping, see the _Programming Historian_ tutorials [scraping with Beautiful Soup][50] and [automatic downloading with wget][51].
-Rather than build a corpus one document at a time, we're going to use a prepared corpus of positive and negative movie reviews, borrowed from the [Natural Language Processing Toolkit](http://www.nltk.org/). The NLTK movie review corpus has 2000 reviews, organized by positive and negative outcomes; today we will be addressing a small subset of them (200 positive, 200 negative).
+Rather than build a corpus one document at a time, we're going to use a prepared corpus of positive and negative movie reviews, borrowed from the [Natural Language Processing Toolkit](https://www.nltk.org/). The NLTK movie review corpus has 2000 reviews, organized by positive and negative outcomes; today we will be addressing a small subset of them (200 positive, 200 negative).
 
 Corpus construction is a subfield in its own right. Please see [Representativeness in Corpus Design](https://academic.oup.com/dsh/article-abstract/8/4/243/928942)," _Literary and Linguistic Computing_, 8 (4): 243-257
-and [_Developing Linguistic Corpora: a Guide to Good Practice_](http://www.amazon.com/Developing-Linguistic-Corpora-Practice-Guides/dp/1842172050/ref=sr_1_1) for more information.
+and [_Developing Linguistic Corpora: a Guide to Good Practice_](https://www.amazon.com/Developing-Linguistic-Corpora-Practice-Guides/dp/1842172050/ref=sr_1_1) for more information.
 
 
 ### Getting Started with AntConc: The AntConc user interface, loading corpora
@@ -256,6 +256,7 @@ You can also opt to swap reference corpus &amp; main files (SWAP REF/MAIN FILES)
 In Keyword List, just hit Start (with nothing typed in the search box). If you've just swapped the reference corpus and the target files, you may be prompted to create a new word list before AntConc will calculate the keywords.  We see a list of Keywords that have words that are much more "unusual" – more statistically unexpected – in the corpus we are looking at when compared to the reference corpus.
 
 &gt; Keyness: this is the frequency of a word in the text when compared with its frequency in a reference corpus, "such that the statistical probability as computed by an appropriate procedure is smaller than or equal to a p value specified by the user." – taken from [here][41].) For those interested in the statistical details, see the section on keyness on p7 of Laurence Anthony's [readme file](https://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf).
+&gt; Keyness: this is the frequency of a word in the text when compared with its frequency in a reference corpus, "such that the statistical probability as computed by an appropriate procedure is smaller than or equal to a p value specified by the user." – taken from [here][41].) For those interested in the statistical details, see the section on keyness on p7 of Laurence Anthony's [readme file](https://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf).
 
 What are our keywords?
 
@@ -298,17 +299,17 @@ In summary: it's worth thinking about:
 
 ### Further resources for this tutorial
 [A short bibliography on corpus linguistics][43].
-[A more step-by-step version of this tutorial, assuming no computer knowledge](http://hfroehli.ch/workshops/getting-started-with-antconc/)
+[A more step-by-step version of this tutorial, assuming no computer knowledge](https://hfroehli.ch/workshops/getting-started-with-antconc/)
 
 
-[41]: http://www.lexically.net/downloads/version6/HTML/index.html?keyness_definition.htm
-[43]: http://hfroehlich.wordpress.com/2014/05/11/intro-bibliography-corpus-linguistics/
-[47]: http://hfroehli.ch/workshops/getting-started-with-antconc/
-[48]: http://voyant-tools.org/
-[50]: /lessons/intro-to-beautiful-soup
-[51]: /lessons/automated-downloading-with-wget
-[52]: http://www.antlab.sci.waseda.ac.jp/
-[53]: http://notepad-plus-plus.org/
-[54]: http://www.barebones.com/products/textwrangler/
-[55]: http://www.wordfrequency.info/free.asp
-[56]: http://hfroehli.ch/2014/05/11/intro-bibliography-corpus-linguistics/
+[41]: https://www.lexically.net/downloads/version6/HTML/index.html?keyness_definition.htm
+[43]: https://hfroehlich.wordpress.com/2014/05/11/intro-bibliography-corpus-linguistics/
+[47]: https://hfroehli.ch/workshops/getting-started-with-antconc/
+[48]: https://voyant-tools.org/
+[50]: /en/lessons/intro-to-beautiful-soup
+[51]: /en/lessons/automated-downloading-with-wget
+[52]: https://www.antlab.sci.waseda.ac.jp/
+[53]: https://notepad-plus-plus.org/
+[54]: https://www.barebones.com/products/textwrangler/
+[55]: https://www.wordfrequency.info/free.asp
+[56]: https://hfroehli.ch/2014/05/11/intro-bibliography-corpus-linguistics/

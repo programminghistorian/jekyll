@@ -20,8 +20,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/47
 layout: lesson
-next: crear-y-ver-archivos-html-con-python
-previous: normalizar-datos
+next: /es/lecciones/crear-y-ver-archivos-html-con-python
+previous: /es/lecciones/normalizar-datos
 original: counting-frequencies
 difficulty: 2
 activity: analyzing
@@ -459,8 +459,8 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 -   python-es-lecciones5.zip ([zip sync][])
 
-  [lista por comprensión]: http://docs.python.org/tutorial/datastructures.html#list-comprehensions
-  [informáticos de Glasgow]: http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
-  [Regular Expressions]: https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html
+  [lista por comprensión]: https://docs.python.org/tutorial/datastructures.html#list-comprehensions
+  [informáticos de Glasgow]: https://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
+  [Regular Expressions]: https://web.archive.org/web/20180416143856/https://www.diveintopython.net/regular_expressions/index.html
   [zip]: /assets/python-es-lecciones4.zip
   [zip sync]: /assets/python-es-lecciones5.zip

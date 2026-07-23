@@ -40,17 +40,17 @@
 
   <div class="mx-4">
   <i class="fa fa-bolt" aria-hidden="true"></i>
-  <a href="{{site.baseurl}}{{ site.data.snippets.menu-contribute-feedback[page.lang].link }}">{{ site.data.snippets.footer.suggestion[page.lang] }}</a>
+  <a href="{{site.baseurl}}{{ site.data.snippets.menu-contribute-feedback[page.lang].link | default: '#' }}">{{ site.data.snippets.footer.suggestion[page.lang] }}</a>
   </div>
 
   <div class="mx-4">
   <i class="fa fa-chain-broken" aria-hidden="true"></i>
-  <a href="{{site.baseurl}}{{ site.data.snippets.menu-contribute-retirement[page.lang].link }}">{{ site.data.snippets.footer.retirement[page.lang] }}</a>
+  <a href="{{site.baseurl}}{{ site.data.snippets.menu-contribute-retirement[page.lang].link | default: '#' }}">{{ site.data.snippets.footer.retirement[page.lang] }}</a>
   </div>
- 
+
   <div class="mx-4">
   <i class="fa fa-globe" aria-hidden="true"></i>
-  <a href="{{site.baseurl}}{{ site.data.snippets.menu-translation-concordance[page.lang].link }}">{{ site.data.snippets.footer.trans-concordance[page.lang] }}</a>
+  <a href="{{site.baseurl}}{{ site.data.snippets.menu-translation-concordance[page.lang].link | default: '#' }}">{{ site.data.snippets.footer.trans-concordance[page.lang] }}</a>
   </div>
  
   </div>
