@@ -22,7 +22,7 @@ activity: analyzing
 topics: [network-analysis, data-visualization]
 date: 2017-08-23
 abstract: "This lesson introduces network metrics and how to draw conclusions from them when working with humanities data. You will learn how to use the NetworkX Python package to produce and work with these network statistics."
-redirect_from: /lessons/exploring-and-analyzing-network-data-with-python
+redirect_from: /lessons/exploring-and-analyzing-network-data-with-python/
 avatar_alt: Train tracks intersecting
 doi: 10.46430/phen0064
 modified: 2023-08-25
@@ -37,23 +37,23 @@ tested-date: 2023-08-21
 ## Lesson Goals
 
 In this tutorial, you will learn:
-- To use the [**NetworkX**](https://perma.cc/P9PX-GUE6) package for working with network data in [**Python**](/lessons/introduction-and-installation); and
+- To use the [**NetworkX**](https://perma.cc/P9PX-GUE6) package for working with network data in [**Python**](/en/lessons/introduction-and-installation); and
 - To analyze humanities network data to find:
     - Network structure and path lengths,
     - Important or central nodes, and
     - Communities and subgroups
 
-**n.b.:** This is a tutorial for exploring network statistics and metrics. We will therefore focus on ways to analyze, and draw conclusions from, networks without visualizing them. You'll likely want a combination of visualization and network metrics in your own project, and so we recommend this article as a companion to [this earlier Programming Historian tutorial](/lessons/creating-network-diagrams-from-historical-sources).
+**n.b.:** This is a tutorial for exploring network statistics and metrics. We will therefore focus on ways to analyze, and draw conclusions from, networks without visualizing them. You'll likely want a combination of visualization and network metrics in your own project, and so we recommend this article as a companion to [this earlier Programming Historian tutorial](/en/lessons/creating-network-diagrams-from-historical-sources).
 
 ## Prerequisites
 
 This tutorial assumes that you have:
 
-- a basic familiarity with networks and/or have read  ["From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources"](/lessons/creating-network-diagrams-from-historical-sources) by Martin Düring here on *Programming Historian*;
-- Installed Python 3, not the Python 2 that is installed natively in Unix-based operating systems such as Macs (If you need assistance installing Python 3, check out the [Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/starting/installation/)); and
+- a basic familiarity with networks and/or have read  ["From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources"](/en/lessons/creating-network-diagrams-from-historical-sources) by Martin Düring here on *Programming Historian*;
+- Installed Python 3, not the Python 2 that is installed natively in Unix-based operating systems such as Macs (If you need assistance installing Python 3, check out the [Hitchhiker's Guide to Python](https://docs.python-guide.org/en/latest/starting/installation/)); and
 - Installed the `pip` package installer.[^pipinstall]
 
-It's possible to have two versions of Python (2 *and* 3) installed on your computer at one time. For this reason, when accessing Python 3 you will often have to explicitly declare it by typing `python3` and `pip3` instead of simply `python` and `pip`. Check out the *Programming Historian* tutorials on [installing Python](/lessons/introduction-and-installation) and [working with pip](/lessons/installing-python-modules-pip) for more information.
+It's possible to have two versions of Python (2 *and* 3) installed on your computer at one time. For this reason, when accessing Python 3 you will often have to explicitly declare it by typing `python3` and `pip3` instead of simply `python` and `pip`. Check out the *Programming Historian* tutorials on [installing Python](/en/lessons/introduction-and-installation) and [working with pip](/en/lessons/installing-python-modules-pip) for more information.
 
 ## What might you learn from network data?
 
@@ -69,13 +69,13 @@ This tutorial will help you answer questions such as:
 
 Before there were Facebook friends, there was the Society of Friends, known as the Quakers. Founded in England in the mid-seventeenth century, the Quakers were Protestant Christians who dissented from the official Church of England and promoted broad religious toleration, preferring Christians' supposed "inner light" and consciences to state-enforced orthodoxy. Quakers' numbers grew rapidly in the mid- to late-seventeenth century and their members spread through the British Isles, Europe, and the New World colonies---especially Pennsylvania, founded by Quaker leader William Penn and the home of your four authors.
 
-Since scholars have long linked Quakers' growth and endurance to the effectiveness of their networks, the data used in this tutorial is a list of names and relationships among the earliest seventeenth-century Quakers. This dataset is derived from the *[Oxford Dictionary of National Biography](http://www.oxforddnb.com)* and from the ongoing work of the *[Six Degrees of Francis Bacon](http://www.sixdegreesoffrancisbacon.com)* project, which is reconstructing the social networks of early modern Britain (1500-1700).
+Since scholars have long linked Quakers' growth and endurance to the effectiveness of their networks, the data used in this tutorial is a list of names and relationships among the earliest seventeenth-century Quakers. This dataset is derived from the *[Oxford Dictionary of National Biography](https://www.oxforddnb.com)* and from the ongoing work of the *[Six Degrees of Francis Bacon](https://www.sixdegreesoffrancisbacon.com)* project, which is reconstructing the social networks of early modern Britain (1500-1700).
 
 # Data Prep and NetworkX Installation
 
 Before beginning this tutorial, you will need to download two files that together constitute our network dataset. The file <a href="{{ root_url }}/assets/exploring-and-analyzing-network-data-with-python/quakers_nodelist.csv" download="quakers_nodelist.csv">quakers_nodelist.csv</a> is a list of early modern Quakers (nodes) and the file <a href="{{ root_url }}/assets/exploring-and-analyzing-network-data-with-python/quakers_edgelist.csv" download="quakers_edgelist.csv">quakers_edgelist.csv</a> is a list of relationships between those Quakers (edges). To download these files, simply right-click on the links and select "Save Link As...".
 
-It will be extremely helpful to familiarize yourself with the structure of the dataset before continuing. For more on the general structure of network datasets, see [this tutorial](/lessons/creating-network-diagrams-from-historical-sources#developing-a-coding-scheme). When you open the node file in the program of your choice, you will see that each Quaker is primarily identified by their name. Each Quaker node also has a number of associated attributes including historical significance, gender, birth/death dates, and SDFB ID---a unique numerical identifier that will enable you to cross-reference nodes in this dataset with the original *Six Degrees of Francis Bacon* dataset, if desired. Here are the first few lines:
+It will be extremely helpful to familiarize yourself with the structure of the dataset before continuing. For more on the general structure of network datasets, see [this tutorial](/en/lessons/creating-network-diagrams-from-historical-sources#developing-a-coding-scheme). When you open the node file in the program of your choice, you will see that each Quaker is primarily identified by their name. Each Quaker node also has a number of associated attributes including historical significance, gender, birth/death dates, and SDFB ID---a unique numerical identifier that will enable you to cross-reference nodes in this dataset with the original *Six Degrees of Francis Bacon* dataset, if desired. Here are the first few lines:
 
 ```
 Name,Historical Significance,Gender,Birthdate,Deathdate,ID
@@ -99,9 +99,9 @@ George Keith,Franciscus Mercurius van Helmont
 George Keith,William Penn
 ```
 
-Now that you've downloaded the Quaker data and had a look at how it's structured, it's time to begin working with that data in Python. Once both Python and pip are installed (see Prerequisites, above) you'll want to install NetworkX, by typing this into your [command line](/lessons/intro-to-bash):[^pip]
+Now that you've downloaded the Quaker data and had a look at how it's structured, it's time to begin working with that data in Python. Once both Python and pip are installed (see Prerequisites, above) you'll want to install NetworkX, by typing this into your [command line](/en/lessons/intro-to-bash):[^pip]
 
-```
+```python
 pip3 install networkx==3.1
 ```
 
@@ -113,7 +113,7 @@ And that's it! You're ready to start coding.
 
 ## Reading files, importing data
 
-Start a new, blank plaintext file in the same directory as your data files called `quaker_network.py` (For more details on installing and running Python, see [this tutorial](/lessons/mac-installation)). At the top of that file, import the libraries you need. You'll need three libraries---the one we just installed, and two built-in Python libraries. You can type:
+Start a new, blank plaintext file in the same directory as your data files called `quaker_network.py` (For more details on installing and running Python, see [this tutorial](/en/lessons/mac-installation)). At the top of that file, import the libraries you need. You'll need three libraries---the one we just installed, and two built-in Python libraries. You can type:
 
 ```python
 import csv
@@ -137,7 +137,7 @@ with open('quakers_edgelist.csv', 'r') as edgecsv: # Open the file
     edges = [tuple(e) for e in edgereader][1:] # Retrieve the data
 ```
 
-This code performs similar functions to the ones in [this tutorial](/lessons/working-with-text-files) but uses the CSV module to load your nodes and edges. You'll go back and get more node information later, but for now you need two things: the full list of nodes and a list of edge pairs (as tuples of nodes).[^slicing] These are the forms NetworkX will need to create a "graph object," a special NetworkX data type you'll learn about in the next section.
+This code performs similar functions to the ones in [this tutorial](/en/lessons/working-with-text-files) but uses the CSV module to load your nodes and edges. You'll go back and get more node information later, but for now you need two things: the full list of nodes and a list of edge pairs (as tuples of nodes).[^slicing] These are the forms NetworkX will need to create a "graph object," a special NetworkX data type you'll learn about in the next section.
 
 At this stage, before you start using NetworkX, you can do some basic sanity checks to make sure that your data loaded correctly using built-in Python functions and methods. Typing
 
@@ -326,11 +326,11 @@ After seeing what the *dataset* looks like, it's important to see what the *netw
 
 The network's shape and basic properties will give you a handle on what you're working with and what analyses seem reasonable. You already know the number of nodes and edges, but what does the network 'look' like? Do nodes cluster together, or are they equally spread out? Are there complex structures, or is every node arranged along a straight line?
 
-The visualization below, created in network visualization tool [Gephi](https://gephi.org/), will give you an idea of the topology of this network.[^singletons] You could create a similar graph in Palladio following [this tutorial](/lessons/creating-network-diagrams-from-historical-sources).
+The visualization below, created in network visualization tool [Gephi](https://gephi.org/), will give you an idea of the topology of this network.[^singletons] You could create a similar graph in Palladio following [this tutorial](/en/lessons/creating-network-diagrams-from-historical-sources).
 
 {% include figure.html filename="exploring-and-analyzing-network-data-with-python-1.png" caption="Force-directed network visualization of the Quaker data, created in Gephi" %}
 
-There are lots of ways to visualize a network, and a [force-directed layout](https://en.wikipedia.org/wiki/Force-directed_graph_drawing), of which the above image is an example, is among the most common. Force-directed graphs attempt to find the optimum placement for nodes with a calculation based on the [tension of springs in Hooke's Law](http://6dfb.tumblr.com/post/159420498411/ut-tensio-sic-vis-introducing-the-hooke-graph), which for smaller graphs often creates clean, easy-to-read visualizations. The visualization embedded above shows you there is a single large **component** of connected nodes (in the center) and several small components with just one or two connections around the edges. This is a fairly common network structure. Knowing that there are multiple components in the network will usefully limit the calculations you'll want to perform on it. By displaying the number of connections (known as **degree**, see below) as the size of nodes, the visualization also shows that there are a few nodes with lots of connections that keep the central component tied together. These large nodes are known as **hubs**, and the fact that they show up so clearly here gives you a clue as to what you'll find when you measure **centrality** in the next section.
+There are lots of ways to visualize a network, and a [force-directed layout](https://en.wikipedia.org/wiki/Force-directed_graph_drawing), of which the above image is an example, is among the most common. Force-directed graphs attempt to find the optimum placement for nodes with a calculation based on the [tension of springs in Hooke's Law](https://6dfb.tumblr.com/post/159420498411/ut-tensio-sic-vis-introducing-the-hooke-graph), which for smaller graphs often creates clean, easy-to-read visualizations. The visualization embedded above shows you there is a single large **component** of connected nodes (in the center) and several small components with just one or two connections around the edges. This is a fairly common network structure. Knowing that there are multiple components in the network will usefully limit the calculations you'll want to perform on it. By displaying the number of connections (known as **degree**, see below) as the size of nodes, the visualization also shows that there are a few nodes with lots of connections that keep the central component tied together. These large nodes are known as **hubs**, and the fact that they show up so clearly here gives you a clue as to what you'll find when you measure **centrality** in the next section.
 
 Visualizations, however, only get you so far. The more networks you work with, the more you realize most appear similar enough that it's hard to tell one from the next. Quantitative metrics let you differentiate networks, learn about their topologies, and turn a jumble of nodes and edges into something you can learn from.
 
@@ -347,7 +347,7 @@ print("Network density:", density)
 
 The output of density is a number, so that's what you'll see when you print the value. In this case, the density of our network is approximately 0.0248. On a scale of 0 to 1, not a very dense network, which comports with what you can see in the visualization.[^density] A 0 would mean that there are no connections at all, and a 1 would indicate that all *possible* edges are present (a perfectly connected network): this Quaker network is on the lower end of that scale, but still far from 0.
 
-A shortest path measurement is a bit more complex. It calculates the shortest possible series of nodes and edges that stand between any two nodes, something hard to see in large network visualizations. This measure is essentially finding friends-of-friends---if my mother knows someone that I don't, then mom is the shortest path between me and that person. The Six Degrees of Kevin Bacon game, from which [our project](http://sixdegreesoffrancisbacon.com/) takes its name, is basically a game of finding shortest paths (with a **path length** of six or less) from Kevin Bacon to any other actor.
+A shortest path measurement is a bit more complex. It calculates the shortest possible series of nodes and edges that stand between any two nodes, something hard to see in large network visualizations. This measure is essentially finding friends-of-friends---if my mother knows someone that I don't, then mom is the shortest path between me and that person. The Six Degrees of Kevin Bacon game, from which [our project](https://sixdegreesoffrancisbacon.com/) takes its name, is basically a game of finding shortest paths (with a **path length** of six or less) from Kevin Bacon to any other actor.
 
 To calculate a shortest path, you'll need to pass several input variables (information you give to a Python function): the whole graph, your source node, and your target node. Let's find the shortest path between Margaret Fell and George Whitehead. Since we used names to uniquely identify our nodes in the network, you can access those nodes (as the **source** and **target** of your path), using the names directly.
 
@@ -488,7 +488,7 @@ Another common thing to ask about a network dataset is what the subgroups or com
 
 Very dense networks are often more difficult to split into sensible partitions. Luckily, as you discovered earlier, this network is not all that dense. There aren't nearly as many actual connections as possible connections, and there are several altogether disconnected components. Its worthwhile partitioning this sparse network with modularity and seeing if the result make historical and analytical sense.
 
-Community detection and partitioning in NetworkX requires a little more setup than some of the other metrics. There are some built-in approaches to community detection (like [minimum cut](https://perma.cc/B6CN-LQX4), but modularity is not included with NetworkX. Fortunately there's an [additional python module](https://github.com/taynaud/python-louvain/) you can use with NetworkX, which you already installed and imported at the beginning of this tutorial. You can read the [full documentation](http://perso.crans.org/aynaud/communities/api.html) for all of the functions it offers, but for most community detection purposes you'll only want `best_partition()`:
+Community detection and partitioning in NetworkX requires a little more setup than some of the other metrics. There are some built-in approaches to community detection (like [minimum cut](https://perma.cc/B6CN-LQX4), but modularity is not included with NetworkX. Fortunately there's an [additional python module](https://github.com/taynaud/python-louvain/) you can use with NetworkX, which you already installed and imported at the beginning of this tutorial. You can read the [full documentation](https://perso.crans.org/aynaud/communities/api.html) for all of the functions it offers, but for most community detection purposes you'll only want `best_partition()`:
 
 ```python
 communities = community.greedy_modularity_communities(G)
@@ -541,7 +541,7 @@ Working with NetworkX alone will get you far, and you can find out a lot about m
 
 # Exporting Data
 
-NetworkX supports a very large number of file formats for [data export](https://perma.cc/CYJ5-P6MR). If you wanted to export a plaintext edgelist to load into Palladio, there's a [convenient wrapper](https://perma.cc/MW25-9VMN) for that. Frequently at *Six Degrees of Francis Bacon*, we export NetworkX data in [D3's specialized JSON format](https://perma.cc/454D-C3FS), for visualization in the browser. You could even [export](https://perma.cc/PGS5-SKYC) your graph as a [Pandas dataframe](http://pandas.pydata.org/) if there were more advanced statistical operations you wanted to run. There are lots of options, and if you've been diligently adding all your metrics back into your Graph object as attributes, all your data will be exported in one fell swoop.
+NetworkX supports a very large number of file formats for [data export](https://perma.cc/CYJ5-P6MR). If you wanted to export a plaintext edgelist to load into Palladio, there's a [convenient wrapper](https://perma.cc/MW25-9VMN) for that. Frequently at *Six Degrees of Francis Bacon*, we export NetworkX data in [D3's specialized JSON format](https://perma.cc/454D-C3FS), for visualization in the browser. You could even [export](https://perma.cc/PGS5-SKYC) your graph as a [Pandas dataframe](https://pandas.pydata.org/) if there were more advanced statistical operations you wanted to run. There are lots of options, and if you've been diligently adding all your metrics back into your Graph object as attributes, all your data will be exported in one fell swoop.
 
 Most of the export options work in roughly the same way, so for this tutorial you'll learn how to export your data into Gephi's GEXF format. Once you've exported the file, you can upload it [directly into Gephi](https://gephi.org/quickstart/) for visualization.
 

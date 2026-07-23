@@ -41,7 +41,7 @@ Como paso final, utilizarás las medidas generadas a través de ImagePlot para c
 
 ### Información de trasfondo
 #### ¿Qué es ImagePlot?
-Esta herramienta fue creada por el equipo de [Software Studies Initiative](http://lab.culturalanalytics.info/) para realizar visualizaciones que puedan abarcar la totalidad de una colección de imágenes y opera dentro de otro programa de libre acceso llamado [ImageJ](https://imagej.net/). Los creadores de ImagePlot utilizan el término "vista a distancia", *distant viewing* en inglés, para describir este tipo de visualización y análisis porque el punto de partida o enfoque principal es lo que se puede percibir de la totalidad de los elementos de la colección, en vez de uno o dos elementos a la vez.
+Esta herramienta fue creada por el equipo de [Software Studies Initiative](https://lab.culturalanalytics.info/) para realizar visualizaciones que puedan abarcar la totalidad de una colección de imágenes y opera dentro de otro programa de libre acceso llamado [ImageJ](https://imagej.net/). Los creadores de ImagePlot utilizan el término "vista a distancia", *distant viewing* en inglés, para describir este tipo de visualización y análisis porque el punto de partida o enfoque principal es lo que se puede percibir de la totalidad de los elementos de la colección, en vez de uno o dos elementos a la vez.
 
 #### Visualización de metadatos
 
@@ -51,7 +51,7 @@ No obstante, no necesitamos una colección inmensa para sacarle provecho a la vi
 
 #### La colección y los metadatos
 
-Para esta lección utilizaremos una serie de imágenes provenientes de una colección de afiches del [Museo de la Palabra y la Imágen](https://web.archive.org/web/20201120143502/http://museo.com.sv/es/) en San Salvador, El Salvador. Los 394 afiches representados en los metadatos fueron creados durante los 12 años de la Guerra Civil de El Salvador (1980–1992), por más de 171 organizaciones de por lo menos 21 países. Los metadatos fueron preparados por personal de MUPI junto con el equipo de [Iniciativas Digitales de América Latina](http://ladi.lib.utexas.edu/)[^1] y la hoja de metadatos que utilizarás en esta lección es una versión modificada de la original.
+Para esta lección utilizaremos una serie de imágenes provenientes de una colección de afiches del [Museo de la Palabra y la Imágen](https://web.archive.org/web/20201120143502/https://museo.com.sv/es/) en San Salvador, El Salvador. Los 394 afiches representados en los metadatos fueron creados durante los 12 años de la Guerra Civil de El Salvador (1980–1992), por más de 171 organizaciones de por lo menos 21 países. Los metadatos fueron preparados por personal de MUPI junto con el equipo de [Iniciativas Digitales de América Latina](https://ladi.lib.utexas.edu/)[^1] y la hoja de metadatos que utilizarás en esta lección es una versión modificada de la original.
 
 ## Imageplot
 Para utilizar ImagePlot debes comenzar descargando [ImageJ](https://imagej.net/ij/download.html) y luego descargar los cuatro macros de nuestro [repositorio en GitHub](https://github.com/programminghistorian/jekyll/tree/Issue-3275/assets/introduccion-a-imageplot-y-la-visualizacion-de-metadatos/)[^2]. Para organizar los archivos, puedes crear una carpeta con el nombre que prefieras para guardar los cuatro macros en un solo sitio.  

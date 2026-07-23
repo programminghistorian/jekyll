@@ -15,12 +15,12 @@ exclude_from_check:
 activity: transforming
 topics: [python]
 abstract: "In this lesson you will learn how to manipulate text files using Python."
-next: code-reuse-and-modularity
-previous: viewing-html-files
+next: /en/lessons/code-reuse-and-modularity
+previous: /en/lessons/viewing-html-files
 series_total: 15 lessons
 sequence: 3
 python_warning: false
-redirect_from: /lessons/working-with-text-files
+redirect_from: /lessons/working-with-text-files/
 avatar_alt: Bespectacled man reading an alphabet book
 doi: 10.46430/phen0020
 ---
@@ -274,10 +274,10 @@ Suggested Readings
 
 -   [Non-Programmer’s Tutorial for Python 2.6/Hello, World][]
 
-  [Mac Installation]: /lessons/mac-installation
-  [Windows Installation]: /lessons/windows-installation
-  [Linux Installation]: /lessons/linux-installation
-  [print]: https://docs.python.org/2/reference/simple_stmts.html#the-print-statement
-  [reserved word]: http://docs.python.org/release/2.5.4/ref/keywords.html
-  [File Objects]: https://docs.python.org/2/library/stdtypes.html#bltin-file-objects
-  [Non-Programmer’s Tutorial for Python 2.6/Hello, World]: http://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_2.6/Hello,_World
+- [Mac Installation](/en/lessons/mac-installation)
+- [Windows Installation](/en/lessons/windows-installation)
+- [Linux Installation](/en/lessons/linux-installation)
+- [print](https://docs.python.org/2/reference/simple_stmts.html#the-print-statement)
+- [reserved word](https://docs.python.org/release/2.5.4/ref/keywords.html)
+- [File Objects](https://docs.python.org/2/library/stdtypes.html#bltin-file-objects)
+- [Non-Programmer’s Tutorial for Python 2.6/Hello, World](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_2.6/Hello,_World)

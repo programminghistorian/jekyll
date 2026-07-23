@@ -29,7 +29,7 @@ After [World War II](https://perma.cc/89BN-3NCG), European cities faced a monume
 
 Sister-city relationships present historians with both an opportunity and a challenge. The opportunity lies in their potential to reveal patterns of post-war reconciliation and diplomacy. The challenge comes from their scale and complexity: there are many hundreds of European cities to analyze, and each one might have formed dozens of partnerships across multiple decades. By converting these complex networks of sister-city relationships into visual patterns, we can explore questions that are difficult to answer through traditional methods alone. For example, did cities of [West Germany](https://perma.cc/ALL6-TWXA) preferentially form partnerships with French cities immediately after the war? Did the [Iron Curtain](https://perma.cc/XH8M-XCJ9) create distinct patterns of sister-city relationships between Eastern and Western Europe? How did city size and geographic distance influence diplomatic connections? This case is a good example of how useful data visualization can be for historical research.
 
-The R package [ggplot2](http://ggplot2.tidyverse.org) provides powerful tools for investigating such questions through data visualization. While spreadsheets and basic charts can obscure patterns, ggplot2's sophisticated visualization capabilities allow historians to uncover hidden relationships in data. For example, [scatter plots](https://perma.cc/47QY-KL2V) can reveal correlations between numerical variables like population sizes and geographic distances, [bar charts](https://perma.cc/H58M-6UDU) can show the distribution of partnerships across different categories of cities, and [histograms](https://perma.cc/W7TW-9V52) can expose patterns in demographic data that might otherwise remain invisible.
+The R package [ggplot2](https://ggplot2.tidyverse.org) provides powerful tools for investigating such questions through data visualization. While spreadsheets and basic charts can obscure patterns, ggplot2's sophisticated visualization capabilities allow historians to uncover hidden relationships in data. For example, [scatter plots](https://perma.cc/47QY-KL2V) can reveal correlations between numerical variables like population sizes and geographic distances, [bar charts](https://perma.cc/H58M-6UDU) can show the distribution of partnerships across different categories of cities, and [histograms](https://perma.cc/W7TW-9V52) can expose patterns in demographic data that might otherwise remain invisible.
 
 This lesson differs from standard ggplot2 guides by focusing specifically on the needs of urban historians. Rather than using generic datasets, we'll work with historical data about sister-city relationships to demonstrate how visualization techniques can illuminate historical patterns and processes. Through this approach, you'll learn to create visualizations that reveal complex partnerships and make historical findings more accessible to a broader audience.
 
@@ -68,7 +68,7 @@ We have many reasons for chosing to use ggplot2 for this analysis. The package h
 - It relies on a theoretical framework (detailed below) that ensures your graphs meaningfully convey information, which is particularly important when working with complex urban and demographic datasets.
 - It is relatively simple to use while remaining powerful.
 - It creates publication-ready graphs.
-- It comes with community-developed [extensions](http://www.ggplot2-exts.org/) which further enhance its capabilities, such as additional functions, graphs, and themes.
+- It comes with community-developed [extensions](https://www.ggplot2-exts.org/) which further enhance its capabilities, such as additional functions, graphs, and themes.
 - It is versatile, as it can handle various data structures, including:
    * Numerical data (continuous and discrete)
    * Categorical data (factors and character strings)
@@ -154,7 +154,7 @@ ggplot(data = eudata.perc, aes(x = typecountry, y = perc)) +
 
 There is an important difference between the first plot (Figure 1) and this one. In the previous plot, ggplot2 counted the number of cities in every group (domestic, EU, non-EU). In our new plot, the tibble already contained each bar's numerical value, stored in the **perc** column. This is why we specify `y = perc` as a parameter of `aes()`. The tricky part is that by default, `geom_bar()` will use the parameter `stat = "count"`. This means it will count how many times a value appears. In other words, it aggregates data for you. However, you can inform ggplot2 that you have already calculated your values by using the parameter `stat = "identity"`.
 
-Figure 2 shows that most sister cities are from a different country than the origin city, yet still within the EU (around 68%). This could be due to geographical proximity, cultural similarities, or economic ties within the European Union. you can get a more detailed look by adding in the name of each origin country to the visualization. You could decide to visualize this either by breaking down each bar into percentages by origin country (Figure 3), or by creating separate graphs for each origin country (this is called 'facetting' in ggplot2 lingo, which we [cover below](#Facetting-a-Graph)). Let's try the first approach, aggregating the data per country and per type of country while adding a new column with percentages:
+Figure 2 shows that most sister cities are from a different country than the origin city, yet still within the EU (around 68%). This could be due to geographical proximity, cultural similarities, or economic ties within the European Union. you can get a more detailed look by adding in the name of each origin country to the visualization. You could decide to visualize this either by breaking down each bar into percentages by origin country (Figure 3), or by creating separate graphs for each origin country (this is called 'facetting' in ggplot2 lingo, which we [cover below](#facetting-a-graph)). Let's try the first approach, aggregating the data per country and per type of country while adding a new column with percentages:
 
 ```
 `eudata.perc.country` <- eudata %>%
@@ -339,7 +339,7 @@ p1 +
 
 {% include figure.html filename="en-or-urban-demographic-data-r-ggplot2-11.png" alt="Scatter plot that uses scale_colour_manual() to change the colors of the scatterplot points." caption="Figure 11. Using scale_colour_manual() to specify the colors of the scatter plot's points." %}
 
-However, you can also simply rely on predefined color scales, such as the [color brewer palettes](http://colorbrewer2.org). It's better to use these whenever possible, because choosing the right colors for visualizations is a very complicated issue (for instance, avoiding colors that are not distinguishable by people with impaired vision). Fortunately, ggplot2 comes with `scale_colour_brewer()` already [integrated](https://perma.cc/BST9-7GMG):
+However, you can also simply rely on predefined color scales, such as the [color brewer palettes](https://colorbrewer2.org). It's better to use these whenever possible, because choosing the right colors for visualizations is a very complicated issue (for instance, avoiding colors that are not distinguishable by people with impaired vision). Fortunately, ggplot2 comes with `scale_colour_brewer()` already [integrated](https://perma.cc/BST9-7GMG):
 
 ```
 p1 +
@@ -447,7 +447,7 @@ p3 +
 
 ### Extending ggplot2 with Other Packages
 
-One of ggplot2's strengths is its extensive collection of [extensions](http://www.ggplot2-exts.org/) that can help enhance your analysis with specialized visualizations like network graphs (useful for showing relationships between cities, for example), time series graphs (for tracking demographic changes over time), and ridgeline plots (for comparing population distributions across different urban areas).
+One of ggplot2's strengths is its extensive collection of [extensions](https://www.ggplot2-exts.org/) that can help enhance your analysis with specialized visualizations like network graphs (useful for showing relationships between cities, for example), time series graphs (for tracking demographic changes over time), and ridgeline plots (for comparing population distributions across different urban areas).
 
 Let's explore an example showcasing a ggplot2 extension that creates more advanced and visually striking plots. In this case, we will create a [ridgeline plot](https://perma.cc/D9Z2-XHAV) – also known as a 'joyplot' – designed to visualize changes in distributions over time, across different categories. Ridgeline plots are particularly effective for comparing multiple distributions in a compact and aesthetically pleasing manner.
 
@@ -482,7 +482,7 @@ To gain a more thorough understanding of ggplot2, we recommend you explore some 
 
 * The [official ggplot2 site](https://ggplot2.tidyverse.org/).
 
-* Hadley Wickham's books [`ggplot2`: _Elegant Graphics for Data Analysis_](https://ggplot2-book.org/) and [_R for Data Science_](http://r4ds.hadley.nz/).
+* Hadley Wickham's books [`ggplot2`: _Elegant Graphics for Data Analysis_](https://ggplot2-book.org/) and [_R for Data Science_](https://r4ds.hadley.nz/).
 
 * Hadley Wickham's [original paper](https://doi.org/10.1198/jcgs.2009.07098) on the grammar of graphics.
 
@@ -500,7 +500,7 @@ To gain a more thorough understanding of ggplot2, we recommend you explore some 
 
 * The [general documentation](https://ggplot2.tidyverse.org/reference/).
 
-* The [Cookbook for R](http://www.cookbook-r.com/Graphs/) book (based on  Winston Chang's [_R Graphics Cookbook. Practical Recipes for Visualizing Data_](http://shop.oreilly.com/product/0636920023135.do)).
+* The [Cookbook for R](https://www.cookbook-r.com/Graphs/) book (based on  Winston Chang's [_R Graphics Cookbook. Practical Recipes for Visualizing Data_](https://shop.oreilly.com/product/0636920023135.do)).
 
 * This official [R cheatsheet](https://www.rstudio.com/resources/cheatsheets/).
 

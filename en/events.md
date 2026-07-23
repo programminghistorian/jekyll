@@ -1,7 +1,7 @@
 ---
 title: Events
 layout: blank
-redirect_from: /events
+redirect_from: /events/
 ---
 
 # Events

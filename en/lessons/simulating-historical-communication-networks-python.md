@@ -36,11 +36,11 @@ The model we will build together is relatively basic, featuring only simple inte
 
 The model we build here will not be sufficiently complex to give genuinely valuable perspectives on this case study on its own, but it will highlight some key properties of ABMs, and various ways to implement them. Crucially, by the end of this lesson, you will be able to extend the model further with more complex functionalities.
 
-In the [first part](#Part-1:-Introduction-to-Simulations-and-Agent-based-Modeling), you will learn what historical simulation methods are all about, their methodological and epistemological quirks, and how to start applying Agent-Based Modeling to your own research.
+In the [first part](#part-1-introduction-to-simulations-and-agent-based-modeling), you will learn what historical simulation methods are all about, their methodological and epistemological quirks, and how to start applying Agent-Based Modeling to your own research.
 
-In the [second part](#Part-2:-Programming-Agent-based-Models-with-Mesa), you will follow a step-by-step guide to building your first Agent-Based Model, using the Python package mesa. This will be accompanied by further comments and reflections on the methodology of Agent-Based Modeling.
+In the [second part](#part-2-programming-agent-based-models-with-mesa), you will follow a step-by-step guide to building your first Agent-Based Model, using the Python package mesa. This will be accompanied by further comments and reflections on the methodology of Agent-Based Modeling.
 
-In the [third part](#Part-3:-A-Summary,-Open-Questions-and-Next-Steps), you will explore ways to extend the model and further enhance your expertise in building Agent-Based Models.
+In the [third part](#part-3-summary-open-questions-and-next-steps), you will explore ways to extend the model and further enhance your expertise in building Agent-Based Models.
 
 
 ## Lesson Goals
@@ -925,13 +925,13 @@ Do not hesitate to get in touch with us if you want to be part of this discussio
 
 [^1]: Hotson, Howard, and Thomas Wallnig, [Eds.] (2019), Reassembling the Republic of Letters in the Digital Age: Standards, Systems, Scholarship. Göttingen, Germany: Göttingen University Press. [https://doi.org/10.17875/gup2019-1146](https://doi.org/10.17875/gup2019-1146).
 
-[^2]: Ureña-Carrion, Javier, Petri Leskinen, Jouni Tuominen, Charles van den Heuvel, Eero Hyvönen, and Mikko Kivelä (2021), Communication Now and Then: Analyzing the Republic of Letters as a Communication Network. [http://arxiv.org/abs/2112.04336](http://arxiv.org/abs/2112.04336).
+[^2]: Ureña-Carrion, Javier, Petri Leskinen, Jouni Tuominen, Charles van den Heuvel, Eero Hyvönen, and Mikko Kivelä (2021), Communication Now and Then: Analyzing the Republic of Letters as a Communication Network. [https://arxiv.org/abs/2112.04336](https://arxiv.org/abs/2112.04336).
 
 [^3]: Miert, Dirk van (2014), “What was the Republic of Letters? A brief introduction to a long history.” Groniek, no. 204/5 (2014). [https://ugp.rug.nl/groniek/article/view/27601](https://perma.cc/36K9-7LUU).
 
 [^4]: Schmitz, Jascha Merijn: Simulation. In: AG Digital Humanities Theorie des Verbandes Digital Humanities im deutschsprachigen Raum e. V. (Hg.): Begriffe der Digital Humanities. Ein diskursives Glossar (= Zeitschrift für digitale Geisteswissenschaften / Working Papers, 2). Wolfenbüttel 2023. 25.05.2023. Version 2.0 vom 16.05.2024. HTML / XML / PDF. [https://doi.org/10.17175/wp_2023_011_v2](https://doi.org/10.17175/wp_2023_011_v2).
 
-[^5]: Gavin, Michael. Agent-Based Modeling and Historical Simulation. Digital Humanities Quarterly, 008(4):195, December 2014. [http://www.digitalhumanities.org/dhq/vol/8/4/000195/000195.html](https://perma.cc/S3WG-SMXR).
+[^5]: Gavin, Michael. Agent-Based Modeling and Historical Simulation. Digital Humanities Quarterly, 008(4):195, December 2014. [https://www.digitalhumanities.org/dhq/vol/8/4/000195/000195.html](https://perma.cc/S3WG-SMXR).
 
 [^6]: Romein, C. A., Max Kemman, Julie M. Birkholz, J. Baker, M. D. Gruijter, Albert Meroño-Peñuela, T. Ries, Ruben Ros, S. Scagliola (2020). State of the Field: Digital History. In: Journal of the Historical Association 105 (365), pp. 291-312.
 

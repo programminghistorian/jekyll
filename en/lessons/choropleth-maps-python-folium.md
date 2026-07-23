@@ -743,7 +743,7 @@ Now, high population counties (like Los Angeles and Cook) don't appear so bad. I
 
 ### Uneven Distribution of Normalized Data
 
-[Earlier](#The-Problem-of-Uneven-Distribution-of-Data), you saw that the distribution of the `count` variable was wildly uneven. Is `count_per_100k` any better?
+[Earlier](#the-problem-of-unevenly-distributed-data), you saw that the distribution of the `count` variable was wildly uneven. Is `count_per_100k` any better?
 
 ```python
 map_df['count_per_100k'].describe()

@@ -15,12 +15,12 @@ exclude_from_check:
 activity: transforming
 topics: [python]
 abstract: "This lesson is a brief introduction to string manipulation techniques in Python."
-next: from-html-to-list-of-words-1
-previous: working-with-web-pages
+next: /en/lessons/from-html-to-list-of-words-1
+previous: /en/lessons/working-with-web-pages
 series_total: 15 lessons
 sequence: 6
 python_warning: false
-redirect_from: /lessons/manipulating-strings-in-python
+redirect_from: /lessons/manipulating-strings-in-python/
 avatar_alt: A man playing a guitar
 doi: 10.46430/phen0013
 ---

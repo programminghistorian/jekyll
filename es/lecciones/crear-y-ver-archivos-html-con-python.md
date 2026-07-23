@@ -19,8 +19,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/48
 layout: lesson
-next: salida-de-datos-como-archivo-html
-previous: contar-frecuencias
+next: /es/lecciones/salida-de-datos-como-archivo-html
+previous: /es/lecciones/contar-frecuencias
 original: creating-and-viewing-html-files-with-python
 difficulty: 2
 activity: presenting
@@ -150,7 +150,7 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 -   python-es-lecciones6.zip [zip sync]
 
   [archivo zip de las lecciones anteriores]: /assets/python-es-lecciones5.zip
-  [Zotero]: http://zotero.org
-  [tutorial de HTML de W3 Schools]: http://www.w3schools.com/html/default.asp
-  [declaración doctype]: http://www.w3schools.com/tags/tag_doctype.asp
+  [Zotero]: https://zotero.org
+  [tutorial de HTML de W3 Schools]: https://www.w3schools.com/html/default.asp
+  [declaración doctype]: https://www.w3schools.com/tags/tag_doctype.asp
   [zip sync]: /assets/python-es-lecciones6.zip

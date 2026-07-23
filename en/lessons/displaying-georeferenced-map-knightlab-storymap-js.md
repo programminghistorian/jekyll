@@ -25,7 +25,7 @@ abstract: In this lesson, you will learn how to display a georeferenced map from
 
 # Lesson Goals
 
-Georeferencing is the process of assigning geographic coordinates to a scanned map or raster image. Many historians are now [georeferencing](https://perma.cc/5CLB-HNXN) historical maps to study how places have changed over time. After georeferencing a historic map, you may want to display it online to share your research or tell a story. In this lesson, we will show you how to share a georeferenced map online using StoryMap JS, an interactive web-based mapping platform. [StoryMap JS](https://perma.cc/6PNW-KTM3) is an open-source tool from Knight Lab at Northwestern University, which allows you to integrate historical and contemporary maps into interactive stories. If you haven’t yet created a georeferenced map, the *Programming Historian* lessons on [Georeferencing in QGIS 2.0](/lessons/georeferencing-qgis) and [Introduction to Map Warper](/en/lessons/introduction-map-warper) offer detailed tutorials.
+Georeferencing is the process of assigning geographic coordinates to a scanned map or raster image. Many historians are now [georeferencing](https://perma.cc/5CLB-HNXN) historical maps to study how places have changed over time. After georeferencing a historic map, you may want to display it online to share your research or tell a story. In this lesson, we will show you how to share a georeferenced map online using StoryMap JS, an interactive web-based mapping platform. [StoryMap JS](https://perma.cc/6PNW-KTM3) is an open-source tool from Knight Lab at Northwestern University, which allows you to integrate historical and contemporary maps into interactive stories. If you haven’t yet created a georeferenced map, the *Programming Historian* lessons on [Georeferencing in QGIS 2.0](/en/lessons/georeferencing-qgis) and [Introduction to Map Warper](/en/lessons/introduction-map-warper) offer detailed tutorials.
 
 # Creating your narrative with StoryMap JS
 
@@ -58,7 +58,7 @@ To access the StoryMap JS authoring tool, go to the [StoryMap JS website](https:
 
 {% include figure.html filename="make_storymapjs.png" caption="Story Map JS: Make a StoryMap." %}
 
-You will be prompted to login with a Google account.  If you don’t have one, you can create one at [gmail.com](http://gmail.com).
+You will be prompted to login with a Google account.  If you don’t have one, you can create one at [gmail.com](https://gmail.com).
 
 {% include figure.html filename="gmail_signin.png" caption="StoryMap JS: Sign in with Google." %}
 

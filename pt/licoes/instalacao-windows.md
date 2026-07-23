@@ -159,6 +159,6 @@ Agora que você e o seu computador estão preparados, podemos seguir para tarefa
   [site do Python]: https://www.python.org/downloads/windows/
   [outros editores]: https://wiki.python.org/python/PythonEditors
   [UTF-8]: https://pt.wikipedia.org/wiki/UTF-8
-  [Noções básicas de páginas web e HTML]: nocoes-basicas-paginas-web-html
+  [Noções básicas de páginas web e HTML]: /pt/licoes/nocoes-basicas-paginas-web-html
 
 

@@ -44,7 +44,7 @@ Al final de la lección,
 ## Introducción
 Los datos que puedes encontrar disponibles en red raramente están en el formato necesario para su análisis y necesitarás manipularlos antes de explorar las preguntas que te interesan. ¡Esto puede llevar más tiempo que el análisis! En este tutorial vamos a aprender algunas técnicas básicas de manipulación, manejo y administración de tus datos en R. Más específicamente, vamos a seguir la filosofía de "datos limpios" o [*"tidy data"*](https://www.jstatsoft.org/article/view/v059i10) articulada por Hadley Wickham.
 
-Según [Wickham](http://hadley.nz), los datos están "limpios" cuando cumplen tres criterios:
+Según [Wickham](https://hadley.nz), los datos están "limpios" cuando cumplen tres criterios:
 1. Cada observación está en una fila.
 2. Cada variable está en una columna.
 3. Cada valor tiene su propia celda.
@@ -61,7 +61,7 @@ Tal vez lo más importante sea que tener nuestros datos en este formato nos perm
 En este tutorial nos enfocamos en el paquete [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html) de tidyverse pero merece la pena mencionar otros que nos encontraremos por el camino:
 
 [**magittr**](https://magrittr.tidyverse.org): Este paquete nos da acceso al el operador `%>%` y hace nuestro código más fácilmente de leer.
-[**ggplot2**](https://ggplot2.tidyverse.org): Este paquete utiliza  ["la gramática de gráficos"](http://academica-e.unavarra.es/bitstream/handle/2454/15785/Gramática.pdf?sequence=1)[^1] para ofrecer una manera fácil de visualizar nuestros datos.
+[**ggplot2**](https://ggplot2.tidyverse.org): Este paquete utiliza  ["la gramática de gráficos"](https://academica-e.unavarra.es/bitstream/handle/2454/15785/Gramática.pdf?sequence=1)[^1] para ofrecer una manera fácil de visualizar nuestros datos.
 [**readr**](https://readr.tidyverse.org): Este paquete da acceso a un método más rápido y racionalizado para importar datos rectangulares (una tabla), como son los archivos CSV (valores separados por comas).
 [**tibble**](https://tibble.tidyverse.org): Este paquete nos permite reconceptualizar el formato _data frame_ (marco o tabla de datos) para que sea más fácil trabajar con ellos e imprimirlos.
 
@@ -128,7 +128,7 @@ ggplot(data=poblacion_mississipi_y_virginia, aes(x=año, y=poblacion, color=esta
 Hacer cambios rápidos en el código y reanalizar nuestros datos es una parte fundamental del análisis exploratorio de datos (AED, o EDA por sus siglas en inglés). En vez de tratar de "probar" una hipótesis, el análisis exploratorio de datos nos ayuda a entender nuestros datos mejor y a hacernos preguntas sobre ellos. Para los historiadores el AED ofrece una forma de saber cuándo indagar más en un tema y cuando dejarlo a un lado, y esto es en el área en el que R sobresale.
 
 ## Línea de operaciones
-Antes de ver `dplyr`, tenemos que entender lo que es la línea de operaciones ```%>%``` en R porque la vamos a utilizar mucho en nuestros ejemplos. Como decíamos, la línea de operaciones es parte del paquete  [magittr](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html) creado por [Stefan Milton Bache](http://stefanbache.dk) y [Hadley Wickham](http://hadley.nz/) y está incluida en tidyverse. Su nombre es un homenaje al pintor surrealista Rene Magritte y su famosa obra "[La traición de las imágenes](https://historia-arte.com/obras/la-traicion-de-las-imagenes)", que muestra una pipa con las palabras "esto no es una pipa" debajo, en francés.
+Antes de ver `dplyr`, tenemos que entender lo que es la línea de operaciones ```%>%``` en R porque la vamos a utilizar mucho en nuestros ejemplos. Como decíamos, la línea de operaciones es parte del paquete  [magittr](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html) creado por [Stefan Milton Bache](https://stefanbache.dk) y [Hadley Wickham](https://hadley.nz/) y está incluida en tidyverse. Su nombre es un homenaje al pintor surrealista Rene Magritte y su famosa obra "[La traición de las imágenes](https://historia-arte.com/obras/la-traicion-de-las-imagenes)", que muestra una pipa con las palabras "esto no es una pipa" debajo, en francés.
 
 La línea de operaciones te permite pasar lo que está a su izquierda como la primera variable en una función especificada a la derecha. Aunque pueda parecer extraño al principio, una vez que lo aprendas verás que hace tu código más fácil de leer al evitar declaraciones anidadas. No te preocupes si esto te resulta un poco complicado ahora. Será más fácil una vez que trabajemos con ejemplos.
 
@@ -482,7 +482,7 @@ Este tutorial debería darte una idea de cómo organizar y manipular tus datos e
 
 * Para aprender más sobre el paquete 'ggplot2' puedes consultar la sección "[Visualización de datos](https://cienciadedatos.github.io/r4ds/03-visualize.html)" en el libro _R para Ciencia de Datos_ de Hadley Wickham y Garrett Grolemund.
 
-* Tanto la *[Guía  para  la  Presentación  de  Gráficos  Estadísticos](https://www.inei.gob.pe/media/MenuRecursivo/metodologias/libro.pdf),* del Instituto  Nacional  de Estadística e Informática (2009) así como la [*Gramática de las gráficas: Pistas para mejorar las representaciones de datos*](http://academica-e.unavarra.es/bitstream/handle/2454/15785/Gramática.pdf?sequence=1) de Joaquín Sevilla Moróder ofrecen explicaciones de cómo presentar tus datos y errores a evitar.
+* Tanto la *[Guía  para  la  Presentación  de  Gráficos  Estadísticos](https://www.inei.gob.pe/media/MenuRecursivo/metodologias/libro.pdf),* del Instituto  Nacional  de Estadística e Informática (2009) así como la [*Gramática de las gráficas: Pistas para mejorar las representaciones de datos*](https://academica-e.unavarra.es/bitstream/handle/2454/15785/Gramática.pdf?sequence=1) de Joaquín Sevilla Moróder ofrecen explicaciones de cómo presentar tus datos y errores a evitar.
 
 [^1]: En el tutorial original se hace referencia al libro "[The Grammar of Graphics](https://www.springer.com/us/book/9780387245447)" (2005) de Wilkinson.
 

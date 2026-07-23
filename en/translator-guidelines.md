@@ -9,9 +9,9 @@ skip_validation: true
 
 # Translator Guidelines
 <img src="{{site.baseurl}}/images/website/woman-at-writing-desk.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
-<h2 class="noclear">Step 1: <a href="#proposing-a-new-lesson">Proposing the Translation of a Lesson</a></h2>
-<h2 class="noclear">Step 2: <a href="#writing-a-new-lesson">Writing and Formatting a Translation</a></h2>
-<h2 class="noclear">Step 3: <a href="#submitting-a-new-lesson">Submitting a Translated Lesson</a></h2>
+<h2 class="noclear">Step 1: <a href="#proposing-the-translation-of-a-lesson">Proposing the Translation of a Lesson</a></h2>
+<h2 class="noclear">Step 2: <a href="#translating-a-lesson">Writing and Formatting a Translation</a></h2>
+<h2 class="noclear">Step 3: <a href="#submitting-a-translated-lesson">Submitting a Translated Lesson</a></h2>
 
 ## Proposing the Translation of a Lesson
 If you want to translate a lesson published in *Programming Historian*, please see the list of [pending translations](https://github.com/orgs/programminghistorian/projects/5) and contact {% include managing-editor.html lang=page.lang %} to discuss your language skills and translation experience. We look for translations that are rigorous, readable, and consider the needs of an English-reading audience.
@@ -34,7 +34,7 @@ All of our lessons must also be written in Markdown and follow our technical for
 ## Submitting a Translated Lesson
 Once your translation file has been prepared to the above specifications, you are ready to submit it for peer review.
 
-We have a [Programming Historian project page at GitHub](https://github.com/programminghistorian), where we maintain two repositories (a repository is a place to store related files and folders–you can think of it as a kind of folder). One of these, called [jekyll](https://github.com/programminghistorian/jekyll), hosts the code for the live version of the site you see at http://programminghistorian.org. The other repository is called [ph-submissions](https://github.com/programminghistorian/ph-submissions).
+We have a [Programming Historian project page at GitHub](https://github.com/programminghistorian), where we maintain two repositories (a repository is a place to store related files and folders–you can think of it as a kind of folder). One of these, called [jekyll](https://github.com/programminghistorian/jekyll), hosts the code for the live version of the site you see at https://programminghistorian.org. The other repository is called [ph-submissions](https://github.com/programminghistorian/ph-submissions).
 
 Our preferred way for translators to submit a lesson is to add them directly to the [ph-submissions](https://github.com/programminghistorian/ph-submissions) repository (or repo, for short). Thanks to GitHub's features, you can do this using drag-and-drop uploading actions with which you are probably already familiar. As a new translator, here are the steps:
 
@@ -50,14 +50,14 @@ Our preferred way for translators to submit a lesson is to add them directly to 
 </div>
 
 ### Translation Submitted! Now What?
-To see what happens after you submit a translation, feel free to browse our [editor guidelines](/editor-guidelines), which detail our editorial process. Highlights are below:
+To see what happens after you submit a translation, feel free to browse our [editor guidelines](/en/editor-guidelines), which detail our editorial process. Highlights are below:
 
 The most immediately important step is that your editor will create an [issue](https://github.com/programminghistorian/ph-submissions/issues) for the new translation on the [ph-submissions](https://github.com/programminghistorian/ph-submissions) repository, with a link to your lesson (that you previewed in step 5). The editor and at least two reviewers invited by the editor will post their comments to this issue.
 
 ### Wait for Reviewer Feedback
 We aim to complete the review process within four weeks, but sometimes delays occur or people get busy and the process can take longer than we hoped.
 
-In keeping with the ideas of public scholarship and open peer review, we encourage discussions to stay on GitHub. However, we also want everyone to feel comfortable with the process. If you need to discuss something privately, please feel free to [email your editor directly](/project-team), or to contact our dedicated ombudsperson (Dr Ian Milligan - i2milligan@uwaterloo.ca).
+In keeping with the ideas of public scholarship and open peer review, we encourage discussions to stay on GitHub. However, we also want everyone to feel comfortable with the process. If you need to discuss something privately, please feel free to [email your editor directly](/en/project-team), or to contact our dedicated ombudsperson (Dr Ian Milligan - i2milligan@uwaterloo.ca).
 
 ### Respond to Feedback
 Your editor and reviewers will most likely make some suggestions for improvements on the "issue" for your translation. The editor should clarify which suggestions are essential to address, which are optional, and which can be set aside.

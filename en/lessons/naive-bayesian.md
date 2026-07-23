@@ -14,7 +14,7 @@ exclude_from_check:
 activity: analyzing
 topics: [distant-reading]
 abstract: "This lesson shows how to use machine learning to extract interesting documents out of a digital archive."
-redirect_from: /lessons/naive-bayesian
+redirect_from: /lessons/naive-bayesian/
 avatar_alt: A man peers through a geometric tool
 doi: 10.46430/phen0038
 ---
@@ -93,7 +93,7 @@ not in the learner code itself).*
 
 ## The Old Bailey Digital Archive
 
-The [Old Bailey digital archive](http://www.oldbaileyonline.org/)
+The [Old Bailey digital archive](https://www.oldbaileyonline.org/)
 contains 197,745 criminal trials held at the Old Bailey, aka the Central
 Criminal Court in London. The trials were held between 1674 and 1913,
 and since the archive provides the full transcript of each trial, many
@@ -1244,7 +1244,7 @@ closely examining the data first). They are also useful in that they can
 help us determine whether something is skewing our results in a way we
 don't wish, something we may be able to correct for with different
 weighting or different selection of features (see the section on
-[Tuning](#Tuning) below).
+[Tuning](#tuning) below).
 
 ### The meanings of misclassification
 
@@ -1460,25 +1460,25 @@ big problem.
 
 Happy hunting!
 
-  [A Naive Bayesian in the Old Bailey]: http://digitalhistoryhacks.blogspot.com/2008/05/naive-bayesian-in-old-bailey-part-1.html
-  [Old Bailey digital archive]: http://www.oldbaileyonline.org/
-  [A zip file of the scripts]: /assets/naive-bayesian/baileycode.zip
-  [another zip file]: https://doi.org/10.5281/zenodo.13284
-  [BeautifulSoup]: http://www.crummy.com/software/BeautifulSoup/
-  [search interface]: http://www.oldbaileyonline.org/forms/formMain.jsp
-  [classification]: http://en.wikipedia.org/wiki/Statistical_classification
-  [clustering]: http://home.deib.polimi.it/matteucc/Clustering/tutorial_html/
-  ["ff0000," the HTML code for red]: http://www.paulgraham.com/spam.html
-  [an explanation of Bayes' rule and conditional probabilities]: http://www.yudkowsky.net/rational/bayes
-  [topic modeling]: /lessons/topic-modeling-and-mallet
-  [logarithms]: http://betterexplained.com/articles/using-logs-in-the-real-world/
-  [priors]: http://support.sas.com/documentation/cdl/en/statug/63033/HTML/default/viewer.htm#statug_introbayes_sect004.htm
-  [Introduction to the Bash Command Line]: /lessons/intro-to-bash
-  [Automated Downloading with wget]: /lessons/automated-downloading-with-wget
-  [Understanding Regular Expressions]: /lessons/understanding-regular-expressions
-  [Intro to Beautiful Soup]: /lessons/intro-to-beautiful-soup
-  [documentation for developers]: http://www.oldbaileyonline.org/static/DocAPI.jsp
-  [Old Bailey search page]: http://www.oldbaileyonline.org/forms/formMain.jsp
-  [pypy]: http://pypy.org/
-  [Snowball Stemmer]: http://snowball.tartarus.org/
-  [a more detailed explanation of TF-IDF]: http://stevenloria.com/finding-important-words-in-a-document-using-tf-idf/
+- [A Naive Bayesian in the Old Bailey](https://digitalhistoryhacks.blogspot.com/2008/05/naive-bayesian-in-old-bailey-part-1.html)  
+- [Old Bailey digital archive](https://www.oldbaileyonline.org/)  
+- [A zip file of the scripts](/assets/naive-bayesian/baileycode.zip)  
+- [another zip file](https://doi.org/10.5281/zenodo.13284)  
+- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)  
+- [search interface](https://www.oldbaileyonline.org/forms/formMain.jsp)  
+- [classification](https://en.wikipedia.org/wiki/Statistical_classification)  
+- [clustering](https://home.deib.polimi.it/matteucc/Clustering/tutorial_html/)  
+- ["ff0000," the HTML code for red](https://www.paulgraham.com/spam.html)  
+- [an explanation of Bayes' rule and conditional probabilities](https://www.yudkowsky.net/rational/bayes)  
+- [topic modeling](/en/lessons/topic-modeling-and-mallet)  
+- [logarithms](https://betterexplained.com/articles/using-logs-in-the-real-world/)  
+- [priors](https://support.sas.com/documentation/cdl/en/statug/63033/HTML/default/viewer.htm#statug_introbayes_sect004.htm)  
+- [Introduction to the Bash Command Line](/en/lessons/intro-to-bash)  
+- [Automated Downloading with wget](/en/lessons/automated-downloading-with-wget)  
+- [Understanding Regular Expressions](/en/lessons/understanding-regular-expressions)  
+- [Intro to Beautiful Soup](/en/lessons/intro-to-beautiful-soup)  
+- [documentation for developers](https://www.oldbaileyonline.org/static/DocAPI.jsp)  
+- [Old Bailey search page](https://www.oldbaileyonline.org/forms/formMain.jsp)  
+- [pypy](https://pypy.org/)  
+- [Snowball Stemmer](https://snowball.tartarus.org/)  
+- [a more detailed explanation of TF-IDF](https://stevenloria.com/finding-important-words-in-a-document-using-tf-idf/)

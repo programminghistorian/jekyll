@@ -12,7 +12,7 @@ editors:
 reviewers:
   - David Merino Recalde
   - Rosa María Muñoz Mendo
-previous: introduccion-a-tei-1
+previous: /es/lecciones/introduccion-a-tei-1
 series_total: 2 lessons
 sequence: 2
 difficulty: 2
@@ -1429,7 +1429,7 @@ Con todo, OxGarage puede ser muy útil para extraer el texto de codificaciones d
 
 [^1]: Adoptaremos la convención de usar una `@` para denotar en esta lección un atributo de un elemento de XML. Sin embargo, ese signo no se usa en el código de XML, sino solo en la documentación (como esta lección). Por ejemplo, `@type` significa el atributo `type` en —digamos— `<div type="recto">`.
 
-[^2]: Al respecto véase la [primera lección](/es/lecciones/introduccion-a-tei-1#visualizaci%C3%B3n-vs-categorizaci%C3%B3n).
+[^2]: Al respecto véase la [primera lección](/es/lecciones/introduccion-a-tei-1#visualización-vs-categorización).
 
 [^3]: Un "elemento de autocerrado" es un elemento de XML que no tiene contenido, por ejemplo: `<name></name>`, que se abrevia así: `<name/>`.
     Nótese la barra invertida `/` *antes* del cierre de la etiqueta. Suelen usarse en TEI para los denominados elementos "hitos" (*milestones*), como los saltos de línea (`<lb/>`), saltos de página (`<pb/>`) y saltos de columna (`<cb/>`), que carecen de contenido y solo se usan para marcar un lugar preciso en el texto. Los procesadores de XML (como por ejemplo los navegadores web) automáticamente expanden estos elementos en su forma larga, de modo que son completamente sinónimos.

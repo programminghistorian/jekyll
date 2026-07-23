@@ -31,7 +31,7 @@ Assumptions
 
 This lesson makes a few assumptions about your understanding of R. If
 you have not completed the [R Basics with Tabular
-Data](/lessons/r-basics-with-tabular-data)
+Data](/en/lessons/r-basics-with-tabular-data)
 lesson, I suggest you complete that first. Having a background in
 another programming language will also be beneficial. If you need a
 place to start, I recommend working through the *Programming
@@ -62,7 +62,7 @@ Specifically, we will rely on the philosophy of ["tidy
 data"](https://www.jstatsoft.org/article/view/v059i10) as articulated by
 Hadley Wickham.
 
-According to [Wickham](http://hadley.nz/), data is "tidy" when it meets
+According to [Wickham](https://hadley.nz/), data is "tidy" when it meets
 three key criteria:
 
 1.  Each observation is in a row.
@@ -82,7 +82,7 @@ are "messy:"
 
 Perhaps most importantly, keeping our data in this format allows us to
 use a collection of packages in the
-["tidyverse,"](http://tidyverse.org/) which are designed to specifically
+["tidyverse,"](https://tidyverse.org/) which are designed to specifically
 work with tidy data. By making sure that our input and output are tidy,
 we only have to use a small set of tools to solve a large number of
 questions. In addition, we can combine, manipulate, and split tidy
@@ -93,15 +93,15 @@ In this tutorial, we will be focusing on the
 package of the tidyverse, but it is worth briefly mentioning some others
 we will be running into:
 
-[**magittr**](http://magrittr.tidyverse.org)--This package gives us
+[**magittr**](https://magrittr.tidyverse.org)--This package gives us
 access to the forward pipe operator and makes our code easier to read.
-[**ggplot2**](http://ggplot2.tidyverse.org/)--This package utilizes the
-["Grammar of Graphics"](http://www.springer.com/us/book/9780387245447)
+[**ggplot2**](https://ggplot2.tidyverse.org/)--This package utilizes the
+["Grammar of Graphics"](https://www.springer.com/us/book/9780387245447)
 to provide an easy way to visualize our data.
-[**readr**](http://readr.tidyverse.org)--This package makes available a
+[**readr**](https://readr.tidyverse.org)--This package makes available a
 faster and more streamlined method of importing rectangular data, such
 as csv files.
-[**tibble**](http://tibble.tidyverse.org/)--This package provides us
+[**tibble**](https://tibble.tidyverse.org/)--This package provides us
 access to a reconceptualization of data frames that are easier to work
 with and print.
 
@@ -198,8 +198,8 @@ Before looking at dplyr, we need to go over the pipe operator (%&gt;%)
 in R since we will often run into it in our examples. As mentioned
 earlier, the pipe operator is part of the
 [magrittr](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html)
-package created by [Stefan Milton Bache](http://stefanbache.dk/) and
-[Hadley Wickham](http://hadley.nz/) and is included in the tidyverse.
+package created by [Stefan Milton Bache](https://stefanbache.dk/) and
+[Hadley Wickham](https://hadley.nz/) and is included in the tidyverse.
 Its name is an homage to surrealest painter Rene Magritte, whose "The
 Treachery of Images" famously depicted a pipe with the words "this is
 not a pipe" underneath in French.
@@ -282,7 +282,7 @@ historians, there are only a few easily available datasets--perhaps you
 can help change this by making yours available to the public! We are
 going to rely on the [history
 data](https://cran.r-project.org/package=historydata) package
-created by [Lincoln Mullen](http://lincolnmullen.com/).
+created by [Lincoln Mullen](https://lincolnmullen.com/).
 
 Lets go ahead and install and load the package:
 

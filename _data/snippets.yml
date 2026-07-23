@@ -209,13 +209,13 @@ menu-contribute-support-donate:
     link: /en/individual
   es:
     title: Apóyanos - Donaciones
-    link: /es/apoyanos#donaciones
+    link: /es/donaciones
   fr:
     title: Dons individuels
-    link: /fr/nous-soutenir#dons
+    link: /fr/dons
   pt:
     title: Apoie-nos - Doações
-    link: /pt/apoie-nos#doacoes
+    link: /pt/doacoes
 menu-lessons:
   en:
     title: Lessons

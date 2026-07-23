@@ -19,7 +19,7 @@ abstract: "This lesson shows how to use Python to transliterate automatically a
 list of words from a language with a non-Latin alphabet to a
 standardized format using the American Standard Code for Information
 Interchange (ASCII) characters."
-redirect_from: /lessons/transliterating
+redirect_from: /lessons/transliterating/
 avatar_alt: A set of Cyrillic characters
 doi: 10.46430/phen0032
 ---
@@ -468,30 +468,30 @@ dealing with lots of names or for people who prefer or need to use ASCII
 characters. It is a simple tool but one that can be an enormous time
 saver.
 
-  [ASCII]: http://en.wikipedia.org/wiki/Ascii
-  [Viewing HTML Files]: /lessons/viewing-html-files
-  [Working with Web Pages]: /lessons/working-with-web-pages
-  [From HTML to List of Words (part 1)]: /lessons/from-html-to-list-of-words-1
-  [Intro to Beautiful Soup]: /lessons/intro-to-beautiful-soup
-  [Memorial]: http://lists.memo.ru
-  [Cyrillic]: http://en.wikipedia.org/wiki/Cyrillic_script
-  [Latin characters]: http://en.wikipedia.org/wiki/Latin_script
-  [Unicode]: http://en.wikipedia.org/wiki/Unicode
-  [Terminal]: http://en.wikipedia.org/wiki/Terminal_%28OS_X%29
-  [IDLE]: http://en.wikipedia.org/wiki/IDLE_%28Python%29
-  [Komodo Edit]: http://www.activestate.com/komodo-edit
-  [ALA-LC]: http://en.wikipedia.org/wiki/ALA-LC_romanization_for_Russian
-  [Beautiful Soup in Python.]: http://www.crummy.com/software/BeautifulSoup/
-  [Glasnost]: http://en.wikipedia.org/wiki/Glasnost
-  [here]: http://lists.memo.ru/d1/f1.htm
-  [Automated Downloading with Wget]: /lessons/automated-downloading-with-wget
-  [What is Unicode]: http://www.unicode.org/standard/WhatIsUnicode.html
-  [comma separated value]: http://en.wikipedia.org/wiki/Comma-separated_values
-  [Counting Frequencies]: /lessons/counting-frequencies
-  [Library of Congress]: http://web.archive.org/web/20170312041508/http://www.lcweb.loc.gov/catdir/cpso/romanization/russian.pdf
-  [Wikipedia has a table]: http://en.wikipedia.org/wiki/Cyrillic_script_in_Unicode
-  [Unicode website]: http://www.unicode.org/charts/
-  [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
-  [Installing Python Modules with pip]: /lessons/installing-python-modules-pip
-  [Cascading Style Sheets]: http://www.w3schools.com/css/
-  [Code Academy’s]: https://www.codecademy.com/catalog/subject/web-development
+- [ASCII](https://en.wikipedia.org/wiki/Ascii)  
+- [Viewing HTML Files](/en/lessons/viewing-html-files)  
+- [Working with Web Pages](/en/lessons/working-with-web-pages)  
+- [From HTML to List of Words (part 1)](/en/lessons/from-html-to-list-of-words-1)  
+- [Intro to Beautiful Soup](/en/lessons/intro-to-beautiful-soup)  
+- [Memorial](https://lists.memo.ru)  
+- [Cyrillic](https://en.wikipedia.org/wiki/Cyrillic_script)  
+- [Latin characters](https://en.wikipedia.org/wiki/Latin_script)  
+- [Unicode](https://en.wikipedia.org/wiki/Unicode)  
+- [Terminal](https://en.wikipedia.org/wiki/Terminal_%28OS_X%29)  
+- [IDLE](https://en.wikipedia.org/wiki/IDLE_%28Python%29)  
+- [Komodo Edit](https://github.com/ActiveState/OpenKomodoIDE)  
+- [ALA-LC](https://en.wikipedia.org/wiki/ALA-LC_romanization_for_Russian)  
+- [Beautiful Soup in Python.](https://www.crummy.com/software/BeautifulSoup/)  
+- [Glasnost](https://en.wikipedia.org/wiki/Glasnost)  
+- [here](https://lists.memo.ru/d1/f1.htm)  
+- [Automated Downloading with Wget](/en/lessons/automated-downloading-with-wget)  
+- [What is Unicode](https://www.unicode.org/standard/WhatIsUnicode.html)  
+- [comma separated value](https://en.wikipedia.org/wiki/Comma-separated_values)  
+- [Counting Frequencies](/en/lessons/counting-frequencies)  
+- [Library of Congress](https://web.archive.org/web/20170312041508/https://www.lcweb.loc.gov/catdir/cpso/romanization/russian.pdf)  
+- [Wikipedia has a table](https://en.wikipedia.org/wiki/Cyrillic_script_in_Unicode)  
+- [Unicode website](https://www.unicode.org/charts/)  
+- [Manipulating Strings in Python](/en/lessons/manipulating-strings-in-python)  
+- [Installing Python Modules with pip](/en/lessons/installing-python-modules-pip)  
+- [Cascading Style Sheets](https://www.w3schools.com/css/)  
+- [Code Academy’s](https://www.codecademy.com/catalog/subject/web-development)

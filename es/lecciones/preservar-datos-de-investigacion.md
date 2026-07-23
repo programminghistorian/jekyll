@@ -81,7 +81,7 @@ El momento de documentar depende en gran medida de la persona y del ritmo de la 
 
 Idealmente, los datos de investigación y la documentación deben ser guardados en archivos [independientes de plataforma] como .txt para notas y .csv (valores separados por comas) o .tsv (valores separados por tabuladores) para los datos en tablas. Estos formatos de texto plano son preferibles a los formatos propietarios utilizados por defecto por Microsoft Office o iWork porque pueden abrirse con muchos paquetes de programas y tienen una gran probabilidad de permanecer visibles o editables en el futuro. Muchas *suites* de ofimática (o paquetes de *software* para oficina) incluyen la opción de guardar archivos en formatos .txt, .csv y .tsv, lo que significa que se puede continuar trabajando con programas familiares y aún así tomar las acciones apropiadas para hacer accesible tu trabajo. Comparados con .doc o .xls, estos formatos tienen el beneficio adicional, desde una perspectiva de preservación, de contener solamente elementos legibles por la computadora. Mientras que es una práctica común el uso de negritas, itálicas o colores para indicar encabezados o para establecer una conexión visual entre elementos de los datos, estas anotaciones orientadas a la visualización no son legibles por la computadora y, por lo tanto, no puede ser consultadas ni buscadas, ni son adecuadas para grandes cantidades de información. Son preferibles los esquemas simples de anotación como el uso de un doble asterisco o tres signos de almohadilla para representar una característica de los datos; en mis propias notas, por ejemplo, tres signos de interrogación indica algo a lo que necesito dar seguimiento, y lo elegí porque "???" se puede encontrar fácilmente con una búsqueda mediante CTRL + F.
 
-Es probable que en muchas ocasiones estos esquemas de anotación se desprendan de la práctica individual (y en consecuencia deban ser documentados), aunque hay sintaxis disponibles como [Markdown](https://es.wikipedia.org/wiki/Markdown) (los archivos Markdown se guardan como .md). En GitHub  <https://github.com/adam-p/markdown-here> se pueden encontrar estos excelentes apuntes para quien quiera seguir -o adaptar- esta sintaxis. Se recomienda el uso de Notepad++ <http://notepad-plus-plus.org/> a los usuarios de Windows, aunque de ninguna manera es esencial para trabajar con archivos .md. Los usuarios de Mac o Unix pueden encontrar útil [Komodo Edit] o [Text Wrangler].
+Es probable que en muchas ocasiones estos esquemas de anotación se desprendan de la práctica individual (y en consecuencia deban ser documentados), aunque hay sintaxis disponibles como [Markdown](https://es.wikipedia.org/wiki/Markdown) (los archivos Markdown se guardan como .md). En GitHub  <https://github.com/adam-p/markdown-here> se pueden encontrar estos excelentes apuntes para quien quiera seguir -o adaptar- esta sintaxis. Se recomienda el uso de Notepad++ <https://notepad-plus-plus.org/> a los usuarios de Windows, aunque de ninguna manera es esencial para trabajar con archivos .md. Los usuarios de Mac o Unix pueden encontrar útil [Komodo Edit] o [Text Wrangler].
 
 #### Resumen 1
 
@@ -107,22 +107,22 @@ Examinar los URLs es una buena forma de pensar una estructura de datos de invest
 Un buen ejemplo de los primeros son los URLs utilizados por los sitios web de noticias o los servicios de *blogging*. Los URLs de WordPress utilizan el siguiente formato:
 
 -   *Nombre del sitio web*/*año (4 dígitos)*/*mes (2 dígitos)*/*día (2 dígitos)*/*palabras-del-titulo-separadas-por-guiones*
--   <http://cradledincaricature.com/2014/02/06/comic-art-beyond-the-print-shop/>
+-   <https://cradledincaricature.com/2014/02/06/comic-art-beyond-the-print-shop/>
 
 Un estilo similar es utilizado por las agencias de noticias como el periódico *The Guardian*:
 
 -   *Nombre del sitio web*/*subdivisión de seccción*/*año (4 dígitos)*/*mes (3 caracteres)*/*día (2 dígitos)*/*palabras-que-describen-contenido-separadas-por-guiones*
--   <http://www.theguardian.com/uk-news/2014/feb/20/rebekah-brooks-rupert-murdoch-phone-hacking-trial>
+-   <https://www.theguardian.com/uk-news/2014/feb/20/rebekah-brooks-rupert-murdoch-phone-hacking-trial>
 
 En los catálogos de archivo, se suelen utilizar URLs estructurados por un elemento de datos. *The British Cartoon Archive* estructura su archivo en línea utilizando el formato:
 
 -   *nombre del sitio web*/*registro*/*número de referencia*
--   <http://www.cartoons.ac.uk/record/SBD0931>
+-   <https://www.cartoons.ac.uk/record/SBD0931>
 
 Y el sitio Old Bailey Online usa este formato:
 
 -   *nombre del sitio web*/browse.jsp?ref=*número de referencia*
--   <http://www.oldbaileyonline.org/browse.jsp?ref=OA16780417>
+-   <https://www.oldbaileyonline.org/browse.jsp?ref=OA16780417>
 
 Lo que aprendemos de estos ejemplos es que la combinación de descripciones semánticas con elementos de datos hacen consistente y predecible la lectura de los datos estructurados tanto por máquinas como por seres humanos. Transferir esto a los datos digitales acumulados durante el curso de la investigación histórica hace que los datos de investigación sean más fácilmente navegables, así como buscar y consultar utilizando las herramientas estándar provistas por nuestros sistemas operativos (y, como veremos en próximas lecciones, por herramientas más avanzadas).
 
@@ -236,11 +236,11 @@ blog (17 October 2013)
 
 Hitchcock, Tim, 'Judging a book by its URLs', Historyonics blog (3
 January 2014)
-<http://historyonics.blogspot.co.uk/2014/01/judging-book-by-its-url.html>
+<https://historyonics.blogspot.co.uk/2014/01/judging-book-by-its-url.html>
 
 Howard, Sharon, 'Unclean, unclean! What historians can do about sharing
 our messy research data', Early Modern Notes blog (18 May 2013)
-<http://earlymodernnotes.wordpress.com/2013/05/18/unclean-unclean-what-historians-can-do-about-sharing-our-messy-research-data/>
+<https://earlymodernnotes.wordpress.com/2013/05/18/unclean-unclean-what-historians-can-do-about-sharing-our-messy-research-data/>
 
 Noble, William Stafford, A Quick Guide to Organizing Computational
 Biology Projects.PLoSComputBiol 5(7): e1000424 (2009)
@@ -253,7 +253,7 @@ Information Management: Organising Humanities Material' (2011)
 Pennock, Maureen, 'The Twelve Principles of Digital Preservation (and a
 cartridge in a repository…)', British Library Collection Care blog (3
 September 2013)
-<http://britishlibrary.typepad.co.uk/collectioncare/2013/09/the-twelve-principles-of-digital-preservation.html>
+<https://britishlibrary.typepad.co.uk/collectioncare/2013/09/the-twelve-principles-of-digital-preservation.html>
 
 Pritchard, Adam, 'Markdown Cheatsheet' (2013)
 <https://github.com/adam-p/markdown-here>

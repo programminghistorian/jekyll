@@ -14,7 +14,7 @@ activity: transforming
 topics: [data-manipulation]
 abstract: "In this lesson you will learn how to use Audacity to load, record, edit, mix, and export audio files."
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/15
-redirect_from: /lessons/editing-audio-with-audacity
+redirect_from: /lessons/editing-audio-with-audacity/
 avatar_alt: Two gramophones facing each other
 doi: 10.46430/phen0050
 ---
@@ -29,7 +29,7 @@ doi: 10.46430/phen0050
 
 For those interested in audio, basic sound editing skills go a long way. Being able to handle and manipulate the materials can help you take control of your object of study: you can zoom in and extract particular moments to analyze, process the audio, and upload the materials to a server to compliment a blog post on the topic. On a more practical level, these skills could also allow you to record and package recordings of yourself or others for distribution. That guest lecture taking place in your department? Record it and edit it yourself! Doing so is a lightweight way to distribute resources among various institutions, and it also helps make the materials more accessible for readers and listeners with a wide variety of learning needs.
 
-In this lesson you will learn how to use *[Audacity](http://audacityteam.org/)* to load, record, edit, mix, and export audio files. Sound editing platforms are often expensive and offer extensive capabilities that can be overwhelming to the first-time user, but *Audacity* is a free and open source alternative that offers powerful capabilities for sound editing with a low barrier for entry.
+In this lesson you will learn how to use *[Audacity](https://audacityteam.org/)* to load, record, edit, mix, and export audio files. Sound editing platforms are often expensive and offer extensive capabilities that can be overwhelming to the first-time user, but *Audacity* is a free and open source alternative that offers powerful capabilities for sound editing with a low barrier for entry.
 
 For this lesson we will work with two audio files: a recording of [Bach's Goldberg Variations]({{ root_url }}/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3) and another recording of your own voice that will be made in the course of the lesson.
 
@@ -41,7 +41,7 @@ First, download the necessary files.
 
 You will need the [mp3 file of Bach's Goldberg Variations]({{ root_url }}/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3). To download, right click [here]({{ root_url }}/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3) and select 'Save Link As' to download the file onto your computer as an MP3.
 
-Next, download and install *Audacity*, which is available on [the project site](http://audacityteam.org/). *Audacity* can be used on Mac OSX, Windows, or Linux.
+Next, download and install *Audacity*, which is available on [the project site](https://audacityteam.org/). *Audacity* can be used on Mac OSX, Windows, or Linux.
 
 Download the program and double-click to install.
 
@@ -53,7 +53,7 @@ The interface will change to reflect the loaded data:
 
 *Audacity* converts your sound into a waveform, a commonly used mode for representing sound. The x-axis represents time as seconds (or minutes and seconds, depending on the length of the clip). The beginning of the sound occurs at the far left of the interface, and *Audacity* ticks off periodic time markers as the wave continues to the right. If we click the play button, *Audacity* will move from left to right over the sound, with a vertical line representing our currrent point in the clip.
 
-The y-axis represents amplitude, what we experience as loudness or volume. By default, the y-axis measures volume on a vertical linear scale from -1 to 1: the -1 and 1 extremes represent the loudest possible recorded sound without distortion, while 0 represents silence. So silence begins as a flat line, and the sound will get taller and deeper as it increases in intensity. For more information on why some of the numbers are negative, check out Jeffrey Hass' very short [primer to acoustics](http://web.archive.org/web/20161119231053/http://www.indiana.edu:80/~emusic/acoustics/amplitude.htm).
+The y-axis represents amplitude, what we experience as loudness or volume. By default, the y-axis measures volume on a vertical linear scale from -1 to 1: the -1 and 1 extremes represent the loudest possible recorded sound without distortion, while 0 represents silence. So silence begins as a flat line, and the sound will get taller and deeper as it increases in intensity. For more information on why some of the numbers are negative, check out Jeffrey Hass' very short [primer to acoustics](https://web.archive.org/web/20161119231053/https://www.indiana.edu:80/~emusic/acoustics/amplitude.htm).
 
 *Audacity*'s representation of time and amplitude are your first and easiest point of reference for editing sound, and the tool offers handy ways to navigate around them. I keep calling this a wave, but it doesn't look all that much like one just yet. Let's take a closer look by selecting a piece of the audio track.
 
@@ -89,7 +89,7 @@ You will be presented with something that looks like this:
 
 Our original Bach recording stays at the top of the interface, while our new recording gets added below it. By default, *Audacity* will not overwrite your previous recording. Instead, it isolates both soundstreams, or tracks, allowing us to manipulate separate components before we mix them together in a final recording. We can make changes to one without affecting the other. Note how, time-wise, the new track by default was recorded at the beginning of the audacity project. For right now, the Bach and vocal tracks both begin at the same time. There are potentially some other imperfections in your unique recording, some of which we can fix.
 
-Finally, note how in my example there are two waveforms for the Bach recording but only one for the recording of my own voice. The Bach recording was made in *stereo*, meaning there were two input feeds, while my own recording was made in *mono*. Audacity allows you to record in both, and either one will work for this lesson, so don't worry if your recording appears in stereo. You can change from mono to stereo recording and vice versa from the 'Edit' toolbar, accessible from the 'Toolbars' portion of the 'View' menu. For more information on mono vs stereo, check out this [reading](http://www.diffen.com/difference/Mono_vs_Stereo).
+Finally, note how in my example there are two waveforms for the Bach recording but only one for the recording of my own voice. The Bach recording was made in *stereo*, meaning there were two input feeds, while my own recording was made in *mono*. Audacity allows you to record in both, and either one will work for this lesson, so don't worry if your recording appears in stereo. You can change from mono to stereo recording and vice versa from the 'Edit' toolbar, accessible from the 'Toolbars' portion of the 'View' menu. For more information on mono vs stereo, check out this [reading](https://www.diffen.com/difference/Mono_vs_Stereo).
 
 An aside: it can frequently be helpful to turn your laptop's sound output into its input, so that you can record the sounds playing from your computer without worrying about extraneous noise from the outside world or to rerecord digital audio. For information on how to carry out this process, check out [Soundflower](https://github.com/mattingalls/Soundflower).
 
@@ -143,7 +143,7 @@ But we will eventually want to transition the track's focus away from the intro 
 
 * Selecting "Crossfade Tracks" from the Effect menu will tell Audacity to fade out the top track while fading in the bottom track - the positioning of the tracks matters in this case.
 
-*Audacity* will prompt you with options for your crossfade, but for now it is fine to go with the default setting of "Constant Gain." This setting ensures that both tracks will fade in or linearly (for more information, check out the *Audacity* [documentation on crossfades](http://manual.audacityteam.org/man/crossfade_tracks.html))
+*Audacity* will prompt you with options for your crossfade, but for now it is fine to go with the default setting of "Constant Gain." This setting ensures that both tracks will fade in or linearly (for more information, check out the *Audacity* [documentation on crossfades](https://manual.audacityteam.org/man/crossfade_tracks.html))
 
 {% include figure.html filename="editing-audio-with-audacity-13.png" caption="Post-crossfade" %}
 
@@ -157,6 +157,6 @@ By default, everything you do in *Audacity* is saved in the tool's own filetype,
 
 Doing so will mix the multiple tracks down to a single audio file and give you the opportunity to provide your work with metadata.
 
-There are a range of different options for you to refine the exporting process, but the most important is "File Type." MP3 and Ogg are good options for audio meant to be displayed on the web, as they both compress the files so that they will be quicker to load. For best results, you can actually include both formats and only display the one as a fallback when one is not supported by a user's web browser. For more information, *NCH Software* provides a [good technical breakdown of the different options](http://www.nch.com.au/acm/formats.html), while Jonathan Sterne has done [fascinating work](https://www.dukeupress.edu/mp3) on the cultural implications of such format decisions. And the W3Schools offer a [good comparison](http://www.w3schools.com/html/html5_audio.asp) of these file formats for use in web development.
+There are a range of different options for you to refine the exporting process, but the most important is "File Type." MP3 and Ogg are good options for audio meant to be displayed on the web, as they both compress the files so that they will be quicker to load. For best results, you can actually include both formats and only display the one as a fallback when one is not supported by a user's web browser. For more information, *NCH Software* provides a [good technical breakdown of the different options](https://www.nch.com.au/acm/formats.html), while Jonathan Sterne has done [fascinating work](https://www.dukeupress.edu/mp3) on the cultural implications of such format decisions. And the W3Schools offer a [good comparison](https://www.w3schools.com/html/html5_audio.asp) of these file formats for use in web development.
 
 Congratulations! You have successfully produced a baby podcast. It might not seem like much, but I frequently employ this same bag of tricks for presentations, websites, and scholarship. This lesson has by no means begun to exhaust the many topics under that umbrella. But it should have given you some basic tools useful to working with sound in digital humanities projects.

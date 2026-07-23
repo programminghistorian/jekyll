@@ -14,7 +14,7 @@ In this first newsletter we would like to highlight the following achievements, 
 
 ## Launch of PH in French
 
-Le [*Programming Historian en français*](http://programminghistorian.org/fr) est en ligne! 
+Le [*Programming Historian en français*](https://programminghistorian.org/fr) est en ligne! 
 
 In order to expand our project internationally, *Programming Historian en français* [officially launched](https://programminghistorian.org/posts/welcome-ph-fr) in April 2019. The addition of a third language was only possible thanks to the hard work of the French editorial board and our technical team. Sofia Papastamkou, Marie Puren and François Dominic Laramée worked for more than ten months on the translation of the journal’s infrastructure before its launch. At the same time, the technical team restructured and made the site trilingual.
 
@@ -73,4 +73,4 @@ In order to achieve our goals of publishing more original lessons in Spanish and
 ## Upcoming Events 
 On July 11, Antonio Rojas Castro, Anna-Maria Sichani and Sofia Papastamkou will present their poster "Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French speaking DH Communities" at the [**DH 2019 Conference**](https://dh2019.adho.org) in Utrecht, The Netherlands. They also participate to the pre-conference workshop "Accelerating DH Education", on July 8, where they present "Three Challenges in Developing Open Multilingual DH Educational Resources: The Case of The Programming Historian".   
 
-Part of the team of *The Programming Historian en español* will present at the [**ACH 2019 Conference**](http://ach2019.ach.org) on July 25, in Pittsburgh. Maria José Afanador-Llach, Jennifer Isasi and Antonio Rojas Castro are presenting "Retos en la producción de tutoriales de HD en contextos hispanohablantes" or "Challenges in DH lesson production in Spanish speaking contexts." 
+Part of the team of *The Programming Historian en español* will present at the [**ACH 2019 Conference**](https://ach2019.ach.org) on July 25, in Pittsburgh. Maria José Afanador-Llach, Jennifer Isasi and Antonio Rojas Castro are presenting "Retos en la producción de tutoriales de HD en contextos hispanohablantes" or "Challenges in DH lesson production in Spanish speaking contexts." 

@@ -279,7 +279,7 @@ Ci-dessous quelques sites pour chercher des images:
  - The [Virtual Manuscript Library of Switzerland](https://www.e-codices.unifr.ch/fr)
  - The [British Library](https://www.flickr.com/photos/britishlibrary)
  - The [Internet Archive Book Images](https://archive.org/details/bookimages)
- - The [Library of Congress Maps](http://www.loc.gov/maps/collections)
+ - The [Library of Congress Maps](https://www.loc.gov/maps/collections)
 
 
 Merci de prendre soin de trouver une image dont le style est proche de celles déjà utilisées, donc pas de photographie, mais plutôt une image d'illustration de livre, de taille minimale de 200x200 pixels, sans restriction de droits de copyright. Merci de faire attention à ce que les images ne heurtent pas les sensibilités et, en conformité à notre [engagement en faveur de la diversité](/posts/PH-commitment-to-diversity), qu'elles ne reproduisent pas de stéréotypes sexistes ou raciaux.
@@ -341,7 +341,7 @@ Il existe différentes manières de faire un "pull request" pour publier les fic
 
 * A) Suivre nos [consignes pour faire des contributions techniques](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions) via l'interface GUI de Github.
 
-* B) Utiliser `git` depuis la ligne de commande. Les instructions suivantes supposent que vous avez déjà cloné les dépôts `jekyll` and `ph-submissions` en local sur votre machine. Notre [leçon sur l'utilisation de l'application GitHub Desktop](/lessons/getting-started-with-github-desktop) peut vous être utile, si cela est tout nouveau pour vous. Si vous n'êtes pas confiant(e) sur comment procéder ou si vous avez des questions, merci de contacter l'équipe technique pour obtenir de l'aide.
+* B) Utiliser `git` depuis la ligne de commande. Les instructions suivantes supposent que vous avez déjà cloné les dépôts `jekyll` and `ph-submissions` en local sur votre machine. Notre [leçon sur l'utilisation de l'application GitHub Desktop](/en/lessons/getting-started-with-github-desktop) peut vous être utile, si cela est tout nouveau pour vous. Si vous n'êtes pas confiant(e) sur comment procéder ou si vous avez des questions, merci de contacter l'équipe technique pour obtenir de l'aide.
 
 
 1. Aller au répertoire de votre dépôt local `ph-submissions`.

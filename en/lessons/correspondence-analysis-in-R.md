@@ -16,7 +16,7 @@ activity: analyzing
 topics: [data-manipulation, network-analysis, r, data-visualization]
 abstract: |
   This tutorial explains how to carry out and interpret a correspondence analysis, which can be used to identify relationships within categorical data.
-redirect_from: /lessons/correspondence-analysis-in-R
+redirect_from: /lessons/correspondence-analysis-in-R/
 avatar_alt: Diagram of a cube with labeled edges
 doi: 10.46430/phen0062
 mathjax: true
@@ -39,9 +39,9 @@ After reading this tutorial, you should:
 
 This tutorial is for intermediate programming historians. It assumes you have basic understanding of R and some basic statistical knowledge.
 
-Taryn Dewar's tutorial on [R Basics with Tabular Data](/lessons/r-basics-with-tabular-data) has information on how to set up and configure R. Taylor Arnold and Lauren Tilton's tutorial on [Basic Text Processing in R](/lessons/basic-text-processing-in-r) could be helpful as a warm-up, also.
+Taryn Dewar's tutorial on [R Basics with Tabular Data](/en/lessons/r-basics-with-tabular-data) has information on how to set up and configure R. Taylor Arnold and Lauren Tilton's tutorial on [Basic Text Processing in R](/en/lessons/basic-text-processing-in-r) could be helpful as a warm-up, also.
 
- Since CA is a kind of social network analysis, it would not hurt to look at Marten Düring's [From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources](/lessons/creating-network-diagrams-from-historical-sources) which also has some useful information on structuring data for network analysis.
+ Since CA is a kind of social network analysis, it would not hurt to look at Marten Düring's [From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources](/en/lessons/creating-network-diagrams-from-historical-sources) which also has some useful information on structuring data for network analysis.
 
 ## What is Correspondence Analysis?
 
@@ -464,7 +464,7 @@ Another important score is visible on the CA graph - the percentage of explanato
 
 [^inertia]: In general, inertia in statistics refers to the variation or "spread" of a dataset. It is analogous to standard deviation in distribution data.
 
-[^pickton]: See Laura Kane (April 3, 2017), "Missing and murdered women's inquiry not reaching out to families, say advocates." *CBC News Indigenous*. <http://www.cbc.ca/news/indigenous/mmiw-inquiry-not-reaching-out-to-families-says-advocates-1.4053694>
+[^pickton]: See Laura Kane (April 3, 2017), "Missing and murdered women's inquiry not reaching out to families, say advocates." *CBC News Indigenous*. <https://www.cbc.ca/news/indigenous/mmiw-inquiry-not-reaching-out-to-families-says-advocates-1.4053694>
 
 [^pvalue]: In statistics, a p-value, short for _probability value_, is an indicator of how likely an outcome would have occurred under random circumstances. A low p-value would suggest a low probability that the result would have occurred at random and thus provides some evidence that a null hypothesis (in this case, that the MPs and CPCs are independent categories) is unlikely.
 

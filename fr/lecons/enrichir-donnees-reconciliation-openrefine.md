@@ -207,7 +207,7 @@ Avant l’exportation finale des données enrichies, je recommande d’ajouter u
 
 Pour cela, avec notre exemple ci-dessus, cliquez sur les options de la colonne **Titre_RECON** > **Réconcilier** > **Ajouter une colonne d’identifiants d’entités...** Puis, indiquez le titre de la colonne, **Titre_QID**.
 
-### Comment améliorer la réconciliation ?
+### Comment améliorer la réconciliation&nbsp;?
 
 Vous remarquerez probablement que la réconciliation est parfois peu satisfaisante. Voici quelques techniques pour réduire les réconciliations manuelles après une réconciliation automatique insatisfaisante.
 
@@ -233,7 +233,7 @@ Vous remarquerez probablement que la réconciliation est parfois peu satisfaisan
       - `Hist Sci Med`-> `Histoire des sciences médicales`     
       - `AHA` -> `American Historical Association`    
 
-### À quoi correspond &laquo;&nbsp;Créer un nouvel élément&nbsp;&raquo; ?
+### À quoi correspond &laquo;&nbsp;Créer un nouvel élément&nbsp;&raquo;?
 
 Cela permet de marquer un enregistrement pour créer un élément dans Wikidata depuis OpenRefine. Je n’utilise pas cette option, car je préfère créer de nouveaux éléments directement dans Wikidata (manuellement ou avec QuickStatements). Cela garantit une meilleure indexation et plus de contrôle sur le processus de création ou d’enrichissement. 
 

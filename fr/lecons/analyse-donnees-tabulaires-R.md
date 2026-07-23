@@ -578,7 +578,7 @@ Pour en savoir plus sur R, consultez le [manuel de R](https://cran.r-project.org
 
 Vous trouverez en ligne de nombreux tutoriels sur R. Nous vous conseillons&nbsp;:
 
-* [R: A self-learn tutorial](http://web.archive.org/web/20191015004305/https://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf) (en anglais). Ce tutoriel passe en revue plusieurs fonctions et propose des exercices pour s’entrainer.
+* [R: A self-learn tutorial](https://web.archive.org/web/20191015004305/https://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf) (en anglais). Ce tutoriel passe en revue plusieurs fonctions et propose des exercices pour s’entrainer.
 * [Introduction à R](https://www.datacamp.com/courses/introduction-a-r). Cours proposé par le site Datacamp qui vous permet de vous entrainer en ligne (gratuit, mais il faut s’inscrire pour y accéder). Les exercices interactifs permettent d’identifier vos erreurs et d’apprendre à écrire du code plus efficacement.
 * [R pour les débutants](https://r.developpez.com/tutoriels/r/debutants/#Lno-I). Écrit par Emmanuel Paradis, il s’agit d’un des premiers manuels francophones d’introduction à R.
 * L’ouvrage [Computational Historical Thinking](https://dh-r.lincolnmullen.com/). Écrit par Lincoln A. Mullen, c’est une ressource précieuse pour les historiennes et historiens qui souhaitent utiliser R pour faire leurs travaux de recherche.  

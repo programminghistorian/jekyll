@@ -12,7 +12,7 @@ reviewers:
 editors:
 - Jennifer Isasi
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/547
-previous: analisis-redes-sociales-teatro-1
+previous: /es/lecciones/analisis-redes-sociales-teatro-1
 series_total: 2 lessons
 sequence: 2
 difficulty: 2
@@ -281,7 +281,7 @@ Y sobre todo, no tengas miedo de probar y explorar todas las posibilidades que n
 
 ## Notas  
 
-[^1]: Existen otros programas y herramientas de análisis de redes que podemos mencionar. Por ejemplo, [Cytoscape](https://cytoscape.org/) es otro programa de código abierto y libre descarga, muy utilizado en bioinformática. También hay aplicaciones web: [Palladio](http://hdlab.stanford.edu/palladio/), desarrollada por el Humanities+Design Research Lab de la Standford University y pensada para la investigación histórica; o [ONODO](https://onodo.org/), una aplicación muy sencilla que permite crear redes e implementar medidas fácilmente.    
+[^1]: Existen otros programas y herramientas de análisis de redes que podemos mencionar. Por ejemplo, [Cytoscape](https://cytoscape.org/) es otro programa de código abierto y libre descarga, muy utilizado en bioinformática. También hay aplicaciones web: [Palladio](https://hdlab.stanford.edu/palladio/), desarrollada por el Humanities+Design Research Lab de la Standford University y pensada para la investigación histórica; o [ONODO](https://onodo.org/), una aplicación muy sencilla que permite crear redes e implementar medidas fácilmente.    
 [^2]: Esta lección se ha preparado con la versión 0.9.7 de Gephi. En 2022, y tras cinco años sin actualizaciones, se han publicado 5 versiones nuevas corrigiendo errores (bug fixes) y añadiendo mejoras. Por ejemplo, desde la versión 0.9.3 ya no es necesario instalar Java para que Gephi funcione en Windows y Linux, lo que causaba numerosos problemas en Windows. Durante las revisiones de está lección se han publicado las versiones 0.10 y 0.10.1, pero sus actualizaciones no impiden el correcto seguimiento de esta lección. Puedes leer más acerca de las actualizaciones de Gephi en [https://gephi.wordpress.com/2022/05/11/transition-to-semantic-versioning/](https://perma.cc/XPF2-ZKJY) y en [https://github.com/gephi/gephi/releases](https://perma.cc/NQL4-77P2).      
 [^3]: Por ejemplo, este estupendo videotutorial en 5 partes de Salvador Sánchez, disponible en YouTube: [https://www.youtube.com/playlist?list=PLIvIcfwy1T6IDiW3K10TplK3rvdwMLOb2](https://www.youtube.com/playlist?list=PLIvIcfwy1T6IDiW3K10TplK3rvdwMLOb2). O la *introducción rápida a Gephi* de José Manuel Galán, también en Youtube: [https://www.youtube.com/watch?v=sX5XYec4tWo](https://www.youtube.com/watch?v=sX5XYec4tWo).     
 [^4]: Si te interesa conocer más sobre cómo funciona `ForceAtlas 2` y sabes inglés, te recomiendo este artículo de sus desarrolladores: Jacomy, Mathieu, Tommaso Venturini, Sebastien Heymann, y Mathieu Bastian. «ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network Visualization Designed for the Gephi Software». PLoS ONE 9, n.º 6 (2014): e98679. [https://doi.org/10.1371/journal.pone.0098679](https://doi.org/10.1371/journal.pone.0098679).     

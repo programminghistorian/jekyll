@@ -15,7 +15,7 @@ exclude_from_check:
 activity: transforming
 topics: [network-analysis, data-visualization]
 abstract: "Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources. This tutorial explains how to extract network data (people, institutions, places, etc) from historical sources through the use of non-technical methods developed in Qualitative Data Analysis (QDA) and Social Network Analysis (SNA), and how to visualize this data with the platform-independent and particularly easy-to-use Palladio."
-redirect_from: /lessons/creating-network-diagrams-from-historical-sources
+redirect_from: /lessons/creating-network-diagrams-from-historical-sources/
 avatar_alt: Diagram of the earth and moon's revolution around the sun
 doi: 10.46430/phen0044
 ---
@@ -26,10 +26,11 @@ doi: 10.46430/phen0044
 
 
 
-Introduction
+## Introduction
+
 ------------
 
-Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources. This tutorial explains how to extract network data (people, institutions, places, etc) from historical sources through the use of non-technical methods developed in Qualitative Data Analysis (QDA) and Social Network Analysis (SNA), and how to visualize this data with the platform-independent and particularly easy-to-use [*Palladio*](http://hdlab.stanford.edu/palladio/).
+Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources. This tutorial explains how to extract network data (people, institutions, places, etc) from historical sources through the use of non-technical methods developed in Qualitative Data Analysis (QDA) and Social Network Analysis (SNA), and how to visualize this data with the platform-independent and particularly easy-to-use [*Palladio*](https://hdlab.stanford.edu/palladio/).
 
 
 {% include figure.html caption="Figure 1: A network visualization in Palladio and what you will be able to create by the end of this tutorial." filename="image09.png" %}
@@ -39,7 +40,7 @@ The graph above shows an excerpt from the network of Ralph Neumann, particularly
 
 Generally, network analysis provides the tools to explore highly complex constellations of relations between entities. Think of your friends: You will find it very easy to map out who are close and who don't get along well. Now imagine you had to explain these various relationships to somebody who does not know any of your friends. Or you wanted to include the relationships between your friends’ friends. In situations like this language and our capacity to comprehend social structures quickly reach their limits. Graph visualizations can be means to effectively communicate and explore such complex constellations. Generally you can think of Social Network Analysis as a means to transform complexity from a problem to an object of research. Often, nodes in a network represent humans connected to other humans by all imaginable types of social relations. But pretty much anything can be understood as a node: A film, a place, a job title, a point in time, a venue. Similarly, the concept of a tie (also called edge) between nodes is just as flexible: two theaters could be connected by a film shown in both of them, or by co-ownership, geographical proximity, or being in business in the same year. All this depends on your research interests and how you express them in form of nodes and relations in a network.
 
-This tutorial can not replace any of the many existing generic network analysis handbooks, such as [John Scott's _Social Network Analysis_](https://uk.sagepub.com/en-gb/eur/the-sage-handbook-of-social-network-analysis/book277881). For a great general introduction to the field and all its pitfalls for humanists I recommend[ ](https://web.archive.org/web/20240203222438/https://www.scottbot.net/HIAL/index.html@p=6279.html)[*Scott Weingart’s blog post series “Networks Demystified”*](https://web.archive.org/web/20240203222438/https://www.scottbot.net/HIAL/index.html@p=6279.html) as well as[ ](http://hal.archives-ouvertes.fr/docs/00/64/93/16/PDF/lemercier_A_zg.pdf)[*Claire Lemercier’s paper “Formal network methods in history: why and how?"*](http://hal.archives-ouvertes.fr/docs/00/64/93/16/PDF/lemercier_A_zg.pdf). You may also want to explore the bibliography and event calendar over at [_Historical Network Research_](http://historicalnetworkresearch.org/) to get a sense of how historians have made use of networks in their research.
+This tutorial can not replace any of the many existing generic network analysis handbooks, such as [John Scott's _Social Network Analysis_](https://uk.sagepub.com/en-gb/eur/the-sage-handbook-of-social-network-analysis/book277881). For a great general introduction to the field and all its pitfalls for humanists I recommend[ ](https://web.archive.org/web/20240203222438/https://www.scottbot.net/HIAL/index.html@p=6279.html)[*Scott Weingart’s blog post series “Networks Demystified”*](https://web.archive.org/web/20240203222438/https://www.scottbot.net/HIAL/index.html@p=6279.html) as well as[ ](https://hal.archives-ouvertes.fr/docs/00/64/93/16/PDF/lemercier_A_zg.pdf)[*Claire Lemercier’s paper “Formal network methods in history: why and how?"*](https://hal.archives-ouvertes.fr/docs/00/64/93/16/PDF/lemercier_A_zg.pdf). You may also want to explore the bibliography and event calendar over at [_Historical Network Research_](https://historicalnetworkresearch.org/) to get a sense of how historians have made use of networks in their research.
 
 This tutorial will focus on data extraction from unstructured text and shows one way to visualize it using Palladio. It is purposefully designed to be as simple and robust as possible. For the limited scope of this tutorial it will suffice to say that an actor refers to the persons, institutions, etc. which are the object of study and which are connected by relations. Within the context of a network visualization or computation (also called graph), we call them nodes and we call the connections ties. In all cases it is important to remember that nodes and ties are drastically simplified models used to represent the complexities of past events, and in themselves do not always suffice to generate insight. But it is likely that the graph will highlight interesting aspects, challenge your hypothesis and/or lead you to generate new ones. *Network diagrams become meaningful when they are part of a dialogue with data and other sources of information.*
 
@@ -48,15 +49,17 @@ Many network analysis projects in the social sciences rely on pre-existing data 
 In other words, the challenge is to systematize text interpretation. Networks created from pre-existing data sets need to be considered within the context in which they were created (e.g. wording of questions in a questionnaire and selected target groups). Networks created from unstructured text pose challenges on top of this: interpretations are highly individual and depend on viewpoints and context knowledge.
 
 
-About the case study
+## About the case study
+
 --------------------
 
-The case study I use for this tutorial is a first-person narrative of Ralph Neumann, a Jewish survivor of the Holocaust. You can find the text [*online*](http://web.archive.org/web/20180422010025/http://www.gdw-berlin.de/fileadmin/bilder/publ/publikationen_in_englischer_sprache/2006_Neuman_eng.pdf). The coding scheme which I will introduce below is a simplified version of the one I developed during [*my PhD project on covert support networks during the Second World War*](http://martenduering.com/research/covert-networks-during-the-holocaust/). My research was driven by three questions: To what extent can social relationships help explain why ordinary people took the risks associated with helping? How did such relationships enable people to provide these acts of help given that only very limited resources were available to them? How did social relationships help Jewish refugees to survive in the underground?
+The case study I use for this tutorial is a first-person narrative of Ralph Neumann, a Jewish survivor of the Holocaust. You can find the text [*online*](https://web.archive.org/web/20180422010025/https://www.gdw-berlin.de/fileadmin/bilder/publ/publikationen_in_englischer_sprache/2006_Neuman_eng.pdf). The coding scheme which I will introduce below is a simplified version of the one I developed during [*my PhD project on covert support networks during the Second World War*](https://martenduering.com/research/covert-networks-during-the-holocaust/). My research was driven by three questions: To what extent can social relationships help explain why ordinary people took the risks associated with helping? How did such relationships enable people to provide these acts of help given that only very limited resources were available to them? How did social relationships help Jewish refugees to survive in the underground?
 
 In this project network visualisations helped me to discover hitherto forgotten yet highly important contact brokers, highlight the overall significance of Jewish refugees as contact brokers and generally to navigate through a total of some 5,000 acts of help which connected some 1,400 people between 1942 and 1945.
 
 
-Developing a coding scheme
+## Developing a coding scheme
+
 --------------------------
 
 In visualizing network relationships, one of the first and most difficult challenges is to decide who should be part of the network and which relations between the selected actors are to be coded. It will probably take some time to figure this out and will likely be an iterative process since you will need to balance your research interests and hypotheses with the availability of information in your texts and represent both in a rigid and necessarily simplifying coding scheme.
@@ -135,7 +138,7 @@ The following steps will explain how to visualize network data in Palladio but I
 
 Step by Step:
 
-**1. Palladio.** Go to [*http://hdlab.stanford.edu/palladio/*](http://hdlab.stanford.edu/palladio/)*.*
+**1. Palladio.** Go to [*https://hdlab.stanford.edu/palladio/*](https://hdlab.stanford.edu/palladio/)*.*
 
 **2. Start.** On their website click the “Start” button.
 
@@ -157,7 +160,7 @@ Step by Step:
 
 {% include figure.html caption="Figure 9: Linking People to Relations." filename="image08.png" %}
 
-**7. Identify temporal data.** Palladio has nice time visualization features. You can use it if you have start and end points for each relation. The sample data contains two columns with suitable data. Click on “Time Step Start” and select the data type “Year or Date”. Do the same for “Time Step End” (Figure 10). The Palladio team recommends that your data is in the YYYY-MM-DD format, but my more abstract time steps worked well. If you were to load geographical coordinates (not covered by this tutorial but here: [*Palladio Simple Map Scenario*](http://hdlab.stanford.edu/doc/scenario-simple-map.pdf)) you would select the “Coordinates” data type.
+**7. Identify temporal data.** Palladio has nice time visualization features. You can use it if you have start and end points for each relation. The sample data contains two columns with suitable data. Click on “Time Step Start” and select the data type “Year or Date”. Do the same for “Time Step End” (Figure 10). The Palladio team recommends that your data is in the YYYY-MM-DD format, but my more abstract time steps worked well. If you were to load geographical coordinates (not covered by this tutorial but here: [*Palladio Simple Map Scenario*](https://hdlab.stanford.edu/doc/scenario-simple-map.pdf)) you would select the “Coordinates” data type.
 
 {% include figure.html caption="Figure 10: Changing the data type to 'Year or Date'" filename="image05.png"%}
 
@@ -178,7 +181,7 @@ Network visualizations can be incredibly suggestive. Remember that whatever you 
 
 {% include figure.html caption="Figure 13: The Facet filter in Palladio." filename="image15.png" %}
 
-**12. Bipartite network visualization.** Now this is nice. But there is something else which makes Palladio a great tool to start out with network visualization: It makes it very easy to produce [*bipartite, or 2-mode networks*](http://en.wikipedia.org/wiki/Bipartite_graph#Examples). What you have seen until now is a so-called unipartite or 1-mode network: It represents relations between source and target nodes of one type (for example “people”) through one or more types of relations, Figures 13 and 14 are examples of this type of graph.
+**12. Bipartite network visualization.** Now this is nice. But there is something else which makes Palladio a great tool to start out with network visualization: It makes it very easy to produce [*bipartite, or 2-mode networks*](https://en.wikipedia.org/wiki/Bipartite_graph#Examples). What you have seen until now is a so-called unipartite or 1-mode network: It represents relations between source and target nodes of one type (for example “people”) through one or more types of relations, Figures 13 and 14 are examples of this type of graph.
 
 Network analysis however gives you a lot of freedom to rethink what source and targets are. Bipartite networks have two different types of nodes, an example could be to select “people” as the first node type and “point in time” as the second. Figure 15 shows a bipartite network and reveals which recipients of help were present in the network at the same time. Compare this graph to Figure 16 which shows which givers of help were present at the same time. This points at a high rate of fluctuation among helpers, an observation which holds true for all of the networks I studied. While humans are very good at processing people-to-people networks, we find it harder to process these more abstract networks. Give it a try and experiment with different bipartite networks: Click again on “Target” but this time select “Form of Help” or “Sex” or any other category.
 
@@ -204,7 +207,7 @@ Note that if you wanted to see "Giver" and "Recipients" as one node type and "Da
 {% include figure.html caption="Figure 17: Timeline. isualization of Time Steps." filename="image12.png" %}
 
 
-**15. Node size.** Palladio lets you size your nodes based on actor attributes. Note that this does not make sense for the sample data given that numerical values represent categories. Node sizes can however be useful if you were to represent the sum of a person’s acts of help, which in this case would correspond to his or her [*Out-Degree*](http://en.wikipedia.org/wiki/Directed_graph#Indegree_and_outdegree), the number of outgoing relations for a node.
+**15. Node size.** Palladio lets you size your nodes based on actor attributes. Note that this does not make sense for the sample data given that numerical values represent categories. Node sizes can however be useful if you were to represent the sum of a person’s acts of help, which in this case would correspond to his or her [*Out-Degree*](https://en.wikipedia.org/wiki/Directed_graph#Indegree_and_outdegree), the number of outgoing relations for a node.
 
 **16. Export your visualizations.** Palladio lets you export your network as .svg files, a vector-based image format. Use your browser of choice to open them.
 
@@ -241,14 +244,14 @@ Good luck!
 Other network visualization tools to consider
 ---------------------------------------------
 
-[*Nodegoat*](http://nodegoat.net/) – similar to Palladio in that it makes data collection, mapping and graph visualizations easy. Allows easy setup of relational databases and lets users store data on their servers. [*Tutorial available here*](http://nodegoat.net/cms/UPLOAD/AsmallguidebyYanan11082014.pdf).
+[*Nodegoat*](https://nodegoat.net/) – similar to Palladio in that it makes data collection, mapping and graph visualizations easy. Allows easy setup of relational databases and lets users store data on their servers. [*Tutorial available here*](https://nodegoat.net/cms/UPLOAD/AsmallguidebyYanan11082014.pdf).
 
-[*NodeXL*](https://www.smrfoundation.org/nodexl/) – capable to perform many tasks common in SNA, easy-to-use, open source but requires Windows and MS Office 2007 or newer.[ ](https://www.youtube.com/watch?v=pwsImFyc0lE)[*Tutorial 1*](https://www.youtube.com/watch?v=pwsImFyc0lE), [*Tutorial 2*](http://www.youtube.com/watch?v=xKhYGRpbwOc).
+[*NodeXL*](https://www.smrfoundation.org/nodexl/) – capable to perform many tasks common in SNA, easy-to-use, open source but requires Windows and MS Office 2007 or newer.[ ](https://www.youtube.com/watch?v=pwsImFyc0lE)[*Tutorial 1*](https://www.youtube.com/watch?v=pwsImFyc0lE), [*Tutorial 2*](https://www.youtube.com/watch?v=xKhYGRpbwOc).
 
-[*Gephi*](https://gephi.github.io/) – open source, platform independent. The best known and most versatile visualization tool available but expect a steep learning curve. The developers announce support for parallel edges in version 1.0. Tutorials: by [*Clement Levallois*](http://www.clementlevallois.net/training.html) and [*Sebastien Heymann*](http://www.youtube.com/watch?v=L6hHv6y5GsQ).
+[*Gephi*](https://gephi.github.io/) – open source, platform independent. The best known and most versatile visualization tool available but expect a steep learning curve. The developers announce support for parallel edges in version 1.0. Tutorials: by [*Clement Levallois*](https://www.clementlevallois.net/training.html) and [*Sebastien Heymann*](https://www.youtube.com/watch?v=L6hHv6y5GsQ).
 
 [*VennMaker*](https://www.vennmaker.com) – is platform-independent and can be tested for free. VennMaker inverts the process of data collection: Users start with a customizable canvas and draw self-defined nodes and relations on it. The tool collects the corresponding data in the background.
 
-The most commonly used tools for more mathematical analyses are [*UCINET*](https://sites.google.com/site/ucinetsoftware/home) (licensed, tutorials available on their website) and [*Pajek*](http://pajek.imfm.si/doku.php) (free) for which a great [*handbook*](http://www.cambridge.org/us/academic/subjects/sociology/research-methods-sociology-and-criminology/exploratory-social-network-analysis-pajek-2nd-edition) exists. Both were developed for Windows but run well elsewhere using Wine.
+The most commonly used tools for more mathematical analyses are [*UCINET*](https://sites.google.com/site/ucinetsoftware/home) (licensed, tutorials available on their website) and [*Pajek*](https://pajek.imfm.si/doku.php) (free) for which a great [*handbook*](https://www.cambridge.org/us/academic/subjects/sociology/research-methods-sociology-and-criminology/exploratory-social-network-analysis-pajek-2nd-edition) exists. Both were developed for Windows but run well elsewhere using Wine.
 
 For Python users the very well documented package[ ](https://networkx.github.io/)[*Networkx*](https://networkx.github.io/) is a great starting point; other packages exist for other programming languages.

@@ -14,7 +14,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/19
 activity: transforming
 topics: [data-manipulation, r]
 abstract: "This lesson teaches a way to quickly analyze large volumes of tabular data, making research faster and more effective."
-redirect_from: /lessons/r-basics-with-tabular-data
+redirect_from: /lessons/r-basics-with-tabular-data/
 avatar_alt: An ornate illustrated character R
 doi: 10.46430/phen0056
 ---
@@ -37,11 +37,11 @@ This tutorial presumes no prior knowledge of R. It will go through some of the b
 
 R is ideal for analyzing larger data sets that would take too long to compute manually. Once you understand how to write some of the basic functions and how to import your own data files, you can analyze and visualize the data quickly and efficiently.
 
-While R is a great tool for tabular data, you may find using other approaches to analyse non-tabular sources (such as newspaper transcriptions) more useful. If you are interested in studying these types of sources, take a look at some of the other great lessons of the [Programming Historian](/lessons/).
+While R is a great tool for tabular data, you may find using other approaches to analyse non-tabular sources (such as newspaper transcriptions) more useful. If you are interested in studying these types of sources, take a look at some of the other great lessons of the [Programming Historian](/en/lessons/).
 
 ## Installing R
 
-R is a programming language and environment for working with data. It can be run using the R console as well as on the [command-line](/lessons/intro-to-bash) or the [R Studio Interface](https://www.rstudio.com/). This tutorial will focus on using the R console. To get started with R, download the program from [The Comprehensive R Archive Network](https://cran.r-project.org/). R is compatible with Linux, Mac, and Windows.
+R is a programming language and environment for working with data. It can be run using the R console as well as on the [command-line](/en/lessons/intro-to-bash) or the [R Studio Interface](https://www.rstudio.com/). This tutorial will focus on using the R console. To get started with R, download the program from [The Comprehensive R Archive Network](https://cran.r-project.org/). R is compatible with Linux, Mac, and Windows.
 
 When you first open the R console, it will open in a window that looks like this:
 
@@ -534,10 +534,10 @@ For more information on R, visit the [R Manual](https://cran.r-project.org/doc/m
 
 There are also a number of other R tutorials online including:
 
-* [R: A self-learn tutorial](http://web.archive.org/web/20191015004305/https://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf) - this tutorial goes through a series of functions and provides exercises to practice skills.
+* [R: A self-learn tutorial](https://web.archive.org/web/20191015004305/https://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf) - this tutorial goes through a series of functions and provides exercises to practice skills.
 * [DataCamp Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) - this is a free online course that gives you feedback on your code to help identify errors and learn how to write code more efficiently.
 
-Finally, a great resource for digital historians is Lincoln Mullen's [Digital History Methods in R](http://dh-r.lincolnmullen.com/). It is a draft of a book written specifically on how to use R for digital history work.
+Finally, a great resource for digital historians is Lincoln Mullen's [Digital History Methods in R](https://dh-r.lincolnmullen.com/). It is a draft of a book written specifically on how to use R for digital history work.
 
 ## Endnotes
 

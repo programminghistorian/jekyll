@@ -21,8 +21,8 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/46
 layout: lesson
-next: contar-frecuencias
-previous: de-html-a-lista-de-palabras-2
+next: /es/lecciones/contar-frecuencias
+previous: /es/lecciones/de-html-a-lista-de-palabras-2
 original: normalizing-data
 python_warning: false
 difficulty: 2
@@ -174,12 +174,12 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 -   python-es-lecciones4.zip ([zip sync][])
 
 [De HTML a lista de palabras (parte 2)]: /es/lecciones/de-html-a-lista-de-palabras-2
-[web page]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
+[web page]: https://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
 [De HTML a lista de palabras (parte 1)]: /es/lecciones/de-html-a-lista-de-palabras-1
 [Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python
-[Unicode]: http://unicode.org/
-[soporte de Python]: https://web.archive.org/web/20180502053841/http://www.diveintopython.net/xml_processing/unicode.html
-[Dive into Python]: https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html
+[Unicode]: https://unicode.org/
+[soporte de Python]: https://web.archive.org/web/20180502053841/https://www.diveintopython.net/xml_processing/unicode.html
+[Dive into Python]: https://web.archive.org/web/20180416143856/https://www.diveintopython.net/regular_expressions/index.html
 [zip]: /assets/python-es-lecciones3.zip
 [zip sync]: /assets/python-es-lecciones4.zip
 [página Web]: https://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
