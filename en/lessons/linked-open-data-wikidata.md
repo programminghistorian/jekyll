@@ -5,7 +5,7 @@ original: datos-abiertos-enlazados-wikidata
 layout: lesson  
 collection: lessons  
 date: 2025-01-15
-translation_date: 2026-07-22
+translation_date: 2026-07-24
 authors:
 - Cláudia De Souza
 - Dinah M. Wilson Fraites
