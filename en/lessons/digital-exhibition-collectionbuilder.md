@@ -46,7 +46,7 @@ CollectionBuilder is a project of the University of Idaho Library's [Digital Ini
 CollectionBuilder offers three [different templates](https://perma.cc/45BK-P3CH) for building a digital exhibit:
 
 1.  CB-SHEETS allows you to update collections directly from a Google Sheet, making it ideal for prototyping, collaboration, and viewing changes in real-time.
-2.  CB-GH requires that you upload your metadata spreadsheet to your GitHub repository and allows for more customizations, making it suitable for teaching and learning GitHub, Git, and other web workflows
+2.  CB-GH requires that you upload your metadata spreadsheet to your GitHub repository and allows for more customizations, making it suitable for teaching and learning GitHub, Git, and other web workflows.
 3.  CB-CSV allows for the most customization, but you must [download software](https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/csv-walkthrough/#2-download-and-install-software-on-your-computer-git-github-desktop-visual-studio-code-ruby-jekyll-imagemagic-and-ghostscript-video-version) to your computer. You will need this template if you want to work with advanced digital objects like 360-degree panorama images, compound objects (such as a scrapbook or an archival folder), and multiples (such as a postcard with both the front and back, or text and its transcript).
 
 You can browse [examples of CollectionBuilder sites](https://collectionbuilder.github.io/cb-examples/) to get a sense of what is possible and the difference between the templates.
@@ -142,7 +142,7 @@ The following fields are required in CollectionBuilder (the following overview i
 
 In our example, we use the Internet Archive identifier directly as the **objectid** by renaming the corresponding column in the CSV file. Although the CollectionBuilder metadata guide recommends using lowercase **objectid** values, the uppercase Internet Archive identifiers still function correctly in this example. Retaining them in their original form makes it easier to construct the corresponding Internet Archive URLs. Alternatively, to follow the recommended practice, you could create a new **objectid** column and convert the Internet Archive identifiers to lowercase, while preserving the original **identifier** column for constructing the Internet Archive URLs.
 
-* **filename**: This field contains the direct URL to your digital object, such as a PDF, image, or audio file. For objects hosted on the Internet Archive, you can choose the display option that works best for your exhibition. In the Internet Archive, a variety of display options, such as [the digital object record](https://archive.org/details/BP_CCTT_0002), a [one-page view](https://archive.org/details/BP_CCTT_0002/mode/1up), a [two-page spread](https://archive.org/details/BP_CCTT_0002/mode/2up), a [thumbnail view](https://archive.org/details/BP_CCTT_0002/mode/thumb) and then you can apply theatre view to any of these display options if you want to focus on the digital object and not the metadata. In our example, we want visitors to see the full-screen flipbook version of each item, so we use URLs such as [`https://archive.org/details/BP_CCTT_0002/mode/thumb?view=theater`](https://archive.org/details/BP_CCTT_0002/mode/thumb?view=theater). Note that every Internet Archive URL uses the IA identifier (now your **objectid**), so you can use this construct these URLs fairly quickly using formulas such as concatenate in Excel or Google Sheets. 
+* **filename**: This field contains the direct URL to your digital object, such as a PDF, image, or audio file. For objects hosted on the Internet Archive, you can choose the display option that works best for your exhibition. In the Internet Archive, a variety of display options, such as [the digital object record](https://archive.org/details/BP_CCTT_0002), a [one-page view](https://archive.org/details/BP_CCTT_0002/mode/1up), a [two-page spread](https://archive.org/details/BP_CCTT_0002/mode/2up), a [thumbnail view](https://archive.org/details/BP_CCTT_0002/mode/thumb). You can also apply theatre view to any of these display options if you want to focus on the digital object and not the metadata. In our example, we want visitors to see the full-screen flipbook version of each item, so we use URLs such as [`https://archive.org/details/BP_CCTT_0002/mode/thumb?view=theater`](https://archive.org/details/BP_CCTT_0002/mode/thumb?view=theater). Note that every Internet Archive URL uses the IA identifier (now your **objectid**), so you can use this to construct these URLs fairly quickly using formulas such as concatenate in Excel or Google Sheets. 
   
 * **title**: This should correspond to a title of the original object. It is recommended that it be short and descriptive. In our example, some playbills have more than one play, so we have separated the play titles with a semicolon. For example: Othello; The Deserter
   
@@ -195,11 +195,11 @@ To set up CollectionBuilder for your exhibition, you first need to copy the temp
 
 In the top right-hand corner, you will see a _Use this template_ button. If you don’t see this button, make sure you are signed into your GitHub account.
 
-{% include figure.html filename="en-tr-digital-exhibition-collectionbuilder-03.png" alt="Screenshot of the CollectionBuilder GitHub repository with the Use this Template button circled." caption="Figure 3. Screenshot of the CollectionBuilder GitHub repository with the _Use this Template_ button highlighted" %}
+{% include figure.html filename="en-tr-digital-exhibition-collectionbuilder-03.png" alt="Screenshot of the CollectionBuilder GitHub repository with the _Use this template_ button highlighted." caption="Figure 3. Screenshot of the CollectionBuilder GitHub repository with the _Use this template_ button highlighted." %}
 
 When you click on the _Use this template_ button, you will have two options. Choose _Create a new repository_. This will let you copy all of the template files, with all the framework repository defaults, to your GitHub account so you can start building your exhibition. 
 
-In the _Create a new repository_ screen, you must name your new repository. The name will be in your URL and needs to be unique. You can also make your Github repository public or private. We recommend keeping your repository public so you can share your work and get help if needed. Note that free GitHub accounts require a public repository to use GitHub Pages to host a website.
+In the _Create a new repository_ screen, you must name your new repository. The name will be in your URL and needs to be unique. You can also make your GitHub repository public or private. We recommend keeping your repository public so you can share your work and get help if needed. Note that free GitHub accounts require a public repository to use GitHub Pages to host a website.
 
 #### Repository contents
 Now that you have cloned the template for your exhibition, let’s take a closer look at each folder and its role in your site.
@@ -230,7 +230,7 @@ At this point, while you could skip to the later sections of this lesson to full
 
 To publish your site using GitHub Pages, you just need to edit a few settings. From your repository home page, click on the _Settings_ option at the top right.
 
-{% include figure.html filename="en-tr-digital-exhibition-collectionbuilder-05.png" alt="Screenshot of GitHub demo repository page with a circle around the Settings button" caption="Figure 5. Screenshot of GitHub demo repository page with a yellow circle around the _Settings_ button." %}
+{% include figure.html filename="en-tr-digital-exhibition-collectionbuilder-05.png" alt="Screenshot of GitHub demo repository page with the _Settings_ button highlighted." caption="Figure 5. Screenshot of GitHub demo repository page with the _Settings_ button highlighted." %}
 
 Select **Pages** from the left side menu:
 
@@ -255,7 +255,7 @@ If this is the case, check your metadata sheet to see if your field names match 
 
 In addition, check if all of your commits or changes have been processed. You can click the **clock** icon with the number of commits and check whether it has a green check mark next to it.
 
-{% include figure.html filename="en-tr-digital-exhibition-collectionbuilder-08.png" alt="Screenshot of GitHub demo repository page with a circle around the Commits link, which you can use to check the status of your commits." caption="Figure 8. Screenshot of GitHub demo repository page with a circle around the _Commits_ link, which you can use to check the status of your commits." %}
+{% include figure.html filename="en-tr-digital-exhibition-collectionbuilder-08.png" alt="Screenshot of GitHub demo repository page with the _Commits_ link highlighted, which you can use to check the status of your commits." caption="Figure 8. Screenshot of GitHub demo repository page with the _Commits_ link highlighted, which you can use to check the status of your commits." %}
 
 Once you've addressed any glitches, your website should be viewable online.
 
@@ -267,7 +267,7 @@ Now that your digital exhibition is available online, let's customize it.
 
 The first thing someone sees when they visit your site is the homepage, and there are several ways you can customize it to encourage readers to explore your exhibition.
 
-The first change you can make is to add our logo and banner image, and update the text in the description box.
+The first change you can make is to add your logo and banner image, and update the text in the description box.
 
 Open the `_config.yml` file again. Under **#SITE SETTINGS**, update your site's title, tagline, and description.
 
@@ -302,7 +302,7 @@ The next thing you can do is change the order of the boxes. In our example, we m
 
 Next, let’s examine the default item page, which displays your digital object and its corresponding metadata. There are a number of changes that can be made to the default page, including which metadata fields are shown, in what order, what the labels are, and whether we want them to interlink to other items on your site or include external links.
 
-To make changes, go to the `_data` folder and open the `config-metadata.csv` file. The top row (1) is the table header row, which tells you what each column means. The first column **field** references the column name in your corresponding metadata CSV file, and **display_name** is the label on your item page. The **browse_link** and **external_link** columns are where you can turn on hyperlinking of fields or make a field link to an external website after each row below matches up to a metadata field that is displayed on your item page.  
+To make changes, go to the `_data` folder and open the `config-metadata.csv` file. The top row (1) is the table header row, which tells you what each column means. The first column **field** references the column name in your corresponding metadata CSV file, and **display_name** is the label on your item page. The **browse_link** and **external_link** columns are where you can turn on hyperlinking of fields or make a field link to an external website. Each row below matches up to a metadata field that is displayed on your item page.  
 
 {% include figure.html filename="en-tr-digital-exhibition-collectionbuilder-13.png" alt="Screenshot of the config-metadata.csv file with the updates specified in the lesson." caption="Figure 13. Screenshot of the `config-metadata.csv` file with the updates specified in the lesson." %}
 
@@ -310,7 +310,7 @@ To make changes, go to the `_data` folder and open the `config-metadata.csv` fil
 
 For the playbills example, we added new metadata terms specific to these materials to the item page, such as Playwright and Theatre Name, and changed the **display_name** of the title field to the more descriptive Play Title. We also wanted to encourage people to explore more playbills by a specific playwright or shown in a particular theatre, by making those fields browseable by editing the **browse_link** value to true.
 
-In our example, some playbills advertise multiple plays with multiple playwrights. To ensure that these appear as separate values that visitors can browse, make sure that they are separated in the metadata CSV with a semicolon. Then CollectionBuilder will then display them as separate links.
+In our example, some playbills advertise multiple plays with multiple playwrights. To ensure that these appear as separate values that visitors can browse, make sure that they are separated in the metadata CSV with a semicolon. Then CollectionBuilder will display them as separate links.
 
 Lastly, we added the item's full URL for easier access. Add a new line near the bottom (line 11) and add the value `true` under **external_link**. This makes the ENTIRE field a hyperlink, so if you include text and a URL, it won’t work. The metadata field can contain text or an external link, but not both. 
 
@@ -318,7 +318,7 @@ If you are using PDFs (as in our example) and would like to add thumbnails to yo
 
 
 ### Configure search and browse experience
-Search and browse functions also be configured. If you add a new metadata field to your item page, you will also need to add it to the `config-search.csv` file in the `_data` folder to make it searchable. To make the `browse_link` work for the new field, you must also add it to the `config-browse.csv` in the same `_data` folder.  
+Search and browse functions can also be configured. If you add a new metadata field to your item page, you will also need to add it to the `config-search.csv` file in the `_data` folder to make it searchable. To make the `browse_link` work for the new field, you must also add it to the `config-browse.csv` in the same `_data` folder.  
 
 Depending on your site goals and audience, you might want to add further customization. To learn about what more you can do, visit the [CollectionBuilder customization documentation](https://perma.cc/598E-GN25). 
 
