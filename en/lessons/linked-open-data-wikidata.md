@@ -25,7 +25,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/669
 difficulty: 1
 activity: sustaining
 topics: [lod, metadata]
-abstract: This lesson introduces Wikidata and provides a step-by-step guide to creating and linking metadata about academic journals and people using linked open data. It explores best practices for adding and managing metadata in Wikidata to increase the visibility and accessibility of resources in digital environments.
+abstract: This lesson introduces Wikidata and provides a step-by-step guide to using linked open data to create and link metadata about academic journals and people. It explores best practices for managing metadata in Wikidata to increase the visibility and accessibility of resources in digital environments.
 avatar_alt: Decorative framed letter W with a design of circular lines and patterns.
 doi: 10.46430/phen0132
 ---
@@ -93,13 +93,13 @@ Since Wikidata can connect local metadata with global data, many institutions wi
 
 ## The Structure of Wikidata
 
-In this section, you will explore the organization of Wikidata, examining its components and understanding their specific functions. Through this analysis, we will strengthen your understanding of Wikidata’s hierarchical and modular structure.
+In this section, you will explore the organization of Wikidata, examining its components and understanding their specific functions. Through this analysis, you will strengthen your understanding of Wikidata’s hierarchical and modular structure.
 
 'Items' are the fundamental units of Wikidata. They represent unique concepts, which can cover a wide range of entities, such as people, places, events, ideas, celestial bodies, living species, films, literary works, and more.
 
 Each Wikidata item consists of a label, which is a short descriptive name used to identify the concept, appended to a unique identifier formatted as the letter Q followed by a number. For example, the _Programming Historian_ has the identifier Q50817399 (Figure 3). This unique designation allows for easy referencing and access to a specific item, regardless of the language in which it is described. It is not necessary to memorize each item’s Q-number.
 
-{% include figure.html filename="en-tr-linked-open-data-wikidata-03.png" alt="Item for the journal ‘Programming Historian’ with its label and Q identifier." caption="Figure 3. Example of a Wikidata identifier: the Q number for the journal 'Programming Historian’." %}
+{% include figure.html filename="en-tr-linked-open-data-wikidata-03.png" alt="Item for the journal ‘Programming Historian’ with its label and Q identifier." caption="Figure 3. Example of a Wikidata identifier: the Q number for the journal ‘Programming Historian’." %}
 
 Labels in Wikidata can be ambiguous. For instance, ‘San Martín’ could refer to a person, a city, an island, or a region in Peru. Identifiers, however, are unique and language-independent, eliminating the need for language-specific identifiers. This feature enhances machine readability and enables bots to efficiently identify and edit Wikidata items.
 
@@ -113,7 +113,7 @@ After this initial section (which includes the label, Q-identifier, description,
 
 {% include figure.html filename="en-tr-linked-open-data-wikidata-05.png" alt="Item for ‘rain’ with translations in Spanish and Chinese" caption="Figure 5. Example of multilingualism in Wikidata: the case of the item ‘rain’." %}
 
-Wikidata describes items through statements: structured assertions that capture specific information about entities in the database. Each statement consists of a property (an attribute or characteristic) paired with a corresponding value, creating connections between different items (Figure 6). This system of interconnected statements forms the foundation of Wikidata’s hierarchical and modular architecture, establishing the relationships that define how knowledge is organized within the platform
+Wikidata describes items through statements: structured assertions that capture specific information about entities in the database. Each statement consists of a property (an attribute or characteristic) paired with a corresponding value, creating connections between different items (Figure 6). This system of interconnected statements forms the foundation of Wikidata’s hierarchical and modular architecture, establishing the relationships that define how knowledge is organized within the platform.
 
 {% include figure.html filename="en-tr-linked-open-data-wikidata-06.png" alt="Item for the journal ‘Programming Historian’ showing five of its statements." caption="Figure 6. Statements in Wikidata: examples of properties and values." %}
 
@@ -175,7 +175,7 @@ Here are some examples of values commonly used with the **instance of** property
 
 - 'film': For items representing movies
 
-For a longer list of examples see [Pages that link to Property:P31](https://perma.cc/2NTW-QWFK)
+For a longer list of examples see [Pages that link to Property:P31](https://perma.cc/2NTW-QWFK).
 
 Wikidata provides a dropdown menu with controlled vocabulary to help you select the most appropriate label for each instance. Although you can freely type into the field, suggestions from the controlled vocabulary appear quickly.
 
@@ -217,7 +217,7 @@ Even when describing just the basic metadata for a journal, several additional p
 
 Figure 12 shows an example of how the property **indexed in bibliographic review** [(P8875)](https://perma.cc/M7BD-5FTW) is used in Wikidata. Through linked data, items can be connected to external databases and catalogs.
 
-{% include figure.html filename="en-tr-linked-open-data-wikidata-12.png" alt="List of databases as values related to the property ‘indexed in bibliographic database’." caption="Figure 12. Example of using the **indexed in bibliographic database** property in Wikidata." %}
+{% include figure.html filename="en-tr-linked-open-data-wikidata-12.png" alt="List of databases as values related to the property ‘indexed in bibliographic review’." caption="Figure 12. Example of using the **indexed in bibliographic review** property in Wikidata." %}
 
 ## Describing People in Wikidata
 
@@ -299,9 +299,9 @@ If you’re interested in learning more about linked open data and Wikidata, we 
 
 [^1]: Hyvönen, E. (2020, October). Digital humanities on the Semantic Web: Sampo model and portal series. In Digital Humanities in the Nordic Countries (pp. 373-378). CEUR. <https://doi.org/10.3233/SW-223034>
 
-[^2]: Daudinot Founier, Isabel. (2006). Organización y recuperación de información en Internet: teoría de los metadatos. ACIMED, 14(5) Recuperado el 27 de febrero de 2024, de [http://eprints.rclis.org/9246/1/http___bvs.sld.cu_revistas_aci_vol14_5_06_aci06506.htm.pdf](https://perma.cc/XXT8-KFJT).
+[^2]: Daudinot Founier, Isabel. (2006). Organización y recuperación de información en Internet: teoría de los metadatos. ACIMED, 14(5) Retrieved February 27, 2024, from [http://eprints.rclis.org/9246/1/http___bvs.sld.cu_revistas_aci_vol14_5_06_aci06506.htm.pdf](https://perma.cc/XXT8-KFJT).
 
-[^3]: Torres Pombert, Ania. (2006). ¿Catalogación en el entorno digital?: una breve aproximación a los metadatos. ACIMED, 14(5) Recuperado el 27 de febrero de 2024, de [http://eprints.rclis.org/9251/1/http___bvs.sld.cu_revistas_aci_vol14_5_06_aci09506.htm.pdf](https://perma.cc/P8FR-ZRTD).
+[^3]: Torres Pombert, Ania. (2006). ¿Catalogación en el entorno digital?: una breve aproximación a los metadatos. ACIMED, 14(5) Retrieved February 27, 2024, from [http://eprints.rclis.org/9251/1/http___bvs.sld.cu_revistas_aci_vol14_5_06_aci09506.htm.pdf](https://perma.cc/P8FR-ZRTD).
 
 [^4]: Cuba Rodríguez, Yariannis, & Olivera Batista, Dianelis. (2018). Los metadatos, la búsqueda y recuperación de información desde las Ciencias de la Información. E-Ciencias de la Información, 8(2), 146-158. <https://dx.doi.org/10.15517/eci.v8i2.30085>.
 
