@@ -97,15 +97,7 @@ To get more of a taste for Wikidata, find the Wikidata item associated with the 
 
 You are probably thinking that, on the face of things, there's nothing especially enticing about these lists of details. This is correct: you could simply look up most of this trivia in any decent reference book. But Wikidata's value does not consist of its isolated factoids. Instead, Wikidata's power derives from the way it combines these data points with all the other data it contains through a powerful search protocol called [SPARQL](https://en.wikipedia.org/wiki/SPARQL). 
 
-> ***Insight***: This section introduced seven key Wikidata terms. These are common words, but they have a narrower sense in Wikidata. It may be useful to review this short list in the [Wikidata glossary](https://perma.cc/6Z2B-3QJQ):
-
-- Item
-- Property
-- Label
-- Alias
-- Identifier
-- Statement
-- Value
+> ***Insight***: This section introduced seven key Wikidata terms. These are common words, but they have a narrower sense in Wikidata. It may be useful to review this short list in the [Wikidata glossary](https://perma.cc/6Z2B-3QJQ): **item**, **property**, **label**, **alias**, **identifier**, **statement**, and **value**.
 
 ## Combining Factoids
 
@@ -174,10 +166,7 @@ Historians tend to be skeptical of taxonomic schemes, with good reason. But expl
 
 A big part of our expertise as historians is contextualizing details. For many of us, that's the fun and fascinating work. And that skill is precisely what a researcher needs in order to interact with the galaxy of isolated data points in Wikidata. The rest of this lesson shows a few of the main ways to do that.
 
-> ***Insight***: This section introduced two more terms that you can check in the [Wikidata glossary](https://perma.cc/6Z2B-3QJQ):
-
-- Class
-- Subclass
+> ***Insight***: This section introduced two more terms that you can check in the [Wikidata glossary](https://perma.cc/6Z2B-3QJQ): **class** and **subclass**.
 
 ## Querying Wikidata
 
@@ -357,7 +346,21 @@ WHERE
 
 But the results are disappointing: this query returns only a couple of items. Yet you know that progressivism is bigger than this. There may be a problem with the middle term (the property) in the triple statement. In other words, it seems that progressivism is rarely considered a [movement (P135)](https://perma.cc/7GNV-LUPG) in Wikidata. It must be described using a different property.
 
-But what property is that? Here's a [SPARQL query that counts the instances of every property that takes 'progressivism' as its value](https://w.wiki/FsGk). This shows that [political ideology (P1142)](https://perma.cc/DC3E-95GZ) is used far more than [movement (P135)](https://perma.cc/7GNV-LUPG). So, let's reconfigure our SPARQL query accordingly.
+But what property is that? Here's a [SPARQL query](https://w.wiki/FsGk) that counts the instances of every property that takes 'progressivism' as its value:
+
+```sparql
+SELECT ?property ?propertyLabel (COUNT(?item) AS ?count)
+WHERE
+{
+  ?item ?p wd:Q821102 .
+  ?property wikibase:directClaim ?p .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+GROUP BY ?property ?propertyLabel
+ORDER BY DESC(?count)
+```
+
+This shows that [political ideology (P1142)](https://perma.cc/DC3E-95GZ) is used far more than [movement (P135)](https://perma.cc/7GNV-LUPG). So, let's reconfigure our SPARQL query accordingly.
 
 ```sparql
 SELECT ?item ?itemLabel
@@ -418,4 +421,4 @@ More broadly, take this lesson as an invitation to learn ever more about how bes
 
 [^5]: Andrew Iliadis and Mikayla Brown, “Wikidata’s Worldview: A Semantic Network Analysis of an AI Knowledge Pipeline” (2026), [http://dx.doi.org/10.2139/ssrn.5396411](http://dx.doi.org/10.2139/ssrn.5396411); Steve Jankowski, Heather Ford, Andrew Iliadis, and Francesca Sidoti, “Uniting and Reigniting Critical Wikimedia Research,” _Big Data & Society_ 12, no. 3 (2025): 1–6, [https://doi.org/10.1177/20539517251357292](https://doi.org/10.1177/20539517251357292); Heather Ford and Andrew Iliadis, “Wikidata as Semantic Infrastructure: Knowledge Representation, Data Labor, and Truth in a More-Than-Technical Project,” _Social Media + Society_ 9, no. 3 (2023): 1–13, [https://doi.org/10.1177/20563051231195552](https://doi.org/10.1177/20563051231195552).
 
-[^6]: The reason for this quirk is straightforward: at the time of writing, “President of the United States” ([Q11696](https://perma.cc/Z6YN-DCA3)) is defined as 'instance of' ([P31](https://perma.cc/VW39-XK9H)) rather than “subclass of” ([P279](https://perma.cc/C7C5-TFMR)) 'head of state' ([Q48352](https://perma.cc/FTV7-EKVZ)) and 'head of government' ([Q2285706](https://perma.cc/PDZ8-PAUM)). These statements differ from the way most heads of state are described in Wikidata—and may have been changed by the time you read this.
+[^6]: The reason for this quirk is straightforward: at the time of writing, “President of the United States” ([Q11696](https://perma.cc/Z6YN-DCA3)) is defined as 'instance of' ([P31](https://perma.cc/VW39-XK9H)) rather than “subclass of” ([P279](https://perma.cc/C7C5-TFMR)) 'head of state' ([Q48352](https://perma.cc/FTV7-EKVZ)) and 'head of government' ([Q2285706](https://perma.cc/PDZ8-PAUM)). These statements differ from the way most heads of state are described in Wikidata—and may have been changed by the time you read this lesson.
