@@ -16,7 +16,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/664
 difficulty: 2
 activity: transforming
 topics: [data-management, metadata]
-abstract: This lesson teaches reverse engineering to conduct historical analysis on digital artefacts.
+abstract: This lesson teaches reverse engineering to conduct historical analysis of digital artefacts.
 avatar_alt: Line drawing showing a circular segmented wheel at the center, surrounded by four angled mechanical parts with numbered labels.
 doi: 10.46430/phen0134
 ---
@@ -123,7 +123,7 @@ Following the file signature is metadata describing the image’s dimensions, co
 
 All JPEG files follow this general architecture, and this predictable structure is what allows software to recognise and 'parse' (interpret) the data correctly. The infographic below provides a visual breakdown of this structure in JPEG files. You do not need to memorise every byte; rather, you can use this as an introduction to the structural markers that allow you to inspect a digital artefact.
 
-{% include figure.html filename="en-or-reverse-engineering-born-digital-artefacts-03.png" alt="The illustration shows a colour-coded hex dump on the left side. Some of the output is highlighted and connected with a dashed line to detailed explanations on the right side, indicating where the start of the image is, or where one could find more information about the files format." caption="Figure 3. Infographic annotating a JPEG's file header in hexadecimal notation. (Ange Albertini 2022 – CC-BY 4.0 )" %}
+{% include figure.html filename="en-or-reverse-engineering-born-digital-artefacts-03.png" alt="The illustration shows a colour-coded hex dump on the left side. Some of the output is highlighted and connected with a dashed line to detailed explanations on the right side, indicating where the start of the image is, or where one could find more information about the files format." caption="Figure 3. Infographic annotating a JPEG's file header in hexadecimal notation. (Ange Albertini 2022 – CC-BY 4.0)" %}
 
 Finally, the last two columns in the hex dump show an ASCII interpretation of the data. This means that `hexyl` renders the hex data from the middle columns as ASCII characters where possible, allowing human-readable text to appear alongside the hexadecimal values. As you will see later on, this can also be a useful resource for identifying anomalies in file structures and finding text that was intended to be read by humans. 
 
@@ -184,7 +184,7 @@ As noted in the introduction, born-digital artefacts are often 'black boxes' of 
 
 The older `.doc` format, predominant until 2007, is a complex binary format. If you open such a file in a hex viewer, the structure of the file is often difficult to read and buried beneath layers of proprietary logic:
 
-```
+```shell
 hexyl old-word-document.doc -n 256
 ```
 
@@ -279,7 +279,7 @@ Several compelling studies also demonstrate the potential of reverse engineering
 
 [^6]: Nick Montfort and Ian Bogost, _[Racing the Beam: The Atari Video Computer System](https://perma.cc/R3BK-4MXU)_ (Cambridge, MA: MIT Press, 2009), Platform Studies. See also Henry Jenkins, “A New ‘Platform’ for Games Research?: An Interview with Ian Bogost and Nick Montfort (Part One),” April 27, 2009, [http://henryjenkins.org/blog/2009/04/an_interview_with_ian_bogost_a.html](https://perma.cc/EP8G-F8VE); and Council on Library and Information Resources (CLIR), “Digital Forensics and Born-Digital Content in Cultural Heritage Collections,” [https://www.clir.org/pubs/reports/pub149/](https://perma.cc/8PV6-YQAC).
 
-[^7]: Ange Albertini, “Fearsome File Formats,” presentation at the Chaos Communication Congress, Hamburg, December 2024, 45 min., [Chaos Communication Congress video archive](<https://web.archive.org/web/20260308033814/https://media.ccc.de/v/38c3-fearsome-file-formats>); and Ange Albertini, “Funky File Formats, Advanced Binary Tricks,” presentation at the Chaos Communication Congress, Hamburg, December 2014, 51 min., [Chaos Communication Congress video archive](<https://web.archive.org/web/20260221194553/https://media.ccc.de/v/31c3_-_5930_-_en_-_saal_6_-_201412291400_-_funky_file_formats_-_ange_albertini>).
+[^7]: Ange Albertini, “Funky File Formats, Advanced Binary Tricks,” presentation at the Chaos Communication Congress, Hamburg, December 2014, 51 min., [Chaos Communication Congress video archive](<https://web.archive.org/web/20260221194553/https://media.ccc.de/v/31c3_-_5930_-_en_-_saal_6_-_201412291400_-_funky_file_formats_-_ange_albertini>); see also Ange Albertini, “Fearsome File Formats,” presentation at the Chaos Communication Congress, Hamburg, December 2024, 45 min., [Chaos Communication Congress video archive](<https://web.archive.org/web/20260308033814/https://media.ccc.de/v/38c3-fearsome-file-formats>).
 
 [^8]: Katie Biittner and John Aycock, “Inspecting the Foundation of _Mystery House_,” *Journal of Contemporary Archaeology*, accessed May 21, 2025, [https://doi.org/10.1558/jca.36745](https://doi.org/10.1558/jca.36745).
 
