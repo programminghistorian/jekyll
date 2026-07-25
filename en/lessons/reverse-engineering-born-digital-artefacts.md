@@ -16,7 +16,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/664
 difficulty: 2
 activity: transforming
 topics: [data-management, metadata]
-abstract: This lesson teaches reverse engineering to conduct historical analysis of digital artefacts.
+abstract: This lesson teaches reverse engineering to conduct historical analysis of digital artefacts. Learn to use a hex viewer to inspect the hidden, raw bytes of image and document files.
 avatar_alt: Line drawing showing a circular segmented wheel at the center, surrounded by four angled mechanical parts with numbered labels.
 doi: 10.46430/phen0134
 ---
