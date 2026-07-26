@@ -15,7 +15,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/661
 difficulty: 2
 activity: sustaining
 topics: [lod, metadata]
-abstract: Wikidata is the world's most popular collaborative knowledge base. This lesson introduces its structure and describes a path into its content. The lesson shows several ways to query its data and points out some virtues of the ways it structures historical information.
+abstract: This lesson introduces Wikidata and its underlying data structure. It shows how to navigate and query Wikidata using the Query Builder and SPARQL, and how its data model can be used to explore historical data.
 avatar_alt: Abstract geometric composition on a grid, with overlapping squares and rectangles in a pattern resembling a mosaic or chart.
 doi: 10.46430/phen0133
 ---
@@ -95,13 +95,13 @@ You can click on any item or property to go to its own page, which will give you
 
 To get more of a taste for Wikidata, find the Wikidata item associated with the Wikipedia page on a subject of interest to you. Click on links on that page – some will make sense, probably; others will not. Focus on those that are most transparent, and orient yourself within the web of data that makes up Wikidata.
 
-You are probably thinking that, on the face of things, there's nothing especially enticing about these lists of details. This is correct: you could simply look up most of this trivia in any decent reference book. But Wikidata's value does not consist of its isolated factoids. Instead, Wikidata's power derives from the way it combines these data points with all the other data it contains through a powerful search protocol called [SPARQL](https://en.wikipedia.org/wiki/SPARQL). 
+You are probably thinking that, on the face of things, there's nothing especially enticing about these lists of details. This is correct: you could simply look up most of this trivia in any decent reference book. But Wikidata's value does not consist of its isolated facts. Instead, Wikidata's power derives from the way it combines these data points with all the other data it contains through a powerful search protocol called [SPARQL](https://en.wikipedia.org/wiki/SPARQL). 
 
 > ***Insight***: This section introduced seven key Wikidata terms. These are common words, but they have a narrower sense in Wikidata. It may be useful to review this short list in the [Wikidata glossary](https://perma.cc/6Z2B-3QJQ): **item**, **property**, **label**, **alias**, **identifier**, **statement**, and **value**.
 
-## Combining Factoids
+## Combining Facts
 
-Wikidata offers tools and data that allow you to combine information with other background factoids. These combinations can help you understand context. For example, you might wonder how age figures in revolutionary careers. By combining factoids on Abdel Nasser's item page with other items, you might recognize a meaningful pattern. You'll learn more about constructing Wikidata queries later, but let's start by looking at the results of a few preconstructed queries. 
+Wikidata offers tools and data that allow you to combine information with other background facts. These combinations can help you understand context. For example, you might wonder how age figures in revolutionary careers. By combining facts on Abdel Nasser's item page with other items, you might recognize a meaningful pattern. You'll learn more about constructing Wikidata queries later, but let's start by looking at the results of a few preconstructed queries. 
 
 Let's say you are interested in the role that youth may have played in Abdel Nasser's rise to power, and you want to consider the age at which other mid-twentieth-century leaders took power. Here's [a query that returns that information](https://w.wiki/E$jz) via the Wikidata query service. Don't worry too much about the details of the query at this point; if you are curious, the grey lines explain what each step accomplishes. To execute the query, press the blue **play** button at the bottom left.
 
@@ -109,7 +109,7 @@ Scrolling down the table of results, which are sorted by age, you will find that
 
 {% include figure.html filename="en-or-wikidata-for-historical-research-04.png" alt="Column graph with count on y-axis and age at which head of state came to power on x-axis, with the bar for 38 years old highlighted." caption="Figure 4: Count of ages at which heads of state came to power, 1950-1980." %}
 
-> ***Optional exercise***: Popular AI chatbots are more than willing to answer broad contextual questions like this one about ages of heads of state. Chatbots get their answers, in part, from Wikidata. I encourage you to compare Wikidata's answers with the answers offered by chatbots here and in what follows. Typically, bot answers will be partial and will not disclose limits or edge cases. In the age example, the chatbots seem to neglect less well-known heads of state. But limits and edge cases are often what interest us as historians, which makes Wikidata's thorough and precise answers especially useful for research purposes.
+> ***Optional exercise***: Popular AI chatbots are more than willing to answer broad contextual questions like this one about ages of heads of state. Chatbots get their answers, in part, from Wikidata. I encourage you to compare Wikidata's answers with the answers offered by chatbots here and in what follows. Typically, chatbot answers will be partial and will not disclose limits or edge cases. In the age example, the chatbots seem to neglect less well-known heads of state. But limits and edge cases are often what interest us as historians, which makes Wikidata's thorough and precise answers especially useful for research purposes.
 
 Wikidata supports data-informed contextualization and, unlike chatbots, it gives only direct answers to structured queries. Once you get the hang of SPARQL, it is possible, with an additional query statement, to enrich your data in various ways that you might find meaningful. For example (again using prepared queries), you can [add a continent column](https://w.wiki/E$k7), [add a gender column and count of spouses and children](https://w.wiki/FmqN), or [add a column giving each leader's name in their native language](https://w.wiki/E$kB).
 
