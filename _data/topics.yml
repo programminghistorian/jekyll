@@ -58,6 +58,18 @@
     fr: "Les outils computationnels permettent d'extraire des informations pertinentes à partir de beaucoup de documents à la fois. Un classifieur bayésien naïf est une méthode d'apprentissage automatique: en lui fournissant des exemples des résultats attendus en fonction des données, il peut vite en trouver d'autres." 
     pt: "As ferramentas computacionais permitem a leitura e compreensão de muitos documentos ao mesmo tempo. Um classificador *Naive Bayesian* é um método de aprendizagem de máquina: dados alguns exemplos do tipo de coisa em que está interessado, ele pode encontrar rapidamente muito mais."
 
+- type: text-encoding
+  displayname:
+    en: "text encoding"
+    es: "codificación de textos"
+    fr: "encodage de textes"
+    pt: "codificação de textos"
+  description:
+    en: "Mark up documents with standards such as TEI-XML so that their structure and content can be processed, analyzed and published."
+    es: "Marca tus documentos con estándares como TEI-XML para que su estructura y su contenido puedan ser procesados, analizados y publicados."
+    fr: "Encodez vos documents avec des standards tels que la TEI-XML afin que leur structure et leur contenu puissent être traités, analysés et publiés."
+    pt: "Codifique os seus documentos com normas como a TEI-XML para que a sua estrutura e o seu conteúdo possam ser processados, analisados e publicados."
+    
 - type: get-ready
   displayname:
     en: "Set up"
