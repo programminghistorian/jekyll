@@ -297,7 +297,7 @@ If you’re interested in learning more about linked open data and Wikidata, we 
 
 ## Endnotes
 
-[^1]: Hyvönen, E. (2020, October). Digital humanities on the Semantic Web: Sampo model and portal series. In Digital Humanities in the Nordic Countries (pp. 373-378). CEUR. <https://doi.org/10.3233/SW-223034>
+[^1]: Hyvönen, E. (2020, October). Digital humanities on the Semantic Web: Sampo model and portal series. Semantic Web 14 (2023), 729–744. <https://doi.org/10.3233/SW-223034>.
 
 [^2]: Daudinot Founier, Isabel. (2006). Organización y recuperación de información en Internet: teoría de los metadatos. ACIMED, 14(5) Retrieved February 27, 2024, from [http://eprints.rclis.org/9246/1/http___bvs.sld.cu_revistas_aci_vol14_5_06_aci06506.htm.pdf](https://perma.cc/XXT8-KFJT).
 
