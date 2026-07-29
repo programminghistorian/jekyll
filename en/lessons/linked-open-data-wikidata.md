@@ -313,9 +313,9 @@ If you’re interested in learning more about linked open data and Wikidata, we 
 
 [^8]: Wikidata:SPARQL tutorial [https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial](https://perma.cc/W34X-SRUX).
 
-[^9]: Data from Wikimedia page [FindingGLAMs/GLAM statistics](https://perma.cc/SVV8-WS7W), archived in February 2020.
+[^9]: Data from Wikimedia page [FindingGLAMs/GLAM statistics](https://perma.cc/9LCP-Y7P6), archived in February 2020.
 
-[^10]: Data from Wikimedia page [FindingGLAMs/GLAM statistics](https://perma.cc/FB6U-5VUN), archived in February 2023. Current rankings can be found on [https://meta.wikimedia.org/wiki/FindingGLAMs/GLAM_statistics](https://perma.cc/SVV8-WS7W).
+[^10]: Data from Wikimedia page [FindingGLAMs/GLAM statistics](https://perma.cc/YQW4-YPGS), archived in February 2023. Current rankings can be found on [https://meta.wikimedia.org/wiki/FindingGLAMs/GLAM_statistics](https://perma.cc/9NWN-CCBG).
 
 [^11]: Obregón Sierra, Ángel. (2022). Inserción de metadatos de las bibliotecas españolas en Wikidata: un modelo de datos abiertos enlazados. Revista Española De Documentación Científica, 45(3), a330. <https://doi.org/10.3989/redc.2022.3.1870>.
 
