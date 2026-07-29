@@ -277,7 +277,7 @@ Under **Site/Organization Branding** section, you can add as much organizational
 
  {% include figure.html filename="en-tr-digital-exhibition-collectionbuilder-10.png" alt="Screenshot of the relevant text in the config.yml file for updating your organizational information." caption="Figure 10. Screenshot of the relevant text in the `config.yml` file for updating your organizational information." %}
  
-Next, add a banner or a featured image to the home page by editing the `theme.yml` in the `_data` folder. If your exhibition includes images, you can add the **objectid** of any image to feature it. This has the added advantage of automatically including a link to the featured image in your collection, as seen in the [Psychiana Digital Collection](https://www.lib.uidaho.edu/digital/psychiana/) example.
+Next, add a banner or a featured image to the home page by editing the `theme.yml` in the `_data` folder. If your exhibition includes images, you can add the **objectid** of any image to feature it. This has the added advantage of automatically including a link to the featured image in your collection, as seen in the [Psychiana Digital Collection](https://perma.cc/3DGQ-CGCV) example.
 
 Since our collection consists solely of PDF objects, we created a collage of some covers for the banner. To use this file in your header, you need to first upload it to the `/assets/img` folder and then add that path to the `theme.yml` file in the `_data` folder.
 
