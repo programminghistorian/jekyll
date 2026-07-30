@@ -221,7 +221,7 @@ After you add a message and click the _Commit changes_ button, your file is in t
 
 Since your `_data` folder contains several metadata files, the next step is to tell the CollectionBuilder template which one to use for your exhibition.
 
-To do this, you will edit the `_config.yml` file. Under the heading **# COLLECTION SETTINGS** change line 37 `metadata: demo-metadata` to the name of your metadata file you just uploaded. In our example, we changed it to `metadata: ph-demo-playbills`.
+To do this, you will edit the `_config.yml` file. Under the heading **# COLLECTION SETTINGS** change the line `metadata: demo-metadata` to the name of your metadata file you just uploaded. In our example, we changed it to `metadata: ph-demo-playbills`.
 
 {% include figure.html filename="en-tr-digital-exhibition-collectionbuilder-04.png" alt="Screenshot of the relevant section of the config.yml file showing where to point CollectionBuilder to your metadata file." caption="Figure 4. Screenshot of the relevant section of the `config.yml` file showing where to point CollectionBuilder to your metadata file." %}
 
@@ -292,7 +292,7 @@ Next, you can change the number and arrangement of content boxes on the template
 
 In our example, we have used the location metadata field to indicate the playbill's physical location, which helps library staff retrieve the item if requested. However, you do not necessarily need to be able to browse that on the front page.
 
-To delete that box, first locate line 19 of the code that includes `field="location"`, then delete the entire line. In our demo, we also removed the `objects` box line of code on line 21, since everything in our example exhibition is a PDF and it did not provide the viewer with any useful information to browse. In another exhibit, if you have various media including PDFs, images and audio, this would be more helpful to your user. 
+To delete that box, first locate the line of the code that includes `field="location"`, then delete the entire line. In our demo, we also removed the `objects` box line of code (`{% include index/objects.html %}`), since everything in our example exhibition is a PDF and it did not provide the viewer with any useful information to browse. In another exhibit, if you have various media including PDFs, images and audio, this would be more helpful to your user. 
 
 The next thing you can do is change the order of the boxes. In our example, we moved the subject box to the top and pushed the timeline down. We also changed the title of the Subject box to **Top Genre** to better reflect the metadata.
 
@@ -308,11 +308,11 @@ To make changes, go to the `_data` folder and open the `config-metadata.csv` fil
 
 {% include figure.html filename="en-tr-digital-exhibition-collectionbuilder-14.png" alt="Screenshot of the metadata section of the demo exhibition." caption="Figure 14. Screenshot of the metadata section of the demo exhibition to show the same changes from the `config-metadata.csv` file." %}
 
-For the playbills example, we added new metadata terms specific to these materials to the item page, such as Playwright and Theatre Name, and changed the **display_name** of the title field to the more descriptive Play Title. We also wanted to encourage people to explore more playbills by a specific playwright or shown in a particular theatre, by making those fields browseable by editing the **browse_link** value to true.
+For the playbills example, we added new metadata terms specific to these materials to the item page, such as Playwright and Theatre Name, and changed the **display_name** of the title field to the more descriptive Play Title. We also wanted to encourage people to explore more playbills by a specific playwright or shown in a particular theatre, by making those fields browsable by editing the **browse_link** value to true.
 
 In our example, some playbills advertise multiple plays with multiple playwrights. To ensure that these appear as separate values that visitors can browse, make sure that they are separated in the metadata CSV with a semicolon. Then CollectionBuilder will display them as separate links.
 
-Lastly, we added the item's full URL for easier access. Add a new line near the bottom (line 11) and add the value `true` under **external_link**. This makes the ENTIRE field a hyperlink, so if you include text and a URL, it won’t work. The metadata field can contain text or an external link, but not both. 
+Lastly, we added the item's full URL for easier access. Add a new line near the bottom and add the value `true` under **external_link**. This makes the ENTIRE field a hyperlink, so if you include text and a URL, it won’t work. The metadata field can contain text or an external link, but not both. 
 
 If you are using PDFs (as in our example) and would like to add thumbnails to your item page, we have instructions on [our extra content page](https://perma.cc/6J8H-NDCJ). 
 
