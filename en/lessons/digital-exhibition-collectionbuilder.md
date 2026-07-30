@@ -5,7 +5,7 @@ original: exhibicion-con-collection-builder
 layout: lesson
 collection: lessons
 date: 2022-08-21
-translation_date: 2026-07-13
+translation_date: 2026-07-31
 authors:
 - Jennifer Isasi
 reviewers:
