@@ -297,17 +297,17 @@ If you’re interested in learning more about linked open data and Wikidata, we 
 
 ## Endnotes
 
-[^1]: Hyvönen, E. (2020, October). Digital humanities on the Semantic Web: Sampo model and portal series. Semantic Web 14 (2023), 729–744. <https://doi.org/10.3233/SW-223034>.
+[^1]: Eero Hyvönen, "Digital Humanities on the Semantic Web: Sampo Model and Portal Series," Semantic Web 14, no. 4 (2023): 729–744, <https://doi.org/10.3233/SW-223034>.
 
-[^2]: Daudinot Founier, Isabel. (2006). Organización y recuperación de información en Internet: teoría de los metadatos. ACIMED, 14(5) Retrieved February 27, 2024, from [http://eprints.rclis.org/9246/1/http___bvs.sld.cu_revistas_aci_vol14_5_06_aci06506.htm.pdf](https://perma.cc/XXT8-KFJT).
+[^2]: Isabel Daudinot Founier, "Organización y recuperación de información en Internet: Teoría de los metadatos," *ACIMED* 14, no. 5 (2006), accessed February 27, 2024, [http://eprints.rclis.org/9246/1/http___bvs.sld.cu_revistas_aci_vol14_5_06_aci06506.htm.pdf](https://perma.cc/XXT8-KFJT).
 
-[^3]: Torres Pombert, Ania. (2006). ¿Catalogación en el entorno digital?: una breve aproximación a los metadatos. ACIMED, 14(5) Retrieved February 27, 2024, from [http://eprints.rclis.org/9251/1/http___bvs.sld.cu_revistas_aci_vol14_5_06_aci09506.htm.pdf](https://perma.cc/P8FR-ZRTD).
+[^3]: Ania Torres Pombert, "¿Catalogación en el entorno digital?: Una breve aproximación a los metadatos," *ACIMED* 14, no. 5 (2006), accessed February 27, 2024, [http://eprints.rclis.org/9251/1/http___bvs.sld.cu_revistas_aci_vol14_5_06_aci09506.htm.pdf](https://perma.cc/P8FR-ZRTD).
 
-[^4]: Cuba Rodríguez, Yariannis, & Olivera Batista, Dianelis. (2018). Los metadatos, la búsqueda y recuperación de información desde las Ciencias de la Información. E-Ciencias de la Información, 8(2), 146-158. <https://dx.doi.org/10.15517/eci.v8i2.30085>.
+[^4]: Yariannis Cuba Rodríguez and Dianelis Olivera Batista, "Los metadatos, la búsqueda y recuperación de información desde las Ciencias de la Información," *e-Ciencias de la Información* 8, no. 2 (2018): 146–158, <https://doi.org/10.15517/eci.v8i2.30085>.
 
-[^5]: Cadena López, Aydé, Ramos Luna, Lorena Litai, & Rivera González, Gibrán. (2022). Los datos abiertos en los estudios organizacionales: Reflexiones e implicaciones. Trace (México, DF), (82), 41-65. Epub 02 de diciembre de 2022. <https://doi.org/10.22134/trace.82.2022.819>.
+[^5]: Aydé Cadena López, Lorena Litai Ramos Luna, and Gibrán Rivera González, "Los datos abiertos en los estudios organizacionales: Reflexiones e implicaciones," *Trace (México, DF)*, no. 82 (2022): 41–65, <https://doi.org/10.22134/trace.82.2022.819>.
 
-[^6]: Ávila-Barrientos, Eder. (2022). Recuperación de información con Linked Open Data. Investigación bibliotecológica, 36(91), 125-146. Epub 15 de noviembre de 2022. <https://doi.org/10.22201/iibi.24488321xe.2022.91.58567>.
+[^6]: Eder Ávila-Barrientos, "Recuperación de información con Linked Open Data," *Investigación Bibliotecológica* 36, no. 91 (2022): 125–146, <https://doi.org/10.22201/iibi.24488321xe.2022.91.58567>.
 
 [^7]: Semantic triple [https://en.wikipedia.org/wiki/Semantic_triple](https://perma.cc/86NA-P4QN).
 
