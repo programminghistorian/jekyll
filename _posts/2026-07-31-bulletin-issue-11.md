@@ -28,10 +28,19 @@ This quarter, we honour the service and commitment of Adam Crymble, who has serv
 >
 >James Baker
 
->I first met Adam at the Bogotá workshop, an experience made possible by his work and leadership. Looking back, I can see that it was, in many ways, a turning point for me. It opened the door to a community that has profoundly shaped both my professional and personal life, and to a project that showed me what genuine collaboration could look like. Adam believed that _Programming Historian_ could become something bigger than an English-language publication, and he was deeply committed to making that vision a reality. His allyship meant that many of us felt empowered to contribute and to lead, and to imagine _Programming Historian_ as a project we could truly call our own.
-Thanks to the community he helped build, many of us found collaborators, friendships, and a sense of belonging. For that, I will always be grateful. ¡Muchas gracias, Adam!
+>I first met Adam at the Bogotá workshop, an experience made possible by his work and leadership. Looking back, I can see that it was, in many ways, a turning point for me. It opened the door to a community that has profoundly shaped both my professional and personal life, and to a project that showed me what genuine collaboration could look like. Adam believed that _Programming Historian_ could become something bigger than an English-language publication, and he was deeply committed to making that vision a reality. His allyship meant that many of us felt empowered to contribute and to lead, and to imagine _Programming Historian_ as a project we could truly call our own. Thanks to the community he helped build, many of us found collaborators, friendships, and a sense of belonging. For that, I will always be grateful. ¡Muchas gracias, Adam!
 >
 >Riva Quiroga
+
+>Adam has stepped down from this project after 16 years and it is hard to overstate what that means for this community.
+>
+>He was part of the team that welcomed the idea of making PH bilingual, opening the door to the Spanish-language edition and a much wider community of scholars and learners. He has continued to support new teams ever since, offering the kind of steady, generous guidance that doesn't always make it into public view but makes all the difference. 
+>
+>I joined the team in 2018, and Adam's presence was there from the very first day -- a constant, thoughtful voice in the many hard conversations that shaped this journal into what it is today. 
+>
+>Sixteen years is an extraordinary contribution. Gracias, Adam, por todo, the visible work and everything behind it.
+>
+>Jennifer Isasi
 
 >From my very first day in 2021, Adam’s wholehearted commitment to and investment in _Programming Historian_ were absolutely clear. He gave me the opportunity and encouragement to develop the skills needed to support our publications and to build strong relationships across our teams. Adam has been my mentor and my advocate, making it possible for me to grow within this very special organisation. I will always be grateful for his generosity, guidance, and belief in me.
 >
