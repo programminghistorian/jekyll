@@ -68,7 +68,7 @@
     en: "Mark up documents with standards such as TEI-XML so that their structure and content can be processed, analyzed and published."
     es: "Marca tus documentos con estándares como TEI-XML para que su estructura y su contenido puedan ser procesados, analizados y publicados."
     fr: "Encodez vos documents avec des standards tels que la TEI-XML afin que leur structure et leur contenu puissent être traités, analysés et publiés."
-    pt: "Codifique os seus documentos com normas como a TEI-XML para que a sua estrutura e o seu conteúdo possam ser processados, analisados e publicados."
+    pt: "Codifique documentos usando normas como a TEI-XML para que sua estrutura e seu conteúdo possam ser processados, analisados e publicados."
     
 - type: get-ready
   displayname:
