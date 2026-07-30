@@ -18,7 +18,7 @@ categories: posts
 
 This quarter, we honour the service and commitment of Adam Crymble, who has served on the Board since 2011 – and who, this June, stepped down from their role as Trustee. Thank you, Adam, for everything you've given this organisation, and for everything you've given so many of us individually.
 
-**Maria José Afandor-Llach**, **James Baker**, **Riva Quiroga** and **Anisa Hawes** share their tributes. 
+**Maria José Afandor-Llach**, **James Baker**, **Riva Quiroga**, **Jennifer Isasi** and **Anisa Hawes** share their tributes. 
 
 >Adam brought together a community of Digital Humanities practitioners into a global-scale thriving editorial project in which many of us learned and collaborated. I'm grateful for his mentorship, openness, and support when we started with _Programming Historian en español_ in 2016. I will never forget our Bogota's workshop. Gracias Adam.  
 >
