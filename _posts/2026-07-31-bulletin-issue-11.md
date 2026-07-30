@@ -28,6 +28,11 @@ This quarter, we honour the service and commitment of Adam Crymble, who has serv
 >
 >James Baker
 
+>I first met Adam at the Bogotá workshop, an experience made possible by his work and leadership. Looking back, I can see that it was, in many ways, a turning point for me. It opened the door to a community that has profoundly shaped both my professional and personal life, and to a project that showed me what genuine collaboration could look like. Adam believed that _Programming Historian_ could become something bigger than an English-language publication, and he was deeply committed to making that vision a reality. His allyship meant that many of us felt empowered to contribute and to lead, and to imagine _Programming Historian_ as a project we could truly call our own.
+Thanks to the community he helped build, many of us found collaborators, friendships, and a sense of belonging. For that, I will always be grateful. ¡Muchas gracias, Adam!
+>
+>Riva Quiroga
+
 >From my very first day in 2021, Adam’s wholehearted commitment to and investment in _Programming Historian_ were absolutely clear. He gave me the opportunity and encouragement to develop the skills needed to support our publications and to build strong relationships across our teams. Adam has been my mentor and my advocate, making it possible for me to grow within this very special organisation. I will always be grateful for his generosity, guidance, and belief in me.
 >
 >Anisa Hawes
