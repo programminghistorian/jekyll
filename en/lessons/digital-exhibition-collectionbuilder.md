@@ -292,7 +292,7 @@ Next, you can change the number and arrangement of content boxes on the template
 
 In our example, we have used the location metadata field to indicate the playbill's physical location, which helps library staff retrieve the item if requested. However, you do not necessarily need to be able to browse that on the front page.
 
-To delete that box, first locate the line of the code that includes `field="location"`, then delete the entire line. In our demo, we also removed the `objects` box line of code (`{% include index/objects.html %}`), since everything in our example exhibition is a PDF and it did not provide the viewer with any useful information to browse. In another exhibit, if you have various media including PDFs, images and audio, this would be more helpful to your user. 
+To delete that box, first locate the line of the code that includes `field="location"`, then delete the entire line. In our demo, we also removed the `objects` box line of code ({% raw %}{% include index/objects.html %}{% endraw %}), since everything in our example exhibition is a PDF and it did not provide the viewer with any useful information to browse. In another exhibit, if you have various media including PDFs, images and audio, this would be more helpful to your user. 
 
 The next thing you can do is change the order of the boxes. In our example, we moved the subject box to the top and pushed the timeline down. We also changed the title of the Subject box to **Top Genre** to better reflect the metadata.
 
