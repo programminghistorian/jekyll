@@ -2,7 +2,7 @@
 
 # Build site, and then run htmlproofer to check for broken internal and external links
 
-bundle exec jekyll build && htmlproofer _site --assume-extension --empty-alt-ignore --alt-ignore '/.*/' --file-ignore "/assets/,/retired/,/retirada/,/retrait/,/posts/" --timeframe '30d' --only-4xx --http-status-ignore 429,403,400 --url-ignore "/http://www.gutenberg.org/*/,/https://github.com/programminghistorian/jekyll/(commits|blob)/*/,/\#/,/espanol/,/deprecated/,/collection.britishmuseum.org/,/analytics.hathitrust.org/,/fr.wikipedia.org/wiki/,https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf" --allow-hash-href 
+bundle exec jekyll build && htmlproofer _site --assume-extension --empty-alt-ignore --alt-ignore '/.*/' --file-ignore "/assets/,/retired/,/retirada/,/retrait/,/posts/" --timeframe '30d' --only-4xx --http-status-ignore 429,403,400 --url-ignore "/http://www.gutenberg.org/*/,/https://github.com/programminghistorian/jekyll/(commits|blob)/*/,/\#/,/espanol/,/deprecated/,/collection.britishmuseum.org/,/analytics.hathitrust.org/,/fr.wikipedia.org/wiki/,/doi.org/,https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf" --allow-hash-href 
 
 ## Updated version of htmlproofer commands (internal linking still doesn't work for some reason).
 # htmlproofer ./_site \
