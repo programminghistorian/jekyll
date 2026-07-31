@@ -67,7 +67,7 @@
   description:
     en: "Mark up documents with standards such as TEI-XML so that their structure and content can be processed, analyzed and published."
     es: "Marca tus documentos con estándares como TEI-XML para que su estructura y su contenido puedan ser procesados, analizados y publicados."
-    fr: "Encodez vos documents avec des standards tels que la TEI-XML afin que leur structure et leur contenu puissent être traités, analysés et publiés."
+    fr: "Encodez vos documents avec des normes telles que le XML-TEI afin que leur structure et leur contenu puissent être traités, analysés et publiés."
     pt: "Codifique documentos usando normas como a TEI-XML para que sua estrutura e seu conteúdo possam ser processados, analisados e publicados."
     
 - type: get-ready
@@ -127,7 +127,7 @@
   description:
     en: "Learn how to use programming to download material from the Internet in a controlled, semi-automated manner."
     es: "Aprende a utilizar programas para descargar información de internet de una manera controlado y semiautomática."
-    fr: "Apprenez comment utiliser la programmation pour télécharger des données en provenance d'internet de manière contrôlée et semi-automatique."
+    fr: "Apprenez comment utiliser la programmation pour télécharger des données en provenance d'Internet de manière contrôlée et semi-automatique."
     pt: "Aprenda como usar a programação para obter informação da internet de maneira controlada e semi-automática."
 
 - type: website
@@ -175,7 +175,7 @@
   description:
     en: "Web archiving involves describing, collecting, preserving and providing access to material from the Internet, ensuring the long-term availability of online information."
     es: "Lecciones para aprender a utilizar el archivado web"
-    fr: "Leçons enseignant ou utilisant l'archivage web"
+    fr: "Leçons enseignant ou ayant recours à l'archivage du web"
     pt: "Lições de ensino ou utilização de arquivo da web"
     
 - type: creative-coding
@@ -199,7 +199,7 @@
   description:
     en: "Discover methods for visually representing large or complex data through intuitive graphics such as tables, charts or graphs."
     es: "Lecciones que enseñan a representar datos mediante gráficos comunes."
-    fr: "Leçons qui enseignent la représentation de données à l'aide de graphiques communs."
+    fr: "Leçons qui enseignent la représentation de données à l'aide de graphiques."
     pt: "Lições que ensinam a representação de dados através de gráficos comuns."
 
 - type: modeling
