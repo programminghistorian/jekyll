@@ -12,8 +12,7 @@ bundle exec jekyll build && htmlproofer _site --assume-extension --empty-alt-ign
 #   --cache "{ \"timeframe\": { \"external\": \"30d\" } }" \
 #   --only-4xx \
 #   --ignore-status-codes 429,403,400 \
-#   --ignore-urls "/http://www.gutenberg.org/*/,/https://github.com/programminghistorian/jekyll/(commits|blob)/*/,/\#/,/espanol/,/deprecated/,/collection.britishmuseum.org/,/analytics.hathitrust.org/,/fr.wikipedia.org/wiki/,https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf" \
-
+#   --ignore-urls "/http://www.gutenberg.org/*/,/https://github.com/programminghistorian/jekyll/(commits|blob)/*/,/\#/,/espanol/,/deprecated/,/collection.britishmuseum.org/,/analytics.hathitrust.org/,/fr.wikipedia.org/wiki/,/doi.org/,https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf" \
 
 # The folllowing comments docuemnt what each line of that build script does.
 
