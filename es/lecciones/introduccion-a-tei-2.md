@@ -17,9 +17,7 @@ series_total: 2 lessons
 sequence: 2
 difficulty: 2
 activity: transforming
-topics:
-- data-manipulation
-- website
+topics: [data-manipulation, website, text-encoding]
 abstract: "Esta lección (la segunda de dos partes) te enseña los rudimentos de TEI-XML para codificar textos."
 doi: 10.46430/phes0055
 avatar_alt: "Grabado que muestra el corte transversal de capas terrestres."
