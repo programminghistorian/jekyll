@@ -20,7 +20,7 @@ translation-reviewer:
 - Jorge Barbosa
 difficulty: 2
 activity: transforming
-topics: [data-manipulation, website]
+topics: [data-manipulation, website, text-encoding]
 abstract: "Com esta lição, (a primeira de duas partes) aprenderá as bases de TEI-XML para codificar textos"
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/470
 original: introduccion-a-tei-1
