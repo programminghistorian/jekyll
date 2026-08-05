@@ -3,7 +3,7 @@ title: "Reverse Engineering Born-Digital Artefacts: A Beginner's Guide"
 slug: reverse-engineering-born-digital-artefacts
 layout: lesson
 collection: lessons
-date: 2026-07-27
+date: 2026-08-07
 authors:
 - Adrian Demleitner
 - Daniel Gammenthaler
