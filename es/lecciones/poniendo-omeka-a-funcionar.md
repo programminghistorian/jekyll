@@ -184,4 +184,4 @@ Ahora que has añadido algunos ítems y los has agrupado en una colección, tóm
 Recursos adicionales
 -----------------------------
 El equipo de Omeka ha compilado un conjunto de muy buenos recursos en las [páginas de ayuda](http://info.omeka.net) del software.
-[Este manual en español](https://www.rubenalcaraz.es/manual-omeka/) contiene información útil para evaluar las ventajas y desventajas de usar **Omeka.net** u **Omeka.org**, al igual que instrucciones generales sobre cómo instalar Omeka en tu servidor.
+[Este manual en español](https://web.archive.org/web/20260521170604/https://www.rubenalcaraz.es/manual-omeka/) contiene información útil para evaluar las ventajas y desventajas de usar **Omeka.net** u **Omeka.org**, al igual que instrucciones generales sobre cómo instalar Omeka en tu servidor.
