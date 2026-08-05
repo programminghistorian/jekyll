@@ -3,7 +3,7 @@ title: "Wikidata for Historical Research"
 slug: wikidata-for-historical-research
 layout: lesson
 collection: lessons
-date: 2026-07-23
+date: 2026-08-07
 authors:
 - Will Hanley
 reviewers:
@@ -32,7 +32,7 @@ In this lesson, you will learn:
 
 Although this stand-alone lesson focuses on Wikidata, it also serves to extend your understanding of Linked Open Data (LOD). Wikidata is one of the most user-friendly implementations of this data model and is under constant development. It is a great place to begin learning about key graph data features, such as schemas and the SPARQL query language, which can be applied in other contexts.
 
-**Related lessons**: After completing this lesson, readers may wish to consult Jonathan Blaney's [Introduction to the Principles of Linked Open Data](/en/lessons/intro-to-linked-data), which covers some of the same topics in more abstract and general terms. (When Blaney wrote his lesson, Wikidata did not yet exist.) Historians may also benefit from an [introductory Wikidata lesson](https://programminghistorian.github.io/ph-submissions/en/drafts/translations/linked-open-data-wikidata) <!-- LINK TO BE UPDATED --> aimed at librarians, archivists, and other information professionals, which covers similar concepts using different examples.
+**Related lessons**: After completing this lesson, readers may wish to consult Jonathan Blaney's [Introduction to the Principles of Linked Open Data](/en/lessons/intro-to-linked-data), which covers some of the same topics in more abstract and general terms. (When Blaney wrote his lesson, Wikidata did not yet exist.) Readers may also benefit from Cláudia De Souza and Dinah M. Wilson Fraites's lesson [Using Linked Open Data to Describe Academic Journals and People with Wikidata](/en/lessons/linked-open-data-wikidata) aimed at librarians, archivists, and other information professionals, which covers similar concepts using different examples.
 
 **Prerequisites**: There are no prerequisites for this lesson, but you may wish to log in to Wikidata in order to personalize language settings. If you already have a Wikipedia user account, you can use it to log in to Wikidata.
 
