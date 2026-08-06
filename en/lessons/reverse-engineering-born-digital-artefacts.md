@@ -281,7 +281,7 @@ Several compelling studies also demonstrate the potential of reverse engineering
 
 [^7]: Ange Albertini, “Funky File Formats, Advanced Binary Tricks,” presentation at the Chaos Communication Congress, Hamburg, December 2014, 51 min., [Chaos Communication Congress video archive](<https://web.archive.org/web/20260221194553/https://media.ccc.de/v/31c3_-_5930_-_en_-_saal_6_-_201412291400_-_funky_file_formats_-_ange_albertini>); see also Ange Albertini, “Fearsome File Formats,” presentation at the Chaos Communication Congress, Hamburg, December 2024, 45 min., [Chaos Communication Congress video archive](<https://web.archive.org/web/20260308033814/https://media.ccc.de/v/38c3-fearsome-file-formats>).
 
-[^8]: Katie Biittner and John Aycock, “Inspecting the Foundation of _Mystery House_,” *Journal of Contemporary Archaeology*, accessed May 21, 2025, [https://doi.org/10.1558/jca.36745](https://doi.org/10.1558/jca.36745).
+[^8]: Katie Biittner and John Aycock, “Inspecting the Foundation of _Mystery House_,” _Journal of Contemporary Archaeology_, accessed May 21, 2025, [https://doi.org/10.1558/jca.36745](https://doi.org/10.1558/jca.36745).
 
 [^9]: John Aycock, _Amnesia Remembered: Reverse Engineering a Digital Artifact_ (New York: Berghahn Books, 2023), [https://doi.org/10.1515/9781800738683](https://doi.org/10.1515/9781800738683).
 
