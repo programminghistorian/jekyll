@@ -24,6 +24,7 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 ## Publications scientifiques
 
+* Alexandre Wauthier, Daphné Mathelier, Matthias Gille Levenson & Marie Flesch, 'Programming Historian en français', _DEMC Journal_, n.1 (2026).  
 * Anisa Hawes & Riva Quiroga [“Writing about research methods: sharing failure to support success”](https://read.uolpress.co.uk/read/316fdea1-5051-4f50-8957-afbc51342998/section/27f2b82c-e89e-4b3a-b09d-09fda644b091#ch19), in [Reframing Failure in Digital Scholarship](https://doi.org/https://doi.org/10.63674/yrab7358), edité par Sichani, A., & Donnay, M., University of London Press, 2025.   
 * Riva Quiroga, Anisa Hawes, Anna-Maria Sichani & Charlotte Chevrie, “Sustainable Growth of Multilingual Open Publishing Projects: The Case of _Programming Historian_”, The Journal of Electronic Publishing 27, no. 1 (2024). [https://doi.org/10.3998/jep.5571](https://doi.org/10.3998/jep.5571).
 * Juliana Marques, Joana Vieira Paulino, Daniel Alves, Jimmy Medeiros & Suemi Higuchi, "[O _Programming Historian em Português_ na promoção do letramento digital na sala de aula](https://rhhj.anpuh.org/RHHJ/article/view/1146/563)", _Revista História Hoje_ 13, no. 17 (2024), 304-325. 
@@ -51,6 +52,17 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 ## Ateliers et évènements
 
+* Jennifer Isasi, Alex Wermer-Colan, Laura Alice Chapot & Caio Mello, ‘Translating Digital Humanities Methods: Approaches from the Programming Historian’, ADHO, Daejeon, Corée du Sud, (27 juillet 2026).
+* Halie Kerns, Arnoud Wils & Anisa Hawes, [‘Mapping Connections in Library Collections: Visualising Catalogue Metadata’](https://tinyurl.com/library-networks), ENABling Library and Archive participation in digital Research co-learning communities (ENABLAR) [En ligne], (16 juillet 2026). 
+* Kirsty Edginton, Felix Vanden Borre & Anisa Hawes, ‘[Enriching Archival Metadata for People Discovery](https://tinyurl.com/archive-people)’, ENABling Library and Archive participation in digital Research co-learning communities (ENABLAR) [En ligne], (14 juillet 2026). 
+* Doreen Chen, Péter Király & Anisa Hawes, ‘[Exploring Library Catalogues as Data: Using Metadata to Ask New Questions](https://tinyurl.com/library-metadata)’, ENABling Library and Archive participation in digital Research co-learning communities (ENABLAR) [En ligne], (9 juillet 2026). 
+* Joseph Nockels, Natalia Estrada & Anisa Hawes, ‘[Spotting AI Licence Red Flags: A Practical Approach for Libraries](https://tinyurl.com/ai-red-flags)’, ENABling Library and Archive participation in digital Research co-learning communities (ENABLAR) [En ligne], (8 juillet 2026).
+* Michael Donnay, Anna-Maria Sichani, Anisa Hawes & Arianna Ciula, ‘DH Fail Club’, [UK-Ireland Digital Humanities Association's annual event](https://digitalhumanities-uk-ie.org/2026-annual-event-programme/), University of Southampton, Royaume-Uni (15-16 juin 2026).  
+* Anisa Hawes, [‘Teaching and Writing Digital Methods'](https://www.cdh.cam.ac.uk/events/40965/), Cambridge Digital Humanities, University of Cambridge, Royaume-Uni (20 avril 2026).  
+* Anisa Hawes, ‘Asynchronous Writing Sprint’, ENABling Library and Archive participation in digital Research co-learning communities (ENABLAR) [En ligne], (11-13 mars 2026). 
+* Anisa Hawes, ‘Lesson Development 2’, ENABling Library and Archive participation in digital Research co-learning communities (ENABLAR) [En ligne], (22-23 février 2026). 
+* Anisa Hawes, ‘Lesson Development 1’, ENABling Library and Archive participation in digital Research co-learning communities (ENABLAR) [En ligne], (20-22 janvier 2026). 
+* Anisa Hawes, ‘Partnership Building’, ENABling Library and Archive participation in digital Research co-learning communities (ENABLAR) [En ligne], (12-15 janvier 2026).  
 * Anisa Hawes, 'Writing Digital Methods', ENABling Library and Archive participation in digital Research co-learning communities (ENABLAR) [En ligne], (16-17 décembre 2025).   
 * Anisa Hawes, ['Technical Writing in the Humanities: a facilitated writing sprint'](https://web.archive.org/web/20251219074549/https://culturedigitalskills.org/webinar-diskah-programming-historian/), Digital Skills in Arts and Humanities (DISKAH) network [En ligne], (15 décembre 2025).   
 * Anisa Hawes, [‘Building your digital research skills with _Programming Historian_’](https://www.cdh.cam.ac.uk/events/39996/), Cambridge Digital Humanities, University of Cambridge [En ligne], (27 novembre 2025).   
@@ -59,7 +71,7 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Anisa Hawes, ['Building your Digital Research Skills with _Programming Historian_'](https://perma.cc/6T3D-XNE6), Digital Skills in Arts and Humanities (DISKAH) network DH & RSE Summer School, King's College London, Royaume-Uni (4 juillet 2025).
 * Daniel Alves & Joana Vieira Paulino “_Programming Historian em português_”, Digital Humanities Conference 2025, Fantastic Teaching Resources and Where to Find Them, NOVA School of Social Sciences and Humanities, Lisbonne, (14-18 juin 2025).  
 * Anisa Hawes, [‘Teaching and Writing Digital Methods'](https://perma.cc/9JWJ-CEJY), Cambridge Digital Humanities, University of Cambridge, Royaume-Uni (28 avril 2025).
-* Amelia Wakeford, Giulia Osti & Anisa Hawes, 'A _Programming Historian_ Knowledge Exchange Workshop', University of Birmingham, (29 November 2024) & [En ligne], (4 décembre 2024).
+* Amelia Wakeford, Giulia Osti & Anisa Hawes, 'A _Programming Historian_ Knowledge Exchange Workshop', University of Birmingham, (29 novembre 2024) & [En ligne], (4 décembre 2024).
 * Anisa Hawes, [‘Building your digital research skills with _Programming Historian_’](https://www.cdh.cam.ac.uk/events/38929/), Cambridge Digital Humanities, University of Cambridge [En ligne], (21 novembre 2024).
 * Daniel van Strien, ‘Computer Vision for the Humanities and Social Sciences: An Introduction to Deep Learning for Image Classification’, Centre for Data, Culture and Society, University of Edinburgh, Royaume-Uni (21 mars 2024).
 * Alex Wermer-Colan, ['Learning Digital Methods with the _Programming Historian_'](https://charlesstudy.temple.edu/event/11953011), Temple University [En ligne], (22 février 2024).
