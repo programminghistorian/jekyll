@@ -3400,3 +3400,10 @@
 - name: Patricia A. Loto
   orcid: 0000-0003-1849-6916
   team: false
+
+- name: Will Hanley
+  orcid: 0000-0002-1832-6805
+  team: false
+  bio:
+    en: |
+      Will Hanley is Associate Professor of History at Florida State University, Tallahassee, USA.
