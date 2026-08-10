@@ -3401,6 +3401,20 @@
   orcid: 0000-0003-1849-6916
   team: false
 
+- name: Daniel Gammenthaler
+  orcid: 0000-0001-7966-8422
+  team: false
+  bio:
+    en: |
+      Daniel Gammenthaler is a doctoral candidate in contemporary history at the University of Bern, researching the history of computing and malware through source-code analysis and reverse engineering.
+
+- name: Adrian Demleitner
+  orcid: 0000-0001-9918-7300
+  team: false
+  bio:
+    en: |
+      Adrian Demleitner is a video game researcher at the Institute of Design Research HKB and a doctoral candidate in Digital Humanities at the University of Bern, studying how code, semiotics, and programming practices shape video games.
+      
 - name: Will Hanley
   orcid: 0000-0002-1832-6805
   team: false
