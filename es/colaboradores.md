@@ -44,7 +44,7 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 - [University of Exeter](https://www.exeter.ac.uk/), Reino Unido
 - [Université de Montréal](https://www.umontreal.ca/), Canadá
 - [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), Países Bajos
-- [Software Sustainability Institute](https://www.software.ac.uk/), Reino Unido
+- [Institute for Research Software](https://www.software.ac.uk/), Reino Unido
 - [Iowa State University Library](https://www.lib.iastate.edu/), Estados Unidos
 - [University of Edinburgh Library](https://library.ed.ac.uk/), Reino Unido
 - [University of Cambridge](https://www.cam.ac.uk/), Reino Unido
