@@ -23,7 +23,7 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/671
 difficulty: 2
 activity: transforming
-topics: [data-manipulation, website]
+topics: [data-manipulation, website, text-encoding]
 abstract: Cette leçon (qui sera suivie d'une deuxième partie) vous enseigne les rudiments de la TEI-XML pour encoder des textes.
 avatar_alt: Gravure d'une coupe transversale du sol avec ses étiquettes correspondantes.
 doi: 10.46430/phfr0040

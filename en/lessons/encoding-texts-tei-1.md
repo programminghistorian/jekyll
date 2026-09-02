@@ -23,7 +23,7 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/610
 difficulty: 1
 activity: transforming
-topics: [website, data-manipulation]
+topics: [website, data-manipulation, text-encoding]
 abstract: This lesson teaches you the basics of using TEI-XML to encode texts, and demonstrates how to create a minimal TEI document. Part 2 of this lesson is forthcoming.
 avatar_alt: Engraving of a labeled cross-section of soil
 doi: 10.46430/phen0129

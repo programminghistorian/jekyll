@@ -15,8 +15,7 @@ editors:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/373
 difficulty: 2
 activity: transforming
-topics:
-- website
+topics: [website, text-encoding]
 abstract: "Esta lección te enseña los pasos necesarios para publicar en línea un archivo de TEI usando CETEIcean"
 avatar_alt: "Grabado que representa distintas fuentes tipográficas"
 doi: 10.46430/phes0056
