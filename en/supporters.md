@@ -43,7 +43,7 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [University of Exeter](https://www.exeter.ac.uk/), United Kingdom
 - [Université de Montréal](https://www.umontreal.ca/), Canada
 - [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), The Netherlands
-- [Software Sustainability Institute](https://www.software.ac.uk/), United Kingdom
+- [Institute for Research Software](https://www.software.ac.uk/), United Kingdom
 - [Iowa State University Library](https://www.lib.iastate.edu/), United States
 - [University of Edinburgh Library](https://library.ed.ac.uk/), United Kingdom
 - [University of Cambridge](https://www.cam.ac.uk/), United Kingdom
