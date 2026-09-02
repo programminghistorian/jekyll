@@ -36,7 +36,7 @@ _Niveau Silver_
 | 2,560 AUD | 820 AUD  | 300 AUD  | 
 
 
-Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en octobre de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Responsable de la publication</a>.
+Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en octobre de chaque année. Téléchargez notre brochure destinée aux donateurs pour en savoir plus et commencez dès aujourd'hui à soutenir notre action&nbsp;: [GBP](/assets/ipp-info/support-ph-gbp-2026-7.pdf), [USD](/assets/ipp-info/support-ph-usd-2026-7.pdf), [EUR](/assets/ipp-info/support-ph-eur-2026-7.pdf), [CAD](/assets/ipp-info/support-ph-cad-2026-7.pdf), or [AUD](/assets/ipp-info/support-ph-aud-2026-7.pdf). Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Responsable de la publication</a>.
 
 
 ## Avantages du partenariat
