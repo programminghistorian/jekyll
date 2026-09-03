@@ -334,7 +334,7 @@ En résumé, il vaut la peine de réfléchir :
 [Page AntConc sur le site Exploration de corpus : outils et pratiques](http://explorationdecorpus.corpusecrits.huma-num.fr/antconc/)    
 [Tutoriel AntConc du CID-ENS Lyon](http://cid.ens-lyon.fr/ac_article.asp?fic=antconc.asp)    
 
-En France, des outils similaires à AntConc ont été dévéloppés dans le cadre de la textométrie, de la lexicométrie, et de la logométrie, souvent par des historien(ne)s. On peut nommer notamment [Hyperbase](http://ancilla.unice.fr/), [Iramuteq](http://iramuteq.org/), [Lexico](http://www.lexi-co.com/) ou [TXM](http://textometrie.ens-lyon.fr/?lang=fr). Merci de consulter également: Bénédicte Pincemin, ["Sept logiciels de textométrie"](https://halshs.archives-ouvertes.fr/halshs-01843695/document), 2018.  
+En France, des outils similaires à AntConc ont été dévéloppés dans le cadre de la textométrie, de la lexicométrie, et de la logométrie, souvent par des historien(ne)s. On peut nommer notamment [Hyperbase](http://ancilla.unice.fr/), [Iramuteq](http://iramuteq.org/), [Lexico](http://www.lexi-co.com/) ou [TXM](https://eadh.org/projects/txm). Merci de consulter également: Bénédicte Pincemin, ["Sept logiciels de textométrie"](https://halshs.archives-ouvertes.fr/halshs-01843695/document), 2018.  
 
 #### Bibliographie non-exhaustive
 
