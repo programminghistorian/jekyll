@@ -76,9 +76,9 @@ The newspaper industry (and therefore the collection) grew from a tiny number of
 
 For this tutorial you will need to download two files: first, a title-level list of British and Irish newspapers (which will be referred to as the 'title list') and second, a helper dataset of place names and coordinates (which we'll refer to as the 'coordinates list') for matching the places found in the title list to locations on a map.
 
-1\. To get the title list, visit the [British Library repository](https://bl.iro.bl.uk/concern/datasets/7da47fac-a759-49e2-a95a-26d49004eba8?locale=en). The list is available on the repository in two formats: either a .zip file containing a .csv and a readme, or as an Excel spreadsheet. For this lesson, we'll work with the .csv format. Download the .zip file, and unzip it. Alternatively, you can download a copy of the dataset used in this tutorial on Github. To download this file, just view the [raw](https://raw.githubusercontent.com/programminghistorian/ph-submissions/gh-pages/assets/shiny-leaflet-newspaper-map-tutorial-data/BritishAndIrishNewspapersTitleList_20191118.csv) version and save the page locally.
+1\. To get the title list, visit the British Library repository https://iro.bl.uk/ and search 'British and Irish newspapers'. The list is available on the repository in two formats: either a .zip file containing a .csv and a readme, or as an Excel spreadsheet. For this lesson, we'll work with the .csv format. Download the .zip file, and unzip it. Alternatively, you can download a copy of the dataset used in this tutorial on Github. To download this file, just view the [raw](/assets/shiny-leaflet-newspaper-map-tutorial-data/BritishAndIrishNewspapersTitleList_20191118.csv) version and save the page locally.
 
-2\. The coordinates list is also available on Github. To download this file of coordinates, just view the [raw](https://raw.githubusercontent.com/programminghistorian/ph-submissions/gh-pages/assets/shiny-leaflet-newspaper-map-tutorial-data/newspaper_coordinates.csv) version and likewise save the page locally.
+2\. The coordinates list is also available on Github. To download this file of coordinates, just view the [raw](/assets/shiny-leaflet-newspaper-map-tutorial-data/newspaper_coordinates.csv) version and likewise save the page locally.
 
 ### Understanding the Title List  
 
