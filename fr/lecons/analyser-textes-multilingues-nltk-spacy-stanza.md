@@ -35,7 +35,7 @@ doi: 10.46430/phfr0043
 
 Une grande partie des ressources destinées à l’apprentissage de méthodes informatiques d’analyse de texte se concentre sur des textes et corpus de langue anglaise et omettent souvent d’inclure les explications nécessaires pour travailler avec des sources non anglophones. Pour remédier à ce problème, cette leçon propose une introduction à l’analyse de texte non anglophone et multilingue (c’est-à-dire écrit en plus d’une langue) via Python. En ayant recours à un texte multilingue composé en russe et en français, cette leçon montrera comment utiliser des méthodes informatiques pour accomplir trois tâches de prétraitement fondamentales&nbsp;: la tokénisation, l’étiquetage morpho-syntaxique et la lemmatisation. Ensuite, la leçon vous apprendra à automatiquement détecter les langues présentes dans un texte prétraité.
 
-Afin d’accomplir ces trois tâches de prétraitement essentielles, cette leçon utilisera trois packages Python régulièrement utilisés pour le traitement automatique du langage naturel, aussi dit [TALN](https://fr.wikipedia.org/wiki/Traitement_automatique_des_langues) (en anglais, *Natural Language Processing* ou NLP)&nbsp;: Natural Language Toolkit (NLTK), spaCy, et Stanza. Nous commencerons par introduire ces packages avant de passer en revue et comparer leurs fonctionnalités afin que vous puissiez comprendre comment ils fonctionnent et discerner quel outil est le bon pour vos usages et styles de programmation personnels.
+Afin d’accomplir ces trois tâches de prétraitement essentielles, cette leçon utilisera trois packages Python régulièrement utilisés pour le traitement automatique du langage naturel, aussi dit [TALN](https://perma.cc/2FVE-9F2Q) (en anglais, *Natural Language Processing* ou NLP)&nbsp;: Natural Language Toolkit (NLTK), spaCy, et Stanza. Nous commencerons par introduire ces packages avant de passer en revue et comparer leurs fonctionnalités afin que vous puissiez comprendre comment ils fonctionnent et discerner quel outil est le bon pour vos usages et styles de programmation personnels.
 
 ## Préparation
 
@@ -47,7 +47,7 @@ Le code pour cette leçon est écrit en Python 3.12 et utilise les bibliothèque
 
 ## Installation et mise en place
 
-Pour commencer, il vous faudra installer Python3 ainsi que les bibliothèques NLTK, spaCy et Stanza, disponibles via le [Python Package Index (PyPI)](https//pypi.org/.). Pour plus d’informations sur l’installation de bibliothèque en utilisant PyPI, veuillez consulter leur [guide d’installation de packages](https://perma.cc/VQK8-K33R) (en anglais).
+Pour commencer, il vous faudra installer Python3 ainsi que les bibliothèques NLTK, spaCy et Stanza, disponibles via le [Python Package Index (PyPI)](https//pypi.org/). Pour plus d’informations sur l’installation de bibliothèque en utilisant PyPI, veuillez consulter leur [guide d’installation de packages](https://perma.cc/VQK8-K33R) (en anglais).
 
 ## Le traitement automatique du langage naturel avec du texte non anglais et multilingue
 
