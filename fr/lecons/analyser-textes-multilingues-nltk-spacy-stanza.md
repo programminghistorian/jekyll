@@ -47,7 +47,7 @@ Le code pour cette leçon est écrit en Python 3.12 et utilise les bibliothèque
 
 ## Installation et mise en place
 
-Pour commencer, il vous faudra installer Python3 ainsi que les bibliothèques NLTK, spaCy et Stanza, disponibles via le [Python Package Index (PyPI)](https//pypi.org/). Pour plus d’informations sur l’installation de bibliothèque en utilisant PyPI, veuillez consulter leur [guide d’installation de packages](https://perma.cc/VQK8-K33R) (en anglais).
+Pour commencer, il vous faudra installer Python3 ainsi que les bibliothèques NLTK, spaCy et Stanza, disponibles via le [Python Package Index (PyPI)](https://pypi.org/). Pour plus d’informations sur l’installation de bibliothèque en utilisant PyPI, veuillez consulter leur [guide d’installation de packages](https://perma.cc/VQK8-K33R) (en anglais).
 
 ## Le traitement automatique du langage naturel avec du texte non anglais et multilingue
 
