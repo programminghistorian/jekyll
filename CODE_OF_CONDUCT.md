@@ -11,7 +11,7 @@ The *Programming Historian* does not have a single code of conduct. Rather we ha
 
 This document gathers documents together in one place for ease of access.
 
-- For members of the Project Team: [Privileges and Responsibilities of Membership](https://github.com/programminghistorian/jekyll/wiki/Privileges-and-Responsibilities-of-Membership)
+- For members of the Project Team: [Mutual Responsibilities and Annual Commitment Framework](https://github.com/programminghistorian/jekyll/wiki/Services-to-Publications#mutual-responsibilities-and-annual-commitment-framework-1)
 - For authors: the ['Holding us to Account'](https://programminghistorian.org/en/author-guidelines#holding-us-to-account) section of the Author Guidelines
 - For reviewers: the ['Review Philosophy'](https://programminghistorian.org/en/reviewer-guidelines#review-philosophy) section of the Reviewer Guidelines
 - For editors: the ['Safe Spaces'](https://programminghistorian.org/en/editor-guidelines#safe-spaces) and ['Anti-Harassment Policy'](https://programminghistorian.org/en/editor-guidelines#anti-harassment-policy) sections of the Editorial Guidelines
@@ -25,7 +25,7 @@ _Programming Historian_ no tiene un único código de conducta. Más bien, tenem
 
 Este documento reúne los documentos en un solo lugar para facilitar su acceso y localización. 
 
-- Para miembros del equipo del proyecto: [Privileges and Responsibilities of Membership](https://github.com/programminghistorian/jekyll/wiki/Privileges-and-Responsibilities-of-Membership) (en inglés)
+- Para miembros del equipo del proyecto: [Mutual Responsibilities and Annual Commitment Framework](https://github.com/programminghistorian/jekyll/wiki/Services-to-Publications#mutual-responsibilities-and-annual-commitment-framework-1) (en inglés)
 - Para autores: [Haznos responsables](https://programminghistorian.org/es/guia-para-autores#haznos-responsables)
 - Para revisores: [Nuestra filosofía](https://programminghistorian.org/es/guia-para-revisores#nuestra-filosof%C3%ADa) 
 - Para editores: Las secciones de [Espacio seguro](https://programminghistorian.org/es/guia-editor#espacios-seguros) y de la [Política contra el acoso](https://programminghistorian.org/es/guia-editor#pol%C3%ADtica-contra-el-acoso) 
@@ -38,7 +38,7 @@ _Programming Historian_ n'a pas de code de conduite proprement dit. Nous proposo
 
 À ce propos, nous renvoyons vers un ensemble de documents. 
 
-- Pour les membres de l'équipe de PH: [Privileges and Responsibilities of Membership](https://github.com/programminghistorian/jekyll/wiki/Privileges-and-Responsibilities-of-Membership) (en anglais)
+- Pour les membres de l'équipe de PH: [Mutual Responsibilities and Annual Commitment Framework](https://github.com/programminghistorian/jekyll/wiki/Services-to-Publications#mutual-responsibilities-and-annual-commitment-framework-1) (en anglais)
 - Pour les auteur(e)s: [nous interpeller](https://programminghistorian.org/fr/consignes-auteurs#nous-interpeller)
 - Pour les évaluateur(trice)s: [notre philosophie](https://programminghistorian.org/fr/consignes-evaluateurs#notre-philosophie)
 - Pour les  rédacteur(trice)s: [un espace d’échange sûr](https://programminghistorian.org/fr/consignes-redacteurs#un-espace-d%C3%A9change-s%C3%BBr) et [Politique contre le harcèlement](https://programminghistorian.org/fr/consignes-redacteurs#politique-contre-le-harcèlement)
@@ -51,7 +51,7 @@ O *Programming Historian* não tem um código de conduta único, mas sim um conj
 
 Este documento reúne vários documentos num único espaço de forma a facilitar o acesso. 
 
-- Para membros da Equipe do Projeto: [Privilégios e Responsabilidades da Filiação](https://github.com/programminghistorian/jekyll/wiki/Privileges-and-Responsibilities-of-Membership) (em Inglês)
+- Para membros da Equipe do Projeto: [Mutual Responsibilities and Annual Commitment Framework](https://github.com/programminghistorian/jekyll/wiki/Services-to-Publications#mutual-responsibilities-and-annual-commitment-framework-1) (em Inglês)
 - Para autores: a secção [‘Responsabilidade da equipe’](https://programminghistorian.org/pt/directrizes-autor#etapa-3-submeter-uma-nova-lição) das Diretrizes para Autores
 - Para revisores: a secção [‘Filosofia da Revisão’]( https://programminghistorian.org/pt/directrizes-revisor#filosofia-da-revisão) das Diretrizes para Revisores
 - Para editores: as secções [‘Espaços seguros’]( https://programminghistorian.org/pt/directrizes-editor#espaços-seguros) e [‘Política anti-assédio’]( https://programminghistorian.org/pt/directrizes-editor#pol%C3%ADtica-anti-assédio) das Diretrizes para Editores
