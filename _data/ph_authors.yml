@@ -1960,8 +1960,9 @@
   url: "https://cv.hal.science/matthias-gille-levenson"
   orcid: 0000-0001-9488-5986
   github: matgille
-  team: true
+  team: false
   team_start: 2021
+  team_end: 2026
   institution: Aix-Marseille Université / École Normale Supérieure de Lyon
   sortname: Gille
   affiliation:
@@ -3425,3 +3426,25 @@
 - name: Felipe Valdez
   orcid: 0000-0001-6999-5657
   team: false
+
+- name: Hélène Gautier
+  email: helene.gautier@cnrs.fr
+  orcid: 0000-0001-6721-5282
+  github: hgautier
+  team: true
+  team_start: 2026
+  institution: CNRS (UMR7186)
+  sortname: Gautier
+  affiliation:
+    en: |
+      CNRS (UMR7186), France.
+    pt: |
+      CNRS (UMR7186), França.
+    es: |
+      CNRS (UMR7186), Francia.
+    fr: |
+      CNRS (UMR7186), France.
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
