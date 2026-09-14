@@ -6,7 +6,7 @@ layout: post
 categories: posts 
 ---
 
-La revue interdisciplinaire *[Programming Historian en français](/fr/lecons/)* recherche des spécialistes des humanités numériques pour évaluer ses leçons en 2026 et 2027.
+La revue interdisciplinaire *[Programming Historian en français](/fr/lecons/)* recherche des spécialistes des humanités numériques et des méthodes computationnelles pour évaluer ses leçons en 2026 et 2027.
 
 ## Qu'est-ce que l'évaluation ouverte par les pairs&nbsp;?
 
@@ -18,7 +18,7 @@ Le processus d'évaluation s'articule en trois parties. Tout d'abord, le membre 
 
 ### Qui peut participer&nbsp;? 
 
-Toute personne qui utilise, enseigne ou étudie les humanités numériques et méthodes computationnelles dans les domaines des sciences humaines&nbsp;: enseignant·es, chercheur·es, doctorant·es, ingénieur·es d'étude et sociales recherche. 
+Toute personne qui utilise, enseigne ou étudie les humanités numériques et méthodes computationnelles dans les domaines des sciences humaines&nbsp;: enseignant·es, chercheur·es, doctorant·es, ingénieur·es d’études et de recherche. 
 
 ### Comment participer&nbsp;?
 
@@ -26,9 +26,9 @@ Les personnes intéressées sont invitées à remplir notre [formulaire Google](
 
 ### Pourquoi évaluer une leçon pour *PH en français*&nbsp;? 
 
-Évaluer une leçon pour *PH en français* est une excellente façon de développer de nouvelles compétences techniques, de participer à la communauté des humanités numériques, et de contribuer à une recherche collaborative, durable et ouverte. De plus, nous publions les noms de toutes les personnes qui contribuent à une leçon – auteur·ices, traducteur·ices et évaluateur·ices.  
+Évaluer une leçon pour *PH en français* est une excellente façon de développer de nouvelles compétences techniques, de participer à la communauté des humanités numériques et de contribuer à une recherche collaborative, durable et ouverte. De plus, nous publions les noms de toutes les personnes qui contribuent à une leçon – auteur·ices, traducteur·ices et évaluateur·ices.  
 
->_PH en français_ s'engage à proposer un environnement scientifique bienveillant et ouvert. Tous les personnes qui participent à l'évaluation ouverte doivent suivre notre [Code de conduite](https://github.com/programminghistorian/jekyll/blob/gh-pages/CODE_OF_CONDUCT.md#code-de-conduite).
+>_PH en français_ s'engage à proposer un environnement scientifique bienveillant et ouvert. Tous les personnes qui participent à l'évaluation ouverte doivent suivre notre [code de conduite](https://github.com/programminghistorian/jekyll/blob/gh-pages/CODE_OF_CONDUCT.md#code-de-conduite).
 
 ### Questions
 
@@ -36,6 +36,6 @@ Si vous avez des questions, contactez la rédactrice en chef de *PH en français
 
 ## À propos de _Programming Historian_ 
 
-Créé en 2012, _Programming Historian_ a publié plus de 250 leçons multilingues évaluées par les pairs, consacrées à un large éventail d'outils, de techniques et de flux de travail numériques. La famille PH compte quatre revues, en français, en [espagnol](/es/lecciones/), en [portugais](/pt/licoes/) et en [anglais](/en/lessons/). Nos revues sont accès ouvert diamant, ce qui signifie que les auteur·ices conservent leurs droits d'auteurs et n'ont pas à payer de frais pour publier, que l'ensemble de notre contenu est évalué par les pairs et que l'accès à nos revues est gratuit pour le lectorat. 
+Créé en 2012, _Programming Historian_ a publié plus de 250 leçons multilingues évaluées par les pairs, consacrées à un large éventail d'outils, de techniques et de flux de travail numériques. La famille PH compte quatre revues, une par langue ([français](/fr/lecons/), [espagnol](/es/lecciones/), [portugais](/pt/licoes/) et [anglais](/en/lessons/)). Nos revues sont accès ouvert diamant, ce qui signifie que les auteur·ices conservent leurs droits d'auteurs et n'ont pas à payer de frais pour publier, que l'ensemble de notre contenu est évalué par les pairs et que l'accès à nos revues est gratuit pour le lectorat. 
 
 *Programming Historian* est une initiative menée par des bénévoles, soutenue par le conseil d'administration de l'organisation caritative ProgHist Ltd, une petite équipe de rédacteur·ices et une communauté mondiale de contributeur·ices. Nous sommes financés par [un réseau d'organisations](/fr/nos-soutiens) à travers l'Europe, l'Amérique du Nord et l'Amérique latine, qui ont investi dans notre succès en souscrivant à notre [programme de partenariat institutionnel](/fr/pi).
