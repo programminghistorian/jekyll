@@ -2809,17 +2809,17 @@
   orcid: 0000-0003-4837-0564
   team: true
   team_start: 2023
-  institution: Centre national de la recherche scientifique, France.
+  institution: Centre national de la recherche scientifique (CNRS), Centre d’étude de la langue et des littératures française (CELLF, UMR 8599)
   sortname: Mathelier
   affiliation:
     en: |
-      Centre national de la recherche scientifique (CNRS), France
+      Centre national de la recherche scientifique (CNRS), Centre d’étude de la langue et des littératures française (CELLF, UMR 8599), Paris, France
     es: |
-      Centre national de la recherche scientifique (CNRS), Francia
+      Centre national de la recherche scientifique (CNRS), Centre d’étude de la langue et des littératures française (CELLF, UMR 8599), Paris, Francia
     fr: |
-      Centre national de la recherche scientifique (CNRS), France
+      Centre national de la recherche scientifique (CNRS), Centre d’étude de la langue et des littératures française (CELLF, UMR 8599), Paris, France
     pt: |
-      Centre national de la recherche scientifique (CNRS), França
+      Centre national de la recherche scientifique (CNRS), Centre d’étude de la langue et des littératures française (CELLF, UMR 8599), Paris, França
   team_roles:
     - french
     - managing
@@ -2837,17 +2837,17 @@
   orcid: 0000-0001-9437-4529
   team: true
   team_start: 2023
-  institution: Humathèque, Campus Condorcet-CNRS
+  institution: Centre national de la recherche scientifique (CNRS), Humathèque (UAR 2011), Campus Condorcet
   sortname: Wauthier
   affiliation:
     en: |
-      Humathèque, Campus Condorcet, France
+      Centre national de la recherche scientifique (CNRS), Humathèque (UAR 2011), Campus Condorcet, Aubervilliers, France
     es: |
-      Humathèque, Campus Condorcet, Francia
+      Centre national de la recherche scientifique (CNRS), Humathèque (UAR 2011), Campus Condorcet, Aubervilliers, Francia
     fr: |
-      Humathèque, Campus Condorcet, France
+      Centre national de la recherche scientifique (CNRS), Humathèque (UAR 2011), Campus Condorcet, Aubervilliers, France
     pt: |
-      Humathèque, Campus Condorcet, França
+      Centre national de la recherche scientifique (CNRS), Humathèque (UAR 2011), Campus Condorcet, Aubervilliers, França
   team_roles:
     - french
     - managing-assistant
@@ -2910,17 +2910,17 @@
   orcid: 0000-0002-6215-3606
   team: true
   team_start: 2023
-  institution: CREST, ENSAE
+  institution: Centre de recherche en économie et statistique (CREST), École nationale de la statistique et de l'administration économique (ENSAE)
   sortname: Schultz
   affiliation:
     en: |
-      CREST, ENSAE, France
+      Centre de recherche en économie et statistique (CREST), École nationale de la statistique et de l'administration économique (ENSAE), Paris, France
     pt: |
-      CREST, ENSAE, França
+      Centre de recherche en économie et statistique (CREST), École nationale de la statistique et de l'administration économique (ENSAE), Paris, França
     es: |
-      CREST, ENSAE, Francia
+      Centre de recherche en économie et statistique (CREST), École nationale de la statistique et de l'administration économique (ENSAE), Paris, Francia
     fr: |
-      CREST, ENSAE, France
+      Centre de recherche en économie et statistique (CREST), École nationale de la statistique et de l'administration économique (ENSAE), Paris, France
   team_roles:
     - french
     - editorial
@@ -3297,17 +3297,17 @@
   email: melvin.hersent@gmail.com
   team: true
   team_start: 2025
-  institution: Centre national de la recherche scientifique
+  institution: Centre national de la recherche scientifique (CNRS), Centre Norbert Elias (CNE, UMR 8562)
   sortname: Hersent
   affiliation:
     en: |
-      CNE (UMR 8562), Marseille, France
+      Centre national de la recherche scientifique (CNRS), Centre Norbert Elias (CNE, UMR 8562), Marseille, France
     es: |
-      CNE (UMR 8562), Marseille, Francia
+      Centre national de la recherche scientifique (CNRS), Centre Norbert Elias (CNE, UMR 8562), Marseille, Francia
     fr: |
-      CNE (UMR 8562), Marseille, France
+      Centre national de la recherche scientifique (CNRS), Centre Norbert Elias (CNE, UMR 8562), Marseille, France
     pt: |
-      CNE (UMR 8562), Marseille, França
+      Centre national de la recherche scientifique (CNRS), Centre Norbert Elias (CNE, UMR 8562), Marseille, França
   bio:
     fr: |
       Melvin Hersent est gestionnaire d’infrastructure au sein du laboratoire du CNE à Marseille.
@@ -3433,17 +3433,17 @@
   github: hgautier
   team: true
   team_start: 2026
-  institution: CNRS (UMR7186)
+  institution: Centre national de la recherche scientifique (CNRS), Laboratoire d'ethnologie et de sociologie comparative (LESC, UMR 7186)
   sortname: Gautier
   affiliation:
     en: |
-      CNRS (UMR7186), France.
+      Centre national de la recherche scientifique (CNRS), Laboratoire d'ethnologie et de sociologie comparative (LESC, UMR 7186), Nanterre, France
     pt: |
-      CNRS (UMR7186), França.
+      Centre national de la recherche scientifique (CNRS), Laboratoire d'ethnologie et de sociologie comparative (LESC, UMR 7186), Nanterre, França
     es: |
-      CNRS (UMR7186), Francia.
+      Centre national de la recherche scientifique (CNRS), Laboratoire d'ethnologie et de sociologie comparative (LESC, UMR 7186), Nanterre, Francia
     fr: |
-      CNRS (UMR7186), France.
+      Centre national de la recherche scientifique (CNRS), Laboratoire d'ethnologie et de sociologie comparative (LESC, UMR 7186), Nanterre, France
   team_roles:
     - french
     - editorial
