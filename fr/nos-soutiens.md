@@ -44,7 +44,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [University of Exeter](https://www.exeter.ac.uk/), Royaume-Uni
 - [Université de Montréal](https://www.umontreal.ca/), Canada
 - [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), Pays-Bas
-- [Software Sustainability Institute](https://www.software.ac.uk/), Royaume-Uni
+- [Institute for Research Software](https://www.software.ac.uk/), Royaume-Uni
 - [Iowa State University Library](https://www.lib.iastate.edu/), États-Unis
 - [University of Edinburgh Library](https://library.ed.ac.uk/), Royaume-Uni
 - [University of Cambridge](https://www.cam.ac.uk/), Royaume-Uni

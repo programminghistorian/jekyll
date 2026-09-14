@@ -33,7 +33,7 @@ _Silver Tier_
 | $2,240 CAD  | $700 CAD | $275 CAD  | 
 | $2,560 AUD  | $820 AUD | $300 AUD  | 
 
-Rates are due annually from the date of first payment and are set in October each year. For a quote in another currency please email <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Publishing Manager</a>.
+Rates are due annually from the date of first payment and are set in October each year. Download our supporters brochure to learn more and start supporting our work today: [GBP](/assets/ipp-info/support-ph-gbp-2026-7.pdf), [USD](/assets/ipp-info/support-ph-usd-2026-7.pdf), [EUR](/assets/ipp-info/support-ph-eur-2026-7.pdf), [CAD](/assets/ipp-info/support-ph-cad-2026-7.pdf), or [AUD](/assets/ipp-info/support-ph-aud-2026-7.pdf). For a quote in another currency please email <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Publishing Manager</a>.
 
 ## Benefits of Membership
 

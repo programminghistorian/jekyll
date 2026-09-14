@@ -34,7 +34,7 @@ _Nivel Silver_
 | $2.240 CAD  | $700 CAD | $275 CAD     |
 | $2,560 AUD  | $820 AUD | $300 AUD     | 
 
-Las tasas vencen anualmente a partir de la fecha del primer pago y se establecen en octubre de cada año. Para una estimación en otra moneda, envía un correo electrónico a <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Directora de publicaciones</a>.
+Las tasas vencen anualmente a partir de la fecha del primer pago y se establecen en octubre de cada año. Descarga nuestro folleto para colaboradores para obtener más información y empezar a apoyar nuestra labor hoy mismo: [GBP](/assets/ipp-info/support-ph-gbp-2026-7.pdf), [USD](/assets/ipp-info/support-ph-usd-2026-7.pdf), [EUR](/assets/ipp-info/support-ph-eur-2026-7.pdf), [CAD](/assets/ipp-info/support-ph-cad-2026-7.pdf), o [AUD](/assets/ipp-info/support-ph-aud-2026-7.pdf). Para una estimación en otra moneda, envía un correo electrónico a <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Directora de publicaciones</a>.
 
 ## Beneficios de asociación
 
