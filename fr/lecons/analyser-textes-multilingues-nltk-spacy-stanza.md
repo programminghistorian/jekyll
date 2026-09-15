@@ -1,5 +1,5 @@
 ---
-title: "Analyser des textes multilingues en français et russe en utilisant NLTK, spaCy, et Stanza"
+title: "Analyser des textes multilingues en français et russe en utilisant NLTK, spaCy et Stanza"
 slug: analyser-textes-multilingues-nltk-spacy-stanza
 original: analyzing-multilingual-text-nltk-spacy-stanza
 layout: lesson
@@ -24,7 +24,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/677
 difficulty: 2
 activity: analyzing
 topics: [python, data-manipulation, distant-reading]
-abstract: Cette leçon introduit la tokénisation, l’étiquetage morpho-syntaxique, et la lemmatisation, ainsi que la détection automatique de langage pour des textes non anglais et multilingues. Vous apprendrez à utiliser les packages Python NLTK, spaCy, et Stanza pour analyser un texte multilingue russo-français.
+abstract: Cette leçon introduit la tokénisation, l’étiquetage morpho-syntaxique et la lemmatisation, ainsi que la détection automatique de langage pour des textes non anglais et multilingues. Vous apprendrez à utiliser les packages Python NLTK, spaCy et Stanza pour analyser un texte multilingue russo-français.
 avatar_alt: Lettre manuscrite en forme de rébus (les symboles et les images représentent des syllabes).
 doi: 10.46430/phfr0043
 ---
@@ -35,7 +35,7 @@ doi: 10.46430/phfr0043
 
 Une grande partie des ressources destinées à l’apprentissage de méthodes informatiques d’analyse de texte se concentre sur des textes et corpus de langue anglaise et omettent souvent d’inclure les explications nécessaires pour travailler avec des sources non anglophones. Pour remédier à ce problème, cette leçon propose une introduction à l’analyse de texte non anglophone et multilingue (c’est-à-dire écrit en plus d’une langue) via Python. En ayant recours à un texte multilingue composé en russe et en français, cette leçon montrera comment utiliser des méthodes informatiques pour accomplir trois tâches de prétraitement fondamentales&nbsp;: la tokénisation, l’étiquetage morpho-syntaxique et la lemmatisation. Ensuite, la leçon vous apprendra à automatiquement détecter les langues présentes dans un texte prétraité.
 
-Afin d’accomplir ces trois tâches de prétraitement essentielles, cette leçon utilisera trois packages Python régulièrement utilisés pour le traitement automatique du langage naturel, aussi dit [TALN](https://perma.cc/2FVE-9F2Q) (en anglais, *Natural Language Processing* ou NLP)&nbsp;: Natural Language Toolkit (NLTK), spaCy, et Stanza. Nous commencerons par introduire ces packages avant de passer en revue et comparer leurs fonctionnalités afin que vous puissiez comprendre comment ils fonctionnent et discerner quel outil est le bon pour vos usages et styles de programmation personnels.
+Afin d’accomplir ces trois tâches de prétraitement essentielles, cette leçon utilisera trois packages Python régulièrement utilisés pour le traitement automatique du langage naturel, aussi dit [TALN](https://perma.cc/2FVE-9F2Q) (en anglais, *Natural Language Processing* ou NLP)&nbsp;: Natural Language Toolkit (NLTK), spaCy et Stanza. Nous commencerons par introduire ces packages avant de passer en revue et comparer leurs fonctionnalités afin que vous puissiez comprendre comment ils fonctionnent et discerner quel outil est le bon pour vos usages et styles de programmation personnels.
 
 ## Préparation
 
@@ -118,7 +118,7 @@ La documentation de spaCy est uniquement disponible en anglais, mais le package 
 
 Stanza a été spécifiquement conçu pour le multilinguisme, ce qui rend le traitement automatique du langage naturel en différentes langues très intuitif et naturel avec la syntaxe de cette bibliothèque. Lancer un pipeline sur du texte vous permet d’accéder à ses différents composants, tels que par exemple l’étiquetage morpho-syntaxique et les lemmes, avec très peu de code.
 
-Bien que souvent plus lent que NLTK et spaCy, [Stanza](https://perma.cc/PGU6-EZ27) contient des modèles de langage qui ne sont pas disponibles à travers les autres bibliothèques. Ce package contient des modèles neuraux pré-entraînés pour plus de [70&nbsp;langues](https://perma.cc/Z9WX-953K). Une liste exhaustive de ses modèles est disponible sur le [GitHub de StanfordTALN](https://perma.cc/RZ38-AACK) et des informations complémentaires sur ses pipelines sont détaillés [sur leur site web](https://perma.cc/W59Q-2R45). Les pipelines de Stanza sont construits avec des composants de réseaux de neurones artificiels entraînés sur des corpus plurilingues, ce qui signifie qu’ils utilisent des algorithmes de *machine learning* entraînés sur du texte annoté plutôt que des approches de traitement automatique du langage naturel à base de paramètres (comme comparer les mots d’un texte à un dictionnaire défini au préalable). Par exemple, si l’on entreprend de l’étiquetage morpho-syntaxique sur un texte, les algorithmes de Stanza génèrerons leurs propres étiquettes basées sur des prédictions entraînées sur un large corpus de texte étiqueté et prenant en compte le contexte de chaque mot (c’est-à-dire sa position relative aux autres mots de la phrase). En revanche, un algorithme à base de paramètres chercherait chaque terme dans un dictionnaire prédéfini et identifierait son étiquette en fonction des résultats sans prendre en compte le contexte dans lequel chaque mot apparaît.
+Bien que souvent plus lent que NLTK et spaCy, [Stanza](https://perma.cc/PGU6-EZ27) contient des modèles de langage qui ne sont pas disponibles à travers les autres bibliothèques. Ce package contient des modèles neuraux pré-entraînés pour plus de [70&nbsp;langues](https://perma.cc/Z9WX-953K). Une liste exhaustive de ses modèles est disponible sur le [GitHub de StanfordTALN](https://perma.cc/RZ38-AACK) et des informations complémentaires sur ses pipelines sont détaillés sur [leur site web](https://perma.cc/W59Q-2R45). Les pipelines de Stanza sont construits avec des composants de réseaux de neurones artificiels entraînés sur des corpus plurilingues, ce qui signifie qu’ils utilisent des algorithmes de *machine learning* entraînés sur du texte annoté plutôt que des approches de traitement automatique du langage naturel à base de paramètres (comme comparer les mots d’un texte à un dictionnaire défini au préalable). Par exemple, si l’on entreprend de l’étiquetage morpho-syntaxique sur un texte, les algorithmes de Stanza génèrerons leurs propres étiquettes basées sur des prédictions entraînées sur un large corpus de texte étiqueté et prenant en compte le contexte de chaque mot (c’est-à-dire sa position relative aux autres mots de la phrase). En revanche, un algorithme à base de paramètres chercherait chaque terme dans un dictionnaire prédéfini et identifierait son étiquette en fonction des résultats sans prendre en compte le contexte dans lequel chaque mot apparaît.
 
 La documentation pour Stanza est uniquement disponible en anglais. Pour plus d’informations, veuillez consulter l’article de Peng Qi *et al.* &nbsp;: [Stanza: A Python Natural Language Processing Toolkit for Many Human Languages](https://perma.cc/B4G2-ND2S).
 
@@ -930,7 +930,7 @@ Vous possédez désormais une connaissance de base des différents packages que 
 
 Nous avons appris comment tokéniser du texte, reconnaître des langues de manière automatique, identifier les composants morpho-syntaxiques et lemmatiser un texte comprenant plusieurs langues. Ces étapes de prétraitement permettent de préparer le texte à des analyses plus approfondies telles que l’analyse des sentiments ou le *topic modelling*, ou d’obtenir déjà quelques résultats d’analyses qui seraient bénéfiques à vos travaux. Et surtout, vous avez désormais une base de connaissance et quelques exemples de code qui vous ouvrent de nouvelles opportunités pour comprendre et appliquer des outils informatiques à des textes multilingues et non anglais. Ceci va élargir les champs de recherche avec lesquels vous pouvez interagir et approfondir votre compréhension des humanités numériques lorsque vous travaillez sur du texte non anglais ou multilingue.
 
-## Lecture suggérée
+## Lectures sugérées
 
 **Leçons similaires de _Programming Historian_**
 
@@ -944,7 +944,7 @@ Les leçons qui suivent peuvent vous aider avec différents aspects du traitemen
 
 - [Multilingual Digital Humanities](https://doi.org/10.4324/9781003393696)&nbsp;: livre publié récemment qui couvre plusieurs sujets et projets d’humanités numériques multilingues, rassemblant un vaste spectre d’autrices·eurs et tourné vers une audience internationale (spoiler&nbsp;: l’auteur a un chapitre dans ce livre).
   
-- [multilingualdh.org](https://perma.cc/49QA-YSEU)&nbsp;: site web du groupe Multilingual DH, un &laquo;&nbsp;réseau souple de chercheurs et chercheuses qui appliquent les outils et les méthodes des humanités numériques à d’autres langues que l’anglais&nbsp;&raquo;. Le [dépot Github du groupe](https://perma.cc/Q6NH-2V5P) contient également des ressources utiles, y compris [cette bibliographie](https://perma.cc/X3LP-6TR9) ainsi que [cette liste d’outils] pour le traitement automatique du langage naturel multilingue(https://perma.cc/7SUD-AVMY).
+- [multilingualdh.org](https://perma.cc/49QA-YSEU)&nbsp;: site web du groupe Multilingual DH, un &laquo;&nbsp;réseau souple de chercheurs et chercheuses qui appliquent les outils et les méthodes des humanités numériques à d’autres langues que l’anglais&nbsp;&raquo;. Le [dépot Github du groupe](https://perma.cc/Q6NH-2V5P) contient également des ressources utiles, y compris [cette bibliographie](https://perma.cc/X3LP-6TR9) ainsi que [cette liste d’outils](https://perma.cc/7SUD-AVMY) pour le traitement automatique du langage naturel multilingue.
 
 - Agarwal, Milind, Joshua Otten et Antonios Anastasopoulos. &laquo;&nbsp;Script-agnostic Language Identification&nbsp;&raquo;. arXiv.org (2024). [https://doi.org/10.48550/arXiv.2406.17901](https://doi.org/10.48550/arXiv.2406.17901)&nbsp;: article qui démontre que la randomisation de mots et l’exposition à une langue écrite en plusieurs écritures est important pour une identification de langue qui soit indépendante de l’écriture utilisée et sera d’intérêt pour celles et ceux qui explorent les écrits scientifiques sur la reconnaissance de langue de manière automatique.
 
