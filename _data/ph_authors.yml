@@ -2803,7 +2803,7 @@
       Christopher Goodwin is a Ph.D. candidate in the History Department at the University of Illinois, Urbana-Champaign.
 
 - name: Daphné Mathelier
-  email: daphne.mathelier@gmail.com
+  email: francais@programminghistorian.org
   mastodon: social.sciences.re/@dmathelier
   github: DMathelier
   orcid: 0000-0003-4837-0564
@@ -3446,6 +3446,32 @@
       Centre national de la recherche scientifique (CNRS), Laboratoire d'ethnologie et de sociologie comparative (LESC, UMR 7186), Nanterre, Francia
     fr: |
       Centre national de la recherche scientifique (CNRS), Laboratoire d'ethnologie et de sociologie comparative (LESC, UMR 7186), Nanterre, France
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
+
+- name: Vy Cao
+  orcid: 0009-0002-9385-391X
+  url: "https://impresso-project.ch/people/cao-vy/"
+  github: caovy-univers
+  email: vy.cao@uni.lu
+  team: true
+  team_start: 2026
+  institution: Centre for Contemporary and Digital History (C²DH), Université du Luxembourg
+  sortname: Cao
+  affiliation:
+    en: |
+      Centre for Contemporary and Digital History (C²DH), Université du Luxembourg, Luxembourg
+    es: |
+      Centre for Contemporary and Digital History (C²DH), Université du Luxembourg, Luxemburgo
+    fr: |
+      Centre for Contemporary and Digital History (C²DH), Université du Luxembourg, Luxembourg
+    pt: |
+      Centre for Contemporary and Digital History (C²DH), Université du Luxembourg, Luxemburgo
+  bio:
+    fr: |
+      Prénom Nom est postdoctorant en histoire computationnelle et études asiatiques au Centre for Contemporary and Digital History (C²DH), Université du Luxembourg.
   team_roles:
     - french
     - editorial
