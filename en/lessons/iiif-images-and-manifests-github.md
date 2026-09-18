@@ -16,7 +16,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/659
 difficulty: 2
 activity: presenting
 topics: [api, data-management, website]
-abstract: This lesson shows you how to create and host level-0 International Image Interoperability Framework (IIIF) manifests using GitHub Pages, to display and share image files. This lesson includes three methods for creating simple IIIF-compliant images, each increasing in complexity and difficulty.
+abstract: This lesson demonstrates how to create and host International Image Interoperability Framework (IIIF) manifests using GitHub Pages, to display and share image files. This lesson includes three methods for creating simple IIIF-compliant images, each increasing in complexity and difficulty.
 avatar_alt: Three stylised eye-like spiral motifs, each with a fan of vertical ridges above a curved, swirling base, arranged in a triangular pattern on a light background.
 doi: 10.46430/phen0135
 ---
