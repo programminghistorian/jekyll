@@ -134,7 +134,7 @@ We are delighted to be among publishers working together as part of the newly-la
 >
   <label for="bd-email">Enter your email</label>
   <input type="email" name="email" id="bd-email" />
-  <input type="hidden" value="1" name="embed" />
+  <input type="hidden" name="tag" value="blog" />
   <input type="submit" value="Subscribe" />
   <p>
     <a href="https://buttondown.com/refer/ProgHist" target="_blank">
