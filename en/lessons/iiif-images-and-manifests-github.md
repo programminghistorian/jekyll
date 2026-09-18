@@ -28,20 +28,20 @@ doi: 10.46430/phen0135
 
 ### Lesson Goals
 
-This lesson demonstrates how to make high-quality, zoomable, shareable, interoperable images through the [International Image Interoperability Framework (IIIF)](https://perma.cc/GS4V-8XPP). It provides three methods for creating basic IIIF-compliant images, and creating and hosting IIIF manifests of images downloaded to your local device. In particular, you will learn:
+The International Image Interoperability Framework (IIIF) provides a standardized way to publish, display, share, and reuse images across different websites, tools, and viewers. This lesson demonstrates how to make high-quality, zoomable, shareable, interoperable images through the [International Image Interoperability Framework (IIIF)](https://perma.cc/GS4V-8XPP). It provides three methods for creating basic IIIF-compliant images, and creating and hosting IIIF manifests of images downloaded to your local device. In particular, you will learn:
 
-- **Method 1**: How to create Level-0 (basic) compliant IIIF images
-- **Method 2**: How to create a IIIF manifest to present Level-0 compliant IIIF images
-- **Method 3**: How to host IIIF manifests on GitHub
+- How to create Level-0 (basic) compliant IIIF images
+- How to create a IIIF manifest to present Level-0 compliant IIIF images
+- How to host IIIF manifests on GitHub
 
 ### Prerequisites
 
 There are no fees for processing or hosting through any of these methods, and all of the tools and applications used in these methods are open-source. However, in order to follow this lesson, you will need:
 
-- An active [GitHub](https://github.com/) account.
+- An active [GitHub](https://github.com/) account. Some basic familiarity with GitHub, such as creating and navigating repositories, will also be helpful.
 - At least one image downloaded to your local computer, not copyrighted by someone else. You can use [Openverse](https://openverse.org/), the successor to Creative Commons' CC Search, to find suitable images.
 - A strong Internet connection.
-- Method 3 (hosting IIIF manifests on GitHub) requires additional installations as directed.
+- Method 3 (using `libvips`) requires additional installations as directed.
 
 Note that this lesson is designed for users on [macOS](https://perma.cc/3AMN-TYCJ). Users on Windows or Linux devices can follow documentation for using comparable built-in file management systems (such as [File Explorer](https://perma.cc/YP9A-SG62) on Windows and device-dependent on Linux). Alternatively, you can use command-line interfaces (such as [PowerShell](https://web.archive.org/web/20260910213717/https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) on Windows or [Bash](/en/lessons/intro-to-bash) on Linux) to adapt the methods, but options for adaptation will not be covered in detail.
 
@@ -63,9 +63,9 @@ An [International Image Interoperability Framework manifest](https://perma.cc/64
 
 IIIF manifests rely on [Uniform Resource Identifiers (URIs)](https://perma.cc/YZB4-C5FR) to identify and access IIIF-compliant images on the web and display them using the IIIF Presentation API. There are two uniform identifiers that can be used to create manifests: the **info.json URI** and the **image URI**.
 
-1. The **`info.json` URI** requests information about the image service, that is, how the image is being served to the web. The `info.json` URI will include the path to the `info.json` file for that image in your GitHub repository: `https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/images/YOUR-IMAGE-FILENAME\info.json`.
+1. The **`info.json` URI** requests information about the image service, that is, how the image is being served to the web. The `info.json` URI will include the path to the `info.json` file for that image in your GitHub repository: `https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/images/YOUR-IMAGE-FILENAME/info.json`.
  
-2. The **image API URI** requests information about the image itself (dimensions, rotation, etc.) as processed by the IIIF Image API. The image API URI will include the path to the folder with the full resolution tiles of your image in your GitHub repository: `https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/images/YOUR-IMAGE-FILENAME/full/full/0/default.IMAGE-FILE-EXTENSION`.
+2. The **image API URI** requests information about the image itself (dimensions, rotation, etc.) as processed by the IIIF Image API. The image API URI will include the path to the folder with the full resolution tiles of your image in your GitHub repository: for example, `https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/images/YOUR-IMAGE-FILENAME/full/full/0/default.IMAGE-FILE-EXTENSION` in version 2 of the IIIF Image API or `https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/images/YOUR-IMAGE-FILENAME/full/max/0/default.IMAGE-FILE-EXTENSION` for version 3.
 
 #### What is the Difference Between IIIF Versions?
 
@@ -120,7 +120,7 @@ The following table illustrates the basic pros and cons of each method, with the
 
 ### Overview
 
-Method 1 employs GitHub Pages to host the simplest possible Level-0 manifest, without the need for an image server/use of the Image API. This method requires only the image file and a bare bones `info.json` file, and does not require any programming knowledge or installations.
+Method 1 employs GitHub Pages to host the simplest possible Level-0 manifest, without the need for an image server or the use of the Image API. This method requires only the image file and minimal `info.json` file, and does not require any programming knowledge or installations.
 
 The caveat is that this method does not support deep zooming. The image will be displayed as is, without any modifications whatsoever.
 
@@ -130,7 +130,7 @@ The first step is to upload your image to a web server. For this lesson, you wil
 
 Create a new repository on GitHub. Create a new folder for `images` and another for `manifests`. In the new repository, click **Add file > Upload files**. Upload your image files.
 
-To serve the images to the web, go to the repository home and click _Settings_ > _GitHub Pages_. Set the Source to 'Deploy from a branch' and the Branch to 'main /(root)'.
+To serve the images to the web, go to the repository home and click _Settings_ > _Pages_. Set the Source to 'Deploy from a branch' and the Branch to 'main /(root)'.
 
 Your image should now be available at `https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/images/YOUR-IMAGE-FILENAME`.
 
@@ -175,7 +175,7 @@ In Finder, navigate to your image file. Right-click (mouse) or two-finger click 
 
 If your image file size is over 100 MB, you will need to resize it before uploading it to IIIF Workbench. If not, you can skip this step.
 
-Open the image in Preview. In the Mac menu bar at the top of the screen, choose **File > Export**. Select PNG, TIFF, or JPEG. Move the scroller so that the file size displayed is under 100 MB, but as close to lossless as possible.
+Open the image in Preview. In the Mac menu bar at the top of the screen, choose **File > Export**. Select PNG, TIFF, or JPEG. Move the scroller so that the file size displayed is under 100 MB, but as close to [lossless](https://perma.cc/TP4D-EZ5S) as possible.
 
 {% include figure.html filename="en-or-iiif-images-and-manifests-github-02.png" alt="A dialog box with file export options over a blurred photo of a cat resting on a blanket. Export options include filename, tags, download location, file format, quality, and file size." caption="Figure 2. The editor for resizing images in macOS Preview." %}
 
@@ -195,7 +195,7 @@ You will be prompted to select an IIIF Image Version, either IIIF v2 (2.x) or v3
 
 Your image may take a while to process. IIIF Workbench must process the image file, generate [tiles](https://perma.cc/JT3T-UM3A), upload to GitHub, and publish to the web. You can view the progress at the bottom of the image box. While you wait, you may navigate to other pages but do not close the Workbench tab.
 
-When image processing is complete, you should see a thumbnail version appear in a box in IIIF Workbench. The image filename will appear underneath, along with a link to an `info.json` manifest file. For all IIIF images and manifests, the `info.json` is a [JavaScript Object Notation (JSON)](https://perma.cc/QE24-666K) file that contains the information needed for the IIIF APIs to process and serve the IIIF image to the web. The box for each image in IIIF Workbench will also display a hyperlink to the hosted image in your GitHub repository. You can view all downloaded image files in your project GitHub repository as well.
+When image processing is complete, you should see a thumbnail version appear in a box in IIIF Workbench. The image filename will appear underneath, along with a link to an `info.json` file. The `info.json` is a [JavaScript Object Notation (JSON)](https://perma.cc/QE24-666K) file that contains the information needed for the IIIF APIs to process and serve the IIIF image to the web. The box for each image in IIIF Workbench will also display a hyperlink to the hosted image in your GitHub repository. You can view all downloaded image files in your project GitHub repository as well.
 
 {% include figure.html filename="en-or-iiif-images-and-manifests-github-03.png" alt="The Images dashboard of the IIIF Workbench web interface. In a small box, processed image of a cat resting on a blanket, with the caption 'camilla,' and links to 'info.json' and 'Full image' below." caption="Figure 3. The resulting processed image in the IIIF Workbench. The info.json link is the info.json URI and the Full image link is the image URI." %}
 
@@ -246,7 +246,7 @@ For this lesson, you will use the deep zoom command, saving the tiled files in a
 
 Open the command line on your local computer and change directories to your `iiif-libvips` directory. Run the following command: `vips dzsave YOUR-IMAGE-NAME --layout iiif3 YOUR-PREFERRED-FILENAME.zip`. `vips` is the `libvips` command. The `dzsave` argument specifies the desired format for the image as a deep zoom file. The `--layout iiif3` argument specifies the arrangement of the tile files in the folder that make up the composite image, which will be IIIF v3-compliant. The `zip` extension specifies that the files should all be packaged together into one neat, compressed file package for easy access.
 
-Wait for the [ZIP](https://en.wikipedia.org/wiki/ZIP_(file_format)) file to appear in the `iiif-libvips` directory. When you open the ZIP file, you will find folders containing the various tile files that make up the IIIF image and an `info.json` manifest file for each image. Each of the individual image folders make up a Level-0 compliant IIIF image.
+Wait for the [ZIP](https://en.wikipedia.org/wiki/ZIP_(file_format)) file to appear in the `iiif-libvips` directory. When you open the ZIP file, you will find folders containing the various tile files that make up the IIIF image and an `info.json` for each image. Each of the individual image folders make up a Level-0 compliant IIIF image.
 
 Before continuing, be sure to open the ZIP file for each image so you can access the contents.
 
@@ -290,7 +290,7 @@ Now that you have your images prepared and have their identifiers on hand, it is
 
 To create a manifest from your image, you can either use a manifest editor or create the file manually. Using a manifest editor allows you to edit your manifest using a Graphical User Interface (GUI) which displays options as buttons instead of writing code from scratch. The former is easier for learners with no/limited programming knowledge, while the latter allows for more careful control of the manifest file.
 
-Note that for Method 2, IIIF Workbench does not create individual manifests for each image. Instead, it creates one manifest for all uploaded images. This works well if you would like to display all of your images as pages within a IIIF viewer. However, if you want to use more than one image, you will have to create individual manifests for each of your images, as with Methods 1 and 3.
+Note that for Method 2, IIIF Workbench does not create individual manifests for each image. Instead, it creates one manifest for all uploaded images. This works well if you would like to display all of your images as pages within a IIIF viewer. However, if you want each image to have its own manifest so that you can use each image separately, you will have to create individual manifests for each of your images, as with Methods 1 and 3.
 
 ### Using a Template
 
@@ -323,8 +323,8 @@ To create a manifest file, open a program like TextEdit and create a new file. S
     {
 			"id": "https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/canvas/YOUR-CANVAS-ID",
       "type": "Canvas",
-      "height": 1024,
-      "width": 720,
+      "height": YOUR IMAGE HEIGHT,
+      "width": YOUR IMAGE WIDTH,
       "label": {
         "en": [
           "YOUR CANVAS LABEL"
@@ -344,8 +344,8 @@ To create a manifest file, open a program like TextEdit and create a new file. S
                 "id": "YOUR IMAGE URL OR IMAGE API URI",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 1024,
-                "width": 720
+                "height": YOUR IMAGE HEIGHT,
+                "width": YOUR IMAGE WIDTH
               }
             }
           ]
@@ -423,9 +423,9 @@ When you are finished, save your manifest, give the file a unique title, and dow
 
 Now that you have your manifests, you also need to host them, just as you host your images. 
 
-If using Method 2, IIIF Workbench automatically uses GitHub pages to serve your project to the web. In the top menu in IIIF Workbench, navigate to Manifests. Upload a manifest by selecting the manifest file from your local computer. The manifest will upload into your GitHub repository for the project. When completed, you will see a list of your manifests in IIIF Workbench that can be edited, downloaded, deleted, or viewed in Mirador or Universal Viewer from the Workbench.
+If using Method 2, IIIF Workbench automatically uses GitHub pages to serve your project to the web. In the top menu in IIIF Workbench, navigate to Manifests. Upload a manifest by selecting the manifest file from your local computer. The manifest will upload into your GitHub repository for the project. When completed, you will see a list of your manifests in IIIF Workbench that can be edited, downloaded, deleted, or viewed in [Mirador](https://projectmirador.org/) or [Univeral Viewer](https://universalviewer.io/) from the Workbench.
 
-In IIIF Workbench, you can access manifest URIs by clicking on the IIIF logo next to your manifest and copying the URI in the search bar. The manifest URI will always end in `.json.` You can also see and download your manifest files in the corresponding folder in your project GitHub repository. 
+In IIIF Workbench, you can access manifest URIs by clicking on the IIIF logo next to your manifest and copying the URI in the search bar. The manifest URI will always end in `.json`. You can also see and download your manifest files in the corresponding folder in your project GitHub repository. 
 
 If you are using Methods 1 or 3, you will need to upload your manifests manually. To do so, open the `manifests` folder in your GitHub repository and upload all of your downloaded manifests. Open each manifest file to correct the `@id`(v2) or `id` (v3) in line 3 so that it reads: `https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/manifests/YOUR-MANIFEST-NAME.json`.
 
@@ -443,7 +443,7 @@ In order to make sure your manifests are displaying as expected, try testing the
 
 The manifest URI is the unique identifier for a manifest. You can find the manifest URI by opening your manifest JSON file and copying the content in the `@id` (v2) or `id` (v3) field. This is the manifest URI.
 
-Some options for IIIF viewers include: [Theseus](https://theseusviewer.org/), [Ramp](https://ramp.avalonmediasystem.org/), [Aviary](https://iiif.aviaryplatform.com/), and [Clover](https://samvera-labs.github.io/clover-iiif/). Simply paste the manifest URI into the viewer to test your manifest.
+Some options for IIIF viewers include: [Theseus](https://theseusviewer.org/), [Mirador](https://projectmirador.org/), [Univeral Viewer](https://universalviewer.io/), and [Clover](https://samvera-labs.github.io/clover-iiif/). Simply paste the manifest URI into the viewer to test your manifest.
 
 ## Conclusion
 
@@ -460,7 +460,7 @@ IIIF is a great framework for publishing, displaying, sharing, and reusing image
 
 Now that you've reached the end of this lesson, you should have at least one IIIF image URI and one IIIF manifest URI that you can plug into different projects and viewers and share with others as a high-quality, zoomable presentation version of your original downloaded image. Need inspiration for using your new manifest? Try creating an exhibit or digital narrative using [Exhibit.so](https://perma.cc/F4HQ-HAVH) or [Storiiies](https://perma.cc/9A6D-PLGE).
 
-Itching for some more IIIF action? For more tools and resources, see the community-built [Awesome IIIF GitHub repository](https://perma.cc/49BC-SANF).
+For more tools and resources, see the community-built [Awesome IIIF GitHub repository](https://perma.cc/49BC-SANF).
 
 ## Endnotes
 
