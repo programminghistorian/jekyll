@@ -3,7 +3,7 @@ title: "Creating and Hosting Basic IIIF Images and Manifests Using GitHub"
 slug: iiif-images-and-manifests-github
 layout: lesson
 collection: lessons
-date: 2026-09-23
+date: 2026-09-24
 authors:
 - Kiran Mohammadi-Williams
 reviewers:
@@ -16,7 +16,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/659
 difficulty: 2
 activity: presenting
 topics: [api, data-management, website]
-abstract: This lesson demonstrates how to create and host International Image Interoperability Framework (IIIF) manifests using GitHub Pages, to display and share image files. This lesson includes three methods for creating simple IIIF-compliant images, each increasing in complexity and difficulty.
+abstract: This lesson demonstrates how to display and share image files on the web using the International Image Interoperability Framework (IIIF) and Github Pages. After explaining how to create and host IIIF manifests, this lesson walks through creation of IIIF-compliant images using three different methods, ranging from beginner to advanced levels of difficulty.
 avatar_alt: Three stylised eye-like spiral motifs, each with a fan of vertical ridges above a curved, swirling base, arranged in a triangular pattern on a light background.
 doi: 10.46430/phen0135
 ---
@@ -45,7 +45,7 @@ There are no fees for processing or hosting through any of these methods, and al
 
 Note that this lesson is designed for users on [macOS](https://perma.cc/3AMN-TYCJ). Users on Windows or Linux devices can follow documentation for using comparable built-in file management systems (such as [File Explorer](https://perma.cc/YP9A-SG62) on Windows and device-dependent on Linux). Alternatively, you can use command-line interfaces (such as [PowerShell](https://web.archive.org/web/20260910213717/https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) on Windows or [Bash](/en/lessons/intro-to-bash) on Linux) to adapt the methods, but options for adaptation will not be covered in detail.
 
-Each of these methods make use of the tools and workflows created by IIIF Technical Coordinator [Glen Robson](https://perma.cc/3EHN-LUYM). Methods become progressively harder and more intensive as you go through this lesson.
+Each of these methods makes use of the tools and workflows created by IIIF Technical Coordinator [Glen Robson](https://perma.cc/3EHN-LUYM). Methods become progressively harder and more intensive as you go through this lesson.
 
 ### What is IIIF?
 
@@ -83,7 +83,7 @@ Manifest editors provide an easy way to visually put a manifest together, direct
 
 [GitHub](https://github.com/) is a web-based code storage, sharing, and version control platform built on the version control system Git. GitHub also offers free web-hosting through GitHub Pages, which allows you to create a GitHub-hosted webpage from your code. Using GitHub and GitHub Pages, you can conveniently store, host, and access your IIIF images and manifests in one place on the web.
 
-Using GitHub also allows you to easily switch between methods if your chosen method has been deprecated or the software is no longer supported. For example, the [Internet Archive](https://archive.org/); a popular tool for creating IIIF manifests, have a partnership with IIIF so images uploaded using their public upload feature are automatically IIIF compliant. In September 2024, however, the Internet Archive suspended its services for several months [due to cyberattacks](https://web.archive.org/web/20260721160516/https://www.forbes.com/sites/larsdaniel/2024/10/20/internet-archive-breached-again-third-cyber-attack-in-october-2024/). During that time, it became necessary to find an alternate cost-free method of rendering and serving IIIF manifests from personal photos or images found on the web, and most of these [open-source](https://perma.cc/93ZJ-TBP6) solutions are already on GitHub.
+Using GitHub also allows you to easily switch between methods if your chosen method has been deprecated or the software is no longer supported. For example, the [Internet Archive](https://archive.org/), a popular tool for creating IIIF manifests, has a partnership with IIIF so images uploaded using their public upload feature are automatically IIIF compliant. In September 2024, however, the Internet Archive suspended its services for several months [due to cyberattacks](https://web.archive.org/web/20260721160516/https://www.forbes.com/sites/larsdaniel/2024/10/20/internet-archive-breached-again-third-cyber-attack-in-october-2024/). During that time, it became necessary to find an alternate cost-free method of rendering and serving IIIF manifests from personal photos or images found on the web, and most of these [open-source](https://perma.cc/93ZJ-TBP6) solutions are already on GitHub.
 
 GitHub Pages also automatically serves files to the web with permissive [Cross-Origin Resource Sharing (CORS)](https://perma.cc/Z8UC-F75H) headers, which tell a browser that a web application at one domain is allowed to access resources from another. Without the CORS headers, IIIF images cannot be shared across domains and displayed in third-party IIIF viewers, since the server will not allow access to the files.
 
@@ -120,7 +120,7 @@ The following table illustrates the basic pros and cons of each method, with the
 
 ### Overview
 
-Method 1 employs GitHub Pages to host the simplest possible Level-0 manifest, without the need for an image server or the use of the Image API. This method requires only the image file and minimal `info.json` file, and does not require any programming knowledge or installations.
+Method 1 employs GitHub Pages to host the simplest possible Level-0 image, without the need for an image server or the use of the Image API. This method requires only the image file, and does not require any programming knowledge or installations.
 
 The caveat is that this method does not support deep zooming. The image will be displayed as is, without any modifications whatsoever.
 
@@ -209,7 +209,7 @@ At this stage, you can go to the [Creating Manifests](#creating-manifests) secti
 
 ### Overview
 
-Method 3 uses `libvips`, an image-processing library, instead of IIIF Tiler to create Level-0 IIIF-compliant image tiles. It then uses GitHub to host those images and present them using the IIIF Presentation API through GitHub Pages.
+Method 3 uses `libvips`, an image-processing library, instead of the tiler that IIIF Workbench uses to create Level-0 IIIF-compliant image tiles. It then uses GitHub to host those images and present them using the IIIF Presentation API through GitHub Pages.
 
 `libvips` gives you significant control over the specifications for a single image, including tile overlap, tile size, depth, angle, and more. `libvips` creates [Deep Zoom (DZI)](https://perma.cc/P62R-MKWJ) tile pyramids for your images, so that only the area of the image that is viewed in a particular zoom is loaded. For this reason, `libvips` tends to create more tiles for an image than IIIF Tiler. The increased number of tiles can be difficult to upload, but the images tend to be of slightly higher quality and more zoomable.
 
@@ -222,7 +222,7 @@ Method 3 requires installation of the following software packages:
 - [ImageMagick](https://imagemagick.org/download/)
 - [libvips](https://www.libvips.org/install.html)
 
-[Homebrew](https://en.wikipedia.org/wiki/Homebrew_(package_manager)) is a [package manager](https://perma.cc/M9NW-MBWU) that makes installing software easier and safer. Package managers are helpful because they identify, check for, and install dependencies or softwares required for another piece of software to run, allow you to update software in a single command, and ensure that the software you are downloading has been vetted. Keeping your software updated also avoids security vulnerabilities. Package managers download software into discrete locations on your system, avoiding conflicts with existing files and structures of your operating system. They also allow you to upgrade or uninstall software in bulk using a single command.
+[Homebrew](https://en.wikipedia.org/wiki/Homebrew_(package_manager)) is a [package manager](https://perma.cc/M9NW-MBWU) that makes installing software easier and safer. Package managers are helpful because they identify, check for, and install dependencies or software required for another piece of software to run, allow you to update software in a single command, and ensure that the software you are downloading has been vetted. Keeping your software updated also avoids security vulnerabilities. Package managers download software into discrete locations on your system, avoiding conflicts with existing files and structures of your operating system. They also allow you to upgrade or uninstall software in bulk using a single command.
 
 When downloading software from the web, be sure to only click on official links from the developer (such as the hyperlinks included above). Make sure to check any relevant installation instructions for your operating system (Windows, Mac, or Linux), and to download the appropriate file.
 
@@ -264,7 +264,7 @@ First create a new repository on GitHub. Next, create an `images` folder. While 
 
 Create a `manifests` folder in the same repository. You will use this folder later to store and host your manifests.
 
-In your repository, go to _Settings_ > _GitHub Pages_. Set the Source to 'Deploy from a branch' and the Branch to 'main /(root)'.
+In your repository, go to _Settings_ > _Pages_. Set the Source to 'Deploy from a branch' and the Branch to 'main /(root)'.
 
 #### Clean Up Your Image Files
 
@@ -423,7 +423,7 @@ When you are finished, save your manifest, give the file a unique title, and dow
 
 Now that you have your manifests, you also need to host them, just as you host your images. 
 
-If using Method 2, IIIF Workbench automatically uses GitHub pages to serve your project to the web. In the top menu in IIIF Workbench, navigate to Manifests. Upload a manifest by selecting the manifest file from your local computer. The manifest will upload into your GitHub repository for the project. When completed, you will see a list of your manifests in IIIF Workbench that can be edited, downloaded, deleted, or viewed in [Mirador](https://projectmirador.org/) or [Univeral Viewer](https://universalviewer.io/) from the Workbench.
+If using Method 2, IIIF Workbench automatically uses GitHub pages to serve your project to the web. In the top menu in IIIF Workbench, navigate to Manifests. Upload a manifest by selecting the manifest file from your local computer. The manifest will upload into your GitHub repository for the project. When completed, you will see a list of your manifests in IIIF Workbench that can be edited, downloaded, deleted, or viewed in [Mirador](https://projectmirador.org/) or [Universal Viewer](https://universalviewer.io/) from the Workbench.
 
 In IIIF Workbench, you can access manifest URIs by clicking on the IIIF logo next to your manifest and copying the URI in the search bar. The manifest URI will always end in `.json`. You can also see and download your manifest files in the corresponding folder in your project GitHub repository. 
 
@@ -443,7 +443,7 @@ In order to make sure your manifests are displaying as expected, try testing the
 
 The manifest URI is the unique identifier for a manifest. You can find the manifest URI by opening your manifest JSON file and copying the content in the `@id` (v2) or `id` (v3) field. This is the manifest URI.
 
-Some options for IIIF viewers include: [Theseus](https://theseusviewer.org/), [Mirador](https://projectmirador.org/), [Univeral Viewer](https://universalviewer.io/), and [Clover](https://samvera-labs.github.io/clover-iiif/). Simply paste the manifest URI into the viewer to test your manifest.
+Some options for IIIF viewers include: [Theseus](https://theseusviewer.org/), [Mirador](https://projectmirador.org/), [Universal Viewer](https://universalviewer.io/), and [Clover](https://samvera-labs.github.io/clover-iiif/). Simply paste the manifest URI into the viewer to test your manifest.
 
 ## Conclusion
 
