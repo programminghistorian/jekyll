@@ -3476,3 +3476,30 @@
     - french
     - editorial
   status: volunteer
+
+
+  - name: Mohamed Ilyes Mechentel
+  orcid: 0009-0007-9686-5074
+  url: "https://www.islamwissenschaft.unibe.ch/personen/ma_mechentel_mohamed_ilyes/index_eng.html"
+  github: mkimechentel
+  email: mohamed.mechentel@unibe.ch
+  team: true
+  team_start: 2026
+  institution: Universität Bern
+  sortname: Mechentel
+  affiliation:
+    en: |
+      Institute Middle East and Muslim Societies (MOMuG), Universität Bern, Switzerland
+    es: |
+      Unidad de Estudios sobre Oriente Medio y las Sociedades Musulmanas (MOMuG), Universität Bern, Suiza
+    fr: |
+      Unité d'étude du Moyen-Orient et des sociétés musulmanes (MOMuG), Universität Bern, Suisse
+    pt: |
+      Unidade de Estudos do Médio Oriente e das Sociedades Muçulmanas (MOMuG), Universität Bern, Suíça
+  bio:
+    fr: |
+      Mohamed Ilyes Mechentel est doctorant en histoire sociale du Moyen-Orient à l'Universität Bern, Suisse.
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
