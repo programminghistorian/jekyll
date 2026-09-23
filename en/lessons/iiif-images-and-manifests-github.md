@@ -16,7 +16,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/659
 difficulty: 2
 activity: presenting
 topics: [api, data-management, website]
-abstract: This lesson demonstrates how to display and share image files on the web using the International Image Interoperability Framework (IIIF) and Github Pages. After explaining how to create and host IIIF manifests, this lesson walks through creation of IIIF-compliant images using three different methods, ranging from beginner to advanced levels of difficulty.
+abstract: This lesson demonstrates how to display and share image files on the web using the International Image Interoperability Framework (IIIF) and Github Pages. After explaining how to create and host IIIF manifests, this lesson walks through the creation of IIIF-compliant images using three different methods, ranging from beginner to advanced levels of difficulty.
 avatar_alt: Three stylised eye-like spiral motifs, each with a fan of vertical ridges above a curved, swirling base, arranged in a triangular pattern on a light background.
 doi: 10.46430/phen0135
 ---
@@ -28,7 +28,7 @@ doi: 10.46430/phen0135
 
 ### Lesson Goals
 
-The International Image Interoperability Framework (IIIF) provides a standardized way to publish, display, share, and reuse images across different websites, tools, and viewers. This lesson demonstrates how to make high-quality, zoomable, shareable, interoperable images through the [International Image Interoperability Framework (IIIF)](https://perma.cc/GS4V-8XPP). It provides three methods for creating basic IIIF-compliant images, and creating and hosting IIIF manifests of images downloaded to your local device. In particular, you will learn:
+The International Image Interoperability Framework (IIIF) provides a standardized way to publish, display, share, and reuse images across different websites, tools, and viewers. This lesson demonstrates how to make high-quality, zoomable, shareable, interoperable images through the [International Image Interoperability Framework (IIIF)](https://perma.cc/GS4V-8XPP). This lesson overviews three methods for creating basic IIIF-compliant images, and creating and hosting IIIF manifests of images downloaded to your local device. In particular, you will learn:
 
 - How to create Level-0 (basic) compliant IIIF images
 - How to create a IIIF manifest to present Level-0 compliant IIIF images
