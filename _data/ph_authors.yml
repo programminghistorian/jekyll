@@ -3471,12 +3471,11 @@
       Centre for Contemporary and Digital History (C²DH), Université du Luxembourg, Luxemburgo
   bio:
     fr: |
-      Prénom Nom est postdoctorant en histoire computationnelle et études asiatiques au Centre for Contemporary and Digital History (C²DH), Université du Luxembourg.
+      Vy Cao est postdoctorant en histoire computationnelle et études asiatiques au Centre for Contemporary and Digital History (C²DH), Université du Luxembourg.
   team_roles:
     - french
     - editorial
   status: volunteer
-
 
 - name: Mohamed Ilyes Mechentel
   orcid: 0009-0007-9686-5074
@@ -3503,3 +3502,10 @@
     - french
     - editorial
   status: volunteer
+  
+- name: Kiran Mohammadi-Williams
+  orcid: 0009-0000-1207-7388
+  team: false
+  bio:
+    en: |
+      Kiran Mohammadi-Williams is the Collections as Data Librarian at Cornell University in Ithaca, New York, United States of America.

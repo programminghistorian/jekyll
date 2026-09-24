@@ -33,6 +33,10 @@ doi: 10.46430/phen0128
 
 {% include toc.html %}
 
+<div class="alert alert-warning">
+Voyant Tools is temporarily unavailable while a planned server transfer is completed. In the meantime, two web-based mirror services are available via the Voyant Tools website. We have contacted the developer for an update on the transfer and expected restoration of the main service. [September 2026]
+</div>
+
 ## Introduction
 
 In this lesson, you will learn how to organize a set of texts for research; that is, you will learn the basic steps of creating a 'corpus'. You will also learn the main metrics of quantitative text analysis. For this purpose, you will use [Voyant Tools](http://voyant-tools.org/),[^1] a web-based platform that does not require installation and works in any browser with an internet connection.
