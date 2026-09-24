@@ -23,6 +23,10 @@ doi: 10.46430/phes0043
 
 {% include toc.html %}
 
+<div class="alert alert-warning">
+Voyant Tools no está disponible temporalmente mientras se lleva a cabo una migración planificada del servidor. Mientras tanto, hay dos servicios espejo basados en web disponibles a través de la página web de Voyant Tools. Nos hemos puesto en contacto con el desarrollador para obtener información actualizada sobre la migración y la fecha prevista para el restablecimiento del servicio principal. [Septiembre de 2026]
+</div>
+
 # Análisis de corpus con Voyant Tools
 
 En este tutorial se aprenderá cómo organizar un conjunto de textos para la investigación; es decir, se aprenderán los pasos básicos de la creación de un corpus. También se aprenderán las métricas principales del análisis cuantitativo de textos. Para este fin, se ensañará a usar una plataforma que no requiere instalación (sólo conexión a Internet): [Voyant Tools](https://voyant-tools.org/?lang=es) (Sinclair y Rockwell, 2016). Este tutorial está pensado como un primer paso en una serie cada vez más compleja de métodos de la lingüística de corpus. En este sentido, podría considerarse este texto como una de las opciones para el análisis de corpus que puedes encontrar en PH (ver por ejemplo: "[Análisis de corpus con Antconc](/es/lecciones/analisis-de-corpus-con-antconc)").
