@@ -3,6 +3,11 @@ name: build_programming_historian
 
 # This is where we specify when to automatically run our action. In this case we want to run it on pull_requests and specific triggers. You can read more about these event triggers in the Github Docs https://docs.github.com/en/actions/reference/events-that-trigger-workflows
 on:
+  # Test workflow changes from this upgrade branch before merging to gh-pages.
+  # Remove this push trigger after the upgraded workflow lands on gh-pages.
+  push:
+    branches:
+      - test-ruby-htmlproofer-build
   pull_request:
     types: [ assigned, opened, synchronize, reopened, closed ]
 
@@ -19,23 +24,16 @@ jobs:
         if : github.event.action != 'closed'
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6
+          ruby-version: 3.2.2
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     # We then check if we can build our Jekyll site (all this logic is built-in with Jekyll and this prevents us from merging in any syntax errors).  
       - name: Jekyll build
         if : github.event.action != 'closed'
-        run: |
-          bundle install
-          bundle exec jekyll build
+        run: bundle exec jekyll build
     # Next we check all the links in our site to make sure we aren't pushing up broken links.
       - name: Check HTML
-        uses: zoeleblanc/htmlproofer@master
-        if : github.event.action != 'closed'
-        with:
-          directory: "./_site"
-          # The directory to scan
-          arguments: --assume-extension --empty-alt-ignore --alt-ignore "/.*/" --file-ignore "/assets/,/retired/,/retirada/,/retrait/,/posts/" --timeframe "30d" --only-4xx --http-status-ignore 429,403,400 --url-ignore "/http://www.gutenberg.org/*/,/https://github.com/programminghistorian/*/,/https://github.com/orgs/programminghistorian/*/,/\#/,/espanol/,/deprecated/,/collection.britishmuseum.org/,/analytics.hathitrust.org/,/fr.wikipedia.org/wiki/,/doi.org/,https://web.archive.org/web/20180831094856/http://www.dlsi.ua.es/~borja/riilua/6.TopicModeling_v02.pdf" --allow-hash-href
-          # The arguments to pass to HTMLProofer
+        if: github.event.action != 'closed'
+        run: ./_build/check-links.sh
     # Finally if we are successful in building, we trigger a rebuild of our search index in the search-index repository
       - name: Trigger next workflow
         if: success() && github.event.action == 'closed'
@@ -45,4 +43,3 @@ jobs:
           repository: programminghistorian/search-index
           event-type: trigger-search-build
           client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
-
