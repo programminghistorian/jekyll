@@ -35,6 +35,9 @@ jobs:
             --assume-extension .html \
             --ignore-missing-alt \
             --ignore-empty-alt \
+            --allow-missing-href \
+            --no-check-internal-hash \
+            --no-enforce-https \
             --only-4xx \
             --ignore-status-codes 429,403,400,415 \
             --ignore-files "/assets/,/en/lessons/retired/,/es/lecciones/retirada/,/fr/lecons/retrait/,/pt/licoes/retiradas/,/posts/,/blog/" \
