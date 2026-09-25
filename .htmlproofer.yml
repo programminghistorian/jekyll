@@ -1,0 +1,47 @@
+assume_extension: true
+only_4xx: true
+ignore_missing_alt: true
+ignore_empty_alt: true
+allow_hash_href: true
+check_external_hash: false
+http_status_ignore:
+  - 429
+  - 403
+  - 400
+url_ignore:
+  - /\/\/www.gutenberg.org\/.*/
+  - /https:\/\/github.com\/programminghistorian\/.*/
+  - /https:\/\/github.com\/orgs\/programminghistorian\/.*/
+  - /\#/
+  - /espanol/
+  - /deprecated/
+  - /collection.britishmuseum.org/
+  - /analytics.hathitrust.org/
+  - /fr.wikipedia.org\/wiki/
+  - /https:\/\/web.archive.org\/web\/20180831094856\/http:\/\/www.dlsi.ua.es\/~borja\/riilua\/6.TopicModeling_v02.pdf/
+  - https://github.com/programminghistorian/jekyll/commits/gh-pages
+  - https://github.com/programminghistorian/jekyll/commits/gh-pages/.*
+  - /\/images\/intro-a-google-maps-y-google-earth\/geo-es\d+\.png/
+  - /http:\/\/humanidadesdigitaleshispanicas\.es\/.*/
+  - /http:\/\/dhawards\.org\/.*/
+  - /\/en\/lessons\/building-static-sites-with-jekyll-github-pages#(writing-pages-and-posts|hosting-on-github-pages|where-and-what-is-everything)/
+  - /\/es\/guia-para-autores#paso-1-proponer-una-nueva-lección/
+  - /\/fr\/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon/
+  - /\/pt\/directrizes-autor#etapa-1-propor-uma-nova-lição/
+ignore_files:
+  - /_site\/assets\/.*/
+  - /_site\/retired\/.*/
+  - /_site\/retirada\/.*/
+  - /_site\/retrait\/.*/
+  - /_site\/posts\/.*/
+  - /_site\/blog\/.*/
+ignore_elements:
+  - pre
+  - code
+  - script
+typhoeus:
+  connecttimeout: 30
+  timeout: 60
+hydra:
+  max_concurrency: 2
+log_level: debug
