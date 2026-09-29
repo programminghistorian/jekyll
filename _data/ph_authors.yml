@@ -3509,3 +3509,10 @@
   bio:
     en: |
       Kiran Mohammadi-Williams is the Collections as Data Librarian at Cornell University in Ithaca, New York, United States of America.
+
+- name: Clément Godbarge
+  orcid: 0000-0001-8699-7582
+  team: false
+  bio:
+    fr: |
+      Clément Godbarge est Maître de Conférence en Humanités Numériques à l'Université de St Andrews en Écosse, Royaume-Uni.
