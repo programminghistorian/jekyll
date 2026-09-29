@@ -1759,7 +1759,7 @@
 - name: Alex Wermer-Colan
   github: hawc2
   twitter: alexwermercolan
-  email: english@programminghistorian.org
+  email: alex.wermer-colan@temple.edu
   url: "http://www.alexwermercolan.com/"
   orcid: 0000-0001-7030-6070
   team: true
@@ -1786,7 +1786,6 @@
       Alex Wermer-Colan é Diretor Académico e de Investigação na Biblioteca Loretta C. Duckworth Scholars Studio da Temple University.
   team_roles:
       - english
-      - managing
   status: volunteer
 
 - name: Danielle Sanches
@@ -3087,26 +3086,26 @@
 - name: Laura Alice Chapot
   orcid: 0000-0001-8334-4308
   github: lachapot
-  email: lachapot@gmail.com
+  email: english@programminghistorian.org
   team: true
   team_start: 2024
   institution: UC Berkeley
   sortname: Chapot
   affiliation:
     en: |
-      UC Berkeley, United States
+      Programming Historian, United States
     es: |
-      UC Berkeley, Estados Unidos
+      Programming Historian, Estados Unidos
     fr: |
-      UC Berkeley, États-Unis
+      Programming Historian, États-Unis
     pt: |
-      UC Berkeley, Estados Unidos
+      Programming Historian, Estados Unidos
   bio:
     en: |
-      Laura Alice Chapot is an Assistant Researcher in Digital Humanities in the Department of German at the University of California, Berkeley in Berkeley, CA, USA. 
+      Laura Alice Chapot is the Managing Editor of _Programming Historian in English_. 
   team_roles:
     - english
-    - managing-assistant
+    - managing
   status: volunteer
 
 - name: Caio Mello
@@ -3131,7 +3130,7 @@
       Caio Mello is a Postdoctoral Researcher in Computational Humanities/Digital History at the Luxembourg Centre for Contemporary and Digital History (C²DH) in Esch-sur-Alzette, Luxembourg.
   team_roles:
     - english
-    - editorial
+     - managing-assistant
   status: volunteer
 
 - name: Giulia Osti
