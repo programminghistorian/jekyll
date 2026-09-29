@@ -11,6 +11,7 @@ reviewers:
 - Elsa Van Kote
 editors:
 - Matthias Gille Levenson
+- Daphné Mathelier
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/674
 difficulty: 3
 activity: transforming
@@ -322,7 +323,7 @@ En voici un exemple&nbsp;:
 
 La TEI étant très flexible, nous pouvons nourrir chaque entrée d’informations supplémentaires. On peut, par exemple, complémenter une entité de lieu avec des coordonnées géographiques ou des liens à des bases de données telles que le TGN ([*Getty Thesaurus of Geographic Names*](https://perma.cc/C2VV-ZWQL)). Dans l’exemple ci-dessus, nous avons choisi de référencer les personnages au VIAF ([*Virtual International Authority File*](https://perma.cc/4GT6-QWAR)) lorsque cela est possible. Ces informations peuvent être utiles, notamment pour faciliter l’interopérabilité entre différents projets numériques, permettre des recherches plus précises et enrichir l’analyse des données textuelles. Elles offrent également la possibilité d’enrichir la publication de ce texte avec des informations contextuelles supplémentaires.
 
-Cet aperçu de la TEI est minimal. Pour découvrir les centaines d’éléments et attributs propres à cette convention, on se reportera à la documentation officielle, [*TEI: Recommandations pour l’encodage et l’échange de textes électroniques*](https://perma.cc/WRF8-ZEFJ), et au leçon de Nicolás Vaughan dans le _Programming Historian en français_&nbsp;: [_Introduction à l’encodage de texte TEI_](/fr/lecons/introduction-a-tei-1).
+Cet aperçu de la TEI est minimal. Pour découvrir les centaines d’éléments et attributs propres à cette convention, on se reportera à la documentation officielle, [*TEI&nbsp;: Recommandations pour l’encodage et l’échange de textes électroniques*](https://perma.cc/WRF8-ZEFJ), et au leçon de Nicolás Vaughan dans le _Programming Historian en français_&nbsp;: [_Introduction à l’encodage de texte TEI_](/fr/lecons/introduction-a-tei-1).
 
 ## Prévention des erreurs, conformité syntaxique et validité
 
@@ -520,7 +521,7 @@ La validation RELAX NG vérifie que le document respecte à la fois la syntaxe X
 
 ### Validation éditoriale avec Schematron
 
-Comme vu précédemment, RELAX NG valide la forme. Pour exprimer des contraintes de logique éditoriale plus complexes, on ajoute Schematron. Par souci de clarté pédagogique, nous commençons ici par un schéma Schematron séparé (.sch). En production, ces règles sont souvent intégrées directement dans l’ODD, afin de conserver une source de vérité unique. 
+Comme vu précédemment, RELAX NG valide la forme. Pour exprimer des contraintes de logique éditoriale plus complexes, on ajoute Schematron. Par souci de clarté pédagogique, nous commençons ici par un schéma Schematron séparé (`.sch`). En production, ces règles sont souvent intégrées directement dans l’ODD, afin de conserver une source de vérité unique. 
 
 Il est important de comprendre comment Schematron fonctionne. Contrairement à RELAX NG, qui est interprété directement par un validateur dédié comme Jing, Schematron passe par une étape intermédiaire&nbsp;: les règles `.sch` sont d’abord *compilées* en une feuille XSLT par Saxon, puis cette feuille compilée est *appliquée* au document TEI, toujours par Saxon, pour produire un rapport de validation (SVRL). Autrement dit, Saxon et le langage XSLT servent ici d’outil de *validation*, alors que nous les utiliserons plus loin comme outil de *transformation* (TEI vers HTML, Markdown, etc.). Cette apparente double fonction s’explique par la polyvalence d’XSLT, qui permet aussi bien de vérifier des contraintes que de générer des formats de sortie.
 
@@ -580,7 +581,7 @@ saxon -s:templates/cavriana-step2.sch -xsl:templates/iso_svrl_for_xslt2.xsl \
   -o:templates/cavriana-schematron.xsl
 ```
 
-puis on l’applique aux documents&nbsp;:
+Puis on l’applique aux documents&nbsp;:
 
 ```bash
 saxon -s:letters/1568-07-03.xml -xsl:templates/cavriana-schematron.xsl \
