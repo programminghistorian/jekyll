@@ -1786,6 +1786,7 @@
       Alex Wermer-Colan é Diretor Académico e de Investigação na Biblioteca Loretta C. Duckworth Scholars Studio da Temple University.
   team_roles:
       - english
+      - editorial
   status: volunteer
 
 - name: Danielle Sanches
@@ -3130,7 +3131,7 @@
       Caio Mello is a Postdoctoral Researcher in Computational Humanities/Digital History at the Luxembourg Centre for Contemporary and Digital History (C²DH) in Esch-sur-Alzette, Luxembourg.
   team_roles:
     - english
-     - managing-assistant
+    - managing-assistant
   status: volunteer
 
 - name: Giulia Osti
