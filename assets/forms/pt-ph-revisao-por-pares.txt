@@ -1,0 +1,55 @@
+### Revisão por pares para o *Programming Historian em português*
+
+Agradecemos seu interesse em contribuir com o *Programming Historian em português* como revisor(a).
+
+Revisar para o *Programming Historian em português* é uma ótima maneira de aprender novas competências técnicas e interagir com a comunidade de humanidades digitais.
+
+Temos o compromisso com um processo aberto de revisão por pares. Incentivamos revisores, autores, tradutores e editores a compartilhar seus pareceres em nosso repositório público no GitHub. Fazemos isso para promover um ambiente colaborativo, sustentável e justo para a pesquisa. Também asseguramos que nossos revisores recebam crédito e reconhecimento por sua contribuição, incluindo seus nomes nas lições que publicamos.
+
+Buscamos pessoas disponíveis para revisar uma lição nos próximos 12 meses.
+
+Observe que armazenaremos seus dados exclusivamente para entrar em contato sobre a possibilidade de atuar como revisor(a). Nunca compartilharemos seus dados com terceiros. Você pode entrar em contato conosco a qualquer momento para solicitar a remoção de seus dados de nossos registros.
+
+-----
+Nome e sobrenome:
+
+Endereço de email:
+
+Identificador ORCID:
+
+1. Temos interesse em sua especialização. Nos campos abaixo, indique de duas a três áreas de especialidade. Elas podem incluir ferramentas digitais específicas, métodos de pesquisa ou linguagens de programação que você domine.
+
+- Área de especialidade 1:
+- Área de especialidade 2:
+- Área de especialidade 3:
+- Outras áreas de especialização que gostaria que conhecêssemos:
+
+2. Em quais idiomas você se sentiria à vontade para revisar? Caso queira revisar em outro idioma, preencha também o formulário de manifestação de interesse naquele idioma.
+
+- [ ] Português
+- [ ] Inglês – Formulário de manifestação de interesse: https://tinyurl.com/en-ph-peer-review
+- [ ] Español – Formulário de manifestação de interesse: https://tinyurl.com/es-ph-revision-por-pares
+- [ ] Français – Formulário de manifestação de interesse: https://tinyurl.com/fr-ph-evaluation
+
+1. Você está disponível para revisar nos próximos 12 meses? (Caso seja submetida uma lição relacionada à sua especialidade ou competência técnica.)
+
+- [ ] Sim
+- [ ] Não
+
+4. Podemos entrar em contato sobre sua disponibilidade para participar de futuras rodadas de revisão por pares? Se a resposta for “Sim”, manteremos seus dados em nossos registros. Se a resposta for “Não”, excluiremos seus dados 12 meses após o recebimento deste formulário.
+
+- [ ] Sim
+- [ ] Não
+-------
+
+Agradecemos.
+
+Caso tenha alguma pergunta, escreva para o(a) editor(a)-gerente do *Programming Historian em português*:
+
+Eric Brasil (Editor-Chefe em português)
+[portugues@programminghistorian.org](mailto:portugues@programminghistorian.org)
+
+Você também pode entrar em contato com nossa equipe de publicação:
+
+Anisa Hawes (Gerente de Publicação)    
+[admin@programminghistorian.org](mailto:admin@programminghistorian.org)
