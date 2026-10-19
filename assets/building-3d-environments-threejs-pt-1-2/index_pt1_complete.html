@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--This is a html comment.  title tag gives the title of window -->
+		<title>PNG pottery</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+ 		<!--Link to the style sheet -->
+		<link type="text/css" rel="stylesheet" href="main.css">
+		<!--JavaScript. Get the three.js library files -->
+		<script type="importmap">
+            {
+              "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+              }
+            }
+        </script>
+	</head>
+	<body>
+        <!--Link to three.js page and some text. Text colours specified in main.css. Could be used for interactive page instructions. -->
+		<div id="info">
+			<a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> The Jars of Papua
+		</div>
+        <!--JavaScript. Here is where the three.js code goes. -->
+		<script type="module">
+            // JavaScript comment
+
+            // Library imports
+			import * as THREE from 'three';
+            import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+            import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js'; // needed if draco compression on gltf
+            import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+            // Variable declaration and setting
+	        let themodel;
+	        let piecescale = 1; // this allows experimenting with scaling
+	        let desk = 0.8; // the height of the model (metres), desk height in VR.
+	        let container, camera, scene, renderer, controls;
+
+            // Loader set up 
+            // Different model formats use different loaders
+            const loader = new GLTFLoader();
+	        const dracoLoader = new DRACOLoader();
+	        dracoLoader.setDecoderPath( 'https://unpkg.com/three@0.160.0/examples/jsm/libs/draco/' );
+	        loader.setDRACOLoader( dracoLoader );
+
+	        // Function calls
+    	    init(); //initialise scene
+	        animate(); //updates scene by constant rendering. 
+
+	        // Function definitions
+            // Initialise scene: sets up container; scene; camera; renderer; lights; models; controls
+    	    function init() {
+                // make html div element and add to html document
+		        container = document.createElement( 'div' );
+		        document.body.appendChild( container );
+                // make scene and set background colour
+                scene = new THREE.Scene();
+		        scene.background = new THREE.Color( 0xf7d382 ); // use the hexcode of any colour you want.
+				// make camera, set its start position
+		        camera = new THREE.PerspectiveCamera( 50, window.innerWidth / window.innerHeight, 0.1, 10 ); //arguments are: vertical field of view, aspect, near plane, far plane
+		        camera.position.set( 0, 1.6, 3 ); // arguments: x, y, z. Approximates a persons eye level (designed for VR)
+                // add a hemisphere light and a directional light
+                scene.add( new THREE.HemisphereLight( 0xffffbb, 0x080820, .5) ); // arguments: sky colour, ground colour, intensity
+	            const light = new THREE.DirectionalLight( 0xffffff ); // argument: colour
+	            light.position.set( 1, 6, 2 ); // x, y, z 
+	            scene.add( light );
+
+                // load model
+                // function used for loader
+                function onLoadMap( gltf ) {                
+                    themodel = gltf.scene.children[0];
+                    themodel.position.set( 0, desk, 0);
+                    themodel.scale.set( piecescale, piecescale, piecescale);
+                    scene.add( themodel);
+	            }
+                // the loader is given the model file name (first argument) which is passed to the function (second argument), function to do while loading (3rd argument), function called if error (4th argument).
+	            loader.load( 'models/png_sceneDRACO.glb', onLoadMap, undefined, function ( error ) {console.error( error );} ); 
+	
+                // make renderer and use users browser window values to set pixel ratio and size
+        	    renderer = new THREE.WebGLRenderer( { antialias: true } );
+		        renderer.setPixelRatio( window.devicePixelRatio );
+		        renderer.setSize( window.innerWidth, window.innerHeight );
+        	    container.appendChild( renderer.domElement );
+
+                // create orbit controls
+                controls = new OrbitControls( camera, renderer.domElement);
+	            controls.target.set( 0, 1.6, 0 ); // sets the scene rotational centre
+	            controls.update(); // updates controls settings after creation
+                //controls.autoRotate = true; // set to true if camera is to rotate automatically BUT you must then call controls.update() in render function.
+
+                // add listeners. These check for user interaction with the window and  mouse clicks or drags and call the given function.
+                // listen for user browser window resizing and call the onWindowResize function that is defined below.
+       	 	    window.addEventListener( 'resize', onWindowResize );
+		    }
+
+            // function definitions
+            // Constant loop of rendering.
+	        function animate() {           
+		        renderer.setAnimationLoop( render );           
+	        }
+
+            // Called in loop by animate(), draws the scene in 2D as viewed by the camera at the camera's current position.
+	        function render() {
+                //controls.update(); // uncomment if controls.autoRotate = true
+		        renderer.render( scene, camera );
+	        }
+			 // called on resizing of window. Gets new browser window values and updates camera and renderer settings. Don't experiment with.
+	        function onWindowResize() {
+		        camera.aspect = window.innerWidth / window.innerHeight; 
+		        camera.updateProjectionMatrix();
+		        renderer.setSize( window.innerWidth, window.innerHeight );
+	        }
+		</script>
+	</body>
+</html>
