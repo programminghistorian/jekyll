@@ -70,7 +70,7 @@ You should feel comfortable using the command line of your computer. Windows use
 
 ### Windows
 
-Some components of the unix-based open source software used in this lesson do not run on Windows systems natively. The workaround is the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install), which runs a Linux distribution such as Ubuntu inside Windows 10 and Windows 11. Open [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell) as administrator and run the following command. It installs WSL together with the current Ubuntu LTS release. Restart your computer when you are asked to. Then click on the Ubuntu tile in the Start Menu and create a user account.[^1]
+Some components of the unix-based open source software used in this lesson do not run on Windows systems natively. The workaround is the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install), which runs a Linux distribution such as Ubuntu inside Windows 10 and Windows 11. Open [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell) as administrator and run the following command. It installs WSL together with Ubuntu. Restart your computer when you are asked to. Then click on the Ubuntu tile in the Start Menu and create a user account.[^1]
 
 ``` powershell
 wsl --install
@@ -216,7 +216,7 @@ done
 
 <div class="alert alert-info">
 
-<code>--skip-text</code> trusts any text that a page already contains, even if it comes from a poor earlier OCR. If a file holds a bad text layer, use <code>--redo-ocr</code> to replace it, or <code>--force-ocr</code> to turn every page into an image and recognise it again. See the <a href="https://ocrmypdf.readthedocs.io/en/latest/advanced.html">documentation</a> for details.
+<code>--skip-text</code> trusts any text that a page already contains, even if it comes from a poor earlier OCR. If a file holds a bad text layer, replace <code>--skip-text</code> with <code>--redo-ocr</code> to replace the OCR, or with <code>--force-ocr</code> to turn every page into an image and recognise it again. When using <code>--redo-ocr</code>, also remove <code>--deskew</code>, because these options cannot be combined. See the <a href="https://ocrmypdf.readthedocs.io/en/latest/advanced.html">documentation</a> for details.
 
 </div>
 
@@ -318,8 +318,7 @@ Now that you have performed all the steps of the PDF processing on some examples
 4.  Evaluate the Topic Model
 
 <div class="alert alert-info">
-  Both the download and the processing of the corpus are time consuming and resource intensive. At <a href="https://zenodo.org/record/3582818/files/20191218-ilo-dataset.zip?download=1">doi.org/10.5281/zenodo.3582736</a> you can download the collection as a ZIP file and go directly to step
-  3.
+  Both the download and the processing of the corpus are time consuming and resource intensive. At <a href="https://zenodo.org/records/3582818/files/20191218-ilo-dataset.zip?download=1">doi.org/10.5281/zenodo.3582736</a> you can download the extracted texts as a ZIP file. Unzip it to obtain the 340 text files, then go directly to <a href="#create-the-topic-model">Create the Topic Model</a>. Use these files wherever the instructions below refer to the <code>text</code> folder. The app does not open ZIP archives.
 </div>
 
 ### Download the Corpus
@@ -333,7 +332,7 @@ cd case_study
 
 You can download the corpus from the [ILO website](https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/). All English documents contain ‘engl’ in the title. It’s over a gigabyte of data. Depending on your internet speed this may take a while.
 
-To automate this step you can use the following commands. They download all English documents at once. The first command reads the list of files from the ILO website and writes the names of all English documents to `list_of_files.txt`. The second command reports how many documents it found. In 2020, there were 340 of them. The loop then downloads each file into the current folder. It skips files that you have already downloaded, so you can simply run it again if your connection breaks. `--fail` makes `curl` report an error instead of saving an error page as a PDF file, and `--retry 3` makes it try again three times.
+To automate this step you can use the following commands. They download all English documents at once. The first command reads the list of files from the ILO website and writes the names of all English documents to `list_of_files.txt`. The second command reports how many documents it found. In 2020, there were 340 of them. The loop then downloads each file into the current folder. It skips completed downloads, so you can simply run it again if your connection breaks. Each download is saved with a temporary `.part` extension and renamed only when it succeeds. `--fail` makes `curl` report an error instead of saving an error page as a PDF file, and `--retry 3` makes it try again three times.
 
 ``` bash
 base_url='https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/'
@@ -341,10 +340,13 @@ curl --fail --silent --show-error "$base_url" |
   grep -o 'ILO[^"]*engl[^"><\/]*' |
   sort -u > list_of_files.txt
 wc -l < list_of_files.txt
-while read -r name; do
+while IFS= read -r name; do
   if [ ! -f "$name" ]; then
-    curl --fail --retry 3 --silent --show-error --output "$name" "$base_url$name" ||
-      echo "Download failed: $name"
+    if curl --fail --retry 3 --silent --show-error --output "$name.part" "$base_url$name"; then
+      mv "$name.part" "$name"
+    else
+      echo "Download failed: $name" >&2
+    fi
   fi
 done < list_of_files.txt
 ```
@@ -413,7 +415,9 @@ Simple Topic Modeling has a graphical user interface that makes it very easy to 
   - **Documents** shows which topics each document contains. You can search the texts and filter them by topic.
   - **Diagnostics** describes the corpus and the model. These numbers help you to compare runs, but they are not a quality score.
 
-Read the topics critically. In the original version of this lesson, one topic dealt with various social insurance schemes. It included both old-age provision and unemployment benefits, and it was close to accident insurance and legislation. Look for a similar topic in your model and check whether its representative documents support this reading. Your topics will not be the same, because the model, the stop words and the text recognition differ.
+{% include figure.html filename="working-with-batches-of-pdf-files2.png" alt="The Topics tab in Simple Topic Modeling shows Topic 21, pension, widow and incapacity, with a bar chart of its fifteen highest-weighted terms and a count of 340 documents modelled." caption="Figure 2: Simple Topic Modeling showing the top terms of a topic about pensions and incapacity. This NMF model uses all 340 archived lesson texts, English stop words, 30 topics and random seed 42." %}
+
+Read the topics critically. In the run shown in Figure 2, Topic 21 includes the words ‘pension’, ‘widow’, ‘incapacity’ and ‘invalidity’, which suggest a theme of social insurance. Its representative documents include *Compensation for War Disabilities* and *The Evaluation of Permanent Incapacity for Work in Social Insurance*. Open these documents to check whether they support this interpretation. You can repeat this run with the archived corpus and the [settings used for Figure 2](/assets/working-with-batches-of-pdf-files/config.json), loaded in Step 2. Different model parameters, stop words or text recognition can change the topics, so always check their terms against the source texts.
 
 To further process or visualize the results with a spreadsheet program, go to **Step 4 — Export** and click on **Download complete research package (.zip)**. The package contains the topics, their words and the topic scores of each document as CSV files, together with all charts. It also contains the file `config.json`, which records the version of the app, the stop words and all model parameters, including the random seed. Keep this file together with your results. If you load it in Step 2 later, the app restores all settings, so that you or your readers can repeat the analysis. The paper 'Parliament’s Debates about Infrastructure' by Jo Guldi illustrates how Topic Modelling can be put to use for historical research.[^4]
 

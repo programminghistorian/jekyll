@@ -1,0 +1,61 @@
+{
+  "analyse_as": "corpus",
+  "app_version": "2.0.0a0",
+  "language": "en",
+  "model": {
+    "max_df": 0.95,
+    "max_features": 5000,
+    "max_iter": null,
+    "min_df": 2,
+    "model_type": "nmf",
+    "n_topics": 30,
+    "ngrams": "1",
+    "random_seed": 42
+  },
+  "preprocess": {
+    "lowercase": true,
+    "min_token_length": 2,
+    "normalize_accents": false,
+    "strip_emails": true,
+    "strip_numbers": false,
+    "strip_urls": true
+  },
+  "split_mode": null,
+  "stop_words": {
+    "added": "",
+    "always_keep": "",
+    "use_base_list": true
+  },
+  "topic_names": [
+    "Topic 1 · exports, imports, cyclical",
+    "Topic 2 · english, french, issued",
+    "Topic 3 · 279, 297, 416",
+    "Topic 4 · arbitration, courts, conciliation",
+    "Topic 5 · floor, exhaust, temperature",
+    "Topic 6 · statisticians, classifications, statistics",
+    "Topic 7 · overtime, saturday, sunday",
+    "Topic 8 · immigrants, immigration, emigrants",
+    "Topic 9 · 1942, 1943, 1941",
+    "Topic 10 · 1954, 1955, 1957",
+    "Topic 11 · crew, shipowners, deck",
+    "Topic 12 · courses, schools, training",
+    "Topic 13 · 1948, 1947, 1949",
+    "Topic 14 · poisoning, symptoms, dust",
+    "Topic 15 · arbeit, beruf, arbeitsnachweis",
+    "Topic 16 · congress, delegates, federation",
+    "Topic 17 · fatal, casualties, accidents",
+    "Topic 18 · holdings, tenants, cultivation",
+    "Topic 19 · tests, abilities, psychology",
+    "Topic 20 · weights, consumed, consumption",
+    "Topic 21 · pension, widow, incapacity",
+    "Topic 22 · spinners, hourly, earnings",
+    "Topic 23 · ruhr, miner, silesia",
+    "Topic 24 · wartime, commons, 1942",
+    "Topic 25 · mortgage, dwellings, loan",
+    "Topic 26 · communist, revolutionary, moscow",
+    "Topic 27 · fig, lever, figs",
+    "Topic 28 · cm, cn, oo",
+    "Topic 29 · unemployed, relief, unemployment",
+    "Topic 30 · crowns, societies, wholesale"
+  ]
+}
