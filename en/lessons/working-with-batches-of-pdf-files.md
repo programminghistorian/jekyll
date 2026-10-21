@@ -20,6 +20,10 @@ avatar_alt: working-with-batches-of-pdf-files
 doi: 10.46430/phen0088
 ---
 
+<div class="alert alert-info">
+This lesson was updated in October 2026 to reflect changes in the tools it uses. The installation instructions now point to the maintained guides for Windows, macOS and Linux. The OCRmyPDF, Poppler and ImageMagick commands now write their results to separate <code>ocr</code>, <code>text</code> and <code>images</code> folders, so that they never overwrite the original PDF files. The DARIAH Topics Explorer, which is no longer maintained, has been replaced with <a href="https://maehr.github.io/simple-topic-modeling/">Simple Topic Modeling</a>, which runs in your web browser. The commands were checked with OCRmyPDF 17.13, Tesseract 5.3, Poppler 24.02 and ImageMagick 6.9 (with the <code>convert</code> command) on Ubuntu 24.04.
+</div>
+
 # A Table of Contents
 
 {% include toc.html %}
@@ -64,9 +68,13 @@ You should feel comfortable using the command line of your computer. Windows use
 
 ## Software
 
-### Windows 10
+### Windows
 
-Some components of the unix-based open source software used in this lesson do not run on Windows systems natively. Fortunately, since the Windows 10 Fall Creators Update there is a workaround. Open [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/getting-started/starting-windows-powershell) as administrator and run `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`. Install [Ubuntu 18.04 LTS](https://ubuntu.com/tutorials/install-ubuntu-desktop-1804#1-overview) from the Microsoft Store. To [initialize](https://docs.microsoft.com/en-us/windows/wsl/) the Windows Subsystem for Linux (WSL) click on the Ubuntu tile in the Start Menu and create a user account.[^1]
+Some components of the unix-based open source software used in this lesson do not run on Windows systems natively. The workaround is the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install), which runs a Linux distribution such as Ubuntu inside Windows 10 and Windows 11. Open [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell) as administrator and run the following command. It installs WSL together with the current Ubuntu LTS release. Restart your computer when you are asked to. Then click on the Ubuntu tile in the Start Menu and create a user account.[^1]
+
+``` powershell
+wsl --install
+```
 
 <div class="alert alert-warning">
 
@@ -74,45 +82,46 @@ Follow these instructions carefully and do not lose your credentials. You will n
 
 </div>
 
-Once the WSL is up and running, navigate to your working directory (for example Downloads). Invoke `bash` through PowerShell and install all requirements via the built-in package manager [Aptitude](https://wiki.debian.org/Aptitude).
+Once the WSL is up and running, start Ubuntu through PowerShell with `wsl`. Install all requirements via the built-in package manager [APT](https://ubuntu.com/server/docs/package-management).
 
 ``` powershell
-bash
+wsl
 ```
 
 ``` bash
-sudo apt install ocrmypdf tesseract-ocr-all poppler-utils imagemagick
+sudo apt update
+sudo apt install ocrmypdf tesseract-ocr-eng poppler-utils imagemagick
 ```
+
+Then navigate to your working directory (for example Downloads). Your Windows drives are available under `/mnt`, so your Downloads folder is usually at `/mnt/c/Users/<your Windows user name>/Downloads`.
 
 ### MacOS
 
-Installing all the requirements without a package manager is cumbersome. Therefore install the [Command Line Tools for Xcode](https://itunes.apple.com/us/app/xcode/id497799835) and [Homebrew](https://brew.sh) first. It offers an easy way to install all the tools and software needed for this lesson.
+Installing all the requirements without a package manager is cumbersome. Therefore install [Homebrew](https://brew.sh) first. It offers an easy way to install all the tools and software needed for this lesson. The installation command changes from time to time, so copy the current one from the [Homebrew website](https://brew.sh). The installer also installs the Command Line Tools for Xcode if they are missing. At the time of writing, the commands are:
 
 ``` bash
-xcode-select --install
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install ocrmypdf tesseract-lang poppler imagemagick
 ```
 
 ### Linux
 
-On [Ubuntu 18.04 LTS](https://ubuntu.com/download/desktop) and most Debian-based Linux distributions you can install all requirements via `aptitude`.
+On a current [Ubuntu LTS release](https://ubuntu.com/download/desktop) and most Debian-based Linux distributions you can install all requirements via `apt`. For other distributions, see the [installation guide of OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/installation.html).
 
 ``` bash
-apt install ocrmypdf tesseract-ocr-all poppler-utils imagemagick
+sudo apt update
+sudo apt install ocrmypdf tesseract-ocr-eng poppler-utils imagemagick
 ```
 
-Even though all tools used in this lesson are shipped with Ubuntu, an update is recommended.
+<div class="alert alert-info">
+
+The package <code>tesseract-ocr-eng</code> installs the English language data for Tesseract, which is all you need for this lesson. If you work with sources in other languages, install the corresponding package, for example <code>tesseract-ocr-fra</code> for French, or <code>tesseract-ocr-all</code> for all languages. On macOS, <code>tesseract-lang</code> already contains all languages.
+
+</div>
 
 ### Topic Modelling
 
-The Topic Modelling in the case study is performed with the [DARIAH Topics Explorer](https://dariah-de.github.io/TopicsExplorer/). It is a very easy to use tool with a graphical user interface. You can download the open source program for Windows, Mac and Linux [here](https://github.com/DARIAH-DE/TopicsExplorer/releases).
-
-<div class="alert alert-warning">
-
-If you are using a Mac and receive an error message that the file is from an “unidentified developer,” you can overwrite it by holding control while double-clicking it. If that doesn't work, go to Systems Preferences, click on Security & Privacy, and then click Open Anyway.
-
-</div>
+The Topic Modelling in the case study is performed with [Simple Topic Modeling](https://maehr.github.io/simple-topic-modeling/). It is an open source tool with a graphical user interface that runs entirely in your web browser. There is nothing to install: open the website in a current version of Firefox, Chrome, Edge or Safari. Your documents stay on your computer, because the app analyses them in the browser and does not send them to a server. The source code is available on [GitHub](https://github.com/maehr/simple-topic-modeling).
 
 ## Data
 
@@ -144,7 +153,7 @@ Save all files below to your working directory:
   - [Report of the Conference](https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/ILO-SR_N4_engl.pdf)<!--text extraction-->
   - [International labour review](https://webapps.ilo.org/public/libdoc/ilo/P/09602/09602(1924-9-1)3-30.pdf)<!--text extraction-->
 
-To illustrate image extraction and PDF merging you will include one more files to our corpus that is not directly related to the First International Conference of Labour Statisticians from 1923.
+To illustrate image extraction and PDF merging you will include one more file to our corpus that is not directly related to the First International Conference of Labour Statisticians from 1923.
 
   - [Speeches made at the ceremony on 21 October 1923](https://webapps.ilo.org/public/libdoc/ilo/1923/23B09_5_engl.pdf) <!--extract images, combine documents-->
 
@@ -152,7 +161,7 @@ For the Topic Modelling of the [case study](#use-topic-modelling-to-analyze-the-
 
 <div class="alert alert-danger">
 
-Always make a backup copy of your data before using the commands in this course. Text recognition and combining PDFs can change the original files.
+Always make a backup copy of your data before using the commands in this course. The commands in this lesson write their results to the separate folders <code>ocr</code>, <code>text</code> and <code>images</code> and leave the original PDF files unchanged. Never use the same file name for input and output: text recognition and combining PDFs would then overwrite your original files.
 
 </div>
 
@@ -172,11 +181,20 @@ First you will get an overview of our corpus. Large databases can create a false
 
 ## Text Recognition in PDF Files
 
-For the text recognition, you will use [OCRmyPDF](https://ocrmypdf.readthedocs.io). This software is based on the state-of-the-art open source text recognition software [Tesseract](https://github.com/tesseract-ocr/tesseract), which is maintained and further developed by Google. The software automatically recognizes the page orientation, corrects skewed pages, cleans up image artifacts, and adds an OCR text layer to the PDF. Only the document language must be given as a parameter.
+For the text recognition, you will use [OCRmyPDF](https://ocrmypdf.readthedocs.io). This software is based on the state-of-the-art open source text recognition software [Tesseract](https://github.com/tesseract-ocr/tesseract), which was developed at Hewlett-Packard and Google and is now maintained by an open source community. The software corrects skewed pages and adds an OCR text layer to the PDF. Only the document language must be given as a parameter.
+
+First create a folder named `ocr` for the results. OCRmyPDF takes an input file and an output file. Always give it a different file for the output, so that your original PDF stays unchanged.
 
 ``` bash
-ocrmypdf --language eng --deskew --clean 'ILO-SR_N2_engl.pdf' 'ILO-SR_N2_engl.pdf'
+mkdir ocr
+ocrmypdf --language eng --deskew 'ILO-SR_N2_engl.pdf' 'ocr/ILO-SR_N2_engl.pdf'
 ```
+
+<div class="alert alert-info">
+
+Earlier versions of this lesson also used the <code>--clean</code> parameter. It cleans up scanning artifacts with the additional program <a href="https://github.com/unpaper/unpaper">unpaper</a> before the text recognition, and it fails if unpaper is not installed. It does not change the pages in the output file. Try it with a poor scan if you have installed unpaper (<code>sudo apt install unpaper</code> or <code>brew install unpaper</code>).
+
+</div>
 
 {% include figure.html filename="working-with-batches-of-pdf-files1.png" caption="Figure 1: The status messages of the software indicate recognition errors in the OCR process." %}
 
@@ -188,52 +206,64 @@ OCRmyPDF has many useful parameters to optimize your results. See the <a href="h
 
 </div>
 
-To process all PDF files in your working directory at once. OCRmyPDF automatically skips PDFs that already contain embedded text.
+To process all PDF files in your working directory at once, use a `for` loop. By default, OCRmyPDF stops with the error `PriorOcrFoundError` when a page already contains text. The parameter `--skip-text` tells it to leave such pages as they are and to recognise the text on all other pages. The `ocr` folder then holds a copy of every PDF file with a text layer.
 
 ``` bash
-find . -name '*.pdf' -exec ocrmypdf --language eng --deskew --clean '{}' '{}' \;
+for file in *.pdf; do
+  ocrmypdf --language eng --deskew --skip-text "$file" "ocr/$file"
+done
 ```
+
+<div class="alert alert-info">
+
+<code>--skip-text</code> trusts any text that a page already contains, even if it comes from a poor earlier OCR. If a file holds a bad text layer, use <code>--redo-ocr</code> to replace it, or <code>--force-ocr</code> to turn every page into an image and recognise it again. See the <a href="https://ocrmypdf.readthedocs.io/en/latest/advanced.html">documentation</a> for details.
+
+</div>
 
 ## Extract Embedded Text from PDFs
 
-To extract the embedded texts from the PDF files use [Poppler](https://en.wikipedia.org/wiki/Poppler_(software))). It is a very powerful command line tool for processing PDF files that is used by many other programs.
+To extract the embedded texts from the PDF files use [Poppler](https://en.wikipedia.org/wiki/Poppler_(software)). It is a very powerful command line tool for processing PDF files that is used by many other programs. Use the PDF files in the `ocr` folder, because they also contain the recognised text, and write the text files to a new folder named `text`.
 
 ``` bash
-pdftotext 'ILO-SR_N1_engl.pdf' 'ILO-SR_N1_engl.txt'
+mkdir text
+pdftotext 'ocr/ILO-SR_N1_engl.pdf' 'text/ILO-SR_N1_engl.txt'
 ```
 
-To process all PDF files in your working directory at once. The status message `Syntax Warning: Invalid Font Weight` means that the file contains formatting that does not meet the standard specifications of PDF. You can safely ignore this message.
+To process all PDF files in the `ocr` folder at once, use another `for` loop. `basename` removes the folder and the `.pdf` extension from each file name, so that `ocr/ILO-SR_N1_engl.pdf` becomes `text/ILO-SR_N1_engl.txt`. The status message `Syntax Warning: Invalid Font Weight` means that the file contains formatting that does not meet the standard specifications of PDF. You can safely ignore this message.
 
 ``` bash
-find . -name '*.pdf' -exec pdftotext '{}' '{}.txt' \;
+for file in ocr/*.pdf; do
+  pdftotext "$file" "text/$(basename "$file" .pdf).txt"
+done
 ```
 
-Once you have extracted all the embedded text from the PDFs, you can easily browse the text files. You can use the Windows Explorer, MacOS Finder, or a command line program like `grep`. You can display all the mentions of the term “statistics”.
+Once you have extracted all the embedded text from the PDFs, you can easily browse the text files. You can use the Windows Explorer, MacOS Finder, or a command line program like `grep`. You can display all the mentions of the term “statistics” in the `text` folder.
 
 ``` bash
-grep 'statistic' . -R
+grep -R 'statistic' text/
 ```
 
-`grep` is also able to process complicated search queries (so-called [regular expressions](https://manpages.ubuntu.com/manpages/bionic/en/man1/grep.1.html#regular%20expressions)). For example, you can also search for all files containing either “labour statistics” or “wage statistics”.
+`grep` is also able to process complicated search queries (so-called [regular expressions](https://manpages.ubuntu.com/manpages/noble/en/man1/grep.1.html#regular%20expressions)). For example, you can also search for all files containing either “labour statistics” or “wage statistics”.
 
 ``` bash
-grep -E 'labour statistics|wage statistics' . -R
+grep -R -E 'labour statistics|wage statistics' text/
 ```
 
 Regular expressions also include numbers. This is particularly interesting for historians. This command displays all years in the twentieth century.
 
 ``` bash
-grep -E '19[0-9][0-9]' . -R
+grep -R -E '19[0-9][0-9]' text/
 ```
 
 Once you have successfully extracted all text from the PDF files, they can be further analyzed using methods of [Distant Reading](/en/lessons/?topic=distant-reading) such as [Topic Modelling](/en/lessons/topic-modeling-and-mallet). You will apply such methods to the case study later in this lesson.
 
 ## Extract Embedded Images from PDFs
 
-PDF is a container file format and can contain multiple embedded images per page. You can also use Poppler to extract those images. The program allows us to select a target format for the extracted images. It is recommended to you use a lossless image format like PNG when working with the images.
+PDF is a container file format and can contain multiple embedded images per page. You can also use Poppler to extract those images. The program allows us to select a target format for the extracted images. It is recommended to you use a lossless image format like PNG when working with the images. Write the images to a new folder named `images`. Poppler numbers them, so the first image becomes `images/23B09_5_engl-000.png`.
 
 ``` bash
-pdfimages -png '23B09_5_engl.pdf' '23B09_5_engl'
+mkdir images
+pdfimages -png '23B09_5_engl.pdf' 'images/23B09_5_engl'
 ```
 
 <div class="alert alert-info">
@@ -242,10 +272,12 @@ For digitally created documents, Poppler extracts all embedded image files. This
 
 </div>
 
-To process all PDF files in your working directory at once.
+To process all PDF files in your working directory at once:
 
 ``` bash
-find . -name '*.pdf' -exec pdfimages -png '{}' '{}' \;
+for file in *.pdf; do
+  pdfimages -png "$file" "images/$(basename "$file" .pdf)"
+done
 ```
 
 Poppler can only extract illustrations if they are available as individual images in the PDF file. If you want to extract illustrations from a scanned page take a look at this lesson: [Extracting Illustrated Pages from Digital Libraries with Python](/en/lessons/extracting-illustrated-pages).
@@ -255,19 +287,25 @@ Poppler can only extract illustrations if they are available as individual image
 Although OCRmyPDF can process image files directly, there are cases where you first want to combine the images into a PDF document. Because most image formats do not support multiple pages, each page of a document has to be saved as a single file. With the widespread command line image editing software [ImageMagick](https://imagemagick.org/) you can achieve this very easily.
 
 ``` bash
-convert '23B09_5_engl-002.png' '23B09_5_engl-004.png' '23B09_5_engl-006.png' '23B09_5_engl-007.png' 'some-images-combined.pdf'
+magick 'images/23B09_5_engl-002.png' 'images/23B09_5_engl-004.png' 'images/23B09_5_engl-006.png' 'images/23B09_5_engl-007.png' 'some-images-combined.pdf'
 ```
+
+<div class="alert alert-info">
+
+ImageMagick 7 uses the command <code>magick</code>. Ubuntu and Debian still ship ImageMagick 6, which uses the older command <code>convert</code> instead. If your terminal reports <code>magick: command not found</code>, replace <code>magick</code> with <code>convert</code> in the commands of this section. Some Linux distributions forbid ImageMagick to write PDF files. If you see the error <code>attempt to perform an operation not allowed by the security policy 'PDF'</code>, use <code>img2pdf</code> instead, which is installed together with OCRmyPDF: <code>img2pdf images/*.png -o all-images-combined.pdf</code>.
+
+</div>
 
 To combine all images into a PDF file at once use the wildcard operator `*.png`. This step could take a few minutes.
 
 ``` bash
-convert '*.png' 'all-images-combined.pdf'
+magick images/*.png 'all-images-combined.pdf'
 ```
 
-If you want to combine different PDF files, you can rely on Poppler. Poppler does this job much faster than ImageMagick and preserves attributes of the original documents.
+If you want to combine different PDF files, you can rely on Poppler. Poppler does this job much faster than ImageMagick and preserves attributes of the original documents. Use the files in the `ocr` folder, so that the combined PDF also contains the recognised text.
 
 ``` bash
-pdfunite 'ILO-SR_N1_engl.pdf' 'ILO-SR_N2_engl.pdf' 'ILO-SR_N3_engl.pdf' 'ILO-SR_N4_engl.pdf' 'some-pdfs-combined.pdf'
+pdfunite 'ocr/ILO-SR_N1_engl.pdf' 'ocr/ILO-SR_N2_engl.pdf' 'ocr/ILO-SR_N3_engl.pdf' 'ocr/ILO-SR_N4_engl.pdf' 'some-pdfs-combined.pdf'
 ```
 
 ## Use Topic Modelling to Analyze the Corpus
@@ -295,52 +333,89 @@ cd case_study
 
 You can download the corpus from the [ILO website](https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/). All English documents contain ‘engl’ in the title. It’s over a gigabyte of data. Depending on your internet speed this may take a while.
 
-To automate this step you can use the following command line commands. This will download all English documents (340 files) at once.
+To automate this step you can use the following commands. They download all English documents at once. The first command reads the list of files from the ILO website and writes the names of all English documents to `list_of_files.txt`. The second command reports how many documents it found. In 2020, there were 340 of them. The loop then downloads each file into the current folder. It skips files that you have already downloaded, so you can simply run it again if your connection breaks. `--fail` makes `curl` report an error instead of saving an error page as a PDF file, and `--retry 3` makes it try again three times.
 
 ``` bash
-curl https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/ |
-grep -o 'ILO[^"]*engl[^"><\/]*' |
-uniq |
-sed 's,ILO,https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/ILO,g' > list_of_files.txt
-xargs -n 1 curl -O < list_of_files.txt
-rm list_of_files.txt
+base_url='https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/'
+curl --fail --silent --show-error "$base_url" |
+  grep -o 'ILO[^"]*engl[^"><\/]*' |
+  sort -u > list_of_files.txt
+wc -l < list_of_files.txt
+while read -r name; do
+  if [ ! -f "$name" ]; then
+    curl --fail --retry 3 --silent --show-error --output "$name" "$base_url$name" ||
+      echo "Download failed: $name"
+  fi
+done < list_of_files.txt
 ```
+
+When the loop has finished, compare the number of PDF files with the number of documents in the list. If a download failed, run the loop again.
+
+``` bash
+ls *.pdf | wc -l
+```
+
+<div class="alert alert-warning">
+
+These commands depend on the layout of the ILO website. If the website changes, the list of files may come out empty or incomplete. In that case, download the collection from <a href="https://doi.org/10.5281/zenodo.3582736">Zenodo</a> instead.
+
+</div>
 
 ### Prepare and Clean Up the Corpus
 
-Now you can batch process all downloaded PDF files. First, perform text recognition on all files that don’t have embedded text. Then extract all embedded text from the files. Depending on the performance of your computer, this step may take several hours.
+Now you can batch process all downloaded PDF files with the same commands that you used above. First, perform text recognition on all files that don’t have embedded text and write the results to the `ocr` folder. Then extract all embedded text from these files to the `text` folder. Depending on the performance of your computer, this step may take several hours.
 
 ``` bash
-find . -name '*.pdf' -exec ocrmypdf --language eng --deskew --clean '{}' '{}' \; &&
-find . -name '*.pdf' -exec pdftotext '{}' '{}.txt' \;
+mkdir ocr text
+for file in *.pdf; do
+  ocrmypdf --language eng --deskew --skip-text "$file" "ocr/$file"
+done
+for file in ocr/*.pdf; do
+  pdftotext "$file" "text/$(basename "$file" .pdf).txt"
+done
+```
+
+Check that the `text` folder holds one text file for each PDF file. If OCRmyPDF could not process a file, it prints an error message and leaves that file out of the `ocr` folder.
+
+``` bash
+ls text/*.txt | wc -l
 ```
 
 ### Create the Topic Model
 
-In order to create a Topic Model with the DARIAH Topics Explorer, you don’t need to have any deeper mathematical knowledge about the Latent Dirichlet Allocation (LDA) that is used.[^3] Nevertheless, it is worth clarifying some implicit assumptions of the model before you begin:
+In order to create a Topic Model with Simple Topic Modeling, you don’t need to have any deeper mathematical knowledge about the algorithms it uses. By default, the app uses Non-negative Matrix Factorization (NMF). NMF weights the words with [TF-IDF](/en/lessons/analyzing-documents-with-tfidf), which gives words that are typical of a few documents more weight than words that occur everywhere. As an alternative, the app offers Latent Dirichlet Allocation (LDA), which earlier versions of this lesson used.[^3] Nevertheless, it is worth clarifying some implicit assumptions of the model before you begin:
 
   - A corpus consists of documents. Each document consists of words. Words are carriers of meaning. The order (sentences, sections, etc.) of the words is very important to understand its content. But it is not factored in for the purposes of this analysis. Only the frequency of words in a document or corpus (or more precisely the co-occurrence of words) is measured
   - You determine how many topics are present in the corpus.
-  - Each word has a specific probability of belonging to a topic. The algorithm finds the corresponding probabilities of the individual words
+  - Each word has a specific weight in each topic. The algorithm finds the corresponding weights of the individual words. With NMF, these weights are relative scores. With LDA, they are probabilities
   - Words that occur very frequently do little to discriminate between the individual topics. They are often function words such as 'and', 'but' and so forth. Therefore, they should not be included in the analysis
-  - Topic modeling using LDA is non-deterministic. This means that a different result can be obtained for each run. Fortunately, the result usually converges towards a stable state. Run it several times and compare the results. You will quickly see if the topics remain stable
+  - Both NMF and LDA start from a random state, so a different start can lead to different topics. Simple Topic Modeling fixes this start with a random seed. The same seed, the same settings and the same corpus give the same topics. Change the seed and compare the results. You will quickly see if the topics remain stable
 
-Now open the [DARIAH Topics Explorer](https://dariah-de.github.io/TopicsExplorer/) and follow the steps given in the software. Then:
+Now open [Simple Topic Modeling](https://maehr.github.io/simple-topic-modeling/) in your web browser and select **Use my own data**. Then:
 
-1.  Select all 340 text files for the analysis.
-2.  Remove the 150 most common words. Alternatively, you can also load the file with the English stop words contained in the [example Corpus](https://github.com/DARIAH-DE/TopicsExplorer/tree/master/data) of the DARIAH Topics Explorer.
-3.  Choose 30 for the number of topics and 200 for the number of iterations. You should play with the number of topics and choose a value between 10 and 100. With the number of iterations you increase the accuracy to the price of the calculation duration.
-4.  Click on 'Train Model'. Depending on the speed of your computer, this process may take several minutes.
+1.  In **Step 1 — Add data**, select **Upload files** and drop all text files from the `text` folder into the box. The app treats each file as one document and uses its file name as the document ID.
+2.  In **Step 2 — Configure**, choose **English** as the language and keep **Use the base stop-word list**. This list removes the most common English function words. If you notice OCR errors or other words without meaning in your topics later, add them under **Add stop words** and run the model again.
+3.  Keep **NMF (recommended)** as the model and choose 30 for the **Number of topics**. You should play with the number of topics. With fewer topics, related themes merge. With more topics, they split. Keep the other values in **Advanced settings** for the first run. Note the **Random seed**, which makes your run repeatable.
+4.  In **Step 3 — Run and explore**, click on **Run model**. Depending on the speed of your computer, this process may take several minutes.
+
+<div class="alert alert-info">
+
+The app runs in your browser, so the size of the corpus is limited by the memory of your computer. If the app warns you that the corpus is large, check <b>Model a sample instead</b> to build a first model from a part of the documents. You can also lower the <b>Max vocabulary</b> in the <b>Advanced settings</b>.
+
+</div>
 
 ### Evaluate the Topic Model
 
-The [DARIAH Topics Explorer](https://dariah-de.github.io/TopicsExplorer/) has a graphical user interface that makes it very easy to explore and evaluate the Topic Model and its thirty topics. In this run, the second topic looks like this (see Figure 2).
+Simple Topic Modeling has a graphical user interface that makes it very easy to explore and evaluate the Topic Model and its thirty topics. The tabs below **Run model** show the results:
 
-{% include figure.html filename="working-with-batches-of-pdf-files2.png" caption="Figure 2: DARIAH Topics Explorer showing related words, related documents and similar topics of a single topic." %}
+  - **Overview** shows all topics at a glance, a map of the topics, how prevalent each topic is in the corpus, and how similar the topics are to each other.
+  - **Topics** shows the most important words and the most representative documents of the selected topic. The words are sorted in descending order of weight and give a good overview of the topic. If you have understood a topic, give it a name with the **Rename** button.
+  - **Documents** shows which topics each document contains. You can search the texts and filter them by topic.
+  - **Diagnostics** describes the corpus and the model. These numbers help you to compare runs, but they are not a quality score.
 
-This topic deals with various social insurance schemes. Both old-age provision and unemployment benefits are included. The words are sorted in descending order of relevance and give a good overview of the topic. You can also see which documents have the highest correspondence with this topic. As you can see when you look at related topics, this topic is close to accident insurance and legislation.
+Read the topics critically. In the original version of this lesson, one topic dealt with various social insurance schemes. It included both old-age provision and unemployment benefits, and it was close to accident insurance and legislation. Look for a similar topic in your model and check whether its representative documents support this reading. Your topics will not be the same, because the model, the stop words and the text recognition differ.
 
-To further process or visualize the results with a spreadsheet program, click on the 'Export Data' button. The paper 'Parliament’s Debates about Infrastructure' by Jo Guldi illustrates how Topic Modelling can be put to use for historical research.[^4]
+To further process or visualize the results with a spreadsheet program, go to **Step 4 — Export** and click on **Download complete research package (.zip)**. The package contains the topics, their words and the topic scores of each document as CSV files, together with all charts. It also contains the file `config.json`, which records the version of the app, the stop words and all model parameters, including the random seed. Keep this file together with your results. If you load it in Step 2 later, the app restores all settings, so that you or your readers can repeat the analysis. The paper 'Parliament’s Debates about Infrastructure' by Jo Guldi illustrates how Topic Modelling can be put to use for historical research.[^4]
 
 # Concluding Remarks
 
@@ -352,11 +427,11 @@ The Mueller Report is the official report documenting the findings and conclusio
 
 This lesson focused on tools that are easy to use and are available as open source software free of charge. There are a lot of open source and commercial [alternatives](https://en.wikipedia.org/wiki/List_of_PDF_software) to process PDF files.[^7] [Getting Started with Topic Modeling and MALLET](/en/lessons/topic-modeling-and-mallet) covers one of many alternatives for Topic Modelling.
 
-[^1]: If you run into troubles [activating](https://docs.microsoft.com/en-us/windows/wsl/install-win10) the WSL check out the [troubleshooting](https://docs.microsoft.com/en-us/windows/wsl/troubleshooting), [documentation](https://aka.ms/wsldocs), or the [learning](https://aka.ms/learnwsl) resources.
+[^1]: If you run into troubles [installing](https://learn.microsoft.com/en-us/windows/wsl/install) the WSL check out the [troubleshooting](https://learn.microsoft.com/en-us/windows/wsl/troubleshooting) guide or the [documentation](https://learn.microsoft.com/en-us/windows/wsl/).
 
 [^2]: In the case of a larger corpus, it is advisable to carry out random sampling instead of a detailed analysis. If no text is embedded in certain files, text recognition can be run over the entire corpus. Text recognition identifies embedded text when it is missing, and attempts to recognize it.
 
-[^3]: If you still want to learn more, see Ganegedara, Thushan. “Intuitive Guide to Latent Dirichlet Allocation.” *Medium*, August 23, 2018. https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-latent-dirichlet-allocation-437c81220158.
+[^3]: If you still want to learn more, see Lee, Daniel D., and H. Sebastian Seung. “Learning the Parts of Objects by Non-Negative Matrix Factorization.” *Nature* 401 (1999): 788–791. https://doi.org/10.1038/44565; Blei, David M. “Probabilistic Topic Models.” *Communications of the ACM* 55, no. 4 (2012): 77–84. https://doi.org/10.1145/2133806.2133826; and Ganegedara, Thushan. “Intuitive Guide to Latent Dirichlet Allocation.” *Medium*, August 23, 2018. https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-latent-dirichlet-allocation-437c81220158.
 
 [^4]: Guldi, Jo. “Parliament’s Debates about Infrastructure: An Exercise in Using Dynamic Topic Models to Synthesize Historical Change.” *Technology and Culture* 60, no. 1 (2019): 1–33. https://doi.org/10.1353/tech.2019.0000.
 
