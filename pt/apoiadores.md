@@ -124,6 +124,7 @@ Também agradecemos publicamente a todos os nossos apoiadores ativos 'Educator',
 - Laura Gayle Green 
 - Rebecca Kahn
 - Anna Costalonga
+- Katarina Varjačić
 
 ## Gestão de Doações e Patrocínios
 
