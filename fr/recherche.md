@@ -52,6 +52,7 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 ## Ateliers et évènements
 
+* Anisa Hawes, ['Remix and Reuse: Translation and Adaptation in the Community'](https://tinyurl.com/ph-remix-reuse-2026), _Programming Historian_ [En ligne], (22 octobre 2026).  
 * Jennifer Isasi, Alex Wermer-Colan, Laura Alice Chapot & Caio Mello, ‘Translating Digital Humanities Methods: Approaches from the Programming Historian’, ADHO, Daejeon, Corée du Sud, (27 juillet 2026).
 * Halie Kerns, Arnoud Wils & Anisa Hawes, [‘Mapping Connections in Library Collections: Visualising Catalogue Metadata’](https://tinyurl.com/library-networks), ENABling Library and Archive participation in digital Research co-learning communities (ENABLAR) [En ligne], (16 juillet 2026). 
 * Kirsty Edginton, Felix Vanden Borre & Anisa Hawes, ‘[Enriching Archival Metadata for People Discovery](https://tinyurl.com/archive-people)’, ENABling Library and Archive participation in digital Research co-learning communities (ENABLAR) [En ligne], (14 juillet 2026). 
