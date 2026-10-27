@@ -121,6 +121,7 @@ We also publicly thank all of our active 'Educator', 'Patron' and 'Gold Patron' 
 - Laura Gayle Green 
 - Rebecca Kahn
 - Anna Costalonga
+- Katarina Varjačić
 
 ## Management of Donations and Sponsorship
 
