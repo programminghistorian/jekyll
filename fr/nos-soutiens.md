@@ -124,6 +124,7 @@ Nous tenons également à remercier publiquement tous nos donateurs actifs de ni
 - Laura Gayle Green 
 - Rebecca Kahn
 - Anna Costalonga
+- Katarina Varjačić
 
 ## Gestion de donations et de parrainages
 
