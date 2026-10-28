@@ -121,6 +121,7 @@ En particular, agradecemos la contribución de los siguientes suscriptores activ
 - Laura Gayle Green 
 - Rebecca Kahn
 - Anna Costalonga
+- Katarina Varjačić
 
 
 
