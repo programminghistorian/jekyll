@@ -52,8 +52,7 @@ We are also pleased to welcome **Laura Alice Chapot** as the new Managing Editor
 
 We extend a _cordiale bienvenue_ to three new members of the _Programming Historian en français_ team: **Hélène Gautier**, **Vy Cao**, and **Mohamed Ilyes Mechentel**, who joined us in September and have already begun their first editorial assignments. We are delighted to have them on board!
 
-We also warmly thank **Matthias Gille Levenson**, who has recently stepped down from the team after working with us since 2021. During his time with us, he edited several original lessons, including the recently published  
-[L’édition critique en continu&nbsp;: publier au rythme de l’encodage (Partie 1)](https://doi.org/10.46430/phfr0044) by Clément Godbarge, as well as translations, and also contributed as a translator and reviewer. We are grateful for his many contributions and his commitment to the team. _Merci et bonne continuation_, Matthias!
+We also warmly thank **Matthias Gille Levenson**, who has recently stepped down from the team after working with us since 2021. During his time with us, he edited several original lessons, including the recently published [L’édition critique en continu&nbsp;: publier au rythme de l’encodage (Partie 1)](https://doi.org/10.46430/phfr0044) by Clément Godbarge, as well as translations, and also contributed as a translator and reviewer. We are grateful for his many contributions and his commitment to the team. _Merci et bonne continuation_, Matthias!
 
 ---
 ## ENABLAR: Wrapping up
