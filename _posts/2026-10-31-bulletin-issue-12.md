@@ -104,7 +104,7 @@ We are proud to be part of the [Open Journals Collective](https://www.openjourna
   </p>
 </form>
 
-**Next issue: March 2027**. 
+**Next issue: December 2026**. 
 
 - Follow us on social media to stay in touch with new articles, news, and opportunities to participate: [Bluesky](https://bsky.app/profile/proghist.bsky.social) - [Mastodon](https://hcommons.social/@proghist) - [LinkedIn](https://www.linkedin.com/company/prog-hist/) - [Instagram](https://www.instagram.com/prog.hist/) 
 
