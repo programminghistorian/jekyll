@@ -443,7 +443,7 @@ In order to make sure your manifests are displaying as expected, try testing the
 
 The manifest URI is the unique identifier for a manifest. You can find the manifest URI by opening your manifest JSON file and copying the content in the `@id` (v2) or `id` (v3) field. This is the manifest URI.
 
-Some options for IIIF viewers include: [Theseus](https://theseusviewer.org/), [Mirador](https://projectmirador.org/), [Universal Viewer](https://universalviewer.io/), and [Clover](https://samvera-labs.github.io/clover-iiif/). Simply paste the manifest URI into the viewer to test your manifest.
+Some options for IIIF viewers include: [Theseus](https://theseusviewer.org/), [Mirador](https://projectmirador.org/), [Universal Viewer](https://universalviewer.io/), and [Clover](https://clover.iiif.library.northwestern.edu/). Simply paste the manifest URI into the viewer to test your manifest.
 
 ## Conclusion
 
