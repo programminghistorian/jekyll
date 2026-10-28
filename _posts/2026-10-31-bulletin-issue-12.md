@@ -87,6 +87,23 @@ Each month, we receive generous support from individuals via Patreon, and this q
 We are proud to be part of the [Open Journals Collective](https://www.openjournalscollective.org/) – an international collective of libraries, scholarly societies, and small non-profit publishers committed to building a sustainable future for open academic journals. [Find out more, and join the movement](https://www.openjournalscollective.org/index/#how-it-works).
 
 ---
+
+<form
+  action="https://buttondown.com/api/emails/embed-subscribe/ProgHist"
+  method="post"
+  class="embeddable-buttondown-form"
+>
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  <input type="hidden" name="tag" value="blog" />
+  <input type="submit" value="Subscribe" />
+  <p>
+    <a href="https://buttondown.com/refer/ProgHist" target="_blank">
+      Powered by Buttondown.
+    </a>
+  </p>
+</form>
+
 **Next issue: March 2027**. 
 
 - Follow us on social media to stay in touch with new articles, news, and opportunities to participate: [Bluesky](https://bsky.app/profile/proghist.bsky.social) - [Mastodon](https://hcommons.social/@proghist) - [LinkedIn](https://www.linkedin.com/company/prog-hist/) - [Instagram](https://www.instagram.com/prog.hist/) 
