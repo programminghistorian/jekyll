@@ -3516,3 +3516,17 @@
   bio:
     fr: |
       Clément Godbarge est maître de conférences en humanités numériques à l'Université de Saint Andrews en Écosse, Royaume-Uni.
+
+- name: Kristine Hardy
+  orcid: 0000-0003-1660-4477
+  team: false
+  bio:
+    en: |
+      Kristine Hardy is a PhD Student in the School of Archaeology and Anthropology at the Australian National University, Canberra, Australia. 
+
+- name: Mathieu Leclerc
+  orcid: 0000-0003-1093-802X
+  team: false
+  bio:
+    en: |
+     Mathieu Leclerc is a Lecturer in the School of Archaeology and Anthropology at the Australian National University, Canberra, Australia. 
