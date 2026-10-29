@@ -41,7 +41,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Universität Bern Bibliothek](https://www.ub.unibe.ch/), Suisse
 - [University of Florida](https://www.ufl.edu/), États-Unis
 - [Universiteit Gent](https://www.ugent.be/), Belgique
-- [University of Exeter](https://www.exeter.ac.uk/), Royaume-Uni
+- [University of Exeter Library](https://www.exeter.ac.uk/departments/library/), Royaume-Uni
 - [Université de Montréal](https://www.umontreal.ca/), Canada
 - [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), Pays-Bas
 - [Institute for Research Software](https://www.software.ac.uk/), Royaume-Uni
