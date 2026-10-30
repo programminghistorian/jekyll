@@ -810,7 +810,7 @@ Podemos agregar un par de líneas adicionales para convertirlas en URLs adecuada
 Asimismo, usaremos el módulo `time` de Python para pausar nuestro programa durante tres segundos entre las descargas.
 Esta técnica es llamada "regulación" o "limitación" (*throttling*, en inglés).
 Se considera una buena forma de no golpear el servidor de alguien con muchas solicitudes por segundo;
-y el ligero retraso hace que sea más probable que todos los archivos se descarguen antes de agotar nuestro tiempo de conexión (véase [time out](https://www.checkupdown.com/status/E408.html)).
+y el ligero retraso hace que sea más probable que todos los archivos se descarguen antes de agotar nuestro tiempo de conexión (véase [time out](https://web.archive.org/web/20121125091056/http://www.checkupdown.com/status/E408_es.html)).
 Elimina la línea que dice `print(urls)` y pon en su lugar el código de abajo (ten en cuenta que quede sangrado exactamente donde estaba esa línea).
 Agrega el siguiente código al final de la función `obtener_procesos_individuales`, luego de la línea que tiene `urls.append(url)`.
 Este código generará la URL de cada página individual, la descargará en tu computador en directorio ya creado,
