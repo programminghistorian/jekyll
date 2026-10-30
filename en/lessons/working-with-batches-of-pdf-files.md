@@ -21,7 +21,7 @@ doi: 10.46430/phen0088
 ---
 
 <div class="alert alert-info">
-This lesson was updated in October 2026 to reflect changes in the tools it uses. The installation instructions now point to the maintained guides for Windows, macOS and Linux. The OCRmyPDF, Poppler and ImageMagick commands now write their results to separate <code>ocr</code>, <code>text</code> and <code>images</code> folders, so that they never overwrite the original PDF files. The DARIAH Topics Explorer, which is no longer maintained, has been replaced with <a href="https://maehr.github.io/simple-topic-modeling/">Simple Topic Modeling</a>, which runs in your web browser. The commands were checked with OCRmyPDF 17.13, Tesseract 5.3, Poppler 24.02 and ImageMagick 6.9 (with the <code>convert</code> command) on Ubuntu 24.04.
+This lesson was updated in October 2026 to reflect changes in the tools it uses. The installation instructions now point to the maintained guides for Windows, macOS and Linux. The OCRmyPDF, Poppler and ImageMagick commands now write their results to separate <code>ocr</code>, <code>text</code> and <code>images</code> folders, so that they never overwrite the original PDF files. The DARIAH Topics Explorer, which is no longer maintained, has been replaced with <a href="https://maehr.github.io/simple-topic-modeling/">Simple Topic Modeling</a>, which runs in your web browser.
 </div>
 
 # A Table of Contents
@@ -101,12 +101,12 @@ Installing all the requirements without a package manager is cumbersome. Therefo
 
 ``` bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install ocrmypdf tesseract-lang poppler imagemagick
+brew install ocrmypdf poppler imagemagick
 ```
 
 ### Linux
 
-On a current [Ubuntu LTS release](https://ubuntu.com/download/desktop) and most Debian-based Linux distributions you can install all requirements via `apt`. For other distributions, see the [installation guide of OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/installation.html).
+On a current [Ubuntu LTS release](https://ubuntu.com/download/desktop) and most Debian-based Linux distributions you can install all requirements via `apt`. Package managers can install different software versions. For other distributions, see the [installation guide of OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/installation.html).
 
 ``` bash
 sudo apt update
@@ -115,7 +115,7 @@ sudo apt install ocrmypdf tesseract-ocr-eng poppler-utils imagemagick
 
 <div class="alert alert-info">
 
-The package <code>tesseract-ocr-eng</code> installs the English language data for Tesseract, which is all you need for this lesson. If you work with sources in other languages, install the corresponding package, for example <code>tesseract-ocr-fra</code> for French, or <code>tesseract-ocr-all</code> for all languages. On macOS, <code>tesseract-lang</code> already contains all languages.
+The package <code>tesseract-ocr-eng</code> installs the English language data for Tesseract, which is all you need for this lesson. If you work with sources in other languages, install the corresponding package, for example <code>tesseract-ocr-fra</code> for French, or <code>tesseract-ocr-all</code> for all languages. On macOS, Homebrew includes English data by default. For other languages, optionally run <code>brew install tesseract-lang</code>.
 
 </div>
 
@@ -186,13 +186,13 @@ For the text recognition, you will use [OCRmyPDF](https://ocrmypdf.readthedocs.i
 First create a folder named `ocr` for the results. OCRmyPDF takes an input file and an output file. Always give it a different file for the output, so that your original PDF stays unchanged.
 
 ``` bash
-mkdir ocr
+mkdir -p ocr
 ocrmypdf --language eng --deskew 'ILO-SR_N2_engl.pdf' 'ocr/ILO-SR_N2_engl.pdf'
 ```
 
 <div class="alert alert-info">
 
-Earlier versions of this lesson also used the <code>--clean</code> parameter. It cleans up scanning artifacts with the additional program <a href="https://github.com/unpaper/unpaper">unpaper</a> before the text recognition, and it fails if unpaper is not installed. It does not change the pages in the output file. Try it with a poor scan if you have installed unpaper (<code>sudo apt install unpaper</code> or <code>brew install unpaper</code>).
+The optional <code>--clean</code> parameter uses <a href="https://github.com/unpaper/unpaper">unpaper</a> to clean the image sent to text recognition. It leaves the final PDF's page images unchanged. The <code>--clean-final</code> parameter also changes the final PDF's page images. Install unpaper with <code>sudo apt install unpaper</code> or <code>brew install unpaper</code>. Inspect the recognised text and cleaned pages, because cleaning can remove useful content.
 
 </div>
 
@@ -206,17 +206,32 @@ OCRmyPDF has many useful parameters to optimize your results. See the <a href="h
 
 </div>
 
-To process all PDF files in your working directory at once, use a `for` loop. By default, OCRmyPDF stops with the error `PriorOcrFoundError` when a page already contains text. The parameter `--skip-text` tells it to leave such pages as they are and to recognise the text on all other pages. The `ocr` folder then holds a copy of every PDF file with a text layer.
+To process all PDF files in your working directory at once, use a `for` loop. By default, OCRmyPDF stops with the error `PriorOcrFoundError` when a page already contains text. The parameter `--skip-text` tells it to leave such pages as they are and to recognise the text on all other pages. The loop skips completed outputs and reports failures. It renames each temporary `.part` file only after success, so you can safely run it again.
 
 ``` bash
-for file in *.pdf; do
-  ocrmypdf --language eng --deskew --skip-text "$file" "ocr/$file"
+mkdir -p ocr
+failed=0
+for file in ./*.pdf; do
+  [ -f "$file" ] || continue
+  output="ocr/$(basename "$file")"
+  [ -s "$output" ] && continue
+  if ocrmypdf --language eng --deskew --skip-text "$file" "$output.part" &&
+      mv "$output.part" "$output"; then
+    echo "OCR complete: $file"
+  else
+    echo "OCR failed: $file" >&2
+    rm -f "$output.part"
+    failed=$((failed + 1))
+  fi
 done
+echo "OCR failures: $failed"
 ```
 
 <div class="alert alert-info">
 
 <code>--skip-text</code> trusts any text that a page already contains, even if it comes from a poor earlier OCR. If a file holds a bad text layer, replace <code>--skip-text</code> with <code>--redo-ocr</code> to replace the OCR, or with <code>--force-ocr</code> to turn every page into an image and recognise it again. When using <code>--redo-ocr</code>, also remove <code>--deskew</code>, because these options cannot be combined. See the <a href="https://ocrmypdf.readthedocs.io/en/latest/advanced.html">documentation</a> for details.
+
+Before you change OCR options, move the corresponding outputs out of <code>ocr</code> and <code>text</code>.
 
 </div>
 
@@ -225,16 +240,28 @@ done
 To extract the embedded texts from the PDF files use [Poppler](https://en.wikipedia.org/wiki/Poppler_(software)). It is a very powerful command line tool for processing PDF files that is used by many other programs. Use the PDF files in the `ocr` folder, because they also contain the recognised text, and write the text files to a new folder named `text`.
 
 ``` bash
-mkdir text
+mkdir -p text
 pdftotext 'ocr/ILO-SR_N1_engl.pdf' 'text/ILO-SR_N1_engl.txt'
 ```
 
-To process all PDF files in the `ocr` folder at once, use another `for` loop. `basename` removes the folder and the `.pdf` extension from each file name, so that `ocr/ILO-SR_N1_engl.pdf` becomes `text/ILO-SR_N1_engl.txt`. The status message `Syntax Warning: Invalid Font Weight` means that the file contains formatting that does not meet the standard specifications of PDF. You can safely ignore this message.
+To process all PDF files in the `ocr` folder at once, use another `for` loop. It skips completed text files and reports failures. `basename` removes the folder and the `.pdf` extension, so `ocr/ILO-SR_N1_engl.pdf` becomes `text/ILO-SR_N1_engl.txt`. The status message `Syntax Warning: Invalid Font Weight` means that the file contains formatting that does not meet the standard specifications of PDF. You can safely ignore this message.
 
 ``` bash
+mkdir -p text
+failed=0
 for file in ocr/*.pdf; do
-  pdftotext "$file" "text/$(basename "$file" .pdf).txt"
+  [ -f "$file" ] || continue
+  output="text/$(basename "$file" .pdf).txt"
+  [ -f "$output" ] && continue
+  if pdftotext "$file" "$output.part" && mv "$output.part" "$output"; then
+    echo "Text extraction complete: $file"
+  else
+    echo "Text extraction failed: $file" >&2
+    rm -f "$output.part"
+    failed=$((failed + 1))
+  fi
 done
+echo "Text extraction failures: $failed"
 ```
 
 Once you have extracted all the embedded text from the PDFs, you can easily browse the text files. You can use the Windows Explorer, MacOS Finder, or a command line program like `grep`. You can display all the mentions of the term “statistics” in the `text` folder.
@@ -286,13 +313,15 @@ Poppler can only extract illustrations if they are available as individual image
 
 Although OCRmyPDF can process image files directly, there are cases where you first want to combine the images into a PDF document. Because most image formats do not support multiple pages, each page of a document has to be saved as a single file. With the widespread command line image editing software [ImageMagick](https://imagemagick.org/) you can achieve this very easily.
 
+ImageMagick 7 uses `magick`. ImageMagick 6 uses `convert`. If you use version 6, replace `magick` with `convert` in the examples below.
+
 ``` bash
 magick 'images/23B09_5_engl-002.png' 'images/23B09_5_engl-004.png' 'images/23B09_5_engl-006.png' 'images/23B09_5_engl-007.png' 'some-images-combined.pdf'
 ```
 
 <div class="alert alert-info">
 
-ImageMagick 7 uses the command <code>magick</code>. Ubuntu and Debian still ship ImageMagick 6, which uses the older command <code>convert</code> instead. If your terminal reports <code>magick: command not found</code>, replace <code>magick</code> with <code>convert</code> in the commands of this section. Some Linux distributions forbid ImageMagick to write PDF files. If you see the error <code>attempt to perform an operation not allowed by the security policy 'PDF'</code>, use <code>img2pdf</code> instead, which is installed together with OCRmyPDF: <code>img2pdf images/*.png -o all-images-combined.pdf</code>.
+Some installations prevent ImageMagick from writing PDF files. If you see a PDF security-policy error, use <code>img2pdf</code> instead. Install it with <code>sudo apt install img2pdf</code> (Ubuntu/WSL) or <code>brew install img2pdf</code> (macOS). Then run <code>img2pdf images/*.png -o all-images-combined.pdf</code>.
 
 </div>
 
@@ -332,55 +361,56 @@ cd case_study
 
 You can download the corpus from the [ILO website](https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/). All English documents contain ‘engl’ in the title. It’s over a gigabyte of data. Depending on your internet speed this may take a while.
 
-To automate this step you can use the following commands. They download all English documents at once. The first command reads the list of files from the ILO website and writes the names of all English documents to `list_of_files.txt`. The second command reports how many documents it found. In 2020, there were 340 of them. The loop then downloads each file into the current folder. It skips completed downloads, so you can simply run it again if your connection breaks. Each download is saved with a temporary `.part` extension and renamed only when it succeeds. `--fail` makes `curl` report an error instead of saving an error page as a PDF file, and `--retry 3` makes it try again three times.
+The following commands check the directory listing before downloading. They require exactly 340 English PDF filenames. The loop skips completed downloads and reports failures, so you can run the commands again after a connection failure. Each download uses a temporary `.part` file, which the loop renames only after success. `--fail` rejects HTTP errors, and `--retry 3` retries temporary failures up to three times.
 
 ``` bash
 base_url='https://webapps.ilo.org/public/libdoc/ilo/ILO-SR/'
-curl --fail --silent --show-error "$base_url" |
-  grep -o 'ILO[^"]*engl[^"><\/]*' |
-  sort -u > list_of_files.txt
-wc -l < list_of_files.txt
-while IFS= read -r name; do
-  if [ ! -f "$name" ]; then
-    if curl --fail --retry 3 --silent --show-error --output "$name.part" "$base_url$name"; then
-      mv "$name.part" "$name"
-    else
-      echo "Download failed: $name" >&2
-    fi
+if listing=$(curl --fail --retry 3 --silent --show-error "$base_url"); then
+  printf '%s\n' "$listing" |
+    grep -o 'ILO[^"><\/]*engl[^"><\/]*\.pdf' |
+    sort -u > list_of_files.txt
+  count=$(wc -l < list_of_files.txt)
+  if [ "$count" -eq 340 ]; then
+    failed=0
+    while IFS= read -r name; do
+      [ -s "$name" ] && continue
+      if curl --fail --retry 3 --silent --show-error --output "$name.part" "$base_url${name// /%20}" &&
+          [ -s "$name.part" ] && mv "$name.part" "$name"; then
+        echo "Downloaded: $name"
+      else
+        echo "Download failed: $name" >&2
+        rm -f "$name.part"
+        failed=$((failed + 1))
+      fi
+    done < list_of_files.txt
+    echo "Download failures: $failed"
+  else
+    echo "Expected 340 PDF filenames, found $count. No downloads started." >&2
   fi
-done < list_of_files.txt
-```
-
-When the loop has finished, compare the number of PDF files with the number of documents in the list. If a download failed, run the loop again.
-
-``` bash
-ls *.pdf | wc -l
+else
+  echo "Could not read the ILO directory listing. No downloads started." >&2
+fi
 ```
 
 <div class="alert alert-warning">
 
-These commands depend on the layout of the ILO website. If the website changes, the list of files may come out empty or incomplete. In that case, download the collection from <a href="https://doi.org/10.5281/zenodo.3582736">Zenodo</a> instead.
+If the listing fails or its count differs from 340, check whether the ILO website has changed. Do not proceed with an incomplete corpus. Use the prepared texts from <a href="https://doi.org/10.5281/zenodo.3582736">Zenodo</a> to continue at <a href="#create-the-topic-model">Create the Topic Model</a>.
 
 </div>
 
 ### Prepare and Clean Up the Corpus
 
-Now you can batch process all downloaded PDF files with the same commands that you used above. First, perform text recognition on all files that don’t have embedded text and write the results to the `ocr` folder. Then extract all embedded text from these files to the `text` folder. Depending on the performance of your computer, this step may take several hours.
+From the `case_study` directory, run the batch loop in [Text Recognition in PDF Files](#text-recognition-in-pdf-files). Then run the batch loop in [Extract Embedded Text from PDFs](#extract-embedded-text-from-pdfs). These loops create separate `ocr` and `text` folders. Depending on the performance of your computer, this step may take several hours.
+
+Compare the counts below. Each must be 340 for the complete corpus. If a command fails, resolve its reported error before you run the corresponding loop again. Inspect a sample of the extracted texts before you proceed.
 
 ``` bash
-mkdir ocr text
-for file in *.pdf; do
-  ocrmypdf --language eng --deskew --skip-text "$file" "ocr/$file"
-done
-for file in ocr/*.pdf; do
-  pdftotext "$file" "text/$(basename "$file" .pdf).txt"
-done
-```
-
-Check that the `text` folder holds one text file for each PDF file. If OCRmyPDF could not process a file, it prints an error message and leaves that file out of the `ocr` folder.
-
-``` bash
-ls text/*.txt | wc -l
+echo 'Input PDFs:'
+find . -maxdepth 1 -type f -name '*.pdf' | wc -l
+echo 'OCR PDFs:'
+find ocr -maxdepth 1 -type f -name '*.pdf' | wc -l
+echo 'Text files:'
+find text -maxdepth 1 -type f -name '*.txt' | wc -l
 ```
 
 ### Create the Topic Model
