@@ -41,7 +41,7 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 - [Universität Bern Bibliothek](https://www.ub.unibe.ch/), Suiza
 - [University of Florida](https://www.ufl.edu/), Estados Unidos
 - [Universiteit Gent](https://www.ugent.be/), Bélgica
-- [University of Exeter](https://www.exeter.ac.uk/), Reino Unido
+- [University of Exeter Library](https://www.exeter.ac.uk/departments/library/), Reino Unido
 - [Université de Montréal](https://www.umontreal.ca/), Canadá
 - [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), Países Bajos
 - [Institute for Research Software](https://www.software.ac.uk/), Reino Unido

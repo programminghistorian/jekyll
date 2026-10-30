@@ -40,7 +40,7 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [Universität Bern Bibliothek](https://www.ub.unibe.ch/), Switzerland
 - [University of Florida](https://www.ufl.edu/), United States
 - [Universiteit Gent](https://www.ugent.be/), Belgium
-- [University of Exeter](https://www.exeter.ac.uk/), United Kingdom
+- [University of Exeter Library](https://www.exeter.ac.uk/departments/library/), United Kingdom
 - [Université de Montréal](https://www.umontreal.ca/), Canada
 - [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), The Netherlands
 - [Institute for Research Software](https://www.software.ac.uk/), United Kingdom
