@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--This is a html comment.  title tag gives the title of window -->
+		<title>PNG pottery</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+ 		<!--Link to the style sheet -->
+		<link type="text/css" rel="stylesheet" href="main.css">
+		<!--JavaScript. Get the three.js library files -->
+		<script type="importmap">
+            {
+              "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+              }
+            }
+        </script>
+	</head>
+	<body>
+        <!--Link to three.js page and some text. Text colours specified in main.css. Could be used for interactive page instructions. -->
+		<div id="info">
+			<a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> The Jars of Papua
+		</div>
+        <!--JavaScript. Here is where the three.js code goes. -->
+		<script type="module">
+            // JavaScript comment
+
+            // Library imports
+			import * as THREE from 'three';
+            import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+            import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js'; // needed if draco compression on gltf
+            import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+			import { DragControls } from 'three/addons/controls/DragControls.js';
+
+            // Variable declaration and setting
+			let raycasterM, pointer, selectedObj; // for mouse controls
+			let theMap;
+			let ratio = 2; 
+			let piecescale = ratio; 
+			let adzeraG, aibomG, mailuG, dimiriG, louisadeG, yabobG; // information panels for the different jars
+			let selectedPlane;	// which information panel will be visible
+			let psize = 1.0; // panel dimensions
+			let gallery, gallery2, gallery3;
+			let container, camera, scene, renderer, controls, dragControls;
+			let jars, tori, unmoveable;
+			let selectedObject = null;
+			let truesite = null;
+			let aibomSite, dimiriSite, louisadeSite, mailuSite, adzeraSite, yabobSite;
+			let adzeraM, aibomM, mailuM, louisadeM, dimiriM, yabobM;
+			let desk = 0.8; // the height of the model (metres), desk height in VR.
+    		let gheight = desk + 0.55; //panel height		
+			let sphereposx = 0.84 // key sphere x position
+			let sphereposz = -0.75 // key sphere z position
+	        // colours for the key spheres and the jars
+			const parameters = { 
+  				materialColor: '#9c5315', // brown
+  				coilColor: '#ff0000', // red
+  				ringTopColor: '#19ffE7', // light blue
+  				coilBeatenColor: '#e8e337', // yellow
+  				nabColor: '#209F00',  // green
+  				wangelaColor: '#BEBEBE',  // light grey
+  				paddleColor: '#1e2f97', // dark blue		
+  				paddleAddColor: '#a61ef4', // purple
+  				amphColor: '#fc9483' // pink
+			}
+            // Loader set up 
+            // Different model formats use different loaders
+            const loader = new GLTFLoader();
+	        const dracoLoader = new DRACOLoader();
+	        dracoLoader.setDecoderPath( 'https://unpkg.com/three@0.160.0/examples/jsm/libs/draco/' );
+	        loader.setDRACOLoader( dracoLoader );
+
+	        // Function calls
+    	    init(); //initialise scene
+	        animate(); //updates scene by constant rendering. 
+
+	        // Function definitions
+            // Initialise scene: sets up container; scene; camera; renderer; lights; models; controls
+    	    function init() {
+                // make html div element and add to html document
+		        container = document.createElement( 'div' );
+		        document.body.appendChild( container );
+                // make scene and set background colour
+                scene = new THREE.Scene();
+		        scene.background = new THREE.Color( 0xf7d382 ); // use the hexcode of any colour you want.
+				// make camera, set its start position
+		        camera = new THREE.PerspectiveCamera( 50, window.innerWidth / window.innerHeight, 0.1, 10 ); //arguments are: vertical field of view, aspect, near plane, far plane
+		        camera.position.set( 0, 1.6, 3 ); // arguments: x, y, z. Approximates a persons eye level (designed for VR)
+                // add a hemisphere light and a directional light
+                scene.add( new THREE.HemisphereLight( 0xffffbb, 0x080820, .5) ); // arguments: sky colour, ground colour, intensity
+	            const light = new THREE.DirectionalLight( 0xffffff ); // argument: colour
+	            light.position.set( 1, 6, 2 ); // x, y, z 
+	            scene.add( light );
+				
+				// add models
+				// add information panels, key panel and reference panel by loading textures then adding planes .
+				// load textures and generate Mipmaps
+				const textureLoader = new THREE.TextureLoader()
+				const introTexture = textureLoader.load( 'textures/Intro2.jpg' );
+				introTexture.generateMipmaps = true;
+				const refTexture = textureLoader.load( 'textures/sources.jpg' );
+				refTexture.generateMipmaps = true;			
+				const keyTexture = textureLoader.load( 'textures/key.jpg' );
+				keyTexture.generateMipmaps = true;
+				// add introduction information panel and set the selected panel to it
+				gallery = new THREE.Mesh( new THREE.PlaneGeometry( psize, psize  ), new THREE.MeshBasicMaterial({ map: introTexture }));
+				gallery.position.set( 0, gheight, sphereposz); 
+				selectedPlane = gallery;
+				// add the panel for the key
+				gallery2 = new THREE.Mesh(new THREE.PlaneGeometry( psize, psize ), new THREE.MeshBasicMaterial({ map: keyTexture }));
+				gallery2.position.set( 1.25, gheight, sphereposz); 
+				// add the panel for the references
+				gallery3 = new THREE.Mesh(new THREE.PlaneGeometry(psize, psize  ), new THREE.MeshBasicMaterial({ map: refTexture }));
+				gallery3.position.set( -1.25, gheight, sphereposz); 
+
+				scene.add( gallery, gallery2, gallery3);
+				selectedPlane = gallery; // start with the instructions.
+				
+				// add the jar information panels then make them not visible
+				function createGallery(filename){
+  					const aTexture = textureLoader.load( filename );
+  					aTexture.generateMipmaps = true;
+  					const model = new THREE.Mesh( new THREE.PlaneGeometry( psize, psize ), new THREE.MeshBasicMaterial({ map: aTexture }));
+  					model.position.set( 0, gheight, sphereposz); 
+  					model.visible = false;
+ 	 				return model;
+				}
+
+				// 'call' the createGallery function for the information panels/galleries.
+				adzeraG = createGallery('textures/Adzera.jpg');
+				aibomG = createGallery('textures/Aibom.jpg');
+				mailuG = createGallery('textures/Mailu.jpg');
+				dimiriG = createGallery('textures/Dimiri.jpg');
+				louisadeG= createGallery('textures/Louisade.jpg');
+				yabobG = createGallery('textures/Yabob.jpg');
+				scene.add(adzeraG, aibomG, mailuG, dimiriG, louisadeG, yabobG);
+
+				// add the map of New Guinea
+				const mapGeometry = new THREE.PlaneGeometry( 3 * ratio, 1.5 * ratio );
+				const mapTexture = textureLoader.load('textures/png.png'); // from google maps
+				mapTexture.generateMipmaps = true // saves gpu if false
+				theMap = new THREE.Mesh( mapGeometry, new THREE.MeshBasicMaterial({ map: mapTexture }));
+				theMap.rotation.x = - Math.PI / 2; // Equal to 90 degrees
+				theMap.position.set( 0, desk, 0); // desk height
+				scene.add( theMap);
+
+
+				//spheres for key
+				const sphere = new THREE.SphereGeometry( 0.04, 15, 5); //radius, width segments, height segments in metres. Will be reused.
+
+				const sphere1 = new THREE.Mesh( sphere,  new THREE.MeshStandardMaterial( {color: parameters.materialColor })); 
+				sphere1.position.set( sphereposx, gheight + 0.30, sphereposz); 
+
+				const sphere2 = new THREE.Mesh( sphere,  new THREE.MeshStandardMaterial( {color: parameters.coilColor })); 
+				sphere2.position.set( sphereposx, gheight + 0.21, sphereposz); 
+
+				const sphere3 = new THREE.Mesh( sphere,  new THREE.MeshStandardMaterial( {color: parameters.wangelaColor })); 
+				sphere3.position.set( sphereposx, gheight - 0.15, sphereposz); 
+
+				const sphere4 = new THREE.Mesh( sphere,  new THREE.MeshStandardMaterial( {color: parameters.nabColor })); 
+				sphere4.position.set( sphereposx, gheight - 0.06, sphereposz); 
+
+				const sphere5 = new THREE.Mesh( sphere,  new THREE.MeshStandardMaterial( {color: parameters.paddleAddColor})); 
+				sphere5.position.set( sphereposx, gheight - 0.35, sphereposz); 
+
+				const sphere6 = new THREE.Mesh( sphere,  new THREE.MeshStandardMaterial( {color: parameters.coilBeatenColor})); 
+				sphere6.position.set( sphereposx, gheight + 0.03, sphereposz); 
+
+				const sphere7 = new THREE.Mesh( sphere,  new THREE.MeshStandardMaterial( {color: parameters.amphColor })); 
+				sphere7.position.set( sphereposx, gheight - 0.44, sphereposz); 
+
+				const sphere8 = new THREE.Mesh( sphere,  new THREE.MeshStandardMaterial( {color: parameters.paddleColor})); 
+				sphere8.position.set( sphereposx, gheight - 0.25, sphereposz); 
+
+				const sphere9 = new THREE.Mesh( sphere,  new THREE.MeshStandardMaterial( {color: parameters.ringTopColor})); 
+				sphere9.position.set( sphereposx, gheight + 0.12, sphereposz); 
+
+				scene.add( sphere1, sphere2, sphere3, sphere4, sphere5, sphere6, sphere7, sphere8, sphere9 );
+				// add jar models. Added in group so they can be selected.
+				jars = new THREE.Group();
+				scene.add( jars );
+				// add unmoveable group for jars that have been put in the correct spot
+				unmoveable = new THREE.Group();
+				scene.add(unmoveable);  
+				// jar/site positions
+				// Add sites as tori, in a group
+				tori = new THREE.Group();
+				scene.add( tori );
+
+
+				// a function to make the site with the location and matching information panel
+				function createSite(x, z, gallery){
+					const model = new THREE.Mesh( new THREE.TorusGeometry( 0.015, 0.007, 20, 20 ), new THREE.MeshStandardMaterial({color: 0x006400}));
+					model.position.set( x * ratio, desk + 0.01, z * ratio);	
+					model.scale.set( piecescale, piecescale, piecescale);
+					model.rotation.x = -Math.PI * 1/2;
+					model.userData.planes = gallery;
+					return model;
+				}
+				aibomSite = createSite(0.36, -0.01, aibomG);
+				dimiriSite = createSite(0.43, 0, dimiriG);
+				louisadeSite = createSite(0.99, 0.59, louisadeG);
+				mailuSite = createSite(0.84, 0.48, mailuG);
+				adzeraSite = createSite(0.61, 0.15, adzeraG);
+				yabobSite = createSite(0.572, 0.0396, yabobG);
+				tori.add(aibomSite, mailuSite, dimiriSite, louisadeSite, adzeraSite, yabobSite);
+
+				//a function to make the model with the parameter specified
+				function createModel(gltf, site, col, gallery){
+ 	 				const model = gltf.scene.children[0];	
+  					model.material = new THREE.MeshStandardMaterial();
+  					model.material.color.set(col);
+  					model.scale.set(piecescale, piecescale, piecescale);				
+					model.position.set( Math.random() - 1, 1.2, Math.random() * 0.5 - 0.3 );
+					model.userData.site = site;
+  					model.userData.planes = gallery;
+  					return model;
+				}
+				
+				// directly has the onLoad function as an anonymous function in the loader.load
+				// load a jar (filename, load function, function while loading, error function)
+				loader.load( 'models/aibom.glb', function( gltf ) {							
+  					aibomM = createModel(gltf, aibomSite, parameters.materialColor, aibomG);			
+  					jars.add(aibomM);
+					}, undefined, function ( error ) {console.error( error );} );
+
+				loader.load( 'models/mailu.glb', function( gltf) {							
+  					mailuM = createModel(gltf, mailuSite, parameters.nabColor, mailuG);			
+  					jars.add(mailuM);
+					}, undefined, function ( error ) { console.error( error );} );
+
+				loader.load( 'models/louisade.glb', function( gltf ) {
+  					louisadeM = createModel(gltf, louisadeSite, parameters.ringTopColor, louisadeG);			
+  					jars.add(louisadeM);
+					}, undefined, function ( error ) {console.error( error );} );
+
+				loader.load( 'models/adzera.glb', function( gltf ) {
+  					adzeraM = createModel(gltf, adzeraSite, parameters.coilBeatenColor, adzeraG);			
+  					jars.add(adzeraM);
+					}, undefined, function ( error ) {console.error( error );} );
+
+				loader.load( 'models/dimiri.glb', function( gltf ) {
+  					dimiriM = createModel(gltf, dimiriSite, parameters.coilColor, dimiriG);			
+  					jars.add(dimiriM);
+					}, undefined, function ( error ) {console.error( error );} );
+
+				loader.load( 'models/yabob.glb', function( gltf ) {
+  					yabobM = createModel(gltf, yabobSite, parameters.paddleColor, yabobG);			
+  					jars.add(yabobM);
+					}, undefined, function ( error ) {console.error( error );} );
+
+                // make renderer and use users browser window values to set pixel ratio and size
+        	    renderer = new THREE.WebGLRenderer( { antialias: true } );
+		        renderer.setPixelRatio( window.devicePixelRatio );
+		        renderer.setSize( window.innerWidth, window.innerHeight );
+        	    container.appendChild( renderer.domElement );
+
+                // create orbit controls
+                controls = new OrbitControls( camera, renderer.domElement);
+	            controls.target.set( 0, 1.6, 0 ); // sets the scene rotational centre
+	            controls.update(); // updates controls settings after creation
+                // controls.autoRotate = true; // set to true if camera is to rotate automatically BUT you must then call controls.update() in render function.
+
+				// Mouse controls for object selection
+				raycasterM = new THREE.Raycaster(); // ray to tell what is being pointed at
+    			pointer = new THREE.Vector2(); 
+				// Mouse controls for jar dragging
+				dragControls = new DragControls( [ jars ], camera, renderer.domElement );			
+				selectedObj = new THREE.Mesh( new THREE.TorusGeometry( 0.015, 0.007, 20, 20  ), new THREE.MeshStandardMaterial({color: 0x006400})); // initialising the selected jar with something- here a torus, to prevent issues.
+
+				
+                // add listeners. These check for user interaction with the window and  mouse clicks or drags and call the given function.
+                // listen for user browser window resizing and call the onWindowResize function that is defined below.
+       	 	    window.addEventListener( 'resize', onWindowResize );
+				window.addEventListener( 'click', onClick );
+				dragControls.addEventListener('dragstart', function (event) {
+					controls.enabled = false // turn off the orbiting controls while dragging
+				})
+				// at the end of the drag event a test is done to see if the jar has been put in the correct spot
+				// a correct match is marked by a background colour change
+				dragControls.addEventListener('dragend', function (event) {
+        			controls.enabled = true // turn the orbiting controls back on when dragging done
+					selectedObject = event.object;
+					truesite = selectedObject.userData.site;
+					let testposition = new THREE.Vector3(0,0,0); //needs to be something first
+					truesite.getWorldPosition( testposition ); //a Vector3 (x,y,z)
+					let aposition = selectedObject.position; //way 1 test object position					
+					if ( aposition.distanceTo( testposition ) < .025 * ratio) {
+						scene.background = new THREE.Color( Math.random() * 0xffffff ); // random
+						selectedObject.position.set(testposition.x, testposition.y, testposition.z);
+						unmoveable.attach( selectedObject); // adding to the unmoveable group will remove from the jar group.
+					}	
+				})	
+		    }
+            // Constant loop of rendering.
+	        function animate() {           
+		        renderer.setAnimationLoop( render );   
+	        }
+            // Called in loop by animate(), draws the scene in 2D as viewed by the camera at the camera's current position.
+	        function render() {
+                //controls.update(); // uncomment if controls.autoRotate = true
+		        renderer.render( scene, camera );
+	        }
+            // function definitions
+            // called on resizing of window. Gets new browser window values and updates camera and renderer settings. Don't experiment with.
+	        function onWindowResize() {
+		        camera.aspect = window.innerWidth / window.innerHeight; 
+		        camera.updateProjectionMatrix();
+		        renderer.setSize( window.innerWidth, window.innerHeight );
+	        }
+
+			// called on mouse click. Gets position of click, gets intersecting object, makes it emmisive gets the matching info plane
+			// will also test if the jar is in right spot as onClick called at the end of drag event
+			function onClick( event ) {
+				event.preventDefault(); //stops the orbiting
+				// gets 2D click position
+				pointer.x = event.clientX / window.innerWidth * 2 - 1 
+				pointer.y = - (event.clientY / window.innerHeight) * 2 + 1
+				// detects what the user is trying to select in 3D space from viewpoint and 2D pointer
+				raycasterM.setFromCamera( pointer, camera );
+				const intersects = raycasterM.intersectObjects( tori.children);
+				// if there is a jar being clicked		
+				if(intersects.length > 0){
+					selectedObj.material.emissive.r = 0; // turn the current selected obj back to not emissive
+					selectedPlane.visible = false; // hide the current information panel
+					const found = intersects[ 0 ].object; // get the selected jar
+					if(found == truesite){ // tests if site mouse is over is the same as the true jar site
+						scene.background = new THREE.Color( Math.random() * 0xffffff ); // random
+						let testposition = new THREE.Vector3(0,0,0); //needs to be something first
+						truesite.getWorldPosition( testposition ); //a Vector3 (x,y,z) this is the position of the site
+						selectedObject.position.set(testposition.x, testposition.y, testposition.z);
+						unmoveable.attach( selectedObject );
+					}
+					selectedObj = found;
+					found.material.emissive.r = 1; // turn the selected jar red emissive				
+					selectedPlane = found.userData.planes; // get the new matching information panel for the selected jar
+					selectedPlane.visible = true; // make the new panel visible
+				}
+				truesite = null;
+			}	
+
+		</script>
+	</body>
+</html>
