@@ -3,7 +3,7 @@ title: "Building Interactive Environments for 3D Models with three.js (Part 1)"
 slug: building-3d-environments-threejs-pt-1
 layout: lesson
 collection: lessons
-date: 2026-10-26
+date: 2026-11-12
 authors:
 - Kristine Hardy
 - Mathieu Leclerc
