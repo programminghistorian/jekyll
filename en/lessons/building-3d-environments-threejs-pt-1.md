@@ -16,7 +16,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/607
 difficulty: 2
 activity: presenting
 topics: [website, creative-coding]
-abstract: This two-part lesson series shows how to use the three.js JavaScript library to create websites featuring 3D models that can be interactively viewed, selected, and even turned into a simple game. In Part 1, you will learn how to create a website featuring a 3D model that illustrates the rich diversity of ceramics across the Papua New Guinea region, while considering key aspects of working with cultural heritage materials.
+abstract: This two-part lesson shows how to use the three.js JavaScript library to create an interactive website featuring 3D models that users can view and select, and how to turn that website into a simple game. In Part 1, you will learn how to create a website featuring a 3D model that illustrates the rich diversity of ceramics across the Papua New Guinea region, while considering key aspects of working with cultural heritage materials.
 avatar_alt: An illustration of a round, textured ceramic pot with a wide opening, decorative geometric patterns, and three short, stubby feet.
 doi: 10.46430/phen0136
 sequence: 1
@@ -109,7 +109,7 @@ One approach for connecting media, including models, with cultural information, 
 
 The available guidelines and protocols are generally more targeted at institutions, but it is worth considering [Basic principle and tips for 3D digitisation of cultural heritage](https://perma.cc/5M63-HEZL) and [Protocols for using First Nations cultural and intellectual property in the arts](https://perma.cc/J3FF-LFV9).
 
-It is also important to reference the sources of images and models used in a website. In this lesson, references will be provided through an information panel on the website. The degree to which models of cultural artefacts are covered by copyright, and who that copyright belongs to (the creators of the original artefacts, the current ‘owners’ or caretakers of the artefacts, or the creators of the model), depends on several factors, and is not always clear-cut [^8], [^9], [^10]. Many researchers aim to make their models and site code available for others to use to increase the dissemination of information and promote further research. Often, models and code are given [Creative Commons licences](https://perma.cc/GES7-EGMQ) such as CC-BY-NC (Creative Commons Attribution-NonCommercial). However, it is always worth considering that your models may be used in virtual scenes you disagree with or find offensive, for example the pot models could be used in a potentially culturally derogatory manner such as illustrating cannibalism). While you can request users to only use your models and code for non-derogatory purposes, publicly available digital assets are increasingly being scraped by artificial intelligence (AI) ‘bots’, thus potentially contributing to models used in scenarios you did not foresee. The use of the `NoAI` HTML meta tag may help discourage such data harvesting.
+It is also important to reference the sources of images and models used in a website. In this lesson, references will be provided through an information panel on the website. The degree to which models of cultural artefacts are covered by copyright, and who that copyright belongs to (the creators of the original artefacts, the current ‘owners’ or caretakers of the artefacts, or the creators of the model), depends on several factors, and is not always clear-cut [^8] [^9] [^10]. Many researchers aim to make their models and site code available for others to use to increase the dissemination of information and promote further research. Often, models and code are given [Creative Commons licences](https://perma.cc/GES7-EGMQ) such as CC-BY-NC (Creative Commons Attribution-NonCommercial). However, it is always worth considering that your models may be used in virtual scenes you disagree with or find offensive, for example the pot models could be used in a potentially culturally derogatory manner such as illustrating cannibalism). While you can request users to only use your models and code for non-derogatory purposes, publicly available digital assets are increasingly being scraped by artificial intelligence (AI) ‘bots’, thus potentially contributing to models used in scenarios you did not foresee. The use of the `NoAI` HTML meta tag may help discourage such data harvesting.
 
 When making games using cultural heritage models, it is also important to reflect on whether scenes or puzzles adopt a colonial approach. For example, rather than allowing the user to steal or ‘collect’ artefacts in a video game, a better aim might be to gamify the return of artefacts to their place or community of origin. In the puzzle in Part 2 of this lesson, the pots are matched to their original community, as represented as a place on the map.
 
@@ -176,7 +176,7 @@ Another advantage of three.js is that it can be used to make websites viewable i
 
 In Part 2, you will build up ‘The Jars of Papua’ website from multiple models of jars and planes, but here you will start exploring the example composite pottery model using the [three.js editor](https://threejs.org/editor/). You will explore how concepts discussed earlier — such as meshes, model formats and sizes, materials, textures, lighting, and position (coordinates) — work together within a 3D scene.
 
-Download the composite model []`png_sceneDRACO.glb`](/assets/building-3d-environments-threejs-pt-1-2/png_sceneDRACO.glb) we've created for you to experiment with. Open the [three.js editor](https://threejs.org/editor/) in a new browser window (right-click on the link) and import the model with **File** > **Import** (Figure 5).
+Download the composite model [`png_sceneDRACO.glb`](/assets/building-3d-environments-threejs-pt-1-2/png_sceneDRACO.glb) we've created for you to experiment with. Open the [three.js editor](https://threejs.org/editor/) in a new browser window (right-click on the link) and import the model with **File** > **Import** (Figure 5).
 
 {% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-05.png" alt="Web editor showing a dark rectangular prism with small jars on it." caption="Figure 5. The three.js editor with the composite model imported." %}
 
@@ -667,7 +667,7 @@ The `DRACOLoader` retrieves decoding code from a web server and the version numb
 
 Load the model. 
 
-Inside the `init()` function, **after** this lie of code:
+Inside the `init()` function, **after** this line of code:
 ```
 scene.add( light );
 ```
