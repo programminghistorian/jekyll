@@ -3,7 +3,7 @@ title: "Building Interactive Environments for 3D Models with three.js (Part 2)"
 slug: building-3d-environments-threejs-pt-2
 layout: lesson
 collection: lessons
-date: 2026-10-26
+date: 2026-11-18
 authors:
 - Kristine Hardy
 - Mathieu Leclerc
@@ -38,7 +38,7 @@ To build the scene, you will work with core elements such as lights, cameras, pr
 
 An additional (optional) goal of Part 2 is to turn 'The Jars of Papua' webpage into a game by making the models moveable. Adding game-like elements can encourage users to engage more closely with both the model and the accompanying information, especially when they need to use that information to complete a task. The interactive game 'The Jars of Papua' randomises the initial positions of the jars, and the user must match each vessel to its maker community by moving it to the correct geographical location. In the game, selecting a community site reveals an information panel about its pottery. Reading this information helps the user identify the correct jar and encourages closer engagement with the panel. The lesson will show how to set up a simple test in the code so that each time a model is moved, the game checks whether it has been placed in the correct position for its provenance. A successful match will trigger a background colour change to indicate that the jar has been placed correctly.
 
-## Interactive Scenes for Cultural Heritage
+### Interactive Scenes for Cultural Heritage
 
 The interactive element of ‘The Jars of Papua’ scene is the user’s ability to toggle between different information panels by clicking on a jar. The scene was designed to communicate the diversity of vessel forms, decorations, construction techniques, and uses of Papua New Guinean pottery. It is also a way to visualise how ceramic technological knowledge may have spread and changed through Papua (and the wider region). 
 
@@ -50,11 +50,11 @@ In Part 1, you learnt how to import complex models. In this lesson, you will lea
 
 The ability to alter the size of a selected vessel could also allow more jar models to be incorporated into the scene. The models could initially be small enough to fit together, then expand when selected for closer inspection. Designing your own scenes with three.js gives you this flexibility in scene creation. Although this lesson focuses on creating a basic interactive scene, three.js also offers considerable flexibility for developing more elaborate designs, including virtual galleries. One example of a more intricate virtual gallery is [Artexpress](https://perma.cc/A6VH-RBK7), which displays artwork by Australian high school students.
 
-## Setting Up
+### Setting Up
 
 In addition to the technical requirements in Part 1, for Part 2 of this lesson, you will need to download the [`/models` folder](/assets/building-3d-environments-threejs-pt-1-2/models.zip) containing the individual jar models, and the [`/textures` folder](/assets/building-3d-environments-threejs-pt-1-2/textures.zip) with information about them.
 
-Place the downloaded models and textures folders in the `myscene` folder, replacing any existing folders if necessary (Figures 1–2). Keep the `index.html` and `main.css` files that you created in Part 1. If you did not do Part 1, you need to download [`index_pt1_complete.html`](/assets/building-3d-environments-threejs-pt-1-2/index_pt1_complete.html) and [`main.css`](/assets/building-3d-environments-threejs-pt-1-2/main.css) files we've prepared. Rename the `index_pt1_complete.html` file to `index.html` and place them in the `myscene` folder. If you run into problems when editing code that you cannot fix, you can download and inspect the finished code [`index_pt2_scene.html`](/assets/building-3d-environments-threejs-pt-1-2/index_pt2_scene.html) or [`index_pt2_game.html`](/assets/building-3d-environments-threejs-pt-1-2/index_pt2_game.html) that we've prepared.
+Place the downloaded models and textures folders in the `myscene` folder, replacing any existing folders if necessary (Figures 1–2). Keep the `index.html` and `main.css` files that you created in Part 1. If you did not do Part 1, you need to download [`index_pt1_complete.html`](/assets/building-3d-environments-threejs-pt-1-2/index_pt1_complete.html) and [`main.css`](/assets/building-3d-environments-threejs-pt-1-2/main.css) files we've prepared (right-click the links and select 'Save Link As' to download the files). Rename the `index_pt1_complete.html` file to `index.html` and place them in the `myscene` folder. If you run into problems when editing code that you cannot fix, you can download and inspect the finished code [`index_pt2_scene.html`](/assets/building-3d-environments-threejs-pt-1-2/index_pt2_scene.html) or [`index_pt2_game.html`](/assets/building-3d-environments-threejs-pt-1-2/index_pt2_game.html) that we've prepared (right-click the links and select 'Save Link As' to download the files).
 
 {% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-01.png" alt="Screenshot of the VSC editor showing a list of `glb` files in the expanded models folder." caption="Figure 1. File structure for Part 2 as shown in VSC, with the models folder expanded. The `index.html` file is shown in the main panel." %}
 
@@ -79,7 +79,7 @@ loader.load( 'models/png_sceneDRACO.glb', onLoadMap, undefined, function ( error
 
 The next section explains how to plan and design an interactive scene before building it. You do not need to draw the plan for this scene or game yourself. However, viewing the scene mock-ups can help you understand the different components used in this lesson and provide an example of how you might plan your own scenes or games.
 
-## Using Mock-ups to Plan a Scene or Game
+### Using Mock-ups to Plan a Scene or Game
 
 Part 1 introduced the core elements of a scene, such as a camera, light(s), and models, and showed how their positions in 3D space are specified in the code. If you do not remember the three (x, y and z) axes (the red, green and blue arrows) in the [three.js editor](https://threejs.org/editor/), you may want to reopen it, or examine Figures 5-10 in Part 1. 
 
@@ -87,7 +87,7 @@ Part 1 utilised one model. With multiple models it is useful to draft out where 
 
 When designing your own interactive scenes or games, draw the three different 2D views: the 'front view', 'side view', and 'bird's-eye view'. Figure 3 shows mock-up views for the game version of the scene that will be created in the second part of this lesson. Note that the x, y, and z axes are clearly identified in the mock-ups, with their positive and negative directions indicated.
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-03.png" alt="Scene mock-ups in z, x and y views." caption="Figure 3. Affinity Designer versions of the hand-drawn sketches for planning the game. Mock-ups of all three views are done, with rough coordinates and spacing for the scene assets (here the camera, light, the map, information panels and a key panel featuring 9 spheres, the jar/site positions, and the area in which the jars will randomly start in the game). Coordinates are x, y, z. Note that the light is off the scale in the y axis." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-03.png" alt="Scene mock-ups in z, x and y views." caption="Figure 3. Affinity Designer versions of the hand-drawn sketches for planning the game. Mock-ups of all three views are done, with rough coordinates and spacing for the scene assets (here the camera, light, the map, information panels and a key panel featuring 9 spheres, the jar/site positions, and the area in which the jars will randomly start in the game). Coordinates are x, y, z. Note that the light is off the scale in the y axis. Map imagery © 2022 Google, INEGI." %}
 
 Mock-ups are good for identifying what assets (models and textures) you will need. Part 1 used a model which featured a geographical map and 29 jars, but in this lesson the components of that model will be imported separately. For simplicity, the lesson will only use six jar models but the other 23 can be added at the end if you wish. The scene will also need three panels that show instructions, references, and information about the jars. Nine spheres will be added to the panel on the right to form part of the colour key, showing how the jars were made by the potters. The middle gallery panel will display either instructions or information about the selected jar, so its content will change depending on which jar is selected. To achieve this, six additional panels will be created but will not initially be visible.
 
@@ -264,7 +264,7 @@ scene.add( gallery, gallery2, gallery3);
 
 Save the `index.html` file and reload the browser. There should be three panels, with the spheres on the right-hand panel. If the panels are black, the images are probably in the wrong directory. It should look like Figure 6, but without the map.
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-06.png" alt="Webpage with three square panels of text and a horizontal map of Papua." caption="Figure 6. Webpage with three vertical information panels and a horizontal map." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-06.png" alt="Webpage with three square panels of text and a horizontal map of Papua." caption="Figure 6. Webpage with three vertical information panels and a horizontal map. Map imagery © 2022 Google, INEGI." %}
 
 Next, you will create information panels for all the jars. The scene is designed so the panels will be hidden (by making `.visible = false`) until the relevant jar is selected by the user. A variable, `selectedPlane`, is used to track which panel is currently visible. At the start, an instruction panel is displayed. 
 
@@ -537,7 +537,7 @@ loader.load( 'models/yabob.glb', function( gltf ) {
 
 Save the `index.html` file and reload the browser. You should see five models (Figure 10). You will have to move around to see the sixth.
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-10.png" alt="Five jar models sit on a map of Papua." caption="Figure 10. Webpage with six jars from Papua, but one is out of camera range." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-10.png" alt="Five jar models sit on a map of Papua." caption="Figure 10. Webpage with six jars from Papua, but one is out of camera range. Map imagery © 2022 Google, INEGI." %}
 
 It does not matter which of the three methods you use if you are writing your own code.
 
@@ -683,7 +683,7 @@ selectedPlane.visible = true; // make the new panel visible
 
 After reloading, you should be able to select a jar and see the middle information panel change to display information about that jar. You can try `.emissive.g` or `.emissive.b` to make the selected jar green or blue emissive, if you wish.
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-11.png" alt="Five jars on a map with one glowing red as it has been selected." caption="Figure 11. Webpage showing the Aibom jar selected with its red emission set to true, and the Aibom information panel." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-11.png" alt="Five jars on a map with one glowing red as it has been selected." caption="Figure 11. Webpage showing the Aibom jar selected with its red emission set to true, and the Aibom information panel. Map imagery © 2022 Google, INEGI." %}
 
 The next sections are optional. In these sections, you can learn to turn the website into a puzzle game and to add additional jars.
 
@@ -777,7 +777,7 @@ tori.add(aibomSite, mailuSite, dimiriSite, louisadeSite, adzeraSite, yabobSite);
 
 Save the `index.html` file, reload the browser and check that the tori appear on the map. At this stage, however, the jar models will no longer appear because the code for positioning them needs to be updated.
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-12.png" alt="Five jars sit on green tori on a map of Papua." caption="Figure 12. Webpage with the jars sitting on tori." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-12.png" alt="Five jars sit on green tori on a map of Papua." caption="Figure 12. How the jars will be positioned on the tori when correctly matched to their site. Map imagery © 2022 Google, INEGI." %}
 
 ### Setting Random Starting Positions for the Jars
 
@@ -811,7 +811,7 @@ model.userData.site = site;
 
 Save the `index.html` file and reload the browser. The jars should now appear above the map at random positions. Each time you reload the page, they will appear at different random locations.
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-13.png" alt="Six jars float at random positions above a map of Papua New Guinea." caption="Figure 13. Webpage with the jars at random start positions above the map." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-13.png" alt="Six jars float at random positions above a map of Papua New Guinea." caption="Figure 13. Webpage with the jars at random start positions above the map. Map imagery © 2022 Google, INEGI." %}
 
 ### Raycasting: Changing What the Mouse Click Detects
 
@@ -1027,11 +1027,11 @@ unmoveable.attach( selectedObject); // adding to the unmoveable group will remov
 
 Save the `index.html` file and try testing the game. You might find that moving objects accurately in 3D can be difficult. When viewing 3D scenes on 2D surfaces (such as a computer screen) objects that are distant from each other can appear to be close. In the next step, you will make matching the jars to their sites slightly easier. If you want to test dragging the jars at this stage, however, it is best done in multiple steps: viewing from the side to lower the jar to the map, and then from the top (bird's-eye view) to place it in the right spot, or vice versa (Figures 14-16).
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-14.png" alt="While five jars are randomly above the map, the Aibom jar has been moved close to its torus." caption="Figure 14. Moving jars, such as the Aibom jar, close to their torus is best done in multiple steps and when viewing the scene directly from the front, side or above." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-14.png" alt="While five jars are randomly above the map, the Aibom jar has been moved close to its torus." caption="Figure 14. Moving jars, such as the Aibom jar, close to their torus is best done in multiple steps and when viewing the scene directly from the front, side or above. Map imagery © 2022 Google, INEGI." %}
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-15.png" alt="Bird's-eye view of jars and map, with the background changed to a pink colour to show that the Aibom jar has been correctly positioned." caption="Figure 15. Moving jars while viewing the scene from above helps correctly position jars, triggering a background (random) colour change." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-15.png" alt="Bird's-eye view of jars and map, with the background changed to a pink colour to show that the Aibom jar has been correctly positioned." caption="Figure 15. Moving jars while viewing the scene from above helps correctly position jars, triggering a background (random) colour change. Map imagery © 2022 Google, INEGI." %}
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-16.png" alt="Normal view of the jars and map, with the Aibom jar in its correct position." caption="Figure 16. The Aibom jar in its correct position." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-16.png" alt="Normal view of the jars and map, with the Aibom jar in its correct position." caption="Figure 16. The Aibom jar in its correct position. Map imagery © 2022 Google, INEGI." %}
 
 
 #### Making Matching Easier by Detecting Matches in 2D Space
@@ -1135,7 +1135,7 @@ If you want to experiment with adding them (Figure 17), the following table prov
 
 </div>
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-17.png" alt="Many jars on a map of Papua New Guinea." caption="Figure 17. Additional jars can be added to the scene and puzzle." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-2-17.png" alt="Many jars on a map of Papua New Guinea." caption="Figure 17. Additional jars can be added to the scene and puzzle. Map imagery © 2022 Google, INEGI." %}
 
 ## Conclusion and Next Steps
 
