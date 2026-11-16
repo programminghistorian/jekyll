@@ -19,7 +19,7 @@ jobs:
         if : github.event.action != 'closed'
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2.2
+          ruby-version: '3.2'
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     # We then check if we can build our Jekyll site (all this logic is built-in with Jekyll and this prevents us from merging in any syntax errors).  
       - name: Jekyll build
