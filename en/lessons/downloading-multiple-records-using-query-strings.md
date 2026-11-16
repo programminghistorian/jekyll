@@ -1180,6 +1180,6 @@ helpful:
   [range]: https://docs.python.org/3/tutorial/controlflow.html#the-range-function
   [regular expressions]: https://docs.python.org/3/library/re.html
   [Counting Frequencies]: /lessons/counting-frequencies
-  [time out]: http://www.checkupdown.com/status/E408.html
+  [time out]: https://web.archive.org/web/20121114104337/http://www.checkupdown.com/status/E408.html
   [Python Programming Basics]: /lessons/introduction-and-installation
   [try / except]: http://docs.python.org/tutorial/errors.html
