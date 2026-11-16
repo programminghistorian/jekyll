@@ -400,7 +400,7 @@ the case you have made an error.
     "Powerhouse museum"
   [*Potter’s Wheel ABC*]: https://perma.cc/Q6QD-E64N
     "Potter's Wheel ABC "
-  [*Wrangler*]: http://vis.stanford.edu/papers/wrangler/ "Wrangler"
+  [*Wrangler*]: https://web.archive.org/web/20260809100917/http://vis.stanford.edu/files/2011-Wrangler-CHI.pdf "Wrangler"
   [data profiling]: http://en.wikipedia.org/wiki/Data_profiling
   [named-entity recognition]: http://en.wikipedia.org/wiki/Named-entity_recognition
   [Library of Congress]: http://www.loc.gov/index.html
