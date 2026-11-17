@@ -3,7 +3,7 @@ title: "Building Interactive Environments for 3D Models with three.js (Part 1)"
 slug: building-3d-environments-threejs-pt-1
 layout: lesson
 collection: lessons
-date: 2026-11-12
+date: 2026-11-18
 authors:
 - Kristine Hardy
 - Mathieu Leclerc
@@ -109,7 +109,7 @@ One approach for connecting media, including models, with cultural information, 
 
 The available guidelines and protocols are generally more targeted at institutions, but it is worth considering [Basic principle and tips for 3D digitisation of cultural heritage](https://perma.cc/5M63-HEZL) and [Protocols for using First Nations cultural and intellectual property in the arts](https://perma.cc/J3FF-LFV9).
 
-It is also important to reference the sources of images and models used in a website. In this lesson, references will be provided through an information panel on the website. The degree to which models of cultural artefacts are covered by copyright, and who that copyright belongs to (the creators of the original artefacts, the current ‘owners’ or caretakers of the artefacts, or the creators of the model), depends on several factors, and is not always clear-cut [^8] [^9] [^10]. Many researchers aim to make their models and site code available for others to use to increase the dissemination of information and promote further research. Often, models and code are given [Creative Commons licences](https://perma.cc/GES7-EGMQ) such as CC-BY-NC (Creative Commons Attribution-NonCommercial). However, it is always worth considering that your models may be used in virtual scenes you disagree with or find offensive, for example the pot models could be used in a potentially culturally derogatory manner such as illustrating cannibalism). While you can request users to only use your models and code for non-derogatory purposes, publicly available digital assets are increasingly being scraped by artificial intelligence (AI) ‘bots’, thus potentially contributing to models used in scenarios you did not foresee. The use of the `NoAI` HTML meta tag may help discourage such data harvesting.
+It is also important to reference the sources of images and models used in a website. In this lesson, references will be provided through an information panel on the website. The degree to which models of cultural artefacts are covered by copyright, and who that copyright belongs to (the creators of the original artefacts, the current ‘owners’ or caretakers of the artefacts, or the creators of the model), depends on several factors, and is not always clear-cut [^8] [^9] [^10]. Many researchers aim to make their models and site code available for others to use to increase the dissemination of information and promote further research. Often, models and code are given [Creative Commons licences](https://perma.cc/GES7-EGMQ) such as CC-BY-NC (Creative Commons Attribution-NonCommercial). However, it is always worth considering that your models may be used in virtual scenes you disagree with or find offensive, for example the pot models could be used in a potentially culturally derogatory manner such as illustrating cannibalism. While you can request users to only use your models and code for non-derogatory purposes, publicly available digital assets are increasingly being scraped by artificial intelligence (AI) ‘bots’, thus potentially contributing to models used in scenarios you did not foresee. The use of the `NoAI` HTML meta tag may help discourage such data harvesting.
 
 When making games using cultural heritage models, it is also important to reflect on whether scenes or puzzles adopt a colonial approach. For example, rather than allowing the user to steal or ‘collect’ artefacts in a video game, a better aim might be to gamify the return of artefacts to their place or community of origin. In the puzzle in Part 2 of this lesson, the pots are matched to their original community, as represented as a place on the map.
 
@@ -138,7 +138,7 @@ Normal maps are colour ([RGB](https://perma.cc/N3XW-NV2Z)) images with the three
 
 If you are interested in UV mapping, you can use the **Model Inspector** in the bottom right corner of many models in [SketchFab](https://perma.cc/Z4HQ-H4MJ), including [’Diva Demon’](https://skfb.ly/pzB7J) (the dog) and the [’Papua Jars’](https://skfb.ly/putNM). In the **3D + 2D** view, you can see how the U and V coordinates on the model correspond to those on the texture map (Figure 3). The colour map texture (an image of a geographical map of Papua New Guinea) used in the lower model in Figure 3 is one of the textures that will be used in Part 2.
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-03.png" alt="The dog and jar models in the Model Inspector in SketchFab." caption="Figure 3. The Model Inspector in SketchFab for the dog and Papua Jars models. The Papua Jars model is a composite model whose components include a plane textured with a geographical map of Papua New Guinea." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-03.png" alt="The dog and jar models in the Model Inspector in SketchFab." caption="Figure 3. The Model Inspector in SketchFab for the dog and Papua Jars models. The Papua Jars model is a composite model whose components include a plane textured with a geographical map of Papua New Guinea. Map imagery © 2022 Google, INEGI." %}
 
 ### Model File Formats
 
@@ -166,7 +166,7 @@ In this lesson, we focus on the three.js JavaScript library because it is relati
 
 Some platforms host existing models and allow you to annotate and embed them in your own website. For example, many cultural heritage models are hosted on SketchFab[^13], which allows for (limited) interactive annotations, where informative text appears when users click on certain areas of the model (Figure 4). Models such as the [’Papua Jars’](https://skfb.ly/putNM) or [’Diva Demon’](https://skfb.ly/pzB7J) can be linked and embedded in other websites. [Smithsonian Voyager](https://perma.cc/6LRN-5DTP), [3DHOP](https://perma.cc/3VD7-ZKGD) and [Kompakkt](https://kompakkt.de/about) also allow for models to be embedded in websites and offer more extensive model annotation. These platforms are useful for creating websites that present high-quality models alongside contextual information that appears as users interact with them. Researchers and students can also examine these models with measurement tools.
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-04.png" alt="The jar models in SketchFab and several stylised models of jars from Papua, five of them numbered. Informative text is shown for jar 5." caption="Figure 4. The Papua jar models in SketchFab with five annotations." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-04.png" alt="The jar models in SketchFab and several stylised models of jars from Papua, five of them numbered. Informative text is shown for jar 5." caption="Figure 4. The Papua jar models in SketchFab with five annotations. Map imagery © 2022 Google, INEGI." %}
 
 For more complex websites, such as those with multiple models that users can manipulate independently, or that require a test to see if models have been placed correctly relative to one another, JavaScript libraries, such as three.js and [Babylon.js](https://perma.cc/4ES6-FQU2), or game engines such as [Godot](https://perma.cc/LNQ6-BAW5), [Unity](https://unity.com) and [Unreal Engine](https://perma.cc/6A6P-NUBW), are typically required. Some game engines also offer no-code approaches that might appeal to some users.
 
@@ -194,21 +194,21 @@ Before using your models on your website, it can be helpful to open them in a vi
 
 When inspecting models, you may need to add or modify lights, as some materials are not visible without them. To do so, change **WIREFRAME** back to **SOLID**. In the editor, add a hemisphere light from the **Add** > **Light** > **Hemisphere** menu. If you select the hemisphere light in the **SCENE** tab, you can change the colour to white and the ground colour to black (Figure 7). This creates light that appears to come from above (like light from the sky) and gradually darkens towards the ground. You can use the editor to experiment with different lighting options and see how they make objects visible and affect how the model appears.
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-07.png" alt="Web editor showing jar models in different colours." caption="Figure 7. The jars under a hemisphere light." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-07.png" alt="Web editor showing jar models in different colours." caption="Figure 7. The jars under a hemisphere light. Map imagery © 2022 Google, INEGI." %}
 
 If you zoom out, you can see the map. The jars are coloured because they have materials, which define how their surfaces appear. The map, by contrast, is a flat surface (a plane) with an image texture applied to it (Figure 8).
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-08.png" alt="Web editor showing that the rectangle the jars are on has a map of Papua New Guinea." caption="Figure 8. The Papua New Guinea map and its image texture (called a map in the Material tab)." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-08.png" alt="Web editor showing that the rectangle the jars are on has a map of Papua New Guinea." caption="Figure 8. The Papua New Guinea map and its image texture (called a map in the Material tab). Map imagery © 2022 Google, INEGI." %}
 
 Click on a jar. While in the editor, it is useful to look at the red, green, and blue arrows in the centre of the scene, which show the coordinate system. This system is used to position objects in 3D space.
 
 Different graphics programs and game engines use different coordinate systems. In three.js, positions are defined using x, y, and z values. These values determine where an object is positioned in the scene. In three.js, x is left (-) and right (+), y is down (-) and up (+) and z is far (-) and near (+) (Figure 9). This is known as a Y-up, right-handed coordinate system.
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-09.png" alt="Web editor with three arrows, coloured red, green and blue, showing the x, y and z axes." caption="Figure 9. The three.js coordinate system. The red arrow shows the positive x direction, the green arrow shows the positive y direction, and the blue arrow shows the positive z direction." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-09.png" alt="Web editor with three arrows, coloured red, green and blue, showing the x, y and z axes." caption="Figure 9. The three.js coordinate system. The red arrow shows the positive x direction, the green arrow shows the positive y direction, and the blue arrow shows the positive z direction. Map imagery © 2022 Google, INEGI." %}
 
 If you select a jar and look in the **OBJECT** tab, you will see its x, y, and z position values; in other words, how it was placed (Figure 10). You can change these values and see how the jar moves. You can also change the scale or rotation of a jar and test how these transformations affect the model.
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-10.png" alt="Web editor showing a round jar (manus001), with its x, y and z positions visible in the geometry window." caption="Figure 10. The position of the jar made by one of the communities on Manus Island." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-10.png" alt="Web editor showing a round jar (manus001), with its x, y and z positions visible in the geometry window." caption="Figure 10. The position of the jar made by one of the communities on Manus Island. Map imagery © 2022 Google, INEGI." %}
 
 ## Building an Interactive 3D Website with the three.js JavaScript Library
 
@@ -228,7 +228,7 @@ In VSC, open the `myscene` folder. Create a new file and call it `index.html`. T
 
 For the purposes of this lesson, you will write all the code directly in this file. This is not best practice: generally, JavaScript code is written in a separate (`.js`) file and then imported into the HTML (`index.html`) file. However, keeping everything in one file here makes it easier to see how the different parts work together.
 
-Also note that, whilst in some languages (such as Python) code indentation is required for the code to work correctly, in JavaScript indentation is not required. So if copying and pasting changes the indentation, you do not need to correct it, although proper indentation might make the code easier to read and help you copy and paste code in the correct place. If you run into problems when editing the code that you cannot fix, you can download and inspect our finished code [`index_pt1_complete.html`](/assets/building-3d-environments-threejs-pt-1-2/index_pt1_complete.html).
+Also note that, whilst in some languages (such as Python) code indentation is required for the code to work correctly, in JavaScript indentation is not required. So if copying and pasting changes the indentation, you do not need to correct it, although proper indentation might make the code easier to read and help you copy and paste code in the correct place. If you run into problems when editing the code that you cannot fix, you can download and inspect our finished code [`index_pt1_complete.html`](/assets/building-3d-environments-threejs-pt-1-2/index_pt1_complete.html) (right-click the link and select 'Save Link As' to download the file).
 
 In the `index.html` file, copy and paste the following, and save the file:
 
@@ -705,7 +705,7 @@ Importantly, model loading is not instantaneous. The rest of your code continues
 
 Save the file and reload the page. You should now see the model, although you will not be able to move around it yet (Figure 14).
 
-{% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-14.png" alt="Several jar models sitting on a map of Papua." caption="Figure 14. The model of jars on a map of Papua." %}
+{% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-14.png" alt="Several jar models sitting on a map of Papua." caption="Figure 14. The model of jars on a map of Papua. Map imagery © 2022 Google, INEGI." %}
 
 
 #### 7. Adding Camera Controls to Move Around
