@@ -130,7 +130,7 @@ Users with Linux computers can run nanDECK if they install the Windows emulator 
 
 nanDECK can be downloaded and then run on OSX using the Windows emulator [Wine](https://www.winehq.org/). That being said, those with Apple computers running on MacOS Catalina or later will need to take additional steps, as Wine no longer runs on operating systems that have dropped 32-bit OS support. 
 
-The official nanDECK Manual[^16] suggests a workaround for MacOS which requires you to [install Winebottler](https://winebottler.kronenberg.org/) and [XQuartz](https://xquartz.macosforge.org/) to run the same version of Windows on an OSX computer. Alternatively, users can consider installing and using nanDECK through an emulator like [Virtual Box](https://www.virtualbox.org/wiki/Downloads) or through a commercial subscription service such as [Parallels](https://www.parallels.com/ca/products/desktop/). 
+The official nanDECK Manual[^16] suggests a workaround for MacOS which requires you to [install Winebottler](https://winebottler.kronenberg.org/) and [XQuartz](https://xquartz.macosforge.org/) to run the same version of Windows on an OSX computer. Alternatively, users can consider installing and using nanDECK through an emulator like [Virtual Box](https://en.wikipedia.org/wiki/VirtualBox) or through a commercial subscription service such as [Parallels](https://www.parallels.com/ca/products/desktop/). 
 
 ### Installation Problems
 
