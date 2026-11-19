@@ -253,7 +253,7 @@ C7, F, Gm, Am, Bb, C, F, Dm, Gm, C, F
 A ... Barata diz que tem sete saias de filó
 ```
 
-Você consegue fazer o seu computador tocar essa música? (Esse [material](http://www.electronics.dit.ie/staff/tscarff/Music_technology/midi/midi_note_numbers_for_octaves.html) (em inglês) irá ajudar).
+Você consegue fazer o seu computador tocar essa música? (Esse [material](https://plastic.audio/note-frequencies/) (em inglês) irá ajudar).
 
 **A propósito**, há uma especificação de ficheiro de texto para descrever música chamado [Notação ABC](https://pt.wikipedia.org/wiki/ABC_(nota%C3%A7%C3%A3o_musical)). Por enquanto, está além de nossa compreensão, mas alguém poderia escrever um script de sonificação em, por exemplo, uma planilha, mapeando valores para nomes de notas na especificação ABC (se você já usou um IF - THEN no Excel para converter notas percentuais em notas alfabéticas, terá uma noção de como isso pode ser feito) e então usando um site como [esse](http://trillian.mit.edu/~jc/music/abc/ABCcontrib.html) (em inglês) para converter a notação ABC em um ficheiro .mid.
 
