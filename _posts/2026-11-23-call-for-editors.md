@@ -11,6 +11,13 @@ The English-language edition of *[Programming Historian](/en)* is seeking new ed
 
 This is an opportunity to become part of a global and interdisciplinary team of volunteers who are passionate about developing and sharing practical learning materials on digital methods and workflows that are open, accessible, and sustainable.
 
+## Key Information
+
+**Position type:** Voluntary
+**Working arrangements:** Remote and asynchronous
+**Applications close:** 23 December 2026 (by midnight in your timezone)
+**Timeline:** Informal interviews expected mid to late January 2027
+
 ## About *Programming Historian*
 
 *Programming Historian* is an open-access, multilingual, and interdisciplinary publishing project that offers peer-reviewed lessons on a wide range of digital tools, methods, and workflows for students, researchers, and practitioners in the humanities and social sciences.
@@ -26,7 +33,7 @@ As a member of *Programming Historian in English* editorial team, your key respo
 - Participating in the review and selection of lesson proposals
 - Editing a minimum of one lesson or translation per year
 
-The workload varies in intensity throughout the year. The busiest periods tend to be in February/March, when lesson proposals are reviewed; in April/May, when initial editing takes place; and in September/October when finalising lessons for publication. We ask editors to remain communicative and responsive throughout the year, and to participate in occasional team meetings. Editors may also have opportunities to collaborate with other members of *Programming Historian* teams on research projects or presentations, depending on interest and availability. 
+The workload varies in intensity throughout the year. The busiest periods tend to be in February/March, when lesson proposals are reviewed; in April/May, when initial editing takes place; and in September/October when finalising lessons for publication. We ask editors to remain communicative and responsive throughout the year, and to participate in occasional team meetings. Editors may also have opportunities to connect with other members of *Programming Historian* teams in monthly Community Calls, and collaborate on research projects or presentations, depending on interest and availability. 
 
 This is an unpaid volunteer position. You will be working remotely within an international team.
 
@@ -56,6 +63,8 @@ Laura Alice Chapot (Managing Editor), Caio Mello (Assistant Managing Editor), an
 ## How to Apply
 
 If you are interested in applying, please fill out the [application form](https://tinyurl.com/editor-call-2026) and provide a CV of no more than two pages by **23 December 2026** to tell us about your relevant interests, skills, and experience.
+
+We’ll review applications in early January, and we’ll be holding informal interviews in mid to late January, subject to candidates’ availability.
 
 If you’d like to ask any questions about this role, please write to the Managing Editor, [Laura Alice Chapot](mailto:english@programminghistorian.org), or our Publishing Manager, [Anisa Hawes](mailto:admin@programminghistorian.org).
 
