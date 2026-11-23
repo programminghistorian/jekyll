@@ -13,10 +13,10 @@ This is an opportunity to become part of a global and interdisciplinary team of 
 
 ## Key Information
 
-**Position type:** Voluntary
-**Working arrangements:** Remote and asynchronous
-**Applications close:** 22 December 2026 (by midnight in your timezone)
-**Timeline:** Informal interviews expected mid to late January 2027
+**Position type:** Voluntary   
+**Working arrangements:** Remote and asynchronous  
+**Applications close:** 22 December 2026 (by midnight in your timezone)  
+**Timeline:** Informal interviews expected mid to late January 2027  
 
 ## About *Programming Historian*
 
@@ -62,7 +62,7 @@ Laura Alice Chapot (Managing Editor), Caio Mello (Assistant Managing Editor), an
 
 ## How to Apply
 
-If you are interested in applying, please fill out the application using our [Google Form](https://tinyurl.com/editor-call-2026) or [plain text form](/‎assets/forms/en-call-for-editors-2026.txt) and provide a CV of no more than two pages by **22 December 2026** to tell us about your relevant interests, skills, and experience.
+If you are interested in applying, please fill out the application using our [Google Form](https://tinyurl.com/editor-call-2026) or [plain text form](/assets/forms/en-call-for-editors-2026.txt) and provide a CV of no more than two pages by **22 December 2026** to tell us about your relevant interests, skills, and experience.
 
 We’ll review applications in early January, and we’ll be holding informal interviews in mid to late January, subject to candidates’ availability.
 
