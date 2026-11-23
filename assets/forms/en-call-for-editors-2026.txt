@@ -1,0 +1,46 @@
+# Application to join the _Programming Historian in English_ team
+
+Thank you for your interest in joining _Programming Historian in English_ editorial team! We would love to learn more about your skills, experience, interests, and what you would bring to the team.
+
+Please complete the following form and submit a CV of no more than two pages by **22 December 2026 (by midnight in your timezone)**.
+
+----
+
+Email:
+
+Name: 
+
+Where are you currently based? (town/city and country)
+
+What is your current role or position, and affiliation (if applicable)?
+
+Please list your main fields of expertise (e.g. cultural heritage, media studies, literary studies, archaeology, history, etc.) and the areas of digital practice you work in (e.g. multimodal analysis, sound/audio, moving images, computer vision, NLP/text analysis, LLMs, digital archives, etc.):
+
+Please list the specific digital methods, tools, and programming languages you have expertise working with:
+
+Please tell us about one or two examples of projects where you have developed and/or applied digital methods.
+(200-300 words)
+
+How did you become interested in digital methodologies, and how have they become part of your work or research?
+(200-300 words)
+
+Do you have proficiency in Spanish, Portuguese, and/or French, to the level that you would be comfortable editing an English translation of a lesson originally written in one of those languages? 
+- Spanish
+- French
+- Portuguese
+- Other
+- None of the above
+
+Please tell us about your experiences with _Programming Historian_ or what interests you about the project?
+(100-200 words)
+
+Is there anything else you would like to tell us about your interests, skills, or experience, or what you would bring to the role?
+(200-300 words)
+
+**Please email this form and your CV (maximum two pages) to: admin@programminghistorian.org**
+
+Thank you for your application.
+
+We’ll review applications in early January, and we’ll be holding informal interviews in mid to late January, subject to candidates’ availability.
+
+If you’d like to ask any questions about this role, please write to the Managing Editor, Laura Alice Chapot (english@programminghistorian.org), or our Publishing Manager, Anisa Hawes (admin@programminghistorian.org).
