@@ -176,7 +176,7 @@ Another advantage of three.js is that it can be used to make websites viewable i
 
 In Part 2, you will build up ‘The Jars of Papua’ website from multiple models of jars and planes, but here you will start exploring the example composite pottery model using the [three.js editor](https://threejs.org/editor/). You will explore how concepts discussed earlier — such as meshes, model formats and sizes, materials, textures, lighting, and position (coordinates) — work together within a 3D scene.
 
-Download the composite model [`png_sceneDRACO.glb`](/assets/building-3d-environments-threejs-pt-1-2/png_sceneDRACO.glb) we've created for you to experiment with. Open the [three.js editor](https://threejs.org/editor/) in a new browser window (right-click on the link) and import the model with **File** > **Import** (Figure 5).
+Download the composite model [`png_sceneDRACO.glb`](/assets/building-3d-environments-threejs-pt-1-2/png_sceneDRACO.glb) we've created for you to experiment with. Open the [three.js editor](https://threejs.org/editor/) in a new browser window (right-click on the link) and import the model with **File** > **Import** (Figure 5). If a dialogue box appears asking 'Import  glTF as root scene', leave the check box unchecked and click 'OK' to continue.
 
 {% include figure.html filename="en-or-building-3d-environments-threejs-pt-1-05.png" alt="Web editor showing a dark rectangular prism with small jars on it." caption="Figure 5. The three.js editor with the composite model imported." %}
 
