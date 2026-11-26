@@ -684,7 +684,7 @@ Les échantillons de données nécessaires pour exécuter les exemples de comman
 >>> git clone https://github.com/impresso/PH-Passim-tutorial.git
 ```
 
-Il est également possible de télécharger les données de cette leçon via [Zenodo](https://zenodo.org/badge/latestdoi/250229057).
+Il est également possible de [télécharger les données](https://doi.org/10.5281/zenodo.4710350) de cette leçon via Zenodo.
 
 ## Etude de cas 1 : Citations bibliques dans des textes du XVIIe siècle
 
